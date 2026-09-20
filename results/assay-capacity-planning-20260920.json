@@ -1,0 +1,126 @@
+{
+  "kind": "prospective_planning_not_observed_experiment",
+  "configuration": {
+    "scope": "Illustrative engineered-line capacity proposal, contingent on model and exposure qualification; no laboratory experiment or power claim.",
+    "acquisition": {
+      "duration_hours": 48,
+      "cadence_minutes": 5,
+      "fields_per_well": 4,
+      "z_planes": 3,
+      "channels": 2,
+      "width_pixels": 1024,
+      "height_pixels": 1024,
+      "stored_bytes_per_pixel": 2
+    },
+    "retained_raw_copies": 2,
+    "simultaneous_well_capacities": [
+      24,
+      72
+    ],
+    "stages": [
+      {
+        "name": "baseline_six_model_classes",
+        "model_classes": 6,
+        "founder_families": 3,
+        "culture_preparations": 3,
+        "conditions": 1,
+        "technical_wells": 2
+      },
+      {
+        "name": "one_drug_three_model_classes_vehicle_plus_three_exposures",
+        "model_classes": 3,
+        "founder_families": 3,
+        "culture_preparations": 3,
+        "conditions": 4,
+        "technical_wells": 2
+      }
+    ]
+  },
+  "inclusive_frames_per_field_plane_channel": 577,
+  "bytes_per_image_plane": 2097152,
+  "uncompressed_pixel_bytes_per_well": 29041360896,
+  "capacity_scenarios": [
+    {
+      "simultaneous_wells": 24,
+      "image_planes_per_timepoint": 576,
+      "total_seconds_available_per_image_plane_including_all_overhead": 0.5208333333333334,
+      "raw_bytes_per_full_session": 696992661504
+    },
+    {
+      "simultaneous_wells": 72,
+      "image_planes_per_timepoint": 1728,
+      "total_seconds_available_per_image_plane_including_all_overhead": 0.1736111111111111,
+      "raw_bytes_per_full_session": 2090977984512
+    }
+  ],
+  "stages": [
+    {
+      "name": "baseline_six_model_classes",
+      "design": {
+        "name": "baseline_six_model_classes",
+        "model_classes": 6,
+        "founder_families": 3,
+        "culture_preparations": 3,
+        "conditions": 1,
+        "technical_wells": 2
+      },
+      "wells": 108,
+      "wells_per_culture_preparation": 36,
+      "uncompressed_pixel_bytes": 3136466976768,
+      "raw_storage_bytes_with_copies": 6272933953536,
+      "instrument_capacity": [
+        {
+          "simultaneous_wells": 24,
+          "minimum_sessions_preserving_separate_culture_preparations": 6,
+          "minimum_acute_instrument_hours": 288,
+          "minimum_acute_instrument_days": 12.0
+        },
+        {
+          "simultaneous_wells": 72,
+          "minimum_sessions_preserving_separate_culture_preparations": 3,
+          "minimum_acute_instrument_hours": 144,
+          "minimum_acute_instrument_days": 6.0
+        }
+      ]
+    },
+    {
+      "name": "one_drug_three_model_classes_vehicle_plus_three_exposures",
+      "design": {
+        "name": "one_drug_three_model_classes_vehicle_plus_three_exposures",
+        "model_classes": 3,
+        "founder_families": 3,
+        "culture_preparations": 3,
+        "conditions": 4,
+        "technical_wells": 2
+      },
+      "wells": 216,
+      "wells_per_culture_preparation": 72,
+      "uncompressed_pixel_bytes": 6272933953536,
+      "raw_storage_bytes_with_copies": 12545867907072,
+      "instrument_capacity": [
+        {
+          "simultaneous_wells": 24,
+          "minimum_sessions_preserving_separate_culture_preparations": 9,
+          "minimum_acute_instrument_hours": 432,
+          "minimum_acute_instrument_days": 18.0
+        },
+        {
+          "simultaneous_wells": 72,
+          "minimum_sessions_preserving_separate_culture_preparations": 3,
+          "minimum_acute_instrument_hours": 144,
+          "minimum_acute_instrument_days": 6.0
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "No laboratory access, material availability, instrument throughput, efficacy or statistical power established.",
+    "Raw pixel counts exclude metadata, derived images, segmentation, temporary storage and spare capacity. No compression gain assumed.",
+    "Session counts are lower bounds, not a schedule. Setup, calibration, between-block effects, culture/model construction, washout and repeat failures require additional time.",
+    "Fields, frames and technical wells do not create independent biological replicates. The model assumes the specified founder families and culture preparations are actually available.",
+    "Three nonzero exposure conditions in the example are planning slots, not selected concentrations or a dosing recommendation."
+  ],
+  "calculated_at": "2026-09-20T06:22:35.766083+00:00",
+  "script_sha256": "9fbd2ba4ca0c4e7d1f910fc79e1af8ced4a72f402d84a9701653ca70157bc109",
+  "config_sha256": "936af95af461a0ecf9fde9da8f1a827150ec1102c1c7bfe5d421536d028628d4"
+}

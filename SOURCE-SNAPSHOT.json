@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-09-20T06:03:10.484316+00:00",
+  "created_at": "2026-09-20T06:36:21.367636+00:00",
   "scope": "Complete selected workflow source/configuration inventory plus public/synthetic/runtime evidence; no patient-result files or internal Git history.",
-  "source_manifest_sha256": "3e8e6ec5cf4dbd3f25cc86fcd8f922aa2d67524cc3527d9ba40b54ef81799459",
-  "exporter_sha256": "09c17f102991520ffbc2242a1b77b78f448cf84bdee705399c6e0d8e877b9554",
+  "source_manifest_sha256": "2c7118e9183a176c116bea65d1bc8327a9ff68017431889f261ced0bb1a1b972",
+  "exporter_sha256": "93978988212e97a0362978d0cbf2cbc90e0836d117974b8c8f0b3304f90629c9",
   "files": [
     {
       "path": ".gitignore",
@@ -26,19 +26,28 @@
       "path": "README.md",
       "source_path": "publication/README.md",
       "source_mode": 420,
-      "source_bytes": 7884,
-      "source_sha256": "be9796a9adb67838a260e4f8aa0efe7ab87116436dddfa3ef556a75934cd9bd2",
-      "release_bytes": 7884,
-      "release_sha256": "be9796a9adb67838a260e4f8aa0efe7ab87116436dddfa3ef556a75934cd9bd2"
+      "source_bytes": 8036,
+      "source_sha256": "e15fc064a36df3d214ee06d5e813b15b7085b53881f574a5feafe891fa8ab3d6",
+      "release_bytes": 8036,
+      "release_sha256": "e15fc064a36df3d214ee06d5e813b15b7085b53881f574a5feafe891fa8ab3d6"
     },
     {
       "path": "REPRODUCIBILITY.md",
       "source_path": "publication/REPRODUCIBILITY.md",
       "source_mode": 420,
-      "source_bytes": 20487,
-      "source_sha256": "53b6b86c1305d6feb1b973e8e48169c67b12bf1d802627c977d23a12275efb49",
-      "release_bytes": 20487,
-      "release_sha256": "53b6b86c1305d6feb1b973e8e48169c67b12bf1d802627c977d23a12275efb49"
+      "source_bytes": 21097,
+      "source_sha256": "d80a940f5858ef88492a63bd33819f11244eeb632d1974b2b948b5f2480b273e",
+      "release_bytes": 21097,
+      "release_sha256": "d80a940f5858ef88492a63bd33819f11244eeb632d1974b2b948b5f2480b273e"
+    },
+    {
+      "path": "results/assay-capacity-planning-20260920.json",
+      "source_path": "results/assay-capacity-planning-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 4638,
+      "source_sha256": "96c57b0cb9a1f134718cb82d12bf24d823f9ec1ba174b1e18a80c4b7499a54c2",
+      "release_bytes": 4638,
+      "release_sha256": "96c57b0cb9a1f134718cb82d12bf24d823f9ec1ba174b1e18a80c4b7499a54c2"
     },
     {
       "path": "results/cnv-context-method-controls-20260920.json",
@@ -327,6 +336,15 @@
       "source_sha256": "058cdd7da1f0fb382d354a747cc2a88f2a43457247985f40a205ed33983fda1e",
       "release_bytes": 1938,
       "release_sha256": "058cdd7da1f0fb382d354a747cc2a88f2a43457247985f40a205ed33983fda1e"
+    },
+    {
+      "path": "workflow/configs/assay-pilot-capacity.json",
+      "source_path": "workflow/configs/assay-pilot-capacity.json",
+      "source_mode": 420,
+      "source_bytes": 890,
+      "source_sha256": "936af95af461a0ecf9fde9da8f1a827150ec1102c1c7bfe5d421536d028628d4",
+      "release_bytes": 890,
+      "release_sha256": "936af95af461a0ecf9fde9da8f1a827150ec1102c1c7bfe5d421536d028628d4"
     },
     {
       "path": "workflow/configs/autosomal-copy-number.json",
@@ -917,10 +935,10 @@
       "path": "workflow/scripts/export_repository_snapshot.py",
       "source_path": "workflow/scripts/export_repository_snapshot.py",
       "source_mode": 420,
-      "source_bytes": 9417,
-      "source_sha256": "09c17f102991520ffbc2242a1b77b78f448cf84bdee705399c6e0d8e877b9554",
-      "release_bytes": 9417,
-      "release_sha256": "09c17f102991520ffbc2242a1b77b78f448cf84bdee705399c6e0d8e877b9554"
+      "source_bytes": 9462,
+      "source_sha256": "93978988212e97a0362978d0cbf2cbc90e0836d117974b8c8f0b3304f90629c9",
+      "release_bytes": 9462,
+      "release_sha256": "93978988212e97a0362978d0cbf2cbc90e0836d117974b8c8f0b3304f90629c9"
     },
     {
       "path": "workflow/scripts/export_runtime.py",
@@ -1029,6 +1047,15 @@
       "source_sha256": "442a03999af91bdd44323d8ae08aac2ec4155e53bd697b15db158754712ed455",
       "release_bytes": 3986,
       "release_sha256": "442a03999af91bdd44323d8ae08aac2ec4155e53bd697b15db158754712ed455"
+    },
+    {
+      "path": "workflow/scripts/plan_assay_capacity.py",
+      "source_path": "workflow/scripts/plan_assay_capacity.py",
+      "source_mode": 420,
+      "source_bytes": 5608,
+      "source_sha256": "9fbd2ba4ca0c4e7d1f910fc79e1af8ced4a72f402d84a9701653ca70157bc109",
+      "release_bytes": 5608,
+      "release_sha256": "9fbd2ba4ca0c4e7d1f910fc79e1af8ced4a72f402d84a9701653ca70157bc109"
     },
     {
       "path": "workflow/scripts/plot_cnv_context.py",
@@ -2210,8 +2237,8 @@
       "release_sha256": "54ce1865db01ed816a73ad29a73a7c864ecf920b1e9475aaaa596d36405d4b34"
     }
   ],
-  "file_count": 245,
-  "total_release_bytes": 2220665,
+  "file_count": 248,
+  "total_release_bytes": 2232608,
   "transformations": [
     {
       "kind": "comment_only_acquisition_metadata_replacement",

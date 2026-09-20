@@ -27,6 +27,7 @@ clinical sensitivity for the child.
 - [Structural/CNV selection controls](results/structural-cnv-context-controls-20260920.json)
 - [Literal tandem-junction and transcript-geometry controls](results/tandem-junction-method-controls-20260920.json)
 - [Nearby-pair phase, mapping and mate-handling controls](results/paralog-pair-method-controls-20260920.json)
+- [Prospective assay-capacity calculation](results/assay-capacity-planning-20260920.json) — planning assumptions, not an experiment or power estimate
 
 The workflow covers reference preparation, alignment, native GATK/bcftools calling,
 phenotype-assisted and phenotype-independent prioritisation, read evidence, phasing,

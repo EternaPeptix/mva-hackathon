@@ -1,0 +1,33 @@
+{
+  "scope": "Illustrative engineered-line capacity proposal, contingent on model and exposure qualification; no laboratory experiment or power claim.",
+  "acquisition": {
+    "duration_hours": 48,
+    "cadence_minutes": 5,
+    "fields_per_well": 4,
+    "z_planes": 3,
+    "channels": 2,
+    "width_pixels": 1024,
+    "height_pixels": 1024,
+    "stored_bytes_per_pixel": 2
+  },
+  "retained_raw_copies": 2,
+  "simultaneous_well_capacities": [24, 72],
+  "stages": [
+    {
+      "name": "baseline_six_model_classes",
+      "model_classes": 6,
+      "founder_families": 3,
+      "culture_preparations": 3,
+      "conditions": 1,
+      "technical_wells": 2
+    },
+    {
+      "name": "one_drug_three_model_classes_vehicle_plus_three_exposures",
+      "model_classes": 3,
+      "founder_families": 3,
+      "culture_preparations": 3,
+      "conditions": 4,
+      "technical_wells": 2
+    }
+  ]
+}

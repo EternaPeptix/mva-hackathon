@@ -266,6 +266,14 @@ those submission requirements.
 
 ## 4. Check components and preserve evidence
 
+`plan_assay_capacity.py --config workflow/configs/assay-pilot-capacity.json
+--output <new-output.json>` uses standard-library arithmetic to calculate a prospective
+well/imaging/storage scenario. The example retains independent culture preparations when
+counting minimum instrument sessions and includes both temporal endpoints. It assumes no
+compression savings or image-processing overhead; the result is not measured laboratory
+throughput, statistical power, a drug exposure range or an observed experiment. The clinical
+pilot protocol remains a separate reviewable work product outside this source export.
+
 The `workflow/tests` directory contains unit and native integration checks. Some
 require external runtimes or previously completed public-control artifacts. A skipped
 test is not a passing native test. Run the tests relevant to the installed component,
