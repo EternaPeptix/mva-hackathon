@@ -309,6 +309,24 @@ read check. Its configuration is selected after call review, not an independent
 performance benchmark. Unresolved clinical annotations, low-quality calls or a
 negative contamination screen must not be promoted to biological truth.
 
+`review_mitochondrial_read_context.py` accepts `--root`, `--config` and a new
+external `--output` directory. The context configuration pins a completed case
+receipt and its prior target audit. It checks original primary reads and reciprocal
+mates, reconciles earlier BAQ fragment counts, and reports whole-reference
+single-end BWA alternatives with explicit target-base projection. Detailed read
+identities, sequences and alignments stay outside this source snapshot. Run the
+seven geometry, missingness, fragment and symmetric-filter controls first:
+
+```sh
+"$MVA_ROOT/tools/bio/bin/python" -m unittest discover \
+  -s "$MVA_REPO/workflow/tests" -p test_mitochondrial_read_context.py -v
+```
+
+Read-end exclusion, base-quality thresholds and absence of additional aligned
+edits are post hoc sensitivity analyses. They are not calibrated heteroplasmy
+rules. Reference differences may be genuine linked alleles, and BWA's reported
+alternatives do not exhaustively exclude NUMTs or contamination.
+
 The chromosome-depth survey freezes intervals from reference coordinates before
 read inspection, requires explicit depth for every selected position and preserves
 zero-depth windows. Reference eligibility is based only on concrete-base fraction

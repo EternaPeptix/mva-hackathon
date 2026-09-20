@@ -40,6 +40,7 @@ clinical sensitivity for the child.
 - [Mitochondrial geometry and read-preservation controls](results/mitochondrial-method-controls-20260920.json)
 - [Circular-read native calling control](results/mitochondrial-native-control-20260920.json)
 - [Original multi-allele context during mitochondrial comparison](results/mitochondrial-review-method-controls-20260920.json)
+- [Mitochondrial read-context and coordinate controls](results/mitochondrial-context-method-controls-20260920.json)
 
 The workflow covers reference preparation, alignment, native GATK/bcftools calling,
 phenotype-assisted and phenotype-independent prioritisation, read evidence, phasing,
@@ -114,6 +115,12 @@ planted alleles in 30,000 synthetic circular read pairs pass. Initial filters as
 zero contamination; the method has not validated that assumption, nuclear-copy
 discrimination or very low heteroplasmy. Case calls, target-level read counts and
 interpretations remain outside the source export.
+
+A further context helper preserves CIGAR-aware mismatch and read-cycle evidence,
+BAQ missingness, reciprocal mates and reported full-reference remapping alternatives.
+Seven focused controls pass. Its symmetric read-context filters are exploratory;
+they do not establish a heteroplasmy detection limit or exhaustive NUMT exclusion.
+Detailed read identities, sequences and case-derived summaries are not exported.
 
 ## Data and release status
 

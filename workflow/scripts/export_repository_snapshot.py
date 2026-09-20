@@ -59,6 +59,7 @@ RECEIPTS = [
     'mitochondrial-method-controls-20260920.json',
     'mitochondrial-native-control-20260920.json',
     'mitochondrial-review-method-controls-20260920.json',
+    'mitochondrial-context-method-controls-20260920.json',
 ]
 
 
