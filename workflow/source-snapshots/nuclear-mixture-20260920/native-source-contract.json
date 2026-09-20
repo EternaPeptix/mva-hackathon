@@ -1,0 +1,27 @@
+{
+  "retrieved_at": "2026-09-20T21:13:02.001066+00:00",
+  "scope": "Versioned source excerpts and their exact UTF8 hashes; not full-source file hashes.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/broadinstitute/gatk/4.6.1.0/src/main/java/org/broadinstitute/hellbender/tools/walkers/contamination/CalculateContamination.java",
+      "version": "4.6.1.0",
+      "excerpt": "s.getTotalCount() > MIN_COVERAGE\nps.getTotalCount() > lowCoverageThreshold && ps.getTotalCount() < highCoverageThreshold",
+      "meaning": "MIN_COVERAGE=10; statistics use only those covered rows; default lower ratio is0.5 times median, upper ratio3.0 times mean; strict boundaries.",
+      "excerpt_sha256": "e6e5c89e1455590b415569742f41b5527457b97056e5141a605cbf6e0ddddec5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/broadinstitute/gatk/4.6.1.0/src/main/java/org/broadinstitute/hellbender/tools/walkers/contamination/GetPileupSummaries.java",
+      "version": "4.6.1.0",
+      "excerpt": "minPopulationAlleleFrequency < alleleFrequency && alleleFrequency < maxPopulationAlleleFrequency",
+      "meaning": "AF is obtained with getAttributeAsDouble; defaults0.01 and0.2. Compare finite binary64 values while preserving both original and serialized literals.",
+      "excerpt_sha256": "a2e3430d4aad12ec703d0676a5429703fbb76d2cb5681021339ba5c78453c05e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/apache/commons-math/MATH_3_6_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/Mean.java",
+      "version": "MATH_3_6_1",
+      "excerpt": "a two-pass, corrected algorithm is used",
+      "meaning": "Arithmetic mean followed by a mean-deviation correction pass. Independent table reconstruction uses that ordering; finite-depth boundary controls are retained.",
+      "excerpt_sha256": "120d4908b7f102fc6ad0889cfb939a126e30e789389e3ee63393e64535a4bca0"
+    }
+  ]
+}

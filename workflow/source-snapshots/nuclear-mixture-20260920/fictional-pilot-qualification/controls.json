@@ -1,0 +1,125 @@
+{
+  "command": [
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "/Users/jeweled/Documents/mva-hackathon/methods/nuclear-mixture-pilot-20260920/qualification-v4/source",
+    "-p",
+    "test_pilot*.py",
+    "-v"
+  ],
+  "completed_at": "2026-09-20T20:26:01.906403+00:00",
+  "elapsed_seconds": 2.52019862504676,
+  "errors": 0,
+  "exit_code": 0,
+  "failures": 0,
+  "fictional_constructor_files": [
+    {
+      "bytes": 223849,
+      "path": "fictional-constructor/decoded-payloads.json",
+      "sha256": "8040ffd89bd9b4ee7d8d60936ec3e956a9b4041e7ca5539982b243d0e3751091"
+    },
+    {
+      "bytes": 3111,
+      "path": "fictional-constructor/expected-counts.json",
+      "sha256": "da82f86fbc21599c50f06bd5ed28613c2e814f34c8e6fa2ddf66fb726c1a3089"
+    },
+    {
+      "bytes": 1094,
+      "path": "fictional-constructor/fictional.bam",
+      "sha256": "f158911e6f6fb926d6d0dba06d5a8addb682b4d55d4d609c7a9be35156272f06"
+    },
+    {
+      "bytes": 136,
+      "path": "fictional-constructor/fictional.bam.bai",
+      "sha256": "a553bb52ba00d8393819001a6693a0df31e0d53daaf169f19ca93b3d7adb896a"
+    },
+    {
+      "bytes": 1768,
+      "path": "fictional-constructor/fictional.cram",
+      "sha256": "915c8ced7d2962d3fdf8ede4e3e936180a908754ffb45e577b4d3558dea22b6b"
+    },
+    {
+      "bytes": 47,
+      "path": "fictional-constructor/fictional.cram.crai",
+      "sha256": "11a8f3b371b9961d08856d3d87b5913b66cfd55f25d5b3528e319d121deb98bb"
+    },
+    {
+      "bytes": 149,
+      "path": "fictional-constructor/fictional.dict",
+      "sha256": "4e604ef8e0a3bdd3d531eb7877408244b29615bb850dfc89e8e1a21d38f8c195"
+    },
+    {
+      "bytes": 48824,
+      "path": "fictional-constructor/fictional.fa",
+      "sha256": "13cfed470ad5c5e1dc2e085753930b1a43a332e0f7fa23ac3884c488bde53418"
+    },
+    {
+      "bytes": 55,
+      "path": "fictional-constructor/fictional.fa.fai",
+      "sha256": "72907d736f4935141aef73c671fd2354a0957a7e62c13453f20633c752aefc88"
+    },
+    {
+      "bytes": 4383,
+      "path": "fictional-constructor/fixture.json",
+      "sha256": "21403371c45b92fca35c51a5230fc9e0f2d4bc60c15004389d1497e64830cb38"
+    },
+    {
+      "bytes": 1020,
+      "path": "fictional-constructor/missing-AF.vcf",
+      "sha256": "8631ea28e1bcdbafb64be373e583801dc9722c243679d62ccde3afd2ff8ae51e"
+    },
+    {
+      "bytes": 426,
+      "path": "fictional-constructor/missing-AF.vcf.gz",
+      "sha256": "e576f409c3c728a2b543e3ce50a72defab04b74f9a9e4afb7b17d292b9ff5390"
+    },
+    {
+      "bytes": 125,
+      "path": "fictional-constructor/missing-AF.vcf.gz.tbi",
+      "sha256": "931b65f53538506a8731adb62b77f6fd62dea409b6d83e6fc2ec0f0a8f7b16f8"
+    },
+    {
+      "bytes": 115681,
+      "path": "fictional-constructor/read-construction.json",
+      "sha256": "8110412dc6e0105ab40afbc7e72ac62a724e80db6acbc44fefbc7bd877b8230f"
+    },
+    {
+      "bytes": 1209,
+      "path": "fictional-constructor/sites.vcf",
+      "sha256": "c998acc4f91cc5215566310c631fdf71b65d5e68e449d967014281bb08170486"
+    },
+    {
+      "bytes": 484,
+      "path": "fictional-constructor/sites.vcf.gz",
+      "sha256": "1e8cf4804cd124e8ef35d61f31a954b6d1997a576f3da42df501d34be0ffd04a"
+    },
+    {
+      "bytes": 125,
+      "path": "fictional-constructor/sites.vcf.gz.tbi",
+      "sha256": "dacac1998eaf49e3d89a565661d0198399bf63361aa99809f4f897d288096d57"
+    }
+  ],
+  "runtime": {
+    "host": "512S2",
+    "machine": "arm64",
+    "python": "3.12.14 (main, Sep  3 2026, 03:46:19) [Clang 21.1.8 ]"
+  },
+  "scope": "Constructor/decision and owned fictional process-group controls plus generated fictional BAM/CRAM3.0 full-payload roundtrip. No GATK invocation, public derivative or patient input access.",
+  "skipped": [],
+  "source_sha256": {
+    "fictional_controls.py": "7727a5131f3c39f8029e455982d2d9f23eb66886b2a30dedfd4411a6f96be566",
+    "guard-fictional-pilot.py": "61eb3dffa51c23f30e203036d43d9fbdee76d314b5e869daf9fefbbd7aaacb18",
+    "qualify-preparation.py": "4f470cba1d06690e29d1385addda2a0f6a9627b31a071030e1ec6044db35c06e",
+    "run-fictional-pilot.py": "91abc87df8b1c3ed784fa2b79331b4008add8c9a43bcc91e510c7365ae165c9d",
+    "test_pilot_controls.py": "11e56ebc729fb8f552963d5e5a6f091776b267316a2870f882962bd4b7ba61d8",
+    "test_pilot_guard.py": "661139d4b2f833b317eb64b8bf0cda5e19010c4ab8bd9f729ccc9f5d9d2ec77c"
+  },
+  "status": "complete",
+  "stderr_sha256": "3652e4cf757ee4e9508caed8b6d928fc7e860b3c29b30474527ed40e137f7c76",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tests_run": 25
+}

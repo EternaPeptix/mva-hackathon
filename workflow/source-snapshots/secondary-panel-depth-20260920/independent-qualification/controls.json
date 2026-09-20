@@ -1,0 +1,84 @@
+{
+  "completed_at": "2026-09-20T20:55:35.404189+00:00",
+  "elapsed_seconds": 0.29415587498806417,
+  "errors": 0,
+  "failures": 0,
+  "host": "512S2",
+  "logs": {
+    "stderr.txt": {
+      "bytes": 5316,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/independent-verification-preparation/qualification-v3/stderr.txt",
+      "sha256": "c3a17dbab52284163d2e16a7e3ac1aeb917e6ac6d6eb584e261d8962a11c5ffb"
+    },
+    "stdout.txt": {
+      "bytes": 0,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/independent-verification-preparation/qualification-v3/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "original_qualified_source_pins": {
+    "controls.json": {
+      "bytes": 1319,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/coding-depth-20260920/qualification-v2/controls.json",
+      "sha256": "74398ab873453551e1b2b3aafdf42f032949fcdbb8cc9ca5a9357a1f63f43fa6"
+    },
+    "workflow/scripts/coding_depth_targets.py": {
+      "bytes": 8163,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/coding-depth-20260920/qualification-v2/workflow/scripts/coding_depth_targets.py",
+      "sha256": "1b7df219b0552479fd45836ce30fa1a2e9b95c2b315384d71da83bc108418278"
+    },
+    "workflow/scripts/measure_coding_depth.py": {
+      "bytes": 10907,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/coding-depth-20260920/qualification-v2/workflow/scripts/measure_coding_depth.py",
+      "sha256": "6ae51dfa66571f81cfd3d5b55696fd844f12bab45cdd2ac4c7f5052b92389749"
+    },
+    "workflow/scripts/prepare_gatk_compatible_cram.py": {
+      "bytes": 12307,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/coding-depth-20260920/qualification-v2/workflow/scripts/prepare_gatk_compatible_cram.py",
+      "sha256": "6e1c5f8a830bb48fba7258d810a0f54166f40d471b21c1b3b4f185e9bed650c9"
+    },
+    "workflow/scripts/survey_chromosome_depth.py": {
+      "bytes": 13484,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/coding-depth-20260920/qualification-v2/workflow/scripts/survey_chromosome_depth.py",
+      "sha256": "403718a03c506f70f84d0164d4bb062a461f6a62f6d1c143e85e4829482d2c29"
+    }
+  },
+  "pysam": "0.24.1",
+  "python": "3.12.14 (main, Sep  3 2026, 03:46:19) [Clang 21.1.8 ]",
+  "runtime": {
+    "bytes": 6829968,
+    "path": "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python3.12",
+    "sha256": "101eed1d9e3db137495f9a54720826eb3d7ac25b8c5a0e82d95372d8e7377e8f"
+  },
+  "samtools": {
+    "bytes": 777952,
+    "path": "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/samtools",
+    "sha256": "7518cbb230a35393d7d3a9f02fc8b4519e4a37b5a17fbed06b9752ca1d962a91"
+  },
+  "scope": "Fictional controls only; original source code read, no case alignment or case depth accessed.",
+  "skipped": 0,
+  "source_pins": {
+    "qualify.py": {
+      "bytes": 2621,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/independent-verification-preparation/qualification-v3/qualify.py",
+      "sha256": "8b914076450b9ead026201d008d0c3974828d984a2942dfb9a611b931b412b51"
+    },
+    "test_verify_depth.py": {
+      "bytes": 26238,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/independent-verification-preparation/qualification-v3/test_verify_depth.py",
+      "sha256": "c392f8e540c5ece7d3468313ce2b17d79aad04771d9fbc11d092d83ef941219f"
+    },
+    "verify-depth.py": {
+      "bytes": 31222,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/independent-verification-preparation/qualification-v3/verify-depth.py",
+      "sha256": "dac844cd69fb16c4431a6ac907f3dcef72b5a24e6d31f2c29156b6a43e804ec0"
+    }
+  },
+  "source_sha256": {
+    "qualify.py": "8b914076450b9ead026201d008d0c3974828d984a2942dfb9a611b931b412b51",
+    "test_verify_depth.py": "c392f8e540c5ece7d3468313ce2b17d79aad04771d9fbc11d092d83ef941219f",
+    "verify-depth.py": "dac844cd69fb16c4431a6ac907f3dcef72b5a24e6d31f2c29156b6a43e804ec0"
+  },
+  "status": "complete",
+  "tests_run": 40
+}

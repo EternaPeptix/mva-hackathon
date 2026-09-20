@@ -1,0 +1,35 @@
+{
+  "completed_at_utc": "2026-09-20T20:53:44.632001+00:00",
+  "errors": 0,
+  "exit_code": 0,
+  "failures": 0,
+  "log_sha256": "c4d7e9a3d9ade520b198ada3ea891d48f838b4f661e854ef48ea81107be188b0",
+  "runtime": {
+    "executable": "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+    "host": "512S2",
+    "machine": "arm64",
+    "python": "3.12.14 (main, Sep  3 2026, 03:46:19) [Clang 21.1.8 ]"
+  },
+  "scope": "Fictional metadata and wrapper refusal controls only; no patient inputs, alignment extraction, depth computation, or re-execution of unchanged producer controls.",
+  "skipped": [],
+  "source_files": {
+    "scripts/launch_secondary_depth_v2.py": {
+      "bytes": 19330,
+      "sha256": "9f502b7825ca82e59a71c2a362de87c52b787439adc0429c6e6f4a88c75832fb"
+    },
+    "scripts/qualify_secondary_depth_guard_v2.py": {
+      "bytes": 2782,
+      "sha256": "2b881e8983ce1258b11b6d6ee9f236915fc4280f7b3d6938bcced21e920395ea"
+    },
+    "scripts/vendor/guard_helpers.py": {
+      "bytes": 10763,
+      "sha256": "e30e5ad4819d488e2509feffff1027bab6102e473bb44ed33bcf4dbfc734ffb6"
+    },
+    "tests/test_secondary_depth_guard_v2.py": {
+      "bytes": 13882,
+      "sha256": "0f6936c749e7cebfc590edcb8d597d613aa1223a1ffd50f11d37822bcf07793f"
+    }
+  },
+  "status": "complete",
+  "tests_run": 21
+}

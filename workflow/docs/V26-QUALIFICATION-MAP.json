@@ -1,0 +1,164 @@
+{
+  "controls": [
+    {
+      "controls_rerun_for_export": false,
+      "group": "whole_reference",
+      "historical_source_names_not_exported": [],
+      "receipt": "workflow/source-snapshots/whole-reference-completion-20260920/qualification-native.json",
+      "receipt_schema": "unittest",
+      "receipt_sha256": "e2c312fa5bad80b4eb930ca25e3689f759b94c09c39192da6ac88b1e09c4c27c",
+      "source_field": "source_sha256",
+      "source_mapping": {
+        "test_verify_completion.py": "workflow/source-snapshots/whole-reference-completion-20260920/test_verify_completion.py",
+        "verify_completion.py": "workflow/source-snapshots/whole-reference-completion-20260920/verify_completion.py"
+      },
+      "tests_run": 6
+    },
+    {
+      "controls_rerun_for_export": false,
+      "group": "secondary_public_targets",
+      "historical_source_names_not_exported": [],
+      "receipt": "workflow/source-snapshots/secondary-panel-depth-20260920/public-target-qualification/controls.json",
+      "receipt_schema": "unittest",
+      "receipt_sha256": "703638dc54615a1f9c0c49482e58355f1941706ff10560aecf838c5d2bb425ab",
+      "source_field": "source_files",
+      "source_mapping": {
+        "configs/public-target-proposed-v1.json": "workflow/source-snapshots/secondary-panel-depth-20260920/public-target-qualification/workflow/configs/public-target-proposed-v1.json",
+        "scripts/preflight_public_targets.py": "workflow/source-snapshots/secondary-panel-depth-20260920/public-target-qualification/workflow/scripts/preflight_public_targets.py",
+        "scripts/qualify_public_targets.py": "workflow/source-snapshots/secondary-panel-depth-20260920/public-target-qualification/workflow/scripts/qualify_public_targets.py",
+        "scripts/vendor/coding_depth_targets.py": "workflow/source-snapshots/secondary-panel-depth-20260920/public-target-qualification/workflow/scripts/vendor/coding_depth_targets.py",
+        "scripts/vendor/guard_helpers.py": "workflow/source-snapshots/secondary-panel-depth-20260920/public-target-qualification/workflow/scripts/vendor/guard_helpers.py",
+        "tests/test_public_targets.py": "workflow/source-snapshots/secondary-panel-depth-20260920/public-target-qualification/workflow/tests/test_public_targets.py"
+      },
+      "tests_run": 16
+    },
+    {
+      "controls_rerun_for_export": false,
+      "group": "secondary_depth_guard",
+      "historical_source_names_not_exported": [],
+      "receipt": "workflow/source-snapshots/secondary-panel-depth-20260920/producer-guard-qualification/controls.json",
+      "receipt_schema": "unittest",
+      "receipt_sha256": "24c4f0313b181a54f225ed6fb8b76edf972d3390acd88ce4898cf4de8f53378c",
+      "source_field": "source_files",
+      "source_mapping": {
+        "scripts/launch_secondary_depth_v2.py": "workflow/source-snapshots/secondary-panel-depth-20260920/producer-guard-qualification/workflow/scripts/launch_secondary_depth_v2.py",
+        "scripts/qualify_secondary_depth_guard_v2.py": "workflow/source-snapshots/secondary-panel-depth-20260920/producer-guard-qualification/workflow/scripts/qualify_secondary_depth_guard_v2.py",
+        "scripts/vendor/guard_helpers.py": "workflow/source-snapshots/secondary-panel-depth-20260920/producer-guard-qualification/workflow/scripts/vendor/guard_helpers.py",
+        "tests/test_secondary_depth_guard_v2.py": "workflow/source-snapshots/secondary-panel-depth-20260920/producer-guard-qualification/workflow/tests/test_secondary_depth_guard_v2.py"
+      },
+      "tests_run": 21
+    },
+    {
+      "controls_rerun_for_export": false,
+      "group": "secondary_depth_independent",
+      "historical_source_names_not_exported": [],
+      "receipt": "workflow/source-snapshots/secondary-panel-depth-20260920/independent-qualification/controls.json",
+      "receipt_schema": "unittest",
+      "receipt_sha256": "a0603fb9cf8fa064ad384127d610c9c088ee62f7abc77d4c2e853f4d5bb3c568",
+      "source_field": "source_sha256",
+      "source_mapping": {
+        "qualify.py": "workflow/source-snapshots/secondary-panel-depth-20260920/independent-qualification/qualify.py",
+        "test_verify_depth.py": "workflow/source-snapshots/secondary-panel-depth-20260920/independent-qualification/test_verify_depth.py",
+        "verify-depth.py": "workflow/source-snapshots/secondary-panel-depth-20260920/independent-qualification/verify-depth.py"
+      },
+      "tests_run": 40
+    },
+    {
+      "controls_rerun_for_export": false,
+      "group": "secondary_depth_independent_guard",
+      "historical_source_names_not_exported": [],
+      "receipt": "workflow/source-snapshots/secondary-panel-depth-20260920/independent-guard-qualification/controls.json",
+      "receipt_schema": "unittest",
+      "receipt_sha256": "b4ee852290d12a46e829754ae458f0470e0edd1950d9962dc5ac5f46f51f32a5",
+      "source_field": "source_sha256",
+      "source_mapping": {
+        "guard-verification.py": "workflow/source-snapshots/secondary-panel-depth-20260920/independent-guard-qualification/guard-verification.py",
+        "guard_helpers.py": "workflow/source-snapshots/secondary-panel-depth-20260920/independent-guard-qualification/guard_helpers.py",
+        "test_guard_verification.py": "workflow/source-snapshots/secondary-panel-depth-20260920/independent-guard-qualification/test_guard_verification.py"
+      },
+      "tests_run": 8
+    },
+    {
+      "controls_rerun_for_export": false,
+      "group": "nuclear_fictional_pilot",
+      "historical_source_names_not_exported": [],
+      "receipt": "workflow/source-snapshots/nuclear-mixture-20260920/fictional-pilot-qualification/controls.json",
+      "receipt_schema": "unittest",
+      "receipt_sha256": "f54a4dd1ab10cf84367c9f6a9d5917d1353f89867b2dd70645e91f554166e2ee",
+      "source_field": "source_sha256",
+      "source_mapping": {
+        "fictional_controls.py": "workflow/source-snapshots/nuclear-mixture-20260920/fictional-pilot-qualification/source/fictional_controls.py",
+        "guard-fictional-pilot.py": "workflow/source-snapshots/nuclear-mixture-20260920/fictional-pilot-qualification/source/guard-fictional-pilot.py",
+        "qualify-preparation.py": "workflow/source-snapshots/nuclear-mixture-20260920/fictional-pilot-qualification/source/qualify-preparation.py",
+        "run-fictional-pilot.py": "workflow/source-snapshots/nuclear-mixture-20260920/fictional-pilot-qualification/source/run-fictional-pilot.py",
+        "test_pilot_controls.py": "workflow/source-snapshots/nuclear-mixture-20260920/fictional-pilot-qualification/source/test_pilot_controls.py",
+        "test_pilot_guard.py": "workflow/source-snapshots/nuclear-mixture-20260920/fictional-pilot-qualification/source/test_pilot_guard.py"
+      },
+      "tests_run": 25
+    },
+    {
+      "controls_rerun_for_export": false,
+      "group": "nuclear_public_transform",
+      "historical_source_names_not_exported": [],
+      "receipt": "workflow/source-snapshots/nuclear-mixture-20260920/public-transform-qualification/controls.json",
+      "receipt_schema": "unittest",
+      "receipt_sha256": "45300a931e5785448610a2c408d0fca3907691c941d613e84d5c121f7288613e",
+      "source_field": "source_sha256",
+      "source_mapping": {
+        "guard-fictional-pilot.py": "workflow/source-snapshots/nuclear-mixture-20260920/public-transform-qualification/source/guard-fictional-pilot.py",
+        "guard-public-panel.py": "workflow/source-snapshots/nuclear-mixture-20260920/public-transform-qualification/source/guard-public-panel.py",
+        "prepare-public-panel.py": "workflow/source-snapshots/nuclear-mixture-20260920/public-transform-qualification/source/prepare-public-panel.py",
+        "qualify-public-preparation.py": "workflow/source-snapshots/nuclear-mixture-20260920/public-transform-qualification/source/qualify-public-preparation.py",
+        "test_pilot_guard.py": "workflow/source-snapshots/nuclear-mixture-20260920/public-transform-qualification/source/test_pilot_guard.py",
+        "test_public_panel.py": "workflow/source-snapshots/nuclear-mixture-20260920/public-transform-qualification/source/test_public_panel.py",
+        "verify-public-panel.py": "workflow/source-snapshots/nuclear-mixture-20260920/public-transform-qualification/source/verify-public-panel.py"
+      },
+      "tests_run": 25
+    },
+    {
+      "controls_rerun_for_export": false,
+      "group": "nuclear_assay",
+      "historical_source_names_not_exported": [],
+      "receipt": "workflow/source-snapshots/nuclear-mixture-20260920/assay-qualification/controls.json",
+      "receipt_schema": "unittest",
+      "receipt_sha256": "70d885cae9df51ae26f44f2790468b09b3f3d0fc3019c6991c5f902a96e37217",
+      "source_field": "source_sha256",
+      "source_mapping": {
+        "audit-patient-output.py": "workflow/source-snapshots/nuclear-mixture-20260920/assay-qualification/source/audit-patient-output.py",
+        "fictional_controls.py": "workflow/source-snapshots/nuclear-mixture-20260920/assay-qualification/source/fictional_controls.py",
+        "guard-fictional-pilot.py": "workflow/source-snapshots/nuclear-mixture-20260920/assay-qualification/source/guard-fictional-pilot.py",
+        "guard-patient-assay.py": "workflow/source-snapshots/nuclear-mixture-20260920/assay-qualification/source/guard-patient-assay.py",
+        "patient_common.py": "workflow/source-snapshots/nuclear-mixture-20260920/assay-qualification/source/patient_common.py",
+        "qualify-patient-assay.py": "workflow/source-snapshots/nuclear-mixture-20260920/assay-qualification/source/qualify-patient-assay.py",
+        "run-patient-assay.py": "workflow/source-snapshots/nuclear-mixture-20260920/assay-qualification/source/run-patient-assay.py",
+        "test_patient_assay.py": "workflow/source-snapshots/nuclear-mixture-20260920/assay-qualification/source/test_patient_assay.py"
+      },
+      "tests_run": 34
+    },
+    {
+      "controls_rerun_for_export": false,
+      "group": "population_field_audit",
+      "historical_source_names_not_exported": [],
+      "receipt": "workflow/source-snapshots/population-frequency-fields-20260920/receipt.json",
+      "receipt_schema": "population_self_test",
+      "receipt_sha256": "3d1985acf13fcc64269475ea8707c60d1501954e55fb12a8da8881a29b150c52",
+      "source_field": "source_sha256",
+      "source_mapping": {
+        "AllFrequencySources.java": "workflow/source-snapshots/population-frequency-fields-20260920/AllFrequencySources.java",
+        "run-audit.py": "workflow/source-snapshots/population-frequency-fields-20260920/run-audit.py"
+      },
+      "tests_run": 18
+    }
+  ],
+  "mapped_sources": 41,
+  "note": "Receipt schema/status differences are explicit. Historical receipt inventory is fully mapped for each source field; runtime/public/private data and generated fixture products are not claimed exported. Approved configurations are separate reviewed selectors, not claimed identical to qualification drafts.",
+  "original_controls_rerun": false,
+  "schema_notes": {
+    "population_field_audit": "18 is controls.tests_passed for embedded Java self-tests, not a claim of 18 distinct Python-guard tests. Requires mode=qualify, controls.database_opened=false, zero failed/skipped and all 18 test names. Both executed source hashes are retained.",
+    "secondary_depth_independent_and_guard": "Original skipped is integer zero; other new suites use an empty list. Exact historical receipt bytes are preserved.",
+    "whole_reference": "Original receipt lacks status; requires exact tests_run=6, exit_code/errors/failures/skipped all zero and both source SHA pins. No synthesized status is added."
+  },
+  "selection_evidence": "Approved immutable 62-file selection; the preparation proposal is retained privately at its SHA.",
+  "selection_sha256": "1f22de345ecc003e489fbf5d1756862a6d5f460492f99750805bbbbadcfaf43d",
+  "status": "historical_source_qualification_mapping"
+}

@@ -1,0 +1,96 @@
+{
+  "command": [
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "/Users/jeweled/Documents/mva-hackathon/methods/nuclear-mixture-pilot-20260920/public-transform-qualification-v2/source",
+    "-p",
+    "test*.py",
+    "-v"
+  ],
+  "completed_at": "2026-09-20T20:41:27.507762+00:00",
+  "elapsed_seconds": 7.799085000064224,
+  "errors": 0,
+  "exit_code": 0,
+  "failures": 0,
+  "fictional_files": [
+    {
+      "bytes": 12299278,
+      "path": "fictional-transform/derived/panel.vcf",
+      "sha256": "fcc91c1a4fc6fac967cf1f033a0970b717973dc78be8f3ac3ba8030e24ebce13"
+    },
+    {
+      "bytes": 3729779,
+      "path": "fictional-transform/derived/panel.vcf.gz",
+      "sha256": "697996453be4a019dd3fa12deb014ae999bbe0c8585d1b6a01931711cf988046"
+    },
+    {
+      "bytes": 434,
+      "path": "fictional-transform/derived/panel.vcf.gz.tbi",
+      "sha256": "1633e106153fcea3df856f57a510ca91b0d07f0bb965e69ed068a58d148c1bf1"
+    },
+    {
+      "bytes": 10872483,
+      "path": "fictional-transform/derived/source-ordinal-ledger.jsonl.gz",
+      "sha256": "d0671759e02e82f31bfd459aeb6383a909de4c87eafda9853043168bba7bb2cb"
+    },
+    {
+      "bytes": 4313,
+      "path": "fictional-transform/derived/summary.json",
+      "sha256": "408553a92599c9653458ea4bf903569772286712840cce61bbe2ee31df7c6e4a"
+    },
+    {
+      "bytes": 930,
+      "path": "fictional-transform/plan.json",
+      "sha256": "0f24b01423bca925f95c11e8158a6afddafce6b14d3c18a69f0d0043cf06494c"
+    },
+    {
+      "bytes": 448978,
+      "path": "fictional-transform/ref/fictional.fa",
+      "sha256": "fa10c37e5150c72a3a67039d237b532a317646e7b2bcb069e7027ef4800fe76a"
+    },
+    {
+      "bytes": 25,
+      "path": "fictional-transform/ref/fictional.fa.fai",
+      "sha256": "91143439fb1ee5e18cd708840876c68953f333622b74ae09f139ecf5f49d959a"
+    },
+    {
+      "bytes": 9261946,
+      "path": "fictional-transform/ref/sites.vcf",
+      "sha256": "7e07155fea0c79690a95c830f05581b9ac3a619545d61d478e329266bafd95d5"
+    },
+    {
+      "bytes": 1108491,
+      "path": "fictional-transform/ref/sites.vcf.gz",
+      "sha256": "a44e9b4f882494d625af05aa584f8415f58fcbc6aad3fd129a0be181083b5e97"
+    },
+    {
+      "bytes": 423,
+      "path": "fictional-transform/ref/sites.vcf.gz.tbi",
+      "sha256": "5162ae67de066bda0a9ecd569f848aef630bc0e3e30db364041450b0f8ae0332"
+    }
+  ],
+  "runtime": {
+    "host": "512S2",
+    "machine": "arm64",
+    "python": "3.12.14 (main, Sep  3 2026, 03:46:19) [Clang 21.1.8 ]"
+  },
+  "scope": "Generated fictional 224487-record public transform, independent per-original-row reconciliation and owned-process guard controls only. No actual public resource, GATK or patient input accessed.",
+  "skipped": [],
+  "source_sha256": {
+    "guard-fictional-pilot.py": "61eb3dffa51c23f30e203036d43d9fbdee76d314b5e869daf9fefbbd7aaacb18",
+    "guard-public-panel.py": "d771c9cfc9bff88e776dc306c6a4b11e924f0388e9ae8d098275bf03dca31893",
+    "prepare-public-panel.py": "8ac5a7397284252a2ad259ea58ded0f887809e26b900ced97961bd844000bdab",
+    "qualify-public-preparation.py": "a6027ec4f2f7b5e1f483d8cfd6caf45242747a7f7a1219c8373435309d892f09",
+    "test_pilot_guard.py": "661139d4b2f833b317eb64b8bf0cda5e19010c4ab8bd9f729ccc9f5d9d2ec77c",
+    "test_public_panel.py": "88ac1238c729040781e4e21435a6079e8383259cd502206dd5683ce91acfd6ce",
+    "verify-public-panel.py": "70bf4d6a5a96068b03915b815af4142a427821d57c597babd6865d61be0f4d4e"
+  },
+  "status": "complete",
+  "stderr_sha256": "0b17826231d84c4ccd07349461b0e402268228caaa901e7261cc974c0bc2d5c9",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tests_run": 25
+}

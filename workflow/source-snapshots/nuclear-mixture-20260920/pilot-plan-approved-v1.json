@@ -1,0 +1,114 @@
+{
+  "case_execution_authorized": false,
+  "construction_policy": {
+    "CRAM_qualification": "Literal magic/version and full original decoded payload equality before GATK",
+    "CRAM_version": "3.0",
+    "estimator_table_cases": 13,
+    "native_count_features": 23,
+    "observation_counts": "deterministic integer expected counts; no binomial draws",
+    "rounding": "round half upward when nonintegral",
+    "seed_scope": "marker ordering only"
+  },
+  "expected_original_caller_argv": [
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+    "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/call_genome.py",
+    "--root",
+    "/Users/jeweled/Documents/mva-hackathon",
+    "--reference",
+    "/Users/jeweled/Documents/mva-hackathon/ref/realignment/GRCh38_nochr.fa",
+    "--alignment",
+    "/Users/jeweled/Documents/mva-hackathon/align/gatk-compatible-cram30-20260920/WGS_EX2312012.cram",
+    "--sample",
+    "WGS_EX2312012",
+    "--output",
+    "/Users/jeweled/Documents/mva-hackathon/calls/from-fastq-cram30-20260920",
+    "--workers",
+    "4"
+  ],
+  "forbidden_inputs": [
+    "patient alignment",
+    "case genotype file",
+    "case pileup",
+    "case-derived marker selection"
+  ],
+  "guard_policy": {
+    "original_caller": "Exact live PID/start/command or metadata-only same-run complete64shards; patient VCF bytes not opened",
+    "sampling_seconds": 0.25,
+    "scope": "Whole owned runner group, including Python fixture/hash and inherited Java children"
+  },
+  "host": "512S2",
+  "native_count_policy": {
+    "maximum_depth_per_sample": 0,
+    "minimum_mapping_quality": 50,
+    "overlap_collapse": false,
+    "per_base_quality_threshold": null,
+    "unit": "read observation"
+  },
+  "original_caller_completed_at": "2026-09-20T20:08:57Z",
+  "original_caller_completion_scope": "Pinned complete controller metadata only; producer-reported VCF identities/counts, no patient VCF byte access or independent final callset verification.",
+  "original_caller_definition_sha256": "6bb6aca4c6e281ccbe345b6f7a4e7a38f340da8a9138b3cd8faec87ccc532267",
+  "original_caller_terminal_sha256": "d58b058470ab989ac27257699705401a58a6a81c587b09c4f3018ee64a6788e0",
+  "public_panel": {
+    "expected_records": 224487,
+    "frequency_source": "POP_AF",
+    "frequency_target": "AF",
+    "index_path": "ref/roh-20260919/common-panel-v1/panel.vcf.gz.tbi",
+    "index_sha256": "b9d9411a21a1690e56329c9923781f96618182f7c1b769652cc631e1583b05d7",
+    "maximum_exclusive": "0.2",
+    "minimum_exclusive": "0.01",
+    "path": "ref/roh-20260919/common-panel-v1/panel.vcf.gz",
+    "sha256": "18b0420da6c4e8b24dda55bf4ca4a936a37deb6b60f1e906ca696a2f30b988b3",
+    "source_ordinal_definition": "one-based record ordinal in the exact frozen ROH public panel; not the full IGSR source ordinal"
+  },
+  "ready_for_native_pilot": true,
+  "reference": {
+    "index_path": "ref/realignment/GRCh38_nochr.fa.fai",
+    "index_sha256": "d81f672f40cfabf2510f37e3f790f2c79665023f4ac950bb9cc6496a40cebf32",
+    "path": "ref/realignment/GRCh38_nochr.fa",
+    "sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6"
+  },
+  "resource_limits": {
+    "maximum_fixture_total_bytes": 2147483648,
+    "maximum_group_RSS_bytes": 4294967296,
+    "minimum_free_bytes": 42949672960,
+    "per_command_wall_seconds": 300,
+    "total_wall_seconds": 1800
+  },
+  "root": "/Users/jeweled/Documents/mva-hackathon",
+  "runtime": {
+    "active_processors": 2,
+    "expected_version": "4.6.1.0",
+    "gatk_path": "gatk-4.6.1.0/gatk-package-4.6.1.0-local.jar",
+    "gatk_sha256": "b2824999fafe4dc83036e334b9765d4a7de4f4ff4bec1e929d77bea04a1560c7",
+    "java_path": "tools/bio/lib/jvm/bin/java",
+    "java_sha256": "ec64ac719290ad080c7f8a4f5d83402e4152f98f486fe14150cf734a46ebcbb1",
+    "maximum_heap_gb": 2
+  },
+  "schema_version": 1,
+  "scope": "public_marker_derivation_and_fictional_controls_only",
+  "source_sha256": {
+    "fictional_controls.py": "7727a5131f3c39f8029e455982d2d9f23eb66886b2a30dedfd4411a6f96be566",
+    "guard-fictional-pilot.py": "61eb3dffa51c23f30e203036d43d9fbdee76d314b5e869daf9fefbbd7aaacb18",
+    "run-fictional-pilot.py": "91abc87df8b1c3ed784fa2b79331b4008add8c9a43bcc91e510c7365ae165c9d",
+    "test_pilot_controls.py": "11e56ebc729fb8f552963d5e5a6f091776b267316a2870f882962bd4b7ba61d8",
+    "test_pilot_guard.py": "661139d4b2f833b317eb64b8bf0cda5e19010c4ab8bd9f729ccc9f5d9d2ec77c"
+  },
+  "table_design": {
+    "diploid_clean_acceptance_absolute_error": 0.01,
+    "diploid_mixture_acceptance_max_absolute_or_relative": [
+      0.01,
+      0.2
+    ],
+    "fallback_contamination": 0.0,
+    "fallback_error": 1.0,
+    "genotypes_per_100_individuals": {
+      "0/0": 81,
+      "0/1": 18,
+      "1/1": 1
+    },
+    "imbalance_cases": "prespecified exploratory confounding controls; no expected efficacy or clinical sensitivity",
+    "markers": 10000,
+    "population_ALT_frequency": "0.1",
+    "seed": 20260920
+  }
+}

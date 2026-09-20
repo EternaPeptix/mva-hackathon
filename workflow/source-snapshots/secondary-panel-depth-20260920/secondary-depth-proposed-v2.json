@@ -1,0 +1,240 @@
+{
+  "caller_definition": {
+    "bytes": 165989,
+    "path": "/Users/jeweled/Documents/mva-hackathon/calls/from-fastq-cram30-20260920/run-definition.json",
+    "sha256": "6bb6aca4c6e281ccbe345b6f7a4e7a38f340da8a9138b3cd8faec87ccc532267"
+  },
+  "completed_caller_status": {
+    "bytes": 1969,
+    "path": "/Users/jeweled/Documents/mva-hackathon/calls/from-fastq-cram30-20260920/status.json",
+    "sha256": "d58b058470ab989ac27257699705401a58a6a81c587b09c4f3018ee64a6788e0"
+  },
+  "expected_target": {
+    "gene_union_bases_sum": 393880,
+    "genes": 84,
+    "panel_ACGT_bases": 393880,
+    "panel_non_ACGT_bases": 0,
+    "panel_union_bases": 393880,
+    "windows": 2112
+  },
+  "fixture_only": false,
+  "limits": {
+    "group_RSS_bytes": 17179869184,
+    "minimum_free_bytes": 42949672960,
+    "output_bytes": 21474836480,
+    "wall_seconds": 5400
+  },
+  "output": "/Users/jeweled/Documents/mva-hackathon/results/secondary-panel-cds-depth-20260920/review-v2",
+  "preparation_note": "Preparation only for review-v2 after preserved pre-case-access v1 schema refusal. Corrected wrapper requires exact typed completed shard IDs 0..63; actual patient extraction and depth remain held for root review.",
+  "producer_config_sha256": "224763eda065ed0f658c4809aeacc7f4568ee190341086fcda7a0aa1d50fbcd8",
+  "producer_configuration": {
+    "assembly": "GRCh38",
+    "depth_modes": [
+      {
+        "minimum_BQ": 1,
+        "minimum_MQ": 0,
+        "name": "MQ0_BQ1"
+      },
+      {
+        "minimum_BQ": 20,
+        "minimum_MQ": 20,
+        "name": "MQ20_BQ20"
+      },
+      {
+        "minimum_BQ": 20,
+        "minimum_MQ": 60,
+        "name": "MQ60_BQ20"
+      }
+    ],
+    "expected_read_groups": 4,
+    "gene_list_source": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/secondary-20260919/clingen-acmgsf.json",
+      "sha256": "8089748ab8645336eedab56e4f548f7c902e2f7d163fa3a559b49c9fbd93151d"
+    },
+    "gene_selection": "Exact sorted 84-symbol frozen ClinGen secondary panel; all-transcript annotated CDS union, fixed before any patient read inspection.",
+    "genes": [
+      "ABCD1",
+      "ACTA2",
+      "ACTC1",
+      "ACVRL1",
+      "APC",
+      "APOB",
+      "ATP7B",
+      "BAG3",
+      "BMPR1A",
+      "BRCA1",
+      "BRCA2",
+      "BTD",
+      "CACNA1S",
+      "CALM1",
+      "CALM2",
+      "CALM3",
+      "CASQ2",
+      "COL3A1",
+      "CYP27A1",
+      "DES",
+      "DSC2",
+      "DSG2",
+      "DSP",
+      "ENG",
+      "FBN1",
+      "FLNC",
+      "GAA",
+      "GLA",
+      "HFE",
+      "HNF1A",
+      "KCNH2",
+      "KCNQ1",
+      "LDLR",
+      "LMNA",
+      "MAX",
+      "MEN1",
+      "MLH1",
+      "MSH2",
+      "MSH6",
+      "MUTYH",
+      "MYBPC3",
+      "MYH11",
+      "MYH7",
+      "MYL2",
+      "MYL3",
+      "NF2",
+      "OTC",
+      "PALB2",
+      "PCSK9",
+      "PKP2",
+      "PLN",
+      "PMS2",
+      "PRKAG2",
+      "PTEN",
+      "RB1",
+      "RBM20",
+      "RET",
+      "RPE65",
+      "RYR1",
+      "RYR2",
+      "SCN5A",
+      "SDHAF2",
+      "SDHB",
+      "SDHC",
+      "SDHD",
+      "SMAD3",
+      "SMAD4",
+      "STK11",
+      "TGFBR1",
+      "TGFBR2",
+      "TMEM127",
+      "TMEM43",
+      "TNNC1",
+      "TNNI3",
+      "TNNT2",
+      "TP53",
+      "TPM1",
+      "TRDN",
+      "TSC1",
+      "TSC2",
+      "TTN",
+      "TTR",
+      "VHL",
+      "WT1"
+    ],
+    "inputs": {
+      "alignment": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/align/gatk-compatible-cram30-20260920/WGS_EX2312012.cram",
+        "sha256": "c3ef27cc9bde0010da9d6e872f88d52b542cbb435ee1d6f85f7f88509ce6f26b"
+      },
+      "alignment_index": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/align/gatk-compatible-cram30-20260920/WGS_EX2312012.cram.crai",
+        "sha256": "4c04806b8ffe3a5dcf48599385b221e4688430cb6843d09cd357cddf5fd6a692"
+      },
+      "gff": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/ref/baseline-20260919/Homo_sapiens.GRCh38.116.chr.gff3.gz",
+        "sha256": "0857407b4a8be8792089a69fd961737256fb7129b6b799f8a8920ebea4fb134f"
+      },
+      "reference": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/ref/realignment/GRCh38_nochr.fa",
+        "sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6"
+      },
+      "reference_index": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/ref/realignment/GRCh38_nochr.fa.fai",
+        "sha256": "d81f672f40cfabf2510f37e3f790f2c79665023f4ac950bb9cc6496a40cebf32"
+      },
+      "samtools": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/samtools",
+        "sha256": "7518cbb230a35393d7d3a9f02fc8b4519e4a37b5a17fbed06b9752ca1d962a91"
+      }
+    },
+    "interpretation": "Mapped CDS depth only for the frozen 84-gene panel; retain explicit zeros and non-ACGT reference bases. No genotype, phase, copy count, clinical callability, sensitivity or negative genetic finding.",
+    "quality_availability": "All flag-eligible extracted records must have known mapping quality and available per-base qualities with no255 sentinel; otherwise fail with retained failed-status evidence before reporting depth.",
+    "sample": "WGS_EX2312012",
+    "schema_version": 1,
+    "source_sha256": {
+      "coding_depth_targets.py": "1b7df219b0552479fd45836ce30fa1a2e9b95c2b315384d71da83bc108418278",
+      "measure_coding_depth.py": "6ae51dfa66571f81cfd3d5b55696fd844f12bab45cdd2ac4c7f5052b92389749",
+      "prepare_gatk_compatible_cram.py": "6e1c5f8a830bb48fba7258d810a0f54166f40d471b21c1b3b4f185e9bed650c9",
+      "survey_chromosome_depth.py": "403718a03c506f70f84d0164d4bb062a461f6a62f6d1c143e85e4829482d2c29"
+    }
+  },
+  "producer_qualification": {
+    "bytes": 1319,
+    "path": "/Users/jeweled/Documents/mva-hackathon/methods/coding-depth-20260920/qualification-v2/controls.json",
+    "sha256": "74398ab873453551e1b2b3aafdf42f032949fcdbb8cc9ca5a9357a1f63f43fa6"
+  },
+  "public_preflight": {
+    "config": {
+      "bytes": 11576,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/workflow/configs/public-target-approved-v1.json",
+      "sha256": "9d3754f9ff4fd266b3a04e1a887138c3589dddb4ee925726c15b42b2514e8590"
+    },
+    "launch": {
+      "bytes": 117404,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/public-target-v1-launch/status.json",
+      "sha256": "3b873af5e4802318f8ebede36c3bfde1ec2263b3db78ee0cb303630b70730803"
+    },
+    "reference-design.json": {
+      "bytes": 11787989,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/public-target-v1/reference-design.json",
+      "sha256": "f9b6ab0835a979150ac2d1e32125ed83cec2ac5c430102b5fa7eba46784e5775"
+    },
+    "regions.bed": {
+      "bytes": 44724,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/public-target-v1/regions.bed",
+      "sha256": "ef79635a3cab47912b41eb5184809640aeaeb75c49830f6aa9e31e2812908208"
+    },
+    "status": {
+      "bytes": 4897,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/public-target-v1/status.json",
+      "sha256": "3673bafb827a6b1d6f6ac90b08b837c7053373fa5c3c21e4645f113b2ecf5fc2"
+    },
+    "target-summary.json": {
+      "bytes": 16821,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/public-target-v1/target-summary.json",
+      "sha256": "512a465b0e52e145932b2212e314f2469c8ac97dddd5d0f764122fc2d5c87179"
+    }
+  },
+  "qualified_sources": {
+    "coding_depth_targets.py": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/coding-depth-20260920/qualification-v2/workflow/scripts/coding_depth_targets.py",
+      "sha256": "1b7df219b0552479fd45836ce30fa1a2e9b95c2b315384d71da83bc108418278"
+    },
+    "measure_coding_depth.py": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/coding-depth-20260920/qualification-v2/workflow/scripts/measure_coding_depth.py",
+      "sha256": "6ae51dfa66571f81cfd3d5b55696fd844f12bab45cdd2ac4c7f5052b92389749"
+    },
+    "prepare_gatk_compatible_cram.py": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/coding-depth-20260920/qualification-v2/workflow/scripts/prepare_gatk_compatible_cram.py",
+      "sha256": "6e1c5f8a830bb48fba7258d810a0f54166f40d471b21c1b3b4f185e9bed650c9"
+    },
+    "survey_chromosome_depth.py": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/coding-depth-20260920/qualification-v2/workflow/scripts/survey_chromosome_depth.py",
+      "sha256": "403718a03c506f70f84d0164d4bb062a461f6a62f6d1c143e85e4829482d2c29"
+    }
+  },
+  "ready": false,
+  "runtime": {
+    "bytes": 6829968,
+    "path": "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python3.12",
+    "sha256": "101eed1d9e3db137495f9a54720826eb3d7ac25b8c5a0e82d95372d8e7377e8f"
+  },
+  "schema_version": 1
+}

@@ -773,3 +773,12 @@ included under the private-source policy; original alignments, variant payloads,
 case observations, clinical reports and media remain separate authorized inputs.
 Neither fictional controls nor source publication establishes phase, locus origin,
 biological function, complete panel callability, reportability or causality.
+
+
+## v26 source and native-layout evidence
+
+The approved 62-file source/configuration/fictional-control selection is preserved without rewriting qualified methods. Nine original suites retain 6, 16, 21, 40, 8, 25, 25, 34 and 18 controls respectively, with all 41 source-field entries mapped. These are separate historical tests, not a pooled validation score. The 18 population controls are Java self-tests; no separate guard-test suite is implied. No scientific controls were rerun for this release preparation.
+
+Read [the dependency and replay boundaries](workflow/docs/V26-SOURCE-REPRODUCTION.md), [exact restoration paths and hashes](workflow/docs/V26-NATIVE-RESTORATION.json), and [receipt-to-source mappings](workflow/docs/V26-QUALIFICATION-MAP.json). The four unchanged depth sources and original qualification already in v25 are explicitly mapped to the historical native layout. Approved configurations remain distinct from qualified draft configurations; both are retained where the launcher checks their authorization delta.
+
+Complete source-field mapping does not include every receipt-referenced runtime, generated fixture, log, public resource, private input or case result. In particular the population wrapper still needs omitted case-selected query/prior-response files even in its historical qualification mode, while the Java self-test needs its recorded runtime only. Native path/hash/output guards remain intact. No fresh-clone patient execution, biological sensitivity, clinical callability or sample-purity claim follows from this source package.

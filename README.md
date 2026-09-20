@@ -311,3 +311,10 @@ case result payloads, clinical reports, media and internal working Git history a
 excluded. The secondary producer receipt inventories its entire historical workflow;
 this export includes only the selected source subset, not that full historical
 snapshot. Its reproduction guide explains the additional private prerequisites.
+
+
+## v26: immutable audit sources and qualification maps
+
+This source increment adds whole-reference preservation checks, public 84-gene target and guarded depth sources, independent depth verification, public nuclear-panel transformation, nuclear-assay wrappers and saved-output checks, and population-frequency field inspection. Qualified source bytes and historical fictional receipts are retained exactly.
+
+The [v26 reproduction guide](workflow/docs/V26-SOURCE-REPRODUCTION.md) links the [native layout map](workflow/docs/V26-NATIVE-RESTORATION.json) and [nine-suite qualification map](workflow/docs/V26-QUALIFICATION-MAP.json). A source clone alone lacks the private inputs/results, historical completion receipts, public resources and native runtimes needed by the fixed-layout runners. No patient observations, scientific reports or media are added. Existing pitch utilities are reused unchanged. Earlier sections remain historical release notes; this addition describes source availability, not current patient-analysis or submission status.
