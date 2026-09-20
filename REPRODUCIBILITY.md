@@ -42,7 +42,7 @@ were local builds whose source-archive identities matched PyPI. See the
 [wheel-source record](results/runtime-wheel-sources-20260919.json).
 
 The exact 45-wheel recovery bundle remains on owned storage and is **not distributed
-in this initial source snapshot**. Its SHA-256 is
+in this source snapshot**. Its SHA-256 is
 `2cf09339460603fee2149461d21f6f0ecc9819360c385afcb7c27db2165791ae`.
 A new source build can change wheel bytes and requires renewed validation; it is not
 the hash-locked installation tested here. Until the bundle or newly validated builds
@@ -111,6 +111,15 @@ the public HG002 reads as patient data.
 - `call_genome.py` runs native diploid GATK and bcftools discovery by whole-reference
   contig shards. `resume_reads.py` and `resume_calling.py` are dependency-aware
   controllers for the original setup; inspect their configuration before reuse.
+- GATK 4.6.1.0 / HTSJDK 4.1.3 cannot consume CRAM 3.1. For that input format,
+  `prepare_gatk_compatible_cram.py` creates a separate CRAM 3.0 copy, preserves
+  the original, verifies every decoded record, checks headers/index/reference,
+  and runs an indexed GATK read probe. Supply the actual source/reference SHA-256
+  values, expected total alignment-record count, sample and a probe region using
+  its CLI options. Optional `--call-output` requires the expected unchanged caller
+  SHA-256 and a new directory. Do not reuse the original failed output or restart
+  its old waiting controller. The helper compiles `verify_alignment_records.cpp`
+  with the installed Apple C++ compiler and pinned HTSlib headers/library.
 - `prioritize.py` and the Exomiser configurations perform the phenotype-assisted
   analyses. `run_lirical.py` and related summary/resource helpers provide the separate
   disease comparison. `rare_biallelic_baseline.py` and transcript helpers implement
@@ -118,12 +127,16 @@ the public HG002 reads as patient data.
 - Read, mate and WhatsHap helpers retain source genotype/phase context. Full original
   allele lists, GT, AD and PL are needed alongside split allele rows; a matching
   component must not hide an incompatible second allele or imply parental phase.
+- `audit_final_alignment_targets.py` verifies the completed four-lane receipt,
+  extracts bounded SNP windows without changing whole-alignment duplicate marks,
+  and uses the existing explicit-reference and fragment evidence helpers. The
+  separate four-lane phasing configuration declares its exact regional scope.
 - The CNVpytor, structural and ROH workflows require final alignment/QC, appropriate
   masks, ploidy/callability review and their own interpretation. An ordinary diploid
   callset does not establish mosaic, mitochondrial, sex-chromosome or structural coverage.
 
-At this source snapshot the four-lane patient alignment was still completing and
-full-genome callsets were not available. The patient-derived ranking/read summaries,
+At this source snapshot the four-lane alignment and format verification are complete;
+full-genome callsets and broader variant review remain unfinished. The patient-derived ranking/read summaries,
 draft submissions, final reports and video are not included here. They remain separate
 work products awaiting their stated review; this source repository does not complete
 those submission requirements.
@@ -134,6 +147,18 @@ The `workflow/tests` directory contains unit and native integration checks. Some
 require external runtimes or previously completed public-control artifacts. A skipped
 test is not a passing native test. Run the tests relevant to the installed component,
 inspect skips and native outputs, and keep the executed source/configuration hashes.
+
+The self-contained synthetic format control needs the prepared native runtime but
+no challenge data. From any reviewed source copy:
+
+```sh
+MVA_PROJECT_ROOT="$MVA_ROOT" "$MVA_ROOT/tools/bio/bin/python" -m unittest discover \
+  -s "$MVA_REPO/workflow/tests" -p test_gatk_cram_compatibility.py -v
+```
+
+Require the native test to run and pass. Its default temporary fixtures contain
+only generated sequence. It exercises the exported recovery code and both real
+callers, and is not a whole-genome clinical benchmark.
 
 The source snapshot copy is byte-checked. Its only alignment-script change is a
 documented comment replacement removing an unnecessary acquisition-specific header

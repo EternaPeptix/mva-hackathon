@@ -18,6 +18,7 @@ clinical sensitivity for the child.
 - [Original public benchmark result](results/germline-public-comparison-20260919.json)
 - [Exploratory multiallelic comparison](results/germline-retained-multiallelic-comparison-20260919.json)
 - [Exact truth-identity and scope reconciliation](results/germline-representation-reconciliation-20260919.json)
+- [Native CRAM compatibility control](results/gatk-cram-compatibility-native-control-20260920.json)
 
 The workflow covers reference preparation, alignment, native GATK/bcftools calling,
 phenotype-assisted and phenotype-independent prioritisation, read evidence, phasing,
@@ -51,6 +52,13 @@ mechanism controls, five metadata checks and three interval-geometry checks pass
 Separately, seven reconstructed environments passed 22 selected existing native
 controls. These are scoped checks, not a claim that every workflow has been reproduced
 end to end from a fresh public download.
+
+The pinned GATK/HTSJDK reader rejects CRAM 3.1. A separate recovery path creates
+CRAM 3.0 and directly compares every decoded record, including all FLAG bits and
+auxiliary data, before calling. Its native 195-record synthetic control recovers
+the known heterozygous SNV and deletion with both callers, and rejects deliberate
+quality, tag, duplicate-flag and record-order changes. The direct check covers a
+flag-preservation gap reproduced in the pinned samtools checksum implementation.
 
 ## Data and release status
 

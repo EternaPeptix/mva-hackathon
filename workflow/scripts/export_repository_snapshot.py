@@ -36,6 +36,7 @@ RECEIPTS = [
     'runtime-structural-comparator-20260919.json',
     'runtime-wheel-preparation-20260919.json',
     'runtime-wheel-sources-20260919.json',
+    'gatk-cram-compatibility-native-control-20260920.json',
 ]
 
 

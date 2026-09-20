@@ -1,0 +1,29 @@
+{
+  "started_at": "2026-09-20T02:04:16.994931+00:00",
+  "completed_at": "2026-09-20T02:04:20.966250+00:00",
+  "host": "512S2",
+  "command": [
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+    "-m",
+    "unittest",
+    "workflow.tests.test_gatk_cram_compatibility",
+    "-v"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_cram30_preserves_evidence_and_two_caller_truth (workflow.tests.test_gatk_cram_compatibility.NativeCompatibilityTests.test_cram30_preserves_evidence_and_two_caller_truth) ... [W::bcf_hdr_check_sanity] MQ should be declared as Type=Float\nok\n\n----------------------------------------------------------------------\nRan 1 test in 3.909s\n\nOK\n",
+  "source_sha256": {
+    "repo/workflow/scripts/prepare_gatk_compatible_cram.py": "6e1c5f8a830bb48fba7258d810a0f54166f40d471b21c1b3b4f185e9bed650c9",
+    "repo/workflow/scripts/verify_alignment_records.cpp": "2d6cd699d80e58141701c588039bdd4ffc64e7c749c5d12e66b5211abb33fc34",
+    "repo/workflow/tests/test_gatk_cram_compatibility.py": "9a92d1e0c4f72e15151078cc08a2efa85872e5e60a9db89eddfd385ad7b3e88e",
+    "repo/workflow/scripts/call_genome.py": "5af91153e9926b0d8b985d0575b0a6ef51e1496d16ff3614c4cb4d8b2b4ac358"
+  },
+  "scope": "One native end-to-end synthetic fixture with 195 records; reproduces pinned GATK CRAM 3.1 rejection, directly checks CRAM 3.0 equivalence including all tags and flags, detects four deliberate changes, and recovers heterozygous SNV and deletion with both unchanged callers. No patient accuracy claim.",
+  "deliberate_changes": [
+    "base quality",
+    "auxiliary tag value",
+    "duplicate flag",
+    "record order"
+  ],
+  "samtools_checksum_limitation": "Pinned samtools checksum did not detect the duplicate flag mutation; the direct native comparison did."
+}

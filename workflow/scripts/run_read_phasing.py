@@ -241,7 +241,7 @@ def main():
                                     'supplementary_used': False, 'duplicates_used': False,
                                     'statistical_population_or_pedigree_phasing': False,
                                     'prior_VCF_phase_fields_removed': list(PHASE_FIELDS)},
-                    'limitations': ['Same two retained lanes and DNA sample; not new biological replication.',
+                    'limitations': [config['scope'] + ' This is not new biological replication.',
                                     'Bounded region and caller-provided genotypes; uncalled markers/classes remain outside scope.',
                                     'A phase block is software-derived linkage evidence, not parental origin or clinical classification.',
                                     'Separate or missing PS blocks leave the pair unknown; no phase is inferred from phenotype.'],
