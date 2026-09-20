@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "sample": "WGS_EX2312012",
+  "scope": "Caller-separated native protein-altering allele inventory and descriptive genotype/consequence models; no phenotype score or EPCR.",
+  "quality_handling": {
+    "mode": "descriptive_only_no_FILTER_DP_GQ_exclusion",
+    "historical_diagnostic_thresholds": {
+      "DP": 10,
+      "GQ": 20
+    },
+    "interpretation": "Diagnostic bins inherited from the earlier supplied-VCF screen. Missing and unfiltered remain explicit; these bins are not a newly validated sensitivity or ranking policy."
+  },
+  "consequence_groups": {
+    "predicted_disruptive": [
+      "stop_gained",
+      "frameshift",
+      "splice_acceptor",
+      "splice_donor"
+    ],
+    "other_protein_altering": [
+      "missense",
+      "inframe_insertion",
+      "inframe_deletion",
+      "start_lost",
+      "stop_lost"
+    ]
+  },
+  "frequency": {
+    "source": "gnomAD exome and genome population allele counts in retained Exomiser 2512 public allele database",
+    "source_prefixes": [
+      "GNOMAD_E_",
+      "GNOMAD_G_"
+    ],
+    "calculation": "Maximum AC/AN fraction over available populations with valid positive AN; use counts, not an unset protobuf frequency field",
+    "primary_maximum_AF_fraction": 0.001,
+    "sensitivity_maximum_AF_fractions": [
+      0.0001,
+      0.01
+    ],
+    "missing": "Separate frequency-unresolved group; absence or AN=0 is not AF=0",
+    "quality_caveat": "Database counts do not establish site quality or population callability; investigate candidates separately"
+  },
+  "limitations": [
+    "Only the selected completed autosomal snapshot is represented. Pending or outside-scope chromosomes and absent variant records are not callable-reference evidence.",
+    "Every selected concrete protein-altering allele row is retained, including uncalled ALT, unfiltered or named-filter records, and missing/low quality. These are review inventories, not quality-passing findings.",
+    "Original caller, source hash and record ordinal distinguish duplicate records. Full native GT/ALT/FORMAT/PL/AD and rendered record remain authoritative over recoded normalized rows.",
+    "Ordinary descriptive recessive models require fully called diploid sequence genotypes and noncolliding normalized keys; excluded structures and cis/overlap pairs remain review evidence.",
+    "Quality bins DP10/GQ20 are historical diagnostics only. No PASS label or genotype-quality score is imputed, and no quality threshold or clinical precision/recall is newly validated.",
+    "Local consequence annotations do not infer joint coding haplotypes, parental phase, clinical pathogenicity or proven loss of function.",
+    "Models are caller-separated; source genotype/block phase assertions are not independent validation or parental-origin evidence. Conflicting phase annotations remain unresolved.",
+    "Missing public frequency information is not zero. Valid observed counts and source denominators remain visible; population observations do not themselves establish pathogenicity.",
+    "Partial-snapshot model lists are not complete-genome rankings or EPCR estimates and must be reconciled after calling finishes.",
+    "This autosomal coding review does not replace X/Y, mitochondrial, structural, copy-number, repeat, regulatory, mosaic, callability or phenotype analysis."
+  ]
+}

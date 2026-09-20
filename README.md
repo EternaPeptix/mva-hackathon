@@ -191,3 +191,17 @@ pass, including wrong-index and changed-input refusal. Pending chromosomes remai
 explicit. This adds a method check; it does not establish a complete genomic analysis,
 new causal candidate, quality policy or clinical sensitivity. Case audit outputs are
 not included in this source snapshot.
+
+## Native coding inventory and descriptive models
+
+The [native coding review](workflow/docs/NATIVE-CODING-REVIEW.md) links each
+protein-altering allele to its complete original caller record, including
+multiallelic genotype and likelihoods. Missing or low quality remains visible;
+no PASS label or GQ is imputed. Caller-separated recessive combinations retain
+frequency uncertainty and source-scoped phase.
+
+Eighteen [native fictional checks](workflow/source-snapshots/native-coding-controls-20260920/controls.json)
+pass, including exact sequence-equivalent normalization, complete annotation
+payload preservation, original multiallelic recovery, input-tamper refusal and
+explicit partial scope. These checks do not establish biological sensitivity or
+a complete candidate ranking. Case inventories remain outside this source export.

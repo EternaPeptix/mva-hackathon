@@ -580,3 +580,25 @@ They test preservation, missingness, raw-genotype tampering, wrong indexes, inco
 scope and empty valid input. These controls concern handoff consistency, not
 biological sensitivity. The full case audit and case callsets remain outside this
 source-only export.
+
+## Native coding review after the handoff
+
+Use the [coding review recipe](workflow/docs/NATIVE-CODING-REVIEW.md) with a
+checksum-verified completed handoff, the same reference/index, a pinned GFF, the
+review configuration and a new caller-specific output directory. A partial
+autosomal snapshot requires the explicit flag and remains incomplete. The
+workflow creates derived ordinal-tagged and normalized records while retaining
+full original GT/ALT/AD/PL context; annotation may add consequences but may not
+drop records or change non-consequence fields.
+
+Quality fields are descriptive. Population counts are joined by exact normalized
+allele; missing observations remain unresolved. Model generation keeps callers
+and source phase blocks separate, quarantines duplicate keys, and retains cis or
+overlap combinations for representation review. These outputs are descriptive
+combinations, not clinical findings or EPCR estimates.
+
+Eighteen [fictional helper and native integration checks](workflow/source-snapshots/native-coding-controls-20260920/controls.json)
+passed on 512S2 with Python 3.12.14 and pysam 0.24.1. Their frequency inputs are
+fictional exact-response files; they do not validate the public frequency database
+or measure patient accuracy. The case execution uses the pinned local public
+database and requires separate output reconciliation.
