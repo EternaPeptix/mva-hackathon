@@ -1,0 +1,1087 @@
+{
+  "status": "complete",
+  "completed_at": "2026-09-20T00:39:19.952434+00:00",
+  "elapsed_seconds": 8.211541790980846,
+  "all_prespecified_expectations_met": true,
+  "cases": [
+    {
+      "name": "unsplit_strict",
+      "ref_overlap": false,
+      "expected": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "expectation_met": true,
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/baseline.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/reference.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/unsplit_strict",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.3259368338622153,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/unsplit_strict.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789864753262769549,
+          "sha256": "3b46d89d7a8e5177fca6ffa948e5e376cd719e5f3a03feff3eb8f8dffe06ba1b"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/unsplit_strict.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789864752095795569,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 1,
+          "tp_calls": 1,
+          "fp": 0,
+          "fn": 0,
+          "truth_records": 1,
+          "call_records": 1,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {
+            "indel": 1
+          },
+          "tp_calls": {
+            "indel": 1
+          },
+          "fp": {},
+          "fn": {}
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "indel": {
+            "tp_baseline": 1,
+            "tp_calls": 1,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 1,
+            "call_records": 1,
+            "recall": 1.0,
+            "precision": 1.0
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/unsplit_strict/tp-baseline.vcf.gz",
+            "bytes": 500,
+            "mtime_ns": 1789864753404067662,
+            "sha256": "2785ea9e81ed9ee7647e07d1c71b45afb57b747ff44c04d4b8b6fb226e68b1f3"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/unsplit_strict/tp.vcf.gz",
+            "bytes": 500,
+            "mtime_ns": 1789864753364156260,
+            "sha256": "2785ea9e81ed9ee7647e07d1c71b45afb57b747ff44c04d4b8b6fb226e68b1f3"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/unsplit_strict/fp.vcf.gz",
+            "bytes": 473,
+            "mtime_ns": 1789864753308519225,
+            "sha256": "886a6b5626ed22930d0ccb9ba169b43df07f8009b6ae9d5154c8f92cba10b43f"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/unsplit_strict/fn.vcf.gz",
+            "bytes": 473,
+            "mtime_ns": 1789864753345360052,
+            "sha256": "886a6b5626ed22930d0ccb9ba169b43df07f8009b6ae9d5154c8f92cba10b43f"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.000                  1              1          0          0     1.0000       1.0000     1.0000\n     None                  1              1          0          0     1.0000       1.0000     1.0000\n"
+      }
+    },
+    {
+      "name": "split_unphased_strict",
+      "ref_overlap": false,
+      "expected": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "observed": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "expectation_met": true,
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/reference.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_strict",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.3864377920981497,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_strict.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789864754611630219,
+          "sha256": "8539f3f80db5378e2061a631abbd2bb501667a1ccdabc65bc03d10a2c5186eeb"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_strict.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789864753426057532,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 0,
+          "tp_calls": 0,
+          "fp": 2,
+          "fn": 1,
+          "truth_records": 1,
+          "call_records": 2,
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {},
+          "tp_calls": {},
+          "fp": {
+            "indel": 2
+          },
+          "fn": {
+            "indel": 1
+          }
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "indel": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 2,
+            "fn": 1,
+            "truth_records": 1,
+            "call_records": 2,
+            "recall": 0.0,
+            "precision": 0.0
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_strict/tp-baseline.vcf.gz",
+            "bytes": 480,
+            "mtime_ns": 1789864754795654391,
+            "sha256": "8f3822270ac36dc18cf7c600dc63cbc71fbf2048f8b1944587fe93b97ecef153"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_strict/tp.vcf.gz",
+            "bytes": 595,
+            "mtime_ns": 1789864754752237033,
+            "sha256": "52f5b9d51dd697f074d861a67ffd0d3a9293e51382c193b9ab491919a3370d8f"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_strict/fp.vcf.gz",
+            "bytes": 626,
+            "mtime_ns": 1789864754655323413,
+            "sha256": "a2f7e24eb8b9267a5499a8b4ea443c6306353c450d821c1c6d4c5e83b8515f15"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_strict/fn.vcf.gz",
+            "bytes": 508,
+            "mtime_ns": 1789864754705474429,
+            "sha256": "203bdd630868ed615f3c820140663034490b10afec631f97bbd10ac7264a3db1"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.000                  0              0          2          1     0.0000       0.0000     0.0000\n     None                  0              0          2          1     0.0000       0.0000     0.0000\n"
+      }
+    },
+    {
+      "name": "split_phased_strict",
+      "ref_overlap": false,
+      "expected": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "observed": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "expectation_met": true,
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split-phased.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/reference.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_strict",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.3229817079845816,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_strict.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789864755996587915,
+          "sha256": "8539f3f80db5378e2061a631abbd2bb501667a1ccdabc65bc03d10a2c5186eeb"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_strict.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789864754817015086,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 0,
+          "tp_calls": 0,
+          "fp": 2,
+          "fn": 1,
+          "truth_records": 1,
+          "call_records": 2,
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {},
+          "tp_calls": {},
+          "fp": {
+            "indel": 2
+          },
+          "fn": {
+            "indel": 1
+          }
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "indel": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 2,
+            "fn": 1,
+            "truth_records": 1,
+            "call_records": 2,
+            "recall": 0.0,
+            "precision": 0.0
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_strict/tp-baseline.vcf.gz",
+            "bytes": 482,
+            "mtime_ns": 1789864756122050852,
+            "sha256": "3ba5e4f2014dab57f8a7c624b30a0017c681f03a4bfdf06b393f6f043ab63664"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_strict/tp.vcf.gz",
+            "bytes": 599,
+            "mtime_ns": 1789864756067869333,
+            "sha256": "13f576dd193239e763c2395984f1543e6fced77b093213d2dbd84da925db1f04"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_strict/fp.vcf.gz",
+            "bytes": 631,
+            "mtime_ns": 1789864756016784515,
+            "sha256": "326975960f7813434b2343dd8a693125cf9ca73e84085b9da540cc5854eb2eb9"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_strict/fn.vcf.gz",
+            "bytes": 509,
+            "mtime_ns": 1789864756021140188,
+            "sha256": "13dabfbbcd951e820ce2d166bb92fb88af84b2e715b793f88a35472b83f104a1"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.000                  0              0          2          1     0.0000       0.0000     0.0000\n     None                  0              0          2          1     0.0000       0.0000     0.0000\n"
+      }
+    },
+    {
+      "name": "split_unphased_ref_overlap",
+      "ref_overlap": true,
+      "expected": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "expectation_met": true,
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/reference.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_ref_overlap",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het",
+          "--ref-overlap"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.2354319170117378,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_ref_overlap.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789864757313801108,
+          "sha256": "02c309b3bcb485e91400fd5f624662c150a0623d90fc96f3145ca8b4c2027162"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_ref_overlap.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789864756144321892,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 1,
+          "tp_calls": 2,
+          "fp": 0,
+          "fn": 0,
+          "truth_records": 1,
+          "call_records": 2,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {
+            "indel": 1
+          },
+          "tp_calls": {
+            "indel": 2
+          },
+          "fp": {},
+          "fn": {}
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "indel": {
+            "tp_baseline": 1,
+            "tp_calls": 2,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 1,
+            "call_records": 2,
+            "recall": 1.0,
+            "precision": 1.0
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_ref_overlap/tp-baseline.vcf.gz",
+            "bytes": 517,
+            "mtime_ns": 1789864757367063283,
+            "sha256": "5ee52062a8aeaec6a6d0f25b7347d25e61924efee2d19d8f70ebab30d7a1119e"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_ref_overlap/tp.vcf.gz",
+            "bytes": 635,
+            "mtime_ns": 1789864757346375012,
+            "sha256": "cdbe1296c0c0b076a67adab7b1efe9d569c672df7cc8269703b968c975f73fbb"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_ref_overlap/fp.vcf.gz",
+            "bytes": 604,
+            "mtime_ns": 1789864757318350451,
+            "sha256": "7c72f226cf50b6a1b324e505c10d1eeba9fe632ec33f730f862032c732efa12a"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_unphased_ref_overlap/fn.vcf.gz",
+            "bytes": 490,
+            "mtime_ns": 1789864757345951508,
+            "sha256": "c9cd009650e577a16bc3a78f0a6167c5057c82b65bfb059a24f362f9332df517"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.000                  1              2          0          0     1.0000       1.0000     1.0000\n     None                  1              2          0          0     1.0000       1.0000     1.0000\n"
+      }
+    },
+    {
+      "name": "split_phased_ref_overlap",
+      "ref_overlap": true,
+      "expected": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "expectation_met": true,
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split-phased.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/reference.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_ref_overlap",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het",
+          "--ref-overlap"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.2985002079512924,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_ref_overlap.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789864758560659351,
+          "sha256": "02c309b3bcb485e91400fd5f624662c150a0623d90fc96f3145ca8b4c2027162"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_ref_overlap.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789864757383272380,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 1,
+          "tp_calls": 2,
+          "fp": 0,
+          "fn": 0,
+          "truth_records": 1,
+          "call_records": 2,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {
+            "indel": 1
+          },
+          "tp_calls": {
+            "indel": 2
+          },
+          "fp": {},
+          "fn": {}
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "indel": {
+            "tp_baseline": 1,
+            "tp_calls": 2,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 1,
+            "call_records": 2,
+            "recall": 1.0,
+            "precision": 1.0
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_ref_overlap/tp-baseline.vcf.gz",
+            "bytes": 518,
+            "mtime_ns": 1789864758662879321,
+            "sha256": "085b69651216e4dfde27211f19505aa549a4c633196a8a15c31299f3af1e8754"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_ref_overlap/tp.vcf.gz",
+            "bytes": 640,
+            "mtime_ns": 1789864758645333876,
+            "sha256": "1baa5c9eb680efcd957ae78b5f20265aa1aab8c4902922e1e8e75a847e19fc3d"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_ref_overlap/fp.vcf.gz",
+            "bytes": 608,
+            "mtime_ns": 1789864758585133998,
+            "sha256": "7a32d76a3c48e91fc7b6b559134297bab6511554a3d1cb68049b1fca11f1a810"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split_phased_ref_overlap/fn.vcf.gz",
+            "bytes": 492,
+            "mtime_ns": 1789864758616216927,
+            "sha256": "a447f8ef07995bf9a64174dc83c0fa6c650c17e79edd6fa91df515dd65bcd0d8"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.000                  1              2          0          0     1.0000       1.0000     1.0000\n     None                  1              2          0          0     1.0000       1.0000     1.0000\n"
+      }
+    },
+    {
+      "name": "wrong_GT_ref_overlap",
+      "ref_overlap": true,
+      "expected": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "observed": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "expectation_met": true,
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/wrong-genotype.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/reference.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/wrong_GT_ref_overlap",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het",
+          "--ref-overlap"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.2626819589640945,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/wrong_GT_ref_overlap.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789864759850359155,
+          "sha256": "140c702b0c1bd5369a06e7b91d130119a4b0be4878d2cbe4dda170154176198c"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/wrong_GT_ref_overlap.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789864758686193581,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 0,
+          "tp_calls": 0,
+          "fp": 1,
+          "fn": 1,
+          "truth_records": 1,
+          "call_records": 1,
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {},
+          "tp_calls": {},
+          "fp": {
+            "indel": 1
+          },
+          "fn": {
+            "indel": 1
+          }
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "indel": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 1,
+            "fn": 1,
+            "truth_records": 1,
+            "call_records": 1,
+            "recall": 0.0,
+            "precision": 0.0
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/wrong_GT_ref_overlap/tp-baseline.vcf.gz",
+            "bytes": 491,
+            "mtime_ns": 1789864759932126023,
+            "sha256": "b6c6dd964f467132b3b36fd17bebb3ea2c007631971b518ac5757416df953b25"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/wrong_GT_ref_overlap/tp.vcf.gz",
+            "bytes": 491,
+            "mtime_ns": 1789864759898795610,
+            "sha256": "b6c6dd964f467132b3b36fd17bebb3ea2c007631971b518ac5757416df953b25"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/wrong_GT_ref_overlap/fp.vcf.gz",
+            "bytes": 518,
+            "mtime_ns": 1789864759873141366,
+            "sha256": "664991db88b568f2ab9db69008eeeb95294f97946eb1f9feab5f567d685cbb2b"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/wrong_GT_ref_overlap/fn.vcf.gz",
+            "bytes": 518,
+            "mtime_ns": 1789864759877322121,
+            "sha256": "1a5eb4b810b6fbbea4b161fe45a3be94de98e75ae6752fb8a7b96e1acecb2f6d"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.000                  0              0          1          1     0.0000       0.0000     0.0000\n     None                  0              0          1          1     0.0000       0.0000     0.0000\n"
+      }
+    }
+  ],
+  "config": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/configs/public-small-variant-comparison.json",
+    "bytes": 2870,
+    "mtime_ns": 1789858320000000000,
+    "sha256": "628e04cfd7e5d2385a59043555221eaa1393fd6151b72d2e614bf67475994007"
+  },
+  "runtime": {
+    "rtg": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+      "bytes": 11471,
+      "mtime_ns": 1789857455130808012,
+      "sha256": "6b9a7bb7c0419b57f2aab1cbe3941ed4f3a18a36b2f41d271b9c43742bc31016"
+    },
+    "RTG.jar": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/RTG.jar",
+      "bytes": 8285448,
+      "mtime_ns": 1789857455155742410,
+      "sha256": "dad55b3525d01f788975b8a6a5298a1ceeced41085654b8635271b314298b31e"
+    },
+    "rtg.cfg": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg.cfg",
+      "bytes": 190,
+      "mtime_ns": 1789857617205191111,
+      "sha256": "0591deb8d8e3a7b04cdd5216bb7daba2557497430ad60c48457349fff482882d"
+    },
+    "java": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/bio/lib/jvm/bin/java",
+      "bytes": 69936,
+      "mtime_ns": 1787925143000000000,
+      "sha256": "ec64ac719290ad080c7f8a4f5d83402e4152f98f486fe14150cf734a46ebcbb1"
+    }
+  },
+  "code": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/probe_multiallelic_representation.py",
+    "bytes": 6016,
+    "mtime_ns": 1789864751393105669,
+    "sha256": "4fcf7e909dc030c2b3fe79c5506d2af3dc69922a11aedc98f5e36d6bf718bc81"
+  },
+  "normalization": {
+    "command": [
+      "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/bcftools",
+      "norm",
+      "--check-ref",
+      "e",
+      "-f",
+      "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/reference.fa",
+      "-m",
+      "-any",
+      "-Oz",
+      "-o",
+      "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split.vcf.gz",
+      "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/baseline.vcf.gz"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.008104542037472129,
+    "stdout": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split.stdout",
+      "bytes": 0,
+      "mtime_ns": 1789864752077978496,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/split.stderr",
+      "bytes": 89,
+      "mtime_ns": 1789864752085510788,
+      "sha256": "12ca148eba694a4b88b8210fa7cad95cb932ab2a675b2bc7f373399a80ad34f9"
+    }
+  },
+  "literal_unsplit_row": [
+    [
+      401,
+      "GAAAA",
+      "GAA,G",
+      "1/2",
+      30,
+      "PASS"
+    ]
+  ],
+  "native_split_rows": [
+    "chrControl\t401\t.\tGAA\tG\t30\tPASS\t.\tGT\t1/0",
+    "chrControl\t401\t.\tGAAAA\tG\t30\tPASS\t.\tGT\t0/1"
+  ],
+  "intended_nonreference_haplotypes_identical": true,
+  "haplotype_sha256": [
+    "a7982268e849b1aa6909c02352184dbb15fabec71844ba3d35f11688a209e3bf",
+    "d840f9596f31a0043f76926cf6f6c44e3687304201009a3f69f547c22216b7e8"
+  ],
+  "limits": [
+    "Fictional comparator experiment, not real-read variant calling or patient phase evidence.",
+    "The ref-overlap arms are explicit diagnostic interventions; the frozen public configuration remains unchanged.",
+    "A correct nonreference-edit interpretation does not make conflicting reference assertions in split records disappear."
+  ]
+}

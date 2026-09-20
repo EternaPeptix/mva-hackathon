@@ -1,0 +1,27 @@
+{
+  "purpose": "Descriptive phenotype-free, predictor-free autosomal coding baseline; not a diagnostic classifier or EPCR estimator.",
+  "defined_on": "2026-09-19 before baseline execution; BUB1B already known, not a blinded or preregistered discovery",
+  "assembly": "GRCh38",
+  "sample": "WGS_EX2312012",
+  "autosomes_only": true,
+  "consequence_tool": "bcftools csq 1.24 --local-csq with Ensembl 116 primary-chromosome GFF3",
+  "consequence_policy": "All supported protein-coding transcripts; variants in a proposed pair must share an affected transcript. No invented haplotypes.",
+  "consequence_groups": {
+    "predicted_disruptive": ["stop_gained", "frameshift", "splice_acceptor", "splice_donor"],
+    "other_protein_altering": ["missense", "inframe_insertion", "inframe_deletion", "start_lost", "stop_lost"]
+  },
+  "quality": {"explicit_PASS": true, "fully_called_diploid": true, "minimum_DP": 10, "minimum_GQ": 20},
+  "frequency": {
+    "source": "gnomAD exome and genome population allele counts in retained Exomiser 2512 public allele database",
+    "source_prefixes": ["GNOMAD_E_", "GNOMAD_G_"],
+    "calculation": "Maximum AC/AN fraction over available populations with valid positive AN; use counts, not an unset protobuf frequency field",
+    "primary_maximum_AF_fraction": 0.001,
+    "sensitivity_maximum_AF_fractions": [0.0001, 0.01],
+    "missing": "Separate frequency-unresolved group; absence or AN=0 is not AF=0",
+    "quality_caveat": "Database counts do not establish site quality or population callability; investigate candidates separately"
+  },
+  "genotypes": ["homozygous_alt", "two_distinct_heterozygous_alleles"],
+  "pair_policy": "Require a shared affected transcript. Keep unknown phase explicitly unknown. Exclude explicit cis pairs from possible-biallelic groups, retaining an audit count. Opposite alleles of a diploid 1/2 call are trans by the source genotype. Unresolved overlapping representations require separate review.",
+  "ranking": "Descriptive tied tiers: two predicted-disruptive alleles; one predicted-disruptive plus one other protein-altering allele; two other protein-altering alleles. Homozygous genotypes count twice. No gene-size correction, phenotype, disease-gene filter, ClinVar or pathogenicity predictor. Stable gene/allele order only breaks display ties.",
+  "limitations": ["Sequence consequence is not validated loss of function", "Transcript relevance and multi-variant haplotypes require follow-up", "Not all genes have a recessive disease relationship", "Autosomal coding scope excludes sex chromosomes and noncoding, structural, repeat and mosaic explanations", "Shared frequency data and known candidate prevent a claim of fully independent clinical confirmation"]
+}

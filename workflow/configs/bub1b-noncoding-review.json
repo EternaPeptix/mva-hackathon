@@ -1,0 +1,54 @@
+{
+  "purpose": "Targeted review of two published BUB1B noncoding alleles omitted by the protein-altering baseline; coding sites are positive controls.",
+  "selection_recorded_before_target_read_inspection": true,
+  "scope": "Historical L001/L002 alignments only. Same biological sample, not independent replication or full four-lane confirmation.",
+  "sample": "WGS_EX2312012",
+  "reference_sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6",
+  "slice_padding_bp": 5000,
+  "targets": [
+    {
+      "key": "15:40117088:G:A", "chrom": "15", "pos": 40117088, "ref": "G", "alt": "A",
+      "role": "published regulatory allele",
+      "label": "BUB1B upstream ss802470619 / rs576524605",
+      "selection": "Ochiai 2014 PMID 24344301; ClinGen CCID:004299; exact GRCh38 allele independently verified through CA268757149.",
+      "sources": ["https://pubmed.ncbi.nlm.nih.gov/24344301/", "https://search.clinicalgenome.org/CCID:004299", "https://reg.clinicalgenome.org/allele/CA268757149"]
+    },
+    {
+      "key": "15:40209701:T:G", "chrom": "15", "pos": 40209701, "ref": "T", "alt": "G",
+      "role": "previously observed coding control", "label": "BUB1B p.Leu737Ter"
+    },
+    {
+      "key": "15:40212488:A:G", "chrom": "15", "pos": 40212488, "ref": "A", "alt": "G",
+      "role": "published noncanonical splice-region allele",
+      "label": "BUB1B NM_001211.6:c.2386-11A>G",
+      "selection": "Rio Frio 2010 PMID 21190457; fresh VCV000030279.7 XML verifies GRCh38 coordinate and retains conflicting LP/VUS assertions.",
+      "sources": ["https://pubmed.ncbi.nlm.nih.gov/21190457/", "https://www.ncbi.nlm.nih.gov/clinvar/variation/30279/"]
+    },
+    {
+      "key": "15:40220612:T:G", "chrom": "15", "pos": 40220612, "ref": "T", "alt": "G",
+      "role": "previously observed coding control", "label": "BUB1B p.Asn1002Lys"
+    }
+  ],
+  "read_filters": {
+    "minimum_mapping_quality": 20,
+    "minimum_base_quality": 20,
+    "exclude_flags": "0xF04",
+    "BAQ": true,
+    "one_fragment_per_RG_and_query_name": true,
+    "conflicting_mates_retained_separately": true
+  },
+  "reference_support_policy": {
+    "minimum_caller_DP": 10,
+    "required_modes": ["GATK_BP_gVCF", "GATK_genotyped", "bcftools_allsites", "bcftools_targeted"],
+    "GQ_required_modes": ["GATK_BP_gVCF"],
+    "minimum_reference_GQ": 20,
+    "target_PL_gap_required_modes": ["bcftools_targeted"],
+    "minimum_target_reference_PL_gap": 20,
+    "minimum_reference_fragments": 10,
+    "require_both_strands": true,
+    "require_zero_eligible_nonreference_or_conflicting_fragments": true,
+    "require_GATK_GenotypeGVCFs_and_bcftools_explicit_homref": true,
+    "quality_fields": "GATK BP-resolution reference model GQ >=20 plus explicit all-sites GT/DP; bcftools constrained 0/0 must have min(PL01,PL11)-PL00 >=20. The likelihood gap is not called GQ. Missing caller GQ remains null.",
+    "meaning": "Operational evidence for reference sequence at these SNPs in retained lanes, not a validated clinical negative or exclusion of mosaicism, deletions, or other regulatory alleles."
+  }
+}

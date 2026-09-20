@@ -1,0 +1,1543 @@
+{
+  "completed_at": "2026-09-20T00:33:13.021254+00:00",
+  "scope": "Public HG002 chr20 only; GIAB v4.2.1 small-variant benchmark, independent of the v5.0q structural benchmark",
+  "comparison": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/summary.json",
+    "bytes": 19670,
+    "sha256": "404869d8e0f75440653aec84d570da97e8e61132f2ec70d07c70ab4830d931bb"
+  },
+  "code": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/audit_public_small_variants.py",
+    "bytes": 11012,
+    "sha256": "f843f496c2112ca30b807bbccce1ddd0190d718a6d8d007f063a5e92315bcbc7"
+  },
+  "verified_inputs": {
+    "gatk/tp_baseline": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/gatk/tp-baseline.vcf.gz",
+      "bytes": 4298915,
+      "sha256": "d2f814fedef1901b3ddd514cf725512e792ef14d62d0ab32f70c8b877b8b50f8"
+    },
+    "gatk/tp_calls": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/gatk/tp.vcf.gz",
+      "bytes": 3584252,
+      "sha256": "ba1301ff500aa860685df7ec90e07ddd7b5120f4392237bb107801f81fda791d"
+    },
+    "gatk/fp": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/gatk/fp.vcf.gz",
+      "bytes": 61927,
+      "sha256": "be49c1e3a55d8d640f7f9ef9b8898e837739480ed64ff475664f8f75ef29173c"
+    },
+    "gatk/fn": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/gatk/fn.vcf.gz",
+      "bytes": 51342,
+      "sha256": "a298a4ca2641136631ccd4e69589707c4a17f6ba218f816354d3ccef911ff25a"
+    },
+    "bcftools/tp_baseline": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/bcftools/tp-baseline.vcf.gz",
+      "bytes": 4241308,
+      "sha256": "a5b37847a7f94c87cabe696d84a601e6fa67d117704c4bacbb85012258840394"
+    },
+    "bcftools/tp_calls": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/bcftools/tp.vcf.gz",
+      "bytes": 3932742,
+      "sha256": "b5ba9db7c45ba52ec7aa3e9dd8b40024aa712af4389d5eb8a824a69eb5d7f286"
+    },
+    "bcftools/fp": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/bcftools/fp.vcf.gz",
+      "bytes": 117825,
+      "sha256": "dc5dbc6e422927855d20519366f3a5d4f639859d23c3b64568588422d552c9c6"
+    },
+    "bcftools/fn": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/bcftools/fn.vcf.gz",
+      "bytes": 102291,
+      "sha256": "d3e6dc90085c05275065b39e7b19a48847d2e67828ad5b03cf54f948c6bc69b6"
+    },
+    "truth": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/HG002.chr20.v4.2.1.full-context.vcf.gz",
+      "bytes": 3237143,
+      "sha256": "3713fe8baa96d7230c5414a24e452713e5d23d744e2b5c305d9a7914842868cc"
+    },
+    "gatk": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/HG002.gatk.normalized.raw.vcf.gz",
+      "bytes": 4939409,
+      "sha256": "69f2dad38f5b207e51987c486653a17185be11bba75828676db84b42e8aa3487"
+    },
+    "bcftools": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/HG002.bcftools.normalized.raw.vcf.gz",
+      "bytes": 5858194,
+      "sha256": "bc055e824607a9f16fcb816a04a1757df6de4004f2466cac958994db32edc460"
+    }
+  },
+  "scored_truth_records": 82589,
+  "truth_partitions": {
+    "matched_both": {
+      "records": 81090,
+      "record_classes": {
+        "snv": 70811,
+        "indel": 10255,
+        "mixed": 24
+      }
+    },
+    "gatk_only": {
+      "records": 759,
+      "record_classes": {
+        "indel": 679,
+        "snv": 76,
+        "mixed": 4
+      }
+    },
+    "bcftools_only": {
+      "records": 84,
+      "record_classes": {
+        "snv": 65,
+        "indel": 19
+      }
+    },
+    "missed_both": {
+      "records": 656,
+      "record_classes": {
+        "snv": 381,
+        "indel": 274,
+        "mixed": 1
+      }
+    }
+  },
+  "matched_by_at_least_one_caller": {
+    "records": 81933,
+    "fraction_of_scored_truth": 0.9920570536027801,
+    "is_validated_merged_callset": false,
+    "merged_precision": null
+  },
+  "output_diagnostics": {
+    "gatk": {
+      "tp_baseline": {
+        "records": 81849,
+        "record_classes": {
+          "snv": 70887,
+          "indel": 10934,
+          "mixed": 28
+        },
+        "fixed_QUAL_bins": {
+          "QUAL_20_to_lt_100": 81849
+        },
+        "genotypes": {
+          "(1, 1)": 30187,
+          "(0, 1)": 51022,
+          "(2, 1)": 250,
+          "(1, 0)": 149,
+          "(1, 2)": 241
+        },
+        "format_summaries": {
+          "QUAL": {
+            "available": 81849,
+            "min": 50.0,
+            "median": 50.0,
+            "max": 50.0
+          },
+          "DP": {
+            "available": 81849,
+            "min": 44,
+            "median": 1046,
+            "max": 3248
+          },
+          "GQ": {
+            "available": 81849,
+            "min": 34,
+            "median": 555,
+            "max": 866
+          }
+        }
+      },
+      "tp_calls": {
+        "records": 82341,
+        "record_classes": {
+          "snv": 70915,
+          "indel": 11426
+        },
+        "fixed_QUAL_bins": {
+          "QUAL_ge_500": 64272,
+          "QUAL_100_to_lt_500": 17859,
+          "QUAL_20_to_lt_100": 210
+        },
+        "genotypes": {
+          "(1, 1)": 30186,
+          "(0, 1)": 51662,
+          "(1, 0)": 493
+        },
+        "format_summaries": {
+          "QUAL": {
+            "available": 82341,
+            "min": 32.63999938964844,
+            "median": 718.6400146484375,
+            "max": 3257.06005859375
+          },
+          "DP": {
+            "available": 82341,
+            "min": 1,
+            "median": 36,
+            "max": 76
+          },
+          "GQ": {
+            "available": 82341,
+            "min": 1,
+            "median": 99,
+            "max": 99
+          }
+        }
+      },
+      "fp": {
+        "records": 1223,
+        "record_classes": {
+          "snv": 749,
+          "indel": 474
+        },
+        "fixed_QUAL_bins": {
+          "QUAL_ge_500": 492,
+          "QUAL_20_to_lt_100": 287,
+          "QUAL_100_to_lt_500": 444
+        },
+        "genotypes": {
+          "(0, 1)": 988,
+          "(1, 0)": 220,
+          "(1, 1)": 15
+        },
+        "format_summaries": {
+          "QUAL": {
+            "available": 1223,
+            "min": 30.639999389648438,
+            "median": 354.6400146484375,
+            "max": 2853.639892578125
+          },
+          "DP": {
+            "available": 1223,
+            "min": 1,
+            "median": 32,
+            "max": 87
+          },
+          "GQ": {
+            "available": 1223,
+            "min": 0,
+            "median": 99,
+            "max": 99
+          }
+        }
+      },
+      "fn": {
+        "records": 740,
+        "record_classes": {
+          "snv": 446,
+          "indel": 293,
+          "mixed": 1
+        },
+        "fixed_QUAL_bins": {
+          "QUAL_20_to_lt_100": 740
+        },
+        "genotypes": {
+          "(1, 1)": 184,
+          "(0, 1)": 310,
+          "(2, 1)": 214,
+          "(1, 2)": 32
+        },
+        "format_summaries": {
+          "QUAL": {
+            "available": 740,
+            "min": 50.0,
+            "median": 50.0,
+            "max": 50.0
+          },
+          "DP": {
+            "available": 740,
+            "min": 23,
+            "median": 364.5,
+            "max": 1280
+          },
+          "GQ": {
+            "available": 740,
+            "min": 31,
+            "median": 251.0,
+            "max": 707
+          }
+        }
+      },
+      "fp_exact_raw_alleles_with_discordant_GT": 81
+    },
+    "bcftools": {
+      "tp_baseline": {
+        "records": 81174,
+        "record_classes": {
+          "snv": 70876,
+          "indel": 10274,
+          "mixed": 24
+        },
+        "fixed_QUAL_bins": {
+          "QUAL_20_to_lt_100": 81174
+        },
+        "genotypes": {
+          "(1, 1)": 29675,
+          "(0, 1)": 50895,
+          "(2, 1)": 228,
+          "(1, 0)": 149,
+          "(1, 2)": 227
+        },
+        "format_summaries": {
+          "QUAL": {
+            "available": 81174,
+            "min": 50.0,
+            "median": 50.0,
+            "max": 50.0
+          },
+          "DP": {
+            "available": 81174,
+            "min": 44,
+            "median": 1047.0,
+            "max": 3248
+          },
+          "GQ": {
+            "available": 81174,
+            "min": 34,
+            "median": 556.0,
+            "max": 866
+          }
+        }
+      },
+      "tp_calls": {
+        "records": 81644,
+        "record_classes": {
+          "snv": 70951,
+          "indel": 10693
+        },
+        "fixed_QUAL_bins": {
+          "QUAL_100_to_lt_500": 80269,
+          "QUAL_20_to_lt_100": 1266,
+          "QUAL_lt_20": 109
+        },
+        "genotypes": {
+          "(1, 1)": 29679,
+          "(0, 1)": 51534,
+          "(1, 0)": 431
+        },
+        "format_summaries": {
+          "QUAL": {
+            "available": 81644,
+            "min": 3.444610118865967,
+            "median": 222.38800048828125,
+            "max": 228.4149932861328
+          },
+          "DP": {
+            "available": 81644,
+            "min": 1,
+            "median": 34.0,
+            "max": 67
+          },
+          "GQ": {
+            "available": 0,
+            "min": null,
+            "median": null,
+            "max": null
+          }
+        }
+      },
+      "fp": {
+        "records": 1786,
+        "record_classes": {
+          "indel": 1034,
+          "snv": 752
+        },
+        "fixed_QUAL_bins": {
+          "QUAL_100_to_lt_500": 1184,
+          "QUAL_20_to_lt_100": 396,
+          "QUAL_lt_20": 206
+        },
+        "genotypes": {
+          "(0, 1)": 1521,
+          "(1, 0)": 211,
+          "(1, 1)": 54
+        },
+        "format_summaries": {
+          "QUAL": {
+            "available": 1786,
+            "min": 3.0436298847198486,
+            "median": 182.25350189208984,
+            "max": 228.30099487304688
+          },
+          "DP": {
+            "available": 1786,
+            "min": 1,
+            "median": 29.0,
+            "max": 76
+          },
+          "GQ": {
+            "available": 0,
+            "min": null,
+            "median": null,
+            "max": null
+          }
+        }
+      },
+      "fn": {
+        "records": 1415,
+        "record_classes": {
+          "indel": 953,
+          "snv": 457,
+          "mixed": 5
+        },
+        "fixed_QUAL_bins": {
+          "QUAL_20_to_lt_100": 1415
+        },
+        "genotypes": {
+          "(1, 1)": 696,
+          "(0, 1)": 437,
+          "(2, 1)": 236,
+          "(1, 2)": 46
+        },
+        "format_summaries": {
+          "QUAL": {
+            "available": 1415,
+            "min": 50.0,
+            "median": 50.0,
+            "max": 50.0
+          },
+          "DP": {
+            "available": 1415,
+            "min": 23,
+            "median": 499,
+            "max": 1292
+          },
+          "GQ": {
+            "available": 1415,
+            "min": 31,
+            "median": 290,
+            "max": 756
+          }
+        }
+      },
+      "fp_exact_raw_alleles_with_discordant_GT": 566
+    }
+  },
+  "examples": [
+    {
+      "truth_match_partition": "gatk_only",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 160384,
+        "ref": "G",
+        "alt": [
+          "T"
+        ],
+        "GT": [
+          0,
+          1
+        ],
+        "phased": false,
+        "QUAL": 50.0,
+        "DP": 356,
+        "GQ": 346,
+        "AD": [
+          30,
+          22
+        ],
+        "record_class": "snv"
+      },
+      "nearby_original_calls": {
+        "gatk": {
+          "total_records_in_window": 3,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 160384,
+              "ref": "G",
+              "alt": [
+                "T"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 52.63999938964844,
+              "DP": 25,
+              "GQ": 60,
+              "AD": [
+                22,
+                3
+              ],
+              "record_class": "snv"
+            },
+            {
+              "chrom": "chr20",
+              "pos": 160388,
+              "ref": "C",
+              "alt": [
+                "T"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 52.63999938964844,
+              "DP": 25,
+              "GQ": 60,
+              "AD": [
+                22,
+                3
+              ],
+              "record_class": "snv"
+            },
+            {
+              "chrom": "chr20",
+              "pos": 160408,
+              "ref": "G",
+              "alt": [
+                "A"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 52.63999938964844,
+              "DP": 25,
+              "GQ": 60,
+              "AD": [
+                22,
+                3
+              ],
+              "record_class": "snv"
+            }
+          ],
+          "truncated": false
+        },
+        "bcftools": {
+          "total_records_in_window": 0,
+          "displayed_records": [],
+          "truncated": false
+        }
+      }
+    },
+    {
+      "truth_match_partition": "gatk_only",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 160388,
+        "ref": "C",
+        "alt": [
+          "T"
+        ],
+        "GT": [
+          0,
+          1
+        ],
+        "phased": false,
+        "QUAL": 50.0,
+        "DP": 359,
+        "GQ": 352,
+        "AD": [
+          30,
+          23
+        ],
+        "record_class": "snv"
+      },
+      "nearby_original_calls": {
+        "gatk": {
+          "total_records_in_window": 4,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 160384,
+              "ref": "G",
+              "alt": [
+                "T"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 52.63999938964844,
+              "DP": 25,
+              "GQ": 60,
+              "AD": [
+                22,
+                3
+              ],
+              "record_class": "snv"
+            },
+            {
+              "chrom": "chr20",
+              "pos": 160388,
+              "ref": "C",
+              "alt": [
+                "T"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 52.63999938964844,
+              "DP": 25,
+              "GQ": 60,
+              "AD": [
+                22,
+                3
+              ],
+              "record_class": "snv"
+            },
+            {
+              "chrom": "chr20",
+              "pos": 160408,
+              "ref": "G",
+              "alt": [
+                "A"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 52.63999938964844,
+              "DP": 25,
+              "GQ": 60,
+              "AD": [
+                22,
+                3
+              ],
+              "record_class": "snv"
+            },
+            {
+              "chrom": "chr20",
+              "pos": 160413,
+              "ref": "C",
+              "alt": [
+                "T"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 52.63999938964844,
+              "DP": 25,
+              "GQ": 60,
+              "AD": [
+                22,
+                3
+              ],
+              "record_class": "snv"
+            }
+          ],
+          "truncated": false
+        },
+        "bcftools": {
+          "total_records_in_window": 0,
+          "displayed_records": [],
+          "truncated": false
+        }
+      }
+    },
+    {
+      "truth_match_partition": "gatk_only",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 92969,
+        "ref": "CTT",
+        "alt": [
+          "C"
+        ],
+        "GT": [
+          1,
+          1
+        ],
+        "phased": false,
+        "QUAL": 50.0,
+        "DP": 320,
+        "GQ": 142,
+        "AD": [
+          1,
+          87
+        ],
+        "record_class": "indel"
+      },
+      "nearby_original_calls": {
+        "gatk": {
+          "total_records_in_window": 1,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 92969,
+              "ref": "CTT",
+              "alt": [
+                "C"
+              ],
+              "GT": [
+                1,
+                1
+              ],
+              "phased": false,
+              "QUAL": 431.489990234375,
+              "DP": 16,
+              "GQ": 10,
+              "AD": [
+                2,
+                14
+              ],
+              "record_class": "indel"
+            }
+          ],
+          "truncated": false
+        },
+        "bcftools": {
+          "total_records_in_window": 1,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 92969,
+              "ref": "CTT",
+              "alt": [
+                "C"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 216.88999938964844,
+              "DP": 21,
+              "GQ": null,
+              "AD": [
+                7,
+                14
+              ],
+              "record_class": "indel"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    },
+    {
+      "truth_match_partition": "gatk_only",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 121439,
+        "ref": "TATTCTTCAGCTGTCAAA",
+        "alt": [
+          "T"
+        ],
+        "GT": [
+          1,
+          1
+        ],
+        "phased": false,
+        "QUAL": 50.0,
+        "DP": 542,
+        "GQ": 333,
+        "AD": [
+          2,
+          45
+        ],
+        "record_class": "indel"
+      },
+      "nearby_original_calls": {
+        "gatk": {
+          "total_records_in_window": 1,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 121439,
+              "ref": "TATTCTTCAGCTGTCAAA",
+              "alt": [
+                "T"
+              ],
+              "GT": [
+                1,
+                1
+              ],
+              "phased": false,
+              "QUAL": 1043.030029296875,
+              "DP": 24,
+              "GQ": 74,
+              "AD": [
+                0,
+                24
+              ],
+              "record_class": "indel"
+            }
+          ],
+          "truncated": false
+        },
+        "bcftools": {
+          "total_records_in_window": 1,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 121439,
+              "ref": "TATTCTTCAGCTGTCAAA",
+              "alt": [
+                "T"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 220.03700256347656,
+              "DP": 29,
+              "GQ": null,
+              "AD": [
+                12,
+                17
+              ],
+              "record_class": "indel"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    },
+    {
+      "truth_match_partition": "bcftools_only",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 99430,
+        "ref": "G",
+        "alt": [
+          "A"
+        ],
+        "GT": [
+          1,
+          1
+        ],
+        "phased": false,
+        "QUAL": 50.0,
+        "DP": 1145,
+        "GQ": 486,
+        "AD": [
+          81,
+          638
+        ],
+        "record_class": "snv"
+      },
+      "nearby_original_calls": {
+        "gatk": {
+          "total_records_in_window": 1,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 99430,
+              "ref": "G",
+              "alt": [
+                "A"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 1194.6400146484375,
+              "DP": 38,
+              "GQ": 21,
+              "AD": [
+                3,
+                35
+              ],
+              "record_class": "snv"
+            }
+          ],
+          "truncated": false
+        },
+        "bcftools": {
+          "total_records_in_window": 1,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 99430,
+              "ref": "G",
+              "alt": [
+                "A"
+              ],
+              "GT": [
+                1,
+                1
+              ],
+              "phased": false,
+              "QUAL": 228.1580047607422,
+              "DP": 34,
+              "GQ": null,
+              "AD": [
+                2,
+                32
+              ],
+              "record_class": "snv"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    },
+    {
+      "truth_match_partition": "bcftools_only",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 130329,
+        "ref": "G",
+        "alt": [
+          "A"
+        ],
+        "GT": [
+          1,
+          1
+        ],
+        "phased": false,
+        "QUAL": 50.0,
+        "DP": 871,
+        "GQ": 307,
+        "AD": [
+          0,
+          103
+        ],
+        "record_class": "snv"
+      },
+      "nearby_original_calls": {
+        "gatk": {
+          "total_records_in_window": 3,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 130329,
+              "ref": "G",
+              "alt": [
+                "A"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 1732.6400146484375,
+              "DP": 47,
+              "GQ": 84,
+              "AD": [
+                5,
+                42
+              ],
+              "record_class": "snv"
+            },
+            {
+              "chrom": "chr20",
+              "pos": 130338,
+              "ref": "A",
+              "alt": [
+                "C"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 1657.6400146484375,
+              "DP": 45,
+              "GQ": 90,
+              "AD": [
+                5,
+                40
+              ],
+              "record_class": "snv"
+            },
+            {
+              "chrom": "chr20",
+              "pos": 130339,
+              "ref": "T",
+              "alt": [
+                "C"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 1657.6400146484375,
+              "DP": 45,
+              "GQ": 90,
+              "AD": [
+                5,
+                40
+              ],
+              "record_class": "snv"
+            }
+          ],
+          "truncated": false
+        },
+        "bcftools": {
+          "total_records_in_window": 3,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 130329,
+              "ref": "G",
+              "alt": [
+                "A"
+              ],
+              "GT": [
+                1,
+                1
+              ],
+              "phased": false,
+              "QUAL": 228.093994140625,
+              "DP": 44,
+              "GQ": null,
+              "AD": [
+                4,
+                40
+              ],
+              "record_class": "snv"
+            },
+            {
+              "chrom": "chr20",
+              "pos": 130338,
+              "ref": "A",
+              "alt": [
+                "C"
+              ],
+              "GT": [
+                1,
+                1
+              ],
+              "phased": false,
+              "QUAL": 225.79400634765625,
+              "DP": 42,
+              "GQ": null,
+              "AD": [
+                5,
+                37
+              ],
+              "record_class": "snv"
+            },
+            {
+              "chrom": "chr20",
+              "pos": 130339,
+              "ref": "T",
+              "alt": [
+                "C"
+              ],
+              "GT": [
+                1,
+                1
+              ],
+              "phased": false,
+              "QUAL": 225.79400634765625,
+              "DP": 42,
+              "GQ": null,
+              "AD": [
+                5,
+                37
+              ],
+              "record_class": "snv"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    },
+    {
+      "truth_match_partition": "bcftools_only",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 273903,
+        "ref": "A",
+        "alt": [
+          "AAGGGAGGG"
+        ],
+        "GT": [
+          0,
+          1
+        ],
+        "phased": false,
+        "QUAL": 50.0,
+        "DP": 90,
+        "GQ": 134,
+        "AD": [
+          31,
+          13
+        ],
+        "record_class": "indel"
+      },
+      "nearby_original_calls": {
+        "gatk": {
+          "total_records_in_window": 0,
+          "displayed_records": [],
+          "truncated": false
+        },
+        "bcftools": {
+          "total_records_in_window": 1,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 273903,
+              "ref": "A",
+              "alt": [
+                "AAGGGAGGG"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 65.38629913330078,
+              "DP": 12,
+              "GQ": null,
+              "AD": [
+                9,
+                3
+              ],
+              "record_class": "indel"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    },
+    {
+      "truth_match_partition": "bcftools_only",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 466637,
+        "ref": "GTA",
+        "alt": [
+          "GTGTATATATATA",
+          "G"
+        ],
+        "GT": [
+          2,
+          1
+        ],
+        "phased": false,
+        "QUAL": 50.0,
+        "DP": 553,
+        "GQ": 297,
+        "AD": [
+          1,
+          74,
+          83
+        ],
+        "record_class": "indel"
+      },
+      "nearby_original_calls": {
+        "gatk": {
+          "total_records_in_window": 1,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 466637,
+              "ref": "GTA",
+              "alt": [
+                "G"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 88.0199966430664,
+              "DP": 5,
+              "GQ": 32,
+              "AD": [
+                2,
+                3
+              ],
+              "record_class": "indel"
+            }
+          ],
+          "truncated": false
+        },
+        "bcftools": {
+          "total_records_in_window": 2,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 466637,
+              "ref": "G",
+              "alt": [
+                "GTGTATATATA"
+              ],
+              "GT": [
+                1,
+                0
+              ],
+              "phased": false,
+              "QUAL": 195.22799682617188,
+              "DP": 15,
+              "GQ": null,
+              "AD": [
+                4,
+                6
+              ],
+              "record_class": "indel"
+            },
+            {
+              "chrom": "chr20",
+              "pos": 466637,
+              "ref": "GTA",
+              "alt": [
+                "G"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 195.22799682617188,
+              "DP": 15,
+              "GQ": null,
+              "AD": [
+                4,
+                5
+              ],
+              "record_class": "indel"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    },
+    {
+      "truth_match_partition": "missed_both",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 161451,
+        "ref": "C",
+        "alt": [
+          "G"
+        ],
+        "GT": [
+          0,
+          1
+        ],
+        "phased": false,
+        "QUAL": 50.0,
+        "DP": 645,
+        "GQ": 434,
+        "AD": [
+          29,
+          24
+        ],
+        "record_class": "snv"
+      },
+      "nearby_original_calls": {
+        "gatk": {
+          "total_records_in_window": 0,
+          "displayed_records": [],
+          "truncated": false
+        },
+        "bcftools": {
+          "total_records_in_window": 0,
+          "displayed_records": [],
+          "truncated": false
+        }
+      }
+    },
+    {
+      "truth_match_partition": "missed_both",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 161571,
+        "ref": "G",
+        "alt": [
+          "A"
+        ],
+        "GT": [
+          0,
+          1
+        ],
+        "phased": false,
+        "QUAL": 50.0,
+        "DP": 477,
+        "GQ": 352,
+        "AD": [
+          29,
+          23
+        ],
+        "record_class": "snv"
+      },
+      "nearby_original_calls": {
+        "gatk": {
+          "total_records_in_window": 1,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 161588,
+              "ref": "T",
+              "alt": [
+                "C"
+              ],
+              "GT": [
+                1,
+                1
+              ],
+              "phased": false,
+              "QUAL": 422.05999755859375,
+              "DP": 12,
+              "GQ": 36,
+              "AD": [
+                0,
+                12
+              ],
+              "record_class": "snv"
+            }
+          ],
+          "truncated": false
+        },
+        "bcftools": {
+          "total_records_in_window": 1,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 161588,
+              "ref": "T",
+              "alt": [
+                "C"
+              ],
+              "GT": [
+                1,
+                1
+              ],
+              "phased": false,
+              "QUAL": 208.41700744628906,
+              "DP": 12,
+              "GQ": null,
+              "AD": [
+                0,
+                12
+              ],
+              "record_class": "snv"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    },
+    {
+      "truth_match_partition": "missed_both",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 240075,
+        "ref": "C",
+        "alt": [
+          "CAAA"
+        ],
+        "GT": [
+          1,
+          1
+        ],
+        "phased": false,
+        "QUAL": 50.0,
+        "DP": 589,
+        "GQ": 285,
+        "AD": [
+          0,
+          110
+        ],
+        "record_class": "indel"
+      },
+      "nearby_original_calls": {
+        "gatk": {
+          "total_records_in_window": 1,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 240075,
+              "ref": "C",
+              "alt": [
+                "CAAA"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 927.6900024414062,
+              "DP": 27,
+              "GQ": 7,
+              "AD": [
+                2,
+                25
+              ],
+              "record_class": "indel"
+            }
+          ],
+          "truncated": false
+        },
+        "bcftools": {
+          "total_records_in_window": 1,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 240075,
+              "ref": "C",
+              "alt": [
+                "CAAA"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 221.16400146484375,
+              "DP": 40,
+              "GQ": null,
+              "AD": [
+                10,
+                30
+              ],
+              "record_class": "indel"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    },
+    {
+      "truth_match_partition": "missed_both",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 685696,
+        "ref": "AAATAATAATAAT",
+        "alt": [
+          "AAATAAT",
+          "A"
+        ],
+        "GT": [
+          2,
+          1
+        ],
+        "phased": false,
+        "QUAL": 50.0,
+        "DP": 540,
+        "GQ": 250,
+        "AD": [
+          2,
+          130,
+          157
+        ],
+        "record_class": "indel"
+      },
+      "nearby_original_calls": {
+        "gatk": {
+          "total_records_in_window": 2,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 685696,
+              "ref": "AAATAATAATAAT",
+              "alt": [
+                "A"
+              ],
+              "GT": [
+                1,
+                0
+              ],
+              "phased": false,
+              "QUAL": 991.02001953125,
+              "DP": 25,
+              "GQ": 99,
+              "AD": [
+                0,
+                10
+              ],
+              "record_class": "indel"
+            },
+            {
+              "chrom": "chr20",
+              "pos": 685696,
+              "ref": "AAATAAT",
+              "alt": [
+                "A"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 991.02001953125,
+              "DP": 25,
+              "GQ": 99,
+              "AD": [
+                0,
+                15
+              ],
+              "record_class": "indel"
+            }
+          ],
+          "truncated": false
+        },
+        "bcftools": {
+          "total_records_in_window": 2,
+          "displayed_records": [
+            {
+              "chrom": "chr20",
+              "pos": 685696,
+              "ref": "AAATAAT",
+              "alt": [
+                "A"
+              ],
+              "GT": [
+                1,
+                0
+              ],
+              "phased": false,
+              "QUAL": 195.1479949951172,
+              "DP": 35,
+              "GQ": null,
+              "AD": [
+                14,
+                12
+              ],
+              "record_class": "indel"
+            },
+            {
+              "chrom": "chr20",
+              "pos": 685696,
+              "ref": "AAATAATAATAAT",
+              "alt": [
+                "A"
+              ],
+              "GT": [
+                0,
+                1
+              ],
+              "phased": false,
+              "QUAL": 195.1479949951172,
+              "DP": 35,
+              "GQ": null,
+              "AD": [
+                14,
+                9
+              ],
+              "record_class": "indel"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    }
+  ],
+  "example_selection": {
+    "sites_per_record_class_per_partition": 2,
+    "classes": [
+      "snv",
+      "indel"
+    ],
+    "order": "ascending chromosome/position/allele",
+    "window": "25 bases around the truth REF span",
+    "purpose": "bounded illustrative raw-call context; not a representative sample or read-level validation"
+  },
+  "limits": [
+    "All matching labels come from the unchanged genotype-aware public comparison.",
+    "Overlap of separate truth matches is not a merged callset or merged precision estimate.",
+    "Record classes can differ between equivalent truth and call representations.",
+    "QUAL bins are fixed descriptive bins, not chosen filtering thresholds or comparable probability scales across callers.",
+    "Exact raw-allele GT disagreement is a limited diagnostic; nearby representation differences are not resolved by that count.",
+    "Public benchmark errors are not diagnoses, parental phase or causal probabilities for the child."
+  ]
+}

@@ -1,0 +1,79 @@
+# ---------------------------------------------------------------------------
+# CONTROLLED-ACCESS PATIENT DATA — MUST NEVER BE COMMITTED
+#
+# The challenge data use terms require that the supplied genomic data are not
+# redistributed and are deleted within 30 days of the challenge close. This
+# working tree is an internal analysis checkout. Publication uses a reviewed
+# source snapshot. The organisers permit code, reports, HPO terms and selected
+# findings; genome-scale data and reformatted/subset genomic files are excluded.
+# See https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/discussions/2
+#
+# These rules are deliberately broad and match by extension, not by path, so a
+# file placed in an unexpected directory is still caught.
+# ---------------------------------------------------------------------------
+*.fastq
+*.fastq.gz
+*.fastq.*
+*.fq
+*.fq.gz
+*.fq.*
+*.bam
+*.bam.*
+*.bai
+*.cram
+*.cram.*
+*.crai
+*.pytor
+*.sam
+*.sam.gz
+*.bcf
+*.bcf.*
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.vcf.*
+*.gvcf
+*.gvcf.*
+*.g.vcf.gz
+*.tbi
+*.csi
+*.docx
+
+# Directories that hold data, references, or tool caches
+data/
+ref/
+vep_cache/
+exomiser/
+genome_bundle/
+work/
+.locks/
+
+# Reference/annotation resources (large, redistributable from source instead)
+*.fa
+*.fa.gz
+*.fa.bgz
+*.fai
+*.gzi
+*.dict
+*.2bit
+*.bwt
+*.pac
+*.sa
+*.amb
+*.ann
+
+# Tooling
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+logs_*.txt
+*.part
+*.lock
+*.lockdir
+
+# These exceptions do not certify JSON/CSV as safe. Reviewed publication uses
+# an explicit inventory; arbitrary results, logs and derived tables stay local.
+!results/*.csv
+!results/*.md
+!results/*.json

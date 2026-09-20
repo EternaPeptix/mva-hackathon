@@ -1,0 +1,25 @@
+{
+  "scope": "verified_four_lane_autosomal_marker_genotyping",
+  "sample": "WGS_EX2312012",
+  "chromosomes": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"],
+  "reference_sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6",
+  "panel_summary_sha256": "dbeb59bb90cfdacf6e11ac5b652e54c86a01ae7d693c8d4d403f6fa402f8000c",
+  "bcftools_sha256": "c427681749daabb97be4a010c31c6b24349aaea6abc7bea27d6ce9126874b260",
+  "samtools_sha256": "7518cbb230a35393d7d3a9f02fc8b4519e4a37b5a17fbed06b9752ca1d962a91",
+  "excluded_flags": 3844,
+  "exclude_unknown_MQ_255": true,
+  "minimum_mapping_quality": 20,
+  "minimum_base_quality": 20,
+  "pileup_maximum_depth": 10000,
+  "evidence": {
+    "minimum_depth": 10,
+    "maximum_depth": 100,
+    "nonpanel_minimum_reads": 3,
+    "nonpanel_minimum_fraction": 0.1
+  },
+  "population_profiles": ["POP_AF", "POP_AFR_AF", "POP_AMR_AF", "POP_EAS_AF", "POP_EUR_AF", "POP_SAS_AF"],
+  "primary_maximum_gap_bp": 250000,
+  "pooled_gap_sensitivity_bp": [100000, 250000, 500000],
+  "minimum_segment_markers": 20,
+  "interpretation": "Exploratory common-marker genotyping and ROH sensitivity after verified four-lane alignment; no ancestry assignment, parental origin, UPD exclusion or clinical sensitivity claim."
+}

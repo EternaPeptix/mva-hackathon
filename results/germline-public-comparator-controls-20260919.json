@@ -1,0 +1,2036 @@
+{
+  "status": "complete",
+  "completed_at": "2026-09-19T22:54:30.364539+00:00",
+  "elapsed_seconds": 16.02822404098697,
+  "config": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/configs/public-small-variant-comparison.json",
+    "bytes": 2870,
+    "mtime_ns": 1789858320000000000,
+    "sha256": "628e04cfd7e5d2385a59043555221eaa1393fd6151b72d2e614bf67475994007"
+  },
+  "runtime": {
+    "rtg": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+      "bytes": 11471,
+      "mtime_ns": 1789857455130808012,
+      "sha256": "6b9a7bb7c0419b57f2aab1cbe3941ed4f3a18a36b2f41d271b9c43742bc31016"
+    },
+    "RTG.jar": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/RTG.jar",
+      "bytes": 8285448,
+      "mtime_ns": 1789857455155742410,
+      "sha256": "dad55b3525d01f788975b8a6a5298a1ceeced41085654b8635271b314298b31e"
+    },
+    "rtg.cfg": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg.cfg",
+      "bytes": 190,
+      "mtime_ns": 1789857617205191111,
+      "sha256": "0591deb8d8e3a7b04cdd5216bb7daba2557497430ad60c48457349fff482882d"
+    },
+    "java": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/bio/lib/jvm/bin/java",
+      "bytes": 69936,
+      "mtime_ns": 1787925143000000000,
+      "sha256": "ec64ac719290ad080c7f8a4f5d83402e4152f98f486fe14150cf734a46ebcbb1"
+    }
+  },
+  "reference": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.fasta",
+    "bytes": 2095,
+    "mtime_ns": 1789858454344174523,
+    "sha256": "b1665982c8a51f61a00e3956b4b899f30aa7bd77b83984544a8f9538d6f23da5"
+  },
+  "format_command": {
+    "command": [
+      "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+      "format",
+      "-o",
+      "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.sdf",
+      "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.fasta"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.33756262506358325,
+    "stdout": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/format-control.stdout",
+      "bytes": 565,
+      "mtime_ns": 1789858454675451595,
+      "sha256": "96a95e7061e566d65c288f7b022d4908a11e395c92e0f3e7a16d4a0e94fce031"
+    },
+    "stderr": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/format-control.stderr",
+      "bytes": 0,
+      "mtime_ns": 1789858454344261608,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "literal_cases": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/literal-cases.json",
+    "bytes": 5595,
+    "mtime_ns": 1789858454682650130,
+    "sha256": "e5fcf2b7dc0d452903afc510ea19253439bdc50a56c9d8de20fbd86dab60c1aa"
+  },
+  "cases": [
+    {
+      "name": "exact_snv_deletion_insertion",
+      "passed": true,
+      "expected": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "observed": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/exact_snv_deletion_insertion/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/exact_snv_deletion_insertion/calls.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/exact_snv_deletion_insertion/native",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/exact_snv_deletion_insertion/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.2964447089470923,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/exact_snv_deletion_insertion/compare.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789858455841126974,
+          "sha256": "3a7ef9baddb8cadf819d863f6338b8c451bbb15078c21d2ffb78a1885cd02fc0"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/exact_snv_deletion_insertion/compare.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789858454683735767,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 3,
+          "tp_calls": 3,
+          "fp": 0,
+          "fn": 0,
+          "truth_records": 3,
+          "call_records": 3,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {
+            "snv": 1,
+            "indel": 2
+          },
+          "tp_calls": {
+            "snv": 1,
+            "indel": 2
+          },
+          "fp": {},
+          "fn": {}
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 1,
+            "tp_calls": 1,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 1,
+            "call_records": 1,
+            "recall": 1.0,
+            "precision": 1.0
+          },
+          "indel": {
+            "tp_baseline": 2,
+            "tp_calls": 2,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 2,
+            "call_records": 2,
+            "recall": 1.0,
+            "precision": 1.0
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/exact_snv_deletion_insertion/native/tp-baseline.vcf.gz",
+            "bytes": 542,
+            "mtime_ns": 1789858455961822343,
+            "sha256": "f7a679f747727c6a76a56f8155154c68c8924624dc1bb201e56675c8c5725b31"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/exact_snv_deletion_insertion/native/tp.vcf.gz",
+            "bytes": 542,
+            "mtime_ns": 1789858455954973354,
+            "sha256": "f7a679f747727c6a76a56f8155154c68c8924624dc1bb201e56675c8c5725b31"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/exact_snv_deletion_insertion/native/fp.vcf.gz",
+            "bytes": 497,
+            "mtime_ns": 1789858455884240100,
+            "sha256": "018371676df1c5c50e26998f6e05ac6646efaa02f68483cc7b182f21bfe0ce7b"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/exact_snv_deletion_insertion/native/fn.vcf.gz",
+            "bytes": 497,
+            "mtime_ns": 1789858455903614056,
+            "sha256": "018371676df1c5c50e26998f6e05ac6646efaa02f68483cc7b182f21bfe0ce7b"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.000                  3              3          0          0     1.0000       1.0000     1.0000\n     None                  3              3          0          0     1.0000       1.0000     1.0000\n"
+      }
+    },
+    {
+      "name": "wrong_alternate_allele",
+      "passed": true,
+      "expected": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "observed": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/wrong_alternate_allele/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/wrong_alternate_allele/calls.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/wrong_alternate_allele/native",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/wrong_alternate_allele/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.3261075409827754,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/wrong_alternate_allele/compare.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789858457150486717,
+          "sha256": "140c702b0c1bd5369a06e7b91d130119a4b0be4878d2cbe4dda170154176198c"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/wrong_alternate_allele/compare.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789858455987811495,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 0,
+          "tp_calls": 0,
+          "fp": 1,
+          "fn": 1,
+          "truth_records": 1,
+          "call_records": 1,
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {},
+          "tp_calls": {},
+          "fp": {
+            "snv": 1
+          },
+          "fn": {
+            "snv": 1
+          }
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 1,
+            "fn": 1,
+            "truth_records": 1,
+            "call_records": 1,
+            "recall": 0.0,
+            "precision": 0.0
+          },
+          "indel": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/wrong_alternate_allele/native/tp-baseline.vcf.gz",
+            "bytes": 492,
+            "mtime_ns": 1789858457279003628,
+            "sha256": "4bf145dbaf52f539d0495ac3ea92e9ea88f0cf750e2331ce75878818d082fc2a"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/wrong_alternate_allele/native/tp.vcf.gz",
+            "bytes": 492,
+            "mtime_ns": 1789858457239178954,
+            "sha256": "4bf145dbaf52f539d0495ac3ea92e9ea88f0cf750e2331ce75878818d082fc2a"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/wrong_alternate_allele/native/fp.vcf.gz",
+            "bytes": 517,
+            "mtime_ns": 1789858457178537683,
+            "sha256": "1a47a0394f6c1b8660345d0a2c6b8f74267072190e82ec2c4764724615722104"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/wrong_alternate_allele/native/fn.vcf.gz",
+            "bytes": 517,
+            "mtime_ns": 1789858457201810222,
+            "sha256": "a1b83983311b3e71a2fe12b3816f0ee2718f42bb4a71945be14f027b3ea8b35b"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.000                  0              0          1          1     0.0000       0.0000     0.0000\n     None                  0              0          1          1     0.0000       0.0000     0.0000\n"
+      }
+    },
+    {
+      "name": "correct_allele_wrong_genotype",
+      "passed": true,
+      "expected": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "observed": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_allele_wrong_genotype/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_allele_wrong_genotype/calls.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_allele_wrong_genotype/native",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_allele_wrong_genotype/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.4062797079095617,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_allele_wrong_genotype/compare.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789858458492432516,
+          "sha256": "140c702b0c1bd5369a06e7b91d130119a4b0be4878d2cbe4dda170154176198c"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_allele_wrong_genotype/compare.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789858457323460227,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 0,
+          "tp_calls": 0,
+          "fp": 1,
+          "fn": 1,
+          "truth_records": 1,
+          "call_records": 1,
+          "recall": 0.0,
+          "precision": 0.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {},
+          "tp_calls": {},
+          "fp": {
+            "snv": 1
+          },
+          "fn": {
+            "snv": 1
+          }
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 1,
+            "fn": 1,
+            "truth_records": 1,
+            "call_records": 1,
+            "recall": 0.0,
+            "precision": 0.0
+          },
+          "indel": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_allele_wrong_genotype/native/tp-baseline.vcf.gz",
+            "bytes": 497,
+            "mtime_ns": 1789858458694371834,
+            "sha256": "848cedcdc1433b2acf88173a2d40a3d07ab91ef4fab149c638451797412d54b8"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_allele_wrong_genotype/native/tp.vcf.gz",
+            "bytes": 497,
+            "mtime_ns": 1789858458633926648,
+            "sha256": "848cedcdc1433b2acf88173a2d40a3d07ab91ef4fab149c638451797412d54b8"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_allele_wrong_genotype/native/fp.vcf.gz",
+            "bytes": 521,
+            "mtime_ns": 1789858458526817299,
+            "sha256": "8f6f327693d8415f117f475656b7561b55e9413037ee0118fe25a1db87b10851"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_allele_wrong_genotype/native/fn.vcf.gz",
+            "bytes": 521,
+            "mtime_ns": 1789858458581467589,
+            "sha256": "7c7170a062d8f6819ec23c4fef572bef7f9b2361176eea82846826fb6949f057"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.000                  0              0          1          1     0.0000       0.0000     0.0000\n     None                  0              0          1          1     0.0000       0.0000     0.0000\n"
+      }
+    },
+    {
+      "name": "correct_homozygous_genotype",
+      "passed": true,
+      "expected": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_homozygous_genotype/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_homozygous_genotype/calls.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_homozygous_genotype/native",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_homozygous_genotype/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.2985494999447837,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_homozygous_genotype/compare.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789858459891320796,
+          "sha256": "3b46d89d7a8e5177fca6ffa948e5e376cd719e5f3a03feff3eb8f8dffe06ba1b"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_homozygous_genotype/compare.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789858458738641139,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 1,
+          "tp_calls": 1,
+          "fp": 0,
+          "fn": 0,
+          "truth_records": 1,
+          "call_records": 1,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {
+            "snv": 1
+          },
+          "tp_calls": {
+            "snv": 1
+          },
+          "fp": {},
+          "fn": {}
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 1,
+            "tp_calls": 1,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 1,
+            "call_records": 1,
+            "recall": 1.0,
+            "precision": 1.0
+          },
+          "indel": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_homozygous_genotype/native/tp-baseline.vcf.gz",
+            "bytes": 521,
+            "mtime_ns": 1789858460005196009,
+            "sha256": "e93726e30a6986154937e7721b79cb21e05317cb496dc1d3014efebb54b09693"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_homozygous_genotype/native/tp.vcf.gz",
+            "bytes": 521,
+            "mtime_ns": 1789858460000718962,
+            "sha256": "e93726e30a6986154937e7721b79cb21e05317cb496dc1d3014efebb54b09693"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_homozygous_genotype/native/fp.vcf.gz",
+            "bytes": 496,
+            "mtime_ns": 1789858459921921581,
+            "sha256": "f6f1c5da6ab250d34e6acba09174111be20782df5d1223efb08bb6bab5120344"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/correct_homozygous_genotype/native/fn.vcf.gz",
+            "bytes": 496,
+            "mtime_ns": 1789858459977699508,
+            "sha256": "f6f1c5da6ab250d34e6acba09174111be20782df5d1223efb08bb6bab5120344"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.000                  1              1          0          0     1.0000       1.0000     1.0000\n     None                  1              1          0          0     1.0000       1.0000     1.0000\n"
+      }
+    },
+    {
+      "name": "shifted_repeat_deletion",
+      "passed": true,
+      "expected": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/shifted_repeat_deletion/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/shifted_repeat_deletion/calls.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/shifted_repeat_deletion/native",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/shifted_repeat_deletion/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.2212839159183204,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/shifted_repeat_deletion/compare.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789858461190423138,
+          "sha256": "3b46d89d7a8e5177fca6ffa948e5e376cd719e5f3a03feff3eb8f8dffe06ba1b"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/shifted_repeat_deletion/compare.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789858460045532689,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 1,
+          "tp_calls": 1,
+          "fp": 0,
+          "fn": 0,
+          "truth_records": 1,
+          "call_records": 1,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {
+            "indel": 1
+          },
+          "tp_calls": {
+            "indel": 1
+          },
+          "fp": {},
+          "fn": {}
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "indel": {
+            "tp_baseline": 1,
+            "tp_calls": 1,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 1,
+            "call_records": 1,
+            "recall": 1.0,
+            "precision": 1.0
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/shifted_repeat_deletion/native/tp-baseline.vcf.gz",
+            "bytes": 519,
+            "mtime_ns": 1789858461253364392,
+            "sha256": "ccd7a30d1a6373a2cdd071aae0de77191f6eb10ac565de06fd55dc7fe7d09fa2"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/shifted_repeat_deletion/native/tp.vcf.gz",
+            "bytes": 519,
+            "mtime_ns": 1789858461246554112,
+            "sha256": "706471a08a632e91872c55147ffc4ff468014b2357644e1a57cd3fc0ba8bd892"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/shifted_repeat_deletion/native/fp.vcf.gz",
+            "bytes": 494,
+            "mtime_ns": 1789858461209051879,
+            "sha256": "ef52c2361e48de0d2bd5247e4e84c0ed6ec52e5dece6709c6d14bd76d65ff311"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/shifted_repeat_deletion/native/fn.vcf.gz",
+            "bytes": 494,
+            "mtime_ns": 1789858461228208499,
+            "sha256": "ef52c2361e48de0d2bd5247e4e84c0ed6ec52e5dece6709c6d14bd76d65ff311"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.000                  1              1          0          0     1.0000       1.0000     1.0000\n     None                  1              1          0          0     1.0000       1.0000     1.0000\n"
+      }
+    },
+    {
+      "name": "mnp_as_two_snvs",
+      "passed": true,
+      "expected": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/mnp_as_two_snvs/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/mnp_as_two_snvs/calls.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/mnp_as_two_snvs/native",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/mnp_as_two_snvs/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.1396658329758793,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/mnp_as_two_snvs/compare.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789858462323691630,
+          "sha256": "02c309b3bcb485e91400fd5f624662c150a0623d90fc96f3145ca8b4c2027162"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/mnp_as_two_snvs/compare.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789858461272246218,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 1,
+          "tp_calls": 2,
+          "fp": 0,
+          "fn": 0,
+          "truth_records": 1,
+          "call_records": 2,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {
+            "mnp": 1
+          },
+          "tp_calls": {
+            "snv": 2
+          },
+          "fp": {},
+          "fn": {}
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 2,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 2,
+            "recall": null,
+            "precision": 1.0
+          },
+          "indel": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mnp": {
+            "tp_baseline": 1,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 1,
+            "call_records": 0,
+            "recall": 1.0,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/mnp_as_two_snvs/native/tp-baseline.vcf.gz",
+            "bytes": 514,
+            "mtime_ns": 1789858462396188236,
+            "sha256": "e7fb9acf593039d2b159ab0d36862f1668828c2b1e92ec28d24ad2938b498113"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/mnp_as_two_snvs/native/tp.vcf.gz",
+            "bytes": 522,
+            "mtime_ns": 1789858462384619571,
+            "sha256": "f06e1e975fb4c95a26bc9e309500d09b413b9044dc19709898910e1c682841fb"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/mnp_as_two_snvs/native/fp.vcf.gz",
+            "bytes": 489,
+            "mtime_ns": 1789858462363206051,
+            "sha256": "fee8634966e5393afe526408818fe596f773a0b6e73b47e3ae799f13bb45607e"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/mnp_as_two_snvs/native/fn.vcf.gz",
+            "bytes": 489,
+            "mtime_ns": 1789858462374005416,
+            "sha256": "fee8634966e5393afe526408818fe596f773a0b6e73b47e3ae799f13bb45607e"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.000                  1              2          0          0     1.0000       1.0000     1.0000\n     None                  1              2          0          0     1.0000       1.0000     1.0000\n"
+      }
+    },
+    {
+      "name": "boundary_shift_with_full_context",
+      "passed": true,
+      "expected": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/boundary_shift_with_full_context/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/boundary_shift_with_full_context/calls.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/boundary_shift_with_full_context/native",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/boundary_shift_with_full_context/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.3361333749489859,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/boundary_shift_with_full_context/compare.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789858463597944875,
+          "sha256": "3b46d89d7a8e5177fca6ffa948e5e376cd719e5f3a03feff3eb8f8dffe06ba1b"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/boundary_shift_with_full_context/compare.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789858462418084094,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 1,
+          "tp_calls": 1,
+          "fp": 0,
+          "fn": 0,
+          "truth_records": 1,
+          "call_records": 1,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {
+            "indel": 1
+          },
+          "tp_calls": {
+            "indel": 1
+          },
+          "fp": {},
+          "fn": {}
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "indel": {
+            "tp_baseline": 1,
+            "tp_calls": 1,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 1,
+            "call_records": 1,
+            "recall": 1.0,
+            "precision": 1.0
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/boundary_shift_with_full_context/native/tp-baseline.vcf.gz",
+            "bytes": 527,
+            "mtime_ns": 1789858463736891105,
+            "sha256": "bf6e8ddb966cf87961f398c0d3cac2d2184ce73b86b8fdf627fda8e32c768725"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/boundary_shift_with_full_context/native/tp.vcf.gz",
+            "bytes": 526,
+            "mtime_ns": 1789858463684042334,
+            "sha256": "7fcddc122fca419bb48ff4d7d3fc6c079ba0186b5c96e3960b96e558c46de689"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/boundary_shift_with_full_context/native/fp.vcf.gz",
+            "bytes": 502,
+            "mtime_ns": 1789858463623342395,
+            "sha256": "88ea9434f934842f96fe3c35c6154ccb091b7f19d56013b66cd752fbf62d5e9b"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/boundary_shift_with_full_context/native/fn.vcf.gz",
+            "bytes": 502,
+            "mtime_ns": 1789858463677091801,
+            "sha256": "88ea9434f934842f96fe3c35c6154ccb091b7f19d56013b66cd752fbf62d5e9b"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.000                  1              1          0          0     1.0000       1.0000     1.0000\n     None                  1              1          0          0     1.0000       1.0000     1.0000\n"
+      }
+    },
+    {
+      "name": "filtered_call_is_excluded",
+      "passed": true,
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/filtered_call_is_excluded/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/filtered_call_is_excluded/calls.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/filtered_call_is_excluded/native",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/filtered_call_is_excluded/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.2883958750171587,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/filtered_call_is_excluded/compare.stdout",
+          "bytes": 304,
+          "mtime_ns": 1789858464935472376,
+          "sha256": "474df629d093637312bed25a10a0b8ed274ae393986a5488531e0c6f1a1ae5be"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/filtered_call_is_excluded/compare.stderr",
+          "bytes": 173,
+          "mtime_ns": 1789858464897142884,
+          "sha256": "c2a2ed07eb91e2eb292c778296aaf0be8303783a9a639f7abffbbc3bbe13a5ab"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 0,
+          "tp_calls": 0,
+          "fp": 0,
+          "fn": 1,
+          "truth_records": 1,
+          "call_records": 0,
+          "recall": 0.0,
+          "precision": null
+        },
+        "record_class_counts": {
+          "tp_baseline": {},
+          "tp_calls": {},
+          "fp": {},
+          "fn": {
+            "snv": 1
+          }
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 1,
+            "truth_records": 1,
+            "call_records": 0,
+            "recall": 0.0,
+            "precision": null
+          },
+          "indel": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/filtered_call_is_excluded/native/tp-baseline.vcf.gz",
+            "bytes": 492,
+            "mtime_ns": 1789858465017597918,
+            "sha256": "e0ac6d16a64ae241b0d9fd792b5008d053567e57d1a49921bc94b65fcfe66fe1"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/filtered_call_is_excluded/native/tp.vcf.gz",
+            "bytes": 492,
+            "mtime_ns": 1789858465010741803,
+            "sha256": "e0ac6d16a64ae241b0d9fd792b5008d053567e57d1a49921bc94b65fcfe66fe1"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/filtered_call_is_excluded/native/fp.vcf.gz",
+            "bytes": 492,
+            "mtime_ns": 1789858464950118407,
+            "sha256": "e0ac6d16a64ae241b0d9fd792b5008d053567e57d1a49921bc94b65fcfe66fe1"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/filtered_call_is_excluded/native/fn.vcf.gz",
+            "bytes": 516,
+            "mtime_ns": 1789858464964404143,
+            "sha256": "1d8003304fc975878e0da4735b101e587e925834a3f18456996395feba88148f"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n     None                  0              0          0          1        NaN       0.0000        NaN\n"
+      }
+    },
+    {
+      "name": "outside_bed_is_not_scored",
+      "passed": true,
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/outside_bed_is_not_scored/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/outside_bed_is_not_scored/calls.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/outside_bed_is_not_scored/native",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/outside_bed_is_not_scored/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.2689524580491707,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/outside_bed_is_not_scored/compare.stdout",
+          "bytes": 60,
+          "mtime_ns": 1789858466202186665,
+          "sha256": "e0a0e163348695bc9fa1ea1c4a996c7608702b0e1c153b57a11d3aab94052e93"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/outside_bed_is_not_scored/compare.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789858465058231434,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 0,
+          "tp_calls": 0,
+          "fp": 0,
+          "fn": 0,
+          "truth_records": 0,
+          "call_records": 0,
+          "recall": null,
+          "precision": null
+        },
+        "record_class_counts": {
+          "tp_baseline": {},
+          "tp_calls": {},
+          "fp": {},
+          "fn": {}
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "indel": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/outside_bed_is_not_scored/native/tp-baseline.vcf.gz",
+            "bytes": 495,
+            "mtime_ns": 1789858466294955445,
+            "sha256": "7234875bc526b3b5a50bccfd8f7635666c11d8c51dcb924a1eb4ce2f02a24a13"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/outside_bed_is_not_scored/native/tp.vcf.gz",
+            "bytes": 495,
+            "mtime_ns": 1789858466277737595,
+            "sha256": "7234875bc526b3b5a50bccfd8f7635666c11d8c51dcb924a1eb4ce2f02a24a13"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/outside_bed_is_not_scored/native/fp.vcf.gz",
+            "bytes": 495,
+            "mtime_ns": 1789858466231947899,
+            "sha256": "7234875bc526b3b5a50bccfd8f7635666c11d8c51dcb924a1eb4ce2f02a24a13"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/outside_bed_is_not_scored/native/fn.vcf.gz",
+            "bytes": 495,
+            "mtime_ns": 1789858466257032874,
+            "sha256": "7234875bc526b3b5a50bccfd8f7635666c11d8c51dcb924a1eb4ce2f02a24a13"
+          }
+        },
+        "native_summary": "0 total baseline variants, no summary statistics available\n"
+      }
+    },
+    {
+      "name": "zero_qual_is_included",
+      "passed": true,
+      "expected": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/zero_qual_is_included/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/zero_qual_is_included/calls.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/zero_qual_is_included/native",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/zero_qual_is_included/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.3727665829937905,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/zero_qual_is_included/compare.stdout",
+          "bytes": 450,
+          "mtime_ns": 1789858467505682887,
+          "sha256": "2160867455795f2c6452311ce1a9314b1f72ee1a77187197421a7bbd8e75619e"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/zero_qual_is_included/compare.stderr",
+          "bytes": 0,
+          "mtime_ns": 1789858466336462221,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 1,
+          "tp_calls": 1,
+          "fp": 0,
+          "fn": 0,
+          "truth_records": 1,
+          "call_records": 1,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "record_class_counts": {
+          "tp_baseline": {
+            "snv": 1
+          },
+          "tp_calls": {
+            "snv": 1
+          },
+          "fp": {},
+          "fn": {}
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 1,
+            "tp_calls": 1,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 1,
+            "call_records": 1,
+            "recall": 1.0,
+            "precision": 1.0
+          },
+          "indel": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/zero_qual_is_included/native/tp-baseline.vcf.gz",
+            "bytes": 518,
+            "mtime_ns": 1789858467677516135,
+            "sha256": "867891e3a424b58f345a080b682880bc78d6bc6ab0b34c4ddce0bb892bab5419"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/zero_qual_is_included/native/tp.vcf.gz",
+            "bytes": 514,
+            "mtime_ns": 1789858467642033132,
+            "sha256": "c93d9e9200ad534c452534a69b17cdf926b644af673e8b8d5d3deb424479e97b"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/zero_qual_is_included/native/fp.vcf.gz",
+            "bytes": 494,
+            "mtime_ns": 1789858467539698000,
+            "sha256": "13d5c2ffb0555fff5fc12e6c2fbb403ddc0c168e88bb435e34949c0ea088e0bc"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/zero_qual_is_included/native/fn.vcf.gz",
+            "bytes": 494,
+            "mtime_ns": 1789858467590169287,
+            "sha256": "13d5c2ffb0555fff5fc12e6c2fbb403ddc0c168e88bb435e34949c0ea088e0bc"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n    0.000                  1              1          0          0     1.0000       1.0000     1.0000\n     None                  1              1          0          0     1.0000       1.0000     1.0000\n"
+      }
+    },
+    {
+      "name": "missing_genotype_is_not_a_call",
+      "passed": true,
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/missing_genotype_is_not_a_call/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/missing_genotype_is_not_a_call/calls.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/missing_genotype_is_not_a_call/native",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/missing_genotype_is_not_a_call/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.3378789169946685,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/missing_genotype_is_not_a_call/compare.stdout",
+          "bytes": 304,
+          "mtime_ns": 1789858468875316523,
+          "sha256": "474df629d093637312bed25a10a0b8ed274ae393986a5488531e0c6f1a1ae5be"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/missing_genotype_is_not_a_call/compare.stderr",
+          "bytes": 173,
+          "mtime_ns": 1789858468838867093,
+          "sha256": "c2a2ed07eb91e2eb292c778296aaf0be8303783a9a639f7abffbbc3bbe13a5ab"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 0,
+          "tp_calls": 0,
+          "fp": 0,
+          "fn": 1,
+          "truth_records": 1,
+          "call_records": 0,
+          "recall": 0.0,
+          "precision": null
+        },
+        "record_class_counts": {
+          "tp_baseline": {},
+          "tp_calls": {},
+          "fp": {},
+          "fn": {
+            "snv": 1
+          }
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 1,
+            "truth_records": 1,
+            "call_records": 0,
+            "recall": 0.0,
+            "precision": null
+          },
+          "indel": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/missing_genotype_is_not_a_call/native/tp-baseline.vcf.gz",
+            "bytes": 497,
+            "mtime_ns": 1789858469037952339,
+            "sha256": "3c73f7900c77ba9710158890967d75a53191b7182b075f20788c10adc7d555ad"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/missing_genotype_is_not_a_call/native/tp.vcf.gz",
+            "bytes": 497,
+            "mtime_ns": 1789858469010832550,
+            "sha256": "3c73f7900c77ba9710158890967d75a53191b7182b075f20788c10adc7d555ad"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/missing_genotype_is_not_a_call/native/fp.vcf.gz",
+            "bytes": 497,
+            "mtime_ns": 1789858468928899302,
+            "sha256": "3c73f7900c77ba9710158890967d75a53191b7182b075f20788c10adc7d555ad"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/missing_genotype_is_not_a_call/native/fn.vcf.gz",
+            "bytes": 522,
+            "mtime_ns": 1789858468975382881,
+            "sha256": "37c1e19ef8c519c9b385eeafca05686fbfbe335aac7bc33bb27093e0afb01502"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n     None                  0              0          0          1        NaN       0.0000        NaN\n"
+      }
+    },
+    {
+      "name": "spanning_deletion_star_is_not_a_snv",
+      "passed": true,
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/spanning_deletion_star_is_not_a_snv/baseline.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/spanning_deletion_star_is_not_a_snv/calls.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/control.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/spanning_deletion_star_is_not_a_snv/native",
+          "--region",
+          "chrControl",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/spanning_deletion_star_is_not_a_snv/evaluation.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.2959059999557212,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/spanning_deletion_star_is_not_a_snv/compare.stdout",
+          "bytes": 304,
+          "mtime_ns": 1789858470229300241,
+          "sha256": "474df629d093637312bed25a10a0b8ed274ae393986a5488531e0c6f1a1ae5be"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/spanning_deletion_star_is_not_a_snv/compare.stderr",
+          "bytes": 173,
+          "mtime_ns": 1789858470192820269,
+          "sha256": "c2a2ed07eb91e2eb292c778296aaf0be8303783a9a639f7abffbbc3bbe13a5ab"
+        }
+      },
+      "comparison": {
+        "counts": {
+          "tp_baseline": 0,
+          "tp_calls": 0,
+          "fp": 0,
+          "fn": 1,
+          "truth_records": 1,
+          "call_records": 0,
+          "recall": 0.0,
+          "precision": null
+        },
+        "record_class_counts": {
+          "tp_baseline": {},
+          "tp_calls": {},
+          "fp": {},
+          "fn": {
+            "snv": 1
+          }
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 1,
+            "truth_records": 1,
+            "call_records": 0,
+            "recall": 0.0,
+            "precision": null
+          },
+          "indel": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "files": {
+          "tp_baseline": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/spanning_deletion_star_is_not_a_snv/native/tp-baseline.vcf.gz",
+            "bytes": 504,
+            "mtime_ns": 1789858470325401057,
+            "sha256": "97a3b079934ee7afc6f5f6715220792668d775d89114048cb9bc408359940557"
+          },
+          "tp_calls": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/spanning_deletion_star_is_not_a_snv/native/tp.vcf.gz",
+            "bytes": 504,
+            "mtime_ns": 1789858470317838810,
+            "sha256": "97a3b079934ee7afc6f5f6715220792668d775d89114048cb9bc408359940557"
+          },
+          "fp": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/spanning_deletion_star_is_not_a_snv/native/fp.vcf.gz",
+            "bytes": 504,
+            "mtime_ns": 1789858470261033204,
+            "sha256": "97a3b079934ee7afc6f5f6715220792668d775d89114048cb9bc408359940557"
+          },
+          "fn": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparator-controls-20260919/spanning_deletion_star_is_not_a_snv/native/fn.vcf.gz",
+            "bytes": 528,
+            "mtime_ns": 1789858470295802908,
+            "sha256": "f00c676198de04026d9b34c659c1e71f164abea010264c0e4f4011a7d283f8ee"
+          }
+        },
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n     None                  0              0          0          1        NaN       0.0000        NaN\n"
+      }
+    }
+  ],
+  "cases_passed": 12,
+  "cases_total": 12,
+  "failed_cases": [],
+  "code": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/probe_rtg_comparator.py",
+    "bytes": 6627,
+    "mtime_ns": 1789858442000000000,
+    "sha256": "a047e76451866e8ebf202189e198286102c265379ec9f08d70fbc95eea50d709"
+  },
+  "limits": [
+    "Fictional comparator controls; not sequencing or clinical validation",
+    "Genotype-aware comparison does not establish parental or long-range phase",
+    "Equivalent representations can produce different baseline and call record counts"
+  ]
+}

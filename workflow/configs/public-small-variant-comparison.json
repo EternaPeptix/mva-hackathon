@@ -1,0 +1,47 @@
+{
+  "scope": "Public HG002 chr20 only; GIAB v4.2.1 small-variant benchmark, independent of the v5.0q structural benchmark",
+  "frozen_at": "2026-09-19T22:52:00.116009+00:00",
+  "comparator": "RTG Tools 3.13, installed core version c27844a5bb",
+  "vcfeval_arguments": [
+    "--sample",
+    "HG002,HG002",
+    "--sample-ploidy",
+    "2",
+    "--vcf-score-field",
+    "QUAL",
+    "--at-score",
+    "0",
+    "--output-mode",
+    "split",
+    "--threads",
+    "2",
+    "--roc-subset",
+    "snp,non-snp,mnp,indel,hom,het"
+  ],
+  "genotype_aware": true,
+  "decompose": false,
+  "ref_overlap": false,
+  "squash_ploidy": false,
+  "filter_policy": "Native default: FILTER is PASS or dot. No additional quality filter. All eligible called sequence alleles must have finite nonnegative QUAL so the fixed threshold 0 includes all.",
+  "region_policy": "Full chr20 VCF context and --region chr20; official chr20 BED via --evaluation-regions permits boundary matching. Do not preclip VCF records to BED.",
+  "metrics_policy": "Count raw TP baseline, TP calls, FP and FN VCF records independently; report baseline recall and call precision separately, including representation differences. Reconcile overall counts with native fixed-score summary. Do not select maximum F-measure.",
+  "runtime_sha256": {
+    "rtg": "6b9a7bb7c0419b57f2aab1cbe3941ed4f3a18a36b2f41d271b9c43742bc31016",
+    "RTG.jar": "dad55b3525d01f788975b8a6a5298a1ceeced41085654b8635271b314298b31e",
+    "rtg.cfg": "0591deb8d8e3a7b04cdd5216bb7daba2557497430ad60c48457349fff482882d"
+  },
+  "truth_sha256": {
+    "HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz": "adb4d4a50048aa13353a06b84fcfcbca09a5d17525efaa4cea44f8822e81175c",
+    "HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.tbi": "23162712553413b10f88916c28bd1238deb703a7237be2910440773beea71894",
+    "HG002_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed": "fba9a57c36ec88e5d14ea3e259c8866c7935f4998d3ec0fa2d6c3962da5b5575"
+  },
+  "truth_base_url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/HG002_NA24385_son/NISTv4.2.1/GRCh38/",
+  "publisher_integrity_note": "Primary VCF, index and BED downloaded over HTTPS with HTTP length checks and recorded local SHA256/MD5. NIST md5.in lists the README and supplementary files, not these primary inputs. The primary file hashes are local pins, not publisher checksum verification.",
+  "limits": [
+    "Single prealigned public chromosome, not the child's alignment or clinical sensitivity",
+    "Benchmark confident regions exclude important difficult and structural regions",
+    "GIAB truth integrates multiple technologies and callers, including GATK-related methods; this is not a wholly technology-independent test",
+    "Diploid genotype agreement is not family phase validation or causal probability",
+    "No threshold optimization or changes to the running patient workflow"
+  ]
+}

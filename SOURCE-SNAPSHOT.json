@@ -1,0 +1,1825 @@
+{
+  "created_at": "2026-09-20T01:32:28.614936+00:00",
+  "scope": "Complete selected workflow source/configuration inventory plus public/synthetic/runtime evidence; no patient-result files or internal Git history.",
+  "source_manifest_sha256": "a5eecc491c6692e00b2117ee6e8e0df9a85cb140b510bf805264583a1e69aac8",
+  "exporter_sha256": "a6232c199316b33c27a79934ad9e4890ae48bd09e6d53529d5de891ef3a409c3",
+  "files": [
+    {
+      "path": ".gitignore",
+      "source_path": ".gitignore",
+      "source_mode": 420,
+      "source_bytes": 1620,
+      "source_sha256": "2008cb5e3647dfe477f52c73d8a1cf8b12d403683cb557808887a3f29b9e7ff8",
+      "release_bytes": 1620,
+      "release_sha256": "2008cb5e3647dfe477f52c73d8a1cf8b12d403683cb557808887a3f29b9e7ff8"
+    },
+    {
+      "path": "LICENSE",
+      "source_path": "LICENSE",
+      "source_mode": 420,
+      "source_bytes": 1675,
+      "source_sha256": "31f3dab83802d459b67a96e5644a667f0423ffb24f77c4ba31aaac444577f791",
+      "release_bytes": 1675,
+      "release_sha256": "31f3dab83802d459b67a96e5644a667f0423ffb24f77c4ba31aaac444577f791"
+    },
+    {
+      "path": "README.md",
+      "source_path": "publication/README.md",
+      "source_mode": 420,
+      "source_bytes": 5053,
+      "source_sha256": "fd5fb6a18c75c232c3c1ba8771f98aeb2a5a4980a53f1e1285a150f460ae7878",
+      "release_bytes": 5053,
+      "release_sha256": "fd5fb6a18c75c232c3c1ba8771f98aeb2a5a4980a53f1e1285a150f460ae7878"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "source_path": "publication/REPRODUCIBILITY.md",
+      "source_mode": 420,
+      "source_bytes": 8890,
+      "source_sha256": "1ae3cd81041cdc7da8806c8f5c2ecd6b3b18422ad18520226bddd49424256b72",
+      "release_bytes": 8890,
+      "release_sha256": "1ae3cd81041cdc7da8806c8f5c2ecd6b3b18422ad18520226bddd49424256b72"
+    },
+    {
+      "path": "results/germline-multiallelic-controls-20260919.json",
+      "source_path": "results/germline-multiallelic-controls-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 38543,
+      "source_sha256": "fb8007d8543efe447c2584a92a402d2ab64778082c1654596a1ec5f514df3352",
+      "release_bytes": 38543,
+      "release_sha256": "fb8007d8543efe447c2584a92a402d2ab64778082c1654596a1ec5f514df3352"
+    },
+    {
+      "path": "results/germline-public-audit-controls-20260919.json",
+      "source_path": "results/germline-public-audit-controls-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 1891,
+      "source_sha256": "b4e4dddb808d51e8621e963f80512904d087a9aba576983422baaf8912d4a615",
+      "release_bytes": 1891,
+      "release_sha256": "b4e4dddb808d51e8621e963f80512904d087a9aba576983422baaf8912d4a615"
+    },
+    {
+      "path": "results/germline-public-comparator-controls-20260919.json",
+      "source_path": "results/germline-public-comparator-controls-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 74443,
+      "source_sha256": "4489225c85c33d99317b03a7e18bc47845e176ae27afef97fea7a08a713b3ce5",
+      "release_bytes": 74443,
+      "release_sha256": "4489225c85c33d99317b03a7e18bc47845e176ae27afef97fea7a08a713b3ce5"
+    },
+    {
+      "path": "results/germline-public-comparison-20260919.json",
+      "source_path": "results/germline-public-comparison-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 19670,
+      "source_sha256": "404869d8e0f75440653aec84d570da97e8e61132f2ec70d07c70ab4830d931bb",
+      "release_bytes": 19670,
+      "release_sha256": "404869d8e0f75440653aec84d570da97e8e61132f2ec70d07c70ab4830d931bb"
+    },
+    {
+      "path": "results/germline-public-comparison-audit-20260919.json",
+      "source_path": "results/germline-public-comparison-audit-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 36613,
+      "source_sha256": "b6fb8fd68aaf1eb35e2dcd26eb6615e949473f24444146c5a62cdcb3f4b78d53",
+      "release_bytes": 36613,
+      "release_sha256": "b6fb8fd68aaf1eb35e2dcd26eb6615e949473f24444146c5a62cdcb3f4b78d53"
+    },
+    {
+      "path": "results/germline-public-inputs-20260919.json",
+      "source_path": "results/germline-public-inputs-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 2212,
+      "source_sha256": "89840bfbddb6846e8afa9fee11166c1ab9a2cb4ca4286fa758c2f98bce2013f2",
+      "release_bytes": 2212,
+      "release_sha256": "89840bfbddb6846e8afa9fee11166c1ab9a2cb4ca4286fa758c2f98bce2013f2"
+    },
+    {
+      "path": "results/germline-public-pilot-complete-20260919.json",
+      "source_path": "results/germline-public-pilot-complete-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 3615,
+      "source_sha256": "9a0a7a263c0254b0b2c5501c91b9742c1b75ad5ee7853cc8acf76b4cb7ae5448",
+      "release_bytes": 3615,
+      "release_sha256": "9a0a7a263c0254b0b2c5501c91b9742c1b75ad5ee7853cc8acf76b4cb7ae5448"
+    },
+    {
+      "path": "results/germline-public-reference-20260919-v2.json",
+      "source_path": "results/germline-public-reference-20260919-v2.json",
+      "source_mode": 420,
+      "source_bytes": 89144,
+      "source_sha256": "8d18f23fa6f0acc229e230dcd3a18da12e415f9cd6c014aa7efb31f08327b9dc",
+      "release_bytes": 89144,
+      "release_sha256": "8d18f23fa6f0acc229e230dcd3a18da12e415f9cd6c014aa7efb31f08327b9dc"
+    },
+    {
+      "path": "results/germline-representation-loss-review-20260919.json",
+      "source_path": "results/germline-representation-loss-review-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 17265,
+      "source_sha256": "8cf902062f04842ce2fb29a3918e04f3f7dec042e7d169d62545e9c0fabc448f",
+      "release_bytes": 17265,
+      "release_sha256": "8cf902062f04842ce2fb29a3918e04f3f7dec042e7d169d62545e9c0fabc448f"
+    },
+    {
+      "path": "results/germline-representation-reconciliation-20260919.json",
+      "source_path": "results/germline-representation-reconciliation-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 25941,
+      "source_sha256": "c838e85c12a8deb7829f8483076feec8c551b423afe686fb8fd7bee26962a314",
+      "release_bytes": 25941,
+      "release_sha256": "c838e85c12a8deb7829f8483076feec8c551b423afe686fb8fd7bee26962a314"
+    },
+    {
+      "path": "results/germline-representation-validation-20260919.json",
+      "source_path": "results/germline-representation-validation-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 2054,
+      "source_sha256": "9f8977c41bafece4ab741f5ee0ab95cab5aba7028196bc6afbf70da903094748",
+      "release_bytes": 2054,
+      "release_sha256": "9f8977c41bafece4ab741f5ee0ab95cab5aba7028196bc6afbf70da903094748"
+    },
+    {
+      "path": "results/germline-retained-multiallelic-20260919-v2.json",
+      "source_path": "results/germline-retained-multiallelic-20260919-v2.json",
+      "source_mode": 420,
+      "source_bytes": 12192,
+      "source_sha256": "1538b8f490844fcdfbfd000fe7837e37e9dc5bbb2a04a6360a40b68497a3bbae",
+      "release_bytes": 12192,
+      "release_sha256": "1538b8f490844fcdfbfd000fe7837e37e9dc5bbb2a04a6360a40b68497a3bbae"
+    },
+    {
+      "path": "results/germline-retained-multiallelic-comparison-20260919.json",
+      "source_path": "results/germline-retained-multiallelic-comparison-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 19993,
+      "source_sha256": "e9249002c1871658f50487001f04b52619a4950955bab761211aa4516d436a79",
+      "release_bytes": 19993,
+      "release_sha256": "e9249002c1871658f50487001f04b52619a4950955bab761211aa4516d436a79"
+    },
+    {
+      "path": "results/germline-retained-multiallelic-comparison-audit-20260919.json",
+      "source_path": "results/germline-retained-multiallelic-comparison-audit-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 35361,
+      "source_sha256": "65e3d5e0264bc9f2c128bfb0e6fbf83acb51666b85a5cb8be9be889c8798d22b",
+      "release_bytes": 35361,
+      "release_sha256": "65e3d5e0264bc9f2c128bfb0e6fbf83acb51666b85a5cb8be9be889c8798d22b"
+    },
+    {
+      "path": "results/germline-retained-multiallelic-failed-20260919.json",
+      "source_path": "results/germline-retained-multiallelic-failed-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 387,
+      "source_sha256": "fc61175c266ce68a98e0d0be559a506336b074b21ebc3147509fd63409731fbc",
+      "release_bytes": 387,
+      "release_sha256": "fc61175c266ce68a98e0d0be559a506336b074b21ebc3147509fd63409731fbc"
+    },
+    {
+      "path": "results/rtg-install-20260919.json",
+      "source_path": "results/rtg-install-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 533,
+      "source_sha256": "ca3917e6968370079cba48a00ab8363321627ebc35bacc42907a3a728ed02e82",
+      "release_bytes": 533,
+      "release_sha256": "ca3917e6968370079cba48a00ab8363321627ebc35bacc42907a3a728ed02e82"
+    },
+    {
+      "path": "results/rtg-runtime-20260919.json",
+      "source_path": "results/rtg-runtime-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 3012,
+      "source_sha256": "778aa0a1296777c853c54eb0f0f8aaa30c52b770a794c421749963377a0b0488",
+      "release_bytes": 3012,
+      "release_sha256": "778aa0a1296777c853c54eb0f0f8aaa30c52b770a794c421749963377a0b0488"
+    },
+    {
+      "path": "results/runtime-conda-rebuild-20260919.json",
+      "source_path": "results/runtime-conda-rebuild-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 4453,
+      "source_sha256": "9fa20c43128214b0e17ea748f95e76ede579de144396c762181989faa0d25fb9",
+      "release_bytes": 4453,
+      "release_sha256": "9fa20c43128214b0e17ea748f95e76ede579de144396c762181989faa0d25fb9"
+    },
+    {
+      "path": "results/runtime-python-rebuild-20260919.json",
+      "source_path": "results/runtime-python-rebuild-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 2477,
+      "source_sha256": "0960c4b8cfb285fa3fd02ab3ebfa6d4070e386e9c6e02348b1fadf3fc827b56a",
+      "release_bytes": 2477,
+      "release_sha256": "0960c4b8cfb285fa3fd02ab3ebfa6d4070e386e9c6e02348b1fadf3fc827b56a"
+    },
+    {
+      "path": "results/runtime-structural-comparator-20260919.json",
+      "source_path": "results/runtime-structural-comparator-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 19347,
+      "source_sha256": "eaf104d14cf58fe1f5cda58994eb518bc921cd2e938afb6312a24fc72f2df23c",
+      "release_bytes": 19347,
+      "release_sha256": "eaf104d14cf58fe1f5cda58994eb518bc921cd2e938afb6312a24fc72f2df23c"
+    },
+    {
+      "path": "results/runtime-wheel-preparation-20260919.json",
+      "source_path": "results/runtime-wheel-preparation-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 25925,
+      "source_sha256": "0146c07ebc9366571cc3cdd19b1a8e7a22be926e26d3d76d1470aca6a951e36d",
+      "release_bytes": 25925,
+      "release_sha256": "0146c07ebc9366571cc3cdd19b1a8e7a22be926e26d3d76d1470aca6a951e36d"
+    },
+    {
+      "path": "results/runtime-wheel-sources-20260919.json",
+      "source_path": "results/runtime-wheel-sources-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 41838,
+      "source_sha256": "bd7bfac5fb26c2358cc77e662cfbb2e462a832700d2a61d379f303a991ee7531",
+      "release_bytes": 41838,
+      "release_sha256": "bd7bfac5fb26c2358cc77e662cfbb2e462a832700d2a61d379f303a991ee7531"
+    },
+    {
+      "path": "workflow/configs/autosomal-copy-number.json",
+      "source_path": "workflow/configs/autosomal-copy-number.json",
+      "source_mode": 420,
+      "source_bytes": 428,
+      "source_sha256": "b2a4a430900696934c8eebf988cd5d7a077c50c1157cd08f881136bc1de8230b",
+      "release_bytes": 428,
+      "release_sha256": "b2a4a430900696934c8eebf988cd5d7a077c50c1157cd08f881136bc1de8230b"
+    },
+    {
+      "path": "workflow/configs/baseline-read-review.json",
+      "source_path": "workflow/configs/baseline-read-review.json",
+      "source_mode": 420,
+      "source_bytes": 9319,
+      "source_sha256": "76647f307106cf3f8514448a7b75ce6f4a3ba8c938fcb137c98461b3500acdf9",
+      "release_bytes": 9319,
+      "release_sha256": "76647f307106cf3f8514448a7b75ce6f4a3ba8c938fcb137c98461b3500acdf9"
+    },
+    {
+      "path": "workflow/configs/bub1b-noncoding-review.json",
+      "source_path": "workflow/configs/bub1b-noncoding-review.json",
+      "source_mode": 420,
+      "source_bytes": 3081,
+      "source_sha256": "0ffd04d2161255f73bc086babfb976a5790e76fa14078d9a30dbedc747dda3c2",
+      "release_bytes": 3081,
+      "release_sha256": "0ffd04d2161255f73bc086babfb976a5790e76fa14078d9a30dbedc747dda3c2"
+    },
+    {
+      "path": "workflow/configs/bub1b-read-phasing.json",
+      "source_path": "workflow/configs/bub1b-read-phasing.json",
+      "source_mode": 420,
+      "source_bytes": 950,
+      "source_sha256": "8842589c585ef9bd7d0d21faad82364055278e742f4ae7687916aa1ec822bb9c",
+      "release_bytes": 950,
+      "release_sha256": "8842589c585ef9bd7d0d21faad82364055278e742f4ae7687916aa1ec822bb9c"
+    },
+    {
+      "path": "workflow/configs/cnvpytor-studio-versions.txt",
+      "source_path": "workflow/configs/cnvpytor-studio-versions.txt",
+      "source_mode": 420,
+      "source_bytes": 661,
+      "source_sha256": "368863ad75d5342d2fafa7434f6ba0114aaad8116053222e0bf8c11266b7e353",
+      "release_bytes": 661,
+      "release_sha256": "368863ad75d5342d2fafa7434f6ba0114aaad8116053222e0bf8c11266b7e353"
+    },
+    {
+      "path": "workflow/configs/lirical-subject.json",
+      "source_path": "workflow/configs/lirical-subject.json",
+      "source_mode": 420,
+      "source_bytes": 373,
+      "source_sha256": "3c142b54f5498500be68840f5234a01f940a9df28423388dd597a1ef74082be5",
+      "release_bytes": 373,
+      "release_sha256": "3c142b54f5498500be68840f5234a01f940a9df28423388dd597a1ef74082be5"
+    },
+    {
+      "path": "workflow/configs/proband01-exomiser.yml",
+      "source_path": "workflow/configs/proband01-exomiser.yml",
+      "source_mode": 420,
+      "source_bytes": 1959,
+      "source_sha256": "b92d241567b9a51f9de4efd8636c74d9ef6a38a159cc66394730648a7b557f5f",
+      "release_bytes": 1959,
+      "release_sha256": "b92d241567b9a51f9de4efd8636c74d9ef6a38a159cc66394730648a7b557f5f"
+    },
+    {
+      "path": "workflow/configs/public-small-variant-comparison.json",
+      "source_path": "workflow/configs/public-small-variant-comparison.json",
+      "source_mode": 420,
+      "source_bytes": 2870,
+      "source_sha256": "628e04cfd7e5d2385a59043555221eaa1393fd6151b72d2e614bf67475994007",
+      "release_bytes": 2870,
+      "release_sha256": "628e04cfd7e5d2385a59043555221eaa1393fd6151b72d2e614bf67475994007"
+    },
+    {
+      "path": "workflow/configs/public-sv-pilot-comparison.json",
+      "source_path": "workflow/configs/public-sv-pilot-comparison.json",
+      "source_mode": 420,
+      "source_bytes": 1950,
+      "source_sha256": "86b2e380e5dd390b05ee7deb3393171976ebe84f828bb556e3e4f5ef8f667e80",
+      "release_bytes": 1950,
+      "release_sha256": "86b2e380e5dd390b05ee7deb3393171976ebe84f828bb556e3e4f5ef8f667e80"
+    },
+    {
+      "path": "workflow/configs/rare-biallelic-baseline.json",
+      "source_path": "workflow/configs/rare-biallelic-baseline.json",
+      "source_mode": 420,
+      "source_bytes": 2732,
+      "source_sha256": "e2bde0b26d54645d182c74e68b84227827a94eaa8661fc8886297b146302d538",
+      "release_bytes": 2732,
+      "release_sha256": "e2bde0b26d54645d182c74e68b84227827a94eaa8661fc8886297b146302d538"
+    },
+    {
+      "path": "workflow/configs/revel-only-permissive.yml",
+      "source_path": "workflow/configs/revel-only-permissive.yml",
+      "source_mode": 420,
+      "source_bytes": 1624,
+      "source_sha256": "406a6b19f62c3b2ddc96517194ad5466281b4cf0bc73f41124432fadb351b072",
+      "release_bytes": 1624,
+      "release_sha256": "406a6b19f62c3b2ddc96517194ad5466281b4cf0bc73f41124432fadb351b072"
+    },
+    {
+      "path": "workflow/configs/revel-only-strict.yml",
+      "source_path": "workflow/configs/revel-only-strict.yml",
+      "source_mode": 420,
+      "source_bytes": 1625,
+      "source_sha256": "d9e6e4bee99959d3ebf5253d73a6671ed9f6d67a6f375e5de64ba0358a3cce9b",
+      "release_bytes": 1625,
+      "release_sha256": "d9e6e4bee99959d3ebf5253d73a6671ed9f6d67a6f375e5de64ba0358a3cce9b"
+    },
+    {
+      "path": "workflow/configs/roh-genotyping.json",
+      "source_path": "workflow/configs/roh-genotyping.json",
+      "source_mode": 420,
+      "source_bytes": 1330,
+      "source_sha256": "42e50834da7d21486d69c0acd43d52f3da792544e37dd8d72f31efa41ba3c7ee",
+      "release_bytes": 1330,
+      "release_sha256": "42e50834da7d21486d69c0acd43d52f3da792544e37dd8d72f31efa41ba3c7ee"
+    },
+    {
+      "path": "workflow/configs/roh-population-panel.json",
+      "source_path": "workflow/configs/roh-population-panel.json",
+      "source_mode": 420,
+      "source_bytes": 1111,
+      "source_sha256": "cf81f1c74a38a46210253afac409d5644de2cc583f6b4d960cd3c7577b0d5253",
+      "release_bytes": 1111,
+      "release_sha256": "cf81f1c74a38a46210253afac409d5644de2cc583f6b4d960cd3c7577b0d5253"
+    },
+    {
+      "path": "workflow/configs/structural-discovery.json",
+      "source_path": "workflow/configs/structural-discovery.json",
+      "source_mode": 420,
+      "source_bytes": 1330,
+      "source_sha256": "d533ce6e314026ee62f024def12beac8bb1ab1ebce8d54ca033b12f4ed07a38f",
+      "release_bytes": 1330,
+      "release_sha256": "d533ce6e314026ee62f024def12beac8bb1ab1ebce8d54ca033b12f4ed07a38f"
+    },
+    {
+      "path": "workflow/configs/svaba-pilot.json",
+      "source_path": "workflow/configs/svaba-pilot.json",
+      "source_mode": 420,
+      "source_bytes": 2089,
+      "source_sha256": "668e783aa83aed4be0711eac840fb09faeacd12dae8cbc2d7f8473b76b171ec5",
+      "release_bytes": 2089,
+      "release_sha256": "668e783aa83aed4be0711eac840fb09faeacd12dae8cbc2d7f8473b76b171ec5"
+    },
+    {
+      "path": "workflow/environments/20260919/bio-osx-arm64.explicit.txt",
+      "source_path": "workflow/environments/20260919/bio-osx-arm64.explicit.txt",
+      "source_mode": 420,
+      "source_bytes": 15735,
+      "source_sha256": "c1e5b4ed12aa3a961e70a9c8abe34ee326621a0a37c28eb09117376cc4562673",
+      "release_bytes": 15735,
+      "release_sha256": "c1e5b4ed12aa3a961e70a9c8abe34ee326621a0a37c28eb09117376cc4562673"
+    },
+    {
+      "path": "workflow/environments/20260919/cnvpytor-1.3.2-local.versions.txt",
+      "source_path": "workflow/environments/20260919/cnvpytor-1.3.2-local.versions.txt",
+      "source_mode": 420,
+      "source_bytes": 496,
+      "source_sha256": "3501db7c065ad956742534240f4c2ff78511692047b7ccbd485c56b3debe7c0c",
+      "release_bytes": 496,
+      "release_sha256": "3501db7c065ad956742534240f4c2ff78511692047b7ccbd485c56b3debe7c0c"
+    },
+    {
+      "path": "workflow/environments/20260919/cnvpytor-1.3.2-local.wheels.txt",
+      "source_path": "workflow/environments/20260919/cnvpytor-1.3.2-local.wheels.txt",
+      "source_mode": 420,
+      "source_bytes": 2104,
+      "source_sha256": "9c0d504fa414fc3b15446cbbcb8faa75e44fcef5e835110067a73292dea4ed3b",
+      "release_bytes": 2104,
+      "release_sha256": "9c0d504fa414fc3b15446cbbcb8faa75e44fcef5e835110067a73292dea4ed3b"
+    },
+    {
+      "path": "workflow/environments/20260919/delly-2.6.0-osx-arm64.explicit.txt",
+      "source_path": "workflow/environments/20260919/delly-2.6.0-osx-arm64.explicit.txt",
+      "source_mode": 420,
+      "source_bytes": 4012,
+      "source_sha256": "b9aabdd16096c0c73d6c98fd3b5cb9b284fbf80c22222ea99a3da7d133ce211d",
+      "release_bytes": 4012,
+      "release_sha256": "b9aabdd16096c0c73d6c98fd3b5cb9b284fbf80c22222ea99a3da7d133ce211d"
+    },
+    {
+      "path": "workflow/environments/20260919/mafft-7.526-osx-arm64.explicit.txt",
+      "source_path": "workflow/environments/20260919/mafft-7.526-osx-arm64.explicit.txt",
+      "source_mode": 420,
+      "source_bytes": 1655,
+      "source_sha256": "4574abbe384798d6df321e3a22f56df756b46c4f18e5875394a8139087cab570",
+      "release_bytes": 1655,
+      "release_sha256": "4574abbe384798d6df321e3a22f56df756b46c4f18e5875394a8139087cab570"
+    },
+    {
+      "path": "workflow/environments/20260919/runtime.json",
+      "source_path": "workflow/environments/20260919/runtime.json",
+      "source_mode": 420,
+      "source_bytes": 165500,
+      "source_sha256": "b508fe997179a9e8a82042f96ef0b479ed229b5cc3af104daa40572889ecffde",
+      "release_bytes": 165500,
+      "release_sha256": "b508fe997179a9e8a82042f96ef0b479ed229b5cc3af104daa40572889ecffde"
+    },
+    {
+      "path": "workflow/environments/20260919/svaba-1.2.0-osx-arm64.explicit.txt",
+      "source_path": "workflow/environments/20260919/svaba-1.2.0-osx-arm64.explicit.txt",
+      "source_mode": 420,
+      "source_bytes": 3705,
+      "source_sha256": "ce2a4d299ec5d537b1e498c4b844ae8fe60a09e19233a835026e4bc532cb00b4",
+      "release_bytes": 3705,
+      "release_sha256": "ce2a4d299ec5d537b1e498c4b844ae8fe60a09e19233a835026e4bc532cb00b4"
+    },
+    {
+      "path": "workflow/environments/20260919/truvari-5.5.0-local.versions.txt",
+      "source_path": "workflow/environments/20260919/truvari-5.5.0-local.versions.txt",
+      "source_mode": 420,
+      "source_bytes": 486,
+      "source_sha256": "66624c1bbd92ce7cfe4055538efe6c4fa5ce500a4838624076bda07d3e5f17da",
+      "release_bytes": 486,
+      "release_sha256": "66624c1bbd92ce7cfe4055538efe6c4fa5ce500a4838624076bda07d3e5f17da"
+    },
+    {
+      "path": "workflow/environments/20260919/truvari-5.5.0-local.wheels.txt",
+      "source_path": "workflow/environments/20260919/truvari-5.5.0-local.wheels.txt",
+      "source_mode": 420,
+      "source_bytes": 2094,
+      "source_sha256": "cd434ca47422974410c08f425287927a9be035e7b851ffb6159ac709bb86cd5a",
+      "release_bytes": 2094,
+      "release_sha256": "cd434ca47422974410c08f425287927a9be035e7b851ffb6159ac709bb86cd5a"
+    },
+    {
+      "path": "workflow/environments/20260919/whatshap-2.8-local.versions.txt",
+      "source_path": "workflow/environments/20260919/whatshap-2.8-local.versions.txt",
+      "source_mode": 420,
+      "source_bytes": 292,
+      "source_sha256": "9d58aff967142680555887deb696f584704549128c2b06532910c5d297cbbf93",
+      "release_bytes": 292,
+      "release_sha256": "9d58aff967142680555887deb696f584704549128c2b06532910c5d297cbbf93"
+    },
+    {
+      "path": "workflow/environments/20260919/whatshap-2.8-local.wheels.txt",
+      "source_path": "workflow/environments/20260919/whatshap-2.8-local.wheels.txt",
+      "source_mode": 420,
+      "source_bytes": 1031,
+      "source_sha256": "329bf7f07c68a501ebee02cf1bb66bab28f944d341332a83b2bd6b83e0522540",
+      "release_bytes": 1031,
+      "release_sha256": "329bf7f07c68a501ebee02cf1bb66bab28f944d341332a83b2bd6b83e0522540"
+    },
+    {
+      "path": "workflow/scripts/00_prepare_reference.sh",
+      "source_path": "workflow/scripts/00_prepare_reference.sh",
+      "source_mode": 493,
+      "source_bytes": 2663,
+      "source_sha256": "01a5bb77bc3b18d07838523505815bfa4ee772a56136977515cb40dc50469aaf",
+      "release_bytes": 2663,
+      "release_sha256": "01a5bb77bc3b18d07838523505815bfa4ee772a56136977515cb40dc50469aaf"
+    },
+    {
+      "path": "workflow/scripts/01_align.sh",
+      "source_path": "workflow/scripts/01_align.sh",
+      "source_mode": 493,
+      "source_bytes": 8819,
+      "source_sha256": "7b47c3370dabec15c51a365c03ac166d37a0c15f4935c38558150dcb798a0991",
+      "release_bytes": 8585,
+      "release_sha256": "621cb1b0a9c28c74b08983add871c5a8aa0237a278b812bbdb2411185d2e4dac"
+    },
+    {
+      "path": "workflow/scripts/02_call_variants.sh",
+      "source_path": "workflow/scripts/02_call_variants.sh",
+      "source_mode": 493,
+      "source_bytes": 4268,
+      "source_sha256": "8124fbea4b21d2eabf8ad3b72f66b0e24d90576d0a0ec7eda67038f7f5cffa5f",
+      "release_bytes": 4268,
+      "release_sha256": "8124fbea4b21d2eabf8ad3b72f66b0e24d90576d0a0ec7eda67038f7f5cffa5f"
+    },
+    {
+      "path": "workflow/scripts/03_annotate.sh",
+      "source_path": "workflow/scripts/03_annotate.sh",
+      "source_mode": 493,
+      "source_bytes": 2478,
+      "source_sha256": "53002d693f847680d53a24c4f4fdc11e31aac1fa61295cf0ebf4d9972a88e9a9",
+      "release_bytes": 2478,
+      "release_sha256": "53002d693f847680d53a24c4f4fdc11e31aac1fa61295cf0ebf4d9972a88e9a9"
+    },
+    {
+      "path": "workflow/scripts/04_prioritize.sh",
+      "source_path": "workflow/scripts/04_prioritize.sh",
+      "source_mode": 493,
+      "source_bytes": 275,
+      "source_sha256": "403e3fb6e66574ed49c9b180006dfe4fca4c2ae57ebd03144e52810a289269b7",
+      "release_bytes": 275,
+      "release_sha256": "403e3fb6e66574ed49c9b180006dfe4fca4c2ae57ebd03144e52810a289269b7"
+    },
+    {
+      "path": "workflow/scripts/AlleleFrequencyProbe.java",
+      "source_path": "workflow/scripts/AlleleFrequencyProbe.java",
+      "source_mode": 420,
+      "source_bytes": 2509,
+      "source_sha256": "8c453396d28d2986186671c2908edd069e4e1406516edcda868d42719727981a",
+      "release_bytes": 2509,
+      "release_sha256": "8c453396d28d2986186671c2908edd069e4e1406516edcda868d42719727981a"
+    },
+    {
+      "path": "workflow/scripts/LiricalMetadataProbe.java",
+      "source_path": "workflow/scripts/LiricalMetadataProbe.java",
+      "source_mode": 420,
+      "source_bytes": 3131,
+      "source_sha256": "a3f1ea155e857f2046cc6c801dedaf770609d1211849bd6ec2131a1ccb99f678",
+      "release_bytes": 3131,
+      "release_sha256": "a3f1ea155e857f2046cc6c801dedaf770609d1211849bd6ec2131a1ccb99f678"
+    },
+    {
+      "path": "workflow/scripts/audit_baseline_reads.py",
+      "source_path": "workflow/scripts/audit_baseline_reads.py",
+      "source_mode": 420,
+      "source_bytes": 16977,
+      "source_sha256": "50c4ceb6ae0327dbc2789a08fcdcc1b6508bcb932c3e4f318b9c7e4e489c4456",
+      "release_bytes": 16977,
+      "release_sha256": "50c4ceb6ae0327dbc2789a08fcdcc1b6508bcb932c3e4f318b9c7e4e489c4456"
+    },
+    {
+      "path": "workflow/scripts/audit_bub1b_isoforms.py",
+      "source_path": "workflow/scripts/audit_bub1b_isoforms.py",
+      "source_mode": 420,
+      "source_bytes": 7411,
+      "source_sha256": "18e82c4d37c95d3698ad36cec14bc62082522f0d1f5b5f401a4a9ad2b827a72e",
+      "release_bytes": 7411,
+      "release_sha256": "18e82c4d37c95d3698ad36cec14bc62082522f0d1f5b5f401a4a9ad2b827a72e"
+    },
+    {
+      "path": "workflow/scripts/audit_bub1b_transcript.py",
+      "source_path": "workflow/scripts/audit_bub1b_transcript.py",
+      "source_mode": 420,
+      "source_bytes": 5866,
+      "source_sha256": "6d7506c5f924b4378da74c010004e6918851103770af077e6f88e75de3169df2",
+      "release_bytes": 5866,
+      "release_sha256": "6d7506c5f924b4378da74c010004e6918851103770af077e6f88e75de3169df2"
+    },
+    {
+      "path": "workflow/scripts/audit_candidate_phase.py",
+      "source_path": "workflow/scripts/audit_candidate_phase.py",
+      "source_mode": 420,
+      "source_bytes": 7901,
+      "source_sha256": "c36a2e25be85e9a4f457f1e592191e06c3aed7012f2900981e0670461c63560a",
+      "release_bytes": 7901,
+      "release_sha256": "c36a2e25be85e9a4f457f1e592191e06c3aed7012f2900981e0670461c63560a"
+    },
+    {
+      "path": "workflow/scripts/audit_paired_snv_phase.py",
+      "source_path": "workflow/scripts/audit_paired_snv_phase.py",
+      "source_mode": 420,
+      "source_bytes": 6446,
+      "source_sha256": "00fd091f609cded0919cb1bbf4e10a09bff7dcc15383e23282d0add030110859",
+      "release_bytes": 6446,
+      "release_sha256": "00fd091f609cded0919cb1bbf4e10a09bff7dcc15383e23282d0add030110859"
+    },
+    {
+      "path": "workflow/scripts/audit_public_small_variants.py",
+      "source_path": "workflow/scripts/audit_public_small_variants.py",
+      "source_mode": 420,
+      "source_bytes": 11012,
+      "source_sha256": "f843f496c2112ca30b807bbccce1ddd0190d718a6d8d007f063a5e92315bcbc7",
+      "release_bytes": 11012,
+      "release_sha256": "f843f496c2112ca30b807bbccce1ddd0190d718a6d8d007f063a5e92315bcbc7"
+    },
+    {
+      "path": "workflow/scripts/audit_public_sv_comparison.py",
+      "source_path": "workflow/scripts/audit_public_sv_comparison.py",
+      "source_mode": 420,
+      "source_bytes": 8963,
+      "source_sha256": "dbd8ffd425ad64c30dfcb627a213ef12b677216b816565acb635f826edba3594",
+      "release_bytes": 8963,
+      "release_sha256": "dbd8ffd425ad64c30dfcb627a213ef12b677216b816565acb635f826edba3594"
+    },
+    {
+      "path": "workflow/scripts/audit_ranked_phase.py",
+      "source_path": "workflow/scripts/audit_ranked_phase.py",
+      "source_mode": 420,
+      "source_bytes": 4620,
+      "source_sha256": "e9ba222ca99de5b8bf0589c8d3383308dfd913f95aca92df0d705e888af0842d",
+      "release_bytes": 4620,
+      "release_sha256": "e9ba222ca99de5b8bf0589c8d3383308dfd913f95aca92df0d705e888af0842d"
+    },
+    {
+      "path": "workflow/scripts/audit_roh_inputs.py",
+      "source_path": "workflow/scripts/audit_roh_inputs.py",
+      "source_mode": 420,
+      "source_bytes": 6489,
+      "source_sha256": "45005276c7bcef406d8c76d3782d61ed26e3e2bbd22343cc1a815b04e37118c9",
+      "release_bytes": 6489,
+      "release_sha256": "45005276c7bcef406d8c76d3782d61ed26e3e2bbd22343cc1a815b04e37118c9"
+    },
+    {
+      "path": "workflow/scripts/audit_sv_simulation.py",
+      "source_path": "workflow/scripts/audit_sv_simulation.py",
+      "source_mode": 420,
+      "source_bytes": 5806,
+      "source_sha256": "298280f021b5bb3a232cd45e20a132d3333ef9d00c8d9e4185c44381a9477251",
+      "release_bytes": 5806,
+      "release_sha256": "298280f021b5bb3a232cd45e20a132d3333ef9d00c8d9e4185c44381a9477251"
+    },
+    {
+      "path": "workflow/scripts/audit_targeted_snvs.py",
+      "source_path": "workflow/scripts/audit_targeted_snvs.py",
+      "source_mode": 420,
+      "source_bytes": 17748,
+      "source_sha256": "2ca9b0ab0ea9371f4a8708ce0cb6a3ee634270d210a382163990c72d7e71eec2",
+      "release_bytes": 17748,
+      "release_sha256": "2ca9b0ab0ea9371f4a8708ce0cb6a3ee634270d210a382163990c72d7e71eec2"
+    },
+    {
+      "path": "workflow/scripts/audit_vendor_vcf.py",
+      "source_path": "workflow/scripts/audit_vendor_vcf.py",
+      "source_mode": 420,
+      "source_bytes": 4938,
+      "source_sha256": "9883624f214f96586935bce702c396cb62467fc3bd389b087f8e46e8e82c1079",
+      "release_bytes": 4938,
+      "release_sha256": "9883624f214f96586935bce702c396cb62467fc3bd389b087f8e46e8e82c1079"
+    },
+    {
+      "path": "workflow/scripts/baseline_transcript_sensitivity.py",
+      "source_path": "workflow/scripts/baseline_transcript_sensitivity.py",
+      "source_mode": 420,
+      "source_bytes": 12814,
+      "source_sha256": "913efe46236355a968c1d8ec51b09f686bb3a7cf7504fa87e55149dbce9e2724",
+      "release_bytes": 12814,
+      "release_sha256": "913efe46236355a968c1d8ec51b09f686bb3a7cf7504fa87e55149dbce9e2724"
+    },
+    {
+      "path": "workflow/scripts/build_roh_population_panel.py",
+      "source_path": "workflow/scripts/build_roh_population_panel.py",
+      "source_mode": 420,
+      "source_bytes": 10500,
+      "source_sha256": "fb41a82baee29d04c124635610832038290fe5501509c62139f1d1de06557c0b",
+      "release_bytes": 10500,
+      "release_sha256": "fb41a82baee29d04c124635610832038290fe5501509c62139f1d1de06557c0b"
+    },
+    {
+      "path": "workflow/scripts/build_structural_exclusions.py",
+      "source_path": "workflow/scripts/build_structural_exclusions.py",
+      "source_mode": 420,
+      "source_bytes": 10408,
+      "source_sha256": "fec839f21855949af0bc3e2030cbc062e57297139f6971feacf08f9e3daee5f8",
+      "release_bytes": 10408,
+      "release_sha256": "fec839f21855949af0bc3e2030cbc062e57297139f6971feacf08f9e3daee5f8"
+    },
+    {
+      "path": "workflow/scripts/build_submission.py",
+      "source_path": "workflow/scripts/build_submission.py",
+      "source_mode": 420,
+      "source_bytes": 8333,
+      "source_sha256": "262f535af4f90e66ce11388c6cd7381616c09fa79b8f0b9b74e59125cde35d65",
+      "release_bytes": 8333,
+      "release_sha256": "262f535af4f90e66ce11388c6cd7381616c09fa79b8f0b9b74e59125cde35d65"
+    },
+    {
+      "path": "workflow/scripts/call_genome.py",
+      "source_path": "workflow/scripts/call_genome.py",
+      "source_mode": 420,
+      "source_bytes": 13652,
+      "source_sha256": "5af91153e9926b0d8b985d0575b0a6ef51e1496d16ff3614c4cb4d8b2b4ac358",
+      "release_bytes": 13652,
+      "release_sha256": "5af91153e9926b0d8b985d0575b0a6ef51e1496d16ff3614c4cb4d8b2b4ac358"
+    },
+    {
+      "path": "workflow/scripts/candidate_read_validation.py",
+      "source_path": "workflow/scripts/candidate_read_validation.py",
+      "source_mode": 420,
+      "source_bytes": 10592,
+      "source_sha256": "3045e6372ca1835825822eb1f48bc9eb6f20ab51d1bc2d0d80fb89a63cf6a5bb",
+      "release_bytes": 10592,
+      "release_sha256": "3045e6372ca1835825822eb1f48bc9eb6f20ab51d1bc2d0d80fb89a63cf6a5bb"
+    },
+    {
+      "path": "workflow/scripts/capture_provenance.py",
+      "source_path": "workflow/scripts/capture_provenance.py",
+      "source_mode": 420,
+      "source_bytes": 3313,
+      "source_sha256": "b6bdf7982879023598ee092794a05bfd500ff6337f81f71cad4b923dde279fcd",
+      "release_bytes": 3313,
+      "release_sha256": "b6bdf7982879023598ee092794a05bfd500ff6337f81f71cad4b923dde279fcd"
+    },
+    {
+      "path": "workflow/scripts/clinvar_spectrum.py",
+      "source_path": "workflow/scripts/clinvar_spectrum.py",
+      "source_mode": 420,
+      "source_bytes": 6036,
+      "source_sha256": "6240a5756efcd8d8a26b1e999a3f07a627e9b8594676c54575b118a9fe69282f",
+      "release_bytes": 6036,
+      "release_sha256": "6240a5756efcd8d8a26b1e999a3f07a627e9b8594676c54575b118a9fe69282f"
+    },
+    {
+      "path": "workflow/scripts/compare_public_small_variants.py",
+      "source_path": "workflow/scripts/compare_public_small_variants.py",
+      "source_mode": 420,
+      "source_bytes": 9144,
+      "source_sha256": "9a675ce4ed80b39fdd58aefbccf7bf04256bbb39e06420731224ffdccb132a51",
+      "release_bytes": 9144,
+      "release_sha256": "9a675ce4ed80b39fdd58aefbccf7bf04256bbb39e06420731224ffdccb132a51"
+    },
+    {
+      "path": "workflow/scripts/compare_public_sv_pilot.py",
+      "source_path": "workflow/scripts/compare_public_sv_pilot.py",
+      "source_mode": 420,
+      "source_bytes": 8869,
+      "source_sha256": "e69bc9fa3ffbae6f34f7adcad964376283a3458afaa4808d1b2cc0b4d2566a63",
+      "release_bytes": 8869,
+      "release_sha256": "e69bc9fa3ffbae6f34f7adcad964376283a3458afaa4808d1b2cc0b4d2566a63"
+    },
+    {
+      "path": "workflow/scripts/compare_svaba_public.py",
+      "source_path": "workflow/scripts/compare_svaba_public.py",
+      "source_mode": 420,
+      "source_bytes": 8662,
+      "source_sha256": "f99d1a7a22b058803fee49da73cfe550f6a8426a3242ad251cdbdef91cec6e7d",
+      "release_bytes": 8662,
+      "release_sha256": "f99d1a7a22b058803fee49da73cfe550f6a8426a3242ad251cdbdef91cec6e7d"
+    },
+    {
+      "path": "workflow/scripts/convert_svaba_pilot.py",
+      "source_path": "workflow/scripts/convert_svaba_pilot.py",
+      "source_mode": 420,
+      "source_bytes": 18878,
+      "source_sha256": "95ec0857445f6995a18e9182eb51e3a35b091d02772b72a6af42bc4d07d3f8dc",
+      "release_bytes": 18878,
+      "release_sha256": "95ec0857445f6995a18e9182eb51e3a35b091d02772b72a6af42bc4d07d3f8dc"
+    },
+    {
+      "path": "workflow/scripts/export_repository_snapshot.py",
+      "source_path": "workflow/scripts/export_repository_snapshot.py",
+      "source_mode": 420,
+      "source_bytes": 8831,
+      "source_sha256": "a6232c199316b33c27a79934ad9e4890ae48bd09e6d53529d5de891ef3a409c3",
+      "release_bytes": 8831,
+      "release_sha256": "a6232c199316b33c27a79934ad9e4890ae48bd09e6d53529d5de891ef3a409c3"
+    },
+    {
+      "path": "workflow/scripts/export_runtime.py",
+      "source_path": "workflow/scripts/export_runtime.py",
+      "source_mode": 420,
+      "source_bytes": 9585,
+      "source_sha256": "5b4913aff06642e00dbdd2624ee914be4de8611aed036683f82d42b889ef453f",
+      "release_bytes": 9585,
+      "release_sha256": "5b4913aff06642e00dbdd2624ee914be4de8611aed036683f82d42b889ef453f"
+    },
+    {
+      "path": "workflow/scripts/fetch_fastqs.sh",
+      "source_path": "workflow/scripts/fetch_fastqs.sh",
+      "source_mode": 493,
+      "source_bytes": 3191,
+      "source_sha256": "38b33d618c868d6f7eb6200a8846a1dd2418c73831ca9c9abc4658d5bc201172",
+      "release_bytes": 3191,
+      "release_sha256": "38b33d618c868d6f7eb6200a8846a1dd2418c73831ca9c9abc4658d5bc201172"
+    },
+    {
+      "path": "workflow/scripts/fetch_queue.sh",
+      "source_path": "workflow/scripts/fetch_queue.sh",
+      "source_mode": 493,
+      "source_bytes": 1044,
+      "source_sha256": "716cccead70dcdab6f13cd41489d3254046d94b59a7d3e569d571c9966747973",
+      "release_bytes": 1044,
+      "release_sha256": "716cccead70dcdab6f13cd41489d3254046d94b59a7d3e569d571c9966747973"
+    },
+    {
+      "path": "workflow/scripts/fetch_resource.py",
+      "source_path": "workflow/scripts/fetch_resource.py",
+      "source_mode": 420,
+      "source_bytes": 9202,
+      "source_sha256": "e039075293df635d6b20164d7c7f2b3d2df780ee385ab1e53951337fd46b7158",
+      "release_bytes": 9202,
+      "release_sha256": "e039075293df635d6b20164d7c7f2b3d2df780ee385ab1e53951337fd46b7158"
+    },
+    {
+      "path": "workflow/scripts/fetch_resource.sh",
+      "source_path": "workflow/scripts/fetch_resource.sh",
+      "source_mode": 493,
+      "source_bytes": 295,
+      "source_sha256": "1090d24771bab2060f7b8f49746701be6e123c17460fa5ffeeae9bb5e617c747",
+      "release_bytes": 295,
+      "release_sha256": "1090d24771bab2060f7b8f49746701be6e123c17460fa5ffeeae9bb5e617c747"
+    },
+    {
+      "path": "workflow/scripts/genotype_roh_panel.py",
+      "source_path": "workflow/scripts/genotype_roh_panel.py",
+      "source_mode": 420,
+      "source_bytes": 24214,
+      "source_sha256": "05b693c919e1111bc60b3c5f07281f662585eee65c7df7b1caa56c2b03fd2129",
+      "release_bytes": 24214,
+      "release_sha256": "05b693c919e1111bc60b3c5f07281f662585eee65c7df7b1caa56c2b03fd2129"
+    },
+    {
+      "path": "workflow/scripts/input_fingerprint.py",
+      "source_path": "workflow/scripts/input_fingerprint.py",
+      "source_mode": 420,
+      "source_bytes": 453,
+      "source_sha256": "adc18d3f40f226c285ecab3902bef7a42a572b19d5734dc6b7b5134f2fe587e7",
+      "release_bytes": 453,
+      "release_sha256": "adc18d3f40f226c285ecab3902bef7a42a572b19d5734dc6b7b5134f2fe587e7"
+    },
+    {
+      "path": "workflow/scripts/leaderboard_audit.py",
+      "source_path": "workflow/scripts/leaderboard_audit.py",
+      "source_mode": 420,
+      "source_bytes": 5015,
+      "source_sha256": "263e33b75265fe19ce5228105873357e22fa1e7f25e1f523cbcf24854518b827",
+      "release_bytes": 5015,
+      "release_sha256": "263e33b75265fe19ce5228105873357e22fa1e7f25e1f523cbcf24854518b827"
+    },
+    {
+      "path": "workflow/scripts/panel_marker_evidence.py",
+      "source_path": "workflow/scripts/panel_marker_evidence.py",
+      "source_mode": 420,
+      "source_bytes": 2926,
+      "source_sha256": "aa4c617acec1796458a2e93e67064039ae3e375efdb5b2716b8fe220a73258e5",
+      "release_bytes": 2926,
+      "release_sha256": "aa4c617acec1796458a2e93e67064039ae3e375efdb5b2716b8fe220a73258e5"
+    },
+    {
+      "path": "workflow/scripts/phase_audit.sh",
+      "source_path": "workflow/scripts/phase_audit.sh",
+      "source_mode": 493,
+      "source_bytes": 3011,
+      "source_sha256": "6887cf26c1f457e2b81e83bb9c8cf891414cc5b0db23ec6ebbb4c1fa624d9c04",
+      "release_bytes": 3011,
+      "release_sha256": "6887cf26c1f457e2b81e83bb9c8cf891414cc5b0db23ec6ebbb4c1fa624d9c04"
+    },
+    {
+      "path": "workflow/scripts/phase_pair_experiment.py",
+      "source_path": "workflow/scripts/phase_pair_experiment.py",
+      "source_mode": 420,
+      "source_bytes": 3986,
+      "source_sha256": "442a03999af91bdd44323d8ae08aac2ec4155e53bd697b15db158754712ed455",
+      "release_bytes": 3986,
+      "release_sha256": "442a03999af91bdd44323d8ae08aac2ec4155e53bd697b15db158754712ed455"
+    },
+    {
+      "path": "workflow/scripts/plot_copy_number_validation.py",
+      "source_path": "workflow/scripts/plot_copy_number_validation.py",
+      "source_mode": 420,
+      "source_bytes": 7183,
+      "source_sha256": "44feee8bc3e8255ee81e81b437f4de3e284d47af7cab7014615b9a3b2f56997d",
+      "release_bytes": 7183,
+      "release_sha256": "44feee8bc3e8255ee81e81b437f4de3e284d47af7cab7014615b9a3b2f56997d"
+    },
+    {
+      "path": "workflow/scripts/plot_svaba_public_comparison.py",
+      "source_path": "workflow/scripts/plot_svaba_public_comparison.py",
+      "source_mode": 420,
+      "source_bytes": 3481,
+      "source_sha256": "6591c4737d059dd9779173ae25ec4e9dfa72d94fd2172c0dfc4c1dba1d535253",
+      "release_bytes": 3481,
+      "release_sha256": "6591c4737d059dd9779173ae25ec4e9dfa72d94fd2172c0dfc4c1dba1d535253"
+    },
+    {
+      "path": "workflow/scripts/prepare_lirical_data.py",
+      "source_path": "workflow/scripts/prepare_lirical_data.py",
+      "source_mode": 420,
+      "source_bytes": 6488,
+      "source_sha256": "714a446401a4b183ab27f18304e4ad1f7209b948e37d3e8ae9028e388909efcd",
+      "release_bytes": 6488,
+      "release_sha256": "714a446401a4b183ab27f18304e4ad1f7209b948e37d3e8ae9028e388909efcd"
+    },
+    {
+      "path": "workflow/scripts/prepare_public_assembly_reference.py",
+      "source_path": "workflow/scripts/prepare_public_assembly_reference.py",
+      "source_mode": 420,
+      "source_bytes": 3598,
+      "source_sha256": "1d19cee857af2f50bf1e87ce10f92c91a64709aa0e86133636e71ef06c678bd4",
+      "release_bytes": 3598,
+      "release_sha256": "1d19cee857af2f50bf1e87ce10f92c91a64709aa0e86133636e71ef06c678bd4"
+    },
+    {
+      "path": "workflow/scripts/prepare_public_multiallelic_sensitivity.py",
+      "source_path": "workflow/scripts/prepare_public_multiallelic_sensitivity.py",
+      "source_mode": 420,
+      "source_bytes": 9366,
+      "source_sha256": "96c8e779f1e3ce55610f9241309e57169c3192d83edf72c44ca4c368b2529745",
+      "release_bytes": 9366,
+      "release_sha256": "96c8e779f1e3ce55610f9241309e57169c3192d83edf72c44ca4c368b2529745"
+    },
+    {
+      "path": "workflow/scripts/prepare_public_small_variant_benchmark.py",
+      "source_path": "workflow/scripts/prepare_public_small_variant_benchmark.py",
+      "source_mode": 420,
+      "source_bytes": 8792,
+      "source_sha256": "b27447fcb7e81882d88a4f8db0f4318a151395bea69591cc6a3082bd029f44dd",
+      "release_bytes": 8792,
+      "release_sha256": "b27447fcb7e81882d88a4f8db0f4318a151395bea69591cc6a3082bd029f44dd"
+    },
+    {
+      "path": "workflow/scripts/prepare_public_sv_benchmark.py",
+      "source_path": "workflow/scripts/prepare_public_sv_benchmark.py",
+      "source_mode": 420,
+      "source_bytes": 4718,
+      "source_sha256": "a73555fc02ab8df6b451999dfc1f4bc07ed7dfe2c8e8530fabe9f8f5885fd26f",
+      "release_bytes": 4718,
+      "release_sha256": "a73555fc02ab8df6b451999dfc1f4bc07ed7dfe2c8e8530fabe9f8f5885fd26f"
+    },
+    {
+      "path": "workflow/scripts/prepare_revel.sh",
+      "source_path": "workflow/scripts/prepare_revel.sh",
+      "source_mode": 493,
+      "source_bytes": 1597,
+      "source_sha256": "e302831f2319e8bb8053fa46263bcf59d9c54e2e915e0edd3ef94eb90375f5ce",
+      "release_bytes": 1597,
+      "release_sha256": "e302831f2319e8bb8053fa46263bcf59d9c54e2e915e0edd3ef94eb90375f5ce"
+    },
+    {
+      "path": "workflow/scripts/prepare_runtime_wheels.py",
+      "source_path": "workflow/scripts/prepare_runtime_wheels.py",
+      "source_mode": 420,
+      "source_bytes": 9314,
+      "source_sha256": "ea7ec9f8106d9f04f289f5572fffcc2659f12de57b6d19fe8131e73039e18876",
+      "release_bytes": 9314,
+      "release_sha256": "ea7ec9f8106d9f04f289f5572fffcc2659f12de57b6d19fe8131e73039e18876"
+    },
+    {
+      "path": "workflow/scripts/prepare_track2_pitch.py",
+      "source_path": "workflow/scripts/prepare_track2_pitch.py",
+      "source_mode": 420,
+      "source_bytes": 14915,
+      "source_sha256": "5b11077d3a4c26acf15421886e0907797f54a1496ab5038a7632d24cae07eebd",
+      "release_bytes": 14915,
+      "release_sha256": "5b11077d3a4c26acf15421886e0907797f54a1496ab5038a7632d24cae07eebd"
+    },
+    {
+      "path": "workflow/scripts/prioritize.py",
+      "source_path": "workflow/scripts/prioritize.py",
+      "source_mode": 420,
+      "source_bytes": 7942,
+      "source_sha256": "17ef7f39c589d5fa925006f6bfe7b25939af1da56d4d3066d6770bb49ec6369b",
+      "release_bytes": 7942,
+      "release_sha256": "17ef7f39c589d5fa925006f6bfe7b25939af1da56d4d3066d6770bb49ec6369b"
+    },
+    {
+      "path": "workflow/scripts/probe_delly_exclusion_parser.py",
+      "source_path": "workflow/scripts/probe_delly_exclusion_parser.py",
+      "source_mode": 420,
+      "source_bytes": 4920,
+      "source_sha256": "7252614a331a5d91bb55ddf37e8b95ccdc02fa369269fa61afa9d95ff2039ae1",
+      "release_bytes": 4920,
+      "release_sha256": "7252614a331a5d91bb55ddf37e8b95ccdc02fa369269fa61afa9d95ff2039ae1"
+    },
+    {
+      "path": "workflow/scripts/probe_multiallelic_representation.py",
+      "source_path": "workflow/scripts/probe_multiallelic_representation.py",
+      "source_mode": 420,
+      "source_bytes": 6016,
+      "source_sha256": "4fcf7e909dc030c2b3fe79c5506d2af3dc69922a11aedc98f5e36d6bf718bc81",
+      "release_bytes": 6016,
+      "release_sha256": "4fcf7e909dc030c2b3fe79c5506d2af3dc69922a11aedc98f5e36d6bf718bc81"
+    },
+    {
+      "path": "workflow/scripts/probe_panel_genotyping.py",
+      "source_path": "workflow/scripts/probe_panel_genotyping.py",
+      "source_mode": 420,
+      "source_bytes": 6706,
+      "source_sha256": "4289a322ab710b019b8a3742241c67c3e837170071b5961fb0289699d8ddfb95",
+      "release_bytes": 6706,
+      "release_sha256": "4289a322ab710b019b8a3742241c67c3e837170071b5961fb0289699d8ddfb95"
+    },
+    {
+      "path": "workflow/scripts/probe_roh_genotyping.py",
+      "source_path": "workflow/scripts/probe_roh_genotyping.py",
+      "source_mode": 420,
+      "source_bytes": 10453,
+      "source_sha256": "0089ab311929fbb8d0874585b60bf066baeae9a3c541cdf385a20a0bc21b632b",
+      "release_bytes": 10453,
+      "release_sha256": "0089ab311929fbb8d0874585b60bf066baeae9a3c541cdf385a20a0bc21b632b"
+    },
+    {
+      "path": "workflow/scripts/probe_roh_native.py",
+      "source_path": "workflow/scripts/probe_roh_native.py",
+      "source_mode": 420,
+      "source_bytes": 7022,
+      "source_sha256": "15107ed9bb18d32973ff40c93eb671538258abe7651375fa96eee61e46ae922d",
+      "release_bytes": 7022,
+      "release_sha256": "15107ed9bb18d32973ff40c93eb671538258abe7651375fa96eee61e46ae922d"
+    },
+    {
+      "path": "workflow/scripts/probe_rtg_comparator.py",
+      "source_path": "workflow/scripts/probe_rtg_comparator.py",
+      "source_mode": 420,
+      "source_bytes": 6627,
+      "source_sha256": "a047e76451866e8ebf202189e198286102c265379ec9f08d70fbc95eea50d709",
+      "release_bytes": 6627,
+      "release_sha256": "a047e76451866e8ebf202189e198286102c265379ec9f08d70fbc95eea50d709"
+    },
+    {
+      "path": "workflow/scripts/probe_structural_integration.py",
+      "source_path": "workflow/scripts/probe_structural_integration.py",
+      "source_mode": 420,
+      "source_bytes": 7052,
+      "source_sha256": "267ef7c509daf7bc3881fd495c8e0e9b4e18f9ae0e277d22f066773152429bf0",
+      "release_bytes": 7052,
+      "release_sha256": "267ef7c509daf7bc3881fd495c8e0e9b4e18f9ae0e277d22f066773152429bf0"
+    },
+    {
+      "path": "workflow/scripts/probe_structural_variants.py",
+      "source_path": "workflow/scripts/probe_structural_variants.py",
+      "source_mode": 420,
+      "source_bytes": 11751,
+      "source_sha256": "50b0b5e1bf98aae0c27c95db90c4402168bf3e0e1e0db92262f819f54eec234b",
+      "release_bytes": 11751,
+      "release_sha256": "50b0b5e1bf98aae0c27c95db90c4402168bf3e0e1e0db92262f819f54eec234b"
+    },
+    {
+      "path": "workflow/scripts/probe_sv_comparator.py",
+      "source_path": "workflow/scripts/probe_sv_comparator.py",
+      "source_mode": 420,
+      "source_bytes": 6868,
+      "source_sha256": "7ec5c505480e4d4b754a48f1c59206ad83633cfbc54d3522f9ef2d8742194194",
+      "release_bytes": 6868,
+      "release_sha256": "7ec5c505480e4d4b754a48f1c59206ad83633cfbc54d3522f9ef2d8742194194"
+    },
+    {
+      "path": "workflow/scripts/probe_sv_cram.py",
+      "source_path": "workflow/scripts/probe_sv_cram.py",
+      "source_mode": 420,
+      "source_bytes": 6924,
+      "source_sha256": "ebe18defce3b14fdac82f94ec6a3ff300e586e5f174828d46c3a02804b8962c5",
+      "release_bytes": 6924,
+      "release_sha256": "ebe18defce3b14fdac82f94ec6a3ff300e586e5f174828d46c3a02804b8962c5"
+    },
+    {
+      "path": "workflow/scripts/probe_sv_insertion.py",
+      "source_path": "workflow/scripts/probe_sv_insertion.py",
+      "source_mode": 420,
+      "source_bytes": 7915,
+      "source_sha256": "6afbd29b627eae981b289cc2cf8553c65dc5d4ed15c05b316c3755c9a9f933c9",
+      "release_bytes": 7915,
+      "release_sha256": "6afbd29b627eae981b289cc2cf8553c65dc5d4ed15c05b316c3755c9a9f933c9"
+    },
+    {
+      "path": "workflow/scripts/probe_svaba_cram.py",
+      "source_path": "workflow/scripts/probe_svaba_cram.py",
+      "source_mode": 420,
+      "source_bytes": 5698,
+      "source_sha256": "eed10aadef6c2d4343992326da1734c61b1941499ef5a39a9863032f4ca94d5a",
+      "release_bytes": 5698,
+      "release_sha256": "eed10aadef6c2d4343992326da1734c61b1941499ef5a39a9863032f4ca94d5a"
+    },
+    {
+      "path": "workflow/scripts/probe_svaba_synthetic.py",
+      "source_path": "workflow/scripts/probe_svaba_synthetic.py",
+      "source_mode": 420,
+      "source_bytes": 5584,
+      "source_sha256": "42fe2ba4e86d159172b0b60c1c6034395ddf001ae28b1b24cf0a5cee1a1210bc",
+      "release_bytes": 5584,
+      "release_sha256": "42fe2ba4e86d159172b0b60c1c6034395ddf001ae28b1b24cf0a5cee1a1210bc"
+    },
+    {
+      "path": "workflow/scripts/rare_biallelic_baseline.py",
+      "source_path": "workflow/scripts/rare_biallelic_baseline.py",
+      "source_mode": 420,
+      "source_bytes": 16914,
+      "source_sha256": "1cedb42e721ecf87882f13487c5bc59430fe90730e22ab20ac856622a435db34",
+      "release_bytes": 16914,
+      "release_sha256": "1cedb42e721ecf87882f13487c5bc59430fe90730e22ab20ac856622a435db34"
+    },
+    {
+      "path": "workflow/scripts/reassess_sv_simulation.py",
+      "source_path": "workflow/scripts/reassess_sv_simulation.py",
+      "source_mode": 420,
+      "source_bytes": 2917,
+      "source_sha256": "93ff79f14bd7ceced0789ba8553a3c54ae9fb65a435a6f64d05debbcfc6bf94c",
+      "release_bytes": 2917,
+      "release_sha256": "93ff79f14bd7ceced0789ba8553a3c54ae9fb65a435a6f64d05debbcfc6bf94c"
+    },
+    {
+      "path": "workflow/scripts/record_runtime_wheel_sources.py",
+      "source_path": "workflow/scripts/record_runtime_wheel_sources.py",
+      "source_mode": 420,
+      "source_bytes": 4313,
+      "source_sha256": "560197ecd98f9229c9cb223c815e14f09d9c1d63138f6fa01359a6b396e53b89",
+      "release_bytes": 4313,
+      "release_sha256": "560197ecd98f9229c9cb223c815e14f09d9c1d63138f6fa01359a6b396e53b89"
+    },
+    {
+      "path": "workflow/scripts/render_track2_pitch.swift",
+      "source_path": "workflow/scripts/render_track2_pitch.swift",
+      "source_mode": 420,
+      "source_bytes": 13118,
+      "source_sha256": "a64bb3807f03fdde1138b1f992104978586f995faefb0ffc1fe32c4cbc447e12",
+      "release_bytes": 13118,
+      "release_sha256": "a64bb3807f03fdde1138b1f992104978586f995faefb0ffc1fe32c4cbc447e12"
+    },
+    {
+      "path": "workflow/scripts/resume_calling.py",
+      "source_path": "workflow/scripts/resume_calling.py",
+      "source_mode": 420,
+      "source_bytes": 5325,
+      "source_sha256": "b016302aed4d0eeb888054d6cb37ff30e7c0986723c91a6eb0c52bfe4b1b5572",
+      "release_bytes": 5325,
+      "release_sha256": "b016302aed4d0eeb888054d6cb37ff30e7c0986723c91a6eb0c52bfe4b1b5572"
+    },
+    {
+      "path": "workflow/scripts/resume_reads.py",
+      "source_path": "workflow/scripts/resume_reads.py",
+      "source_mode": 420,
+      "source_bytes": 7299,
+      "source_sha256": "40b55c86a1a1a4e1012ae37a45d144a466251bc51919b667e148300eb91908ac",
+      "release_bytes": 7299,
+      "release_sha256": "40b55c86a1a1a4e1012ae37a45d144a466251bc51919b667e148300eb91908ac"
+    },
+    {
+      "path": "workflow/scripts/resume_studio.py",
+      "source_path": "workflow/scripts/resume_studio.py",
+      "source_mode": 420,
+      "source_bytes": 7293,
+      "source_sha256": "54f6b8a321436afd3684d3e002646207b479d493afeadcc5e914226617d50278",
+      "release_bytes": 7293,
+      "release_sha256": "54f6b8a321436afd3684d3e002646207b479d493afeadcc5e914226617d50278"
+    },
+    {
+      "path": "workflow/scripts/review_public_representation_losses.py",
+      "source_path": "workflow/scripts/review_public_representation_losses.py",
+      "source_mode": 420,
+      "source_bytes": 3552,
+      "source_sha256": "d3e0c99af37b35d5820b285809079142b3027cd9eb669446c571da2d6e8defbf",
+      "release_bytes": 3552,
+      "release_sha256": "d3e0c99af37b35d5820b285809079142b3027cd9eb669446c571da2d6e8defbf"
+    },
+    {
+      "path": "workflow/scripts/review_svaba_native_run.py",
+      "source_path": "workflow/scripts/review_svaba_native_run.py",
+      "source_mode": 420,
+      "source_bytes": 3137,
+      "source_sha256": "cbe62364d0254cb2a1693bc0cb8fec8a22e304ff23c6b84aa39d658356d5dc93",
+      "release_bytes": 3137,
+      "release_sha256": "cbe62364d0254cb2a1693bc0cb8fec8a22e304ff23c6b84aa39d658356d5dc93"
+    },
+    {
+      "path": "workflow/scripts/rtg_small_variant_helpers.py",
+      "source_path": "workflow/scripts/rtg_small_variant_helpers.py",
+      "source_mode": 420,
+      "source_bytes": 6199,
+      "source_sha256": "5091f56222ff3f31303e9effa10d4033b8ec14bd12026095569856eefd1906c5",
+      "release_bytes": 6199,
+      "release_sha256": "5091f56222ff3f31303e9effa10d4033b8ec14bd12026095569856eefd1906c5"
+    },
+    {
+      "path": "workflow/scripts/run_copy_number.py",
+      "source_path": "workflow/scripts/run_copy_number.py",
+      "source_mode": 420,
+      "source_bytes": 15660,
+      "source_sha256": "db13004dec5c9944f23836b0c9c73116153a51cfcb4b644973119c51290875c2",
+      "release_bytes": 15660,
+      "release_sha256": "db13004dec5c9944f23836b0c9c73116153a51cfcb4b644973119c51290875c2"
+    },
+    {
+      "path": "workflow/scripts/run_lirical.py",
+      "source_path": "workflow/scripts/run_lirical.py",
+      "source_mode": 420,
+      "source_bytes": 6862,
+      "source_sha256": "261987ab7d551a8cdcbcdf1b784536beda1a24b2fa8c9b8462ce4062836a3c2e",
+      "release_bytes": 6862,
+      "release_sha256": "261987ab7d551a8cdcbcdf1b784536beda1a24b2fa8c9b8462ce4062836a3c2e"
+    },
+    {
+      "path": "workflow/scripts/run_locked.sh",
+      "source_path": "workflow/scripts/run_locked.sh",
+      "source_mode": 493,
+      "source_bytes": 1925,
+      "source_sha256": "1b6b152ede8d1191e2ab3ca03f876e943c45d8e1360ba6e39510daab7b80a0fd",
+      "release_bytes": 1925,
+      "release_sha256": "1b6b152ede8d1191e2ab3ca03f876e943c45d8e1360ba6e39510daab7b80a0fd"
+    },
+    {
+      "path": "workflow/scripts/run_public_small_variant_pilot.py",
+      "source_path": "workflow/scripts/run_public_small_variant_pilot.py",
+      "source_mode": 420,
+      "source_bytes": 7030,
+      "source_sha256": "24ff77fcd4cfaaa4b9bd35a5197dacc05b236c2d749e4b664e98190c8e4de695",
+      "release_bytes": 7030,
+      "release_sha256": "24ff77fcd4cfaaa4b9bd35a5197dacc05b236c2d749e4b664e98190c8e4de695"
+    },
+    {
+      "path": "workflow/scripts/run_public_small_variant_sequence.py",
+      "source_path": "workflow/scripts/run_public_small_variant_sequence.py",
+      "source_mode": 420,
+      "source_bytes": 5126,
+      "source_sha256": "59e9d7acd2a95eaeea6454b17e3d71f09998ff6bbddc663d49a5a97bd73abba5",
+      "release_bytes": 5126,
+      "release_sha256": "59e9d7acd2a95eaeea6454b17e3d71f09998ff6bbddc663d49a5a97bd73abba5"
+    },
+    {
+      "path": "workflow/scripts/run_public_sv_pilot.py",
+      "source_path": "workflow/scripts/run_public_sv_pilot.py",
+      "source_mode": 420,
+      "source_bytes": 12541,
+      "source_sha256": "6c35e74538f7f96860faf5d0498704f6179fad809e49c5376e22b00a100a6afe",
+      "release_bytes": 12541,
+      "release_sha256": "6c35e74538f7f96860faf5d0498704f6179fad809e49c5376e22b00a100a6afe"
+    },
+    {
+      "path": "workflow/scripts/run_read_phasing.py",
+      "source_path": "workflow/scripts/run_read_phasing.py",
+      "source_mode": 420,
+      "source_bytes": 14456,
+      "source_sha256": "458934d30430442d9b92a0a9347dc1f36cc7d318f6431049782202cbea0159b3",
+      "release_bytes": 14456,
+      "release_sha256": "458934d30430442d9b92a0a9347dc1f36cc7d318f6431049782202cbea0159b3"
+    },
+    {
+      "path": "workflow/scripts/run_structural_variants.py",
+      "source_path": "workflow/scripts/run_structural_variants.py",
+      "source_mode": 420,
+      "source_bytes": 18280,
+      "source_sha256": "d43fbdc4c806f0e3003f6776e19a1aaa50c81a4bb067ca15d256cec0ffb0fd86",
+      "release_bytes": 18280,
+      "release_sha256": "d43fbdc4c806f0e3003f6776e19a1aaa50c81a4bb067ca15d256cec0ffb0fd86"
+    },
+    {
+      "path": "workflow/scripts/run_svaba_pilot.py",
+      "source_path": "workflow/scripts/run_svaba_pilot.py",
+      "source_mode": 420,
+      "source_bytes": 9358,
+      "source_sha256": "fb63b3844f5a5107426a07be653e808a2d437c9814fb1ca4d139f10fb033a79e",
+      "release_bytes": 9358,
+      "release_sha256": "fb63b3844f5a5107426a07be653e808a2d437c9814fb1ca4d139f10fb033a79e"
+    },
+    {
+      "path": "workflow/scripts/run_svaba_public_sequence.py",
+      "source_path": "workflow/scripts/run_svaba_public_sequence.py",
+      "source_mode": 420,
+      "source_bytes": 4837,
+      "source_sha256": "15e65ee961eb021532345e7295d531f6d1222987ca6a11b42b849ff98c89331a",
+      "release_bytes": 4837,
+      "release_sha256": "15e65ee961eb021532345e7295d531f6d1222987ca6a11b42b849ff98c89331a"
+    },
+    {
+      "path": "workflow/scripts/score_probe.py",
+      "source_path": "workflow/scripts/score_probe.py",
+      "source_mode": 493,
+      "source_bytes": 3330,
+      "source_sha256": "297ae42323100ac410298f9d3cf568f7cfd9c49e09da657a05d1e2af6a07a08c",
+      "release_bytes": 3330,
+      "release_sha256": "297ae42323100ac410298f9d3cf568f7cfd9c49e09da657a05d1e2af6a07a08c"
+    },
+    {
+      "path": "workflow/scripts/screen_secondary_findings.py",
+      "source_path": "workflow/scripts/screen_secondary_findings.py",
+      "source_mode": 420,
+      "source_bytes": 20203,
+      "source_sha256": "34b7a4bebfb48d1c460fd579d862f18ff802f9ed56c8a39a5475882bc3e1802d",
+      "release_bytes": 20203,
+      "release_sha256": "34b7a4bebfb48d1c460fd579d862f18ff802f9ed56c8a39a5475882bc3e1802d"
+    },
+    {
+      "path": "workflow/scripts/segmented_roh.py",
+      "source_path": "workflow/scripts/segmented_roh.py",
+      "source_mode": 420,
+      "source_bytes": 9165,
+      "source_sha256": "09b9b4d450ff49ae736d60b60695502f303227ba9fc0f21c20bbc66c7a986a0e",
+      "release_bytes": 9165,
+      "release_sha256": "09b9b4d450ff49ae736d60b60695502f303227ba9fc0f21c20bbc66c7a986a0e"
+    },
+    {
+      "path": "workflow/scripts/simulate_sv_reads.py",
+      "source_path": "workflow/scripts/simulate_sv_reads.py",
+      "source_mode": 420,
+      "source_bytes": 7829,
+      "source_sha256": "9e9e2e69a8de3fc4b3a97510bcdffa5236739ce7a17f3d37e4fa0764951d1793",
+      "release_bytes": 7829,
+      "release_sha256": "9e9e2e69a8de3fc4b3a97510bcdffa5236739ce7a17f3d37e4fa0764951d1793"
+    },
+    {
+      "path": "workflow/scripts/slice_candidate_reads.py",
+      "source_path": "workflow/scripts/slice_candidate_reads.py",
+      "source_mode": 420,
+      "source_bytes": 4404,
+      "source_sha256": "88d63811043764815bf7bb07e933555cca91814787d7de6b6caf2f795a18c74e",
+      "release_bytes": 4404,
+      "release_sha256": "88d63811043764815bf7bb07e933555cca91814787d7de6b6caf2f795a18c74e"
+    },
+    {
+      "path": "workflow/scripts/summarize_baseline.py",
+      "source_path": "workflow/scripts/summarize_baseline.py",
+      "source_mode": 420,
+      "source_bytes": 5812,
+      "source_sha256": "321284ec0b68438fafbeba5dce061ec1e0335f742c1a07771b826ce19f304188",
+      "release_bytes": 5812,
+      "release_sha256": "321284ec0b68438fafbeba5dce061ec1e0335f742c1a07771b826ce19f304188"
+    },
+    {
+      "path": "workflow/scripts/summarize_baseline_reads.py",
+      "source_path": "workflow/scripts/summarize_baseline_reads.py",
+      "source_mode": 420,
+      "source_bytes": 5719,
+      "source_sha256": "62a8824c761748d7ff482ae7bff8c5544f2311873074943f9f177d9be646f202",
+      "release_bytes": 5719,
+      "release_sha256": "62a8824c761748d7ff482ae7bff8c5544f2311873074943f9f177d9be646f202"
+    },
+    {
+      "path": "workflow/scripts/summarize_lirical.py",
+      "source_path": "workflow/scripts/summarize_lirical.py",
+      "source_mode": 420,
+      "source_bytes": 10448,
+      "source_sha256": "d572294f1a0c7b89b431919551ae632f598b6cc324d6c7dd1dd759ee95e5d0e6",
+      "release_bytes": 10448,
+      "release_sha256": "d572294f1a0c7b89b431919551ae632f598b6cc324d6c7dd1dd759ee95e5d0e6"
+    },
+    {
+      "path": "workflow/scripts/summarize_public_representation.py",
+      "source_path": "workflow/scripts/summarize_public_representation.py",
+      "source_mode": 420,
+      "source_bytes": 10186,
+      "source_sha256": "62f2a4874ed412d02edfa5c9de1cae84157b1600d5ea2d191e393d4870754bb0",
+      "release_bytes": 10186,
+      "release_sha256": "62f2a4874ed412d02edfa5c9de1cae84157b1600d5ea2d191e393d4870754bb0"
+    },
+    {
+      "path": "workflow/scripts/summarize_secondary_findings.py",
+      "source_path": "workflow/scripts/summarize_secondary_findings.py",
+      "source_mode": 420,
+      "source_bytes": 4764,
+      "source_sha256": "b287150d9bd0e3e0f69bcdc53664a7c65dab8129499a1de5e80d23569b54f431",
+      "release_bytes": 4764,
+      "release_sha256": "b287150d9bd0e3e0f69bcdc53664a7c65dab8129499a1de5e80d23569b54f431"
+    },
+    {
+      "path": "workflow/scripts/summarize_targeted_snvs.py",
+      "source_path": "workflow/scripts/summarize_targeted_snvs.py",
+      "source_mode": 420,
+      "source_bytes": 3686,
+      "source_sha256": "f191636c678407df079f74455cfcc598fcaea5d72c46395e47c1d0a5cb4f2b4c",
+      "release_bytes": 3686,
+      "release_sha256": "f191636c678407df079f74455cfcc598fcaea5d72c46395e47c1d0a5cb4f2b4c"
+    },
+    {
+      "path": "workflow/scripts/verify_python_rebuild.py",
+      "source_path": "workflow/scripts/verify_python_rebuild.py",
+      "source_mode": 420,
+      "source_bytes": 8685,
+      "source_sha256": "148661885ef11261d92da154558a5a47d90b5ba40d46c59cc43f107c2128217d",
+      "release_bytes": 8685,
+      "release_sha256": "148661885ef11261d92da154558a5a47d90b5ba40d46c59cc43f107c2128217d"
+    },
+    {
+      "path": "workflow/scripts/verify_runtime_rebuild.py",
+      "source_path": "workflow/scripts/verify_runtime_rebuild.py",
+      "source_mode": 420,
+      "source_bytes": 7558,
+      "source_sha256": "80a168598980691b68a3fa4b4df949f6a7c44ff002bc453818e3eea5d34b5207",
+      "release_bytes": 7558,
+      "release_sha256": "80a168598980691b68a3fa4b4df949f6a7c44ff002bc453818e3eea5d34b5207"
+    },
+    {
+      "path": "workflow/scripts/with_lock.py",
+      "source_path": "workflow/scripts/with_lock.py",
+      "source_mode": 420,
+      "source_bytes": 695,
+      "source_sha256": "619b68086eeb5cdb86c6b812e769bf1d366cc08075a4bd6fc3d967b30c0b2a21",
+      "release_bytes": 695,
+      "release_sha256": "619b68086eeb5cdb86c6b812e769bf1d366cc08075a4bd6fc3d967b30c0b2a21"
+    },
+    {
+      "path": "workflow/snapshots/baseline_transcript_sensitivity-before-biotype-20260919.py",
+      "source_path": "workflow/snapshots/baseline_transcript_sensitivity-before-biotype-20260919.py",
+      "source_mode": 420,
+      "source_bytes": 11871,
+      "source_sha256": "c08edf07016be7f892df19f8422770c45bb4c96fdb6fe304527848516aeebf5e",
+      "release_bytes": 11871,
+      "release_sha256": "c08edf07016be7f892df19f8422770c45bb4c96fdb6fe304527848516aeebf5e"
+    },
+    {
+      "path": "workflow/snapshots/compare_svaba_public-before-allele-identity-20260919.py",
+      "source_path": "workflow/snapshots/compare_svaba_public-before-allele-identity-20260919.py",
+      "source_mode": 420,
+      "source_bytes": 7817,
+      "source_sha256": "ba9ec45e436938acf376a90c27d70424569cedccf3bcd67d570e939574befb89",
+      "release_bytes": 7817,
+      "release_sha256": "ba9ec45e436938acf376a90c27d70424569cedccf3bcd67d570e939574befb89"
+    },
+    {
+      "path": "workflow/snapshots/convert_svaba_pilot-e34978cd-20260919.py",
+      "source_path": "workflow/snapshots/convert_svaba_pilot-e34978cd-20260919.py",
+      "source_mode": 420,
+      "source_bytes": 13275,
+      "source_sha256": "e34978cd72f504f9e4db1734eb2f2b432ecbef9650c7305b86b3f66f64f6f343",
+      "release_bytes": 13275,
+      "release_sha256": "e34978cd72f504f9e4db1734eb2f2b432ecbef9650c7305b86b3f66f64f6f343"
+    },
+    {
+      "path": "workflow/snapshots/convert_svaba_pilot-fab94306-20260919.py",
+      "source_path": "workflow/snapshots/convert_svaba_pilot-fab94306-20260919.py",
+      "source_mode": 420,
+      "source_bytes": 12238,
+      "source_sha256": "fab94306ba33e4f906ca1360344a8ecee8385b21b370e50bd03760223a2f3180",
+      "release_bytes": 12238,
+      "release_sha256": "fab94306ba33e4f906ca1360344a8ecee8385b21b370e50bd03760223a2f3180"
+    },
+    {
+      "path": "workflow/snapshots/prepare_public_small_variant_benchmark-before-IUPAC-4623a372-20260919.py",
+      "source_path": "workflow/snapshots/prepare_public_small_variant_benchmark-before-IUPAC-4623a372-20260919.py",
+      "source_mode": 420,
+      "source_bytes": 7167,
+      "source_sha256": "4623a37225ee6dfce6b9f218e9c9191f0975ce460301381baf6ab3e9d3887c73",
+      "release_bytes": 7167,
+      "release_sha256": "4623a37225ee6dfce6b9f218e9c9191f0975ce460301381baf6ab3e9d3887c73"
+    },
+    {
+      "path": "workflow/snapshots/render_track2_pitch-before-sample-count-21f8ddb6-20260919.swift",
+      "source_path": "workflow/snapshots/render_track2_pitch-before-sample-count-21f8ddb6-20260919.swift",
+      "source_mode": 420,
+      "source_bytes": 12833,
+      "source_sha256": "21f8ddb6a5a39832c7d5737953ae3451a62de2a6ff6f7504adc645b7d6c08f14",
+      "release_bytes": 12833,
+      "release_sha256": "21f8ddb6a5a39832c7d5737953ae3451a62de2a6ff6f7504adc645b7d6c08f14"
+    },
+    {
+      "path": "workflow/snapshots/run_lirical-8fdd07de6ed8e2e81837fe053b79ecf2f769078b36437782af08e4de9ee1fc2c.py",
+      "source_path": "workflow/snapshots/run_lirical-8fdd07de6ed8e2e81837fe053b79ecf2f769078b36437782af08e4de9ee1fc2c.py",
+      "source_mode": 420,
+      "source_bytes": 5656,
+      "source_sha256": "8fdd07de6ed8e2e81837fe053b79ecf2f769078b36437782af08e4de9ee1fc2c",
+      "release_bytes": 5656,
+      "release_sha256": "8fdd07de6ed8e2e81837fe053b79ecf2f769078b36437782af08e4de9ee1fc2c"
+    },
+    {
+      "path": "workflow/snapshots/run_lirical-c770d5f2e70e1aa06216d5e78f67d8ca912e456fce0361ea8b0d136de79a4a61.py",
+      "source_path": "workflow/snapshots/run_lirical-c770d5f2e70e1aa06216d5e78f67d8ca912e456fce0361ea8b0d136de79a4a61.py",
+      "source_mode": 420,
+      "source_bytes": 6670,
+      "source_sha256": "c770d5f2e70e1aa06216d5e78f67d8ca912e456fce0361ea8b0d136de79a4a61",
+      "release_bytes": 6670,
+      "release_sha256": "c770d5f2e70e1aa06216d5e78f67d8ca912e456fce0361ea8b0d136de79a4a61"
+    },
+    {
+      "path": "workflow/snapshots/run_svaba_pilot-before-virtual-boundary-20260919.py",
+      "source_path": "workflow/snapshots/run_svaba_pilot-before-virtual-boundary-20260919.py",
+      "source_mode": 420,
+      "source_bytes": 9271,
+      "source_sha256": "621aed4e14e0c314b36d10d1c5792aec8b19399f488b2b1d81819b48d0ff564a",
+      "release_bytes": 9271,
+      "release_sha256": "621aed4e14e0c314b36d10d1c5792aec8b19399f488b2b1d81819b48d0ff564a"
+    },
+    {
+      "path": "workflow/snapshots/screen_secondary_findings-before-conflict-counts-20260919.py",
+      "source_path": "workflow/snapshots/screen_secondary_findings-before-conflict-counts-20260919.py",
+      "source_mode": 420,
+      "source_bytes": 19813,
+      "source_sha256": "31871b9f4125144fd9fec8add3f7f576c01bad56b27954c50415aa391985d538",
+      "release_bytes": 19813,
+      "release_sha256": "31871b9f4125144fd9fec8add3f7f576c01bad56b27954c50415aa391985d538"
+    },
+    {
+      "path": "workflow/snapshots/screen_secondary_findings-before-review-label-20260919.py",
+      "source_path": "workflow/snapshots/screen_secondary_findings-before-review-label-20260919.py",
+      "source_mode": 420,
+      "source_bytes": 19686,
+      "source_sha256": "e263a7020233b17f8d0fc6304384d4a7fa05d25435e302a4e287dfb732c4c149",
+      "release_bytes": 19686,
+      "release_sha256": "e263a7020233b17f8d0fc6304384d4a7fa05d25435e302a4e287dfb732c4c149"
+    },
+    {
+      "path": "workflow/snapshots/svaba-pilot-initial-20260919.json",
+      "source_path": "workflow/snapshots/svaba-pilot-initial-20260919.json",
+      "source_mode": 420,
+      "source_bytes": 1710,
+      "source_sha256": "fa6898e4cae54c4c4ad4b4b87c68fa98df0e98dc953197fcc7ec2bc05598fb5e",
+      "release_bytes": 1710,
+      "release_sha256": "fa6898e4cae54c4c4ad4b4b87c68fa98df0e98dc953197fcc7ec2bc05598fb5e"
+    },
+    {
+      "path": "workflow/source-snapshots/prepare_public_multiallelic_sensitivity-pre-serialization-fix-20260919.py",
+      "source_path": "workflow/source-snapshots/prepare_public_multiallelic_sensitivity-pre-serialization-fix-20260919.py",
+      "source_mode": 420,
+      "source_bytes": 7829,
+      "source_sha256": "7b8388e5a7acf8aa9a20714e9f53e41570e1bb116c92175effd5834979f3c096",
+      "release_bytes": 7829,
+      "release_sha256": "7b8388e5a7acf8aa9a20714e9f53e41570e1bb116c92175effd5834979f3c096"
+    },
+    {
+      "path": "workflow/tests/test_align_native.py",
+      "source_path": "workflow/tests/test_align_native.py",
+      "source_mode": 420,
+      "source_bytes": 3724,
+      "source_sha256": "bf6ada3eb6ef9e587da1faa9408f266e04124a556077e69c4841e85c28ed00a9",
+      "release_bytes": 3724,
+      "release_sha256": "bf6ada3eb6ef9e587da1faa9408f266e04124a556077e69c4841e85c28ed00a9"
+    },
+    {
+      "path": "workflow/tests/test_baseline_reads.py",
+      "source_path": "workflow/tests/test_baseline_reads.py",
+      "source_mode": 420,
+      "source_bytes": 4635,
+      "source_sha256": "26f5a8a3ba3bc6a1123ef68e4758bf1bd1a106854e7dcbaa76ceb75d51938f67",
+      "release_bytes": 4635,
+      "release_sha256": "26f5a8a3ba3bc6a1123ef68e4758bf1bd1a106854e7dcbaa76ceb75d51938f67"
+    },
+    {
+      "path": "workflow/tests/test_baseline_transcript_sensitivity.py",
+      "source_path": "workflow/tests/test_baseline_transcript_sensitivity.py",
+      "source_mode": 420,
+      "source_bytes": 3663,
+      "source_sha256": "cdfc73a20c4b669f5a8b128318c5336ff0ac4c7a66206c4716237652be9d4b16",
+      "release_bytes": 3663,
+      "release_sha256": "cdfc73a20c4b669f5a8b128318c5336ff0ac4c7a66206c4716237652be9d4b16"
+    },
+    {
+      "path": "workflow/tests/test_bub1b_isoforms.py",
+      "source_path": "workflow/tests/test_bub1b_isoforms.py",
+      "source_mode": 420,
+      "source_bytes": 2445,
+      "source_sha256": "87fa07878e7cefb045ff224d22b6820fcf29da16233b890128056f031cd30f04",
+      "release_bytes": 2445,
+      "release_sha256": "87fa07878e7cefb045ff224d22b6820fcf29da16233b890128056f031cd30f04"
+    },
+    {
+      "path": "workflow/tests/test_build_submission.py",
+      "source_path": "workflow/tests/test_build_submission.py",
+      "source_mode": 420,
+      "source_bytes": 5072,
+      "source_sha256": "456d9cf08e6cf66d31c43b20a93f942dcb000c79633d6a1321e0d741d5351db9",
+      "release_bytes": 5072,
+      "release_sha256": "456d9cf08e6cf66d31c43b20a93f942dcb000c79633d6a1321e0d741d5351db9"
+    },
+    {
+      "path": "workflow/tests/test_call_native.py",
+      "source_path": "workflow/tests/test_call_native.py",
+      "source_mode": 420,
+      "source_bytes": 5586,
+      "source_sha256": "9e2c127159f8d67fa28590287637ccdfa06f481dd85359699ee5847b94ba4073",
+      "release_bytes": 5586,
+      "release_sha256": "9e2c127159f8d67fa28590287637ccdfa06f481dd85359699ee5847b94ba4073"
+    },
+    {
+      "path": "workflow/tests/test_calling_dependency.py",
+      "source_path": "workflow/tests/test_calling_dependency.py",
+      "source_mode": 420,
+      "source_bytes": 1095,
+      "source_sha256": "d05538a0235b7fba915113a0d31b3a3a7701d5ce1fa36c53248865f7ce75297e",
+      "release_bytes": 1095,
+      "release_sha256": "d05538a0235b7fba915113a0d31b3a3a7701d5ce1fa36c53248865f7ce75297e"
+    },
+    {
+      "path": "workflow/tests/test_candidate_phase.py",
+      "source_path": "workflow/tests/test_candidate_phase.py",
+      "source_mode": 420,
+      "source_bytes": 2752,
+      "source_sha256": "6d71752805692be6ed802ca8644546e3a9b50abd26e71b5136e59efcf3933a5f",
+      "release_bytes": 2752,
+      "release_sha256": "6d71752805692be6ed802ca8644546e3a9b50abd26e71b5136e59efcf3933a5f"
+    },
+    {
+      "path": "workflow/tests/test_candidate_reads.py",
+      "source_path": "workflow/tests/test_candidate_reads.py",
+      "source_mode": 420,
+      "source_bytes": 3077,
+      "source_sha256": "97c41dc9d72ad0718d2af144bf9187de78ff9af2e06ffd8c1fe6892dc418e136",
+      "release_bytes": 3077,
+      "release_sha256": "97c41dc9d72ad0718d2af144bf9187de78ff9af2e06ffd8c1fe6892dc418e136"
+    },
+    {
+      "path": "workflow/tests/test_copy_number.py",
+      "source_path": "workflow/tests/test_copy_number.py",
+      "source_mode": 420,
+      "source_bytes": 12261,
+      "source_sha256": "afcfaf3124fa51695a75c49354fc2b3bcd9b6ab224f930711c418b12fdef63b2",
+      "release_bytes": 12261,
+      "release_sha256": "afcfaf3124fa51695a75c49354fc2b3bcd9b6ab224f930711c418b12fdef63b2"
+    },
+    {
+      "path": "workflow/tests/test_fetch_resource.py",
+      "source_path": "workflow/tests/test_fetch_resource.py",
+      "source_mode": 420,
+      "source_bytes": 6082,
+      "source_sha256": "c9dcf7995705fb8e3c78e11cc90ea23a7fe22b67de420e7c9f00983725345be8",
+      "release_bytes": 6082,
+      "release_sha256": "c9dcf7995705fb8e3c78e11cc90ea23a7fe22b67de420e7c9f00983725345be8"
+    },
+    {
+      "path": "workflow/tests/test_lirical_hgnc.py",
+      "source_path": "workflow/tests/test_lirical_hgnc.py",
+      "source_mode": 420,
+      "source_bytes": 3050,
+      "source_sha256": "da74b905f10a328e7cadad052d9efd38546ed0ad5e548d11cf204a97b655b1e8",
+      "release_bytes": 3050,
+      "release_sha256": "da74b905f10a328e7cadad052d9efd38546ed0ad5e548d11cf204a97b655b1e8"
+    },
+    {
+      "path": "workflow/tests/test_multiallelic_metadata.py",
+      "source_path": "workflow/tests/test_multiallelic_metadata.py",
+      "source_mode": 420,
+      "source_bytes": 2385,
+      "source_sha256": "994e0646ab084de058fd3584bea8854ae83b647532ad1ab9000d66d49ea612c0",
+      "release_bytes": 2385,
+      "release_sha256": "994e0646ab084de058fd3584bea8854ae83b647532ad1ab9000d66d49ea612c0"
+    },
+    {
+      "path": "workflow/tests/test_paired_snv_phase.py",
+      "source_path": "workflow/tests/test_paired_snv_phase.py",
+      "source_mode": 420,
+      "source_bytes": 1847,
+      "source_sha256": "4f2e2bf261153cb03613ac892ee8b74099fc8f59149ada1e0218b49cf0e1dbb9",
+      "release_bytes": 1847,
+      "release_sha256": "4f2e2bf261153cb03613ac892ee8b74099fc8f59149ada1e0218b49cf0e1dbb9"
+    },
+    {
+      "path": "workflow/tests/test_phase_pair_experiment.py",
+      "source_path": "workflow/tests/test_phase_pair_experiment.py",
+      "source_mode": 420,
+      "source_bytes": 1058,
+      "source_sha256": "3a87759a315cd25af317ae40553444aee2079097065de5067ff3046bdb5aa836",
+      "release_bytes": 1058,
+      "release_sha256": "3a87759a315cd25af317ae40553444aee2079097065de5067ff3046bdb5aa836"
+    },
+    {
+      "path": "workflow/tests/test_prioritize.py",
+      "source_path": "workflow/tests/test_prioritize.py",
+      "source_mode": 420,
+      "source_bytes": 5401,
+      "source_sha256": "4d0d1d70a4448f9e80952120386bdbea2a2c9acacbc85617d955a41837be0c26",
+      "release_bytes": 5401,
+      "release_sha256": "4d0d1d70a4448f9e80952120386bdbea2a2c9acacbc85617d955a41837be0c26"
+    },
+    {
+      "path": "workflow/tests/test_public_scope_geometry.py",
+      "source_path": "workflow/tests/test_public_scope_geometry.py",
+      "source_mode": 420,
+      "source_bytes": 1308,
+      "source_sha256": "72dd03f4071bd2eac30f2fe79425db18a6e68f665f32da591f88c6257c7835eb",
+      "release_bytes": 1308,
+      "release_sha256": "72dd03f4071bd2eac30f2fe79425db18a6e68f665f32da591f88c6257c7835eb"
+    },
+    {
+      "path": "workflow/tests/test_public_small_variant_audit.py",
+      "source_path": "workflow/tests/test_public_small_variant_audit.py",
+      "source_mode": 420,
+      "source_bytes": 5650,
+      "source_sha256": "98d9e8f010c226338171ae2cfdb183fe4886ba5c283de4473a46e4a927b8a867",
+      "release_bytes": 5650,
+      "release_sha256": "98d9e8f010c226338171ae2cfdb183fe4886ba5c283de4473a46e4a927b8a867"
+    },
+    {
+      "path": "workflow/tests/test_ranked_phase.py",
+      "source_path": "workflow/tests/test_ranked_phase.py",
+      "source_mode": 420,
+      "source_bytes": 1493,
+      "source_sha256": "abb79e13567af246cfacb7473c11a56e96b7a9ffe5fb49bbf88a7ce4d705fd63",
+      "release_bytes": 1493,
+      "release_sha256": "abb79e13567af246cfacb7473c11a56e96b7a9ffe5fb49bbf88a7ce4d705fd63"
+    },
+    {
+      "path": "workflow/tests/test_rare_biallelic_baseline.py",
+      "source_path": "workflow/tests/test_rare_biallelic_baseline.py",
+      "source_mode": 420,
+      "source_bytes": 5258,
+      "source_sha256": "61299fc4eeb6efa87a0c94bb2d904ad013b4c99bc0fb22d14c6835e3b54aa4b4",
+      "release_bytes": 5258,
+      "release_sha256": "61299fc4eeb6efa87a0c94bb2d904ad013b4c99bc0fb22d14c6835e3b54aa4b4"
+    },
+    {
+      "path": "workflow/tests/test_read_phasing.py",
+      "source_path": "workflow/tests/test_read_phasing.py",
+      "source_mode": 420,
+      "source_bytes": 9320,
+      "source_sha256": "915cfb7c4969f550e5306c151252c63816fe405c75810a1b921d285ea7eab20e",
+      "release_bytes": 9320,
+      "release_sha256": "915cfb7c4969f550e5306c151252c63816fe405c75810a1b921d285ea7eab20e"
+    },
+    {
+      "path": "workflow/tests/test_roh_genotyping.py",
+      "source_path": "workflow/tests/test_roh_genotyping.py",
+      "source_mode": 420,
+      "source_bytes": 9548,
+      "source_sha256": "ab9c739347f6805bac20657ece54f2e082bd7d727297ed652a61cc428d1b7ec3",
+      "release_bytes": 9548,
+      "release_sha256": "ab9c739347f6805bac20657ece54f2e082bd7d727297ed652a61cc428d1b7ec3"
+    },
+    {
+      "path": "workflow/tests/test_roh_population_panel.py",
+      "source_path": "workflow/tests/test_roh_population_panel.py",
+      "source_mode": 420,
+      "source_bytes": 4976,
+      "source_sha256": "970beca14b5b07cc4c34bd701277874062889481c780256a01f3e5a75c4cd8ab",
+      "release_bytes": 4976,
+      "release_sha256": "970beca14b5b07cc4c34bd701277874062889481c780256a01f3e5a75c4cd8ab"
+    },
+    {
+      "path": "workflow/tests/test_secondary_findings.py",
+      "source_path": "workflow/tests/test_secondary_findings.py",
+      "source_mode": 420,
+      "source_bytes": 9560,
+      "source_sha256": "d9cf6a7f897ad7c07f9811cf94260b10c7605c98fe81c28310d54cd0edf43e70",
+      "release_bytes": 9560,
+      "release_sha256": "d9cf6a7f897ad7c07f9811cf94260b10c7605c98fe81c28310d54cd0edf43e70"
+    },
+    {
+      "path": "workflow/tests/test_segmented_roh.py",
+      "source_path": "workflow/tests/test_segmented_roh.py",
+      "source_mode": 420,
+      "source_bytes": 3519,
+      "source_sha256": "9695fd916de340ad3311b9437bcfe3243141e7a23f67e6bcf33700fa888a7f19",
+      "release_bytes": 3519,
+      "release_sha256": "9695fd916de340ad3311b9437bcfe3243141e7a23f67e6bcf33700fa888a7f19"
+    },
+    {
+      "path": "workflow/tests/test_structural_integration.py",
+      "source_path": "workflow/tests/test_structural_integration.py",
+      "source_mode": 420,
+      "source_bytes": 11309,
+      "source_sha256": "a7600906f0ac5356725ccaaeb734c1cb224608120b67ae210cb4f7ad516dc669",
+      "release_bytes": 11309,
+      "release_sha256": "a7600906f0ac5356725ccaaeb734c1cb224608120b67ae210cb4f7ad516dc669"
+    },
+    {
+      "path": "workflow/tests/test_summarize_lirical.py",
+      "source_path": "workflow/tests/test_summarize_lirical.py",
+      "source_mode": 420,
+      "source_bytes": 3992,
+      "source_sha256": "ed5215e33d3a77d276a48034901ee631b37dab3b64b0d186225b2e012df5a63f",
+      "release_bytes": 3992,
+      "release_sha256": "ed5215e33d3a77d276a48034901ee631b37dab3b64b0d186225b2e012df5a63f"
+    },
+    {
+      "path": "workflow/tests/test_sv_comparison.py",
+      "source_path": "workflow/tests/test_sv_comparison.py",
+      "source_mode": 420,
+      "source_bytes": 6322,
+      "source_sha256": "cba3a5ada03c680752b4c7bac20660b376e5f640d3d1750de34c3744f0423565",
+      "release_bytes": 6322,
+      "release_sha256": "cba3a5ada03c680752b4c7bac20660b376e5f640d3d1750de34c3744f0423565"
+    },
+    {
+      "path": "workflow/tests/test_svaba_conversion.py",
+      "source_path": "workflow/tests/test_svaba_conversion.py",
+      "source_mode": 420,
+      "source_bytes": 8985,
+      "source_sha256": "05cdaafdfdd72a4e46f2bc5571cd91327e48f16a9153c858f9b26eb58351f2df",
+      "release_bytes": 8985,
+      "release_sha256": "05cdaafdfdd72a4e46f2bc5571cd91327e48f16a9153c858f9b26eb58351f2df"
+    },
+    {
+      "path": "workflow/tests/test_svaba_truth_identity.py",
+      "source_path": "workflow/tests/test_svaba_truth_identity.py",
+      "source_mode": 420,
+      "source_bytes": 1618,
+      "source_sha256": "fad4a69fa1b7ec1383fb325bf07ca0053198666ea0a6907505cc5ff95bc5af11",
+      "release_bytes": 1618,
+      "release_sha256": "fad4a69fa1b7ec1383fb325bf07ca0053198666ea0a6907505cc5ff95bc5af11"
+    },
+    {
+      "path": "workflow/tests/test_targeted_snvs.py",
+      "source_path": "workflow/tests/test_targeted_snvs.py",
+      "source_mode": 420,
+      "source_bytes": 12866,
+      "source_sha256": "fe3aaf8f41c9713aff12eb6258d2d6c7c1e9a3ef50f75b763a5822d0c46e7203",
+      "release_bytes": 12866,
+      "release_sha256": "fe3aaf8f41c9713aff12eb6258d2d6c7c1e9a3ef50f75b763a5822d0c46e7203"
+    },
+    {
+      "path": "workflow/tests/test_vendor_audit.py",
+      "source_path": "workflow/tests/test_vendor_audit.py",
+      "source_mode": 420,
+      "source_bytes": 2158,
+      "source_sha256": "5ae123190d03438a41b8af48b8a2dc40fea183065a48ad8541f65349374385ef",
+      "release_bytes": 2158,
+      "release_sha256": "5ae123190d03438a41b8af48b8a2dc40fea183065a48ad8541f65349374385ef"
+    },
+    {
+      "path": "workflow/tests/test_workflow_lock.py",
+      "source_path": "workflow/tests/test_workflow_lock.py",
+      "source_mode": 420,
+      "source_bytes": 2139,
+      "source_sha256": "54ce1865db01ed816a73ad29a73a7c864ecf920b1e9475aaaa596d36405d4b34",
+      "release_bytes": 2139,
+      "release_sha256": "54ce1865db01ed816a73ad29a73a7c864ecf920b1e9475aaaa596d36405d4b34"
+    }
+  ],
+  "file_count": 200,
+  "total_release_bytes": 1785275,
+  "transformations": [
+    {
+      "kind": "comment_only_acquisition_metadata_replacement",
+      "non_comment_lines_identical": true,
+      "source_comment_block_sha256": "60a2925f98af1c8fd6d1dccd69bda2adab7dcba706d09ee69f104c4d3a7f8bef",
+      "path": "workflow/scripts/01_align.sh"
+    }
+  ],
+  "release_pattern_findings": [],
+  "limits": [
+    "Pattern checks are not a privacy certification; this explicit scope was selected after source/history review.",
+    "Named target/HPO configurations are included; patient-derived output tables, internal history and source data are absent.",
+    "Exact wheel artifacts, standalone binaries and reference/genomic input files are separately required.",
+    "A source snapshot is not completion of the patient analysis, final submissions or public release."
+  ]
+}

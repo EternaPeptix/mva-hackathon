@@ -1,0 +1,571 @@
+{
+  "completed_at": "2026-09-20T00:11:08.552604+00:00",
+  "elapsed_seconds": 34.319238249910995,
+  "all_passed": true,
+  "cases": [
+    {
+      "name": "exact",
+      "expected": {
+        "TP-base": 2,
+        "TP-comp": 2,
+        "FN": 0,
+        "FP": 0
+      },
+      "passed": true,
+      "bench": {
+        "TP-base": 2,
+        "TP-comp": 2,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "base cnt": 2,
+        "comp cnt": 2,
+        "TP-comp_TP-gt": 2,
+        "TP-comp_FP-gt": 0,
+        "TP-base_TP-gt": 2,
+        "TP-base_FP-gt": 0,
+        "gt_concordance": 1.0,
+        "gt_matrix": {
+          "(1, 0)": {
+            "(1, 0)": 2
+          }
+        }
+      },
+      "refined": {
+        "TP-base": 2,
+        "TP-comp": 2,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "base cnt": 2,
+        "comp cnt": 2
+      },
+      "refinement_status": "no_candidate_regions; original_counts_preserved",
+      "commands": [
+        {
+          "command": [
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/rebuild-v1/tools/truvari-5.5.0/bin/truvari",
+            "bench",
+            "-b",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/base.vcf.gz",
+            "-c",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/exact.vcf.gz",
+            "-f",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/control.fa",
+            "--includebed",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/regions.bed",
+            "-o",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/exact",
+            "--pick",
+            "ac",
+            "--passonly",
+            "--no-ref",
+            "a",
+            "-r",
+            "2000",
+            "-C",
+            "5000",
+            "-s",
+            "50",
+            "-S",
+            "30",
+            "--sizemax",
+            "50000",
+            "-p",
+            "0.7",
+            "-P",
+            "0.7",
+            "-O",
+            "0",
+            "--dup-to-ins",
+            "--max-resolve",
+            "50000",
+            "--write-resolved"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 15.081059125019237,
+          "log": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/exact.bench.log",
+            "bytes": 3164,
+            "mtime_ns": 1789863049274854545,
+            "sha256": "4eb88b9e8f86f9b48eea5f1a0e99fb9c979f70b22468fd3fa052fa025e142171"
+          }
+        },
+        {
+          "command": [
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/rebuild-v1/tools/truvari-5.5.0/bin/truvari",
+            "refine",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/exact",
+            "--use-original-vcfs",
+            "--align",
+            "mafft",
+            "--threads",
+            "2",
+            "--mafft-params",
+            "--auto --thread 1"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 3.724688583984971,
+          "log": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/exact.refine.log",
+            "bytes": 1543,
+            "mtime_ns": 1789863052997868770,
+            "sha256": "5135a4fb232ff09171402fb639e3e5c920fa5c17aa798c32beb488e3a87a2e87"
+          }
+        }
+      ]
+    },
+    {
+      "name": "empty",
+      "expected": {
+        "TP-base": 0,
+        "TP-comp": 0,
+        "FN": 2,
+        "FP": 0
+      },
+      "passed": true,
+      "bench": {
+        "TP-base": 0,
+        "TP-comp": 0,
+        "FP": 0,
+        "FN": 2,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "base cnt": 2,
+        "comp cnt": 0,
+        "TP-comp_TP-gt": 0,
+        "TP-comp_FP-gt": 0,
+        "TP-base_TP-gt": 0,
+        "TP-base_FP-gt": 0,
+        "gt_concordance": 0,
+        "gt_matrix": {}
+      },
+      "refined": null,
+      "refinement_status": "not_requested",
+      "commands": [
+        {
+          "command": [
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/rebuild-v1/tools/truvari-5.5.0/bin/truvari",
+            "bench",
+            "-b",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/base.vcf.gz",
+            "-c",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/empty.vcf.gz",
+            "-f",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/control.fa",
+            "--includebed",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/regions.bed",
+            "-o",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/empty",
+            "--pick",
+            "ac",
+            "--passonly",
+            "--no-ref",
+            "a",
+            "-r",
+            "2000",
+            "-C",
+            "5000",
+            "-s",
+            "50",
+            "-S",
+            "30",
+            "--sizemax",
+            "50000",
+            "-p",
+            "0.7",
+            "-P",
+            "0.7",
+            "-O",
+            "0",
+            "--dup-to-ins",
+            "--max-resolve",
+            "50000",
+            "--write-resolved"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 1.273673125077039,
+          "log": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/empty.bench.log",
+            "bytes": 3151,
+            "mtime_ns": 1789863054280092026,
+            "sha256": "4db6c01e7b6ea6d1f4e8d69b183cc74c6daf481219535b529fa0c0b75c0fa423"
+          }
+        }
+      ]
+    },
+    {
+      "name": "wrong_locus",
+      "expected": {
+        "TP-base": 0,
+        "TP-comp": 0,
+        "FN": 2,
+        "FP": 1
+      },
+      "passed": true,
+      "bench": {
+        "TP-base": 0,
+        "TP-comp": 0,
+        "FP": 1,
+        "FN": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": null,
+        "base cnt": 2,
+        "comp cnt": 1,
+        "TP-comp_TP-gt": 0,
+        "TP-comp_FP-gt": 0,
+        "TP-base_TP-gt": 0,
+        "TP-base_FP-gt": 0,
+        "gt_concordance": 0,
+        "gt_matrix": {}
+      },
+      "refined": null,
+      "refinement_status": "not_requested",
+      "commands": [
+        {
+          "command": [
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/rebuild-v1/tools/truvari-5.5.0/bin/truvari",
+            "bench",
+            "-b",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/base.vcf.gz",
+            "-c",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/wrong_locus.vcf.gz",
+            "-f",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/control.fa",
+            "--includebed",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/regions.bed",
+            "-o",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/wrong_locus",
+            "--pick",
+            "ac",
+            "--passonly",
+            "--no-ref",
+            "a",
+            "-r",
+            "2000",
+            "-C",
+            "5000",
+            "-s",
+            "50",
+            "-S",
+            "30",
+            "--sizemax",
+            "50000",
+            "-p",
+            "0.7",
+            "-P",
+            "0.7",
+            "-O",
+            "0",
+            "--dup-to-ins",
+            "--max-resolve",
+            "50000",
+            "--write-resolved"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 1.2826319579035044,
+          "log": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/wrong_locus.bench.log",
+            "bytes": 3128,
+            "mtime_ns": 1789863055565599932,
+            "sha256": "e7710a5c14de4ab05ae6bb9890412ca03c5dcf082b1e24e5e1cb744ab075b635"
+          }
+        }
+      ]
+    },
+    {
+      "name": "wrong_insert_sequence",
+      "expected": {
+        "TP-base": 1,
+        "TP-comp": 1,
+        "FN": 1,
+        "FP": 1
+      },
+      "passed": true,
+      "bench": {
+        "TP-base": 1,
+        "TP-comp": 1,
+        "FP": 1,
+        "FN": 1,
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5,
+        "base cnt": 2,
+        "comp cnt": 2,
+        "TP-comp_TP-gt": 1,
+        "TP-comp_FP-gt": 0,
+        "TP-base_TP-gt": 1,
+        "TP-base_FP-gt": 0,
+        "gt_concordance": 1.0,
+        "gt_matrix": {
+          "(1, 0)": {
+            "(1, 0)": 1
+          }
+        }
+      },
+      "refined": null,
+      "refinement_status": "not_requested",
+      "commands": [
+        {
+          "command": [
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/rebuild-v1/tools/truvari-5.5.0/bin/truvari",
+            "bench",
+            "-b",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/base.vcf.gz",
+            "-c",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/wrong_insert_sequence.vcf.gz",
+            "-f",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/control.fa",
+            "--includebed",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/regions.bed",
+            "-o",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/wrong_insert_sequence",
+            "--pick",
+            "ac",
+            "--passonly",
+            "--no-ref",
+            "a",
+            "-r",
+            "2000",
+            "-C",
+            "5000",
+            "-s",
+            "50",
+            "-S",
+            "30",
+            "--sizemax",
+            "50000",
+            "-p",
+            "0.7",
+            "-P",
+            "0.7",
+            "-O",
+            "0",
+            "--dup-to-ins",
+            "--max-resolve",
+            "50000",
+            "--write-resolved"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 1.2789455419406295,
+          "log": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/wrong_insert_sequence.bench.log",
+            "bytes": 3228,
+            "mtime_ns": 1789863056845920671,
+            "sha256": "14310bd5f34875a5891b9af5961b2a60600824d3dbd419267554c6e593da13b4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "symbolic_deletion",
+      "expected": {
+        "TP-base": 1,
+        "TP-comp": 1,
+        "FN": 1,
+        "FP": 0
+      },
+      "passed": true,
+      "bench": {
+        "TP-base": 1,
+        "TP-comp": 1,
+        "FP": 0,
+        "FN": 1,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "base cnt": 2,
+        "comp cnt": 1,
+        "TP-comp_TP-gt": 1,
+        "TP-comp_FP-gt": 0,
+        "TP-base_TP-gt": 1,
+        "TP-base_FP-gt": 0,
+        "gt_concordance": 1.0,
+        "gt_matrix": {
+          "(1, 0)": {
+            "(1, 0)": 1
+          }
+        }
+      },
+      "refined": null,
+      "refinement_status": "not_requested",
+      "commands": [
+        {
+          "command": [
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/rebuild-v1/tools/truvari-5.5.0/bin/truvari",
+            "bench",
+            "-b",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/base.vcf.gz",
+            "-c",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/symbolic_deletion.vcf.gz",
+            "-f",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/control.fa",
+            "--includebed",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/regions.bed",
+            "-o",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/symbolic_deletion",
+            "--pick",
+            "ac",
+            "--passonly",
+            "--no-ref",
+            "a",
+            "-r",
+            "2000",
+            "-C",
+            "5000",
+            "-s",
+            "50",
+            "-S",
+            "30",
+            "--sizemax",
+            "50000",
+            "-p",
+            "0.7",
+            "-P",
+            "0.7",
+            "-O",
+            "0",
+            "--dup-to-ins",
+            "--max-resolve",
+            "50000",
+            "--write-resolved"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 1.2853907919488847,
+          "log": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/symbolic_deletion.bench.log",
+            "bytes": 3227,
+            "mtime_ns": 1789863058130478529,
+            "sha256": "ee696f7251fae469f7f19d474e134ac2da370cfd036c2af4b2c5bbdeac0dd025"
+          }
+        }
+      ]
+    },
+    {
+      "name": "split_allele",
+      "passed": true,
+      "expected": "initial FN=1, FP=2; after full-context MAFFT refinement FN=0, FP=0",
+      "bench": {
+        "TP-base": 0,
+        "TP-comp": 0,
+        "FP": 2,
+        "FN": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": null,
+        "base cnt": 1,
+        "comp cnt": 2,
+        "TP-comp_TP-gt": 0,
+        "TP-comp_FP-gt": 0,
+        "TP-base_TP-gt": 0,
+        "TP-base_FP-gt": 0,
+        "gt_concordance": 0,
+        "gt_matrix": {}
+      },
+      "refined": {
+        "TP-base": 1,
+        "TP-comp": 2,
+        "FP": 0,
+        "FN": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "base cnt": 1,
+        "comp cnt": 2
+      },
+      "refinement_status": "completed",
+      "commands": [
+        {
+          "command": [
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/rebuild-v1/tools/truvari-5.5.0/bin/truvari",
+            "bench",
+            "-b",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/complex-base.vcf.gz",
+            "-c",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/split-comp.vcf.gz",
+            "-f",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/control.fa",
+            "--includebed",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/regions.bed",
+            "-o",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/split_allele",
+            "--pick",
+            "ac",
+            "--passonly",
+            "--no-ref",
+            "a",
+            "-r",
+            "2000",
+            "-C",
+            "5000",
+            "-s",
+            "50",
+            "-S",
+            "30",
+            "--sizemax",
+            "50000",
+            "-p",
+            "0.7",
+            "-P",
+            "0.7",
+            "-O",
+            "0",
+            "--dup-to-ins",
+            "--max-resolve",
+            "50000",
+            "--write-resolved"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 1.2831658329814672,
+          "log": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/split_allele.bench.log",
+            "bytes": 3144,
+            "mtime_ns": 1789863059417189528,
+            "sha256": "257e0dfc65d85815ae8d755bea10d63829618018b09425f2eca2d9ddddf03436"
+          }
+        },
+        {
+          "command": [
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/rebuild-v1/tools/truvari-5.5.0/bin/truvari",
+            "refine",
+            "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/split_allele",
+            "--use-original-vcfs",
+            "--align",
+            "mafft",
+            "--threads",
+            "2",
+            "--mafft-params",
+            "--auto --thread 1"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 9.094581624958664,
+          "log": {
+            "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/python-verification-v1/structural-comparator/split_allele.refine.log",
+            "bytes": 2221,
+            "mtime_ns": 1789863068504833133,
+            "sha256": "20a3b5abf5b905acefdbd524b8674917e976e8cda11ceefa31cb673d12f5b3c7"
+          }
+        }
+      ]
+    }
+  ],
+  "code": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/probe_sv_comparator.py",
+    "bytes": 6868,
+    "mtime_ns": 1789850018000000000,
+    "sha256": "7ec5c505480e4d4b754a48f1c59206ad83633cfbc54d3522f9ef2d8742194194"
+  },
+  "configuration": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/configs/public-sv-pilot-comparison.json",
+    "bytes": 1950,
+    "mtime_ns": 1789849491000000000,
+    "sha256": "86b2e380e5dd390b05ee7deb3393171976ebe84f828bb556e3e4f5ef8f667e80"
+  },
+  "scope": "synthetic comparator controls only; no public-read accuracy or patient conclusion"
+}

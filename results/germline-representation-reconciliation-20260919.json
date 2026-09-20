@@ -1,0 +1,961 @@
+{
+  "status": "complete",
+  "completed_at": "2026-09-20T00:54:20.293204+00:00",
+  "code": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/summarize_public_representation.py",
+    "bytes": 10186,
+    "sha256": "62f2a4874ed412d02edfa5c9de1cae84157b1600d5ea2d191e393d4870754bb0"
+  },
+  "source_comparisons": {
+    "frozen_split": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/summary.json",
+      "bytes": 19670,
+      "sha256": "404869d8e0f75440653aec84d570da97e8e61132f2ec70d07c70ab4830d931bb"
+    },
+    "retained_multiallelic": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/summary.json",
+      "bytes": 19993,
+      "sha256": "e9249002c1871658f50487001f04b52619a4950955bab761211aa4516d436a79"
+    }
+  },
+  "verified_inputs": {
+    "config": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/configs/public-small-variant-comparison.json",
+      "bytes": 2870,
+      "sha256": "628e04cfd7e5d2385a59043555221eaa1393fd6151b72d2e614bf67475994007"
+    },
+    "truth": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/HG002.chr20.v4.2.1.full-context.vcf.gz",
+      "bytes": 3237143,
+      "sha256": "3713fe8baa96d7230c5414a24e452713e5d23d744e2b5c305d9a7914842868cc"
+    },
+    "bed": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/official-chr20-v4.2.1.bed",
+      "bytes": 240941,
+      "sha256": "52d9c15a5c5e4552da1b9111fbcb5514a8d65b4ed5ad95542f22ffdcdd16a3f3"
+    },
+    "frozen_split/gatk/tp_baseline": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/gatk/tp-baseline.vcf.gz",
+      "bytes": 4298915,
+      "sha256": "d2f814fedef1901b3ddd514cf725512e792ef14d62d0ab32f70c8b877b8b50f8"
+    },
+    "frozen_split/gatk/tp_calls": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/gatk/tp.vcf.gz",
+      "bytes": 3584252,
+      "sha256": "ba1301ff500aa860685df7ec90e07ddd7b5120f4392237bb107801f81fda791d"
+    },
+    "frozen_split/gatk/fp": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/gatk/fp.vcf.gz",
+      "bytes": 61927,
+      "sha256": "be49c1e3a55d8d640f7f9ef9b8898e837739480ed64ff475664f8f75ef29173c"
+    },
+    "frozen_split/gatk/fn": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/gatk/fn.vcf.gz",
+      "bytes": 51342,
+      "sha256": "a298a4ca2641136631ccd4e69589707c4a17f6ba218f816354d3ccef911ff25a"
+    },
+    "frozen_split/gatk/input": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/HG002.gatk.normalized.raw.vcf.gz",
+      "bytes": 4939409,
+      "sha256": "69f2dad38f5b207e51987c486653a17185be11bba75828676db84b42e8aa3487"
+    },
+    "frozen_split/bcftools/tp_baseline": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/bcftools/tp-baseline.vcf.gz",
+      "bytes": 4241308,
+      "sha256": "a5b37847a7f94c87cabe696d84a601e6fa67d117704c4bacbb85012258840394"
+    },
+    "frozen_split/bcftools/tp_calls": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/bcftools/tp.vcf.gz",
+      "bytes": 3932742,
+      "sha256": "b5ba9db7c45ba52ec7aa3e9dd8b40024aa712af4389d5eb8a824a69eb5d7f286"
+    },
+    "frozen_split/bcftools/fp": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/bcftools/fp.vcf.gz",
+      "bytes": 117825,
+      "sha256": "dc5dbc6e422927855d20519366f3a5d4f639859d23c3b64568588422d552c9c6"
+    },
+    "frozen_split/bcftools/fn": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/bcftools/fn.vcf.gz",
+      "bytes": 102291,
+      "sha256": "d3e6dc90085c05275065b39e7b19a48847d2e67828ad5b03cf54f948c6bc69b6"
+    },
+    "frozen_split/bcftools/input": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/HG002.bcftools.normalized.raw.vcf.gz",
+      "bytes": 5858194,
+      "sha256": "bc055e824607a9f16fcb816a04a1757df6de4004f2466cac958994db32edc460"
+    },
+    "retained_multiallelic/gatk/tp_baseline": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/gatk/tp-baseline.vcf.gz",
+      "bytes": 4313957,
+      "sha256": "a87662ff43194764b3fb27127e178814768807938d7279ab5cf387c61b719016"
+    },
+    "retained_multiallelic/gatk/tp_calls": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/gatk/tp.vcf.gz",
+      "bytes": 3598009,
+      "sha256": "d920f03192f112be7d85ee2178704d36c38d2aa28f1c698d337b6964fecc15d4"
+    },
+    "retained_multiallelic/gatk/fp": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/gatk/fp.vcf.gz",
+      "bytes": 47401,
+      "sha256": "cc048f0165ecf2e03b27037c8b12585c7e03f4e2d8cd4ba3080bd0d24989f964"
+    },
+    "retained_multiallelic/gatk/fn": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/gatk/fn.vcf.gz",
+      "bytes": 33961,
+      "sha256": "870db17e1eda615e9a5627b37fe8c05551bda9ffbd66d84685b309ac808a6013"
+    },
+    "retained_multiallelic/gatk/input": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/gatk.normalized.multiallelic.vcf.gz",
+      "bytes": 4929787,
+      "sha256": "2a6f681446bda09acea5ade8ddf90154f435db57db9d18f238f1226ad24e744a"
+    },
+    "retained_multiallelic/bcftools/tp_baseline": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/bcftools/tp-baseline.vcf.gz",
+      "bytes": 4260903,
+      "sha256": "cafa7453ea2dec857c95f4c535c67d4c69ca924ab476ba4484431620cceeede3"
+    },
+    "retained_multiallelic/bcftools/tp_calls": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/bcftools/tp.vcf.gz",
+      "bytes": 3947210,
+      "sha256": "45ac5059b3a0cd8796c2880c52256799db0e29ed5a7df49d6bdc238ddf762547"
+    },
+    "retained_multiallelic/bcftools/fp": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/bcftools/fp.vcf.gz",
+      "bytes": 98577,
+      "sha256": "7975b08612e0aef3e36fb5193fbeb5156f5d3785b3268bd3150a98435077a0b8"
+    },
+    "retained_multiallelic/bcftools/fn": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/bcftools/fn.vcf.gz",
+      "bytes": 86021,
+      "sha256": "5548591f724e0d92e3a5f9f1d3ca0763e4f48c91ea53a58df5e491276e1bf6e0"
+    },
+    "retained_multiallelic/bcftools/input": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/bcftools.normalized.multiallelic.vcf.gz",
+      "bytes": 5849122,
+      "sha256": "3c0022e3ed3b0430de7eb51838a27441338240ade09bd1c2c9a5db9cea7c70d3"
+    }
+  },
+  "identical_truth_universe_all_four_comparisons": true,
+  "scored_truth_records": 82589,
+  "counts": {
+    "frozen_split": {
+      "gatk": {
+        "tp_baseline": 81849,
+        "tp_calls": 82341,
+        "fp": 1223,
+        "fn": 740,
+        "truth_records": 82589,
+        "call_records": 83564,
+        "recall": 0.991039969003136,
+        "precision": 0.9853645110334593
+      },
+      "bcftools": {
+        "tp_baseline": 81174,
+        "tp_calls": 81644,
+        "fp": 1786,
+        "fn": 1415,
+        "truth_records": 82589,
+        "call_records": 83430,
+        "recall": 0.9828669677559966,
+        "precision": 0.9785928323145152
+      }
+    },
+    "retained_multiallelic": {
+      "gatk": {
+        "tp_baseline": 82067,
+        "tp_calls": 82068,
+        "fp": 784,
+        "fn": 522,
+        "truth_records": 82589,
+        "call_records": 82852,
+        "recall": 0.9936795457022122,
+        "precision": 0.990537343697195
+      },
+      "bcftools": {
+        "tp_baseline": 81374,
+        "tp_calls": 81415,
+        "fp": 1373,
+        "fn": 1215,
+        "truth_records": 82589,
+        "call_records": 82788,
+        "recall": 0.985288597755149,
+        "precision": 0.9834154708411847
+      }
+    }
+  },
+  "truth_match_transitions": {
+    "gatk": {
+      "matched_both_arms": {
+        "records": 81848,
+        "record_classes": {
+          "snv": 70887,
+          "indel": 10933,
+          "mixed": 28
+        }
+      },
+      "gained_truth_matches": {
+        "records": 219,
+        "record_classes": {
+          "indel": 197,
+          "snv": 22
+        }
+      },
+      "lost_truth_matches": {
+        "records": 1,
+        "record_classes": {
+          "indel": 1
+        }
+      },
+      "missed_both_arms": {
+        "records": 521,
+        "record_classes": {
+          "snv": 424,
+          "indel": 96,
+          "mixed": 1
+        }
+      },
+      "first_five_gained_truth_records": [
+        {
+          "chrom": "chr20",
+          "pos": 685696,
+          "ref": "AAATAATAATAAT",
+          "alt": [
+            "AAATAAT",
+            "A"
+          ],
+          "GT": [
+            2,
+            1
+          ],
+          "phased": false,
+          "QUAL": 50.0,
+          "DP": 540,
+          "GQ": 250,
+          "AD": [
+            2,
+            130,
+            157
+          ],
+          "record_class": "indel"
+        },
+        {
+          "chrom": "chr20",
+          "pos": 854857,
+          "ref": "TTGTGTG",
+          "alt": [
+            "TTG",
+            "T"
+          ],
+          "GT": [
+            2,
+            1
+          ],
+          "phased": false,
+          "QUAL": 50.0,
+          "DP": 643,
+          "GQ": 284,
+          "AD": [
+            2,
+            88,
+            117
+          ],
+          "record_class": "indel"
+        },
+        {
+          "chrom": "chr20",
+          "pos": 887636,
+          "ref": "CTTTT",
+          "alt": [
+            "CTTT",
+            "C"
+          ],
+          "GT": [
+            2,
+            1
+          ],
+          "phased": false,
+          "QUAL": 50.0,
+          "DP": 413,
+          "GQ": 187,
+          "AD": [
+            2,
+            55,
+            89
+          ],
+          "record_class": "indel"
+        },
+        {
+          "chrom": "chr20",
+          "pos": 1032276,
+          "ref": "CTT",
+          "alt": [
+            "CT",
+            "C"
+          ],
+          "GT": [
+            2,
+            1
+          ],
+          "phased": false,
+          "QUAL": 50.0,
+          "DP": 377,
+          "GQ": 260,
+          "AD": [
+            1,
+            61,
+            71
+          ],
+          "record_class": "indel"
+        },
+        {
+          "chrom": "chr20",
+          "pos": 1182052,
+          "ref": "A",
+          "alt": [
+            "G",
+            "T"
+          ],
+          "GT": [
+            1,
+            2
+          ],
+          "phased": false,
+          "QUAL": 50.0,
+          "DP": 1000,
+          "GQ": 553,
+          "AD": [
+            48,
+            268,
+            193
+          ],
+          "record_class": "snv"
+        }
+      ]
+    },
+    "bcftools": {
+      "matched_both_arms": {
+        "records": 81170,
+        "record_classes": {
+          "snv": 70876,
+          "indel": 10270,
+          "mixed": 24
+        }
+      },
+      "gained_truth_matches": {
+        "records": 204,
+        "record_classes": {
+          "indel": 182,
+          "snv": 22
+        }
+      },
+      "lost_truth_matches": {
+        "records": 4,
+        "record_classes": {
+          "indel": 4
+        }
+      },
+      "missed_both_arms": {
+        "records": 1211,
+        "record_classes": {
+          "indel": 771,
+          "snv": 435,
+          "mixed": 5
+        }
+      },
+      "first_five_gained_truth_records": [
+        {
+          "chrom": "chr20",
+          "pos": 685696,
+          "ref": "AAATAATAATAAT",
+          "alt": [
+            "AAATAAT",
+            "A"
+          ],
+          "GT": [
+            2,
+            1
+          ],
+          "phased": false,
+          "QUAL": 50.0,
+          "DP": 540,
+          "GQ": 250,
+          "AD": [
+            2,
+            130,
+            157
+          ],
+          "record_class": "indel"
+        },
+        {
+          "chrom": "chr20",
+          "pos": 854857,
+          "ref": "TTGTGTG",
+          "alt": [
+            "TTG",
+            "T"
+          ],
+          "GT": [
+            2,
+            1
+          ],
+          "phased": false,
+          "QUAL": 50.0,
+          "DP": 643,
+          "GQ": 284,
+          "AD": [
+            2,
+            88,
+            117
+          ],
+          "record_class": "indel"
+        },
+        {
+          "chrom": "chr20",
+          "pos": 887636,
+          "ref": "CTTTT",
+          "alt": [
+            "CTTT",
+            "C"
+          ],
+          "GT": [
+            2,
+            1
+          ],
+          "phased": false,
+          "QUAL": 50.0,
+          "DP": 413,
+          "GQ": 187,
+          "AD": [
+            2,
+            55,
+            89
+          ],
+          "record_class": "indel"
+        },
+        {
+          "chrom": "chr20",
+          "pos": 1032276,
+          "ref": "CTT",
+          "alt": [
+            "CT",
+            "C"
+          ],
+          "GT": [
+            2,
+            1
+          ],
+          "phased": false,
+          "QUAL": 50.0,
+          "DP": 377,
+          "GQ": 260,
+          "AD": [
+            1,
+            61,
+            71
+          ],
+          "record_class": "indel"
+        },
+        {
+          "chrom": "chr20",
+          "pos": 1182052,
+          "ref": "A",
+          "alt": [
+            "G",
+            "T"
+          ],
+          "GT": [
+            1,
+            2
+          ],
+          "phased": false,
+          "QUAL": 50.0,
+          "DP": 1000,
+          "GQ": 553,
+          "AD": [
+            48,
+            268,
+            193
+          ],
+          "record_class": "snv"
+        }
+      ]
+    }
+  },
+  "scope_census": {
+    "frozen_split": {
+      "gatk": {
+        "totals": {
+          "input_records": 136241,
+          "unscored": 52677,
+          "unscored_without_REF_overlap": 52675,
+          "scored": 83564,
+          "unscored_with_REF_overlap": 2,
+          "unscored_REF_overlapping_nonsequence": 2
+        },
+        "categories": [
+          {
+            "native_status": "scored",
+            "descriptive_flags": [],
+            "records": 83563
+          },
+          {
+            "native_status": "scored",
+            "descriptive_flags": [
+              "anchor_outside"
+            ],
+            "records": 1
+          },
+          {
+            "native_status": "unscored",
+            "descriptive_flags": [
+              "no_REF_span_overlap",
+              "anchor_outside"
+            ],
+            "records": 52195
+          },
+          {
+            "native_status": "unscored",
+            "descriptive_flags": [
+              "no_REF_span_overlap",
+              "anchor_outside",
+              "nonsequence_ALT"
+            ],
+            "records": 480
+          },
+          {
+            "native_status": "unscored",
+            "descriptive_flags": [
+              "nonsequence_ALT"
+            ],
+            "records": 2
+          }
+        ],
+        "bounded_examples": [
+          {
+            "chrom": "chr20",
+            "pos": 23082533,
+            "ref": "CTCTGTG",
+            "alt": [
+              "*"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 555.010009765625,
+            "DP": 26,
+            "GQ": 99,
+            "AD": [
+              0,
+              12
+            ],
+            "record_class": "non_sequence",
+            "native_status": "unscored",
+            "descriptive_flags": [
+              "nonsequence_ALT"
+            ]
+          },
+          {
+            "chrom": "chr20",
+            "pos": 60288951,
+            "ref": "T",
+            "alt": [
+              "*"
+            ],
+            "GT": [
+              1,
+              0
+            ],
+            "phased": false,
+            "QUAL": 303.010009765625,
+            "DP": 25,
+            "GQ": 99,
+            "AD": [
+              0,
+              15
+            ],
+            "record_class": "non_sequence",
+            "native_status": "unscored",
+            "descriptive_flags": [
+              "nonsequence_ALT"
+            ]
+          },
+          {
+            "chrom": "chr20",
+            "pos": 61843507,
+            "ref": "CAT",
+            "alt": [
+              "C"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 62.599998474121094,
+            "DP": 10,
+            "GQ": 70,
+            "AD": [
+              7,
+              3
+            ],
+            "record_class": "indel",
+            "native_status": "scored",
+            "descriptive_flags": [
+              "anchor_outside"
+            ]
+          }
+        ]
+      },
+      "bcftools": {
+        "totals": {
+          "input_records": 136250,
+          "unscored": 52820,
+          "unscored_without_REF_overlap": 52820,
+          "scored": 83430
+        },
+        "categories": [
+          {
+            "native_status": "scored",
+            "descriptive_flags": [],
+            "records": 83429
+          },
+          {
+            "native_status": "scored",
+            "descriptive_flags": [
+              "anchor_outside"
+            ],
+            "records": 1
+          },
+          {
+            "native_status": "unscored",
+            "descriptive_flags": [
+              "no_REF_span_overlap",
+              "anchor_outside"
+            ],
+            "records": 52820
+          }
+        ],
+        "bounded_examples": [
+          {
+            "chrom": "chr20",
+            "pos": 61843507,
+            "ref": "CAT",
+            "alt": [
+              "C"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 89.35800170898438,
+            "DP": 16,
+            "GQ": null,
+            "AD": [
+              10,
+              6
+            ],
+            "record_class": "indel",
+            "native_status": "scored",
+            "descriptive_flags": [
+              "anchor_outside"
+            ]
+          }
+        ]
+      },
+      "truth": {
+        "totals": {
+          "input_records": 85951,
+          "scored": 82589,
+          "unscored": 3362,
+          "unscored_without_REF_overlap": 3362
+        },
+        "categories": [
+          {
+            "native_status": "scored",
+            "descriptive_flags": [],
+            "records": 82588
+          },
+          {
+            "native_status": "scored",
+            "descriptive_flags": [
+              "anchor_outside"
+            ],
+            "records": 1
+          },
+          {
+            "native_status": "unscored",
+            "descriptive_flags": [
+              "no_REF_span_overlap",
+              "anchor_outside"
+            ],
+            "records": 3362
+          }
+        ],
+        "bounded_examples": [
+          {
+            "chrom": "chr20",
+            "pos": 61843507,
+            "ref": "CAT",
+            "alt": [
+              "C"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 50.0,
+            "DP": 482,
+            "GQ": 514,
+            "AD": [
+              62,
+              62
+            ],
+            "record_class": "indel",
+            "native_status": "scored",
+            "descriptive_flags": [
+              "anchor_outside"
+            ]
+          }
+        ]
+      }
+    },
+    "retained_multiallelic": {
+      "gatk": {
+        "totals": {
+          "input_records": 134073,
+          "unscored": 51221,
+          "unscored_without_REF_overlap": 51221,
+          "scored": 82852
+        },
+        "categories": [
+          {
+            "native_status": "scored",
+            "descriptive_flags": [],
+            "records": 82849
+          },
+          {
+            "native_status": "scored",
+            "descriptive_flags": [
+              "anchor_outside"
+            ],
+            "records": 1
+          },
+          {
+            "native_status": "scored",
+            "descriptive_flags": [
+              "nonsequence_ALT"
+            ],
+            "records": 2
+          },
+          {
+            "native_status": "unscored",
+            "descriptive_flags": [
+              "no_REF_span_overlap",
+              "anchor_outside"
+            ],
+            "records": 50741
+          },
+          {
+            "native_status": "unscored",
+            "descriptive_flags": [
+              "no_REF_span_overlap",
+              "anchor_outside",
+              "nonsequence_ALT"
+            ],
+            "records": 480
+          }
+        ],
+        "bounded_examples": [
+          {
+            "chrom": "chr20",
+            "pos": 61843507,
+            "ref": "CAT",
+            "alt": [
+              "C"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 62.599998474121094,
+            "DP": 10,
+            "GQ": 70,
+            "AD": [
+              7,
+              3
+            ],
+            "record_class": "indel",
+            "native_status": "scored",
+            "descriptive_flags": [
+              "anchor_outside"
+            ]
+          }
+        ]
+      },
+      "bcftools": {
+        "totals": {
+          "input_records": 134898,
+          "unscored": 52110,
+          "unscored_without_REF_overlap": 52110,
+          "scored": 82788
+        },
+        "categories": [
+          {
+            "native_status": "scored",
+            "descriptive_flags": [],
+            "records": 82787
+          },
+          {
+            "native_status": "scored",
+            "descriptive_flags": [
+              "anchor_outside"
+            ],
+            "records": 1
+          },
+          {
+            "native_status": "unscored",
+            "descriptive_flags": [
+              "no_REF_span_overlap",
+              "anchor_outside"
+            ],
+            "records": 52110
+          }
+        ],
+        "bounded_examples": [
+          {
+            "chrom": "chr20",
+            "pos": 61843507,
+            "ref": "CAT",
+            "alt": [
+              "C"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 89.35800170898438,
+            "DP": 16,
+            "GQ": null,
+            "AD": [
+              10,
+              6
+            ],
+            "record_class": "indel",
+            "native_status": "scored",
+            "descriptive_flags": [
+              "anchor_outside"
+            ]
+          }
+        ]
+      },
+      "truth": {
+        "totals": {
+          "input_records": 85951,
+          "scored": 82589,
+          "unscored": 3362,
+          "unscored_without_REF_overlap": 3362
+        },
+        "categories": [
+          {
+            "native_status": "scored",
+            "descriptive_flags": [],
+            "records": 82588
+          },
+          {
+            "native_status": "scored",
+            "descriptive_flags": [
+              "anchor_outside"
+            ],
+            "records": 1
+          },
+          {
+            "native_status": "unscored",
+            "descriptive_flags": [
+              "no_REF_span_overlap",
+              "anchor_outside"
+            ],
+            "records": 3362
+          }
+        ],
+        "bounded_examples": [
+          {
+            "chrom": "chr20",
+            "pos": 61843507,
+            "ref": "CAT",
+            "alt": [
+              "C"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 50.0,
+            "DP": 482,
+            "GQ": 514,
+            "AD": [
+              62,
+              62
+            ],
+            "record_class": "indel",
+            "native_status": "scored",
+            "descriptive_flags": [
+              "anchor_outside"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "motivating_site": [
+    {
+      "truth": {
+        "chrom": "chr20",
+        "pos": 685696,
+        "ref": "AAATAATAATAAT",
+        "alt": [
+          "AAATAAT",
+          "A"
+        ],
+        "GT": [
+          2,
+          1
+        ],
+        "phased": false,
+        "QUAL": 50.0,
+        "DP": 540,
+        "GQ": 250,
+        "AD": [
+          2,
+          130,
+          157
+        ],
+        "record_class": "indel"
+      },
+      "matches": {
+        "frozen_split": {
+          "gatk": false,
+          "bcftools": false
+        },
+        "retained_multiallelic": {
+          "gatk": true,
+          "bcftools": true
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Retained-multiallelic arm was prompted by observed discordances and is exploratory, not prespecified.",
+    "No caller was rerun or tuned. Reference, comparator, genotype rules, evaluation region and score threshold are identical.",
+    "Call-record denominators differ when multiallelic records are split; FP differences are not one-to-one corrected biological errors.",
+    "Scoring-scope flags describe geometry/metadata of native labels, not an independent reimplementation of vcfeval exclusions.",
+    "Native matching can cross BED boundaries; preclipping calls by these descriptive flags would be incorrect.",
+    "Neither comparison is a patient diagnosis, clinical sensitivity, family phase result or causal probability."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "status": "complete",
+  "pid": 68990,
+  "started_at": "2026-09-20T00:08:21.925349+00:00",
+  "script_sha256": "148661885ef11261d92da154558a5a47d90b5ba40d46c59cc43f107c2128217d",
+  "export_sha256": "b508fe997179a9e8a82042f96ef0b479ed229b5cc3af104daa40572889ecffde",
+  "wheelhouse_receipt_sha256": "0146c07ebc9366571cc3cdd19b1a8e7a22be926e26d3d76d1470aca6a951e36d",
+  "environments": {
+    "cnvpytor-1.3.2": {
+      "local_distributions": 21,
+      "base_distributions": 8,
+      "all_version_and_origin_identities_equal": true,
+      "dependency_check": "No broken requirements found."
+    },
+    "truvari-5.5.0": {
+      "local_distributions": 21,
+      "base_distributions": 0,
+      "all_version_and_origin_identities_equal": true,
+      "dependency_check": "No broken requirements found."
+    },
+    "whatshap-2.8": {
+      "local_distributions": 10,
+      "base_distributions": 8,
+      "all_version_and_origin_identities_equal": true,
+      "dependency_check": "No broken requirements found."
+    }
+  },
+  "tests": [
+    {
+      "name": "alignment",
+      "passed": 1,
+      "skipped": 0,
+      "elapsed_seconds": 2.429,
+      "test_sha256": "bf6ada3eb6ef9e587da1faa9408f266e04124a556077e69c4841e85c28ed00a9"
+    },
+    {
+      "name": "phasing",
+      "passed": 6,
+      "skipped": 0,
+      "elapsed_seconds": 4.289,
+      "test_sha256": "915cfb7c4969f550e5306c151252c63816fe405c75810a1b921d285ea7eab20e"
+    },
+    {
+      "name": "copy-number",
+      "passed": 7,
+      "skipped": 0,
+      "elapsed_seconds": 107.297,
+      "test_sha256": "afcfaf3124fa51695a75c49354fc2b3bcd9b6ab224f930711c418b12fdef63b2"
+    },
+    {
+      "name": "structural comparator with full-context MAFFT refinement",
+      "passed": 6,
+      "elapsed_seconds": 37.034,
+      "test_sha256": "7ec5c505480e4d4b754a48f1c59206ad83633cfbc54d3522f9ef2d8742194194",
+      "config_sha256": "86b2e380e5dd390b05ee7deb3393171976ebe84f828bb556e3e4f5ef8f667e80"
+    }
+  ],
+  "scope": "Fresh Python environments on the rebuilt native base; existing synthetic controls.",
+  "completed_at": "2026-09-20T00:11:08.560758+00:00",
+  "elapsed_seconds": 166.634,
+  "limits": [
+    "These are existing synthetic execution/interpretation controls, not patient or public-benchmark accuracy.",
+    "Copy-number fixtures model aligned read density, not realignment, biological mosaics or clinical sensitivity.",
+    "Wheel payload equality omits generated files and metadata, as described in wheel preparation."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "recorded_at": "2026-09-19T22:47:50.800558+00:00",
+  "files": {
+    "rtg": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+      "bytes": 11471,
+      "sha256": "6b9a7bb7c0419b57f2aab1cbe3941ed4f3a18a36b2f41d271b9c43742bc31016"
+    },
+    "RTG.jar": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/RTG.jar",
+      "bytes": 8285448,
+      "sha256": "dad55b3525d01f788975b8a6a5298a1ceeced41085654b8635271b314298b31e"
+    },
+    "rtg.cfg": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg.cfg",
+      "bytes": 190,
+      "sha256": "0591deb8d8e3a7b04cdd5216bb7daba2557497430ad60c48457349fff482882d"
+    },
+    "LICENSE.txt": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/LICENSE.txt",
+      "bytes": 1367,
+      "sha256": "cc582dfe2e75d4e07ff2023e239f5ea88d6edf27cf2b2067baf45816f2954b20"
+    }
+  },
+  "native_commands": [
+    {
+      "command": [
+        "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+        "version"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "5c84bd896312d9aaa777f3c2a114a818316091bad0a4153379ea9362b78258dd",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+        "help",
+        "vcfeval"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "15590b232cd15ae51625835fed60b0399327fc2f0e47f8aede6e6c2f8d01fc28",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+        "help",
+        "format"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "b8fb66c370ceb03d0bad0df9326f1df1e1548e5409b425908afa90d3aff12ab9",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+        "help",
+        "sdf2fasta"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "3ec7517558f3fa9d56568fcf5aadf72da8d73074ecb79cebae71cbd3cdede374",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+        "help",
+        "sdfstats"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "292920bbec14e933131c928df0d7d2bb8e277aa08f8d2a85aa953afdbf713de3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "source_provenance_note": "Release 3.13 has tag commit f72c799; installed binary reports core c27844a5bb. Do not equate without source/build verification.",
+  "prior_probe_note": "Native COMMAND --help prints valid help but exits 1. Use rtg help COMMAND; each exits 0. No runtime reinstall was needed."
+}

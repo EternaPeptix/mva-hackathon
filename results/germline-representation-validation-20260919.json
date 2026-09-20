@@ -1,0 +1,52 @@
+{
+  "recorded_at": "2026-09-20T01:05:25.460318+00:00",
+  "host": "512S2",
+  "scope": "Retained results from the two completed native test invocations in this continuation; no repeat test run implied.",
+  "checks": [
+    {
+      "command": [
+        "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+        "/Users/jeweled/Documents/mva-hackathon/repo/workflow/tests/test_multiallelic_metadata.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_run": 5,
+      "skipped": 0,
+      "reported_unittest_seconds": 0.004,
+      "cases": [
+        "changed multiallelic GT rejected",
+        "changed phase rejected",
+        "changed rendered quality rejected",
+        "lost record rejected",
+        "native VCF quality rounding reported"
+      ]
+    },
+    {
+      "command": [
+        "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+        "/Users/jeweled/Documents/mva-hackathon/repo/workflow/tests/test_public_scope_geometry.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_run": 3,
+      "skipped": 0,
+      "reported_unittest_seconds": 0.001,
+      "cases": [
+        "deletion anchor outside and REF span inside",
+        "half-open interval edges",
+        "overlapping BED rejected"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "workflow/tests/test_multiallelic_metadata.py": "994e0646ab084de058fd3584bea8854ae83b647532ad1ab9000d66d49ea612c0",
+    "workflow/tests/test_public_scope_geometry.py": "72dd03f4071bd2eac30f2fe79425db18a6e68f665f32da591f88c6257c7835eb",
+    "workflow/scripts/prepare_public_multiallelic_sensitivity.py": "96c8e779f1e3ce55610f9241309e57169c3192d83edf72c44ca4c368b2529745",
+    "workflow/scripts/summarize_public_representation.py": "62f2a4874ed412d02edfa5c9de1cae84157b1600d5ea2d191e393d4870754bb0"
+  },
+  "all_eight_checks_passed": true,
+  "limits": [
+    "Times are those reported by unittest, not end-to-end runtime or performance gains.",
+    "Metadata multiset checks and literal geometry cases are not universal variant normalization or clinical validation."
+  ]
+}

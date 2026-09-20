@@ -1,0 +1,23 @@
+{
+  "completed_at": "2026-09-20T00:30:58.480326+00:00",
+  "command": [
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "/Users/jeweled/Documents/mva-hackathon/repo/workflow/tests",
+    "-p",
+    "test_public_small_variant_audit.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "six_controls_passed": true,
+  "elapsed_seconds": 0.7393302919808775,
+  "source_sha256": {
+    "repo/workflow/tests/test_public_small_variant_audit.py": "98d9e8f010c226338171ae2cfdb183fe4886ba5c283de4473a46e4a927b8a867",
+    "repo/workflow/scripts/audit_public_small_variants.py": "f843f496c2112ca30b807bbccce1ddd0190d718a6d8d007f063a5e92315bcbc7"
+  },
+  "log": "test_both_misses_distinguish_GT_from_ALT_diagnostic (test_public_small_variant_audit.NativeOutputAuditTests.test_both_misses_distinguish_GT_from_ALT_diagnostic) ... ok\ntest_different_genotype_truth_universe_is_rejected (test_public_small_variant_audit.NativeOutputAuditTests.test_different_genotype_truth_universe_is_rejected) ... ok\ntest_first_only_and_same_allele_wrong_GT (test_public_small_variant_audit.NativeOutputAuditTests.test_first_only_and_same_allele_wrong_GT) ... ok\ntest_match_by_both_preserves_one_truth_record (test_public_small_variant_audit.NativeOutputAuditTests.test_match_by_both_preserves_one_truth_record) ... ok\ntest_second_only_is_not_assigned_to_first (test_public_small_variant_audit.NativeOutputAuditTests.test_second_only_is_not_assigned_to_first) ... ok\ntest_two_call_records_do_not_inflate_truth_overlap (test_public_small_variant_audit.NativeOutputAuditTests.test_two_call_records_do_not_inflate_truth_overlap) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.697s\n\nOK\n",
+  "scope": "Post-comparison overlap/GT diagnostics on retained fictional native RTG outputs; not public caller accuracy."
+}

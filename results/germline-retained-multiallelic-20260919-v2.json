@@ -1,0 +1,271 @@
+{
+  "status": "complete",
+  "completed_at": "2026-09-20T00:50:42.721465+00:00",
+  "elapsed_seconds": 16.190808915998787,
+  "scope": "Exploratory post-comparison sensitivity: left-normalized multiallelic records retained; no new variant calling.",
+  "outputs": {
+    "gatk": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/gatk.normalized.multiallelic.vcf.gz",
+      "bytes": 4929787,
+      "mtime_ns": 1789865431937087743,
+      "sha256": "2a6f681446bda09acea5ade8ddf90154f435db57db9d18f238f1226ad24e744a",
+      "input_audit": {
+        "counts": {
+          "records": 134073,
+          "fully_called_diploid": 134073,
+          "nonreference_diploid": 134073,
+          "eligible_sequence_records_before_BED": 133591
+        },
+        "classes": {
+          "snv": 111488,
+          "indel": 21982,
+          "non_sequence": 482,
+          "mixed": 121
+        },
+        "filters": {
+          ".": 134073
+        },
+        "genotypes": {
+          "(0, 1)": 95256,
+          "(1, 1)": 36649,
+          "(1, 2)": 2168
+        },
+        "eligible_QUAL_min": 30.31999969482422,
+        "eligible_QUAL_max": 84912.1015625,
+        "all_record_REF_alleles_verified": true
+      }
+    },
+    "bcftools": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/bcftools.normalized.multiallelic.vcf.gz",
+      "bytes": 5849122,
+      "mtime_ns": 1789865439931787263,
+      "sha256": "3c0022e3ed3b0430de7eb51838a27441338240ade09bd1c2c9a5db9cea7c70d3",
+      "input_audit": {
+        "counts": {
+          "records": 134898,
+          "fully_called_diploid": 134898,
+          "nonreference_diploid": 134898,
+          "eligible_sequence_records_before_BED": 134898
+        },
+        "classes": {
+          "snv": 115658,
+          "indel": 19240
+        },
+        "filters": {
+          ".": 134898
+        },
+        "genotypes": {
+          "(0, 1)": 97036,
+          "(1, 1)": 36510,
+          "(1, 2)": 1352
+        },
+        "eligible_QUAL_min": 3.0124499797821045,
+        "eligible_QUAL_max": 228.41700744628906,
+        "all_record_REF_alleles_verified": true
+      }
+    }
+  },
+  "verification": {
+    "gatk": {
+      "original_raw": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/shard-0019/attempt-1789857388985060000/gatk.raw.vcf.gz",
+        "bytes": 6480481,
+        "mtime_ns": 1789864039377849191,
+        "sha256": "eae545cf7099c0c8c34895b126f69faa8462442ffd52a14310b458d7e56f5604"
+      },
+      "original_raw_records": {
+        "records": 134073,
+        "record_payload_sha256": "8a829e5638213cb06c68007cc541edf016af3fe0c641a5742d7ed1b9571a87d6"
+      },
+      "frozen_split_records": {
+        "records": 136241,
+        "record_payload_sha256": "2dff5700a3adbdf1db0508196b03987b818c468b1a7540f7e99a101887d8652f"
+      },
+      "replayed_split_record_payloads_identical": true,
+      "retained_multiallelic_records": {
+        "records": 134073,
+        "record_payload_sha256": "8a829e5638213cb06c68007cc541edf016af3fe0c641a5742d7ed1b9571a87d6"
+      },
+      "metadata_check": {
+        "FORMAT_serialized_QUAL_FILTER_multiset_preserved": true,
+        "parsed_QUAL_numeric_multiset_records_changed": 178,
+        "QUAL_policy": "Exact htslib-rendered QUAL token equality; binary parsed numeric changes from VCF serialization are counted separately. No numeric tolerance or score tuning."
+      },
+      "replay_command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/bcftools",
+          "norm",
+          "--check-ref",
+          "e",
+          "-f",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-sv-20260919/assembly-reference/GRCh38_no_alt.fa",
+          "-m",
+          "-any",
+          "-Oz",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/gatk.replayed-split.vcf.gz",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/shard-0019/attempt-1789857388985060000/gatk.raw.vcf.gz"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 0.46218149992637336,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/gatk-split-replay.stdout",
+          "bytes": 0,
+          "mtime_ns": 1789865427989376185,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/gatk-split-replay.stderr",
+          "bytes": 99,
+          "mtime_ns": 1789865428450540920,
+          "sha256": "98f7bd5293e99fe3b429b1a894caf26a6c9d3ef91eb049fc69551412d2a46b59"
+        }
+      },
+      "retain_command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/bcftools",
+          "norm",
+          "--check-ref",
+          "e",
+          "-f",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-sv-20260919/assembly-reference/GRCh38_no_alt.fa",
+          "-Oz",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/gatk.normalized.multiallelic.vcf.gz",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/shard-0019/attempt-1789857388985060000/gatk.raw.vcf.gz"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 0.47968216706067324,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/gatk-keep-multiallelic.stdout",
+          "bytes": 0,
+          "mtime_ns": 1789865431460127285,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/gatk-keep-multiallelic.stderr",
+          "bytes": 94,
+          "mtime_ns": 1789865431938466357,
+          "sha256": "2ec1c6b919cad5e0c82d93cd2b985582003f0a890659def7fe1a2ce2068f8a4c"
+        }
+      }
+    },
+    "bcftools": {
+      "original_raw": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/shard-0019/attempt-1789857388985060000/bcftools.raw.bcf",
+        "bytes": 6154333,
+        "mtime_ns": 1789864300284832188,
+        "sha256": "4ea3dbc4c0d0726949ab8421d89ba48c770f1ff6a8a893e8536d8e218c8e9a29"
+      },
+      "original_raw_records": {
+        "records": 134898,
+        "record_payload_sha256": "c127ac07826ea2b496a8fff4f5b147a0dc58c8988f80421418ad21c2bb9fdc04"
+      },
+      "frozen_split_records": {
+        "records": 136250,
+        "record_payload_sha256": "c025ebcb4126102bd1f50fda43c767b628ee666c84eb4ba09daac6789e6a0733"
+      },
+      "replayed_split_record_payloads_identical": true,
+      "retained_multiallelic_records": {
+        "records": 134898,
+        "record_payload_sha256": "6122c63d5562125c3aee6f44b2934dfba24a9e75423d060416e03528c255cf4e"
+      },
+      "metadata_check": {
+        "FORMAT_serialized_QUAL_FILTER_multiset_preserved": true,
+        "parsed_QUAL_numeric_multiset_records_changed": 132743,
+        "QUAL_policy": "Exact htslib-rendered QUAL token equality; binary parsed numeric changes from VCF serialization are counted separately. No numeric tolerance or score tuning."
+      },
+      "replay_command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/bcftools",
+          "norm",
+          "--check-ref",
+          "e",
+          "-f",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-sv-20260919/assembly-reference/GRCh38_no_alt.fa",
+          "-m",
+          "-any",
+          "-Oz",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/bcftools.replayed-split.vcf.gz",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/shard-0019/attempt-1789857388985060000/bcftools.raw.bcf"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 0.4764974999707192,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/bcftools-split-replay.stdout",
+          "bytes": 0,
+          "mtime_ns": 1789865435928993889,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/bcftools-split-replay.stderr",
+          "bytes": 163,
+          "mtime_ns": 1789865436404101824,
+          "sha256": "58a88c894773d3a5d6da7bf82e97a64070b212a59d48bbe4d6d0b9f46c233aa9"
+        }
+      },
+      "retain_command": {
+        "command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/bcftools",
+          "norm",
+          "--check-ref",
+          "e",
+          "-f",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-sv-20260919/assembly-reference/GRCh38_no_alt.fa",
+          "-Oz",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/bcftools.normalized.multiallelic.vcf.gz",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/shard-0019/attempt-1789857388985060000/bcftools.raw.bcf"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 0.4367131250910461,
+        "stdout": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/bcftools-keep-multiallelic.stdout",
+          "bytes": 0,
+          "mtime_ns": 1789865439497460141,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/bcftools-keep-multiallelic.stderr",
+          "bytes": 160,
+          "mtime_ns": 1789865439933007174,
+          "sha256": "18577d17233a87807ca2fbb015a9e0686921b171af3c00a724e2f4c95ab9987d"
+        }
+      }
+    }
+  },
+  "original_comparison": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/summary.json",
+    "bytes": 19670,
+    "mtime_ns": 1789864331133804704,
+    "sha256": "404869d8e0f75440653aec84d570da97e8e61132f2ec70d07c70ab4830d931bb"
+  },
+  "representation_controls": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-multiallelic-controls-20260919/summary.json",
+    "bytes": 38543,
+    "mtime_ns": 1789864759954588356,
+    "sha256": "fb8007d8543efe447c2584a92a402d2ab64778082c1654596a1ec5f514df3352"
+  },
+  "original_pilot": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/summary.json",
+    "bytes": 3615,
+    "mtime_ns": 1789864303965064041,
+    "sha256": "9a0a7a263c0254b0b2c5501c91b9742c1b75ad5ee7853cc8acf76b4cb7ae5448"
+  },
+  "config_sha256": "628e04cfd7e5d2385a59043555221eaa1393fd6151b72d2e614bf67475994007",
+  "code": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/prepare_public_multiallelic_sensitivity.py",
+    "bytes": 9366,
+    "mtime_ns": 1789865350000000000,
+    "sha256": "96c8e779f1e3ce55610f9241309e57169c3192d83edf72c44ca4c368b2529745"
+  },
+  "limits": [
+    "This arm was motivated by observed baseline discordances and is explicitly exploratory.",
+    "Original split-call results remain primary recorded evidence and are not overwritten.",
+    "Reference left-normalization is retained; only multiallelic splitting is omitted.",
+    "FORMAT/rendered QUAL/FILTER checks are multiset checks, not independent proof of every variant normalization.",
+    "VCF serialization can round the underlying numeric QUAL value; exact rendered tokens must agree and affected numeric values are counted. The frozen threshold is zero.",
+    "The native genotype-aware comparator and fixed score/region policy remain unchanged."
+  ]
+}

@@ -1,0 +1,719 @@
+{
+  "status": "complete",
+  "completed_at": "2026-09-20T00:56:18.251868+00:00",
+  "code": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/review_public_representation_losses.py",
+    "bytes": 3552,
+    "sha256": "d3e0c99af37b35d5820b285809079142b3027cd9eb669446c571da2d6e8defbf"
+  },
+  "reconciliation": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-representation-reconciliation-20260919/summary.json",
+    "bytes": 25941,
+    "sha256": "c838e85c12a8deb7829f8483076feec8c551b423afe686fb8fd7bee26962a314"
+  },
+  "verified_inputs": {
+    "frozen_split/summary": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/summary.json",
+      "bytes": 19670,
+      "sha256": "404869d8e0f75440653aec84d570da97e8e61132f2ec70d07c70ab4830d931bb"
+    },
+    "retained_multiallelic/summary": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/summary.json",
+      "bytes": 19993,
+      "sha256": "e9249002c1871658f50487001f04b52619a4950955bab761211aa4516d436a79"
+    },
+    "frozen_split/gatk/truth_matches": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/gatk/tp-baseline.vcf.gz",
+      "bytes": 4298915,
+      "sha256": "d2f814fedef1901b3ddd514cf725512e792ef14d62d0ab32f70c8b877b8b50f8"
+    },
+    "frozen_split/gatk/calls": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/HG002.gatk.normalized.raw.vcf.gz",
+      "bytes": 4939409,
+      "sha256": "69f2dad38f5b207e51987c486653a17185be11bba75828676db84b42e8aa3487"
+    },
+    "retained_multiallelic/gatk/truth_matches": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/gatk/tp-baseline.vcf.gz",
+      "bytes": 4313957,
+      "sha256": "a87662ff43194764b3fb27127e178814768807938d7279ab5cf387c61b719016"
+    },
+    "retained_multiallelic/gatk/calls": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/gatk.normalized.multiallelic.vcf.gz",
+      "bytes": 4929787,
+      "sha256": "2a6f681446bda09acea5ade8ddf90154f435db57db9d18f238f1226ad24e744a"
+    },
+    "frozen_split/bcftools/truth_matches": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/bcftools/tp-baseline.vcf.gz",
+      "bytes": 4241308,
+      "sha256": "a5b37847a7f94c87cabe696d84a601e6fa67d117704c4bacbb85012258840394"
+    },
+    "frozen_split/bcftools/calls": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/HG002.bcftools.normalized.raw.vcf.gz",
+      "bytes": 5858194,
+      "sha256": "bc055e824607a9f16fcb816a04a1757df6de4004f2466cac958994db32edc460"
+    },
+    "retained_multiallelic/bcftools/truth_matches": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/bcftools/tp-baseline.vcf.gz",
+      "bytes": 4260903,
+      "sha256": "cafa7453ea2dec857c95f4c535c67d4c69ca924ab476ba4484431620cceeede3"
+    },
+    "retained_multiallelic/bcftools/calls": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/bcftools.normalized.multiallelic.vcf.gz",
+      "bytes": 5849122,
+      "sha256": "3c0022e3ed3b0430de7eb51838a27441338240ade09bd1c2c9a5db9cea7c70d3"
+    }
+  },
+  "all_lost_truth_matches_reviewed": true,
+  "examples": [
+    {
+      "method": "gatk",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 14239026,
+        "ref": "CAAAAAAA",
+        "alt": [
+          "C"
+        ],
+        "GT": [
+          0,
+          1
+        ]
+      },
+      "copies": 1,
+      "nearby_calls": {
+        "frozen_split": [
+          {
+            "chrom": "chr20",
+            "pos": 14239026,
+            "ref": "CAAAAAAA",
+            "alt": [
+              "C"
+            ],
+            "GT": [
+              1,
+              0
+            ],
+            "phased": false,
+            "QUAL": 365.0199890136719,
+            "DP": 10,
+            "GQ": 99,
+            "AD": [
+              0,
+              4
+            ],
+            "record_class": "indel"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 14239026,
+            "ref": "CAAA",
+            "alt": [
+              "C"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 365.0199890136719,
+            "DP": 10,
+            "GQ": 99,
+            "AD": [
+              0,
+              6
+            ],
+            "record_class": "indel"
+          }
+        ],
+        "retained_multiallelic": [
+          {
+            "chrom": "chr20",
+            "pos": 14239026,
+            "ref": "CAAAAAAA",
+            "alt": [
+              "C",
+              "CAAAA"
+            ],
+            "GT": [
+              1,
+              2
+            ],
+            "phased": false,
+            "QUAL": 365.0199890136719,
+            "DP": 10,
+            "GQ": 99,
+            "AD": [
+              0,
+              4,
+              6
+            ],
+            "record_class": "indel"
+          }
+        ]
+      }
+    },
+    {
+      "method": "bcftools",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 9074791,
+        "ref": "CT",
+        "alt": [
+          "C"
+        ],
+        "GT": [
+          0,
+          1
+        ]
+      },
+      "copies": 1,
+      "nearby_calls": {
+        "frozen_split": [
+          {
+            "chrom": "chr20",
+            "pos": 9074791,
+            "ref": "CT",
+            "alt": [
+              "C"
+            ],
+            "GT": [
+              1,
+              0
+            ],
+            "phased": false,
+            "QUAL": 195.24099731445312,
+            "DP": 29,
+            "GQ": null,
+            "AD": [
+              9,
+              13
+            ],
+            "record_class": "indel"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 9074791,
+            "ref": "C",
+            "alt": [
+              "CTT"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 195.24099731445312,
+            "DP": 29,
+            "GQ": null,
+            "AD": [
+              9,
+              7
+            ],
+            "record_class": "indel"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 9074807,
+            "ref": "TAAACAAAACAAAACAAAACAAAA",
+            "alt": [
+              "T"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 19.782400131225586,
+            "DP": 7,
+            "GQ": null,
+            "AD": [
+              5,
+              2
+            ],
+            "record_class": "indel"
+          }
+        ],
+        "retained_multiallelic": [
+          {
+            "chrom": "chr20",
+            "pos": 9074791,
+            "ref": "CT",
+            "alt": [
+              "C",
+              "CTTT"
+            ],
+            "GT": [
+              1,
+              2
+            ],
+            "phased": false,
+            "QUAL": 195.24099731445312,
+            "DP": 29,
+            "GQ": null,
+            "AD": [
+              9,
+              13,
+              7
+            ],
+            "record_class": "indel"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 9074807,
+            "ref": "TAAACAAAACAAAACAAAACAAAA",
+            "alt": [
+              "T"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 19.782400131225586,
+            "DP": 7,
+            "GQ": null,
+            "AD": [
+              5,
+              2
+            ],
+            "record_class": "indel"
+          }
+        ]
+      }
+    },
+    {
+      "method": "bcftools",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 9312390,
+        "ref": "A",
+        "alt": [
+          "ACG"
+        ],
+        "GT": [
+          0,
+          1
+        ]
+      },
+      "copies": 1,
+      "nearby_calls": {
+        "frozen_split": [
+          {
+            "chrom": "chr20",
+            "pos": 9312353,
+            "ref": "TACACACAC",
+            "alt": [
+              "T"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 107.32499694824219,
+            "DP": 22,
+            "GQ": null,
+            "AD": [
+              16,
+              6
+            ],
+            "record_class": "indel"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 9312390,
+            "ref": "ACACACACG",
+            "alt": [
+              "A"
+            ],
+            "GT": [
+              1,
+              0
+            ],
+            "phased": false,
+            "QUAL": 192.8090057373047,
+            "DP": 14,
+            "GQ": null,
+            "AD": [
+              0,
+              6
+            ],
+            "record_class": "indel"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 9312390,
+            "ref": "A",
+            "alt": [
+              "ACG"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 192.8090057373047,
+            "DP": 14,
+            "GQ": null,
+            "AD": [
+              0,
+              8
+            ],
+            "record_class": "indel"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 9312394,
+            "ref": "A",
+            "alt": [
+              "G"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 100.39399719238281,
+            "DP": 10,
+            "GQ": null,
+            "AD": [
+              5,
+              5
+            ],
+            "record_class": "snv"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 9312416,
+            "ref": "G",
+            "alt": [
+              "A"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 140.1009979248047,
+            "DP": 24,
+            "GQ": null,
+            "AD": [
+              15,
+              9
+            ],
+            "record_class": "snv"
+          }
+        ],
+        "retained_multiallelic": [
+          {
+            "chrom": "chr20",
+            "pos": 9312353,
+            "ref": "TACACACAC",
+            "alt": [
+              "T"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 107.32499694824219,
+            "DP": 22,
+            "GQ": null,
+            "AD": [
+              16,
+              6
+            ],
+            "record_class": "indel"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 9312390,
+            "ref": "ACACACACG",
+            "alt": [
+              "A",
+              "ACGCACACACG"
+            ],
+            "GT": [
+              1,
+              2
+            ],
+            "phased": false,
+            "QUAL": 192.8090057373047,
+            "DP": 14,
+            "GQ": null,
+            "AD": [
+              0,
+              6,
+              8
+            ],
+            "record_class": "indel"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 9312394,
+            "ref": "A",
+            "alt": [
+              "G"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 100.39399719238281,
+            "DP": 10,
+            "GQ": null,
+            "AD": [
+              5,
+              5
+            ],
+            "record_class": "snv"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 9312416,
+            "ref": "G",
+            "alt": [
+              "A"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 140.1009979248047,
+            "DP": 24,
+            "GQ": null,
+            "AD": [
+              15,
+              9
+            ],
+            "record_class": "snv"
+          }
+        ]
+      }
+    },
+    {
+      "method": "bcftools",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 14239026,
+        "ref": "CAAAAAAA",
+        "alt": [
+          "C"
+        ],
+        "GT": [
+          0,
+          1
+        ]
+      },
+      "copies": 1,
+      "nearby_calls": {
+        "frozen_split": [
+          {
+            "chrom": "chr20",
+            "pos": 14239026,
+            "ref": "CAAA",
+            "alt": [
+              "C"
+            ],
+            "GT": [
+              1,
+              0
+            ],
+            "phased": false,
+            "QUAL": 136.03700256347656,
+            "DP": 16,
+            "GQ": null,
+            "AD": [
+              8,
+              4
+            ],
+            "record_class": "indel"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 14239026,
+            "ref": "CAAAAAAA",
+            "alt": [
+              "C"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 136.03700256347656,
+            "DP": 16,
+            "GQ": null,
+            "AD": [
+              8,
+              4
+            ],
+            "record_class": "indel"
+          }
+        ],
+        "retained_multiallelic": [
+          {
+            "chrom": "chr20",
+            "pos": 14239026,
+            "ref": "CAAAAAAA",
+            "alt": [
+              "CAAAA",
+              "C"
+            ],
+            "GT": [
+              1,
+              2
+            ],
+            "phased": false,
+            "QUAL": 136.03700256347656,
+            "DP": 16,
+            "GQ": null,
+            "AD": [
+              8,
+              4,
+              4
+            ],
+            "record_class": "indel"
+          }
+        ]
+      }
+    },
+    {
+      "method": "bcftools",
+      "truth": {
+        "chrom": "chr20",
+        "pos": 19125836,
+        "ref": "ATG",
+        "alt": [
+          "A"
+        ],
+        "GT": [
+          0,
+          1
+        ]
+      },
+      "copies": 1,
+      "nearby_calls": {
+        "frozen_split": [
+          {
+            "chrom": "chr20",
+            "pos": 19125836,
+            "ref": "ATG",
+            "alt": [
+              "A"
+            ],
+            "GT": [
+              1,
+              0
+            ],
+            "phased": false,
+            "QUAL": 193.6959991455078,
+            "DP": 24,
+            "GQ": null,
+            "AD": [
+              10,
+              11
+            ],
+            "record_class": "indel"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 19125836,
+            "ref": "ATGTG",
+            "alt": [
+              "A"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 193.6959991455078,
+            "DP": 24,
+            "GQ": null,
+            "AD": [
+              10,
+              3
+            ],
+            "record_class": "indel"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 19125858,
+            "ref": "GTGTGTATATACACACATA",
+            "alt": [
+              "G"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 220.36000061035156,
+            "DP": 22,
+            "GQ": null,
+            "AD": [
+              11,
+              11
+            ],
+            "record_class": "indel"
+          }
+        ],
+        "retained_multiallelic": [
+          {
+            "chrom": "chr20",
+            "pos": 19125836,
+            "ref": "ATGTG",
+            "alt": [
+              "ATG",
+              "A"
+            ],
+            "GT": [
+              1,
+              2
+            ],
+            "phased": false,
+            "QUAL": 193.6959991455078,
+            "DP": 24,
+            "GQ": null,
+            "AD": [
+              10,
+              11,
+              3
+            ],
+            "record_class": "indel"
+          },
+          {
+            "chrom": "chr20",
+            "pos": 19125858,
+            "ref": "GTGTGTATATACACACATA",
+            "alt": [
+              "G"
+            ],
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "QUAL": 220.36000061035156,
+            "DP": 22,
+            "GQ": null,
+            "AD": [
+              11,
+              11
+            ],
+            "record_class": "indel"
+          }
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "All losses are included; nearby call context is descriptive and not an independent reassembly or read review.",
+    "Native matching can depend on neighboring records; a same-position genotype difference is not an exhaustive causal attribution.",
+    "These are public HG002 examples, not patient findings."
+  ]
+}

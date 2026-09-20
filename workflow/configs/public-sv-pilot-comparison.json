@@ -1,0 +1,23 @@
+{
+  "scope": "public_HG002_chr20_prealigned_caller_component",
+  "recorded_before_comparison": "2026-09-19",
+  "baseline": "GIAB HG002 GRCh38 v5.0q stvar; full chr20 VCF context retained",
+  "primary_regions": "All official v5.0q chr20 structural benchmark BED intervals; no restriction to DELLY query windows",
+  "comparison_classes": ["DEL", "INS", "DUP"],
+  "unbenchmarked_classes": ["INV", "BND"],
+  "truth_contained_small_variants": "retain for refinement; do not prefilter by benchmark BED or 50 bp size",
+  "spanning_deletion_star_policy": "exclude records with ALT=* from the bench input as directed by GIAB README; preserve original truth VCF",
+  "native_call_policy": "retain all original records; pass and nonreference selection only in comparator",
+  "truvari_version": "5.5.0",
+  "bench_options": ["--pick", "ac", "--passonly", "--no-ref", "a", "-r", "2000", "-C", "5000", "-s", "50", "-S", "30", "--sizemax", "50000", "-p", "0.7", "-P", "0.7", "-O", "0", "--dup-to-ins", "--max-resolve", "50000", "--write-resolved"],
+  "duplication_assumption": "Truvari treats native DUP as a perfect reference-sequence tandem insertion; this is a representation assumption, not sequence validation",
+  "refinement_plan": "Use full sequence context, two threads, and MAFFT if available. Preserve original bench counts and label any representation-count changes. Unresolved symbolic calls must be examined before treating refinement as an accuracy estimate.",
+  "required_checks_before_interpretation": [
+    "Native comparator positive, negative and decomposed-allele controls",
+    "Reference equality and complete benchmark REF validation on chr20",
+    "Explicit unresolved-symbolic-call accounting",
+    "Counts by deletion and insertion-like class and size",
+    "Curated examples of apparent false positives and false negatives",
+    "No upgrade of this chromosome pilot to whole-genome, mosaic, clinical or raw-read alignment validation"
+  ]
+}

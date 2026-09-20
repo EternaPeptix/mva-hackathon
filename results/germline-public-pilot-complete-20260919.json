@@ -1,0 +1,88 @@
+{
+  "status": "complete",
+  "completed_at": "2026-09-20T00:31:43.964602+00:00",
+  "elapsed_seconds": 6969.6261307920795,
+  "inputs": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/inputs.json",
+    "bytes": 3349,
+    "mtime_ns": 1789857336383908933,
+    "sha256": "41aa992183f643ec21e4ed45962c432491f2d3b4b89c6b7b3543eb40bc3c84a1"
+  },
+  "command": {
+    "command": [
+      "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+      "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/call_genome.py",
+      "--root",
+      "/Users/jeweled/Documents/mva-hackathon",
+      "--reference",
+      "/Users/jeweled/Documents/mva-hackathon/ref/giab-sv-20260919/assembly-reference/GRCh38_no_alt.fa",
+      "--alignment",
+      "/Users/jeweled/Documents/mva-hackathon/ref/giab-sv-20260919/inputs/HG002.novaseq.pcr-free.35x.dedup.grch38_no_alt.chr20.bam",
+      "--sample",
+      "HG002",
+      "--output",
+      "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls",
+      "--workers",
+      "4"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 6967.503079917049,
+    "log": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/native.log",
+      "bytes": 935,
+      "mtime_ns": 1789864303950760549,
+      "sha256": "ff22e52123c2753427e6fa7c2036e23013be7ff0df7c7782dc30abf7cf106dfc"
+    }
+  },
+  "outputs": {
+    "gatk": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/HG002.gatk.normalized.raw.vcf.gz",
+      "bytes": 4939409,
+      "mtime_ns": 1789864302568893136,
+      "sha256": "69f2dad38f5b207e51987c486653a17185be11bba75828676db84b42e8aa3487",
+      "counts": {
+        "records": 136241,
+        "snv_records": 111962,
+        "indel_records": 23797,
+        "other_records": 482
+      }
+    },
+    "bcftools": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/HG002.bcftools.normalized.raw.vcf.gz",
+      "bytes": 5858194,
+      "mtime_ns": 1789864303418903133,
+      "sha256": "bc055e824607a9f16fcb816a04a1757df6de4004f2466cac958994db32edc460",
+      "counts": {
+        "records": 136250,
+        "snv_records": 115747,
+        "indel_records": 20503,
+        "other_records": 0
+      }
+    }
+  },
+  "native_definition": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/run-definition.json",
+    "bytes": 12617,
+    "mtime_ns": 1789857338651577224,
+    "sha256": "59d7a4d69eaef518790fcc4e5c22da9bdff95ecc773473a1839053a4393c2807"
+  },
+  "native_completion": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/status.json",
+    "bytes": 1672,
+    "mtime_ns": 1789864303950629006,
+    "sha256": "672228d6202ff5b6da84b543db1276f532e385d7053de068bf2e375465a44856"
+  },
+  "code": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/run_public_small_variant_pilot.py",
+    "bytes": 7030,
+    "mtime_ns": 1789857333953882244,
+    "sha256": "24ff77fcd4cfaaa4b9bd35a5197dacc05b236c2d749e4b664e98190c8e4de695"
+  },
+  "accuracy_status": "Not established; independent truth comparison required",
+  "limitations": [
+    "One prealigned public chromosome, different upstream mapping/duplicate-marking versions",
+    "Raw discovery without BQSR or post-call quality filtering",
+    "Empty non-chr20 shards preserve the ordinary pipeline and do not validate those chromosomes",
+    "No patient genotype, clinical sensitivity or causal probability follows"
+  ]
+}

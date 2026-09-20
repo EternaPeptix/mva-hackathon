@@ -1,0 +1,16 @@
+{
+  "scope": "Synthetic simple variants and public HG002 chr20 only; no patient execution",
+  "frozen_before_native_pilots": "2026-09-19",
+  "package": "bioconda/osx-arm64/svaba-1.2.0-hf0f000d_1",
+  "executable_sha256": "1e408ade23375b1b1e1281ec1d26b2527f32f126f13924afdaee0c9c12f1a3de",
+  "build_source_commit": "928b9bdc1f20741963fcfac8c7bc0e30eefa7cb2",
+  "source_note": "Installed package info/git reports v1.2.0-20-g928b9bd; this is not the v1.2.0 tag. Help and source defaults also differ.",
+  "common_options": ["--germline", "-p", "2", "-C", "100", "--num-assembly-rounds", "3", "--lod", "8"],
+  "settings_basis": "Use built-in case-only germline mode. Explicit coverage 100, assembly rounds 3 and LOD 8 reproduce actual build-source defaults, rather than conflicting help defaults.",
+  "germline_effects_from_source": ["Skip interchromosomal mate-region lookup", "Mate-lookup minimum 5", "Include NM>=3 reads in assembly-read selection"],
+  "optional_databases": [],
+  "synthetic_region": "Entire three-chromosome fictional reference, including unchanged chromosome 3",
+  "public_region": "Entire chr20; benchmark against the same complete official GIAB v5.0q chr20 BED as DELLY",
+  "output_policy": "Retain filtered and unfiltered SV and indel VCFs, assembly contigs, breakpoint table and native logs. Validate and account for paired BNDs before a combined DEL/INS comparison.",
+  "limitations": ["Single-case germline settings reduce interchromosomal lookup; no translocation sensitivity claim", "No optional dbSNP, simple-repeat or blacklist input", "Prealigned public chr20 tests a caller component, not the patient raw-read workflow", "Do not tune these settings to public benchmark outcomes"]
+}

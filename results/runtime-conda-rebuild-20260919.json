@@ -1,0 +1,112 @@
+{
+  "status": "complete",
+  "pid": 67462,
+  "started_at": "2026-09-20T00:02:00.194409+00:00",
+  "export_sha256": "b508fe997179a9e8a82042f96ef0b479ed229b5cc3af104daa40572889ecffde",
+  "script_sha256": "80a168598980691b68a3fa4b4df949f6a7c44ff002bc453818e3eea5d34b5207",
+  "environments": {
+    "bio": {
+      "package_count": 105,
+      "all_package_identities_equal": true,
+      "elapsed_seconds": 11.362
+    },
+    "delly-2.6.0": {
+      "package_count": 27,
+      "all_package_identities_equal": true,
+      "elapsed_seconds": 9.112
+    },
+    "mafft-7.526": {
+      "package_count": 11,
+      "all_package_identities_equal": true,
+      "elapsed_seconds": 3.028
+    },
+    "svaba-1.2.0": {
+      "package_count": 25,
+      "all_package_identities_equal": true,
+      "elapsed_seconds": 3.628
+    }
+  },
+  "scope": "Fresh native macOS arm64 Conda prefixes from captured archives; synthetic reads only.",
+  "test_source_sha256": "9e2c127159f8d67fa28590287637ccdfa06f481dd85359699ee5847b94ba4073",
+  "caller_source_sha256": "5af91153e9926b0d8b985d0575b0a6ef51e1496d16ff3614c4cb4d8b2b4ac358",
+  "native_test_command": [
+    "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/rebuild-v1/tools/bio/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "/Users/jeweled/Documents/mva-hackathon/repo/workflow/tests",
+    "-p",
+    "test_call_native.py",
+    "-v"
+  ],
+  "native_caller_tests": {
+    "tests": 2,
+    "skipped": 0,
+    "exit_code": 0,
+    "elapsed_seconds": 16.295
+  },
+  "runtime_files": [
+    {
+      "path": "tools/bio/bin/python",
+      "original_sha256": "101eed1d9e3db137495f9a54720826eb3d7ac25b8c5a0e82d95372d8e7377e8f",
+      "rebuilt_sha256": "87e3ad09efcb5b971327420e442e70418ed02da3ee53b399706f7baad3c14799",
+      "identical_bytes": false
+    },
+    {
+      "path": "tools/bio/bin/bwa",
+      "original_sha256": "34f338e639956e9d14d582283c44a8b52ad0fff8944ccd1dabaeb8d651bcf04e",
+      "rebuilt_sha256": "34f338e639956e9d14d582283c44a8b52ad0fff8944ccd1dabaeb8d651bcf04e",
+      "identical_bytes": true
+    },
+    {
+      "path": "tools/bio/bin/samtools",
+      "original_sha256": "7518cbb230a35393d7d3a9f02fc8b4519e4a37b5a17fbed06b9752ca1d962a91",
+      "rebuilt_sha256": "57a2438e48fb190b1bc66c9d44f7810523bfaecbb50dd666f416e602992737ff",
+      "identical_bytes": false
+    },
+    {
+      "path": "tools/bio/bin/bcftools",
+      "original_sha256": "c427681749daabb97be4a010c31c6b24349aaea6abc7bea27d6ce9126874b260",
+      "rebuilt_sha256": "bf525062d8a6605edac5e572518c03105cce2aeebc0c41a4437867e622217fcb",
+      "identical_bytes": false
+    },
+    {
+      "path": "tools/bio/lib/jvm/bin/java",
+      "original_sha256": "ec64ac719290ad080c7f8a4f5d83402e4152f98f486fe14150cf734a46ebcbb1",
+      "rebuilt_sha256": "ec64ac719290ad080c7f8a4f5d83402e4152f98f486fe14150cf734a46ebcbb1",
+      "identical_bytes": true
+    },
+    {
+      "path": "tools/delly-2.6.0/bin/delly",
+      "original_sha256": "09a83090cdb28337f7647b94ce04396373fe244321048ae22d74a773cf18bac0",
+      "rebuilt_sha256": "45741780f8315237b4087d3983656e73adba0ba6d15a7cef7f621c8888e7ff66",
+      "identical_bytes": false
+    },
+    {
+      "path": "tools/svaba-1.2.0/bin/svaba",
+      "original_sha256": "1e408ade23375b1b1e1281ec1d26b2527f32f126f13924afdaee0c9c12f1a3de",
+      "rebuilt_sha256": "fc2fc8d7c0f1f6234ab918c24dfee0591ef4880c56ac961e406782434c5825fc",
+      "identical_bytes": false
+    },
+    {
+      "path": "tools/mafft-7.526/bin/mafft",
+      "original_sha256": "c85d1e3fe6583c95e9ef10fc9a7753a0b4e5f9dc65622c9f70b38046cb9a1c96",
+      "rebuilt_sha256": "ba274fff903792e3c3393986371608edb8ac77a97a8059f050d1cd7d1f2a13be",
+      "identical_bytes": false
+    },
+    {
+      "path": "gatk-4.6.1.0/gatk-package-4.6.1.0-local.jar",
+      "original_sha256": "b2824999fafe4dc83036e334b9765d4a7de4f4ff4bec1e929d77bea04a1560c7",
+      "rebuilt_sha256": "b2824999fafe4dc83036e334b9765d4a7de4f4ff4bec1e929d77bea04a1560c7",
+      "identical_bytes": true
+    }
+  ],
+  "completed_at": "2026-09-20T00:02:44.271440+00:00",
+  "elapsed_seconds": 44.076,
+  "limits": [
+    "This verifies four Conda environments, a pinned GATK copy, and a two-contig synthetic caller experiment.",
+    "Pip environments, public pilot accuracy, patient calls and full scientific reproduction are not validated by these checks.",
+    "Relocated installed executable bytes can differ; package archives remain pinned and compared by identity."
+  ]
+}
