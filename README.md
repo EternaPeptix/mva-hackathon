@@ -59,6 +59,11 @@ integrity checks. The [media reproduction recipe](workflow/docs/pitch-v2-reprodu
 documents the tested Mac Studio environment, storyboard contract and limits. The
 case-specific storyboard, clinical reports and media remain outside this source snapshot.
 
+The [changed-call read-review recipe](workflow/docs/changed-call-read-reproduction.md)
+adds original ploidy/allele-preserving context, competing-alternate fragment counts
+and exact-window sensitivities. Three fictional native-pysam controls qualify this
+path; selected case inputs and results remain separately controlled.
+
 The tested platform is **Apple Silicon macOS on a Mac Studio**. Conda specifications
 are for `osx-arm64`; Linux, x86 and GPU-only paths are not substitutes for this setup.
 The older Docker/three-caller scripts remain historical and are not the active method.

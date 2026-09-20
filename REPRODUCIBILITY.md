@@ -551,3 +551,14 @@ authorized storyboard outside this source snapshot and produce a new output tree
 Media checks cover measured duration, captions, decoded speech windows and every
 planned static-segment midpoint; they do not establish scientific validity, complete
 pronunciation review or upload status. Earlier pitch source remains preserved.
+
+## Read evidence for changed original calls
+
+The [changed-call recipe](workflow/docs/changed-call-read-reproduction.md) reuses the
+qualified BAQ/fragment and exact-window helpers without a new genotyper run. It
+retains native haploid/multiallelic caller context and rejects unknown mapping
+quality before using the SNP helper. [Fictional controls](workflow/source-snapshots/changed-call-read-controls-20260920/controls.json)
+and the [observed runtime](workflow/source-snapshots/changed-call-read-controls-20260920/runtime.json)
+record the executed qualification. Overlapping hypotheses, windows and quality
+thresholds are not independent samples and must not be added. Read support and
+annotation proximity do not establish locus assignment, pathogenicity or causality.
