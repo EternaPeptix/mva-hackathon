@@ -1,0 +1,417 @@
+{
+  "completed_at": "2026-09-20T03:48:53.340441+00:00",
+  "elapsed_seconds": 6.336277583846822,
+  "script": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/probe_structural_cram30.py",
+    "bytes": 4820,
+    "mtime_ns": 1789876112431116256,
+    "sha256": "d38ffd34a9cbce003c408506661962cd49cf90c0308e1d3ba095083bdb1d26c8"
+  },
+  "prior_summary": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-synthetic-20260919-v2/summary.json",
+    "bytes": 18110,
+    "mtime_ns": 1789844601815815338,
+    "sha256": "845d520fd03fd472255073bf1b4f0609e04f40dc7ab6d1ce08380f24ed65e60d"
+  },
+  "commands": [
+    {
+      "command": [
+        "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/samtools",
+        "view",
+        "-C",
+        "--output-fmt-option",
+        "version=3.0",
+        "--output-fmt-option",
+        "store_md=1",
+        "--output-fmt-option",
+        "store_nm=1",
+        "-T",
+        "/Users/jeweled/Documents/mva-hackathon/results/structural-synthetic-20260919-v2/fixture/reference.fa",
+        "-o",
+        "/Users/jeweled/Documents/mva-hackathon/results/structural-cram30-control-20260920/aligned.cram",
+        "/Users/jeweled/Documents/mva-hackathon/results/structural-synthetic-20260919-v2/aligned.bam"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.7024284999351948,
+      "log": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-cram30-control-20260920/step-00.log",
+        "bytes": 0,
+        "mtime_ns": 1789876127015747863,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "command": [
+        "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/samtools",
+        "index",
+        "/Users/jeweled/Documents/mva-hackathon/results/structural-cram30-control-20260920/aligned.cram"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.006019416963681579,
+      "log": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-cram30-control-20260920/step-01.log",
+        "bytes": 0,
+        "mtime_ns": 1789876127718701405,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "command": [
+        "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/samtools",
+        "quickcheck",
+        "-v",
+        "/Users/jeweled/Documents/mva-hackathon/results/structural-cram30-control-20260920/aligned.cram"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.004347041016444564,
+      "log": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-cram30-control-20260920/step-02.log",
+        "bytes": 0,
+        "mtime_ns": 1789876127725017874,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "command": [
+        "/Users/jeweled/Documents/mva-hackathon/tools/delly-2.6.0/bin/delly",
+        "sr",
+        "-h",
+        "2",
+        "-t",
+        "ALL",
+        "-q",
+        "20",
+        "-u",
+        "20",
+        "-r",
+        "20",
+        "-z",
+        "3",
+        "-s",
+        "9",
+        "-c",
+        "25",
+        "-m",
+        "25",
+        "-n",
+        "40",
+        "-p",
+        "20",
+        "-a",
+        "250",
+        "-g",
+        "/Users/jeweled/Documents/mva-hackathon/results/structural-synthetic-20260919-v2/fixture/reference.fa",
+        "-o",
+        "/Users/jeweled/Documents/mva-hackathon/results/structural-cram30-control-20260920/calls.bcf",
+        "/Users/jeweled/Documents/mva-hackathon/results/structural-cram30-control-20260920/aligned.cram"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.9921745420433581,
+      "log": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-cram30-control-20260920/step-03.log",
+        "bytes": 853,
+        "mtime_ns": 1789876133337997413,
+        "sha256": "5835aa8d3a7ac8842291094bf69da56c2e7bed29469ebc0c9a20c50ae9c5a284"
+      }
+    }
+  ],
+  "read_identity_counts": {
+    "records": 600167,
+    "duplicate_records": 270,
+    "supplementary_records": 57
+  },
+  "all_decoded_fields_and_typed_tags_equal": true,
+  "cram_version": [
+    3,
+    0
+  ],
+  "native_call_count": 6,
+  "all_compared_call_fields_equal": true,
+  "native_calls": [
+    {
+      "id": "DEL00000000",
+      "chrom": "1",
+      "pos_1based": 150000,
+      "end_chrom": "1",
+      "end_position": 155001,
+      "type": "DEL",
+      "connection_type": "3to5",
+      "length": -5001,
+      "precise": true,
+      "filter": [
+        "PASS"
+      ],
+      "qual": 1020.0,
+      "evidence": {
+        "PE": 9,
+        "SR": 8,
+        "MAPQ": 60,
+        "SRMAPQ": 60,
+        "CIPOS": [
+          -1,
+          1
+        ],
+        "CIEND": [
+          -1,
+          1
+        ]
+      },
+      "genotype": {
+        "GT": [
+          0,
+          1
+        ],
+        "GQ": 10000,
+        "GL": null,
+        "DR": 13,
+        "DV": 9,
+        "RR": 11,
+        "RV": 11,
+        "RDCN": 1
+      }
+    },
+    {
+      "id": "DUP00000001",
+      "chrom": "1",
+      "pos_1based": 350001,
+      "end_chrom": "1",
+      "end_position": 356000,
+      "type": "DUP",
+      "connection_type": "5to3",
+      "length": 5999,
+      "precise": true,
+      "filter": [
+        "PASS"
+      ],
+      "qual": 1440.0,
+      "evidence": {
+        "PE": 14,
+        "SR": 10,
+        "MAPQ": 60,
+        "SRMAPQ": 60,
+        "CIPOS": [
+          -5,
+          5
+        ],
+        "CIEND": [
+          -5,
+          5
+        ]
+      },
+      "genotype": {
+        "GT": [
+          0,
+          1
+        ],
+        "GQ": 10000,
+        "GL": null,
+        "DR": 24,
+        "DV": 14,
+        "RR": 21,
+        "RV": 12,
+        "RDCN": 3
+      }
+    },
+    {
+      "id": "INV00000002",
+      "chrom": "1",
+      "pos_1based": 549999,
+      "end_chrom": "1",
+      "end_position": 558001,
+      "type": "INV",
+      "connection_type": "3to3",
+      "length": 8002,
+      "precise": true,
+      "filter": [
+        "PASS"
+      ],
+      "qual": 1140.0,
+      "evidence": {
+        "PE": 12,
+        "SR": 7,
+        "MAPQ": 60,
+        "SRMAPQ": 60,
+        "CIPOS": [
+          -4,
+          4
+        ],
+        "CIEND": [
+          -4,
+          4
+        ]
+      },
+      "genotype": {
+        "GT": [
+          0,
+          1
+        ],
+        "GQ": 10000,
+        "GL": null,
+        "DR": 15,
+        "DV": 12,
+        "RR": 13,
+        "RV": 10,
+        "RDCN": 2
+      }
+    },
+    {
+      "id": "INV00000003",
+      "chrom": "1",
+      "pos_1based": 550001,
+      "end_chrom": "1",
+      "end_position": 558001,
+      "type": "INV",
+      "connection_type": "5to5",
+      "length": 8000,
+      "precise": true,
+      "filter": [
+        "PASS"
+      ],
+      "qual": 1140.0,
+      "evidence": {
+        "PE": 9,
+        "SR": 10,
+        "MAPQ": 60,
+        "SRMAPQ": 60,
+        "CIPOS": [
+          -3,
+          3
+        ],
+        "CIEND": [
+          -3,
+          3
+        ]
+      },
+      "genotype": {
+        "GT": [
+          0,
+          1
+        ],
+        "GQ": 10000,
+        "GL": null,
+        "DR": 16,
+        "DV": 9,
+        "RR": 13,
+        "RV": 11,
+        "RDCN": 2
+      }
+    },
+    {
+      "id": "BND00000004",
+      "chrom": "2",
+      "pos_1based": 499999,
+      "end_chrom": "1",
+      "end_position": 900000,
+      "type": "BND",
+      "connection_type": "3to5",
+      "length": null,
+      "precise": true,
+      "filter": [
+        "PASS"
+      ],
+      "qual": 840.0,
+      "evidence": {
+        "PE": 9,
+        "SR": 5,
+        "MAPQ": 60,
+        "SRMAPQ": 60,
+        "CIPOS": [
+          -2,
+          2
+        ],
+        "CIEND": [
+          -2,
+          2
+        ]
+      },
+      "genotype": {
+        "GT": [
+          0,
+          1
+        ],
+        "GQ": 10000,
+        "GL": null,
+        "DR": 13,
+        "DV": 9,
+        "RR": 15,
+        "RV": 10,
+        "RDCN": 2
+      }
+    },
+    {
+      "id": "BND00000005",
+      "chrom": "2",
+      "pos_1based": 500000,
+      "end_chrom": "1",
+      "end_position": 899999,
+      "type": "BND",
+      "connection_type": "5to3",
+      "length": null,
+      "precise": true,
+      "filter": [
+        "PASS"
+      ],
+      "qual": 2220.0,
+      "evidence": {
+        "PE": 22,
+        "SR": 15,
+        "MAPQ": 60,
+        "SRMAPQ": 60,
+        "CIPOS": [
+          -2,
+          2
+        ],
+        "CIEND": [
+          -2,
+          2
+        ]
+      },
+      "genotype": {
+        "GT": [
+          0,
+          1
+        ],
+        "GQ": 10000,
+        "GL": null,
+        "DR": 13,
+        "DV": 22,
+        "RR": 15,
+        "RV": 19,
+        "RDCN": 2
+      }
+    }
+  ],
+  "delly": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/tools/delly-2.6.0/bin/delly",
+    "bytes": 1760048,
+    "mtime_ns": 1789844078166393517,
+    "sha256": "09a83090cdb28337f7647b94ce04396373fe244321048ae22d74a773cf18bac0"
+  },
+  "outputs": {
+    "aligned.cram": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-cram30-control-20260920/aligned.cram",
+      "bytes": 3027552,
+      "mtime_ns": 1789876127716657721,
+      "sha256": "f2073faa1db0e2407102a9ba29004cf50f323bbb429d310cd1129a437b75f780"
+    },
+    "aligned.cram.crai": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-cram30-control-20260920/aligned.cram.crai",
+      "bytes": 891,
+      "mtime_ns": 1789876127724310618,
+      "sha256": "1bfb9a3089f6d6eb7f8b490edeed4b84ec20938cdb4f0e8b134271e3e50784cd"
+    },
+    "calls.bcf": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-cram30-control-20260920/calls.bcf",
+      "bytes": 2819,
+      "mtime_ns": 1789876133337255531,
+      "sha256": "fb97e7a0bfba531932ddb00a4ed9177b6467bd36941ee4cdfc420a48c16ab01a"
+    },
+    "calls.bcf.csi": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-cram30-control-20260920/calls.bcf.csi",
+      "bytes": 140,
+      "mtime_ns": 1789876133337866620,
+      "sha256": "36b30b8e044e41d085cbdc87fa3faeaa22eb75bce787a702f6357bde943e3156"
+    }
+  },
+  "scope": "Bounded synthetic format/caller check, not whole-genome accuracy or completion of patient discovery."
+}

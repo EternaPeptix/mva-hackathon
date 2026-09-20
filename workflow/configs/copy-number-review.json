@@ -1,0 +1,8 @@
+{
+  "scope": "Exploratory post-run triage; thresholds were chosen after viewing raw call distributions and are not clinical acceptance criteria.",
+  "primary": {"maximum_q0": 0.1, "maximum_gap_fraction": 0.01, "maximum_e1_exclusive": 0.05, "maximum_deletion_ratio": 0.75, "minimum_duplication_ratio": 1.25},
+  "stricter": {"maximum_q0": 0.05, "maximum_gap_fraction": 0.0, "maximum_e1_exclusive": 0.01, "maximum_deletion_ratio": 0.75, "minimum_duplication_ratio": 1.25},
+  "reciprocal_overlap_minimum": 0.5,
+  "review_genes": ["BUB1B", "TRIP13", "CEP57", "CENATAC", "MAD2L1BP", "SLF2", "SMC5", "TRIM37", "BUB1", "BUB3", "MAD2L1", "FANCD2", "DNAH10", "HLA-C", "SERPINA1", "EIF2S2", "CRYAA"],
+  "gene_annotation": "Ensembl 116 primary-chromosome GRCh38 GFF3; all annotated gene spans and union of CDS across transcripts; no dosage/pathogenicity classification."
+}

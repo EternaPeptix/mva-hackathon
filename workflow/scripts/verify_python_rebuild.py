@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Restore captured Python environments from verified local wheels and run existing controls."""
+"""Restore captured package versions from a verified wheel set and run existing controls."""
 import argparse
 import datetime
 import json
@@ -24,6 +24,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     for name in ('root', 'export', 'rebuild', 'wheelhouse', 'output'):
         parser.add_argument('--' + name, type=Path, required=True)
+    parser.add_argument('--published-source-build', action='store_true',
+                        help='Explicitly validate newly compiled wheels, without original-payload equality claims')
+    parser.add_argument('--expected-wheelhouse-sha256')
     args = parser.parse_args()
     root, capture_dir, rebuild, wheelhouse, out = (getattr(args, n).resolve()
         for n in ('root', 'export', 'rebuild', 'wheelhouse', 'output'))
@@ -33,7 +36,20 @@ def main():
     conda = json.loads((rebuild / 'status.json').read_text())
     wheels = json.loads((wheelhouse / 'status.json').read_text())
     if conda['status'] != 'complete' or wheels['status'] != 'complete':
-        parser.error('Verified Conda rebuild and matching installed-payload wheel set required')
+        parser.error('Completed Conda rebuild and verified wheel preparation required')
+    mode = wheels.get('build_mode', 'preserved_wheels')
+    if args.published_source_build != (mode == 'published_sources'):
+        parser.error('Newly source-built wheels require the explicit published-source-build mode')
+    if args.published_source_build:
+        if (not args.expected_wheelhouse_sha256
+                or sha256(wheelhouse / 'status.json') != args.expected_wheelhouse_sha256):
+            parser.error('Pin the exact completed source-build receipt')
+        if (len(wheels.get('builds', [])) != 5
+                or {r['name'] for r in wheels['builds']} != {'cnvpytor', 'pyabpoa', 'pytabix', 'pywfa', 'whatshap'}
+                or len(wheels['wheels']) != 45):
+            parser.error('Unexpected published-source build scope')
+    elif mode != 'preserved_wheels':
+        parser.error('Unknown wheel preparation mode')
     if conda['export_sha256'] != sha256(capture_dir / 'runtime.json') or wheels['export_sha256'] != conda['export_sha256']:
         parser.error('Environment captures disagree')
     py_pin = next(p for p in conda['runtime_files'] if p['path'] == 'tools/bio/bin/python')
@@ -52,6 +68,7 @@ def main():
              'started_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
              'script_sha256': sha256(Path(__file__)), 'export_sha256': conda['export_sha256'],
              'wheelhouse_receipt_sha256': sha256(wheelhouse / 'status.json'),
+             'wheel_provenance_mode': mode,
              'environments': {}, 'tests': [],
              'scope': 'Fresh Python environments on the rebuilt native base; existing synthetic controls.'}
     env = dict(os.environ, PYTHONNOUSERSITE='1', PYTHONDONTWRITEBYTECODE='1',
@@ -129,7 +146,9 @@ def main():
                      elapsed_seconds=round(time.monotonic() - start, 3),
                      limits=['These are existing synthetic execution/interpretation controls, not patient or public-benchmark accuracy.',
                              'Copy-number fixtures model aligned read density, not realignment, biological mosaics or clinical sensitivity.',
-                             'Wheel payload equality omits generated files and metadata, as described in wheel preparation.'])
+                             ('New source-built payload differences are recorded separately; no equality to the old cached wheel bytes is claimed.'
+                              if args.published_source_build else
+                              'Wheel payload equality omits generated files and metadata, as described in wheel preparation.')])
         save(out / 'status.json', state)
         print(json.dumps({'status': 'complete', 'python_environments': len(state['environments']),
                           'controls_passed': sum(r['passed'] for r in state['tests']), 'elapsed_seconds': state['elapsed_seconds']}))

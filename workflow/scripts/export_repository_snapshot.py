@@ -36,7 +36,11 @@ RECEIPTS = [
     'runtime-structural-comparator-20260919.json',
     'runtime-wheel-preparation-20260919.json',
     'runtime-wheel-sources-20260919.json',
+    'runtime-published-source-build-20260920.json',
+    'runtime-published-source-validation-20260920.json',
+    'runtime-published-source-public-sv-20260920.json',
     'gatk-cram-compatibility-native-control-20260920.json',
+    'structural-cram30-control-20260920.json',
 ]
 
 
@@ -151,7 +155,7 @@ def main():
                'transformations': transformations, 'release_pattern_findings': findings,
                'limits': ['Pattern checks are not a privacy certification; this explicit scope was selected after source/history review.',
                           'Named target/HPO configurations are included; patient-derived output tables, internal history and source data are absent.',
-                          'Exact wheel artifacts, standalone binaries and reference/genomic input files are separately required.',
+                          'Python wheels can be rebuilt from pinned publisher inputs with the tested source recipe; standalone binaries and reference/genomic inputs are acquired separately.',
                           'A source snapshot is not completion of the patient analysis, final submissions or public release.']}
     (output / 'SOURCE-SNAPSHOT.json').write_text(json.dumps(summary, indent=2) + '\n')
     print(json.dumps({'output': str(output), 'files': len(rows),

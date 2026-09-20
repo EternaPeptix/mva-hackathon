@@ -1,0 +1,828 @@
+{
+  "created_at": "2026-09-20T03:32:27.921202+00:00",
+  "status": "complete",
+  "host": "Mac Studio 512S2",
+  "scope": "Published-source Python wheel rebuild, fresh native/venv controls and matched bounded native-extension outputs; no patient computation in these checks.",
+  "source_wheel_receipt_sha256": "3f26cc637d009f3ca2d18a3fba816c188247c303ae2c45d3b85416a107d9cfac",
+  "commands": {
+    "build-v3-command": [
+      "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+      "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/rebuild_published_python_wheels.py",
+      "--source-receipt",
+      "/Users/jeweled/Documents/mva-hackathon/repo/results/runtime-wheel-sources-20260919.json",
+      "--build-tools",
+      "/Users/jeweled/Documents/mva-hackathon/repo/workflow/environments/20260920/source-build-tools.json",
+      "--runtime-export",
+      "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/export-v1/runtime.json",
+      "--python",
+      "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+      "--output",
+      "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/wheel-build-v3",
+      "--expected-source-receipt-sha256",
+      "bd7bfac5fb26c2358cc77e662cfbb2e462a832700d2a61d379f303a991ee7531",
+      "--expected-build-tools-sha256",
+      "38d9e65a18d8acb6625c5e2f4ffc2ae911c23f9f01f471460f1cd0867d978369",
+      "--expected-runtime-export-sha256",
+      "b508fe997179a9e8a82042f96ef0b479ed229b5cc3af104daa40572889ecffde",
+      "--expected-python-sha256",
+      "101eed1d9e3db137495f9a54720826eb3d7ac25b8c5a0e82d95372d8e7377e8f"
+    ],
+    "verify-command": [
+      "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+      "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/verify_python_rebuild.py",
+      "--root",
+      "/Users/jeweled/Documents/mva-hackathon",
+      "--export",
+      "/Users/jeweled/Documents/mva-hackathon/results/runtime-reproduction-20260919/export-v1",
+      "--rebuild",
+      "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1",
+      "--wheelhouse",
+      "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/wheel-build-v3",
+      "--output",
+      "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/python-verification-v1",
+      "--published-source-build",
+      "--expected-wheelhouse-sha256",
+      "3f26cc637d009f3ca2d18a3fba816c188247c303ae2c45d3b85416a107d9cfac"
+    ],
+    "public-comparison-command": [
+      "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1/tools/truvari-5.5.0/bin/python",
+      "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/recheck_public_sv_runtime.py",
+      "--original-root",
+      "/Users/jeweled/Documents/mva-hackathon",
+      "--runtime-root",
+      "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1",
+      "--validation",
+      "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/python-verification-v1/status.json",
+      "--expected-validation-sha256",
+      "bfe95a3a2c8349b593cd684d758f2143d205347d1322247d622a75a57e658f46",
+      "--config",
+      "/Users/jeweled/Documents/mva-hackathon/repo/workflow/configs/public-sv-pilot-comparison.json",
+      "--output",
+      "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/public-sv-comparisons-v1"
+    ]
+  },
+  "native_rebuild": {
+    "status": "complete",
+    "pid": 84094,
+    "started_at": "2026-09-20T03:03:52.221975+00:00",
+    "export_sha256": "b508fe997179a9e8a82042f96ef0b479ed229b5cc3af104daa40572889ecffde",
+    "script_sha256": "80a168598980691b68a3fa4b4df949f6a7c44ff002bc453818e3eea5d34b5207",
+    "environments": {
+      "bio": {
+        "package_count": 105,
+        "all_package_identities_equal": true,
+        "elapsed_seconds": 10.709
+      },
+      "delly-2.6.0": {
+        "package_count": 27,
+        "all_package_identities_equal": true,
+        "elapsed_seconds": 9.608
+      },
+      "mafft-7.526": {
+        "package_count": 11,
+        "all_package_identities_equal": true,
+        "elapsed_seconds": 3.193
+      },
+      "svaba-1.2.0": {
+        "package_count": 25,
+        "all_package_identities_equal": true,
+        "elapsed_seconds": 3.799
+      }
+    },
+    "scope": "Fresh native macOS arm64 Conda prefixes from captured archives; synthetic reads only.",
+    "test_source_sha256": "9e2c127159f8d67fa28590287637ccdfa06f481dd85359699ee5847b94ba4073",
+    "caller_source_sha256": "5af91153e9926b0d8b985d0575b0a6ef51e1496d16ff3614c4cb4d8b2b4ac358",
+    "native_test_command": [
+      "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1/tools/bio/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "/Users/jeweled/Documents/mva-hackathon/repo/workflow/tests",
+      "-p",
+      "test_call_native.py",
+      "-v"
+    ],
+    "native_caller_tests": {
+      "tests": 2,
+      "skipped": 0,
+      "exit_code": 0,
+      "elapsed_seconds": 14.863
+    },
+    "runtime_files": [
+      {
+        "path": "tools/bio/bin/python",
+        "original_sha256": "101eed1d9e3db137495f9a54720826eb3d7ac25b8c5a0e82d95372d8e7377e8f",
+        "rebuilt_sha256": "b5d2f2c3084150d9a4dabf29382bb8f8fcc61776f16d1612e1e99dbc0f78d163",
+        "identical_bytes": false
+      },
+      {
+        "path": "tools/bio/bin/bwa",
+        "original_sha256": "34f338e639956e9d14d582283c44a8b52ad0fff8944ccd1dabaeb8d651bcf04e",
+        "rebuilt_sha256": "34f338e639956e9d14d582283c44a8b52ad0fff8944ccd1dabaeb8d651bcf04e",
+        "identical_bytes": true
+      },
+      {
+        "path": "tools/bio/bin/samtools",
+        "original_sha256": "7518cbb230a35393d7d3a9f02fc8b4519e4a37b5a17fbed06b9752ca1d962a91",
+        "rebuilt_sha256": "ace3d13f74810a9aeb07dd3e1e8161bea2c81348b8cb445a3997c11fd45b582b",
+        "identical_bytes": false
+      },
+      {
+        "path": "tools/bio/bin/bcftools",
+        "original_sha256": "c427681749daabb97be4a010c31c6b24349aaea6abc7bea27d6ce9126874b260",
+        "rebuilt_sha256": "b3acc63a73de8e002a77aa87d595d30c8482607a7ef0f7d8b62f7ca17d05bbad",
+        "identical_bytes": false
+      },
+      {
+        "path": "tools/bio/lib/jvm/bin/java",
+        "original_sha256": "ec64ac719290ad080c7f8a4f5d83402e4152f98f486fe14150cf734a46ebcbb1",
+        "rebuilt_sha256": "ec64ac719290ad080c7f8a4f5d83402e4152f98f486fe14150cf734a46ebcbb1",
+        "identical_bytes": true
+      },
+      {
+        "path": "tools/delly-2.6.0/bin/delly",
+        "original_sha256": "09a83090cdb28337f7647b94ce04396373fe244321048ae22d74a773cf18bac0",
+        "rebuilt_sha256": "6b56a501a0503d9c60626487132cae19ec5b5bd07db00489c8548cd7baa7fdf0",
+        "identical_bytes": false
+      },
+      {
+        "path": "tools/svaba-1.2.0/bin/svaba",
+        "original_sha256": "1e408ade23375b1b1e1281ec1d26b2527f32f126f13924afdaee0c9c12f1a3de",
+        "rebuilt_sha256": "5501af63eff3b277566cb3a66ebd47f6f1307cb9c000fcd5273a00e8ac1ec92d",
+        "identical_bytes": false
+      },
+      {
+        "path": "tools/mafft-7.526/bin/mafft",
+        "original_sha256": "c85d1e3fe6583c95e9ef10fc9a7753a0b4e5f9dc65622c9f70b38046cb9a1c96",
+        "rebuilt_sha256": "f30695975cdff2260fa8557d8d96b9538339a50cda06cffbc3a8a0a2c0c45b07",
+        "identical_bytes": false
+      },
+      {
+        "path": "gatk-4.6.1.0/gatk-package-4.6.1.0-local.jar",
+        "original_sha256": "b2824999fafe4dc83036e334b9765d4a7de4f4ff4bec1e929d77bea04a1560c7",
+        "rebuilt_sha256": "b2824999fafe4dc83036e334b9765d4a7de4f4ff4bec1e929d77bea04a1560c7",
+        "identical_bytes": true
+      }
+    ],
+    "completed_at": "2026-09-20T03:04:35.060049+00:00",
+    "elapsed_seconds": 42.837,
+    "limits": [
+      "This verifies four Conda environments, a pinned GATK copy, and a two-contig synthetic caller experiment.",
+      "Pip environments, public pilot accuracy, patient calls and full scientific reproduction are not validated by these checks.",
+      "Relocated installed executable bytes can differ; package archives remain pinned and compared by identity."
+    ]
+  },
+  "python_rebuild": {
+    "status": "complete",
+    "pid": 86823,
+    "started_at": "2026-09-20T03:17:04.825694+00:00",
+    "script_sha256": "18467a6ead59ede96a591e8005068d0d5772382abf4d14df3923f171566613b2",
+    "export_sha256": "b508fe997179a9e8a82042f96ef0b479ed229b5cc3af104daa40572889ecffde",
+    "wheelhouse_receipt_sha256": "3f26cc637d009f3ca2d18a3fba816c188247c303ae2c45d3b85416a107d9cfac",
+    "wheel_provenance_mode": "published_sources",
+    "environments": {
+      "cnvpytor-1.3.2": {
+        "local_distributions": 21,
+        "base_distributions": 8,
+        "all_version_and_origin_identities_equal": true,
+        "dependency_check": "No broken requirements found."
+      },
+      "truvari-5.5.0": {
+        "local_distributions": 21,
+        "base_distributions": 0,
+        "all_version_and_origin_identities_equal": true,
+        "dependency_check": "No broken requirements found."
+      },
+      "whatshap-2.8": {
+        "local_distributions": 10,
+        "base_distributions": 8,
+        "all_version_and_origin_identities_equal": true,
+        "dependency_check": "No broken requirements found."
+      }
+    },
+    "tests": [
+      {
+        "name": "alignment",
+        "passed": 1,
+        "skipped": 0,
+        "elapsed_seconds": 2.436,
+        "test_sha256": "bf6ada3eb6ef9e587da1faa9408f266e04124a556077e69c4841e85c28ed00a9"
+      },
+      {
+        "name": "phasing",
+        "passed": 6,
+        "skipped": 0,
+        "elapsed_seconds": 4.1,
+        "test_sha256": "915cfb7c4969f550e5306c151252c63816fe405c75810a1b921d285ea7eab20e"
+      },
+      {
+        "name": "copy-number",
+        "passed": 7,
+        "skipped": 0,
+        "elapsed_seconds": 108.166,
+        "test_sha256": "afcfaf3124fa51695a75c49354fc2b3bcd9b6ab224f930711c418b12fdef63b2"
+      },
+      {
+        "name": "structural comparator with full-context MAFFT refinement",
+        "passed": 6,
+        "elapsed_seconds": 28.629,
+        "test_sha256": "7ec5c505480e4d4b754a48f1c59206ad83633cfbc54d3522f9ef2d8742194194",
+        "config_sha256": "86b2e380e5dd390b05ee7deb3393171976ebe84f828bb556e3e4f5ef8f667e80"
+      }
+    ],
+    "scope": "Fresh Python environments on the rebuilt native base; existing synthetic controls.",
+    "completed_at": "2026-09-20T03:19:43.325518+00:00",
+    "elapsed_seconds": 158.498,
+    "limits": [
+      "These are existing synthetic execution/interpretation controls, not patient or public-benchmark accuracy.",
+      "Copy-number fixtures model aligned read density, not realignment, biological mosaics or clinical sensitivity.",
+      "New source-built payload differences are recorded separately; no equality to the old cached wheel bytes is claimed."
+    ]
+  },
+  "additional_native_extension_controls": {
+    "original": {
+      "completed_at": "2026-09-20T03:12:17.301383+00:00",
+      "script_sha256": "b524b95b82402bb3e7d0a274a5768b00b3cd7da201d264b0c45a74a69b31a4df",
+      "python": "3.12.14 (main, Sep  3 2026, 03:46:19) [Clang 21.1.8 ]",
+      "prefix": "/Users/jeweled/Documents/mva-hackathon/tools/truvari-5.5.0",
+      "native_files": {
+        "pyabpoa": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/tools/truvari-5.5.0/lib/python3.12/site-packages/pyabpoa.cpython-312-darwin.so",
+          "bytes": 379456,
+          "sha256": "0af6bf415e2eaee905687127f4e803318521a38a86a6d49c679ee7e3f050c5d9",
+          "file_description": "/Users/jeweled/Documents/mva-hackathon/tools/truvari-5.5.0/lib/python3.12/site-packages/pyabpoa.cpython-312-darwin.so: Mach-O 64-bit bundle arm64"
+        },
+        "pywfa": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/tools/truvari-5.5.0/lib/python3.12/site-packages/pywfa/align.cpython-312-darwin.so",
+          "bytes": 358360,
+          "sha256": "fc98bb0333cbef7e0902b6bd83a1fc8d8b0b70c68168c96b3ad328f37495ff30",
+          "file_description": "/Users/jeweled/Documents/mva-hackathon/tools/truvari-5.5.0/lib/python3.12/site-packages/pywfa/align.cpython-312-darwin.so: Mach-O 64-bit bundle arm64"
+        },
+        "pytabix": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/tools/truvari-5.5.0/lib/python3.12/site-packages/tabix.cpython-312-darwin.so",
+          "bytes": 92488,
+          "sha256": "3b8e1aa7af92217e3aaf1733ac07ac61b03cf9f2a07604d1c36855fe0d04e249",
+          "file_description": "/Users/jeweled/Documents/mva-hackathon/tools/truvari-5.5.0/lib/python3.12/site-packages/tabix.cpython-312-darwin.so: Mach-O 64-bit bundle arm64"
+        }
+      },
+      "versions": {
+        "pyabpoa": "1.5.7.1",
+        "pywfa": "0.5.1",
+        "pytabix": "0.1",
+        "pysam": "0.24.1"
+      },
+      "cases": [
+        {
+          "name": "pyabpoa majority consensus with one insertion",
+          "inputs": [
+            "ACGTCAGTACCTGATCGTAC",
+            "ACGTCAGTACGCTGATCGTAC",
+            "ACGTCAGTACCTGATCGTAC"
+          ],
+          "consensus": [
+            "ACGTCAGTACCTGATCGTAC"
+          ],
+          "msa": [
+            "ACGTCAGTAC-CTGATCGTAC",
+            "ACGTCAGTACGCTGATCGTAC",
+            "ACGTCAGTAC-CTGATCGTAC",
+            "ACGTCAGTAC-CTGATCGTAC"
+          ],
+          "passed": true
+        },
+        {
+          "name": "pywfa exact",
+          "pattern": "ACGTCAGTACCTGATCGTAC",
+          "text": "ACGTCAGTACCTGATCGTAC",
+          "score": 0,
+          "cigar": [
+            [
+              0,
+              20
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "name": "pywfa substitution",
+          "pattern": "ACGTCAGTACCTGATCGTAC",
+          "text": "ACGTCAGTACATGATCGTAC",
+          "score": -4,
+          "cigar": [
+            [
+              0,
+              10
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              0,
+              9
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "name": "pywfa insertion",
+          "pattern": "ACGTCAGTACCTGATCGTAC",
+          "text": "ACGTCAGTACGGGCTGATCGTAC",
+          "score": -12,
+          "cigar": [
+            [
+              0,
+              10
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "name": "pywfa deletion",
+          "pattern": "ACGTCAGTACCTGATCGTAC",
+          "text": "ACGTCAGTACATCGTAC",
+          "score": -12,
+          "cigar": [
+            [
+              0,
+              10
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "name": "pytabix indexed half-open interval boundaries",
+          "queries": [
+            {
+              "chrom": "1",
+              "start_0based": 19,
+              "end_exclusive": 20,
+              "rows": [
+                [
+                  "1",
+                  "10",
+                  "20",
+                  "a"
+                ]
+              ]
+            },
+            {
+              "chrom": "1",
+              "start_0based": 20,
+              "end_exclusive": 21,
+              "rows": [
+                [
+                  "1",
+                  "20",
+                  "30",
+                  "b"
+                ]
+              ]
+            },
+            {
+              "chrom": "2",
+              "start_0based": 0,
+              "end_exclusive": 1,
+              "rows": [
+                [
+                  "2",
+                  "0",
+                  "5",
+                  "c"
+                ]
+              ]
+            },
+            {
+              "chrom": "1",
+              "start_0based": 30,
+              "end_exclusive": 31,
+              "rows": []
+            }
+          ],
+          "passed": true
+        }
+      ],
+      "all_passed": true,
+      "scope": "Six bounded artificial-data checks exercise three imported native extensions; no genome-wide accuracy or clinical sensitivity claim."
+    },
+    "rebuilt": {
+      "completed_at": "2026-09-20T03:19:11.666660+00:00",
+      "script_sha256": "b524b95b82402bb3e7d0a274a5768b00b3cd7da201d264b0c45a74a69b31a4df",
+      "python": "3.12.14 (main, Sep  3 2026, 03:46:19) [Clang 21.1.8 ]",
+      "prefix": "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1/tools/truvari-5.5.0",
+      "native_files": {
+        "pyabpoa": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1/tools/truvari-5.5.0/lib/python3.12/site-packages/pyabpoa.cpython-312-darwin.so",
+          "bytes": 378592,
+          "sha256": "b11669cae0150f50062072ecf45fbfa7b13c39afed380fd9a5ac33d471121ea9",
+          "file_description": "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1/tools/truvari-5.5.0/lib/python3.12/site-packages/pyabpoa.cpython-312-darwin.so: Mach-O 64-bit bundle arm64"
+        },
+        "pywfa": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1/tools/truvari-5.5.0/lib/python3.12/site-packages/pywfa/align.cpython-312-darwin.so",
+          "bytes": 359944,
+          "sha256": "d73509d7d3f1d5febe6b48f08da35d0888c72471a1440b49099ed16d4415ad08",
+          "file_description": "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1/tools/truvari-5.5.0/lib/python3.12/site-packages/pywfa/align.cpython-312-darwin.so: Mach-O 64-bit bundle arm64"
+        },
+        "pytabix": {
+          "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1/tools/truvari-5.5.0/lib/python3.12/site-packages/tabix.cpython-312-darwin.so",
+          "bytes": 92488,
+          "sha256": "3b8e1aa7af92217e3aaf1733ac07ac61b03cf9f2a07604d1c36855fe0d04e249",
+          "file_description": "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1/tools/truvari-5.5.0/lib/python3.12/site-packages/tabix.cpython-312-darwin.so: Mach-O 64-bit bundle arm64"
+        }
+      },
+      "versions": {
+        "pyabpoa": "1.5.7.1",
+        "pywfa": "0.5.1",
+        "pytabix": "0.1",
+        "pysam": "0.24.1"
+      },
+      "cases": [
+        {
+          "name": "pyabpoa majority consensus with one insertion",
+          "inputs": [
+            "ACGTCAGTACCTGATCGTAC",
+            "ACGTCAGTACGCTGATCGTAC",
+            "ACGTCAGTACCTGATCGTAC"
+          ],
+          "consensus": [
+            "ACGTCAGTACCTGATCGTAC"
+          ],
+          "msa": [
+            "ACGTCAGTAC-CTGATCGTAC",
+            "ACGTCAGTACGCTGATCGTAC",
+            "ACGTCAGTAC-CTGATCGTAC",
+            "ACGTCAGTAC-CTGATCGTAC"
+          ],
+          "passed": true
+        },
+        {
+          "name": "pywfa exact",
+          "pattern": "ACGTCAGTACCTGATCGTAC",
+          "text": "ACGTCAGTACCTGATCGTAC",
+          "score": 0,
+          "cigar": [
+            [
+              0,
+              20
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "name": "pywfa substitution",
+          "pattern": "ACGTCAGTACCTGATCGTAC",
+          "text": "ACGTCAGTACATGATCGTAC",
+          "score": -4,
+          "cigar": [
+            [
+              0,
+              10
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              0,
+              9
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "name": "pywfa insertion",
+          "pattern": "ACGTCAGTACCTGATCGTAC",
+          "text": "ACGTCAGTACGGGCTGATCGTAC",
+          "score": -12,
+          "cigar": [
+            [
+              0,
+              10
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              10
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "name": "pywfa deletion",
+          "pattern": "ACGTCAGTACCTGATCGTAC",
+          "text": "ACGTCAGTACATCGTAC",
+          "score": -12,
+          "cigar": [
+            [
+              0,
+              10
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "passed": true
+        },
+        {
+          "name": "pytabix indexed half-open interval boundaries",
+          "queries": [
+            {
+              "chrom": "1",
+              "start_0based": 19,
+              "end_exclusive": 20,
+              "rows": [
+                [
+                  "1",
+                  "10",
+                  "20",
+                  "a"
+                ]
+              ]
+            },
+            {
+              "chrom": "1",
+              "start_0based": 20,
+              "end_exclusive": 21,
+              "rows": [
+                [
+                  "1",
+                  "20",
+                  "30",
+                  "b"
+                ]
+              ]
+            },
+            {
+              "chrom": "2",
+              "start_0based": 0,
+              "end_exclusive": 1,
+              "rows": [
+                [
+                  "2",
+                  "0",
+                  "5",
+                  "c"
+                ]
+              ]
+            },
+            {
+              "chrom": "1",
+              "start_0based": 30,
+              "end_exclusive": 31,
+              "rows": []
+            }
+          ],
+          "passed": true
+        }
+      ],
+      "all_passed": true,
+      "scope": "Six bounded artificial-data checks exercise three imported native extensions; no genome-wide accuracy or clinical sensitivity claim."
+    },
+    "comparison": {
+      "identical_cases": 6,
+      "versions": {
+        "pyabpoa": "1.5.7.1",
+        "pywfa": "0.5.1",
+        "pytabix": "0.1",
+        "pysam": "0.24.1"
+      },
+      "original_sha256": "991cb09a0f539fa5f9e7465a4b72d8bd5afc444855cc99694faed03c7e2e3d00",
+      "rebuilt_sha256": "33e5ada3a057b2d138a6458a1099aeac391e0f3a98e7661d56030eb9b934a273",
+      "native_files": {
+        "pyabpoa": {
+          "original_sha256": "0af6bf415e2eaee905687127f4e803318521a38a86a6d49c679ee7e3f050c5d9",
+          "rebuilt_sha256": "b11669cae0150f50062072ecf45fbfa7b13c39afed380fd9a5ac33d471121ea9",
+          "same_bytes": false
+        },
+        "pywfa": {
+          "original_sha256": "fc98bb0333cbef7e0902b6bd83a1fc8d8b0b70c68168c96b3ad328f37495ff30",
+          "rebuilt_sha256": "d73509d7d3f1d5febe6b48f08da35d0888c72471a1440b49099ed16d4415ad08",
+          "same_bytes": false
+        },
+        "pytabix": {
+          "original_sha256": "3b8e1aa7af92217e3aaf1733ac07ac61b03cf9f2a07604d1c36855fe0d04e249",
+          "rebuilt_sha256": "3b8e1aa7af92217e3aaf1733ac07ac61b03cf9f2a07604d1c36855fe0d04e249",
+          "same_bytes": true
+        }
+      },
+      "scope": "The six artificial-data outputs and package versions match exactly; this does not imply equality for all possible inputs or clinical accuracy."
+    }
+  },
+  "existing_controls_passed": 22,
+  "additional_native_cases_equal": 6,
+  "retained_setup_failures": [
+    {
+      "attempt": "wheel-build-v1",
+      "receipt": {
+        "status": "failed",
+        "build_mode": "published_sources",
+        "pid": 85312,
+        "started_at": "2026-09-20T03:07:44.814770+00:00",
+        "script_sha256": "8ba3ce2b5f0a1457b1277d6d7436aeece237b90bdc93aa7dda2f816bdc1a98d5",
+        "export_sha256": "b508fe997179a9e8a82042f96ef0b479ed229b5cc3af104daa40572889ecffde",
+        "source_receipt_sha256": "bd7bfac5fb26c2358cc77e662cfbb2e462a832700d2a61d379f303a991ee7531",
+        "build_tools_sha256": "38d9e65a18d8acb6625c5e2f4ffc2ae911c23f9f01f471460f1cd0867d978369",
+        "python_sha256": "101eed1d9e3db137495f9a54720826eb3d7ac25b8c5a0e82d95372d8e7377e8f",
+        "commands": [],
+        "builds": [],
+        "wheels": [],
+        "build_environment": {},
+        "error_type": "ValueError",
+        "error": "wheel metadata count differs",
+        "failed_at": "2026-09-20T03:07:55.316731+00:00"
+      },
+      "correction": "Accept nested vendored wheel metadata and require exactly one top-level distribution metadata pair; stopped before any package build.",
+      "source_snapshot": "workflow/source-snapshots/rebuild_published_python_wheels-before-root-metadata-fix-20260920.py"
+    },
+    {
+      "attempt": "wheel-build-v2",
+      "receipt": {
+        "status": "failed",
+        "build_mode": "published_sources",
+        "pid": 85538,
+        "started_at": "2026-09-20T03:10:28.866025+00:00",
+        "script_sha256": "a7c7202d8b295b3b0f38ba5b61e2006a0fcf0cb1128355f675bcb79ac7554a2a",
+        "export_sha256": "b508fe997179a9e8a82042f96ef0b479ed229b5cc3af104daa40572889ecffde",
+        "source_receipt_sha256": "bd7bfac5fb26c2358cc77e662cfbb2e462a832700d2a61d379f303a991ee7531",
+        "build_tools_sha256": "38d9e65a18d8acb6625c5e2f4ffc2ae911c23f9f01f471460f1cd0867d978369",
+        "python_sha256": "101eed1d9e3db137495f9a54720826eb3d7ac25b8c5a0e82d95372d8e7377e8f",
+        "commands": [
+          {
+            "name": "create-build-environment",
+            "exit_code": 0,
+            "elapsed_seconds": 1.612530916929245,
+            "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "name": "install-build-tools",
+            "exit_code": 0,
+            "elapsed_seconds": 0.47164716687984765,
+            "log_sha256": "4e3cf96ffab9d239e5d26aa02ceb15905e38ebbdb8a493d4d09d6b6616de2ba6"
+          },
+          {
+            "name": "build-dependency-check",
+            "exit_code": 0,
+            "elapsed_seconds": 0.2448035830166191,
+            "log_sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+          },
+          {
+            "name": "build-environment-identity",
+            "exit_code": 0,
+            "elapsed_seconds": 0.047959082992747426,
+            "log_sha256": "9c545db96567613cb993cf44ce10d2c67e7c2914760497acc18ad69bc16e0d83"
+          },
+          {
+            "name": "compiler-version",
+            "exit_code": 0,
+            "elapsed_seconds": 0.013971582986414433,
+            "log_sha256": "2b188bca1426b3565f2be4f2f50d8dd8badc022b100945e2fed04e54a7426c38"
+          },
+          {
+            "name": "sdk-path",
+            "exit_code": 0,
+            "elapsed_seconds": 0.007970375008881092,
+            "log_sha256": "71d2d22cf2f2d1a4606d2b131f4f1cc22ab8f2f05df7e76fb6298e428ace92e6"
+          },
+          {
+            "name": "sdk-version",
+            "exit_code": 1,
+            "elapsed_seconds": 0.7221142079215497,
+            "log_sha256": "c61292f58c2ec7c2d6e2c59acc6073ece688e47b937b7c7c8c356a09d33559b9"
+          }
+        ],
+        "builds": [],
+        "wheels": [],
+        "build_environment": {
+          "python": "3.12.14 (main, Sep  3 2026, 03:46:19) [Clang 21.1.8 ]",
+          "machine": "arm64",
+          "packages": [
+            [
+              "Cython",
+              "3.0.12"
+            ],
+            [
+              "packaging",
+              "26.3"
+            ],
+            [
+              "pip",
+              "26.2.1"
+            ],
+            [
+              "setuptools",
+              "84.0.0"
+            ],
+            [
+              "setuptools-scm",
+              "10.2.3"
+            ],
+            [
+              "vcs-versioning",
+              "2.4.1"
+            ],
+            [
+              "wheel",
+              "0.48.0"
+            ]
+          ]
+        },
+        "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin25.4.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "sdk_path": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "error_type": "ValueError",
+        "error": "sdk-version failed; original inputs and build log retained",
+        "failed_at": "2026-09-20T03:10:41.956785+00:00"
+      },
+      "correction": "Read SDK version from the actual SDKSettings.json and set SDKROOT for the build process only; no global Xcode selection change; stopped before any package build.",
+      "source_snapshot": "workflow/source-snapshots/rebuild_published_python_wheels-before-sdk-metadata-fix-20260920.py"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "native-extension-comparison.json",
+      "bytes": 1200,
+      "sha256": "3752dabf4ee7cf2d4fb9eaf71d5111346d967a27a62bc56b52955ad7704da8b6"
+    },
+    {
+      "path": "native-rebuild-v1/status.json",
+      "bytes": 4462,
+      "sha256": "c402d5e278c02764a7e8875e5f2c57a9a4538d39c5b4dfbdd9681bd2052e0075"
+    },
+    {
+      "path": "original-native-extension-controls/summary.json",
+      "bytes": 4567,
+      "sha256": "991cb09a0f539fa5f9e7465a4b72d8bd5afc444855cc99694faed03c7e2e3d00"
+    },
+    {
+      "path": "public-sv-comparisons-v1/status.json",
+      "bytes": 237,
+      "sha256": "74f72aa17635848b4e83cd196420862cc60344fadf7b6d38f3bc84c111b5fd1f"
+    },
+    {
+      "path": "public-sv-comparisons-v1/summary.json",
+      "bytes": 13742,
+      "sha256": "5d7c8569e5bd85eea2a8353fdc2521b55b04c40cc0a1ca0154bb904e4c64b97a"
+    },
+    {
+      "path": "python-verification-v1/status.json",
+      "bytes": 2545,
+      "sha256": "bfe95a3a2c8349b593cd684d758f2143d205347d1322247d622a75a57e658f46"
+    },
+    {
+      "path": "python-verification-v1/structural-comparator/summary.json",
+      "bytes": 19499,
+      "sha256": "97f2eef528f71404c395946349f5ab98ec565883bfb4e640089134aebd9a05e1"
+    },
+    {
+      "path": "rebuilt-native-extension-controls/summary.json",
+      "bytes": 4973,
+      "sha256": "33e5ada3a057b2d138a6458a1099aeac391e0f3a98e7661d56030eb9b934a273"
+    },
+    {
+      "path": "wheel-build-v1/status.json",
+      "bytes": 779,
+      "sha256": "0263014c9fe99f042f3b900137f8cec0db48c0a48f4893283c220976dbfe0941"
+    },
+    {
+      "path": "wheel-build-v2/status.json",
+      "bytes": 3030,
+      "sha256": "693d6fac2e9d1fcbafec1f7a42e9653155ce6373106d2b59708110f8a85af72d"
+    },
+    {
+      "path": "wheel-build-v3/status.json",
+      "bytes": 38179,
+      "sha256": "3f26cc637d009f3ca2d18a3fba816c188247c303ae2c45d3b85416a107d9cfac"
+    }
+  ],
+  "limits": [
+    "Four Conda environments used verified cached package archives; fresh public-network acquisition of those archives was not repeated.",
+    "All 40 publisher Python wheels and five source archives were freshly downloaded using publisher URLs, sizes and hashes; the successful build did not read the old cached wheels.",
+    "Five generated wheel hashes differ from the old cached builds; native behavior was tested on the stated bounded controls, not assumed universally equivalent.",
+    "Public structural comparator repetition is separately recorded and reuses original caller outputs.",
+    "Patient jobs retained their original analysis environments; full scientific reproduction and clinical adequacy are not established."
+  ]
+}

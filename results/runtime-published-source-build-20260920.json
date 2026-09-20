@@ -1,0 +1,861 @@
+{
+  "status": "complete",
+  "build_mode": "published_sources",
+  "pid": 85932,
+  "started_at": "2026-09-20T03:14:39.795536+00:00",
+  "script_sha256": "b6f9948f6f9c56812f6b8ec04e663c5a36939201922bba4bbece5ff0de1c5723",
+  "export_sha256": "b508fe997179a9e8a82042f96ef0b479ed229b5cc3af104daa40572889ecffde",
+  "source_receipt_sha256": "bd7bfac5fb26c2358cc77e662cfbb2e462a832700d2a61d379f303a991ee7531",
+  "build_tools_sha256": "38d9e65a18d8acb6625c5e2f4ffc2ae911c23f9f01f471460f1cd0867d978369",
+  "python_sha256": "101eed1d9e3db137495f9a54720826eb3d7ac25b8c5a0e82d95372d8e7377e8f",
+  "commands": [
+    {
+      "name": "create-build-environment",
+      "exit_code": 0,
+      "elapsed_seconds": 1.5849234589841217,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "install-build-tools",
+      "exit_code": 0,
+      "elapsed_seconds": 0.4973314590752125,
+      "log_sha256": "2f99dc26b9758cae6b5c3633048ac5adb0501343aec543c8bb6ba3eb7aa615d7"
+    },
+    {
+      "name": "build-dependency-check",
+      "exit_code": 0,
+      "elapsed_seconds": 0.26745637506246567,
+      "log_sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+    },
+    {
+      "name": "build-environment-identity",
+      "exit_code": 0,
+      "elapsed_seconds": 0.0526352918241173,
+      "log_sha256": "9c545db96567613cb993cf44ce10d2c67e7c2914760497acc18ad69bc16e0d83"
+    },
+    {
+      "name": "compiler-version",
+      "exit_code": 0,
+      "elapsed_seconds": 0.014038666151463985,
+      "log_sha256": "2b188bca1426b3565f2be4f2f50d8dd8badc022b100945e2fed04e54a7426c38"
+    },
+    {
+      "name": "sdk-path",
+      "exit_code": 0,
+      "elapsed_seconds": 0.00785099994391203,
+      "log_sha256": "71d2d22cf2f2d1a4606d2b131f4f1cc22ab8f2f05df7e76fb6298e428ace92e6"
+    },
+    {
+      "name": "build-cnvpytor",
+      "exit_code": 0,
+      "elapsed_seconds": 1.0242611661087722,
+      "log_sha256": "9399c9be0f0d3e8f3f52c3f0ffb7929622e5f702d354615bb3d0424b84fd45c7"
+    },
+    {
+      "name": "build-pyabpoa",
+      "exit_code": 0,
+      "elapsed_seconds": 6.070699709001929,
+      "log_sha256": "9406eeba07eae3ff4c86f6014e58890695b5c01a455bcff241812ef79cad1dfa"
+    },
+    {
+      "name": "build-pytabix",
+      "exit_code": 0,
+      "elapsed_seconds": 1.6660841659177095,
+      "log_sha256": "86f27fff6e401cf3afa54262a38002136a8aa029e6008aa87b950db5c98bf9ae"
+    },
+    {
+      "name": "build-pywfa",
+      "exit_code": 0,
+      "elapsed_seconds": 10.872416916070506,
+      "log_sha256": "7eafc52d31dffa267d38d86a433d30e804baf5d695e0c339c287b5ba03e1fd00"
+    },
+    {
+      "name": "build-whatshap",
+      "exit_code": 0,
+      "elapsed_seconds": 28.656014416133985,
+      "log_sha256": "42b4c13b57f7f2a6f2877a6a3b33463ecc9fd64d5777160c902cd3f46f5d966d"
+    }
+  ],
+  "builds": [
+    {
+      "name": "cnvpytor",
+      "version": "1.3.2",
+      "source_sha256": "00822f25a69b12ad53e96bf2d7f1c52cbc9d09d55b3d4ff82f5dd331dfc78c56",
+      "preparation": {
+        "retained_source_files": 35,
+        "retained_source_manifest_sha256": "f39970eda46c575f2b1d60c4f3870f6031e6f089d45c69a2d321ecc792a77f49",
+        "omitted_prebuilt_members": []
+      },
+      "wheel": {
+        "name": "cnvpytor",
+        "version": "1.3.2",
+        "filename": "cnvpytor-1.3.2-py3-none-any.whl",
+        "bytes": 1132335,
+        "sha256": "97bf45079282759ed7877d3551b05630a79b4daa5124cea24adbe05f7015e6a3",
+        "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+      },
+      "native_wheel_members": [],
+      "payload_comparison": {
+        "status": "not_requested",
+        "scope": "Old cached wheels are not a build or validation prerequisite."
+      }
+    },
+    {
+      "name": "pyabpoa",
+      "version": "1.5.7.1",
+      "source_sha256": "765643c522032cac957c5c8b057e021599ffa01bcace39ba893aa31448e7a428",
+      "preparation": {
+        "retained_source_files": 557,
+        "retained_source_manifest_sha256": "a71bcd000797975c7b57231077f2a71c39ab72e99d9c8a1ad1fe725ff37f842a",
+        "omitted_prebuilt_members": []
+      },
+      "wheel": {
+        "name": "pyabpoa",
+        "version": "1.5.7.1",
+        "filename": "pyabpoa-1.5.7.1-cp312-cp312-macosx_11_0_arm64.whl",
+        "bytes": 167692,
+        "sha256": "df9a5ffae2ef803b25bc1d284f1bac7f3ab33f93bf659f32ec6403b23272a653",
+        "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\n\n"
+      },
+      "native_wheel_members": [
+        "pyabpoa.cpython-312-darwin.so"
+      ],
+      "payload_comparison": {
+        "status": "not_requested",
+        "scope": "Old cached wheels are not a build or validation prerequisite."
+      }
+    },
+    {
+      "name": "pytabix",
+      "version": "0.1",
+      "source_sha256": "0774f1687ebd41811fb07a0e50951b6be72d7cc7e22ed2b18972eaf7482eb7d1",
+      "preparation": {
+        "retained_source_files": 27,
+        "retained_source_manifest_sha256": "d721cfe867f9c2225217cd144bb892d2e2bd6cf3b9421e14e7c31d5ae0eee280",
+        "omitted_prebuilt_members": []
+      },
+      "wheel": {
+        "name": "pytabix",
+        "version": "0.1",
+        "filename": "pytabix-0.1-cp312-cp312-macosx_11_0_arm64.whl",
+        "bytes": 36284,
+        "sha256": "7f128cfdab103809a78a57e368d7a458b2a79a9d6c4bc19685ce58b80eea0ce2",
+        "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\n\n"
+      },
+      "native_wheel_members": [
+        "tabix.cpython-312-darwin.so"
+      ],
+      "payload_comparison": {
+        "status": "not_requested",
+        "scope": "Old cached wheels are not a build or validation prerequisite."
+      }
+    },
+    {
+      "name": "pywfa",
+      "version": "0.5.1",
+      "source_sha256": "e972bf53f9e6d8957e9105ecc22cf704ac4bfad4d882d79c82f11fc260381483",
+      "preparation": {
+        "retained_source_files": 134,
+        "retained_source_manifest_sha256": "fad9f14137e05e78371aefffb5f2ef7ae1dd73ee819cfcf2172c62cf2ed7e0ae",
+        "omitted_prebuilt_members": [
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/affine2p_penalties.o",
+            "bytes": 680,
+            "sha256": "7b82dd9a4890c58362561e33c92576dfbb19ee9a3cc627567c38773317b4b4c3"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/affine_penalties.o",
+            "bytes": 680,
+            "sha256": "7b82dd9a4890c58362561e33c92576dfbb19ee9a3cc627567c38773317b4b4c3"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/bitmap.o",
+            "bytes": 7348,
+            "sha256": "2b9aa62a7cf23ed5b90d31fed00b55681011b3cf2e2b5538b162256c2ddb3822"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/cigar.o",
+            "bytes": 31844,
+            "sha256": "16e862433417da35f7a55d2f4c1e568b203421e1d4889fe16cbb59f34cd43bea"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/commons.o",
+            "bytes": 4344,
+            "sha256": "fd30b220859260ec4aeb8355c62e852ad2ba1edfa0669da33aa48abaae354556"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/dna_text.o",
+            "bytes": 2456,
+            "sha256": "7087ea868c3492d852e2f1a44500d4383a5322ed0f9baf5a9ba1862d51b39450"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/heatmap.o",
+            "bytes": 10732,
+            "sha256": "720ef5b180d4fb59ecb0dd47e31658433f4c16e35f98cbdd5d5e6bc2a4b26be6"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/mm_allocator.o",
+            "bytes": 35580,
+            "sha256": "ae2625df8b9882cbaa07b9cea5ffefc582a7f607b2d979e4396de2530dbb91bc"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/mm_stack.o",
+            "bytes": 15460,
+            "sha256": "16f4eb0950199022c3ac17fb227f2f3997d58ea7a951fa019cc086c6020d4b56"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/profiler_counter.o",
+            "bytes": 21188,
+            "sha256": "bec5e594451bbbc31217143deb65d4afbc062920a25584bdeb2c9efa2f23fcec"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/profiler_timer.o",
+            "bytes": 20956,
+            "sha256": "f97fb60a5935a19b2f5757fc5b5e4c42702d7e699cf72399d6c8f353f54b8901"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/score_matrix.o",
+            "bytes": 10220,
+            "sha256": "3f5b0a88b17208bf9475305d2c402d1cb5d4bb00320786c14cedd0ec9ede73eb"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/sequence_buffer.o",
+            "bytes": 8124,
+            "sha256": "f27211c0488159bfb496f2914254a5b2188acb4d8ff818747e9743f05aa83b88"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/string_padded.o",
+            "bytes": 13868,
+            "sha256": "649279b1e3231d689a4adb4bb173e882131f8c80d93ecf8db31802ba9e3eca47"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/vector.o",
+            "bytes": 8104,
+            "sha256": "bfeb3038c2eba4f63eee7c7f45c29d7d01e49cd83cf2ef0d566674244d2b3d10"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront.o",
+            "bytes": 9204,
+            "sha256": "c6893e2cb75cccfba2caee01994877fb2115e9252aa4c5979381d19de309bcdc"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_align.o",
+            "bytes": 34440,
+            "sha256": "79078f9d18f9b506dd2fe68bd31f64abcf3186554d4e9fbca18dfebbc3b26650"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_aligner.o",
+            "bytes": 38040,
+            "sha256": "70f7a9b1d20739335734a3294a3417f58824ea428b887cd48c057c00dc88fe69"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_attributes.o",
+            "bytes": 6988,
+            "sha256": "fbefcb619ba800e9648129a18d7a28a81779ff1c0661526f7985c4c4447b75b0"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_backtrace.o",
+            "bytes": 41816,
+            "sha256": "22aa93c4055b1c95870a39b79d6e5f58b1c6d12f0a47c9695aca1fccf47a5c53"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_backtrace_buffer.o",
+            "bytes": 29876,
+            "sha256": "4b8e8e8872991d445602105edd5c540274428743e10544f45b56e9a041c756d9"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_backtrace_offload.o",
+            "bytes": 28184,
+            "sha256": "c0e31259122053d64c7ef727d15f9894cb14f038f1c3b820197ac8623b823f32"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_bialign.o",
+            "bytes": 41248,
+            "sha256": "a1eb49c24ddce5318f12a322806e92ed7a2ccac7f90d77acae35f0395290e42a"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_components.o",
+            "bytes": 37060,
+            "sha256": "95c99fad3db75f44ba75e20ec55986c131ead5aec191745229484339ea34c3b8"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_compute.o",
+            "bytes": 39996,
+            "sha256": "90c4badc62786ab074acbd71c7989d8c4ca45f1c934d509940e363f089bd0f05"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_compute_affine.o",
+            "bytes": 26904,
+            "sha256": "eaeacb982a7af38500c9f98b3ae2b1e334511508437a20d26da06f0d36798b96"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_compute_affine2p.o",
+            "bytes": 32276,
+            "sha256": "e29711035f1ca0762243b3eadbb9acd7d6ede5124e7b2df99cc93f8481e80c8e"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_compute_edit.o",
+            "bytes": 42120,
+            "sha256": "c58e64282c56285ef540e2d49f923e95d0c5a6387bc8874328b5645a7debbc7e"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_compute_linear.o",
+            "bytes": 25536,
+            "sha256": "009472c7e5c5a795665750cc6d6e7608eee87eba9f49438f2e847fdce7af34f9"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_debug.o",
+            "bytes": 23780,
+            "sha256": "1a266759470977a9b574fce6abbd85198946e0e45501e0611a9d8a31a49a6f04"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_display.o",
+            "bytes": 34280,
+            "sha256": "2721b2545ce1c7e810342f55aca38fdeed072e03d002e2d4e53f79ba6ce772a3"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_extend.o",
+            "bytes": 28068,
+            "sha256": "008e7d3b258f76adea706813093099a08dc1f1141f2835643ef56736da0bc18c"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_heuristic.o",
+            "bytes": 41060,
+            "sha256": "ff40e6083f9b43165fa46f4438f3c82d431dbcff675aa535bd6cf2ba68866d60"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_pcigar.o",
+            "bytes": 21688,
+            "sha256": "86a770acd8b1e575f5282789955b341a37a1fff67660f5545e850adddfc50d6b"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_penalties.o",
+            "bytes": 9172,
+            "sha256": "d3565b3b3be5ea6c696aa24545f0fda3d7217fc74176a1b4bf03a20bbd2d0507"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_plot.o",
+            "bytes": 27092,
+            "sha256": "5bcdb3d8474b2ab9a5404f2a677bc1c30be71ee0f2861e59e474cb7d1e503e07"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/build/wavefront_slab.o",
+            "bytes": 17492,
+            "sha256": "7f64652843feced0ac42fc3633db9049a193f15156efd72f89b974b1a117a545"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/WFA2_lib/lib/libwfa.a",
+            "bytes": 844120,
+            "sha256": "1c80daff772b939a81ef9ece67b82db76ff3910ddd2bf923f254cd7e9926cef5"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/align.cpython-310-darwin.so",
+            "bytes": 596077,
+            "sha256": "b582349ff8af9153e2d44a7c4c7c0c2a67b787c1110e680dca81d46131000e4f"
+          },
+          {
+            "path": "pywfa-0.5.1/pywfa/align.cpython-39-darwin.so",
+            "bytes": 340288,
+            "sha256": "c8b4cb31d333504310c349dddec55dc8f814da7dd113c89deee1918d7836db01"
+          }
+        ]
+      },
+      "wheel": {
+        "name": "pywfa",
+        "version": "0.5.1",
+        "filename": "pywfa-0.5.1-py3-none-any.whl",
+        "bytes": 3517998,
+        "sha256": "2d864ce9d11aa3f5cac9c57fc07af6f60c2d7633b58f0212c6f34a79f82dbc65",
+        "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+      },
+      "native_wheel_members": [
+        "pywfa-0.5.1.data/platlib/pywfa/align.cpython-312-darwin.so",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/affine2p_penalties.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/affine_penalties.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/bitmap.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/cigar.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/commons.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/dna_text.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/heatmap.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/mm_allocator.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/mm_stack.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/profiler_counter.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/profiler_timer.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/score_matrix.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/sequence_buffer.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/string_padded.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/vector.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_align.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_aligner.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_attributes.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_backtrace.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_backtrace_buffer.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_backtrace_offload.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_bialign.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_components.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_compute.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_compute_affine.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_compute_affine2p.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_compute_edit.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_compute_linear.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_debug.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_display.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_extend.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_heuristic.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_pcigar.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_penalties.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_plot.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/build/wavefront_slab.o",
+        "pywfa-0.5.1.data/platlib/pywfa/WFA2_lib/lib/libwfa.a"
+      ],
+      "payload_comparison": {
+        "status": "not_requested",
+        "scope": "Old cached wheels are not a build or validation prerequisite."
+      }
+    },
+    {
+      "name": "whatshap",
+      "version": "2.8",
+      "source_sha256": "073ee7946d563e0125dbce58d9fc86a7a3fae377f27859dacb398309374b2cbe",
+      "preparation": {
+        "retained_source_files": 461,
+        "retained_source_manifest_sha256": "1b51a9aa0c5309869389268986b9b2b51ec6d3252e1aa221d9fbc921a648cf78",
+        "omitted_prebuilt_members": []
+      },
+      "wheel": {
+        "name": "whatshap",
+        "version": "2.8",
+        "filename": "whatshap-2.8-cp312-cp312-macosx_11_0_arm64.whl",
+        "bytes": 996841,
+        "sha256": "db711f8ca309ba137bbab2f3f8f1a1439fb3024334260d161e9140477fe1fcb6",
+        "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\n\n"
+      },
+      "native_wheel_members": [
+        "whatshap/_variants.cpython-312-darwin.so",
+        "whatshap/align.cpython-312-darwin.so",
+        "whatshap/core.cpython-312-darwin.so",
+        "whatshap/priorityqueue.cpython-312-darwin.so",
+        "whatshap/readselect.cpython-312-darwin.so",
+        "whatshap/polyphase/solver.cpython-312-darwin.so"
+      ],
+      "payload_comparison": {
+        "status": "not_requested",
+        "scope": "Old cached wheels are not a build or validation prerequisite."
+      }
+    }
+  ],
+  "wheels": [
+    {
+      "name": "backports-zstd",
+      "version": "1.7.0",
+      "filename": "backports_zstd-1.7.0-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 367666,
+      "sha256": "bab192b934fdf5a03df4752556d9c8af2d058163fdfbafd4a253cdfe25449a6f",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "biopython",
+      "version": "1.88",
+      "filename": "biopython-1.88-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 2681164,
+      "sha256": "43ce1fbed01c0ddb903fa426fa0f836062d973a09df15560ac8e895da24c1350",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (83.0.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "filename": "certifi-2026.7.22-py3-none-any.whl",
+      "bytes": 136983,
+      "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (83.0.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.1",
+      "filename": "charset_normalizer-3.5.1-cp312-cp312-macosx_10_13_universal2.whl",
+      "bytes": 344456,
+      "sha256": "5b6d1386bf0096d26d3a863dc0a487a5b4eb9aa93cf5ba69683d29dde6b9d60f",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_10_13_universal2\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "cloudpickle",
+      "version": "3.1.2",
+      "filename": "cloudpickle-3.1.2-py3-none-any.whl",
+      "bytes": 22228,
+      "sha256": "9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: flit 3.12.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+    },
+    {
+      "name": "cnvpytor",
+      "version": "1.3.2",
+      "filename": "cnvpytor-1.3.2-py3-none-any.whl",
+      "bytes": 1132335,
+      "sha256": "97bf45079282759ed7877d3551b05630a79b4daa5124cea24adbe05f7015e6a3",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.4.0",
+      "filename": "contourpy-1.4.0-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 284921,
+      "sha256": "c76f3a5318164db7d9401132fc1b5364b784c613c93fa506e3b5e6d1bf353ec8",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: meson\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "filename": "cycler-0.12.1-py3-none-any.whl",
+      "bytes": 8321,
+      "sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: bdist_wheel (0.41.2)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "edlib",
+      "version": "1.3.9.post1",
+      "filename": "edlib-1.3.9.post1-cp312-cp312-macosx_10_9_universal2.whl",
+      "bytes": 132817,
+      "sha256": "9bc0d778527d2a1ff60379d6620c2fa057bc7a94a8a31ec525e550b7afcfd83c",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (74.1.1)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_10_9_universal2\n\n"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.65.0",
+      "filename": "fonttools-4.65.0-cp312-cp312-macosx_10_13_universal2.whl",
+      "bytes": 3097120,
+      "sha256": "e844a45c9e5ced6536f184cf1a65b5d65e8f7e711993b413e10500a8223622e5",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_10_13_universal2\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "gnureadline",
+      "version": "8.3.3",
+      "filename": "gnureadline-8.3.3-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 166744,
+      "sha256": "831599cd9fea95eae2110646d274ed0fe0e0c20cf32e0eb01a5225d9dad4f1b4",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "h5py",
+      "version": "3.16.0",
+      "filename": "h5py-3.16.0-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 3061940,
+      "sha256": "42b012933a83e1a558c673176676a10ce2fd3759976a0fedee1e672d1e04fc9d",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (82.0.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "filename": "idna-3.20-py3-none-any.whl",
+      "bytes": 69583,
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: flit 4.1.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+    },
+    {
+      "name": "intervaltree",
+      "version": "3.2.1",
+      "filename": "intervaltree-3.2.1-py2.py3-none-any.whl",
+      "bytes": 25929,
+      "sha256": "a8a8381bbd35d48ceebee932c77ffc988492d22fb1d27d0ba1d74a7694eb8f0b",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: hatchling 1.28.0\nRoot-Is-Purelib: true\nTag: py2-none-any\nTag: py3-none-any\n"
+    },
+    {
+      "name": "joblib",
+      "version": "1.6.0",
+      "filename": "joblib-1.6.0-py3-none-any.whl",
+      "bytes": 306115,
+      "sha256": "3dbbf9f6e4b592a2357b854608e980fe6390d131d7a82f011a377ef2ebef7aba",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1",
+      "filename": "kiwisolver-1.5.1-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 64660,
+      "sha256": "1798e83840c3f627246104c4d8a9639c60fa068adf9ce92b61791781fa8a68c1",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "filename": "markdown_it_py-4.2.0-py3-none-any.whl",
+      "bytes": 91687,
+      "sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: flit 3.12.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.2",
+      "filename": "matplotlib-3.11.2-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 9305583,
+      "sha256": "ef31985c4dedb5f1424e1aec6849a47dd37689cb7fa3c20b1b82187f26806261",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: meson\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "filename": "mdurl-0.1.2-py3-none-any.whl",
+      "bytes": 9979,
+      "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: flit 3.7.1\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+    },
+    {
+      "name": "networkx",
+      "version": "3.6.1",
+      "filename": "networkx-3.6.1-py3-none-any.whl",
+      "bytes": 2068504,
+      "sha256": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.3",
+      "filename": "numpy-2.5.3-cp312-cp312-macosx_14_0_arm64.whl",
+      "bytes": 5445405,
+      "sha256": "a72f874bc9e10e4b8f80426fb49716d5141f64442a0c8418065093ec8017fbb0",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: meson\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_14_0_arm64\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.6",
+      "filename": "pandas-3.0.6-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 10051279,
+      "sha256": "9dab635a549e58a053c7b0fa054dc0bd7be22f0ed9a720f4a85d5fb993276172",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: meson\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "filename": "pillow-12.3.0-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 4780323,
+      "sha256": "ffd0c5368496f41b0944be820fcb7a838aa6e623d250b01acf2643939c3f99d7",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (82.0.1)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "pip",
+      "version": "25.0.1",
+      "filename": "pip-25.0.1-py3-none-any.whl",
+      "bytes": 1841526,
+      "sha256": "c46efd13b6aa8279f33f2864459c8ce587ea6a1a59ee20de055868d8f7688f7f",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (75.8.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "psutil",
+      "version": "7.2.2",
+      "filename": "psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl",
+      "bytes": 129859,
+      "sha256": "1a7b04c10f32cc88ab39cbf606e117fd74721c831c98a27dc04578deb0c16979",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (75.3.3)\nRoot-Is-Purelib: false\nTag: cp36-abi3-macosx_11_0_arm64\n\n"
+    },
+    {
+      "name": "pulp",
+      "version": "3.3.2",
+      "filename": "pulp-3.3.2-py3-none-any.whl",
+      "bytes": 16391742,
+      "sha256": "631b166f72086971a9597f7a0233ababa99bb8d50a01cd543f7758be5a9f86c0",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (82.0.1)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "pyabpoa",
+      "version": "1.5.7.1",
+      "filename": "pyabpoa-1.5.7.1-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 167692,
+      "sha256": "df9a5ffae2ef803b25bc1d284f1bac7f3ab33f93bf659f32ec6403b23272a653",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\n\n"
+    },
+    {
+      "name": "pyarrow",
+      "version": "25.0.1",
+      "filename": "pyarrow-25.0.1-cp312-cp312-macosx_12_0_arm64.whl",
+      "bytes": 35861559,
+      "sha256": "df961f2e7ae9cf496459259d798652c70625f6c080650d6952f8c04053c58ee9",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: scikit-build-core 1.0.3\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_12_0_arm64\n\n"
+    },
+    {
+      "name": "pyfaidx",
+      "version": "0.9.0.4",
+      "filename": "pyfaidx-0.9.0.4-py3-none-any.whl",
+      "bytes": 29469,
+      "sha256": "18b223b7ba8c66b988a8ce00011500961cb2aeb7fa97d05a293cf472acdd0009",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (82.0.1)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "pygments",
+      "version": "2.21.0",
+      "filename": "pygments-2.21.0-py3-none-any.whl",
+      "bytes": 1250147,
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: hatchling 1.32.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "filename": "pyparsing-3.3.2-py3-none-any.whl",
+      "bytes": 122781,
+      "sha256": "850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: flit 3.12.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+    },
+    {
+      "name": "pysam",
+      "version": "0.24.1",
+      "filename": "pysam-0.24.1-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 2962189,
+      "sha256": "ceb448961fd35b5b90795d7c7c80b1b35592be7ae0127e28187e3f41c27e035b",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "pytabix",
+      "version": "0.1",
+      "filename": "pytabix-0.1-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 36284,
+      "sha256": "7f128cfdab103809a78a57e368d7a458b2a79a9d6c4bc19685ce58b80eea0ce2",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\n\n"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "filename": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "bytes": 229892,
+      "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: bdist_wheel (0.42.0)\nRoot-Is-Purelib: true\nTag: py2-none-any\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "pywfa",
+      "version": "0.5.1",
+      "filename": "pywfa-0.5.1-py3-none-any.whl",
+      "bytes": 3517998,
+      "sha256": "2d864ce9d11aa3f5cac9c57fc07af6f60c2d7633b58f0212c6f34a79f82dbc65",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "filename": "requests-2.34.2-py3-none-any.whl",
+      "bytes": 73075,
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (82.0.1)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0",
+      "filename": "rich-15.0.0-py3-none-any.whl",
+      "bytes": 310654,
+      "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: poetry-core 2.3.1\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1",
+      "filename": "scipy-1.18.1-cp312-cp312-macosx_14_0_arm64.whl",
+      "bytes": 20475078,
+      "sha256": "7bbf207c4453ce1ad2e00b17313852b33310b83090c2311bdaf97f93c0380d12",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: meson\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_14_0_arm64\nGenerator: delocate 0.13.0\n\n"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "filename": "six-1.17.0-py2.py3-none-any.whl",
+      "bytes": 11050,
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (75.6.0)\nRoot-Is-Purelib: true\nTag: py2-none-any\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "sortedcontainers",
+      "version": "2.4.0",
+      "filename": "sortedcontainers-2.4.0-py2.py3-none-any.whl",
+      "bytes": 29575,
+      "sha256": "a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: bdist_wheel (0.34.2)\nRoot-Is-Purelib: true\nTag: py2-none-any\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "truvari",
+      "version": "5.5.0",
+      "filename": "truvari-5.5.0-py3-none-any.whl",
+      "bytes": 111776,
+      "sha256": "0d54413d1f51cdbfcd572c728d52d322ad85deb8838d8cfd98e8e0e698c1d6dc",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "filename": "urllib3-2.8.0-py3-none-any.whl",
+      "bytes": 135717,
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: hatchling 1.32.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+    },
+    {
+      "name": "whatshap",
+      "version": "2.8",
+      "filename": "whatshap-2.8-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 996841,
+      "sha256": "db711f8ca309ba137bbab2f3f8f1a1439fb3024334260d161e9140477fe1fcb6",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: false\nTag: cp312-cp312-macosx_11_0_arm64\n\n"
+    },
+    {
+      "name": "xlsxwriter",
+      "version": "3.2.9",
+      "filename": "xlsxwriter-3.2.9-py3-none-any.whl",
+      "bytes": 175315,
+      "sha256": "9a5db42bc5dff014806c58a20b9eae7322a134abb6fce3c92c181bfb275ec5b3",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (75.8.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+    },
+    {
+      "name": "xopen",
+      "version": "2.1.0",
+      "filename": "xopen-2.1.0-py3-none-any.whl",
+      "bytes": 17120,
+      "sha256": "0d01d2183e7496594cbed022b1d89a0a7f4e03900da1b8d59047322a5140a66d",
+      "wheel_metadata": "Wheel-Version: 1.0\nGenerator: setuptools (82.0.1)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+    }
+  ],
+  "build_environment": {
+    "python": "3.12.14 (main, Sep  3 2026, 03:46:19) [Clang 21.1.8 ]",
+    "machine": "arm64",
+    "packages": [
+      [
+        "Cython",
+        "3.0.12"
+      ],
+      [
+        "packaging",
+        "26.3"
+      ],
+      [
+        "pip",
+        "26.2.1"
+      ],
+      [
+        "setuptools",
+        "84.0.0"
+      ],
+      [
+        "setuptools-scm",
+        "10.2.3"
+      ],
+      [
+        "vcs-versioning",
+        "2.4.1"
+      ],
+      [
+        "wheel",
+        "0.48.0"
+      ]
+    ]
+  },
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin25.4.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "sdk": {
+    "path": "/Library/Developer/CommandLineTools/SDKs/MacOSX26.4.sdk",
+    "version": "26.4",
+    "canonical_name": "macosx26.4",
+    "settings_sha256": "f231d03c93d59ebfffd410e941e50db8fcef6ec19ebe715967ab07ac44a51fc8"
+  },
+  "stage": "wheelhouse built; runtime validation required",
+  "completed_at": "2026-09-20T03:15:40.194376+00:00",
+  "elapsed_seconds": 60.398133540991694,
+  "limits": [
+    "Published sources and build-tool artifacts are pinned; the unknown historical build environment is not reconstructed.",
+    "Prebuilt members omitted only from fresh extracted build copies; original source and original wheels are preserved.",
+    "Five newly generated wheels are not assumed byte-identical to old cached builds; runtime controls are a separate stage.",
+    "Some upstream wheel tags label native content as pure Python; this workflow is restricted to macOS arm64 CPython 3.12.",
+    "A successful source build does not establish patient accuracy, complete scientific reproduction or clinical adequacy."
+  ]
+}

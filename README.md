@@ -19,6 +19,9 @@ clinical sensitivity for the child.
 - [Exploratory multiallelic comparison](results/germline-retained-multiallelic-comparison-20260919.json)
 - [Exact truth-identity and scope reconciliation](results/germline-representation-reconciliation-20260919.json)
 - [Native CRAM compatibility control](results/gatk-cram-compatibility-native-control-20260920.json)
+- [Python builds from published sources](results/runtime-published-source-build-20260920.json)
+- [Fresh runtime validation](results/runtime-published-source-validation-20260920.json)
+- [Public structural comparison reproduced with the new runtime](results/runtime-published-source-public-sv-20260920.json)
 
 The workflow covers reference preparation, alignment, native GATK/bcftools calling,
 phenotype-assisted and phenotype-independent prioritisation, read evidence, phasing,
@@ -52,6 +55,16 @@ mechanism controls, five metadata checks and three interval-geometry checks pass
 Separately, seven reconstructed environments passed 22 selected existing native
 controls. These are scoped checks, not a claim that every workflow has been reproduced
 end to end from a fresh public download.
+
+The source-build route now obtains 40 pinned publisher wheels and builds the other
+five packages from pinned published source archives without reading the old cached
+wheels. Seven further fresh environments pass the same 22 controls; six additional
+native-extension cases match the old runtime. Repeating both public structural
+comparisons reproduces every compared allele, genotype and decision, including
+69/802 matched DELLY truth alleles and 171/802 SvABA truth alleles. Those repetitions
+reuse the original caller outputs. They do not close the structural sensitivity gap
+or establish clinical accuracy. See the installation recipe and limits in
+[REPRODUCIBILITY.md](REPRODUCIBILITY.md).
 
 The pinned GATK/HTSJDK reader rejects CRAM 3.1. A separate recovery path creates
 CRAM 3.0 and directly compares every decoded record, including all FLAG bits and

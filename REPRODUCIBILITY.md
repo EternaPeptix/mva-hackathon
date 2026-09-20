@@ -36,26 +36,75 @@ GATK JAR and standalone Java tools from their official sources as required. The
 inventory records identities; it does not include their binaries.
 
 CNVpytor 1.3.2 and WhatsHap 2.8 use virtual environments inheriting the `bio` Python
-base; Truvari 5.5.0 uses an isolated environment. The `*-local.wheels.txt` files require
-the exact tested wheel hashes. Forty wheels matched PyPI publisher artifacts; five
-were local builds whose source-archive identities matched PyPI. See the
-[wheel-source record](results/runtime-wheel-sources-20260919.json).
+base; Truvari 5.5.0 uses an isolated environment. A tested recipe now obtains 40 pinned
+publisher wheels and builds the other five packages from pinned published source
+archives. It does **not** require the old cached wheels or a distributed binary bundle.
+See the [source identities](results/runtime-wheel-sources-20260919.json),
+[build-tool pins](workflow/environments/20260920/source-build-tools.json),
+[completed build](results/runtime-published-source-build-20260920.json) and
+[fresh verification](results/runtime-published-source-validation-20260920.json).
 
-The exact 45-wheel recovery bundle remains on owned storage and is **not distributed
-in this source snapshot**. Its SHA-256 is
-`2cf09339460603fee2149461d21f6f0ecc9819360c385afcb7c27db2165791ae`.
-A new source build can change wheel bytes and requires renewed validation; it is not
-the hash-locked installation tested here. Until the bundle or newly validated builds
-are available to a reproducer, exact Python-environment recreation is incomplete.
-This limitation must remain visible in the final reproducibility review.
+After installing the pinned `bio` environment and an Apple C/C++ toolchain, build into
+a new directory. The measured build used CPython 3.12.14, Apple Clang 21.0.0 and macOS
+SDK 26.4. The interpreter is locally pinned after the Conda installation because
+relocation can change its bytes; that local hash is an integrity guard, not an
+independent publisher attestation.
 
-The scripts `export_runtime.py`, `verify_runtime_rebuild.py`,
-`prepare_runtime_wheels.py`, `record_runtime_wheel_sources.py` and
-`verify_python_rebuild.py` capture and test the installation. The completed
-[Conda](results/runtime-conda-rebuild-20260919.json) and
-[Python](results/runtime-python-rebuild-20260919.json) checks reconstructed seven
-environments and passed 22 selected existing controls. Exomiser/LIRICAL dependencies
-were inventoried, not freshly installed in that exercise.
+```sh
+MVA_PY="$MVA_ROOT/tools/bio/bin/python"
+MVA_BUILD="$MVA_ROOT/results/published-python-build"
+MVA_PY_SHA=$("$MVA_PY" -c 'import hashlib,sys; print(hashlib.sha256(open(sys.executable,"rb").read()).hexdigest())')
+"$MVA_PY" "$MVA_REPO/workflow/scripts/rebuild_published_python_wheels.py" \
+  --source-receipt "$MVA_REPO/results/runtime-wheel-sources-20260919.json" \
+  --build-tools "$MVA_REPO/workflow/environments/20260920/source-build-tools.json" \
+  --runtime-export "$MVA_REPO/workflow/environments/20260919/runtime.json" \
+  --python "$MVA_PY" --output "$MVA_BUILD" \
+  --expected-source-receipt-sha256 bd7bfac5fb26c2358cc77e662cfbb2e462a832700d2a61d379f303a991ee7531 \
+  --expected-build-tools-sha256 38d9e65a18d8acb6625c5e2f4ffc2ae911c23f9f01f471460f1cd0867d978369 \
+  --expected-runtime-export-sha256 b508fe997179a9e8a82042f96ef0b479ed229b5cc3af104daa40572889ecffde \
+  --expected-python-sha256 "$MVA_PY_SHA"
+```
+
+Require a complete `status.json` with five source builds and 45 wheels. Original
+archives are preserved; prebuilt native files are omitted only from fresh source
+copies. Pywfa's upstream wheel tag incorrectly suggests pure Python despite native
+content, so this route deliberately requires macOS arm64 and CPython 3.12. Compiler
+changes can change output hashes. Use the **newly generated** requirements, rather
+than the older cached-wheel hashes in `workflow/environments/20260919/`:
+
+```sh
+for MVA_ENV in cnvpytor-1.3.2 whatshap-2.8; do
+  "$MVA_PY" -m venv --copies --system-site-packages "$MVA_ROOT/tools/$MVA_ENV"
+done
+"$MVA_PY" -m venv "$MVA_ROOT/tools/truvari-5.5.0"
+for MVA_ENV in cnvpytor-1.3.2 whatshap-2.8 truvari-5.5.0; do
+  "$MVA_ROOT/tools/$MVA_ENV/bin/python" -m pip --isolated install \
+    --no-index --find-links "$MVA_BUILD/wheels" --no-deps --require-hashes \
+    --ignore-installed --no-compile -r "$MVA_BUILD/$MVA_ENV-local.wheels.txt"
+  "$MVA_ROOT/tools/$MVA_ENV/bin/python" -m pip --isolated check
+done
+```
+
+Use previously absent environment paths. The automated validation helper
+`verify_python_rebuild.py` performs this installation, checks package identities and
+inheritance, and executes the existing controls when given a completed
+`verify_runtime_rebuild.py` result. For new source wheels, it requires
+`--published-source-build --expected-wheelhouse-sha256` with the actual new build
+receipt hash. The validation receipt records the full executed invocation. The
+Conda verification helper uses a verified archive cache; its installation counterpart
+above can populate that cache from the exact public URLs. It also needs the separately
+pinned GATK JAR at the recorded relative location.
+
+Both the earlier preserved-wheel reconstruction and this new source-build route
+passed 22 selected existing controls in seven fresh environments. Six additional
+native-extension cases match the old runtime. Two repeats on retained public HG002
+structural caller outputs reproduce the original initial/refined counts and every
+compared allele/genotype/decision record; see the
+[public comparator receipt](results/runtime-published-source-public-sv-20260920.json).
+These repeats did not rerun alignment or DELLY/SvABA discovery. The five new wheels
+are not byte-identical to the historical builds, and full independent reproduction
+of every analysis is not claimed. Exomiser/LIRICAL dependencies were inventoried,
+not freshly installed in either exercise.
 
 ## 2. Reproduce the public small-variant comparison
 
@@ -134,6 +183,21 @@ the public HG002 reads as patient data.
 - The CNVpytor, structural and ROH workflows require final alignment/QC, appropriate
   masks, ploidy/callability review and their own interpretation. An ordinary diploid
   callset does not establish mosaic, mitochondrial, sex-chromosome or structural coverage.
+- `review_four_lane_roh.py` reconciles the completed panel/ROH outputs, original
+  genotypes, exclusions, segments and model summaries without changing the analysis.
+  Its descriptive length bins are not clinical cutoffs or evidence of parental origin.
+- `review_four_lane_copy_number.py` checks all native CNV fields and stored read
+  counts, compares reference-gap metrics to the FASTA, and annotates every call
+  against the pinned Ensembl GFF3. Its separately configured post-run review subsets
+  retain all rejected records and do not classify dosage pathogenicity.
+- If DELLY fails on the original compressed-read decoder path, the existing
+  fully record-verified CRAM 3.0 copy can be used through
+  `resume_structural_from_verified_copy.py`. This pins the completed census,
+  conversion proof, native synthetic format control and unchanged policy, and
+  preserves the original failed run. `probe_structural_cram30.py` supplies the
+  bounded synthetic format/caller check; its imported fixture parser requires NumPy
+  (the recorded control uses the CNVpytor Python environment). See the
+  [completed control](results/structural-cram30-control-20260920.json).
 
 At this source snapshot the four-lane alignment and format verification are complete;
 full-genome callsets and broader variant review remain unfinished. The patient-derived ranking/read summaries,

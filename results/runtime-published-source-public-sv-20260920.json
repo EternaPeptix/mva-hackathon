@@ -1,0 +1,370 @@
+{
+  "completed_at": "2026-09-20T03:24:59.345501+00:00",
+  "elapsed_seconds": 117.54625262506306,
+  "script": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/recheck_public_sv_runtime.py",
+    "bytes": 7306,
+    "mtime_ns": 1789874580699097295,
+    "sha256": "beda50a556bc5e342bb3a2d84a8ebb9f6b58224b29fb662918e5af01020a3873"
+  },
+  "native_comparator_code": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/probe_sv_comparator.py",
+    "bytes": 6868,
+    "mtime_ns": 1789850018000000000,
+    "sha256": "7ec5c505480e4d4b754a48f1c59206ad83633cfbc54d3522f9ef2d8742194194"
+  },
+  "runtime_validation": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/python-verification-v1/status.json",
+    "bytes": 2545,
+    "mtime_ns": 1789874383325695701,
+    "sha256": "bfe95a3a2c8349b593cd684d758f2143d205347d1322247d622a75a57e658f46"
+  },
+  "fresh_controls": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/python-verification-v1/structural-comparator/summary.json",
+    "bytes": 19499,
+    "mtime_ns": 1789874383319319707,
+    "sha256": "97f2eef528f71404c395946349f5ab98ec565883bfb4e640089134aebd9a05e1"
+  },
+  "configuration": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/configs/public-sv-pilot-comparison.json",
+    "bytes": 1950,
+    "mtime_ns": 1789849491000000000,
+    "sha256": "86b2e380e5dd390b05ee7deb3393171976ebe84f828bb556e3e4f5ef8f667e80"
+  },
+  "inputs": {
+    "baseline": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-public-comparison-20260919-v2/truth-chr20.no-star.full-context.vcf.gz",
+      "bytes": 1417087,
+      "mtime_ns": 1789850050630498982,
+      "sha256": "0d78661d0baa486568577792f21bc60d467f34f852a040c464f0b529feac750f"
+    },
+    "reference": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/giab-sv-20260919/inputs/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta.gz",
+      "bytes": 886344618,
+      "mtime_ns": 1789849191685944210,
+      "sha256": "3c8def6d325c5d1e934b2dd530c4d1709f027677a15859467071fddf3fff2026"
+    },
+    "benchmark_bed": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-public-pilot-20260919/official-chr20-benchmark.bed",
+      "bytes": 5065,
+      "mtime_ns": 1789849496238526938,
+      "sha256": "85d2254c511969813bb8581ed8566a3b40f83c5bdd8a2c1c2338b4224aec3456"
+    },
+    "DELLY": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-public-comparison-20260919-v2/comp.sequence-resolved.full-context.vcf.gz",
+      "bytes": 112322,
+      "mtime_ns": 1789850050709642492,
+      "sha256": "22b2609e6fc04f41c8b32eca3b580776246f8c10bae651385a85f4b3ac495aab"
+    },
+    "SvABA": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/svaba-public-conversion-20260919-v3/comparison.full-context.vcf.gz",
+      "bytes": 103053325,
+      "mtime_ns": 1789855917893234708,
+      "sha256": "fd613c5ac800602c2ef6969166bcac80f6080ffd2ad15ceadb74d9862a396e00"
+    }
+  },
+  "comparisons": [
+    {
+      "caller": "DELLY",
+      "count_checks": {
+        "bench": {
+          "TP-base": 66,
+          "TP-comp": 65,
+          "FP": 24,
+          "FN": 736,
+          "base cnt": 802,
+          "comp cnt": 89
+        },
+        "refined": {
+          "TP-base": 69,
+          "TP-comp": 66,
+          "FP": 23,
+          "FN": 733,
+          "base cnt": 802,
+          "comp cnt": 89
+        }
+      },
+      "allele_GT_decision_refinement_records_equal": {
+        "base": 802,
+        "comp": 89
+      },
+      "comparison": {
+        "bench": {
+          "TP-base": 66,
+          "TP-comp": 65,
+          "FP": 24,
+          "FN": 736,
+          "precision": 0.7303370786516854,
+          "recall": 0.08229426433915212,
+          "f1": 0.14792083304599682,
+          "base cnt": 802,
+          "comp cnt": 89,
+          "TP-comp_TP-gt": 61,
+          "TP-comp_FP-gt": 4,
+          "TP-base_TP-gt": 61,
+          "TP-base_FP-gt": 5,
+          "gt_concordance": 0.9384615384615385,
+          "gt_matrix": {
+            "(1, 1)": {
+              "(1, 1)": 24,
+              "(0, 1)": 2
+            },
+            "(1, 0)": {
+              "(0, 1)": 19,
+              "(1, 1)": 2
+            },
+            "(0, 1)": {
+              "(0, 1)": 18,
+              "(1, 1)": 1
+            }
+          }
+        },
+        "refined": {
+          "TP-base": 69,
+          "TP-comp": 66,
+          "FP": 23,
+          "FN": 733,
+          "precision": 0.7415730337078652,
+          "recall": 0.08603491271820449,
+          "f1": 0.15418211365598494,
+          "base cnt": 802,
+          "comp cnt": 89
+        },
+        "refinement_status": "completed",
+        "commands": [
+          {
+            "command": [
+              "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1/tools/truvari-5.5.0/bin/truvari",
+              "bench",
+              "-b",
+              "/Users/jeweled/Documents/mva-hackathon/results/structural-public-comparison-20260919-v2/truth-chr20.no-star.full-context.vcf.gz",
+              "-c",
+              "/Users/jeweled/Documents/mva-hackathon/results/structural-public-comparison-20260919-v2/comp.sequence-resolved.full-context.vcf.gz",
+              "-f",
+              "/Users/jeweled/Documents/mva-hackathon/ref/giab-sv-20260919/inputs/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta.gz",
+              "--includebed",
+              "/Users/jeweled/Documents/mva-hackathon/results/structural-public-pilot-20260919/official-chr20-benchmark.bed",
+              "-o",
+              "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/public-sv-comparisons-v1/DELLY/benchmark",
+              "--pick",
+              "ac",
+              "--passonly",
+              "--no-ref",
+              "a",
+              "-r",
+              "2000",
+              "-C",
+              "5000",
+              "-s",
+              "50",
+              "-S",
+              "30",
+              "--sizemax",
+              "50000",
+              "-p",
+              "0.7",
+              "-P",
+              "0.7",
+              "-O",
+              "0",
+              "--dup-to-ins",
+              "--max-resolve",
+              "50000",
+              "--write-resolved"
+            ],
+            "exit_code": 0,
+            "elapsed_seconds": 2.5904725841246545,
+            "log": {
+              "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/public-sv-comparisons-v1/DELLY/benchmark.bench.log",
+              "bytes": 3467,
+              "mtime_ns": 1789874584346475196,
+              "sha256": "1103e038e9af459161311177dcbc68f7b23b27a84405bd92f1114f2199f154a6"
+            }
+          },
+          {
+            "command": [
+              "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1/tools/truvari-5.5.0/bin/truvari",
+              "refine",
+              "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/public-sv-comparisons-v1/DELLY/benchmark",
+              "--use-original-vcfs",
+              "--align",
+              "mafft",
+              "--threads",
+              "2",
+              "--mafft-params",
+              "--auto --thread 1"
+            ],
+            "exit_code": 0,
+            "elapsed_seconds": 21.168786624912173,
+            "log": {
+              "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/public-sv-comparisons-v1/DELLY/benchmark.refine.log",
+              "bytes": 2252,
+              "mtime_ns": 1789874605517029579,
+              "sha256": "de3c5e30fd4793a63d7c9e32f8f7c2e44b630e673f4dbad778d6a26bc50bd50f"
+            }
+          }
+        ]
+      },
+      "prior_summary": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-public-comparison-20260919-v2/summary.json",
+        "bytes": 12853,
+        "mtime_ns": 1789850073382477225,
+        "sha256": "21ef5f0efecc73844a5063f9f09c09d07ac898310888b7b2c7b7aece5b2b73c5"
+      }
+    },
+    {
+      "caller": "SvABA",
+      "count_checks": {
+        "bench": {
+          "TP-base": 163,
+          "TP-comp": 163,
+          "FP": 42,
+          "FN": 639,
+          "base cnt": 802,
+          "comp cnt": 205
+        },
+        "refined": {
+          "TP-base": 171,
+          "TP-comp": 166,
+          "FP": 39,
+          "FN": 631,
+          "base cnt": 802,
+          "comp cnt": 205
+        }
+      },
+      "allele_GT_decision_refinement_records_equal": {
+        "base": 802,
+        "comp": 205
+      },
+      "comparison": {
+        "bench": {
+          "TP-base": 163,
+          "TP-comp": 163,
+          "FP": 42,
+          "FN": 639,
+          "precision": 0.7951219512195122,
+          "recall": 0.20324189526184538,
+          "f1": 0.323733862959285,
+          "base cnt": 802,
+          "comp cnt": 205,
+          "TP-comp_TP-gt": 136,
+          "TP-comp_FP-gt": 27,
+          "TP-base_TP-gt": 136,
+          "TP-base_FP-gt": 27,
+          "gt_concordance": 0.8343558282208589,
+          "gt_matrix": {
+            "(0, 1)": {
+              "(0, 1)": 52,
+              "(1, 1)": 6
+            },
+            "(1, 1)": {
+              "(1, 1)": 32,
+              "(0, 1)": 19
+            },
+            "(1, 0)": {
+              "(0, 1)": 52,
+              "(1, 1)": 2
+            }
+          }
+        },
+        "refined": {
+          "TP-base": 171,
+          "TP-comp": 166,
+          "FP": 39,
+          "FN": 631,
+          "precision": 0.8097560975609757,
+          "recall": 0.21321695760598502,
+          "f1": 0.33755284296645993,
+          "base cnt": 802,
+          "comp cnt": 205
+        },
+        "refinement_status": "completed",
+        "commands": [
+          {
+            "command": [
+              "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1/tools/truvari-5.5.0/bin/truvari",
+              "bench",
+              "-b",
+              "/Users/jeweled/Documents/mva-hackathon/results/structural-public-comparison-20260919-v2/truth-chr20.no-star.full-context.vcf.gz",
+              "-c",
+              "/Users/jeweled/Documents/mva-hackathon/results/svaba-public-conversion-20260919-v3/comparison.full-context.vcf.gz",
+              "-f",
+              "/Users/jeweled/Documents/mva-hackathon/ref/giab-sv-20260919/inputs/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta.gz",
+              "--includebed",
+              "/Users/jeweled/Documents/mva-hackathon/results/structural-public-pilot-20260919/official-chr20-benchmark.bed",
+              "-o",
+              "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/public-sv-comparisons-v1/SvABA/benchmark",
+              "--pick",
+              "ac",
+              "--passonly",
+              "--no-ref",
+              "a",
+              "-r",
+              "2000",
+              "-C",
+              "5000",
+              "-s",
+              "50",
+              "-S",
+              "30",
+              "--sizemax",
+              "50000",
+              "-p",
+              "0.7",
+              "-P",
+              "0.7",
+              "-O",
+              "0",
+              "--dup-to-ins",
+              "--max-resolve",
+              "50000",
+              "--write-resolved"
+            ],
+            "exit_code": 0,
+            "elapsed_seconds": 3.4641860839910805,
+            "log": {
+              "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/public-sv-comparisons-v1/SvABA/benchmark.bench.log",
+              "bytes": 3442,
+              "mtime_ns": 1789874585217699415,
+              "sha256": "3099488dd873985bba5f08a0ead7036957cbad3220a19e5aefd9be5b727675b5"
+            }
+          },
+          {
+            "command": [
+              "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/native-rebuild-v1/tools/truvari-5.5.0/bin/truvari",
+              "refine",
+              "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/public-sv-comparisons-v1/SvABA/benchmark",
+              "--use-original-vcfs",
+              "--align",
+              "mafft",
+              "--threads",
+              "2",
+              "--mafft-params",
+              "--auto --thread 1"
+            ],
+            "exit_code": 0,
+            "elapsed_seconds": 114.03989233309403,
+            "log": {
+              "path": "/Users/jeweled/Documents/mva-hackathon/results/runtime-source-rebuild-20260920/public-sv-comparisons-v1/SvABA/benchmark.refine.log",
+              "bytes": 2262,
+              "mtime_ns": 1789874699260065348,
+              "sha256": "765377da288e5d1f1313f87d1f82d3363155165b81b28a24f5f283e67618c6af"
+            }
+          }
+        ]
+      },
+      "prior_summary": {
+        "path": "/Users/jeweled/Documents/mva-hackathon/results/svaba-public-comparison-20260919-v4/summary.json",
+        "bytes": 18887,
+        "mtime_ns": 1789856407760177575,
+        "sha256": "9d76fcfe03318fc3827c816489bb8b576548bfb1d00e922211c5b5dc4e838045"
+      }
+    }
+  ],
+  "scope": "Public HG002 chr20 comparator reproduction on retained caller outputs; 802 truth records per comparison.",
+  "limits": [
+    "Original caller outputs reused; no new read alignment, variant discovery, sample or biological replication.",
+    "Record comparison covers allele identity, GT, TP/FP/FN decision and refinement-state multiset; not compressed-file byte equality or every annotation.",
+    "Earlier public sensitivity limitations remain. Matching comparator results do not establish full workflow or clinical accuracy."
+  ]
+}
