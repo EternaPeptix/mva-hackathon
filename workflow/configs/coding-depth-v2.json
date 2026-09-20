@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "assembly": "GRCh38",
+  "sample": "WGS_EX2312012",
+  "expected_read_groups": 4,
+  "genes": [
+    "BUB1B",
+    "TRIP13",
+    "CEP57",
+    "CENATAC",
+    "MAD2L1BP",
+    "SLF2",
+    "SMC5",
+    "TRIM37",
+    "BUB1",
+    "BUB3",
+    "MAD2L1",
+    "FANCD2",
+    "DNAH10",
+    "HLA-C",
+    "SERPINA1",
+    "EIF2S2",
+    "CRYAA"
+  ],
+  "gene_selection": "Fixed17gene review list reused from existing copy-number review; selected before read depth inspection. No claim to all disease genes.",
+  "gene_list_source": {
+    "path": "/Users/jeweled/mva-hackathon/repo/workflow/configs/copy-number-review.json",
+    "sha256": "c32918a8050da828585d1084cccfa8157a0102aa3162dbd8e884091eab6485f2"
+  },
+  "inputs": {
+    "alignment": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/align/gatk-compatible-cram30-20260920/WGS_EX2312012.cram",
+      "sha256": "c3ef27cc9bde0010da9d6e872f88d52b542cbb435ee1d6f85f7f88509ce6f26b"
+    },
+    "reference": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/realignment/GRCh38_nochr.fa",
+      "sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6"
+    },
+    "gff": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/baseline-20260919/Homo_sapiens.GRCh38.116.chr.gff3.gz",
+      "sha256": "0857407b4a8be8792089a69fd961737256fb7129b6b799f8a8920ebea4fb134f"
+    },
+    "samtools": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/samtools",
+      "sha256": "7518cbb230a35393d7d3a9f02fc8b4519e4a37b5a17fbed06b9752ca1d962a91"
+    },
+    "alignment_index": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/align/gatk-compatible-cram30-20260920/WGS_EX2312012.cram.crai",
+      "sha256": "4c04806b8ffe3a5dcf48599385b221e4688430cb6843d09cd357cddf5fd6a692"
+    },
+    "reference_index": {
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/realignment/GRCh38_nochr.fa.fai",
+      "sha256": "d81f672f40cfabf2510f37e3f790f2c79665023f4ac950bb9cc6496a40cebf32"
+    }
+  },
+  "source_sha256": {
+    "coding_depth_targets.py": "1b7df219b0552479fd45836ce30fa1a2e9b95c2b315384d71da83bc108418278",
+    "prepare_gatk_compatible_cram.py": "6e1c5f8a830bb48fba7258d810a0f54166f40d471b21c1b3b4f185e9bed650c9",
+    "survey_chromosome_depth.py": "403718a03c506f70f84d0164d4bb062a461f6a62f6d1c143e85e4829482d2c29",
+    "measure_coding_depth.py": "6ae51dfa66571f81cfd3d5b55696fd844f12bab45cdd2ac4c7f5052b92389749"
+  },
+  "depth_modes": [
+    {
+      "name": "MQ0_BQ1",
+      "minimum_MQ": 0,
+      "minimum_BQ": 1
+    },
+    {
+      "name": "MQ20_BQ20",
+      "minimum_MQ": 20,
+      "minimum_BQ": 20
+    },
+    {
+      "name": "MQ60_BQ20",
+      "minimum_MQ": 60,
+      "minimum_BQ": 20
+    }
+  ],
+  "interpretation": "Mapped CDS depth only, retaining explicit zeros and non-ACGT reference bases. No genotype, phase, clinical callability, sensitivity or negative genetic finding.",
+  "quality_availability": "All flag-eligible extracted records must have known mapping quality and available per-base qualities with no255 sentinel; otherwise fail with retained failed-status evidence before reporting depth."
+}

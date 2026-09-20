@@ -270,3 +270,17 @@ contains fictional software controls only. This source addition contains no
 laboratory observations, treatment-effect estimates, power calculations or automatic
 decisions to advance a drug. Raw-image truth, actual pretreatment freezing and the
 completeness of the starting-cell roster require separate experimental review.
+
+
+## Coding-region depth method
+
+The source snapshot now includes the fixed-gene CDS-depth method, its exact
+configuration and ten native fictional controls. The method retains explicit
+zero coverage and reference denominators, refuses unavailable mapping/base
+qualities, and reports three declared quality views. Depth alone does not call
+genotypes or establish clinical callability. The configuration contains the
+authorised sample/input identities and selected gene list; alignment data and
+case results are excluded from this source export.
+
+See the [reproduction guide](workflow/docs/CODING-DEPTH-REPRODUCTION.md) and
+[qualified fictional-control record](workflow/source-snapshots/coding-depth-controls-20260920/controls.json).

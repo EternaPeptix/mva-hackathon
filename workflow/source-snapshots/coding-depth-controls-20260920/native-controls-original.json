@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "scope": "Fictional controls only; adds native missing-quality demonstration and actual CLI refusal for absent/partial255 qualities. No patient depth analysis.",
+  "host": "512S2",
+  "source_sha256": {
+    "workflow/tests/test_coding_depth.py": "57baf07c33fe051c5503ea05cd5834600821db70593e0f895b9c9c19ae9a4db2",
+    "workflow/scripts/coding_depth_targets.py": "1b7df219b0552479fd45836ce30fa1a2e9b95c2b315384d71da83bc108418278",
+    "workflow/scripts/prepare_gatk_compatible_cram.py": "6e1c5f8a830bb48fba7258d810a0f54166f40d471b21c1b3b4f185e9bed650c9",
+    "workflow/scripts/survey_chromosome_depth.py": "403718a03c506f70f84d0164d4bb062a461f6a62f6d1c143e85e4829482d2c29",
+    "workflow/scripts/measure_coding_depth.py": "6ae51dfa66571f81cfd3d5b55696fd844f12bab45cdd2ac4c7f5052b92389749"
+  },
+  "command": [
+    "env",
+    "MVA_SAMTOOLS=/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/samtools",
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "/Users/jeweled/Documents/mva-hackathon/methods/coding-depth-20260920/qualification-v2/workflow/tests",
+    "-p",
+    "test_coding_depth.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.8772079944610596,
+  "completed_at": "2026-09-20T17:42:26Z"
+}
