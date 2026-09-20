@@ -266,6 +266,49 @@ those submission requirements.
 
 ## 4. Check components and preserve evidence
 
+The mitochondrial workflow is a native adaptation of the pinned Broad regular/
+shifted-reference method, not a completed contamination or clinical-validation
+pipeline. Acquire the checksum-pinned public FASTAs, chain, intervals and mask:
+
+```sh
+"$MVA_ROOT/tools/bio/bin/python" "$MVA_REPO/workflow/scripts/prepare_mitochondrial_resources.py" \
+  --root "$MVA_ROOT" --sources "$MVA_REPO/workflow/configs/mitochondrial-public-resources.json" \
+  --output "$MVA_ROOT/ref/mitochondrial-20260920"
+"$MVA_ROOT/tools/bio/bin/python" -m unittest discover \
+  -s "$MVA_REPO/workflow/tests" -p test_mitochondrial_discovery.py -v
+MVA_BCFTOOLS="$MVA_ROOT/tools/bio/bin/bcftools" "$MVA_ROOT/tools/bio/bin/python" \
+  -m unittest discover -s "$MVA_REPO/workflow/tests" -p test_mitochondrial_review.py -v
+"$MVA_ROOT/tools/bio/bin/python" "$MVA_REPO/workflow/scripts/probe_mitochondrial_discovery.py" \
+  --root "$MVA_ROOT" --resources "$MVA_ROOT/ref/mitochondrial-20260920" \
+  --output "$MVA_ROOT/results/mitochondrial-control-reproduction"
+```
+
+Use new output directories. Require seven method checks, two native normalization
+checks and all four planted alleles to pass. Preserved pre-repair sources record
+read-group escaping and unmapped-BAM dictionary handling failures; use the current
+scripts. Synthetic mixtures test fractions 0.10, 0.20, 0.25 and 1.00, not a validated
+1% detection limit, sequencing-error model or NUMT discrimination.
+
+`run_mitochondrial_discovery.py` requires `--root`, `--reference`, `--alignment`,
+`--resources`, `--config` and `--output`. Use the verified compatible CRAM and
+`workflow/configs/mitochondrial-discovery.json`. It verifies the source/reference
+hashes and mitochondrial sequence, admits the upstream read subset, compares all
+primary forward sequences/qualities and preserves separate mapping/duplicate decisions.
+The calling partition is regular positions 576–16024 plus shifted positions
+8025–9144, covering each original position once. Preserve lifted rejects even when
+empty, both raw VCFs, original multi-allele context and full depth missingness.
+
+Initial output filenames explicitly state that filtering assumes no contamination.
+The upstream contamination component and independent nuclear-copy checks remain
+unimplemented. `review_mitochondrial_calls.py` compares a completed `--run` with
+`--vendor-vcf` and `--clinvar-vcf`, requiring their pinned identities, plus `--root`
+and a new `--output`. It records the original ALT index and full genotype/filter
+context; a split row never replaces the original genotype. `audit_mitochondrial_targets.py`
+uses `--root`, `--run`, `--config` and `--output` for the bounded original/remapped
+read check. Its configuration is selected after call review, not an independent
+performance benchmark. Unresolved clinical annotations, low-quality calls or a
+negative contamination screen must not be promoted to biological truth.
+
 The chromosome-depth survey freezes intervals from reference coordinates before
 read inspection, requires explicit depth for every selected position and preserves
 zero-depth windows. Reference eligibility is based only on concrete-base fraction

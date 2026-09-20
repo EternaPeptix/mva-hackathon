@@ -36,6 +36,10 @@ clinical sensitivity for the child.
 - [Fixed-region depth and missingness controls](results/chromosome-depth-method-controls-20260920.json)
 - [Regional-ploidy interval controls](results/ploidy-region-method-controls-20260920-v2.json)
 - [Diploid/haploid calling on fictional sequence](results/ploidy-calling-native-controls-20260920.json)
+- [Versioned mitochondrial references and indexes](results/mitochondrial-public-resource-verification-20260920.json)
+- [Mitochondrial geometry and read-preservation controls](results/mitochondrial-method-controls-20260920.json)
+- [Circular-read native calling control](results/mitochondrial-native-control-20260920.json)
+- [Original multi-allele context during mitochondrial comparison](results/mitochondrial-review-method-controls-20260920.json)
 
 The workflow covers reference preparation, alignment, native GATK/bcftools calling,
 phenotype-assisted and phenotype-independent prioritisation, read evidence, phasing,
@@ -102,6 +106,14 @@ haploid insertion on fictional sequence. The initial index-collision source is
 preserved separately. These controls do not validate a karyotype, mosaicism
 sensitivity, mitochondrial interpretation or clinical negative result. Patient
 depth measurements and case output files are outside this export.
+
+The mitochondrial adaptation verifies the literal rCRS sequence and 8,000-base
+rotation, preserves primary read sequence/quality, and keeps original multi-allele
+context through calling, liftover and comparison. Nine focused checks and four
+planted alleles in 30,000 synthetic circular read pairs pass. Initial filters assume
+zero contamination; the method has not validated that assumption, nuclear-copy
+discrimination or very low heteroplasmy. Case calls, target-level read counts and
+interpretations remain outside the source export.
 
 ## Data and release status
 

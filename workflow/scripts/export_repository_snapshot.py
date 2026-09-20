@@ -55,6 +55,10 @@ RECEIPTS = [
     'chromosome-depth-method-controls-20260920.json',
     'ploidy-region-method-controls-20260920-v2.json',
     'ploidy-calling-native-controls-20260920.json',
+    'mitochondrial-public-resource-verification-20260920.json',
+    'mitochondrial-method-controls-20260920.json',
+    'mitochondrial-native-control-20260920.json',
+    'mitochondrial-review-method-controls-20260920.json',
 ]
 
 

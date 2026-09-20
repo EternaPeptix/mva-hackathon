@@ -1,0 +1,116 @@
+{
+  "verified_at": "2026-09-20T08:43:20.796401+00:00",
+  "host": "512S2",
+  "status": "complete",
+  "native_control": {
+    "completed_at": "2026-09-20T08:41:56Z",
+    "status": "complete",
+    "read_pairs": 30000,
+    "haplotype_pair_allocation": {
+      "2": 7426,
+      "1": 2991,
+      "0": 13489,
+      "3": 6094
+    },
+    "controls": [
+      {
+        "pos": 50,
+        "ref": "T",
+        "alt": "A",
+        "planted_mixture_fraction": 0.1,
+        "AF": 0.07999999821186066,
+        "AD": [
+          472,
+          40
+        ],
+        "filters": [
+          "PASS"
+        ]
+      },
+      {
+        "pos": 6200,
+        "ref": "C",
+        "alt": "CGAT",
+        "planted_mixture_fraction": 0.2,
+        "AF": 0.19699999690055847,
+        "AD": [
+          421,
+          103
+        ],
+        "filters": [
+          "PASS"
+        ]
+      },
+      {
+        "pos": 9000,
+        "ref": "A",
+        "alt": "C",
+        "planted_mixture_fraction": 1.0,
+        "AF": 0.9980000257492065,
+        "AD": [
+          0,
+          545
+        ],
+        "filters": [
+          "PASS"
+        ]
+      },
+      {
+        "pos": 16540,
+        "ref": "C",
+        "alt": "G",
+        "planted_mixture_fraction": 0.25,
+        "AF": 0.24899999797344208,
+        "AD": [
+          401,
+          132
+        ],
+        "filters": [
+          "PASS"
+        ]
+      }
+    ],
+    "all_reference_positions_accounted": 16569,
+    "liftover_rejects": 0,
+    "runner_status_sha256": "2e66228f3ec01d7748e9e473df4e041f8e40efab625f621887d59c0ba0e3d4f1",
+    "source_sha256": {
+      "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/probe_mitochondrial_discovery.py": "5d0fda030d65e8e3a1d7aaabfc56c94a5cffa35c6c401c4aac216e00c562c491",
+      "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/run_mitochondrial_discovery.py": "c4810f26c07accd775162a1b8f399a297b502ded7001a675d12319a70d3a4e9e"
+    },
+    "scope": "Four planted alleles recovered after real alignment, reversion, remapping, duplicate marking, calling, liftover and filtering. Error-free synthetic reads are not a clinical sensitivity or NUMT/contamination validation."
+  },
+  "completed_output_hashes_verified": 64,
+  "source_and_tool_sha256": {
+    "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/run_mitochondrial_discovery.py": "c4810f26c07accd775162a1b8f399a297b502ded7001a675d12319a70d3a4e9e",
+    "/Users/jeweled/Documents/mva-hackathon/results/mitochondrial-native-control-20260920-v3/config.json": "adf3c09345a76a5c41acf556e62862b3eee40d4e9dc54d8eaba7fcef183b0cef",
+    "/Users/jeweled/Documents/mva-hackathon/ref/mitochondrial-20260920/manifest.json": "b7cf71c444a690d7ced5d73fff0ff8c55b676d11f2478fa469a6b24b8792263f",
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/samtools": "7518cbb230a35393d7d3a9f02fc8b4519e4a37b5a17fbed06b9752ca1d962a91",
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/bwa": "34f338e639956e9d14d582283c44a8b52ad0fff8944ccd1dabaeb8d651bcf04e",
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/lib/jvm/bin/java": "ec64ac719290ad080c7f8a4f5d83402e4152f98f486fe14150cf734a46ebcbb1",
+    "/Users/jeweled/Documents/mva-hackathon/gatk-4.6.1.0/gatk-package-4.6.1.0-local.jar": "b2824999fafe4dc83036e334b9765d4a7de4f4ff4bec1e929d77bea04a1560c7",
+    "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/prepare_gatk_compatible_cram.py": "6e1c5f8a830bb48fba7258d810a0f54166f40d471b21c1b3b4f185e9bed650c9"
+  },
+  "files": {
+    "workflow/scripts/run_mitochondrial_discovery.py": {
+      "bytes": 16904,
+      "sha256": "c4810f26c07accd775162a1b8f399a297b502ded7001a675d12319a70d3a4e9e"
+    },
+    "workflow/scripts/probe_mitochondrial_discovery.py": {
+      "bytes": 7649,
+      "sha256": "5d0fda030d65e8e3a1d7aaabfc56c94a5cffa35c6c401c4aac216e00c562c491"
+    },
+    "workflow/scripts/prepare_mitochondrial_resources.py": {
+      "bytes": 3384,
+      "sha256": "5da5c36ce64ec7c74c721a2ce2c9bf3616839ba25793ab408206a9c33727e54a"
+    },
+    "workflow/tests/test_mitochondrial_discovery.py": {
+      "bytes": 4115,
+      "sha256": "e7588246d71199400fc437881b410adcd0fac975f45461be5c51771d026b9eac"
+    },
+    "workflow/configs/mitochondrial-public-resources.json": {
+      "bytes": 3098,
+      "sha256": "85d4bfbf37b7204d12435aa5c31c921f82011b1f5a85c5dcc6c22ece2f676e9b"
+    }
+  },
+  "scope": "Four synthetic alleles on public rCRS, native end-to-end outputs rehashed. Not case sensitivity, NUMT or contamination validation."
+}
