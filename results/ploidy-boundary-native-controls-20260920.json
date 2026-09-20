@@ -1,0 +1,1203 @@
+{
+  "completed_at": "2026-09-20T09:57:20Z",
+  "status": "complete",
+  "regional_expected_failure_exit_code": 1,
+  "commands": [
+    [
+      "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+      "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/call_ploidy_regions.py",
+      "--root",
+      "/Users/jeweled/Documents/mva-hackathon",
+      "--reference",
+      "/Users/jeweled/Documents/mva-hackathon/results/ploidy-boundary-native-control-20260920/fictional.fa",
+      "--alignment",
+      "/Users/jeweled/Documents/mva-hackathon/results/ploidy-boundary-native-control-20260920/fictional.bam",
+      "--config",
+      "/Users/jeweled/Documents/mva-hackathon/results/ploidy-boundary-native-control-20260920/config.json",
+      "--output",
+      "/Users/jeweled/Documents/mva-hackathon/results/ploidy-boundary-native-control-20260920/regional"
+    ],
+    [
+      "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+      "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/call_fixed_ploidy_regions.py",
+      "--root",
+      "/Users/jeweled/Documents/mva-hackathon",
+      "--reference",
+      "/Users/jeweled/Documents/mva-hackathon/results/ploidy-boundary-native-control-20260920/fictional.fa",
+      "--alignment",
+      "/Users/jeweled/Documents/mva-hackathon/results/ploidy-boundary-native-control-20260920/fictional.bam",
+      "--config",
+      "/Users/jeweled/Documents/mva-hackathon/results/ploidy-boundary-native-control-20260920/config.json",
+      "--output",
+      "/Users/jeweled/Documents/mva-hackathon/results/ploidy-boundary-native-control-20260920/fixed",
+      "--bcftools-vcf",
+      "/Users/jeweled/Documents/mva-hackathon/results/ploidy-boundary-native-control-20260920/regional/bcftools.original.vcf.gz",
+      "--bcftools-sha256",
+      "87188767ee132070b7c033323beab85a3f0ab7814bc210606c855336e5d85003"
+    ]
+  ],
+  "control_genotypes": [
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 2965,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 150,
+      "GQ": 99,
+      "AD": [
+        75,
+        75
+      ],
+      "PL": [
+        2891,
+        0,
+        2894
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 3000,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        100,
+        100
+      ],
+      "PL": [
+        3875,
+        0,
+        3875
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 3001,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        1,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8977,
+        602,
+        0
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 3035,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        1,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8954,
+        602,
+        0
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 5965,
+      "ref": "T",
+      "alt": "A",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        1,
+        1
+      ],
+      "DP": 150,
+      "GQ": 99,
+      "AD": [
+        0,
+        150
+      ],
+      "PL": [
+        6696,
+        452,
+        0
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 6000,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        1,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8977,
+        602,
+        0
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 6001,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        100,
+        100
+      ],
+      "PL": [
+        3875,
+        0,
+        3875
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 6035,
+      "ref": "T",
+      "alt": "A",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        100,
+        100
+      ],
+      "PL": [
+        3875,
+        0,
+        3874
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 8965,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 150,
+      "GQ": 99,
+      "AD": [
+        75,
+        75
+      ],
+      "PL": [
+        2900,
+        0,
+        2897
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 9000,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        100,
+        100
+      ],
+      "PL": [
+        3875,
+        0,
+        3875
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 9001,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        1,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8977,
+        602,
+        0
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 9035,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        1,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8954,
+        602,
+        0
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "gatk",
+      "pos": 2965,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 150,
+      "GQ": 99,
+      "AD": [
+        75,
+        75
+      ],
+      "PL": [
+        2891,
+        0,
+        2894
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "gatk",
+      "pos": 3000,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        100,
+        100
+      ],
+      "PL": [
+        3875,
+        0,
+        3875
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "gatk",
+      "pos": 3001,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8977,
+        0
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "gatk",
+      "pos": 3035,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8954,
+        0
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "gatk",
+      "pos": 5965,
+      "ref": "T",
+      "alt": "A",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        1
+      ],
+      "DP": 150,
+      "GQ": 99,
+      "AD": [
+        0,
+        150
+      ],
+      "PL": [
+        6696,
+        0
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "gatk",
+      "pos": 6000,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8977,
+        0
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "gatk",
+      "pos": 6001,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        100,
+        100
+      ],
+      "PL": [
+        3875,
+        0,
+        3875
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "gatk",
+      "pos": 6035,
+      "ref": "T",
+      "alt": "A",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        100,
+        100
+      ],
+      "PL": [
+        3875,
+        0,
+        3874
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "gatk",
+      "pos": 8965,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 150,
+      "GQ": 99,
+      "AD": [
+        75,
+        75
+      ],
+      "PL": [
+        2900,
+        0,
+        2897
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "gatk",
+      "pos": 9000,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        100,
+        100
+      ],
+      "PL": [
+        3875,
+        0,
+        3875
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "gatk",
+      "pos": 9001,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8977,
+        0
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "gatk",
+      "pos": 9035,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8954,
+        0
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "bcftools",
+      "pos": 2965,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 150,
+      "GQ": 127,
+      "AD": [
+        75,
+        75
+      ],
+      "PL": [
+        255,
+        0,
+        255
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "bcftools",
+      "pos": 3000,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 200,
+      "GQ": 127,
+      "AD": [
+        100,
+        100
+      ],
+      "PL": [
+        255,
+        0,
+        255
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "bcftools",
+      "pos": 3001,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        1
+      ],
+      "DP": 200,
+      "GQ": 127,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        255,
+        0
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "bcftools",
+      "pos": 3035,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        1
+      ],
+      "DP": 200,
+      "GQ": 127,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        255,
+        0
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "bcftools",
+      "pos": 5965,
+      "ref": "T",
+      "alt": "A",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        1
+      ],
+      "DP": 150,
+      "GQ": 127,
+      "AD": [
+        0,
+        150
+      ],
+      "PL": [
+        255,
+        0
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "bcftools",
+      "pos": 6000,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        1
+      ],
+      "DP": 200,
+      "GQ": 127,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        255,
+        0
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "bcftools",
+      "pos": 6001,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 200,
+      "GQ": 127,
+      "AD": [
+        100,
+        100
+      ],
+      "PL": [
+        255,
+        0,
+        255
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "bcftools",
+      "pos": 6035,
+      "ref": "T",
+      "alt": "A",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 200,
+      "GQ": 127,
+      "AD": [
+        100,
+        100
+      ],
+      "PL": [
+        255,
+        0,
+        255
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "bcftools",
+      "pos": 8965,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 150,
+      "GQ": 127,
+      "AD": [
+        75,
+        75
+      ],
+      "PL": [
+        255,
+        0,
+        255
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "bcftools",
+      "pos": 9000,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 2,
+      "expected_GT": [
+        0,
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 200,
+      "GQ": 127,
+      "AD": [
+        100,
+        100
+      ],
+      "PL": [
+        255,
+        0,
+        255
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "bcftools",
+      "pos": 9001,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        1
+      ],
+      "DP": 200,
+      "GQ": 127,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        255,
+        0
+      ]
+    },
+    {
+      "mode": "fixed",
+      "caller": "bcftools",
+      "pos": 9035,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        1
+      ],
+      "DP": 200,
+      "GQ": 127,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        255,
+        0
+      ]
+    }
+  ],
+  "regional_ploidy_exceptions": [
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 3001,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        1,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8977,
+        602,
+        0
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 3035,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 3000,
+      "observed_GT": [
+        1,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8954,
+        602,
+        0
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 5965,
+      "ref": "T",
+      "alt": "A",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        1,
+        1
+      ],
+      "DP": 150,
+      "GQ": 99,
+      "AD": [
+        0,
+        150
+      ],
+      "PL": [
+        6696,
+        452,
+        0
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 6000,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 6000,
+      "observed_GT": [
+        1,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8977,
+        602,
+        0
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 9001,
+      "ref": "G",
+      "alt": "T",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        1,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8977,
+        602,
+        0
+      ]
+    },
+    {
+      "mode": "regional",
+      "caller": "gatk",
+      "pos": 9035,
+      "ref": "C",
+      "alt": "G",
+      "expected_ploidy": 1,
+      "expected_GT": [
+        1
+      ],
+      "boundary": 9000,
+      "observed_GT": [
+        1,
+        1
+      ],
+      "DP": 200,
+      "GQ": 99,
+      "AD": [
+        0,
+        200
+      ],
+      "PL": [
+        8954,
+        602,
+        0
+      ]
+    }
+  ],
+  "targets": 12,
+  "verified_fixed_caller_genotypes": 24,
+  "fixed_status_sha256": "ef37837f5d19b52235986a9af5ec128b16dffde1edfbad07e88b21611d8c0eaf",
+  "files": {
+    "workflow/scripts/probe_ploidy_boundaries.py": {
+      "sha256": "5c17bba13285184de12b3489302597bd5ac6e3371a49c00c8b2afea72dbf4796",
+      "bytes": 7867
+    },
+    "workflow/scripts/call_ploidy_regions.py": {
+      "sha256": "4515ce17bd28190fc00a45bb2adfbab07bc91e84abdb822d7f6602fa0e2636e1",
+      "bytes": 8823
+    },
+    "workflow/scripts/call_fixed_ploidy_regions.py": {
+      "sha256": "5421211325a9e62690e0608cc9758b7bdaf1ece742e7701b193aa3de31b9dc0a",
+      "bytes": 12823
+    },
+    "workflow/scripts/prepare_gatk_compatible_cram.py": {
+      "sha256": "6e1c5f8a830bb48fba7258d810a0f54166f40d471b21c1b3b4f185e9bed650c9",
+      "bytes": 12307
+    }
+  },
+  "native_tool_sha256": {
+    "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/call_fixed_ploidy_regions.py": "5421211325a9e62690e0608cc9758b7bdaf1ece742e7701b193aa3de31b9dc0a",
+    "/Users/jeweled/Documents/mva-hackathon/results/ploidy-boundary-native-control-20260920/config.json": "d0de12007a348e34b2286e18ebcd13ee267777c792bac0a8f65c0f99eef7aee3",
+    "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/call_ploidy_regions.py": "4515ce17bd28190fc00a45bb2adfbab07bc91e84abdb822d7f6602fa0e2636e1",
+    "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/prepare_gatk_compatible_cram.py": "6e1c5f8a830bb48fba7258d810a0f54166f40d471b21c1b3b4f185e9bed650c9",
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/bcftools": "c427681749daabb97be4a010c31c6b24349aaea6abc7bea27d6ce9126874b260",
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/samtools": "7518cbb230a35393d7d3a9f02fc8b4519e4a37b5a17fbed06b9752ca1d962a91",
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/lib/jvm/bin/java": "ec64ac719290ad080c7f8a4f5d83402e4152f98f486fe14150cf734a46ebcbb1",
+    "/Users/jeweled/Documents/mva-hackathon/gatk-4.6.1.0/gatk-package-4.6.1.0-local.jar": "b2824999fafe4dc83036e334b9765d4a7de4f4ff4bec1e929d77bea04a1560c7"
+  },
+  "scope": "Native GATK boundary behavior reproduced and fixed-mode genotype recovery checked against fictional ground truth, including exact interval endpoints. Not clinical validation or a sensitivity benchmark."
+}

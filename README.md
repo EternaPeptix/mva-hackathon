@@ -36,6 +36,9 @@ clinical sensitivity for the child.
 - [Fixed-region depth and missingness controls](results/chromosome-depth-method-controls-20260920.json)
 - [Regional-ploidy interval controls](results/ploidy-region-method-controls-20260920-v2.json)
 - [Diploid/haploid calling on fictional sequence](results/ploidy-calling-native-controls-20260920.json)
+- [Ploidy-boundary genotype and ownership controls](results/ploidy-boundary-method-controls-20260920.json)
+- [Native boundary reproduction and fixed-ploidy recovery](results/ploidy-boundary-native-controls-20260920.json)
+- [Pinned GATK regional-ploidy semantics](results/ploidy-boundary-public-source-review-20260920.json)
 - [Versioned mitochondrial references and indexes](results/mitochondrial-public-resource-verification-20260920.json)
 - [Mitochondrial geometry and read-preservation controls](results/mitochondrial-method-controls-20260920.json)
 - [Circular-read native calling control](results/mitochondrial-native-control-20260920.json)
@@ -107,6 +110,15 @@ haploid insertion on fictional sequence. The initial index-collision source is
 preserved separately. These controls do not validate a karyotype, mosaicism
 sensitivity, mitochondrial interpretation or clinical negative result. Patient
 depth measurements and case output files are outside this export.
+
+A boundary-specific native probe reproduces GATK 4.6.1.0's documented use of the
+maximum ploidy overlapping an active region. It plants 12 SNVs across three
+transitions, including exact interval endpoints. Six regional genotype-shape
+exceptions recur; independent constant-ploidy calls and the second caller recover
+all 24 expected caller/allele genotypes. Four focused tests check original
+multiallelic genotype/likelihood preservation, invalid and partial evidence, and
+explicit handling of boundary-spanning records. The fixed-ploidy runner preserves
+the original output and reuses a checksum-identified completed bcftools VCF.
 
 The mitochondrial adaptation verifies the literal rCRS sequence and 8,000-base
 rotation, preserves primary read sequence/quality, and keeps original multi-allele

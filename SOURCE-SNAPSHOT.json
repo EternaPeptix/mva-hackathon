@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-09-20T09:33:30.218513+00:00",
+  "created_at": "2026-09-20T10:03:10.384631+00:00",
   "scope": "Complete selected workflow source/configuration inventory plus public/synthetic/runtime evidence; no patient-result files or internal Git history.",
-  "source_manifest_sha256": "a5c9dbd11283d79f6e24c1a68b8da57ef5141aa9fa458e03f083b87c11247660",
-  "exporter_sha256": "383420379ac011f62e7d003fa505a70eb7b6fb7b08b95ea6ea2baa88ed5969c9",
+  "source_manifest_sha256": "81e50febcc11ae4d41b37f451ee4c2e4915972112ee05eb67f6865a3c6cf886a",
+  "exporter_sha256": "a36c2c9cdcfd3aba800fa571fc2543ed56859db04638f7fd2786cf1bff942add",
   "files": [
     {
       "path": ".gitignore",
@@ -26,19 +26,19 @@
       "path": "README.md",
       "source_path": "publication/README.md",
       "source_mode": 420,
-      "source_bytes": 10946,
-      "source_sha256": "8c592269b758ba3a0dc9f31424abafba378642fcc3114e77f24d8059b3c9ce65",
-      "release_bytes": 10946,
-      "release_sha256": "8c592269b758ba3a0dc9f31424abafba378642fcc3114e77f24d8059b3c9ce65"
+      "source_bytes": 11901,
+      "source_sha256": "01348f02cdd535bb4339adbab4bd31a3b41526e06159282150fc69336c99afef",
+      "release_bytes": 11901,
+      "release_sha256": "01348f02cdd535bb4339adbab4bd31a3b41526e06159282150fc69336c99afef"
     },
     {
       "path": "REPRODUCIBILITY.md",
       "source_path": "publication/REPRODUCIBILITY.md",
       "source_mode": 420,
-      "source_bytes": 30544,
-      "source_sha256": "1d52067fe654f40f5f5da99dfe719d2ef5ee7c9caaf9ae9ca3ecb5ea060f7f88",
-      "release_bytes": 30544,
-      "release_sha256": "1d52067fe654f40f5f5da99dfe719d2ef5ee7c9caaf9ae9ca3ecb5ea060f7f88"
+      "source_bytes": 32694,
+      "source_sha256": "87d522e2bfe872e1a5c239679c24ac9694f2d02d17e4a93c999cbdff4c4a62b9",
+      "release_bytes": 32694,
+      "release_sha256": "87d522e2bfe872e1a5c239679c24ac9694f2d02d17e4a93c999cbdff4c4a62b9"
     },
     {
       "path": "results/assay-capacity-planning-20260920.json",
@@ -300,6 +300,33 @@
       "source_sha256": "a22a4ae5c4181c076edc947c065e12d73fbdb254f894c104f29d025ec6a1241a",
       "release_bytes": 1920,
       "release_sha256": "a22a4ae5c4181c076edc947c065e12d73fbdb254f894c104f29d025ec6a1241a"
+    },
+    {
+      "path": "results/ploidy-boundary-method-controls-20260920.json",
+      "source_path": "results/ploidy-boundary-method-controls-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 1277,
+      "source_sha256": "fdffd8fd16e641558df73ce0acdbd86091f75bb1ec1a5bec2758b590d0e77d4b",
+      "release_bytes": 1277,
+      "release_sha256": "fdffd8fd16e641558df73ce0acdbd86091f75bb1ec1a5bec2758b590d0e77d4b"
+    },
+    {
+      "path": "results/ploidy-boundary-native-controls-20260920.json",
+      "source_path": "results/ploidy-boundary-native-controls-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 21116,
+      "source_sha256": "c6c7d436306e8948dd4bd179062f22a9ccee7d0a5c0e8f6a67d018f7cd273710",
+      "release_bytes": 21116,
+      "release_sha256": "c6c7d436306e8948dd4bd179062f22a9ccee7d0a5c0e8f6a67d018f7cd273710"
+    },
+    {
+      "path": "results/ploidy-boundary-public-source-review-20260920.json",
+      "source_path": "results/ploidy-boundary-public-source-review-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 2663,
+      "source_sha256": "2cdf4984e701944c7bff3b8071c7d3d15058c56e629e12b99091a443e64dc698",
+      "release_bytes": 2663,
+      "release_sha256": "2cdf4984e701944c7bff3b8071c7d3d15058c56e629e12b99091a443e64dc698"
     },
     {
       "path": "results/ploidy-calling-native-controls-20260920.json",
@@ -1094,6 +1121,15 @@
       "release_sha256": "262f535af4f90e66ce11388c6cd7381616c09fa79b8f0b9b74e59125cde35d65"
     },
     {
+      "path": "workflow/scripts/call_fixed_ploidy_regions.py",
+      "source_path": "workflow/scripts/call_fixed_ploidy_regions.py",
+      "source_mode": 420,
+      "source_bytes": 12823,
+      "source_sha256": "5421211325a9e62690e0608cc9758b7bdaf1ece742e7701b193aa3de31b9dc0a",
+      "release_bytes": 12823,
+      "release_sha256": "5421211325a9e62690e0608cc9758b7bdaf1ece742e7701b193aa3de31b9dc0a"
+    },
+    {
       "path": "workflow/scripts/call_genome.py",
       "source_path": "workflow/scripts/call_genome.py",
       "source_mode": 420,
@@ -1196,10 +1232,10 @@
       "path": "workflow/scripts/export_repository_snapshot.py",
       "source_path": "workflow/scripts/export_repository_snapshot.py",
       "source_mode": 420,
-      "source_bytes": 10159,
-      "source_sha256": "383420379ac011f62e7d003fa505a70eb7b6fb7b08b95ea6ea2baa88ed5969c9",
-      "release_bytes": 10159,
-      "release_sha256": "383420379ac011f62e7d003fa505a70eb7b6fb7b08b95ea6ea2baa88ed5969c9"
+      "source_bytes": 10323,
+      "source_sha256": "a36c2c9cdcfd3aba800fa571fc2543ed56859db04638f7fd2786cf1bff942add",
+      "release_bytes": 10323,
+      "release_sha256": "a36c2c9cdcfd3aba800fa571fc2543ed56859db04638f7fd2786cf1bff942add"
     },
     {
       "path": "workflow/scripts/export_runtime.py",
@@ -1479,6 +1515,15 @@
       "source_sha256": "4289a322ab710b019b8a3742241c67c3e837170071b5961fb0289699d8ddfb95",
       "release_bytes": 6706,
       "release_sha256": "4289a322ab710b019b8a3742241c67c3e837170071b5961fb0289699d8ddfb95"
+    },
+    {
+      "path": "workflow/scripts/probe_ploidy_boundaries.py",
+      "source_path": "workflow/scripts/probe_ploidy_boundaries.py",
+      "source_mode": 420,
+      "source_bytes": 7867,
+      "source_sha256": "5c17bba13285184de12b3489302597bd5ac6e3371a49c00c8b2afea72dbf4796",
+      "release_bytes": 7867,
+      "release_sha256": "5c17bba13285184de12b3489302597bd5ac6e3371a49c00c8b2afea72dbf4796"
     },
     {
       "path": "workflow/scripts/probe_ploidy_regions.py",
@@ -2381,6 +2426,15 @@
       "release_sha256": "c9dcf7995705fb8e3c78e11cc90ea23a7fe22b67de420e7c9f00983725345be8"
     },
     {
+      "path": "workflow/tests/test_fixed_ploidy_regions.py",
+      "source_path": "workflow/tests/test_fixed_ploidy_regions.py",
+      "source_mode": 420,
+      "source_bytes": 3835,
+      "source_sha256": "f17c022576b100ef67945511377f70177857d5563d5f9bcabaadb8c2e8fb862a",
+      "release_bytes": 3835,
+      "release_sha256": "f17c022576b100ef67945511377f70177857d5563d5f9bcabaadb8c2e8fb862a"
+    },
+    {
       "path": "workflow/tests/test_four_lane_indels.py",
       "source_path": "workflow/tests/test_four_lane_indels.py",
       "source_mode": 420,
@@ -2696,8 +2750,8 @@
       "release_sha256": "54ce1865db01ed816a73ad29a73a7c864ecf920b1e9475aaaa596d36405d4b34"
     }
   ],
-  "file_count": 299,
-  "total_release_bytes": 2498671,
+  "file_count": 305,
+  "total_release_bytes": 2551521,
   "transformations": [
     {
       "kind": "comment_only_acquisition_metadata_replacement",

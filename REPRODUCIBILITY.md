@@ -350,6 +350,39 @@ records and caller discordances. Variant-only absence is not reference evidence.
 GATK uses its native default filters; bcftools pileup uses MQ20/BQ20, excluded flags
 0xF04 and a 10,000 depth cap. These are raw calls without BQSR or clinical filtering.
 
+GATK 4.6.1.0 explicitly selects the greatest ploidy among intervals overlapping an
+active region. A variant near a boundary can therefore have a genotype shape that
+differs from the model at its start. The strict regional runner rejects that
+condition after retaining both original caller outputs. This behavior is documented
+in the [pinned HaplotypeCaller source](https://github.com/broadinstitute/gatk/blob/4.6.1.0/src/main/java/org/broadinstitute/hellbender/tools/walkers/haplotypecaller/HaplotypeCaller.java).
+
+`call_fixed_ploidy_regions.py` uses the same five required path arguments and adds
+`--bcftools-vcf <COMPLETED_ORIGINAL_VCF>` and `--bcftools-sha256 <EXPECTED_SHA256>`.
+It independently calls the complete selected intervals once per constant ploidy,
+without regional overrides, and reuses the identified bcftools file unchanged.
+Per-ploidy raw VCFs retain every emitted record. Combined start ownership is assigned
+before normalization; outside-owner records are logged, and REF spans crossing a
+boundary remain explicit review items. Original ALT order, GT, AD and PL are
+preserved. No genotype is coerced to fit a model.
+
+Run the boundary-specific controls on the pinned runtime:
+
+```sh
+"$MVA_ROOT/tools/bio/bin/python" -m unittest discover \
+  -s "$MVA_REPO/workflow/tests" -p test_fixed_ploidy_regions.py -v
+"$MVA_ROOT/tools/bio/bin/python" "$MVA_REPO/workflow/scripts/probe_ploidy_boundaries.py" \
+  --root "$MVA_ROOT" --output "$MVA_ROOT/results/ploidy-boundary-control-reproduction"
+```
+
+The native probe uses a seeded 12 kb fictional genome, 600 reads and 12 SNVs at
+three ploidy transitions, including each interval's last/first bases. It requires
+the original regional runner to finish both callers and then fail its strict
+boundary check. Separate fixed-ploidy calls must recover all 12 expected genotypes,
+as must the reused bcftools output: 24 caller/allele checks. The four focused tests
+also exercise invalid/partial genotypes, missing likelihoods, original multiallelic
+index preservation and retention of a constructed boundary-spanning deletion.
+These controls do not establish sensitivity in noisy or clinical data.
+
 Run the four depth and three interval controls with the pinned native runtime:
 
 ```sh

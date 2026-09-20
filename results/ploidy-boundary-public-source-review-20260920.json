@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-09-20T10:01:02.787936+00:00",
+  "pinned_version": "GATK 4.6.1.0",
+  "public_sources": {
+    "retrieved_at": "2026-09-20T09:45:02.453814+00:00",
+    "files": [
+      {
+        "path": "HaplotypeCallerEngine.java",
+        "url": "https://raw.githubusercontent.com/broadinstitute/gatk/4.6.1.0/src/main/java/org/broadinstitute/hellbender/tools/walkers/haplotypecaller/HaplotypeCallerEngine.java",
+        "bytes": 68683,
+        "sha256": "3950d9c5c6a7a6e8c19ce3b20ab1222cc02701940b54dc568767ce78dfef6512"
+      },
+      {
+        "path": "AssemblyRegionArgumentCollection.java",
+        "url": "https://raw.githubusercontent.com/broadinstitute/gatk/4.6.1.0/src/main/java/org/broadinstitute/hellbender/engine/spark/AssemblyRegionArgumentCollection.java",
+        "bytes": 10534,
+        "sha256": "163bcfeba13433b4977257906e1abc1fa12626e73740a52e695cdd1e3acd560d"
+      },
+      {
+        "path": "HaplotypeCallerArgumentCollection.java",
+        "url": "https://raw.githubusercontent.com/broadinstitute/gatk/4.6.1.0/src/main/java/org/broadinstitute/hellbender/tools/walkers/haplotypecaller/HaplotypeCallerArgumentCollection.java",
+        "bytes": 23309,
+        "sha256": "0c430b6a042819066c06b0e955d649e2b7cc2ca7b4044c1a5668f7ebc10b054f"
+      },
+      {
+        "path": "HaplotypeCaller.java",
+        "url": "https://raw.githubusercontent.com/broadinstitute/gatk/4.6.1.0/src/main/java/org/broadinstitute/hellbender/tools/walkers/haplotypecaller/HaplotypeCaller.java",
+        "bytes": 17098,
+        "sha256": "414cb2ceedfee350eeac92ffc826b888a138917e15853b60c2642b31626b813b",
+        "retrieved_on": "2026-09-20"
+      },
+      {
+        "path": "AssemblyRegionWalker.java",
+        "url": "https://raw.githubusercontent.com/broadinstitute/gatk/4.6.1.0/src/main/java/org/broadinstitute/hellbender/engine/AssemblyRegionWalker.java",
+        "bytes": 12444,
+        "sha256": "0ebd943e5630d76a728e9ccecc7b98d222d3a619d82b072b52efba2b75020dd7",
+        "retrieved_on": "2026-09-20"
+      }
+    ]
+  },
+  "finding": "HaplotypeCaller explicitly documents maximum ploidy across intervals overlapping the active region, so a variant start can lie outside the interval selecting its ploidy. HaplotypeCallerEngine implements this in getPloidyToUseAtThisSite before local genotyping.",
+  "recovery_design": "Use separate constant --sample-ploidy processes without --ploidy-regions, preserve all original output, assign start-coordinate ownership before normalization, and retain REF spans crossing a boundary for individual review.",
+  "scope": "Pinned public implementation and method design; native boundary controls are separate evidence."
+}
