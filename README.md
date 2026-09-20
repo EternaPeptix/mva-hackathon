@@ -44,6 +44,9 @@ clinical sensitivity for the child.
 - [Circular-read native calling control](results/mitochondrial-native-control-20260920.json)
 - [Original multi-allele context during mitochondrial comparison](results/mitochondrial-review-method-controls-20260920.json)
 - [Mitochondrial read-context and coordinate controls](results/mitochondrial-context-method-controls-20260920.json)
+- [Pinned mitochondrial mixture-screen runtimes and sources](results/mutserve-runtime-source-review-20260920.json)
+- [Native caller/importer contracts on fictional reads](results/mutserve-contract-controls-20260920.json)
+- [Mixture-screen selection and allele-rank controls](results/mitochondrial-mixture-method-controls-20260920.json)
 
 The workflow covers reference preparation, alignment, native GATK/bcftools calling,
 phenotype-assisted and phenotype-independent prioritisation, read evidence, phasing,

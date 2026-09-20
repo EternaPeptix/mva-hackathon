@@ -63,6 +63,9 @@ RECEIPTS = [
     'mitochondrial-native-control-20260920.json',
     'mitochondrial-review-method-controls-20260920.json',
     'mitochondrial-context-method-controls-20260920.json',
+    'mutserve-runtime-source-review-20260920.json',
+    'mutserve-contract-controls-20260920.json',
+    'mitochondrial-mixture-method-controls-20260920.json',
 ]
 
 

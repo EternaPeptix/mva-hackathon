@@ -1,0 +1,469 @@
+{
+  "verified_at": "2026-09-20T10:40:35.635210+00:00",
+  "host": "512S2",
+  "status": "qualified_with_explicit_exclusions",
+  "fictional_pileup_scenarios": 12,
+  "read_filter_scenarios": 12,
+  "selected_native_imports_verified": 13,
+  "results": {
+    "supported": {
+      "qualification": {
+        "sample": "fictional.bam",
+        "accepted_records": 7,
+        "expected_import": {
+          "309": {
+            "type": 2,
+            "coverage": 2000,
+            "ref": "C",
+            "variantBase": "A",
+            "major": "C",
+            "minor": "A",
+            "majorLevel": 0.75,
+            "minorLevel": 0.25
+          },
+          "1000": {
+            "type": 1,
+            "coverage": 2000,
+            "ref": "T",
+            "variantBase": "A"
+          },
+          "2000": {
+            "type": 2,
+            "coverage": 2000,
+            "ref": "C",
+            "variantBase": "A",
+            "major": "C",
+            "minor": "A",
+            "majorLevel": 0.75,
+            "minorLevel": 0.25
+          },
+          "3000": {
+            "type": 2,
+            "coverage": 2000,
+            "ref": "A",
+            "variantBase": "C",
+            "major": "C",
+            "minor": "A",
+            "majorLevel": 0.75,
+            "minorLevel": 0.25
+          },
+          "4000": {
+            "type": 2,
+            "coverage": 2000,
+            "ref": "A",
+            "variantBase": "C",
+            "major": "A",
+            "minor": "C",
+            "majorLevel": 0.99,
+            "minorLevel": 0.01
+          },
+          "5000": {
+            "type": 1,
+            "coverage": 2000,
+            "ref": "A",
+            "variantBase": "C"
+          },
+          "8000": {
+            "type": 2,
+            "coverage": 2000,
+            "ref": "G",
+            "variantBase": "A",
+            "major": "A",
+            "minor": "G",
+            "majorLevel": 0.5,
+            "minorLevel": 0.5
+          }
+        },
+        "excluded_positions": [
+          {
+            "pos": 6000,
+            "reason": "non_biallelic_concrete_SNP",
+            "native_rows": [
+              {
+                "ID": "fictional.bam",
+                "Filter": "PASS",
+                "Pos": "6000",
+                "Ref": "C",
+                "Variant": "A",
+                "VariantLevel": "0.75",
+                "MajorBase": "A",
+                "MajorLevel": "0.75",
+                "MinorBase": "G",
+                "MinorLevel": "0.25",
+                "Coverage": "2000",
+                "CoverageFWD": "1000",
+                "CoverageREV": "1000",
+                "Type": "2"
+              }
+            ]
+          },
+          {
+            "pos": 7000,
+            "reason": "multiple_native_rows_at_position",
+            "native_rows": [
+              {
+                "ID": "fictional.bam",
+                "Filter": "PASS",
+                "Pos": "7000",
+                "Ref": "T",
+                "Variant": "A",
+                "VariantLevel": "0.20",
+                "MajorBase": "T",
+                "MajorLevel": "0.70",
+                "MinorBase": "A",
+                "MinorLevel": "0.20",
+                "Coverage": "2000",
+                "CoverageFWD": "1000",
+                "CoverageREV": "1000",
+                "Type": "2"
+              },
+              {
+                "ID": "fictional.bam",
+                "Filter": "PASS",
+                "Pos": "7000",
+                "Ref": "T",
+                "Variant": "C",
+                "VariantLevel": "0.10",
+                "MajorBase": "T",
+                "MajorLevel": "0.70",
+                "MinorBase": "C",
+                "MinorLevel": "0.10",
+                "Coverage": "2000",
+                "CoverageFWD": "1000",
+                "CoverageREV": "1000",
+                "Type": "2"
+              }
+            ]
+          }
+        ],
+        "native_table_positions": 9,
+        "native_vcf_records": 9,
+        "hotspot_mask": [],
+        "scope": "Original VCF records retained without GT/AF recoding. Entire ambiguous/unsupported sites excluded with accounting."
+      },
+      "import_verification": {
+        "verified_records": 7,
+        "homoplasmic": 2,
+        "heteroplasmic": 5,
+        "scope": "Native importer preserves the selected caller SNP identities, classes, depths and major/minor fractions."
+      },
+      "command": [
+        "/Users/jeweled/Documents/mva-hackathon/tools/bio/lib/jvm/bin/java",
+        "-XX:ActiveProcessorCount=2",
+        "-Xmx2g",
+        "-cp",
+        "/Users/jeweled/Documents/mva-hackathon/tools/haplocheck-1.3.3/haplocheck.jar:/Users/jeweled/Documents/mva-hackathon/results/mutserve-contract-controls-20260920",
+        "HaplocheckParserProbe",
+        "/Users/jeweled/Documents/mva-hackathon/results/mutserve-contract-controls-20260920/supported.vcf",
+        "/Users/jeweled/Documents/mva-hackathon/results/mutserve-contract-controls-20260920/supported-parser.json"
+      ]
+    },
+    "hotspots-excluded": {
+      "qualification": {
+        "sample": "fictional.bam",
+        "accepted_records": 6,
+        "expected_import": {
+          "1000": {
+            "type": 1,
+            "coverage": 2000,
+            "ref": "T",
+            "variantBase": "A"
+          },
+          "2000": {
+            "type": 2,
+            "coverage": 2000,
+            "ref": "C",
+            "variantBase": "A",
+            "major": "C",
+            "minor": "A",
+            "majorLevel": 0.75,
+            "minorLevel": 0.25
+          },
+          "3000": {
+            "type": 2,
+            "coverage": 2000,
+            "ref": "A",
+            "variantBase": "C",
+            "major": "C",
+            "minor": "A",
+            "majorLevel": 0.75,
+            "minorLevel": 0.25
+          },
+          "4000": {
+            "type": 2,
+            "coverage": 2000,
+            "ref": "A",
+            "variantBase": "C",
+            "major": "A",
+            "minor": "C",
+            "majorLevel": 0.99,
+            "minorLevel": 0.01
+          },
+          "5000": {
+            "type": 1,
+            "coverage": 2000,
+            "ref": "A",
+            "variantBase": "C"
+          },
+          "8000": {
+            "type": 2,
+            "coverage": 2000,
+            "ref": "G",
+            "variantBase": "A",
+            "major": "A",
+            "minor": "G",
+            "majorLevel": 0.5,
+            "minorLevel": 0.5
+          }
+        },
+        "excluded_positions": [
+          {
+            "pos": 309,
+            "reason": "explicit_mutserve_source_hotspot_mask",
+            "native_rows": [
+              {
+                "ID": "fictional.bam",
+                "Filter": "PASS",
+                "Pos": "309",
+                "Ref": "C",
+                "Variant": "A",
+                "VariantLevel": "0.25",
+                "MajorBase": "C",
+                "MajorLevel": "0.75",
+                "MinorBase": "A",
+                "MinorLevel": "0.25",
+                "Coverage": "2000",
+                "CoverageFWD": "1000",
+                "CoverageREV": "1000",
+                "Type": "2"
+              }
+            ]
+          },
+          {
+            "pos": 6000,
+            "reason": "non_biallelic_concrete_SNP",
+            "native_rows": [
+              {
+                "ID": "fictional.bam",
+                "Filter": "PASS",
+                "Pos": "6000",
+                "Ref": "C",
+                "Variant": "A",
+                "VariantLevel": "0.75",
+                "MajorBase": "A",
+                "MajorLevel": "0.75",
+                "MinorBase": "G",
+                "MinorLevel": "0.25",
+                "Coverage": "2000",
+                "CoverageFWD": "1000",
+                "CoverageREV": "1000",
+                "Type": "2"
+              }
+            ]
+          },
+          {
+            "pos": 7000,
+            "reason": "multiple_native_rows_at_position",
+            "native_rows": [
+              {
+                "ID": "fictional.bam",
+                "Filter": "PASS",
+                "Pos": "7000",
+                "Ref": "T",
+                "Variant": "A",
+                "VariantLevel": "0.20",
+                "MajorBase": "T",
+                "MajorLevel": "0.70",
+                "MinorBase": "A",
+                "MinorLevel": "0.20",
+                "Coverage": "2000",
+                "CoverageFWD": "1000",
+                "CoverageREV": "1000",
+                "Type": "2"
+              },
+              {
+                "ID": "fictional.bam",
+                "Filter": "PASS",
+                "Pos": "7000",
+                "Ref": "T",
+                "Variant": "C",
+                "VariantLevel": "0.10",
+                "MajorBase": "T",
+                "MajorLevel": "0.70",
+                "MinorBase": "C",
+                "MinorLevel": "0.10",
+                "Coverage": "2000",
+                "CoverageFWD": "1000",
+                "CoverageREV": "1000",
+                "Type": "2"
+              }
+            ]
+          }
+        ],
+        "native_table_positions": 9,
+        "native_vcf_records": 9,
+        "hotspot_mask": [
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          315,
+          316,
+          3105,
+          3106,
+          3107,
+          16182
+        ],
+        "scope": "Original VCF records retained without GT/AF recoding. Entire ambiguous/unsupported sites excluded with accounting."
+      },
+      "import_verification": {
+        "verified_records": 6,
+        "homoplasmic": 2,
+        "heteroplasmic": 4,
+        "scope": "Native importer preserves the selected caller SNP identities, classes, depths and major/minor fractions."
+      },
+      "command": [
+        "/Users/jeweled/Documents/mva-hackathon/tools/bio/lib/jvm/bin/java",
+        "-XX:ActiveProcessorCount=2",
+        "-Xmx2g",
+        "-cp",
+        "/Users/jeweled/Documents/mva-hackathon/tools/haplocheck-1.3.3/haplocheck.jar:/Users/jeweled/Documents/mva-hackathon/results/mutserve-contract-controls-20260920",
+        "HaplocheckParserProbe",
+        "/Users/jeweled/Documents/mva-hackathon/results/mutserve-contract-controls-20260920/hotspots-excluded.vcf",
+        "/Users/jeweled/Documents/mva-hackathon/results/mutserve-contract-controls-20260920/hotspots-excluded-parser.json"
+      ]
+    }
+  },
+  "files": {
+    "results/mutserve-contract-controls-20260920/HaplocheckParserProbe.class": {
+      "bytes": 2339,
+      "sha256": "e8cede263c24704b899cb8e560ae300dfdf402b8dfdb29833b3196546cef21f5"
+    },
+    "results/mutserve-contract-controls-20260920/HaplocheckParserProbe.java": {
+      "bytes": 1116,
+      "sha256": "66da9bd8a72a57e6db1a0719b47aeb99ca2552d731518be7f9698c29fba5e33e"
+    },
+    "results/mutserve-contract-controls-20260920/MutserveReadProbe.class": {
+      "bytes": 4184,
+      "sha256": "866966d0bc60bbd557ec5f8e13ea098b39bf862be92d0e2f1deb6341c44704cd"
+    },
+    "results/mutserve-contract-controls-20260920/MutserveReadProbe.java": {
+      "bytes": 2283,
+      "sha256": "de2bc633b9a53556af0d8373a38c3a4dc0308282c37a030745ea0d8296e3afa7"
+    },
+    "results/mutserve-contract-controls-20260920/calls.txt": {
+      "bytes": 759,
+      "sha256": "51d48988da8b13cd1d9628287c905e00336e3bf2a9be2fb6a4d5c282b872c8a2"
+    },
+    "results/mutserve-contract-controls-20260920/calls.vcf.gz": {
+      "bytes": 441,
+      "sha256": "648685f3091811dcd6f13f7dca228f7e4830caba7bd57356dbf91c76ff31600b"
+    },
+    "results/mutserve-contract-controls-20260920/calls_raw.txt": {
+      "bytes": 182282,
+      "sha256": "88a6365f29d1872cbfd49962518b9f4ecc11d30fd60b6fd3da39edc42c7e5dd3"
+    },
+    "results/mutserve-contract-controls-20260920/commands.json": {
+      "bytes": 3501,
+      "sha256": "6dbc46c8c6ab574464b51eb4dbd72eae70bdc34f1f7172c36112f22eb54a424e"
+    },
+    "results/mutserve-contract-controls-20260920/compile-parser-probe.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/mutserve-contract-controls-20260920/compile-read-probe.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/mutserve-contract-controls-20260920/fictional.bam": {
+      "bytes": 92304,
+      "sha256": "01ccbd304c179cd77b3668145c0a64d74e64184a34df18a50f41106e2116b6c6"
+    },
+    "results/mutserve-contract-controls-20260920/fictional.bam.bai": {
+      "bytes": 96,
+      "sha256": "74e8e8e80b5842b45cf26e5d290ad1a4c93ec49fbe096379931a7e761b620608"
+    },
+    "results/mutserve-contract-controls-20260920/hotspots-excluded-parser.json": {
+      "bytes": 2211,
+      "sha256": "1bbc856fb29796dc03db8fd965d3f31643019933a42c89893526e56ca1067123"
+    },
+    "results/mutserve-contract-controls-20260920/hotspots-excluded-parser.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/mutserve-contract-controls-20260920/hotspots-excluded.vcf": {
+      "bytes": 709,
+      "sha256": "4bbec71a0d184a304bcfc4393bde732f3ec6cebbba6849ee780f5f5968b445a0"
+    },
+    "results/mutserve-contract-controls-20260920/mutserve.log": {
+      "bytes": 780,
+      "sha256": "09108d46566e193987143cbb19bd63ad61909d3056304797c7cb824d9a70b327"
+    },
+    "results/mutserve-contract-controls-20260920/observed.json": {
+      "bytes": 13648,
+      "sha256": "4f162f1fa22b8d6d4dfcab80c5e11a7858ac214bd8da8d3e752cc1a062905e2c"
+    },
+    "results/mutserve-contract-controls-20260920/parser-observed.json": {
+      "bytes": 3101,
+      "sha256": "cb047f5c4c4c53deb39eeaaedc0e4e6a4dd82c62170cb169576e51be87ff2b83"
+    },
+    "results/mutserve-contract-controls-20260920/parser-probe.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/mutserve-contract-controls-20260920/read-contract.json": {
+      "bytes": 209,
+      "sha256": "29eae532c6c9ba8bcf80824f71ce61a25407b717ac0fa808dffb317737708653"
+    },
+    "results/mutserve-contract-controls-20260920/read-probe.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/mutserve-contract-controls-20260920/reference.fasta": {
+      "bytes": 16852,
+      "sha256": "b02d627055166c7e1ca5ea04f8842a99cfd24ae850f17cce5e59cd117bafdef9"
+    },
+    "results/mutserve-contract-controls-20260920/reference.fasta.fai": {
+      "bytes": 19,
+      "sha256": "419e5e20a85fe2d67c8eadf4f230b40cf7f9fe12b91b50a6fcf8b3a35d303a9f"
+    },
+    "results/mutserve-contract-controls-20260920/supported-parser.json": {
+      "bytes": 2506,
+      "sha256": "395a63c457952a46a58d4af962f4f1a7972f1e43363c682511c6ef85681cabdb"
+    },
+    "results/mutserve-contract-controls-20260920/supported-parser.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/mutserve-contract-controls-20260920/supported.vcf": {
+      "bytes": 756,
+      "sha256": "0ef454aa740026fb8aec117545b9a9ccfc73dbe25102594f9daa6930f16d5456"
+    },
+    "results/mutserve-contract-controls-20260920/truth.json": {
+      "bytes": 2973,
+      "sha256": "6b91038a58a124c1b08cda90592d6beb0a4a2bbff1a76f3dfe76149220d6b8e9"
+    },
+    "methods/mutserve-qualification-20260920/verify-contract-controls.py": {
+      "bytes": 3807,
+      "sha256": "9101c7667cb67a63a4e5e560a9f436b5af299c59835fe58cc51566c2988e9591"
+    },
+    "repo/workflow/scripts/prepare_haplocheck_input.py": {
+      "bytes": 7038,
+      "sha256": "2d73b9a0c0687751bfdc368b516c20efc4e722d4cf2a67e6e42a809c3a7e1ba1"
+    }
+  },
+  "limitations": [
+    "Error-free directly aligned reads test caller/parser behavior; they do not establish alignment accuracy or a clinical detection limit.",
+    "Read counter accepts secondary/supplementary/QC-failed/MQ255/missing-AS reads and counts overlapping mates twice. Explicit input selection is required; depths remain read observations.",
+    "Native VCF drops one allele at the three-allele control; all duplicate native-table sites are excluded.",
+    "Native heteroplasmy at source-blacklisted position 309 passes; a separate explicit hotspot exclusion is required.",
+    "Native 99.5 percent alternate control is classed homoplasmic under the 1 percent caller setting; it is not molecular homogeneity."
+  ]
+}

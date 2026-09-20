@@ -504,3 +504,40 @@ and barcode example; executable lines are identical. Python compilation and shel
 syntax checks validate the copy's syntax, not end-to-end scientific correctness.
 Controlled sequencing data, indexes and genotype-scale intermediates are not inputs
 to this Git repository and must not be committed to make tests convenient.
+
+## Mitochondrial mixture screen
+
+The [runtime pins](workflow/configs/mitochondrial-contamination-runtime.json)
+identify the official haplocheck archive, bundled mutserve v2.0.0-rc12,
+haplocheck 1.3.3 and rCRS reference. Publisher-provided SHA-256 metadata was absent;
+the recorded hashes identify the downloaded bytes. Runtime binaries are acquired
+separately. The [exact native control sources and setup](workflow/source-snapshots/mitochondrial-contamination-20260920/README.md)
+document the fixed study directories and reproduction order. The qualification
+receipt and its unchanged source/control files are required before a case run.
+
+After acquiring and verifying the native runtimes, completing the controls, and
+setting `MVA_REFERENCE` and `MVA_ALIGNMENT` to the exact inputs in the reviewed
+configuration, use a **new output directory with no periods in its entire path**:
+
+```sh
+"$MVA_ROOT/tools/bio/bin/python" "$MVA_REPO/workflow/scripts/run_mitochondrial_contamination.py" \
+  --root "$MVA_ROOT" --reference "$MVA_REFERENCE" --alignment "$MVA_ALIGNMENT" \
+  --config "$MVA_REPO/workflow/configs/mitochondrial-discovery.json" \
+  --qualification "$MVA_ROOT/results/mutserve-contract-controls-20260920/qualification-verification.json" \
+  --parser-probe "$MVA_REPO/workflow/source-snapshots/mitochondrial-contamination-20260920/HaplocheckParserProbe.java" \
+  --output "$MVA_ROOT/results/mitochondrial-contamination-NEW"
+```
+
+The wrapper preserves original whole-genome mappings, excludes unsupported read
+flags and unknown MQ/AS, and invokes native MQ30/BQ20/AS30 filtering. Overlapping
+mates remain separate observations. It reconciles the full caller text table with
+the VCF, retains qualified biallelic SNP records without GT/AF recoding, verifies
+their interpretation through the actual haplocheck importer, and checks fresh
+text/raw/HTML reports in hotspot-inclusive and hotspot-excluded arms. A three-allele
+control shows that the caller's VCF can drop one allele; an additional native
+rank-switch control shows that changing the rank of another minor allele can
+suppress an otherwise supported allele. These are explicit limitations, not
+clinical validation. NO/ND cannot be reported as zero or nuclear contamination.
+
+[Native contract results](results/mutserve-contract-controls-20260920.json),
+[source-linked controls](results/mitochondrial-mixture-method-controls-20260920.json).

@@ -1,0 +1,76 @@
+{
+  "verified_at": "2026-09-20T10:50:27.308595+00:00",
+  "host": "512S2",
+  "status": "qualified_with_explicit_exclusions",
+  "fictional_pileup_scenarios": 12,
+  "read_counter_scenarios": 12,
+  "selection_scenarios": 10,
+  "selected_native_imports_verified": 13,
+  "rank_switch_control": {
+    "two_alleles": {
+      "FWD": {
+        "G": 20,
+        "T": 980,
+        "A": 0
+      },
+      "REV": {
+        "T": 980,
+        "G": 20
+      },
+      "eligible_minor_bases": [
+        "G"
+      ]
+    },
+    "extra_forward_allele": {
+      "FWD": {
+        "G": 20,
+        "T": 950,
+        "A": 30
+      },
+      "REV": {
+        "T": 980,
+        "G": 20
+      },
+      "eligible_minor_bases": []
+    }
+  },
+  "files": {
+    "workflow/scripts/prepare_haplocheck_input.py": {
+      "bytes": 7038,
+      "sha256": "2d73b9a0c0687751bfdc368b516c20efc4e722d4cf2a67e6e42a809c3a7e1ba1"
+    },
+    "workflow/scripts/run_mitochondrial_contamination.py": {
+      "bytes": 12865,
+      "sha256": "db5114fec27c809a629e4329437aa6a89e1360ce0b90a65874cc3b97c85cc81d"
+    },
+    "workflow/source-snapshots/mitochondrial-contamination-20260920/HaplocheckParserProbe.java": {
+      "bytes": 1116,
+      "sha256": "66da9bd8a72a57e6db1a0719b47aeb99ca2552d731518be7f9698c29fba5e33e"
+    },
+    "workflow/source-snapshots/mitochondrial-contamination-20260920/MutserveAlleleRankProbe.java": {
+      "bytes": 1555,
+      "sha256": "608951af867693b572c9238850a479b27ed1b5430679bf75ba26fa858dd1e748"
+    },
+    "workflow/source-snapshots/mitochondrial-contamination-20260920/MutserveReadProbe.java": {
+      "bytes": 2283,
+      "sha256": "de2bc633b9a53556af0d8373a38c3a4dc0308282c37a030745ea0d8296e3afa7"
+    },
+    "workflow/source-snapshots/mitochondrial-contamination-20260920/run-contract-controls.py": {
+      "bytes": 4982,
+      "sha256": "86e3194d79fc35e06b9f8fc4bd19035f8cbac34b4b31b441b09cc535356a153c"
+    },
+    "workflow/source-snapshots/mitochondrial-contamination-20260920/verify-contract-controls.py": {
+      "bytes": 3807,
+      "sha256": "9101c7667cb67a63a4e5e560a9f436b5af299c59835fe58cc51566c2988e9591"
+    }
+  },
+  "qualification_receipt_sha256": "ef4ec46615d356f620585de749be66ec49b0dc6f82ec4e904329caa77a7af689",
+  "limits": [
+    "Error-free directly aligned reads test caller/parser behavior; they do not establish alignment accuracy or a clinical detection limit.",
+    "Read counter accepts secondary/supplementary/QC-failed/MQ255/missing-AS reads and counts overlapping mates twice. Explicit input selection is required; depths remain read observations.",
+    "Native VCF drops one allele at the three-allele control; all duplicate native-table sites are excluded.",
+    "Native heteroplasmy at source-blacklisted position 309 passes; a separate explicit hotspot exclusion is required.",
+    "Native 99.5 percent alternate control is classed homoplasmic under the 1 percent caller setting; it is not molecular homogeneity."
+  ],
+  "scope": "Public-reference fictional controls and exact executed source identities only; no case results or read sequences."
+}
