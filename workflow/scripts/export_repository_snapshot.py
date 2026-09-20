@@ -45,6 +45,7 @@ RECEIPTS = [
     'cnv-context-method-controls-20260920.json',
     'structural-cnv-context-controls-20260920.json',
     'tandem-junction-method-controls-20260920.json',
+    'paralog-pair-method-controls-20260920.json',
 ]
 
 

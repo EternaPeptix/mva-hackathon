@@ -241,6 +241,21 @@ the public HG002 reads as patient data.
   are reported as overlapping fragment sets. Transcript geometry is conditional
   on a simple tandem arrangement, not proof of expression or gene disruption.
   Sequence/read tables and patient results remain outside this source export.
+- `review_paralog_candidate_pair.py --root <ROOT> --config <JSON> --output <new-directory>`
+  checks a nearby candidate pair against the completed raw small-variant shard and
+  selected structural calls. The example configuration is
+  `workflow/configs/fancd2-paralog-review.json`; its identities are case-specific and
+  must refer to the intended completed inputs. The script rechecks input hashes,
+  retains raw regional calls/reads, and counts RG/QNAME fragments at several mapping
+  thresholds. It remaps original primary reads, actual mates and reference windows
+  individually with the pinned full-reference BWA index, retaining reported alternatives.
+  `summarize_paralog_mates.py --analysis <completed-directory>
+  --expected-summary-sha256 <SHA256> --output <new-directory>` describes companion
+  support from those saved mappings, including reciprocal coordinates and clipping.
+  This sensitivity removes pairing information; weak single-end mapping does not
+  establish an artifact, and a favored mapping does not demonstrate unique origin.
+  Read and mate observations are not independent molecules. Case results and sequences
+  remain outside the source export.
 
 At this source snapshot the four-lane alignment and format verification are complete;
 small-variant whole-reference calling and broader interpretation remain unfinished.
@@ -274,6 +289,14 @@ a passing native control:
 
 ```sh
 python3 -m unittest discover -s "$MVA_REPO/workflow/tests" -p test_tandem_junction.py -v
+```
+
+The six nearby-pair/mate controls require pysam and include mapping-quality 255,
+fragment conflicts, tied/absent alternative mappings, reciprocal mates and clipping:
+
+```sh
+"$MVA_ROOT/tools/bio/bin/python" -m unittest discover \
+  -s "$MVA_REPO/workflow/tests" -p test_paralog_candidate_pair.py -v
 ```
 
 They test representation and missingness rules, including checksum corruption and

@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-09-20T05:30:24.608884+00:00",
+  "created_at": "2026-09-20T06:03:10.484316+00:00",
   "scope": "Complete selected workflow source/configuration inventory plus public/synthetic/runtime evidence; no patient-result files or internal Git history.",
-  "source_manifest_sha256": "07d0999b6a900c80cf2bb4409c669a89ad158c7b9f298c8b3d228b884af3ef12",
-  "exporter_sha256": "069dded0c43dbfa3fa6f46bdabcc0a7c93f9dcc345d1a5873e3be4d80bb86076",
+  "source_manifest_sha256": "3e8e6ec5cf4dbd3f25cc86fcd8f922aa2d67524cc3527d9ba40b54ef81799459",
+  "exporter_sha256": "09c17f102991520ffbc2242a1b77b78f448cf84bdee705399c6e0d8e877b9554",
   "files": [
     {
       "path": ".gitignore",
@@ -26,19 +26,19 @@
       "path": "README.md",
       "source_path": "publication/README.md",
       "source_mode": 420,
-      "source_bytes": 7774,
-      "source_sha256": "a06e77624c276521b62d4ea5aea9c6479ba5fb9aafc4b48a410c63aa62c4dba7",
-      "release_bytes": 7774,
-      "release_sha256": "a06e77624c276521b62d4ea5aea9c6479ba5fb9aafc4b48a410c63aa62c4dba7"
+      "source_bytes": 7884,
+      "source_sha256": "be9796a9adb67838a260e4f8aa0efe7ab87116436dddfa3ef556a75934cd9bd2",
+      "release_bytes": 7884,
+      "release_sha256": "be9796a9adb67838a260e4f8aa0efe7ab87116436dddfa3ef556a75934cd9bd2"
     },
     {
       "path": "REPRODUCIBILITY.md",
       "source_path": "publication/REPRODUCIBILITY.md",
       "source_mode": 420,
-      "source_bytes": 19009,
-      "source_sha256": "f1b9f0a6aa284a90528201560990304423bbda71c412e9855bb7a80adc7cedec",
-      "release_bytes": 19009,
-      "release_sha256": "f1b9f0a6aa284a90528201560990304423bbda71c412e9855bb7a80adc7cedec"
+      "source_bytes": 20487,
+      "source_sha256": "53b6b86c1305d6feb1b973e8e48169c67b12bf1d802627c977d23a12275efb49",
+      "release_bytes": 20487,
+      "release_sha256": "53b6b86c1305d6feb1b973e8e48169c67b12bf1d802627c977d23a12275efb49"
     },
     {
       "path": "results/cnv-context-method-controls-20260920.json",
@@ -201,6 +201,15 @@
       "source_sha256": "fc61175c266ce68a98e0d0be559a506336b074b21ebc3147509fd63409731fbc",
       "release_bytes": 387,
       "release_sha256": "fc61175c266ce68a98e0d0be559a506336b074b21ebc3147509fd63409731fbc"
+    },
+    {
+      "path": "results/paralog-pair-method-controls-20260920.json",
+      "source_path": "results/paralog-pair-method-controls-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 1920,
+      "source_sha256": "a22a4ae5c4181c076edc947c065e12d73fbdb254f894c104f29d025ec6a1241a",
+      "release_bytes": 1920,
+      "release_sha256": "a22a4ae5c4181c076edc947c065e12d73fbdb254f894c104f29d025ec6a1241a"
     },
     {
       "path": "results/rtg-install-20260919.json",
@@ -390,6 +399,15 @@
       "source_sha256": "c32918a8050da828585d1084cccfa8157a0102aa3162dbd8e884091eab6485f2",
       "release_bytes": 861,
       "release_sha256": "c32918a8050da828585d1084cccfa8157a0102aa3162dbd8e884091eab6485f2"
+    },
+    {
+      "path": "workflow/configs/fancd2-paralog-review.json",
+      "source_path": "workflow/configs/fancd2-paralog-review.json",
+      "source_mode": 420,
+      "source_bytes": 1112,
+      "source_sha256": "d5458ab1217c38e987707e7946d7258d04158f4bc672c946d9ee1511c2c453e8",
+      "release_bytes": 1112,
+      "release_sha256": "d5458ab1217c38e987707e7946d7258d04158f4bc672c946d9ee1511c2c453e8"
     },
     {
       "path": "workflow/configs/lirical-subject.json",
@@ -899,10 +917,10 @@
       "path": "workflow/scripts/export_repository_snapshot.py",
       "source_path": "workflow/scripts/export_repository_snapshot.py",
       "source_mode": 420,
-      "source_bytes": 9367,
-      "source_sha256": "069dded0c43dbfa3fa6f46bdabcc0a7c93f9dcc345d1a5873e3be4d80bb86076",
-      "release_bytes": 9367,
-      "release_sha256": "069dded0c43dbfa3fa6f46bdabcc0a7c93f9dcc345d1a5873e3be4d80bb86076"
+      "source_bytes": 9417,
+      "source_sha256": "09c17f102991520ffbc2242a1b77b78f448cf84bdee705399c6e0d8e877b9554",
+      "release_bytes": 9417,
+      "release_sha256": "09c17f102991520ffbc2242a1b77b78f448cf84bdee705399c6e0d8e877b9554"
     },
     {
       "path": "workflow/scripts/export_runtime.py",
@@ -1391,6 +1409,15 @@
       "release_sha256": "43fc4591c73603671ffad6f80b7e0ea97616f9907e4dafee1f1e2b3cf7289a99"
     },
     {
+      "path": "workflow/scripts/review_paralog_candidate_pair.py",
+      "source_path": "workflow/scripts/review_paralog_candidate_pair.py",
+      "source_mode": 420,
+      "source_bytes": 21833,
+      "source_sha256": "427a80baf2b53bd4f61e77e1534f3452985558a1bbf9b51e1ede0f0035b256c3",
+      "release_bytes": 21833,
+      "release_sha256": "427a80baf2b53bd4f61e77e1534f3452985558a1bbf9b51e1ede0f0035b256c3"
+    },
+    {
       "path": "workflow/scripts/review_public_representation_losses.py",
       "source_path": "workflow/scripts/review_public_representation_losses.py",
       "source_mode": 420,
@@ -1596,6 +1623,15 @@
       "source_sha256": "d572294f1a0c7b89b431919551ae632f598b6cc324d6c7dd1dd759ee95e5d0e6",
       "release_bytes": 10448,
       "release_sha256": "d572294f1a0c7b89b431919551ae632f598b6cc324d6c7dd1dd759ee95e5d0e6"
+    },
+    {
+      "path": "workflow/scripts/summarize_paralog_mates.py",
+      "source_path": "workflow/scripts/summarize_paralog_mates.py",
+      "source_mode": 420,
+      "source_bytes": 6950,
+      "source_sha256": "6b4c400b495dc4951db0e61a5c4e269c6dbcbad73785ef6cc934ca370348926b",
+      "release_bytes": 6950,
+      "release_sha256": "6b4c400b495dc4951db0e61a5c4e269c6dbcbad73785ef6cc934ca370348926b"
     },
     {
       "path": "workflow/scripts/summarize_public_representation.py",
@@ -1967,6 +2003,15 @@
       "release_sha256": "4f2e2bf261153cb03613ac892ee8b74099fc8f59149ada1e0218b49cf0e1dbb9"
     },
     {
+      "path": "workflow/tests/test_paralog_candidate_pair.py",
+      "source_path": "workflow/tests/test_paralog_candidate_pair.py",
+      "source_mode": 420,
+      "source_bytes": 4867,
+      "source_sha256": "f81216aea9418fe653d5a5a43c60803e8cbed66021dc2bab7fe3ff2fffc54a5d",
+      "release_bytes": 4867,
+      "release_sha256": "f81216aea9418fe653d5a5a43c60803e8cbed66021dc2bab7fe3ff2fffc54a5d"
+    },
+    {
       "path": "workflow/tests/test_phase_pair_experiment.py",
       "source_path": "workflow/tests/test_phase_pair_experiment.py",
       "source_mode": 420,
@@ -2165,8 +2210,8 @@
       "release_sha256": "54ce1865db01ed816a73ad29a73a7c864ecf920b1e9475aaaa596d36405d4b34"
     }
   ],
-  "file_count": 240,
-  "total_release_bytes": 2182345,
+  "file_count": 245,
+  "total_release_bytes": 2220665,
   "transformations": [
     {
       "kind": "comment_only_acquisition_metadata_replacement",
