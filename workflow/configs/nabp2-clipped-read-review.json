@@ -1,0 +1,139 @@
+{
+  "scope": "Post hoc full-query fitting of NABP2 seed ends and separate whole-reference remapping of canonical seed/mate ends; no native call, phase, clinical classification or EPCR.",
+  "sample": "WGS_EX2312012",
+  "expected_read_groups": 4,
+  "inputs": {
+    "alignment": {
+      "path": "align/gatk-compatible-cram30-20260920/WGS_EX2312012.cram",
+      "bytes": 26879379800,
+      "sha256": "c3ef27cc9bde0010da9d6e872f88d52b542cbb435ee1d6f85f7f88509ce6f26b"
+    },
+    "alignment_index": {
+      "path": "align/gatk-compatible-cram30-20260920/WGS_EX2312012.cram.crai",
+      "bytes": 1803542,
+      "sha256": "4c04806b8ffe3a5dcf48599385b221e4688430cb6843d09cd357cddf5fd6a692"
+    },
+    "reference": {
+      "path": "ref/realignment/GRCh38_nochr.fa",
+      "bytes": 3150144669,
+      "sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6"
+    },
+    "reference_index": {
+      "path": "ref/realignment/GRCh38_nochr.fa.fai",
+      "bytes": 115406,
+      "sha256": "d81f672f40cfabf2510f37e3f790f2c79665023f4ac950bb9cc6496a40cebf32"
+    },
+    "samtools": {
+      "path": "tools/bio/bin/samtools",
+      "bytes": 777952,
+      "sha256": "7518cbb230a35393d7d3a9f02fc8b4519e4a37b5a17fbed06b9752ca1d962a91"
+    },
+    "gatk_shard-0011": {
+      "path": "calls/from-fastq-cram30-20260920/shard-0011/attempt-1789900062326638000/gatk.raw.vcf.gz",
+      "bytes": 10172762,
+      "sha256": "0794621804e2d336387b5611028b36e52c233c5c86025ac925f10392493e2b37"
+    },
+    "bcftools_shard-0011": {
+      "path": "calls/from-fastq-cram30-20260920/shard-0011/attempt-1789900062326638000/bcftools.raw.bcf",
+      "bytes": 9822373,
+      "sha256": "bd15b15a62c46e86b7bfcbd051ba5cab986936e5cfad013a9ecfe20570c86588"
+    },
+    "seed_bam": {
+      "sha256": "fb7eb88eab31724361b8f62265d424809c8a85a0015c0c3cabb437c7802fc28d",
+      "bytes": 92331,
+      "path": "results/joint-haplotype-review-20260920/original-regional-reads.bam"
+    },
+    "seed_bam_index": {
+      "sha256": "616084889fcc614296f891d92e7d91491fb9b88f4ff36f01c9cc1afe609c07db",
+      "bytes": 161504,
+      "path": "results/joint-haplotype-review-20260920/original-regional-reads.bam.bai"
+    },
+    "bwa": {
+      "path": "tools/bio/bin/bwa",
+      "bytes": 425616,
+      "sha256": "34f338e639956e9d14d582283c44a8b52ad0fff8944ccd1dabaeb8d651bcf04e"
+    },
+    "bwa_index_record": {
+      "path": "ref/realignment/bwa-index.json",
+      "bytes": 611,
+      "sha256": "9b82b63c9f8ab31481abdb0d5248cbe1c7a84880b407191a4f1308cc2729958e"
+    },
+    "bwa_index.amb": {
+      "path": "ref/realignment/GRCh38_nochr.fa.amb",
+      "bytes": 17479,
+      "sha256": "ee090133bf0d18c46b989945fd81410b08945150e3fb813df8b9b91014e4407a"
+    },
+    "bwa_index.ann": {
+      "path": "ref/realignment/GRCh38_nochr.fa.ann",
+      "bytes": 128350,
+      "sha256": "911bd48593286c22bdb2bb550b846db4c3711fd97649047663d02a98b3a6cd82"
+    },
+    "bwa_index.bwt": {
+      "path": "ref/realignment/GRCh38_nochr.fa.bwt",
+      "bytes": 3105715140,
+      "sha256": "f841f3f0e11680cdf2ac1d3c0e2a361c62896adcc6c8582a7bbaace45b59185c"
+    },
+    "bwa_index.pac": {
+      "path": "ref/realignment/GRCh38_nochr.fa.pac",
+      "bytes": 776428767,
+      "sha256": "01ec1ddd827fef838325a7b439277dea18c38a1723761800a2f35141ed3530e1"
+    },
+    "bwa_index.sa": {
+      "path": "ref/realignment/GRCh38_nochr.fa.sa",
+      "bytes": 1552857584,
+      "sha256": "e9275dff31af296f748485421647b8d73662c2b4663bfcdff785f871f05eaf8a"
+    }
+  },
+  "seed_window": {
+    "chrom": "12",
+    "start0": 56229061,
+    "end0": 56229120
+  },
+  "targets": [
+    {
+      "id": "NABP2",
+      "chrom": "12",
+      "core_start0": 56229086,
+      "core_end0": 56229099,
+      "required_source_record_ids": [
+        "gatk:0794621804e2d336387b5611028b36e52c233c5c86025ac925f10392493e2b37:101620",
+        "gatk:0794621804e2d336387b5611028b36e52c233c5c86025ac925f10392493e2b37:101621",
+        "gatk:0794621804e2d336387b5611028b36e52c233c5c86025ac925f10392493e2b37:101622",
+        "gatk:0794621804e2d336387b5611028b36e52c233c5c86025ac925f10392493e2b37:101623"
+      ]
+    }
+  ],
+  "caller_sources": [
+    {
+      "caller": "bcftools",
+      "input": "bcftools_shard-0011",
+      "expected_records": 226051,
+      "expected_rendered_record_payload_sha256": "8c5df327a4e2fb34497f3beeed724cf82567634bc97bfc0dc1eccf93592fbdc8"
+    },
+    {
+      "caller": "gatk",
+      "input": "gatk_shard-0011",
+      "expected_records": 224558,
+      "expected_rendered_record_payload_sha256": "59947ef0f66523ff8bf2b9817f02e5b70c97e93b48ca0244a33374f9b142f1b1"
+    }
+  ],
+  "window_flanks_bp": [
+    250,
+    500
+  ],
+  "maximum_seed_records": 512,
+  "maximum_canonical_ends": 1024,
+  "maximum_hypothesis_states": 256,
+  "maximum_haplotype_bases": 100000,
+  "maximum_fit_cells": 1000000,
+  "maximum_tracebacks": 64,
+  "maximum_total_fit_cells": 500000000,
+  "bwa_threads": 2,
+  "source_sha256": {
+    "review_clipped_reads.py": "0612f8c72afb349c2ad073e04cb458bf89396709c92ba9fcd6b53f6b28db08f3",
+    "clipped_read_helpers.py": "860ab4f1932d1b3907b6e39b2529e3655aff4909f45b14687489e5a625b035ab",
+    "review_joint_haplotypes.py": "39e2e566bcc1dc0938b1b4318e8a3aeb045c51fe175245d9dfaa110206732416",
+    "joint_haplotype_helpers.py": "0edf1f484bbe2b5009b31f5f0205a96e617b11d1d0677c6e3bb0b59eed06363e",
+    "native_coding_records.py": "c395dd130a2577e7b25ba0ac62d600d7cb64c9240f3eb218536eff22c5c44cfe"
+  }
+}

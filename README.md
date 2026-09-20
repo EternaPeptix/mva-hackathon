@@ -224,3 +224,27 @@ The private source configuration includes selected targets, sample labels and
 input-identity hashes needed to reproduce the exact method. Individual read
 records, read names, case evidence/result payloads, clinical reports and media
 are excluded from this source export.
+
+## Full-query clipped-read review
+
+The [clipped-read workflow](workflow/docs/CLIPPED-READ-REVIEW.md) retains the
+complete available seed query, including soft clips and original qualities,
+for bounded local sequence comparison. Canonical seed and mate ends are also
+remapped in separate single-end and paired arms against the whole reference.
+Exact ties, capped traceback witnesses, unresolved mate lookups and every
+reported alternative alignment remain visible.
+
+Twelve [fictional helper and native integration controls](workflow/source-snapshots/clipped-read-controls-20260920/controls.json)
+passed with no skips on Mac Studio 512S2. They exercise exact fitting, native
+BAM/CRAM and raw VCF/BCF preservation, full-query/quality orientation, real BWA
+indexing and remapping, a planted distant alternative locus, mate deduplication,
+missing qualities and refusal paths. The receipt pins all eight executed
+source, configuration and test files.
+
+Local unit edit distance ignores base qualities and is not a genotype score.
+Missing qualities remain unavailable; hard-clipped sequence cannot be recovered.
+BWA's reported alternatives are nonexhaustive, and remap arms reuse the same
+ends. Fits and reported placements do not establish genomic origin, parental
+phase, causality or clinical benefit. This source update contains method and
+fictional-control evidence, with actual read identities, sequences and case
+outputs retained separately.

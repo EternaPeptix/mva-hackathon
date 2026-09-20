@@ -636,3 +636,55 @@ The private configuration preserves target/sample/input-hash selection pins.
 Acquire those authorized external inputs separately; do not commit individual
 read records, read names, case evidence/result payloads, clinical reports or
 media to reproduce this source-only snapshot.
+
+## Full-query fitting and whole-reference remapping
+
+Use the [clipped-read recipe](workflow/docs/CLIPPED-READ-REVIEW.md) with the
+pinned native Studio runtime and authorized external inputs. The private
+configuration retains the selected sample, intervals, input identities and
+resource limits. The runner accepts `--root`, `--config` and a new `--output`
+directory. Original alignment/seed indexes, the reference FAI, both complete
+raw caller files and the BWA index receipt and files must match their pins.
+Original data, indexes and prior outputs are never rewritten.
+
+The [qualification receipt](workflow/source-snapshots/clipped-read-controls-20260920/controls.json)
+records 12 tests passed with no skips at `2026-09-20T15:21:44.485903+00:00` on
+Mac Studio 512S2: seven helper controls and five native integration controls,
+using Python 3.12.14 and pysam 0.24.1. It pins five workflow scripts, the
+configuration and two test files. Reproduce the complete suite before using a
+revision; reject skipped, empty or incomplete execution:
+
+```sh
+MVA_PROJECT_ROOT="$MVA_ROOT" MVA_TEST_DIRECTORY="$MVA_REPO/workflow/tests"   "$MVA_ROOT/tools/bio/bin/python" - <<'PYCONTROLS'
+import os
+import unittest
+suite = unittest.defaultTestLoader.discover(
+    os.environ['MVA_TEST_DIRECTORY'], pattern='test_clipped_read*.py')
+result = unittest.TextTestRunner(verbosity=2).run(suite)
+if not result.wasSuccessful() or result.skipped or result.testsRun != 12:
+    raise SystemExit(1)
+PYCONTROLS
+```
+
+The native controls use generated sequence and reads, real BAM/CRAM/VCF/BCF
+files, and actual BWA indexing and remapping. They do not run native genotypers
+or measure sensitivity on clinical data. The retained receipt identifies the
+qualified bytes; source, configuration or runtime changes need their own
+qualification evidence.
+
+Local comparison consumes every available query base with unit edit costs.
+It fits eligible primary seed ends only; recovered mate-only ends receive
+original-context review and genome remapping. Missing qualities permit an
+explicitly unweighted local fit when the sequence is concrete, but exclude
+FASTQ export. Multiple optimal placements and capped witnesses must remain
+explicit. Target offsets refer to constructed sequence; indel-containing
+panels require edit-coordinate mapping before genomic interpretation.
+
+The single and paired remapping arms preserve every reported BWA record and
+check full exported sequence/quality payloads where present. Read ends,
+identifier-group fragments, source lineages and reused remap arms are distinct
+denominators. The workflow does not assign allele-support fragment counts.
+Each actual run requires separate status/summary, fresh hash, end/export,
+fit/CIGAR and fragment reconciliation. Keep those private read-level outputs
+outside this source snapshot; fictional qualification alone does not establish
+case correctness, locus assignment, parental phase or clinical validity.
