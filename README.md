@@ -54,6 +54,11 @@ copy number, homozygosity, structural discovery, public controls, and report/pit
 production. Some components are completed controls or prepared follow-ons; presence
 of a script does not mean it has produced a patient result.
 
+The revised local pitch tools include segment-by-segment decoding and caption/audio
+integrity checks. The [media reproduction recipe](workflow/docs/pitch-v2-reproduction.md)
+documents the tested Mac Studio environment, storyboard contract and limits. The
+case-specific storyboard, clinical reports and media remain outside this source snapshot.
+
 The tested platform is **Apple Silicon macOS on a Mac Studio**. Conda specifications
 are for `osx-arm64`; Linux, x86 and GPU-only paths are not substitutes for this setup.
 The older Docker/three-caller scripts remain historical and are not the active method.

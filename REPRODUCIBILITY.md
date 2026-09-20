@@ -541,3 +541,13 @@ clinical validation. NO/ND cannot be reported as zero or nuclear contamination.
 
 [Native contract results](results/mutserve-contract-controls-20260920.json),
 [source-linked controls](results/mitochondrial-mixture-method-controls-20260920.json).
+
+## Local narrated pitch production
+
+The [second pitch-template recipe](workflow/docs/pitch-v2-reproduction.md) describes
+the four native/Python production and inspection programs. It records the tested
+macOS 26.5.1 environment separately from the genomic runtime above. Supply a reviewed,
+authorized storyboard outside this source snapshot and produce a new output tree.
+Media checks cover measured duration, captions, decoded speech windows and every
+planned static-segment midpoint; they do not establish scientific validity, complete
+pronunciation review or upload status. Earlier pitch source remains preserved.
