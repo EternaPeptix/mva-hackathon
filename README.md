@@ -323,3 +323,10 @@ The [v26 reproduction guide](workflow/docs/V26-SOURCE-REPRODUCTION.md) links the
 ## Saved-depth mapping and Sonic narration source update (v27)
 
 The private source archive now includes the guarded saved-depth interval mapper, its exact fictional qualification, generic saved-output checking and appendix derivatives, and the Sonic 3.6 synthesis/assembly sources. The [v27 reproduction notes](workflow/docs/V27-SOURCE-REPRODUCTION.md) distinguish immutable executed sources, post-run safety changes, and release adaptations. The [source and qualification map](workflow/docs/V27-SOURCE-MAP.json) records exact hashes, dependencies and restoration boundaries. This is a source-only update; it contains no new case outputs, narration manifests, media, scientific reports or submission payloads.
+
+
+## Saved public structural-variant annotation diagnostic
+
+The [residual annotation source snapshot](workflow/source-snapshots/public-sv-residual-review-20260920/README.md) retains the exact analyzer, independent VCF reader/checker, configurations, historical launch plans and separate fictional-control receipts used on 20 September 2026. It describes existing public HG002 chromosome 20 truth annotations within fixed variant classes and size bins while preserving both callers' saved decisions. It does not call variants or rerun the benchmark.
+
+The snapshot distinguishes 29 producer controls from nine narrower independent-parser/helper checks. Historical plan paths and hashes require the documented native layout and separately available inputs; a fresh clone alone is not a replay. No clinical validation or untested-caller improvement is implied.

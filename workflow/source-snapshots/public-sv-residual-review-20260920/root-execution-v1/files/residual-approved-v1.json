@@ -1,0 +1,136 @@
+{
+  "expected": {
+    "benchmark_bases": 58600190,
+    "benchmark_intervals": 214,
+    "classes": {
+      "DEL": 254,
+      "INS": 548
+    },
+    "original_full_context_records": 197162,
+    "outcomes": {
+      "DELLY_only": 17,
+      "SvABA_only": 119,
+      "matched_by_both": 52,
+      "missed_by_both": 614
+    },
+    "outcomes_by_class": {
+      "DEL": {
+        "DELLY_only": 12,
+        "SvABA_only": 47,
+        "matched_by_both": 48,
+        "missed_by_both": 147
+      },
+      "INS": {
+        "DELLY_only": 5,
+        "SvABA_only": 72,
+        "matched_by_both": 4,
+        "missed_by_both": 467
+      }
+    },
+    "per_caller_by_size": {
+      "DELLY": {
+        "DEL:100-499:FN": 76,
+        "DEL:100-499:TP": 27,
+        "DEL:1000-9999:FN": 5,
+        "DEL:1000-9999:TP": 14,
+        "DEL:10000-50000:TP": 2,
+        "DEL:50-99:FN": 100,
+        "DEL:50-99:TP": 15,
+        "DEL:500-999:FN": 13,
+        "DEL:500-999:TP": 2,
+        "INS_like:100-499:FN": 280,
+        "INS_like:100-499:TP": 2,
+        "INS_like:1000-9999:FN": 70,
+        "INS_like:50-99:FN": 122,
+        "INS_like:50-99:TP": 2,
+        "INS_like:500-999:FN": 67,
+        "INS_like:500-999:TP": 5
+      },
+      "SvABA": {
+        "DEL:100-499:FN": 71,
+        "DEL:100-499:TP": 32,
+        "DEL:1000-9999:FN": 8,
+        "DEL:1000-9999:TP": 11,
+        "DEL:10000-50000:FN": 2,
+        "DEL:50-99:FN": 68,
+        "DEL:50-99:TP": 47,
+        "DEL:500-999:FN": 10,
+        "DEL:500-999:TP": 5,
+        "INS_like:100-499:FN": 252,
+        "INS_like:100-499:TP": 30,
+        "INS_like:1000-9999:FN": 69,
+        "INS_like:1000-9999:TP": 1,
+        "INS_like:50-99:FN": 87,
+        "INS_like:50-99:TP": 37,
+        "INS_like:500-999:FN": 64,
+        "INS_like:500-999:TP": 8
+      }
+    },
+    "truth_records": 802
+  },
+  "inputs": {
+    "comparison_config": {
+      "bytes": 1950,
+      "path": "/Users/jeweled/Documents/mva-hackathon/repo/workflow/configs/public-sv-pilot-comparison.json",
+      "sha256": "86b2e380e5dd390b05ee7deb3393171976ebe84f828bb556e3e4f5ef8f667e80"
+    },
+    "delly_final_truth": {
+      "bytes": 125140,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-public-comparison-20260919-v2/benchmark/refine.base.vcf.gz",
+      "sha256": "de0bf5c452980d09cfcce299075c106b6e5f0b8ec0d4ab070e49693f581a7353"
+    },
+    "delly_status": {
+      "bytes": 185,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-public-comparison-20260919-v2/status.json",
+      "sha256": "99192d32aa2d5290967fc9198db9ca818055aeff2fdffa79e45cc88f4bfa90ea"
+    },
+    "delly_summary": {
+      "bytes": 12853,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-public-comparison-20260919-v2/summary.json",
+      "sha256": "21ef5f0efecc73844a5063f9f09c09d07ac898310888b7b2c7b7aece5b2b73c5"
+    },
+    "delly_variant_summary": {
+      "bytes": 213,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-public-comparison-20260919-v2/benchmark/refine.variant_summary.json",
+      "sha256": "170267786c197134c0c7c57554e8419ede24c2778bd0f3ac0fb7352ff4125e33"
+    },
+    "official_chr20_benchmark": {
+      "bytes": 5065,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-public-pilot-20260919/official-chr20-benchmark.bed",
+      "sha256": "85d2254c511969813bb8581ed8566a3b40f83c5bdd8a2c1c2338b4224aec3456"
+    },
+    "original_truth_chr20_no_star": {
+      "bytes": 1417087,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/structural-public-comparison-20260919-v2/truth-chr20.no-star.full-context.vcf.gz",
+      "sha256": "0d78661d0baa486568577792f21bc60d467f34f852a040c464f0b529feac750f"
+    },
+    "prior_final_audit": {
+      "bytes": 12468,
+      "path": "/Users/jeweled/Documents/mva-hackathon/repo/results/svaba-public-comparison-audit-20260919-v4.json",
+      "sha256": "03eac59b64b9c0769d7f8a811d8bd53caefb2d9a595dc18a42022017436873e2"
+    },
+    "svaba_final_truth": {
+      "bytes": 130322,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/svaba-public-comparison-20260919-v4/benchmark/refine.base.vcf.gz",
+      "sha256": "1c3333bb52354bc2f010f9bb9a38eea4336cd61db4fb2ed4dda63aea9d468fbe"
+    },
+    "svaba_status": {
+      "bytes": 202,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/svaba-public-comparison-20260919-v4/status.json",
+      "sha256": "c84078f5b3b74a6b514aa32431bfc79a27e82aa785e1ff91b1460ea9834005f6"
+    },
+    "svaba_summary": {
+      "bytes": 18887,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/svaba-public-comparison-20260919-v4/summary.json",
+      "sha256": "9d76fcfe03318fc3827c816489bb8b576548bfb1d00e922211c5b5dc4e838045"
+    },
+    "svaba_variant_summary": {
+      "bytes": 216,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/svaba-public-comparison-20260919-v4/benchmark/refine.variant_summary.json",
+      "sha256": "4a5f45e7610922bf1af3b452e367a76998a85895109a3d0ee5a003bfef4751b5"
+    }
+  },
+  "preparation_note": "Root-reviewed saved-public analysis under the existing MVA research authorization. Execute once after independent source review; all original inputs and decisions preserved.",
+  "ready": true,
+  "scope": "Saved public HG002 chr20 GIAB v5.0q truth annotations versus unchanged final DELLY-v2 and SvABA-v4 decisions. No BAM/reference/caller/comparator execution."
+}

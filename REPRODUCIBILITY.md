@@ -787,3 +787,10 @@ Complete source-field mapping does not include every receipt-referenced runtime,
 ## v27 source and replay boundary
 
 See the [v27 reproduction notes](workflow/docs/V27-SOURCE-REPRODUCTION.md) and [source map](workflow/docs/V27-SOURCE-MAP.json). Exact historical source/receipt bindings are preserved separately from generic release adaptations and their local checks. Saved-output parity is not new biological evidence. Replaying the historical research still requires authorized private inputs, pinned public resources, runtime identities and preserved native layouts. Speech synthesis additionally requires a user-supplied provider credential, permitted credit use and a narration manifest; no speech requests are made by the archive preparation or verification.
+
+
+## Public structural-variant residual annotation sources
+
+Follow the [source snapshot instructions](workflow/source-snapshots/public-sv-residual-review-20260920/README.md) for exact source mappings, separate control scopes, the reused guard-helper dependency and the twelve saved public input requirements. Original source bytes and historical plans are preserved. The plans bind a particular completed run; reproduce deliberately with a new owned output directory and a reviewed plan binding the fresh paths and hashes. Do not edit historical plans in place or reuse a completed output directory.
+
+This release verifies exported source identity and documentation. The 29 producer and nine independent helper checks are retained historical native receipts, not a combined validation score. The latter do not qualify the full checker end to end. The actual diagnostic and separate full saved-output readback completed on Mac Studio 512S2 before this source release; no caller, patient analysis, speech request or benchmark is run by preparing or checking this archive.
