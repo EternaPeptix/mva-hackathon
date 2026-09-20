@@ -562,3 +562,21 @@ and the [observed runtime](workflow/source-snapshots/changed-call-read-controls-
 record the executed qualification. Overlapping hypotheses, windows and quality
 thresholds are not independent samples and must not be added. Read support and
 annotation proximity do not establish locus assignment, pathogenicity or causality.
+
+## Completed-autosome handoff check
+
+Follow [the handoff reproduction instructions](workflow/docs/discovery-handoff-reproduction.md)
+using the verified native environment and a new output directory. The provided
+calling-definition hash and original reference must match. The audit snapshots only
+completed autosomes and requires every chromosome when `--require-complete` is set.
+It exercises indexes through explicit contig queries, replays split normalization,
+and retains links to newly fingerprinted original multiallelic files. Counts under
+the older quality screen diagnose compatibility; they do not adopt new filtering
+thresholds or infer missing GQ. No native caller or completed output is modified.
+
+Five [native fictional controls](workflow/source-snapshots/discovery-handoff-controls-20260920/controls.json)
+passed on Python 3.12.14, pysam 0.24.1 and bcftools/htslib 1.24 on a Mac Studio.
+They test preservation, missingness, raw-genotype tampering, wrong indexes, incomplete
+scope and empty valid input. These controls concern handoff consistency, not
+biological sensitivity. The full case audit and case callsets remain outside this
+source-only export.

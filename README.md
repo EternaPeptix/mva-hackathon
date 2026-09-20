@@ -180,3 +180,14 @@ it is not an independent audit of all historical provider retention or feedback 
 Code is covered by the [MIT license](LICENSE); written reports and documentation use
 CC BY 4.0 under its scope note. Third-party software and reference data retain their
 own licenses and access requirements.
+
+## Autosomal discovery handoff
+
+The [completed-shard handoff audit](workflow/docs/discovery-handoff-reproduction.md)
+checks native allele/genotype preservation, the existing screen's quality-field
+compatibility, and complete-record normalization replay before downstream ranking.
+Five [native fictional controls](workflow/source-snapshots/discovery-handoff-controls-20260920/controls.json)
+pass, including wrong-index and changed-input refusal. Pending chromosomes remain
+explicit. This adds a method check; it does not establish a complete genomic analysis,
+new causal candidate, quality policy or clinical sensitivity. Case audit outputs are
+not included in this source snapshot.
