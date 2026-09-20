@@ -1,0 +1,391 @@
+{
+  "sample": "WGS_EX2312012",
+  "reference_sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6",
+  "slice_padding_bp": 5000,
+  "read_filters": {
+    "minimum_mapping_quality": 20,
+    "minimum_base_quality": 20,
+    "exclude_flags": "0xF04",
+    "BAQ": true,
+    "one_fragment_per_RG_and_query_name": true,
+    "conflicting_mates_retained_separately": true
+  },
+  "reference_support_policy": {
+    "minimum_caller_DP": 10,
+    "required_modes": [
+      "GATK_BP_gVCF",
+      "GATK_genotyped",
+      "bcftools_allsites",
+      "bcftools_targeted"
+    ],
+    "GQ_required_modes": [
+      "GATK_BP_gVCF"
+    ],
+    "minimum_reference_GQ": 20,
+    "target_PL_gap_required_modes": [
+      "bcftools_targeted"
+    ],
+    "minimum_target_reference_PL_gap": 20,
+    "minimum_reference_fragments": 10,
+    "require_both_strands": true,
+    "require_zero_eligible_nonreference_or_conflicting_fragments": true,
+    "require_GATK_GenotypeGVCFs_and_bcftools_explicit_homref": true,
+    "quality_fields": "GATK BP-resolution reference model GQ >=20 plus explicit all-sites GT/DP; bcftools constrained 0/0 must have min(PL01,PL11)-PL00 >=20. The likelihood gap is not called GQ. Missing caller GQ remains null.",
+    "meaning": "Operational evidence for reference sequence at these SNPs in retained lanes, not a validated clinical negative or exclusion of mosaicism, deletions, or other regulatory alleles."
+  },
+  "purpose": "Post hoc complete-four-lane review of all 14 SNVs selected in the prior coding baseline, including the two BUB1B same-read controls. Complex/mapping review remains required.",
+  "scope": "Targets originate in the historical retained-lane baseline; this run uses the completed four-lane alignment of the same biological sample.",
+  "baseline_config_sha256": "76647f307106cf3f8514448a7b75ce6f4a3ba8c938fcb137c98461b3500acdf9",
+  "targets": [
+    {
+      "key": "12:123845786:C:A",
+      "chrom": "12",
+      "pos": 123845786,
+      "ref": "C",
+      "alt": "A",
+      "genes": [
+        "DNAH10"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          0,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 33,
+        "GQ": 99,
+        "PGT": null,
+        "PID": null,
+        "PS": null,
+        "alt_copies": 1,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    },
+    {
+      "key": "12:123929713:G:A",
+      "chrom": "12",
+      "pos": 123929713,
+      "ref": "G",
+      "alt": "A",
+      "genes": [
+        "DNAH10"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          0,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 49,
+        "GQ": 99,
+        "PGT": null,
+        "PID": null,
+        "PS": null,
+        "alt_copies": 1,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    },
+    {
+      "key": "14:94379526:C:T",
+      "chrom": "14",
+      "pos": 94379526,
+      "ref": "C",
+      "alt": "T",
+      "genes": [
+        "SERPINA1"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          0,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 55,
+        "GQ": 99,
+        "PGT": "0|1",
+        "PID": "94379526_C_T",
+        "PS": null,
+        "alt_copies": 1,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    },
+    {
+      "key": "14:94379563:A:T",
+      "chrom": "14",
+      "pos": 94379563,
+      "ref": "A",
+      "alt": "T",
+      "genes": [
+        "SERPINA1"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          0,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 58,
+        "GQ": 99,
+        "PGT": "0|1",
+        "PID": "94379541_G_GA",
+        "PS": null,
+        "alt_copies": 1,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    },
+    {
+      "key": "14:94379593:T:A",
+      "chrom": "14",
+      "pos": 94379593,
+      "ref": "T",
+      "alt": "A",
+      "genes": [
+        "SERPINA1"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          0,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 61,
+        "GQ": 99,
+        "PGT": null,
+        "PID": null,
+        "PS": null,
+        "alt_copies": 1,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    },
+    {
+      "key": "14:94379607:C:T",
+      "chrom": "14",
+      "pos": 94379607,
+      "ref": "C",
+      "alt": "T",
+      "genes": [
+        "SERPINA1"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          0,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 52,
+        "GQ": 99,
+        "PGT": "0|1",
+        "PID": "94379601_A_G",
+        "PS": null,
+        "alt_copies": 1,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    },
+    {
+      "key": "15:40209701:T:G",
+      "chrom": "15",
+      "pos": 40209701,
+      "ref": "T",
+      "alt": "G",
+      "genes": [
+        "BUB1B"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          0,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 46,
+        "GQ": 99,
+        "PGT": null,
+        "PID": null,
+        "PS": null,
+        "alt_copies": 1,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    },
+    {
+      "key": "15:40220612:T:G",
+      "chrom": "15",
+      "pos": 40220612,
+      "ref": "T",
+      "alt": "G",
+      "genes": [
+        "BUB1B"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          0,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 28,
+        "GQ": 99,
+        "PGT": null,
+        "PID": null,
+        "PS": null,
+        "alt_copies": 1,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    },
+    {
+      "key": "6:31269990:T:C",
+      "chrom": "6",
+      "pos": 31269990,
+      "ref": "T",
+      "alt": "C",
+      "genes": [
+        "HLA-C"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          1,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 19,
+        "GQ": 60,
+        "PGT": "1|1",
+        "PID": "31269990_T_C",
+        "PS": null,
+        "alt_copies": 2,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    },
+    {
+      "key": "6:31269992:G:A",
+      "chrom": "6",
+      "pos": 31269992,
+      "ref": "G",
+      "alt": "A",
+      "genes": [
+        "HLA-C"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          1,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 20,
+        "GQ": 60,
+        "PGT": "1|1",
+        "PID": "31269990_T_C",
+        "PS": null,
+        "alt_copies": 2,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    },
+    {
+      "key": "6:31269996:T:C",
+      "chrom": "6",
+      "pos": 31269996,
+      "ref": "T",
+      "alt": "C",
+      "genes": [
+        "HLA-C"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          1,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 20,
+        "GQ": 63,
+        "PGT": "1|1",
+        "PID": "31269990_T_C",
+        "PS": null,
+        "alt_copies": 2,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    },
+    {
+      "key": "6:31270025:A:G",
+      "chrom": "6",
+      "pos": 31270025,
+      "ref": "A",
+      "alt": "G",
+      "genes": [
+        "HLA-C"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          1,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 23,
+        "GQ": 69,
+        "PGT": "1|1",
+        "PID": "31269990_T_C",
+        "PS": null,
+        "alt_copies": 2,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    },
+    {
+      "key": "6:31270056:T:C",
+      "chrom": "6",
+      "pos": 31270056,
+      "ref": "T",
+      "alt": "C",
+      "genes": [
+        "HLA-C"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          1,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 27,
+        "GQ": 81,
+        "PGT": "1|1",
+        "PID": "31270056_T_C",
+        "PS": null,
+        "alt_copies": 2,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    },
+    {
+      "key": "6:31270276:G:C",
+      "chrom": "6",
+      "pos": 31270276,
+      "ref": "G",
+      "alt": "C",
+      "genes": [
+        "HLA-C"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          1,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 17,
+        "GQ": 51,
+        "PGT": "1|1",
+        "PID": "31270154_CAGA_C",
+        "PS": null,
+        "alt_copies": 2,
+        "source_alt_index": 1
+      },
+      "selection": "primary observed-rare model"
+    }
+  ]
+}

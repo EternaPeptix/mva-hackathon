@@ -1,0 +1,63 @@
+{
+  "scope": "Post hoc four-lane SERPINA1 cluster, aligned-base cooccurrence, mates and reported full-reference alternatives; no assumed clinical phase or source locus.",
+  "target_directory": "results/baseline-four-lane-snvs-20260920",
+  "target_status_sha256": "ebad15d5a3af0b86d816b92d44e89e217918f3c86afd1345c7cb554db237ab48",
+  "bwa_reference": "ref/realignment/GRCh38_nochr.fa",
+  "bwa_index_record": "ref/realignment/bwa-index.json",
+  "bwa_binary": "tools/bio/bin/bwa",
+  "chrom": "14",
+  "read_window_0based": [
+    94379349,
+    94379749
+  ],
+  "sites": [
+    [
+      94379526,
+      "C",
+      "T"
+    ],
+    [
+      94379563,
+      "A",
+      "T"
+    ],
+    [
+      94379593,
+      "T",
+      "A"
+    ],
+    [
+      94379607,
+      "C",
+      "T"
+    ]
+  ],
+  "minimum_base_quality": 20,
+  "mapping_quality_thresholds": [
+    20,
+    40,
+    60
+  ],
+  "target_gene": "SERPINA1",
+  "annotated_loci": {
+    "SERPINA1": {
+      "chrom": "14",
+      "start_0based": 94376744,
+      "end_exclusive": 94391024
+    },
+    "SERPINA2": {
+      "chrom": "14",
+      "start_0based": 94364315,
+      "end_exclusive": 94366698
+    }
+  },
+  "annotation": {
+    "path": "ref/baseline-20260919/Homo_sapiens.GRCh38.116.chr.gff3.gz",
+    "sha256": "0857407b4a8be8792089a69fd961737256fb7129b6b799f8a8920ebea4fb134f",
+    "coordinate_note": "Gene feature intervals verified directly from the pinned Ensembl 116 GFF. Start converted from 1-based inclusive to 0-based; end unchanged. Boundaries do not imply sequence-origin certainty.",
+    "gene_ids": {
+      "SERPINA1": "ENSG00000197249.16",
+      "SERPINA2": "ENSG00000258597.4"
+    }
+  }
+}

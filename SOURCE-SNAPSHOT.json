@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-09-20T06:36:21.367636+00:00",
+  "created_at": "2026-09-20T07:19:24.476049+00:00",
   "scope": "Complete selected workflow source/configuration inventory plus public/synthetic/runtime evidence; no patient-result files or internal Git history.",
-  "source_manifest_sha256": "2c7118e9183a176c116bea65d1bc8327a9ff68017431889f261ced0bb1a1b972",
-  "exporter_sha256": "93978988212e97a0362978d0cbf2cbc90e0836d117974b8c8f0b3304f90629c9",
+  "source_manifest_sha256": "185a51889a7e8ec83a5caad00be4c5deb8fc99405bebaac4c0663b4589ae2a82",
+  "exporter_sha256": "4447e32f476c46db165ef2b01444ef68c643cfde0f30b1d5a16e9e065e3ee9d1",
   "files": [
     {
       "path": ".gitignore",
@@ -26,19 +26,19 @@
       "path": "README.md",
       "source_path": "publication/README.md",
       "source_mode": 420,
-      "source_bytes": 8036,
-      "source_sha256": "e15fc064a36df3d214ee06d5e813b15b7085b53881f574a5feafe891fa8ab3d6",
-      "release_bytes": 8036,
-      "release_sha256": "e15fc064a36df3d214ee06d5e813b15b7085b53881f574a5feafe891fa8ab3d6"
+      "source_bytes": 8312,
+      "source_sha256": "fe3c3909df00c25e9fce5d3cb3a95c726c37a428c159cb3e816b09f4ac1dc27c",
+      "release_bytes": 8312,
+      "release_sha256": "fe3c3909df00c25e9fce5d3cb3a95c726c37a428c159cb3e816b09f4ac1dc27c"
     },
     {
       "path": "REPRODUCIBILITY.md",
       "source_path": "publication/REPRODUCIBILITY.md",
       "source_mode": 420,
-      "source_bytes": 21097,
-      "source_sha256": "d80a940f5858ef88492a63bd33819f11244eeb632d1974b2b948b5f2480b273e",
-      "release_bytes": 21097,
-      "release_sha256": "d80a940f5858ef88492a63bd33819f11244eeb632d1974b2b948b5f2480b273e"
+      "source_bytes": 23260,
+      "source_sha256": "7e9d334b55ca61e64584aad433980d81ebb02eaf78085daa9c8c60beae4f310c",
+      "release_bytes": 23260,
+      "release_sha256": "7e9d334b55ca61e64584aad433980d81ebb02eaf78085daa9c8c60beae4f310c"
     },
     {
       "path": "results/assay-capacity-planning-20260920.json",
@@ -48,6 +48,15 @@
       "source_sha256": "96c57b0cb9a1f134718cb82d12bf24d823f9ec1ba174b1e18a80c4b7499a54c2",
       "release_bytes": 4638,
       "release_sha256": "96c57b0cb9a1f134718cb82d12bf24d823f9ec1ba174b1e18a80c4b7499a54c2"
+    },
+    {
+      "path": "results/cluster-target-projection-controls-20260920.json",
+      "source_path": "results/cluster-target-projection-controls-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 517,
+      "source_sha256": "3d927c3211a1b952a3abaffec913a37e7b56f1bdfc6e6325751896cdfac1d5fa",
+      "release_bytes": 517,
+      "release_sha256": "3d927c3211a1b952a3abaffec913a37e7b56f1bdfc6e6325751896cdfac1d5fa"
     },
     {
       "path": "results/cnv-context-method-controls-20260920.json",
@@ -221,6 +230,15 @@
       "release_sha256": "a22a4ae5c4181c076edc947c065e12d73fbdb254f894c104f29d025ec6a1241a"
     },
     {
+      "path": "results/public-clone-method-controls-20260920.json",
+      "source_path": "results/public-clone-method-controls-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 730,
+      "source_sha256": "4efdf8b362275b89b3c361356d4fa09709a5a52ab56d3aa569bfb5605dd3bf3e",
+      "release_bytes": 730,
+      "release_sha256": "4efdf8b362275b89b3c361356d4fa09709a5a52ab56d3aa569bfb5605dd3bf3e"
+    },
+    {
       "path": "results/rtg-install-20260919.json",
       "source_path": "results/rtg-install-20260919.json",
       "source_mode": 420,
@@ -311,6 +329,15 @@
       "release_sha256": "bd7bfac5fb26c2358cc77e662cfbb2e462a832700d2a61d379f303a991ee7531"
     },
     {
+      "path": "results/snv-cluster-method-controls-20260920.json",
+      "source_path": "results/snv-cluster-method-controls-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 745,
+      "source_sha256": "74a5e775b7d1b925b0565007fc49c7e5fcb9f3cdc1ed52fe676915dc4480d01e",
+      "release_bytes": 745,
+      "release_sha256": "74a5e775b7d1b925b0565007fc49c7e5fcb9f3cdc1ed52fe676915dc4480d01e"
+    },
+    {
       "path": "results/structural-cnv-context-controls-20260920.json",
       "source_path": "results/structural-cnv-context-controls-20260920.json",
       "source_mode": 420,
@@ -354,6 +381,15 @@
       "source_sha256": "b2a4a430900696934c8eebf988cd5d7a077c50c1157cd08f881136bc1de8230b",
       "release_bytes": 428,
       "release_sha256": "b2a4a430900696934c8eebf988cd5d7a077c50c1157cd08f881136bc1de8230b"
+    },
+    {
+      "path": "workflow/configs/baseline-four-lane-snvs.json",
+      "source_path": "workflow/configs/baseline-four-lane-snvs.json",
+      "source_mode": 420,
+      "source_bytes": 8822,
+      "source_sha256": "33afda636869230c181c5eab11e10b47d92f756293fd77cf432934e069873ae1",
+      "release_bytes": 8822,
+      "release_sha256": "33afda636869230c181c5eab11e10b47d92f756293fd77cf432934e069873ae1"
     },
     {
       "path": "workflow/configs/baseline-read-review.json",
@@ -507,6 +543,33 @@
       "source_sha256": "cf81f1c74a38a46210253afac409d5644de2cc583f6b4d960cd3c7577b0d5253",
       "release_bytes": 1111,
       "release_sha256": "cf81f1c74a38a46210253afac409d5644de2cc583f6b4d960cd3c7577b0d5253"
+    },
+    {
+      "path": "workflow/configs/serpina1-cluster-review.json",
+      "source_path": "workflow/configs/serpina1-cluster-review.json",
+      "source_mode": 420,
+      "source_bytes": 1635,
+      "source_sha256": "181bab61b85b15c639470d3f9147912b7212bf1e7a1806b2ff42a5de9b2c77fe",
+      "release_bytes": 1635,
+      "release_sha256": "181bab61b85b15c639470d3f9147912b7212bf1e7a1806b2ff42a5de9b2c77fe"
+    },
+    {
+      "path": "workflow/configs/serpina1-public-clone-comparison.json",
+      "source_path": "workflow/configs/serpina1-public-clone-comparison.json",
+      "source_mode": 420,
+      "source_bytes": 1045,
+      "source_sha256": "34f89312bd0f6e0035b0abf5af720d383c03b65c72012993310616773fd20566",
+      "release_bytes": 1045,
+      "release_sha256": "34f89312bd0f6e0035b0abf5af720d383c03b65c72012993310616773fd20566"
+    },
+    {
+      "path": "workflow/configs/serpina1-public-transcript-comparison.json",
+      "source_path": "workflow/configs/serpina1-public-transcript-comparison.json",
+      "source_mode": 420,
+      "source_bytes": 1392,
+      "source_sha256": "5cdd719b7c38d97de26b356ac4466be0c5129ac02153ebb9666549ee75e830aa",
+      "release_bytes": 1392,
+      "release_sha256": "5cdd719b7c38d97de26b356ac4466be0c5129ac02153ebb9666549ee75e830aa"
     },
     {
       "path": "workflow/configs/structural-discovery.json",
@@ -896,6 +959,15 @@
       "release_sha256": "6240a5756efcd8d8a26b1e999a3f07a627e9b8594676c54575b118a9fe69282f"
     },
     {
+      "path": "workflow/scripts/compare_cluster_public_sequence.py",
+      "source_path": "workflow/scripts/compare_cluster_public_sequence.py",
+      "source_mode": 420,
+      "source_bytes": 8965,
+      "source_sha256": "be0c414aedf2859dca13c170a91fcdde52e895dc66da2d27d7620aa9dacdc2e6",
+      "release_bytes": 8965,
+      "release_sha256": "be0c414aedf2859dca13c170a91fcdde52e895dc66da2d27d7620aa9dacdc2e6"
+    },
+    {
       "path": "workflow/scripts/compare_public_small_variants.py",
       "source_path": "workflow/scripts/compare_public_small_variants.py",
       "source_mode": 420,
@@ -935,10 +1007,10 @@
       "path": "workflow/scripts/export_repository_snapshot.py",
       "source_path": "workflow/scripts/export_repository_snapshot.py",
       "source_mode": 420,
-      "source_bytes": 9462,
-      "source_sha256": "93978988212e97a0362978d0cbf2cbc90e0836d117974b8c8f0b3304f90629c9",
-      "release_bytes": 9462,
-      "release_sha256": "93978988212e97a0362978d0cbf2cbc90e0836d117974b8c8f0b3304f90629c9"
+      "source_bytes": 9617,
+      "source_sha256": "4447e32f476c46db165ef2b01444ef68c643cfde0f30b1d5a16e9e065e3ee9d1",
+      "release_bytes": 9617,
+      "release_sha256": "4447e32f476c46db165ef2b01444ef68c643cfde0f30b1d5a16e9e065e3ee9d1"
     },
     {
       "path": "workflow/scripts/export_runtime.py",
@@ -1310,6 +1382,15 @@
       "release_sha256": "42fe2ba4e86d159172b0b60c1c6034395ddf001ae28b1b24cf0a5cee1a1210bc"
     },
     {
+      "path": "workflow/scripts/project_cluster_target_bases.py",
+      "source_path": "workflow/scripts/project_cluster_target_bases.py",
+      "source_mode": 420,
+      "source_bytes": 5945,
+      "source_sha256": "f91467d6392d4d9713cc5003136fe95e7d057da55bef181e1c689232dcbb53b8",
+      "release_bytes": 5945,
+      "release_sha256": "f91467d6392d4d9713cc5003136fe95e7d057da55bef181e1c689232dcbb53b8"
+    },
+    {
       "path": "workflow/scripts/rare_biallelic_baseline.py",
       "source_path": "workflow/scripts/rare_biallelic_baseline.py",
       "source_mode": 420,
@@ -1452,6 +1533,15 @@
       "source_sha256": "d3e0c99af37b35d5820b285809079142b3027cd9eb669446c571da2d6e8defbf",
       "release_bytes": 3552,
       "release_sha256": "d3e0c99af37b35d5820b285809079142b3027cd9eb669446c571da2d6e8defbf"
+    },
+    {
+      "path": "workflow/scripts/review_snv_cluster_mapping.py",
+      "source_path": "workflow/scripts/review_snv_cluster_mapping.py",
+      "source_mode": 420,
+      "source_bytes": 16362,
+      "source_sha256": "4158954a46c84d955fa439dfc6d5710d20382196258dd97354baae06ae1d2ccf",
+      "release_bytes": 16362,
+      "release_sha256": "4158954a46c84d955fa439dfc6d5710d20382196258dd97354baae06ae1d2ccf"
     },
     {
       "path": "workflow/scripts/review_svaba_native_run.py",
@@ -1958,6 +2048,15 @@
       "release_sha256": "97c41dc9d72ad0718d2af144bf9187de78ff9af2e06ffd8c1fe6892dc418e136"
     },
     {
+      "path": "workflow/tests/test_cluster_target_projection.py",
+      "source_path": "workflow/tests/test_cluster_target_projection.py",
+      "source_mode": 420,
+      "source_bytes": 853,
+      "source_sha256": "166783035b02ab76c9e6db5a9d0e0778b3a24fdf77686a8f80c83ccf77414280",
+      "release_bytes": 853,
+      "release_sha256": "166783035b02ab76c9e6db5a9d0e0778b3a24fdf77686a8f80c83ccf77414280"
+    },
+    {
       "path": "workflow/tests/test_cnv_context.py",
       "source_path": "workflow/tests/test_cnv_context.py",
       "source_mode": 420,
@@ -2057,6 +2156,15 @@
       "release_sha256": "4d0d1d70a4448f9e80952120386bdbea2a2c9acacbc85617d955a41837be0c26"
     },
     {
+      "path": "workflow/tests/test_public_clone_comparison.py",
+      "source_path": "workflow/tests/test_public_clone_comparison.py",
+      "source_mode": 420,
+      "source_bytes": 2120,
+      "source_sha256": "53adde023b82e5ef5a1b02dcf3736b746541c4c388b0175eaa12e6998da84bc7",
+      "release_bytes": 2120,
+      "release_sha256": "53adde023b82e5ef5a1b02dcf3736b746541c4c388b0175eaa12e6998da84bc7"
+    },
+    {
       "path": "workflow/tests/test_public_scope_geometry.py",
       "source_path": "workflow/tests/test_public_scope_geometry.py",
       "source_mode": 420,
@@ -2145,6 +2253,15 @@
       "source_sha256": "9695fd916de340ad3311b9437bcfe3243141e7a23f67e6bcf33700fa888a7f19",
       "release_bytes": 3519,
       "release_sha256": "9695fd916de340ad3311b9437bcfe3243141e7a23f67e6bcf33700fa888a7f19"
+    },
+    {
+      "path": "workflow/tests/test_snv_cluster_mapping.py",
+      "source_path": "workflow/tests/test_snv_cluster_mapping.py",
+      "source_mode": 420,
+      "source_bytes": 2520,
+      "source_sha256": "414b1ccc95dba1ba6f798c4d630a93bc4adf0827e166554c67e836bf40678a28",
+      "release_bytes": 2520,
+      "release_sha256": "414b1ccc95dba1ba6f798c4d630a93bc4adf0827e166554c67e836bf40678a28"
     },
     {
       "path": "workflow/tests/test_structural_cnv_context.py",
@@ -2237,8 +2354,8 @@
       "release_sha256": "54ce1865db01ed816a73ad29a73a7c864ecf920b1e9475aaaa596d36405d4b34"
     }
   ],
-  "file_count": 248,
-  "total_release_bytes": 2232608,
+  "file_count": 261,
+  "total_release_bytes": 2286853,
   "transformations": [
     {
       "kind": "comment_only_acquisition_metadata_replacement",

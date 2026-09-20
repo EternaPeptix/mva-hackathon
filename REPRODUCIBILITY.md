@@ -266,6 +266,35 @@ those submission requirements.
 
 ## 4. Check components and preserve evidence
 
+The baseline SNV follow-up uses the existing `audit_final_alignment_targets.py` with
+`workflow/configs/baseline-four-lane-snvs.json`, a completed four-lane `state/raw-reads.json`,
+and a new external output directory. `review_snv_cluster_mapping.py --root <ROOT> --config
+workflow/configs/serpina1-cluster-review.json --output <NEW_DIRECTORY>` then retains selected
+aligned-base configurations, reciprocal mates and full-reference BWA alternatives.
+
+For the independent public-sequence comparisons, obtain the EMBL records
+[AL117259.6](https://www.ebi.ac.uk/ena/browser/api/embl/AL117259?download=false) and
+[JX680599.1](https://www.ebi.ac.uk/ena/browser/api/embl/JX680599?download=false), retain their
+archive metadata and verify the complete-file SHA-256 values specified in
+`serpina1-public-clone-comparison.json` and `serpina1-public-transcript-comparison.json`.
+Store them at each configuration's `public_embl` path under the analysis root. The second
+record is a spliced mRNA/CDS sequence; its alignments and spans cannot be interpreted as
+genomic insert lengths, expression or a physical haplotype.
+
+Run `compare_cluster_public_sequence.py --root <ROOT> --config <COMPARISON_CONFIG>
+--output <NEW_DIRECTORY>` separately for each public record. Then run
+`project_cluster_target_bases.py --root <ROOT> --comparison <TRANSCRIPT_COMPARISON_DIRECTORY>
+--output <NEW_JSON>` to check that the original target bases themselves participate in the
+matches, with both read orientations accounted for. Small-reference mapping quality is
+not genome-wide confidence; missing or unmapped score comparisons remain unavailable.
+
+Example configurations pin the original completed receipts. A fresh reproduction creates
+new timestamped receipts: first validate its inputs, commands and complete outputs, retain
+the original and new receipt identities, and set the dependent configuration's receipt
+pin to that validated local result. Do not bypass a mismatch or silently reuse old results.
+Five cluster, four public-comparison and two projection controls ran on 512S2 with source
+identities recorded in the selected receipts. Case reads and findings are outside this export.
+
 `plan_assay_capacity.py --config workflow/configs/assay-pilot-capacity.json
 --output <new-output.json>` uses standard-library arithmetic to calculate a prospective
 well/imaging/storage scenario. The example retains independent culture preparations when
