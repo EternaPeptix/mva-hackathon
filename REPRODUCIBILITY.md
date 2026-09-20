@@ -688,3 +688,35 @@ Each actual run requires separate status/summary, fresh hash, end/export,
 fit/CIGAR and fragment reconciliation. Keep those private read-level outputs
 outside this source snapshot; fictional qualification alone does not establish
 case correctness, locus assignment, parental phase or clinical validity.
+
+## Prospective founder-cell ledger
+
+Follow the [founder-ledger schema and execution recipe](workflow/docs/FOUNDER-LEDGER.md).
+Provide four strict JSON inputs: the frozen design, planned-well registry,
+starting-cell roster and adjudicated outcomes. Supply a separately recorded SHA-256
+for every input; the design must also pin the roster. Use a new output directory.
+The runner requires only the Python standard library and records its own source
+identity along with every input identity.
+
+The [qualification receipt](workflow/source-snapshots/founder-ledger-controls-20260920/controls.json)
+pins the source and test files used for fictional controls on the Mac Studio.
+Reproduce that complete suite and compare its test count to the receipt before
+using the recorded revision:
+
+```sh
+python3 -m unittest discover -s "$MVA_REPO/workflow/tests" -p 'test_founder_ledger.py' -v
+```
+
+Keep zero-denominator fractions unavailable, retain unscorable anaphases separately
+from tracking loss, and keep failed/unrun wells in the planned registry. A known
+starting census from an interrupted acquisition still contributes its adjudicated
+outcomes. An unknown starting census does not become a valid empty well. Cells
+already mitotic at time zero retain their left-censored entry rather than an
+invented entry time. First-event classifications cannot be overwritten by later
+secondary outcomes supplied to the ledger.
+
+The output validates the supplied adjudication contract. It does not reconstruct
+images, detect an earlier event omitted from every input, prove independent
+biological replicates, infer drug efficacy or verify that prospective freezing
+actually occurred. Experimental observations and case-specific outputs belong
+outside this source-only repository.

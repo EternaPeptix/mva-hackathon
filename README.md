@@ -248,3 +248,25 @@ ends. Fits and reported placements do not establish genomic origin, parental
 phase, causality or clinical benefit. This source update contains method and
 fictional-control evidence, with actual read identities, sequences and case
 outputs retained separately.
+
+## Prospective founder-cell ledger
+
+The [founder-ledger method](workflow/docs/FOUNDER-LEDGER.md) checks an adjudicated
+first-mitosis outcome table against a separately pinned roster of starting cells
+and a registry of every planned well. Missing outcomes, extra cells and descendants
+cannot silently change the primary denominator. Failed or unrun wells remain visible;
+an unavailable starting count remains unavailable.
+
+The output retains scorable and unscorable anaphases, non-entry, exit without
+anaphase, death, ongoing first mitosis and tracking loss. It reports descriptive
+counts and fractions within each recorded experimental stratum. Later outcomes
+remain secondary records, and an apparent decrease in scored errors must be read
+alongside the yield of starting cells reaching a scorable anaphase without a scored
+error. Neither quantity establishes a normal chromosome complement or functional
+rescue.
+
+The [qualification receipt](workflow/source-snapshots/founder-ledger-controls-20260920/controls.json)
+contains fictional software controls only. This source addition contains no
+laboratory observations, treatment-effect estimates, power calculations or automatic
+decisions to advance a drug. Raw-image truth, actual pretreatment freezing and the
+completeness of the starting-cell roster require separate experimental review.
