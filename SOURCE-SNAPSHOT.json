@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-09-20T07:19:24.476049+00:00",
+  "created_at": "2026-09-20T07:44:09.282192+00:00",
   "scope": "Complete selected workflow source/configuration inventory plus public/synthetic/runtime evidence; no patient-result files or internal Git history.",
-  "source_manifest_sha256": "185a51889a7e8ec83a5caad00be4c5deb8fc99405bebaac4c0663b4589ae2a82",
-  "exporter_sha256": "4447e32f476c46db165ef2b01444ef68c643cfde0f30b1d5a16e9e065e3ee9d1",
+  "source_manifest_sha256": "8a2091995f9e5137492ab547c615fd4e93af0d4d5f544d9c4343dfddc129ba54",
+  "exporter_sha256": "5ea87a6f74dcbaf9a5db5bc4ecfc69d7c0dc58a5bf7f3be4d1286006db14b2e9",
   "files": [
     {
       "path": ".gitignore",
@@ -26,19 +26,19 @@
       "path": "README.md",
       "source_path": "publication/README.md",
       "source_mode": 420,
-      "source_bytes": 8312,
-      "source_sha256": "fe3c3909df00c25e9fce5d3cb3a95c726c37a428c159cb3e816b09f4ac1dc27c",
-      "release_bytes": 8312,
-      "release_sha256": "fe3c3909df00c25e9fce5d3cb3a95c726c37a428c159cb3e816b09f4ac1dc27c"
+      "source_bytes": 8508,
+      "source_sha256": "a1d03223fa5512c4964e3f32cd83b7a0d6a3e7f4cb07cb88a008933fd9734a79",
+      "release_bytes": 8508,
+      "release_sha256": "a1d03223fa5512c4964e3f32cd83b7a0d6a3e7f4cb07cb88a008933fd9734a79"
     },
     {
       "path": "REPRODUCIBILITY.md",
       "source_path": "publication/REPRODUCIBILITY.md",
       "source_mode": 420,
-      "source_bytes": 23260,
-      "source_sha256": "7e9d334b55ca61e64584aad433980d81ebb02eaf78085daa9c8c60beae4f310c",
-      "release_bytes": 23260,
-      "release_sha256": "7e9d334b55ca61e64584aad433980d81ebb02eaf78085daa9c8c60beae4f310c"
+      "source_bytes": 24086,
+      "source_sha256": "d7716fc2a3f629cd9eaa0586ed97513e6984f0f51f8478f764a2c30bdafa7214",
+      "release_bytes": 24086,
+      "release_sha256": "d7716fc2a3f629cd9eaa0586ed97513e6984f0f51f8478f764a2c30bdafa7214"
     },
     {
       "path": "results/assay-capacity-planning-20260920.json",
@@ -75,6 +75,24 @@
       "source_sha256": "771176f398c8fbff85200ce82c72126c0251c81ece448ab2b060ddfc53e619f3",
       "release_bytes": 10563,
       "release_sha256": "771176f398c8fbff85200ce82c72126c0251c81ece448ab2b060ddfc53e619f3"
+    },
+    {
+      "path": "results/four-lane-indel-context-controls-20260920.json",
+      "source_path": "results/four-lane-indel-context-controls-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 648,
+      "source_sha256": "1793a7da460c5521091de825700b09ee941a11f4ec79725755a99b2cd884907d",
+      "release_bytes": 648,
+      "release_sha256": "1793a7da460c5521091de825700b09ee941a11f4ec79725755a99b2cd884907d"
+    },
+    {
+      "path": "results/four-lane-indel-controls-20260920.json",
+      "source_path": "results/four-lane-indel-controls-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 924,
+      "source_sha256": "3315d0b9b5e8b3d95b2bdc1be089325fef781ec12d68851d16bab57e2aa07f3e",
+      "release_bytes": 924,
+      "release_sha256": "3315d0b9b5e8b3d95b2bdc1be089325fef781ec12d68851d16bab57e2aa07f3e"
     },
     {
       "path": "results/gatk-cram-compatibility-native-control-20260920.json",
@@ -381,6 +399,15 @@
       "source_sha256": "b2a4a430900696934c8eebf988cd5d7a077c50c1157cd08f881136bc1de8230b",
       "release_bytes": 428,
       "release_sha256": "b2a4a430900696934c8eebf988cd5d7a077c50c1157cd08f881136bc1de8230b"
+    },
+    {
+      "path": "workflow/configs/baseline-four-lane-indels.json",
+      "source_path": "workflow/configs/baseline-four-lane-indels.json",
+      "source_mode": 420,
+      "source_bytes": 1878,
+      "source_sha256": "e2eb85cdc73351c9f32d77649c6eef62509fcc55b0640c27d26ca10de486e92f",
+      "release_bytes": 1878,
+      "release_sha256": "e2eb85cdc73351c9f32d77649c6eef62509fcc55b0640c27d26ca10de486e92f"
     },
     {
       "path": "workflow/configs/baseline-four-lane-snvs.json",
@@ -806,6 +833,15 @@
       "release_sha256": "c36a2e25be85e9a4f457f1e592191e06c3aed7012f2900981e0670461c63560a"
     },
     {
+      "path": "workflow/scripts/audit_final_alignment_indels.py",
+      "source_path": "workflow/scripts/audit_final_alignment_indels.py",
+      "source_mode": 420,
+      "source_bytes": 14876,
+      "source_sha256": "9744493b7869ae0034bdd76ec9dd15b4127666c25bf613c1fcc75799fa0e789f",
+      "release_bytes": 14876,
+      "release_sha256": "9744493b7869ae0034bdd76ec9dd15b4127666c25bf613c1fcc75799fa0e789f"
+    },
+    {
       "path": "workflow/scripts/audit_final_alignment_targets.py",
       "source_path": "workflow/scripts/audit_final_alignment_targets.py",
       "source_mode": 420,
@@ -1004,13 +1040,22 @@
       "release_sha256": "95ec0857445f6995a18e9182eb51e3a35b091d02772b72a6af42bc4d07d3f8dc"
     },
     {
+      "path": "workflow/scripts/diagnose_indel_windows.py",
+      "source_path": "workflow/scripts/diagnose_indel_windows.py",
+      "source_mode": 420,
+      "source_bytes": 5481,
+      "source_sha256": "fdfd16b46f7e4ff4cd2ea10f2c81ea50d91047f619f661daa6f4332ce7f6f668",
+      "release_bytes": 5481,
+      "release_sha256": "fdfd16b46f7e4ff4cd2ea10f2c81ea50d91047f619f661daa6f4332ce7f6f668"
+    },
+    {
       "path": "workflow/scripts/export_repository_snapshot.py",
       "source_path": "workflow/scripts/export_repository_snapshot.py",
       "source_mode": 420,
-      "source_bytes": 9617,
-      "source_sha256": "4447e32f476c46db165ef2b01444ef68c643cfde0f30b1d5a16e9e065e3ee9d1",
-      "release_bytes": 9617,
-      "release_sha256": "4447e32f476c46db165ef2b01444ef68c643cfde0f30b1d5a16e9e065e3ee9d1"
+      "source_bytes": 9717,
+      "source_sha256": "5ea87a6f74dcbaf9a5db5bc4ecfc69d7c0dc58a5bf7f3be4d1286006db14b2e9",
+      "release_bytes": 9717,
+      "release_sha256": "5ea87a6f74dcbaf9a5db5bc4ecfc69d7c0dc58a5bf7f3be4d1286006db14b2e9"
     },
     {
       "path": "workflow/scripts/export_runtime.py",
@@ -2093,6 +2138,15 @@
       "release_sha256": "c9dcf7995705fb8e3c78e11cc90ea23a7fe22b67de420e7c9f00983725345be8"
     },
     {
+      "path": "workflow/tests/test_four_lane_indels.py",
+      "source_path": "workflow/tests/test_four_lane_indels.py",
+      "source_mode": 420,
+      "source_bytes": 6458,
+      "source_sha256": "eac004aac94156469672a7017eae813054806d2ac61ed157909e4ebca6615794",
+      "release_bytes": 6458,
+      "release_sha256": "eac004aac94156469672a7017eae813054806d2ac61ed157909e4ebca6615794"
+    },
+    {
       "path": "workflow/tests/test_gatk_cram_compatibility.py",
       "source_path": "workflow/tests/test_gatk_cram_compatibility.py",
       "source_mode": 420,
@@ -2100,6 +2154,15 @@
       "source_sha256": "9a92d1e0c4f72e15151078cc08a2efa85872e5e60a9db89eddfd385ad7b3e88e",
       "release_bytes": 10128,
       "release_sha256": "9a92d1e0c4f72e15151078cc08a2efa85872e5e60a9db89eddfd385ad7b3e88e"
+    },
+    {
+      "path": "workflow/tests/test_indel_window_diagnostics.py",
+      "source_path": "workflow/tests/test_indel_window_diagnostics.py",
+      "source_mode": 420,
+      "source_bytes": 1827,
+      "source_sha256": "25e0778bfb55b17d8acc9645d9b44ec194491212001d75ffb9e08cec2971f112",
+      "release_bytes": 1827,
+      "release_sha256": "25e0778bfb55b17d8acc9645d9b44ec194491212001d75ffb9e08cec2971f112"
     },
     {
       "path": "workflow/tests/test_lirical_hgnc.py",
@@ -2354,8 +2417,8 @@
       "release_sha256": "54ce1865db01ed816a73ad29a73a7c864ecf920b1e9475aaaa596d36405d4b34"
     }
   ],
-  "file_count": 261,
-  "total_release_bytes": 2286853,
+  "file_count": 268,
+  "total_release_bytes": 2320067,
   "transformations": [
     {
       "kind": "comment_only_acquisition_metadata_replacement",

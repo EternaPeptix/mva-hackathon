@@ -1,0 +1,82 @@
+{
+  "sample": "WGS_EX2312012",
+  "reference_sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6",
+  "baseline_config_sha256": "76647f307106cf3f8514448a7b75ce6f4a3ba8c938fcb137c98461b3500acdf9",
+  "slice_padding_bp": 5000,
+  "window_flanks_bp": [
+    [
+      1,
+      2
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      25,
+      25
+    ]
+  ],
+  "mapping_quality_thresholds": [
+    20,
+    40,
+    60
+  ],
+  "purpose": "Complete-four-lane follow-up of both historical transcript-dependent indel examples; descriptive exact-window sensitivities and original caller genotypes, not clinical negative evidence.",
+  "other_hypothesis_basis": "EIF2S2 TTTG observed in the historical two-lane original 1/2 caller record before this four-lane run.",
+  "targets": [
+    {
+      "key": "20:34091776:T:TTTGG",
+      "chrom": "20",
+      "pos": 34091776,
+      "ref": "T",
+      "alt": "TTTGG",
+      "genes": [
+        "EIF2S2"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          1,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 10,
+        "GQ": 30,
+        "PGT": null,
+        "PID": null,
+        "PS": null,
+        "alt_copies": 2,
+        "source_alt_index": 1
+      },
+      "selection": "post hoc alternative-transcript example",
+      "other_hypotheses": {
+        "historical_other_insertion": "TTTG"
+      }
+    },
+    {
+      "key": "21:43169810:G:GC",
+      "chrom": "21",
+      "pos": 43169810,
+      "ref": "G",
+      "alt": "GC",
+      "genes": [
+        "CRYAA"
+      ],
+      "vendor_call": {
+        "GT_values": [
+          1,
+          1
+        ],
+        "GT_phased": false,
+        "DP": 25,
+        "GQ": 75,
+        "PGT": null,
+        "PID": null,
+        "PS": null,
+        "alt_copies": 2,
+        "source_alt_index": 1
+      },
+      "selection": "post hoc alternative-transcript example"
+    }
+  ]
+}

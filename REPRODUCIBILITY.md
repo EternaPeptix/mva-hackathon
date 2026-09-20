@@ -266,6 +266,17 @@ those submission requirements.
 
 ## 4. Check components and preserve evidence
 
+The two selected baseline indels use `audit_final_alignment_indels.py --root <ROOT>
+--alignment-state <ROOT>/state/raw-reads.json --config
+workflow/configs/baseline-four-lane-indels.json --output <NEW_DIRECTORY>`. This preserves
+source records and full multi-allele caller genotypes, then reports exact sequence windows
+with three flank sizes and three MQ thresholds. `diagnose_indel_windows.py --run
+<COMPLETED_DIRECTORY> --reference <ROOT>/ref/realignment/GRCh38_nochr.fa
+--output <NEW_JSON>` explains missing boundaries and low-quality windows without changing
+filters. Run the four `test_four_lane_indels.py` and two `test_indel_window_diagnostics.py`
+controls in the pinned native Python environment. These are bounded software controls;
+zero qualifying windows or a zero-depth reference call is not an indel exclusion.
+
 The baseline SNV follow-up uses the existing `audit_final_alignment_targets.py` with
 `workflow/configs/baseline-four-lane-snvs.json`, a completed four-lane `state/raw-reads.json`,
 and a new external output directory. `review_snv_cluster_mapping.py --root <ROOT> --config

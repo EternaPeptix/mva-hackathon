@@ -31,6 +31,8 @@ clinical sensitivity for the child.
 - [SNV cluster and fragment controls](results/snv-cluster-method-controls-20260920.json)
 - [Public sequence comparison controls](results/public-clone-method-controls-20260920.json)
 - [Target-base orientation controls](results/cluster-target-projection-controls-20260920.json)
+- [Four-lane indel sequence/genotype controls](results/four-lane-indel-controls-20260920.json)
+- [Indel window and orientation diagnostics](results/four-lane-indel-context-controls-20260920.json)
 
 The workflow covers reference preparation, alignment, native GATK/bcftools calling,
 phenotype-assisted and phenotype-independent prioritisation, read evidence, phasing,

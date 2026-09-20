@@ -50,6 +50,8 @@ RECEIPTS = [
     'snv-cluster-method-controls-20260920.json',
     'public-clone-method-controls-20260920.json',
     'cluster-target-projection-controls-20260920.json',
+    'four-lane-indel-controls-20260920.json',
+    'four-lane-indel-context-controls-20260920.json',
 ]
 
 
