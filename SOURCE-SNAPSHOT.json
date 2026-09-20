@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-09-20T03:56:28.036560+00:00",
+  "created_at": "2026-09-20T04:41:42.010904+00:00",
   "scope": "Complete selected workflow source/configuration inventory plus public/synthetic/runtime evidence; no patient-result files or internal Git history.",
-  "source_manifest_sha256": "2ca1f8ff0f4bcd0113c421078155058017151f1574d720634c920e8b3246307f",
-  "exporter_sha256": "83085b39e6e9e17caa509ff1bc0f43d59c78b19dc4bf2483b39f532836ce161c",
+  "source_manifest_sha256": "71e85c6f8cfbff882227acb78141d2202d1e95691fbb76119e2e409815ad9395",
+  "exporter_sha256": "f01f1f5e93fa0910f7f90a13fb0acb87d35767a9994ac4db78dd94d3a1b608bb",
   "files": [
     {
       "path": ".gitignore",
@@ -26,19 +26,37 @@
       "path": "README.md",
       "source_path": "publication/README.md",
       "source_mode": 420,
-      "source_bytes": 6641,
-      "source_sha256": "504d53ba9aa5dfb6383c88ee7790933970da2822c540be0ea499cd6f64a4678c",
-      "release_bytes": 6641,
-      "release_sha256": "504d53ba9aa5dfb6383c88ee7790933970da2822c540be0ea499cd6f64a4678c"
+      "source_bytes": 7394,
+      "source_sha256": "67e72a7dec899b9517df0bc382e7fa87aef7bb40477fafd0db9a19c9f45f2828",
+      "release_bytes": 7394,
+      "release_sha256": "67e72a7dec899b9517df0bc382e7fa87aef7bb40477fafd0db9a19c9f45f2828"
     },
     {
       "path": "REPRODUCIBILITY.md",
       "source_path": "publication/REPRODUCIBILITY.md",
       "source_mode": 420,
-      "source_bytes": 14639,
-      "source_sha256": "a7d80dfc84a3df129e963b7a7f152b9375ffb2df111f65d808d55ca71378ecb2",
-      "release_bytes": 14639,
-      "release_sha256": "a7d80dfc84a3df129e963b7a7f152b9375ffb2df111f65d808d55ca71378ecb2"
+      "source_bytes": 16727,
+      "source_sha256": "eb712235ebedd9ee3b1720a632e0a55a8b584c41bad47a9b26e49082ffdba3bd",
+      "release_bytes": 16727,
+      "release_sha256": "eb712235ebedd9ee3b1720a632e0a55a8b584c41bad47a9b26e49082ffdba3bd"
+    },
+    {
+      "path": "results/cnv-context-method-controls-20260920.json",
+      "source_path": "results/cnv-context-method-controls-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 2331,
+      "source_sha256": "755fa41be7f723849a0162e27166f3de640742333c178cd503727ed7b1a8a475",
+      "release_bytes": 2331,
+      "release_sha256": "755fa41be7f723849a0162e27166f3de640742333c178cd503727ed7b1a8a475"
+    },
+    {
+      "path": "results/cnv-context-public-sources-20260920.json",
+      "source_path": "results/cnv-context-public-sources-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 10563,
+      "source_sha256": "771176f398c8fbff85200ce82c72126c0251c81ece448ab2b060ddfc53e619f3",
+      "release_bytes": 10563,
+      "release_sha256": "771176f398c8fbff85200ce82c72126c0251c81ece448ab2b060ddfc53e619f3"
     },
     {
       "path": "results/gatk-cram-compatibility-native-control-20260920.json",
@@ -327,6 +345,15 @@
       "source_sha256": "8842589c585ef9bd7d0d21faad82364055278e742f4ae7687916aa1ec822bb9c",
       "release_bytes": 950,
       "release_sha256": "8842589c585ef9bd7d0d21faad82364055278e742f4ae7687916aa1ec822bb9c"
+    },
+    {
+      "path": "workflow/configs/cnv-context.json",
+      "source_path": "workflow/configs/cnv-context.json",
+      "source_mode": 420,
+      "source_bytes": 863,
+      "source_sha256": "09911104893bc114f6c0a9df798c2317ea21bee56f6e28fc9be30029f674393c",
+      "release_bytes": 863,
+      "release_sha256": "09911104893bc114f6c0a9df798c2317ea21bee56f6e28fc9be30029f674393c"
     },
     {
       "path": "workflow/configs/cnvpytor-studio-versions.txt",
@@ -845,10 +872,10 @@
       "path": "workflow/scripts/export_repository_snapshot.py",
       "source_path": "workflow/scripts/export_repository_snapshot.py",
       "source_mode": 420,
-      "source_bytes": 9164,
-      "source_sha256": "83085b39e6e9e17caa509ff1bc0f43d59c78b19dc4bf2483b39f532836ce161c",
-      "release_bytes": 9164,
-      "release_sha256": "83085b39e6e9e17caa509ff1bc0f43d59c78b19dc4bf2483b39f532836ce161c"
+      "source_bytes": 9261,
+      "source_sha256": "f01f1f5e93fa0910f7f90a13fb0acb87d35767a9994ac4db78dd94d3a1b608bb",
+      "release_bytes": 9261,
+      "release_sha256": "f01f1f5e93fa0910f7f90a13fb0acb87d35767a9994ac4db78dd94d3a1b608bb"
     },
     {
       "path": "workflow/scripts/export_runtime.py",
@@ -858,6 +885,15 @@
       "source_sha256": "5b4913aff06642e00dbdd2624ee914be4de8611aed036683f82d42b889ef453f",
       "release_bytes": 9585,
       "release_sha256": "5b4913aff06642e00dbdd2624ee914be4de8611aed036683f82d42b889ef453f"
+    },
+    {
+      "path": "workflow/scripts/fetch_cnv_context_resources.py",
+      "source_path": "workflow/scripts/fetch_cnv_context_resources.py",
+      "source_mode": 493,
+      "source_bytes": 5806,
+      "source_sha256": "735b4d210df77e35346c5a4c74d285d17fd04e2812a7960cdbbc507973e1fe2c",
+      "release_bytes": 5806,
+      "release_sha256": "735b4d210df77e35346c5a4c74d285d17fd04e2812a7960cdbbc507973e1fe2c"
     },
     {
       "path": "workflow/scripts/fetch_fastqs.sh",
@@ -948,6 +984,15 @@
       "source_sha256": "442a03999af91bdd44323d8ae08aac2ec4155e53bd697b15db158754712ed455",
       "release_bytes": 3986,
       "release_sha256": "442a03999af91bdd44323d8ae08aac2ec4155e53bd697b15db158754712ed455"
+    },
+    {
+      "path": "workflow/scripts/plot_cnv_context.py",
+      "source_path": "workflow/scripts/plot_cnv_context.py",
+      "source_mode": 493,
+      "source_bytes": 8800,
+      "source_sha256": "31672912b129f95f9b36f9da3c364a0dab9392a38d54a7feee5b609f60e44041",
+      "release_bytes": 8800,
+      "release_sha256": "31672912b129f95f9b36f9da3c364a0dab9392a38d54a7feee5b609f60e44041"
     },
     {
       "path": "workflow/scripts/plot_copy_number_validation.py",
@@ -1283,6 +1328,15 @@
       "release_sha256": "54f6b8a321436afd3684d3e002646207b479d493afeadcc5e914226617d50278"
     },
     {
+      "path": "workflow/scripts/review_cnv_context.py",
+      "source_path": "workflow/scripts/review_cnv_context.py",
+      "source_mode": 493,
+      "source_bytes": 25854,
+      "source_sha256": "918cbe73ebcbf604e2a752cd3da1d9d89b1a7fb3a74f7ed9246078063ce1a7df",
+      "release_bytes": 25854,
+      "release_sha256": "918cbe73ebcbf604e2a752cd3da1d9d89b1a7fb3a74f7ed9246078063ce1a7df"
+    },
+    {
       "path": "workflow/scripts/review_four_lane_copy_number.py",
       "source_path": "workflow/scripts/review_four_lane_copy_number.py",
       "source_mode": 420,
@@ -1479,6 +1533,15 @@
       "source_sha256": "62a8824c761748d7ff482ae7bff8c5544f2311873074943f9f177d9be646f202",
       "release_bytes": 5719,
       "release_sha256": "62a8824c761748d7ff482ae7bff8c5544f2311873074943f9f177d9be646f202"
+    },
+    {
+      "path": "workflow/scripts/summarize_cnv_context.py",
+      "source_path": "workflow/scripts/summarize_cnv_context.py",
+      "source_mode": 493,
+      "source_bytes": 7235,
+      "source_sha256": "fa59ccc4eabe6734e6bdb6b5a5d1933251070964607a679bed90f499745443ec",
+      "release_bytes": 7235,
+      "release_sha256": "fa59ccc4eabe6734e6bdb6b5a5d1933251070964607a679bed90f499745443ec"
     },
     {
       "path": "workflow/scripts/summarize_lirical.py",
@@ -1787,6 +1850,15 @@
       "release_sha256": "97c41dc9d72ad0718d2af144bf9187de78ff9af2e06ffd8c1fe6892dc418e136"
     },
     {
+      "path": "workflow/tests/test_cnv_context.py",
+      "source_path": "workflow/tests/test_cnv_context.py",
+      "source_mode": 420,
+      "source_bytes": 6977,
+      "source_sha256": "ea12baff4ea873788e6e86a242f9abd2488594a55a23b9c3eec6bff90c0abc60",
+      "release_bytes": 6977,
+      "release_sha256": "ea12baff4ea873788e6e86a242f9abd2488594a55a23b9c3eec6bff90c0abc60"
+    },
+    {
       "path": "workflow/tests/test_copy_number.py",
       "source_path": "workflow/tests/test_copy_number.py",
       "source_mode": 420,
@@ -2030,8 +2102,8 @@
       "release_sha256": "54ce1865db01ed816a73ad29a73a7c864ecf920b1e9475aaaa596d36405d4b34"
     }
   ],
-  "file_count": 225,
-  "total_release_bytes": 2067659,
+  "file_count": 233,
+  "total_release_bytes": 2139026,
   "transformations": [
     {
       "kind": "comment_only_acquisition_metadata_replacement",

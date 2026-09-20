@@ -22,6 +22,8 @@ clinical sensitivity for the child.
 - [Python builds from published sources](results/runtime-published-source-build-20260920.json)
 - [Fresh runtime validation](results/runtime-published-source-validation-20260920.json)
 - [Public structural comparison reproduced with the new runtime](results/runtime-published-source-public-sv-20260920.json)
+- [Pinned public CNV context resources](results/cnv-context-public-sources-20260920.json)
+- [CNV context representation controls](results/cnv-context-method-controls-20260920.json)
 
 The workflow covers reference preparation, alignment, native GATK/bcftools calling,
 phenotype-assisted and phenotype-independent prioritisation, read evidence, phasing,
@@ -73,13 +75,21 @@ the known heterozygous SNV and deletion with both callers, and rejects deliberat
 quality, tag, duplicate-flag and record-order changes. The direct check covers a
 flag-preservation gap reproduced in the pinned samtools checksum implementation.
 
+Copy-number context code now compares nominal intervals with the complete gnomAD
+v4.1 SV sites release and dated ClinGen dosage tables, and retains every common-panel
+marker including missing/excluded evidence. Nine focused representation controls
+pass on the Studio. Population allele counts and multiallelic sample copy-state
+distributions remain distinct; overlap alone does not classify a case allele.
+The corresponding patient-derived result tables and figures are excluded.
+
 ## Data and release status
 
 Raw reads, alignments, genotype-scale tables, patient-derived result files, tool
 archives and downloaded references are absent from this source snapshot. Configurations
 include permitted HPO terms and a bounded list of named candidate sites needed to
 reproduce the targeted analyses. Included empirical result files use public HG002
-or fictional controls; runtime records describe software reconstruction.
+or fictional controls; runtime records describe software reconstruction. The CNV
+source receipt contains public download identities and metadata, not case matches.
 
 Access to the challenge dataset must be obtained separately through its authorised
 process. The organisers' [data-handling clarification](https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/discussions/2)

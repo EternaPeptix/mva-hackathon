@@ -41,6 +41,8 @@ RECEIPTS = [
     'runtime-published-source-public-sv-20260920.json',
     'gatk-cram-compatibility-native-control-20260920.json',
     'structural-cram30-control-20260920.json',
+    'cnv-context-public-sources-20260920.json',
+    'cnv-context-method-controls-20260920.json',
 ]
 
 

@@ -1,0 +1,11 @@
+{
+  "scope": "Exploratory context for all original copy-number calls; no new causal classification or automatic candidate exclusion.",
+  "population_reciprocal_overlap_thresholds": [0.5, 0.8],
+  "population_endpoint_tolerance": "One native bin at each endpoint; descriptive only, not allele equivalence.",
+  "marker_minimum_allelic_depth": 10,
+  "flank_minimum_bp": 10000,
+  "flank_maximum_bp": 100000,
+  "flank_policy": "Each flank has the call length clamped to these bounds and clipped to chromosome bounds. Show all markers and a separate subset outside every primary-review CNV.",
+  "maximum_population_examples_per_call": 5,
+  "allelic_interpretation": "Preserve native diploid GT/AD/DP/PL and all exclusion reasons. ALT/(REF+ALT) is read balance at ascertained common SNPs, not calibrated B-allele copy state, mosaic fraction, phase or a clinical test."
+}

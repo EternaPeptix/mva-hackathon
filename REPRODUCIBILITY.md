@@ -190,6 +190,27 @@ the public HG002 reads as patient data.
   counts, compares reference-gap metrics to the FASTA, and annotates every call
   against the pinned Ensembl GFF3. Its separately configured post-run review subsets
   retain all rejected records and do not classify dosage pathogenicity.
+- `fetch_cnv_context_resources.py --output <new-source-directory>` obtains the
+  generation-pinned gnomAD v4.1 genome-SV VCF/index and current ClinGen GRCh38 gene/
+  region TSVs. The recorded public-source receipt pins the dated files used here;
+  ClinGen daily URLs may later change, so preserve and reuse the verified snapshot
+  for exact dated reproduction. gnomAD publisher MD5, generation, size, gzip
+  integrity and local SHA-256 are checked; CRC32C is recorded without rechecking.
+- `review_cnv_context.py` takes `--cnv-review`, `--roh-analysis`, `--resources`,
+  `--config workflow/configs/cnv-context.json`, a new `--output` directory, and
+  the corresponding `--expected-cnv-review-sha256`, `--expected-roh-summary-sha256`
+  and `--expected-resources-sha256`. It verifies shared alignment/reference identities,
+  retains all raw CNV records and panel markers, and scans the full population VCF.
+  Nominal gnomAD intervals follow the official BED convention (VCF POS..END inclusive).
+  Simple PASS overlap, multiallelic copy states, filtering and dosage curation remain
+  distinct; missing matches are not assigned a zero population frequency.
+- `summarize_cnv_context.py --context <completed-context> --expected-summary-sha256
+  <hash> --output <new-json>` checks the upstream artifacts and all overlapping
+  multiallelic sample count/frequency denominators. `plot_cnv_context.py` can plot
+  explicitly selected calls using the same context plus `--analysis`, `--call ID=label`
+  and a new output directory. The plot uses the recorded CNVpytor environment with
+  NumPy/Matplotlib. Patient-derived context tables, plots and point data stay outside
+  this source repository. The public-source and nine-control receipts are included.
 - If DELLY fails on the original compressed-read decoder path, the existing
   fully record-verified CRAM 3.0 copy can be used through
   `resume_structural_from_verified_copy.py`. This pins the completed census,
@@ -211,6 +232,15 @@ The `workflow/tests` directory contains unit and native integration checks. Some
 require external runtimes or previously completed public-control artifacts. A skipped
 test is not a passing native test. Run the tests relevant to the installed component,
 inspect skips and native outputs, and keep the executed source/configuration hashes.
+
+The nine self-contained CNV context controls need only Python's standard library:
+
+```sh
+python3 -m unittest discover -s "$MVA_REPO/workflow/tests" -p test_cnv_context.py -v
+```
+
+They test representation and missingness rules, including checksum corruption and
+different allele/sample denominators. They are not a clinical performance benchmark.
 
 The self-contained synthetic format control needs the prepared native runtime but
 no challenge data. From any reviewed source copy:
