@@ -1,0 +1,104 @@
+{
+  "assembly": "GRCh38",
+  "depth_modes": [
+    {
+      "minimum_BQ": 20,
+      "minimum_MQ": 20,
+      "name": "MQ20_BQ20"
+    },
+    {
+      "minimum_BQ": 20,
+      "minimum_MQ": 60,
+      "name": "MQ60_BQ20"
+    }
+  ],
+  "expected_scope": {
+    "gene_union_bases_sum": 393880,
+    "genes": 84,
+    "panel_union_bases": 393880,
+    "transcripts": 2578,
+    "windows": 2112
+  },
+  "inputs": {
+    "MQ20_BQ20_depth": {
+      "bytes": 1085013,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/secondary-panel-cds-depth-20260920/review-v2/MQ20_BQ20.depth.tsv.gz",
+      "sha256": "caacf53397e32d027f5c8c29e570b8a8b807a09e15a953bbc512cf5b6a010b8a"
+    },
+    "MQ20_BQ20_summary": {
+      "bytes": 3046879,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/secondary-panel-cds-depth-20260920/review-v2/MQ20_BQ20.json",
+      "sha256": "54a0d6d89f140ca2af8e77671910403e359fce3588e484df89510f4a15acb43e"
+    },
+    "MQ60_BQ20_depth": {
+      "bytes": 1083671,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/secondary-panel-cds-depth-20260920/review-v2/MQ60_BQ20.depth.tsv.gz",
+      "sha256": "29928a281e82c0edd5c83c0334389856626982612014e5333e13df61e53ff1e8"
+    },
+    "MQ60_BQ20_summary": {
+      "bytes": 3043257,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/secondary-panel-cds-depth-20260920/review-v2/MQ60_BQ20.json",
+      "sha256": "e669a7c6146756646b133625e19c7b74dac583bb1ca1ed46ca9d528c2a5969c6"
+    },
+    "fai": {
+      "bytes": 115406,
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/realignment/GRCh38_nochr.fa.fai",
+      "sha256": "d81f672f40cfabf2510f37e3f790f2c79665023f4ac950bb9cc6496a40cebf32"
+    },
+    "gff": {
+      "bytes": 108211474,
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/baseline-20260919/Homo_sapiens.GRCh38.116.chr.gff3.gz",
+      "sha256": "0857407b4a8be8792089a69fd961737256fb7129b6b799f8a8920ebea4fb134f"
+    },
+    "public_design": {
+      "bytes": 11787989,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/public-target-v1/reference-design.json",
+      "sha256": "f9b6ab0835a979150ac2d1e32125ed83cec2ac5c430102b5fa7eba46784e5775"
+    },
+    "public_status": {
+      "bytes": 4897,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/public-target-v1/status.json",
+      "sha256": "3673bafb827a6b1d6f6ac90b08b837c7053373fa5c3c21e4645f113b2ecf5fc2"
+    },
+    "public_summary": {
+      "bytes": 16821,
+      "path": "/Users/jeweled/Documents/mva-hackathon/methods/secondary-panel-depth-preparation-20260920/public-target-v1/target-summary.json",
+      "sha256": "512a465b0e52e145932b2212e314f2469c8ac97dddd5d0f764122fc2d5c87179"
+    },
+    "selection": {
+      "bytes": 11313064,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/secondary-panel-cds-depth-20260920/review-v2/selection.json",
+      "sha256": "10cb98979586549166b472ecbd0477e31f2ded4530d8dd4a82c45c7161ab4b5e"
+    },
+    "status": {
+      "bytes": 9455,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/secondary-panel-cds-depth-20260920/review-v2/status.json",
+      "sha256": "a522207cc6557d0a1662cc1d15bba37e7a190d4aaea739c1e3574394006dcb34"
+    },
+    "summary": {
+      "bytes": 868616,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/secondary-panel-cds-depth-20260920/review-v2/summary.json",
+      "sha256": "614ebc4ad6aff0bda9b910b819843219c3b5f19f36e8093e8735a624cfc76aab"
+    },
+    "verification": {
+      "bytes": 777787,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/secondary-panel-cds-depth-20260920/independent-verification/actual-v1/verification.json",
+      "sha256": "43982f2f129d0bb6a85fb4448878f7ce9037e8f3a98c61cc90410e94381f72b9"
+    }
+  },
+  "output_directory": "/Users/jeweled/Documents/mva-hackathon/results/secondary-depth-gap-map-20260920/map-v1",
+  "preparation_note": "Root reviewed source, 39 native fictional controls, peer clearance and exact 13 saved-output/public-reference inputs. One bounded pass on Mac Studio 512S2 is authorized under the ongoing MVA goal; no alignment/caller/depth rerun, no automatic retry, no source publication.",
+  "python": {
+    "bytes": 6829968,
+    "path": "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python3.12",
+    "sha256": "101eed1d9e3db137495f9a54720826eb3d7ac25b8c5a0e82d95372d8e7377e8f"
+  },
+  "ready": true,
+  "schema_version": 1,
+  "scope": "84-gene-all-transcript-CDS-saved-depth",
+  "source_sha256": {
+    "map_depth_gaps.py": "9316f000add132c515b79bf3d81944ad2311c81381e258caa729e0ba6b5cb594",
+    "vendor/coding_depth_targets.py": "1b7df219b0552479fd45836ce30fa1a2e9b95c2b315384d71da83bc108418278",
+    "vendor/guard_helpers.py": "e30e5ad4819d488e2509feffff1027bab6102e473bb44ed33bcf4dbfc734ffb6"
+  }
+}

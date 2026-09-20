@@ -1,0 +1,39 @@
+# Saved-depth mapping and Sonic narration sources — v27
+
+This private source update preserves v26's existing files byte-for-byte, except that the root documentation gains an appended section and the inventory is renewed. It adds source/configuration files and control evidence. It excludes case observations, derived tables, scientific reports, narration inputs, audio/video, saved-output verification receipts and internal Git history. Exact selectors, input hashes and native paths remain permitted configuration metadata under the established source policy.
+
+The [source map](V27-SOURCE-MAP.json) identifies each addition, its exact hash and provenance, dependencies and restoration paths. Historical sources and new release adaptations have separate identities. File inclusion is not a claim that every source has an end-to-end fictional qualification or that a fresh clone can reproduce the case.
+
+## Saved-depth interval mapping
+
+The original mapper, guard, two vendor dependencies and two test files retain all six source hashes in the historical 39-control receipt. The disabled proposal and separately approved input-selector configuration are also preserved. These two configurations are outside the receipt's six qualified source entries. Their historical approval flags do not authorize a future execution.
+
+The mapper reads saved depth tables and pinned public annotation/target inputs. It does not realign reads or rerun depth measurement. Preserve the original `qualification-v1/workflow/scripts/vendor` layout and the receipt at `qualification-v1/controls-run/controls.json`. The guard is bound to Mac Studio 512S2, exact native paths, source/runtime/input hashes, original producer receipts and fresh-output rules. The original resources, saved depths, producer outputs and private completion receipts are omitted. Regenerated receipts cannot silently replace the historical identities required by these unchanged guards.
+
+The separately adapted appendix builder accepts explicit input/output directories, an expected summary hash and a main-report link. Its displayed counts come from the supplied inputs. Its interval-merging and membership logic is preserved from the executed builder. The adaptation's fictional checks and saved-output parity are documented separately from the mapper's 39 controls. Generated tables and parity artifacts are not exported.
+
+The independent audit and readable-table checker are release derivatives of the historical checkers. Observed count literals in messages and report assertions are replaced by values computed or read from the independently verified inputs. The table checker's fixed scientific-interpretation verdict is replaced by an explicit statement that the executable does not assess interpretation. Their original source hashes and the limits of the adaptation checks are retained in the source map. These changed sources must not be represented as the original executed files. Checks of the interval-union helper apply to that helper only; they do not qualify the entire checker or establish clinical callability. The full adapted independent audit was not rerun; local table replay checked numerical fields and input identities, with the documented editorial-field change.
+
+All coordinates and counting policies retain the source definitions. Saved-depth checks add consistency and location information within the same evidence. They do not establish locus origin, assay sensitivity, biological absence or a clinical negative result.
+
+## Sonic 3.6 synthesis and assembly
+
+The synthesis client accepts a supplied narration manifest and requests raw PCM plus word timestamps from Cartesia. It reads the credential interactively without saving it. The current client refuses an echoing password fallback. The `executed-v1` client is a post-run reconstruction made by reversing that known safety change; it is not a contemporaneously frozen pre-execution source. It is retained only for provenance and should not replace the safer current entry point.
+
+The requested model identifier is `sonic-3.6`. No fixed resolved model snapshot was returned, so future provider output is not promised to be bit-identical. Plan/tier, training/retention settings, current credits and permitted billing must be established separately for the account. Successful prior synthesis is not evidence of available prepaid credits. No credential, account balance, narration manifest, request payload, timestamp response, media or provider result receipt is included.
+
+The assembler retains project-template pronunciation expansions, disclosure/footer text and a fixed three-minute format. The Claude Code/Codex account disclosure is specific to this user's confirmation; Cartesia settings remain separately unverified. These strings are not defaults for another project's disclosures or scientific status.
+
+The unchanged assembler, verifier and test module retain the three source bindings in their 14-control receipt. Those controls exercise timestamp/token handling, padding and pin checks in the assembler. The verifier is source-pinned but is not behavior-tested by that suite. Timestamp words are invented; one padding vector uses actual scene durations as scheduling constants without media or narration. Do not describe every numerical fixture as independently invented. These controls do not establish voice quality, pronunciation, complete audiovisual correctness or listener approval.
+
+To run just these focused controls from a clone, use `PYTHONPATH=workflow/scripts python3 -B -m unittest discover -s workflow/tests -p test_assemble_sonic36.py`. This does not invoke the speech service or generate a movie.
+
+The assembler's historical visual helper was a v3 preparation file. Its rendering functions and constants match the already archived [v2 preparation helper](../scripts/prepare_track2_pitch_v2.py). The only v3 change was an unused receipt-description string about case status. For a replay workspace, the existing v2 helper can be provided under the assembler's expected `vendor/prepare_track2_pitch_v3.py` name. This is a compatibility alias with a different whole-file hash, not a claim that v2 and v3 are byte-identical. The source map records both hashes and the scope of the local rendering-equivalence check. Keep original execution manifests unchanged; any new input manifest must pin the actual replay helper.
+
+The existing [Swift renderer](../scripts/render_track2_pitch_v2.swift) and [Swift inspector](../scripts/inspect_track2_pitch.swift) are also reused. The [older media verifier](../scripts/verify_track2_pitch.py) remains archived but is not invoked by the continuous-scene Sonic workflow. Preserve the vendor locations documented in the source map. Rendering requires macOS frameworks and the recorded Swift tools; preparation/verification requires Python, Pillow and NumPy, plus the fonts used by the visual helper. No compiled binaries are included. Provide a new approved storyboard, scene receipts, WAVs and timestamp inputs outside the source archive and use new output directories. Do not run the preparation helper's older standalone narration entry point as part of the Sonic replay.
+
+## Verification and limits
+
+Archive verification checks every selected file's bytes and permissions, existing payload preservation, documentation links, source-to-control bindings, the staged Git index and a fresh private clone after publication. Explicit selection and pattern scans complement one another; neither is a general privacy certification.
+
+The local release work does not rerun alignment, variant calling, depth measurement or provider speech synthesis. Saved-data adaptation checks are recorded as such and cannot add independent biological evidence. Historical case-result receipts remain outside the release. The compact review package and its media are separate, dated artifacts; updating this source archive does not revise or publish that package.

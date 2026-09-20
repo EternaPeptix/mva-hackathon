@@ -1,0 +1,243 @@
+{
+  "status": "complete",
+  "at_utc": "2026-09-20T22:43:16.970914+00:00",
+  "source_sha256": "7e23cb4b20179dc190e347715a0f6e618499da2ad555671be69dc6cd108bbf23",
+  "runner_sha256": "0640a815565a2ba3734dc0a72a85edf10179b8165373f139983890d1bef146ab",
+  "isolated_function_ast_sha256": "1380d385dc0ce568fd0d512f2db40db038acbf430faf4d0bc88b9b074f52105e",
+  "functions_tested": [
+    "need",
+    "merged"
+  ],
+  "examples_run": 7,
+  "examples_passed": 7,
+  "cases": [
+    {
+      "name": "disjoint_list",
+      "input": [
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "input_item_types": [
+        "list",
+        "list"
+      ],
+      "expected": [
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "disjoint_tuple",
+      "input": [
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "input_item_types": [
+        "tuple",
+        "tuple"
+      ],
+      "expected": [
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "overlap_list",
+      "input": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "input_item_types": [
+        "list",
+        "list"
+      ],
+      "expected": [
+        [
+          1,
+          6
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          6
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "overlap_tuple",
+      "input": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "input_item_types": [
+        "tuple",
+        "tuple"
+      ],
+      "expected": [
+        [
+          1,
+          6
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          6
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "adjacent_list",
+      "input": [
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "input_item_types": [
+        "list",
+        "list"
+      ],
+      "expected": [
+        [
+          1,
+          6
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          6
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "adjacent_tuple",
+      "input": [
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "input_item_types": [
+        "tuple",
+        "tuple"
+      ],
+      "expected": [
+        [
+          1,
+          6
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          6
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "duplicate_mixed",
+      "input": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "input_item_types": [
+        "list",
+        "tuple"
+      ],
+      "expected": [
+        [
+          1,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          4
+        ]
+      ],
+      "passed": true
+    }
+  ],
+  "provenance": "Reconstructed standalone replay of retained seven interval-helper examples; historical inline runner was not retained. Tuple types restored from author confirmation.",
+  "scope": "Only isolated need()/merged() definitions execute. No full-checker qualification, saved case data, GFF, alignment, external command, or network access."
+}

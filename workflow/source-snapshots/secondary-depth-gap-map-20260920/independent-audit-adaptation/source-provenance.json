@@ -1,0 +1,42 @@
+{
+  "status": "source_derivative_provenance",
+  "original_sources": [
+    {
+      "name": "audit_saved_gaps.py",
+      "sha256": "03716006771534d4c076cdc999ed5fca1f657d3edf05f1752b4ab7874b25f495"
+    },
+    {
+      "name": "check_report_tables.py",
+      "sha256": "9ac7b8188b0b4a4b01856734cad994281cb55eac366c194848972ad7836bd38e"
+    }
+  ],
+  "derivatives": [
+    {
+      "name": "audit_saved_gaps.py",
+      "bytes": 17686,
+      "sha256": "7e23cb4b20179dc190e347715a0f6e618499da2ad555671be69dc6cd108bbf23"
+    },
+    {
+      "name": "check_report_tables.py",
+      "bytes": 8101,
+      "sha256": "2b1ab00032c91622ccac4322564bce68915dab83d143966f9b61ca87fd2c531e"
+    }
+  ],
+  "changes": {
+    "audit_saved_gaps.py": "Derive the receipt row-count label from the independently reconstructed interval list. All computation and fixed identity pins are unchanged.",
+    "check_report_tables.py": "Use explicit base/original-depth/output arguments and exclusive output creation. Derive comparison counts from the separately completed verification and expected table rows. Replace a fixed interpretive verdict with an explicit executable-scope limit."
+  },
+  "verification_scope": {
+    "full_changed_audit_qualified": false,
+    "full_changed_audit_executed": false,
+    "local_saved_report_numeric_and_input_identity_parity": true,
+    "native_analysis_rerun": false,
+    "helper_examples": {
+      "receipt": "union-helper-example-controls.json",
+      "sha256": "eeb3af3925e30ed5eb443c39118eaa45e51f760809bb79a924759a8561aeef0c",
+      "count": 7,
+      "scope": "Reconstructed examples execute only need()/merged(); not the whole audit or report checker."
+    }
+  },
+  "portability": "Historical absolute paths, exact external identity pins, host gate and public target geometry remain intentional. The source-only export cannot execute the full historical audit without separately retained private/public inputs. No observed case payload or case receipt is exported."
+}
