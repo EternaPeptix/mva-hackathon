@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-09-20T04:41:42.010904+00:00",
+  "created_at": "2026-09-20T05:03:28.386343+00:00",
   "scope": "Complete selected workflow source/configuration inventory plus public/synthetic/runtime evidence; no patient-result files or internal Git history.",
-  "source_manifest_sha256": "71e85c6f8cfbff882227acb78141d2202d1e95691fbb76119e2e409815ad9395",
-  "exporter_sha256": "f01f1f5e93fa0910f7f90a13fb0acb87d35767a9994ac4db78dd94d3a1b608bb",
+  "source_manifest_sha256": "73d27812c677c35045fe81e6ab9a4bfac4af8bf3614cbc5ea6d6c114af12c55d",
+  "exporter_sha256": "041b5990a472b214dbe01927560eb91c5edb745a91b50e09c51b18b907debe75",
   "files": [
     {
       "path": ".gitignore",
@@ -26,19 +26,19 @@
       "path": "README.md",
       "source_path": "publication/README.md",
       "source_mode": 420,
-      "source_bytes": 7394,
-      "source_sha256": "67e72a7dec899b9517df0bc382e7fa87aef7bb40477fafd0db9a19c9f45f2828",
-      "release_bytes": 7394,
-      "release_sha256": "67e72a7dec899b9517df0bc382e7fa87aef7bb40477fafd0db9a19c9f45f2828"
+      "source_bytes": 7658,
+      "source_sha256": "b673f16a70b963e50b92ccf2e5d4a7f413ee26f0373d5cea2713265b207a9e0d",
+      "release_bytes": 7658,
+      "release_sha256": "b673f16a70b963e50b92ccf2e5d4a7f413ee26f0373d5cea2713265b207a9e0d"
     },
     {
       "path": "REPRODUCIBILITY.md",
       "source_path": "publication/REPRODUCIBILITY.md",
       "source_mode": 420,
-      "source_bytes": 16727,
-      "source_sha256": "eb712235ebedd9ee3b1720a632e0a55a8b584c41bad47a9b26e49082ffdba3bd",
-      "release_bytes": 16727,
-      "release_sha256": "eb712235ebedd9ee3b1720a632e0a55a8b584c41bad47a9b26e49082ffdba3bd"
+      "source_bytes": 17769,
+      "source_sha256": "8eb7c91be0bb1b9e898e127184fbef361cad22323ea8b99f9ab36ea41206b41e",
+      "release_bytes": 17769,
+      "release_sha256": "8eb7c91be0bb1b9e898e127184fbef361cad22323ea8b99f9ab36ea41206b41e"
     },
     {
       "path": "results/cnv-context-method-controls-20260920.json",
@@ -291,6 +291,15 @@
       "source_sha256": "bd7bfac5fb26c2358cc77e662cfbb2e462a832700d2a61d379f303a991ee7531",
       "release_bytes": 41838,
       "release_sha256": "bd7bfac5fb26c2358cc77e662cfbb2e462a832700d2a61d379f303a991ee7531"
+    },
+    {
+      "path": "results/structural-cnv-context-controls-20260920.json",
+      "source_path": "results/structural-cnv-context-controls-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 1127,
+      "source_sha256": "b4e00f0358815c380dda226c913180b493eeb3ed39facd980b8fb4d70c84784a",
+      "release_bytes": 1127,
+      "release_sha256": "b4e00f0358815c380dda226c913180b493eeb3ed39facd980b8fb4d70c84784a"
     },
     {
       "path": "results/structural-cram30-control-20260920.json",
@@ -872,10 +881,10 @@
       "path": "workflow/scripts/export_repository_snapshot.py",
       "source_path": "workflow/scripts/export_repository_snapshot.py",
       "source_mode": 420,
-      "source_bytes": 9261,
-      "source_sha256": "f01f1f5e93fa0910f7f90a13fb0acb87d35767a9994ac4db78dd94d3a1b608bb",
-      "release_bytes": 9261,
-      "release_sha256": "f01f1f5e93fa0910f7f90a13fb0acb87d35767a9994ac4db78dd94d3a1b608bb"
+      "source_bytes": 9314,
+      "source_sha256": "041b5990a472b214dbe01927560eb91c5edb745a91b50e09c51b18b907debe75",
+      "release_bytes": 9314,
+      "release_sha256": "041b5990a472b214dbe01927560eb91c5edb745a91b50e09c51b18b907debe75"
     },
     {
       "path": "workflow/scripts/export_runtime.py",
@@ -1353,6 +1362,15 @@
       "source_sha256": "5a18dec27b55d6fb47b4c61d19228640ae97211b72154365f976137a80a52a5c",
       "release_bytes": 15408,
       "release_sha256": "5a18dec27b55d6fb47b4c61d19228640ae97211b72154365f976137a80a52a5c"
+    },
+    {
+      "path": "workflow/scripts/review_four_lane_structural.py",
+      "source_path": "workflow/scripts/review_four_lane_structural.py",
+      "source_mode": 493,
+      "source_bytes": 11128,
+      "source_sha256": "43fc4591c73603671ffad6f80b7e0ea97616f9907e4dafee1f1e2b3cf7289a99",
+      "release_bytes": 11128,
+      "release_sha256": "43fc4591c73603671ffad6f80b7e0ea97616f9907e4dafee1f1e2b3cf7289a99"
     },
     {
       "path": "workflow/scripts/review_public_representation_losses.py",
@@ -2030,6 +2048,15 @@
       "release_sha256": "9695fd916de340ad3311b9437bcfe3243141e7a23f67e6bcf33700fa888a7f19"
     },
     {
+      "path": "workflow/tests/test_structural_cnv_context.py",
+      "source_path": "workflow/tests/test_structural_cnv_context.py",
+      "source_mode": 420,
+      "source_bytes": 1178,
+      "source_sha256": "8c5708722998d3687edb670d72f0132d70635208256bbac2afdacc234543f98d",
+      "release_bytes": 1178,
+      "release_sha256": "8c5708722998d3687edb670d72f0132d70635208256bbac2afdacc234543f98d"
+    },
+    {
       "path": "workflow/tests/test_structural_integration.py",
       "source_path": "workflow/tests/test_structural_integration.py",
       "source_mode": 420,
@@ -2102,8 +2129,8 @@
       "release_sha256": "54ce1865db01ed816a73ad29a73a7c864ecf920b1e9475aaaa596d36405d4b34"
     }
   ],
-  "file_count": 233,
-  "total_release_bytes": 2139026,
+  "file_count": 236,
+  "total_release_bytes": 2153818,
   "transformations": [
     {
       "kind": "comment_only_acquisition_metadata_replacement",

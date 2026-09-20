@@ -43,6 +43,7 @@ RECEIPTS = [
     'structural-cram30-control-20260920.json',
     'cnv-context-public-sources-20260920.json',
     'cnv-context-method-controls-20260920.json',
+    'structural-cnv-context-controls-20260920.json',
 ]
 
 

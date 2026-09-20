@@ -24,6 +24,7 @@ clinical sensitivity for the child.
 - [Public structural comparison reproduced with the new runtime](results/runtime-published-source-public-sv-20260920.json)
 - [Pinned public CNV context resources](results/cnv-context-public-sources-20260920.json)
 - [CNV context representation controls](results/cnv-context-method-controls-20260920.json)
+- [Structural/CNV selection controls](results/structural-cnv-context-controls-20260920.json)
 
 The workflow covers reference preparation, alignment, native GATK/bcftools calling,
 phenotype-assisted and phenotype-independent prioritisation, read evidence, phasing,
@@ -90,6 +91,8 @@ include permitted HPO terms and a bounded list of named candidate sites needed t
 reproduce the targeted analyses. Included empirical result files use public HG002
 or fictional controls; runtime records describe software reconstruction. The CNV
 source receipt contains public download identities and metadata, not case matches.
+The structural/CNV control receipt covers fictional genotype/filter/query-boundary
+selection cases; the corresponding patient call comparisons remain outside this export.
 
 Access to the challenge dataset must be obtained separately through its authorised
 process. The organisers' [data-handling clarification](https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/discussions/2)

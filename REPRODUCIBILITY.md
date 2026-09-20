@@ -219,9 +219,20 @@ the public HG002 reads as patient data.
   bounded synthetic format/caller check; its imported fixture parser requires NumPy
   (the recorded control uses the CNVpytor Python environment). See the
   [completed control](results/structural-cram30-control-20260920.json).
+- `review_four_lane_structural.py --analysis <completed-structural-directory>
+  --cnv-review <completed-CNV-review> --gff <pinned-GFF> --output <new-directory>`
+  takes `--expected-summary-sha256`, `--expected-cnv-review-sha256` and
+  `--expected-gff-sha256`. It verifies all native outputs and reuses the original
+  decoder/serializer to reconcile the complete call census byte for byte. It
+  compares all primary CNV records with same-type nominal structural spans,
+  retains reference/missing/filtered/sex/query-boundary exclusions, and describes
+  selected-gene endpoints against the CDS union across annotated transcripts.
+  This is not independent decoder validation, complex-allele reconstruction,
+  transcript consequence prediction or clinical classification.
 
 At this source snapshot the four-lane alignment and format verification are complete;
-full-genome callsets and broader variant review remain unfinished. The patient-derived ranking/read summaries,
+small-variant whole-reference calling and broader interpretation remain unfinished.
+The structural run and initial CNV/structural reconciliation are complete. The patient-derived ranking/read summaries,
 draft submissions, final reports and video are not included here. They remain separate
 work products awaiting their stated review; this source repository does not complete
 those submission requirements.
@@ -237,6 +248,12 @@ The nine self-contained CNV context controls need only Python's standard library
 
 ```sh
 python3 -m unittest discover -s "$MVA_REPO/workflow/tests" -p test_cnv_context.py -v
+```
+
+The two structural/CNV selection controls also use the standard library:
+
+```sh
+python3 -m unittest discover -s "$MVA_REPO/workflow/tests" -p test_structural_cnv_context.py -v
 ```
 
 They test representation and missingness rules, including checksum corruption and
