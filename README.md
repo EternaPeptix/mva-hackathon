@@ -205,3 +205,22 @@ pass, including exact sequence-equivalent normalization, complete annotation
 payload preservation, original multiallelic recovery, input-tamper refusal and
 explicit partial scope. These checks do not establish biological sensitivity or
 a complete candidate ranking. Case inventories remain outside this source export.
+
+## Joint sequence hypotheses and fragment evidence
+
+The [joint-haplotype review](workflow/docs/JOINT-HAPLOTYPE-REVIEW.md) enumerates
+compatible sequence hypotheses within each caller, including retained uncalled
+ALTs. Identical sequences preserve all source lineages while sharing one
+observed fragment count. Original read groups, unmatched sequences, mate
+conflicts and raw-quality sensitivity remain explicit; constructed sequences
+do not become genotype or parental-phase calls.
+
+Twenty [fictional helper and native integration controls](workflow/source-snapshots/joint-haplotype-controls-20260920/controls.json)
+passed on Mac Studio 512S2. They exercise literal sequence equivalence, native
+CRAM extraction, original caller context and constructed-sequence annotation.
+They do not establish clinical sensitivity, causality or treatment benefit.
+
+The private source configuration includes selected targets, sample labels and
+input-identity hashes needed to reproduce the exact method. Individual read
+records, read names, case evidence/result payloads, clinical reports and media
+are excluded from this source export.

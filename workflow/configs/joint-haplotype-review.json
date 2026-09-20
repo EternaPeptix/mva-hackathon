@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "sample": "WGS_EX2312012",
+  "scope": "Post hoc three-locus sequence-hypothesis and original fragment review; no genotyper, causal probability or parental phase.",
+  "inputs": {
+    "alignment": {
+      "path": "align/gatk-compatible-cram30-20260920/WGS_EX2312012.cram",
+      "bytes": 26879379800,
+      "sha256": "c3ef27cc9bde0010da9d6e872f88d52b542cbb435ee1d6f85f7f88509ce6f26b"
+    },
+    "alignment_index": {
+      "path": "align/gatk-compatible-cram30-20260920/WGS_EX2312012.cram.crai",
+      "bytes": 1803542,
+      "sha256": "4c04806b8ffe3a5dcf48599385b221e4688430cb6843d09cd357cddf5fd6a692"
+    },
+    "reference": {
+      "path": "ref/realignment/GRCh38_nochr.fa",
+      "bytes": 3150144669,
+      "sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6"
+    },
+    "reference_index": {
+      "path": "ref/realignment/GRCh38_nochr.fa.fai",
+      "bytes": 115406,
+      "sha256": "d81f672f40cfabf2510f37e3f790f2c79665023f4ac950bb9cc6496a40cebf32"
+    },
+    "samtools": {
+      "path": "tools/bio/bin/samtools",
+      "bytes": 777952,
+      "sha256": "7518cbb230a35393d7d3a9f02fc8b4519e4a37b5a17fbed06b9752ca1d962a91"
+    },
+    "bcftools": {
+      "path": "tools/bio/bin/bcftools",
+      "bytes": 1175568,
+      "sha256": "c427681749daabb97be4a010c31c6b24349aaea6abc7bea27d6ce9126874b260"
+    },
+    "gff": {
+      "path": "ref/baseline-20260919/Homo_sapiens.GRCh38.116.chr.gff3.gz",
+      "bytes": 108211474,
+      "sha256": "0857407b4a8be8792089a69fd961737256fb7129b6b799f8a8920ebea4fb134f"
+    },
+    "regional_census": {
+      "path": "methods/joint-haplotype-review-20260920/input-regional-census.json",
+      "bytes": 292408,
+      "sha256": "b13778ce6eb224f989110299ff02076743f0c74d485ffcecf9483f49ecb57878"
+    },
+    "bcftools_shard-0000": {
+      "path": "calls/from-fastq-cram30-20260920/shard-0000/attempt-1789870673446646000/bcftools.raw.bcf",
+      "bytes": 17183014,
+      "sha256": "363b82e271f2917001f104809b288bc0a3d88d5b6e5df9610024f4c6506ae799"
+    },
+    "bcftools_shard-0001": {
+      "path": "calls/from-fastq-cram30-20260920/shard-0001/attempt-1789870673446576000/bcftools.raw.bcf",
+      "bytes": 17152178,
+      "sha256": "8475d778b60646b523806acc35310926096f8a1a35d0795f8cfbeb0dafe839e8"
+    },
+    "bcftools_shard-0011": {
+      "path": "calls/from-fastq-cram30-20260920/shard-0011/attempt-1789900062326638000/bcftools.raw.bcf",
+      "bytes": 9822373,
+      "sha256": "bd15b15a62c46e86b7bfcbd051ba5cab986936e5cfad013a9ecfe20570c86588"
+    },
+    "gatk_shard-0000": {
+      "path": "calls/from-fastq-cram30-20260920/shard-0000/attempt-1789870673446646000/gatk.raw.vcf.gz",
+      "bytes": 17849159,
+      "sha256": "2041a30950918a7de50d26750356b020c634693198f6c8371821c682f38bf118"
+    },
+    "gatk_shard-0001": {
+      "path": "calls/from-fastq-cram30-20260920/shard-0001/attempt-1789870673446576000/gatk.raw.vcf.gz",
+      "bytes": 17934700,
+      "sha256": "0f224f402e7f4ca53e40d8e60b3f57bb684d9b3a5dcd5b39ac264cbd4d7aa5d8"
+    },
+    "gatk_shard-0011": {
+      "path": "calls/from-fastq-cram30-20260920/shard-0011/attempt-1789900062326638000/gatk.raw.vcf.gz",
+      "bytes": 10172762,
+      "sha256": "0794621804e2d336387b5611028b36e52c233c5c86025ac925f10392493e2b37"
+    }
+  },
+  "caller_sources": [
+    {
+      "caller": "bcftools",
+      "input": "bcftools_shard-0000",
+      "expected_records": 388747,
+      "expected_rendered_record_payload_sha256": "686f64accb4f96b4705625b6ed5e50b998e0949c660db54c0c8ca00055d77140"
+    },
+    {
+      "caller": "bcftools",
+      "input": "bcftools_shard-0001",
+      "expected_records": 392642,
+      "expected_rendered_record_payload_sha256": "ccca3e13762f3147eb23594a33974704c22a156c2a7a4173ee05d3e784561786"
+    },
+    {
+      "caller": "bcftools",
+      "input": "bcftools_shard-0011",
+      "expected_records": 226051,
+      "expected_rendered_record_payload_sha256": "8c5df327a4e2fb34497f3beeed724cf82567634bc97bfc0dc1eccf93592fbdc8"
+    },
+    {
+      "caller": "gatk",
+      "input": "gatk_shard-0000",
+      "expected_records": 387714,
+      "expected_rendered_record_payload_sha256": "4d6958ce21f33daf943617bf6478375a3923942c6af42449d329c3fdf9046203"
+    },
+    {
+      "caller": "gatk",
+      "input": "gatk_shard-0001",
+      "expected_records": 392412,
+      "expected_rendered_record_payload_sha256": "b25412cf1cf0b5afdf65e5bc6c1b5b3546ace5268ee54b9298b36fb11f003391"
+    },
+    {
+      "caller": "gatk",
+      "input": "gatk_shard-0011",
+      "expected_records": 224558,
+      "expected_rendered_record_payload_sha256": "59947ef0f66523ff8bf2b9817f02e5b70c97e93b48ca0244a33374f9b142f1b1"
+    }
+  ],
+  "targets": [
+    {
+      "id": "HSPA6",
+      "chrom": "1",
+      "core_start0": 161525672,
+      "core_end0": 161525677,
+      "required_source_record_ids": [
+        "gatk:2041a30950918a7de50d26750356b020c634693198f6c8371821c682f38bf118:238110",
+        "gatk:2041a30950918a7de50d26750356b020c634693198f6c8371821c682f38bf118:238111",
+        "gatk:2041a30950918a7de50d26750356b020c634693198f6c8371821c682f38bf118:238112",
+        "gatk:2041a30950918a7de50d26750356b020c634693198f6c8371821c682f38bf118:238113",
+        "bcftools:363b82e271f2917001f104809b288bc0a3d88d5b6e5df9610024f4c6506ae799:238910",
+        "bcftools:363b82e271f2917001f104809b288bc0a3d88d5b6e5df9610024f4c6506ae799:238911"
+      ]
+    },
+    {
+      "id": "NABP2",
+      "chrom": "12",
+      "core_start0": 56229086,
+      "core_end0": 56229095,
+      "required_source_record_ids": [
+        "gatk:0794621804e2d336387b5611028b36e52c233c5c86025ac925f10392493e2b37:101620",
+        "gatk:0794621804e2d336387b5611028b36e52c233c5c86025ac925f10392493e2b37:101621",
+        "gatk:0794621804e2d336387b5611028b36e52c233c5c86025ac925f10392493e2b37:101622",
+        "gatk:0794621804e2d336387b5611028b36e52c233c5c86025ac925f10392493e2b37:101623"
+      ]
+    },
+    {
+      "id": "FAM136A",
+      "chrom": "2",
+      "core_start0": 70297375,
+      "core_end0": 70297383,
+      "required_source_record_ids": [
+        "gatk:0f224f402e7f4ca53e40d8e60b3f57bb684d9b3a5dcd5b39ac264cbd4d7aa5d8:115297",
+        "gatk:0f224f402e7f4ca53e40d8e60b3f57bb684d9b3a5dcd5b39ac264cbd4d7aa5d8:115298",
+        "bcftools:8475d778b60646b523806acc35310926096f8a1a35d0795f8cfbeb0dafe839e8:116224",
+        "bcftools:8475d778b60646b523806acc35310926096f8a1a35d0795f8cfbeb0dafe839e8:116225",
+        "bcftools:8475d778b60646b523806acc35310926096f8a1a35d0795f8cfbeb0dafe839e8:116226",
+        "bcftools:8475d778b60646b523806acc35310926096f8a1a35d0795f8cfbeb0dafe839e8:116227"
+      ]
+    }
+  ],
+  "expected_read_groups": 4,
+  "raw_base_qualities_no_BAQ": true,
+  "window_flanks_bp": [
+    3,
+    10,
+    25
+  ],
+  "mapping_quality_thresholds": [
+    0,
+    20,
+    60
+  ],
+  "base_quality_thresholds": [
+    20,
+    30
+  ],
+  "maximum_hypothesis_states": 256,
+  "maximum_haplotype_bases": 100000,
+  "source_sha256": {
+    "review_joint_haplotypes.py": "39e2e566bcc1dc0938b1b4318e8a3aeb045c51fe175245d9dfaa110206732416",
+    "joint_haplotype_helpers.py": "0edf1f484bbe2b5009b31f5f0205a96e617b11d1d0677c6e3bb0b59eed06363e",
+    "native_coding_records.py": "c395dd130a2577e7b25ba0ac62d600d7cb64c9240f3eb218536eff22c5c44cfe"
+  },
+  "limitations": [
+    "Hypotheses include every concrete native ALT in each caller separately, irrespective of genotype participation; no REF genotype inferred from empty caller records.",
+    "Equivalent sequence lineages share one observed fragment count. Rejected overlapping source edits and nonconcrete/window-crossing context remain explicit.",
+    "Nested windows and quality sensitivities reuse original fragments and are not independent experiments."
+  ]
+}

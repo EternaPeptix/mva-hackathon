@@ -602,3 +602,37 @@ passed on 512S2 with Python 3.12.14 and pysam 0.24.1. Their frequency inputs are
 fictional exact-response files; they do not validate the public frequency database
 or measure patient accuracy. The case execution uses the pinned local public
 database and requires separate output reconciliation.
+
+## Joint sequence and fragment review
+
+Follow the [joint-haplotype recipe](workflow/docs/JOINT-HAPLOTYPE-REVIEW.md) with
+the exact source/configuration pins, authorized external inputs and a new output
+directory. The workflow preserves native caller context, constructs each
+caller's compatible local sequence hypotheses separately and retains rejected
+overlapping edit combinations. Sequence-identical hypotheses retain their
+individual source labels without multiplying their observed fragment support.
+
+Reproduce the [20 fictional controls](workflow/source-snapshots/joint-haplotype-controls-20260920/controls.json)
+on the native Studio environment before analysing authorized reads:
+
+```sh
+MVA_PROJECT_ROOT="$MVA_ROOT" "$MVA_ROOT/tools/bio/bin/python" -m unittest discover \
+  -s "$MVA_REPO/workflow/tests" -p 'test_joint_haplotype*.py' -v
+```
+
+Require all tests to run, with no missing-runtime skips. The recorded run used
+Python 3.12.14 and pysam 0.24.1. It exercises native CRAM/raw-call extraction and
+local annotation alongside the sequence/fragment helper controls. Fictional
+inputs establish the exercised software contract, not biological sensitivity.
+
+Exact read-window comparisons use raw base qualities, not BAQ. Each threshold
+and window retains its own observations, read-group/strand axes, fragment
+identities, unmatched sequences and conflicts. Nested windows, quality views
+and alternative source lineages reuse evidence and must not be added as
+independent observations. Constructed local consequences do not establish a
+patient genotype, parental phase, locus assignment or functional rescue.
+
+The private configuration preserves target/sample/input-hash selection pins.
+Acquire those authorized external inputs separately; do not commit individual
+read records, read names, case evidence/result payloads, clinical reports or
+media to reproduce this source-only snapshot.
