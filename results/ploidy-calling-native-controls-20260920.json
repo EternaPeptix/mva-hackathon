@@ -1,0 +1,135 @@
+{
+  "completed_at": "2026-09-20T08:08:15Z",
+  "status": "complete",
+  "command": [
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+    "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/call_ploidy_regions.py",
+    "--root",
+    "/Users/jeweled/Documents/mva-hackathon",
+    "--reference",
+    "/Users/jeweled/Documents/mva-hackathon/results/ploidy-caller-native-control-20260920-v2/fictional.fa",
+    "--alignment",
+    "/Users/jeweled/Documents/mva-hackathon/results/ploidy-caller-native-control-20260920-v2/fictional.bam",
+    "--config",
+    "/Users/jeweled/Documents/mva-hackathon/results/ploidy-caller-native-control-20260920-v2/config.json",
+    "--output",
+    "/Users/jeweled/Documents/mva-hackathon/results/ploidy-caller-native-control-20260920-v2/run"
+  ],
+  "control_genotypes": [
+    {
+      "caller": "gatk",
+      "pos": 1001,
+      "ref": "T",
+      "alt": "A",
+      "expected_GT": [
+        0,
+        1
+      ],
+      "expected_ploidy": 2,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 80,
+      "GQ": 99
+    },
+    {
+      "caller": "gatk",
+      "pos": 4001,
+      "ref": "T",
+      "alt": "A",
+      "expected_GT": [
+        1
+      ],
+      "expected_ploidy": 1,
+      "observed_GT": [
+        1
+      ],
+      "DP": 80,
+      "GQ": 99
+    },
+    {
+      "caller": "gatk",
+      "pos": 5001,
+      "ref": "A",
+      "alt": "AAG",
+      "expected_GT": [
+        1
+      ],
+      "expected_ploidy": 1,
+      "observed_GT": [
+        1
+      ],
+      "DP": 80,
+      "GQ": 99
+    },
+    {
+      "caller": "bcftools",
+      "pos": 1001,
+      "ref": "T",
+      "alt": "A",
+      "expected_GT": [
+        0,
+        1
+      ],
+      "expected_ploidy": 2,
+      "observed_GT": [
+        0,
+        1
+      ],
+      "DP": 80,
+      "GQ": 127
+    },
+    {
+      "caller": "bcftools",
+      "pos": 4001,
+      "ref": "T",
+      "alt": "A",
+      "expected_GT": [
+        1
+      ],
+      "expected_ploidy": 1,
+      "observed_GT": [
+        1
+      ],
+      "DP": 80,
+      "GQ": 127
+    },
+    {
+      "caller": "bcftools",
+      "pos": 5001,
+      "ref": "A",
+      "alt": "AAG",
+      "expected_GT": [
+        1
+      ],
+      "expected_ploidy": 1,
+      "observed_GT": [
+        1
+      ],
+      "DP": 80,
+      "GQ": 127
+    }
+  ],
+  "runner_status_sha256": "9862d6ffd40b5361cf1bcdc569570dd242968b40992319ac3f7ad2502263260c",
+  "files": {
+    "workflow/scripts/probe_ploidy_regions.py": {
+      "sha256": "cd9c9b07fe692f26ada010694fb637772800f852ddc3318fb178e26b56939ee4",
+      "bytes": 5812
+    },
+    "workflow/scripts/call_ploidy_regions.py": {
+      "sha256": "4515ce17bd28190fc00a45bb2adfbab07bc91e84abdb822d7f6602fa0e2636e1",
+      "bytes": 8823
+    }
+  },
+  "native_tool_sha256": {
+    "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/call_ploidy_regions.py": "4515ce17bd28190fc00a45bb2adfbab07bc91e84abdb822d7f6602fa0e2636e1",
+    "/Users/jeweled/Documents/mva-hackathon/results/ploidy-caller-native-control-20260920-v2/config.json": "16479894c88d71c08326a68064a03e9b5a8f06394853aac2f4d8d41c06a003a9",
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/samtools": "7518cbb230a35393d7d3a9f02fc8b4519e4a37b5a17fbed06b9752ca1d962a91",
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/bcftools": "c427681749daabb97be4a010c31c6b24349aaea6abc7bea27d6ce9126874b260",
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/lib/jvm/bin/java": "ec64ac719290ad080c7f8a4f5d83402e4152f98f486fe14150cf734a46ebcbb1",
+    "/Users/jeweled/Documents/mva-hackathon/gatk-4.6.1.0/gatk-package-4.6.1.0-local.jar": "b2824999fafe4dc83036e334b9765d4a7de4f4ff4bec1e929d77bea04a1560c7",
+    "/Users/jeweled/Documents/mva-hackathon/repo/workflow/scripts/prepare_gatk_compatible_cram.py": "6e1c5f8a830bb48fba7258d810a0f54166f40d471b21c1b3b4f185e9bed650c9"
+  },
+  "scope": "Both native callers recover the three fictional alleles with the specified diploid/haploid GT shapes. This is a software-contract control, not sensitivity or clinical validation."
+}

@@ -1,0 +1,64 @@
+{
+  "sample": "WGS_EX2312012",
+  "expected_read_groups": 4,
+  "reference_sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6",
+  "alignment_sha256": "c3ef27cc9bde0010da9d6e872f88d52b542cbb435ee1d6f85f7f88509ce6f26b",
+  "regions": [
+    {
+      "chrom": "X",
+      "length": 156040895,
+      "intervals_0based_half_open": [
+        [
+          0,
+          10000,
+          1
+        ],
+        [
+          10000,
+          2781479,
+          2
+        ],
+        [
+          2781479,
+          155701382,
+          1
+        ],
+        [
+          155701382,
+          156030895,
+          2
+        ],
+        [
+          156030895,
+          156040895,
+          1
+        ]
+      ]
+    },
+    {
+      "chrom": "Y",
+      "length": 57227415,
+      "intervals_0based_half_open": [
+        [
+          0,
+          57227415,
+          1
+        ]
+      ]
+    }
+  ],
+  "required_N_masks": [
+    {
+      "chrom": "Y",
+      "start": 10000,
+      "end": 2781479
+    },
+    {
+      "chrom": "Y",
+      "start": 56887902,
+      "end": 57217415
+    }
+  ],
+  "basis": "Fixed-region filtered depth survey is consistent with predominantly single-copy non-PAR X and Y and two-copy PAR represented on X. This defines a computational sensitivity model; metadata remains sex UNKNOWN. Y PAR N masks are mandatory reference checks.",
+  "scope": "Separate X/Y ploidy-aware discovery: X PAR ploidy 2, other X and Y ploidy 1, with masked Y PARs having no concrete reference bases. Not a clinical karyotype, mosaicism exclusion or mitochondrial analysis."
+}

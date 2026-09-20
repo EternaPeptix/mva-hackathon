@@ -1,0 +1,63 @@
+{
+  "sample": "WGS_EX2312012",
+  "reference_sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6",
+  "window_bp": 10000,
+  "autosome_windows_per_chromosome": 30,
+  "nonPAR_windows_per_sex_chromosome": 80,
+  "windows_per_PAR_copy": 20,
+  "minimum_reference_ACGT_fraction": 0.99,
+  "reference_GC_bounds": [
+    0.25,
+    0.65
+  ],
+  "PAR_1based_inclusive": {
+    "X": [
+      {
+        "name": "PAR1",
+        "start": 10001,
+        "end": 2781479
+      },
+      {
+        "name": "PAR2",
+        "start": 155701383,
+        "end": 156030895
+      }
+    ],
+    "Y": [
+      {
+        "name": "PAR1",
+        "start": 10001,
+        "end": 2781479
+      },
+      {
+        "name": "PAR2",
+        "start": 56887903,
+        "end": 57217415
+      }
+    ]
+  },
+  "PAR_source": {
+    "url": "https://www.ncbi.nlm.nih.gov/grc/human",
+    "assembly": "GRCh38.p14",
+    "accessed_UTC_date": "2026-09-20",
+    "coordinates": "1-based inclusive from GRC PAR table; start minus one and unchanged end for BED"
+  },
+  "depth_modes": [
+    {
+      "name": "MQ0_BQ1",
+      "minimum_MQ": 0,
+      "minimum_BQ": 1
+    },
+    {
+      "name": "MQ20_BQ20",
+      "minimum_MQ": 20,
+      "minimum_BQ": 20
+    },
+    {
+      "name": "MQ60_BQ20",
+      "minimum_MQ": 60,
+      "minimum_BQ": 20
+    }
+  ],
+  "interpretation": "Reference-only systematic depth survey; no inferred clinical karyotype, gender, whole-genome callability or mitochondrial heteroplasmy result. The existing subject configuration records sex UNKNOWN. Window selection and reference composition criteria precede read inspection."
+}

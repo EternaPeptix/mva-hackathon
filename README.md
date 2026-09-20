@@ -33,6 +33,9 @@ clinical sensitivity for the child.
 - [Target-base orientation controls](results/cluster-target-projection-controls-20260920.json)
 - [Four-lane indel sequence/genotype controls](results/four-lane-indel-controls-20260920.json)
 - [Indel window and orientation diagnostics](results/four-lane-indel-context-controls-20260920.json)
+- [Fixed-region depth and missingness controls](results/chromosome-depth-method-controls-20260920.json)
+- [Regional-ploidy interval controls](results/ploidy-region-method-controls-20260920-v2.json)
+- [Diploid/haploid calling on fictional sequence](results/ploidy-calling-native-controls-20260920.json)
 
 The workflow covers reference preparation, alignment, native GATK/bcftools calling,
 phenotype-assisted and phenotype-independent prioritisation, read evidence, phasing,
@@ -90,6 +93,15 @@ marker including missing/excluded evidence. Nine focused representation controls
 pass on the Studio. Population allele counts and multiallelic sample copy-state
 distributions remain distinct; overlap alone does not classify a case allele.
 The corresponding patient-derived result tables and figures are excluded.
+
+A fixed-region depth workflow preserves explicit zeros and separate reference-span
+and concrete-base denominators. Four native controls cover selection, missing
+positions, overlapping mates and filters. The regional-ploidy runner has three
+interval controls; both GATK and bcftools recover a diploid SNV, haploid SNV and
+haploid insertion on fictional sequence. The initial index-collision source is
+preserved separately. These controls do not validate a karyotype, mosaicism
+sensitivity, mitochondrial interpretation or clinical negative result. Patient
+depth measurements and case output files are outside this export.
 
 ## Data and release status
 

@@ -266,6 +266,48 @@ those submission requirements.
 
 ## 4. Check components and preserve evidence
 
+The chromosome-depth survey freezes intervals from reference coordinates before
+read inspection, requires explicit depth for every selected position and preserves
+zero-depth windows. Reference eligibility is based only on concrete-base fraction
+and GC composition. Reproduce it with the completed four-lane state:
+
+```sh
+"$MVA_ROOT/tools/bio/bin/python" "$MVA_REPO/workflow/scripts/survey_chromosome_depth.py" \
+  --root "$MVA_ROOT" --alignment-state "$MVA_ROOT/state/raw-reads.json" \
+  --config "$MVA_REPO/workflow/configs/chromosome-depth-survey.json" \
+  --output "$MVA_ROOT/results/chromosome-depth-survey-reproduction"
+```
+
+The separate `call_ploidy_regions.py` runner needs `--root`, `--reference`,
+`--alignment`, `--config` and a new `--output` directory. Its frozen model is
+`workflow/configs/sex-chromosome-ploidy-model.json`; it verifies exact reference and
+alignment hashes, read groups, reference lengths and the complete Y PAR N masks.
+The model assigns diploid X PAR and haploid other X/Y sequence without changing
+subject metadata. Use the verified compatible CRAM, not an unvalidated format
+conversion. Preserve raw multi-allele VCFs and later reconcile all boundary-crossing
+records and caller discordances. Variant-only absence is not reference evidence.
+GATK uses its native default filters; bcftools pileup uses MQ20/BQ20, excluded flags
+0xF04 and a 10,000 depth cap. These are raw calls without BQSR or clinical filtering.
+
+Run the four depth and three interval controls with the pinned native runtime:
+
+```sh
+MVA_SAMTOOLS="$MVA_ROOT/tools/bio/bin/samtools" "$MVA_ROOT/tools/bio/bin/python" \
+  -m unittest discover -s "$MVA_REPO/workflow/tests" -p test_chromosome_depth_survey.py -v
+"$MVA_ROOT/tools/bio/bin/python" -m unittest discover \
+  -s "$MVA_REPO/workflow/tests" -p test_ploidy_regions.py -v
+"$MVA_ROOT/tools/bio/bin/python" "$MVA_REPO/workflow/scripts/probe_ploidy_regions.py" \
+  --root "$MVA_ROOT" --output "$MVA_ROOT/results/ploidy-native-control-reproduction"
+```
+
+The final command creates fictional sequence/reads and exercises both actual callers
+on three alleles spanning diploid and haploid intervals. Require all six caller/allele
+genotype comparisons to pass. The preserved pre-repair source documents an index
+collision fixed before the passing run; it is not the current runner. These controls
+provide software-contract evidence, not a clinical sensitivity estimate. The survey
+is not gene-level callability, and mitochondrial circular-boundary, NUMT, heteroplasmy
+and contamination analyses remain separate work.
+
 The two selected baseline indels use `audit_final_alignment_indels.py --root <ROOT>
 --alignment-state <ROOT>/state/raw-reads.json --config
 workflow/configs/baseline-four-lane-indels.json --output <NEW_DIRECTORY>`. This preserves

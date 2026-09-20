@@ -52,6 +52,9 @@ RECEIPTS = [
     'cluster-target-projection-controls-20260920.json',
     'four-lane-indel-controls-20260920.json',
     'four-lane-indel-context-controls-20260920.json',
+    'chromosome-depth-method-controls-20260920.json',
+    'ploidy-region-method-controls-20260920-v2.json',
+    'ploidy-calling-native-controls-20260920.json',
 ]
 
 
