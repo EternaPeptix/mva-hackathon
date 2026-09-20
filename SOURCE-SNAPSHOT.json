@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-09-20T05:03:28.386343+00:00",
+  "created_at": "2026-09-20T05:30:24.608884+00:00",
   "scope": "Complete selected workflow source/configuration inventory plus public/synthetic/runtime evidence; no patient-result files or internal Git history.",
-  "source_manifest_sha256": "73d27812c677c35045fe81e6ab9a4bfac4af8bf3614cbc5ea6d6c114af12c55d",
-  "exporter_sha256": "041b5990a472b214dbe01927560eb91c5edb745a91b50e09c51b18b907debe75",
+  "source_manifest_sha256": "07d0999b6a900c80cf2bb4409c669a89ad158c7b9f298c8b3d228b884af3ef12",
+  "exporter_sha256": "069dded0c43dbfa3fa6f46bdabcc0a7c93f9dcc345d1a5873e3be4d80bb86076",
   "files": [
     {
       "path": ".gitignore",
@@ -26,19 +26,19 @@
       "path": "README.md",
       "source_path": "publication/README.md",
       "source_mode": 420,
-      "source_bytes": 7658,
-      "source_sha256": "b673f16a70b963e50b92ccf2e5d4a7f413ee26f0373d5cea2713265b207a9e0d",
-      "release_bytes": 7658,
-      "release_sha256": "b673f16a70b963e50b92ccf2e5d4a7f413ee26f0373d5cea2713265b207a9e0d"
+      "source_bytes": 7774,
+      "source_sha256": "a06e77624c276521b62d4ea5aea9c6479ba5fb9aafc4b48a410c63aa62c4dba7",
+      "release_bytes": 7774,
+      "release_sha256": "a06e77624c276521b62d4ea5aea9c6479ba5fb9aafc4b48a410c63aa62c4dba7"
     },
     {
       "path": "REPRODUCIBILITY.md",
       "source_path": "publication/REPRODUCIBILITY.md",
       "source_mode": 420,
-      "source_bytes": 17769,
-      "source_sha256": "8eb7c91be0bb1b9e898e127184fbef361cad22323ea8b99f9ab36ea41206b41e",
-      "release_bytes": 17769,
-      "release_sha256": "8eb7c91be0bb1b9e898e127184fbef361cad22323ea8b99f9ab36ea41206b41e"
+      "source_bytes": 19009,
+      "source_sha256": "f1b9f0a6aa284a90528201560990304423bbda71c412e9855bb7a80adc7cedec",
+      "release_bytes": 19009,
+      "release_sha256": "f1b9f0a6aa284a90528201560990304423bbda71c412e9855bb7a80adc7cedec"
     },
     {
       "path": "results/cnv-context-method-controls-20260920.json",
@@ -311,6 +311,15 @@
       "release_sha256": "9a52c1ada7cf6c882cc88cdd906579f556060765d57cafc312d89b01a787bef8"
     },
     {
+      "path": "results/tandem-junction-method-controls-20260920.json",
+      "source_path": "results/tandem-junction-method-controls-20260920.json",
+      "source_mode": 420,
+      "source_bytes": 1938,
+      "source_sha256": "058cdd7da1f0fb382d354a747cc2a88f2a43457247985f40a205ed33983fda1e",
+      "release_bytes": 1938,
+      "release_sha256": "058cdd7da1f0fb382d354a747cc2a88f2a43457247985f40a205ed33983fda1e"
+    },
+    {
       "path": "workflow/configs/autosomal-copy-number.json",
       "source_path": "workflow/configs/autosomal-copy-number.json",
       "source_mode": 420,
@@ -480,6 +489,15 @@
       "source_sha256": "668e783aa83aed4be0711eac840fb09faeacd12dae8cbc2d7f8473b76b171ec5",
       "release_bytes": 2089,
       "release_sha256": "668e783aa83aed4be0711eac840fb09faeacd12dae8cbc2d7f8473b76b171ec5"
+    },
+    {
+      "path": "workflow/configs/tandem-junction-review.json",
+      "source_path": "workflow/configs/tandem-junction-review.json",
+      "source_mode": 420,
+      "source_bytes": 477,
+      "source_sha256": "38f7679ff21f6fb95abf74a09ae944846f27ce07ad91ccfec2d1803d6a510f4d",
+      "release_bytes": 477,
+      "release_sha256": "38f7679ff21f6fb95abf74a09ae944846f27ce07ad91ccfec2d1803d6a510f4d"
     },
     {
       "path": "workflow/environments/20260919/bio-osx-arm64.explicit.txt",
@@ -881,10 +899,10 @@
       "path": "workflow/scripts/export_repository_snapshot.py",
       "source_path": "workflow/scripts/export_repository_snapshot.py",
       "source_mode": 420,
-      "source_bytes": 9314,
-      "source_sha256": "041b5990a472b214dbe01927560eb91c5edb745a91b50e09c51b18b907debe75",
-      "release_bytes": 9314,
-      "release_sha256": "041b5990a472b214dbe01927560eb91c5edb745a91b50e09c51b18b907debe75"
+      "source_bytes": 9367,
+      "source_sha256": "069dded0c43dbfa3fa6f46bdabcc0a7c93f9dcc345d1a5873e3be4d80bb86076",
+      "release_bytes": 9367,
+      "release_sha256": "069dded0c43dbfa3fa6f46bdabcc0a7c93f9dcc345d1a5873e3be4d80bb86076"
     },
     {
       "path": "workflow/scripts/export_runtime.py",
@@ -1389,6 +1407,15 @@
       "source_sha256": "cbe62364d0254cb2a1693bc0cb8fec8a22e304ff23c6b84aa39d658356d5dc93",
       "release_bytes": 3137,
       "release_sha256": "cbe62364d0254cb2a1693bc0cb8fec8a22e304ff23c6b84aa39d658356d5dc93"
+    },
+    {
+      "path": "workflow/scripts/review_tandem_junction.py",
+      "source_path": "workflow/scripts/review_tandem_junction.py",
+      "source_mode": 420,
+      "source_bytes": 19146,
+      "source_sha256": "32104a13a8497eeedf694a2dc2247f0a8d4fb9d603a025e6b013fd0e41bc045e",
+      "release_bytes": 19146,
+      "release_sha256": "32104a13a8497eeedf694a2dc2247f0a8d4fb9d603a025e6b013fd0e41bc045e"
     },
     {
       "path": "workflow/scripts/rtg_small_variant_helpers.py",
@@ -2102,6 +2129,15 @@
       "release_sha256": "fad4a69fa1b7ec1383fb325bf07ca0053198666ea0a6907505cc5ff95bc5af11"
     },
     {
+      "path": "workflow/tests/test_tandem_junction.py",
+      "source_path": "workflow/tests/test_tandem_junction.py",
+      "source_mode": 420,
+      "source_bytes": 5557,
+      "source_sha256": "7f6e094a3ddfecc700ca4bc6c17000f5216f220606f73c6234d7fece73a807f7",
+      "release_bytes": 5557,
+      "release_sha256": "7f6e094a3ddfecc700ca4bc6c17000f5216f220606f73c6234d7fece73a807f7"
+    },
+    {
       "path": "workflow/tests/test_targeted_snvs.py",
       "source_path": "workflow/tests/test_targeted_snvs.py",
       "source_mode": 420,
@@ -2129,8 +2165,8 @@
       "release_sha256": "54ce1865db01ed816a73ad29a73a7c864ecf920b1e9475aaaa596d36405d4b34"
     }
   ],
-  "file_count": 236,
-  "total_release_bytes": 2153818,
+  "file_count": 240,
+  "total_release_bytes": 2182345,
   "transformations": [
     {
       "kind": "comment_only_acquisition_metadata_replacement",

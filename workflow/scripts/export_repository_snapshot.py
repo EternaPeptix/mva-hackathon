@@ -44,6 +44,7 @@ RECEIPTS = [
     'cnv-context-public-sources-20260920.json',
     'cnv-context-method-controls-20260920.json',
     'structural-cnv-context-controls-20260920.json',
+    'tandem-junction-method-controls-20260920.json',
 ]
 
 

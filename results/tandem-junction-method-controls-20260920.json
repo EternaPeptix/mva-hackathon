@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-20T05:22:25.797493+00:00",
+  "host": "512S2",
+  "tests_passed": 6,
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_extra_partial_copy_is_distinct_from_insertion_inside_original_transcript (test_tandem_junction.TandemJunctionControls.test_extra_partial_copy_is_distinct_from_insertion_inside_original_transcript) ... ok\ntest_hard_and_soft_clips_share_original_query_coordinates (test_tandem_junction.TandemJunctionControls.test_hard_and_soft_clips_share_original_query_coordinates) ... ok\ntest_known_tandem_junction_and_reverse_complement_resolve_same_coordinates (test_tandem_junction.TandemJunctionControls.test_known_tandem_junction_and_reverse_complement_resolve_same_coordinates) ... ok\ntest_microhomology_retains_all_equivalent_solutions (test_tandem_junction.TandemJunctionControls.test_microhomology_retains_all_equivalent_solutions) ... ok\ntest_native_BAM_evidence_counts_fragments_and_preserves_excluded_reads (test_tandem_junction.TandemJunctionControls.test_native_BAM_evidence_counts_fragments_and_preserves_excluded_reads) ... ok\ntest_reference_sequence_low_quality_and_missing_quality_do_not_support_junction (test_tandem_junction.TandemJunctionControls.test_reference_sequence_low_quality_and_missing_quality_do_not_support_junction) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.029s\n\nOK\n",
+  "source_sha256": {
+    "workflow/scripts/review_tandem_junction.py": "32104a13a8497eeedf694a2dc2247f0a8d4fb9d603a025e6b013fd0e41bc045e",
+    "workflow/configs/tandem-junction-review.json": "38f7679ff21f6fb95abf74a09ae944846f27ce07ad91ccfec2d1803d6a510f4d",
+    "workflow/tests/test_tandem_junction.py": "7f6e094a3ddfecc700ca4bc6c17000f5216f220606f73c6234d7fece73a807f7"
+  },
+  "scope": "Five fictional geometry/sequence/quality controls and one native BAM fragment-deduplication/filter control. Not a biological performance estimate."
+}

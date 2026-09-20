@@ -229,6 +229,18 @@ the public HG002 reads as patient data.
   selected-gene endpoints against the CDS union across annotated transcripts.
   This is not independent decoder validation, complex-allele reconstruction,
   transcript consequence prediction or clinical classification.
+- `review_tandem_junction.py` performs a bounded follow-up of a selected precise
+  `5to3` DUP without an inserted sequence. It takes `--analysis`, `--record-id`,
+  `--expected-summary-sha256`, `--gff`, `--expected-gff-sha256`, `--config`,
+  `--samtools` and a new `--output` outside this repository. The configuration is
+  `workflow/configs/tandem-junction-review.json`. It rechecks the complete input
+  alignment/reference/index identities, retains every exact local consensus
+  decomposition, and stops for manual review if the decomposition is ambiguous.
+  Unfiltered regional extraction preserves the original duplicate marks and all
+  alignment records. Exact sequence, observed split segments and outward pairs
+  are reported as overlapping fragment sets. Transcript geometry is conditional
+  on a simple tandem arrangement, not proof of expression or gene disruption.
+  Sequence/read tables and patient results remain outside this source export.
 
 At this source snapshot the four-lane alignment and format verification are complete;
 small-variant whole-reference calling and broader interpretation remain unfinished.
@@ -254,6 +266,14 @@ The two structural/CNV selection controls also use the standard library:
 
 ```sh
 python3 -m unittest discover -s "$MVA_REPO/workflow/tests" -p test_structural_cnv_context.py -v
+```
+
+The tandem-junction suite has five standard-library controls and one native BAM
+control requiring pysam. All six ran on the Studio; a missing-pysam skip is not
+a passing native control:
+
+```sh
+python3 -m unittest discover -s "$MVA_REPO/workflow/tests" -p test_tandem_junction.py -v
 ```
 
 They test representation and missingness rules, including checksum corruption and

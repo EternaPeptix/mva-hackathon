@@ -25,6 +25,7 @@ clinical sensitivity for the child.
 - [Pinned public CNV context resources](results/cnv-context-public-sources-20260920.json)
 - [CNV context representation controls](results/cnv-context-method-controls-20260920.json)
 - [Structural/CNV selection controls](results/structural-cnv-context-controls-20260920.json)
+- [Literal tandem-junction and transcript-geometry controls](results/tandem-junction-method-controls-20260920.json)
 
 The workflow covers reference preparation, alignment, native GATK/bcftools calling,
 phenotype-assisted and phenotype-independent prioritisation, read evidence, phasing,
