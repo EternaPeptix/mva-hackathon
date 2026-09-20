@@ -284,3 +284,30 @@ case results are excluded from this source export.
 
 See the [reproduction guide](workflow/docs/CODING-DEPTH-REPRODUCTION.md) and
 [qualified fictional-control record](workflow/source-snapshots/coding-depth-controls-20260920/controls.json).
+
+
+## Native representation overlay and secondary inventory
+
+This source update adds a separately verified normalized-representation overlay
+and the native secondary-inventory adapter. Both preserve original caller lineage,
+missing FORMAT values and bounded interpretation. The overlay reuses independently
+verified observations without new read extraction; the secondary adapter retains
+exact-match strata and source provenance without treating variant-only absence as
+a reference genotype or a clinical negative.
+
+See the [overlay method](workflow/docs/ADAMTS1-NORMALIZED-OVERLAY.md),
+[secondary contract](workflow/docs/NATIVE-SECONDARY-CONTRACT.md) and
+[secondary reproduction guide](workflow/docs/NATIVE-SECONDARY-REPRODUCTION.md).
+Historical fictional controls passed in four separate suites: [overlay, 21](workflow/source-snapshots/adamts1-normalized-overlay-20260920/controls.json),
+[independent overlay checker, 23](workflow/source-snapshots/adamts1-normalized-overlay-20260920/independent-verification/controls.json),
+[secondary producer, 35](workflow/source-snapshots/native-secondary-controls-20260920/controls.json),
+and [independent secondary checker, 36](workflow/source-snapshots/native-secondary-independent-20260920/controls.json).
+These receipts qualify their stated software revisions and fictional fixtures;
+they do not supply case results or clinical validation.
+
+The exact private configurations include authorized sample/target/input identities,
+hashes and source-selection counts. Individual observations, reads and read names,
+case result payloads, clinical reports, media and internal working Git history are
+excluded. The secondary producer receipt inventories its entire historical workflow;
+this export includes only the selected source subset, not that full historical
+snapshot. Its reproduction guide explains the additional private prerequisites.

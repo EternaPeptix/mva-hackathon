@@ -734,3 +734,42 @@ case results are excluded from this source export.
 
 See the [reproduction guide](workflow/docs/CODING-DEPTH-REPRODUCTION.md) and
 [qualified fictional-control record](workflow/source-snapshots/coding-depth-controls-20260920/controls.json).
+
+
+## Native overlay and secondary-inventory additions
+
+Use the [overlay guide](workflow/docs/ADAMTS1-NORMALIZED-OVERLAY.md) and the
+[secondary reproduction guide](workflow/docs/NATIVE-SECONDARY-REPRODUCTION.md).
+The [secondary contract](workflow/docs/NATIVE-SECONDARY-CONTRACT.md) remains an
+unchanged historical preparation document; the reproduction guide records the
+final source layout and prerequisites. These additions contain no actual case
+observations or clinical reporting decisions.
+
+Four original native fictional-control receipts are retained unchanged. Their
+source paths map to this release as follows:
+
+| Original receipt | Controls | Receipt source-name mapping |
+|---|---:|---|
+| [Overlay](workflow/source-snapshots/adamts1-normalized-overlay-20260920/controls.json) | 21 | All five `source_sha256` names resolve below `workflow/source-snapshots/adamts1-normalized-overlay-20260920/`. |
+| [Independent overlay checker](workflow/source-snapshots/adamts1-normalized-overlay-20260920/independent-verification/controls.json) | 23 | Both source names resolve beside that receipt. |
+| [Secondary producer](workflow/source-snapshots/native-secondary-controls-20260920/controls.json) | 35 | The selected historical names map under `workflow/`: `docs/NATIVE-SECONDARY-CONTRACT.md`, `scripts/qualify_native_secondary.py`, `scripts/review_native_secondary.py`, both `scripts/vendor/` dependencies and `tests/test_native_secondary.py`. |
+| [Independent secondary checker](workflow/source-snapshots/native-secondary-independent-20260920/controls.json) | 36 | All three `source_pins` names resolve below its adjacent `source/` directory. |
+
+The secondary producer's original receipt also pins seven historical files not
+exported here: three earlier configuration drafts, `docs/README.md`,
+`scripts/launch_secondary.py`, `scripts/preflight_public_secondary.py` and
+`tests/test_launch_secondary.py`. No full historical workflow snapshot is claimed.
+The approved version 2 configuration is included as separately reviewed exact
+execution configuration; it is not relabeled as one of those historical draft
+configuration bytes. Reproducing an independent qualification requires the entire
+adjacent producer workflow snapshot specified by the guide, or a newly qualified
+relocated snapshot and its new receipt. Copying a historical receipt alone does
+not satisfy this binding.
+
+The original 21/23/35/36 control results are reused because their exported source
+bytes are unchanged. They were not rerun for this source export. Configuration
+sample identifiers, targets, hashes and source-selection counts are intentionally
+included under the private-source policy; original alignments, variant payloads,
+case observations, clinical reports and media remain separate authorized inputs.
+Neither fictional controls nor source publication establishes phase, locus origin,
+biological function, complete panel callability, reportability or causality.

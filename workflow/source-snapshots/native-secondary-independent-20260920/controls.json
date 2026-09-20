@@ -1,0 +1,50 @@
+{
+  "command": [
+    "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+    "-u",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "/Users/jeweled/Documents/mva-hackathon/methods/native-secondary-review-20260920/independent-verification/qualification-v3/source",
+    "-p",
+    "test_verify_secondary.py",
+    "-v"
+  ],
+  "completed_at": "2026-09-20T19:03:16.880131+00:00",
+  "elapsed_seconds": 13.170752165839076,
+  "errors": 0,
+  "exit_code": 0,
+  "failures": 0,
+  "producer_qualification": {
+    "path": "/Users/jeweled/Documents/mva-hackathon/methods/native-secondary-review-20260920/qualification-v5-512s2/controls.json",
+    "sha256": "9c88971c0f73a52287687e067e07dcc08d798f34c3c94cd983208c3562ed805a"
+  },
+  "runtime": {
+    "executable": "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/python",
+    "host": "512S2",
+    "machine": "arm64",
+    "python": "3.12.14 (main, Sep  3 2026, 03:46:19) [Clang 21.1.8 ]",
+    "system": "Darwin"
+  },
+  "scope": "Fictional fixture and intentional corruptions only. No patient alignments, genotypes, case screen or audit.",
+  "skipped": [],
+  "source_pins": {
+    "qualify-verifier.py": {
+      "bytes": 3166,
+      "sha256": "fbe2859ed447aec8df2fa596bf91246ae86b2ebe3a50991aa89cb756d296e0ec"
+    },
+    "test_verify_secondary.py": {
+      "bytes": 14358,
+      "sha256": "1b1925ddee2b6a3a9fc262507d01bb1223fcadc4c781cb3f48aeb33e226b2d5e"
+    },
+    "verify-secondary.py": {
+      "bytes": 36444,
+      "sha256": "ff438cd0c5aa14b066b83645ea09b56bcff2dc198dd8198191f3c48556413185"
+    }
+  },
+  "status": "complete",
+  "stderr_sha256": "8d5dd2759e4b912727c66ab106d197eb1d426893c9501b6f9d50c5b7946722c6",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tests_run": 36
+}

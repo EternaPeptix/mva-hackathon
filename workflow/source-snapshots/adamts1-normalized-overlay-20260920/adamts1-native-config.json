@@ -1,0 +1,123 @@
+{
+  "base_quality_thresholds": [
+    20,
+    30
+  ],
+  "caller_sources": [
+    {
+      "caller": "gatk",
+      "expected_records": 86382,
+      "expected_rendered_record_payload_sha256": "97e9a0ca1b596b2007a4ef5fe64402d923d154333e921a59493129a207d289af",
+      "input": "gatk_chr21"
+    },
+    {
+      "caller": "bcftools",
+      "expected_records": 84857,
+      "expected_rendered_record_payload_sha256": "0de5c9ce5cdcba5a564e6065b7e65f6bcb2489584447949e2588f1b26e7b45fd",
+      "input": "bcftools_chr21"
+    }
+  ],
+  "expected_read_groups": 4,
+  "inputs": {
+    "alignment": {
+      "bytes": 26879379800,
+      "path": "align/gatk-compatible-cram30-20260920/WGS_EX2312012.cram",
+      "sha256": "c3ef27cc9bde0010da9d6e872f88d52b542cbb435ee1d6f85f7f88509ce6f26b"
+    },
+    "alignment_index": {
+      "bytes": 1803542,
+      "path": "align/gatk-compatible-cram30-20260920/WGS_EX2312012.cram.crai",
+      "sha256": "4c04806b8ffe3a5dcf48599385b221e4688430cb6843d09cd357cddf5fd6a692"
+    },
+    "bcftools": {
+      "bytes": 1175568,
+      "path": "tools/bio/bin/bcftools",
+      "sha256": "c427681749daabb97be4a010c31c6b24349aaea6abc7bea27d6ce9126874b260"
+    },
+    "bcftools_chr21": {
+      "bytes": 3905488,
+      "path": "calls/from-fastq-cram30-20260920/shard-0020/attempt-1789917371113708000/bcftools.raw.bcf",
+      "sha256": "c306f08b8e1b278c4b59c6171343ba3b3b337ae5d9b9196c1a32d6be54fb5cdd"
+    },
+    "gatk_chr21": {
+      "bytes": 4118739,
+      "path": "calls/from-fastq-cram30-20260920/shard-0020/attempt-1789917371113708000/gatk.raw.vcf.gz",
+      "sha256": "6254b6c504f274f983a97ceb9862aaec45fea2eb1916d1a45b3cefa02634af13"
+    },
+    "gff": {
+      "bytes": 108211474,
+      "path": "ref/baseline-20260919/Homo_sapiens.GRCh38.116.chr.gff3.gz",
+      "sha256": "0857407b4a8be8792089a69fd961737256fb7129b6b799f8a8920ebea4fb134f"
+    },
+    "preparation": {
+      "bytes": 12745,
+      "path": "methods/adamts1-joint-review-20260920/PREPARATION.md",
+      "sha256": "dab3ee5e5a82fc1b794ab1d54e08b288d7a76e38605e9b046830e3dfb4ed7f86"
+    },
+    "reference": {
+      "bytes": 3150144669,
+      "path": "ref/realignment/GRCh38_nochr.fa",
+      "sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6"
+    },
+    "reference_index": {
+      "bytes": 115406,
+      "path": "ref/realignment/GRCh38_nochr.fa.fai",
+      "sha256": "d81f672f40cfabf2510f37e3f790f2c79665023f4ac950bb9cc6496a40cebf32"
+    },
+    "regional_census": {
+      "bytes": 313696,
+      "path": "results/native-coding-autosomes-20260920/bounded-summary.json",
+      "sha256": "d706c5060a6f282154673def932906a54c6a77e80db85ee49e8befab6a83e83d"
+    },
+    "samtools": {
+      "bytes": 777952,
+      "path": "tools/bio/bin/samtools",
+      "sha256": "7518cbb230a35393d7d3a9f02fc8b4519e4a37b5a17fbed06b9752ca1d962a91"
+    }
+  },
+  "limitations": [
+    "Hypotheses include every concrete native ALT in each caller separately, irrespective of genotype participation; no REF genotype inferred from empty caller records.",
+    "Equivalent sequence lineages share one observed fragment count. Rejected overlapping source edits and nonconcrete/window-crossing context remain explicit.",
+    "Nested windows and quality sensitivities reuse original fragments and are not independent experiments.",
+    "Preserve the full selected core; geometry-censored lack of spanning reads is not reference or absence evidence.",
+    "State cap 256 is an explicit engineering guard; no hypothesis is dropped to fit the cap.",
+    "The raw-REF panel omits the nonconcrete star but retains the full source GT1/2, ALT2 identity and PL; its raw-overlap exclusions do not replace the separately predeclared normalized-composition overlay."
+  ],
+  "mapping_quality_thresholds": [
+    0,
+    20,
+    60
+  ],
+  "maximum_haplotype_bases": 100000,
+  "maximum_hypothesis_states": 256,
+  "raw_base_qualities_no_BAQ": true,
+  "sample": "WGS_EX2312012",
+  "schema_version": 1,
+  "scope": "Predeclared ADAMTS1 full-native-context sequence hypotheses and original fragment review; preserve spanning-star native genotype; no genotyper, causal probability or parental phase.",
+  "source_sha256": {
+    "joint_haplotype_helpers.py": "0edf1f484bbe2b5009b31f5f0205a96e617b11d1d0677c6e3bb0b59eed06363e",
+    "native_coding_records.py": "c395dd130a2577e7b25ba0ac62d600d7cb64c9240f3eb218536eff22c5c44cfe",
+    "review_joint_haplotypes.py": "39e2e566bcc1dc0938b1b4318e8a3aeb045c51fe175245d9dfaa110206732416"
+  },
+  "targets": [
+    {
+      "chrom": "21",
+      "core_end0": 26844310,
+      "core_start0": 26844272,
+      "id": "ADAMTS1",
+      "required_source_record_ids": [
+        "gatk:6254b6c504f274f983a97ceb9862aaec45fea2eb1916d1a45b3cefa02634af13:50267",
+        "gatk:6254b6c504f274f983a97ceb9862aaec45fea2eb1916d1a45b3cefa02634af13:50268",
+        "gatk:6254b6c504f274f983a97ceb9862aaec45fea2eb1916d1a45b3cefa02634af13:50269",
+        "bcftools:c306f08b8e1b278c4b59c6171343ba3b3b337ae5d9b9196c1a32d6be54fb5cdd:47869",
+        "bcftools:c306f08b8e1b278c4b59c6171343ba3b3b337ae5d9b9196c1a32d6be54fb5cdd:47870",
+        "bcftools:c306f08b8e1b278c4b59c6171343ba3b3b337ae5d9b9196c1a32d6be54fb5cdd:47871"
+      ]
+    }
+  ],
+  "window_flanks_bp": [
+    3,
+    10,
+    25
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "expected_genes": 84,
+  "fixture_only": false,
+  "inputs": {
+    "autosome_verification": {
+      "bytes": 176800,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/native-coding-autosomes-20260920/verification/verification.json",
+      "sha256": "e20d8eb85f9df23c7e9b29ff2f243b05b47a499e736e24af9fc1babab987b4a8"
+    },
+    "bcftools": {
+      "bytes": 1175568,
+      "path": "/Users/jeweled/Documents/mva-hackathon/tools/bio/bin/bcftools",
+      "sha256": "c427681749daabb97be4a010c31c6b24349aaea6abc7bea27d6ce9126874b260"
+    },
+    "clinvar": {
+      "bytes": 193709143,
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/secondary-20260919/clinvar_20260913.vcf.gz",
+      "sha256": "47ea3626cd90154d82304afe3b8f717aab2557a1330f4ea2c809892386e08d49"
+    },
+    "clinvar_index": {
+      "bytes": 610729,
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/secondary-20260919/clinvar_20260913.vcf.gz.tbi",
+      "sha256": "b220738d2c086062f136600cdd31a95bec54586890cb7d92868ad78bdc632c03"
+    },
+    "fixed_xy_review": {
+      "bytes": 3840,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/fixed-ploidy-review-20260920/summary.json",
+      "sha256": "676009d2cff721795470c81140ec579db495cf672a9bfbe2108218fe2bc3e856"
+    },
+    "fixed_xy_status": {
+      "bytes": 6709,
+      "path": "/Users/jeweled/Documents/mva-hackathon/calls/fixed-ploidy-sex-20260920/status.json",
+      "sha256": "2f3fef29da670d15099582d72c22d7b7a82df0f2061ff0a6d3d02b7be277ba37"
+    },
+    "fixed_xy_verification": {
+      "bytes": 3567,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/fixed-ploidy-review-20260920/verification.json",
+      "sha256": "3fd31a9b83ac4db60f3d3d4895a04d2a5efa302b195a586ab03ad16038af2737"
+    },
+    "handoff": {
+      "bytes": 243288,
+      "path": "/Users/jeweled/Documents/mva-hackathon/results/native-coding-autosomes-20260920/handoff/summary.json",
+      "sha256": "976c0afa517780b5d17688d566da95bba518d06b11b3947c6a7663d9b5826883"
+    },
+    "panel": {
+      "bytes": 54071,
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/secondary-20260919/clingen-acmgsf.json",
+      "sha256": "8089748ab8645336eedab56e4f548f7c902e2f7d163fa3a559b49c9fbd93151d"
+    },
+    "reference": {
+      "bytes": 3150144669,
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/realignment/GRCh38_nochr.fa",
+      "sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6"
+    },
+    "reference_index": {
+      "bytes": 115406,
+      "path": "/Users/jeweled/Documents/mva-hackathon/ref/realignment/GRCh38_nochr.fa.fai",
+      "sha256": "d81f672f40cfabf2510f37e3f790f2c79665023f4ac950bb9cc6496a40cebf32"
+    }
+  },
+  "preparation_note": "Root authorized one corrected actual review-v2 on 512S2 using immutable v5 qualified source after successful public-only preflight-v2. Keep strict corrected metadata and frozen source bytes; dedicated new output; same 90 min, 16 GiB RSS, 20 GiB output, minimum 40 GiB free guard; preserve caller 79898 and unrelated workloads; no automatic retry or scope reduction.",
+  "public_snapshot": {
+    "clinvar_fileDate": "2026-09-13",
+    "clinvar_resource_filename": "clinvar_20260913.vcf.gz",
+    "clinvar_snapshot_label": "20260913",
+    "panel": "ACMG SF v3.3 / frozen ClinGen snapshot retrieved2026-09-19"
+  },
+  "quality_policy": "descriptive_native_axes_no_eligibility_gate",
+  "ready": true,
+  "root": "/Users/jeweled/Documents/mva-hackathon",
+  "sample": "WGS_EX2312012",
+  "schema_version": 1
+}
