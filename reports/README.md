@@ -18,6 +18,24 @@ The [pitch document](jeweled_track2_pitch_reconciled.md) contains a proposed tex
 
 Claude Code and Codex used personal subscriptions with training on the user's content disabled, as confirmed by the user. Cartesia plan/tier and training/retention settings remain unverified and are disclosed separately.
 
+## Standalone report files
+
+The reports above use relative links for browsing this repository. For a separate
+Markdown upload, export the two reports, methods answers and unchanged prediction
+CSV from a committed revision:
+
+```sh
+python3 workflow/scripts/export_submission_reports.py ../mva-submission-ready
+```
+
+Run from the repository root and choose a new directory outside the checkout.
+The exporter reads committed `HEAD` by default (`--revision` selects another
+commit), changes relative file links to GitHub links pinned to that revision,
+and adds a source header. Report prose and external citations are preserved;
+the CSV is copied byte for byte. Uncommitted edits are not exported. The command
+does not upload files, change repository visibility or grant access to private
+links. The current pitch recording still needs reconciliation before submission.
+
 ## Methods and retained appendices
 
 The [public benchmark method](../workflow/docs/PUBLIC-BENCHMARK-METHOD.md) states the HG002 chromosome-20 scope, measured coverage, confident-region evaluation and separate SNV/indel results. A fresh full Mac Studio replay reproduced the primary counts and audit in 134.3 minutes; [reproduction documentation](../REPRODUCIBILITY.md) distinguishes that executed source from later launcher safeguards and limited Linux checks. Historical case runs still require authorized data and their recorded prerequisites.

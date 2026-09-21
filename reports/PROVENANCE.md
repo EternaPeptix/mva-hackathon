@@ -17,6 +17,14 @@ temsirolimus RMS trials from direct everolimus combination and abstract-only
 monotherapy reports. These public clinical sources refine the treatment-compatibility
 question; they add no case observation or assumed cancer protection.
 
+The confirmatory design permits benefit in either functional cohort while
+requiring preservation of the other cohort, progenitor renewal and chromosome
+fidelity. Its four possible drug-by-cohort claims receive a prespecified
+multiple-comparison rule. This clarifies the future decision, not an observed
+response. Standalone Markdown exports preserve report prose and the prediction
+CSV while resolving repository links to the exact exported commit; they do not
+change the repository's access or delivery status.
+
 The [public mouse RNA reanalysis](../workflow/track2-rna/README.md) adds measured
 public-count evidence, source/download identities, a replayable statistical
 pipeline, complete result tables and figures. GSE134781 contains different mouse

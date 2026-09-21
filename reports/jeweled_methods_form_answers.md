@@ -148,6 +148,15 @@ Genetic correction and controlled actual-allele expression tests determine wheth
 
 Niacin tests a NAD/SIRT2-to-usable-BUBR1 hypothesis; everolimus tests partial mTORC1 normalization. Restoration requires relevant protein/function evidence, whereas downstream benefit may occur without correcting the initiating segregation defect. Both must improve useful absolute output without unacceptable renewal loss or worsened fidelity. A benefit without the proposed causal dependence is retained but reclassified. Genomic EPCR 0.8 is not a probability of drug benefit.
 
+Either functional cohort can establish meaningful benefit if the other cohort,
+renewable progenitor reserve and fidelity meet predeclared preservation margins.
+The four drug-by-benefit-cohort claims form one confirmation family, with one
+fixed regimen per drug. Each claim requires all benefit/preservation components;
+the largest component P value is tested using Holm correction across four claims.
+Pilot selection and independent confirmation remain separate; the [analysis rule](appendices/track2-evidence-pipeline.md#confirmatory-benefit-rule)
+defines the scope and prevents additional doses or time points from becoming
+unadjusted opportunities for success.
+
 ### Please provide an estimate of time or effort spent on this analysis (if possible).
 
 No consolidated person-hour or cost ledger was measured. Work comprised computational interpretation and sequence reconstruction, assumption-based population simulations on a Mac Studio, primary-source comparison, exposure/oncology appraisal and report/pitch preparation. Public mouse count reanalysis also ran on a Mac Studio. No laboratory execution has occurred. Assay-capacity scenarios and simulation runtimes are not measured laboratory throughput or power.
@@ -158,7 +167,7 @@ We propose everolimus as the lead drug hypothesis and niacin (nicotinic acid) as
 
 Model qualification establishes endogenous RNA/protein, phase where possible, allele function, signaling and reproducible tissue defects with genetic controls. Abundance-matched allele studies distinguish quantity from function per molecule. Niacin experiments qualify precursor utilization and NAD/SIRT2/BUBR1 dependence. Partial genetic mTORC1 normalization tests pathway causality before attributing drug benefit to that pathway. Drug experiments use measured, pharmacologically justified exposures; genetic results cannot be transferred to a medication.
 
-The shared comparison measures absolute muscle output, productive progenitor yield and chromosome fidelity. Death, arrest, division time and tracking loss prevent selective loss or slowed cycling from masquerading as rescue. A downstream intervention need not repair the primary mitotic defect, but must not worsen fidelity or exhaust renewal. Mature-muscle function and progenitor replacement are measured separately. Independent confirmation, withdrawal follow-up, prespecified margins and relevant tumor/regimen review follow useful functional results.
+The shared comparison measures absolute muscle output, productive progenitor yield and chromosome fidelity. Death, arrest, division time and tracking loss prevent selective loss or slowed cycling from masquerading as rescue. A downstream intervention need not repair the primary mitotic defect, but must not worsen fidelity or exhaust renewal. Mature-muscle function and progenitor replacement are measured separately; either can supply benefit if the other is preserved. Four joint benefit/preservation claims undergo multiplicity correction. Independent confirmation, withdrawal follow-up, prespecified margins and relevant tumor/regimen review follow useful functional results.
 
 Arimoclomol is a restoration reserve requiring exposure-qualified mutant-function rescue. Dasatinib is a senolytic reserve requiring harmful burden, selective susceptibility and increased absolute output; it cannot inherit genetic clearance or D+Q combination results.
 

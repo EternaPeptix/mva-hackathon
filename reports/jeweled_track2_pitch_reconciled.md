@@ -18,7 +18,7 @@ Our main comparator is niacin, the nicotinic-acid medicine. Human muscle studies
 
 ### Measure benefit without hiding losses
 
-The comparison distinguishes useful muscle gain despite persistent segregation defects from restoration that reduces new errors. Both drugs must improve absolute muscle output while preserving renewal and avoiding worse chromosome fidelity. Genetically controlled models and measured exposure connect the response to the proposed mechanism. Death, arrest and lost lineages stay in the accounting; a restoration claim additionally requires the corresponding BUBR1 evidence.
+The comparison distinguishes useful muscle gain despite persistent segregation defects from restoration that reduces new errors. Either drug can advance by improving one muscle cohort while preserving the other, renewal and chromosome fidelity. Genetically controlled models and measured exposure connect the response to the proposed mechanism. Death, arrest and lost lineages stay in the accounting; a restoration claim additionally requires the corresponding BUBR1 evidence.
 
 ### Use computation for what it can establish
 

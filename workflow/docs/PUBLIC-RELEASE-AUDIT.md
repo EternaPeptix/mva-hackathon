@@ -141,3 +141,10 @@ muscle-atrophy/failure-to-thrive findings, adds an explicit everolimus/arimoclom
 comparison, and summarizes four public RMS clinical sources in the governing
 pipeline. This adds no new case payload or treatment recommendation. The original
 oncology appendix remains dated method detail; the approved narration is unchanged.
+
+The subsequent decision-rule and export revision specifies the four prospective
+drug-by-cohort claims and their joint benefit/preservation requirements. A bounded
+exporter reads only the three committed report/methods files and existing prediction
+CSV, converting local report links into commit-pinned repository URLs. It does not
+include raw data or expand the selected findings. Its outputs remain private review
+drafts; file preparation does not authorize submission, media work or public release.

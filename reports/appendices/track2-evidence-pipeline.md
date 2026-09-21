@@ -67,7 +67,7 @@ flowchart TD
 
 Verify genotype/phase where possible, RNA/splicing, allele-specific expression,
 full-length versus truncated BUBR1, localization and baseline chromosome state.
-Use affected, genetically corrected, parental and sham controls, retaining
+Use affected, genetically corrected, parental cell line and sham controls, retaining
 independent editing-family and preparation identities. Relevant myogenic models
 must have a reproducible functional deficit before a muscle-rescue claim is tested.
 Failure to generate a mature model is a feasibility failure; a negative fibroblast
@@ -234,6 +234,12 @@ within the qualified exposure, duration, tissue and genotype tested.
 
 The common advancement criterion is useful absolute muscle output with preserved
 renewal and no worse chromosome fidelity against the prespecified comparison.
+**Either cohort may supply the meaningful functional benefit, while output in the
+other cohort, renewable progenitor reserve and fidelity must meet their preservation
+margins.** Both cohorts need not improve. This symmetric rule allows mature-muscle
+benefit without greater replacement, or greater progenitor-derived output without
+greater established-muscle force; it does not allow one benefit to cancel harm
+elsewhere. Cohort outputs remain separate rather than being pooled into a score.
 Freeze useful-benefit and acceptable-loss boundaries prospectively; a nonsignificant
 difference is not proof of preservation. A claim of BUBR1 restoration additionally
 requires relevant BUBR1-dependent functional and fidelity evidence. Downstream
@@ -292,6 +298,39 @@ missing-data/exclusion rules and multiplicity policy. Biological preparations ar
 replicates; cells and repeated images are nested observations. Require uncertainty
 intervals to meet the benefit/preservation margins; nonsignificant harm is not
 evidence of preserved reserve. Cell counts or simulations cannot set sample size.
+
+### Confirmatory benefit rule
+
+For one qualified genotype/model, freeze one exposure regimen per drug and one
+primary endpoint/time per functional cohort before independent confirmation.
+The four possible claims are everolimus or niacin benefit in progenitor-derived
+output or established-muscle output. Each claim jointly requires improvement
+beyond the chosen useful-benefit margin and preservation of the other cohort,
+renewable progenitor reserve and chromosome fidelity. The latter comparisons use
+predeclared acceptable-loss margins, not a failure to detect harm.
+
+Use valid one-sided component tests at the independent preparation/editing-family
+level, retaining pairing and nesting. For a joint claim, take the largest component
+P value (the intersection–union rule: every required component must pass). Apply
+Holm's step-down correction across the four joint-claim P values at family-wise
+alpha 0.05. This controls false advancement opportunities without requiring an
+arbitrary advantage for one mechanism. Report component effect estimates and
+intervals with their adjustment status; the rule does not confer simultaneous
+coverage on every displayed interval. [Endpoint logic and Holm procedure](https://www.fda.gov/media/162416/download),
+[intersection–union methodology](https://doi.org/10.1016/j.jspi.2007.03.021).
+
+Passing for one drug and not the other is not proof of a between-drug difference;
+a superiority claim needs its own prespecified direct comparison.
+
+Pilot observations select assay times, margins, exposure and an attainable
+independent replication plan; they do not also serve as confirmatory evidence.
+Retain an untested or uninterpretable claim as nonpassing in the four-claim family
+rather than dropping it to ease the threshold. Additional confirmatory doses,
+schedules, genotypes or endpoint times require an expanded prespecified family or
+a separate independent study. Mechanistic attribution and tumor compatibility
+remain separate required assessments; a functional claim supplies neither by
+itself. These are prospective ex-vivo analysis choices, not clinical-trial results
+or a claim of regulatory endorsement.
 
 ### Rhabdomyosarcoma evidence and treatment compatibility
 

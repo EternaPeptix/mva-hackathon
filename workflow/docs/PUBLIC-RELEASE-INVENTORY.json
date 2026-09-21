@@ -12940,8 +12940,8 @@
   ],
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
-    "reviewed_at_utc": "2026-09-21T16:42:02.392442+00:00",
-    "scope": "69 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
+    "reviewed_at_utc": "2026-09-21T16:55:07.111203+00:00",
+    "scope": "70 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12954,7 +12954,7 @@
       "original_audit_bytes_sha256": "7fae846b1a22b88b05096372fa4fbbd9bbca7f27e23f725a2ff32ad1b6a2644b",
       "all_original_fields_unchanged": true
     },
-    "reviewed_payload_count": 69,
+    "reviewed_payload_count": 70,
     "report_tree_files": 22,
     "reviewed_files": [
       {
@@ -12995,8 +12995,8 @@
       },
       {
         "path": "reports/PROVENANCE.md",
-        "bytes": 9020,
-        "sha256": "332526efdd00a047e38f3d7571a53488031ae19c924aab8fd754bdf5b1e28625",
+        "bytes": 9533,
+        "sha256": "611a72f1a5ba74225e3f0fa17f14affb684f62f114f998a600bced8d6a7a873f",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13004,8 +13004,8 @@
       },
       {
         "path": "reports/README.md",
-        "bytes": 5937,
-        "sha256": "842effd01f6e19436b1e13a6dfd022a8252104768117400c41c0202c49f23915",
+        "bytes": 6802,
+        "sha256": "c712d0226e5b955729a85eef089784a5a997ef89606767cca05785416e486038",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13130,8 +13130,8 @@
       },
       {
         "path": "reports/appendices/track2-evidence-pipeline.md",
-        "bytes": 29512,
-        "sha256": "a76632a1bbc8f635bd0ee0f6616f7a9bb308241e9882ab5f901825d12ec09866",
+        "bytes": 32170,
+        "sha256": "14bf904161d8a010fc75f3e280fed0b8f6573dbe207332cac4f65a747be5cf35",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13157,8 +13157,8 @@
       },
       {
         "path": "reports/jeweled_methods_form_answers.md",
-        "bytes": 24761,
-        "sha256": "93f7d97b82c0fdccecaf0d77b18e8b1e19b7872ed0abf8adc7a71523d87c43d4",
+        "bytes": 25551,
+        "sha256": "de73acf06055b0b440d977eca61a7a1bda4d83242e39b2d4c05a493d2999238e",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13175,8 +13175,8 @@
       },
       {
         "path": "reports/jeweled_track2_pitch_reconciled.md",
-        "bytes": 6984,
-        "sha256": "093bbffb1673ded9ad7aea7bcb287d67495d2a85b7f4fe4a0e4f8377c204b13f",
+        "bytes": 6988,
+        "sha256": "05a9ee2b16d2f2f2eff064d25f5586954de9de38855fcc6bb8a7764e3fb69eb6",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13184,8 +13184,8 @@
       },
       {
         "path": "reports/jeweled_track2_report_submission.md",
-        "bytes": 24790,
-        "sha256": "3ad696fd4f6ce7446cafcaf97264864ee84800c8871fbbf0c5e925c389f97eef",
+        "bytes": 25290,
+        "sha256": "8c266ac04b7984ab8381eb41edb00e30ca792521ebceb90819f59dbf27d1f832",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13289,6 +13289,15 @@
         "decision": "keep",
         "category": "public_replay_source",
         "grounds": "Reusable source, public HG002/reference/truth profile, public locks or documentation; no controlled case input or credential-bearing URL."
+      },
+      {
+        "path": "workflow/scripts/export_submission_reports.py",
+        "bytes": 9368,
+        "sha256": "4f221018d56cd86a0c1cef2b3ea4353ff0285d70c4d161734e43dbffc49d90c5",
+        "mode": 420,
+        "decision": "keep",
+        "category": "submission_export_source",
+        "grounds": "Stdlib-only local export of three committed report/methods texts and the unchanged existing prediction CSV. Converts relative file links to commit-pinned GitHub URLs; no uploads, private payload discovery or visibility change."
       },
       {
         "path": "workflow/track2-model/README.md",
@@ -13792,7 +13801,7 @@
       "replay": "Fresh source downloads and execution on Mac Studio matched all scientific tables exactly."
     },
     "track2_restoration_followup": {
-      "reviewed_at_utc": "2026-09-21T16:42:02.392442+00:00",
+      "reviewed_at_utc": "2026-09-21T16:55:07.111203+00:00",
       "modified_paths": [
         "README.md",
         "reports/PROVENANCE.md",
@@ -13803,12 +13812,13 @@
         "reports/jeweled_track2_report_submission.md",
         "results/INDEX.md",
         "workflow/docs/PUBLIC-RELEASE-AUDIT.md",
+        "workflow/scripts/export_submission_reports.py",
         "workflow/track2-model/README.md",
         "workflow/track2-rna/README.md"
       ],
-      "scope": "Retain everolimus as narrow submission lead and niacin as primary comparator, tested separately. Connect recorded muscle atrophy and failure to thrive to absolute function and renewal. Explain the limited everolimus advantage over arimoclomol, distinguish temsirolimus RMS trials from direct everolimus reports, and refine candidate-specific oncology compatibility. Improve navigation, contribution statement and proposed narration; preserve established scientific scope.",
-      "verification": "Independent scientific review found no material issues in the head-to-head rationale, genotype/muscle scope or four-source RMS table. Relative links and anchors resolve; methods remain unchanged, including all 22 questions and the 323-word Track 2 abstract. Proposed spoken narration is 308 words; the entire approved narration tail is unchanged. Computational code/results and media are unchanged; no new biological experiment or efficacy claim.",
-      "decision": "Keep within existing private draft; public literature and already included case findings only. No new case payload, media, competition submission or public release."
+      "scope": "Retain the selected everolimus/niacin hypotheses and qualified reserves. Explicitly allow meaningful benefit in either muscle cohort with preservation of the other, progenitor renewal and fidelity. Prespecify four joint claims with intersection-union testing and Holm correction, fixed regimens and independent confirmation. Prepare standalone report copies with commit-pinned links and the unchanged CSV; preserve repository-relative navigation.",
+      "verification": "Independent Track 1 and Track 2 content audits found no further material scientific defects. New confirmatory decision rule passed independent statistical review. All 22 methods headings and the Track 1 prefix are preserved; Track 2 abstract is 339 words and proposed spoken narration is 310 words. Entire approved narration tail, prediction CSV, computational results and media are unchanged. Exporter verified on committed inputs for exact prose/CSV preservation, link conversion and bounded refusal behavior; final delivery exports must identify their actual committed revision.",
+      "decision": "Keep within existing private draft. No new case payload, biological result, recording, public release or competition submission."
     }
   }
 }

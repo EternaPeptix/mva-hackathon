@@ -160,8 +160,11 @@ Use two functional cohorts. Follow progenitors through productive divisions,
 differentiation and replacement, measuring absolute contractile output per starting
 cohort. Separately measure established mature-muscle force and repeated-stimulation
 performance from its pretreatment cohort. Area-normalized force, fusion percentages
-and survivor fractions are secondary. A mature-muscle gain with unacceptable
-replacement loss fails advancement.
+and survivor fractions are secondary. **Meaningful improvement in either cohort
+can support advancement, provided output in the other cohort, progenitor renewal
+and chromosome fidelity meet the prespecified preservation margins.** Improvement
+in both cohorts is not required; benefit in one cannot offset unacceptable loss
+in the other. This rule applies equally to both drugs.
 
 Retain death, arrest, non-entry, division time, clone expansion and tracking loss.
 The [founder ledger](appendices/founder-ledger.md) detects selection; it is not an
@@ -181,6 +184,9 @@ karyotypes. Verify chromosome outcomes independently.
 Randomize and mask within independent preparation/editing families. After a pilot,
 freeze useful-effect, allowable-loss, missing-data and multiplicity rules before
 confirmation; cells and images are nested observations, not independent replicates.
+The four possible drug-by-benefit-cohort claims form one confirmatory family;
+each claim requires both benefit and preservation. The pipeline specifies the
+multiple-comparison rule and freezes one regimen per drug before confirmation.
 A resolved negative requires adequate precision and applies only to the tested
 implementation, tissue, genotype, exposure and duration. The [governing pipeline](appendices/track2-evidence-pipeline.md)
 specifies these future stages; missing laboratory evidence does not defer the
