@@ -3,6 +3,9 @@
 Team **jeweled** focuses on the case's [recorded muscle atrophy and failure to thrive](workflow/configs/lirical-subject.json):
 could a gene-informed medication hypothesis preserve muscle function and the cells that renew it?
 
+**[Review the current Track 2 package](reports/REVIEW.md):** report, route comparison,
+new Skylar video, editable slides and the clean-state reviewer assessment.
+
 - **[Track 1: candidate and evidence](reports/jeweled_track1_report_submission.md).**
   BUB1B **p.(Leu737Ter) + p.(Asn1002Lys)**, at subjective **EPCR 0.8**.
   Phase is unresolved and the missense remains VUS.

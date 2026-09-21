@@ -184,3 +184,14 @@ locally for human review; binary media are not included in this source revision.
 Cartesia Free-plan status is verified, while its training/retention settings remain
 unverified. Track 1 upload bytes and its methods prefix are preserved. Public upload,
 Track 2 submission and later host cleanup remain separate pending actions.
+
+### Private repository review package
+
+At the user's request, the repository now includes the unchanged Skylar MP4,
+editable PPTX, SRT captions and source storyboard, plus the clean-state AI rescore
+and a review landing page. Media contain the same curated report-level findings,
+conceptual artwork and synthetic narration; they add no raw case data or new
+biological measurement. A separate packaging check found no local-path or
+credential-like content in the media/review payloads. These are private review
+copies, with human approval, public video publication and Track 2 submission still
+pending. The rescore identifies its assessed revision and is not an official score.

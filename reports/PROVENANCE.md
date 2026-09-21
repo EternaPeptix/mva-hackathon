@@ -1,6 +1,6 @@
 # Report provenance and scope
 
-**Review revision: 21 September 2026.** This directory brings the revised research reports, methods answers, prediction CSV, new Skylar pitch text into one browsable checkout. The update retains the genome-informed sequence/population analysis and selects everolimus as the lead drug hypothesis and niacin as the primary comparator after comparative evidence review. The repository remains private. Track 1 model 1 now has a confirmed automated score; the [submission record](README.md#track-1-submission-record) identifies the exact upload and pending final report-persistence verification. Track 2 remains a draft; no public repository release has occurred. The public HG002 depth measurement, sequence reconstruction and assumption-based simulations are distinct from patient experiments; no patient drug-response result is available.
+**Review revision: 21 September 2026.** This directory brings the revised research reports, methods answers, prediction CSV and new Skylar pitch materials into one browsable checkout. The update retains the genome-informed sequence/population analysis and selects everolimus as the lead drug hypothesis and niacin as the primary comparator after comparative evidence review. The repository remains private. Track 1 model 1 now has a confirmed automated score; the [submission record](README.md#track-1-submission-record) identifies the exact upload and pending final report-persistence verification. Track 2 remains a draft; no public repository release has occurred. The public HG002 depth measurement, sequence reconstruction and assumption-based simulations are distinct from patient experiments; no patient drug-response result is available.
 
 ## Evidence scope
 
@@ -32,7 +32,7 @@ summary names identify the recovery sources without implying they are included.
 The supplied-VCF rankings, earlier two-lane phasing and final four-lane reviews
 are explicitly separated. The CSV, EPCR and classifications are unchanged.
 
-The pitch document now contains the new eight-slide everolimus/niacin narrative. It supersedes the historical Lauren arimoclomol/NAC recording as the proposed submission pitch. The new recording is prepared locally for human review; neither review approval nor public upload is claimed.
+The pitch document now contains the new eight-slide everolimus/niacin narrative. It supersedes the historical Lauren arimoclomol/NAC recording as the proposed submission pitch. The recording, editable deck, captions and spoken storyboard are included unchanged in the [review package](REVIEW.md); neither review approval nor public upload is claimed.
 
 The current opening connects the already recorded muscle atrophy and failure to
 thrive to the proposed functional endpoint. The report explicitly compares
@@ -81,7 +81,14 @@ The retained appendices describe their original dates and analysis scopes. State
 
 ## Media and AI disclosure
 
-The former [private Lauren release](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) is archived and superseded as the proposed submission pitch. The [new pitch](jeweled_track2_pitch_reconciled.md) accompanies eight new slides and a three-minute Skylar recording, prepared locally for human review. New public upload and Track 2 submission remain pending. No raw case files were sent to the narration service; it received the disclosed pitch text.
+The former [private Lauren release](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) is archived and superseded as the proposed submission pitch. The [new pitch](jeweled_track2_pitch_reconciled.md) accompanies eight new slides and a three-minute Skylar recording, now included in this private repository for human review. New public upload and Track 2 submission remain pending. No raw case files were sent to the narration service; it received the disclosed pitch text.
+
+The [clean-state rescore](reviews/track2-clean-state-20260921.md) is an AI reviewer
+assessment of revision `3bae97436b6767bbbcfa04e1ddcd5fa23e4598b7` and the identified
+media. The imported review retains its original wording and artifact identities.
+The scientific report, experimental plan, route table, methods and pitch remain
+unchanged in this packaging update. The reviewer score is neither an organizer
+score nor a measurement of clinical validity.
 
 Claude Code and Codex were used on personal subscriptions with training on the user's content disabled, according to the user. Exact historical model/plan names are unverified. Candidate-level evidence and report text were reviewed with hosted assistants. Cartesia Sonic 3.6 supplies stock-Skylar narration on the Free plan, verified on 21 September 2026; no voice was cloned. Cartesia training/retention settings and an immutable model snapshot remain unverified. The Claude/Codex confirmation does not establish Cartesia settings. The cover illustration was generated with the OpenAI image-generation tool through Codex and is conceptual artwork, not a biological observation.
 

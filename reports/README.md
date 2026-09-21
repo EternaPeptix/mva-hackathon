@@ -2,6 +2,9 @@
 
 **Revised 21 September 2026.** Track 1 model 1 has a confirmed automated score; its final report-persistence check is pending as detailed below. Track 2 remains a review draft. No clinical sign-out has occurred. The repository remains private; the new Skylar pitch awaits human review before public upload.
 
+**[Open the Track 2 review package](REVIEW.md)** for the current report, evidence,
+new video, editable slides, captions and clean-state reviewer assessment.
+
 ## Track 1 submission record
 
 On **21 September 2026 at 17:41 UTC**, account/team **jeweled** sent one Track 1
@@ -38,9 +41,13 @@ The completed [public mouse RNA analysis](../workflow/track2-rna/README.md) did 
 
 ## Pitch and delivery
 
-The [current pitch](jeweled_track2_pitch_reconciled.md) is a new eight-slide, three-minute Skylar recording for the everolimus/niacin comparison. It replaces the earlier Lauren arimoclomol/NAC version as the proposed submission video. The old private release is archival. The new deck, movie and captions are prepared locally for human review; no new public video upload or Track 2 submission is claimed.
+The [current pitch](jeweled_track2_pitch_reconciled.md) is a new eight-slide, three-minute Skylar recording for the everolimus/niacin comparison. It replaces the earlier Lauren arimoclomol/NAC version as the proposed submission video. The old private release is archival. The new [movie](media/jeweled_track2_skylar.mp4), [editable deck](media/jeweled_track2_slides.pptx) and [captions](media/jeweled_track2_skylar.srt) are included here for human review. No new public video upload or Track 2 submission is claimed.
 
 The [route decisions](appendices/track2-route-decisions.md) compare the alternatives and specify the result that would change each decision. A fresh reviewer with no conversation context checked the report and pitch against the official rubric. The revised main report explains the proposal in plain language; detailed experimental and source qualifications remain in appendices.
+
+A subsequent [clean-state rescore](reviews/track2-clean-state-20260921.md) assessed
+the corrected artifacts without seeing earlier reviews or scores. It is an
+unofficial assessment, separate from the initial reviewer's correction check.
 
 Claude Code and Codex used personal subscriptions with training disabled, as confirmed by the user. Cartesia Sonic 3.6/Skylar uses the Free plan, verified on 21 September; its training/retention settings remain unverified. The cover is an AI-generated conceptual illustration.
 

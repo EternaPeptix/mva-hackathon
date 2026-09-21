@@ -1,0 +1,85 @@
+{
+  "title": "Preserving muscle in MVA",
+  "team": "EternaPeptix / jeweled",
+  "status": "Human review draft; no Track 2 submission or public video upload",
+  "voice": "Skylar",
+  "voice_id": "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4",
+  "slides": [
+    {
+      "id": "purpose",
+      "title": "Preserving muscle\nin MVA",
+      "narration": "This child has muscle wasting and mosaic variegated aneuploidy, a condition in which cells can carry different numbers of chromosomes. Our question is whether an existing medicine could improve muscle function while preserving the cells needed for growth and repair. We propose two medicines for laboratory testing.",
+      "sources": [
+        "reports/jeweled_track2_report_submission.md",
+        "reports/appendices/track1-case-evidence.md"
+      ]
+    },
+    {
+      "id": "genotype",
+      "title": "The gene points to a cell-division problem",
+      "narration": "Our leading genetic explanation involves Bub one B, the gene that makes the chromosome-checking protein Bub R one. One change creates an early stop. The other changes one amino acid. We still need to establish whether they occupy opposite gene copies, and whether the altered protein retains useful function.",
+      "sources": [
+        "reports/appendices/track1-case-evidence.md",
+        "https://pubmed.ncbi.nlm.nih.gov/20516114/",
+        "https://pubmed.ncbi.nlm.nih.gov/33207204/"
+      ]
+    },
+    {
+      "id": "everolimus",
+      "title": "Everolimus tests excess growth signaling",
+      "narration": "Our first hypothesis is everolimus. It inhibits em tor complex one, a pathway that regulates cell growth. Its established target and pediatric use make it practical to investigate. A different Bub one B mouse model showed increased pathway activity, but tested no drug rescue. We must establish harmful excess signaling and useful muscle benefit.",
+      "sources": [
+        "https://www.jci.org/articles/view/126863/version/2",
+        "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04",
+        "reports/appendices/track2-evidence-pipeline.md"
+      ]
+    },
+    {
+      "id": "niacin",
+      "title": "Niacin tests usable protein restoration",
+      "narration": "Our challenger is niacin, the nicotinic acid medicine. It increased muscle N A D in a small study of another disease. Separate experiments connect N A D and the enzyme SIRT two to Bub R one stability. The missing link is whether niacin restores useful protein and muscle function in this genotype. We test the medicines separately.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/32386566/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/",
+        "https://pubmed.ncbi.nlm.nih.gov/39173541/"
+      ]
+    },
+    {
+      "id": "accounting",
+      "title": "A better percentage can hide a loss",
+      "narration": "Our completed computer model shows why percentages can mislead. In one assumed scenario, removing abnormal cells improved the chromosome-normal fraction while reducing total muscle-cell output over time. These are simulated results, not drug effects. Our experiment therefore follows each starting cell, including those that die or stop dividing.",
+      "sources": [
+        "workflow/track2-model/README.md",
+        "workflow/track2-model/population-results.json",
+        "reports/appendices/founder-ledger.md"
+      ]
+    },
+    {
+      "id": "experiment",
+      "title": "The experiment must show useful muscle",
+      "narration": "We would compare affected and genetically corrected muscle models, using measured drug exposures. A medicine must improve either existing muscle or new muscle production, preserve the other, and avoid worsening chromosome errors. Independent confirmation must reproduce the result. The cancer history also requires checking that neither medicine helps tumor cells survive or interferes with cancer treatment.",
+      "sources": [
+        "reports/appendices/track2-evidence-pipeline.md"
+      ]
+    },
+    {
+      "id": "alternatives",
+      "title": "Other routes have defined tests for advancement",
+      "narration": "Arimoclomol remains a reserve because rescue of this protein is unproved. Removing senescent cells has strong genetic mouse evidence, but some drugs also damage repair in young muscle. We investigate that mechanism in parallel. Transcript rescue and other alternatives have explicit promotion tests in our report.",
+      "sources": [
+        "reports/appendices/track2-route-decisions.md",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3468323/",
+        "https://pubmed.ncbi.nlm.nih.gov/34904366/"
+      ]
+    },
+    {
+      "id": "next",
+      "title": "A testable plan for a laboratory partner",
+      "narration": "We have completed sequence review, evidence review and computational study design. No biological drug experiment has run. We seek a consented cell model and laboratory partner. The deliverable is a reproducible decision: advance a medicine with measured functional benefit, or explain why none passes. The method can then be tested in other chromosome-instability disorders.",
+      "sources": [
+        "reports/jeweled_track2_report_submission.md",
+        "reports/appendices/track2-evidence-pipeline.md"
+      ]
+    }
+  ]
+}

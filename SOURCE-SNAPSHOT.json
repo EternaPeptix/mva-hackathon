@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "created_at": "2026-09-21T19:34:24.475225+00:00",
-  "scope": "Reviewed workflow and public/synthetic evidence plus bounded research reports and one candidate prediction. Restricted raw reads, genome-scale case payloads, media and internal Git history are excluded. This inventory is not full-replay completion or public-release authorization.",
+  "created_at": "2026-09-21T20:18:11.133273+00:00",
+  "scope": "Reviewed workflow and public/synthetic evidence plus bounded research reports, one candidate prediction, curated pitch media and a dated AI review. Restricted raw reads, genome-scale case payloads and internal Git history are excluded. This inventory is not full-replay completion or public-release authorization.",
   "baseline_commit": "45bb5c47cd1c2f92893ff6f8965051428965bfb3",
   "baseline_snapshot_sha256": "3638e0661088aeda8a69356c2d3dbdb6ac0a26f6a63ba62c485ec39de887e224",
   "source_field_scope": "Existing source_* fields retain historical input provenance. release_* fields identify current files. Baseline exporter mappings and review records remain available at the named Git commit.",
@@ -42,8 +42,8 @@
       "source_mode": 420,
       "source_bytes": 23560,
       "source_sha256": "23de0f2c3e15ce6acefe0785da750c6cc557381bca000a3d8e64955bfb9dcdef",
-      "release_bytes": 7492,
-      "release_sha256": "7524715e25eac80e4efcf5bd6029ebae35c112fb6aa3e5a48a66757d4b8449f7",
+      "release_bytes": 7655,
+      "release_sha256": "18fa91c10663dbfc462f554bd441cf2ad16402a65325882bef90bbad14c51514",
       "previous_release_sha256": "23de0f2c3e15ce6acefe0785da750c6cc557381bca000a3d8e64955bfb9dcdef",
       "revision": "Reviewed edit; source_* fields retain baseline input provenance."
     },
@@ -64,8 +64,8 @@
       "source_mode": 420,
       "source_bytes": 6596,
       "source_sha256": "a5f034a6b28228b0f3169becddeb67c494f35258723b864becb339b6f8af60a2",
-      "release_bytes": 11842,
-      "release_sha256": "c14f26321487620d23cbf401871275610b5eaf81e06c259886d990e4c95a2303",
+      "release_bytes": 12393,
+      "release_sha256": "8984f9147bc0338452e0c3f29f124abd8c05bcbd84cbdb156bf6bde38f521413",
       "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
     },
     {
@@ -74,9 +74,20 @@
       "source_mode": 420,
       "source_bytes": 4383,
       "source_sha256": "a35873320b5cbb88dfd84f0b1bb757e7b61c019d84554843da749cfc99fa4a73",
-      "release_bytes": 9034,
-      "release_sha256": "870a769cb1100eaf579173f5804e7fa91846745412a1f7e79bf36740c5741078",
+      "release_bytes": 9542,
+      "release_sha256": "8442b6591ce5772baccb4f2072c4654b7c860553a4531eee2dd6e4a15396d6ed",
       "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/REVIEW.md",
+      "source_path": "reports/REVIEW.md",
+      "source_mode": 420,
+      "source_bytes": 2276,
+      "source_sha256": "123a86195ed5895a868eacd31428363394fd6b95f5b0b9203f000f36f430e315",
+      "source_kind": "review_navigation",
+      "source_scope": "Initial private human-review package addition; source path is repository-relative.",
+      "release_bytes": 2276,
+      "release_sha256": "123a86195ed5895a868eacd31428363394fd6b95f5b0b9203f000f36f430e315"
     },
     {
       "path": "reports/appendices/assay-decision-plan.md",
@@ -307,6 +318,61 @@
       "release_bytes": 10749,
       "release_sha256": "c0aaa8b979996e7018f636b99d9231994c9078ee24cdb9c28824d9e1e17f316c",
       "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/media/jeweled_track2_skylar.mp4",
+      "source_path": "reports/media/jeweled_track2_skylar.mp4",
+      "source_mode": 420,
+      "source_bytes": 8671446,
+      "source_sha256": "42ea7b6df6ee9367504c87363aaefc3654b75075b7093c5d1580cc458ebf6fcd",
+      "source_kind": "review_media",
+      "source_scope": "Initial private human-review package addition; source path is repository-relative.",
+      "release_bytes": 8671446,
+      "release_sha256": "42ea7b6df6ee9367504c87363aaefc3654b75075b7093c5d1580cc458ebf6fcd"
+    },
+    {
+      "path": "reports/media/jeweled_track2_skylar.srt",
+      "source_path": "reports/media/jeweled_track2_skylar.srt",
+      "source_mode": 420,
+      "source_bytes": 4302,
+      "source_sha256": "f983d949e7c8563a2321c37615ccb4a1c7121de1e7e484a8de64dec6648297c6",
+      "source_kind": "review_media",
+      "source_scope": "Initial private human-review package addition; source path is repository-relative.",
+      "release_bytes": 4302,
+      "release_sha256": "f983d949e7c8563a2321c37615ccb4a1c7121de1e7e484a8de64dec6648297c6"
+    },
+    {
+      "path": "reports/media/jeweled_track2_slides.pptx",
+      "source_path": "reports/media/jeweled_track2_slides.pptx",
+      "source_mode": 420,
+      "source_bytes": 2307127,
+      "source_sha256": "05c1a25353c29982bab7b91a9671ee405bbf28e533ed56cdedc90ad01d14d0c3",
+      "source_kind": "review_media",
+      "source_scope": "Initial private human-review package addition; source path is repository-relative.",
+      "release_bytes": 2307127,
+      "release_sha256": "05c1a25353c29982bab7b91a9671ee405bbf28e533ed56cdedc90ad01d14d0c3"
+    },
+    {
+      "path": "reports/media/track2-storyboard.json",
+      "source_path": "reports/media/track2-storyboard.json",
+      "source_mode": 420,
+      "source_bytes": 5297,
+      "source_sha256": "7cc9959cd543ae4950981dd4e0907a9bd0d0ee6be4c132a941bf764ac1254ee9",
+      "source_kind": "review_media_source",
+      "source_scope": "Initial private human-review package addition; source path is repository-relative.",
+      "release_bytes": 5297,
+      "release_sha256": "7cc9959cd543ae4950981dd4e0907a9bd0d0ee6be4c132a941bf764ac1254ee9"
+    },
+    {
+      "path": "reports/reviews/track2-clean-state-20260921.md",
+      "source_path": "reports/reviews/track2-clean-state-20260921.md",
+      "source_mode": 420,
+      "source_bytes": 5783,
+      "source_sha256": "7355d7807769333d90f9320b10bf4da2bf93a0336ff61134913c369fd10e4344",
+      "source_kind": "independent_ai_review",
+      "source_scope": "Initial private human-review package addition; source path is repository-relative.",
+      "release_bytes": 5783,
+      "release_sha256": "7355d7807769333d90f9320b10bf4da2bf93a0336ff61134913c369fd10e4344"
     },
     {
       "path": "results/INDEX.md",
@@ -1255,8 +1321,8 @@
       "source_mode": 420,
       "source_bytes": 16076,
       "source_sha256": "24f6932c31e3e92a97cf9a46e16c5677aea28c1354464d0997915f3bf2797b20",
-      "release_bytes": 21732,
-      "release_sha256": "ad00afc071c52b35dd16019696c571acb4de713787327adf1f0c428fae5f313a",
+      "release_bytes": 22410,
+      "release_sha256": "2f409d6485d53c745ea605b20544cc446bd287b2efd025c5e82e439b9c3c5556",
       "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
     },
     {
@@ -1265,8 +1331,8 @@
       "source_mode": 420,
       "source_bytes": 475905,
       "source_sha256": "7f39808afc3cd4f93bcf5ffc556210d42b023ccbaeda04f80199e629a2315d3a",
-      "release_bytes": 504697,
-      "release_sha256": "074c78b29963dd4e417af94a046552ea8a52144d31a9a21c1addb0422ceac89f",
+      "release_bytes": 508193,
+      "release_sha256": "7c738d83152a38fb4accd5cde7e51c8fac7fb089f7598f3ee03ff933a72a1cd5",
       "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
     },
     {
@@ -5207,7 +5273,7 @@
       "release_sha256": "219869208f61f9c1748def18e90a8299a4fbb6ea481546f20ac81c1baaca6aa4"
     }
   ],
-  "file_count": 569,
-  "total_release_bytes": 14036949,
+  "file_count": 575,
+  "total_release_bytes": 25038576,
   "self_identity": "SOURCE-SNAPSHOT.json is excluded from its own table; the containing Git commit binds it."
 }
