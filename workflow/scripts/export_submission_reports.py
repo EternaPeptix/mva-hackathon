@@ -83,8 +83,9 @@ def require_file(root, revision, path, checked):
 def check_link_syntax(text, source):
     # These fixed documents contain no link-bearing code examples. Refuse them
     # if later introduced, so literal examples cannot silently become live links.
+    # Bracketed genotype notation alone is not a Markdown link.
     for code in re.finditer(r'(`+)(.*?)\1|(?ms:^\s*~~~.*?^\s*~~~\s*$)', text, re.DOTALL):
-        if '](' in code.group() or re.search(r'\[[^]]*\]', code.group()):
+        if '](' in code.group() or re.search(r'\[[^]]*\]\s*(?:\[[^]]*\]|:)', code.group()):
             raise ValueError(source + ': link-like syntax inside code is unsupported')
     unsupported = (
         (r'!\[', 'image links'),

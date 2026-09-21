@@ -12940,7 +12940,7 @@
   ],
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
-    "reviewed_at_utc": "2026-09-21T23:31:38.870829+00:00",
+    "reviewed_at_utc": "2026-09-21T23:35:13.194698+00:00",
     "scope": "100 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
     "baseline_preserved": {
       "files": 497,
@@ -13391,8 +13391,8 @@
       },
       {
         "path": "workflow/scripts/export_submission_reports.py",
-        "bytes": 9368,
-        "sha256": "4f221018d56cd86a0c1cef2b3ea4353ff0285d70c4d161734e43dbffc49d90c5",
+        "bytes": 9450,
+        "sha256": "84b34152237b5a460d4ae712a59d87b75796b43b233431482c34da2a94bf18cf",
         "mode": 420,
         "decision": "keep",
         "category": "submission_export_source",
@@ -14273,6 +14273,15 @@
       },
       "verification": "The main report before its appended acknowledgement matches the reviewer-pinned scientific-body digest. The other four reviewer-pinned files match current bytes. Full acknowledgement block equals provenance. Final current file hashes, baseline preservation, local links and immutable submitted Track 1 report/CSV checked.",
       "decision": "Keep the review text and acknowledgement within the private revision; no new scientific claims, case data, biological results or reviewer-local reproduction directory imported. Public-video replacement and Track 2 submission remain pending."
+    },
+    "exporter_genotype_syntax_followup": {
+      "reviewed_at_utc": "2026-09-21T23:35:13.194698+00:00",
+      "paths": [
+        "workflow/scripts/export_submission_reports.py"
+      ],
+      "scope": "Narrow syntax predicate correction: bracketed genotype notation in a code span is allowed; actual inline/reference-style Markdown link forms in code remain rejected. No report science, media, prediction CSV, export input selection or upload behavior changed.",
+      "verification": "Task-level positive genotype and three negative link checks passed, followed by successful export of committed 09d7c26 reports with pinned links and unchanged CSV. This metadata refresh checks only the changed source identity, audit/inventory snapshot identities and preserved history.",
+      "decision": "Keep this local export correction within the existing release selection; no additional data category or submission action."
     }
   }
 }

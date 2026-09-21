@@ -274,3 +274,5 @@ body is byte-identical, and the other four pinned review artifacts still match.
 Navigation links identify this review separately from the earlier assessment.
 Public-video replacement and Track 2 submission remain pending; the repository
 is private and the exact Track 1 upload and CSV remain unchanged.
+
+The report exporter now accepts bracket-only genotype notation inside code while still rejecting inline/reference-style Markdown links there; this syntax correction changes no scientific, media or CSV content.
