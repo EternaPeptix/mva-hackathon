@@ -20,6 +20,7 @@ retaining their useful assay controls. It supplies no clinical dosing proposal.
 | [Suijkerbuijk 2010](https://pubmed.ncbi.nlm.nih.gov/20516114/) | Selected human MVA BUBR1 mutants have abundance defects; forced expression can restore a checkpoint response. | N1002K was not tested. HSP90 dependence does not demonstrate arimoclomol/HSP70 rescue, and a nocodazole response does not establish spontaneous segregation fidelity. |
 | [North 2014, Figs. 4–6](https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/) | NMN increased BUBR1 abundance in WT MEFs, largely through SIRT2, and in aged WT mouse testes. Genetic SIRT2 overexpression improved selected cardiac outcomes and male survival in BubR1 hypomorphs. | The drug experiments used 1 mM NMN for 24 hours in cells and 500 mg/kg/day intraperitoneally for seven days in mice. NMN did not supply the genetic survival result. WT/hypomorphic protein is not N1002K; small size, cataracts and lordokyphosis were not reversed by SIRT2 overexpression. |
 | [Pirinen 2020](https://pubmed.ncbi.nlm.nih.gov/32386566/) | In a nonrandomized open-label study of five mitochondrial-myopathy patients and ten controls, niacin increased NAD, including patient muscle NAD; strength also increased. | Different disease, small uncontrolled study, no BUBR1 measurement. The slow-release preparation and adult study exposure cannot be assumed equivalent to every prescription formulation or to a child's exposure. |
+| [Membrez 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10963276/) | Human-myotube NA/NAPRT experiments provide a direct-utilization precedent; exact results below. | No BUBR1, mutant-function or clinical-exposure result. |
 | [Aaltio 2024](https://pubmed.ncbi.nlm.nih.gov/39173541/) | A child with MTTN myopathy had metabolic improvement after niacin corrected NAD deficiency. | Disease progressed with meager clinical response: NAD normalization alone is not useful tissue rescue. |
 | [Niacin ER label, revised February 2026](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=dd60fe81-3d54-4a29-9502-601be89c575e) | Nicotinic-acid products have approved lipid-related uses. | Pediatric safety, effectiveness and pharmacokinetics are unestablished in this label. Formulation, liver, muscle and metabolic effects require review; approval does not establish an MVA indication. |
 | [Arimoclomol studies: Gaucher 2018](https://doi.org/10.1016/j.ebiom.2018.11.037), [NPC 2025](https://doi.org/10.1016/j.ymgme.2025.109103) | Mutant lysosomal-protein processing/function and stress-response pathways can improve in the tested settings. | Neither demonstrates BUBR1 rescue. High nominal concentrations and different protein compartments limit transfer; see the [exposure review](mechanistic-bridge.md). |
@@ -85,18 +86,58 @@ resolve the model/background before assigning drug failure to this mechanism.
 For niacin, measure baseline and drug-induced intracellular NAD, SIRT2 expression
 and a validated activity readout, then BUBR1 turnover and tissue function. NAD
 deficiency is an unknown to measure, not a mandatory inclusion criterion. Compare
-a suitable SIRT2 perturbation with its rescue or
-catalytically inactive control; account for effects on baseline BUBR1, viability
+a suitable SIRT2 perturbation with its rescue or catalytically inactive control; account for effects on baseline BUBR1, viability
 and cell cycle. NMN provides a pathway reference, not an interchangeable exposure.
 For arimoclomol, distinguish inducible/constitutive HSP70-family responses and
 HSP90-related effects from BUBR1 amount, localization and function. Neither a
 chaperone marker nor correlation between NAD and BUBR1 proves causal rescue.
 SIRT2 dependence alone does not establish BUBR1 dependence: SIRT2 has other
-substrates. To claim the full chain, use an interpretable BUBR1 abundance clamp
+substrates. N1002K-specific SIRT2 interaction is unmeasured; neither preserved
+nor disrupted binding follows from its sequence position. To claim the full chain, use an interpretable BUBR1 abundance clamp
 or orthogonal perturbation, with titration that preserves baseline function and
 NAD engagement. Severe depletion that destroys the baseline cannot answer this
 question. If that causal test is infeasible, retain functional benefit as an
 observation without claiming that the restoration mechanism is established.
+
+### Qualify niacin utilization before ranking the drugs
+
+Published NAD responses relative to each control:
+
+| Panel / source data | Exposure and result | Interpretation |
+|---|---|---|
+| [Extended Fig. 1f, rows 77–90](https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs42255-024-00997-x/MediaObjects/42255_2024_997_MOESM6_ESM.xlsx) | NA 1 mM/24 h: 127.47%; Šídák-adjusted P=0.454; n=6. | Nonsignificant multi-precursor comparison. |
+| [Extended Fig. 2e, rows 175–189](https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs42255-024-00997-x/MediaObjects/42255_2024_997_MOESM7_ESM.xlsx) | Scrambled-shRNA + NA: 131.15%, P=0.0017; NAPRT-shRNA + NA: 107.55%, P=0.1278; n=6/group; 24 h. | Within-group tests; NA concentration not restated; no FK866 indicated. |
+
+Similar effect estimates need not contradict each other when statistical tests
+differ. The second panel reports no interaction test. Replicates are not established
+as independent donors. Do not transfer trigonelline's functional results to NA.
+
+Measure NAPRT and downstream precursor-processing capacity in the actual human
+progenitor and differentiated cultures, together with baseline medium/serum
+nicotinic acid and nicotinamide content. Expression alone is insufficient: establish
+concentration/time-dependent precursor utilization and NAD response with a qualified
+assay, retaining isotope tracing as an orthogonal option where available. Do not
+create an artificial deficiency solely to produce an attractive rescue result;
+any induced-deficiency control stays separate from the genotype comparison.
+
+Use the Membrez experiment as a mechanistic positive precedent, not as the selected
+exposure. The NAPRT-poor C2C12 negative is a warning about model choice. Confirm the
+relevant activities in both muscle-supporting progenitors and mature myotubes;
+results in differentiated human cells cannot be assumed to apply to every progenitor state.
+If NAD fails to respond despite measured exposure, distinguish absent utilization
+from a defective downstream SIRT2/BUBR1 link. NMN/NR reference responses cannot
+rescue a failed nicotinic-acid implementation by substitution.
+
+[Mouse isotope tracing](https://pmc.ncbi.nlm.nih.gov/articles/PMC5932087/)
+demonstrates that tissue NAD supply can depend on circulating metabolites and
+route of administration. Thus a parent-drug-only culture failure does not by itself
+exclude a systemic precursor mechanism. Testing that alternative requires measured
+metabolite exposure and an appropriate model; hypothesized liver or microbiome
+conversion cannot excuse an unresponsive assay or be counted as niacin success.
+The NMN, NAM and nicotinic-acid routes are not interchangeable. In particular,
+North's high-dose nicotinamide inhibition does not establish that lower-dose
+nicotinamide can never raise NAD; any alternative needs its own drug and functional
+case instead of inheriting niacin's nomination.
 
 ## 3. Compare exposure-qualified drug implementations
 
@@ -139,6 +180,14 @@ a transient marker change or delayed collapse is insufficient. An interpretable
 benefit in one cohort cannot be silently generalized to the other.
 
 ## 5. Conditional downstream routes
+
+A [BubR1-knockdown C2C12 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC5023544/)
+reported impaired myogenic differentiation/fusion. Its SA-β-gal assays were negative
+at earlier population doublings than the fusion experiment; these are not paired
+proof of senescence-independent dysfunction, and one marker does not exclude
+senescence. The study tested no drug. It supports measuring the myogenic defect
+and harmful senescent burden separately instead of assigning every BUB1B defect
+to a senolytic-responsive population.
 
 **Senolysis:** qualify harmful senescent-cell burden alongside restoration tests;
 this route need not wait for restoration to fail. Dasatinib monotherapy is a
@@ -208,7 +257,7 @@ effects remain outside cell-assay inference and require translational review.
 
 | Observation | Decision |
 |---|---|
-| Model, mechanism engagement, exposure, duration or functional measurement is inadequate | Uninterpretable nonresponse; repair the limitation or report infeasibility. |
+| Model, precursor utilization, mechanism engagement, exposure, duration or functional measurement is inadequate | Uninterpretable nonresponse; repair the limitation or report infeasibility. |
 | Additional N1002K quantity fails at matched physiological abundance | Deprioritize quantity-only rescue in that model; folding/function-per-molecule rescue remains a separate hypothesis. |
 | Genetic/mechanistic rescue works but an adequately engaged drug does not improve function | Target success, drug-implementation failure; do not discard the target or award the drug genetic efficacy. |
 | NAD, BUBR1 or pathway markers improve without functional benefit | Do not advance on markers alone. |

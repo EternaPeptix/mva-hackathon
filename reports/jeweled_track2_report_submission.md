@@ -64,6 +64,12 @@ NAD correction accompanied little clinical response and continued progression.
 unproved. NMN is a mechanistic reference, not our approved-drug nomination;
 nicotinamide/niacinamide is not interchangeable with nicotinic acid.
 
+[Human-myotube experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC10963276/)
+provide a modest, context-dependent NAD response to nicotinic acid. Statistical
+support differs across panels; this is not BUBR1 rescue. The
+[pipeline](appendices/track2-evidence-pipeline.md) retains exact results and requires
+precursor-utilization qualification in each intended cell state.
+
 [Prescription niacin labeling](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=dd60fe81-3d54-4a29-9502-601be89c575e)
 establishes an approved product, but pediatric efficacy, safety and pharmacokinetics
 are unestablished. Preparations cannot be silently substituted. No child dose or
@@ -170,6 +176,7 @@ pretend that these missing biological links have been measured.
 |---|---|---|
 | **Senolysis / dasatinib + quercetin** | [INK-ATTAC](https://www.nature.com/articles/nature10600) improves selected BubR1-hypomorph tissue outcomes. [Patent Example 11](https://patents.google.com/patent/WO2015116735A1/en) reports D+Q adipose-marker reductions in that model. | Engineered clearance differs from a drug. Patent evidence supplies no functional rescue, sample size or doses; p16 reduction was not conventionally significant. Peer-reviewed D+Q functional evidence concerns [Ercc1](https://pmc.ncbi.nlm.nih.gov/articles/PMC4531078/). D+Q is not an approved regimen, and dasatinib alone cannot inherit combination efficacy. Require harmful burden, selective susceptibility and increased absolute output. |
 | **Everolimus / sirolimus** | Same-gene signaling association; [rapamycin improved Tsc1-deficient muscle](https://pubmed.ncbi.nlm.nih.gov/23602450/). | Conditional third route for the reasons above. No proven MVA superiority of either rapalog. Normalization must help without sacrificing BUBR1 or regeneration. |
+| **Acipimox / alternative NAD-support implementation** | [Human mitochondrial effects](https://pmc.ncbi.nlm.nih.gov/articles/PMC4375076/) and an [approved lipid indication](https://www.medicines.org.uk/emc/product/1357/smpc). | Human muscle NAD/SIRT2/BUBR1 engagement is unestablished; direct NAD evidence used 10 mM mouse myotubes. A [two-week older-adult trial](https://doi.org/10.1515/teb-2024-0030) showed no functional or muscle-protein-synthesis benefit; the separate diabetes trial showed rebound fatty acids and worse insulin sensitivity. These are limited, different-disease studies, not an MVA exclusion. |
 | **Sodium phenylbutyrate** | Approved products and [functional rescue of mutant ABCA1](https://pmc.ncbi.nlm.nih.gov/articles/PMC3520540/). | Different protein; no located BUBR1-specific rescue. That experiment used 10 mM for 24 hours, with substantial exposure translation unresolved. Broad chaperone/HDAC activity does not select a BUBR1 mechanism. |
 | **Teprenone / geranylgeranylacetone** | Japan-market-approved drug; a [13-versus-13 human atrial study](https://pubmed.ncbi.nlm.nih.gov/31302249/) found HSPA1/HSPB1 induction. [PMDA product record](https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2329012C1026_1?user=1). | HSP90 was not measured, nor BUBR1 rescue; atrial target engagement is not myogenic function. The Japanese label reports no pediatric clinical trials. It does not displace arimoclomol without a functional BUBR1 result. |
 | **PP2A-B56 recruitment** | [Engineered kinetochore targeting](https://pmc.ncbi.nlm.nih.gov/articles/PMC3654266/) rescued alignment in MVA cells. | Strong genetic comparator; no demonstrated approved drug supplies the same spatial recruitment. Alignment alone is not sustained chromosome fidelity. |
@@ -199,6 +206,10 @@ protection. No patient dose, developmental reversal or clinical efficacy is clai
 | Potential impact — 25% | Test whether productive progenitors and muscle function can be preserved in the nominated genotype. | Magnitude, durability and translation of benefit. |
 | Innovation — 25% | Separate drug tests and abundance-matched allele/function experiments distinguish quantity from function per molecule; lineage accounting exposes false rescue. | Demonstrated mechanism; NAD or chaperone repurposing alone is not claimed novel. |
 | Scalability — 15% | Replayable sequence/public-data analyses and reusable allele-function/drug-implementation decision rules. | Qualification in each new allele, tissue and disease. |
+
+The main unresolved discriminator is now endogenous allele function followed by
+exposure-qualified drug rescue. Generic aging analogies, docking or additional
+synthetic controls cannot establish which candidate wins that comparison.
 
 The next deliverable is a partner-ready model-qualification and two-drug study,
 not more generic control suites. The resource need is a consented cell model,
