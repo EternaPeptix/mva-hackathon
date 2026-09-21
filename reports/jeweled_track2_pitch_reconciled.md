@@ -1,36 +1,36 @@
 # jeweled — Track 2 pitch: proposed revision and approved recording
 
-**Text-only proposal, 21 September 2026; not recorded or approved. Media work and Vimeo are on hold at the user's request.** The proposed revision presents the newly selected everolimus hypothesis and the experiments required to accept or reject it. It does not alter the existing media. The [approved 180-second Lauren / Sonic 3.6 recording](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) uses the previous arimoclomol/NAC narration preserved below, with 24 caption segments and 293 spoken words. That recording does not present the new lead. A revised recording would require new timing, captions and review.
+**Text-only proposal, 21 September 2026; not recorded or approved. Media and Vimeo remain on hold.** This revision presents usable BUBR1 restoration, comparing niacin with arimoclomol. The [approved Lauren / Sonic 3.6 recording](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) remains unchanged and uses the earlier arimoclomol/NAC proposal. Its narration and historical delivery note are preserved below; that note's reference to a “current everolimus lead” records a superseded draft. The current report governs selection. New timing, captions and approval would be needed before recording this proposal.
 
 ## Proposed narration — not recorded
 
-### From a gene hypothesis to muscle function
+### Preserve useful protein and productive cells
 
-Our experimental lead is everolimus, to test whether normalizing excess mTOR signaling can improve muscle function. Our genomic hypothesis combines a BUB1B stop variant with N1002K. Their phase and missense function remain unresolved. We propose a research decision, not chromosome correction or clinical benefit.
+Our question is whether preserving usable BUBR1 can sustain chromosome segregation and muscle renewal. The genomic hypothesis contains a stop variant and N1002K; phase and surviving protein function remain unresolved. We need a qualified cell model before claiming a drug can help.
 
-### Why this route leads
+### Compare two concrete candidates
 
-A mouse carrying a different BubR1 truncation showed excess muscle mTOR signaling. No rapalog rescue was tested there, and our RNA reanalysis did not add supporting evidence. Everolimus has an established target relationship and pediatric formulation experience. This makes it a practical lead, not a drug proven superior to sirolimus. Abundance rescue and senescent-cell clearance remain alternatives with unresolved drug bridges.
+We nominate niacin, the nicotinic-acid medicine, with arimoclomol as a challenger. Human muscle studies show that niacin can raise NAD. Separate experiments connect NAD and SIRT2 to BUBR1 stability. Those links do not yet demonstrate mutant rescue. Arimoclomol might improve protein quality, but its BUBR1 link is also unproved. Test them separately.
 
-### Prove that the excess is harmful
+### Establish what is rescuable
 
-High signaling might compensate for damage. A qualified model must first demonstrate a muscle defect. Compare genetic correction with partial pathway normalization under matched conditions. If verified normalization fails to improve function, this lead does not advance on those results. Eliminating a pathway needed for normal muscle growth would answer a different question.
+Measure the actual full-length and truncated products. Compare genetic correction and controlled allele expression. More protein can help, do nothing or interfere. Count segregation outcomes and productive divisions, including deaths, arrest and lost lineages. Fewer errors among a shrinking group of survivors are insufficient.
 
-### Separate mature muscle from regeneration
+### Follow through to muscle function
 
-Test mature myotube function, then separately test progenitor differentiation and regeneration. Measure actual everolimus exposure and target engagement alongside functional benefit and absolute viable output. Lower signaling alone is insufficient. A benefit that sacrifices growth or renewal would not justify advancement.
+Measure actual drug exposure, then absolute muscle output from the starting progenitors. Test mature-muscle function separately and follow both after withdrawal. NAD, heat-shock markers or protein abundance alone cannot pass. Genetic rescue with drug failure rejects the implementation without discarding the mechanism.
 
-### Count what the experiment preserves
+### Keep the strongest alternatives visible
 
-Our sequence analysis checks the nominated coding changes. Separate population simulations show why a healthier-looking survivor fraction can conceal lost output. They use assumptions, not patient-calibrated drug effects. Preserve absolute counts, growth and function so arrest or selective killing cannot masquerade as rescue.
+Senescent-cell clearance improved tissue function in BubR1-deficient mice, but an eligible drug must reproduce that benefit selectively. Everolimus now requires additional pathway evidence; our RNA analysis did not corroborate its target, and published counterexamples weaken its lead.
 
-### Make the next decision useful
+### Ask for the decisive experiment
 
-Rhabdomyosarcoma is recorded, so tumor protection or interference with confirmed cancer treatment would block advancement. Laboratory access remains unestablished, and no drug experiment has run. The next useful result is whether this pathway causes a reversible muscle defect at a tolerable experimental exposure.
+Rhabdomyosarcoma history requires testing tumor protection and relevant treatment interactions. No drug experiment has run. We seek a consented cell model and a partner laboratory to determine whether either candidate preserves useful tissue function at justified exposure.
 
 ## Evidence for the proposed revision
 
-The [current Track 2 report](jeweled_track2_report_submission.md) and [governing evidence pipeline](appendices/track2-evidence-pipeline.md) contain the comparative selection, experimental rationale and stopping rules. [Sieben et al.](https://www.jci.org/articles/view/126863/version/2) provide the different-truncation muscle-pathway precedent, without a rapalog treatment experiment. [Everolimus prescribing information](https://www.novartis.com/us-en/product/pi/pdf/afinitor.pdf) supplies pharmacology and approved-use context, not MVA efficacy. [Muscle-regeneration experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC2793064/) motivate the separate regeneration safeguard. The [genome-informed model](../workflow/track2-model/README.md) supplies sequence and endpoint-design analysis, not a drug ranking. The [public mouse RNA reanalysis](../workflow/track2-rna/README.md) supplies no positive mTORC1 Hallmark corroboration; the proposed text reports no biological rescue result.
+The [current report](jeweled_track2_report_submission.md) and [evidence pipeline](appendices/track2-evidence-pipeline.md) link primary sources, alternatives and stopping rules. The [genome-informed model](../workflow/track2-model/README.md) and [public RNA analysis](../workflow/track2-rna/README.md) are completed computations, not drug-response evidence. This proposed narration does not report biological rescue or replace the approved recording.
 
 ## Approved narration — unchanged recording
 

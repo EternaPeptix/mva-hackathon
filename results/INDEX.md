@@ -94,6 +94,9 @@ not an estimate of clinical sensitivity.
 
 | Component | Data type | Control count / scope | Receipt or guide |
 |---|---|---|---|
+| Current drug comparison and evidence pipeline | Public literature plus existing candidate hypothesis | Prospective; no drug response measured | [Proposal and alternatives](../reports/jeweled_track2_report_submission.md); [Pipeline](../reports/appendices/track2-evidence-pipeline.md) |
+| Allele reconstruction and population scenarios | Public reference / synthetic assumptions | Conditional sequence products; 1,536 deterministic scenarios, not biological replicates | [Replay and findings](../workflow/track2-model/README.md) |
+| Mouse muscle transcriptome reanalysis | Public mouse counts | Nine mice; 50 programs × three contrasts; no globally significant program | [Results and replay](../workflow/track2-rna/README.md) |
 | Prospective founder-cell ledger | Synthetic | 21 software controls; no experimental cells | [Record](../workflow/source-snapshots/founder-ledger-controls-20260920/controls.json); [Method](../workflow/docs/FOUNDER-LEDGER.md) |
 | Assay capacity | Planning assumptions | Calculation; not an experiment or power estimate | [Record](../results/assay-capacity-planning-20260920.json) |
 | Sonic narration assembly | Synthetic media/control inputs | 14 software tests | [Record](../workflow/source-snapshots/sonic36-20260920/assembly-controls.json) |

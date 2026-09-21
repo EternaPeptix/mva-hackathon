@@ -96,9 +96,9 @@ count/audit agreement and measured resource use. Only public aggregate results a
 execution identities are added to the existing status/documentation. Final launcher
 safeguards and limited Linux checks retain their separate verification scope.
 
-### Elected Track 2 lead and existing model import
+### Earlier Track 2 lead and existing model import
 
-The current private revision selects everolimus and adds an evidence pipeline and
+The earlier private revision selected everolimus and added an evidence pipeline and
 unelected-route comparison. The new `workflow/track2-model/` contains public Ensembl
 responses, reference-based conditional products for the already nominated pair,
 assumed cell-population results, source and figures. These are bounded candidate
@@ -121,3 +121,14 @@ overlap retain attributed CC BY 4.0 terms. The unfavorable mTORC1 transcriptiona
 result and scheduling counterevidence now appear in the proposal, methods and
 unrecorded pitch. The inventory refresh covers this public-data addition; the
 repository remains private, and media remains on hold.
+
+### Restoration route comparison
+
+The current proposal prioritizes niacin as an exploratory BUBR1-restoration
+candidate with arimoclomol as challenger, retains conditional senolysis and demotes
+everolimus after additional primary-source review. The alternatives table,
+evidence pipeline, methods, navigation and unrecorded pitch are synchronized.
+This changes interpretation of existing candidates and public literature only;
+no new case data, laboratory response or media is added. Existing computational
+outputs, Track 1 science and the approved recording remain unchanged. The
+repository remains private; candidate selection is not demonstrated drug efficacy.

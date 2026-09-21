@@ -1,10 +1,10 @@
 # Genome-informed Track 2 computation
 
 This directory retains the completed sequence reconstruction and population
-sensitivity analysis supporting the [everolimus proposal](../../reports/jeweled_track2_report_submission.md)
+sensitivity analysis supporting the [Track 2 proposal](../../reports/jeweled_track2_report_submission.md)
 and its [evidence pipeline](../../reports/appendices/track2-evidence-pipeline.md).
 The computation informs experimental endpoints. It does **not** infer mTOR activity
-from sequence, predict named-drug efficacy or select everolimus numerically.
+from sequence, predict named-drug efficacy or rank candidate medications.
 
 ## Replay
 

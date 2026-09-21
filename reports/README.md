@@ -6,20 +6,20 @@
 
 The current [Track 1 report](jeweled_track1_report_submission.md), [Track 2 report](jeweled_track2_report_submission.md) and [methods-form answers](jeweled_methods_form_answers.md) govern interpretation. Track 1 adopts **subjective exact-pair EPCR 0.8** for BUB1B Leu737Ter plus Asn1002Lys. This replaces earlier judgments without new segregation or functional data. Trans is favored under the recessive model but remains unobserved; the missense remains a VUS. The [causal interpretation appendix](appendices/causal-interpretation.md) explains the evidence policy and remaining alternatives.
 
-Track 2 selects **everolimus** as the experimental lead for normalizing mTORC1 if excess signaling causes a demonstrated muscle defect. This is a qualitative research judgment, not a measured drug ranking. A different BubR1 truncation model supplies the muscle-pathway precedent; harmful activation and drug rescue remain untested for this genotype. Elevated signaling could be compensation. The proposal separates mature-myotube function from progenitor differentiation/regeneration and requires partial genetic normalization, measured drug exposure, preserved absolute output and a rhabdomyosarcoma counter-screen. Everolimus is a pragmatic choice within rapalogs, not proven superior to sirolimus. The genomic EPCR is not a probability of treatment benefit.
+Track 2 prioritizes **usable BUBR1 restoration**, with **niacin (nicotinic acid)** as the first exploratory drug nomination and **arimoclomol as its prespecified challenger**. They are tested separately; no drug superiority is established. Niacin connects human muscle NAD engagement to a separately supported NAD/SIRT2–BUBR1 hypothesis. The missing drug-to-mutant-function link remains decisive. Senolysis has the strongest same-gene organismal functional precedent but no validated eligible implementation; dasatinib alone is a conditional reserve. Everolimus is demoted to a pathway-qualified alternative. The genomic EPCR is not a probability of treatment benefit.
 
 The [one-row prediction CSV](jeweled_evidence-reconciled-v2.csv) records the current decision; its [provenance](jeweled_evidence-reconciled-v2.csv.provenance.json) covers format and reference checks, not a comparison with private truth.
 
 The completed [public mouse RNA analysis](../workflow/track2-rna/README.md) did not
-corroborate an upregulated mTORC1 Hallmark program. The proposal retains this
-unfavorable result and narrowly prefers everolimus for a qualified experimental
-test, without claiming convergent transcriptional support. Continuous versus
-pulse/washout experiments must establish function and regeneration; intermittent
-inhibition is not presumed protective.
+corroborate an upregulated mTORC1 Hallmark program. The proposal retains this result
+alongside an underreported rapamycin nonbenefit observation and a different-cell-state
+everolimus-associated BUBR1 decrease. Neither establishes MVA harm; together they
+weaken the former sole-lead choice. The evidence pipeline preserves a conditional
+mTOR experiment with functional and regeneration safeguards.
 
 ## Pitch and delivery
 
-The [pitch document](jeweled_track2_pitch_reconciled.md) contains a proposed text-only revision explaining the everolimus hypothesis and decisive experiments, followed by the unchanged approved narration. The approved 180-second Lauren / Cartesia Sonic 3.6 movie and its 24 caption segments use the previous 293-word arimoclomol/NAC script and remain [private GitHub release attachments](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920); access requires repository permission. That recording does not present the new lead. The proposed revision is not recorded or approved. Media work and Vimeo are on hold at the user's request; competition submission remains pending.
+The [pitch document](jeweled_track2_pitch_reconciled.md) contains a proposed text-only revision explaining the restoration comparison and decisive experiments, followed by the unchanged approved narration. The approved 180-second Lauren / Cartesia Sonic 3.6 movie and its 24 caption segments use the previous 293-word arimoclomol/NAC script and remain [private GitHub release attachments](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920); access requires repository permission. That recording does not present the current niacin/arimoclomol comparison. The proposed revision is not recorded or approved. Media work and Vimeo are on hold at the user's request; competition submission remains pending.
 
 Claude Code and Codex used personal subscriptions with training on the user's content disabled, as confirmed by the user. Cartesia plan/tier and training/retention settings remain unverified and are disclosed separately.
 

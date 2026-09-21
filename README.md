@@ -1,7 +1,7 @@
 # MVA: from genome evidence to a testable rescue experiment
 
 Team **jeweled** asks whether a recessive BUB1B mechanism explains the supplied MVA case,
-and whether normalizing harmful mTORC1 signaling could improve muscle function. Track 1's CSV
+and whether restoring usable BUBR1 could preserve productive divisions and muscle renewal. Track 1's CSV
 and both research reports are prepared; submission is pending and Vimeo is on hold.
 
 ## Start here
@@ -28,9 +28,9 @@ commands, versions, input/output identities and results; it is not itself a biol
 
 **Track 2 — turn the mechanism into an experiment**
 
-6. Test whether excess mTORC1 activity drives a muscle defect in a qualified BUB1B model.
-7. Test everolimus at measured exposure, alongside genetic controls and a tumor counter-screen.
-8. Measure mature muscle function and absolute output; separately preserve progenitor regeneration.
+6. Establish which BUB1B products survive and whether their useful function can be restored.
+7. Compare niacin with arimoclomol at justified exposure, with genetic and tumor controls.
+8. Measure productive divisions and absolute muscle output; qualify senolysis as an alternative.
 
 ## Quick start: public HG002 chromosome 20
 
@@ -73,14 +73,14 @@ The stop has a two-star ClinVar P/LP assertion and the missense remains VUS. The
 [report](reports/jeweled_track1_report_submission.md) explains the two-allele census, ten-gene
 differential, 288 bp phase blocks versus a 10,911 bp gap, and retracted mosaic signal.
 
-**Track 2:** **everolimus** is the selected experimental lead for mTORC1 normalization if excess
-signaling drives a demonstrated muscle defect. A different BubR1 truncation model provides the
-muscle-pathway precedent, without a rapalog rescue experiment. Elevated signaling could instead
-be compensatory. Partial genetic normalization must improve function before drug effects can
-support this mechanism; mature myotubes and progenitor differentiation/regeneration are separate
-tests. Everolimus is a pragmatic rapalog choice, not proven superior to sirolimus.
-Our [public mouse RNA reanalysis](workflow/track2-rna/README.md) found no positive mTORC1
-Hallmark support (adjusted P=0.983); the lead remains conditional on direct pathway and functional tests.
+**Track 2:** prioritize **usable BUBR1 restoration**, testing **niacin (nicotinic acid)**
+with **arimoclomol as a challenger**. Human muscle NAD engagement and a separate NAD/SIRT2–BUBR1
+stability study justify investigating niacin; neither establishes mutant rescue. Arimoclomol's
+HSP70-to-BUBR1 bridge also remains unproved. Senescent-cell clearance has the strongest same-gene
+mouse functional precedent but lacks a validated eligible drug implementation. Everolimus is now
+a conditional alternative: our [RNA reanalysis](workflow/track2-rna/README.md) gives no positive
+mTORC1 corroboration, and additional literature raises nonbenefit and residual-BUBR1 concerns.
+No drug winner or clinical benefit is established.
 
 The [proposal](reports/jeweled_track2_report_submission.md) and
 [evidence pipeline](reports/appendices/track2-evidence-pipeline.md) explain the
@@ -95,7 +95,7 @@ has run, and neither chromosome correction nor clinical efficacy is claimed.
 **Low SV recall (8.6% DELLY; 21.3% SvABA) limits the causal search:** a negative short-read result
 cannot exclude difficult structural alternatives. Annotation locates misses without proving their
 cause. One public chromosome and synthetic tests do not establish case-wide clinical sensitivity.
-Phase, N1002K function, harmful mTORC1 activation and drug benefit remain unresolved. EPCR is a research judgment.
+Phase, endogenous allele function, rescue competence and drug benefit remain unresolved. EPCR is a research judgment.
 Exploratory control development closed on 20 September; remaining work concerns reproduction,
 documented defects and submission delivery before **24 October 2026**.
 

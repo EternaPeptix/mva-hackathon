@@ -1,11 +1,11 @@
 # Public mouse muscle analysis for Track 2
 
 This secondary analysis tests the specificity of the transcriptional rationale
-behind the elected mTORC1 route. It uses GSE134781: three independent mice per
+behind the proposed mTORC1 route. It uses GSE134781: three independent mice per
 genotype (WT, BubR1+/L1002P, BubR1+/X753), age three months, gastrocnemius. It is
 neither a patient experiment nor independent biological replication of the study.
 
-## Finding: no positive transcriptional corroboration for the lead
+## Finding: no positive transcriptional corroboration for mTORC1
 
 The analysis retained **12,989 of 24,062 genes**. None of the 150 planned
 Hallmark/contrast tests met global FDR <0.05; the smallest adjusted value was
@@ -21,7 +21,7 @@ This does **not** establish suppressed or normal mTORC1 activity. CAMERA asks
 whether a program differs relative to the expressed-gene background; it does not
 test phosphorylation, causal dependence or pathway equivalence. Median fold
 changes are descriptive and are not the CAMERA test statistic. The deposited
-counts supply no positive Hallmark support for the elected mechanism under this
+counts supply no positive Hallmark support for this mechanism under this
 analysis. The paper's small phosphoprotein experiment remains separate evidence.
 
 No mTORC1 contrast passed any of the 12 sensitivity analyses. For X753–WT its
@@ -48,12 +48,12 @@ All [pathway results](results/pathways.tsv), [sensitivity results](results/sensi
 Samples differ within WT and L1002P as well as between groups; unidentified batch
 or composition effects cannot be excluded. TMM factors ranged 0.886–1.082.
 
-**Decision consequence:** everolimus remains a narrow, conditional research
-nomination because of the separate muscle-signaling precedent and established
-drug action. This analysis lowers the claimed convergence of evidence. It neither
-validates the lead nor supplies affirmative support for a rival. Case-relevant
-signaling and partial-genetic functional rescue must be shown before advancing
-the mTOR rationale; the count result must remain visible if it is unfavorable.
+**Decision consequence:** this analysis lowers the claimed convergence behind
+mTORC1 and supplies no affirmative support for a rival. Combined with additional
+literature counterevidence described in the [current proposal](../../reports/jeweled_track2_report_submission.md),
+everolimus is now a conditional alternative to the restoration program. Relevant
+signaling and partial-genetic functional rescue must precede advancement of the
+mTOR rationale. This selection change does not alter any statistical result.
 
 ## Analysis choices fixed before inspecting the pathway results
 
