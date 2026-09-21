@@ -70,3 +70,12 @@ The exact required acknowledgement appears in [report provenance](../../reports/
 A bounded unauthenticated lookup verified **[Rare Disease, Real Kid. The 2026 MVA Hackathon — syn76251147](https://www.synapse.org/Synapse:syn76251147/wiki/642892)** and the [Hugging Face dataset resource](https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data). The sole public Synapse wiki confirms 24 October 2026 close and the open-output/controlled-data distinction. It has no dedicated formatted dataset citation or DOI. Cite the verified project reference now and recheck the dataset reference supplied there at publication, as the rules require. Do not invent a DOI or impose one as an additional requirement. These links do not make the underlying case data public.
 
 The revision remains **private and unsubmitted**. Vimeo delivery, competition submission and Cartesia settings retain their disclosed pending/unverified status. This content review does not authorize public visibility, waive the organizer terms or turn limited findings into clinical conclusions.
+
+### Scientific-review wording corrections
+
+The later adversarial review corrects the first-anaphase endpoint label, the conditional
+compound-heterozygote scoring example and the justification for the EPCR revision.
+The same selected findings remain; no new case records, inputs or experimental results
+are added. The inventory updates the affected document identities. The CSV and drug
+ranking are unchanged; reviewer agreement does not establish probability calibration.
+Vimeo work is now on hold at the user's request pending review and possible recalibration.

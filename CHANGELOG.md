@@ -12,6 +12,18 @@ reassess the exact-pair EPCR as 0.8. The new CSV keeps phase unknown. PM2 Suppor
 is applied to both alleles, and PM3 Supporting to the missense using an independent
 Pathogenic partner assertion. No new segregation or functional evidence is claimed.
 
+### Adversarial scientific review
+
+Corrected the founder endpoint label to first-anaphase yield without a scored visible
+error; it does not by itself establish completed cytokinesis or viable progeny.
+Clarified that the organizer's compound-heterozygote example is a conditional scoring
+rule, not confirmation of the hidden answer's allelic structure. Removed the argument
+that a downward EPCR revision requires new adverse biological evidence, and made the
+observed missense-versus-hidden-second-hit judgment explicit. The review supplied no
+better-calibrated numerical estimate or contradiction requiring reversal of the drug
+ranking; EPCR 0.8 and the research ranking remain declared judgments. Vimeo is on hold
+at the user's request pending review and possible recalibration.
+
 ## 20 September 2026 — historical source additions
 
 The sections below are the original release notes. Status, host names, version labels,

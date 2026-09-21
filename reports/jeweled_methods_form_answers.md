@@ -102,7 +102,7 @@ The lead therapeutic thesis is to restore the abundance of residual, functional 
 
 Arimoclomol is the first experimental drug priority if a rescuable protein-quality defect is demonstrated. NAC is a downstream stress-protection comparator. The decisive genetic experiment precedes drug interpretation: if near-physiological N1002K abundance cannot restore function, an abundance-only strategy fails. Primary literature, exposure and tumor context inform this selection. [Track 2 report](jeweled_track2_report_submission.md).
 
-Drug experiments require measured exposure, genetic correction controls and functional endpoints. First-division errors are interpreted with division yield per starting cell, so arrest or selection cannot masquerade as rescue. A tumor-protection counter-screen is a separate advancement gate. No drug-response experiment has been performed.
+Drug experiments require measured exposure, genetic correction controls and functional endpoints. First-division errors are interpreted with first-anaphase yield without a scored visible error per starting cell, so arrest or selection cannot masquerade as rescue. A tumor-protection counter-screen is a separate advancement gate. No drug-response experiment has been performed.
 
 ### Was candidate identification automated (e.g., via a drug-target database query or LLM-assisted search), or primarily manual literature review and expert curation?
 
@@ -140,7 +140,7 @@ No consolidated person-hour or cost ledger was measured. Work comprised computat
 
 We propose restoring usable BUBR1 protein as the lead therapeutic strategy for a BUB1B stop-plus-missense hypothesis. The key experiment tests whether restoring N1002K abundance restores mitotic function. This distinguishes a potentially rescuable dosage defect from a function-specific defect and determines whether a proteostasis drug deserves further testing.
 
-Arimoclomol is the first experimental drug priority; NAC is a comparator for downstream stress protection. Neither has demonstrated efficacy for this genotype. Qualification of a consented model, genetic correction controls and exposure measurement precede drug interpretation. First-mitosis errors are assessed jointly with division yield per pretreatment starting cell, retaining death, non-entry, slippage and tracking loss. Marker changes or selective survival alone cannot establish functional rescue.
+Arimoclomol is the first experimental drug priority; NAC is a comparator for downstream stress protection. Neither has demonstrated efficacy for this genotype. Qualification of a consented model, genetic correction controls and exposure measurement precede drug interpretation. First-mitosis errors are assessed jointly with first-anaphase yield without a scored visible error per pretreatment starting cell, retaining death, non-entry, slippage and tracking loss. Marker changes or selective survival alone cannot establish functional rescue.
 
 A parallel oncology counter-screen tests tumor protection and interactions with a confirmed active regimen. Credible adverse effects block advancement; imprecise results remain inconclusive. Meaningful benefit/adverse-effect margins and confirmation rules must be set before confirmatory experiments.
 

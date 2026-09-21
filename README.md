@@ -77,7 +77,7 @@ protein abundance restores function. The resulting drug priorities are:
 
 | Research rank | Candidate | Rationale and proposed test |
 |---|---|---|
-| 1 | **Arimoclomol** | Test proteostasis-mediated abundance rescue; compare vehicle/drug first-mitosis errors and productive division yield in a qualified variant model, with genetic correction controls. |
+| 1 | **Arimoclomol** | Test proteostasis-mediated abundance rescue; compare vehicle/drug first-mitosis errors and first-anaphase yield without a scored visible error per starting cell in a qualified variant model, with genetic correction controls. |
 | 2 | **Acetylcysteine (NAC)** | Test downstream stress protection if a measured oxidative defect exists; distinguish improved cell function/survival from restored segregation. |
 
 The [Track 2 proposal](reports/jeweled_track2_report_submission.md) connects each drug to its
