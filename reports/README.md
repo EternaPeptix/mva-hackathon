@@ -48,6 +48,9 @@ The [route decisions](appendices/track2-route-decisions.md) compare the alternat
 A subsequent [clean-state rescore](reviews/track2-clean-state-20260921.md) assessed
 the corrected artifacts without seeing earlier reviews or scores. It is an
 unofficial assessment, separate from the initial reviewer's correction check.
+The current text additionally incorporates the human-review correction on
+Pirinen's treated-control strength gains and the slide's patient-age description;
+the archived score predates those changes.
 
 Claude Code and Codex used personal subscriptions with training disabled, as confirmed by the user. Cartesia Sonic 3.6/Skylar uses the Free plan, verified on 21 September; its training/retention settings remain unverified. The cover is an AI-generated conceptual illustration.
 

@@ -34,7 +34,7 @@ retaining their useful assay controls. It supplies no clinical dosing proposal.
 | [Tang 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3532042/) | Rapamycin, Torin1 and mTOR knockdown did not preferentially inhibit trisomic MEF accumulation or enhance AICAR's effect. | A negative for that antiproliferation hypothesis; muscle-function rescue was not tested. It supplies no support for an aneuploid-cell-killing rationale for everolimus. |
 | [Suijkerbuijk 2010](https://pubmed.ncbi.nlm.nih.gov/20516114/) | Selected human MVA BUBR1 mutants have abundance defects; forced expression can restore a checkpoint response. | N1002K was not tested. HSP90 dependence does not demonstrate arimoclomol/HSP70 rescue, and a nocodazole response does not establish spontaneous segregation fidelity. |
 | [North 2014, Figs. 4–6](https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/) | NMN increased BUBR1 abundance in WT MEFs, largely through SIRT2, and in aged WT mouse testes. Genetic SIRT2 overexpression improved selected cardiac outcomes and male survival in BubR1 hypomorphs. | The drug experiments used 1 mM NMN for 24 hours in cells and 500 mg/kg/day intraperitoneally for seven days in mice. NMN did not supply the genetic survival result. WT/hypomorphic protein is not N1002K; small size, cataracts and lordokyphosis were not reversed by SIRT2 overexpression. |
-| [Pirinen 2020](https://pubmed.ncbi.nlm.nih.gov/32386566/) | In a nonrandomized open-label study of five mitochondrial-myopathy patients and ten controls, niacin increased NAD, including patient muscle NAD; strength also increased. | Different disease, small uncontrolled study, no BUBR1 measurement. The slow-release preparation and adult study exposure cannot be assumed equivalent to every prescription formulation or to a child's exposure. |
+| [Pirinen 2020, Fig. 3 and methods](https://www.brennerlab.net/files/Pirinen20.pdf) | Five mitochondrial-myopathy patients ([ages 17–70, Table S1](https://ars.els-cdn.com/content/image/1-s2.0-S155041312030190X-mmc1.pdf)) and ten matched healthy controls enrolled; both received niacin, escalated to 750–1,000 mg/day. Patient muscle NAD reached control levels. Strength improved in both groups; patient knee extension was 1.1-fold at ten months. Controls were followed for four months; two withdrew. | Nonrandomized, open-label, no placebo arm or BUBR1 measurement. Healthy controls were treated comparators, not untreated efficacy controls; this does not establish disease-specific strength rescue. Use as muscle NAD-engagement evidence. The ten-month patient and four-month control changes are not a matched-time comparison. The studied formulation and exposure do not establish an appropriate exposure for this child. |
 | [Membrez 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10963276/) | Human-myotube NA/NAPRT experiments provide a direct-utilization precedent; exact results below. | No BUBR1, mutant-function or clinical-exposure result. |
 | [Aaltio 2024](https://pubmed.ncbi.nlm.nih.gov/39173541/) | A child with MTTN myopathy had metabolic improvement after niacin corrected NAD deficiency. | Disease progressed with meager clinical response: NAD normalization alone is not useful tissue rescue. |
 | [Niacin ER label, revised February 2026](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=dd60fe81-3d54-4a29-9502-601be89c575e) | Nicotinic-acid products have approved lipid-related uses. | Pediatric safety, effectiveness and pharmacokinetics are unestablished in this label. Formulation, liver, muscle and metabolic effects require review; approval does not establish an MVA indication. |
@@ -327,6 +327,20 @@ engagement. Clinical total serum or blood concentrations are not culture-medium
 free concentrations. Match handling and observation periods; compare justified
 exposure and engagement rather than equal nominal concentrations between drugs.
 
+Estimate drug-versus-vehicle effects within affected and corrected cultures at the
+same endpoint, retaining baseline measurements where available. A pretreatment-to-
+follow-up gain alone cannot pass: maturation, handling or repeated measurement
+may alter output. Report each genotype's treatment contrast and its uncertainty;
+assess specificity through their difference (the genotype-by-treatment interaction),
+not by comparing which separate P values are significant. Include this contrast
+and its inference status in the prespecified analysis plan; any confirmatory
+specificity claim needs its own multiplicity treatment. A general benefit in both
+genotypes can satisfy the functional rule, but does not establish selective
+reversal of the disease defect or BUBR1 mediation. Neither a nonsignificant
+interaction nor a ceiling in corrected cultures proves equivalent responses.
+This distinction addresses the treated-control strength gains in Pirinen without
+assuming those gains were entirely practice effects or that niacin is ineffective.
+
 Duration must be sufficient for each proposed mechanism before a negative response
 is called interpretable. High-exposure mechanistic controls can inform biology but
 cannot pass the repurposing gate. Record formulation and active analyte; a clinical
@@ -435,8 +449,8 @@ evidence of preserved reserve. Cell counts or simulations cannot set sample size
 For one qualified genotype/model, freeze one exposure regimen per drug and one
 primary endpoint/time per functional cohort before independent confirmation.
 The four possible claims are everolimus or niacin benefit in progenitor-derived
-output or established-muscle output. Each claim jointly requires improvement
-beyond the chosen useful-benefit margin and preservation of the other cohort,
+output or established-muscle output. Each claim jointly requires improvement in affected cultures versus time-matched
+vehicle beyond the chosen useful-benefit margin and preservation of the other cohort,
 renewable progenitor reserve and chromosome fidelity. The latter comparisons use
 predeclared acceptable-loss margins, not a failure to detect harm.
 

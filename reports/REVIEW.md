@@ -2,8 +2,12 @@
 
 **21 September 2026. Awaiting human review; Track 2 has not been submitted.**
 The repository now contains the report, evidence and complete new Skylar pitch.
-The scientific report and media match the artifacts assessed in the latest
-clean-state review. This update adds delivery and navigation, not new findings.
+The current report incorporates a human-review correction to the niacin evidence:
+Pirinen's treated healthy controls also improved in strength. The report, route
+table, methods and experimental plan now distinguish NAD engagement, functional
+benefit and disease-specific rescue. The media claim only NAD engagement from
+that study. Slide 4 now says “five patients”: the study included a 17-year-old.
+Narration and captions are unchanged.
 
 ## Scientific proposal
 
@@ -31,9 +35,11 @@ The earlier Lauren recording is historical and is superseded by this pitch.
 The [clean-state AI review](reviews/track2-clean-state-20260921.md) records a fresh
 rubric score, deductions and remaining suggestions. The reviewer received no
 conversation history or previous reviews/scores. Its assessment is unofficial.
-The report, slides and narration are unchanged since that review; the proposed
-execution/resource-plan addition and minor “each reviewed route” wording change
-remain suggestions for consideration.
+That score applies to the identified earlier revision, before the niacin
+correction above; the corrected text has not received a new rubric score. The
+slide 4 age description is also corrected; narration remains unchanged. The proposed execution/resource-plan
+addition and minor “each reviewed route” wording change remain suggestions
+for consideration.
 
 The repository remains private. Human approval precedes public video upload and
 Track 2 submission. Cleanup of 512S2 follows research closeout and preservation of

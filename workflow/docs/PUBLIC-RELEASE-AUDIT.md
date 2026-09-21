@@ -195,3 +195,16 @@ biological measurement. A separate packaging check found no local-path or
 credential-like content in the media/review payloads. These are private review
 copies, with human approval, public video publication and Track 2 submission still
 pending. The rescore identifies its assessed revision and is not an official score.
+
+### Niacin evidence correction after human review
+
+The main report, route table, evidence pipeline and Track 2 methods now disclose
+Pirinen's treated-control strength improvements and distinguish muscle NAD
+engagement from disease-specific rescue. The proposed matched treatment controls
+and interpretation of genotype-by-treatment effects are explicit. This is a
+primary-literature interpretation correction, without new case data, biological
+experiments or a change to the drug pair. The prior clean-state review remains
+unaltered and is identified as predating the correction. Slide 4 in the deck and
+video replaces “five adults” with “five patients,” reflecting the participant aged
+17 in Table S1. Track 1, narration, captions and spoken storyboard are unchanged;
+private human review and the submission pause continue.

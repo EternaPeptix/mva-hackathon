@@ -32,7 +32,7 @@ summary names identify the recovery sources without implying they are included.
 The supplied-VCF rankings, earlier two-lane phasing and final four-lane reviews
 are explicitly separated. The CSV, EPCR and classifications are unchanged.
 
-The pitch document now contains the new eight-slide everolimus/niacin narrative. It supersedes the historical Lauren arimoclomol/NAC recording as the proposed submission pitch. The recording, editable deck, captions and spoken storyboard are included unchanged in the [review package](REVIEW.md); neither review approval nor public upload is claimed.
+The pitch document now contains the new eight-slide everolimus/niacin narrative. It supersedes the historical Lauren arimoclomol/NAC recording as the proposed submission pitch. The recording, editable deck, captions and spoken storyboard are included in the [review package](REVIEW.md); neither review approval nor public upload is claimed.
 
 The current opening connects the already recorded muscle atrophy and failure to
 thrive to the proposed functional endpoint. The report explicitly compares
@@ -86,9 +86,13 @@ The former [private Lauren release](https://github.com/EternaPeptix/mva-hackatho
 The [clean-state rescore](reviews/track2-clean-state-20260921.md) is an AI reviewer
 assessment of revision `3bae97436b6767bbbcfa04e1ddcd5fa23e4598b7` and the identified
 media. The imported review retains its original wording and artifact identities.
-The scientific report, experimental plan, route table, methods and pitch remain
-unchanged in this packaging update. The reviewer score is neither an organizer
-score nor a measurement of clinical validity.
+The subsequent human-review correction makes Pirinen's treated-control strength
+gains explicit in the report, experimental plan, route table and Track 2 methods.
+It adds no new experiment and does not change the drug pair. Slide 4 in the deck
+and video now says “five patients” because one participant was 17. Narration,
+captions and storyboard remain unchanged; their Pirinen claim is muscle NAD
+engagement. The archived score predates these corrections; it is neither a score of the latest text nor an
+organizer score or measurement of clinical validity.
 
 Claude Code and Codex were used on personal subscriptions with training on the user's content disabled, according to the user. Exact historical model/plan names are unverified. Candidate-level evidence and report text were reviewed with hosted assistants. Cartesia Sonic 3.6 supplies stock-Skylar narration on the Free plan, verified on 21 September 2026; no voice was cloned. Cartesia training/retention settings and an immutable model snapshot remain unverified. The Claude/Codex confirmation does not establish Cartesia settings. The cover illustration was generated with the OpenAI image-generation tool through Codex and is conceptual artwork, not a biological observation.
 
