@@ -1,7 +1,7 @@
 {
   "title": "Preserving muscle in MVA",
   "team": "EternaPeptix / jeweled",
-  "status": "Human review draft; no Track 2 submission or public video upload",
+  "status": "Niacin-priority review revision; no Track 2 portal submission; prior Vimeo video has the superseded ordering",
   "voice": "Skylar",
   "voice_id": "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4",
   "slides": [
@@ -16,8 +16,8 @@
     },
     {
       "id": "genotype",
-      "title": "The gene points to a cell-division problem",
-      "narration": "Our genetic hypothesis involves Bub one B, which makes the chromosome-checking protein Bub R one. One variant creates an early stop. The other changes one amino acid. They must occupy opposite gene copies for this compound-heterozygous explanation. Confirmed cis means both share one copy and retires that explanation. The missense variant's function remains unproved.",
+      "title": "Protein supply is a testable mechanism",
+      "narration": "Bub one B makes the checkpoint protein Bub R one. Our stop-plus-missense pair matches a reported MVA one pattern: reduced protein supply. The missense protein's stability and function remain unmeasured. Trans phase needs confirmation. Confirmed cis retires this pair as the compound-heterozygous explanation.",
       "sources": [
         "reports/appendices/track1-case-evidence.md",
         "https://pubmed.ncbi.nlm.nih.gov/20516114/",
@@ -26,19 +26,9 @@
       ]
     },
     {
-      "id": "everolimus",
-      "title": "Everolimus tests excess growth signaling",
-      "narration": "Everolimus inhibits em tor complex one, which regulates cell growth. Its established target makes it practical to test. The supporting mouse blot shows stronger phosphoprotein bands in two single-allele carriers than two controls. Without matching total-protein measurements, quantification or statistical tests, increased pathway activity is unproved. Harmful excess and useful muscle benefit still need testing.",
-      "sources": [
-        "https://www.jci.org/articles/view/126863/version/2",
-        "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04",
-        "reports/appendices/track2-evidence-pipeline.md"
-      ]
-    },
-    {
       "id": "niacin",
       "title": "Niacin tests usable protein restoration",
-      "narration": "Our challenger is niacin, the nicotinic acid medicine. It increased muscle N A D in a small study of another disease. Separate experiments connect N A D and the enzyme SIRT two to Bub R one stability. The missing link is whether niacin restores useful protein and muscle function in this genotype. We test the medicines separately.",
+      "narration": "Niacin is our lead because it targets the protein-supply hypothesis. It raised muscle N A D in another myopathy. Separate experiments connect N A D and SIRT two to Bub R one stability. Niacin has not rescued this genotype. We test whether it increases usable protein and useful muscle.",
       "sources": [
         "https://pubmed.ncbi.nlm.nih.gov/32386566/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/",
@@ -46,13 +36,25 @@
       ]
     },
     {
+      "id": "everolimus",
+      "title": "Everolimus is a downstream probe",
+      "narration": "Everolimus is our downstream probe. It inhibits em tor complex one, a growth pathway. A small carrier-mouse blot showed stronger phosphoprotein bands, without quantified pathway activity. Rapamycin preserved stem-cell numbers in a different fly model. Neither establishes muscle rescue. We require functional benefit with preserved growth and renewal.",
+      "sources": [
+        "https://www.jci.org/articles/view/126863/version/2",
+        "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04",
+        "reports/appendices/track2-evidence-pipeline.md",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13121444/"
+      ]
+    },
+    {
       "id": "accounting",
-      "title": "A better percentage can hide a loss",
-      "narration": "Our completed computer model shows why percentages can mislead. In one assumed scenario, removing abnormal cells improved the chromosome-normal fraction while reducing total muscle-cell output over time. These are simulated results, not drug effects. Our experiment therefore follows each starting cell, including those that die or stop dividing.",
+      "title": "Cell selection and tissue output",
+      "narration": "Our cell-selection explorer exposes a misleading result. In one simulated scenario, the chromosome-normal fraction rose sixteen point eight percentage points while total differentiated-cell time fell eleven percent. Other teams can inspect this tradeoff across declared assumptions. Our proposed experiment tracks starting cells, including those that die or stop dividing.",
       "sources": [
         "workflow/track2-model/README.md",
         "workflow/track2-model/population-results.json",
-        "reports/appendices/founder-ledger.md"
+        "reports/appendices/founder-ledger.md",
+        "workflow/track2-model/explorer/index.html"
       ]
     },
     {
@@ -75,17 +77,13 @@
     },
     {
       "id": "next",
-      "title": "A testable plan for a laboratory partner",
-      "narration": "We have completed sequence review, evidence review and computational study design. No biological drug experiment has run. We seek a consented cell model and laboratory partner. The deliverable is a reproducible decision: advance a medicine with measured functional benefit, or explain why none passes. The method can then be tested in other chromosome-instability disorders.",
+      "title": "Public reuse and the next experiment",
+      "narration": "We also ran the workflow on a public, synthetic TRIP thirteen example. It shows why a Bub R one restoration hypothesis cannot simply transfer to another gene. That demonstrates reuse, not treatment validation. Next we need a consented muscle model and laboratory partner to test niacin, with everolimus as comparator.",
       "sources": [
         "reports/jeweled_track2_report_submission.md",
-        "reports/appendices/track2-evidence-pipeline.md"
+        "reports/appendices/track2-evidence-pipeline.md",
+        "workflow/track2-transfer/README.md"
       ]
     }
-  ],
-  "duration_seconds": 180,
-  "speech_seconds": 176.48,
-  "silence_seconds": 3.52,
-  "spoken_word_count": 417,
-  "caption_count": 49
+  ]
 }

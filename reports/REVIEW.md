@@ -1,46 +1,47 @@
-# Track 2 review package
+# Track 2: testing two ways to preserve muscle
 
-**21 September 2026. Awaiting human review; Track 2 has not been submitted.**
-The repository now contains the report, evidence and complete new Skylar pitch.
-The current revision incorporates three human-review corrections: Pirinen's
-strength gains also occurred in treated healthy controls; Sieben's carrier-mouse
-blot does not establish increased pathway activity; and confirmed cis retires the
-proposed compound-heterozygous explanation. The report, methods, evidence tables
-and experimental decisions now state those limits explicitly. Slides 2 and 3,
-their Skylar narration and captions are corrected to match. Slide 4 retains the
-previous “five patients” age correction.
+**21 September 2026. Research proposal; Track 2 has not been submitted.**
 
-## Scientific proposal
+We nominate **niacin as the research lead and everolimus as a downstream probe,
+tested separately**. Niacin addresses the published protein-insufficiency mechanism
+through a NAD/SIRT2/BUBR1 restoration hypothesis; everolimus tests whether a harmful
+growth signal contributes to muscle dysfunction. Neither has demonstrated rescue
+of this genotype. Their shared goal is useful muscle output with preserved renewal
+and chromosome accuracy.
 
-| Material | What to review |
+Completed work comprises allele-product reconstruction, literature and route
+comparison, synthetic analysis of misleading cell fractions, and a reproducible
+public mouse RNA reanalysis. The RNA analysis did not corroborate an mTORC1
+transcriptional program; the synthetic example informs measurement design.
+The next milestone is an interpretable affected-versus-corrected muscle model.
+Laboratory and patient-model access remain unsecured.
+
+| Material | Purpose |
 |---|---|
-| [Main report](jeweled_track2_report_submission.md) | Plain-language case for testing everolimus and niacin separately |
-| [30-route decision table](appendices/track2-route-decisions.md) | Evidence, weaknesses and conditions for reconsidering each reviewed route |
-| [Experimental plan](appendices/track2-evidence-pipeline.md) | Model qualification, exposure, muscle function, renewal and chromosome fidelity |
-| [Track 2 methods](jeweled_methods_form_answers.md#track-2-drug-repositioning) | Sources, analysis and disclosure answers |
+| [Revised narration](jeweled_track2_pitch_reconciled.md) and [local pitch media](media/jeweled_track2_skylar.mp4) | Niacin-first proposal, eight slides and 180 seconds |
+| [Main report](jeweled_track2_report_submission.md) | Evidence chain, counterevidence, completed findings and first experiment |
+| [Sequence/population analysis](../workflow/track2-model/README.md) and [public RNA analysis](../workflow/track2-rna/README.md) | Reproducible computation with its biological limits |
+| [Cell selection and tissue output explorer](../workflow/track2-model/explorer/README.md) | Offline interactive comparison of retained synthetic fractions and absolute output; aggregate compartments, not pedigrees |
+| [Public-source transfer demonstration](../workflow/track2-transfer/README.md) and [results](../workflow/track2-transfer/results/transfer.md) | Same decision process on BUB1B and a synthetic TRIP13 example; no second-patient validation |
+| [Alternative-route decisions](appendices/track2-route-decisions.md) | Reasons for selection, weaknesses and evidence that would change each decision |
+| [Experimental plan](appendices/track2-evidence-pipeline.md#first-execution-milestone-and-dependencies) | Initial milestone, resource dependencies and downstream confirmation |
+| [Track 2 methods](jeweled_methods_form_answers.md#track-2-drug-repositioning) and [provenance](PROVENANCE.md) | Methods answers, data handling, sources and AI disclosure |
 
-## New pitch
+The [editable slides](media/jeweled_track2_slides.pptx),
+[MP4](media/jeweled_track2_skylar.mp4) and [SRT captions](media/jeweled_track2_skylar.srt)
+are the review-package media paths. The revised Skylar movie is 180 seconds: 166 seconds of complete speech and
+14 seconds of transitions, with eight visually reviewed slides. No independent
+listening review is claimed. The
+[earlier Vimeo review video](https://vimeo.com/1228990028) has the superseded
+everolimus-first order and awaits replacement. Use GitHub's download option if
+local media do not preview. The repository remains private during the event.
 
-- [Skylar video, MP4](media/jeweled_track2_skylar.mp4): exactly three minutes,
-  1920 × 1080, eight slides, with complete narration and a selectable caption track.
-- [Editable slide deck, PPTX](media/jeweled_track2_slides.pptx): sources in speaker notes.
-- [Captions, SRT](media/jeweled_track2_skylar.srt): timed to the revised narration; display depends on the player.
-- [Readable narration](jeweled_track2_pitch_reconciled.md) and
-  [spoken storyboard](media/track2-storyboard.json).
+[Submission status and retained review history](README.md) are separate from the
+scientific evidence. Prior AI review scores are unofficial and revision-specific.
 
-Use the file page's download option if GitHub does not preview a media format.
-The earlier Lauren recording is historical and is superseded by this pitch.
-
-## Optional reviewer assessment
-
-The [clean-state AI review](reviews/track2-clean-state-20260921.md) records a fresh
-rubric score, deductions and remaining suggestions. The reviewer received no
-conversation history or previous reviews/scores. Its assessment is unofficial.
-That score applies to the identified earlier revision, before these human-review
-corrections; it is not a score of the latest report or media. The proposed
-execution/resource-plan addition and minor “each reviewed route” wording change
-remain suggestions for consideration.
-
-The repository remains private. Human approval precedes public video upload and
-Track 2 submission. Cleanup of 512S2 follows research closeout and preservation of
-the submitted materials and required reproduction artifacts.
+The [independent review of this niacin-first package](reviews/track2-niacin-first-20260921.md)
+scored it **77/100** (29 rigor, 20 impact, 17 innovation, 11 scalability).
+It found the scientific proposal reviewable and the lead order defensible, while
+retaining biological and execution gaps. Its artifact hashes identify the reviewed
+version; the subsequent acknowledgement addition does not change the science.
+Delivery findings include the superseded public video and incomplete submission.

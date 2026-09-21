@@ -1,18 +1,19 @@
 # Report provenance and scope
 
-**Review revision: 21 September 2026.** This directory brings the revised research reports, methods answers, prediction CSV and new Skylar pitch materials into one browsable checkout. The update retains the genome-informed sequence/population analysis and selects everolimus as the lead drug hypothesis and niacin as the primary comparator after comparative evidence review. The repository remains private. Track 1 model 1 now has a confirmed automated score; the [submission record](README.md#track-1-submission-record) identifies the exact upload and pending final report-persistence verification. Track 2 remains a draft; no public repository release has occurred. The public HG002 depth measurement, sequence reconstruction and assumption-based simulations are distinct from patient experiments; no patient drug-response result is available.
+**Review revision: 21 September 2026.** This directory brings the revised research reports, methods answers, prediction CSV and new Skylar pitch materials into one browsable checkout. The update retains the genome-informed sequence/population analysis and selects niacin as the research lead and everolimus as a downstream probe after mechanism-focused evidence review. The repository remains private. Track 1 model 1 now has a confirmed automated score; the [submission record](README.md#track-1-submission-record) identifies the exact upload and pending final report-persistence verification. Track 2 remains a draft; no public repository release has occurred. The public HG002 depth measurement, sequence reconstruction and assumption-based simulations are distinct from patient experiments; no patient drug-response result is available.
 
 ## Evidence scope
 
 The current [Track 1 report](jeweled_track1_report_submission.md), [Track 2 report](jeweled_track2_report_submission.md) and [methods form](jeweled_methods_form_answers.md), together with the [causal interpretation appendix](appendices/causal-interpretation.md), state the adopted interpretation. The subjective exact-pair EPCR is **0.8**. Its revision from 0.35 reflects reappraisal of the supplied clinical context and completed evidence, without new segregation or functional data. Unknown phase is retained; N1002K remains a VUS. No treatment response is claimed.
 
-The reports in this checkout and the new [Track 2 evidence pipeline](appendices/track2-evidence-pipeline.md) govern the adopted proposal. Older internal report copies may be stale; this update does not claim synchronization of every working document. The imported [genome-informed analysis](../workflow/track2-model/README.md) retains its separate scope: reference-sequence reconstruction and uncalibrated population scenarios, without patient-to-drug response estimates. The route selection is qualitative; no model output or literature tally supplies a numerical therapeutic rank. Senolysis remains the strongest same-gene functional alternative but needs a selective eligible drug implementation. The selected everolimus/niacin pair tests two distinct hypotheses; its membership is less sensitive than its ordering to prioritizing actual drug implementation versus proximal causal evidence. Arimoclomol and dasatinib remain conditional reserves. The RNA null supplies no additional support and does not adjudicate the qualitative carrier-blot observation; the blot does not establish increased pathway activity.
+The reports in this checkout and the new [Track 2 evidence pipeline](appendices/track2-evidence-pipeline.md) govern the adopted proposal. Older internal report copies may be stale; this update does not claim synchronization of every working document. The imported [genome-informed analysis](../workflow/track2-model/README.md) retains its separate scope: reference-sequence reconstruction and uncalibrated population scenarios, without patient-to-drug response estimates. The route selection is qualitative; no model output or literature tally supplies a numerical therapeutic rank. Senolysis remains the strongest same-gene functional alternative but needs a selective eligible drug implementation. The niacin/everolimus pair tests two distinct hypotheses. The revised order prioritizes the published protein-insufficiency mechanism over ease of downstream drug implementation; it does not claim demonstrated niacin rescue. Arimoclomol and dasatinib remain conditional reserves. The RNA null supplies no additional support and does not adjudicate the qualitative carrier-blot observation; the blot does not establish increased pathway activity.
 
 The [conditional insulin-receptor follow-up](appendices/track2-evidence-pipeline.md#conditional-follow-up-insulin-receptor-trafficking)
 adds a public-literature hypothesis and prospective experiment to the existing
 mTORC1 branch. It supplies no N1002K trafficking result, patient measurement or
-drug efficacy evidence. The medication selection and submission schedule remain
-unchanged; the archived Track 1 upload and prediction are preserved exactly.
+drug efficacy evidence. That addition did not itself change medication selection;
+the subsequent niacin-first revision is a separate prioritization decision.
+The archived Track 1 upload and prediction are preserved exactly.
 
 Review of the six competing ideas separates transcript stabilization from
 readthrough, adds scoped aneuploidy-screen results, and qualifies the actual
@@ -32,7 +33,7 @@ summary names identify the recovery sources without implying they are included.
 The supplied-VCF rankings, earlier two-lane phasing and final four-lane reviews
 are explicitly separated. The CSV, EPCR and classifications are unchanged.
 
-The pitch document now contains the new eight-slide everolimus/niacin narrative. It supersedes the historical Lauren arimoclomol/NAC recording as the proposed submission pitch. The recording, editable deck, captions and spoken storyboard are included in the [review package](REVIEW.md); neither review approval nor public upload is claimed.
+The pitch document now follows the niacin-first proposal. Its eight-slide Skylar movie is assembled at 180 seconds, with 166 seconds of complete speech and 14 seconds of transitions; the [review package](REVIEW.md) records its scope. The [earlier Vimeo review recording](https://vimeo.com/1228990028) retains the superseded drug order and awaits replacement. Track 2 has not been submitted.
 
 The current opening connects the already recorded muscle atrophy and failure to
 thrive to the proposed functional endpoint. The report explicitly compares
@@ -83,7 +84,7 @@ The retained appendices describe their original dates and analysis scopes. State
 
 ## Media and AI disclosure
 
-The former [private Lauren release](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) is archived and superseded as the proposed submission pitch. The [new pitch](jeweled_track2_pitch_reconciled.md) accompanies eight new slides and a three-minute Skylar recording, now included in this private repository for human review. New public upload and Track 2 submission remain pending. No raw case files were sent to the narration service; it received the disclosed pitch text.
+The former [private Lauren release](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) is archival. The [revised pitch](jeweled_track2_pitch_reconciled.md) has eight visually reviewed slides and stock Skylar narration in a 180-second movie for human review. The [earlier Vimeo video](https://vimeo.com/1228990028) has the superseded drug order; replacement remains pending. The user's conditional submission authorization does not constitute a submission record: Track 2 is unsubmitted while these revisions are reviewed. No independent listening review is claimed. No raw case files were sent to the narration service; it received the disclosed pitch text.
 
 The [clean-state rescore](reviews/track2-clean-state-20260921.md) is an AI reviewer
 assessment of revision `3bae97436b6767bbbcfa04e1ddcd5fa23e4598b7` and the identified
@@ -93,12 +94,14 @@ Sieben carrier-blot claim and the consequence of confirmed cis phase. The curren
 report and pipeline treat the blot as qualitative and retire the proposed pair
 as compound heterozygous if cis is confirmed. A different BUB1B explanation would
 require an independently demonstrated pathogenic allele in trans or dominant
-mechanism. Slides 2 and 3 and their Skylar narration are revised; slide 4 retains
-“five patients.” No new biological observation or phase result is claimed.
+mechanism. The subsequent niacin-first revision adds the published allele-architecture
+argument, an explicit PM1 assessment and a stronger lineage/output contribution.
+PM1 is not awarded; EPCR remains 0.8 and N1002K remains VUS. Local media now follow the new drug order; the public Vimeo copy still requires
+replacement. No new biological observation or phase result is claimed.
 The archived score predates these corrections and is neither a score of the
 latest text/media nor an organizer score or measurement of clinical validity.
 
-Claude Code and Codex were used on personal subscriptions with training on the user's content disabled, according to the user. Exact historical model/plan names are unverified. Candidate-level evidence and report text were reviewed with hosted assistants. Cartesia Sonic 3.6 supplies stock-Skylar narration on the Free plan, verified on 21 September 2026; no voice was cloned. Cartesia training/retention settings and an immutable model snapshot remain unverified. The Claude/Codex confirmation does not establish Cartesia settings. The cover illustration was generated with the OpenAI image-generation tool through Codex and is conceptual artwork, not a biological observation.
+Claude Code and Codex were used on personal subscriptions with training on the user's content disabled, according to the user. Exact historical model/plan names are unverified. Candidate-level evidence and report text were reviewed with hosted assistants. Cartesia Sonic 3.6 supplies stock-Skylar narration on the Free plan, verified on 21 September 2026, including regenerated passages for the niacin-first revision; no voice was cloned. Cartesia training/retention settings and an immutable model snapshot remain unverified. The Claude/Codex confirmation does not establish Cartesia settings. The cover illustration was generated with the OpenAI image-generation tool through Codex and is conceptual artwork, not a biological observation.
 
 ## Acknowledgement
 
@@ -109,3 +112,41 @@ The [organizer rules](https://huggingface.co/spaces/SageBio/rare-disease-real-ki
 ## Dataset provenance
 
 The case context and data provenance are described by the [organizer overview](https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/blob/main/tabs/about.py), the [challenge dataset resource](https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data) and the official Synapse project [“Rare Disease, Real Kid. The 2026 MVA Hackathon” (syn76251147)](https://www.synapse.org/Synapse:syn76251147/wiki/642892). The rules require the dataset reference supplied on that Synapse page at publication time. The current public page supplied no DOI or formatted dataset citation; recheck it before publication rather than inventing one. These provenance links do not imply that the case data are public.
+
+## Public-entry comparison and first experiment
+
+On 21 September 2026, six public Track 2 projects were compared with the current proposal. This was a bounded comparison, not a competition ranking or independent execution of their code. It prompted an attributed JAK/secretory-suppression reserve row and a compact first-experiment/resource plan. The pair membership and biological results were unchanged by that comparison. A separate reviewer checked those edits for consistency, and the source studies supporting the new row were checked directly. Subsequent review prioritized niacin and prompted revised narration; the earlier recording no longer represents the current ordering.
+
+
+## Interactive endpoint comparison
+
+The [Cell selection and tissue output explorer](../workflow/track2-model/explorer/README.md)
+packages 192 retained result rows from the existing population analysis. It looks
+up matched scenarios without new simulation or patient fitting, runs offline and
+has not been deployed to a public host. The model represents aggregate cell
+compartments; individual lineage tracking remains a separate experimental design
+proposal. The tool makes the endpoint problem inspectable without claiming that
+this review invented lineage accounting or measured a biological drug effect.
+
+## Public-source transfer demonstration
+
+The [transfer demonstration](../workflow/track2-transfer/README.md) recomputes
+selected coding-variant consequences and applies the same route gates to the
+existing BUB1B hypothesis and an explicitly synthetic homozygous TRIP13 Arg354Ter
+input drawn from public literature. Reference sequences agree between RefSeq and
+Ensembl. The TRIP13 result does not inherit BUBR1-stabilization evidence; no
+qualified drug lead emerges from the three reviewed routes. Offline replay, live
+source comparison and focused checks passed. The mechanism assertions are curated,
+not inferred automatically from sequence. This is a second worked computational
+example, not a second patient, biological replication, raw-VCF discovery or a
+measurement of generalization accuracy. No additional controlled case data were used.
+
+## Niacin-first independent review
+
+A fresh reviewer with no conversation context assessed the niacin-first working
+package against the official rubric and [recorded 77/100](reviews/track2-niacin-first-20260921.md).
+The reviewer did not open earlier reviews or use their scores. The original review
+is retained verbatim with its checked-source scope, reproduction limits and core
+artifact hashes. It is an unofficial judgment, not a competition score or proof
+of drug efficacy. The report subsequently gained the prescribed acknowledgement;
+no scientific claim changed in that packaging correction.

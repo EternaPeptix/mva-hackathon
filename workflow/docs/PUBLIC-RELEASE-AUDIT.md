@@ -219,3 +219,58 @@ causality. The living Track 1 report and causal appendix make this condition exp
 the exact submitted upload and CSV remain unchanged. Slides 2 and 3, narration,
 caption timing and pitch text are synchronized. No new case data, phase result or
 biological experiment is added. Private human review and the submission pause continue.
+
+### Public-entry and pitch comparison follow-up
+
+The 21 September comparison assessed six public Track 2 repositories and four
+YouTube pitches using available transcripts and selected frames. A fifth,
+age-restricted pitch was assessed from metadata only. This bounded review did
+not execute competitors' code, validate their biology or establish a competition
+ranking. The JAK/secretory-suppression reserve explicitly attributes the public
+proposal that prompted it and separates its cited primary evidence. The current
+revision also states the first drug-free model-qualification milestone and its
+unsecured resource dependencies, and simplifies judge navigation. No new
+scientific or efficacy novelty is claimed; the selected drug pair, biological
+results, current media, exact Track 1 upload and prediction CSV are unchanged.
+
+The [current Skylar video](https://vimeo.com/1228990028) is public with English
+captions. The user conditionally authorized Track 2 submission after assessment,
+and the requested public-entry/pitch comparison is complete. Track 2 portal
+submission remains **pending**; this comparison is not a submission-readiness
+certification. The repository remains private. These current delivery facts
+supersede the historical media-hold and approval-pending statements above.
+
+### Niacin-first revision and bounded reusable demonstrations
+
+The current reports and revised local pitch place niacin first on mechanism
+match, with everolimus as a downstream probe. This is a research ordering, not
+measured efficacy. The offline [explorer](../track2-model/explorer/README.md)
+packages 192 retained aggregate-population comparisons; it adds no simulation,
+individual-lineage model, patient forecast or drug-response result. The
+[transfer demonstration](../track2-transfer/README.md) combines the existing
+bounded BUB1B hypothesis with a synthetic public TRIP13 genotype. Its five cached
+records are public reference sequences/annotations and one public ClinVar record.
+Sequence consequences and curated route gates do not establish a second patient,
+biological replication, automatic variant discovery or generalization accuracy.
+The 19 added files are permitted reference, synthetic-result, source or method
+content; no additional controlled case payload is included.
+
+The revised MP4, deck, captions and storyboard remain local review artifacts.
+The existing [Vimeo video](https://vimeo.com/1228990028) has the superseded drug
+ordering and awaits replacement. Track 2 remains unsubmitted and the repository
+private. The exact submitted Track 1 report and CSV are unchanged. Current
+release identities cover these additions and revisions; historical audit entries
+remain records of their earlier states.
+
+### Revision-specific independent review and acknowledgement
+
+The [niacin-first review](../../reports/reviews/track2-niacin-first-20260921.md)
+is retained with its assessed artifact hashes and primary-check limits. Its
+77/100 is an unofficial, revision-specific judgment, not an efficacy result or
+a certified prediction of judging. Only the review text is imported; reviewer-local
+reproduction outputs are not included. The standalone Track 2 report now carries
+the exact acknowledgement from provenance. Its previously assessed scientific
+body is byte-identical, and the other four pinned review artifacts still match.
+Navigation links identify this review separately from the earlier assessment.
+Public-video replacement and Track 2 submission remain pending; the repository
+is private and the exact Track 1 upload and CSV remain unchanged.

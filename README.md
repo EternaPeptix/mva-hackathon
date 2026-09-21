@@ -4,20 +4,19 @@ Team **jeweled** focuses on the case's [recorded muscle atrophy and failure to t
 could a gene-informed medication hypothesis preserve muscle function and the cells that renew it?
 
 **[Review the current Track 2 package](reports/REVIEW.md):** report, route comparison,
-new Skylar video, editable slides and the clean-state reviewer assessment.
+revised pitch, editable slides and revision-specific reviewer assessments.
 
 - **[Track 1: candidate and evidence](reports/jeweled_track1_report_submission.md).**
   BUB1B **p.(Leu737Ter) + p.(Asn1002Lys)**, at subjective **EPCR 0.8**.
   Phase is unresolved and the missense remains VUS.
 - **[Track 2: selected medications and proposal](reports/jeweled_track2_report_submission.md).**
-  **Everolimus leads; niacin (nicotinic acid) is the main comparator**, tested separately.
-  They test downstream mTORC1 normalization versus usable BUBR1 restoration, with the
+  **Niacin (nicotinic acid) leads; everolimus is the downstream probe**, tested separately.
+  They test usable BUBR1 restoration versus mTORC1 normalization, with the
   same goal: greater absolute muscle output, preserved renewal and no worsened chromosome fidelity.
 - **[Submission index, methods and proposed pitch](reports/README.md).**
   **Track 1 model 1 scored 100 rank points and F-max 1.000 on 21 September.**
   [Submission record](reports/README.md#track-1-submission-record) distinguishes the
-  confirmed score from the pending final report-persistence check. Track 2 submission
-  awaits human review of a new Skylar pitch; no drug experiment has run.
+  confirmed score from the pending final report-persistence check. Track 2 remains under revision and has not been submitted. The [earlier Skylar review video](https://vimeo.com/1228990028) has the superseded drug order and awaits replacement. No drug experiment has run.
 
 ## Start here
 
@@ -43,7 +42,7 @@ commands, versions, input/output identities and results; it is not itself a biol
 **Track 2 — turn the mechanism into an experiment**
 
 6. Qualify allele products, useful BUBR1 function and harmful mTORC1 excess in controlled models.
-7. Compare everolimus with niacin separately at justified exposure, with genetic and tumor controls.
+7. Test niacin and the everolimus probe separately at justified exposure, with genetic and tumor controls.
 8. Measure absolute muscle output, renewal and fidelity; qualify arimoclomol and senolysis reserves.
 
 ## Quick start: public HG002 chromosome 20
@@ -88,22 +87,27 @@ The stop has a two-star ClinVar P/LP assertion and the missense remains VUS. The
 [report](reports/jeweled_track1_report_submission.md) explains the two-allele census, ten-gene
 differential, 288 bp phase blocks versus a 10,911 bp gap, and retracted mosaic signal.
 
-**Track 2:** nominate **everolimus** as the lead drug hypothesis and **niacin (nicotinic acid)**
-as the main comparator, tested separately. They address mTORC1 normalization versus restoration
-of usable BUBR1. Everolimus has the clearer drug-to-target link; niacin connects human muscle
-NAD engagement to a separate BUBR1-stability mechanism. Neither has demonstrated rescue of
-this genotype. Arimoclomol and dasatinib remain conditional reserves. Our
-[RNA reanalysis](workflow/track2-rna/README.md) adds no mTORC1 support and does not rebut the
-qualitative carrier-blot observation, which does not establish increased pathway activity.
-The decision rests on literature and testability, not a simulated drug ranking or
-clinical-benefit claim.
+**Track 2:** nominate **niacin (nicotinic acid)** as the research lead and **everolimus**
+as a downstream probe, tested separately. The lead prioritizes a published MVA1 mechanism:
+insufficient usable BUBR1. Human muscle NAD engagement and separate SIRT2/BUBR1 experiments
+support testing that restoration route; they do not demonstrate niacin rescue. Everolimus
+has established target pharmacology, but harmful mTORC1 excess remains unestablished here.
+Our [RNA reanalysis](workflow/track2-rna/README.md) adds no mTORC1 support and does not settle
+the qualitative carrier-blot observation. Arimoclomol and dasatinib remain conditional reserves.
+Neither nominated drug has demonstrated benefit for this genotype.
 
 The [proposal](reports/jeweled_track2_report_submission.md) and
 [evidence pipeline](reports/appendices/track2-evidence-pipeline.md) explain the
 qualitative selection, exposure gate, absolute-output endpoints and rhabdomyosarcoma counter-screen.
 The [unelected-route table](reports/appendices/track2-route-decisions.md) explains alternatives and weaknesses.
+The [Cell selection and tissue output explorer](workflow/track2-model/explorer/README.md)
+makes the synthetic +16.8-point chromosome-normal fraction / −11.0% raw-output example
+interactive offline. It displays retained aggregate populations, not individual lineages.
 The [genome-informed model](workflow/track2-model/README.md) separates sequence reconstruction
-from assumption-based population scenarios; it does not predict drug response. No drug experiment
+from assumption-based population scenarios; it does not predict drug response. The
+[public-source transfer replay](workflow/track2-transfer/README.md) executes the decision process
+on BUB1B and a synthetic TRIP13 example, retaining gene-specific evidence gaps.
+It is a second worked example, not validation in two patients. No drug experiment
 has run, and neither chromosome correction nor clinical efficacy is claimed.
 
 ## Scope and limitations

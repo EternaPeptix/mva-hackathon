@@ -6,6 +6,27 @@ and its [evidence pipeline](../../reports/appendices/track2-evidence-pipeline.md
 The computation informs experimental endpoints. It does **not** infer mTOR activity
 from sequence, predict named-drug efficacy or rank candidate medications.
 
+## Interactive artifact: Cell selection and tissue output
+
+Open [Cell selection and tissue output](explorer/index.html) locally after cloning
+the repository. This offline explorer presents the retained **+16.8-percentage-point
+chromosome-normal fraction / −11.0% raw differentiated-cell time** example alongside
+absolute output and surviving cell counts. Four controls select assumptions from
+the original grid; eight stored arms can be compared with matched untreated results.
+The tool uses a checked precomputed slice, without new simulation or interpolation.
+Its aggregate compartments do not track individual pedigrees or establish drug
+efficacy, genetic correction or unique methodological novelty.
+
+Rebuild the portable data with one command:
+
+```sh
+python3 workflow/track2-model/explorer/build_data.py
+```
+
+See the [explorer documentation](explorer/README.md) for fixed assumptions,
+scenario JSON export and optional browser verification. It works without a server
+or network connection; it has not been deployed to a public host.
+
 ## Replay
 
 Python 3.9+ standard library; no network, alignments or patient genome files are

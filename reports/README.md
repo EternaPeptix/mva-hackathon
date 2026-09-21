@@ -1,9 +1,9 @@
 # jeweled — current research reports
 
-**Revised 21 September 2026.** Track 1 model 1 has a confirmed automated score; its final report-persistence check is pending as detailed below. Track 2 remains a review draft. No clinical sign-out has occurred. The repository remains private; the new Skylar pitch awaits human review before public upload.
+**Revised 21 September 2026.** Track 1 model 1 has a confirmed automated score; its final report-persistence check is pending as detailed below. Track 2 is under revision and has not been submitted. No clinical sign-out has occurred. The repository remains private; the [earlier Skylar review video](https://vimeo.com/1228990028) is public with English captions but has the superseded drug order and awaits replacement.
 
 **[Open the Track 2 review package](REVIEW.md)** for the current report, evidence,
-new video, editable slides, captions and clean-state reviewer assessment.
+revised pitch, editable slides, captions and revision-specific reviewer assessments.
 
 ## Track 1 submission record
 
@@ -19,7 +19,7 @@ adds the required acknowledgement, and replaces pre-submission status wording.
 The [CSV](jeweled_evidence-reconciled-v2.csv) remains byte-identical, with one
 BUB1B pair and subjective EPCR 0.8. The submitted repository URL pins
 [revision cda0b0c12249b446adeff61cd1838f148ccb1768](https://github.com/EternaPeptix/mva-hackathon/tree/cda0b0c12249b446adeff61cd1838f148ccb1768).
-The separate report/methods drafts below retain their pre-submission source state.
+The separate living report and methods below contain later clarifications; they do not replace the exact archived upload.
 
 **Verification boundary:** both temporary portal uploads were read back and
 matched the local files byte for byte (CSV 480 bytes; report 26,390 bytes).
@@ -33,15 +33,15 @@ Only one Submit action was sent; the pre-submit counter was 0/6.
 
 The current [Track 1 report](jeweled_track1_report_submission.md), [Track 2 report](jeweled_track2_report_submission.md) and [methods-form answers](jeweled_methods_form_answers.md) govern interpretation. Track 1 adopts **subjective exact-pair EPCR 0.8** for BUB1B Leu737Ter plus Asn1002Lys. This replaces earlier judgments without new segregation or functional data. Trans is favored under the recessive model but remains unobserved; the missense remains a VUS. The [causal interpretation appendix](appendices/causal-interpretation.md) explains the evidence policy and remaining alternatives.
 
-Track 2 selects **everolimus as the lead drug hypothesis and niacin (nicotinic acid) as the primary comparator**, tested separately rather than as a combination. The two routes are mTORC1 normalization and restoration of usable BUBR1. Everolimus has the clearer drug-to-target implementation and indication-specific pediatric pharmacology; niacin supplies an orthogonal proximal hypothesis through human muscle NAD engagement and separate SIRT2/BUBR1 experiments. Arimoclomol is a restoration reserve; dasatinib is a senolytic reserve requiring harmful burden and selective susceptibility. Prioritizing proximal causal evidence would put niacin first, so the pair is more defensible than a universal drug order. No relevant drug rescue is demonstrated; genomic EPCR is not a treatment-response probability.
+Track 2 selects **niacin (nicotinic acid) as the research lead and everolimus as the downstream probe**, tested separately. Niacin leads on mechanism match: protein insufficiency is experimentally supported in selected MVA1 cells, and NAD/SIRT2-mediated stabilization offers a proximal restoration hypothesis. Human muscle NAD engagement supports the precursor step; it does not establish niacin-mediated BUBR1 or muscle rescue. Everolimus has established target pharmacology and pediatric use in other diseases, while its proposed harmful-signaling premise remains unestablished here. Arimoclomol is a restoration reserve; dasatinib is a senolytic reserve requiring harmful burden and selective susceptibility. The order can change after qualified functional experiments. Genomic EPCR is not a treatment-response probability.
 
 The [one-row prediction CSV](jeweled_evidence-reconciled-v2.csv) records the current decision; its [provenance](jeweled_evidence-reconciled-v2.csv.provenance.json) covers format and reference checks, not a comparison with private truth.
 
-The completed [public mouse RNA analysis](../workflow/track2-rna/README.md) did not corroborate an upregulated mTORC1 Hallmark program. That result does not rebut the qualitative carrier-blot observation; that blot does not demonstrate increased pathway activity. Underreported rapamycin nonbenefit and a different-cell-state everolimus-associated BUBR1 decrease remain concerns to test. The common comparison requires absolute functional benefit, preserved renewal and no worsened fidelity; only a claimed restoration mechanism requires corresponding BUBR1/segregation rescue.
+The completed [public mouse RNA analysis](../workflow/track2-rna/README.md) did not corroborate an upregulated mTORC1 Hallmark program. That result does not rebut the qualitative carrier-blot observation; that blot does not demonstrate increased pathway activity. A parenthetical unpublished rapamycin observation and a late-passage-specific everolimus-associated BUBR1 decrease remain concerns to test, not fully established MVA drug liabilities. The common comparison requires absolute functional benefit, preserved renewal and no worsened fidelity; only a claimed restoration mechanism requires corresponding BUBR1/segregation rescue.
 
 ## Pitch and delivery
 
-The [current pitch](jeweled_track2_pitch_reconciled.md) is a new eight-slide, three-minute Skylar recording for the everolimus/niacin comparison. It replaces the earlier Lauren arimoclomol/NAC version as the proposed submission video. The old private release is archival. The new [movie](media/jeweled_track2_skylar.mp4), [editable deck](media/jeweled_track2_slides.pptx) and [captions](media/jeweled_track2_skylar.srt) are included here for human review. No new public video upload or Track 2 submission is claimed.
+The [revised pitch script](jeweled_track2_pitch_reconciled.md) leads with niacin and retains everolimus as a downstream probe. The revised Skylar movie is 180 seconds with eight slides, 166 seconds of complete speech and 14 seconds of transitions. The [movie](media/jeweled_track2_skylar.mp4), [editable deck](media/jeweled_track2_slides.pptx) and [captions](media/jeweled_track2_skylar.srt) are the review-package media. The deck passed layout checks and all eight slides were visually reviewed; full audiovisual listening review is not claimed. The [earlier Vimeo recording](https://vimeo.com/1228990028) has the superseded order and is not the current submission pitch. Its replacement and Track 2 portal delivery remain pending. The older Lauren arimoclomol/NAC release is archival.
 
 The [route decisions](appendices/track2-route-decisions.md) compare the alternatives and specify the result that would change each decision. A fresh reviewer with no conversation context checked the report and pitch against the official rubric. The revised main report explains the proposal in plain language; detailed experimental and source qualifications remain in appendices.
 
@@ -50,9 +50,11 @@ the corrected artifacts without seeing earlier reviews or scores. It is an
 unofficial assessment, separate from the initial reviewer's correction check.
 The current package additionally corrects Pirinen's treated-control strength
 interpretation, Sieben's qualitative carrier-blot evidence and the consequence
-of confirmed cis. The report and media reflect these changes; the archived score
-predates them. The living Track 1 report clarifies cis without modifying the
+of confirmed cis. The current report also makes niacin the lead; the eight-slide local media reflect that order. The archived score
+predates these updates and is not a score of the latest package. The living Track 1 report clarifies cis without modifying the
 exact submitted upload or prediction.
+
+A new **[clean-state review of the niacin-first package](reviews/track2-niacin-first-20260921.md)** returned **77/100**: rigor 29/35, impact 20/25, innovation 17/25 and scalability 11/15. It assessed the revised slides, video, explorer and transfer demonstration without opening earlier reviews or using their scores. It found no new material scientific contradiction and regarded niacin-first as defensible, while identifying unproved allele/drug function, illustrative scalability and unsecured laboratory access. This unofficial judgment is not directly comparable with different reviewers' earlier scores. The review preserves the exact artifact identities it assessed. The standalone report subsequently gained the required acknowledgement; its scientific claims are unchanged. Vimeo replacement and submission delivery remain outstanding.
 
 Claude Code and Codex used personal subscriptions with training disabled, as confirmed by the user. Cartesia Sonic 3.6/Skylar uses the Free plan, verified on 21 September; its training/retention settings remain unverified. The cover is an AI-generated conceptual illustration.
 
@@ -72,7 +74,7 @@ commit), changes relative file links to GitHub links pinned to that revision,
 and adds a source header. Report prose and external citations are preserved;
 the CSV is copied byte for byte. Uncommitted edits are not exported. The command
 does not upload files, change repository visibility or grant access to private
-links. Human review of the new pitch and a public video URL are still required before submission.
+links. The earlier public video at https://vimeo.com/1228990028 requires replacement before it can represent the revised pitch; portal delivery is recorded separately.
 
 ## Methods and retained appendices
 
@@ -86,6 +88,18 @@ the claims to authorized reconstruction steps. Restricted full case outputs are
 not included.
 
 The new [Track 2 evidence pipeline](appendices/track2-evidence-pipeline.md) governs the lead selection, alternatives and proposed experiments. The imported [genome-informed analysis](../workflow/track2-model/README.md) reconstructs nominated coding consequences and illustrates population accounting under explicit assumptions; it does not calibrate patient risk or rank drugs.
+
+The offline [Cell selection and tissue output explorer](../workflow/track2-model/explorer/README.md)
+lets reviewers compare retained chromosome-normal fractions with absolute output.
+Its aggregate compartments are distinct from the proposed experimental founder-lineage ledger;
+it does not simulate individual pedigrees or predict a named drug response.
+
+The [public-source transfer demonstration](../workflow/track2-transfer/README.md)
+replays the BUB1B hypothesis and a synthetic homozygous TRIP13 Arg354Ter input.
+The same route gates decline transfer of the BUBR1-restoration rationale to TRIP13;
+no qualified drug lead emerges from the three reviewed routes. This demonstrates
+two executions of a curated decision process, not validation in two patients.
+It starts from selected coding variants, not raw-VCF discovery.
 
 The following twelve appendices preserve dated method detail. Their original results or proposed experiments remain useful, but historical status and interpretation statements do not override the current reports and governing evidence pipeline.
 
