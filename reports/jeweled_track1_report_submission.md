@@ -12,7 +12,7 @@ Both GATK and bcftools recover the two heterozygous alleles. Filtered reference/
 
 The allele-specific autosomal inventory finds **two rare protein-altering BUB1B variants and no rare protein-altering or canonical-splice variant in ten comparison genes**: TRIP13, CEP57, CENATAC, MAD2L1BP, SLF2, SMC5, TRIM37, BUB1, BUB3 and MAD2L1. “Rare” here means retained population AF below 1%, a discovery filter rather than an ACMG threshold. Three comparison genes have common missense calls; none of their retained coding alleles has unresolved frequency. Both callers give the same result. Coding depth has no zero-depth base in these ten genes, although small low-depth intervals remain. This supports the differential within its declared variant classes; it is not exclusion of every possible mechanism.
 
-The original vendor annotations have a maximum phase-block span of **288 bp**, against **10,911 bp between the candidates**. A later local read-phasing analysis reaches 2,327 bp but still does not connect them. Failure to bridge this distance is an information limit, not evidence that the variants are in cis or a reason to cap causal probability at one half. Parental segregation is the clearest next test.
+The original vendor annotations have a maximum phase-block span of **288 bp**, against **10,911 bp between the candidates**. An earlier two-lane, 100 kb read-phasing analysis reaches 2,327 bp but does not connect them. The final four-lane bounded review also leaves the pair unphased, with a 6,769 bp intervening marker gap. Failure to bridge this distance is an information limit, not evidence that the variants are in cis or a reason to cap causal probability at one half. Parental segregation is the clearest next test. The [case-evidence appendix](appendices/track1-case-evidence.md) connects these claims to selected numerical results and the authorized reconstruction workflow.
 
 ## Allele interpretation
 
@@ -39,7 +39,18 @@ The residual uncertainty has identifiable explanations: Asn1002Lys could be inci
 
 ## Method, validation and limits
 
-We verified the eight supplied FASTQ checksums, aligned four sequencing lanes to GRCh38 on Mac Studios, and ran GATK 4.6.1.0 and bcftools 1.24. Original genotypes were preserved through normalization and annotation. Autosomal coding inventories cover chromosomes 1–22; sex-chromosome, mitochondrial, copy-number and structural analyses have separate scopes. LIRICAL and Exomiser supplied ranking and sensitivity comparisons, not independent replication. Caller agreement uses the same reads.
+We verified the eight supplied FASTQ checksums, aligned four sequencing lanes to GRCh38 on Mac Studios, and ran GATK 4.6.1.0 and bcftools 1.24. Original genotypes were preserved through normalization and annotation. Autosomal coding inventories cover chromosomes 1–22; sex-chromosome, mitochondrial, copy-number and structural analyses have separate scopes. Caller agreement uses the same reads.
+
+The completed rankings used the **supplied VCF**, not the later four-lane native calls. Exomiser 15.1.0 used hg38/phenotype resources 2512; LIRICAL 2.4.1 used HPO 2026-09-01 and shared Exomiser allele databases. These comparisons are not independent biological replication.
+
+| Ranking comparison | BUB1B/MVA1 result | Interpretation |
+|---|---|---|
+| Exomiser, seven subject features, primary predictors | BUB1B AR **rank 2**, score **0.4877**; AD rank 1 | Rank unit is gene × inheritance; the AD result does not establish dominant MVA. |
+| Exomiser, REVEL only, strict / permissive filter | AR **absent / rank 3**, score **0.1806** when retained | The exact pair is sensitive to predictor/filter choice. |
+| LIRICAL, phenotype only, full / without rhabdomyosarcoma / rhabdomyosarcoma alone | MVA1 **rank 4 / 38 / 10** among 8,525 diseases | The cancer phenotype contributes materially to ranking. |
+| LIRICAL, full global genotype-assisted JSON | MVA1 **rank 1/8,525**, model probability **0.9575393** | A model result, not EPCR, measured missense function or phase. |
+
+N1002K has **REVEL 0.472** and **AlphaMissense 0.9229**. The adopted REVEL policy treats 0.472 as indeterminate (neither PP3 nor BP4); the alternative score is disclosed without stacking predictors or upgrading the classification. Gene prominence is more robust than the exact partner's computational support. [Complete sensitivities, resource identities and reconstruction map](appendices/track1-case-evidence.md); [selected aggregate results](../results/track1-selected-case-evidence.json).
 
 Public HG002 chromosome-20 validation uses reads labelled nominally 35×, GIAB v4.2.1 confident regions and RTG vcfeval. Measured mean read depth is 35.75× across chr20 and 36.97× within the confident regions at MAPQ≥20/BQ≥20; 99.25% of confident-region bases have at least 20× depth. These descriptive filters do not reconstruct either caller's internal filtering. Original GATK SNV/indel recall was 99.3748%/97.3902%, with precision 98.9548%/96.0168%; preserving native multiallelic genotypes improves the later indel comparison. These benchmark results are not an estimate of case sensitivity. Public SV matching was low, so negative short-read evidence cannot exclude difficult insertions or repeat-associated events. The [methods form](jeweled_methods_form_answers.md) separates original results from later representation analyses.
 

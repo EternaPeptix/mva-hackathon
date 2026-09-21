@@ -40,6 +40,13 @@ links. The current pitch recording still needs reconciliation before submission.
 
 The [public benchmark method](../workflow/docs/PUBLIC-BENCHMARK-METHOD.md) states the HG002 chromosome-20 scope, measured coverage, confident-region evaluation and separate SNV/indel results. A fresh full Mac Studio replay reproduced the primary counts and audit in 134.3 minutes; [reproduction documentation](../REPRODUCIBILITY.md) distinguishes that executed source from later launcher safeguards and limited Linux checks. Historical case runs still require authorized data and their recorded prerequisites.
 
+The [Track 1 case-evidence map](appendices/track1-case-evidence.md) presents actual
+prioritizer ranks, predictor sensitivities, candidate fragment support, locus and
+ten-gene counts, depth and phase. Its [selected numerical results](../results/track1-selected-case-evidence.json)
+separate supplied-VCF rankings from later four-lane native-call review and link
+the claims to authorized reconstruction steps. Restricted full case outputs are
+not included.
+
 The new [Track 2 evidence pipeline](appendices/track2-evidence-pipeline.md) governs the lead selection, alternatives and proposed experiments. The imported [genome-informed analysis](../workflow/track2-model/README.md) reconstructs nominated coding consequences and illustrates population accounting under explicit assumptions; it does not calibrate patient risk or rank drugs.
 
 The following twelve appendices preserve dated method detail. Their original results or proposed experiments remain useful, but historical status and interpretation statements do not override the current reports and governing evidence pipeline.

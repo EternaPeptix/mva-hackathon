@@ -10,6 +10,11 @@ installed tool ran; “fictional” in historical files means synthetic test dat
 
 ## Track 1: small variants
 
+The separate [case-evidence map](../reports/appendices/track1-case-evidence.md)
+and [selected aggregate results](track1-selected-case-evidence.json) contain
+supplied-VCF prioritizer ranks and final-alignment candidate/locus/depth summaries.
+These are curated case findings, not synthetic controls or public benchmark data.
+
 | Component | Data type | Control count / scope | Receipt or guide |
 |---|---|---|---|
 | Portable public replay | Public HG002 / synthetic comparator inputs | Full Mac replay: primary counts/audit reproduced in 134.3 min; Linux x86-64 emulated: 12 controls and 100 kb calling/comparison passed | [Platform/source scope](public-benchmark-replay-20260921.json); [Command](../workflow/public-benchmark/README.md) |

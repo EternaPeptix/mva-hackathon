@@ -194,6 +194,13 @@ available alongside the gains. The frozen primary result is not replaced.
 
 ## 3. Reproduce the authorised case analysis
 
+Start with the [case-evidence and reconstruction map](reports/appendices/track1-case-evidence.md).
+It connects the reported ranks, predictor sensitivities, selected allele support,
+locus/ten-gene census, coding depth and phase to the corresponding inputs and
+entry points. The supplied-VCF ranking runs and final four-lane native-call
+reviews are separate analyses. The map states which original outputs remain
+restricted or unavailable in this checkout; it is not a fresh-clone case replay.
+
 Obtain the challenge data through its access process and retain it outside the Git
 checkout. The internal analysis used all eight source FASTQs from four lanes, with
 publisher-checksum verification. Do not create an inferred clinical dataset or treat

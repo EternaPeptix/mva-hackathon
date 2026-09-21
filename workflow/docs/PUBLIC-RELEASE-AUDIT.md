@@ -148,3 +148,16 @@ exporter reads only the three committed report/methods files and existing predic
 CSV, converting local report links into commit-pinned repository URLs. It does not
 include raw data or expand the selected findings. Its outputs remain private review
 drafts; file preparation does not authorize submission, media work or public release.
+
+### Track 1 evidence packaging
+
+The current Track 1 revision adds one case-evidence appendix and one selected
+aggregate JSON. They recover existing prioritizer/predictor results, support for
+the two nominated alleles, BUB1B locus counts, the ten-gene coding comparison,
+depth and phase. Public-resource hashes are retained; raw/native variant records,
+read names, case-input hashes and genome-scale outputs are excluded. This is the
+same limited findings category permitted for reports, with private repository
+handling retained. The map makes omitted case prerequisites explicit. GIAB truth
+versions are separated. The prediction CSV, classifications, EPCR, Track 2 science
+and approved narration are unchanged. No new analysis, public release, media
+upload or competition submission is performed.

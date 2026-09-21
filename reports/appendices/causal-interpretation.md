@@ -10,7 +10,7 @@ Those statements do **not** publicly confirm our exact two positions, supply the
 
 ## What the completed analysis supports
 
-The two native caller views agree that both proposed BUB1B variants are heterozygous. Filtered REF/ALT fragment counts are 21/26 and 15/12, respectively, with alternate support on both strands. The annotated BUB1B coding union has minimum mapped depth 24 in both reviewed MQ20/BQ20 and MQ60/BQ20 views. These findings support allele presence; repeated analysis of the same reads is not independent biological replication.
+The two native caller views agree that both proposed BUB1B variants are heterozygous. Filtered REF/ALT fragment counts are 21/26 and 15/12, respectively, with alternate support on both strands. The annotated BUB1B coding union has minimum mapped depth 24 in both reviewed MQ20/BQ20 and MQ60/BQ20 views. These findings support allele presence; repeated analysis of the same reads is not independent biological replication. The [case-evidence map](track1-case-evidence.md) links the [selected numerical aggregates](../../results/track1-selected-case-evidence.json), original analysis scopes and reconstruction entry points.
 
 The completed chromosome 1–22 inventory contains **exactly two BUB1B protein-altering/canonical-splice alleles**, both the proposed candidates. The separate BUB1B gene-plus-5 kb census finds no additional emitted exon/CDS or screened splice-edge overlap. The following comparison agrees between GATK and bcftools:
 
@@ -36,7 +36,7 @@ Completed broader reviews have not supplied a better-supported causal explanatio
 
 ## Phase and the retracted mosaic signal
 
-**Phase remains unobserved.** The vendor VCF's 304,329 annotated phase blocks have a maximum observed variant-position span of **288 bp**; the two targets are **10,911 bp apart**. That vendor annotation statistic is not a universal limit of short-read phasing. A later 100 kb WhatsHap review recovered local blocks up to **2,327 bp**, still without linking the targets; the four-lane review also leaves a 6,769 bp marker gap.
+**Phase remains unobserved.** The vendor VCF's 304,329 annotated phase blocks have a maximum observed variant-position span of **288 bp**; the two targets are **10,911 bp apart**. That vendor annotation statistic is not a universal limit of short-read phasing. The earlier two-lane 100 kb WhatsHap review recovered local blocks up to **2,327 bp**, still without linking the targets. The final four-lane bounded review also leaves a 6,769 bp marker gap and an unknown pair relation in every run; its longest local block is 77 bp. These scopes must not be conflated.
 
 These unsuccessful links do not demonstrate cis phase. Trans is the favored configuration **under the recessive causal model**, but has not been observed; parental segregation could falsify that model. Unknown phase is neither a measured 50:50 probability nor repeated negative evidence each time the same reads fail to bridge the gap.
 
@@ -64,7 +64,7 @@ We use the [Tavtigian points framework](https://pmc.ncbi.nlm.nih.gov/articles/PM
 
 **Phenotype sensitivity.** MVA with rhabdomyosarcoma favors BUB1B, consistent with [Hanks et al.](https://pubmed.ncbi.nlm.nih.gov/15475955/) and the broader [BUB1B/TRIP13 tumor evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC5493194/). Current [ClinGen PP4 guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC10806742/) allows genetic heterogeneity using appropriately defined diagnostic yield. Our omission is therefore not a blanket “several genes” rule, an insistence on obtaining our own cytogenetics, or a claim that now-completed structural studies are unfinished. We have not established a robust, method-matched BUB1B yield for this precise phenotype sufficient to quantify PP4. If Supporting PP4 is accepted, the stop becomes **10 points, Pathogenic**, and the missense **3 points, VUS**. That is an explicit sensitivity, not the applied table.
 
-No qualifying functional assay, new segregation evidence or measured N1002K effect is added. The retained REVEL policy is unchanged; competing predictor scores are not selected or multiplied to obtain a preferred classification. A VUS category does not set a numerical upper bound on this pair's probability of explaining a particular clinically solved case.
+No qualifying functional assay, new segregation evidence or measured N1002K effect is added. The retained REVEL policy is unchanged: **0.472** is indeterminate, supplying neither PP3 nor BP4. AlphaMissense **0.9229** is a disclosed alternative, not selected or multiplied to obtain a preferred classification. The [ranking sensitivities](track1-case-evidence.md#ranking-and-predictor-sensitivity) show that strict REVEL-only filtering removes the recessive pair even while BUB1B remains prominent. A VUS category does not set a numerical upper bound on this pair's probability of explaining a particular clinically solved case.
 
 ## Why EPCR is 0.8, and what could change it
 

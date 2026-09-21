@@ -12940,8 +12940,8 @@
   ],
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
-    "reviewed_at_utc": "2026-09-21T16:55:07.111203+00:00",
-    "scope": "70 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
+    "reviewed_at_utc": "2026-09-21T17:30:08.661539+00:00",
+    "scope": "72 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12954,8 +12954,8 @@
       "original_audit_bytes_sha256": "7fae846b1a22b88b05096372fa4fbbd9bbca7f27e23f725a2ff32ad1b6a2644b",
       "all_original_fields_unchanged": true
     },
-    "reviewed_payload_count": 70,
-    "report_tree_files": 22,
+    "reviewed_payload_count": 72,
+    "report_tree_files": 23,
     "reviewed_files": [
       {
         "path": "CHANGELOG.md",
@@ -12986,8 +12986,8 @@
       },
       {
         "path": "REPRODUCIBILITY.md",
-        "bytes": 55944,
-        "sha256": "8677e7420853836f9481fad5f26eef6e0cd9decb84ec696c575e679997201d79",
+        "bytes": 56437,
+        "sha256": "975bb1d0074565b30a28ec9e2893f196d3713d51aab03eda6782dd1930a80252",
         "mode": 420,
         "decision": "keep",
         "category": "scope_and_reproduction_documentation",
@@ -12995,8 +12995,8 @@
       },
       {
         "path": "reports/PROVENANCE.md",
-        "bytes": 9533,
-        "sha256": "611a72f1a5ba74225e3f0fa17f14affb684f62f114f998a600bced8d6a7a873f",
+        "bytes": 10343,
+        "sha256": "eb989ef950db420609ba4a739276770b7a06c5afa0ae49dff13ddbd556ae4ca0",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13004,8 +13004,8 @@
       },
       {
         "path": "reports/README.md",
-        "bytes": 6802,
-        "sha256": "c712d0226e5b955729a85eef089784a5a997ef89606767cca05785416e486038",
+        "bytes": 7257,
+        "sha256": "2a11b59846b3017a74e91b7b35de230c528120749e93e6ab811015af63d54257",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13022,8 +13022,8 @@
       },
       {
         "path": "reports/appendices/causal-interpretation.md",
-        "bytes": 13039,
-        "sha256": "dee3f64a2c81c7e10943d134e3a0ad893d627df61a378c515cc8ae9153632c0d",
+        "bytes": 13647,
+        "sha256": "c430df7a40fa740cfc0e0300ed9d0dd7384bf43852964729f236cb0a513ffcc6",
         "mode": 420,
         "decision": "keep",
         "category": "bounded_case_interpretation",
@@ -13129,6 +13129,15 @@
         "grounds": "Screen denominators and one candidate-level assertion review; full native records/genotype streams omitted."
       },
       {
+        "path": "reports/appendices/track1-case-evidence.md",
+        "decision": "keep",
+        "category": "bounded_case_evidence_summary",
+        "grounds": "Selected two-candidate and comparison-gene aggregate results, prior ranking sensitivities, public-resource identities and authorized reconstruction map; no raw records, reads, case-input hashes or genome-scale case payload. Private revision authorized.",
+        "bytes": 12283,
+        "sha256": "491dcf61c5dfde12a7d933c2e9242507e5993594a45e9d6b56d6c1b71ba7fb85",
+        "mode": 420
+      },
+      {
         "path": "reports/appendices/track2-evidence-pipeline.md",
         "bytes": 32170,
         "sha256": "14bf904161d8a010fc75f3e280fed0b8f6573dbe207332cac4f65a747be5cf35",
@@ -13157,8 +13166,8 @@
       },
       {
         "path": "reports/jeweled_methods_form_answers.md",
-        "bytes": 25551,
-        "sha256": "de73acf06055b0b440d977eca61a7a1bda4d83242e39b2d4c05a493d2999238e",
+        "bytes": 27039,
+        "sha256": "c3e3b6cc11a37fa2fe15e5fc0f8b6d1e84ceaa898135b7a32f161c0cc0ad21bf",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13166,8 +13175,8 @@
       },
       {
         "path": "reports/jeweled_track1_report_submission.md",
-        "bytes": 9258,
-        "sha256": "5e679a6c3437167a503619908940df27f4e7dec6ec43fd668577804d061f794c",
+        "bytes": 11003,
+        "sha256": "407ac17d0499f917076cd143adac3455a1bdf521578654ffb15e9f2da8d75954",
         "mode": 420,
         "decision": "keep",
         "category": "curated_report",
@@ -13193,8 +13202,8 @@
       },
       {
         "path": "results/INDEX.md",
-        "bytes": 16530,
-        "sha256": "4c940b1b3cbe5cc8819cd098de7caf0214787a225907ee6d5328144001068995",
+        "bytes": 16854,
+        "sha256": "d1d075a35cfd96cc9fea92481f7857f623baf7ece7ac67a27e5c1d45e8760c58",
         "mode": 420,
         "decision": "keep",
         "category": "scope_and_reproduction_documentation",
@@ -13217,6 +13226,15 @@
         "decision": "keep",
         "category": "public_benchmark_summary",
         "grounds": "Saved public HG002 class/count/coverage/provenance review, not private case output."
+      },
+      {
+        "path": "results/track1-selected-case-evidence.json",
+        "decision": "keep",
+        "category": "bounded_case_evidence_summary",
+        "grounds": "Selected two-candidate and comparison-gene aggregate results, prior ranking sensitivities, public-resource identities and authorized reconstruction map; no raw records, reads, case-input hashes or genome-scale case payload. Private revision authorized.",
+        "bytes": 16852,
+        "sha256": "40534bc8d002e2357e8c01e6bb5454cd655889b78f98b7ecf473296b21c4245a",
+        "mode": 420
       },
       {
         "path": "workflow/docs/PUBLIC-BENCHMARK-METHOD.md",
@@ -13819,6 +13837,16 @@
       "scope": "Retain the selected everolimus/niacin hypotheses and qualified reserves. Explicitly allow meaningful benefit in either muscle cohort with preservation of the other, progenitor renewal and fidelity. Prespecify four joint claims with intersection-union testing and Holm correction, fixed regimens and independent confirmation. Prepare standalone report copies with commit-pinned links and the unchanged CSV; preserve repository-relative navigation.",
       "verification": "Independent Track 1 and Track 2 content audits found no further material scientific defects. New confirmatory decision rule passed independent statistical review. All 22 methods headings and the Track 1 prefix are preserved; Track 2 abstract is 339 words and proposed spoken narration is 310 words. Entire approved narration tail, prediction CSV, computational results and media are unchanged. Exporter verified on committed inputs for exact prose/CSV preservation, link conversion and bounded refusal behavior; final delivery exports must identify their actual committed revision.",
       "decision": "Keep within existing private draft. No new case payload, biological result, recording, public release or competition submission."
+    },
+    "track1_evidence_followup": {
+      "reviewed_at_utc": "2026-09-21T17:30:08.661539+00:00",
+      "added_paths": [
+        "reports/appendices/track1-case-evidence.md",
+        "results/track1-selected-case-evidence.json"
+      ],
+      "scope": "Recover completed supplied-VCF ranking/predictor sensitivities and final four-lane candidate/locus/differential/depth/phase aggregates. Add an authorized reconstruction map and explicit omissions. Correct GIAB small-variant v4.2.1 versus structural v5.0q. No new analysis.",
+      "verification": "Fresh independent Track 1 judge found all three original findings resolved, with no scientific submission blocker. Numerical values checked against retained original summaries/inventories. Preserve all 22 methods headings, entire Track 2 section, Track 2 report/pitch and prediction CSV.",
+      "decision": "Keep selected report-level aggregates in private branch; no competition submission, public visibility change or media work."
     }
   }
 }

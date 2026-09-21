@@ -8,7 +8,19 @@ The current [Track 1 report](jeweled_track1_report_submission.md), [Track 2 repo
 
 The reports in this checkout and the new [Track 2 evidence pipeline](appendices/track2-evidence-pipeline.md) govern the adopted proposal. Older internal report copies may be stale; this update does not claim synchronization of every working document. The imported [genome-informed analysis](../workflow/track2-model/README.md) retains its separate scope: reference-sequence reconstruction and uncalibrated population scenarios, without patient-to-drug response estimates. The route selection is qualitative; no model output or literature tally supplies a numerical therapeutic rank. Senolysis remains the strongest same-gene functional alternative but needs a selective eligible drug implementation. The selected everolimus/niacin pair tests two distinct hypotheses; its membership is less sensitive than its ordering to prioritizing actual drug implementation versus proximal causal evidence. Arimoclomol and dasatinib remain conditional reserves. The RNA null supplies no additional support and does not rebut the published phosphorylation result.
 
-The methods form retains all 22 original question headings and the existing Track 1 answers. The pitch document preserves the approved six-section narration, 24 caption segments and 293 words, and adds a clearly separated text-only proposal for the everolimus/niacin comparison. This proposal is not recorded or approved and does not add or alter the media.
+The methods form retains all 22 original question headings. Its Track 1 answers
+now include actual ranking/predictor results and distinguish GIAB small-variant
+truth v4.2.1 from structural truth v5.0q. The [Track 1 case-evidence map](appendices/track1-case-evidence.md)
+and [selected numerical results](../results/track1-selected-case-evidence.json)
+recover existing candidate-level and gene-level aggregates, not new experiments.
+The numerical projection includes the two nominated candidates, comparison-gene
+counts/AFs/depth, phasing summaries and public-resource identities; it excludes
+raw records, read names, full ledgers and case-input hashes. Original local
+summary names identify the recovery sources without implying they are included.
+The supplied-VCF rankings, earlier two-lane phasing and final four-lane reviews
+are explicitly separated. The CSV, EPCR and classifications are unchanged.
+
+The pitch document preserves the approved six-section narration, 24 caption segments and 293 words, and adds a clearly separated text-only proposal for the everolimus/niacin comparison. This proposal is not recorded or approved and does not add or alter the media.
 
 The current opening connects the already recorded muscle atrophy and failure to
 thrive to the proposed functional endpoint. The report explicitly compares
