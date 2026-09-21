@@ -68,6 +68,22 @@ at different ages. Our [public mouse RNA reanalysis](../workflow/track2-rna/READ
 found no positive mTORC1 Hallmark corroboration (X753–WT P=0.219, global FDR=0.983).
 This adds no transcriptional support; it does not rebut the phosphorylation result.
 
+**A specific upstream hypothesis is altered insulin-receptor (IR) trafficking.**
+[Choi 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC5560052/) established a
+nonmitotic BUBR1-dependent endocytosis mechanism and increased insulin sensitivity
+in BubR1-hypomorphic mice. [Choi 2019](https://www.nature.com/articles/s41467-019-09318-3)
+extended the trafficking mechanism; SHP2 inhibition prolonged AKT signaling in
+liver, but not skeletal muscle. These findings do not establish harmful mTORC1
+activation, an N1002K effect or a muscle-disease mechanism. If myogenic mTORC1 excess
+is found, compare endogenous IR internalization and signaling duration in affected
+and corrected cells. The [focused follow-up](appendices/track2-evidence-pipeline.md#conditional-follow-up-insulin-receptor-trafficking)
+tests the proposed chain **BUBR1 dysfunction → delayed IR uptake → prolonged
+signaling → harmful mTORC1 activity**. Each arrow requires evidence; improved
+insulin sensitivity alone is not pathology. The Sieben study already proposed
+this connection; our contribution is a proposed allele-aware muscle test, not
+discovery of the link. This refines the existing hypothesis without changing the medication
+shortlist or making the experiment a submission prerequisite.
+
 The [everolimus label](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04)
 describes FKBP12-mediated mTORC1 inhibition and pediatric TSC indications from age
 one for SEGA and age two for associated seizures. Whole-blood concentration

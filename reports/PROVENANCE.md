@@ -8,6 +8,12 @@ The current [Track 1 report](jeweled_track1_report_submission.md), [Track 2 repo
 
 The reports in this checkout and the new [Track 2 evidence pipeline](appendices/track2-evidence-pipeline.md) govern the adopted proposal. Older internal report copies may be stale; this update does not claim synchronization of every working document. The imported [genome-informed analysis](../workflow/track2-model/README.md) retains its separate scope: reference-sequence reconstruction and uncalibrated population scenarios, without patient-to-drug response estimates. The route selection is qualitative; no model output or literature tally supplies a numerical therapeutic rank. Senolysis remains the strongest same-gene functional alternative but needs a selective eligible drug implementation. The selected everolimus/niacin pair tests two distinct hypotheses; its membership is less sensitive than its ordering to prioritizing actual drug implementation versus proximal causal evidence. Arimoclomol and dasatinib remain conditional reserves. The RNA null supplies no additional support and does not rebut the published phosphorylation result.
 
+The [conditional insulin-receptor follow-up](appendices/track2-evidence-pipeline.md#conditional-follow-up-insulin-receptor-trafficking)
+adds a public-literature hypothesis and prospective experiment to the existing
+mTORC1 branch. It supplies no N1002K trafficking result, patient measurement or
+drug efficacy evidence. The medication selection and submission schedule remain
+unchanged; the archived Track 1 upload and prediction are preserved exactly.
+
 The methods form retains all 22 original question headings. Its Track 1 answers
 now include actual ranking/predictor results and distinguish GIAB small-variant
 truth v4.2.1 from structural truth v5.0q. The [Track 1 case-evidence map](appendices/track1-case-evidence.md)

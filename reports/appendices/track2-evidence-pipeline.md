@@ -27,6 +27,7 @@ retaining their useful assay controls. It supplies no clinical dosing proposal.
 | Source | Established result | Missing bridge or counterevidence |
 |---|---|---|
 | [Sieben 2020, Fig. 5C](https://www.jci.org/articles/view/126863/version/2) | Increased phosphorylation of p70 S6 kinase and 4EBP1 in gastrocnemius from three-month-old BubR1+/X753 mice; two mice per genotype in the signaling blot. | A different allele and a small pathway-activity observation, not causal or drug rescue. The RNA Hallmark null below does not rebut phosphorylation. |
+| [Choi 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC5560052/); [Choi 2019](https://www.nature.com/articles/s41467-019-09318-3) | BUBR1 participates in insulin-receptor (IR) endocytosis; its depletion delays uptake in cultured cells. Hypomorphic mice have increased insulin sensitivity. | No N1002K-to-myogenic-mTORC1 demonstration. The 2019 SHP2 intervention prolonged liver AKT signaling, but not muscle AKT; that intervention is distinct from BUBR1 deficiency. |
 | [Everolimus label](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04) | Established mTOR inhibition and pediatric approved-use experience in specified TSC indications support a concrete drug implementation. | Neither establishes harmful mTORC1 excess, a useful exposure window or functional benefit in BUB1B-associated disease. |
 | [Suijkerbuijk 2010](https://pubmed.ncbi.nlm.nih.gov/20516114/) | Selected human MVA BUBR1 mutants have abundance defects; forced expression can restore a checkpoint response. | N1002K was not tested. HSP90 dependence does not demonstrate arimoclomol/HSP70 rescue, and a nocodazole response does not establish spontaneous segregation fidelity. |
 | [North 2014, Figs. 4–6](https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/) | NMN increased BUBR1 abundance in WT MEFs, largely through SIRT2, and in aged WT mouse testes. Genetic SIRT2 overexpression improved selected cardiac outcomes and male survival in BubR1 hypomorphs. | The drug experiments used 1 mM NMN for 24 hours in cells and 500 mg/kg/day intraperitoneally for seven days in mice. NMN did not supply the genetic survival result. WT/hypomorphic protein is not N1002K; small size, cataracts and lordokyphosis were not reversed by SIRT2 overexpression. |
@@ -130,6 +131,63 @@ contexts ([Ge 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2793064/),
 [Balnis 2025](https://doi.org/10.1172/jci.insight.182842)), and the
 [negative older-adult functional trial](https://doi.org/10.1002/jcsm.70274)
 justify testing the window rather than declaring benefit from pathway inhibition.
+
+#### Conditional follow-up: insulin-receptor trafficking
+
+If the matched affected/corrected comparison establishes mTORC1 excess, use the
+same preparations to test whether altered IR trafficking supplies an upstream
+explanation. This is a prospective mechanistic branch, not another medication
+nomination or an experiment required before submission. The Choi studies above
+motivate it, but their cell-line/liver evidence does not establish this mechanism
+in affected muscle. C-terminal interaction mapping is not a functional assay of
+N1002K or the actual truncation.
+
+The [Sieben discussion](https://www.jci.org/articles/view/126863/version/2)
+already proposed this upstream connection; it remains a hypothesis. Its different
+muscle-signaling outcomes across alleles also oppose a universal inference from
+low BUBR1. [Park 2023](https://pubmed.ncbi.nlm.nih.gov/37725942/) genetically
+disrupted IR–MAD2 binding and found delayed endocytosis/prolonged surface signaling,
+but also impaired insulin clearance and altered circulating hormones. This extends
+the trafficking evidence without establishing harmful myogenic mTORC1 activation;
+isolated cells will not model those systemic feedbacks.
+
+1. **Resolve uptake and signal duration together.** Compare affected and isogenic
+   corrected cells, retaining independent editing/preparation controls. Analyze
+   progenitors and differentiated myotubes separately at matched density,
+   maturation and nutrients. Under defined insulin stimulation and withdrawal,
+   follow endogenous surface-labeled IR into the cell with a validated uptake
+   assay, expressing uptake relative to the starting labeled surface pool.
+   Measure recycling and total/surface receptor abundance separately;
+   a surface-to-intracellular ratio alone cannot distinguish these processes.
+   Verify that labeling does not change signaling. In matched samples measure
+   phospho/total IR, AKT-T308 and ERK alongside p70S6K and 4EBP1 across activation
+   and decay; record AKT-S473 separately if measured, not as an mTORC1 endpoint.
+   Fix the insulin exposure, sampling window and duration/AUC comparisons
+   after the pilot; a larger peak alone does not show prolonged signaling.
+2. **Test the proposed connection.** Control insulin/IGF content and distinguish
+   INSR from IGF1R engagement; receptor identity cannot be inferred from AKT alone.
+   If delayed uptake and prolonged mTORC1 signaling co-occur, test partial,
+   inducible INSR attenuation with on-target controls, titrated toward corrected
+   signaling rather than removal of basal trophic support. This tests receptor
+   dependence, not whether delayed uptake itself mediates the effect. Genetic
+   correction also affects mitosis and need not erase prior karyotypic differences;
+   document those differences and do not interpret coincident rescue as isolation
+   of a direct nonmitotic mechanism. A trafficking-specific causal claim requires a
+   qualified separation-of-function perturbation; do not assume one is available
+   for these alleles.
+3. **Establish whether the excess is harmful.** Retain the existing partial RPTOR
+   test and absolute-function, renewal and fidelity criteria. Improved insulin
+   responsiveness may be neutral or helpful. AKT elevation without mTORC1 excess,
+   or marker normalization without functional gain, cannot justify everolimus.
+   Cells and images remain nested observations under the existing replication
+   plan; this exploratory branch does not enlarge the four confirmatory drug
+   claims.
+
+| Focused result | Interpretation |
+|---|---|
+| Delayed IR uptake and prolonged downstream activity reverse with correction; INSR dependence and beneficial partial RPTOR normalization are supported | Supports an IR-linked mTORC1 explanation; trafficking mediation and variant-specific action still require their own evidence. |
+| IR kinetics are normal within a prespecified detectable effect, or an IR alteration does not track mTORC1 activity | Deprioritize this trafficking explanation in the tested state. A different cause of mTORC1 excess remains possible. |
+| Longer signaling accompanies preserved or improved function, or its reduction impairs output/renewal | Do not label that response harmful or use it to favor pathway suppression. |
 
 ### Niacin and the restoration-specific arimoclomol reserve
 

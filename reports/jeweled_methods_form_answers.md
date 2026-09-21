@@ -147,6 +147,8 @@ Leu737Ter predicts truncation and possible NMD; reference reconstruction does no
 
 Genetic correction and controlled actual-allele expression tests determine whether the nominated genotype produces a functional defect and whether surviving protein is useful, inert or interfering. A separate branch asks whether harmful mTORC1 excess contributes to muscle dysfunction; the different-allele mouse result cannot establish that state in this case.
 
+If myogenic mTORC1 excess is established, a [conditional IR-trafficking follow-up](appendices/track2-evidence-pipeline.md#conditional-follow-up-insulin-receptor-trafficking) compares endogenous receptor uptake and signaling duration in affected/corrected cells. The [Choi 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC5560052/) and [2019](https://www.nature.com/articles/s41467-019-09318-3) studies motivate this proposed mechanism; it is unestablished for N1002K and muscle disease. Receptor dependence, trafficking mediation and harmful downstream activity are separate questions. This adds no drug or completed experiment.
+
 Niacin tests a NAD/SIRT2-to-usable-BUBR1 hypothesis; everolimus tests partial mTORC1 normalization. Restoration requires relevant protein/function evidence, whereas downstream benefit may occur without correcting the initiating segregation defect. Both must improve useful absolute output without unacceptable renewal loss or worsened fidelity. A benefit without the proposed causal dependence is retained but reclassified. Genomic EPCR 0.8 is not a probability of drug benefit.
 
 Either functional cohort can establish meaningful benefit if the other cohort,
