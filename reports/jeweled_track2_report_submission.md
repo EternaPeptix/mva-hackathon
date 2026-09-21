@@ -15,7 +15,7 @@ proposal connects allele consequences, functional divisions and absolute muscle
 output. It neither proposes suppressing the spindle checkpoint nor assumes that
 existing aneuploid genomes can be corrected pharmacologically.
 
-## Why this route set is strongest for the submission
+## Why this route set fits the submission
 
 We prioritize a disease-linked, experimentally distinguishable mechanism, then
 ask whether an eligible medication can implement it at justified exposure.
@@ -24,13 +24,14 @@ association; evidence for a genetic manipulation is not transferred to a drug.
 Approval, pediatric experience and formulation affect feasibility, not efficacy.
 There is no weighted score or estimated therapeutic probability.
 
-| Research priority | Evidence that earns the position | Principal weakness / decisive comparison |
+| Role in the research program | Supporting evidence | Principal weakness / decisive comparison |
 |---|---|---|
-| **1. Usable BUBR1 restoration: niacin, with arimoclomol as challenger** | Human MVA experiments support expression rescue for selected BUBR1 mutants. NAD/SIRT2 manipulation has a direct BUBR1-stability precedent; human muscle NAD engagement supplies a niacin implementation hypothesis. | Neither drug has demonstrated N1002K or MVA rescue. Compare endogenous protein, chromosome segregation and absolute functional output at separately justified exposures. Niacin is prioritized for testing, not declared superior to arimoclomol. |
-| **2. Selective senescent-cell removal: conditional downstream route** | Engineered clearance improved muscle/function in BubR1-hypomorphic mice: the strongest same-gene organismal functional precedent among these routes. | Genetic INK-ATTAC clearance is not an approved medication. D+Q has only marker-level same-model patent evidence, and combination findings do not establish dasatinib-alone activity or an approved D+Q regimen. Qualify harmful burden and drug susceptibility first. |
-| **3. mTORC1 normalization: everolimus conditional comparator** | Different-truncation BubR1 muscle signaling association and established rapalog pharmacology. | No demonstrated BUB1B rapalog functional rescue; unfavorable RNA corroboration, an underreported rapamycin nonbenefit observation and state-dependent everolimus-associated BUBR1 loss. Require harmful excess signaling and preserved residual protein/function. |
+| **Primary question — usable BUBR1 restoration: niacin, with arimoclomol as challenger** | Human MVA experiments support expression rescue for selected BUBR1 mutants. NAD/SIRT2 manipulation has a direct BUBR1-stability precedent; human muscle NAD engagement supplies a niacin implementation hypothesis. | Neither drug has demonstrated N1002K or MVA rescue. Compare endogenous protein, chromosome segregation and absolute functional output at separately justified exposures. Niacin is prioritized for testing, not declared superior to arimoclomol. |
+| **Strongest same-gene tissue mechanism — selective senescent-cell removal** | Engineered clearance improved muscle/function in BubR1-hypomorphic mice. | Genetic INK-ATTAC clearance is not an approved medication. D+Q has only marker-level same-model patent evidence, and combination findings do not establish dasatinib-alone activity or an approved D+Q regimen. Qualify harmful burden and drug susceptibility first. |
+| **Competitive pathway alternative — mTORC1 normalization with everolimus** | Increased mTORC1-substrate phosphorylation in a different-truncation BubR1 muscle model and established drug-to-target pharmacology. | No demonstrated BUB1B rapalog functional rescue. The RNA null adds no support but does not rebut phosphorylation. Underreported rapamycin nonbenefit and state-dependent BUBR1 loss warrant functional testing and monitoring, not rejection. |
 
-This ordering depends on the **approved-medication submission** objective. If
+These roles reflect the **approved-medication submission** objective, not a
+universal drug ranking. If
 ranking only demonstrated same-gene tissue mechanisms, senescent-cell clearance
 ranks ahead. We do not hide that competing interpretation. Its stronger genetic
 result does not establish an eligible senolytic implementation. The
@@ -93,25 +94,43 @@ an abundance-only hypothesis weakens; a chaperone could still improve function
 per molecule, but must demonstrate it. Neither NAD elevation nor HSP induction
 is the primary success endpoint.
 
-### Why everolimus no longer leads
+### Everolimus versus arimoclomol
+
+**Everolimus is at least as competitive as arimoclomol as a specific drug
+hypothesis.** If selecting only between these two on current drug-to-mechanism
+evidence, we give everolimus a narrow qualitative preference. Selecting the
+restoration research question does not establish arimoclomol superiority.
+
+| Comparison | Everolimus | Arimoclomol |
+|---|---|---|
+| Drug implements the proposed mechanism | [Established mTOR inhibition](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04). | Useful BUBR1 chaperoning remains unproved; other-protein processing results do not close that link. |
+| Disease connection | Same-gene muscle signaling evidence, but a different allele and no causal drug-rescue experiment. | Human MVA expression rescue supports the restoration strategy, not arimoclomol itself or N1002K rescue. |
+| Exposure and functional uncertainty | Must show a useful normalization window without losing BUBR1, renewal or muscle output. | Must show functional rescue at justified exposure; cited high-concentration cell findings do not establish that window. |
+| Result that would favor the drug | Genotype-relevant excess mTORC1 activity and functional rescue with preserved BUBR1 and renewal. | Endogenous mutant BUBR1 functional rescue and productive myogenesis at justified exposure. |
 
 The [BubR1+/X753 study](https://www.jci.org/articles/view/126863/version/2)
-provides a muscle-pathway hypothesis, not a drug rescue. X753 is not L737Ter;
+found increased phosphorylation of p70 S6 kinase and 4EBP1 in gastrocnemius from
+three-month-old mice (two mice per genotype in the signaling blot). This is
+direct pathway-activity evidence, although small and not a drug rescue. X753 is not L737Ter;
 mouse L1002P models human L1012P, not N1002K. Abundance and signaling were measured
 at different ages. Our [public mouse RNA reanalysis](../workflow/track2-rna/README.md)
 found no positive mTORC1 Hallmark corroboration (X753–WT P=0.219, global FDR=0.983).
-This does not measure kinase inactivity or exclude a pathway effect.
+This supplies no additional transcriptional corroboration; it does not rebut
+the phosphorylation result or establish kinase inactivity.
 
-Two additional primary-source findings change the balance. A
+Two additional primary-source findings qualify the hypothesis. A
 [2013 BubR1 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3785294/) reports
 preliminary unpublished observations of no apparent age-phenotype benefit with
 rapamycin, without the treatment details needed for a definitive negative result.
 [Goutas et al., Fig. 6](https://pmc.ncbi.nlm.nih.gov/articles/PMC10149375/) found
 lower BUBR1 after 50 nM everolimus for 24 hours in late-passage human Wharton-jelly
 MSCs, but not early-passage cells. Those were not BUB1B-mutant cells. This is a
-state-dependent molecular concern, not evidence of MVA harm.
+state-dependent molecular concern, not evidence of MVA harm. The preliminary
+rapamycin observation is a weak negative in another model; neither finding is
+sufficient to rank everolimus below arimoclomol by itself.
 
-Everolimus remains testable only if harmful mTORC1 excess is established and
+Everolimus remains a serious conditional hypothesis. Its qualification can
+proceed alongside restoration: establish harmful mTORC1 excess and test whether
 partial genetic normalization improves function. Preserve endogenous BUBR1,
 mitotic fidelity and progenitor renewal as well as mature-muscle output. The
 [conditional mTOR experiment](appendices/track2-evidence-pipeline.md) retains
@@ -175,7 +194,7 @@ pretend that these missing biological links have been measured.
 | Unelected route | Strongest reason to consider it | Weakness and condition for reconsideration |
 |---|---|---|
 | **Senolysis / dasatinib + quercetin** | [INK-ATTAC](https://www.nature.com/articles/nature10600) improves selected BubR1-hypomorph tissue outcomes. [Patent Example 11](https://patents.google.com/patent/WO2015116735A1/en) reports D+Q adipose-marker reductions in that model. | Engineered clearance differs from a drug. Patent evidence supplies no functional rescue, sample size or doses; p16 reduction was not conventionally significant. Peer-reviewed D+Q functional evidence concerns [Ercc1](https://pmc.ncbi.nlm.nih.gov/articles/PMC4531078/). D+Q is not an approved regimen, and dasatinib alone cannot inherit combination efficacy. Require harmful burden, selective susceptibility and increased absolute output. |
-| **Everolimus / sirolimus** | Same-gene signaling association; [rapamycin improved Tsc1-deficient muscle](https://pubmed.ncbi.nlm.nih.gov/23602450/). | Conditional third route for the reasons above. No proven MVA superiority of either rapalog. Normalization must help without sacrificing BUBR1 or regeneration. |
+| **Everolimus / sirolimus** | Same-gene signaling association; [rapamycin improved Tsc1-deficient muscle](https://pubmed.ncbi.nlm.nih.gov/23602450/). | Competitive conditional alternative, not rejected or established inferior to arimoclomol. No proven MVA superiority of either rapalog. Normalization must help without sacrificing BUBR1 or regeneration. |
 | **Acipimox / alternative NAD-support implementation** | [Human mitochondrial effects](https://pmc.ncbi.nlm.nih.gov/articles/PMC4375076/) and an [approved lipid indication](https://www.medicines.org.uk/emc/product/1357/smpc). | Human muscle NAD/SIRT2/BUBR1 engagement is unestablished; direct NAD evidence used 10 mM mouse myotubes. A [two-week older-adult trial](https://doi.org/10.1515/teb-2024-0030) showed no functional or muscle-protein-synthesis benefit; the separate diabetes trial showed rebound fatty acids and worse insulin sensitivity. These are limited, different-disease studies, not an MVA exclusion. |
 | **Sodium phenylbutyrate** | Approved products and [functional rescue of mutant ABCA1](https://pmc.ncbi.nlm.nih.gov/articles/PMC3520540/). | Different protein; no located BUBR1-specific rescue. That experiment used 10 mM for 24 hours, with substantial exposure translation unresolved. Broad chaperone/HDAC activity does not select a BUBR1 mechanism. |
 | **Teprenone / geranylgeranylacetone** | Japan-market-approved drug; a [13-versus-13 human atrial study](https://pubmed.ncbi.nlm.nih.gov/31302249/) found HSPA1/HSPB1 induction. [PMDA product record](https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/2329012C1026_1?user=1). | HSP90 was not measured, nor BUBR1 rescue; atrial target engagement is not myogenic function. The Japanese label reports no pediatric clinical trials. It does not displace arimoclomol without a functional BUBR1 result. |

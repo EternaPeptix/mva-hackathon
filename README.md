@@ -77,9 +77,10 @@ differential, 288 bp phase blocks versus a 10,911 bp gap, and retracted mosaic s
 with **arimoclomol as a challenger**. Human muscle NAD engagement and a separate NAD/SIRT2–BUBR1
 stability study justify investigating niacin; neither establishes mutant rescue. Arimoclomol's
 HSP70-to-BUBR1 bridge also remains unproved. Senescent-cell clearance has the strongest same-gene
-mouse functional precedent but lacks a validated eligible drug implementation. Everolimus is now
-a conditional alternative: our [RNA reanalysis](workflow/track2-rna/README.md) gives no positive
-mTORC1 corroboration, and additional literature raises nonbenefit and residual-BUBR1 concerns.
+mouse functional precedent but lacks a validated eligible drug implementation. Everolimus is a
+competitive conditional alternative with a clearer drug-to-target link than arimoclomol's proposed
+BUBR1 implementation. Our [RNA reanalysis](workflow/track2-rna/README.md) adds no mTORC1 support;
+it does not rebut the published protein-activity result. Both require functional qualification.
 No drug winner or clinical benefit is established.
 
 The [proposal](reports/jeweled_track2_report_submission.md) and

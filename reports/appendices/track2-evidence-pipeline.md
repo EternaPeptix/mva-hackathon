@@ -4,7 +4,11 @@
 **niacin (nicotinic acid) as the exploratory first testing nominee and arimoclomol
 as an explicit challenger**. Neither is a demonstrated drug winner. Senolysis is
 the strongest same-gene organismal functional mechanism considered; its drug implementation
-remains unresolved. Everolimus is a conditional pathway alternative.
+remains unresolved. Everolimus is a competitive conditional pathway alternative:
+its established drug-to-target link gives it a narrow preference over arimoclomol
+as a specific drug hypothesis, without establishing functional superiority.
+Arimoclomol's role here follows the chosen restoration question, not a universal
+drug ranking.
 [Current proposal](../jeweled_track2_report_submission.md).
 
 Candidate reconstruction, population sensitivity calculations and a secondary
@@ -206,12 +210,17 @@ do not expressly require an approved regimen; D+Q eligibility
 is unresolved because quercetin lacks an established approved-drug status here.
 Retain D+Q as an experimental comparator, not a clearly eligible nomination.
 
-**mTORC1 / everolimus:** retain this only after demonstrating genotype-associated
-excess signaling at matched maturation, density, nutrients and cell composition.
+**mTORC1 / everolimus:** qualify this hypothesis alongside restoration by testing
+for genotype-associated excess signaling at matched maturation, density,
+nutrients and cell composition; restoration failure is not a prerequisite.
 Measure phospho/total p70S6K and 4EBP1 and, where relevant, autophagy flux. The
 [Sieben muscle association](https://www.jci.org/articles/view/126863/version/2)
+includes increased p70 S6 kinase and 4EBP1 phosphorylation in three-month-old
+BubR1+/X753 gastrocnemius (two mice per genotype in the signaling blot), but
 does not establish causal rescue. Our [GSE134781 analysis](../../workflow/track2-rna/README.md)
 found no positive mTORC1 Hallmark corroboration (X753–WT P=0.219; global FDR=0.983).
+This is not evidence against the measured phosphorylation: transcription and
+kinase activity are different endpoints.
 
 Retain adverse evidence: [Baker 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3785294/)
 reports preliminary unpublished observations of similar age-phenotype development
@@ -219,7 +228,11 @@ in rapamycin-fed and control BubR1 progeroid mice; this is not a fully reported
 negative trial. [Goutas 2023, Fig. 6](https://pmc.ncbi.nlm.nih.gov/articles/PMC10149375/)
 found that 50 nM everolimus for 24 hours reduced BUBR1 in late-passage WJ-MSCs,
 with no corresponding early-passage reduction. This is a cell-state-specific
-warning, not a mutant experiment or proof of harm in MVA.
+warning, not a mutant experiment or proof of harm in MVA. These concerns justify
+monitoring and decision criteria; they do not establish arimoclomol superiority.
+Normal signaling, failure of function despite target engagement, or loss of
+BUBR1/renewal would move everolimus down. Functional rescue at justified exposure
+would move it ahead; compare absolute output rather than biomarker change alone.
 
 If excess signaling is qualified, titrate partial inducible RPTOR attenuation
 toward the corrected-cell range with independent targeting/on-target controls.
