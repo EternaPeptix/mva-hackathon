@@ -6,7 +6,7 @@
 
 The organizer describes a child living with MVA and a clinically solved answer: the [overview](https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/blob/main/tabs/about.py) states that the answer is clinically confirmed, and the [rules](https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/blob/main/tabs/rules.py) refer to NHS-validated causal variant(s). That supplied disease context informs the review. The [FAQ](https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/blob/main/tabs/faq.py) and overview explain partial credit conditionally for a compound-heterozygous pair; this scoring example does not unambiguously establish the hidden answer's allelic structure. We do not use it as independent evidence that this case must have a causal pair.
 
-Those statements do **not** publicly confirm our exact two positions, supply their segregation results or disclose the underlying clinical laboratory evidence. We have not examined the private gold-standard answer or scored a real submission. Earlier candidate awareness prevents a blinded-discovery claim. Public filename hints are not used as genetic evidence.
+Those statements do **not** publicly confirm our exact two positions, supply their segregation results or disclose the underlying clinical laboratory evidence. We have not examined the private gold-standard answer. The later automated Track 1 score is recorded in the [submission record](../README.md#track-1-submission-record); it supplies no new segregation or functional evidence. Earlier candidate awareness prevents a blinded-discovery claim. Public filename hints are not used as genetic evidence.
 
 ## What the completed analysis supports
 
@@ -37,6 +37,15 @@ Completed broader reviews have not supplied a better-supported causal explanatio
 ## Phase and the retracted mosaic signal
 
 **Phase remains unobserved.** The vendor VCF's 304,329 annotated phase blocks have a maximum observed variant-position span of **288 bp**; the two targets are **10,911 bp apart**. That vendor annotation statistic is not a universal limit of short-read phasing. The earlier two-lane 100 kb WhatsHap review recovered local blocks up to **2,327 bp**, still without linking the targets. The final four-lane bounded review also leaves a 6,769 bp marker gap and an unknown pair relation in every run; its longest local block is 77 bp. These scopes must not be conflated.
+
+**Confirmed cis would retire the proposed pair as the compound-heterozygous
+explanation.** Without another pathogenic allele, `[L737Ter;N1002K]/WT` is not
+established biallelic MVA1. A continuing BUB1B causal explanation would require an
+independently demonstrated additional pathogenic allele in trans or dominant mechanism;
+it would not retain these two variants as the recessive causal pair. Unknown WT
+protein dosage or suggestive carrier-mouse data cannot substitute for that evidence.
+The recorded exact-pair EPCR is therefore not an estimate conditional on confirmed
+cis. No cis result has been observed here.
 
 These unsuccessful links do not demonstrate cis phase. Trans is the favored configuration **under the recessive causal model**, but has not been observed; parental segregation could falsify that model. Unknown phase is neither a measured 50:50 probability nor repeated negative evidence each time the same reads fail to bridge the gap.
 

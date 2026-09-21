@@ -2,12 +2,13 @@
 
 **21 September 2026. Awaiting human review; Track 2 has not been submitted.**
 The repository now contains the report, evidence and complete new Skylar pitch.
-The current report incorporates a human-review correction to the niacin evidence:
-Pirinen's treated healthy controls also improved in strength. The report, route
-table, methods and experimental plan now distinguish NAD engagement, functional
-benefit and disease-specific rescue. The media claim only NAD engagement from
-that study. Slide 4 now says “five patients”: the study included a 17-year-old.
-Narration and captions are unchanged.
+The current revision incorporates three human-review corrections: Pirinen's
+strength gains also occurred in treated healthy controls; Sieben's carrier-mouse
+blot does not establish increased pathway activity; and confirmed cis retires the
+proposed compound-heterozygous explanation. The report, methods, evidence tables
+and experimental decisions now state those limits explicitly. Slides 2 and 3,
+their Skylar narration and captions are corrected to match. Slide 4 retains the
+previous “five patients” age correction.
 
 ## Scientific proposal
 
@@ -23,7 +24,7 @@ Narration and captions are unchanged.
 - [Skylar video, MP4](media/jeweled_track2_skylar.mp4): exactly three minutes,
   1920 × 1080, eight slides, with complete narration and a selectable caption track.
 - [Editable slide deck, PPTX](media/jeweled_track2_slides.pptx): sources in speaker notes.
-- [Captions, SRT](media/jeweled_track2_skylar.srt): 47 cues; display depends on the player.
+- [Captions, SRT](media/jeweled_track2_skylar.srt): timed to the revised narration; display depends on the player.
 - [Readable narration](jeweled_track2_pitch_reconciled.md) and
   [spoken storyboard](media/track2-storyboard.json).
 
@@ -35,11 +36,10 @@ The earlier Lauren recording is historical and is superseded by this pitch.
 The [clean-state AI review](reviews/track2-clean-state-20260921.md) records a fresh
 rubric score, deductions and remaining suggestions. The reviewer received no
 conversation history or previous reviews/scores. Its assessment is unofficial.
-That score applies to the identified earlier revision, before the niacin
-correction above; the corrected text has not received a new rubric score. The
-slide 4 age description is also corrected; narration remains unchanged. The proposed execution/resource-plan
-addition and minor “each reviewed route” wording change remain suggestions
-for consideration.
+That score applies to the identified earlier revision, before these human-review
+corrections; it is not a score of the latest report or media. The proposed
+execution/resource-plan addition and minor “each reviewed route” wording change
+remain suggestions for consideration.
 
 The repository remains private. Human approval precedes public video upload and
 Track 2 submission. Cleanup of 512S2 follows research closeout and preservation of

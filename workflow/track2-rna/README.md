@@ -22,7 +22,9 @@ whether a program differs relative to the expressed-gene background; it does not
 test phosphorylation, causal dependence or pathway equivalence. Median fold
 changes are descriptive and are not the CAMERA test statistic. The deposited
 counts supply no positive Hallmark support for this mechanism under this
-analysis. The paper's small phosphoprotein experiment remains separate evidence.
+analysis. The paper's monoallelic-carrier blot is a separate qualitative band
+observation with no total-substrate ratios, quantification or inferential test;
+it does not demonstrate increased pathway activity.
 
 No mTORC1 contrast passed any of the 12 sensitivity analyses. For X753–WT its
 direction stayed down; X753–L1002P changed direction once after leaving one mouse
@@ -50,7 +52,7 @@ or composition effects cannot be excluded. TMM factors ranged 0.886–1.082.
 
 **Decision consequence:** this analysis supplies no additional transcriptional
 support for mTORC1 and no affirmative support for a rival. It does not rebut the
-published phosphorylation measurements or measure kinase activity. The
+qualitative phosphoprotein-band observation or measure kinase activity. The
 [current proposal](../../reports/jeweled_track2_report_submission.md) selects everolimus
 and niacin as distinct drug hypotheses on their broader evidence, with functional
 qualification still required. These interpretation boundaries do not alter any

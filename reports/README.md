@@ -37,7 +37,7 @@ Track 2 selects **everolimus as the lead drug hypothesis and niacin (nicotinic a
 
 The [one-row prediction CSV](jeweled_evidence-reconciled-v2.csv) records the current decision; its [provenance](jeweled_evidence-reconciled-v2.csv.provenance.json) covers format and reference checks, not a comparison with private truth.
 
-The completed [public mouse RNA analysis](../workflow/track2-rna/README.md) did not corroborate an upregulated mTORC1 Hallmark program. That result does not rebut the published substrate-phosphorylation measurements. Underreported rapamycin nonbenefit and a different-cell-state everolimus-associated BUBR1 decrease remain concerns to test. The common comparison requires absolute functional benefit, preserved renewal and no worsened fidelity; only a claimed restoration mechanism requires corresponding BUBR1/segregation rescue.
+The completed [public mouse RNA analysis](../workflow/track2-rna/README.md) did not corroborate an upregulated mTORC1 Hallmark program. That result does not rebut the qualitative carrier-blot observation; that blot does not demonstrate increased pathway activity. Underreported rapamycin nonbenefit and a different-cell-state everolimus-associated BUBR1 decrease remain concerns to test. The common comparison requires absolute functional benefit, preserved renewal and no worsened fidelity; only a claimed restoration mechanism requires corresponding BUBR1/segregation rescue.
 
 ## Pitch and delivery
 
@@ -48,9 +48,11 @@ The [route decisions](appendices/track2-route-decisions.md) compare the alternat
 A subsequent [clean-state rescore](reviews/track2-clean-state-20260921.md) assessed
 the corrected artifacts without seeing earlier reviews or scores. It is an
 unofficial assessment, separate from the initial reviewer's correction check.
-The current text additionally incorporates the human-review correction on
-Pirinen's treated-control strength gains and the slide's patient-age description;
-the archived score predates those changes.
+The current package additionally corrects Pirinen's treated-control strength
+interpretation, Sieben's qualitative carrier-blot evidence and the consequence
+of confirmed cis. The report and media reflect these changes; the archived score
+predates them. The living Track 1 report clarifies cis without modifying the
+exact submitted upload or prediction.
 
 Claude Code and Codex used personal subscriptions with training disabled, as confirmed by the user. Cartesia Sonic 3.6/Skylar uses the Free plan, verified on 21 September; its training/retention settings remain unverified. The cover is an AI-generated conceptual illustration.
 

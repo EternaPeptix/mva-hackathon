@@ -83,6 +83,7 @@ ploidy spanning an active region. Methods and control counts are in the componen
 
 **Track 1:** BUB1B **p.(Leu737Ter) + p.(Asn1002Lys)** is our leading hypothesis, at subjective
 **EPCR 0.8**. Both alleles are observed; trans is favored under the recessive model but unobserved.
+Confirmed cis would retire this pair as the compound-heterozygous explanation.
 The stop has a two-star ClinVar P/LP assertion and the missense remains VUS. The
 [report](reports/jeweled_track1_report_submission.md) explains the two-allele census, ten-gene
 differential, 288 bp phase blocks versus a 10,911 bp gap, and retracted mosaic signal.
@@ -93,8 +94,9 @@ of usable BUBR1. Everolimus has the clearer drug-to-target link; niacin connects
 NAD engagement to a separate BUBR1-stability mechanism. Neither has demonstrated rescue of
 this genotype. Arimoclomol and dasatinib remain conditional reserves. Our
 [RNA reanalysis](workflow/track2-rna/README.md) adds no mTORC1 support and does not rebut the
-published protein-activity result. The decision rests on literature and testability, not a
-simulated drug ranking or clinical-benefit claim.
+qualitative carrier-blot observation, which does not establish increased pathway activity.
+The decision rests on literature and testability, not a simulated drug ranking or
+clinical-benefit claim.
 
 The [proposal](reports/jeweled_track2_report_submission.md) and
 [evidence pipeline](reports/appendices/track2-evidence-pipeline.md) explain the

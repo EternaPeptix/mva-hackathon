@@ -6,7 +6,7 @@
 
 The current [Track 1 report](jeweled_track1_report_submission.md), [Track 2 report](jeweled_track2_report_submission.md) and [methods form](jeweled_methods_form_answers.md), together with the [causal interpretation appendix](appendices/causal-interpretation.md), state the adopted interpretation. The subjective exact-pair EPCR is **0.8**. Its revision from 0.35 reflects reappraisal of the supplied clinical context and completed evidence, without new segregation or functional data. Unknown phase is retained; N1002K remains a VUS. No treatment response is claimed.
 
-The reports in this checkout and the new [Track 2 evidence pipeline](appendices/track2-evidence-pipeline.md) govern the adopted proposal. Older internal report copies may be stale; this update does not claim synchronization of every working document. The imported [genome-informed analysis](../workflow/track2-model/README.md) retains its separate scope: reference-sequence reconstruction and uncalibrated population scenarios, without patient-to-drug response estimates. The route selection is qualitative; no model output or literature tally supplies a numerical therapeutic rank. Senolysis remains the strongest same-gene functional alternative but needs a selective eligible drug implementation. The selected everolimus/niacin pair tests two distinct hypotheses; its membership is less sensitive than its ordering to prioritizing actual drug implementation versus proximal causal evidence. Arimoclomol and dasatinib remain conditional reserves. The RNA null supplies no additional support and does not rebut the published phosphorylation result.
+The reports in this checkout and the new [Track 2 evidence pipeline](appendices/track2-evidence-pipeline.md) govern the adopted proposal. Older internal report copies may be stale; this update does not claim synchronization of every working document. The imported [genome-informed analysis](../workflow/track2-model/README.md) retains its separate scope: reference-sequence reconstruction and uncalibrated population scenarios, without patient-to-drug response estimates. The route selection is qualitative; no model output or literature tally supplies a numerical therapeutic rank. Senolysis remains the strongest same-gene functional alternative but needs a selective eligible drug implementation. The selected everolimus/niacin pair tests two distinct hypotheses; its membership is less sensitive than its ordering to prioritizing actual drug implementation versus proximal causal evidence. Arimoclomol and dasatinib remain conditional reserves. The RNA null supplies no additional support and does not adjudicate the qualitative carrier-blot observation; the blot does not establish increased pathway activity.
 
 The [conditional insulin-receptor follow-up](appendices/track2-evidence-pipeline.md#conditional-follow-up-insulin-receptor-trafficking)
 adds a public-literature hypothesis and prospective experiment to the existing
@@ -55,7 +55,7 @@ pipeline, complete result tables and figures. GSE134781 contains different mouse
 alleles and no case data. This independent secondary analysis of the same counts
 is not an independent biological replication or a reproduction of the original
 DESeq2/STRING method. It does not support an upregulated mTORC1 Hallmark program;
-the current proposal retains that absence of corroboration without treating it as a rebuttal of protein phosphorylation. MSigDB-derived
+the current proposal retains that absence of corroboration without treating it as validation or refutation of the qualitative band observation. MSigDB-derived
 membership outputs retain their attributed third-party terms. That RNA analysis adds no unpublished patient measurement or laboratory response.
 
 The prediction CSV and its provenance are byte-identical to the revised internal export. The CSV SHA-256 is `40232aa87da1b498d44e73d82caf485aa390c7d02547bf4f817c557495cf1355`. Its one row is a manually reviewed research prediction, with phase unknown; the recorded builder checks establish format and reference compatibility, not clinical validation or private-truth accuracy.
@@ -68,8 +68,10 @@ Excluded material includes raw case reads, read names, alignments, pileups, raw/
 
 The [Track 1 model 1 upload](jeweled_track1_model1_upload.md) is the exact combined
 Markdown sent to the portal, with source links pinned to the pre-submission commit.
-It adds no new scientific claim or case-data category. Its pre-submission source
-reports remain unchanged. Confirmed automated scoring does not provide new phase,
+It adds no new scientific claim or case-data category. The exact upload remains
+unchanged; the living Track 1 report and causal appendix now clarify that confirmed
+cis retires this exact pair as the compound-heterozygous explanation. Confirmed
+automated scoring does not provide new phase,
 functional or treatment-response evidence. The final report-save verification
 remains pending as stated in the submission record.
 
@@ -86,13 +88,15 @@ The former [private Lauren release](https://github.com/EternaPeptix/mva-hackatho
 The [clean-state rescore](reviews/track2-clean-state-20260921.md) is an AI reviewer
 assessment of revision `3bae97436b6767bbbcfa04e1ddcd5fa23e4598b7` and the identified
 media. The imported review retains its original wording and artifact identities.
-The subsequent human-review correction makes Pirinen's treated-control strength
-gains explicit in the report, experimental plan, route table and Track 2 methods.
-It adds no new experiment and does not change the drug pair. Slide 4 in the deck
-and video now says “five patients” because one participant was 17. Narration,
-captions and storyboard remain unchanged; their Pirinen claim is muscle NAD
-engagement. The archived score predates these corrections; it is neither a score of the latest text nor an
-organizer score or measurement of clinical validity.
+Subsequent human review corrected the Pirinen strength interpretation, the
+Sieben carrier-blot claim and the consequence of confirmed cis phase. The current
+report and pipeline treat the blot as qualitative and retire the proposed pair
+as compound heterozygous if cis is confirmed. A different BUB1B explanation would
+require an independently demonstrated pathogenic allele in trans or dominant
+mechanism. Slides 2 and 3 and their Skylar narration are revised; slide 4 retains
+“five patients.” No new biological observation or phase result is claimed.
+The archived score predates these corrections and is neither a score of the
+latest text/media nor an organizer score or measurement of clinical validity.
 
 Claude Code and Codex were used on personal subscriptions with training on the user's content disabled, according to the user. Exact historical model/plan names are unverified. Candidate-level evidence and report text were reviewed with hosted assistants. Cartesia Sonic 3.6 supplies stock-Skylar narration on the Free plan, verified on 21 September 2026; no voice was cloned. Cartesia training/retention settings and an immutable model snapshot remain unverified. The Claude/Codex confirmation does not establish Cartesia settings. The cover illustration was generated with the OpenAI image-generation tool through Codex and is conceptual artwork, not a biological observation.
 

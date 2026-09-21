@@ -28,7 +28,7 @@ retaining their useful assay controls. It supplies no clinical dosing proposal.
 
 | Source | Established result | Missing bridge or counterevidence |
 |---|---|---|
-| [Sieben 2020, Fig. 5C](https://www.jci.org/articles/view/126863/version/2) | Increased phosphorylation of p70 S6 kinase and 4EBP1 in gastrocnemius from three-month-old BubR1+/X753 mice; two mice per genotype in the signaling blot. | A different allele and a small pathway-activity observation, not causal or drug rescue. The RNA Hallmark null below does not rebut phosphorylation. |
+| [Sieben 2020, Fig. 5C](https://www.jci.org/articles/view/126863/figure/5) | Visually stronger phospho-p70S6K/phospho-4EBP1 bands in three-month-old BubR1+/X753 gastrocnemius than WT or BubR1+/L1002P; two mice per genotype, with Ponceau S loading control. Both mutant groups are monoallelic carriers. | No total S6K/4EBP1 denominators, band quantification or inferential statistics for panel C. Qualitative bands do not establish increased pathway activity, biallelic MVA1 signaling or drug rescue. The RNA result neither validates nor refutes this observation. |
 | [Choi 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC5560052/); [Choi 2019](https://www.nature.com/articles/s41467-019-09318-3) | BUBR1 participates in insulin-receptor (IR) endocytosis; its depletion delays uptake in cultured cells. Hypomorphic mice have increased insulin sensitivity. | No N1002K-to-myogenic-mTORC1 demonstration. The 2019 SHP2 intervention prolonged liver AKT signaling, but not muscle AKT; that intervention is distinct from BUBR1 deficiency. |
 | [Everolimus label](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04) | Established mTOR inhibition and pediatric approved-use experience in specified TSC indications support a concrete drug implementation. | Neither establishes harmful mTORC1 excess, a useful exposure window or functional benefit in BUB1B-associated disease. |
 | [Tang 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3532042/) | Rapamycin, Torin1 and mTOR knockdown did not preferentially inhibit trisomic MEF accumulation or enhance AICAR's effect. | A negative for that antiproliferation hypothesis; muscle-function rescue was not tested. It supplies no support for an aneuploid-cell-killing rationale for everolimus. |
@@ -87,13 +87,18 @@ survival remain unmeasured. [Sequence reconstruction](../../workflow/track2-mode
 is conditional; [pseudokinase-domain evidence](https://pubmed.ncbi.nlm.nih.gov/33207204/)
 precludes assuming a surviving truncation is fully functional.
 
-Confirmed cis would retire the canonical N1002K-client explanation and reopen the
-biallelic causal interpretation; it would not itself establish a different clinical
-cancer-predisposition diagnosis. A separately qualified WT-dosage or downstream
-mechanism remains a different question. Resolve phase early, while retaining
-explicitly engineered alternatives for preparatory work; unphased status need not
-halt all model qualification. A protein below detection may be rapidly degraded
-rather than unsynthesized. An amount equal to one WT allele is a comparator, not
+**Confirmed cis retires this pair as the compound-heterozygous explanation.**
+Absent another pathogenic allele, the configuration is `[L737Ter;N1002K]/WT`,
+not established biallelic MVA1. Suspend advancement of the patient-specific drug
+rationale on that biallelic premise. A BUB1B causal explanation could continue only
+with independently demonstrated evidence for an additional pathogenic allele in
+trans or a dominant mechanism; that would be a different causal hypothesis. Uncertain WT
+protein dosage, a carrier-mouse phenotype or an isolated drug response cannot
+supply the missing genetic mechanism. Resolve phase early. Explicitly engineered
+cis/trans models may inform biology while phase is unresolved, but a cis model
+cannot be relabeled compound heterozygous or used to bypass this stop.
+
+A protein below detection may be rapidly degraded rather than unsynthesized. An amount equal to one WT allele is a comparator, not
 a validated threshold for sufficient function.
 
 ### Separate transcript rescue from protein rescue
@@ -137,13 +142,12 @@ Qualify this core hypothesis alongside restoration by testing
 for genotype-associated excess signaling at matched maturation, density,
 nutrients and cell composition; restoration failure is not a prerequisite.
 Measure phospho/total p70S6K and 4EBP1 and, where relevant, autophagy flux. The
-[Sieben muscle association](https://www.jci.org/articles/view/126863/version/2)
-includes increased p70 S6 kinase and 4EBP1 phosphorylation in three-month-old
-BubR1+/X753 gastrocnemius (two mice per genotype in the signaling blot), but
-does not establish causal rescue. Our [GSE134781 analysis](../../workflow/track2-rna/README.md)
+[Sieben blot](https://www.jci.org/articles/view/126863/figure/5) has only the
+qualitative, monoallelic-carrier evidence described above. It does not establish
+increased pathway activity. Our [GSE134781 analysis](../../workflow/track2-rna/README.md)
 found no positive mTORC1 Hallmark corroboration (X753–WT P=0.219; global FDR=0.983).
-This is not evidence against the measured phosphorylation: transcription and
-kinase activity are different endpoints.
+That transcript analysis neither validates nor refutes the band observation and
+cannot replace phospho/total measurements and independent functional tests.
 
 Retain adverse evidence: [Baker 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3785294/)
 reports preliminary unpublished observations of similar age-phenotype development
@@ -186,8 +190,8 @@ N1002K or the actual truncation.
 
 The [Sieben discussion](https://www.jci.org/articles/view/126863/version/2)
 already proposed this upstream connection; it remains a hypothesis. Its different
-muscle-signaling outcomes across alleles also oppose a universal inference from
-low BUBR1. [Park 2023](https://pubmed.ncbi.nlm.nih.gov/37725942/) genetically
+qualitative band patterns across monoallelic carriers cannot establish a universal
+pathway response to low BUBR1. [Park 2023](https://pubmed.ncbi.nlm.nih.gov/37725942/) genetically
 disrupted IR–MAD2 binding and found delayed endocytosis/prolonged surface signaling,
 but also impaired insulin clearance and altered circulating hormones. This extends
 the trafficking evidence without establishing harmful myogenic mTORC1 activation;
@@ -536,6 +540,7 @@ no genotype-directed chemotherapy dose change or clinical avoid-list.
 
 | Observation | Decision |
 |---|---|
+| Confirmed cis for the two nominated variants | Retire this pair as the compound-heterozygous explanation and stop advancing the current biallelic-MVA1 drug rationale. An independently demonstrated additional pathogenic allele in trans or dominant mechanism could justify a different causal hypothesis, never reclassify these two cis variants as compound heterozygous. |
 | Model, precursor utilization, mechanism engagement, exposure, duration or functional measurement is inadequate | Uninterpretable nonresponse; repair the limitation or report infeasibility. |
 | Qualified assays find no genotype-associated harmful mTORC1 excess | Deprioritize the proposed everolimus normalization mechanism in that model; neither genotype nor an unrelated pathway marker can substitute for the missing premise. |
 | Additional N1002K quantity fails at matched physiological abundance | Deprioritize quantity-only rescue in that model; folding/function-per-molecule rescue remains a separate hypothesis. |

@@ -42,6 +42,13 @@ reference bases and coding positions were checked directly.
 | c.3006T>G / Asn1002Lys | AAT→AAG; 1,050 amino acids, one N→K substitution |
 | Both changes in cis | Same 736-amino-acid stop product; N1002K is masked |
 
+Confirmed cis gives `[L737Ter;N1002K]/WT` at the nominated pair and retires it as
+the compound-heterozygous MVA1 explanation. Retaining a BUB1B causal explanation
+would require an independently demonstrated additional pathogenic allele in trans or
+dominant mechanism. The cis sequence calculation is a conditional product model,
+not evidence that this configuration explains the case or permits advancing the
+current biallelic drug rationale.
+
 The premature stop is 746 spliced nucleotides before the last exon junction,
 satisfying the positional NMD rule. Actual decay, translation, protein function
 and phase remain unknown. These are conditional products reconstructed from a

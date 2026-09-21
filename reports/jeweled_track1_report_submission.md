@@ -1,8 +1,15 @@
 # jeweled — Track 1: a recessive BUB1B hypothesis
 
-**Research submission draft, revised 21 September 2026; not submitted.**
+**Living research report, revised 21 September 2026.** Track 1 model 1 has been submitted; the [exact uploaded report](jeweled_track1_model1_upload.md) is archived unchanged. This version includes a post-submission clarification of the consequence of confirmed cis phase.
 
 Our primary hypothesis is the **BUB1B p.(Leu737Ter) plus p.(Asn1002Lys) pair**, at GRCh38 chr15:40209701 T>G and chr15:40220612 T>G. We assign the exact pair a **subjective causal probability (EPCR) of 0.8**. Trans is favored under the recessive disease model but has not been observed. Leu737Ter has a two-star ClinVar Pathogenic/Likely pathogenic assertion; Asn1002Lys remains a VUS. The [prediction CSV](jeweled_evidence-reconciled-v2.csv) contains one primary row and no secondary finding.
+
+**Confirmed cis would retire this pair as the compound-heterozygous explanation.**
+Absent another pathogenic allele, `[L737Ter;N1002K]/WT` is not established biallelic
+MVA1. A continuing BUB1B causal explanation would require an independently
+demonstrated additional pathogenic allele in trans or dominant mechanism. Unknown phase
+has not become a cis finding; the current prediction remains a conditional
+research hypothesis, and its EPCR cannot be carried over after that falsification.
 
 ## Why this is the leading explanation
 

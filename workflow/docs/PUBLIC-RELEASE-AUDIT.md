@@ -208,3 +208,14 @@ unaltered and is identified as predating the correction. Slide 4 in the deck and
 video replaces “five adults” with “five patients,” reflecting the participant aged
 17 in Table S1. Track 1, narration, captions and spoken storyboard are unchanged;
 private human review and the submission pause continue.
+
+### Carrier-blot and phase corrections after human review
+
+The governing reports, methods and pipeline now describe Sieben Figure 5C as an
+unquantified carrier-mouse blot, without total-substrate denominators or inferential
+statistics. Confirmed cis retires the proposed compound-heterozygous explanation;
+a separate BUB1B rationale requires demonstrated additional trans-allele or dominant
+causality. The living Track 1 report and causal appendix make this condition explicit;
+the exact submitted upload and CSV remain unchanged. Slides 2 and 3, narration,
+caption timing and pitch text are synchronized. No new case data, phase result or
+biological experiment is added. Private human review and the submission pause continue.

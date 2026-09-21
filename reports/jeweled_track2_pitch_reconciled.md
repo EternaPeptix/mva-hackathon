@@ -2,7 +2,7 @@
 
 **21 September 2026. New eight-slide recording; human approval pending. Track 2 has not been submitted.** This version replaces the former Lauren arimoclomol/NAC pitch as the proposed submission video. The old release remains an archive and is not the current pitch. Public upload waits for human review.
 
-The new video presents everolimus and niacin as separate research hypotheses. It contains 168 seconds of complete Skylar speech and 12 seconds of reading pauses, for exactly three minutes. The 411-word spoken script expands technical names for pronunciation; the equivalent readable names appear below. Captions accompany the movie. No biological drug experiment is claimed.
+The new video presents everolimus and niacin as separate research hypotheses. It contains 176.48 seconds of complete Skylar speech and 3.52 seconds of silent transitions, for exactly three minutes. The 417-word spoken script expands technical names for pronunciation; the equivalent readable names appear below. Captions accompany the movie. No biological drug experiment is claimed.
 
 ## Preserving muscle in MVA
 
@@ -10,11 +10,11 @@ This child has muscle wasting and mosaic variegated aneuploidy, a condition in w
 
 ## The gene points to a cell-division problem
 
-Our leading genetic explanation involves BUB1B, the gene that makes the chromosome-checking protein BUBR1. One change creates an early stop. The other changes one amino acid. We still need to establish whether they occupy opposite gene copies, and whether the altered protein retains useful function.
+Our genetic hypothesis involves BUB1B, which makes the chromosome-checking protein BUBR1. One variant creates an early stop. The other changes one amino acid. They must occupy opposite gene copies for this compound-heterozygous explanation. Confirmed cis means both share one copy and retires that explanation. The missense variant's function remains unproved.
 
 ## Everolimus tests excess growth signaling
 
-Our first hypothesis is everolimus. It inhibits mTORC1, a pathway that regulates cell growth. Its established target and pediatric use make it practical to investigate. A different BUB1B mouse model showed increased pathway activity, but tested no drug rescue. We must establish harmful excess signaling and useful muscle benefit.
+Everolimus inhibits mTORC1, which regulates cell growth. Its established target makes it practical to test. The supporting mouse blot shows stronger phosphoprotein bands in two single-allele carriers than two controls. Without matching total-protein measurements, quantification or statistical tests, increased pathway activity is unproved. Harmful excess and useful muscle benefit still need testing.
 
 ## Niacin tests usable protein restoration
 
@@ -38,8 +38,8 @@ We have completed sequence review, evidence review and computational study desig
 
 ## Sources and disclosure
 
-The [current report](jeweled_track2_report_submission.md), [complete route decisions](appendices/track2-route-decisions.md) and [experimental plan](appendices/track2-evidence-pipeline.md) support this pitch. The [sequence/population model](../workflow/track2-model/README.md) supplies the explicitly synthetic example; it does not predict drug response. A fresh reviewer with no project conversation context assessed the report and slides against the official rubric. Corrections clarified the possible protein shortage, candidate order, tumor question, parallel alternatives and experimental bottleneck.
+The [causal interpretation](appendices/causal-interpretation.md), [current report](jeweled_track2_report_submission.md), [complete route decisions](appendices/track2-route-decisions.md) and [experimental plan](appendices/track2-evidence-pipeline.md) support this pitch. The [sequence/population model](../workflow/track2-model/README.md) supplies the explicitly synthetic example; it does not predict drug response. A fresh reviewer with no project conversation context assessed the report and slides against the official rubric. Corrections clarified the possible protein shortage, candidate order, tumor question, parallel alternatives and experimental bottleneck.
 
-Narration uses Cartesia Sonic 3.6 and the stock Skylar voice, on the Free plan verified on 21 September 2026. No voice was cloned. Cartesia training/retention settings and an immutable model snapshot remain unverified. The conceptual cover illustration was generated with the OpenAI image-generation tool through Codex; it is not a patient image or experimental result. Claude Code/Codex used personal subscriptions with training disabled according to the user. These settings do not establish Cartesia settings.
+Narration uses Cartesia Sonic 3.6 and the stock Skylar voice, on the Free plan verified on 21 September 2026. This correction regenerated only slides 2 and 3 using existing credits at the original speed setting of 1.0. The other six speech segments remain unchanged. No speech was time-stretched or truncated. No voice was cloned. Cartesia training/retention settings and an immutable model snapshot remain unverified. The conceptual cover illustration was generated with the OpenAI image-generation tool through Codex; it is not a patient image or experimental result. Claude Code/Codex used personal subscriptions with training disabled according to the user. These settings do not establish Cartesia settings.
 
 Human review covers scientific wording, slide readability and narration quality. The video is prepared locally; no new YouTube/Vimeo publication or Track 2 submission is claimed.
