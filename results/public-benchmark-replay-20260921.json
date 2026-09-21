@@ -1,0 +1,79 @@
+{
+  "schema": "public-benchmark-portability-status-v1",
+  "recorded_at": "2026-09-21T00:39:03.317924+00:00",
+  "public_only": true,
+  "default_command": "bash workflow/public-benchmark/run.sh ../hg002-public-replay",
+  "scope": "Prealigned public HG002 chr20 calling/comparison component, not FASTQ/whole-genome/clinical validation",
+  "native_mac": {
+    "status": "full_replay_running",
+    "platform": "macOS arm64 Mac Studio",
+    "started_at": "2026-09-21T00:13:33.026378+00:00",
+    "RTG_controls_passed": 12,
+    "public_input_downloads_verified": true,
+    "reference_preparation_complete": true,
+    "calling_status": "26 of27 contig shards complete; chr20 shard is still running. Shard fraction is not workload fraction.",
+    "full_result_available": false,
+    "launched_source": {
+      "run.sh": "b707bf9b3fb21d91c512f800716c0ff8a0db48c6a3dc6bc6db81f7ac214bccf8",
+      "replay.py": "00b7cebea73c69a4d9e3bca4b7bd0078acc94e466e2c2d4bf46171045fd572fb"
+    }
+  },
+  "linux_x86_64": {
+    "status": "bounded_operational_checks_passed",
+    "execution": "QEMU x86_64 emulation in isolated Linux VM/container on arm64 Mac Studio",
+    "package_lock": "b738598ef17428528ce4f855a1f00824657dbc02935fbc8c9c68f6bc9f32fee4",
+    "exact_packages_installed": 91,
+    "RTG_controls_passed": 12,
+    "public_calling_smoke": {
+      "interval_0based_halfopen": [
+        "chr20",
+        10000000,
+        10100000
+      ],
+      "gatk": "passed",
+      "bcftools": "passed",
+      "split_normalization": "passed",
+      "RTG_genotype_aware_comparison_both_callers": "passed",
+      "purpose": "Operational smoke only; no full-chromosome performance claim"
+    },
+    "full_replay_executed": false,
+    "controls_elapsed_seconds": 406.1066,
+    "controls_peak_sampled_RSS_bytes": 337010688,
+    "comparison_only_continuation_elapsed_seconds": 30.5157,
+    "isolation": {
+      "VM_CPUs": 4,
+      "VM_memory_GiB": 6,
+      "VM_disk_GiB": 30,
+      "owned_profile_stopped_after_checks": true,
+      "default_profile_and_context_preserved": true
+    },
+    "compatibility_findings": [
+      "The Linux JVM ZIP-memory-mapping option resolved jar class loading on the emulated mount.",
+      "RTG could not read a truth VCF on the imported readonly mount; byte-identical container-local copies passed. No caller rerun or allele changes."
+    ],
+    "retained_evidence_sha256": {
+      "controls_status": "912e89c4b2fcb95ae7c3301ae77fb59a54a6e1bc1a1b9bf0bff8e6a6078f5ad4",
+      "controls_summary": "8e56bf088854b2cf4b4a63c4afd5c3a31d15e6d5052e85b5c6586846c4957dfa",
+      "calling_commands": "34e019b72281f857a1b773c24ee64e09ed1c46a5a8677e8f211640322e1c4995",
+      "comparison_summary": "85a7a8a905e213754524721c97f3378064240a95a8793040be997c12d6a5b58a",
+      "internal_platform_receipt": "0aed0d79dcae23f85a091288d56c1266484a2c8aa0c486e0b57c56ae0adcb31b"
+    }
+  },
+  "linux_aarch64": {
+    "status": "dependency_lock_solved_only",
+    "runtime_executed": false
+  },
+  "final_source_sha256": {
+    "linux-aarch64.explicit.txt": "9774f7b7249eec195fd646ab71a22e47152c5893f365fffede66acac60c46d9a",
+    "linux-64.explicit.txt": "b738598ef17428528ce4f855a1f00824657dbc02935fbc8c9c68f6bc9f32fee4",
+    "run.sh": "d950ffd037cb859719e89ed46fa554795c4bfe340dba59fefd06441d308e480c",
+    "replay.py": "48b802f67217b7583fbe3671faf4c3c6280a4d638d2e8a6040b37506d153b72e",
+    "osx-arm64.explicit.txt": "6fde03105e1c31d96d8223866679a9321673549def8ddb722d82df1d4cf352c3",
+    "profile.json": "f6c16d3e640fb8093923edcc5d057c425dc25b0a751b2fae52ba933fcda3757c"
+  },
+  "final_safety_changes_after_native_launch": [
+    "RTG Java path now uses literal shell quoting.",
+    "Inherited JVM options sanitized on all platforms; explicit Linux ZIP-I/O option retained."
+  ],
+  "qualification_limit": "The final launcher safety edits received syntax and literal-path checks; historical scientific helper bodies and settings were not changed or requalified. Full native replay continues on its recorded launched source; no full replay claim is made for final hardened bytes."
+}

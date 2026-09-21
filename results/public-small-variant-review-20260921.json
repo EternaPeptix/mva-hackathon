@@ -1,0 +1,484 @@
+{
+  "status": "complete",
+  "reviewed_at": "2026-09-21T00:09:31.422552+00:00",
+  "scope": "Public HG002 chr20 saved-comparison method and metric review; no new caller, RTG, hap.py, depth or clinical analysis",
+  "conclusion": "The existing published benchmark already used RTG Tools 3.13 vcfeval. A repeated vcfeval invocation would test replay, not an orthogonal matching engine. No second-engine validation is claimed.",
+  "coverage": {
+    "provider_nominal_depth_x": 35,
+    "measured_mean_depth": null,
+    "mapped_alignment_records_from_completed_pilot": 19430746,
+    "confident_bed": {
+      "intervals": 10192,
+      "bases": 56916239,
+      "chr20_length": 64444167,
+      "fraction": 0.8831868212370563
+    },
+    "warning": "35x is the public source label; neither mapped-record count nor BED coverage establishes measured depth/callability."
+  },
+  "method": {
+    "truth": "GIAB HG002 GRCh38 v4.2.1",
+    "comparator": "RTG Tools 3.13 vcfeval",
+    "sample": "HG002",
+    "ploidy": 2,
+    "QUAL_score_threshold": 0,
+    "evaluation_regions": "Official GIAB chr20 confident-region BED; full-chromosome VCF context retained",
+    "no_squash_ploidy": true,
+    "no_decompose": true,
+    "matching": "Genotype-derived haplotype sequence equivalence, not literal-record equality",
+    "prepared_truth_records": 85951,
+    "scored_truth_records": 82589,
+    "record_class_definition": "Full original REF/all-ALT record classes; separate mixed class; not atomically decomposed SNP/INDEL metrics"
+  },
+  "arms": {
+    "original_split_normalized": {
+      "gatk": {
+        "counts": {
+          "tp_baseline": 81849,
+          "tp_calls": 82341,
+          "fp": 1223,
+          "fn": 740,
+          "truth_records": 82589,
+          "call_records": 83564,
+          "recall": 0.991039969003136,
+          "precision": 0.9853645110334593
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 70887,
+            "tp_calls": 70915,
+            "fp": 749,
+            "fn": 446,
+            "truth_records": 71333,
+            "call_records": 71664,
+            "recall": 0.9937476343347399,
+            "precision": 0.9895484483143558
+          },
+          "indel": {
+            "tp_baseline": 10934,
+            "tp_calls": 11426,
+            "fp": 474,
+            "fn": 293,
+            "truth_records": 11227,
+            "call_records": 11900,
+            "recall": 0.9739022000534426,
+            "precision": 0.9601680672268907
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 28,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 1,
+            "truth_records": 29,
+            "call_records": 0,
+            "recall": 0.9655172413793104,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "saved_native_command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/HG002.chr20.v4.2.1.full-context.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/HG002.gatk.normalized.raw.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/reference.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/gatk",
+          "--region",
+          "chr20",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/official-chr20-v4.2.1.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "saved_native_exit_code": 0,
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.640              81849          82341       1223        740     0.9854       0.9910     0.9882\n     None              81849          82341       1223        740     0.9854       0.9910     0.9882\n"
+      },
+      "bcftools": {
+        "counts": {
+          "tp_baseline": 81174,
+          "tp_calls": 81644,
+          "fp": 1786,
+          "fn": 1415,
+          "truth_records": 82589,
+          "call_records": 83430,
+          "recall": 0.9828669677559966,
+          "precision": 0.9785928323145152
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 70876,
+            "tp_calls": 70951,
+            "fp": 752,
+            "fn": 457,
+            "truth_records": 71333,
+            "call_records": 71703,
+            "recall": 0.9935934280066729,
+            "precision": 0.9895122937673458
+          },
+          "indel": {
+            "tp_baseline": 10274,
+            "tp_calls": 10693,
+            "fp": 1034,
+            "fn": 953,
+            "truth_records": 11227,
+            "call_records": 11727,
+            "recall": 0.9151153469315044,
+            "precision": 0.9118274068389187
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 24,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 5,
+            "truth_records": 29,
+            "call_records": 0,
+            "recall": 0.8275862068965517,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "saved_native_command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/HG002.chr20.v4.2.1.full-context.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-pilot-20260919/calls/HG002.bcftools.normalized.raw.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/reference.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-public-comparison-20260919/bcftools",
+          "--region",
+          "chr20",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/official-chr20-v4.2.1.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "saved_native_exit_code": 0,
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n    3.044              81174          81644       1786       1415     0.9786       0.9829     0.9807\n     None              81174          81644       1786       1415     0.9786       0.9829     0.9807\n"
+      }
+    },
+    "retained_genotype_sensitivity": {
+      "gatk": {
+        "counts": {
+          "tp_baseline": 82067,
+          "tp_calls": 82068,
+          "fp": 784,
+          "fn": 522,
+          "truth_records": 82589,
+          "call_records": 82852,
+          "recall": 0.9936795457022122,
+          "precision": 0.990537343697195
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 70909,
+            "tp_calls": 70909,
+            "fp": 705,
+            "fn": 424,
+            "truth_records": 71333,
+            "call_records": 71614,
+            "recall": 0.9940560469908738,
+            "precision": 0.9901555561761667
+          },
+          "indel": {
+            "tp_baseline": 11130,
+            "tp_calls": 11129,
+            "fp": 79,
+            "fn": 97,
+            "truth_records": 11227,
+            "call_records": 11208,
+            "recall": 0.9913601140108667,
+            "precision": 0.9929514632405425
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 28,
+            "tp_calls": 28,
+            "fp": 0,
+            "fn": 1,
+            "truth_records": 29,
+            "call_records": 28,
+            "recall": 0.9655172413793104,
+            "precision": 1.0
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 2,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 2,
+            "recall": null,
+            "precision": 1.0
+          }
+        },
+        "saved_native_command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/HG002.chr20.v4.2.1.full-context.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/gatk.normalized.multiallelic.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/reference.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/gatk",
+          "--region",
+          "chr20",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/official-chr20-v4.2.1.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "saved_native_exit_code": 0,
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n   30.640              82067          82068        784        522     0.9905       0.9937     0.9921\n     None              82067          82068        784        522     0.9905       0.9937     0.9921\n"
+      },
+      "bcftools": {
+        "counts": {
+          "tp_baseline": 81374,
+          "tp_calls": 81415,
+          "fp": 1373,
+          "fn": 1215,
+          "truth_records": 82589,
+          "call_records": 82788,
+          "recall": 0.985288597755149,
+          "precision": 0.9834154708411847
+        },
+        "by_record_class": {
+          "snv": {
+            "tp_baseline": 70898,
+            "tp_calls": 70973,
+            "fp": 708,
+            "fn": 435,
+            "truth_records": 71333,
+            "call_records": 71681,
+            "recall": 0.9939018406628068,
+            "precision": 0.9901229056514279
+          },
+          "indel": {
+            "tp_baseline": 10452,
+            "tp_calls": 10442,
+            "fp": 665,
+            "fn": 775,
+            "truth_records": 11227,
+            "call_records": 11107,
+            "recall": 0.930969983076512,
+            "precision": 0.9401278473035023
+          },
+          "mnp": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          },
+          "mixed": {
+            "tp_baseline": 24,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 5,
+            "truth_records": 29,
+            "call_records": 0,
+            "recall": 0.8275862068965517,
+            "precision": null
+          },
+          "non_sequence": {
+            "tp_baseline": 0,
+            "tp_calls": 0,
+            "fp": 0,
+            "fn": 0,
+            "truth_records": 0,
+            "call_records": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "saved_native_command": [
+          "/Users/jeweled/Documents/mva-hackathon/tools/rtg-tools-3.13/rtg",
+          "vcfeval",
+          "-b",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/HG002.chr20.v4.2.1.full-context.vcf.gz",
+          "-c",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-20260919-v2/bcftools.normalized.multiallelic.vcf.gz",
+          "-t",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/reference.sdf",
+          "-o",
+          "/Users/jeweled/Documents/mva-hackathon/results/germline-retained-multiallelic-comparison-20260919/bcftools",
+          "--region",
+          "chr20",
+          "--evaluation-regions",
+          "/Users/jeweled/Documents/mva-hackathon/ref/giab-small-variants-20260919/prepared-v2/official-chr20-v4.2.1.bed",
+          "--sample",
+          "HG002,HG002",
+          "--sample-ploidy",
+          "2",
+          "--vcf-score-field",
+          "QUAL",
+          "--at-score",
+          "0",
+          "--output-mode",
+          "split",
+          "--threads",
+          "2",
+          "--roc-subset",
+          "snp,non-snp,mnp,indel,hom,het"
+        ],
+        "saved_native_exit_code": 0,
+        "native_summary": "Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure\n----------------------------------------------------------------------------------------------------\n    3.044              81374          81415       1373       1215     0.9834       0.9853     0.9844\n     None              81374          81415       1373       1215     0.9834       0.9853     0.9844\n"
+      }
+    }
+  },
+  "fresh_readback": {
+    "host": "Mac15,14",
+    "saved_RTG_output_VCFs_recounted": 16,
+    "fresh_file_hashes": 30,
+    "all_saved_class_and_overall_counts_equal": true,
+    "all_reported_ratios_recomputed": true,
+    "no_new_scientific_execution": true,
+    "evidence": {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/repository-review-revision-20260921/benchmark-review/native-readback.stdout",
+      "bytes": 29130,
+      "sha256": "8bab2a79b4f68b96dfe6de229b8ab55096e9c4c43c2fd9aa69c5754834bd7e7a"
+    },
+    "source": {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/repository-review-revision-20260921/benchmark-review/read_saved_benchmark.py",
+      "bytes": 5379,
+      "sha256": "7c2e631b397df28da6c14af405c2ce6c90ed874fc271e53e367d59363e965c58"
+    }
+  },
+  "sources": [
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/repository-review-revision-20260921/repo/results/germline-public-comparison-20260919.json",
+      "bytes": 19670,
+      "sha256": "404869d8e0f75440653aec84d570da97e8e61132f2ec70d07c70ab4830d931bb"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/repository-review-revision-20260921/repo/results/germline-retained-multiallelic-comparison-20260919.json",
+      "bytes": 19993,
+      "sha256": "e9249002c1871658f50487001f04b52619a4950955bab761211aa4516d436a79"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/repository-review-revision-20260921/repo/results/germline-public-comparison-audit-20260919.json",
+      "bytes": 36613,
+      "sha256": "b6fb8fd68aaf1eb35e2dcd26eb6615e949473f24444146c5a62cdcb3f4b78d53"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/repository-review-revision-20260921/repo/results/germline-retained-multiallelic-comparison-audit-20260919.json",
+      "bytes": 35361,
+      "sha256": "65e3d5e0264bc9f2c128bfb0e6fbf83acb51666b85a5cb8be9be889c8798d22b"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/repository-review-revision-20260921/repo/results/germline-public-reference-20260919-v2.json",
+      "bytes": 89144,
+      "sha256": "8d18f23fa6f0acc229e230dcd3a18da12e415f9cd6c014aa7efb31f08327b9dc"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/repository-review-revision-20260921/repo/results/germline-public-pilot-complete-20260919.json",
+      "bytes": 3615,
+      "sha256": "9a0a7a263c0254b0b2c5501c91b9742c1b75ad5ee7853cc8acf76b4cb7ae5448"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/repository-review-revision-20260921/repo/results/germline-representation-reconciliation-20260919.json",
+      "bytes": 25941,
+      "sha256": "c838e85c12a8deb7829f8483076feec8c551b423afe686fb8fd7bee26962a314"
+    }
+  ],
+  "limits": [
+    "One public prealigned chromosome inside confident regions, not genome-wide or patient sensitivity.",
+    "No measured coverage distribution or stratified difficult-region accuracy is established here.",
+    "Original split-normalized primary and post-observation retained-genotype sensitivity are separate arms; original result is not replaced.",
+    "Baseline and call true-positive denominators differ by representation.",
+    "Finite native path checks found the installed RTG runtime and no hap.py at the checked project paths; no claim of global tool absence."
+  ]
+}

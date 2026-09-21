@@ -1,8 +1,10 @@
 {
-  "created_at": "2026-09-20T23:32:29.681282+00:00",
-  "scope": "Complete selected workflow source/configuration inventory plus public/synthetic/runtime evidence; no patient-result files or internal Git history.",
-  "source_manifest_sha256": "a17cefb36fee45a5aabfccdf111d720463d628ec46bcf85ccb4c5711e69ea141",
-  "exporter_sha256": "1ff76f35ee1bffd985360fb880d18fa4a6b494a01395bd3ff9e3615dfa8d3ba8",
+  "schema_version": 2,
+  "created_at": "2026-09-21T00:45:58.656286+00:00",
+  "scope": "Reviewed workflow and public/synthetic evidence plus bounded research reports and one candidate prediction. Restricted raw reads, genome-scale case payloads, media and internal Git history are excluded. This inventory is not full-replay completion or public-release authorization.",
+  "baseline_commit": "45bb5c47cd1c2f92893ff6f8965051428965bfb3",
+  "baseline_snapshot_sha256": "3638e0661088aeda8a69356c2d3dbdb6ac0a26f6a63ba62c485ec39de887e224",
+  "source_field_scope": "Existing source_* fields retain historical input provenance. release_* fields identify current files. Baseline exporter mappings and review records remain available at the named Git commit.",
   "files": [
     {
       "path": ".gitignore",
@@ -14,13 +16,25 @@
       "release_sha256": "2008cb5e3647dfe477f52c73d8a1cf8b12d403683cb557808887a3f29b9e7ff8"
     },
     {
+      "path": "CHANGELOG.md",
+      "source_path": "CHANGELOG.md",
+      "source_mode": 420,
+      "source_bytes": 11673,
+      "source_sha256": "c3967b8ffafc2995405213f9c148ea145bdc157fea543d65e856640df03870e5",
+      "release_bytes": 11673,
+      "release_sha256": "c3967b8ffafc2995405213f9c148ea145bdc157fea543d65e856640df03870e5",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
       "path": "LICENSE",
       "source_path": "LICENSE",
       "source_mode": 420,
       "source_bytes": 1675,
       "source_sha256": "31f3dab83802d459b67a96e5644a667f0423ffb24f77c4ba31aaac444577f791",
-      "release_bytes": 1675,
-      "release_sha256": "31f3dab83802d459b67a96e5644a667f0423ffb24f77c4ba31aaac444577f791"
+      "release_bytes": 2564,
+      "release_sha256": "49bd016308a8e9c9d6434c08434e14116818e3dfbaa3afea5213b554502d9ea1",
+      "previous_release_sha256": "31f3dab83802d459b67a96e5644a667f0423ffb24f77c4ba31aaac444577f791",
+      "revision": "Reviewed edit; source_* fields retain baseline input provenance."
     },
     {
       "path": "README.md",
@@ -28,8 +42,10 @@
       "source_mode": 420,
       "source_bytes": 23560,
       "source_sha256": "23de0f2c3e15ce6acefe0785da750c6cc557381bca000a3d8e64955bfb9dcdef",
-      "release_bytes": 23560,
-      "release_sha256": "23de0f2c3e15ce6acefe0785da750c6cc557381bca000a3d8e64955bfb9dcdef"
+      "release_bytes": 5966,
+      "release_sha256": "2da34fd6405dda90191a9c36d73356438920c6a9dbe668cceae60756fab579ab",
+      "previous_release_sha256": "23de0f2c3e15ce6acefe0785da750c6cc557381bca000a3d8e64955bfb9dcdef",
+      "revision": "Reviewed edit; source_* fields retain baseline input provenance."
     },
     {
       "path": "REPRODUCIBILITY.md",
@@ -37,8 +53,230 @@
       "source_mode": 420,
       "source_bytes": 52604,
       "source_sha256": "dbd986098a560f2b90f2987de2cd66744fa9cd6a2c13119af6d1ae28793198df",
-      "release_bytes": 52604,
-      "release_sha256": "dbd986098a560f2b90f2987de2cd66744fa9cd6a2c13119af6d1ae28793198df"
+      "release_bytes": 55455,
+      "release_sha256": "18fe22e35b0aedf0305515d6944fe197d1bbf05a4dc57eb47bc1c224bfed514d",
+      "previous_release_sha256": "dbd986098a560f2b90f2987de2cd66744fa9cd6a2c13119af6d1ae28793198df",
+      "revision": "Reviewed edit; source_* fields retain baseline input provenance."
+    },
+    {
+      "path": "reports/PROVENANCE.md",
+      "source_path": "reports/PROVENANCE.md",
+      "source_mode": 420,
+      "source_bytes": 6107,
+      "source_sha256": "2e666fe1679c4b05e5e56925c445acc4b26b07103814c22a99675dc48e34e3e1",
+      "release_bytes": 6107,
+      "release_sha256": "2e666fe1679c4b05e5e56925c445acc4b26b07103814c22a99675dc48e34e3e1",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/README.md",
+      "source_path": "reports/README.md",
+      "source_mode": 420,
+      "source_bytes": 4071,
+      "source_sha256": "7aec66998bfa26aba25ffbe46c320b1b1d575bf8c7cb008d35bb50cac3c49512",
+      "release_bytes": 4071,
+      "release_sha256": "7aec66998bfa26aba25ffbe46c320b1b1d575bf8c7cb008d35bb50cac3c49512",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/appendices/assay-decision-plan.md",
+      "source_path": "reports/appendices/assay-decision-plan.md",
+      "source_mode": 420,
+      "source_bytes": 8818,
+      "source_sha256": "bb237eaa1426f0e978e3e1ad98fed5c68f4ecb76c0a46c277929a8796262636e",
+      "release_bytes": 8818,
+      "release_sha256": "bb237eaa1426f0e978e3e1ad98fed5c68f4ecb76c0a46c277929a8796262636e",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/appendices/causal-interpretation.md",
+      "source_path": "reports/appendices/causal-interpretation.md",
+      "source_mode": 420,
+      "source_bytes": 12241,
+      "source_sha256": "b3e08c5b41b3b8983c3b1360fc75aa00d7403250d8fa256bb26a214f00ab2cfc",
+      "release_bytes": 12241,
+      "release_sha256": "b3e08c5b41b3b8983c3b1360fc75aa00d7403250d8fa256bb26a214f00ab2cfc",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/appendices/founder-ledger.md",
+      "source_path": "reports/appendices/founder-ledger.md",
+      "source_mode": 420,
+      "source_bytes": 11855,
+      "source_sha256": "7494997be2796a5079725c1f917f4a8aa8c1508e6ba085a3723139ef93bf6469",
+      "release_bytes": 11855,
+      "release_sha256": "7494997be2796a5079725c1f917f4a8aa8c1508e6ba085a3723139ef93bf6469",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/appendices/mechanistic-bridge.md",
+      "source_path": "reports/appendices/mechanistic-bridge.md",
+      "source_mode": 420,
+      "source_bytes": 8810,
+      "source_sha256": "9ebe9fc9babf4cf186b875ff7da0c300f479ab0cedbd351dd6ccc30a50393789",
+      "release_bytes": 8810,
+      "release_sha256": "9ebe9fc9babf4cf186b875ff7da0c300f479ab0cedbd351dd6ccc30a50393789",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/appendices/nac-exposure.md",
+      "source_path": "reports/appendices/nac-exposure.md",
+      "source_mode": 420,
+      "source_bytes": 7269,
+      "source_sha256": "b9519234a9c14971b3d679719ded4c66d82848c107179e73d6b044316e4a1502",
+      "release_bytes": 7269,
+      "release_sha256": "b9519234a9c14971b3d679719ded4c66d82848c107179e73d6b044316e4a1502",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/appendices/nuclear-mixture.md",
+      "source_path": "reports/appendices/nuclear-mixture.md",
+      "source_mode": 420,
+      "source_bytes": 7714,
+      "source_sha256": "f177c0e1123bf0fdf76198e888fbd925723565cb88781dd9f97f2e5ac337397d",
+      "release_bytes": 7714,
+      "release_sha256": "f177c0e1123bf0fdf76198e888fbd925723565cb88781dd9f97f2e5ac337397d",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/appendices/oncology-counterscreen.md",
+      "source_path": "reports/appendices/oncology-counterscreen.md",
+      "source_mode": 420,
+      "source_bytes": 13049,
+      "source_sha256": "2effbb4a9f17ecdb895e221380191a583b9ba6e1bf807f8c959c97e35ab7ced4",
+      "release_bytes": 13049,
+      "release_sha256": "2effbb4a9f17ecdb895e221380191a583b9ba6e1bf807f8c959c97e35ab7ced4",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/appendices/pilot-protocol.md",
+      "source_path": "reports/appendices/pilot-protocol.md",
+      "source_mode": 420,
+      "source_bytes": 16872,
+      "source_sha256": "816ea05f59e4c76753a1711e0f1d4a2f9a4c892025bbdd1705dc80bc03f879c6",
+      "release_bytes": 16872,
+      "release_sha256": "816ea05f59e4c76753a1711e0f1d4a2f9a4c892025bbdd1705dc80bc03f879c6",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/appendices/population-frequency.md",
+      "source_path": "reports/appendices/population-frequency.md",
+      "source_mode": 420,
+      "source_bytes": 9315,
+      "source_sha256": "248ba5de0caa14faa4b38ce91ba9dbf2e940437ffe6bfd2a0fe4fce6eaf9608e",
+      "release_bytes": 9315,
+      "release_sha256": "248ba5de0caa14faa4b38ce91ba9dbf2e940437ffe6bfd2a0fe4fce6eaf9608e",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/appendices/public-sv-residuals.md",
+      "source_path": "reports/appendices/public-sv-residuals.md",
+      "source_mode": 420,
+      "source_bytes": 8789,
+      "source_sha256": "1b5831673d3b4fd60f2d9551219622cc8707508179fffadce766fa6b7f2678ca",
+      "release_bytes": 8789,
+      "release_sha256": "1b5831673d3b4fd60f2d9551219622cc8707508179fffadce766fa6b7f2678ca",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/appendices/secondary-depth-gaps.md",
+      "source_path": "reports/appendices/secondary-depth-gaps.md",
+      "source_mode": 420,
+      "source_bytes": 11302,
+      "source_sha256": "02b33d94ffa4db7a3633ef29819a11ed484c49efdb5ab529d4027d9a1b7d2cda",
+      "release_bytes": 11302,
+      "release_sha256": "02b33d94ffa4db7a3633ef29819a11ed484c49efdb5ab529d4027d9a1b7d2cda",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/appendices/secondary-depth.md",
+      "source_path": "reports/appendices/secondary-depth.md",
+      "source_mode": 420,
+      "source_bytes": 12246,
+      "source_sha256": "82b6ef7fe46e4eeab5236c622dcea897b6a9bbddd427b4b92880578928e26cae",
+      "release_bytes": 12246,
+      "release_sha256": "82b6ef7fe46e4eeab5236c622dcea897b6a9bbddd427b4b92880578928e26cae",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/appendices/secondary-findings.md",
+      "source_path": "reports/appendices/secondary-findings.md",
+      "source_mode": 420,
+      "source_bytes": 7666,
+      "source_sha256": "2ae1c335efdc7d5e1960d9abbb8a3f286a6e6875dcd77e45d12e7c070b4a5f0d",
+      "release_bytes": 7666,
+      "release_sha256": "2ae1c335efdc7d5e1960d9abbb8a3f286a6e6875dcd77e45d12e7c070b4a5f0d",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/jeweled_evidence-reconciled-v2.csv",
+      "source_path": "reports/jeweled_evidence-reconciled-v2.csv",
+      "source_mode": 420,
+      "source_bytes": 480,
+      "source_sha256": "40232aa87da1b498d44e73d82caf485aa390c7d02547bf4f817c557495cf1355",
+      "release_bytes": 480,
+      "release_sha256": "40232aa87da1b498d44e73d82caf485aa390c7d02547bf4f817c557495cf1355",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/jeweled_evidence-reconciled-v2.csv.provenance.json",
+      "source_path": "reports/jeweled_evidence-reconciled-v2.csv.provenance.json",
+      "source_mode": 420,
+      "source_bytes": 532,
+      "source_sha256": "71e06e860cfc34e633a5bf719661cadbce35777f7e6ae884ccffaae960e3dfbb",
+      "release_bytes": 532,
+      "release_sha256": "71e06e860cfc34e633a5bf719661cadbce35777f7e6ae884ccffaae960e3dfbb",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/jeweled_methods_form_answers.md",
+      "source_path": "reports/jeweled_methods_form_answers.md",
+      "source_mode": 420,
+      "source_bytes": 18739,
+      "source_sha256": "41e199989e0cc9b765638fd8eb35a9d08e53185b7b3c80e7d7f9477d18133400",
+      "release_bytes": 18739,
+      "release_sha256": "41e199989e0cc9b765638fd8eb35a9d08e53185b7b3c80e7d7f9477d18133400",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/jeweled_track1_report_submission.md",
+      "source_path": "reports/jeweled_track1_report_submission.md",
+      "source_mode": 420,
+      "source_bytes": 8497,
+      "source_sha256": "e5ed2e3f7eebe9652c5a14d49d4c59d46bc6ddb5645687d0ea139bbcb0b54e5f",
+      "release_bytes": 8497,
+      "release_sha256": "e5ed2e3f7eebe9652c5a14d49d4c59d46bc6ddb5645687d0ea139bbcb0b54e5f",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/jeweled_track2_pitch_reconciled.md",
+      "source_path": "reports/jeweled_track2_pitch_reconciled.md",
+      "source_mode": 420,
+      "source_bytes": 3747,
+      "source_sha256": "2077cb823f7c1ae3b053fde96cb0d4c4456f1f088049094cd9747a24aa36ca19",
+      "release_bytes": 3747,
+      "release_sha256": "2077cb823f7c1ae3b053fde96cb0d4c4456f1f088049094cd9747a24aa36ca19",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "reports/jeweled_track2_report_submission.md",
+      "source_path": "reports/jeweled_track2_report_submission.md",
+      "source_mode": 420,
+      "source_bytes": 13737,
+      "source_sha256": "d07a0e46f60d095c7d44620c06eb4880282b2c57133e940262c9113cfc13a5ea",
+      "release_bytes": 13737,
+      "release_sha256": "d07a0e46f60d095c7d44620c06eb4880282b2c57133e940262c9113cfc13a5ea",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "results/INDEX.md",
+      "source_path": "results/INDEX.md",
+      "source_mode": 420,
+      "source_bytes": 15466,
+      "source_sha256": "507de691a89b20d2f989a80164afcb5279a074f99661d75d58d90f663aa9fb80",
+      "release_bytes": 15466,
+      "release_sha256": "507de691a89b20d2f989a80164afcb5279a074f99661d75d58d90f663aa9fb80",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
     },
     {
       "path": "results/assay-capacity-planning-20260920.json",
@@ -374,6 +612,16 @@
       "release_sha256": "cfd36be160449efe29052dd0df440902741f40a256a217151819df3d59a365cd"
     },
     {
+      "path": "results/public-benchmark-replay-20260921.json",
+      "source_path": "results/public-benchmark-replay-20260921.json",
+      "source_mode": 420,
+      "source_bytes": 4049,
+      "source_sha256": "9dd8c01cef22601b0ce7277b3e3f8fc9dadb93ad236611a3ae6acc5d4f806e5c",
+      "release_bytes": 4049,
+      "release_sha256": "9dd8c01cef22601b0ce7277b3e3f8fc9dadb93ad236611a3ae6acc5d4f806e5c",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
       "path": "results/public-clone-method-controls-20260920.json",
       "source_path": "results/public-clone-method-controls-20260920.json",
       "source_mode": 420,
@@ -381,6 +629,16 @@
       "source_sha256": "4efdf8b362275b89b3c361356d4fa09709a5a52ab56d3aa569bfb5605dd3bf3e",
       "release_bytes": 730,
       "release_sha256": "4efdf8b362275b89b3c361356d4fa09709a5a52ab56d3aa569bfb5605dd3bf3e"
+    },
+    {
+      "path": "results/public-small-variant-review-20260921.json",
+      "source_path": "results/public-small-variant-review-20260921.json",
+      "source_mode": 420,
+      "source_bytes": 18662,
+      "source_sha256": "629ebe8d9e75b471e346feb9986acf7ae687d3eae7288449a33d3e285389339d",
+      "release_bytes": 18662,
+      "release_sha256": "629ebe8d9e75b471e346feb9986acf7ae687d3eae7288449a33d3e285389339d",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
     },
     {
       "path": "results/rtg-install-20260919.json",
@@ -932,6 +1190,36 @@
       "release_sha256": "93ee56c0ebd1366b48c42ddfe87c2a684d60162018ac2901790d03b8ec42dddf"
     },
     {
+      "path": "workflow/docs/PUBLIC-BENCHMARK-METHOD.md",
+      "source_path": "workflow/docs/PUBLIC-BENCHMARK-METHOD.md",
+      "source_mode": 420,
+      "source_bytes": 4799,
+      "source_sha256": "50278c5afb887492c686da73165ac05e35c485b52aa137f7393ef333b80feafd",
+      "release_bytes": 4799,
+      "release_sha256": "50278c5afb887492c686da73165ac05e35c485b52aa137f7393ef333b80feafd",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "workflow/docs/PUBLIC-RELEASE-AUDIT.md",
+      "source_path": "workflow/docs/PUBLIC-RELEASE-AUDIT.md",
+      "source_mode": 420,
+      "source_bytes": 14367,
+      "source_sha256": "09c48ec18482e835eececeef4af13ac20d0f99aad54c79c39b4d9f9b43029632",
+      "release_bytes": 14367,
+      "release_sha256": "09c48ec18482e835eececeef4af13ac20d0f99aad54c79c39b4d9f9b43029632",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "workflow/docs/PUBLIC-RELEASE-INVENTORY.json",
+      "source_path": "workflow/docs/PUBLIC-RELEASE-INVENTORY.json",
+      "source_mode": 420,
+      "source_bytes": 472332,
+      "source_sha256": "b7075016093e6831aedcc59211fb8540204524c696bba489760a5f19cad1e66d",
+      "release_bytes": 472332,
+      "release_sha256": "b7075016093e6831aedcc59211fb8540204524c696bba489760a5f19cad1e66d",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
       "path": "workflow/docs/V26-NATIVE-RESTORATION.json",
       "source_path": "workflow/docs/V26-NATIVE-RESTORATION.json",
       "source_mode": 420,
@@ -1110,6 +1398,76 @@
       "source_sha256": "38d9e65a18d8acb6625c5e2f4ffc2ae911c23f9f01f471460f1cd0867d978369",
       "release_bytes": 3831,
       "release_sha256": "38d9e65a18d8acb6625c5e2f4ffc2ae911c23f9f01f471460f1cd0867d978369"
+    },
+    {
+      "path": "workflow/public-benchmark/README.md",
+      "source_path": "workflow/public-benchmark/README.md",
+      "source_mode": 420,
+      "source_bytes": 8209,
+      "source_sha256": "42ad24b09d225edfa90281943f5bb2f497d2971a05e29f17bc68eb345e6e3ee7",
+      "release_bytes": 8209,
+      "release_sha256": "42ad24b09d225edfa90281943f5bb2f497d2971a05e29f17bc68eb345e6e3ee7",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "workflow/public-benchmark/linux-64.explicit.txt",
+      "source_path": "workflow/public-benchmark/linux-64.explicit.txt",
+      "source_mode": 420,
+      "source_bytes": 13383,
+      "source_sha256": "b738598ef17428528ce4f855a1f00824657dbc02935fbc8c9c68f6bc9f32fee4",
+      "release_bytes": 13383,
+      "release_sha256": "b738598ef17428528ce4f855a1f00824657dbc02935fbc8c9c68f6bc9f32fee4",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "workflow/public-benchmark/linux-aarch64.explicit.txt",
+      "source_path": "workflow/public-benchmark/linux-aarch64.explicit.txt",
+      "source_mode": 420,
+      "source_bytes": 13778,
+      "source_sha256": "9774f7b7249eec195fd646ab71a22e47152c5893f365fffede66acac60c46d9a",
+      "release_bytes": 13778,
+      "release_sha256": "9774f7b7249eec195fd646ab71a22e47152c5893f365fffede66acac60c46d9a",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "workflow/public-benchmark/osx-arm64.explicit.txt",
+      "source_path": "workflow/public-benchmark/osx-arm64.explicit.txt",
+      "source_mode": 420,
+      "source_bytes": 6755,
+      "source_sha256": "6fde03105e1c31d96d8223866679a9321673549def8ddb722d82df1d4cf352c3",
+      "release_bytes": 6755,
+      "release_sha256": "6fde03105e1c31d96d8223866679a9321673549def8ddb722d82df1d4cf352c3",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "workflow/public-benchmark/profile.json",
+      "source_path": "workflow/public-benchmark/profile.json",
+      "source_mode": 420,
+      "source_bytes": 5916,
+      "source_sha256": "f6c16d3e640fb8093923edcc5d057c425dc25b0a751b2fae52ba933fcda3757c",
+      "release_bytes": 5916,
+      "release_sha256": "f6c16d3e640fb8093923edcc5d057c425dc25b0a751b2fae52ba933fcda3757c",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "workflow/public-benchmark/replay.py",
+      "source_path": "workflow/public-benchmark/replay.py",
+      "source_mode": 420,
+      "source_bytes": 17451,
+      "source_sha256": "48b802f67217b7583fbe3671faf4c3c6280a4d638d2e8a6040b37506d153b72e",
+      "release_bytes": 17451,
+      "release_sha256": "48b802f67217b7583fbe3671faf4c3c6280a4d638d2e8a6040b37506d153b72e",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
+    },
+    {
+      "path": "workflow/public-benchmark/run.sh",
+      "source_path": "workflow/public-benchmark/run.sh",
+      "source_mode": 493,
+      "source_bytes": 597,
+      "source_sha256": "d950ffd037cb859719e89ed46fa554795c4bfe340dba59fefd06441d308e480c",
+      "release_bytes": 597,
+      "release_sha256": "d950ffd037cb859719e89ed46fa554795c4bfe340dba59fefd06441d308e480c",
+      "source_kind": "Reviewed new repository file; external input identities are documented in the linked methods."
     },
     {
       "path": "workflow/scripts/00_prepare_reference.sh",
@@ -4469,21 +4827,7 @@
       "release_sha256": "54ce1865db01ed816a73ad29a73a7c864ecf920b1e9475aaaa596d36405d4b34"
     }
   ],
-  "file_count": 496,
-  "total_release_bytes": 4339287,
-  "transformations": [
-    {
-      "kind": "comment_only_acquisition_metadata_replacement",
-      "non_comment_lines_identical": true,
-      "source_comment_block_sha256": "60a2925f98af1c8fd6d1dccd69bda2adab7dcba706d09ee69f104c4d3a7f8bef",
-      "path": "workflow/scripts/01_align.sh"
-    }
-  ],
-  "release_pattern_findings": [],
-  "limits": [
-    "Pattern checks are not a privacy certification; this explicit scope was selected after source/history review.",
-    "Named target/HPO configurations are included; patient-derived output tables, internal history and source data are absent.",
-    "Python wheels can be rebuilt from pinned publisher inputs with the tested source recipe; standalone binaries and reference/genomic inputs are acquired separately.",
-    "A source snapshot is not completion of the patient analysis, final submissions or public release."
-  ]
+  "file_count": 531,
+  "total_release_bytes": 5124726,
+  "self_identity": "SOURCE-SNAPSHOT.json is excluded from its own table; the containing Git commit binds it."
 }

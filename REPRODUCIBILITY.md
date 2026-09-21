@@ -1,5 +1,39 @@
 # Reproduction scope and order
 
+Start with the public HG002 benchmark below to exercise download, calling and comparison without any private case inputs. Historical case-workflow restoration follows separately.
+
+## Public benchmark quick start
+
+From a fresh clone, with Bash and system Python 3.9+ installed:
+
+```bash
+bash workflow/public-benchmark/run.sh ../hg002-public-replay
+```
+
+The new [public replay entrypoint](workflow/public-benchmark/README.md) downloads
+checksum-pinned public HG002 chr20 reads, GRCh38 reference and GIAB v4.2.1 truth;
+installs an isolated, explicitly locked runtime; runs the existing twelve RTG
+controls; prepares the reference; runs the unchanged GATK/bcftools caller over
+the full public chromosome; then runs the genotype-aware comparison and
+accounting audit. It preserves full chromosome context and
+official confident-region evaluation. This is a prealigned caller-component
+benchmark, not FASTQ alignment or clinical validation. It has no private-input
+requirement and does not copy historical performance numbers into a new result.
+
+Choose a new output tree outside the clone. Public data total 2.15 GB, with about
+another 1 GB for runtime archives; plan 15–25 GiB working storage and at least
+40 GiB free. Historical calling took about 116 minutes, excluding downloads and
+preparation; another host's runtime is unmeasured. The default two-worker run has
+a six-hour, 32-GiB sampled group-memory and 30-GiB output guard. Only its own
+process group is controlled. Linux x86-64/aarch64 and macOS arm64 have separate
+package locks; package resolution alone does not establish execution on Linux.
+The [replay guide](workflow/public-benchmark/README.md) gives exact scope,
+prerequisites, limits, output locations and a clearly labelled controls-only mode.
+
+As of 21 September 2026, the new full macOS arm64 replay is running after verified public downloads, reference preparation and twelve passing RTG controls. Linux x86-64 under QEMU completed the pinned environment, all twelve controls, and actual GATK/bcftools calling plus both RTG comparisons on a predefined public 100-kb interval. That is an operational smoke, not a full Linux chromosome benchmark. Linux aarch64 has a resolved lock only. The final launcher adds shell-safe Java-path quoting and inherited-JVM-option sanitation after the Mac run started; its launched source remains recorded separately. The [current platform record](results/public-benchmark-replay-20260921.json) distinguishes these stages and retained compatibility failures.
+
+## Historical authorized-case workflow (Apple Silicon)
+
 This snapshot supplies the workflow source and configuration files. Reproduction
 requires the separately acquired inputs and software below. Exact executed commands,
 input identities and output counts are retained in the selected JSON receipts.
@@ -107,6 +141,12 @@ of every analysis is not claimed. Exomiser/LIRICAL dependencies were inventoried
 not freshly installed in either exercise.
 
 ## 2. Reproduce the public small-variant comparison
+
+### Historical machine-bound entrypoints
+
+The instructions and receipts below retain the original native execution. Their
+Mac executable hashes and private-layout runtime locations should not be used as
+a claim of fresh-clone portability; use the new adapter above for that purpose.
 
 The input is public HG002 NovaSeq PCR-free chr20 reads with their exact GRCh38 no-alt
 reference; small-variant truth is GIAB v4.2.1 with its official confident-region BED.
