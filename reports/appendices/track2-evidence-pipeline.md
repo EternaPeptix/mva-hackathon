@@ -1,14 +1,19 @@
-# Evidence pipeline for the Track 2 restoration proposal
+# Evidence pipeline for the Track 2 everolimus–niacin comparison
 
-21 September 2026. The central route is **restoration of usable BUBR1**, with
-**niacin (nicotinic acid) as the exploratory first testing nominee and arimoclomol
-as an explicit challenger**. Neither is a demonstrated drug winner. Senolysis is
-the strongest same-gene organismal functional mechanism considered; its drug implementation
-remains unresolved. Everolimus is a competitive conditional pathway alternative:
-its established drug-to-target link gives it a narrow preference over arimoclomol
-as a specific drug hypothesis, without establishing functional superiority.
-Arimoclomol's role here follows the chosen restoration question, not a universal
-drug ranking.
+21 September 2026. The core pair is **everolimus as the narrow submission lead**
+and **niacin (nicotinic acid) as the primary orthogonal challenger**, tested
+separately, not as a combination. Everolimus represents mTORC1 normalization;
+niacin represents restoration of usable BUBR1 through the NAD/SIRT2 hypothesis.
+Prioritizing named-drug implementation and pediatric feasibility favors the
+everolimus-first presentation; prioritizing the causal restoration question can
+favor niacin first. The pair remains the same, and the order is not an efficacy
+fact or an automatic inference from genotype.
+
+**Arimoclomol is a restoration-specific reserve; dasatinib is a reserve requiring
+harmful senescent burden and selective susceptibility.** Senolysis has the
+strongest same-gene organismal functional precedent considered, but its approved
+drug implementation remains unresolved. Both core hypotheses require model,
+exposure and mechanism qualification; neither waits for the other to fail.
 [Current proposal](../jeweled_track2_report_submission.md).
 
 Candidate reconstruction, population sensitivity calculations and a secondary
@@ -17,10 +22,12 @@ rescue experiment below has been performed; laboratory access is not secured.
 This pipeline supersedes the elected-lead choices in the dated protocols while
 retaining their useful assay controls. It supplies no clinical dosing proposal.
 
-## Why this route, and what remains to be proved
+## Why this pair, and what remains to be proved
 
 | Source | Established result | Missing bridge or counterevidence |
 |---|---|---|
+| [Sieben 2020, Fig. 5C](https://www.jci.org/articles/view/126863/version/2) | Increased phosphorylation of p70 S6 kinase and 4EBP1 in gastrocnemius from three-month-old BubR1+/X753 mice; two mice per genotype in the signaling blot. | A different allele and a small pathway-activity observation, not causal or drug rescue. The RNA Hallmark null below does not rebut phosphorylation. |
+| [Everolimus label](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04) | Established mTOR inhibition and pediatric approved-use experience in specified TSC indications support a concrete drug implementation. | Neither establishes harmful mTORC1 excess, a useful exposure window or functional benefit in BUB1B-associated disease. |
 | [Suijkerbuijk 2010](https://pubmed.ncbi.nlm.nih.gov/20516114/) | Selected human MVA BUBR1 mutants have abundance defects; forced expression can restore a checkpoint response. | N1002K was not tested. HSP90 dependence does not demonstrate arimoclomol/HSP70 rescue, and a nocodazole response does not establish spontaneous segregation fidelity. |
 | [North 2014, Figs. 4–6](https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/) | NMN increased BUBR1 abundance in WT MEFs, largely through SIRT2, and in aged WT mouse testes. Genetic SIRT2 overexpression improved selected cardiac outcomes and male survival in BubR1 hypomorphs. | The drug experiments used 1 mM NMN for 24 hours in cells and 500 mg/kg/day intraperitoneally for seven days in mice. NMN did not supply the genetic survival result. WT/hypomorphic protein is not N1002K; small size, cataracts and lordokyphosis were not reversed by SIRT2 overexpression. |
 | [Pirinen 2020](https://pubmed.ncbi.nlm.nih.gov/32386566/) | In a nonrandomized open-label study of five mitochondrial-myopathy patients and ten controls, niacin increased NAD, including patient muscle NAD; strength also increased. | Different disease, small uncontrolled study, no BUBR1 measurement. The slow-release preparation and adult study exposure cannot be assumed equivalent to every prescription formulation or to a child's exposure. |
@@ -31,8 +38,9 @@ retaining their useful assay controls. It supplies no clinical dosing proposal.
 | [MIPLYFFA label, March 2026](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc&version=5) | Arimoclomol with miglustat has an NPC indication from age two; estimated pediatric mean serum peak is 523 ng/mL, approximately 1.67 micromolar. | Its clinical mechanism in NPC remains unknown. Pediatric use elsewhere does not establish exposure-qualified BUBR1 rescue. |
 | [Baker 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3468323/) | INK-ATTAC-mediated clearance of p16-positive cells improved selected tissue and exercise outcomes in BubR1 hypomorphs. | Genetic selective clearance does not validate dasatinib or D+Q selectivity or functional rescue in this genotype. |
 
-Niacin's priority is a judgment about this testable evidence chain, not a measured
-efficacy ranking. **NMN is a mechanistic reference, not an approved-drug nomination**;
+Niacin's challenger role preserves this testable restoration evidence chain;
+it does not claim measured inferiority to everolimus. **NMN is a mechanistic
+reference, not an approved-drug nomination**;
 dietary-ingredient status is not drug approval. Niacin, nicotinamide/niacinamide,
 NMN and genetic SIRT2 elevation are distinct interventions. North's high-dose
 nicotinamide experiment reduced BUBR1, so vitamin-family naming cannot determine
@@ -41,13 +49,18 @@ also separate SIRT2-dependent acetylation, total protein and checkpoint behavior
 
 ```mermaid
 flowchart TD
-    G[Candidate pair; phase unresolved] --> A[Qualify allele products and functional defect]
-    A --> Q[Distinguish quantity limitation from function per molecule]
-    Q --> D[Niacin first test; arimoclomol challenger]
-    D --> E[Measured exposure and separate mechanism tests]
-    E --> F[Productive divisions and replacement; absolute muscle function]
+    G[Candidate allele pair; phase unresolved] --> A[Qualify model, allele products and functional deficit]
+    A --> M[Qualify mTORC1 excess and causal normalization]
+    A --> R[Qualify precursor use and BUBR1 rescue competence]
+    M --> E[Everolimus lead: separate exposure and mechanism test]
+    R --> N[Niacin challenger: separate exposure and mechanism test]
+    E --> F[Absolute useful muscle output; preserved renewal; no worse fidelity]
+    N --> F
     F --> C[Independent confirmation and tumor/regimen assessment]
-    A -. qualified downstream defect .-> S[Senolysis or conditional mTOR pathway test]
+    R -. restoration-specific reserve .-> H[Arimoclomol]
+    A -. harmful burden and susceptibility .-> S[Dasatinib reserve]
+    H --> F
+    S --> F
 ```
 
 ## 1. Qualify the allele products and model
@@ -69,7 +82,58 @@ survival remain unmeasured. [Sequence reconstruction](../../workflow/track2-mode
 is conditional; [pseudokinase-domain evidence](https://pubmed.ncbi.nlm.nih.gov/33207204/)
 precludes assuming a surviving truncation is fully functional.
 
-## 2. Separate rescue of quantity from rescue of quality
+## 2. Qualify both mechanism hypotheses alongside each other
+
+Genotype does not establish mTORC1 excess, NAD limitation or treatment response.
+Qualify the relevant mechanism in the same model before interpreting its drug
+test; failed models or assays are not candidate exclusions.
+
+### Everolimus and mTORC1 normalization
+
+Qualify this core hypothesis alongside restoration by testing
+for genotype-associated excess signaling at matched maturation, density,
+nutrients and cell composition; restoration failure is not a prerequisite.
+Measure phospho/total p70S6K and 4EBP1 and, where relevant, autophagy flux. The
+[Sieben muscle association](https://www.jci.org/articles/view/126863/version/2)
+includes increased p70 S6 kinase and 4EBP1 phosphorylation in three-month-old
+BubR1+/X753 gastrocnemius (two mice per genotype in the signaling blot), but
+does not establish causal rescue. Our [GSE134781 analysis](../../workflow/track2-rna/README.md)
+found no positive mTORC1 Hallmark corroboration (X753–WT P=0.219; global FDR=0.983).
+This is not evidence against the measured phosphorylation: transcription and
+kinase activity are different endpoints.
+
+Retain adverse evidence: [Baker 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3785294/)
+reports preliminary unpublished observations of similar age-phenotype development
+in rapamycin-fed and control BubR1 progeroid mice; this is not a fully reported
+negative trial. [Goutas 2023, Fig. 6](https://pmc.ncbi.nlm.nih.gov/articles/PMC10149375/)
+found that 50 nM everolimus for 24 hours reduced BUBR1 in late-passage WJ-MSCs,
+with no corresponding early-passage reduction. This is a cell-state-specific
+warning, not a mutant experiment or proof of harm in MVA. These concerns justify
+monitoring and decision criteria; they do not establish arimoclomol superiority.
+Normal signaling, failure of function despite target engagement, or loss of
+BUBR1/renewal would move everolimus down. Functional rescue at justified exposure
+would support advancement; compare absolute output rather than biomarker change alone.
+
+If excess signaling is qualified, titrate partial inducible RPTOR attenuation
+toward the corrected-cell range with independent targeting/on-target controls.
+Complete knockout is not the intended intervention. Test both functional cohorts;
+genetic success must then be implemented separately by exposure-qualified
+everolimus, with sirolimus as the actual rapamycin reference compound.
+
+Compare continuous exposure with finite pulses followed by verified washout over
+the same observation period. Match handling, record cumulative exposure and state
+whether the contrast tests a whole regimen or timing at comparable exposure.
+Measure drug disappearance, signaling recovery/rebound, BUBR1, function and reserve;
+washout alone is not recovery. No pulse schedule is presumed protective.
+[Tsc1 myopathy rescue](https://pubmed.ncbi.nlm.nih.gov/23602450/), opposing regeneration
+contexts ([Ge 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2793064/),
+[Balnis 2025](https://doi.org/10.1172/jci.insight.182842)), and the
+[negative older-adult functional trial](https://doi.org/10.1002/jcsm.70274)
+justify testing the window rather than declaring benefit from pathway inhibition.
+
+### Niacin and the restoration-specific arimoclomol reserve
+
+Separate rescue of quantity from rescue of quality.
 
 Titrate WT, N1002K and the actual 1–736 truncation in defined allele backgrounds
 across measured physiological protein amounts,
@@ -103,7 +167,7 @@ NAD engagement. Severe depletion that destroys the baseline cannot answer this
 question. If that causal test is infeasible, retain functional benefit as an
 observation without claiming that the restoration mechanism is established.
 
-### Qualify niacin utilization before ranking the drugs
+### Qualify niacin utilization
 
 Published NAD responses relative to each control:
 
@@ -145,8 +209,10 @@ case instead of inheriting niacin's nomination.
 
 ## 3. Compare exposure-qualified drug implementations
 
-Test vehicle, niacin and arimoclomol separately in affected and corrected cultures,
-with the genetic controls above. Use pharmacologist-reviewed concentration/time
+Test vehicle, everolimus and niacin in separate treatment arms in affected and
+corrected cultures, with the relevant genetic controls above. This is not an
+everolimus–niacin combination proposal. Test arimoclomol or dasatinib separately
+if their reserve hypotheses are qualified. Use pharmacologist-reviewed concentration/time
 ranges and measure medium concentration, stability, binding and relevant cellular
 engagement. Clinical total serum or blood concentrations are not culture-medium
 free concentrations. Match handling and observation periods; compare justified
@@ -163,12 +229,19 @@ within the qualified exposure, duration, tissue and genotype tested.
 
 | Cohort | Primary question | Required accounting |
 |---|---|---|
-| **Progenitors through differentiation/replacement** | Does treatment reduce new segregation errors while preserving or improving productive divisions and absolute functional muscle yield per starting cohort? | Track founders, non-entry, completed divisions, daughter outcomes, arrest, death, tracking loss, clone expansion, differentiation and total viable muscle output. Measure later absolute contractile output; a higher fusion percentage after cell loss cannot pass. |
+| **Progenitors through differentiation/replacement** | Does treatment improve absolute functional muscle yield per starting cohort while preserving renewal and not worsening chromosome fidelity in dividing populations? | Track founders, non-entry, completed divisions, daughter outcomes, arrest, death, tracking loss, clone expansion, differentiation and total viable muscle output. Measure later absolute contractile output; a higher fusion percentage after cell loss cannot pass. |
 | **Established mature muscle** | Does treatment improve absolute evoked contractile output per construct from the pretreatment cohort? | Record baseline/follow-up force, viable tissue size, repeated-stimulation performance and deaths. Area-normalized force is secondary; contraction imaging is a surrogate if force is unavailable. |
 
-The fidelity requirement tests restoration. Conditional senolysis must instead
+The common advancement criterion is useful absolute muscle output with preserved
+renewal and no worse chromosome fidelity against the prespecified comparison.
+Freeze useful-benefit and acceptable-loss boundaries prospectively; a nonsignificant
+difference is not proof of preservation. A claim of BUBR1 restoration additionally
+requires relevant BUBR1-dependent functional and fidelity evidence. Downstream
+mTORC1 benefit need not correct the existing mitotic defect, provided it meets the
+common functional and preservation criteria. Conditional senolysis likewise must
 show that selective clearance improves net function while preserving replacement;
-it need not correct segregation in surviving cells.
+it need not correct segregation in surviving cells. Report each mechanism claim
+separately from the common functional result.
 
 Use the [founder ledger](founder-ledger.md) to retain the starting denominator and
 unscorable outcomes; do not analyze only surviving or dividing cells. Record both
@@ -183,7 +256,7 @@ Follow function, growth and chromosome instability after withdrawal where feasib
 a transient marker change or delayed collapse is insufficient. An interpretable
 benefit in one cohort cannot be silently generalized to the other.
 
-## 5. Conditional downstream routes
+## 5. Conditional reserves
 
 A [BubR1-knockdown C2C12 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC5023544/)
 reported impaired myogenic differentiation/fusion. Its SA-β-gal assays were negative
@@ -197,8 +270,8 @@ to a senolytic-responsive population.
 this route need not wait for restoration to fail. Dasatinib monotherapy is a
 conditional reserve: [fat-cell progenitor activity](https://pubmed.ncbi.nlm.nih.gov/25754370/)
 does not establish selective susceptibility or function in muscle-supporting cells.
-Arimoclomol is selected as a challenger for the same proximal question,
-not because it has demonstrated superiority to dasatinib. In fibro-adipogenic
+Arimoclomol is the restoration-specific reserve, without demonstrated superiority
+to dasatinib. In fibro-adipogenic
 progenitor/myogenic cocultures, use a selective-clearance reference and track both
 populations, replacement and absolute muscle output to distinguish useful removal
 from nonspecific killing. A lower senescence-marker fraction cannot pass alone.
@@ -209,47 +282,6 @@ The [competition rules](https://huggingface.co/spaces/SageBio/rare-disease-real-
 do not expressly require an approved regimen; D+Q eligibility
 is unresolved because quercetin lacks an established approved-drug status here.
 Retain D+Q as an experimental comparator, not a clearly eligible nomination.
-
-**mTORC1 / everolimus:** qualify this hypothesis alongside restoration by testing
-for genotype-associated excess signaling at matched maturation, density,
-nutrients and cell composition; restoration failure is not a prerequisite.
-Measure phospho/total p70S6K and 4EBP1 and, where relevant, autophagy flux. The
-[Sieben muscle association](https://www.jci.org/articles/view/126863/version/2)
-includes increased p70 S6 kinase and 4EBP1 phosphorylation in three-month-old
-BubR1+/X753 gastrocnemius (two mice per genotype in the signaling blot), but
-does not establish causal rescue. Our [GSE134781 analysis](../../workflow/track2-rna/README.md)
-found no positive mTORC1 Hallmark corroboration (X753–WT P=0.219; global FDR=0.983).
-This is not evidence against the measured phosphorylation: transcription and
-kinase activity are different endpoints.
-
-Retain adverse evidence: [Baker 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3785294/)
-reports preliminary unpublished observations of similar age-phenotype development
-in rapamycin-fed and control BubR1 progeroid mice; this is not a fully reported
-negative trial. [Goutas 2023, Fig. 6](https://pmc.ncbi.nlm.nih.gov/articles/PMC10149375/)
-found that 50 nM everolimus for 24 hours reduced BUBR1 in late-passage WJ-MSCs,
-with no corresponding early-passage reduction. This is a cell-state-specific
-warning, not a mutant experiment or proof of harm in MVA. These concerns justify
-monitoring and decision criteria; they do not establish arimoclomol superiority.
-Normal signaling, failure of function despite target engagement, or loss of
-BUBR1/renewal would move everolimus down. Functional rescue at justified exposure
-would move it ahead; compare absolute output rather than biomarker change alone.
-
-If excess signaling is qualified, titrate partial inducible RPTOR attenuation
-toward the corrected-cell range with independent targeting/on-target controls.
-Complete knockout is not the intended intervention. Test both functional cohorts;
-genetic success must then be implemented separately by exposure-qualified
-everolimus, with sirolimus as the actual rapamycin reference compound.
-
-Compare continuous exposure with finite pulses followed by verified washout over
-the same observation period. Match handling, record cumulative exposure and state
-whether the contrast tests a whole regimen or timing at comparable exposure.
-Measure drug disappearance, signaling recovery/rebound, BUBR1, function and reserve;
-washout alone is not recovery. No pulse schedule is presumed protective.
-[Tsc1 myopathy rescue](https://pubmed.ncbi.nlm.nih.gov/23602450/), opposing regeneration
-contexts ([Ge 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2793064/),
-[Balnis 2025](https://doi.org/10.1172/jci.insight.182842)), and the
-[negative older-adult functional trial](https://doi.org/10.1002/jcsm.70274)
-justify testing the window rather than declaring benefit from pathway inhibition.
 
 ## 6. Confirmation and decision outputs
 
@@ -262,7 +294,7 @@ intervals to meet the benefit/preservation margins; nonsignificant harm is not
 evidence of preserved reserve. Cell counts or simulations cannot set sample size.
 
 Confirm RMS status and the actual regimen before selecting tumor comparisons.
-Test candidate-alone and relevant combination effects, including post-withdrawal
+Test each candidate alone and with the relevant oncology regimen, including post-withdrawal
 regrowth. Neither chaperone biology nor an anticancer indication predicts the
 answer. Apply the [oncology framework](oncology-counterscreen.md) with updated
 candidate-specific evidence. Systemic growth, renal, hepatic, immune and interaction
@@ -271,15 +303,17 @@ effects remain outside cell-assay inference and require translational review.
 | Observation | Decision |
 |---|---|
 | Model, precursor utilization, mechanism engagement, exposure, duration or functional measurement is inadequate | Uninterpretable nonresponse; repair the limitation or report infeasibility. |
+| Qualified assays find no genotype-associated harmful mTORC1 excess | Deprioritize the proposed everolimus normalization mechanism in that model; neither genotype nor an unrelated pathway marker can substitute for the missing premise. |
 | Additional N1002K quantity fails at matched physiological abundance | Deprioritize quantity-only rescue in that model; folding/function-per-molecule rescue remains a separate hypothesis. |
 | Genetic/mechanistic rescue works but an adequately engaged drug does not improve function | Target success, drug-implementation failure; do not discard the target or award the drug genetic efficacy. |
 | NAD, BUBR1 or pathway markers improve without functional benefit | Do not advance on markers alone. |
-| Function improves without established BUBR1 dependence | Retain the functional observation; investigate an alternative mechanism rather than claiming the restoration chain is validated. |
-| Favorable fractions arise only from selective loss without improved useful absolute output, or benefit requires unjustified exposure, unacceptable reserve loss or credible adverse tumor effects | Fail advancement despite favorable fractions or signaling. |
+| Function improves without established BUBR1 dependence | For niacin/arimoclomol, retain the observation without claiming restoration. For everolimus, independently supported mTORC1-mediated benefit can advance without correcting the pre-existing mitotic defect if common functional, renewal and fidelity criteria are met. |
+| Favorable fractions arise only from selective loss without improved useful absolute output, or benefit requires unjustified exposure, unacceptable renewal loss, worse chromosome fidelity or credible adverse tumor effects | Fail advancement despite favorable fractions or signaling. |
 | A qualified experiment excludes a useful effect with adequate precision | Resolved negative only for the tested implementation, tissue, genotype, exposure and duration. |
-| Independent experiments meet functional-benefit, reserve and exposure criteria with acceptable parallel results | Advance that implementation to relevant-model/translational confirmation; no clinical-benefit claim yet. |
+| Independent experiments meet absolute functional-benefit, renewal-preservation, no-worse-fidelity and exposure criteria with acceptable parallel results | Advance that implementation to relevant-model/translational confirmation; state only the mechanism supported by the data, with no clinical-benefit claim yet. |
 
-The submission is a narrow, falsifiable restoration proposal with an explicit
-challenger and downstream contingencies. No drug winner is declared before the
-functional comparison; neither incomplete experiments nor ambiguous results close
-an evidence gap.
+The submission is a focused comparison of everolimus-mediated mTORC1 normalization
+and niacin-mediated BUBR1 restoration, tested separately, with arimoclomol and
+dasatinib retained for their qualified reserve roles. The narrow everolimus-first
+submission order is a prioritization judgment, not a functional superiority claim.
+Neither incomplete experiments nor ambiguous results close an evidence gap.

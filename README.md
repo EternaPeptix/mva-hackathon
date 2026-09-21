@@ -1,7 +1,7 @@
 # MVA: from genome evidence to a testable rescue experiment
 
 Team **jeweled** asks whether a recessive BUB1B mechanism explains the supplied MVA case,
-and whether restoring usable BUBR1 could preserve productive divisions and muscle renewal. Track 1's CSV
+and whether mTORC1 normalization or usable BUBR1 restoration could preserve muscle renewal. Track 1's CSV
 and both research reports are prepared; submission is pending and Vimeo is on hold.
 
 ## Start here
@@ -28,9 +28,9 @@ commands, versions, input/output identities and results; it is not itself a biol
 
 **Track 2 — turn the mechanism into an experiment**
 
-6. Establish which BUB1B products survive and whether their useful function can be restored.
-7. Compare niacin with arimoclomol at justified exposure, with genetic and tumor controls.
-8. Measure productive divisions and absolute muscle output; qualify senolysis as an alternative.
+6. Qualify allele products, useful BUBR1 function and harmful mTORC1 excess in controlled models.
+7. Compare everolimus with niacin separately at justified exposure, with genetic and tumor controls.
+8. Measure absolute muscle output, renewal and fidelity; qualify arimoclomol and senolysis reserves.
 
 ## Quick start: public HG002 chromosome 20
 
@@ -73,15 +73,14 @@ The stop has a two-star ClinVar P/LP assertion and the missense remains VUS. The
 [report](reports/jeweled_track1_report_submission.md) explains the two-allele census, ten-gene
 differential, 288 bp phase blocks versus a 10,911 bp gap, and retracted mosaic signal.
 
-**Track 2:** prioritize **usable BUBR1 restoration**, testing **niacin (nicotinic acid)**
-with **arimoclomol as a challenger**. Human muscle NAD engagement and a separate NAD/SIRT2–BUBR1
-stability study justify investigating niacin; neither establishes mutant rescue. Arimoclomol's
-HSP70-to-BUBR1 bridge also remains unproved. Senescent-cell clearance has the strongest same-gene
-mouse functional precedent but lacks a validated eligible drug implementation. Everolimus is a
-competitive conditional alternative with a clearer drug-to-target link than arimoclomol's proposed
-BUBR1 implementation. Our [RNA reanalysis](workflow/track2-rna/README.md) adds no mTORC1 support;
-it does not rebut the published protein-activity result. Both require functional qualification.
-No drug winner or clinical benefit is established.
+**Track 2:** nominate **everolimus** as the lead drug hypothesis and **niacin (nicotinic acid)**
+as the main comparator, tested separately. They address mTORC1 normalization versus restoration
+of usable BUBR1. Everolimus has the clearer drug-to-target link; niacin connects human muscle
+NAD engagement to a separate BUBR1-stability mechanism. Neither has demonstrated rescue of
+this genotype. Arimoclomol and dasatinib remain conditional reserves. Our
+[RNA reanalysis](workflow/track2-rna/README.md) adds no mTORC1 support and does not rebut the
+published protein-activity result. The decision rests on literature and testability, not a
+simulated drug ranking or clinical-benefit claim.
 
 The [proposal](reports/jeweled_track2_report_submission.md) and
 [evidence pipeline](reports/appendices/track2-evidence-pipeline.md) explain the

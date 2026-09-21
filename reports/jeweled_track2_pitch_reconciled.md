@@ -1,36 +1,36 @@
 # jeweled — Track 2 pitch: proposed revision and approved recording
 
-**Text-only proposal, 21 September 2026; not recorded or approved. Media and Vimeo remain on hold.** This revision presents usable BUBR1 restoration, comparing niacin with arimoclomol. The [approved Lauren / Sonic 3.6 recording](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) remains unchanged and uses the earlier arimoclomol/NAC proposal. Its narration and historical delivery note are preserved below; that note's reference to a “current everolimus lead” records a superseded draft. The current report governs selection. New timing, captions and approval would be needed before recording this proposal.
+**Text-only proposal, 21 September 2026; not recorded or approved. Media and Vimeo remain on hold.** This revision presents everolimus and niacin as separate hypotheses, with arimoclomol and senolysis retained as reserves. The [approved Lauren / Sonic 3.6 recording](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) remains unchanged and uses the earlier arimoclomol/NAC proposal. Its narration and historical delivery note are preserved below; the current report governs selection. New timing, captions and approval would be needed before recording this proposal.
 
 ## Proposed narration — not recorded
 
-### Preserve useful protein and productive cells
+### Preserve muscle and its capacity to renew
 
-Our question is whether preserving usable BUBR1 can sustain chromosome segregation and muscle renewal. The genomic hypothesis contains a stop variant and N1002K; phase and surviving protein function remain unresolved. We need a qualified cell model before claiming a drug can help.
+Our genomic hypothesis is a BUB1B stop variant paired with N1002K. Phase and surviving protein function remain unresolved. We ask whether an approved medicine could preserve useful muscle without exhausting the cells that renew it.
 
-### Compare two concrete candidates
+### Test a specific downstream hypothesis
 
-We nominate niacin, the nicotinic-acid medicine, with arimoclomol as a challenger. Human muscle studies show that niacin can raise NAD. Separate experiments connect NAD and SIRT2 to BUBR1 stability. Those links do not yet demonstrate mutant rescue. Arimoclomol might improve protein quality, but its BUBR1 link is also unproved. Test them separately.
+Our lead hypothesis is everolimus. It inhibits mTOR, a pathway with increased activity in muscle from a different BUB1B mouse model. That study did not test drug rescue. We would first establish whether harmful excess signaling exists in the relevant cells, then test whether partial normalization helps without reducing BUBR1 or muscle renewal.
 
-### Establish what is rescuable
+### Challenge it with protein restoration
 
-Measure the actual full-length and truncated products. Compare genetic correction and controlled allele expression. More protein can help, do nothing or interfere. Count segregation outcomes and productive divisions, including deaths, arrest and lost lineages. Fewer errors among a shrinking group of survivors are insufficient.
+Our main comparator is niacin, the nicotinic-acid medicine. Human muscle studies show NAD engagement; separate experiments connect NAD and SIRT2 to BUBR1 stability. Those findings justify testing usable protein restoration, but do not demonstrate niacin rescue. We test the drugs separately, not as a combination.
 
-### Follow through to muscle function
+### Measure benefit without hiding losses
 
-Measure actual drug exposure, then absolute muscle output from the starting progenitors. Test mature-muscle function separately and follow both after withdrawal. NAD, heat-shock markers or protein abundance alone cannot pass. Genetic rescue with drug failure rejects the implementation without discarding the mechanism.
+Genetically controlled models distinguish an allele defect from unrelated cell differences. We measure actual exposure, absolute muscle output, progenitor renewal and chromosome fidelity. Death, arrest and lost lineages stay in the accounting. Everolimus could improve downstream function without correcting the initiating defect; a restoration claim requires the corresponding protein and functional evidence.
 
-### Keep the strongest alternatives visible
+### Use computation for what it can establish
 
-Senescent-cell clearance improved tissue function in BubR1-deficient mice, but an eligible drug must reproduce that benefit selectively. Everolimus now requires additional pathway evidence; our RNA analysis did not corroborate its target, and published counterexamples weaken its lead.
+Reference reconstruction describes possible allele products. Our population model shows how favorable cell percentages can conceal lost tissue output. The public RNA analysis added no positive mTOR corroboration, but does not contradict the published protein-activity result. None of these computations predicts drug response.
 
-### Ask for the decisive experiment
+### Deliver a decision and a test
 
-Rhabdomyosarcoma history requires testing tumor protection and relevant treatment interactions. No drug experiment has run. We seek a consented cell model and a partner laboratory to determine whether either candidate preserves useful tissue function at justified exposure.
+Arimoclomol remains a protein-restoration reserve; senolysis requires a harmful, selectively removable cell population. The recorded cancer history requires tumor and treatment-interaction assessment. No drug experiment has run. We seek a consented cell model and partner laboratory to test the two leading hypotheses and reject an inadequate implementation with a measured reason.
 
 ## Evidence for the proposed revision
 
-The [current report](jeweled_track2_report_submission.md) and [evidence pipeline](appendices/track2-evidence-pipeline.md) link primary sources, alternatives and stopping rules. The [genome-informed model](../workflow/track2-model/README.md) and [public RNA analysis](../workflow/track2-rna/README.md) are completed computations, not drug-response evidence. This proposed narration does not report biological rescue or replace the approved recording.
+The [current report](jeweled_track2_report_submission.md) and [evidence pipeline](appendices/track2-evidence-pipeline.md) link primary sources, alternatives and decision criteria. The [genome-informed model](../workflow/track2-model/README.md) and [public RNA analysis](../workflow/track2-rna/README.md) are completed computations, not drug-response evidence. This proposed narration does not report biological rescue or replace the approved recording.
 
 ## Approved narration — unchanged recording
 

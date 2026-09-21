@@ -122,16 +122,16 @@ corroboration and scheduling counterevidence appear in the proposal, methods and
 unrecorded pitch. The inventory refresh covers this public-data addition; the
 repository remains private, and media remains on hold.
 
-### Restoration route comparison
+### Final route comparison
 
-The current proposal prioritizes niacin as an exploratory BUBR1-restoration
-candidate with arimoclomol as challenger and retains conditional senolysis.
-The direct drug comparison gives everolimus a narrow qualitative preference over
-arimoclomol, while preserving restoration as the selected research question.
-The RNA null does not rebut published phosphorylation evidence; state-specific
-BUBR1 loss and underreported rapamycin nonbenefit are concerns, not vetoes. The alternatives table,
-evidence pipeline, methods, navigation and unrecorded pitch are synchronized.
-This changes interpretation of existing candidates and public literature only;
-no new case data, laboratory response or media is added. Existing computational
+The current proposal selects everolimus as the lead drug hypothesis and niacin
+as the primary comparator, tested separately. Arimoclomol and dasatinib are
+conditional reserves. Selection compares causal relevance with actual drug
+implementation: prioritizing the former favors niacin, whereas the latter favors
+everolimus. This supports the two-route set without asserting efficacy superiority.
+The RNA null does not rebut published phosphorylation; state-specific BUBR1 loss
+and underreported rapamycin nonbenefit remain concerns to test. The alternatives
+table, evidence pipeline, methods, navigation and proposed pitch are synchronized.
+No new case data, laboratory response or media is added. Existing computational
 outputs, Track 1 science and the approved recording remain unchanged. The
-repository remains private; candidate selection is not demonstrated drug efficacy.
+repository remains private; media and competition submission remain on hold.

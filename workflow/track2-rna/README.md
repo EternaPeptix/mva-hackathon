@@ -48,12 +48,13 @@ All [pathway results](results/pathways.tsv), [sensitivity results](results/sensi
 Samples differ within WT and L1002P as well as between groups; unidentified batch
 or composition effects cannot be excluded. TMM factors ranged 0.886–1.082.
 
-**Decision consequence:** this analysis lowers the claimed convergence behind
-mTORC1 and supplies no affirmative support for a rival. Combined with additional
-literature counterevidence described in the [current proposal](../../reports/jeweled_track2_report_submission.md),
-everolimus is now a conditional alternative to the restoration program. Relevant
-signaling and partial-genetic functional rescue must precede advancement of the
-mTOR rationale. This selection change does not alter any statistical result.
+**Decision consequence:** this analysis supplies no additional transcriptional
+support for mTORC1 and no affirmative support for a rival. It does not rebut the
+published phosphorylation measurements or measure kinase activity. The
+[current proposal](../../reports/jeweled_track2_report_submission.md) selects everolimus
+and niacin as distinct drug hypotheses on their broader evidence, with functional
+qualification still required. These interpretation boundaries do not alter any
+statistical result.
 
 ## Analysis choices fixed before inspecting the pathway results
 
