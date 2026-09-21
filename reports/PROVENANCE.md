@@ -14,6 +14,12 @@ mTORC1 branch. It supplies no N1002K trafficking result, patient measurement or
 drug efficacy evidence. The medication selection and submission schedule remain
 unchanged; the archived Track 1 upload and prediction are preserved exactly.
 
+Review of the six competing ideas separates transcript stabilization from
+readthrough, adds scoped aneuploidy-screen results, and qualifies the actual
+truncation, PP2A-B56 and regulatory comparisons. These are literature and assay
+interpretation changes. They do not change the elected drug pair, establish
+patient protein function or create a clinical avoid-list.
+
 The methods form retains all 22 original question headings. Its Track 1 answers
 now include actual ranking/predictor results and distinguish GIAB small-variant
 truth v4.2.1 from structural truth v5.0q. The [Track 1 case-evidence map](appendices/track1-case-evidence.md)

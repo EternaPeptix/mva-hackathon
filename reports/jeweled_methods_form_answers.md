@@ -123,6 +123,8 @@ Niacin is not NMN and neither inherits genetic SIRT2 outcomes. NAD normalization
 
 Arimoclomol's other-protein effects do not establish BUBR1 rescue. Failure of additional N1002K at matched abundance weakens quantity-only rescue without excluding improved folding/function per molecule. Genetic INK-ATTAC benefit, marker-level D+Q patent evidence and Ercc1 drug results remain separate. The alternatives table records the strongest case, weakness and condition for reconsidering each route.
 
+The [pipeline](appendices/track2-evidence-pipeline.md#separate-transcript-rescue-from-protein-rescue) separates stop-transcript stabilization from readthrough and tests the actual truncated product. It distinguishes checkpoint activation from silencing, pairs protein abundance with spatial PP2A-B56 recruitment and function, and treats one-WT-allele abundance as a comparator rather than a validated sufficiency threshold. A failed antiproliferation screen does not by itself exclude a downstream muscle-function hypothesis.
+
 The sequence reconstruction and 1,536 assumed population runs inform conditional products and endpoint design. The nine-mouse RNA reanalysis found no Hallmark program significant after global correction across 150 tests. Neither computation ranks drugs or demonstrates biological rescue.
 
 ### Please state whether you relied solely on publicly available drug/target databases and literature (preferred), or whether proprietary data sources were also used.

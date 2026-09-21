@@ -29,6 +29,7 @@ retaining their useful assay controls. It supplies no clinical dosing proposal.
 | [Sieben 2020, Fig. 5C](https://www.jci.org/articles/view/126863/version/2) | Increased phosphorylation of p70 S6 kinase and 4EBP1 in gastrocnemius from three-month-old BubR1+/X753 mice; two mice per genotype in the signaling blot. | A different allele and a small pathway-activity observation, not causal or drug rescue. The RNA Hallmark null below does not rebut phosphorylation. |
 | [Choi 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC5560052/); [Choi 2019](https://www.nature.com/articles/s41467-019-09318-3) | BUBR1 participates in insulin-receptor (IR) endocytosis; its depletion delays uptake in cultured cells. Hypomorphic mice have increased insulin sensitivity. | No N1002K-to-myogenic-mTORC1 demonstration. The 2019 SHP2 intervention prolonged liver AKT signaling, but not muscle AKT; that intervention is distinct from BUBR1 deficiency. |
 | [Everolimus label](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04) | Established mTOR inhibition and pediatric approved-use experience in specified TSC indications support a concrete drug implementation. | Neither establishes harmful mTORC1 excess, a useful exposure window or functional benefit in BUB1B-associated disease. |
+| [Tang 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3532042/) | Rapamycin, Torin1 and mTOR knockdown did not preferentially inhibit trisomic MEF accumulation or enhance AICAR's effect. | A negative for that antiproliferation hypothesis; muscle-function rescue was not tested. It supplies no support for an aneuploid-cell-killing rationale for everolimus. |
 | [Suijkerbuijk 2010](https://pubmed.ncbi.nlm.nih.gov/20516114/) | Selected human MVA BUBR1 mutants have abundance defects; forced expression can restore a checkpoint response. | N1002K was not tested. HSP90 dependence does not demonstrate arimoclomol/HSP70 rescue, and a nocodazole response does not establish spontaneous segregation fidelity. |
 | [North 2014, Figs. 4–6](https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/) | NMN increased BUBR1 abundance in WT MEFs, largely through SIRT2, and in aged WT mouse testes. Genetic SIRT2 overexpression improved selected cardiac outcomes and male survival in BubR1 hypomorphs. | The drug experiments used 1 mM NMN for 24 hours in cells and 500 mg/kg/day intraperitoneally for seven days in mice. NMN did not supply the genetic survival result. WT/hypomorphic protein is not N1002K; small size, cataracts and lordokyphosis were not reversed by SIRT2 overexpression. |
 | [Pirinen 2020](https://pubmed.ncbi.nlm.nih.gov/32386566/) | In a nonrandomized open-label study of five mitochondrial-myopathy patients and ten controls, niacin increased NAD, including patient muscle NAD; strength also increased. | Different disease, small uncontrolled study, no BUBR1 measurement. The slow-release preparation and adult study exposure cannot be assumed equivalent to every prescription formulation or to a child's exposure. |
@@ -82,6 +83,44 @@ full-length protein, but its abundance/function and the stop allele's RNA/protei
 survival remain unmeasured. [Sequence reconstruction](../../workflow/track2-model/README.md)
 is conditional; [pseudokinase-domain evidence](https://pubmed.ncbi.nlm.nih.gov/33207204/)
 precludes assuming a surviving truncation is fully functional.
+
+Confirmed cis would retire the canonical N1002K-client explanation and reopen the
+biallelic causal interpretation; it would not itself establish a different clinical
+cancer-predisposition diagnosis. A separately qualified WT-dosage or downstream
+mechanism remains a different question. Resolve phase early, while retaining
+explicitly engineered alternatives for preparatory work; unphased status need not
+halt all model qualification. A protein below detection may be rapidly degraded
+rather than unsynthesized. An amount equal to one WT allele is a comparator, not
+a validated threshold for sufficient function.
+
+### Separate transcript rescue from protein rescue
+
+NMD inhibition seeks more stop-bearing RNA and potentially a truncated product;
+readthrough seeks translation beyond the stop. Measure endogenous allele-specific
+RNA, its response to a qualified decay perturbation, and both truncated and
+full-length protein. Intronless expression can test a product but cannot establish
+endogenous NMD escape. Their mechanisms and products must be distinguished even
+when one compound affects both.
+
+In [Suijkerbuijk 2010](https://pubmed.ncbi.nlm.nih.gov/20516114/), historical
+"731X" was a splice-associated frameshift truncation (IVS16-2A>G; S714fsX731),
+distinct from Leu737Ter. Reduced patient RNA suggested decay. Expressed LAP-731X
+retained the tested checkpoint, alignment and attachment functions. The [2020 study](https://pubmed.ncbi.nlm.nih.gov/33207204/)
+found impaired KARD phosphorylation, PP2A-B56 recruitment, silencing and alignment
+with pseudokinase alterations at matched kinetochore abundance. Arrest activation
+and timely checkpoint silencing test different functions; retain both assay and
+expression context rather than declaring the domain universally dispensable or
+every truncation useless. These differences offer a possible reconciliation,
+not a directly demonstrated explanation of the studies' different results.
+
+Test the actual 1–736 product at justified abundance for recruitment, spontaneous
+segregation, productive divisions and timely mitotic exit. Useful truncated
+function would support investigating transcript stabilization; impairment or
+interference would weaken that strategy. [Amlexanox](https://pmc.ncbi.nlm.nih.gov/articles/PMC3562214/)
+has reported NMD and readthrough effects in other systems, so it is not a selective
+NMD-only control or an established BUB1B rescue. Readthrough additionally requires
+identifying the produced sequence and its function. No compound is promoted from
+these class-level possibilities.
 
 ## 2. Qualify both mechanism hypotheses alongside each other
 
@@ -201,6 +240,15 @@ productive progenitor output; checkpoint challenge is an additional readout.
 Measure protein turnover and function at matched abundance rather than treating
 a stronger band as a corrected allele. Determine whether the truncated product
 helps, is inert or interferes; expression constructs may bypass endogenous NMD.
+
+The [PP2A-B56 structure](https://pmc.ncbi.nlm.nih.gov/articles/PMC4930772/)
+places K668 beside the core LxxIxE motif (L669–E674). K668A weakened binding modestly;
+it did not test K668 acetylation. Pair abundance/turnover measurements with
+BUBR1-normalized B56 association and kinetochore recruitment in matched mitotic
+preparations. Use paired lysates and imaging samples: a bulk lysate cannot measure
+kinetochore localization. Neither preservation of K668 nor recruitment alone
+establishes functional rescue; the SIRT2 stability link and phosphatase recruitment
+remain distinct hypotheses.
 
 If additional N1002K restores function, an abundance-limited route earns support.
 If expression-matched N1002K remains defective, quantity stabilization alone loses
@@ -427,6 +475,23 @@ does not establish measured renal impairment. These clinical-context gaps cannot
 be resolved by a tumor culture. Systemic growth, renal, hepatic, immune and
 interaction effects remain outside cell-assay inference. No treatment schedule
 or patient dose is inferred from the trials or labels.
+
+Keep regulatory statements indication-specific. The transplant product
+[ZORTRESS](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a&type=display)
+has a malignancy/infection boxed warning tied to immunosuppression. The
+AFINITOR/DISPERZ label does not carry that malignancy boxed warning and reports no
+apparent growth/puberty impairment among 115 pediatric patients treated for a
+median 4.1 years, with explicit limits from size and uncontrolled follow-up.
+Neither proves safety in MVA. Preserve infection, wound-healing, metabolic and
+functional-renewal concerns without declaring all chronic mTOR inhibition either
+prohibited or safe.
+
+[VAC contains vincristine](https://www.cancer.gov/about-cancer/treatment/drugs/vac),
+a microtubule-directed oncology agent. Declining a mitotic poison as a new muscle
+rescue lead does not establish that an indicated cancer regimen should be withheld.
+Review the genetic/functional findings with the actual tumor-treatment context;
+a normal result in one cell assay cannot cancel that review. This proposal supplies
+no genotype-directed chemotherapy dose change or clinical avoid-list.
 
 ### Decision outputs
 
