@@ -24,6 +24,11 @@ better-calibrated numerical estimate or contradiction requiring reversal of the 
 ranking; EPCR 0.8 and the research ranking remain declared judgments. Vimeo is on hold
 at the user's request pending review and possible recalibration.
 
+A text-only pitch proposal now states the N1002K abundance-rescue decision and explains
+why arimoclomol is the first drug priority and NAC a downstream comparator. The approved
+293-word narration is preserved in the same document; its movie and captions are unchanged.
+The proposed revision has not been recorded or approved, and Vimeo remains on hold.
+
 ## 20 September 2026 — historical source additions
 
 The sections below are the original release notes. Status, host names, version labels,

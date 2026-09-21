@@ -12941,7 +12941,7 @@
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
     "reviewed_at_utc": "2026-09-21T00:43:51.635162+00:00",
-    "scope": "36 exact payload files plus two self-referential audit documents; root-owned SOURCE-SNAPSHOT regeneration remains pending. This review performs no release, submission or scientific execution.",
+    "scope": "36 exact payload files plus two self-referential audit documents; the regenerated SOURCE-SNAPSHOT records the current selection. This review performs no release, submission or scientific execution.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12959,8 +12959,8 @@
     "reviewed_files": [
       {
         "path": "CHANGELOG.md",
-        "bytes": 12454,
-        "sha256": "e80ac29a84173c713a962492565ead7dfd20d1b63c63a956e8cdf4b7780ded9c",
+        "bytes": 12808,
+        "sha256": "b2e25410e565d8115a6ec67152912aab6b90bc6eebb5e619adc8c7ad2aae234f",
         "mode": 420,
         "decision": "keep",
         "category": "scope_and_reproduction_documentation",
@@ -12977,8 +12977,8 @@
       },
       {
         "path": "README.md",
-        "bytes": 6010,
-        "sha256": "0e6c450e5bd58e04a0485a7978b519e0f77f105835137aec05c2c1d2b803466a",
+        "bytes": 5999,
+        "sha256": "fc36ab8eb36b91f1a0151b0fb9657e63c3081d516e439fa05620794409b292d8",
         "mode": 420,
         "decision": "keep",
         "category": "scope_and_reproduction_documentation",
@@ -12995,8 +12995,8 @@
       },
       {
         "path": "reports/PROVENANCE.md",
-        "bytes": 6107,
-        "sha256": "2e666fe1679c4b05e5e56925c445acc4b26b07103814c22a99675dc48e34e3e1",
+        "bytes": 6473,
+        "sha256": "cbdc804eb5537cb37eb9821e34e27886d8174997eb332798bb1651ad9e56e6ca",
         "mode": 420,
         "decision": "keep",
         "category": "curated_report",
@@ -13004,8 +13004,8 @@
       },
       {
         "path": "reports/README.md",
-        "bytes": 4071,
-        "sha256": "7aec66998bfa26aba25ffbe46c320b1b1d575bf8c7cb008d35bb50cac3c49512",
+        "bytes": 4231,
+        "sha256": "1652812e6c87672252bc7d4120de7d3a5d3da632a98570b3f68ba16aec78fb24",
         "mode": 420,
         "decision": "keep",
         "category": "curated_report",
@@ -13166,8 +13166,8 @@
       },
       {
         "path": "reports/jeweled_track2_pitch_reconciled.md",
-        "bytes": 3747,
-        "sha256": "2077cb823f7c1ae3b053fde96cb0d4c4456f1f088049094cd9747a24aa36ca19",
+        "bytes": 7023,
+        "sha256": "eb077cf28feb7ce17e947011e76f0ffdb42cc47e0dbcffaff38c13ffb8c26f4e",
         "mode": 420,
         "decision": "keep",
         "category": "curated_report",
@@ -13339,10 +13339,10 @@
       {
         "path": "SOURCE-SNAPSHOT.json",
         "decision": "generalize",
-        "status": "root_regeneration_pending",
+        "status": "regenerated_and_payload_identities_verified",
         "baseline_sha256": "3638e0661088aeda8a69356c2d3dbdb6ac0a26f6a63ba62c485ec39de887e224",
         "final_sha256": null,
-        "grounds": "Regenerate after finalized selection; do not certify current stale bytes. Enclosing final Git commit binds the generated manifest."
+        "grounds": "Baseline pin and historical source mappings retained. Current release identities verified; the containing Git commit binds the generated manifest without a recursive self-hash."
       }
     ],
     "self_referential_files": [
@@ -13384,6 +13384,19 @@
       ],
       "scope": "Text-only corrections after adversarial review: endpoint name, conditional organizer scoring example and EPCR rationale. Same bounded findings and data-use categories; no new case payload, media, source execution or experimental result.",
       "decision": "Keep within the existing private revision."
+    },
+    "pitch_review_followup": {
+      "reviewed_at_utc": "2026-09-21T01:11:14.846140+00:00",
+      "paths": [
+        "CHANGELOG.md",
+        "README.md",
+        "reports/PROVENANCE.md",
+        "reports/README.md",
+        "reports/jeweled_track2_pitch_reconciled.md",
+        "workflow/docs/PUBLIC-RELEASE-AUDIT.md"
+      ],
+      "scope": "Proposed pitch text explains the existing abundance-rescue test and drug ranking, with current navigation and hold status. Approved narration is exactly preserved; no new case findings, data category, media, experiment or upload. Manifest status corrected after completed regeneration.",
+      "decision": "Keep within the existing private draft revision; the proposed narration is not recorded or approved."
     }
   }
 }

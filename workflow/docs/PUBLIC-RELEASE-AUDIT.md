@@ -59,7 +59,7 @@ The inventory's `final_delta` reviews **36 exact payload files**: 21 report file
 | Seven public-replay files, reproduction addition and public operational-status receipt | **Keep.** Inputs are public HG002/reference/truth/dependencies. The receipt distinguishes the running full Mac replay, bounded Linux smoke and final source hardening. This privacy assessment does not supply new runtime qualification or performance evidence. |
 | `LICENSE` | **Keep; baseline block resolved.** The additional event submission grant states CC BY 4.0 for owned submitted material alongside MIT for code, excludes controlled data/third-party resources and acknowledges bounded findings. |
 | Root README, CHANGELOG, component index, public benchmark method and saved public review | **Keep.** Current scope, history and public-versus-case evidence are distinguished; raw genomic exclusions remain. |
-| `SOURCE-SNAPSHOT.json` | **Regenerate.** Preserve its baseline pin and generate the final selection after this review. Its current stale bytes are not certified as final; root owns regeneration. |
+| `SOURCE-SNAPSHOT.json` | **Regenerated.** Its baseline pin and historical source mappings are preserved; current payload identities are verified in the release fields. The containing Git commit binds the generated snapshot without a recursive self-hash. |
 
 Each payload has an individual path, size, mode, SHA-256, category, decision and grounds. The two audit documents and generated snapshot are bound by the final Git commit without recursive self-hashes. Later additions or edits need a bounded delta review. No source sanitization, private-data deletion, new scientific control suite or public visibility change was performed.
 
@@ -69,7 +69,7 @@ The exact required acknowledgement appears in [report provenance](../../reports/
 
 A bounded unauthenticated lookup verified **[Rare Disease, Real Kid. The 2026 MVA Hackathon — syn76251147](https://www.synapse.org/Synapse:syn76251147/wiki/642892)** and the [Hugging Face dataset resource](https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data). The sole public Synapse wiki confirms 24 October 2026 close and the open-output/controlled-data distinction. It has no dedicated formatted dataset citation or DOI. Cite the verified project reference now and recheck the dataset reference supplied there at publication, as the rules require. Do not invent a DOI or impose one as an additional requirement. These links do not make the underlying case data public.
 
-The revision remains **private and unsubmitted**. Vimeo delivery, competition submission and Cartesia settings retain their disclosed pending/unverified status. This content review does not authorize public visibility, waive the organizer terms or turn limited findings into clinical conclusions.
+The revision remains **private and unsubmitted**. Vimeo is on hold at the user's request; competition submission is pending and Cartesia settings are unverified. This content review does not authorize public visibility, waive the organizer terms or turn limited findings into clinical conclusions.
 
 ### Scientific-review wording corrections
 
@@ -79,3 +79,9 @@ The same selected findings remain; no new case records, inputs or experimental r
 are added. The inventory updates the affected document identities. The CSV and drug
 ranking are unchanged; reviewer agreement does not establish probability calibration.
 Vimeo work is now on hold at the user's request pending review and possible recalibration.
+
+The pitch document now also includes a proposed narration explaining the existing N1002K
+abundance test and drug ranking. This adds no case findings or data category. The approved
+narration remains exact, and the movie/captions are unchanged. The text proposal is not a
+recording, approval, upload or new scientific result; its bytes and updated navigation are
+covered by the inventory's pitch follow-up.

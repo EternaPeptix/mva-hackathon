@@ -1,12 +1,12 @@
 # Report provenance and scope
 
-**Review revision: 21 September 2026.** This directory brings the revised research reports, methods answers, prediction CSV and unchanged approved narration into one browsable checkout. It is not a new competition submission, a public release or a new scientific run.
+**Review revision: 21 September 2026.** This directory brings the revised research reports, methods answers, prediction CSV, proposed pitch revision and unchanged approved narration into one browsable checkout. It is not a new competition submission, a public release or a new scientific run.
 
 ## Evidence scope
 
 The current [Track 1 report](jeweled_track1_report_submission.md), [Track 2 report](jeweled_track2_report_submission.md) and [methods form](jeweled_methods_form_answers.md), together with the [causal interpretation appendix](appendices/causal-interpretation.md), state the adopted interpretation. The subjective exact-pair EPCR is **0.8**. Its revision from 0.35 reflects reappraisal of the supplied clinical context and completed evidence, without new segregation or functional data. Unknown phase is retained; N1002K remains a VUS. No treatment response is claimed.
 
-The four report/script texts come from the current internal research documents. Only navigation was adapted for this layout, including an explicit label for the omitted detailed Track 2 revision. The methods form retains all 22 original question headings. The pitch's six narration sections retain the approved 24 caption segments and 293 words. This assembly does not add or alter the media.
+The report and script texts are synchronized with the current internal research documents; local navigation differs, including an explicit label for the omitted detailed Track 2 revision. The methods form retains all 22 original question headings. The pitch document preserves the approved six-section narration, 24 caption segments and 293 words, and adds a clearly separated text-only proposal after review identified missing explanation of the abundance test and drug ranking. This proposal is not recorded or approved and does not add or alter the media.
 
 The prediction CSV and its provenance are byte-identical to the revised internal export. The CSV SHA-256 is `40232aa87da1b498d44e73d82caf485aa390c7d02547bf4f817c557495cf1355`. Its one row is a manually reviewed research prediction, with phase unknown; the recorded builder checks establish format and reference compatibility, not clinical validation or private-truth accuracy.
 
@@ -22,7 +22,7 @@ The retained appendices describe their original dates and analysis scopes. State
 
 ## Media and AI disclosure
 
-The [private Lauren release](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) holds the approved movie and captions; no binaries are copied into this report directory. The narration remains scientifically consistent with the current report because it does not quote EPCR and presents drug effects as hypotheses. Vimeo delivery and competition submission are pending. Private GitHub attachment delivery is not public publication.
+The [private Lauren release](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) holds the approved movie and captions; no binaries are copied into this report directory. Its narration does not quote EPCR and presents drug effects as hypotheses, but underexplains the current report's lead mechanism and ranking. The proposed text revision addresses those presentation gaps. The old movie does not contain that text; no new narration or rendering has occurred. Vimeo is on hold at the user's request, and competition submission remains pending. Private GitHub attachment delivery is not public publication.
 
 Claude Code and Codex were used on personal subscriptions with training on the user's content disabled, according to the user's confirmation. Exact historical model/plan names are unverified. Candidate-level evidence and report text were reviewed with hosted assistants. Cartesia Sonic 3.6 supplied synthetic stock-Lauren narration; its plan/tier and training/retention settings are separately unverified. The Claude/Codex confirmation does not establish Cartesia settings.
 

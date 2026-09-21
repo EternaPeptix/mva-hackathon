@@ -12,7 +12,7 @@ The [one-row prediction CSV](jeweled_evidence-reconciled-v2.csv) records the cur
 
 ## Pitch and delivery
 
-The [canonical pitch script](jeweled_track2_pitch_reconciled.md) retains the approved 24 caption segments and 293 spoken words. The approved 180-second Lauren / Cartesia Sonic 3.6 movie and captions are [private GitHub release attachments](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920); access requires repository permission. Media binaries are not duplicated here. Vimeo upload and competition submission remain pending.
+The [pitch document](jeweled_track2_pitch_reconciled.md) contains a proposed text-only revision that states the abundance-rescue test and drug ranking, followed by the unchanged approved narration. The approved 180-second Lauren / Cartesia Sonic 3.6 movie and its 24 caption segments use the previous 293-word script and remain [private GitHub release attachments](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920); access requires repository permission. The proposed revision is not recorded or approved. Vimeo is on hold at the user's request; competition submission remains pending.
 
 Claude Code and Codex used personal subscriptions with training on the user's content disabled, as confirmed by the user. Cartesia plan/tier and training/retention settings remain unverified and are disclosed separately.
 

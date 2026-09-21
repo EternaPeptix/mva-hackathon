@@ -2,7 +2,7 @@
 
 Team **jeweled** asks whether a recessive BUB1B mechanism explains the supplied MVA case,
 and whether restoring usable BUBR1 protein could improve mitotic fidelity. Track 1's CSV
-and both research reports are prepared; competition submission and Vimeo delivery are pending.
+and both research reports are prepared; submission is pending and Vimeo is on hold.
 
 ## Start here
 
