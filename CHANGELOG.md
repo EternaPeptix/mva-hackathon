@@ -34,6 +34,11 @@ chr20 and 36.97× inside the confident BED at MAPQ≥20/BQ≥20, including zero-
 The existing method/result documents record exact aggregates and filtering. The descriptive
 measurement changes neither variant-comparison scores nor the case interpretation.
 
+The full public Mac replay then completed in 134.3 minutes, exactly reproducing the
+primary split-call counts and accounting audit over 82,589 truth records. Measured
+peak sampled memory was 5.31 GiB. Executed-source identity remains distinct from later
+launcher safeguards; full Linux chr20 execution is still unverified.
+
 ## 20 September 2026 — historical source additions
 
 The sections below are the original release notes. Status, host names, version labels,

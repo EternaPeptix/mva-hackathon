@@ -40,7 +40,8 @@ bash workflow/public-benchmark/run.sh /absolute/path/to/new-output
 
 The command downloads public inputs and runs both callers plus RTG vcfeval. See
 [requirements and actual platform verification](REPRODUCIBILITY.md#public-benchmark-quick-start).
-The earlier full caller run took about 116 minutes; controlled case data are separate.
+The full Mac Studio replay reproduced the primary counts in **134.3 minutes**, including
+downloads and setup; controlled case data are separate.
 
 ## Validation summary
 

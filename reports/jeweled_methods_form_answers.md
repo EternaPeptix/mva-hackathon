@@ -78,7 +78,7 @@ The separate nuclear-mixture estimator returned a boundary value of 0.0 after 37
 
 ### Please provide an estimate of run time and cost for your approach (if possible).
 
-No validated end-to-end runtime or consolidated compute, electricity, subscription or labor cost was measured. Stage timings have different boundaries and cannot be summed reliably. The earlier public chr20 caller run took approximately 116 minutes; that is a benchmark-stage result, not this case's full analysis time. Mac Studios performed the current genome work. Prospective resource ceilings and assay-capacity estimates are planning values.
+No validated end-to-end runtime or consolidated compute, electricity, subscription or labor cost was measured for the case analysis. A separate fresh public HG002 chr20 replay completed in 134.3 minutes, including downloads, setup, both callers, comparison and audit, with 5.31 GiB peak sampled process-group memory. It exactly reproduced the historical primary counts and audit partitions. The older 116-minute measurement covered calling only. These public timings are not the case's full analysis time or guarantees for other machines. Mac Studios performed the current genome work. Prospective resource ceilings and assay-capacity estimates are planning values.
 
 ### Provide a method abstract (up to 500 words). Please include strengths and limitations of your method as well as methodological detail.
 

@@ -22,15 +22,19 @@ requirement and does not copy historical performance numbers into a new result.
 
 Choose a new output tree outside the clone. Public data total 2.15 GB, with about
 another 1 GB for runtime archives; plan 15–25 GiB working storage and at least
-40 GiB free. Historical calling took about 116 minutes, excluding downloads and
-preparation; another host's runtime is unmeasured. The default two-worker run has
+40 GiB free. The full Mac Studio replay took 134.3 minutes, including downloads,
+setup, calling, comparison and audit; another host's runtime is unmeasured. The default two-worker run has
 a six-hour, 32-GiB sampled group-memory and 30-GiB output guard. Only its own
 process group is controlled. Linux x86-64/aarch64 and macOS arm64 have separate
 package locks; package resolution alone does not establish execution on Linux.
 The [replay guide](workflow/public-benchmark/README.md) gives exact scope,
 prerequisites, limits, output locations and a clearly labelled controls-only mode.
 
-As of 21 September 2026, the new full macOS arm64 replay is running after verified public downloads, reference preparation and twelve passing RTG controls. Linux x86-64 under QEMU completed the pinned environment, all twelve controls, and actual GATK/bcftools calling plus both RTG comparisons on a predefined public 100-kb interval. That is an operational smoke, not a full Linux chromosome benchmark. Linux aarch64 has a resolved lock only. The final launcher adds shell-safe Java-path quoting and inherited-JVM-option sanitation after the Mac run started; its launched source remains recorded separately. The [current platform record](results/public-benchmark-replay-20260921.json) distinguishes these stages and retained compatibility failures.
+On 21 September 2026, the full macOS arm64 replay completed with exit 0 after downloads, setup, twelve existing RTG controls, both callers, comparisons and accounting audit. It exactly reproduced the original primary split-call counts and audit partitions over 82,589 scored truth records. Total wall time was 8,057.14 seconds (134.3 minutes), with peak sampled process-group memory 5.31 GiB and output files 12.65 GiB. These are observations from one run, not resource guarantees.
+
+Linux x86-64 under QEMU completed the pinned environment, all twelve controls, and actual GATK/bcftools calling plus both RTG comparisons on a predefined public 100-kb interval. Full Linux chr20 replay remains unverified; Linux aarch64 has a resolved lock only.
+
+The final launcher adds shell-safe Java-path quoting and inherited-JVM-option sanitation after the Mac run started. Those safeguards received separate syntax/path checks; the complete run proves the recorded launched source, not full execution of the final hardened launcher. Scientific helper bodies and settings are unchanged. The [platform record](results/public-benchmark-replay-20260921.json) retains the executed/final source identities and terminal evidence.
 
 ## Historical authorized-case workflow (Apple Silicon)
 

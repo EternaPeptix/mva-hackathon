@@ -12959,8 +12959,8 @@
     "reviewed_files": [
       {
         "path": "CHANGELOG.md",
-        "bytes": 13165,
-        "sha256": "7463af42f7d7bb67ebb5585c8a0b6762626d3ddf004453ab14ed426888562c6b",
+        "bytes": 13489,
+        "sha256": "cdcd1231382213f704d239043192a574373f49095ff6ad4528028365f2756122",
         "mode": 420,
         "decision": "keep",
         "category": "scope_and_reproduction_documentation",
@@ -12977,8 +12977,8 @@
       },
       {
         "path": "README.md",
-        "bytes": 6112,
-        "sha256": "5a308d5b5285003233f1c861ad201e92d037eaef49d08d870c6af3a3c6b3197c",
+        "bytes": 6170,
+        "sha256": "7157c031a0ab97328dfbd1d52d159adfa46690ee61a79a7b8ec3594b69fd1fe9",
         "mode": 420,
         "decision": "keep",
         "category": "scope_and_reproduction_documentation",
@@ -12986,8 +12986,8 @@
       },
       {
         "path": "REPRODUCIBILITY.md",
-        "bytes": 55455,
-        "sha256": "18fe22e35b0aedf0305515d6944fe197d1bbf05a4dc57eb47bc1c224bfed514d",
+        "bytes": 55944,
+        "sha256": "8677e7420853836f9481fad5f26eef6e0cd9decb84ec696c575e679997201d79",
         "mode": 420,
         "decision": "keep",
         "category": "scope_and_reproduction_documentation",
@@ -13004,8 +13004,8 @@
       },
       {
         "path": "reports/README.md",
-        "bytes": 4231,
-        "sha256": "1652812e6c87672252bc7d4120de7d3a5d3da632a98570b3f68ba16aec78fb24",
+        "bytes": 4383,
+        "sha256": "a35873320b5cbb88dfd84f0b1bb757e7b61c019d84554843da749cfc99fa4a73",
         "mode": 420,
         "decision": "keep",
         "category": "curated_report",
@@ -13148,8 +13148,8 @@
       },
       {
         "path": "reports/jeweled_methods_form_answers.md",
-        "bytes": 19235,
-        "sha256": "0097bef7d67db97169d15362bc30c86d45702de7ac8df65ecc2bcaabb630f0f2",
+        "bytes": 19454,
+        "sha256": "d9464e61d8f8374fc91f84664e62a3d91850bd2beb9a821d2582609cec71da13",
         "mode": 420,
         "decision": "keep",
         "category": "curated_report",
@@ -13184,8 +13184,8 @@
       },
       {
         "path": "results/INDEX.md",
-        "bytes": 15756,
-        "sha256": "30cc0b9016ceeb864b68209eb9e67b58ee20ec0c112ed7f440106772c7a7eab0",
+        "bytes": 15801,
+        "sha256": "5192a109165b287e6dae37497453f3a168d9550efdc589eba78477753a14043b",
         "mode": 420,
         "decision": "keep",
         "category": "scope_and_reproduction_documentation",
@@ -13193,12 +13193,12 @@
       },
       {
         "path": "results/public-benchmark-replay-20260921.json",
-        "bytes": 4049,
-        "sha256": "9dd8c01cef22601b0ce7277b3e3f8fc9dadb93ad236611a3ae6acc5d4f806e5c",
+        "bytes": 10971,
+        "sha256": "d6a6d751b3913bc981bdae8f53a9f5a00b6f5a04f918d77368e3799d81bab505",
         "mode": 420,
         "decision": "keep",
         "category": "public_operational_summary",
-        "grounds": "Public-only platform/status/source/control metadata; full Mac replay pending and Linux smoke scope explicit; no case data or raw public variant payload."
+        "grounds": "Public-only terminal counts, audit agreement, resources and source identities; completed launched Mac source, bounded Linux checks and final launcher safeguards distinguished; no case data or raw public variant payload."
       },
       {
         "path": "results/public-small-variant-review-20260921.json",
@@ -13211,8 +13211,8 @@
       },
       {
         "path": "workflow/docs/PUBLIC-BENCHMARK-METHOD.md",
-        "bytes": 8850,
-        "sha256": "1219b9a69f9ed0bc97db3d0745b57300a062f6f48b83e81d4fd62def08fd077e",
+        "bytes": 9285,
+        "sha256": "184aa35690a58a06dcfb792e1f6d5e59da90881f50f92d84d9a09e125115e57a",
         "mode": 420,
         "decision": "keep",
         "category": "scope_and_reproduction_documentation",
@@ -13220,8 +13220,8 @@
       },
       {
         "path": "workflow/public-benchmark/README.md",
-        "bytes": 8209,
-        "sha256": "42ad24b09d225edfa90281943f5bb2f497d2971a05e29f17bc68eb345e6e3ee7",
+        "bytes": 8730,
+        "sha256": "39820b01361d6a7699714a1cbcea907b5cdc35fc04e1ea19c183a345d90a587c",
         "mode": 420,
         "decision": "keep",
         "category": "public_replay_source",
@@ -13413,6 +13413,23 @@
       ],
       "scope": "Measured public HG002 depth aggregates and exact definitions, with a portable reproduction example, integrated into existing method/results/reports. No new case findings or per-base payload. The separate full calling/comparison replay remains pending.",
       "decision": "Keep public-data aggregates and method text within the current private revision."
+    },
+    "replay_completion_followup": {
+      "reviewed_at_utc": "2026-09-21T02:40:01.731262+00:00",
+      "paths": [
+        "CHANGELOG.md",
+        "README.md",
+        "REPRODUCIBILITY.md",
+        "reports/README.md",
+        "reports/jeweled_methods_form_answers.md",
+        "results/INDEX.md",
+        "results/public-benchmark-replay-20260921.json",
+        "workflow/docs/PUBLIC-BENCHMARK-METHOD.md",
+        "workflow/docs/PUBLIC-RELEASE-AUDIT.md",
+        "workflow/public-benchmark/README.md"
+      ],
+      "scope": "Completed public HG002 Mac replay: terminal status, primary split-call counts and audit agreement, measured runtime/resources and executed-source identities added to existing documentation and public status. Full Linux execution remains unverified and final launcher safeguards retain separate syntax/path verification. No new case payload, control suite, media or drug experiment.",
+      "decision": "Keep public-data aggregates and execution summary within the existing private draft revision; Vimeo remains on hold."
     }
   }
 }

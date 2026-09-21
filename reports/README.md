@@ -18,7 +18,7 @@ Claude Code and Codex used personal subscriptions with training on the user's co
 
 ## Methods and retained appendices
 
-The [public benchmark method](../workflow/docs/PUBLIC-BENCHMARK-METHOD.md) states the HG002 chromosome-20 scope, confident-region evaluation and separate SNV/indel results. [Reproduction documentation](../REPRODUCIBILITY.md) describes the archived source and prerequisites; it does not promise that historical case runs can execute from this checkout alone.
+The [public benchmark method](../workflow/docs/PUBLIC-BENCHMARK-METHOD.md) states the HG002 chromosome-20 scope, measured coverage, confident-region evaluation and separate SNV/indel results. A fresh full Mac Studio replay reproduced the primary counts and audit in 134.3 minutes; [reproduction documentation](../REPRODUCIBILITY.md) distinguishes that executed source from later launcher safeguards and limited Linux checks. Historical case runs still require authorized data and their recorded prerequisites.
 
 The following twelve appendices preserve dated method detail. Their original results or proposed experiments remain useful, but historical status and interpretation statements do not override the current reports.
 

@@ -1,22 +1,215 @@
 {
   "schema": "public-benchmark-portability-status-v1",
-  "recorded_at": "2026-09-21T00:39:03.317924+00:00",
+  "recorded_at": "2026-09-21T02:30:58.937373+00:00",
   "public_only": true,
   "default_command": "bash workflow/public-benchmark/run.sh ../hg002-public-replay",
   "scope": "Prealigned public HG002 chr20 calling/comparison component, not FASTQ/whole-genome/clinical validation",
   "native_mac": {
-    "status": "full_replay_running",
+    "status": "full_replay_complete",
     "platform": "macOS arm64 Mac Studio",
     "started_at": "2026-09-21T00:13:33.026378+00:00",
     "RTG_controls_passed": 12,
     "public_input_downloads_verified": true,
     "reference_preparation_complete": true,
-    "calling_status": "26 of27 contig shards complete; chr20 shard is still running. Shard fraction is not workload fraction.",
-    "full_result_available": false,
+    "calling_status": "All 27 reference-contig shards completed; mapped public reads occur only on chr20.",
+    "full_result_available": true,
     "launched_source": {
       "run.sh": "b707bf9b3fb21d91c512f800716c0ff8a0db48c6a3dc6bc6db81f7ac214bccf8",
       "replay.py": "00b7cebea73c69a4d9e3bca4b7bd0078acc94e466e2c2d4bf46171045fd572fb"
-    }
+    },
+    "completed_at": "2026-09-21T02:27:50.318226+00:00",
+    "exit_code": 0,
+    "elapsed_seconds": 8057.136357875001,
+    "peak_sampled_group_rss_bytes": 5700075520,
+    "peak_sampled_output_bytes": 13585350474,
+    "limits": {
+      "seconds": 21600,
+      "rss_bytes": 34359738368,
+      "output_bytes": 32212254720,
+      "minimum_free_bytes": 42949672960
+    },
+    "limits_are_sampled_not_instantaneous": true,
+    "original_handle_exit_code": 0,
+    "no_owned_processes_remained_at_terminal_check": true,
+    "primary_split_comparison": {
+      "normalization": "Frozen primary bcftools norm -m -any representation; post-observation unsplit sensitivity is separate.",
+      "counts": {
+        "gatk": {
+          "tp_baseline": 81849,
+          "tp_calls": 82341,
+          "fp": 1223,
+          "fn": 740,
+          "truth_records": 82589,
+          "call_records": 83564,
+          "recall": 0.991039969003136,
+          "precision": 0.9853645110334593
+        },
+        "bcftools": {
+          "tp_baseline": 81174,
+          "tp_calls": 81644,
+          "fp": 1786,
+          "fn": 1415,
+          "truth_records": 82589,
+          "call_records": 83430,
+          "recall": 0.9828669677559966,
+          "precision": 0.9785928323145152
+        }
+      },
+      "identical_scored_truth_universe_between_callers": true,
+      "exact_count_dictionary_agreement_with_historical_primary": true,
+      "historical_comparison": {
+        "path": "results/germline-public-comparison-20260919.json",
+        "bytes": 19670,
+        "sha256": "404869d8e0f75440653aec84d570da97e8e61132f2ec70d07c70ab4830d931bb"
+      },
+      "post_observation_unsplit_sensitivity_substituted": false
+    },
+    "record_accounting_audit": {
+      "exit_code": 0,
+      "scored_truth_records": 82589,
+      "truth_partitions": {
+        "matched_both": {
+          "records": 81090,
+          "record_classes": {
+            "snv": 70811,
+            "indel": 10255,
+            "mixed": 24
+          }
+        },
+        "gatk_only": {
+          "records": 759,
+          "record_classes": {
+            "indel": 679,
+            "snv": 76,
+            "mixed": 4
+          }
+        },
+        "bcftools_only": {
+          "records": 84,
+          "record_classes": {
+            "snv": 65,
+            "indel": 19
+          }
+        },
+        "missed_both": {
+          "records": 656,
+          "record_classes": {
+            "snv": 381,
+            "indel": 274,
+            "mixed": 1
+          }
+        }
+      },
+      "matched_by_at_least_one_caller": {
+        "records": 81933,
+        "fraction_of_scored_truth": 0.9920570536027801,
+        "is_validated_merged_callset": false,
+        "merged_precision": null
+      },
+      "exact_agreement_fields_with_historical_audit": [
+        "scored_truth_records",
+        "truth_partitions",
+        "matched_by_at_least_one_caller",
+        "output_diagnostics"
+      ],
+      "all_listed_fields_equal": true,
+      "historical_audit": {
+        "path": "results/germline-public-comparison-audit-20260919.json",
+        "bytes": 36613,
+        "sha256": "b6fb8fd68aaf1eb35e2dcd26eb6615e949473f24444146c5a62cdcb3f4b78d53"
+      },
+      "scope_limit": "Technical record-accounting replay of the same public comparison; not independent clinical validation, a validated merged callset, or a different matching algorithm."
+    },
+    "retained_terminal_evidence": [
+      {
+        "path": "status.json",
+        "bytes": 859,
+        "sha256": "cd8bfd70efbdd99f57f510965d7ca1d49538af0972724955dc8898e8922e00ab"
+      },
+      {
+        "path": "summary.json",
+        "bytes": 2792,
+        "sha256": "dbc354d1b013cb591fab7d10419e941a98b69098f4288758293d0dd3d49fd516"
+      },
+      {
+        "path": "comparison/summary.json",
+        "bytes": 20799,
+        "sha256": "aa17bfeb19655f1715b85c5224d75870c3c73acaed814a876d7d9a19f70e36ff"
+      },
+      {
+        "path": "audit/summary.json",
+        "bytes": 36970,
+        "sha256": "5ba03e6c77748c1c0c872fd996300c8d870506566c0b285862efeb497d7c3b66"
+      },
+      {
+        "path": "pilot/calls/status.json",
+        "bytes": 1726,
+        "sha256": "7e4563611bdeb643854d07b9182da28debe04accd742ba803e12a5499643ba7d"
+      },
+      {
+        "path": "input-receipt.json",
+        "bytes": 2973,
+        "sha256": "df28260e0c3a5640d9942c8a8c95f258057e5fbcc9463deb43db744ed0736aa4"
+      },
+      {
+        "path": "source-provenance.json",
+        "bytes": 2966,
+        "sha256": "dc22f42172f3969098c9f97cac39683eb7cf631f9619ef9d248676c6d3f16170"
+      },
+      {
+        "path": "portable-runtime.json",
+        "bytes": 1264,
+        "sha256": "1324664e3067d7435840c51e877990c1bb866c16a720cea2c215074745174442"
+      },
+      {
+        "path": "logs/audit-public-record-accounting.command.json",
+        "bytes": 607,
+        "sha256": "db5fa38a4be2c4d0f853d94eb4a13fce24eb0494c1c825be3a4a954c56acd270"
+      }
+    ],
+    "retained_terminal_evidence_path_scope": "Paths identify files relative to the separately retained native-public-replay-v2 run tree; raw caller/comparison outputs are not embedded in this source-only status record.",
+    "verified_repository_source_files": [
+      {
+        "path": "workflow/scripts/call_genome.py",
+        "bytes": 13652,
+        "sha256": "5af91153e9926b0d8b985d0575b0a6ef51e1496d16ff3614c4cb4d8b2b4ac358"
+      },
+      {
+        "path": "workflow/scripts/prepare_public_small_variant_benchmark.py",
+        "bytes": 8792,
+        "sha256": "b27447fcb7e81882d88a4f8db0f4318a151395bea69591cc6a3082bd029f44dd"
+      },
+      {
+        "path": "workflow/scripts/probe_rtg_comparator.py",
+        "bytes": 6627,
+        "sha256": "a047e76451866e8ebf202189e198286102c265379ec9f08d70fbc95eea50d709"
+      },
+      {
+        "path": "workflow/scripts/compare_public_small_variants.py",
+        "bytes": 9144,
+        "sha256": "9a675ce4ed80b39fdd58aefbccf7bf04256bbb39e06420731224ffdccb132a51"
+      },
+      {
+        "path": "workflow/scripts/rtg_small_variant_helpers.py",
+        "bytes": 6199,
+        "sha256": "5091f56222ff3f31303e9effa10d4033b8ec14bd12026095569856eefd1906c5"
+      },
+      {
+        "path": "workflow/scripts/build_structural_exclusions.py",
+        "bytes": 10408,
+        "sha256": "fec839f21855949af0bc3e2030cbc062e57297139f6971feacf08f9e3daee5f8"
+      },
+      {
+        "path": "workflow/scripts/audit_public_small_variants.py",
+        "bytes": 11012,
+        "sha256": "f843f496c2112ca30b807bbccce1ddd0190d718a6d8d007f063a5e92315bcbc7"
+      },
+      {
+        "path": "workflow/configs/public-small-variant-comparison.json",
+        "bytes": 2870,
+        "sha256": "628e04cfd7e5d2385a59043555221eaa1393fd6151b72d2e614bf67475994007"
+      }
+    ]
   },
   "linux_x86_64": {
     "status": "bounded_operational_checks_passed",
@@ -75,5 +268,5 @@
     "RTG Java path now uses literal shell quoting.",
     "Inherited JVM options sanitized on all platforms; explicit Linux ZIP-I/O option retained."
   ],
-  "qualification_limit": "The final launcher safety edits received syntax and literal-path checks; historical scientific helper bodies and settings were not changed or requalified. Full native replay continues on its recorded launched source; no full replay claim is made for final hardened bytes."
+  "qualification_limit": "The full native replay completed on the recorded launched source, including both callers, primary split RTG comparisons, accounting audit and final input/helper integrity checks. The later final launcher safety edits received syntax and literal-path checks; no full replay is claimed for the final hardened launcher bytes. Historical scientific helper bodies and settings were unchanged. Linux verification remains the separately described bounded operational smoke, not a full chromosome replay."
 }

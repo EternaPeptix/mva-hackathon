@@ -56,7 +56,7 @@ The inventory's `final_delta` reviews **36 exact payload files**: 21 report file
 |---|---|
 | Four current report/script texts, revised one-row CSV and small provenance, two report navigation/provenance files | **Keep.** Selected findings, methods, research prediction, proposed experiments and disclosures are permitted output categories. The technical sample label and nominated pair remain explicitly case-derived; no claim of anonymity, raw-record inclusion or clinical validation is made. |
 | Twelve dated appendices and current causal-interpretation appendix | **Keep.** Bounded candidate findings, aggregate coverage/mixture summaries, public resource/benchmark results and prospective methods. Per-marker pileups, large interval arrays and native genotype streams remain omitted. Current interpretation is distinguished from dated method detail. |
-| Seven public-replay files, reproduction addition and public operational-status receipt | **Keep.** Inputs are public HG002/reference/truth/dependencies. The receipt distinguishes the running full Mac replay, bounded Linux smoke and final source hardening. This privacy assessment does not supply new runtime qualification or performance evidence. |
+| Seven public-replay files, reproduction addition and public operational-status receipt | **Keep.** Inputs are public HG002/reference/truth/dependencies. The receipt distinguishes the completed full Mac replay, bounded Linux smoke and final source hardening. Runtime qualification comes from the recorded execution; this privacy assessment does not add it. |
 | `LICENSE` | **Keep; baseline block resolved.** The additional event submission grant states CC BY 4.0 for owned submitted material alongside MIT for code, excludes controlled data/third-party resources and acknowledges bounded findings. |
 | Root README, CHANGELOG, component index, public benchmark method and saved public review | **Keep.** Current scope, history and public-versus-case evidence are distinguished; raw genomic exclusions remain. |
 | `SOURCE-SNAPSHOT.json` | **Regenerated.** Its baseline pin and historical source mappings are preserved; current payload identities are verified in the release fields. The containing Git commit binds the generated snapshot without a recursive self-hash. |
@@ -90,3 +90,8 @@ The measured-depth addition uses only the already selected public HG002 BAM and 
 regions. It adds aggregate depth sums/counts, explicit filters and a reproduction example
 to existing files. No per-base output or additional case finding is included; this does not
 establish completion of the separate full calling/comparison replay.
+
+The later terminal record establishes full public Mac replay completion, exact primary
+count/audit agreement and measured resource use. Only public aggregate results and
+execution identities are added to the existing status/documentation. Final launcher
+safeguards and limited Linux checks retain their separate verification scope.
