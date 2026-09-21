@@ -12,9 +12,11 @@ fact or an automatic inference from genotype.
 **Arimoclomol is a restoration-specific reserve; dasatinib is a reserve requiring
 harmful senescent burden and selective susceptibility.** Senolysis has the
 strongest same-gene organismal functional precedent considered, but its approved
-drug implementation remains unresolved. Both core hypotheses require model,
-exposure and mechanism qualification; neither waits for the other to fail.
-[Current proposal](../jeweled_track2_report_submission.md).
+drug implementation remains unvalidated. Qualify whether senescent cells cause
+harm in parallel with the two core hypotheses; this does not promote a senolytic
+drug to the lead. All require model, exposure and mechanism qualification;
+none waits for another to fail. [Current proposal](../jeweled_track2_report_submission.md)
+and [full alternative-route audit and promotion triggers](track2-route-decisions.md).
 
 Candidate reconstruction, population sensitivity calculations and a secondary
 mouse RNA analysis are completed. No patient-cell, drug-exposure or functional
@@ -54,13 +56,14 @@ flowchart TD
     G[Candidate allele pair; phase unresolved] --> A[Qualify model, allele products and functional deficit]
     A --> M[Qualify mTORC1 excess and causal normalization]
     A --> R[Qualify precursor use and BUBR1 rescue competence]
+    A --> Q[Qualify a causal harmful senescent population]
     M --> E[Everolimus lead: separate exposure and mechanism test]
     R --> N[Niacin challenger: separate exposure and mechanism test]
     E --> F[Absolute useful muscle output; preserved renewal; no worse fidelity]
     N --> F
     F --> C[Independent confirmation and tumor/regimen assessment]
     R -. restoration-specific reserve .-> H[Arimoclomol]
-    A -. harmful burden and susceptibility .-> S[Dasatinib reserve]
+    Q -. selective drug susceptibility .-> S[Dasatinib reserve]
     H --> F
     S --> F
 ```
@@ -378,8 +381,9 @@ senescence. The study tested no drug. It supports measuring the myogenic defect
 and harmful senescent burden separately instead of assigning every BUB1B defect
 to a senolytic-responsive population.
 
-**Senolysis:** qualify harmful senescent-cell burden alongside restoration tests;
-this route need not wait for restoration to fail. Dasatinib monotherapy is a
+**Senolysis:** qualify whether a senescent-cell population causes harm alongside
+mTORC1 and restoration tests; this route need not wait for either to fail.
+Dasatinib monotherapy is a
 conditional reserve: [fat-cell progenitor activity](https://pubmed.ncbi.nlm.nih.gov/25754370/)
 does not establish selective susceptibility or function in muscle-supporting cells.
 Arimoclomol is the restoration-specific reserve, without demonstrated superiority
@@ -388,12 +392,33 @@ progenitor/myogenic cocultures, use a selective-clearance reference and track bo
 populations, replacement and absolute muscle output to distinguish useful removal
 from nonspecific killing. A lower senescence-marker fraction cannot pass alone.
 
+[Dungan 2022](https://pubmed.ncbi.nlm.nih.gov/34904366/) found that D+Q improved
+selected physical-function and injury-regeneration outcomes in old mice but
+blunted regeneration in young mice. Marker-positive cells in young injured
+muscle showed reparative macrophage characteristics. Therefore, distinguish a
+persistent harmful population from a transient repair response, and require
+preserved regeneration after clearance. Neither age nor a positive marker alone
+establishes susceptibility or harm in the affected model.
+
 The [same-model D+Q patent evidence](https://patents.google.com/patent/WO2015116735A1/en)
 is marker-level evidence, not functional rescue or dasatinib-alone efficacy.
 The [competition rules](https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/blob/main/tabs/about.py)
-do not expressly require an approved regimen; D+Q eligibility
-is unresolved because quercetin lacks an established approved-drug status here.
-Retain D+Q as an experimental comparator, not a clearly eligible nomination.
+do not expressly require an approved regimen or a US-only approval. The
+[manufacturer lists QUERTIN (quercetin 40 mg) as a Ukrainian medicinal product](https://bcpp.com.ua/product/kvertin)
+with prescribing instructions; current regulator status and the nominated
+formulation/jurisdiction have not been independently verified for this submission.
+Do not describe quercetin as globally unapproved. Retain D+Q as an experimental
+comparator pending that eligibility check and its separate functional/selectivity
+qualification; product approval would not validate a senolytic regimen for MVA.
+
+The [full route audit](track2-route-decisions.md) records alternatives without
+adding confirmatory drug arms here. Three findings sharpen their current gates:
+
+| Route | Evidence that changes its gate |
+|---|---|
+| **Hydroxychloroquine / autophagy blockade** | The [HCQ label, §5.8](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e5fe2ece-40a1-49eb-818f-62ff3c3bb199) reports skeletal myopathy with progressive proximal weakness and atrophy. Reconsideration requires exposure-qualified absolute functional rescue with preserved lysosomal and muscle function; increased BUBR1 abundance or selective cell loss alone cannot pass. This weighs against an HCQ lead, without establishing an MVA-specific contraindication. |
+| **N-acetylcysteine** | A [33-participant randomized RYR1-myopathy trial](https://doi.org/10.1212/WNL.0000000000008872) found no significant improvement in its oxidative-stress endpoint or six-minute walk distance after six months. This different-disease result does not exclude a BUB1B mechanism, but a measured redox abnormality alone cannot promote NAC: require causal redox injury and useful tissue rescue at justified exposure. |
+| **IGF-1 / mecasermin** | The [INCRELEX label, §4, revised July 2025](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a8b27a1b-a611-4f91-ad22-76d4b390c3ae) contraindicates use in pediatric patients with malignant neoplasia or a history of malignancy. The recorded RMS history therefore excludes a patient-directed mecasermin nomination here; a laboratory growth-factor response cannot override that restriction. Growth hormone is a separate route and must not inherit this exact contraindication. |
 
 ## 6. Confirmation and decision outputs
 

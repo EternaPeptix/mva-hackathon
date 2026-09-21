@@ -14,7 +14,7 @@ could a gene-informed medication hypothesis preserve muscle function and the cel
   **Track 1 model 1 scored 100 rank points and F-max 1.000 on 21 September.**
   [Submission record](reports/README.md#track-1-submission-record) distinguishes the
   confirmed score from the pending final report-persistence check. Track 2 submission
-  and media/Vimeo remain on hold; no drug experiment has run.
+  awaits human review of a new Skylar pitch; no drug experiment has run.
 
 ## Start here
 
@@ -96,7 +96,7 @@ simulated drug ranking or clinical-benefit claim.
 The [proposal](reports/jeweled_track2_report_submission.md) and
 [evidence pipeline](reports/appendices/track2-evidence-pipeline.md) explain the
 qualitative selection, exposure gate, absolute-output endpoints and rhabdomyosarcoma counter-screen.
-The [unelected-route table](reports/jeweled_track2_report_submission.md#other-routes-considered-and-not-selected-as-the-lead) explains alternatives and weaknesses.
+The [unelected-route table](reports/appendices/track2-route-decisions.md) explains alternatives and weaknesses.
 The [genome-informed model](workflow/track2-model/README.md) separates sequence reconstruction
 from assumption-based population scenarios; it does not predict drug response. No drug experiment
 has run, and neither chromosome correction nor clinical efficacy is claimed.
@@ -115,5 +115,5 @@ documented defects and submission delivery before **24 October 2026**.
 The repository remains private; curated findings are included, raw reads and genome-scale case
 payloads are excluded. [Release review](workflow/docs/PUBLIC-RELEASE-AUDIT.md) records decisions.
 Claude Code/Codex used personal subscriptions with training disabled (user-confirmed). Narration
-uses Cartesia Sonic 3.6/Lauren; Cartesia account settings remain unverified. See [LICENSE](LICENSE),
+uses Cartesia Sonic 3.6/Skylar on the Free plan; its training/retention settings remain unverified. See [LICENSE](LICENSE),
 [required attribution and dataset citation status](reports/PROVENANCE.md#acknowledgement), and [CHANGELOG](CHANGELOG.md).

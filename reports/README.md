@@ -1,6 +1,6 @@
 # jeweled — current research reports
 
-**Revised 21 September 2026.** Track 1 model 1 has a confirmed automated score; its final report-persistence check is pending as detailed below. Track 2 remains a review draft. No clinical sign-out has occurred. The repository and approved media remain private; Vimeo remains on hold.
+**Revised 21 September 2026.** Track 1 model 1 has a confirmed automated score; its final report-persistence check is pending as detailed below. Track 2 remains a review draft. No clinical sign-out has occurred. The repository remains private; the new Skylar pitch awaits human review before public upload.
 
 ## Track 1 submission record
 
@@ -38,9 +38,11 @@ The completed [public mouse RNA analysis](../workflow/track2-rna/README.md) did 
 
 ## Pitch and delivery
 
-The [pitch document](jeweled_track2_pitch_reconciled.md) contains a proposed text-only revision explaining the everolimus/niacin comparison and decisive experiments, followed by the unchanged approved narration. The approved 180-second Lauren / Cartesia Sonic 3.6 movie and its 24 caption segments use the previous 293-word arimoclomol/NAC script and remain [private GitHub release attachments](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920); access requires repository permission. That recording does not present the current everolimus/niacin comparison. The proposed revision is not recorded or approved. Media work and Vimeo are on hold at the user's request; Track 2 submission remains pending.
+The [current pitch](jeweled_track2_pitch_reconciled.md) is a new eight-slide, three-minute Skylar recording for the everolimus/niacin comparison. It replaces the earlier Lauren arimoclomol/NAC version as the proposed submission video. The old private release is archival. The new deck, movie and captions are prepared locally for human review; no new public video upload or Track 2 submission is claimed.
 
-Claude Code and Codex used personal subscriptions with training on the user's content disabled, as confirmed by the user. Cartesia plan/tier and training/retention settings remain unverified and are disclosed separately.
+The [route decisions](appendices/track2-route-decisions.md) compare the alternatives and specify the result that would change each decision. A fresh reviewer with no conversation context checked the report and pitch against the official rubric. The revised main report explains the proposal in plain language; detailed experimental and source qualifications remain in appendices.
+
+Claude Code and Codex used personal subscriptions with training disabled, as confirmed by the user. Cartesia Sonic 3.6/Skylar uses the Free plan, verified on 21 September; its training/retention settings remain unverified. The cover is an AI-generated conceptual illustration.
 
 ## Standalone report files
 
@@ -58,7 +60,7 @@ commit), changes relative file links to GitHub links pinned to that revision,
 and adds a source header. Report prose and external citations are preserved;
 the CSV is copied byte for byte. Uncommitted edits are not exported. The command
 does not upload files, change repository visibility or grant access to private
-links. The current pitch recording still needs reconciliation before submission.
+links. Human review of the new pitch and a public video URL are still required before submission.
 
 ## Methods and retained appendices
 

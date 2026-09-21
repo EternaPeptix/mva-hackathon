@@ -1,6 +1,6 @@
 # Report provenance and scope
 
-**Review revision: 21 September 2026.** This directory brings the revised research reports, methods answers, prediction CSV, proposed pitch revision and unchanged approved narration into one browsable checkout. The update retains the genome-informed sequence/population analysis and selects everolimus as the lead drug hypothesis and niacin as the primary comparator after comparative evidence review. The repository remains private. Track 1 model 1 now has a confirmed automated score; the [submission record](README.md#track-1-submission-record) identifies the exact upload and pending final report-persistence verification. Track 2 remains a draft; no public repository release has occurred. The public HG002 depth measurement, sequence reconstruction and assumption-based simulations are distinct from patient experiments; no patient drug-response result is available.
+**Review revision: 21 September 2026.** This directory brings the revised research reports, methods answers, prediction CSV, new Skylar pitch text into one browsable checkout. The update retains the genome-informed sequence/population analysis and selects everolimus as the lead drug hypothesis and niacin as the primary comparator after comparative evidence review. The repository remains private. Track 1 model 1 now has a confirmed automated score; the [submission record](README.md#track-1-submission-record) identifies the exact upload and pending final report-persistence verification. Track 2 remains a draft; no public repository release has occurred. The public HG002 depth measurement, sequence reconstruction and assumption-based simulations are distinct from patient experiments; no patient drug-response result is available.
 
 ## Evidence scope
 
@@ -32,7 +32,7 @@ summary names identify the recovery sources without implying they are included.
 The supplied-VCF rankings, earlier two-lane phasing and final four-lane reviews
 are explicitly separated. The CSV, EPCR and classifications are unchanged.
 
-The pitch document preserves the approved six-section narration, 24 caption segments and 293 words, and adds a clearly separated text-only proposal for the everolimus/niacin comparison. This proposal is not recorded or approved and does not add or alter the media.
+The pitch document now contains the new eight-slide everolimus/niacin narrative. It supersedes the historical Lauren arimoclomol/NAC recording as the proposed submission pitch. The new recording is prepared locally for human review; neither review approval nor public upload is claimed.
 
 The current opening connects the already recorded muscle atrophy and failure to
 thrive to the proposed functional endpoint. The report explicitly compares
@@ -56,8 +56,7 @@ alleles and no case data. This independent secondary analysis of the same counts
 is not an independent biological replication or a reproduction of the original
 DESeq2/STRING method. It does not support an upregulated mTORC1 Hallmark program;
 the current proposal retains that absence of corroboration without treating it as a rebuttal of protein phosphorylation. MSigDB-derived
-membership outputs retain their attributed third-party terms. No unpublished
-patient measurement, laboratory response or new media is added.
+membership outputs retain their attributed third-party terms. That RNA analysis adds no unpublished patient measurement or laboratory response.
 
 The prediction CSV and its provenance are byte-identical to the revised internal export. The CSV SHA-256 is `40232aa87da1b498d44e73d82caf485aa390c7d02547bf4f817c557495cf1355`. Its one row is a manually reviewed research prediction, with phase unknown; the recorded builder checks establish format and reference compatibility, not clinical validation or private-truth accuracy.
 
@@ -82,9 +81,9 @@ The retained appendices describe their original dates and analysis scopes. State
 
 ## Media and AI disclosure
 
-The [private Lauren release](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) holds the approved movie and captions; no binaries are copied into this report directory. Its narration does not quote EPCR and presents arimoclomol/NAC as hypotheses. It predates the current everolimus/niacin comparison. Its preserved historical delivery note also predates the current comparative assessment of everolimus. The new text proposal is separate; no new narration or rendering has occurred. Media work and Vimeo are on hold at the user's request, and Track 2 submission remains pending. Private GitHub attachment delivery is not public publication.
+The former [private Lauren release](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) is archived and superseded as the proposed submission pitch. The [new pitch](jeweled_track2_pitch_reconciled.md) accompanies eight new slides and a three-minute Skylar recording, prepared locally for human review. New public upload and Track 2 submission remain pending. No raw case files were sent to the narration service; it received the disclosed pitch text.
 
-Claude Code and Codex were used on personal subscriptions with training on the user's content disabled, according to the user's confirmation. Exact historical model/plan names are unverified. Candidate-level evidence and report text were reviewed with hosted assistants. Cartesia Sonic 3.6 supplied synthetic stock-Lauren narration; its plan/tier and training/retention settings are separately unverified. The Claude/Codex confirmation does not establish Cartesia settings.
+Claude Code and Codex were used on personal subscriptions with training on the user's content disabled, according to the user. Exact historical model/plan names are unverified. Candidate-level evidence and report text were reviewed with hosted assistants. Cartesia Sonic 3.6 supplies stock-Skylar narration on the Free plan, verified on 21 September 2026; no voice was cloned. Cartesia training/retention settings and an immutable model snapshot remain unverified. The Claude/Codex confirmation does not establish Cartesia settings. The cover illustration was generated with the OpenAI image-generation tool through Codex and is conceptual artwork, not a biological observation.
 
 ## Acknowledgement
 

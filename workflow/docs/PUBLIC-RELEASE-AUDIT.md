@@ -172,3 +172,15 @@ case-data category is added. Final durable report-save verification remains
 pending after loss of the browser confirmation view. Repository visibility and
 Track 2/media status are unchanged. See the current report index for the precise
 verification boundary; historical no-submission statements describe earlier states.
+
+### Track 2 research review and new pitch
+
+The 21 September review adds a route-decision appendix and a plain-language main
+report, with mechanism-specific reasons to retain, reserve or decline alternatives.
+The selected pair remains everolimus and niacin; no biological experiment or
+additional case-data category is introduced. The new Skylar pitch text supersedes
+the historical Lauren narrative for the proposed submission. New media are prepared
+locally for human review; binary media are not included in this source revision.
+Cartesia Free-plan status is verified, while its training/retention settings remain
+unverified. Track 1 upload bytes and its methods prefix are preserved. Public upload,
+Track 2 submission and later host cleanup remain separate pending actions.

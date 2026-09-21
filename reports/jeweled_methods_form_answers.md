@@ -93,6 +93,9 @@ Limitations include one sample, absent parental and functional evidence, incompl
 
 # Track 2 (Drug Repositioning)
 
+**Current media disclosure:** the opening shared narration note describes the historical Track 1-era package. For this Track 2 draft, new eight-slide Skylar narration supersedes Lauren. Cartesia Sonic 3.6 uses the Free plan, verified on 21 September 2026; training/retention settings remain unverified. The conceptual cover uses OpenAI image generation through Codex. The new three-minute movie awaits human review and public upload.
+
+
 ### Team name
 
 jeweled
@@ -105,7 +108,7 @@ Everolimus has an established drug-to-target link and indication-specific pediat
 
 Niacin has human muscle NAD engagement evidence. Separate NMN/SIRT2 experiments establish a BUBR1 stability mechanism, and genetic SIRT2 elevation improved selected outcomes in BubR1-hypomorphic mice. These are distinct interventions, not a demonstrated niacin-to-functional-BUBR1 chain. Qualify actual precursor utilization, SIRT2/BUBR1 effects and useful function. Arimoclomol is a restoration-specific reserve: HSP90 dependence does not establish its proposed chaperone rescue, and useful exposure is unresolved.
 
-Dasatinib is a separate reserve requiring harmful senescent burden, selective susceptibility and improved absolute output. Genetic clearance supplies the strongest same-gene organismal functional precedent but does not establish dasatinib activity; D+Q evidence cannot be transferred to monotherapy and quercetin eligibility is unresolved.
+Dasatinib is a separate reserve requiring harmful senescent burden, selective susceptibility and improved absolute output. Genetic clearance supplies the strongest same-gene organismal functional precedent but does not establish dasatinib activity; D+Q evidence cannot be transferred to monotherapy and the nominated quercetin formulation and approval jurisdiction remain unverified.
 
 Compare absolute muscle output, progenitor renewal and chromosome fidelity in qualified affected/corrected models. Everolimus need not repair the initiating mitotic defect to improve downstream function, but must not worsen fidelity or exhaust renewal. A claim of niacin-mediated BUBR1 restoration requires the corresponding protein/function evidence. The [report](jeweled_track2_report_submission.md) and [pipeline](appendices/track2-evidence-pipeline.md) specify source boundaries and prospective decisions.
 
@@ -135,7 +138,7 @@ Drug/mechanism selection used public literature and regulatory information, info
 
 Primary sources include [Suijkerbuijk 2010, MVA expression/function](https://pubmed.ncbi.nlm.nih.gov/20516114/); [North 2014, NAD/SIRT2/BUBR1](https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/); [Pirinen 2020, human muscle niacin/NAD](https://pubmed.ncbi.nlm.nih.gov/32386566/); [Membrez 2024, NAPRT-dependent utilization in human myotubes](https://pmc.ncbi.nlm.nih.gov/articles/PMC10963276/); and [Aaltio 2024, pediatric niacin counterexample](https://pubmed.ncbi.nlm.nih.gov/39173541/). [Everolimus labeling](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04), [niacin labeling](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=dd60fe81-3d54-4a29-9502-601be89c575e) and [arimoclomol labeling](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc&version=5) supply approved-use and pharmacology context, not MVA efficacy.
 
-Alternatives use [Baker 2011, INK-ATTAC](https://www.nature.com/articles/nature10600), [D+Q patent Example 11](https://patents.google.com/patent/WO2015116735A1/en), [Zhu 2015, pharmacological senolysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC4531078/), [Sieben 2020, BubR1 muscle signaling](https://www.jci.org/articles/view/126863/version/2), [Baker 2013, rapamycin observation](https://pmc.ncbi.nlm.nih.gov/articles/PMC3785294/) and [Goutas 2023, autophagy/BUBR1](https://pmc.ncbi.nlm.nih.gov/articles/PMC10149375/). Additional primary sources and rejected routes appear in the [proposal table](jeweled_track2_report_submission.md#other-routes-considered-and-not-selected-as-the-lead).
+Alternatives use [Baker 2011, INK-ATTAC](https://www.nature.com/articles/nature10600), [D+Q patent Example 11](https://patents.google.com/patent/WO2015116735A1/en), [Zhu 2015, pharmacological senolysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC4531078/), [Sieben 2020, BubR1 muscle signaling](https://www.jci.org/articles/view/126863/version/2), [Baker 2013, rapamycin observation](https://pmc.ncbi.nlm.nih.gov/articles/PMC3785294/) and [Goutas 2023, autophagy/BUBR1](https://pmc.ncbi.nlm.nih.gov/articles/PMC10149375/). Additional primary sources and rejected routes appear in the [proposal table](appendices/track2-route-decisions.md).
 
 The executed [RNA analysis](../workflow/track2-rna/README.md) uses GSE134781 and MSigDB 2025.1.Mm orthology-mapped Hallmarks, with complete results, sensitivities and environment. Public GRCh38/Ensembl sequence supports the [genome-informed analysis](../workflow/track2-model/README.md). No use of every example database named in the form is implied.
 
