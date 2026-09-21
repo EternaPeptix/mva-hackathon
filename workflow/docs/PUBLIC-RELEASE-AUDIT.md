@@ -95,3 +95,19 @@ The later terminal record establishes full public Mac replay completion, exact p
 count/audit agreement and measured resource use. Only public aggregate results and
 execution identities are added to the existing status/documentation. Final launcher
 safeguards and limited Linux checks retain their separate verification scope.
+
+### Elected Track 2 lead and existing model import
+
+The current private revision selects everolimus and adds an evidence pipeline and
+unelected-route comparison. The new `workflow/track2-model/` contains public Ensembl
+responses, reference-based conditional products for the already nominated pair,
+assumed cell-population results, source and figures. These are bounded candidate
+findings and public-reference/hypothetical computations, not patient transcript
+sequences, raw reads, alignments or genome-scale genotypes. The corresponding
+inventory delta records this content decision; the repository remains private.
+
+A fresh Mac Studio run of the packaged launcher reconstructed the transcript from
+the retained reference and reproduced all scientific population outputs exactly,
+excluding execution metadata. This validates replay, not pathway activation or
+drug efficacy. The current reports and unrecorded pitch text adopt the new lead;
+Track 1 content, the prediction CSV and approved narration remain unchanged.

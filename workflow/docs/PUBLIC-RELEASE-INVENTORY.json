@@ -12941,7 +12941,7 @@
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
     "reviewed_at_utc": "2026-09-21T00:43:51.635162+00:00",
-    "scope": "36 exact payload files plus two self-referential audit documents; the regenerated SOURCE-SNAPSHOT records the current selection. This review performs no release, submission or scientific execution.",
+    "scope": "50 current payload files plus two self-referential audit documents; the regenerated SOURCE-SNAPSHOT records the selection. Historical baseline decisions remain unchanged.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12954,8 +12954,8 @@
       "original_audit_bytes_sha256": "7fae846b1a22b88b05096372fa4fbbd9bbca7f27e23f725a2ff32ad1b6a2644b",
       "all_original_fields_unchanged": true
     },
-    "reviewed_payload_count": 36,
-    "report_tree_files": 21,
+    "reviewed_payload_count": 50,
+    "report_tree_files": 22,
     "reviewed_files": [
       {
         "path": "CHANGELOG.md",
@@ -12977,12 +12977,12 @@
       },
       {
         "path": "README.md",
-        "bytes": 6170,
-        "sha256": "7157c031a0ab97328dfbd1d52d159adfa46690ee61a79a7b8ec3594b69fd1fe9",
+        "bytes": 6516,
+        "sha256": "a06538cd322a79537a3cdb457a75ba3fd40aa3e2cfb662f0058fc9788e9d55b1",
         "mode": 420,
         "decision": "keep",
-        "category": "scope_and_reproduction_documentation",
-        "grounds": "Current navigation/history, public benchmark methods or reproduction scope, with controlled case inputs distinct."
+        "category": "selected_scientific_proposal",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
       },
       {
         "path": "REPRODUCIBILITY.md",
@@ -12995,21 +12995,21 @@
       },
       {
         "path": "reports/PROVENANCE.md",
-        "bytes": 6596,
-        "sha256": "a5f034a6b28228b0f3169becddeb67c494f35258723b864becb339b6f8af60a2",
+        "bytes": 7203,
+        "sha256": "a765228f788daa9fa1196a7766b0796c7cc6295dbad66dbc8d6443f16dd68f2c",
         "mode": 420,
         "decision": "keep",
-        "category": "curated_report",
-        "grounds": "Selected findings, method/disclosure/navigation, approved narration or proposed experiment; no raw case records or full source clinical record."
+        "category": "selected_scientific_proposal",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
       },
       {
         "path": "reports/README.md",
-        "bytes": 4383,
-        "sha256": "a35873320b5cbb88dfd84f0b1bb757e7b61c019d84554843da749cfc99fa4a73",
+        "bytes": 5324,
+        "sha256": "97ac12703adf4c9a39c95d8167d3bfc830eeab6d37b0b73b942cb597fc201b93",
         "mode": 420,
         "decision": "keep",
-        "category": "curated_report",
-        "grounds": "Selected findings, method/disclosure/navigation, approved narration or proposed experiment; no raw case records or full source clinical record."
+        "category": "selected_scientific_proposal",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
       },
       {
         "path": "reports/appendices/assay-decision-plan.md",
@@ -13129,6 +13129,15 @@
         "grounds": "Screen denominators and one candidate-level assertion review; full native records/genotype streams omitted."
       },
       {
+        "path": "reports/appendices/track2-evidence-pipeline.md",
+        "bytes": 12213,
+        "sha256": "fc04252834219723724a19ed49e610008db19401060d58b4864b5a4f7e27d3bd",
+        "mode": 420,
+        "decision": "keep",
+        "category": "selected_scientific_proposal",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
         "path": "reports/jeweled_evidence-reconciled-v2.csv",
         "bytes": 480,
         "sha256": "40232aa87da1b498d44e73d82caf485aa390c7d02547bf4f817c557495cf1355",
@@ -13148,12 +13157,12 @@
       },
       {
         "path": "reports/jeweled_methods_form_answers.md",
-        "bytes": 19454,
-        "sha256": "d9464e61d8f8374fc91f84664e62a3d91850bd2beb9a821d2582609cec71da13",
+        "bytes": 23129,
+        "sha256": "78339d9dea6e25b164ac5ac0d897c474a07604d0a9d3749647e1a21f1cf54a63",
         "mode": 420,
         "decision": "keep",
-        "category": "curated_report",
-        "grounds": "Selected findings, method/disclosure/navigation, approved narration or proposed experiment; no raw case records or full source clinical record."
+        "category": "selected_scientific_proposal",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
       },
       {
         "path": "reports/jeweled_track1_report_submission.md",
@@ -13166,21 +13175,21 @@
       },
       {
         "path": "reports/jeweled_track2_pitch_reconciled.md",
-        "bytes": 7023,
-        "sha256": "eb077cf28feb7ce17e947011e76f0ffdb42cc47e0dbcffaff38c13ffb8c26f4e",
+        "bytes": 7241,
+        "sha256": "2245cddc9427a36a21517a991b9a19ea9b5cfe99e02a1816d5a0116deefb6cc3",
         "mode": 420,
         "decision": "keep",
-        "category": "curated_report",
-        "grounds": "Selected findings, method/disclosure/navigation, approved narration or proposed experiment; no raw case records or full source clinical record."
+        "category": "selected_scientific_proposal",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
       },
       {
         "path": "reports/jeweled_track2_report_submission.md",
-        "bytes": 13775,
-        "sha256": "e8f8d4847b940b246f145c45bd607b9240ea8ea0a9e167c13fb570eb93bf7472",
+        "bytes": 17431,
+        "sha256": "d8b0315f1d068d5d67f2f61757f57cd4008492224a3773f3e80fc134415137a2",
         "mode": 420,
         "decision": "keep",
-        "category": "curated_report",
-        "grounds": "Selected findings, method/disclosure/navigation, approved narration or proposed experiment; no raw case records or full source clinical record."
+        "category": "selected_scientific_proposal",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
       },
       {
         "path": "results/INDEX.md",
@@ -13280,6 +13289,123 @@
         "decision": "keep",
         "category": "public_replay_source",
         "grounds": "Reusable source, public HG002/reference/truth profile, public locks or documentation; no controlled case input or credential-bearing URL."
+      },
+      {
+        "path": "workflow/track2-model/README.md",
+        "bytes": 6673,
+        "sha256": "c8398e58698af30af87de702513bc14f915c43501406d04fbb9d1635dc43222e",
+        "mode": 420,
+        "decision": "keep",
+        "category": "public_reference_and_hypothetical_model",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "workflow/track2-model/allele-inputs.json",
+        "bytes": 11492,
+        "sha256": "091b05f3e7ac857031201ad54bf7e6fc910a75255e17b316e35bef487409ef19",
+        "mode": 420,
+        "decision": "keep",
+        "category": "public_reference_and_hypothetical_model",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "workflow/track2-model/alleles.py",
+        "bytes": 14118,
+        "sha256": "5b763a3b182c6d4dbc28be29e60e498e58297d9a306a79a71de76734d066e40c",
+        "mode": 420,
+        "decision": "keep",
+        "category": "public_reference_and_hypothetical_model",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "workflow/track2-model/model-findings.pdf",
+        "bytes": 35836,
+        "sha256": "9aaeae2591cb2ce5364239f0635f0f7c0867bbef41ead1ef9f71f01f6c25c3ae",
+        "mode": 420,
+        "decision": "keep",
+        "category": "public_reference_and_hypothetical_model",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "workflow/track2-model/model-findings.png",
+        "bytes": 267602,
+        "sha256": "aa5eceef737d538af8e8d60589654ae27aeb48d9c7f56994fe87146699593058",
+        "mode": 420,
+        "decision": "keep",
+        "category": "public_reference_and_hypothetical_model",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "workflow/track2-model/plot_results.py",
+        "bytes": 5670,
+        "sha256": "223721213359404ab09f6241fb3376f8142d0b22e2e9de0579f11ad27e444432",
+        "mode": 420,
+        "decision": "keep",
+        "category": "public_reference_and_hypothetical_model",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "workflow/track2-model/population-results.json",
+        "bytes": 2802262,
+        "sha256": "9cd375a58e66834970592831124686a2175a8d42fcdf1d3b095fd1100bc5a354",
+        "mode": 420,
+        "decision": "keep",
+        "category": "public_reference_and_hypothetical_model",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "workflow/track2-model/population.py",
+        "bytes": 14849,
+        "sha256": "b89a6eeb8f66bfcc54abdf62ae32b0f965417461b4953cf247027d3863a3d711",
+        "mode": 420,
+        "decision": "keep",
+        "category": "public_reference_and_hypothetical_model",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "workflow/track2-model/public-transcript/cds.json",
+        "bytes": 3254,
+        "sha256": "573be6f7288f6b59ff036cf31c36b17169152d196fcab5ffab137828fd79a8e1",
+        "mode": 420,
+        "decision": "keep",
+        "category": "public_reference_and_hypothetical_model",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "workflow/track2-model/public-transcript/exons.json",
+        "bytes": 153249,
+        "sha256": "dec2ff9c23822d4ac3259f5153ea1d548b8ba264c4eddfdc49ab19b91bde2d80",
+        "mode": 420,
+        "decision": "keep",
+        "category": "public_reference_and_hypothetical_model",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "workflow/track2-model/public-transcript/info.json",
+        "bytes": 18,
+        "sha256": "86e87c46ae1a424702676493d024d0508ce60f6c951b0b2803ce10269e09c20c",
+        "mode": 420,
+        "decision": "keep",
+        "category": "public_reference_and_hypothetical_model",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "workflow/track2-model/public-transcript/map-stop.json",
+        "bytes": 152,
+        "sha256": "3aabdfb29f2e443501e114daa50aec9bbfcca6f1d1b4e7041bfa0bc128df6b4b",
+        "mode": 420,
+        "decision": "keep",
+        "category": "public_reference_and_hypothetical_model",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "workflow/track2-model/run.sh",
+        "bytes": 940,
+        "sha256": "0f7eab147aba720f0cae0f3e8363b93c68f388aca26d1aa0a68eee3fb2158737",
+        "mode": 420,
+        "decision": "keep",
+        "category": "public_reference_and_hypothetical_model",
+        "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
       }
     ],
     "report_scope": {
@@ -13430,6 +13556,33 @@
       ],
       "scope": "Completed public HG002 Mac replay: terminal status, primary split-call counts and audit agreement, measured runtime/resources and executed-source identities added to existing documentation and public status. Full Linux execution remains unverified and final launcher safeguards retain separate syntax/path verification. No new case payload, control suite, media or drug experiment.",
       "decision": "Keep public-data aggregates and execution summary within the existing private draft revision; Vimeo remains on hold."
+    },
+    "track2_selection_followup": {
+      "reviewed_at_utc": "2026-09-21T13:51:26.420359+00:00",
+      "paths": [
+        "README.md",
+        "reports/PROVENANCE.md",
+        "reports/README.md",
+        "reports/appendices/track2-evidence-pipeline.md",
+        "reports/jeweled_methods_form_answers.md",
+        "reports/jeweled_track2_pitch_reconciled.md",
+        "reports/jeweled_track2_report_submission.md",
+        "workflow/track2-model/README.md",
+        "workflow/track2-model/allele-inputs.json",
+        "workflow/track2-model/alleles.py",
+        "workflow/track2-model/model-findings.pdf",
+        "workflow/track2-model/model-findings.png",
+        "workflow/track2-model/plot_results.py",
+        "workflow/track2-model/population-results.json",
+        "workflow/track2-model/population.py",
+        "workflow/track2-model/public-transcript/cds.json",
+        "workflow/track2-model/public-transcript/exons.json",
+        "workflow/track2-model/public-transcript/info.json",
+        "workflow/track2-model/public-transcript/map-stop.json",
+        "workflow/track2-model/run.sh"
+      ],
+      "scope": "Elect everolimus; comparative evidence pipeline and table; import completed reference-based allele and assumed population model. Fresh packaged Mac Studio replay exactly matched scientific outputs excluding runtime metadata. No drug experiment or public visibility change.",
+      "decision": "Keep within existing private draft; approved narration, Track1 scientific content and prediction CSV unchanged."
     }
   }
 }

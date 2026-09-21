@@ -1,7 +1,7 @@
 # MVA: from genome evidence to a testable rescue experiment
 
 Team **jeweled** asks whether a recessive BUB1B mechanism explains the supplied MVA case,
-and whether restoring usable BUBR1 protein could improve mitotic fidelity. Track 1's CSV
+and whether normalizing harmful mTORC1 signaling could improve muscle function. Track 1's CSV
 and both research reports are prepared; submission is pending and Vimeo is on hold.
 
 ## Start here
@@ -28,9 +28,9 @@ commands, versions, input/output identities and results; it is not itself a biol
 
 **Track 2 — turn the mechanism into an experiment**
 
-6. Test whether restoring residual BUBR1 abundance restores mitotic function.
-7. Rank drug hypotheses; specify genetic controls, exposure and tumor counter-screens.
-8. Track first-division errors and yield from each starting cell; define advancement criteria.
+6. Test whether excess mTORC1 activity drives a muscle defect in a qualified BUB1B model.
+7. Test everolimus at measured exposure, alongside genetic controls and a tumor counter-screen.
+8. Measure mature muscle function and absolute output; separately preserve progenitor regeneration.
 
 ## Quick start: public HG002 chromosome 20
 
@@ -73,24 +73,27 @@ The stop has a two-star ClinVar P/LP assertion and the missense remains VUS. The
 [report](reports/jeweled_track1_report_submission.md) explains the two-allele census, ten-gene
 differential, 288 bp phase blocks versus a 10,911 bp gap, and retracted mosaic signal.
 
-**Track 2:** predicted stop-allele loss plus a potentially rescuable missense product motivates
-restoring **usable BUBR1 abundance**. The first experiment tests whether equalizing N1002K
-protein abundance restores function. The resulting drug priorities are:
+**Track 2:** **everolimus** is the selected experimental lead for mTORC1 normalization if excess
+signaling drives a demonstrated muscle defect. A different BubR1 truncation model provides the
+muscle-pathway precedent, without a rapalog rescue experiment. Elevated signaling could instead
+be compensatory. Partial genetic normalization must improve function before drug effects can
+support this mechanism; mature myotubes and progenitor differentiation/regeneration are separate
+tests. Everolimus is a pragmatic rapalog choice, not proven superior to sirolimus.
 
-| Research rank | Candidate | Rationale and proposed test |
-|---|---|---|
-| 1 | **Arimoclomol** | Test proteostasis-mediated abundance rescue; compare vehicle/drug first-mitosis errors and first-anaphase yield without a scored visible error per starting cell in a qualified variant model, with genetic correction controls. |
-| 2 | **Acetylcysteine (NAC)** | Test downstream stress protection if a measured oxidative defect exists; distinguish improved cell function/survival from restored segregation. |
-
-The [Track 2 proposal](reports/jeweled_track2_report_submission.md) connects each drug to its
-mechanism, evidence gaps, exposure gate and tumor counter-screen. No drug experiment has run.
+The [proposal](reports/jeweled_track2_report_submission.md) and
+[evidence pipeline](reports/appendices/track2-evidence-pipeline.md) explain the
+qualitative selection, exposure gate, absolute-output endpoints and rhabdomyosarcoma counter-screen.
+The [unelected-route table](reports/jeweled_track2_report_submission.md#other-routes-considered-and-not-selected-as-the-lead) explains alternatives and weaknesses.
+The [genome-informed model](workflow/track2-model/README.md) separates sequence reconstruction
+from assumption-based population scenarios; it does not predict drug response. No drug experiment
+has run, and neither chromosome correction nor clinical efficacy is claimed.
 
 ## Scope and limitations
 
 **Low SV recall (8.6% DELLY; 21.3% SvABA) limits the causal search:** a negative short-read result
 cannot exclude difficult structural alternatives. Annotation locates misses without proving their
 cause. One public chromosome and synthetic tests do not establish case-wide clinical sensitivity.
-Phase, N1002K function and drug benefit remain unresolved. EPCR is a research judgment.
+Phase, N1002K function, harmful mTORC1 activation and drug benefit remain unresolved. EPCR is a research judgment.
 Exploratory control development closed on 20 September; remaining work concerns reproduction,
 documented defects and submission delivery before **24 October 2026**.
 

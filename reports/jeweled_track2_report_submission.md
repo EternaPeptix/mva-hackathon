@@ -1,60 +1,194 @@
-# jeweled — Track 2: restore usable BUBR1 protein
+# jeweled — Track 2: test everolimus for BUB1B-associated muscle dysfunction
 
-**Research submission draft, revised 21 September 2026; not submitted.** Our primary therapeutic hypothesis is to **recover usable BUBR1 by restoring the abundance of residual missense protein**. We prioritize arimoclomol for experimental evaluation of this proteostasis strategy. Acetylcysteine (NAC) is a secondary comparator for downstream stress protection. The decisive question is whether N1002K retains mitotic function when its abundance is restored; the answer determines whether the lead strategy deserves drug testing. No patient-cell, drug-response or tumor experiment has been performed, and laboratory/material access remains unestablished. This is a research proposal, not a treatment recommendation.
+**Research submission draft, revised 21 September 2026; not submitted.** We select
+**everolimus** as the single lead medication for testing whether normalization of
+excessive **mTORC1 signaling** improves muscle function in a qualified BUB1B model
+while preserving growth and regeneration. Recorded muscle atrophy and failure to
+thrive make this a relevant, bounded objective. No patient pathway measurement,
+drug-response experiment or clinical benefit has been demonstrated. Model and
+laboratory access remain unestablished.
 
-Our genomic starting point is the heterozygous BUB1B pair GRCh38 chr15:40209701 T>G, p.(Leu737Ter), and chr15:40220612 T>G, p.(Asn1002Lys). The completed four-lane alignment, two native callers and chromosome-15 reconciliation support both alleles; their phase remains unknown. N1002K remains a research VUS, and predicted nonsense-mediated decay has not been measured. The completed coding and structural differential provides no stronger primary hypothesis. Track 1 assigns **subjective EPCR 0.8 to this exact pair explaining the primary phenotype**—not a calibrated diagnostic probability or probability of drug benefit. [Genomic decision and limits](jeweled_track1_report_submission.md).
+The proposed chain is **BUB1B-associated dysfunction → potentially harmful muscle
+mTORC1 excess → everolimus engagement → improved absolute muscle function without
+lost replacement capacity**. The middle disease-specific links are hypotheses to
+test. This proposal does not claim chromosome correction, developmental reversal
+or cancer prevention.
 
-## Mechanistic proposal
+## Why this is our lead
 
-The target is the amount of **functional** BUBR1 available during division. A stop allele with predicted nonsense-mediated decay and a second missense allele makes residual-protein rescue a coherent hypothesis. RNA, abundance and turnover have not been measured for this genotype, so the experiment starts by testing that premise. Downstream chromosome-imbalance stress is a separate therapeutic objective: improved survival with persistent segregation errors would count as protection, not repair.
+We choose on four grounds: disease-relevant evidence, an established action of an
+approved drug, a discriminating functional experiment and feasibility of further
+translation. This is a qualitative research-priority decision, not a computed
+probability that the drug works. The [official Track 2 criteria](https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/blob/main/tabs/about.py)
+reward rigor, impact, innovation and scalability.
 
-Suijkerbuijk and colleagues found both abundance-related and function-specific BUBR1 defects. Restoring expression rescued checkpoint responses for selected low-abundance mutants. That is a direct reason to test abundance rescue; it does not establish N1002K behavior merely because it lies near a characterized variant. Their HSP90 experiments motivate a proteostasis route, while the drug-specific bridge to arimoclomol remains to be tested. [Primary study](https://pubmed.ncbi.nlm.nih.gov/20516114/). Genetic mitochondrial-chaperone/ROS-scavenger interventions in a fly chromosome-instability model motivate the secondary stress endpoints. [González-Blanco et al.](https://doi.org/10.1038/s41467-026-70521-0).
+The disease link comes from increased muscle mTORC1 signaling in heterozygous
+BubR1+/X753 mice before overt muscle aging. **X753 is not L737Ter**, and mouse
+L1002P models human L1012P, not this case's N1002K. No rapalog rescue was tested in
+that study; abundance and signaling were measured at different ages. It nominates
+a pathway, not a demonstrated therapy. [Sieben et al., Figure 5](https://www.jci.org/articles/view/126863/version/2).
 
-## Ranked repurposing proposal
+Everolimus has established FKBP12/mTORC1 pharmacology and pediatric experience in
+other indications. We select it pragmatically for its labeled TSC experience in
+younger children and dispersible formulation. Sirolimus also offers an oral
+solution and therapeutic monitoring; **neither has demonstrated comparative MVA
+superiority**. [Sirolimus label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=400da0a5-2a85-44ab-a2c5-bb9161750db3).
+The [everolimus prescribing information](https://www.novartis.com/us-en/product/pi/pdf/afinitor.pdf)
+supports drug feasibility; it does not supply an MVA dose or safety conclusion.
+Published rapamycin results are class-level support, not everolimus experiments.
 
-Ranking is for **experimental priority**, based on proximity to the proposed defect, relevant rescue precedent, exposure feasibility and tumor context. It is not a ranking of treatments for the child. The genotype-to-drug chain is: predicted stop-allele loss plus a potentially rescuable missense product → too little functional BUBR1 → impaired mitotic fidelity → test restoration of usable protein before testing downstream stress protection.
+The strongest argument against our selection is that human MVA expression-rescue
+experiments place **usable BUBR1 restoration closer to the primary defect**.
+However, choosing arimoclomol would still require both N1002K abundance-rescuability
+and a demonstrated drug-to-functional-BUBR1 link. We give the established
+everolimus-to-target connection greater weight for this approved-drug submission,
+and concentrate the experiment on whether the nominated target is harmful and
+actionable. [BUBR1 rescue precedent](https://pubmed.ncbi.nlm.nih.gov/20516114/).
 
-| Research rank | Candidate and class | Why it ranks here | Prediction that would earn advancement |
-|---|---|---|---|
-| **1** | **Arimoclomol**, proteostasis/stress-response modulator | Closest of the proposed drugs to the residual-protein abundance thesis. Selected BUBR1 mutants respond to expression rescue, and arimoclomol has changed chaperone/enzyme readouts in other disease models. The unproven link is whether this drug restores usable N1002K protein at relevant exposure; HSP90 dependence does not establish HSP70-mediated rescue. | In a qualified abundance-defect model, improve BUBR1 localization and mitotic function alongside first-anaphase yield without a scored visible error per starting cell. HSP70 induction or more BUBR1 alone does not qualify. |
-| **2** | **Acetylcysteine (NAC)**, cysteine/glutathione-route intervention | Addresses a possible downstream oxidative-stress consequence rather than the nominated protein defect. It is therefore a comparator and secondary route. Oxidant-exposed fibroblast and Sod1-deficient mouse-oocyte findings are limited precedents, with no N1002K rescue shown. | In a model with a measured genotype-dependent stress defect, improve mitochondrial/cellular function and viable-cell output with interpretable pathway engagement. Persistent segregation errors must remain visible and the outcome labelled protection. |
+## Evidence pipeline: what is established and what must be earned
 
-Arimoclomol's retained label describes use with miglustat for NPC and an unknown clinical mechanism; that approval supplies no MVA efficacy evidence. [Label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc&version=5). NAC precedents: [fibroblast study](https://doi.org/10.1002/cam4.101), [oocyte study](https://doi.org/10.1002/rmb2.12622).
+| Link | Evidence available now | Required next result / failure criterion |
+|---|---|---|
+| **1. Candidate genotype** | Track 1 retains BUB1B Leu737Ter + Asn1002Lys, subjective exact-pair EPCR 0.8, phase unresolved and missense VUS. | Establish phase where feasible; retain alternatives. EPCR is not a probability of pathway activation or drug benefit. [Track 1](jeweled_track1_report_submission.md). |
+| **2. Sequence consequence** | Completed reconstruction: L737* predicts 736 amino acids; N1002K predicts a full-length altered protein. In cis, the stop masks the downstream missense under canonical translation. | Measure endogenous RNA/protein. Predicted NMD is not measured decay; neither phase branch proves mTOR excess. [Analysis](../workflow/track2-model/README.md). |
+| **3. Disease-to-pathway rationale** | Same-gene mouse muscle association, with the allele/model limits above. | Demonstrate excess signaling and impaired function in matched myogenic cells with genetic controls. Normal activity in a qualified relevant model removes this lead's central rationale. |
+| **4. Pathway dependence** | No case-specific causal result exists. Different-genotype muscle studies show both benefit from reducing excess and harm from excessive inhibition. | Graded partial RPTOR attenuation toward the corrected-cell range must improve function without lost differentiation/regeneration. A lower phosphoprotein signal alone fails advancement. |
+| **5. Drug implementation** | Everolimus engages the nominated pathway; no BUB1B response has been measured. | Drug versus vehicle must reproduce useful function at justified, measured exposure. Genetic rescue with drug failure rejects this compound implementation. |
+| **6. Durable net benefit** | Population sensitivity analysis demonstrates why favorable fractions can hide lost output. | Preserve absolute muscle function, viable differentiated output and progenitor replacement; follow after washout and through independent confirmation. No simulation score substitutes for these observations. |
+| **7. Oncology and translation** | RMS history is recorded; active tumor status and regimen are unconfirmed. | Apply the actual tumor/regimen counter-screen and exposure/safety review. Credible tumor protection, treatment interference or unacceptable loss of tissue capacity blocks advancement. |
 
-Arimoclomol changed chaperone/enzyme readouts in Gaucher-cell experiments, but those involved a different protein and often high concentrations. This supplies a testable drug-specific lead, not a BUBR1 bridge. [Primary study](https://doi.org/10.1016/j.ebiom.2018.11.037).
+The [evidence-pipeline appendix](appendices/track2-evidence-pipeline.md) connects
+sources to claims, specifies the two muscle experiments and records decision rules.
+Completed computation is distinguished from proposed laboratory work.
 
-Exposure is an early gate. A pharmacology review must justify and measure relevant media exposure, stability and uptake; deliberately high mechanistic controls remain separate. Published high-concentration arimoclomol effects cannot establish activity at plausible exposure. For NAC, free reduced drug, total NAC after reduction, cysteine and glutathione are different analytes. Include compound-only assay controls, matched culture oxygen/pH, orthogonal measurements and washout. Neither candidate has an established case-specific exposure window; no patient dose is proposed. [Arimoclomol bridge](appendices/mechanistic-bridge.md), [NAC exposure review](appendices/nac-exposure.md).
+## The experiment that decides the proposal
 
-## Proposed first experiment: arimoclomol in a qualified BUB1B model
+Use consented patient-derived myogenic material with isogenic correction where
+feasible. If unavailable, use explicitly labeled engineered models, including
+the unresolved trans/cis alternatives rather than assuming phase. Fibroblasts can
+help qualify allele biology but cannot settle a muscle-specific hypothesis.
+Verify endogenous products, chromosome state and a reproducible defect before
+treatment; retain independent editing families and preparation identities.
 
-If consented patient-derived fibroblasts become available, establish the endogenous RNA/protein and division phenotype before drug testing. Use an isogenic N1002K-corrected line where feasible, appropriately matched independent clones/preparations, and genetic rescue controls. A separate near-physiological expression comparison of wild-type and N1002K BUBR1 asks whether abundance restoration can rescue function at all. If patient cells are unavailable, an engineered model can test the mechanism but cannot be reported as a patient-cell result. No model access has been secured.
+**Separate two stages of muscle biology.** In already mature muscle constructs,
+compare absolute contractile force per construct from a fixed pretreatment cohort,
+alongside viable tissue and repeated-stimulation performance. In a separate
+progenitor cohort, measure expansion, differentiation/fusion and subsequent
+functional muscle yield per starting cohort. Normalized force and percentages
+are secondary: removing weak cells or shrinking a construct must not inflate the
+primary claim. If only a surrogate contraction assay is feasible, qualify it and
+state that limitation instead of claiming measured force.
 
-The first arimoclomol comparison is **vehicle versus drug in the qualified variant model**, with corrected/wild-type cells exposed in parallel. Use an exposure range justified by pharmacology and verified in the culture medium; high-exposure mechanistic controls remain separate. Quantify endogenous BUBR1 amount and kinetochore localization, then track the first mitosis of every cell on a frozen pretreatment roster. Drug-induced marker changes must be linked to function.
+Measure complementary mTORC1 substrates within matched cell states, such as
+phospho/total p70S6K and 4EBP1, with nutrient, density and stimulation controls.
+Bulk differences can reflect different myoblast/myotube proportions. Use graded,
+inducible **partial** RPTOR attenuation as an orthogonal pathway test, with
+appropriate targeting controls; aim toward the corrected-cell signaling range,
+not complete ablation. Apply genetic and drug interventions to both the mature
+and progenitor cohorts and to affected and corrected models.
 
-This is the concrete use of the founder ledger: for **arimoclomol versus vehicle**, compare visible-error first anaphases per scorable first anaphase (**E/A**) and observed first-anaphase yield without a scored error per starting cell (**(A−E)/N0**). A lower error fraction accompanied by fewer cells entering or completing mitosis could be arrest or selection. A promising result must improve the prespecified functional outcomes without an adverse shift in death, arrest, slippage or abnormal-clone expansion, and must pass the parallel tumor counter-screen. Genetic correction supplies the positive mechanistic reference; it is not an assumed effect size. Benefit margins and confirmation criteria require pilot variability and must be frozen before confirmation.
+The central alternative explanation is that increased signaling is compensatory.
+Normalization with restored function supports a harmful component of excess
+activity; worsening supports caution about suppressing compensation. A negative
+result with failed exposure or model qualification remains inconclusive. Genetic
+attenuation and everolimus are not assumed to be interchangeable.
 
-NAC is tested separately against vehicle only if the model establishes a relevant stress defect, using stress engagement and functional/viable-cell output as its primary rationale. It does not inherit a claim of BUBR1 rescue from the arimoclomol arm. A positive arimoclomol result would support the abundance route; a negative drug result despite genetic abundance rescue would reject this drug bridge without rejecting the whole mechanism.
+This distinction has experimental precedent. Rapamycin improved established
+myopathy in muscle-specific Tsc1-deficient mice, a different genotype.
+[Castets et al.](https://pubmed.ncbi.nlm.nih.gov/23602450/). Conversely, rapamycin
+impaired regenerating myofiber formation/maturation, and raptor ablation caused
+muscle dystrophy. [Ge et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC2793064/),
+[Bentzinger et al.](https://doi.org/10.1016/j.cmet.2008.10.002).
+These results require a useful signaling window and preservation of regeneration.
 
-## Decisive experiments and stopping rules
+For everolimus, a pharmacologist must justify formulation, exposure duration,
+medium binding, uptake and measured drug concentrations. **Whole-blood trough
+values cannot be copied into culture medium as equivalent free exposure.** Keep
+high mechanistic controls separate from the translational comparison. Measure
+engagement and function together, including follow-up after washout. No patient
+dose or useful case-specific exposure range is proposed.
 
-Endogenous RNA/splicing measurements are needed to assess NMD; a cDNA assay cannot establish it. If near-physiological N1002K abundance fails to restore function, reject an abundance-only explanation. Normal abundance does not exclude a function-specific defect.
+Track spontaneous progenitor divisions and daughter outcomes to detect selection.
+The existing [founder-ledger endpoints](appendices/founder-ledger.md) help identify
+arrest and selective loss; anaphase counts do not prove successful cytokinesis or
+normal karyotype. Muscle function and regenerative output are the primary benefit
+criteria; reduced segregation-error frequency is not required or assumed.
 
-Randomize treatment assignment and blind scoring. Retain no-entry, ongoing mitosis, death, slippage, unscorable events and tracking loss. E/A is undefined when A=0, later descendants do not enlarge N0, and neither founder endpoint proves a normal karyotype. Independent preparations are the units of confirmation; cells and wells are not independent patients.
+Randomize within preparation/editing-family blocks and blind outcome scoring.
+Use a feasibility pilot to establish maturation windows and estimate variation;
+freeze meaningful benefit, allowable loss of regenerative capacity, exposure and
+adverse-effect margins before independent confirmation. Cells and wells do not
+create independent patients. A nonsignificant result is not a growth-preservation
+or tumor-safety pass.
 
-For downstream protection, require a functional endpoint alongside engagement: mitochondrial function and absolute viable-cell output, supported by an orthogonal stress assay. A lower ROS-probe signal alone can be chemical interference. Improved function with persistent errors must be reported as protection, with continuing segregation and clonal-composition monitoring. The [assay plan](appendices/assay-decision-plan.md), [prospective pilot](appendices/pilot-protocol.md) and [founder-ledger specification](appendices/founder-ledger.md) retain the full decision rules; ledger qualification used fictional data only.
+## What the completed simulation contributes
 
-Rhabdomyosarcoma is recorded, so benefit in nonmalignant cells must survive a tumor-protection counter-screen. HSP70 inhibition/depletion studies motivate testing actual candidates in RMS models; they do not prove that arimoclomol promotes cancer. Its label reports negative animal carcinogenicity studies, which do not settle effects on an existing tumor or treatment. [Sabnis et al.](https://doi.org/10.1073/pnas.1603883113). NAC promoted tumor progression in particular mouse lung-cancer models; this cannot be generalized to harm here, but rules out assuming antioxidant benefit means cancer protection. [Sayin et al.](https://pubmed.ncbi.nlm.nih.gov/24477002/).
+The [retained model](../workflow/track2-model/README.md) combines actual candidate
+sequence consequences with explicit population assumptions. At one illustrative
+setting, selective abnormal-cell killing improves euploid fraction by **16.8
+percentage points** while differentiated-cell time falls **11.0%**. With assumed
+35% slower division alone, additional per-cell function needed to break even
+reaches **3.7%** and **12.5%** at the two arbitrary observation horizons in this
+grid. These are counterexamples and conditional thresholds, **not measured
+everolimus effects, patient timescales or tissue-force predictions**.
 
-Current tumor activity, subtype and regimen are unconfirmed. Test candidate-alone effects first; specify treatment-alone/combination comparisons only against a confirmed, active regimen with interpretable controls. Preserve absolute tumor-cell output and post-washout regrowth, not just equal numbers of replated survivors. Withhold advancement for credible tumor protection or treatment interference. Wide uncertainty or a nonsignificant result is inconclusive, not a safety pass. [Oncology decision appendix](appendices/oncology-counterscreen.md).
+The model supports choosing absolute function and replacement endpoints. It does
+not select a drug or establish mTOR activity from a genome. Both model layers ran
+on a Mac Studio; source and results are retained for replay. No new laboratory
+evidence is implied by numerical checks.
 
-Before confirmation, freeze biologically meaningful benefit/adverse-effect margins, exposure bounds and the analysis using pilot variability. Confirm across fresh independent preparations; cells and technical wells are not independent patients. Advance only reproducible functional benefit at justified exposure with interpretable engagement and acceptable parallel outcomes. Protein/stress-marker changes alone, high-exposure-only effects or arrest/selection fail the proposed claim; inadequate measurements remain inconclusive. Cell rescue would justify further research, not developmental recovery, cancer prevention or clinical benefit.
+## Other routes considered and not selected as the lead
 
-## Why this approach matters
+These weaknesses explain the present choice; “not selected” does not mean
+biologically disproved. Positive evidence is retained beside each limitation.
 
-The contribution is an allele-to-protein rescue strategy tied to a decisive experiment: establish whether restoring N1002K abundance restores function, then ask whether an approved drug can reproduce that result. This links the unresolved allele mechanism to a practical choice of therapeutic direction. The same framework separates a rescuable dosage defect, a function-specific defect and downstream protection in other recessive disorders. A positive abundance result could support further variant assessment through an appropriately qualified assay; it does not automatically confer a fixed ACMG evidence strength.
+| Unelected route | Strongest reason to consider it | Why not selected / what could change the decision |
+|---|---|---|
+| **Arimoclomol / usable BUBR1 restoration** | Selected mutant-expression rescue in human MVA biology makes this the strongest proximal alternative. [Study](https://pubmed.ncbi.nlm.nih.gov/20516114/) | N1002K instability/rescuability and drug-mediated functional rescue are both unknown. HSP90 dependence does not establish HSP70 rescue. Genetic abundance rescue followed by exposure-qualified drug rescue could displace our lead. |
+| **Senolysis / dasatinib ± quercetin** | Genetic senescent-cell clearance improved selected tissue outcomes in BubR1 hypomorphic mice. [Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3468323/) | INK-ATTAC does not establish drug selectivity. Burden, cell-type susceptibility and replacement capacity are unmeasured; quercetin does not supply an approved-drug indication. Require selective clearance with increased net function and preserved reserve. |
+| **PP2A-B56 recruitment** | Engineered kinetochore recruitment rescued alignment in human MVA cells. [Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3654266/) | Strong mechanistic comparison, but no demonstrated repurposed drug supplies the same spatial recruitment. Alignment does not establish sustained fidelity. Retain as a genetic rescue reference. |
+| **Elamipretide / mitochondrial support** | Defined cardiolipin pharmacology and accelerated FDA approval for Barth-associated muscle strength at ≥30 kg, based on open-label knee-extensor findings. [Label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215244s000lbl.pdf) | No demonstrated BUB1B mitochondrial phenotype or rescue; [randomized primary endpoints](https://www.nature.com/articles/s41436-020-01006-8) in Barth were not met. A measured mitochondrial defect with sustained functional rescue would elevate it. |
+| **NAC / redox protection** | Plausible protection of already stressed cells. [Fibroblast study](https://doi.org/10.1002/cam4.101) | Genotype-dependent oxidative injury and useful exposure are unestablished. Probe interference and overlapping metabolic effects limit interpretation. A lower ROS signal does not establish tissue benefit. |
+| **Readthrough / NMD manipulation** | Could recover a longer product from the stop allele. [Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC5886253/) | RNA substrate, inserted residue, protein function and exposure are unresolved. Longer protein need not work; increasing an interfering product could worsen function. First measure L737*. The claim that UGA can never yield leucine is not used. |
+| **Proteasome blockade or HSP90 inhibition** | Turnover studies identify a protein-stability mechanism. [Study](https://pubmed.ncbi.nlm.nih.gov/20516114/) | Blocked degradation need not produce usable protein; HSP90 inhibition destabilized tested mutants. Broad effects and an untested N1002K response make these poor lead rescue strategies, not proven allele-specific contraindications. |
+| **IL-6/IL-6R blockade** | Particular CIN-high cancer models showed an actionable dependency. [Study](https://doi.org/10.1038/s41586-022-04847-2) | Requires an actual tumor dependency; CIN alone and RMS history are insufficient. It is a separate oncology question, not the selected muscle-rescue proposal. |
+| **Growth hormone** | Relevant to the growth phenotype if true deficiency exists. [Consensus](https://academic.oup.com/ejendo/article/186/6/P35/6853681) | Deficiency is unestablished; cancer predisposition generally argues against routine use, with individualized exceptions. It does not address the nominated cellular mechanism. |
+| **Splice switching** | Could help if an actionable transcript defect were demonstrated. | None is established. Coding location neither proves abnormal splicing nor excludes it; an ASO needs RNA and frame/function evidence before nomination. |
+| **Sirolimus, within the elected mTOR route** | The actual rapamycin compound has preclinical muscle/CIN evidence. [Muscle study](https://pubmed.ncbi.nlm.nih.gov/23602450/) | Not mechanistically rejected. Everolimus is the pragmatic lead; no head-to-head superiority is claimed. Exposure or stage-specific results could favor sirolimus instead. |
 
-Checkpoint inhibitors are excluded from the nonmalignant-cell rescue shortlist because further inhibition opposes the intended mechanism. That mechanistic selection is not a genotype-specific clinical contraindication or a prediction of tumor response. Readthrough remains deferred because endogenous RNA, product identity/function and useful exposure are unresolved. The older claim that UGA can never insert leucine is withdrawn: a context-specific reporter study reported Leu, with Leu/Ile measurement ambiguity. Neither that result nor a nonnative residue predicts BUBR1 rescue. [Xue et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC5886253/). Separate readthrough, 4-PBA and NAD-related branches remain in the [archival detailed revision 11 (not included)](PROVENANCE.md#archival-material).
+## Scope, safety and contribution
 
-**AI use:** Anthropic Claude Code and OpenAI Codex, personal subscriptions, training on the user's content disabled (user-confirmed). Exact historical model/plan names are unverified. Computation uses owned machines; candidate-level evidence summaries are reviewed with hosted assistants. Public upload and competition submission have not occurred.
+Failure to thrive, muscle atrophy, nephrocalcinosis and RMS history constrain
+interpretation. Nephrocalcinosis is not a measurement of filtration. Everolimus'
+infection, renal, metabolic, mucosal, pulmonary and wound-healing risks and drug
+interactions require clinical pharmacology review. Pediatric experience elsewhere
+does not settle this child's benefit–risk balance. The oncology stage requires
+confirmed tumor/regimen information; anticancer uses do not demonstrate safety
+in this RMS context. The dated [counter-screen](appendices/oncology-counterscreen.md)
+supplies general design principles, not everolimus-specific evidence.
 
-**Synthetic narration:** Cartesia Sonic 3.6 generated the pitch narration through its API using the stock Lauren voice. The Cartesia plan/tier and training/retention settings are unverified; the confirmed Claude Code/Codex settings do not establish Cartesia settings. The requested model identifier is sonic-3.6; the service did not return an immutable resolved snapshot. On 20 September 2026, the user selected and approved Lauren: “LGTM for Lauren.” The approved three-minute movie and captions are attached to the private GitHub release; Vimeo delivery remains pending.
+Potential impact is preservation of measurable muscle function and reserve,
+conditional on validation. Innovation is the genotype-to-pathway hypothesis and
+a test separating useful normalization from harmful growth suppression; we do
+not claim to have invented mTOR inhibition. The design transfers to other
+genotypes only after their pathway dependence is tested. A decisive negative
+experiment may improve understanding; an inconclusive assay does not automatically
+close a mechanism or establish impact.
+
+The resource need is a qualified myogenic model and a partner able to measure
+contraction, differentiation and exposure. Access is a prerequisite, not a
+completed milestone. This is a research proposal, not a treatment recommendation.
+The current [evidence pipeline](appendices/track2-evidence-pipeline.md) governs this
+lead; dated abundance/NAC appendices remain historical methods.
+
+**AI use:** Anthropic Claude Code and OpenAI Codex, personal subscriptions,
+training on the user's content disabled (user-confirmed). Exact historical
+model/plan names are unverified. Computation uses owned machines; candidate-level
+evidence summaries are reviewed with hosted assistants. Public release and
+competition submission have not occurred.
+
+**Synthetic narration:** The existing Cartesia Sonic 3.6/Lauren movie presents the
+earlier arimoclomol/NAC proposal and does not represent this elected lead. It is
+retained in the private GitHub release; Vimeo is on hold. The [proposed pitch
+text](jeweled_track2_pitch_reconciled.md) is unrecorded. Cartesia plan/tier and
+training/retention settings remain unverified separately from Claude/Codex.

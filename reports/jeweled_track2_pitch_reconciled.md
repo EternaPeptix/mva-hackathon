@@ -1,36 +1,36 @@
 # jeweled — Track 2 pitch: proposed revision and approved recording
 
-**Text-only proposal, 21 September 2026; not recorded or approved. Vimeo is on hold at the user's request.** The proposed revision makes the report's residual-protein thesis, decisive experiment and drug ranking explicit. It does not change the scientific decisions or the existing media. The [approved 180-second Lauren / Sonic 3.6 recording](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) uses the previous narration preserved below, with 24 caption segments and 293 spoken words. A revised recording would require new timing, captions and review; the existing movie must not be described as containing this proposal.
+**Text-only proposal, 21 September 2026; not recorded or approved. Media work and Vimeo are on hold at the user's request.** The proposed revision presents the newly selected everolimus hypothesis and the experiments required to accept or reject it. It does not alter the existing media. The [approved 180-second Lauren / Sonic 3.6 recording](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) uses the previous arimoclomol/NAC narration preserved below, with 24 caption segments and 293 spoken words. That recording does not present the new lead. A revised recording would require new timing, captions and review.
 
 ## Proposed narration — not recorded
 
-### Restore usable BUBR1
+### From a gene hypothesis to muscle function
 
-Our proposal is to restore the amount of usable BUBR1 protein available when cells divide. Our leading genomic hypothesis combines a BUB1B stop variant with the missense variant N1002K. Both are observed, but their phase is unresolved and the missense remains uncertain. The question is whether residual mutant protein could work if enough of it survives.
+Our experimental lead is everolimus, to test whether normalizing excess mTOR signaling can improve muscle function. Our genomic hypothesis combines a BUB1B stop variant with N1002K. Their phase and missense function remain unresolved. We propose a research decision, not chromosome correction or clinical benefit.
 
-### Test the mechanism before the drug
+### Why this route leads
 
-Published experiments restored checkpoint responses for selected low-abundance BUBR1 mutants by increasing their expression. N1002K has not been tested. In a qualified model, measure its abundance and function, then restore the unchanged mutant protein to near-normal levels and compare it with wild type. If function remains defective, abandon an abundance-only strategy. Genetic correction is a separate control for variant dependence.
+A mouse carrying a different BubR1 truncation showed excess muscle mTOR signaling. No rapalog rescue was tested there. Everolimus has an established target relationship and pediatric formulation experience. This makes it a practical lead, not a drug proven superior to sirolimus. Abundance rescue and senescent-cell clearance remain alternatives with unresolved drug bridges.
 
-### First priority: arimoclomol
+### Prove that the excess is harmful
 
-Arimoclomol is our first experimental drug candidate because it could test this protein-quality route. Its effects on other proteins motivate the choice; BUBR1's HSP90 dependence does not establish rescue through HSP70. Advance only if measured, relevant drug exposure improves both usable protein and mitotic function. More protein alone is insufficient.
+High signaling might compensate for damage. A qualified model must first demonstrate a muscle defect. Compare genetic correction with partial pathway normalization under matched conditions. If verified normalization fails to improve function, this lead does not advance on those results. Eliminating a pathway needed for normal muscle growth would answer a different question.
 
-### Second priority: acetylcysteine
+### Separate mature muscle from regeneration
 
-Acetylcysteine ranks second, as a comparator for a demonstrated oxidative-stress defect. It might improve cell function while chromosome errors persist. That would be protection, not corrected segregation. Test it separately; neither candidate has demonstrated benefit for this genotype.
+Test mature myotube function, then separately test progenitor differentiation and regeneration. Measure actual everolimus exposure and target engagement alongside functional benefit and absolute viable output. Lower signaling alone is insufficient. A benefit that sacrifices growth or renewal would not justify advancement.
 
-### Count benefit without hiding harm
+### Count what the experiment preserves
 
-For arimoclomol versus vehicle, track each starting cell through its first mitosis. Measure visible-error anaphases alongside first-anaphase yield without a scored error per starting cell. Retain death, arrest and tracking loss, and follow later survival and clone composition. These counts do not prove normal chromosomes or completed division.
+Our sequence analysis checks the nominated coding changes. Separate population simulations show why a healthier-looking survivor fraction can conceal lost output. They use assumptions, not patient-calibrated drug effects. Preserve absolute counts, growth and function so arrest or selective killing cannot masquerade as rescue.
 
 ### Make the next decision useful
 
-Rhabdomyosarcoma is recorded, so tumor protection or interference with confirmed cancer treatment would block advancement. Reproducible cell benefit at relevant exposure would justify further research. Laboratory access remains unestablished, and no drug experiment has run. The contribution is a testable path from a candidate allele to a protein-rescue decision and a ranked drug proposal.
+Rhabdomyosarcoma is recorded, so tumor protection or interference with confirmed cancer treatment would block advancement. Laboratory access remains unestablished, and no drug experiment has run. The next useful result is whether this pathway causes a reversible muscle defect at a tolerable experimental exposure.
 
 ## Evidence for the proposed revision
 
-The [current Track 2 report](jeweled_track2_report_submission.md) contains the full experimental rationale and stopping rules. The expression-rescue precedent is [Suijkerbuijk et al., particularly Figure 4D](https://pubmed.ncbi.nlm.nih.gov/20516114/); it does not establish N1002K rescue. [Fog et al.](https://doi.org/10.1016/j.ebiom.2018.11.037) studied arimoclomol in a different disease/protein context. Neither source demonstrates a drug response for the nominated genotype. The new text brings those distinctions and the genetic abundance test into the pitch; it adds no experimental result.
+The [current Track 2 report](jeweled_track2_report_submission.md) and [governing evidence pipeline](appendices/track2-evidence-pipeline.md) contain the comparative selection, experimental rationale and stopping rules. [Sieben et al.](https://www.jci.org/articles/view/126863/version/2) provide the different-truncation muscle-pathway precedent, without a rapalog treatment experiment. [Everolimus prescribing information](https://www.novartis.com/us-en/product/pi/pdf/afinitor.pdf) supplies pharmacology and approved-use context, not MVA efficacy. [Muscle-regeneration experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC2793064/) motivate the separate regeneration safeguard. The [genome-informed model](../workflow/track2-model/README.md) supplies sequence and endpoint-design analysis, not a drug ranking. The proposed text reports no new biological rescue result.
 
 ## Approved narration — unchanged recording
 
@@ -60,6 +60,6 @@ Rhabdomyosarcoma is recorded, so test tumor protection and interference with any
 
 ## Evidence and delivery note
 
-The new [submission report](jeweled_track2_report_submission.md) carries the adopted subjective exact-pair EPCR 0.8 and primary citations. This narration intentionally does not quote EPCR: it is not a probability of drug response, and the proposed treatment mechanisms remain conditional. Omitting the number from a short pitch does not change the Track 1 decision.
+The [submission report](jeweled_track2_report_submission.md) retains subjective exact-pair EPCR 0.8. Neither narration quotes that number: genomic causality is not a probability of drug response. The approved narration above retains the earlier arimoclomol/NAC proposal exactly and is historical with respect to the current everolimus lead.
 
-The review movie discloses synthetic Cartesia Sonic 3.6 narration separately from Claude Code/Codex personal subscriptions with user-confirmed training disabled. Cartesia plan/tier and training/retention settings are unverified. The approved movie, audio, captions and spoken text remain unchanged.
+The review movie discloses synthetic Cartesia Sonic 3.6 narration separately from Claude Code/Codex personal subscriptions with user-confirmed training disabled. Cartesia plan/tier and training/retention settings are unverified. The approved movie, audio, captions and spoken text remain unchanged. No new recording, rendering or upload is authorized by this document; media work remains on hold.
