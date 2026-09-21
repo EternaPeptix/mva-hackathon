@@ -44,9 +44,10 @@ The earlier full caller run took about 116 minutes; controlled case data are sep
 
 ## Validation summary
 
-HG002 reads are labelled nominally 35×. Comparison uses GIAB v4.2.1, its official chr20
-confident BED and genotype-aware RTG Tools 3.13 vcfeval, with full-chromosome context and
-raw calls. [Methods](workflow/docs/PUBLIC-BENCHMARK-METHOD.md) explain denominators and thresholds.
+HG002 reads are labelled nominally 35×; measured mean depth is **36.97× inside the confident
+regions**, with **99.25% of bases at least 20×** (MAPQ≥20/BQ≥20). Comparison uses GIAB v4.2.1,
+its official chr20 confident BED and genotype-aware RTG Tools 3.13 vcfeval, with full-chromosome
+context and raw calls. [Methods](workflow/docs/PUBLIC-BENCHMARK-METHOD.md) explain the definitions.
 
 | Public check | Recorded result |
 |---|---|

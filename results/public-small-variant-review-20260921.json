@@ -1,11 +1,11 @@
 {
   "status": "complete",
   "reviewed_at": "2026-09-21T00:09:31.422552+00:00",
-  "scope": "Public HG002 chr20 saved-comparison method and metric review; no new caller, RTG, hap.py, depth or clinical analysis",
+  "scope": "Public HG002 chr20 saved-comparison method and metric review plus descriptive public read-depth measurement; no caller/comparator rerun is claimed by this record.",
   "conclusion": "The existing published benchmark already used RTG Tools 3.13 vcfeval. A repeated vcfeval invocation would test replay, not an orthogonal matching engine. No second-engine validation is claimed.",
   "coverage": {
     "provider_nominal_depth_x": 35,
-    "measured_mean_depth": null,
+    "measured_mean_depth": 35.75368960855681,
     "mapped_alignment_records_from_completed_pilot": 19430746,
     "confident_bed": {
       "intervals": 10192,
@@ -13,7 +13,97 @@
       "chr20_length": 64444167,
       "fraction": 0.8831868212370563
     },
-    "warning": "35x is the public source label; neither mapped-record count nor BED coverage establishes measured depth/callability."
+    "warning": "Nominal 35x is the public source label. The separate measured depths use the explicit samtools filters below and do not establish caller-specific or clinical callability.",
+    "measurement": {
+      "status": "complete",
+      "recorded_at": "2026-09-21T02:05:25.106749+00:00",
+      "tool": "samtools 1.24",
+      "returncode": 0,
+      "elapsed_seconds_rounded": 77.434,
+      "public_only": true,
+      "per_base_output_saved": false,
+      "existing_calling_job_or_inputs_modified": false,
+      "whole_chr20": {
+        "bases_including_zero": 64444167,
+        "depth_sum": 2304116744,
+        "mean_depth_x": 35.75368960855681,
+        "zero_depth_bases": 2734322,
+        "zero_depth_fraction": 0.042429317148284344,
+        "bases_at_least_20": 60524984,
+        "fraction_at_least_20": 0.9391848295595162
+      },
+      "official_confident_regions": {
+        "bases_including_zero": 56916239,
+        "depth_sum": 2104079013,
+        "mean_depth_x": 36.967991033279624,
+        "zero_depth_bases": 39251,
+        "zero_depth_fraction": 0.0006896274365563754,
+        "bases_at_least_20": 56488703,
+        "fraction_at_least_20": 0.9924883300880089
+      },
+      "definition": {
+        "minimum_base_quality": 20,
+        "minimum_mapping_quality": 20,
+        "excluded_flags": [
+          "UNMAP",
+          "SECONDARY",
+          "QCFAIL",
+          "DUP"
+        ],
+        "supplementary_alignments_eligible": true,
+        "deletion_bases_counted": false,
+        "overlapping_mates": "Both alignments count; -s is not used.",
+        "BAQ": false,
+        "depth_cap": null,
+        "zero_depth_positions_included": true,
+        "additional_samtools_threads": 0
+      },
+      "aggregation": "Require contiguous one-based output positions 1 through 64444167. Accumulate n, sum(depth), count(depth==0), count(depth>=20). For BED aggregation, convert position to zero-based and advance through sorted nonoverlapping [start,end) intervals; count each matching base once. Require BED base count 56916239.",
+      "input_identities": {
+        "BAM": {
+          "name": "HG002.novaseq.pcr-free.35x.dedup.grch38_no_alt.chr20.bam",
+          "bytes": 1093938924,
+          "sha256": "34ac157739e1feeb590f6eb7e11046ccc2aa3277fd55a3ce0942e774d931ed81",
+          "evidence": "Existing replay download verification; size freshly checked, SHA256 not recomputed during depth measurement."
+        },
+        "BAI": {
+          "sha256": "245dcdcc474b1971eeb36fc9a8af37b76ac8b4c7ce06a7bdee64e0c42bd93f34",
+          "evidence": "Existing replay download verification; SHA256 not recomputed during depth measurement."
+        },
+        "prepared_chr20_BED": {
+          "path_relative_to_replay": "prepared/official-chr20-v4.2.1.bed",
+          "sha256": "52d9c15a5c5e4552da1b9111fbcb5514a8d65b4ed5ad95542f22ffdcdd16a3f3",
+          "intervals": 10192,
+          "bases": 56916239,
+          "evidence": "Fresh hash and exact coordinate equality to chr20 rows of the official source BED."
+        },
+        "official_source_BED_sha256": "fba9a57c36ec88e5d14ea3e259c8866c7935f4998d3ec0fa2d6c3962da5b5575"
+      },
+      "resource_controls": {
+        "nice": 10,
+        "watchdog_seconds": 900,
+        "combined_reader_samtools_average_CPU_cores_target": 1
+      },
+      "warning": "samtools warned that the BAI modification time predates the BAM modification time; no read/index error occurred. No reindexing was performed.",
+      "scope": "Descriptive public read depth; no new caller/comparator execution, no change to benchmark scores, no case data, no attribution of individual variant misses.",
+      "command_argv_relative_to_replay": [
+        "tools/bio/bin/samtools",
+        "depth",
+        "-aa",
+        "-r",
+        "chr20:1-64444167",
+        "-q",
+        "20",
+        "-Q",
+        "20",
+        "-@",
+        "0",
+        "--excl-flags",
+        "UNMAP,SECONDARY,QCFAIL,DUP",
+        "ref/giab-sv-20260919/inputs/HG002.novaseq.pcr-free.35x.dedup.grch38_no_alt.chr20.bam"
+      ],
+      "reproduction_example": "../workflow/docs/PUBLIC-BENCHMARK-METHOD.md#reproduce-measured-depth"
+    }
   },
   "method": {
     "truth": "GIAB HG002 GRCh38 v4.2.1",
@@ -476,7 +566,7 @@
   ],
   "limits": [
     "One public prealigned chromosome inside confident regions, not genome-wide or patient sensitivity.",
-    "No measured coverage distribution or stratified difficult-region accuracy is established here.",
+    "The stated depth aggregates do not establish clinical callability, caller-specific filtering, difficult-region accuracy or causes of individual missed variants.",
     "Original split-normalized primary and post-observation retained-genotype sensitivity are separate arms; original result is not replaced.",
     "Baseline and call true-positive denominators differ by representation.",
     "Finite native path checks found the installed RTG runtime and no hap.py at the checked project paths; no claim of global tool absence."

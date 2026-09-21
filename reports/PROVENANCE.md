@@ -1,6 +1,6 @@
 # Report provenance and scope
 
-**Review revision: 21 September 2026.** This directory brings the revised research reports, methods answers, prediction CSV, proposed pitch revision and unchanged approved narration into one browsable checkout. It is not a new competition submission, a public release or a new scientific run.
+**Review revision: 21 September 2026.** This directory brings the revised research reports, methods answers, prediction CSV, proposed pitch revision and unchanged approved narration into one browsable checkout. It remains a private research draft; no competition submission or public release has occurred. The measured-depth update concerns the public HG002 benchmark, not a new case analysis or patient experiment.
 
 ## Evidence scope
 

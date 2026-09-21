@@ -85,3 +85,8 @@ abundance test and drug ranking. This adds no case findings or data category. Th
 narration remains exact, and the movie/captions are unchanged. The text proposal is not a
 recording, approval, upload or new scientific result; its bytes and updated navigation are
 covered by the inventory's pitch follow-up.
+
+The measured-depth addition uses only the already selected public HG002 BAM and GIAB
+regions. It adds aggregate depth sums/counts, explicit filters and a reproduction example
+to existing files. No per-base output or additional case finding is included; this does not
+establish completion of the separate full calling/comparison replay.

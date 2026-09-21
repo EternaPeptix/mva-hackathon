@@ -29,6 +29,11 @@ why arimoclomol is the first drug priority and NAC a downstream comparator. The 
 293-word narration is preserved in the same document; its movie and captions are unchanged.
 The proposed revision has not been recorded or approved, and Vimeo remains on hold.
 
+Measured public HG002 read depth now supplements the nominal 35× label: 35.75× across
+chr20 and 36.97× inside the confident BED at MAPQ≥20/BQ≥20, including zero-depth bases.
+The existing method/result documents record exact aggregates and filtering. The descriptive
+measurement changes neither variant-comparison scores nor the case interpretation.
+
 ## 20 September 2026 — historical source additions
 
 The sections below are the original release notes. Status, host names, version labels,
