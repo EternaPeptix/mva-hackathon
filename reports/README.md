@@ -10,6 +10,13 @@ Track 2 selects **everolimus** as the experimental lead for normalizing mTORC1 i
 
 The [one-row prediction CSV](jeweled_evidence-reconciled-v2.csv) records the current decision; its [provenance](jeweled_evidence-reconciled-v2.csv.provenance.json) covers format and reference checks, not a comparison with private truth.
 
+The completed [public mouse RNA analysis](../workflow/track2-rna/README.md) did not
+corroborate an upregulated mTORC1 Hallmark program. The proposal retains this
+unfavorable result and narrowly prefers everolimus for a qualified experimental
+test, without claiming convergent transcriptional support. Continuous versus
+pulse/washout experiments must establish function and regeneration; intermittent
+inhibition is not presumed protective.
+
 ## Pitch and delivery
 
 The [pitch document](jeweled_track2_pitch_reconciled.md) contains a proposed text-only revision explaining the everolimus hypothesis and decisive experiments, followed by the unchanged approved narration. The approved 180-second Lauren / Cartesia Sonic 3.6 movie and its 24 caption segments use the previous 293-word arimoclomol/NAC script and remain [private GitHub release attachments](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920); access requires repository permission. That recording does not present the new lead. The proposed revision is not recorded or approved. Media work and Vimeo are on hold at the user's request; competition submission remains pending.

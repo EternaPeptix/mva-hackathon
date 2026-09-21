@@ -22,6 +22,13 @@ translation. This is a qualitative research-priority decision, not a computed
 probability that the drug works. The [official Track 2 criteria](https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/blob/main/tabs/about.py)
 reward rigor, impact, innovation and scalability.
 
+Our preference is **narrow and conditional**. A completed secondary analysis of
+the public mouse counts did not corroborate an upregulated mTORC1 transcriptional
+program. We retain everolimus because the separate muscle-signaling observation
+and established drug action still define a more direct approved-drug experiment
+than the available alternatives. We do not claim a convergent molecular signature
+or a validated best therapy.
+
 The disease link comes from increased muscle mTORC1 signaling in heterozygous
 BubR1+/X753 mice before overt muscle aging. **X753 is not L737Ter**, and mouse
 L1002P models human L1012P, not this case's N1002K. No rapalog rescue was tested in
@@ -51,7 +58,7 @@ actionable. [BUBR1 rescue precedent](https://pubmed.ncbi.nlm.nih.gov/20516114/).
 |---|---|---|
 | **1. Candidate genotype** | Track 1 retains BUB1B Leu737Ter + Asn1002Lys, subjective exact-pair EPCR 0.8, phase unresolved and missense VUS. | Establish phase where feasible; retain alternatives. EPCR is not a probability of pathway activation or drug benefit. [Track 1](jeweled_track1_report_submission.md). |
 | **2. Sequence consequence** | Completed reconstruction: L737* predicts 736 amino acids; N1002K predicts a full-length altered protein. In cis, the stop masks the downstream missense under canonical translation. | Measure endogenous RNA/protein. Predicted NMD is not measured decay; neither phase branch proves mTOR excess. [Analysis](../workflow/track2-model/README.md). |
-| **3. Disease-to-pathway rationale** | Same-gene mouse muscle association, with the allele/model limits above. | Demonstrate excess signaling and impaired function in matched myogenic cells with genetic controls. Normal activity in a qualified relevant model removes this lead's central rationale. |
+| **3. Disease-to-pathway rationale** | Same-gene mouse muscle signaling association; our public-count reanalysis adds no positive mTORC1 transcriptional corroboration. | Demonstrate excess signaling and impaired function in matched myogenic cells with genetic controls. Normal activity in a qualified relevant model removes this lead's central rationale. |
 | **4. Pathway dependence** | No case-specific causal result exists. Different-genotype muscle studies show both benefit from reducing excess and harm from excessive inhibition. | Graded partial RPTOR attenuation toward the corrected-cell range must improve function without lost differentiation/regeneration. A lower phosphoprotein signal alone fails advancement. |
 | **5. Drug implementation** | Everolimus engages the nominated pathway; no BUB1B response has been measured. | Drug versus vehicle must reproduce useful function at justified, measured exposure. Genetic rescue with drug failure rejects this compound implementation. |
 | **6. Durable net benefit** | Population sensitivity analysis demonstrates why favorable fractions can hide lost output. | Preserve absolute muscle function, viable differentiated output and progenitor replacement; follow after washout and through independent confirmation. No simulation score substitutes for these observations. |
@@ -60,6 +67,25 @@ actionable. [BUBR1 rescue precedent](https://pubmed.ncbi.nlm.nih.gov/20516114/).
 The [evidence-pipeline appendix](appendices/track2-evidence-pipeline.md) connects
 sources to claims, specifies the two muscle experiments and records decision rules.
 Completed computation is distinguished from proposed laboratory work.
+
+## What the public mouse data actually add
+
+We analysed deposited **GSE134781** counts from three mice per genotype, using
+all 50 mouse Hallmark programs and three planned contrasts. The analysis retained
+12,989 genes and accounted for within-program gene correlation. No program met
+FDR <0.05 across the 150 tests. The mTORC1 set in X753 versus WT was weakly
+downward relative to background (P=0.219; adjusted P=0.983), with median gene
+log2 fold change −0.085. It did not become significant in any sensitivity analysis.
+[Full analysis, figures and replay](../workflow/track2-rna/README.md).
+
+This result **does not support the proposed pathway through this RNA signature**.
+It does not negate the separate phosphorylation observations: RNA and kinase
+activity are different measurements, and our analysis differs from the original
+DESeq2/STRING method. Nine bulk-tissue samples with unavailable batch information
+also cannot exclude a pathway effect. Neither this null result nor the generic
+population simulation ranks drugs. We therefore make pathway qualification the
+first decisive experiment, retain competing mechanisms and avoid presenting
+literature association plus computation as independent therapeutic validation.
 
 ## The experiment that decides the proposal
 
@@ -100,6 +126,18 @@ impaired regenerating myofiber formation/maturation, and raptor ablation caused
 muscle dystrophy. [Ge et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC2793064/),
 [Bentzinger et al.](https://doi.org/10.1016/j.cmet.2008.10.002).
 These results require a useful signaling window and preservation of regeneration.
+
+The next question is whether a useful effect persists after drug withdrawal.
+Compare continuous exposure with a pulse followed by verified washout, recording
+both target recovery and absolute functional output. Include sirolimus as the
+published-compound reference and compare measured exposure, not equal nominal
+concentrations. Do not presume a pulse protects growth: a randomized 2026 study
+in 40 older adults found no primary functional advantage from timed weekly
+sirolimus plus exercise; its sensitivity analyses favored placebo. This is
+counterevidence to a generic timing claim, not a test of MVA.
+[RAPA-EX-01](https://doi.org/10.1002/jcsm.70274). The
+[pipeline appendix](appendices/track2-evidence-pipeline.md#compare-treatment-windows-without-presuming-a-safer-schedule)
+also considers context-dependent regeneration results.
 
 For everolimus, a pharmacologist must justify formulation, exposure duration,
 medium binding, uptake and measured drug concentrations. **Whole-blood trough
@@ -167,13 +205,20 @@ confirmed tumor/regimen information; anticancer uses do not demonstrate safety
 in this RMS context. The dated [counter-screen](appendices/oncology-counterscreen.md)
 supplies general design principles, not everolimus-specific evidence.
 
-Potential impact is preservation of measurable muscle function and reserve,
-conditional on validation. Innovation is the genotype-to-pathway hypothesis and
-a test separating useful normalization from harmful growth suppression; we do
-not claim to have invented mTOR inhibition. The design transfers to other
-genotypes only after their pathway dependence is tested. A decisive negative
-experiment may improve understanding; an inconclusive assay does not automatically
-close a mechanism or establish impact.
+Our submission's competitive claim is a specific, falsifiable muscle-rescue
+experiment connected to the candidate genotype, with computation that can expose
+its weaknesses. The [Track 2 rubric](https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/blob/main/tabs/about.py)
+maps to concrete deliverables:
+
+| Criterion | What this submission contributes | What remains unearned |
+|---|---|---|
+| Scientific rigor — 35% | Allele reconstruction, unfavorable public-data analysis, source-scoped drug comparison and genetic-versus-drug functional tests. | Case-relevant pathway causality and drug rescue. |
+| Potential impact — 25% | A test of preserved muscle function and regenerative reserve, tied to recorded muscle atrophy and failure to thrive. | Magnitude or durability of benefit; neither genome correction nor clinical response is predicted. |
+| Innovation — 25% | A falsifiable signaling-window experiment that separates function from selection and growth suppression, informed by genotype branches and population counterexamples. | A demonstrated useful window; using an mTOR inhibitor itself is not novel. |
+| Scalability — 15% | Public-count replay and reusable genotype/pathway qualification plus absolute-output endpoints. | Transfer requires relevant models and empirical dependence in each new genotype; myogenic assays are a practical bottleneck. |
+
+A decisive negative experiment may improve understanding; an inconclusive assay
+does not automatically close a mechanism or establish impact.
 
 The resource need is a qualified myogenic model and a partner able to measure
 contraction, differentiation and exposure. Access is a prerequisite, not a

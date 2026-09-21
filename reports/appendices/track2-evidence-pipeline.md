@@ -26,8 +26,9 @@ flowchart TD
     F --> R[Independent confirmation and tumor/regimen assessment]
 ```
 
-Only the candidate evidence and sequence/population computation are completed for
-this project. The remaining nodes are proposed experiments. A missing or failed
+Candidate evidence, sequence/population computation and a secondary public mouse
+RNA analysis are completed for this project. The RNA analysis supplies no positive
+mTORC1 Hallmark corroboration. The remaining nodes are proposed experiments. A missing or failed
 link is retained visibly; the arrow diagram does not supply evidence for it.
 
 ## Source-to-claim chain
@@ -36,8 +37,11 @@ link is retained visibly; the arrow diagram does not supply evidence for it.
 |---|---|---|
 | [Track 1 report](../jeweled_track1_report_submission.md) and [sequence reconstruction](../../workflow/track2-model/README.md) | Support for the two nominated alleles and their conditional canonical products. | Observed phase, endogenous protein, a measured mTOR defect or drug response. |
 | [Sieben 2020, Fig. 5](https://www.jci.org/articles/view/126863/version/2) | Muscle signaling association in a different heterozygous BubR1 truncation model. RNA sequencing used three mice/genotype; signaling blots used two. | Causal rescue by pathway inhibition, equivalence to L737*/N1002K, or abundance independence. BUBR1 amount and signaling were measured at different ages. [Corrigendum](https://www.jci.org/articles/view/144781) concerns Fig. 2E, not Fig. 5. |
+| [Our secondary analysis of GSE134781](../../workflow/track2-rna/README.md) | No positive mTORC1 Hallmark result: X753–WT P=0.219, global FDR=0.983; no planned program significant after correlation-aware testing and 150-test correction. | Pathway absence, reduced kinase activity, a drug ranking or independent biological replication. It weakens claimed transcriptional convergence, without replacing the separate protein-signaling evidence. |
 | [Castets 2013](https://pubmed.ncbi.nlm.nih.gov/23602450/) | Rapamycin restored autophagy and improved myopathy in muscle-specific Tsc1-deficient mice. | BUB1B disease rescue or everolimus efficacy. This supports testing pathological excess rather than assuming all pathway activation is beneficial. |
 | [Ge 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2793064/) and [Bentzinger 2008](https://doi.org/10.1016/j.cmet.2008.10.002) | Interfering with mTOR signaling can impair muscle regeneration; raptor ablation can cause dystrophy. | An inevitable adverse response to carefully limited everolimus exposure in this genotype. They require a stage-specific functional test and argue against complete ablation as a therapeutic proxy. |
+| [Balnis 2025](https://doi.org/10.1172/jci.insight.182842) | Rapamycin improved satellite-cell autophagy, activation and regenerative capacity in hypercapnic mice. | A general prohibition on progenitor exposure, or benefit in BUB1B disease. Together with Ge 2009, this makes pathological state and pathway dependence necessary distinctions, beyond mature versus regenerating tissue. |
+| [Elliehausen 2025](https://doi.org/10.1111/acel.70183) and [RAPA-EX-01, 2026](https://doi.org/10.1002/jcsm.70274) | In adult female mice, weekly and three-times-weekly rapamycin did not detectably attenuate exercise-related muscle gains; intermittent dosing reduced some metabolic disruption. In 40 older adults, deliberately timed weekly sirolimus plus exercise did not demonstrate primary functional benefit: intention-to-treat chair-stand difference (sirolimus minus placebo) −2.13 repetitions, 95% CI −4.61 to 0.34; sensitivity analyses favored placebo. | A proven growth-preserving pulse schedule, pediatric MVA benefit or everolimus efficacy. The human result challenges generic claims for cycling while leaving genotype-specific pathological excess untested. |
 | [Fly CIN study, Fig. 6 and supplement](https://doi.org/10.1038/s41467-026-70521-0) | TOR attenuation/rapamycin partially preserved neural stem-cell numbers without restoring progeny or brain size. | BUB1B muscle rescue, everolimus activity or restoration of tissue output. |
 | [Everolimus prescribing information, sections 1, 5, 8, 12](https://www.novartis.com/us-en/product/pi/pdf/afinitor.pdf) | Approved uses, drug action, pediatric formulations/experience, monitoring and known risks. | An MVA indication, equivalent culture exposure, absence of growth harm, RMS protection or an appropriate dose for this child. |
 | [Population sensitivity results](../../workflow/track2-model/population-results.json) | Under declared assumptions, cell fractions, absolute output and weighted function can disagree; suppressed division creates a compensating-function requirement. | Observed biology, muscle-force simulation, drug effect sizes or a reason to choose everolimus from numerical outcomes. |
@@ -111,6 +115,37 @@ concentration, stability, binding and cellular engagement. Whole-blood monitorin
 targets are not culture-medium free concentrations. High-dose mechanistic controls
 cannot satisfy the translational gate. No concentration or patient dose is invented
 here before those measurements exist.
+
+Include **sirolimus as a pharmacological reference compound**, because it is the
+rapamycin used in the cited muscle and CIN experiments. Everolimus remains the
+pragmatic lead based on pediatric approved-use/formulation experience; no MVA
+superiority is assumed. Compare exposure and cellular engagement rather than
+treating equal nominal concentrations as equivalent. Discordant effects require
+compound-specific interpretation, not automatic rejection of the whole pathway.
+
+### Compare treatment windows without presuming a safer schedule
+
+In each cohort, compare vehicle, continuous exposure and a finite pulse followed
+by verified washout over the same observation period. Choose windows from the
+model's maturation and measured pharmacodynamic kinetics, not the arbitrary time
+units in the population simulation. Match vehicle handling and record cumulative
+exposure; specify whether a contrast tests a whole regimen or timing at comparable
+exposure, so a smaller total dose is not mislabelled a timing effect.
+
+Measure substrate phosphorylation during treatment and after withdrawal,
+alongside drug disappearance, to establish the extent and timing of target
+recovery or rebound. Washout alone does not prove recovered signaling. Follow
+absolute contractile output and viable tissue in the mature cohort, and expansion,
+differentiation and subsequent functional yield in the progenitor cohort through
+the recovery period. Sampling only an attractive point during suppression or
+recovery cannot establish durable benefit.
+
+A pulse advances only if it meets the same functional-benefit and regeneration
+criteria as continuous treatment; neither schedule is favored in advance. The
+mouse and human timing results above justify this comparison, not a claim that
+intermittent inhibition is protective. Likewise, the opposing regeneration
+results require measuring the disease state rather than assuming all progenitor
+exposure is harmful or all mature-muscle exposure is useful.
 
 Require both pathway engagement and the functional/regenerative result. Partial
 RPTOR attenuation and a rapalog have different kinetics and potentially different

@@ -111,3 +111,13 @@ the retained reference and reproduced all scientific population outputs exactly,
 excluding execution metadata. This validates replay, not pathway activation or
 drug efficacy. The current reports and unrecorded pitch text adopt the new lead;
 Track 1 content, the prediction CSV and approved narration remain unchanged.
+
+### Public mouse transcriptome follow-up
+
+`workflow/track2-rna/` adds source and a fresh-download replay of deposited
+GSE134781 mouse counts, plus complete aggregate gene/program results, figures and
+the executed environment. No case data are added. MSigDB-derived membership and
+overlap retain attributed CC BY 4.0 terms. The unfavorable mTORC1 transcriptional
+result and scheduling counterevidence now appear in the proposal, methods and
+unrecorded pitch. The inventory refresh covers this public-data addition; the
+repository remains private, and media remains on hold.

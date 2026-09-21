@@ -10,7 +10,7 @@ Our experimental lead is everolimus, to test whether normalizing excess mTOR sig
 
 ### Why this route leads
 
-A mouse carrying a different BubR1 truncation showed excess muscle mTOR signaling. No rapalog rescue was tested there. Everolimus has an established target relationship and pediatric formulation experience. This makes it a practical lead, not a drug proven superior to sirolimus. Abundance rescue and senescent-cell clearance remain alternatives with unresolved drug bridges.
+A mouse carrying a different BubR1 truncation showed excess muscle mTOR signaling. No rapalog rescue was tested there, and our RNA reanalysis did not add supporting evidence. Everolimus has an established target relationship and pediatric formulation experience. This makes it a practical lead, not a drug proven superior to sirolimus. Abundance rescue and senescent-cell clearance remain alternatives with unresolved drug bridges.
 
 ### Prove that the excess is harmful
 
@@ -30,7 +30,7 @@ Rhabdomyosarcoma is recorded, so tumor protection or interference with confirmed
 
 ## Evidence for the proposed revision
 
-The [current Track 2 report](jeweled_track2_report_submission.md) and [governing evidence pipeline](appendices/track2-evidence-pipeline.md) contain the comparative selection, experimental rationale and stopping rules. [Sieben et al.](https://www.jci.org/articles/view/126863/version/2) provide the different-truncation muscle-pathway precedent, without a rapalog treatment experiment. [Everolimus prescribing information](https://www.novartis.com/us-en/product/pi/pdf/afinitor.pdf) supplies pharmacology and approved-use context, not MVA efficacy. [Muscle-regeneration experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC2793064/) motivate the separate regeneration safeguard. The [genome-informed model](../workflow/track2-model/README.md) supplies sequence and endpoint-design analysis, not a drug ranking. The proposed text reports no new biological rescue result.
+The [current Track 2 report](jeweled_track2_report_submission.md) and [governing evidence pipeline](appendices/track2-evidence-pipeline.md) contain the comparative selection, experimental rationale and stopping rules. [Sieben et al.](https://www.jci.org/articles/view/126863/version/2) provide the different-truncation muscle-pathway precedent, without a rapalog treatment experiment. [Everolimus prescribing information](https://www.novartis.com/us-en/product/pi/pdf/afinitor.pdf) supplies pharmacology and approved-use context, not MVA efficacy. [Muscle-regeneration experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC2793064/) motivate the separate regeneration safeguard. The [genome-informed model](../workflow/track2-model/README.md) supplies sequence and endpoint-design analysis, not a drug ranking. The [public mouse RNA reanalysis](../workflow/track2-rna/README.md) supplies no positive mTORC1 Hallmark corroboration; the proposed text reports no biological rescue result.
 
 ## Approved narration — unchanged recording
 

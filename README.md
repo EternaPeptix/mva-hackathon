@@ -79,6 +79,8 @@ muscle-pathway precedent, without a rapalog rescue experiment. Elevated signalin
 be compensatory. Partial genetic normalization must improve function before drug effects can
 support this mechanism; mature myotubes and progenitor differentiation/regeneration are separate
 tests. Everolimus is a pragmatic rapalog choice, not proven superior to sirolimus.
+Our [public mouse RNA reanalysis](workflow/track2-rna/README.md) found no positive mTORC1
+Hallmark support (adjusted P=0.983); the lead remains conditional on direct pathway and functional tests.
 
 The [proposal](reports/jeweled_track2_report_submission.md) and
 [evidence pipeline](reports/appendices/track2-evidence-pipeline.md) explain the

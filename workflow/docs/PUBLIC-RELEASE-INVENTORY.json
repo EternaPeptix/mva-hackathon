@@ -12940,8 +12940,8 @@
   ],
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
-    "reviewed_at_utc": "2026-09-21T00:43:51.635162+00:00",
-    "scope": "50 current payload files plus two self-referential audit documents; the regenerated SOURCE-SNAPSHOT records the selection. Historical baseline decisions remain unchanged.",
+    "reviewed_at_utc": "2026-09-21T14:48:56.374105+00:00",
+    "scope": "69 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12954,7 +12954,7 @@
       "original_audit_bytes_sha256": "7fae846b1a22b88b05096372fa4fbbd9bbca7f27e23f725a2ff32ad1b6a2644b",
       "all_original_fields_unchanged": true
     },
-    "reviewed_payload_count": 50,
+    "reviewed_payload_count": 69,
     "report_tree_files": 22,
     "reviewed_files": [
       {
@@ -12977,8 +12977,8 @@
       },
       {
         "path": "README.md",
-        "bytes": 6516,
-        "sha256": "a06538cd322a79537a3cdb457a75ba3fd40aa3e2cfb662f0058fc9788e9d55b1",
+        "bytes": 6712,
+        "sha256": "f60aff99a9f6a9a3b1ed41c17b4a98b5e446298766322a8df443b31db7ceaf16",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -12995,8 +12995,8 @@
       },
       {
         "path": "reports/PROVENANCE.md",
-        "bytes": 7203,
-        "sha256": "a765228f788daa9fa1196a7766b0796c7cc6295dbad66dbc8d6443f16dd68f2c",
+        "bytes": 7902,
+        "sha256": "bd50f4f0fb76985b7ce03058881ce6a768c96e27606d43fc4a680b9dd96a9763",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13004,8 +13004,8 @@
       },
       {
         "path": "reports/README.md",
-        "bytes": 5324,
-        "sha256": "97ac12703adf4c9a39c95d8167d3bfc830eeab6d37b0b73b942cb597fc201b93",
+        "bytes": 5764,
+        "sha256": "467b602400f0bf4d0e80216a4bcda401e9cedc3088eeea01d225894e9bb80f4c",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13130,8 +13130,8 @@
       },
       {
         "path": "reports/appendices/track2-evidence-pipeline.md",
-        "bytes": 12213,
-        "sha256": "fc04252834219723724a19ed49e610008db19401060d58b4864b5a4f7e27d3bd",
+        "bytes": 15900,
+        "sha256": "8456d499ebaf2f7b5af6421dbcd3cba449c74c75440e67e77129c35b2e43bde2",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13157,8 +13157,8 @@
       },
       {
         "path": "reports/jeweled_methods_form_answers.md",
-        "bytes": 23129,
-        "sha256": "78339d9dea6e25b164ac5ac0d897c474a07604d0a9d3749647e1a21f1cf54a63",
+        "bytes": 24806,
+        "sha256": "87219a292c7fba9704136561afff6a24dd4e8fd137f2b32c663c1fb3bb3089cb",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13175,8 +13175,8 @@
       },
       {
         "path": "reports/jeweled_track2_pitch_reconciled.md",
-        "bytes": 7241,
-        "sha256": "2245cddc9427a36a21517a991b9a19ea9b5cfe99e02a1816d5a0116deefb6cc3",
+        "bytes": 7413,
+        "sha256": "a01d30ecdb15c7a3c72ba6196e14faac0059c3a2906acea603725236c23c89f5",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13184,8 +13184,8 @@
       },
       {
         "path": "reports/jeweled_track2_report_submission.md",
-        "bytes": 17431,
-        "sha256": "d8b0315f1d068d5d67f2f61757f57cd4008492224a3773f3e80fc134415137a2",
+        "bytes": 21020,
+        "sha256": "8f301ead32bca6baa7a336f382239175e24856c73b7f6232346f18edb504f6ef",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13406,6 +13406,177 @@
         "decision": "keep",
         "category": "public_reference_and_hypothetical_model",
         "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "workflow/track2-rna/README.md",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 7203,
+        "sha256": "362504cb744da6d43f81932ee707a99f9606c9561165a35b8a7c398153db6ace",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/analysis.R",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 8900,
+        "sha256": "1989969baa8f46b60cfe6431717bba06ca0aef42d8045ee5220034ce6450d0f8",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/environment-osx-arm64.txt",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 8909,
+        "sha256": "bd6df1ae0b826d948fd68e98d35f371dc0908982d376cb0224e58ca6651b1052",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/analysis-summary.txt",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 422,
+        "sha256": "8c30c3e7ea5a0e65832477e4f2c4589adc5bb40a76aa605ebe7f28414f987bfe",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/gene-results.tsv.gz",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 3189522,
+        "sha256": "f87c5270579447eff51128d50bbe3cdc581513fe94db415da14b098f5360ffc0",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/gene-universe.tsv",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 306736,
+        "sha256": "f9228c2b7c53611c1d0b60c3ed3fc523dca3e9830b5e851f3cb3a399c13f9bac",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/marker-counts.tsv",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 640,
+        "sha256": "ae365cbd4e8f922b84a9f6726c56bd3bb22fa6d01de74231ea195997a09ccbdd",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/mouse-pathway-analysis.pdf",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 7827,
+        "sha256": "ae3839591f4769d60c1d4b0a2987aa1bf9b6779099f8e116ba14b4fd0e4863da",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/mouse-pathway-analysis.png",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 168066,
+        "sha256": "d1ce78ce42982b1ef2e856432c5d347f3b5d529f7d07ea13fe673e0e9d0f9886",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/pathways.tsv",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 25475,
+        "sha256": "a74276737f3c73cf053db53fbb124c8acfffdb807bedf79fbcadec6f3a5b9180",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/samples.tsv",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 574,
+        "sha256": "05178bb2e5bc2fb08753f056604a6850a7f53134c680d9e8ded023ddff22b9cb",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/sensitivity.tsv",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 325289,
+        "sha256": "b2c025a440b76d16b18c6297db713d025938a4ba047af3291f6f1fdd8df861ad",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/session-info.txt",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 650,
+        "sha256": "8a513e742c26162c1798c136a0fabf2329df939c1aa1fd63e7aac5851e1e0a1f",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/set-overlap.tsv",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 177047,
+        "sha256": "3a0afcc5329127a9c34bd0a757466cff941c72eaa4d070742e402657d5ade9b6",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/tested-membership.tsv",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 191516,
+        "sha256": "d6c6e82d3a5946a38dabeb75d122fe4d6238cc6682d53ef58881677cb1c197af",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/voom-quality-check.pdf",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 762671,
+        "sha256": "3bb3eddb01f468f3dde16a375130565093f56c84ddea55aa1eb09f87fc522523",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/results/voom-quality-check.png",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 188177,
+        "sha256": "fe065fc12cfcc773a9e50060c2291449d50a94fb97c9d4c73c13c85fe6200b84",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/run.sh",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 1474,
+        "sha256": "d2fd2e9bfdd3e741b25849838fceed29b528bdcdb5c9a90b8049c0742746c37c",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-rna/sources.json",
+        "decision": "keep",
+        "category": "public_mouse_expression_reanalysis",
+        "grounds": "Public GSE134781 count reanalysis, source and derived results. No case data. MSigDB-derived membership is attributed under CC BY 4.0; private draft update authorized.",
+        "bytes": 778,
+        "sha256": "219869208f61f9c1748def18e90a8299a4fbb6ea481546f20ac81c1baaca6aa4",
+        "mode": 420
       }
     ],
     "report_scope": {
@@ -13583,6 +13754,42 @@
       ],
       "scope": "Elect everolimus; comparative evidence pipeline and table; import completed reference-based allele and assumed population model. Fresh packaged Mac Studio replay exactly matched scientific outputs excluding runtime metadata. No drug experiment or public visibility change.",
       "decision": "Keep within existing private draft; approved narration, Track1 scientific content and prediction CSV unchanged."
+    },
+    "track2_rna_followup": {
+      "reviewed_at_utc": "2026-09-21T14:48:56.374105+00:00",
+      "added_paths": [
+        "workflow/track2-rna/README.md",
+        "workflow/track2-rna/analysis.R",
+        "workflow/track2-rna/environment-osx-arm64.txt",
+        "workflow/track2-rna/results/analysis-summary.txt",
+        "workflow/track2-rna/results/gene-results.tsv.gz",
+        "workflow/track2-rna/results/gene-universe.tsv",
+        "workflow/track2-rna/results/marker-counts.tsv",
+        "workflow/track2-rna/results/mouse-pathway-analysis.pdf",
+        "workflow/track2-rna/results/mouse-pathway-analysis.png",
+        "workflow/track2-rna/results/pathways.tsv",
+        "workflow/track2-rna/results/samples.tsv",
+        "workflow/track2-rna/results/sensitivity.tsv",
+        "workflow/track2-rna/results/session-info.txt",
+        "workflow/track2-rna/results/set-overlap.tsv",
+        "workflow/track2-rna/results/tested-membership.tsv",
+        "workflow/track2-rna/results/voom-quality-check.pdf",
+        "workflow/track2-rna/results/voom-quality-check.png",
+        "workflow/track2-rna/run.sh",
+        "workflow/track2-rna/sources.json"
+      ],
+      "modified_paths": [
+        "README.md",
+        "reports/PROVENANCE.md",
+        "reports/README.md",
+        "reports/appendices/track2-evidence-pipeline.md",
+        "reports/jeweled_methods_form_answers.md",
+        "reports/jeweled_track2_pitch_reconciled.md",
+        "reports/jeweled_track2_report_submission.md",
+        "workflow/docs/PUBLIC-RELEASE-AUDIT.md"
+      ],
+      "scope": "Public mouse count reanalysis and negative transcriptional corroboration, schedule counterevidence and rubric mapping; no case data or media changes.",
+      "replay": "Fresh source downloads and execution on Mac Studio matched all scientific tables exactly."
     }
   }
 }

@@ -102,6 +102,8 @@ We selected everolimus as the experimental lead for normalizing mTORC1 if excess
 
 Selection is a qualitative comparison of mechanistic proximity, intervention evidence, drug-to-target support, exposure feasibility and decisive failure tests. Everolimus has an established mTORC1 target relationship, labeled TSC experience in younger children and a dispersible formulation. Sirolimus also has an oral solution and therapeutic monitoring. The within-class choice is pragmatic, not demonstrated MVA superiority. Rapamycin/sirolimus, rather than everolimus, is the actual compound in the cited fly chromosome-instability study. Arimoclomol remains an alternative if N1002K has a functionally rescuable abundance defect; genetic senescent-cell clearance has a stronger organism-level intervention precedent than the current senolytic drug bridge. The [evidence pipeline](appendices/track2-evidence-pipeline.md) and [unelected-route table](jeweled_track2_report_submission.md#other-routes-considered-and-not-selected-as-the-lead) record the comparison.
 
+We also completed an independent secondary analysis of GSE134781 public mouse muscle counts on a Mac Studio: nine mice, 50 Hallmark programs and three planned contrasts, using TMM/voom and CAMERA with estimated inter-gene correlation. No program met global FDR <0.05; the mTORC1 X753–WT result was weakly downward relative to background (P=0.219; FDR=0.983). It supplies no positive transcriptional corroboration, does not measure kinase activity and does not rank alternatives. Full results and sensitivities are retained in the [public RNA analysis](../workflow/track2-rna/README.md). This limits our evidence claim and keeps direct pathway qualification decisive.
+
 A qualified model must first establish a reproducible muscle defect and test whether partial genetic normalization of excess signaling improves function. Complete pathway ablation would not answer this question. Matched mature myotubes provide the functional test; separate progenitor differentiation/regeneration experiments test whether apparent benefit sacrifices tissue renewal. Everolimus experiments then require measured exposure, target engagement, functional improvement and preserved absolute viable-cell/muscle output and growth. A rhabdomyosarcoma counter-screen addresses tumor protection and interaction with any confirmed active regimen. No patient-derived or drug-response experiment has run. [Track 2 report](jeweled_track2_report_submission.md).
 
 ### Was candidate identification automated (e.g., via a drug-target database query or LLM-assisted search), or primarily manual literature review and expert curation?
@@ -124,6 +126,14 @@ Drug/mechanism selection used public literature and regulatory information, info
 
 Primary sources include [Sieben et al., BubR1 truncation and muscle signaling](https://www.jci.org/articles/view/126863/version/2); the [rapamycin chromosome-instability fly study](https://doi.org/10.1038/s41467-026-70521-0); [Baker et al., genetic senescent-cell clearance](https://pmc.ncbi.nlm.nih.gov/articles/PMC3468323/); [Suijkerbuijk et al., BUBR1 expression/function](https://pubmed.ncbi.nlm.nih.gov/20516114/); and [Xu et al., PP2A-B56 recruitment in MVA fibroblasts](https://pmc.ncbi.nlm.nih.gov/articles/PMC3654266/). The latter are mechanistic comparators, not evidence for the selected drug.
 
+Our executed [public-count analysis](../workflow/track2-rna/README.md) uses
+[GSE134781](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134781) and the
+MSigDB 2025.1.Mm orthology-mapped Hallmark collection. The source identities,
+software environment, all gene/set results and sensitivity analyses are retained.
+The [2026 randomized sirolimus exercise study](https://doi.org/10.1002/jcsm.70274)
+is included as counterevidence to assuming that intermittent exposure preserves
+function; it is not a study of MVA.
+
 The [everolimus prescribing information](https://www.novartis.com/us-en/product/pi/pdf/afinitor.pdf) and [sirolimus prescribing information](https://labeling.pfizer.com/showlabeling.aspx?id=139) supply approved-use, formulation, pharmacology and safety context. Primary studies of [mTOR-dependent muscle regeneration](https://pmc.ncbi.nlm.nih.gov/articles/PMC2793064/) and [muscle Raptor ablation](https://doi.org/10.1016/j.cmet.2008.10.002) motivate separate mature-muscle and progenitor safeguards; complete genetic loss is not equated with partial drug inhibition. Public GRCh38 and Ensembl transcript sequence support the [genome-informed analysis](../workflow/track2-model/README.md). The governing [evidence pipeline](appendices/track2-evidence-pipeline.md) links claims to source scope and stopping rules. We do not imply use of every database named as an example in the form.
 
 ### Please describe any proprietary data sources used in detail.
@@ -138,7 +148,7 @@ The selected downstream hypothesis is that a BUB1B-dependent muscle defect inclu
 
 ### Please provide an estimate of time or effort spent on this analysis (if possible).
 
-No consolidated person-hour or cost ledger was measured. Work comprised computational interpretation and sequence reconstruction, assumption-based population simulations on a Mac Studio, primary-source comparison, exposure/oncology appraisal and report/pitch preparation. No laboratory execution has occurred. Assay-capacity scenarios and simulation runtimes are not measured laboratory throughput or power.
+No consolidated person-hour or cost ledger was measured. Work comprised computational interpretation and sequence reconstruction, assumption-based population simulations on a Mac Studio, primary-source comparison, exposure/oncology appraisal and report/pitch preparation. Public mouse count reanalysis also ran on a Mac Studio. No laboratory execution has occurred. Assay-capacity scenarios and simulation runtimes are not measured laboratory throughput or power.
 
 ### Provide a method abstract (up to 500 words). Please include strengths and limitations of your approach as well as methodological detail.
 
@@ -146,6 +156,8 @@ We propose everolimus as a conditional experimental lead for muscle dysfunction 
 
 Model qualification must establish the endogenous allele consequences, muscle dysfunction and signaling state. Genetic correction and partial pathway normalization test whether excess signaling drives the defect rather than compensating for it. Matched mature myotubes assess muscle function; separate progenitor differentiation/regeneration experiments detect a cost to growth and renewal. Complete pathway ablation would not test the proposed normalization mechanism.
 
-Drug studies require measured everolimus exposure, target engagement, improved function and preserved absolute viable output, alongside a rhabdomyosarcoma counter-screen and interactions with any confirmed active regimen. Lower pathway markers, selective survival or improved fractions alone cannot establish rescue. Reference-sequence reconstruction and assumption-based population scenarios inform endpoint design without fitting a genotype-to-drug response model.
+A secondary analysis of the nine public mouse muscle samples did not corroborate an upregulated mTORC1 Hallmark program (global FDR 0.983 for X753–WT). This is not a kinase-activity measurement or independent biological replication; the unfavorable result limits the convergence claimed for the lead.
+
+Drug studies require measured everolimus exposure, target engagement, improved function and preserved absolute viable output, alongside a rhabdomyosarcoma counter-screen and interactions with any confirmed active regimen. Lower pathway markers, selective survival or improved fractions alone cannot establish rescue. Continuous and pulse/washout exposure must be compared without presuming protective timing; sirolimus is the reference compound. Reference-sequence reconstruction and assumption-based population scenarios inform endpoint design without fitting a genotype-to-drug response model.
 
 Alternatives include abundance rescue, senescent-cell clearance and downstream stress protection; each retains its own missing mechanistic or pharmacological bridge. Strengths are explicit source boundaries, falsifiable stage-specific experiments and attention to absolute output. Limitations include uncertain phase and missense function, absent case-specific mTOR evidence, unknown useful exposure and unestablished laboratory access. No drug experiment, chromosome correction or clinical efficacy is claimed.

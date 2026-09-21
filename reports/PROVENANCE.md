@@ -10,6 +10,16 @@ The reports in this checkout and the new [Track 2 evidence pipeline](appendices/
 
 The methods form retains all 22 original question headings and the existing Track 1 answers. The pitch document preserves the approved six-section narration, 24 caption segments and 293 words, and adds a clearly separated text-only proposal for the new everolimus hypothesis. This proposal is not recorded or approved and does not add or alter the media.
 
+The [public mouse RNA reanalysis](../workflow/track2-rna/README.md) adds measured
+public-count evidence, source/download identities, a replayable statistical
+pipeline, complete result tables and figures. GSE134781 contains different mouse
+alleles and no case data. This independent secondary analysis of the same counts
+is not an independent biological replication or a reproduction of the original
+DESeq2/STRING method. It does not support an upregulated mTORC1 Hallmark program;
+that unfavorable result is retained in the current proposal. MSigDB-derived
+membership outputs retain their attributed third-party terms. No unpublished
+patient measurement, laboratory response or new media is added.
+
 The prediction CSV and its provenance are byte-identical to the revised internal export. The CSV SHA-256 is `40232aa87da1b498d44e73d82caf485aa390c7d02547bf4f817c557495cf1355`. Its one row is a manually reviewed research prediction, with phase unknown; the recorded builder checks establish format and reference compatibility, not clinical validation or private-truth accuracy.
 
 The twelve dated appendices were selected from the earlier curated review package. Their scientific bodies are preserved, with a notice explaining their historical status; they do not override the new governing evidence pipeline. Links labelled “underlying file not included” lead here deliberately: the named receipt, ledger or output is **not** included or independently reproducible from this directory. These links document a scope limit, not a substitute download or an assertion that the omitted file exists in this checkout.
