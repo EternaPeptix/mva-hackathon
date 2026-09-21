@@ -161,3 +161,14 @@ handling retained. The map makes omitted case prerequisites explicit. GIAB truth
 versions are separated. The prediction CSV, classifications, EPCR, Track 2 science
 and approved narration are unchanged. No new analysis, public release, media
 upload or competition submission is performed.
+
+### Track 1 delivery record
+
+Track 1 model 1 was sent once and has a verified public automated score of
+100 rank points and F-max 1.000. The exact combined report upload is retained
+alongside the unchanged CSV. This combines already reviewed Track 1 prose and
+methods, adds the existing acknowledgement, and updates status wording; no new
+case-data category is added. Final durable report-save verification remains
+pending after loss of the browser confirmation view. Repository visibility and
+Track 2/media status are unchanged. See the current report index for the precise
+verification boundary; historical no-submission statements describe earlier states.

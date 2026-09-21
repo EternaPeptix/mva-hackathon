@@ -12940,8 +12940,8 @@
   ],
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
-    "reviewed_at_utc": "2026-09-21T17:30:08.661539+00:00",
-    "scope": "72 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
+    "reviewed_at_utc": "2026-09-21T17:47:22.684982+00:00",
+    "scope": "73 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12954,8 +12954,8 @@
       "original_audit_bytes_sha256": "7fae846b1a22b88b05096372fa4fbbd9bbca7f27e23f725a2ff32ad1b6a2644b",
       "all_original_fields_unchanged": true
     },
-    "reviewed_payload_count": 72,
-    "report_tree_files": 23,
+    "reviewed_payload_count": 73,
+    "report_tree_files": 24,
     "reviewed_files": [
       {
         "path": "CHANGELOG.md",
@@ -12977,8 +12977,8 @@
       },
       {
         "path": "README.md",
-        "bytes": 7319,
-        "sha256": "39e2b0c2e98300e37e0471553dc9f6806ff4f132be6c7a76c3bd8cd2777d8b81",
+        "bytes": 7510,
+        "sha256": "a329973fa4f538e01be25ca09c839086964d479a8335d17656722216b805992e",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -12995,8 +12995,8 @@
       },
       {
         "path": "reports/PROVENANCE.md",
-        "bytes": 10343,
-        "sha256": "eb989ef950db420609ba4a739276770b7a06c5afa0ae49dff13ddbd556ae4ca0",
+        "bytes": 11020,
+        "sha256": "8b91cc1658c957c84d5f20b5860651db296eae15c50cd20fb90913e43dbc2a63",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13004,8 +13004,8 @@
       },
       {
         "path": "reports/README.md",
-        "bytes": 7257,
-        "sha256": "2a11b59846b3017a74e91b7b35de230c528120749e93e6ab811015af63d54257",
+        "bytes": 8894,
+        "sha256": "79c90abdfcab06420901bc3f7f2ec57a0dcce96c82d6fde71dd9a76232240f08",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13172,6 +13172,15 @@
         "decision": "keep",
         "category": "selected_scientific_proposal",
         "grounds": "Bounded candidate findings and prospective proposal, or public-reference/assumption-based computation; no raw or genome-scale case payload. Private draft update authorized by user."
+      },
+      {
+        "path": "reports/jeweled_track1_model1_upload.md",
+        "decision": "keep",
+        "category": "bounded_track1_submission_report",
+        "grounds": "Exact report staged and sent to official Track 1 portal; combines already reviewed report and 12 methods answers with existing acknowledgement, pinned source links and submission-status wording. No new case-data category.",
+        "bytes": 26390,
+        "sha256": "b0b70d826c55729a8e6607ddd58d6587bfd8ad34d512fc3727376fc2b54f7dbb",
+        "mode": 420
       },
       {
         "path": "reports/jeweled_track1_report_submission.md",
@@ -13847,6 +13856,18 @@
       "scope": "Recover completed supplied-VCF ranking/predictor sensitivities and final four-lane candidate/locus/differential/depth/phase aggregates. Add an authorized reconstruction map and explicit omissions. Correct GIAB small-variant v4.2.1 versus structural v5.0q. No new analysis.",
       "verification": "Fresh independent Track 1 judge found all three original findings resolved, with no scientific submission blocker. Numerical values checked against retained original summaries/inventories. Preserve all 22 methods headings, entire Track 2 section, Track 2 report/pitch and prediction CSV.",
       "decision": "Keep selected report-level aggregates in private branch; no competition submission, public visibility change or media work."
+    },
+    "track1_submission_followup": {
+      "recorded_at_utc": "2026-09-21T17:47:22.684982+00:00",
+      "source_revision": "cda0b0c12249b446adeff61cd1838f148ccb1768",
+      "model": "model1_jeweled_evidence-reconciled-v2.csv",
+      "portal_submission_time_utc": "2026-09-21 17:41 UTC",
+      "public_leaderboard_verified_at_utc": "2026-09-21 17:42:54 UTC",
+      "rank_points": 100.0,
+      "fmax": 1.0,
+      "report_upload_path": "reports/jeweled_track1_model1_upload.md",
+      "verification_boundary": "Both staged upload files read back byte-identically. Public leaderboard confirms stored metadata/score; original browser confirmation inaccessible, so final report persistence is not yet independently verified. No retry.",
+      "decision": "Archive exact reviewed upload and precise delivery status; keep repository private, Track 2 and media unchanged."
     }
   }
 }

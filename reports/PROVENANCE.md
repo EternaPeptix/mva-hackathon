@@ -1,6 +1,6 @@
 # Report provenance and scope
 
-**Review revision: 21 September 2026.** This directory brings the revised research reports, methods answers, prediction CSV, proposed pitch revision and unchanged approved narration into one browsable checkout. The update retains the genome-informed sequence/population analysis and selects everolimus as the lead drug hypothesis and niacin as the primary comparator after comparative evidence review. It remains a private research draft; no competition submission or public release has occurred. The public HG002 depth measurement, sequence reconstruction and assumption-based simulations are distinct from patient experiments; no patient drug-response result is available.
+**Review revision: 21 September 2026.** This directory brings the revised research reports, methods answers, prediction CSV, proposed pitch revision and unchanged approved narration into one browsable checkout. The update retains the genome-informed sequence/population analysis and selects everolimus as the lead drug hypothesis and niacin as the primary comparator after comparative evidence review. The repository remains private. Track 1 model 1 now has a confirmed automated score; the [submission record](README.md#track-1-submission-record) identifies the exact upload and pending final report-persistence verification. Track 2 remains a draft; no public repository release has occurred. The public HG002 depth measurement, sequence reconstruction and assumption-based simulations are distinct from patient experiments; no patient drug-response result is available.
 
 ## Evidence scope
 
@@ -53,6 +53,15 @@ The twelve dated appendices were selected from the earlier curated review packag
 
 Excluded material includes raw case reads, read names, alignments, pileups, raw/genome-scale case VCFs, full case ledgers, large case interval arrays, credentials and internal conversation/Git history. The included reports and sequence analysis still disclose selected candidate-level findings and must be handled consistently with the organizers' data-use terms. Curating a report does not itself authorize public disclosure.
 
+## Submitted upload
+
+The [Track 1 model 1 upload](jeweled_track1_model1_upload.md) is the exact combined
+Markdown sent to the portal, with source links pinned to the pre-submission commit.
+It adds no new scientific claim or case-data category. Its pre-submission source
+reports remain unchanged. Confirmed automated scoring does not provide new phase,
+functional or treatment-response evidence. The final report-save verification
+remains pending as stated in the submission record.
+
 ## Archival material
 
 The retained appendices describe their original dates and analysis scopes. Statements such as “unchanged EPCR,” “no submission change” or “frozen package” refer to those original analyses; the current reports and [current index](README.md) take precedence. Older Track 2 revision 11, earlier probability judgments, detailed working reports, approval receipts and prior package manifests are not copied here. Historical clinical or mechanistic assertions are not silently reinstated by an appendix link.
@@ -61,7 +70,7 @@ The retained appendices describe their original dates and analysis scopes. State
 
 ## Media and AI disclosure
 
-The [private Lauren release](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) holds the approved movie and captions; no binaries are copied into this report directory. Its narration does not quote EPCR and presents arimoclomol/NAC as hypotheses. It predates the current everolimus/niacin comparison. Its preserved historical delivery note also predates the current comparative assessment of everolimus. The new text proposal is separate; no new narration or rendering has occurred. Media work and Vimeo are on hold at the user's request, and competition submission remains pending. Private GitHub attachment delivery is not public publication.
+The [private Lauren release](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) holds the approved movie and captions; no binaries are copied into this report directory. Its narration does not quote EPCR and presents arimoclomol/NAC as hypotheses. It predates the current everolimus/niacin comparison. Its preserved historical delivery note also predates the current comparative assessment of everolimus. The new text proposal is separate; no new narration or rendering has occurred. Media work and Vimeo are on hold at the user's request, and Track 2 submission remains pending. Private GitHub attachment delivery is not public publication.
 
 Claude Code and Codex were used on personal subscriptions with training on the user's content disabled, according to the user's confirmation. Exact historical model/plan names are unverified. Candidate-level evidence and report text were reviewed with hosted assistants. Cartesia Sonic 3.6 supplied synthetic stock-Lauren narration; its plan/tier and training/retention settings are separately unverified. The Claude/Codex confirmation does not establish Cartesia settings.
 

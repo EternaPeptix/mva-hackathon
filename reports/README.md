@@ -1,6 +1,30 @@
 # jeweled — current research reports
 
-**Revised 21 September 2026.** These are review drafts, not a competition submission or clinical sign-out. The repository and approved GitHub media copy remain private; public visibility and Vimeo delivery have not been completed.
+**Revised 21 September 2026.** Track 1 model 1 has a confirmed automated score; its final report-persistence check is pending as detailed below. Track 2 remains a review draft. No clinical sign-out has occurred. The repository and approved media remain private; Vimeo remains on hold.
+
+## Track 1 submission record
+
+On **21 September 2026 at 17:41 UTC**, account/team **jeweled** sent one Track 1
+submission: **model1_jeweled_evidence-reconciled-v2.csv**. The official public
+[leaderboard](https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026)
+confirmed **100.0 rank points and F-max 1.000** at 17:42:54 UTC. This is the
+prediction score; qualitative methods judging is separate.
+
+The [exact report upload](jeweled_track1_model1_upload.md) combines the reviewed
+Track 1 report and all 12 Track 1 methods answers, preserves the AI disclosure,
+adds the required acknowledgement, and replaces pre-submission status wording.
+The [CSV](jeweled_evidence-reconciled-v2.csv) remains byte-identical, with one
+BUB1B pair and subjective EPCR 0.8. The submitted repository URL pins
+[revision cda0b0c12249b446adeff61cd1838f148ccb1768](https://github.com/EternaPeptix/mva-hackathon/tree/cda0b0c12249b446adeff61cd1838f148ccb1768).
+The separate report/methods drafts below retain their pre-submission source state.
+
+**Verification boundary:** both temporary portal uploads were read back and
+matched the local files byte for byte (CSV 480 bytes; report 26,390 bytes).
+The leaderboard verifies stored metadata and score. The original UI became
+unreadable while scoring, so the final “Submission received” response and durable
+report save have not yet been independently confirmed. The service stores metadata
+before its separate report upload. **Do not resubmit merely to resolve this check.**
+Only one Submit action was sent; the pre-submit counter was 0/6.
 
 ## Current interpretation
 
@@ -14,7 +38,7 @@ The completed [public mouse RNA analysis](../workflow/track2-rna/README.md) did 
 
 ## Pitch and delivery
 
-The [pitch document](jeweled_track2_pitch_reconciled.md) contains a proposed text-only revision explaining the everolimus/niacin comparison and decisive experiments, followed by the unchanged approved narration. The approved 180-second Lauren / Cartesia Sonic 3.6 movie and its 24 caption segments use the previous 293-word arimoclomol/NAC script and remain [private GitHub release attachments](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920); access requires repository permission. That recording does not present the current everolimus/niacin comparison. The proposed revision is not recorded or approved. Media work and Vimeo are on hold at the user's request; competition submission remains pending.
+The [pitch document](jeweled_track2_pitch_reconciled.md) contains a proposed text-only revision explaining the everolimus/niacin comparison and decisive experiments, followed by the unchanged approved narration. The approved 180-second Lauren / Cartesia Sonic 3.6 movie and its 24 caption segments use the previous 293-word arimoclomol/NAC script and remain [private GitHub release attachments](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920); access requires repository permission. That recording does not present the current everolimus/niacin comparison. The proposed revision is not recorded or approved. Media work and Vimeo are on hold at the user's request; Track 2 submission remains pending.
 
 Claude Code and Codex used personal subscriptions with training on the user's content disabled, as confirmed by the user. Cartesia plan/tier and training/retention settings remain unverified and are disclosed separately.
 

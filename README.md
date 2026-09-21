@@ -11,8 +11,10 @@ could a gene-informed medication hypothesis preserve muscle function and the cel
   They test downstream mTORC1 normalization versus usable BUBR1 restoration, with the
   same goal: greater absolute muscle output, preserved renewal and no worsened chromosome fidelity.
 - **[Submission index, methods and proposed pitch](reports/README.md).**
-  The CSV and reports are prepared; no drug experiment has run. Submission is pending
-  and media/Vimeo remain on hold.
+  **Track 1 model 1 scored 100 rank points and F-max 1.000 on 21 September.**
+  [Submission record](reports/README.md#track-1-submission-record) distinguishes the
+  confirmed score from the pending final report-persistence check. Track 2 submission
+  and media/Vimeo remain on hold; no drug experiment has run.
 
 ## Start here
 
