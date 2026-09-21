@@ -10,6 +10,13 @@ The reports in this checkout and the new [Track 2 evidence pipeline](appendices/
 
 The methods form retains all 22 original question headings and the existing Track 1 answers. The pitch document preserves the approved six-section narration, 24 caption segments and 293 words, and adds a clearly separated text-only proposal for the everolimus/niacin comparison. This proposal is not recorded or approved and does not add or alter the media.
 
+The current opening connects the already recorded muscle atrophy and failure to
+thrive to the proposed functional endpoint. The report explicitly compares
+everolimus with the former arimoclomol lead, and the governing pipeline distinguishes
+temsirolimus RMS trials from direct everolimus combination and abstract-only
+monotherapy reports. These public clinical sources refine the treatment-compatibility
+question; they add no case observation or assumed cancer protection.
+
 The [public mouse RNA reanalysis](../workflow/track2-rna/README.md) adds measured
 public-count evidence, source/download identities, a replayable statistical
 pipeline, complete result tables and figures. GSE134781 contains different mouse

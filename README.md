@@ -1,15 +1,24 @@
 # MVA: from genome evidence to a testable rescue experiment
 
-Team **jeweled** asks whether a recessive BUB1B mechanism explains the supplied MVA case,
-and whether mTORC1 normalization or usable BUBR1 restoration could preserve muscle renewal. Track 1's CSV
-and both research reports are prepared; submission is pending and Vimeo is on hold.
+Team **jeweled** focuses on the case's [recorded muscle atrophy and failure to thrive](workflow/configs/lirical-subject.json):
+could a gene-informed medication hypothesis preserve muscle function and the cells that renew it?
+
+- **[Track 1: candidate and evidence](reports/jeweled_track1_report_submission.md).**
+  BUB1B **p.(Leu737Ter) + p.(Asn1002Lys)**, at subjective **EPCR 0.8**.
+  Phase is unresolved and the missense remains VUS.
+- **[Track 2: selected medications and proposal](reports/jeweled_track2_report_submission.md).**
+  **Everolimus leads; niacin (nicotinic acid) is the main comparator**, tested separately.
+  They test downstream mTORC1 normalization versus usable BUBR1 restoration, with the
+  same goal: greater absolute muscle output, preserved renewal and no worsened chromosome fidelity.
+- **[Submission index, methods and proposed pitch](reports/README.md).**
+  The CSV and reports are prepared; no drug experiment has run. Submission is pending
+  and media/Vimeo remain on hold.
 
 ## Start here
 
 - [Reproduction guide and public replay](REPRODUCIBILITY.md)
 - [Recorded environment](workflow/environments/20260919/runtime.json)
 - [Benchmark methods and results](workflow/docs/PUBLIC-BENCHMARK-METHOD.md)
-- [Current reports, prediction, methods form and pitch](reports/README.md)
 - [Evidence and component index](results/INDEX.md)
 
 **Native** means an installed bioinformatics executable was run. **Synthetic controls**

@@ -1,18 +1,29 @@
 # jeweled — Track 2: mTORC1 normalization versus usable BUBR1 restoration for muscle renewal
 
-**Research submission draft, revised 21 September 2026; not submitted.** We nominate
+**Research submission draft, revised 21 September 2026; not submitted.**
+
+The case's [recorded muscle atrophy and failure to thrive](../workflow/configs/lirical-subject.json)
+motivate a concrete target: preserve muscle function and its capacity for renewal.
+Our [genomic hypothesis](jeweled_track1_report_submission.md) is BUB1B
+p.(Leu737Ter) plus p.(Asn1002Lys); phase is unresolved and the missense remains VUS.
+The proposed mechanism tests therefore establish how the surviving allele products
+affect muscle before interpreting a drug response.
+
+We nominate
 **everolimus as the narrow lead** and **niacin (nicotinic acid) as the primary
 orthogonal challenger**. Test them separately, not in combination. Arimoclomol is
 a restoration reserve; dasatinib is a reserve requiring harmful senescent burden
 and selective susceptibility. These are approved-medication hypotheses, not
 established treatments or a claim that one drug is universally best.
 
-The two routes ask different questions: can reducing harmful mTORC1 excess improve
-muscle function, or can preserving useful BUBR1 reduce new mitotic errors and
-sustain productive progenitors? Their common outcome is **greater absolute muscle
-output with preserved progenitor reserve and no worsened chromosome fidelity**.
-Downstream benefit need not correct the primary genetic defect. Neither route is
-assumed to repair existing aneuploid genomes. Laboratory access and patient-derived
+The comparison distinguishes two useful outcomes: **downstream muscle gain despite
+persistent segregation defects**, or **restored BUBR1 function that reduces new
+errors and sustains productive progenitors**. Both face the same standard:
+**greater absolute muscle output with preserved progenitor reserve and no worsened
+chromosome fidelity**. This makes the proposed decision concrete: advance a useful
+drug implementation, identify which mechanism it supports, or reject a response
+that improves a marker while losing productive tissue. Neither route is assumed
+to repair existing aneuploid genomes. Laboratory access and patient-derived
 experiments remain unestablished; the work below specifies future tests.
 
 ## Why this focused set is the submission choice
@@ -64,6 +75,18 @@ monitoring and an oral-suspension formulation support implementation feasibility
 Their indication-specific exposure ranges are neither MVA doses nor free culture
 concentrations. Established target inhibition does not establish beneficial
 normalization, preserved myogenesis or acceptable systemic effects in this child.
+
+**Why it leads over the earlier arimoclomol idea:** everolimus has an established
+drug-to-target link and a muscle signaling observation in a BUB1B model. The
+arimoclomol restoration idea is closer to the primary protein defect, but
+[HSP90 dependence and expression rescue of selected mutants](https://pubmed.ncbi.nlm.nih.gov/20516114/)
+do not demonstrate arimoclomol-mediated rescue. Both drugs have pediatric approved
+uses elsewhere; approval alone does not distinguish them. The [arimoclomol exposure
+review](appendices/mechanistic-bridge.md) adds an unresolved translation gap.
+This is a narrow advantage in the justification for testing a named drug, not
+demonstrated MVA efficacy or greater potential impact. Arimoclomol would move ahead
+with endogenous mutant-function and muscle rescue at justified exposure, especially
+if everolimus cannot preserve productive renewal.
 
 Counterevidence remains explicit. A [2013 BubR1 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3785294/)
 reports preliminary unpublished observations of no apparent age-phenotype benefit
@@ -168,13 +191,20 @@ present two-medication hypothesis choice.
 The [genome-informed model](../workflow/track2-model/README.md) reconstructs candidate
 sequence consequences and explores declared population assumptions. One illustrative
 selective-killing scenario raises euploid fraction by 16.8 percentage points while
-differentiated-cell time falls 11.0%. These synthetic counterexamples justify
-absolute-output measurements; they are not drug effects or patient timescales.
+differentiated-cell time falls 11.0%. This is a completed assay-design result:
+a favorable cell percentage can coexist with less modeled tissue output, so the
+proposed comparison retains each starting cohort and measures absolute function.
+The values are synthetic counterexamples, not drug effects or patient timescales.
 
 The [GSE134781 analysis](../workflow/track2-rna/README.md) includes nine mice,
 12,989 retained genes and 50 Hallmark programs across three contrasts. No program
 met global FDR <0.05. This secondary analysis is not independent biological
 replication or a drug ranking. Both completed analyses ran on a Mac Studio.
+
+**AI use and data handling:** Claude Code/Codex personal subscriptions, with
+training disabled (user-confirmed); exact historical model/plan names are
+unverified. Controlled raw case reads and genome-scale payloads remain excluded
+from this private repository. [Full methods disclosure](jeweled_methods_form_answers.md).
 
 ## Other routes considered and not selected as the lead
 
@@ -201,10 +231,11 @@ replication or a drug ranking. Both completed analyses ran on a Mac Studio.
 This submission nominates hypotheses with a future ex-vivo validation plan.
 Everolimus's immune, metabolic, growth/renewal and interaction constraints, niacin's
 hepatic/metabolic/muscle risks and possible support of abnormal clones require
-candidate-specific assessment. The [oncology counter-screen](appendices/oncology-counterscreen.md)
-provides general principles, not evidence that either drug is safe with the actual
-regimen. No route receives assumed cancer protection. No patient dose, developmental
-reversal or clinical efficacy is claimed.
+candidate-specific assessment. The [current oncology evidence and counter-screen](appendices/track2-evidence-pipeline.md#rhabdomyosarcoma-evidence-and-treatment-compatibility)
+distinguish mixed temsirolimus trial results from limited direct everolimus data.
+Neither supports assumed cancer protection or compatibility with the child's
+unconfirmed regimen. No patient dose, developmental reversal or clinical efficacy
+is claimed.
 
 | Official criterion | Submission contribution | Evidence still needed |
 |---|---|---|

@@ -135,3 +135,9 @@ table, evidence pipeline, methods, navigation and proposed pitch are synchronize
 No new case data, laboratory response or media is added. Existing computational
 outputs, Track 1 science and the approved recording remain unchanged. The
 repository remains private; media and competition submission remain on hold.
+
+The subsequent readability and clinical-context revision uses the already included
+muscle-atrophy/failure-to-thrive findings, adds an explicit everolimus/arimoclomol
+comparison, and summarizes four public RMS clinical sources in the governing
+pipeline. This adds no new case payload or treatment recommendation. The original
+oncology appendix remains dated method detail; the approved narration is unchanged.

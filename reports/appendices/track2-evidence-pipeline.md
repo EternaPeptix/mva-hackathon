@@ -293,12 +293,45 @@ replicates; cells and repeated images are nested observations. Require uncertain
 intervals to meet the benefit/preservation margins; nonsignificant harm is not
 evidence of preserved reserve. Cell counts or simulations cannot set sample size.
 
-Confirm RMS status and the actual regimen before selecting tumor comparisons.
-Test each candidate alone and with the relevant oncology regimen, including post-withdrawal
-regrowth. Neither chaperone biology nor an anticancer indication predicts the
-answer. Apply the [oncology framework](oncology-counterscreen.md) with updated
-candidate-specific evidence. Systemic growth, renal, hepatic, immune and interaction
-effects remain outside cell-assay inference and require translational review.
+### Rhabdomyosarcoma evidence and treatment compatibility
+
+The recorded RMS history makes oncology compatibility part of the proposed test.
+The clinical literature contains both mTOR-class trials and direct everolimus
+reports; they answer different questions and cannot be pooled into an assumed
+anticancer benefit for this child.
+
+| Primary clinical evidence | Finding | Consequence for this proposal |
+|---|---|---|
+| [ARST0921, first relapse/progression RMS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6823886/) | Temsirolimus or bevacizumab, each with vinorelbine/cyclophosphamide: reported six-month event-free survival 69.1% versus 54.6%; final EFS comparison P=.018. No significant overall-survival difference. | Favors the temsirolimus-containing regimen over that comparator. No chemotherapy-only arm and no everolimus arm; it does not establish everolimus benefit. |
+| [ARST1431, newly diagnosed intermediate-risk RMS](https://pubmed.ncbi.nlm.nih.gov/38936378/) | 297 evaluable participants; three-year EFS 66.8% with temsirolimus versus 64.8% without; HR 0.86 (95% CI 0.58–1.26), P=.44. Both groups received VAC/VI and maintenance treatment. | Adding temsirolimus did not demonstrate EFS improvement. The setting and comparator differ from ARST0921; mTOR inhibition is not a general guarantee of RMS benefit. |
+| [ADVL1711, recurrent/refractory RMS](https://pubmed.ncbi.nlm.nih.gov/40313040/) | Single-arm lenvatinib plus everolimus: 2/20 partial responses (10%; 95% CI 1.2–31.7), lasting 2.10 and 2.76 months; did not meet the prespecified activity threshold. | Direct everolimus-containing clinical evidence exists, with limited activity. Neither response nor toxicity can be attributed to everolimus alone. |
+| [Epelman, SIOP 2015 abstract O-052](https://siop-online.org/wp-content/uploads/2015/10/SIOP-2015-Abstracts-Nov-2.compressed.pdf#page=100) | Everolimus monotherapy: six RMS among 17 heavily pretreated sarcoma patients; one RMS partial response reportedly lasted 11 months. | A small direct signal, but abstract-only, without a comparator or complete RMS-specific outcomes. It supplies neither reliable efficacy nor survival evidence. |
+
+None of these studies establishes benefit in BUB1B-associated MVA, and muscle
+mTORC1 activation does not establish tumor dependence. The muscle hypothesis and
+oncology compatibility therefore remain separate questions.
+
+Confirm current tumor status, subtype/fusion status and the actual oncology
+regimen before choosing tumor models and treatment comparators. For **each nominated
+drug separately**, compare vehicle, candidate, confirmed oncology treatment and
+candidate plus that treatment. Retain absolute viable tumor output and
+post-withdrawal regrowth; early cytostasis is not durable tumor control. A
+nonresponsive treatment control cannot establish compatibility. Prespecify an
+acceptable tumor-protection margin and judge its uncertainty interval, rather
+than interpreting nonsignificance as absence of interference. The [dated oncology
+framework](oncology-counterscreen.md) supplies these general design principles;
+its historical arimoclomol/NAC ranking does not govern the current candidates.
+
+The [everolimus label](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04)
+also makes radiation history, wound healing and actual interacting medicines
+relevant to translational review. Recorded failure to thrive and muscle atrophy
+make growth/renewal loss a decisive functional failure; recorded nephrocalcinosis
+does not establish measured renal impairment. These clinical-context gaps cannot
+be resolved by a tumor culture. Systemic growth, renal, hepatic, immune and
+interaction effects remain outside cell-assay inference. No treatment schedule
+or patient dose is inferred from the trials or labels.
+
+### Decision outputs
 
 | Observation | Decision |
 |---|---|

@@ -6,11 +6,11 @@
 
 ### Preserve muscle and its capacity to renew
 
-Our genomic hypothesis is a BUB1B stop variant paired with N1002K. Phase and surviving protein function remain unresolved. We ask whether an approved medicine could preserve useful muscle without exhausting the cells that renew it.
+Recorded muscle atrophy and failure to thrive motivate our goal: preserve muscle function without exhausting the cells that renew it. Our genomic hypothesis pairs BUB1B Leu737Ter with N1002K. Phase is unresolved, and N1002K remains a variant of uncertain significance.
 
 ### Test a specific downstream hypothesis
 
-Our lead hypothesis is everolimus. It inhibits mTOR, a pathway with increased activity in muscle from a different BUB1B mouse model. That study did not test drug rescue. We would first establish whether harmful excess signaling exists in the relevant cells, then test whether partial normalization helps without reducing BUBR1 or muscle renewal.
+Our lead hypothesis is everolimus. It inhibits mTORC1, a pathway with increased activity in muscle from a different BUB1B mouse model. That study did not test drug rescue. We would first establish whether harmful excess signaling exists in the relevant cells, then test whether partial normalization helps without reducing BUBR1 or muscle renewal.
 
 ### Challenge it with protein restoration
 
@@ -18,11 +18,11 @@ Our main comparator is niacin, the nicotinic-acid medicine. Human muscle studies
 
 ### Measure benefit without hiding losses
 
-Genetically controlled models distinguish an allele defect from unrelated cell differences. We measure actual exposure, absolute muscle output, progenitor renewal and chromosome fidelity. Death, arrest and lost lineages stay in the accounting. Everolimus could improve downstream function without correcting the initiating defect; a restoration claim requires the corresponding protein and functional evidence.
+The comparison distinguishes useful muscle gain despite persistent segregation defects from restoration that reduces new errors. Both drugs must improve absolute muscle output while preserving renewal and avoiding worse chromosome fidelity. Genetically controlled models and measured exposure connect the response to the proposed mechanism. Death, arrest and lost lineages stay in the accounting; a restoration claim additionally requires the corresponding BUBR1 evidence.
 
 ### Use computation for what it can establish
 
-Reference reconstruction describes possible allele products. Our population model shows how favorable cell percentages can conceal lost tissue output. The public RNA analysis added no positive mTOR corroboration, but does not contradict the published protein-activity result. None of these computations predicts drug response.
+Reference reconstruction describes possible allele products. In one completed synthetic scenario, euploid fraction rose 16.8 percentage points while differentiated-cell time fell 11 percent. That supports measuring absolute output from each starting cohort; it is an assay-design result, not a drug effect. The public RNA analysis added no positive mTOR corroboration but does not contradict the published protein-activity result.
 
 ### Deliver a decision and a test
 
