@@ -20,6 +20,8 @@ revised pitch, editable slides and revision-specific reviewer assessments.
 
 ## Start here
 
+**Track 2 update:** the [broad drug search](workflow/track2-drug-census/decision-report.md) found new leads, including apitegromab as a serious downstream muscle competitor. The current niacin/everolimus pitch remains provisional while these findings are incorporated; publication and submission are pending.
+
 - [Reproduction guide and public replay](REPRODUCIBILITY.md)
 - [Recorded environment](workflow/environments/20260919/runtime.json)
 - [Benchmark methods and results](workflow/docs/PUBLIC-BENCHMARK-METHOD.md)

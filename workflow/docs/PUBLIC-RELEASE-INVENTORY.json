@@ -12940,8 +12940,8 @@
   ],
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
-    "reviewed_at_utc": "2026-09-21T23:59:48.170791+00:00",
-    "scope": "100 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
+    "reviewed_at_utc": "2026-09-22T00:37:56.286645+00:00",
+    "scope": "140 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12954,7 +12954,7 @@
       "original_audit_bytes_sha256": "7fae846b1a22b88b05096372fa4fbbd9bbca7f27e23f725a2ff32ad1b6a2644b",
       "all_original_fields_unchanged": true
     },
-    "reviewed_payload_count": 100,
+    "reviewed_payload_count": 140,
     "report_tree_files": 32,
     "reviewed_files": [
       {
@@ -12968,8 +12968,8 @@
       },
       {
         "path": "LICENSE",
-        "bytes": 2564,
-        "sha256": "49bd016308a8e9c9d6434c08434e14116818e3dfbaa3afea5213b554502d9ea1",
+        "bytes": 2989,
+        "sha256": "539ab94108db8f61cfc46ae2217b961f2d536cbdf7cdefe10427bac9e15f1056",
         "mode": 420,
         "decision": "keep",
         "category": "license_reconciliation",
@@ -12977,8 +12977,8 @@
       },
       {
         "path": "README.md",
-        "bytes": 8427,
-        "sha256": "d43fd3cc0ac14f3ae8c4aa2bbfb635c1b0ea3867c598080479bbe229ce5f3869",
+        "bytes": 8737,
+        "sha256": "0b726254d4fb102bf8339f568cb672bcb7a6ceafa3741f963d437410f0531a8f",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -12995,8 +12995,8 @@
       },
       {
         "path": "reports/PROVENANCE.md",
-        "bytes": 16768,
-        "sha256": "8c6f58a178df682fdbe57ca75400bcfdc7c8f759e9fc1052cebe28b1ff611e95",
+        "bytes": 17644,
+        "sha256": "77b141ed80adb179e21a3afca792172b78a2f27d1c6707ff792011a16e47a2a3",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13004,8 +13004,8 @@
       },
       {
         "path": "reports/README.md",
-        "bytes": 12699,
-        "sha256": "b31c9a590e48351b24b0c7bb6bcd1cc3ec20692348fd66a57487bbc1a35a9cdd",
+        "bytes": 13304,
+        "sha256": "44a987778153375b8f88eb4b697ee4278345ec0010c5489b3d1f6172fa53b9d7",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13016,8 +13016,8 @@
         "decision": "keep",
         "category": "review_navigation",
         "grounds": "Navigation for the human review of existing scientific material, media and the dated AI assessment; no new findings.",
-        "bytes": 3837,
-        "sha256": "7d89f4ab35d194ccf1586da6d7bb6b026c8f0af537b1fe14654616210fcc8c67",
+        "bytes": 4456,
+        "sha256": "2c32294415e54a81f5f53e0bc01d579b16828cc1ecb1676b43cdca26898d03bc",
         "mode": 420
       },
       {
@@ -13157,8 +13157,8 @@
       },
       {
         "path": "reports/appendices/track2-route-decisions.md",
-        "bytes": 38231,
-        "sha256": "9a7e7b0de7a008d02def0651070f604170f6845bb3a2a4c54b2e826c3301d0d2",
+        "bytes": 43754,
+        "sha256": "6636ddc5a68e41b949612fbc01b6d4bfdb83a3509ebf4e242b975faabc2d62bc",
         "mode": 420,
         "decision": "keep",
         "category": "scientific_route_comparison",
@@ -13220,8 +13220,8 @@
       },
       {
         "path": "reports/jeweled_track2_report_submission.md",
-        "bytes": 16191,
-        "sha256": "bc09a9151015310c40cd8d757e194492ed81c4024edc9812920597b67f59d162",
+        "bytes": 16943,
+        "sha256": "62b4666f5b99be49978bf497899f878703dc47b4f66bf9ab50ba097f83c8f92f",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13397,6 +13397,366 @@
         "decision": "keep",
         "category": "submission_export_source",
         "grounds": "Stdlib-only local export of three committed report/methods texts and the unchanged existing prediction CSV. Converts relative file links to commit-pinned GitHub URLs; no uploads, private payload discovery or visibility change."
+      },
+      {
+        "path": "workflow/track2-drug-census/.gitignore",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 24,
+        "sha256": "ab45becb5da79cc31b186ef5ec8bdb0ad2980b5b5f5f00b4c33a0187952c4f4b",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/README.md",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 16489,
+        "sha256": "a65a0cb8b52aa6b0cb318b9bba30468b2d32ff87464e00513bb32533d4ec2f6e",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/aliases.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 8821935,
+        "sha256": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/apitegromab-review.md",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 14423,
+        "sha256": "e4de6f4bb980e429264b6d7591305973581de61d5ff667092e0b05618542072b",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/appraisal.md",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 17223,
+        "sha256": "ac0faeb54d6882caeb438ed35937dd8a20fc23d998388cb860c8300a3360ad69",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/approval-overrides.json",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 27662,
+        "sha256": "3b8706a2cf66cdd3786b504a5542c4032cccf8dd525ff531846857aba82a4108",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/bub1b-clinical-drug-activities.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 2633,
+        "sha256": "f757635f85d29f577ec0b1bedd4a349274d49e55650eefd85bfe5e09f35a8b90",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/bub1b-target-neighborhood.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 636,
+        "sha256": "017f74d01e51844b7931e7f7f12208ed5874f0af4b5705a94f297cf6ab6492bc",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/bub1b-uniprot-interactors.json",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 209,
+        "sha256": "edf53ad8dd68261a67d361eae3d200d0e77edca39ec58af5671be3563d421ebd",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/catalog-appraisals.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 2547902,
+        "sha256": "df4dddc669865c5bebf8abd26e6b87d3eb5a089be7bd9235fa2a6c8eeb233888",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/catalog.py",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 22718,
+        "sha256": "0584d815693781f1f020e1d9eaa8d22565121af9c89f3fe3f5bc45a1c1120a41",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/catalog.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 3691075,
+        "sha256": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/chembl-clinical-records.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 3787561,
+        "sha256": "718b686ceec20e90360e230fb9718666f4f589e3c2833247f9655d4decbf0c37",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/chembl-mechanisms.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 3889351,
+        "sha256": "e7c1949433e0044ff7e50fb3cd31b4daf4ca1ba16a51d7af34e63ab6442d6c5a",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/chembl-targets.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 176769,
+        "sha256": "8528382a3b9f31352d482b210194568bf99828d5da08e0c73624eff187486124",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/coverage.json",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 3504,
+        "sha256": "7c9dbf9cfc2309d2c76166370db407c0bfa700a3ce6d6863d276481f86069593",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/decision-alias-joins.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 7229,
+        "sha256": "0087aefd3dafea4c22677cc71cd7e81f4ae260336a77aa524e98fc022b6fbfe4",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/decision-report.md",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 11473,
+        "sha256": "ccecd2670afaff25661d960c77ed2bb0033ee67692f363a21c9e35fb6e045d65",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/decisions.json",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 41630,
+        "sha256": "6cde59d82fb3b0cac06deb6eb001e426483d096eb67c038fb1d0c928b1a7b574",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/drugcentral-crosswalk.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 400720,
+        "sha256": "6b1272df4f25e2c2ae2eaffae23287e9ed031186e2c5a2b753850f2e577f8949",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/drugcentral-interactions.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 4735661,
+        "sha256": "27e6707fcb7a2d7544121124973deb0667a3d156cf7193309ac739a4dcd1cccf",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/drugcentral-status-unverified.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 129452,
+        "sha256": "10e227cf35b49bf07e7d28f86afee12e0ebd88335a4090275b21339396db372f",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/fda_freshness.py",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 7335,
+        "sha256": "c3f74025d8f8f7807c1c4b61423a0dd7d168adc8fcef64ed745597f72d2d0e3c",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/fetch_literature.py",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 5826,
+        "sha256": "89e9e16c6faa98c3ac72f0380971c91f0127be2f44a900edec6a521dbcf3007b",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/gene-identity.json",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 952,
+        "sha256": "e939210c89a9d1be70a3eb589244f4585978b1515bd0f795906146c98d721e77",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/literature-alias-policy.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 10629204,
+        "sha256": "bfc5307673bd2a3b6d7d6326306e2e71ef4df9f6461cbfdc07891737b16e01f8",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/literature-ambiguous-mentions.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 1912265,
+        "sha256": "68590667d1fb1b73aca0cc6b8d145c38433b7f8104da1384eb917129bc337efc",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/literature-coverage.json",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 1854,
+        "sha256": "05b132c0ab49269dc4aa132d056e668fe516890ee03fecead52bf3e9c1d2b39b",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/literature-drug-coverage.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 2184228,
+        "sha256": "b4c509f5295f32400b23d2a6dd4639f916f3f9c1f4fe0ae57fe1a2e3037442bf",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/literature-mentions.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 567552,
+        "sha256": "aa2a6787d04b2e284b7217f4b87b5c9027308afc28f5ba77ded16631158ced6d",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/literature-restorative-context-audit.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 58449,
+        "sha256": "df057c42e449301eccfe6537db204cee9e64f307c768e613fa45d30822d087f2",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/literature-review.md",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 30302,
+        "sha256": "5fd216d48f77dd6edb1364659370201a28c25827c019036863601337efa6d9b7",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/literature-triage-summary.json",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 3345,
+        "sha256": "a45fd528365c04bb9519a88964a412fda0a495dedaa20c8adefdb095a35c8d9c",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/literature-triage.tsv",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 1073050,
+        "sha256": "074a05c0caa8d50e1982c5531a17d86e7eb10a047252c6f66deccd6fd7b41a80",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/literature_match.py",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 11231,
+        "sha256": "17ecf93a27d3a30a0e4179c0506f11327fbd0814464d4ad44d3e3c3e6789a0ad",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/literature_triage.py",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 25430,
+        "sha256": "f63304cb89ec7c58ee2c1d3cd43344b6f2f47434665fb21683898504fbd12ed5",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/provenance.json",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 41151,
+        "sha256": "b7ab4aa026ecef2d8ba043d91946343a3e2260ce03d7ddc3990138986bfe0013",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/target-lookups.json",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 3662,
+        "sha256": "c3aeca5011935c502e6d96ebdb158da15f24d7ac8fd0b43be33755ba20e33f8a",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/target_lookup.py",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 4255,
+        "sha256": "2dcea7a0413bafcbddb853045cee487fe49910923d816007372428e53e13f609",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/verify_census.py",
+        "decision": "keep",
+        "category": "public_drug_census",
+        "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
+        "bytes": 4408,
+        "sha256": "fc6e47bce745ea3677014238a7ebf86fbfa6f4abd3925a99e559be0c6dc51ff4",
+        "mode": 420
       },
       {
         "path": "workflow/track2-model/README.md",
@@ -13943,14 +14303,14 @@
       "Future additions or changed files outside the listed hashes"
     ],
     "verification_scope": [
-      "All 100 reviewed payload sizes, SHA-256 digests and filesystem modes match the worktree; all 595 snapshot release entries cover the tracked payload files, excluding the snapshot itself and ignored runtime caches.",
-      "Exact submitted Track 1 upload and one-row prediction CSV digests remain unchanged.",
-      "Current delivery-document local file links, JSON consistency and git diff whitespace checked. Prior explorer, retained-row and five-record public-cache checks remain recorded in historical followups; no biological or computational suite rerun.",
-      "All original inventory fields and 497 baseline decisions preserved; every existing historical source_* field preserved and original audit text retained as an exact prefix.",
-      "Historical reviewer assessments and their pinned identities are unchanged. Current publication-status edits do not change scientific claims. The MP4, captions, deck, exact submitted Track 1 report and prediction CSV remain byte-identical to the pre-publication commit. The full acknowledgement block equals provenance. Review score is unofficial and revision-specific, with no efficacy or submission-readiness certification."
+      "All current reviewed payload file identities verified against worktree; historical baseline decisions and source_* fields preserved.",
+      "Public source catalog reconciliation, all-entity screening states, explicit ambiguity and assay relation/unit checks passed. These checks establish data accounting, not efficacy or exhaustive worldwide drug coverage.",
+      "Fresh literature replay reproduced the1460/7362 EuropePMC sets and1379 PubMed IDs; independent review covered decisive scientific claims, not all catalog rows.",
+      "Current edited/new Markdown local file links and FDA40product/component reconciliation passed.",
+      "Exact submitted Track1 upload, CSV and local MP4/SRT/deck remain byte-identical to prior commit. No new publication or submission."
     ],
     "repository_must_remain_private": true,
-    "remaining_delivery_and_release": "Track 1 model 1 score verified; final report persistence still unconfirmed, with no resubmission. Independent review of the niacin-first package is archived as an unofficial, revision-specific 77/100 assessment. The standalone Track 2 report includes the exact required acknowledgement. The revised niacin-first Vimeo V2 at https://vimeo.com/1228990028 completed optimization, with current English captions enabled and signed-out visual playback/caption correspondence verified on 21 September 2026. The former recording remains in private version history. Track 2 remains unsubmitted; portal delivery remains pending and standalone exports must use a committed revision. Publication-status edits change no scientific claims; historical review identities remain preserved. User conditional authorization and the reviewer score are not submission records or efficacy certification. Cartesia Free plan verified; training/retention settings unverified. Repository remains private. Cleanup of 512S2 follows research closeout and preservation of required artifacts.",
+    "remaining_delivery_and_release": "The source-bounded drug census found new leads. Apitegromab is prioritized as a competitive downstream muscle candidate, with niacin retained as a distinct restoration hypothesis; this is research prioritization, not MVA efficacy. Existing report/video are explicitly provisional pending incorporation. The user condition for submission after no further leads was not met. Repository remains private, Track 2 unsubmitted. Exact Track 1 upload and CSV remain unchanged; its final report-persistence check remains unconfirmed. The current Vimeo V2 serves the preceding niacin/everolimus pitch. No new media or patient experiment was performed.",
     "scientific_review_followup": {
       "reviewed_at_utc": "2026-09-21T00:58:53.601221+00:00",
       "paths": [
@@ -14296,6 +14656,14 @@
       "verification": "Owner interface reported Optimization complete; title and description saved; current English SRT replaced and enabled. Signed-out private-window playback at 00:52 showed the niacin lead slide and matching subtitle: Separate experiments connect NAD and SIRT2 to BUBR1 stability. Public-page reload retained the correct title and duration. Visual playback/caption verification only; no full listening review.",
       "prior_version": "Superseded publicly at the same URL; V1 remains in private version history.",
       "scope": "Delivery-status documentation only; scientific claims, historical assessments, local MP4/SRT/deck and exact Track 1 uploads unchanged. Track 2 remains unsubmitted; repository remains private."
+    },
+    "drug_census_followup": {
+      "reviewed_at_utc": "2026-09-22T00:37:56.286645+00:00",
+      "decision": "retain in private review branch; no public release or Track 2 submission",
+      "scope": "14882 clinical/approved catalog entities plus475 status-unverified entities screened;40 FDA2026 novel product entries checked separately; selected primary-source appraisals and explicit lexical context triage",
+      "scientific_result": "New competitive research leads found; niacin plus apitegromab is the preferred research comparison for muscle benefit, everolimus remains a conditional mechanism probe. No MVA drug efficacy established.",
+      "verification": "Census ID/count, interaction coverage, literature states, assay units/relations, lexical ambiguity/identity checks passed. Fresh literature replay reproduced retained base-query record sets. Local document links and FDA product/component reconciliation passed. Independent science review supported the comparison; extension-dose qualifier and opening provisional status corrected.",
+      "boundaries": "Not a universal drug inventory, not full-text appraisal of every medicine, not numerical efficacy prediction. Raw caches and article abstracts are excluded. Existing media and exact Track1 artifacts unchanged."
     }
   }
 }

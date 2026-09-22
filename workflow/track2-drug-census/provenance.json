@@ -1,0 +1,580 @@
+{
+  "gene_identity": {
+    "audit": {
+      "entryVersion": 234,
+      "firstPublicDate": "2000-05-30",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2007-04-03",
+      "sequenceVersion": 3
+    },
+    "ensembl": "ENSG00000156970",
+    "ensembl_cross_references": [
+      {
+        "database": "Ensembl",
+        "id": "ENST00000287598.11",
+        "isoformId": "O60566-1",
+        "properties": [
+          {
+            "key": "ProteinId",
+            "value": "ENSP00000287598.7"
+          },
+          {
+            "key": "GeneId",
+            "value": "ENSG00000156970.14"
+          }
+        ]
+      },
+      {
+        "database": "Ensembl",
+        "id": "ENST00000412359.7",
+        "isoformId": "O60566-3",
+        "properties": [
+          {
+            "key": "ProteinId",
+            "value": "ENSP00000398470.3"
+          },
+          {
+            "key": "GeneId",
+            "value": "ENSG00000156970.14"
+          }
+        ]
+      }
+    ],
+    "gene": "BUB1B",
+    "taxon": 9606,
+    "uniprot": "O60566"
+  },
+  "licenses": {
+    "ChEMBL": {
+      "license": "CC-BY-SA-3.0",
+      "url": "https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/general-questions"
+    },
+    "DrugCentral": {
+      "license": "CC-BY-SA-4.0",
+      "url": "https://drugcentral.org/privacy"
+    },
+    "UniProt": {
+      "license": "CC-BY-4.0",
+      "url": "https://www.uniprot.org/help/license"
+    }
+  },
+  "source_version_check": {
+    "after": {
+      "activities": 24527044,
+      "chembl_db_version": "ChEMBL_37",
+      "chembl_release_date": "2026-05-01",
+      "compound_records": 3824604,
+      "disinct_compounds": 2921148,
+      "publications": 101100,
+      "status": "UP",
+      "targets": 18552
+    },
+    "before": {
+      "activities": 24527044,
+      "chembl_db_version": "ChEMBL_37",
+      "chembl_release_date": "2026-05-01",
+      "compound_records": 3824604,
+      "disinct_compounds": 2921148,
+      "publications": 101100,
+      "status": "UP",
+      "targets": 18552
+    }
+  },
+  "sources": {
+    "chembl-bub1b-activities-000000.json": {
+      "bytes": 48031,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id__in=CHEMBL4295998&order_by=activity_id&limit=1000&offset=0",
+      "retrieved_utc": "2026-09-22T00:13:53.593127+00:00",
+      "sha256": "e64f09c636fd701b4ca1c122c5448a9f6f013d537c087a1afba05dfbecb55f5f",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id__in=CHEMBL4295998&order_by=activity_id&limit=1000&offset=0"
+    },
+    "chembl-clinical-000000.json": {
+      "bytes": 4421588,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=0",
+      "retrieved_utc": "2026-09-22T00:12:03.427368+00:00",
+      "sha256": "753bf51ae47a4bf9e5d9789407b552b9dbe2dc97115aadaf5e72d177dfb236c9",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=0"
+    },
+    "chembl-clinical-001000.json": {
+      "bytes": 3613483,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=1000",
+      "retrieved_utc": "2026-09-22T00:12:13.142888+00:00",
+      "sha256": "6d971696fb6efb2c62c0d5ea347c11fc3e726e65fb6d2d16d6743c4954850226",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=1000"
+    },
+    "chembl-clinical-002000.json": {
+      "bytes": 3946441,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=2000",
+      "retrieved_utc": "2026-09-22T00:12:13.210981+00:00",
+      "sha256": "0189ed6263c306758b85e0a35b4618d77bce2c36fc8556a785d1d3cd97520d89",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=2000"
+    },
+    "chembl-clinical-003000.json": {
+      "bytes": 3862759,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=3000",
+      "retrieved_utc": "2026-09-22T00:12:12.339935+00:00",
+      "sha256": "54dc83c803ff8bc48920b1d523ed20705b035c747250feae8d8921e41f022b28",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=3000"
+    },
+    "chembl-clinical-004000.json": {
+      "bytes": 3684128,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=4000",
+      "retrieved_utc": "2026-09-22T00:12:10.524387+00:00",
+      "sha256": "b80755fd639abb4e560a39d2f38dc6f68e75aa78f9149e8281b12cd3c1a1b375",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=4000"
+    },
+    "chembl-clinical-005000.json": {
+      "bytes": 3733268,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=5000",
+      "retrieved_utc": "2026-09-22T00:12:17.854294+00:00",
+      "sha256": "b2fa8d62f4288bd50dfc9ad81bf6da49e607777d81d6c38e10b92044dcaa996d",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=5000"
+    },
+    "chembl-clinical-006000.json": {
+      "bytes": 2604258,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=6000",
+      "retrieved_utc": "2026-09-22T00:12:19.806863+00:00",
+      "sha256": "7a5083864812de4fcb483e094d4732ce5f146200fdef88a00a5e00f3a4fc54dd",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=6000"
+    },
+    "chembl-clinical-007000.json": {
+      "bytes": 1833149,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=7000",
+      "retrieved_utc": "2026-09-22T00:12:19.376933+00:00",
+      "sha256": "212271c7fc3f709ba0b26e19360f9182fd04e7b586d537b7bc8899db869e0c60",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=7000"
+    },
+    "chembl-clinical-008000.json": {
+      "bytes": 4132639,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=8000",
+      "retrieved_utc": "2026-09-22T00:12:29.556554+00:00",
+      "sha256": "2c6e2839c593e58d801cfc751765db94f3aa943c2466837ba6c732afc7a70e61",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=8000"
+    },
+    "chembl-clinical-009000.json": {
+      "bytes": 3739237,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=9000",
+      "retrieved_utc": "2026-09-22T00:12:24.978460+00:00",
+      "sha256": "671a8758cb98b460cf7965c056a8c9613f7fe1e123a0629981cd28d3f0df2248",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=9000"
+    },
+    "chembl-clinical-010000.json": {
+      "bytes": 4283709,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=10000",
+      "retrieved_utc": "2026-09-22T00:12:26.695898+00:00",
+      "sha256": "9b6cd2065b54395991370f01df43c82066116df7fa1b2aced4934c8ca0299215",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=10000"
+    },
+    "chembl-clinical-011000.json": {
+      "bytes": 3765296,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=11000",
+      "retrieved_utc": "2026-09-22T00:12:28.395523+00:00",
+      "sha256": "dc0ef7ce3fa4a937a8bee07849bd0ee141384fb14badd7ed08211e0f8785bc00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=11000"
+    },
+    "chembl-clinical-012000.json": {
+      "bytes": 3044817,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=12000",
+      "retrieved_utc": "2026-09-22T00:12:30.713467+00:00",
+      "sha256": "5bebae9817cef6a3b69b8bceec0c6edda330888323711c947fd1a4ca8d73459f",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=12000"
+    },
+    "chembl-clinical-013000.json": {
+      "bytes": 3366763,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=13000",
+      "retrieved_utc": "2026-09-22T00:12:34.845323+00:00",
+      "sha256": "9a58b05305be9775f4c0431723f0bb7c08b0da0d9fc8b905746369fc2b544103",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=13000"
+    },
+    "chembl-clinical-014000.json": {
+      "bytes": 2986890,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=14000",
+      "retrieved_utc": "2026-09-22T00:12:35.738015+00:00",
+      "sha256": "13af3b73bb3ba49e691128b03a8ccb1db32a205ee92d79e51714da03617e0f8e",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=14000"
+    },
+    "chembl-clinical-015000.json": {
+      "bytes": 2948875,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=15000",
+      "retrieved_utc": "2026-09-22T00:12:38.583340+00:00",
+      "sha256": "461d8db15bb0f0a7cba491db739e00ab2cd90796558d9a4d1f489ecc3bf4823b",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=15000"
+    },
+    "chembl-clinical-016000.json": {
+      "bytes": 2753107,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=16000",
+      "retrieved_utc": "2026-09-22T00:12:36.085629+00:00",
+      "sha256": "b3847737ade169f73f5aa5ad46693b257173e5e2225aa1ea1dddc3ac2b439275",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase__gte=1&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=16000"
+    },
+    "chembl-mechanisms-000000.json": {
+      "bytes": 753239,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=0",
+      "retrieved_utc": "2026-09-22T00:12:47.025394+00:00",
+      "sha256": "6a3672bd85065dbbceeb35411637ac2f84581b5edaa8756ba665b43aa818c1f2",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=0"
+    },
+    "chembl-mechanisms-001000.json": {
+      "bytes": 772723,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=1000",
+      "retrieved_utc": "2026-09-22T00:12:49.251386+00:00",
+      "sha256": "7d52682308bfc30fafb899c97ce274b67ca3fc86691d6cbb320d59fdcb67c468",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=1000"
+    },
+    "chembl-mechanisms-002000.json": {
+      "bytes": 726027,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=2000",
+      "retrieved_utc": "2026-09-22T00:12:49.131661+00:00",
+      "sha256": "60b037611fb9b7a96fe10a70405005fc0771c1fab1a596eb89534add87c2f489",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=2000"
+    },
+    "chembl-mechanisms-003000.json": {
+      "bytes": 746738,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=3000",
+      "retrieved_utc": "2026-09-22T00:12:49.520414+00:00",
+      "sha256": "2cf9943ce36968b05a61378dec0860bd73ae20047986497d391b91f6893d55ec",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=3000"
+    },
+    "chembl-mechanisms-004000.json": {
+      "bytes": 922206,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=4000",
+      "retrieved_utc": "2026-09-22T00:12:49.624994+00:00",
+      "sha256": "996e07f60a8a6af25ceb12b1da4030148d8c01fada82896c35afc94a87aa34d6",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=4000"
+    },
+    "chembl-mechanisms-005000.json": {
+      "bytes": 825826,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=5000",
+      "retrieved_utc": "2026-09-22T00:12:51.270263+00:00",
+      "sha256": "36217c81f0e8ff855bfa856494886de7c6ecd9ab17d2083cc32d991b87a6d867",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=5000"
+    },
+    "chembl-mechanisms-006000.json": {
+      "bytes": 668262,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=6000",
+      "retrieved_utc": "2026-09-22T00:12:51.648657+00:00",
+      "sha256": "3af96d8ebe5498df4ce0191bf697ea3b15f6c33b8c4bb6249fd27646a7ea8132",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=6000"
+    },
+    "chembl-mechanisms-007000.json": {
+      "bytes": 401843,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=7000",
+      "retrieved_utc": "2026-09-22T00:12:51.642344+00:00",
+      "sha256": "c4dc72a7ed51233bc1dd607b99ae1aed84fa9a6a878ae7be439f9cfb2ee70c00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?order_by=mec_id&limit=1000&offset=7000"
+    },
+    "chembl-status-after.json": {
+      "bytes": 212,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/status.json?after=census",
+      "retrieved_utc": "2026-09-22T00:13:56.867422+00:00",
+      "sha256": "29dc1fb09487a8d2962253a4d0d92c4ded0aa0d831effab42445d0c3483d4740",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/status.json?after=census"
+    },
+    "chembl-status-before.json": {
+      "bytes": 212,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/status.json",
+      "retrieved_utc": "2026-09-22T00:11:56.696698+00:00",
+      "sha256": "29dc1fb09487a8d2962253a4d0d92c4ded0aa0d831effab42445d0c3483d4740",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/status.json"
+    },
+    "chembl-targets-000000.json": {
+      "bytes": 4578531,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=0",
+      "retrieved_utc": "2026-09-22T00:13:01.830620+00:00",
+      "sha256": "0801cdcd16a753a0a25eb638841cef3b1472e0f9215858a2d21a12f2664620f3",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=0"
+    },
+    "chembl-targets-001000.json": {
+      "bytes": 11850822,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=1000",
+      "retrieved_utc": "2026-09-22T00:13:14.493203+00:00",
+      "sha256": "49bff6ac229b440b0725f9ce573966fb3cc9d94d1d8f723c8c606c0ba5377e99",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=1000"
+    },
+    "chembl-targets-002000.json": {
+      "bytes": 13494282,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=2000",
+      "retrieved_utc": "2026-09-22T00:13:15.081333+00:00",
+      "sha256": "4eeda6f6b4aae198e1ba0f2fffc71b4bb3947f5bc8e15471d17334fe7f0089ae",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=2000"
+    },
+    "chembl-targets-003000.json": {
+      "bytes": 5822050,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=3000",
+      "retrieved_utc": "2026-09-22T00:13:10.444319+00:00",
+      "sha256": "1188dfac8ce1e8852210df61fe5259e67e9d3d00b4f5888816b39430143613e1",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=3000"
+    },
+    "chembl-targets-004000.json": {
+      "bytes": 4740493,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=4000",
+      "retrieved_utc": "2026-09-22T00:13:09.577051+00:00",
+      "sha256": "cbf2a32a9b7c622d691bdbef952838eef5de79864b6d8917211553d3785f945c",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=4000"
+    },
+    "chembl-targets-005000.json": {
+      "bytes": 8841743,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=5000",
+      "retrieved_utc": "2026-09-22T00:13:19.360481+00:00",
+      "sha256": "9d9882484b2c943ac1870dde1bc10a8e0dd5ecba3347998b09e3396525ddf752",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=5000"
+    },
+    "chembl-targets-006000.json": {
+      "bytes": 7883535,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=6000",
+      "retrieved_utc": "2026-09-22T00:13:21.798409+00:00",
+      "sha256": "7f1247fbe7f903493ae3a53637bde9784e96a4e6f2c9a8ec68dc45ebef44a51e",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=6000"
+    },
+    "chembl-targets-007000.json": {
+      "bytes": 12339465,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=7000",
+      "retrieved_utc": "2026-09-22T00:13:26.335931+00:00",
+      "sha256": "c9571b90b447594510e211c0e184595068c1778e4db182a93e3dc1729e275dd5",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=7000"
+    },
+    "chembl-targets-008000.json": {
+      "bytes": 10120668,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=8000",
+      "retrieved_utc": "2026-09-22T00:13:27.735550+00:00",
+      "sha256": "fb90f860a1ab9caa5b3605bf461079ec0f3ca6a6808e703e506a3013ef66faff",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=8000"
+    },
+    "chembl-targets-009000.json": {
+      "bytes": 4644331,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=9000",
+      "retrieved_utc": "2026-09-22T00:13:28.711044+00:00",
+      "sha256": "489a1752dd34b76e09a3e96ce47598a1568c9b53bf349ef54ba870fc43cae2f9",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=9000"
+    },
+    "chembl-targets-010000.json": {
+      "bytes": 13236646,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=10000",
+      "retrieved_utc": "2026-09-22T00:13:36.945988+00:00",
+      "sha256": "2705a56596866cfe6574c83885732eaf7882f6012610afbf62fe90a33c2ad823",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=10000"
+    },
+    "chembl-targets-011000.json": {
+      "bytes": 7647192,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=11000",
+      "retrieved_utc": "2026-09-22T00:13:37.141652+00:00",
+      "sha256": "8d36da17bff9f63bd2e1c9279b1b2a3b89e9c108e7d32fcd4a1c4610e79d825a",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=11000"
+    },
+    "chembl-targets-012000.json": {
+      "bytes": 9458447,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=12000",
+      "retrieved_utc": "2026-09-22T00:13:40.923051+00:00",
+      "sha256": "4ef162737fce5f4edfd4602324af5246f0ae887afad50b1c8d555964d1ad6fab",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=12000"
+    },
+    "chembl-targets-013000.json": {
+      "bytes": 8035545,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=13000",
+      "retrieved_utc": "2026-09-22T00:13:39.313165+00:00",
+      "sha256": "af66191307274075d840197d4c177702dfb423f87ba68643d91d148e0d120bc9",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=13000"
+    },
+    "chembl-targets-014000.json": {
+      "bytes": 6639336,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=14000",
+      "retrieved_utc": "2026-09-22T00:13:44.106387+00:00",
+      "sha256": "c1898dcf252a46d6597990b1b039bd83d0dee666f01c16e8deaef5e766326a50",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=14000"
+    },
+    "chembl-targets-015000.json": {
+      "bytes": 2608683,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=15000",
+      "retrieved_utc": "2026-09-22T00:13:41.820885+00:00",
+      "sha256": "d29334b3b97eb38424c5ad9c501c7bb48b0e7231c1caaca81ccac08fa3ac602f",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=15000"
+    },
+    "chembl-targets-016000.json": {
+      "bytes": 292750,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=16000",
+      "retrieved_utc": "2026-09-22T00:13:42.358359+00:00",
+      "sha256": "bf8b59812de5b1c3efeeff078eda7c9c4a363a3b45e42bf33b132e7064042085",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=16000"
+    },
+    "chembl-targets-017000.json": {
+      "bytes": 3937965,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=17000",
+      "retrieved_utc": "2026-09-22T00:13:47.115166+00:00",
+      "sha256": "2ecd6f1ff5d328b3b7a6e3793f1a00aaa82955c89e43ded77b59d82723b7a4a3",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=17000"
+    },
+    "chembl-targets-018000.json": {
+      "bytes": 4320824,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=18000",
+      "retrieved_utc": "2026-09-22T00:13:46.783000+00:00",
+      "sha256": "1b5709baac40b61a4228e161a60045a77f8b3eda5a0da03caf97579095fd0780",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?only=target_chembl_id%2Cpref_name%2Corganism%2Ctarget_type%2Ctarget_components&order_by=target_chembl_id&limit=1000&offset=18000"
+    },
+    "chembl-withdrawn-000000.json": {
+      "bytes": 1358518,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?withdrawn_flag=true&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=0",
+      "retrieved_utc": "2026-09-22T00:12:44.148979+00:00",
+      "sha256": "8379bec275693a63430b1bd4bda6d5c9747949cf96a737e643131a1ca1965913",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?withdrawn_flag=true&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cwithdrawn_flag%2Cfirst_approval%2Cmolecule_hierarchy%2Cmolecule_synonyms%2Cmolecule_type%2Cmolecule_structures%2Ccross_references%2Cveterinary%2Ctherapeutic_flag%2Catc_classifications&order_by=molecule_chembl_id&limit=1000&offset=0"
+    },
+    "drugcentral-EMA.csv": {
+      "bytes": 8099,
+      "etag": "\"6a31c348-1fa3\"",
+      "last_modified": "Tue, 16 Jun 2026 21:42:32 GMT",
+      "resolved_url": "https://drugcentral.org/static/EMA_Approved.csv",
+      "retrieved_utc": "2026-09-22T00:13:49.352255+00:00",
+      "sha256": "58e32326c89fa4f1901e51303c92fa77c685e82bf3bb79b05fee87ef155d0de8",
+      "url": "https://drugcentral.org/static/EMA_Approved.csv"
+    },
+    "drugcentral-FDA.csv": {
+      "bytes": 42482,
+      "etag": "\"6a31c348-a5f2\"",
+      "last_modified": "Tue, 16 Jun 2026 21:42:32 GMT",
+      "resolved_url": "https://drugcentral.org/static/FDA_Approved.csv",
+      "retrieved_utc": "2026-09-22T00:13:49.131409+00:00",
+      "sha256": "e645cf89a6f2f01317b9a42354ba761c13b21908c0212444f6aead0791a88186",
+      "url": "https://drugcentral.org/static/FDA_Approved.csv"
+    },
+    "drugcentral-PMDA.csv": {
+      "bytes": 7716,
+      "etag": "\"6a31c348-1e24\"",
+      "last_modified": "Tue, 16 Jun 2026 21:42:32 GMT",
+      "resolved_url": "https://drugcentral.org/static/PMDA_Approved.csv",
+      "retrieved_utc": "2026-09-22T00:13:49.575253+00:00",
+      "sha256": "b88d9bb693e015a31dd838bcb7ec6033cb472216adc3946da2891d90236e1e9b",
+      "url": "https://drugcentral.org/static/PMDA_Approved.csv"
+    },
+    "drugcentral-interactions-2021.tsv.gz": {
+      "bytes": 779363,
+      "etag": "\"be463-5cfbe71a61940\"",
+      "last_modified": "Mon, 01 Nov 2021 18:35:41 GMT",
+      "resolved_url": "https://unmtid-dbs.net/download/DrugCentral/2021_09_01/drug.target.interaction.tsv.gz",
+      "retrieved_utc": "2026-09-22T00:13:50.255146+00:00",
+      "sha256": "160d7b3827997442def525d7499a82e12c3f97a96bc3b5bcaace1c6d12d48618",
+      "url": "https://unmtid-dbs.net/download/DrugCentral/2021_09_01/drug.target.interaction.tsv.gz"
+    },
+    "drugcentral-structures-2021.tsv": {
+      "bytes": 1089436,
+      "etag": "\"109f9c-5d09a42a1e340\"",
+      "last_modified": "Fri, 12 Nov 2021 16:50:45 GMT",
+      "resolved_url": "https://unmtid-dbs.net/download/DrugCentral/2021_09_01/structures.smiles.tsv",
+      "retrieved_utc": "2026-09-22T00:13:48.671700+00:00",
+      "sha256": "5b81423a2ec1e2766e9666ec4a172d5a5b47045ea2cc032d1ba06085956bc1fc",
+      "url": "https://unmtid-dbs.net/download/DrugCentral/2021_09_01/structures.smiles.tsv"
+    },
+    "drugcentral-structures-2023.sdf.gz": {
+      "bytes": 721592,
+      "etag": "\"b02b8-5fde6ce991e80\"",
+      "last_modified": "Mon, 12 Jun 2023 04:03:54 GMT",
+      "resolved_url": "https://unmtid-dbs.net/download/DrugCentral/2023/structures.molV3.sdf.gz",
+      "retrieved_utc": "2026-09-22T00:13:47.897068+00:00",
+      "sha256": "a0661cbc80df3e0510bcfd2ebee5ba323c77ec2addd3dffea11126198bf269a2",
+      "url": "https://unmtid-dbs.net/download/DrugCentral/2023/structures.molV3.sdf.gz"
+    },
+    "uniprot-O60566.json": {
+      "bytes": 93023,
+      "etag": null,
+      "last_modified": null,
+      "resolved_url": "https://rest.uniprot.org/uniprotkb/O60566.json",
+      "retrieved_utc": "2026-09-22T00:13:51.336227+00:00",
+      "sha256": "73899b2ea96a39d38e3aa41dc08587e70414c40c41ed0088cb92638cfb336ec1",
+      "url": "https://rest.uniprot.org/uniprotkb/O60566.json"
+    }
+  }
+}

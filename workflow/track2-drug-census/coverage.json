@@ -1,0 +1,87 @@
+{
+  "built_utc": "2026-09-22T00:19:10.320008+00:00",
+  "catalog_counts": {
+    "aliases": 156295,
+    "chembl_parent_groups": 14659,
+    "drugcentral_only_approved_entities": 223,
+    "drugcentral_status_unverified_excluded": 475,
+    "maximum_phase": {
+      "1.0": 1374,
+      "2.0": 8547,
+      "3.0": 1742,
+      "4.0": 2996,
+      "None": 223
+    },
+    "parent_or_unmatched_dc_entities": 14882,
+    "status_summary": {
+      "approval_record": 3103,
+      "clinical_development_record": 11488,
+      "withdrawal_flagged": 291
+    },
+    "veterinary_flagged_entities": 67,
+    "withdrawal_flagged_entities": 291
+  },
+  "chembl_release": {
+    "activities": 24527044,
+    "chembl_db_version": "ChEMBL_37",
+    "chembl_release_date": "2026-05-01",
+    "compound_records": 3824604,
+    "disinct_compounds": 2921148,
+    "publications": 101100,
+    "status": "UP",
+    "targets": 18552
+  },
+  "coverage": {
+    "any_target_or_mechanism_annotated_entities": 6089,
+    "bub1b_annotated_targets": [
+      "CHEMBL4295998"
+    ],
+    "bub1b_clinical_drug_activity_entities": 2,
+    "bub1b_clinical_drug_activity_rows": 2,
+    "bub1b_neighborhood_entities": 2,
+    "bub1b_neighborhood_rows": 2,
+    "chembl_mechanism_entities": 5524,
+    "direct_bub1b_mechanism_or_interaction_rows": 0,
+    "drugcentral_interaction_entities": 2489,
+    "drugcentral_moa_entities": 1814,
+    "unannotated_entities": 8793
+  },
+  "crosswalk": {
+    "name_structure_conflict": 151,
+    "unique_exact_full_inchikey": 3520,
+    "unique_exact_preferred_name": 577,
+    "unmatched": 547
+  },
+  "limitations": [
+    "Source-bounded census, not every drug ever developed or every medicine worldwide.",
+    "Maximum development phase is historical, not proof of current authorization, development activity, jurisdiction, formulation, pediatric safety, or efficacy.",
+    "Withdrawn flag does not mean withdrawal everywhere; no false-to-currently-marketed inference.",
+    "DrugCentral 2023 SDF / 2021 SMILES and interactions have different dates; approval CSV content version is unreported, HTTP metadata retained.",
+    "Status-unverified DrugCentral entries outside clinical/withdrawal/approval filters are retained separately, not promoted to medicines by chemical identity alone.",
+    "Parent-group counts retain molecular/formulation heterogeneity and unresolved cross-source duplicates; not a definitive count of distinct active ingredients.",
+    "Target annotations, assay records and interactions do not establish pharmacological benefit or mutant rescue.",
+    "Missing annotations are UNKNOWN, not evidence of inefficacy.",
+    "No whole-transcriptome perturbation, all-drug docking, clinical intervention, or experiment performed."
+  ],
+  "source_counts": {
+    "bub1b_chembl_activity_records_all": 24,
+    "chembl_mechanisms_all": 7561,
+    "chembl_phase_ge_1": 16784,
+    "chembl_targets_all": 18552,
+    "chembl_unique_clinical_or_withdrawn_records": 16784,
+    "chembl_withdrawn_flag": 364,
+    "drugcentral_approval_list_rows": {
+      "EMA": 456,
+      "FDA": 2331,
+      "PMDA": 435
+    },
+    "drugcentral_interaction_only_ids": 16,
+    "drugcentral_interactions_all": 19378,
+    "drugcentral_interactions_screened": 19378,
+    "drugcentral_interactions_status_unverified": 433,
+    "drugcentral_record_union": 4795,
+    "drugcentral_smiles_2021": 4099,
+    "drugcentral_unique_approved_list_ids": 2497
+  },
+  "source_scope": "ChEMBL max_phase>=1 OR withdrawn_flag; union DrugCentral FDA/EMA/PMDA approval lists"
+}

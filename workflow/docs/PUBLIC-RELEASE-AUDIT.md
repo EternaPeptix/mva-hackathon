@@ -297,3 +297,21 @@ Historical assessments and audit entries retain their original wording; their
 artifact identities describe the versions they assessed. Scientific claims,
 local MP4/SRT/deck bytes and exact Track 1 uploads are unchanged. Track 2 remains
 unsubmitted and the repository remains private.
+
+
+### 21 September 2026: broad public drug census and new leads
+
+The public drug census adds source-qualified clinical/regulatory metadata,
+reproducible retrieval/matching code, screening states and selected primary-source
+appraisals. Raw bulk caches and full article abstracts are kept outside Git.
+ChEMBL, DrugCentral and UniProt attribution/source-license exceptions are retained.
+The additions contain no new controlled genomic payload or patient experiment.
+
+The comparison identifies new lines, including apitegromab as a serious downstream
+muscle competitor, AZD1152 same-gene pharmacology with a sarcopenia null, and FRZB
+and PAK2 genetic target opportunities. Missing efficacy remains unknown, not an
+experimental rejection. Catalog coverage and lexical triage do not certify an
+exhaustive worldwide inventory or full-text review of every co-mentioned medicine.
+The existing two-drug report/video are marked provisional pending incorporation;
+no public repository release or Track 2 submission occurred. Exact Track 1 uploads,
+CSV, local media and historical reviewer identities are preserved.

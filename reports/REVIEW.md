@@ -2,6 +2,8 @@
 
 **21 September 2026. Research proposal; Track 2 has not been submitted.**
 
+**Read the [new drug-census recommendation](../workflow/track2-drug-census/decision-report.md) first.** It recommends prioritizing apitegromab as a downstream muscle competitor to everolimus while retaining niacin's distinct restoration hypothesis. The report and video below describe the preceding two-drug proposal and are provisional pending incorporation of the new findings. No MVA drug efficacy has been demonstrated.
+
 We nominate **niacin as the research lead and everolimus as a downstream probe,
 tested separately**. Niacin addresses the published protein-insufficiency mechanism
 through a NAD/SIRT2/BUBR1 restoration hypothesis; everolimus tests whether a harmful
@@ -18,6 +20,7 @@ Laboratory and patient-model access remain unsecured.
 
 | Material | Purpose |
 |---|---|
+| [Drug census and comparative decision](../workflow/track2-drug-census/decision-report.md) | Broad public catalog screen, additional leads, symmetric candidate comparison and submission hold |
 | [Revised narration](jeweled_track2_pitch_reconciled.md) and [local pitch media](media/jeweled_track2_skylar.mp4) | Niacin-first proposal, eight slides and 180 seconds |
 | [Main report](jeweled_track2_report_submission.md) | Evidence chain, counterevidence, completed findings and first experiment |
 | [Sequence/population analysis](../workflow/track2-model/README.md) and [public RNA analysis](../workflow/track2-rna/README.md) | Reproducible computation with its biological limits |

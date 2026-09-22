@@ -2,11 +2,14 @@
 
 **Research proposal, revised 21 September 2026.**
 
-We nominate **niacin (nicotinic acid) as the research lead and everolimus as a downstream mechanism-probe arm**, tested separately. The aim is to preserve useful muscle and its ability to renew in a child with recorded muscle atrophy and failure to thrive. The lead question is whether increasing usable BUBR1—the protein that helps cells distribute chromosomes correctly—can improve that function.
+**Provisional after the broad drug search:** the [new competitive assessment](../workflow/track2-drug-census/decision-report.md) recommends niacin plus apitegromab, tested separately, for a muscle-benefit research objective, with everolimus retained as a conditional signaling probe. The preceding niacin/everolimus proposal below and its video await incorporation of that recommendation. Track 2 is unsubmitted; no medication has demonstrated MVA benefit.
+
+The preceding proposal nominated **niacin (nicotinic acid) as the research lead and everolimus as a downstream mechanism-probe arm**, tested separately. The aim is to preserve useful muscle and its ability to renew in a child with recorded muscle atrophy and failure to thrive. The lead question is whether increasing usable BUBR1—the protein that helps cells distribute chromosomes correctly—can improve that function.
 
 **Protein insufficiency is an experimentally supported MVA1 mechanism.** [Suijkerbuijk and colleagues](https://pmc.ncbi.nlm.nih.gov/articles/PMC2887387/) linked reduced transcript supply and unstable missense proteins to low BUBR1 in selected patient cells. Our proposed pair matches that reported architecture, although N1002K's actual effect is unmeasured. Niacin leads because the NAD/SIRT2 hypothesis addresses this proximal defect and has human muscle NAD-engagement evidence. Everolimus tests a downstream signaling hypothesis whose elevation is not established here. Neither drug has demonstrated benefit for this genotype; the ordering prioritizes mechanism match, not proven efficacy or pediatric safety. The [route decisions](appendices/track2-route-decisions.md) retain counterevidence and promotion conditions.
 
 ## What the genetic result means
+
 
 **BUB1B is the gene; BUBR1 is its protein product.** Our [Track 1 hypothesis](jeweled_track1_report_submission.md) involves two changes: Leu737Ter, which predicts an early stop and a 736-amino-acid protein, and Asn1002Lys, which changes one protein building block. The second change remains a variant of uncertain significance: its functional effect is unmeasured.
 
@@ -41,6 +44,8 @@ The [sequence and population analysis](../workflow/track2-model/README.md) recon
 We also [reanalyzed public muscle RNA counts](../workflow/track2-rna/README.md): nine mice, 12,989 retained genes and 150 pathway comparisons. None passed the global statistical threshold. The mTORC1 comparison had P = 0.219 and adjusted false-discovery rate = 0.983. RNA measurements did not corroborate pathway activation; they neither validate nor refute the qualitative phosphoprotein-band observation. This reused study data and supplies no independent biological replication. Neither analysis ranks drug efficacy.
 
 ## A staged experiment a partner team could undertake
+
+This staged design describes the preceding niacin/everolimus comparison. It awaits incorporation of apitegromab-specific myostatin target-engagement, muscle-function and bone/tumor risk assessments from the new review. It is not ready for portal submission in this form.
 
 No laboratory partnership or patient-derived model access is established. The proposed partners are a genetics center, a laboratory that measures muscle formation and contraction, a clinical pharmacologist and the treating oncology team. The [detailed experimental plan](appendices/track2-evidence-pipeline.md) defines the proposed comparisons and decisions. The first partner milestone is a reproducible muscle defect in an interpretable affected-versus-corrected model; drug confirmation follows successful model and exposure qualification.
 

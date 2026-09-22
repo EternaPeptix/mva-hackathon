@@ -5,6 +5,8 @@
 **[Open the Track 2 review package](REVIEW.md)** for the current report, evidence,
 revised pitch, editable slides, captions and revision-specific reviewer assessments.
 
+**New broad-search finding:** the [drug census and competitive comparison](../workflow/track2-drug-census/decision-report.md) identify apitegromab as a serious downstream muscle candidate ahead of everolimus on actual-drug human functional evidence. Niacin remains a distinct restoration hypothesis. New same-gene mechanistic routes are also retained. The existing report/video pair is provisional while this recommendation is incorporated; publication and Track 2 submission remain pending. The census records unknown evidence explicitly and does not claim a complete inventory of every drug worldwide.
+
 ## Track 1 submission record
 
 On **21 September 2026 at 17:41 UTC**, account/team **jeweled** sent one Track 1
