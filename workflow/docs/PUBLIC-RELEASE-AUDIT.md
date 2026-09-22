@@ -336,3 +336,17 @@ independent full listening review is claimed. Earlier versions remain in private
 history and no longer appear at the public link. Exact Track 1 uploads and
 Track 1 methods are unchanged. The repository remains private and Track 2
 remains unsubmitted. The current file identities are recorded in the inventory.
+
+
+### 21 September 2026: recovered literature-screen gaps
+
+Supplemental PubMed metadata and a catalog-independent gene-record inventory
+close identifiable retrieval/alias gaps without asserting exhaustive efficacy
+review. Seven additional route appraisals and a deeper NAC/ascorbate review retain
+model-specific outcomes and unknown actual-allele muscle benefit. Four explicit
+preprint/journal links prevent treating added records as independent studies.
+New files contain public identifiers/titles, derived screening metadata and
+original methods/appraisal prose; abstracts and full texts remain outside Git.
+The reviewed fixed input is required before historical manual-review flags may
+be reproduced. Independent count/code and selected primary-source checks passed.
+The elected proposal, video and exact Track 1 uploads are unchanged.

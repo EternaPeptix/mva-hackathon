@@ -365,11 +365,12 @@
       "disposition": "redox reserve, decline lead",
       "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "No demonstrated BUB1B-dependent redox cause or rescue. The [randomized RYR1-myopathy trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC7274912/) failed its primary oxidative-stress endpoint and did not establish a functional benefit. It is a different myopathy but stronger than a generic antioxidant rationale.",
+      "rationale": "No demonstrated BUB1B-dependent redox cause or rescue. The [randomized RYR1-myopathy trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC7274912/) failed its primary oxidative-stress endpoint and did not establish a functional benefit. It is a different myopathy but stronger than a generic antioxidant rationale. In Sod1-null oocytes, NAC and ascorbate reduced premature sister-chromatid separation and improved normal-chromosome outcomes; distinct lesion and meiotic tissue, without demonstrated BUBR1 mediation or muscle rescue.",
       "source_report": "reports/appendices/track2-route-decisions.md",
       "source_urls": [
         "https://doi.org/10.1002/cam4.101",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7274912/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7274912/",
+        "https://pubmed.ncbi.nlm.nih.gov/39845481/"
       ]
     },
     {
@@ -698,6 +699,112 @@
       "source_report": "workflow/track2-drug-census/decision-report.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/33244299/"
+      ]
+    },
+    {
+      "decision_id": "new-7-8-dhf",
+      "match_aliases": [
+        "7,8-dihydroxyflavone",
+        "7,8-DHF"
+      ],
+      "route": "BDNF / MSC secretome / 7,8-dihydroxyflavone",
+      "disposition": "experimental chromosome-fidelity comparator; not an approved-drug lead",
+      "evidence_scope": "Catalog-independent primary intervention appraisal; distinct model and outcome scopes retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "PMID 42286606: 7,8-DHF reduced in-vitro aneuploidy in aged WT mouse oocytes. Secretome/BDNF kinetochore endpoints must not be assigned automatically to the small molecule. No BUB1B-mutant muscle rescue, exposure bridge or independently established target specificity.",
+      "source_report": "workflow/track2-drug-census/catalog-independent-review.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42286606/"
+      ]
+    },
+    {
+      "decision_id": "new-phyllanthus-extract",
+      "match_aliases": [
+        "Phyllanthus emblica"
+      ],
+      "route": "Phyllanthus emblica fruit extract",
+      "disposition": "mixture-level genomic-protection reserve; no defined medicine nominated",
+      "evidence_scope": "Catalog-independent primary intervention appraisal; distinct model and outcome scopes retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Normal NCM460 colon cells had fewer abnormal mitoses/genomic-damage endpoints. BubR1 mRNA rose, but mediation was unproved. Undefined mixture; constituents cannot inherit the preparation result. No actual-allele muscle rescue.",
+      "source_report": "workflow/track2-drug-census/catalog-independent-review.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/27598149/"
+      ]
+    },
+    {
+      "decision_id": "new-melatonin",
+      "match_aliases": [
+        "melatonin"
+      ],
+      "route": "Melatonin",
+      "disposition": "contextual cytoprotection reserve; decline muscle-restoration lead",
+      "evidence_scope": "Catalog-independent primary intervention appraisal; distinct model and outcome scopes retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Cryopreserved oocyte maturation improved at 10^-7 M with stage-specific Bubr1 mRNA changes. Other tested concentrations impaired maturation relative to vitrification alone. No chromosome-number, actual-allele or muscle rescue demonstrated.",
+      "source_report": "workflow/track2-drug-census/catalog-independent-review.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31480299/"
+      ]
+    },
+    {
+      "decision_id": "new-euk-207",
+      "match_aliases": [
+        "EUK-207"
+      ],
+      "route": "EUK-207",
+      "disposition": "experimental functional antioxidant reserve",
+      "evidence_scope": "Catalog-independent primary intervention appraisal; distinct model and outcome scopes retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Hearing preservation in SAMP8 mice and cochlear protection were demonstrated. BubR1 decrease characterized oxidant injury; drug-mediated BubR1 restoration was not established. No mutant, muscle or clinical-exposure bridge.",
+      "source_report": "workflow/track2-drug-census/catalog-independent-review.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/30693443/"
+      ]
+    },
+    {
+      "decision_id": "new-folic-acid",
+      "match_aliases": [
+        "folic acid"
+      ],
+      "route": "Folic acid",
+      "disposition": "low-priority contextual evidence; decline BUB1B-restoration lead",
+      "evidence_scope": "Catalog-independent primary intervention appraisal; distinct model and outcome scopes retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Folate reduced toxin-induced apoptosis in bovine mammary epithelial cells. BUB1B is a network/marker association; individual cow gene differences were nonsignificant. No division-fidelity, mutant or muscle benefit demonstrated.",
+      "source_report": "workflow/track2-drug-census/catalog-independent-review.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/39506684/"
+      ]
+    },
+    {
+      "decision_id": "new-lithium-chloride",
+      "match_aliases": [
+        "lithium chloride"
+      ],
+      "route": "Lithium chloride",
+      "disposition": "contextual mechanism observation; not an implementation of FRZB rescue",
+      "evidence_scope": "Catalog-independent primary intervention appraisal; distinct model and outcome scopes retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "LiCl improved spindle morphology and pronuclear formation after Axin1 depletion in oocytes. This is neither BUB1B deficiency nor the BubR1-H/H FRZB genetic rescue. No clinical lithium formulation or exposure equivalence inferred.",
+      "source_report": "workflow/track2-drug-census/catalog-independent-review.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/27284927/"
+      ]
+    },
+    {
+      "decision_id": "new-pifithrin-alpha",
+      "match_aliases": [
+        "pifithrin-alpha"
+      ],
+      "route": "Pifithrin-alpha",
+      "disposition": "record toxin-model pharmacology; decline restoration lead",
+      "evidence_scope": "Catalog-independent primary intervention appraisal; distinct model and outcome scopes retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Primary abstract reports reversal of chromium-associated BubR1 reduction and cell-cycle arrest. Full-text treatment details not reviewed; release from a damage response is not chromosome repair or competent-progenitor rescue. Same-gene p53 genetic counterevidence remains relevant.",
+      "source_report": "workflow/track2-drug-census/catalog-independent-review.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/22886373/"
       ]
     }
   ]

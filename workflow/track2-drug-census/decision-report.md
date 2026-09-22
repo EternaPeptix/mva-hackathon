@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 43 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 50 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -54,6 +54,34 @@ approval, supplemental indication, CBER biologic or product formulation.
 | **Vitamin K2** | Protected neurogenesis and behavior in a neonatal surgery/anesthesia mouse model; BUB1B was among restored hub genes. | Injury prevention is a different setting; hub-gene expression does not establish causal BUBR1 rescue. The exact chemical form and formulation cannot be inferred from the vitamin-family name. [Primary study](https://pubmed.ncbi.nlm.nih.gov/40273626/). |
 | **CAPE** | Improved neurodifferentiation and selected neurological-model outcomes. | BUBR1 fell in the differentiation context; this is not evidence for BUBR1 restoration. CAPE is not caffeic acid. [Primary study](https://pubmed.ncbi.nlm.nih.gov/33244299/). |
 | **NAC / ascorbate** | Reduced segregation errors in oxidatively stressed Sod1-deficient oocytes, extending the redox reserve beyond a generic antioxidant argument. | A different gene, meiotic tissue and exposure context; BUBR1-mediated MVA muscle rescue remains unproved. [Primary study](https://pubmed.ncbi.nlm.nih.gov/39845481/). |
+
+## Interventions recovered beyond the catalog-name filter
+
+The additional [catalog-independent review](catalog-independent-review.md)
+retains every one of 1,460 gene-query records, with machine priority and actual
+manual-review depth separately recorded. Seven newly appraised primary studies
+and a deeper review of the already cited NAC/ascorbate study add the following
+comparisons. This is a bounded sensitivity pass, not a systematic review of every
+record or proof that no other candidate exists.
+
+| Route | Relevant administered-intervention result | Competitive decision and missing bridge |
+|---|---|---|
+| **7,8-DHF / BDNF signaling** | 7,8-DHF reduced aneuploidy in aged mouse oocytes. Secretome and recombinant BDNF had related but distinct timing/localization assays. | **Admit an experimental chromosome-fidelity comparator.** No actual BUB1B-allele, muscle, clinical-exposure or qualified approved-product bridge; do not assign all secretome endpoints to 7,8-DHF. |
+| **Phyllanthus emblica extract** | Fewer abnormal divisions and genomic-damage endpoints in normal colon epithelial cells; BubR1 mRNA rose. | **Mixture-level reserve.** Active ingredient and BUBR1 mediation are unknown; neither constituents nor another formulation inherit this result. |
+| **Melatonin** | Improved maturation after oocyte cryopreservation, at one concentration; stage-specific Bubr1 marker recovery. | **Contextual reserve.** Not chromosome-number or mutant-muscle rescue; other tested concentrations impaired maturation. |
+| **EUK-207** | Preserved hearing in SAMP8 mice and protected cochlear explants. | **Functional antioxidant reserve.** Different lesion/tissue; drug-mediated BUBR1 restoration and eligible human exposure unestablished. |
+| **Folic acid** | Less induced apoptosis in bovine mammary cells; BUB1B network association. | **Low priority.** Cow gene differences were nonsignificant; surviving cells do not establish correct division or productive muscle renewal. |
+| **Lithium chloride** | Spindle/pronuclear benefit after Axin1 depletion in oocytes. | **Contextual mechanism evidence.** Not pharmacological reproduction of FRZB reduction in BubR1 mice; clinical lithium equivalence not shown. |
+| **Pifithrin-alpha** | Primary abstract reports relief of chromium-associated arrest and BubR1 marker reduction. | **Decline restoration lead.** Full treatment details unread; arrest relief does not establish chromosome repair, and same-gene p53 counterevidence remains. |
+
+Each row's primary citations, dose/model details and evidence limits are in the
+[intervention review](catalog-independent-review.md). NAC/ascorbate's chromosome
+outcomes strengthen its existing reserve without establishing MVA muscle rescue.
+The [supplemental PubMed appraisal](pubmed-supplement-review.md) also qualifies
+KIF18A tumor killing as checkpoint- and schedule-dependent, not a generic
+aneuploid-cell vulnerability or normal-tissue restoration strategy. Preprints and
+journal versions are linked, not added as independent support. **The elected
+niacin/apitegromab research comparison remains unchanged.**
 
 ## What remains unknown
 

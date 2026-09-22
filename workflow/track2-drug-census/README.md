@@ -168,6 +168,37 @@ successful medication. The 503-entity broad list was additionally filtered for
 aging/muscle/protective contexts; the resulting audit table includes unrelated
 lesions and injury exposures, which are not promoted by beneficial language.
 
+## Coverage-gap follow-up
+
+Two recovered blind spots are explicit additions to the original screen:
+
+- [`pubmed_supplement.py`](pubmed_supplement.py) now screens the 74 fetched
+  PubMed XML records. There are **48 additional source PMIDs**, yielding **7,410
+  source records** in the union. Four are preprints with journal updates already
+  in the base corpus; these are not four additional independent studies. The
+  supplement has 19 missing abstracts and supplies one previously missing
+  abstract for an existing PMID. Six specific and 30 ambiguous alias rows are
+  retained. [Three full-text mechanism appraisals](pubmed-supplement-review.md)
+  distinguish tumor killing/resistance and developmental disruption from rescue.
+- [`gene_record_screen.py`](gene_record_screen.py) inventories **all 1,460 gene
+  title/abstract records without requiring a catalog drug-name hit**. A bounded
+  reviewer pass inspected 594 prioritized titles plus all missing-abstract titles
+  (609 unique titles), read 21 full abstracts, and verified seven primary
+  methods/results passage sets plus one additional primary abstract. These are
+  this pass's counts, not additive independent studies or reviews of all papers.
+  The [appraisal](catalog-independent-review.md) recovers administered melatonin,
+  folic acid and experimental interventions that the alias gate missed. None
+  currently establishes a reason to displace the niacin/apitegromab comparison.
+
+The record inventory preserves every unadjudicated entry. Machine priority,
+manual title inspection, complete abstract reading and primary-source verification
+are separate fields. The fixed manual ledger is bound to the exact reviewed
+snapshot: a changed input is rejected rather than inheriting a historical review.
+The 28 missing abstracts, unprioritized records, full-text-only interventions and
+unindexed work remain limitations. This is a sensitivity pass, not a completed
+systematic review of all interventions. The original 7,362-record alias tables
+retain their original denominator; supplemental tables do not silently rewrite it.
+
 ## Files
 
 | File | Role |
@@ -186,6 +217,9 @@ lesions and injury exposures, which are not promoted by beneficial language.
 | `literature-drug-coverage.tsv` | Every main/supplement entity, including explicit UNKNOWN rows |
 | `catalog-appraisals.tsv`, `decision-alias-joins.tsv` | Traceable manual-decision joins and identity ambiguity |
 | `literature-triage.tsv`, `literature-triage-summary.json` | Abstract-context routing of all specific co-mentions; manual restorative/identity checks explicitly distinguished from rule-based context |
+| `pubmed-supplement-records.tsv`, `pubmed-supplement-summary.json` | All supplemental PMID identities, version links, missing abstracts and union counts |
+| `pubmed-supplement-mentions.tsv`, `pubmed-supplement-ambiguous.tsv` | Supplement screened with the original alias policy |
+| `gene-record-screen.tsv`, `gene-record-screen-summary.json` | Every gene-query record with separate priority, title/abstract review and verification states |
 | `literature-restorative-context-audit.tsv` | Finite additional audit of broad aging/muscle/protective-language contexts; not a rescue list |
 
 Array/object cells are JSON within tab-separated files. Blank fields are missing
@@ -215,6 +249,14 @@ python3 workflow/track2-drug-census/fda_freshness.py \
   --corpus /path/to/literature-gene-unrestricted.json
 # Optional FDA replay input: --html /path/to/saved-fda-page.html
 python3 workflow/track2-drug-census/target_lookup.py /path/to/target-lookups.json
+python3 workflow/track2-drug-census/pubmed_supplement.py \
+  --corpus /path/to/literature-gene-unrestricted.json \
+  --pubmed-xml /path/to/literature-pubmed-additional.xml \
+  --pubmed-search /path/to/literature-pubmed-esearch.json \
+  --title-abstract-corpus /path/to/literature-gene-title-abstract.json
+# Replay of the reviewed snapshot; changed snapshots require fresh manual review.
+python3 workflow/track2-drug-census/gene_record_screen.py \
+  --input /path/to/literature-gene-title-abstract.json
 python3 workflow/track2-drug-census/verify_census.py
 ```
 
