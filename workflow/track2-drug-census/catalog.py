@@ -242,6 +242,7 @@ def main():
     write_tsv(out/'chembl-mechanisms.tsv',mrows,list(mrows[0]) if mrows else ['catalog_id'])
     write_tsv(out/'drugcentral-interactions.tsv',dcrows,list(dcrows[0]) if dcrows else ['catalog_id'])
     write_tsv(out/'bub1b-target-neighborhood.tsv',screen,list(screen[0]) if screen else ['catalog_id'])
+    write_tsv(out/'bub1b-all-target-activities.tsv',activities,list(activities[0]) if activities else ['activity_id'])
     write_tsv(out/'bub1b-clinical-drug-activities.tsv',arows,list(arows[0]) if arows else ['catalog_id'])
     referenced_targets={m['target_chembl_id'] for m in mrows}|set(btids)
     target_rows=[{k:t.get(k) for k in ['target_chembl_id','pref_name','organism','target_type']} | {'target_accessions':accessions(t),'gene_symbols':sorted({x['component_synonym'] for c in t.get('target_components',[]) for x in c.get('target_component_synonyms',[]) if x.get('syn_type')=='GENE_SYMBOL'})} for t in targets if t['target_chembl_id'] in referenced_targets]

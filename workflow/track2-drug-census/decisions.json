@@ -50,7 +50,7 @@
       "disposition": "within-class reference, reserve implementation",
       "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Different lesions/tissues. Genetic autophagy promotion in the fly study did not restore progeny counts or brain size: preserved stem cells were not sufficient for productive tissue rescue. The BubR1 mouse observation above was an unpublished parenthetical, not a fully reported negative treatment study. No MVA superiority over everolimus.",
+      "rationale": "The published fly study reports rapamycin feeding improving neuroblast counts. Genetic autophagy/TOR interventions did not restore progeny counts or brain size; drug and genetic endpoint sets must remain separate. This is a different checkpoint lesion and neural tissue, not BUB1B muscle. The BubR1 mouse negative observation was an unpublished parenthetical, not a fully reported treatment trial. No comparative MVA superiority established.",
       "source_report": "reports/appendices/track2-route-decisions.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/23602450/",
@@ -128,7 +128,7 @@
       "disposition": "restoration reserve",
       "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "No BUBR1 functional rescue. HSP90 dependence of selected mutants does not prove rescue by another stress-response mechanism. The label's mean pediatric serum peak is about 1.7 \u00b5M, versus 200\u2013400 \u00b5M in some NPC cell experiments; these are total serum and nominal culture quantities, not matched free tissue exposure. [IBM](https://pubmed.ncbi.nlm.nih.gov/37739573/) and [ALS](https://pubmed.ncbi.nlm.nih.gov/38782015/) randomized trials were negative, with tolerability limitations; neither tested MVA.",
+      "rationale": "No BUBR1 functional rescue. HSP90 dependence of selected mutants does not prove rescue by another stress-response mechanism. The label's mean pediatric serum peak is about 1.7 µM, versus 200–400 µM in some NPC cell experiments; these are total serum and nominal culture quantities, not matched free tissue exposure. [IBM](https://pubmed.ncbi.nlm.nih.gov/37739573/) and [ALS](https://pubmed.ncbi.nlm.nih.gov/38782015/) randomized trials were negative, with tolerability limitations; neither tested MVA.",
       "source_report": "reports/appendices/track2-route-decisions.md",
       "source_urls": [
         "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc&version=5",
@@ -786,10 +786,11 @@
       "disposition": "contextual mechanism observation; not an implementation of FRZB rescue",
       "evidence_scope": "Catalog-independent primary intervention appraisal; distinct model and outcome scopes retained.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "LiCl improved spindle morphology and pronuclear formation after Axin1 depletion in oocytes. This is neither BUB1B deficiency nor the BubR1-H/H FRZB genetic rescue. No clinical lithium formulation or exposure equivalence inferred.",
+      "rationale": "LiCl improved spindle morphology and pronuclear formation after Axin1 depletion in oocytes. This is neither BUB1B deficiency nor the BubR1-H/H FRZB genetic rescue. No clinical lithium formulation or exposure equivalence inferred. Separate GSK3-inhibition experiments reduced checkpoint recruitment and relieved spindle-poison arrest (PMID30250048), so improved morphology cannot establish preserved SAC.",
       "source_report": "workflow/track2-drug-census/catalog-independent-review.md",
       "source_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/27284927/"
+        "https://pubmed.ncbi.nlm.nih.gov/27284927/",
+        "https://pubmed.ncbi.nlm.nih.gov/30250048/"
       ]
     },
     {
@@ -805,6 +806,102 @@
       "source_report": "workflow/track2-drug-census/catalog-independent-review.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/22886373/"
+      ]
+    },
+    {
+      "decision_id": "new-tg101209",
+      "match_aliases": [
+        "TG101209",
+        "TG-101209"
+      ],
+      "route": "TG101209",
+      "disposition": "retain experimental protein-stability probe",
+      "evidence_scope": "Source-bounded appraisal from the complete-saved-abstract follow-up and specified primary checks; verification limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Primary abstract reports BUB1B thermal stabilization. ChEMBL CETSA values are not independently checked against the original figure; heat resistance is not increased unheated abundance, slower turnover or restored checkpoint function. No qualified clinical-exposure or eligible-product bridge; do not conflate with TG101348/fedratinib.",
+      "source_report": "workflow/track2-drug-census/target-assay-review.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/39818011/"
+      ]
+    },
+    {
+      "decision_id": "new-geraniin",
+      "match_aliases": [
+        "geraniin"
+      ],
+      "route": "Geraniin",
+      "disposition": "prioritize experimental chromosome-fidelity comparator for source and exposure qualification",
+      "evidence_scope": "Source-bounded appraisal from the complete-saved-abstract follow-up and specified primary checks; verification limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Actual compound treatment reduced mitotic aberrations/CIN and increased checkpoint transcripts including BubR1 in noncancerous CCD841 colon cells, with opposite checkpoint effects in HCT116 cancer cells. Noncancerous proliferation was slightly inhibited. Full source figures/exposure, BUBR1 mediation, muscle transfer and eligible product remain unresolved; stronger than a docking hit, not demonstrated MVA rescue.",
+      "source_report": "workflow/track2-drug-census/abstract-review-findings.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/30403302/"
+      ]
+    },
+    {
+      "decision_id": "new-bletilla-extract",
+      "match_aliases": [
+        "Bletilla striata extract"
+      ],
+      "route": "Bletilla striata extract",
+      "disposition": "retain mixture-level preclinical reserve",
+      "evidence_scope": "Source-bounded appraisal from the complete-saved-abstract follow-up and specified primary checks; verification limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Administered extract reduced ovariectomy-associated rat bone loss and osteoclast formation. Thermal profiling plus virtual screening nominates BUB1B among many targets; isolated ingredient identity, target direction/mediation and muscle/clinical-exposure bridge are not established by the accessible primary abstract. Mixture evidence is not inherited by docked constituents.",
+      "source_report": "workflow/track2-drug-census/abstract-review-findings.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40220420/"
+      ]
+    },
+    {
+      "decision_id": "new-plk1-reduction",
+      "match_aliases": [],
+      "route": "PLK1 reduction in interphase",
+      "disposition": "retain same-disease genetic target opportunity; no drug implementation elected",
+      "evidence_scope": "Source-bounded appraisal from the complete-saved-abstract follow-up and specified primary checks; verification limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Knockdown suppressed centrosome amplification in PCS/MVA patient cells. This is not administered PLK1-inhibitor rescue. PLK1 also supports BUBR1/PP2A kinetochore attachment during mitosis, so continuous generalized inhibition may conflict with the desired interphase effect; timing and full division outcomes need qualification.",
+      "source_report": "workflow/track2-drug-census/abstract-review-findings.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/19503101/",
+        "https://pubmed.ncbi.nlm.nih.gov/23079597/"
+      ]
+    },
+    {
+      "decision_id": "new-gw5074",
+      "match_aliases": [
+        "GW5074"
+      ],
+      "route": "GW5074",
+      "disposition": "retain contextual pharmacology; decline muscle-restoration lead",
+      "evidence_scope": "Source-bounded appraisal from the complete-saved-abstract follow-up and specified primary checks; verification limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "RAF inhibition prevented pan-JAK-inhibitor-induced endoreduplication in HL-60 leukemia cells, with reduced BubR1 phosphorylation. This is an actual pharmacological correction of an imposed polyploidy phenotype, not BUB1B deficiency or nonmalignant muscle rescue. Dose/model transfer and eligible-product exposure remain unresolved.",
+      "source_report": "workflow/track2-drug-census/abstract-review-findings.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/20703093/"
+      ]
+    },
+    {
+      "decision_id": "new-b7e2",
+      "match_aliases": [
+        "Suan-Zao-Ren-Tang",
+        "B7E2",
+        "senkyunolide A",
+        "trans-neocnidilide",
+        "3-butylidenephthalide",
+        "betulinic acid",
+        "linoleic acid"
+      ],
+      "route": "Suan-Zao-Ren-Tang B7E2 and separately tested constituents",
+      "disposition": "retain checkpoint-amplification mechanism; decline restoration nomination",
+      "evidence_scope": "Source-bounded appraisal from the complete-saved-abstract follow-up and specified primary checks; verification limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "B7E2 plus vinorelbine amplified BUBR1 phosphorylation/MCC and cancer killing. Primary results include a less-affected MRC-5 comparator, not restoration of normal chromosome fidelity. B7E2 alone showed no acute cytotoxicity in one setting. Mixture and constituent results remain distinct; neither combination cytotoxicity nor short-term tolerance establishes usable BUBR1 rescue.",
+      "source_report": "workflow/track2-drug-census/abstract-review-findings.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12570107/"
       ]
     }
   ]

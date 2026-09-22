@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 50 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 56 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -25,7 +25,7 @@ greater absolute muscle function with preserved renewal and chromosome fidelity.
 | **UPCP / FTI-277 / lonafarnib analogy** | UPCP countered progerin-associated BUBR1 dysfunction in HGPS models; FTI-277 was a distinct cell comparator. | Progerin-driven disease is a different lesion. UPCP is experimental; FTI-277 evidence cannot be assigned to approved lonafarnib. | **New mechanistic precedent**, not an eligible MVA lead on current evidence. |
 | **Griseofulvin** | A 2026 primary report describes Mad1/BubR1 binding; it is an approved antifungal. | Reported mitotic disruption and tumor-cell death, not restoration. Binding-assay details were not independently available. | **Reported direct binder; decline muscle-restoration lead.** Target binding is not beneficial target action. |
 | **Dasatinib / ceritinib direct-target assay records** | Retrieved BUB1B biochemical annotations: respectively >75% residual activity at 1 µM and IC50 13.08 µM. | Limited/weak inhibitory observations; neither supplies mutant rescue. Dasatinib's senolytic hypothesis is a separate rationale. | **Do not promote on target-database presence.** Keep the previously defined dasatinib reserve separate. |
-| **BAY-320 / BAY1816032 / 2OH-BNPP1** | Original studies establish BUB1-directed pharmacology. | BUB1 is a different gene/protein; later naming as BUB1B inhibitors does not repair that identity error. | **Exclude the incorrect direct-BUBR1 claim.** |
+| **BAY-320 / BAY1816032 / 2OH-BNPP1** | Original studies establish BUB1-directed pharmacology. A later source separately annotates a BAY1816032 BUB1B thermal signal. | BUB1 is a different gene/protein; known BUB1 activity and a thermal observation do not establish selective functional BUBR1 inhibition or rescue. | **Keep target identities and assay scopes separate.** See the [source review](target-assay-review.md). |
 
 Sources and detailed limitations: [current niacin/apitegromab evidence](../../reports/appendices/track2-evidence-pipeline.md),
 [apitegromab primary-source review](apitegromab-review.md),
@@ -84,6 +84,20 @@ journal versions are linked, not added as independent support. **The elected
 niacin/apitegromab research comparison remains unchanged.**
 
 ## What remains unknown
+
+The deeper [complete-saved-abstract review](abstract-review-findings.md) adds
+**geraniin** as a chromosome-fidelity comparator to qualify, **TG101209** as a
+protein-stability probe, **Bletilla extract** as a mixture-level reserve,
+**PLK1 reduction** as a same-disease genetic target opportunity, and contextual
+GW5074/B7E2 pharmacology. The comparison table gives the positive finding and
+missing bridge for each. These are further lines from the broad search, so its
+“no further leads” condition has not been met. Niacin/apitegromab remain the
+nominated research pair, not proven superior treatments.
+
+The [all-target assay review](target-assay-review.md) also identifies four
+residual-activity values mislabeled as inhibition, including two swapped
+compound/concentration assignments. Original records are retained beside the
+source-based interpretation; target-database membership cannot decide efficacy.
 
 The [census](README.md) enumerates public clinical-development and regulator-linked
 records, plus additional literature-derived compounds. It cannot certify “every

@@ -350,3 +350,28 @@ original methods/appraisal prose; abstracts and full texts remain outside Git.
 The reviewed fixed input is required before historical manual-review flags may
 be reproduced. Independent count/code and selected primary-source checks passed.
 The elected proposal, video and exact Track 1 uploads are unchanged.
+
+### 21 September 2026: complete saved-abstract reading and target-assay source checks
+
+The census now retains authored assessments for all 1,432 available saved
+abstracts in the 1,460-record gene query. Nine records without abstracts have
+accessible-body reviews; 19 remain at title/metadata depth. Source-truncated
+thesis text, version duplicates and unresolved full-text questions remain
+explicit. Three AI reviewers read disjoint batches, not each paper three times.
+The six new route appraisals bring the curated total to 56; geraniin and
+TG101209 warrant bounded fidelity/stability qualification, without changing the
+niacin/apitegromab nominations.
+
+All 24 retrieved target activity rows are preserved, including experimental
+compounds. Two independent readings of the original JAK3-study supplement
+confirm four residual-activity values mislabeled inhibition and two swapped
+compound/concentration assignments. A separate interpretation layer records
+those findings and available nested concentration metadata. Thermal resistance
+is not treated as demonstrated usable protein or checkpoint rescue.
+
+The additions contain public metadata, original assessment prose and methods;
+raw literature bodies and restricted case files remain outside the package.
+Source licenses still apply. New leads and unresolved efficacy preclude an
+exhaustive-completion claim; the repository remains private and Track 2
+submission remains pending. Current report, movie and exact Track 1 uploads
+are unchanged by this literature follow-up.

@@ -6,6 +6,14 @@ The elected research pair is **niacin for BUBR1 restoration and apitegromab for 
 
 A subsequent [catalog-independent intervention comparison](../../workflow/track2-drug-census/decision-report.md#interventions-recovered-beyond-the-catalog-name-filter) recovers 7,8-DHF, melatonin, folate, EUK-207, a Phyllanthus preparation, LiCl and pifithrin experiments outside or behind the clinical-name filter. 7,8-DHF merits an experimental chromosome-fidelity comparison; none currently displaces the elected pair for the muscle proposal. The table gives a reason for each decision and preserves unreviewed literature as unknown.
 
+The [deeper abstract review](../../workflow/track2-drug-census/abstract-review-findings.md)
+adds a table comparing geraniin, TG101209, Bletilla extract, PLK1 reduction and
+GW5074 with the nominations, plus the B7E2 checkpoint-amplification result.
+Geraniin's reported noncancerous-cell fidelity benefit merits source/exposure
+qualification. These leads retain explicit model and assay limits; the elected
+pair is unchanged. [Original target-assay checks](../../workflow/track2-drug-census/target-assay-review.md)
+prevent misreading residual activity or heat resistance as therapeutic rescue.
+
 Every promotion requires pharmacologically justified exposure and **greater absolute muscle output in at least one functional cohort, with preserved output in the other cohort, renewable progenitors and chromosome fidelity**. Restoration additionally requires improved function of the relevant BUBR1 product; a downstream benefit can remain useful without correcting the initiating chromosome-distribution defect. A pathway marker, higher protein abundance, a higher surviving normal-cell percentage or fewer divisions alone cannot meet this standard. Full confirmation and multiple-comparison rules are in the pipeline. An inadequate assay is not a resolved drug failure.
 
 **Genetic stop:** confirmed cis `[L737Ter;N1002K]/WT` retires the proposed

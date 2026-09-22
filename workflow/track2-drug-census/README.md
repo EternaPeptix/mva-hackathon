@@ -99,6 +99,12 @@ records**, of which **two** map to census clinical drugs:
 The underlying assay descriptions state unknown organism origin despite the
 human target mapping. The full source rows preserve relations, units, descriptions,
 document IDs and validity fields in `bub1b-clinical-drug-activities.tsv`.
+The extended [`bub1b-all-target-activities.tsv`](bub1b-all-target-activities.tsv)
+retains all **24 rows, 15 molecule identifiers and seven documents**, including
+experimental compounds. The [source review](target-assay-review.md) verifies a
+four-row residual-activity/inhibition error, with two compound/concentration
+transpositions, and retains TG101209's thermal signal as a bounded probe.
+Annotations are preserved; corrections do not overwrite source data.
 The neighborhood's nicotinamide/suramin SIRT2 interaction annotations do not
 establish a beneficial direction. Experimental compounds outside the clinical
 filter, such as BRT-1, require separate appraisal; zero clinical database hits
@@ -199,6 +205,23 @@ unindexed work remain limitations. This is a sensitivity pass, not a completed
 systematic review of all interventions. The original 7,362-record alias tables
 retain their original denominator; supplemental tables do not silently rewrite it.
 
+## Complete saved-abstract follow-up
+
+The [new review](abstract-review-findings.md) reads the gene-query records in
+source order without an alias gate. All **1,432 available saved abstracts** have
+been read; nine missing-abstract records have an accessible-body assessment,
+and 19 remain at title/metadata depth. The [coverage summary](gene-abstract-review-summary.json)
+reports actual completed reading and remaining records; the
+[record table](gene-abstract-review.tsv) separates complete saved abstracts,
+accessible bodies, title-only records and unread entries. Three AI reviewers
+read disjoint batches; this is not three independent reviews of each paper.
+Original assessments are in `abstract-review-notes.json`. The compiler validates
+source identities and exact abstract hashes; it does not generate judgments.
+Source truncations, duplicate versions and unanswered full-text questions remain
+explicit. Complete saved-string reading is not an exhaustive worldwide efficacy
+review. Geraniin and other newly retained routes have explicit comparative
+decisions in the linked findings.
+
 ## Files
 
 | File | Role |
@@ -212,6 +235,7 @@ retain their original denominator; supplemental tables do not silently rewrite i
 | `drugcentral-interactions.tsv` | All downloaded interaction rows, with main/supplement scope |
 | `bub1b-target-neighborhood.tsv` | Direct-target or annotated-interactor matches; no efficacy inference |
 | `bub1b-clinical-drug-activities.tsv` | The two clinical-drug assay records, preserving original units/relations |
+| `bub1b-all-target-activities.tsv`, `target-assay-source-checks.json` | All target rows plus separately recorded original-workbook corrections |
 | `literature-mentions.tsv` | Specific alias co-mentions for manual triage |
 | `literature-ambiguous-mentions.tsv`, `literature-alias-policy.tsv` | Ambiguous hits and the applied screening rules |
 | `literature-drug-coverage.tsv` | Every main/supplement entity, including explicit UNKNOWN rows |
@@ -220,6 +244,7 @@ retain their original denominator; supplemental tables do not silently rewrite i
 | `pubmed-supplement-records.tsv`, `pubmed-supplement-summary.json` | All supplemental PMID identities, version links, missing abstracts and union counts |
 | `pubmed-supplement-mentions.tsv`, `pubmed-supplement-ambiguous.tsv` | Supplement screened with the original alias policy |
 | `gene-record-screen.tsv`, `gene-record-screen-summary.json` | Every gene-query record with separate priority, title/abstract review and verification states |
+| `abstract-review-notes.json`, `gene-abstract-review.tsv`, `gene-abstract-review-summary.json` | Authored assessments and source-bound compilation of the deeper reading; no raw abstracts |
 | `literature-restorative-context-audit.tsv` | Finite additional audit of broad aging/muscle/protective-language contexts; not a rescue list |
 
 Array/object cells are JSON within tab-separated files. Blank fields are missing
@@ -257,6 +282,8 @@ python3 workflow/track2-drug-census/pubmed_supplement.py \
 # Replay of the reviewed snapshot; changed snapshots require fresh manual review.
 python3 workflow/track2-drug-census/gene_record_screen.py \
   --input /path/to/literature-gene-title-abstract.json
+python3 workflow/track2-drug-census/compile_abstract_review.py \
+  --corpus /path/to/literature-gene-title-abstract.json
 python3 workflow/track2-drug-census/verify_census.py
 ```
 

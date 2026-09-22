@@ -12940,8 +12940,8 @@
   ],
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
-    "reviewed_at_utc": "2026-09-22T01:16:40.443150+00:00",
-    "scope": "150 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
+    "reviewed_at_utc": "2026-09-22T02:01:41.996600+00:00",
+    "scope": "158 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12954,7 +12954,7 @@
       "original_audit_bytes_sha256": "7fae846b1a22b88b05096372fa4fbbd9bbca7f27e23f725a2ff32ad1b6a2644b",
       "all_original_fields_unchanged": true
     },
-    "reviewed_payload_count": 150,
+    "reviewed_payload_count": 158,
     "report_tree_files": 32,
     "reviewed_files": [
       {
@@ -13005,7 +13005,7 @@
       {
         "path": "reports/README.md",
         "bytes": 12961,
-        "sha256": "f4c81c10001ec92a88eca7af1999bd8ce2f927718b2eee8c52b4a6f83debacb6",
+        "sha256": "03706e2bbcaba35f87b0c14b59fd0771bbe02a0a2d3fb8a0b989d19aa1c0b2e4",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13157,8 +13157,8 @@
       },
       {
         "path": "reports/appendices/track2-route-decisions.md",
-        "bytes": 44348,
-        "sha256": "f66aa7083298d390d04e55e985c5e2bbbc9f26e8fe367dc0d50c73f97ebb8ec5",
+        "bytes": 44941,
+        "sha256": "dc2848da7af76b9b0aa2b5df0506b7e719a50ef95b6d0f542869e42e71fd9236",
         "mode": 420,
         "decision": "keep",
         "category": "scientific_route_comparison",
@@ -13412,8 +13412,26 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 19518,
-        "sha256": "a7c5051352a6b86a658799de22e101ad504d7da5ca3ae6dd431e90cb4433de7a",
+        "bytes": 21526,
+        "sha256": "ba7b92eaa9b2c7f9081b284e2aa44644d8f3addda1626c5775c192e101946075",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/abstract-review-findings.md",
+        "decision": "keep",
+        "category": "public_literature_assessment_or_method",
+        "grounds": "Public literature metadata and original per-record scientific assessments, public ChEMBL assay rows with source-license attribution, or validation/method source. No raw abstracts/full texts or controlled case payload; review scope and unresolved evidence explicit.",
+        "bytes": 8707,
+        "sha256": "7133320435be6a277bd5a6eea2e043d836217923568b35101c2c80a7fcdc0fb4",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/abstract-review-notes.json",
+        "decision": "keep",
+        "category": "public_literature_assessment_or_method",
+        "grounds": "Public literature metadata and original per-record scientific assessments, public ChEMBL assay rows with source-license attribution, or validation/method source. No raw abstracts/full texts or controlled case payload; review scope and unresolved evidence explicit.",
+        "bytes": 1254948,
+        "sha256": "bf549392c8a9f273fd0a699663e0f9863427a71f7f08e39317486b77536a9c6f",
         "mode": 420
       },
       {
@@ -13453,6 +13471,15 @@
         "mode": 420
       },
       {
+        "path": "workflow/track2-drug-census/bub1b-all-target-activities.tsv",
+        "decision": "keep",
+        "category": "public_literature_assessment_or_method",
+        "grounds": "Public literature metadata and original per-record scientific assessments, public ChEMBL assay rows with source-license attribution, or validation/method source. No raw abstracts/full texts or controlled case payload; review scope and unresolved evidence explicit.",
+        "bytes": 25279,
+        "sha256": "d02d9e245205831edc1cca087330c47747f06c7e033b763e4e8430b39f7ddc4c",
+        "mode": 420
+      },
+      {
         "path": "workflow/track2-drug-census/bub1b-clinical-drug-activities.tsv",
         "decision": "keep",
         "category": "public_drug_census",
@@ -13484,8 +13511,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 2548081,
-        "sha256": "ff446dd6152de41a2ff8904de656d31f08436fd4785af078da361e4a72dd916a",
+        "bytes": 2548111,
+        "sha256": "8bca8d6d33e48e15f5778d0159ce5579e01720ad7979b92ffa51b4303c0f13d6",
         "mode": 420
       },
       {
@@ -13502,8 +13529,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 22718,
-        "sha256": "0584d815693781f1f020e1d9eaa8d22565121af9c89f3fe3f5bc45a1c1120a41",
+        "bytes": 22837,
+        "sha256": "27b00fb5aaa79ef53b470a367369b6ab6960320441641a2c00ddc45736a615c3",
         "mode": 420
       },
       {
@@ -13543,6 +13570,15 @@
         "mode": 420
       },
       {
+        "path": "workflow/track2-drug-census/compile_abstract_review.py",
+        "decision": "keep",
+        "category": "public_literature_assessment_or_method",
+        "grounds": "Public literature metadata and original per-record scientific assessments, public ChEMBL assay rows with source-license attribution, or validation/method source. No raw abstracts/full texts or controlled case payload; review scope and unresolved evidence explicit.",
+        "bytes": 5566,
+        "sha256": "fe6b82083fbf9ff34463210bef9cc5d29ea70aa9d6b9c6abde33483f50a293a7",
+        "mode": 420
+      },
+      {
         "path": "workflow/track2-drug-census/coverage.json",
         "decision": "keep",
         "category": "public_drug_census",
@@ -13556,8 +13592,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 8207,
-        "sha256": "c3b9eb40f4bace8dd63606f7cf4b3ddc4c30842ef6be3af4452e21b316f24bdf",
+        "bytes": 9085,
+        "sha256": "e0e0c08eb2f135ca961dc134a8e5c617d8b070ec566944b5746efc9e7244d4b5",
         "mode": 420
       },
       {
@@ -13565,8 +13601,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 15471,
-        "sha256": "962aab71d93ebe1e9ff1f2a9c1f31b7348ace6242f2dea6951408c39ffbbc6f6",
+        "bytes": 16554,
+        "sha256": "cc3b627264d17b801af59053a7b7cd1e57a82cba9bf59c14aa172c92aea567fb",
         "mode": 420
       },
       {
@@ -13574,8 +13610,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 48004,
-        "sha256": "1c02b3e6c2c4ea47d4a73dd225c059fd6bcbf82f8507767453b1a68924925af8",
+        "bytes": 54639,
+        "sha256": "71eb67bdc7e1d324ff97ed2babc7c9ce2e4e81f0ad200fe3072ebf5d81cd744a",
         "mode": 420
       },
       {
@@ -13621,6 +13657,24 @@
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
         "bytes": 5826,
         "sha256": "89e9e16c6faa98c3ac72f0380971c91f0127be2f44a900edec6a521dbcf3007b",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/gene-abstract-review-summary.json",
+        "decision": "keep",
+        "category": "public_literature_assessment_or_method",
+        "grounds": "Public literature metadata and original per-record scientific assessments, public ChEMBL assay rows with source-license attribution, or validation/method source. No raw abstracts/full texts or controlled case payload; review scope and unresolved evidence explicit.",
+        "bytes": 990,
+        "sha256": "2443886bb38bc64e79ddbcff139626dbdb4db55d029aab75ebe0dffa6cfbacbe",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/gene-abstract-review.tsv",
+        "decision": "keep",
+        "category": "public_literature_assessment_or_method",
+        "grounds": "Public literature metadata and original per-record scientific assessments, public ChEMBL assay rows with source-license attribution, or validation/method source. No raw abstracts/full texts or controlled case payload; review scope and unresolved evidence explicit.",
+        "bytes": 958978,
+        "sha256": "54b5c6b6461d364b624976263bc99470e34a1a63e7f614ebb9cbdf5c68ff7ab8",
         "mode": 420
       },
       {
@@ -13822,6 +13876,24 @@
         "mode": 420
       },
       {
+        "path": "workflow/track2-drug-census/target-assay-review.md",
+        "decision": "keep",
+        "category": "public_literature_assessment_or_method",
+        "grounds": "Public literature metadata and original per-record scientific assessments, public ChEMBL assay rows with source-license attribution, or validation/method source. No raw abstracts/full texts or controlled case payload; review scope and unresolved evidence explicit.",
+        "bytes": 6367,
+        "sha256": "067a7e9b969a3855033b9669eaeb6ef8c8095519184825140b0fa4905d0e75da",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/target-assay-source-checks.json",
+        "decision": "keep",
+        "category": "public_literature_assessment_or_method",
+        "grounds": "Public literature metadata and original per-record scientific assessments, public ChEMBL assay rows with source-license attribution, or validation/method source. No raw abstracts/full texts or controlled case payload; review scope and unresolved evidence explicit.",
+        "bytes": 5806,
+        "sha256": "a183b0e5f5d4fba658e44de819a7cf3a86e1cd7d1e1f0acc3f9c8f8c92865046",
+        "mode": 420
+      },
+      {
         "path": "workflow/track2-drug-census/target-lookups.json",
         "decision": "keep",
         "category": "public_drug_census",
@@ -13844,8 +13916,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 7012,
-        "sha256": "cbd57c658e51cb3c6214e8362bd2f0c3267195ba2af2931791278c8b817c7c0a",
+        "bytes": 10331,
+        "sha256": "218bd2981bbcad52d39d63bf7894acf50163778239f6e0f49dbb6c28c26d0131",
         "mode": 420
       },
       {
@@ -14780,6 +14852,14 @@
       "scientific_consequence": "7,8-DHF admitted as an experimental chromosome-fidelity comparison; niacin/apitegromab proposal unchanged. No actual-allele muscle rescue or exhaustive efficacy review claimed.",
       "payload_scope": "Public metadata, derived screening rows, original methods and appraisal prose; no abstract/full-text redistribution.",
       "verification": "Independent source/count/script review, census reconciliation, deterministic replay and changed-snapshot refusal of historical manual-read flags."
+    },
+    "abstract_and_assay_followup": {
+      "reviewed_at_utc": "2026-09-22T01:58:54.342548+00:00",
+      "scope": "All1432 available saved abstracts among1460 gene-query records read by three AI reviewers in disjoint batches;9 missing-abstract accessible bodies read;19 title/metadata-only.56 curated route appraisals.24 target-assay rows across15 molecule IDs/seven documents retained.",
+      "scientific_consequence": "Geraniin admitted for chromosome-fidelity qualification; TG101209 as a thermal-response probe; Bletilla mixture and PLK1 genetic opportunity retained, plus contextual GW5074/B7E2. Nominations unchanged; new leads mean no-further-leads publication condition is not met.",
+      "source_correction": "Original singlicate workbook independently checked by two AI reviewers: four residual-activity values mislabeled inhibition, two compound/concentration assignments transposed. Original API rows preserved.",
+      "payload_scope": "Public literature metadata and original per-record scientific assessments, public ChEMBL assay rows with source-license attribution, or validation/method source. No raw abstracts/full texts or controlled case payload; review scope and unresolved evidence explicit.",
+      "verification": "Source-bound compilation, exact raw activity replay, count/identity reconciliation, changed-source/hash and duplicate-note rejection; independent scientific/source and integration review. This is not all full texts, all drugs or biological validation. Independent integration audit confirmed1432 source-bound assessments and exact replay; one stale thesis-continuation note corrected from the recovered official abstract, with source hash and review depth preserved."
     }
   }
 }
