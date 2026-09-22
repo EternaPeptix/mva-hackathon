@@ -130,3 +130,17 @@ Confirmed cis retires the proposed compound-heterozygous explanation under the g
 The broad review changed the elected pair and sharpened the conditions for reserves. Other-disease failure does not prove failure in MVA, and positive evidence from another mutation does not prove benefit here. Current approval for another indication establishes a medication's status only within that formulation, jurisdiction and population. This appendix does not create a clinical avoid-list. The mecasermin malignancy contraindication is a specific label boundary, distinct from the many untested hypotheses.
 
 Before translating any positive experiment, the [oncology review](track2-evidence-pipeline.md#rhabdomyosarcoma-evidence-and-treatment-compatibility) must address actual tumor status, prior/current therapy and relevant combination effects. Limited everolimus reports and mixed temsirolimus trial outcomes cannot establish cancer protection. Neither nephrocalcinosis nor failure to thrive alone supplies missing filtration or endocrine measurements. No pediatric dose is inferred from a culture concentration, animal injection, adult trial or unrelated pediatric indication.
+
+
+### Additional routes from outside gene-title/abstract matching
+
+The [outer-corpus comparison](../../workflow/track2-drug-census/outer-corpus-findings.md)
+gives the positive observations and weaknesses for ConA, chaetocin,
+hesperetin/CISD2, HDAC6 inhibition, indole acetic acid, liraglutide and calcitriol,
+with separate PAI-1 primary follow-up. It reads 60 explicitly selected complete
+abstracts, not all 5,902 records outside the gene query. These findings extend
+the alternatives table without assigning clinical efficacy to untested MVA
+routes. The [PLK1 follow-up](../../workflow/track2-drug-census/lead-qualification.md#plk1-a-patient-cell-drug-observation-with-no-displayed-data)
+adds an actual patient-cell BI2536 cilia observation with data not shown; the
+centrosome correction remains RNAi. Drug-treated faithful divisions and useful
+muscle output would change that route's competitiveness.

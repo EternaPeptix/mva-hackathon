@@ -851,23 +851,30 @@
       "disposition": "retain mixture-level preclinical reserve",
       "evidence_scope": "Source-bounded appraisal from the complete-saved-abstract follow-up and specified primary checks; verification limits retained.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Administered extract reduced ovariectomy-associated rat bone loss and osteoclast formation. Thermal profiling plus virtual screening nominates BUB1B among many targets; isolated ingredient identity, target direction/mediation and muscle/clinical-exposure bridge are not established by the accessible primary abstract. Mixture evidence is not inherited by docked constituents.",
-      "source_report": "workflow/track2-drug-census/abstract-review-findings.md",
+      "rationale": "Administered extract reportedly reduced OVX-rat bone loss. Abstract and publisher preview confirm multi-class chemical profiling, but preparation, dose, effect size and BUB1B thermal direction/mediation remain unverified. No full manuscript/chemical table recovered. Separate coelonin/Src arthritis-bone evidence cannot establish the extract ingredient or BUB1B mechanism.",
+      "source_report": "workflow/track2-drug-census/lead-qualification.md",
       "source_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/40220420/"
+        "https://pubmed.ncbi.nlm.nih.gov/40220420/",
+        "https://www.sciencedirect.com/science/article/pii/S0944711325003745",
+        "https://pubmed.ncbi.nlm.nih.gov/40815950/"
       ]
     },
     {
       "decision_id": "new-plk1-reduction",
-      "match_aliases": [],
-      "route": "PLK1 reduction in interphase",
-      "disposition": "retain same-disease genetic target opportunity; no drug implementation elected",
-      "evidence_scope": "Source-bounded appraisal from the complete-saved-abstract follow-up and specified primary checks; verification limits retained.",
+      "match_aliases": [
+        "BI2536",
+        "BI 2536"
+      ],
+      "route": "PLK1 normalization / BI2536",
+      "disposition": "retain same-disease cellular comparator; limited administered-drug precedent",
+      "evidence_scope": "Original figures/supplement for RNAi; primary 2015 body reports patient-drug result with data not shown; patient regimen unknown.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Knockdown suppressed centrosome amplification in PCS/MVA patient cells. This is not administered PLK1-inhibitor rescue. PLK1 also supports BUBR1/PP2A kinetochore attachment during mitosis, so continuous generalized inhibition may conflict with the desired interphase effect; timing and full division outcomes need qualification.",
-      "source_report": "workflow/track2-drug-census/abstract-review-findings.md",
+      "rationale": "PCS1 RNAi reduced centrosome amplification; it was not proven interphase-restricted. BI2536 separately reportedly partially restored patient ciliogenesis, with data not shown and no qualified patient dose/timing. Mitotic PLK1 also supports BUBR1/PP2A attachment, so normalization requires full-division and output testing. No drug-treated faithful patient divisions or muscle benefit established.",
+      "source_report": "workflow/track2-drug-census/lead-qualification.md",
       "source_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/19503101/",
+        "https://www.nature.com/articles/onc2009141/figures/7",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5099117/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3910577/",
         "https://pubmed.ncbi.nlm.nih.gov/23079597/"
       ]
     },
@@ -960,6 +967,153 @@
       "evidence_scope": "Primary-source qualification; model, endpoint and source-access limits retained.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
       "source_report": "workflow/track2-drug-census/lead-qualification.md"
+    },
+    {
+      "decision_id": "new-cona",
+      "match_aliases": [
+        "concanavalin A"
+      ],
+      "route": "Concanavalin A / cortical tension",
+      "disposition": "retain experimental chromosome-fidelity comparator; not a medicine nomination",
+      "evidence_scope": "Complete saved primary abstract; full regimen, denominators and original figures not qualified.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "ConA 10 micrograms/mL during vitrified mouse-oocyte culture improves attachments, SAC activity, embryo development and aneuploidy outcome. Actual functional/fidelity signal, but cryoinjury and meiotic mechanics differ from BUB1B-deficient muscle. Clinical eligibility/exposure and complete harm window unestablished.",
+      "source_report": "workflow/track2-drug-census/outer-corpus-findings.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/35399525/"
+      ]
+    },
+    {
+      "decision_id": "new-chaetocin",
+      "match_aliases": [
+        "chaetocin"
+      ],
+      "route": "Chaetocin / progerin sequestration",
+      "disposition": "retain progerin-specific experimental precedent; decline current MVA lead",
+      "evidence_scope": "Primary XML Results, Methods and captions read; original images and survival cohort sizes not independently verified.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "50 nM/24h moves progerin away from nuclear envelope without lowering abundance. Lmna-G609G mice receiving 0.1 mg/kg intraperitoneally every3days have median survival160 versus140days vehicle, not versus95days untreated. No established progerin lesion, BUBR1 restoration or muscle-contractility outcome here; separate UPCP mechanism must not transfer.",
+      "source_report": "workflow/track2-drug-census/outer-corpus-findings.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/39352925/"
+      ]
+    },
+    {
+      "decision_id": "new-hesperetin",
+      "match_aliases": [
+        "hesperetin"
+      ],
+      "route": "Hesperetin / CISD2",
+      "disposition": "elevate experimental muscle-function compensation comparator",
+      "evidence_scope": "Primary Methods/Results and original main/supplementary figures visually inspected; other study remains abstract-only.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Male aged-WT mice had significant rotarod improvement after6months at nominal dietary100mg/kg/day (n4/arm);3month result was nonsignificant. No direct force test; lean percentage and femoris histology improved, but absolute lean volume lacks marked significance and gastrocnemius histology is nonsignificant. A separate Cisd2 muscle/heart knockout model failed to improve despite comparable exposure. This is real functional pharmacology, not BUB1B rescue or established human superiority. Hesperetin differs from hesperidin.",
+      "source_report": "workflow/track2-drug-census/outer-corpus-findings.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/35871686/",
+        "https://pubmed.ncbi.nlm.nih.gov/38263133/",
+        "https://link.springer.com/article/10.1186/s12929-022-00838-7"
+      ]
+    },
+    {
+      "decision_id": "new-hdac6-compensation",
+      "match_aliases": [
+        "tubacin",
+        "tubastatin A"
+      ],
+      "route": "HDAC6 inhibition / tubacin and tubastatin A",
+      "disposition": "retain defined-lesion spindle-compensation precedent",
+      "evidence_scope": "Complete saved primary abstracts; full dose/denominator and chromosome/offspring results not qualified.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Two agents improve spindle morphology and polar-body extrusion after TUBB8-D417N perturbation in oocytes. Another abstract reports SIRT2/HDAC6-inhibition rescue after RASSF1A depletion without identifying inhibitors. Neither establishes euploid offspring, BUB1B muscle rescue or a class-wide favorable deacetylase direction.",
+      "source_report": "workflow/track2-drug-census/outer-corpus-findings.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/39834092/",
+        "https://pubmed.ncbi.nlm.nih.gov/33195286/"
+      ]
+    },
+    {
+      "decision_id": "new-indole-acetic-acid",
+      "match_aliases": [
+        "indole-3-acetic acid",
+        "indoleacetic acid"
+      ],
+      "route": "Indole acetic acid / AhR-Sirt2",
+      "disposition": "retain conditional upstream-Sirt2 research reserve",
+      "evidence_scope": "Complete saved primary abstract; mammalian transfer and exposure not qualified.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Supplementation extends fly lifespan and stress resistance with AhR/Sirt2 genetic corroboration. This is a real upstream administered route but not mammalian BUBR1 stabilization, faithful division or muscle restoration. Product eligibility and exposure remain unestablished.",
+      "source_report": "workflow/track2-drug-census/outer-corpus-findings.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40197001/"
+      ]
+    },
+    {
+      "decision_id": "new-liraglutide",
+      "match_aliases": [
+        "liraglutide"
+      ],
+      "route": "Liraglutide / high-glucose muscle-cell protection",
+      "disposition": "retain context-specific muscle-cell reserve; decline current lead",
+      "evidence_scope": "Complete saved primary abstract; full dose/contractile outcomes not qualified.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Improves high-glucose C2C12 viability and catabolic markers with AMPK-associated changes. This model supplies muscle-cell pharmacology but does not establish a relevant hyperglycemic lesion, BUBR1 mediation, contractile benefit or checkpoint fidelity in MVA. Clinical use elsewhere cannot establish MVA benefit.",
+      "source_report": "workflow/track2-drug-census/outer-corpus-findings.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38331723/"
+      ]
+    },
+    {
+      "decision_id": "new-calcitriol",
+      "match_aliases": [
+        "calcitriol"
+      ],
+      "route": "Calcitriol / VDR-Ezh2-p16",
+      "disposition": "retain bone/senescence context; decline current muscle lead",
+      "evidence_scope": "Complete saved primary abstract; full regimen and quantitative outcomes not qualified.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Administered active vitamin D improves deficient/naturally aged mouse bone phenotypes and passaged human stromal-cell osteogenesis. Distinct from ordinary vitamin D supplementation; neither chromosome fidelity nor BUBR1-mediated muscle rescue established.",
+      "source_report": "workflow/track2-drug-census/outer-corpus-findings.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31880094/"
+      ]
+    },
+    {
+      "decision_id": "new-devd-cho",
+      "match_aliases": [
+        "DEVD-CHO",
+        "Ac-DEVD-CHO"
+      ],
+      "route": "DEVD-CHO / caspase-dependent BUBR1 degradation",
+      "disposition": "retain assay mechanism reagent; decline MVA lead",
+      "evidence_scope": "Indexed primary Methods, Results and Figure2 captions; original figure images not independently inspected.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "50-100 micromolar/4h prevents chemically induced slippage in paclitaxel-arrested T98G cells;50micromolar protects BUBR1/CDC20 but not cyclinB1 degradation. Separate caspase3 absence/addback supports mechanism without improving paclitaxel death. Preventing imposed protein degradation/arrest escape does not demonstrate faithful completed divisions, inherited-allele rescue or useful muscle renewal.",
+      "source_report": "workflow/track2-drug-census/lead-qualification.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/21441410/",
+        "https://aacrjournals.org/mct/article/10/5/839/91017/Caspase-3-Dependent-Mitotic-Checkpoint"
+      ]
+    },
+    {
+      "decision_id": "new-pai1-muscle",
+      "match_aliases": [
+        "TM5484",
+        "TM 5484",
+        "TM5441",
+        "TM 5441"
+      ],
+      "route": "PAI-1 inhibition / distinct TM5484 and TM5441 experiments",
+      "disposition": "elevate TM5484 experimental muscle-function comparator; separate TM5441 survival reserve",
+      "evidence_scope": "Primary TM5484 manuscript text/captions, TM5441 full main text plus original Figure1, and genetic muscle-study official XML. TM5484 original image units/effect sizes unresolved.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "TM5484 dietary0.01% from6to12months (n9/group) preserves nerve-evoked muscle contraction/fiber area;100mg/kg feed is not a bodyweight daily dose. Later18to19month10mg/kg/day gavage (n10/group) has fiber benefit, twitch null and tetanic trend; caption/method conflict retained. Force normalization/effect size unverified. TM5441 Klotho survival (n11) and female-specific lifelong knockout muscle benefits remain distinct, not assigned to TM5484. No BUB1B treatment model or human efficacy/product bridge established.",
+      "source_report": "workflow/track2-drug-census/outer-corpus-findings.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33213843/",
+        "https://www.mmt.med.tohoku.ac.jp/en/pdf/24.pdf",
+        "https://www.aging-us.com/article/206318/text"
+      ]
     }
   ]
 }

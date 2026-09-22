@@ -394,3 +394,27 @@ text were reconciled. Track 1 upload artifacts and pitch media are unchanged.
 Repository visibility remains private and Track 2 remains unsubmitted; further
 leads and unresolved evidence prevent asserting the user's no-further-leads
 condition. These are literature judgments, not drug experiments or clinical advice.
+
+
+### 21 September 2026: outer-corpus routes and primary muscle endpoints
+
+Sixty selected complete abstracts outside the gene-title/abstract query now have
+original assessments, exact selection/identity hashes and discovery-only metadata.
+This is 60 of 5,902 outer records, not full outer-corpus or all-drug efficacy
+coverage. Primary follow-up elevates TM5484/PAI-1 and hesperetin/CISD2 as
+experimental muscle-function alternatives, preserving prevention versus later
+rescue, composite motor versus direct force, dose units and genetic/drug
+separation. PLK1's patient-drug observation remains explicitly data not shown;
+Bletilla identity/mediation and chaetocin model-transfer limits remain visible.
+DEVD-CHO is qualified as a degradation-mechanism reagent, not productive rescue.
+The ledger now contains 68 route/compound appraisals.
+
+An independent audit reconciled all 60 identities/hashes and the 419-record
+metadata selection; it independently read 19 complete abstracts, not all primary
+papers. Source reviewers checked the PLK1, hesperetin and PAI-1 integrations.
+The final wording avoids unproved cohort independence or genetic-versus-drug
+survival superiority. Current census reconciliation and local-link checks cover
+the changed package. Historical source provenance and baseline inventory are
+preserved; raw abstracts/manuscripts stay outside Git. The nominated pair,
+Track 1 uploads and pitch media are unchanged. This remains a private draft;
+new leads do not satisfy the conditional publication/Track 2 submission request.

@@ -132,7 +132,32 @@ def main():
         combined=Counter(complete_accessible_body=sum(r['review_depth']=='complete_accessible_body' for r in notes['records']))
         for depth,count in depths.items():combined['complete_accessible_body' if depth=='complete_body' else depth]+=count
         assert dict(combined)==follow['combined_depth_among_28_originally_missing_abstracts']
+    if (P/'outer-corpus-review.json').exists():
+        outer=json.loads((P/'outer-corpus-review.json').read_text())
+        selection=json.loads((P/'outer-corpus-selection.json').read_text())
+        ranking=json.loads((P/'outer-corpus-candidate-ranking.json').read_text())
+        overlap=json.loads((P/'outer-corpus-overlap-audit.json').read_text())
+        selected={(r['source'],r['record_id']):r for r in selection['records']}
+        reviewed={(r['source'],r['record_id']):r for r in outer['records']}
+        assert len(selected)==len(selection['records'])==selection['selected_count']
+        assert len(reviewed)==len(outer['records'])==outer['reviewed_count']==outer['selected_count']
+        assert set(selected)==set(reviewed) and len(reviewed)==selection['reviewed_count']
+        assert selection['corpus_sha256']==l['corpus_sha256']
+        assert selection['unrestricted_count']==l['corpus_records_scanned']
+        assert selection['inner_title_abstract_count']==l['gene_title_abstract_query_count']
+        assert selection['outer_difference_count']==selection['unrestricted_count']-selection['inner_title_abstract_count']
+        assert len(reviewed)<=selection['outer_with_saved_abstract']<=selection['outer_difference_count']
+        assert ranking['count']==len(ranking['candidates'])
+        gene_ids={(r['source'],r['record_id']) for r in json.loads((P/'abstract-review-notes.json').read_text())['records']}
+        assert not set(reviewed)&gene_ids
+        assert overlap['selected_count']==len(reviewed)
+        assert not overlap['inner_corpus_overlap'] and not overlap['authored_gene_review_overlap']
+        for key,row in reviewed.items():
+            assert row['title']==selected[key]['title'] and row['abstract_sha256']==selected[key]['abstract_sha256']
+            assert len(row['abstract_sha256'])==64 and row['review_depth']=='complete_saved_abstract'
+            assert row['note'] and row['model'] and isinstance(row['requires_primary_followup'],bool)
+            assert 'abstractText' not in row and 'abstract' not in row
     decisions=json.loads((P/'decisions.json').read_text())['decisions'];joins=read('decision-alias-joins.tsv')
     assert len(decisions)==len(joins) and {r['decision_id'] for r in decisions}=={r['decision_id'] for r in joins}
-    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract assessment reconciliation; all-target source preservation and correction mappings; complete decision joins'},indent=2))
+    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation; all-target source preservation and correction mappings; complete decision joins'},indent=2))
 if __name__=='__main__':main()

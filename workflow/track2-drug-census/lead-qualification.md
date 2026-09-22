@@ -131,11 +131,76 @@ This is a phosphatase-inhibitor assay result, not an unnamed restorative medicin
 Restored localization alone does not establish checkpoint or chromosome rescue.
 [Primary article](https://pmc.ncbi.nlm.nih.gov/articles/PMC3471222/).
 
+## DEVD-CHO: preventing induced protein loss is not productive division
+
+In paclitaxel-arrested T98G cells, **DEVD-CHO 50–100 µM for four hours**
+prevented slippage induced by 5 µM SU6656 or geraldol. At 50 µM it preserved
+BUBR1/CDC20 against degradation, but did not prevent cyclin-B1 loss. Caspase-3
+absence/addback supported the mechanism in separate MCF-7 experiments;
+absence did not improve the paclitaxel cell-death outcome. Indexed primary
+Methods, Results and Figure 2 captions were read; original images were not
+independently inspected. **Retain a degradation-mechanism reagent, decline
+the MVA lead:** protection during an imposed cancer-cell arrest neither corrects
+the inherited protein defect nor demonstrates faithful division or useful
+renewal. No clinical exposure bridge was established.
+[Primary paper](https://aacrjournals.org/mct/article/10/5/839/91017/Caspase-3-Dependent-Mitotic-Checkpoint).
+
+## PLK1: a patient-cell drug observation, with no displayed data
+
+PLK1 reduction now has a specific pharmacological precedent. The KIF2A study
+reports partial restoration of ciliogenesis by **BI2536 in PCS/MVA patient
+cells**, explicitly with **data not shown**. Patient-cell dose, timing,
+replication and effect size remain unresolved. Its displayed 100 nM regimens
+belong to hTERT-RPE1 experiments and cannot supply the missing patient regimen.
+[Primary Results and Figures 3–4](https://pmc.ncbi.nlm.nih.gov/articles/PMC5099117/).
+
+The earlier centrosome correction remains **RNAi**, with about 65% PLK1
+reduction in PCS1 cells, assessed at 72 hours (at least 100 cells/condition,
+three experiments). Its asynchronous and hydroxyurea arms do not establish an
+interphase-only intervention. Original Figures 4/7 and the supplement were
+inspected; the complete main manuscript was unavailable.
+[Original Figure 7](https://www.nature.com/articles/onc2009141/figures/7).
+PCS1 and MY1 have a truncating/splice lesion plus a later-resolved upstream
+hypomorphic allele; older monoallelic terminology is not proof of a normal second
+allele. They are relevant BUBR1-insufficient models, with different variants from
+this case. [Primary genetic follow-up](https://pmc.ncbi.nlm.nih.gov/articles/PMC3910577/).
+
+**Decision:** retain PLK1 normalization as a same-disease cellular comparison
+and BI2536 as a concrete experimental implementation to qualify. It has a more
+direct patient-cell perturbation result than niacin's indirect bridge, but no
+shown drug-mediated patient centrosome, chromosome or muscle rescue. Inhibiting
+mitotic PLK1 can also reduce BUBR1-dependent PP2A recruitment; pulse/washout is a
+proposed test, not a demonstrated solution. Measure complete divisions and
+absolute progenitor output alongside cilia/centrosomes.
+[Primary attachment mechanism](https://www.hubrecht.eu/app/uploads/2015/08/Kops_Research_2012_Suijkerbuijk_Integration-of-kinase-and-phosphatase-activities-by-BUBR1-ensures-formation-of-stable-kinetochore-microtubule-attachments.pdf).
+
+## Bletilla: a real mixture result with unresolved active-agent identity
+
+The primary abstract and limited publisher preview report OVX-rat bone benefit,
+osteoclast suppression and UPLC-Q-Orbitrap-MS profiling. The referenced chemistry
+table, full methods and figures were unavailable. Exact extract preparation,
+dose, numerical effect and BUB1B-specific thermal direction or causal mediation
+remain unknown. A multi-protein thermal/docking network does not establish
+usable BUBR1 restoration. Retain the mixture-level reserve; do not assign its
+result to a docked constituent or another commercial preparation.
+[Primary abstract](https://pubmed.ncbi.nlm.nih.gov/40220420/),
+[publisher preview](https://www.sciencedirect.com/science/article/pii/S0944711325003745).
+
+A separate same-group **coelonin** study reports osteoclast/bone protection in
+collagen-induced arthritis with a Src mechanism. Its complete abstract was read.
+It does not establish coelonin's identity, concentration or causal role in the
+original extract, reproduce its OVX model, or validate BUB1B mediation.
+[Separate primary study](https://pubmed.ncbi.nlm.nih.gov/40815950/).
+
 ## Remaining evidence work
 
 The author/institution-hosted Aurora PDFs and accessible primary XML/text were
 read; exact depth is stated where only selected sections or captions were
 available. Primary geraniin and TG101209 figure-level questions remain open.
 Neither failed access nor missing annotations count as negative drug experiments.
+The [outer-corpus review](outer-corpus-findings.md) adds 60 complete abstract
+assessments outside the gene-in-title/abstract set, with separate primary
+follow-ups and explicit unreviewed coverage. It yields further experimental
+routes rather than evidence of search exhaustion.
 These new lines mean the requested “no further leads” condition remains unmet;
 repository publication and Track 2 submission remain pending.

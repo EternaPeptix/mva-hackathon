@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 59 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 68 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -83,6 +83,27 @@ aneuploid-cell vulnerability or normal-tissue restoration strategy. Preprints an
 journal versions are linked, not added as independent support. **The elected
 niacin/apitegromab research comparison remains unchanged.**
 
+## New routes outside the gene-in-abstract filter
+
+The [60-record outer review](outer-corpus-findings.md) adds actual administered
+interventions that a gene-title/abstract gate can miss: ConA-associated oocyte
+chromosome/developmental benefit, chaetocin in progerin disease, hesperetin/CISD2,
+HDAC6 inhibitors after a TUBB8 perturbation, and conditional IAA, liraglutide and
+calcitriol routes. These are original source-level appraisals with different
+models and endpoints, not automatically equivalent medicines. Primary follow-up elevates **TM5484/PAI-1** for an actual mouse contraction
+endpoint and **hesperetin/CISD2** for motor performance, while preserving the
+weak later-treatment force result and small rotarod denominator. TM5441 and
+genetic PAI-1 outcomes stay separate from TM5484. The review explicitly
+leaves 5,842 outer records outside this selected set.
+
+PLK1 is also a more concrete opportunity than its earlier genetic-only summary
+suggested: BI2536 partially restored patient-cell ciliogenesis according to the
+primary paper, **with data not shown and an unresolved patient regimen**.
+Centrosome correction remains RNAi; faithful drug-treated divisions remain
+unestablished. The [qualification](lead-qualification.md) preserves both the
+positive observation and the opposing mitotic mechanism. Bletilla's bone
+finding remains a mixture reserve with unresolved identity/mediation.
+
 ## What remains unknown
 
 The [primary-source qualification](lead-qualification.md) now **raises Aurora-B
@@ -97,7 +118,7 @@ actual-allele evidence gap to nominees and challengers.
 The deeper [complete-saved-abstract review](abstract-review-findings.md) adds
 **geraniin** as a chromosome-fidelity comparator to qualify, **TG101209** as a
 protein-stability probe, **Bletilla extract** as a mixture-level reserve,
-**PLK1 reduction** as a same-disease genetic target opportunity, and contextual
+**PLK1 reduction** as a same-disease target opportunity with a limited drug precedent, and contextual
 GW5074/B7E2 pharmacology. The comparison table gives the positive finding and
 missing bridge for each. These are further lines from the broad search, so its
 “no further leads” condition has not been met. Niacin/apitegromab remain the
