@@ -57,7 +57,7 @@ Raw source text and images remain outside this repository.
 ## Other signals: retain the benefit without changing its intervention
 
 These are complete-saved-abstract assessments unless another depth is stated.
-They are **follow-up priorities, not newly qualified drug-efficacy claims**.
+The table preserves the original abstract-stage questions. The [primary follow-up](unfiltered-primary-qualification.md) now answers nine prioritized questions, including SH1/MZ242, NAC and collagen below; its study-specific conclusions supersede their unresolved wording. Other rows remain follow-up priorities, not qualified drug-efficacy claims.
 
 | Route or observation | What the read evidence adds | What remains unresolved |
 | --- | --- | --- |
@@ -73,8 +73,7 @@ They are **follow-up priorities, not newly qualified drug-efficacy claims**.
 The 384-record pass flags **65 records** for primary follow-up, including reviews,
 genetic results, counterevidence and linked versions of one study. In particular,
 PPR496851 and PMID 36897279 are preprint/journal versions of the same PP6/NDC80
-line. The niacin primary follow-up above is completed; the historical abstract
-flag is retained. Flags do not count independent studies or competitive drugs.
+line. The niacin primary follow-up above and the nine-question qualification are completed at their stated reading depths; historical abstract flags are retained. Flags do not count independent studies or competitive drugs.
 
 ## Coverage without a favorable-result filter
 

@@ -96,11 +96,13 @@
       ],
       "route": "Nicotinamide / niacinamide",
       "disposition": "decline lead; dose-specific reserve only",
-      "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
+      "evidence_scope": "Prior BUBR1 abundance rationale plus distinct Bub3 marker study; nicotinamide and nicotinic acid remain separate.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "It is not nicotinic acid. North's high-dose nicotinamide reduced BUBR1, consistent with sirtuin inhibition; that does not establish that every concentration is harmful. No useful BUBR1 rescue window established.",
-      "source_report": "reports/appendices/track2-route-decisions.md",
-      "source_urls": []
+      "rationale": "It is not nicotinic acid. North's high-dose nicotinamide reduced BUBR1, consistent with sirtuin inhibition; that does not establish that every concentration is harmful. No useful BUBR1 rescue window established. A separate Bub3 study tests5mM NAM for12h: increased crotonylation, with SIRT1-knockdown support; chromosome-error measurements belong to genetic mutants. This does not show NAM-induced segregation errors or harm from nicotinic acid.",
+      "source_report": "workflow/track2-drug-census/unfiltered-primary-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1093/jmcb/mjaf040"
+      ]
     },
     {
       "decision_id": "prior-07",
@@ -129,7 +131,7 @@
       "disposition": "restoration reserve",
       "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "No BUBR1 functional rescue. HSP90 dependence of selected mutants does not prove rescue by another stress-response mechanism. The label's mean pediatric serum peak is about 1.7 µM, versus 200–400 µM in some NPC cell experiments; these are total serum and nominal culture quantities, not matched free tissue exposure. [IBM](https://pubmed.ncbi.nlm.nih.gov/37739573/) and [ALS](https://pubmed.ncbi.nlm.nih.gov/38782015/) randomized trials were negative, with tolerability limitations; neither tested MVA.",
+      "rationale": "No BUBR1 functional rescue. HSP90 dependence of selected mutants does not prove rescue by another stress-response mechanism. The label's mean pediatric serum peak is about 1.7 \u00b5M, versus 200\u2013400 \u00b5M in some NPC cell experiments; these are total serum and nominal culture quantities, not matched free tissue exposure. [IBM](https://pubmed.ncbi.nlm.nih.gov/37739573/) and [ALS](https://pubmed.ncbi.nlm.nih.gov/38782015/) randomized trials were negative, with tolerability limitations; neither tested MVA.",
       "source_report": "reports/appendices/track2-route-decisions.md",
       "source_urls": [
         "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc&version=5",
@@ -367,14 +369,15 @@
       ],
       "route": "N-acetylcysteine (NAC)",
       "disposition": "redox reserve, decline lead",
-      "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
+      "evidence_scope": "Prior redox/meiotic and clinical comparisons plus qualified preventive retinal-cell marker/SASP evidence; not a second NAC drug entry.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "No demonstrated BUB1B-dependent redox cause or rescue. The [randomized RYR1-myopathy trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC7274912/) failed its primary oxidative-stress endpoint and did not establish a functional benefit. It is a different myopathy but stronger than a generic antioxidant rationale. In Sod1-null oocytes, NAC and ascorbate reduced premature sister-chromatid separation and improved normal-chromosome outcomes; distinct lesion and meiotic tissue, without demonstrated BUBR1 mediation or muscle rescue.",
-      "source_report": "reports/appendices/track2-route-decisions.md",
+      "rationale": "No demonstrated BUB1B-dependent redox cause or rescue. The [randomized RYR1-myopathy trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC7274912/) failed its primary oxidative-stress endpoint and did not establish a functional benefit. It is a different myopathy but stronger than a generic antioxidant rationale. In Sod1-null oocytes, NAC and ascorbate reduced premature sister-chromatid separation and improved normal-chromosome outcomes; distinct lesion and meiotic tissue, without demonstrated BUBR1 mediation or muscle rescue. In ARPE-19 cells,1mM NAC during smoke/peroxide insult partially prevented senescence-associated beta-galactosidase and inflammatory secretion. No delayed-start rescue or retinal-function result; VEGF/CFH and p16/p21 panels lack NAC arms.",
+      "source_report": "workflow/track2-drug-census/unfiltered-primary-qualification.md",
       "source_urls": [
         "https://doi.org/10.1002/cam4.101",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC7274912/",
-        "https://pubmed.ncbi.nlm.nih.gov/39845481/"
+        "https://pubmed.ncbi.nlm.nih.gov/39845481/",
+        "https://doi.org/10.1016/j.redox.2015.11.011"
       ]
     },
     {
@@ -1275,7 +1278,7 @@
       ],
       "route": "SB-431542 / TGF-beta receptor inhibition",
       "disposition": "transcript-regulation reserve with duration-dependent growth harm",
-      "rationale": "Tgif1-null MEFs show Bub1b RNA increase at1µM and separate short growth benefit at0.2µM. Longer than one passage inhibited growth in both WT and null cells. No drug-mediated BUBR1 protein, chromosome correction or muscle benefit established.",
+      "rationale": "Tgif1-null MEFs show Bub1b RNA increase at1\u00b5M and separate short growth benefit at0.2\u00b5M. Longer than one passage inhibited growth in both WT and null cells. No drug-mediated BUBR1 protein, chromosome correction or muscle benefit established.",
       "source_urls": [
         "https://doi.org/10.1371/journal.pone.0035460"
       ],
@@ -1309,7 +1312,7 @@
       ],
       "route": "Four-ribonucleoside supplementation / mixture-only appraisal",
       "disposition": "replication-stress and chromosome-phenotype comparator",
-      "rationale": "Uridine+cytidine+adenosine+guanosine reduce bridges/micronuclei in SV40-LT BJ/tert cells; model involves BUB1, not BUB1B. Reported50µM does not clearly resolve per-component concentration. Constituent catalog joins do not confer mixture efficacy on any single ingredient. No muscle or faithful euploid-output result; a different commercial nucleoside regimen fails a cell-enlargement checkpoint endpoint, not a controlled comparison of the same mixture.",
+      "rationale": "Uridine+cytidine+adenosine+guanosine reduce bridges/micronuclei in SV40-LT BJ/tert cells; model involves BUB1, not BUB1B. Reported50\u00b5M does not clearly resolve per-component concentration. Constituent catalog joins do not confer mixture efficacy on any single ingredient. No muscle or faithful euploid-output result; a different commercial nucleoside regimen fails a cell-enlargement checkpoint endpoint, not a controlled comparison of the same mixture.",
       "source_urls": [
         "https://journals.asm.org/doi/full/10.1128/jvi.02224-13",
         "https://doi.org/10.1101/2025.07.01.662622"
@@ -1451,6 +1454,104 @@
       "evidence_scope": "Targeted primary-source qualification; intervention, model, endpoint and source-reading limits in linked report.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
       "source_report": "workflow/track2-drug-census/intervention-qualification.md"
+    },
+    {
+      "decision_id": "new-sh1-mz242",
+      "match_aliases": [
+        "SH1",
+        "MZ242"
+      ],
+      "route": "Distinct SIRT2 probes / SH1 and MZ242",
+      "disposition": "mechanistic counter-probes; decline functional-rescue lead",
+      "evidence_scope": "Targeted primary-source qualification; study-specific models, controls and reading limits in the linked appraisal.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Both increased integrated acetyl-tubulin signal in HeLa cells; only SH1 showed qualitative process elongation. No process-length/function endpoint or independently identified culture replication. SIRT2 degradation and catalytic inhibition are distinct interventions; neither is demonstrated neural or MVA rescue. A relevant functional benefit could reopen compensation, but hyperacetylation alone cannot.",
+      "source_report": "workflow/track2-drug-census/unfiltered-primary-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1038/s41598-017-17381-3",
+        "https://pubmed.ncbi.nlm.nih.gov/28379698/"
+      ]
+    },
+    {
+      "decision_id": "new-berberine",
+      "match_aliases": [
+        "berberine",
+        "berberine chloride"
+      ],
+      "route": "Berberine / neural-metabolic counterevidence",
+      "disposition": "adverse functional comparator; decline BUBR1-restoration nomination from this source",
+      "evidence_scope": "Targeted primary-source qualification; study-specific models, controls and reading limits in the linked appraisal.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Human differentiating LUHMES cells show impaired neurite development and respiration, sometimes with ATP retained. BUB1B transcript increases significantly at one 24-hour concentration (47 micromolar, log2FC1.998,FDR.02036), not across the other reported series; no protein/checkpoint rescue. Neither increased NADH nor BUB1B mRNA establishes restoration. These culture hazards do not establish clinical incidence or an oral exposure margin.",
+      "source_report": "workflow/track2-drug-census/unfiltered-primary-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.3390/antiox13010049",
+        "https://pubmed.ncbi.nlm.nih.gov/18285556/"
+      ]
+    },
+    {
+      "decision_id": "new-hmgn1-cd4",
+      "match_aliases": [
+        "HMGN1",
+        "GK1.5"
+      ],
+      "route": "HMGN1 plus anti-mouse CD4 / combination-specific immune compensation",
+      "disposition": "bounded tumor/immune branch; decline general MVA muscle lead",
+      "evidence_scope": "Targeted primary-source qualification; study-specific models, controls and reading limits in the linked appraisal.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Recombinant HMGN1 plus GK1.5 has real Colon26 tumor-control, rechallenge and CD8 cytokine-function evidence. Progression2/8 versus8/8 anti-CD4;4/5 selected cured mice resisted rechallenge. Colon26 has four arms; melanoma required schedule adaptation and lacks HMGN1-only, and nude-mouse panel lacks combination. Normal lymph-node CD4 depletion is measured; systematic combination toxicity is unknown. Bub1b is a downregulated CD8 transcript, not a corrected causal defect. Not established as a repurposable approved single medicine.",
+      "source_report": "workflow/track2-drug-census/unfiltered-primary-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1186/s40425-019-0503-6"
+      ]
+    },
+    {
+      "decision_id": "new-cfi402257",
+      "match_aliases": [
+        "CFI402257",
+        "CFI-402257"
+      ],
+      "route": "CFI402257 / context-specific TTK inhibition",
+      "disposition": "retain low-dose genomic counterhypothesis; decline general fidelity-restoration lead",
+      "evidence_scope": "Targeted primary-source qualification; study-specific models, controls and reading limits in the linked appraisal.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Actual10nM drug lowers selected micronucleus/damage endpoints in surviving EAC cells. Three-week copy-number result concerns prevention of about65% of etoposide-associated excess, not65% reduction of all events; drug-alone graph is near control. Survivor selection, division counts and endpoint-specific replication remain unresolved. Same molecule produces segregation errors at higher exposures in another cancer model. Neither lower survivor damage nor suppressed recombination establishes safer divisions in BUB1B-deficient tissue. TPX2/RAD54B results in this study are genetic.",
+      "source_report": "workflow/track2-drug-census/unfiltered-primary-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1038/s42003-021-02125-x",
+        "https://pubmed.ncbi.nlm.nih.gov/28270606/"
+      ]
+    },
+    {
+      "decision_id": "new-jasplakinolide",
+      "match_aliases": [
+        "jasplakinolide"
+      ],
+      "route": "Jasplakinolide / osteogenic compensation",
+      "disposition": "retain osteogenic research reserve; decline muscle-restoration lead",
+      "evidence_scope": "Targeted primary-source qualification; study-specific models, controls and reading limits in the linked appraisal.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Actual drug raises ALP staining and osteogenic proteins in human adipose stem cells; an earlier same-group study adds calcium-deposition staining and protein-normalized ALP. BUB1B connection is network-based, not mediation. Main paper has unresolved nocodazole20-versus100ng/mL and growth-confounded inhibitor comparisons. No bone mechanics or chromosome safety measurement. Earlier dose-response is nonmonotonic but figures do not establish high-dose toxicity above untreated control. Positive bone-cell differentiation is not yet muscle-function evidence.",
+      "source_report": "workflow/track2-drug-census/unfiltered-primary-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1016/j.gendis.2024.101380",
+        "https://doi.org/10.1186/s11658-021-00259-8"
+      ]
+    },
+    {
+      "decision_id": "new-sodium-crotonate",
+      "match_aliases": [
+        "sodium crotonate"
+      ],
+      "route": "Sodium crotonate / Bub3 checkpoint localization",
+      "disposition": "mechanistic counterexample; decline restoration lead",
+      "evidence_scope": "Targeted primary-source qualification; study-specific models, controls and reading limits in the linked appraisal.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "50mM sodium crotonate increases Bub3 crotonylation and reduces kinetochore Bub3/BubR1 versus20mM NaCl in cell lines. Comparator concentration is unmatched. The same paper's chromosome-error outcomes use Bub3K222 mutants, not drug treatment. This is localization evidence, not total-protein loss or proved drug-induced segregation harm. Dynamic localization/function requires measurement; no beneficial drug effect is established.",
+      "source_report": "workflow/track2-drug-census/unfiltered-primary-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1093/jmcb/mjaf040"
+      ]
     }
   ]
 }

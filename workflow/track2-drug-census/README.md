@@ -386,5 +386,7 @@ all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
 claim full-text review of all ranked records. The decision ledger now contains
-87 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 87 approved medicines.
+93 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 93 approved medicines.
+
+The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.

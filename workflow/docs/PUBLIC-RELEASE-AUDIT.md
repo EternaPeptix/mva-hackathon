@@ -516,3 +516,16 @@ primary bodies, images and external reviewer work remain outside Git.
 Historical source fields, baseline inventory, Track 1 uploads and current media
 are preserved. This private update supplies no new efficacy experiment or rubric
 score. Further lines remain open; publication and Track 2 submission are pending.
+
+### 21 September 2026: qualification of nine unfiltered-search questions
+
+One source-linked comparison preserves functional tumor/immune, secretion and
+osteogenic findings while separating markers, selected survivors, genetic
+interventions and culture methods. Six route/compound appraisals bring the
+ledger to 93; existing NAC and nicotinamide entries are updated. Collagen
+culture support and the already-appraised sFRP3 study add no medicine entity.
+Independent source checking and competitor analysis support the provisional
+niacin/apitegromab comparison, with no superiority or MVA-efficacy claim.
+Historical reading ledgers and catalog denominators are preserved. Raw sources
+and external reviews remain outside Git. This private update does not satisfy
+the condition for publication or Track 2 submission; further lines remain open.

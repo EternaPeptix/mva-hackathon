@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 87 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 93 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -108,10 +108,7 @@ one keyword index. These are distinct reading depths, not full-paper coverage.
 
 The unfiltered pass recovers actual nicotinic-acid protection in toxin-exposed
 human oocytes. It strengthens the compound-specific cellular precedent without
-showing SIRT2, drug-induced BUBR1 restoration or MVA muscle benefit. It also flags
-SH1-associated process elongation, NAC marker protection and genetic
-chromosome-fidelity rescues for qualification; genetic synthetic viability is
-not silently promoted to an existing drug. Further primary lines remain open.
+showing SIRT2, drug-induced BUBR1 restoration or MVA muscle benefit. The [nine-question primary comparison](unfiltered-primary-qualification.md) now qualifies SH1/MZ242, NAC, berberine, HMGN1/CD4, collagen matrices, TTK inhibition, jasplakinolide, Bub3 crotonylation and sFRP3. HMGN1/CD4 earns real tumor/immune function, collagen culture support earns hormone-secretion function, and jasplakinolide earns osteogenic differentiation evidence. CFI402257 has a low-dose survivor-population genomic result with a critical selection uncertainty. None currently displaces the muscle-focused comparison. This follows the measured endpoints and intervention/model differences, not a special exemption for nominees lacking MVA efficacy. Genetic chromosome-fidelity leads and unreviewed literature remain open; sFRP3 is a rediscovery, not new replication.
 
 PLK1 is also a more concrete opportunity than its earlier genetic-only summary
 suggested: BI2536 partially restored patient-cell ciliogenesis according to the
