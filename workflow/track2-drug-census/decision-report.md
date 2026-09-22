@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 93 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 96 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -101,8 +101,8 @@ absence of a clear later-treatment force benefit and small rotarod denominator. 
 genetic PAI-1 outcomes stay separate from TM5484. The review explicitly
 left 5,469 outer records outside those three selections. The subsequent
 [unfiltered pass](unfiltered-findings.md) reads another 384 complete abstracts,
-bringing selected outer coverage to 817 records with 4,942 originally saved
-abstracts still unread. Separately, missing-abstract recovery reads 18 recovered
+bringing the historical subtotal to 817 records with 4,942 originally saved
+abstracts unread at that stage. Separately, missing-abstract recovery reads 18 recovered
 abstracts and 53 short available bodies, including 14 availability notices and
 one keyword index. These are distinct reading depths, not full-paper coverage.
 
@@ -192,3 +192,9 @@ is an implemented existing-active-ingredient probe; SHP099 supplies the separate
 mouse metabolic benefit. Kv10.1 knockdown, MAD2 restoration and CDC20 reduction
 cannot be relabeled drug rescue. The alternatives remain substantive; no
 absence-of-further-leads claim or new submission follows.
+
+## Muscle benefit recovered by the next unfiltered pass
+
+The [additional 576 assessments](next576-findings.md) bring outer coverage to 1,393 source/ID records, leaving 4,366 originally saved abstracts unread. The [primary comparison](next576-primary-qualification.md) admits **ursolic acid as a substantive functional reserve**: its mouse grip and absolute-force benefit and small randomized human handgrip signal deserve credit alongside the separate human null. It challenges niacin on empirical muscle benefit; niacin is retained for the distinct restoration hypothesis. Apitegromab retains stronger pediatric disease-associated functional evidence. None has demonstrated MVA efficacy, and ursolic-acid product/exposure eligibility remains unresolved.
+
+**MG132** has separate alignment and ex vivo muscle-proteolysis benefits, without demonstrated completed faithful division or contractile improvement in the inspected studies. **DHMMF** has RACK1-associated tumor-cell activity, with phospho-BUBR1 rising during damage. These endpoints do not justify muscle-restoration election. The same primary comparison upgrades the existing **bortezomib** entry: bortezomib plus humanin prevented neonatal-denervation contractures, but mortality and reduced normally innervated muscle growth keep it a combination-specific reserve. No active-force or monotherapy benefit is established. The ledger adds three appraisals and revises this existing entry, leaving 96; these are not 96 approved medicines or closed efficacy questions. Further source flags and unread literature remain; publication and submission remain pending.

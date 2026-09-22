@@ -365,9 +365,9 @@ outer records remained outside those three selections.
 
 The subsequent [unfiltered review](unfiltered-findings.md) reads another 384
 complete saved abstracts under a fixed SHA-256 ordering without a biology,
-date, drug-name or favorable-result filter. The four selections total **817**
-outer source/ID records; **4,942 originally saved abstracts remain unread**.
-All **143** originally missing outer abstracts have explicit recovery states:
+date, drug-name or favorable-result filter. Those four selections totaled **817**
+outer source/ID records, leaving **4,942 originally saved abstracts unread** at that stage.
+The original recovery ledger records all **143** missing outer abstracts:
 18 recovered abstracts and 53 short bodies read (including 14 availability
 notices and one keyword index), 11 long bodies unread, five empty retrieved
 bodies and 56 HTTP-500 retrieval failures. Missing access is not negative
@@ -386,7 +386,9 @@ all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
 claim full-text review of all ranked records. The decision ledger now contains
-93 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 93 approved medicines.
+96 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 96 approved medicines.
 
 The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.
+
+The [next unfiltered pass](next576-findings.md) adds 576 complete saved abstracts, bringing current outer coverage to **1,393 source/ID records** with **4,366 originally saved abstracts unread**. It flags 62 source questions; these are not completed primary appraisals. `verify_next576.py` independently replays the fixed selection and content hashes when supplied the original retrievals. The [primary comparison](next576-primary-qualification.md) adds ursolic acid, MG132 and DHMMF at explicit evidence depths. It also revises the existing bortezomib appraisal for combination-specific contracture benefit and growth/mortality tradeoffs, without changing the 96-entry total. Six conference abstract texts and one primary letter form a separate recovery overlay; no entire conference book is claimed as read.

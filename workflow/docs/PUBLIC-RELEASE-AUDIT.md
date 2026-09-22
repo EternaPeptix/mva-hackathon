@@ -529,3 +529,22 @@ niacin/apitegromab comparison, with no superiority or MVA-efficacy claim.
 Historical reading ledgers and catalog denominators are preserved. Raw sources
 and external reviews remain outside Git. This private update does not satisfy
 the condition for publication or Track 2 submission; further lines remain open.
+
+### 21 September 2026: additional unfiltered review and functional competitors
+
+The next 576 complete saved abstracts bring outer coverage to 1,393 source/ID
+records, leaving 4,366 originally saved abstracts unread. Six embedded conference
+abstract texts and one primary letter are separately scoped recoveries. Original
+assessments preserve source identity, exclusions and reading depth; raw source
+text and images remain outside Git.
+
+Three added appraisals bring the ledger to 96. Ursolic acid receives credit for
+mouse force and mixed controlled human evidence. MG132 receives distinct
+alignment and ex vivo anti-proteolysis credit; neither proves completed faithful
+division or contractile benefit. DHMMF phosphorylation accompanies tumor-cell
+damage. The existing bortezomib appraisal now credits combination-specific
+contracture prevention, with residual mortality, reused controls and reduced
+normally innervated muscle area/volume. Independent source and competitor review retain the current research
+comparison without declaring clinical superiority. Historical ledgers, baseline
+inventory, Track 1 uploads and current media are preserved. Further scientific
+questions remain, so publication and Track 2 submission are pending.

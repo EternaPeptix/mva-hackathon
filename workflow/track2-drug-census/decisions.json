@@ -197,17 +197,18 @@
         "bortezomib"
       ],
       "route": "Proteasome blockade / bortezomib",
-      "disposition": "conditional mechanism experiment, decline muscle-rescue lead",
-      "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
+      "disposition": "upgrade combination-specific contracture-compensation reserve; do not elect single-medicine lead",
+      "evidence_scope": "Complete neonatal-denervation primary article and supplement, with independent treatment/figure checks; older MG132, tumor and labeling evidence remains separately scoped.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "MG132 preservation was not demonstrated drug-mediated checkpoint rescue; N1002K was untested. Proteasome blockade can itself prevent mitotic exit, confounding an arrest-only rescue assay. The [pediatric bortezomib/vorinostat trial](https://pubmed.ncbi.nlm.nih.gov/22887890/) does not establish BUB1B selectivity; no starting renal adjustment in the [label](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=0eb8daef-18da-43bb-b7c6-38c4c8b5dd80&type=display) is not proof of safety in nephrocalcinosis. A later CDC20 study also used MG132 to improve alignment during blocked mitotic exit, without a washout/faithful-lineage result. Its separate CDC20 genetic reduction protected reversine-challenged cancer cells; neither result supplies bortezomib muscle efficacy.",
-      "source_report": "reports/appendices/track2-route-decisions.md",
+      "rationale": "Bortezomib plus [Gly14]-Humanin G prevented contractures and preserved longitudinal muscle growth after neonatal denervation. Passive joint range was assessed blinded after sacrifice; this is functional prevention credit, not active force, reinnervation or established-contracture reversal. All drug arms included humanin, so neither bortezomib-alone efficacy nor a protective contribution from humanin is isolated. Optimized treatment still had mortality and significantly reduced normally innervated muscle area/volume. Reused earlier-start controls, uncertain enrollment/attrition and missing relevant-exposure, long-term function and developmental safety limit election. Separate MG132 protein preservation/alignment results do not establish faithful completed divisions or transfer to bortezomib. The pediatric bortezomib/vorinostat trial does not establish BUB1B selectivity; no starting renal adjustment is not proof of safety in nephrocalcinosis.",
+      "source_report": "workflow/track2-drug-census/next576-primary-qualification.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/20516114/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC11611680/",
         "https://pubmed.ncbi.nlm.nih.gov/22887890/",
         "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=0eb8daef-18da-43bb-b7c6-38c4c8b5dd80&type=display",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11850905/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11850905/",
+        "https://insight.jci.org/articles/view/128454"
       ]
     },
     {
@@ -1551,6 +1552,56 @@
       "source_report": "workflow/track2-drug-census/unfiltered-primary-qualification.md",
       "source_urls": [
         "https://doi.org/10.1093/jmcb/mjaf040"
+      ]
+    },
+    {
+      "decision_id": "new-ursolic-acid",
+      "match_aliases": [
+        "ursolic acid"
+      ],
+      "route": "Ursolic acid / muscle compensation",
+      "disposition": "strengthen substantive functional reserve; do not elect yet",
+      "evidence_scope": "Complete mouse author manuscript/captions and supplement; human complete abstracts with limited publisher excerpts. Independent competitive comparison; no MVA efficacy experiment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Dietary treatment after palpable KPC tumors preserved mouse grip and absolute muscle force; unchanged specific force does not erase this benefit. Four other tumor models and a 5-FU arm mainly support mass preservation. Human evidence includes a small randomized secondary handgrip positive and a separate active-men controlled null; populations/formulations are not interchangeable. Apitegromab retains stronger pediatric disease-associated functional evidence; niacin retains a distinct restoration hypothesis, not proven superior function. Product eligibility, relevant exposure, progenitor/fidelity and long-term tumor effects remain unresolved. Main mouse figure images were unavailable; cultured-myotube Methods1micromolar versus Figure6 1millimolar is unresolved.",
+      "source_report": "workflow/track2-drug-census/next576-primary-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1152/ajpcell.00159.2026",
+        "https://doi.org/10.6084/m9.figshare.32129449",
+        "https://pubmed.ncbi.nlm.nih.gov/34330458/",
+        "https://pubmed.ncbi.nlm.nih.gov/32593524/"
+      ]
+    },
+    {
+      "decision_id": "new-mg132",
+      "match_aliases": [
+        "MG132",
+        "MG-132"
+      ],
+      "route": "MG132 / proteolysis and mitotic alignment",
+      "disposition": "retain endpoint-specific mechanistic evidence; decline election from these studies",
+      "evidence_scope": "Partial kinetochore primary sections and separately reviewed full rat-muscle primary paper; intervention-specific endpoints and source limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "10micromolar MG132 improves alignment after nocodazole withdrawal in CENP50-deficient chicken cells, but persistent mitosis after drug removal prevents calling it completed fidelity rescue. That source has partial primary-text access and unavailable figure-specific n. Separate primary rat-muscle experiments establish ex vivo anti-proteolysis benefit, not contractile force, systemic treatment or BUB1B rescue. Preserve these positive biochemical endpoints without assigning them to bortezomib or an approved human regimen. Direct synthesis/balance and washout figures in the muscle paper used LLN, not MG132.",
+      "source_report": "workflow/track2-drug-census/next576-primary-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2262965/",
+        "https://doi.org/10.1172/JCI119513"
+      ]
+    },
+    {
+      "decision_id": "new-dhmmf",
+      "match_aliases": [
+        "DHMMF"
+      ],
+      "route": "DHMMF / RACK1-associated tumor-cell disruption",
+      "disposition": "retain cytotoxic research observation; decline restoration nomination from these endpoints",
+      "evidence_scope": "Complete primary scientific letter, supplementary methods/captions and main-figure inspection; independent source audit.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Purified DHMMF raises phospho/total BubR1 while causing multipolar spindles, DNA-damage signals and reduced tumor-cell viability/proliferation. Binding competition, stability, SPR and one RACK1-siRNA experiment support target involvement beyond docking, not exclusivity. Stability-assay and phenotype exposures differ, with unresolved protocol timing discrepancies. No demonstrated muscle output, faithful divisions, normal-tissue window or qualified clinical exposure; prior animal work cited in the letter was not independently qualified here.",
+      "source_report": "workflow/track2-drug-census/next576-primary-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1002/ctm2.70460"
       ]
     }
   ]
