@@ -69,3 +69,10 @@ substance identifiers and triage the other unmatched product fields. The
 comparison does not prove that any entity is absent under every possible alias,
 and 180 whole-field mismatches are not 180 new medicines. Publication and
 submission remain pending while scientific and source-coverage work continues.
+
+
+The [subsequent identity follow-up](ema-identity-followup.md) validates official
+development names for the three examples. Thirty-seven names, identifiers and
+labeled typography variants still yield no saved catalog/corpus matches. The
+historical table remains unchanged; the separate follow-up now records
+product-specific evidence and explicitly unknown MVA efficacy.

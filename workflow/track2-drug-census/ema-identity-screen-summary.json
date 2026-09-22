@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-09-22T06:28:13.754582+00:00",
+  "medicines": {
+    "etuvetidigene autotemcel": {
+      "aliases_screened": 16,
+      "catalog_match_rows": 0,
+      "saved_corpus_distinct_record_matches": 0
+    },
+    "garadacimab": {
+      "aliases_screened": 13,
+      "catalog_match_rows": 0,
+      "saved_corpus_distinct_record_matches": 0
+    },
+    "zapomeran": {
+      "aliases_screened": 8,
+      "catalog_match_rows": 0,
+      "saved_corpus_distinct_record_matches": 0
+    }
+  },
+  "catalog_normalization": "NFKC, casefold, whitespace collapse; explicit official names and separately labeled typography variants only. No fuzzy, salt, combination or platform merge.",
+  "corpus_normalization": "HTML text extraction/unescape, Unicode dash-to-hyphen, NFKC/casefold/whitespace collapse, word-boundary literal alias matching. Titles and saved abstracts only; not full texts.",
+  "corpus_query": "BUB1B OR BUBR1 OR \"mosaic variegated aneuploidy\"",
+  "corpus_records": 7362,
+  "corpus_records_with_abstract": 7191,
+  "corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+  "alias_input_sha256": "5f7a93c3b93df45597686b0168f6b22c2c954935c40a3e5cc1da9b18bbd7be71",
+  "catalog_input_sha256": {
+    "catalog.tsv": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299",
+    "aliases.tsv": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3",
+    "drugcentral-status-unverified.tsv": "10e227cf35b49bf07e7d28f86afee12e0ebd88335a4090275b21339396db372f",
+    "approval-overrides.json": "3b8706a2cf66cdd3786b504a5542c4032cccf8dd525ff531846857aba82a4108",
+    "broad-hub-screen.tsv": "05e54144433804e08f7cdc91f18f366a296cbf4fbbad1dc88565b020c130adbe"
+  },
+  "limits": "Zero matches do not demonstrate null efficacy, prove a drug absent under every possible alias, or certify worldwide uniqueness. Historical 180-product mismatch snapshot and 15,357 entity denominator unchanged."
+}

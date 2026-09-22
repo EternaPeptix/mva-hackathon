@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 99 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 104 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -207,3 +207,28 @@ The [three-source check](intervention-identity-followup.md) raises the ledger to
 ## A current non-US inventory exposes remaining identity work
 
 The [EMA direct-feed comparison](ema-coverage-review.md) retains 1,568 authorised human product records separately from the 15,357-entity census. There are 180 whole-field name mismatches, including combinations and descriptions. Official pages confirm garadacimab, zapomeran and etuvetidigene autotemcel examples without exact matches in the compared layers; these are unresolved identity candidates, not new BUB1B leads. Kygevvi components and dorocubicel already have catalog entries. The supplement separates initial authorisation from later decisions and recommendations, preserves a source timestamp discrepancy, and leaves efficacy unassessed. These gaps are another reason not to claim enumeration or evaluation of every drug.
+
+
+## NAD reference evidence and three newly qualified products
+
+The [NQO1 primary follow-up](nqo1-sirt2-followup.md) adds a reported functional
+cell-division result for NMN in NQO1-depleted cancer cells. It strengthens the
+reference experiment while leaving BUBR1 mediation, faithful daughters and
+muscle output unestablished. The opposing dicoumarol result illustrates why
+precursor support and NQO1 inhibition cannot be treated as one drug direction.
+
+The [recovered EMA identities](ema-identity-followup.md) supply three product
+assessments: garadacimab, zapomeran and etuvetidigene autotemcel. Their actual
+clinical evidence concerns HAE, COVID-19 and WAS, respectively. Muscle injection
+or a gene-therapy platform does not establish muscle compensation or BUB1B
+restoration. The ledger at that stage has **103 appraisals**; the niacin/apitegromab research
+comparison is unchanged, and efficacy in MVA remains unproved.
+
+
+The [additional 256 saved entries](next256-findings.md) bring outer coverage to
+1,649 source/ID records, with 4,110 saved abstracts still unread. Their strongest
+new other-tissue drug finding receives [primary qualification](mebendazole-qualification.md):
+mebendazole increases YTHDC1 and improves liver disease measures, with a material
+missing-control limitation on the claimed mechanism. Retaining this lead brings
+the ledger to **104 appraisals**. No muscle-performance or actual-MVA efficacy
+has been established for it, and it does not yet displace the nominated pair.

@@ -66,11 +66,14 @@
       ],
       "route": "NMN",
       "disposition": "mechanistic reference, decline approved-drug submission lead",
-      "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
+      "evidence_scope": "Previously qualified North evidence plus complete Kang main-text and six figure-legend reading through NCBI BioC; Kang figure pixels, supplements and movies unreviewed. No numeric rescue estimate or exact Figure 4F denominator claimed.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "WT abundance and high experimental exposures do not establish actual-mutant or muscle rescue. Genetic SIRT2 improved selected outcomes but did not reverse small size, cataracts or lordokyphosis. NMN drug eligibility is unestablished.",
-      "source_report": "reports/appendices/track2-route-decisions.md",
-      "source_urls": []
+      "rationale": "North provides WT BUBR1 abundance evidence at high experimental exposure. Separately, Kang 2018 reports 0.5 mM NMN improving mitotic completion in NQO1-depleted MCF-7 cancer cells. That is functional division evidence, not niacin treatment, BUBR1-loss rescue, faithful daughter chromosome counts or muscle function. Genetic SIRT2 survival benefits remain separate. Product eligibility and actual-allele benefit at justified exposure remain unestablished.",
+      "source_report": "workflow/track2-drug-census/nqo1-sirt2-followup.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/",
+        "https://pubmed.ncbi.nlm.nih.gov/30114477/"
+      ]
     },
     {
       "decision_id": "prior-05",
@@ -1656,6 +1659,102 @@
       "evidence_scope": "Review section used only to resolve citation; complete primary abstract, official identity and indication-specific status sources; primary full-text qualification access-limited.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
       "source_report": "workflow/track2-drug-census/intervention-identity-followup.md"
+    },
+    {
+      "decision_id": "new-dicoumarol",
+      "match_aliases": [
+        "dicoumarol",
+        "dicumarol"
+      ],
+      "route": "Dicoumarol / NQO1 inhibition",
+      "disposition": "retain context-specific adverse comparator; decline MVA restoration nomination",
+      "rationale": "Actual dicoumarol treatment impairs mitotic progression and increases paclitaxel-associated cancer-cell killing in Kang 2018; the tubulin-acetylation experiment uses 100 micromolar and a separate concentration series. NQO1/SIRT2 inhibition does not supply a usable-BUBR1 restoration mechanism. Opposing NMN supplementation and genetic NQO1 results are different interventions. No actual-MVA, muscle-function or clinical therapeutic-window inference is made.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/30114477/"
+      ],
+      "evidence_scope": "Complete main-text and six figure-legend reading through NCBI BioC; figures, supplementary material and movies not independently reviewed.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/nqo1-sirt2-followup.md"
+    },
+    {
+      "decision_id": "new-ema-garadacimab",
+      "match_aliases": [
+        "garadacimab",
+        "garadacimab-gxii",
+        "Andembry",
+        "CSL312",
+        "CSL-312"
+      ],
+      "route": "Garadacimab / activated factor XII blockade",
+      "disposition": "decline current MVA nomination; retain confirmed product and unknown MVA efficacy",
+      "rationale": "A randomized HAE trial supports attack prevention; this is a different disease and endpoint. Official development aliases remain unmatched to the saved catalog layers. No retrieved BUB1B restoration or muscle-function experiment supports promotion. Donidalorsen CK observations and a separate 3F7 antibody kidney study are not garadacimab efficacy.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/36868261/",
+        "https://www.ema.europa.eu/en/medicines/human/EPAR/andembry"
+      ],
+      "evidence_scope": "Official identity and product-specific primary/registry assessment at explicitly recorded reading depths; bounded catalog, saved-corpus and direct literature searches.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/ema-identity-followup.md"
+    },
+    {
+      "decision_id": "new-ema-zapomeran",
+      "match_aliases": [
+        "zapomeran",
+        "Kostaive",
+        "ARCT-154",
+        "mRNA-2105"
+      ],
+      "route": "Zapomeran / formulated ARCT-154 vaccine",
+      "disposition": "decline current MVA nomination; retain confirmed product and unknown MVA efficacy",
+      "rationale": "Actual-product evidence concerns COVID-19 protection and antibody responses. A mouse injected-muscle study measures antigen/replicase clearance, not force or BUB1B rescue. Replacing the viral payload with BUB1B would create another intervention. Official aliases show no saved catalog or gene-corpus match; that is not null efficacy.",
+      "source_urls": [
+        "https://www.nature.com/articles/s41467-024-47905-1",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11999312/",
+        "https://www.ema.europa.eu/en/medicines/human/EPAR/kostaive"
+      ],
+      "evidence_scope": "Official identity and product-specific primary/registry assessment at explicitly recorded reading depths; bounded catalog, saved-corpus and direct literature searches.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/ema-identity-followup.md"
+    },
+    {
+      "decision_id": "new-ema-etuvetidigene",
+      "match_aliases": [
+        "etuvetidigene autotemcel",
+        "Waskyra",
+        "Telethon003",
+        "Telethon-003",
+        "OTL-103",
+        "GSK2696275",
+        "etu-cel",
+        "TLT003"
+      ],
+      "route": "Etuvetidigene autotemcel / WAS-directed cell therapy",
+      "disposition": "decline current MVA nomination; retain confirmed product and unknown MVA efficacy",
+      "rationale": "This product modifies hematopoietic cells with WAS, not BUB1B. The clinical outcomes concern engraftment, infection and bleeding in WAS; overlapping reports are not independent cohorts. A different BUB1B gene-therapy construct cannot inherit this product's efficacy. Official aliases have no saved catalog/gene-corpus match; MVA and muscle-compensation efficacy remain unknown.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6494976/",
+        "https://www.fda.gov/media/190281/download?attachment=",
+        "https://www.ema.europa.eu/en/medicines/human/EPAR/waskyra"
+      ],
+      "evidence_scope": "Official identity and product-specific primary/registry assessment at explicitly recorded reading depths; bounded catalog, saved-corpus and direct literature searches.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/ema-identity-followup.md"
+    },
+    {
+      "decision_id": "new-mebendazole",
+      "match_aliases": [
+        "mebendazole"
+      ],
+      "route": "Mebendazole / YTHDC1-associated liver protection",
+      "disposition": "retain other-tissue protein-availability lead; do not promote to MVA muscle nomination",
+      "rationale": "A primary HFD-mouse study reports higher YTHDC1 abundance and improved liver pathology/lipid/injury measures after oral mebendazole, with thermal/protease-resistance target-engagement evidence. Drug-specific YTHDC1 half-life, lactylation/ubiquitination reversal, restored reader activity and BUBR1/muscle effects are not established. The treated-knockout comparison lacks knockout plus vehicle, so it does not establish abolished within-genotype drug benefit. Schedule reporting, formulation, cell exposure, experimental safeguards and toxicity remain limited.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13067837/",
+        "https://doi.org/10.1002/advs.202510192"
+      ],
+      "evidence_scope": "Primary abstract, all Results/Discussion/Experimental subsections and supplemental captions read; selected Figures2/3/7 and S10 visually inspected, with independent integrating-reviewer checks of7/S10. Raw data not shared by source; no whole-paper visual audit or new biological experiment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/mebendazole-qualification.md"
     }
   ]
 }

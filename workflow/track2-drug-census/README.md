@@ -394,11 +394,35 @@ all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
 claim full-text review of all ranked records. The decision ledger now contains
-99 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 99 approved medicines.
+104 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 104 approved medicines.
 
 The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.
 
-The [next unfiltered pass](next576-findings.md) adds 576 complete saved abstracts, bringing current outer coverage to **1,393 source/ID records** with **4,366 originally saved abstracts unread**. It flags 62 source questions; these are not completed primary appraisals. `verify_next576.py` independently replays the fixed selection and content hashes when supplied the original retrievals. The [primary comparison](next576-primary-qualification.md) adds ursolic acid, MG132 and DHMMF at explicit evidence depths. It also revises the existing bortezomib appraisal for combination-specific contracture benefit and growth/mortality tradeoffs, without changing the 96-entry total. Six conference abstract texts and one primary letter form a separate recovery overlay; no entire conference book is claimed as read.
+The [next unfiltered pass](next576-findings.md) adds 576 complete saved abstracts, bringing that stage to **1,393 source/ID records** with **4,366 originally saved abstracts unread**. It flags 62 source questions; these are not completed primary appraisals. `verify_next576.py` independently replays the fixed selection and content hashes when supplied the original retrievals. The [primary comparison](next576-primary-qualification.md) adds ursolic acid, MG132 and DHMMF at explicit evidence depths. It also revises the existing bortezomib appraisal for combination-specific contracture benefit and growth/mortality tradeoffs, without changing the 96-entry total. Six conference abstract texts and one primary letter form a separate recovery overlay; no entire conference book is claimed as read.
 
-The [intervention-identity follow-up](intervention-identity-followup.md) adds three route/compound appraisals and revises the existing STLC route, bringing the current ledger to **99**. The 1,393 outer-record and 4,366 unread-abstract counts are unchanged; primary follow-up is not a new abstract-reading batch.
+The [intervention-identity follow-up](intervention-identity-followup.md) adds three route/compound appraisals and revises the existing STLC route, bringing that stage of the ledger to **99**. That primary follow-up did not add abstract readings; those stage counts are historical.
+
+
+The [NQO1/SIRT2 follow-up](nqo1-sirt2-followup.md) upgrades NMN's reference
+rationale with reported mitotic-completion benefit and adds an adverse dicoumarol
+appraisal. The [EMA identity follow-up](ema-identity-followup.md) qualifies three
+additional products without finding a supported MVA nomination. Together these
+bring the ledger to **103 route/compound appraisals** before the subsequent mebendazole qualification. The recovered
+37 names/identifiers and explicit typography variants remain unmatched; zero
+retrievals are not negative efficacy. Neither follow-up changes the catalog
+entity denominator or the historical 180-product EMA mismatch table.
+
+
+The [additional 256-entry reading](next256-findings.md) brings current outer
+coverage to **1,649 source/ID records**, leaving **4,110 originally saved
+abstracts unread**. Sixteen flags retain specific source questions; they are not
+sixteen qualified new medicines. Every saved string was read, including an
+explicitly documented upstream fragment. `verify_next256.py` replays the exact
+selection, exclusions and content hashes against the original retrievals.
+
+
+[Mebendazole primary qualification](mebendazole-qualification.md) adds a real
+other-tissue protein-availability lead and brings the current total to **104
+appraisals**. Its liver outcomes and missing factorial control are explicit;
+no BUBR1 restoration or muscle efficacy is claimed. Further lines remain open.

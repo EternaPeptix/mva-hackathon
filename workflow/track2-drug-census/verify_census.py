@@ -232,6 +232,28 @@ def main():
     if (P/'outer-unfiltered-next576-review.json').exists():
         from verify_next576 import check as check_next576
         check_next576()
+    if (P/'outer-unfiltered-next256-review.json').exists():
+        from verify_next256 import check as check_next256
+        check_next256()
+    if (P/'ema-identity-screen-summary.json').exists():
+        identity=json.loads((P/'ema-identity-screen-summary.json').read_text())
+        aliases=json.loads((P/'ema-recovered-aliases.json').read_text())
+        rows=read('ema-identity-match-rows.tsv');mentions=read('ema-identity-mentions.tsv')
+        assert len(rows)==len(aliases)==len({(r['medicine'],r['alias']) for r in rows})
+        assert hashlib.sha256((P/'ema-recovered-aliases.json').read_bytes()).hexdigest()==identity['alias_input_sha256']
+        for name,digest in identity['catalog_input_sha256'].items():
+            assert hashlib.sha256((P/name).read_bytes()).hexdigest()==digest,name
+        for source,row in zip(aliases,rows):
+            assert all(row[k]==v for k,v in source.items())
+            assert row['identity_merge_performed']=='false'
+        for medicine,counts in identity['medicines'].items():
+            selected=[r for r in rows if r['medicine']==medicine]
+            assert len(selected)==counts['aliases_screened']
+            assert sum(bool(json.loads(r['catalog_cross_references'])) for r in selected)==counts['catalog_match_rows']
+            matched={(r['source'],r['record_id']) for r in mentions if r['medicine']==medicine}
+            assert len(matched)==counts['saved_corpus_distinct_record_matches']
+            assert matched=={(h['source'],h['record_id']) for r in selected for h in json.loads(r['saved_corpus_record_matches'])}
+        assert all(r['screen_state']=='LEXICAL_CANDIDATE_ONLY_NOT_EFFICACY' for r in mentions)
     if (P/'ema-coverage-summary.json').exists():
         ema=json.loads((P/'ema-coverage-summary.json').read_text())
         products=read('ema-authorised-human-products.tsv')
@@ -282,5 +304,5 @@ def main():
             assert hashlib.sha256((P/meta['file']).read_bytes()).hexdigest()==meta['sha256']
     decisions=json.loads((P/'decisions.json').read_text())['decisions'];joins=read('decision-alias-joins.tsv')
     assert len(decisions)==len(joins) and {r['decision_id'] for r in decisions}=={r['decision_id'] for r in joins}
-    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'curated_appraisals':len(decisions),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation, including fixed-order exclusions and all419 ranked records across433 outer records; unfiltered384 plus next576 selection/review reconciliation, totaling1393 outer records; original missing143 depth reconciliation; Broad7540 preferred-name and2148 mention reconciliation with input hashes; all-target source preservation and correction mappings; EMA product-state, source-input-hash and unknown-efficacy reconciliation; complete decision joins'},indent=2))
+    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'curated_appraisals':len(decisions),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation, including fixed-order exclusions and all419 ranked records across433 outer records; unfiltered384 plus next576 and next256 selection/review reconciliation, totaling1649 outer records; original missing143 depth reconciliation; Broad7540 preferred-name and2148 mention reconciliation with input hashes; all-target source preservation and correction mappings; EMA product-state, recovered-alias overlay, source-input-hash and unknown-efficacy reconciliation; complete decision joins'},indent=2))
 if __name__=='__main__':main()

@@ -226,7 +226,10 @@ For arimoclomol, distinguish inducible/constitutive HSP70-family responses and
 HSP90-related effects from BUBR1 amount, localization and function. Neither a
 chaperone marker nor correlation between NAD and BUBR1 proves causal rescue.
 SIRT2 dependence alone does not establish BUBR1 dependence: SIRT2 has other
-substrates. N1002K-specific SIRT2 interaction is unmeasured; neither preserved
+substrates. The [NQO1/NMN experiment](../../workflow/track2-drug-census/nqo1-sirt2-followup.md)
+provides a concrete example: reported mitotic completion can improve through a
+pathway linked to APC/C, without establishing BUBR1 rescue or daughter-cell
+fidelity. N1002K-specific SIRT2 interaction is unmeasured; neither preserved
 nor disrupted binding follows from its sequence position. To claim the full chain, use an interpretable BUBR1 abundance clamp
 or orthogonal perturbation, with titration that preserves baseline function and
 NAD engagement. Severe depletion that destroys the baseline cannot answer this

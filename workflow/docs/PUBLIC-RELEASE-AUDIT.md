@@ -572,3 +572,30 @@ The update preserves historical source fields, baseline inventory, Track 1
 uploads and current pitch media. It is a private draft, with no new rubric score,
 clinical sign-off, biological experiment or Track 2 submission. Further literature
 and product-identity work remains; the publication/submission condition is unmet.
+
+
+## Further literature and EMA identity review
+
+The latest update adds 256 completed saved-string readings, bringing outer
+coverage to 1,649 source/ID records with 4,110 original saved abstracts unread.
+One upstream fragment remains explicitly incomplete. Original selections and
+reviewer-file hashes are preserved; a proTAME wording refinement distinguishes
+SAC-independent metaphase arrest from checkpoint override.
+
+NMN's reported NQO1-model mitotic-completion benefit strengthens its reference
+role. Dicoumarol, three independently identified EMA products, and mebendazole
+add five appraisals, bringing the ledger to 104. The mebendazole source supplies
+protein-availability and liver-pathology evidence but lacks the full knockout
+control design needed for its strongest causal claim. The niacin/apitegromab
+research comparison remains unchanged.
+
+The 37 recovered EMA aliases/identifiers and explicit typography variants yield
+no saved catalog/corpus cross-references. These results neither merge substances
+nor modify the historical 180-product mismatch snapshot or 15,357-entity census.
+Every product's MVA efficacy remains unknown. Raw papers, source feeds, figures,
+abstracts and reviewer working files remain outside Git. Added payloads are
+original interpretations, public-source naming metadata and reproducible methods.
+Existing source/provenance fields, exact Track 1 uploads and pitch media are
+preserved. Independent source checks and source-selection/identity replay passed;
+they do not prove clinical efficacy. Repository publication and Track 2 submission
+remain pending because further leads and unresolved coverage remain.
