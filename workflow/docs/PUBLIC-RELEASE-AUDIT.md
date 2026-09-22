@@ -487,3 +487,32 @@ artifacts and current pitch media remain unchanged. This is a private research
 update; it supplies no new biological validation, rubric score, publication or
 Track 2 submission. The alternatives do not establish the conditional absence
 of further leads.
+
+### 21 September 2026: unfiltered literature and independent catalog crosscheck
+
+A fixed selection adds 384 complete saved abstracts without biological, drug-name
+or favorable-result filtering. The four outer selections now contain 817 distinct
+source/ID records; 4,942 originally saved abstracts remain unread. All 143 missing
+outer records have recovery states. Seventy-one recovered text units were read,
+but only 53 contain some assessed scientific content; notices, metadata, unread
+long bodies and failed access are explicitly distinguished. An independent audit
+replayed source identities, hashes and exclusions and corrected one inferred
+drug annotation whose modality was unspecified in the abstract.
+
+Primary and figure-level review qualifies actual nicotinic-acid protection in
+toxin-exposed oocytes. The human result is partial and lacks a displayed direct
+treatment-contrast significance test. SIRT1 evidence and toxicant-induced BUBR1
+recruitment do not establish SIRT2-mediated drug restoration or MVA muscle rescue.
+The report, pipeline and existing niacin appraisal retain those boundaries.
+
+The Broad Repurposing Hub crosscheck preserves 7,540 overlapping source entries
+separately from the main census. Independent parsing corrects sample-name counts
+and three malformed source line breaks. A text-cleaner correction preserves
+scientific inequalities and recovers 38 lexical mentions. Source-only replay,
+independent matching and compact-table reconciliation passed. Public metadata
+and source notices accompany the reproducible script; raw downloads, abstracts,
+primary bodies, images and external reviewer work remain outside Git.
+
+Historical source fields, baseline inventory, Track 1 uploads and current media
+are preserved. This private update supplies no new efficacy experiment or rubric
+score. Further lines remain open; publication and Track 2 submission are pending.

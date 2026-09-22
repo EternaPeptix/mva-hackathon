@@ -137,9 +137,12 @@ Before translating any positive experiment, the [oncology review](track2-evidenc
 The [outer-corpus comparison](../../workflow/track2-drug-census/outer-corpus-findings.md)
 gives the positive observations and weaknesses for ConA, chaetocin,
 hesperetin/CISD2, HDAC6 inhibition, indole acetic acid, liraglutide and calcitriol,
-with separate PAI-1 primary follow-up. It reads 433 selected complete
-abstracts in three passes, including all 419 ranked records, but not all 5,902
-records outside the gene query. These findings extend
+with separate PAI-1 primary follow-up. The first three passes read 433 selected
+complete abstracts, including all 419 ranked records. The subsequent
+[unfiltered pass](../../workflow/track2-drug-census/unfiltered-findings.md) brings
+coverage to 817 outer source/ID records, with 4,942 originally saved abstracts
+still unread; missing-abstract recoveries have separate, explicit reading depths.
+These findings extend
 the alternatives table without assigning clinical efficacy to untested MVA
 routes. The [PLK1 follow-up](../../workflow/track2-drug-census/lead-qualification.md#plk1-a-patient-cell-drug-observation-with-no-displayed-data)
 adds an actual patient-cell BI2536 cilia observation with data not shown; the

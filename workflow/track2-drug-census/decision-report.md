@@ -6,6 +6,11 @@ The census screens 15,357 entities plus 40 FDA 2026 product entries assessed sep
 
 ## The same comparison for leaders and challengers
 
+The separate [Broad Hub crosscheck](broad-hub-review.md) screens another catalog's
+7,540 overlapping source names, without inflating the main denominator. Its
+2,148 lexical mentions are discovery pointers; an unmapped name is not a new
+medicine, and a co-mention is not a beneficial intervention.
+
 We compare mechanism relevance, actual-drug functional evidence, transfer to this
 genotype and tissue, exposure/eligibility, and harms. No numerical efficacy or
 weighted winner score is inferred from missing experiments. A challenger does not
@@ -92,9 +97,21 @@ HDAC6 inhibitors after a TUBB8 perturbation, and conditional IAA, liraglutide an
 calcitriol routes. These are original source-level appraisals with different
 models and endpoints, not automatically equivalent medicines. Primary follow-up elevates **TM5484/PAI-1** for an actual mouse contraction
 endpoint and **hesperetin/CISD2** for motor performance, while preserving the
-weak later-treatment force result and small rotarod denominator. TM5441 and
+absence of a clear later-treatment force benefit and small rotarod denominator. TM5441 and
 genetic PAI-1 outcomes stay separate from TM5484. The review explicitly
-leaves 5,469 outer records outside the three completed selections.
+left 5,469 outer records outside those three selections. The subsequent
+[unfiltered pass](unfiltered-findings.md) reads another 384 complete abstracts,
+bringing selected outer coverage to 817 records with 4,942 originally saved
+abstracts still unread. Separately, missing-abstract recovery reads 18 recovered
+abstracts and 53 short available bodies, including 14 availability notices and
+one keyword index. These are distinct reading depths, not full-paper coverage.
+
+The unfiltered pass recovers actual nicotinic-acid protection in toxin-exposed
+human oocytes. It strengthens the compound-specific cellular precedent without
+showing SIRT2, drug-induced BUBR1 restoration or MVA muscle benefit. It also flags
+SH1-associated process elongation, NAC marker protection and genetic
+chromosome-fidelity rescues for qualification; genetic synthetic viability is
+not silently promoted to an existing drug. Further primary lines remain open.
 
 PLK1 is also a more concrete opportunity than its earlier genetic-only summary
 suggested: BI2536 partially restored patient-cell ciliogenesis according to the

@@ -226,7 +226,37 @@ def main():
         ranked_ids={(r['source'],r['record_id']) for r in ranking['candidates']}
         assert len(combined_ids)==len(combined) and ranked_ids<=combined_ids
         assert len(combined_ids)==433 and len(ranked_ids)==419
+    if (P/'outer-unfiltered-review.json').exists():
+        from verify_unfiltered import check
+        check()
+    if (P/'broad-hub-summary.json').exists():
+        broad=json.loads((P/'broad-hub-summary.json').read_text())
+        broad_rows=read('broad-hub-screen.tsv');broad_mentions=read('broad-hub-mentions.tsv')
+        by_id={r['hub_row_id']:r for r in broad_rows}
+        assert len(broad_rows)==len(by_id)==broad['source_names_screened']==7540
+        assert len(broad_mentions)==broad['lexical_mention_rows']==2148
+        assert len({r['mention_id'] for r in broad_mentions})==len(broad_mentions)
+        assert len({r['normalized_preferred_name'] for r in broad_rows})==broad['normalized_names_screened']
+        mentions_by_id=Counter(r['hub_row_id'] for r in broad_mentions)
+        assert set(mentions_by_id)<=set(by_id)
+        assert len(mentions_by_id)==broad['matched_source_names']==544
+        assert len(by_id)-len(mentions_by_id)==broad['unmatched_source_names']
+        for r in broad_rows:
+            assert int(r['literature_record_count'])==mentions_by_id[r['hub_row_id']]
+            candidates=json.loads(r['name_candidate_ids'])+json.loads(r['structure_candidate_ids'])
+            assert set(candidates)<=all_ids
+            if r['crosswalk_status']=='NO_MATCH':assert not candidates
+            if not mentions_by_id[r['hub_row_id']]:assert r['evidence_state']=='UNKNOWN_NO_PREFERRED_NAME_MATCH'
+        for r in broad_mentions:
+            assert r['evidence_state']=='PREFERRED_NAME_LEXICAL_MENTION_ONLY_UNREVIEWED'
+            assert len(r['source_record_sha256'])==64
+            assert json.loads(r['matched_fields_token_spans'])
+            assert not {'abstractText','abstract','body_text'}&r.keys()
+        assert sum(r['crosswalk_status']=='NO_MATCH' for r in broad_rows)==broad['no_catalog_match_source_names']==2713
+        for name in ['screen_script','catalog','aliases','supplement','literature_match_script']:
+            meta=broad['inputs'][name]
+            assert hashlib.sha256((P/meta['file']).read_bytes()).hexdigest()==meta['sha256']
     decisions=json.loads((P/'decisions.json').read_text())['decisions'];joins=read('decision-alias-joins.tsv')
     assert len(decisions)==len(joins) and {r['decision_id'] for r in decisions}=={r['decision_id'] for r in joins}
-    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'curated_appraisals':len(decisions),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation, including fixed-order exclusions and all419 ranked records across433 outer records; all-target source preservation and correction mappings; complete decision joins'},indent=2))
+    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'curated_appraisals':len(decisions),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation, including fixed-order exclusions and all419 ranked records across433 outer records; unfiltered384 and missing143 depth reconciliation; Broad7540 preferred-name and2148 mention reconciliation with input hashes; all-target source preservation and correction mappings; complete decision joins'},indent=2))
 if __name__=='__main__':main()

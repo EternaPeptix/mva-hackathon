@@ -54,6 +54,12 @@ These are supplemental product records, not additions to the **15,357**
 parent/supplement screening denominator; product/component equivalence must
 not be assumed from a name cross-reference.
 
+A separate [Broad Repurposing Hub crosscheck](broad-hub-review.md) screens all
+7,540 preferred source names against the same corpus, retaining 2,148 lexical
+mention rows and unresolved identity/status flags. These are overlapping source
+entries, not additions to the 15,357 main denominator. The independent parser
+and name screen preserve missing sample groups and scientific inequality text.
+
 ## Inclusion, identity and status rules
 
 `catalog.py` takes the union of ChEMBL `max_phase >= 1` and
@@ -325,6 +331,11 @@ were used.
   literature workflow. Article titles/abstracts retain their individual source
   rights; this screen redistributes identifiers, titles and match metadata rather
   than claiming ownership of article text.
+- [Broad Repurposing Hub](https://repo-hub.broadinstitute.org/repurposing),
+  annotations dated 18 August 2025; Corsello et al.,
+  [doi:10.1038/nm.4306](https://doi.org/10.1038/nm.4306). The
+  [crosscheck attribution](broad-hub-review.md#attribution-and-source-notices)
+  preserves both the current portal and dated file notices.
 
 Retain source attributions and applicable share-alike terms when redistributing
 these database-derived tables. These source terms do not purport to relicense
@@ -333,7 +344,7 @@ unrelated repository content.
 
 ## Beyond the gene-in-abstract boundary
 
-The [additional review](outer-corpus-findings.md) reads 433 selected
+The [earlier review](outer-corpus-findings.md) read 433 selected
 complete abstracts in three nonoverlapping passes (60 + 120 + 253) from the 5,902 records outside the 1,460-record gene-title/
 abstract query. That outer set has 5,759 saved abstracts; the unselected records
 remain unreviewed by this pass. Selection uses muscle, progeroid and chromosome
@@ -350,7 +361,18 @@ pre-integration commit, preserving its historical meaning. The
 120-record pass. The [completion selection](outer-ranked-completion-selection.json)
 and [assessments](outer-ranked-completion-review.json) cover the remaining 253
 ranked records. These are records, not globally deduplicated studies; **5,469**
-outer records remain outside the three selections.
+outer records remained outside those three selections.
+
+The subsequent [unfiltered review](unfiltered-findings.md) reads another 384
+complete saved abstracts under a fixed SHA-256 ordering without a biology,
+date, drug-name or favorable-result filter. The four selections total **817**
+outer source/ID records; **4,942 originally saved abstracts remain unread**.
+All **143** originally missing outer abstracts have explicit recovery states:
+18 recovered abstracts and 53 short bodies read (including 14 availability
+notices and one keyword index), 11 long bodies unread, five empty retrieved
+bodies and 56 HTTP-500 retrieval failures. Missing access is not negative
+evidence. `verify_unfiltered.py` checks coverage and, with the original two
+retrieval JSON files, replays the fixed selection and every abstract hash.
 
 These records add concrete routes including cortical-tension modulation,
 progerin-specific chaetocin and hesperetin/CISD2. Primary follow-ups are labeled
