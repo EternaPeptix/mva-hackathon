@@ -209,14 +209,22 @@ retain their original denominator; supplemental tables do not silently rewrite i
 
 The [new review](abstract-review-findings.md) reads the gene-query records in
 source order without an alias gate. All **1,432 available saved abstracts** have
-been read; nine missing-abstract records have an accessible-body assessment,
-and 19 remain at title/metadata depth. The [coverage summary](gene-abstract-review-summary.json)
-reports actual completed reading and remaining records; the
+been read. That pass read nine missing-abstract bodies and left 19 title-only;
+a [separate recovery pass](missing-records-followup.md) subsequently read nine
+more short bodies and one newly recovered patent abstract. Among the 28
+originally missing abstracts, current depth is therefore **18 complete bodies,
+one new abstract, two partial texts and seven title-only records**.
+The [original coverage summary](gene-abstract-review-summary.json)
+preserves that pass's actual completed reading; the
 [record table](gene-abstract-review.tsv) separates complete saved abstracts,
 accessible bodies, title-only records and unread entries. Three AI reviewers
 read disjoint batches; this is not three independent reviews of each paper.
 Original assessments are in `abstract-review-notes.json`. The compiler validates
 source identities and exact abstract hashes; it does not generate judgments.
+Supplemental recovery assessments are in `missing-records-followup.json`; they
+retain original identities and depths separately. The [primary lead qualification](lead-qualification.md)
+raises Aurora-B balancing for functional comparison and qualifies geraniin,
+TG101209, KP372-1 and okadaic acid without claiming clinical efficacy.
 Source truncations, duplicate versions and unanswered full-text questions remain
 explicit. Complete saved-string reading is not an exhaustive worldwide efficacy
 review. Geraniin and other newly retained routes have explicit comparative

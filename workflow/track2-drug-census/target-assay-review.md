@@ -57,6 +57,11 @@ neither agent has established rescue of the actual alleles. TG101209 is not
 TG101348/fedratinib. BAY1816032's established BUB1 pharmacology remains distinct
 from a later BUB1B thermal observation; neither name alone proves selectivity.
 
+The [deeper qualification](lead-qualification.md#tg101209-competing-pharmacology-matters)
+adds the original compound's JAK2/FLT3/RET pharmacology and failed full-manuscript
+retrieval. It strengthens the need for competing-target controls without
+inventing a clinical toxicity threshold or calling an inaccessible paper negative.
+
 ## Interpretation of all seven source groups
 
 | ChEMBL document / source | Rows | What is recorded | Current interpretation and verification depth |

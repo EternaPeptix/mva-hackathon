@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 56 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 59 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -84,6 +84,15 @@ journal versions are linked, not added as independent support. **The elected
 niacin/apitegromab research comparison remains unchanged.**
 
 ## What remains unknown
+
+The [primary-source qualification](lead-qualification.md) now **raises Aurora-B
+balancing as an experimental functional comparator**: attachment rescue after
+BUBR1 depletion is real drug evidence, but is not completed faithful division.
+Geraniin retains its cellular signal with an unresolved parent-exposure bridge;
+TG101209 remains a thermal probe with competing pharmacology. KP372-1 and
+okadaic acid receive explicit contextual/reagent decisions rather than being
+mistaken for unnamed BUBR1-restoring drugs. The comparison applies the same
+actual-allele evidence gap to nominees and challengers.
 
 The deeper [complete-saved-abstract review](abstract-review-findings.md) adds
 **geraniin** as a chromosome-fidelity comparator to qualify, **TG101209** as a

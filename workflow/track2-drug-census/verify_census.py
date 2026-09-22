@@ -112,6 +112,26 @@ def main():
         assert summary['available_saved_abstracts_read']+summary['available_saved_abstracts_unread']==summary['available_saved_abstracts']
         assert summary['all_available_saved_abstracts_read']==(summary['available_saved_abstracts_unread']==0)
         assert all('abstractText' not in row for row in notes['records'])
+    if (P/'missing-records-followup.json').exists():
+        follow=json.loads((P/'missing-records-followup.json').read_text())
+        historical=P/'abstract-review-notes.json'
+        assert hashlib.sha256(historical.read_bytes()).hexdigest()==follow['historical_source_notes_sha256']
+        notes=json.loads(historical.read_text())
+        assert follow['corpus_sha256']==notes['corpus_sha256']
+        old={(r['source'],r['record_id']):r for r in notes['records'] if r['review_depth']=='title_metadata_only'}
+        recovered={(r['source'],r['record_id']):r for r in follow['records']}
+        assert len(recovered)==len(follow['records'])==follow['reviewed_records'] and set(recovered)==set(old)
+        depths=Counter()
+        for key,row in recovered.items():
+            assert row['title']==old[key]['title'] and row['historical_review_depth']==old[key]['review_depth']
+            assert row['historical_abstract_sha256']==old[key].get('abstract_sha256','')
+            assert row['status']=='reviewed' and row['source_url'] and row['interpretation'] and row['access_limitation']
+            assert row['supplemental_depth'] in {'complete_body','complete_new_abstract','partial','title_only'}
+            depths[row['supplemental_depth']]+=1
+        assert dict(depths)==follow['supplemental_depth_counts']
+        combined=Counter(complete_accessible_body=sum(r['review_depth']=='complete_accessible_body' for r in notes['records']))
+        for depth,count in depths.items():combined['complete_accessible_body' if depth=='complete_body' else depth]+=count
+        assert dict(combined)==follow['combined_depth_among_28_originally_missing_abstracts']
     decisions=json.loads((P/'decisions.json').read_text())['decisions'];joins=read('decision-alias-joins.tsv')
     assert len(decisions)==len(joins) and {r['decision_id'] for r in decisions}=={r['decision_id'] for r in joins}
     print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract assessment reconciliation; all-target source preservation and correction mappings; complete decision joins'},indent=2))

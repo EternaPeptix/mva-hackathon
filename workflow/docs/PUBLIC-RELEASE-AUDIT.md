@@ -375,3 +375,22 @@ Source licenses still apply. New leads and unresolved efficacy preclude an
 exhaustive-completion claim; the repository remains private and Track 2
 submission remains pending. Current report, movie and exact Track 1 uploads
 are unchanged by this literature follow-up.
+### 21 September 2026: primary lead qualification and missing-text recovery
+
+The public-source comparison now contains 59 curated route/compound appraisals.
+Primary-source checks raise Aurora-B balancing as a functional-compensation
+experiment, with arrested-cell attachment endpoints distinct from completed
+accurate divisions. Geraniin retains a cellular result but an unresolved intact
+parent-exposure bridge; TG101209 remains a thermal probe with competing
+pharmacology. KP372-1 and okadaic acid receive contextual/reagent assessments.
+Niacin/apitegromab remain the research nominations, not proven superior drugs.
+
+A separate recovery layer covers all 19 formerly title-only access investigations:
+nine complete short bodies, one patent abstract, two partial texts and seven
+title-only records. Original corpus/review depths remain unchanged. New payloads
+contain original assessments and source links, not downloaded abstracts, full
+manuscripts, figure images or controlled data. Counts and current report/methods
+text were reconciled. Track 1 upload artifacts and pitch media are unchanged.
+Repository visibility remains private and Track 2 remains unsubmitted; further
+leads and unresolved evidence prevent asserting the user's no-further-leads
+condition. These are literature judgments, not drug experiments or clinical advice.

@@ -22,9 +22,10 @@ Saved thesis abstracts ending in “continues” remain incomplete source texts.
 | **PLK1 reduction** | Knockdown suppressed centrosome amplification in PCS/MVA patient cells with elevated Plk1 activity. | Strong same-disease cellular evidence, but genetic intervention. In mitosis PLK1 also supports BUBR1/PP2A-dependent attachment; generalized inhibition need not reproduce an interphase benefit. | **New target opportunity with a timing constraint**, not an elected drug. [PCS study](https://pubmed.ncbi.nlm.nih.gov/19503101/), [attachment mechanism](https://pubmed.ncbi.nlm.nih.gov/23079597/). |
 | **GW5074** | RAF inhibition blocked pan-JAK-inhibitor-induced endoreduplication in HL-60 leukemia cells. | Pharmacological prevention of an imposed polyploidy phenotype; reduced BubR1 phosphorylation is not restoration of deficient BUBR1. No nonmalignant muscle or drug-eligibility bridge. | **Contextual pharmacology reserve**, below geraniin for the proposed fidelity comparison. [Primary abstract](https://pubmed.ncbi.nlm.nih.gov/20703093/). |
 
-Geraniin's manuscript, exposure and original figure-level controls remain to be
-qualified; its abstract is stronger than a docking hit but cannot supply missing
-effect sizes or a therapeutic window. The accessible Bletilla and PLK1 abstracts
+The [primary-source follow-up](lead-qualification.md) identifies a geraniin cell
+regimen but no established systemic parent-exposure bridge, and raises Aurora-B
+balancing as a functional comparator. Full geraniin figure-level controls and
+the lowest effective concentration remain unverified. The accessible Bletilla and PLK1 abstracts
 likewise do not establish all methods or drug implementation. These are concrete
 follow-ups, not five newly proven medicines. Niacin and apitegromab also lack
 actual-allele rescue; the comparison uses mechanism, administered-agent outcome,
@@ -32,22 +33,23 @@ model transfer, exposure/eligibility and harms consistently.
 
 **Current nomination remains niacin restoration plus separate apitegromab muscle
 compensation.** The new findings add research alternatives rather than establish
-superior expected clinical efficacy. In particular, geraniin warrants checking
-before declaring that the broad search has produced no further leads.
+superior expected clinical efficacy. Source qualification sharpens these leads;
+it does not convert them to negative results or establish search exhaustion.
 
 ## Existing routes sharpened by the review
 
-- **Aurora-B compensation:** the KARD study reports pharmacological restoration
-  of kinetochore attachments after specified BUBR1 defects. This complements the
-  already appraised ZM447439 experiment and conference AZD1152 mouse result;
-  it is not a new patient-drug rescue or proof that all Aurora inhibition helps.
-  PLK1 inhibition in the same abstract reduces BUBR1-associated PP2A recruitment.
-  A separate abstract reports partial alignment rescue after **BUBR1 depletion**,
-  but worsening after BUB1/BUB3 depletion; its exact inhibitor is unnamed in the
-  abstract. This strengthens a context-specific compensation hypothesis without
-  establishing accurate anaphase, muscle function or an eligible medicine.
-  [KARD study](https://pubmed.ncbi.nlm.nih.gov/23079597/),
-  [depletion study](https://pubmed.ncbi.nlm.nih.gov/18199686/).
+- **Aurora-B compensation:** primary review now verifies hesperadin and ZM447439
+  attachment experiments after actual BUBR1 depletion. Elevate this functional
+  comparator, while separating arrested-cell attachment from accurate completed
+  divisions. A different BUB1-excess model shows both drug benefit and adverse
+  wild-type effects. The [qualification](lead-qualification.md) gives the
+  regimens, denominator limits and next discriminating experiment; patient-cell
+  genetic PP2A rescue and the AZD1152 conference result remain separate.
+- **Previously unnamed interventions:** the arsenic paper actually administers
+  KP372-1, whose Akt label requires redox/mechanism qualification. Okadaic acid
+  is the phosphatase inhibitor restoring localization during a Haspin-inhibitor
+  assay. Their [primary-source appraisal](lead-qualification.md) prevents either
+  result being promoted to an unspecified BUBR1-restoring drug.
 - **Rapamycin:** the full published fly paper explicitly reports improved
   neuroblast counts after larval feeding, 40 µM for approximately 48 hours.
   Its genetic autophagy/TOR interventions did not restore progeny numbers or
@@ -80,9 +82,12 @@ changes Figure 2E tumor images and methods; it does not supply quantification
 or total-protein denominators for the separately discussed mTOR blot.
 [Correction](https://www.jci.org/articles/view/144781).
 
-For the 28 records without saved abstracts, nine accessible short bodies were
-read (corrections, commentaries and news); 19 remain at title/metadata depth.
-The individual rows identify this boundary. Follow-up flags also retain drug
+For the 28 records without saved abstracts, the initial pass read nine accessible
+short bodies. [Further recovery](missing-records-followup.md) now gives 18
+complete bodies, one new patent abstract, two partial texts and seven title-only
+records. Original assessments retain their historical depth, with the new
+source reading recorded separately. No new restorative drug experiment emerged
+from the recovered texts; the remaining texts are unknown. Follow-up flags retain drug
 identity, dose, model, genotype and original-figure questions from read abstracts.
 They are unresolved questions, not additional positive findings.
 

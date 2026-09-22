@@ -818,10 +818,11 @@
       "disposition": "retain experimental protein-stability probe",
       "evidence_scope": "Source-bounded appraisal from the complete-saved-abstract follow-up and specified primary checks; verification limits retained.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Primary abstract reports BUB1B thermal stabilization. ChEMBL CETSA values are not independently checked against the original figure; heat resistance is not increased unheated abundance, slower turnover or restored checkpoint function. No qualified clinical-exposure or eligible-product bridge; do not conflate with TG101348/fedratinib.",
+      "rationale": "Primary abstract reports BUB1B thermal stabilization. ChEMBL CETSA values are not independently checked against the original figure; heat resistance is not increased unheated abundance, slower turnover or restored checkpoint function. No qualified clinical-exposure or eligible-product bridge; do not conflate with TG101348/fedratinib. Original JAK2/FLT3/RET pharmacology raises a competing-target concern at the CETSA exposure; cross-assay potency is not a clinical safety margin. See the primary lead qualification.",
       "source_report": "workflow/track2-drug-census/target-assay-review.md",
       "source_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/39818011/"
+        "https://pubmed.ncbi.nlm.nih.gov/39818011/",
+        "https://pubmed.ncbi.nlm.nih.gov/17541402/"
       ]
     },
     {
@@ -833,10 +834,12 @@
       "disposition": "prioritize experimental chromosome-fidelity comparator for source and exposure qualification",
       "evidence_scope": "Source-bounded appraisal from the complete-saved-abstract follow-up and specified primary checks; verification limits retained.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Actual compound treatment reduced mitotic aberrations/CIN and increased checkpoint transcripts including BubR1 in noncancerous CCD841 colon cells, with opposite checkpoint effects in HCT116 cancer cells. Noncancerous proliferation was slightly inhibited. Full source figures/exposure, BUBR1 mediation, muscle transfer and eligible product remain unresolved; stronger than a docking hit, not demonstrated MVA rescue.",
-      "source_report": "workflow/track2-drug-census/abstract-review-findings.md",
+      "rationale": "Noncancerous-colon chromosome-fidelity evidence survives source qualification; selected captions specify 40 micrograms/mL for 24 hours. Lowest active dose and original figure denominators remain unverified. Oral animal studies did not detect parent; increased formulation exposure concerns ellagic acid. This leaves the systemic parent-exposure bridge unresolved, not impossible, and does not transfer efficacy to metabolites. Retain an experimental comparator, not an elected MVA medicine.",
+      "source_report": "workflow/track2-drug-census/lead-qualification.md",
       "source_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/30403302/"
+        "https://pubmed.ncbi.nlm.nih.gov/30403302/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5543565/",
+        "https://doi.org/10.1016/j.ijpharm.2024.124333"
       ]
     },
     {
@@ -903,6 +906,60 @@
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC12570107/"
       ]
+    },
+    {
+      "decision_id": "new-aurora-balancing",
+      "match_aliases": [
+        "hesperadin",
+        "ZM447439",
+        "ZM-447439"
+      ],
+      "route": "Timed Aurora-B balancing: hesperadin / ZM447439",
+      "disposition": "elevate experimental functional-compensation comparator",
+      "rationale": "Actual BUBR1-depletion studies show drug-mediated attachment improvement under MG132 arrest, stronger mechanistic evidence than expression alone. Accurate completed division and muscle output remain unproved in that lesion. A different BUB1-excess model shows segregation benefit alongside failed mitoses and adverse wild-type aneuploidy. Qualify timed treatment, withdrawal, checkpoint surveillance and absolute productive output; do not transfer between drugs or from genetic patient-cell PP2A rescue.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/15592459/",
+        "https://pubmed.ncbi.nlm.nih.gov/18199686/",
+        "https://pubmed.ncbi.nlm.nih.gov/23079597/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3115799/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3654266/"
+      ],
+      "evidence_scope": "Primary-source qualification; model, endpoint and source-access limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/lead-qualification.md"
+    },
+    {
+      "decision_id": "new-kp372-1",
+      "match_aliases": [
+        "KP372-1",
+        "KP-372-1"
+      ],
+      "route": "KP372-1",
+      "disposition": "retain toxin-model pharmacology; decline MVA restoration nomination",
+      "rationale": "Primary paper confirms administered KP372-1 prevented an arsenic-associated aneuploidy increase; it was not merely genetic Akt suppression. Concentration remains unlocated in the inspected full text and figures. Terminal chromosome fractions leave selection/proliferation unresolved. Separate primary studies establish NQO1 redox cycling and context-dependent Akt effects, preventing selective Akt or general genome-protection claims. Neither BUBR1-loss rescue nor a qualified human-exposure bridge is established.",
+      "source_urls": [
+        "https://www.genesandcancer.com/article/185/text/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4427571/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9530825/"
+      ],
+      "evidence_scope": "Primary-source qualification; model, endpoint and source-access limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/lead-qualification.md"
+    },
+    {
+      "decision_id": "new-okadaic-acid",
+      "match_aliases": [
+        "okadaic acid"
+      ],
+      "route": "Okadaic acid",
+      "disposition": "identified localization-assay reagent; decline restoration nomination",
+      "rationale": "The phosphatase inhibitor restores Bub1/BubR1 localization during an imposed Haspin-inhibitor perturbation. This identifies the formerly unnamed intervention, not a demonstration of checkpoint function, accurate division or useful mutant BUBR1 restoration. No eligible therapeutic implementation follows from the assay.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3471222/"
+      ],
+      "evidence_scope": "Primary-source qualification; model, endpoint and source-access limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/lead-qualification.md"
     }
   ]
 }
