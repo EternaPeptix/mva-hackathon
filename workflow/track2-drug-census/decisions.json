@@ -1346,13 +1346,14 @@
       ],
       "route": "STLC and monastrol / Eg5 force balancing",
       "disposition": "conditional motor-force comparator; whole-population fidelity unresolved",
-      "rationale": "Actual inhibitors shorten delayed mitosis and partly improve fibers after HMMR depletion. Timing analysis selects cells already having aligned chromosomes and normal bipolar spindles; mispositioning persists. Main/supplemental concentrations differ. Genetic chromosome counts cannot establish drug-treated faithful output.",
+      "rationale": "Actual inhibitors shorten delayed mitosis and partly improve fibers after HMMR depletion. Timing analysis selects cells already having aligned chromosomes and normal bipolar spindles; mispositioning persists. Main/supplemental concentrations differ. Genetic chromosome counts cannot establish drug-treated faithful output. A separate LIC-depletion study actually uses STLC: depleted frog embryos gain bipolar spindles but retain abnormal categories, while depleted HeLaM cells lose bipolar prevalence and become predominantly monopolar. Control cells/embryos also become predominantly monopolar. Fixed distributions do not track individual cell transitions; these are lesion/model-specific structural effects, not completed faithful divisions.",
       "source_urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5905292/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5905292/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4242835/"
       ],
-      "evidence_scope": "Targeted primary-source qualification; intervention, model, endpoint and source-reading limits in linked report.",
+      "evidence_scope": "Targeted primary qualification of distinct HMMR and LIC studies; new Figure9/TablesS1-S2 independently checked. Intervention/model scopes remain separate.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "source_report": "workflow/track2-drug-census/intervention-qualification.md"
+      "source_report": "workflow/track2-drug-census/intervention-identity-followup.md"
     },
     {
       "decision_id": "new-channel-blockers",
@@ -1603,6 +1604,58 @@
       "source_urls": [
         "https://doi.org/10.1002/ctm2.70460"
       ]
+    },
+    {
+      "decision_id": "new-no-donors",
+      "match_aliases": [
+        "DETA/NO",
+        "diethylenetriamine NONOate",
+        "PROLI/NO",
+        "proline NONOate"
+      ],
+      "route": "Distinct NO donors DETA/NO and PROLI/NO / vascular UbcH10 suppression",
+      "disposition": "retain vascular precedent; do not advance for MVA muscle benefit",
+      "rationale": "DETA/NO suppresses rat vascular-cell proliferation and UbcH10 signal; distinct locally delivered PROLI/NO supplies representative injured-artery morphology and protein changes. The paper has no quantified lesion efficacy or vascular-function outcome, and BUBR1 is discussion-only speculation. Three rats/group are not multiplied by replicate stains; culture-donor numbers remain unresolved. Figure3B absorbance labeling conflicts with the thymidine methods/legend. Neither donor inherits inhaled-NO or other nitrate eligibility/exposure; no muscle output, faithful renewal or actual-allele benefit is demonstrated.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6959532/"
+      ],
+      "evidence_scope": "Complete public author manuscript and all seven figures reviewed; independent targeted figure checks; no supplement identified.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/intervention-identity-followup.md"
+    },
+    {
+      "decision_id": "new-gsk923295",
+      "match_aliases": [
+        "GSK-923295",
+        "GSK923295"
+      ],
+      "route": "GSK-923295 / CENP-E inhibition after LIC depletion",
+      "disposition": "decline restoration nomination from the inspected structural result",
+      "rationale": "At100nM for90minutes, GSK-923295 decreases bipolar and increases minor-multipolar spindle prevalence after LIC depletion in HeLaM; control cells also show disruption. Four experiments with412-438 cells/condition support a context-specific structural counterexample, not a clinical safety result or class-wide MVA efficacy null. No completed fidelity or useful muscle output was established.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4242835/"
+      ],
+      "evidence_scope": "Targeted primary Results/Discussion/Methods; Figure9 and TablesS1/S2 visually checked, with independent verification; not whole-paper/video review.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/intervention-identity-followup.md"
+    },
+    {
+      "decision_id": "new-flavopiridol",
+      "match_aliases": [
+        "flavopiridol",
+        "alvocidib"
+      ],
+      "route": "Flavopiridol / reported memory benefit after induced amyloid injury",
+      "disposition": "retain functional report pending full qualification; no MVA nomination",
+      "rationale": "Exact primary abstract reports memory benefit after flavopiridol in nontransgenic amyloid-injected mice; this deserves other-tissue functional credit beyond neuronal markers. Main text, figures and supplements were unavailable through checked lawful sources. Behavioral assays, controls, animal counts, blinding, movement confounds, harms and durability remain unverified, not proven omissions. Eligible marketed product is unestablished; NCI confirms alvocidib identity, while an indication-specific orphan record cannot establish worldwide approval. This differs from CDK1/2-inhibitor-III stromal confluence and supplies no measured MVA muscle benefit.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/26875816/",
+        "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/alvocidib",
+        "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=426214"
+      ],
+      "evidence_scope": "Review section used only to resolve citation; complete primary abstract, official identity and indication-specific status sources; primary full-text qualification access-limited.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/intervention-identity-followup.md"
     }
   ]
 }

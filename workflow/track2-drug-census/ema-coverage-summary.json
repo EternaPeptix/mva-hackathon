@@ -1,0 +1,130 @@
+{
+  "artifact_schema_version": 1,
+  "source_attribution": "European Medicines Agency (EMA), accessed September 2026",
+  "source_url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines_json-report_en.json",
+  "source_guide_url": "https://www.ema.europa.eu/en/about-us/about-website/download-website-data-json-data-format",
+  "source_reuse_terms_url": "https://www.ema.europa.eu/en/about-us/about-website/legal-notice",
+  "source_reuse_terms_summary": "EMA-owned public information may be reproduced and distributed for commercial and non-commercial purposes with EMA attribution in each copy. Third-party content and non-EMA images are excluded. No named Creative Commons licence is asserted.",
+  "source_feed_sha256": "a2acab9410d80517e58a131d45103e8184a36dd23752cea0453e674bd2ab0cfa",
+  "source_retrieval": {
+    "path": "raw/medicines-output-medicines_json-report_en.json",
+    "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines_json-report_en.json",
+    "resolved_url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines_json-report_en.json",
+    "retrieved_utc": "2026-09-22T05:54:31.996026+00:00",
+    "bytes": 6773634,
+    "sha256": "a2acab9410d80517e58a131d45103e8184a36dd23752cea0453e674bd2ab0cfa",
+    "status": 200,
+    "content_type": "application/json",
+    "last_modified": "Tue, 22 Sep 2026 04:02:48 GMT",
+    "etag": null
+  },
+  "source_meta_unmodified": {
+    "total_records": 2746,
+    "timestamp": "2026-09-22T06:02:48Z"
+  },
+  "source_explicit_schema_or_version": null,
+  "source_schema_or_version_note": "Source exposes meta.total_records and meta.timestamp; no explicit schema/version field is present.",
+  "source_root_keys": [
+    "meta",
+    "data"
+  ],
+  "source_record_fields": [
+    "accelerated_assessment",
+    "active_substance",
+    "additional_monitoring",
+    "advanced_therapy",
+    "atc_code_human",
+    "atcvet_code_veterinary",
+    "biosimilar",
+    "category",
+    "conditional_approval",
+    "ema_product_number",
+    "european_commission_decision_date",
+    "exceptional_circumstances",
+    "first_published_date",
+    "generic",
+    "international_non_proprietary_name_common_name",
+    "last_updated_date",
+    "latest_procedure_affecting_product_information",
+    "marketing_authorisation_date",
+    "marketing_authorisation_developer_applicant_holder",
+    "medicine_status",
+    "medicine_url",
+    "name_of_medicine",
+    "opinion_adopted_date",
+    "opinion_status",
+    "orphan_medicine",
+    "patient_safety",
+    "pharmacotherapeutic_group_human",
+    "pharmacotherapeutic_group_veterinary",
+    "prime_priority_medicine",
+    "refusal_of_marketing_authorisation_date",
+    "revision_number",
+    "species_veterinary",
+    "start_of_evaluation_date",
+    "start_of_rolling_review_date",
+    "suspension_of_marketing_authorisation_date",
+    "therapeutic_area_mesh",
+    "therapeutic_indication",
+    "withdrawal_expiry_revocation_lapse_of_marketing_authorisation_date",
+    "withdrawal_of_application_date"
+  ],
+  "source_meta_timestamp_after_retrieval": true,
+  "timestamp_note": "Preserve embedded meta.timestamp, actual retrieval time and HTTP Last-Modified separately. No timestamp correction is inferred.",
+  "scope": "EMA centralised-procedure product inventory, currently Authorised Human rows only in the derived table. Not all national European authorisations or all drugs worldwide.",
+  "product_row_unit": "One EMA product number. Not a unique substance, active moiety, formulation, marketed-country or clinically equivalent-product count.",
+  "source_total_product_rows": 2746,
+  "source_unique_nonblank_product_ids": 2746,
+  "source_category_status_product_counts": {
+    "Human | Application withdrawn": 268,
+    "Human | Authorised": 1568,
+    "Human | Expired": 17,
+    "Human | Lapsed": 27,
+    "Human | Opinion": 32,
+    "Human | Opinion under re-examination": 2,
+    "Human | Refused": 63,
+    "Human | Revoked": 9,
+    "Human | Suspended": 1,
+    "Human | Withdrawn": 362,
+    "Human | Withdrawn from rolling review": 2,
+    "Veterinary | Application withdrawn": 18,
+    "Veterinary | Authorised": 308,
+    "Veterinary | Expired": 2,
+    "Veterinary | Lapsed": 2,
+    "Veterinary | Opinion": 3,
+    "Veterinary | Refused": 4,
+    "Veterinary | Suspended": 1,
+    "Veterinary | Withdrawn": 57
+  },
+  "authorised_human_product_rows": 1568,
+  "authorised_human_product_rows_no_exact_whole_field_match_any_layer": 180,
+  "authorised_human_product_rows_with_exact_name_cross_reference": 1388,
+  "authorised_human_product_rows_missing_initial_authorisation_date": 6,
+  "name_normalization": "Unicode NFKC, casefold, whitespace collapse only; whole source fields. No fuzzy match, salt removal, combination splitting, brand pruning or identity merge.",
+  "identity_limit": "Every exact match is only a name cross-reference. Multiple IDs are retained. Missing matches are UNKNOWN. Combinations and cell/vaccine descriptions remain product-level fields.",
+  "date_limit": "marketing_authorisation_date is the initial date. european_commission_decision_date can concern a later change. Positive opinion does not equal authorisation. Blank dates remain blank.",
+  "catalog_inputs": {
+    "catalog.tsv": {
+      "bytes": 3691075,
+      "sha256": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299"
+    },
+    "aliases.tsv": {
+      "bytes": 8821935,
+      "sha256": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3"
+    },
+    "drugcentral-status-unverified.tsv": {
+      "bytes": 129452,
+      "sha256": "10e227cf35b49bf07e7d28f86afee12e0ebd88335a4090275b21339396db372f"
+    },
+    "approval-overrides.json": {
+      "bytes": 27662,
+      "sha256": "3b8706a2cf66cdd3786b504a5542c4032cccf8dd525ff531846857aba82a4108"
+    },
+    "broad-hub-screen.tsv": {
+      "bytes": 2044963,
+      "sha256": "05e54144433804e08f7cdc91f18f366a296cbf4fbbad1dc88565b020c130adbe"
+    }
+  },
+  "main_census_entity_denominator_changed": false,
+  "literature_searched": false
+}

@@ -181,3 +181,15 @@ The [new primary comparison](../../workflow/track2-drug-census/next576-primary-q
 | **Ursolic acid — substantive muscle reserve** | Mouse grip/absolute force preservation after tumors became palpable; a small randomized human secondary handgrip benefit, alongside a separate controlled null. | Product/exposure bridge and MVA transfer remain unresolved. Apitegromab has stronger pediatric functional evidence; niacin retains a distinct restoration hypothesis, not proven superior muscle benefit. Defined formulation and useful output with renewal/fidelity could reopen selection. |
 | **MG132 — endpoint-specific mechanism evidence** | Improved mitotic alignment; separately, reduced protein breakdown in isolated rat muscle. | The alignment experiment leaves cells arrested after withdrawal; biochemical protein retention is not demonstrated contractile function. No bortezomib class transfer or qualified clinical regimen. |
 | **DHMMF — decline restoration nomination from observed endpoints** | RACK1-associated tumor-cell activity supported beyond docking. | More phospho-BUBR1 accompanies spindle/DNA damage and lower viability. No useful muscle output, normal-tissue window or eligible clinical exposure established. |
+
+
+### Intervention identity and competing endpoints
+
+The [source follow-up](../../workflow/track2-drug-census/intervention-identity-followup.md) resolves further routes without changing the nominated pair.
+
+| Unelected route | Evidence credited | Weakness and reopening requirement |
+|---|---|---|
+| **DETA/NO and PROLI/NO — vascular precedent** | Vascular-cell proliferation suppression and representative arterial lesion morphology, in separate donor experiments. | BUBR1 is speculation only; no measured skeletal-muscle output or quantified vascular function. Resolve assay inconsistency and demonstrate tissue-appropriate benefit with the actual donor/exposure before promotion. |
+| **STLC — conditional motor-force balancing** | More bipolar spindles in LIC-depleted frog embryos, with residual abnormalities. | Human-cell bipolar prevalence falls and controls become predominantly monopolar. Require complete accurate divisions and useful output, not fewer multipolar spindles alone. |
+| **GSK-923295 — decline restoration nomination from this source** | A mechanistic CENP-E comparator in the same study. | Worsens bipolar/minor-multipolar categories in depleted human cells and affects controls; no useful tissue outcome. A different beneficial regimen would need direct evidence. |
+| **Flavopiridol — functional report pending qualification** | Primary abstract reports memory benefit in amyloid-injected mice. | Full paper, behavioral controls, animal counts and harms remain unverified; eligible product and MVA/muscle transfer unresolved. Obtain lawful primary detail before judging the signal's robustness. |

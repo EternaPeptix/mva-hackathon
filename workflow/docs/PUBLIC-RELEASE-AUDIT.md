@@ -548,3 +548,27 @@ normally innervated muscle area/volume. Independent source and competitor review
 comparison without declaring clinical superiority. Historical ledgers, baseline
 inventory, Track 1 uploads and current media are preserved. Further scientific
 questions remain, so publication and Track 2 submission are pending.
+
+
+### 21 September 2026: intervention identity and direct EMA product coverage
+
+Three new appraisals bring the ledger to 99: distinct NO donors, GSK-923295,
+and an access-limited flavopiridol behavioral report. The existing STLC route
+now distinguishes partial frog-embryo structural benefit from reduced human-cell
+bipolarity and control harm. Source reading depths, nested observation counts,
+an assay-label inconsistency and unavailable primary details remain explicit.
+No abstract-reading records or experimental efficacy outcomes were added.
+
+The separate EMA supplement retains 1,568 currently authorised human product
+rows from an official 2,746-record feed; 180 whole-field names lack exact
+cross-references. It does not add 180 medicines or change the 15,357 main/supplement
+denominator. Original metadata preserves IDs, status, initial/later dates,
+attribution and an unexplained source-clock discrepancy. Raw feed/page responses
+stay outside Git; the included code and compact metadata support source replay.
+Each product explicitly has unassessed BUB1B efficacy in this layer. Independent
+reconstruction confirms source counts, examples and combination traps.
+
+The update preserves historical source fields, baseline inventory, Track 1
+uploads and current pitch media. It is a private draft, with no new rubric score,
+clinical sign-off, biological experiment or Track 2 submission. Further literature
+and product-identity work remains; the publication/submission condition is unmet.

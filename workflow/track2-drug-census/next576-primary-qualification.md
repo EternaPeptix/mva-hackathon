@@ -108,8 +108,8 @@ MG132 result.
 provides a distinct positive result for an actual bortezomib-containing regimen.
 The complete 17-page article, captions and three-page supplement were reviewed;
 Figure4 and the supplemental treatment/survival figures received independent
-visual checks. This updates the existing bortezomib appraisal, leaving the
-ledger at 96 route/compound appraisals.
+visual checks. This updated the existing bortezomib appraisal while the
+ledger contained 96 route/compound appraisals; later source checks are separate.
 
 Neonatal CD-1 mice underwent permanent unilateral brachial-plexus denervation
 at postnatal day5. Optimized treatment combined bortezomib with

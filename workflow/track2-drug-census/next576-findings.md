@@ -48,6 +48,8 @@ source for follow-up. These are source-qualification tasks, not three establishe
 new drug leads. The Eg5 finding may add another lesion-specific result to the
 already-appraised STLC/monastrol route, without adding a medicine entity.
 
+The [intervention-identity follow-up](intervention-identity-followup.md) now resolves those three sources: distinct NO donors, STLC and flavopiridol. Flavopiridol remains primary-abstract-only; STLC has opposing structural directions across models. The table above retains the original abstract-stage questions, not a claim that source identity is still unresolved. Historical flags and record counts are unchanged.
+
 ## Coverage and recovery boundaries
 
 The [selection](outer-unfiltered-next576-selection.json) continues the previous

@@ -60,6 +60,14 @@ mention rows and unresolved identity/status flags. These are overlapping source
 entries, not additions to the 15,357 main denominator. The independent parser
 and name screen preserve missing sample groups and scientific inequality text.
 
+The direct [EMA inventory crosscheck](ema-coverage-review.md) adds a separate
+layer of **1,568 currently authorised human product rows**. Of these, **180**
+have no exact whole-field name cross-reference to the saved catalog layers.
+These are unresolved product/identity questions, not 180 new unique medicines.
+The 15,357-entity denominator is unchanged, and the EMA layer performs no
+BUB1B efficacy assessment. Initial authorisation, later decisions and positive
+opinions remain distinct.
+
 ## Inclusion, identity and status rules
 
 `catalog.py` takes the union of ChEMBL `max_phase >= 1` and
@@ -386,9 +394,11 @@ all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
 claim full-text review of all ranked records. The decision ledger now contains
-96 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 96 approved medicines.
+99 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 99 approved medicines.
 
 The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.
 
 The [next unfiltered pass](next576-findings.md) adds 576 complete saved abstracts, bringing current outer coverage to **1,393 source/ID records** with **4,366 originally saved abstracts unread**. It flags 62 source questions; these are not completed primary appraisals. `verify_next576.py` independently replays the fixed selection and content hashes when supplied the original retrievals. The [primary comparison](next576-primary-qualification.md) adds ursolic acid, MG132 and DHMMF at explicit evidence depths. It also revises the existing bortezomib appraisal for combination-specific contracture benefit and growth/mortality tradeoffs, without changing the 96-entry total. Six conference abstract texts and one primary letter form a separate recovery overlay; no entire conference book is claimed as read.
+
+The [intervention-identity follow-up](intervention-identity-followup.md) adds three route/compound appraisals and revises the existing STLC route, bringing the current ledger to **99**. The 1,393 outer-record and 4,366 unread-abstract counts are unchanged; primary follow-up is not a new abstract-reading batch.

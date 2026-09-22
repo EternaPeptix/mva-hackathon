@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 96 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 99 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -198,3 +198,12 @@ absence-of-further-leads claim or new submission follows.
 The [additional 576 assessments](next576-findings.md) bring outer coverage to 1,393 source/ID records, leaving 4,366 originally saved abstracts unread. The [primary comparison](next576-primary-qualification.md) admits **ursolic acid as a substantive functional reserve**: its mouse grip and absolute-force benefit and small randomized human handgrip signal deserve credit alongside the separate human null. It challenges niacin on empirical muscle benefit; niacin is retained for the distinct restoration hypothesis. Apitegromab retains stronger pediatric disease-associated functional evidence. None has demonstrated MVA efficacy, and ursolic-acid product/exposure eligibility remains unresolved.
 
 **MG132** has separate alignment and ex vivo muscle-proteolysis benefits, without demonstrated completed faithful division or contractile improvement in the inspected studies. **DHMMF** has RACK1-associated tumor-cell activity, with phospho-BUBR1 rising during damage. These endpoints do not justify muscle-restoration election. The same primary comparison upgrades the existing **bortezomib** entry: bortezomib plus humanin prevented neonatal-denervation contractures, but mortality and reduced normally innervated muscle growth keep it a combination-specific reserve. No active-force or monotherapy benefit is established. The ledger adds three appraisals and revises this existing entry, leaving 96; these are not 96 approved medicines or closed efficacy questions. Further source flags and unread literature remain; publication and submission remain pending.
+
+## Exact intervention and endpoint follow-up
+
+The [three-source check](intervention-identity-followup.md) raises the ledger to 99 appraisals without adding abstract records. It identifies DETA/NO and PROLI/NO as distinct vascular interventions, resolves the behavioral claim to flavopiridol while retaining full-text access limits, and qualifies GSK-923295 as a source-specific adverse structural comparator. The existing STLC route now separates partial frog-embryo bipolarity recovery from human-cell monopolar prevalence and control harm. None supplies a stronger current muscle nomination; the reported brain and vascular findings are preserved at their actual evidence depth.
+
+
+## A current non-US inventory exposes remaining identity work
+
+The [EMA direct-feed comparison](ema-coverage-review.md) retains 1,568 authorised human product records separately from the 15,357-entity census. There are 180 whole-field name mismatches, including combinations and descriptions. Official pages confirm garadacimab, zapomeran and etuvetidigene autotemcel examples without exact matches in the compared layers; these are unresolved identity candidates, not new BUB1B leads. Kygevvi components and dorocubicel already have catalog entries. The supplement separates initial authorisation from later decisions and recommendations, preserves a source timestamp discrepancy, and leaves efficacy unassessed. These gaps are another reason not to claim enumeration or evaluation of every drug.

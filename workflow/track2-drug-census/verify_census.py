@@ -232,6 +232,27 @@ def main():
     if (P/'outer-unfiltered-next576-review.json').exists():
         from verify_next576 import check as check_next576
         check_next576()
+    if (P/'ema-coverage-summary.json').exists():
+        ema=json.loads((P/'ema-coverage-summary.json').read_text())
+        products=read('ema-authorised-human-products.tsv')
+        assert len(products)==len({r['ema_product_number'] for r in products})==ema['authorised_human_product_rows']
+        assert all(r['ema_product_number'] and r['category']=='Human' and r['medicine_status']=='Authorised' for r in products)
+        assert ema['main_census_entity_denominator_changed'] is False and ema['literature_searched'] is False
+        for name,expected in ema['catalog_inputs'].items():
+            payload=(P/name).read_bytes()
+            assert len(payload)==expected['bytes'] and hashlib.sha256(payload).hexdigest()==expected['sha256'],name
+        missing=0
+        for r in products:
+            fields=json.loads(r['exact_name_cross_references_by_field'])
+            assert set(fields)=={'name_of_medicine','active_substance','international_non_proprietary_name_common_name'}
+            found=any(fields.values());missing+=not found
+            assert r['name_match_state']==('EXACT_NAME_CROSS_REFERENCE_ONLY' if found else 'NO_EXACT_WHOLE_FIELD_MATCH_IDENTITY_UNKNOWN')
+            assert r['substance_or_product_equivalence']=='UNKNOWN_NOT_EVALUATED'
+            assert r['bub1b_efficacy_state']=='UNKNOWN_NOT_ASSESSED_IN_EMA_LAYER'
+            assert r['source_feed_sha256']==ema['source_feed_sha256'] and r['source_attribution']==ema['source_attribution']
+        assert missing==ema['authorised_human_product_rows_no_exact_whole_field_match_any_layer']
+        assert len(products)-missing==ema['authorised_human_product_rows_with_exact_name_cross_reference']
+        assert sum(not r['marketing_authorisation_date'] for r in products)==ema['authorised_human_product_rows_missing_initial_authorisation_date']
     if (P/'broad-hub-summary.json').exists():
         broad=json.loads((P/'broad-hub-summary.json').read_text())
         broad_rows=read('broad-hub-screen.tsv');broad_mentions=read('broad-hub-mentions.tsv')
@@ -261,5 +282,5 @@ def main():
             assert hashlib.sha256((P/meta['file']).read_bytes()).hexdigest()==meta['sha256']
     decisions=json.loads((P/'decisions.json').read_text())['decisions'];joins=read('decision-alias-joins.tsv')
     assert len(decisions)==len(joins) and {r['decision_id'] for r in decisions}=={r['decision_id'] for r in joins}
-    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'curated_appraisals':len(decisions),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation, including fixed-order exclusions and all419 ranked records across433 outer records; unfiltered384 plus next576 selection/review reconciliation, totaling1393 outer records; original missing143 depth reconciliation; Broad7540 preferred-name and2148 mention reconciliation with input hashes; all-target source preservation and correction mappings; complete decision joins'},indent=2))
+    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'curated_appraisals':len(decisions),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation, including fixed-order exclusions and all419 ranked records across433 outer records; unfiltered384 plus next576 selection/review reconciliation, totaling1393 outer records; original missing143 depth reconciliation; Broad7540 preferred-name and2148 mention reconciliation with input hashes; all-target source preservation and correction mappings; EMA product-state, source-input-hash and unknown-efficacy reconciliation; complete decision joins'},indent=2))
 if __name__=='__main__':main()
