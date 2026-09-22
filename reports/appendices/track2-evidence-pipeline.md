@@ -691,3 +691,14 @@ Neither incomplete experiments nor ambiguous results close an evidence gap.
 The offline [Cell selection and tissue output explorer](../../workflow/track2-model/explorer/README.md) exposes 192 comparisons from the retained aggregate-population simulation. Its default reproduces the 16.8-percentage-point increase in chromosome-normal fraction alongside an 11.0% decrease in raw differentiated-cell time. It reports absolute output and surviving counts; scenario exports retain the assumptions and source identities. This makes the endpoint failure inspectable. It does not simulate actual drugs or individual founder lineages; the founder ledger is the proposed experimental extension.
 
 The [public transfer replay](../../workflow/track2-transfer/README.md) applies sequence reconstruction and the same curated route gates to the BUB1B pair and a synthetic homozygous TRIP13 Arg354Ter example. Versioned RefSeq and Ensembl CDS agree, and the computed TRIP13 stop product and positional NMD rule agree with the published consequence. The BUBR1-stabilization rationale is not transferred to TRIP13; no qualified lead emerges from the three reviewed routes. This is a second worked example, not a second patient or biological validation. Selected variants and mechanistic assertions remain explicit expert-curated inputs. Both tools run offline from a clone with no controlled case reads.
+
+## Lessons from the clearance and fidelity comparison
+
+The [primary-source comparison](../../workflow/track2-drug-census/clearance-and-fidelity.md)
+reinforces two existing assay requirements. Retain every starting lineage in the
+output denominator; equal reseeding after treatment can conceal cell loss.
+Measure drug effects through completed divisions and withdrawal, because improved
+attachments during arrest do not establish faithful descendants. A gedatolisib
+cell-size experiment is a conditional reserve, not evidence for everolimus or
+a new primary claim. Any reserve promoted after model qualification requires
+a separate prospective design; it does not join the four core claims by default.

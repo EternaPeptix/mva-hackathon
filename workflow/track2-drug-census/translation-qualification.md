@@ -60,6 +60,9 @@ was established in the abstract and indexed primary passages inspected.
 | **Liproxstatin-1** | Aged ICR females received 10 mg/kg/day intraperitoneally for 14 days, improving oocyte yield, maturation, spindle/alignment and ferroptosis outcomes. Spindle comparisons counted 62/39/37 oocytes, not mice. [Primary study/correction](https://pmc.ncbi.nlm.nih.gov/articles/PMC12162888/), [figure captions](https://pubmed.ncbi.nlm.nih.gov/39910323/). | No fertilization, euploid-offspring, live-birth or MVA-muscle benefit was established in inspected material. The authors explicitly state that randomization and blinding were not used. Figure 8j's apparent animal-count inconsistency leaves animal n unresolved; a corrected control-image mix-up must remain disclosed. DL-alpha-tocopherol (200 µM) also improved naturally aged oocytes in vitro; deferoxamine/ferrostatin injury and genetic results remain separate. |
 | **Five-compound hepatocyte revitalization (5C)** | Forskolin + salidroside + CID755673 + GSK429286A + ETC-1002 improved lineage-traced hepatocyte expansion and liver function after established mouse injury. Caffeine-clearance testing used n=3/group. ETC-1002 is bempedoic acid. [Primary study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10746372/). | Real organ repair deserves more weight than expression alone. It is a multi-agent liver program; no individual constituent inherits the complete effect. Human hepatocytes received a reduced **3C** mixture. BUB1B transcript induction is not restored protein/checkpoint function. Chromosome fidelity and long-term tumor surveillance remain unresolved. |
 
+The subsequent [clearance and fidelity comparison](clearance-and-fidelity.md)
+qualifies the remaining named-drug, growth and chromosome-phenotype findings.
+
 ## What would change the choice
 
 PAI-1 currently supplies the strongest additional drug-mediated muscle-function

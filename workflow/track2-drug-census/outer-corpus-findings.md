@@ -1,8 +1,9 @@
-# Outer-corpus findings: 180 selected complete abstracts
+# Outer-corpus findings: 433 selected complete abstracts
 
-The initial 60-record selection and a subsequent 120-record selection contain
-180 distinct source/ID records from the 5,902-record outer set. **5,722 records
-remain outside these two selections.** These are records, not necessarily
+Three selections (60, 120 and 253 records) contain **433 distinct source/ID
+records** from the 5,902-record outer set. They now cover all **419 records in
+the stored discovery ranking**, plus 14 initially selected outside it.
+**5,469 outer records remain outside these selections.** These are records, not necessarily
 independent studies; different publication versions are not globally deduplicated.
 The original 60 assessments retain their identities and reading-depth labels.
 See the [second-pass findings](#second-pass-120-more-complete-abstracts) and
@@ -185,6 +186,52 @@ classes, not 49 beneficial medicines. Nine records warrant primary follow-up:
 
 These findings preserve additional positive and adverse evidence without changing
 the nominated pair. They do not supply a numerical MVA efficacy estimate or
-establish the absence of further leads. The 253 ranked candidates outside the
-initial 46 ranked selections and this next 120 remain unread by these passes;
-the original selection also included 14 records outside the ranking.
+establish the absence of further leads. At this historical stage, 253 ranked
+records remained unread; the completion below now covers them. The original
+selection also included 14 records outside the ranking.
+
+## Ranked completion: the remaining 253 abstracts
+
+The [fixed selection](outer-ranked-completion-selection.json) and
+[original assessments](outer-ranked-completion-review.json) complete every
+remaining record in the stored 419-row ranking. All 253 complete saved abstracts
+were read, without reselecting on their outcomes. Combined with the historical
+60 and 120, this gives 433 distinct outer source/IDs. **5,469 outer records remain
+outside these selections.** Reviews, preprints and journal versions are not
+independent experiments merely because they have different record IDs.
+
+Fourteen records need primary qualification of the following findings. These
+are follow-up questions, not fourteen newly qualified medicines. An intervention
+unnamed in an abstract is unknown, not proof that the paper contains no drug.
+
+| Record | Finding worth qualifying | Question that determines competitiveness |
+|---|---|---|
+| [28441529](https://pubmed.ncbi.nlm.nih.gov/28441529/) | Mps1 inhibition restores attachments after PP2A-B56 depletion. | Which drug/regimen, and can cells then complete faithful divisions? |
+| [29386294](https://pubmed.ncbi.nlm.nih.gov/29386294/) | Eg5 inhibition alleviates attachment instability after HMMR depletion. | Is benefit confined to that motor-force imbalance, and are chromosome outcomes improved? |
+| [37039032](https://pubmed.ncbi.nlm.nih.gov/37039032/) | PLK1 inhibition rescues defects after UBAP2L loss. | Define excess PLK1, treatment window and complete-division outcomes before extending the existing PLK1 route. |
+| [40836035](https://pubmed.ncbi.nlm.nih.gov/40836035/) | HDAC6 inhibition causes mitotic defects through SAE2/SUMO1 regulation. | Resolve compound and exposure against the oocyte-rescue result; genetic rescue cannot establish a safe drug window. |
+| [30282810](https://pubmed.ncbi.nlm.nih.gov/30282810/) | JNK suppression prevents dysplasia in aneuploid fly intestinal cells. | Is the intervention pharmacological, and does tissue output improve without preserving abnormal clones? |
+| [30931927](https://pubmed.ncbi.nlm.nih.gov/30931927/) | SHP2 inhibition improves mouse insulin sensitivity. | Identify the intervention and distinguish metabolism from measured muscle function. |
+| [PPR721586](https://europepmc.org/article/PPR/PPR721586) | Bim loss and BCL2 excess protect different tissues under MAD2 excess. | Genetic preprint evidence: is there a tolerable drug implementation that preserves renewal and tumor restraint? |
+| [32854244](https://pubmed.ncbi.nlm.nih.gov/32854244/) | Kv10.1 drug inhibition and genetic depletion have different microtubule effects. | Does the actual inhibitor reproduce the genetic chromosome benefit? |
+| [39786467](https://pubmed.ncbi.nlm.nih.gov/39786467/) | Early immune checkpoint blockade benefits polymerase-mutator mice. | Which antibodies and risk context? Point-mutation burden is not interchangeable with BUB1B instability. |
+| [39544432](https://pubmed.ncbi.nlm.nih.gov/39544432/) | A review describes STEMIN/YAP5SA RNA delivery and heart contractility recovery. | Locate the primary experiment; distinguish delivered RNA, completed divisions and organ function from review-level claims. |
+| [39838194](https://pubmed.ncbi.nlm.nih.gov/39838194/) | CDC20 depletion reduces errors during MPS1 inhibition. | Qualify intervention identity and faithful output before nominating a CDC20 inhibitor. |
+| [22132115](https://pubmed.ncbi.nlm.nih.gov/22132115/) | Restoring low MAD2/CDC20 improves myeloma segregation. | Establish the administered intervention and baseline deficit; this is not the same direction as CDC20 inhibition. |
+| [27558554](https://pubmed.ncbi.nlm.nih.gov/27558554/) | Added BMP4 restores differentiation of trisomic mouse ES cells. | Determine lineage, regimen, durable function and tumor behavior; differentiation is not chromosome correction. |
+| [29549256](https://pubmed.ncbi.nlm.nih.gov/29549256/) | PLK1 inhibition promotes abnormalities and polyps in an APC-truncated context. | Identify compounds and schedules to qualify existing PLK1 alternatives with actual counterevidence. |
+
+Other abstracts reinforce the output-versus-selection distinction. GSK923295
+impaired liver regeneration while inhibiting tumors
+([30681497](https://pubmed.ncbi.nlm.nih.gov/30681497/)). Lowering p16/Arf improved
+lymphoid progenitor renewal while restoring transformability
+([19056891](https://pubmed.ncbi.nlm.nih.gov/19056891/)). Neither observation permits
+a universal claim about all checkpoint inhibitors or senescence interventions.
+
+The [primary qualification](clearance-and-fidelity.md) separately resolves earlier
+follow-ups: PZ15227 versus DT2216, navitoclax, gedatolisib, SB-431542, EPZ-5676,
+nucleoside supplementation and specific kinase/phosphatase experiments. It
+credits positive results while preserving compound, regimen and endpoint limits.
+The new abstract leads leave the user's no-further-leads publication condition
+unmet. Niacin/apitegromab remain nominated research hypotheses under the same
+requirement for useful function, renewal and chromosome fidelity.

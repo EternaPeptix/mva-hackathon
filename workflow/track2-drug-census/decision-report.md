@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 74 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 79 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -49,7 +49,7 @@ approval, supplemental indication, CBER biologic or product formulation.
 |---|---|---|
 | **Brepocitinib** | New approval and randomized functional benefit in adult inflammatory dermatomyositis. | This is drug-specific human evidence, but no JAK-dependent inflammatory cause of this BUB1B muscle phenotype is established. It belongs beside the JAK/secretory reserve, not as proof that any myopathy responds. [VALOR](https://pubmed.ncbi.nlm.nih.gov/41910335/). |
 | **Garetosmab** | Approved activin-A blockade for FOP offers a neighboring muscle/bone signaling intervention. | The demonstrated benefit prevents ectopic bone in a different receptor disorder; it is not a myostatin or BUBR1 rescue experiment. Skin/soft-tissue infection and nosebleeding warnings also preclude assuming harmless muscle support. [FDA assessment](https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-second-treatment-fibrodysplasia-ossificans-progressiva). |
-| **Gedatolisib** | Newly approved PI3K/mTOR-directed oncology medicine is adjacent to the everolimus hypothesis. | Breast-cancer combination efficacy does not establish harmful PI3K/mTOR excess or muscle benefit in MVA; broader pathway inhibition does not solve that causal gap. [FDA assessment](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-gedatolisib-fulvestrant-or-without-palbociclib-hr-positive-her2-negative-locally). |
+| **Gedatolisib** | FDA-approved PI3K/mTOR inhibitor; a preprint also shows prevention of cell-enlargement-associated segregation errors during palbociclib arrest. | **Upgrade to a conditional cell-size/fidelity comparator.** The washout experiment is not BUBR1 restoration or muscle rescue, and dual PI3K/mTOR effects cannot be assigned to everolimus. Approval is for adult breast-cancer combinations; pediatric safety is unestablished. [Primary and label qualification](clearance-and-fidelity.md#gedatolisib-a-stronger-conditional-experiment-not-general-mtor-rescue). |
 | **Icariin** | Improved coordination and raised BUB1b among numerous markers in aged WT mice. | Neither BUB1B-mutant rescue nor BUBR1 mediation was established; exposure and an eligible drug product remain unresolved. [Primary study](https://pubmed.ncbi.nlm.nih.gov/33798737/). |
 | **Vitamin K2** | Protected neurogenesis and behavior in a neonatal surgery/anesthesia mouse model; BUB1B was among restored hub genes. | Injury prevention is a different setting; hub-gene expression does not establish causal BUBR1 rescue. The exact chemical form and formulation cannot be inferred from the vitamin-family name. [Primary study](https://pubmed.ncbi.nlm.nih.gov/40273626/). |
 | **CAPE** | Improved neurodifferentiation and selected neurological-model outcomes. | BUBR1 fell in the differentiation context; this is not evidence for BUBR1 restoration. CAPE is not caffeic acid. [Primary study](https://pubmed.ncbi.nlm.nih.gov/33244299/). |
@@ -85,7 +85,7 @@ niacin/apitegromab research comparison remains unchanged.**
 
 ## New routes outside the gene-in-abstract filter
 
-The [180-record outer review](outer-corpus-findings.md) adds actual administered
+The [433-record outer review](outer-corpus-findings.md) adds actual administered
 interventions that a gene-title/abstract gate can miss: ConA-associated oocyte
 chromosome/developmental benefit, chaetocin in progerin disease, hesperetin/CISD2,
 HDAC6 inhibitors after a TUBB8 perturbation, and conditional IAA, liraglutide and
@@ -94,7 +94,7 @@ models and endpoints, not automatically equivalent medicines. Primary follow-up 
 endpoint and **hesperetin/CISD2** for motor performance, while preserving the
 weak later-treatment force result and small rotarod denominator. TM5441 and
 genetic PAI-1 outcomes stay separate from TM5484. The review explicitly
-leaves 5,842 outer records outside this selected set.
+leaves 5,469 outer records outside the three completed selections.
 
 PLK1 is also a more concrete opportunity than its earlier genetic-only summary
 suggested: BI2536 partially restored patient-cell ciliogenesis according to the
@@ -160,3 +160,14 @@ tubacin also harms a control maturation outcome. Centromere rescue requires
 TP53 siRNA plus 2-PCPA; the liver-function result belongs to a five-agent regimen.
 These distinctions preserve real positive findings without promoting class or
 mixture results to a single approved MVA medicine.
+
+The [clearance and fidelity comparison](clearance-and-fidelity.md) upgrades
+gedatolisib from a pathway-adjacent medicine to a conditional cell-size experiment
+and okadaic acid from localization evidence to partial live-division rescue.
+PZ15227 and DT2216 remain different compounds: equal survivor reseeding limits
+the former's growth claim, while the latter has human platelet toxicity and a
+suspended pediatric combination trial. SB-431542, EPZ-5676 and a nucleoside
+mixture receive explicit positive findings and reasons for remaining reserves.
+The completed 419-record ranking still yields primary follow-ups, including
+Eg5 compensation and BMP4 differentiation. No absence-of-further-leads claim
+or new submission is justified by this pass.

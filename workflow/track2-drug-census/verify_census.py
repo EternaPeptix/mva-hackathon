@@ -188,7 +188,45 @@ def main():
             assert note['note'] and note['model'] and note['uncertainty']
             assert isinstance(note['requires_primary_followup'],bool)
             assert not {'abstractText','abstract'}&set(note)
+    if (P/'outer-ranked-completion-review.json').exists():
+        batch=json.loads((P/'outer-ranked-completion-review.json').read_text())
+        selection_path=P/'outer-ranked-completion-selection.json'
+        selection=json.loads(selection_path.read_text())
+        assert hashlib.sha256(selection_path.read_bytes()).hexdigest()==batch['selection_sha256']
+        ranking_path=P/'outer-corpus-candidate-ranking.json'
+        ranking=json.loads(ranking_path.read_text())
+        assert hashlib.sha256(ranking_path.read_bytes()).hexdigest()==batch['ranking_sha256']==selection['ranking_sha256']
+        assert batch['source_sha256']==selection['source_sha256']==l['corpus_sha256']
+        excluded=set()
+        for name,digest in selection['excluded_ledgers'].items():
+            path=P/name
+            assert hashlib.sha256(path.read_bytes()).hexdigest()==digest,name
+            excluded.update((r['source'],r['record_id']) for r in json.loads(path.read_text())['records'])
+        supplement_path=P/'outer-next120-selection.json'
+        assert hashlib.sha256(supplement_path.read_bytes()).hexdigest()==selection['supplement_exclusion_selection_sha256']
+        supplement_exclusion=json.loads(supplement_path.read_text())['excluded_sets']['pubmed-supplement-review.md']
+        excluded.update((r['source'],r['record_id']) for r in supplement_exclusion['source_ids'])
+        eligible=[(i,r) for i,r in enumerate(ranking['candidates'],1) if (r['source'],r['record_id']) not in excluded]
+        chosen=selection['records'];reviewed=batch['records']
+        assert len(eligible)==len(chosen)==len(reviewed)==selection['selected_count']==selection['reviewed_count']==batch['selected_count']==batch['reviewed_count']
+        assert len({(r['source'],r['record_id']) for r in chosen})==len(chosen)
+        for selected,note,(position,ranked) in zip(chosen,reviewed,eligible):
+            assert (selected['source'],selected['record_id'])==(ranked['source'],ranked['record_id'])
+            assert selected['ranking_position']==position
+            for field in ['source','record_id','title','abstract_sha256','ranking_position']:
+                assert selected[field]==note[field],(note['record_id'],field)
+            assert note['review_depth']=='complete_saved_abstract' and len(note['abstract_sha256'])==64
+            assert note['note'] and note['model'] and note['uncertainty']
+            assert isinstance(note['requires_primary_followup'],bool)
+            assert not {'abstractText','abstract'}&set(note)
+        assert sum(r['requires_primary_followup'] for r in reviewed)==batch['followup_count']
+        historical=[json.loads((P/name).read_text())['records'] for name in ['outer-corpus-review.json','outer-next120-review.json']]
+        combined=[r for rows in historical+[reviewed] for r in rows]
+        combined_ids={(r['source'],r['record_id']) for r in combined}
+        ranked_ids={(r['source'],r['record_id']) for r in ranking['candidates']}
+        assert len(combined_ids)==len(combined) and ranked_ids<=combined_ids
+        assert len(combined_ids)==433 and len(ranked_ids)==419
     decisions=json.loads((P/'decisions.json').read_text())['decisions'];joins=read('decision-alias-joins.tsv')
     assert len(decisions)==len(joins) and {r['decision_id'] for r in decisions}=={r['decision_id'] for r in joins}
-    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'curated_appraisals':len(decisions),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation, including fixed-order second-pass exclusions; all-target source preservation and correction mappings; complete decision joins'},indent=2))
+    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'curated_appraisals':len(decisions),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation, including fixed-order exclusions and all419 ranked records across433 outer records; all-target source preservation and correction mappings; complete decision joins'},indent=2))
 if __name__=='__main__':main()

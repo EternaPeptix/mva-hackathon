@@ -441,3 +441,31 @@ inventory remain intact. Track 1 upload artifacts and pitch media are unchanged.
 This is a private draft update, not publication, Track 2 submission, a new rubric
 score or biological validation. The continued leads leave the user's conditional
 publication/submission gate unmet.
+
+### 21 September 2026: ranked completion and compound-specific qualification
+
+The additional 253 complete saved abstracts finish the stored 419-record ranking.
+Three disjoint selections now contain 433 outer source/ID records, leaving 5,469
+outside those selections. An independent reviewer checked every source identity,
+raw abstract hash, selection/exclusion and merge, then reread 29 complete
+abstracts (a fixed sample plus all 14 new follow-ups). The historical 60/120
+ledgers remain unchanged. This is bounded abstract coverage, not 433 independent
+studies or a complete worldwide drug-efficacy review.
+
+The ledger contains 79 curated appraisals. New primary interpretation separates
+PZ15227 from DT2216, preserves platelet toxicity and the suspended pediatric
+combination trial without single-agent causal attribution, and credits actual
+navitoclax organ-function and contextual tumor findings. Gedatolisib gains a
+conditional cell-size/fidelity rationale. Okadaic acid's partial completed-mitosis
+result, SB-431542's duration-dependent growth penalty, EPZ-5676's replication gap
+and the nucleoside mixture's BUB1 model are explicit. Independent scientific
+checks led to a correction: different nucleoside preparations/endpoints cannot
+be treated as a controlled same-mixture comparison.
+
+The three new files contain original assessments, selection metadata and public
+source identifiers. Raw primary texts, figures and external review notes remain
+outside Git. Prior source fields and baseline release inventory are preserved.
+The exact Track 1 uploads, movie, captions, slides and narration are unchanged.
+A stale methods sentence was corrected to acknowledge the completed revised
+movie. No new rubric score, wet-lab result, public release or Track 2 submission
+is claimed. Further primary leads remain; niacin/apitegromab remain hypotheses.

@@ -5,7 +5,7 @@
 **[Open the Track 2 review package](REVIEW.md)** for the current report, evidence,
 revised pitch, editable slides, captions and revision-specific reviewer assessments.
 
-**Adopted broad-search revision:** the [drug census and competitive comparison](../workflow/track2-drug-census/decision-report.md) now inform the report, methods, experimental plan and narration: niacin for BUBR1 restoration and apitegromab for downstream compensation, tested separately; everolimus remains a conditional mechanism probe. The screen retains 15,357 entities plus 40 separate FDA product entries and 74 curated route/compound appraisals. Retrieval is not an efficacy assessment of every drug. Unknown evidence remains explicit, and this is not a complete worldwide medicine inventory. Vimeo replacement is verified; Track 2 submission remains pending.
+**Adopted broad-search revision:** the [drug census and competitive comparison](../workflow/track2-drug-census/decision-report.md) now inform the report, methods, experimental plan and narration: niacin for BUBR1 restoration and apitegromab for downstream compensation, tested separately; everolimus remains a conditional mechanism probe. The screen retains 15,357 entities plus 40 separate FDA product entries and 79 curated route/compound appraisals. Retrieval is not an efficacy assessment of every drug. Unknown evidence remains explicit, and this is not a complete worldwide medicine inventory. Vimeo replacement is verified; Track 2 submission remains pending.
 
 ## Track 1 submission record
 

@@ -128,7 +128,7 @@
       "disposition": "restoration reserve",
       "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "No BUBR1 functional rescue. HSP90 dependence of selected mutants does not prove rescue by another stress-response mechanism. The label's mean pediatric serum peak is about 1.7 \u00b5M, versus 200\u2013400 \u00b5M in some NPC cell experiments; these are total serum and nominal culture quantities, not matched free tissue exposure. [IBM](https://pubmed.ncbi.nlm.nih.gov/37739573/) and [ALS](https://pubmed.ncbi.nlm.nih.gov/38782015/) randomized trials were negative, with tolerability limitations; neither tested MVA.",
+      "rationale": "No BUBR1 functional rescue. HSP90 dependence of selected mutants does not prove rescue by another stress-response mechanism. The label's mean pediatric serum peak is about 1.7 µM, versus 200–400 µM in some NPC cell experiments; these are total serum and nominal culture quantities, not matched free tissue exposure. [IBM](https://pubmed.ncbi.nlm.nih.gov/37739573/) and [ALS](https://pubmed.ncbi.nlm.nih.gov/38782015/) randomized trials were negative, with tolerability limitations; neither tested MVA.",
       "source_report": "reports/appendices/track2-route-decisions.md",
       "source_urls": [
         "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc&version=5",
@@ -294,12 +294,14 @@
       ],
       "route": "Navitoclax",
       "disposition": "selective-clearance research reserve, decline current medication lead",
-      "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
+      "evidence_scope": "Human platelet toxicity; separate mouse neurovascular/cognitive benefit and chemotherapy-pretreated T-ALL challenge counterexample.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Baker used INK-ATTAC/AP20187, not navitoclax. [Human phase I experience](https://pmc.ncbi.nlm.nih.gov/articles/PMC4979082/) found platelet toxicity with intermittent as well as continuous exposure; sparing megakaryocytes does not establish survival of BCL-XL-dependent platelets. No pediatric MVA senolytic pulse schedule or approved-product eligibility was established here.",
-      "source_report": "reports/appendices/track2-route-decisions.md",
+      "rationale": "Baker used INK-ATTAC/AP20187, not navitoclax. [Human phase I experience](https://pmc.ncbi.nlm.nih.gov/articles/PMC4979082/) found platelet toxicity with intermittent as well as continuous exposure; sparing megakaryocytes does not establish survival of BCL-XL-dependent platelets. No pediatric MVA senolytic pulse schedule or approved-product eligibility was established here. A separate paclitaxel mouse study reports neurovascular/BBB/cognitive benefit; measured muscle tests had no injury deficit to rescue. Navitoclax worsened a distinct chemotherapy-pretreated minimal-cell T-ALL challenge. Timing/dose discrepancies and tumor-context limits remain unresolved; no MVA benefit or universal harm is inferred.",
+      "source_report": "workflow/track2-drug-census/clearance-and-fidelity.md",
       "source_urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4979082/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4979082/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10352561/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6818774/"
       ]
     },
     {
@@ -647,13 +649,15 @@
         "gedatolisib"
       ],
       "route": "gedatolisib",
-      "disposition": "PI3K/mTOR reserve; no advantage over conditional pathway probe established",
+      "disposition": "conditional cell-size/fidelity comparator; retain existing research nominees",
       "evidence_scope": "Selected primary-source appraisal; access/model limits in linked review. Not an all-literature efficacy assessment.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Breast-cancer combination efficacy does not demonstrate harmful excess growth signaling or muscle benefit in MVA.",
-      "source_report": "workflow/track2-drug-census/decision-report.md",
+      "rationale": "Beyond adult breast-cancer approval, a preprint shows actual-drug prevention of enlargement-associated segregation defects during prolonged palbociclib arrest, followed by washout. This is a dual PI3K/mTOR intervention, not evidence for everolimus. No BUB1B-mutant muscle rescue, reversal of established aneuploidy or pediatric safety is established. Test only after confirming the relevant progenitor size defect and preserve absolute output/renewal.",
+      "source_report": "workflow/track2-drug-census/clearance-and-fidelity.md",
       "source_urls": [
-        "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-gedatolisib-fulvestrant-or-without-palbociclib-hr-positive-her2-negative-locally"
+        "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-gedatolisib-fulvestrant-or-without-palbociclib-hr-positive-her2-negative-locally",
+        "https://doi.org/10.1101/2025.07.01.662622",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/219908Orig1s000lbl.pdf"
       ]
     },
     {
@@ -869,13 +873,14 @@
       "disposition": "retain same-disease cellular comparator; limited administered-drug precedent",
       "evidence_scope": "Original figures/supplement for RNAi; primary 2015 body reports patient-drug result with data not shown; patient regimen unknown.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "PCS1 RNAi reduced centrosome amplification; it was not proven interphase-restricted. BI2536 separately reportedly partially restored patient ciliogenesis, with data not shown and no qualified patient dose/timing. Mitotic PLK1 also supports BUBR1/PP2A attachment, so normalization requires full-division and output testing. No drug-treated faithful patient divisions or muscle benefit established.",
+      "rationale": "PCS1 RNAi reduced centrosome amplification; it was not proven interphase-restricted. BI2536 separately reportedly partially restored patient ciliogenesis, with data not shown and no qualified patient dose/timing. Mitotic PLK1 also supports BUBR1/PP2A attachment, so normalization requires full-division and output testing. No drug-treated faithful patient divisions or muscle benefit established. A distinct B56-PP2A depletion study also restores cold-stable fibers under MG132 with named kinase inhibitors; arrest prevents treating this as accurate completed division.",
       "source_report": "workflow/track2-drug-census/lead-qualification.md",
       "source_urls": [
         "https://www.nature.com/articles/onc2009141/figures/7",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC5099117/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC3910577/",
-        "https://pubmed.ncbi.nlm.nih.gov/23079597/"
+        "https://pubmed.ncbi.nlm.nih.gov/23079597/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3186838/"
       ]
     },
     {
@@ -923,13 +928,14 @@
       ],
       "route": "Timed Aurora-B balancing: hesperadin / ZM447439",
       "disposition": "elevate experimental functional-compensation comparator",
-      "rationale": "Actual BUBR1-depletion studies show drug-mediated attachment improvement under MG132 arrest, stronger mechanistic evidence than expression alone. Accurate completed division and muscle output remain unproved in that lesion. A different BUB1-excess model shows segregation benefit alongside failed mitoses and adverse wild-type aneuploidy. Qualify timed treatment, withdrawal, checkpoint surveillance and absolute productive output; do not transfer between drugs or from genetic patient-cell PP2A rescue.",
+      "rationale": "Actual BUBR1-depletion studies show drug-mediated attachment improvement under MG132 arrest, stronger mechanistic evidence than expression alone. Accurate completed division and muscle output remain unproved in that lesion. A different BUB1-excess model shows segregation benefit alongside failed mitoses and adverse wild-type aneuploidy. Qualify timed treatment, withdrawal, checkpoint surveillance and absolute productive output; do not transfer between drugs or from genetic patient-cell PP2A rescue. A distinct B56-PP2A depletion study also restores cold-stable fibers under MG132 with named kinase inhibitors; arrest prevents treating this as accurate completed division.",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/15592459/",
         "https://pubmed.ncbi.nlm.nih.gov/18199686/",
         "https://pubmed.ncbi.nlm.nih.gov/23079597/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC3115799/",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3654266/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3654266/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3186838/"
       ],
       "evidence_scope": "Primary-source qualification; model, endpoint and source-access limits retained.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
@@ -959,14 +965,15 @@
         "okadaic acid"
       ],
       "route": "Okadaic acid",
-      "disposition": "identified localization-assay reagent; decline restoration nomination",
-      "rationale": "The phosphatase inhibitor restores Bub1/BubR1 localization during an imposed Haspin-inhibitor perturbation. This identifies the formerly unnamed intervention, not a demonstration of checkpoint function, accurate division or useful mutant BUBR1 restoration. No eligible therapeutic implementation follows from the assay.",
+      "disposition": "partial mitotic-fidelity reagent comparator; decline restoration medicine nomination",
+      "rationale": "In addition to Haspin-perturbation localization, 20nM okadaic acid partly restores visually normal completed mitoses under partial RO3306/CDK1 inhibition in HeLa cells. Most cells remain abnormal; no sustained faithful descendants, muscle benefit or eligible therapeutic exposure is established. Do not mislabel this as localization-only or as BUBR1 restoration.",
       "source_urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3471222/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3471222/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4050138/"
       ],
       "evidence_scope": "Primary-source qualification; model, endpoint and source-access limits retained.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "source_report": "workflow/track2-drug-census/lead-qualification.md"
+      "source_report": "workflow/track2-drug-census/clearance-and-fidelity.md"
     },
     {
       "decision_id": "new-cona",
@@ -1216,6 +1223,90 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC10746372/",
         "https://www.selleckchem.com/products/etc-1002.html"
       ]
+    },
+    {
+      "decision_id": "new-pz15227",
+      "match_aliases": [
+        "PZ15227"
+      ],
+      "route": "PZ15227 / CRBN-mediated BCL-XL degradation",
+      "disposition": "patient-derived clearance reserve; no net muscle-output or platelet-safety inference",
+      "rationale": "COPD cells and lung slices show target/marker changes. Growth measured after equal survivor reseeding cannot establish net output from the original population. The compound is not VHL-recruiting DT2216 and cannot inherit its clinical evidence; platelets were not tested.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13078126/"
+      ],
+      "evidence_scope": "Targeted primary-source qualification; distinct compound/model/endpoints and reading limits in linked report.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/clearance-and-fidelity.md"
+    },
+    {
+      "decision_id": "new-dt2216",
+      "match_aliases": [
+        "DT2216",
+        "DT-2216"
+      ],
+      "route": "DT2216 / VHL-mediated BCL-XL degradation",
+      "disposition": "investigational target-engagement comparator; decline current medication lead",
+      "rationale": "Adult phaseI target engagement is in peripheral leukocytes;9/20 had thrombocytopenia and8 interruptions. Pediatric/young-adult DT2216+irinotecan trial NCT06620302 is suspended for unacceptable toxicity with no results posted. Do not attribute combination toxicity to DT2216 alone, call it platelet safe, or transfer evidence to PZ15227.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12613848/",
+        "https://link.springer.com/article/10.1186/s13045-026-01837-z",
+        "https://clinicaltrials.gov/study/NCT06620302"
+      ],
+      "evidence_scope": "Targeted primary-source qualification; distinct compound/model/endpoints and reading limits in linked report.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/clearance-and-fidelity.md"
+    },
+    {
+      "decision_id": "new-sb431542",
+      "match_aliases": [
+        "SB-431542",
+        "SB431542"
+      ],
+      "route": "SB-431542 / TGF-beta receptor inhibition",
+      "disposition": "transcript-regulation reserve with duration-dependent growth harm",
+      "rationale": "Tgif1-null MEFs show Bub1b RNA increase at1µM and separate short growth benefit at0.2µM. Longer than one passage inhibited growth in both WT and null cells. No drug-mediated BUBR1 protein, chromosome correction or muscle benefit established.",
+      "source_urls": [
+        "https://doi.org/10.1371/journal.pone.0035460"
+      ],
+      "evidence_scope": "Targeted primary-source qualification; distinct compound/model/endpoints and reading limits in linked report.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/clearance-and-fidelity.md"
+    },
+    {
+      "decision_id": "new-epz5676",
+      "match_aliases": [
+        "EPZ-5676",
+        "pinometostat"
+      ],
+      "route": "EPZ-5676 / DOT1L inhibition",
+      "disposition": "cellular-lifespan reserve; chromosome quality and tissue function unresolved",
+      "rationale": "BJ fibroblast maximum population doublings increase under continuous treatment, beyond expression-only evidence. Drug-panel independent-culture n is unclear. No demonstrated BUBR1 mediation, faithful chromosomes, muscle benefit or lifespan synergy with rapamycin; genetic DOT1L effects are separate.",
+      "source_urls": [
+        "https://doi.org/10.1111/acel.70343"
+      ],
+      "evidence_scope": "Targeted primary-source qualification; distinct compound/model/endpoints and reading limits in linked report.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/clearance-and-fidelity.md"
+    },
+    {
+      "decision_id": "new-nucleoside-mixture",
+      "match_aliases": [
+        "uridine",
+        "cytidine",
+        "adenosine",
+        "guanosine"
+      ],
+      "route": "Four-ribonucleoside supplementation / mixture-only appraisal",
+      "disposition": "replication-stress and chromosome-phenotype comparator",
+      "rationale": "Uridine+cytidine+adenosine+guanosine reduce bridges/micronuclei in SV40-LT BJ/tert cells; model involves BUB1, not BUB1B. Reported50µM does not clearly resolve per-component concentration. Constituent catalog joins do not confer mixture efficacy on any single ingredient. No muscle or faithful euploid-output result; a different commercial nucleoside regimen fails a cell-enlargement checkpoint endpoint, not a controlled comparison of the same mixture.",
+      "source_urls": [
+        "https://journals.asm.org/doi/full/10.1128/jvi.02224-13",
+        "https://doi.org/10.1101/2025.07.01.662622"
+      ],
+      "evidence_scope": "Targeted primary-source qualification; distinct compound/model/endpoints and reading limits in linked report.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/clearance-and-fidelity.md"
     }
   ]
 }
