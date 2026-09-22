@@ -128,7 +128,7 @@
       "disposition": "restoration reserve",
       "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "No BUBR1 functional rescue. HSP90 dependence of selected mutants does not prove rescue by another stress-response mechanism. The label's mean pediatric serum peak is about 1.7 µM, versus 200–400 µM in some NPC cell experiments; these are total serum and nominal culture quantities, not matched free tissue exposure. [IBM](https://pubmed.ncbi.nlm.nih.gov/37739573/) and [ALS](https://pubmed.ncbi.nlm.nih.gov/38782015/) randomized trials were negative, with tolerability limitations; neither tested MVA.",
+      "rationale": "No BUBR1 functional rescue. HSP90 dependence of selected mutants does not prove rescue by another stress-response mechanism. The label's mean pediatric serum peak is about 1.7 \u00b5M, versus 200\u2013400 \u00b5M in some NPC cell experiments; these are total serum and nominal culture quantities, not matched free tissue exposure. [IBM](https://pubmed.ncbi.nlm.nih.gov/37739573/) and [ALS](https://pubmed.ncbi.nlm.nih.gov/38782015/) randomized trials were negative, with tolerability limitations; neither tested MVA.",
       "source_report": "reports/appendices/track2-route-decisions.md",
       "source_urls": [
         "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc&version=5",
@@ -975,10 +975,10 @@
       ],
       "route": "Concanavalin A / cortical tension",
       "disposition": "retain experimental chromosome-fidelity comparator; not a medicine nomination",
-      "evidence_scope": "Complete saved primary abstract; full regimen, denominators and original figures not qualified.",
+      "evidence_scope": "Primary text and selected original Figures 5/6 inspected; not raw data or comprehensive supplements.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "ConA 10 micrograms/mL during vitrified mouse-oocyte culture improves attachments, SAC activity, embryo development and aneuploidy outcome. Actual functional/fidelity signal, but cryoinjury and meiotic mechanics differ from BUB1B-deficient muscle. Clinical eligibility/exposure and complete harm window unestablished.",
-      "source_report": "workflow/track2-drug-census/outer-corpus-findings.md",
+      "rationale": "ConA 10 micrograms/mL in vitrified mouse oocytes reduced chromosome-spread aneuploidy from 41.82% to 15.87% (n46/32 oocytes; repeated-experiment means), with maturation benefit. Separate MII treatment improved parthenogenetic blastocysts, not fertilization/live birth. No tracked-cell reversal of established aneuploidy, systemic medicine window or muscle-function bridge. Actual fidelity evidence earns experimental comparison.",
+      "source_report": "workflow/track2-drug-census/translation-qualification.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/35399525/"
       ]
@@ -1023,10 +1023,10 @@
       ],
       "route": "HDAC6 inhibition / tubacin and tubastatin A",
       "disposition": "retain defined-lesion spindle-compensation precedent",
-      "evidence_scope": "Complete saved primary abstracts; full dose/denominator and chromosome/offspring results not qualified.",
+      "evidence_scope": "Primary text, selected original figures and TUBB8 supplementary S11 inspected.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Two agents improve spindle morphology and polar-body extrusion after TUBB8-D417N perturbation in oocytes. Another abstract reports SIRT2/HDAC6-inhibition rescue after RASSF1A depletion without identifying inhibitors. Neither establishes euploid offspring, BUB1B muscle rescue or a class-wide favorable deacetylase direction.",
-      "source_report": "workflow/track2-drug-census/outer-corpus-findings.md",
+      "rationale": "Tubacin 2 micromolar/Tubastatin A 10 micromolar improve engineered TUBB8-D417N mouse-oocyte morphology/maturation. Small S11 chromosome counts (30/34/26) show low rates and nonsignificant comparisons, not demonstrated aneuploidy correction/equivalence. Tubacin impairs WT-TUBB8-mRNA control maturation (rough visual 70% to43%) while benefiting some variants; R262W/N348S lack significant benefit. No offspring or muscle rescue; require lesion-specific productive-division window.",
+      "source_report": "workflow/track2-drug-census/translation-qualification.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/39834092/",
         "https://pubmed.ncbi.nlm.nih.gov/33195286/"
@@ -1040,10 +1040,10 @@
       ],
       "route": "Indole acetic acid / AhR-Sirt2",
       "disposition": "retain conditional upstream-Sirt2 research reserve",
-      "evidence_scope": "Complete saved primary abstract; mammalian transfer and exposure not qualified.",
+      "evidence_scope": "Relevant official primary Results/Methods/captions; original images and numerical survival supplement uninspected.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Supplementation extends fly lifespan and stress resistance with AhR/Sirt2 genetic corroboration. This is a real upstream administered route but not mammalian BUBR1 stabilization, faithful division or muscle restoration. Product eligibility and exposure remain unestablished.",
-      "source_report": "workflow/track2-drug-census/outer-corpus-findings.md",
+      "rationale": "Dietary IAA 50 micromolar yields approximately15% fly lifespan extension; no significant extension detected in AhR-mutant, Sirt2-mutant or Sirt2-RNAi comparisons. Five cages of40-45 flies are not200 independent intervention replicates. Pathway expression/reporter support is not BUBR1 abundance, fidelity or muscle force. Fly-food exposure is not human PK; no other AhR ligand inherits benefit.",
+      "source_report": "workflow/track2-drug-census/translation-qualification.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/40197001/"
       ]
@@ -1107,12 +1107,114 @@
       "disposition": "elevate TM5484 experimental muscle-function comparator; separate TM5441 survival reserve",
       "evidence_scope": "Primary TM5484 manuscript text/captions, TM5441 full main text plus original Figure1, and genetic muscle-study official XML. TM5484 original image units/effect sizes unresolved.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "TM5484 dietary0.01% from6to12months (n9/group) preserves nerve-evoked muscle contraction/fiber area;100mg/kg feed is not a bodyweight daily dose. Later18to19month10mg/kg/day gavage (n10/group) has fiber benefit, twitch null and tetanic trend; caption/method conflict retained. Force normalization/effect size unverified. TM5441 Klotho survival (n11) and female-specific lifelong knockout muscle benefits remain distinct, not assigned to TM5484. No BUB1B treatment model or human efficacy/product bridge established.",
+      "rationale": "TM5484 dietary0.01% from6to12months (n9/group) preserves nerve-evoked muscle contraction/fiber area;100mg/kg feed is not a bodyweight daily dose. Later18to19month10mg/kg/day gavage (n10/group) has fiber benefit, twitch null and tetanic trend; caption/method conflict retained. Force normalization/effect size unverified. TM5441 Klotho survival (n11) and female-specific lifelong knockout muscle benefits remain distinct, not assigned to TM5484. No BUB1B treatment model. Separate TM5614 adult studies improve class feasibility but cannot transfer their exposure or outcomes to TM5484/TM5441; no human muscle efficacy established.",
       "source_report": "workflow/track2-drug-census/outer-corpus-findings.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/33213843/",
         "https://www.mmt.med.tohoku.ac.jp/en/pdf/24.pdf",
         "https://www.aging-us.com/article/206318/text"
+      ]
+    },
+    {
+      "decision_id": "new-tm5614",
+      "match_aliases": [
+        "TM5614",
+        "TM 5614"
+      ],
+      "route": "TM5614 / clinical-stage PAI-1 implementation",
+      "disposition": "retain human-stage implementation reserve; no inherited muscle efficacy",
+      "evidence_scope": "Official CML/COVID Methods/Results/tables and live Japanese trial registry; no original trial-image review.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Different molecule from TM5484. Adult CML single-arm combination n33 establishes systemic exposure and bounded tolerability, with eight attributed events in six including conjunctival bleeding/liver dysfunction. COVID randomized n75 primary P=.22 (endpoint n30/31) is not positive efficacy. Live jRCT lists phase III recruiting and unapproved status in Japan. Must directly reproduce useful muscle effect; no pediatric MVA safety or current submission eligibility established.",
+      "source_report": "workflow/track2-drug-census/translation-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9972105/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10761996/",
+        "https://jrct.mhlw.go.jp/latest-detail/jRCT2021240049"
+      ]
+    },
+    {
+      "decision_id": "new-agk2",
+      "match_aliases": [
+        "AGK2"
+      ],
+      "route": "AGK2 / SIRT2 inhibition after RASSF1A depletion",
+      "disposition": "retain lesion-specific spindle comparator; decline general SIRT2-direction claim",
+      "evidence_scope": "Primary text and original Figures3/5 inspected.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "AGK2 5 micromolar for3hours after5hours maturation release improves RASSF1A-siRNA mouse-oocyte spindle/alignment, without significant restoration of measured acetyl-tubulin. No drug-mediated chromosome-count/offspring or muscle rescue. Separate AZ3146 checkpoint bypass is not AGK2 fidelity rescue. Different lesion/substrate means this neither proves universal SIRT2 benefit nor refutes BUBR1 stabilization.",
+      "source_report": "workflow/track2-drug-census/translation-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7649257/"
+      ]
+    },
+    {
+      "decision_id": "new-p53-lsd1",
+      "match_aliases": [
+        "trans-2-phenylcyclopropylamine hydrochloride",
+        "2-PCPA"
+      ],
+      "route": "trans-2-PCPA plus TP53 siRNA / centromere rescue",
+      "disposition": "retain hybrid fidelity-mechanism comparator; decline single-medicine inference",
+      "evidence_scope": "Complete abstract and targeted indexed primary Results/Methods/Figures3-5 captions; body gaps and original images remain unread.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "SigmaP8511 60micromolar72h plus TP53 siRNA reduces lagging/bridged mitoses and micronuclei relative to p53 knockdown alone in doxorubicin-senescent fibroblasts. p53 knockdown alone worsens micronuclei. Credit fidelity evidence; combined result is not 2-PCPA alone or clinical tranylcypromine efficacy. Sustained accurate descendants, muscle repair and long-term tumor behavior remain unestablished; genetic delivery/p53 dependence distinguish feasibility.",
+      "source_report": "workflow/track2-drug-census/translation-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11852275/"
+      ]
+    },
+    {
+      "decision_id": "new-cdk12",
+      "match_aliases": [
+        "CDK1/2 inhibitor III"
+      ],
+      "route": "CDK1/2 inhibitor III / stromal-cell expansion",
+      "disposition": "retain culture-expansion hypothesis; decline current muscle lead",
+      "evidence_scope": "Complete primary scientific main text/captions; no original figures/supplements. Manufacturer exact-name mapping, not experimental lot verification.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Enzo10micromolar increases short-term late-passage tonsil-MSC confluence; separate CDK1 siRNA shortens doubling time. Donors were four children, not older adults, and recruitment n is not drug-arm n. Dual CDK1/2 pharmacology cannot establish selective CDK1 causality or all-class benefit. No drug-treated chromosome correction or organ function.",
+      "source_report": "workflow/track2-drug-census/translation-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9337930/",
+        "https://www.enzo.com/product/cdk1-2-inhibitor-iii/"
+      ]
+    },
+    {
+      "decision_id": "new-liproxstatin",
+      "match_aliases": [
+        "liproxstatin-1"
+      ],
+      "route": "Liproxstatin-1 / ferroptosis inhibition",
+      "disposition": "retain oxidative-injury/meiosis comparator",
+      "evidence_scope": "Targeted indexed primary text, complete abstract, all nine captions and correction note; body gaps and original images/supplements remain unread.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Aged female mice10mg/kg/day intraperitoneal14days improve oocyte maturation/spindle/alignment; not demonstrated fertilization, euploid offspring or muscle rescue. Spindle n62/39/37 counts oocytes. Figure8j animal-denominator inconsistency unresolved; corrected control-image mix-up disclosed. Fth1 genetic and vitaminE/other-inhibitor injury results remain separate.",
+      "source_report": "workflow/track2-drug-census/translation-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12162888/",
+        "https://pubmed.ncbi.nlm.nih.gov/39910323/"
+      ]
+    },
+    {
+      "decision_id": "new-5c-liver",
+      "match_aliases": [
+        "forskolin",
+        "salidroside",
+        "CID755673",
+        "GSK429286A",
+        "ETC-1002",
+        "bempedoic acid"
+      ],
+      "route": "Five-compound liver program / mixture-only appraisal",
+      "disposition": "retain organ-regeneration precedent; no single-component MVA efficacy",
+      "evidence_scope": "Primary Results/Discussion/resources and relevant intervention/lineage/function methods; not comprehensive body/figure/supplement review.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "5C is forskolin+salidroside+CID755673+GSK429286A+ETC-1002 (bempedoic acid). It improves traced hepatocyte expansion and liver function after mouse injury; caffeine-clearance n3/group. Human hepatocytes received3C and BUB1B is a transcript association. Alias joins identify ingredients only: neither complete cocktail benefit nor muscle/fidelity rescue can be assigned to any single component. Chromosome fidelity and long-term tumor outcomes unresolved.",
+      "source_report": "workflow/track2-drug-census/translation-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10746372/",
+        "https://www.selleckchem.com/products/etc-1002.html"
       ]
     }
   ]

@@ -333,8 +333,8 @@ unrelated repository content.
 
 ## Beyond the gene-in-abstract boundary
 
-The [additional review](outer-corpus-findings.md) reads 60 explicitly selected
-complete abstracts from the 5,902 records outside the 1,460-record gene-title/
+The [additional review](outer-corpus-findings.md) reads 180 selected
+complete abstracts in two nonoverlapping passes (60 plus 120) from the 5,902 records outside the 1,460-record gene-title/
 abstract query. That outer set has 5,759 saved abstracts; the unselected records
 remain unreviewed by this pass. Selection uses muscle, progeroid and chromosome
 fidelity contexts without a clinical-catalog alias requirement. The
@@ -343,7 +343,11 @@ hashes; [original assessments](outer-corpus-review.json) distinguish drug,
 genetic, harmful-challenge and unspecified interventions. The
 [419-row discovery ranking](outer-corpus-candidate-ranking.json) is metadata
 triage, not 419 reviewed experiments. The overlap audit refers to the named
-pre-integration commit, preserving its historical meaning.
+pre-integration commit, preserving its historical meaning. The
+[next selection](outer-next120-selection.json) and
+[next assessments](outer-next120-review.json) preserve the subsequent fixed-order
+120-record pass. These are records, not globally deduplicated studies; 5,722 outer
+records remain outside both selections.
 
 These records add concrete routes including cortical-tension modulation,
 progerin-specific chaetocin and hesperetin/CISD2. Primary follow-ups are labeled

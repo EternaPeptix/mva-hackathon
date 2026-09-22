@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 68 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 74 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -85,7 +85,7 @@ niacin/apitegromab research comparison remains unchanged.**
 
 ## New routes outside the gene-in-abstract filter
 
-The [60-record outer review](outer-corpus-findings.md) adds actual administered
+The [180-record outer review](outer-corpus-findings.md) adds actual administered
 interventions that a gene-title/abstract gate can miss: ConA-associated oocyte
 chromosome/developmental benefit, chaetocin in progerin disease, hesperetin/CISD2,
 HDAC6 inhibitors after a TUBB8 perturbation, and conditional IAA, liraglutide and
@@ -149,3 +149,14 @@ The new comparison is incorporated into the written proposal and revised narrati
 The new eight-slide Skylar movie measures 180 seconds: 166.64 seconds of speech and 13.36 seconds of transitions. Technical frame, audio and caption checks passed; no full independent listening review is claimed. The niacin/apitegromab movie is **verified as V3 at [the existing Vimeo URL](https://vimeo.com/1228990028)**. Optimization is complete, the new title/description are saved, and replaced English captions are enabled. Signed-out playback at 01:19 showed the apitegromab slide with the trial result and age/background-treatment qualifications alongside the matching new caption. This was a visual playback/caption check, not full independent listening. V2 is no longer public and remains in private version history. Track 2 portal submission is separate and remains pending.
 
 The historical 77/100 review assessed the niacin/everolimus package; it is not a score for this adopted scientific revision or the replacement movie.
+
+## Translation qualification
+
+The [primary comparison](translation-qualification.md) identifies the actual
+interventions behind additional rescue claims. TM5614 has adult clinical exposure
+and ongoing phase III development, with Japanese unapproved status; it is not
+the TM5484 muscle compound. ConA has measured chromosome-number benefit, while
+tubacin also harms a control maturation outcome. Centromere rescue requires
+TP53 siRNA plus 2-PCPA; the liver-function result belongs to a five-agent regimen.
+These distinctions preserve real positive findings without promoting class or
+mixture results to a single approved MVA medicine.

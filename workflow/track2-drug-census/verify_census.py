@@ -157,7 +157,38 @@ def main():
             assert len(row['abstract_sha256'])==64 and row['review_depth']=='complete_saved_abstract'
             assert row['note'] and row['model'] and isinstance(row['requires_primary_followup'],bool)
             assert 'abstractText' not in row and 'abstract' not in row
+    if (P/'outer-next120-review.json').exists():
+        batch=json.loads((P/'outer-next120-review.json').read_text())
+        selection_path=P/'outer-next120-selection.json'
+        selection=json.loads(selection_path.read_text())
+        ranking_path=P/'outer-corpus-candidate-ranking.json'
+        ranking=json.loads(ranking_path.read_text())
+        assert hashlib.sha256(selection_path.read_bytes()).hexdigest()==batch['selection_sha256']
+        assert hashlib.sha256(ranking_path.read_bytes()).hexdigest()==selection['ranking_sha256']==batch['ranking_sha256']
+        assert selection['source_sha256']==batch['source_sha256']==l['corpus_sha256']
+        excluded=set()
+        for name,meta in selection['excluded_sets'].items():
+            path=P/name
+            assert hashlib.sha256(path.read_bytes()).hexdigest()==meta['sha256'],name
+            rows=json.loads(path.read_text())['records'] if path.suffix=='.json' else meta['source_ids']
+            keys={(r['source'],r['record_id']) for r in rows}
+            assert len(keys)==meta['count'],name
+            excluded.update(keys)
+        eligible=[(i,r) for i,r in enumerate(ranking['candidates'],1) if (r['source'],r['record_id']) not in excluded]
+        chosen=selection['records'];reviewed=batch['records']
+        assert len(eligible)>=len(chosen)
+        assert len(chosen)==len(reviewed)==selection['selected_count']==selection['reviewed_count']==batch['reviewed_count']==batch['selected_count']
+        assert len({(r['source'],r['record_id']) for r in chosen})==len(chosen)
+        for selected,note,(position,ranked) in zip(chosen,reviewed,eligible[:len(chosen)]):
+            assert (selected['source'],selected['record_id'])==(ranked['source'],ranked['record_id'])
+            assert selected['ranking_position']==position
+            for field in ['source','record_id','title','abstract_sha256']:
+                assert selected[field]==note[field],(note['record_id'],field)
+            assert len(note['abstract_sha256'])==64 and note['review_depth']=='complete_saved_abstract'
+            assert note['note'] and note['model'] and note['uncertainty']
+            assert isinstance(note['requires_primary_followup'],bool)
+            assert not {'abstractText','abstract'}&set(note)
     decisions=json.loads((P/'decisions.json').read_text())['decisions'];joins=read('decision-alias-joins.tsv')
     assert len(decisions)==len(joins) and {r['decision_id'] for r in decisions}=={r['decision_id'] for r in joins}
-    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation; all-target source preservation and correction mappings; complete decision joins'},indent=2))
+    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'curated_appraisals':len(decisions),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation, including fixed-order second-pass exclusions; all-target source preservation and correction mappings; complete decision joins'},indent=2))
 if __name__=='__main__':main()

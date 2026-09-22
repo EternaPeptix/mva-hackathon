@@ -1,4 +1,14 @@
-# Bounded outer-corpus review: 60 additional complete abstracts
+# Outer-corpus findings: 180 selected complete abstracts
+
+The initial 60-record selection and a subsequent 120-record selection contain
+180 distinct source/ID records from the 5,902-record outer set. **5,722 records
+remain outside these two selections.** These are records, not necessarily
+independent studies; different publication versions are not globally deduplicated.
+The original 60 assessments retain their identities and reading-depth labels.
+See the [second-pass findings](#second-pass-120-more-complete-abstracts) and
+[primary translation comparison](translation-qualification.md).
+
+## Initial 60-record pass
 
 **Scope:** 60/60 explicitly selected saved abstracts read on 21 September 2026; no full-paper claim. The broad corpus contains 7,362 records. Subtracting the exact source/ID union of 1,460 gene-title/abstract records leaves 5,902, of which 5,759 have saved abstracts. This pass reviews only 60 of those 5,902. It makes no efficacy or irrelevance claim about the remaining records.
 
@@ -25,6 +35,15 @@ current niacin/apitegromab nomination on evidence of MVA benefit.
 | **Calcitriol**, [31880094](https://pubmed.ncbi.nlm.nih.gov/31880094/) | Exogenous 1,25-dihydroxyvitamin D3 improves deficient/naturally aged mouse bone phenotypes and passaged human stromal-cell osteogenesis through VDR–Ezh2–p16 signaling. | Defined administered compound with organismal and human-cell outcomes, but bone-focused. Do not substitute ordinary vitamin D supplementation or infer muscle/fidelity efficacy. |
 
 None should be rejected solely for lacking the actual MVA alleles, since the current nominations share that gap. On the evidence read here, none yet establishes superior expected muscle benefit to the niacin-restoration/apitegromab-compensation comparison. ConA offers the clearest additional fidelity endpoint; chaetocin and hesperetin offer the strongest new organismal-aging signals. These remain different experimental questions, not interchangeable scores.
+
+## Primary qualification of the initial abstract findings
+
+The [translation comparison](translation-qualification.md) now resolves ConA,
+HDAC6/AGK2, IAA and the four unnamed-intervention gaps below. It preserves actual
+chromosome and organ-function benefits while distinguishing parthenogenesis,
+control-cell harm, drug–siRNA combinations and mixture-only effects. TM5614 adds
+human PAI-1 inhibitor experience, separately from the TM5484 muscle experiment.
+The original JSON assessments retain their abstract-only reading depth.
 
 ## Particularly informative full-text blind spots
 
@@ -135,3 +154,37 @@ of that treatment's lifespan result.
 `outer-corpus-review.json` contains all 60 original, source-hashed assessments: 31 primarily administered-agent records, 17 genetic, five basic-mechanism, four implementation-unspecified/other, two reviews and one biomarker-association record; 27 receive a primary-follow-up flag. These are record classifications, not 31 beneficial drugs or 27 novel routes. Agent arrays explicitly distinguish damaging challenges, engineered triggers and tracers.
 
 `outer-corpus-selection.json` controls the bounded selection; `outer-corpus-candidate-ranking.json` preserves discovery-only metadata; `outer-corpus-overlap-audit.json` preserves reviewed-set overlap checks and source hashes. Every selected source/ID/title/hash and complete-saved-abstract flag was validated. These annotations preserve the abstract-only reading depth. The separately labeled primary follow-ups below do not retroactively upgrade every abstract to a full-paper review.
+
+
+## Second pass: 120 more complete abstracts
+
+The [selection](outer-next120-selection.json) takes the first 120 eligible entries
+in the saved 419-record discovery ranking, after exact source/ID exclusions for
+the original gene review, recovered records, original 60 and explicitly appraised
+PubMed supplement. The order was fixed before reading. All selected saved
+abstracts were read and have [original assessments](outer-next120-review.json);
+this is not a full-paper claim. Exact prior-record exclusion does not make every
+route newly discovered or every publication an independent experiment.
+
+There are 118 MED and two preprint records. Classifications are 49 primarily
+administered-agent records, 35 genetic, 15 reviews, nine basic-mechanism, six other,
+four damaging-exposure and two biomarker-association records. These are record
+classes, not 49 beneficial medicines. Nine records warrant primary follow-up:
+
+| Record | What the complete abstract adds | Competitive consequence |
+|---|---|---|
+| [BCL-XL PROTAC, 41979382](https://pubmed.ncbi.nlm.nih.gov/41979382/) | Selective death of senescent COPD cells, greater proliferation, and lower airway-epithelial p21 in patient lung slices. | A BCL-XL-degrading implementation of the senolytic route. Exact molecule, dose, organ function and safety require primary qualification; no platelet-sparing or muscle claim follows. |
+| [TGF-beta receptor inhibition, 22514746](https://pubmed.ncbi.nlm.nih.gov/22514746/) | An unnamed receptor-kinase inhibitor increases proliferation in Tgif1-null fibroblasts. | Resolve the actual drug and whether productive, genomically intact descendants result. Proliferation alone cannot establish tissue repair. |
+| [Okadaic acid, 24626186](https://pubmed.ncbi.nlm.nih.gov/24626186/) | Partially rescues abnormal mitosis induced by CDK1 inhibitor RO3306 and increases completion of normal mitosis. | Adds an existing reagent's distinct kinase/phosphatase-balancing context. Exact exposure and faithful daughter-cell outcomes remain unqualified. |
+| [B56-PP2A, 21874008](https://pubmed.ncbi.nlm.nih.gov/21874008/) | Aurora/PLK1 inhibition restores stable spindle attachments after phosphatase depletion. | Extends balancing-route evidence; the abstract leaves drugs/doses unnamed and does not establish accurate completed divisions. |
+| [Navitoclax, 37243381](https://pubmed.ncbi.nlm.nih.gov/37243381/) | Drug treatment improves neurovascular, barrier and cognitive outcomes after paclitaxel in mice. Engineered-cell ablation is a separate arm. | Real functional rescue in another tissue and imposed injury; qualify the drug-specific regimen and safety before transfer to MVA. |
+| [Senescence and T-ALL, 31661505](https://pubmed.ncbi.nlm.nih.gov/31661505/) | Genetic/pharmacological clearance experiments indicate treatment-induced senescence suppresses short-term tumor recurrence. | Contextual counterevidence to indiscriminate clearance; identify the actual regimen and tumor/host contributions before extrapolation. |
+| [Histone regulation, 41482664](https://pubmed.ncbi.nlm.nih.gov/41482664/) | Inhibiting H3K79 trimethylation attenuates senescence-related gene upregulation. | Drug identity, intervention-specific lifespan and retained function are unresolved; expression change is not restored tissue. |
+| [Nucleosides, 24067972](https://pubmed.ncbi.nlm.nih.gov/24067972/) | Supplementation attenuates replication-stress signatures after SV40 large-T perturbation. | Resolve mixture and regimen; no final segregation or muscle benefit is established. This is Bub1-associated injury, not BUB1B-mutant rescue. |
+| [Cell size after CDK4/6 inhibition, PPR1045515](https://europepmc.org/article/PPR/PPR1045515) | Constraining enlargement or restoring cohesion reduces mitotic defects in a preprint's injury model. | The abstract leaves implementation unnamed. A useful arrest/escape harm boundary, not an identified restorative drug. |
+
+These findings preserve additional positive and adverse evidence without changing
+the nominated pair. They do not supply a numerical MVA efficacy estimate or
+establish the absence of further leads. The 253 ranked candidates outside the
+initial 46 ranked selections and this next 120 remain unread by these passes;
+the original selection also included 14 records outside the ranking.

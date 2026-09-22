@@ -418,3 +418,26 @@ the changed package. Historical source provenance and baseline inventory are
 preserved; raw abstracts/manuscripts stay outside Git. The nominated pair,
 Track 1 uploads and pitch media are unchanged. This remains a private draft;
 new leads do not satisfy the conditional publication/Track 2 submission request.
+
+### 21 September 2026: translation checks and another 120 abstracts
+
+The comparison now records 74 curated appraisals. Primary qualification separates
+human-stage TM5614 from the muscle compound TM5484, preserves observed adverse
+events and the Japanese unapproved designation, and distinguishes chromosome
+rescue from parthenogenesis, control-cell harm, drug–siRNA dependence and mixture
+effects. Niacin/apitegromab remain nominations without demonstrated MVA efficacy.
+
+Another 120 fixed-order complete abstracts have original assessments, bringing
+the two outer selections to 180 distinct records; 5,722 outer records remain
+outside those selections. An independent reviewer verified all 120 source
+identities/hashes and exclusions, and independently reread 15 abstracts including
+all nine follow-ups. Original gene/60-record assessments are preserved. Source
+reviewers checked the primary integration; corrections distinguish nonsignificant
+from absent effects and explicitly unused from unreported randomization/blinding.
+
+New files contain original judgments and public metadata, not raw papers,
+abstracts, figures or controlled case data. Historical source fields and baseline
+inventory remain intact. Track 1 upload artifacts and pitch media are unchanged.
+This is a private draft update, not publication, Track 2 submission, a new rubric
+score or biological validation. The continued leads leave the user's conditional
+publication/submission gate unmet.
