@@ -10,17 +10,17 @@ revised pitch, editable slides and revision-specific reviewer assessments.
   BUB1B **p.(Leu737Ter) + p.(Asn1002Lys)**, at subjective **EPCR 0.8**.
   Phase is unresolved and the missense remains VUS.
 - **[Track 2: selected medications and proposal](reports/jeweled_track2_report_submission.md).**
-  **Niacin (nicotinic acid) leads; everolimus is the downstream probe**, tested separately.
-  They test usable BUBR1 restoration versus mTORC1 normalization, with the
+  **Niacin (nicotinic acid) and apitegromab are the primary research comparison**, tested separately.
+  They test usable BUBR1 restoration versus downstream muscle compensation; everolimus remains a conditional mechanism probe. They share the
   same goal: greater absolute muscle output, preserved renewal and no worsened chromosome fidelity.
 - **[Submission index, methods and proposed pitch](reports/README.md).**
   **Track 1 model 1 scored 100 rank points and F-max 1.000 on 21 September.**
   [Submission record](reports/README.md#track-1-submission-record) distinguishes the
-  confirmed score from the pending final report-persistence check. Track 2 remains under revision and has not been submitted. The [current Skylar pitch video](https://vimeo.com/1228990028) is public with the revised niacin-first order and English captions, verified on 21 September 2026. No drug experiment has run.
+  confirmed score from the pending final report-persistence check. Track 2 has not been submitted. The new niacin/apitegromab Skylar video is **verified as V3 at the [existing Vimeo URL](https://vimeo.com/1228990028)**, with completed optimization and enabled English captions. No drug experiment has run.
 
 ## Start here
 
-**Track 2 update:** the [broad drug search](workflow/track2-drug-census/decision-report.md) found new leads, including apitegromab as a serious downstream muscle competitor. The current niacin/everolimus pitch remains provisional while these findings are incorporated; publication and submission are pending.
+**Track 2 update:** the [broad drug search](workflow/track2-drug-census/decision-report.md) is incorporated into the report, methods, experimental plan and revised narration. Niacin tests restoration; apitegromab tests compensation. The census screens 15,357 entities plus 40 separate FDA product entries, with 43 curated route/compound appraisals; retrieval is not evidence of every drug’s efficacy. The new eight-slide movie measures 180 seconds: 166.64 seconds of speech and 13.36 seconds of transitions. Technical frame, audio and caption checks passed; no full independent listening review is claimed. Vimeo V3 replacement, new title/description and signed-out apitegromab-slide/caption correspondence at 01:19 were verified on 21 September 2026. Track 2 submission remains pending.
 
 - [Reproduction guide and public replay](REPRODUCIBILITY.md)
 - [Recorded environment](workflow/environments/20260919/runtime.json)
@@ -43,9 +43,9 @@ commands, versions, input/output identities and results; it is not itself a biol
 
 **Track 2 — turn the mechanism into an experiment**
 
-6. Qualify allele products, useful BUBR1 function and harmful mTORC1 excess in controlled models.
-7. Test niacin and the everolimus probe separately at justified exposure, with genetic and tumor controls.
-8. Measure absolute muscle output, renewal and fidelity; qualify arimoclomol and senolysis reserves.
+6. Qualify allele products, useful BUBR1 function and a myostatin precursor/activation system in controlled muscle models.
+7. Test niacin and apitegromab separately at justified exposure, with drug-appropriate, genetic and tumor controls.
+8. Measure absolute muscle output, renewal and fidelity; retain everolimus as a conditional mTORC1 probe and qualify reserve routes.
 
 ## Quick start: public HG002 chromosome 20
 
@@ -89,14 +89,17 @@ The stop has a two-star ClinVar P/LP assertion and the missense remains VUS. The
 [report](reports/jeweled_track1_report_submission.md) explains the two-allele census, ten-gene
 differential, 288 bp phase blocks versus a 10,911 bp gap, and retracted mosaic signal.
 
-**Track 2:** nominate **niacin (nicotinic acid)** as the research lead and **everolimus**
-as a downstream probe, tested separately. The lead prioritizes a published MVA1 mechanism:
-insufficient usable BUBR1. Human muscle NAD engagement and separate SIRT2/BUBR1 experiments
-support testing that restoration route; they do not demonstrate niacin rescue. Everolimus
-has established target pharmacology, but harmful mTORC1 excess remains unestablished here.
-Our [RNA reanalysis](workflow/track2-rna/README.md) adds no mTORC1 support and does not settle
-the qualitative carrier-blot observation. Arimoclomol and dasatinib remain conditional reserves.
-Neither nominated drug has demonstrated benefit for this genotype.
+**Track 2:** nominate **niacin (nicotinic acid)** for BUBR1 restoration and **apitegromab**
+for downstream muscle compensation, tested separately. Human muscle NAD engagement
+and separate SIRT2/BUBR1 experiments support testing niacin; they do not demonstrate
+its restoration chain. Apitegromab has randomized motor-function evidence in SMA,
+with age, dose and background-treatment limits, labeled fracture risk and intravenous
+access burden. Neither primary candidate has demonstrated MVA rescue. The myostatin
+assay must support actual-drug engagement; excess baseline myostatin is not mandatory
+for compensation. Everolimus remains a conditional mTORC1 mechanism probe because
+harmful pathway excess is unestablished here. Our [RNA reanalysis](workflow/track2-rna/README.md)
+adds no mTORC1 support and does not settle the qualitative carrier-blot observation.
+Arimoclomol and dasatinib remain conditional reserves.
 
 The [proposal](reports/jeweled_track2_report_submission.md) and
 [evidence pipeline](reports/appendices/track2-evidence-pipeline.md) explain the

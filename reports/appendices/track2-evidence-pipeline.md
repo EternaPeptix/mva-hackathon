@@ -1,13 +1,16 @@
-# Evidence pipeline for the Track 2 niacin–everolimus comparison
+# Evidence pipeline for the Track 2 niacin–apitegromab comparison
 
-21 September 2026. The core pair is **niacin (nicotinic acid) as the research lead**
-and **everolimus as the downstream mechanism-probe arm**, tested separately.
-Niacin asks whether the NAD/SIRT2 route can restore usable BUBR1; everolimus
-asks whether partial mTORC1 normalization improves muscle despite the upstream
-lesion. Prioritizing the experimentally supported protein-insufficiency mechanism
-puts niacin first. Established everolimus pharmacology and pediatric use elsewhere
-make the downstream test implementable, but do not establish its disease premise.
-This is a research priority, not measured efficacy superiority or pediatric safety.
+21 September 2026. The core pair is **niacin (nicotinic acid) for restoration**
+and **apitegromab for downstream muscle compensation**, tested separately.
+Niacin asks whether the NAD/SIRT2 route can restore usable BUBR1; apitegromab
+asks whether selective inhibition of myostatin activation improves useful muscle
+output despite the upstream lesion. Niacin has the closer BUBR1 mechanism bridge;
+apitegromab has stronger randomized human muscle-function evidence, in SMA rather
+than MVA. Neither has demonstrated actual-allele rescue or superiority here.
+**Everolimus remains a conditional mTOR mechanism probe**, outside the core
+confirmation family unless prospectively promoted. This revision follows the
+[broad drug comparison](../../workflow/track2-drug-census/decision-report.md),
+not measured MVA efficacy or an assumption of pediatric safety.
 
 **Arimoclomol is a restoration-specific reserve; dasatinib is a reserve requiring
 harmful senescent burden and selective susceptibility.** Senolysis has the
@@ -34,6 +37,9 @@ retaining their useful assay controls. It supplies no clinical dosing proposal.
 | [Membrez 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10963276/) | Human-myotube NA/NAPRT experiments provide a direct-utilization precedent; exact results below. | No BUBR1, mutant-function or clinical-exposure result. |
 | [Aaltio 2024](https://pubmed.ncbi.nlm.nih.gov/39173541/) | A child with MTTN myopathy had metabolic improvement after niacin corrected NAD deficiency. | Disease progressed with meager clinical response: NAD normalization alone is not useful tissue rescue. |
 | [Niacin ER label, revised February 2026](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=dd60fe81-3d54-4a29-9502-601be89c575e) | Nicotinic-acid products have approved lipid-related uses. | Pediatric safety, effectiveness and pharmacokinetics are unestablished in this label. Formulation, liver, muscle and metabolic effects require review; approval does not establish an MVA indication. |
+| [SAPPHIRE, PMID 40818473](https://pubmed.ncbi.nlm.nih.gov/40818473/) | In nonambulatory SMA on nusinersen/risdiplam, ages 2–12, combined apitegromab doses improved HFMSE versus placebo by 1.8 points (95% CI 0.30–3.32; p=.019). | The 20 mg/kg comparison alone was not significant (1.4; CI −0.34–3.13; p=.11). Older participants were exploratory. No BUB1B/MVA rescue; preserve dose, age and background-treatment distinctions in the [detailed appraisal](../../workflow/track2-drug-census/apitegromab-review.md). |
+| [FDA approval, 11 September 2026](https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-therapy-target-muscle-loss-spinal-muscular-atrophy); [ISEMBYLD label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b1cd8ab8-8a10-48ed-9806-75a44f22b963) | US-approved apitegromab-mstn for SMA from age two on SMN2-targeted treatment; a defined precursor-targeting antibody implementation. | Not an MVA indication. Fractures, including serious events, and animal bone/reproductive findings matter. A muscle-culture result cannot establish systemic or RMS safety; no pediatric MVA dose is inferred. |
+| [Long 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6423420/); [EMBRAZE 2026](https://www.nature.com/articles/s41591-026-04440-4) | Related antibody muSRK-015P improved absolute torque in SMN-restored SMA mice, including a model with reduced circulating latent myostatin. Apitegromab preserved lean mass during tirzepatide treatment in adults. | Mouse torque normalized to mass did not improve; the mouse antibody is not apitegromab monotherapy. EMBRAZE found no notable physical-function difference. Neither high myostatin nor greater mass is a substitute for measured functional response. |
 | [Sieben 2020, Fig. 5C](https://www.jci.org/articles/view/126863/figure/5) | Visually stronger phospho-p70S6K/phospho-4EBP1 bands in three-month-old BubR1+/X753 gastrocnemius than WT or BubR1+/L1002P; two mice per genotype, with Ponceau S loading control. Both mutant groups are monoallelic carriers. | No total S6K/4EBP1 denominators, band quantification or inferential statistics for panel C. Qualitative bands do not establish increased pathway activity, biallelic MVA1 signaling or drug rescue. The RNA result neither validates nor refutes this observation. |
 | [Choi 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC5560052/); [Choi 2019](https://www.nature.com/articles/s41467-019-09318-3) | BUBR1 participates in insulin-receptor (IR) endocytosis; its depletion delays uptake in cultured cells. Hypomorphic mice have increased insulin sensitivity. | No N1002K-to-myogenic-mTORC1 demonstration. The 2019 SHP2 intervention prolonged liver AKT signaling, but not muscle AKT; that intervention is distinct from BUBR1 deficiency. |
 | [Everolimus label](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04) | Established mTOR inhibition and pediatric approved-use experience in specified TSC indications support a concrete drug implementation. | Neither establishes harmful mTORC1 excess, a useful exposure window or functional benefit in BUB1B-associated disease. |
@@ -43,7 +49,8 @@ retaining their useful assay controls. It supplies no clinical dosing proposal.
 | [MIPLYFFA label, March 2026](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc&version=5) | Arimoclomol with miglustat has an NPC indication from age two; estimated pediatric mean serum peak is 523 ng/mL, approximately 1.67 micromolar. | Its clinical mechanism in NPC remains unknown. Pediatric use elsewhere does not establish exposure-qualified BUBR1 rescue. |
 | [Baker 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3468323/) | INK-ATTAC-mediated clearance of p16-positive cells improved selected tissue and exercise outcomes in BubR1 hypomorphs. | Genetic selective clearance does not validate dasatinib or D+Q selectivity or functional rescue in this genotype. |
 
-Niacin leads on this restoration evidence chain; the niacin-to-functional-BUBR1
+Niacin's restoration rationale and apitegromab's compensatory rationale earn
+separate tests under the same functional criteria; the niacin-to-functional-BUBR1
 bridge remains to be established in the actual model. **NMN is a mechanistic
 reference, not an approved-drug nomination**;
 dietary-ingredient status is not drug approval. Niacin, nicotinamide/niacinamide,
@@ -56,12 +63,15 @@ also separate SIRT2-dependent acetylation, total protein and checkpoint behavior
 flowchart TD
     G[Candidate allele pair; phase unresolved] --> A[Qualify model, allele products and functional deficit]
     A --> R[Qualify precursor use and BUBR1 rescue competence]
-    A --> M[Qualify mTORC1 excess and causal normalization]
+    A --> P[Qualify available myostatin precursors and activation]
+    A -. conditional .-> M[Qualify harmful mTORC1 excess and normalization]
     A --> Q[Qualify a causal harmful senescent population]
-    R --> N[Niacin lead: separate exposure and mechanism test]
+    R --> N[Niacin restoration: separate exposure and mechanism test]
+    P --> D[Apitegromab compensation: separate exposure and mechanism test]
     M --> E[Everolimus probe: separate exposure and mechanism test]
-    E --> F[Absolute useful muscle output; preserved renewal; no worse fidelity]
+    E -. separate exploratory family .-> F[Absolute useful muscle output; preserved renewal; no worse fidelity]
     N --> F
+    D --> F
     F --> C[Independent confirmation and tumor/regimen assessment]
     R -. restoration-specific reserve .-> H[Arimoclomol]
     Q -. selective drug susceptibility .-> S[Dasatinib reserve]
@@ -75,18 +85,24 @@ flowchart TD
 
 Begin with drug-free affected-versus-corrected myogenic qualification, retaining
 procedural controls, allele-product measurements and independent editing/preparation
-identities. The first output is a reproducible, genetically interpretable deficit
+identities. The first go/no-go output is a reproducible, genetically interpretable deficit
 in absolute stimulated muscle output, or a documented failure to qualify that
 model. Failed maturation, measurement or genetic rescue leaves the system
 unresolved; it does not show that a drug failed. The phase stop and engineered-model
 qualifications below apply before interpreting this as the child's disease.
+If that model qualifies, the next small assay-qualification pilot establishes
+niacin utilization and an available, activatable myostatin precursor system in
+each functional cohort. Proceed to a candidate's regimen pilot only when its
+engagement readout is interpretable; otherwise repair that assay or record
+infeasibility. This is the first feasible staged decision, not a claim that a
+laboratory, material or instrument has been secured.
 
 | Work package | Required capability and proposed responsibility | Deliverable and next decision |
 |---|---|---|
 | Access and genetic interpretation | Prospective genetics/cell-engineering partner; authorized material and genotype/phase verification. Access is unconfirmed. | Model origin, allele configuration and controls established; apply confirmed-cis stop and label engineered alternatives. |
 | Drug-free muscle qualification | Prospective muscle laboratory; differentiation, stimulation/force measurement, viable-tissue accounting and allele assays. | Masked affected-versus-corrected comparisons; identify a functional deficit that genetic correction improves, or document why interpretation failed. |
-| Mechanism and exposure | Qualified model plus analytical/pharmacology support; phospho/total measurements, precursor use, BUBR1 function and measured compound exposure. | A justified mechanism/exposure window, or a specific unresolved limitation. Nominal concentration alone cannot qualify exposure. |
-| Separate drug pilots | Qualified cultures, randomization, masking and complete outcome accounting. | Select one regimen per drug; estimate variance and missingness; freeze benefit/preservation margins and independent confirmation size. |
+| Mechanism and exposure | Qualified model plus analytical/pharmacology support; niacin utilization/BUBR1 function, myostatin precursor activation/antibody engagement and measured exposure. mTOR studies are conditional. | A justified mechanism/exposure window, or a specific unresolved limitation. Nominal concentration alone cannot qualify exposure. |
+| Separate drug pilots | Qualified cultures, matched vehicle/isotype controls, randomization, masking and complete outcome accounting. | Select one regimen each for niacin and apitegromab; estimate variance/missingness and freeze margins and independent confirmation size. Keep conditional probes exploratory. |
 | Independent confirmation | Fresh preparations, both functional cohorts, the four-claim rule below and oncology compatibility review. | Advance only an implementation meeting functional, renewal, fidelity, exposure and compatibility requirements. |
 
 Only public-data computation and the documented analyses are currently available.
@@ -164,13 +180,14 @@ readthrough, identify the amino acid inserted at the stop, and require functiona
 full-length protein. A reporter or a larger band alone cannot establish rescue.
 No compound inherits BUB1B efficacy from a different gene or stop context.
 
-## 2. Qualify both mechanism hypotheses alongside each other
+## 2. Qualify the core mechanisms and conditional probes
 
-Genotype does not establish mTORC1 excess, NAD limitation or treatment response.
+Genotype does not establish NAD limitation, myostatin responsiveness, mTORC1
+excess or treatment response.
 Qualify the relevant mechanism in the same model before interpreting its drug
 test; failed models or assays are not candidate exclusions.
 
-### Niacin: lead restoration hypothesis, with arimoclomol as a reserve
+### Niacin: core restoration hypothesis, with arimoclomol as a reserve
 
 Separate rescue of quantity from rescue of quality.
 
@@ -255,9 +272,41 @@ North's high-dose nicotinamide inhibition does not establish that lower-dose
 nicotinamide can never raise NAD; any alternative needs its own drug and functional
 case instead of inheriting niacin's nomination.
 
-### Everolimus: downstream mechanism-probe arm
+### Apitegromab: core downstream compensation hypothesis
 
-Qualify this core hypothesis alongside restoration by testing
+Qualify the actual antibody's binding to the model's promyostatin and latent
+myostatin, including species compatibility. Measure precursor availability,
+activation and downstream response in progenitors and mature muscle separately;
+an expression band or a total serum-style latent-myostatin assay alone cannot
+establish active signaling. The [phase 1 pharmacology](https://pmc.ncbi.nlm.nih.gov/articles/PMC8189951/)
+supports precursor engagement, with increased total latent myostatin after
+binding. That accumulation must not be interpreted as increased active myostatin.
+
+Use a matched nonbinding isotype and formulation/handling controls. Pair actual
+apitegromab with a qualified orthogonal MSTN perturbation, retaining on-target
+controls and baseline viability/function. Calibrated precursor-activation and
+active-ligand controls can distinguish inhibition of activation from downstream
+unresponsiveness; artificially imposed myostatin injury remains a separate assay
+control, not the evidence of genotype rescue. Generic follistatin or activin-
+receptor blockade cannot inherit apitegromab's selectivity or serve as proof of
+its mechanism. Do not require elevated baseline myostatin: the [SMA mouse
+precedent](https://pmc.ncbi.nlm.nih.gov/articles/PMC6423420/) supports compensation
+despite lower circulating latent myostatin.
+
+Measure antibody concentration, stability, target engagement and persistence over
+a justified observation period. Plasma dose and culture concentration are not
+interchangeable; dosing from another pediatric indication supplies no MVA regimen.
+If the target/activation system is absent, the model cannot give an interpretable
+apitegromab null. If it is present and engaged but absolute force fails to improve,
+record the implementation-specific result. Increased size, lean mass or fusion
+alone cannot pass. Apply the same renewal and chromosome-fidelity preservation
+criteria as for niacin; useful compensation need not restore BUBR1. Bone outcomes,
+development and RMS compatibility require assessment beyond muscle culture, as
+specified below.
+
+### Everolimus: conditional mTOR mechanism probe
+
+Qualify this exploratory hypothesis alongside the core tests by testing
 for genotype-associated excess signaling at matched maturation, density,
 nutrients and cell composition; restoration failure is not a prerequisite.
 Measure phospho/total p70S6K and 4EBP1 and, where relevant, autophagy flux. The
@@ -367,16 +416,17 @@ isolated cells will not model those systemic feedbacks.
 
 ## 3. Compare exposure-qualified drug implementations
 
-Test vehicle, niacin and everolimus in separate treatment arms in affected and
-corrected cultures, with the relevant genetic controls above. This is not an
-everolimus–niacin combination proposal. Test arimoclomol or dasatinib separately
-if their reserve hypotheses are qualified. Use pharmacologist-reviewed concentration/time
+Test niacin and apitegromab in separate treatment arms in affected and corrected
+cultures, with drug-appropriate vehicle/isotype and genetic controls above.
+This is not a niacin–apitegromab combination proposal. Test everolimus,
+arimoclomol or dasatinib separately if their conditional hypotheses are qualified.
+Use pharmacologist-reviewed concentration/time
 ranges and measure medium concentration, stability, binding and relevant cellular
 engagement. Clinical total serum or blood concentrations are not culture-medium
 free concentrations. Match handling and observation periods; compare justified
 exposure and engagement rather than equal nominal concentrations between drugs.
 
-Estimate drug-versus-vehicle effects within affected and corrected cultures at the
+Estimate drug-versus-matched-control effects within affected and corrected cultures at the
 same endpoint, retaining baseline measurements where available. A pretreatment-to-
 follow-up gain alone cannot pass: maturation, handling or repeated measurement
 may alter output. Report each genotype's treatment contrast and its uncertainty;
@@ -393,7 +443,10 @@ assuming those gains were entirely practice effects or that niacin is ineffectiv
 Duration must be sufficient for each proposed mechanism before a negative response
 is called interpretable. High-exposure mechanistic controls can inform biology but
 cannot pass the repurposing gate. Record formulation and active analyte; a clinical
-niacin dose, an NMN mouse injection and a culture concentration are not equivalents.
+niacin dose, an NMN mouse injection, an antibody infusion and a culture
+concentration are not equivalents. For apitegromab, qualify accessible extracellular
+precursor engagement and antibody persistence rather than assuming small-molecule
+intracellular exposure criteria apply unchanged.
 Target engagement without functional benefit rejects that implementation only
 within the qualified exposure, duration, tissue and genotype tested.
 
@@ -415,7 +468,8 @@ elsewhere. Cohort outputs remain separate rather than being pooled into a score.
 Freeze useful-benefit and acceptable-loss boundaries prospectively; a nonsignificant
 difference is not proof of preservation. A claim of BUBR1 restoration additionally
 requires relevant BUBR1-dependent functional and fidelity evidence. Downstream
-mTORC1 benefit need not correct the existing mitotic defect, provided it meets the
+myostatin-mediated compensation, or a separately qualified mTORC1 benefit, need not
+correct the existing mitotic defect, provided it meets the
 common functional and preservation criteria. Conditional senolysis likewise must
 show that selective clearance improves net function while preserving replacement;
 it need not correct segregation in surviving cells. Report each mechanism claim
@@ -445,7 +499,8 @@ and harmful senescent burden separately instead of assigning every BUB1B defect
 to a senolytic-responsive population.
 
 **Senolysis:** qualify whether a senescent-cell population causes harm alongside
-mTORC1 and restoration tests; this route need not wait for either to fail.
+the core restoration/compensation tests and conditional mTORC1 work; this route
+need not wait for either core drug to fail.
 Dasatinib monotherapy is a
 conditional reserve: [fat-cell progenitor activity](https://pubmed.ncbi.nlm.nih.gov/25754370/)
 does not establish selective susceptibility or function in muscle-supporting cells.
@@ -497,9 +552,11 @@ evidence of preserved reserve. Cell counts or simulations cannot set sample size
 
 For one qualified genotype/model, freeze one exposure regimen per drug and one
 primary endpoint/time per functional cohort before independent confirmation.
-The four possible claims are everolimus or niacin benefit in progenitor-derived
-output or established-muscle output. Each claim jointly requires improvement in affected cultures versus time-matched
-vehicle beyond the chosen useful-benefit margin and preservation of the other cohort,
+The four possible claims are **niacin or apitegromab benefit in progenitor-derived
+output or established-muscle output**. Each claim jointly requires improvement in
+affected cultures versus the time-matched drug-appropriate control (vehicle for
+niacin; matched nonbinding isotype for apitegromab) beyond the chosen useful-benefit
+margin and preservation of the other cohort,
 renewable progenitor reserve and chromosome fidelity. The latter comparisons use
 predeclared acceptable-loss margins, not a failure to detect harm.
 
@@ -516,6 +573,14 @@ coverage on every displayed interval. [Endpoint logic and Holm procedure](https:
 Passing for one drug and not the other is not proof of a between-drug difference;
 a superiority claim needs its own prespecified direct comparison.
 
+Everolimus and other conditional probes belong to separately prespecified
+**exploratory** analyses; they do not add or replace claims inside this four-claim
+family after outcomes are seen. Promotion requires a prospectively expanded
+confirmation family or a separate independent confirmation study, with its own
+replication/power plan and multiplicity control. Do not reuse exploratory/pilot
+observations as confirmation or count shared preparations/controls twice as
+independent evidence. No extra confirmatory power is assumed for these probes.
+
 Pilot observations select assay times, margins, exposure and an attainable
 independent replication plan; they do not also serve as confirmatory evidence.
 Retain an untested or uninterpretable claim as nonpassing in the four-claim family
@@ -529,7 +594,15 @@ or a claim of regulatory endorsement.
 ### Rhabdomyosarcoma evidence and treatment compatibility
 
 The recorded RMS history makes oncology compatibility part of the proposed test.
-The clinical literature contains both mTOR-class trials and direct everolimus
+For apitegromab, primary RMS cell studies do not establish a uniform direction:
+blocking anti-myostatin antibodies promoted differentiation in [RD/Rh30 cells](https://pubmed.ncbi.nlm.nih.gov/14614446/),
+whereas added myostatin suppressed proliferation in [another RD experiment](https://pubmed.ncbi.nlm.nih.gov/14724580/).
+[BRD4-dependent experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC10897194/)
+also found context-dependent responses. These were not apitegromab/MVA studies;
+they establish neither tumor promotion nor recurrence safety for this candidate.
+Keep precursor-selective antibody effects distinct from other myostatin blockers.
+
+The conditional mTOR literature contains both class trials and direct everolimus
 reports; they answer different questions and cannot be pooled into an assumed
 anticancer benefit for this child.
 
@@ -546,7 +619,7 @@ oncology compatibility therefore remain separate questions.
 
 Confirm current tumor status, subtype/fusion status and the actual oncology
 regimen before choosing tumor models and treatment comparators. For **each nominated
-drug separately**, compare vehicle, candidate, confirmed oncology treatment and
+drug separately**, compare its matched control, candidate, confirmed oncology treatment and
 candidate plus that treatment. Retain absolute viable tumor output and
 post-withdrawal regrowth; early cytostasis is not durable tumor control. A
 nonresponsive treatment control cannot establish compatibility. Prespecify an
@@ -554,6 +627,16 @@ acceptable tumor-protection margin and judge its uncertainty interval, rather
 than interpreting nonsignificance as absence of interference. The [dated oncology
 framework](oncology-counterscreen.md) supplies these general design principles;
 its historical arimoclomol/NAC ranking does not govern the current candidates.
+
+The [apitegromab label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b1cd8ab8-8a10-48ed-9806-75a44f22b963)
+reports fractures in 9% at the recommended dose versus 2% with placebo, serious
+extension events and adverse animal bone/reproductive findings. Obtain the
+relevant bone/fracture and developmental context before translational advancement;
+increased muscle force cannot offset unmeasured skeletal harm. Its approximately
+31-day half-life also limits assumptions about rapid washout or reversibility.
+Carcinogenicity/genotoxicity studies were not conducted. Neither a short muscle
+assay nor a tumor counterscreen establishes these systemic outcomes. Current SMA
+approval, including pediatric use, supplies no dose or safety inference for MVA.
 
 The [everolimus label](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04)
 also makes radiation history, wound healing and actual interacting medicines
@@ -586,20 +669,21 @@ no genotype-directed chemotherapy dose change or clinical avoid-list.
 | Observation | Decision |
 |---|---|
 | Confirmed cis for the two nominated variants | Retire this pair as the compound-heterozygous explanation and stop advancing the current biallelic-MVA1 drug rationale. An independently demonstrated additional pathogenic allele in trans or dominant mechanism could justify a different causal hypothesis, never reclassify these two cis variants as compound heterozygous. |
-| Model, precursor utilization, mechanism engagement, exposure, duration or functional measurement is inadequate | Uninterpretable nonresponse; repair the limitation or report infeasibility. |
+| Model, niacin utilization, myostatin precursor/activation system, mechanism engagement, exposure, duration or functional measurement is inadequate | Uninterpretable nonresponse; repair the limitation or report infeasibility. Target absence in the assay is not apitegromab failure in the organism. |
 | Qualified assays find no genotype-associated harmful mTORC1 excess | Deprioritize the proposed everolimus normalization mechanism in that model; neither genotype nor an unrelated pathway marker can substitute for the missing premise. |
 | Additional N1002K quantity fails at matched physiological abundance | Deprioritize quantity-only rescue in that model; folding/function-per-molecule rescue remains a separate hypothesis. |
 | Genetic/mechanistic rescue works but an adequately engaged drug does not improve function | Target success, drug-implementation failure; do not discard the target or award the drug genetic efficacy. |
-| NAD, BUBR1 or pathway markers improve without functional benefit | Do not advance on markers alone. |
-| Function improves without established BUBR1 dependence | For niacin/arimoclomol, retain the observation without claiming restoration. For everolimus, independently supported mTORC1-mediated benefit can advance without correcting the pre-existing mitotic defect if common functional, renewal and fidelity criteria are met. |
+| NAD, BUBR1, myostatin markers or muscle mass improve without functional benefit | Do not advance on markers or mass alone. |
+| Function improves without established BUBR1 dependence | For niacin/arimoclomol, retain the observation without claiming restoration. For apitegromab, independently supported myostatin compensation can advance without correcting the pre-existing mitotic defect if common functional, renewal and fidelity criteria are met. The same distinction applies to a separately qualified everolimus mechanism. |
 | Favorable fractions arise only from selective loss without improved useful absolute output, or benefit requires unjustified exposure, unacceptable renewal loss, worse chromosome fidelity or credible adverse tumor effects | Fail advancement despite favorable fractions or signaling. |
 | A qualified experiment excludes a useful effect with adequate precision | Resolved negative only for the tested implementation, tissue, genotype, exposure and duration. |
-| Independent experiments meet absolute functional-benefit, renewal-preservation, no-worse-fidelity and exposure criteria with acceptable parallel results | Advance that implementation to relevant-model/translational confirmation; state only the mechanism supported by the data, with no clinical-benefit claim yet. |
+| Independent experiments meet absolute functional-benefit, renewal-preservation, no-worse-fidelity and exposure criteria with acceptable parallel results | Advance that implementation to relevant-model/translational confirmation; state only the supported mechanism. Bone, developmental, oncology and other systemic outcomes remain outside a culture-based benefit claim. |
 
-The submission leads with niacin-mediated BUBR1 restoration and retains
-everolimus-mediated mTORC1 normalization as a separate downstream probe, with
-arimoclomol and dasatinib in their qualified reserve roles. The niacin-first
-order prioritizes mechanism match; functional superiority remains unmeasured.
+The proposal nominates niacin-mediated BUBR1 restoration and apitegromab-mediated
+muscle compensation as separate core hypotheses. Everolimus remains a conditional
+mechanism probe; arimoclomol and dasatinib retain their qualified reserve roles.
+These priorities weigh gene relevance and functional evidence symmetrically;
+functional superiority in MVA remains unmeasured.
 Neither incomplete experiments nor ambiguous results close an evidence gap.
 
 ## Completed reuse demonstrations

@@ -1,11 +1,11 @@
 # jeweled — current research reports
 
-**Revised 21 September 2026.** Track 1 model 1 has a confirmed automated score; its final report-persistence check is pending as detailed below. Track 2 is under revision and has not been submitted. No clinical sign-out has occurred. The repository remains private; the [current Skylar pitch video](https://vimeo.com/1228990028) is public with the revised niacin-first order and English captions, verified on 21 September 2026.
+**Revised 21 September 2026.** Track 1 model 1 has a confirmed automated score; its final report-persistence check is pending as detailed below. Track 2 has not been submitted. No clinical sign-out has occurred. The repository remains private. The revised niacin/apitegromab Skylar movie is **verified as V3 at the [existing Vimeo URL](https://vimeo.com/1228990028)**, with completed optimization and enabled English captions.
 
 **[Open the Track 2 review package](REVIEW.md)** for the current report, evidence,
 revised pitch, editable slides, captions and revision-specific reviewer assessments.
 
-**New broad-search finding:** the [drug census and competitive comparison](../workflow/track2-drug-census/decision-report.md) identify apitegromab as a serious downstream muscle candidate ahead of everolimus on actual-drug human functional evidence. Niacin remains a distinct restoration hypothesis. New same-gene mechanistic routes are also retained. The existing report/video pair is provisional while this recommendation is incorporated; publication and Track 2 submission remain pending. The census records unknown evidence explicitly and does not claim a complete inventory of every drug worldwide.
+**Adopted broad-search revision:** the [drug census and competitive comparison](../workflow/track2-drug-census/decision-report.md) now inform the report, methods, experimental plan and narration: niacin for BUBR1 restoration and apitegromab for downstream compensation, tested separately; everolimus remains a conditional mechanism probe. The screen retains 15,357 entities plus 40 separate FDA product entries and 43 curated route/compound appraisals. Retrieval is not an efficacy assessment of every drug. Unknown evidence remains explicit, and this is not a complete worldwide medicine inventory. Vimeo replacement is verified; Track 2 submission remains pending.
 
 ## Track 1 submission record
 
@@ -35,7 +35,7 @@ Only one Submit action was sent; the pre-submit counter was 0/6.
 
 The current [Track 1 report](jeweled_track1_report_submission.md), [Track 2 report](jeweled_track2_report_submission.md) and [methods-form answers](jeweled_methods_form_answers.md) govern interpretation. Track 1 adopts **subjective exact-pair EPCR 0.8** for BUB1B Leu737Ter plus Asn1002Lys. This replaces earlier judgments without new segregation or functional data. Trans is favored under the recessive model but remains unobserved; the missense remains a VUS. The [causal interpretation appendix](appendices/causal-interpretation.md) explains the evidence policy and remaining alternatives.
 
-Track 2 selects **niacin (nicotinic acid) as the research lead and everolimus as the downstream probe**, tested separately. Niacin leads on mechanism match: protein insufficiency is experimentally supported in selected MVA1 cells, and NAD/SIRT2-mediated stabilization offers a proximal restoration hypothesis. Human muscle NAD engagement supports the precursor step; it does not establish niacin-mediated BUBR1 or muscle rescue. Everolimus has established target pharmacology and pediatric use in other diseases, while its proposed harmful-signaling premise remains unestablished here. Arimoclomol is a restoration reserve; dasatinib is a senolytic reserve requiring harmful burden and selective susceptibility. The order can change after qualified functional experiments. Genomic EPCR is not a treatment-response probability.
+Track 2 selects **niacin (nicotinic acid) and apitegromab as the primary research comparison**, tested separately. Niacin tests usable BUBR1 restoration; human muscle NAD engagement and separate NMN/SIRT2 experiments do not establish the complete drug-to-restoration chain. Apitegromab tests downstream compensation, supported by randomized motor-function evidence in treated SMA, not demonstrated MVA rescue. Age, dose and background-treatment limits, fractures and intravenous access burden remain material. An available myostatin precursor/activation system and drug engagement are required; excess baseline myostatin is not mandatory. Everolimus is a conditional mechanism probe; harmful mTORC1 excess remains unestablished here. Arimoclomol and dasatinib retain qualified reserve roles. Genomic EPCR is not a treatment-response probability.
 
 The [one-row prediction CSV](jeweled_evidence-reconciled-v2.csv) records the current decision; its [provenance](jeweled_evidence-reconciled-v2.csv.provenance.json) covers format and reference checks, not a comparison with private truth.
 
@@ -43,20 +43,17 @@ The completed [public mouse RNA analysis](../workflow/track2-rna/README.md) did 
 
 ## Pitch and delivery
 
-The [revised pitch script](jeweled_track2_pitch_reconciled.md) leads with niacin and retains everolimus as a downstream probe. The revised Skylar movie is 180 seconds with eight slides, 166 seconds of complete speech and 14 seconds of transitions. The [movie](media/jeweled_track2_skylar.mp4), [editable deck](media/jeweled_track2_slides.pptx) and [captions](media/jeweled_track2_skylar.srt) are the review-package media. The deck passed layout checks and all eight slides were visually reviewed; full audiovisual listening review is not claimed. The [current Vimeo recording](https://vimeo.com/1228990028) now serves this niacin-first revision as V2 at the existing URL. Optimization is complete, and the current English captions are enabled. Signed-out playback at 00:52 showed the niacin lead slide and its matching subtitle; this was a visual playback/caption check, not a full listening review. The old recording remains only in private version history. Track 2 portal delivery remains pending. The older Lauren arimoclomol/NAC release is archival.
+The [revised pitch script](jeweled_track2_pitch_reconciled.md) now presents niacin restoration and apitegromab compensation, tested separately. The new eight-slide Skylar movie measures **180 seconds: 166.64 seconds of speech and 13.36 seconds of transitions**. The [movie](media/jeweled_track2_skylar.mp4), [editable deck](media/jeweled_track2_slides.pptx) and [captions](media/jeweled_track2_skylar.srt) are the current local media. Technical frame, audio and caption checks passed; no full independent listening review is claimed.
 
-The [route decisions](appendices/track2-route-decisions.md) compare the alternatives and specify the result that would change each decision. A fresh reviewer with no conversation context checked the report and pitch against the official rubric. The revised main report explains the proposal in plain language; detailed experimental and source qualifications remain in appendices.
+At the [existing Vimeo URL](https://vimeo.com/1228990028), **V3 replacement is verified**. The owner interface showed “Optimization complete,” the new title “Preserving muscle in MVA: niacin and apitegromab | jeweled Track 2,” the saved new description and replaced, enabled English closed captions. Signed-out private-browser playback at 01:19 showed the apitegromab slide with the +1.8 result, confidence interval, age/background-treatment qualifications and matching new caption. This is a visual playback/caption check, not full independent listening. V2 is no longer public and remains in private version history; the Lauren release is also archival. Track 2 portal delivery remains pending, and repository visibility is unchanged.
 
-A subsequent [clean-state rescore](reviews/track2-clean-state-20260921.md) assessed
-the corrected artifacts without seeing earlier reviews or scores. It is an
-unofficial assessment, separate from the initial reviewer's correction check.
-The current package additionally corrects Pirinen's treated-control strength
-interpretation, Sieben's qualitative carrier-blot evidence and the consequence
-of confirmed cis. The current report also makes niacin the lead; the eight-slide local media reflect that order. The archived score
-predates these updates and is not a score of the latest package. The living Track 1 report clarifies cis without modifying the
-exact submitted upload or prediction.
+The [route decisions](appendices/track2-route-decisions.md) and [experimental plan](appendices/track2-evidence-pipeline.md) govern the adopted comparison and the evidence that could change it. The new scientific revision has not received a fresh independent rubric score.
 
-A new **[clean-state review of the niacin-first package](reviews/track2-niacin-first-20260921.md)** returned **77/100**: rigor 29/35, impact 20/25, innovation 17/25 and scalability 11/15. It assessed the revised slides, video, explorer and transfer demonstration without opening earlier reviews or using their scores. It found no new material scientific contradiction and regarded niacin-first as defensible, while identifying unproved allele/drug function, illustrative scalability and unsecured laboratory access. This unofficial judgment is not directly comparable with different reviewers' earlier scores. The review preserves the exact artifact identities it assessed. The standalone report subsequently gained the required acknowledgement; its scientific claims are unchanged. Vimeo replacement is complete; Track 2 submission delivery remains outstanding. The archived review retains its assessed artifact identities; subsequent publication-status edits do not change the scientific claims.
+### Historical reviewer assessments
+
+The [clean-state rescore](reviews/track2-clean-state-20260921.md) assessed an earlier package without seeing earlier reviews or scores. Its artifact identities and qualifications remain in that archived review. Later corrections addressed Pirinen's treated-control strength interpretation, Sieben's qualitative carrier blot and confirmed cis. The living Track 1 clarification did not modify the exact submitted upload or prediction.
+
+The subsequent **[niacin-first review](reviews/track2-niacin-first-20260921.md)** returned **77/100**: rigor 29/35, impact 20/25, innovation 17/25 and scalability 11/15. It assessed the earlier niacin/everolimus report, slides, video, explorer and transfer demonstration, with artifact hashes retained. It found that version reviewable while identifying unproved allele/drug function, illustrative scalability and unsecured laboratory access. This unofficial, revision-specific score does **not** assess the adopted niacin/apitegromab proposal or replacement movie. Historical acknowledgement and delivery corrections do not turn it into a score of new science.
 
 Claude Code and Codex used personal subscriptions with training disabled, as confirmed by the user. Cartesia Sonic 3.6/Skylar uses the Free plan, verified on 21 September; its training/retention settings remain unverified. The cover is an AI-generated conceptual illustration.
 
@@ -76,7 +73,7 @@ commit), changes relative file links to GitHub links pinned to that revision,
 and adds a source header. Report prose and external citations are preserved;
 the CSV is copied byte for byte. Uncommitted edits are not exported. The command
 does not upload files, change repository visibility or grant access to private
-links. The [public video](https://vimeo.com/1228990028) now represents the revised niacin-first pitch; portal delivery is recorded separately.
+links. The [existing video URL](https://vimeo.com/1228990028) serves the verified niacin/apitegromab V3 replacement; portal delivery is recorded separately.
 
 ## Methods and retained appendices
 

@@ -1,16 +1,8 @@
 # What the broad drug search changes
 
-**Research comparison, 21 September 2026.** The broad search produced new leads.
-The condition for publishing and submitting after finding no further lines has
-therefore not been met. Track 2 remains unsubmitted. No medicine reviewed here has
-demonstrated benefit for the nominated BUB1B genotype.
+**Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-**Niacin remains the proximal BUBR1-restoration hypothesis. Apitegromab is a serious
-new downstream muscle comparator and is more competitive than everolimus on
-actual-drug human muscle-function evidence.** This is a research-priority judgment,
-not an estimate of treatment efficacy. Everolimus retains value as a test of a
-specific signaling hypothesis; it does not gain priority merely because its
-target engagement is convenient to measure.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 43 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -24,7 +16,7 @@ greater absolute muscle function with preserved renewal and chromosome fidelity.
 | Candidate or route | Strongest relevant evidence | Load-bearing gap or counterevidence | Research decision |
 |---|---|---|---|
 | **Niacin** | Human muscle NAD engagement; separate NMN/SIRT2 experiments connect NAD availability to BUBR1 abundance and selected same-gene mouse outcomes. | The intervention chain spans different agents. No niacin-mediated BUBR1 or MVA rescue; healthy treated controls also gained strength in the unblinded muscle study. Pediatric prescription safety/effectiveness is unestablished. | **Retain restoration lead**, conditional on usable BUBR1 rescue. Mechanistic proximity is its advantage; clinical functional evidence is weaker than apitegromab's in SMA. |
-| **Apitegromab** | Randomized SMA motor-function evidence; approved in the US for SMA from age two with SMN2-targeted treatment. It blocks myostatin activation and can support muscle independently of correcting the causal gene. | No BUB1B/MVA experiment; benefit in treated SMA does not establish benefit in developmental MVA muscle. Fractures are a labeled risk; lean-mass retention elsewhere is not functional rescue. | **Prioritize as a new head-to-head downstream comparator.** For a two-medication proposal centered on plausible muscle benefit, it is a stronger replacement candidate for everolimus. Retain niacin to test the distinct restoration mechanism. |
+| **Apitegromab** | Randomized SMA motor-function evidence; approved in the US for SMA from age two with SMN2-targeted treatment. It blocks myostatin activation and can support muscle independently of correcting the causal gene. | No BUB1B/MVA experiment; benefit in treated SMA does not establish benefit in developmental MVA muscle. Fractures are a labeled risk; lean-mass retention elsewhere is not functional rescue. | **Adopt as the primary downstream comparator**, tested separately from niacin. It replaces everolimus in the two-medication muscle-benefit proposal; niacin retains the distinct restoration hypothesis. |
 | **Everolimus** | Known mTORC1 pharmacology and pediatric experience in other diseases. | The two-carrier-per-genotype blot does not establish excess pathway activity; the RNA reanalysis did not corroborate an mTORC1 signal. Context-specific BUBR1 lowering and growth/immune liabilities matter. No MVA functional rescue. | **Mechanism probe, not the leading downstream benefit hypothesis.** Reopen priority if relevant excess and causal functional benefit are demonstrated. |
 | **AZD1152 / barasertib** | Direct drug treatment in BubR1-hypomorphic mice: a conference abstract reports longer survival. This is more direct same-gene drug evidence than niacin's chain. | Conference-only reporting; sarcopenia and other monitored age-related phenotypes did not improve. No eligible approved product established. | **New named Aurora-B compensation reserve**, especially for cardiac biology. Do not erase the result by treating every checkpoint-related inhibitor as mechanistically equivalent. |
 | **FRZB/sFRP3 reduction** | Same-gene genetic rescue of selected developmental/neural phenotypes. | Genetic intervention, no qualified drug implementation or muscle-function result. Broad Wnt activation is not the same intervention. | **New causal target opportunity**, outside the current existing-medicine nomination. |
@@ -35,7 +27,7 @@ greater absolute muscle function with preserved renewal and chromosome fidelity.
 | **Dasatinib / ceritinib direct-target assay records** | Retrieved BUB1B biochemical annotations: respectively >75% residual activity at 1 µM and IC50 13.08 µM. | Limited/weak inhibitory observations; neither supplies mutant rescue. Dasatinib's senolytic hypothesis is a separate rationale. | **Do not promote on target-database presence.** Keep the previously defined dasatinib reserve separate. |
 | **BAY-320 / BAY1816032 / 2OH-BNPP1** | Original studies establish BUB1-directed pharmacology. | BUB1 is a different gene/protein; later naming as BUB1B inhibitors does not repair that identity error. | **Exclude the incorrect direct-BUBR1 claim.** |
 
-Sources and detailed limitations: [current niacin/everolimus evidence](../../reports/appendices/track2-evidence-pipeline.md),
+Sources and detailed limitations: [current niacin/apitegromab evidence](../../reports/appendices/track2-evidence-pipeline.md),
 [apitegromab primary-source review](apitegromab-review.md),
 [same-gene and restoration literature](literature-review.md), and
 [direct-target source checks](appraisal.md). The proposed ordering can change
@@ -78,16 +70,10 @@ reasoned competitiveness decision. Co-mention, biochemical inhibition, genetic
 rescue, animal function, human target engagement and clinical efficacy are
 different evidence types. Thousands of unknown rows do not become excluded drugs.
 
-## Next decision
+## Experimental next step and delivery status
 
-The new downstream comparison should be incorporated into the experimental
-proposal before deciding whether to revise the submitted shortlist or narration.
-For apitegromab, verify target availability and test absolute contractile output,
-renewal, chromosome fidelity and matched tumor/nonmalignant responses. Elevated
-baseline myostatin is informative but is not a necessary condition for a
-compensatory benefit. Niacin retains its own NAD/SIRT2/BUBR1 mediation tests.
-Test single agents first; no combination benefit or pediatric regimen is inferred.
+The new comparison is incorporated into the written proposal and revised narration. For apitegromab, verify target availability and actual-drug engagement, then test absolute contractile output, renewal, chromosome fidelity and matched tumor/nonmalignant responses. Elevated baseline myostatin is not a necessary condition for compensation. Niacin retains its own NAD/SIRT2/BUBR1 mediation tests. Test single agents first; no combination benefit or pediatric MVA regimen is inferred. The [pipeline](../../reports/appendices/track2-evidence-pipeline.md) defines drug-appropriate controls and the four-claim confirmation family, with everolimus outside it unless prospectively promoted.
 
-The current video explains the niacin/everolimus proposal. This new census is a
-reason to reassess that proposal, not to label the existing video an apitegromab
-pitch. Publication and portal submission remain pending this scientific revision.
+The new eight-slide Skylar movie measures 180 seconds: 166.64 seconds of speech and 13.36 seconds of transitions. Technical frame, audio and caption checks passed; no full independent listening review is claimed. The niacin/apitegromab movie is **verified as V3 at [the existing Vimeo URL](https://vimeo.com/1228990028)**. Optimization is complete, the new title/description are saved, and replaced English captions are enabled. Signed-out playback at 01:19 showed the apitegromab slide with the trial result and age/background-treatment qualifications alongside the matching new caption. This was a visual playback/caption check, not full independent listening. V2 is no longer public and remains in private version history. Track 2 portal submission is separate and remains pending.
+
+The historical 77/100 review assessed the niacin/everolimus package; it is not a score for this adopted scientific revision or the replacement movie.

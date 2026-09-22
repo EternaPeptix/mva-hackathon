@@ -1,8 +1,8 @@
-# jeweled — Track 2 Skylar pitch
+# jeweled — Track 2 revised pitch script
 
-**21 September 2026. Revised eight-slide, three-minute recording: niacin leads; everolimus is the downstream probe.** Review the [video](media/jeweled_track2_skylar.mp4), [slides](media/jeweled_track2_slides.pptx) and [captions](media/jeweled_track2_skylar.srt). The public [Vimeo video](https://vimeo.com/1228990028) now serves this niacin-first recording as V2 with current English captions, verified on 21 September 2026. Track 2 remains unsubmitted; the [submission index](README.md) records delivery status.
+**21 September 2026. Niacin restoration and apitegromab muscle compensation.** The [Vimeo recording](https://vimeo.com/1228990028), [MP4](media/jeweled_track2_skylar.mp4), [captions](media/jeweled_track2_skylar.srt) and editable deck now present this proposal. Vimeo V3 replaced the preceding niacin/everolimus recording at the same URL; the earlier version remains in private history. Track 2 remains unsubmitted.
 
-The revised movie contains 166 seconds of complete Skylar speech and 14 seconds of silent transitions, totaling exactly 180 seconds. The spoken script has 388 whitespace-separated words after technical names are expanded for pronunciation; equivalent readable names appear below. No biological drug experiment is claimed.
+The eight-slide movie is exactly 180 seconds, including 166.64 seconds of complete narration and 13.36 seconds of transitions. No biological drug experiment is claimed.
 
 ## Preserving muscle in MVA
 
@@ -16,9 +16,9 @@ BUB1B makes the checkpoint protein BUBR1. Our stop-plus-missense pair matches a 
 
 Niacin is our lead because it targets the protein-supply hypothesis. It raised muscle NAD in another myopathy. Separate experiments connect NAD and SIRT2 to BUBR1 stability. Niacin has not rescued this genotype. We test whether it increases usable protein and useful muscle.
 
-## Everolimus is a downstream probe
+## Apitegromab tests muscle compensation
 
-Everolimus is our downstream probe. It inhibits mTORC1, a growth pathway. A small carrier-mouse blot showed stronger phosphoprotein bands, without quantified pathway activity. Rapamycin preserved stem-cell numbers in a different fly model. Neither establishes muscle rescue. We require functional benefit with preserved growth and renewal.
+Apitegromab is our muscle-support comparator. It blocks myostatin activation and improved motor function in a randomized spinal-muscular-atrophy trial. It now has an approved use, but no MVA evidence. Fractures are a labeled risk. We test useful muscle output, without claiming that larger muscles repair the chromosome defect.
 
 ## Cell selection and tissue output
 
@@ -28,18 +28,18 @@ Our cell-selection explorer exposes a misleading result. In one simulated scenar
 
 We would compare affected and genetically corrected muscle models, using measured drug exposures. A medicine must improve either existing muscle or new muscle production, preserve the other, and avoid worsening chromosome errors. Independent confirmation must reproduce the result. The cancer history also requires checking that neither medicine helps tumor cells survive or interferes with cancer treatment.
 
-## Other routes have defined tests for advancement
+## A broad search changed our comparison
 
-Arimoclomol remains a reserve because rescue of this protein is unproved. Removing senescent cells has strong genetic mouse evidence, but some drugs also damage repair in young muscle. We investigate that mechanism in parallel. Transcript rescue and other alternatives have explicit promotion tests in our report.
+Our public drug census screened over fifteen thousand clinical and regulatory entries. It made apitegromab a stronger downstream candidate than everolimus for muscle function. Everolimus remains a conditional signaling probe. Other same-gene genetic and drug findings have explicit limitations. Missing evidence stays unknown rather than becoming a failed drug.
 
 ## Public reuse and the next experiment
 
-We also ran the workflow on a public, synthetic TRIP13 example. It shows why a BUBR1 restoration hypothesis cannot simply transfer to another gene. That demonstrates reuse, not treatment validation. Next we need a consented muscle model and laboratory partner to test niacin, with everolimus as comparator.
+We also ran the workflow on a public, synthetic TRIP13 example. It shows why a BUBR1 restoration hypothesis cannot simply transfer to another gene. That demonstrates reuse, not treatment validation. Next we need a consented muscle model and laboratory partner to test niacin and apitegromab separately.
 
 ## Sources and disclosure
 
-The [causal interpretation](appendices/causal-interpretation.md), [current report](jeweled_track2_report_submission.md), [route decisions](appendices/track2-route-decisions.md) and [experimental plan](appendices/track2-evidence-pipeline.md) support this pitch. The offline [Cell selection and tissue output explorer](../workflow/track2-model/explorer/README.md) exposes retained aggregate-population simulations, not individual lineages or drug predictions. The [public transfer demonstration](../workflow/track2-transfer/README.md) has two worked examples, including one synthetic TRIP13 genotype; it does not establish two-patient validation. Individual slide sources are listed in the [storyboard](media/track2-storyboard.json).
+The [current report](jeweled_track2_report_submission.md), [route comparison](appendices/track2-route-decisions.md), [experimental plan](appendices/track2-evidence-pipeline.md) and [drug-census assessment](../workflow/track2-drug-census/decision-report.md) support the script. The [apitegromab review](../workflow/track2-drug-census/apitegromab-review.md) separates SMA motor-function evidence, body composition, fracture risk and uncertain transfer to MVA. The [cell-selection explorer](../workflow/track2-model/explorer/README.md) uses aggregate-population simulations, not observed drug responses or actual lineage pedigrees. The [synthetic TRIP13 example](../workflow/track2-transfer/README.md) demonstrates workflow reuse, not validation in a second patient. Slide-specific sources appear in the [storyboard](media/track2-storyboard.json).
 
-Narration uses Cartesia Sonic 3.6 and the stock Skylar voice, on the Free plan verified on 21 September 2026. This revision generated five speech segments at speed 1.0 using available credits and retained three unchanged segments. No speech was time-stretched or truncated. No voice was cloned. Cartesia training/retention settings and an immutable model snapshot remain unverified. The conceptual cover illustration was generated with OpenAI image generation through Codex; it is not a patient image or experimental result. Claude Code/Codex used personal subscriptions with training disabled according to the user. Those settings do not establish Cartesia settings.
+The recording uses Cartesia Sonic 3.6 and stock Skylar, with no voice cloning. Three changed sections were regenerated; five unchanged sections were reused. Its Free plan was verified on 21 September 2026; Cartesia training/retention settings remain unverified. The conceptual cover illustration uses OpenAI-generated art, not a patient image or experimental result. Claude Code and Codex assisted writing and analysis on personal subscriptions with training disabled according to the user. Those settings do not establish Cartesia settings.
 
-All eight rendered slides were visually reviewed; deck layout, duration, caption timing and full video decoding checks passed. The revised video has 45 caption cues. No independent listening review is claimed; technical checks do not establish pronunciation or prosody. The revised Vimeo upload completed optimization; signed-out playback at 00:52 showed the niacin lead slide with its matching caption. This verifies that the public player serves the revised video and captions, not full listening quality or Track 2 portal delivery.
+All eight final slides were visually inspected. Decoded video frames matched their sources, audio matched the complete source narration, and subtitle text matched the script. A separate scientific check found no material correction needed in the revised pitch. Vimeo reported optimization complete and enabled the replacement English captions; signed-out playback at 01:19 showed the apitegromab slide and matching caption. These are technical and visual checks, not a full independent listening review.

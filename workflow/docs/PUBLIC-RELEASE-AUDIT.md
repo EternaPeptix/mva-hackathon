@@ -315,3 +315,24 @@ exhaustive worldwide inventory or full-text review of every co-mentioned medicin
 The existing two-drug report/video are marked provisional pending incorporation;
 no public repository release or Track 2 submission occurred. Exact Track 1 uploads,
 CSV, local media and historical reviewer identities are preserved.
+
+
+### 21 September 2026: apitegromab integration and Vimeo replacement
+
+The reports, prospective experiment, editable deck and narration now compare
+niacin restoration with apitegromab muscle compensation, tested separately.
+Everolimus is a conditional mechanism probe. No MVA efficacy or new biological
+measurement is claimed. An independent check found no material scientific error
+in the revised pitch; historical rubric scores do not score this new proposal.
+
+At the user's explicit request, Vimeo V3 replaced V2 at the existing
+[public URL](https://vimeo.com/1228990028). The current movie is 180 seconds,
+1920×1080 at 25 fps, with 166.64 seconds of speech and 13.36 seconds of transitions.
+All eight slides were visually reviewed; decoded frames, audio and caption text
+passed technical integrity checks. Vimeo reported optimization complete; the
+new title, description and enabled English captions were saved. Signed-out
+playback at 01:19 showed the new apitegromab slide and matching subtitle. No
+independent full listening review is claimed. Earlier versions remain in private
+history and no longer appear at the public link. Exact Track 1 uploads and
+Track 1 methods are unchanged. The repository remains private and Track 2
+remains unsubmitted. The current file identities are recorded in the inventory.

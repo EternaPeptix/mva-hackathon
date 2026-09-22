@@ -1,13 +1,25 @@
 {
   "title": "Preserving muscle in MVA",
   "team": "EternaPeptix / jeweled",
-  "status": "Niacin-priority review revision; no Track 2 portal submission; public Vimeo V2 at https://vimeo.com/1228990028 serves this revision with current English captions, verified 21 September 2026",
-  "voice": "Skylar",
-  "voice_id": "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4",
+  "revision_date": "2026-09-21",
+  "status": "Niacin-restoration/apitegromab-compensation script, editable eight-slide deck, complete narration and video published as Vimeo V3 on 21 September 2026. Track 2 remains unsubmitted.",
+  "script": "reports/jeweled_track2_pitch_reconciled.md",
+  "deck": "reports/media/jeweled_track2_slides.pptx",
+  "narration_status": "Complete: stock Skylar/Sonic 3.6; three regenerated sections and five unchanged sections. Exactly 180 s including166.64 s speech and13.36 s transitions. No time stretch; no full independent listening review.",
+  "legacy_media": {
+    "status": "The preceding niacin/everolimus recording has been superseded publicly at the same URL and remains in private version history.",
+    "mp4": "reports/media/jeweled_track2_skylar.mp4",
+    "captions": "reports/media/jeweled_track2_skylar.srt",
+    "vimeo": "https://vimeo.com/1228990028",
+    "voice": "Skylar",
+    "voice_id": "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4",
+    "provider": "Cartesia Sonic 3.6",
+    "voice_cloning": false
+  },
   "slides": [
     {
       "id": "purpose",
-      "title": "Preserving muscle\nin MVA",
+      "title": "Preserving muscle in MVA",
       "narration": "This child has muscle wasting and mosaic variegated aneuploidy, a condition in which cells can carry different numbers of chromosomes. Our question is whether an existing medicine could improve muscle function while preserving the cells needed for growth and repair. We propose two medicines for laboratory testing.",
       "sources": [
         "reports/jeweled_track2_report_submission.md",
@@ -17,7 +29,7 @@
     {
       "id": "genotype",
       "title": "Protein supply is a testable mechanism",
-      "narration": "Bub one B makes the checkpoint protein Bub R one. Our stop-plus-missense pair matches a reported MVA one pattern: reduced protein supply. The missense protein's stability and function remain unmeasured. Trans phase needs confirmation. Confirmed cis retires this pair as the compound-heterozygous explanation.",
+      "narration": "BUB1B makes the checkpoint protein BUBR1. Our stop-plus-missense pair matches a reported MVA1 pattern: reduced protein supply. The missense protein's stability and function remain unmeasured. Trans phase needs confirmation. Confirmed cis retires this pair as the compound-heterozygous explanation.",
       "sources": [
         "reports/appendices/track1-case-evidence.md",
         "https://pubmed.ncbi.nlm.nih.gov/20516114/",
@@ -28,7 +40,7 @@
     {
       "id": "niacin",
       "title": "Niacin tests usable protein restoration",
-      "narration": "Niacin is our lead because it targets the protein-supply hypothesis. It raised muscle N A D in another myopathy. Separate experiments connect N A D and SIRT two to Bub R one stability. Niacin has not rescued this genotype. We test whether it increases usable protein and useful muscle.",
+      "narration": "Niacin is our lead because it targets the protein-supply hypothesis. It raised muscle NAD in another myopathy. Separate experiments connect NAD and SIRT2 to BUBR1 stability. Niacin has not rescued this genotype. We test whether it increases usable protein and useful muscle.",
       "sources": [
         "https://pubmed.ncbi.nlm.nih.gov/32386566/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/",
@@ -36,14 +48,16 @@
       ]
     },
     {
-      "id": "everolimus",
-      "title": "Everolimus is a downstream probe",
-      "narration": "Everolimus is our downstream probe. It inhibits em tor complex one, a growth pathway. A small carrier-mouse blot showed stronger phosphoprotein bands, without quantified pathway activity. Rapamycin preserved stem-cell numbers in a different fly model. Neither establishes muscle rescue. We require functional benefit with preserved growth and renewal.",
+      "id": "apitegromab",
+      "title": "Apitegromab tests muscle compensation",
+      "narration": "Apitegromab is our muscle-support comparator. It blocks myostatin activation and improved motor function in a randomized spinal-muscular-atrophy trial. It now has an approved use, but no MVA evidence. Fractures are a labeled risk. We test useful muscle output, without claiming that larger muscles repair the chromosome defect.",
       "sources": [
-        "https://www.jci.org/articles/view/126863/version/2",
-        "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04",
-        "reports/appendices/track2-evidence-pipeline.md",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13121444/"
+        "workflow/track2-drug-census/apitegromab-review.md",
+        "https://pubmed.ncbi.nlm.nih.gov/40818473/",
+        "https://doi.org/10.1016/S1474-4422(25)00225-X",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8189951/",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b1cd8ab8-8a10-48ed-9806-75a44f22b963",
+        "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-therapy-target-muscle-loss-spinal-muscular-atrophy"
       ]
     },
     {
@@ -66,24 +80,41 @@
       ]
     },
     {
-      "id": "alternatives",
-      "title": "Other routes have defined tests for advancement",
-      "narration": "Arimoclomol remains a reserve because rescue of this protein is unproved. Removing senescent cells has strong genetic mouse evidence, but some drugs also damage repair in young muscle. We investigate that mechanism in parallel. Transcript rescue and other alternatives have explicit promotion tests in our report.",
+      "id": "census",
+      "title": "A broad search changed our comparison",
+      "narration": "Our public drug census screened over fifteen thousand clinical and regulatory entries. It made apitegromab a stronger downstream candidate than everolimus for muscle function. Everolimus remains a conditional signaling probe. Other same-gene genetic and drug findings have explicit limitations. Missing evidence stays unknown rather than becoming a failed drug.",
       "sources": [
-        "reports/appendices/track2-route-decisions.md",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3468323/",
-        "https://pubmed.ncbi.nlm.nih.gov/34904366/"
+        "workflow/track2-drug-census/README.md",
+        "workflow/track2-drug-census/decision-report.md",
+        "workflow/track2-drug-census/apitegromab-review.md",
+        "reports/appendices/track2-route-decisions.md"
       ]
     },
     {
       "id": "next",
       "title": "Public reuse and the next experiment",
-      "narration": "We also ran the workflow on a public, synthetic TRIP thirteen example. It shows why a Bub R one restoration hypothesis cannot simply transfer to another gene. That demonstrates reuse, not treatment validation. Next we need a consented muscle model and laboratory partner to test niacin, with everolimus as comparator.",
+      "narration": "We also ran the workflow on a public, synthetic TRIP13 example. It shows why a BUBR1 restoration hypothesis cannot simply transfer to another gene. That demonstrates reuse, not treatment validation. Next we need a consented muscle model and laboratory partner to test niacin and apitegromab separately.",
       "sources": [
         "reports/jeweled_track2_report_submission.md",
         "reports/appendices/track2-evidence-pipeline.md",
-        "workflow/track2-transfer/README.md"
+        "workflow/track2-transfer/README.md",
+        "workflow/track2-drug-census/decision-report.md"
       ]
     }
-  ]
+  ],
+  "current_media": {
+    "mp4": "reports/media/jeweled_track2_skylar.mp4",
+    "captions": "reports/media/jeweled_track2_skylar.srt",
+    "vimeo": "https://vimeo.com/1228990028",
+    "vimeo_version": "V3",
+    "duration_seconds": 180,
+    "speech_seconds": 166.64,
+    "transition_seconds": 13.36,
+    "resolution": "1920x1080",
+    "fps": 25,
+    "verified_date": "2026-09-21",
+    "verification": "Owner optimization complete and English captions enabled. Signed-out playback at01:19 showed new apitegromab slide and matching caption. Technical frame/audio/caption checks passed; no independent full listening review.",
+    "mp4_sha256": "6b1a377411d7f8260a7e677044148c6e033b3ed4c2a656f2b44bd3e5642147dc",
+    "captions_sha256": "acc59fb28a0882db2ef794c9ba35355abceba992704ed90f50921b5139190722"
+  }
 }
