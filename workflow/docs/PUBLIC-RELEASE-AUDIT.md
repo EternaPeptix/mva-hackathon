@@ -276,3 +276,24 @@ Public-video replacement and Track 2 submission remain pending; the repository
 is private and the exact Track 1 upload and CSV remain unchanged.
 
 The report exporter now accepts bracket-only genotype notation inside code while still rejecting inline/reference-style Markdown links there; this syntax correction changes no scientific, media or CSV content.
+
+### 21 September 2026: revised Vimeo publication verified
+
+At the user's request, [Vimeo 1228990028](https://vimeo.com/1228990028) now
+serves V2 of `reports/media/jeweled_track2_skylar.mp4`: 8,699,221 bytes,
+180 seconds, 1920×1080, SHA-256
+`363827525c61b122141005fbf4440daec2035d4e8d1011d0e528c68055aa2e1f`.
+The owner interface reported “Optimization complete”. The saved title is
+“Preserving muscle in MVA: niacin first, everolimus as probe | jeweled Track 2”;
+the description was updated and English closed captions were replaced with the
+current SRT and enabled. Signed-out private-window playback at 00:52 showed the
+niacin lead slide and the matching subtitle “Separate experiments connect NAD
+and SIRT2 to BUBR1 stability.” This verifies visual playback and caption
+correspondence, not a full listening review. The former recording is superseded
+publicly at the same URL and remains in private version history.
+
+Active delivery documents and current file identities now reflect this event.
+Historical assessments and audit entries retain their original wording; their
+artifact identities describe the versions they assessed. Scientific claims,
+local MP4/SRT/deck bytes and exact Track 1 uploads are unchanged. Track 2 remains
+unsubmitted and the repository remains private.

@@ -33,7 +33,7 @@ summary names identify the recovery sources without implying they are included.
 The supplied-VCF rankings, earlier two-lane phasing and final four-lane reviews
 are explicitly separated. The CSV, EPCR and classifications are unchanged.
 
-The pitch document now follows the niacin-first proposal. Its eight-slide Skylar movie is assembled at 180 seconds, with 166 seconds of complete speech and 14 seconds of transitions; the [review package](REVIEW.md) records its scope. The [earlier Vimeo review recording](https://vimeo.com/1228990028) retains the superseded drug order and awaits replacement. Track 2 has not been submitted.
+The pitch document now follows the niacin-first proposal. Its eight-slide Skylar movie is assembled at 180 seconds, with 166 seconds of complete speech and 14 seconds of transitions; the [review package](REVIEW.md) records its scope. The [current Vimeo pitch recording](https://vimeo.com/1228990028) serves this niacin-first revision as V2 with current English captions, verified on 21 September 2026. Track 2 has not been submitted.
 
 The current opening connects the already recorded muscle atrophy and failure to
 thrive to the proposed functional endpoint. The report explicitly compares
@@ -84,7 +84,7 @@ The retained appendices describe their original dates and analysis scopes. State
 
 ## Media and AI disclosure
 
-The former [private Lauren release](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) is archival. The [revised pitch](jeweled_track2_pitch_reconciled.md) has eight visually reviewed slides and stock Skylar narration in a 180-second movie for human review. The [earlier Vimeo video](https://vimeo.com/1228990028) has the superseded drug order; replacement remains pending. The user's conditional submission authorization does not constitute a submission record: Track 2 is unsubmitted while these revisions are reviewed. No independent listening review is claimed. No raw case files were sent to the narration service; it received the disclosed pitch text.
+The former [private Lauren release](https://github.com/EternaPeptix/mva-hackathon/releases/tag/track2-pitch-lauren-20260920) is archival. The [revised pitch](jeweled_track2_pitch_reconciled.md) has eight visually reviewed slides and stock Skylar narration in a 180-second movie for human review. The [current Vimeo video](https://vimeo.com/1228990028) now serves the revised niacin-first recording. Optimization is complete; the updated title, description and enabled English captions were saved. Signed-out playback at 00:52 showed the niacin lead slide with its matching caption. This was a visual playback/caption check, not a full listening review; the former recording remains in private version history. The user's conditional submission authorization does not constitute a submission record: Track 2 is unsubmitted while these revisions are reviewed. No independent listening review is claimed. No raw case files were sent to the narration service; it received the disclosed pitch text.
 
 The [clean-state rescore](reviews/track2-clean-state-20260921.md) is an AI reviewer
 assessment of revision `3bae97436b6767bbbcfa04e1ddcd5fa23e4598b7` and the identified
@@ -96,8 +96,7 @@ as compound heterozygous if cis is confirmed. A different BUB1B explanation woul
 require an independently demonstrated pathogenic allele in trans or dominant
 mechanism. The subsequent niacin-first revision adds the published allele-architecture
 argument, an explicit PM1 assessment and a stronger lineage/output contribution.
-PM1 is not awarded; EPCR remains 0.8 and N1002K remains VUS. Local media now follow the new drug order; the public Vimeo copy still requires
-replacement. No new biological observation or phase result is claimed.
+PM1 is not awarded; EPCR remains 0.8 and N1002K remains VUS. Local media and the public Vimeo V2 now follow the new drug order. No new biological observation or phase result is claimed.
 The archived score predates these corrections and is neither a score of the
 latest text/media nor an organizer score or measurement of clinical validity.
 

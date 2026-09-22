@@ -32,8 +32,9 @@ The [editable slides](media/jeweled_track2_slides.pptx),
 are the review-package media paths. The revised Skylar movie is 180 seconds: 166 seconds of complete speech and
 14 seconds of transitions, with eight visually reviewed slides. No independent
 listening review is claimed. The
-[earlier Vimeo review video](https://vimeo.com/1228990028) has the superseded
-everolimus-first order and awaits replacement. Use GitHub's download option if
+[current Vimeo pitch video](https://vimeo.com/1228990028) serves the revised
+niacin-first recording with English captions; signed-out visual playback and
+caption correspondence were verified on 21 September 2026. Use GitHub's download option if
 local media do not preview. The repository remains private during the event.
 
 [Submission status and retained review history](README.md) are separate from the

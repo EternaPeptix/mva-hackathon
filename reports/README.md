@@ -1,6 +1,6 @@
 # jeweled — current research reports
 
-**Revised 21 September 2026.** Track 1 model 1 has a confirmed automated score; its final report-persistence check is pending as detailed below. Track 2 is under revision and has not been submitted. No clinical sign-out has occurred. The repository remains private; the [earlier Skylar review video](https://vimeo.com/1228990028) is public with English captions but has the superseded drug order and awaits replacement.
+**Revised 21 September 2026.** Track 1 model 1 has a confirmed automated score; its final report-persistence check is pending as detailed below. Track 2 is under revision and has not been submitted. No clinical sign-out has occurred. The repository remains private; the [current Skylar pitch video](https://vimeo.com/1228990028) is public with the revised niacin-first order and English captions, verified on 21 September 2026.
 
 **[Open the Track 2 review package](REVIEW.md)** for the current report, evidence,
 revised pitch, editable slides, captions and revision-specific reviewer assessments.
@@ -41,7 +41,7 @@ The completed [public mouse RNA analysis](../workflow/track2-rna/README.md) did 
 
 ## Pitch and delivery
 
-The [revised pitch script](jeweled_track2_pitch_reconciled.md) leads with niacin and retains everolimus as a downstream probe. The revised Skylar movie is 180 seconds with eight slides, 166 seconds of complete speech and 14 seconds of transitions. The [movie](media/jeweled_track2_skylar.mp4), [editable deck](media/jeweled_track2_slides.pptx) and [captions](media/jeweled_track2_skylar.srt) are the review-package media. The deck passed layout checks and all eight slides were visually reviewed; full audiovisual listening review is not claimed. The [earlier Vimeo recording](https://vimeo.com/1228990028) has the superseded order and is not the current submission pitch. Its replacement and Track 2 portal delivery remain pending. The older Lauren arimoclomol/NAC release is archival.
+The [revised pitch script](jeweled_track2_pitch_reconciled.md) leads with niacin and retains everolimus as a downstream probe. The revised Skylar movie is 180 seconds with eight slides, 166 seconds of complete speech and 14 seconds of transitions. The [movie](media/jeweled_track2_skylar.mp4), [editable deck](media/jeweled_track2_slides.pptx) and [captions](media/jeweled_track2_skylar.srt) are the review-package media. The deck passed layout checks and all eight slides were visually reviewed; full audiovisual listening review is not claimed. The [current Vimeo recording](https://vimeo.com/1228990028) now serves this niacin-first revision as V2 at the existing URL. Optimization is complete, and the current English captions are enabled. Signed-out playback at 00:52 showed the niacin lead slide and its matching subtitle; this was a visual playback/caption check, not a full listening review. The old recording remains only in private version history. Track 2 portal delivery remains pending. The older Lauren arimoclomol/NAC release is archival.
 
 The [route decisions](appendices/track2-route-decisions.md) compare the alternatives and specify the result that would change each decision. A fresh reviewer with no conversation context checked the report and pitch against the official rubric. The revised main report explains the proposal in plain language; detailed experimental and source qualifications remain in appendices.
 
@@ -54,7 +54,7 @@ of confirmed cis. The current report also makes niacin the lead; the eight-slide
 predates these updates and is not a score of the latest package. The living Track 1 report clarifies cis without modifying the
 exact submitted upload or prediction.
 
-A new **[clean-state review of the niacin-first package](reviews/track2-niacin-first-20260921.md)** returned **77/100**: rigor 29/35, impact 20/25, innovation 17/25 and scalability 11/15. It assessed the revised slides, video, explorer and transfer demonstration without opening earlier reviews or using their scores. It found no new material scientific contradiction and regarded niacin-first as defensible, while identifying unproved allele/drug function, illustrative scalability and unsecured laboratory access. This unofficial judgment is not directly comparable with different reviewers' earlier scores. The review preserves the exact artifact identities it assessed. The standalone report subsequently gained the required acknowledgement; its scientific claims are unchanged. Vimeo replacement and submission delivery remain outstanding.
+A new **[clean-state review of the niacin-first package](reviews/track2-niacin-first-20260921.md)** returned **77/100**: rigor 29/35, impact 20/25, innovation 17/25 and scalability 11/15. It assessed the revised slides, video, explorer and transfer demonstration without opening earlier reviews or using their scores. It found no new material scientific contradiction and regarded niacin-first as defensible, while identifying unproved allele/drug function, illustrative scalability and unsecured laboratory access. This unofficial judgment is not directly comparable with different reviewers' earlier scores. The review preserves the exact artifact identities it assessed. The standalone report subsequently gained the required acknowledgement; its scientific claims are unchanged. Vimeo replacement is complete; Track 2 submission delivery remains outstanding. The archived review retains its assessed artifact identities; subsequent publication-status edits do not change the scientific claims.
 
 Claude Code and Codex used personal subscriptions with training disabled, as confirmed by the user. Cartesia Sonic 3.6/Skylar uses the Free plan, verified on 21 September; its training/retention settings remain unverified. The cover is an AI-generated conceptual illustration.
 
@@ -74,7 +74,7 @@ commit), changes relative file links to GitHub links pinned to that revision,
 and adds a source header. Report prose and external citations are preserved;
 the CSV is copied byte for byte. Uncommitted edits are not exported. The command
 does not upload files, change repository visibility or grant access to private
-links. The earlier public video at https://vimeo.com/1228990028 requires replacement before it can represent the revised pitch; portal delivery is recorded separately.
+links. The [public video](https://vimeo.com/1228990028) now represents the revised niacin-first pitch; portal delivery is recorded separately.
 
 ## Methods and retained appendices
 

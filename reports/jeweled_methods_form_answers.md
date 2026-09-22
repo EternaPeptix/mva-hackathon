@@ -93,7 +93,7 @@ Limitations include one sample, absent parental and functional evidence, incompl
 
 # Track 2 (Drug Repositioning)
 
-**Current media disclosure:** the opening shared narration note describes the historical Track 1-era package. For this Track 2 draft, eight-slide stock-Skylar narration supersedes Lauren, with regenerated passages reflecting the niacin-first revision. The assembled movie is 180 seconds, with 166 seconds of complete speech and 14 seconds of transitions; all eight slides were visually reviewed. No independent listening review is claimed. Cartesia Sonic 3.6 uses the Free plan, verified on 21 September 2026; training/retention settings remain unverified. The conceptual cover uses OpenAI image generation through Codex. The [earlier Vimeo movie](https://vimeo.com/1228990028) has the superseded drug order and awaits replacement; Track 2 has not been submitted.
+**Current media disclosure:** the opening shared narration note describes the historical Track 1-era package. For this Track 2 draft, eight-slide stock-Skylar narration supersedes Lauren, with regenerated passages reflecting the niacin-first revision. The assembled movie is 180 seconds, with 166 seconds of complete speech and 14 seconds of transitions; all eight slides were visually reviewed. No independent listening review is claimed. Cartesia Sonic 3.6 uses the Free plan, verified on 21 September 2026; training/retention settings remain unverified. The conceptual cover uses OpenAI image generation through Codex. The [current Vimeo movie](https://vimeo.com/1228990028) serves this niacin-first revision with current English captions; signed-out visual playback and caption correspondence were verified on 21 September 2026; Track 2 has not been submitted.
 
 
 ### Team name
