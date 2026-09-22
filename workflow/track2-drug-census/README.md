@@ -394,8 +394,8 @@ all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
 claim full-text review of all ranked records. The decision ledger now contains
-104 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 104 approved medicines.
+108 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 108 approved medicines.
 
 The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.
 
@@ -414,8 +414,8 @@ retrievals are not negative efficacy. Neither follow-up changes the catalog
 entity denominator or the historical 180-product EMA mismatch table.
 
 
-The [additional 256-entry reading](next256-findings.md) brings current outer
-coverage to **1,649 source/ID records**, leaving **4,110 originally saved
+The [additional 256-entry reading](next256-findings.md) brought that stage to
+**1,649 source/ID records**, leaving **4,110 originally saved
 abstracts unread**. Sixteen flags retain specific source questions; they are not
 sixteen qualified new medicines. Every saved string was read, including an
 explicitly documented upstream fragment. `verify_next256.py` replays the exact
@@ -423,6 +423,19 @@ selection, exclusions and content hashes against the original retrievals.
 
 
 [Mebendazole primary qualification](mebendazole-qualification.md) adds a real
-other-tissue protein-availability lead and brings the current total to **104
+other-tissue protein-availability lead and brought that stage of the ledger to **104
 appraisals**. Its liver outcomes and missing factorial control are explicit;
 no BUBR1 restoration or muscle efficacy is claimed. Further lines remain open.
+
+
+The [next 512-entry reading](next512-findings.md) brings current outer coverage
+to **2,161 source/ID records**, leaving **3,598 originally saved abstracts
+unread**. Two readers completed 256 disjoint records each at indices 1217-1728.
+It flags 115 source questions; those are not 115 qualified medicines. Four
+appraisals follow from its primary work — proTAME, Apcin, fisetin, and dasatinib
+plus quercetin — with revisions to the existing Eg5-balancing and navitoclax
+entries, bringing the current ledger to **108 route/compound appraisals**.
+`verify_next512.py` replays the exact selection, exclusions and content hashes
+against the original retrievals; it passes with the source selection re-derived
+from the original corpus. The senotherapeutic reserves are conditional and
+combination-specific; neither displaces the niacin/apitegromab comparison.

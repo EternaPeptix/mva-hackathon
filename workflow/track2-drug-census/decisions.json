@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "status": "Source-bounded research triage. New leads found; publication/submission condition not met. No clinical efficacy estimates. Selected primary-source appraisals are separate from all-entity screening.",
   "matching": "Only exact normalized compound aliases; report collision or multi-match instead of choosing silently. Unmatched entries are unknown, not failed candidates.",
   "decisions": [
@@ -302,14 +302,15 @@
       ],
       "route": "Navitoclax",
       "disposition": "selective-clearance research reserve, decline current medication lead",
-      "evidence_scope": "Human platelet toxicity; separate mouse neurovascular/cognitive benefit and chemotherapy-pretreated T-ALL challenge counterexample.",
+      "evidence_scope": "Human platelet toxicity; separate mouse neurovascular/cognitive benefit and chemotherapy-pretreated T-ALL challenge counterexample. Targeted 2025 actual-drug normalized-grip and attrition check, separate from genetic GCV clearance.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Baker used INK-ATTAC/AP20187, not navitoclax. [Human phase I experience](https://pmc.ncbi.nlm.nih.gov/articles/PMC4979082/) found platelet toxicity with intermittent as well as continuous exposure; sparing megakaryocytes does not establish survival of BCL-XL-dependent platelets. No pediatric MVA senolytic pulse schedule or approved-product eligibility was established here. A separate paclitaxel mouse study reports neurovascular/BBB/cognitive benefit; measured muscle tests had no injury deficit to rescue. Navitoclax worsened a distinct chemotherapy-pretreated minimal-cell T-ALL challenge. Timing/dose discrepancies and tumor-context limits remain unresolved; no MVA benefit or universal harm is inferred.",
-      "source_report": "workflow/track2-drug-census/clearance-and-fidelity.md",
+      "rationale": "Baker used INK-ATTAC/AP20187, not navitoclax. [Human phase I experience](https://pmc.ncbi.nlm.nih.gov/articles/PMC4979082/) found platelet toxicity with intermittent as well as continuous exposure; sparing megakaryocytes does not establish survival of BCL-XL-dependent platelets. No pediatric MVA senolytic pulse schedule or approved-product eligibility was established here. A separate paclitaxel mouse study reports neurovascular/BBB/cognitive benefit; measured muscle tests had no injury deficit to rescue. Navitoclax worsened a distinct chemotherapy-pretreated minimal-cell T-ALL challenge. Timing/dose discrepancies and tumor-context limits remain unresolved; no MVA benefit or universal harm is inferred. A separate 2025 old-mouse navitoclax (ABT-263) experiment adds a normalized-grip benefit (printed 3.34 +/- 0.21, n=8, versus 2.55 +/- 0.19, n=14, g force/g body weight, p=0.0172), not an absolute-force or MVA rescue. Dose, attrition and cross-study comparisons require caution: the reported 23 percent gain disagrees with the ratio of the printed means, which is about 31 percent, so the percentage is not promoted here. Eight old mice died before baseline, two during vehicle dosing and six during navitoclax dosing; attributing those deaths to age does not establish absence of drug harm.",
+      "source_report": "workflow/track2-drug-census/muscle-senescence-qualification.md",
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC4979082/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC10352561/",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6818774/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6818774/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12341784/"
       ]
     },
     {
@@ -1349,14 +1350,15 @@
       ],
       "route": "STLC and monastrol / Eg5 force balancing",
       "disposition": "conditional motor-force comparator; whole-population fidelity unresolved",
-      "rationale": "Actual inhibitors shorten delayed mitosis and partly improve fibers after HMMR depletion. Timing analysis selects cells already having aligned chromosomes and normal bipolar spindles; mispositioning persists. Main/supplemental concentrations differ. Genetic chromosome counts cannot establish drug-treated faithful output. A separate LIC-depletion study actually uses STLC: depleted frog embryos gain bipolar spindles but retain abnormal categories, while depleted HeLaM cells lose bipolar prevalence and become predominantly monopolar. Control cells/embryos also become predominantly monopolar. Fixed distributions do not track individual cell transitions; these are lesion/model-specific structural effects, not completed faithful divisions.",
+      "rationale": "Actual inhibitors shorten delayed mitosis and partly improve fibers after HMMR depletion. Timing analysis selects cells already having aligned chromosomes and normal bipolar spindles; mispositioning persists. Main/supplemental concentrations differ. Genetic chromosome counts cannot establish drug-treated faithful output. A separate LIC-depletion study actually uses STLC: depleted frog embryos gain bipolar spindles but retain abnormal categories, while depleted HeLaM cells lose bipolar prevalence and become predominantly monopolar. Control cells/embryos also become predominantly monopolar. Fixed distributions do not track individual cell transitions; these are lesion/model-specific structural effects, not completed faithful divisions. A separate CENP-W-depleted HeLa experiment used monastrol at 100 micromolar for the final 4 hours of a 48-hour siRNA transfection: supernumerary centrosomal foci (Figure 4B) and abnormal centriole splitting (Figure 5A) fell in CENP-W-depleted cells. The bipolarity observation runs the other way. The authors report that CENP-W depletion counteracts monastrol's monopolar arrest, with over 50% of observed mitotic spindles apparently bipolar under the combined perturbation, against more than 90% of monastrol-treated control cells showing two adjacent centriole pairs at the centre of a monopolar spindle. No bipolar rate is reported for CENP-W depletion without monastrol, so the drug is not shown to add bipolarity to the lesion, and that observation must not be listed as a third drug benefit. Fixed snapshots do not establish completed faithful descendants; this lesion accumulates BubR1 rather than modeling BUBR1 insufficiency.",
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC5905292/",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4242835/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4242835/",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0106464"
       ],
-      "evidence_scope": "Targeted primary qualification of distinct HMMR and LIC studies; new Figure9/TablesS1-S2 independently checked. Intervention/model scopes remain separate.",
+      "evidence_scope": "Targeted primary qualification of distinct HMMR and LIC studies; new Figure 9 and Tables S1-S2 independently checked. Intervention/model scopes remain separate. Additional CENP-W source: complete main text and legends, without figure/supplement/movie inspection.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "source_report": "workflow/track2-drug-census/intervention-identity-followup.md"
+      "source_report": "workflow/track2-drug-census/mitotic-qualification.md"
     },
     {
       "decision_id": "new-channel-blockers",
@@ -1755,6 +1757,74 @@
       "evidence_scope": "Primary abstract, all Results/Discussion/Experimental subsections and supplemental captions read; selected Figures2/3/7 and S10 visually inspected, with independent integrating-reviewer checks of7/S10. Raw data not shared by source; no whole-paper visual audit or new biological experiment.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
       "source_report": "workflow/track2-drug-census/mebendazole-qualification.md"
+    },
+    {
+      "decision_id": "new-protame",
+      "match_aliases": [
+        "proTAME"
+      ],
+      "route": "proTAME / APC/C substrate-preservation probe",
+      "disposition": "retain mechanistic comparator; decline current medication lead",
+      "rationale": "In DNA-PKcs-deficient cells challenged with nocodazole, 12 micromolar proTAME raises selected mitotic substrates and phosphorylation signals, quantified across three separate experiments with abundance normalized to Ku80 and phosphosignals to their own total protein. In HeLa (Figure 7) proTAME significantly raised anillin, cyclin B1, securin, Aurora A pT288, PLK1 pT210 and TPX2 pS121. In A549 (Figure 8) only anillin, cyclin B1, securin and TPX2 pS121 rose significantly; PLK1 pT210 was unchanged on both normalizations, and Aurora A pT288 relative to total Aurora A was significantly lower under proTAME than in untreated deficient cells, from a baseline not significantly different from DNA-PKcs-proficient controls. The paper cites panels 8F, 8G, 8I and 8J as rescue evidence; those panels do not show it. Anillin in A549 overshoots the proficient control. This is a direction reversal on an Aurora-A activation marker, not merely a smaller effect. proTAME was administered only to DNA-PKcs-deficient cells and only under nocodazole: there is no proficient-genotype drug arm and no arm in which a spindle could form. Because APC/C inhibition is unconditional while BUBR1 restraint is attachment-conditional, preserved securin and cyclin B1 are the signature of maintained mitotic arrest, not of corrected division. Bulk arrested-cell lysates do not establish per-cell checkpoint correction, BUBR1 restoration, faithful descendants or muscle output. The probe is retained for the APC/C node, not as a route to restore faithful division; a washout experiment producing more absolute faithful daughters would be the test that could overturn that reading. proTAME is a research-tool prodrug supplied in the saved source as a DMSO reagent stock, with no match in the saved 14,882-entity clinical and approval catalog and no human exposure in the reviewed record. It is not eligible as a repurposing candidate; it is retained only as a mechanism probe.",
+      "evidence_scope": "Complete Douglas main text and nine figure legends; Figures 7 and 8 visually checked. Original biochemical comparisons, not a completed-division or muscle rescue assay.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/mitotic-qualification.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32284347/"
+      ]
+    },
+    {
+      "decision_id": "new-apcin",
+      "match_aliases": [
+        "Apcin"
+      ],
+      "route": "Apcin / distinct APC/C interaction comparator",
+      "disposition": "retain negative mechanistic comparator; decline transfer of proTAME rescue",
+      "rationale": "Apcin at 48 micromolar fails to reproduce the proTAME mitotic-substrate rescue in nocodazole-challenged DNA-PKcs-deficient HeLa cells, where it is inert on every panel. That inertness is a HeLa statement: in A549 apcin significantly lowered total Aurora A, Aurora A pT288, PLK1 pT210 and TPX2 pS121 below the untreated deficient condition, so it is not inert there but suppressive. The saved source's own no-effect summary does not cover A549. The combination of proTAME and apcin returns the panels to the deficient level or below, but no panel reports a combination-versus-proTAME-alone comparison; every bracket anchors to the deficient plus nocodazole bar, and the combination outcome appears only in the Discussion. Antagonism is therefore isolated only in HeLa, and in A549 apcin's own suppression competes with antagonism as the explanation. Alternative degradation is an author-proposed hypothesis, not a demonstrated mediator. This is context-specific biochemical counterevidence, not proof of universal inefficacy or toxicity, and no MVA muscle benefit or therapeutic window is established. Apcin is likewise a research tool with no match in the saved clinical and approval catalog; it is retained as a negative mechanistic comparator, not a medication lead.",
+      "evidence_scope": "Complete Douglas main text and nine figure legends; Figures 7 and 8 visually checked. Original biochemical comparisons, not a completed-division or muscle rescue assay.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/mitotic-qualification.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32284347/"
+      ]
+    },
+    {
+      "decision_id": "new-fisetin",
+      "route": "Fisetin / senotherapeutic muscle support",
+      "match_aliases": [
+        "fisetin"
+      ],
+      "disposition": "conditional muscle-function research reserve; do not replace current primary comparison",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys; no selected experiment administered fisetin to a BUBR1-deficient or MVA model. The reserve is held because the saved reviews report that p16-positive fibro-adipogenic progenitors accumulate in BubR1-insufficient mice and that genetic p16 inactivation there attenuated loss of muscle mass and strength, the same FAP lesion fisetin acted on in Zmpste24-deficient muscle. That is a review's secondhand account of transgenic clearance, not an administered drug and not primary evidence here: it motivates the reserve and supplies no efficacy.",
+      "evidence_scope": "Administered fisetin improves distinct whole-animal mouse function measures; progeria co-culture supports a muscle-niche mechanism.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9745459/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12341784/",
+        "https://www.ors.org/wp-content/uploads/AM25/429.pdf",
+        "https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2022-08061"
+      ],
+      "source_report": "workflow/track2-drug-census/muscle-senescence-qualification.md",
+      "rationale": "Administered dose, 2025 aging study: fisetin 100 mg/kg/day by oral gavage, one week on / two weeks off / one week on, with functional testing about two weeks after the last dose. The Methods print 50 mg/kg/day, but that paragraph is a near-verbatim reuse of the same group's Mahoney 2024 cohort description (100 mg/kg/day, same vehicle, same schedule, same group sizes), 50 mg/kg/day is this paper's ABT-263 dose, and Figure 1A states 100. Treat 100 mg/kg/day as administered and the Methods value as a transcription error; the 2025 muscle outcomes are a new readout on the 2024 cohort, not an independent replication of it. Progeria arm: Zmpste24-deficient mice dosed from 4 months of age with fisetin 100 mg/kg by oral gavage once weekly for 4 weeks (four doses; 10 mg/mL stock in 10% ethanol / 90% PEG-400); controls were Zmpste24-deficient mice given the same volume of that vehicle, with the volume not stated in the source. That is a far lower weekly exposure, in a different vehicle, than the 2025 regimen, and the whole-animal strength gain came from four oral doses. Fisetin improved mean holding impulse in those mice (Figure 5B, p<0.01, n=6) in a study reporting no randomization and no blinding, using a hang test scored from the single longest trial and multiplied by body weight. Normalized forelimb grip improved in old mice (3.30 versus 2.90 g force/g body weight, p=0.0038, n=30 per group; the same arm is n=39 for frailty, with the 9-animal gap unexplained). Absolute force was not measured, but Table 2 shows no fisetin effect on soleus, gastrocnemius, tibialis anterior or quadriceps mass, so this is force per unit mass and not a mass rescue. The two animal endpoints depend on body weight in opposite directions (progeria impulse multiplies by it, aging grip divides by it), so no single body-weight artifact explains both. The 2025 study randomized, matched baseline body weight and blinded data collection; the 2022 progeria study did neither. Selective clearance is demonstrated in vitro only: 20 micromolar fisetin raised TUNEL-positive apoptosis in Zmpste24-deficient fibro-adipogenic progenitors but not wild-type ones, with wild-type progenitor and wild-type FAP control arms. In vivo only marker counts on sections were measured, so what was actually cleared is unknown, and selectivity is untested in aneuploid tissue, where the senescent compartment may be the aneuploid cells this patient depends on. That specific question, not a generic unknown, is what an MVA research test must measure. An FDA-IND phase I/II randomized, double-blind, placebo-controlled knee-osteoarthritis trial (74 randomized: 34 fisetin, 40 placebo; oral fisetin 20 mg/kg/day for 2 consecutive days per cycle, 3 cycles, 28 days off) found no between-group benefit on 6-minute walk, 40-metre walk, timed-up-and-go, isokinetic knee strength, gait kinetics, pain, patient-reported outcomes or cartilage T2 (all p>0.05), with no change over time in either arm. Its primary endpoint was 12-month safety and it found no adverse-event difference (185 adverse events; 4 serious, 2 per arm, all unrelated surgeries). Read that as a 12-month randomized adult safety dataset with no efficacy signal at low intermittent exposure in a non-declining population, not as evidence against benefit where a muscle deficit exists, and not as pediatric safety."
+    },
+    {
+      "decision_id": "new-dasatinib-quercetin",
+      "route": "Dasatinib plus quercetin / combination-specific muscle senotherapeutic",
+      "match_aliases": [
+        "dasatinib plus quercetin",
+        "dasatinib and quercetin",
+        "D+Q senolytic combination"
+      ],
+      "disposition": "combination-only conditional muscle-function reserve; no monotherapy inheritance",
+      "bub1b_variant_efficacy": "Not established. No selected administered-combination experiment uses a BUBR1/MVA model.",
+      "evidence_scope": "Isolated EDL specific-force result plus separate old-female normalized-grip result, with no demonstrated mass rescue.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11009189/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9491365/",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f60261dd-b8ea-4511-bed6-ad6d7f4dd828",
+        "https://pubmed.ncbi.nlm.nih.gov/36857968/"
+      ],
+      "source_report": "workflow/track2-drug-census/muscle-senescence-qualification.md",
+      "rationale": "The actual gavaged mixture (dasatinib 5 mg/kg plus quercetin 50 mg/kg, 3 consecutive days every 15 days for 7 months) improves isolated extensor digitorum longus force in female Sod1-knockout mice. Maximal force (Figure 5A) and specific force (Figure 5B) both show a significant genotype-by-treatment interaction favouring the knockout (p=0.0334 and p=0.0016, two-way ANOVA); only the specific-force panel carries a Tukey post hoc bracket between Sod1KO-vehicle and Sod1KO-D+Q. Absolute force moves in the same direction but is not separately significant within the knockout, so credit specific force and treat absolute force as directionally consistent and unconfirmed; the authors call it modest protection in specific force generation. A separate study normalized grip in aged females. Neither rescued muscle mass, and the Sod1KO study rescued neither neuromuscular-junction fragmentation nor motor-neuron number. Both administered-combination muscle results are female-only: no male arm was tested in either study, and the aging paper's own marker data are sex-divergent (p16 higher in old males, p21 higher in old females) with the intervention run only in females. Male transfer is untested, not established. Neither selected study included a dasatinib-only or quercetin-only arm, so neither component inherits the result and synergy is untested. The quercetin actually administered in the human trial is a specific phytosome product, and no saved source supports equivalence of arbitrary quercetin products. A 12-person phase I, single-blind, single-centre placebo-controlled pilot (6 per arm, 9 doses over 3 weeks) was powered for feasibility and tolerability, not efficacy, and its exploratory function measures in fact favoured placebo (grip +1.8 versus +7.7 kg; 6-minute walk -6.4 versus +16.6 m; between-group 95% confidence intervals -1.6 to 13.4 and -1.0 to 46.9) in a D+Q arm with worse baseline forced vital capacity and less antifibrotic use. The only human muscle-function readout for this combination is null-to-unfavourable and confounded, not merely absent. Tolerability: 65 non-serious adverse-event reports in the D+Q arm versus 22 on placebo (event counts, not patient counts; 25 versus 4 graded severe), with no serious adverse event attributed to D+Q and no myelosuppression observed. The FDA label establishes pediatric dosing from 1 year of age (weight-banded, 40 to 100 mg once daily), with pharmacokinetics in 43 children and 97 chronic-phase CML children treated a median 51.1 months, so pediatric exposure at senolytic-relevant daily doses is characterized; what is missing is any intermittent, non-oncology schedule in children. The label's pediatric-specific hazard is skeletal: bone growth and development reactions in 5 of 97 (5.2%) after at least 2 years of continuous dosing, one Grade 3 growth retardation, plus delayed epiphyseal fusion and osteopenia, and no data below 1 year. No pediatric MVA senolytic window is established, and the growth-plate signal is the specific risk to weigh for a growing child. No BUBR1 or chromosome-fidelity rescue is demonstrated; retain a combination-only reserve."
     }
   ]
 }

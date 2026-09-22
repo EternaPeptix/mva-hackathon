@@ -42,7 +42,7 @@ its half-life or reader function. The supplement compares two treated genotypes
 without concurrent knockout plus vehicle; it cannot show abolished drug benefit
 within knockout mice. This is a real other-tissue protein-availability lead,
 with no demonstrated muscle benefit or reason yet to replace the current pair.
-The ledger now has **104 route/compound appraisals**. The table above preserves
+The ledger held **104 route/compound appraisals** at that stage. The table above preserves
 the original abstract questions; this follow-up does not add another reading.
 
 ## Reading and source-quality boundaries

@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 104 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 108 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -229,6 +229,32 @@ The [additional 256 saved entries](next256-findings.md) bring outer coverage to
 1,649 source/ID records, with 4,110 saved abstracts still unread. Their strongest
 new other-tissue drug finding receives [primary qualification](mebendazole-qualification.md):
 mebendazole increases YTHDC1 and improves liver disease measures, with a material
-missing-control limitation on the claimed mechanism. Retaining this lead brings
-the ledger to **104 appraisals**. No muscle-performance or actual-MVA efficacy
+missing-control limitation on the claimed mechanism. Retaining this lead brought
+the ledger at that stage to **104 appraisals**. No muscle-performance or actual-MVA efficacy
 has been established for it, and it does not yet displace the nominated pair.
+
+
+## Senotherapeutic reserves and mitotic comparators from 512 further entries
+
+The [next 512 saved entries](next512-findings.md) bring outer coverage to 2,161
+source/ID records, with 3,598 saved abstracts still unread. Two primary
+follow-ups result.
+
+The [muscle-senescence qualification](muscle-senescence-qualification.md) adds
+fisetin and the dasatinib-plus-quercetin combination as conditional muscle-function
+reserves. Both earn genuine whole-animal credit: fisetin improves holding impulse
+in Zmpste24-deficient mice and normalises forelimb grip in old mice, and the
+combination improves isolated EDL specific force in female Sod1-knockout mice.
+Both results are body-weight-normalised or single-muscle measures rather than
+restored absolute force, the human trials report no functional advantage, and
+`prior-22` remains dasatinib alone and cannot inherit a combination effect.
+
+The [mitotic qualification](mitotic-qualification.md) adds proTAME and Apcin as
+mechanistic comparators, not medication leads. proTAME raises selected mitotic
+protein and phosphorylation signals in nocodazole-challenged DNA-PKcs-deficient
+cells; Apcin does not reproduce it, and their combination suppresses the
+response. These are bulk-lysate biochemical measurements in a different lesion,
+so they cannot supply per-cell checkpoint correction or faithful descendants.
+
+The ledger now holds **108 appraisals**. Nothing here establishes BUBR1
+restoration or MVA efficacy, and the nominated pair is unchanged.
