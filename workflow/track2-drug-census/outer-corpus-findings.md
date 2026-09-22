@@ -200,26 +200,19 @@ were read, without reselecting on their outcomes. Combined with the historical
 outside these selections.** Reviews, preprints and journal versions are not
 independent experiments merely because they have different record IDs.
 
-Fourteen records need primary qualification of the following findings. These
-are follow-up questions, not fourteen newly qualified medicines. An intervention
-unnamed in an abstract is unknown, not proof that the paper contains no drug.
+The fourteen flagged records have now received [targeted primary-source
+qualification](intervention-qualification.md). The original abstract questions
+remain in the unchanged assessment ledger; the deeper report identifies the
+actual interventions and endpoints. It strengthens BI2536's post-cytokinesis
+benefit while retaining control arrest, separates mirdametinib's cell experiment
+from SHP099's mouse result, and resolves the heart-RNA review and MAD2 preprint
+to their primary journal studies. It also corrects the myeloma interpretation:
+**MAD2 vector delivery was tested; CDC20 restoration was not demonstrated**.
 
-| Record | Finding worth qualifying | Question that determines competitiveness |
-|---|---|---|
-| [28441529](https://pubmed.ncbi.nlm.nih.gov/28441529/) | Mps1 inhibition restores attachments after PP2A-B56 depletion. | Which drug/regimen, and can cells then complete faithful divisions? |
-| [29386294](https://pubmed.ncbi.nlm.nih.gov/29386294/) | Eg5 inhibition alleviates attachment instability after HMMR depletion. | Is benefit confined to that motor-force imbalance, and are chromosome outcomes improved? |
-| [37039032](https://pubmed.ncbi.nlm.nih.gov/37039032/) | PLK1 inhibition rescues defects after UBAP2L loss. | Define excess PLK1, treatment window and complete-division outcomes before extending the existing PLK1 route. |
-| [40836035](https://pubmed.ncbi.nlm.nih.gov/40836035/) | HDAC6 inhibition causes mitotic defects through SAE2/SUMO1 regulation. | Resolve compound and exposure against the oocyte-rescue result; genetic rescue cannot establish a safe drug window. |
-| [30282810](https://pubmed.ncbi.nlm.nih.gov/30282810/) | JNK suppression prevents dysplasia in aneuploid fly intestinal cells. | Is the intervention pharmacological, and does tissue output improve without preserving abnormal clones? |
-| [30931927](https://pubmed.ncbi.nlm.nih.gov/30931927/) | SHP2 inhibition improves mouse insulin sensitivity. | Identify the intervention and distinguish metabolism from measured muscle function. |
-| [PPR721586](https://europepmc.org/article/PPR/PPR721586) | Bim loss and BCL2 excess protect different tissues under MAD2 excess. | Genetic preprint evidence: is there a tolerable drug implementation that preserves renewal and tumor restraint? |
-| [32854244](https://pubmed.ncbi.nlm.nih.gov/32854244/) | Kv10.1 drug inhibition and genetic depletion have different microtubule effects. | Does the actual inhibitor reproduce the genetic chromosome benefit? |
-| [39786467](https://pubmed.ncbi.nlm.nih.gov/39786467/) | Early immune checkpoint blockade benefits polymerase-mutator mice. | Which antibodies and risk context? Point-mutation burden is not interchangeable with BUB1B instability. |
-| [39544432](https://pubmed.ncbi.nlm.nih.gov/39544432/) | A review describes STEMIN/YAP5SA RNA delivery and heart contractility recovery. | Locate the primary experiment; distinguish delivered RNA, completed divisions and organ function from review-level claims. |
-| [39838194](https://pubmed.ncbi.nlm.nih.gov/39838194/) | CDC20 depletion reduces errors during MPS1 inhibition. | Qualify intervention identity and faithful output before nominating a CDC20 inhibitor. |
-| [22132115](https://pubmed.ncbi.nlm.nih.gov/22132115/) | Restoring low MAD2/CDC20 improves myeloma segregation. | Establish the administered intervention and baseline deficit; this is not the same direction as CDC20 inhibition. |
-| [27558554](https://pubmed.ncbi.nlm.nih.gov/27558554/) | Added BMP4 restores differentiation of trisomic mouse ES cells. | Determine lineage, regimen, durable function and tumor behavior; differentiation is not chromosome correction. |
-| [29549256](https://pubmed.ncbi.nlm.nih.gov/29549256/) | PLK1 inhibition promotes abnormalities and polyps in an APC-truncated context. | Identify compounds and schedules to qualify existing PLK1 alternatives with actual counterevidence. |
+This is completion of the selected follow-up appraisal, not fourteen qualified
+medicines, fourteen independent new studies or closure of all biological gaps.
+The genetic JNK/BIM/BCL2 results and administered BMP4/anti-PD-1 results retain
+their positive findings and distinct practical limitations.
 
 Other abstracts reinforce the output-versus-selection distinction. GSK923295
 impaired liver regeneration while inhibiting tumors
@@ -232,6 +225,6 @@ The [primary qualification](clearance-and-fidelity.md) separately resolves earli
 follow-ups: PZ15227 versus DT2216, navitoclax, gedatolisib, SB-431542, EPZ-5676,
 nucleoside supplementation and specific kinase/phosphatase experiments. It
 credits positive results while preserving compound, regimen and endpoint limits.
-The new abstract leads leave the user's no-further-leads publication condition
+The qualified alternatives leave the user's no-further-leads publication condition
 unmet. Niacin/apitegromab remain nominated research hypotheses under the same
 requirement for useful function, renewal and chromosome fidelity.

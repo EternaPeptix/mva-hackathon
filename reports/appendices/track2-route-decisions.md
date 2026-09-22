@@ -158,3 +158,11 @@ growth among equal reseeded survivors from net output, full drug identity from
 shared target, and more divisions from chromosome-quality evidence. These
 comparisons leave niacin/apitegromab as research nominations; they do not infer
 clinical superiority or a pediatric regimen.
+
+The [intervention table](../../workflow/track2-drug-census/intervention-qualification.md)
+qualifies the remaining ranked leads. It credits BI2536's post-division defect
+reduction alongside control arrest, RNA-combination heart function and
+antibody-specific preventive survival. It keeps SHP099 mouse outcomes separate
+from mirdametinib cell pharmacology, and identifies genetic-only JNK, MAD2 and
+BIM/BCL2 precedents. The table supplies the positive evidence and concrete reason
+each remains a conditional comparator or development route.

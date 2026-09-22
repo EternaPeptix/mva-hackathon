@@ -702,3 +702,11 @@ attachments during arrest do not establish faithful descendants. A gedatolisib
 cell-size experiment is a conditional reserve, not evidence for everolimus or
 a new primary claim. Any reserve promoted after model qualification requires
 a separate prospective design; it does not join the four core claims by default.
+
+The [intervention check](../../workflow/track2-drug-census/intervention-qualification.md)
+adds a direct reason to retain affected and corrected controls through the full
+experiment: a regimen can reduce post-division defects in the perturbed cells
+while arresting controls. Genetic protein depletion and drug inhibition can also
+have opposite effects. Qualify the actual drug and regimen, and retain absolute
+output and chromosome outcomes after withdrawal; neither a favorable genetic
+result nor selected bipolar cells can supply the missing whole-population result.

@@ -358,3 +358,11 @@ separately from abstract assessments. No source reading is converted into a
 numerical MVA efficacy estimate. `verify_census.py` reconciles saved selection,
 identity, depth and coverage claims; it does not validate biological efficacy or
 independently reproduce human/animal experiments.
+
+The [intervention/endpoint qualification](intervention-qualification.md) checks
+all fourteen primary follow-ups from the final ranked selection. It resolves
+drug identities, genetic-versus-pharmacological effects, positive organ outcomes
+and control harm; it does not change the historical abstract-reading ledgers or
+claim full-text review of all ranked records. The decision ledger now contains
+87 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 87 approved medicines.

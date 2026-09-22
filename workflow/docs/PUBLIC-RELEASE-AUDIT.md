@@ -469,3 +469,21 @@ The exact Track 1 uploads, movie, captions, slides and narration are unchanged.
 A stale methods sentence was corrected to acknowledge the completed revised
 movie. No new rubric score, wet-lab result, public release or Track 2 submission
 is claimed. Further primary leads remain; niacin/apitegromab remain hypotheses.
+
+### 21 September 2026: intervention and endpoint qualification
+
+The fourteen follow-ups from the final ranked selection now have targeted
+primary-source assessments. One new comparison document resolves named drugs,
+genetic interventions, organ-function results and control harm. Eight additional
+route/compound appraisals bring the ledger to 87; this includes research tools
+and a combination RNA program, not 87 approved medicines. The myeloma summary
+is corrected to demonstrated MAD2 vector delivery, without CDC20-restoration
+attribution. The existing abstract/selection ledgers remain unchanged.
+
+The new document contains original interpretation and public source links.
+Primary bodies, figures and external reviewer notes remain outside Git. Source
+identity fields and the baseline release inventory are preserved. Track 1 upload
+artifacts and current pitch media remain unchanged. This is a private research
+update; it supplies no new biological validation, rubric score, publication or
+Track 2 submission. The alternatives do not establish the conditional absence
+of further leads.

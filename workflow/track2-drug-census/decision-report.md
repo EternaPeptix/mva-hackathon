@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 79 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 87 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -168,6 +168,13 @@ PZ15227 and DT2216 remain different compounds: equal survivor reseeding limits
 the former's growth claim, while the latter has human platelet toxicity and a
 suspended pediatric combination trial. SB-431542, EPZ-5676 and a nucleoside
 mixture receive explicit positive findings and reasons for remaining reserves.
-The completed 419-record ranking still yields primary follow-ups, including
-Eg5 compensation and BMP4 differentiation. No absence-of-further-leads claim
-or new submission is justified by this pass.
+The [intervention check](intervention-qualification.md) qualifies all fourteen
+follow-ups flagged by the final ranked selection. BI2536's reduction of
+post-cytokinesis defects strengthens a conditional route, while control-cell
+arrest and distinct volasertib tumor findings narrow it. BMP4 differentiation,
+combination-RNA heart function and clone-specific anti-PD-1 survival are real
+positive results with different intervention and tissue boundaries. Mirdametinib
+is an implemented existing-active-ingredient probe; SHP099 supplies the separate
+mouse metabolic benefit. Kv10.1 knockdown, MAD2 restoration and CDC20 reduction
+cannot be relabeled drug rescue. The alternatives remain substantive; no
+absence-of-further-leads claim or new submission follows.

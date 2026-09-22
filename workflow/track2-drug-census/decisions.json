@@ -197,13 +197,14 @@
       "disposition": "conditional mechanism experiment, decline muscle-rescue lead",
       "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "MG132 preservation was not demonstrated drug-mediated checkpoint rescue; N1002K was untested. Proteasome blockade can itself prevent mitotic exit, confounding an arrest-only rescue assay. The [pediatric bortezomib/vorinostat trial](https://pubmed.ncbi.nlm.nih.gov/22887890/) does not establish BUB1B selectivity; no starting renal adjustment in the [label](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=0eb8daef-18da-43bb-b7c6-38c4c8b5dd80&type=display) is not proof of safety in nephrocalcinosis.",
+      "rationale": "MG132 preservation was not demonstrated drug-mediated checkpoint rescue; N1002K was untested. Proteasome blockade can itself prevent mitotic exit, confounding an arrest-only rescue assay. The [pediatric bortezomib/vorinostat trial](https://pubmed.ncbi.nlm.nih.gov/22887890/) does not establish BUB1B selectivity; no starting renal adjustment in the [label](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=0eb8daef-18da-43bb-b7c6-38c4c8b5dd80&type=display) is not proof of safety in nephrocalcinosis. A later CDC20 study also used MG132 to improve alignment during blocked mitotic exit, without a washout/faithful-lineage result. Its separate CDC20 genetic reduction protected reversine-challenged cancer cells; neither result supplies bortezomib muscle efficacy.",
       "source_report": "reports/appendices/track2-route-decisions.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/20516114/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC11611680/",
         "https://pubmed.ncbi.nlm.nih.gov/22887890/",
-        "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=0eb8daef-18da-43bb-b7c6-38c4c8b5dd80&type=display"
+        "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=0eb8daef-18da-43bb-b7c6-38c4c8b5dd80&type=display",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11850905/"
       ]
     },
     {
@@ -867,20 +868,25 @@
       "decision_id": "new-plk1-reduction",
       "match_aliases": [
         "BI2536",
-        "BI 2536"
+        "BI 2536",
+        "volasertib",
+        "BI6727",
+        "BI 6727"
       ],
-      "route": "PLK1 normalization / BI2536",
-      "disposition": "retain same-disease cellular comparator; limited administered-drug precedent",
-      "evidence_scope": "Original figures/supplement for RNAi; primary 2015 body reports patient-drug result with data not shown; patient regimen unknown.",
+      "route": "PLK1 reduction / distinct BI2536 and volasertib findings",
+      "disposition": "strengthen defect-specific cellular comparator; retain control-arrest and tumor counterevidence",
+      "evidence_scope": "Patient ciliogenesis observation with data not shown; separate BI2536 post-division defect reduction/control arrest; distinct volasertib tumor counterevidence.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "PCS1 RNAi reduced centrosome amplification; it was not proven interphase-restricted. BI2536 separately reportedly partially restored patient ciliogenesis, with data not shown and no qualified patient dose/timing. Mitotic PLK1 also supports BUBR1/PP2A attachment, so normalization requires full-division and output testing. No drug-treated faithful patient divisions or muscle benefit established. A distinct B56-PP2A depletion study also restores cold-stable fibers under MG132 with named kinase inhibitors; arrest prevents treating this as accurate completed division.",
-      "source_report": "workflow/track2-drug-census/lead-qualification.md",
+      "rationale": "PCS1 RNAi reduced centrosome amplification; it was not proven interphase-restricted. BI2536 separately reportedly partially restored patient ciliogenesis, with data not shown and no qualified patient dose/timing. Mitotic PLK1 also supports BUBR1/PP2A attachment, so normalization requires full-division and output testing. No drug-treated faithful patient divisions or muscle benefit established. A distinct B56-PP2A depletion study also restores cold-stable fibers under MG132 with named kinase inhibitors; arrest prevents treating this as accurate completed division. BI2536 also reduced post-cytokinesis micronuclei after UBAP2L depletion, but the same regimen blocked control-HeLa mitotic progression; the public author response reports death without a quantified death denominator. Volasertib is a different PLK1 compound with abnormal-survivor and intestinal-adenoma counterevidence in APC-gene truncation. Regimen and animal-denominator conflicts remain unresolved. Neither effect transfers automatically between compounds or to healthy tissue.",
+      "source_report": "workflow/track2-drug-census/intervention-qualification.md",
       "source_urls": [
         "https://www.nature.com/articles/onc2009141/figures/7",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC5099117/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC3910577/",
         "https://pubmed.ncbi.nlm.nih.gov/23079597/",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3186838/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3186838/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10240199/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5856809/"
       ]
     },
     {
@@ -1026,17 +1032,20 @@
       "decision_id": "new-hdac6-compensation",
       "match_aliases": [
         "tubacin",
-        "tubastatin A"
+        "tubastatin A",
+        "ACY-738",
+        "ACY738"
       ],
-      "route": "HDAC6 inhibition / tubacin and tubastatin A",
-      "disposition": "retain defined-lesion spindle-compensation precedent",
-      "evidence_scope": "Primary text, selected original figures and TUBB8 supplementary S11 inspected.",
+      "route": "HDAC6 inhibition / distinct tubacin, tubastatin A and ACY-738 findings",
+      "disposition": "retain lesion-specific compensation with drug-specific spindle counterevidence",
+      "evidence_scope": "Primary text/captions for ACY-738; earlier selected original figures and TUBB8 supplementary S11 for tubacin/tubastatin.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Tubacin 2 micromolar/Tubastatin A 10 micromolar improve engineered TUBB8-D417N mouse-oocyte morphology/maturation. Small S11 chromosome counts (30/34/26) show low rates and nonsignificant comparisons, not demonstrated aneuploidy correction/equivalence. Tubacin impairs WT-TUBB8-mRNA control maturation (rough visual 70% to43%) while benefiting some variants; R262W/N348S lack significant benefit. No offspring or muscle rescue; require lesion-specific productive-division window.",
-      "source_report": "workflow/track2-drug-census/translation-qualification.md",
+      "rationale": "Tubacin 2 micromolar/Tubastatin A 10 micromolar improve engineered TUBB8-D417N mouse-oocyte morphology/maturation. Small S11 chromosome counts (30/34/26) show low rates and nonsignificant comparisons, not demonstrated aneuploidy correction/equivalence. Tubacin impairs WT-TUBB8-mRNA control maturation (rough visual 70% to43%) while benefiting some variants; R262W/N348S lack significant benefit. No offspring or muscle rescue; require lesion-specific productive-division window. Separately, ACY-738 at2.5 micromolar increased multipolar spindles in U2OS cells, including untransfected controls. Genetic SAE2 micronucleus outcomes and SUMO1 rescue remain separate. This is compound/context-specific counterevidence, not a universal class contraindication or a demonstrated muscle effect.",
+      "source_report": "workflow/track2-drug-census/intervention-qualification.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/39834092/",
-        "https://pubmed.ncbi.nlm.nih.gov/33195286/"
+        "https://pubmed.ncbi.nlm.nih.gov/33195286/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12489036/"
       ]
     },
     {
@@ -1307,6 +1316,140 @@
       "evidence_scope": "Targeted primary-source qualification; distinct compound/model/endpoints and reading limits in linked report.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
       "source_report": "workflow/track2-drug-census/clearance-and-fidelity.md"
+    },
+    {
+      "decision_id": "new-reversine-balancing",
+      "match_aliases": [
+        "reversine"
+      ],
+      "route": "Reversine / MPS1 inhibition after B56 loss",
+      "disposition": "attachment-balancing research comparator; no completed-division benefit established",
+      "rationale": "Reversine200nM/50min improved cold-stable fibers after B56 depletion, under MG132 exit blockade. Genetic Ska outcomes and engineered rapamycin recruitment are separate interventions. No sustained faithful descendants or therapeutic exposure window is established.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5477644/"
+      ],
+      "evidence_scope": "Targeted primary-source qualification; intervention, model, endpoint and source-reading limits in linked report.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/intervention-qualification.md"
+    },
+    {
+      "decision_id": "new-eg5-balancing",
+      "match_aliases": [
+        "S-trityl-L-cysteine",
+        "STLC",
+        "monastrol"
+      ],
+      "route": "STLC and monastrol / Eg5 force balancing",
+      "disposition": "conditional motor-force comparator; whole-population fidelity unresolved",
+      "rationale": "Actual inhibitors shorten delayed mitosis and partly improve fibers after HMMR depletion. Timing analysis selects cells already having aligned chromosomes and normal bipolar spindles; mispositioning persists. Main/supplemental concentrations differ. Genetic chromosome counts cannot establish drug-treated faithful output.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5905292/"
+      ],
+      "evidence_scope": "Targeted primary-source qualification; intervention, model, endpoint and source-reading limits in linked report.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/intervention-qualification.md"
+    },
+    {
+      "decision_id": "new-channel-blockers",
+      "match_aliases": [
+        "mAb56",
+        "AnCoA4"
+      ],
+      "route": "Distinct Kv10.1 and ORAI1 blockers / mAb56 and AnCoA4",
+      "disposition": "retain mechanism tools; decline transfer of genetic chromosome benefit",
+      "rationale": "KCNH1 siRNA reduces lagging-chromosome-positive anaphases, but mAb56 and AnCoA4 reduce microtubule dynamicity in the opposite direction from knockdown. The blocker assay imposes monopolar spindles; neither drug demonstrates the genetic fidelity benefit. The mAb56 source concentration unit is unresolved. Targets and compounds are not interchangeable.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7564071/"
+      ],
+      "evidence_scope": "Targeted primary-source qualification; intervention, model, endpoint and source-reading limits in linked report.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/intervention-qualification.md"
+    },
+    {
+      "decision_id": "new-bmp4",
+      "match_aliases": [
+        "BMP4",
+        "BMP-4"
+      ],
+      "route": "BMP4 / trisomic-cell differentiation compensation",
+      "disposition": "retain differentiation research comparator; no muscle-function or tumor benefit attributed",
+      "rationale": "Research BMP4 at100ng/mL partly improves embryoid-body cavitation and size, with timing dependence. Cardiac beating, chromosome normalization and teratoma outcomes belong to separate baseline or genetic-selection experiments. Independent culture-batch n and a clinical BMP implementation are unresolved.",
+      "source_urls": [
+        "https://www.embopress.org/doi/full/10.15252/embj.201593103"
+      ],
+      "evidence_scope": "Targeted primary-source qualification; intervention, model, endpoint and source-reading limits in linked report.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/intervention-qualification.md"
+    },
+    {
+      "decision_id": "new-shp099",
+      "match_aliases": [
+        "SHP099",
+        "SHP-099"
+      ],
+      "route": "SHP099 / insulin-receptor feedback",
+      "disposition": "retain metabolic research comparator; muscle benefit unsupported",
+      "rationale": "Actual SHP099 improves glucose and insulin tolerance in mice after high-fat feeding, with a shared normal-chow switch before dosing. Enhanced signaling is predominantly hepatic; muscle AKT is similar to vehicle and muscle function untested. BUBR1 deficiency already delays receptor uptake in prior work; further SHP2 inhibition is not demonstrated correction of an MVA muscle defect.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6443781/"
+      ],
+      "evidence_scope": "Targeted primary-source qualification; intervention, model, endpoint and source-reading limits in linked report.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/intervention-qualification.md"
+    },
+    {
+      "decision_id": "new-mirdametinib",
+      "match_aliases": [
+        "mirdametinib",
+        "PD0325901",
+        "PD-0325901"
+      ],
+      "route": "Mirdametinib / PD0325901 receptor-trafficking probe",
+      "disposition": "implemented approved-active-ingredient probe; decline muscle lead on current evidence",
+      "rationale": "PD0325901 at10micromolar delays insulin-receptor endocytosis in cells and is FDA-identified as mirdametinib. Its2025 NF1 approval does not establish relevance of this exposure. Mouse glucose/insulin-tolerance benefit in the same paper belongs to SHP099, not mirdametinib. Cardiac and ocular clinical risks and absence of a corrected muscle endpoint remain material.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6443781/",
+        "https://precision.fda.gov/uniisearch/srs/unii/86k0j5ak6m",
+        "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-mirdametinib-adult-and-pediatric-patients-neurofibromatosis-type-1-who-have-symptomatic"
+      ],
+      "evidence_scope": "Targeted primary-source qualification; intervention, model, endpoint and source-reading limits in linked report.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/intervention-qualification.md"
+    },
+    {
+      "decision_id": "new-stemin-yap5sa",
+      "match_aliases": [
+        "STEMIN",
+        "YAP5SA"
+      ],
+      "route": "STEMIN plus YAP5SA / combination modified-RNA therapy",
+      "disposition": "retain organ-function development precedent; not an existing-medicine replacement",
+      "rationale": "Immediate local combination RNA treatment improves mouse post-infarct ejection fraction and scar at4weeks,4treated versus6controls. Neither RNA alone significantly improves ejection fraction. Productive chromosome-faithful daughter output, long-term tumor safety and skeletal-muscle benefit are unestablished; protocol timing/volume conflicts and baseline imbalance remain. The review and primary paper are not independent replication.",
+      "source_urls": [
+        "https://www.oaepublish.com/articles/jca.2022.20",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11560420/"
+      ],
+      "evidence_scope": "Targeted primary-source qualification; intervention, model, endpoint and source-reading limits in linked report.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/intervention-qualification.md"
+    },
+    {
+      "decision_id": "new-pd1-prevention",
+      "match_aliases": [
+        "RMP1-14",
+        "RMP-14",
+        "29F.1A12"
+      ],
+      "route": "Anti-mouse PD-1 research antibodies / clone-specific cancer prevention",
+      "disposition": "retain distinct preventive-oncology comparator; no human-product or muscle-efficacy transfer",
+      "rationale": "RMP1-14 increased Pold1-mutant mouse median survival133to342days,19control/14treated. Other clone/model combinations differed or failed. A nonsignificant tumor CNV comparison cannot establish chromosome correction. These are research antibodies; no efficacy is assigned to pembrolizumab/nivolumab, and MVA immunogenicity or acceptable preventive safety is not established.",
+      "source_urls": [
+        "https://doi.org/10.1158/0008-5472.CAN-24-2589",
+        "https://bioxcell.com/invivomab-anti-mouse-pd-1-cd279-be0146"
+      ],
+      "evidence_scope": "Targeted primary-source qualification; intervention, model, endpoint and source-reading limits in linked report.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/intervention-qualification.md"
     }
   ]
 }
