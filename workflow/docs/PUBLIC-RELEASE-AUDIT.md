@@ -634,6 +634,25 @@ are preserved, alongside exposure, attribution, model and functional limits.
 Niacin/apitegromab remain provisional nominations; no MVA efficacy is established.
 The 3,412-string revalidation queue and remaining source questions stay open.
 
+## Further source readings and research reagents, 22 September 2026
+
+The [128-record addition](../track2-drug-census/next128-revalidation-findings.md)
+preserves the original 186 accepted revalidations and adds 128 separately read
+abstracts in the existing order. Its ledger contains original interpretation,
+public bibliographic/version metadata and external-source hashes; raw abstracts
+and reading logs remain external. The verifier distinguishes local identity
+checks from replay requiring the original retrievals and external evidence.
+
+The [three-paper comparison](../track2-drug-census/vascular-enzyme-qualification.md)
+adds six intervention appraisals. It includes research-reagent supply identities,
+controlled mouse organ-protection findings, vascular-lesion results and a Pompe
+enzyme-replacement transcript response. Drug and genetic interventions remain
+separate; no MVA efficacy or comparative clinical probability is inferred.
+The resulting 122 appraisals and 2,475 outer records leave 3,284 source strings
+pending. No raw literature or new controlled case payload is added. Track 1
+upload artifacts and current pitch media are unchanged; this remains a private
+draft update without publication or submission.
+
 ## PR1 reconciliation, 22 September 2026
 
 The [PR1 reuse comparison](../track2-drug-census/pr1-reuse.md) reconciles revision

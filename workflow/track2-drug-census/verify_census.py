@@ -241,6 +241,30 @@ def main():
     if (P/'outer-revalidation-review.json').exists():
         from verify_revalidation import check as check_revalidation
         check_revalidation()
+    if (P/'outer-revalidation-next128-review.json').exists():
+        # Repository-only identity/count checks. Full literal-source evidence is
+        # separately checked with verify_revalidation_next128.py and external inputs.
+        parent=json.loads((P/'outer-revalidation-selection.json').read_text())
+        prior=json.loads((P/'outer-revalidation-review.json').read_text())
+        selection_path=P/'outer-revalidation-next128-selection.json'
+        selection=json.loads(selection_path.read_text())
+        review=json.loads((P/'outer-revalidation-next128-review.json').read_text())
+        key=lambda r:(r['source'],r['record_id'])
+        excluded={key(r) for r in prior['records']}
+        pending=[r for r in parent['records'] if key(r) not in excluded]
+        assert selection['records']==pending[:128]
+        assert review['selection_sha256']==hashlib.sha256(selection_path.read_bytes()).hexdigest()
+        assert review['excluded_review_sha256']==hashlib.sha256((P/'outer-revalidation-review.json').read_bytes()).hexdigest()
+        rows=review['records']
+        assert len(rows)==len({key(r) for r in rows})==review['reviewed_count']==128
+        assert [key(r) for r in rows]==[key(r) for r in selection['records']]
+        for row,selected in zip(rows,selection['records']):
+            assert all(row.get(k)==v for k,v in selected.items()),key(row)
+            assert row['review_depth']=='complete_saved_abstract' and row['note']
+            assert 'abstractText' not in row and 'originalnote' not in row
+        assert review['followup_count']==sum(r['requires_primary_followup'] for r in rows)
+        assert review['combined_outer_ledger_count']==prior['combined_outer_ledger_count']+len(rows)
+        assert review['pending_count']==len(pending)-len(rows)
     if (P/'literature-v2/summary.json').exists():
         from verify_rescreen import check as check_rescreen
         check_rescreen()

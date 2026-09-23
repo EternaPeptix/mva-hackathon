@@ -6,6 +6,11 @@ publication-hold status.
 [PR1 reuse](pr1-reuse.md) records which work is already incorporated, adds
 bounded UMK57 control findings, and preserves the later source corrections.
 
+The [three-paper comparison](vascular-enzyme-qualification.md) adds six
+intervention appraisals, including catalogue-listed research reagents. The
+[next 128 readings](next128-revalidation-findings.md) preserve new positive and
+adverse findings; 3,284 strings remain pending in the revalidation queue.
+
 **Catalog snapshot: 21 September 2026; corrected text screen: 22 September 2026,
 America/Phoenix (retrieval timestamps are UTC).**
 This is an enumerated, source-bounded census and retrieval screen. It does not
@@ -429,8 +434,8 @@ all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
 claim full-text review of all ranked records. The current decision ledger contains
-116 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 116 approved medicines.
+122 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 122 approved medicines.
 
 The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.
 
@@ -480,20 +485,28 @@ combination-specific; neither displaces the niacin/apitegromab comparison.
 
 The [quality follow-up](review-quality-followup.md) rejects an unreliable
 3,598-record draft's claim that all remaining abstracts were read faithfully.
-It instead admits 186 distinct literal-source re-readings, including four
-non-abstract strings, bringing the outer ledgers to 2,347 source/ID records;
-3,412 selected strings still require revalidation. The previous 2,161 entries
+The first correction admitted 186 distinct literal-source re-readings, including
+four non-abstract strings. The [next 128](next128-revalidation-findings.md) adds
+128 complete saved abstracts, bringing the outer ledgers to 2,475 source/ID
+records and leaving 3,284 selected strings pending. The previous 2,161 entries
 are preserved rather than independently re-audited here. Original empty fields
-and later recovered bodies remain separately accounted for.
+and later recovered bodies remain separately accounted for. The new batch flags
+52 primary-source questions; it is not 128 full-paper qualifications.
 
 [UMK57](umk57-qualification.md) adds actual acute and post-division fidelity
 evidence with limited durability, bringing that stage to 109 appraisals.
 The subsequent [six-paper qualification](protein-and-tissue-qualification.md)
-adds seven compound/tool appraisals and updates metformin, bringing the current
-ledger to **116**. This is not 116 approved drugs or independent studies. It
+adds seven compound/tool appraisals and updates metformin, bringing that stage's
+ledger to **116**. These are not 116 approved drugs or independent studies. It
 retains protein-specific stabilization, ex vivo progenitor support and an
 uncontrolled clinical neuromuscular response, while correcting overbroad organ
 recovery claims. None establishes MVA efficacy or changes the nominated pair.
+The [vascular/enzyme qualification](vascular-enzyme-qualification.md) then adds
+six appraisals from three primary studies, bringing the current total to **122**.
+Anti-KLK8 antibody earns controlled short-term survival/barrier evidence, K858
+earns vascular-lesion evidence, and alglucosidase alfa earns biochemical and
+BUB1B-transcript evidence in Pompe myocytes. Drug, genetic and control arms
+remain distinct; these findings do not change the nominated pair.
 A separate
 [text-decoder correction](decoder-alias-check.md) recovers 32 catalog-to-record
 co-mentions across 11 abstracts under the unchanged alias policy. The current

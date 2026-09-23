@@ -2,7 +2,13 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 116 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 122 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+
+The latest [three-paper comparison](vascular-enzyme-qualification.md) retains
+anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
+and a BUB1B RNA response to alglucosidase alfa in Pompe myocytes. Catalogue-listed
+research reagents are included on their measured merits. None yet justifies
+replacing the provisional niacin/apitegromab pair.
 
 ## The same comparison for leaders and challengers
 
@@ -263,8 +269,9 @@ restoration or MVA efficacy, and the nominated pair is unchanged.
 ## Source corrections and a further fidelity lead
 
 The [source revalidation](review-quality-followup.md) withdraws the proposed
-all-read/no-further-leads conclusion from an unreliable draft. There are 186
-newly re-read source records and 3,412 still requiring revalidation. The
+all-read/no-further-leads conclusion from an unreliable draft. The initial 186
+re-read source records plus the [next 128](next128-revalidation-findings.md)
+leave 3,284 selected strings requiring revalidation. The
 [UMK57 appraisal](umk57-qualification.md) adds a genuine acute and completed-division
 fidelity result in cancer cells, followed by limited durability. It is a
 mechanistic competitor, not an established MVA medicine. Apcin's context-dependent
@@ -274,7 +281,7 @@ is MVA-proven; absence of a replacement today is not proof of superiority.
 
 The [six-paper follow-up](protein-and-tissue-qualification.md) now qualifies
 CX-4945, metformin, Wy-14643, bFGF/collagenase, ephedrine/salbutamol and eplerenone.
-It adds seven compound/tool appraisals and updates metformin, for **116** total.
+It added seven compound/tool appraisals and updated metformin, for **116** at that stage.
 Protein-specific stabilization and ex vivo or reported clinical functional
 benefits retain positive credit; drug-assigned organ-function recovery is not
 shown for Wy-14643 or eplerenone. These are different sources and endpoints,
@@ -285,5 +292,7 @@ The [corrected catalog screen](literature-v2/summary.json) now propagates all
 recovered matches and source-role decisions into current coverage and triage:
 511 entities have specific co-mentions, while 14,846 remain without one. A
 match is not efficacy. The [primary-question status](primary-question-status.json)
-keeps unresolved work explicit, as do the 3,412 strings still requiring source
-revalidation. Publication/submission remains pending.
+now links nine of the original 34 questions to primary qualifications, leaving
+25 unreconciled there. The latest 128 abstracts add 52 further source questions;
+3,284 selected strings still require revalidation. Publication/submission remains
+pending.
