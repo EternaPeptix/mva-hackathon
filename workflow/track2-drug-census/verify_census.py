@@ -241,6 +241,9 @@ def main():
     if (P/'outer-revalidation-review.json').exists():
         from verify_revalidation import check as check_revalidation
         check_revalidation()
+    if (P/'literature-v2/summary.json').exists():
+        from verify_rescreen import check as check_rescreen
+        check_rescreen()
     if (P/'ema-identity-screen-summary.json').exists():
         identity=json.loads((P/'ema-identity-screen-summary.json').read_text())
         aliases=json.loads((P/'ema-recovered-aliases.json').read_text())

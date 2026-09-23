@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 109 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 116 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -272,7 +272,18 @@ direction, AICAR/ABT-263 combination results and a metformin protein-stabilizati
 precedent are kept at their qualified source depths. Neither existing nominee
 is MVA-proven; absence of a replacement today is not proof of superiority.
 
-CX-4945, Wy-14643, bFGF, neuromuscular and muscle-repair references remain open
-primary-source questions. The restored lexical matches are additional source
-pointers. Publication/submission remains pending while these scientific and
-coverage questions are resolved.
+The [six-paper follow-up](protein-and-tissue-qualification.md) now qualifies
+CX-4945, metformin, Wy-14643, bFGF/collagenase, ephedrine/salbutamol and eplerenone.
+It adds seven compound/tool appraisals and updates metformin, for **116** total.
+Protein-specific stabilization and ex vivo or reported clinical functional
+benefits retain positive credit; drug-assigned organ-function recovery is not
+shown for Wy-14643 or eplerenone. These are different sources and endpoints,
+not seven independent studies or seven approved medicines. None demonstrates
+MVA efficacy or currently changes the nominations.
+
+The [corrected catalog screen](literature-v2/summary.json) now propagates all
+recovered matches and source-role decisions into current coverage and triage:
+511 entities have specific co-mentions, while 14,846 remain without one. A
+match is not efficacy. The [primary-question status](primary-question-status.json)
+keeps unresolved work explicit, as do the 3,412 strings still requiring source
+revalidation. Publication/submission remains pending.

@@ -3,7 +3,8 @@
 Read [the decision report](decision-report.md) for new findings and the current
 publication-hold status.
 
-**Snapshot: 21 September 2026, America/Phoenix (retrieval timestamps are UTC).**
+**Catalog snapshot: 21 September 2026; corrected text screen: 22 September 2026,
+America/Phoenix (retrieval timestamps are UTC).**
 This is an enumerated, source-bounded census and retrieval screen. It does not
 estimate clinical efficacy or establish that the search contains every medicine
 worldwide. The manually reviewed decisions are separate from database coverage.
@@ -34,16 +35,18 @@ Missing annotations and unmatched names remain **UNKNOWN**.
   in the compact derived target table.
 - The literature corpus contains **7,362 Europe PMC records**, with abstracts for
   **7,191**. A separate gene-in-title/abstract query contains **1,460 records**.
-  The lexical screen finds **503 entities** with a sufficiently specific alias
-  co-mention (495 main-catalog, eight supplemental), producing **1,779 rows**;
-  **401 rows** also contain the gene name in title/abstract. The other **14,854
-  entities remain UNKNOWN**. **6,160 ambiguous co-mention rows** are retained
+  The [corrected lexical screen](literature-v2/summary.json) finds **511 entities**
+  with a sufficiently specific alias co-mention (503 main-catalog, eight
+  supplemental), producing **1,811 rows**; **401 rows** also contain the gene
+  name in title/abstract. The other **14,846 entities remain UNKNOWN**.
+  **6,195 ambiguous co-mention rows** are retained
   separately. These are retrieval counts, not counts of successful drug studies.
 
 The source versions and every downloaded response's URL, SHA-256 checksum,
 retrieval time and available HTTP modification date are in `provenance.json`.
 Machine-readable totals, including annotation coverage, are in `coverage.json`
-and `literature-coverage.json`. Do not substitute the above snapshot for current
+and `literature-v2/summary.json`; `literature-coverage.json` is the historical
+uncorrected screen. Do not substitute the above snapshot for current
 product-specific regulatory review. `approval-overrides.json` and
 `fda_freshness.py`, maintained separately, check selected later approval updates.
 The FDA supplement retains **40 2026 novel-approval products**: 36 have direct
@@ -126,7 +129,7 @@ cannot erase them or imply that BUB1B is undruggable.
 
 ## Literature matching and manual appraisal
 
-`literature_match.py` scans **titles and available abstracts**, not the full text
+[`literature_rescreen.py`](literature_rescreen.py) scans **titles and available abstracts**, not the full text
 of every article. The unrestricted Europe PMC query can retrieve records that
 mention the gene only in references/full text; an explicit field marks whether
 the title/abstract itself contains a gene literal. Punctuation and case are
@@ -141,6 +144,35 @@ Even specific generic-name hits can describe controls, assay reagents, harmful
 exposures, another disease, endogenous substances or background discussion.
 No hit means only **no specific catalog alias in the retrieved title/abstract**.
 
+
+The current `literature-v2/` layer preserves mathematical inequalities that the
+historical `literature_match.py` tag stripper could delete. The saved alias policy
+is unchanged. All 7,362 retained records are reprocessed, gaining 32 specific and
+35 ambiguous catalog-to-record matches with no losses. An independent replay
+using Python's HTML parser and a separate token matcher reproduced both complete
+match sets. The 32 recovered specific rows use the [source-role audit](decoder-source-role-review.md);
+other manual annotations are explicitly inherited rather than newly verified.
+The 96-row keyword routing table is not the complete primary-follow-up queue;
+separate source-role follow-ups remain visible. No manual-reading credit is added.
+
+Replay into a new directory, with the original externally retained corpora:
+
+```sh
+python3 workflow/track2-drug-census/literature_rescreen.py \
+  --corpus /path/literature-gene-unrestricted.json \
+  --title-abstract-corpus /path/literature-gene-title-abstract.json \
+  --out /path/new-literature-v2
+python3 workflow/track2-drug-census/verify_rescreen.py \
+  --corpus /path/literature-gene-unrestricted.json \
+  --title-abstract-corpus /path/literature-gene-title-abstract.json
+```
+
+The first command refuses nonempty output directories or changed corpus versions.
+Input bytes are captured before processing, and concurrent changes cause failure.
+The second checks the committed layer against a fresh source replay. Neither
+command certifies scientific interpretation. Historical tables and hashes stay
+available for earlier evidence chains.
+
 `decisions.json` contains the separately authored source appraisals.
 `catalog-appraisals.tsv` joins their compound aliases to every screened entity
 without inventing efficacy estimates. Multi-compound route groups and identity
@@ -149,9 +181,9 @@ inherited by all matches. An exact alias join does not strengthen the evidence
 in the original manual decision. Root-owned `appraisal.md`, `literature-review.md`
 and the report route table supply the biological assessment.
 
-## Bounded completion audit
+## Historical 1,779-row triage
 
-[`literature_triage.py`](literature_triage.py) gives all 1,779 specific co-mention
+The historical [`literature_triage.py`](literature_triage.py) gave 1,779 specific co-mention
 rows an explicit triage state, including the **401 gene-literal rows across 279
 source records**. It uses transparent abstract-context routing rules plus
 separately marked manual inspection of restorative, same-gene, injury and
@@ -393,9 +425,9 @@ The [intervention/endpoint qualification](intervention-qualification.md) checks
 all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
-claim full-text review of all ranked records. The decision ledger now contains
-109 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 109 approved medicines.
+claim full-text review of all ranked records. The current decision ledger contains
+116 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 116 approved medicines.
 
 The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.
 
@@ -452,10 +484,17 @@ are preserved rather than independently re-audited here. Original empty fields
 and later recovered bodies remain separately accounted for.
 
 [UMK57](umk57-qualification.md) adds actual acute and post-division fidelity
-evidence with limited durability, bringing the current ledger to 109 appraisals.
-Protein-stabilization and tissue-repair follow-ups remain open. A separate
+evidence with limited durability, bringing that stage to 109 appraisals.
+The subsequent [six-paper qualification](protein-and-tissue-qualification.md)
+adds seven compound/tool appraisals and updates metformin, bringing the current
+ledger to **116**. This is not 116 approved drugs or independent studies. It
+retains protein-specific stabilization, ex vivo progenitor support and an
+uncontrolled clinical neuromuscular response, while correcting overbroad organ
+recovery claims. None establishes MVA efficacy or changes the nominated pair.
+A separate
 [text-decoder correction](decoder-alias-check.md) recovers 32 catalog-to-record
-co-mentions across 11 abstracts under the unchanged alias policy. Historical
-tables are retained; the correction overlay is not an efficacy classification.
+co-mentions across 11 abstracts under the unchanged alias policy. The current
+`literature-v2/` layer propagates them through per-entity coverage and triage;
+historical tables are retained. Neither layer is an efficacy classification.
 `read_abstracts.py` avoids text-stripping, and `verify_revalidation.py` reconciles
 the corrected subset and pending queue without certifying the interpretations.

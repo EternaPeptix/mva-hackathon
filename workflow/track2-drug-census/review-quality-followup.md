@@ -69,6 +69,24 @@ sensitivity subset. This is a bounded observation, not a claim that none exists
 in the unvalidated records or the wider literature. These leads are insufficient
 to change the nominees today and sufficient to keep follow-up open.
 
+The [subsequent six-paper primary qualification](protein-and-tissue-qualification.md)
+resolves the intervention and endpoint questions for CX-4945, metformin,
+Wy-14643, bFGF/collagenase, ephedrine/salbutamol and eplerenone. The first five
+papers correspond to five of the 34 original source questions; eplerenone came
+from the separate decoder-role audit. UMK57 was qualified earlier. The [status table](primary-question-status.json) links six of the 34 questions
+to primary qualifications; the remaining 28 flags are not reconciled as closed
+in this correction. Experimental and translational questions also remain for
+the qualified sources.
+
+CX-4945 and metformin earn protein-specific pharmacological evidence; bFGF and
+collagenase earn ex vivo progenitor-support evidence. The AGRN family report
+earns an uncontrolled clinical response after sequential ephedrine/salbutamol,
+without assigning the full walking-distance change exclusively to either drug.
+Wy-14643's treated arm shows regeneration markers, not demonstrated liver-mass
+or functional recovery; eplerenone's cycling effect has unresolved physiological
+consequences. The ledger now contains 116 compound/route appraisals. These
+qualifications add no new reading credit to the 186-record abstract subset.
+
 ## Automated text-screen repair
 
 A separate [decoder comparison](decoder-alias-check.md) reproduced a concrete
@@ -84,8 +102,15 @@ The original tables remain dated historical outputs. The
 [correction overlay](decoder-alias-delta.json) records additional IDs and aliases;
 [their roles have been checked](decoder-source-role-review.md): most are predictions,
 associations or assay/background uses. Eplerenone has a cellular effect requiring
-primary follow-up, with no cardiac functional benefit established by its abstract.
-Downstream reconciliation is still required before historical tables are replaced. The entity denominator stays 15,357. The portable
+primary follow-up, now completed at the bounded depth described above.
+The [corrected screen](literature-v2/summary.json) now propagates the recovered
+matches through all 15,357 entity states and downstream routing. It has 1,811
+specific rows, 6,195 ambiguous rows, 511 entities with a specific match and 14,846
+without one. The 32 recovered specific rows retain source-checked compound roles;
+105 other manual/lexical annotations are clearly inherited. The 96-row keyword
+shortlist is not a complete follow-up queue. An independent full replay using a
+different parser/matcher reproduced the complete match sets. Historical tables
+remain intact. The portable
 comparison checks all original records, both decoder implementations and the
 same alias policy; it does not change the source cache.
 

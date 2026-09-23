@@ -220,3 +220,23 @@ agents acting in the same pathway.
 The [source correction](../../workflow/track2-drug-census/review-quality-followup.md)
 keeps protein-stabilization and tissue-repair leads open rather than accepting an
 unsupported exhaustive-negative conclusion.
+
+
+## Protein-stability, tissue-support and neuromuscular alternatives
+
+The [six-paper primary qualification](../../workflow/track2-drug-census/protein-and-tissue-qualification.md)
+compares these unelected routes using the same evidence standards as the nominees.
+The doses and experimental details in that review describe source studies, not a
+proposed patient regimen. Salbutamol and ephedrine come from one sequential-treatment
+family report; bFGF and collagenase are separate arms of one ex vivo paper.
+
+| Route and decision | Positive evidence | Weakness and reopening condition |
+|---|---|---|
+| **CX-4945 — mechanistic protein-stability lead** | Raises CDCA3 in most tested NSCLC lines and increases cisplatin potency. | Protein-specific result; no BUBR1, normal-tissue or muscle rescue. Resolve exposure, cell-cycle effects and substrate transfer before restoration nomination. |
+| **Metformin — strengthen existing mechanistic reserve** | Slows TET2 turnover and supports molecular and tumor outcomes in engineered TET2-WT models. | Genetic target restoration precedes drug exposure; high cellular concentrations and tumor pretreatment limit transfer. No BUBR1/muscle benefit. Preserve separate unfavorable muscle evidence and do not assign AICAR results to metformin. |
+| **Wy-14643 — regeneration mechanism probe** | Increases regeneration-associated liver markers after partial hepatectomy. | No drug-assigned liver-mass or functional recovery; no fibrate class transfer. A treated functional endpoint is needed. |
+| **Eplerenone — directional endothelial-cycling probe** | Normalizes excess Ki67 in pressure-overloaded rat hearts. | Physiological benefit is unresolved; dose and initiation are unreported. Neither cycling suppression nor the separate aldosterone/Bub1b signal establishes BUBR1 restoration. |
+| **bFGF — ex vivo niche-support tool** | Partially restores healthy progenitor proliferative support over abnormal marrow stromal cells. | Different tissue/lesion, unresolved carryover and assay reporting conflicts; no drug-induced BUBR1 or chromosome-fidelity result. Establish relevant niche defect and functional output. |
+| **Collagenase — matrix mechanism probe** | Separate matrix-removal arm improves progenitor division/proliferation indices. | Unspecified preparation cannot inherit a licensed product identity; conflicting concentrations, no clinical muscle result. Resolve preparation and tissue relevance. |
+| **Salbutamol — clinical compensation reserve** | Sustained reported movement benefit in three adult AGRN-CMS siblings after a switch from ephedrine. | Uncontrolled, different lesion; the reported walking gain is not exclusively attributable to salbutamol. Assess a relevant neuromuscular mechanism without assuming this case is purely myopathic. |
+| **Ephedrine — linked clinical-response reserve** | Symptomatic improvement reported after three days in the same family. | Dose/route unspecified and durability confounded by switch to salbutamol. No independent replication or BUB1B benefit. |

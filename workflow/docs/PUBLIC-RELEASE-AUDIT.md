@@ -616,3 +616,26 @@ of efficacy. Existing Track 1 uploads, pitch media, controlled-data exclusions a
 source licenses remain intact. The earlier pipeline and inventory snapshots are
 preserved as historical provenance. No visibility change, public release or
 Track 2 submission follows from this private corrective draft.
+
+## Corrected text replay and six-paper qualification — 22 September 2026
+
+A separate current lexical layer replays all 7,362 original source records under
+unchanged alias policy, preserving scientific inequalities. It contains 1,811
+specific and 6,195 ambiguous catalog-record matches: 511 of 15,357 entities have
+a specific match; 14,846 remain without one. Recovered source roles propagate
+into triage while inherited annotations remain labeled. An independent parser
+and matcher reproduce both complete match sets. No extra manual-reading credit,
+efficacy estimate or worldwide-completeness claim follows.
+
+Six primary papers add seven compound/tool appraisals and update metformin,
+leaving 116 entries. Shared papers and sequential treatments are not independent
+replications. Positive protein, progenitor-support and reported locomotor results
+are preserved, alongside exposure, attribution, model and functional limits.
+Niacin/apitegromab remain provisional nominations; no MVA efficacy is established.
+The 3,412-string revalidation queue and remaining source questions stay open.
+
+Added material is original interpretation, public bibliographic/naming metadata,
+source hashes and screening code. Raw abstracts, articles and figures remain
+external. Historical input files, source provenance, Track 1 uploads and current
+pitch media are preserved. Repository visibility and submission status are
+unchanged: this is a private draft update.

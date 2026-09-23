@@ -134,7 +134,7 @@
       "disposition": "restoration reserve",
       "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "No BUBR1 functional rescue. HSP90 dependence of selected mutants does not prove rescue by another stress-response mechanism. The label's mean pediatric serum peak is about 1.7 \u00b5M, versus 200\u2013400 \u00b5M in some NPC cell experiments; these are total serum and nominal culture quantities, not matched free tissue exposure. [IBM](https://pubmed.ncbi.nlm.nih.gov/37739573/) and [ALS](https://pubmed.ncbi.nlm.nih.gov/38782015/) randomized trials were negative, with tolerability limitations; neither tested MVA.",
+      "rationale": "No BUBR1 functional rescue. HSP90 dependence of selected mutants does not prove rescue by another stress-response mechanism. The label's mean pediatric serum peak is about 1.7 µM, versus 200–400 µM in some NPC cell experiments; these are total serum and nominal culture quantities, not matched free tissue exposure. [IBM](https://pubmed.ncbi.nlm.nih.gov/37739573/) and [ALS](https://pubmed.ncbi.nlm.nih.gov/38782015/) randomized trials were negative, with tolerability limitations; neither tested MVA.",
       "source_report": "reports/appendices/track2-route-decisions.md",
       "source_urls": [
         "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc&version=5",
@@ -358,15 +358,16 @@
         "AICAR"
       ],
       "route": "Metformin / AICAR / selective energy stress",
-      "disposition": "decline lead",
-      "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects. Additional named sources are complete saved-abstract re-readings only, documented in umk57-qualification.md.",
+      "disposition": "decline muscle nomination; retain metformin-specific protein-stability lead; AICAR remains a separate declined lead",
+      "evidence_scope": "Prior MASTERS clinical-muscle appraisal and AICAR abstract findings retained; metformin TET2 paper now qualified from complete main text, Methods, main/Extended Data legends, key pixels and supplementary methods.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Antiproliferation is not muscle rescue. [MASTERS randomized trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC6826125/) found metformin blunted resistance-training muscle hypertrophy in older adults. That result does not settle pediatric MVA, but opposes an assumed anabolic benefit. AICAR reference experiments cannot be assigned to metformin. The re-read AICAR abstract (PMID21315436) reports p53-mediated apoptosis in MEFs trisomic for chromosomes 1, 13, 16 or 19, and AICAR/17-AAG activity, especially combined, in aneuploid human cancer lines. No result transfers to metformin or establishes an MVA tissue-preservation window. Separately, actual metformin treatment (PMID30022161) preserved AMPK-mediated TET2 serine-99 phosphorylation and increased TET2 stability. This is a positive protein-stabilization precedent; drug-arm model, exposure and in-vivo scope require primary qualification, and BUBR1 stabilization is untested.",
-      "source_report": "reports/appendices/track2-route-decisions.md",
+      "rationale": "Antiproliferation is not muscle rescue. [MASTERS randomized trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC6826125/) found metformin blunted resistance-training muscle hypertrophy in older adults. That result does not settle pediatric MVA, but opposes an assumed anabolic benefit. AICAR reference experiments cannot be assigned to metformin. The re-read AICAR abstract (PMID21315436) reports p53-mediated apoptosis in MEFs trisomic for chromosomes 1, 13, 16 or 19, and AICAR/17-AAG activity, especially combined, in aneuploid human cancer lines. No result transfers to metformin or establishes an MVA tissue-preservation window. Separately, complete primary qualification of metformin (PMID30022161) establishes a positive TET2-stabilization mechanism with downstream cancer-model outcomes. In high-glucose A2058 cells genetically restored with full-length TET2-WT, 5 mM metformin slowed protein decay, increased 5hmC and reduced growth; 2-4 mM reduced soft-agar colonies. Drinking-water metformin (500 mg/L), begun seven days before implantation, additionally suppressed WT xenograft growth in diabetic and nondiabetic mice. Mock, S99A and TET2-knockdown controls limited the effects in the tested systems; the drug did not substitute for genetic target restoration. The authors acknowledge up to 5 mM cell exposure versus approximately 20 micromolar human circulation. Actual consumed mouse dose/plasma exposure are unknown; final n=4-5 versus Methods n=6 remains unexplained. The design tests pretreatment/early growth, not regression of established tumors. The separate A769662 stabilization result does not belong to metformin. Retain this favorable protein-specific mechanism without erasing MASTERS or transferring AICAR effects, and without claiming BUBR1 restoration, faithful division, muscle benefit or MVA efficacy. Patient phase and Asn1002Lys function/abundance remain unresolved.",
+      "source_report": "workflow/track2-drug-census/protein-and-tissue-qualification.md",
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC6826125/",
         "https://pubmed.ncbi.nlm.nih.gov/21315436/",
-        "https://pubmed.ncbi.nlm.nih.gov/30022161/"
+        "https://pubmed.ncbi.nlm.nih.gov/30022161/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6430198/"
       ]
     },
     {
@@ -1289,7 +1290,7 @@
       ],
       "route": "SB-431542 / TGF-beta receptor inhibition",
       "disposition": "transcript-regulation reserve with duration-dependent growth harm",
-      "rationale": "Tgif1-null MEFs show Bub1b RNA increase at 1 \u00b5M and separate short growth benefit at 0.2 \u00b5M. Longer than one passage inhibited growth in both WT and null cells. No drug-mediated BUBR1 protein, chromosome correction or muscle benefit established.",
+      "rationale": "Tgif1-null MEFs show Bub1b RNA increase at 1 µM and separate short growth benefit at 0.2 µM. Longer than one passage inhibited growth in both WT and null cells. No drug-mediated BUBR1 protein, chromosome correction or muscle benefit established.",
       "source_urls": [
         "https://doi.org/10.1371/journal.pone.0035460"
       ],
@@ -1323,7 +1324,7 @@
       ],
       "route": "Four-ribonucleoside supplementation / mixture-only appraisal",
       "disposition": "replication-stress and chromosome-phenotype comparator",
-      "rationale": "Uridine+cytidine+adenosine+guanosine reduce bridges/micronuclei in SV40-LT BJ/tert cells; model involves BUB1, not BUB1B. Reported50\u00b5M does not clearly resolve per-component concentration. Constituent catalog joins do not confer mixture efficacy on any single ingredient. No muscle or faithful euploid-output result; a different commercial nucleoside regimen fails a cell-enlargement checkpoint endpoint, not a controlled comparison of the same mixture.",
+      "rationale": "Uridine+cytidine+adenosine+guanosine reduce bridges/micronuclei in SV40-LT BJ/tert cells; model involves BUB1, not BUB1B. Reported50µM does not clearly resolve per-component concentration. Constituent catalog joins do not confer mixture efficacy on any single ingredient. No muscle or faithful euploid-output result; a different commercial nucleoside regimen fails a cell-enlargement checkpoint endpoint, not a controlled comparison of the same mixture.",
       "source_urls": [
         "https://journals.asm.org/doi/full/10.1128/jvi.02224-13",
         "https://doi.org/10.1101/2025.07.01.662622"
@@ -1850,6 +1851,138 @@
       ],
       "source_report": "workflow/track2-drug-census/umk57-qualification.md",
       "rationale": "At 100 nM against 0.1% DMSO, UMK57 potentiates MCAK-dependent microtubule depolymerization and reduces acute lagging anaphases in U2OS, HeLa and SW-620; inactive UMK95 and MCAK-depletion controls support the proposed mechanism. Figure 2B reports n>300 anaphases and three independent experiments. Figure 2D also reports a significant reduction in total mis-segregation of one tagged chromosome among >600 daughter-nucleus pairs after 15 h monastrol arrest, washout and 8 h recovery. This credits a completed-division outcome, not all-chromosome faithful daughter yield per starting cell. Figure 2H does measure kinetochore BubR1 normalized to Hec1 (>=150 kinetochores from 10-20 cells), without a significant acute change; it does not show total BUBR1 restoration. Attachment half-life measurements use 5 micromolar MG132 and must be kept separate from the completed-division assay. The significant early lagging-chromosome benefit is no longer significant at 72 h in all three cancer lines; two U2OS single-cell colonies per condition show no reduction in chromosome 2/3 modal-copy heterogeneity after 6-8 weeks. These are context-limited durability negatives, not proof that any effect must be exactly zero or that every clinical schedule would fail. Figure 4E credits 250 nM ZM447439 plus UMK57 with benefit persisting to 72 h in U2OS, lost by 96 h; running text reports a similar delay in SW-620 and no delay in HeLa, whose supplementary panels were not independently viewed. Persistent metaphase attachment destabilization is consistent with continued pharmacodynamic activity, not direct target occupancy. High-dose prometaphase accumulation and increased spindle/alignment defects with MCAK overexpression are observed context-dependent harms. No growing-animal force, BUBR1-deficient rescue, clinical exposure or pediatric safety result was established. Absence from the checked catalog is not proof of absent clinical existence. Preserve the positive as a mechanistic lead; neither extrapolate it to MVA nor convert the cancer-cell durability result into a class-wide contraindication. It does not currently displace niacin restoration or apitegromab compensation, neither of which is MVA-proven."
+    },
+    {
+      "decision_id": "new-cx4945",
+      "route": "CX-4945 / CK2-regulated CDCA3 stability",
+      "match_aliases": [
+        "CX-4945",
+        "silmitasertib"
+      ],
+      "disposition": "positive mechanistic protein-stability and platinum-sensitization lead; BUBR1-specific qualification open; no present clinical nomination",
+      "bub1b_variant_efficacy": "Not established",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8163776/",
+        "https://pubmed.ncbi.nlm.nih.gov/34050247/"
+      ],
+      "rationale": "CX-4945 (5 micromolar) increased CDCA3 in most of eight NSCLC lines, except CRL-5889, and reduced CK2-motif phosphorylation and Cdh1 association. Eight paired cell-line values averaged from three experiments gave P=0.0126. Methods and the supplementary legend specify 12 h, whereas Results says 24 h. The cycloheximide turnover chase tests cisplatin, not CX-4945. Actual CX-4945 at respective IC25 concentrations plus cisplatin lowered reported median cisplatin IC50 from about 19 to 10 micromolar after 48 h (ATP-based viability; four analysed values per arm with sampling identities unresolved; P=0.0138). Keep this separate from genetic CDCA3 overexpression. Persistent gamma-H2AX after combination washout supports impaired damage resolution in cancer cells, not tissue recovery. No normal-cell margin, BUBR1 restoration, muscle benefit, faithful division, or absence of drug-induced arrest/redistribution was demonstrated. Retain the positive protein-stability and cancer-pharmacology lead without class-wide or clinical extrapolation.",
+      "evidence_scope": "NSCLC culture CDCA3 quantity/binding and cisplatin potency; complete main text, methods and legends, key pixels and source data checked.",
+      "source_report": "workflow/track2-drug-census/protein-and-tissue-qualification.md"
+    },
+    {
+      "decision_id": "new-wy14643",
+      "match_aliases": [
+        "Wy-14643",
+        "Wy14643",
+        "pirinixic acid"
+      ],
+      "route": "Wy-14643 / PPARalpha-linked liver regeneration marker response",
+      "disposition": "retain as mechanistic pro-regeneration probe; functional repair and BUB1B efficacy unresolved",
+      "evidence_scope": "Complete primary main text/methods/legends plus supplemental text; key Figure 6, S1 and S7 visually appraised.",
+      "bub1b_variant_efficacy": "Not established; patient phase and Asn1002Lys function/abundance are unresolved.",
+      "rationale": "Wy-14643 at 50 mg/kg IP every 12 h from 24 h before PHx to 24 h after increased cell-cycle-associated IHC and ACSL1/FOXM1/HIF1alpha proteins in n=3 PHx mice per condition. Baseline PHx liver-mass recovery is a separate experiment. No drug-assigned organ-function/mass/survival recovery, BUBR1 restoration or chromosome-fidelity rescue is shown. No demonstrated patient-specific harm; do not extend the result to other PPAR drugs.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13325914/",
+        "https://pubmed.ncbi.nlm.nih.gov/42019507/"
+      ],
+      "next_decisive_gap": "A drug-assigned functional regeneration endpoint and a relevant cell-model test of BUBR1/fidelity, dose-window and proliferative safety are needed before therapeutic prioritization.",
+      "source_report": "workflow/track2-drug-census/protein-and-tissue-qualification.md"
+    },
+    {
+      "decision_id": "new-eplerenone",
+      "match_aliases": [
+        "eplerenone"
+      ],
+      "route": "Eplerenone / mineralocorticoid-receptor-dependent cardiac endothelial cycling",
+      "disposition": "retain directional mechanism evidence; organ-function benefit and therapeutic competitiveness unresolved",
+      "evidence_scope": "Complete primary main text/methods/legends; Figures 4–6 visually appraised.",
+      "bub1b_variant_efficacy": "Not established; patient phase and Asn1002Lys function/abundance are unresolved.",
+      "rationale": "Dietary eplerenone returned excess cardiac Ki67 toward sham levels in male rats operated at three weeks and assessed three months later. The 61% is the TAC-associated rise versus sham, not the drug effect size. Groups were sham 5, sham plus drug 4, TAC 5 and TAC plus drug 6. Most cycling nuclei had endothelial localization. Dose and exact initiation are not reported. No cardiac functional, muscle or chromosome-fidelity benefit is supplied. Aldosterone-induced Bub1b transcript elevation and spironolactone HUVEC results are separate interventions. A sham plus drug arm provides a baseline cycling control, not general developmental, renal or electrolyte safety. Retain directional mechanism evidence; benefit or harm cannot be inferred from proliferation direction alone.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4330055/",
+        "https://pubmed.ncbi.nlm.nih.gov/25564371/"
+      ],
+      "next_decisive_gap": "Resolve original exposure and determine whether altered endothelial cycling improves or impairs cardiac/perfusion function in the relevant disease setting.",
+      "source_report": "workflow/track2-drug-census/protein-and-tissue-qualification.md"
+    },
+    {
+      "decision_id": "new-bfgf-stromal-support",
+      "route": "Exogenous bFGF / stromal growth and progenitor-support rescue",
+      "match_aliases": [
+        "basic fibroblast growth factor",
+        "bFGF",
+        "FGF2"
+      ],
+      "disposition": "retain ex vivo supportive-niche mechanism; clinical and MVA transfer unestablished",
+      "evidence_scope": "Complete main text, Methods, seven legends and three tables; original panels unavailable and supplement unread.",
+      "bub1b_variant_efficacy": "Not established; patient phase and Asn1002Lys function/abundance remain unresolved.",
+      "rationale": "In patient-derived LGL-leukemia stromal cultures, bFGF at 20 ng/mL for 72 h before co-culture reduced collagen deposition and partially restored healthy progenitor proliferative support. Separate repeated supplementation restored stromal growth; its exact concentration was not specified. Growth curves represent three experiments/donor pairs; collagen and support assays specify n=4 iterations with independence incompletely described. The 24-person marrow cohort was not a drug trial: no patient received bFGF in this study. LIF did not restore growth in the comparison. Washout and direct-progenitor controls do not clearly exclude carryover. No clinical blood-count correction, engraftment, absolute viable output with preserved chromosome fidelity, muscle benefit or BUBR1 protein restoration is shown. Credit functional ex vivo support without inferring systemic safety or unavoidable patient harm.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4346227/",
+        "https://pubmed.ncbi.nlm.nih.gov/24014875/"
+      ],
+      "identity_limit": "Catalog matching is at the generic protein-name level; it does not establish preparation, recombinant construct or clinical formulation equivalence.",
+      "source_report": "workflow/track2-drug-census/protein-and-tissue-qualification.md",
+      "shared_primary_evidence_with": [
+        "new-collagenase-matrix"
+      ]
+    },
+    {
+      "decision_id": "new-collagenase-matrix",
+      "route": "Unspecified collagenase / ex vivo stromal matrix-removal probe",
+      "match_aliases": [],
+      "disposition": "retain separate matrix-removal mechanism; preparation unresolved and no clinical nomination",
+      "evidence_scope": "Same primary paper as bFGF; complete main text and legends; no independent panel inspection or supplementary review.",
+      "bub1b_variant_efficacy": "Not established; patient phase and Asn1002Lys function/abundance remain unresolved.",
+      "rationale": "An unspecified Worthington collagenase preparation restored CFSE-derived healthy progenitor proliferation and division indices over LGL-derived stromal cultures (n=4 iterations). This is a separate matrix-removal exposure in the same paper as bFGF, not independent replication. Initial fraction dividing was not significantly lower over untreated LGL stroma; do not claim correction of every metric. Retain unresolved concentration (Methods 20 U/mL versus Results/legends 60 U/mL), CD45-negative versus positive gating, 72 h matrix preparation plus seven days versus ten-day co-culture wording, and inconsistent donor accounting. No animal/patient therapeutic outcome, muscle benefit, BUBR1 rescue or licensed-product identity is established.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4346227/",
+        "https://pubmed.ncbi.nlm.nih.gov/24014875/"
+      ],
+      "identity_limit": "No catalog alias is assigned: the unspecified Worthington preparation cannot be resolved to collagenase clostridium histolyticum or another clinical product from this paper.",
+      "source_report": "workflow/track2-drug-census/protein-and-tissue-qualification.md",
+      "shared_primary_evidence_with": [
+        "new-bfgf-stromal-support"
+      ]
+    },
+    {
+      "decision_id": "new-salbutamol-agrn-cms",
+      "route": "Salbutamol / adrenergic neuromuscular compensation",
+      "match_aliases": [
+        "salbutamol"
+      ],
+      "disposition": "retain uncontrolled clinical locomotor-response reserve; agent-specific magnitude and MVA transfer unresolved",
+      "evidence_scope": "Complete main text and all three legends; one family, three adult siblings; no treatment-outcome figure or controlled comparison.",
+      "bub1b_variant_efficacy": "Not established; patient phase and Asn1002Lys function/abundance remain unresolved.",
+      "rationale": "Three adult siblings aged 27, 29 and 31 with homozygous AGRN p.A1768P received salbutamol 2 mg three times daily for more than one year after a preceding ephedrine response and availability-driven switch. Route was not explicit. Sustained movement status was reported. One sister reportedly walked less than 50 m before and more than 500 m after treatment, but exact timing and attribution to ephedrine versus subsequent salbutamol were not separated. Credit this clinical locomotor signal without converting the bounds to an exact percentage or a salbutamol-only causal effect. No standardized walking protocol, untreated control, numerical post-treatment strength series or structured safety assessment was supplied. The paper did not functionally validate the AGRN variant or study BUB1B. Keep this distinct from the current MVA case and do not assume its weakness is exclusively myopathic.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5634075/",
+        "https://pubmed.ncbi.nlm.nih.gov/28937031/"
+      ],
+      "identity_limit": "The saved generic salbutamol alias matches ALBUTEROL and LEVOSALBUTAMOL; retain the ambiguous join, without assigning levalbuterol-specific efficacy or silently resolving formulation.",
+      "source_report": "workflow/track2-drug-census/protein-and-tissue-qualification.md",
+      "shared_primary_evidence_with": [
+        "new-ephedrine-agrn-cms"
+      ]
+    },
+    {
+      "decision_id": "new-ephedrine-agrn-cms",
+      "route": "Ephedrine / preceding adrenergic response in the AGRN family",
+      "match_aliases": [
+        "ephedrine"
+      ],
+      "disposition": "retain reported short-latency response; dose and agent-specific functional magnitude unresolved",
+      "evidence_scope": "Same three-sibling family and treatment sequence as salbutamol; complete main text and legends, no independent replication.",
+      "bub1b_variant_efficacy": "Not established; patient phase and Asn1002Lys function/abundance remain unresolved.",
+      "rationale": "The AGRN family report describes symptomatic improvement after three days of ephedrine and a subsequent switch to salbutamol because ephedrine was difficult to obtain. Dose, route and individual patient-by-drug response denominators were not supplied. The one-sister walking-distance change from less than 50 m to more than 500 m is reported after treatment without separating the agents or timing; it cannot be assigned exclusively to ephedrine or counted again as independent evidence. No quantitative post-treatment strength, control group, structured safety assessment or BUB1B/MVA rescue is shown. Preserve the reported response while keeping the exposure and causal attribution unresolved.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5634075/",
+        "https://pubmed.ncbi.nlm.nih.gov/28937031/"
+      ],
+      "source_report": "workflow/track2-drug-census/protein-and-tissue-qualification.md",
+      "shared_primary_evidence_with": [
+        "new-salbutamol-agrn-cms"
+      ]
     }
   ]
 }
