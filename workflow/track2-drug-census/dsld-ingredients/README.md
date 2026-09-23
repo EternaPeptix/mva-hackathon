@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 181
+  --out /path/dsld-replay --expected-appraisals 184
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -108,4 +108,6 @@ The preceding **177-appraisal replay** adds five exact name links to selenomethi
 
 The preceding **179-appraisal replay** adds two capsaicin name links, for **6,812 cross-references and 70 appraisal-linked groups**. Groups 3951 (Capsaicin) and 3807 (Capsaisin) share that alias; the original spelling and synonym relation are preserved without inferring product or dietary equivalence. The tested glucosamine/chondroitin combination is not equated to either ingredient alone. All source fields and six other outputs remain unchanged, with no new reading or efficacy credit.
 
-The current **181-appraisal replay** preserves all eight output tables byte-for-byte: **6,812 cross-references and 70 appraisal-linked groups** remain. Neither tested Potentilla preparation creates a new exact name join. Ingredient or species names are not assigned the mixture/extract findings; no new source, reading or efficacy credit follows.
+The preceding **181-appraisal replay** preserves all eight output tables byte-for-byte: **6,812 cross-references and 70 appraisal-linked groups** remain. Neither tested Potentilla preparation creates a new exact name join. Ingredient or species names are not assigned the mixture/extract findings; no new source, reading or efficacy credit follows.
+
+The current **184-appraisal replay** adds two resveratrol name cross-references in one existing ingredient group, for **6,814 cross-references and 71 appraisal-linked groups**. All source fields and six other output tables remain unchanged. The two topical preparations create no new exact join. Name relations do not establish chemical/formulation equivalence or efficacy; the original independent inventory review remains historical.

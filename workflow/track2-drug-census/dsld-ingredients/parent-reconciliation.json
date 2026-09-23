@@ -1,17 +1,15 @@
 {
   "date": "2026-09-23",
   "reviewer": "/root",
-  "scope": "181-appraisal replay preserves all eight output tables and every source field. No new name cross-reference or automatic reading/efficacy credit.",
+  "scope": "184-appraisal parent replay adds two resveratrol name cross-references in one existing ingredient group. Source fields and six other output tables remain unchanged. No chemical/formulation equivalence, automatic reading or efficacy credit.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/potentilla-followup-20260923/dsld-replay/runs/88b9d76fe15231a41d71",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/resveratrol-followup-20260923/dsld-replay/runs/227feab22c9c39b7432f",
   "historical_ledger_count": 168,
-  "current_ledger_count": 181,
+  "current_ledger_count": 184,
   "unchanged_output_tables": [
     "alias-cells.tsv",
-    "groups.tsv",
     "mentions.tsv",
     "metadata-anomalies.json",
-    "name-crossrefs.tsv",
     "normalized-aliases.tsv",
     "screen-policy.json",
     "source-records.tsv"
@@ -77,12 +75,18 @@
       "name": "10-Hydroxy-2-Decanoic Acid",
       "before": "[]",
       "after": "[\"new-10-hda\"]"
+    },
+    {
+      "group_id": "438",
+      "name": "Resveratrol",
+      "before": "[]",
+      "after": "[\"new-resveratrol\"]"
     }
   ],
-  "name_crossrefs_added": 12,
+  "name_crossrefs_added": 14,
   "old_name_crossrefs_retained": 6800,
-  "current_name_crossrefs": 6812,
-  "current_summary_sha256": "88b9d76fe15231a41d71ec58f6dcb9c2dbedd456af07ad05f8eeb4312de97046",
+  "current_name_crossrefs": 6814,
+  "current_summary_sha256": "227feab22c9c39b7432f334c0ece72f327b46350f7eee3683fb481e52133f8f2",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -132,12 +136,42 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "from_appraisals": 179,
-    "to_appraisals": 181,
+    "from_appraisals": 181,
+    "to_appraisals": 184,
     "old_name_crossrefs_retained": 6812,
-    "name_crossrefs_added": 0,
-    "group_rows": [],
-    "new_name_crossref_rows": []
+    "name_crossrefs_added": 2,
+    "group_rows": [
+      {
+        "group_id": "438",
+        "name": "Resveratrol",
+        "before": "[]",
+        "after": "[\"new-resveratrol\"]"
+      }
+    ],
+    "new_name_crossref_rows": [
+      {
+        "group_id": "438",
+        "normalized_alias": "resveratrol",
+        "source_alias_cell_ids": "[\"dsld:438:group_name\",\"dsld:438:synonym:65\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-resveratrol",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "resveratrol",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[]"
+      },
+      {
+        "group_id": "438",
+        "normalized_alias": "trans resveratrol",
+        "source_alias_cell_ids": "[\"dsld:438:synonym:116\",\"dsld:438:synonym:117\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-resveratrol",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "trans-resveratrol",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[]"
+      }
+    ]
   },
   "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
   "result": "PASS",
@@ -563,7 +597,7 @@
       "new_manual_reading_or_efficacy_credit": 0
     }
   },
-  "current_delta_source_warning": "No new exact name join for either tested preparation. Ingredient/species names are not automatically assigned mixture or extract efficacy; historical capsaicin and other source-name limitations remain preserved.",
+  "current_delta_source_warning": "Resveratrol has two exact name joins in one ingredient group; these do not validate product identity, exposure or efficacy. Neither topical Potentilla preparation has a new exact join. Historical source-name and chemical-equivalence limits remain.",
   "historical_177_reconciliation": {
     "date": "2026-09-23",
     "reviewer": "/root",
@@ -2420,5 +2454,55 @@
       },
       "current_delta_source_warning": "Group147 is reported as Selenium and matches through a seleno-L-methionine synonym. This name relation does not equate all selenium forms, establish product identity or transfer the appraisal to generic selenium. Groups2384/7901 have repeated Selenomethionine names; source IDs are not unique molecules."
     }
+  },
+  "prior_parent_reconciliation": {
+    "commit": "72196c305a758816f7d5beb8749d9320c74566ce",
+    "path": "workflow/track2-drug-census/dsld-ingredients/parent-reconciliation.json",
+    "sha256": "9f8bc9fea35dd5d622dc9f8d954403a0fe320f2fddcaf7be28739439a1e172a0",
+    "appraisals": 181
+  },
+  "current_delta_from181": {
+    "changed_appraisal_group_rows": [
+      {
+        "group_id": "438",
+        "name": "Resveratrol",
+        "before": "[]",
+        "after": "[\"new-resveratrol\"]"
+      }
+    ],
+    "added_name_crossrefs": [
+      {
+        "group_id": "438",
+        "normalized_alias": "resveratrol",
+        "source_alias_cell_ids": "[\"dsld:438:group_name\",\"dsld:438:synonym:65\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-resveratrol",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "resveratrol",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[]"
+      },
+      {
+        "group_id": "438",
+        "normalized_alias": "trans resveratrol",
+        "source_alias_cell_ids": "[\"dsld:438:synonym:116\",\"dsld:438:synonym:117\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-resveratrol",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "trans-resveratrol",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[]"
+      }
+    ],
+    "retained_name_crossrefs": 6812,
+    "new_manual_reading_or_efficacy_credit": 0
+  },
+  "historical_179_to_181_delta": {
+    "from_appraisals": 179,
+    "to_appraisals": 181,
+    "old_name_crossrefs_retained": 6812,
+    "name_crossrefs_added": 0,
+    "group_rows": [],
+    "new_name_crossref_rows": []
   }
 }

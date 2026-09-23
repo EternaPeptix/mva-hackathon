@@ -210,20 +210,20 @@
   "subsequent_parent_reconciliation": {
     "date": "2026-09-23",
     "reviewer": "/root",
-    "current_decision_count": 181,
+    "current_decision_count": 184,
     "current_input_hashes": {
       "food-substances-all.html": "54eb4a22b71a109b870ed6133c6bbdb8afc09b395a855170b762cb1d46702acd",
       "literature-gene-unrestricted.json": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
       "catalog.tsv": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299",
       "aliases.tsv": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3",
       "drugcentral-status-unverified.tsv": "10e227cf35b49bf07e7d28f86afee12e0ebd88335a4090275b21339396db372f",
-      "decisions.json": "1fdea003282c76e9a6517f1d4549bd00011791339ea2e1b214b55692c709991b"
+      "decisions.json": "d52844780468c8f3e90a0304f40a5fde3c3ea5f657a62fdcd2f558fb8c6efb09"
     },
     "current_output_hashes": {
       "substances.tsv": "b1396ad4b5b557653c463c98434fba7864595fe265ecb4f3a40bdca0f3b0a730",
       "mentions.tsv": "9408dd04ea11f09299b7928c5d88e1b874c0041d847ea4c8ed0208159daf33a6"
     },
-    "scope": "Same source/parser/corpus/catalog and byte-identical source/mention tables after two preparation-specific appraisals. All preceding parser/parent reviews retain historical scope; no new reading or efficacy credit.",
+    "scope": "184-appraisal parent replay preserves both output tables. New compound/preparation appraisals add no FDA name relation, reading or efficacy credit. Historical independent reviews remain historical.",
     "changed_source_row_ids": [],
     "result": "PASS",
     "historical_172_reconciliation": {
@@ -525,6 +525,10 @@
           }
         }
       }
+    },
+    "baseline_reconciliation": {
+      "commit": "72196c305a758816f7d5beb8749d9320c74566ce",
+      "file_sha256": "e94b988bcdbd82db01fef15014fd2d5d2ffb9c9affbba7ad7b1b9a77bd7050b6"
     }
   },
   "historical_parent_reconciliation_163": {

@@ -1,0 +1,186 @@
+{
+  "date": "2026-09-23",
+  "baseline_commit": "72196c305a758816f7d5beb8749d9320c74566ce",
+  "status": "bounded_source_qualification",
+  "decision_ids": [
+    "new-resveratrol"
+  ],
+  "decision": "Serious experimental muscle-function comparator; separate access-limited BUBR1-staining lead. No MVA efficacy or nominee replacement established.",
+  "sources": [
+    {
+      "doi": "10.1093/gerona/glx089",
+      "pmid": "28505227",
+      "pmcid": "PMC5861947",
+      "depth": "Root complete scientific publisher main text; native Figures 1 and 4. Second reader complete main and Figures 1-4, final report interrupted. Supplements unavailable.",
+      "positive": "Average power condition-by-group P=.004; average peak torque P=.038 after resveratrol plus exercise versus placebo plus exercise.",
+      "limits": [
+        "15 completers per arm; one placebo and four active withdrawals were replaced, not an ITT result.",
+        "Within-arm percentages are not placebo-adjusted effects.",
+        "VO2 and mitochondrial-volume interactions nonsignificant; oxidative DNA-damage reduction did not differ.",
+        "Assay-specific participant denominators, detailed safety and exposure unresolved without supplements.",
+        "No BUBR1 or chromosome-fidelity assay."
+      ]
+    },
+    {
+      "doi": "10.1016/j.exger.2020.111111",
+      "pmid": "33068691",
+      "pmcid": "PMC7855904",
+      "trial": "NCT02523274",
+      "depth": "Root complete scientific main via official BioC, native main table, Figures A1/A3/A4/A5 and registry outcomes/results; supplement unavailable.",
+      "design": "60 randomized; 55 observed final outcomes; 22 biopsy participants; all groups exercised; feasibility pilot.",
+      "registered_primary": "Walking speed: all three within-arm change confidence intervals include zero.",
+      "secondary_strength_Nm": [
+        {
+          "group": "EX0",
+          "mean": -3.24,
+          "ci95": [
+            -9.7,
+            3.23
+          ]
+        },
+        {
+          "group": "EX500",
+          "mean": 10.5,
+          "ci95": [
+            4.28,
+            16.7
+          ]
+        },
+        {
+          "group": "EX1000",
+          "mean": 6.15,
+          "ci95": [
+            -0.31,
+            12.6
+          ]
+        }
+      ],
+      "contrast_scope": "Within-arm estimates, no definitive between-arm efficacy test claimed.",
+      "source_issues": [
+        "Registry and paper placebo six-minute-walk change differ:9.34 versus9.45 m.",
+        "Registry schedule/arm-description contradictions are not used for a regimen.",
+        "Mitochondrial lesion-frequency prose/group assignment differs from native Figure A4C; no DNA-protection credit."
+      ]
+    },
+    {
+      "doi": "10.21608/ejh.2021.94120.1559",
+      "publication": "online2021/issue2023",
+      "depth": "Publisher full abstract and Crossref metadata only; original PDF unavailable after local/remote/public-reader retrieval attempts.",
+      "claim": "Forty aged rats, four duration groups; reported improved anti-BUBR1 immunocytochemical staining, DNA index and culture growth.",
+      "unresolved": [
+        "Dose/route/assay specificity",
+        "Direction and quantitative protein effect",
+        "Biological replication and statistics",
+        "Meaning of DNA-index result",
+        "Functional BUBR1 and MVA relevance"
+      ],
+      "discovery_gap": "DOI/title absent in frozen saved corpus; Europe PMC exact DOI query returned no hit. Not absence from all indexes."
+    },
+    {
+      "doi": "10.1371/journal.pone.0077960",
+      "pmid": "24194906",
+      "pmcid": "PMC3806792",
+      "depth": "Root complete scientific main, table/captions and native Figures 2,3,7.",
+      "positive": "Partial methylglyoxal-induced oocyte maturation/alignment protection; polar-body extrusion21.8% to53.3% at highest tested concentration versus80.5% control.",
+      "limits": [
+        "BubR1 localization signal decreases toward unexposed condition, not total-protein restoration.",
+        "No direct chromosome-count, lineage or MVA-muscle endpoint.",
+        "Three independent experiments, many oocytes; animal denominator unspecified.",
+        "Lowest-dose Figure3C bar conflicts with repeated textual value; no invented correction."
+      ]
+    },
+    {
+      "pmids": [
+        "23878368",
+        "24514907"
+      ],
+      "depth": "Complete primary abstracts plus selected primary descriptions; not full-text review of these counterevidence papers.",
+      "finding": "Context-dependent attenuation of training adaptations and no added knee-extensor endurance benefit at the tested regimen.",
+      "dependence": "Overlapping Copenhagen cohort; not two independent replications.",
+      "status": "2013 primary has seven linked commentaries; these were not read. No retraction/correction label in inspected current metadata."
+    }
+  ],
+  "root_read_outputs": {
+    "2013": [
+      "51b896",
+      "2fa702",
+      "6e1401"
+    ],
+    "2020": [
+      "dc3c73",
+      "73f047",
+      "0eed24",
+      "4af9ca"
+    ],
+    "2017": [
+      "61e636",
+      "e275b7",
+      "962c4b",
+      "5456ce",
+      "f0441e"
+    ],
+    "registry": [
+      "275932"
+    ],
+    "counter_abstracts": [
+      "631381"
+    ]
+  },
+  "second_read_scope": "2017 main and Figures1-4 independently read with substantive contrasts relayed. Final independent write-up and package verification were not completed due to usage limit.",
+  "primary_assets": [
+    {
+      "file": "primary3806792.xml",
+      "bytes": 101470,
+      "sha256": "b36654a75c5bb2e69856db613ea4fbc3ca361a4d2574644819a9fc57d20ca555"
+    },
+    {
+      "file": "results2020-bioc.xml",
+      "bytes": 146487,
+      "sha256": "6240564cd6a1ba117f47e439a527cbefe355188afc9a7bcbd2b5aef5b38f0d04"
+    },
+    {
+      "file": "results2020.html",
+      "bytes": 266083,
+      "sha256": "f9ce49542b4f1a1f75868044aa60da37df75ff4d5ea16d531448f1f624a4d7e4"
+    },
+    {
+      "file": "trial-NCT02523274.json",
+      "bytes": 31071,
+      "sha256": "ec0611148c36602e06d87fcfccb72d0418232ee400bd0331dc87af76eb701edd"
+    },
+    {
+      "file": "crossref.json",
+      "bytes": 2671,
+      "sha256": "59a32d96ce306d26343bbd7092d9e9fcddb7a5d4cdb2d6c78a7d187769c2e86b"
+    },
+    {
+      "file": "epmc.json",
+      "bytes": 195,
+      "sha256": "fe4d4250669b968b22486066cc0bf1cd2ccf8bfa11f806eb511d110db1f7b6de"
+    },
+    {
+      "file": "counter-pubmed.xml",
+      "bytes": 79634,
+      "sha256": "fa02f4b5a46cebf241d740e0cf0a1614b72731b6582d014f01c78e42e35699f4"
+    },
+    {
+      "file": "independent/publisher-main.html",
+      "bytes": 324845,
+      "sha256": "0ca8add40115376f25718cba78cdc0db5f803dfe5242cd9833085d38a2000f3e"
+    },
+    {
+      "file": "independent/pubmed-current.xml",
+      "bytes": 30366,
+      "sha256": "71040f9f85d9d2bfb5d5e605ec4379ef584663ab49f2bdfd35967fa9e62641d8"
+    },
+    {
+      "file": "independent/biostudies-metadata.json",
+      "bytes": 8887,
+      "sha256": "cf4a1e6f2dfdabd19b09be3c99882f6334a392bcbd4f95c1b50b2251dd59a6b6"
+    }
+  ],
+  "source_md_sha256": "7434757e4c69539548f62431ff4da205e5f778d250ab6e4bd4d7a45a6f2bea3a",
+  "extra_outer_reading_credit": 0,
+  "batch15_status": "incomplete_external_only",
+  "clinical_scope": "No treatment recommendation, human dose conversion, MVA efficacy or proved superiority."
+}
