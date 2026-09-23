@@ -1,8 +1,8 @@
 # Batch 15 historical follow-up reconciliation
 
-**Twelve of the 47 historical questions have direct source-qualified information; 35 lack a direct answer in this update.** Six original study-level questions are answered within limits. Bladder, CCDC41, EML1, diclofenac, lithium-astrocyte and retinoic-barrier questions retain unresolved source components. This is not global scientific completion or MVA efficacy.
+**Thirteen of the 47 historical questions have direct source-qualified information; 34 lack a direct answer in this update.** Six original study-level questions are answered within limits; seven direct qualifications retain unresolved source components, now including PDLSC-CM. This is not global scientific completion, clinical benefit or MVA efficacy.
 
-**Integrated retinoic-barrier update:** baseline `e79f1296e2c34c4985d2ae0055950dfc6d4a2622` had 206 appraisals. One narrowly scoped all-trans RA culture-barrier entry produces 207, with every existing object unchanged. Only n418 changes; all 46 other record objects and all 47 original questions/flags remain. Current repository inputs are retained separately from baseline Git and frozen candidate inputs.
+**Integrated source-only PDLSC-CM comparison:** baseline `32c1db986e6f5728947a59e39d547183f686f2b9` has207assessments, which remain unchanged. No new drug/compound identity or catalog join is added. Only n64 changes; all46other record objects and all47original questions/flags remain. Source, independent and root reading scopes are retained separately in the integrated qualification.
 
 ## Direct coverage and remaining gaps
 
@@ -92,7 +92,7 @@ The resveratrol and bladder study-level exposure documentation gaps were closed 
 
 ## Remaining questions without a direct qualified answer
 
-Nine records retain related evidence from a different experiment; six of those remain among the35 open questions. Such related evidence never substitutes for the exact-source qualification.
+Nine records retain related evidence from a different experiment; five of those remain among the34 open questions. Such related evidence never substitutes for the exact-source qualification.
 
 | Batch n / source | Why existing work does not close it | Bounded remaining question |
 |---|---|---|
@@ -100,7 +100,6 @@ Nine records retain related evidence from a different experiment; six of those r
 | [n14 / 32637030](https://pubmed.ncbi.nlm.nih.gov/32637030/) | No inspected qualification answers BI-D1870/vincristine exposures, specificity or normal-cell/animal comparisons. | Verify the BI-D1870/vincristine schedule, interaction model, normal-cell response and any actual animal arm. |
 | [n26 / 32555285](https://pubmed.ncbi.nlm.nih.gov/32555285/) | A WEE1 route or another WEE1 inhibitor is not source qualification of this AZD1775/olaparib TNBC experiment. | Extract arm-specific AZD1775/olaparib functional effects, exposure and normal-cell controls from this source. |
 | [n27 / 42045150](https://pubmed.ncbi.nlm.nih.gov/42045150/) | The ARTADI identities remain unspecified in the frozen annotation; no exact-source qualification found. | Identify the active ARTADIs and xenograft exposures, comparator conditions and toxicity measurements. |
-| [n64 / 38539170](https://pubmed.ncbi.nlm.nih.gov/38539170/) | Existing MSC-secretome/BDNF oocyte evidence is a different preparation/model and cannot identify periodontal secretome components or establish periodontal benefit beyond this culture. | Qualify this periodontal-cell conditioned medium, controlled mineralization rescue and any extension beyond LPS culture. |
 | [n79 / 22438244](https://pubmed.ncbi.nlm.nih.gov/22438244/) | SP600125 is qualified in A549 fungal injury and separate U2OS/BJ-Tert checkpoint experiments, not this TP53-dependent colon-xenograft study. | Verify TP53-stratified xenograft exposure, normal-tissue outcomes and residual killing after resistant-MPS1 rescue in PMID22438244. |
 | [n85 / PPR918452](https://europepmc.org/article/PPR/PPR918452) | No exact-source qualification found for the congression-bypass experiment or its linked publication. The saved preprint-to-publication relation is metadata, not reviewed source equivalence. | Resolve the inhibitors/exposures and later segregation/error outcomes, and distinguish PPR918452 from linked PMID41120338 before admitting a published-source answer. |
 | [n97 / 23899403](https://pubmed.ncbi.nlm.nih.gov/23899403/) | No exact synchronization-source qualification found. Thymidine use as a reagent does not establish supplementation or an in-vivo sensitizer. | Check thymidine synchronization/release timing, matched controls and any actual animal Taxol-resensitization arm. |
@@ -150,6 +149,16 @@ All-trans retinoic acid has a direct culture TEER comparison during mouse ESC-D3
 
 Pointers: [retinoic barrier qualification](retinoic-barrier-qualification.md), [structured assessment](retinoic-barrier-qualification.json).
 
+### n64 — PMID38539170
+
+Healthy-culture PDLSC-conditioned medium improves ALP, calcium, osteogenic-marker proteins and14day mineralization in LPS-treated human periodontal cells. The native RNA table also records BUB1B LPS+CM/LPS=2.642037, with CM-alone/control=0.705636. This is actual preparation-associated normal-cell function and bulk RNA response, not merely a predicted candidate list.
+
+The whole preparation remains incompletely defined. No isolated constituent is administered or shown causal, no ordinary compound/medicine identity is supported, and no ledger/catalog change is proposed. RNA-derived BUB1B network connections do not measure BubR1 protein or function. Protein-table identity scans found no matching entry, which is not a validated biological null.
+
+**Remaining source components:** active constituent/standardized dose, replicate/sample and per-gene statistics, cell-cycle composition and beyond-culture efficacy remain unresolved. Calcium methods/figure units conflict. No BubR1 supply, checkpoint fidelity, clinical benefit or nominee superiority is established, and the full original composite question remains partially unanswered.
+
+Pointers: [PDLSC secretome qualification](pdls-secretome-qualification.md), [structured qualification](pdls-secretome-qualification.json), [exact targeted expression](pdls-secretome-expression.json).
+
 ## Related evidence that must stay in its original context
 
 - n9 / PMID29046878: [bladder-qualification.md](bladder-qualification.md) — Different lapatinib bladder prevention experiment; does not resolve SKBR3/CENP-E combination.
@@ -166,6 +175,6 @@ Pointers: [retinoic barrier qualification](retinoic-barrier-qualification.md), [
 
 The JSON preserves all 47 original questions verbatim, record/abstract hashes, source pointers/hashes, relevant decision IDs, exact answered components and bounded remaining questions. Historical version/notice limits stay attached: PPR918452 links PMID41120338 by title/first-author matching; PMID35302600 links PPR440054; PMID23403633 links commentary23459035; PMID36380369 links PPR525543. Metadata links do not constitute reading, authenticated version equivalence or independent-study credit.
 
-This reconciliation maps separately attributed primary qualifications to the original questions. It does not turn cross-model pathway membership into a drug response or culture induction into disease repair. Only n418 changes in this candidate; all 46 other record objects and all 47 original questions/flags are preserved. Root’s bounded native-page/Figure3/text review remains distinct from the complete source and independent qualifications. Candidate assembly adds no scientific reading credit.
+This reconciliation maps separately attributed primary qualifications to the original questions. It does not turn cross-model pathway membership into a drug response or culture induction into disease repair. Only n64 changes in this candidate; all46other record objects and all47original questions/flags are preserved. Prior source qualifications and their reading scopes remain unchanged; the PDLSC-CM independent/root reviews remain separately attributed. Candidate assembly adds no scientific reading credit.
 
-The prior 206-assessment reconciliation remains a hash-bound baseline Git object. Exact candidate input hashes, source scopes and remaining gaps are recorded in the companion JSON.
+The unchanged207assessment reconciliation at32c1db986e6f5728947a59e39d547183f686f2b9 is the hash-bound baseline Git object. Candidate input hashes, source scopes and remaining gaps are recorded in the companion JSON. The candidate is frozen after bounded independent/root reviews.

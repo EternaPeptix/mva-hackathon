@@ -48,3 +48,5 @@ The score does not cover the new niacin/apitegromab proposal or replacement movi
 no fresh independent score is claimed. Biological and execution gaps remain.
 
 The [source-revalidation correction](../workflow/track2-drug-census/review-quality-followup.md) rejects the proposed all-read completion claim and retains a pending queue. Its [UMK57 appraisal](../workflow/track2-drug-census/umk57-qualification.md) credits actual fidelity benefit at the measured scope. Further primary-source lines remain; this review does not authorize publication or Track 2 submission.
+
+The [PDLSC conditioned-medium source comparison](../workflow/track2-drug-census/pdls-secretome-qualification.md) adds a biological-mixture functional/RNA observation with a portable six-ratio replay. All 207 ledger entries remain unchanged; no constituent is treated as an independently effective medicine.
