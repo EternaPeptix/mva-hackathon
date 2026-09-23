@@ -394,8 +394,8 @@ all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
 claim full-text review of all ranked records. The decision ledger now contains
-108 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 108 approved medicines.
+109 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 109 approved medicines.
 
 The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.
 
@@ -428,14 +428,34 @@ appraisals**. Its liver outcomes and missing factorial control are explicit;
 no BUBR1 restoration or muscle efficacy is claimed. Further lines remain open.
 
 
-The [next 512-entry reading](next512-findings.md) brings current outer coverage
+The [next 512-entry reading](next512-findings.md) brought outer coverage at that stage
 to **2,161 source/ID records**, leaving **3,598 originally saved abstracts
 unread**. Two readers completed 256 disjoint records each at indices 1217-1728.
 It flags 115 source questions; those are not 115 qualified medicines. Four
 appraisals follow from its primary work — proTAME, Apcin, fisetin, and dasatinib
 plus quercetin — with revisions to the existing Eg5-balancing and navitoclax
-entries, bringing the current ledger to **108 route/compound appraisals**.
+entries, bringing that stage to **108 route/compound appraisals**.
 `verify_next512.py` replays the exact selection, exclusions and content hashes
 against the original retrievals; it passes with the source selection re-derived
 from the original corpus. The senotherapeutic reserves are conditional and
 combination-specific; neither displaces the niacin/apitegromab comparison.
+
+
+## Source revalidation after a failed completion audit
+
+The [quality follow-up](review-quality-followup.md) rejects an unreliable
+3,598-record draft's claim that all remaining abstracts were read faithfully.
+It instead admits 186 distinct literal-source re-readings, including four
+non-abstract strings, bringing the outer ledgers to 2,347 source/ID records;
+3,412 selected strings still require revalidation. The previous 2,161 entries
+are preserved rather than independently re-audited here. Original empty fields
+and later recovered bodies remain separately accounted for.
+
+[UMK57](umk57-qualification.md) adds actual acute and post-division fidelity
+evidence with limited durability, bringing the current ledger to 109 appraisals.
+Protein-stabilization and tissue-repair follow-ups remain open. A separate
+[text-decoder correction](decoder-alias-check.md) recovers 32 catalog-to-record
+co-mentions across 11 abstracts under the unchanged alias policy. Historical
+tables are retained; the correction overlay is not an efficacy classification.
+`read_abstracts.py` avoids text-stripping, and `verify_revalidation.py` reconciles
+the corrected subset and pending queue without certifying the interpretations.

@@ -209,3 +209,14 @@ agents acting in the same pathway.
 | Zapomeran / Kostaive | COVID-19 protection and immune responses. | Injected-muscle protein clearance is not functional compensation. A BUB1B payload would be a new intervention. |
 | Etuvetidigene autotemcel / Waskyra | WAS-directed hematopoietic correction and clinical WAS outcomes. | It delivers WAS, not BUB1B; no muscle-compensation result. Different gene constructs require independent evidence. |
 | **Mebendazole — other-tissue protein-availability lead** | Higher YTHDC1 abundance, engagement-compatible assays and better HFD-mouse liver pathology/lipid/injury measures. | The [primary qualification](../../workflow/track2-drug-census/mebendazole-qualification.md) finds no drug-specific half-life repair, reader-function rescue or muscle benefit. A missing knockout+vehicle group limits the claimed dependency. Require a demonstrated relevant protein/function bridge and qualified exposure/safety before MVA promotion. |
+
+
+## Additional source-qualified fidelity route
+
+| Route | Positive evidence | Current decision and missing bridge |
+|---|---|---|
+| **UMK57 / MCAK potentiation** | Acute reductions in lagging chromosomes and less mis-segregation of a tagged chromosome after completed division in cancer cells, with mechanism controls. | Retain a mechanistic fidelity lead. The acute comparisons are no longer statistically significant at 72 hours; no BUB1B-deficient, muscle or clinical-exposure result is established. Neither catalog absence nor a different mechanism justifies universal exclusion. See the [primary appraisal](../../workflow/track2-drug-census/umk57-qualification.md). |
+
+The [source correction](../../workflow/track2-drug-census/review-quality-followup.md)
+keeps protein-stabilization and tissue-repair leads open rather than accepting an
+unsupported exhaustive-negative conclusion.

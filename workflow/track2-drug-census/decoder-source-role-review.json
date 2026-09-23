@@ -1,0 +1,694 @@
+{
+  "date": "2026-09-22 America/Phoenix",
+  "status": "source_role_review_complete",
+  "reviewed_count": 11,
+  "recovered_alias_record_count": 33,
+  "recovered_catalog_record_count": 32,
+  "corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+  "read_helper_sha256": "354ac74ad402b41a25239a17400aec4f12aff8f4caf18bdec18a82059866dada",
+  "read_evidence": {
+    "batch_sizes": [
+      4,
+      4,
+      3
+    ],
+    "end_of_batch_markers_verified": 3,
+    "total_abstract_characters": 24929,
+    "html_stripping": false
+  },
+  "scope": "Complete exact saved abstract strings for the 11 recovered-specific-alias records. Separate role audit; no additional cumulative coverage credit until source/ID overlap with prior revalidation is checked. No assumptions about patient phase, missense stability or superiority to current nominees.",
+  "role_counts": {
+    "assay_reagent": 1,
+    "endogenous_metabolite": 2,
+    "computational_drug_response_association": 3,
+    "administered_therapy": 5,
+    "predicted_candidate": 2,
+    "secondary_drug_response_association": 2,
+    "computational_drug_sensitivity_prediction": 10,
+    "secondary_dataset_regimen_association": 6,
+    "administered_assay_perturbation": 1,
+    "endogenous_phenotype_marker": 1
+  },
+  "summary": "Recovered lexical matches mostly reflect predicted/secondary associations, assay use or endogenous molecules. Four records contain actual clinical/preclinical treatment exposures and one contains an administered assay perturbation. No new demonstrated BUB1B, chromosome-fidelity or muscle-function rescue. Eplerenone is a named cellular intervention needing primary-source direction and functional-outcome clarification.",
+  "records": [
+    {
+      "source": "MED",
+      "record_id": "40847407",
+      "pmid": "40847407",
+      "title": "Transcriptomics assisted by metabolomics analysis provides insights into regulation mechanisms during carcinogenic process in a hydrodynamically transfected liver cancer model.",
+      "doi": "10.1186/s12935-025-03937-1",
+      "pmcid": "PMC12372400",
+      "abstract_sha256": "65b16a0f58b9d120d48880ad31d097d3c52c2a7ce995d92f0b5fc90040337b22",
+      "abstract_characters": 3639,
+      "review_depth": "complete_saved_abstract",
+      "annotation_status": "source_revalidated",
+      "reader": "/root/final_coverage_audit",
+      "intervention_type": "genetic_tumor_model_with_omics",
+      "model": "Hydrodynamically transfected C57BL/6J mice with Pten/P53 knockout and beta-catenin/c-Met overexpression; liver histology and omics",
+      "outcome_direction": "association",
+      "recovered_alias_roles": [
+        {
+          "normalized_alias": "eosin",
+          "catalog_ids": [
+            "DC4466"
+          ],
+          "role": "assay_reagent",
+          "role_evidence": "Part of hematoxylin/eosin histological staining."
+        },
+        {
+          "normalized_alias": "l pyroglutamic acid",
+          "catalog_ids": [
+            "CHEMBL397976"
+          ],
+          "role": "endogenous_metabolite",
+          "role_evidence": "Measured liver metabolite elevated in female tumor-model mice relative to males."
+        },
+        {
+          "normalized_alias": "pyridoxine",
+          "catalog_ids": [
+            "CHEMBL1364"
+          ],
+          "role": "endogenous_metabolite",
+          "role_evidence": "Measured liver metabolite lower in female tumor-model mice relative to males."
+        }
+      ],
+      "administered_agents": [],
+      "note": "Genetic manipulations generated liver tumors. Females had more severe tumor phenotypes; liver metabolomics found higher L-pyroglutamic acid and lower pyridoxine relative to males. Eosin was used in histological staining.",
+      "uncertainty": "No pyridoxine or pyroglutamic-acid supplementation was tested. The metabolite differences do not establish treatment effects or deficiencies requiring replacement. Eosin is an assay stain.",
+      "requires_primary_followup": false,
+      "followup_reason": "No administered therapeutic among the recovered aliases.",
+      "drug_cellular_or_clinical_endpoint_present": false,
+      "new_repurposing_functional_lead_established": false,
+      "new_lead_assessment": "No newly demonstrated functional treatment lead relevant to muscle or chromosome fidelity.",
+      "source_abstract_quality": "Complete current saved string displayed without HTML stripping; end-of-batch marker checked. No obvious cutoff; upstream completeness and current publication status not independently verified.",
+      "source_pubtypes": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    {
+      "source": "MED",
+      "record_id": "39512465",
+      "pmid": "39512465",
+      "title": "Establishment of prognosis model of hepatocellular carcinoma based on prognosis related gene analysis and study on gene regulation mechanism of model.",
+      "doi": "10.1016/j.heliyon.2024.e38729",
+      "pmcid": "PMC11539250",
+      "abstract_sha256": "64614de30e0ac655303ee91f1a2e21598ffd7356e12f873b4a3d912ce996a668",
+      "abstract_characters": 2444,
+      "review_depth": "complete_saved_abstract",
+      "annotation_status": "source_revalidated",
+      "reader": "/root/final_coverage_audit",
+      "intervention_type": "computational_prognostic_and_drug_response_analysis",
+      "model": "TCGA HCC dataset with 374 samples and secondary databases including GSCAlite",
+      "outcome_direction": "association",
+      "recovered_alias_roles": [
+        {
+          "normalized_alias": "refametinib",
+          "catalog_ids": [
+            "CHEMBL1236682"
+          ],
+          "role": "computational_drug_response_association",
+          "role_evidence": "GSCAlite-based model-gene/drug-resistance analysis; no new administration reported."
+        },
+        {
+          "normalized_alias": "selumetinib",
+          "catalog_ids": [
+            "CHEMBL1614701"
+          ],
+          "role": "computational_drug_response_association",
+          "role_evidence": "GSCAlite-based model-gene/drug-resistance analysis; no new administration reported."
+        },
+        {
+          "normalized_alias": "trametinib",
+          "catalog_ids": [
+            "CHEMBL2103875"
+          ],
+          "role": "computational_drug_response_association",
+          "role_evidence": "GSCAlite-based model-gene/drug-resistance analysis; no new administration reported."
+        }
+      ],
+      "administered_agents": [],
+      "note": "A six-gene prognostic model stratified HCC survival. Database analysis associated high expression of model genes with resistance to trametinib, selumetinib and refametinib.",
+      "uncertainty": "The methods describe secondary data analysis, not administration of these agents or experimental manipulation of the signature. The word resistance in the abstract does not establish causation or a tested treatment benefit.",
+      "requires_primary_followup": false,
+      "followup_reason": "No new drug experiment or functional rescue.",
+      "drug_cellular_or_clinical_endpoint_present": false,
+      "new_repurposing_functional_lead_established": false,
+      "new_lead_assessment": "No newly demonstrated functional treatment lead relevant to muscle or chromosome fidelity.",
+      "source_abstract_quality": "Complete current saved string displayed without HTML stripping; end-of-batch marker checked. No obvious cutoff; upstream completeness and current publication status not independently verified.",
+      "source_pubtypes": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    {
+      "source": "MED",
+      "record_id": "37959410",
+      "pmid": "37959410",
+      "title": "Progressive Multifocal Leukoencephalopathy in Systemic Lupus Erythematosus: A Consequence of Patient-Intrinsic or -Extrinsic Factors?",
+      "doi": "10.3390/jcm12216945",
+      "pmcid": "PMC10647998",
+      "abstract_sha256": "aafee9ac59129416ac69a95aafa4f024abbf8a779c3ceeef097222ed95a1dd57",
+      "abstract_characters": 1285,
+      "review_depth": "complete_saved_abstract",
+      "annotation_status": "source_revalidated",
+      "reader": "/root/final_coverage_audit",
+      "intervention_type": "clinical_case_report",
+      "model": "A 32-year-old woman with SLE, profound B-cell lymphopenia and progressive multifocal leukoencephalopathy",
+      "outcome_direction": "deterioration_despite_treatment",
+      "recovered_alias_roles": [
+        {
+          "normalized_alias": "pembrolizumab",
+          "catalog_ids": [
+            "CHEMBL3137343"
+          ],
+          "role": "administered_therapy",
+          "role_evidence": "Explicit treatment of the PML patient; worsening continued despite treatment."
+        }
+      ],
+      "administered_agents": [
+        {
+          "name": "pembrolizumab",
+          "role": "Administered immune checkpoint inhibitor in a single PML case"
+        }
+      ],
+      "note": "Pembrolizumab was administered for PML. Neurological and imaging deterioration continued, and the patient died 15 months after PML diagnosis; exome sequencing identified reported deleterious GATA2 and CDH7 variants.",
+      "uncertainty": "This is a single uncontrolled case with severe underlying immune dysfunction. It shows no benefit in that case but does not prove pembrolizumab caused deterioration, define class-wide inefficacy, or establish effects in BUB1B-associated disease.",
+      "requires_primary_followup": true,
+      "followup_reason": "If used to constrain an immune-checkpoint route, recover dose, timing, immune trajectory and other treatments; do not transfer the case outcome to all PD-1 agents.",
+      "drug_cellular_or_clinical_endpoint_present": true,
+      "new_repurposing_functional_lead_established": false,
+      "new_lead_assessment": "No newly demonstrated functional treatment lead relevant to muscle or chromosome fidelity.",
+      "source_abstract_quality": "Complete current saved string displayed without HTML stripping; end-of-batch marker checked. No obvious cutoff; upstream completeness and current publication status not independently verified.",
+      "source_pubtypes": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    {
+      "source": "MED",
+      "record_id": "32228488",
+      "pmid": "32228488",
+      "title": "A key genomic signature associated with lymphovascular invasion in head and neck squamous cell carcinoma.",
+      "doi": "10.1186/s12885-020-06728-1",
+      "pmcid": "PMC7106876",
+      "abstract_sha256": "5ff27410b9fbc85233a7df9de7009afbbb7bb89464a97ad1fe53fd7aa71249d9",
+      "abstract_characters": 2404,
+      "review_depth": "complete_saved_abstract",
+      "annotation_status": "source_revalidated",
+      "reader": "/root/final_coverage_audit",
+      "intervention_type": "computational_drug_nomination",
+      "model": "Secondary HNSCC expression/network and prognosis analyses with DrugBank candidate matching",
+      "outcome_direction": "predicted",
+      "recovered_alias_roles": [
+        {
+          "normalized_alias": "alvocidib",
+          "catalog_ids": [
+            "CHEMBL428690"
+          ],
+          "role": "predicted_candidate",
+          "role_evidence": "DrugBank-nominated potential agent; no treatment experiment reported."
+        },
+        {
+          "normalized_alias": "nelarabine",
+          "catalog_ids": [
+            "CHEMBL1201112"
+          ],
+          "role": "predicted_candidate",
+          "role_evidence": "DrugBank-nominated potential agent; no treatment experiment reported."
+        }
+      ],
+      "administered_agents": [],
+      "note": "Network analysis produced a prognostic signature and nominated eight small molecules, including alvocidib and nelarabine, for lymphovascular invasion in HNSCC.",
+      "uncertainty": "Neither recovered agent was administered. Prognostic association and a DrugBank match do not provide functional treatment evidence.",
+      "requires_primary_followup": false,
+      "followup_reason": "No administered-drug result; primary experiments would be needed to create one.",
+      "drug_cellular_or_clinical_endpoint_present": false,
+      "new_repurposing_functional_lead_established": false,
+      "new_lead_assessment": "No newly demonstrated functional treatment lead relevant to muscle or chromosome fidelity.",
+      "source_abstract_quality": "Complete current saved string displayed without HTML stripping; end-of-batch marker checked. No obvious cutoff; upstream completeness and current publication status not independently verified.",
+      "source_pubtypes": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    {
+      "source": "MED",
+      "record_id": "36685838",
+      "pmid": "36685838",
+      "title": "A novel transcription factor-based signature to predict prognosis and therapeutic response of hepatocellular carcinoma.",
+      "doi": "10.3389/fgene.2022.1068837",
+      "pmcid": "PMC9845592",
+      "abstract_sha256": "84b70e93fef9503cfdb04bfffe3d4b9581a0d14896f538688cdc51968eacdf1e",
+      "abstract_characters": 2465,
+      "review_depth": "complete_saved_abstract",
+      "annotation_status": "source_revalidated",
+      "reader": "/root/final_coverage_audit",
+      "intervention_type": "secondary_prognostic_and_treatment_response_analysis",
+      "model": "TCGA-LIHC and ICGC-LIRI-JP datasets; two-transcription-factor HCC prognostic signature",
+      "outcome_direction": "association",
+      "recovered_alias_roles": [
+        {
+          "normalized_alias": "erlotinib",
+          "catalog_ids": [
+            "CHEMBL553"
+          ],
+          "role": "secondary_drug_response_association",
+          "role_evidence": "Risk-signature correlation with reported resistance; administration and prediction/observation provenance unresolved at abstract depth."
+        },
+        {
+          "normalized_alias": "lapatinib",
+          "catalog_ids": [
+            "CHEMBL554"
+          ],
+          "role": "secondary_drug_response_association",
+          "role_evidence": "Risk-signature correlation with reported resistance; administration and prediction/observation provenance unresolved at abstract depth."
+        }
+      ],
+      "administered_agents": [],
+      "note": "HMGA1/MAFG risk scores predicted survival and were associated with treatment-response patterns, including reported resistance to lapatinib and erlotinib at higher scores.",
+      "uncertainty": "The saved methods describe data analysis and do not establish de novo administration or a prospective response trial for these drugs. The abstract does not fully distinguish measured historical response from predicted sensitivity.",
+      "requires_primary_followup": false,
+      "followup_reason": "No new administered-drug rescue is established; resolve response data sources if making a treatment claim.",
+      "drug_cellular_or_clinical_endpoint_present": false,
+      "new_repurposing_functional_lead_established": false,
+      "new_lead_assessment": "No newly demonstrated functional treatment lead relevant to muscle or chromosome fidelity.",
+      "source_abstract_quality": "Complete current saved string displayed without HTML stripping; end-of-batch marker checked. No obvious cutoff; upstream completeness and current publication status not independently verified.",
+      "source_pubtypes": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    {
+      "source": "MED",
+      "record_id": "19002265",
+      "pmid": "19002265",
+      "title": "Tumor BRCA1, RRM1 and RRM2 mRNA expression levels and clinical response to first-line gemcitabine plus docetaxel in non-small-cell lung cancer patients.",
+      "doi": "10.1371/journal.pone.0003695",
+      "pmcid": "PMC2579656",
+      "abstract_sha256": "6bde1d666d6621b35f62da38ccd1cd9d83834a21813510de0f796ca9c3834c62",
+      "abstract_characters": 1664,
+      "review_depth": "complete_saved_abstract",
+      "annotation_status": "source_revalidated",
+      "reader": "/root/final_coverage_audit",
+      "intervention_type": "retrospective_clinical_biomarker_analysis",
+      "model": "Tumor specimens from 102 advanced NSCLC patients treated in a randomized-trial setting; 31 subsequently received cisplatin-based therapy",
+      "outcome_direction": "association",
+      "recovered_alias_roles": [
+        {
+          "normalized_alias": "cisplatin",
+          "catalog_ids": [
+            "CHEMBL11359"
+          ],
+          "role": "administered_therapy",
+          "role_evidence": "Cisplatin-based second-line treatment in 31 patients; regimen components are unspecified."
+        }
+      ],
+      "administered_agents": [
+        {
+          "name": "cisplatin-based second-line regimen",
+          "role": "Administered clinical treatment; specific combination not given"
+        },
+        {
+          "name": "gemcitabine plus docetaxel",
+          "role": "Administered first-line combination in the source cohort"
+        }
+      ],
+      "note": "Patients received gemcitabine/docetaxel first-line treatment. Among 31 receiving cisplatin-based second-line therapy, low tumor BRCA1 expression associated with longer time to progression.",
+      "uncertainty": "The biomarker association is not a randomized comparison of cisplatin against an alternative, nor an isolated cisplatin effect. It does not show restoration of normal tissue, BUBR1, chromosome fidelity or muscle function.",
+      "requires_primary_followup": false,
+      "followup_reason": "An actual chemotherapy exposure is recovered, but no new relevant restorative mechanism or treatment benefit is demonstrated.",
+      "drug_cellular_or_clinical_endpoint_present": true,
+      "new_repurposing_functional_lead_established": false,
+      "new_lead_assessment": "No newly demonstrated functional treatment lead relevant to muscle or chromosome fidelity.",
+      "source_abstract_quality": "Complete current saved string displayed without HTML stripping; end-of-batch marker checked. No obvious cutoff; upstream completeness and current publication status not independently verified.",
+      "source_pubtypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    {
+      "source": "MED",
+      "record_id": "38143740",
+      "pmid": "38143740",
+      "title": "Transcriptomic correlates of cell cycle checkpoints with distinct prognosis, molecular characteristics, immunological regulation, and therapeutic response in colorectal adenocarcinoma.",
+      "doi": "10.3389/fimmu.2023.1291859",
+      "pmcid": "PMC10749195",
+      "abstract_sha256": "f77536cb3d1784551d57ca3f68b15f8127fdc5a73066856e612cc9baf3771a0a",
+      "abstract_characters": 3848,
+      "review_depth": "complete_saved_abstract",
+      "annotation_status": "source_revalidated",
+      "reader": "/root/final_coverage_audit",
+      "intervention_type": "mixed_secondary_omics_and_gene_function_assays",
+      "model": "TCGA/GEO colorectal-adenocarcinoma datasets; HCT116 and SW480 cell assays of signature genes; GDSC drug-response modeling",
+      "outcome_direction": "association",
+      "recovered_alias_roles": [
+        {
+          "normalized_alias": "bortezomib",
+          "catalog_ids": [
+            "CHEMBL325041"
+          ],
+          "role": "computational_drug_sensitivity_prediction",
+          "role_evidence": "GDSC-based analysis suggests greater sensitivity at higher CCC score; not a new drug experiment."
+        },
+        {
+          "normalized_alias": "bosutinib",
+          "catalog_ids": [
+            "CHEMBL288441"
+          ],
+          "role": "computational_drug_sensitivity_prediction",
+          "role_evidence": "GDSC-based analysis suggests greater sensitivity at lower CCC score; not a new drug experiment."
+        },
+        {
+          "normalized_alias": "cyclophosphamide",
+          "catalog_ids": [
+            "CHEMBL88"
+          ],
+          "role": "secondary_dataset_regimen_association",
+          "role_evidence": "Secondary GEO dataset signature analysis suggests a combination/regimen might suit high CCC scores; no newly administered treatment is reported."
+        },
+        {
+          "normalized_alias": "doxorubicin",
+          "catalog_ids": [
+            "CHEMBL53463"
+          ],
+          "role": "secondary_dataset_regimen_association",
+          "role_evidence": "Secondary GEO dataset signature analysis suggests a combination/regimen might suit high CCC scores; no newly administered treatment is reported."
+        },
+        {
+          "normalized_alias": "durvalumab",
+          "catalog_ids": [
+            "CHEMBL3301587"
+          ],
+          "role": "secondary_dataset_regimen_association",
+          "role_evidence": "Secondary GEO dataset signature analysis suggests a combination/regimen might suit high CCC scores; no newly administered treatment is reported."
+        },
+        {
+          "normalized_alias": "elesclomol",
+          "catalog_ids": [
+            "CHEMBL1972860"
+          ],
+          "role": "computational_drug_sensitivity_prediction",
+          "role_evidence": "GDSC-based analysis suggests greater sensitivity at higher CCC score; not a new drug experiment."
+        },
+        {
+          "normalized_alias": "fluorouracil",
+          "catalog_ids": [
+            "CHEMBL185"
+          ],
+          "role": "computational_drug_sensitivity_prediction",
+          "role_evidence": "GDSC-based analysis suggests greater sensitivity at lower CCC score; not a new drug experiment."
+        },
+        {
+          "normalized_alias": "gefitinib",
+          "catalog_ids": [
+            "CHEMBL939"
+          ],
+          "role": "computational_drug_sensitivity_prediction",
+          "role_evidence": "GDSC-based analysis suggests greater sensitivity at lower CCC score; not a new drug experiment."
+        },
+        {
+          "normalized_alias": "gemcitabine",
+          "catalog_ids": [
+            "CHEMBL888"
+          ],
+          "role": "computational_drug_sensitivity_prediction",
+          "role_evidence": "GDSC-based analysis suggests greater sensitivity at lower CCC score; not a new drug experiment."
+        },
+        {
+          "normalized_alias": "ixabepilone",
+          "catalog_ids": [
+            "CHEMBL1201752"
+          ],
+          "role": "secondary_dataset_regimen_association",
+          "role_evidence": "Secondary GEO dataset signature analysis suggests a combination/regimen might suit high CCC scores; no newly administered treatment is reported."
+        },
+        {
+          "normalized_alias": "methotrexate",
+          "catalog_ids": [
+            "CHEMBL34259"
+          ],
+          "role": "computational_drug_sensitivity_prediction",
+          "role_evidence": "GDSC-based analysis suggests greater sensitivity at lower CCC score; not a new drug experiment."
+        },
+        {
+          "normalized_alias": "mitomycin",
+          "catalog_ids": [
+            "CHEMBL105"
+          ],
+          "role": "computational_drug_sensitivity_prediction",
+          "role_evidence": "GDSC-based analysis suggests greater sensitivity at lower CCC score; not a new drug experiment."
+        },
+        {
+          "normalized_alias": "mitomycin c",
+          "catalog_ids": [
+            "CHEMBL105"
+          ],
+          "role": "computational_drug_sensitivity_prediction",
+          "role_evidence": "GDSC-based analysis suggests greater sensitivity at lower CCC score; not a new drug experiment."
+        },
+        {
+          "normalized_alias": "olaparib",
+          "catalog_ids": [
+            "CHEMBL521686"
+          ],
+          "role": "secondary_dataset_regimen_association",
+          "role_evidence": "Secondary GEO dataset signature analysis suggests a combination/regimen might suit high CCC scores; no newly administered treatment is reported."
+        },
+        {
+          "normalized_alias": "paclitaxel",
+          "catalog_ids": [
+            "CHEMBL428647"
+          ],
+          "role": "secondary_dataset_regimen_association",
+          "role_evidence": "Secondary GEO dataset signature analysis suggests a combination/regimen might suit high CCC scores; no newly administered treatment is reported."
+        },
+        {
+          "normalized_alias": "temozolomide",
+          "catalog_ids": [
+            "CHEMBL810"
+          ],
+          "role": "computational_drug_sensitivity_prediction",
+          "role_evidence": "GDSC-based analysis suggests greater sensitivity at lower CCC score; not a new drug experiment."
+        }
+      ],
+      "administered_agents": [],
+      "note": "A checkpoint-gene prognostic score was linked to proliferation/invasion assays and secondary treatment-response patterns. Six recovered aliases occur in proposed historical-dataset combinations; ten aliases, representing nine entities, occur in GDSC sensitivity analyses.",
+      "uncertainty": "The cell assays concern signature genes and cannot be transferred to the named drugs. The abstract does not establish that regimens were newly administered to these colorectal cells or patients. Mitomycin and mitomycin C are aliases for one matched entity. Underlying treatment-dataset populations need checking before a disease-specific regimen inference.",
+      "requires_primary_followup": false,
+      "followup_reason": "No de novo drug functional experiment; dataset and combination provenance must be resolved before drug qualification.",
+      "drug_cellular_or_clinical_endpoint_present": false,
+      "new_repurposing_functional_lead_established": false,
+      "new_lead_assessment": "No newly demonstrated functional treatment lead relevant to muscle or chromosome fidelity.",
+      "source_abstract_quality": "Complete current saved string displayed without HTML stripping; end-of-batch marker checked. No obvious cutoff; upstream completeness and current publication status not independently verified.",
+      "source_pubtypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    {
+      "source": "MED",
+      "record_id": "34771604",
+      "pmid": "34771604",
+      "title": "Dynamics of Serum Thymidine Kinase 1 at the First Cycle of Neoadjuvant Chemotherapy Predicts Outcome of Disease in Estrogen-Receptor-Positive Breast Cancer.",
+      "doi": "10.3390/cancers13215442",
+      "pmcid": "PMC8582392",
+      "abstract_sha256": "88b2c4b85419257b026711a63edfd751b52edb9f0304fcaf12b77313bf444de5",
+      "abstract_characters": 1351,
+      "review_depth": "complete_saved_abstract",
+      "annotation_status": "source_revalidated",
+      "reader": "/root/final_coverage_audit",
+      "intervention_type": "clinical_treatment_biomarker_study",
+      "model": "PROMIX trial women with localized HER2-negative breast cancer; serial serum TK1 measurements in 54 plus an additional 77 patients",
+      "outcome_direction": "association",
+      "recovered_alias_roles": [
+        {
+          "normalized_alias": "docetaxel",
+          "catalog_ids": [
+            "CHEMBL92"
+          ],
+          "role": "administered_therapy",
+          "role_evidence": "Part of the epirubicin/docetaxel neoadjuvant combination; individual contributions not isolated."
+        },
+        {
+          "normalized_alias": "epirubicin",
+          "catalog_ids": [
+            "CHEMBL417"
+          ],
+          "role": "administered_therapy",
+          "role_evidence": "Part of the epirubicin/docetaxel neoadjuvant combination; individual contributions not isolated."
+        }
+      ],
+      "administered_agents": [
+        {
+          "name": "epirubicin plus docetaxel",
+          "role": "Administered six-cycle neoadjuvant combination"
+        }
+      ],
+      "note": "Patients received six cycles of epirubicin/docetaxel. Early serum TK1 changes stratified later survival and disease-free survival among ER-positive patients.",
+      "uncertainty": "The survival groups were defined by a biomarker response, not assignment to these drugs versus a control. Results do not isolate either compound, establish causal regimen benefit, or measure muscle/chromosome rescue.",
+      "requires_primary_followup": false,
+      "followup_reason": "Actual combination exposure is recovered, but no new relevant restorative result.",
+      "drug_cellular_or_clinical_endpoint_present": true,
+      "new_repurposing_functional_lead_established": false,
+      "new_lead_assessment": "No newly demonstrated functional treatment lead relevant to muscle or chromosome fidelity.",
+      "source_abstract_quality": "Complete current saved string displayed without HTML stripping; end-of-batch marker checked. No obvious cutoff; upstream completeness and current publication status not independently verified.",
+      "source_pubtypes": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    {
+      "source": "MED",
+      "record_id": "26676187",
+      "pmid": "26676187",
+      "title": "Up-regulation of microRNA-210 inhibits proliferation of hepatocellular carcinoma cells by targeting YES1.",
+      "doi": "10.3748/wjg.v21.i46.13030",
+      "pmcid": "PMC4674721",
+      "abstract_sha256": "96e9dd38b9b4460841efc8c6507cad38eca035031cb004fc52b723bc6e0b6adf",
+      "abstract_characters": 1928,
+      "review_depth": "complete_saved_abstract",
+      "annotation_status": "source_revalidated",
+      "reader": "/root/final_coverage_audit",
+      "intervention_type": "mixed_genetic_and_assay_perturbation",
+      "model": "HepG2 and HuH7 HCC cells; 21 paired tumor/non-tumor tissue samples",
+      "outcome_direction": "mechanistic",
+      "recovered_alias_roles": [
+        {
+          "normalized_alias": "nocodazole",
+          "catalog_ids": [
+            "CHEMBL9514"
+          ],
+          "role": "administered_assay_perturbation",
+          "role_evidence": "Used to produce a substantial G2/M cell population in a YES1/miR-210 mechanistic experiment."
+        }
+      ],
+      "administered_agents": [
+        {
+          "name": "nocodazole",
+          "role": "Administered cell-cycle assay perturbation"
+        },
+        {
+          "name": "miR-210 mimic/inhibitor",
+          "role": "Genetic regulatory reagents"
+        },
+        {
+          "name": "YES1 siRNA",
+          "role": "Genetic knockdown reagent"
+        }
+      ],
+      "note": "miR-210 overexpression and YES1 siRNA reduced proliferation. Nocodazole-treated cells enriched for G2/M showed reduced YES1 protein; prior miR-210 inhibition prevented this protein decrease.",
+      "uncertainty": "The proliferation effects belong to genetic interventions, not nocodazole treatment. Nocodazole establishes a cell-cycle perturbation context, not chromosome-fidelity or tissue rescue.",
+      "requires_primary_followup": false,
+      "followup_reason": "No therapeutic nocodazole result; retain its assay role.",
+      "drug_cellular_or_clinical_endpoint_present": false,
+      "new_repurposing_functional_lead_established": false,
+      "new_lead_assessment": "No newly demonstrated functional treatment lead relevant to muscle or chromosome fidelity.",
+      "source_abstract_quality": "Complete current saved string displayed without HTML stripping; end-of-batch marker checked. No obvious cutoff; upstream completeness and current publication status not independently verified.",
+      "source_pubtypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    {
+      "source": "MED",
+      "record_id": "25023465",
+      "pmid": "25023465",
+      "title": "Gene network-based analysis identifies two potential subtypes of small intestinal neuroendocrine tumors.",
+      "doi": "10.1186/1471-2164-15-595",
+      "pmcid": "PMC4124138",
+      "abstract_sha256": "b952e9465e6ac49cd46c603b6fa8ab0e7935cb722bd6010acf5f77bdf7729a95",
+      "abstract_characters": 2421,
+      "review_depth": "complete_saved_abstract",
+      "annotation_status": "source_revalidated",
+      "reader": "/root/final_coverage_audit",
+      "intervention_type": "observational_transcriptomic_subtyping",
+      "model": "Two public small-intestinal neuroendocrine tumor transcriptomes plus qPCR validation in 13 tumors",
+      "outcome_direction": "association",
+      "recovered_alias_roles": [
+        {
+          "normalized_alias": "substance p",
+          "catalog_ids": [
+            "CHEMBL235363"
+          ],
+          "role": "endogenous_phenotype_marker",
+          "role_evidence": "Part of the proposed secretory tumor subtype; no administration reported."
+        }
+      ],
+      "administered_agents": [],
+      "note": "Expression/network analysis suggested serotonin-producing and serotonin/substance-P/tachykinin tumor subtypes.",
+      "uncertainty": "Substance P describes an endogenous secretory phenotype, not administered peptide therapy. No agonist, antagonist or functional drug intervention is tested.",
+      "requires_primary_followup": false,
+      "followup_reason": "No therapeutic exposure or drug-response result.",
+      "drug_cellular_or_clinical_endpoint_present": false,
+      "new_repurposing_functional_lead_established": false,
+      "new_lead_assessment": "No newly demonstrated functional treatment lead relevant to muscle or chromosome fidelity.",
+      "source_abstract_quality": "Complete current saved string displayed without HTML stripping; end-of-batch marker checked. No obvious cutoff; upstream completeness and current publication status not independently verified.",
+      "source_pubtypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    {
+      "source": "MED",
+      "record_id": "25564371",
+      "pmid": "25564371",
+      "title": "Aldosterone promotes cardiac endothelial cell proliferation in vivo.",
+      "doi": "10.1161/jaha.114.001266",
+      "pmcid": "PMC4330055",
+      "abstract_sha256": "acb193c626099d6a8323a163e3cbd079ae214965e6bc34a976acb119576f9286",
+      "abstract_characters": 1480,
+      "review_depth": "complete_saved_abstract",
+      "annotation_status": "source_revalidated",
+      "reader": "/root/final_coverage_audit",
+      "intervention_type": "drug_treatment_and_transcriptomic_mechanism",
+      "model": "Seven-day aldosterone-treated mice, human endothelial cells ex vivo, and a transverse-aortic-constriction heart-failure model",
+      "outcome_direction": "context_dependent",
+      "recovered_alias_roles": [
+        {
+          "normalized_alias": "eplerenone",
+          "catalog_ids": [
+            "CHEMBL1095097"
+          ],
+          "role": "administered_therapy",
+          "role_evidence": "Pharmacological mineralocorticoid-receptor blockade inhibited endothelial proliferation in the transverse-aortic-constriction model."
+        }
+      ],
+      "administered_agents": [
+        {
+          "name": "aldosterone",
+          "role": "Administered to mice for seven days; induces cardiac endothelial proliferation"
+        },
+        {
+          "name": "eplerenone",
+          "role": "Administered receptor antagonist in the heart-failure model; exposure details absent"
+        }
+      ],
+      "note": "Aldosterone increased cardiac endothelial proliferation. In a separate pressure-overload heart-failure model, eplerenone blockade of the mineralocorticoid receptor inhibited endothelial proliferation.",
+      "uncertainty": "The abstract does not provide eplerenone dose, timing, magnitude or cardiac-performance outcomes. Reduced endothelial proliferation is a directional cellular result, not demonstrated heart-failure rescue or evidence for benefit in muscle or BUB1B-associated disease. The seven-day exposure explicitly describes aldosterone, not eplerenone.",
+      "requires_primary_followup": true,
+      "followup_reason": "Resolve the eplerenone dose/timing, species, endothelial endpoint, vascular remodeling and cardiac function before deciding whether proliferation suppression is useful or harmful.",
+      "drug_cellular_or_clinical_endpoint_present": true,
+      "new_repurposing_functional_lead_established": false,
+      "new_lead_assessment": "New named-drug cellular intervention recovered, and no existing eplerenone decision was found in the checked ledger; qualifies for a narrow primary-source mechanism/direction follow-up, not as a beneficial repurposing lead.",
+      "source_abstract_quality": "Complete current saved string displayed without HTML stripping; end-of-batch marker checked. No obvious cutoff; upstream completeness and current publication status not independently verified.",
+      "source_pubtypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "source_stage_alias_delta_sha256": "9a4608a514a4d5344ada38c28d808f5d1cd899c96e1bb16911af07567f53c6d8",
+  "alias_delta_sha256": "bbc4480cec0b4ad737539f1ec39d90515e17877d790bf98b076e1ee6997342b8",
+  "coverage_integration": {
+    "new_queue_records": 6,
+    "outside_queue_records": 5,
+    "integrated_review": "outer-revalidation-review.json",
+    "unvalidated_original_annotations_accepted": false
+  }
+}

@@ -428,7 +428,7 @@ rescue from parthenogenesis, control-cell harm, drug–siRNA dependence and mixt
 effects. Niacin/apitegromab remain nominations without demonstrated MVA efficacy.
 
 Another 120 fixed-order complete abstracts have original assessments, bringing
-the two outer selections to 180 distinct records; 5,722 outer records remain
+the two outer selections to 186 distinct records; 5,722 outer records remain
 outside those selections. An independent reviewer verified all 120 source
 identities/hashes and exclusions, and independently reread 15 abstracts including
 all nine follow-ups. Original gene/60-record assessments are preserved. Source
@@ -599,3 +599,20 @@ Existing source/provenance fields, exact Track 1 uploads and pitch media are
 preserved. Independent source checks and source-selection/identity replay passed;
 they do not prove clinical efficacy. Repository publication and Track 2 submission
 remain pending because further leads and unresolved coverage remain.
+
+
+## Source-revalidation correction — 22 September 2026
+
+An unreliable 3,598-record completion draft is excluded from this correction.
+The added subset has 186 literal-source re-readings, with original source IDs,
+hashes, publication metadata and evidence-depth distinctions; 3,412 queue
+entries remain pending. A separate decoder overlay recovers 32 catalog-record
+co-mentions under the same policy. Original abstract/full text and figure files
+remain outside Git. The new UMK57 appraisal and bounded updates to four prior
+entries bring the ledger to 109 routes/compounds, not 109 approved medicines.
+
+The selection, source revalidation and decoder replay were checked independently
+of efficacy. Existing Track 1 uploads, pitch media, controlled-data exclusions and
+source licenses remain intact. The earlier pipeline and inventory snapshots are
+preserved as historical provenance. No visibility change, public release or
+Track 2 submission follows from this private corrective draft.

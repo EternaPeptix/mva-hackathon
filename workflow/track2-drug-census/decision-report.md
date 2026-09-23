@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 108 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 109 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -236,8 +236,8 @@ has been established for it, and it does not yet displace the nominated pair.
 
 ## Senotherapeutic reserves and mitotic comparators from 512 further entries
 
-The [next 512 saved entries](next512-findings.md) bring outer coverage to 2,161
-source/ID records, with 3,598 saved abstracts still unread. Two primary
+The [next 512 saved entries](next512-findings.md) brought outer coverage at that stage to 2,161
+source/ID records, with 3,598 saved abstracts still unread at that stage. Two primary
 follow-ups result.
 
 The [muscle-senescence qualification](muscle-senescence-qualification.md) adds
@@ -256,5 +256,23 @@ cells; Apcin does not reproduce it, and their combination suppresses the
 response. These are bulk-lysate biochemical measurements in a different lesion,
 so they cannot supply per-cell checkpoint correction or faithful descendants.
 
-The ledger now holds **108 appraisals**. Nothing here establishes BUBR1
+At that stage, the ledger held **108 appraisals**. Nothing here establishes BUBR1
 restoration or MVA efficacy, and the nominated pair is unchanged.
+
+
+## Source corrections and a further fidelity lead
+
+The [source revalidation](review-quality-followup.md) withdraws the proposed
+all-read/no-further-leads conclusion from an unreliable draft. There are 186
+newly re-read source records and 3,412 still requiring revalidation. The
+[UMK57 appraisal](umk57-qualification.md) adds a genuine acute and completed-division
+fidelity result in cancer cells, followed by limited durability. It is a
+mechanistic competitor, not an established MVA medicine. Apcin's context-dependent
+direction, AICAR/ABT-263 combination results and a metformin protein-stabilization
+precedent are kept at their qualified source depths. Neither existing nominee
+is MVA-proven; absence of a replacement today is not proof of superiority.
+
+CX-4945, Wy-14643, bFGF, neuromuscular and muscle-repair references remain open
+primary-source questions. The restored lexical matches are additional source
+pointers. Publication/submission remains pending while these scientific and
+coverage questions are resolved.

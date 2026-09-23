@@ -4,7 +4,7 @@
 
 The [adopted drug-census decision](../workflow/track2-drug-census/decision-report.md) is incorporated into this package. We nominate **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue. Their shared goal is greater absolute muscle output with preserved renewal and chromosome accuracy.
 
-Niacin retains the more proximal hypothesis; apitegromab has stronger actual-drug human functional evidence from treated SMA, with age/dose limits, fracture risk and intravenous access burden. It requires a suitable myostatin activation system and drug engagement, not mandatory excess baseline myostatin. The public census retains 15,357 entities plus 40 separately assessed FDA product entries and 108 curated route/compound appraisals. This is measured retrieval and review coverage, not efficacy evidence for every medicine.
+Niacin retains the more proximal hypothesis; apitegromab has stronger actual-drug human functional evidence from treated SMA, with age/dose limits, fracture risk and intravenous access burden. It requires a suitable myostatin activation system and drug engagement, not mandatory excess baseline myostatin. The public census retains 15,357 entities plus 40 separately assessed FDA product entries and 109 curated route/compound appraisals. This is measured retrieval and review coverage, not efficacy evidence for every medicine.
 
 Completed work comprises allele-product reconstruction, literature and route
 comparison, synthetic analysis of misleading cell fractions, and a reproducible
@@ -46,3 +46,5 @@ scored the earlier niacin/everolimus version **77/100** (29 rigor, 20 impact,
 17 innovation, 11 scalability). Its artifact hashes identify that assessed version.
 The score does not cover the new niacin/apitegromab proposal or replacement movie;
 no fresh independent score is claimed. Biological and execution gaps remain.
+
+The [source-revalidation correction](../workflow/track2-drug-census/review-quality-followup.md) rejects the proposed all-read completion claim and retains a pending queue. Its [UMK57 appraisal](../workflow/track2-drug-census/umk57-qualification.md) credits actual fidelity benefit at the measured scope. Further primary-source lines remain; this review does not authorize publication or Track 2 submission.
