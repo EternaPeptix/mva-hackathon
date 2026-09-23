@@ -6,11 +6,11 @@ publication-hold status.
 [PR1 reuse](pr1-reuse.md) records which work is already incorporated, adds
 bounded UMK57 control findings, and preserves the later source corrections.
 
-The latest qualifications retain [Aquamin colonoid differentiation](aquamin-qualification.md)
-and [four distinct KIF18A compounds](kif18a-compound-qualification.md), including
-reported mouse tumor regression. These are different endpoints from MVA protein
-restoration or useful muscle output. The [fifth 128-record revalidation](batch05-revalidation-findings.md)
-leaves 2,772 selected strings pending; the search remains unfinished.
+The latest qualifications retain [corneal tissue improvements](corneal-qualification.md)
+and [cardiomyocyte maturation and optical beating](cardiomyocyte-qualification.md).
+They distinguish tissue benefit from BUBR1 restoration, and injury experiments
+from rescue. The [sixth 128-record revalidation](batch06-revalidation-findings.md)
+leaves 2,644 selected strings pending; the search remains unfinished.
 
 **Catalog snapshot: 21 September 2026; corrected text screen: 22 September 2026,
 America/Phoenix (retrieval timestamps are UTC).**
@@ -435,8 +435,8 @@ all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
 claim full-text review of all ranked records. The current decision ledger contains
-138 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 138 approved medicines.
+142 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 142 approved medicines.
 
 The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.
 
@@ -486,22 +486,24 @@ combination-specific; neither displaces the niacin/apitegromab comparison.
 
 The [quality follow-up](review-quality-followup.md) rejects an unreliable
 3,598-record draft's claim of faithful completion. The initial 186 literal
-revalidations and five subsequent 128-record batches now total **826 strings**,
-bringing the outer ledgers to **2,987 source/ID records** and leaving **2,772
+revalidations and six subsequent 128-record batches now total **954 strings**,
+bringing the outer ledgers to **3,115 source/ID records** and leaving **2,644
 selected strings pending**. The preceding 2,161 annotations have not been
 independently re-audited here. Four initial strings are non-abstract items.
-The latest batch comprises 128 saved abstracts, including reviews and a case
-report; content labels do not count independent experiments. Original empty
+The latest batch contains 128 saved source strings, including reviews, preprints,
+commentaries, a conference abstract and a case report; these are not 128
+independent experiments. Original empty
 fields and recovered bodies remain separately accounted for.
 
 The [first 128](next128-revalidation-findings.md) flagged 52 source questions;
 the [second](batch02-revalidation-findings.md) 49,
 [third](batch03-revalidation-findings.md) 31,
-[fourth](batch04-revalidation-findings.md) 34, and
-[fifth](batch05-revalidation-findings.md) 27. These are questions, not qualified
+[fourth](batch04-revalidation-findings.md) 34,
+[fifth](batch05-revalidation-findings.md) 27, and
+[sixth](batch06-revalidation-findings.md) 22. These are questions, not qualified
 medicines. Eight independent cross-reader checks in the latest batch required
 no substantive amendments; this is a targeted check, not an estimated error
-rate. The latest batch retains one unread linked erratum and six preprint links.
+rate. The latest batch retains two unread linked errata and five preprint links.
 Earlier notice and annotation decisions are preserved at their declared scope.
 
 [UMK57](umk57-qualification.md) adds actual acute and post-division fidelity
@@ -557,10 +559,22 @@ efficacy or change of nominee is established.
 
 
 The [Aquamin](aquamin-qualification.md) and [KIF18A](kif18a-compound-qualification.md)
-qualifications add five entries, bringing the current ledger to **138**, with all
+qualifications added five entries, bringing that stage to **138**, with all
 133 preceding objects unchanged. Aquamin Soluble is one characterized mixture;
 its calcium comparator remains explicit without nominating each constituent.
 AM-0277, AM-1882, AM-5308 and AM-9022 retain separate compound-specific results.
 All five lack exact aliases in the saved clinical catalog, so the 15,357-entity
 retrieval denominator is unchanged. Neither source establishes MVA efficacy or
 changes the provisional research pair.
+
+
+The [corneal](corneal-qualification.md) and [cardiomyocyte](cardiomyocyte-qualification.md)
+qualifications add four entries and extend the existing ascorbate-phosphate
+assessment, bringing the current ledger to **142**. 2-DG and Stattic retain actual
+mouse tissue benefits; rotenone is an adverse cell control. FGF4 plus AA retains
+combination-level optical function, while the subsequent hypoxia experiment
+measures injury. These are two primary studies, not four independent positive
+experiments. Only 2-DG has an exact alias join (CHEMBL1880349); FGF4, Stattic and
+rotenone do not match this saved catalog. Neither absence nor a clinical-development
+record establishes current approval or efficacy. The 15,357-entity denominator
+and provisional research comparison are unchanged.

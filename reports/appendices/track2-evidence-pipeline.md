@@ -1,6 +1,6 @@
 # Evidence pipeline for the Track 2 niacin–apitegromab comparison
 
-21 September 2026. The core pair is **niacin (nicotinic acid) for restoration**
+22 September 2026. The provisional core pair is **niacin (nicotinic acid) for restoration**
 and **apitegromab for downstream muscle compensation**, tested separately.
 Niacin asks whether the NAD/SIRT2 route can restore usable BUBR1; apitegromab
 asks whether selective inhibition of myostatin activation improves useful muscle
@@ -22,7 +22,11 @@ none waits for another to fail. [Current proposal](../jeweled_track2_report_subm
 and [full alternative-route audit and promotion triggers](track2-route-decisions.md).
 
 Candidate reconstruction, population sensitivity calculations and a secondary
-mouse RNA analysis are completed. No patient-cell, drug-exposure or functional
+mouse RNA analysis are completed. The [sixth source batch](../../workflow/track2-drug-census/batch06-revalidation-findings.md)
+adds 128 literal revalidations, bringing coverage to 954, with 3,115 accepted outer
+source/ID records, 2,644 pending strings and 142 curated appraisals. Its 22 new
+source questions are flagged separately; the literature review remains incomplete.
+No patient-cell, drug-exposure or functional
 rescue experiment below has been performed; laboratory access is not secured.
 This pipeline supersedes the elected-lead choices in the dated protocols while
 retaining their useful assay controls. It supplies no clinical dosing proposal.
@@ -714,3 +718,12 @@ while arresting controls. Genetic protein depletion and drug inhibition can also
 have opposite effects. Qualify the actual drug and regimen, and retain absolute
 output and chromosome outcomes after withdrawal; neither a favorable genetic
 result nor selected bipolar cells can supply the missing whole-population result.
+The [corneal qualification](../../workflow/track2-drug-census/corneal-qualification.md)
+retains 2-DG/Stattic benefits for mouse edema, haze and inflammation while identifying
+rotenone as an adverse cell-mechanism control; BUBR1 was not assayed.
+The [FGF4–AA study](../../workflow/track2-drug-census/cardiomyocyte-qualification.md)
+retains cardiomyocyte maturation and optical beating as combination-level positives.
+Its subsequent hypoxia experiment caused injury, and the BUB1B transcript result
+does not measure BUBR1 protein. These findings reinforce the need to distinguish
+tissue benefit, model maturation and molecular rescue without changing the
+provisional niacin/apitegromab comparison.

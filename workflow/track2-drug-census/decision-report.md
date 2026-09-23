@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 138 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 142 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 The [three-paper comparison](vascular-enzyme-qualification.md) retains
 anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
@@ -272,8 +272,8 @@ restoration or MVA efficacy, and the nominated pair is unchanged.
 
 The [source revalidation](review-quality-followup.md) withdraws the proposed
 all-read/no-further-leads conclusion from an unreliable draft. The initial 186
-re-read source records plus [five subsequent 128-record batches](batch05-revalidation-findings.md)
-leave 2,772 selected strings requiring revalidation. The
+re-read source records plus [six subsequent 128-record batches](batch06-revalidation-findings.md)
+leave 2,644 selected strings requiring revalidation. The
 [UMK57 appraisal](umk57-qualification.md) adds a genuine acute and completed-division
 fidelity result in cancer cells, followed by limited durability. It is a
 mechanistic competitor, not an established MVA medicine. Apcin's context-dependent
@@ -295,8 +295,8 @@ recovered matches and source-role decisions into current coverage and triage:
 511 entities have specific co-mentions, while 14,846 remain without one. A
 match is not efficacy. The [primary-question status](primary-question-status.json)
 now links nine of the original 34 questions to primary qualifications, leaving
-25 unreconciled there. The five later batches flag 52, 49, 31, 34 and 27 further
-questions respectively; 2,772 selected strings still require revalidation. Publication and
+25 unreconciled there. The six later batches flag 52, 49, 31, 34, 27 and 22 further
+questions respectively; 2,644 selected strings still require revalidation. Publication and
 submission remain pending.
 
 
@@ -388,8 +388,19 @@ selectivity claim. Regression, growth inhibition and absence of measurable
 tumor remain separate endpoints. This supports a specific tumor-research route,
 without establishing useful nonmalignant MVA tissue restoration.
 
-The current ledger has **138 appraisals**, with all 133 preceding objects
-preserved. The [fifth reading batch](batch05-revalidation-findings.md) brings
-accepted revalidations to 826, leaving 2,772 selected strings pending. These
-findings refine the comparison; niacin/apitegromab remain provisional and neither
-has demonstrated MVA efficacy. The search and submission conditions remain open.
+Those qualifications brought the ledger to 138 appraisals. The subsequent
+[corneal study](corneal-qualification.md) adds 2-DG, Stattic and rotenone; the
+[cardiomyocyte study](cardiomyocyte-qualification.md) adds FGF4 and extends the
+existing ascorbate-phosphate entry. The current ledger therefore holds **142**.
+
+| Route | Evidence retained | Competitive implication |
+| --- | --- | --- |
+| 2-DG and Stattic | Reduced mouse corneal swelling, inflammation and haze after local treatment. | Real tissue benefit; no BUBR1, vision or muscle rescue. Incomplete injection schedules and safety controls limit transfer. |
+| Rotenone | Adverse-direction cell-marker perturbation. | Mechanistic control, without a therapeutic rescue result. |
+| FGF4 plus AA | Improved differentiation and optical beating in hESC-derived cardiomyocytes. | Combination-level cardiac function; subsequent hypoxia caused injury, and the BUB1B transcript decrease does not establish protein rescue. |
+
+The [sixth reading batch](batch06-revalidation-findings.md) brings accepted
+revalidations to 954, leaving 2,644 selected strings pending. Its 22 follow-up
+questions include chemical rescue after Greatwall depletion and a conference-level
+PTC596 tumor/survival result. They require their own source qualification. Neither
+current nominee is MVA-proven, and no new nomination follows from these findings.

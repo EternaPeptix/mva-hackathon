@@ -775,3 +775,24 @@ Historical source fields, inventory decisions, Track 1 uploads and pitch media
 remain intact. No publication, merge, new rubric score or Track 2 submission is
 authorized by this package check. The provisional research pair remains
 unchanged and unproven in MVA; open source questions and coverage remain visible.
+
+
+## Sixth literal-source batch and tissue-model qualifications, 22 September 2026
+
+This update retains the prior 826 revalidations and adds 128 exact queued source
+strings, for 954 accepted revalidations, 3,115 outer source/ID records and 2,644
+pending strings. Both readers' original objects remain unchanged. Eight bounded
+independent comparisons required no amendments. Full source/log replay, an
+independent repository-only copy and four altered-evidence rejection checks pass;
+these are provenance checks, not proof of biological conclusions. Two linked
+errata remain unread, and 22 further source questions remain separately flagged.
+
+The corneal and cardiomyocyte qualifications add four compound assessments and
+extend the existing ascorbate-phosphate assessment, for 142 total. Corneal tissue
+benefits and cardiac optical function remain positive evidence at their tested
+scope. BUBR1 rescue, MVA muscle benefit and clinical equivalence are unestablished.
+Both appraisals received bounded independent Methods/figure checks. Source text,
+images, video files and supplemental data remain external; only original
+assessments, bibliographic metadata, provenance hashes and verification code are
+included. Track 1, current pitch media and all 109 PR1 decision IDs are preserved.
+This private draft update does not approve publication, merger or submission.

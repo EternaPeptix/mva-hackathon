@@ -1,0 +1,831 @@
+{
+  "assessed_date": "2026-09-22",
+  "publication": {
+    "pmid": "34685725",
+    "pmcid": "PMC8534799",
+    "doi": "10.3390/cells10102741",
+    "title": "Modeling Hypoxic Stress In Vitro Using Human Embryonic Stem Cells Derived Cardiomyocytes Matured by FGF4 and Ascorbic Acid Treatment",
+    "year": 2021,
+    "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8534799/"
+  },
+  "access_depth": {
+    "main_text": "Complete Introduction, Methods, Results and Discussion read from Europe PMC JATS; all five main images and legends read.",
+    "supplement": "Complete 14-page PDF text including Table S1 and all 11 supplemental figures/legends read; all 11 figure panels visually inspected. Seven video legends read; video files obtained but not watched or quantified.",
+    "geo": "Series and both deposited sample metadata records read; raw data not reanalyzed.",
+    "extra_abstract_reading_credit": 0
+  },
+  "model": {
+    "species": "human",
+    "cell_line": "BG01 embryonic stem cells, WiCell",
+    "number_of_cell_lines": 1,
+    "patient_or_bub1b_deficient_model": false,
+    "initial_density_cells_per_cm2": 32000,
+    "biological_replication_limit": "One line; independent differentiation/culture units are not specified for every assay."
+  },
+  "reagents": [
+    {
+      "name": "FGF4",
+      "supplier_in_study": "Sigma-Aldrich",
+      "identity_limit": "No catalog, construct, lot, stock carrier or vehicle specified. Distinct from FGF2/bFGF.",
+      "doses_ng_per_mL": [
+        5,
+        10,
+        25,
+        50,
+        100
+      ],
+      "main_combination_dose_ng_per_mL": 10,
+      "timing": "Differentiation days 5\u201315",
+      "medium": "RPMI/B27 minus insulin",
+      "current_research_listing": {
+        "manufacturer": "Sigma-Aldrich",
+        "catalog": "F8424",
+        "url": "https://www.sigmaaldrich.com/US/en/product/sigma/f8424",
+        "identity": "Human recombinant FGF4, E. coli-expressed 177-aa approximately 19-kDa protein",
+        "historical_product_match_established": false,
+        "clinical_product_inference": false
+      }
+    },
+    {
+      "name": "AA, as reported for late exposure",
+      "dose_micrograms_per_mL": 200,
+      "timing": "Days 5\u201315, alone or with FGF4 10 ng/mL",
+      "form_qualification": "Methods explicitly name L-ascorbic acid 2-phosphate sesquimagnesium salt hydrate (Sigma) in early RPMI/BSA medium. Later AA is not separately specified by chemical form or catalog. Treat phosphate-context mapping as qualified, not proof of plain vitamin C or authenticated late-exposure product.",
+      "early_medium_concentration": "Not stated",
+      "current_research_listing": {
+        "manufacturer": "Sigma-Aldrich",
+        "catalog": "A8960",
+        "url": "https://www.sigmaaldrich.com/US/en/product/sigma/a8960",
+        "identity": "L-ascorbic acid 2-phosphate sesquimagnesium salt hydrate / magnesium ascorbyl phosphate",
+        "cas": "1713265-25-8",
+        "molecular_weight_anhydrous": 289.54,
+        "historical_product_match_established": false
+      }
+    },
+    {
+      "name": "FGF2",
+      "supplier": "Peprotech",
+      "dose_ng_per_mL": 10,
+      "timing": "Days 5\u201315",
+      "role": "Marker/morphology comparator; distinct existing bFGF ledger entry."
+    },
+    {
+      "name": "FGF10",
+      "supplier": "Peprotech",
+      "dose_ng_per_mL": 10,
+      "timing": "Days 5\u201315",
+      "role": "Marker/morphology comparator; no new efficacy attribution proposed."
+    },
+    {
+      "name": "Thiazovivin",
+      "dose_micromolar": 2,
+      "timing": "Days \u22123 to 0",
+      "role": "Shared culture preparation."
+    },
+    {
+      "name": "CHIR99021",
+      "dose_micromolar": 6,
+      "timing": "Day 0 for one day",
+      "role": "Shared cardiac differentiation background."
+    },
+    {
+      "name": "IWP2",
+      "dose_micromolar_methods": 2,
+      "dose_micromolar_supplemental_schematics": 5,
+      "timing": "Day 2 for 48 h",
+      "role": "Shared differentiation background; unresolved dose discrepancy."
+    }
+  ],
+  "controls": {
+    "marker_main_figure1": [
+      "control",
+      "FGF4",
+      "FGF4 + AA"
+    ],
+    "supplement_figureS2": [
+      "paired untreated controls",
+      "FGF2",
+      "FGF4",
+      "FGF10",
+      "AA"
+    ],
+    "functional_figure2": [
+      "control",
+      "FGF4 + AA"
+    ],
+    "functional_single_component_comparators": false,
+    "injury": [
+      "no maturation supplementation under normoxia/hypoxia",
+      "FGF4 + AA pretreatment under normoxia/hypoxia"
+    ],
+    "stock_vehicle_matched_control": "Not specified"
+  },
+  "outcomes": [
+    {
+      "endpoint": "Cardiac differentiation transcripts",
+      "source_anchor": "Figures 1, S2, S4; Results 3.1\u20133.2",
+      "positive": "FGF4 alone raises cTnT/cTnI/MLC2v/MLC2a/ANP. AA alone raises MLC2v/MLC2a/ANP. Combination markedly increases MLC2v (~35-fold vs control) and exceeds FGF4 alone.",
+      "n_reported": 3,
+      "unit_limit": "Culture/differentiation independence not fully specified.",
+      "component_limit": "No formal factorial interaction established; combination gain not individually assigned to each reagent."
+    },
+    {
+      "endpoint": "Cardiac proteins",
+      "source_anchor": "Figure 1C\u2013E",
+      "positive": "cTnT/MLC2v and alpha-actinin/MLC2v staining after FGF4 and combination; MLC2a also present.",
+      "limit": "No quantified adult ventricular purity; authors acknowledge incomplete maturation."
+    },
+    {
+      "endpoint": "Optical contraction timing",
+      "source_anchor": "Figure 2; Methods 2.4",
+      "positive": "Combination shows more synchronous/regular spontaneous beating traces and shorter, less dispersed peak-to-peak intervals.",
+      "method": "50-fps microscopy; regional light-intensity change over 10 s",
+      "n_control": 63,
+      "n_combination": 80,
+      "reported_test": "Two-tailed unpaired t-test, P<0.001 for pooled intervals",
+      "unit_limit": "Not established independent biological replicates; possible region/interval clustering. P is not a separate test of synchrony or variance.",
+      "not_measured": [
+        "contractile force",
+        "action potentials",
+        "conduction velocity",
+        "calcium transients"
+      ]
+    },
+    {
+      "endpoint": "Hypoxia injury-marker release",
+      "source_anchor": "Figure 3 and Figure S5; Methods 2.5",
+      "positive_for_modeling": "Combination-pretreated cells release more cTnI, CK-MB and myoglobin under hypoxia at differentiation days 17,19,21; plotted comparisons carry P<0.05 or P<0.01 versus concurrent normoxia.",
+      "exposure": "Nominal 2% versus 21% O2 after washout, days 15\u201321; 24-h collection wording not fully aligned with continuous schedule.",
+      "biological_n": "Not stated in Figure 3/S5",
+      "protection": false,
+      "limit": "No cell-number/viability normalization; altered marker content may contribute."
+    },
+    {
+      "endpoint": "Post-hypoxia beating trajectory",
+      "source_anchor": "Figures S6\u2013S8",
+      "observation": "Acute fall after day 15 with rate recovery toward baseline by differentiation day 25; peak-to-peak remains annotated significant at day 25.",
+      "n_by_day": {
+        "15": 21,
+        "17": 6,
+        "19": 9,
+        "21": 12,
+        "23": 15,
+        "25": 18
+      },
+      "limit": "No demonstrated drug rescue or survival fraction; unit and repeated-measure structure unclear."
+    },
+    {
+      "endpoint": "Injury morphology and apoptosis marker",
+      "source_anchor": "Figure S11",
+      "observation": "Hypoxia-associated cleaved-caspase-3 staining and morphological membrane damage.",
+      "limit": "Qualitative images without quantitative survival assay; not a reagent toxicity test."
+    }
+  ],
+  "bub1b": {
+    "source_anchors": [
+      "Figure 4F",
+      "Figure 5B,D",
+      "Figure S9",
+      "Figure S10B",
+      "Table S1"
+    ],
+    "measurement": "BUB1B transcript, RNA-seq and qRT-PCR; interaction network derived from STRING",
+    "contrast": "24-h hypoxia versus normoxia after both groups received FGF4 + AA on days 5\u201315",
+    "direction": "decreased",
+    "relative_rna_seq": 0.3,
+    "relative_qpcr": 0.5,
+    "values_origin": "Printed labels in Figure S10B",
+    "rna_seq_deposited_samples": {
+      "normoxia": "GSM5235256",
+      "hypoxia": "GSM5235257"
+    },
+    "number_of_deposited_samples_each_condition": 1,
+    "upstream_pooling": "Unspecified",
+    "qpcr_replication": "Triplicate data using the same RNA samples as RNA-seq; not independent biological validation",
+    "bubr1_protein_measured": false,
+    "causal_mediation_tested": false,
+    "checkpoint_or_chromosome_fidelity_tested": false,
+    "variant_specific_rescue": false
+  },
+  "reporting_issues": [
+    {
+      "issue": "IWP2 concentration",
+      "observations": "Methods 2 \u00b5M versus Figures S1/S4 5 \u00b5M."
+    },
+    {
+      "issue": "Gas mixture",
+      "observations": "Reported 2% O2 + 94% N2 + 5% CO2 sums to 101%."
+    },
+    {
+      "issue": "Fold-change denominator",
+      "observations": "Reported hypoxia injury fold changes match rounded S5 hypoxia-arm day-15 baseline ratios rather than consistently concurrent normoxia.",
+      "example": {
+        "CKMB_day17_hypoxia_ng_per_mL": 2.693,
+        "CKMB_day17_normoxia_ng_per_mL": 0.595,
+        "CKMB_day15_hypoxia_arm_ng_per_mL": 1.055,
+        "reported_fold": 2.55
+      },
+      "handling": "Retain raw reported means and plotted significance/direction; do not label quoted ratios as concurrent normoxia comparisons."
+    },
+    {
+      "issue": "Untreated myoglobin narrative",
+      "observations": "Results claim day-19 increase; Figure 3/S5 instead show 0.004 ng/mL hypoxia versus 0.085 normoxia."
+    },
+    {
+      "issue": "Recovery schedule",
+      "observations": "Main text says recovery over next 17 days; Figure S8 shows differentiation days 15\u201325."
+    }
+  ],
+  "unestablished": [
+    "FGF4 or AA monotherapy functional superiority",
+    "BUBR1 protein abundance, stability or acetylation rescue",
+    "MVA or Leu737Ter/Asn1002Lys efficacy",
+    "skeletal-muscle function",
+    "karyotype/chromosome-fidelity preservation",
+    "quantitative survival or dose-dependent reagent toxicity",
+    "tumorigenicity/systemic safety",
+    "clinical treatment benefit"
+  ],
+  "fair_comparison": "Preserve the specific cardiac differentiation and optical function positives. Niacin and apitegromab remain provisional and MVA-unproved; this experiment cannot rank clinical MVA efficacy or justify replacement. Hypoxia injury does not establish intrinsic reagent harm.",
+  "proposal": {
+    "new_id": "new-fgf4-cardiomyocyte",
+    "update_id": "new-ascorbate-2-phosphate",
+    "no_new_plain_vitaminC_entry": true,
+    "fgf4_is_not_existing_bfgf": true
+  },
+  "source_hashes": {
+    "main.xml": "ee490747b9be51a863cb17d961fa1a673fd912fbbaabc4ef0f475e82485b81cd",
+    "supplementary/content/cells-1385826-final-supplementary/Final revision_cells-1385826_Supplemental Information.pdf": "cf54c25424ed37fc3c46ede2e29fba1fc30c98ad079c328049c762568cb3a106",
+    "geo-series.txt": "72600a928b979f7e9a11f152d5f00a625237832640d0d0e835863e6e52b2aad5",
+    "geo-normoxia.txt": "f1a6438d7305ba004bdcc30cf1df61133ed6e175e4169354026fa89af23065e1",
+    "geo-hypoxia.txt": "8e1b5aa715b6c6c2f7b0cc58a3b8aa8de8a9b283ff55d51298d4e2964679102e",
+    "manufacturer-web-snapshot.json": "7c51a5d1fc09e8894076713db904e832ba336ec801d96a2d7572050fdd1fa4a9"
+  },
+  "external_source_manifest": {
+    "date": "2026-09-22",
+    "pmid": "34685725",
+    "pmcid": "PMC8534799",
+    "raw_sources_external_to_git": true,
+    "extra_abstract_reading_credit": 0,
+    "access_depth": {
+      "main_text": "Complete Introduction, Methods, Results and Discussion read from Europe PMC JATS; all five main images and legends read.",
+      "supplement": "Complete 14-page PDF text including Table S1 and all 11 supplemental figures/legends read; all 11 figure panels visually inspected. Seven video legends read; video files obtained but not watched or quantified.",
+      "geo": "Series and both deposited sample metadata records read; raw data not reanalyzed.",
+      "extra_abstract_reading_credit": 0
+    },
+    "successful_routes": [
+      "Europe PMC fullTextXML",
+      "PMC normal report=xml HTML and article-linked CDN figure images",
+      "Europe PMC supplementaryFiles archive",
+      "NCBI GEO SOFT text metadata",
+      "Sigma manufacturer web pages"
+    ],
+    "retrieval_failures": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8534799/supplementaryFiles",
+        "outcome": "Initial 40-second timeout; second longer request succeeded with 55,905,629-byte zip."
+      },
+      {
+        "url": "https://mdpi-res.com/d_attachment/cells/cells-10-02741/article_deploy/cells-10-02741-s001.zip",
+        "outcome": "403; no bypass."
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC8534799",
+        "outcome": "404; not source evidence."
+      },
+      {
+        "url": "https://www.mdpi.com/article/10.3390/cells10102741/s1",
+        "outcome": "Web retrieval inaccessible; supplementary archive instead obtained from Europe PMC."
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8534799/bin/cells-10-02741-s001.zip",
+        "outcome": "Challenge HTML stored under returned filename; not a zip; no challenge bypass."
+      }
+    ],
+    "manufacturer_urls": [
+      "https://www.sigmaaldrich.com/US/en/product/sigma/f8424",
+      "https://www.sigmaaldrich.com/US/en/product/sigma/a8960"
+    ],
+    "files": [
+      {
+        "path": "appraisal.md",
+        "bytes": 10624,
+        "sha256": "f75c905e954e696c786907b2c523633a2a933c3cca6d7b701f964c8f15da8b4d",
+        "kind": "Assessment or retrieval record"
+      },
+      {
+        "path": "asset-retrieval.json",
+        "bytes": 1771,
+        "sha256": "90c8f12a135ca37e3382d2bdb353fcd68aec5073eaadd77f8f8bd11b58c6da46",
+        "kind": "Assessment or retrieval record"
+      },
+      {
+        "path": "cells-10-02741-g001.jpg",
+        "bytes": 225180,
+        "sha256": "1e22cd344c73888f8d2347f016dc67d64ec96f12eac921a9b123ecefb8d93e24",
+        "kind": "Retrieved primary source artifact or archive member",
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d3fb/8534799/6542dc273256/cells-10-02741-g001.jpg"
+      },
+      {
+        "path": "cells-10-02741-g002.jpg",
+        "bytes": 100915,
+        "sha256": "d1746ed0dddd0d07888ae11cf4e6b0c7f24371cbc78468e8c5a0ac9e71c8a16e",
+        "kind": "Retrieved primary source artifact or archive member",
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d3fb/8534799/2bc4f53feb19/cells-10-02741-g002.jpg"
+      },
+      {
+        "path": "cells-10-02741-g003.jpg",
+        "bytes": 164904,
+        "sha256": "36f1048ceb5babb9a49f35a136563cc50f1ccd195cc0f1fc5ae3db8c64ecc1e6",
+        "kind": "Retrieved primary source artifact or archive member",
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d3fb/8534799/ee0d455efa26/cells-10-02741-g003.jpg"
+      },
+      {
+        "path": "cells-10-02741-g004.jpg",
+        "bytes": 187354,
+        "sha256": "03d8ec001454d22389ded227b0aa62fcd34028f6e08b4adfc96e5b7ced326cce",
+        "kind": "Retrieved primary source artifact or archive member",
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d3fb/8534799/ec1b383688ec/cells-10-02741-g004.jpg"
+      },
+      {
+        "path": "cells-10-02741-g005.jpg",
+        "bytes": 204935,
+        "sha256": "0029674716e028d32000783ae695774e1b980a19455b45f12202dc91f5035324",
+        "kind": "Retrieved primary source artifact or archive member",
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d3fb/8534799/9b1d55769871/cells-10-02741-g005.jpg"
+      },
+      {
+        "path": "cells-10-02741-s001.zip",
+        "bytes": 1817,
+        "sha256": "9334fb93d452293145eb7518b85044cc146ae675f39b63375e137cc06f92b830",
+        "kind": "Failed retrieval: challenge HTML, not scientific source content",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8534799/bin/cells-10-02741-s001.zip"
+      },
+      {
+        "path": "decision-alias-check.json",
+        "bytes": 3709,
+        "sha256": "562e94354452cb416673762e3193ef046bf16dde1fd6b3bc7bdcdb36693cf853",
+        "kind": "Assessment or retrieval record"
+      },
+      {
+        "path": "decision-proposal.json",
+        "bytes": 7578,
+        "sha256": "0d33d0527d111b1b11150e5d9b78482fa06be42e7fb7fffbf8cbad7a79061a6c",
+        "kind": "Assessment or retrieval record"
+      },
+      {
+        "path": "epmc-supplements.zip",
+        "bytes": 55905629,
+        "sha256": "a15f420b32129e66dc01c7f8b9a76ab7c469ec69f6ed1be9c5e6344a83a9b12a",
+        "kind": "Retrieved primary source artifact or archive member",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8534799/supplementaryFiles"
+      },
+      {
+        "path": "evidence.json",
+        "bytes": 11444,
+        "sha256": "ece0d574ee2f4d7ee7a468589aac036bfc4c47061ffe7275204db67fa6e114ab",
+        "kind": "Assessment or retrieval record"
+      },
+      {
+        "path": "geo-hypoxia.txt",
+        "bytes": 3430,
+        "sha256": "8e1b5aa715b6c6c2f7b0cc58a3b8aa8de8a9b283ff55d51298d4e2964679102e",
+        "kind": "Retrieved primary source artifact or archive member",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5235257&targ=self&form=text&view=full"
+      },
+      {
+        "path": "geo-normoxia.txt",
+        "bytes": 3422,
+        "sha256": "f1a6438d7305ba004bdcc30cf1df61133ed6e175e4169354026fa89af23065e1",
+        "kind": "Retrieved primary source artifact or archive member",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5235256&targ=self&form=text&view=full"
+      },
+      {
+        "path": "geo-series.txt",
+        "bytes": 3079,
+        "sha256": "72600a928b979f7e9a11f152d5f00a625237832640d0d0e835863e6e52b2aad5",
+        "kind": "Retrieved primary source artifact or archive member",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171824&targ=self&form=text&view=full"
+      },
+      {
+        "path": "main.html",
+        "bytes": 21347,
+        "sha256": "553d8cd29e30ea0d6636fd728d390ef39a6fdb699255ef02fd2c735d95f28d26",
+        "kind": "Failed retrieval: challenge HTML, not scientific source content",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8534799/?pdf=1"
+      },
+      {
+        "path": "main.xml",
+        "bytes": 109971,
+        "sha256": "ee490747b9be51a863cb17d961fa1a673fd912fbbaabc4ef0f475e82485b81cd",
+        "kind": "Retrieved primary source artifact or archive member",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8534799/fullTextXML"
+      },
+      {
+        "path": "manufacturer-web-snapshot.json",
+        "bytes": 26810,
+        "sha256": "7c51a5d1fc09e8894076713db904e832ba336ec801d96a2d7572050fdd1fa4a9",
+        "kind": "Primary manufacturer web-tool response snapshot"
+      },
+      {
+        "path": "metadata.json",
+        "bytes": 20795,
+        "sha256": "2297867aa57078f56f2274c89a2486286adf193f87165fbfa6b42d798ba77df1",
+        "kind": "Retrieved primary source artifact or archive member"
+      },
+      {
+        "path": "pmc-report.html",
+        "bytes": 219948,
+        "sha256": "fc971c0aafeb06054095d762b7b618d0e67f6bee6d7768dbf64fb1250bac679a",
+        "kind": "Retrieved primary source artifact or archive member",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8534799/?report=xml"
+      },
+      {
+        "path": "retrieval.json",
+        "bytes": 352,
+        "sha256": "a858c09c3af8291ce90640e1183fd7ad5fd0fbb3b4eed803ab3430c205950d8c",
+        "kind": "Assessment or retrieval record"
+      },
+      {
+        "path": "section-00.txt",
+        "bytes": 3719,
+        "sha256": "99d6fe973a05108dad398d92ce30148c6d259fda5f77b72cc7907663e27688ed",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "section-01.txt",
+        "bytes": 7134,
+        "sha256": "57ea4c422ad5c5dbe4de6c7588298e1fc24db6d04f5c72b0383eaab33a376124",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "section-02.txt",
+        "bytes": 13997,
+        "sha256": "435a57d8f566da1106c0fd822c008467986f713a76bc6fe896302d10dc2b707e",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "section-03.txt",
+        "bytes": 5684,
+        "sha256": "4dc06143d6758c7531dd1bba31ab05cb3e1de582d4f3fd6c983c67ebce66d007",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary/cells-10-02741-g001.gif",
+        "bytes": 9710,
+        "sha256": "d4a6b4f1c223504aabed83ef4a25c16447ac19d45a01ddf69557b617657c0c8c",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/cells-10-02741-g001.jpg",
+        "bytes": 225180,
+        "sha256": "1e22cd344c73888f8d2347f016dc67d64ec96f12eac921a9b123ecefb8d93e24",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/cells-10-02741-g002.gif",
+        "bytes": 7970,
+        "sha256": "c8f395a2617f86ebbfc454f779a37c85bcce4fd0f12cbfd77c149756f4275f82",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/cells-10-02741-g002.jpg",
+        "bytes": 100915,
+        "sha256": "d1746ed0dddd0d07888ae11cf4e6b0c7f24371cbc78468e8c5a0ac9e71c8a16e",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/cells-10-02741-g003.gif",
+        "bytes": 8294,
+        "sha256": "057c758da3da79f306299a543640acd5dc2efa536cb25f6eb48b4a3d8ad9457e",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/cells-10-02741-g003.jpg",
+        "bytes": 164904,
+        "sha256": "36f1048ceb5babb9a49f35a136563cc50f1ccd195cc0f1fc5ae3db8c64ecc1e6",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/cells-10-02741-g004.gif",
+        "bytes": 8930,
+        "sha256": "edd40495f6d76c5fb110f9819c079dc673574d23a54a9b61aedca0352953ec30",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/cells-10-02741-g004.jpg",
+        "bytes": 187354,
+        "sha256": "03d8ec001454d22389ded227b0aa62fcd34028f6e08b4adfc96e5b7ced326cce",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/cells-10-02741-g005.gif",
+        "bytes": 8627,
+        "sha256": "29326feaffd49b48ded45e09965d9d60d73d8ad177165af302fa7ee85df54495",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/cells-10-02741-g005.jpg",
+        "bytes": 204935,
+        "sha256": "0029674716e028d32000783ae695774e1b980a19455b45f12202dc91f5035324",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/cells-10-02741-s001.zip",
+        "bytes": 55027793,
+        "sha256": "147ef39b61b0c5339ce0243d1ee6110118f4bbac368b4bb1db9c78a4ef6c82b0",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/content/cells-1385826-final-supplementary/Choi_Supplementary Movie S1_Control.mp4",
+        "bytes": 7544102,
+        "sha256": "663b627afa44d18466121eba574bdbe83d2a7510dddd70caec14c361abfbd3fa",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/content/cells-1385826-final-supplementary/Choi_Supplementary Movie S2_FGF2.mp4",
+        "bytes": 9320234,
+        "sha256": "a6055f25ab1be4d287a4f7a1d4325851c753010d9990aa033e8e62cc40dd78e9",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/content/cells-1385826-final-supplementary/Choi_Supplementary Movie S3_FGF4.mp4",
+        "bytes": 5521978,
+        "sha256": "3f4f0c987b1c64265ea49fbc567ce9939b586bca70623fed4c89700da1c6d16e",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/content/cells-1385826-final-supplementary/Choi_Supplementary Movie S4_FGF10.mp4",
+        "bytes": 5870482,
+        "sha256": "8c7de4647e2b6aaf4235929d18d7b150c4906110f38e8b86cb947df66d6e6c2b",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/content/cells-1385826-final-supplementary/Choi_Supplementary Movie S5_AA.mp4",
+        "bytes": 9599608,
+        "sha256": "2c5872a4448618fe59618fda59debe3845186f710eac93aaa97f47712e2cc60b",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/content/cells-1385826-final-supplementary/Choi_Supplementary Movie S6_Control.mp4",
+        "bytes": 5640013,
+        "sha256": "79e116bf4f28551782db80960d8a0dc65d9368671483f5d78d270dcec59ff8b8",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/content/cells-1385826-final-supplementary/Choi_Supplementary Movie S7_FGF4+AA.mp4",
+        "bytes": 9686733,
+        "sha256": "3290c0e60bf2b994540488f3551a77a496096eedcd232888768a307aad536091",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary/content/cells-1385826-final-supplementary/Final revision_cells-1385826_Supplemental Information.pdf",
+        "bytes": 2345411,
+        "sha256": "cf54c25424ed37fc3c46ede2e29fba1fc30c98ad079c328049c762568cb3a106",
+        "kind": "Retrieved primary source artifact or archive member",
+        "archive_source": "epmc-supplements.zip"
+      },
+      {
+        "path": "supplementary-information.txt",
+        "bytes": 13879,
+        "sha256": "e07625d397619fa2f67ec8a81b4a07ab4ae74812023b00097f6ce4a95ea26cee",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/detail-12.png",
+        "bytes": 186663,
+        "sha256": "f05c1cb07823f71a8bdde684b71638dcbb2cc78e404a2dbd209e310a415c0fcd",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-01.png",
+        "bytes": 221375,
+        "sha256": "701d3b6b33142ca78ce12edde6151d7ccc98044009b6fd8101ec4665229ba2b8",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-02.png",
+        "bytes": 28772,
+        "sha256": "75bb94c54fc98e93102499c2381d851248b5bb35987c3ee3624a17842700c010",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-03.png",
+        "bytes": 136037,
+        "sha256": "8d6232c3e0081d4e58d98eb7aea0509f60522fd66f6ab653f9744bb9514fe98d",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-04.png",
+        "bytes": 241511,
+        "sha256": "94c88df4fefb88c618fe057c4f4c3c44f9a2397aa1cfa89dfae256bb93daa1fa",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-05.png",
+        "bytes": 266982,
+        "sha256": "02831c03963c27e20aa798765cfb8a5938f54236ea73b0f9ef2872a8f9bcc164",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-06.png",
+        "bytes": 135570,
+        "sha256": "5bf4e7bc6974089c113e2bec5ca929a43d1680b05f1bb372ab2c7c8f55abc349",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-07.png",
+        "bytes": 142472,
+        "sha256": "fdbcd9fc8d649ef9569757bcb36dead3dbd01d6b5b83f7d08688cb79bd4f575e",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-08.png",
+        "bytes": 99083,
+        "sha256": "0e0c6a8e4207bc11ee90fc0f07811b3c211d3c0b4c9af2a8f384bfb455f7800a",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-09.png",
+        "bytes": 125449,
+        "sha256": "6545cef370552ba27965565896f9ee434af0a5a1e7014d730ba66878ca4cfd12",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-10.png",
+        "bytes": 271474,
+        "sha256": "8d98815486f2a7dfcb28a3669471b01badf5018b42be2f6152e472b2a29a0693",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-11.png",
+        "bytes": 421013,
+        "sha256": "1e934de79388e3a57ac980492f29cbb4df65228bb174033400e927a2445dad37",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-12.png",
+        "bytes": 86047,
+        "sha256": "4c52fe87689d5f66c8080679b58a925753d55c1ed4c88c268b713b19078da726",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-13.png",
+        "bytes": 458927,
+        "sha256": "a9f02b91465029d96e0a8261ffe4d1c04faaa0df60a237dce5c799cd65659c00",
+        "kind": "Derived rendering or text extraction"
+      },
+      {
+        "path": "supplementary-render/page-14.png",
+        "bytes": 93064,
+        "sha256": "005c7638e7f74435835df26cc26073e096f5001da73ae70d3c9d5f9d7043c5cd",
+        "kind": "Derived rendering or text extraction"
+      }
+    ]
+  },
+  "integration_status": "Integrated as original assessment; raw source materials remain outside Git; no additional abstract credit.",
+  "independent_appraisal_check": {
+    "report": {
+      "assessed_date": "2026-09-22",
+      "reader": "/root/revalidation_b64",
+      "publication": {
+        "pmid": "34685725",
+        "pmcid": "PMC8534799",
+        "doi": "10.3390/cells10102741"
+      },
+      "status": "bounded_independent_check_passed_no_substantive_amendment",
+      "scope": "Independent comparison of appraisal.md and evidence.json with complete saved primary Methods, main Figures 2 and 3 and their legends, Figure 5 legend, supplementary Figure S10 and its legend, the BUB1B primer row, and GEO series plus both sample metadata records.",
+      "review_depth": "bounded_primary_source_check_not_full_paper_reread",
+      "additional_abstract_reading_credit": 0,
+      "full_paper_reread_credit": 0,
+      "checks": [
+        {
+          "topic": "AA identity",
+          "status": "supported_with_existing_qualification",
+          "sources": [
+            "Methods 2.1",
+            "GSM5235256 growth protocol",
+            "GSM5235257 growth protocol"
+          ],
+          "finding": "Early medium explicitly contains L-ascorbic acid 2-phosphate sesquimagnesium salt hydrate from Sigma. The late day-5\u201315 intervention is called AA at 200 \u00b5g/mL without a separately specified chemical form or catalog. The appraisal correctly qualifies phosphate-context mapping and does not authenticate late AA as plain ascorbic acid or a particular phosphate product."
+        },
+        {
+          "topic": "FGF4 identity and comparison",
+          "status": "supported",
+          "sources": [
+            "Methods 2.1",
+            "Figure 2 legend and image"
+          ],
+          "finding": "Main combination is FGF4 10 ng/mL plus AA 200 \u00b5g/mL during days 5\u201315. FGF2 10 ng/mL is a distinct comparator. Figure 2 compares untreated cultures with the combination; it does not resolve the individual functional contributions of FGF4 and AA."
+        },
+        {
+          "topic": "Optical function and replicate unit",
+          "status": "supported_with_existing_limits",
+          "sources": [
+            "Methods 2.4",
+            "Figure 2 legend and image"
+          ],
+          "finding": "The method records regional light-intensity variation at 50 frames/s over 10 s. The figure supports more regular/synchronous contraction traces and shorter, less dispersed peak-to-peak intervals. Its n=63 and n=80 and unpaired two-tailed t-test P<0.001 are not established counts of independent cultures. The appraisal correctly avoids force, electrophysiology or independently tested synchrony/variance claims."
+        },
+        {
+          "topic": "BUB1B measurement and contrast",
+          "status": "supported",
+          "sources": [
+            "Methods 2.6",
+            "Figure S10B image and legend",
+            "Table S1 BUB1B primer row",
+            "Figure 5 legend",
+            "GEO series and both sample records"
+          ],
+          "finding": "Figure S10B prints BUB1B RNA-seq 0.3 and qRT-PCR 0.5 relative expression. Both normoxia and 24-h hypoxia samples were pretreated with FGF4+AA. This is a transcript decrease under the hypoxia contrast, not a measured effect of adding FGF4+AA versus untreated cells or BUBR1 restoration. The qPCR legend says the same RNA samples and triplicate data."
+        },
+        {
+          "topic": "GEO replication",
+          "status": "supported_with_existing_limits",
+          "sources": [
+            "GSE171824",
+            "GSM5235256",
+            "GSM5235257",
+            "Figure S10 legend"
+          ],
+          "finding": "The series lists two deposited sample records, one normoxia and one hypoxia. Upstream pooling is not described. These records do not establish independent biological replication for the RNA-seq contrast; triplicate qPCR from the same samples is not independent biological validation."
+        },
+        {
+          "topic": "Hypoxia injury versus rescue",
+          "status": "supported",
+          "sources": [
+            "Methods 2.5\u20132.6",
+            "Figure 3 image and legend",
+            "GEO series summary and overall design"
+          ],
+          "finding": "The source exposes pretreated cells to hypoxia after washing. Figure 3 shows greater injury-marker release in the combination-pretreated hypoxia arm than concurrent normoxia on days 17, 19 and 21. This supports the injury-model interpretation and does not establish hypoxia protection, a drug rescue, or intrinsic reagent toxicity. The stated gas percentages total 101%, as the appraisal already flags."
+        }
+      ],
+      "required_amendments": [],
+      "unresolved_questions": [
+        "Chemical form/catalog/lot of the late AA exposure.",
+        "Independent culture/differentiation units and clustering underlying optical n=63/80.",
+        "Upstream sample pooling and biological replication for RNA-seq/qPCR."
+      ],
+      "not_independently_checked": [
+        "All remaining primary Results and Discussion claims.",
+        "All supplemental figures, hypoxia fold-ratio calculations and recovery time-course details.",
+        "Supplemental movies or raw RNA-seq data.",
+        "Supplier listings, study-lot authentication or current repository decision integration."
+      ],
+      "input_and_source_sha256": {
+        "appraisal.md": "f75c905e954e696c786907b2c523633a2a933c3cca6d7b701f964c8f15da8b4d",
+        "evidence.json": "ece0d574ee2f4d7ee7a468589aac036bfc4c47061ffe7275204db67fa6e114ab",
+        "main.xml": "ee490747b9be51a863cb17d961fa1a673fd912fbbaabc4ef0f475e82485b81cd",
+        "section-01.txt": "57ea4c422ad5c5dbe4de6c7588298e1fc24db6d04f5c72b0383eaab33a376124",
+        "supplementary-information.txt": "e07625d397619fa2f67ec8a81b4a07ab4ae74812023b00097f6ce4a95ea26cee",
+        "cells-10-02741-g002.jpg": "d1746ed0dddd0d07888ae11cf4e6b0c7f24371cbc78468e8c5a0ac9e71c8a16e",
+        "cells-10-02741-g003.jpg": "36f1048ceb5babb9a49f35a136563cc50f1ccd195cc0f1fc5ae3db8c64ecc1e6",
+        "supplementary-render/detail-12.png": "f05c1cb07823f71a8bdde684b71638dcbb2cc78e404a2dbd209e310a415c0fcd",
+        "geo-series.txt": "72600a928b979f7e9a11f152d5f00a625237832640d0d0e835863e6e52b2aad5",
+        "geo-normoxia.txt": "f1a6438d7305ba004bdcc30cf1df61133ed6e175e4169354026fa89af23065e1",
+        "geo-hypoxia.txt": "8e1b5aa715b6c6c2f7b0cc58a3b8aa8de8a9b283ff55d51298d4e2964679102e",
+        "supplementary/content/cells-1385826-final-supplementary/Final revision_cells-1385826_Supplemental Information.pdf": "cf54c25424ed37fc3c46ede2e29fba1fc30c98ad079c328049c762568cb3a106"
+      },
+      "read_evidence": {
+        "complete_text_output_chunks": [
+          "df61cf",
+          "f91adb",
+          "750601",
+          "858b2d",
+          "c07c7b",
+          "81cd20"
+        ],
+        "visual_files": [
+          "cells-10-02741-g002.jpg",
+          "cells-10-02741-g003.jpg",
+          "supplementary-render/detail-12.png"
+        ],
+        "truncated_discovery_output_excluded": "b4c2e8",
+        "note": "The initial combined discovery output was truncated and was not treated as complete reading. Relevant appraisal/evidence contents and sources were subsequently read in the complete bounded outputs listed here. PDF was hashed for provenance; only the specified supplemental material was checked."
+      },
+      "repository_edited": false,
+      "source_files_modified": false
+    },
+    "external_file": "independent-check.json",
+    "sha256": "4188ba240c0ff40873ccb8c3a816e3d75241a8b5e11546ad321a952d69837485"
+  }
+}
