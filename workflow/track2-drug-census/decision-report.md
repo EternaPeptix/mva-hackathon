@@ -2,13 +2,15 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 194 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 197 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 The [three-paper comparison](vascular-enzyme-qualification.md) retains
 anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
 and a BUB1B RNA response to alglucosidase alfa in Pompe myocytes. Catalogue-listed
 research reagents are included on their measured merits. None yet justifies
 replacing the provisional niacin/apitegromab pair.
+
+The [47-question follow-up reconciliation](batch15-followup-reconciliation.md) links component-level answers to the actual qualified sources. Related compounds, different experiments and source-name matches do not close a question; missing experiments remain explicit.
 
 ## Food-derived and epigenetic compounds, 23 September 2026
 
@@ -39,7 +41,7 @@ The [FDA food-substance inventory](food-substances/README.md) preserves 3,971 so
 | **Potentilla fulgens methanolic root extract (PRE)** | Fewer stomach carcinomas at day 260 (2/10 versus 10/10), plus lower premature chromosome separation during a carcinogen challenge. | **Substantive protection reserve.** Prophylactic co-exposure, small groups and source-reporting issues; no BUBR1, muscle or genotype-specific rescue. No transfer to root foods or other products. [Qualification](potentilla-qualification.md). |
 | **ECGU: epicatechin, catechin, gallic acid and ursolic acid** | The four-component mixture lowered premature chromosome-separation percentages in exposed mice. | **Preparation-specific protection reserve.** No mixture tumor-histology arm or individual-component controls; all four displayed protein-marker treatment comparisons are nonsignificant. No synergy or MVA benefit established. [Qualification](potentilla-qualification.md). |
 
-The expanded ledger contains **194 appraisals**. [CCDC41-oocyte experiments](ccdc41-qualification.md) add three distinct drug comparisons and refine MG132, retaining partial improvements alongside normal-control inhibition. [Bladder-tumor experiments](bladder-qualification.md) add seven compound/combination assessments: lapatinib–naproxen prevented the large palpable endpoint, while erlotinib/gefitinib lowered tumor Bub1b RNA. Neither establishes MVA restoration. All 184 earlier IDs remain, with 183 objects unchanged. Resveratrol remains a serious functional comparator; the niacin/apitegromab comparison remains provisional.
+The expanded ledger contains **197 appraisals**, preserving all 194 preceding decision objects. [PD166285](eml1-qualification.md) improves meiotic progression after EML1 depletion while leaving substantial spindle defects. [BAY-320 and BAY-524](bay-bub1-qualification.md) add distinct anticancer-combination evidence; formal synergy belongs to BAY-320, and normal-cell effects depend on dose. These are experimental comparators, not BUBR1-restoration leads. Exact source-exposure details were added to the existing resveratrol and bladder studies. The niacin/apitegromab comparison remains provisional.
 
 The [food-name review](food-substances/common-abstract-findings.md) retains 212 available abstracts across 213 source IDs. [Batch15](batch15-revalidation-findings.md) adds the final 532 saved strings: **3,598 accepted revalidations, 5,759 combined outer source/ID records and zero pending in the original selection**. This closes that queue, not the broader search or primary-source follow-up. The earlier 2,161 annotations were not independently re-audited here. Root checked 16 source/annotation pairs in the final batch; versions are not independent studies and the 143 initially empty fields retain separate recovery statuses.
 

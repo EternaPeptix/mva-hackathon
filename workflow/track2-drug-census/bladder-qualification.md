@@ -26,7 +26,7 @@ carcinomas already existed at later treatment starts comes from earlier work.
 | NO-naproxen | Separately tested for short-treatment RNA changes; earlier prevention results are summarized in Supplementary Table 1. | Distinct intervention from naproxen. Neither the naproxen combination outcome nor present-study efficacy is assigned to it. |
 | Zileuton | Short-treatment RNA changes are reported. Lack of prevention is described as unpublished data, without a new efficacy table here. | Mechanistic comparator only. A pathway annotation does not establish functional benefit. |
 
-The rat schedules are source descriptors, not proposed human regimens. The
+The combination and corresponding daily monotherapies used **lapatinib 75 mg/kg body weight/day and naproxen 30 mg/kg body weight/day**, administered by gavage in rats. Treatment began ten weeks after the final carcinogen exposure in the late-start combination comparison. These are source descriptors, not proposed human regimens. The
 combination used the same daily lapatinib and naproxen regimens as the respective
 monotherapies. No formal interaction test establishes synergy. The control and
 lapatinib groups repeated across Tables 1 and 2 are not independent replications.

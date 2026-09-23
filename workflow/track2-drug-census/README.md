@@ -8,7 +8,7 @@ bounded UMK57 control findings, and preserves the later source corrections.
 
 The [food-substance inventory](food-substances/README.md) retains 3,971 FDA rows with explicit source-status flags. The current scientific comparisons are in the [decision report](decision-report.md).
 
-The expanded ledger contains **194 appraisals**. [CCDC41-oocyte experiments](ccdc41-qualification.md) add three distinct drug comparisons and refine MG132, retaining partial improvements alongside normal-control inhibition. [Bladder-tumor experiments](bladder-qualification.md) add seven compound/combination assessments: lapatinib–naproxen prevented the large palpable endpoint, while erlotinib/gefitinib lowered tumor Bub1b RNA. Neither establishes MVA restoration. All 184 earlier IDs remain, with 183 objects unchanged. Resveratrol remains a serious functional comparator; the niacin/apitegromab comparison remains provisional.
+The expanded ledger contains **197 appraisals**, preserving all 194 preceding decision objects. [PD166285](eml1-qualification.md) improves meiotic progression after EML1 depletion while leaving substantial spindle defects. [BAY-320 and BAY-524](bay-bub1-qualification.md) add distinct anticancer-combination evidence; formal synergy belongs to BAY-320, and normal-cell effects depend on dose. These are experimental comparators, not BUBR1-restoration leads. Exact source-exposure details were added to the existing resveratrol and bladder studies. The niacin/apitegromab comparison remains provisional.
 
 The separate [NIH DSLD ingredient inventory](dsld-ingredients/README.md) preserves **6,467 source groups, 78,788 synonym cells and 85,255 total name/synonym cells**. Its **41,496 lexical matches, including 1,077 unflagged matches, provide no efficacy assessment** and confer no reading or appraisal credit. A separate first pass annotates six rows across four previously read abstracts, without new unique credit. Groups, label terms and matches are not unique drugs, verified chemical equivalents or additions to the main entity denominator. API version 9.5.0 (May 2026) and index-name suffix `2025-09-25n` are distinct source descriptors, not current-market or record-update guarantees.
 
@@ -28,6 +28,8 @@ This is an enumerated, source-bounded census and retrieval screen. It does not
 estimate clinical efficacy or establish that the search contains every medicine
 worldwide. The manually reviewed decisions are separate from database coverage.
 Missing annotations and unmatched names remain **UNKNOWN**.
+
+The [47-question follow-up reconciliation](batch15-followup-reconciliation.md) links component-level answers to the actual qualified sources. Related compounds, different experiments and source-name matches do not close a question; missing experiments remain explicit.
 
 ## Measured scope
 

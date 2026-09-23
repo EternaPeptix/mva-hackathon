@@ -3399,6 +3399,63 @@
       "source_urls": [
         "https://doi.org/10.3233/BLC-200423"
       ]
+    },
+    {
+      "decision_id": "new-pd166285",
+      "match_aliases": [
+        "PD166285",
+        "PD 166285",
+        "PD-166285",
+        "PD0166285"
+      ],
+      "route": "PD166285 / kinase-inhibition-mediated meiotic progression after EML1 depletion",
+      "disposition": "Retain partial cell-cycle-state rescue comparator; faithful division, fertility and MVA rescue remain unestablished",
+      "rationale": "At 10 µM, PD166285 accelerates meiotic entry and suppresses aberrant pronucleus formation after EML1 depletion. Native Figure 9 shows modest normal-spindle improvement only with delayed treatment; continuous treatment is nonsignificant for that endpoint and most treated oocytes remain abnormal. No normal drug-treated control or drug-specific BUBR1, chromosome-count or fertility outcome is supplied. The tested product is a dihydrochloride with broad kinase activity, not established selective WEE1/2 inhibition. Lower pY15-CDK1 supports pathway action without isolating the target. Delayed treatment duration conflicts between caption and graph.",
+      "evidence_scope": "Complete primary scientific main/captions, bounded native drug/genetic figure inspection and supplement review; no raw-data reanalysis or MVA model.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8194061/",
+        "https://doi.org/10.3389/fcell.2021.687522",
+        "https://pubmed.ncbi.nlm.nih.gov/9400019/",
+        "https://www.bio-techne.com/p/small-molecules-peptides/pd-166285-dihydrochloride_3785"
+      ],
+      "source_report": "workflow/track2-drug-census/eml1-qualification.md"
+    },
+    {
+      "decision_id": "new-bay320",
+      "match_aliases": [
+        "BAY-320",
+        "BAY320",
+        "BAY 320"
+      ],
+      "route": "BAY-320 / Bub1 catalytic inhibition and paclitaxel sensitization",
+      "disposition": "Retain experimental anticancer-combination comparator and Bub1 probe; do not elect BUBR1-restoration route",
+      "rationale": "BAY-320 inhibits recombinant BUB1 and cellular H2A-T120 phosphorylation. It enhances paclitaxel-associated loss of colony signal and chromosome missegregation. A separate 96-hour fixed-ratio assay supports formal synergy in HeLa and NCI-H1299, with the HeLa Z10 ratio above the study's CI≤0.8 cutoff. RPE1 is relatively spared at lower paclitaxel concentrations but shows near-universal severe segregation defects in 4 nM combinations. BubR1 kinetochore IF was measured without protein restoration; BUB1 catalytic inhibition is distinct from BUB1B targeting or Bub1 depletion. No drug-treated animal efficacy, PK, normal-tissue window or MVA rescue is established.",
+      "evidence_scope": "Complete 2016 scientific main/captions, all three native supplementary tables and all eight main figures; selected figure supplements and bounded root panel/assay check.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/bay-bub1-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.7554/eLife.12187",
+        "https://doi.org/10.7554/eLife.12187.018"
+      ]
+    },
+    {
+      "decision_id": "new-bay524",
+      "match_aliases": [
+        "BAY-524",
+        "BAY524",
+        "BAY 524"
+      ],
+      "route": "BAY-524 / Bub1 catalytic inhibition and paclitaxel potentiation",
+      "disposition": "Retain experimental cell-combination comparator; do not inherit BAY-320 formal synergy or broad-panel selectivity",
+      "rationale": "BAY-524 inhibits recombinant BUB1 and cellular H2A-T120 phosphorylation. At 7–10 µM it enhances seven-day paclitaxel-associated colony reduction and segregation defects; the native potency table reports HeLa proliferation IC50 shifting from 8.1 ± 1.2 µM alone to 0.64 ± 0.59 µM with 3 nM paclitaxel. Formal fixed-ratio synergy and broad kinase panels belong to BAY-320, not this compound. RPE1 combination harm at 4 nM paclitaxel limits normal-cell-sparing claims. BubR1 kinetochore signal is modestly lower, not restored; catalytic inhibition and Bub1 protein depletion have different consequences. No animal therapeutic window, normal-muscle output or MVA efficacy is established.",
+      "evidence_scope": "Complete 2016 scientific main/captions and native potency table/figures; BAY-320-only panel and formal-synergy limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/bay-bub1-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.7554/eLife.12187",
+        "https://doi.org/10.7554/eLife.12187.018"
+      ]
     }
   ]
 }

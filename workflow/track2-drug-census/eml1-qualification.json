@@ -1,0 +1,246 @@
+{
+  "schema_version": "bounded-primary-qualification-1",
+  "date": "2026-09-23",
+  "status": "integrated_bounded_source_qualification",
+  "source": {
+    "pmid": "34124073",
+    "pmcid": "PMC8194061",
+    "doi": "10.3389/fcell.2021.687522",
+    "title": "Echinoderm Microtubule Associated Protein Like 1 Is Indispensable for Oocyte Spindle Assembly and Meiotic Progression in Mice",
+    "publication_date": "2021-05-28",
+    "journal": "Frontiers in Cell and Developmental Biology",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8194061/",
+    "primary_xml_sha256": "1ae383dcc8f0021275b78951a8fede74ef386d3cc6391c3af82874c32f6949b0",
+    "license": "CCBY asindexed",
+    "status_check": "FreshPubMedXML JournalArticle, noCommentsCorrections orretractionlabel; boundedDOI noticequery onpublisher/NCBI returnedprimary/index, not a notice. Notintegrityclearance."
+  },
+  "proposed_assessment": {
+    "decision_id": "new-pd166285",
+    "match_aliases": [
+      "PD166285",
+      "PD 166285",
+      "PD-166285",
+      "PD0166285"
+    ],
+    "route": "PD166285 / kinase-inhibition-mediated meiotic progression after EML1 depletion",
+    "disposition": "Retain partial cell-cycle-state rescue comparator; faithful division, fertility and MVA rescue remain unestablished",
+    "rationale": "At 10 µM, PD166285 accelerates meiotic entry and suppresses aberrant pronucleus formation after EML1 depletion. Native Figure 9 shows modest normal-spindle improvement only with delayed treatment; continuous treatment is nonsignificant for that endpoint and most treated oocytes remain abnormal. No normal drug-treated control or drug-specific BUBR1, chromosome-count or fertility outcome is supplied. The tested product is a dihydrochloride with broad kinase activity, not established selective WEE1/2 inhibition. Lower pY15-CDK1 supports pathway action without isolating the target. Delayed treatment duration conflicts between caption and graph.",
+    "evidence_scope": "Complete primary scientific main/captions, bounded native drug/genetic figure inspection and supplement review; no raw-data reanalysis or MVA model.",
+    "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8194061/",
+      "https://doi.org/10.3389/fcell.2021.687522",
+      "https://pubmed.ncbi.nlm.nih.gov/9400019/",
+      "https://www.bio-techne.com/p/small-molecules-peptides/pd-166285-dihydrochloride_3785"
+    ],
+    "source_report": "workflow/track2-drug-census/eml1-qualification.md"
+  },
+  "identity": {
+    "reported_compound": "PD166285, TocrisBiosciencecatalog3785",
+    "catalog_resolution": "PD166285dihydrochloride, CAS212391-63-4; paperdoesnotprovidebatchCOA, purityorhydrationstate",
+    "nominal_culture_concentration": "10µM",
+    "salt_provenance": "Saltname derives from matchingofficialcatalog, notexplicitmaintextchemicalcharacterization",
+    "selectivity": "Primarypharmacologyabstract9400019 reportsbroadSrc/FGFR1/EGFR/PDGFRβ inhibition.11719452 supportsWee1/checkpointaction. Officialsupplieralso listsWee1/Myt1; currentpaper callsWEE1/2specific, which thisreview doesnotadopt asselectivityproof.",
+    "target_attribution": "ReducedCDK1Tyr15phosphorylation in treatedMOoocytes ismeasured pathwayresponse, notdirectWEE1/2binding/occupancy or proofthosekinasesalone mediatephenotype.",
+    "other_drugs_not_equivalent": "No attributiontoadavosertib orotherWEE inhibitors."
+  },
+  "model_and_exposure": {
+    "genetic_context": "ENU Eml1tvrm360 nonsensemutant(c.1956T>A,pTyr652*) has systemicgrowth/viability defects; drugrescuewas instead studied inacuteEML1morpholino-treated normalfullygrownoocytes.",
+    "donors": "FGOs from22-dayfemale mice aftergonadotropinpriming; genotypes/strainsused aredescribed but drug-arm donorcountsnotreported.",
+    "MO_schedule": "MainMethods20h milrinonehold;Fig3scheme22h;severalcaptions24h. These are preserved assource-specific schedules, notsilentlyharmonized.",
+    "PD_schedules": {
+      "early_GVBD": "Fig9A:20hMOhold, theninhibitoratIVMrelease;GVBDscoredthrough240min",
+      "drug_protein": "Maintext:14hIVM endpoint;Fig9B lysate50oocytes/lane",
+      "continuous_morphology": "Fig9C–E:24hMOhold thenPDfromIVMstart for20h",
+      "delayed_morphology": "PDaddedafter14hIVM/pronucleusformation;captionanother4h butnativegraphanother6h andmainprose20hendpoint. Exact4vs6h unresolved."
+    },
+    "normal_PD_treated_control": false,
+    "controls": "ControlMOwithoutPD,EML1MOwithoutPD,EML1MO+PD; continuous anddelayeddrug armsformorphology.",
+    "PD_vehicle": "Solvent/finalPDvehicle andmatchedvehiclecontrol notexplicitlyreported. DMSOcontrolsdescribed fornocodazole/Taxol localizationexperiments cannotbe transferredautomatically."
+  },
+  "drug_outcomes": {
+    "GVBD": "PDtreatedMOoocytes reached89.02±4.17%GVBD at1h, reportedhigherthancontrol; nativecurve confirms accelerationbeyondnormal earlytiming. This is notsimplynormalization.",
+    "pronucleus": "Continuous anddelayedPD markedlyreduce fraction withPB1andpronucleus versusMO(P<.01/P<.005,nativeFig9D); twoPDschedulesNSversuseachother.",
+    "MII_spindle": "NativeFig9E continuousPDvsMOisNS;delayedPDvsMOhasP<.05; continuousvsdelayedNS. Treatednormalspindlefractionsremainnumericallywellbelowcontrol andmosttreatedoocytesretainabnormalspindles/alignment. No exactbar-value digitizationperformed.",
+    "protein": "Fig9B reducedpY15-CDK1; authorsreport noPDchangeinCCNB1orCDK1. Drugpanel isrepresentativeblot, notdirectkinaseassay.",
+    "not_measured": [
+      "drug-treatednormaloocyte function",
+      "drug-treatedall-chromosomeeuploidy",
+      "drug-treatedfertilization/embryodevelopment",
+      "drug-treatedpregnancy/livebirth",
+      "drug-treatedBUBR1response",
+      "musclefunction",
+      "MVArescue"
+    ],
+    "interpretation": "Rescueofcell-cycleprogression/pronucleusstate withlimitedstructuralrescue; cannotestablishcompletedfaithfulmeioticdivision orfertileeggproduction."
+  },
+  "BUBR1_scope": {
+    "assay": "Genetic-onlyFig6B kinetochoreBubR1immunostaining at8hIVM;3.5hcontrolpositive",
+    "direction": "BubR1-positiveoocytes23.62±.69%ControlMO versus58.63±2.04%EML1MO; prolongedcheckpointassociation inabnormalMI, nottotalBUBR1upregulation",
+    "drug_assignment": "NoPD166285-treatedBubR1measurement",
+    "source_language_issue": "OneResultsphrase says aberrantinactivation, whilecaption/discussion andpersistentstainingindicateactivation/persistence. Reportmeasurement ratherthantransferoppositedirection."
+  },
+  "genetic_fertility_and_units": {
+    "fertility": "ThreeWTandthreemutant females mated withnormalmales fortwomonths; mutantnopups,WTapproximately7.5pups/litter. NoPDtreatment, therefore no drug fertility benefit. Systemicmutantdefectprecludesassigningallinfertilitysolelytooocytes.",
+    "general_statistics": "Mean±SEM ofatleastthree independentexperiments;Studentt-tests forpairwisecomparisons; no multiple-comparison/repeated-time model specified.",
+    "drug_arm_oocyte_denominators": "Notreported inFig9main/caption/suppliedsupplement; no donor-mousecount orassay-specificoocyteN inferred.",
+    "WB": "Fig9B50oocytes/lane,representativeofthreeexperiments. Pooledoocytesarenot50biologicalreplicates.",
+    "KMT": "GeneticFig6A349/247attachments, not349/247mice.",
+    "selection": "Fig7 selectsGVBDwithin2h then14hfurtherculture; post-GVBD/PBE outcomesareconditional onselectedprogressors, notwholeinitialcohortyield."
+  },
+  "source_issues": [
+    "DelayedPDschedule4hcaptionversus6hgraph;20htotalinprose; sourcePD16628Sspellingistypographiccontext, notnewcompound.",
+    "MOholds20/22/24h acrosssections.",
+    "Methodsprintsnocodazole20mg/mL andTaxol10mM;Fig2caption20µg/mL and10µM.1000-folddiscrepancies preserved; notusedasPDexposure.",
+    "MIWBtimeMethods6h versusFig2caption8h.",
+    "Figure10D/Eproseassignments differcaption; peripheraltoPDassessment.",
+    "SupplementPDFfooter saysprovisionalfile; thisdoesnotconvert theindexedpublishedprimary intoapreprint.",
+    "No drug-specificnormalcontrol orPDvehicle description."
+  ],
+  "safety_and_competitive_scope": "No systemicPDexposure,organ/developmentalsafety orfertilityrescue measured. The realnoncancercell-statepositive isretained withoutclinicalrecommendation orBUB1B/MVAtransfer; neitherprovisionalniacin norapitegromab isassumedMVA-proven. Residualspindledefects andbroadkinaseaction limitpromotionabove a targetedexperimentalcomparator.",
+  "read_scope": {
+    "main_source": "primary.xml",
+    "main_source_sha256": "1ae383dcc8f0021275b78951a8fede74ef386d3cc6391c3af82874c32f6949b0",
+    "complete_scientific_main_text_and_captions_read": true,
+    "main_parts": [
+      {
+        "file": "main-part01.txt",
+        "characters": 14322,
+        "sha256": "8d9936ce7d5bbf871dd7353839fe80abe204edf9c19f4e20d01f991757ffa6ea",
+        "tool_output_chunk_id": "d633fd",
+        "untruncated_output_observed": true,
+        "endmarker_observed": true
+      },
+      {
+        "file": "main-part02.txt",
+        "characters": 14169,
+        "sha256": "f709535b89ad968786783430aab46c84d8bcc6ab5780d451c231f154f1f4d3dc",
+        "tool_output_chunk_id": "a2acfc",
+        "untruncated_output_observed": true,
+        "endmarker_observed": true
+      },
+      {
+        "file": "main-part03.txt",
+        "characters": 13772,
+        "sha256": "5ca4eccdaa7e575d00c583a1b5d90172ea6542ec070e4037048f2aa862731a23",
+        "tool_output_chunk_id": "f7d5f8",
+        "untruncated_output_observed": true,
+        "endmarker_observed": true
+      },
+      {
+        "file": "main-part04.txt",
+        "characters": 13003,
+        "sha256": "0236211f50c5b7bf9d2e51de86e05bd318ec7055146649196dfb8db9ed7797e3",
+        "tool_output_chunk_id": "6a8ea8",
+        "untruncated_output_observed": true,
+        "endmarker_observed": true
+      },
+      {
+        "file": "main-part05.txt",
+        "characters": 11978,
+        "sha256": "efbde0ffbadfbe19e5270b4dd48b44da60d11483540c2e952732b0d82abe6631",
+        "tool_output_chunk_id": "2e4c05",
+        "untruncated_output_observed": true,
+        "endmarker_observed": true
+      }
+    ],
+    "scope": "Introduction, completeMethods/Results/Discussion, all10mainfigurecaptions and non-referencebackmatter. No reference-paper fulltext credit.",
+    "main_figures_visually_inspected": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ],
+    "main_figures_caption_only": [
+      2,
+      5,
+      10
+    ],
+    "supplement_PDF": {
+      "file": "assets/Data_Sheet_1.PDF",
+      "sha256": "26864a10e11933f43a98160f7b89a9bdf3bf24b6d126aae3eec7063f4f8d4b70",
+      "pages": 2,
+      "all_text_read": true,
+      "both_pages_visually_inspected": true,
+      "text_output_chunk_id": "bf577c"
+    },
+    "supplement_XLSX": {
+      "file": "assets/Table_1.XLSX",
+      "sha256": "ded57f71dbf4142329a750cd0cc94a00f3a5e70aad3779442aec03cd6c9a73b4",
+      "scope": "Workbookstructure/title/headers andfirst3proteinrows inspected only; notfull514proteinrowread orproteomicsreanalysis. It listsHEK293T EML1-IP candidates, notPD-treatedoocyteproteomics.",
+      "structure": "OneSheet1;516rows,12columns includingtitle/header",
+      "output_chunk_id": "bf577c"
+    },
+    "pharmacology_sources": {
+      "file": "pharmacology-pubmed.xml",
+      "sha256": "6e237c7fe851b40d5b0a095fae8e319b113062a83d3d217f61633c41e47a0e63",
+      "pmids": [
+        "9400019",
+        "11719452"
+      ],
+      "depth": "Two complete primaryabstracts read, withendmarkers; no fullpaperreading or cancerqualification.",
+      "output_chunk_id": "e0e932"
+    },
+    "supplier_identity": {
+      "url": "https://www.bio-techne.com/p/small-molecules-peptides/pd-166285-dihydrochloride_3785",
+      "depth": "Officialsupplierwebresult productidentity/activity viewed; localHTMLdownloadtimedout. No claim of savedHTMLhash or article-usedbatchpurity."
+    },
+    "notice_metadata_output_chunk": "5e62b9",
+    "automatic_outer_corpus_credit": 0,
+    "reviewer_performed_biological_replication": false
+  },
+  "retrieval_manifest": {
+    "file": "retrieval-manifest.json",
+    "sha256": "3d3b1835a34b2b99c8f08bcf87404f21fdda62c94f69718d4c6a77b47f5b3df1"
+  },
+  "asset_manifest": {
+    "file": "asset-manifest.json",
+    "sha256": "65126f1969dbf989beeabb359b5d5e3331a7ceb23869f87c839a39ebe6bf6d64"
+  },
+  "automatic_outer_corpus_credit": 0,
+  "new_appraisal_count_integrated": 1,
+  "repository_modified": true,
+  "reviewer_performed_biological_replication": false,
+  "original_draft_markdown_sha256": "a6147362fa9c2c6b00a8a2879f7696beaac8f803b173eb9aeb767849c8d126a1",
+  "source_md_sha256": "d148e1a09b1461b67d12724187c2f3654bbcd571452f1c5496200080f8d3f59d",
+  "root_read_scope": {
+    "complete_scientific_main_chunks": [
+      "4ee43d",
+      "b59c5f",
+      "ff9f6e",
+      "e35566",
+      "bb1a8a"
+    ],
+    "all_endmarkers_observed": true,
+    "native_figures": [
+      "Figure6",
+      "Figure9"
+    ],
+    "supplement_viewed_by_root": false
+  },
+  "integrated_by": "/root",
+  "integrated_assessment": {
+    "decision_id": "new-pd166285",
+    "match_aliases": [
+      "PD166285",
+      "PD 166285",
+      "PD-166285",
+      "PD0166285"
+    ],
+    "route": "PD166285 / kinase-inhibition-mediated meiotic progression after EML1 depletion",
+    "disposition": "Retain partial cell-cycle-state rescue comparator; faithful division, fertility and MVA rescue remain unestablished",
+    "rationale": "At 10 µM, PD166285 accelerates meiotic entry and suppresses aberrant pronucleus formation after EML1 depletion. Native Figure 9 shows modest normal-spindle improvement only with delayed treatment; continuous treatment is nonsignificant for that endpoint and most treated oocytes remain abnormal. No normal drug-treated control or drug-specific BUBR1, chromosome-count or fertility outcome is supplied. The tested product is a dihydrochloride with broad kinase activity, not established selective WEE1/2 inhibition. Lower pY15-CDK1 supports pathway action without isolating the target. Delayed treatment duration conflicts between caption and graph.",
+    "evidence_scope": "Complete primary scientific main/captions, bounded native drug/genetic figure inspection and supplement review; no raw-data reanalysis or MVA model.",
+    "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8194061/",
+      "https://doi.org/10.3389/fcell.2021.687522",
+      "https://pubmed.ncbi.nlm.nih.gov/9400019/",
+      "https://www.bio-techne.com/p/small-molecules-peptides/pd-166285-dihydrochloride_3785"
+    ],
+    "source_report": "workflow/track2-drug-census/eml1-qualification.md"
+  }
+}

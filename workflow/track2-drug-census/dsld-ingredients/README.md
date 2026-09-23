@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 194
+  --out /path/dsld-replay --expected-appraisals 197
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -112,4 +112,6 @@ The preceding **181-appraisal replay** preserves all eight output tables byte-fo
 
 The preceding **184-appraisal replay** adds two resveratrol name cross-references in one existing ingredient group, for **6,814 cross-references and 71 appraisal-linked groups**. All source fields and six other output tables remain unchanged. The two topical preparations create no new exact join. Name relations do not establish chemical/formulation equivalence or efficacy; the original independent inventory review remains historical.
 
-The current **194-appraisal replay** preserves all eight output tables, 6,814 name cross-references and 71 appraisal-linked groups. The ten new source appraisals add no NIH name relation or automatic reading/efficacy credit.
+The preceding **194-appraisal replay** preserves all eight output tables, 6,814 name cross-references and 71 appraisal-linked groups. The ten new source appraisals add no NIH name relation or automatic reading/efficacy credit.
+
+The current **197-appraisal replay** preserves all eight output tables, 6,814 name cross-references and 71 appraisal-linked groups. The three experimental-probe assessments create no new NIH name relation or automatic reading/efficacy credit.
