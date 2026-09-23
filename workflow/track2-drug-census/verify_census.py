@@ -292,6 +292,9 @@ def main():
     if (P/'outer-revalidation-batch09-review.json').exists():
         from verify_revalidation_batch09 import check as check_batch09
         check_batch09(root=P)
+    if (P/'outer-revalidation-batch10-review.json').exists():
+        from verify_revalidation_batch10 import check as check_batch10
+        check_batch10(root=P)
     if (P/'dsld-ingredients/summary.json').exists():
         from verify_dsld_inventory import check as check_dsld
         check_dsld(root=P)

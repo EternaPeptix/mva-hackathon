@@ -70,8 +70,8 @@ Git history rather than used for current coverage.
 
 ## Preservation checkpoints, 23 September 2026
 
-The exact requested PR1 revision is an ancestor of this branch. All **109**
-assessment IDs remain, with **103 decoded objects unchanged**. Six have later
+At the 170-appraisal checkpoint, the exact requested PR1 revision was an ancestor of this branch. All **109**
+assessment IDs remained, with **103 decoded objects unchanged**. Six had later
 source qualifications: metformin, UMK57, Apcin, rapamycin, mirdametinib and
 okadaic acid. The reader and its test remain byte-identical, and all **3,598**
 selection records remain identical. No further merge or duplicate implementation
@@ -96,4 +96,6 @@ appraisals and a new source to (+)-JQ1 while preserving the other 155 preceding
 objects. PR1 identity/reader/selection preservation is unchanged. The 3,971 FDA
 food source rows are a separate inventory, not unique-drug or efficacy credit.
 
-The latest follow-up brings the ledger to **170**: taurine and arachidonic acid are added, EPA receives a source refinement, and the other 167 preceding objects are unchanged. [Batch09](batch09-revalidation-findings.md) adds 128 saved-source revalidations after the food 64 reconciliation, for **1,402 accepted /3,563 outer source IDs /2,196 pending strings**. The separate NIH ingredient-group inventory receives no reading or efficacy credit. PR1 preservation remains 109 IDs/103 unchanged objects, the same reader/test and 3,598 selected records.
+The preceding follow-up brought the ledger to **170**: taurine and arachidonic acid are added, EPA receives a source refinement, and the other 167 preceding objects are unchanged. [Batch09](batch09-revalidation-findings.md) adds 128 saved-source revalidations after the food 64 reconciliation, for **1,402 accepted /3,563 outer source IDs /2,196 pending strings**. The separate NIH ingredient-group inventory receives no reading or efficacy credit. PR1 preservation remains 109 IDs/103 unchanged objects, the same reader/test and 3,598 selected records.
+
+The current **172-appraisal** update preserves all 109 PR1 IDs, with **102 decoded objects unchanged** and seven qualified updates. [CAPE](cape-neurological-qualification.md) is the additional refinement: actual neurological benefits remain, while the BUBR1-associated measurement is correctly identified as RNA, not protein. Two new appraisals cover [Gemini-Cur](gemini-cur-qualification.md) and [10-HDA](10hda-qualification.md); the other 169 preceding objects are unchanged. [Batch10](batch10-revalidation-findings.md) yields **1,530 accepted /3,691 outer records /2,068 pending strings**. The original reader/test, all 3,598 selection records and the exclusion of unsupported completion claims are unchanged.

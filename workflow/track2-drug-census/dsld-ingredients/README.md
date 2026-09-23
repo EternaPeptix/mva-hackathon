@@ -16,7 +16,7 @@ molecules, current products or demonstrated treatments.
 | Group–alias–record mention rows | 41,496 |
 | Groups / source records with a mention | 1,143 / 6,578 |
 | Unflagged mention rows / groups / records | 1,077 / 371 / 774 |
-| Exact-name-linked groups: main catalog / status-unverified / FDA / appraisal | 1,121 / 43 / 545 / 63 |
+| Exact-name-linked groups: main catalog / status-unverified / FDA / appraisal | 1,121 / 43 / 545 / 65 |
 | Added reading or efficacy credit | 0 |
 
 **The automated inventory marks every lexical match context-unreviewed.** A separate [initial role review](first-role-findings.md) now annotates six matching rows across four previously read abstracts, without new unique reading or appraisal credit. Unflagged means only that
@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 170
+  --out /path/dsld-replay --expected-appraisals 172
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -77,10 +77,27 @@ alias/source/field hits for ten fixed aliases; it did not independently verify
 all 69,707 aliases. A [separate source/table check](independent-source-check.md)
 round-tripped every group and source cell and reconciled all name cross-references
 at the **168-appraisal checkpoint**. The [parent reconciliation](parent-reconciliation.json)
-then verified the 170-appraisal replay: all source fields and six other outputs
-are unchanged, with three added appraisal links (ARA and two taurine group IDs).
-Those historical checks are not relabeled as a new independent review.
+then verified the 172-appraisal replay: all source fields and six other outputs
+remain unchanged. The original 170-appraisal reconciliation is retained. Two
+additional name links point to the 10-HDA appraisal, for 6,805 cross-reference
+rows and 65 appraisal-linked groups. The earlier independent review remains
+scoped to its 168-appraisal checkpoint.
 
 No literature interpretation, new compound appraisal, current availability,
 clinical status or MVA efficacy is established by this inventory. The
 [decision report](../decision-report.md) records separately qualified evidence.
+
+## Qualified source follow-ups
+
+Primary reviews now distinguish [CAPE](../cape-neurological-qualification.md),
+[Gemini-Cur](../gemini-cur-qualification.md) and [10-HDA](../10hda-qualification.md).
+These refine or add curated appraisals without new abstract-reading credit.
+The first six-row role review remains an immutable account of its earlier
+abstract-only scope; subsequent primary evidence is linked separately.
+
+**Source-name inconsistency:** groups 3291 and 6680 both display
+“10-Hydroxy-2-Decanoic Acid.” Their matching synonym is respectively
+“10-hydroxy-2-decenoic acid” or “10-HDA.” These lexical links do not establish
+saturated/unsaturated chemical equivalence or confer the study’s results on
+a marketed ingredient. The exact source cells remain unchanged. CAPE likewise
+does not confer its findings on the parent caffeic-acid group.

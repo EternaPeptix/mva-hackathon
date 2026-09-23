@@ -714,11 +714,11 @@
         "caffeic acid phenethyl ester"
       ],
       "route": "CAPE",
-      "disposition": "Neurodifferentiation context; decline BUBR1-restoration claim",
-      "evidence_scope": "Selected primary-source appraisal; access/model limits in linked review. Not an all-literature efficacy assessment.",
+      "disposition": "Neurological-function research reserve; no BUBR1-restoration evidence",
+      "evidence_scope": "Complete main and supplementary source qualification; exact assay attribution, positive/null outcomes and reporting conflicts retained.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "BUBR1 reduction in the studied differentiation context. CAPE is not caffeic acid; no derivative-to-parent efficacy transfer.",
-      "source_report": "workflow/track2-drug-census/decision-report.md",
+      "rationale": "CAPE and its gamma-cyclodextrin formulation improve selected mouse object-discrimination outcomes; tau-model flies have climbing/eclosion/thermal positives alongside memory/crawling nulls. The reduced BubR1 signal in Figure 2C is an unquantified RT-PCR RNA gel, not measured BUBR1 protein loss. Treatment chronology, vehicle and replicate descriptions conflict. No protein-restoration, chromosome-fidelity, muscle or MVA rescue is established. CAPE, caffeic acid, propolis and the formulated compound are not interchangeable; differing models alone do not erase the measured benefits.",
+      "source_report": "workflow/track2-drug-census/cape-neurological-qualification.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/33244299/"
       ]
@@ -2996,6 +2996,41 @@
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC8034554/"
       ]
+    },
+    {
+      "decision_id": "new-gemini-cur",
+      "match_aliases": [
+        "Gemini-Cur",
+        "gemini curcumin",
+        "gemini nanoparticle curcumin"
+      ],
+      "route": "Gemini-Cur / formulated curcumin cancer-cell response",
+      "disposition": "Retain formulation-specific anticancer evidence; do not nominate for BUBR1 restoration or muscle compensation",
+      "rationale": "Actual HCT-116 treatment suppresses viability more than plotted carrier and free-curcumin comparators. Reported three RNA samples per arm and native supplementary BUB1B row show RNA decrease (log2FC -2.98986; adjusted P 2.71894e-6); a weaker protein band is qualitative. qPCR direction, primer reporting and global gene-count discrepancies limit concordance. No carrier/free-curcumin BUB1B-arm controls, normal-function, fidelity or MVA rescue are demonstrated. No generic curcumin or polyphenol equivalence, comparative MVA efficacy or normal-MVA harm inferred.",
+      "source_report": "workflow/track2-drug-census/gemini-cur-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.3390/molecules27113470",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9182402/"
+      ],
+      "evidence_scope": "Bounded primary-source qualification; actual reading, quantitative/qualitative evidence and control limits in linked assessment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys"
+    },
+    {
+      "decision_id": "new-10-hda",
+      "match_aliases": [
+        "10-HDA",
+        "10-hydroxy-2-decenoic acid"
+      ],
+      "route": "10-HDA / lymphoma-cell viability suppression",
+      "disposition": "Retain in-vitro lymphoma viability comparator; deprioritize restoration and muscle compensation at this source scope",
+      "rationale": "Named 10-HDA suppresses SU-DHL-2 CCK-8 metabolic/viability signal (reported 24-hour IC50 496.8 micrograms/mL) and lowers selected-gene BUB1B RNA without a qualified BUBR1 protein direction. HSF responds less strongly, but LO2 is a misidentified HeLa derivative and cannot establish normal-hepatocyte selectivity. Solvent arithmetic, dose labels and significance reporting conflict. Xenograft establishment failed; no animal treatment or proposed R-CHOP combination efficacy is demonstrated. No royal-jelly equivalence, muscle/MVA benefit or normal-MVA harm is inferred.",
+      "source_report": "workflow/track2-drug-census/10hda-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.3390/ph17081088",
+        "https://www.cellosaurus.org/CVCL_6926"
+      ],
+      "evidence_scope": "Bounded primary-source qualification; actual reading, quantitative/qualitative evidence and control limits in linked assessment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys"
     }
   ]
 }

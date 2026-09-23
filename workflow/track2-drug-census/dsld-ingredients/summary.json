@@ -198,25 +198,25 @@
     "groups_with_unflagged_lexical_match": 371,
     "direct_gene_group_alias_record_mentions": 9334,
     "unflagged_direct_gene_mentions": 177,
-    "name_crossref_rows": 6803,
+    "name_crossref_rows": 6805,
     "groups_with_name_crossref_by_layer": {
       "main_catalog": 1121,
       "status_unverified": 43,
       "FDA_food": 545,
-      "curated_appraisal": 63
+      "curated_appraisal": 65
     },
     "crossref_rows_by_layer": {
       "status_unverified": 88,
       "main_catalog": 5161,
-      "FDA_food": 1480,
-      "curated_appraisal": 74
+      "curated_appraisal": 76,
+      "FDA_food": 1480
     },
     "target_inventory": {
       "main_catalog_rows": 14882,
       "main_catalog_alias_cells": 156295,
       "status_unverified_rows": 475,
       "FDA_food_source_rows": 3971,
-      "appraisals": 170
+      "appraisals": 172
     },
     "automatic_manual_abstract_reads": 0,
     "automatic_primary_reads": 0,
@@ -279,7 +279,7 @@
     "retrieval.json": "13ea2338ed02de9b026ac60e600e241976e86afe5ea0dde2a851af3b122e816e"
   },
   "input_sha256": {
-    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/build_dsld_inventory.py": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
+    "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/build_dsld_inventory.py": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
     "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/retrieval-manifest.json": "28409b93b597b4fc1633a47646c188fb530b1250b4a479f0324952cdaf911ad3",
     "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/version-before.json": "25c3fd919273bd2b7d9a51c1c22aa1159e6256b8a0274602d7285414a045861c",
     "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/version-after.json": "25c3fd919273bd2b7d9a51c1c22aa1159e6256b8a0274602d7285414a045861c",
@@ -319,7 +319,7 @@
     "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/aliases.tsv": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3",
     "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/drugcentral-status-unverified.tsv": "10e227cf35b49bf07e7d28f86afee12e0ebd88335a4090275b21339396db372f",
     "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/food-substances/substances.tsv": "b1396ad4b5b557653c463c98434fba7864595fe265ecb4f3a40bdca0f3b0a730",
-    "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json": "5be5e5f7ca3717e36485016f0034b306e7ff189225b4004006470bd175c25ca6"
+    "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json": "89876393214276c66c9557309a5e9ad9099471c188896d9616347bf452fe77ae"
   },
   "policy": "screen-policy.json",
   "limitations": [
@@ -334,10 +334,10 @@
   "publication": "All output files in one immutable run; current is switched atomically only after input hash recheck. Consumers should resolve current once and verify hashes; historical runs remain intact.",
   "output_sha256": {
     "alias-cells.tsv": "5b1c320acee2615925186f8cd4587a39d4207674107e21d2f9fe2eb1825f5641",
-    "groups.tsv": "8d7bdb2dcc508ae0b16a89fdf8140b2ca505aa2dfd1e4c272c56d2cfb115d1d1",
+    "groups.tsv": "97a8dcafd81c0107c58ad1da2908e9fdda5328818fa1c6c9e462dd9408e0e9e2",
     "mentions.tsv": "eabe69f574125d0d97031683d72cf950f50087fb23c3375afeea7c4e89a356fc",
     "metadata-anomalies.json": "f37e32200fb22a4d498199bb21e94ecaeba95543cc0284a380843e169507ec07",
-    "name-crossrefs.tsv": "49f2b6ad20127c955e6b29214baa133f42d69f0e35b0feb96231b6cf010900a2",
+    "name-crossrefs.tsv": "ec9e51177c6b07d87b5ac2d36612e8a1d105b19e7e9ec83539d77b22dfb0ceb8",
     "normalized-aliases.tsv": "1c73e968134b907167ca212586630dd5e68d8a054eb069d2c27401accbde50c7",
     "screen-policy.json": "9c464112836030aed935bab95912d3b67ea8aa7f39e37f7611ffbf919555a81b",
     "source-records.tsv": "453b4035a5cac444046d81275a30d6d309acfe4958456363440bf642a817295d"

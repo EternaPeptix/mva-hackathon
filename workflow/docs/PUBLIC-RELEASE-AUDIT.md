@@ -910,3 +910,13 @@ The separate NIH DSLD layer preserves 6,467 source groups and 85,255 original na
 Batch09 adds 128 disjoint saved-string readings after the 64-food admission: 1,402 accepted revalidations, 3,563 outer source/ID records, 2,196 pending. Its retraction, preprint, erratum and lineage metadata remain distinct from biological endorsement. Eight predetermined root comparisons required no substantive change. Initially empty fields retain their separate recovery depths. Full source/log replay checks declarations and identity, not scientific truth.
 
 New payloads are original assessments, public agency ingredient facts, compact bibliographic/status metadata and code. Raw abstracts, complete articles, third-party figures and controlled-case payloads remain outside the repo. Original inventory decisions, historical source identities, Track 1 and current media are preserved. No public release, merge or submission is authorized by this update.
+
+## Common-compound assay qualification, 23 September 2026
+
+The private evidence branch now has 172 appraisals: Gemini-Cur and 10-HDA are new; CAPE retains neurological-function positives with its BUB1B result corrected to RNA, not measured protein loss. All other 169 preceding assessments are unchanged. Source figures, tables, controls and reporting contradictions are distinguished in the linked qualifications; none establishes MVA efficacy or ingredient interchangeability.
+
+Batch10 adds 128 exact saved-source revalidations after excluding all 1,402 prior acceptances. Current coverage is 1,530 accepted / 3,691 outer source-ID records / 2,068 pending strings. The root read and compared eight fixed samples; no full independent 128-record interpretation review or error-rate estimate is claimed. Prior reading artifacts and the 3,598-record queue are preserved.
+
+The NIH replay adds only two lexical links for 10-HDA, with the decanoic/decenoic source-name inconsistency explicit. It adds no source groups, reading credit or chemical-equivalence claim. FDA and SGC data tables are unchanged; input identities are refreshed. The original independent inventory checks remain historical.
+
+Ten new files contain original qualifications, compact selection/review metadata and verification code. No article body, raw abstract, third-party figure, full supplementary matrix or controlled case input is added. Track 1, current pitch/media, baseline release decisions and historical source identities are preserved. This is not public-release or Track 2 submission approval.
