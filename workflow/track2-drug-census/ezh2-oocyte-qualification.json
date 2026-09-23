@@ -1,0 +1,67 @@
+{
+  "assessed_date": "2026-09-23",
+  "extra_outer_abstract_credit": 0,
+  "independent_review_this_update": false,
+  "biological_replication": false,
+  "primary_source": {
+    "pmid": "27226494",
+    "pmcid": "PMC5027481",
+    "doi": "10.1093/nar/gkw463",
+    "url": "https://doi.org/10.1093/nar/gkw463",
+    "read_depth": "Complete main text and captions, S1-S7 captions and MIQE text. Main images 4/5 and supplementary PDF pages 3/4 (S5-S7) inspected. Other images, MIQE embedded plots and raw data not independently analyzed.",
+    "main": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5027481/fullTextXML",
+      "external_file": "ezh2-oocyte.xml",
+      "bytes": 106987,
+      "sha256": "8a215dff783c7982a80cca09c67c36c625a1e3dc9a10495c9c199d03a888857c",
+      "raw_payload_location": "External to repository"
+    },
+    "assets": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5027481/supplementaryFiles",
+      "external_file": "ezh2-assets.zip",
+      "bytes": 1845491,
+      "sha256": "9f25333bf9bec8a75d948b5885ed8ff59f34b6cf57cf4b83c685315f046378d8",
+      "raw_payload_location": "External to repository"
+    }
+  },
+  "model": "Ordinary mouse oocyte meiosis; genetic interaction mapping also uses NIH3T3 cells. Not BUB1B-mutant muscle.",
+  "genetic_evidence": {
+    "depletion": "Lower BubR1, misalignment, unstable attachments, aneuploidy",
+    "overexpression": "Higher BubR1 but also abnormal maturation, misalignment and aneuploidy",
+    "mechanism": "EZH2 interaction/scaffolding is distinct from catalytic methyltransferase activity",
+    "functional_rescue_limit": "Figure 5C restores protein but reports no significant polar-body timing differences among control/depletion/rescue; it cannot alone demonstrate statistically resolved functional reversal"
+  },
+  "administered_compounds": [
+    {
+      "decision_id": "new-gsk343",
+      "name": "GSK343",
+      "dose_micromolar": 1,
+      "hours": 14,
+      "control": "DMSO",
+      "study_supplier": "Selleck; exact product ID not stated",
+      "observed": "Reduced H3K27me3, no obvious EZH2 protein change or significant displayed polar-body extrusion change",
+      "drug_specific_BubR1_measurement": false,
+      "rare_observation": "S7 abnormal polar-body morphology; text describes one or two among 50 and unshown incorrect chromosome counts. No displayed drug karyotype comparison establishes safety or excess risk"
+    },
+    {
+      "decision_id": "new-dznep",
+      "name": "DZNep",
+      "dose_micromolar": 5,
+      "hours": 14,
+      "control": "DMSO",
+      "study_supplier": "Millipore; exact product ID not stated",
+      "observed": "Reduced H3K27me3 and H3K9me2, no obvious EZH2 protein change or significant displayed polar-body extrusion change",
+      "drug_specific_BubR1_measurement": false,
+      "selectivity_limit": "Do not interpret as a selective EZH2-only intervention or interchange with GSK343"
+    }
+  ],
+  "design_limits": {
+    "independent_experiments_stated": 3,
+    "drug_group_oocyte_counts": "not supplied for displayed drug comparisons",
+    "equivalence_margin": null,
+    "randomization_blinding": "not described in inspected methods",
+    "current_stock_or_product_identity_verified": false
+  },
+  "comparison": "Retain two methylation mechanism probes. No drug-mediated deficient-model rescue, normal-muscle output, human exposure bridge or basis to replace the provisional nominees.",
+  "followup_of": "MED27226494 exact GSK343 hit in separate SGC probe screen; zero added outer-corpus completion credit"
+}

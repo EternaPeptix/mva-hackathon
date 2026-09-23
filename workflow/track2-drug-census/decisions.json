@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "status": "Source-bounded research triage. New leads found; publication/submission condition not met. No clinical efficacy estimates. Selected primary-source appraisals are separate from all-entity screening.",
   "matching": "Only exact normalized compound aliases; report collision or multi-match instead of choosing silently. Unmatched entries are unknown, not failed candidates.",
   "decisions": [
@@ -2511,15 +2511,22 @@
       ],
       "route": "ABBV-744 / BET macrophage research comparator",
       "disposition": "retain controlled vascular benefit; no MVA restoration or compensation established",
-      "evidence_scope": "Complete shared primary main text and supplement text; selected figure images. Separate apabetalone trial main design/efficacy/safety reviewed; no independent reviewer in this update.",
+      "evidence_scope": "Complete shared primary main text and supplement text; selected figure images. Separate apabetalone trial main design/efficacy/safety reviewed; no independent reviewer in this update. Separate GBM main/supplement text and selected images qualified.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Only compound administered to mice in this study. Substantial plaque reduction during concurrent high-fat feeding; not established-plaque reversal. No BUBR1 protein, muscle or chromosome-fidelity benefit measured. The shared paper reports lower BUB1B RNA after genetic knockdown, not a drug-specific BUBR1 protein measurement. Cell marker effects and short-term MTT cannot establish healthy renewal, faithful division or useful muscle output. Current research listings do not establish clinical access or exposure.",
+      "rationale": "Only compound administered to mice in the macrophage/atherogenesis study. Substantial plaque reduction during concurrent high-fat feeding; not established-plaque reversal. No BUBR1 protein, muscle or chromosome-fidelity benefit measured. The shared paper reports lower BUB1B RNA after genetic knockdown, not a drug-specific BUBR1 protein measurement. Cell marker effects and short-term MTT cannot establish healthy renewal, faithful division or useful muscle output. Current research listings do not establish clinical access or exposure. A separate 2025 GBM source supports MES transcript changes and radiation-combination growth curves, with a COL9A1 null and no displayed S6E inferential statistics. GSK620 mouse survival must not be transferred to ABBV-744.",
       "source_report": "workflow/track2-drug-census/bet-macrophage-qualification.md",
       "source_urls": [
-        "https://doi.org/10.1093/jleuko/qiag017"
+        "https://doi.org/10.1093/jleuko/qiag017",
+        "https://doi.org/10.1093/neuonc/noaf169"
       ],
       "identity_limit": "Study reports MCE HY-112090. Catalog normalization is retrieval only; stereoisomer, formulation and historical batch equivalence require separate qualification.",
-      "shared_primary_source_group": "PMID42054500"
+      "shared_primary_source_group": "PMID42054500",
+      "additional_source_reports": [
+        "workflow/track2-drug-census/gsk620-gbm-qualification.md"
+      ],
+      "additional_primary_source_groups": [
+        "PMID40686478"
+      ]
     },
     {
       "decision_id": "new-molibresib",
@@ -2601,17 +2608,25 @@
         "GSK620",
         "GSK-620"
       ],
-      "route": "GSK620 / BET macrophage research comparator",
-      "disposition": "retain cell comparator and further source question; no MVA restoration established",
-      "evidence_scope": "Complete shared primary main text and supplement text; selected figure images. Separate apabetalone trial main design/efficacy/safety reviewed; no independent reviewer in this update.",
+      "route": "GSK620 / BET BD2 anticancer and macrophage comparator",
+      "disposition": "retain qualified glioblastoma mouse survival benefit; no MVA restoration or compensation established",
+      "evidence_scope": "Complete shared primary main text and supplement text; selected figure images. Separate apabetalone trial main design/efficacy/safety reviewed; no independent reviewer in this update. Published GBM main and supplement text/captions/methods read; selected main and supplementary figures inspected; spreadsheet not analyzed.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Cell comparator with no animal treatment arm in this study. Separate glioblastoma source identified for later reading; its result is not qualified here. The shared paper reports lower BUB1B RNA after genetic knockdown, not a drug-specific BUBR1 protein measurement. Cell marker effects and short-term MTT cannot establish healthy renewal, faithful division or useful muscle output. Current research listings do not establish clinical access or exposure.",
-      "source_report": "workflow/track2-drug-census/bet-macrophage-qualification.md",
+      "rationale": "In the macrophage study, GSK620 was a cell comparator without its own animal arm. The subsequently reviewed 2025 glioblastoma paper reports longer xenograft-mouse survival after GSK620, distinct from genetic BRD2 outcomes. The earlier 2023 preprint reported no survival benefit under a different regimen and is not an independent replication. Normal-cell safety, BUBR1 rescue, muscle output and fidelity remain unestablished. The macrophage paper reports lower BUB1B RNA after genetic knockdown, not a drug-specific BUBR1 protein measurement. Cell marker effects and short-term MTT cannot establish healthy renewal, faithful division or useful muscle output. Current research listings do not establish clinical access or exposure.",
+      "source_report": "workflow/track2-drug-census/gsk620-gbm-qualification.md",
       "source_urls": [
-        "https://doi.org/10.1093/jleuko/qiag017"
+        "https://doi.org/10.1093/jleuko/qiag017",
+        "https://doi.org/10.1093/neuonc/noaf169",
+        "https://doi.org/10.1101/2023.07.03.546613"
       ],
       "identity_limit": "Study reports MCE HY-137892. Catalog normalization is retrieval only; stereoisomer, formulation and historical batch equivalence require separate qualification.",
-      "shared_primary_source_group": "PMID42054500"
+      "shared_primary_source_group": "PMID42054500",
+      "additional_source_reports": [
+        "workflow/track2-drug-census/bet-macrophage-qualification.md"
+      ],
+      "additional_primary_source_groups": [
+        "PMID40686478"
+      ]
     },
     {
       "decision_id": "new-mz1",
@@ -2662,6 +2677,77 @@
       "source_urls": [
         "https://doi.org/10.1523/JNEUROSCI.0049-25.2025"
       ]
+    },
+    {
+      "decision_id": "new-gsk778",
+      "match_aliases": [
+        "GSK778",
+        "GSK-778"
+      ],
+      "route": "GSK778 / BET BD1 cell comparator",
+      "disposition": "retain drug-specific proliferation result; no MVA rescue established",
+      "evidence_scope": "Primary main and supplement text qualified; selected figure images inspected. No independent scientific review or biological replication. See linked qualification for exact depth.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "ATP-based proliferation IC50 values in glioblastoma lines establish a cell comparator, not normal-tissue selectivity, mouse survival or BUBR1 restoration. The lower IC50 relative to GSK620 is not a therapeutic ranking.",
+      "source_report": "workflow/track2-drug-census/gsk620-gbm-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1093/neuonc/noaf169"
+      ],
+      "shared_primary_source_group": "PMID40686478",
+      "identity_limit": "Study-named compound; catalog name cross-reference is not batch/formulation equivalence, current stock or clinical exposure."
+    },
+    {
+      "decision_id": "new-ipatasertib",
+      "match_aliases": [
+        "ipatasertib",
+        "GDC-0068"
+      ],
+      "route": "Ipatasertib / AKT chromatin mechanism probe",
+      "disposition": "retain upstream mechanism probe; no MVA rescue established",
+      "evidence_scope": "Primary main and supplement text qualified; selected figure images inspected. No independent scientific review or biological replication. See linked qualification for exact depth.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "U87 fractionation blots after 1 micromolar for 24 h show reduced chromatin-associated BRD2/BRD4/RelA. No drug-specific survival, BUBR1, chromosome-fidelity or muscle outcome is demonstrated by this experiment.",
+      "source_report": "workflow/track2-drug-census/gsk620-gbm-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1093/neuonc/noaf169"
+      ],
+      "shared_primary_source_group": "PMID40686478",
+      "identity_limit": "Study-named compound; catalog name cross-reference is not batch/formulation equivalence, current stock or clinical exposure."
+    },
+    {
+      "decision_id": "new-gsk343",
+      "match_aliases": [
+        "GSK343",
+        "GSK-343"
+      ],
+      "route": "GSK343 / EZH2 catalytic mechanism probe",
+      "disposition": "retain catalytic/scaffold distinction; decline restoration nomination on this evidence",
+      "evidence_scope": "Primary main and supplement text qualified; selected figure images inspected. No independent scientific review or biological replication. See linked qualification for exact depth.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "In ordinary mouse oocytes, 1 micromolar for 14 h reduced H3K27me3 without significant displayed polar-body extrusion change. Genetic EZH2 experiments, not GSK343, raised BubR1. Rare abnormal polar bodies and unshown chromosome counts limit a safety inference. No deficient-model or MVA rescue.",
+      "source_report": "workflow/track2-drug-census/ezh2-oocyte-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1093/nar/gkw463"
+      ],
+      "shared_primary_source_group": "PMID27226494",
+      "identity_limit": "Study-named compound; catalog name cross-reference is not batch/formulation equivalence, current stock or clinical exposure."
+    },
+    {
+      "decision_id": "new-dznep",
+      "match_aliases": [
+        "DZNep"
+      ],
+      "route": "DZNep / methylation mechanism probe",
+      "disposition": "retain distinct methylation perturbation; no MVA restoration established",
+      "evidence_scope": "Primary main and supplement text qualified; selected figure images inspected. No independent scientific review or biological replication. See linked qualification for exact depth.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "At 5 micromolar for 14 h, DZNep lowered H3K27me3 and H3K9me2 without a significant displayed polar-body extrusion change. No drug-specific BubR1 increase or deficient-model rescue; catalytic perturbation is not the genetic EZH2 scaffold effect. Do not assume EZH2-only selectivity.",
+      "source_report": "workflow/track2-drug-census/ezh2-oocyte-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1093/nar/gkw463"
+      ],
+      "shared_primary_source_group": "PMID27226494",
+      "identity_limit": "Study-named compound; catalog name cross-reference is not batch/formulation equivalence, current stock or clinical exposure."
     }
   ]
 }

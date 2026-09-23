@@ -1,0 +1,131 @@
+{
+  "assessed_date": "2026-09-23",
+  "extra_outer_abstract_credit": 0,
+  "independent_review_this_update": false,
+  "biological_replication": false,
+  "primary_source": {
+    "pmid": "40686478",
+    "pmcid": "PMC12700489",
+    "doi": "10.1093/neuonc/noaf169",
+    "url": "https://doi.org/10.1093/neuonc/noaf169",
+    "read_depth": "Complete main text and captions; complete supplement text/captions/methods. Main images 1, 5, 6 and supplementary images S5, S6 inspected. Other main images and downloaded spreadsheet not independently analyzed.",
+    "main": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12700489/fullTextXML",
+      "external_file": "gsk620-published.xml",
+      "bytes": 131603,
+      "sha256": "929248d5993fad5b305430f190b75b3274ff635d9209190e8d71420b6d871083",
+      "raw_payload_location": "External to repository"
+    },
+    "assets": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12700489/supplementaryFiles",
+      "external_file": "gsk620-published-assets.zip",
+      "bytes": 6080971,
+      "sha256": "8e2ffcfa026ae556f13f10a6305fe95b59c9f9e4b986036902d184b3138ce98b",
+      "raw_payload_location": "External to repository"
+    }
+  },
+  "earlier_version": {
+    "pmid": "37461511",
+    "pmcid": "PMC10349949",
+    "doi": "10.1101/2023.07.03.546613",
+    "independent_replication": false,
+    "read_depth": "Selected drug Results, Discussion and Methods; not every figure or supplement.",
+    "regimen": "10 mg/kg oral every other day",
+    "result": "No survival improvement reported in preprint; published version reports benefit under a different regimen. Regimen difference alone does not establish why the outcome changed.",
+    "main": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10349949/fullTextXML",
+      "external_file": "gsk620-gbm.xml",
+      "bytes": 131785,
+      "sha256": "81ae520db46904e8ecb279105fda90388ce3c33e2ca570f6f3ea79ad3e189e0e",
+      "raw_payload_location": "External to repository"
+    }
+  },
+  "GSK620_mouse": {
+    "model": "GSC11 intracranial xenografts in female BALB/c nude mice aged 4-5 weeks",
+    "dose_mg_kg": 30,
+    "route": "oral",
+    "schedule": "daily, five days per week",
+    "start": "after tumor establishment; exact day not explicitly stated",
+    "vehicle": "10% DMSO, 40% PEG, 5% Tween-80, 45% saline",
+    "allocation": "S6D reports random assignment after FMT tumor imaging",
+    "blinding_and_attrition": "not explicitly described in inspected material",
+    "n_caption": 5,
+    "n_per_group_explicit": false,
+    "endpoint": "Kaplan-Meier survival with euthanasia at morbidity signs",
+    "benefit": "longer survival than vehicle",
+    "p_displayed": "<0.05 (single asterisk)",
+    "exact_p": null,
+    "hazard_ratio": null,
+    "confidence_interval": null,
+    "numerical_median": null
+  },
+  "GSK620_cells": {
+    "target": "BET BD2 compound; preferential cellular BRD2 chromatin observation does not establish exclusive BRD2 protein selectivity",
+    "target_engagement": "1 micromolar, 24 h; fractionation and selected promoter occupancy",
+    "GSC11_invasion": {
+      "dose_micromolar": 0.5,
+      "hours": 24,
+      "p": 0.0369,
+      "n_experiments": 3
+    },
+    "colony_p": {
+      "GSC11": 0.0174,
+      "GSC23": 0.0203,
+      "TS576_PTEN_KO": 0.0503
+    },
+    "radiation": "Combined growth reduction; drug-alone comparisons in Figure 6G nonsignificant; formal synergy and combination animal survival not tested"
+  },
+  "PK": {
+    "brain_plasma_total_AUC_ratio_percent": 27.2,
+    "plasma_half_life_hours": 1.05,
+    "plasma_Cmax_micromolar": 1.86,
+    "brain_Cmax_micromolar": 0.4,
+    "administered_PK_dose": "not stated in inspected PK methods; do not assign efficacy-arm dose",
+    "unbound_or_human_exposure_established": false
+  },
+  "normal_NPC": {
+    "assay": "three-day ATPlite, 0.5 and 1 micromolar",
+    "n_caption": 3,
+    "observation": "treated curves lower at final time; no statistical annotations or equivalence bound",
+    "conclusion": "limited comparison, not established normal-tissue safety or therapeutic margin"
+  },
+  "other_drugs": [
+    {
+      "decision_id": "new-gsk778",
+      "name": "GSK778",
+      "intervention": "BET BD1 comparator",
+      "ATP_proliferation_IC50_micromolar": {
+        "GSC23": 6.47,
+        "GSC11": 11.63,
+        "iGBM_MES": 8.4
+      },
+      "animal_survival_arm": false
+    },
+    {
+      "decision_id": "new-abbv744",
+      "name": "ABBV-744",
+      "intervention": "0.5 micromolar, 24 h; MES transcripts and radiation combination growth",
+      "limits": [
+        "COL9A1 P=.107501",
+        "S6E curves lack displayed statistical tests",
+        "No mouse drug arm in this GBM paper; macrophage paper remains separate"
+      ]
+    },
+    {
+      "decision_id": "new-ipatasertib",
+      "name": "Ipatasertib",
+      "intervention": "1 micromolar, 24 h U87 chromatin fractionation; n=3 representative blots",
+      "result": "lower chromatin-associated BRD2/BRD4/RelA",
+      "functional_rescue_demonstrated": false
+    }
+  ],
+  "comparison": {
+    "current_leads": "Niacin restoration and apitegromab muscle compensation remain provisional; neither demonstrates MVA rescue",
+    "gsk620": "Upgrade to qualified experimental anticancer comparator; not a demonstrated MVA restoration or muscle-compensation route",
+    "BUBR1_readout": false,
+    "MVA_genotype_test": false,
+    "muscle_outcome": false,
+    "fidelity_or_intact_immune_surveillance_assessed": false
+  },
+  "followup_of": "Glioblastoma source question in bet-macrophage-qualification.json; literature versions count as one study lineage"
+}

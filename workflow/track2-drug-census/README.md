@@ -6,6 +6,14 @@ publication-hold status.
 [PR1 reuse](pr1-reuse.md) records which work is already incorporated, adds
 bounded UMK57 control findings, and preserves the later source corrections.
 
+The [research-probe inventory](sgc-probes/README.md) adds 249 SGC probe labels
+and 230 parent-scoped negative-control records as a separate discovery layer.
+Seven complete matched abstracts were read; one BSP match is a PCR abbreviation.
+The [GSK620 follow-up](gsk620-gbm-qualification.md) credits actual mouse cancer
+survival, while the [EZH2 study](ezh2-oocyte-qualification.md) separates genetic
+BUBR1 stabilization from drug inhibition. These add four appraisals for **156**,
+not 249 demonstrated treatments, and add no outer-corpus reading credit.
+
 The latest qualifications retain [unesbulin's cancer benefit](unesbulin-qualification.md)
 and [okadaic acid's mitotic-entry timing rescue](greatwall-qualification.md), with
 separate endpoints and source limits. Neither establishes MVA restoration.

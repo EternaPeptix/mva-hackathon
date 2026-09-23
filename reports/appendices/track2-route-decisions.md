@@ -266,3 +266,20 @@ the provisional nominees have demonstrated MVA efficacy.
 | **Molibresib, (+)-JQ1, apabetalone, GSK046, GSK620, MZ1** | Separate cell inflammatory/lipid comparisons in the same paper. | Uneven effects, limited short-term safety, no MVA muscle outcome; apabetalone's human cardiovascular primary endpoint was nonsignificant. Qualify each compound and its relevant exposure separately. |
 | **Recombinant sFRP3** | Reduced excess neural-stem-cell division in APP mice. | Gene-delivery pool/behavior findings cannot be assigned to protein. BubR1-hypomorphic models support the opposite genetic direction. Establish which defect and direction apply before testing restoration. |
 | **Levetiracetam** | Frzb RNA increased among seizure-responsive APP mice. | Two nonresponders excluded, sample-count inconsistency and no new functional endpoint. Reopen only with a relevant seizure-mediated deficit and an all-treated functional evaluation. |
+
+
+## Research probes and EZH2 stabilization
+
+The [SGC layer](../../workflow/track2-drug-census/sgc-probes/README.md) enumerates
+249 probe labels, with research controls and unresolved identities preserved.
+The following entries reflect primary experiments, not inventory membership.
+
+| Unelected route | Evidence credited | Weakness and reopening condition |
+|---|---|---|
+| **GSK620** | [Published mouse glioblastoma survival benefit](../../workflow/track2-drug-census/gsk620-gbm-qualification.md), plus invasion/colony effects and cell target engagement. | Small immune-deficient tumor model, no BUBR1 restoration or MVA muscle/fidelity endpoint; limited normal-progenitor evidence. Retain anticancer comparator, requiring a matching indication and therapeutic window. The preprint null and changed regimen remain documented. |
+| **GSK778** | Drug-specific glioblastoma ATP/proliferation dose response. | Greater growth inhibition does not establish abnormal-cell selectivity or normal-tissue benefit. No mouse survival arm; require relevant functional and control outcomes. |
+| **Ipatasertib** | U87 AKT/chromatin mechanism experiment. | No drug-specific functional rescue in that experiment. Establish the relevant causal defect and functional benefit before promotion. |
+| **GSK343 / DZNep** | [Catalytic-inhibition experiments](../../workflow/track2-drug-census/ezh2-oocyte-qualification.md) distinguish enzyme activity from EZH2's genetic effect on BubR1 stability. | Neither drug reproduces genetic stabilization or rescues a deficient model. Rare GSK343 abnormalities limit safety claims; excessive genetic EZH2 also disrupts meiosis. Require restored faithful division, not abundance alone. |
+
+These transfer limits also apply to niacin and apitegromab. No head-to-head MVA
+efficacy or proven clinical superiority has been established for the nominees.

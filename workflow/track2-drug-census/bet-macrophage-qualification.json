@@ -212,18 +212,24 @@
       "purpose": "MZ1 research degrader identity"
     }
   ],
-  "unread_followups": [
-    {
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10349949/",
-      "question": "Separate GSK620 glioblastoma intervention, function and harms",
-      "depth": "Search result only; not qualified evidence"
-    }
-  ],
   "decision": "Retain model-specific positives. No demonstrated mechanism or functional advantage in the relevant MVA model; no nomination change or assertion of proven clinical inferiority.",
   "followup_of": {
     "ledger": "outer-revalidation-next128-review.json",
     "source": "MED",
     "record_id": "42054500",
     "status": "Bounded primary qualification now available; clinical transfer and specified source questions remain open"
-  }
+  },
+  "completed_followups": [
+    {
+      "previous_pointer": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10349949/",
+        "question": "Separate GSK620 glioblastoma intervention, function and harms",
+        "depth": "Search result only; not qualified evidence"
+      },
+      "qualified_date": "2026-09-23",
+      "status": "Published GBM version now qualified with positive GSK620 mouse survival; earlier preprint is not independent evidence",
+      "report": "workflow/track2-drug-census/gsk620-gbm-qualification.md",
+      "published_pmid": "40686478"
+    }
+  ]
 }

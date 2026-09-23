@@ -839,3 +839,22 @@ No controlled-case payload is added. Track 1 uploads, current pitch/media,
 prior source ledgers, historical source identities and original inventory
 rows remain intact. Neither compound evidence nor this package check approves
 publication, merging or submission.
+
+
+## Research-probe inventory and primary follow-ups, 23 September 2026
+
+The added SGC layer preserves 391 public source rows as 249 probe labels,
+230 parent-scoped control records and seven retrieval hits. Seven complete
+abstracts were read in a separate overlay, including a false BSP/PCR match;
+accepted outer-corpus totals are unchanged. The source tables are inventory,
+not a count of unique drugs or qualified efficacy assessments.
+
+Two primary qualifications credit GSK620's published mouse cancer-survival
+benefit and distinguish EZH2 genetic stabilization from enzyme inhibition.
+Four appraisals are added for 156 total; GSK620 and ABBV-744 are updated and
+150 preceding objects remain identical. All PR1 IDs, its reader/test and
+selection survive. New material is original assessment, public source-table
+metadata and inventory/replay code. Raw source HTML, abstracts, article text,
+figures and supplements stay external. No controlled-case payload is added.
+Track 1, current pitch/media, original inventory decisions and historical
+source identities are preserved. No publication, merge or submission is authorized.

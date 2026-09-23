@@ -68,7 +68,7 @@ while preserving all 109 PR1 IDs. The reader/test and all 3,598 selection
 records remain identical. The unsupported completion verifier is retained in
 Git history rather than used for current coverage.
 
-## Current preservation check, 22 September 2026
+## Current preservation check, 23 September 2026
 
 The exact requested PR1 revision is an ancestor of this branch. All **109**
 assessment IDs remain, with **103 decoded objects unchanged**. Six have later
@@ -83,3 +83,10 @@ revalidations**, **3,243 outer source/ID records** and **2,516 pending strings**
 Those are source/version records, not independent studies. The proposal and
 search infrastructure are reusable; the unsupported all-read/exhaustive-negative
 conclusion remains excluded. Both PRs remain private drafts and unmerged.
+
+
+The research-probe follow-up brings the current ledger to **156**: four new
+appraisals and refinements to GSK620 and ABBV-744, with the other 150 prior
+objects unchanged. The PR1 preservation counts above are unchanged. The
+separate 249-label SGC inventory and its seven actual abstract readings do not
+increase outer-corpus completion counts or prove new efficacy.

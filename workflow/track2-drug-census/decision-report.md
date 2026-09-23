@@ -2,13 +2,31 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 152 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 156 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 The [three-paper comparison](vascular-enzyme-qualification.md) retains
 anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
 and a BUB1B RNA response to alglucosidase alfa in Pompe myocytes. Catalogue-listed
 research reagents are included on their measured merits. None yet justifies
 replacing the provisional niacin/apitegromab pair.
+
+## Research probes: two primary follow-ups, 23 September 2026
+
+The [SGC inventory](sgc-probes/README.md) preserves 249 probe labels and their
+controls beyond clinical-development catalogs. All seven exact-hit abstracts
+were read, with one false BSP acronym match retained as such. This expands
+discovery; it does not establish those probes as treatments or unique new drugs.
+
+| Candidate | New evidence | Competitive decision |
+|---|---|---|
+| **GSK620** | The published 2025 GBM study reports longer survival after actual drug treatment in a small mouse xenograft experiment. The earlier preprint reported no survival benefit with a different regimen. | Upgrade to an experimental anticancer comparator. No BUBR1, MVA muscle, fidelity or established normal-tissue safety result; [version and endpoint qualification](gsk620-gbm-qualification.md). |
+| **GSK778 / ipatasertib** | Separate glioblastoma proliferation and AKT/chromatin experiments. | Add distinct cell/mechanism probes; neither inherits GSK620 survival or normal-cell selectivity. |
+| **GSK343 / DZNep** | Ordinary-oocyte methylation perturbation, distinct from genetic EZH2 effects on BubR1. | Retain mechanism probes. No drug-mediated restoration; rare GSK343 polar-body abnormalities and limited functional-rescue evidence remain explicit in the [primary assessment](ezh2-oocyte-qualification.md). |
+
+Four added appraisals bring the ledger to **156**. Two existing BET entries gain
+qualified follow-ups; the other 150 preceding entries are unchanged. Neither
+this inventory nor the seven overlapping readings changes the **2,516 pending**
+outer strings. Niacin and apitegromab remain provisional, unproved in MVA.
 
 ## The same comparison for leaders and challengers
 

@@ -5,6 +5,10 @@ but they share one [macrophage/atherogenesis study](https://doi.org/10.1093/jleu
 ABBV-744 has a controlled mouse plaque result. The other six have cell results
 in that study. Neither result establishes BUBR1 restoration or MVA muscle benefit.
 
+A [23 September GBM follow-up](gsk620-gbm-qualification.md) now qualifies a
+separate GSK620 mouse survival result and ABBV-744 cell evidence. The findings
+below remain scoped to the macrophage paper and its earlier assessment.
+
 ## Intervention and identity
 
 | Compound | Study-reported cell exposure | Distinction retained |
