@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 142 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 143 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 The [three-paper comparison](vascular-enzyme-qualification.md) retains
 anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
@@ -272,8 +272,8 @@ restoration or MVA efficacy, and the nominated pair is unchanged.
 
 The [source revalidation](review-quality-followup.md) withdraws the proposed
 all-read/no-further-leads conclusion from an unreliable draft. The initial 186
-re-read source records plus [six subsequent 128-record batches](batch06-revalidation-findings.md)
-leave 2,644 selected strings requiring revalidation. The
+re-read source records plus [seven subsequent 128-record batches](batch07-revalidation-findings.md)
+leave 2,516 selected strings requiring revalidation. The
 [UMK57 appraisal](umk57-qualification.md) adds a genuine acute and completed-division
 fidelity result in cancer cells, followed by limited durability. It is a
 mechanistic competitor, not an established MVA medicine. Apcin's context-dependent
@@ -295,8 +295,8 @@ recovered matches and source-role decisions into current coverage and triage:
 511 entities have specific co-mentions, while 14,846 remain without one. A
 match is not efficacy. The [primary-question status](primary-question-status.json)
 now links nine of the original 34 questions to primary qualifications, leaving
-25 unreconciled there. The six later batches flag 52, 49, 31, 34, 27 and 22 further
-questions respectively; 2,644 selected strings still require revalidation. Publication and
+25 unreconciled there. The seven later batches flag 52, 49, 31, 34, 27, 22 and 14 further
+questions respectively; 2,516 selected strings still require revalidation. Publication and
 submission remain pending.
 
 
@@ -391,7 +391,7 @@ without establishing useful nonmalignant MVA tissue restoration.
 Those qualifications brought the ledger to 138 appraisals. The subsequent
 [corneal study](corneal-qualification.md) adds 2-DG, Stattic and rotenone; the
 [cardiomyocyte study](cardiomyocyte-qualification.md) adds FGF4 and extends the
-existing ascorbate-phosphate entry. The current ledger therefore holds **142**.
+existing ascorbate-phosphate entry. Those additions brought the ledger to **142**.
 
 | Route | Evidence retained | Competitive implication |
 | --- | --- | --- |
@@ -399,8 +399,32 @@ existing ascorbate-phosphate entry. The current ledger therefore holds **142**.
 | Rotenone | Adverse-direction cell-marker perturbation. | Mechanistic control, without a therapeutic rescue result. |
 | FGF4 plus AA | Improved differentiation and optical beating in hESC-derived cardiomyocytes. | Combination-level cardiac function; subsequent hypoxia caused injury, and the BUB1B transcript decrease does not establish protein rescue. |
 
-The [sixth reading batch](batch06-revalidation-findings.md) brings accepted
-revalidations to 954, leaving 2,644 selected strings pending. Its 22 follow-up
-questions include chemical rescue after Greatwall depletion and a conference-level
-PTC596 tumor/survival result. They require their own source qualification. Neither
-current nominee is MVA-proven, and no new nomination follows from these findings.
+The [seventh reading batch](batch07-revalidation-findings.md) brings accepted
+revalidations to 1,082, leaving 2,516 selected strings pending. Its 14 questions
+remain separately flagged. Neither current nominee is MVA-proven.
+
+## Cancer control and mitotic timing are distinct positives
+
+The [unesbulin appraisal](unesbulin-qualification.md) brings the ledger to **143**.
+The official randomized LMS trial reports an incremental combination benefit:
+unesbulin plus dacarbazine versus placebo plus dacarbazine, median PFS 3.6 versus
+2.6 months, HR 0.61 (95% CI 0.45–0.83), P=.0017 in the 209/105 modified ITT
+population. The study was terminated for a stated business decision; this must
+not be relabeled as demonstrated efficacy failure. Overall-survival medians
+were unestimable. Safety uses 238/120 treated participants, with serious febrile
+neutropenia in 8/0; raw events are not all attributable to unesbulin.
+
+The separate full preclinical paper supports direct colchicine-site tubulin
+binding and GBM-model survival benefit. ATRT results remain conference-level
+and potentially overlapping. These findings support cancer research, without
+establishing selective BMI1 action, BUBR1 restoration or MVA muscle benefit.
+LMS results cannot establish rhabdomyosarcoma treatment compatibility.
+
+The [Greatwall/OA appraisal](greatwall-qualification.md) preserves a different
+positive: 500 nM okadaic acid shortens entry into mitosis after MASTL depletion.
+It also accelerates control-cell entry. That experiment does not measure the
+number or fidelity of healthy daughter cells. The genetic PP2AC phosphorylation
+comparisons have different baselines, and the older 20 nM OA partial
+completed-mitosis result is retained separately. No additional OA identity or
+medicine count is created. These source-specific results do not yet change the
+provisional niacin/apitegromab comparison.

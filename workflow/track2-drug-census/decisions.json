@@ -992,14 +992,19 @@
       ],
       "route": "Okadaic acid",
       "disposition": "partial mitotic-fidelity reagent comparator; decline restoration medicine nomination",
-      "rationale": "In addition to Haspin-perturbation localization, 20nM okadaic acid partly restores visually normal completed mitoses under partial RO3306/CDK1 inhibition in HeLa cells. Most cells remain abnormal; no sustained faithful descendants, muscle benefit or eligible therapeutic exposure is established. Do not mislabel this as localization-only or as BUBR1 restoration.",
+      "rationale": "In addition to Haspin-perturbation localization, 20nM okadaic acid partly restores visually normal completed mitoses under partial RO3306/CDK1 inhibition in HeLa cells. Most cells remain abnormal; no sustained faithful descendants, muscle benefit or eligible therapeutic exposure is established. Do not mislabel this as localization-only or as BUBR1 restoration. A distinct Greatwall/MASTL-depletion experiment uses 500 nM OA and restores mitotic-entry timing; it does not measure corrected chromosome segregation or healthy daughter-cell output. Its genetic PP2AC co-depletion phosphorylation comparisons use different denominators and are not a drug-response percentage.",
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC3471222/",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4050138/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4050138/",
+        "https://doi.org/10.1073/pnas.0914191107",
+        "https://hal.science/hal-00491971/file/Burgess_et_al_PDF.pdf"
       ],
-      "evidence_scope": "Primary-source qualification; model, endpoint and source-access limits retained.",
+      "evidence_scope": "Primary-source qualification; model, endpoint and source-access limits retained. Greatwall paper main author manuscript and four original figures read; supplement unavailable. Bounded independent Methods/figure check preserves endpoint and normalization limits.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "source_report": "workflow/track2-drug-census/clearance-and-fidelity.md"
+      "source_report": "workflow/track2-drug-census/clearance-and-fidelity.md",
+      "additional_source_reports": [
+        "workflow/track2-drug-census/greatwall-qualification.md"
+      ]
     },
     {
       "decision_id": "new-cona",
@@ -2474,6 +2479,29 @@
         "https://doi.org/10.1186/s12967-026-07771-5",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC13041143/"
       ]
+    },
+    {
+      "decision_id": "new-unesbulin",
+      "match_aliases": [
+        "unesbulin",
+        "PTC596",
+        "PTC-596",
+        "PTC 596"
+      ],
+      "route": "Unesbulin / direct tubulin binding with tumor-control and survival evidence",
+      "disposition": "retain anticancer positives and qualified ATRT lead; no BUBR1-restoration or MVA muscle claim",
+      "evidence_scope": "Two potentially overlapping ATRT conference abstracts read completely; full Jernigan2021 primary main text and six figures read, supplement unavailable. Official trial status checked; NCT05269355 posted endpoints/flow and selected safety data read, no full protocol/SAP.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "PTC596/unesbulin directly binds the tubulin colchicine site in a 2.05-Angstrom structure; BMI1 genetic dependency and downstream BMI1 reduction do not establish a selective BMI1-only drug mechanism. ATRT conference reports retain MRI tumor suppression and longer mouse survival, but omit dose, n, magnitude and harms and are not independent replication. A separate full GBM study shows median survival 20 versus 15 days with oral PTC596 20 mg/kg on days 10, 17, 24 (n=10/group; P=.0042). Official NCT05269355 results retain a randomized LMS combination PFS benefit: unesbulin plus dacarbazine versus placebo plus dacarbazine, modified ITT n=209/105, medians 3.6/2.6 months, HR 0.61 (95% CI 0.45–0.83), P=.0017. OS medians were unestimable. The terminated status cites a business decision, not demonstrated efficacy failure. Safety n=238/120 included serious adverse events in 81/43 and serious febrile neutropenia in 8/0, irrespective of causality. Normal-fibroblast selectivity remains unresolved in unread supplements. No BUBR1 protein, chromosome-fidelity or muscle rescue is shown; LMS benefit does not establish rhabdomyosarcoma compatibility or MVA efficacy. Research supply and clinical trials are not an approval or access inference.",
+      "source_report": "workflow/track2-drug-census/unesbulin-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6477309/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7715494/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9398121/",
+        "https://clinicaltrials.gov/study/NCT05269355",
+        "https://www.medchemexpress.com/us/en/ptc596.html"
+      ],
+      "identity_limit": "MCE HY-112041 identifies current research unesbulin/PTC596. Supplier target labeling is not selective-mechanism validation, and supplier vehicle instructions do not identify historical study vehicle."
     }
   ]
 }

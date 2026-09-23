@@ -118,34 +118,40 @@ Compare absolute muscle output, progenitor renewal and chromosome fidelity in qu
 
 ### Was candidate identification automated (e.g., via a drug-target database query or LLM-assisted search), or primarily manual literature review and expert curation?
 
-Candidate identification combined reproducible public-database retrieval and alias screening with AI-assisted manual source appraisal. Claude Code and Codex supported searches, comparisons, mechanistic critique and drafting. The [public census](../workflow/track2-drug-census/README.md) retains 15,357 catalog/supplement entities, including an explicit status-unverified supplement; 40 FDA 2026 product entries were reviewed separately and are not added to that entity denominator. The [decision ledger](../workflow/track2-drug-census/decisions.json) contains 138 curated route/compound appraisals. Retrieval and co-mention screening are not efficacy assessments of every drug. Unannotated and unreviewed entities remain UNKNOWN. The separate [direct EMA layer](../workflow/track2-drug-census/ema-coverage-review.md) contains 1,568 authorised human products and 180 unresolved whole-field name mismatches; it does not merge products into the main denominator or assess their BUB1B efficacy.
+Candidate identification combined reproducible public-database retrieval and alias screening with AI-assisted manual source appraisal. Claude Code and Codex supported searches, comparisons, mechanistic critique and drafting. The [public census](../workflow/track2-drug-census/README.md) retains 15,357 catalog/supplement entities, including an explicit status-unverified supplement; 40 FDA 2026 product entries were reviewed separately and are not added to that entity denominator. The [decision ledger](../workflow/track2-drug-census/decisions.json) contains 143 curated route/compound appraisals. Retrieval and co-mention screening are not efficacy assessments of every drug. Unannotated and unreviewed entities remain UNKNOWN. The separate [direct EMA layer](../workflow/track2-drug-census/ema-coverage-review.md) contains 1,568 authorised human products and 180 unresolved whole-field name mismatches; it does not merge products into the main denominator or assess their BUB1B efficacy.
 
 The earlier seven selections contain 2,161 outer source/ID entries. A proposed
-completion draft failed source-fidelity review. The retained queue now has **826
-accepted literal source revalidations** (186 plus five 128-record batches),
-bringing the outer ledgers to **2,987 accepted source/ID records**; **2,772 strings
+completion draft failed source-fidelity review. The retained queue now has **1,082
+accepted literal source revalidations** (186 plus seven 128-record batches),
+bringing the outer ledgers to **3,243 accepted source/ID records**; **2,516 strings
 remain pending**. These are source/version records, not independent experiments
 or uniformly complete journal abstracts. The older 2,161 annotations were not
 independently re-audited here, and originally empty fields retain separate
 recovery depths. The corrected alias screen has 511 entities with a specific
 co-mention and 14,846 without one; co-mentions are not efficacy. Source replay
 checks identity and declared reading evidence, not biological validity.
-[Current reading status](../workflow/track2-drug-census/batch05-revalidation-findings.md)
-records the fifth batch; [the prior checkpoint](../workflow/track2-drug-census/batch04-revalidation-findings.md)
-retains earlier source questions, cross-reader checks and notice-reading status.
-Full-paper and supplement follow-ups receive **no extra abstract-reading credit**.
+[Current reading status](../workflow/track2-drug-census/batch07-revalidation-findings.md)
+records the seventh batch and 14 new primary-source follow-up questions; those
+questions are not 14 drugs or completed primary appraisals. The [prior checkpoint](../workflow/track2-drug-census/batch06-revalidation-findings.md)
+retains earlier source questions and qualification limits. Full-paper and
+supplement follow-ups receive **no extra abstract-reading credit**, and raw
+source artifacts remain outside Git. The [PR1 reuse check](../workflow/track2-drug-census/pr1-reuse.md)
+retains all 109 decision IDs: 103 original objects are unchanged and six have
+qualified updates.
 
-The [Aquamin qualification](../workflow/track2-drug-census/aquamin-qualification.md)
-and [KIF18A compound qualification](../workflow/track2-drug-census/kif18a-compound-qualification.md)
-add Aquamin, AM-0277, AM-1882, AM-5308 and AM-9022 while preserving all 133 previous
-decision objects. Aquamin Soluble supports differentiation in human adenoma
-cultures, including a donor with a listed BUB1B mutation; neither that mutation
-list nor the differentiation markers establish BUBR1 rescue. KIF18A compounds
-produce tumor regression in tested mouse cancer models, with normal-cell
-controls of limited scope; this does not establish muscle restoration or broad
-normal-tissue safety. Compound-specific results remain separate. These positives
-refine the alternatives while niacin/apitegromab remain provisional, with MVA
-benefit unestablished for either nominee.
+The [unesbulin qualification](../workflow/track2-drug-census/unesbulin-qualification.md)
+adds one compound appraisal, retaining randomized leiomyosarcoma combination
+PFS benefit and separate mouse glioblastoma survival. Direct tubulin binding
+prevents treating its older BMI1 label as proof of a selective BMI1-only mechanism;
+conference ATRT reports remain potentially overlapping, with incomplete methods.
+The [Greatwall qualification](../workflow/track2-drug-census/greatwall-qualification.md)
+adds 500 nM okadaic-acid mitotic-entry timing rescue to the existing assessment,
+while preserving the separate 20 nM partial completed-mitosis positive. Neither
+establishes BUBR1 restoration, faithful descendants or MVA muscle benefit.
+Earlier [Aquamin differentiation](../workflow/track2-drug-census/aquamin-qualification.md)
+and [KIF18A tumor-regression](../workflow/track2-drug-census/kif18a-compound-qualification.md)
+positives remain with their tissue and normal-control limits. Niacin/apitegromab
+remain provisional, with MVA benefit unestablished for either nominee.
 
 Primary follow-ups distinguish PAI-1 clinical and muscle compounds, hesperetin motor versus composition endpoints, the limited PLK1 patient-drug observation, and genetic/mixture dependencies in other rescue claims. All fourteen follow-ups flagged in the final ranked selection received targeted primary-source qualification, including intervention identity, control harm and review/preprint-to-journal resolution; this is not full-text review of all ranked records. Nine further prioritized questions received [primary qualification](../workflow/track2-drug-census/unfiltered-primary-qualification.md), retaining functional benefits while separating compounds from genetic and culture-method effects; sFRP3 resolved to an already-appraised source. The [next comparison](../workflow/track2-drug-census/next576-primary-qualification.md) strengthens ursolic acid as a functional reserve, separates MG132 alignment/proteolysis from contractile benefit, and qualifies DHMMF marker increases during cell damage. It also credits bortezomib-plus-humanin contracture prevention separately from active-force rescue, while preserving mortality and normal-muscle growth costs. Further [identity checks](../workflow/track2-drug-census/intervention-identity-followup.md) preserve distinct NO-donor experiments, model-dependent STLC effects, GSK-923295 counterevidence and an access-limited flavopiridol functional report. Selection is a curated research judgment; no validated automated drug-ranking model, numerical therapeutic score or independent clinical expert sign-off is claimed.
 
@@ -205,7 +211,7 @@ No consolidated person-hour or cost ledger was measured. Work comprised computat
 
 We propose niacin (nicotinic acid) and apitegromab as the primary research comparison for a BUB1B stop-plus-missense case, tested separately. Niacin tests restoration of usable BUBR1; apitegromab tests downstream muscle-function compensation. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue. Niacin's human muscle NAD engagement and separate NMN/SIRT2 experiments do not establish a niacin-to-functional-BUBR1 chain. Apitegromab has randomized functional evidence in SMA, with age, dose and background-treatment limits, and a material fracture signal. Current US SMA approval does not establish an MVA indication or dose. This is research prioritization, not clinical efficacy.
 
-Reproducible public retrieval enumerates 15,357 catalog/supplement entities, including status-unverified entries; 40 FDA 2026 product entries are a separate freshness check. Alias screening and 138 curated route/compound appraisals distinguish source retrieval, co-mention, mechanism and functional evidence. This does not assess every drug's efficacy; missing annotations remain UNKNOWN. A separate direct EMA check retains 1,568 authorised human products with 180 unresolved whole-field name mismatches; these do not add unique drugs or efficacy assessments.
+Reproducible public retrieval enumerates 15,357 catalog/supplement entities, including status-unverified entries; 40 FDA 2026 product entries are a separate freshness check. Alias screening and 143 curated route/compound appraisals distinguish source retrieval, co-mention, mechanism and functional evidence. This does not assess every drug's efficacy; missing annotations remain UNKNOWN. A separate direct EMA check retains 1,568 authorised human products with 180 unresolved whole-field name mismatches; these do not add unique drugs or efficacy assessments.
 
 Model qualification establishes endogenous RNA/protein, phase where possible, allele function and reproducible tissue defects with genetic controls. Confirmed cis retires the compound-heterozygous explanation; another BUB1B causal rationale requires an independently demonstrated additional pathogenic allele in trans or dominant mechanism. Abundance-matched allele studies distinguish quantity from function per molecule. Niacin experiments qualify precursor utilization and NAD/SIRT2/BUBR1 dependence. Apitegromab experiments require a relevant myostatin precursor/activation system and actual-drug target engagement; baseline myostatin excess is not mandatory for compensation. Partial genetic mTORC1 normalization interrogates causality only in the conditional everolimus branch. Drug experiments use measured, pharmacologically justified exposures; genetic or related-antibody results cannot be transferred to a medication.
 

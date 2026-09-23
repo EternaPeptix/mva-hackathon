@@ -280,6 +280,9 @@ def main():
     if (P/'outer-revalidation-batch06-review.json').exists():
         from verify_revalidation_batch06 import check as check_batch06
         check_batch06(root=P)  # Full source/log replay uses the external cache.
+    if (P/'outer-revalidation-batch07-review.json').exists():
+        from verify_revalidation_batch07 import check as check_batch07
+        check_batch07(root=P)  # Full source/log replay uses the external cache.
     if (P/'literature-v2/summary.json').exists():
         from verify_rescreen import check as check_rescreen
         check_rescreen()

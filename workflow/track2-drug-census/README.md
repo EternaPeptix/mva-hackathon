@@ -6,11 +6,11 @@ publication-hold status.
 [PR1 reuse](pr1-reuse.md) records which work is already incorporated, adds
 bounded UMK57 control findings, and preserves the later source corrections.
 
-The latest qualifications retain [corneal tissue improvements](corneal-qualification.md)
-and [cardiomyocyte maturation and optical beating](cardiomyocyte-qualification.md).
-They distinguish tissue benefit from BUBR1 restoration, and injury experiments
-from rescue. The [sixth 128-record revalidation](batch06-revalidation-findings.md)
-leaves 2,644 selected strings pending; the search remains unfinished.
+The latest qualifications retain [unesbulin's cancer benefit](unesbulin-qualification.md)
+and [okadaic acid's mitotic-entry timing rescue](greatwall-qualification.md), with
+separate endpoints and source limits. Neither establishes MVA restoration.
+The [seventh 128-record revalidation](batch07-revalidation-findings.md) leaves
+2,516 selected strings pending; the search remains unfinished.
 
 **Catalog snapshot: 21 September 2026; corrected text screen: 22 September 2026,
 America/Phoenix (retrieval timestamps are UTC).**
@@ -435,8 +435,8 @@ all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
 claim full-text review of all ranked records. The current decision ledger contains
-142 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 142 approved medicines.
+143 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 143 approved medicines.
 
 The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.
 
@@ -486,12 +486,12 @@ combination-specific; neither displaces the niacin/apitegromab comparison.
 
 The [quality follow-up](review-quality-followup.md) rejects an unreliable
 3,598-record draft's claim of faithful completion. The initial 186 literal
-revalidations and six subsequent 128-record batches now total **954 strings**,
-bringing the outer ledgers to **3,115 source/ID records** and leaving **2,644
+revalidations and seven subsequent 128-record batches now total **1,082 strings**,
+bringing the outer ledgers to **3,243 source/ID records** and leaving **2,516
 selected strings pending**. The preceding 2,161 annotations have not been
 independently re-audited here. Four initial strings are non-abstract items.
-The latest batch contains 128 saved source strings, including reviews, preprints,
-commentaries, a conference abstract and a case report; these are not 128
+The latest batch contains 128 saved source strings, including reviews, a guideline,
+a commentary, a conference abstract and a case report; these are not 128
 independent experiments. Original empty
 fields and recovered bodies remain separately accounted for.
 
@@ -499,11 +499,14 @@ The [first 128](next128-revalidation-findings.md) flagged 52 source questions;
 the [second](batch02-revalidation-findings.md) 49,
 [third](batch03-revalidation-findings.md) 31,
 [fourth](batch04-revalidation-findings.md) 34,
-[fifth](batch05-revalidation-findings.md) 27, and
-[sixth](batch06-revalidation-findings.md) 22. These are questions, not qualified
+[fifth](batch05-revalidation-findings.md) 27,
+[sixth](batch06-revalidation-findings.md) 22, and
+[seventh](batch07-revalidation-findings.md) 14. These are questions, not qualified
 medicines. Eight independent cross-reader checks in the latest batch required
 no substantive amendments; this is a targeted check, not an estimated error
-rate. The latest batch retains two unread linked errata and five preprint links.
+rate. The latest batch retains six unread preprint links and three commentary links;
+its saved metadata has no correction/retraction flags. Earlier unread errata
+remain separate.
 Earlier notice and annotation decisions are preserved at their declared scope.
 
 [UMK57](umk57-qualification.md) adds actual acute and post-division fidelity
@@ -570,7 +573,7 @@ changes the provisional research pair.
 
 The [corneal](corneal-qualification.md) and [cardiomyocyte](cardiomyocyte-qualification.md)
 qualifications add four entries and extend the existing ascorbate-phosphate
-assessment, bringing the current ledger to **142**. 2-DG and Stattic retain actual
+assessment, bringing that stage of the ledger to **142**. 2-DG and Stattic retain actual
 mouse tissue benefits; rotenone is an adverse cell control. FGF4 plus AA retains
 combination-level optical function, while the subsequent hypoxia experiment
 measures injury. These are two primary studies, not four independent positive
@@ -578,3 +581,16 @@ experiments. Only 2-DG has an exact alias join (CHEMBL1880349); FGF4, Stattic an
 rotenone do not match this saved catalog. Neither absence nor a clinical-development
 record establishes current approval or efficacy. The 15,357-entity denominator
 and provisional research comparison are unchanged.
+
+
+The [unesbulin qualification](unesbulin-qualification.md) adds one entry, for
+**143** current appraisals. It preserves randomized leiomyosarcoma combination
+PFS benefit and separate glioblastoma-model survival evidence, with direct
+tubulin binding and unestablished normal-tissue selectivity. Its catalog alias
+joins CHEMBL4594353; that does not establish approval or MVA benefit. The
+[Greatwall qualification](greatwall-qualification.md) extends the existing
+okadaic-acid entry: 500 nM restores mitotic-entry timing, without demonstrating
+faithful daughter cells. Its older 20 nM completed-mitosis benefit remains
+intact. All 109 PR1 IDs remain; 103 decision objects are unchanged and six have
+qualified updates. The reader, its test and original 3,598-record selection
+remain unchanged. No source qualification adds abstract-reading credit.

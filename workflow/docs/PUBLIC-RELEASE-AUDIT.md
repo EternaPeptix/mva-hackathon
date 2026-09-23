@@ -796,3 +796,29 @@ images, video files and supplemental data remain external; only original
 assessments, bibliographic metadata, provenance hashes and verification code are
 included. Track 1, current pitch media and all 109 PR1 decision IDs are preserved.
 This private draft update does not approve publication, merger or submission.
+
+
+## Seventh source batch and distinct tumor/timing outcomes, 22 September 2026
+
+This private update preserves the preceding 954 revalidations and adds 128
+fixed-order strings: 1,082 accepted revalidations, 3,243 outer source/ID records,
+and 2,516 pending strings. Both readers' original objects are unchanged. Eight
+bounded independent annotation comparisons agree; full source/log replay,
+fresh-copy structural checks and four altered-evidence rejection fixtures pass.
+Fourteen new source questions and nine unread publication links remain visible.
+These checks establish identities and declared scope, not biological efficacy.
+
+Unesbulin adds one appraisal, for 143, preserving randomized LMS combination
+PFS and separate GBM-model survival benefits. Direct tubulin binding does not
+establish selective BMI1 action or MVA rescue. The existing OA entry gains a
+Greatwall-depletion mitotic-entry timing result while retaining its prior
+completed-mitosis evidence. Both receive bounded independent source checks;
+unavailable supplements and unassessed normal-tissue selectivity remain explicit.
+Raw papers, abstracts, figures, registry payloads and reading logs remain outside
+Git. Original appraisals, metadata and verification code are included.
+
+All 109 PR1 IDs remain; 103 objects are unchanged and six have qualified updates.
+Track 1 uploads, current pitch/media, prior source ledgers, historical snapshot
+source fields and original inventory decisions are preserved. This update does
+not authorize publication, merge or submission. The research pair remains
+provisional and unproved in MVA.
