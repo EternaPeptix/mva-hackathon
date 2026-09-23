@@ -1,0 +1,326 @@
+{
+  "status": "Source-reported clinical outcomes, no new inferential analysis",
+  "source_pmids": [
+    "35050355",
+    "35584623"
+  ],
+  "data_scope": "Main/scientific supplementary source values and native labels; no participant-level dataset",
+  "outcomes": [
+    {
+      "trial": "ENERGIZE",
+      "endpoint": "6-minute walk distance",
+      "time_months": 4,
+      "status": "revised first primary",
+      "unit": "m change from baseline",
+      "ua": {
+        "dose_mg_day": 1000,
+        "mean": 60.8,
+        "sd": 67.2,
+        "n": 30
+      },
+      "placebo": {
+        "mean": 42.5,
+        "sd": 73.3,
+        "n": 30
+      },
+      "raw_mean_difference": 18.3,
+      "difference_is_adjusted": false,
+      "between_group": "not significant by source ANCOVA",
+      "source": "Main Results Primary; Figure2A; Table1 baseline",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ENERGIZE",
+      "endpoint": "FDI maximal ATP production",
+      "time_months": 4,
+      "status": "gated second primary",
+      "unit": "mM/s change from baseline",
+      "ua": {
+        "dose_mg_day": 1000,
+        "mean": 0.07,
+        "sd": 0.23
+      },
+      "placebo": {
+        "mean": 0.06,
+        "sd": 0.2
+      },
+      "between_group": "not significant; confirmatory gate closed by first-primary null",
+      "source": "Main Results Primary; Figure2C",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ENERGIZE",
+      "endpoint": "TA maximal ATP production",
+      "time_months": 4,
+      "status": "secondary",
+      "unit": "mM/s change from baseline",
+      "ua": {
+        "dose_mg_day": 1000,
+        "mean": -0.03,
+        "sd": 0.1
+      },
+      "placebo": {
+        "mean": 0.03,
+        "sd": 0.1
+      },
+      "between_group": "not significant",
+      "source": "Main abstract/Results; Supplement2 eFigure1",
+      "transcription_limit": "Results running text has [10] for one SD; abstract supplies0.10. No10mM/s SD inference.",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ENERGIZE",
+      "endpoint": "FDI endurance, absolute contraction change",
+      "time_months": 2,
+      "status": "secondary after primary amendment",
+      "unit": "contractions to fatigue, change from baseline",
+      "ua": {
+        "dose_mg_day": 1000,
+        "mean": 95.3,
+        "sd": 115.5
+      },
+      "placebo": {
+        "mean": 11.6,
+        "sd": 147.4
+      },
+      "raw_mean_difference": 83.7,
+      "difference_is_adjusted": false,
+      "between_group_p": "<0.01",
+      "method": "Figure2F post hoc two-sided Wilcoxon",
+      "source": "Main Results Secondary; nativeFigure2F and footnotea",
+      "denominator": "Endpoint-by-visit n not explicitly tabulated; do not assign all33 randomized or all30 FAS",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ENERGIZE",
+      "endpoint": "FDI endurance, percentage contraction change",
+      "time_months": 2,
+      "status": "secondary",
+      "unit": "percent change from baseline",
+      "between_group_p": "<0.05",
+      "method": "ANCOVA, nominal unadjusted P",
+      "source": "Supplement2 native eFigure2A star and caption",
+      "numeric_effect": "Not numerically tabulated; no graph digitization",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ENERGIZE",
+      "endpoint": "TA endurance, absolute contraction change",
+      "time_months": 2,
+      "status": "secondary; detailed protocol also lists absolute leg change",
+      "unit": "contractions to fatigue, change from baseline",
+      "ua": {
+        "dose_mg_day": 1000,
+        "mean": 41.4,
+        "sd": 65.5
+      },
+      "placebo": {
+        "mean": 5.7,
+        "sd": 127.1
+      },
+      "raw_mean_difference": 35.7,
+      "difference_is_adjusted": false,
+      "between_group_p": "0.05",
+      "source": "Main Results Secondary; nativeFigure2I footnoteb",
+      "qualification": "Borderline; percentage panel eFigure2B has no significant marker",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ENERGIZE",
+      "endpoint": "FDI and TA endurance",
+      "time_months": 4,
+      "status": "secondary",
+      "between_group": "Not significant for either muscle",
+      "TA_absolute_posthoc_Wilcoxon_p": "0.07",
+      "source": "Main Results Secondary; Figure2F/I; eFigure2",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ATLAS",
+      "endpoint": "peak power output",
+      "time_months": 4,
+      "status": "designated primary; all endpoints described exploratory in Methods",
+      "unit": "percent change from baseline; physical measureWatts",
+      "placebo_percent": 0.7,
+      "ua500_percent": 4.3,
+      "ua1000_percent": 3.7,
+      "between_group": "not significant",
+      "source": "Table2; nativeFigure2E",
+      "source_discrepancy": "Discussion reverses/changes nearby rounded dose-order figures; use nativeTable2",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ATLAS",
+      "endpoint": "hamstring average peak torque",
+      "time_months": 4,
+      "status": "secondary/exploratory",
+      "physical_unit": "N·m",
+      "reported_effect_unit": "within-arm percent change from baseline",
+      "placebo_percent": -9.8,
+      "ua500_percent": 12.0,
+      "ua1000_percent": 9.8,
+      "ua500_vs_placebo_p": 0.027,
+      "ua1000_vs_placebo_p": 0.029,
+      "placebo_within_group_p": 0.008,
+      "between_group": "positive at both doses, nominal tests; correlated strength outcomes",
+      "source": "Results; Table2; nativeFigure2A",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ATLAS",
+      "endpoint": "maximum knee-flexion torque",
+      "time_months": 4,
+      "status": "secondary/exploratory",
+      "physical_unit": "N·m",
+      "reported_effect_unit": "within-arm percent change from baseline",
+      "placebo_percent": -9.3,
+      "ua500_percent": 10.6,
+      "ua1000_percent": 10.5,
+      "ua500_vs_placebo_p": 0.017,
+      "ua1000_vs_placebo_p": 0.022,
+      "placebo_within_group_p": 0.009,
+      "between_group": "positive at both doses, nominal tests; not an independent study",
+      "source": "Results; Table2; nativeFigure2B",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ATLAS",
+      "endpoint": "quadriceps average and maximum extension torque",
+      "time_months": 4,
+      "status": "secondary/exploratory",
+      "between_group": "not significant",
+      "average_between_group_p": 0.26,
+      "maximum_between_group_p": 0.18,
+      "source": "Results; Table2; SupplementS1A/B",
+      "caption_limit": "S1 title says improved, but no significance markers and main reports null",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ATLAS",
+      "endpoint": "hand-grip strength and body composition",
+      "time_months": 4,
+      "status": "secondary/exploratory",
+      "between_group": "not significant; lean/fat mass unchanged",
+      "source": "Results; Table2; Figure2C; SupplementS1C/D",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ATLAS",
+      "endpoint": "peak oxygen consumption",
+      "time_months": 4,
+      "status": "secondary/exploratory",
+      "physical_unit": "mL/kg/min",
+      "ua1000_percent": 10.2,
+      "placebo_percent": -1.1,
+      "ua1000_vs_placebo_p": 0.058,
+      "within_ua1000_p": "<0.01",
+      "between_group": "not significant",
+      "source": "Results; Table2; Figure2D; SupplementS2A",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ATLAS",
+      "endpoint": "estimated VO2max",
+      "time_months": 4,
+      "status": "secondary/exploratory; extrapolated from submaximal exercise",
+      "ua1000_percent": 14.3,
+      "placebo_percent": 4.5,
+      "ua1000_vs_placebo_p_main": 0.058,
+      "ua1000_vs_placebo_p_native_S2B": 0.068,
+      "between_group": "not significant under either reported P",
+      "source": "Results; Table2; SupplementS2B",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    },
+    {
+      "trial": "ATLAS",
+      "endpoint": "6-minute walk distance",
+      "time_months": 4,
+      "status": "secondary/exploratory",
+      "unit": "m change from baseline",
+      "ua1000_mean_change_m": 33.43,
+      "ua1000_percent": 7,
+      "ua1000_within_group_p": 0.008,
+      "ua1000_vs_placebo_p": 0.098,
+      "between_group": "not significant",
+      "source": "Results; Table2; nativeFigure2F",
+      "qualification": "Greater-than30m within-arm gain is not a significant treatment contrast",
+      "adjusted_95_percent_CI": {
+        "level": 0.95,
+        "lower": null,
+        "upper": null,
+        "status": "Adjusted clinical treatment-contrast CI not numerically reported in examined main/scientific supplements; no reconstruction from SEM, dots, assumed n or unadjusted summary means."
+      }
+    }
+  ],
+  "no_new_reading_credit": true
+}

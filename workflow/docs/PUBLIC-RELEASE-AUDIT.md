@@ -1058,3 +1058,13 @@ Three portable files provide original qualification and compact numeric source s
 Only final-batch n85 changes. The 15 exact-source qualifications remain (six study-level answers and nine partials), with one separately qualified published counterpart added. Thirty-one questions have neither kind of qualification; 32 still lack an exact-original-source answer. The preprint’s full text and exact version remain unverified. All original questions/flags, other 46 record objects and original-queue counts remain unchanged, with no new outer-reading or independent-study credit.
 
 All 109 PR1 IDs remain: 97 objects unchanged and twelve qualified refinements. Decision joins and ingredient/probe inventories are replayed without changing catalog identities or granting preparation/availability/efficacy equivalence. Track 1, its methods prefix, current pitch/media, model/transfer/RNA and protected experimental plan remain unchanged. Both PRs remain private drafts and unmerged; Track 2 remains unsubmitted.
+
+## Common-compound functional comparisons, 23 September 2026
+
+Three distinct assessments bring the ledger to 219, preserving all 216 prior decision objects. Urolithin A contributes exploratory randomized human muscle-function positives with primary endpoints null in both trials. Putrescine dihydrochloride contributes mouse reproductive outcomes, while L-ascorbic acid reuses a previously qualified oocyte chromosome-protection source as a separate chemical identity. Neither preparation synonymy nor these other-model benefits establish BUBR1 restoration, MVA benefit or nominee superiority.
+
+Seven portable files contain original source qualifications, structured evidence and one numerical human-outcome summary. Source-reviewer, independent and root reading scopes remain distinct. The putrescine 2013 source remains abstract-only and its 2015 native figures/supplements are unavailable; the ascorbate maturation denominator and urolithin adjusted clinical confidence intervals remain unresolved. Full papers, images and reading logs remain external.
+
+All 47 original source-question records and the original reading queue remain byte-identical. No new original-queue reading, independent-study or global-completion credit follows. PR1 retention remains 109 IDs, with 97 unchanged objects and twelve previously qualified refinements. Catalog and ingredient joins are refreshed from the exact new aliases; their matches do not establish availability, preparation equivalence or efficacy.
+
+Track 1, its methods prefix, current pitch/media, model/transfer/RNA and protected experimental plan remain unchanged. Both PRs remain private drafts and unmerged; Track 2 remains unsubmitted.

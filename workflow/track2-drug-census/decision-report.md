@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 216 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 219 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 The [three-paper comparison](vascular-enzyme-qualification.md) retains
 anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
@@ -41,7 +41,20 @@ The [FDA food-substance inventory](food-substances/README.md) preserves 3,971 so
 | **Potentilla fulgens methanolic root extract (PRE)** | Fewer stomach carcinomas at day 260 (2/10 versus 10/10), plus lower premature chromosome separation during a carcinogen challenge. | **Substantive protection reserve.** Prophylactic co-exposure, small groups and source-reporting issues; no BUBR1, muscle or genotype-specific rescue. No transfer to root foods or other products. [Qualification](potentilla-qualification.md). |
 | **ECGU: epicatechin, catechin, gallic acid and ursolic acid** | The four-component mixture lowered premature chromosome-separation percentages in exposed mice. | **Preparation-specific protection reserve.** No mixture tumor-histology arm or individual-component controls; all four displayed protein-marker treatment comparisons are nonsignificant. No synergy or MVA benefit established. [Qualification](potentilla-qualification.md). |
 
-The ledger contains **216 appraisals**. The [CENP-E/Aurora comparison](cenpe-feedback-qualification.md) adds centrinone, MLN8054, TCS7010 and the separately tested alisertib null, while refining four existing intervention roles. MLN8054/TCS7010 improve restricted chromosome-congression measurements in non-transformed RPE-1 cells; BUBR1 restoration and faithful daughter-cell yield remain unmeasured. A caption identity conflict does not transfer the MLN8054 result to alisertib. The published paper is qualified separately from its unverified preprint version. Niacin/apitegromab remain provisional.
+The ledger contains **219 appraisals**. [Urolithin A](urolithin-human-qualification.md) adds randomized human muscle-function signals alongside primary-endpoint nulls. [Putrescine dihydrochloride](putrescine-reproduction-qualification.md) adds mouse reproductive outcomes, and [L-ascorbic acid](ascorbate-oocyte-qualification.md) adds a distinct chromosome-protection assessment from an already reviewed study. These are useful comparators with different endpoints; none demonstrates BUBR1 restoration or MVA benefit. Niacin/apitegromab remain provisional, and all 216 previous assessment objects are preserved.
+
+## Common-compound functional comparisons
+
+The broader search has produced measured benefits worth testing against the nominees. Endpoint type determines the comparison: human muscle function, reproductive output and chromosome protection cannot be combined into one efficacy score.
+
+| Material | Measured benefit | Competitive decision and weakness |
+|---|---|---|
+| [Urolithin A](urolithin-human-qualification.md) | Randomized human fatigue-resistance and hamstring-torque secondary benefits. | Retain as an exploratory muscle-function competitor. Primary outcomes were null; the older-adult endurance advantage was not significant at four months. No BUBR1/MVA result, pediatric evidence or demonstrated superiority. |
+| [Putrescine dihydrochloride](putrescine-reproduction-qualification.md) | Less embryo resorption in two mouse strains and more blastocyst cells. | Retain as a reproductive-function reserve. Aggregate live pups increased, but litter-rate and litter-size comparisons were nonsignificant; males were co-exposed and embryo analyses did not account for maternal clustering. The separate 2013 aneuploidy source remains abstract-only. |
+| [L-ascorbic acid](ascorbate-oocyte-qualification.md) | 500 µM during maturation increased normal 20-chromosome outcomes from 60.0% to 84.6% and reduced PSSC from 26.0% to 2.6% in Sod1-deficient oocytes. | Retain as a distinct chromosome-protection comparator, reusing the NAC source. No treatment-induced BUBR1 assay or downstream developmental outcome; the maturation denominator remains unclear. Do not transfer to ascorbate 2-phosphate or oral products. |
+
+The three assessments preserve every previous decision object. They add no original-queue or independent-study count and do not establish retail availability or preparation equivalence. CoQ10 and spermidine are undergoing separate primary-source review; they receive no efficacy rank here.
+
 
 The [food-name review](food-substances/common-abstract-findings.md) retains 212 available abstracts across 213 source IDs. [Batch15](batch15-revalidation-findings.md) adds the final 532 saved strings: **3,598 accepted revalidations, 5,759 combined outer source/ID records and zero pending in the original selection**. This closes that queue, not the broader search or primary-source follow-up. The earlier 2,161 annotations were not independently re-audited here. Root checked 16 source/annotation pairs in the final batch; versions are not independent studies and the 143 initially empty fields retain separate recovery statuses.
 

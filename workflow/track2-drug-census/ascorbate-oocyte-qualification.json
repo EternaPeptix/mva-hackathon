@@ -1,0 +1,175 @@
+{
+  "schema": "bounded-primary-reuse-qualification-v1",
+  "date": "2026-09-23",
+  "compound": "L-ascorbic acid",
+  "proposed_decision_id": "new-l-ascorbic-acid",
+  "source": {
+    "pmid": "39845481",
+    "pmcid": "PMC11751902",
+    "doi": "10.1002/rmb2.12622",
+    "version": "PMC11751902.1",
+    "publication_date_epmc": "2025-01-22",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11751902/",
+    "complete_main_newly_read": false,
+    "prior_qualification": "catalog-independent-review.md Ascorbic acid and NAC section; existing NAC prior-28"
+  },
+  "identity": {
+    "source_reported_name": "L-ascorbic acid",
+    "abbreviation": "AsA",
+    "supplier": null,
+    "catalog": null,
+    "CAS": null,
+    "purity": null,
+    "vehicle": null,
+    "named_salt_or_counterion": null,
+    "form_limit": "Source names L-ascorbic acid. No separately authenticated supplier form or stock is provided; do not substitute sodium ascorbate, ascorbate2-phosphate, or oral/consumer preparations.",
+    "separate_drug_arms": [
+      "500µM L-ascorbic acid",
+      "500µM N-acetyl-L-cysteine"
+    ],
+    "combined_AsA_NAC_arm": false,
+    "exact_alias": "L-ascorbic acid",
+    "catalog_join": "CHEMBL196; name/identity mapping only",
+    "distinct_existing_form": "new-ascorbate-2-phosphate"
+  },
+  "exposure": {
+    "concentration_uM": 500,
+    "route": "In-vitro culture medium",
+    "schedule": "During18h GV cumulus-oocyte-complex maturation",
+    "conditions": "37°C,21%oxygen,5%CO2 in air; supplemented Waymouth MB752/1 medium",
+    "background_medium": "5%fetal calf serum,0.23mM pyruvic acid,4mM hypoxanthine,10IU/LFSH,1µL/mLamikamycin",
+    "design": "Concurrent prevention/attenuation during IVM; not delayed repair or oral treatment"
+  },
+  "animals": {
+    "sex": "female",
+    "age_weeks": "3-4",
+    "genetic_background": "Sod1 line originallyC57BL/6, backcrossed toCD1(ICR)>8times",
+    "genotypes": "Sod1KO and WT littermates",
+    "drug_experiment": "Sod1KO only; no treated-WT arm inFig7",
+    "donor_mouse_n": null
+  },
+  "direct_drug_outcomes": {
+    "figure": "7",
+    "arm_order": [
+      "Sod1KOcontrol",
+      "Sod1KO+AsA",
+      "Sod1KO+NAC"
+    ],
+    "maturation_percent": [
+      86.4,
+      95.9,
+      97.7
+    ],
+    "maturation_definition": "First polar-body emission",
+    "maturation_comparisons": "AsA-control P<.05;NAC-control P<.01,source stars",
+    "normal_20_chromosome_percent": [
+      60.0,
+      84.6,
+      84.6
+    ],
+    "normal_20_comparisons": "Each versuscontrol P<.05",
+    "at_most_19_percent": [
+      14.0,
+      12.8,
+      11.5
+    ],
+    "at_least_21_percent": [
+      0,
+      0,
+      0
+    ],
+    "PSSC_percent": [
+      26.0,
+      2.6,
+      3.8
+    ],
+    "PSSC_comparisons": "Each versuscontrol P<.01",
+    "numerical_aneuploidy_class_tests": "No significant difference reported in≤19or≥21categories",
+    "statistics": "Caption:Fisher exact withBonferroni correction",
+    "Fig7B_caption_n": [
+      50,
+      39,
+      52
+    ],
+    "Fig7A_caption_n": [
+      50,
+      39,
+      52
+    ],
+    "maturation_denominator_limit": "PanelA printed percentages are not reconstructible as pooled integer successes over its repeated caption Ns. Different denominators/aggregation are possible but unreported; no true GVinput counts inferred.",
+    "Fig7B_arithmetic_check": "Category percentages are compatible with integer counts at caption N; raw per-oocyte data not supplied or independently reconstructed.",
+    "assay": "Chromosome spreading,Giemsa staining,chromosome-pair counting and PSSCclassification; not selected-targetFISH",
+    "boundary": "Direct chromosome-category fidelity endpoint, no proof that every numerical aneuploidy class or subchromosomal abnormality is prevented.",
+    "replication": "Figure7 independent culture/biological replicate and maternal Ns unspecified in readMethods; western-blot triplicates cannot be transferred.",
+    "randomization_blinding": "Not specified in readMethods"
+  },
+  "BUBR1": {
+    "drug_response_measured": false,
+    "actual_comparison": "UntreatedWT versus untreatedSod1KO duringIVM",
+    "total_protein": "No significant genotype difference inBUBR1/GAPDH timecourse",
+    "localization": "MIkinetochore signal lower inKO;native roundedlabels1.0vs0.7,P<.01",
+    "unit": "15oocytes pergenotype;595of600kinetochores measured pergroup,nested within oocytes",
+    "WB_replication": "At least3independent samples/experiments,60oocytes perlane,explicitlyWBonly",
+    "antibody": "Abcamab28193;TableS1WB1:3000,IF1:200",
+    "causal_limit": "No AsA/NAC BUBR1measurement, BUBR1 mediation test or BUB1B-MVA rescue"
+  },
+  "downstream": {
+    "fertilization_measured_for_this_drug_experiment": false,
+    "blastocyst_development_measured": false,
+    "embryo_transfer_measured": false,
+    "live_birth_measured": false,
+    "basis": "ReadDiscussion expressly states fertilization and embryonic-development effects remain undetermined; cited AsA2-cellto4-cell result is a different paper.",
+    "muscle_function_measured": false
+  },
+  "other_context": {
+    "genotype_low_oxygen_controls": "WT/KO in-vivo and5%O2 comparison differs from21%O2challenge; do not generalize effect to every condition.",
+    "GSH_Oet_betaME": "Preliminary exposures mentioned asdata notshown; no morepotent effects thanAsA/NACreported, not a demonstrated class-wide null. No dose or standalone appraisal derived."
+  },
+  "disposition": {
+    "route": "Experimental chromosome-protection comparator inSod1-deficientoocytes",
+    "reason": "Distinct actually administered L-ascorbicacid arm withdirect normal-chromosome/PSSCpositive justifies optional separate chemical-identity entry.",
+    "MVA_lead": false,
+    "bub1b_variant_efficacy": "Not established forLeu737Ter/Asn1002Lys",
+    "comparison": "Moreproximal chromosome endpoint thanmarker-only hypotheses,but distinct lesion/tissue/exposure;niacin/apitegromab also remainunprovenMVA."
+  },
+  "identity_reuse_check": {
+    "file": "identity-reuse-check.json",
+    "sha256": "59df075408d724d8255101f2c9f4c69908ff2d67ae7ed1d1bcff0955215d6438"
+  },
+  "reading_manifest": {
+    "file": "reading-manifest.json",
+    "sha256": "18368d3237c7dbf5cc3fea907679c9456ee284cda19a6b7eb4f05122373e5e01"
+  },
+  "retrieval_manifest": {
+    "file": "retrieval-manifest.json",
+    "sha256": "8620b086e66721a0231811fb1c9924d85ff7d67383258cf09ae94dc1f44df488"
+  },
+  "qualification_md_sha256": "c2bb32141dc1db46a80f8e6b17548026a4bd5c0943061c182f2f35ef996aca97",
+  "status": "INTEGRATED_SOURCE_QUALIFICATION_WITH_EXPLICIT_LIMITS",
+  "source_reviewer_repository_edited": false,
+  "source_reviewer_root_admission_pending": true,
+  "source_reviewer_credit": {
+    "new_unique_abstract": 0,
+    "new_outer_corpus": 0,
+    "automatic_new_ledger_entries": 0,
+    "reviewer_performed_biological_replication": false
+  },
+  "integration": {
+    "baseline": "d88488855307c35ec9230853b77edfaf8e482800",
+    "baseline_assessments": 216,
+    "current_assessments": 219,
+    "prior_decision_objects_unchanged": 216,
+    "new_decision_id": "new-l-ascorbic-acid",
+    "frozen_source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ascorbate-oocyte-reuse-20260923/qualification.json",
+      "sha256": "24c12f366a7a14b852903295d64e4aef277bd25a83ae64495442709830e7b02f"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-functional-integration-20260923/root-reading.json",
+      "sha256": "bd03f6c2ecb0427c7eebb22657908c34434b86bf65b4a660e888c1b0c0cd4db5"
+    },
+    "original_queue_new_credit": 0,
+    "all47_original_source_question_records_unchanged": true,
+    "nominee_superiority_established": false
+  }
+}

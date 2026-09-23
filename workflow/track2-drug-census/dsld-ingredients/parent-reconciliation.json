@@ -1,17 +1,15 @@
 {
   "date": "2026-09-23",
   "reviewer": "/root",
-  "scope": "216-assessment replay preserves all eight output tables; no new ingredient relation, preparation equivalence or efficacy credit.",
+  "scope": "219-assessment replay adds two exact L-ascorbic-acid synonym relations in existing Vitamin C groups. All source fields and six other output tables are unchanged; names do not establish preparation equivalence or efficacy.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cenpe-feedback-integration-20260923/dsld-replay/runs/ed77002df598c407124c",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-functional-integration-20260923/dsld-replay/runs/cddd916b57f8c8234f47",
   "historical_ledger_count": 168,
-  "current_ledger_count": 216,
+  "current_ledger_count": 219,
   "unchanged_output_tables": [
     "alias-cells.tsv",
-    "groups.tsv",
     "mentions.tsv",
     "metadata-anomalies.json",
-    "name-crossrefs.tsv",
     "normalized-aliases.tsv",
     "screen-policy.json",
     "source-records.tsv"
@@ -31,10 +29,40 @@
       "after": "[\"new-capsaicin\"]"
     },
     {
+      "group_id": "2377",
+      "name": "Curcumin",
+      "before": "[]",
+      "after": "[\"new-curcumin-cdc27\"]"
+    },
+    {
       "group_id": "3807",
       "name": "Capsaisin",
       "before": "[]",
       "after": "[\"new-capsaicin\"]"
+    },
+    {
+      "group_id": "5626",
+      "name": "Curcumin",
+      "before": "[]",
+      "after": "[\"new-curcumin-cdc27\"]"
+    },
+    {
+      "group_id": "8775",
+      "name": "Diclofenac",
+      "before": "[]",
+      "after": "[\"new-diclofenac\"]"
+    },
+    {
+      "group_id": "9833",
+      "name": "Geranylgeraniol",
+      "before": "[]",
+      "after": "[\"new-trans-geranylgeraniol-source\"]"
+    },
+    {
+      "group_id": "438",
+      "name": "Resveratrol",
+      "before": "[]",
+      "after": "[\"new-resveratrol\"]"
     },
     {
       "group_id": "2384",
@@ -55,6 +83,12 @@
       "after": "[\"new-selenomethionine\"]"
     },
     {
+      "group_id": "48",
+      "name": "Turmeric",
+      "before": "[]",
+      "after": "[\"new-curcumin-cdc27\"]"
+    },
+    {
       "group_id": "2060",
       "name": "Taurine",
       "before": "[]",
@@ -67,6 +101,30 @@
       "after": "[\"new-taurine\"]"
     },
     {
+      "group_id": "50",
+      "name": "Vitamin E",
+      "before": "[]",
+      "after": "[\"new-alpha-tocopherol\"]"
+    },
+    {
+      "group_id": "10",
+      "name": "Vitamin C (ascorbic acid)",
+      "before": "[]",
+      "after": "[\"new-l-ascorbic-acid\"]"
+    },
+    {
+      "group_id": "2421",
+      "name": "Vitamin E (alpha tocopherol)",
+      "before": "[]",
+      "after": "[\"new-alpha-tocopherol\"]"
+    },
+    {
+      "group_id": "3428",
+      "name": "Vitamin C",
+      "before": "[]",
+      "after": "[\"new-l-ascorbic-acid\"]"
+    },
+    {
       "group_id": "6680",
       "name": "10-Hydroxy-2-Decanoic Acid",
       "before": "[]",
@@ -77,54 +135,12 @@
       "name": "10-Hydroxy-2-Decanoic Acid",
       "before": "[]",
       "after": "[\"new-10-hda\"]"
-    },
-    {
-      "group_id": "438",
-      "name": "Resveratrol",
-      "before": "[]",
-      "after": "[\"new-resveratrol\"]"
-    },
-    {
-      "group_id": "2377",
-      "name": "Curcumin",
-      "before": "[]",
-      "after": "[\"new-curcumin-cdc27\"]"
-    },
-    {
-      "group_id": "5626",
-      "name": "Curcumin",
-      "before": "[]",
-      "after": "[\"new-curcumin-cdc27\"]"
-    },
-    {
-      "group_id": "48",
-      "name": "Turmeric",
-      "before": "[]",
-      "after": "[\"new-curcumin-cdc27\"]"
-    },
-    {
-      "group_id": "50",
-      "name": "Vitamin E",
-      "before": "[]",
-      "after": "[\"new-alpha-tocopherol\"]"
-    },
-    {
-      "group_id": "2421",
-      "name": "Vitamin E (alpha tocopherol)",
-      "before": "[]",
-      "after": "[\"new-alpha-tocopherol\"]"
-    },
-    {
-      "group_id": "8775",
-      "name": "Diclofenac",
-      "before": "[]",
-      "after": "[\"new-diclofenac\"]"
     }
   ],
-  "name_crossrefs_added": 20,
+  "name_crossrefs_added": 23,
   "old_name_crossrefs_retained": 6800,
-  "current_name_crossrefs": 6821,
-  "current_summary_sha256": "ed77002df598c407124c4c34af0efb22c542c7c462f6e9d95adbbe3e2db0981a",
+  "current_name_crossrefs": 6823,
+  "current_summary_sha256": "cddd916b57f8c8234f47b1324a8207f87afa1c9f667a90d568e801efc99897a0",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -174,13 +190,52 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "baseline_commit": "313f1207170482439314d52f25dd3c95615e96da",
-    "prior_appraisals": 212,
-    "current_appraisals": 216,
-    "changed_output_tables": [],
-    "changed_appraisal_group_rows": [],
-    "added_name_crossrefs": [],
-    "name_crossrefs_added": 0,
+    "baseline_commit": "d88488855307c35ec9230853b77edfaf8e482800",
+    "prior_appraisals": 216,
+    "current_appraisals": 219,
+    "changed_output_tables": [
+      "groups.tsv",
+      "name-crossrefs.tsv"
+    ],
+    "changed_appraisal_group_rows": [
+      {
+        "group_id": "10",
+        "name": "Vitamin C (ascorbic acid)",
+        "before": "[]",
+        "after": "[\"new-l-ascorbic-acid\"]"
+      },
+      {
+        "group_id": "3428",
+        "name": "Vitamin C",
+        "before": "[]",
+        "after": "[\"new-l-ascorbic-acid\"]"
+      }
+    ],
+    "added_name_crossrefs": [
+      {
+        "group_id": "10",
+        "normalized_alias": "l ascorbic acid",
+        "source_alias_cell_ids": "[\"dsld:10:synonym:8\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-l-ascorbic-acid",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "L-ascorbic acid",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
+      },
+      {
+        "group_id": "3428",
+        "normalized_alias": "l ascorbic acid",
+        "source_alias_cell_ids": "[\"dsld:3428:synonym:18\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-l-ascorbic-acid",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "L-ascorbic acid",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
+      }
+    ],
+    "name_crossrefs_added": 2,
     "new_manual_reading_or_efficacy_credit": 0
   },
   "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
@@ -2466,10 +2521,10 @@
     }
   },
   "prior_parent_reconciliation": {
-    "commit": "313f1207170482439314d52f25dd3c95615e96da",
-    "path": "workflow/track2-drug-census/dsld-ingredients/parent-reconciliation.json",
-    "sha256": "da87d80fae0dd16533bea3c95711145e12cf32156b7e0f8592810287d74bf8c2",
-    "appraisals": 212
+    "commit": "d88488855307c35ec9230853b77edfaf8e482800",
+    "repo_relative": "workflow/track2-drug-census/dsld-ingredients/parent-reconciliation.json",
+    "sha256": "a3a3302e0ebe8895db5df5e876a9116b5a7437ba6ac0c24662eda5c318559cbc",
+    "appraisals": 216
   },
   "current_delta_from181": {
     "changed_appraisal_group_rows": [

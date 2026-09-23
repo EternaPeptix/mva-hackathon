@@ -86,4 +86,4 @@ This source collection covers research probes, not all purchasable compounds,
 food constituents, industrial chemicals or every medicine worldwide. Those
 remaining spaces and the unread literature require further work.
 
-The current replay against **216 assessments** preserves all four SGC output tables and **nine labels with curated-appraisal name candidates**. The CENP-E/Aurora additions and source refinements add no probe-inventory matches or efficacy credit.
+The current replay against **219 assessments** preserves all four SGC output tables and **nine labels with curated-appraisal name candidates**. The three common-compound additions add no probe-inventory matches or efficacy credit.

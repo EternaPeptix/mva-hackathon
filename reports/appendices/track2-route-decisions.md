@@ -47,7 +47,20 @@ a compound-heterozygous pair.
 
 The [food-name review](../../workflow/track2-drug-census/food-substances/common-abstract-findings.md) retains 212 available abstracts across 213 source IDs. [Batch15](../../workflow/track2-drug-census/batch15-revalidation-findings.md) adds the final 532 saved strings: **3,598 accepted revalidations, 5,759 combined outer source/ID records and zero pending in the original selection**. This closes that queue, not the broader search or primary-source follow-up. The earlier 2,161 annotations were not independently re-audited here. Root checked 16 source/annotation pairs in the final batch; versions are not independent studies and the 143 initially empty fields retain separate recovery statuses.
 
-The ledger contains **216 appraisals**. The [CENP-E/Aurora comparison](../../workflow/track2-drug-census/cenpe-feedback-qualification.md) adds centrinone, MLN8054, TCS7010 and the separately tested alisertib null, while refining four existing intervention roles. MLN8054/TCS7010 improve restricted chromosome-congression measurements in non-transformed RPE-1 cells; BUBR1 restoration and faithful daughter-cell yield remain unmeasured. A caption identity conflict does not transfer the MLN8054 result to alisertib. The published paper is qualified separately from its unverified preprint version. Niacin/apitegromab remain provisional.
+The ledger contains **219 appraisals**. [Urolithin A](../../workflow/track2-drug-census/urolithin-human-qualification.md) adds randomized human muscle-function signals alongside primary-endpoint nulls. [Putrescine dihydrochloride](../../workflow/track2-drug-census/putrescine-reproduction-qualification.md) adds mouse reproductive outcomes, and [L-ascorbic acid](../../workflow/track2-drug-census/ascorbate-oocyte-qualification.md) adds a distinct chromosome-protection assessment from an already reviewed study. These are useful comparators with different endpoints; none demonstrates BUBR1 restoration or MVA benefit. Niacin/apitegromab remain provisional, and all 216 previous assessment objects are preserved.
+
+## Common-compound functional comparisons
+
+The broader search has produced measured benefits worth testing against the nominees. Endpoint type determines the comparison: human muscle function, reproductive output and chromosome protection cannot be combined into one efficacy score.
+
+| Material | Measured benefit | Competitive decision and weakness |
+|---|---|---|
+| [Urolithin A](../../workflow/track2-drug-census/urolithin-human-qualification.md) | Randomized human fatigue-resistance and hamstring-torque secondary benefits. | Retain as an exploratory muscle-function competitor. Primary outcomes were null; the older-adult endurance advantage was not significant at four months. No BUBR1/MVA result, pediatric evidence or demonstrated superiority. |
+| [Putrescine dihydrochloride](../../workflow/track2-drug-census/putrescine-reproduction-qualification.md) | Less embryo resorption in two mouse strains and more blastocyst cells. | Retain as a reproductive-function reserve. Aggregate live pups increased, but litter-rate and litter-size comparisons were nonsignificant; males were co-exposed and embryo analyses did not account for maternal clustering. The separate 2013 aneuploidy source remains abstract-only. |
+| [L-ascorbic acid](../../workflow/track2-drug-census/ascorbate-oocyte-qualification.md) | 500 µM during maturation increased normal 20-chromosome outcomes from 60.0% to 84.6% and reduced PSSC from 26.0% to 2.6% in Sod1-deficient oocytes. | Retain as a distinct chromosome-protection comparator, reusing the NAC source. No treatment-induced BUBR1 assay or downstream developmental outcome; the maturation denominator remains unclear. Do not transfer to ascorbate 2-phosphate or oral products. |
+
+The three assessments preserve every previous decision object. They add no original-queue or independent-study count and do not establish retail availability or preparation equivalence. CoQ10 and spermidine are undergoing separate primary-source review; they receive no efficacy rank here.
+
 
 ## Elected hypotheses and within-pathway references
 

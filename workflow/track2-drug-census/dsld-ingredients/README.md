@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 216
+  --out /path/dsld-replay --expected-appraisals 219
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -126,4 +126,6 @@ The preceding **207-appraisal replay** preserves all eight output tables: **6,82
 
 The preceding **212-appraisal replay** adds one normalized-name relation from existing Geranylgeraniol group 9833 to the source-labelled trans-geranylgeraniol assessment: **6,821 cross-references, 92 curated relations and 78 appraisal-linked groups**. Only its appraisal-name field and the cross-reference table change; all source fields and six other output tables remain unchanged. The source’s incomplete double-bond geometry and unshown high-dose result remain unresolved. Database synonymy does not establish an equivalent supplement, exposure, current availability or efficacy.
 
-The current **216-appraisal replay** preserves all eight output tables, including **6,821 name cross-references, 92 curated relations and 78 appraisal-linked groups**. The CENP-E/Aurora additions and source refinements introduce no new ingredient-name relation or efficacy credit.
+The preceding **216-appraisal replay** preserves all eight output tables, including **6,821 name cross-references, 92 curated relations and 78 appraisal-linked groups**. The CENP-E/Aurora additions and source refinements introduce no new ingredient-name relation or efficacy credit.
+
+The current **219-appraisal replay** adds two L-ascorbic-acid synonym relations in existing Vitamin C groups 10 and 3428: **6,823 name cross-references, 94 curated relations and 80 appraisal-linked groups**. Only the two appraisal-name cells and their relations change; all source fields and six other output tables remain unchanged. Shared synonyms do not establish chemical preparation, retail-product or efficacy equivalence.
