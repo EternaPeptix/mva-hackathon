@@ -1,0 +1,620 @@
+{
+  "source": {
+    "pmid": "29636350",
+    "pmcid": "PMC6030430",
+    "doi": "10.1158/1940-6207.CAPR-17-0308",
+    "publication_year": 2018,
+    "title": "Calcium-Induced Differentiation of Human Colon Adenomas in Colonoid Culture: Calcium Alone versus Calcium with Additional Trace Elements"
+  },
+  "date": "2026-09-22",
+  "new_abstract_reading_credit": 0,
+  "reading_depth": {
+    "complete_main_methods_results_discussion": true,
+    "main_tables": [
+      "1A",
+      "1B"
+    ],
+    "main_figures_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "supplement_figures_visually_inspected": [
+      "S1",
+      "S2",
+      "S3A",
+      "S3B"
+    ],
+    "supplement_tables_read": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "supplement_tables_visually_checked": [
+      "S1",
+      "S2"
+    ],
+    "complete_supplement_methods": true,
+    "raw_data_reanalysed": false,
+    "limits": [
+      "Tables S3-S4 read as complete PDF-extracted text, not all page images",
+      "No original raw microscopy, proteomics or sequencing reanalysis"
+    ]
+  },
+  "identity": {
+    "name": "Aquamin Soluble",
+    "class": "Lithothamnion-derived calcium/magnesium/trace-mineral mixture",
+    "source_identity": "Supplement Table 1 source:2017 Advanced Laboratories test certificate for Aquamin Soluble, client Marigot",
+    "calcium_micrograms_per_g": 117000,
+    "magnesium_micrograms_per_g": 10210,
+    "calcium_mass_percent": 11.7,
+    "magnesium_mass_percent": 1.021,
+    "manufacturer_gift": "Marigot Limited",
+    "current_grade_verified": "Aquamin Soluble; not Aquamin F or Aquamin Mg",
+    "calcium_comparator_salt": "not stated",
+    "calcium_comparator_supplier": "not stated",
+    "stock_vehicle_and_final_pH": "not stated",
+    "study_lot_to_current_product_equivalence": "not established"
+  },
+  "models": {
+    "adenoma_donors": 3,
+    "adenoma_donor_ids": [
+      "584",
+      "590",
+      "282"
+    ],
+    "normal_colon_donors": 3,
+    "paired_normal_adenoma_samples": false,
+    "adenoma_duration_days": 30,
+    "normal_duration_days": 14,
+    "adenoma_background": "Matrigel 8 mg/mL; KGM Gold serum-free, EGF/pituitary extract; Y27632 10 micromolar first day after plating",
+    "normal_background": "L-WRN diluted 1:4 with KGM Gold, 2.5%serum, 0.25 mM calcium"
+  },
+  "nominal_exposure_arms": [
+    {
+      "model": "adenoma",
+      "agent": "calcium alone",
+      "calcium_mM": 0.15,
+      "role": "control"
+    },
+    {
+      "model": "adenoma",
+      "agent": "calcium alone",
+      "calcium_mM": 1.5
+    },
+    {
+      "model": "adenoma",
+      "agent": "Aquamin Soluble",
+      "calcium_mM": 0.15
+    },
+    {
+      "model": "adenoma",
+      "agent": "Aquamin Soluble",
+      "calcium_mM": 1.5
+    },
+    {
+      "model": "adenoma 584 only, FigureS1",
+      "agents": [
+        "calcium alone",
+        "Aquamin Soluble"
+      ],
+      "calcium_mM": [
+        3.0,
+        4.5
+      ]
+    },
+    {
+      "model": "normal colon",
+      "agent": "calcium alone",
+      "calcium_mM": 0.25,
+      "role": "control"
+    },
+    {
+      "model": "normal colon",
+      "agents": [
+        "calcium alone",
+        "Aquamin Soluble"
+      ],
+      "calcium_mM": 1.5
+    }
+  ],
+  "dose_limit": "Nominal labels preserved. Basal-calcium offset, measured free calcium and pH/carrier matching not specified; no invented mass dose or adjusted final concentration.",
+  "endpoints": {
+    "morphology": {
+      "low_aquamin_differentiated_percent_mean_sd": [
+        13,
+        7
+      ],
+      "control_mean_sd": [
+        2,
+        7
+      ],
+      "significance": "p<0.05 vs control as reported",
+      "high_calcium_and_aquamin": "larger lumens, columnar cells, fewer tiny buds"
+    },
+    "junctions": {
+      "TEM_comparison": "calcium 1.5 vs 0.15 mM, not Aquamin directly",
+      "findings": "desmosomes/tight junctions at high calcium",
+      "functional_barrier_assay": false
+    },
+    "ki67": {
+      "scoring": "3+ intensity nuclei used for comparison",
+      "percent_mean_sd": {
+        "control": [
+          85,
+          9
+        ],
+        "low_aquamin": [
+          64,
+          21
+        ],
+        "high_calcium": [
+          50,
+          15
+        ],
+        "high_aquamin": [
+          41,
+          21
+        ]
+      },
+      "significance": "Figure 2B stars both high arms; low Aquamin has no star",
+      "n": "15-25 crypts/condition, not independent donors"
+    },
+    "differentiation_proteins": {
+      "CK20": "significant staining increase all three intervention arms",
+      "occludin": "significant staining increase all three intervention arms",
+      "E_cadherin": "membrane relocalization; total positivity significant only high arms"
+    },
+    "NF2": {
+      "proteomics_fold_change_mean_sd": {
+        "high_calcium": [
+          1.5,
+          0.1
+        ],
+        "low_aquamin": [
+          1.9,
+          0.3
+        ],
+        "high_aquamin": [
+          2.4,
+          0.7
+        ]
+      },
+      "n_donors": 3,
+      "proteomics_significance": "each versus control; Aquamin versus high calcium differences not significant",
+      "IHC_significance": "both Aquamin arms greater than high calcium/control",
+      "mediation_test": false
+    },
+    "growth": {
+      "through_1_5mM": "no area-based growth-index effect",
+      "higher_doses": "donor 584 only, Aquamin 3.0/4.5 mM lower growth index; S1 stars p<0.01, exact contrast not explicit",
+      "measure": "surface area day 8 to 13, not viable-cell counts"
+    },
+    "withdrawal": {
+      "prior_treatment_days": 30,
+      "switched_to": "calcium 0.15 mM",
+      "reversion_days": 6,
+      "result": "morphological reversion; main reports all 3 specimens"
+    },
+    "caspase3": {
+      "adenoma": "low overall, but significant increases both high arms",
+      "low_aquamin": "rare positive in S3A despite main Figure 3 no-detection wording; do not infer zero",
+      "normal": "few positives in high arms; control described negative",
+      "systemic_safety": "not tested"
+    },
+    "proteomics_other": "Down-regulated energy/metabolic, junction/mucin proteins do not establish functional benefit or harm; pathway labels are not measured senescence/apoptosis outcomes."
+  },
+  "bub1b": {
+    "connection": "listed baseline mutation in donor 590 among many other alterations",
+    "allele_zygosity_and_function": "not specified in this paper",
+    "BUBR1_treatment_assay_reported": false,
+    "response_in_significant_tables": "not present in Table 1, S3 or S4",
+    "gene_mediation_or_variant_rescue": false,
+    "limit": "No inference that all raw proteomics lack BUBR1 detection; unreported raw data not inspected."
+  },
+  "statistics": {
+    "main_tests": "ANOVA then two-tailed unpaired t test; nominal p<0.05; SD",
+    "growth_S1": "p<0.01 star legend",
+    "proteomics": "TMT/Orbitrap; edgeR named; \u22642% FDR detection filter; 1.8-fold change threshold; Reactome enrichment",
+    "limits": [
+      "Nested field/crypt counts not independent biological sample sizes",
+      "No reported hierarchical donor model or broad endpoint multiplicity correction",
+      "Proteomic identification FDR is not automatically differential-effect FDR"
+    ]
+  },
+  "functional_boundaries": [
+    "No TEER/permeability/cohesion assay in this source",
+    "No chromosome-segregation/aneuploidy rescue",
+    "No muscle function",
+    "No clinical polyp/cancer/survival outcome",
+    "No long-term normal-tissue safety",
+    "No causal contribution established for individual trace minerals"
+  ],
+  "comparison": "Preserve human-tissue differentiation positive; niacin restoration and apitegromab MVA compensation also remain unproven. Different tissues/endpoints preclude numerical comparative efficacy.",
+  "decision": "new-aquamin with calcium comparator retained inside appraisal; no separate generic-calcium/trace-mineral nominations",
+  "external_source_manifest": {
+    "date": "2026-09-22",
+    "pmid": "29636350",
+    "new_abstract_reading_credit": 0,
+    "read_depth": {
+      "complete_main_methods_results_discussion": true,
+      "main_tables": [
+        "1A",
+        "1B"
+      ],
+      "main_figures_visually_inspected": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "supplement_figures_visually_inspected": [
+        "S1",
+        "S2",
+        "S3A",
+        "S3B"
+      ],
+      "supplement_tables_read": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "supplement_tables_visually_checked": [
+        "S1",
+        "S2"
+      ],
+      "complete_supplement_methods": true,
+      "raw_data_reanalysed": false,
+      "limits": [
+        "Tables S3-S4 read as complete PDF-extracted text, not all page images",
+        "No original raw microscopy, proteomics or sequencing reanalysis"
+      ]
+    },
+    "retrieval_limit": "Standard PMC and supplement links returned challenge HTML; Europe PMC full-text XML returned 500 and its supplement API returned a non-OA error. NCBI BioC, normal PMC PDF-query HTML and official AACR Figshare supplied lawful sources. No challenges were bypassed.",
+    "files": [
+      {
+        "file": "NIHMS959591-supplement-1.jpg",
+        "sha256": "04c28feef321ab7c5b3d059ef969d09452575c629d6fc2021659a8761fe21746",
+        "bytes": 21411,
+        "role": "Challenge HTML retrieval; not a figure/PDF and not read as article content"
+      },
+      {
+        "file": "NIHMS959591-supplement-2.jpg",
+        "sha256": "ee82bd06cdeddb6984f77b687229895bb7256bd8fea4fc38046cd589740dafa3",
+        "bytes": 21412,
+        "role": "Challenge HTML retrieval; not a figure/PDF and not read as article content"
+      },
+      {
+        "file": "NIHMS959591-supplement-3.jpg",
+        "sha256": "b9ac701646746447014eef65b3ae067f7628f14ed6cd301ce9927beccd7f2f89",
+        "bytes": 21411,
+        "role": "Challenge HTML retrieval; not a figure/PDF and not read as article content"
+      },
+      {
+        "file": "NIHMS959591-supplement-4.jpg",
+        "sha256": "2284069cab8bfa56411c4c98a75ef9ee1a5306e1925fe207ce4a999fa9c8d932",
+        "bytes": 21411,
+        "role": "Challenge HTML retrieval; not a figure/PDF and not read as article content"
+      },
+      {
+        "file": "NIHMS959591-supplement-5.pdf",
+        "sha256": "5e8583fa9adc420acc711dd9757781753d3a83eeb7dab2e5f2c395c4b634b746",
+        "bytes": 21411,
+        "role": "Challenge HTML retrieval; not a figure/PDF and not read as article content"
+      },
+      {
+        "file": "NIHMS959591-supplement-6.pdf",
+        "sha256": "66570d617f1dc49724a19214631d2079dccc096f1764a71302a60a491408ae97",
+        "bytes": 21411,
+        "role": "Challenge HTML retrieval; not a figure/PDF and not read as article content"
+      },
+      {
+        "file": "NIHMS959591-supplement-7.pdf",
+        "sha256": "2afd247f78fa384f171e3964a36842bc89c6883b4310646c8cb9d0dfb775ab50",
+        "bytes": 21412,
+        "role": "Challenge HTML retrieval; not a figure/PDF and not read as article content"
+      },
+      {
+        "file": "NIHMS959591-supplement-8.pdf",
+        "sha256": "8abc83fdff8d045566d27c7e32fc4dbdb59577bbac0f0546d18b093cea24de29",
+        "bytes": 21408,
+        "role": "Challenge HTML retrieval; not a figure/PDF and not read as article content"
+      },
+      {
+        "file": "appraisal.md",
+        "sha256": "51111a94a6f3e3e51e184c8a1027d15e91ac989239ac3e04559bbfa97c7acac7",
+        "bytes": 12744,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "decision-alias-check.json",
+        "sha256": "0a8eb5ba0ef99e6195596565176dde90cf189682883830062d656650055b4eab",
+        "bytes": 633,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "decision-proposal.json",
+        "sha256": "87699d0854dc7e12331a5463211cea44a02cfe1aa72ad6971ee3906915441b78",
+        "bytes": 2589,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "evidence.json",
+        "sha256": "4be4a74fd8b2cb6f3aaeea385d015c01c1ef01bb4bba36aee5552de93c01503d",
+        "bytes": 7908,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "figshare-search.json",
+        "sha256": "7fd1fb651232c4c536ec9f5cb0298762cfc6cd1a0ca161f5355fd3c379dbdb7e",
+        "bytes": 11088,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://api.figshare.com/v2/articles?resource_doi=10.1158%2F1940-6207.CAPR-17-0308"
+      },
+      {
+        "file": "main-bioc.xml",
+        "sha256": "39588772d172c1ad391d2521f6e0ec09df93c31cf43a531a358a65be56b838d2",
+        "bytes": 110084,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC6030430/unicode"
+      },
+      {
+        "file": "main-passages.txt",
+        "sha256": "732374e8143ddc8b70aa8c5f046428a643eb3583d28e3c3adc9f7a89ac489da8",
+        "bytes": 87089,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "main-pdfview.html",
+        "sha256": "9a5132a0afa3f8053e454bac194bc096924d0aa675883e00706c07f0080c9faa",
+        "bytes": 238601,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6030430/?pdf=1"
+      },
+      {
+        "file": "main.html",
+        "sha256": "fbba6c671e1ff66fd89c30f578808db71ff2ec269b56743b038cfd6273c9c53d",
+        "bytes": 21379,
+        "role": "Challenge HTML retrieval; not a figure/PDF and not read as article content"
+      },
+      {
+        "file": "manufacturer-pages.web.json",
+        "sha256": "9f026d1c8febeaecf769a2b08977cc8cd74c0031d95352952949abfba5367bf2",
+        "bytes": 10874,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": [
+          "https://aquamin.com/products/marine-minerals-aquamin-soluble/",
+          "https://aquamin.com/products/marine-minerals-aquamin-f/",
+          "https://aquamin.com/faq-marine-minerals/"
+        ]
+      },
+      {
+        "file": "metadata.json",
+        "sha256": "544def60b6c131f45f67c426fe1d7519a99246ca190df2437026bc4132450323",
+        "bytes": 16413,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29636350%20AND%20SRC:MED&format=json&resultType=core"
+      },
+      {
+        "file": "nihms959591f1.jpg",
+        "sha256": "052ddf9486a756357a364e0504b18fc657ce927f41cedf1f2696151c71d6b736",
+        "bytes": 147210,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f809/6030430/888ab2938a15/nihms959591f1.jpg"
+      },
+      {
+        "file": "nihms959591f2.jpg",
+        "sha256": "54721255f61e55e6613756ce0dbb7314133bc5101f5ea65b58de5ccf18b03736",
+        "bytes": 94171,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f809/6030430/09c2ff897658/nihms959591f2.jpg"
+      },
+      {
+        "file": "nihms959591f3.jpg",
+        "sha256": "816b1529ad2d39eb10cd3b6ee28a35ba1cddcdbccb8e29b35b4d23501d5877d8",
+        "bytes": 129016,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f809/6030430/1b68a5078413/nihms959591f3.jpg"
+      },
+      {
+        "file": "nihms959591f4.jpg",
+        "sha256": "3fa1bfe490f5028d1cc85724af5a85e63d6aea23f1097adabe4e1bd29f2882ec",
+        "bytes": 126263,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f809/6030430/f34e902beebc/nihms959591f4.jpg"
+      },
+      {
+        "file": "nihms959591f5.jpg",
+        "sha256": "3379ff8640d3ecf3fe46280bde83a22aaa62369c4baf3584241bc5de48f38028",
+        "bytes": 168335,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f809/6030430/0e8ecba8f8df/nihms959591f5.jpg"
+      },
+      {
+        "file": "publisher-supplements/19406207capr170308-sup-189952_3_supp_4589670_p4mdz2.jpeg",
+        "sha256": "ed45e3c827067a4fd9ca44a309c95acce7b18d918c523fa302447e57b23f8043",
+        "bytes": 3856528,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://ndownloader.figshare.com/files/39996635"
+      },
+      {
+        "file": "publisher-supplements/19406207capr170308-sup-189952_3_supp_4589671_p4mdz2.jpeg",
+        "sha256": "8201f8df553880c8872c35eeafd434bbf43585432efe3fea0287c0052451cc11",
+        "bytes": 682436,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://ndownloader.figshare.com/files/39996641"
+      },
+      {
+        "file": "publisher-supplements/19406207capr170308-sup-189952_3_supp_4589672_p4mdz2.jpeg",
+        "sha256": "ff08ad3ab2d9c6e7ffeb929eaff57af65c70a9d5b1ba5a0043dacc8d8df5db1e",
+        "bytes": 990699,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://ndownloader.figshare.com/files/39996638"
+      },
+      {
+        "file": "publisher-supplements/19406207capr170308-sup-189952_3_supp_4589673_p4mdz2.jpeg",
+        "sha256": "dfd614556906086ac95046392465a3860f9c7a9d0b068b2bc68417c9c442c4a6",
+        "bytes": 5074556,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://ndownloader.figshare.com/files/39996632"
+      },
+      {
+        "file": "publisher-supplements/19406207capr170308-sup-189952_3_supp_4591196_p6ftjq.pdf",
+        "sha256": "3df41237e28144d6c330ffeda184028528ce5dffbfa0dcd565d5a169065f5474",
+        "bytes": 6080283,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://ndownloader.figshare.com/files/39996620"
+      },
+      {
+        "file": "publisher-supplements/19406207capr170308-sup-189952_3_supp_4591196_p6ftjq.txt",
+        "sha256": "2ea8d3f4b47a3fefcf3f544469f22c1a48351cb867195a5e6d5abf578bd666b4",
+        "bytes": 3578,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "publisher-supplements/19406207capr170308-sup-189952_3_supp_4591197_p438zj.pdf",
+        "sha256": "1fcebcccdc9a9b2d7c691271d19d342486fb868dbbf9a675c0f8e73d6a7ef59e",
+        "bytes": 64094,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://ndownloader.figshare.com/files/39996629"
+      },
+      {
+        "file": "publisher-supplements/19406207capr170308-sup-189952_3_supp_4591197_p438zj.txt",
+        "sha256": "d41b448f139418d066f9eda169dc9eaa67d11835d5136f12411852a82f4b7eef",
+        "bytes": 8403,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "publisher-supplements/19406207capr170308-sup-189952_3_supp_4591198_p4r8zj.pdf",
+        "sha256": "a5841861241464d3a1e1532c2b8225f899f9c6f9ab5d05edd5f1b959e49fc3c9",
+        "bytes": 65156,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://ndownloader.figshare.com/files/39996626"
+      },
+      {
+        "file": "publisher-supplements/19406207capr170308-sup-189952_3_supp_4591198_p4r8zj.txt",
+        "sha256": "3e59fb99df919e41242a58e657820f61a53a0a6e1e68e32e99945e9d9091e6b0",
+        "bytes": 15314,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "publisher-supplements/19406207capr170308-sup-189952_3_supp_4592636_p4rhrg.pdf",
+        "sha256": "2d17009c076f0c8ee7848b1a863162130a69647cace1cd6e2953cb4c039e6566",
+        "bytes": 57868,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://ndownloader.figshare.com/files/39996617"
+      },
+      {
+        "file": "publisher-supplements/19406207capr170308-sup-189952_3_supp_4592636_p4rhrg.txt",
+        "sha256": "8e1e21b5ecc539a7224998b0b25cf2154d994ac6055958ca01e6261715f2bade",
+        "bytes": 6754,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "publisher-supplements/22533353-metadata.json",
+        "sha256": "1058cb5b20f5e3e219b26d09cfd3d1a6ed30d996e77fa5009b992a4dd4092948",
+        "bytes": 8589,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://api.figshare.com/v2/articles/22533353"
+      },
+      {
+        "file": "publisher-supplements/22533356-metadata.json",
+        "sha256": "33a22f398c114154f3d3acf37deff70fd36e7be36bbacd9c9ca25e8b55588952",
+        "bytes": 8435,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://api.figshare.com/v2/articles/22533356"
+      },
+      {
+        "file": "publisher-supplements/22533362-metadata.json",
+        "sha256": "4448b9b86b8ae98e0e93470f6ecda32c83b9d93ca57e8a727694f42025e591f4",
+        "bytes": 8423,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://api.figshare.com/v2/articles/22533362"
+      },
+      {
+        "file": "publisher-supplements/22533365-metadata.json",
+        "sha256": "ce8ef7ef5b8d1abb4e9e3ea31659dfdb447282de3022418f12b5051fccd13125",
+        "bytes": 8389,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://api.figshare.com/v2/articles/22533365"
+      },
+      {
+        "file": "publisher-supplements/22533368-metadata.json",
+        "sha256": "424822cf08feefd61ef60af9dfdfe3b91f220f23d2580c43465673fd6aa30c74",
+        "bytes": 8529,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://api.figshare.com/v2/articles/22533368"
+      },
+      {
+        "file": "publisher-supplements/22533371-metadata.json",
+        "sha256": "4e1aa34ca5e8c75e77af350aabb872c2cf41d74b3e197326a8458bee39b4e8e5",
+        "bytes": 8558,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://api.figshare.com/v2/articles/22533371"
+      },
+      {
+        "file": "publisher-supplements/22533374-metadata.json",
+        "sha256": "8d548a7f059a78d7d6eff9abd1ad31c1e904a7cc5377f31687eecb861b5c1a29",
+        "bytes": 8545,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://api.figshare.com/v2/articles/22533374"
+      },
+      {
+        "file": "publisher-supplements/22533377-metadata.json",
+        "sha256": "6dec29b8ed1a87fdc482cd6730693cc03992e15b17e4992791ed399b655654c0",
+        "bytes": 9348,
+        "role": "Retrieved primary/manufacturer source or metadata",
+        "url": "https://api.figshare.com/v2/articles/22533377"
+      },
+      {
+        "file": "publisher-supplements/tables12-page-1.png",
+        "sha256": "55d00bff34b94a487f451c5d13f7b20c1aea20ff4f60aaa8276d77c6e611fa66",
+        "bytes": 190216,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "publisher-supplements/tables12-page-2.png",
+        "sha256": "680de53f52413f95cca0c5ef6b6c6a93e0e1f62d44083f7083522d4b86186d00",
+        "bytes": 1134384,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "retrieval-assets.json",
+        "sha256": "7652778f1892cdc7a98f174751d70cf6eb0477f3877c8642a71113dcae620185",
+        "bytes": 722,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "retrieval-figures-supplements.json",
+        "sha256": "29bb7815bd6aa057004d8621df40a9dcf2575cce564560ed69867b3f9afcf569",
+        "bytes": 4642,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "retrieval-initial.json",
+        "sha256": "225aa1aa0a132146b830ab1fff7dca9a8fa22b98078c01ada422ca32d1da72f0",
+        "bytes": 530,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "retrieval-publisher-supplements.json",
+        "sha256": "be4bc7fb57ffd766d988b2dc6cb38708e7bf43a413654b4f60c5fabe3cdbf128",
+        "bytes": 5527,
+        "role": "Derived assessment or extraction"
+      },
+      {
+        "file": "supplementary.zip",
+        "sha256": "b7e36435c43155da06d0c9dcbef93b9a837af6f3517169de32745bab43fbbc42",
+        "bytes": 296,
+        "role": "Europe PMC not-open-access error XML; not a ZIP/supplement"
+      }
+    ]
+  },
+  "root_independent_check": "Read complete source donor/culture paragraph, supplement mineral-analysis table, and visually inspected Figure2 and antibody TableS2. Confirmed BUB1B donor context and absent significance star on low-Aquamin Ki67. This is a targeted check, not a second complete-paper review.",
+  "integration": "Original assessment and metadata integrated by root; source-reader working files and raw documents remain external."
+}

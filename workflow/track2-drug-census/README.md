@@ -6,12 +6,11 @@ publication-hold status.
 [PR1 reuse](pr1-reuse.md) records which work is already incorporated, adds
 bounded UMK57 control findings, and preserves the later source corrections.
 
-The latest qualifications preserve [transient injury protection](mapk-injury-qualification.md)
-and distinguish it from checkpoint rescue. [NPD11033 and SirReal2](sirt2-substrate-qualification.md)
-add substrate-specific SIRT2 evidence, including a direct BUBR1-protein decrease
-under NPD11033. These research compounds do not establish MVA benefit.
-The [fourth 128-record revalidation](batch04-revalidation-findings.md) leaves
-2,900 selected strings pending; the search remains unfinished.
+The latest qualifications retain [Aquamin colonoid differentiation](aquamin-qualification.md)
+and [four distinct KIF18A compounds](kif18a-compound-qualification.md), including
+reported mouse tumor regression. These are different endpoints from MVA protein
+restoration or useful muscle output. The [fifth 128-record revalidation](batch05-revalidation-findings.md)
+leaves 2,772 selected strings pending; the search remains unfinished.
 
 **Catalog snapshot: 21 September 2026; corrected text screen: 22 September 2026,
 America/Phoenix (retrieval timestamps are UTC).**
@@ -436,8 +435,8 @@ all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
 claim full-text review of all ranked records. The current decision ledger contains
-133 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 133 approved medicines.
+138 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 138 approved medicines.
 
 The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.
 
@@ -487,24 +486,23 @@ combination-specific; neither displaces the niacin/apitegromab comparison.
 
 The [quality follow-up](review-quality-followup.md) rejects an unreliable
 3,598-record draft's claim of faithful completion. The initial 186 literal
-revalidations and four subsequent 128-record batches now total **698 strings**,
-bringing the outer ledgers to **2,859 source/ID records** and leaving **2,900
+revalidations and five subsequent 128-record batches now total **826 strings**,
+bringing the outer ledgers to **2,987 source/ID records** and leaving **2,772
 selected strings pending**. The preceding 2,161 annotations have not been
 independently re-audited here. Four initial strings are non-abstract items.
-The latest batch separately labels 124 abstracts, one editorial fragment,
-two commentaries and one preprint abstract. Original empty fields and later
-recovered bodies remain separately accounted for.
+The latest batch comprises 128 saved abstracts, including reviews and a case
+report; content labels do not count independent experiments. Original empty
+fields and recovered bodies remain separately accounted for.
 
 The [first 128](next128-revalidation-findings.md) flagged 52 source questions;
-the [second](batch02-revalidation-findings.md) flagged 49,
-[third](batch03-revalidation-findings.md) 31, and
-[fourth](batch04-revalidation-findings.md) 34. These are questions, not qualified
-medicines or independent experiments. Eight independent cross-reader checks in
-the latest batch required no substantive amendments; this is a targeted check,
-not an estimated annotation error rate. One linked retraction notice was read
-separately, in addition to the preceding batch's two; none adds abstract credit.
-Four errata linked in the latest batch remain pending. Earlier notice and
-annotation decisions are retained at their declared scope.
+the [second](batch02-revalidation-findings.md) 49,
+[third](batch03-revalidation-findings.md) 31,
+[fourth](batch04-revalidation-findings.md) 34, and
+[fifth](batch05-revalidation-findings.md) 27. These are questions, not qualified
+medicines. Eight independent cross-reader checks in the latest batch required
+no substantive amendments; this is a targeted check, not an estimated error
+rate. The latest batch retains one unread linked erratum and six preprint links.
+Earlier notice and annotation decisions are preserved at their declared scope.
 
 [UMK57](umk57-qualification.md) adds actual acute and post-division fidelity
 evidence with limited durability, bringing that stage to 109 appraisals.
@@ -549,10 +547,20 @@ responses. The 15,357-entity retrieval denominator is unchanged.
 
 The [MAPK injury](mapk-injury-qualification.md) and
 [SIRT2 substrate](sirt2-substrate-qualification.md) qualifications add five
-compound entries, bringing the current ledger to **133** while preserving all
+compound entries, bringing that stage of the ledger to **133** while preserving all
 128 preceding decision objects. FR180204/SP600125 injury protection, the
 SB203580 morphology/actin null, NPD11033 protein/ATP findings and SirReal2's
 separate ATP result retain their model and endpoint boundaries. All five lack
 an exact alias match in the saved clinical catalog; they are research-compound
 appraisals, not additions to the 15,357-entity retrieval denominator. No MVA
 efficacy or change of nominee is established.
+
+
+The [Aquamin](aquamin-qualification.md) and [KIF18A](kif18a-compound-qualification.md)
+qualifications add five entries, bringing the current ledger to **138**, with all
+133 preceding objects unchanged. Aquamin Soluble is one characterized mixture;
+its calcium comparator remains explicit without nominating each constituent.
+AM-0277, AM-1882, AM-5308 and AM-9022 retain separate compound-specific results.
+All five lack exact aliases in the saved clinical catalog, so the 15,357-entity
+retrieval denominator is unchanged. Neither source establishes MVA efficacy or
+changes the provisional research pair.

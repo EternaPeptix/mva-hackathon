@@ -274,6 +274,9 @@ def main():
     if (P/'outer-revalidation-batch04-review.json').exists():
         from verify_revalidation_batch04 import check as check_batch04
         check_batch04(root=P)  # Full source/log replay uses the external cache.
+    if (P/'outer-revalidation-batch05-review.json').exists():
+        from verify_revalidation_batch05 import check as check_batch05
+        check_batch05(root=P)  # Full source/log replay uses the external cache.
     if (P/'literature-v2/summary.json').exists():
         from verify_rescreen import check as check_rescreen
         check_rescreen()

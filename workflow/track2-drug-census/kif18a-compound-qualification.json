@@ -1,0 +1,233 @@
+{
+  "source": {
+    "record": "MED:38151625",
+    "pmcid": "PMC10824666",
+    "doi": "10.1038/s43018-023-00699-5",
+    "title": "Small-molecule inhibition of kinesin KIF18A reveals a mitotic vulnerability enriched in chromosomally unstable cancers",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10824666/"
+  },
+  "assessment": "Four distinct research compounds; retain measured cancer-cell and mouse tumor responses with model-specific normal-cell observations. BUBR1 restoration, faithful division and MVA muscle efficacy remain unestablished.",
+  "reading_depth": {
+    "root": "Main, complete Results, Discussion and main/extended figure legends read through primary Europe PMC XML.",
+    "second_reader": "Complete Methods, MathML endpoint definitions, ethics/conflicts and Figures3/5/6 legends audited independently.",
+    "original_figure_pixels_read": [],
+    "supplemental_workbooks_read": false,
+    "source_data_reanalysed": false,
+    "additional_abstract_credit": 0,
+    "limits": "Original figures not obtained through normal accessible routes. Numerical values are reported text/legend values, not independent image measurements."
+  },
+  "source_manifest": [
+    {
+      "file": "primary.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10824666/fullTextXML",
+      "bytes": 237608,
+      "sha256": "1bced468e58fd9f0eed4bff7ae5a195408f90b2e260af3d45e75ba98b0cfcef5"
+    }
+  ],
+  "compound_identity": [
+    {
+      "name": "AM-0277",
+      "role": "Distinct early cellular compound; no mouse efficacy assigned",
+      "manufacturer_listing_verified": false
+    },
+    {
+      "name": "AM-1882",
+      "role": "Distinct cellular/PRISM/IP mouse compound",
+      "manufacturer_listing_verified": false
+    },
+    {
+      "name": "AM-5308",
+      "role": "Distinct IP mouse compound",
+      "manufacturer_listing": "https://www.medchemexpress.com/am-5308.html",
+      "product": "HY-144894",
+      "cas": "2410796-89-1"
+    },
+    {
+      "name": "AM-9022",
+      "role": "Distinct oral mouse compound",
+      "manufacturer_listing": "https://www.medchemexpress.com/us/en/am-9022.html",
+      "product": "HY-162110",
+      "cas": "2446872-46-2"
+    }
+  ],
+  "identity_limits": "Current indexed manufacturer catalog identity only; direct opens403. No authenticated study-equivalent lot, stock or clinical approval claim. Do not equate separate stereoisomers or other KIF18A programs.",
+  "bubr1_endpoint": "OVCAR-3 AM-0277 mitotic time-course doublets/arrest-associated state, one experiment; no usable-protein abundance, half-life or actual-allele rescue result.",
+  "normal_tissue_limits": "Selected healthy marrow donors, fibroblast/epithelial/T-cell assays and24h sensory-neurosphere neurites. Limited mouse weight/blood-count observations. No constitutional BUB1B-deficient tissue or long-term pediatric safety. AM-5308/9022 marrow n=2 donors, AM-0277/1882 n=4. OVCAR-3 AM-1882/5308 blood-count subgroup n=6 per arm; platelet data unavailable.",
+  "tumor_endpoints": {
+    "regression_formula": "100 - 100 * treated final group-mean volume / treated initial group-mean volume",
+    "growth_inhibition_formula": "100 - 100 * change in treated group-mean volume / change in control group-mean volume",
+    "not_equivalent": "Neither is a clinical response probability. No measurable tumor is not proven eradication."
+  },
+  "model_limits": "Immunodeficient female athymic nude or CB.17 SCID xenografts; no established intact tumor surveillance. No sample-size calculation; Amgen studies unblinded; predominantly company-employed/shareholding authors.",
+  "comparison": "Retain a tumor-research route; no displacement of the provisional niacin/restoration or apitegromab/compensation comparison. Neither nominee demonstrates MVA efficacy.",
+  "existing_additional_source": "pubmed-supplement-review.md already qualifies a separate AM-9022 SCLC study; not re-read or credited as a new full-paper study here.",
+  "independent_methods_audit": {
+    "date": "2026-09-22",
+    "reader": "/root/revalidation_a64",
+    "pmid": "38151625",
+    "pmcid": "PMC10824666",
+    "primary_xml_sha256": "1bced468e58fd9f0eed4bff7ae5a195408f90b2e260af3d45e75ba98b0cfcef5",
+    "scope": "Complete Methods including display equations; ethics, authors, contributions/conflicts; full Fig3/5/6 legends and bounded Results sections5/7/8. No original figure image inspection, no whole-paper/supplement qualification.",
+    "methods_reads": [
+      {
+        "file": "methods-read-01.txt",
+        "sha256": "f8bb3da5b6697a747141d06836b5047c3e0b4c9d152ee040806ee1e4b2838dc6",
+        "characters": 6500,
+        "tool_output_chunk_id": "d0b2af",
+        "complete_output_observed": true,
+        "truncated": false
+      },
+      {
+        "file": "methods-read-02.txt",
+        "sha256": "1cea2a75d81abfddb0414cb1890a68ea8972cac8da18dee1771c8bac7dff8d02",
+        "characters": 6500,
+        "tool_output_chunk_id": "3f10d8",
+        "complete_output_observed": true,
+        "truncated": false
+      },
+      {
+        "file": "methods-read-03.txt",
+        "sha256": "e4be0ad2bc057a4e284193e8099f4bc55b3a71ce5b9264e3ee7357bf3a0e2e1b",
+        "characters": 6500,
+        "tool_output_chunk_id": "1d37ff",
+        "complete_output_observed": true,
+        "truncated": false
+      },
+      {
+        "file": "methods-read-04.txt",
+        "sha256": "4a771c2607629d5e6019511886e35f841c0858bf37c67b7eb685f6f10f3abe11",
+        "characters": 6500,
+        "tool_output_chunk_id": "adccc6",
+        "complete_output_observed": true,
+        "truncated": false
+      },
+      {
+        "file": "methods-read-05.txt",
+        "sha256": "840798e25c0299430971d1e9ee7c1f2b22025d0af75fc5988d62ac0ff6e89de2",
+        "characters": 6500,
+        "tool_output_chunk_id": "4ec58a",
+        "complete_output_observed": true,
+        "truncated": false
+      },
+      {
+        "file": "methods-read-06.txt",
+        "sha256": "846aa0b24725553586f569f162847ac135ba78533470f2d2636b72da019d0ead",
+        "characters": 6500,
+        "tool_output_chunk_id": "9a77ef",
+        "complete_output_observed": true,
+        "truncated": false
+      },
+      {
+        "file": "methods-read-07.txt",
+        "sha256": "73c14a30020f5132227ada92c5b5a484cb984c059c68053580a6439c2c2548c9",
+        "characters": 3086,
+        "tool_output_chunk_id": "e00517",
+        "complete_output_observed": true,
+        "truncated": false
+      }
+    ],
+    "equations_read": {
+      "file": "methods-equations.xml",
+      "sha256": "0d06886959f57530658a80c4ed2de7f012ddd21a6f0ca5f2b8274eec345ccd01",
+      "tool_output_chunk_id": "e735d8"
+    },
+    "legend_reads": [
+      {
+        "file": "independent-Fig3-legend.txt",
+        "sha256": "ac710dad97f1237e8279e50bb2e7cba25cf76ea8c16d6dff73c7f99e4cff82ae",
+        "tool_output_chunk_id": "2984c3",
+        "complete_output_observed": true
+      },
+      {
+        "file": "independent-Fig5-legend.txt",
+        "sha256": "32ded0f64c42778a2e1afd718666c25b67d7c9d7ff0bf60cdfda9167a5cdf8e5",
+        "tool_output_chunk_id": "6687d9",
+        "complete_output_observed": true
+      },
+      {
+        "file": "independent-Fig6-legend.txt",
+        "sha256": "ceca6bf22d4a46fa9fd0c37bc8dba3e19a71f88b4f09b05991bbcdcd11a8ec86",
+        "tool_output_chunk_id": "a01073",
+        "complete_output_observed": true
+      }
+    ],
+    "bounded_results_reads": [
+      {
+        "file": "Sec5-reading.txt",
+        "sha256": "0c1cd0d0d53583e871dae3972a5905b684b4df04ad6c1b5fa1bb299eaeabcc9b",
+        "tool_output_chunk_id": "281094",
+        "complete_output_observed": true
+      },
+      {
+        "file": "Sec7-reading.txt",
+        "sha256": "e945bb756fbc4968d987a4661e9b4357c0883cc25cb4c389301b4e2aa0c1a9c5",
+        "tool_output_chunk_id": "75e089",
+        "complete_output_observed": true
+      },
+      {
+        "file": "Sec8-reading.txt",
+        "sha256": "03d13df5c7b148dfa73a13647aff5f785bcaac8df084f88b1e3b2c1c21e3ec44",
+        "tool_output_chunk_id": "dcd698",
+        "complete_output_observed": true
+      }
+    ],
+    "authors": [
+      "Marc Payton",
+      "Brian Belmontes",
+      "Kelly Hanestad",
+      "Jodi Moriguchi",
+      "Kui Chen",
+      "John D McCarter",
+      "Grace Chung",
+      "Maria Stefania Ninniri",
+      "Jan Sun",
+      "Raffi Manoukian",
+      "Stuart Chambers",
+      "Seok-Man Ho",
+      "Robert J M Kurzeja",
+      "Katheryne Z Edson",
+      "Upendra P Dahal",
+      "Tian Wu",
+      "Sharon Wannberg",
+      "Pedro J Beltran",
+      "Jude Canon",
+      "Andrew S Boghossian",
+      "Matthew G Rees",
+      "Melissa M Ronan",
+      "Jennifer A Roth",
+      "Sheroy Minocherhomji",
+      "Matthew P Bourbeau",
+      "Jennifer R Allen",
+      "Angela Coxon",
+      "Nuria A Tamayo",
+      "Paul E Hughes"
+    ],
+    "author_conflict_output_chunk": "3b3ba6",
+    "author_list_output_chunk": "e65ba0",
+    "image_retrieval_status": "unavailable after ordinary official OA API route; not visually inspected",
+    "retrieval_attempts": [
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC10824666",
+        "result": "HTTP 404; web open also inaccessible",
+        "chunk": "9c93fc"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC10824666",
+        "result": "HTTP 404",
+        "chunk": "3b3ba6"
+      }
+    ],
+    "material_corrections": [
+      "Athymic nude and CB.17 SCID, not NOD/SCID.",
+      "PDX Methods >=27 days versus Results/legend >=28 days; retain day27 stop and exact follow-up.",
+      "TGI, TR and tumor-free are distinct; tumor-free means no measurable tumor.",
+      "AM-5308/AM-9022 marrow assays used two donors each; no universal safety conclusion.",
+      "Platelet counts unavailable because of processing problems.",
+      "No BUBR1-deficiency restoration established."
+    ],
+    "audit_file": "independent-methods-check.md",
+    "audit_sha256": "a99b8759196ac9876c729966669c8748ace87fed80c964863203c79025956275",
+    "new_abstract_coverage": 0
+  },
+  "duration_discrepancy": "PDX Methods says daily >=27 consecutive days; Results/legend says >=28. CTG-0017/-0437 stop day27, observe to58/34. CTG-0888 dosing to43, last measurement41; CTG-1019 dosing to52, last measurement51. No forced reconciliation."
+}

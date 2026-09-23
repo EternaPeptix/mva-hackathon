@@ -749,3 +749,29 @@ Only original assessments, public bibliographic metadata and verification code
 are added. Source article text, images, supplementary spreadsheets and reading
 logs remain in the external cache. Track 1 uploads and pitch/media are preserved.
 This is a private draft update, not permission to publish or submit Track 2.
+
+
+## Colonoid and KIF18A qualification — 22 September 2026
+
+This private update adds 128 fixed-order source revalidations, bringing accepted
+revalidations to 826 and outer ledgers to 2,987; 2,772 selected strings remain
+pending. Thirty-two complete literal-reading outputs and eight independent
+sample checks support the declared reading depth. Original part annotations and
+all previous ledgers are preserved. Structural/full-source replay and altered
+fixtures passed; they do not certify scientific interpretation.
+
+Five compound-specific entries bring the ledger to 138, with all 133 preceding
+objects unchanged. Aquamin Soluble earns colonoid differentiation evidence;
+its calcium comparator and mixture identity remain explicit. Four KIF18A
+compounds retain separate cellular/animal tumor results and limited normal-cell
+controls. Neither primary source establishes BUBR1 restoration or MVA muscle
+benefit. KIF18A original figure images were unavailable; the complete Methods and
+selected legends received an independent audit. Aquamin main/supplement images
+were inspected, with targeted independent checks of the donor context, mineral
+table and Ki67/antibody panels. Raw articles, supplements and images stay outside
+Git. These follow-ups add no abstract-reading credit or catalog entities.
+
+Historical source fields, inventory decisions, Track 1 uploads and pitch media
+remain intact. No publication, merge, new rubric score or Track 2 submission is
+authorized by this package check. The provisional research pair remains
+unchanged and unproven in MVA; open source questions and coverage remain visible.
