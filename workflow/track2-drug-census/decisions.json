@@ -684,11 +684,11 @@
         "icariin"
       ],
       "route": "icariin",
-      "disposition": "Low-priority restorative-context lead; implementation unresolved",
-      "evidence_scope": "Selected primary-source appraisal; access/model limits in linked review. Not an all-literature efficacy assessment.",
+      "disposition": "Prioritize assay and exposure clarification for an access-limited functional/BUB1b lead; medication rank unresolved",
+      "evidence_scope": "Complete exact official abstract and identity/access metadata read; scientific main, Methods, supplements and native figures remain inaccessible. No full-primary or new outer-reading credit.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Aged WT mouse coordination and multi-marker changes, with BUB1b among many markers; no BUBR1 mediation or MVA rescue. Eligible product and exposure unverified.",
-      "source_report": "workflow/track2-drug-census/decision-report.md",
+      "rationale": "The exact abstract reports icariin at 100 mg/kg once daily for 15 days in 24-month-old mice, with improved motor coordination/learning and rotarod score. BUB1b is named among significantly upregulated markers, but RNA versus protein, assay, tissue, effect size and biological n remain unverified. Route, vehicle, supplier and purity are unresolved. Fecal transfer from icariin-treated old donors, and separately from young donors, has reported functional benefit; these are distinct interventions from directly administered icariin and do not establish an isolated ingredient effect, exclusive microbiome mediation or BUB1B dependence. Nulls, harms, cage/donor clustering, randomization and blinding cannot be resolved from the abstract. Retain the functional claim without assigning verified BubR1 protein restoration, a wild-type genotype from unread Methods, human/MVA efficacy, or equivalence to Epimedium extracts and retail products.",
+      "source_report": "workflow/track2-drug-census/icariin-aging-qualification.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/33798737/"
       ]
@@ -842,14 +842,18 @@
         "TG-101209"
       ],
       "route": "TG101209",
-      "disposition": "retain experimental protein-stability probe",
-      "evidence_scope": "Source-bounded appraisal from the complete-saved-abstract follow-up and specified primary checks; verification limits retained.",
+      "disposition": "retain experimental BUB1B thermal probe and bounded post-challenge lung-protection comparator",
+      "evidence_scope": "Original thermal-probe appraisal retained separately; complete 2026 LPS-lung primary main/captions, native figures and supplement qualified with endpoint-specific nulls and methodological limits.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Primary abstract reports BUB1B thermal stabilization. ChEMBL CETSA values are not independently checked against the original figure; heat resistance is not increased unheated abundance, slower turnover or restored checkpoint function. No qualified clinical-exposure or eligible-product bridge; do not conflate with TG101348/fedratinib. Original JAK2/FLT3/RET pharmacology raises a competing-target concern at the CETSA exposure; cross-assay potency is not a clinical safety margin. See the primary lead qualification.",
+      "rationale": "Primary abstract reports BUB1B thermal stabilization. ChEMBL CETSA values are not independently checked against the original figure; heat resistance is not increased unheated abundance, slower turnover or restored checkpoint function. No qualified clinical-exposure or eligible-product bridge; do not conflate with TG101348/fedratinib. Original JAK2/FLT3/RET pharmacology raises a competing-target concern at the CETSA exposure; cross-assay potency is not a clinical safety margin. See the primary lead qualification. A separate young-male mouse LPS study reports intratracheal TG101209 40 mg/kg at 2 h after challenge, reduced lung injury and a favorable 7-day survival curve. Of six respiratory readouts, only tidal volume and FEV100/FVC show significant drug-versus-LPS contrasts; the other four are null. Survival statistics, a TG-only death, underdescribed respiratory derivation and unspecified drug formulation limit interpretation. Macrophage/JAK2-STAT3 associations do not prove exclusive mediation, and this source measures no BUB1B, muscle or MVA rescue.",
       "source_report": "workflow/track2-drug-census/target-assay-review.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/39818011/",
-        "https://pubmed.ncbi.nlm.nih.gov/17541402/"
+        "https://pubmed.ncbi.nlm.nih.gov/17541402/",
+        "https://pubmed.ncbi.nlm.nih.gov/41909672/"
+      ],
+      "additional_source_reports": [
+        "workflow/track2-drug-census/tg101209-lung-qualification.md"
       ]
     },
     {
@@ -3218,7 +3222,7 @@
       ],
       "route": "Resveratrol / human muscle-function comparator and unresolved BUBR1-staining lead",
       "disposition": "Elevate serious functional research reserve; retain access-limited restoration question; do not claim MVA efficacy or established nominee replacement",
-      "rationale": "A randomized exercise study reports significant group-by-time effects on average knee-extension power and torque, with 15 completers per arm after withdrawals/replacements. A separate 60-person pilot retains strength signals but an inconclusive registered walking-speed primary outcome and no definitive between-arm efficacy test. Other human studies report context-specific null/adverse exercise effects. The aged-rat BUBR1-staining paper is publisher-abstract-only; no validated functional protein increase is admitted. Full oocyte-source review supports partial toxin-injury maturation/alignment benefit while distinguishing reduced kinetochore checkpoint staining from total BUBR1 restoration. This is stronger evidence than a generic antioxidant rationale, without MVA genotype, lineage-fidelity, child-exposure or retail-product equivalence.",
+      "rationale": "A randomized exercise study reports significant group-by-time effects on average knee-extension power and torque, with 15 completers per arm after withdrawals/replacements. A separate 60-person pilot retains strength signals but an inconclusive registered walking-speed primary outcome and no definitive between-arm efficacy test. In the overlapping Copenhagen cohort, 250 mg/day trans-resveratrol during eight weeks of training was associated with a smaller VO2max gain (approximately 444 versus 308 mL/min, P=.03), although both groups improved. The companion paper found no significant additional or adverse knee-extensor endurance effect; several broader marker-blunting claims rely on within-arm significance without a reported interaction contrast. These publications are not independent exercise replications. The aged-rat BUBR1-staining paper remains publisher-abstract-only; no validated functional protein increase is admitted. Full oocyte-source review supports partial toxin-injury maturation/alignment benefit while distinguishing reduced kinetochore checkpoint staining from total BUBR1 restoration. This is stronger evidence than a generic antioxidant rationale, without MVA genotype, lineage-fidelity, child-exposure or retail-product equivalence.",
       "source_report": "workflow/track2-drug-census/resveratrol-qualification.md",
       "source_urls": [
         "https://doi.org/10.1093/gerona/glx089",
@@ -3226,10 +3230,15 @@
         "https://doi.org/10.21608/ejh.2021.94120.1559",
         "https://doi.org/10.1371/journal.pone.0077960",
         "https://pubmed.ncbi.nlm.nih.gov/23878368/",
-        "https://pubmed.ncbi.nlm.nih.gov/24514907/"
+        "https://pubmed.ncbi.nlm.nih.gov/24514907/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3810808/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4001758/"
       ],
-      "evidence_scope": "Source-specific administered-intervention evidence with explicit reading, model, comparator and endpoint limits.",
-      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys"
+      "evidence_scope": "Existing administered-intervention evidence retained, with complete Copenhagen 2013/2014 scientific mains and 14 native main figures now qualified; supplements/comments remain unread. One shared trained cohort, not two independent replications; no new molecule or outer-reading credit.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "additional_source_reports": [
+        "workflow/track2-drug-census/resveratrol-exercise-counterevidence-qualification.md"
+      ]
     },
     {
       "decision_id": "new-potentilla-eapf-topical",

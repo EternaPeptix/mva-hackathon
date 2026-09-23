@@ -62,6 +62,8 @@ adds the original compound's JAK2/FLT3/RET pharmacology and failed full-manuscri
 retrieval. It strengthens the need for competing-target controls without
 inventing a clinical toxicity threshold or calling an inaccessible paper negative.
 
+The separate [2026 lung-source qualification](tg101209-lung-qualification.md) adds early post-LPS injury protection and two positive respiratory readouts, alongside four respiratory nulls. A favorable survival-curve direction lacks a specified survival test; the TG-only death has unknown cause. This normal-tissue comparison broadens the evidence beyond the thermal assay, but measures no BUB1B and does not validate the earlier CETSA values, a human exposure bridge or muscle rescue.
+
 ## Interpretation of all seven source groups
 
 | ChEMBL document / source | Rows | What is recorded | Current interpretation and verification depth |

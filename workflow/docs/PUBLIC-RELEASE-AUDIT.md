@@ -1078,3 +1078,13 @@ Nine portable files provide original qualifications, structured evidence and a c
 All 47 historical source-question records and original reading queue remain byte-identical. All 109 PR1 IDs remain: 96 unchanged and thirteen qualified refinements, now including vitamin K2. No original-queue reading, independent-study, global-completion or MVA-efficacy credit is inferred. Name relations are regenerated without salt, class, product or availability equivalence.
 
 Raw articles, original images, full workbooks and reading logs remain external. Track 1, its methods prefix, current media, model/transfer/RNA workflows and protected experimental plan are unchanged. Both PRs remain private drafts and unmerged; Track 2 remains unsubmitted.
+
+## Existing-compound functional counterevidence, 23 September 2026
+
+The ledger remains 222 assessments. Resveratrol, icariin and TG101209 are refined; all 219 other decoded decision objects are unchanged. Resveratrol preserves prior human power/torque positives while adding a shared Copenhagen cohort’s smaller aerobic gain and null knee-endurance augmentation. Icariin’s exact abstract supports motor/marker follow-up, while its BUB1b assay, tissue and exposure route remain unresolved. It receives priority assay clarification rather than an unsupported inherited low rank. TG101209 receives a distinct early post-challenge lung-protection role with two positive and four null respiratory contrasts, descriptive survival and no BUB1B measurement.
+
+Six portable qualification files retain attributed reading and access scopes. Existing resveratrol qualification files now link the full-main counterevidence review; the original positive-source records remain intact. The thermal-assay review links the separate TG lung study without upgrading the original CETSA validation. A bounded independent primary/native check supported the resveratrol and TG interpretations; its icariin priority reassessment was not independent source validation. Raw mains, figures and reading logs remain external.
+
+All 222 assessment IDs and all 109 PR1 IDs remain. PR1 retention is 94 decoded objects unchanged and fifteen qualified refinements. The original selection, reading counts and all 47 source questions are unchanged. FDA, SGC and NIH inventory builders were replayed against the refined ledger; all 14 output tables remain byte-identical. This adds no compound identity, original-queue reading, independent study, MVA efficacy or worldwide-completion claim.
+
+Track 1, its methods prefix, current media, models, transfer/RNA workflows and experimental plan remain unchanged. The repo remains private, both PRs are draft and unmerged, and Track 2 remains unsubmitted.

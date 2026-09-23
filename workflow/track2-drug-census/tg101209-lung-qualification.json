@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "source": {
+    "pmid": "41909672",
+    "pmcid": "PMC13021449",
+    "doi": "10.3389/fimmu.2026.1755208",
+    "title": "Selective JAK2 inhibition by TG101209 reprograms macrophage polarization and alleviates acute lung injury",
+    "first_publication_date": "2026-03-13",
+    "type": "Published research article",
+    "source_url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1755208/full",
+    "license": "CC BY",
+    "saved_metadata_status": "epublish; no commentCorrectionList or versionList returned in inspected exact-source metadata. This is not a universal absence-of-notices guarantee."
+  },
+  "verdict": "Refine the existing TG101209 appraisal to retain an early post-LPS noncancer lung-protection comparison, alongside the separate unresolved BUB1B thermal-probe role. Native respiratory positives are limited to two of six TG treatment contrasts; survival statistics, formulation, mechanism and exposure limit translation. No BUB1B restoration, MVA or muscle benefit was measured here.",
+  "compound": {
+    "name_as_tested": "TG101209",
+    "supplier": "MedChem Express, Shanghai, China",
+    "catalog_lot_purity_salt": "Not reported in the inspected main/supplement. Figure7 includes a nominal chemical structure but does not authenticate an administered batch or salt.",
+    "vehicle": "Not reported for TG101209 in mouse or cell experiments. Do not infer PBS/saline or DMSO as the drug formulation.",
+    "identity_separation": "TG101209 is retained as that named reagent; no equivalence to TG101348/fedratinib, approved product, ordinary supplement or clinical exposure is established."
+  },
+  "exposures": [
+    {
+      "model": "Male C57BL/6 mice,6-7 weeks,SPF; no BUB1B lesion",
+      "challenge": "E. coli O55:B5 LPS 2 mg/kg intratracheally in 50 µL sterile PBS",
+      "drug": "TG101209 40 mg/kg intratracheally 2 h after saline/LPS",
+      "control": "Saline control,LPS-only,TG-only,and LPS+dexamethasone 5 mg/kg intratracheally at the corresponding 2 h time point",
+      "timing_class": "Early post-challenge intervention, not prophylactic pretreatment; no pre-dose proof of established functional injury or delayed-repair arm. No repeat-dose schedule is stated.",
+      "endpoints": "72 h tissue/BALF/respiratory measurements; distinct survival cohort followed every 24 h for 7 days",
+      "n": "5 mice/group for bars and72 h experiments;7 mice/group for separate survival curves per Figure1 caption"
+    },
+    {
+      "model": "RAW264.7 macrophage cell line",
+      "challenge": "LPS 50 ng/mL for 24 h with or without TG101209",
+      "drug": "1 µM selected for mechanistic experiments; exact sequential addition/washout is not described",
+      "control": "Untreated,LPS-only,TG-only,LPS+TG; no DXM culture arm in displayed experiments",
+      "n": "3 independent replicates/group as reported, not three independent animal cohorts",
+      "scope": "Concurrent in-vitro treatment, macrophage markers/cytokines/phosphorylation; no primary normal human lung or muscle function"
+    }
+  ],
+  "outcomes": {
+    "respiratory": [
+      {
+        "endpoint": "tidal volume",
+        "unit_as_printed": "mL",
+        "time": "72 h after LPS",
+        "n": 5,
+        "comparison": "LPS+TG101209 versus LPS",
+        "direction": "higher",
+        "native_S1_significance": "**",
+        "LPS_versus_control_native_label": "**",
+        "raw_values_reestimated": false
+      },
+      {
+        "endpoint": "minute volume",
+        "unit_as_printed": "mL/min",
+        "time": "72 h after LPS",
+        "n": 5,
+        "comparison": "LPS+TG101209 versus LPS",
+        "direction": "numerically higher",
+        "native_S1_significance": "ns",
+        "LPS_versus_control_native_label": "***",
+        "raw_values_reestimated": false
+      },
+      {
+        "endpoint": "peak expiratory flow",
+        "unit_as_printed": "mL/s",
+        "time": "72 h after LPS",
+        "n": 5,
+        "comparison": "LPS+TG101209 versus LPS",
+        "direction": "numerically higher",
+        "native_S1_significance": "ns",
+        "LPS_versus_control_native_label": "ns",
+        "raw_values_reestimated": false
+      },
+      {
+        "endpoint": "FEV100",
+        "unit_as_printed": "mL",
+        "time": "72 h after LPS",
+        "n": 5,
+        "comparison": "LPS+TG101209 versus LPS",
+        "direction": "numerically higher",
+        "native_S1_significance": "ns",
+        "LPS_versus_control_native_label": "ns",
+        "raw_values_reestimated": false
+      },
+      {
+        "endpoint": "FEV100/FVC",
+        "unit_as_printed": "%",
+        "time": "72 h after LPS",
+        "n": 5,
+        "comparison": "LPS+TG101209 versus LPS",
+        "direction": "higher",
+        "native_S1_significance": "*",
+        "LPS_versus_control_native_label": "**",
+        "raw_values_reestimated": false
+      },
+      {
+        "endpoint": "lung resistance",
+        "unit_as_printed": "native label cmH2O/(s.mL)",
+        "time": "72 h after LPS",
+        "n": 5,
+        "comparison": "LPS+TG101209 versus LPS",
+        "direction": "numerically lower",
+        "native_S1_significance": "ns",
+        "LPS_versus_control_native_label": "*",
+        "raw_values_reestimated": false
+      }
+    ],
+    "vascular_edema_histology": {
+      "source": "Figure1A/B/D/E/F",
+      "positive": "TG+LPS reduces Evans-blue extravasation(***), wet/dry ratio(**), and blinded lung-injury score(*) versus LPS; representative histology is consistent with less injury.",
+      "limit": "Values and raw individual observations were not digitized; no formal normal-control equivalence or universal tissue restoration claimed."
+    },
+    "BALF_cell_counts": {
+      "source": "Figure1G",
+      "TG_versus_LPS": {
+        "total_cells": "**** lower",
+        "neutrophils": "* lower",
+        "macrophages": "**** lower",
+        "lymphocytes": "ns"
+      },
+      "limit": "Native brackets qualify the prose claiming reduction of all inflammatory cell categories."
+    },
+    "survival": {
+      "source": "Figure1C",
+      "caption_n_per_group": 7,
+      "displayed_day7_approximate_percent": {
+        "saline": 100,
+        "TG_only": 85.7,
+        "LPS": 14.3,
+        "LPS_plus_TG": 71.4,
+        "LPS_plus_DXM": 57.1
+      },
+      "count_interpretation": "Curve step/end levels are consistent with7/7,6/7,1/7,5/7,4/7 respectively, using caption n=7. These are transparent visual/count inferences, not recovered event records or numerical digitization.",
+      "statistical_limit": "Author calls survival benefit significant and superior to DXM, but no displayed curve test/P or specified survival statistical method validates that superiority here.",
+      "drug_only_death": "One death is suggested by TG-only curve; no causal attribution, necropsy or cause-specific record supplied."
+    },
+    "macrophage_molecular": {
+      "lung": "iNOS/CD80,CD163/Arg1 RNA/protein/IF and flow-cytometric macrophage subset measurements support treatment-associated anti-inflammatory shifts; panel-specific nulls remain in source_issues.",
+      "culture": "CD80/CD163 protein contrasts, displayed Cd80/Nos2/Cd163/Arg1 qPCR and TNFα/IL6/IL10 contrasts retain positives. iNOS and Arg1 protein treatment contrasts are ns.",
+      "function_limit": "Marker-defined fractions are not fate mapping, lineage conversion, pathogen clearance or macrophage functional rescue."
+    },
+    "pathway": {
+      "source": "Figure6",
+      "in_vitro": "p-JAK2/JAK2 and p-STAT3Tyr705/STAT3 treatment contrasts positive(**); p-STAT3Ser727/STAT3 is ns. IF is representative localization/intensity evidence, without independent quantitative translocation test.",
+      "lung": "All three displayed phosphorylation-ratio treatment contrasts are positive: JAK2*,Ser727****,Tyr705*.",
+      "causality": "No JAK2/STAT3 genetic perturbation, orthogonal target-specific rescue, resistant mutant, macrophage depletion or lineage-specific necessity test is reported. Associations support a pathway-linked interpretation rather than demonstrated exclusive mediation."
+    }
+  },
+  "nulls_and_harms": {
+    "CCK8": "FigureS3 shows no marked drop at displayed 0.1562-5 µM after 24 h; 10 and 20 µM markedly reduce CCK-8 signal(****versus untreated). This is a metabolic viability proxy, not broad normal-cell safety or a clinical therapeutic window.",
+    "histology": "S2 provides representative heart,liver,spleen,kidney images; no quantitative organ-toxicity scores, chemistry, body-weight trajectory or chronic follow-up are provided. Its caption additionally lists lung although the displayed four organ columns do not.",
+    "survival": "TG-only death retained; cause unknown. Separate short-term organ histology cannot negate it.",
+    "formal_safety": "Not established."
+  },
+  "allocation_statistics": {
+    "randomization": "Methods explicitly states random assignment to five mouse groups; sequence/allocation-concealment details not given.",
+    "blinding": "Two blinded pathologists independently scored lung sections. Blinding of drug administration, respiratory measurement, other assays or survival assessment is not reported.",
+    "biological_unit": "Mouse for in-vivo bar endpoints; separate mice for survival. Culture n=3 described as independent replicates; no subfield/cell count treated as additional biological n.",
+    "reported_analysis": "Shapiro-Wilk,mean±SD,one-way ANOVA with Tukey,Prism 8.",
+    "limits": "No prespecified primary endpoint, sample-size justification, family-wide correction across the many endpoints, raw respiratory/event records, or specific survival test is supplied in the inspected main/supplement. No new P values were calculated."
+  },
+  "BUB1B_scope": {
+    "RNA": "No BUB1B/Bub1b RNA assay in complete inspected scientific main/captions/supplement; TableS1 lists 10 other genes.",
+    "protein": "No BubR1/BUB1B protein, localization, stabilization or thermal assay in this source.",
+    "function": "No checkpoint, chromosome-count/segregation, faithful daughter-cell production, muscle-force or BUB1B-mutant/MVA assay.",
+    "boundary": "Finite absence claim scoped to this main, seven native figures and four-page supplement; not an all-literature protein null."
+  },
+  "previous_evidence_preserved": {
+    "existing_decision_id": "new-tg101209",
+    "original_CETSA_source": "MED:39818011",
+    "context": "Existing primary-abstract/ChEMBL thermal-probe limits and competing JAK2/FLT3/RET pharmacology remain unchanged. This new source cannot validate the unheated-abundance or turnover inference from the earlier assay.",
+    "new_appraisal_identity_required": false
+  },
+  "source_issues": [
+    {
+      "id": "respiratory-claim-scope",
+      "source": "Results2.1 and native Supplementary FigureS1",
+      "finding": "Prose broadly describes impaired and reversed respiratory parameters. Native TG+LPS-versus-LPS labels support tidal volume and FEV100/FVC positives, while minute volume, peak expiratory flow, FEV100 and lung resistance are ns. LPS-versus-control peak flow and FEV100 are themselves ns.",
+      "interpretation": "Retain two positive published respiratory readouts and four null treatment comparisons; not restoration of every respiratory measure."
+    },
+    {
+      "id": "respiratory-method-validation",
+      "source": "Methods5.8, FigureS1",
+      "finding": "The only described acquisition is Buxco whole-body plethysmography with chamber pressure transducer; the report also lists FEV100/FVC and lung resistance without forced-maneuver, calibration or derivation details.",
+      "interpretation": "Published functional readouts with an unresolved measurement-validation gap, not evidence that the results are necessarily invalid."
+    },
+    {
+      "id": "survival-significance-and-control-death",
+      "source": "Figure1C, caption and Methods5.8/5.14",
+      "finding": "Native curves favor TG+LPS over LPS, and descriptively over DXM+LPS. No curve P value, log-rank/Cox method or specific between-treatment significance is displayed; Methods specifies ANOVA/Tukey generally. TG-only curve also falls below 100%.",
+      "interpretation": "Do not claim statistically validated superiority to dexamethasone or blanket safety. Preserve the favorable curve direction and the drug-only death; cause is unknown."
+    },
+    {
+      "id": "wet-dry-protocol",
+      "source": "Methods5.10 versus Figure1D caption",
+      "finding": "Methods dries at45 °C until stable; caption says60 °C for 48 h.",
+      "interpretation": "Unresolved protocol discrepancy; retain the reported lower wet/dry outcome without silently choosing one protocol."
+    },
+    {
+      "id": "marker-nulls",
+      "source": "Native Figures1G,3E,4C,5C/E,6C",
+      "finding": "TG+LPS lymphocyte comparison is ns; baseline LPS effect on lung Arg1 protein and flow-cytometric M2 fraction is ns; cultured-cell iNOS/Arg1 protein treatment contrasts and STAT3Ser727 phosphorylation contrast are ns.",
+      "interpretation": "Do not convert the broader prose into all-marker or both-site significance. Other molecular/flow contrasts retain their reported positives."
+    },
+    {
+      "id": "caption-axis-mapping",
+      "source": "Figure3B/C and Figure5F-I",
+      "finding": "Figure3 caption identifies B=CD80,C=iNOS while native axes give B=iNOS,C=CD80. Figure5 caption lists F=Arg1,G=Cd80,H=Cd163,I=Nos2 while native axes give F=Cd80,G=Nos2,H=Cd163,I=Arg1.",
+      "interpretation": "Use native labeled panels and preserve the discrepancy; no claim of image manipulation."
+    },
+    {
+      "id": "flow-fluorophore-documentation",
+      "source": "Methods5.13 and native Figure4A",
+      "finding": "Methods lists CD80-FITC,F4/80-APC,CD206-PerCP-Cy5.5; native axes instead label CD80-BV421,F4/80-AF647,CD206-PE.",
+      "interpretation": "Exact fluorophore/acquisition documentation is inconsistent; full gating/raw files absent. Positive reported subset shifts do not establish cell-lineage conversion."
+    },
+    {
+      "id": "mechanistic-direction-prose",
+      "source": "Discussion paragraph3 versus study model/results",
+      "finding": "Discussion describes JAK2/STAT3 as inhibitory to M1 and driving M2 in a sentence citing prior work, whereas this study attributes its TG-inhibition effect to less M1/more M2.",
+      "interpretation": "Do not use this internally discordant sentence to establish pathway direction or necessity."
+    }
+  ],
+  "reading_manifest": {
+    "file": "reading-manifest.json",
+    "sha256": "fbfb4511aee927901475cae1b2f06f2ae6eb10543cb4c9305792af969c0c55b0"
+  },
+  "retrieval_manifest": {
+    "file": "retrieval-manifest.json",
+    "sha256": "7636d1d44005a0edc7a4ab94d1d21c22a694a1fb5dbafbda8dd8fc63f9931653"
+  },
+  "source_assets_sha256": {
+    "primary.xml": "a03fa133710075a18c9ae999ede7d91e9f0280c16362b6719c0542c740eb89c5",
+    "source-metadata.json": "aaa279791ff741d00f118a91a500e47d6ab2bec0d5a54a96664a8fd9757a499d",
+    "DataSheet1.pdf": "68995c6aa86c81d84ef139e815b170dbe86cae2529d4c9ff01c6493f6684d178",
+    "figure1.webp": "930a1d8d2d464cfbc80f1a9bbc06e9a8febf41237a44e27c80674d04e9fc9b4b",
+    "figure2.webp": "b4d704ceff7479b276144a53b2cb2f7c595b4467d3b79e008b5946ab47e490df",
+    "figure3.webp": "ce99c19617974d3d70b29073f6dfb058e9ae87f6f8ac4701fc0934f342ecbcec",
+    "figure4.webp": "91294c7b48f1bed7d223789a9c74a546f54fa245a9956c7aa060811c1ba57a72",
+    "figure5.webp": "319c074f5b8a5ad178b7642858f109374e1136a1ab2f401cfa7f98517a4ebea7",
+    "figure6.webp": "0703b4a399dc33b2f2404e6fd4fe452bf7f74556655ff25ba546d9efcdeab5e5",
+    "figure7.webp": "7dbb030db3f5f0ce62c03b80d492b403434937ce145c170f9198ecabd6f6aa93"
+  },
+  "integration_limits": {
+    "repository_edits": false,
+    "ledger_edits": false,
+    "new_appraisal_count": 0,
+    "new_outer_reading_credit": 0,
+    "root_whole_paper_read_claim": false,
+    "nominee_promotion": false
+  },
+  "source_reviewer_status": "FROZEN_SOURCE_QUALIFICATION",
+  "status": "INTEGRATED_EXISTING_ENTRY_REFINEMENT_WITH_ATTRIBUTED_SOURCE_SCOPE",
+  "qualification_md_sha256": "ce79a6056fa823b6ed06e2d5a079165646d10655dbaa39bd594c8f878a1301a8",
+  "integration": {
+    "baseline": "24a53cdacd305f194925206e1fbd0d52d9e03845",
+    "assessments_before_and_after": 222,
+    "previous_objects_unchanged": 219,
+    "refined_ids": [
+      "new-icariin",
+      "new-resveratrol",
+      "new-tg101209"
+    ],
+    "decision_id": "new-tg101209",
+    "frozen_source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tg101209-lung-primary-followup-20260923/qualification.json",
+      "sha256": "0883afcfe5a6beb35b904b533beb918f3640570dadd548534f50c46200e3f73c"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/functional-counterevidence-integration-20260923/root-reading.json",
+      "sha256": "bdc49060253eb49de9f00194def0e8a9dc812d55c3c7e7258f03c2718397d0ea"
+    },
+    "original_queue_credit": 0,
+    "independent_study_credit": 0,
+    "MVA_efficacy_or_nominee_superiority_established": false
+  }
+}

@@ -8,7 +8,7 @@ bounded UMK57 control findings, and preserves the later source corrections.
 
 The [food-substance inventory](food-substances/README.md) retains 3,971 FDA rows with explicit source-status flags. The current scientific comparisons are in the [decision report](decision-report.md).
 
-The ledger contains **222 appraisals**. [Vitamin K2](vitamin-k2-neonatal-qualification.md) is strengthened from hub-gene membership to measured Bub1b RNA and BUB1B-associated tissue fluorescence accompanying behavioral protection; preparation and causal limits remain. [Spermidine](spermidine-reproduction-qualification.md), [CoQ10](coq10-reproduction-qualification.md) and [mitoquinone](mitoquinone-reproduction-qualification.md) add distinct reproductive or developmental comparisons. Of the 219 preceding assessments, 218 remain unchanged and only vitamin K2 is refined. Niacin/apitegromab remain provisional.
+The ledger contains **222 appraisals**. The latest review refines [resveratrol](resveratrol-exercise-counterevidence-qualification.md), [icariin](icariin-aging-qualification.md) and [TG101209](tg101209-lung-qualification.md), preserving the other 219 decision objects. Resveratrol has mixed human functional evidence; icariin earns priority assay clarification; TG101209 has bounded lung-protection evidence. Niacin/apitegromab remain provisional, and [vitamin K2](vitamin-k2-neonatal-qualification.md) remains a priority molecular follow-up.
 
 The separate [NIH DSLD ingredient inventory](dsld-ingredients/README.md) preserves **6,467 source groups, 78,788 synonym cells and 85,255 total name/synonym cells**. Its **41,496 lexical matches, including 1,077 unflagged matches, provide no efficacy assessment** and confer no reading or appraisal credit. A separate first pass annotates six rows across four previously read abstracts, without new unique credit. Groups, label terms and matches are not unique drugs, verified chemical equivalents or additions to the main entity denominator. API version 9.5.0 (May 2026) and index-name suffix `2025-09-25n` are distinct source descriptors, not current-market or record-update guarantees.
 
@@ -232,7 +232,7 @@ syndrome versus silver, a generic *cofactor* versus folitixorin, decitabine vers
 its deoxycytidine subphrase, CAPE versus caffeic acid, and genetic/model-dependent
 rescue versus the reagent used to run that experiment.
 
-The finite pass flags icariin (aged WT mice), vitamin K2 (neonatal anesthetic
+The finite pass flags icariin (aged mice; genotype unverified), vitamin K2 (neonatal anesthetic
 injury; subtype unresolved), CAPE (a distinct ester with reduced BubR1 during
 neurodifferentiation), NAC (Sod1-deficient oocytes) and griseofulvin (reported
 Mad1/BubR1 binding with cancer-cell killing) for precise primary appraisal.
