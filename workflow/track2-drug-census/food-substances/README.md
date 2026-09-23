@@ -12,12 +12,12 @@ It is not a list of safe treatments or every food compound in existence.
 |---|---:|
 | Preserved source rows / source record IDs | 3,971 / 3,971 |
 | Exact clinical-catalog name candidates | 298 rows |
-| Exact curated-appraisal name candidates | 5 rows |
+| Exact curated-appraisal name candidates | 7 rows |
 | Literal mention rows in the 7,362-record saved corpus | 234 |
 | Food source rows with at least one literal hit | 76 |
 | Matched literature source/ID records | 213 |
 | Common/short/class-name ambiguous mention rows | 161 |
-| Other literal-name rows with context unassessed | 73 |
+| Literal-policy rows, now covered by separate abstract overlay | 73 |
 | New manual-reading / curated-appraisal credit from this inventory | 0 / 0 |
 
 The table retains **17 PROHIBITED**, **3 PROHIBITED WITH EXCEPTIONS**,
@@ -89,3 +89,9 @@ clinical review or efficacy validation.
 The [lunasin qualification](../lunasin-qualification.md) is a separate,
 source-driven food-peptide result recovered through literature review. It is
 not evidence that this FDA table contains every relevant food-derived candidate.
+
+## Abstract reading and two primary qualifications
+
+The [separate reading overlay](abstract-findings.md) covers all 67 source/ID records behind the 73 literal-policy rows. It retains derivatives, solvents, endogenous molecules, retraction and version distinctions. The 161 common-name rows remain outside this reading pass. Eight records overlap prior accepted revalidations and two overlap batch08; 26 others occur in the remaining queue. No automatic outer-corpus credit is added.
+
+[Astaxanthin](../astaxanthin-qualification.md) and [citral](../citral-qualification.md) received separate primary qualifications. These add two appraisals and two name cross-references, not demonstrated MVA treatments. The original independent parser review remains bound to its 161-entry snapshot; the parent recheck verifies only the current two-link update, with source fields and all 234 mention rows unchanged.

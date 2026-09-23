@@ -24,6 +24,15 @@ A newly demonstrated pathogenic allele in trans or a separate dominant mechanism
 would require a new causal justification; neither restores these two variants as
 a compound-heterozygous pair.
 
+## Food-derived competitors qualified on 23 September 2026
+
+| Candidate | Positive retained | Limit and current decision |
+|---|---|---|
+| **Astaxanthin** | Some viability/colony measures improve in ordinary mouse spermatogonial stem cells cultured on astaxanthin-containing hydrogels. | **Low-priority formulation lead.** Matrix/compound effects are inseparable; proliferation and senescence findings are mixed. Bub1b is only a pathway-list member, without direction or gene-specific statistics. No BUBR1 protein, fidelity or muscle rescue. [Qualification](../../workflow/track2-drug-census/astaxanthin-qualification.md). |
+| **Citral** | Actual AGS cancer-cell growth/colony inhibition and apoptosis, with a more resistant MRC-5 viability comparator. | **Retain anticancer findings; deprioritize restoration/compensation.** Lower BUB1B RNA is not FDR-significant (q=0.542718), with one reported RNA library per condition and no protein/fidelity validation. Normal-MVA harm or benefit was not tested. [Qualification](../../workflow/track2-drug-census/citral-qualification.md). |
+
+Neither result supplies an oral food/supplement exposure bridge or a reason to replace provisional niacin/apitegromab under the shared output, renewal and fidelity standard.
+
 ## Elected hypotheses and within-pathway references
 
 The [catalog and comparative assessment](../../workflow/track2-drug-census/decision-report.md) expanded the route set and changed the second nomination. These are research priorities, not measured efficacy estimates or clinical recommendations. The pipeline's four core claims are niacin/apitegromab × progenitor/mature-muscle benefit; conditional probes remain separately prespecified exploratory work until promoted.

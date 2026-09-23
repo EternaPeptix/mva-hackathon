@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 161 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 163 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 The [three-paper comparison](vascular-enzyme-qualification.md) retains
 anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
@@ -12,11 +12,7 @@ replacing the provisional niacin/apitegromab pair.
 
 ## Food-derived and epigenetic compounds, 23 September 2026
 
-The new [FDA food-substance inventory](food-substances/README.md) preserves
-3,971 source rows and 234 literal mention rows as a separate discovery layer.
-It includes explicit prohibited/delisted entries and unresolved identities;
-neither food-list membership nor a name hit is efficacy or approval evidence.
-The full search remains unfinished.
+The [FDA food-substance inventory](food-substances/README.md) preserves 3,971 source rows and 234 lexical matches. The separate [food abstract overlay](food-substances/abstract-findings.md) reviews 67 source/ID records behind all 73 literal-policy rows; the 161 common-name rows remain unreviewed. Eight records overlap prior accepted readings and two overlap batch08, while 57 overlap neither. The overlay adds no outer credit, and neither inventory membership nor a name hit establishes efficacy, approval or formulation equivalence.
 
 | Candidate | Evidence that changes its assessment | Decision relative to the provisional nominees |
 |---|---|---|
@@ -25,13 +21,7 @@ The full search remains unfinished.
 | **Bromosporine** | Pancreatic-tumor monotherapy benefit and additional anti-PD-1 combination benefit. | **Retain anticancer comparator.** Broad bromodomain activity, incomplete catalytic PCAF attribution, immune nulls and absent formal synergy prevent the stronger mechanistic claims. No MVA-restoration bridge. [Qualification](bromosporine-qualification.md). |
 | **GSK591 / STM2457** | GSK591-only animal effects plus cell/PDO combination effects. | **Retain cancer probes.** One PDO has no significant combination advantage over either monotherapy; animal combination and formal synergy are not demonstrated. BUB1B is a correlation, not rescue. [Qualification](prmt5-mettl3-qualification.md). |
 
-Five new entries bring the ledger to **161**, with an additional source for the
-existing (+)-JQ1 entry. The other 155 preceding assessment objects are unchanged.
-The separate MS023 paper's [36-compound screen](ms023-screen-compounds.json)
-retains observations and control roles without 36 new appraisal credits.
-Primary follow-ups and overlapping retrieval add no outer-corpus completion
-credit: **2,516 selected strings remain pending**. Niacin/apitegromab remain
-provisional under the same protein/function, exposure and fidelity requirements.
+That five-entry follow-up brought the ledger to **161** and refined (+)-JQ1; the other 155 preceding objects were unchanged. Two further qualifications bring the current total to **163**: [astaxanthin](astaxanthin-qualification.md) remains a low-priority composite-culture lead with mixed endpoints and no isolated-compound attribution; [citral](citral-qualification.md) retains cancer-cell effects and a normal-cell comparator, but its BUB1B RNA decrease is not FDR-significant. The MS023 [36-compound screen](ms023-screen-compounds.json) remains screening evidence, not 36 appraisals. [Batch08](batch08-revalidation-findings.md) brings accepted revalidations to **1,210**, outer records to **3,371**, and pending strings to **2,388**; its 18 questions are not drugs. The provisional nominees are unchanged.
 
 ## Research probes: two primary follow-ups, 23 September 2026
 
@@ -46,10 +36,7 @@ discovery; it does not establish those probes as treatments or unique new drugs.
 | **GSK778 / ipatasertib** | Separate glioblastoma proliferation and AKT/chromatin experiments. | Add distinct cell/mechanism probes; neither inherits GSK620 survival or normal-cell selectivity. |
 | **GSK343 / DZNep** | Ordinary-oocyte methylation perturbation, distinct from genetic EZH2 effects on BubR1. | Retain mechanism probes. No drug-mediated restoration; rare GSK343 polar-body abnormalities and limited functional-rescue evidence remain explicit in the [primary assessment](ezh2-oocyte-qualification.md). |
 
-That earlier follow-up added four appraisals and refined two BET entries;
-the other 150 preceding entries were unchanged. Neither
-this inventory nor the seven overlapping readings changes the **2,516 pending**
-outer strings. Niacin and apitegromab remain provisional, unproved in MVA.
+That earlier follow-up added four appraisals and refined two BET entries; the other 150 preceding objects were unchanged. **At that historical checkpoint, 2,516 strings remained pending**; the probe inventory and seven overlapping readings added no outer credit. Niacin and apitegromab remain provisional, unproved in MVA.
 
 ## The same comparison for leaders and challengers
 
@@ -313,8 +300,8 @@ restoration or MVA efficacy, and the nominated pair is unchanged.
 
 The [source revalidation](review-quality-followup.md) withdraws the proposed
 all-read/no-further-leads conclusion from an unreliable draft. The initial 186
-re-read source records plus [seven subsequent 128-record batches](batch07-revalidation-findings.md)
-leave 2,516 selected strings requiring revalidation. The
+re-read source records plus [eight subsequent 128-record batches](batch08-revalidation-findings.md)
+leave 2,388 selected strings requiring revalidation. The
 [UMK57 appraisal](umk57-qualification.md) adds a genuine acute and completed-division
 fidelity result in cancer cells, followed by limited durability. It is a
 mechanistic competitor, not an established MVA medicine. Apcin's context-dependent
@@ -336,8 +323,8 @@ recovered matches and source-role decisions into current coverage and triage:
 511 entities have specific co-mentions, while 14,846 remain without one. A
 match is not efficacy. The [primary-question status](primary-question-status.json)
 now links nine of the original 34 questions to primary qualifications, leaving
-25 unreconciled there. The seven later batches flag 52, 49, 31, 34, 27, 22 and 14 further
-questions respectively; 2,516 selected strings still require revalidation. Publication and
+25 unreconciled there. The first seven later batches flagged 52, 49, 31, 34, 27, 22 and 14 questions.
+Batch08 adds 18 further source questions, not 18 drugs; 2,388 selected strings still require revalidation. Publication and
 submission remain pending.
 
 
@@ -440,9 +427,7 @@ existing ascorbate-phosphate entry. Those additions brought the ledger to **142*
 | Rotenone | Adverse-direction cell-marker perturbation. | Mechanistic control, without a therapeutic rescue result. |
 | FGF4 plus AA | Improved differentiation and optical beating in hESC-derived cardiomyocytes. | Combination-level cardiac function; subsequent hypoxia caused injury, and the BUB1B transcript decrease does not establish protein rescue. |
 
-The [seventh reading batch](batch07-revalidation-findings.md) brings accepted
-revalidations to 1,082, leaving 2,516 selected strings pending. Its 14 questions
-remain separately flagged. Neither current nominee is MVA-proven.
+**Historical batch07 checkpoint:** the [seventh reading batch](batch07-revalidation-findings.md) brought accepted revalidations to 1,082 and left 2,516 strings pending, with 14 questions separately flagged. These are that checkpoint’s counts, not the current totals.
 
 ## Cancer control and mitotic timing are distinct positives
 
@@ -472,8 +457,8 @@ provisional niacin/apitegromab comparison.
 
 ## BET and neural-stem-cell follow-up
 
-Nine additional appraisals bring the current ledger to **152**. All 143
-preceding assessment objects are unchanged. The
+**Historical BET/neural checkpoint:** nine appraisals brought the ledger to **152**. All 143
+preceding assessment objects were unchanged at that stage. The
 [BET review](bet-macrophage-qualification.md) distinguishes seven compounds
 from one shared macrophage study; [the sFRP3 review](sfrp3-direction-qualification.md)
 adds a recombinant protein and levetiracetam. AAV gene delivery is kept
@@ -486,11 +471,7 @@ separate and does not create another compound entry.
 | Recombinant sFRP3 | Reduced excess stem-cell division in APP mice. | Long-term pool/behavioral findings used AAV. Hypomorphic BubR1 models start with deficient division and support the opposite genetic direction. |
 | Levetiracetam | Frzb RNA increase among selected seizure responders. | Nonresponders excluded, inconsistent sample count, and no new BUBR1/muscle or all-treated functional result. |
 
-These primary follow-ups receive **zero additional abstract-reading credit**:
-1,082 literal revalidations, 3,243 outer source/ID records and 2,516 pending
-strings remain the current coverage. No new independent reviewer or biological
-replication is claimed. Niacin/restoration and apitegromab/compensation remain
-provisional under the same functional and safety requirements.
+These historical primary follow-ups supplied **zero additional abstract-reading credit**. Current coverage is recorded above; no biological replication is claimed. Niacin/restoration and apitegromab/compensation remain provisional under the same functional and safety requirements.
 
 ABBV-744, molibresib, apabetalone and levetiracetam join existing catalog
 entities by exact normalized aliases. The other five do not; none of these

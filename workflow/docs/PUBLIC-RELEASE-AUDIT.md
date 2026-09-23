@@ -882,3 +882,13 @@ records, with 2,516 selected strings pending. PR1 reader/test/selection and all 
 IDs remain; 103 PR1 objects are unchanged. Track 1/current media, historical source
 identities and original inventory decisions are preserved. No publication,
 merge or Track 2 submission is authorized by this update.
+
+## Food abstract and primary follow-up, 23 September 2026
+
+Two primary qualifications bring the ledger to 163, preserving all 161 prior objects. Citral retains cancer-cell effects and the MRC-5 comparator while its BUB1B RNA change is not FDR-significant. Astaxanthin retains composite-culture positives, mixed markers and unresolved assay timing/compound attribution. Separate source checks corrected the timing description and preserved source limitations; this is not a whole-submission score or biological replication.
+
+The food overlay records 67 saved abstracts behind 73 literal-policy rows, with raw text/logs external and no automatic outer credit. It preserves retraction, preprint/version and intervention-identity distinctions; 161 common-name rows remain unreviewed. Separate identity/data validation reconciles the exact source strings and overlaps. FDA source rows and 234 mention rows are preserved, with only astaxanthin/citral name cross-references added. The earlier independent parser review remains identified as its 161-entry snapshot.
+
+Batch08 adds 128 disjoint literal source readings for 1,210 accepted revalidations and 3,371 outer source/ID records, leaving 2,388 selected strings pending. It retains one retracted publication, two erratum-linked records and two preprints; linked notices are not claimed as read. Eight root cross-reader comparisons required no substantive change. Source/log replay verifies identities and declarations, not scientific truth.
+
+Original assessments, compact bibliographic/status metadata and verification code are the only new repository content. Raw abstracts, papers, figures, workbooks and previews remain external. No controlled-case payload is added. All 109 PR1 IDs and 103 unchanged objects, Track 1/current media, original inventory decisions and historical source identities are preserved. No publication, merge or Track 2 submission is authorized.

@@ -6,14 +6,7 @@ publication-hold status.
 [PR1 reuse](pr1-reuse.md) records which work is already incorporated, adds
 bounded UMK57 control findings, and preserves the later source corrections.
 
-The [food-substance layer](food-substances/README.md) now retains all 3,971 rows
-of the retrieved FDA table, with prohibited/delisted labels and unknown efficacy
-preserved. Five new appraisals bring the total to **161**.
-[Lunasin](lunasin-qualification.md) is a transcript-level restoration reserve;
-[MS023](ms023-qualification.md) lowers BUB1B in its tested cancer models.
-[Bromosporine](bromosporine-qualification.md) and
-[GSK591/STM2457](prmt5-mettl3-qualification.md) retain their actual cancer
-benefits without inheriting selective mechanisms or unmeasured MVA rescue.
+The [food-substance inventory](food-substances/README.md) preserves 3,971 FDA rows and their explicit prohibited/delisted flags. A separate [abstract overlay](food-substances/abstract-findings.md) now covers 67 source/ID records behind all 73 literal-policy rows; 161 common-name rows remain unreviewed. Eight records overlap prior accepted readings, two overlap batch08 and 57 overlap neither; the overlay adds no outer credit. New [astaxanthin](astaxanthin-qualification.md) and [citral](citral-qualification.md) primary qualifications bring the appraisal ledger to **163**. Composite-culture and cancer-cell positives do not establish BUBR1/MVA rescue or food/supplement equivalence. Earlier [lunasin](lunasin-qualification.md), [MS023](ms023-qualification.md), [bromosporine](bromosporine-qualification.md) and [GSK591/STM2457](prmt5-mettl3-qualification.md) findings retain their qualified roles.
 
 The [research-probe inventory](sgc-probes/README.md) adds 249 SGC probe labels
 and 230 parent-scoped negative-control records as a separate discovery layer.
@@ -23,11 +16,7 @@ survival, while the [EZH2 study](ezh2-oocyte-qualification.md) separates genetic
 BUBR1 stabilization from drug inhibition. Those primary follow-ups added four appraisals, not 249 demonstrated treatments,
 and no outer-corpus reading credit.
 
-The latest qualifications retain [unesbulin's cancer benefit](unesbulin-qualification.md)
-and [okadaic acid's mitotic-entry timing rescue](greatwall-qualification.md), with
-separate endpoints and source limits. Neither establishes MVA restoration.
-The [seventh 128-record revalidation](batch07-revalidation-findings.md) leaves
-2,516 selected strings pending; the search remains unfinished.
+The [eighth 128-record revalidation](batch08-revalidation-findings.md) brings accepted literal readings to **1,210**, outer source/ID records to **3,371**, and pending strings to **2,388**. Its 18 questions are follow-ups, not new drug appraisals. Earlier [unesbulin cancer benefit](unesbulin-qualification.md) and [okadaic-acid timing rescue](greatwall-qualification.md) remain distinct source-qualified positives. The search remains unfinished, and niacin/apitegromab remain provisional.
 
 **Catalog snapshot: 21 September 2026; corrected text screen: 22 September 2026,
 America/Phoenix (retrieval timestamps are UTC).**
@@ -501,30 +490,9 @@ combination-specific; neither displaces the niacin/apitegromab comparison.
 
 ## Source revalidation after a failed completion audit
 
-The [quality follow-up](review-quality-followup.md) rejects an unreliable
-3,598-record draft's claim of faithful completion. The initial 186 literal
-revalidations and seven subsequent 128-record batches now total **1,082 strings**,
-bringing the outer ledgers to **3,243 source/ID records** and leaving **2,516
-selected strings pending**. The preceding 2,161 annotations have not been
-independently re-audited here. Four initial strings are non-abstract items.
-The latest batch contains 128 saved source strings, including reviews, a guideline,
-a commentary, a conference abstract and a case report; these are not 128
-independent experiments. Original empty
-fields and recovered bodies remain separately accounted for.
+The [quality follow-up](review-quality-followup.md) rejects an unreliable 3,598-record completion claim. The initial 186 literal revalidations plus eight 128-record batches now total **1,210**, bringing outer coverage to **3,371 source/ID records** and leaving **2,388 selected strings pending**. The preceding 2,161 annotations were not independently re-audited here. Four initial strings are non-abstract items; originally empty fields and recovered bodies remain separately accounted for. Batch08 includes diverse abstract types, two preprints and one retracted publication. Reading a source does not endorse its claims or make 128 source records independent experiments.
 
-The [first 128](next128-revalidation-findings.md) flagged 52 source questions;
-the [second](batch02-revalidation-findings.md) 49,
-[third](batch03-revalidation-findings.md) 31,
-[fourth](batch04-revalidation-findings.md) 34,
-[fifth](batch05-revalidation-findings.md) 27,
-[sixth](batch06-revalidation-findings.md) 22, and
-[seventh](batch07-revalidation-findings.md) 14. These are questions, not qualified
-medicines. Eight independent cross-reader checks in the latest batch required
-no substantive amendments; this is a targeted check, not an estimated error
-rate. The latest batch retains six unread preprint links and three commentary links;
-its saved metadata has no correction/retraction flags. Earlier unread errata
-remain separate.
-Earlier notice and annotation decisions are preserved at their declared scope.
+The historical [first](next128-revalidation-findings.md), [second](batch02-revalidation-findings.md), [third](batch03-revalidation-findings.md), [fourth](batch04-revalidation-findings.md), [fifth](batch05-revalidation-findings.md), [sixth](batch06-revalidation-findings.md) and [seventh](batch07-revalidation-findings.md) batches flagged 52, 49, 31, 34, 27, 22 and 14 questions respectively. [Batch08](batch08-revalidation-findings.md) flags **18 further questions**, not 18 drugs. Eight predetermined root cross-reader checks required no substantive changes; no error-rate estimate follows. Saved metadata retain one retracted publication, two erratum-linked records, two preprint records, four linked-preprint notices and five commentary links. Notices were not read merely because their links were retained; no retraction reason is inferred.
 
 [UMK57](umk57-qualification.md) adds actual acute and post-division fidelity
 evidence with limited durability, bringing that stage to 109 appraisals.
@@ -614,8 +582,8 @@ remain unchanged. No source qualification adds abstract-reading credit.
 
 ## BET and neural-stem-cell follow-up
 
-Nine additional appraisals bring the current ledger to **152**. All 143
-preceding assessment objects are unchanged. The
+**Historical BET/neural checkpoint:** nine appraisals brought the ledger to **152**. All 143
+preceding assessment objects were unchanged at that stage. The
 [BET review](bet-macrophage-qualification.md) distinguishes seven compounds
 from one shared macrophage study; [the sFRP3 review](sfrp3-direction-qualification.md)
 adds a recombinant protein and levetiracetam. AAV gene delivery is kept
@@ -628,11 +596,7 @@ separate and does not create another compound entry.
 | Recombinant sFRP3 | Reduced excess stem-cell division in APP mice. | Long-term pool/behavioral findings used AAV. Hypomorphic BubR1 models start with deficient division and support the opposite genetic direction. |
 | Levetiracetam | Frzb RNA increase among selected seizure responders. | Nonresponders excluded, inconsistent sample count, and no new BUBR1/muscle or all-treated functional result. |
 
-These primary follow-ups receive **zero additional abstract-reading credit**:
-1,082 literal revalidations, 3,243 outer source/ID records and 2,516 pending
-strings remain the current coverage. No new independent reviewer or biological
-replication is claimed. Niacin/restoration and apitegromab/compensation remain
-provisional under the same functional and safety requirements.
+These historical primary follow-ups supplied **zero additional abstract-reading credit**. Current coverage is recorded in the source-revalidation section above. No biological replication is claimed; niacin/restoration and apitegromab/compensation remain provisional under the same functional and safety requirements.
 
 ABBV-744, molibresib, apabetalone and levetiracetam join existing catalog
 entities by exact normalized aliases. The other five do not; none of these

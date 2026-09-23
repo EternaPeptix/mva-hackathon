@@ -196,7 +196,7 @@
   ],
   "disposition": "NO_REMAINING_ACTIONABLE_FINDING_WITHIN_DOCUMENTED_CONTRACT",
   "publication_contract": "Input-change validation failure preserves previous package. Summary is published last; interruption during sequential file replacement remains detectable by hash checking, not transactional.",
-  "current_package_verified": true,
+  "current_package_verified": false,
   "current_package_evidence": "food-parser-fixed-package-evidence.json",
   "fixed_publication_evidence": "food-parser-fixed-publication-evidence.json",
   "fixed_policy_evidence": "food-parser-fixed-policy-evidence.json",
@@ -205,5 +205,29 @@
     "food-parser-review-initial.md",
     "food-parser-review-initial.json"
   ],
-  "review_evidence_location": "External sgc-followup-20260923/prmt5-mettl3; original review and fixtures retained outside Git."
+  "review_evidence_location": "External sgc-followup-20260923/prmt5-mettl3; original review and fixtures retained outside Git.",
+  "checkpoint_scope": "Original independent parser review at the161-appraisal snapshot. Original input/output hashes are retained; not a claim of independent review of later join updates.",
+  "subsequent_parent_reconciliation": {
+    "date": "2026-09-23",
+    "reviewer": "/root",
+    "current_decision_count": 163,
+    "current_input_hashes": {
+      "food-substances-all.html": "54eb4a22b71a109b870ed6133c6bbdb8afc09b395a855170b762cb1d46702acd",
+      "literature-gene-unrestricted.json": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+      "catalog.tsv": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299",
+      "aliases.tsv": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3",
+      "drugcentral-status-unverified.tsv": "10e227cf35b49bf07e7d28f86afee12e0ebd88335a4090275b21339396db372f",
+      "decisions.json": "b75a5427eac6a8ee603c0343d3bd36668ddba391f59afb5dcd9d9ef4c8fe2ec9"
+    },
+    "current_output_hashes": {
+      "substances.tsv": "95a98fa67957409816635894e54fb9518aec7deea154bc7c15d977640387de24",
+      "mentions.tsv": "9408dd04ea11f09299b7928c5d88e1b874c0041d847ea4c8ed0208159daf33a6"
+    },
+    "scope": "Same parser/source/corpus/catalog; only two curated-name links changed (astaxanthin,citral). All other source-row fields and all234 mention rows remain byte/value-identical. SGC outputs also identical except decisions input hash in summary. No new independent parser or clinical review claimed.",
+    "changed_source_row_ids": [
+      "fda-food:0268",
+      "fda-food:0687"
+    ],
+    "result": "PASS"
+  }
 }

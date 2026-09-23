@@ -68,7 +68,7 @@ while preserving all 109 PR1 IDs. The reader/test and all 3,598 selection
 records remain identical. The unsupported completion verifier is retained in
 Git history rather than used for current coverage.
 
-## Current preservation check, 23 September 2026
+## Preservation checkpoints, 23 September 2026
 
 The exact requested PR1 revision is an ancestor of this branch. All **109**
 assessment IDs remain, with **103 decoded objects unchanged**. Six have later
@@ -91,7 +91,9 @@ objects unchanged. The PR1 preservation counts above are unchanged. The
 separate 249-label SGC inventory and its seven actual abstract readings do not
 increase outer-corpus completion counts or prove new efficacy.
 
-The food/epigenetic follow-up brings the current ledger to **161**, adding five
+The earlier food/epigenetic follow-up brought the ledger to **161**, adding five
 appraisals and a new source to (+)-JQ1 while preserving the other 155 preceding
 objects. PR1 identity/reader/selection preservation is unchanged. The 3,971 FDA
 food source rows are a separate inventory, not unique-drug or efficacy credit.
+
+The current [batch08](batch08-revalidation-findings.md) and food-source follow-up bring the ledger to **163**, with all preceding 161 objects unchanged. Accepted literal revalidations total **1,210**; outer source/ID records total **3,371**, with **2,388** selected strings pending. The 67-record food overlay receives no extra outer credit. PR1 preservation remains 109 IDs/103 unchanged objects, with the same reader/test and 3,598 selected records. No duplicate merge is needed.

@@ -12941,7 +12941,7 @@
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
     "reviewed_at_utc": "2026-09-22T02:51:50.650727+00:00",
-    "scope": "336 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
+    "scope": "347 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12954,7 +12954,7 @@
       "original_audit_bytes_sha256": "7fae846b1a22b88b05096372fa4fbbd9bbca7f27e23f725a2ff32ad1b6a2644b",
       "all_original_fields_unchanged": true
     },
-    "reviewed_payload_count": 336,
+    "reviewed_payload_count": 347,
     "report_tree_files": 32,
     "reviewed_files": [
       {
@@ -12977,8 +12977,8 @@
       },
       {
         "path": "README.md",
-        "bytes": 10471,
-        "sha256": "cb0a6e47709bd7626641514897844ab2fecef52fdffa14d84dbc9d7ac00b1327",
+        "bytes": 10336,
+        "sha256": "8571c2b5dd1002e2820d24c80efa762e3e3a4e9fe9847614b9d4b1f0d7439adb",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13004,8 +13004,8 @@
       },
       {
         "path": "reports/README.md",
-        "bytes": 14008,
-        "sha256": "02f304a7ba851cdbcbbd0f14bf7735d7d74e4a26a49b4996fa6e415dd14daa3f",
+        "bytes": 13947,
+        "sha256": "cd210aca5f4fc3775ce840e7853fe9a9ef8d97ed91e1f696248428525080619c",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13157,8 +13157,8 @@
       },
       {
         "path": "reports/appendices/track2-route-decisions.md",
-        "bytes": 65239,
-        "sha256": "bca99a52c5f3796a63ff5ced86908adcf52dafe3eef8376f7069217cb28a3701",
+        "bytes": 66495,
+        "sha256": "b01f18fdd161bc6328c43f52cd0cc7e2aeb009ce70e409ba43cbf45d36501553",
         "mode": 420,
         "decision": "keep",
         "category": "scientific_route_comparison",
@@ -13184,8 +13184,8 @@
       },
       {
         "path": "reports/jeweled_methods_form_answers.md",
-        "bytes": 43030,
-        "sha256": "9cf3c7759895e9a824d58c5b48aa2ff38223eff2f048ee68669e2e1eb7b84f6e",
+        "bytes": 43491,
+        "sha256": "5e01448c9e0080bb11afa620409a02604f6a2cc53599d3cb3dec7c7ad6b652e6",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13220,8 +13220,8 @@
       },
       {
         "path": "reports/jeweled_track2_report_submission.md",
-        "bytes": 18221,
-        "sha256": "ae63821f2d5329fa7d65feb7b54479cd9cc5a0d21d4ff1595a2322770100a5e7",
+        "bytes": 18100,
+        "sha256": "53e74fb20e6f55b7287eb2b079a1d899a44d41d62e058d4db4087e08c43848c6",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13412,8 +13412,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 43065,
-        "sha256": "e808ca9741af40493380b80df818231997341be09d4f22b6e371c0164f69d841",
+        "bytes": 43458,
+        "sha256": "121b7689c0ec2b4d46e08aaf0a9ea40c148cb6719d77476daea4da2efdfd37a2",
         "mode": 420
       },
       {
@@ -13507,6 +13507,24 @@
         "mode": 420
       },
       {
+        "path": "workflow/track2-drug-census/astaxanthin-qualification.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
+        "bytes": 3965,
+        "sha256": "f2f2d0be7d60dcd68951d4d75c415ca4474ff10592ee4e3afec171702e3f87fb",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/astaxanthin-qualification.md",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
+        "bytes": 4763,
+        "sha256": "26e4d040b3f54fe5e0284f7deecdd15649d107af81c3edbfc6ecc29df273a558",
+        "mode": 420
+      },
+      {
         "path": "workflow/track2-drug-census/audit_text_decoder.py",
         "decision": "keep",
         "category": "public_source_research_assessment",
@@ -13594,6 +13612,15 @@
         "grounds": "Original public-source assessments, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
         "bytes": 9236,
         "sha256": "5f292c6016242d122d2efbd81a324c3ec201e261c1e105bec635fef2930d5aef",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/batch08-revalidation-findings.md",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
+        "bytes": 8224,
+        "sha256": "06532fa95c34b9f16aa2251933884e467a4ee9b71e49cd695aa8f2c96653b1b0",
         "mode": 420
       },
       {
@@ -13736,8 +13763,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 2551663,
-        "sha256": "d5d96dc0711da62d943248c62f012fb4c13181b39bc5cf225143f7939fad0106",
+        "bytes": 2551767,
+        "sha256": "3bd428085cf47eac79fb807216479a2a361d2fee831a33df44f01cc13ebfb267",
         "mode": 420
       },
       {
@@ -13795,6 +13822,24 @@
         "mode": 420
       },
       {
+        "path": "workflow/track2-drug-census/citral-qualification.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
+        "bytes": 4497,
+        "sha256": "4b1532d30825d7123371f8715aca976c6b8025aacb666dacc9a27e9bc6666941",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/citral-qualification.md",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
+        "bytes": 4682,
+        "sha256": "93f3857209d23af8a37a940de47f68ecfd752e2fed8eb46694b695f4ce137141",
+        "mode": 420
+      },
+      {
         "path": "workflow/track2-drug-census/clearance-and-fidelity.md",
         "decision": "keep",
         "category": "public_source_research_assessment",
@@ -13844,8 +13889,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 29595,
-        "sha256": "84bcc31386a70263dd8164a1c7f6002c9f60d50ad79dc7f0794b0f2772b199d5",
+        "bytes": 29994,
+        "sha256": "5b4b4be78a9b06528522d2e1e2165eae1155c6fd004215f48bf4f996ebca3fe2",
         "mode": 420
       },
       {
@@ -13853,8 +13898,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 46295,
-        "sha256": "2a7c6cfe6659756258c3e1ecad70adc5f9e6896c9a7b56f78dcf74ff9ee006a3",
+        "bytes": 46818,
+        "sha256": "96cbb08f6261bce8a34f3453fcc8c17eac250176dd7c919bc8f1b58e12af7417",
         "mode": 420
       },
       {
@@ -13862,8 +13907,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 229653,
-        "sha256": "09d6fd11e8cd33bf2e80a422db821a1a22b10a72313ec143dae06570c22c37d4",
+        "bytes": 231850,
+        "sha256": "b75a5427eac6a8ee603c0343d3bd36668ddba391f59afb5dcd9d9ef4c8fe2ec9",
         "mode": 420
       },
       {
@@ -14087,8 +14132,35 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 4853,
-        "sha256": "025cd3e508dd2a49db44da52f053c24c9dd1c3dae6b7544b9245802c1144133d",
+        "bytes": 5768,
+        "sha256": "d7f5fddaf1944d9d521b23deef27f56d73ed93583a3bb8ab595a3933a7a4e7c6",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/food-substances/abstract-findings.md",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
+        "bytes": 12566,
+        "sha256": "e092126f32ea5d8ea850946344de0958cca8ffdbb2c03851fc3c0dfd047d20aa",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/food-substances/abstract-review.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
+        "bytes": 256537,
+        "sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/food-substances/abstract-selection.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
+        "bytes": 32095,
+        "sha256": "b676239a155b56d781b4f1f3165067ab646d67b8b9a36cacb34a918247270807",
         "mode": 420
       },
       {
@@ -14105,8 +14177,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 9375,
-        "sha256": "c489174640feffd9ff090dad6455c134be3be93e1f1b509dec3eb7b939453011",
+        "bytes": 10962,
+        "sha256": "5730f144200b482eee665b054670580438f75815c38f5adb1c87a55f4b206f7a",
         "mode": 420
       },
       {
@@ -14114,8 +14186,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 2018587,
-        "sha256": "617d7dd737900dd9f964f08bc4bad4d9ac7def508986af6d5f483015210aebc3",
+        "bytes": 2018624,
+        "sha256": "95a98fa67957409816635894e54fb9518aec7deea154bc7c15d977640387de24",
         "mode": 420
       },
       {
@@ -14124,7 +14196,7 @@
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
         "bytes": 2695,
-        "sha256": "f84dd27e4275bed80a7222b383c7c4907af649e9b039d208cf6dab5b573ad4de",
+        "sha256": "23c16bda629fba28830ed87e5d5f730bd5c1fad70895cfbd2924e3ec7dff8f01",
         "mode": 420
       },
       {
@@ -14839,6 +14911,24 @@
         "mode": 420
       },
       {
+        "path": "workflow/track2-drug-census/outer-revalidation-batch08-review.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
+        "bytes": 551929,
+        "sha256": "c186a07facdce5cad33e256dfcaa46b65d635885d5e04558c53f9436cbb2f3fc",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/outer-revalidation-batch08-selection.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
+        "bytes": 56800,
+        "sha256": "da79beb920fb00c7777268452b7c1e31b248df8deef064533bf195147dfe960e",
+        "mode": 420
+      },
+      {
         "path": "workflow/track2-drug-census/outer-revalidation-next128-review.json",
         "decision": "keep",
         "category": "public_source_research_assessment",
@@ -14951,8 +15041,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 3613,
-        "sha256": "75fd5a9fb2fa171b5f82a9a1e9500daa39222fdc4043f08e6c6747d0991e0e80",
+        "bytes": 3664,
+        "sha256": "342b550d525736aea7dab55f6807bf724eaf448c328d66d126577807fc3e88d7",
         "mode": 420
       },
       {
@@ -14960,8 +15050,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 6914,
-        "sha256": "ce91c3b5c55eb011f11be9fece6372d6bac0e2be25430c26afa56e4327fcad6f",
+        "bytes": 7396,
+        "sha256": "d26fe77cecf7cdcc5ecf6fd0c18daad6cdb3440b0654855847512eb82b31a4d9",
         "mode": 420
       },
       {
@@ -15204,7 +15294,7 @@
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
         "bytes": 2739,
-        "sha256": "c3f5bfd20d35614ef43d74ed013cabebfb48cd104ea7dc65ba1cfd17ce2a101f",
+        "sha256": "bf23abdc63c2e8ed24bb197c55763c29c987942db6e63872edd72a9fefa58b1a",
         "mode": 420
       },
       {
@@ -15401,8 +15491,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 29223,
-        "sha256": "8c325cd3dd1968164db74e80cbd005b485e49535e3e31659aed86a5a78362ef3",
+        "bytes": 29437,
+        "sha256": "e8df97ffef01c95daa1a155bb22d9e329f8256323c2beb58f4b231ff8a0ca3bc",
         "mode": 420
       },
       {
@@ -15502,6 +15592,15 @@
         "grounds": "Original public-source assessments, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
         "bytes": 33377,
         "sha256": "d7c9b7485acdd132885639afa0049f26227068dc745c7ad7597c222dd809acba",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/verify_revalidation_batch08.py",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
+        "bytes": 33853,
+        "sha256": "c8424d6e574c30a91af6a4bae19f9d9a23eae1d1372e0113c5caeb5bd0677100",
         "mode": 420
       },
       {
@@ -16671,6 +16770,15 @@
       "verification": "Three delegated primary qualifications, separate lunasin source check, independent FDA parser/source/match/fix review; ten focused regression tests, deterministic food replay, existing census reconciliation and package preservation. No whole-submission clean-state score, clinical signoff or biological replication.",
       "payload_scope": "Original assessments, public source-table/bibliographic facts, hashes, control/screen roles and code. Raw HTML, abstracts, articles, figures, workbooks and previews external. No controlled-case payload added.",
       "delivery": "Private draft:161 appraisals;3243 outer source/ID records and2516 pending unchanged. All109 PR1 IDs and103 unchanged objects retained, with reader/test and3598 selections. Track1/media intact. No merge, publication or submission."
+    },
+    "food_abstract_primary_followup": {
+      "reviewed_at_utc": "2026-09-23T09:04:14.932861+00:00",
+      "baseline_commit": "1a8ad6c9cc8285755338a6c0c25e4e83b1dcd6dc",
+      "scope": "Two primary qualifications add astaxanthin and citral for163 appraisals; all161 prior objects unchanged. Food overlay67source records/73literal-policy matches receives0outer credit. Batch08 adds128disjoint readings for1210accepted/3371outer/2388pending.",
+      "science": "Composite-culture attribution/mixed markers retained for astaxanthin; cancer-cell and MRC5 positive retained for citral, with BUB1B nominalPversusFDR distinction. No new MVA rescue or clinical efficacy.",
+      "verification": "Separate bounded primary checks with corrections, food source/log/overlap data validation, eight root cross-reader checks and full batch08 replay. Verifiers do not prove scientific truth or independent clinical approval.",
+      "payload_scope": "Original assessments, compact bibliographic/status metadata and source/evidence verifier. Raw source HTML, abstracts, articles, figures, workbooks and previews external. No controlled-case data added.",
+      "delivery": "Private draft. All109PR1 IDs/103unchanged objects, reader/test/3598queue, Track1/current media, original inventory decisions and historical source identities preserved. No merge, publication or submission."
     }
   }
 }
