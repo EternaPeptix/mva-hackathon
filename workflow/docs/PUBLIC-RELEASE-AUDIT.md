@@ -939,7 +939,7 @@ Batch12 adds 256 exact strings in 64 outputs. Sixteen predetermined root source/
 
 The NIH replay adds five selenomethionine name links across three source groups, with source fields and six other outputs unchanged. Group147 is generically named Selenium but matches a specific synonym; this is not equivalence across selenium forms. Historical parent reconciliations remain intact. FDA and SGC output tables are unchanged, and inventory work adds no reading or efficacy credit.
 
-Eight new files contain original qualifications, compact source metadata and replay code. Raw articles, figures, complete GEO matrix/platform data and controlled case inputs remain external. A bounded independent selenium source check and selected root pectolinarigenin figure checks retain their actual scope. Track1, current media/model/transfer, historical source identities and original inventory decisions are preserved. This private draft update is not approval to merge or submit Track2.
+Eight new files contain original qualifications, compact source metadata and replay code. Raw articles, figures, complete GEO matrix/platform data and controlled case inputs remain external. A bounded independent selenium source check and selected root pectolinarigenin figure checks retain their actual scope. Track 1, current media/model/transfer, historical source identities and original inventory decisions are preserved. This private draft update is not approval to merge or submit Track 2.
 
 ## Common symptom and biomarker qualification, 23 September 2026
 
@@ -949,4 +949,14 @@ Batch13 adds 512 exact saved strings in 128 outputs. Sixteen predetermined root 
 
 The NIH replay adds two capsaicin name links across source groups3951 and3807, retaining their Capsaicin/Capsaisin spellings and the chemical/product-equivalence limitation. All source fields and six other outputs are preserved. FDA and SGC data tables remain byte-identical; historical independent inventory checks and parent reconciliations retain their original scope.
 
-Eight new files contain original assessments, compact selection/review metadata and verification code. Track1, current media/model/transfer/RNA, all prior assessment objects, historical source identities and original inventory decisions remain preserved. This private draft update neither changes repository visibility nor authorizes merging or Track2 submission.
+Eight new files contain original assessments, compact selection/review metadata and verification code. Track 1, current media/model/transfer/RNA, all prior assessment objects, historical source identities and original inventory decisions remain preserved. This private draft update neither changes repository visibility nor authorizes merging or Track 2 submission.
+
+## Potentilla preparation-specific protection, 23 September 2026
+
+Two preparation-specific entries bring the ledger to 181, preserving all 179 preceding objects. The methanolic root extract retains a 2/10 versus 10/10 carcinoma observation at 260 days and partial premature chromosome-separation protection during carcinogen co-exposure. ECGU retains the separation phenotype, without inheriting the extract tumor endpoint or individual-component efficacy. Native figures, tables and supplement qualify reporting discrepancies and nonsignificant marker comparisons; BUBR1 and muscle function were not assayed. Root and bounded independent checks retain their actual source and arithmetic scope, without biological replication.
+
+Batch14 adds 512 exact strings in 128 outputs, preserving all 2,554 prior acceptances. Sixteen root source/annotation checks required no substantive correction. Totals reach 3,066 accepted revalidations, 5,227 outer source/ID records and 532 pending strings. Retraction, correction and preprint relations remain source-status evidence, not notice-reading or independent-study credit. The new verifier splits JSONL on literal LF to preserve embedded Unicode paragraph separators; source/log bytes and earlier verifiers remain unchanged.
+
+Fresh 181-appraisal name replays preserve every FDA, SGC and NIH output table. There are still 6,812 NIH name cross-references and 70 appraisal-linked groups; ingredient/species names are not assigned preparation-specific efficacy. Input summaries and parent reconciliations retain their historical/current distinction, with no automatic reading or efficacy credit.
+
+Six new files contain original interpretation, compact source-selection/review metadata and verifier code. Raw articles, images, native supplementary material and raw-reading logs remain external. All original inventory decisions and historical source identities are retained. Track 1 and current media/model/transfer/RNA artifacts are preserved. This private draft update is not approval to merge, change visibility or submit Track 2.

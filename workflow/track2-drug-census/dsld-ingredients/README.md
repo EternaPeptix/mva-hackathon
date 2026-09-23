@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 179
+  --out /path/dsld-replay --expected-appraisals 181
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -106,4 +106,6 @@ The preceding **174-appraisal replay** preserves all eight output tables byte-fo
 
 The preceding **177-appraisal replay** adds five exact name links to selenomethionine across three source groups, for **6,810 cross-references and 68 appraisal-linked groups**. Source fields and six other outputs remain unchanged. Group147 is reported as Selenium but matches through a seleno-L-methionine synonym; this does not equate all selenium forms or products. Repeated Selenomethionine groups2384/7901 are source IDs, not distinct molecules. Historical parent reconciliations and independent source reviews remain preserved; no extra reading or efficacy credit follows.
 
-The current **179-appraisal replay** adds two capsaicin name links, for **6,812 cross-references and 70 appraisal-linked groups**. Groups 3951 (Capsaicin) and 3807 (Capsaisin) share that alias; the original spelling and synonym relation are preserved without inferring product or dietary equivalence. The tested glucosamine/chondroitin combination is not equated to either ingredient alone. All source fields and six other outputs remain unchanged, with no new reading or efficacy credit.
+The preceding **179-appraisal replay** adds two capsaicin name links, for **6,812 cross-references and 70 appraisal-linked groups**. Groups 3951 (Capsaicin) and 3807 (Capsaisin) share that alias; the original spelling and synonym relation are preserved without inferring product or dietary equivalence. The tested glucosamine/chondroitin combination is not equated to either ingredient alone. All source fields and six other outputs remain unchanged, with no new reading or efficacy credit.
+
+The current **181-appraisal replay** preserves all eight output tables byte-for-byte: **6,812 cross-references and 70 appraisal-linked groups** remain. Neither tested Potentilla preparation creates a new exact name join. Ingredient or species names are not assigned the mixture/extract findings; no new source, reading or efficacy credit follows.
