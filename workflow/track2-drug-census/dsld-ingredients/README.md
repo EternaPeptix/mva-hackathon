@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 203
+  --out /path/dsld-replay --expected-appraisals 206
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -120,4 +120,6 @@ The preceding **200-appraisal replay** adds five name cross-references in five e
 
 The preceding **202-appraisal replay** adds one name cross-reference for diclofenac in existing group 8775, for **6,820 cross-references and 77 appraisal-linked groups**. Source fields and six other output tables are unchanged. Ingredient-database presence and exact normalized naming do not establish a supplement preparation, chemical equivalence, eligibility, exposure or efficacy. This layer adds no reading credit.
 
-The current **203-appraisal replay** preserves all eight output tables: **6,820 name cross-references and 77 appraisal-linked groups**. The exact Yiqi Huayu Jiedu preparation creates no new name relation, and its predicted constituent list grants no ingredient-level efficacy or reading credit.
+The preceding **203-appraisal replay** preserves all eight output tables: **6,820 name cross-references and 77 appraisal-linked groups**. The exact Yiqi Huayu Jiedu preparation creates no new name relation, and its predicted constituent list grants no ingredient-level efficacy or reading credit.
+
+The current **206-appraisal replay** preserves all eight output tables: **6,820 name cross-references and 77 appraisal-linked groups**. The astrocyte comparators create no additional name relation; the ambiguous methyl-epicatechin preparation has deliberately withheld aliases, not an inferred absence from all catalogs. No ingredient inherits lithium’s probe signals or reporter phenotypes.

@@ -118,4 +118,6 @@ The preceding **200-appraisal** update adds ordinary curcumin, dehydrozingerone 
 
 The preceding **202-appraisal** update adds piperlongumine and diclofenac sodium and refines ordinary curcumin with its original animal evidence. All 200 prior IDs remain, with 199 objects unchanged. All 109 PR1 IDs/101 unchanged PR1 objects, reader/test, catalog/aliases and 3,598 selection records remain preserved. No new abstract-reading credit or exhaustive-negative conclusion follows.
 
-The current **203-appraisal** update adds the tested Yiqi Huayu Jiedu preparation and preserves all 202 preceding objects. All 109 PR1 IDs/101 unchanged PR1 objects, reader/test, catalog/aliases and the original selection remain. Database ingredient and gene lists confer no added efficacy or reading credit.
+The preceding **203-appraisal** update adds the tested Yiqi Huayu Jiedu preparation and preserves all 202 preceding objects. All 109 PR1 IDs/101 unchanged PR1 objects, reader/test, catalog/aliases and the original selection remain. Database ingredient and gene lists confer no added efficacy or reading credit.
+
+The current **206-appraisal** update retains all 203 prior IDs, refines lithium chloride and adds three actually administered Figure 4 comparators. All 109 PR1 IDs/100 unchanged PR1 objects (nine refined, including lithium chloride), reader/test, catalog/aliases and original selection remain. Detection-qualified probe signals and reporter phenotypes add no MVA efficacy or global-completion claim.

@@ -98,6 +98,8 @@ The [explicit food-to-outer reconciliation](../food-admission-findings.md) admit
 
 The expanded ledger contains **184 appraisals**. [Resveratrol](../resveratrol-qualification.md) becomes a serious muscle-function comparator: a small randomized exercise study reports added power and torque benefits, while other human studies retain null/adverse findings. The rat BUBR1-staining claim remains access-limited. Two distinct [topical Potentilla extracts](../potentilla-wound-qualification.md) add diabetic-wound repair evidence without inheriting the earlier oral preparations' endpoints. All 181 previous assessments are unchanged; the niacin/apitegromab comparison remains provisional.
 
-The current parent replay against the 184-entry ledger has **10 FDA rows with exact curated-appraisal name candidates**, unchanged from the 170-entry snapshot. Taurine accounted for the earlier increase from nine; arachidonic acid has no exact match to the current FDA row names. These are name joins, not verified chemical equivalence or inherited efficacy.
+The historical parent replay against the 184-entry ledger has **10 FDA rows with exact curated-appraisal name candidates**, unchanged from the 170-entry snapshot. Taurine accounted for the earlier increase from nine; arachidonic acid has no exact match to the current FDA row names. These are name joins, not verified chemical equivalence or inherited efficacy.
 
 The separate [NIH DSLD ingredient inventory](../dsld-ingredients/README.md) preserves 6,467 groups and 85,255 total name/synonym cells; 41,496 automatic matches provide no efficacy assessment, including 1,077 unflagged rows; six have a separate role annotation. It neither expands this FDA table nor adds automatic reading credit.
+
+The current replay against **206 assessments** preserves both FDA output tables and **10 rows with curated-appraisal name candidates**. It creates no new reading, chemical-equivalence or efficacy claim.

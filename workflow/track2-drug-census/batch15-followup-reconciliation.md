@@ -1,8 +1,8 @@
 # Batch 15 historical follow-up reconciliation
 
-**Ten of the47 historical questions have direct source-qualified information;37 do not have a direct answer in this package.** Six original study-level questions are answered within explicit limits. Bladder, CCDC41, EML1 and diclofenac retain unresolved source components. This is not global scientific completion or MVA efficacy.
+**Eleven of the 47 historical questions have direct source-qualified information; 36 lack a direct answer in this update.** Six original study-level questions are answered within explicit limits. Bladder, CCDC41, EML1, diclofenac and lithium-astrocyte questions retain unresolved source components. This is not global scientific completion or MVA efficacy.
 
-**Current update:** the 203-assessment ledger preserves all 202 baseline objects and adds the exact Yiqi Huayu Jiedu preparation. Only n156 changes; the other 46 record objects and all 47 original questions/flags remain. Current repository inputs, the frozen candidate and baseline Git objects are recorded separately. This adds no outer-reading credit.
+**Integrated lithium-astrocyte update:** baseline `2591b136724889da47837dc75e8754aca3f9ee1d` had 203 appraisals. The current 206-object ledger refines only existing LiCl and adds three actual Figure 4 agents; all 202 other prior objects remain equal. Only n390 changes; the other 46 question objects and all 47 original questions/flags remain. Explicit baseline Git and frozen candidate inputs are retained separately from the current-repository input.
 
 ## Direct coverage and remaining gaps
 
@@ -92,7 +92,7 @@ The resveratrol and bladder study-level exposure documentation gaps were closed 
 
 ## Remaining questions without a direct qualified answer
 
-Nine records retain related evidence from a different experiment; seven of those remain among the37 open questions. Such related evidence never substitutes for the exact-source qualification.
+Nine records retain related evidence from a different experiment; six of those remain among the36 open questions. Such related evidence never substitutes for the exact-source qualification.
 
 | Batch n / source | Why existing work does not close it | Bounded remaining question |
 |---|---|---|
@@ -123,7 +123,6 @@ Nine records retain related evidence from a different experiment; seven of those
 | [n340 / 22963191](https://pubmed.ncbi.nlm.nih.gov/22963191/) | No exact Kalanchoe fraction qualification found; extract identity, cell model and KT-versus-KT-NB dose label remain unresolved. | Resolve cell identities, n-butanol fraction composition/dose labeling and normal-cell controls without assigning whole-plant efficacy. |
 | [n344 / 39668392](https://pubmed.ncbi.nlm.nih.gov/39668392/) | Compound-9 remains chemically unresolved in the current package; target or numbering similarity cannot join it to an existing MPS1 compound. | Resolve chemical identity/exposure and target-selectivity evidence, retaining both sensitive and resistant gastric lines and normal controls. |
 | [n358 / 36190432](https://pubmed.ncbi.nlm.nih.gov/36190432/) | No exact siHIF2 formulation/trial qualification found; the highlighted responder does not resolve the full phase1 denominator, durability or safety. | Extract RNA formulation/dose, resistant-mutant coverage, full trial denominator, response durability and safety; keep PT2399 and belzutifan distinct. |
-| [n390 / 31477687](https://pubmed.ncbi.nlm.nih.gov/31477687/) | Existing LiCl qualification is an Axin1-depleted oocyte experiment, not the unspecified lithium astrocyte formulation/exposure. | Resolve the astrocyte model, lithium formulation/dose and actual morphology/function outcomes in PMID31477687. |
 | [n400 / 36380369](https://pubmed.ncbi.nlm.nih.gov/36380369/) | No exact M2I-1 drug-arm qualification found; genetic SGOL2 animal benefit cannot be assigned to the compound. | Separate M2I-1 exposure/model arms from genetic animal experiments and inspect selectivity/normal-cell fidelity; linked preprint content remains unreviewed here. |
 | [n401 / 26887051](https://pubmed.ncbi.nlm.nih.gov/26887051/) | No exact AR-12/sildenafil qualification found; the imaging-versus-western discrepancy remains unresolved by source qualification. | Check binding/ATPase specificity, exposures and normal-cell response while retaining that altered antibody accessibility need not equal protein depletion. |
 | [n418 / 37237379](https://pubmed.ncbi.nlm.nih.gov/37237379/) | No exact retinoic-acid barrier-model qualification found; isomer/exposure and induction controls remain unspecified. | Resolve retinoic-acid identity/dose and matched barrier controls, retaining mixed lineage and model-induction rather than disease-repair scope. |
@@ -133,6 +132,16 @@ Nine records retain related evidence from a different experiment; seven of those
 | [n478 / 19927127](https://pubmed.ncbi.nlm.nih.gov/19927127/) | No actual-NUAK1-inhibitor functional qualification found. The flagged paper is genetic lifespan/ploidy evidence and does not supply the requested administered-compound bridge. | Determine whether an actual NUAK1 inhibitor reproduces genetic fibroblast lifespan/ploidy effects with LATS1 dependence and preserved usable function; this would require separate evidence. |
 | [n508 / 36204232](https://pubmed.ncbi.nlm.nih.gov/36204232/) | No exact masitinib-validation qualification found; computational co-nominations are not equally validated drugs. | Extract masitinib exposure, cell models, target/normal-cell controls, and maintain separation from the other docking-only nominations. |
 | [n531 / 21755010](https://pubmed.ncbi.nlm.nih.gov/21755010/) | No exact 6-OAP myeloma/PK qualification found; a generic bortezomib appraisal cannot supply combination-specific or 6-OAP single-agent animal evidence. | Qualify 6-OAP identity, exposure, mouse tumor units, normal-cell controls, rat PK and in-vitro bortezomib interaction separately. |
+
+### n390 — PMID31477687
+
+The exact LiCl salt was applied at a nominal 20 mM for three days to adult mouse optic-nerve cultures. Morphology and GFAP-EGFP-positive counts changed, but direct division, survival and useful neuronal-support function were not demonstrated. All three exact Bub1b probes have lower processed signals in the four lithium arrays versus four controls. Native calls qualify the result: one probe is absent in all arrays and another has an absent lithium sample. These are lower processed signals, not a validated RNA-abundance decrease or reproduced differential-expression P/FDR, BUBR1 protein or checkpoint result. Existing oocyte/checkpoint observations remain separate.
+
+The source also actually administered BAPN (dose missing), pioglitazone (printed 1 mM) and a nominal 3 µM source-labelled methyl-epicatechin preparation. Their reporter-count/morphology positives are separate from LiCl RNA; no formal lithium equivalence or functional rescue was tested. Automatic flavonoid matching is withheld because current normalization conflates 3′-O with 3-O methyl positions, and Methods/Results preparation names differ.
+
+**Remaining source components:** mouse background, donor/nerve/array pooling, cRNA input and measured tissue exposure are unresolved. Counts do not isolate proliferation from survival or reporter detectability. The source remains one study, and Table 1’s other computational nominations do not become tested agents.
+
+Pointers: [lithium astrocyte qualification](lithium-astrocyte-qualification.md), [structured assessment](lithium-astrocyte-qualification.json), [targeted descriptive expression](lithium-astrocyte-expression.json).
 
 ## Related evidence that must stay in its original context
 
@@ -150,6 +159,6 @@ Nine records retain related evidence from a different experiment; seven of those
 
 The JSON preserves all 47 original questions verbatim, record/abstract hashes, source pointers/hashes, relevant decision IDs, exact answered components and bounded remaining questions. Historical version/notice limits stay attached: PPR918452 links PMID41120338 by title/first-author matching; PMID35302600 links PPR440054; PMID23403633 links commentary23459035; PMID36380369 links PPR525543. Metadata links do not constitute reading, authenticated version equivalence or independent-study credit.
 
-This reconciliation maps the separately documented primary-source reviews to the original questions. It does not change nominees or infer MVA efficacy from cancer activity, genetic rescue, supplement availability or a shared target. The earlier 272-artifact preservation check remains historical. This update changes only n156, with all original questions/flags and46 other record objects preserved. Root declares complete YQHYJD main/captions, all four structured tables and nativeFigures6/7, without a complete-supplement claim. The source reviewer's broader scope remains separate; the completed independent check covers all main text/tables, nativeFigures6/7 and both complete target lists, with other supplementary content/image limits in the qualification.
+This reconciliation maps separately attributed primary qualifications to the original questions. It does not transfer oocyte, astrocyte or companion-drug outcomes between experiments. This update changes only n390; all 46 other record objects and all 47 original questions/flags are preserved. Root declared primary main/caption/Figure 1/4 reading and companion admission; independent scope is targeted and does not become a second full-paper review. Root targeted signals/means and full supplement texts are separately declared, with all 24 detection rows/replay recorded in its reading manifest. No new assembly credit is created.
 
-This 203-assessment update preserves the 202-assessment reconciliation as a hash-bound baseline Git object. Exact per-record changes and preservation checks are recorded in the companion JSON.
+The prior 203-assessment reconciliation is preserved as a hash-bound baseline Git object. Exact current candidate inputs, per-record changes and remaining source conflicts are recorded in the companion JSON.

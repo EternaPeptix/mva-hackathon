@@ -806,13 +806,18 @@
       ],
       "route": "Lithium chloride",
       "disposition": "contextual mechanism observation; not an implementation of FRZB rescue",
-      "evidence_scope": "Catalog-independent primary intervention appraisal; distinct model and outcome scopes retained.",
+      "evidence_scope": "Prior oocyte/spindle-checkpoint contexts retained separately from the distinct ex-vivo optic-nerve source and its targeted deposited-expression check. No cross-model or companion-drug efficacy inheritance.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "LiCl improved spindle morphology and pronuclear formation after Axin1 depletion in oocytes. This is neither BUB1B deficiency nor the BubR1-H/H FRZB genetic rescue. No clinical lithium formulation or exposure equivalence inferred. Separate GSK3-inhibition experiments reduced checkpoint recruitment and relieved spindle-poison arrest (PMID30250048), so improved morphology cannot establish preserved SAC.",
+      "rationale": "LiCl improved spindle morphology and pronuclear formation after Axin1 depletion in oocytes. This is neither BUB1B deficiency nor the BubR1-H/H FRZB genetic rescue. No clinical lithium formulation or exposure equivalence inferred. Separate GSK3-inhibition experiments reduced checkpoint recruitment and relieved spindle-poison arrest (PMID30250048), so improved morphology cannot establish preserved SAC. Separately, PMID31477687 used lithium chloride at a nominal 20 mM for three days in adult mouse optic-nerve cultures. GFAP-EGFP-positive cells per sampled field approximately doubled and morphology changed, but direct cell division, survival and useful neuronal support were not independently tested. All three exact Bub1b probes in deposited GSE132397 have lower processed signals in the four lithium arrays than the four controls. Native detection calls qualify this: 1447362_at is absent in all eight arrays, 1416961_at is present in all controls and three lithium arrays, and 1447363_s_at is present in all eight. These are lower deposited probe signals, not a validated RNA-abundance decrease or reproduced gene-specific differential-expression P/FDR, BUBR1 protein or checkpoint-function result. Mouse strain, nerve/donor/array pooling and cRNA input are inconsistent across paper and deposit. The asserted 1–2 mM intranerve exposure was not measured in this study. Neither RNA direction nor morphology establishes MVA benefit or harm. Companion Figure 4 drugs have separate count/morphology results and do not inherit the lithium RNA observations.",
       "source_report": "workflow/track2-drug-census/catalog-independent-review.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/27284927/",
-        "https://pubmed.ncbi.nlm.nih.gov/30250048/"
+        "https://pubmed.ncbi.nlm.nih.gov/30250048/",
+        "https://www.nature.com/articles/s41398-019-0542-2",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132397"
+      ],
+      "additional_source_reports": [
+        "workflow/track2-drug-census/lithium-astrocyte-qualification.md"
       ]
     },
     {
@@ -3564,6 +3569,60 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC7439204/",
         "https://doi.org/10.1155/2020/4782470"
       ]
+    },
+    {
+      "source_report": "workflow/track2-drug-census/lithium-astrocyte-qualification.md",
+      "source_urls": [
+        "https://www.nature.com/articles/s41398-019-0542-2"
+      ],
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "evidence_scope": "Separate actual Figure 4 intervention in one ex-vivo adult optic-nerve paper; native morphology and GFAP-EGFP-positive sampled-field counts only. No compound-specific Bub1b RNA, BUBR1 protein, division/fidelity or neural-function result.",
+      "decision_id": "new-beta-aminopropionitrile",
+      "match_aliases": [
+        "beta-aminopropionitrile",
+        "β-aminopropionitrile"
+      ],
+      "route": "β-Aminopropionitrile / ex-vivo astrocyte morphology and reporter-count comparator",
+      "disposition": "Retain bounded LOX-inhibitor comparator; dose unresolved and no measured normal-function or MVA rescue",
+      "rationale": "The paper actually treats cultured adult mouse optic nerves with BAPN for three days and reports altered GFAP-EGFP astrocyte morphology and increased reporter-positive counts. Concentration is unreported in the reviewed main/captions/supplements; the Figure 4 one-star control bracket has no defined threshold in its caption. Reporter-positive counts do not independently establish cell division, survival or neuron-supportive function. BUB1B/BUBR1, checkpoint fidelity and MVA were not tested for this comparator. No equivalence with lithium or formulation/salt identity beyond the named reagent is inferred."
+    },
+    {
+      "source_report": "workflow/track2-drug-census/lithium-astrocyte-qualification.md",
+      "source_urls": [
+        "https://www.nature.com/articles/s41398-019-0542-2"
+      ],
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "evidence_scope": "Separate actual Figure 4 intervention in one ex-vivo adult optic-nerve paper; native morphology and GFAP-EGFP-positive sampled-field counts only. No compound-specific Bub1b RNA, BUBR1 protein, division/fidelity or neural-function result.",
+      "decision_id": "new-pioglitazone",
+      "match_aliases": [
+        "pioglitazone"
+      ],
+      "route": "Pioglitazone / ex-vivo astrocyte morphology and reporter-count comparator",
+      "disposition": "Retain source-specific PPARγ comparator; no clinical-exposure or normal-function rescue inference",
+      "rationale": "Pioglitazone was actually administered at the printed 1 mM concentration for three days in cultured adult mouse optic nerves. Figure 4 reports altered astrocyte morphology and increased GFAP-EGFP-positive counts, with a two-star control bracket (caption P<0.01). Salt/catalog/vehicle details are unspecified. This is no formal equivalence comparison with lithium and no demonstrated cell division, neuronal support, BUBR1 restoration or MVA benefit; the nominal ex-vivo concentration is not a clinical exposure bridge."
+    },
+    {
+      "source_report": "workflow/track2-drug-census/lithium-astrocyte-qualification.md",
+      "source_urls": [
+        "https://www.nature.com/articles/s41398-019-0542-2"
+      ],
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "evidence_scope": "Separate actual Figure 4 intervention in one ex-vivo adult optic-nerve paper; native morphology and GFAP-EGFP-positive sampled-field counts only. No compound-specific Bub1b RNA, BUBR1 protein, division/fidelity or neural-function result.",
+      "decision_id": "new-3-prime-o-methylepicatechin",
+      "match_aliases": [],
+      "route": "Source-labelled 3′-O-methylepicatechin preparation / astrocyte morphology and reporter counts",
+      "disposition": "Retain exact source-labelled flavonoid comparator with unresolved preparation wording; exclude ordinary epicatechin inheritance",
+      "rationale": "Results, native Figure 4 and its caption name 3′-O-methylepicatechin, while Methods call the 3 µM reagent 3-O-Epicatechin. After three days the source reports altered morphology and increased GFAP-EGFP-positive counts, with a three-star control bracket (caption P<0.001). The naming discrepancy limits chemical identity confidence. No direct division, survival, neuronal-support, BUB1B/BUBR1 or MVA function was demonstrated, and no formal equivalence with lithium was tested. The result cannot be assigned to ordinary dietary epicatechin, generic catechin, food extracts or the separately qualified ECGU mixture.",
+      "source_aliases": [
+        "3′-O-methylepicatechin",
+        "3'-O-methylepicatechin",
+        "Methods: 3-O-Epicatechin"
+      ],
+      "catalog_matching": {
+        "status": "WITHHELD_POSITIONAL_IDENTITY_AMBIGUITY",
+        "reason": "Current normalizer maps 3-prime-O and 3-O methyl names to the same key; preparation wording also differs between Methods and Results. No automated positional-isomer or unmodified-epicatechin equivalence is accepted.",
+        "limit": "Empty automatic matches do not establish worldwide catalog absence."
+      }
     }
   ]
 }

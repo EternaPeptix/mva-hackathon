@@ -85,3 +85,5 @@ contextual controls, changed headers and dangling catalog references.
 This source collection covers research probes, not all purchasable compounds,
 food constituents, industrial chemicals or every medicine worldwide. Those
 remaining spaces and the unread literature require further work.
+
+The current replay against **206 assessments** preserves all four SGC output tables and **nine labels with curated-appraisal name candidates**. New astrocyte comparisons add no probe-inventory matches or efficacy credit.
