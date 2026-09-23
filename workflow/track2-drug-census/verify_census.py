@@ -268,6 +268,9 @@ def main():
     if (P/'outer-revalidation-batch02-review.json').exists():
         from verify_revalidation_batch02 import check as check_batch02
         check_batch02(root=P)  # Structural checks; source replay requires external inputs.
+    if (P/'outer-revalidation-batch03-review.json').exists():
+        from verify_revalidation_batch03 import check as check_batch03
+        check_batch03(root=P)  # Structural checks; source replay requires external inputs.
     if (P/'literature-v2/summary.json').exists():
         from verify_rescreen import check as check_rescreen
         check_rescreen()

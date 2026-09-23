@@ -9,8 +9,11 @@ bounded UMK57 control findings, and preserves the later source corrections.
 The [three-paper comparison](vascular-enzyme-qualification.md) adds six
 intervention appraisals, including catalogue-listed research reagents. The
 [first 128 readings](next128-revalidation-findings.md) and
-[second 128 readings](batch02-revalidation-findings.md) preserve positive and
-adverse findings; 3,156 strings remain pending in the revalidation queue.
+[second](batch02-revalidation-findings.md) and
+[third 128 readings](batch03-revalidation-findings.md) preserve positive and
+adverse findings; 3,028 strings remain pending in the revalidation queue.
+The latest primary appraisals distinguish [renal protection](renal-growth-qualification.md)
+from [chemical-assisted reprogramming](reprogramming-qualification.md).
 
 **Catalog snapshot: 21 September 2026; corrected text screen: 22 September 2026,
 America/Phoenix (retrieval timestamps are UTC).**
@@ -435,8 +438,8 @@ all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
 claim full-text review of all ranked records. The current decision ledger contains
-124 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 124 approved medicines.
+128 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 128 approved medicines.
 
 The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.
 
@@ -486,19 +489,22 @@ combination-specific; neither displaces the niacin/apitegromab comparison.
 
 The [quality follow-up](review-quality-followup.md) rejects an unreliable
 3,598-record draft's claim of faithful completion. The initial 186 literal
-revalidations and two subsequent 128-record batches now total **442 strings**,
-bringing the outer ledgers to **2,603 source/ID records** and leaving **3,156
+revalidations and three subsequent 128-record batches now total **570 strings**,
+bringing the outer ledgers to **2,731 source/ID records** and leaving **3,028
 selected strings pending**. The preceding 2,161 annotations have not been
 independently re-audited here. Four initial strings are non-abstract items, and
-the latest batch separately labels a conference abstract. Original empty fields
+the latest batch separately labels four conference abstracts. Original empty fields
 and later recovered bodies remain separately accounted for.
 
 The [first 128](next128-revalidation-findings.md) flagged 52 source questions;
-the [second 128](batch02-revalidation-findings.md) flags 49. These are follow-up
-questions, not qualified medicines or independent experiments. A targeted
-16-record sample of the latest batch includes 10 cross-reader checks and six
-self-rereads; two explicit wording corrections preserve the original input
-annotations. Its linked erratum changes author-name formatting only.
+the [second 128](batch02-revalidation-findings.md) flagged 49 and the
+[third 128](batch03-revalidation-findings.md) flags 31. These are source questions,
+not qualified medicines or independent experiments. Eight independent
+cross-reader checks in the latest batch required no substantive changes;
+this is a targeted check, not an estimated annotation error rate. Two linked
+retraction notices were read separately without adding abstract credit.
+The earlier batch retains its two explicit wording corrections and separate
+author-name erratum assessment.
 
 [UMK57](umk57-qualification.md) adds actual acute and post-division fidelity
 evidence with limited durability, bringing that stage to 109 appraisals.
@@ -515,7 +521,7 @@ earns vascular-lesion evidence, and alglucosidase alfa earns biochemical and
 BUB1B-transcript evidence in Pompe myocytes. Drug, genetic and control arms
 remain distinct; these findings do not change the nominated pair.
 The [STAT3-compound follow-up](stat3-compound-qualification.md) adds SC-43 and
-garcinone D, for **124** current appraisals. Its mouse survival, cell protein and
+garcinone D, for **124** appraisals at that stage. Its mouse survival, cell protein and
 proliferation findings remain specific to the tested models; no MVA efficacy is
 established.
 A separate
@@ -530,3 +536,12 @@ The [Apcin liver study](apcin-liver-qualification.md) adds actual-drug
 pretreatment survival and injury evidence to the existing Apcin entry. Its
 survival timing, replication and target-attribution limits remain explicit;
 this adds no duplicate compound or abstract-reading count.
+
+
+The [renal](renal-growth-qualification.md) and
+[reprogramming](reprogramming-qualification.md) qualifications add four distinct
+compound entries and update existing rapamycin and mirdametinib assessments,
+bringing the current ledger to **128**. Positive renal function and cocktail-level
+pluripotency outcomes remain attributed to their actual interventions. These
+are not four additional independent efficacy experiments or demonstrated MVA
+responses. The 15,357-entity retrieval denominator is unchanged.

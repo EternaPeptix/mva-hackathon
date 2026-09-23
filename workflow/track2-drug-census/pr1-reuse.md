@@ -61,7 +61,9 @@ The checkpoint counts above are historical, not the current coverage claim.
 
 The later [Apcin qualification](apcin-liver-qualification.md) changes one more
 inherited assessment by crediting an actual-drug mouse organ-protection result.
-All 109 PR1 IDs remain; 106 decoded decision objects are now unchanged, with
-metformin, UMK57 and Apcin updated. The reader/test and all 3,598 selection
+At checkpoint `4975530`, all 109 PR1 IDs remained; 106 decoded decision objects
+were unchanged, with metformin, UMK57 and Apcin updated. Subsequent primary
+qualifications also update the existing rapamycin and mirdametinib entries,
+while preserving all 109 PR1 IDs. The reader/test and all 3,598 selection
 records remain identical. The unsupported completion verifier is retained in
 Git history rather than used for current coverage.

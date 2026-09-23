@@ -1,0 +1,157 @@
+{
+  "schema": "bounded_primary_source_appraisal_v1",
+  "record": "MED:31067459",
+  "pmcid": "PMC6555151",
+  "doi": "10.1016/j.celrep.2019.04.056",
+  "title": "Defining Reprogramming Checkpoints from Single-Cell Analyses of Induced Pluripotency",
+  "first_author": "Khoa A. Tran",
+  "publication_date": "2019-05-07",
+  "source_urls": [
+    "https://doi.org/10.1016/j.celrep.2019.04.056",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6555151/"
+  ],
+  "assessment": "Positive chemically assisted pluripotency evidence in OSKM-expressing embryonic mouse fibroblasts. Normal karyotype and three-germ-layer teratomas reported for derived lines; no demonstrated BUBR1 rescue or muscle benefit.",
+  "model": {
+    "species": "mouse",
+    "cells": "Primary male and female E13.5 embryonic fibroblasts from reprogrammable 129SV/Jae/C57BL6J mice",
+    "genetic_background": "Homozygous Col1a1 inducible Oct4-2A-Klf4-2A-IRES-Sox2-2A-c-Myc cassette; Rosa26 rtTA homozygous or heterozygous",
+    "genetic_requirement": "2 micrograms/mL doxycycline starts OSKM/OKSM expression on day0; study is chemically assisted transgenic reprogramming, not solely chemical reprogramming",
+    "culture": "ESC medium with knockout DMEM, 15% FBS, L-glutamine, Pen/Strep, NEAA, 2-mercaptoethanol and LIF; irradiated MEF feeders; 0.1% gelatin-coated coverslips.",
+    "comparison": "FBS/ESC-medium reprogramming with the same genetic induction versus A2S and the A2, AS and S2 component-omission combinations."
+  },
+  "regimen": [
+    {
+      "compound": "Paper label: ascorbic acid (AA)",
+      "dose": "50 micrograms/mL",
+      "start": "Day 0",
+      "catalog": "Sigma A8960",
+      "identity": "Current exact manufacturer catalog maps to L-ascorbic acid 2-phosphate sesquimagnesium salt hydrate, CAS 1713265-25-8. Historical study lot/COA unverified; do not substitute plain ascorbic acid or oral vitamin C."
+    },
+    {
+      "compound": "SGC0946",
+      "dose": "5 micromolar",
+      "start": "Day 0",
+      "catalog": "APExBIO A4167",
+      "identity": "DOT1L inhibitor; chemically distinct from EPZ-5676/pinometostat and EPZ004777."
+    },
+    {
+      "compound": "CHIR-99021",
+      "dose": "3 micromolar",
+      "start": "12 hours after doxycycline induction",
+      "catalog": "Stemgent 04-0004-10",
+      "identity": "GSK3 inhibitor; one component of 2i."
+    },
+    {
+      "compound": "PD-0325901",
+      "dose": "1 micromolar",
+      "start": "12 hours after doxycycline induction",
+      "catalog": "Stemgent 04-0006-10",
+      "identity": "MEK inhibitor; the other component of 2i; existing new-mirdametinib identity."
+    }
+  ],
+  "schedule": {
+    "refresh": "Doxycycline and small-molecule medium replaced every two days.",
+    "population_colony_endpoint": "NANOG colonies counted at the stated day or four additional days after withdrawal of both doxycycline and small molecules.",
+    "single_cell_endpoint": "One tdTomato-positive cell sorted per well; doxycycline and chemicals withdrawn on day 11; AP-positive wells scored on day 15.",
+    "isolated_lines": "Day-6 A2S colonies picked and passaged several times in FBS or A2S ESC medium.",
+    "solvents_reported": null,
+    "final_vehicle_fractions_reported": null,
+    "vehicle_matching": "Not specified in accessible main Methods. Current product solubility recommendations do not establish study solvent."
+  },
+  "outcomes": [
+    {
+      "endpoint": "NANOG-positive colony yield",
+      "result": "A2S: approximately 1,900 colonies and 42% efficiency on day 6. FBS: approximately 3.2% efficiency, most transgene-independent by day 12.",
+      "denominator": "5,000 cells initially plated; actual adherent cell count on day 0 used for efficiency, not automatically 5,000.",
+      "replicates": "Figure 1A-B: SD of two replicate samples; Methods: two or more biological replicates per set.",
+      "statistics": "No explicit between-group colony-yield p-value or test reported in read legend/main."
+    },
+    {
+      "endpoint": "withdrawal independence",
+      "result": "A2S NANOG-positive colonies were independent of continued induction after day 4, FBS by day 9; checked four additional days after withdrawal.",
+      "boundary": "Sustained marker-positive colonies after induction removal support completed reprogramming; not a muscle-function outcome."
+    },
+    {
+      "endpoint": "single-cell-origin reprogramming",
+      "result": "Approximately 40% AP-positive wells under A2S; two independent experiments.",
+      "denominator": "Wells with tdTomato-positive cells, not automatically all 96 wells.",
+      "boundary": "Day-11 withdrawal/day-15 scoring; do not report this as 40% single-cell success measured on day 6. Exact AP-positive/total integers unavailable without the Figure 1 image."
+    },
+    {
+      "endpoint": "established-line pluripotency and cytogenetics",
+      "result": "Primary Results report day-6-derived lines propagated in FBS, karyotypically normal, and producing teratomas with all three germ layers; transcriptional clustering resembles FBS ESCs.",
+      "evidence_depth": "Supplement S1A-B not accessed visually; detailed methods, denominators, number of clones and animals unresolved.",
+      "boundary": "Preserve this positive beyond transient-marker evidence; does not prove every daughter has faithful chromosomes, correction of pre-existing aneuploidy, absence of genomic variants or therapeutic safety."
+    },
+    {
+      "endpoint": "component-omission comparison",
+      "result": "Day-6 S2 yielded roughly half the A2S colony count; A2 efficiency 6.6%; AS 10.4%. All dual-combination colonies retain NANOG after withdrawal. Single-component effects were described as lower, with data not shown.",
+      "definitions": {
+        "A2": "AA + CHIR99021 + PD0325901",
+        "AS": "AA + SGC0946",
+        "S2": "SGC0946 + CHIR99021 + PD0325901",
+        "A2S": "AA + SGC0946 + CHIR99021 + PD0325901"
+      },
+      "replicates": "Figure 6A: SD from two replicate samples.",
+      "boundary": "2i was tested as one combined factor; individual CHIR versus PD effects cannot be isolated. Cooperative network/yield results do not establish a formal drug-interaction synergy metric or monotherapy efficacy."
+    }
+  ],
+  "bub1b": {
+    "measurement": "Bub1b mRNA in single-cell RNA sequencing, grouped with Mcm6/Ccnb1 cell-cycle genes in Figure 2C/Table S1. Main Results explicitly discuss selection of already cycling cells as an alternative to induction.",
+    "protein_or_stability_assay": false,
+    "targeted_Bub1b_perturbation": false,
+    "causal_Bub1b_dependency_established": false,
+    "variant_model": false,
+    "inference": "A2S retains cycling transcript patterns relative to FBS; no selective BUBR1 increase, protein stabilization or spindle-checkpoint correction established."
+  },
+  "mechanism": {
+    "supported": "Transcriptomic modules suggest 2i suppresses somatic gene programs, while AA and SGC jointly support pluripotency-network activation; component omissions alter colony yield and transcription.",
+    "causal_genetics": "siRNA studies concern Ehf, Eif4a1 and Phlda2, not Bub1b.",
+    "limits": [
+      "Network edges are inferred statistical associations, not direct binding evidence.",
+      "No study-specific chemical-target selectivity or target-engagement experiment shown in the accessible main text.",
+      "No claim that all A2S cells stop senescence: Ink4a is still activated and p53 transcripts maintained; cell cycling differs from restoration of tissue health."
+    ]
+  },
+  "functional_and_safety_boundary": {
+    "pluripotency_positive": "Withdrawal-resistant colonies, expandable lines and reported three-germ-layer teratomas.",
+    "karyotype_positive": "Reported normal endpoint line karyotype; sampling depth unresolved.",
+    "not_measured_or_not_established": [
+      "BUB1B variant rescue",
+      "BUBR1 protein functional restoration",
+      "Mitotic segregation-error rate",
+      "Faithful daughter-lineage function",
+      "Repair of pre-existing aneuploidy",
+      "Skeletal-muscle differentiation, strength or repair",
+      "Healthspan/survival benefit",
+      "Tumor-free therapeutic use",
+      "Germline contribution, chimera competence or tetraploid complementation by these study-derived lines"
+    ],
+    "tumor_boundary": "Teratoma formation is deliberately used as an in-vivo pluripotency test; it is not evidence of reduced tumor risk. The OSKM cassette includes c-Myc. No clinical therapeutic hazard estimate computed; no claim that this protocol caused malignant cancer."
+  },
+  "current_research_identity": "Exact supplier catalog listings checked in September 2026. Catalog identity does not authenticate the historical lot, guarantee stock or establish clinical availability.",
+  "source_scope": {
+    "main": "Complete continuous primary text, STAR Methods, key resources and all seven main figure legends read.",
+    "images_and_supplements": "No main figure image or supplement successfully accessed. S1A-B karyotype and teratoma results are retained as primary Results reports, with clone, metaphase and animal denominators unresolved.",
+    "raw_data_reanalysis": false
+  },
+  "clinical_efficacy_probability": null,
+  "source_hashes": [
+    {
+      "source": "Europe PMC complete primary JATS XML",
+      "sha256": "f93aa83f31690c9393ddf0ad4082d1024de9ed9ded33b201b561215e4ce28ee9"
+    },
+    {
+      "source": "NCBI primary BioC XML",
+      "sha256": "7ad48944d8609837390606b5531f24fc466bd614d6dbc28bcd7315df72e54fca"
+    },
+    {
+      "source": "Manufacturer A8960 and SGC0946 product-identity web snapshot",
+      "sha256": "fa49c9a7e6acb4c8ee0f0410a822740d30a335e226903ccd67b8eb443da3bb70"
+    },
+    {
+      "source": "Manufacturer CHIR99021 and PD0325901 product-identity web snapshot",
+      "sha256": "f5d4aa2b55c57cf27b35b00f50076c134f745e34f94aa98c80285caba77829bf"
+    }
+  ]
+}

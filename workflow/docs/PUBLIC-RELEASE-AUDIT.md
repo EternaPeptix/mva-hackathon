@@ -699,3 +699,28 @@ outside the repository. The original release inventory and source-provenance
 fields are preserved; current artifact hashes are refreshed. Track 1 uploads
 and pitch media remain unchanged. This private draft update authorizes neither
 publication nor submission.
+
+## Renal and reprogramming qualification, 22 September 2026
+
+The [third 128-record batch](../track2-drug-census/batch03-revalidation-findings.md)
+preserves the preceding 442 and adds 124 saved abstracts plus four conference
+abstracts. Accepted revalidations reach 570, with 2,731 outer source/ID records
+and 3,028 selected strings pending. Eight independent cross-reader checks found
+no substantive corrections; this does not estimate an annotation error rate.
+Two linked retraction notices were read separately, with zero extra coverage;
+two other linked errata remain open.
+
+The [renal](../track2-drug-census/renal-growth-qualification.md) and
+[reprogramming](../track2-drug-census/reprogramming-qualification.md) assessments
+retain actual functional positives while separating exposures, interventions,
+models and reading depth. Four new compound entries and updates to rapamycin
+and mirdametinib bring the ledger to 128 appraisals. All 109 PR1 candidate IDs
+remain, with later source corrections preserved. Its historical reuse counts
+are explicitly labeled as a checkpoint.
+
+Payloads are original assessments, bibliographic metadata and verification
+code; raw literature and reading logs remain external. Targeted independent
+checks corrected the delayed calorie-restriction endpoint wording and verified
+the reprogramming timing and identity boundaries. The original inventory,
+historical source fields, Track 1 uploads and pitch media are preserved. This
+private draft update is not a publication or submission approval.

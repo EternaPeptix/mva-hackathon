@@ -49,13 +49,17 @@
       ],
       "route": "Sirolimus / rapamycin",
       "disposition": "within-class reference, reserve implementation",
-      "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
+      "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects. Separate primary renal study qualified with exact schedule, endpoint and tissue distinctions.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "The published fly study reports rapamycin feeding improving neuroblast counts. Genetic autophagy/TOR interventions did not restore progeny counts or brain size; drug and genetic endpoint sets must remain separate. This is a different checkpoint lesion and neural tissue, not BUB1B muscle. The BubR1 mouse negative observation was an unpublished parenthetical, not a fully reported treatment trial. No comparative MVA superiority established.",
+      "rationale": "The published fly study reports rapamycin feeding improving neuroblast counts. Genetic autophagy/TOR interventions did not restore progeny counts or brain size; drug and genetic endpoint sets must remain separate. This is a different checkpoint lesion and neural tissue, not BUB1B muscle. The BubR1 mouse negative observation was an unpublished parenthetical, not a fully reported treatment trial. No comparative MVA superiority established. Separately, rapamycin preserved weight-normalized creatinine clearance and reduced proteinuria/adhesions in AA-4E-BP1 transgenic rats after nephrectomy. Alternate-day exposure had significant functional effects with slowed body growth; weekly exposure did not significantly improve those three endpoints. Bulk glomerular Bub1b RNA decreased during protection, without a BUBR1 protein or per-cell measurement. This is actual-drug renal evidence in another lesion, not MVA or muscle rescue, and cannot be assigned to everolimus.",
       "source_report": "reports/appendices/track2-route-decisions.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/23602450/",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13121444/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13121444/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5619973/"
+      ],
+      "additional_source_reports": [
+        "workflow/track2-drug-census/renal-growth-qualification.md"
       ]
     },
     {
@@ -134,7 +138,7 @@
       "disposition": "restoration reserve",
       "evidence_scope": "Previously reviewed route rationale; grouping does not establish identical drug-specific effects.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "No BUBR1 functional rescue. HSP90 dependence of selected mutants does not prove rescue by another stress-response mechanism. The label's mean pediatric serum peak is about 1.7 µM, versus 200–400 µM in some NPC cell experiments; these are total serum and nominal culture quantities, not matched free tissue exposure. [IBM](https://pubmed.ncbi.nlm.nih.gov/37739573/) and [ALS](https://pubmed.ncbi.nlm.nih.gov/38782015/) randomized trials were negative, with tolerability limitations; neither tested MVA.",
+      "rationale": "No BUBR1 functional rescue. HSP90 dependence of selected mutants does not prove rescue by another stress-response mechanism. The label's mean pediatric serum peak is about 1.7 \u00b5M, versus 200\u2013400 \u00b5M in some NPC cell experiments; these are total serum and nominal culture quantities, not matched free tissue exposure. [IBM](https://pubmed.ncbi.nlm.nih.gov/37739573/) and [ALS](https://pubmed.ncbi.nlm.nih.gov/38782015/) randomized trials were negative, with tolerability limitations; neither tested MVA.",
       "source_report": "reports/appendices/track2-route-decisions.md",
       "source_urls": [
         "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc&version=5",
@@ -1290,7 +1294,7 @@
       ],
       "route": "SB-431542 / TGF-beta receptor inhibition",
       "disposition": "transcript-regulation reserve with duration-dependent growth harm",
-      "rationale": "Tgif1-null MEFs show Bub1b RNA increase at 1 µM and separate short growth benefit at 0.2 µM. Longer than one passage inhibited growth in both WT and null cells. No drug-mediated BUBR1 protein, chromosome correction or muscle benefit established.",
+      "rationale": "Tgif1-null MEFs show Bub1b RNA increase at 1 \u00b5M and separate short growth benefit at 0.2 \u00b5M. Longer than one passage inhibited growth in both WT and null cells. No drug-mediated BUBR1 protein, chromosome correction or muscle benefit established.",
       "source_urls": [
         "https://doi.org/10.1371/journal.pone.0035460"
       ],
@@ -1324,7 +1328,7 @@
       ],
       "route": "Four-ribonucleoside supplementation / mixture-only appraisal",
       "disposition": "replication-stress and chromosome-phenotype comparator",
-      "rationale": "Uridine+cytidine+adenosine+guanosine reduce bridges/micronuclei in SV40-LT BJ/tert cells; model involves BUB1, not BUB1B. Reported50µM does not clearly resolve per-component concentration. Constituent catalog joins do not confer mixture efficacy on any single ingredient. No muscle or faithful euploid-output result; a different commercial nucleoside regimen fails a cell-enlargement checkpoint endpoint, not a controlled comparison of the same mixture.",
+      "rationale": "Uridine+cytidine+adenosine+guanosine reduce bridges/micronuclei in SV40-LT BJ/tert cells; model involves BUB1, not BUB1B. Reported50\u00b5M does not clearly resolve per-component concentration. Constituent catalog joins do not confer mixture efficacy on any single ingredient. No muscle or faithful euploid-output result; a different commercial nucleoside regimen fails a cell-enlargement checkpoint endpoint, not a controlled comparison of the same mixture.",
       "source_urls": [
         "https://journals.asm.org/doi/full/10.1128/jvi.02224-13",
         "https://doi.org/10.1101/2025.07.01.662622"
@@ -1424,13 +1428,14 @@
       ],
       "route": "Mirdametinib / PD0325901 receptor-trafficking probe",
       "disposition": "implemented approved-active-ingredient probe; decline muscle lead on current evidence",
-      "rationale": "PD0325901 at 10 micromolar delays insulin-receptor endocytosis in cells and is FDA-identified as mirdametinib. Its 2025 NF1 approval does not establish relevance of this exposure. Mouse glucose/insulin-tolerance benefit in the same paper belongs to SHP099, not mirdametinib. Cardiac and ocular clinical risks and absence of a corrected muscle endpoint remain material.",
+      "rationale": "PD0325901 at 10 micromolar delays insulin-receptor endocytosis in cells and is FDA-identified as mirdametinib. Its 2025 NF1 approval does not establish relevance of this exposure. Mouse glucose/insulin-tolerance benefit in the same paper belongs to SHP099, not mirdametinib. Cardiac and ocular clinical risks and absence of a corrected muscle endpoint remain material. Separately, 1 micromolar PD0325901 was used with 3 micromolar CHIR99021 as 2i, plus Sigma A8960 and SGC0946, during OSKM-induced mouse fibroblast reprogramming. Withdrawal-resistant iPSCs and reported normal-karyotype/three-germ-layer-teratoma outcomes belong to the cocktail and genetic context; the study did not isolate PD0325901 from CHIR99021 or demonstrate BUBR1-dependent rescue or muscle function.",
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC6443781/",
         "https://precision.fda.gov/uniisearch/srs/unii/86k0j5ak6m",
-        "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-mirdametinib-adult-and-pediatric-patients-neurofibromatosis-type-1-who-have-symptomatic"
+        "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-mirdametinib-adult-and-pediatric-patients-neurofibromatosis-type-1-who-have-symptomatic",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6555151/"
       ],
-      "evidence_scope": "Targeted primary-source qualification; intervention, model, endpoint and source-reading limits in linked report.",
+      "evidence_scope": "Targeted primary-source qualification; intervention, model, endpoint and source-reading limits in linked report. Additional combination-specific pluripotency evidence is qualified in workflow/track2-drug-census/reprogramming-qualification.md; this is the same PD0325901 identity, not a new compound.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
       "source_report": "workflow/track2-drug-census/intervention-qualification.md"
     },
@@ -1897,7 +1902,7 @@
       ],
       "route": "Eplerenone / mineralocorticoid-receptor-dependent cardiac endothelial cycling",
       "disposition": "retain directional mechanism evidence; organ-function benefit and therapeutic competitiveness unresolved",
-      "evidence_scope": "Complete primary main text/methods/legends; Figures 4–6 visually appraised.",
+      "evidence_scope": "Complete primary main text/methods/legends; Figures 4\u20136 visually appraised.",
       "bub1b_variant_efficacy": "Not established; patient phase and Asn1002Lys function/abundance are unresolved.",
       "rationale": "Dietary eplerenone returned excess cardiac Ki67 toward sham levels in male rats operated at three weeks and assessed three months later. The 61% is the TAC-associated rise versus sham, not the drug effect size. Groups were sham 5, sham plus drug 4, TAC 5 and TAC plus drug 6. Most cycling nuclei had endothelial localization. Dose and exact initiation are not reported. No cardiac functional, muscle or chromosome-fidelity benefit is supplied. Aldosterone-induced Bub1b transcript elevation and spironolactone HUVEC results are separate interventions. A sham plus drug arm provides a baseline cycling control, not general developmental, renal or electrolyte safety. Retain directional mechanism evidence; benefit or harm cannot be inferred from proliferation direction alone.",
       "source_urls": [
@@ -2126,6 +2131,74 @@
         "https://pubmed.ncbi.nlm.nih.gov/27177723/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC7854934/",
         "https://www.selleckchem.com/products/garcinone-d-stat-activator.html"
+      ]
+    },
+    {
+      "decision_id": "new-enalapril-renal",
+      "match_aliases": [
+        "enalapril"
+      ],
+      "route": "Enalapril / renal growth and pressure modulation",
+      "disposition": "retain renal functional precedent; reserve only for a separately established matching lesion",
+      "evidence_scope": "Complete substantive primary main text/legends and selected supplement tables; Figures3-5 visually inspected, with independent targeted check.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "In AA-4E-BP1 transgenic rats after nephrectomy, enalapril preserved weight-normalized creatinine clearance and reduced proteinuria and glomerular adhesions, without a significant body-weight difference. Blood pressure also fell; isolated growth mediation and general developmental safety are not established. Delayed treatment partially protected lesion/proteinuria outcomes, but delayed clearance was not shown. Bulk Bub1b RNA fell, without protein, per-cell or checkpoint-fidelity evidence. Exact long-term group sizes remain unresolved. No matching proteinuric hypertrophic glomerular lesion or muscle benefit is established in this case; nephrocalcinosis alone is insufficient. The positive organ-function result merits retention but does not displace provisional nominees, whose MVA efficacy is also unproved.",
+      "source_report": "workflow/track2-drug-census/renal-growth-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5619973/",
+        "https://pubmed.ncbi.nlm.nih.gov/28720684/"
+      ],
+      "next_decisive_gap": "Resolve long-term denominators, qualify a matching renal lesion and distinguish pressure/growth effects from productive tissue function and chromosome fidelity."
+    },
+    {
+      "decision_id": "new-ascorbate-2-phosphate",
+      "match_aliases": [
+        "L-ascorbic acid 2-phosphate sesquimagnesium salt hydrate",
+        "magnesium ascorbyl phosphate",
+        "ascorbic acid 2-phosphate",
+        "L-ascorbic acid 2-phosphate"
+      ],
+      "route": "Ascorbate 2-phosphate / Sigma A8960 reprogramming component",
+      "disposition": "retain research reprogramming component; MVA and muscle efficacy not established",
+      "evidence_scope": "Chemically assisted OSKM reprogramming in embryonic mouse fibroblasts. Combination-level pluripotency positives; primary main text and legends read, figure images and supplements inaccessible.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "The paper reports 50 micrograms/mL ascorbic acid, Sigma A8960, from day 0. The current exact catalog identifies L-ascorbic acid 2-phosphate sesquimagnesium salt hydrate; historical study lot/COA is unverified. A2S with SGC0946, CHIR99021 and PD0325901 plus doxycycline-induced OSKM yielded withdrawal-resistant iPSCs, reported normal karyotypes and three-germ-layer teratomas. These are combination-level positives, not evidence for plain or oral vitamin C monotherapy. Bub1b was a cycling-cell transcript; no BUBR1 protein rescue or muscle outcome was established.",
+      "source_report": "workflow/track2-drug-census/reprogramming-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6555151/"
+      ]
+    },
+    {
+      "decision_id": "new-sgc0946",
+      "match_aliases": [
+        "SGC0946",
+        "SGC-0946",
+        "SGC 0946"
+      ],
+      "route": "SGC0946 / DOT1L reprogramming component",
+      "disposition": "retain research reprogramming component; MVA and muscle efficacy not established",
+      "evidence_scope": "Chemically assisted OSKM reprogramming in embryonic mouse fibroblasts. Combination-level pluripotency positives; primary main text and legends read, figure images and supplements inaccessible.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "SGC0946, APExBIO A4167, was used at 5 micromolar from day 0 with Sigma A8960 and 2i during OSKM-induced reprogramming. It is distinct from EPZ-5676/pinometostat. The complete A2S cocktail yielded approximately 42% population-colony efficiency at day 6 and reported normal-karyotype, teratoma-forming derived lines; the approximately 40% single-cell result was scored at day 15 after day-11 withdrawal. SGC0946 plus 2i yielded roughly half the complete-cocktail colony count. Individual-component data were not shown, and no BUBR1 rescue or muscle function was established.",
+      "source_report": "workflow/track2-drug-census/reprogramming-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6555151/"
+      ]
+    },
+    {
+      "decision_id": "new-chir99021",
+      "match_aliases": [
+        "CHIR99021",
+        "CHIR-99021"
+      ],
+      "route": "CHIR99021 / GSK3 reprogramming component",
+      "disposition": "retain research reprogramming component; MVA and muscle efficacy not established",
+      "evidence_scope": "Chemically assisted OSKM reprogramming in embryonic mouse fibroblasts. Combination-level pluripotency positives; primary main text and legends read, figure images and supplements inaccessible.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "CHIR99021, Stemgent 04-0004-10, was added at 3 micromolar 12 hours after OSKM induction, together with 1 micromolar PD0325901 as 2i. The complete A2S cocktail also contained Sigma A8960 and SGC0946 and produced withdrawal-resistant iPSCs with reported normal karyotypes and three-germ-layer teratomas. Component-omission experiments support a role for 2i in suppressing somatic expression, but do not isolate CHIR99021 from PD0325901. These combination-level pluripotency outcomes do not establish BUBR1 protein or chromosome-segregation rescue, or muscle benefit.",
+      "source_report": "workflow/track2-drug-census/reprogramming-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6555151/"
       ]
     }
   ]

@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 124 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 128 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 The [three-paper comparison](vascular-enzyme-qualification.md) retains
 anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
@@ -272,8 +272,8 @@ restoration or MVA efficacy, and the nominated pair is unchanged.
 
 The [source revalidation](review-quality-followup.md) withdraws the proposed
 all-read/no-further-leads conclusion from an unreliable draft. The initial 186
-re-read source records plus [two subsequent 128-record batches](batch02-revalidation-findings.md)
-leave 3,156 selected strings requiring revalidation. The
+re-read source records plus [three subsequent 128-record batches](batch03-revalidation-findings.md)
+leave 3,028 selected strings requiring revalidation. The
 [UMK57 appraisal](umk57-qualification.md) adds a genuine acute and completed-division
 fidelity result in cancer cells, followed by limited durability. It is a
 mechanistic competitor, not an established MVA medicine. Apcin's context-dependent
@@ -295,15 +295,15 @@ recovered matches and source-role decisions into current coverage and triage:
 511 entities have specific co-mentions, while 14,846 remain without one. A
 match is not efficacy. The [primary-question status](primary-question-status.json)
 now links nine of the original 34 questions to primary qualifications, leaving
-25 unreconciled there. The two later batches flag 52 and 49 further questions
-respectively; 3,156 selected strings still require revalidation. Publication and
+25 unreconciled there. The three later batches flag 52, 49 and 31 further
+questions respectively; 3,028 selected strings still require revalidation. Publication and
 submission remain pending.
 
 
 ## SC-43 and garcinone D: research availability and competitive position
 
 The [source-qualified comparison](stat3-compound-qualification.md) adds two
-appraisals, bringing the ledger to **124**. SC-43 earns a controlled survival
+appraisals, bringing that stage of the ledger to **124**. SC-43 earns a controlled survival
 positive in mouse liver fibrosis alongside SHP-1/STAT3 evidence. Its clinical
 registration does not establish human outcomes: one trial withdrew before
 recruiting anyone, and a second has unknown status without posted results.
@@ -321,3 +321,29 @@ The plot does not verify the stated seven-day endpoint or statistical survival
 significance; drug-induced CDC20/BUB1B restoration was not measured. This
 positive organ-level signal and the earlier negative biochemical findings
 coexist, without establishing an MVA mechanism or clinical treatment window.
+
+
+## Renal function and reprogramming: different positive endpoints
+
+The [renal qualification](renal-growth-qualification.md) credits actual-drug
+preservation of renal function with rapamycin and enalapril in a transgenic rat
+growth-adaptation model. It separates the significant alternate-day rapamycin
+result from the weaker weekly schedule and the absence of a significant
+enalapril body-weight difference. Bulk Bub1b RNA decreased during protection;
+that is not a per-cell BUBR1 protein measurement or a restoration mechanism.
+Enalapril is a phenotype-dependent reserve, with no matching renal lesion yet
+established for this case. The existing rapamycin entry gains this evidence.
+
+The [reprogramming qualification](reprogramming-qualification.md) retains an
+actual functional positive: the A2S cocktail assisted OSKM-driven mouse-cell
+reprogramming, with reported stable pluripotency and normal endpoint karyotypes.
+It adds separate entries for the catalog-qualified ascorbate-phosphate reagent,
+SGC0946 and CHIR99021, and updates existing mirdametinib. These are components
+of one protocol, not four independently effective rescue agents. The paper's
+Bub1b evidence is RNA association; neither full-length BUBR1 restoration nor
+muscle rescue was measured. Historic reagent identity and unread figure images
+and supplements remain explicit limits.
+
+The current ledger has **128 appraisals**. These positives broaden the evidence
+without demonstrating a better MVA candidate. Niacin/apitegromab remain
+provisional, and further source questions remain open.
