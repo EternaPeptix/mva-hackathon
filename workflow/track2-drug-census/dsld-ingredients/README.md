@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 212
+  --out /path/dsld-replay --expected-appraisals 216
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -124,4 +124,6 @@ The preceding **203-appraisal replay** preserves all eight output tables: **6,82
 
 The preceding **207-appraisal replay** preserves all eight output tables: **6,820 name cross-references and 77 appraisal-linked groups**. The all-trans retinoic-acid assessment creates no additional NIH name relation. A molecular-name match elsewhere in the catalog does not make retinol, other retinoids or an ingredient preparation inherit its culture result.
 
-The current **212-appraisal replay** adds one normalized-name relation from existing Geranylgeraniol group 9833 to the source-labelled trans-geranylgeraniol assessment: **6,821 cross-references, 92 curated relations and 78 appraisal-linked groups**. Only its appraisal-name field and the cross-reference table change; all source fields and six other output tables remain unchanged. The source’s incomplete double-bond geometry and unshown high-dose result remain unresolved. Database synonymy does not establish an equivalent supplement, exposure, current availability or efficacy.
+The preceding **212-appraisal replay** adds one normalized-name relation from existing Geranylgeraniol group 9833 to the source-labelled trans-geranylgeraniol assessment: **6,821 cross-references, 92 curated relations and 78 appraisal-linked groups**. Only its appraisal-name field and the cross-reference table change; all source fields and six other output tables remain unchanged. The source’s incomplete double-bond geometry and unshown high-dose result remain unresolved. Database synonymy does not establish an equivalent supplement, exposure, current availability or efficacy.
+
+The current **216-appraisal replay** preserves all eight output tables, including **6,821 name cross-references, 92 curated relations and 78 appraisal-linked groups**. The CENP-E/Aurora additions and source refinements introduce no new ingredient-name relation or efficacy credit.

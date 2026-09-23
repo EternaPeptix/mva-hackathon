@@ -3,17 +3,17 @@
   "date": "2026-09-23",
   "reviewer": "/root/retinoic_independent (source-only candidate assembler)",
   "repository": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
-  "repository_commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
-  "authoritative_decision_count": 212,
+  "repository_commit": "313f1207170482439314d52f25dd3c95615e96da",
+  "authoritative_decision_count": 216,
   "historical_batch": 15,
   "historical_flag_count": 47,
-  "scope": "Two primary source qualifications update n122/n340 only. Five source-specific administered-material assessments are added; all 207 prior objects and the other 45 question objects remain unchanged.",
+  "scope": "Only n85 changes, using a separately qualified published counterpart. Fifteen exact-source qualifications remain; the preprint is not credited as full-text read or version-authenticated.",
   "summary": {
     "exact_source_questions_with_material_direct_qualified_answers": 15,
-    "substantive_primary_qualifications": 15,
+    "substantive_primary_qualifications": 16,
     "same_source_target_only_partial_qualification": 0,
     "no_direct_source_answer": 32,
-    "open_unassigned": 32,
+    "open_unassigned": 31,
     "assigned_elsewhere_pending": 0,
     "different_experiment_context_does_not_close_question": 9,
     "fully_resolved_entire_original_composite_questions": 6,
@@ -21,10 +21,14 @@
     "new_abstract_reading_credit": 0,
     "new_primary_reading_credit": 0,
     "direct_answers_with_unresolved_original_source_components": 9,
-    "fully_resolved_entire_original_composite_questions_scope": "Six study-level answers within source limits; nine direct qualifications retain unresolved components. No clinical, global-completion or new unique-source credit.",
-    "open_questions_with_different_experiment_context": 5
+    "fully_resolved_entire_original_composite_questions_scope": "Six exact-source study-level answers within limits, nine exact-source partials and one published-counterpart partial; original preprint access/version unverified.",
+    "open_questions_with_different_experiment_context": 5,
+    "questions_with_direct_or_linked_publication_information": 16,
+    "published_counterpart_partial_qualifications": 1,
+    "no_qualified_exact_source_or_counterpart": 31,
+    "partial_questions_including_published_counterpart": 10
   },
-  "count_interpretation": "Fifteen of 47 questions have direct qualified information: six answered at source level, nine retaining unresolved components, and 32 without a direct answer. These are source-question statuses, not efficacy or global completion.",
+  "count_interpretation": "Sixteen questions have primary information: 15 exact-source qualifications (six source-level answers and nine partials) plus one published-counterpart partial. Thirty-one have neither; 32 still lack an exact-original-source answer.",
   "source_search_and_reading": {
     "candidate_discovery": "PMID/PMCID/DOI and linked-version identifier search across repository qualification/review narrative and current decisions; named-intervention/context comparison used only to find candidates. Automatic matches were not treated as scientific resolution.",
     "actually_inspected": "All47frozen followup questions and source-specific annotations; five exact-source qualification locations and relevant companion JSON; listed related-evidence sections; selected current decision objects and all194baseline route identifiers and three newly integrated decision objects. UpdatedEML1 report/companionJSON and resveratrol/bladder documentation additions read without opening new primary assets. Integrated BAY qualification/companionJSON and corrected appraisal row subsequently inspected.",
@@ -139,11 +143,18 @@
       "role": "207-assessment integration baseline, distinct from current ledger"
     },
     {
+      "source_kind": "baseline_git_blob",
+      "commit": "313f1207170482439314d52f25dd3c95615e96da",
+      "repo_relative": "workflow/track2-drug-census/decisions.json",
+      "sha256": "4b05570e9110a155581f59d0b6519c59a4daf7b07471e0c9109624d03dad4373",
+      "role": "212-assessment baseline, distinct from current ledger"
+    },
+    {
       "source_kind": "current_repository_file",
       "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
       "repo_relative": "workflow/track2-drug-census/decisions.json",
-      "sha256": "4b05570e9110a155581f59d0b6519c59a4daf7b07471e0c9109624d03dad4373",
-      "role": "Current 212-assessment ledger; all 207 prior objects unchanged"
+      "sha256": "22ab64ec1f5d902e978eeacb39f7e83d8f1cc8406a01ecea70bbc895fe68da84",
+      "role": "Current216 assessments; four prior source refinements and four additions"
     }
   ],
   "qualification_files": [
@@ -453,6 +464,27 @@
       "sha256": "fafb543debe7f9d0aa339ffbbdc9e13330a88ed85de30dcec52f194eaa488410",
       "line": 1,
       "location_status": "Integrated repository qualification"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/cenpe-feedback-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/cenpe-feedback-qualification.md",
+      "sha256": "209ba75379dfc9b3793dbb18339593181aa18e07c42dee4164543a529c00deab",
+      "line": 1,
+      "location_status": "Integrated qualification of published counterpart; original preprint unverified"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/cenpe-feedback-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/cenpe-feedback-qualification.json",
+      "sha256": "dbdfa0cb43dca90b04cb2c4d4a1d9e695fa69bbde935eaa4a2b0be4519fadbc0",
+      "line": 1,
+      "location_status": "Integrated qualification of published counterpart; original preprint unverified"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/cenpe-feedback-data.json",
+      "repo_relative": "workflow/track2-drug-census/cenpe-feedback-data.json",
+      "sha256": "911c9d2fccd2a374c962dc3bdb4d469d4b91c4513f57b78918b934faf738357b",
+      "line": 1,
+      "location_status": "Integrated qualification of published counterpart; original preprint unverified"
     }
   ],
   "records": [
@@ -827,17 +859,66 @@
         "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
         "json_pointer": "/records/84/followup_reason"
       },
-      "classification": "open_no_direct_source_qualified_answer",
-      "judgment": "No exact-source qualification found for the congression-bypass experiment or its linked publication. The saved preprint-to-publication relation is metadata, not reviewed source equivalence.",
-      "remaining_question": "Resolve the inhibitors/exposures and later segregation/error outcomes, and distinguish PPR918452 from linked PMID41120338 before admitting a published-source answer.",
-      "source_qualified_answer_components": [],
-      "qualification_pointers": [],
-      "current_decision_ids": [],
+      "classification": "published_counterpart_partial_original_preprint_unverified",
+      "judgment": "The accessible published counterpart qualifies exact drug identities and restricted RPE-1 chromosome-congression positives for centrinone, MLN8054 and TCS7010, with a separate short-exposure alisertib null. The original flagged preprint full text/version remains unverified; later faithful daughter-cell yield is not established.",
+      "remaining_question": "Authenticate/read the original preprint version if claiming its text was qualified. For the published experiments, resolve pooled MLN8054 dose assignment and genetic-assay schedule conflicts, and measure whole-starting-population completed chromosome fidelity and useful function.",
+      "source_qualified_answer_components": [
+        "Published PMID41120338 is linked by title/first-author matching to PPR918452; this is not text-level version verification or an independent replicate.",
+        "Centrinone 300 nM over 1–5 days yields centriole-loss-dependent congression bypass. MLN8054 and TCS7010 reduce polar chromosome counts after CENP-E inhibition; quantitative MLN8054 columns omit exact pooled-arm dose composition.",
+        "Native Fig4f values average 7.026 polar chromosomes with DMSO versus 3.553 with MLN8054 and 3.857 with TCS7010, with source Tukey P=1.77e-7 and 4.39e-6. Alisertib 125 nM/30 min is a scoped null (5.5; P=.117), not an all-exposure negative.",
+        "Fig4 caption MLN8237 conflicts with explicit MLN8054 panels/Methods; this does not transfer the positive to alisertib. Source numeric columns lack treatment-name headers or dish/replicate assignments.",
+        "Hec1-9A rescue is genetic, requires endogenous Hec1 depletion and fails under drug-bound CENP-E. GSK creates the defect; ZM-447439 validates phospho markers; monastrol is a distinct negative/structural control; MG132 supports arrest.",
+        "Live tracking selects anaphase-entering cells, excludes multipolar spindles and ends polar residence at alignment or anaphase with an unaligned chromosome. No BUBR1 response or whole-population faithful daughter-cell/tissue benefit is established."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/cenpe-feedback-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/cenpe-feedback-qualification.md",
+          "sha256": "209ba75379dfc9b3793dbb18339593181aa18e07c42dee4164543a529c00deab",
+          "line": 1,
+          "location_status": "Integrated qualification of published counterpart; original preprint unverified"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/cenpe-feedback-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/cenpe-feedback-qualification.json",
+          "sha256": "dbdfa0cb43dca90b04cb2c4d4a1d9e695fa69bbde935eaa4a2b0be4519fadbc0",
+          "line": 1,
+          "location_status": "Integrated qualification of published counterpart; original preprint unverified"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/cenpe-feedback-data.json",
+          "repo_relative": "workflow/track2-drug-census/cenpe-feedback-data.json",
+          "sha256": "911c9d2fccd2a374c962dc3bdb4d469d4b91c4513f57b78918b934faf738357b",
+          "line": 1,
+          "location_status": "Integrated qualification of published counterpart; original preprint unverified"
+        }
+      ],
+      "current_decision_ids": [
+        "new-alisertib",
+        "new-aurora-balancing",
+        "new-centrinone",
+        "new-eg5-balancing",
+        "new-gsk923295",
+        "new-mg132",
+        "new-mln8054",
+        "new-tcs7010"
+      ],
       "related_evidence_is_not_resolution": [],
       "full_original_composite_question_resolved": false,
       "new_unique_source_credit": 0,
       "new_primary_reading_credit": 0,
-      "publication_or_lineage_limit": "Saved source is a preprint; no version number is supplied. Saved Preprint of link: MED:41120338. Link is based on title-first-author matching, not independently authenticated here. This relation listing does not read linked notice/version/commentary content; any separately selected linked record retains its own reading entry, without extra independent-study credit."
+      "publication_or_lineage_limit": "Qualification applies to the accessible published PMID41120338. Exact PPR918452 version/body remains unavailable; title/first-author metadata linkage does not establish unchanged text. No independent-study or new outer-reading credit.",
+      "qualified_source_relation": {
+        "original_source": "PPR918452",
+        "qualified_published_source": "MED:41120338",
+        "metadata_link_basis": "title-first-author match",
+        "preprint_text_or_version_verified": false
+      },
+      "remaining_gap_types": [
+        "original_preprint_version_and_text",
+        "pooled_MLN8054_exposure_and_protocol_conflicts",
+        "completed_fidelity_and_useful_function"
+      ]
     },
     {
       "batch_review_index": 97,
@@ -2228,90 +2309,99 @@
           "historical_preservation_check": {
             "historical_preservation_check": {
               "historical_preservation_check": {
-                "only_written_files": [
-                  "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.md",
-                  "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.json"
+                "historical_preservation_check": {
+                  "only_written_files": [
+                    "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.md",
+                    "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.json"
+                  ],
+                  "frozen_artifacts_checked": 272,
+                  "frozen_artifacts_sorted_name_hash_manifest_sha256": "83b57bb9bbedff42b1a19e2f8abb3f35f4382fe80b3ea63158d354c491c110ed",
+                  "frozen_artifacts_changed": [],
+                  "original_followup_flags_mutated": false,
+                  "repository_files_written": false,
+                  "other45record_objects_unchanged": true,
+                  "changed_record_indices": [
+                    52,
+                    164
+                  ]
+                },
+                "changed_record_indices": [
+                  35,
+                  52,
+                  225
                 ],
-                "frozen_artifacts_checked": 272,
-                "frozen_artifacts_sorted_name_hash_manifest_sha256": "83b57bb9bbedff42b1a19e2f8abb3f35f4382fe80b3ea63158d354c491c110ed",
-                "frozen_artifacts_changed": [],
+                "other44record_objects_unchanged": true,
                 "original_followup_flags_mutated": false,
                 "repository_files_written": false,
-                "other45record_objects_unchanged": true,
-                "changed_record_indices": [
-                  52,
-                  164
-                ]
+                "scope": "Only candidate directory written; no old source packages modified."
               },
               "changed_record_indices": [
-                35,
-                52,
-                225
+                156
               ],
-              "other44record_objects_unchanged": true,
-              "original_followup_flags_mutated": false,
-              "repository_files_written": false,
-              "scope": "Only candidate directory written; no old source packages modified."
+              "other46record_objects_unchanged": true,
+              "all47_questions_and_flags_unchanged": true,
+              "all202_prior_ledger_objects_byte_equivalent": true,
+              "repository_files_written": false
             },
             "changed_record_indices": [
-              156
+              390
             ],
             "other46record_objects_unchanged": true,
             "all47_questions_and_flags_unchanged": true,
-            "all202_prior_ledger_objects_byte_equivalent": true,
+            "all203_prior_ids_retained": true,
+            "other202_prior_objects_unchanged": true,
             "repository_files_written": false
           },
           "changed_record_indices": [
-            390
+            418
           ],
           "other46record_objects_unchanged": true,
           "all47_questions_and_flags_unchanged": true,
-          "all203_prior_ids_retained": true,
-          "other202_prior_objects_unchanged": true,
+          "all206_prior_objects_unchanged": true,
           "repository_files_written": false
         },
         "changed_record_indices": [
-          418
+          64
         ],
         "other46record_objects_unchanged": true,
         "all47_questions_and_flags_unchanged": true,
-        "all206_prior_objects_unchanged": true,
+        "all207_decisions_unchanged": true,
+        "catalog_and_joins_unchanged": true,
         "repository_files_written": false
       },
       "changed_record_indices": [
-        64
+        122,
+        340
       ],
-      "other46record_objects_unchanged": true,
+      "other45record_objects_unchanged": true,
       "all47_questions_and_flags_unchanged": true,
-      "all207_decisions_unchanged": true,
-      "catalog_and_joins_unchanged": true,
-      "repository_files_written": false
+      "all207_prior_decision_objects_unchanged": true
     },
     "changed_record_indices": [
-      122,
-      340
+      85
     ],
-    "other45record_objects_unchanged": true,
+    "other46record_objects_unchanged": true,
     "all47_questions_and_flags_unchanged": true,
-    "all207_prior_decision_objects_unchanged": true
+    "all212_prior_decision_ids_retained": true,
+    "prior208_objects_unchanged": true
   },
   "parent_assigned_next_source": "Only n64 qualified in this source-only update; constituent efficacy and beyond-culture questions remain open.",
-  "status": "integrated_source_question_reconciliation",
-  "repository_snapshot_state": "Integrated 212-assessment source snapshot; recorded HEAD identifies its parent until commit.",
-  "freeze_note": "All original questions and flags retained. Actual-intervention assessments do not inherit cited genetic, molecular or normal-function outcomes.",
+  "status": "integrated_published_counterpart_reconciliation",
+  "repository_snapshot_state": "Integrated 216-assessment snapshot; recorded HEAD is the parent until commit.",
+  "freeze_note": "Preserve all other 46 question objects and all 47 original questions/flags. Published counterpart and exact preprint are distinct evidence depths.",
   "historical_integration_transform_at_197": {
     "original_external_markdown_sha256": "a4b579148add74cc47af028853e8f0ac14fd2336dc4b87d5dafe4b256d9c77a7",
     "source_md_sha256": "3df5d40908dd864a6319a9b27e11f8ea0137ca373191382ce29625b368f2ca2b",
     "scope": "Portable same-directory document links and curated prose spacing only; original JSON questions/answers and source hashes unchanged."
   },
   "previous_reconciliation": {
-    "commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
+    "commit": "313f1207170482439314d52f25dd3c95615e96da",
     "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
-    "sha256": "17cc1103a370f427bb5c57c305e99f6385e871f48cad80293fee4ff62bf6939a"
+    "sha256": "50cde25158d6b4bde3a38a654d00775d7b4bd47e3cda5b7637d6d60fb84b9df1"
   },
-  "reconciliation_md_sha256": "ff82a912f6871be827d7ef3f39be45ecfaae44b85cbace084486b3474662f44c",
+  "reconciliation_md_sha256": "4f8ca198bcc6857de3a4faf74cec3eb22cac87e60612fceb856b02535e1c5223",
   "decision_count_scope": "207 is the unchanged authoritative baseline and proposed source-only integration count; no compound assessment or catalog join is added.",
-  "repository_authoritative_decision_count_at_baseline": 207,
+  "repository_authoritative_decision_count_at_baseline": 212,
   "historical_input_provenance_at_202": [
     {
       "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
@@ -2460,29 +2550,32 @@
     "source_scope": "Complete root scientific main/captions/Table1/supplementary text, selected images, targeted GEO values/calls; no raw-array or new outer credit."
   },
   "candidate_input_ledger": {
-    "source_kind": "baseline_git_blob",
-    "commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
-    "repo_relative": "workflow/track2-drug-census/decisions.json",
-    "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
-    "assessments": 207,
-    "scope": "Baseline before adding five reviewed material-specific assessments."
+    "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cenpe-feedback-followup-20260923/candidate/candidate-decisions.json",
+    "sha256": "22ab64ec1f5d902e978eeacb39f7e83d8f1cc8406a01ecea70bbc895fe68da84",
+    "candidate_appraisals": 216,
+    "scope": "Frozen external candidate, separately retained from current repository input."
   },
   "root_integration": {
-    "baseline": "3c6d2e4f04df81b89525fa43612de61fe76db191",
-    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/terpenoid-kalanchoe-integration-20260923/root-reading.json",
-    "root_reading_sha256": "1f9215934332c74e8af6939dedccc709a301bc6e96ef22fa7847759a84cd86cc",
+    "baseline": "313f1207170482439314d52f25dd3c95615e96da",
+    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cenpe-feedback-integration-20260923/root-reading.json",
+    "root_reading_sha256": "73ad4df74e37ce45f5b0439a57d56f3bad7766bd7ab8d11ece52f360833b3146",
     "changed_record_indices": [
-      122,
-      340
+      85
     ],
-    "new_decision_ids": [
-      "new-zoledronic-acid-cenpf",
-      "new-trans-trans-farnesol",
-      "new-trans-geranylgeraniol-source",
-      "new-clodronate-cenpf-control",
-      "new-kalanchoe-kt-nb"
+    "new_ids": [
+      "new-alisertib",
+      "new-centrinone",
+      "new-mln8054",
+      "new-tcs7010"
     ],
-    "new_outer_reading_credit": 0
+    "refined_ids": [
+      "new-aurora-balancing",
+      "new-eg5-balancing",
+      "new-gsk923295",
+      "new-mg132"
+    ],
+    "new_outer_credit": 0,
+    "preprint_reading_or_version_equivalence_claimed": false
   },
   "historical_root_integration_at_207": {
     "baseline": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
@@ -2517,5 +2610,30 @@
     "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
     "assessments": 207,
     "scope": "No candidate ledger produced or edited; all207existing assessment objects remain unchanged."
+  },
+  "historical_root_integration_before_216": {
+    "baseline": "3c6d2e4f04df81b89525fa43612de61fe76db191",
+    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/terpenoid-kalanchoe-integration-20260923/root-reading.json",
+    "root_reading_sha256": "1f9215934332c74e8af6939dedccc709a301bc6e96ef22fa7847759a84cd86cc",
+    "changed_record_indices": [
+      122,
+      340
+    ],
+    "new_decision_ids": [
+      "new-zoledronic-acid-cenpf",
+      "new-trans-trans-farnesol",
+      "new-trans-geranylgeraniol-source",
+      "new-clodronate-cenpf-control",
+      "new-kalanchoe-kt-nb"
+    ],
+    "new_outer_reading_credit": 0
+  },
+  "historical_candidate_input_ledger_before_216": {
+    "source_kind": "baseline_git_blob",
+    "commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
+    "repo_relative": "workflow/track2-drug-census/decisions.json",
+    "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
+    "assessments": 207,
+    "scope": "Baseline before adding five reviewed material-specific assessments."
   }
 }

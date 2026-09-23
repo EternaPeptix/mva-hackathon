@@ -957,7 +957,7 @@
       ],
       "route": "Timed Aurora-B balancing: hesperadin / ZM447439",
       "disposition": "elevate experimental functional-compensation comparator",
-      "rationale": "Actual BUBR1-depletion studies show drug-mediated attachment improvement under MG132 arrest, stronger mechanistic evidence than expression alone. Accurate completed division and muscle output remain unproved in that lesion. A different BUB1-excess model shows segregation benefit alongside failed mitoses and adverse wild-type aneuploidy. Qualify timed treatment, withdrawal, checkpoint surveillance and absolute productive output; do not transfer between drugs or from genetic patient-cell PP2A rescue. A distinct B56-PP2A depletion study also restores cold-stable fibers under MG132 with named kinase inhibitors; arrest prevents treating this as accurate completed division. The qualified UMK57 primary study (PMID27829147) adds a distinct combination experiment: 250 nM ZM447439 with 100 nM UMK57 preserves a lagging-chromosome benefit at 72 hours in U2OS, no longer significant at 96 or 120 hours. Running text reports delayed resistance in SW-620 and no delay in HeLa; those supplementary panels were not independently inspected. This is genuine, transient, model-specific fidelity benefit, not single-agent BUB1B rescue and not evidence for hesperadin. A separate AML abstract (PMID26188358) uses ZM447439 as a polyploidy inducer with ABT-263 combination antitumor activity; no universal harm or protection of MVA tissue follows.",
+      "rationale": "Actual BUBR1-depletion studies show drug-mediated attachment improvement under MG132 arrest, stronger mechanistic evidence than expression alone. Accurate completed division and muscle output remain unproved in that lesion. A different BUB1-excess model shows segregation benefit alongside failed mitoses and adverse wild-type aneuploidy. Qualify timed treatment, withdrawal, checkpoint surveillance and absolute productive output; do not transfer between drugs or from genetic patient-cell PP2A rescue. A distinct B56-PP2A depletion study also restores cold-stable fibers under MG132 with named kinase inhibitors; arrest prevents treating this as accurate completed division. The qualified UMK57 primary study (PMID27829147) adds a distinct combination experiment: 250 nM ZM447439 with 100 nM UMK57 preserves a lagging-chromosome benefit at 72 hours in U2OS, no longer significant at 96 or 120 hours. Running text reports delayed resistance in SW-620 and no delay in HeLa; those supplementary panels were not independently inspected. This is genuine, transient, model-specific fidelity benefit, not single-agent BUB1B rescue and not evidence for hesperadin. A separate AML abstract (PMID26188358) uses ZM447439 as a polyploidy inducer with ABT-263 combination antitumor activity; no universal harm or protection of MVA tissue follows. A distinct published CENP-E feedback study (PMID41120338) adds ZM-447439 only as a phospho-marker specificity control: 3 micromolar for 15 minutes nearly abolishes pAurB and pKnl1 signal, while pHec1-S55 remains. No completed-division benefit or BubR1 rescue is measured in that arm. This source does not test hesperadin, and its MLN8054/TCS7010 congression findings must not be inherited by ZM-447439 or other Aurora inhibitors.",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/15592459/",
         "https://pubmed.ncbi.nlm.nih.gov/18199686/",
@@ -966,11 +966,15 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC3654266/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC3186838/",
         "https://pubmed.ncbi.nlm.nih.gov/27829147/",
-        "https://pubmed.ncbi.nlm.nih.gov/26188358/"
+        "https://pubmed.ncbi.nlm.nih.gov/26188358/",
+        "https://www.nature.com/articles/s41467-025-64804-1"
       ],
-      "evidence_scope": "Primary-source qualification; model, endpoint and source-access limits retained. Additional abstract-level revalidation is distinguished in umk57-qualification.md; the UMK57 main figures were independently checked.",
+      "evidence_scope": "Primary-source qualification; model, endpoint and source-access limits retained. Additional abstract-level revalidation is distinguished in umk57-qualification.md; the UMK57 main figures were independently checked. Additional published CENP-E feedback source: full scientific main and relevant native figures/supplement examined; protocol, selection, endpoint and preprint-version limits retained.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "source_report": "workflow/track2-drug-census/lead-qualification.md"
+      "source_report": "workflow/track2-drug-census/lead-qualification.md",
+      "additional_source_reports": [
+        "workflow/track2-drug-census/cenpe-feedback-qualification.md"
+      ]
     },
     {
       "decision_id": "new-kp372-1",
@@ -1371,15 +1375,19 @@
       ],
       "route": "STLC and monastrol / Eg5 force balancing",
       "disposition": "conditional motor-force comparator; whole-population fidelity unresolved",
-      "rationale": "Actual inhibitors shorten delayed mitosis and partly improve fibers after HMMR depletion. Timing analysis selects cells already having aligned chromosomes and normal bipolar spindles; mispositioning persists. Main/supplemental concentrations differ. Genetic chromosome counts cannot establish drug-treated faithful output. A separate LIC-depletion study actually uses STLC: depleted frog embryos gain bipolar spindles but retain abnormal categories, while depleted HeLaM cells lose bipolar prevalence and become predominantly monopolar. Control cells/embryos also become predominantly monopolar. Fixed distributions do not track individual cell transitions; these are lesion/model-specific structural effects, not completed faithful divisions. A separate CENP-W-depleted HeLa experiment used monastrol at 100 micromolar for the final 4 hours of a 48-hour siRNA transfection: supernumerary centrosomal foci (Figure 4B) and abnormal centriole splitting (Figure 5A) fell in CENP-W-depleted cells. The bipolarity observation runs the other way. The authors report that CENP-W depletion counteracts monastrol's monopolar arrest, with over 50% of observed mitotic spindles apparently bipolar under the combined perturbation, against more than 90% of monastrol-treated control cells showing two adjacent centriole pairs at the centre of a monopolar spindle. No bipolar rate is reported for CENP-W depletion without monastrol, so the drug is not shown to add bipolarity to the lesion, and that observation must not be listed as a third drug benefit. Fixed snapshots do not establish completed faithful descendants; this lesion accumulates BubR1 rather than modeling BUBR1 insufficiency.",
+      "rationale": "Actual inhibitors shorten delayed mitosis and partly improve fibers after HMMR depletion. Timing analysis selects cells already having aligned chromosomes and normal bipolar spindles; mispositioning persists. Main/supplemental concentrations differ. Genetic chromosome counts cannot establish drug-treated faithful output. A separate LIC-depletion study actually uses STLC: depleted frog embryos gain bipolar spindles but retain abnormal categories, while depleted HeLaM cells lose bipolar prevalence and become predominantly monopolar. Control cells/embryos also become predominantly monopolar. Fixed distributions do not track individual cell transitions; these are lesion/model-specific structural effects, not completed faithful divisions. A separate CENP-W-depleted HeLa experiment used monastrol at 100 micromolar for the final 4 hours of a 48-hour siRNA transfection: supernumerary centrosomal foci (Figure 4B) and abnormal centriole splitting (Figure 5A) fell in CENP-W-depleted cells. The bipolarity observation runs the other way. The authors report that CENP-W depletion counteracts monastrol's monopolar arrest, with over 50% of observed mitotic spindles apparently bipolar under the combined perturbation, against more than 90% of monastrol-treated control cells showing two adjacent centriole pairs at the centre of a monopolar spindle. No bipolar rate is reported for CENP-W depletion without monastrol, so the drug is not shown to add bipolarity to the lesion, and that observation must not be listed as a third drug benefit. Fixed snapshots do not establish completed faithful descendants; this lesion accumulates BubR1 rather than modeling BUBR1 insufficiency. A distinct published CENP-E feedback study (PMID41120338) uses monastrol as an actual negative mechanistic control: forced transient monopolarization followed by washout and CENP-E inhibition did not reproduce the reduced polar chromosome burden near acentriolar poles. General Methods specify monastrol 100 micromolar for 3 hours or acutely as noted; a separate acute spindle-shortening experiment uses 50 micromolar. Spindle shortening is measured, not a useful-cell rescue. This source does not test STLC and adds no BubR1 or postdivision-fidelity benefit.",
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC5905292/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC4242835/",
-        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0106464"
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0106464",
+        "https://www.nature.com/articles/s41467-025-64804-1"
       ],
-      "evidence_scope": "Targeted primary qualification of distinct HMMR and LIC studies; new Figure 9 and Tables S1-S2 independently checked. Intervention/model scopes remain separate. Additional CENP-W source: complete main text and legends, without figure/supplement/movie inspection.",
+      "evidence_scope": "Targeted primary qualification of distinct HMMR and LIC studies; new Figure 9 and Tables S1-S2 independently checked. Intervention/model scopes remain separate. Additional CENP-W source: complete main text and legends, without figure/supplement/movie inspection. Additional published CENP-E feedback source: full scientific main and relevant native figures/supplement examined; protocol, selection, endpoint and preprint-version limits retained.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "source_report": "workflow/track2-drug-census/mitotic-qualification.md"
+      "source_report": "workflow/track2-drug-census/mitotic-qualification.md",
+      "additional_source_reports": [
+        "workflow/track2-drug-census/cenpe-feedback-qualification.md"
+      ]
     },
     {
       "decision_id": "new-channel-blockers",
@@ -1608,18 +1616,20 @@
       ],
       "route": "MG132 / proteolysis and mitotic alignment",
       "disposition": "retain endpoint-specific mechanistic evidence; decline election from these studies",
-      "evidence_scope": "Partial kinetochore primary sections and separately reviewed full rat-muscle primary paper; intervention-specific endpoints and source limits retained. Additional source-qualified CCDC41-oocyte drug/normal-control phenotypes.",
+      "evidence_scope": "Partial kinetochore primary sections and separately reviewed full rat-muscle primary paper; intervention-specific endpoints and source limits retained. Additional source-qualified CCDC41-oocyte drug/normal-control phenotypes. Additional published CENP-E feedback source: full scientific main and relevant native figures/supplement examined; protocol, selection, endpoint and preprint-version limits retained.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "10micromolar MG132 improves alignment after nocodazole withdrawal in CENP50-deficient chicken cells, but persistent mitosis after drug removal prevents calling it completed fidelity rescue. That source has partial primary-text access and unavailable figure-specific n. Separate primary rat-muscle experiments establish ex vivo anti-proteolysis benefit, not contractile force, systemic treatment or BUB1B rescue. Preserve these positive biochemical endpoints without assigning them to bortezomib or an approved human regimen. Direct synthesis/balance and washout figures in the muscle paper used LLN, not MG132. In [Orr, PMID 27829147](https://pubmed.ncbi.nlm.nih.gov/27829147/) MG132 appears only as arrest machinery: 5 micromolar throughout every photoactivation experiment to prevent mitotic exit, and 5 micromolar for 4 hr to enrich the mitotic population for a western. It therefore bounds every k-MT half-life number in that paper and adds no MG132 benefit or harm. Recorded because the alias rule lands the record on this entry; disposition unchanged. A separate CCDC41-depleted mouse-oocyte study (PMID 41331237) adds actual 10 µM MG132 partial phenotype protection: lower early MII and chromosome-region width. Enlarged first polar bodies and poor spindle migration persist, and normal drug-treated oocytes have near-zero MII at the same observation time. Chromosome-count rescue in that paper is genetic Ccdc41 cRNA, not MG132. No completed faithful divisions, BUBR1 restoration, fertility or MVA benefit is established.",
+      "rationale": "10micromolar MG132 improves alignment after nocodazole withdrawal in CENP50-deficient chicken cells, but persistent mitosis after drug removal prevents calling it completed fidelity rescue. That source has partial primary-text access and unavailable figure-specific n. Separate primary rat-muscle experiments establish ex vivo anti-proteolysis benefit, not contractile force, systemic treatment or BUB1B rescue. Preserve these positive biochemical endpoints without assigning them to bortezomib or an approved human regimen. Direct synthesis/balance and washout figures in the muscle paper used LLN, not MG132. In [Orr, PMID 27829147](https://pubmed.ncbi.nlm.nih.gov/27829147/) MG132 appears only as arrest machinery: 5 micromolar throughout every photoactivation experiment to prevent mitotic exit, and 5 micromolar for 4 hr to enrich the mitotic population for a western. It therefore bounds every k-MT half-life number in that paper and adds no MG132 benefit or harm. Recorded because the alias rule lands the record on this entry; disposition unchanged. A separate CCDC41-depleted mouse-oocyte study (PMID 41331237) adds actual 10 µM MG132 partial phenotype protection: lower early MII and chromosome-region width. Enlarged first polar bodies and poor spindle migration persist, and normal drug-treated oocytes have near-zero MII at the same observation time. Chromosome-count rescue in that paper is genetic Ccdc41 cRNA, not MG132. No completed faithful divisions, BUBR1 restoration, fertility or MVA benefit is established. A distinct published CENP-E feedback study (PMID41120338) uses MG-132 at 1 micromolar as metaphase-arrest support for genetic Hec1/CENP-E assays, with no independently measured MG-132 benefit. Methods gives 5 hours in unsynchronized HeLa Hec1-9A cells and 2 hours after 2 hours of release in synchronized cells; the native Fig5 schematic instead shows 3 hours from MG-132 to fixation. U2OS construct experiments use 2 hours. Preserve this schedule conflict and do not turn arrested-cell congression into faithful completed division or transfer genetic Hec1-9A efficacy to MG-132.",
       "source_report": "workflow/track2-drug-census/next576-primary-qualification.md",
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC2262965/",
         "https://doi.org/10.1172/JCI119513",
         "https://pubmed.ncbi.nlm.nih.gov/27829147/",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/",
+        "https://www.nature.com/articles/s41467-025-64804-1"
       ],
       "additional_source_reports": [
-        "workflow/track2-drug-census/ccdc41-qualification.md"
+        "workflow/track2-drug-census/ccdc41-qualification.md",
+        "workflow/track2-drug-census/cenpe-feedback-qualification.md"
       ]
     },
     {
@@ -1663,13 +1673,17 @@
       ],
       "route": "GSK-923295 / CENP-E inhibition after LIC depletion",
       "disposition": "decline restoration nomination from the inspected structural result",
-      "rationale": "At 100 nM for 90 minutes, GSK-923295 decreases bipolar and increases minor-multipolar spindle prevalence after LIC depletion in HeLaM; control cells also show disruption. Four experiments with 412-438 cells/condition support a context-specific structural counterexample, not a clinical safety result or class-wide MVA efficacy null. No completed fidelity or useful muscle output was established.",
+      "rationale": "At 100 nM for 90 minutes, GSK-923295 decreases bipolar and increases minor-multipolar spindle prevalence after LIC depletion in HeLaM; control cells also show disruption. Four experiments with 412-438 cells/condition support a context-specific structural counterexample, not a clinical safety result or class-wide MVA efficacy null. No completed fidelity or useful muscle output was established. A distinct published CENP-E feedback study (PMID41120338) uses GSK-923295 as the congression-impairing background perturbation, not a restorative treatment: 80 nM for 1-4 hours or acutely as specified for RPE-1 and U2OS. That dose sentence does not explicitly assign a HeLa dose. Aurora inhibition or centriole depletion can improve restricted congression readouts in this background, whereas genetic Hec1-9A bypass succeeds after CENP-E depletion but fails with CENP-E inhibition. The lesion and intervention roles must remain separate. No BubR1 response or later chromosome-fidelity improvement is established.",
       "source_urls": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4242835/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4242835/",
+        "https://www.nature.com/articles/s41467-025-64804-1"
       ],
-      "evidence_scope": "Targeted primary Results/Discussion/Methods; Figure 9 and Tables S1/S2 visually checked, with independent verification; not whole-paper/video review.",
+      "evidence_scope": "Targeted primary Results/Discussion/Methods; Figure 9 and Tables S1/S2 visually checked, with independent verification; not whole-paper/video review. Additional published CENP-E feedback source: full scientific main and relevant native figures/supplement examined; protocol, selection, endpoint and preprint-version limits retained.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "source_report": "workflow/track2-drug-census/intervention-identity-followup.md"
+      "source_report": "workflow/track2-drug-census/intervention-identity-followup.md",
+      "additional_source_reports": [
+        "workflow/track2-drug-census/cenpe-feedback-qualification.md"
+      ]
     },
     {
       "decision_id": "new-flavopiridol",
@@ -3739,6 +3753,75 @@
         "https://link.springer.com/article/10.1186/1472-6882-12-149",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC3557174/",
         "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2F1472-6882-12-149/MediaObjects/12906_2012_1242_MOESM1_ESM.tiff"
+      ]
+    },
+    {
+      "decision_id": "new-centrinone",
+      "match_aliases": [
+        "centrinone"
+      ],
+      "route": "Centrinone / PLK4 inhibition and centriole-loss congression bypass",
+      "disposition": "retain restricted congression comparator; decline restoration nomination from this study",
+      "evidence_scope": "Published PMID41120338: complete scientific main text and relevant Supplementary Information actually read; all native main figures and S1-S3 inspected; targeted Fig4e-g source workbooks replayed. Exact linked preprint PPR918452 full text/version unverified; movie and other numerical source tables not fully examined.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Actual centrinone (not centrinone B; MCE HY-18682), 300 nM continuously for 1-5 days, generates different centriole configurations before CENP-E inhibition or depletion. In nontransformed hTERT-RPE-1, acentriolar poles have fewer retained polar chromosomes and shorter residence under CENP-E perturbation, without improved congression velocity. A U2OS comparison supports the spatial pattern across CENP-E perturbations. Completely acentriolar RPE-1 cells are rare, attributed in the paper to p53-dependent arrest. This is a measured lesion-dependent congression bypass through organelle depletion, not normal-cell restoration or added BubR1 supply. No treatment-associated BUB1B RNA, BubR1 protein or function, faithful daughter-cell yield, MVA rescue or clinical benefit was measured. Anaphase-entering cells were selected for live tracking and multipolar spindles excluded; congression is not postdivision fidelity.",
+      "source_report": "workflow/track2-drug-census/cenpe-feedback-qualification.md",
+      "source_urls": [
+        "https://www.nature.com/articles/s41467-025-64804-1",
+        "https://doi.org/10.6084/m9.figshare.29135756.v1"
+      ]
+    },
+    {
+      "decision_id": "new-mln8054",
+      "match_aliases": [
+        "MLN8054",
+        "MLN-8054",
+        "MLN 8054"
+      ],
+      "route": "MLN8054 / Aurora A inhibition in CENP-E-perturbed RPE-1",
+      "disposition": "retain restricted congression comparator; decline restoration nomination from this study",
+      "evidence_scope": "Published PMID41120338: complete scientific main text and relevant Supplementary Information actually read; all native main figures and S1-S3 inspected; targeted Fig4e-g source workbooks replayed. Exact linked preprint PPR918452 full text/version unverified; movie and other numerical source tables not fully examined.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Actual MLN8054 at 125 or 250 nM, acute or 30-60 minutes, decreases the polar/aligned pAurB ratio and polar chromosome counts in CENP-E-inhibited RPE-1, with accompanying spindle shortening. Fig4h shows end-on attachments in most examined congressing kinetochores (15 cells examined). Fig4f source values average 3.553 versus 7.026 polar chromosomes with DMSO; reported adjusted P=1.77e-7. Representative Fig4d is 250 nM for 30 minutes, but pooled quantitative panels and workbooks label only the drug, so their exact exposure composition is not independently encoded. The caption footer erroneously expands MLN as MLN8237; native labels, Methods, Table1 and Results identify MLN8054 and separately assay alisertib. Preserve the identity conflict without transferring this positive result to alisertib. No treatment-associated BUB1B RNA, BubR1 protein or function, faithful daughter-cell yield, MVA rescue or clinical benefit was measured. Anaphase-entering cells were selected for live tracking and multipolar spindles excluded; congression is not postdivision fidelity.",
+      "source_report": "workflow/track2-drug-census/cenpe-feedback-qualification.md",
+      "source_urls": [
+        "https://www.nature.com/articles/s41467-025-64804-1",
+        "https://doi.org/10.6084/m9.figshare.29135756.v1"
+      ]
+    },
+    {
+      "decision_id": "new-tcs7010",
+      "match_aliases": [
+        "TCS7010"
+      ],
+      "route": "TCS7010 / Aurora A inhibition in CENP-E-perturbed RPE-1",
+      "disposition": "retain restricted congression comparator; decline restoration nomination from this study",
+      "evidence_scope": "Published PMID41120338: complete scientific main text and relevant Supplementary Information actually read; all native main figures and S1-S3 inspected; targeted Fig4e-g source workbooks replayed. Exact linked preprint PPR918452 full text/version unverified; movie and other numerical source tables not fully examined.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Actual TCS7010 at 100 nM for 30 minutes decreases the pAurB polar/aligned ratio and polar chromosome burden in CENP-E-inhibited nontransformed hTERT-RPE-1. Fig4f source values average 3.857 versus 7.026 polar chromosomes with DMSO; reported adjusted P=4.39e-6. Spindles also shorten (mean 8.806 versus 12.061 micrometres). These are positive conditional congression and phosphosignal endpoints with an accompanying structural phenotype, not global mitotic normalization. No treatment-associated BUB1B RNA, BubR1 protein or function, faithful daughter-cell yield, MVA rescue or clinical benefit was measured. Anaphase-entering cells were selected for live tracking and multipolar spindles excluded; congression is not postdivision fidelity.",
+      "source_report": "workflow/track2-drug-census/cenpe-feedback-qualification.md",
+      "source_urls": [
+        "https://www.nature.com/articles/s41467-025-64804-1",
+        "https://doi.org/10.6084/m9.figshare.29135756.v1"
+      ]
+    },
+    {
+      "decision_id": "new-alisertib",
+      "match_aliases": [
+        "alisertib",
+        "MLN8237",
+        "MLN-8237",
+        "MLN 8237"
+      ],
+      "route": "Alisertib / MLN8237: short-exposure Aurora A comparator",
+      "disposition": "retain tested null comparator at this exposure; decline restoration nomination from this study",
+      "evidence_scope": "Published PMID41120338: complete scientific main text and relevant Supplementary Information actually read; all native main figures and S1-S3 inspected; targeted Fig4e-g source workbooks replayed. Exact linked preprint PPR918452 full text/version unverified; movie and other numerical source tables not fully examined.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Actual alisertib (MLN8237), 125 nM for 30 minutes, produced no statistically significant difference versus DMSO in pAurB polar/aligned ratio, polar chromosome number or spindle length in CENP-E-inhibited RPE-1 (reported adjusted P=0.399, 0.117 and 0.993). Polar chromosome means were 5.500 versus 7.026. Longer exposure or higher concentration is author speculation, not a demonstrated benefit or a global efficacy null. Do not inherit MLN8054 findings from the conflicting Fig4 abbreviation. No treatment-associated BUB1B RNA, BubR1 protein or function, faithful daughter-cell yield, MVA rescue or clinical benefit was measured. Anaphase-entering cells were selected for live tracking and multipolar spindles excluded; congression is not postdivision fidelity.",
+      "source_report": "workflow/track2-drug-census/cenpe-feedback-qualification.md",
+      "source_urls": [
+        "https://www.nature.com/articles/s41467-025-64804-1",
+        "https://doi.org/10.6084/m9.figshare.29135756.v1"
       ]
     }
   ]

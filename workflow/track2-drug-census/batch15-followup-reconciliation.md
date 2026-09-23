@@ -1,8 +1,8 @@
 # Batch 15 historical follow-up reconciliation
 
-**Fifteen of the 47 historical questions have direct source-qualified information; 32 lack a direct answer.** Six study-level questions are answered within limits; nine retain unresolved source components. These statuses do not establish clinical benefit or global completion.
+**Sixteen of 47 historical questions now have qualified primary information:** 15 from exact-source qualifications and one from a separately reviewed published counterpart. Six exact-source questions are answered within limits; nine exact-source questions and the counterpart retain unresolved components. Thirty-one have neither kind of qualification; 32 still lack an exact-original-source answer.
 
-**CENP-F and Kalanchoe update:** five source-specific administered-material assessments extend the ledger from 207 to 212. Only n122 and n340 change; all other 45 question objects, all 47 original questions/flags and all 207 prior assessments remain unchanged. Source, independent and root reading scopes remain distinct.
+**CENP-E published-counterpart update:** four added assessments and four prior source refinements bring the ledger to 216. Only n85 changes; all other 46 question objects and all original questions/flags remain. PPR918452 full text and exact version remain unverified.
 
 ## Direct coverage and remaining gaps
 
@@ -90,9 +90,9 @@ Pointers: [eml1-qualification.md](eml1-qualification.md), [eml1-qualification.js
 
 The resveratrol and bladder study-level exposure documentation gaps were closed from already-read primary sources. Resveratrol Figure 7-specific exposure remains unknown. EML1 moved from assigned/pending to direct qualification. The earlier BAY target-only account is replaced by the full compound-specific response qualification and corrected biochemical-assay attribution. None of these updates changes the original historical follow-up flags or creates another unique reading.
 
-## Remaining questions without a direct qualified answer
+## Remaining questions without an exact-source or published-counterpart qualification
 
-Nine records retain related evidence from a different experiment; five of those remain among the 32 open questions. Such related evidence never substitutes for the exact-source qualification.
+Nine records retain related evidence from a different experiment; five of those remain among the 31 questions without either qualification. Such related evidence never substitutes for the exact-source qualification.
 
 | Batch n / source | Why existing work does not close it | Bounded remaining question |
 |---|---|---|
@@ -101,7 +101,6 @@ Nine records retain related evidence from a different experiment; five of those 
 | [n26 / 32555285](https://pubmed.ncbi.nlm.nih.gov/32555285/) | A WEE1 route or another WEE1 inhibitor is not source qualification of this AZD1775/olaparib TNBC experiment. | Extract arm-specific AZD1775/olaparib functional effects, exposure and normal-cell controls from this source. |
 | [n27 / 42045150](https://pubmed.ncbi.nlm.nih.gov/42045150/) | The ARTADI identities remain unspecified in the frozen annotation; no exact-source qualification found. | Identify the active ARTADIs and xenograft exposures, comparator conditions and toxicity measurements. |
 | [n79 / 22438244](https://pubmed.ncbi.nlm.nih.gov/22438244/) | SP600125 is qualified in A549 fungal injury and separate U2OS/BJ-Tert checkpoint experiments, not this TP53-dependent colon-xenograft study. | Verify TP53-stratified xenograft exposure, normal-tissue outcomes and residual killing after resistant-MPS1 rescue in PMID22438244. |
-| [n85 / PPR918452](https://europepmc.org/article/PPR/PPR918452) | No exact-source qualification found for the congression-bypass experiment or its linked publication. The saved preprint-to-publication relation is metadata, not reviewed source equivalence. | Resolve the inhibitors/exposures and later segregation/error outcomes, and distinguish PPR918452 from linked PMID41120338 before admitting a published-source answer. |
 | [n97 / 23899403](https://pubmed.ncbi.nlm.nih.gov/23899403/) | No exact synchronization-source qualification found. Thymidine use as a reagent does not establish supplementation or an in-vivo sensitizer. | Check thymidine synchronization/release timing, matched controls and any actual animal Taxol-resensitization arm. |
 | [n102 / 37935787](https://pubmed.ncbi.nlm.nih.gov/37935787/) | No qualified prespecified controlled subgroup analysis found; the two abstract pCR trends remain nonsignificant. | Check whether prespecified controlled analyses support MKS-high/ERS-low immunotherapy benefit beyond the P=.07 pCR trend. |
 | [n107 / 28035071](https://pubmed.ncbi.nlm.nih.gov/28035071/) | The unnamed kinase inhibitors have not been resolved by an exact-source qualification. | Identify the inhibitors/doses that reduce sarcoma invasion independently of cytotoxicity and any actual in-vivo confirmation. |
@@ -173,9 +172,9 @@ Pointers: [PDLSC secretome qualification](pdls-secretome-qualification.md), [str
 
 The JSON preserves all 47 original questions verbatim, record/abstract hashes, source pointers/hashes, relevant decision IDs, exact answered components and bounded remaining questions. Historical version/notice limits stay attached: PPR918452 links PMID41120338 by title/first-author matching; PMID35302600 links PPR440054; PMID23403633 links commentary23459035; PMID36380369 links PPR525543. Metadata links do not constitute reading, authenticated version equivalence or independent-study credit.
 
-This reconciliation maps separately attributed primary qualifications to the original questions. It does not turn cross-model pathway membership into a drug response or culture induction into disease repair. Only n122/n340 change in this update; all other 45 record objects and all 47 original questions/flags are preserved. Prior source qualifications and their reading scopes remain unchanged. Independent/root scopes for both new qualifications are separately attributed; integration adds no scientific reading credit.
+This reconciliation maps separately attributed primary qualifications to the original questions. It does not turn cross-model pathway membership into a drug response or culture induction into disease repair. Only n85 changes in this update; all other 46 record objects and all 47 original questions/flags are preserved. Prior source qualifications and their reading scopes remain unchanged. Independent/root scopes for the published-counterpart qualification are separately attributed; integration adds no scientific reading credit.
 
-The 207-assessment reconciliation at `3c6d2e4f04df81b89525fa43612de61fe76db191` is the hash-bound baseline. Current 212-assessment input hashes, source scopes and remaining gaps are recorded separately in the companion JSON.
+The 212-assessment reconciliation at `313f1207170482439314d52f25dd3c95615e96da` is the hash-bound baseline. Current 216-assessment input hashes, source scopes and remaining gaps are recorded separately in the companion JSON.
 
 ## Newly qualified n122
 
@@ -196,3 +195,13 @@ Author Leu collected and identified the plant. Ethanol extraction followed by wa
 **Remaining scope:** Plant part/voucher, chemical composition and active-content standardization remain unknown; S1 doses/time normalization and Figure 4/7 denominators are unresolved. No isolated constituent, causal target or useful normal-cell/MVA rescue is established.
 
 Pointers: [primary qualification](kalanchoe-mitosis-qualification.md), [structured evidence](kalanchoe-mitosis-qualification.json).
+
+## n85 — published counterpart qualified; original preprint unverified
+
+The accessible published counterpart qualifies exact drug identities and restricted RPE-1 chromosome-congression positives for centrinone, MLN8054 and TCS7010, with a separate short-exposure alisertib null. The original flagged preprint full text/version remains unverified; later faithful daughter-cell yield is not established.
+
+Native Fig4f values average 7.026 polar chromosomes with DMSO versus 3.553 with MLN8054 and 3.857 with TCS7010, with source Tukey P=1.77e-7 and 4.39e-6. Alisertib 125 nM/30 min is a scoped null (5.5; P=.117), not an all-exposure negative.
+
+**Remaining scope:** Authenticate/read the original preprint version if claiming its text was qualified. For the published experiments, resolve pooled MLN8054 dose assignment and genetic-assay schedule conflicts, and measure whole-starting-population completed chromosome fidelity and useful function.
+
+Pointers: [published-source qualification](cenpe-feedback-qualification.md), [structured evidence](cenpe-feedback-qualification.json), [descriptive source-data summary](cenpe-feedback-data.json).
