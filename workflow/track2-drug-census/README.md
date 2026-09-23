@@ -8,7 +8,7 @@ bounded UMK57 control findings, and preserves the later source corrections.
 
 The [food-substance inventory](food-substances/README.md) retains 3,971 FDA rows with explicit source-status flags. The current scientific comparisons are in the [decision report](decision-report.md).
 
-The expanded ledger contains **202 appraisals**. [Curcumin animal evidence](curcumin-animal-qualification.md) adds tumor-growth and disease-endpoint survival benefits, with an unresolved 1 mg/kg versus 1 g/kg dose conflict. [Piperlongumine](piperlongumine-qualification.md) has cell-based anticancer activity without established selective CDK1 engagement. [Diclofenac sodium](diclofenac-qualification.md) retains low-micromolar pancreatic-cell combination signals; formal synergy and a normal-cell exposure window remain unestablished. These are cancer-research comparisons, with no demonstrated BUB1B restoration or muscle compensation. All 200 prior assessment IDs remain; 199 objects are unchanged and ordinary curcumin gains the animal-source qualification.
+The expanded ledger contains **203 appraisals**, preserving all 202 preceding assessment objects. The [Yiqi Huayu Jiedu preparation](yiqi-lung-qualification.md) adds an actual eight-herb rat pretreatment experiment: qualitative lung-histology improvement and reported AKT1/pan-Ras changes. Respiratory function, survival and post-injury recovery were not measured. BUB1B is a database disease-target input, with no drug-response assay; predicted ingredients do not become independently effective compounds. Niacin/apitegromab remain provisional.
 
 The separate [NIH DSLD ingredient inventory](dsld-ingredients/README.md) preserves **6,467 source groups, 78,788 synonym cells and 85,255 total name/synonym cells**. Its **41,496 lexical matches, including 1,077 unflagged matches, provide no efficacy assessment** and confer no reading or appraisal credit. A separate first pass annotates six rows across four previously read abstracts, without new unique credit. Groups, label terms and matches are not unique drugs, verified chemical equivalents or additions to the main entity denominator. API version 9.5.0 (May 2026) and index-name suffix `2025-09-25n` are distinct source descriptors, not current-market or record-update guarantees.
 
@@ -608,3 +608,7 @@ ABBV-744, molibresib, apabetalone and levetiracetam join existing catalog
 entities by exact normalized aliases. The other five do not; none of these
 joins establishes approval, efficacy or historical formulation equivalence.
 The 15,357-entity retrieval denominator is unchanged.
+
+## Unresolved protein-restoration source pointers
+
+A separate bounded protein-restoration search identified two quercetin RNA-source pointers ([PMID15309432](https://pubmed.ncbi.nlm.nih.gov/15309432/), [PMID21632981](https://pubmed.ncbi.nlm.nih.gov/21632981/)). Their complete primary abstracts describe cancer-cell experiments but do not name BUB1B. Lawful publisher and institutional routes did not yield the native expression rows; both BUB1B directions remain unknown. These pointers add no assessed monotherapy entry or reading credit, and quercetin alone does not inherit dasatinib-plus-quercetin outcomes. This limited search is not an exhaustive negative result.

@@ -1,15 +1,17 @@
 {
   "date": "2026-09-23",
   "reviewer": "/root",
-  "scope": "202-appraisal replay adds one diclofenac name relation to an existing group. Source fields and six other output tables remain unchanged; no formulation equivalence, reading or efficacy credit.",
+  "scope": "203-assessment replay preserves all eight output tables; exact-mixture naming creates no ingredient efficacy or new name relation.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/antitumor-followup-20260923/dsld-replay/runs/f4943b851ff8f4e7c6bc",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/mixture-restoration-followup-20260923/dsld-replay/runs/29686b34287536a61206",
   "historical_ledger_count": 168,
-  "current_ledger_count": 202,
+  "current_ledger_count": 203,
   "unchanged_output_tables": [
     "alias-cells.tsv",
+    "groups.tsv",
     "mentions.tsv",
     "metadata-anomalies.json",
+    "name-crossrefs.tsv",
     "normalized-aliases.tsv",
     "screen-policy.json",
     "source-records.tsv"
@@ -122,7 +124,7 @@
   "name_crossrefs_added": 20,
   "old_name_crossrefs_retained": 6800,
   "current_name_crossrefs": 6820,
-  "current_summary_sha256": "f4943b851ff8f4e7c6bc14e00a29b23024608cf1e0cf17a991046778ca1fe0fb",
+  "current_summary_sha256": "29686b34287536a612068467b1fb9c2a424a9dcb1a73c6cc5dc4f16108de90ca",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -172,35 +174,13 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "baseline_commit": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
-    "prior_appraisals": 200,
-    "current_appraisals": 202,
-    "changed_output_tables": [
-      "groups.tsv",
-      "name-crossrefs.tsv"
-    ],
-    "changed_appraisal_group_rows": [
-      {
-        "group_id": "8775",
-        "name": "Diclofenac",
-        "before": "[]",
-        "after": "[\"new-diclofenac\"]"
-      }
-    ],
-    "added_name_crossrefs": [
-      {
-        "group_id": "8775",
-        "normalized_alias": "diclofenac",
-        "source_alias_cell_ids": "[\"dsld:8775:group_name\",\"dsld:8775:synonym:0\"]",
-        "target_layer": "curated_appraisal",
-        "target_id": "new-diclofenac",
-        "target_name_field": "match_aliases",
-        "target_name_as_reported": "diclofenac",
-        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
-        "ambiguity_flags": "[]"
-      }
-    ],
-    "name_crossrefs_added": 1,
+    "baseline_commit": "afac76b79cdf85171a488b18533c1ec72c183112",
+    "prior_appraisals": 202,
+    "current_appraisals": 203,
+    "changed_output_tables": [],
+    "changed_appraisal_group_rows": [],
+    "added_name_crossrefs": [],
+    "name_crossrefs_added": 0,
     "new_manual_reading_or_efficacy_credit": 0
   },
   "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
@@ -2486,10 +2466,10 @@
     }
   },
   "prior_parent_reconciliation": {
-    "commit": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
+    "commit": "afac76b79cdf85171a488b18533c1ec72c183112",
     "path": "workflow/track2-drug-census/dsld-ingredients/parent-reconciliation.json",
-    "sha256": "ca7e030d9f3baebf7460a1e88587e257ee9ca8b2e614be072084da2328ffc22f",
-    "appraisals": 200
+    "sha256": "79e229ad6a6f2034a74f9d4453c00053f5c395ca55ce30da15c87b3807affffc",
+    "appraisals": 202
   },
   "current_delta_from181": {
     "changed_appraisal_group_rows": [

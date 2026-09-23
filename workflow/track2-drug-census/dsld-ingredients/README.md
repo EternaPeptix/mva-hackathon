@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 202
+  --out /path/dsld-replay --expected-appraisals 203
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -118,4 +118,6 @@ The preceding **197-appraisal replay** preserves all eight output tables, 6,814 
 
 The preceding **200-appraisal replay** adds five name cross-references in five existing groups, for **6,819 cross-references and 76 appraisal-linked groups**. Curcumin-name relations include the Turmeric group, and alpha-tocopherol names occur in two vitamin E groups. All five retain shared-alias flags; neither whole turmeric nor another vitamin E preparation inherits the experimental result. All source fields and six other output tables remain unchanged, with no additional reading or efficacy credit.
 
-The current **202-appraisal replay** adds one name cross-reference for diclofenac in existing group 8775, for **6,820 cross-references and 77 appraisal-linked groups**. Source fields and six other output tables are unchanged. Ingredient-database presence and exact normalized naming do not establish a supplement preparation, chemical equivalence, eligibility, exposure or efficacy. This layer adds no reading credit.
+The preceding **202-appraisal replay** adds one name cross-reference for diclofenac in existing group 8775, for **6,820 cross-references and 77 appraisal-linked groups**. Source fields and six other output tables are unchanged. Ingredient-database presence and exact normalized naming do not establish a supplement preparation, chemical equivalence, eligibility, exposure or efficacy. This layer adds no reading credit.
+
+The current **203-appraisal replay** preserves all eight output tables: **6,820 name cross-references and 77 appraisal-linked groups**. The exact Yiqi Huayu Jiedu preparation creates no new name relation, and its predicted constituent list grants no ingredient-level efficacy or reading credit.

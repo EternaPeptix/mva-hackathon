@@ -1,8 +1,8 @@
 # Batch 15 historical follow-up reconciliation
 
-**Nine of the47 historical questions have direct source-qualified information;38 do not have a direct answer in this candidate.** Five original study-level questions are answered within explicit limits. Bladder, CCDC41, EML1 and diclofenac retain unresolved source components. This is not global scientific completion, new-study credit or MVA efficacy.
+**Ten of the47 historical questions have direct source-qualified information;37 do not have a direct answer in this package.** Six original study-level questions are answered within explicit limits. Bladder, CCDC41, EML1 and diclofenac retain unresolved source components. This is not global scientific completion or MVA efficacy.
 
-**Integrated update:** baseline `d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b` has200 decisions; the proposal has202, preserves199 prior objects and refines only ordinary curcumin. Reconciliation changes only n35/n225 and adds bounded cited2011 context to n52; all44 other record objects and47 original questions/flags are unchanged. Root owns integration. No new primary/abstract reading or biological-replication credit is created by this reconciliation.
+**Current update:** the 203-assessment ledger preserves all 202 baseline objects and adds the exact Yiqi Huayu Jiedu preparation. Only n156 changes; the other 46 record objects and all 47 original questions/flags remain. Current repository inputs, the frozen candidate and baseline Git objects are recorded separately. This adds no outer-reading credit.
 
 ## Direct coverage and remaining gaps
 
@@ -37,6 +37,14 @@ Mouse CB6F1 oocytes with Ccdc41 morpholino depletion; actual CP5V 5 µM and CA-0
 **Remaining scope:** Resolve CP5V/CA-074 exposure clocks, donor-level replication and source timing conflicts; drug-treated chromosome counts, fertility and normal CA-074 controls remain absent.
 
 Pointers: [ccdc41-qualification.md](ccdc41-qualification.md), [ccdc41-qualification.json](ccdc41-qualification.json).
+
+### n156 — PMID32849901
+
+The exact eight-herb aqueous Yiqi Huayu Jiedu decoction, batch20170320, was given for seven days before LPS injury in rats. Doses were6.1/12.2/24.4g crude equivalent/kg/day; LPS2mg/kg followed six hours after the last gavage and lungs were sampled16hours later. Representative H&E protection is retained as a qualitative nonmalignant-tissue positive. Author-reported total AKT1/pan-Ras protein changes are markers; they do not establish restoration or causal mediation. No oxygenation, lung mechanics, respiratory performance, survival or post-injury treatment arm was measured. BUB1B is a disease-target network input, not a response assay. Predicted ingredient tables are not batch chemical quality control or isolated-ingredient efficacy.
+
+**Remaining scope:** Chemical characterization, exact administered volumes, six allocated versus five plotted samples and raw protein normalization remain unresolved. Histology lacks quantitative scoring, and no healthy-mixture or systematic toxicity/PK comparison establishes a window. These limits do not erase the source-reported histological protection or create a functional-respiratory/MVA benefit.
+
+Pointers: [YQHYJD qualification](yiqi-lung-qualification.md), [structured assessment](yiqi-lung-qualification.json).
 
 ### n159 — PMID 24194906
 
@@ -84,7 +92,7 @@ The resveratrol and bladder study-level exposure documentation gaps were closed 
 
 ## Remaining questions without a direct qualified answer
 
-Nine records retain related evidence from a different experiment; seven of those remain among the38 open questions. Such related evidence never substitutes for the exact-source qualification.
+Nine records retain related evidence from a different experiment; seven of those remain among the37 open questions. Such related evidence never substitutes for the exact-source qualification.
 
 | Batch n / source | Why existing work does not close it | Bounded remaining question |
 |---|---|---|
@@ -101,7 +109,6 @@ Nine records retain related evidence from a different experiment; seven of those
 | [n122 / 20015195](https://pubmed.ncbi.nlm.nih.gov/20015195/) | No exact-source zoledronic-acid qualification found; the nonmalignant MCF-10A CENP-F null does not supply all requested segregation/cytotoxicity comparisons. | Identify the rescuing mevalonate intermediate and doses; compare cancer killing with normal-cell chromosome outcomes. |
 | [n128 / 36031387](https://pubmed.ncbi.nlm.nih.gov/36031387/) | No exact Trip13/Plin2 qualification found; a genetic-depletion outcome does not resolve the separate paclitaxel exposure-response question. | Qualify paclitaxel dose-response, Plin2 dependence and normal-cell controls separately from Trip13 depletion. |
 | [n133 / 35302600](https://pubmed.ncbi.nlm.nih.gov/35302600/) | Existing BI2536 sources concern patient ciliogenesis or UBAP2L/other mitotic perturbations, not the uterine leiomyosarcoma monotherapy/combination animal arms. | Extract distinct BI-2536 monotherapy and prexasertib/cisplatin regimens, tumor effects, randomization and toxicity controls. |
-| [n156 / 32849901](https://pubmed.ncbi.nlm.nih.gov/32849901/) | No exact-source eight-herb decoction qualification found; the mixture benefit is not an isolated-ingredient effect. | Extract the Yiqi Huayu Jiedu formulation, lung-injury/treatment sequence and functional respiratory outcomes. |
 | [n183 / 18068629](https://pubmed.ncbi.nlm.nih.gov/18068629/) | No exact TGFBI-source qualification found; recombinant-protein cell sensitization is distinct from human tumor-staining correlation. | Extract recombinant TGFBI exposures and any actual in-vivo administered-protein controls, retaining the observational clinical boundary. |
 | [n184 / 42454028](https://pubmed.ncbi.nlm.nih.gov/42454028/) | No exact-source glycolysis-inhibitor identity/animal-arm qualification found. Other 2DG or lactylation studies cannot identify the unnamed interventions here. | Identify the actual glycolysis compounds and animal exposures, and separate their effects from LDHA knockdown. |
 | [n218 / 28337968](https://pubmed.ncbi.nlm.nih.gov/28337968/) | No exact-source post-MELK-null OTS167 qualification found; the abstract undermines target dependence while retaining drug activity. | Check actual OTS167 efficacy/selectivity and experimentally supported alternative targets after the MELK-null control; do not infer no anticancer activity. |
@@ -143,6 +150,6 @@ Nine records retain related evidence from a different experiment; seven of those
 
 The JSON preserves all 47 original questions verbatim, record/abstract hashes, source pointers/hashes, relevant decision IDs, exact answered components and bounded remaining questions. Historical version/notice limits stay attached: PPR918452 links PMID41120338 by title/first-author matching; PMID35302600 links PPR440054; PMID23403633 links commentary23459035; PMID36380369 links PPR525543. Metadata links do not constitute reading, authenticated version equivalence or independent-study credit.
 
-This reconciliation maps the separately documented primary-source reviews to the original questions. It does not change nominees or infer MVA efficacy from cancer activity, genetic rescue, supplement availability or a shared target. The earlier 272-artifact preservation check remains historical. This update changes n35/n225 and adds the separately qualified 2011 context to n52, with all original flags and the other 44 record objects preserved. Root read all three scientific mains and selected native figures; the source and independent reviewers' distinct scopes are recorded in their qualifications.
+This reconciliation maps the separately documented primary-source reviews to the original questions. It does not change nominees or infer MVA efficacy from cancer activity, genetic rescue, supplement availability or a shared target. The earlier 272-artifact preservation check remains historical. This update changes only n156, with all original questions/flags and46 other record objects preserved. Root declares complete YQHYJD main/captions, all four structured tables and nativeFigures6/7, without a complete-supplement claim. The source reviewer's broader scope remains separate; the completed independent check covers all main text/tables, nativeFigures6/7 and both complete target lists, with other supplementary content/image limits in the qualification.
 
-This 202-assessment update preserves the 200-assessment reconciliation as a hash-bound baseline Git object. Exact per-record changes and preservation checks are recorded in the companion JSON.
+This 203-assessment update preserves the 202-assessment reconciliation as a hash-bound baseline Git object. Exact per-record changes and preservation checks are recorded in the companion JSON.
