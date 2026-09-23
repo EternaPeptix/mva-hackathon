@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 172
+  --out /path/dsld-replay --expected-appraisals 174
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -101,3 +101,5 @@ abstract-only scope; subsequent primary evidence is linked separately.
 saturated/unsaturated chemical equivalence or confer the study’s results on
 a marketed ingredient. The exact source cells remain unchanged. CAPE likewise
 does not confer its findings on the parent caffeic-acid group.
+
+The current **174-appraisal replay** preserves all eight output tables byte-for-byte against the 172-entry snapshot: **6,805 name cross-references and 65 appraisal-linked ingredient groups** remain. Both previous parent reconciliations stay historical. Neither new Claramine nor Nutlin-3a appraisal creates an ingredient-name match or extra reading credit.

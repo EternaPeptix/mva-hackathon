@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-23",
+  "source_id": "MED:38989952",
+  "pmid": "38989952",
+  "pmcid": "PMC11438351",
+  "source_version": "PMC11438351.1",
+  "doi": "10.4103/NRR.NRR-D-23-00875",
+  "title": "Impacts of Nutlin-3a and exercise on murine double minute 2–enriched glioma treatment",
+  "publication_dates": {
+    "electronic": "2024-03-01",
+    "journal_issue": "2025-04"
+  },
+  "review_type": "Independent bounded primary-source qualification; parent had already read this paper.",
+  "existing_ledger_hit": false,
+  "proposed_entry": {
+    "decision_id": "new-nutlin-3a",
+    "match_aliases": [
+      "Nutlin-3a"
+    ],
+    "route": "MDM2/p53 pharmacology in tumor-associated physical performance",
+    "disposition": "Retain experimental tumor-associated function reserve; no current MVA lead.",
+    "do_not_merge": [
+      "Nutlin-3 racemate or unspecified Nutlin-3",
+      "Nutlin-3b",
+      "natural supplements"
+    ],
+    "root_integration_required": true
+  },
+  "identity": {
+    "source_product": "AbMole M2894, Nutlin-3a, as explicitly named in animal Methods.",
+    "manufacturer_confirmation": "Official AbMole MDM2 listing distinguishes M2894 Nutlin-3a (active enantiomer) from M2185 Nutlin-3 and M2895 Nutlin-3b. Its potency statement is manufacturer information, not a newly measured binding result from this paper.",
+    "manufacturer_url": "https://www.abmole.com/pharmacological/mdm2.html",
+    "source_naming_limit": "Paper sometimes shortens the name to Nutlin-3 and frames it as a natural product/nonpharmacological approach. Retain the explicit M2894 drug identity; do not infer dietary or natural-supplement status.",
+    "availability_limit": "Research-use listing is not patient medicine, current stock, clinical approval or a human dosing recommendation. Lot/purity and exact injection formulation were not independently verified."
+  },
+  "model": {
+    "animal": "Five-week-old male BALB/c nude mice with intracranial U87MG-derived tumors, including an MDM2-overexpressing tumor arm. Authors label the model LGG. This does not establish equivalence to human lower-grade glioma or a normal-muscle model.",
+    "total_animals_reported": 48,
+    "groups": "Separate exercise-only sham/tumor-sedentary/tumor-exercise experiment and an MDM2-OE-related comparison containing NC/control, empty vector, untreated MDM2-OE, exercise+MDM2-OE, Nutlin-3a+MDM2-OE and standalone Nutlin-3a conditions. Not every panel displays every group.",
+    "allocation_limits": [
+      "Methods generally states n=5–6/group; Figure6 behavior captions specify n=5. Exact allocation of all48 animals across the experiment sets is not reconstructable from the report.",
+      "A caption says four groups while enumerating six. Implantation dose/site descriptions differ within Methods.",
+      "Open-field Methods gives a four-versus-six count, unlike some figure captions; retain panel-specific reported n.",
+      "No Nutlin-treated normal/sham mouse group. Standalone Nutlin-3a label does not establish normal-mouse exposure."
+    ]
+  },
+  "treatment": {
+    "animal_dose": "40 mg/kg intraperitoneal Nutlin-3a, starting day3 after tumor implantation; saline control stated.",
+    "animal_schedule_limit": "Frequency, total administrations, stop date and drug solvent/preparation are not clearly specified. The18-day exercise regimen is not automatically the drug duration.",
+    "exercise": "Separate intervention; called voluntary, but Methods also describes acclimation and progressive motorized treadmill training.",
+    "cell_exposure": "U87MG viability/pathway panels use2,4,8µM;8µM shown for immunofluorescence. A48-hour treatment is explicit for the apoptosis flow experiment, not safely transferable to every assay.",
+    "combination_limit": "No defined Nutlin-3a+exercise arm. Prose mentioning combination does not demonstrate combination efficacy, additivity or synergy."
+  },
+  "measured_function": [
+    {
+      "endpoint": "Open-field distance and velocity",
+      "source": "Figure6N/O",
+      "comparison": "Nutlin-3a+MDM2-OE versus untreated MDM2-OE",
+      "result": "Higher distance and velocity with reported significant pairwise comparisons; n=5 per caption.",
+      "limit": "Whole-animal movement in a brain-tumor model, not isolated muscle contractility or a measured MVA response."
+    },
+    {
+      "endpoint": "Grip strength",
+      "source": "Figure6P",
+      "comparison": "Nutlin-3a+MDM2-OE versus untreated MDM2-OE",
+      "result": "Less deterioration in baseline-relative grip scores at days6,12,21.",
+      "day_specific": [
+        {
+          "day": 6,
+          "drug_comparison": "Significant printed comparison; exact small-font value not transcribed.",
+          "exercise_comparison": "Significant printed comparison."
+        },
+        {
+          "day": 12,
+          "drug_p": 0.016,
+          "drug_result": "positive",
+          "exercise_p": 0.107,
+          "exercise_result": "not statistically significant"
+        },
+        {
+          "day": 21,
+          "drug_p_bound": "<0.001",
+          "drug_result": "positive",
+          "exercise_p": 0.02,
+          "exercise_result": "positive"
+        }
+      ],
+      "measurement_unit": "Forelimb maximal grip force measured three trials/mouse/day, averaged, then normalized to baseline. Plot displays negative baseline-relative percentages; no absolute-force reconstruction or normal-muscle restoration claim.",
+      "n_reported": 5,
+      "independent_recalculation": false
+    },
+    {
+      "endpoint": "Maze navigation",
+      "source": "Figure6K",
+      "result": "Qualitative trajectory images accompany a favorable narrative.",
+      "limit": "No quantitative latency/probe-trial summary or inferential statistic in this panel; do not rank this alongside the quantified grip/open-field outcomes."
+    }
+  ],
+  "cell_and_molecular_results": {
+    "positives": [
+      "Dose-associated reduction in U87MG CCK-8 signal and increased Annexin V/PI apoptosis following actual Nutlin-3a treatment.",
+      "Caspase/p53/p21 protein or transcript responses and lower ROS in selected drug conditions are consistent with pathway activity.",
+      "MDM2 overexpression and attenuation of selected Nutlin responses provide model context; ligand docking/MD is computational, not measured target occupancy."
+    ],
+    "nulls_and_limits": [
+      "Figure6B p53 mRNA is not significant at the shown doses;8µM givesP=.086. Protein-associated pathway effects therefore should not be described as uniformly confirmed transcript induction.",
+      "Caspase3 at2µM is nonsignificant (P=.171); higher-dose increases occur. AdditionalFigure7 protein plots provide abundance estimates, not independent biological replication or a measured caspase-cleavage activity assay.",
+      "Some caspase blots are procaspase9/full-length species; actual flow cytometry supplies separate apoptosis evidence.",
+      "Migration/invasion and clinical-prognosis claims exceed these viability, apoptosis, marker and computational endpoints; no direct migration/invasion result is assigned here."
+    ]
+  },
+  "figure6J_check": {
+    "green_label": "Standalone Nutlin-3a",
+    "other_labels": [
+      "Control",
+      "EV",
+      "Exercise+MDM2-OE",
+      "Nutlin-3a+MDM2-OE"
+    ],
+    "missing_comparator": "Untreated MDM2-OE",
+    "consequence": "No false graph/prose contradiction from relabeling green as MDM2-OE. J cannot by itself establish the within-OE basal-to-treated response. Molecular comparator limits do not erase the separate OE-controlled behavioral positives."
+  },
+  "not_measured": [
+    "Nutlin-treated animal survival benefit",
+    "Serial tumor regression or tumor-burden response",
+    "Nutlin-3a+exercise combination efficacy",
+    "Normal-mouse drug functional benefit or normal-tissue selectivity",
+    "BUB1B/BUBR1 drug-response abundance, localization or function",
+    "Chromosome segregation, aneuploidy, checkpoint rescue or renewable progenitor output",
+    "MVA muscle or genotype-specific rescue"
+  ],
+  "BUB1B_scope": "BUB1B is among17 genes identified through computational essentiality/risk-group differential-expression/network analyses. It is not one of the drug-response PCR/protein endpoints. No Nutlin-mediated BUBR1 restoration can be inferred from the co-mention.",
+  "statistics_and_reproducibility": {
+    "authors_report": "At least three experiments, mean±SD, one-way ANOVA with Bonferroni post hoc and Mann–Whitney for nonnormal data; Figure6 specifies ANOVA/Bonferroni.",
+    "limits": "Biological preparations versus technical cell wells are not resolved for every n. Three within-animal grip pulls are not three animals. Repeated-day dependence/global multiplicity, blinding and raw behavioral data are not adequately described for independent reproduction. Printed P values are author-reported, not recalculated.",
+    "data_availability": "Public GEO data underpin computational work; other study data available from corresponding author. No contact or raw-data acquisition performed."
+  },
+  "competitive_decision": "The actual drug-associated grip and locomotor improvements are substantive functional positives, not marker-only evidence. Retain a tumor-associated function reserve. The tested defect is MDM2-enriched glioma-associated impairment, whereas a corresponding remediable MDM2/p53 defect in BUB1B/MVA was not measured. Neither source shows normal-muscle/progenitor/fidelity preservation. This does not displace provisional niacin restoration or apitegromab compensation, which also remain unproven in MVA. Do not infer patient benefit or harm from the tumor mechanism alone.",
+  "source_status": "Today’s saved authoritative PubMed record lists Journal Article without indexed CommentsCorrections; PMC11438351.1 has no related-article notice. Bounded fresh search identified no matching formal correction/retraction; not an integrity clearance.",
+  "read_scope": {
+    "review_date": "2026-09-23",
+    "role": "Independent bounded evidence qualification; root had already read this source.",
+    "main_text": "All eight supplied main-part files read completely, with every END_MAIN_PART marker observed and no truncated tool output. Includes scientific body, Methods, all main figure captions, all supplementary figure captions and Additional Table1. PubMed abstract and data-availability statement read separately. Bibliography not exhaustively reviewed.",
+    "main_text_tool_chunks": [
+      "fbc14b",
+      "a13682",
+      "a89c41",
+      "f30abf"
+    ],
+    "endmarkers_observed": [
+      "END_MAIN_PART_01",
+      "END_MAIN_PART_02",
+      "END_MAIN_PART_03",
+      "END_MAIN_PART_04",
+      "END_MAIN_PART_05",
+      "END_MAIN_PART_06",
+      "END_MAIN_PART_07",
+      "END_MAIN_PART_08"
+    ],
+    "metadata_tool_chunks": [
+      "3e5cb8",
+      "2ed421"
+    ],
+    "visual_inspection": [
+      {
+        "label": "Figure4",
+        "asset": "assets/NRR-20-1135-g005.jpg",
+        "scope": "Overview inspected; no docking/MD numerical reproduction."
+      },
+      {
+        "label": "Figure5",
+        "asset": "assets/NRR-20-1135-g006.jpg",
+        "scope": "Native exercise-only figure inspected; controls/endpoint separation."
+      },
+      {
+        "label": "Figure6",
+        "asset": "assets/NRR-20-1135-g007.jpg",
+        "scope": "Native full figure plus supplied enlarged crops inspected; panelsJ/N/O/P and day12 comparator mapping checked."
+      },
+      {
+        "label": "Additional Figure7",
+        "asset": "assets/NRR-20-1135_Suppl7.tif",
+        "display_representation": "assets/supp7.png",
+        "scope": "Entire image visually inspected through the PNG, independently verified pixel-identical to nativeTIFF afterRGB decoding."
+      }
+    ],
+    "not_visually_inspected": [
+      "Main Figures1–3",
+      "Graphical abstract",
+      "Additional Figures1–6"
+    ],
+    "derived_crop_limit": "Existing crops were used only to read labels/printed comparisons; no pixel digitization, source numerical data, independent replication or extra biological samples inferred.",
+    "independent_raw_data_reanalysis": false,
+    "reviewer_performed_biological_replication": false,
+    "new_unique_or_outer_abstract_credit": 0,
+    "repository_edits": 0
+  },
+  "source_urls": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11438351/",
+    "https://pubmed.ncbi.nlm.nih.gov/38989952/",
+    "https://doi.org/10.4103/NRR.NRR-D-23-00875",
+    "https://www.abmole.com/pharmacological/mdm2.html"
+  ],
+  "source_sha256": {
+    "primary.xml": "ccdaf41ab398d69a274c7de7e7ffa031b4e69fd9c4f49b9a76836588bb888f03",
+    "assets.zip": "a938e095ddad177559590895a3167d2b4f33ecbff7550db1e52d38bb60a1d728",
+    "pubmed.xml": "888b067721675ef870c2c775fe8f8e20e2327c1cef4ec17c12428e332aa8a126",
+    "assets/NRR-20-1135-g006.jpg": "d1d78abc73c1f551656858d43ed3231266a87af4cc7b89b2a4b773b61a5b2300",
+    "assets/NRR-20-1135-g007.jpg": "5d07e2e297a3fa7f1a677389f18b2d93dcb23d2ec7d62a4948903b96753c601b",
+    "assets/NRR-20-1135_Suppl7.tif": "345573383c0bd34144c7b2cde58a588d9dfa499e4c39c500b7c5d8ef4b20da0b"
+  },
+  "manifest_sha256": {
+    "retrieval-manifest.json": "92deddcccb2951eccaa12e226c6e7b890559d11e2fa311718c45ee28bc74e054",
+    "asset-manifest.json": "f01611c6010512b4d656a33bc394f9b5c91ee4ee22288133d5dd1c852b6aa7a7",
+    "derived-inspection-manifest.json": "9e20dcd1b6930999f19b9a48eef1d7349829a1e00d97e82ecfe965c9b798b0aa",
+    "read-scope.json": "3a2299f5f68213783ce8673e0215938d4b96157a476917e19e3dade6de2253b6"
+  },
+  "credit": {
+    "new_unique_abstracts": 0,
+    "new_outer_reading_credit": 0,
+    "reviewer_performed_biological_replication": false,
+    "raw_data_reanalysis": false,
+    "repository_edits": 0,
+    "automatic_appraisal_credit": 0
+  },
+  "parent_integration": {
+    "date": "2026-09-23",
+    "baseline": "46c556f878dd01462cb637e2e21b61f20e284669",
+    "external_source_root": "insulin-function-followups-20260923/nutlin",
+    "source_md_sha256": "e38de6bcf1bd94eb9686b3ca13fc7e5e06a542af87480b64e4cd126d6fdb01e9",
+    "source_json_sha256": "2be0d0db0f3712c9ac338d329857e91a50a991b848251fb803e15d70b4e3f886",
+    "root_checks": [
+      "Root read all eight main scientific-text parts, Figure 5, Figure 6 and Supplement 7. Enlarged Figure 6 inspection resolved the standalone Nutlin-3a label in J and the day-12 drug/exercise contrasts in P. Separate source reviewer checked these points; neither reading is biological replication."
+    ],
+    "extra_outer_abstract_credit": 0,
+    "new_ledger_id": "new-nutlin-3a"
+  }
+}

@@ -915,8 +915,18 @@ New payloads are original assessments, public agency ingredient facts, compact b
 
 The private evidence branch now has 172 appraisals: Gemini-Cur and 10-HDA are new; CAPE retains neurological-function positives with its BUB1B result corrected to RNA, not measured protein loss. All other 169 preceding assessments are unchanged. Source figures, tables, controls and reporting contradictions are distinguished in the linked qualifications; none establishes MVA efficacy or ingredient interchangeability.
 
-Batch10 adds 128 exact saved-source revalidations after excluding all 1,402 prior acceptances. Current coverage is 1,530 accepted / 3,691 outer source-ID records / 2,068 pending strings. The root read and compared eight fixed samples; no full independent 128-record interpretation review or error-rate estimate is claimed. Prior reading artifacts and the 3,598-record queue are preserved.
+Batch10 adds 128 exact saved-source revalidations after excluding all 1,402 prior acceptances. Coverage at that checkpoint was 1,530 accepted / 3,691 outer source-ID records / 2,068 pending strings. The root read and compared eight fixed samples; no full independent 128-record interpretation review or error-rate estimate is claimed. Prior reading artifacts and the 3,598-record queue are preserved.
 
 The NIH replay adds only two lexical links for 10-HDA, with the decanoic/decenoic source-name inconsistency explicit. It adds no source groups, reading credit or chemical-equivalence claim. FDA and SGC data tables are unchanged; input identities are refreshed. The original independent inventory checks remain historical.
 
 Ten new files contain original qualifications, compact selection/review metadata and verification code. No article body, raw abstract, third-party figure, full supplementary matrix or controlled case input is added. Track 1, current pitch/media, baseline release decisions and historical source identities are preserved. This is not public-release or Track 2 submission approval.
+
+## Metabolic and tumor-associated function, 23 September 2026
+
+The ledger now contains 174 appraisals. Claramine gains a distinct metabolic-function reserve based on receptor-processing/signaling experiments and a separate diabetic-mouse glycemic result. Nutlin-3a gains a tumor-associated physical-function reserve: movement and baseline-relative grip benefits remain credited without inferring normal-muscle restoration. The source-specific comparator, regimen and access limitations remain explicit; neither demonstrates BUB1B/MVA rescue. All 172 preceding appraisal objects are unchanged.
+
+Batch11 adds 256 exact saved strings in 64 outputs, with 16 predetermined root source/annotation checks. Current totals are 1,786 accepted revalidations, 3,947 outer records and 1,812 pending. One retracted review is excluded as supporting evidence, and version/correction links do not themselves confer notice-reading credit. The full source/log replay checks identities and declarations, not scientific truth or independent review of all records.
+
+The 174-appraisal inventory replay preserves every NIH, FDA and SGC output table. Input summaries change because the decision ledger changed; no new ingredient-name match or automatic efficacy/reading credit follows. Prior independent source reviews and parent reconciliations retain their historical scope.
+
+Eight new files contain original qualifications, compact review/selection metadata and replay code. Raw abstracts, source papers, third-party figures and controlled case payloads remain external. Track 1, current media, original inventory decisions and historical source identities are preserved. Both PRs remain private drafts; no merge or Track 2 submission is authorized by this update.
