@@ -34,7 +34,7 @@ A [related antibody in SMN-restored SMA mice](https://pmc.ncbi.nlm.nih.gov/artic
 
 ## What the completed work established
 
-The [public census](../workflow/track2-drug-census/README.md) screens **15,357 catalog/supplement entities**, with **40 FDA 2026 product entries assessed separately** and **156 curated route/compound appraisals**. It does not establish every drug's efficacy; missing evidence remains UNKNOWN. A separate [EMA status crosscheck](../workflow/track2-drug-census/ema-coverage-review.md) lists 1,568 authorised human products, with 180 unresolved whole-field name mismatches; this adds coverage, not efficacy claims. The [comparative assessment](../workflow/track2-drug-census/decision-report.md) preserves functional alternatives, including TM5484 muscle-force benefit, hesperetin motor performance and defect-specific Aurora/PLK1 balancing, with their treatment-window and control limitations.
+The [public census](../workflow/track2-drug-census/README.md) screens **15,357 catalog/supplement entities**, with **40 FDA 2026 product entries assessed separately** and **161 curated route/compound appraisals**. It does not establish every drug's efficacy; missing evidence remains UNKNOWN. A separate [EMA status crosscheck](../workflow/track2-drug-census/ema-coverage-review.md) lists 1,568 authorised human products, with 180 unresolved whole-field name mismatches; this adds coverage, not efficacy claims. The [comparative assessment](../workflow/track2-drug-census/decision-report.md) preserves functional alternatives, including TM5484 muscle-force benefit, hesperetin motor performance and defect-specific Aurora/PLK1 balancing, with their treatment-window and control limitations.
 
 A [six-paper follow-up](../workflow/track2-drug-census/protein-and-tissue-qualification.md)
 retains CX-4945 and metformin as protein-specific stabilization precedents,
@@ -70,6 +70,13 @@ mouse glioblastoma survival result and distinguishes [EZH2 genetic stabilization
 from its enzyme inhibitors](../workflow/track2-drug-census/ezh2-oocyte-qualification.md).
 Four appraisals are added and two existing entries refined; no MVA efficacy or
 new outer-corpus completion credit is inferred.
+
+The [food-peptide and epigenetic comparison](../workflow/track2-drug-census/decision-report.md)
+adds lunasin as a BUB1B-transcript reserve, distinguishes MS023’s cancer-cell
+BUB1B decrease, and retains bromosporine and PRMT5/METTL3 cancer benefits with
+their mechanistic limits. The separate FDA food layer contains 3,971 source
+rows; it supplies discovery coverage, not 3,971 efficacy assessments or safe
+interventions. No new outer-corpus completion credit or lead change follows.
 
 **Ursolic acid is a substantive new muscle-compensation reserve.** The [primary comparison](../workflow/track2-drug-census/next576-primary-qualification.md) credits mouse grip/absolute-force preservation and a small randomized human secondary handgrip benefit alongside a separate controlled null. It challenges niacin on measured muscle benefit; niacin retains the distinct restoration hypothesis. Apitegromab retains stronger pediatric functional evidence. Ursolic-acid product/exposure eligibility and transfer to MVA remain unresolved. The same comparison upgrades bortezomib plus humanin for neonatal-mouse contracture prevention, while retaining mortality and reduced normal-muscle growth as reasons it remains a combination-specific reserve.
 

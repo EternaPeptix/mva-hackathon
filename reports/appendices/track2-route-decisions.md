@@ -283,3 +283,22 @@ The following entries reflect primary experiments, not inventory membership.
 
 These transfer limits also apply to niacin and apitegromab. No head-to-head MVA
 efficacy or proven clinical superiority has been established for the nominees.
+
+
+## Food-peptide and epigenetic routes considered
+
+The [FDA food-substance layer](../../workflow/track2-drug-census/food-substances/README.md)
+expands discovery with source status and unknown efficacy preserved. These
+primary appraisals are separate from that inventory and its lexical matches.
+
+| Unelected route | Evidence credited | Weakness and reopening condition |
+|---|---|---|
+| **Lunasin — restoration reserve** | [2.23-fold BUB1B RNA response](../../workflow/track2-drug-census/lunasin-qualification.md) after synthetic peptide in non-tumorigenic prostate cells. | No BUBR1 protein or checkpoint/muscle rescue, BUB1B-specific PCR validation or qualified intracellular exposure. Synthetic peptide, enriched extract and dietary soy are not interchangeable. Reopen with usable protein and faithful productive divisions. |
+| **MS023 — anticancer comparator** | [ccRCC xenograft benefit](../../workflow/track2-drug-census/ms023-qualification.md), with actual drug-specific BUB1B RNA/protein decrease. | The measured direction and repair impairment oppose a restoration rationale at those exposures. Preliminary normal renal-cell data are lower-tier and extrapolated; normal-MVA harm is untested. Require a relevant indication and a demonstrated tissue window. |
+| **Bromosporine — anticancer comparator** | [Monotherapy and anti-PD-1 combination tumor benefit](../../workflow/track2-drug-census/bromosporine-qualification.md) in immunocompetent mice. | Broad bromodomain inhibition cannot establish selective catalytic PCAF action; pairwise superiority does not establish synergy. No constitutional BUB1B or muscle rescue. Resolve target attribution and relevant normal-tissue effects. |
+| **GSK591 / STM2457 — cancer probes** | [GSK591-only mouse evidence and cell/PDO combination effects](../../workflow/track2-drug-census/prmt5-mettl3-qualification.md). | One PDO's comparisons against monotherapy are nonsignificant; no formal synergy or normal-cell window. BUB1B correlation and METTL3 stabilization do not establish BUBR1 rescue. |
+
+Neither absent MVA testing nor a different-disease positive is treated as a
+unique disqualification for challengers: the nominees face those transfer gaps
+too. These judgments compare mechanism, actual intervention outcomes, exposure
+and tissue function without assigning numerical clinical efficacy.

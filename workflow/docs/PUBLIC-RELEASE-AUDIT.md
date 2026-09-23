@@ -858,3 +858,27 @@ metadata and inventory/replay code. Raw source HTML, abstracts, article text,
 figures and supplements stay external. No controlled-case payload is added.
 Track 1, current pitch/media, original inventory decisions and historical
 source identities are preserved. No publication, merge or submission is authorized.
+
+
+## Food-substance and epigenetic primary follow-up, 23 September 2026
+
+Five new appraisals bring the ledger to 161; (+)-JQ1 gains a source and the other
+155 prior objects are unchanged. Lunasin's transcript signal, MS023's drug-specific
+BUB1B reduction, bromosporine's cancer benefit/target ambiguity and GSK591/STM2457's
+intervention/statistical boundaries are retained. Delegated source qualification
+and a separate lunasin source check are bounded reviews, not whole-submission
+clean-state scoring or biological replication. The 36-compound ccRCC screen has
+no extra main-ledger appraisal credit.
+
+The new FDA layer preserves all 3,971 retrieved rows, 36 explicit former-use
+suffixes and 234 lexical hits. These public source-table facts, original
+interpretations and parser/replay code add no controlled-case data. An independent
+parser check reproduced the source/match coverage, found failed-rebuild and
+ambiguity issues, and prompted fixes. Raw source HTML, abstracts, articles,
+figure images, source workbooks and derived previews remain external.
+
+Accepted outer-corpus coverage stays 1,082 literal revalidations and 3,243 source/ID
+records, with 2,516 selected strings pending. PR1 reader/test/selection and all 109
+IDs remain; 103 PR1 objects are unchanged. Track 1/current media, historical source
+identities and original inventory decisions are preserved. No publication,
+merge or Track 2 submission is authorized by this update.

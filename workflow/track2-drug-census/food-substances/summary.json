@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "source_url": "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?order=ASC&search=&set=FoodSubstances&showAll=true&sort=Sortterm_ID&type=basic",
+  "source_page_update_dates": [
+    "07/28/2026"
+  ],
+  "source_input_sha256": {
+    "food-substances-all.html": "54eb4a22b71a109b870ed6133c6bbdb8afc09b395a855170b762cb1d46702acd",
+    "literature-gene-unrestricted.json": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+    "catalog.tsv": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299",
+    "aliases.tsv": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3",
+    "drugcentral-status-unverified.tsv": "10e227cf35b49bf07e7d28f86afee12e0ebd88335a4090275b21339396db372f",
+    "decisions.json": "09d6fd11e8cd33bf2e80a422db821a1a22b10a72313ec143dae06570c22c37d4"
+  },
+  "code_sha256": {
+    "food_substance_inventory.py": "d4f52e4399046a7494e1755da7811d11c99b55eb803d3ea4eb44eae357816d3d",
+    "sgc_probe_inventory.py": "bb92eaaaa2762fa423508d6e1ba7024ea1eb541a2c10ae8a21665e208e976cfa",
+    "broad_hub_screen.py": "e68a4be2aace30846e9b5ae27a66463336d2671a5701246ad25323ff3d8b4dac",
+    "literature_match.py": "17ecf93a27d3a30a0e4179c0506f11327fbd0814464d4ad44d3e3c3e6789a0ad"
+  },
+  "source_rows": 3971,
+  "unique_source_record_ids": 3971,
+  "unique_literal_labels": 3971,
+  "unique_cas_or_other_id_strings": 3970,
+  "explicit_name_status_counts": {
+    "NOT_STATED_IN_NAME": 3935,
+    "NLFG": 8,
+    "PROHIBITED": 17,
+    "PROHIBITED WITH EXCEPTIONS": 3,
+    "DELISTED": 8
+  },
+  "rows_with_catalog_name_candidate": 298,
+  "rows_with_curated_appraisal_name_candidate": 5,
+  "corpus_source_id_records": 7362,
+  "lexical_mention_rows": 234,
+  "mention_rows_by_policy": {
+    "COMMON_OR_SHORT_NAME_CONTEXT_AMBIGUOUS": 161,
+    "LITERAL_NAME_CONTEXT_UNASSESSED": 73
+  },
+  "source_rows_with_lexical_hit": 76,
+  "matched_source_id_records": 213,
+  "manual_reading_credit": 0,
+  "new_curated_appraisal_credit": 0,
+  "scope": "Complete retrieved FDA source table, not all foods or unique molecules. Literal preferred names only; no synonyms, CAS matching, individual regulatory review, current stock or efficacy assessment. Explicit suffix flags retained; unflagged does not mean permitted or safe. Co-mentions can be endogenous molecules, media, controls, harmful exposures or background. A lexical miss is unknown. Source rows overlap the existing catalogs; do not add their count to the main entity denominator.",
+  "output_sha256": {
+    "substances.tsv": "617d7dd737900dd9f964f08bc4bad4d9ac7def508986af6d5f483015210aebc3",
+    "mentions.tsv": "9408dd04ea11f09299b7928c5d88e1b874c0041d847ea4c8ed0208159daf33a6"
+  }
+}

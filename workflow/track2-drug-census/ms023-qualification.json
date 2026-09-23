@@ -1,0 +1,594 @@
+{
+  "schema_version": 1,
+  "assessment_date": "2026-09-23",
+  "compound": "MS023",
+  "seed_pmid": "39300069",
+  "primary_citation": {
+    "authors": "Walton et al.",
+    "year": 2024,
+    "title": "PRMT1 inhibition perturbs RNA metabolism and induces DNA damage in clear cell renal cell carcinoma",
+    "doi": "10.1038/s41467-024-52507-y",
+    "pmcid": "PMC11413393",
+    "journal": "Nature Communications"
+  },
+  "repository_context": {
+    "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
+    "commit": "725447082e515c090c2139c89b23a398e4f25079",
+    "access": "read_only"
+  },
+  "disposition": "deprioritize_for_MVA_restoration_or_muscle_compensation_retain_preclinical_ccRCC_activity",
+  "core_reason": "Direct drug-associated BUB1B reduction, repair impairment and later death in ccRCC oppose a restoration interpretation at tested exposures; no functional MVA or muscle compensation benefit is shown.",
+  "comparative_context": {
+    "niacin": "provisional restoration hypothesis, not proven MVA rescue",
+    "apitegromab": "provisional muscle compensation hypothesis, not proven MVA rescue",
+    "everolimus": "conditional signaling probe",
+    "judgment": "MS023 does not displace these routes on this bounded source evidence; no head-to-head efficacy ranking or measured superiority claimed."
+  },
+  "identity": {
+    "class": "type I protein arginine methyltransferase inhibitor",
+    "not_selective_for_PRMT1_alone": true,
+    "primary_identity_source": {
+      "pmid": "26598975",
+      "pmcid": "PMC4798913",
+      "doi": "10.1021/acschembio.5b00839"
+    },
+    "SMILES": "CN(CC1=CNC=C1C2=CC=C(C=C2)OC(C)C)CCN",
+    "InChIKey": "FMTVWAGUJRUAKE-UHFFFAOYSA-N",
+    "formula": "C17H25N3O",
+    "biochemical_IC50_nM": {
+      "PRMT1": {
+        "mean": 30,
+        "SD": 9
+      },
+      "PRMT3": {
+        "mean": 119,
+        "SD": 14
+      },
+      "PRMT4_CARM1": {
+        "mean": 83,
+        "SD": 10
+      },
+      "PRMT6": {
+        "mean": 4,
+        "SD": 0.5
+      },
+      "PRMT8": {
+        "mean": 5,
+        "SD": 0.1
+      }
+    },
+    "selectivity_limit": "Primary biochemical panel had no inhibition of PRMT5/9/7, 25 tested PKMTs/DNMTs and 3 demethylases up to 10 uM. This does not exclude all cellular off-target effects.",
+    "control": "MS094 replaces terminal amine with hydroxyl; inactive in original biochemical/cellular methylation assays",
+    "source": {
+      "asset": "sources/PMC4798913.fulltext.html",
+      "locator": "Table 1, Results: SAR, selectivity and cellular assays",
+      "evidence_tier": "published_primary"
+    },
+    "structure_source": {
+      "asset": "sources/SGC-MS023.html",
+      "locator": "properties tab",
+      "evidence_tier": "published_primary"
+    }
+  },
+  "experiments": [
+    {
+      "id": "growth",
+      "intervention": "MS023",
+      "models": [
+        "RCC22",
+        "RCC162",
+        "RCC222",
+        "RCC243",
+        "RCC323",
+        "RCC364",
+        "RCC407",
+        "786-0"
+      ],
+      "dose": "10 uM screen; 0.25-10 uM followup",
+      "duration": "7d screen; variable followup endpoint at control confluence",
+      "controls": [
+        "0.1% DMSO",
+        "MS094 inactive analog in five of six Figure 1b models"
+      ],
+      "outcome": "reduced DRAQ5/confluence, later cytostasis then death in mechanistic RCC243 time course",
+      "fitted_IC50_uM": {
+        "RCC243": 1.7,
+        "RCC22": 0.4,
+        "RCC323": 0.7,
+        "RCC364": 3.6,
+        "RCC407": 4.4,
+        "786-0": 6.1
+      },
+      "limit": "RCC364 Figure1b curve does not cross 50% within displayed tested range despite fitted IC50 label; no refitting attempted. No MS094 786-0 curve.",
+      "source": {
+        "asset": "sources/41467_2024_52507_Fig1_HTML.jpg",
+        "locator": "Figure1; Supplementary Figure2e; Methods",
+        "evidence_tier": "published_primary"
+      }
+    },
+    {
+      "id": "bub1b",
+      "intervention": "MS023",
+      "models": [
+        "RCC243",
+        "786-0"
+      ],
+      "RNA": "5 uM 3d; two technical replicates per line, aggregate differential analysis versus DMSO",
+      "protein": "RCC243 0/0.1/5/10 uM, 3d",
+      "protein_identity": "alpha-BUB1B antibody CST #4116S 1:1000",
+      "loading_control": "GAPDH, Methods Santa Cruz #sc-69778 1:1000",
+      "outcome": "RNA reduced and qualitative BUB1B protein loss strongest at 5-10 uM",
+      "protein_quantification": "No densitometry, numerical protein effect size or BUB1B-specific statistics located; uncropped source images visually checked.",
+      "RNA_published_values": {
+        "sheet": "MS023 v DMSO",
+        "range": "A493:G493",
+        "gene": "BUB1B",
+        "baseMean": 5275.68210351543,
+        "log2FoldChange": -1.23874358260311,
+        "lfcSE": 0.21594075669783,
+        "stat": -5.73649736875058,
+        "pvalue": 9.66545508308816e-09,
+        "padj": 5.47530131466049e-07,
+        "derived_fold_change": 0.42374152447854724,
+        "derivation_limit": "algebraic conversion of published log2FC, not independent RNA-seq reanalysis"
+      },
+      "limit": "Could be secondary to growth arrest/cell-cycle redistribution. No direct BUBR1 stabilization or checkpoint fidelity rescue assay. No demonstrated normal-MVA harm.",
+      "sources": [
+        {
+          "asset": "sources/41467_2024_52507_MOESM4_ESM.xlsx",
+          "locator": "MS023 v DMSO!A493:G493",
+          "evidence_tier": "published_primary"
+        },
+        {
+          "asset": "sources/41467_2024_52507_Fig5_HTML.jpg",
+          "locator": "Figure5a",
+          "evidence_tier": "published_primary"
+        },
+        {
+          "asset": "sources/41467_2024_52507_MOESM6_ESM.xlsx",
+          "locator": "FIgure 5: images anchored A2 and A17; Figure5a uncropped BUB1B and GAPDH",
+          "evidence_tier": "published_primary"
+        }
+      ]
+    },
+    {
+      "id": "DNA_repair",
+      "intervention": "MS023",
+      "model": "RCC243",
+      "exposures": "5 uM/24h before 10 Gy for comet; 5 uM/3d before 2 uM mitomycin C/24h for FANCD2",
+      "controls": [
+        "0.1% DMSO",
+        "NU7441 2 uM DNA-PK inhibitor comparator",
+        "mitomycin C alone"
+      ],
+      "outcomes": [
+        "slower DSB removal in neutral comet assay",
+        "decreased MMC-induced FANCD2 foci",
+        "DDR protein reductions",
+        "time-dependent gamma-H2AX accumulation"
+      ],
+      "nulls": [
+        "RCC243 day1 gamma-H2AX difference nonsignificant",
+        "PRMT1 knockdown RAD51AP1 protein reduction not seen although drug reduces it"
+      ],
+      "source": {
+        "asset": "sources/41467_2024_52507_Fig6_HTML.jpg",
+        "locator": "Figure6a-g and Comet assay Methods",
+        "evidence_tier": "published_primary"
+      }
+    },
+    {
+      "id": "cell_cycle_RNA",
+      "intervention": "MS023",
+      "model": "RCC243; RCC243/786-0 RNA-seq",
+      "exposure": "5 uM for 1-9d depending on endpoint",
+      "outcomes": [
+        "mitotic marker decreases",
+        "no specific phase accumulation",
+        "sub-2N population emerges around day5 and dominates day9",
+        "increased RNA-DNA hybrid staining",
+        "widespread alternative-splicing changes"
+      ],
+      "limit": "No complete proof that BCLAF1/THRAP3 alone mediates phenotype; altered transcription and other PRMT1 substrates remain plausible.",
+      "sources": [
+        {
+          "asset": "sources/41467_2024_52507_Fig5_HTML.jpg",
+          "locator": "Figure5b-c",
+          "evidence_tier": "published_primary"
+        },
+        {
+          "asset": "sources/PMC11413393.fulltext.xml",
+          "locator": "Results RNA metabolism and Discussion",
+          "evidence_tier": "published_primary"
+        },
+        {
+          "asset": "sources/41467_2024_52507_MOESM1_ESM.pdf",
+          "locator": "Supplementary Figure9",
+          "evidence_tier": "published_primary"
+        }
+      ]
+    },
+    {
+      "id": "xenografts",
+      "intervention": "MS023",
+      "model": "NSG mouse subcutaneous established ccRCC tumors",
+      "dose_route_schedule": "80 mg/kg intraperitoneal, QD 3 days on/4 days off, until control humane endpoint",
+      "control": "vehicle; composition not located in primary text",
+      "groups": [
+        {
+          "model": "RCC243 cell line",
+          "n_per_group": 10
+        },
+        {
+          "model": "786-0 cell line",
+          "n_per_group": 5
+        },
+        {
+          "model": "RCC243 PDX",
+          "n_per_group": 5
+        },
+        {
+          "model": "RCC63 PDX",
+          "n_per_group": 10
+        }
+      ],
+      "outcome": "significant suppression of tumor volume growth in all four models; lower aDMA in RCC243 tumor lysates",
+      "limit": "No survival, useful muscle, normal renewal, MVA cancer prevention or rhabdomyosarcoma outcome.",
+      "source": {
+        "asset": "sources/41467_2024_52507_Fig8_HTML.jpg",
+        "locator": "Figure8a-c",
+        "evidence_tier": "published_primary"
+      }
+    }
+  ],
+  "genetic_evidence_separate": {
+    "interventions": [
+      "CRISPR-Cas9 PRMT1 competition/dropout",
+      "doxycycline-inducible PRMT1 shRNA",
+      "PRMT1v1/v2 overexpression"
+    ],
+    "models": "RCC243, RCC364, 786-0 depending on experiment",
+    "controls": [
+      "ROSA26 safe-harbor guides",
+      "RPA3 essential-gene guides",
+      "luciferase non-targeting shRNA",
+      "no doxycycline",
+      "parental cells"
+    ],
+    "result": "PRMT1 depletion reduces ccRCC growth; PRMT3/4/6 disruption does not produce comparable dropout. PRMT1 isoform overexpression rescues drug-suppressed cancer growth, including complete rescue at 5 uM in authors description.",
+    "RNA_published_values": {
+      "sheet": "PRMT1KD_Dox v NoDox",
+      "range": "A313:G313",
+      "gene": "BUB1B",
+      "baseMean": 3894.49423465083,
+      "log2FoldChange": -0.762445870353112,
+      "lfcSE": 0.108324039111672,
+      "stat": -7.03856573855323,
+      "pvalue": 1.94228663634577e-12,
+      "padj": 2.34637072474891e-10,
+      "derived_fold_change": 0.5894960819837285,
+      "derivation_limit": "algebraic conversion of published log2FC, not independent RNA-seq reanalysis"
+    },
+    "doxycycline_exposure": "1 ug/mL in vitro; 1 mg/mL drinking water for inducible xenografts",
+    "not_drug_specific_credit": true,
+    "source": {
+      "asset": "sources/PMC11413393.fulltext.xml",
+      "locator": "Figures2-4 and Figure8d; Methods",
+      "evidence_tier": "published_primary"
+    }
+  },
+  "normal_cell_evidence": {
+    "final_article_comparison": "not presented",
+    "peer_review_only": {
+      "models": [
+        "VHL-wild-type renal epithelial cells from patient RCC22",
+        "VHL-wild-type renal epithelial cells from patient RCC171"
+      ],
+      "reported_fitted_IC50_uM": [
+        94.9,
+        40.9
+      ],
+      "observed": "two dose curves look more resistant than cancer curves; neither reaches 50% viability within plotted observations",
+      "fit_limit": "IC50 labels extrapolate beyond observed response range; do not interpret as measured safety thresholds",
+      "unreported": [
+        "exposure duration",
+        "replicate count",
+        "raw measurements",
+        "full normal-cell toxicity/repair results"
+      ],
+      "author_status": "explicitly called preliminary and excluded from manuscript; more experiments needed",
+      "source": {
+        "asset": "sources/41467_2024_52507_MOESM2_ESM.pdf",
+        "locator": "pages8-9, author response to reviewer3 point3",
+        "evidence_tier": "published_peer_review_preliminary_data"
+      }
+    },
+    "original_characterization_context": "HEK293 sensitive at 1 uM; MCF7 cell number 30% lower after 0.1 uM/10d. These cell-line findings are not normal tissue or MVA safety evidence.",
+    "MVA_normal_tissue_harm_measured": false,
+    "normal_muscle_benefit_measured": false
+  },
+  "tolerability_PK": {
+    "dose_exploration": "40-160 mg/kg IP 5d/week for3weeks; 80 mg/kg selected as maximum tolerable using <=10% weight-loss criterion",
+    "efficacy_schedule_change": "3d on/4d off to improve tolerability",
+    "PK": "80 mg/kg for3consecutive days; tumor residual detected up to4days after third dose; n=2 mice/timepoint",
+    "limit": "No validated chronic/pediatric safety window or MVA exposure inferred",
+    "source": {
+      "asset": "sources/41467_2024_52507_MOESM1_ESM.pdf",
+      "locator": "Supplementary Figure10 plus main in-vivo Results",
+      "evidence_tier": "published_primary"
+    }
+  },
+  "source_discrepancies": [
+    "GSK591 screen: 10uM Figure1 versus5uM source workbook.",
+    "GSK-LSD2 Figure1 versus GSKLSD1 TableS1/source workbook.",
+    "Valproic acid Supplemental Figure1b versus additional olaparib10uM source-workbook row; identity/result unresolved.",
+    "Nocodazole Figure5b caption0.1ug/mL versus figure image1ug/mL.",
+    "SGC707 assigned PRMT8 in one main-text passage but PRMT3 in TableS1/Figure1 and other text; peer reviewer also flagged.",
+    "RPA1 Figure2 caption versus RPA3 methods/guide table.",
+    "Source Figure8a headings call cell-line grafts PDX; Figure8 caption distinguishes cell-line grafts from Figure8c PDXs.",
+    "Main Methods broadly says5mice/arm; Figure8 explicitly reports5or10 depending on model; use model-specific caption n.",
+    "UNC2400 graph labels at2mM conflict with surrounding series/source data2uM.",
+    "Several fitted IC50 labels exceed or fail to match a visible50percent crossing; no refitting undertaken."
+  ],
+  "reading_scope": {
+    "full_text_read": [
+      "Walton Results, Discussion, Methods"
+    ],
+    "supplement_text_read": "15-page Supplementary Information, all extracted text; relevant peer-review exchanges and file descriptions",
+    "images_visually_inspected": [
+      "main Figures1,4,5,6,8",
+      "Supplementary Figure1 and Figure2a-h (pages3-7)",
+      "peer-review page9 normal-cell plots",
+      "Figure5a uncropped BUB1B and GAPDH images from source workbook"
+    ],
+    "tabular_read": [
+      "Supplementary Data1 BUB1B rows and headers",
+      "Source Data Figure1/Figure5/Figure8 and Supplementary Figure1/2/10 selected entries"
+    ],
+    "identity_source_read": "Eram primary main Results covering SAR/selectivity/cell-growth, SGC properties; no complete audit of its supplementary data",
+    "retrieved_not_audited": [
+      "Reporting Summary"
+    ],
+    "not_done": [
+      "new biological experiments",
+      "raw RNA-seq or proteomics reprocessing",
+      "independent replication",
+      "broad survey of all MS023 indications"
+    ],
+    "citation_search_limit": "No beneficial muscle study mentioned or cited by Walton was identified; not a universal absence claim.",
+    "no_abstract_completion_credit": true
+  },
+  "compounds_inventory": "ms023-screen-compounds.json",
+  "source_manifest": {
+    "manifest_created_utc": "2026-09-23T07:49:15.701046+00:00",
+    "retrieval_date": "2026-09-23",
+    "sources": [
+      {
+        "path": "sources/41467_2024_52507_Fig1_HTML.gif",
+        "bytes": 5895,
+        "sha256": "fb8e403168db6ca8ac646f64ff3336aff5dfc49843ee64d3efb34369a89532d2",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig1_HTML.jpg",
+        "bytes": 240846,
+        "sha256": "aac4f73613fe3279c91db4ef0da44356ebc7f97f837ada9e19bef6ea8345b61c",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig2_HTML.gif",
+        "bytes": 4005,
+        "sha256": "e5b8f9b9dffd8c395c26fab59f6273c4b4d702099fdce7ad849898554309d444",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig2_HTML.jpg",
+        "bytes": 126881,
+        "sha256": "da6612359d335ebcd666a2727fbc9951e2962adfc9705fab1e9031d9ad3575c3",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig3_HTML.gif",
+        "bytes": 4850,
+        "sha256": "1a4ca56bb1e9bb780e956d7f043a2e3f4b3abf61ef9519b52f41143a910202b7",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig3_HTML.jpg",
+        "bytes": 185710,
+        "sha256": "9ba9d4a32dcbdc54f5209d5cf39e2932b65461b2dbdf0cddc9bf1815c34af022",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig4_HTML.gif",
+        "bytes": 5043,
+        "sha256": "4e982ba90c6fde153fdb8819594d22eb35e1ec6a8bc125d51aa082390d152b68",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig4_HTML.jpg",
+        "bytes": 217687,
+        "sha256": "5b8616d179d978029c73ef1b6e3ea8f74e32660cc3aaa93d4c18545791ec34da",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig5_HTML.gif",
+        "bytes": 3685,
+        "sha256": "8a23bf800ee56236681808d1eefa79b5218f5f62755e20b900f99d9425d50e06",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig5_HTML.jpg",
+        "bytes": 101903,
+        "sha256": "4e18ed8291c1b22123448f2643726252b0c64585aef3d2493abd20041416efae",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig6_HTML.gif",
+        "bytes": 5896,
+        "sha256": "0491ce055b20264a761ec54c6b4b8580650aad1d63d2b63a74d03390f9769794",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig6_HTML.jpg",
+        "bytes": 222891,
+        "sha256": "9227ce65cdda6c8e623ab810b1898e7ad247336e7d220ae794376f3a9460b584",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig7_HTML.gif",
+        "bytes": 6907,
+        "sha256": "b78f72cbffeec1d7720089a03c287c6d3f29d91db1c8be1186a7cfe6799f4ba4",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig7_HTML.jpg",
+        "bytes": 266800,
+        "sha256": "e4abd3bd40c65801d6962c572c158e9de0cc598bfc462eb3bcbdc22ddfd79130",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig8_HTML.gif",
+        "bytes": 4586,
+        "sha256": "b908689030f129e937137538c94de49486c150b515754846c9e9ad5aff2957b6",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig8_HTML.jpg",
+        "bytes": 173850,
+        "sha256": "e467dee2e92ac6fe25f0248d092ce01f6215732b9d0504e17ee0ee4ee29b019a",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig9_HTML.gif",
+        "bytes": 3149,
+        "sha256": "abfb1517cc16892d8152beafcc3793ee8567abcee902d5d63fe7bb291e397433",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_Fig9_HTML.jpg",
+        "bytes": 82744,
+        "sha256": "1a639dae216be4691bac035c347a9da02fc3ab0de523acfa1978e5b99271fc17",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle"
+      },
+      {
+        "path": "sources/41467_2024_52507_MOESM1_ESM.pdf",
+        "bytes": 5691619,
+        "sha256": "f0e0df18c373612e68b24bb27e309d38578a4eee9bcbf89533c218bb0ffda3fe",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle",
+        "publisher_asset_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-024-52507-y/MediaObjects/41467_2024_52507_MOESM1_ESM.pdf"
+      },
+      {
+        "path": "sources/41467_2024_52507_MOESM2_ESM.pdf",
+        "bytes": 830096,
+        "sha256": "05d2a06504dddf893a3e4de2eaf48b212c3f94573516b31148c122597c15e8a0",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle",
+        "publisher_asset_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-024-52507-y/MediaObjects/41467_2024_52507_MOESM2_ESM.pdf"
+      },
+      {
+        "path": "sources/41467_2024_52507_MOESM3_ESM.pdf",
+        "bytes": 124761,
+        "sha256": "5e2f04632a331838fdc1c2c55db57a243aec65e14810a31c2346b562923b8fa3",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle",
+        "publisher_asset_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-024-52507-y/MediaObjects/41467_2024_52507_MOESM3_ESM.pdf"
+      },
+      {
+        "path": "sources/41467_2024_52507_MOESM4_ESM.xlsx",
+        "bytes": 414799,
+        "sha256": "c470b9e6698a045a5c27ef45cfa1c86af5c7e74771cbda4f2f76526765851c07",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle",
+        "publisher_asset_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-024-52507-y/MediaObjects/41467_2024_52507_MOESM4_ESM.xlsx"
+      },
+      {
+        "path": "sources/41467_2024_52507_MOESM5_ESM.pdf",
+        "bytes": 3424383,
+        "sha256": "3835de4cf87d528a3d6ef165012504ad5152f2117328f2372d0bc79918b01423",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle",
+        "publisher_asset_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-024-52507-y/MediaObjects/41467_2024_52507_MOESM5_ESM.pdf"
+      },
+      {
+        "path": "sources/41467_2024_52507_MOESM6_ESM.xlsx",
+        "bytes": 2519250,
+        "sha256": "3961c0a9c1f322517908f9fc552645aa47be1aa833df183cb5cbcade3b47b37b",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "original_extracted_from_official_supplement_bundle",
+        "publisher_asset_url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-024-52507-y/MediaObjects/41467_2024_52507_MOESM6_ESM.xlsx"
+      },
+      {
+        "path": "sources/PMC11413393.fulltext.xml",
+        "bytes": 184960,
+        "sha256": "38ef3bbed9216faa1c9774282d647fdd37966756b6a83888cb0f6b3aed90dd1d",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/fullTextXML",
+        "kind": "primary_fulltext_xml"
+      },
+      {
+        "path": "sources/PMC11413393.supplementaryFiles.zip",
+        "bytes": 14197780,
+        "sha256": "ee123a5e4622f790a5e1f11aba8ab03167fec500181ae010472a6f0edbe3a3d0",
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11413393/supplementaryFiles",
+        "kind": "official_supplement_bundle"
+      },
+      {
+        "path": "sources/PMC4798913.fulltext.html",
+        "bytes": 217972,
+        "sha256": "863c4a69c02fa0eef75b407f1d7fe7e1f7770cdcf2546f8d5f63a19b43360eee",
+        "retrieval_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4798913/",
+        "kind": "primary_fulltext_html"
+      },
+      {
+        "path": "sources/SGC-MS023.html",
+        "bytes": 68164,
+        "sha256": "3fbac46843c5893954f4c96e560f62f661a71db35309618aaf75814f96ce284d",
+        "retrieval_url": "https://www.thesgc.org/chemical-probes/ms023",
+        "kind": "official_probe_identity_page"
+      }
+    ],
+    "access_notes": [
+      {
+        "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-024-52507-y/MediaObjects/41467_2024_52507_MOESM1_ESM.pdf",
+        "outcome": "DNS failure locally; official EuropePMC bundle succeeded"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4798913/fullTextXML",
+        "outcome": "HTTP500; direct PMC HTML curl succeeded"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4798913/",
+        "outcome": "web-browser tool got challenge, direct ordinary curl retrieved actual primary article HTML; no bypass attempted"
+      }
+    ],
+    "derived_files": "*.txt, *.cells.json, Figure5_uncropped_*.png and source-previews are derived inspection assets, not separate primary sources",
+    "published_assets_unmodified": true,
+    "license_note": "Walton article identifies CC BY-NC-ND4.0. Assets retained for local source inspection; original assessment is separate. No network publishing performed."
+  },
+  "integration": {
+    "review_type": "Delegated primary-source qualification; parent synthesis and selected source checks. Not a clean-state review of the whole proposal.",
+    "extra_outer_abstract_credit": 0,
+    "biological_replication": false,
+    "external_asset_root": "sgc-followup-20260923/ms023",
+    "parent_baseline": "725447082e515c090c2139c89b23a398e4f25079"
+  }
+}

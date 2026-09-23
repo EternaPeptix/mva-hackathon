@@ -85,8 +85,13 @@ search infrastructure are reusable; the unsupported all-read/exhaustive-negative
 conclusion remains excluded. Both PRs remain private drafts and unmerged.
 
 
-The research-probe follow-up brings the current ledger to **156**: four new
+The preceding research-probe follow-up brought the ledger to **156**: four new
 appraisals and refinements to GSK620 and ABBV-744, with the other 150 prior
 objects unchanged. The PR1 preservation counts above are unchanged. The
 separate 249-label SGC inventory and its seven actual abstract readings do not
 increase outer-corpus completion counts or prove new efficacy.
+
+The food/epigenetic follow-up brings the current ledger to **161**, adding five
+appraisals and a new source to (+)-JQ1 while preserving the other 155 preceding
+objects. PR1 identity/reader/selection preservation is unchanged. The 3,971 FDA
+food source rows are a separate inventory, not unique-drug or efficacy credit.

@@ -2556,13 +2556,17 @@
       "disposition": "retain positive-enantiomer cell comparator; no MVA efficacy established",
       "evidence_scope": "Complete shared primary main text and supplement text; selected figure images. Separate apabetalone trial main design/efficacy/safety reviewed; no independent reviewer in this update.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "The BPS catalog identifies the positive enantiomer. Cell effects do not establish chronic safety or BUBR1 restoration; do not merge with (-)-JQ1. Punctuation-normalized catalog joins require stereoisomer review. The shared paper reports lower BUB1B RNA after genetic knockdown, not a drug-specific BUBR1 protein measurement. Cell marker effects and short-term MTT cannot establish healthy renewal, faithful division or useful muscle output. Current research listings do not establish clinical access or exposure.",
+      "rationale": "The BPS catalog identifies the positive enantiomer. Cell effects do not establish chronic safety or BUBR1 restoration; do not merge with (-)-JQ1. Punctuation-normalized catalog joins require stereoisomer review. The shared paper reports lower BUB1B RNA after genetic knockdown, not a drug-specific BUBR1 protein measurement. Cell marker effects and short-term MTT cannot establish healthy renewal, faithful division or useful muscle output. Current research listings do not establish clinical access or exposure. The separate ccRCC screen has a positive JQ1 growth result and dose curves explicitly separating (+)-JQ1 from (-)-JQ1. This adds cancer-cell evidence, not MVA restoration.",
       "source_report": "workflow/track2-drug-census/bet-macrophage-qualification.md",
       "source_urls": [
-        "https://doi.org/10.1093/jleuko/qiag017"
+        "https://doi.org/10.1093/jleuko/qiag017",
+        "https://doi.org/10.1038/s41467-024-52507-y"
       ],
       "identity_limit": "Study reports BPS 27402. Catalog normalization is retrieval only; stereoisomer, formulation and historical batch equivalence require separate qualification.",
-      "shared_primary_source_group": "PMID42054500"
+      "shared_primary_source_group": "PMID42054500",
+      "additional_source_reports": [
+        "workflow/track2-drug-census/ms023-qualification.md"
+      ]
     },
     {
       "decision_id": "new-apabetalone",
@@ -2748,6 +2752,101 @@
       ],
       "shared_primary_source_group": "PMID27226494",
       "identity_limit": "Study-named compound; catalog name cross-reference is not batch/formulation equivalence, current stock or clinical exposure."
+    },
+    {
+      "decision_id": "new-lunasin",
+      "match_aliases": [
+        "lunasin"
+      ],
+      "route": "Lunasin / food-derived BUB1B transcript-upregulation reserve",
+      "disposition": "retain a bounded restoration research reserve; no MVA efficacy established",
+      "evidence_scope": "Bounded primary-source qualification with explicit text/figure/supplement and auxiliary-source reading limits; no biological replication. See linked assessment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Synthetic peptide treatment increased BUB1B RNA 2.23-fold in non-tumorigenic prostate cells, without independent BUB1B PCR, BUBR1 protein or functional rescue. Human extract/ELISA evidence does not establish intact intracellular exposure; primary clinical abstracts report cardiometabolic and ALS/histone-engagement nulls. Genetic lunasin-expression injury is a separate intervention.",
+      "source_report": "workflow/track2-drug-census/lunasin-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1080/01635581.2011.539312",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7258671/",
+        "https://pubmed.ncbi.nlm.nih.gov/30955400/",
+        "https://pubmed.ncbi.nlm.nih.gov/30663902/",
+        "https://doi.org/10.1038/8676"
+      ],
+      "identity_limit": "Study-specific agent/extract/combination identity; research listing and dietary origin do not establish formulation equivalence, clinical access or exposure."
+    },
+    {
+      "decision_id": "new-ms023",
+      "match_aliases": [
+        "MS023",
+        "MS-023"
+      ],
+      "route": "MS023 / type-I PRMT anticancer probe",
+      "disposition": "retain ccRCC benefit; deprioritize BUBR1-restoration and muscle-compensation nomination",
+      "evidence_scope": "Bounded primary-source qualification with explicit text/figure/supplement and auxiliary-source reading limits; no biological replication. See linked assessment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Actual compound suppresses ccRCC growth and xenografts but lowers BUB1B RNA and qualitative protein signal in tested cancer cells. DNA-repair impairment is observed, not restoration of faithful division. PRMT1 genetic dependency is separate from broad type-I PRMT pharmacology. Preliminary normal renal-cell curves occur only in peer review and have extrapolated IC50s; normal MVA harm is not measured.",
+      "source_report": "workflow/track2-drug-census/ms023-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1038/s41467-024-52507-y",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4798913/"
+      ],
+      "identity_limit": "Study-specific agent/extract/combination identity; research listing and dietary origin do not establish formulation equivalence, clinical access or exposure."
+    },
+    {
+      "decision_id": "new-bromosporine",
+      "match_aliases": [
+        "bromosporine"
+      ],
+      "route": "Bromosporine / pancreatic-cancer monotherapy and anti-PD-1 combination",
+      "disposition": "retain actual cancer benefits; no selective catalytic PCAF or MVA-restoration claim",
+      "evidence_scope": "Bounded primary-source qualification with explicit text/figure/supplement and auxiliary-source reading limits; no biological replication. See linked assessment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Mouse pancreatic-tumor monotherapy and additional RMP1-14 combination benefits are real, with immune nulls and limited tolerance observations. Bromosporine broadly binds bromodomains; PCAF binding is weaker than several alternate targets. The purified PCAF assay contains no drug, and pairwise tests do not establish formal synergy. BUB1B connection is a cited suppression-direction cancer mechanism, not a measured bromosporine restoration outcome.",
+      "source_report": "workflow/track2-drug-census/bromosporine-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1038/s41467-026-69311-5",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5061470/"
+      ],
+      "identity_limit": "Study-specific agent/extract/combination identity; research listing and dietary origin do not establish formulation equivalence, clinical access or exposure."
+    },
+    {
+      "decision_id": "new-gsk591",
+      "match_aliases": [
+        "GSK591",
+        "EPZ015866",
+        "GSK3203591"
+      ],
+      "route": "GSK591 / PRMT5 cancer probe",
+      "disposition": "retain CRC drug and combination evidence; no BUBR1-restoration basis",
+      "evidence_scope": "Bounded primary-source qualification with explicit text/figure/supplement and auxiliary-source reading limits; no biological replication. See linked assessment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "GSK591 reduces METTL3-associated cancer growth and xenograft burden; STM2457 combination is tested in cells and two PDOs, not in the animal arm. PDO #2 combination-versus-monotherapy comparisons are nonsignificant, and no formal synergy analysis or normal-cell window is established. BUB1B appears as transcript co-expression, not measured rescue. Separate ccRCC screen dose discrepancy is retained.",
+      "source_report": "workflow/track2-drug-census/prmt5-mettl3-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1186/s13148-026-02144-7",
+        "https://www.thesgc.org/chemical-probes/gsk591",
+        "https://doi.org/10.1038/s41467-024-52507-y"
+      ],
+      "identity_limit": "Study-specific agent/extract/combination identity; research listing and dietary origin do not establish formulation equivalence, clinical access or exposure.",
+      "additional_source_reports": [
+        "workflow/track2-drug-census/ms023-qualification.md"
+      ]
+    },
+    {
+      "decision_id": "new-stm2457",
+      "match_aliases": [
+        "STM2457"
+      ],
+      "route": "STM2457 / METTL3 cancer-combination probe",
+      "disposition": "retain in-vitro/PDO combination evidence; no MVA promotion",
+      "evidence_scope": "Bounded primary-source qualification with explicit text/figure/supplement and auxiliary-source reading limits; no biological replication. See linked assessment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Forty-micromolar STM2457 plus GSK591 has stronger displayed CRC-cell effects, but one of two PDOs has nonsignificant comparisons to each monotherapy. No combination animal arm, formal synergy calculation, BUBR1 restoration or normal-cell window is supplied. METTL3 stabilization by genetic PRMT5 is not BUBR1 stabilization.",
+      "source_report": "workflow/track2-drug-census/prmt5-mettl3-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1186/s13148-026-02144-7",
+        "https://www.nature.com/articles/s41586-021-03536-w"
+      ],
+      "identity_limit": "Study-specific agent/extract/combination identity; research listing and dietary origin do not establish formulation equivalence, clinical access or exposure."
     }
   ]
 }

@@ -2,13 +2,36 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 156 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 161 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 The [three-paper comparison](vascular-enzyme-qualification.md) retains
 anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
 and a BUB1B RNA response to alglucosidase alfa in Pompe myocytes. Catalogue-listed
 research reagents are included on their measured merits. None yet justifies
 replacing the provisional niacin/apitegromab pair.
+
+## Food-derived and epigenetic compounds, 23 September 2026
+
+The new [FDA food-substance inventory](food-substances/README.md) preserves
+3,971 source rows and 234 literal mention rows as a separate discovery layer.
+It includes explicit prohibited/delisted entries and unresolved identities;
+neither food-list membership nor a name hit is efficacy or approval evidence.
+The full search remains unfinished.
+
+| Candidate | Evidence that changes its assessment | Decision relative to the provisional nominees |
+|---|---|---|
+| **Lunasin** | Actual synthetic-peptide treatment raised BUB1B RNA 2.23-fold in a non-tumorigenic prostate line. | **Retain a food-derived restoration reserve.** BUBR1 protein, faithful division, muscle benefit and achievable intracellular exposure remain unestablished; human extract findings and clinical nulls stay visible. [Qualification](lunasin-qualification.md). |
+| **MS023** | Actual drug suppresses ccRCC xenografts and lowers BUB1B RNA/qualitative protein signal in cancer cells. | **Deprioritize restoration.** The observed direction and repair impairment weaken that rationale at tested exposures. Normal-MVA harm was not measured; retain anticancer evidence. [Qualification](ms023-qualification.md). |
+| **Bromosporine** | Pancreatic-tumor monotherapy benefit and additional anti-PD-1 combination benefit. | **Retain anticancer comparator.** Broad bromodomain activity, incomplete catalytic PCAF attribution, immune nulls and absent formal synergy prevent the stronger mechanistic claims. No MVA-restoration bridge. [Qualification](bromosporine-qualification.md). |
+| **GSK591 / STM2457** | GSK591-only animal effects plus cell/PDO combination effects. | **Retain cancer probes.** One PDO has no significant combination advantage over either monotherapy; animal combination and formal synergy are not demonstrated. BUB1B is a correlation, not rescue. [Qualification](prmt5-mettl3-qualification.md). |
+
+Five new entries bring the ledger to **161**, with an additional source for the
+existing (+)-JQ1 entry. The other 155 preceding assessment objects are unchanged.
+The separate MS023 paper's [36-compound screen](ms023-screen-compounds.json)
+retains observations and control roles without 36 new appraisal credits.
+Primary follow-ups and overlapping retrieval add no outer-corpus completion
+credit: **2,516 selected strings remain pending**. Niacin/apitegromab remain
+provisional under the same protein/function, exposure and fidelity requirements.
 
 ## Research probes: two primary follow-ups, 23 September 2026
 
@@ -23,8 +46,8 @@ discovery; it does not establish those probes as treatments or unique new drugs.
 | **GSK778 / ipatasertib** | Separate glioblastoma proliferation and AKT/chromatin experiments. | Add distinct cell/mechanism probes; neither inherits GSK620 survival or normal-cell selectivity. |
 | **GSK343 / DZNep** | Ordinary-oocyte methylation perturbation, distinct from genetic EZH2 effects on BubR1. | Retain mechanism probes. No drug-mediated restoration; rare GSK343 polar-body abnormalities and limited functional-rescue evidence remain explicit in the [primary assessment](ezh2-oocyte-qualification.md). |
 
-Four added appraisals bring the ledger to **156**. Two existing BET entries gain
-qualified follow-ups; the other 150 preceding entries are unchanged. Neither
+That earlier follow-up added four appraisals and refined two BET entries;
+the other 150 preceding entries were unchanged. Neither
 this inventory nor the seven overlapping readings changes the **2,516 pending**
 outer strings. Niacin and apitegromab remain provisional, unproved in MVA.
 

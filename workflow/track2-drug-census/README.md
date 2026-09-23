@@ -6,13 +6,22 @@ publication-hold status.
 [PR1 reuse](pr1-reuse.md) records which work is already incorporated, adds
 bounded UMK57 control findings, and preserves the later source corrections.
 
+The [food-substance layer](food-substances/README.md) now retains all 3,971 rows
+of the retrieved FDA table, with prohibited/delisted labels and unknown efficacy
+preserved. Five new appraisals bring the total to **161**.
+[Lunasin](lunasin-qualification.md) is a transcript-level restoration reserve;
+[MS023](ms023-qualification.md) lowers BUB1B in its tested cancer models.
+[Bromosporine](bromosporine-qualification.md) and
+[GSK591/STM2457](prmt5-mettl3-qualification.md) retain their actual cancer
+benefits without inheriting selective mechanisms or unmeasured MVA rescue.
+
 The [research-probe inventory](sgc-probes/README.md) adds 249 SGC probe labels
 and 230 parent-scoped negative-control records as a separate discovery layer.
 Seven complete matched abstracts were read; one BSP match is a PCR abbreviation.
 The [GSK620 follow-up](gsk620-gbm-qualification.md) credits actual mouse cancer
 survival, while the [EZH2 study](ezh2-oocyte-qualification.md) separates genetic
-BUBR1 stabilization from drug inhibition. These add four appraisals for **156**,
-not 249 demonstrated treatments, and add no outer-corpus reading credit.
+BUBR1 stabilization from drug inhibition. Those primary follow-ups added four appraisals, not 249 demonstrated treatments,
+and no outer-corpus reading credit.
 
 The latest qualifications retain [unesbulin's cancer benefit](unesbulin-qualification.md)
 and [okadaic acid's mitotic-entry timing rescue](greatwall-qualification.md), with

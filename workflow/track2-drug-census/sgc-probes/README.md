@@ -15,7 +15,7 @@ product identity were not established by reading these tables.
 | Union | 391 preserved source rows, **249 probe labels**, not 391 molecules |
 | Negative controls | 230 records scoped to their parent probe; 226 distinct nonempty control-cell strings |
 | Clinical-catalog name candidates | 12 probe labels; exact name cross-references only, not structure-confirmed identities |
-| Curated-appraisal name candidates | Six probe labels, linked to the current ledger; not six new efficacy findings |
+| Curated-appraisal name candidates | Nine probe labels, linked to the current ledger; not nine new efficacy findings |
 | Saved-corpus retrieval | Seven mention rows in seven source/ID records; six probe labels, no negative-control hits |
 
 `BAY 1816032` appears twice on each page with conflicting protein-family labels
@@ -37,12 +37,12 @@ separately from the generated [retrieval rows](mentions.tsv).
 | Hit | Actual evidence and current decision |
 |---|---|
 | **GSK343, PMID 27226494** | The subsequent [primary qualification](../ezh2-oocyte-qualification.md) separates genetic EZH2/BubR1 stabilization from drug methylation effects; admits GSK343 and DZNep as mechanism probes. |
-| **MS023, PMID 39300069** | Primary abstract reports anticancer effects, RNA disruption and DNA damage in ccRCC; doses, functional scope and normal controls need full-text review. |
-| **GSK591, PMID 42121254** | Abstract reports a combination with STM2457 in CRC cells/organoids. Neither mono-agent BUBR1 rescue nor MVA efficacy follows. |
-| **Bromosporine, PMID 41663394** | Abstract reports benefit with anti-PD-1 in pancreatic tumor models. Compound selectivity, single-agent contribution and the BUBR1 connection remain to be qualified. |
+| **MS023, PMID 39300069** | [Primary qualification](../ms023-qualification.md) retains ccRCC benefit and actual BUB1B RNA/protein decrease, with normal-cell and selectivity limits. |
+| **GSK591, PMID 42121254** | [Primary qualification](../prmt5-mettl3-qualification.md) separates GSK591-only animal effects from cell/PDO combination effects and preserves the second-PDO null comparisons. |
+| **Bromosporine, PMID 41663394** | [Primary qualification](../bromosporine-qualification.md) retains monotherapy/combination benefit but does not establish selective catalytic PCAF action, formal synergy or BUBR1 restoration. |
 | **JQ1, PMID 28061448** | Abstract reports enhanced tumor-cell effects with volasertib; enantiomer unspecified. Do not silently assign this to (+)-JQ1. |
 | **A-485, PMID 42211570** | Review article, not a new primary experiment; follow its underlying sources. |
-| **BSP, PMID 21526452** | **False bromosporine match:** BSP denotes bisulfite PCR. The actual tested agent is lunasin, retained as a separate food-derived peptide question. This does not establish a dietary-soy effect. |
+| **BSP, PMID 21526452** | **False bromosporine match:** BSP denotes bisulfite PCR. The actual tested agent is now separately [qualified as lunasin](../lunasin-qualification.md), a BUB1B-transcript research reserve. This does not establish a dietary-soy effect. |
 
 These readings add **zero** to accepted outer-corpus completion counts because
 this is a separate, potentially overlapping pass. The primary appraisals are

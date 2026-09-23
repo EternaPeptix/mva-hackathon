@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-09-23T08:10:44.353060+00:00",
+  "review_type": "read-only bounded fix recheck and current-package reconciliation",
+  "reviewed_script_sha256": "d4f52e4399046a7494e1755da7811d11c99b55eb803d3ea4eb44eae357816d3d",
+  "reviewed_tests_sha256": "b186a66e41a79e0ce9366301f210e02951c62eae56f693557808d0cc55d32080",
+  "input_hashes_at_review": {
+    "food-substances-all.html": "54eb4a22b71a109b870ed6133c6bbdb8afc09b395a855170b762cb1d46702acd",
+    "literature-gene-unrestricted.json": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+    "catalog.tsv": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299",
+    "aliases.tsv": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3",
+    "drugcentral-status-unverified.tsv": "10e227cf35b49bf07e7d28f86afee12e0ebd88335a4090275b21339396db372f",
+    "decisions.json": "09d6fd11e8cd33bf2e80a422db821a1a22b10a72313ec143dae06570c22c37d4"
+  },
+  "code_hashes_at_review": {
+    "food_substance_inventory.py": "d4f52e4399046a7494e1755da7811d11c99b55eb803d3ea4eb44eae357816d3d",
+    "sgc_probe_inventory.py": "bb92eaaaa2762fa423508d6e1ba7024ea1eb541a2c10ae8a21665e208e976cfa",
+    "broad_hub_screen.py": "e68a4be2aace30846e9b5ae27a66463336d2671a5701246ad25323ff3d8b4dac",
+    "literature_match.py": "17ecf93a27d3a30a0e4179c0506f11327fbd0814464d4ad44d3e3c3e6789a0ad"
+  },
+  "output_hashes_at_review": {
+    "substances.tsv": "617d7dd737900dd9f964f08bc4bad4d9ac7def508986af6d5f483015210aebc3",
+    "mentions.tsv": "9408dd04ea11f09299b7928c5d88e1b874c0041d847ea4c8ed0208159daf33a6"
+  },
+  "ledger_decisions_at_review": 161,
+  "no_finding_checks": {
+    "independent_source_rows": 3971,
+    "all_four_source_cells_match_preview": true,
+    "declared_count_matches": true,
+    "source_record_ids_unique": 3971,
+    "literal_labels_unique": 3971,
+    "identifier_strings_unique_including_blank": 3970,
+    "blank_identifier_rows": [
+      "butterfly pea flower extract",
+      "vitamin D2 mushroom powder"
+    ],
+    "hfp_977_series_rows": 691,
+    "mixtures_preserved_without_molecular_deduplication": true,
+    "explicit_status_counts": {
+      "PROHIBITED": 17,
+      "PROHIBITED WITH EXCEPTIONS": 3,
+      "DELISTED": 8,
+      "NLFG": 8,
+      "NOT_STATED_IN_NAME": 3935
+    },
+    "all_status_flags_preserved": true,
+    "all_literal_pair_comparison": {
+      "independent_all_literal_pairs": 234,
+      "preview_pairs": 234,
+      "missing_pairs": [],
+      "unexpected_preview_pairs": [],
+      "note": "All lexical strings only; nested chemical/protein substrings need not identify distinct administered compounds."
+    },
+    "lexical_matches": 234,
+    "source_rows_with_lexical_hit": 76,
+    "matched_source_id_records": 213,
+    "corpus_source_id_records": 7362,
+    "all_substances_efficacy_unknown": true,
+    "all_mentions_lexical_only": true,
+    "manual_reading_credit": 0,
+    "new_appraisal_credit": 0,
+    "all_input_output_code_hashes_matched_at_snapshot": true,
+    "supplied_tests": {
+      "passed": 5,
+      "failed": 0
+    },
+    "mention_policy_counts": {
+      "COMMON_OR_SHORT_NAME_CONTEXT_AMBIGUOUS": 161,
+      "LITERAL_NAME_CONTEXT_UNASSESSED": 73
+    }
+  },
+  "context_traps_not_separate_claim_bugs": [
+    {
+      "query": "CASEIN",
+      "pmid": "32292585",
+      "context": "casein kinase 2 / CK2; protein name"
+    },
+    {
+      "query": "L-CYSTEINE",
+      "pmid": "39845481",
+      "context": "N-acetyl-L-cysteine"
+    },
+    {
+      "query": "L-CYSTEINE",
+      "pmid": "18186019",
+      "context": "S-trityl-L-cysteine"
+    },
+    {
+      "query": "HEXYL ISOTHIOCYANATE",
+      "pmid": "31771225",
+      "context": "6-(methylsulfinyl) hexyl isothiocyanate"
+    }
+  ],
+  "retrieval": {
+    "url": "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?order=ASC&search=&set=FoodSubstances&showAll=true&sort=Sortterm_ID&type=basic",
+    "final_url": "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?order=ASC&search=&set=FoodSubstances&showAll=true&sort=Sortterm_ID&type=basic",
+    "retrieved_at_utc": "2026-09-23T07:39:13.508564+00:00",
+    "sha256": "54eb4a22b71a109b870ed6133c6bbdb8afc09b395a855170b762cb1d46702acd",
+    "bytes": 3167051,
+    "content_type": "text/html;charset=UTF-8"
+  },
+  "fda_displayed_update_date": "07/28/2026",
+  "regulatory_scope": "Complete retrieved table only; FDA states inventory is partial. NLFG is no longer FEMA GRAS. Unflagged is not permitted/safe. CFR/detail pages not assessed.",
+  "regeneration_rule": "Regenerate and recheck after any input or code hash changes; ledger161 and current package hashes are a reviewed snapshot only.",
+  "boundaries": [
+    "No network refresh",
+    "No individual FDA-detail or CFR review",
+    "No literature full-text review",
+    "No chemical identity reconciliation",
+    "No efficacy assessment",
+    "No all-food-universe completeness claim"
+  ],
+  "files_modified_outside_assigned_directory": false,
+  "review_evidence_files": [
+    "food-parser-atomicity-evidence.json",
+    "food-parser-all-literal-evidence.json",
+    "food-parser-overlap-evidence.json",
+    "food-parser-fixed-publication-evidence.json",
+    "food-parser-fixed-policy-evidence.json",
+    "food-parser-fixed-package-evidence.json"
+  ],
+  "review_document": "food-parser-review.md",
+  "findings": [],
+  "resolved_findings": [
+    {
+      "id": "food-review-1",
+      "priority": "P2",
+      "category": "output_consistency",
+      "title": "Failed rebuild overwrites TSVs before input validation and preserves old summary",
+      "file": "workflow/track2-drug-census/food_substance_inventory.py",
+      "reviewed_lines": [
+        127,
+        132
+      ],
+      "actual_source_preview_invalidated": false,
+      "reproduced": true,
+      "evidence_file": "food-parser-atomicity-evidence.json",
+      "trigger": "Input decisions.json changes after a TSV write during build",
+      "observed_result": {
+        "error": "ValueError('Input changed during screen: external-sources/prmt5-mettl3/food-review-fixture/inputs/decisions.json')",
+        "writes_before_error": [
+          "external-sources/prmt5-mettl3/food-review-fixture/output/substances.tsv",
+          "external-sources/prmt5-mettl3/food-review-fixture/output/mentions.tsv"
+        ],
+        "substances_overwritten": true,
+        "mentions_overwritten": true,
+        "old_summary_survives": true,
+        "all_mutated_files_are_review_owned": true
+      },
+      "impact": "A failed build can leave new substance/mention data together with an old successful summary and provenance",
+      "recommendation": "Stage output set, verify input/code snapshots, publish coherent set after success; add changed-input build-lifecycle regression coverage",
+      "status": "RESOLVED",
+      "original_reviewed_script_sha256": "9bf242d013fc2625ddfc7f0aa161ab5c66d80fc98ad827b3de0d8be1548b317f",
+      "fix_verified_script_sha256": "d4f52e4399046a7494e1755da7811d11c99b55eb803d3ea4eb44eae357816d3d"
+    },
+    {
+      "id": "food-review-2",
+      "priority": "P3",
+      "category": "ambiguity_policy",
+      "title": "Hyphen-preserving identity misses space-separated LOW_SPECIFICITY vocabulary",
+      "file": "workflow/track2-drug-census/food_substance_inventory.py",
+      "reviewed_lines": [
+        95,
+        101
+      ],
+      "reproduced": true,
+      "affected_source_names": [
+        "L-ALANINE",
+        "L-ARGININE",
+        "L-CYSTEINE",
+        "L-GLUTAMINE",
+        "L-HISTIDINE",
+        "L-LEUCINE",
+        "L-LYSINE",
+        "L-PROLINE",
+        "L-SERINE",
+        "L-THREONINE",
+        "L-TRYPTOPHAN",
+        "L-TYROSINE",
+        "L-VALINE"
+      ],
+      "affected_current_mentions": 11,
+      "affected_mentions_by_name": {
+        "L-ARGININE": 5,
+        "L-CYSTEINE": 4,
+        "L-GLUTAMINE": 1,
+        "L-LYSINE": 1
+      },
+      "impact": "Known common amino-acid names receive generic context-unassessed policy instead of explicit common-name ambiguity; no efficacy or approval claim results",
+      "recommendation": "Use a separate normalized ambiguity key or explicit hyphenated forms while retaining strict identity and retrieval semantics",
+      "status": "RESOLVED",
+      "correction": "Initial count10 omitted L-LYSINE PMID17318179; complete count11",
+      "original_reviewed_script_sha256": "9bf242d013fc2625ddfc7f0aa161ab5c66d80fc98ad827b3de0d8be1548b317f",
+      "fix_verified_script_sha256": "d4f52e4399046a7494e1755da7811d11c99b55eb803d3ea4eb44eae357816d3d"
+    }
+  ],
+  "disposition": "NO_REMAINING_ACTIONABLE_FINDING_WITHIN_DOCUMENTED_CONTRACT",
+  "publication_contract": "Input-change validation failure preserves previous package. Summary is published last; interruption during sequential file replacement remains detectable by hash checking, not transactional.",
+  "current_package_verified": true,
+  "current_package_evidence": "food-parser-fixed-package-evidence.json",
+  "fixed_publication_evidence": "food-parser-fixed-publication-evidence.json",
+  "fixed_policy_evidence": "food-parser-fixed-policy-evidence.json",
+  "final_evidence_state": "LEXICAL_MATCH_ONLY_REVIEW_STATUS_NOT_ASSIGNED",
+  "initial_review_archive": [
+    "food-parser-review-initial.md",
+    "food-parser-review-initial.json"
+  ],
+  "review_evidence_location": "External sgc-followup-20260923/prmt5-mettl3; original review and fixtures retained outside Git."
+}
