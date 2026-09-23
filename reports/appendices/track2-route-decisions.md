@@ -252,3 +252,17 @@ outcomes to drug treatment or equating malignant-cell growth with tissue rescue.
 | **SC-43 — antifibrotic/mechanistic comparator** | Mouse liver-fibrosis treatment improved survival versus vehicle; separate leukemia-cell drug arms suppress MAD2L1-associated growth. | No established matching muscle lesion, BUBR1 restoration or human outcome. Registered development includes a zero-enrollment withdrawal and a trial of unknown status. Require a relevant affected-tissue mechanism and functional benefit with preserved renewal/fidelity. |
 | **Garcinone D — natural-product mechanistic lead** | Higher MAD2L1 protein bands and restored growth after knockdown in leukemia cells; separate neural-progenitor proliferation. | BUBR1 is not the restored protein, final leukemia-culture exposure is unresolved, and growth direction varies by cell/exposure. Purified compound is not a mangosteen supplement. Require qualified exposure and useful endogenous checkpoint/tissue rescue before promotion. |
 | **[Apcin — context-dependent research lead](../../workflow/track2-drug-census/apcin-liver-qualification.md)** | Actual pretreatment in a toxic liver-injury mouse model improved plotted survival and reduced ALT/AST. | Stated seven-day survival is not verified by the displayed curve; no survival significance statistic, direct hepatic target engagement or BUBR1/checkpoint restoration. Preserve earlier negative biochemical comparisons. Require relevant tissue benefit, post-injury testing and fidelity before promotion. |
+
+## BET and sFRP3 routes considered
+
+The [BET assessment](../../workflow/track2-drug-census/bet-macrophage-qualification.md)
+and [sFRP3 assessment](../../workflow/track2-drug-census/sfrp3-direction-qualification.md)
+preserve their actual interventions and endpoints. Neither the challengers nor
+the provisional nominees have demonstrated MVA efficacy.
+
+| Unelected route | Positive evidence | Weakness and reopening condition |
+| --- | --- | --- |
+| **ABBV-744** | Controlled mouse plaque reduction during high-fat feeding. | BUB1B RNA evidence is genetic knockdown, not drug-induced protein restoration. Require a matching tissue defect and functional benefit with preserved renewal/fidelity. |
+| **Molibresib, (+)-JQ1, apabetalone, GSK046, GSK620, MZ1** | Separate cell inflammatory/lipid comparisons in the same paper. | Uneven effects, limited short-term safety, no MVA muscle outcome; apabetalone's human cardiovascular primary endpoint was nonsignificant. Qualify each compound and its relevant exposure separately. |
+| **Recombinant sFRP3** | Reduced excess neural-stem-cell division in APP mice. | Gene-delivery pool/behavior findings cannot be assigned to protein. BubR1-hypomorphic models support the opposite genetic direction. Establish which defect and direction apply before testing restoration. |
+| **Levetiracetam** | Frzb RNA increased among seizure-responsive APP mice. | Two nonresponders excluded, sample-count inconsistency and no new functional endpoint. Reopen only with a relevant seizure-mediated deficit and an all-treated functional evaluation. |

@@ -67,3 +67,19 @@ qualifications also update the existing rapamycin and mirdametinib entries,
 while preserving all 109 PR1 IDs. The reader/test and all 3,598 selection
 records remain identical. The unsupported completion verifier is retained in
 Git history rather than used for current coverage.
+
+## Current preservation check, 22 September 2026
+
+The exact requested PR1 revision is an ancestor of this branch. All **109**
+assessment IDs remain, with **103 decoded objects unchanged**. Six have later
+source qualifications: metformin, UMK57, Apcin, rapamycin, mirdametinib and
+okadaic acid. The reader and its test remain byte-identical, and all **3,598**
+selection records remain identical. No further merge or duplicate implementation
+is needed to use those contributions.
+
+The inherited 143-entry ledger is preserved intact by the BET/sFRP3 follow-up,
+which adds nine appraisals for **152**. Reading coverage remains **1,082 literal
+revalidations**, **3,243 outer source/ID records** and **2,516 pending strings**.
+Those are source/version records, not independent studies. The proposal and
+search infrastructure are reusable; the unsupported all-read/exhaustive-negative
+conclusion remains excluded. Both PRs remain private drafts and unmerged.

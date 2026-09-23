@@ -435,8 +435,8 @@ all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
 claim full-text review of all ranked records. The current decision ledger contains
-143 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 143 approved medicines.
+152 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 152 approved medicines.
 
 The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.
 
@@ -584,7 +584,7 @@ and provisional research comparison are unchanged.
 
 
 The [unesbulin qualification](unesbulin-qualification.md) adds one entry, for
-**143** current appraisals. It preserves randomized leiomyosarcoma combination
+**143** appraisals at that stage. It preserves randomized leiomyosarcoma combination
 PFS benefit and separate glioblastoma-model survival evidence, with direct
 tubulin binding and unestablished normal-tissue selectivity. Its catalog alias
 joins CHEMBL4594353; that does not establish approval or MVA benefit. The
@@ -594,3 +594,30 @@ faithful daughter cells. Its older 20 nM completed-mitosis benefit remains
 intact. All 109 PR1 IDs remain; 103 decision objects are unchanged and six have
 qualified updates. The reader, its test and original 3,598-record selection
 remain unchanged. No source qualification adds abstract-reading credit.
+
+## BET and neural-stem-cell follow-up
+
+Nine additional appraisals bring the current ledger to **152**. All 143
+preceding assessment objects are unchanged. The
+[BET review](bet-macrophage-qualification.md) distinguishes seven compounds
+from one shared macrophage study; [the sFRP3 review](sfrp3-direction-qualification.md)
+adds a recombinant protein and levetiracetam. AAV gene delivery is kept
+separate and does not create another compound entry.
+
+| Unelected route | Result retained | Why it does not currently displace the nominees |
+| --- | --- | --- |
+| ABBV-744 | Controlled mouse plaque reduction during diet challenge. | No matching MVA tissue mechanism, BUBR1 protein or useful-muscle result. Some cytokine comparisons are nonsignificant. |
+| Molibresib, (+)-JQ1, apabetalone, GSK046, GSK620, MZ1 | Compound-specific cell inflammatory/lipid findings, including conditional nulls. | Six comparators share one study; no animal benefit may be borrowed from ABBV-744. MZ1 is a degrader. Apabetalone's separate cardiovascular trial missed its primary significance threshold. |
+| Recombinant sFRP3 | Reduced excess stem-cell division in APP mice. | Long-term pool/behavioral findings used AAV. Hypomorphic BubR1 models start with deficient division and support the opposite genetic direction. |
+| Levetiracetam | Frzb RNA increase among selected seizure responders. | Nonresponders excluded, inconsistent sample count, and no new BUBR1/muscle or all-treated functional result. |
+
+These primary follow-ups receive **zero additional abstract-reading credit**:
+1,082 literal revalidations, 3,243 outer source/ID records and 2,516 pending
+strings remain the current coverage. No new independent reviewer or biological
+replication is claimed. Niacin/restoration and apitegromab/compensation remain
+provisional under the same functional and safety requirements.
+
+ABBV-744, molibresib, apabetalone and levetiracetam join existing catalog
+entities by exact normalized aliases. The other five do not; none of these
+joins establishes approval, efficacy or historical formulation equivalence.
+The 15,357-entity retrieval denominator is unchanged.

@@ -822,3 +822,20 @@ Track 1 uploads, current pitch/media, prior source ledgers, historical snapshot
 source fields and original inventory decisions are preserved. This update does
 not authorize publication, merge or submission. The research pair remains
 provisional and unproved in MVA.
+
+## BET/sFRP3 primary follow-up and PR1 reuse, 22 September 2026
+
+Nine original compound/reagent assessments and two primary qualifications bring
+the ledger to 152. All 143 preceding objects are unchanged; all 109 PR1 IDs,
+103 unchanged PR1 objects, its exact-string reader/test and the 3,598-record
+selection are preserved. This update adds no abstract-reading credit and
+claims no new independent reviewer. Existing coverage remains 1,082 literal
+revalidations, 3,243 outer source/ID records and 2,516 pending strings.
+
+The added material contains original interpretations, public bibliographic
+metadata, source hashes and intervention/endpoint distinctions. Raw articles,
+figures, supplementary files and external retrieval logs stay outside Git.
+No controlled-case payload is added. Track 1 uploads, current pitch/media,
+prior source ledgers, historical source identities and original inventory
+rows remain intact. Neither compound evidence nor this package check approves
+publication, merging or submission.

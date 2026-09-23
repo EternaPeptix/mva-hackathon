@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 143 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 152 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 The [three-paper comparison](vascular-enzyme-qualification.md) retains
 anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
@@ -405,7 +405,7 @@ remain separately flagged. Neither current nominee is MVA-proven.
 
 ## Cancer control and mitotic timing are distinct positives
 
-The [unesbulin appraisal](unesbulin-qualification.md) brings the ledger to **143**.
+The [unesbulin appraisal](unesbulin-qualification.md) brought the ledger to **143** at that stage.
 The official randomized LMS trial reports an incremental combination benefit:
 unesbulin plus dacarbazine versus placebo plus dacarbazine, median PFS 3.6 versus
 2.6 months, HR 0.61 (95% CI 0.45–0.83), P=.0017 in the 209/105 modified ITT
@@ -428,3 +428,30 @@ comparisons have different baselines, and the older 20 nM OA partial
 completed-mitosis result is retained separately. No additional OA identity or
 medicine count is created. These source-specific results do not yet change the
 provisional niacin/apitegromab comparison.
+
+## BET and neural-stem-cell follow-up
+
+Nine additional appraisals bring the current ledger to **152**. All 143
+preceding assessment objects are unchanged. The
+[BET review](bet-macrophage-qualification.md) distinguishes seven compounds
+from one shared macrophage study; [the sFRP3 review](sfrp3-direction-qualification.md)
+adds a recombinant protein and levetiracetam. AAV gene delivery is kept
+separate and does not create another compound entry.
+
+| Unelected route | Result retained | Why it does not currently displace the nominees |
+| --- | --- | --- |
+| ABBV-744 | Controlled mouse plaque reduction during diet challenge. | No matching MVA tissue mechanism, BUBR1 protein or useful-muscle result. Some cytokine comparisons are nonsignificant. |
+| Molibresib, (+)-JQ1, apabetalone, GSK046, GSK620, MZ1 | Compound-specific cell inflammatory/lipid findings, including conditional nulls. | Six comparators share one study; no animal benefit may be borrowed from ABBV-744. MZ1 is a degrader. Apabetalone's separate cardiovascular trial missed its primary significance threshold. |
+| Recombinant sFRP3 | Reduced excess stem-cell division in APP mice. | Long-term pool/behavioral findings used AAV. Hypomorphic BubR1 models start with deficient division and support the opposite genetic direction. |
+| Levetiracetam | Frzb RNA increase among selected seizure responders. | Nonresponders excluded, inconsistent sample count, and no new BUBR1/muscle or all-treated functional result. |
+
+These primary follow-ups receive **zero additional abstract-reading credit**:
+1,082 literal revalidations, 3,243 outer source/ID records and 2,516 pending
+strings remain the current coverage. No new independent reviewer or biological
+replication is claimed. Niacin/restoration and apitegromab/compensation remain
+provisional under the same functional and safety requirements.
+
+ABBV-744, molibresib, apabetalone and levetiracetam join existing catalog
+entities by exact normalized aliases. The other five do not; none of these
+joins establishes approval, efficacy or historical formulation equivalence.
+The 15,357-entity retrieval denominator is unchanged.

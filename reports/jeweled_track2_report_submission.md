@@ -34,7 +34,7 @@ A [related antibody in SMN-restored SMA mice](https://pmc.ncbi.nlm.nih.gov/artic
 
 ## What the completed work established
 
-The [public census](../workflow/track2-drug-census/README.md) screens **15,357 catalog/supplement entities**, with **40 FDA 2026 product entries assessed separately** and **143 curated route/compound appraisals**. It does not establish every drug's efficacy; missing evidence remains UNKNOWN. A separate [EMA status crosscheck](../workflow/track2-drug-census/ema-coverage-review.md) lists 1,568 authorised human products, with 180 unresolved whole-field name mismatches; this adds coverage, not efficacy claims. The [comparative assessment](../workflow/track2-drug-census/decision-report.md) preserves functional alternatives, including TM5484 muscle-force benefit, hesperetin motor performance and defect-specific Aurora/PLK1 balancing, with their treatment-window and control limitations.
+The [public census](../workflow/track2-drug-census/README.md) screens **15,357 catalog/supplement entities**, with **40 FDA 2026 product entries assessed separately** and **152 curated route/compound appraisals**. It does not establish every drug's efficacy; missing evidence remains UNKNOWN. A separate [EMA status crosscheck](../workflow/track2-drug-census/ema-coverage-review.md) lists 1,568 authorised human products, with 180 unresolved whole-field name mismatches; this adds coverage, not efficacy claims. The [comparative assessment](../workflow/track2-drug-census/decision-report.md) preserves functional alternatives, including TM5484 muscle-force benefit, hesperetin motor performance and defect-specific Aurora/PLK1 balancing, with their treatment-window and control limitations.
 
 A [six-paper follow-up](../workflow/track2-drug-census/protein-and-tissue-qualification.md)
 retains CX-4945 and metformin as protein-specific stabilization precedents,
@@ -53,6 +53,15 @@ credits mouse pretreatment organ protection while retaining unresolved survival
 timing and absent checkpoint-restoration evidence.
 
 The [seventh source batch](../workflow/track2-drug-census/batch07-revalidation-findings.md) adds 128 literal revalidations, bringing coverage to 1,082 and 3,243 accepted outer source/ID records, with 2,516 strings pending and 14 new source questions flagged for follow-up. The [unesbulin appraisal](../workflow/track2-drug-census/unesbulin-qualification.md) retains randomized leiomyosarcoma benefit from adding unesbulin to dacarbazine (median progression-free survival 3.6 versus 2.6 months) and separate mouse glioblastoma survival benefit. Direct tubulin binding limits its older BMI1-only interpretation; neither result establishes MVA muscle restoration. The [Greatwall follow-up](../workflow/track2-drug-census/greatwall-qualification.md) adds okadaic-acid rescue of mitotic-entry timing at 500 nM, preserving the earlier 20 nM partial completed-mitosis benefit without claiming faithful daughters or BUBR1 restoration. Earlier [corneal tissue benefits](../workflow/track2-drug-census/corneal-qualification.md) and [cardiomyocyte maturation/function findings](../workflow/track2-drug-census/cardiomyocyte-qualification.md) remain qualified by their models and controls. These findings add one compound appraisal and refine an existing one; niacin/apitegromab remain provisional.
+
+The [BET-compound review](../workflow/track2-drug-census/bet-macrophage-qualification.md)
+retains ABBV-744's mouse plaque benefit and six distinct cell comparators;
+the BUB1B transcript result belongs to genetic knockdown. The
+[sFRP3 review](../workflow/track2-drug-census/sfrp3-direction-qualification.md)
+separates infused protein, gene delivery and a levetiracetam marker result,
+showing why the direction of the starting defect matters. These nine added
+appraisals preserve all 143 preceding assessments, add no abstract-reading
+credit and do not change the provisional nominees.
 
 **Ursolic acid is a substantive new muscle-compensation reserve.** The [primary comparison](../workflow/track2-drug-census/next576-primary-qualification.md) credits mouse grip/absolute-force preservation and a small randomized human secondary handgrip benefit alongside a separate controlled null. It challenges niacin on measured muscle benefit; niacin retains the distinct restoration hypothesis. Apitegromab retains stronger pediatric functional evidence. Ursolic-acid product/exposure eligibility and transfer to MVA remain unresolved. The same comparison upgrades bortezomib plus humanin for neonatal-mouse contracture prevention, while retaining mortality and reduced normal-muscle growth as reasons it remains a combination-specific reserve.
 
