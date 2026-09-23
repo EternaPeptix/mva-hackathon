@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "assessed_date": "2026-09-23",
+  "scope": "Independent read-only raw-source audit plus complete source-field/alias-cell round-trip and normalized-name crossref verification for the pinned 168-appraisal derived run. No scientific adjudication of literature matches.",
+  "disposition": "PASS_SOURCE_AND_PINNED_DERIVED_ROUNDTRIP",
+  "source_snapshot": {
+    "retrieval_manifest_sha256": "28409b93b597b4fc1633a47646c188fb530b1250b4a479f0324952cdaf911ad3",
+    "api_version": {
+      "title": "DSLD API",
+      "config": "production",
+      "version": "9.5.0",
+      "versionTimeStamp": "May 2026",
+      "esIndexProcessed": "dsldnxt_labels-2025-09-25n and dsldnxt_ing_groups-2025-09-25n"
+    },
+    "before_after_version_identical": true,
+    "transactional_snapshot_proven": false,
+    "version_interpretation": "May 2026 describes the API version timestamp; 2025-09-25n is part of the reported processed-index names. Neither proves current product availability or the last mutation time of every record."
+  },
+  "independent_response_checks": {
+    "partitions_expected": 27,
+    "partitions_observed": 27,
+    "partition_domain": "A through Z plus Other",
+    "responses_per_partition": 1,
+    "all_recorded_HTTP_statuses": 200,
+    "all_partition_content_types_JSON": true,
+    "all_recorded_response_hashes_and_sizes_match": true,
+    "all_total_relations": "eq",
+    "all_observed_rows_match_declared_partition_totals": true,
+    "all_manifest_ID_sets_match_raw_responses": true,
+    "rows": 6467,
+    "distinct_IDs": 6467,
+    "id_equal_groupId_count": 6467,
+    "duplicate_ID_count": 0,
+    "conflicting_duplicate_ID_count": 0,
+    "largest_partition_rows": 838,
+    "requested_size": 1000,
+    "missing_pages_within_reported_totals": false,
+    "raw_file_issues": [],
+    "partitions": [
+      {
+        "partition": "A",
+        "total_eq": 502,
+        "rows": 502,
+        "distinct_ids": 502
+      },
+      {
+        "partition": "B",
+        "total_eq": 484,
+        "rows": 484,
+        "distinct_ids": 484
+      },
+      {
+        "partition": "C",
+        "total_eq": 838,
+        "rows": 838,
+        "distinct_ids": 838
+      },
+      {
+        "partition": "D",
+        "total_eq": 222,
+        "rows": 222,
+        "distinct_ids": 222
+      },
+      {
+        "partition": "E",
+        "total_eq": 233,
+        "rows": 233,
+        "distinct_ids": 233
+      },
+      {
+        "partition": "F",
+        "total_eq": 198,
+        "rows": 198,
+        "distinct_ids": 198
+      },
+      {
+        "partition": "G",
+        "total_eq": 358,
+        "rows": 358,
+        "distinct_ids": 358
+      },
+      {
+        "partition": "H",
+        "total_eq": 217,
+        "rows": 217,
+        "distinct_ids": 217
+      },
+      {
+        "partition": "I",
+        "total_eq": 149,
+        "rows": 149,
+        "distinct_ids": 149
+      },
+      {
+        "partition": "J",
+        "total_eq": 56,
+        "rows": 56,
+        "distinct_ids": 56
+      },
+      {
+        "partition": "K",
+        "total_eq": 71,
+        "rows": 71,
+        "distinct_ids": 71
+      },
+      {
+        "partition": "L",
+        "total_eq": 295,
+        "rows": 295,
+        "distinct_ids": 295
+      },
+      {
+        "partition": "M",
+        "total_eq": 345,
+        "rows": 345,
+        "distinct_ids": 345
+      },
+      {
+        "partition": "N",
+        "total_eq": 119,
+        "rows": 119,
+        "distinct_ids": 119
+      },
+      {
+        "partition": "O",
+        "total_eq": 123,
+        "rows": 123,
+        "distinct_ids": 123
+      },
+      {
+        "partition": "P",
+        "total_eq": 606,
+        "rows": 606,
+        "distinct_ids": 606
+      },
+      {
+        "partition": "Q",
+        "total_eq": 17,
+        "rows": 17,
+        "distinct_ids": 17
+      },
+      {
+        "partition": "R",
+        "total_eq": 174,
+        "rows": 174,
+        "distinct_ids": 174
+      },
+      {
+        "partition": "S",
+        "total_eq": 581,
+        "rows": 581,
+        "distinct_ids": 581
+      },
+      {
+        "partition": "T",
+        "total_eq": 284,
+        "rows": 284,
+        "distinct_ids": 284
+      },
+      {
+        "partition": "U",
+        "total_eq": 26,
+        "rows": 26,
+        "distinct_ids": 26
+      },
+      {
+        "partition": "V",
+        "total_eq": 254,
+        "rows": 254,
+        "distinct_ids": 254
+      },
+      {
+        "partition": "W",
+        "total_eq": 105,
+        "rows": 105,
+        "distinct_ids": 105
+      },
+      {
+        "partition": "X",
+        "total_eq": 18,
+        "rows": 18,
+        "distinct_ids": 18
+      },
+      {
+        "partition": "Y",
+        "total_eq": 36,
+        "rows": 36,
+        "distinct_ids": 36
+      },
+      {
+        "partition": "Z",
+        "total_eq": 28,
+        "rows": 28,
+        "distinct_ids": 28
+      },
+      {
+        "partition": "Other",
+        "total_eq": 128,
+        "rows": 128,
+        "distinct_ids": 128
+      }
+    ]
+  },
+  "observed_schema": {
+    "source_field_names": [
+      "category",
+      "factsheets",
+      "groupId",
+      "groupName",
+      "nutrientInfo",
+      "synonyms"
+    ],
+    "source_field_types": {
+      "groupId": {
+        "str": 6467
+      },
+      "category": {
+        "list": 6467
+      },
+      "groupName": {
+        "str": 6467
+      },
+      "synonyms": {
+        "list": 6467
+      },
+      "factsheets": {
+        "list": 6467
+      },
+      "nutrientInfo": {
+        "list": 6467
+      }
+    },
+    "hit_metadata": {
+      "hit_keysets": [
+        [
+          [
+            "_id",
+            "_index",
+            "_score",
+            "_source",
+            "_type"
+          ],
+          6467
+        ]
+      ],
+      "indices": {
+        "dsldnxt_ing_groups": 6467
+      },
+      "types": {
+        "_doc": 6467
+      },
+      "score_values": {
+        "1": 6467
+      },
+      "numeric_string_ids": 6467,
+      "factsheet_domains": {
+        "www.ncbi.nlm.nih.gov": 4897,
+        "clinicaltrials.gov": 241,
+        "nccam.nih.gov": 74,
+        "www.nlm.nih.gov": 101,
+        "archive.ahrq.gov": 14,
+        "www.cancer.gov": 29,
+        "ods.od.nih.gov": 36
+      }
+    },
+    "documentation_version": "9.4.0",
+    "runtime_version": "9.5.0",
+    "source_documentation_discrepancy": "IngredientGroupDoc documents category as array[String], but 592 observed category elements are JSON null. They must be accepted/preserved as source nulls, not cast to the string 'null'."
+  },
+  "semantic_counts": {
+    "group_rows": 6467,
+    "distinct_exact_group_names": 6080,
+    "distinct_names_shared_by_multiple_IDs": 368,
+    "rows_with_a_shared_exact_name": 755,
+    "excess_rows_over_distinct_names": 387,
+    "groupName_empty_count": 0,
+    "category_element_count": 7059,
+    "category_string_elements": 6467,
+    "category_JSON_null_elements": 592,
+    "category_literal_string_null_elements": 0,
+    "category_empty_arrays": 0,
+    "category_null_only_arrays": 0,
+    "typed_category_counts": [
+      {
+        "value": "botanical",
+        "json_type": "string",
+        "count": 2294
+      },
+      {
+        "value": "Botanical",
+        "json_type": "string",
+        "count": 324
+      },
+      {
+        "value": "non-nutrient/non-botanical",
+        "json_type": "string",
+        "count": 1724
+      },
+      {
+        "value": null,
+        "json_type": "null",
+        "count": 592
+      },
+      {
+        "value": "amino acid",
+        "json_type": "string",
+        "count": 52
+      },
+      {
+        "value": "fiber",
+        "json_type": "string",
+        "count": 75
+      },
+      {
+        "value": "other",
+        "json_type": "string",
+        "count": 843
+      },
+      {
+        "value": "fat",
+        "json_type": "string",
+        "count": 154
+      },
+      {
+        "value": "animal part or source",
+        "json_type": "string",
+        "count": 258
+      },
+      {
+        "value": "complex carbohydrate",
+        "json_type": "string",
+        "count": 48
+      },
+      {
+        "value": "protein",
+        "json_type": "string",
+        "count": 117
+      },
+      {
+        "value": "bacteria",
+        "json_type": "string",
+        "count": 124
+      },
+      {
+        "value": "hormone",
+        "json_type": "string",
+        "count": 21
+      },
+      {
+        "value": "enzyme",
+        "json_type": "string",
+        "count": 98
+      },
+      {
+        "value": "fatty acid",
+        "json_type": "string",
+        "count": 74
+      },
+      {
+        "value": "sugar",
+        "json_type": "string",
+        "count": 31
+      },
+      {
+        "value": "vitamin",
+        "json_type": "string",
+        "count": 186
+      },
+      {
+        "value": "mineral",
+        "json_type": "string",
+        "count": 44
+      }
+    ],
+    "synonym_cells": 78788,
+    "distinct_exact_synonym_strings": 72074,
+    "empty_synonym_arrays": 199,
+    "empty_synonym_string_cells": 1,
+    "empty_synonym_example": {
+      "groupId": "2605",
+      "groupName": "Eleuthero",
+      "array_position_zero_based": 0
+    },
+    "within_group_duplicate_synonym_cells": 0,
+    "nutrientInfo_empty_array_count": 6467,
+    "nutrientInfo_nonempty_count": 0,
+    "factsheet_cells": 5392,
+    "factsheet_entry_shape": {
+      "link": "string",
+      "name": "string"
+    }
+  },
+  "findings": [
+    {
+      "id": "JSON_NULL_IS_NOT_STRING_NULL",
+      "kind": "Source semantics; correction to initial verbal description",
+      "status": "Resolved in checked derived run: JSON nulls are preserved; anomaly summary distinguishes null values from literal strings.",
+      "evidence": {
+        "groupId": "11",
+        "groupName": "Ashwagandha",
+        "category": [
+          "botanical",
+          null
+        ]
+      },
+      "impact": "A JSON Counter/object can render a null key as the text key 'null', masking element type. Preserve category arrays and JSON null exactly; do not synthesize a literal category label."
+    },
+    {
+      "id": "GROUP_IDS_MUST_SURVIVE_NAME_COLLISIONS",
+      "kind": "Source design/interpretation constraint",
+      "evidence": [
+        {
+          "groupName": "Glycine",
+          "groupIds": [
+            "92",
+            "7364"
+          ],
+          "categories": [
+            [
+              "amino acid"
+            ],
+            [
+              "non-nutrient/non-botanical"
+            ]
+          ]
+        },
+        {
+          "groupName": "Glycerol",
+          "groupIds": [
+            "1110",
+            "8895"
+          ],
+          "categories": [
+            [
+              "non-nutrient/non-botanical"
+            ],
+            [
+              "other"
+            ]
+          ]
+        }
+      ],
+      "impact": "Same display name is not a conflicting duplicate ID. Deduplicating by display name would discard source records."
+    },
+    {
+      "id": "SOURCE_CELLS_NEED_LOSSLESS_PRESERVATION",
+      "kind": "Output requirement",
+      "evidence": "One empty synonym string; 199 empty synonym arrays; mixed category capitalization including botanical/Botanical; all nutrientInfo arrays empty.",
+      "impact": "Retain empty strings, empty arrays, original case, ordering and JSON types in provenance-bearing output. Search-normalized derivatives must be separate."
+    },
+    {
+      "id": "SYNONYMS_ARE_LABEL_TERMS",
+      "kind": "Interpretation limit",
+      "evidence": "Official ingredient pages label these entries Related Terms on Labels. Raw terms include extracts, plant parts, blends, forms, branded/marketing phrases, quantities and misspellings.",
+      "impact": "Do not treat each synonym as a verified molecule, chemical alias, approved intervention or therapeutic evidence. Factsheet links also include topic searches and do not confer study-reading credit."
+    }
+  ],
+  "coverage": {
+    "supported_statement": "All saved responses for the documented A–Z/Other by-letter browse domain were retrieved to their own exact declared totals, yielding a losslessly addressable union of 6,467 unique group IDs.",
+    "global_index_exhaustiveness_independently_proven": false,
+    "unfiltered_backend_total_comparison_performed": false,
+    "observed_partition_behavior": "14 names begin with a literal quote but are assigned to letter partitions; Other contains numeric/quoted-numeric names. Use API partition membership, not a locally invented first-character rule.",
+    "known_missing_records_within_requested_responses": 0,
+    "limits": [
+      "No documented/global match-all ingredient-group total was independently compared, so the partition union is not independent proof that every possible backend record/Unicode-name category is represented.",
+      "No full product-label enumeration, ingredient quantities/forms/UNII reconciliation or current market-status check was performed.",
+      "All nutrientInfo fields are empty; this endpoint snapshot does not supply populated CAS/identity/IUPAC chemical qualification.",
+      "Stable before/after version responses do not create a transactionally frozen multi-request snapshot."
+    ]
+  },
+  "documentation": {
+    "read_files": [
+      {
+        "file": "api-doc.html",
+        "sha256": "ef585ac96397d12886420a88fd9f0359d4d111707e9525f9c3385ec2431dbae7",
+        "url": "https://dsldapi.od.nih.gov/",
+        "scope": "Ingredient-groups endpoint, pagination, version route, ingredient model and label/search endpoints."
+      },
+      {
+        "file": "api-guide.html",
+        "sha256": "0bdcac91501acffef2c801195294cafacaf4400e4a9c149cfb5225eeaabffd39",
+        "url": "https://dsld.od.nih.gov/api-guide",
+        "scope": "Saved SPA shell; no rendered guide body. api-guide-visible.txt is empty; direct web read also returned no text."
+      }
+    ],
+    "route": "/dsld/v9/ingredient-groups/?method=by_letter&term=<letter-or-Other>&from=0&size=1000",
+    "guide_limit": "Public script linked from the guide shell returned403; no hidden-browser inspection, authentication or access bypass was used.",
+    "official_semantics_crosscheck_urls": [
+      "https://dsld.od.nih.gov/ingredient/tin",
+      "https://dsld.od.nih.gov/ingredient/Glycerol",
+      "https://dsld.od.nih.gov/ingredient/lecithin"
+    ],
+    "exploratory_failed_probe": "ingredient-example.json is a recorded HTTP500 HTML error from method=letter; it is not part of the27 successful partition responses and must not be treated as source ingredient data."
+  },
+  "builder_output_check": {
+    "performed": true,
+    "verification_completed_utc": "2026-09-23T10:52:25.738329+00:00",
+    "run_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
+    "run_directory_id": "7a86160f6d9a7faeef69",
+    "summary_sha256": "7a86160f6d9a7faeef69423d63fa05b6d42c50caae6ee782f98b2967e5d34415",
+    "appraisal_input_count": 168,
+    "decisions_input_sha256": "de8078cc684a7e0fd1ac3ccf01d834e0391fa1222250c5050965ac0c90f248d4",
+    "builder_input_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
+    "cleaner_input_sha256": "e68a4be2aace30846e9b5ae27a66463336d2671a5701246ad25323ff3d8b4dac",
+    "corpus_input_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+    "source_manifest_sha256": "28409b93b597b4fc1633a47646c188fb530b1250b4a479f0324952cdaf911ad3",
+    "all_recorded_input_hashes_matched_at_check": true,
+    "all_eight_recorded_output_hashes_match": true,
+    "output_sha256": {
+      "alias-cells.tsv": "5b1c320acee2615925186f8cd4587a39d4207674107e21d2f9fe2eb1825f5641",
+      "groups.tsv": "085174b45a92db3128d733c3de400533f478c34d071fe5c47f8276fcaec4d18c",
+      "mentions.tsv": "eabe69f574125d0d97031683d72cf950f50087fb23c3375afeea7c4e89a356fc",
+      "metadata-anomalies.json": "f37e32200fb22a4d498199bb21e94ecaeba95543cc0284a380843e169507ec07",
+      "name-crossrefs.tsv": "4c472568fa54bf64fd5511249482afc716516bfd96d5a0e4aba8443786705b30",
+      "normalized-aliases.tsv": "1c73e968134b907167ca212586630dd5e68d8a054eb069d2c27401accbde50c7",
+      "screen-policy.json": "9c464112836030aed935bab95912d3b67ea8aa7f39e37f7611ffbf919555a81b",
+      "source-records.tsv": "453b4035a5cac444046d81275a30d6d309acfe4958456363440bf642a817295d"
+    },
+    "independent_method": "Standard-library csv/json parsing of raw responses and TSV files; independent normalization implementation from the written policy. No builder or cleaner module imported, and neither builder nor inputs modified.",
+    "group_roundtrip": {
+      "rows": 6467,
+      "complete_source_field_reconstruction": true,
+      "fields": [
+        "groupId",
+        "groupName",
+        "category",
+        "synonyms via indexed alias cells",
+        "factsheets",
+        "nutrientInfo"
+      ],
+      "metadata_checked": [
+        "source partition",
+        "response filename",
+        "source URL",
+        "hit index",
+        "partition row index",
+        "_index",
+        "_type",
+        "_score"
+      ],
+      "lost_or_changed_values": 0,
+      "extra_or_missing_IDs": 0
+    },
+    "alias_cell_roundtrip": {
+      "rows": 85255,
+      "group_name_cells": 6467,
+      "synonym_cells": 78788,
+      "all_cell_IDs_roles_indices_raw_values_and_order_match": true,
+      "normalization_checked_independently": true,
+      "raw_and_normalized_prior_collision_counts_match": true,
+      "empty_string_cell_preserved": "dsld:2605:synonym:0",
+      "JSON_null_category_values_preserved": 592,
+      "literal_string_null_categories": 0,
+      "category_case_preserved": true
+    },
+    "normalized_alias_roundtrip": {
+      "rows_including_empty": 69708,
+      "nonempty": 69707,
+      "all_group_memberships_and_source_cell_counts_match": true,
+      "meaning": "Indexing collapse does not remove raw source cells or establish chemical equivalence."
+    },
+    "name_crossref_check": {
+      "rows": 6800,
+      "independently_reconstructed_expected_rows": 6800,
+      "duplicate_rows": 0,
+      "extra_rows": 0,
+      "missing_rows": 0,
+      "complete_expected_set_matches": true,
+      "by_layer": {
+        "main_catalog": 5161,
+        "status_unverified": 88,
+        "FDA_food": 1480,
+        "curated_appraisal": 71
+      },
+      "all_targets_have_full_normalized_name_equality": true,
+      "all_source_alias_cell_links_match": true,
+      "identity_state_all": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+      "scope": "Metadata/name-join reproduction only; not source-form equivalence, regulatory adjudication or a new scientific appraisal review."
+    },
+    "automated_screen_state_check": {
+      "groups": 6467,
+      "all_group_states": "UNKNOWN_NOT_ASSESSED_BY_INVENTORY",
+      "source_records": 7362,
+      "all_reading_credit_values": "NONE_FROM_AUTOMATED_SCREEN",
+      "mentions": 41496,
+      "all_mention_interpretations": "LEXICAL_DISCOVERY_CONTEXT_UNREVIEWED",
+      "unflagged_mentions": 1077,
+      "unflagged_groups_reported": 371,
+      "unflagged_records_reported": 774,
+      "automatic_reading_primary_appraisal_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    "policy_check": "Static matcher/target-loading code and pinned screen-policy.json inspected. All overlapping whole-token sequences are searched in title/abstract separately. Full normalized-name crossrefs only; raw forms retained. Adjacent hyphens, short/common/shared/numeric aliases are flags, not identity or efficacy decisions. Unflagged is explicitly not specific/beneficial or manually reviewed.",
+    "bounds": [
+      "All source cells and all name-crossref rows checked. Literature match roles and biological efficacy were not adjudicated.",
+      "No new 170-appraisal join is reviewed or credited. A later derived-170 publication must be separately hash-bound; this result applies only to run 7a86160f6d9a7faeef69.",
+      "No independent complete recall test of every possible alias occurrence in the literature corpus was performed; source-cell completeness must not be read as scientific match completeness."
+    ]
+  },
+  "changes_made": "Only independent-source-check.md/json written; no source, builder or repository edits."
+}

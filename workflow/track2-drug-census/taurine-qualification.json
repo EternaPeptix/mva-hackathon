@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "reviewer": "/root/bromosporine_primary",
+  "repo_baseline": "b9772e874e65fe6e4450d74d5c27a7563a95899b",
+  "compound": "taurine",
+  "aliases": [
+    "2-aminoethanesulfonic acid"
+  ],
+  "disposition": "muscle-physiology research reserve; genetic necessity and actual-treatment evidence kept separate",
+  "new_ledger_entry_written": false,
+  "automatic_outer_reading_credit": 0,
+  "clinical_recommendation": false,
+  "existing_appraisal_check": {
+    "searched": "decisions.json and existing qualification/review Markdown for taurine/TauT/25229346",
+    "result": "No existing taurine appraisal found in those scoped files; this does not claim corpus-wide absence of taurine mentions."
+  },
+  "primary_study": {
+    "pmid": "25229346",
+    "pmcid": "PMC4167997",
+    "doi": "10.1371/journal.pone.0107409",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4167997/",
+    "title": "Tissue Depletion of Taurine Accelerates Skeletal Muscle Senescence and Leads to Early Death in Mice",
+    "year": 2014,
+    "intervention_type": "Genetic taurine-transporter (TauT/SLC6A6) knockout",
+    "administered_taurine_replacement": false,
+    "administered_beneficial_compound": null,
+    "model": "C57BL/6-background TauTKO mice and littermate WT/heterozygous controls on standard chow and water; young ~3 months and aged ~17-22 months.",
+    "arms": [
+      {
+        "arm": "WT",
+        "role": "Genetic control"
+      },
+      {
+        "arm": "heterozygous TauT",
+        "role": "Partial-genotype comparator; pooled with WT in sex-specific survival comparisons"
+      },
+      {
+        "arm": "TauTKO",
+        "role": "Transporter-loss/taurine-depletion condition"
+      }
+    ],
+    "findings": [
+      {
+        "endpoint": "Lifetime survival, combined sexes",
+        "n": {
+          "WT": 21,
+          "heterozygous": 10,
+          "TauTKO": 41
+        },
+        "median_days": {
+          "WT": 795,
+          "heterozygous": 723,
+          "TauTKO": 591
+        },
+        "reported_logrank_p": 0.02,
+        "scope": "Genotype comparison, not taurine supplementation benefit."
+      },
+      {
+        "endpoint": "Male survival",
+        "n": {
+          "WT_plus_heterozygous": 12,
+          "TauTKO": 20
+        },
+        "median_days": {
+          "WT_plus_heterozygous": 686,
+          "TauTKO": 511
+        },
+        "reported_logrank_p": 0.013
+      },
+      {
+        "endpoint": "Female survival",
+        "n": {
+          "WT_plus_heterozygous": 19,
+          "TauTKO": 21
+        },
+        "median_days": {
+          "WT_plus_heterozygous": 847,
+          "TauTKO": 794
+        },
+        "reported_logrank_p": 0.089,
+        "interpretation": "Not statistically significant at the paper criterion; not proof of no biological effect."
+      },
+      {
+        "endpoint": "Aged skeletal-muscle senescence/structure",
+        "result": "Marked p16Ink4a RNA increase and more central-nucleated fibers in older TauTKO; female S1 changes also present but smaller.",
+        "scope": "Cell-state and histological outcomes, not measured force or productive renewal."
+      },
+      {
+        "endpoint": "Mitochondrial enzymatic function",
+        "result": "Lower complex I activity in aged TauTKO muscle; other tested respiratory-complex activities not significantly different. Young complex activities reported unchanged, data not shown.",
+        "scope": "Biochemical functional endpoint, not whole-muscle contractile output."
+      },
+      {
+        "endpoint": "UPR",
+        "result": "Higher Grp78 protein, XBP1 RNA/spliced RNA and nuclear XBP1 signal support an unfolded-protein-response association.",
+        "scope": "Misfolding-to-aging mechanism remains a hypothesis; no rescue arm establishes causal mediation."
+      },
+      {
+        "endpoint": "Ragged-red fibers",
+        "result": "No increase detected in S1 Gomori trichrome panels.",
+        "scope": "Retained null."
+      }
+    ],
+    "functional_readout_boundary": "This paper does not newly measure taurine-treatment force, grip, running or endurance. Exercise intolerance and earlier muscle-size findings are cited from previous knockout work.",
+    "BUB1B_connection": "BubR1 occurs in discussion as background on a separate p16-cell-clearance study, not as this paper's genotype, measured BUBR1 RNA/protein or taurine-response endpoint.",
+    "causal_limit": "Whole-body transporter loss establishes dependence on taurine homeostasis/transport in this model; without replacement or tissue-specific rescue it does not prove that extra taurine is sufficient in a transporter-competent BUB1B model or identify the tissue causing death.",
+    "source_issues": [
+      "The ~520-day analysis prints chi-square 5.99 with P=.00054, an internally discordant pair under the ordinary stated log-rank framing; no corrected inferential value is invented.",
+      "Figure 2A appears to mark liver p16 with a significance star while Results text says liver p16 is unchanged. This unresolved secondary-tissue discrepancy is not used to rank the route.",
+      "Microarray IPA predictions are not administered compounds or demonstrated pathway interventions; no raw-data replay performed."
+    ]
+  },
+  "one_direct_treatment_followup": {
+    "selection_reason": "Direct reference 54 in the read TauT paper; one actual-treatment skeletal-muscle physiology source, no further citation expansion.",
+    "pmid": "9732377",
+    "doi": "10.1016/s0022-3565(24)37710-9",
+    "title": "Chronic administration of taurine to aged rats improves the electrical and contractile properties of skeletal muscle fibers",
+    "year": 1998,
+    "primary_url": "https://pubmed.ncbi.nlm.nih.gov/9732377/",
+    "publisher_preview_url": "https://www.sciencedirect.com/science/article/abs/pii/S0022356524377109",
+    "model": "Male Wistar rats; publisher snippet says 10 adult (6-month) and 18 older (22-month at start), across four groups. Abstract describes ~25-month animals at assessment.",
+    "intervention": {
+      "compound": "taurine",
+      "role": "Actual administered treatment",
+      "dose": "1 g/kg orally daily",
+      "duration": "2-3 months",
+      "dose_scope": "Reported animal experiment only; no human/child conversion or recommendation."
+    },
+    "controls": "Untreated aged and adult comparator conditions described; full allocation/randomization/masking and per-group/per-animal endpoint counts unavailable at read scope.",
+    "actual_treatment_positives": [
+      "Higher muscle taurine toward adult levels.",
+      "Increased resting chloride conductance and improved related threshold-current/latency measures; no conductance equivalence claim.",
+      "Restored responses to a chloride-channel ligand and PKC-modulating assay probe.",
+      "Contraction voltage threshold shifted toward adult values in isolated EDL fibers."
+    ],
+    "nulls_in_accessible_publisher_snippet": [
+      "No change in food consumption or body-weight gain attributed to taurine.",
+      "No deaths in treated or untreated aged rats during the study; this is not a demonstrated survival benefit."
+    ],
+    "endpoint_limit": "Excitation-contraction threshold and electrophysiology are functional physiology, but do not establish greater absolute force, endurance, productive progenitors, fidelity or MVA benefit.",
+    "BUBR1_evidence": "No BUBR1 response is established by the read abstract/snippets; full-body absence was not verified.",
+    "access_and_depth": "Complete primary abstract and publisher Methods/Results/Discussion snippets read. Publisher fulltext retrieval returned403; author repository has no attached file; indexed institutional PDF retrieval returned403. No native figures, complete methods/tables or full-paper credit.",
+    "full_primary_qualification_complete": false,
+    "remaining_gap": "Complete treatment paper with decisive figures/tables, per-group animal counts and inference units remains needed before high-confidence appraisal of its effect sizes."
+  },
+  "publication_status": "publication-status.json records fresh Europe PMC core/PubMed checks on 2026-09-23: no indexed retraction/correction notices observed for either selected paper. Not an exhaustive integrity audit.",
+  "comparative_assessment": {
+    "positive_credit": "The genetic study makes taurine homeostasis biologically relevant to muscle aging; the one cited actual-treatment source adds electrical/excitation-contraction improvement rather than only a molecular marker.",
+    "not_transferred": "Knockout lifespan and pathology cannot be assigned to taurine supplementation; neither study establishes BUBR1 stabilization or MVA rescue.",
+    "equal_standard": "Different species/model alone does not exclude this hypothesis. Niacin's restoration bridge also spans interventions and apitegromab's function evidence is in another disease. Taurine lacks demonstrated absolute muscle output and relevant-genotype rescue at this read scope, while its treatment primary is incompletely accessible.",
+    "decision": "Retain a muscle-physiology comparator/reserve with an access-limited treatment signal; no supported superiority or replacement of the provisional nominees."
+  },
+  "reading_scope": {
+    "taut_primary": "Complete main text including Introduction, Methods, Results, Discussion, Conclusions; main tables1/2 and all figure captions; selected direct references. Figures1/2/4 and S1 visually inspected. Figure3 caption read; its native image not inspected.",
+    "supplement": "S1 one-page figure/caption visually read; S5 primer text read. Other tables extracted and searched for target/treatment terms only, not fully adjudicated; ARRIVE image not read.",
+    "pierno": "Complete primary abstract, current metadata and publisher section snippets; no complete body/figure read.",
+    "not_performed": [
+      "Biological replication",
+      "Raw microarray or survival-data reanalysis",
+      "Exhaustive taurine literature review",
+      "Clinical/regulatory dose assessment",
+      "Other citation-chain expansion"
+    ]
+  },
+  "asset_manifest": "asset-manifest.json",
+  "retrieval_manifest": "retrieval-manifest.json",
+  "publication_status_manifest": "publication-status.json",
+  "raw_sources_external_only": true,
+  "repo_modified": false,
+  "integration": {
+    "date": "2026-09-23",
+    "source_assessment_sha256": "f85445239082089ae4df2c1d5a2a3a000c7b20ffca18a352764c37510cc4791d",
+    "external_root": "common-primary-next-20260923/taurine",
+    "scope": "Source reading declarations remain attributed to the delegated primary reader. Root performed the bounded checks below; no independent complete-paper review or biological validation.",
+    "root_checks": [
+      "TauT Fig1 and complete lifespan paragraph/caption; full Pierno saved abstract. Sex-stratified controls are WT+hetero; chloride conductance increase is not claimed equivalent to adult value."
+    ],
+    "extra_outer_abstract_credit": 0,
+    "new_curated_ledger_ids": [
+      "new-taurine"
+    ]
+  }
+}

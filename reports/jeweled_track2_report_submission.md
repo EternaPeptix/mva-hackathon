@@ -34,65 +34,19 @@ A [related antibody in SMN-restored SMA mice](https://pmc.ncbi.nlm.nih.gov/artic
 
 ## What the completed work established
 
-The [public census](../workflow/track2-drug-census/README.md) screens **15,357 catalog/supplement entities**, with **40 FDA 2026 product entries assessed separately** and **168 curated route/compound appraisals**. It does not establish every drug's efficacy; missing evidence remains UNKNOWN. A separate [EMA status crosscheck](../workflow/track2-drug-census/ema-coverage-review.md) lists 1,568 authorised human products, with 180 unresolved whole-field name mismatches; this adds coverage, not efficacy claims. The [comparative assessment](../workflow/track2-drug-census/decision-report.md) preserves functional alternatives, including TM5484 muscle-force benefit, hesperetin motor performance and defect-specific Aurora/PLK1 balancing, with their treatment-window and control limitations.
+**[Ursolic acid](../workflow/track2-drug-census/next576-primary-qualification.md) earns serious consideration on muscle function:** mouse grip and absolute-force preservation, plus a small randomized human secondary handgrip benefit, alongside a separate controlled null. It challenges niacin on demonstrated muscle benefit; niacin retains a distinct restoration hypothesis. Apitegromab’s stronger pediatric functional evidence comes from SMA. Product/exposure eligibility and transfer to MVA remain unresolved.
 
-A [six-paper follow-up](../workflow/track2-drug-census/protein-and-tissue-qualification.md)
-retains CX-4945 and metformin as protein-specific stabilization precedents,
-bFGF/collagenase as ex vivo support probes, and ephedrine/salbutamol as an
-uncontrolled neuromuscular-compensation reserve. Wy-14643's regeneration markers
-and eplerenone's endothelial cycling do not establish organ-function rescue.
-These findings strengthen the alternatives table without demonstrating MVA
-efficacy or displacing the proposed research pair.
+**[BMS-309403](../workflow/track2-drug-census/lipid-rescue-qualification.md) has an actual-compound BUB1B RNA signal:** mean expression was 2.290 times palmitate alone, near control, alongside membrane/lipid improvements. Schedule differences, gene-specific significance, target attribution, BUBR1 protein and faithful division remain unresolved. Niacin instead has separate human muscle NAD engagement; its proposed BUBR1 bridge crosses interventions. Neither demonstrates genotype-specific rescue or superiority.
 
-A [subsequent compound check](../workflow/track2-drug-census/stat3-compound-qualification.md)
-retains SC-43's controlled mouse liver-fibrosis/survival benefit and garcinone D's
-context-dependent proliferative effects. Neither establishes BUBR1 restoration
-or muscle benefit; research-product availability is separate from clinical evidence. A separate
-[Apcin follow-up](../workflow/track2-drug-census/apcin-liver-qualification.md)
-credits mouse pretreatment organ protection while retaining unresolved survival
-timing and absent checkpoint-restoration evidence.
+**[Taurine](../workflow/track2-drug-census/taurine-qualification.md) retains a muscle-physiology reserve:** aged-rat treatment improved electrophysiology and contraction threshold, with full-paper access and analysis-unit limitations. Transporter-knockout survival cannot be relabeled supplementation benefit. Conversely, [oocyte experiments](../workflow/track2-drug-census/oocyte-metabolism-qualification.md) found excess arachidonic acid impaired maturation and spindle organization; partial NKAP genetic rescue does not establish nutrient-treatment benefit. The [comparative ledger](../workflow/track2-drug-census/decision-report.md) preserves these distinctions and other functional alternatives.
 
-The [food-name review](../workflow/track2-drug-census/food-substances/common-abstract-findings.md) completes role annotations for all **234 query rows across 213 source/ID records**, with **212 saved abstracts read**. PMID 18082453 has no available saved abstract and receives no reading credit; the [binding-source limit](../workflow/track2-drug-census/fatty-acid-binding-source-limit.md) remains explicit. The [outer-coverage reconciliation](../workflow/track2-drug-census/food-admission-findings.md) admits **64 already-read records**, not 64 new papers: accepted literal revalidations are **1,274**, outer source/ID coverage **3,435**, and pending strings **2,324**. All 163 prior appraisal objects remain unchanged; five new appraisals cover BMS-309403, oleic acid, free EPA, PA-d31 as stressor, and potassium bromate as adverse evidence.
+The [population simulation](../workflow/track2-model/README.md) shows why apparent improvement needs absolute-output controls: synthetic selective killing raised the chromosome-normal fraction **16.8 percentage points while differentiated-cell time fell 11.0%**. This is a selection effect with output loss, not a drug result or patient forecast; faithful individual-lineage tracking remains an experimental requirement.
 
-In the [liver-cell lipid study](../workflow/track2-drug-census/lipid-rescue-qualification.md), actual BMS-containing treatment has mean BUB1B RNA **2.290 times PA alone**, near control. This supports a **mechanistic RNA research reserve**, alongside measured membrane/lipid improvements. BMS has the closer actual-compound transcript observation in this comparison; niacin's restoration bridge uses different NAD interventions/genetics, with separate human muscle NAD engagement and medicine/exposure context. Neither establishes genotype-specific functional rescue or superiority. The BMS schedule differs from the other RNA arms; gene-specific significance, FABP1 attribution, BUBR1 protein and chromosome function remain unqualified. OA has a smaller descriptive RNA shift; EPA has no deposited RNA arm.
+The [TRIP13 worked example](../workflow/track2-transfer/README.md) reconstructs synthetic homozygous Arg354Ter and a positional RNA-decay prediction. BUBR1-restoration evidence does not transfer, and none of three reviewed routes yields a qualified lead. Two workflow executions are not two-patient validation.
 
-[Bromate](../workflow/track2-drug-census/bromate-qualification.md) supplies adverse low-BubR1-model evidence, not antioxidant-treatment benefit. Earlier [astaxanthin](../workflow/track2-drug-census/astaxanthin-qualification.md) composite-culture and [citral](../workflow/track2-drug-census/citral-qualification.md) cancer-cell/normal-comparator findings retain their source limits. Neither food availability nor an adjacent formulation establishes MVA benefit. The nominees remain provisional.
+[Muscle RNA reanalysis](../workflow/track2-rna/README.md) covered **nine mice, 12,989 genes and 150 pathway comparisons**. None passed global correction; mTORC1 had **P=0.219, FDR=0.983**. This neither validates nor refutes the phosphoprotein observation and provides no independent biological replication or drug ranking.
 
-The [BET-compound review](../workflow/track2-drug-census/bet-macrophage-qualification.md)
-retains ABBV-744's mouse plaque benefit and six distinct cell comparators;
-the BUB1B transcript result belongs to genetic knockdown. The
-[sFRP3 review](../workflow/track2-drug-census/sfrp3-direction-qualification.md)
-separates infused protein, gene delivery and a levetiracetam marker result,
-showing why the direction of the starting defect matters. These nine added
-appraisals preserve all 143 preceding assessments, add no abstract-reading
-credit and do not change the provisional nominees.
-
-The [research-probe expansion](../workflow/track2-drug-census/sgc-probes/README.md)
-adds 249 source labels as a separate inventory. Primary follow-up upgrades
-[GSK620](../workflow/track2-drug-census/gsk620-gbm-qualification.md) for a published
-mouse glioblastoma survival result and distinguishes [EZH2 genetic stabilization
-from its enzyme inhibitors](../workflow/track2-drug-census/ezh2-oocyte-qualification.md).
-Four appraisals are added and two existing entries refined; no MVA efficacy or
-new outer-corpus completion credit is inferred.
-
-The [food-peptide and epigenetic comparison](../workflow/track2-drug-census/decision-report.md)
-adds lunasin as a BUB1B-transcript reserve, distinguishes MS023’s cancer-cell
-BUB1B decrease, and retains bromosporine and PRMT5/METTL3 cancer benefits with
-their mechanistic limits. The separate FDA food layer contains 3,971 source
-rows; it supplies discovery coverage, not 3,971 efficacy assessments or safe
-interventions. No new outer-corpus completion credit or lead change follows.
-
-**Ursolic acid is a substantive new muscle-compensation reserve.** The [primary comparison](../workflow/track2-drug-census/next576-primary-qualification.md) credits mouse grip/absolute-force preservation and a small randomized human secondary handgrip benefit alongside a separate controlled null. It challenges niacin on measured muscle benefit; niacin retains the distinct restoration hypothesis. Apitegromab retains stronger pediatric functional evidence. Ursolic-acid product/exposure eligibility and transfer to MVA remain unresolved. The same comparison upgrades bortezomib plus humanin for neonatal-mouse contracture prevention, while retaining mortality and reduced normal-muscle growth as reasons it remains a combination-specific reserve.
-
-The [intervention check](../workflow/track2-drug-census/intervention-qualification.md) shows why both benefit and control outcomes matter. BI2536 reduced post-division defects in one depletion model but arrested control HeLa cells. A modified-RNA combination improved mouse heart function; this was not an existing medicine or a faithful-lineage result. Mirdametinib was tested in a receptor-trafficking assay, while the same paper's mouse metabolic benefit belonged to SHP099. These findings refine the alternatives without proving either nominee clinically superior. Niacin/apitegromab remain the research comparison, under the same requirement for useful muscle function, renewal and chromosome fidelity.
-
-The [sequence/population analysis](../workflow/track2-model/README.md) and offline [explorer](../workflow/track2-model/explorer/README.md) expose 192 retained comparisons. A synthetic selective-killing example raised the chromosome-normal fraction **16.8 percentage points while differentiated-cell time fell 11.0%**. These aggregate compartments demonstrate misleading population percentages, not drug effects or patient forecasts; individual-lineage tracking is a proposed experimental extension.
-
-The [second worked example](../workflow/track2-transfer/README.md) reconstructs synthetic homozygous TRIP13 Arg354Ter, computes its stop product and positional RNA-decay prediction, and applies the same curated mechanism gates. BUBR1-restoration evidence does not transfer; no qualified lead emerges from three reviewed routes. These are two workflow executions, not two-patient validation or raw-genome-to-drug automation.
-
-[Public muscle RNA reanalysis](../workflow/track2-rna/README.md) covered **nine mice, 12,989 genes and 150 pathway comparisons**; none passed global correction. mTORC1 had **P=0.219, FDR=0.983**. This neither validates nor refutes the phosphoprotein observation. Reanalysis supplies no independent biological replication or drug ranking.
-
-The [source-quality correction](../workflow/track2-drug-census/review-quality-followup.md) leaves the broad search incomplete: an unreliable all-read draft was rejected, and a corrected subset retains further leads. [UMK57](../workflow/track2-drug-census/umk57-qualification.md) improves acute and post-division segregation in cancer cells, with the acute comparisons no longer statistically significant at 72 hours. This earns a mechanistic lead, without establishing MVA transfer or a reason to replace either nominee.
+The [census and source audits](../workflow/track2-drug-census/README.md) bound discovery coverage: **15,357 main catalog/supplement entities**, separately **6,467 NIH ingredient groups**, **3,971 FDA food rows** and **249 SGC labels**—not unique-molecule totals or efficacy assessments. All **234 food-query rows** are annotated across 213 source IDs; **212 available abstracts** were read and [one unavailable abstract](../workflow/track2-drug-census/fatty-acid-binding-source-limit.md) receives no credit. The ledger has **170 appraisals**. [Reading remains incomplete](../workflow/track2-drug-census/review-quality-followup.md): **1,402 accepted literal revalidations; 3,563 outer source/ID records; 2,196 pending strings**.
 
 ## A partner experiment that can answer the question
 

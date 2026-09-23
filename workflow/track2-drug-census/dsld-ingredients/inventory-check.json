@@ -1,0 +1,195 @@
+{
+  "date": "2026-09-23",
+  "scope": "Builder-author replay and data-handling validation. Separate independent source audit belongs to the parent; no independent biological/source-context review is claimed here.",
+  "script": "build_dsld_inventory.py",
+  "script_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
+  "bound_immutable_run": "derived/runs/7a86160f6d9a7faeef69",
+  "summary_sha256": "7a86160f6d9a7faeef69423d63fa05b6d42c50caae6ee782f98b2967e5d34415",
+  "ledger_snapshot_appraisals": 168,
+  "fixtures": {
+    "scope": "Deterministic data-handling fixtures only, no literature review or biological validation.",
+    "tests": [
+      {
+        "name": "corrected_clean_preserves_inequalities_and_names",
+        "passed": true
+      },
+      {
+        "name": "case_NFKC_whitespace_and_hyphen_equivalence",
+        "passed": true
+      },
+      {
+        "name": "all_nested_overlapping_aliases_retained",
+        "passed": true
+      },
+      {
+        "name": "no_substring_inside_word",
+        "passed": true
+      },
+      {
+        "name": "hyphen_component_matches_flagged",
+        "passed": true
+      },
+      {
+        "name": "common_short_multigroup_not_suppressed",
+        "passed": true
+      },
+      {
+        "name": "manual_common_term_flag",
+        "passed": true
+      },
+      {
+        "name": "inexact_source_total_rejected",
+        "passed": true
+      },
+      {
+        "name": "partial_page_with_exact_declared_total_rejected",
+        "passed": true
+      },
+      {
+        "name": "duplicate_empty_cells_and_category_null_type_case_preserved",
+        "passed": true
+      },
+      {
+        "name": "conflicting_duplicate_group_ID_rejected",
+        "passed": true
+      },
+      {
+        "name": "source_ID_and_groupID_mismatch_rejected",
+        "passed": true
+      },
+      {
+        "name": "tampered_input_hash_rejected",
+        "passed": true
+      },
+      {
+        "name": "changed_input_before_publish_preserves_prior_outputs",
+        "passed": true
+      },
+      {
+        "name": "missing_partition_rejected_prior_output_preserved",
+        "passed": true
+      }
+    ],
+    "passed": 15,
+    "failed": 0
+  },
+  "exact_replay_same_run_and_all_output_hashes": true,
+  "all6467groups_and85255cells_roundtrip_exact": true,
+  "raw_values_category_types_case_empty_lists_and_synonym_indices_preserved": true,
+  "all_mention_alias_cell_foreign_keys_valid": true,
+  "duplicate_group_alias_record_mentions": false,
+  "source_metadata_has_no_raw_abstract_fields": true,
+  "ten_alias_regex_oracle": {
+    "aliases": [
+      "protein",
+      "complex",
+      "same",
+      "folic acid",
+      "taurine",
+      "ascorbic acid",
+      "l cysteine",
+      "alpha lipoic acid",
+      "magnesium",
+      "iron"
+    ],
+    "alias_source_field_hits": 5295,
+    "matches_all_corpus_records_exactly": true,
+    "scope": "Independent matching algorithm over the same declared normalization; not an independent normalizer or manual context review."
+  },
+  "counts": {
+    "source_partitions": 27,
+    "source_groups": 6467,
+    "distinct_source_group_ids": 6467,
+    "synonym_cells": 78788,
+    "group_name_cells": 6467,
+    "all_source_alias_cells": 85255,
+    "distinct_nonempty_normalized_aliases": 69707,
+    "normalized_aliases_shared_across_groups": 6228,
+    "corpus_source_records": 7362,
+    "corpus_nonempty_saved_abstracts": 7191,
+    "corpus_without_saved_abstract": 171,
+    "groups_with_any_lexical_match": 1143,
+    "groups_without_lexical_match": 5324,
+    "matched_normalized_aliases": 1025,
+    "matched_source_records": 6578,
+    "group_alias_record_mentions": 41496,
+    "unflagged_group_alias_record_mentions": 1077,
+    "unflagged_matched_source_records": 774,
+    "groups_with_unflagged_lexical_match": 371,
+    "direct_gene_group_alias_record_mentions": 9334,
+    "unflagged_direct_gene_mentions": 177,
+    "name_crossref_rows": 6800,
+    "groups_with_name_crossref_by_layer": {
+      "main_catalog": 1121,
+      "status_unverified": 43,
+      "FDA_food": 545,
+      "curated_appraisal": 60
+    },
+    "crossref_rows_by_layer": {
+      "status_unverified": 88,
+      "main_catalog": 5161,
+      "FDA_food": 1480,
+      "curated_appraisal": 71
+    },
+    "target_inventory": {
+      "main_catalog_rows": 14882,
+      "main_catalog_alias_cells": 156295,
+      "status_unverified_rows": 475,
+      "FDA_food_source_rows": 3971,
+      "appraisals": 168
+    },
+    "automatic_manual_abstract_reads": 0,
+    "automatic_primary_reads": 0,
+    "automatic_new_appraisals": 0
+  },
+  "metadata_anomalies": {
+    "distinct_raw_group_names": 6080,
+    "raw_group_names_shared_by_multiple_IDs": 368,
+    "group_IDs_in_raw_duplicate_name_sets": 755,
+    "duplicate_synonym_cells_within_group": 0,
+    "category_cell_counts_preserving_JSON_type_and_case": {
+      "\"botanical\"": 2294,
+      "\"Botanical\"": 324,
+      "\"non-nutrient/non-botanical\"": 1724,
+      "null": 592,
+      "\"amino acid\"": 52,
+      "\"fiber\"": 75,
+      "\"other\"": 843,
+      "\"fat\"": 154,
+      "\"animal part or source\"": 258,
+      "\"complex carbohydrate\"": 48,
+      "\"protein\"": 117,
+      "\"bacteria\"": 124,
+      "\"hormone\"": 21,
+      "\"enzyme\"": 98,
+      "\"fatty acid\"": 74,
+      "\"sugar\"": 31,
+      "\"vitamin\"": 186,
+      "\"mineral\"": 44
+    },
+    "JSON_null_category_cells": 592,
+    "literal_string_null_category_cells": 0,
+    "category_case_variants": {
+      "botanical": [
+        "Botanical",
+        "botanical"
+      ]
+    },
+    "groups_with_empty_synonym_list": 199,
+    "empty_synonym_cells": [
+      "dsld:2605:synonym:0"
+    ],
+    "empty_normalized_alias_cells": 1,
+    "raw_duplicate_cells_including_group_name_repetitions": 124,
+    "within_group_normalization_collision_cells": 7971,
+    "all_nutrient_info_empty": true,
+    "documentation_version": "9.4.0 in saved API HTML; live before/after API version9.5.0",
+    "guide_visible_extraction": "Existing api-guide-visible.txt is empty; it was not treated as reviewed guide prose.",
+    "snapshot_limit": "27 API partitions are separately retrieved, not a transactional database snapshot; version equality does not prove no in-place changes."
+  },
+  "source_manifest_sha256": "28409b93b597b4fc1633a47646c188fb530b1250b4a479f0324952cdaf911ad3",
+  "no_source_or_repo_mutations": true,
+  "reader_credits_added": 0,
+  "new_appraisals_added": 0,
+  "root_next_replay": "After the separately authorized ledger changes, run the same script with --expected-appraisals 170; retain this check as the 168-ledger checkpoint."
+}

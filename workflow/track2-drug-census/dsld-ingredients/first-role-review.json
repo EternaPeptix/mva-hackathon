@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-23",
+  "scope": "Six unflagged NIH ingredient-group query matches across four already-reviewed source abstracts. Query-role annotations only, not new drugs, new outer coverage or independent replication.",
+  "source_snapshot": {
+    "resolved_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived-170/runs/f18bc929796d98de657d",
+    "appraisals_in_input_ledger": 170,
+    "summary_sha256": "f18bc929796d98de657d8db165cf62b595b96daaf45ba88cc31a06845556c903",
+    "mentions_sha256": "eabe69f574125d0d97031683d72cf950f50087fb23c3375afeea7c4e89a356fc",
+    "name_crossrefs_sha256": "49f2b6ad20127c955e6b29214baa133f42d69f0e35b0feb96231b6cf010900a2",
+    "unflagged_selected_rows": 6,
+    "selected_groups_with_curated_appraisal_name_crossrefs": 0,
+    "note": "Missing literal name crossrefs do not imply no existing appraisal; Bletilla extract already appraised."
+  },
+  "reading_manifest": "first-role-reading-manifest.json",
+  "reading_manifest_sha256": "ed6e9334a54a6c45546e4586c2464e81f3a789076b4db9977432730e942d74cd",
+  "records": [
+    {
+      "role": "Infectious organism in an adverse clinical course; not administered probiotic or ingredient treatment.",
+      "query_roles": [
+        {
+          "group_id": "292",
+          "query": "enterococcus",
+          "role": "Genus substring of the reported Enterococcus faecium infection."
+        },
+        {
+          "group_id": "2798",
+          "query": "enterococcus faecium",
+          "role": "Named infection organism, no probiotic administration reported."
+        }
+      ],
+      "actual_intervention": "TCR-alpha-beta/CD19-depleted matched-unrelated-donor hematopoietic stem-cell transplantation with treosulfan-based reduced-intensity conditioning.",
+      "model": "Single 11-year-old boy with BUB1B-MVA1 and myelodysplastic syndrome.",
+      "material_positive": "Initial engraftment/complete hematologic recovery and no severe early toxicity reported.",
+      "null_or_adverse": "Graft rejection day +47 followed by prolonged pancytopenia and multi-organ E. faecium sepsis; death day +156. No sustained rescue.",
+      "bub1b_relevance": "MVA1 genotype is the clinical background; neither microbial treatment nor BUBR1 restoration demonstrated.",
+      "identity_limit": "Cannot transfer this infection report to a specific probiotic strain, preparation, or supplement efficacy/safety claim.",
+      "controls_exposure_limit": "Uncontrolled single case; abstract is not an E. faecium treatment experiment.",
+      "existing_review": "Complete saved abstract reviewed previously; clinical-case/transient-recovery-then-failure annotation reused.",
+      "followup_decision": "No new primary qualification needed to reject a probiotic-benefit interpretation of this match; preserve case-context annotation.",
+      "source_id": "MED:31053147",
+      "title": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+      "source_metadata": {
+        "source": "MED",
+        "id": "31053147",
+        "pmid": "31053147",
+        "pmcid": "PMC6500003",
+        "doi": "10.1186/s13023-019-1073-x",
+        "title": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+        "authorString": "Laberko A, Balashov D, Deripapa E, Soldatkina O, Raikina E, Maschan A, Novichkova G, Shcherbina A.",
+        "pubYear": "2019",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article",
+            "Case Reports"
+          ]
+        },
+        "publicationStatus": "epublish",
+        "firstPublicationDate": "2019-05-03",
+        "dateOfRevision": "2023-10-11",
+        "isOpenAccess": "Y",
+        "inPMC": "Y",
+        "hasSuppl": "N"
+      },
+      "source_links": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/31053147/",
+        "doi": "https://doi.org/10.1186/s13023-019-1073-x"
+      },
+      "abstract_sha256": "4110ceb3f817e7e9bbc498a27f90251617a085ae143a8dba92da58fa98635453",
+      "abstract_characters": 1733,
+      "read_depth_this_pass": "complete_saved_abstract_query_role_recheck",
+      "new_unique_read_credit": 0,
+      "nih_unflagged_rows": [
+        {
+          "group_id": "292",
+          "group_name_as_reported": "Enterococcus",
+          "normalized_alias": "enterococcus",
+          "source_alias_cell_ids": "[\"dsld:292:group_name\"]",
+          "source_key": "MED:31053147",
+          "source": "MED",
+          "id": "31053147",
+          "pmid": "31053147",
+          "matched_fields": "[\"abstract\"]",
+          "token_positions": "{\"abstract\":[{\"token_start\":196,\"token_end_exclusive\":197,\"adjacent_hyphen\":false}]}",
+          "occurrences": "1",
+          "direct_gene_in_title_or_abstract": "True",
+          "ambiguity_flags": "[]",
+          "interpretation": "LEXICAL_DISCOVERY_CONTEXT_UNREVIEWED"
+        },
+        {
+          "group_id": "2798",
+          "group_name_as_reported": "Enterococcus faecium",
+          "normalized_alias": "enterococcus faecium",
+          "source_alias_cell_ids": "[\"dsld:2798:group_name\",\"dsld:2798:synonym:4\"]",
+          "source_key": "MED:31053147",
+          "source": "MED",
+          "id": "31053147",
+          "pmid": "31053147",
+          "matched_fields": "[\"abstract\"]",
+          "token_positions": "{\"abstract\":[{\"token_start\":196,\"token_end_exclusive\":198,\"adjacent_hyphen\":false}]}",
+          "occurrences": "1",
+          "direct_gene_in_title_or_abstract": "True",
+          "ambiguity_flags": "[]",
+          "interpretation": "LEXICAL_DISCOVERY_CONTEXT_UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "role": "Actual botanical-extract treatment; group/genus label does not specify the experimental preparation.",
+      "query_roles": [
+        {
+          "group_id": "5381",
+          "query": "bletilla",
+          "role": "Genus term within Bletilla striata extract (BSE), the administered mixture."
+        }
+      ],
+      "actual_intervention": "Bletilla striata extract (BSE), not a purified constituent or a specified commercial Bletilla product.",
+      "model": "Ovariectomized rats and RANKL-induced osteoclast differentiation.",
+      "material_positive": "Reported significant decrease in rat bone loss by micro-CT/pathology, inhibition of osteoclast formation/differentiation and F-actin rings, and lower NFATc1/CTSK/MMP-9 markers.",
+      "null_or_adverse": "No null or adverse outcome described in this abstract; that is not a comprehensive safety or null-results assessment.",
+      "bub1b_relevance": "BUB1B is one of four key targets in a combined thermal-proteome/virtual-screening response network. Abstract does not establish BUBR1 protein restoration, direction, checkpoint rescue, or BUB1B necessity for bone protection.",
+      "identity_limit": "Phenanthrene dimers and steroids are ingredient classes implicated by the network; abstract does not establish a purified compound causing the in vivo effect. Separate coelonin work cannot identify this extract or its causal ingredient.",
+      "controls_exposure_limit": "Abstract does not provide exact preparation, dose, time course, group sizes, effect sizes or full control results. Thermal-stability fold change >2 is an author target-selection criterion, not independently confirmed binding or causality here.",
+      "existing_review": "Existing new-bletilla-extract appraisal in decisions.json and lead-qualification.md already covers this PMID; prior 2026-09-21 check read PubMed abstract and author-institution release, with subscription full text unavailable/ScienceDirect 403.",
+      "existing_appraisal_id": "new-bletilla-extract",
+      "followup_decision": "Retain the existing mixture-level reserve and inherited primary-access follow-up. Link the semantic genus/extract relationship for discovery only; do not create a second appraisal or claim chemical equivalence.",
+      "source_id": "MED:40220420",
+      "title": "Integrating thermal proteome profiling and virtual screening to reveal the mechanism of Bletilla striata against osteoclast-driven osteoporosis.",
+      "source_metadata": {
+        "source": "MED",
+        "id": "40220420",
+        "pmid": "40220420",
+        "doi": "10.1016/j.phymed.2025.156735",
+        "title": "Integrating thermal proteome profiling and virtual screening to reveal the mechanism of Bletilla striata against osteoclast-driven osteoporosis.",
+        "authorString": "Dai G, Yang Y, Mu W, Li Y, Tu Y.",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "publicationStatus": "ppublish",
+        "firstPublicationDate": "2025-04-07",
+        "dateOfRevision": "2025-04-28",
+        "isOpenAccess": "N",
+        "inPMC": "N",
+        "hasSuppl": "N"
+      },
+      "source_links": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40220420/",
+        "doi": "https://doi.org/10.1016/j.phymed.2025.156735"
+      },
+      "abstract_sha256": "840fcf7bb1c3edf0ff3ffc1bd66cf8326ab8d62a0c1a28523505014a21fd6de8",
+      "abstract_characters": 2120,
+      "read_depth_this_pass": "complete_saved_abstract_query_role_recheck",
+      "new_unique_read_credit": 0,
+      "nih_unflagged_rows": [
+        {
+          "group_id": "5381",
+          "group_name_as_reported": "Bletilla",
+          "normalized_alias": "bletilla",
+          "source_alias_cell_ids": "[\"dsld:5381:group_name\",\"dsld:5381:synonym:0\"]",
+          "source_key": "MED:40220420",
+          "source": "MED",
+          "id": "40220420",
+          "pmid": "40220420",
+          "matched_fields": "[\"title\",\"abstract\"]",
+          "token_positions": "{\"title\":[{\"token_start\":12,\"token_end_exclusive\":13,\"adjacent_hyphen\":false}],\"abstract\":[{\"token_start\":15,\"token_end_exclusive\":16,\"adjacent_hyphen\":false},{\"token_start\":50,\"token_end_exclusive\":51,\"adjacent_hyphen\":false}]}",
+          "occurrences": "3",
+          "direct_gene_in_title_or_abstract": "True",
+          "ambiguity_flags": "[]",
+          "interpretation": "LEXICAL_DISCOVERY_CONTEXT_UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "role": "Computational drug candidate from transcriptome/network analysis; not administered treatment.",
+      "query_roles": [
+        {
+          "group_id": "438",
+          "query": "resveratrol",
+          "role": "One of ten small-molecule candidates ranked by P values."
+        }
+      ],
+      "actual_intervention": null,
+      "model": "Secondary analysis of COVID-19 whole-blood/PBMC and HIV whole-blood GEO datasets.",
+      "material_positive": "394 common differentially expressed genes and chromosome/cell-cycle enrichment reported; BUB1B among ten ranked hub genes. This is analytical association, not resveratrol efficacy.",
+      "null_or_adverse": "No resveratrol treatment outcome, positive or null, tested in the abstract.",
+      "bub1b_relevance": "Hub-gene co-occurrence does not demonstrate that resveratrol targets BUB1B or restores BUBR1.",
+      "identity_limit": "The name resveratrol is an identified candidate label; dose, isomer, formulation and delivered exposure were not established because no intervention is reported.",
+      "controls_exposure_limit": "No drug-treated controls, functional rescue or MVA model described.",
+      "existing_review": "Existing complete-abstract computational/biomarker annotation reused.",
+      "followup_decision": "No new primary efficacy qualification warranted solely from this prediction. Keep as computational background, no treatment or MVA-benefit credit.",
+      "source_id": "MED:36389792",
+      "title": "Blood transcriptome analysis revealed the crosstalk between COVID-19 and HIV.",
+      "source_metadata": {
+        "source": "MED",
+        "id": "36389792",
+        "pmid": "36389792",
+        "pmcid": "PMC9650272",
+        "doi": "10.3389/fimmu.2022.1008653",
+        "title": "Blood transcriptome analysis revealed the crosstalk between COVID-19 and HIV.",
+        "authorString": "Yan C, Niu Y, Wang X.",
+        "pubYear": "2022",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "publicationStatus": "epublish",
+        "firstPublicationDate": "2022-10-28",
+        "dateOfRevision": "2022-11-22",
+        "isOpenAccess": "Y",
+        "inPMC": "Y",
+        "hasSuppl": "Y"
+      },
+      "source_links": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36389792/",
+        "doi": "https://doi.org/10.3389/fimmu.2022.1008653"
+      },
+      "abstract_sha256": "a3b19ae531955a5d61120f61a5e8b745da638cb5206bcc7a9bab0200da728946",
+      "abstract_characters": 2954,
+      "read_depth_this_pass": "complete_saved_abstract_query_role_recheck",
+      "new_unique_read_credit": 0,
+      "nih_unflagged_rows": [
+        {
+          "group_id": "438",
+          "group_name_as_reported": "Resveratrol",
+          "normalized_alias": "resveratrol",
+          "source_alias_cell_ids": "[\"dsld:438:group_name\",\"dsld:438:synonym:65\"]",
+          "source_key": "MED:36389792",
+          "source": "MED",
+          "id": "36389792",
+          "pmid": "36389792",
+          "matched_fields": "[\"abstract\"]",
+          "token_positions": "{\"abstract\":[{\"token_start\":358,\"token_end_exclusive\":359,\"adjacent_hyphen\":false}]}",
+          "occurrences": "1",
+          "direct_gene_in_title_or_abstract": "True",
+          "ambiguity_flags": "[]",
+          "interpretation": "LEXICAL_DISCOVERY_CONTEXT_UNREVIEWED"
+        }
+      ]
+    },
+    {
+      "role": "Actual formulated curcumin treatment in cancer cells; the broad polyphenol term is a class description.",
+      "query_roles": [
+        {
+          "group_id": "2377",
+          "query": "nano curcumin",
+          "role": "Title phrase refers to gemini nanoparticle curcumin (Gemini-Cur), not free curcumin or every nano-curcumin product."
+        },
+        {
+          "group_id": "2306",
+          "query": "polyphenol",
+          "role": "Class descriptor in the title of the same Gemini-Cur experiment; not a second intervention or generic-polyphenol efficacy."
+        }
+      ],
+      "actual_intervention": "Gemini nanoparticle formulation of curcumin (Gemini-Cur).",
+      "model": "HCT-116 colorectal cancer cells.",
+      "material_positive": "Cytotoxicity and apoptosis reported; 3,892 DEGs at adjusted P<0.01, with 442 having absolute log2 fold change >2. Five central genes including BUB1B showed significant modulation confirmed by PCR/Western blot relative to non-treated cells.",
+      "null_or_adverse": "The measured functional direction is cancer-cell viability inhibition/apoptosis. Abstract does not describe normal-cell rescue, normal-cell selectivity or MVA benefit; no null results are reported there.",
+      "bub1b_relevance": "BUB1B modulation in treated cancer cells is reported, but its direction, causal contribution and distinction from cytotoxic cell-cycle changes are not supplied in the abstract.",
+      "identity_limit": "Do not transfer the result to dietary turmeric, unformulated curcumin, all nanoparticles or unspecified polyphenols. The two NIH rows describe one formulation experiment.",
+      "controls_exposure_limit": "Non-treated comparison specified. Dose, duration, vehicle/empty-carrier controls, formulation composition and healthy-cell controls not provided in abstract.",
+      "existing_review": "Existing complete-abstract Gemini-Cur cytotoxicity/formulation annotation reused; prior review did not require primary follow-up.",
+      "followup_decision": "No new MVA-oriented nomination or mandatory follow-up from this abstract. A future mechanism/formulation check would require full-text direction, carrier controls and normal-cell selectivity; not undertaken here.",
+      "source_id": "MED:35684411",
+      "title": "Transcriptome Profiling of HCT-116 Colorectal Cancer Cells with RNA Sequencing Reveals Novel Targets for Polyphenol Nano Curcumin.",
+      "source_metadata": {
+        "source": "MED",
+        "id": "35684411",
+        "pmid": "35684411",
+        "pmcid": "PMC9182402",
+        "doi": "10.3390/molecules27113470",
+        "title": "Transcriptome Profiling of HCT-116 Colorectal Cancer Cells with RNA Sequencing Reveals Novel Targets for Polyphenol Nano Curcumin.",
+        "authorString": "Azeez HJ, Neri F, Hosseinpour Feizi MA, Babaei E.",
+        "pubYear": "2022",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "publicationStatus": "epublish",
+        "firstPublicationDate": "2022-05-27",
+        "dateOfRevision": "2023-03-08",
+        "isOpenAccess": "Y",
+        "inPMC": "Y",
+        "hasSuppl": "Y"
+      },
+      "source_links": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/35684411/",
+        "doi": "https://doi.org/10.3390/molecules27113470"
+      },
+      "abstract_sha256": "03be151d741e6d2039f73bd977e93a8c8517b645b7529da06b130b036bf8e841",
+      "abstract_characters": 1487,
+      "read_depth_this_pass": "complete_saved_abstract_query_role_recheck",
+      "new_unique_read_credit": 0,
+      "nih_unflagged_rows": [
+        {
+          "group_id": "2377",
+          "group_name_as_reported": "Curcumin",
+          "normalized_alias": "nano curcumin",
+          "source_alias_cell_ids": "[\"dsld:2377:synonym:70\"]",
+          "source_key": "MED:35684411",
+          "source": "MED",
+          "id": "35684411",
+          "pmid": "35684411",
+          "matched_fields": "[\"title\"]",
+          "token_positions": "{\"title\":[{\"token_start\":16,\"token_end_exclusive\":18,\"adjacent_hyphen\":false}]}",
+          "occurrences": "1",
+          "direct_gene_in_title_or_abstract": "True",
+          "ambiguity_flags": "[]",
+          "interpretation": "LEXICAL_DISCOVERY_CONTEXT_UNREVIEWED"
+        },
+        {
+          "group_id": "2306",
+          "group_name_as_reported": "Polyphenol (unspecified)",
+          "normalized_alias": "polyphenol",
+          "source_alias_cell_ids": "[\"dsld:2306:synonym:19\"]",
+          "source_key": "MED:35684411",
+          "source": "MED",
+          "id": "35684411",
+          "pmid": "35684411",
+          "matched_fields": "[\"title\"]",
+          "token_positions": "{\"title\":[{\"token_start\":15,\"token_end_exclusive\":16,\"adjacent_hyphen\":false}]}",
+          "occurrences": "1",
+          "direct_gene_in_title_or_abstract": "True",
+          "ambiguity_flags": "[]",
+          "interpretation": "LEXICAL_DISCOVERY_CONTEXT_UNREVIEWED"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "records": 4,
+    "query_rows": 6,
+    "actual_treatment_papers": 2,
+    "infection_context_papers": 1,
+    "computational_candidate_papers": 1,
+    "existing_appraisal_identified": "new-bletilla-extract",
+    "MVA_benefit_demonstrated_for_NIH_matched_ingredient": false
+  },
+  "publication_status_limit": "All four saved records are journal articles, including one case report; no saved publication-type field identifies a review/preprint/retracted article, and no commentCorrectionList is present. No live retraction/status verification performed. Absence of such metadata is not proof of no later correction.",
+  "credit": {
+    "new_unique_abstract_reads": 0,
+    "new_outer_corpus_reads": 0,
+    "new_primary_reads": 0,
+    "new_drug_appraisals": 0,
+    "independent_biological_replication": false,
+    "new_query_role_annotations": 6
+  },
+  "limits": [
+    "All four complete saved abstracts actually read in this turn.",
+    "Prior exact-ID annotations and Bletilla appraisal inspected; no new main text, figures, supplements or raw experimental data read.",
+    "Publication and access metadata are preserved from the saved corpus, not freshly verified online.",
+    "A verbose metadata/summary inspection was truncated; no abstract reading relied on that output. Compact metadata and all six selected unflagged rows were subsequently displayed untruncated."
+  ],
+  "integration": {
+    "date": "2026-09-23",
+    "external_root": "dsld-first-followups-20260923",
+    "source_review_sha256": "aa4caba7750a1fb3e012cee7f88c6f8152fba78ec60a943ff1625fff3fbc6b17",
+    "source_reading_manifest_name": "reading-manifest.json",
+    "root_check": "Root independently viewed the four complete saved strings and compared role summaries in c1a427; no new unique or outer credit."
+  }
+}

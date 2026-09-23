@@ -2920,14 +2920,18 @@
       ],
       "route": "Free eicosapentaenoic acid / lipid-remodeling comparator",
       "disposition": "retain physical-remodeling comparator; no deposited BUB1B RNA arm",
-      "evidence_scope": "Bounded primary-source qualification; actual source/read limits retained in linked assessment.",
+      "evidence_scope": "Bounded primary-source qualification; actual source/read limits retained in linked assessment. Separate main-text oocyte adverse observation; native supplement/exposure not qualified.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Free EPA cotreatment improves physical lipid/membrane measures in PA-injured HepaRG cells. No EPA RNA arm exists in the deposited series; it cannot inherit OA/BMS transcript results. No BUBR1, fidelity, muscle or MVA benefit established. Free EPA is not automatically equivalent to icosapent ethyl or fish-oil products.",
+      "rationale": "Free EPA cotreatment improves physical lipid/membrane measures in PA-injured HepaRG cells. No EPA RNA arm exists in the deposited series; it cannot inherit OA/BMS transcript results. No BUBR1, fidelity, muscle or MVA benefit established. Free EPA is not automatically equivalent to icosapent ethyl or fish-oil products. A separate mouse-oocyte paper reports EPA-associated maturation disruption in supplementary experiments, described in the read main text. Native supplement and exact exposure were unavailable; this context-specific adverse report does not negate the measured HepaRG lipid effects, establish dietary harm or demonstrate MVA response.",
       "source_report": "workflow/track2-drug-census/lipid-rescue-qualification.md",
       "source_urls": [
-        "https://doi.org/10.1126/sciadv.abq2937"
+        "https://doi.org/10.1126/sciadv.abq2937",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8034554/"
       ],
-      "identity_limit": "Study-specific molecule/formulation and experimental role; no inferred food, supplement or approved-product equivalence."
+      "identity_limit": "Study-specific molecule/formulation and experimental role; no inferred food, supplement or approved-product equivalence.",
+      "additional_source_reports": [
+        "workflow/track2-drug-census/oocyte-metabolism-qualification.md"
+      ]
     },
     {
       "decision_id": "new-pa-d31",
@@ -2961,6 +2965,37 @@
         "https://doi.org/10.21873/invivo.10993"
       ],
       "identity_limit": "Study-specific molecule/formulation and experimental role; no inferred food, supplement or approved-product equivalence."
+    },
+    {
+      "decision_id": "new-taurine",
+      "match_aliases": [
+        "taurine"
+      ],
+      "route": "Taurine / muscle-physiology reserve",
+      "disposition": "retain muscle-physiology research reserve; actual-treatment source access limited",
+      "evidence_scope": "Bounded primary-source qualification; full-text versus abstract/snippet access and actual reading scopes recorded separately.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Transporter-knockout mice provide genetic-depletion survival/muscle evidence, not supplementation rescue. One directly cited aged-rat taurine study reports actual-compound improvements in membrane electrophysiology and contraction voltage threshold; complete abstract/publisher snippets were read, but the full paper and effect-size/control detail remain unavailable. No absolute-force, endurance, faithful-renewal, BUBR1 or MVA treatment result is established at this depth. This is a functional-physiology positive, not a lifespan-supplementation claim or proof of superiority.",
+      "source_report": "workflow/track2-drug-census/taurine-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4167997/",
+        "https://pubmed.ncbi.nlm.nih.gov/9732377/"
+      ]
+    },
+    {
+      "decision_id": "new-arachidonic-acid",
+      "match_aliases": [
+        "arachidonic acid"
+      ],
+      "route": "Arachidonic acid / oocyte metabolic timing",
+      "disposition": "decline restoration nomination from reviewed source; retain dose-specific adverse evidence",
+      "evidence_scope": "Bounded primary-source qualification; full-text versus abstract/snippet access and actual reading scopes recorded separately.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "In normal mouse oocyte culture, 300–400 µM ARA impaired polar-body extrusion and spindle/chromosome organization; 100–200 µM plotted comparisons were nonsignificant. Washout and genetic NKAP overexpression provide functional reversal/partial rescue, not a beneficial ARA therapy. BUBR1 kinetochore retention belongs to NKAP knockdown, and SHMT2/G6PDX rescue is genetic rather than glycine/serine/antioxidant supplementation. No somatic MVA, in-vivo dietary-harm or clinical exposure inference.",
+      "source_report": "workflow/track2-drug-census/oocyte-metabolism-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8034554/"
+      ]
     }
   ]
 }

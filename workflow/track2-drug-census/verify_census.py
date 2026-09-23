@@ -289,6 +289,12 @@ def main():
     if (P/'outer-food-admission.json').exists():
         from verify_food_admission import check as check_food_admission
         check_food_admission(root=P)
+    if (P/'outer-revalidation-batch09-review.json').exists():
+        from verify_revalidation_batch09 import check as check_batch09
+        check_batch09(root=P)
+    if (P/'dsld-ingredients/summary.json').exists():
+        from verify_dsld_inventory import check as check_dsld
+        check_dsld(root=P)
     if (P/'literature-v2/summary.json').exists():
         from verify_rescreen import check as check_rescreen
         check_rescreen()

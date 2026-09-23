@@ -12,7 +12,7 @@ It is not a list of safe treatments or every food compound in existence.
 |---|---:|
 | Preserved source rows / source record IDs | 3,971 / 3,971 |
 | Exact clinical-catalog name candidates | 298 rows |
-| Exact curated-appraisal name candidates | 9 rows |
+| Exact curated-appraisal name candidates | 10 rows |
 | Literal mention rows in the 7,362-record saved corpus | 234 |
 | Food source rows with at least one literal hit | 76 |
 | Matched literature source/ID records | 213 |
@@ -94,7 +94,10 @@ not evidence that this FDA table contains every relevant food-derived candidate.
 
 The [original literal-policy overlay](abstract-findings.md) covered 67 source/ID records behind 73 rows. Together with the [common-name review](common-abstract-findings.md), the food union now annotates **all 234 query rows across 213 source/ID records**, with **212 saved abstracts read**. PMID 18082453 remains without a saved abstract and receives no reading credit; its [source limit](../fatty-acid-binding-source-limit.md) stays explicit. The 29 common-name reading-time follow-up flags are not 29 novel candidates or necessarily unresolved questions. Compound, derivative, mixture, endogenous molecule, assay reagent and background roles remain distinct.
 
-The [explicit food-to-outer reconciliation](../food-admission-findings.md) admits **64 already-read records**, not 64 newly read papers, bringing accepted literal revalidations to **1,274**, outer source/ID coverage to **3,435**, and pending strings to **2,324**. Inventory creation and primary-paper follow-ups do not automatically add reading credit.
+The [explicit food-to-outer reconciliation](../food-admission-findings.md) admitted **64 already-read records**, not 64 newly read papers. [Batch09](../batch09-revalidation-findings.md) then added 128 literal revalidations; current totals are **1,402 accepted, 3,563 outer records and 2,196 pending strings**. Inventory creation and primary-paper follow-ups do not automatically add reading credit.
 
-Earlier [astaxanthin](../astaxanthin-qualification.md) and [citral](../citral-qualification.md) primary qualifications retain their measured positives and limits. The [lipid qualification](../lipid-rescue-qualification.md) and [bromate qualification](../bromate-qualification.md) now add five appraisals: BMS-309403, oleic acid, free EPA, PA-d31 stressor and adverse potassium bromate. The ledger has **168** entries, with all **163** preceding objects unchanged. These are compound/stressor appraisals, not five successful treatments. The original independent parser review remains bound to its earlier snapshot; the source rows and all 234 mention keys remain the discovery basis.
-The current parent replay adds exact appraisal-name links for oleic acid and potassium bromate (nine linked FDA rows total). Source values and all 234 mention rows are unchanged; the original independent parser review remains historical.
+Earlier [astaxanthin](../astaxanthin-qualification.md), [citral](../citral-qualification.md), [lipid](../lipid-rescue-qualification.md) and [bromate](../bromate-qualification.md) qualifications retain their measured positives and limits. The ledger is now **170**: [taurine](../taurine-qualification.md) adds an access-bounded muscle-physiology reserve; [arachidonic acid](../oocyte-metabolism-qualification.md) adds dose-specific oocyte adverse evidence, and EPA’s separate main-text adverse observation is refined without assigning unqualified supplementary doses. The other **167 of the prior 168 objects are unchanged**. Source rows and all 234 mention keys remain unchanged; the original independent parser review stays bound to its earlier snapshot.
+
+The current parent replay against the 170-entry ledger has **10 FDA rows with exact curated-appraisal name candidates**, up from the preceding nine-link checkpoint: taurine adds one; arachidonic acid has no exact match to the current FDA row names. This is a name join, not verified chemical equivalence or inherited efficacy.
+
+The separate [NIH DSLD ingredient inventory](../dsld-ingredients/README.md) preserves 6,467 groups and 85,255 total name/synonym cells; 41,496 automatic matches provide no efficacy assessment, including 1,077 unflagged rows; six have a separate role annotation. It neither expands this FDA table nor adds automatic reading credit.
