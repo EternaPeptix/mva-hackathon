@@ -1,8 +1,8 @@
 # Batch 15 historical follow-up reconciliation
 
-**Eleven of the 47 historical questions have direct source-qualified information; 36 lack a direct answer in this update.** Six original study-level questions are answered within explicit limits. Bladder, CCDC41, EML1, diclofenac and lithium-astrocyte questions retain unresolved source components. This is not global scientific completion or MVA efficacy.
+**Twelve of the 47 historical questions have direct source-qualified information; 35 lack a direct answer in this update.** Six original study-level questions are answered within limits. Bladder, CCDC41, EML1, diclofenac, lithium-astrocyte and retinoic-barrier questions retain unresolved source components. This is not global scientific completion or MVA efficacy.
 
-**Integrated lithium-astrocyte update:** baseline `2591b136724889da47837dc75e8754aca3f9ee1d` had 203 appraisals. The current 206-object ledger refines only existing LiCl and adds three actual Figure 4 agents; all 202 other prior objects remain equal. Only n390 changes; the other 46 question objects and all 47 original questions/flags remain. Explicit baseline Git and frozen candidate inputs are retained separately from the current-repository input.
+**Integrated retinoic-barrier update:** baseline `e79f1296e2c34c4985d2ae0055950dfc6d4a2622` had 206 appraisals. One narrowly scoped all-trans RA culture-barrier entry produces 207, with every existing object unchanged. Only n418 changes; all 46 other record objects and all 47 original questions/flags remain. Current repository inputs are retained separately from baseline Git and frozen candidate inputs.
 
 ## Direct coverage and remaining gaps
 
@@ -92,7 +92,7 @@ The resveratrol and bladder study-level exposure documentation gaps were closed 
 
 ## Remaining questions without a direct qualified answer
 
-Nine records retain related evidence from a different experiment; six of those remain among the36 open questions. Such related evidence never substitutes for the exact-source qualification.
+Nine records retain related evidence from a different experiment; six of those remain among the35 open questions. Such related evidence never substitutes for the exact-source qualification.
 
 | Batch n / source | Why existing work does not close it | Bounded remaining question |
 |---|---|---|
@@ -125,7 +125,6 @@ Nine records retain related evidence from a different experiment; six of those r
 | [n358 / 36190432](https://pubmed.ncbi.nlm.nih.gov/36190432/) | No exact siHIF2 formulation/trial qualification found; the highlighted responder does not resolve the full phase1 denominator, durability or safety. | Extract RNA formulation/dose, resistant-mutant coverage, full trial denominator, response durability and safety; keep PT2399 and belzutifan distinct. |
 | [n400 / 36380369](https://pubmed.ncbi.nlm.nih.gov/36380369/) | No exact M2I-1 drug-arm qualification found; genetic SGOL2 animal benefit cannot be assigned to the compound. | Separate M2I-1 exposure/model arms from genetic animal experiments and inspect selectivity/normal-cell fidelity; linked preprint content remains unreviewed here. |
 | [n401 / 26887051](https://pubmed.ncbi.nlm.nih.gov/26887051/) | No exact AR-12/sildenafil qualification found; the imaging-versus-western discrepancy remains unresolved by source qualification. | Check binding/ATPase specificity, exposures and normal-cell response while retaining that altered antibody accessibility need not equal protein depletion. |
-| [n418 / 37237379](https://pubmed.ncbi.nlm.nih.gov/37237379/) | No exact retinoic-acid barrier-model qualification found; isomer/exposure and induction controls remain unspecified. | Resolve retinoic-acid identity/dose and matched barrier controls, retaining mixed lineage and model-induction rather than disease-repair scope. |
 | [n438 / 37934606](https://pubmed.ncbi.nlm.nih.gov/37934606/) | No exact PP2A-compound qualification found for the BRCA2 context; neither okadaic acid nor another inhibitor can be inferred from the target. | Identify PP2A drugs and model-specific arms, keeping worm genetic survival rescue separate from tumor synthetic lethality and testing normal-cell specificity. |
 | [n458 / 21242994](https://pubmed.ncbi.nlm.nih.gov/21242994/) | No exact LBH589/ATLL qualification found; existing generic HDAC evidence is not this primary-cell/mouse result. | Extract dose, mouse tumor/toxicity controls and primary-cell selectivity while preserving RAIDD/caspase2 support and p53/death-receptor nulls. |
 | [n464 / 33553272](https://pubmed.ncbi.nlm.nih.gov/33553272/) | No exact PDA-66/PDA-377 qualification found; one derivative’s cell activity does not establish efficacy of the series. | Check structures, matched exposures, normal-cell controls and direct microtubule evidence separately for each derivative. |
@@ -143,6 +142,14 @@ The source also actually administered BAPN (dose missing), pioglitazone (printed
 
 Pointers: [lithium astrocyte qualification](lithium-astrocyte-qualification.md), [structured assessment](lithium-astrocyte-qualification.json), [targeted descriptive expression](lithium-astrocyte-expression.json).
 
+### n418 — PMID37237379
+
+All-trans retinoic acid has a direct culture TEER comparison during mouse ESC-D3-derived barrier-model induction: about 350–400 Ω cm² by day 7 versus 60–100 without RA over 11 days, with three independent differentiations and no panel-specific P value. This is a supportive multicomponent differentiation regimen, not injured-barrier repair. Optimized tracer/antibody transport belongs to the completed model, without an isolated RA transport comparison. Mixed endothelial–epithelial/choroid-plexus-like identity remains explicit.
+
+**Remaining source components:** native initial Methods prints 10 mM while the same-page diagram and later stages specify 10 µM; schematic/prose days and density optimum also conflict. Solvent controls, concentration validation and replicate/statistical details remain bounded. BUB1B belongs to an upregulated pathway in a cross-model comparison, not a measured RA response, BUBR1 restoration or MVA outcome. Tretinoin is a verified molecular synonym only, without product/approval/exposure inheritance.
+
+Pointers: [retinoic barrier qualification](retinoic-barrier-qualification.md), [structured assessment](retinoic-barrier-qualification.json).
+
 ## Related evidence that must stay in its original context
 
 - n9 / PMID29046878: [bladder-qualification.md](bladder-qualification.md) — Different lapatinib bladder prevention experiment; does not resolve SKBR3/CENP-E combination.
@@ -159,6 +166,6 @@ Pointers: [lithium astrocyte qualification](lithium-astrocyte-qualification.md),
 
 The JSON preserves all 47 original questions verbatim, record/abstract hashes, source pointers/hashes, relevant decision IDs, exact answered components and bounded remaining questions. Historical version/notice limits stay attached: PPR918452 links PMID41120338 by title/first-author matching; PMID35302600 links PPR440054; PMID23403633 links commentary23459035; PMID36380369 links PPR525543. Metadata links do not constitute reading, authenticated version equivalence or independent-study credit.
 
-This reconciliation maps separately attributed primary qualifications to the original questions. It does not transfer oocyte, astrocyte or companion-drug outcomes between experiments. This update changes only n390; all 46 other record objects and all 47 original questions/flags are preserved. Root declared primary main/caption/Figure 1/4 reading and companion admission; independent scope is targeted and does not become a second full-paper review. Root targeted signals/means and full supplement texts are separately declared, with all 24 detection rows/replay recorded in its reading manifest. No new assembly credit is created.
+This reconciliation maps separately attributed primary qualifications to the original questions. It does not turn cross-model pathway membership into a drug response or culture induction into disease repair. Only n418 changes in this candidate; all 46 other record objects and all 47 original questions/flags are preserved. Root’s bounded native-page/Figure3/text review remains distinct from the complete source and independent qualifications. Candidate assembly adds no scientific reading credit.
 
-The prior 203-assessment reconciliation is preserved as a hash-bound baseline Git object. Exact current candidate inputs, per-record changes and remaining source conflicts are recorded in the companion JSON.
+The prior 206-assessment reconciliation remains a hash-bound baseline Git object. Exact candidate input hashes, source scopes and remaining gaps are recorded in the companion JSON.

@@ -1,0 +1,478 @@
+{
+  "date": "2026-09-23",
+  "status": "INTEGRATED_SOURCE_QUALIFICATION",
+  "pmid": "37237379",
+  "pmcid": "PMC10224255",
+  "doi": "10.1186/s12987-023-00437-0",
+  "title": "Mouse embryonic stem cell-derived blood-brain barrier model: applicability to studying antibody triggered receptor mediated transcytosis.",
+  "source_url": "https://link.springer.com/article/10.1186/s12987-023-00437-0",
+  "bibliographic_status": {
+    "pubYear": "2023",
+    "firstPublicationDate": "2023-05-26",
+    "publicationStatus": "epublish",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  "compound_identity": {
+    "verified_name": "all-trans retinoic acid",
+    "supplier": "Sigma-Aldrich",
+    "salt": "No salt specified; source identifies acid.",
+    "catalog_purity_vehicle": "Not reported in reviewed main/supplements.",
+    "isomer_scope": "Do not merge with retinol, 9-cis, 13-cis or unspecified RA.",
+    "identity_unit_conflict": "All-trans identity is explicit; the initial-stage 10 mM versus 10 µM dose discrepancy remains.",
+    "clinical_product_or_food_equivalence": false
+  },
+  "schedule": {
+    "model": "Mouse ESC-D3 (ATCC), differentiated through mesoderm/endothelial-like stages; not a disease model.",
+    "induction": "CHIR99021 is reported at 1.4 mM on the first day with BMP4/VEGF, followed by BMP4/VEGF continuation. Endothelial medium with bFGF/RA begins on prose day 6 for 2 days; replating is on day 8. The schematic labels these transitions day 5/day 7.",
+    "barrier_maturation": "Collagen IV/fibronectin transwells; RA 10 µM and bFGF 5 ng/mL. Abluminal ACM:EM 1:1 contains Y-27632 10 µM, hydrocortisone 1.4 µM and RA. Endothelial medium is changed daily.",
+    "assessment": "TEER followed for 11 days after plating; optimized functional assays usually 5–10 days after plating, with TEER 300–600 Ωcm².",
+    "control": "Direct +/-RA cultures; no matched RA-solvent control reported. Other media components, growth factors and ACM remain part of the culture context.",
+    "actual_repair_arm": false
+  },
+  "functional_evidence": [
+    {
+      "endpoint": "TEER direct RA contrast",
+      "comparison": "mBEC differentiation with versus without RA, in supportive culture with ACM; not a damaged-barrier repair test.",
+      "positive": "Author gives 141 Ωcm² at 72 hours and 350–400 by day 7, about 350 on day 11 with RA; without RA only 60–100 over 11 days. Native Fig3A agrees directionally.",
+      "replication": "Representative of 3 independent differentiations; mean±SD. Global Methods says at least 3 technical experiments unless specified.",
+      "statistics": "No panel-specific P value, significance bracket or test supplied in Fig3A; effect size/direction retained without inventing significance."
+    },
+    {
+      "endpoint": "NaFl/sucrose permeability",
+      "comparison": "Optimized multicomponent mBEC model versus other cell models; not a clean RA-only contrast.",
+      "positive": "NaFl Pe: 1.7e-5 cm/min for mBEC, 2.0e-5 for iBEC, 1.02e-3 for bEnd.3, and 0.44e-3 for SV-ARBEC. Native Fig3E and S5 support low paracellular leakage.",
+      "replication": "Fig3D/E represent 6 independent differentiations; S5 represents 3.",
+      "limit": "Different lineages, coatings, media and maturation durations; do not assign the entire model difference to RA."
+    },
+    {
+      "endpoint": "Rhodamine123 directional transport",
+      "positive": "A–B 0.68±0.04e-3 and B–A 1.31±0.06e-3 cm/min; efflux ratio 1.94.",
+      "replication": "2 independent differentiations.",
+      "limit": "Authors note a ratio below 2 and that Rhodamine is also an OATP1A2/OCT1 substrate; no P-gp-specific inhibitor arm. Polarized transport retained; exclusive P-gp attribution unconfirmed."
+    },
+    {
+      "endpoint": "Antibody transcytosis",
+      "positive": "The model distinguishes mouse-selective 8D3 from the human model and high/low TfR affinity variants; cross-reactive FC5-Fc/IGF1R5-Fc transport retained. Holo-Tf increases high-affinity 8D3 transport directionally.",
+      "nulls": "8D3 variants are negligible in the human model; J05-Fc transport is not significantly changed with holo-Tf per authors.",
+      "replication": "Fig5/6 are from 2 independent differentiations; antibodies 1.25 µM and holo-Tf 2 mg/mL where indicated.",
+      "controls": "A20.1 anti-C. difficile toxin A negative antibody; empty-insert background; mouse/human comparators.",
+      "limit": "No RA-treated versus untreated transport comparison. Highest 8D3 values extend above the drawn ULOQ line, qualifying exact magnitudes. Panel-specific tests/P values are not provided."
+    }
+  ],
+  "marker_and_lineage": {
+    "positive": "Day 8 flow: GLUT1 100%, CD31 77%, VE-cadherin 79.4%, claudin 5 82.3%; five independent differentiations represented. RA-positive S4 has larger displayed median fluorescence for six BBB/endothelial markers (two independent differentiations; no statistical tests reported).",
+    "purity_limit": "Flk1-positive progenitors at 97.3% and matrix selection do not prove pure mature brain endothelium. Authors acknowledge a mixed endothelial/epithelial phenotype; native S7 shows epithelial/choroid-plexus markers.",
+    "functional_limit": "Matrigel tube formation is not specific to endothelium; authors suggest a more stringent fibrin-bead assay.",
+    "cell_proliferation_survival": "Growth/proliferative RNA context is reported; no RA-specific survival, clonal proliferation, apoptosis or injury-recovery endpoint.",
+    "generalization": "One mESC-D3 line and one HAF-iPSC comparator; independent differentiations are not independent donors/genotypes."
+  },
+  "BUB1B_context": {
+    "gene": "BUB1B, separately listed from BUB1",
+    "native_location": "Main Table 2, publisher PDF page 16; cell-cycle column under Pathways up.",
+    "contrast": "mESC-D3-derived mBECs versus primary mouse BECs (pmBECs), not RA-positive versus RA-negative cultures.",
+    "assay": "RNAseq, STAR alignment to GRCm39/GencodeM26; DESeq2 normalization; average of 3 replicates; heatmaps use log2-transformed normalized read counts.",
+    "pathway_method": "GSEA v4.0.3, C2 Canonical Pathways, 1000 permutations; table footnote summarizes significantly changed pathways.",
+    "interpretation": "BUB1B appears in the listed upregulated cell-cycle gene-set context. No individual quantitative BUB1B row or RA-specific attribution is supplied.",
+    "gene_specific_fold_change": null,
+    "gene_specific_P_FDR": null,
+    "drug_assigned_direction": null,
+    "BUBR1protein_stability_function": "Not measured; no specific BUBR1 antibody or BUB1B RT-PCR primer appears in supplementary Tables S2/S3.",
+    "data_limit": "Data availability offers data upon request; no public RNA accession identified, and no data requested or reanalyzed."
+  },
+  "actual_agents_and_roles": [
+    {
+      "name": "all-trans retinoic acid",
+      "role": "Differentiation/barrier induction intervention with direct +/- comparison."
+    },
+    {
+      "name": "CHIR99021",
+      "role": "First-day mesoderm induction reagent; S2 Brachyury marker comparison, not RA identity or mediation proof."
+    },
+    {
+      "name": "Y-27632",
+      "role": "ROCK-inhibitor culture cofactor; source also writes Y27362 once."
+    },
+    {
+      "name": "hydrocortisone",
+      "role": "Abluminal barrier induction cofactor; no separate efficacy attribution here."
+    },
+    {
+      "name": "BMP4, VEGF, bFGF, LIF",
+      "role": "Stage-specific growth factor and culture components."
+    },
+    {
+      "name": "Rat astrocyte-conditioned medium",
+      "role": "Mixed cofactor from SV40-immortalized neonatal rat astrocytes, not a single compound."
+    },
+    {
+      "name": "NaFl, 14C-sucrose, Rhodamine123",
+      "role": "Permeability/transport assay tracers."
+    },
+    {
+      "name": "FC5-Fc, J05-Fc, 8D3, 8D3v2 (8D3-130), IGF1R5-Fc, A20.1, holo-transferrin",
+      "role": "Separate transport ligands/antibodies and negative control; not RA mechanism rescue."
+    },
+    {
+      "name": "TNF-alpha, IFN-gamma",
+      "role": "Separate inflammatory stimulation for VCAM1 response; no RA repair arm."
+    }
+  ],
+  "source_conflicts": [
+    {
+      "item": "Initial RA concentration",
+      "source_A": "Native publisher PDF page 3 Methods: 10 mM all-trans retinoic acid introduced on day 6. HTML/XML agree.",
+      "source_B": "Same-page Fig1 complete medium: 10 µM. Results day 6, transwell Methods, Fig3A and FigS4 also specify 10 µM.",
+      "resolution": "Actual within-PDF protocol-unit conflict, not an XML µ-decoding error. Do not silently correct initial exposure; transwell/RA comparison is reported at 10 µM."
+    },
+    {
+      "item": "Seeding-density effect",
+      "source_A": "Results says the latter of 750,000 and 1,000,000 cells/cm² yields the highest TEER.",
+      "source_B": "Native Fig3B blue 750,000 bar is about 310 Ωcm², above cyan 1,000,000 bar about 210 Ωcm².",
+      "resolution": "Unresolved prose/graph contradiction; do not assert optimal density from the prose."
+    },
+    {
+      "item": "Time-axis convention",
+      "source_A": "Methods/Results switch to endothelial medium on day 6 and characterize/replate after 2 days, on day 8.",
+      "source_B": "Fig1 schematic labels the transitions day 5 and day 7.",
+      "resolution": "Report the prose schedule and schematic offset without inventing alignment."
+    },
+    {
+      "item": "Supplement extent",
+      "source_A": "Metadata describes S1–S6.",
+      "source_B": "Native PDF has 7 pages, S1–S7.",
+      "resolution": "All 7 pages were read, including epithelial/choroid-plexus heatmap S7."
+    }
+  ],
+  "safety_exposure_limit": "Nominal in-vitro reagent exposure only; no systemic administration, human PK, clinical safety or dosing recommendation.",
+  "notice_status": {
+    "OpenAlex_is_retracted": false,
+    "Crossref_relation": {},
+    "Crossref_update_to": null,
+    "limit": "No linked notice returned in fresh metadata; no notice body read; not an exhaustive guarantee."
+  },
+  "disposition": {
+    "propose_new_identity": "new-all-trans-retinoic-acid",
+    "warranted": true,
+    "scope": "Assessed model-development/barrier-induction result with a direct functional TEER positive; contextual evidence, not BUBR1 restoration or MVA efficacy.",
+    "new_appraisal_not_yet_integrated": false,
+    "no_automatic_nominee_promotion": true,
+    "new_outer_reading_credit": 0,
+    "integrated_decision_id": "new-all-trans-retinoic-acid"
+  },
+  "read_evidence_sha256": "fc0241529cb2c4acbb0c5b795d4a839757ddd70ddb85b11d0e9d3b27a9f1a946",
+  "retrieval_manifest_sha256": "fd1e25caa58170e4ae0afc7fc7333d73b72c9e72dc8a90d1fb9e63481f9e9ac6",
+  "raw_assets": [
+    {
+      "file": "europepmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37237379+AND+SRC%3AMED&format=json&resultType=core",
+      "sha256": "c615e9c8e0e5527f2888a7e52d25fa2c16263cabb84d6fc6fd11cb9332a21ee0",
+      "retrieved_utc": "2026-09-23T19:23:23.120240+00:00"
+    },
+    {
+      "file": "main.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10224255/fullTextXML",
+      "sha256": "ae7d6799bff7947139ec6dde302204af5bad0e904a402281e53b47e385503956",
+      "retrieved_utc": "2026-09-23T19:23:43.711366+00:00"
+    },
+    {
+      "file": "publisher.html",
+      "url": "https://link.springer.com/article/10.1186/s12987-023-00437-0",
+      "sha256": "8cf9b1c24f37920c7c1c316f3b74e380a9afb27c0a4b07063adb501041eb69bd",
+      "retrieved_utc": "2026-09-23T19:24:16.838913+00:00"
+    },
+    {
+      "file": "fig1.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12987-023-00437-0/MediaObjects/12987_2023_437_Fig1_HTML.png",
+      "retrieved_utc": "2026-09-23T19:24:46.861068+00:00",
+      "status": 200,
+      "bytes": 769216,
+      "sha256": "71e1cc8379d1b71cccf39f4dda26a674ea65115f800114e119c1899783a16946",
+      "content_type": "image/png"
+    },
+    {
+      "file": "fig2.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12987-023-00437-0/MediaObjects/12987_2023_437_Fig2_HTML.png",
+      "retrieved_utc": "2026-09-23T19:24:46.861354+00:00",
+      "status": 200,
+      "bytes": 2222733,
+      "sha256": "1dbbf21bf444ec561ffd48f45b5bcdeac0028792d9cbb3d991668092b5c839a3",
+      "content_type": "image/png"
+    },
+    {
+      "file": "fig3.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12987-023-00437-0/MediaObjects/12987_2023_437_Fig3_HTML.png",
+      "retrieved_utc": "2026-09-23T19:24:46.861451+00:00",
+      "status": 200,
+      "bytes": 439848,
+      "sha256": "eb071818d258bdc8106a9efee5c2d1023063c8f051b02d78e1c65b0372eba572",
+      "content_type": "image/png"
+    },
+    {
+      "file": "fig4.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12987-023-00437-0/MediaObjects/12987_2023_437_Fig4_HTML.png",
+      "retrieved_utc": "2026-09-23T19:24:46.861525+00:00",
+      "status": 200,
+      "bytes": 333433,
+      "sha256": "ecabb107b2f59e58e862b1d0dad9c909980309d9c25ccb0cc762d0e146e23e56",
+      "content_type": "image/png"
+    },
+    {
+      "file": "fig5.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12987-023-00437-0/MediaObjects/12987_2023_437_Fig5_HTML.png",
+      "retrieved_utc": "2026-09-23T19:24:48.011132+00:00",
+      "status": 200,
+      "bytes": 554764,
+      "sha256": "53ec7f0f62e4a2445a32273927677829f8b9118fd9230e88216573f5e86ed95e",
+      "content_type": "image/png"
+    },
+    {
+      "file": "fig6.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12987-023-00437-0/MediaObjects/12987_2023_437_Fig6_HTML.png",
+      "retrieved_utc": "2026-09-23T19:24:48.935898+00:00",
+      "status": 200,
+      "bytes": 143043,
+      "sha256": "7160ad9323191a1c6c77d7d0d0e6c355df35009d111db11c7ebe7d021b3bbba1",
+      "content_type": "image/png"
+    },
+    {
+      "file": "supp1.pdf",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12987-023-00437-0/MediaObjects/12987_2023_437_MOESM1_ESM.pdf",
+      "retrieved_utc": "2026-09-23T19:24:49.765126+00:00",
+      "status": 200,
+      "bytes": 867371,
+      "sha256": "07e09ff56dee26b06571af4f5c26246c166fc4c535eb4835663e11affb8fefb9",
+      "content_type": "application/pdf"
+    },
+    {
+      "file": "supp2.docx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12987-023-00437-0/MediaObjects/12987_2023_437_MOESM2_ESM.docx",
+      "retrieved_utc": "2026-09-23T19:24:50.179265+00:00",
+      "status": 200,
+      "bytes": 21555,
+      "sha256": "0bec192830ecc44ec33f3d3b56f87bc4ae9b6617c144c6f09d3ea467c427ada7",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "file": "crossref.json",
+      "url": "https://api.crossref.org/works/10.1186/s12987-023-00437-0",
+      "retrieved_utc": "2026-09-23T19:24:50.668594+00:00",
+      "status": 200,
+      "bytes": 42562,
+      "sha256": "8264439fd3074141b6c74015c8a016513405d7b5acb1ba0c8538666ef0d4b79c",
+      "content_type": "application/json"
+    },
+    {
+      "file": "openalex.json",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1186/s12987-023-00437-0",
+      "retrieved_utc": "2026-09-23T19:24:51.038733+00:00",
+      "status": 200,
+      "bytes": 35856,
+      "sha256": "66de07aa7ac360fbb050e6cb8cac89a8ec91aa52e1d94e9b10fd16a90b2e087e",
+      "content_type": "application/json"
+    },
+    {
+      "file": "publisher-main.pdf",
+      "url": "https://link.springer.com/content/pdf/10.1186/s12987-023-00437-0.pdf",
+      "final_url": "https://link.springer.com/content/pdf/10.1186/s12987-023-00437-0.pdf?error=cookies_not_supported&code=8eaa25a1-7c97-43a9-aab6-3d1a67ecbb75",
+      "sha256": "7c53e8f5dfc215c9d890a9c800331bd14936d6a64bb48ef4896dfaf5b3eab219",
+      "bytes": 6209509,
+      "pdf_signature": true,
+      "retrieved_utc": "2026-09-23T19:27:53.237718+00:00"
+    }
+  ],
+  "molecular_alias_evidence": {
+    "status": "Verified molecular synonym only",
+    "properties": {
+      "CID": 444795,
+      "InChIKey": "SHGAZHPCJJPHSC-YCNIQYBTSA-N",
+      "IUPACName": "(2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraenoic acid"
+    },
+    "accepted_aliases": [
+      "all-trans retinoic acid",
+      "all-trans-retinoic acid",
+      "all trans retinoic acid",
+      "tretinoin"
+    ],
+    "excluded_aliases": [
+      "RA",
+      "retinoic acid",
+      "retinol",
+      "9-cis retinoic acid",
+      "13-cis retinoic acid"
+    ],
+    "lookups": [
+      {
+        "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/retinoic-barrier-followup-20260923/candidate-suggestion/all-trans-retinoic-acid-pubchem.json",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/all-trans-retinoic%20acid/property/InChIKey,IUPACName/JSON",
+        "sha256": "c466f9df0f51411c3f0d10be7cc0c588fc73917a415607c847cf66f4d8fd6513",
+        "retrieved_utc": "2026-09-23T19:40:49.887370+00:00"
+      },
+      {
+        "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/retinoic-barrier-followup-20260923/candidate-suggestion/tretinoin-pubchem.json",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/tretinoin/property/InChIKey,IUPACName/JSON",
+        "sha256": "c466f9df0f51411c3f0d10be7cc0c588fc73917a415607c847cf66f4d8fd6513",
+        "retrieved_utc": "2026-09-23T19:40:49.045570+00:00"
+      }
+    ],
+    "experimental_preparation_limit": "Source specifies all-trans RA reagent, not a clinically authenticated tretinoin product, salt, dose or other-isomer intervention."
+  },
+  "candidate_provenance": {
+    "status": "INTEGRATED_WITH_ROOT_SOURCE_CHECK",
+    "baseline": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
+    "current_baseline_ledger_count": 206,
+    "candidate_count": 207,
+    "source_qualification_md_sha256": "30696fabb3ba99027fee36e23658acd9ced02c32be11e739a90b64cd5b760d6e",
+    "source_qualification_json_sha256": "a82720af416876db2b6ce8ad0dfacca22d86f165757a8cc04ec1e1bd0fac21c2",
+    "external_source_root": "retinoic-barrier-followup-20260923",
+    "external_candidate_directory": "/Users/jeweled/mva-hackathon/track2-drug-census-work/retinoic-barrier-followup-20260923/candidate",
+    "portable_md_file": "retinoic-barrier-qualification.md",
+    "portable_md_sha256": "838e32297bb7c1ad7e051e7b6f386d040f967df50db877276c0a00bf7d4501c7",
+    "decision_id": "new-all-trans-retinoic-acid",
+    "root_review_file": "/Users/jeweled/mva-hackathon/track2-drug-census-work/retinoic-barrier-followup-20260923/root-review.json",
+    "root_review_sha256": "b60a604588124c0f481f1f126e16ae8b429e54d265e73d2839e8d5e7b3b1106a",
+    "root_whole_primary_claim": false,
+    "root_selected_reading_scope": {
+      "date": "2026-09-23",
+      "baseline_for_next_candidate": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
+      "reviewer": "/root",
+      "source_qualification_and_independent_report_read": "2d7353",
+      "primary_images_actually_displayed": [
+        {
+          "file": "methods-page-03.png",
+          "sha256": "e691232fd3c2b1261428ea4862482b68bfe43a9f3e9cfe78ea2545a286308353"
+        },
+        {
+          "file": "table-page-16.png",
+          "sha256": "a1559cbb031c516d559170ee75d9f707a8aff7acf9b5a8d3cc51da54ee151013"
+        },
+        {
+          "file": "fig3.png",
+          "sha256": "eb071818d258bdc8106a9efee5c2d1023063c8f051b02d78e1c65b0372eba572"
+        }
+      ],
+      "selected_primary_text_output": "6d2435",
+      "selected_text_scope": [
+        "Complete Figure3 caption",
+        "Direct plus/minusRA TEER Results paragraph",
+        "Cross-model pathway Results/Table2footnote",
+        "Discussion on whole-model barrier and unresolved cofactor synergy"
+      ],
+      "whole_primary_reading_claim": false,
+      "uninspected_by_root": [
+        "Remaining scientific main text",
+        "Other main native figures",
+        "S4 marker images and other supplements"
+      ],
+      "admission": "Allow one bounded all-trans-retinoic-acid barrier-culture induction assessment; source and independent reviewers supply their own broader reading scopes. No BUB1B restoration or MVA benefit established.",
+      "qualifications": [
+        "OriginalPDF10mMvs10uMstageconflict visuallyconfirmed",
+        "Table2BUB1Bcross-modelpathwaymembership notRAresponse",
+        "Fig3AdirectRAelectricalbarrierpositive,notrepair",
+        "Fig3Bnativebarscontradictdensityoptimumprose",
+        "WholemodeltransportnotisolatedRAeffect",
+        "No unmodifiedvitaminA/otherretinoidisomer efficacyinheritance"
+      ],
+      "new_outer_credit": 0,
+      "independent_reports": {
+        "independent-check.md": "134a6c4cd9d6121be63e114da08c4686f7bbc69cdd5b4d97093ccfd2452fa6cb",
+        "independent-check.json": "63ff1b836d995bb31b845c83b49a809f68b474203b65c2f78d00d6ef4058476b"
+      }
+    },
+    "independent_check_refs": [
+      {
+        "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/retinoic-barrier-followup-20260923/independent/independent-check.md",
+        "sha256": "134a6c4cd9d6121be63e114da08c4686f7bbc69cdd5b4d97093ccfd2452fa6cb"
+      },
+      {
+        "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/retinoic-barrier-followup-20260923/independent/independent-check.json",
+        "sha256": "63ff1b836d995bb31b845c83b49a809f68b474203b65c2f78d00d6ef4058476b"
+      }
+    ],
+    "independent_scope": "Fresh independent report declares complete primary scientific main/captions/tables, all six native figures, selected original-PDF pages, all seven Supplement1 pages and complete Supplement2 tables/Methods; no raw-sequencing/cited-paper reanalysis.",
+    "candidate_read_scope": "Source qualification, complete independent report, proposed source-specific record, saved PubChem responses and current baseline objects only. No new primary body/image reading by assembler.",
+    "candidate_report_read_chunks": [
+      "edbe81 (combined output truncated; independent report fully reread separately)",
+      "84c367",
+      "def9db"
+    ],
+    "extra_outer_reading_credit": 0,
+    "repository_modified": false,
+    "external_reference_rule": "Original relative source/read-manifest references resolve under external_source_root; raw assets remain external.",
+    "pre_integration_status": "FROZEN_EXTERNAL_CANDIDATE_ONLY",
+    "frozen_candidate_md_sha256": "8177cc85be2f480abd0cc84d8b27f9934d274e4c71ae17c3dac8849cb1a573fa"
+  },
+  "source_review_ledger_check": {
+    "read_chunk": "2f428d",
+    "decision_count_at_check": 203,
+    "sha256": "7d400083aa3a507b48008ff5cd6b0b46f51a99fb13e8d159064f782f0006524c",
+    "matches_for_retinoic_retinol_tretinoin_isotretinoin_alitretinoin": []
+  },
+  "qualification_md_sha256": "838e32297bb7c1ad7e051e7b6f386d040f967df50db877276c0a00bf7d4501c7",
+  "integration": {
+    "baseline": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
+    "baseline_ledger_count": 206,
+    "current_ledger_count": 207,
+    "all206_prior_objects_unchanged": true,
+    "candidate_json_sha256": "7c4eedf1972ecd1e4b8d88be9a138a5eeda354456b2002d475ea88a0304bf630",
+    "root_reading": {
+      "date": "2026-09-23",
+      "baseline_for_next_candidate": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
+      "reviewer": "/root",
+      "source_qualification_and_independent_report_read": "2d7353",
+      "primary_images_actually_displayed": [
+        {
+          "file": "methods-page-03.png",
+          "sha256": "e691232fd3c2b1261428ea4862482b68bfe43a9f3e9cfe78ea2545a286308353"
+        },
+        {
+          "file": "table-page-16.png",
+          "sha256": "a1559cbb031c516d559170ee75d9f707a8aff7acf9b5a8d3cc51da54ee151013"
+        },
+        {
+          "file": "fig3.png",
+          "sha256": "eb071818d258bdc8106a9efee5c2d1023063c8f051b02d78e1c65b0372eba572"
+        }
+      ],
+      "selected_primary_text_output": "6d2435",
+      "selected_text_scope": [
+        "Complete Figure3 caption",
+        "Direct plus/minusRA TEER Results paragraph",
+        "Cross-model pathway Results/Table2footnote",
+        "Discussion on whole-model barrier and unresolved cofactor synergy"
+      ],
+      "whole_primary_reading_claim": false,
+      "uninspected_by_root": [
+        "Remaining scientific main text",
+        "Other main native figures",
+        "S4 marker images and other supplements"
+      ],
+      "admission": "Allow one bounded all-trans-retinoic-acid barrier-culture induction assessment; source and independent reviewers supply their own broader reading scopes. No BUB1B restoration or MVA benefit established.",
+      "qualifications": [
+        "OriginalPDF10mMvs10uMstageconflict visuallyconfirmed",
+        "Table2BUB1Bcross-modelpathwaymembership notRAresponse",
+        "Fig3AdirectRAelectricalbarrierpositive,notrepair",
+        "Fig3Bnativebarscontradictdensityoptimumprose",
+        "WholemodeltransportnotisolatedRAeffect",
+        "No unmodifiedvitaminA/otherretinoidisomer efficacyinheritance"
+      ],
+      "new_outer_credit": 0,
+      "independent_reports": {
+        "independent-check.md": "134a6c4cd9d6121be63e114da08c4686f7bbc69cdd5b4d97093ccfd2452fa6cb",
+        "independent-check.json": "63ff1b836d995bb31b845c83b49a809f68b474203b65c2f78d00d6ef4058476b"
+      },
+      "previous_goal_turn": "progress: committed/pushed lithium comparison e79f129; independent final checks and remote/private/draft state verified",
+      "root_review_source_sha256": "b60a604588124c0f481f1f126e16ae8b429e54d265e73d2839e8d5e7b3b1106a",
+      "baseline_live_verified": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622"
+    },
+    "root_reading_manifest_sha256": "da263f409ff2c32b185232ed4e74b03a572ecf58419fa4b1c56014c7dd5a8e8f",
+    "independent_check_json_sha256": "63ff1b836d995bb31b845c83b49a809f68b474203b65c2f78d00d6ef4058476b",
+    "independent_check_md_sha256": "134a6c4cd9d6121be63e114da08c4686f7bbc69cdd5b4d97093ccfd2452fa6cb",
+    "new_id": "new-all-trans-retinoic-acid",
+    "new_outer_abstract_credit": 0
+  }
+}

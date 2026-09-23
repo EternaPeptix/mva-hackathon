@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 206
+  --out /path/dsld-replay --expected-appraisals 207
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -122,4 +122,4 @@ The preceding **202-appraisal replay** adds one name cross-reference for diclofe
 
 The preceding **203-appraisal replay** preserves all eight output tables: **6,820 name cross-references and 77 appraisal-linked groups**. The exact Yiqi Huayu Jiedu preparation creates no new name relation, and its predicted constituent list grants no ingredient-level efficacy or reading credit.
 
-The current **206-appraisal replay** preserves all eight output tables: **6,820 name cross-references and 77 appraisal-linked groups**. The astrocyte comparators create no additional name relation; the ambiguous methyl-epicatechin preparation has deliberately withheld aliases, not an inferred absence from all catalogs. No ingredient inherits lithium’s probe signals or reporter phenotypes.
+The current **207-appraisal replay** preserves all eight output tables: **6,820 name cross-references and 77 appraisal-linked groups**. The all-trans retinoic-acid assessment creates no additional NIH name relation. A molecular-name match elsewhere in the catalog does not make retinol, other retinoids or an ingredient preparation inherit its culture result.
