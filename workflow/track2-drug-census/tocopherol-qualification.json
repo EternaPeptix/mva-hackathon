@@ -1,0 +1,223 @@
+{
+  "schema_version": "bounded-primary-qualification-1",
+  "date": "2026-09-23",
+  "status": "integrated_bounded_source_qualification",
+  "source": {
+    "pmid": "31405115",
+    "pmcid": "PMC6721308",
+    "doi": "10.3390/brainsci9080196",
+    "title": "α-Tocopherol Modulates Non-Amyloidogenic Pathway and Autophagy in an In Vitro Model of Alzheimer’s Disease: A Transcriptional Study",
+    "date": "2019-08-10",
+    "journal": "Brain Sciences9(8):196",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6721308/",
+    "primary_xml_sha256": "712a7068d6dd1df7dae06f8a91d41859f0f860710b48feae70dc668c5f7aade9",
+    "license": "CCBY asstated",
+    "notice_scope": "FreshPubMedmetadata JournalArticle, noCommentsCorrections/retractionlabel; boundedofficialDOInoticesearchreturnedprimary/index ratherthan linkednotice. Notintegrityclearance."
+  },
+  "proposed_assessment": {
+    "decision_id": "new-alpha-tocopherol",
+    "match_aliases": [
+      "alpha-tocopherol",
+      "α-tocopherol"
+    ],
+    "route": "α-Tocopherol / Aβ-challenged differentiated SH-SY5Y metabolic-protection observation",
+    "disposition": "Retain prevention/co-exposure MTT protection and transcript findings; no orthogonal neuronal-function or BUBR1-restoration evidence",
+    "rationale": "After 24 hours of pretreatment and 24 hours of continued exposure with amyloid-beta, 100 and 200 µM alpha-tocopherol improve MTT signal versus injury alone while remaining below uninjured control. No additional benefit at 200 µM is established. No orthogonal quantified survival/death assay or cell-free MTT interference control is reported; this does not prove interference. BUB1B RNA decreases from 192.20 to 162.39 (listed log2 change −0.24; reported q<0.05 selected set), without BUBR1 protein or checkpoint measurement. Stereoisomer, product identity and alpha-tocopherol vehicle remain unspecified. This is not delayed repair, demonstrated autophagic flux, APP processing, neuronal function or MVA rescue.",
+    "evidence_scope": "Complete scientific main, all four tables/captions and native figures, with a bounded independent figure/protocol check; no raw RNA reanalysis.",
+    "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6721308/",
+      "https://doi.org/10.3390/brainsci9080196"
+    ],
+    "source_report": "workflow/track2-drug-census/tocopherol-qualification.md"
+  },
+  "prior_overlap_check": {
+    "ledger": "Noexactalpha-tocopherol/vitaminE/PMID31405115appraisalobject found incheckeddecisions.json.",
+    "qualified_context": "translation-qualification.md containsDL-alpha-tocopherol200µM naturallyaged-oocyteco-comparator associatedwithdifferentprimaryPMC12162888.",
+    "boundary": "Thatotherpreparation/model/endpoint doesnotqualifythissource. Currentpaperdoesnotresolvestereochemistry, so noidentity/effect transferacrossDL/RRR, esters,tocotrienols, mixturesorfood/retailpreparations."
+  },
+  "preparation_and_model": {
+    "agent": "α-tocopherol asreported; noester ormixture specified",
+    "unresolved_identity": [
+      "stereoisomer/natural-versus-syntheticdesignation",
+      "supplier/catalog",
+      "purity/batchcomposition",
+      "solvent/finalvehicleforα-tocopherol",
+      "dispersion/emulsionandfree/intracellularconcentration"
+    ],
+    "model": "ATCCSH-SY5Y humanneuroblastomacells differentiatedwith10µMretinoicacid for5days; notprimarynormalneurons, animalsorpatients.",
+    "injury": "10µM Aβ1–42 for24h; peptidepreincubated37°C24h toaggregate, basedonpreviouswork; batchaggregatecharacterizationnotreported.",
+    "timing": "α-tocopherol24hpretreatment followedby24hAβ±α-tocopherolcoexposure;α-tocopherolonearmalsoincluded. No established-injury then αT-onlyrescuearm.",
+    "alphaT_concentrations_uM": [
+      10,
+      50,
+      100,
+      200
+    ],
+    "RNAseq_alphaT_uM": 100,
+    "vehicle": "AβpreparedinDMSO/PBS, finalDMSO<.1%; untreatedcontrolmediumreported, noexplicitmatchedDMSO-onlyarm orαTvehiclematching.",
+    "normal_drug_treated_control": "UninjuredRA-differentiatedSH-SY5Y+αTat10–200µM inFigure1A; noMTTreductionobserved. Thisisnotnormaltissuedevelopmentalsafety."
+  },
+  "positive_null_and_residual_results": {
+    "MTT100uM": "Figure1B P<.0001vsAβ; stillP<.001belowuninjuredcontrol.",
+    "MTT200uM": "Figure1B P<.001vsAβ; stillP<.0001belowuninjuredcontrol. Highestdosehasnoadditionalbenefit, notano-effectdose.",
+    "lower_doses": "10/50µM numericalMTTimprovements notsignificant versusAβ byreportedcomparisons.",
+    "complete_protection": false,
+    "orthogonal_protein_markers": "Figure4representativeiNOS/Nrf2immunocytochemistry shifts towardcontrol incombinationcondition;αT-onlycontrolincluded. No formalquantification/statisticaltest orindependentviabilityconfirmationfromtheseimages. ICCαTconcentrationnotseparatelyrestated.",
+    "not_measured": [
+      "electrophysiology/synaptictransmission",
+      "neuritefunction/outgrowthquantification",
+      "behavior/cognition",
+      "orthogonalcellcounts/deathassay",
+      "BUBR1protein/localization",
+      "chromosomefidelity",
+      "patientBUB1B/MVAoutcome"
+    ]
+  },
+  "MTT_interpretation": {
+    "assay": "MTT.5mg/mL for4h,formazanacidicisopropanol1h; absorbanceendpoint",
+    "replication": "Repeatedintriplicate asreported; technical-versus-independentculture replicationnotclearlyspecified.",
+    "statistics": "One-wayANOVA/Bonferroni; mean±SD; significanceP<=.05.",
+    "limitations": "Metabolicreductionreadout ratherthandirectcellcount. No reportedcell-freeαT+MTTcontrols, explicitinterferenceassessment ororthogonalLDH/Annexin/dead-live/cell-count endpoint. No assertionthatinterferenceactuallyoccurred; trueprotectionandmetabolic/readout effectsnotfullyseparated.",
+    "washing": "WordingdoesnotclearlydocumentanαT-removal/washoutbeforeMTT; do notassumecontinuedpresenceorcompletewashout."
+  },
+  "RNA_and_BUB1B": {
+    "contrast": "Aβ alone versusAβ+αT, notuninjuredbaseline normalization",
+    "reported_pipeline": "MiSeq/STAR/Cuffdiff2.2.1;11907genes examined,1966reportedq<.05(971up/995down)",
+    "BUB1B": {
+      "expression_A_beta": 192.2,
+      "expression_A_beta_alphaT": 162.39,
+      "reported_log2_change": -0.24,
+      "direction": "lowerinαTcombination",
+      "q_scope": "Table3isidentifiedasstatisticallysignificantgene setunderreportedq<.05; individualq/P anduncertaintynotprovided",
+      "expression_units": "Tablecalls expressionlevel; no unambiguousunitassigned here",
+      "protein_or_function": "Notmeasured; no drugBUBR1restorationorlossclaim"
+    },
+    "replication": "RNAextraction/libraryexperimentreportedtriplicate; per-librarysamplemap/rawaccession notprovided inretrievedmain. Do notinferone-librarydesign or verifiedindependentn3libraries.",
+    "data_access": "No rawsequencingaccession/pergeneqtable identified inretrievedmain/package; no rawreanalysis.",
+    "interpretation_limit": "Transcriptchanges canreflectstate/composition/regulation. No flow/cell-cycle tracing, faithfuldivision orcausalBUB1Bexperiment."
+  },
+  "mechanistic_overclaims_to_avoid": [
+    "RNApatterncompatiblewith alteredAPPprocessing is not measuredsecretaseactivity,sAPPα,Aβproduction/clearance.",
+    "Autophagy-relatedRNAchanges are not measuredautophagicflux/cargodegradation orlysosomalactivity.",
+    "OxidativephosphorylationRNAchanges are not respiration/ATP measurements.",
+    "iNOS/Nrf2staining is not directROSoxidative-damage measurement.",
+    "APAF1RNAreduction is not anapoptosis assay.",
+    "Cell-cycleRNAdecrease is not measuredcell-cycleexit orBUBR1 functionalrestoration."
+  ],
+  "competitive_scope": "Preserve an experimentallyobservedprevention/coexposure MTTsignal, withmarker/RNAcontext. Thissource isweakerthan demonstratedneuronal/muscle functionororthogonalsurvival forcompetitivenomination. NoMVAbenefit/harm,food-equivalenceorhumandose inferred;niacin/apitegromab alsoremainMVA-unproven.",
+  "read_scope": {
+    "complete_main_scientific_text_read": true,
+    "main_source": "primary.xml",
+    "source_sha256": "712a7068d6dd1df7dae06f8a91d41859f0f860710b48feae70dc668c5f7aade9",
+    "body_read_evidence": [
+      {
+        "file": "main-part01.txt",
+        "characters": 14026,
+        "sha256": "54feef2c86d5b2f16c2b4a1d7b0192d432147e2d5e421915bb91a41889a1dfed",
+        "tool_output_chunk_id": "89724b",
+        "untruncated_output_observed": true,
+        "endmarker_observed": true
+      },
+      {
+        "file": "main-part02.txt",
+        "characters": 13804,
+        "sha256": "891f284739ff7a756abc42b613efd86a6e92392b401790fd70159505e877a857",
+        "tool_output_chunk_id": "e886a5",
+        "untruncated_output_observed": true,
+        "endmarker_observed": true
+      },
+      {
+        "file": "main-part03.txt",
+        "characters": 391,
+        "sha256": "b19f673e1dda87157e91afd0ac4205fbcecfb7e9dbe9f63f0147b2fb2300cf4d",
+        "tool_output_chunk_id": "bd4da3",
+        "untruncated_output_observed": true,
+        "endmarker_observed": true
+      }
+    ],
+    "all_tables_and_captions": {
+      "file": "figures-tables.txt",
+      "sha256": "6aa4f470924085c09be2b4039dcffe6b59483285f60c6ab11a77a5fe74e876a3",
+      "tool_output_chunk_id": "051e0a",
+      "untruncated_output_observed": true,
+      "endmarker_observed": true
+    },
+    "native_figures_visually_inspected": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "supplements": "No supplementary-material node inretrievedXML; officialZIP has4mainJPEGs/4GIFthumbnails only. No supplemental scientificfile orrawRNAdata retrieved; notproofnoneexistelsewhere.",
+    "bibliography_read": false,
+    "notice_metadata_output": "51239c",
+    "prior_scope_context": "Existingtranslation-qualificationDL-alpha-tocopherolagedoocytecomparisonread; itsprimarynotreread nortransferred.",
+    "automatic_outer_credit": 0,
+    "reviewer_performed_biological_replication": false
+  },
+  "retrieval_manifest": {
+    "file": "retrieval-manifest.json",
+    "sha256": "fe13d0b5bde6113bf057afe4d8866147c8690e07d6bd1e907178ef53efecd27f"
+  },
+  "asset_manifest": {
+    "file": "asset-manifest.json",
+    "sha256": "84131116178f93066d949498a8ab475090246c2e2d1a7e223573c6aad264c555"
+  },
+  "repository_modified": true,
+  "automatic_outer_credit": 0,
+  "integrated_appraisal_count_change": 1,
+  "reviewer_performed_biological_replication": false,
+  "original_draft_markdown_sha256": "acc13546e8a14538b36e530c8b58408020de94502d8ab77751a1acea3c929946",
+  "source_md_sha256": "49db2baaf9183d4181a6f7e7cfa19fee005ad2e6918e009459b1dbb3c9fb493a",
+  "integrated_by": "/root",
+  "root_read_scope": {
+    "complete_main_chunks": [
+      "38c0c9",
+      "369f16"
+    ],
+    "all_tables_captions_chunk": "76b17e",
+    "native_figures": [
+      1,
+      4
+    ],
+    "all_endmarkers_observed": true
+  },
+  "independent_check": {
+    "file": "independent/independent-check.json",
+    "sha256": "cfb0fa08b8cd50f998696027717fa39e52a6bed240f4cd71c80fa449f6f05e96",
+    "markdown_sha256": "1a73decc3bc7bde107a85fb46a42e9e89bd03fc668fc41eb5f65ac267d42c9cc",
+    "scope": "Bounded original Figure1/Table3 and relevant protocol/control/RNA sections; separate from two full-main reads."
+  },
+  "integrated_assessment": {
+    "decision_id": "new-alpha-tocopherol",
+    "match_aliases": [
+      "alpha-tocopherol",
+      "α-tocopherol"
+    ],
+    "route": "α-Tocopherol / Aβ-challenged differentiated SH-SY5Y metabolic-protection observation",
+    "disposition": "Retain prevention/co-exposure MTT protection and transcript findings; no orthogonal neuronal-function or BUBR1-restoration evidence",
+    "rationale": "After 24 hours of pretreatment and 24 hours of continued exposure with amyloid-beta, 100 and 200 µM alpha-tocopherol improve MTT signal versus injury alone while remaining below uninjured control. No additional benefit at 200 µM is established. No orthogonal quantified survival/death assay or cell-free MTT interference control is reported; this does not prove interference. BUB1B RNA decreases from 192.20 to 162.39 (listed log2 change −0.24; reported q<0.05 selected set), without BUBR1 protein or checkpoint measurement. Stereoisomer, product identity and alpha-tocopherol vehicle remain unspecified. This is not delayed repair, demonstrated autophagic flux, APP processing, neuronal function or MVA rescue.",
+    "evidence_scope": "Complete scientific main, all four tables/captions and native figures, with a bounded independent figure/protocol check; no raw RNA reanalysis.",
+    "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6721308/",
+      "https://doi.org/10.3390/brainsci9080196"
+    ],
+    "source_report": "workflow/track2-drug-census/tocopherol-qualification.md"
+  },
+  "catalog_linkage": {
+    "status": "AMBIGUOUS_MULTIPLE_ENTITIES",
+    "catalog_candidates": [
+      {
+        "id": "CHEMBL2108106",
+        "name": "TOCOFERSOLAN"
+      },
+      {
+        "id": "CHEMBL3989727",
+        "name": "VITAMIN E"
+      }
+    ],
+    "interpretation": "Unverified source-alias relations only, not verified identity with the experimental alpha-tocopherol preparation, therapeutic eligibility or efficacy. Raw join ambiguity retained."
+  }
+}

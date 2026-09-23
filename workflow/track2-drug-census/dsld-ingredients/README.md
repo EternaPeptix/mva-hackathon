@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 197
+  --out /path/dsld-replay --expected-appraisals 200
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -114,4 +114,6 @@ The preceding **184-appraisal replay** adds two resveratrol name cross-reference
 
 The preceding **194-appraisal replay** preserves all eight output tables, 6,814 name cross-references and 71 appraisal-linked groups. The ten new source appraisals add no NIH name relation or automatic reading/efficacy credit.
 
-The current **197-appraisal replay** preserves all eight output tables, 6,814 name cross-references and 71 appraisal-linked groups. The three experimental-probe assessments create no new NIH name relation or automatic reading/efficacy credit.
+The preceding **197-appraisal replay** preserves all eight output tables, 6,814 name cross-references and 71 appraisal-linked groups. The three experimental-probe assessments create no new NIH name relation or automatic reading/efficacy credit.
+
+The current **200-appraisal replay** adds five name cross-references in five existing groups, for **6,819 cross-references and 76 appraisal-linked groups**. Curcumin-name relations include the Turmeric group, and alpha-tocopherol names occur in two vitamin E groups. All five retain shared-alias flags; neither whole turmeric nor another vitamin E preparation inherits the experimental result. All source fields and six other output tables remain unchanged, with no additional reading or efficacy credit.

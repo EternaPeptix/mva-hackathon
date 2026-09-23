@@ -1,10 +1,20 @@
 # Batch 15 historical follow-up reconciliation
 
-**Five of the 47 historical questions have material direct source-qualified answers; 42 do not have a direct answer in this package.** BAY and resveratrol now answer their original study-level questions within explicit limits. Bladder, CCDC41 and EML1 have substantial answers but retain source schedule/count conflicts. These are question-level results, not 47 newly discovered studies or a claim that the literature lacks answers.
+**Seven of the 47 historical questions have direct source-qualified answers; 40 do not have a direct answer in this package.** Curcumin, resveratrol, tocopherol and BAY answer their original study-level questions within explicit limits. Bladder, CCDC41 and EML1 retain unresolved source schedule/count components. This is not a count of newly discovered studies or a global literature-negative conclusion.
 
-**Frozen source snapshot:** base commit `c753136318da9dd4911a2ff4beebdfa7545c284c` plus root's final **197-decision** source integration, 23 September 2026; exact qualification/ledger hashes are in the JSON. All 194 previous decoded decision objects are unchanged. Broader docs/manifests were still being refreshed at this freeze; whole-package verification is separate. Original 47 flags and frozen readings remain unchanged. No new primary reading, unique-source credit or drug appraisal is created by this reconciliation. A matching compound, target, PMID or name alone never resolves a question.
+**Current source snapshot:** base commit `af0cd614878b408ed1c26a8642878bd5da6870e5` plus root's final **200-decision** source integration. All 197 previous decoded decisions are unchanged. This revision updates only n52/PMID22280307 and n164/PMID31405115; the other **45 record objects are unchanged**. All 47 original questions and historical flags remain intact. No new primary/abstract reading or biological-replication credit is created by this reconciliation. Broader package verification is separate.
 
 ## Direct coverage and remaining gaps
+
+### n52 — PMID22280307
+
+Ordinary Sigma laboratory curcumin is now directly qualified, separately from Gemini-Cur. DAOY cycle-release experiments used 10/20 µM under distinct G1/S or nocodazole-release schedules. LDH experiments used 0/5/10/20 µM for 12, 16 or 24 hours in distinct comparisons; APC/C-associated experiments included 20/40 µM. MDCK was relatively less sensitive but is a canine kidney-derived line, and HT1376 is a less-sensitive cancer comparator; this is not established cancer-versus-normal selectivity. The undefined HBEC blot block is not a functional comparison arm.
+
+DHZ was actually tested and much less cytotoxic, with no analogous Cdc27 shift. Curcumin-linked beads recovered Cdc27 from lysate, and treated-cell lysate assays showed APC/C-associated changes; BubR1 was a nonspecific affinity-binding control. These findings support an associated mechanism, not purified direct binding or exclusive target causality.
+
+**Remaining scope:** No Cdc27-resistant, necessity/sufficiency or purified-binding experiment establishes selectivity. Table S1 arithmetic and Figure5C preparation remain ambiguous. Reused mouse-tumor blots supply neither a new animal efficacy regimen nor measured exposure; the cited2011 efficacy paper remains a separate follow-up. Normal-human function, faithful division and oral-product equivalence are unestablished.
+
+Pointers: [curcumin-cdc27-qualification.md](curcumin-cdc27-qualification.md), [curcumin-cdc27-qualification.json](curcumin-cdc27-qualification.json).
 
 ### n105 — PMID38993610
 
@@ -30,6 +40,18 @@ PMID 24194906 was fully main-text read by root with native Figures 2/3/7; partia
 
 Pointers: [resveratrol-qualification.md](resveratrol-qualification.md), [resveratrol-qualification.json](resveratrol-qualification.json).
 
+### n164 — PMID31405115
+
+Alpha-tocopherol was given for 24 hours before a further 24 hours with 10 µM Aβ in differentiated SH-SY5Y cells. Both 100 and 200 µM improved MTT signal versus Aβ alone (P<.0001 and P<.001 respectively), but remained below uninjured control (P<.001 and P<.0001). The 10/50 µM combinations were not significantly improved. No post-injury-only rescue arm was supplied.
+
+MTT was the only quantified viability assay. Orthogonal death/cell-count, neural-function and cell-free MTT interference controls were not supplied; missing controls do not prove an artifact. iNOS/Nrf2 staining is qualitative. At 100 µM, BUB1B RNA falls from 192.20 to 162.39 (listed log2−.24), without BUBR1 protein or checkpoint/fidelity evidence.
+
+**Remaining scope:** Preparation stereochemistry/vehicle and measured exposure remain unspecified. The RNA contrast lacks an uninjured reference and explicit expression units or exact gene q/P. These documented gaps constrain a genuine measured MTT improvement without inventing either confirmed cell survival or assay interference.
+
+The exact-name catalog layer returns TOCOFERSOLAN (CHEMBL2108106) and VITAMIN E (CHEMBL3989727). This ambiguous source-alias relation is preserved; it does not establish experimental-preparation identity, approval eligibility or efficacy.
+
+Pointers: [tocopherol-qualification.md](tocopherol-qualification.md), [tocopherol-qualification.json](tocopherol-qualification.json).
+
 ### n182 — PMID26885717
 
 BAY-320/BAY-524 IC50s 680 ± 280/450 ± 60 nM come from insect-cell-expressed human Bub1 residues 704–1085 with synthetic peptide/TR-FRET at2 mM ATP. The WT/KD LAP-Bub1-H2A assay is separate at100 µM ATP. HeLa proliferation IC50s: BAY-320 4.0 ± 1.4 µM alone versus 0.67 ± 0.27 µM with 3 nM paclitaxel; BAY-524 8.1 ± 1.2 versus 0.64 ± 0.59 µM. Native table assay duration/n are not specified. Seven-day colony comparisons use 3 µM BAY-320 or 7/10 µM BAY-524 with 1–4 nM paclitaxel; relative RPE1 sparing depends on dose/endpoint. At 4 nM paclitaxel, native RPE1 combination bars show essentially all scored cells with severe errors. Formal 96 h Chou–Talalay synergy was tested for BAY-320 in HeLa/NCI-H1299, not BAY-524/RPE1. HeLa Z10 is above the CI≤0.8 cutoff; not every ratio is synergistic. BAY-320 panels provide 222 activity and 403 binding entries under specified conditions, with partial off-target effects and no BUB1B row; BAY-524 does not inherit these panels. No animal efficacy/PK/tolerability result or BUBR1 restoration is supplied.
@@ -50,7 +72,7 @@ The resveratrol and bladder study-level exposure documentation gaps were closed 
 
 ## Remaining questions without a direct qualified answer
 
-Nine questions have a named intervention or related preparation qualified in another experimental context. Those pointers do not close the specific questions.
+Nine records retain related evidence from a different experiment; seven of those remain among the 40 open questions. Such related evidence never substitutes for the exact-source qualification.
 
 | Batch n / source | Why existing work does not close it | Bounded remaining question |
 |---|---|---|
@@ -59,7 +81,6 @@ Nine questions have a named intervention or related preparation qualified in ano
 | [n26 / 32555285](https://pubmed.ncbi.nlm.nih.gov/32555285/) | A WEE1 route or another WEE1 inhibitor is not source qualification of this AZD1775/olaparib TNBC experiment. | Extract arm-specific AZD1775/olaparib functional effects, exposure and normal-cell controls from this source. |
 | [n27 / 42045150](https://pubmed.ncbi.nlm.nih.gov/42045150/) | The ARTADI identities remain unspecified in the frozen annotation; no exact-source qualification found. | Identify the active ARTADIs and xenograft exposures, comparator conditions and toxicity measurements. |
 | [n35 / 34745968](https://pubmed.ncbi.nlm.nih.gov/34745968/) | No direct-source piperlongumine/CDK1 qualification found; observed cancer-cell activity is not itself selective target engagement. | Verify CDK1 binding/engagement or resistant-target rescue and matched normal-cell effects at the active piperlongumine exposure. |
-| [n52 / 22280307](https://pubmed.ncbi.nlm.nih.gov/22280307/) | The qualified Gemini-Cur experiment uses a different formulation, cancer system and target readout; it does not answer free-curcumin/Cdc27 selectivity. | Determine free-curcumin exposures, normal-cell controls and Cdc27-specific rescue in PMID22280307. |
 | [n64 / 38539170](https://pubmed.ncbi.nlm.nih.gov/38539170/) | Existing MSC-secretome/BDNF oocyte evidence is a different preparation/model and cannot identify periodontal secretome components or establish periodontal benefit beyond this culture. | Qualify this periodontal-cell conditioned medium, controlled mineralization rescue and any extension beyond LPS culture. |
 | [n79 / 22438244](https://pubmed.ncbi.nlm.nih.gov/22438244/) | SP600125 is qualified in A549 fungal injury and separate U2OS/BJ-Tert checkpoint experiments, not this TP53-dependent colon-xenograft study. | Verify TP53-stratified xenograft exposure, normal-tissue outcomes and residual killing after resistant-MPS1 rescue in PMID22438244. |
 | [n85 / PPR918452](https://europepmc.org/article/PPR/PPR918452) | No exact-source qualification found for the congression-bypass experiment or its linked publication. The saved preprint-to-publication relation is metadata, not reviewed source equivalence. | Resolve the inhibitors/exposures and later segregation/error outcomes, and distinguish PPR918452 from linked PMID41120338 before admitting a published-source answer. |
@@ -70,7 +91,6 @@ Nine questions have a named intervention or related preparation qualified in ano
 | [n128 / 36031387](https://pubmed.ncbi.nlm.nih.gov/36031387/) | No exact Trip13/Plin2 qualification found; a genetic-depletion outcome does not resolve the separate paclitaxel exposure-response question. | Qualify paclitaxel dose-response, Plin2 dependence and normal-cell controls separately from Trip13 depletion. |
 | [n133 / 35302600](https://pubmed.ncbi.nlm.nih.gov/35302600/) | Existing BI2536 sources concern patient ciliogenesis or UBAP2L/other mitotic perturbations, not the uterine leiomyosarcoma monotherapy/combination animal arms. | Extract distinct BI-2536 monotherapy and prexasertib/cisplatin regimens, tumor effects, randomization and toxicity controls. |
 | [n156 / 32849901](https://pubmed.ncbi.nlm.nih.gov/32849901/) | No exact-source eight-herb decoction qualification found; the mixture benefit is not an isolated-ingredient effect. | Extract the Yiqi Huayu Jiedu formulation, lung-injury/treatment sequence and functional respiratory outcomes. |
-| [n164 / 31405115](https://pubmed.ncbi.nlm.nih.gov/31405115/) | The qualified DL-alpha-tocopherol aged-oocyte result is a different stereochemical description, model and endpoint; it does not answer alpha-tocopherol/Aβ neural-culture exposure or function. | Verify alpha-tocopherol formulation/dose and orthogonal viability/neural-function controls in the Aβ-challenged SH-SY5Y experiment. |
 | [n183 / 18068629](https://pubmed.ncbi.nlm.nih.gov/18068629/) | No exact TGFBI-source qualification found; recombinant-protein cell sensitization is distinct from human tumor-staining correlation. | Extract recombinant TGFBI exposures and any actual in-vivo administered-protein controls, retaining the observational clinical boundary. |
 | [n184 / 42454028](https://pubmed.ncbi.nlm.nih.gov/42454028/) | No exact-source glycolysis-inhibitor identity/animal-arm qualification found. Other 2DG or lactylation studies cannot identify the unnamed interventions here. | Identify the actual glycolysis compounds and animal exposures, and separate their effects from LDHA knockdown. |
 | [n218 / 28337968](https://pubmed.ncbi.nlm.nih.gov/28337968/) | No exact-source post-MELK-null OTS167 qualification found; the abstract undermines target dependence while retaining drug activity. | Check actual OTS167 efficacy/selectivity and experimentally supported alternative targets after the MELK-null control; do not infer no anticancer activity. |
@@ -113,4 +133,6 @@ Nine questions have a named intervention or related preparation qualified in ano
 
 The JSON preserves all 47 original questions verbatim, record/abstract hashes, source pointers/hashes, relevant decision IDs, exact answered components and bounded remaining questions. Historical version/notice limits stay attached: PPR918452 links PMID41120338 by title/first-author matching; PMID35302600 links PPR440054; PMID23403633 links commentary23459035; PMID36380369 links PPR525543. Metadata links do not constitute reading, authenticated version equivalence or independent-study credit.
 
-This task inspected existing qualifications and annotations, not new primary assets. It does not change nominees or infer MVA efficacy from cancer activity, genetic rescue, supplement availability or a shared target. All 272 frozen batch artifacts were unchanged through finalization of these two external outputs. Source qualification/ledger hashes were checked at freeze; the parent owns subsequent repository integration and package verification.
+This task inspected existing qualifications and annotations, not new primary assets. It does not change nominees or infer MVA efficacy from cancer activity, genetic rescue, supplement availability or a shared target. The earlier 272-artifact preservation check remains historical. This revision changes only the two specified reconciliation records and current metadata, with all original flags and other 45 objects preserved. Source qualification/ledger hashes were checked at freeze; the parent owns repository integration and package verification.
+
+This 200-decision update preserves the prior reconciliation as a hash-bound Git object. Exact per-record changes and preservation checks are recorded in the companion JSON.

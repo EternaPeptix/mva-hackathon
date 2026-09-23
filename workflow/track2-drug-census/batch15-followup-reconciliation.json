@@ -3,27 +3,28 @@
   "date": "2026-09-23",
   "reviewer": "/root/bromosporine_primary",
   "repository": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
-  "repository_commit": "c753136318da9dd4911a2ff4beebdfa7545c284c",
-  "authoritative_decision_count": 197,
+  "repository_commit": "af0cd614878b408ed1c26a8642878bd5da6870e5",
+  "authoritative_decision_count": 200,
   "historical_batch": 15,
   "historical_flag_count": 47,
-  "scope": "Reconciliation of existing annotations against existing repository source qualifications/current197decision objects only. No new primary source read or efficacy appraisal. No match alone is treated as resolution.",
+  "scope": "Existing-source reconciliation of47frozen Batch15questions; this revision changes only n52/PMID22280307 andn164/PMID31405115 plus current metadata. No primary asset was newly read for this reconciliation update.",
   "summary": {
-    "exact_source_questions_with_material_direct_qualified_answers": 5,
-    "substantive_primary_qualifications": 5,
+    "exact_source_questions_with_material_direct_qualified_answers": 7,
+    "substantive_primary_qualifications": 7,
     "same_source_target_only_partial_qualification": 0,
-    "no_direct_source_answer": 42,
-    "open_unassigned": 42,
+    "no_direct_source_answer": 40,
+    "open_unassigned": 40,
     "assigned_elsewhere_pending": 0,
     "different_experiment_context_does_not_close_question": 9,
-    "fully_resolved_entire_original_composite_questions": 2,
+    "fully_resolved_entire_original_composite_questions": 4,
     "new_unique_sources": 0,
     "new_abstract_reading_credit": 0,
     "new_primary_reading_credit": 0,
     "direct_answers_with_unresolved_original_source_components": 3,
-    "fully_resolved_entire_original_composite_questions_scope": "Two original study-level questions answered within reviewed source scope; neither establishes broader biological or clinical efficacy."
+    "fully_resolved_entire_original_composite_questions_scope": "Four original study-level questions answered within source scope; three other qualified questions retain source schedule/count ambiguities. These are not demonstrations of clinical or MVA efficacy.",
+    "open_questions_with_different_experiment_context": 7
   },
-  "count_interpretation": "Five historical questions have direct qualified answers: two are answered at their original study-level scope (BAY and resveratrol), while three retain unresolved source schedule/count components (bladder,CCDC41,EML1).42others have no direct qualified answer in this package. Every answered source still has scientific limits; these are not47novel papers, new reading credit or a global literature-negative result.",
+  "count_interpretation": "Seven questions now have direct qualifications: four answered at original study-level scope (curcumin,resveratrol,tocopherol,BAY) and three partial because source schedule/count conflicts persist (bladder,CCDC41,EML1).40remain without a direct qualified answer in the200decision package. Original47flags remain historical; no additional source/abstract reading credit.",
   "source_search_and_reading": {
     "candidate_discovery": "PMID/PMCID/DOI and linked-version identifier search across repository qualification/review narrative and current decisions; named-intervention/context comparison used only to find candidates. Automatic matches were not treated as scientific resolution.",
     "actually_inspected": "All47frozen followup questions and source-specific annotations; five exact-source qualification locations and relevant companion JSON; listed related-evidence sections; selected current decision objects and all194baseline route identifiers and three newly integrated decision objects. UpdatedEML1 report/companionJSON and resveratrol/bladder documentation additions read without opening new primary assets. Integrated BAY qualification/companionJSON and corrected appraisal row subsequently inspected.",
@@ -52,7 +53,18 @@
       "e2f7a4",
       "53a905",
       "d4c2d4"
-    ]
+    ],
+    "current_update": {
+      "actually_read": "Existingcurcumin-cdc27 andtocopherol qualificationMDs and relevant compactJSON fields; currentdecision objects and priorreconciliation. No newprimary assets.",
+      "tool_chunks": [
+        "2d8a96",
+        "40e37d",
+        "63a734",
+        "9895f2",
+        "f0fd48"
+      ],
+      "prior_read_scope_preserved": "Earlierreconciliation scope remains historical; priorindependenttocopherolsourcecheck is alreadyattributed inqualification, not reread or creditedagain."
+    }
   },
   "input_provenance": [
     {
@@ -70,8 +82,8 @@
     {
       "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
       "repo_relative": "workflow/track2-drug-census/decisions.json",
-      "sha256": "10fd081e14613f3e1b6857028f839374f2dbe076f345d7285cee607ac3a21e7b",
-      "role": "Current197decision ledger; all194baseline decoded objects unchanged"
+      "sha256": "d422617240394a35e0b8ef92bc0e33d89d857c8db649b44f8dbe32a3d91bed1b",
+      "role": "Current200decision ledger; all197baseline decoded objects unchanged"
     }
   ],
   "qualification_files": [
@@ -193,6 +205,34 @@
       "sha256": "8790df06f7ca78acffc55817a9e516d9ae2bcd26219811b53f80f43d7984cac8",
       "line": 1,
       "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/curcumin-cdc27-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/curcumin-cdc27-qualification.md",
+      "sha256": "c0885ce925b23d9fd0f7765993ca2205927cb9aca4bd6515fca4fae1d2bb1ef8",
+      "line": 1,
+      "role": "New direct qualification inspected for this two-question update"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/curcumin-cdc27-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/curcumin-cdc27-qualification.json",
+      "sha256": "b209dd2fd47e37ede2ee396a39e3fc3907d4aebabf83e59e9c4f834f215377cb",
+      "line": 1,
+      "role": "New direct qualification inspected for this two-question update"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/tocopherol-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/tocopherol-qualification.md",
+      "sha256": "49db2baaf9183d4181a6f7e7cfa19fee005ad2e6918e009459b1dbb3c9fb493a",
+      "line": 1,
+      "role": "New direct qualification inspected for this two-question update"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/tocopherol-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/tocopherol-qualification.json",
+      "sha256": "ed7a0db30b36313158ca576c23c764e21083bae50478e1ab26d6727d2ff9199b",
+      "line": 1,
+      "role": "New direct qualification inspected for this two-question update"
     }
   ],
   "records": [
@@ -343,12 +383,35 @@
         "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
         "json_pointer": "/records/51/followup_reason"
       },
-      "classification": "open_no_direct_source_qualified_answer",
-      "judgment": "The qualified Gemini-Cur experiment uses a different formulation, cancer system and target readout; it does not answer free-curcumin/Cdc27 selectivity.",
-      "remaining_question": "Determine free-curcumin exposures, normal-cell controls and Cdc27-specific rescue in PMID22280307.",
-      "source_qualified_answer_components": [],
-      "qualification_pointers": [],
-      "current_decision_ids": [],
+      "classification": "direct_primary_question_answered_at_source_scope",
+      "judgment": "The ordinary-curcumin primary is now directly qualified, including exposure-specific LDH/cycle effects, limited MDCK comparison, actual DHZ structural-control results, and the absence of Cdc27-specific rescue. It supports a Cdc27/APC/C-associated mechanism without establishing exclusive Cdc27 causality or cancer-versus-normal selectivity.",
+      "remaining_question": "Purified binding, a mapped covalent site and Cdc27-resistant/necessity/sufficiency rescue were not supplied. The MDCK comparator is not primary human tissue, HBEC is an undefined blot-only block, and the existing mouse specimens do not supply a new efficacy regimen or exposure. Source Table S1 arithmetic and Figure5C preparation remain unresolved; the cited2011 animal paper is a separate unqualified follow-up.",
+      "source_qualified_answer_components": [
+        "Sigma laboratory curcumin without nanoparticle delivery was tested; purity/lot/measured concentration and oral-product equivalence are unspecified. It is distinct from Gemini-Cur.",
+        "DAOY cell-cycle work used10/20µM curcumin, with exposure schedules distinguished: G1/S release0–20h versus nocodazole-mitotic release0–10h. LDH arms used0/5/10/20µM for12h,16h or24h in separate assays.",
+        "MDCK had relatively little cytotoxicity under the tested conditions, but this canine kidney-derived line is not normal primary human tissue. HT1376 is a relatively less-sensitive cancer comparator. HBEC appears only in an undefined blot block, not the functional comparison arms.",
+        "DHZ was actually administered:40µM versus20µM curcumin in time-course blots, and matching0/5/10/20µM16h LDH arms. DHZ produced much less LDH release and no analogous high-molecular-weight Cdc27 shift.",
+        "Curcumin-linked Sepharose recovered Cdc27 from lysate, with beads/BubR1 nonspecific-binding controls. Treated-cell lysate APC/C-associated assays showed substrate persistence/lower ubiquitination, but no purified direct-binding or Cdc27-resistant rescue experiment.",
+        "The study reports cell-cycle restraint/cancer-cell death, not faithful division or BUBR1 restoration. Reused Smo/Smo tumor blots lacked detectable crosslinked Cdc27; earlier animal efficacy/PK cannot be inherited."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/curcumin-cdc27-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/curcumin-cdc27-qualification.md",
+          "sha256": "c0885ce925b23d9fd0f7765993ca2205927cb9aca4bd6515fca4fae1d2bb1ef8",
+          "line": 1
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/curcumin-cdc27-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/curcumin-cdc27-qualification.json",
+          "sha256": "b209dd2fd47e37ede2ee396a39e3fc3907d4aebabf83e59e9c4f834f215377cb",
+          "line": 1
+        }
+      ],
+      "current_decision_ids": [
+        "new-curcumin-cdc27",
+        "new-dehydrozingerone"
+      ],
       "related_evidence_is_not_resolution": [
         {
           "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/gemini-cur-qualification.md",
@@ -359,10 +422,17 @@
           "decision_id": "new-gemini-cur"
         }
       ],
-      "full_original_composite_question_resolved": false,
+      "full_original_composite_question_resolved": true,
       "new_unique_source_credit": 0,
       "new_primary_reading_credit": 0,
-      "publication_or_lineage_limit": null
+      "publication_or_lineage_limit": null,
+      "resolution_scope": "Original study-level exposures, comparator and target-specific-control question answered, including explicitly absent experiments; selective Cdc27 causality or normal-tissue benefit is not established.",
+      "remaining_gap_types": [
+        "Cdc27_specific_rescue_or_purified_binding_absent",
+        "normal_human_functional_comparator_absent",
+        "TableS1_arithmetic_and_Figure5C_preparation_conflicts",
+        "current_animal_efficacy_exposure_not_supplied"
+      ]
     },
     {
       "batch_review_index": 64,
@@ -815,12 +885,33 @@
         "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
         "json_pointer": "/records/163/followup_reason"
       },
-      "classification": "open_no_direct_source_qualified_answer",
-      "judgment": "The qualified DL-alpha-tocopherol aged-oocyte result is a different stereochemical description, model and endpoint; it does not answer alpha-tocopherol/Aβ neural-culture exposure or function.",
-      "remaining_question": "Verify alpha-tocopherol formulation/dose and orthogonal viability/neural-function controls in the Aβ-challenged SH-SY5Y experiment.",
-      "source_qualified_answer_components": [],
-      "qualification_pointers": [],
-      "current_decision_ids": [],
+      "classification": "direct_primary_question_answered_at_source_scope",
+      "judgment": "The Aβ/alpha-tocopherol primary now directly qualifies dose/timing, both high-dose MTT positives, incomplete protection, and missing orthogonal viability/neural-function controls. The measured RNA direction is downward; no protein or functional BUBR1 inference is admitted.",
+      "remaining_question": "Orthogonal viable-cell/death/neural-function outcomes and cell-free MTT interference controls were not supplied; their absence does not prove artifact. Alpha-tocopherol stereochemistry, formulation/vehicle and measured exposure remain unspecified. RNA lacks an uninjured comparator, exact BUB1B q/P/units and protein/fidelity endpoints.",
+      "source_qualified_answer_components": [
+        "Retinoic-acid-differentiated SH-SY5Y cells received alpha-tocopherol24h before another24h with10µM Aβ1–42; no delayed-after-injury rescue arm was reported.",
+        "100µM improved MTT versus Aβ alone(P<.0001) but remained below uninjured control(P<.001).200µM also improved MTT(P<.001) and remained below control(P<.0001); no extra benefit over100µM was established.",
+        "10/50µM combinations were not significantly improved versus Aβ. Alpha-tocopherol alone10–200µM did not reduce the MTT readout; this is not comprehensive safety.",
+        "MTT was the only quantified viability assay; no orthogonal death/cell-count or cell-free interference experiment was supplied. Representative iNOS/Nrf2 staining is qualitative, not directROS/neural-function/viability confirmation.",
+        "At100µM, Table3 BUB1B RNA falls192.20to162.39 with listedlog2−.24. Expression units and exact geneq/P are unspecified; q<.05 is the selected-gene threshold. No BUBR1 protein/localization/checkpoint or chromosome-fidelity result was supplied."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/tocopherol-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/tocopherol-qualification.md",
+          "sha256": "49db2baaf9183d4181a6f7e7cfa19fee005ad2e6918e009459b1dbb3c9fb493a",
+          "line": 1
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/tocopherol-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/tocopherol-qualification.json",
+          "sha256": "ed7a0db30b36313158ca576c23c764e21083bae50478e1ab26d6727d2ff9199b",
+          "line": 1
+        }
+      ],
+      "current_decision_ids": [
+        "new-alpha-tocopherol"
+      ],
       "related_evidence_is_not_resolution": [
         {
           "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/translation-qualification.md",
@@ -831,10 +922,32 @@
           "decision_id": "new-liproxstatin"
         }
       ],
-      "full_original_composite_question_resolved": false,
+      "full_original_composite_question_resolved": true,
       "new_unique_source_credit": 0,
       "new_primary_reading_credit": 0,
-      "publication_or_lineage_limit": null
+      "publication_or_lineage_limit": null,
+      "resolution_scope": "Original study-level exposure and orthogonal-control question answered; quantified MTT protection remains an assay result without proved cell-survival/neural-function rescue.",
+      "remaining_gap_types": [
+        "orthogonal_viability_and_neural_function_absent",
+        "MTT_interference_control_absent_not_proven_artifact",
+        "preparation_vehicle_and_exposure_ambiguities",
+        "RNA_reference_units_exact_q_and_function_unresolved",
+        "catalog_exact_name_relation_ambiguous_not_preparation_identity"
+      ],
+      "catalog_identity_boundary": {
+        "status": "AMBIGUOUS_MULTIPLE_ENTITIES",
+        "candidates": [
+          {
+            "id": "CHEMBL2108106",
+            "name": "TOCOFERSOLAN"
+          },
+          {
+            "id": "CHEMBL3989727",
+            "name": "VITAMIN E"
+          }
+        ],
+        "meaning": "Raw exact-alias relations only; neither is verified as the experimental preparation or supplies approval/efficacy equivalence."
+      }
     },
     {
       "batch_review_index": 182,
@@ -1603,22 +1716,41 @@
   ],
   "preservation": {
     "only_written_files": [
-      "/Users/jeweled/mva-hackathon/track2-drug-census-work/revalidation-batch15/followup-reconciliation.md",
-      "/Users/jeweled/mva-hackathon/track2-drug-census-work/revalidation-batch15/followup-reconciliation.json"
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.md",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.json"
     ],
     "frozen_artifacts_checked": 272,
     "frozen_artifacts_sorted_name_hash_manifest_sha256": "83b57bb9bbedff42b1a19e2f8abb3f35f4382fe80b3ea63158d354c491c110ed",
     "frozen_artifacts_changed": [],
     "original_followup_flags_mutated": false,
-    "repository_files_written": false
+    "repository_files_written": false,
+    "other45record_objects_unchanged": true,
+    "changed_record_indices": [
+      52,
+      164
+    ]
   },
-  "parent_assigned_next_source": "PMID34124073 and BAY26885717 have now been integrated and reconciled from existing qualification reports; no pending delegated-source label retained.",
+  "parent_assigned_next_source": "Onlyn52andn164updated inthisrevision; previouslyqualifiedsourcesand remaining40questions unchanged.",
   "status": "FROZEN_COMPONENT_LEVEL_RECONCILIATION",
-  "repository_snapshot_state": "Source qualifications and197-decision ledger declared final by root against basecommitc753136; broader docs/manifests still being refreshed. This source reconciliation is not final package verification.",
-  "freeze_note": "Frozen only after parent declared source files/ledger final; final whole-package STABLE verification is a separate task.",
-  "integration_transform": {
+  "repository_snapshot_state": "Final200-decision/source qualification integration against af0cd614; broader package refresh/independentverification pending.",
+  "freeze_note": "Source qualifications/200ledger final perparent; packageSTABLE verification remains separate. PortableMDlinks require no repository path transform.",
+  "historical_integration_transform_at_197": {
     "original_external_markdown_sha256": "a4b579148add74cc47af028853e8f0ac14fd2336dc4b87d5dafe4b256d9c77a7",
     "source_md_sha256": "3df5d40908dd864a6319a9b27e11f8ea0137ca373191382ce29625b368f2ca2b",
     "scope": "Portable same-directory document links and curated prose spacing only; original JSON questions/answers and source hashes unchanged."
-  }
+  },
+  "previous_reconciliation": {
+    "commit": "af0cd614878b408ed1c26a8642878bd5da6870e5",
+    "repo_path": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
+    "sha256": "2ecf383afc7b205fc7076efb70b46492af0d2111e614c1cc85c96806b41e4b57",
+    "markdown_sha256": "3df5d40908dd864a6319a9b27e11f8ea0137ca373191382ce29625b368f2ca2b",
+    "appraisals": 197,
+    "changed_record_indices": [
+      52,
+      164
+    ],
+    "other_record_objects_unchanged": 45,
+    "unchanged_record_objects_canonical_sha256": "8a655a4937a328423d9f3204d49e6c81426c865b6df54db7636ea4e65b6b2113"
+  },
+  "reconciliation_md_sha256": "aec6990f36d187af496c5522c878ab733926813335120161b1b117cfe4135674"
 }
