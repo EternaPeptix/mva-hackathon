@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "repository_baseline": "ae94f0f0e4d9ef6cb0d0c967b0cb5079e28a27fd",
+  "compounds": [
+    {
+      "decision_id": "new-selenomethionine",
+      "aliases": [
+        "selenomethionine",
+        "L-selenomethionine",
+        "seleno-L-methionine"
+      ],
+      "identity_scope": "2007 SM stereochemistry/batch detail unspecified; SELECT explicitly used L-selenomethionine. No equivalence to selenized yeast, other selenium forms or arbitrary products."
+    },
+    {
+      "decision_id": "new-methylseleninic-acid",
+      "aliases": [
+        "methylseleninic acid",
+        "methylselenic acid"
+      ],
+      "identity_scope": "PubChem CID161597 lists both names for CH4O2Se. This is an indexed-name relation, not tested-batch authentication, clinical approval, or equivalence to methylselenol/selenocysteine/SeMet."
+    }
+  ],
+  "sources": [
+    {
+      "id": "MED:17222674",
+      "pmcid": "PMC2729366",
+      "doi": "10.1016/j.juro.2006.09.071",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2729366/",
+      "depth": "Complete main scientific text/tables/captions and all six figures; dense heatmaps viewed as overviews only."
+    },
+    {
+      "id": "GSE8769/GPL3284",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE8769",
+      "depth": "Series metadata and platform schema/row count/accession structure examined; no authenticated BUB1B expression reanalysis."
+    },
+    {
+      "id": "MED:20332431",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20332431/",
+      "depth": "Complete primary abstract and indexed metadata only; publisher HTML/PDF403. No figures, dosing protocol, replicates or effect sizes verified."
+    },
+    {
+      "id": "MED:21990298",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21990298/",
+      "depth": "Complete primary abstract and indexed metadata only; no full trial paper/statistical plan review."
+    },
+    {
+      "id": "PubChem:161597",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/161597",
+      "depth": "Official indexed identity/names record, no biological efficacy credit."
+    }
+  ],
+  "prostate_study": {
+    "model": "LNCaP cancer cells; no BUB1B mutant, normal-muscle or normal-cell comparator established in this study.",
+    "medium": "RPMI1640 with5% defined bovine serum, reported13nM basal selenium.",
+    "array_exposure_uM": 10,
+    "SM_array_times_hours": [
+      1,
+      2,
+      4,
+      6,
+      9,
+      12,
+      15,
+      18,
+      24,
+      48
+    ],
+    "replication": "Explicitly one SM array at each time point and no replicate arrays. MSA expression data reused from earlier work; not an independently replicated simultaneous trial.",
+    "BUB1B_assay": "Table6 lists BUB1B as higher under SM than MSA in between-treatment SAM analysis. No gene-specific comparison versus untreated cells or BUBR1 protein rescue is thereby established.",
+    "SAM_scope": "Paper reports366 unique between-treatment genes at0.5% false detection rate; this is not a new independent gene-specific rescue confidence estimate.",
+    "orthogonal_validation": "Eight PCR targets exclude BUB1B. Triplicate amplification is not evidence of independent culture replicates.",
+    "cell_cycle_48h": {
+      "SM_uM": [
+        0,
+        10,
+        50,
+        100
+      ],
+      "G2M_percent": [
+        25.0,
+        30.9,
+        32.2,
+        33.0
+      ],
+      "printed_uncertainty": [
+        1.2,
+        3.0,
+        2.8,
+        3.4
+      ],
+      "figure_significance": "All three G2/M treated conditions starred; G1 decrease starred only at50/100µM. Exact test/P/independent culture units are insufficiently specified.",
+      "interpretation": "Phase redistribution/arrest, not faithful chromosome segregation or tissue-function rescue.",
+      "higher_dose_hypodiploidy": "Text reports increased subG0/G1 at50/100µM as suggestive of apoptosis; Figure5 does not plot that subpopulation, and no independent apoptosis assay was qualified here."
+    },
+    "reporter_24h": {
+      "SM_uM": [
+        10,
+        50
+      ],
+      "MSA_uM": [
+        5,
+        10
+      ],
+      "assay": "PSA-luciferase normalized using beta-galactosidase, three independent transfections reported.",
+      "finding": "Prose describes no effect at10µM SM and about60% reduction at50µM, comparable to10µM MSA. Native Figure6 does not visibly show the caption-described significance stars; no new P value inferred.",
+      "limit": "Promoter output in cancer cells is not physiological muscle/renewal/fidelity benefit."
+    },
+    "unmeasured": [
+      "BUBR1 protein restoration",
+      "BUB1B allele-specific rescue",
+      "chromosome segregation accuracy",
+      "normal-muscle force",
+      "progenitor renewal",
+      "clinical MVA outcome"
+    ]
+  },
+  "GEO_metadata_check": {
+    "source": "GSE8769 and GPL3284",
+    "scope": "Metadata examination only, not reanalysis of biological expression or inferred BUB1B fold change.",
+    "files": {
+      "GSE8769_series_matrix.txt.gz": "3edc9f8aaede58c367b9d97b16ceb239481e45add37da7129dc85b690e752837",
+      "GPL3284.soft": "4807e2c37e3195a861b76f703be064e744c0dad8b2d20aa664649527354c461b"
+    },
+    "sample_metadata": [
+      {
+        "geo_accession": "GSM217850",
+        "title": "LN_MSM_10uM_48h",
+        "source_name_ch1": "14.5 uM selenium LNCaP total RNA",
+        "label_ch1": "Cy3",
+        "source_name_ch2": "MSM 10 uM 48h LNCaP total RNA",
+        "label_ch2": "Cy5",
+        "data_processing": "VALUE is Log (base 2) of the ratio of the median of Channel 2 (usually 635 nm) to Channel 1 (usually 532 nm)"
+      },
+      {
+        "geo_accession": "GSM217851",
+        "title": "LN_MSM_10uM_2h",
+        "source_name_ch1": "14.5 uM selenium LNCaP total RNA",
+        "label_ch1": "Cy3",
+        "source_name_ch2": "MSM 10 uM 2h LNCaP total RNA",
+        "label_ch2": "Cy5",
+        "data_processing": "VALUE is Log (base 2) of the ratio of the median of Channel 2 (usually 635 nm) to Channel 1 (usually 532 nm)"
+      },
+      {
+        "geo_accession": "GSM217852",
+        "title": "LN_MSM_10uM_15h",
+        "source_name_ch1": "14.5 uM selenium LNCaP total RNA",
+        "label_ch1": "Cy3",
+        "source_name_ch2": "MSM 10 uM 24h LNCaP total RNA",
+        "label_ch2": "Cy5",
+        "data_processing": "VALUE is Log (base 2) of the ratio of the median of Channel 2 (usually 635 nm) to Channel 1 (usually 532 nm)"
+      },
+      {
+        "geo_accession": "GSM217853",
+        "title": "LN_MSM_10uM_18h",
+        "source_name_ch1": "14.5 uM selenium LNCaP total RNA",
+        "label_ch1": "Cy3",
+        "source_name_ch2": "MSM 10 uM 18h LNCaP total RNA",
+        "label_ch2": "Cy5",
+        "data_processing": "VALUE is Log (base 2) of the ratio of the median of Channel 2 (usually 635 nm) to Channel 1 (usually 532 nm)"
+      },
+      {
+        "geo_accession": "GSM217854",
+        "title": "LN_MSM_10uM_4h",
+        "source_name_ch1": "14.5 uM selenium LNCaP total RNA",
+        "label_ch1": "Cy3",
+        "source_name_ch2": "MSM 10 uM 4h LNCaP total RNA",
+        "label_ch2": "Cy5",
+        "data_processing": "VALUE is Log (base 2) of the ratio of the median of Channel 2 (usually 635 nm) to Channel 1 (usually 532 nm)"
+      },
+      {
+        "geo_accession": "GSM217855",
+        "title": "LN_MSM_10uM_24h",
+        "source_name_ch1": "14.5 uM selenium LNCaP total RNA",
+        "label_ch1": "Cy3",
+        "source_name_ch2": "MSM 10 uM 24h LNCaP total RNA",
+        "label_ch2": "Cy5",
+        "data_processing": "VALUE is Log (base 2) of the ratio of the median of Channel 2 (usually 635 nm) to Channel 1 (usually 532 nm)"
+      },
+      {
+        "geo_accession": "GSM217856",
+        "title": "LN_MSM_10uM_6h",
+        "source_name_ch1": "14.5 uM selenium LNCaP total RNA",
+        "label_ch1": "Cy3",
+        "source_name_ch2": "MSM 10 uM 6h LNCaP total RNA",
+        "label_ch2": "Cy5",
+        "data_processing": "VALUE is Log (base 2) of the ratio of the median of Channel 2 (usually 635 nm) to Channel 1 (usually 532 nm)"
+      },
+      {
+        "geo_accession": "GSM217857",
+        "title": "LN_MSM_10uM_9h",
+        "source_name_ch1": "14.5 uM selenium LNCaP total RNA",
+        "label_ch1": "Cy3",
+        "source_name_ch2": "MSM 10 uM 9h LNCaP total RNA",
+        "label_ch2": "Cy5",
+        "data_processing": "VALUE is Log (base 2) of the ratio of the median of Channel 2 (usually 635 nm) to Channel 1 (usually 532 nm)"
+      },
+      {
+        "geo_accession": "GSM217858",
+        "title": "LN_MSM_10uM_1h",
+        "source_name_ch1": "14.5 uM selenium LNCaP total RNA",
+        "label_ch1": "Cy3",
+        "source_name_ch2": "MSM 10 uM 1h LNCaP total RNA",
+        "label_ch2": "Cy5",
+        "data_processing": "VALUE is Log (base 2) of the ratio of the median of Channel 2 (usually 635 nm) to Channel 1 (usually 532 nm)"
+      },
+      {
+        "geo_accession": "GSM217859",
+        "title": "LN_MSM_10uM_12h",
+        "source_name_ch1": "14.5 uM selenium LNCaP total RNA",
+        "label_ch1": "Cy3",
+        "source_name_ch2": "MSM 10 uM 18h LNCaP total RNA",
+        "label_ch2": "Cy5",
+        "data_processing": "VALUE is Log (base 2) of the ratio of the median of Channel 2 (usually 635 nm) to Channel 1 (usually 532 nm)"
+      }
+    ],
+    "conflicts": [
+      {
+        "sample": "GSM217852",
+        "title_time": "15h",
+        "channel2_source_time": "24h"
+      },
+      {
+        "sample": "GSM217859",
+        "title_time": "12h",
+        "channel2_source_time": "18h"
+      }
+    ],
+    "reference_channel_limit": "All ten Cy3 channel1 source labels name14.5uM selenium LNCaP totalRNA, while the manuscript describes vehicle controls. The reference cannot be silently relabeled untreated.",
+    "probe_annotation_limit": "GPL3284 has43008 rows and GB_LIST clone accessions, without a gene-symbol column. No BUB1B/BUBR1 literal or NM_001211 accession match was found. No sequence-based remapping performed.",
+    "expression_claim": "No BUB1B numeric expression estimate or rescue ratio is calculated from this unresolved metadata."
+  },
+  "antimutagenesis_followup": {
+    "source_id": "MED:20332431",
+    "reported_positive": "Primary abstract reports reduced carboplatin-associated reporter-gene mutagenesis in mouse bone marrow with both SeMet and MSA.",
+    "retained_as": "Source-limited protective/genome-damage research lead, not dismissed as a gene-expression association.",
+    "not_inferred": [
+      "exact delivered regimen or in-vivo versus cultured-marrow exposure",
+      "effect size or statistical robustness",
+      "XPC mediation in this new assay rather than referenced previous work",
+      "absence of cell selection",
+      "whole-chromosome fidelity",
+      "MVA or muscle rescue"
+    ],
+    "access_attempts": "Publisher full HTML and PDF403; no barrier bypass or substitution of review-reported doses as verified primary facts."
+  },
+  "clinical_counterevidence": {
+    "source_id": "MED:21990298",
+    "population": "SELECT older relatively healthy men;34887 in primary analysis, not MVA patients.",
+    "intervention": "200µg/day selenium as L-selenomethionine, compared with matched placebo in a four-arm trial.",
+    "selenium_HR": 1.09,
+    "CI_level": 0.99,
+    "CI": [
+      0.93,
+      1.27
+    ],
+    "P": 0.18,
+    "interpretation": "No significant prostate-prevention benefit in this trial; neither a significant selenium harm claim nor evidence against MSA/MVA efficacy. VitaminE-alone significant harm is a separate arm."
+  },
+  "competitive_decision": "Retain distinct cell-cycle/transcription comparators and a source-limited antimutagenesis lead. Do not nominate either as demonstrated BUBR1 restoration or muscle compensation. RelativeSM>MSA RNA, cancer-cell arrest and reporter-gene mutation protection do not establish useful function in the relevant BUB1B model. Current niacin/apitegromab nominees also remain unproved inMVA; no quantitative comparative efficacy probability assigned.",
+  "notice_status": {
+    "MED:17222674": "Fresh ePMC metadata has Comment-in17222603, not read; no indexed retraction/correction link found.",
+    "MED:20332431": "Fresh ePMC metadata has no linked notice; not comprehensive integrity clearance.",
+    "MED:21990298": "Fresh metadata preserves commentary links; no notice is claimed read merely from its link."
+  },
+  "read_scope": {
+    "main_text_chunks": [
+      "d1f2f9",
+      "77f577",
+      "4a571f",
+      "a65c0f"
+    ],
+    "all_four_endmarkers_seen": true,
+    "outputs_untruncated": true,
+    "main_extracted_characters": 35928,
+    "figures_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "dense_heatmap_scope": "Overview only; no per-row digitization or reanalysis.",
+    "original_corpus_abstract_chunk": "6e1bf4",
+    "GEO_and_SELECT_abstract_chunk": "ff5db1",
+    "marrow_abstract_chunk": "65e3bc",
+    "reviewer_biological_replication": false,
+    "authenticated_BUB1B_expression_reanalysis": false
+  },
+  "source_sha256": {
+    "primary-pmc.html": "2adc411c9dbdecbe79e07d49ef73e906c0b73f1068a9a7a2cebdfb991aed4a9e",
+    "epmc-record.json": "41ca2cb28e5e7765b4fc28fac485f21eca204af36c221be1414052c0b1beecf1",
+    "GSE8769_series_matrix.txt.gz": "3edc9f8aaede58c367b9d97b16ceb239481e45add37da7129dc85b690e752837",
+    "GPL3284.soft": "4807e2c37e3195a861b76f703be064e744c0dad8b2d20aa664649527354c461b",
+    "SELECT2011-epmc.json": "70caf65677b209edb30bd197a6751e8a0270ac1ddc09c40705fcb6951dc9a776",
+    "marrow-epmc.json": "a79bdd21007a0dfb0a84f26efdd803bc98454fad01ad5a0916fa7ee6f7c60643",
+    "figure-1.jpg": "fda17e54f3e8c895c26fdc8009a8e811414f8fd8755fc48a47964ec3ed955bf9",
+    "figure-2.jpg": "8ead0c1d662bb85e5c2a6071205a08ca0a11c282247a9760e53b24c4518fb762",
+    "figure-3.jpg": "27ca3b2508f1bfc08a78b429780a3da08d3d8ca3c5ecba02c87fe84fada0c5e4",
+    "figure-4.jpg": "aaa1879b8b9d3ba9112fc6c6ad0d4cd752f0361e7188d8c61cf334068b1e9b65",
+    "figure-5.jpg": "b4d98c21c77fc46f7ed6b2b76e5ec040b89968583b581533a32a75446028db7f",
+    "figure-6.jpg": "f4e6757a676b94e2c7702a3f8ccaf5a80476ea476f6dea2a87d4b6a37d255953"
+  },
+  "retrieval_manifest": "retrieval-manifest.json",
+  "metadata_check_sha256": "e19b65826d9c55f6d644d9e0562fd27cf63a037fc8aaddcc94c3daeb26cbe751",
+  "credit": {
+    "new_outer_reads": 0,
+    "new_unique_reading_credit_from_this_qualification": 0,
+    "automatic_appraisal_integration": false,
+    "proposed_distinct_appraisals": 2
+  },
+  "unresolved_questions": [
+    "Obtain lawful complete2010 reporter-mutagenesis paper and verify actual treatment context, statistical unit and survival/selection controls.",
+    "Resolve GEO reference and time metadata and authenticate probe mapping before a numeric BUB1B estimate.",
+    "Test usable BUBR1 protein and relevant output/renewal/fidelity rather than using cell-cycle enrichment as rescue."
+  ],
+  "parent_integration": {
+    "date": "2026-09-23",
+    "baseline": "ae94f0f0e4d9ef6cb0d0c967b0cb5079e28a27fd",
+    "external_source_root": "selenium-flavone-followups-20260923/selenium",
+    "source_md_sha256": "6aed2cc6b8fc621dcb9871e39b9308f7cc1637ad4a8d1fbf0efa8f829835cfde",
+    "source_json_sha256": "33f627a8b1df86c522bc67fe894c5ffc578e9bcd04ed2c4a2e7b4a2dfbe4c025",
+    "extra_outer_reading_credit": 0,
+    "new_ids": [
+      "new-selenomethionine",
+      "new-methylseleninic-acid"
+    ],
+    "root_checks": [
+      "Complete main text and all six figures, plus GEO metadata and two separate primary abstracts. A second reader checked only selected Methods/Table6/Figures4–5 and original GEO metadata; source-check artifacts remain external."
+    ],
+    "bounded_independent_check_sha256": "d50431b47e0cb0ec6d84f713d036b4c92f5bd8cb571f9fe911bfa6853726e4e8"
+  }
+}

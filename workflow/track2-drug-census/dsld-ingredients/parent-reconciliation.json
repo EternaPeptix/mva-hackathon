@@ -1,11 +1,11 @@
 {
   "date": "2026-09-23",
   "reviewer": "/root",
-  "scope": "174-appraisal parent replay; all eight output tables remain byte-identical to the172-appraisal snapshot. Historical168-to172 name deltas remain explicit. Name matches are not chemical identity or efficacy.",
+  "scope": "177-appraisal parent replay; five selenomethionine name links added while all source fields, literal matches and six other outputs remain unchanged. Source grouping is not chemical equivalence or efficacy.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived-174/runs/624974ba32916826a6e7",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived-177/runs/f52a7debb868cf6b2485",
   "historical_ledger_count": 168,
-  "current_ledger_count": 174,
+  "current_ledger_count": 177,
   "unchanged_output_tables": [
     "alias-cells.tsv",
     "normalized-aliases.tsv",
@@ -21,6 +21,24 @@
       "name": "Arachidonic Acid",
       "before": "[]",
       "after": "[\"new-arachidonic-acid\"]"
+    },
+    {
+      "group_id": "2384",
+      "name": "Selenomethionine",
+      "before": "[]",
+      "after": "[\"new-selenomethionine\"]"
+    },
+    {
+      "group_id": "147",
+      "name": "Selenium",
+      "before": "[]",
+      "after": "[\"new-selenomethionine\"]"
+    },
+    {
+      "group_id": "7901",
+      "name": "Selenomethionine",
+      "before": "[]",
+      "after": "[\"new-selenomethionine\"]"
     },
     {
       "group_id": "2060",
@@ -47,10 +65,10 @@
       "after": "[\"new-10-hda\"]"
     }
   ],
-  "name_crossrefs_added": 5,
+  "name_crossrefs_added": 10,
   "old_name_crossrefs_retained": 6800,
-  "current_name_crossrefs": 6805,
-  "current_summary_sha256": "624974ba32916826a6e7e79874729c4c2b1b1e7d140f32a6fdfcdaa5b51247f9",
+  "current_name_crossrefs": 6810,
+  "current_summary_sha256": "f52a7debb868cf6b24855e3e189a0cbc14760cc2642f36659f767111a2ba15bd",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -100,21 +118,86 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "from_appraisals": 172,
-    "to_appraisals": 174,
+    "from_appraisals": 174,
+    "to_appraisals": 177,
     "old_name_crossrefs_retained": 6805,
-    "name_crossrefs_added": 0,
-    "group_rows": [],
-    "new_name_crossref_rows": [],
-    "unchanged_output_tables": [
-      "alias-cells.tsv",
-      "groups.tsv",
-      "mentions.tsv",
-      "metadata-anomalies.json",
-      "name-crossrefs.tsv",
-      "normalized-aliases.tsv",
-      "screen-policy.json",
-      "source-records.tsv"
+    "name_crossrefs_added": 5,
+    "group_rows": [
+      {
+        "group_id": "2384",
+        "name": "Selenomethionine",
+        "before": "[]",
+        "after": "[\"new-selenomethionine\"]"
+      },
+      {
+        "group_id": "147",
+        "name": "Selenium",
+        "before": "[]",
+        "after": "[\"new-selenomethionine\"]"
+      },
+      {
+        "group_id": "7901",
+        "name": "Selenomethionine",
+        "before": "[]",
+        "after": "[\"new-selenomethionine\"]"
+      }
+    ],
+    "new_name_crossref_rows": [
+      {
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]",
+        "group_id": "2384",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "normalized_alias": "l selenomethionine",
+        "source_alias_cell_ids": "[\"dsld:2384:synonym:1\",\"dsld:2384:synonym:2\"]",
+        "target_id": "new-selenomethionine",
+        "target_layer": "curated_appraisal",
+        "target_name_as_reported": "L-selenomethionine",
+        "target_name_field": "match_aliases"
+      },
+      {
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]",
+        "group_id": "2384",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "normalized_alias": "selenomethionine",
+        "source_alias_cell_ids": "[\"dsld:2384:group_name\",\"dsld:2384:synonym:12\"]",
+        "target_id": "new-selenomethionine",
+        "target_layer": "curated_appraisal",
+        "target_name_as_reported": "selenomethionine",
+        "target_name_field": "match_aliases"
+      },
+      {
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]",
+        "group_id": "7901",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "normalized_alias": "l selenomethionine",
+        "source_alias_cell_ids": "[\"dsld:7901:synonym:0\"]",
+        "target_id": "new-selenomethionine",
+        "target_layer": "curated_appraisal",
+        "target_name_as_reported": "L-selenomethionine",
+        "target_name_field": "match_aliases"
+      },
+      {
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]",
+        "group_id": "7901",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "normalized_alias": "selenomethionine",
+        "source_alias_cell_ids": "[\"dsld:7901:group_name\"]",
+        "target_id": "new-selenomethionine",
+        "target_layer": "curated_appraisal",
+        "target_name_as_reported": "selenomethionine",
+        "target_name_field": "match_aliases"
+      },
+      {
+        "ambiguity_flags": "[]",
+        "group_id": "147",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "normalized_alias": "seleno l methionine",
+        "source_alias_cell_ids": "[\"dsld:147:synonym:84\"]",
+        "target_id": "new-selenomethionine",
+        "target_layer": "curated_appraisal",
+        "target_name_as_reported": "seleno-L-methionine",
+        "target_name_field": "match_aliases"
+      }
     ]
   },
   "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
@@ -268,5 +351,278 @@
     "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
     "result": "PASS",
     "new_manual_reading_or_efficacy_credit": 0
-  }
+  },
+  "historical_174_reconciliation": {
+    "date": "2026-09-23",
+    "reviewer": "/root",
+    "scope": "174-appraisal parent replay; all eight output tables remain byte-identical to the172-appraisal snapshot. Historical168-to172 name deltas remain explicit. Name matches are not chemical identity or efficacy.",
+    "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
+    "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived-174/runs/624974ba32916826a6e7",
+    "historical_ledger_count": 168,
+    "current_ledger_count": 174,
+    "unchanged_output_tables": [
+      "alias-cells.tsv",
+      "normalized-aliases.tsv",
+      "mentions.tsv",
+      "source-records.tsv",
+      "metadata-anomalies.json",
+      "screen-policy.json"
+    ],
+    "source_fields_unchanged_for_all_groups": 6467,
+    "changed_appraisal_group_rows": [
+      {
+        "group_id": "1467",
+        "name": "Arachidonic Acid",
+        "before": "[]",
+        "after": "[\"new-arachidonic-acid\"]"
+      },
+      {
+        "group_id": "2060",
+        "name": "Taurine",
+        "before": "[]",
+        "after": "[\"new-taurine\"]"
+      },
+      {
+        "group_id": "7960",
+        "name": "Taurine",
+        "before": "[]",
+        "after": "[\"new-taurine\"]"
+      },
+      {
+        "group_id": "6680",
+        "name": "10-Hydroxy-2-Decanoic Acid",
+        "before": "[]",
+        "after": "[\"new-10-hda\"]"
+      },
+      {
+        "group_id": "3291",
+        "name": "10-Hydroxy-2-Decanoic Acid",
+        "before": "[]",
+        "after": "[\"new-10-hda\"]"
+      }
+    ],
+    "name_crossrefs_added": 5,
+    "old_name_crossrefs_retained": 6800,
+    "current_name_crossrefs": 6805,
+    "current_summary_sha256": "624974ba32916826a6e7e79874729c4c2b1b1e7d140f32a6fdfcdaa5b51247f9",
+    "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
+    "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
+    "historical_170_reconciliation": {
+      "date": "2026-09-23",
+      "reviewer": "/root",
+      "scope": "Parent170-appraisal replay and exact delta from independently source-checked168-appraisal run. No independent scientific review of lexical matches or whole new inventory.",
+      "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
+      "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived-170/runs/f18bc929796d98de657d",
+      "historical_ledger_count": 168,
+      "current_ledger_count": 170,
+      "unchanged_output_tables": [
+        "alias-cells.tsv",
+        "normalized-aliases.tsv",
+        "mentions.tsv",
+        "source-records.tsv",
+        "metadata-anomalies.json",
+        "screen-policy.json"
+      ],
+      "source_fields_unchanged_for_all_groups": 6467,
+      "changed_appraisal_group_rows": [
+        {
+          "group_id": "1467",
+          "name": "Arachidonic Acid",
+          "before": "[]",
+          "after": "[\"new-arachidonic-acid\"]"
+        },
+        {
+          "group_id": "2060",
+          "name": "Taurine",
+          "before": "[]",
+          "after": "[\"new-taurine\"]"
+        },
+        {
+          "group_id": "7960",
+          "name": "Taurine",
+          "before": "[]",
+          "after": "[\"new-taurine\"]"
+        }
+      ],
+      "name_crossrefs_added": 3,
+      "old_name_crossrefs_retained": 6800,
+      "current_name_crossrefs": 6803,
+      "current_summary_sha256": "f18bc929796d98de657d8db165cf62b595b96daaf45ba88cc31a06845556c903",
+      "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
+      "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
+      "result": "PASS",
+      "new_manual_reading_or_efficacy_credit": 0
+    },
+    "latest_parent_delta": {
+      "from_appraisals": 172,
+      "to_appraisals": 174,
+      "old_name_crossrefs_retained": 6805,
+      "name_crossrefs_added": 0,
+      "group_rows": [],
+      "new_name_crossref_rows": [],
+      "unchanged_output_tables": [
+        "alias-cells.tsv",
+        "groups.tsv",
+        "mentions.tsv",
+        "metadata-anomalies.json",
+        "name-crossrefs.tsv",
+        "normalized-aliases.tsv",
+        "screen-policy.json",
+        "source-records.tsv"
+      ]
+    },
+    "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
+    "result": "PASS",
+    "new_manual_reading_or_efficacy_credit": 0,
+    "historical_172_reconciliation": {
+      "date": "2026-09-23",
+      "reviewer": "/root",
+      "scope": "172-appraisal parent replay; exact cumulative delta from independently source-checked168 run and separate170-to172 delta. Name matching is not chemical identity or efficacy.",
+      "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
+      "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived-172/runs/cf661cdb424906c368ff",
+      "historical_ledger_count": 168,
+      "current_ledger_count": 172,
+      "unchanged_output_tables": [
+        "alias-cells.tsv",
+        "normalized-aliases.tsv",
+        "mentions.tsv",
+        "source-records.tsv",
+        "metadata-anomalies.json",
+        "screen-policy.json"
+      ],
+      "source_fields_unchanged_for_all_groups": 6467,
+      "changed_appraisal_group_rows": [
+        {
+          "group_id": "1467",
+          "name": "Arachidonic Acid",
+          "before": "[]",
+          "after": "[\"new-arachidonic-acid\"]"
+        },
+        {
+          "group_id": "2060",
+          "name": "Taurine",
+          "before": "[]",
+          "after": "[\"new-taurine\"]"
+        },
+        {
+          "group_id": "7960",
+          "name": "Taurine",
+          "before": "[]",
+          "after": "[\"new-taurine\"]"
+        },
+        {
+          "group_id": "6680",
+          "name": "10-Hydroxy-2-Decanoic Acid",
+          "before": "[]",
+          "after": "[\"new-10-hda\"]"
+        },
+        {
+          "group_id": "3291",
+          "name": "10-Hydroxy-2-Decanoic Acid",
+          "before": "[]",
+          "after": "[\"new-10-hda\"]"
+        }
+      ],
+      "name_crossrefs_added": 5,
+      "old_name_crossrefs_retained": 6800,
+      "current_name_crossrefs": 6805,
+      "current_summary_sha256": "cf661cdb424906c368ff8afcd499003d668af90a2f83154498f04670d145b26f",
+      "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
+      "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
+      "historical_170_reconciliation": {
+        "date": "2026-09-23",
+        "reviewer": "/root",
+        "scope": "Parent170-appraisal replay and exact delta from independently source-checked168-appraisal run. No independent scientific review of lexical matches or whole new inventory.",
+        "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
+        "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived-170/runs/f18bc929796d98de657d",
+        "historical_ledger_count": 168,
+        "current_ledger_count": 170,
+        "unchanged_output_tables": [
+          "alias-cells.tsv",
+          "normalized-aliases.tsv",
+          "mentions.tsv",
+          "source-records.tsv",
+          "metadata-anomalies.json",
+          "screen-policy.json"
+        ],
+        "source_fields_unchanged_for_all_groups": 6467,
+        "changed_appraisal_group_rows": [
+          {
+            "group_id": "1467",
+            "name": "Arachidonic Acid",
+            "before": "[]",
+            "after": "[\"new-arachidonic-acid\"]"
+          },
+          {
+            "group_id": "2060",
+            "name": "Taurine",
+            "before": "[]",
+            "after": "[\"new-taurine\"]"
+          },
+          {
+            "group_id": "7960",
+            "name": "Taurine",
+            "before": "[]",
+            "after": "[\"new-taurine\"]"
+          }
+        ],
+        "name_crossrefs_added": 3,
+        "old_name_crossrefs_retained": 6800,
+        "current_name_crossrefs": 6803,
+        "current_summary_sha256": "f18bc929796d98de657d8db165cf62b595b96daaf45ba88cc31a06845556c903",
+        "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
+        "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
+        "result": "PASS",
+        "new_manual_reading_or_efficacy_credit": 0
+      },
+      "latest_parent_delta": {
+        "from_appraisals": 170,
+        "to_appraisals": 172,
+        "old_name_crossrefs_retained": 6803,
+        "name_crossrefs_added": 2,
+        "group_rows": [
+          {
+            "group_id": "6680",
+            "name": "10-Hydroxy-2-Decanoic Acid",
+            "before": "[]",
+            "after": "[\"new-10-hda\"]"
+          },
+          {
+            "group_id": "3291",
+            "name": "10-Hydroxy-2-Decanoic Acid",
+            "before": "[]",
+            "after": "[\"new-10-hda\"]"
+          }
+        ],
+        "new_name_crossref_rows": [
+          {
+            "ambiguity_flags": "[]",
+            "group_id": "3291",
+            "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+            "normalized_alias": "10 hydroxy 2 decenoic acid",
+            "source_alias_cell_ids": "[\"dsld:3291:synonym:0\"]",
+            "target_id": "new-10-hda",
+            "target_layer": "curated_appraisal",
+            "target_name_as_reported": "10-hydroxy-2-decenoic acid",
+            "target_name_field": "match_aliases"
+          },
+          {
+            "ambiguity_flags": "[]",
+            "group_id": "6680",
+            "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+            "normalized_alias": "10 hda",
+            "source_alias_cell_ids": "[\"dsld:6680:synonym:1\",\"dsld:6680:synonym:2\"]",
+            "target_id": "new-10-hda",
+            "target_layer": "curated_appraisal",
+            "target_name_as_reported": "10-HDA",
+            "target_name_field": "match_aliases"
+          }
+        ]
+      },
+      "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
+      "result": "PASS",
+      "new_manual_reading_or_efficacy_credit": 0
+    }
+  },
+  "current_delta_source_warning": "Group147 is reported as Selenium and matches through a seleno-L-methionine synonym. This name relation does not equate all selenium forms, establish product identity or transfer the appraisal to generic selenium. Groups2384/7901 have repeated Selenomethionine names; source IDs are not unique molecules."
 }
