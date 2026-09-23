@@ -86,4 +86,4 @@ This source collection covers research probes, not all purchasable compounds,
 food constituents, industrial chemicals or every medicine worldwide. Those
 remaining spaces and the unread literature require further work.
 
-The current replay against **207 assessments** preserves all four SGC output tables and **nine labels with curated-appraisal name candidates**. The retinoic-acid comparison adds no probe-inventory matches or efficacy credit.
+The current replay against **212 assessments** preserves all four SGC output tables and **nine labels with curated-appraisal name candidates**. These five material-specific comparisons add no probe-inventory matches or efficacy credit.

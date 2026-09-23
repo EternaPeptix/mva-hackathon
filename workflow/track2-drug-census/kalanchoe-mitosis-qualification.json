@@ -1,0 +1,398 @@
+{
+  "schema": "bounded-primary-source-qualification/v1",
+  "date": "2026-09-23",
+  "reader": "/root/retinoic_independent",
+  "pmid": "22963191",
+  "pmcid": "PMC3557174",
+  "doi": "10.1186/1472-6882-12-149",
+  "title": "Kalanchoe tubiflora extract inhibits cell proliferation by affecting the mitotic apparatus.",
+  "batch_review_index": 340,
+  "original_unfiltered_index": 5119,
+  "original_review_array_index": 339,
+  "original_question": "Resolve cell identities, fraction composition, dose labeling and normal-cell controls; preserve measured antimitotic activity without inferring whole-plant efficacy or safety.",
+  "qualification": "measured_cancer_culture_antiproliferative_mitotic_disruption_with_bounded_normal_cell_comparison",
+  "restoration_or_compensation_supported": false,
+  "mva_model": false,
+  "bub1b_rna_response": false,
+  "bubr1_protein_or_function_measured": false,
+  "identity": {
+    "source_plant_name": "Kalanchoe tubiflora",
+    "collection_identification_credit": "Yann-Lii Leu, according to Authors contributions",
+    "plant_part": null,
+    "voucher": null,
+    "collection_locality_and_date": null,
+    "test_preparation": "KT-NB, n-butanol-soluble fraction of ethanol-extracted raw fresh plant tissue",
+    "protocol": "three95%ethanol reflux extractions, filtration/concentration, water suspension, sequential CHCl3 then n-butanol partition",
+    "dry_fraction_g": 53.79,
+    "raw_tissue_g": 6638.76,
+    "stock": "DMSO,0.22µm filtered, diluted in cell medium",
+    "final_dmso_percent": null,
+    "chemical_fingerprint_or_active_content": null,
+    "isolated_constituent_administered": false,
+    "molecular_identity_inferred": false,
+    "KT_C_KT_W_efficacy_qualified": false
+  },
+  "models": {
+    "main_cancer_labels": [
+      "HeLa",
+      "A549",
+      "BFTC905",
+      "MCF-7",
+      "HEp-2",
+      "MES-SA"
+    ],
+    "source_spelling_conflict": "MED-SA in Methods/caption vs MES-SA in Results/figure",
+    "normal_comparator": "WI-38 finite female fetal-lung fibroblast line in SupplementS1",
+    "normal_control_isogenic": false,
+    "authentication_in_article": null,
+    "hep2_registry": "CVCL_1906 is a HeLa derivative and ICLAC-00007; article labels laryngeal carcinoma; no retrospective vial authentication"
+  },
+  "exposures": [
+    {
+      "locator": "Fig2A",
+      "cells": "HeLa",
+      "dose_ug_per_ml": [
+        1.35,
+        6.75,
+        13.5
+      ],
+      "times_h": [
+        0,
+        24,
+        48,
+        72
+      ],
+      "control": "DMSO",
+      "endpoint": "haemocytometer cell counts"
+    },
+    {
+      "locator": "Fig2B/Methods",
+      "cells": "cancer panel",
+      "dose_ug_per_ml": [
+        1.5625,
+        3.125,
+        6.25,
+        12.5,
+        25
+      ],
+      "duration_h": 72,
+      "endpoint": "MTT570nm, blank-subtracted/control-relative",
+      "experiments": 3
+    },
+    {
+      "locator": "Fig3",
+      "cells": "A549",
+      "dose_ug_per_ml": [
+        3,
+        12.5,
+        50
+      ],
+      "times_h": [
+        0,
+        24,
+        48,
+        72
+      ],
+      "endpoint": "scratch closure; manually drawn borders",
+      "experiments": 3
+    },
+    {
+      "locator": "Fig4",
+      "cells": "HeLa",
+      "dose_ug_per_ml": 6.75,
+      "times_h": [
+        24,
+        48,
+        72
+      ],
+      "control": "DMSO",
+      "endpoint": "PI DNA-content profile;24h mitotic index"
+    },
+    {
+      "locator": "Figs5/6/7",
+      "cells": "HeLa",
+      "dose_ug_per_ml": 6.75,
+      "duration_h": 24,
+      "control": "DMSO",
+      "endpoint": "spindle/DNA/AuroraA/phosphoH3 immunofluorescence"
+    },
+    {
+      "locator": "SupplementS1",
+      "cells": [
+        "WI-38",
+        "A549"
+      ],
+      "caption_doses_ug_per_ml": [
+        1.35,
+        6.75,
+        13.5,
+        25
+      ],
+      "native_graph_legend_doses_ug_per_ml": [
+        1.5625,
+        3.125,
+        6.25,
+        12.5,
+        25
+      ],
+      "times_h": [
+        0,
+        24,
+        48,
+        72
+      ],
+      "conflict_resolved": false,
+      "morphology_dose_ug_per_ml": 25,
+      "morphology_duration_h": 72
+    }
+  ],
+  "measured_findings": {
+    "cancer_panel_MTT": "dose-dependent decreases;A549 IC50 only bounded below1.5625µg/mL, not exact fitted",
+    "normal_comparison": "WI-38 less affected than A549 but substantially below its own contemporaneous untreated curve; no normal-cell null or safety claim",
+    "mitotic_index_source_approx": [
+      8,
+      20
+    ],
+    "multipolar_spindles": "more than half of mitotic cells;Fig5n>100/3experiments",
+    "chromosome_misalignment": "Fig7D~37%source report with unresolved denominator; n>50/3experiments",
+    "combined_all_mitotic_abnormal_score": "~90%Fig7E, separate all-mitotic denominator; n>100/3experiments",
+    "cytostasis_vs_death": "not separated by MTT/counts; subG1 and spindle imaging add perturbation evidence"
+  },
+  "fig4_native_table_percent": {
+    "times_h": [
+      24,
+      48,
+      72
+    ],
+    "control": {
+      "subG1": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "G1": [
+        53,
+        53,
+        54
+      ],
+      "S": [
+        25,
+        28,
+        28
+      ],
+      "G2_M": [
+        16,
+        14,
+        15
+      ]
+    },
+    "KT_NB": {
+      "subG1": [
+        7,
+        26,
+        33
+      ],
+      "G1": [
+        37,
+        15,
+        19
+      ],
+      "S": [
+        17,
+        16,
+        10
+      ],
+      "G2_M": [
+        33,
+        14,
+        11
+      ]
+    },
+    "limits": "Values do not form a complete100%distribution; do not infer missing categories or reconstruct survival. Prose72hsubG1=35%, table=33%."
+  },
+  "mechanism_limits": [
+    "BubR1 only in Discussion citation61 concerning CENP-E",
+    "CENP-E/Mps1 candidate targets untested",
+    "AuroraA localization/phosphoH3 are indirect microscopy, not direct kinase specificity",
+    "interphase microtubule/centrosome findings partly data not shown",
+    "no purified tubulin or microtubule dynamics assay",
+    "no live daughter-cell fate or chromosome/euploidy outcome"
+  ],
+  "major_reporting_limits": [
+    "SupplementS1caption/legend concentrations differ",
+    "S1control curves rise above100%; time-reference normalization not fully specified",
+    "abstract48hKTviability wording does not map cleanly to distinct count/72hMTT contexts",
+    "Fig4phase-percent totals incomplete and33vs35subG1",
+    "Fig7Dpercent denominator ambiguous; separate Fig7Epopulation",
+    "no panel-specific P/test or fitted IC50 uncertainty",
+    "unknown plantpart, voucher, chemical composition, batchstandardization, finalDMSO"
+  ],
+  "excluded_inferences": [
+    "wholeplant/tea/juice efficacy",
+    "isolated bufadienolide efficacy",
+    "normal-cell safety or useful-function rescue",
+    "BUB1B/BubR1 restoration",
+    "MVA compensation",
+    "animal/clinical benefit",
+    "nominee superiority",
+    "administration recommendation"
+  ],
+  "reading_scope": {
+    "scientific_main_complete": true,
+    "endmarked_parts": [
+      1,
+      2
+    ],
+    "main_text_tool": "302390",
+    "abstract_all_main_and_S1_captions_tool": "f9ba7a",
+    "author_contributions_license_tool": "8f18c1",
+    "native_figures_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "full_supplementS1_viewed": true,
+    "original_pdf_pages_rendered_viewed": [
+      2,
+      5,
+      8,
+      9
+    ],
+    "separate_author_original_figure_TIFFs_downloaded": false,
+    "references_or_prepublication_history_read": false,
+    "cellosaurus_scope": "selected identity/problematic/lineage fields forHEp-2/WI-38, not cited historicalpapers"
+  },
+  "notice_check": {
+    "article_level_related_notice_found": false,
+    "scope": "fresh EuropePMCmetadata, XML and Crossrefrelations",
+    "exhaustive_notice_audit": false
+  },
+  "source_assets": [
+    {
+      "file": "main.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3557174/fullTextXML",
+      "sha256": "af3547cbeeabead12d4a43dd48010902b3acaf0989045352e5c948b5b1bf1a02"
+    },
+    {
+      "file": "metadata.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22963191+AND+SRC%3AMED&format=json&resultType=core",
+      "sha256": "fe96acb25496900ac50c8cea2050deb46c9cfd2b572c3c056ad61931b0f80ba0"
+    },
+    {
+      "file": "crossref.json",
+      "url": "https://api.crossref.org/works/10.1186/1472-6882-12-149",
+      "sha256": "27dde8b7799bca0ad184d20abfbc88224f128c92098a91eb544bf4fb66b4d5fc"
+    },
+    {
+      "file": "publisher-main.pdf",
+      "url": "https://link.springer.com/content/pdf/10.1186/1472-6882-12-149.pdf",
+      "sha256": "14a4d903c7bc151877ebfbc657237fc5493e16a8030cb79704feac356b10335b"
+    },
+    {
+      "file": "publisher.html",
+      "url": "https://link.springer.com/article/10.1186/1472-6882-12-149",
+      "sha256": "dde0d713691891aa8630b1012ab4bb73149888ab27d5cd00f98874fd3134bd47"
+    },
+    {
+      "file": "hep2-cellosaurus.txt",
+      "url": "https://www.cellosaurus.org/CVCL_1906.txt",
+      "sha256": "483bcc839f20a15f028abed2e844e0f31e4e34a422ec4fe3b9714c051a37da1c"
+    },
+    {
+      "file": "fig1.jpg",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2F1472-6882-12-149/MediaObjects/12906_2012_Article_1242_Fig1_HTML.jpg",
+      "sha256": "c013bd6b63a4c83a75bc5861864986f7a0115c55e618bbfccea30848edade1c6"
+    },
+    {
+      "file": "fig2.jpg",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2F1472-6882-12-149/MediaObjects/12906_2012_Article_1242_Fig2_HTML.jpg",
+      "sha256": "e08b1372a84d898ad3d11747982d26953a15507913c0b4a1de51fb29ea244036"
+    },
+    {
+      "file": "fig3.jpg",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2F1472-6882-12-149/MediaObjects/12906_2012_Article_1242_Fig3_HTML.jpg",
+      "sha256": "3de5a9a6f68ee8f053e93815ee378fe4a33e4e122c67331359cf24cd78adaee4"
+    },
+    {
+      "file": "fig4.jpg",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2F1472-6882-12-149/MediaObjects/12906_2012_Article_1242_Fig4_HTML.jpg",
+      "sha256": "a4eeef3655efb6f837cd274b907aa8c34fa1fdb9db3abb717e04c15e7badbf8c"
+    },
+    {
+      "file": "fig5.jpg",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2F1472-6882-12-149/MediaObjects/12906_2012_Article_1242_Fig5_HTML.jpg",
+      "sha256": "ab65925d27f8171f8c018c8bab5e5734bb1da9d4908e224f986f73f2c8ac124f"
+    },
+    {
+      "file": "fig6.jpg",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2F1472-6882-12-149/MediaObjects/12906_2012_Article_1242_Fig6_HTML.jpg",
+      "sha256": "9a3b9ea6ac9b6da5435e2f94d3cc6d624cb3355e6936f4945db206ac84af5489"
+    },
+    {
+      "file": "fig7.jpg",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2F1472-6882-12-149/MediaObjects/12906_2012_Article_1242_Fig7_HTML.jpg",
+      "sha256": "c21069dabaa8112a1128878e244c8c1ff9c725dad24274c538c7c7a3878402db"
+    },
+    {
+      "file": "supp1.tiff",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2F1472-6882-12-149/MediaObjects/12906_2012_1242_MOESM1_ESM.tiff",
+      "sha256": "4f3581318bd726de2491ad4e38b384e4eb90f011545039ab5544583156e79d90"
+    },
+    {
+      "file": "wi38-cellosaurus.txt",
+      "url": "https://www.cellosaurus.org/CVCL_0579.txt",
+      "sha256": "2e38c045148a66cd5bfd2522d3da7f1170099447a4fcd957dd9f999f40b7cf7d"
+    }
+  ],
+  "new_outer_or_ledger_reading_credit": 0,
+  "root_admission_pending": false,
+  "source_reviewer_new_compound_count": 0,
+  "status": "INTEGRATED_SOURCE_QUALIFICATION",
+  "source_reviewer_repo_edited": false,
+  "repository_integrated": true,
+  "qualification_md_sha256": "00e9087e21a04e7b6e1332293036b1225e7470be65db8085058293973adca06d",
+  "integration": {
+    "baseline_commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
+    "baseline_appraisals": 207,
+    "current_appraisals": 212,
+    "all207_prior_objects_unchanged": true,
+    "integrated_ids": [
+      "new-kalanchoe-kt-nb"
+    ],
+    "source_candidate_json_sha256": "120d41a1585a39e665259e5291216dd91b0be4eac3a7629c03d27b21afa9c621",
+    "independent_json_sha256": "5e02f6c076350910c6e84d54b312d65391c86a48ae1f5cd2bd8f94289f0a8fe0",
+    "independent_md_sha256": "3982c3bd1655f8adc706d40c6ed26e73b470f4863eae5415fc94b8afd850c14f",
+    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/terpenoid-kalanchoe-integration-20260923/root-reading.json",
+    "root_reading_sha256": "1f9215934332c74e8af6939dedccc709a301bc6e96ef22fa7847759a84cd86cc",
+    "reading_scope": {
+      "text_outputs": [
+        "144d8b",
+        "2b1140",
+        "729eb8",
+        "f1ad64"
+      ],
+      "complete_sections": [
+        "All Methods",
+        "Authors contributions",
+        "Complete viability/cell-cycle/chromosome-misalignment Results subsections and captions",
+        "S1 caption"
+      ],
+      "selected_sections": [
+        "Normal diploid effect Discussion",
+        "CENP-E/BuBR1/Mps1 Discussion",
+        "Official HEp2/WI38 identity fields"
+      ],
+      "images_viewed": [
+        "supp1.png",
+        "fig4.jpg",
+        "fig7.jpg"
+      ],
+      "findings": "Exact-source KT-NB fraction causes growth inhibition and mitotic defects; normal WI38 also affected. Native dose and denominator conflicts retained; no measured BUB1B/BubR1."
+    },
+    "new_outer_credit": 0
+  }
+}

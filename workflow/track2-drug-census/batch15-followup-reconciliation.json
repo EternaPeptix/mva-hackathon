@@ -3,28 +3,28 @@
   "date": "2026-09-23",
   "reviewer": "/root/retinoic_independent (source-only candidate assembler)",
   "repository": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
-  "repository_commit": "32c1db986e6f5728947a59e39d547183f686f2b9",
-  "authoritative_decision_count": 207,
+  "repository_commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
+  "authoritative_decision_count": 212,
   "historical_batch": 15,
   "historical_flag_count": 47,
-  "scope": "Source-only PDLSC-CM update to n64; no drug/compound identity, decisions object, catalog or join change. All46other record objects and all47original questions/flags preserved.",
+  "scope": "Two primary source qualifications update n122/n340 only. Five source-specific administered-material assessments are added; all 207 prior objects and the other 45 question objects remain unchanged.",
   "summary": {
-    "exact_source_questions_with_material_direct_qualified_answers": 13,
-    "substantive_primary_qualifications": 13,
+    "exact_source_questions_with_material_direct_qualified_answers": 15,
+    "substantive_primary_qualifications": 15,
     "same_source_target_only_partial_qualification": 0,
-    "no_direct_source_answer": 34,
-    "open_unassigned": 34,
+    "no_direct_source_answer": 32,
+    "open_unassigned": 32,
     "assigned_elsewhere_pending": 0,
     "different_experiment_context_does_not_close_question": 9,
     "fully_resolved_entire_original_composite_questions": 6,
     "new_unique_sources": 0,
     "new_abstract_reading_credit": 0,
     "new_primary_reading_credit": 0,
-    "direct_answers_with_unresolved_original_source_components": 7,
-    "fully_resolved_entire_original_composite_questions_scope": "Six original study-level questions answered within source limits; seven further direct qualifications retain unresolved source components. PDLSC-CM is source-only biological evidence, not a new compound or clinical benefit. No global completeness or MVA efficacy claim.",
+    "direct_answers_with_unresolved_original_source_components": 9,
+    "fully_resolved_entire_original_composite_questions_scope": "Six study-level answers within source limits; nine direct qualifications retain unresolved components. No clinical, global-completion or new unique-source credit.",
     "open_questions_with_different_experiment_context": 5
   },
-  "count_interpretation": "Thirteen of47 historical questions have direct qualified information; six are answered at source level, seven retain unresolved components and34lack a direct answer. Compound assessments remain207. This reconciliation assigns no new study, unique-source or primary-reading credit.",
+  "count_interpretation": "Fifteen of 47 questions have direct qualified information: six answered at source level, nine retaining unresolved components, and 32 without a direct answer. These are source-question statuses, not efficacy or global completion.",
   "source_search_and_reading": {
     "candidate_discovery": "PMID/PMCID/DOI and linked-version identifier search across repository qualification/review narrative and current decisions; named-intervention/context comparison used only to find candidates. Automatic matches were not treated as scientific resolution.",
     "actually_inspected": "All47frozen followup questions and source-specific annotations; five exact-source qualification locations and relevant companion JSON; listed related-evidence sections; selected current decision objects and all194baseline route identifiers and three newly integrated decision objects. UpdatedEML1 report/companionJSON and resveratrol/bladder documentation additions read without opening new primary assets. Integrated BAY qualification/companionJSON and corrected appraisal row subsequently inspected.",
@@ -132,11 +132,18 @@
       "role": "Current207assessment/12direct source-question baseline for n64-only candidate"
     },
     {
+      "source_kind": "baseline_git_blob",
+      "commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
+      "repo_relative": "workflow/track2-drug-census/decisions.json",
+      "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
+      "role": "207-assessment integration baseline, distinct from current ledger"
+    },
+    {
       "source_kind": "current_repository_file",
       "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
       "repo_relative": "workflow/track2-drug-census/decisions.json",
-      "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
-      "role": "Current207assessment ledger, byte-identical to baseline32c1db9; no source-only addition counted as a drug."
+      "sha256": "4b05570e9110a155581f59d0b6519c59a4daf7b07471e0c9109624d03dad4373",
+      "role": "Current 212-assessment ledger; all 207 prior objects unchanged"
     }
   ],
   "qualification_files": [
@@ -418,6 +425,34 @@
       "sha256": "8aadebda7e5882a963de052acb4e9f8ac191d66b52cf97b9948bd4c92bbf46e6",
       "line": 1,
       "location_status": "Integrated repository source-comparison file"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/zoledronate-cenpf-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/zoledronate-cenpf-qualification.md",
+      "sha256": "7290d8e1bf0f009966dbf5314f10f9d6e4f5de269ae3be513c27e00e920d8fec",
+      "line": 1,
+      "location_status": "Integrated repository qualification"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/zoledronate-cenpf-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/zoledronate-cenpf-qualification.json",
+      "sha256": "975fb460410af8b8991bd4b0d86987470ac851b5285fe44c4eeb33e52b6cfab5",
+      "line": 1,
+      "location_status": "Integrated repository qualification"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/kalanchoe-mitosis-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/kalanchoe-mitosis-qualification.md",
+      "sha256": "00e9087e21a04e7b6e1332293036b1225e7470be65db8085058293973adca06d",
+      "line": 1,
+      "location_status": "Integrated repository qualification"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/kalanchoe-mitosis-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/kalanchoe-mitosis-qualification.json",
+      "sha256": "fafb543debe7f9d0aa339ffbbdc9e13330a88ed85de30dcec52f194eaa488410",
+      "line": 1,
+      "location_status": "Integrated repository qualification"
     }
   ],
   "records": [
@@ -947,17 +982,47 @@
         "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
         "json_pointer": "/records/121/followup_reason"
       },
-      "classification": "open_no_direct_source_qualified_answer",
-      "judgment": "No exact-source zoledronic-acid qualification found; the nonmalignant MCF-10A CENP-F null does not supply all requested segregation/cytotoxicity comparisons.",
-      "remaining_question": "Identify the rescuing mevalonate intermediate and doses; compare cancer killing with normal-cell chromosome outcomes.",
-      "source_qualified_answer_components": [],
-      "qualification_pointers": [],
-      "current_decision_ids": [],
+      "classification": "direct_primary_answers_with_remaining_experimental_gaps",
+      "judgment": "The exact source qualifies E,E-farnesol partial CENP-F localization rescue, dose-specific geranylgeraniol evidence and zoledronic-acid/clodronate comparisons. Neither BUBR1 nor completed segregation rescue was measured.",
+      "remaining_question": "Quantitative cancer-versus-normal viability and chromosome outcomes remain unavailable; MCF-10A and apoptosis nulls and 150 µM GGOH reversal are data not shown. Farnesol correction of segregation and useful normal-cell function is untested.",
+      "source_qualified_answer_components": [
+        "Source-confirmed trans,trans/(E,E)-farnesol at 50/100 µM concurrently with 25 µM zoledronic acid for 48 h raised localized-cell fractions from 16.7% to 49.2%/60.0%, reported P<.01; native Figure 6A supports partial rescue, not full normalization.",
+        "Source-labelled trans-geranylgeraniol at 50/100 µM gave nonsignificant comparisons in Figure 6B; reversal at 150 µM was reported without displayed data or a separate high-dose timing protocol. Double-bond geometry is incompletely specified.",
+        "Zoledronic acid reduced localized CENP-F and increased metaphase-region misalignment; tripolar-morphology increases were nonsignificant. Clodronate disodium tetrahydrate 500 µM/48 h was an administered localization null, data not shown.",
+        "No total CENP-F/BUBR1 restoration, actual farnesylation measurement or completed daughter-chromosome rescue was established. Normal MCF-10A and preliminary apoptosis results were unshown; cancer pulse-to-assay timing remains limited."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/zoledronate-cenpf-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/zoledronate-cenpf-qualification.md",
+          "sha256": "7290d8e1bf0f009966dbf5314f10f9d6e4f5de269ae3be513c27e00e920d8fec",
+          "line": 1,
+          "location_status": "Integrated repository qualification"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/zoledronate-cenpf-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/zoledronate-cenpf-qualification.json",
+          "sha256": "975fb460410af8b8991bd4b0d86987470ac851b5285fe44c4eeb33e52b6cfab5",
+          "line": 1,
+          "location_status": "Integrated repository qualification"
+        }
+      ],
+      "current_decision_ids": [
+        "new-zoledronic-acid-cenpf",
+        "new-trans-trans-farnesol",
+        "new-trans-geranylgeraniol-source",
+        "new-clodronate-cenpf-control"
+      ],
       "related_evidence_is_not_resolution": [],
       "full_original_composite_question_resolved": false,
       "new_unique_source_credit": 0,
       "new_primary_reading_credit": 0,
-      "publication_or_lineage_limit": null
+      "publication_or_lineage_limit": "Bounded source-review notice check and distinct reading scopes retained in the qualification; no global notice guarantee.",
+      "remaining_gap_types": [
+        "unshown_normal_cell_and_cytotoxicity_comparisons",
+        "GGOH_identity_and_high_dose_quantification",
+        "completed_segregation_and_useful_function"
+      ]
     },
     {
       "batch_review_index": 128,
@@ -1730,17 +1795,45 @@
         "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
         "json_pointer": "/records/339/followup_reason"
       },
-      "classification": "open_no_direct_source_qualified_answer",
-      "judgment": "No exact Kalanchoe fraction qualification found; extract identity, cell model and KT-versus-KT-NB dose label remain unresolved.",
-      "remaining_question": "Resolve cell identities, n-butanol fraction composition/dose labeling and normal-cell controls without assigning whole-plant efficacy.",
-      "source_qualified_answer_components": [],
-      "qualification_pointers": [],
-      "current_decision_ids": [],
+      "classification": "direct_primary_answers_with_remaining_experimental_gaps",
+      "judgment": "The exact ethanol-extracted n-butanol fraction KT-NB has cancer-culture growth inhibition and mitotic defects. WI-38 is relatively spared but affected. Preparation composition and source reporting conflicts remain unresolved; no BUB1B/BubR1 response was measured.",
+      "remaining_question": "Plant part/voucher, chemical composition and active-content standardization remain unknown; S1 doses/time normalization and Figure 4/7 denominators are unresolved. No isolated constituent, causal target or useful normal-cell/MVA rescue is established.",
+      "source_qualified_answer_components": [
+        "Author Leu collected and identified the plant. Ethanol extraction followed by water/chloroform/n-butanol partition yielded KT-NB, the only assayed fraction. This is not a household plant, tea, juice or single-molecule exposure.",
+        "HeLa counts and cancer-panel MTT fall; 6.75 µg/mL for 24 h produces multipolar spindles and chromosome misalignment. These are perturbation outcomes, not faithful division or useful-cell restoration.",
+        "WI-38 supplement curves remain below their contemporaneous untreated control despite relative sparing versus A549. Caption versus plotted dose series disagree; untreated controls grow above the time-zero 100% reference.",
+        "HEp-2 is registry-listed as a HeLa derivative. Figure 4 phase totals are incomplete and 72 h sub-G1 is 33% in the native table versus 35% in prose; Figure 7D denominator is ambiguous and distinct from the all-mitotic Figure 7E endpoint.",
+        "BubR1 appears only in CENP-E literature background. No BUB1B RNA, BubR1 protein/function, direct target assay, animal efficacy or MVA benefit was supplied."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/kalanchoe-mitosis-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/kalanchoe-mitosis-qualification.md",
+          "sha256": "00e9087e21a04e7b6e1332293036b1225e7470be65db8085058293973adca06d",
+          "line": 1,
+          "location_status": "Integrated repository qualification"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/kalanchoe-mitosis-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/kalanchoe-mitosis-qualification.json",
+          "sha256": "fafb543debe7f9d0aa339ffbbdc9e13330a88ed85de30dcec52f194eaa488410",
+          "line": 1,
+          "location_status": "Integrated repository qualification"
+        }
+      ],
+      "current_decision_ids": [
+        "new-kalanchoe-kt-nb"
+      ],
       "related_evidence_is_not_resolution": [],
       "full_original_composite_question_resolved": false,
       "new_unique_source_credit": 0,
       "new_primary_reading_credit": 0,
-      "publication_or_lineage_limit": null
+      "publication_or_lineage_limit": "Bounded source-review notice check and distinct reading scopes retained in the qualification; no global notice guarantee.",
+      "remaining_gap_types": [
+        "preparation_composition_and_reproducibility",
+        "dose_normalization_and_denominator_conflicts",
+        "causal_target_and_useful_normal_cell_function"
+      ]
     },
     {
       "batch_review_index": 344,
@@ -2134,80 +2227,89 @@
         "historical_preservation_check": {
           "historical_preservation_check": {
             "historical_preservation_check": {
-              "only_written_files": [
-                "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.md",
-                "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.json"
+              "historical_preservation_check": {
+                "only_written_files": [
+                  "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.md",
+                  "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.json"
+                ],
+                "frozen_artifacts_checked": 272,
+                "frozen_artifacts_sorted_name_hash_manifest_sha256": "83b57bb9bbedff42b1a19e2f8abb3f35f4382fe80b3ea63158d354c491c110ed",
+                "frozen_artifacts_changed": [],
+                "original_followup_flags_mutated": false,
+                "repository_files_written": false,
+                "other45record_objects_unchanged": true,
+                "changed_record_indices": [
+                  52,
+                  164
+                ]
+              },
+              "changed_record_indices": [
+                35,
+                52,
+                225
               ],
-              "frozen_artifacts_checked": 272,
-              "frozen_artifacts_sorted_name_hash_manifest_sha256": "83b57bb9bbedff42b1a19e2f8abb3f35f4382fe80b3ea63158d354c491c110ed",
-              "frozen_artifacts_changed": [],
+              "other44record_objects_unchanged": true,
               "original_followup_flags_mutated": false,
               "repository_files_written": false,
-              "other45record_objects_unchanged": true,
-              "changed_record_indices": [
-                52,
-                164
-              ]
+              "scope": "Only candidate directory written; no old source packages modified."
             },
             "changed_record_indices": [
-              35,
-              52,
-              225
+              156
             ],
-            "other44record_objects_unchanged": true,
-            "original_followup_flags_mutated": false,
-            "repository_files_written": false,
-            "scope": "Only candidate directory written; no old source packages modified."
+            "other46record_objects_unchanged": true,
+            "all47_questions_and_flags_unchanged": true,
+            "all202_prior_ledger_objects_byte_equivalent": true,
+            "repository_files_written": false
           },
           "changed_record_indices": [
-            156
+            390
           ],
           "other46record_objects_unchanged": true,
           "all47_questions_and_flags_unchanged": true,
-          "all202_prior_ledger_objects_byte_equivalent": true,
+          "all203_prior_ids_retained": true,
+          "other202_prior_objects_unchanged": true,
           "repository_files_written": false
         },
         "changed_record_indices": [
-          390
+          418
         ],
         "other46record_objects_unchanged": true,
         "all47_questions_and_flags_unchanged": true,
-        "all203_prior_ids_retained": true,
-        "other202_prior_objects_unchanged": true,
+        "all206_prior_objects_unchanged": true,
         "repository_files_written": false
       },
       "changed_record_indices": [
-        418
+        64
       ],
       "other46record_objects_unchanged": true,
       "all47_questions_and_flags_unchanged": true,
-      "all206_prior_objects_unchanged": true,
+      "all207_decisions_unchanged": true,
+      "catalog_and_joins_unchanged": true,
       "repository_files_written": false
     },
     "changed_record_indices": [
-      64
+      122,
+      340
     ],
-    "other46record_objects_unchanged": true,
+    "other45record_objects_unchanged": true,
     "all47_questions_and_flags_unchanged": true,
-    "all207_decisions_unchanged": true,
-    "catalog_and_joins_unchanged": true,
-    "repository_files_written": false
+    "all207_prior_decision_objects_unchanged": true
   },
   "parent_assigned_next_source": "Only n64 qualified in this source-only update; constituent efficacy and beyond-culture questions remain open.",
-  "status": "integrated_source_only_reconciliation",
-  "repository_snapshot_state": "Integrated source-only PDLSC-CM comparison; unchanged207assessment ledger. Recorded HEAD is the parent until commit.",
-  "freeze_note": "Only n64 is updated after bounded root and independent checks. Ledger/catalog/joins/inventories and all other source-question objects remain unchanged.",
+  "status": "integrated_source_question_reconciliation",
+  "repository_snapshot_state": "Integrated 212-assessment source snapshot; recorded HEAD identifies its parent until commit.",
+  "freeze_note": "All original questions and flags retained. Actual-intervention assessments do not inherit cited genetic, molecular or normal-function outcomes.",
   "historical_integration_transform_at_197": {
     "original_external_markdown_sha256": "a4b579148add74cc47af028853e8f0ac14fd2336dc4b87d5dafe4b256d9c77a7",
     "source_md_sha256": "3df5d40908dd864a6319a9b27e11f8ea0137ca373191382ce29625b368f2ca2b",
     "scope": "Portable same-directory document links and curated prose spacing only; original JSON questions/answers and source hashes unchanged."
   },
   "previous_reconciliation": {
-    "commit": "32c1db986e6f5728947a59e39d547183f686f2b9",
+    "commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
     "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
-    "sha256": "91fd4f4a586b97189694fbc7ce66582d94f111a860f35cc1174e79a0f70e22ce"
+    "sha256": "17cc1103a370f427bb5c57c305e99f6385e871f48cad80293fee4ff62bf6939a"
   },
-  "reconciliation_md_sha256": "c38c88836827184b6d7fa9f7e1949217c35de9f9039bd2a7b65dd3248af374b1",
+  "reconciliation_md_sha256": "ff82a912f6871be827d7ef3f39be45ecfaae44b85cbace084486b3474662f44c",
   "decision_count_scope": "207 is the unchanged authoritative baseline and proposed source-only integration count; no compound assessment or catalog join is added.",
   "repository_authoritative_decision_count_at_baseline": 207,
   "historical_input_provenance_at_202": [
@@ -2358,23 +2460,29 @@
     "source_scope": "Complete root scientific main/captions/Table1/supplementary text, selected images, targeted GEO values/calls; no raw-array or new outer credit."
   },
   "candidate_input_ledger": {
-    "source_kind": "unchanged_baseline_git_blob",
-    "commit": "32c1db986e6f5728947a59e39d547183f686f2b9",
+    "source_kind": "baseline_git_blob",
+    "commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
     "repo_relative": "workflow/track2-drug-census/decisions.json",
     "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
     "assessments": 207,
-    "scope": "No candidate ledger produced or edited; all207existing assessment objects remain unchanged."
+    "scope": "Baseline before adding five reviewed material-specific assessments."
   },
   "root_integration": {
-    "baseline": "32c1db986e6f5728947a59e39d547183f686f2b9",
-    "candidate_reconciliation_sha256": "b9b901a726c69d0537850cc970d6568190ab0a39f74941f9eb634d14825dcdaf",
-    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pdls-source-integration-20260923/root-reading.json",
-    "root_reading_sha256": "0a644cf31bd629a1c385e30af1c16254f5ae9aa306bca10d5be7e843eb454772",
+    "baseline": "3c6d2e4f04df81b89525fa43612de61fe76db191",
+    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/terpenoid-kalanchoe-integration-20260923/root-reading.json",
+    "root_reading_sha256": "1f9215934332c74e8af6939dedccc709a301bc6e96ef22fa7847759a84cd86cc",
     "changed_record_indices": [
-      64
+      122,
+      340
     ],
-    "ledger_modified": false,
-    "source_scope": "Source-only biological-preparation comparison with bounded root/independent primary reading and native-cell replay; no new drug or outer credit."
+    "new_decision_ids": [
+      "new-zoledronic-acid-cenpf",
+      "new-trans-trans-farnesol",
+      "new-trans-geranylgeraniol-source",
+      "new-clodronate-cenpf-control",
+      "new-kalanchoe-kt-nb"
+    ],
+    "new_outer_reading_credit": 0
   },
   "historical_root_integration_at_207": {
     "baseline": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
@@ -2390,5 +2498,24 @@
     "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/retinoic-barrier-followup-20260923/candidate/candidate-decisions.json",
     "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
     "scope": "Frozen207assessment historical integration input."
+  },
+  "historical_root_integration_before_212": {
+    "baseline": "32c1db986e6f5728947a59e39d547183f686f2b9",
+    "candidate_reconciliation_sha256": "b9b901a726c69d0537850cc970d6568190ab0a39f74941f9eb634d14825dcdaf",
+    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pdls-source-integration-20260923/root-reading.json",
+    "root_reading_sha256": "0a644cf31bd629a1c385e30af1c16254f5ae9aa306bca10d5be7e843eb454772",
+    "changed_record_indices": [
+      64
+    ],
+    "ledger_modified": false,
+    "source_scope": "Source-only biological-preparation comparison with bounded root/independent primary reading and native-cell replay; no new drug or outer credit."
+  },
+  "historical_candidate_input_ledger_before_212": {
+    "source_kind": "unchanged_baseline_git_blob",
+    "commit": "32c1db986e6f5728947a59e39d547183f686f2b9",
+    "repo_relative": "workflow/track2-drug-census/decisions.json",
+    "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
+    "assessments": 207,
+    "scope": "No candidate ledger produced or edited; all207existing assessment objects remain unchanged."
   }
 }

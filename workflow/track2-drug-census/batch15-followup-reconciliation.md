@@ -1,8 +1,8 @@
 # Batch 15 historical follow-up reconciliation
 
-**Thirteen of the 47 historical questions have direct source-qualified information; 34 lack a direct answer in this update.** Six original study-level questions are answered within limits; seven direct qualifications retain unresolved source components, now including PDLSC-CM. This is not global scientific completion, clinical benefit or MVA efficacy.
+**Fifteen of the 47 historical questions have direct source-qualified information; 32 lack a direct answer.** Six study-level questions are answered within limits; nine retain unresolved source components. These statuses do not establish clinical benefit or global completion.
 
-**Integrated source-only PDLSC-CM comparison:** baseline `32c1db986e6f5728947a59e39d547183f686f2b9` has207assessments, which remain unchanged. No new drug/compound identity or catalog join is added. Only n64 changes; all46other record objects and all47original questions/flags remain. Source, independent and root reading scopes are retained separately in the integrated qualification.
+**CENP-F and Kalanchoe update:** five source-specific administered-material assessments extend the ledger from 207 to 212. Only n122 and n340 change; all other 45 question objects, all 47 original questions/flags and all 207 prior assessments remain unchanged. Source, independent and root reading scopes remain distinct.
 
 ## Direct coverage and remaining gaps
 
@@ -92,7 +92,7 @@ The resveratrol and bladder study-level exposure documentation gaps were closed 
 
 ## Remaining questions without a direct qualified answer
 
-Nine records retain related evidence from a different experiment; five of those remain among the34 open questions. Such related evidence never substitutes for the exact-source qualification.
+Nine records retain related evidence from a different experiment; five of those remain among the 32 open questions. Such related evidence never substitutes for the exact-source qualification.
 
 | Batch n / source | Why existing work does not close it | Bounded remaining question |
 |---|---|---|
@@ -105,7 +105,6 @@ Nine records retain related evidence from a different experiment; five of those 
 | [n97 / 23899403](https://pubmed.ncbi.nlm.nih.gov/23899403/) | No exact synchronization-source qualification found. Thymidine use as a reagent does not establish supplementation or an in-vivo sensitizer. | Check thymidine synchronization/release timing, matched controls and any actual animal Taxol-resensitization arm. |
 | [n102 / 37935787](https://pubmed.ncbi.nlm.nih.gov/37935787/) | No qualified prespecified controlled subgroup analysis found; the two abstract pCR trends remain nonsignificant. | Check whether prespecified controlled analyses support MKS-high/ERS-low immunotherapy benefit beyond the P=.07 pCR trend. |
 | [n107 / 28035071](https://pubmed.ncbi.nlm.nih.gov/28035071/) | The unnamed kinase inhibitors have not been resolved by an exact-source qualification. | Identify the inhibitors/doses that reduce sarcoma invasion independently of cytotoxicity and any actual in-vivo confirmation. |
-| [n122 / 20015195](https://pubmed.ncbi.nlm.nih.gov/20015195/) | No exact-source zoledronic-acid qualification found; the nonmalignant MCF-10A CENP-F null does not supply all requested segregation/cytotoxicity comparisons. | Identify the rescuing mevalonate intermediate and doses; compare cancer killing with normal-cell chromosome outcomes. |
 | [n128 / 36031387](https://pubmed.ncbi.nlm.nih.gov/36031387/) | No exact Trip13/Plin2 qualification found; a genetic-depletion outcome does not resolve the separate paclitaxel exposure-response question. | Qualify paclitaxel dose-response, Plin2 dependence and normal-cell controls separately from Trip13 depletion. |
 | [n133 / 35302600](https://pubmed.ncbi.nlm.nih.gov/35302600/) | Existing BI2536 sources concern patient ciliogenesis or UBAP2L/other mitotic perturbations, not the uterine leiomyosarcoma monotherapy/combination animal arms. | Extract distinct BI-2536 monotherapy and prexasertib/cisplatin regimens, tumor effects, randomization and toxicity controls. |
 | [n183 / 18068629](https://pubmed.ncbi.nlm.nih.gov/18068629/) | No exact TGFBI-source qualification found; recombinant-protein cell sensitization is distinct from human tumor-staining correlation. | Extract recombinant TGFBI exposures and any actual in-vivo administered-protein controls, retaining the observational clinical boundary. |
@@ -119,7 +118,6 @@ Nine records retain related evidence from a different experiment; five of those 
 | [n307 / 23940287](https://pubmed.ncbi.nlm.nih.gov/23940287/) | No exact MPS1-IN-3 glioblastoma qualification found; different MPS1 inhibitors cannot close the compound-specific survival and toxicity question. | Qualify dose/brain exposure, selectivity, single-agent controls and measured toxicity for the small orthotopic combination-survival study. |
 | [n320 / 33804489](https://pubmed.ncbi.nlm.nih.gov/33804489/) | Existing GSK923295 qualification is a LIC-depletion HeLaM structural counterexample, not the medulloblastoma/normal-neural-progenitor comparison. | Qualify medulloblastoma dose/time, target engagement and matched normal neural-progenitor response; retain antitumor activity and do not extrapolate the HeLaM result. |
 | [n336 / 21179037](https://pubmed.ncbi.nlm.nih.gov/21179037/) | No exact PBOX-15/TRAIL qualification found; primary patient cells are ex vivo, not a treated clinical cohort. | Extract compound/protein doses, primary-cell denominators, normal-cell window and quantitative interaction analysis. |
-| [n340 / 22963191](https://pubmed.ncbi.nlm.nih.gov/22963191/) | No exact Kalanchoe fraction qualification found; extract identity, cell model and KT-versus-KT-NB dose label remain unresolved. | Resolve cell identities, n-butanol fraction composition/dose labeling and normal-cell controls without assigning whole-plant efficacy. |
 | [n344 / 39668392](https://pubmed.ncbi.nlm.nih.gov/39668392/) | Compound-9 remains chemically unresolved in the current package; target or numbering similarity cannot join it to an existing MPS1 compound. | Resolve chemical identity/exposure and target-selectivity evidence, retaining both sensitive and resistant gastric lines and normal controls. |
 | [n358 / 36190432](https://pubmed.ncbi.nlm.nih.gov/36190432/) | No exact siHIF2 formulation/trial qualification found; the highlighted responder does not resolve the full phase1 denominator, durability or safety. | Extract RNA formulation/dose, resistant-mutant coverage, full trial denominator, response durability and safety; keep PT2399 and belzutifan distinct. |
 | [n400 / 36380369](https://pubmed.ncbi.nlm.nih.gov/36380369/) | No exact M2I-1 drug-arm qualification found; genetic SGOL2 animal benefit cannot be assigned to the compound. | Separate M2I-1 exposure/model arms from genetic animal experiments and inspect selectivity/normal-cell fidelity; linked preprint content remains unreviewed here. |
@@ -175,6 +173,26 @@ Pointers: [PDLSC secretome qualification](pdls-secretome-qualification.md), [str
 
 The JSON preserves all 47 original questions verbatim, record/abstract hashes, source pointers/hashes, relevant decision IDs, exact answered components and bounded remaining questions. Historical version/notice limits stay attached: PPR918452 links PMID41120338 by title/first-author matching; PMID35302600 links PPR440054; PMID23403633 links commentary23459035; PMID36380369 links PPR525543. Metadata links do not constitute reading, authenticated version equivalence or independent-study credit.
 
-This reconciliation maps separately attributed primary qualifications to the original questions. It does not turn cross-model pathway membership into a drug response or culture induction into disease repair. Only n64 changes in this candidate; all46other record objects and all47original questions/flags are preserved. Prior source qualifications and their reading scopes remain unchanged; the PDLSC-CM independent/root reviews remain separately attributed. Candidate assembly adds no scientific reading credit.
+This reconciliation maps separately attributed primary qualifications to the original questions. It does not turn cross-model pathway membership into a drug response or culture induction into disease repair. Only n122/n340 change in this update; all other 45 record objects and all 47 original questions/flags are preserved. Prior source qualifications and their reading scopes remain unchanged. Independent/root scopes for both new qualifications are separately attributed; integration adds no scientific reading credit.
 
-The unchanged207assessment reconciliation at32c1db986e6f5728947a59e39d547183f686f2b9 is the hash-bound baseline Git object. Candidate input hashes, source scopes and remaining gaps are recorded in the companion JSON. The candidate is frozen after bounded independent/root reviews.
+The 207-assessment reconciliation at `3c6d2e4f04df81b89525fa43612de61fe76db191` is the hash-bound baseline. Current 212-assessment input hashes, source scopes and remaining gaps are recorded separately in the companion JSON.
+
+## Newly qualified n122
+
+The exact source qualifies E,E-farnesol partial CENP-F localization rescue, dose-specific geranylgeraniol evidence and zoledronic-acid/clodronate comparisons. Neither BUBR1 nor completed segregation rescue was measured.
+
+Source-confirmed trans,trans/(E,E)-farnesol at 50/100 µM concurrently with 25 µM zoledronic acid for 48 h raised localized-cell fractions from 16.7% to 49.2%/60.0%, reported P<.01; native Figure 6A supports partial rescue, not full normalization.
+
+**Remaining scope:** Quantitative cancer-versus-normal viability and chromosome outcomes remain unavailable; MCF-10A and apoptosis nulls and 150 µM GGOH reversal are data not shown. Farnesol correction of segregation and useful normal-cell function is untested.
+
+Pointers: [primary qualification](zoledronate-cenpf-qualification.md), [structured evidence](zoledronate-cenpf-qualification.json).
+
+## Newly qualified n340
+
+The exact ethanol-extracted n-butanol fraction KT-NB has cancer-culture growth inhibition and mitotic defects. WI-38 is relatively spared but affected. Preparation composition and source reporting conflicts remain unresolved; no BUB1B/BubR1 response was measured.
+
+Author Leu collected and identified the plant. Ethanol extraction followed by water/chloroform/n-butanol partition yielded KT-NB, the only assayed fraction. This is not a household plant, tea, juice or single-molecule exposure.
+
+**Remaining scope:** Plant part/voucher, chemical composition and active-content standardization remain unknown; S1 doses/time normalization and Figure 4/7 denominators are unresolved. No isolated constituent, causal target or useful normal-cell/MVA rescue is established.
+
+Pointers: [primary qualification](kalanchoe-mitosis-qualification.md), [structured evidence](kalanchoe-mitosis-qualification.json).

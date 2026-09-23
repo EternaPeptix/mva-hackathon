@@ -3642,6 +3642,104 @@
         "https://pubmed.ncbi.nlm.nih.gov/37237379/"
       ],
       "rationale": "All-trans retinoic acid increased TEER during mouse ESC-D3-derived barrier differentiation to about 350–400 Ωcm² by day 7, compared with 60–100 without RA over 11 days; three independent differentiations and supporting marker changes were reported, but no panel-specific TEER P value was supplied. This was model induction with growth factors, astrocyte-conditioned medium, hydrocortisone and Y-27632, not repair of a diseased BBB. The mixed endothelial–epithelial model restricted tracer permeability and distinguished species-selective antibody transport, but these were optimized-model properties without a separate RA-only transport contrast. BUB1B is listed in the upregulated cell-cycle pathway for derived mBECs versus primary mBECs, not RA-positive versus RA-negative cultures; no individual BUB1B effect size/P or BUBR1 protein/function was established. Native PDF page 3 prints 10 mM RA in initial Methods while the same-page protocol figure, Results and transwell Methods specify 10 µM, leaving initial exposure unresolved. Tretinoin is verified as the same all-trans molecular entity by official PubChem CID/InChIKey lookup; this implies no product, formulation, approval, exposure or clinical efficacy equivalence. Schematic/prose day labels and density optimum disagree, and the supportive cofactors prevent interpreting the result as RA-alone sufficiency or tested synergy."
+    },
+    {
+      "source_report": "workflow/track2-drug-census/zoledronate-cenpf-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3922372/",
+        "https://doi.org/10.1111/j.1582-4934.2009.00995.x",
+        "https://eprints.whiterose.ac.uk/id/eprint/86805/7/WRRO_86805.pdf"
+      ],
+      "shared_primary_source_group": "PMID20015195",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys; no BUB1B-deficient or MVA model tested.",
+      "decision_id": "new-zoledronic-acid-cenpf",
+      "route": "Zoledronic acid / source hydrated-disodium CENP-F perturbation",
+      "match_aliases": [
+        "zoledronic acid",
+        "zoledronate"
+      ],
+      "disposition": "Retain cancer-cell mechanistic comparator; no demonstrated BUBR1 or chromosome-fidelity restoration",
+      "evidence_scope": "One in-vitro primary, shared with the two alcohol intermediates and clodronate control. CENP-F localization, fixed-cell mitotic-phase distributions and chromosome alignment were measured; normal-cell and apoptosis comparisons were reported without displayed data.",
+      "rationale": "The source administered zoledronic acid as hydrated disodium salt, described as 4.5 hydrate, from a 10 mM PBS stock. Exposures at 10/25 µM reduced the percentage of breast-cancer mitotic cells with punctate kinetochore CENP-F; 6 µM for 48 h also reduced localization in MDA-MB-436 (59.2% versus 90.0% control, reported P<.05). This measures localization, not total CENP-F loss or direct farnesylation. After 48 h, 10/25 µM increased metaphase-region chromosome misalignment (4.7%/7.3% versus 0.3% control); tripolar-morphology increases were nonsignificant. General early-mitotic-phase shifts occurred only in selected dose/line/time conditions. MCF-10A localization, phase and alignment/spindle nulls were data not shown, as were no-apoptosis observations in MDA-MB-436 at 25 µM for 72 h and MCF-7 at 25 µM for 48 h; this paper does not demonstrate tumor killing or general normal-tissue safety. Cancer pulse-to-assay timing is not fully specified by Figures 3/5; Figure 2 explicitly uses 24 h drug plus 24 h drug-free, whereas MCF-10A explicitly totals 48 h. No BUBR1 response, completed chromosome-fidelity benefit or animal efficacy was measured.",
+      "identity_limit": "The source hydrated disodium formulation is preserved. Zoledronic acid/zoledronate name aliases map to CHEMBL924, whose preferred name is ZOLEDRONIC ACID ANHYDROUS; the grouping does not verify salt/hydrate, formulation, exposure, current availability or regulatory equivalence.",
+      "next_decisive_gap": "Demonstrate target-specific causation and distinguish localization effects from cell death, completed chromosome segregation and normal-cell outcomes under defined exposure."
+    },
+    {
+      "source_report": "workflow/track2-drug-census/zoledronate-cenpf-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3922372/",
+        "https://doi.org/10.1111/j.1582-4934.2009.00995.x",
+        "https://eprints.whiterose.ac.uk/id/eprint/86805/7/WRRO_86805.pdf"
+      ],
+      "shared_primary_source_group": "PMID20015195",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys; no BUB1B-deficient or MVA model tested.",
+      "decision_id": "new-trans-trans-farnesol",
+      "route": "(E,E)/trans,trans-farnesol / partial CENP-F-localization rescue",
+      "match_aliases": [
+        "trans,trans-farnesol",
+        "trans-trans farnesol",
+        "(E,E)-farnesol"
+      ],
+      "disposition": "Retain direct source-specific protein-localization rescue; no BUBR1, chromosome-fidelity or survival rescue established",
+      "evidence_scope": "Direct compound-treated rescue arms in MDA-MB-436 during concurrent zoledronic-acid exposure; same primary as the other three comparators, not independent replication or delayed treatment of an established defect.",
+      "rationale": "The primary explicitly identifies Sigma trans,trans-farnesol as the (E,E) isomer. Concurrent 50 or 100 µM farnesol with 25 µM zoledronic acid for 48 h increased cells with kinetochore-localized CENP-F from 16.7% with zoledronic acid alone to 49.2% and 60.0%, respectively (both reported P<.01; three experiments, mean±SEM). Native Figure 6A supports these comparisons. Both means remain below the approximately 90% untreated graph value, without a reported rescue-versus-untreated P. Farnesol alone at 50/100 µM reportedly did not significantly change localization. This direct partial protein-localization restoration is valuable evidence for a mevalonate/prenylation-linked mechanism, but does not isolate CENP-F as the sole target or measure total protein abundance. Farnesol correction of chromosome alignment, completed segregation, viability or BUBR1 was not tested, and no normal-cell rescue or MVA benefit is established.",
+      "identity_limit": "Only source-confirmed (E,E)/trans,trans-farnesol is appraised. Generic farnesol mixtures, other isomers, FPP and food/fragrance products do not inherit efficacy. No chemical catalog/CAS identifier, purity or solvent was reported; source-qualified aliases have no current catalog match, which is not evidence about broader availability or approval.",
+      "next_decisive_gap": "Test whether exact-isomer localization rescue also restores completed chromosome fidelity and useful normal-cell function, including a relevant BUB1B-deficient context."
+    },
+    {
+      "source_report": "workflow/track2-drug-census/zoledronate-cenpf-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3922372/",
+        "https://doi.org/10.1111/j.1582-4934.2009.00995.x",
+        "https://eprints.whiterose.ac.uk/id/eprint/86805/7/WRRO_86805.pdf"
+      ],
+      "shared_primary_source_group": "PMID20015195",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys; no BUB1B-deficient or MVA model tested.",
+      "decision_id": "new-trans-geranylgeraniol-source",
+      "route": "Source-labelled trans-geranylgeraniol / dose-qualified CENP-F rescue comparison",
+      "match_aliases": [
+        "trans-geranylgeraniol"
+      ],
+      "disposition": "Retain mixed dose-specific evidence: 50/100 µM nonsignificant and 150 µM reversal reported without shown data; no BUBR1/fidelity rescue",
+      "evidence_scope": "Actual administered geranylgeraniol comparison in the shared MDA-MB-436 rescue experiment. Lower-dose native figure data and the higher-dose unshown report have distinct evidential depth.",
+      "rationale": "Sigma source-labelled trans-geranylgeraniol at 50 or 100 µM, concurrently with 25 µM zoledronic acid for 48 h, did not significantly reverse CENP-F delocalization; Figure 6B explicitly marks both comparisons against zoledronic acid alone as nonsignificant. Although plotted means increase, those comparisons do not establish a significant low-dose rescue. The Results separately report reversal at 150 µM geranylgeraniol with 25 µM zoledronic acid, data not shown, with no effect magnitude, variance or exact P and no separate high-dose timing protocol. Geranylgeraniol alone at 50/100 µM reportedly did not significantly alter localization. Preserve this higher-dose positive and do not infer a class-wide GGOH null. No geranylgeraniol correction of chromosome fidelity, cell survival, BUBR1 protein or normal-cell function was tested.",
+      "identity_limit": "The source prints trans-geranylgeraniol without enumerating all double-bond configurations. Geometry remains incompletely specified: do not substitute all-trans/(2E,6E,10E), generic mixtures or GGPP. Catalog/CAS, purity and solvent were not reported, and the exact source-labelled alias has no current catalog match; no market/regulatory conclusion follows.",
+      "next_decisive_gap": "Resolve complete chemical identity and reproduce the 150 µM result with quantitative localization and independent fidelity/viability endpoints before assigning a functional restoration role."
+    },
+    {
+      "source_report": "workflow/track2-drug-census/zoledronate-cenpf-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3922372/",
+        "https://doi.org/10.1111/j.1582-4934.2009.00995.x",
+        "https://eprints.whiterose.ac.uk/id/eprint/86805/7/WRRO_86805.pdf"
+      ],
+      "shared_primary_source_group": "PMID20015195",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys; no BUB1B-deficient or MVA model tested.",
+      "decision_id": "new-clodronate-cenpf-control",
+      "route": "Clodronate disodium tetrahydrate / administered localization null control",
+      "match_aliases": [
+        "clodronate disodium tetrahydrate"
+      ],
+      "disposition": "Retain actually administered null comparator; 500 µM for 48 h CENP-F result is data not shown and supplies no positive restoration credit",
+      "evidence_scope": "A separate non-nitrogen bisphosphonate control in the same primary; reported localization result only, without displayed numerical observations, variance or statistical equivalence testing.",
+      "rationale": "The source used Leiras Oy clodronate, identified as dichloromethylene bisphosphonate disodium tetrahydrate, prepared as a 50 mM water stock. At 500 µM for 48 h in MDA-MB-436, clodronate reportedly caused no change in CENP-F localization, data not shown. This administered negative control supports the source comparison with zoledronic acid, but is not a demonstrated repair effect, a verified equivalence result or proof of a unique molecular target. No clodronate BUB1B/BUBR1 assay, completed chromosome segregation, normal-cell functional benefit, cytotoxicity comparison or MVA response is established by this experiment.",
+      "identity_limit": "The precise clodronate disodium tetrahydrate alias maps to CHEMBL12318 via source CHEMBL1520188, while the grouped preferred name is CLODRONIC ACID. This is a name/form cross-reference, not evidence that all acid/salt formulations share the null or that a current product is available or approved. No chemical catalog/CAS identifier or purity is reported in the primary.",
+      "next_decisive_gap": "Quantify and disclose the null-control experiment with exposure/formulation and uncertainty before using it for selective-target or normal-function comparisons."
+    },
+    {
+      "decision_id": "new-kalanchoe-kt-nb",
+      "match_aliases": [],
+      "route": "Exact Kalanchoe tubiflora KT-NB laboratory fraction / cancer-cell growth suppression and mitotic disruption",
+      "disposition": "Retain preparation-specific cancer-culture perturbation comparator; no useful normal-cell, BUBR1 or MVA rescue claim",
+      "rationale": "KT-NB is the n-butanol-soluble fraction of an ethanol extract, not the whole plant or an isolated molecule. HeLa cell counts and cancer-panel MTT signals fall; 6.75 µg/mL for 24 hours induces multipolar spindles and chromosome misalignment. These division defects are anticancer-oriented perturbations, not restored mitotic fidelity. WI-38 is less affected than A549 but remains substantially inhibited; preserved morphology does not establish normal-cell safety or useful function. Plant part, voucher, chemical composition and active-content standardization are unspecified. S1 caption/legend doses conflict and its time-reference normalization is unclear; Figure 4 percentages are incomplete, and Figure 7D denominators remain ambiguous. HEp-2 is a HeLa derivative, limiting independent lineage coverage. BubR1 appears only in a cited CENP-E discussion; no treated BUB1B RNA, BubR1 protein/function, target engagement, animal or clinical benefit is measured. No transfer to household plants, tea, juice, inferred bufadienolides or an individual ingredient.",
+      "evidence_scope": "One primary scientific main and sole supplementary figure read with native Figures 1–7/S1 and selected original PDF pages; bounded cell-line registry correction. Whole-fraction culture effects only, with unresolved source conflicts and no isolated-constituent efficacy.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/kalanchoe-mitosis-qualification.md",
+      "source_urls": [
+        "https://link.springer.com/article/10.1186/1472-6882-12-149",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3557174/",
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2F1472-6882-12-149/MediaObjects/12906_2012_1242_MOESM1_ESM.tiff"
+      ]
     }
   ]
 }
