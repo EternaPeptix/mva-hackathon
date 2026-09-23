@@ -1,0 +1,44 @@
+# Curcumin in mouse medulloblastoma: original animal evidence
+
+The 2011 study reports genuine curcumin-assigned animal benefits: lower DAOY xenograft tumor volume and longer lifespan to the clinical disease/euthanasia endpoint in Smo/Smo mice. These strengthen ordinary curcumin’s preclinical tumor-control evidence. They do not establish tumor eradication, normal-tissue functional benefit, BUB1B restoration, MVA/RMS benefit or an oral supplement regimen. An unresolved **1 mg/kg versus 1 g/kg dose discrepancy** prevents a reliable numerical exposure recommendation. [Lee et al., BMC Cancer 2011;11:144, PMID21501498](https://doi.org/10.1186/1471-2407-11-144).
+
+This is the exact reference 3 of the 2012 Cdc27 paper. The complete scientific main and captions were read in five untruncated, endmarked outputs (40,203 extracted characters), with the abstract separately read. All six main figures and five supplementary TIFFs were visually inspected; Figure 6 was also inspected at higher publisher resolution. Source hashes, URLs and actual reading declarations are retained in the external `asset-manifest.json` and `read-evidence.json`. Saved Europe PMC metadata lists no correction or retraction relation; that is a bounded metadata finding. No additional abstract-queue credit or independent biological replication is claimed.
+
+## Animal efficacy and design
+
+| Experiment | Actual design | Outcome and limits |
+|---|---|---|
+| Main DAOY xenograft, Figure 6A | Subcutaneous DAOY or tdTomato-DAOY cells with Matrigel; daily oral curcumin in corn oil versus corn oil starting 30 days after implantation; n=12 per group in the caption | Final reported tumor volumes 1,442 ± 225 versus 2,294 ± 202 mm³, mean ± SEM, P<0.001. The graph extends to day 91. Tumors continued growing; this was growth attenuation, not eradication. Representative tdTomato images illustrate tumor burden, not drug exposure. |
+| Additional DAOY xenograft, Supplementary Figure 5 | Same broad vehicle/treatment design, n=8 per group, plotted through day 64 | Curcumin trajectory is lower, but the three printed P values are **0.0512, 0.0544 and 0.0694**. All exceed 0.05 despite the displayed one/two/three stars. Preserve this as a trend, without upgrading it to conventional statistical significance. |
+| Smo/Smo spontaneous medulloblastoma, Figure 6B | Constitutively active Smoothened model; corn oil or curcumin by daily gavage from weaning; n=9 per group; euthanasia at clinical disease manifestation | Median reported lifespan 192 versus 144 days, a 48-day difference; log-rank P=0.0308. This is a meaningful in-vivo disease-endpoint benefit. Curves ultimately reach zero and the paper states that tumors were not eradicated. |
+| Smo/Smo tumor biochemistry, Figure 6C | Tumor lysates collected at the clinical endpoint | More cleaved caspase-3/PARP and acetylated tubulin, with less HDAC4 and phospho-HDAC4/5/7 signal. One displayed lane per arm supplies no per-animal quantitative estimate; pooling and sample n are not specified. Endpoint specimens may differ in age/time, so the blot does not prove causal mediation. |
+
+The main xenograft caption calls its data representative of three independent studies; the supplement says two. These are author-reported repetitions, without complete per-study data or a map proving five distinct experiments. They should not be pooled automatically or described as independent external replication. [Native main efficacy figure and caption](https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-11-144/figures/6).
+
+The Methods specify female hairless **SCID** mice, 5–6 weeks old, and 7×10⁶ injected cells; the xenograft captions instead say **nude** mice. This host-label discrepancy is unresolved. The Smo/Smo paragraph does not specify sex, numerical weaning age or a separate numerical dose. Random allocation, blinding, power calculation and detailed animal-level exclusions/censoring are not reported. Caliper volumes were measured twice weekly; the Methods give euthanasia thresholds of ≥15% weight loss or ≥2,000 mm³ tumor volume. The final control mean exceeds that volume threshold, while measurement/removal timing and per-timepoint denominators are unexplained. This is a reporting ambiguity, not proof of a particular protocol violation.
+
+## Dose, exposure and safety
+
+The Methods explicitly state **1 mg/kg body weight** in corn oil by daily oral gavage. Both the Figure 6A and supplementary xenograft captions state **1 g/kg**. The factor-of-1,000 conflict must remain visible; selecting the larger or smaller value as a presumed typo would invent certainty. No catalog/lot, purity, gavage concentration or volume resolves it.
+
+No plasma, brain or tumor drug/metabolite concentrations, free fraction, bioavailability or exposure-response data are reported. The authors infer brain activity from the Smo/Smo outcome and cite earlier blood–brain barrier studies; this paper itself does not measure passage or identify the active chemical reaching the brain. Tumor tdTomato fluorescence is not curcumin pharmacokinetics.
+
+There are no reported body-weight trajectories, organ weights/histology, blood chemistry/counts, developmental or neurological safety measurements, or systematic adverse-event table. A weight-loss stopping rule does not establish absence of toxicity. Nor is there a normal-cell comparison in this study. Background statements about culinary use, adult/child trials and safety are citations, not measured outcomes here. This preparation is ordinary Sigma-Aldrich curcumin, with corn-oil delivery in mice—not Gemini-Cur nanoparticles, turmeric extract or a validated consumer supplement regimen.
+
+## Mechanism, positives and nulls
+
+Curcumin caused dose/time-dependent DAOY LDH release and apoptotic marker increases; D283 Med and D341 Med showed related protein changes. In a synchronized DAOY assay, **20 µM curcumin for 60 minutes after release increased abnormal spindles to 64 ± 6% versus 11 ± 4% with vehicle** (SD, three experiments). Native images show disorganized chromosomes/spindles. This is actual antimitotic injury in cancer cells, not rescued chromosome fidelity. No normal-MVA harm is thereby measured.
+
+HDAC activity in treated-cell lysates fell, HDAC4 protein/phosphorylation decreased, and tubulin acetylation increased. Bulk histone acetylation and HDAC4 localization were reported largely unchanged. The z-VAD-FMK control (20 µM pretreatment for two hours, then eight hours with curcumin) suppressed cleaved caspase-3 signal while HDAC4/activity effects persisted; it supplies no animal or MVA rescue evidence. The HDAC assay has a timing mismatch: Methods say three hours of exposure, while Figure 5A/Results say six.
+
+The findings support an HDAC4/tubulin-associated mechanism, without purified direct-target inhibition, isoform selectivity or genetic-rescue proof. Other HDAC densitometry values are not uniformly unchanged, so an absolute “HDAC4 only” effect is unwarranted. Cdc27 and BUB1B restoration were not measured in this 2011 paper. Proposed chemotherapy/radiation combinations were discussed, not tested in these mice.
+
+## Relationship to the 2012 Cdc27 study
+
+The 2012 paper cites these animal outcomes and presents Smo/Smo Cdc27 tumor blots from mice treated “as previously described.” It reports lower Cdc27 but no detected high-molecular-weight crosslinked Cdc27. There are no animal/specimen identifiers or explicit cohort map linking individual lanes to the 2011 mice. Treat the 2012 blots as linked followup evidence with **no demonstrated independent efficacy cohort**; neither count them as survival/tumor-growth replication nor assert that exact individual specimens have been proven identical. [2012 Cdc27 primary](https://doi.org/10.1186/1471-2407-12-44).
+
+Refine the existing ordinary-curcumin appraisal with the real mouse benefits, the supplementary nonsignificant contrasts, and the unresolved dose/exposure/safety limits. Add no new drug identity and transfer no animal benefit to DHZ or Gemini-Cur. An antitumor reserve is worth retaining under the same provisional standard applied to other nominees; this paper still supplies no normal-function or BUB1B/MVA restoration result. Resolving the numerical regimen and therapeutic window requires authoritative study records or correction, not inference from dietary availability.
+
+Companion: [structured qualification](curcumin-animal-qualification.json). Raw-source and reading-manifest references remain in the external `curcumin-animal-followup-20260923/` cache.
+
+Integration review: Root read the complete scientific main and captions, native Figures 3 and 6 and supplementary Figure 5. A separate reviewer checked the animal methods/results and native Figure 6/S5. The source reviewer completed the broader image review described above. Raw source assets and reading logs remain external.

@@ -1,10 +1,16 @@
 # Batch 15 historical follow-up reconciliation
 
-**Seven of the 47 historical questions have direct source-qualified answers; 40 do not have a direct answer in this package.** Curcumin, resveratrol, tocopherol and BAY answer their original study-level questions within explicit limits. Bladder, CCDC41 and EML1 retain unresolved source schedule/count components. This is not a count of newly discovered studies or a global literature-negative conclusion.
+**Nine of the47 historical questions have direct source-qualified information;38 do not have a direct answer in this candidate.** Five original study-level questions are answered within explicit limits. Bladder, CCDC41, EML1 and diclofenac retain unresolved source components. This is not global scientific completion, new-study credit or MVA efficacy.
 
-**Current source snapshot:** base commit `af0cd614878b408ed1c26a8642878bd5da6870e5` plus root's final **200-decision** source integration. All 197 previous decoded decisions are unchanged. This revision updates only n52/PMID22280307 and n164/PMID31405115; the other **45 record objects are unchanged**. All 47 original questions and historical flags remain intact. No new primary/abstract reading or biological-replication credit is created by this reconciliation. Broader package verification is separate.
+**Integrated update:** baseline `d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b` has200 decisions; the proposal has202, preserves199 prior objects and refines only ordinary curcumin. Reconciliation changes only n35/n225 and adds bounded cited2011 context to n52; all44 other record objects and47 original questions/flags are unchanged. Root owns integration. No new primary/abstract reading or biological-replication credit is created by this reconciliation.
 
 ## Direct coverage and remaining gaps
+
+### n35 — PMID34745968
+
+Piperlongumine reduces MTT signal and colonies after exposure/withdrawal and increases Annexin-V/PI apoptosis. Direct CDK1 engagement/kinase selectivity and genetic rescue are not supplied; AZD5438 is a docking reference only. No normal-cell or animal drug arm is present. HO-8910 is a registry-flagged HeLa derivative, and BUB1B is an expression/network hub rather than a treated response. Colony schedule/count and high-dose solvent arithmetic remain limited. These findings answer the original source-level control/mechanism question without proving selective CDK1 causality or MVA benefit.
+
+Pointers: [piperlongumine qualification](piperlongumine-qualification.md), [structured assessment](piperlongumine-qualification.json).
 
 ### n52 — PMID22280307
 
@@ -12,9 +18,9 @@ Ordinary Sigma laboratory curcumin is now directly qualified, separately from Ge
 
 DHZ was actually tested and much less cytotoxic, with no analogous Cdc27 shift. Curcumin-linked beads recovered Cdc27 from lysate, and treated-cell lysate assays showed APC/C-associated changes; BubR1 was a nonspecific affinity-binding control. These findings support an associated mechanism, not purified direct binding or exclusive target causality.
 
-**Remaining scope:** No Cdc27-resistant, necessity/sufficiency or purified-binding experiment establishes selectivity. Table S1 arithmetic and Figure5C preparation remain ambiguous. Reused mouse-tumor blots supply neither a new animal efficacy regimen nor measured exposure; the cited2011 efficacy paper remains a separate follow-up. Normal-human function, faithful division and oral-product equivalence are unestablished.
+**Remaining scope:** No Cdc27-resistant, necessity/sufficiency or purified-binding experiment establishes selectivity. Table S1 arithmetic and Figure5C preparation remain ambiguous. The separately qualified cited2011 paper reports main xenograft attenuation and Smo/Smo lifespan-to-clinical-endpoint benefit; supplementary contrasts have printedP>.05. The1mg/kg versus1g/kg dose conflict and unmeasured PK/safety remain unresolved. Linked2012 Cdc27 blots are not independent efficacy replication, and exact specimen overlap is undocumented. These animal positives do not establish Cdc27-dependent selectivity. Normal-human function, faithful division and oral-product equivalence are unestablished.
 
-Pointers: [curcumin-cdc27-qualification.md](curcumin-cdc27-qualification.md), [curcumin-cdc27-qualification.json](curcumin-cdc27-qualification.json).
+Pointers: [curcumin-cdc27-qualification.md](curcumin-cdc27-qualification.md), [curcumin-cdc27-qualification.json](curcumin-cdc27-qualification.json), [cited2011 animal qualification](curcumin-animal-qualification.md).
 
 ### n105 — PMID38993610
 
@@ -60,6 +66,12 @@ BAY-320/BAY-524 IC50s 680 ± 280/450 ± 60 nM come from insect-cell-expressed hu
 
 Pointers: [bay-bub1-qualification.md](bay-bub1-qualification.md), [bay-bub1-qualification.json](bay-bub1-qualification.json), [appraisal.md](appraisal.md).
 
+### n225 — PMID35624874
+
+Diclofenac sodium has measured cancer-cell microtubule/mitotic and autophagy-associated effects. The pancreatic combinations retain lower tetrazolium signals versus vehicle with1–2.5µM diclofenac plus5-FU over18h, including selected conditions with little single-agent effect; universal superiority over the stronger single agent and formal synergy are unestablished. There is no measured PK, normal-cell window, animal or BUB1B response experiment. Source-reported200µM half-maximal lethality is not a verified50%-viability concentration: Figure1G retains about75% signal, and Emax/effect normalization is undefined. The distinct18h Figure1G/6B curves also differ. These source conflicts leave the original potency/exposure component unresolved, despite substantial primary qualification.
+
+Pointers: [diclofenac qualification](diclofenac-qualification.md), [structured assessment](diclofenac-qualification.json).
+
 ### n231 — PMID34124073
 
 PD166285 10 µM, Tocris 3785 matched to dihydrochloride; broad kinase activity rather than established selective WEE1/2 inhibition. Drug experiments use acute EML1 morpholino depletion in normal mouse oocytes, not drug treatment of the genetic-mutant animals. Continuous treatment from IVM start for 20 h or delayed addition after 14 h: early GVBD accelerates and both regimens reduce abnormal pronucleus formation. Continuous-drug normal-spindle comparison is NS; delayed treatment has P<.05 but most treated oocytes remain abnormal. BubR1 imaging and mutant fertility results are genetic-only; no drug-specific euploidy/fertility benefit is reported.
@@ -72,7 +84,7 @@ The resveratrol and bladder study-level exposure documentation gaps were closed 
 
 ## Remaining questions without a direct qualified answer
 
-Nine records retain related evidence from a different experiment; seven of those remain among the 40 open questions. Such related evidence never substitutes for the exact-source qualification.
+Nine records retain related evidence from a different experiment; seven of those remain among the38 open questions. Such related evidence never substitutes for the exact-source qualification.
 
 | Batch n / source | Why existing work does not close it | Bounded remaining question |
 |---|---|---|
@@ -80,7 +92,6 @@ Nine records retain related evidence from a different experiment; seven of those
 | [n14 / 32637030](https://pubmed.ncbi.nlm.nih.gov/32637030/) | No inspected qualification answers BI-D1870/vincristine exposures, specificity or normal-cell/animal comparisons. | Verify the BI-D1870/vincristine schedule, interaction model, normal-cell response and any actual animal arm. |
 | [n26 / 32555285](https://pubmed.ncbi.nlm.nih.gov/32555285/) | A WEE1 route or another WEE1 inhibitor is not source qualification of this AZD1775/olaparib TNBC experiment. | Extract arm-specific AZD1775/olaparib functional effects, exposure and normal-cell controls from this source. |
 | [n27 / 42045150](https://pubmed.ncbi.nlm.nih.gov/42045150/) | The ARTADI identities remain unspecified in the frozen annotation; no exact-source qualification found. | Identify the active ARTADIs and xenograft exposures, comparator conditions and toxicity measurements. |
-| [n35 / 34745968](https://pubmed.ncbi.nlm.nih.gov/34745968/) | No direct-source piperlongumine/CDK1 qualification found; observed cancer-cell activity is not itself selective target engagement. | Verify CDK1 binding/engagement or resistant-target rescue and matched normal-cell effects at the active piperlongumine exposure. |
 | [n64 / 38539170](https://pubmed.ncbi.nlm.nih.gov/38539170/) | Existing MSC-secretome/BDNF oocyte evidence is a different preparation/model and cannot identify periodontal secretome components or establish periodontal benefit beyond this culture. | Qualify this periodontal-cell conditioned medium, controlled mineralization rescue and any extension beyond LPS culture. |
 | [n79 / 22438244](https://pubmed.ncbi.nlm.nih.gov/22438244/) | SP600125 is qualified in A549 fungal injury and separate U2OS/BJ-Tert checkpoint experiments, not this TP53-dependent colon-xenograft study. | Verify TP53-stratified xenograft exposure, normal-tissue outcomes and residual killing after resistant-MPS1 rescue in PMID22438244. |
 | [n85 / PPR918452](https://europepmc.org/article/PPR/PPR918452) | No exact-source qualification found for the congression-bypass experiment or its linked publication. The saved preprint-to-publication relation is metadata, not reviewed source equivalence. | Resolve the inhibitors/exposures and later segregation/error outcomes, and distinguish PPR918452 from linked PMID41120338 before admitting a published-source answer. |
@@ -94,7 +105,6 @@ Nine records retain related evidence from a different experiment; seven of those
 | [n183 / 18068629](https://pubmed.ncbi.nlm.nih.gov/18068629/) | No exact TGFBI-source qualification found; recombinant-protein cell sensitization is distinct from human tumor-staining correlation. | Extract recombinant TGFBI exposures and any actual in-vivo administered-protein controls, retaining the observational clinical boundary. |
 | [n184 / 42454028](https://pubmed.ncbi.nlm.nih.gov/42454028/) | No exact-source glycolysis-inhibitor identity/animal-arm qualification found. Other 2DG or lactylation studies cannot identify the unnamed interventions here. | Identify the actual glycolysis compounds and animal exposures, and separate their effects from LDHA knockdown. |
 | [n218 / 28337968](https://pubmed.ncbi.nlm.nih.gov/28337968/) | No exact-source post-MELK-null OTS167 qualification found; the abstract undermines target dependence while retaining drug activity. | Check actual OTS167 efficacy/selectivity and experimentally supported alternative targets after the MELK-null control; do not infer no anticancer activity. |
-| [n225 / 35624874](https://pubmed.ncbi.nlm.nih.gov/35624874/) | No exact diclofenac-primary qualification found; high-concentration cell activity does not itself establish a usable exposure or normal-cell window. | Qualify the 170–200µM activity against measured exposures/normal-cell responses and the diclofenac/5-FU interaction analysis. |
 | [n227 / 28147323](https://pubmed.ncbi.nlm.nih.gov/28147323/) | No exact-source OGG1 inhibitor identity or normalized radiosensitization qualification found. | Identify the OGG1 inhibitors and assess radiosensitization after baseline-toxicity normalization with normal-cell comparators. |
 | [n228 / 37894450](https://pubmed.ncbi.nlm.nih.gov/37894450/) | No exact C118P/ASCT2 qualification found; binding and cell response do not distinguish ASCT2 mediation from microtubule activity. | Check ASCT2-specific rescue/selectivity and arm-specific glutamine versus tubulin effects; do not infer an animal efficacy arm from a mouse cytokine assay. |
 | [n229 / 33584305](https://pubmed.ncbi.nlm.nih.gov/33584305/) | Existing BI2536 qualifications do not cover the gatastatin combination, exposure matching or formal interaction analysis. | Extract gatastatin/BI2536 doses, normal-cell comparisons and the quantitative combination model. |
@@ -133,6 +143,6 @@ Nine records retain related evidence from a different experiment; seven of those
 
 The JSON preserves all 47 original questions verbatim, record/abstract hashes, source pointers/hashes, relevant decision IDs, exact answered components and bounded remaining questions. Historical version/notice limits stay attached: PPR918452 links PMID41120338 by title/first-author matching; PMID35302600 links PPR440054; PMID23403633 links commentary23459035; PMID36380369 links PPR525543. Metadata links do not constitute reading, authenticated version equivalence or independent-study credit.
 
-This task inspected existing qualifications and annotations, not new primary assets. It does not change nominees or infer MVA efficacy from cancer activity, genetic rescue, supplement availability or a shared target. The earlier 272-artifact preservation check remains historical. This revision changes only the two specified reconciliation records and current metadata, with all original flags and other 45 objects preserved. Source qualification/ledger hashes were checked at freeze; the parent owns repository integration and package verification.
+This reconciliation maps the separately documented primary-source reviews to the original questions. It does not change nominees or infer MVA efficacy from cancer activity, genetic rescue, supplement availability or a shared target. The earlier 272-artifact preservation check remains historical. This update changes n35/n225 and adds the separately qualified 2011 context to n52, with all original flags and the other 44 record objects preserved. Root read all three scientific mains and selected native figures; the source and independent reviewers' distinct scopes are recorded in their qualifications.
 
-This 200-decision update preserves the prior reconciliation as a hash-bound Git object. Exact per-record changes and preservation checks are recorded in the companion JSON.
+This 202-assessment update preserves the 200-assessment reconciliation as a hash-bound baseline Git object. Exact per-record changes and preservation checks are recorded in the companion JSON.

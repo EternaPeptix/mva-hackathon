@@ -1,0 +1,297 @@
+{
+  "schema": "bounded-primary-qualification/v1",
+  "date": "2026-09-23",
+  "reviewer": "/root/bromosporine_primary",
+  "source": {
+    "pmid": "35624874",
+    "pmcid": "PMC9138099",
+    "doi": "10.3390/antiox11051009",
+    "publication_date": "2022-05-20",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9138099/",
+    "primary_xml_sha256": "3e4c8f7017d9f21e5d51291a0e3d08f6ab8b9ddbe335aefd901777c45b037d86",
+    "status": "Current officialPubMed/EuropePMC records contain no linkedcorrection/retraction; not exhaustiveintegrityclearance"
+  },
+  "overlap": {
+    "repo_commit": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
+    "decision_count_at_start": 200,
+    "exact_existing_decision_or_qualification_found": false,
+    "existing_abstract": "Batch15n225/PMID35624874",
+    "search_chunks": [
+      "45a9b7",
+      "acdd80"
+    ],
+    "new_outer_credit": 0
+  },
+  "identity": {
+    "agent": "diclofenac sodium",
+    "source_product": "SigmaAldrichD6899",
+    "cellular_vehicle": "0.1%DMSO",
+    "cellfree_vehicle": "0.01%DMSO",
+    "missing": [
+      "lot/purity",
+      "stock preparation",
+      "free/intracellular exposure",
+      "clinical formulation equivalence"
+    ],
+    "five_FU_source_formulation": "Not supplied in materialslist"
+  },
+  "models": [
+    "HeLa",
+    "HepG2",
+    "AsPC-1",
+    "MIA PaCa-2"
+  ],
+  "normal_cell_comparator": false,
+  "animal_efficacy_or_PK": false,
+  "HeLa_reported_midpoints": {
+    "mitotic_EC50_uM": 170,
+    "reported_half_lethal_uM": 200,
+    "primary_timing_hours": 18,
+    "discussion_timing_hours": 24,
+    "validation_status": "Author-reported 200 µM half-maximal lethal value; native Figure1G retains approximately75% tetrazolium signal. This is not a verified50%-viability concentration. Half of a partial maximal response is possible but no fittedEmax,curve ordefinition establishes effect normalization. Separate18h Figure1G/Figure6B500µM bars differ (~55%/~85%); visual estimates, notrawdata."
+  },
+  "experimental_arms": {
+    "HeLa_imaging_flow": "10–1000µM range represented in mitoticimaging; flow narrower100–500µM;18h;0.1%DMSO and100nMnocodazole controls",
+    "HeLa_microtubules": "170/200µM6h;with37°C3hthenice3h comparison;100nMnocodazole/taxol controls",
+    "tubulin_cellfree": "0.17/1.7mM30min37°C;twoexperiments;10µMnocodazole/taxol;OD340",
+    "HepG2_autophagy_organelle": "500µM8h with fed/EBSSandpathwaycontrols",
+    "combination_duration_hours": 18,
+    "combination_axes": "5-FUshownmM;diclofenacµM",
+    "combinations": [
+      {
+        "cells": "HeLa",
+        "five_FU_uM": [
+          100,
+          250
+        ],
+        "diclofenac_uM": [
+          100,
+          500
+        ]
+      },
+      {
+        "cells": "AsPC-1",
+        "five_FU_uM": [
+          10,
+          25
+        ],
+        "diclofenac_uM": [
+          1,
+          2.5
+        ]
+      },
+      {
+        "cells": "MIA PaCa-2",
+        "five_FU_uM": [
+          750,
+          1000
+        ],
+        "diclofenac_uM": [
+          1,
+          2.5
+        ]
+      }
+    ]
+  },
+  "measured_positives": [
+    "Mitotic/cellcycleperturbation andcellularmicrotubuledestabilization",
+    "Highconcentrationcellfreetubulinassemblyinhibition,strongerat1.7mMthan0.17mM",
+    "Autophagy-associatedtrafficking/lysosome/phagophorechangesandorganellefragmentation",
+    "Reduced EZ-cytox signals with diclofenac alone and in5-FU combinations versus vehicle, including selected low-µM pancreatic combination conditions; no universal advantage over stronger single agents."
+  ],
+  "combination_interpretation": {
+    "authors_call_synergy": true,
+    "formal_interaction_test_reported": false,
+    "methods_statistics": "Studentt-tests;threeindependentexperiments,mean±SD",
+    "dose_matrix_or_CI_Bliss_Loewe": "Not supplied",
+    "appropriate_claim": "Lower combination tetrazolium signals versus vehicle, including some conditions with little single-agent effect. No universal superiority over the stronger single agent; MIA PaCa-2 0.75mM5-FU+2.5µM diclofenac does not visibly establish improvement over2.5µM diclofenac alone. Formal synergy is unestablished, not demonstrated absent.",
+    "gemcitabine_actually_tested": false
+  },
+  "assay_limits": {
+    "viability": "EZ-cytoxwater-solubletetrazolium,450nm;notabsolute viable/dead count",
+    "orthogonal_context": "H2Bimaging/flowSubG1/organelles supportbiologicalperturbation; no clonogenic/Annexin/caspasedeathvalidation orcellfreereadoutinterferencecontrol supplied",
+    "artifact_proven": false,
+    "normal_function_restoration": false,
+    "cell_numbers": "Imagecell counts are subsamples;mostfiguresstate3independentexperiments;no animal/patientn"
+  },
+  "target_and_BUB1B": {
+    "direct_tubulin_binding_proved": false,
+    "scope": "Cellfreetubulinpolymerization effect doesnotestablish bindingconstant/site or exclusivecellularmechanism; Figure7 isproposedmodel",
+    "BUB1B_transcript_assay": false,
+    "BUBR1_protein_localization_assay": false,
+    "BUBR1_mention": "OneDiscussionparagraph namesBubR1withCdc20/Mad2 inmechanistichypothesis; no drugresponseassay",
+    "checkpoint_rescue_or_fidelity_assay": false
+  },
+  "NAC_comparator": {
+    "concentration_mM": 2,
+    "pretreatment_hours": 1,
+    "diclofenac_uM": 500,
+    "incubation_hours": 8,
+    "fed_MitoSOX": "Reduced",
+    "starved_MitoSOX": "Not significantly reduced",
+    "mitochondrial_fragmentation": "Not rescued in fed orstarvedcells",
+    "scope": "Marker/control result inHepG2,notgeneralnormal-function rescue",
+    "concentration_scope": "2mM explicitly applies to Figure5A–D mitochondrial morphology; it must not be assigned as a separately reported dose to mislabeled Figure5E/F MitoSOX.",
+    "MitoSOX_NAC_concentration_mM": null,
+    "MitoSOX_dose_status": "Unspecified in E/F;2mM would be a cross-panel inference.",
+    "pretreatment_scope": "General Methods report1h pretreatment; not an independently restated E/F-specific schedule."
+  },
+  "exposure_bridge": {
+    "established": false,
+    "reason": "No measuredPK/tumorexposure/normalcellwindow. HighHeLanominalconcentrations acknowledgedasexposureproblem inpaper. LowerpancreaticnominalµMsignalsdo notestablishfree/tumorexposure or clinicalefficacy.",
+    "cited_human_PK_sources_read": false,
+    "overdose_linear_scaling_accepted": false,
+    "clinical_dose_advice": false
+  },
+  "source_issues": [
+    "Reported200µM half-maximal lethal value has unspecified effect normalization; nativeFigure1G retains~75% tetrazolium signal. No fittedEmax/curve/definition establishes a50%-viability concentration; do not call a definite numerical sourceerror.",
+    "Same18hHeLaFigure1GandFigure6Bviabilityseriesdiffer",
+    "DiscussioncallsHeLaexposure24hwhileMethods/Figuresstate18h",
+    "Pancreaticsensitivityclaims>10foldinResultsversus100foldinDiscussion;nofittedcomparableratio",
+    "Figure5E/Fcaptionlistsrotenone/rapamycin,butnativepanelsandResultsareNAC/diclofenac;G/Hdoaddressrotenone/rapamycin",
+    "Autophagosome/lysosomecolocalizationtextpointsFigure3E/FwhileimagesareG/H",
+    "No normalcellcontrol,newanimalPK/efficacyor formalcombinationinteraction test"
+  ],
+  "other_agents_roles": [
+    {
+      "agent": "5-fluorouracil",
+      "role": "actually administeredanticancercombinationpartner"
+    },
+    {
+      "agent": "nocodazole",
+      "role": "mitotic/microtubuleperturbationcomparator"
+    },
+    {
+      "agent": "paclitaxel/taxol",
+      "role": "microtubulestabilizationcontrol"
+    },
+    {
+      "agent": "rapamycin",
+      "role": "autophagy-inductioncomparator"
+    },
+    {
+      "agent": "bafilomycinA1",
+      "role": "lysosomalacidification/fluxcontrol"
+    },
+    {
+      "agent": "SAR405",
+      "role": "Vps34phagophorecontrol"
+    },
+    {
+      "agent": "rotenone",
+      "role": "mitochondrialstress/Golgicomparator"
+    },
+    {
+      "agent": "N-acetylcysteine",
+      "role": "ROS/mitochondrialfragmentationmechanismcontrol"
+    },
+    {
+      "agent": "gemcitabine",
+      "role": "background/proposedcombination,notadministered"
+    }
+  ],
+  "proposed_assessment": {
+    "decision_id": "new-diclofenac",
+    "match_aliases": [
+      "diclofenac",
+      "diclofenac sodium"
+    ],
+    "route": "Diclofenac sodium / cancer-cell microtubule and autophagy disruption",
+    "disposition": "Retain in-vitro anticancer comparator and5-FU combination signal; no normal-function, MVA rescue or established exposure bridge",
+    "rationale": "Diclofenac sodium perturbs HeLa mitosis/microtubules and HepG2 autophagy-associated trafficking, and reduces tetrazolium viability signals. Pancreatic-cell combinations with 5-FU use 1–2.5 µM diclofenac and have lower tetrazolium signals versus vehicle, including some conditions with little single-agent effect; universal superiority over the stronger single agent and formal synergy are unestablished. Source-reported 200 µM half-maximal lethality is not a verified 50%-viability concentration: Figure1G retains about75% signal and effect normalization is unspecified. Separate18h HeLa series differ. No normal-cell, animal/PK or BUB1B response measurement establishes a therapeutic window or MVA rescue.",
+    "evidence_scope": "Complete scientific main and captions, all seven native main figures and the sole one-page uncropped-blot supplement read; exact source inconsistencies preserved.",
+    "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+    "source_report": "workflow/track2-drug-census/diclofenac-qualification.md",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9138099/",
+      "https://doi.org/10.3390/antiox11051009"
+    ]
+  },
+  "reading_evidence": {
+    "file": "read-evidence.json",
+    "sha256": "1132a81f022319f28d31034363916a77be0cd8e4de6b72766b5b4380e60c5eb7"
+  },
+  "asset_manifest": {
+    "file": "asset-manifest.json",
+    "sha256": "a98a1a2e8f8e6ce20a66aaedc87e3cc792260198ea0b20f5f88ae1a82ecf5070"
+  },
+  "retrieval_manifest": {
+    "file": "retrieval-manifest.json",
+    "sha256": "db6f65459a6a32c93564c8fdf6af7e17bd501053699b5179fd3ceb4081a0db1a"
+  },
+  "qualification_md_sha256": "5c39b325ff79f2c72e1394d5e2f349c2484be33775c97e033e0102ededeb1e8b",
+  "automatic_outer_credit": 0,
+  "new_primary_sources_qualified": 1,
+  "biological_replication": false,
+  "repository_modified": true,
+  "clinical_recommendation": false,
+  "candidate_provenance": {
+    "status": "INTEGRATED_WITH_ROOT_SOURCE_CHECK",
+    "baseline": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
+    "decision_id": "new-diclofenac",
+    "external_source_root": "diclofenac-followup-20260923",
+    "source_qualification_md_sha256": "2349b9c5ebbc8cfd8e09b714b91c251cd5c94ea53409dcc4656cb9ee6c34fbf6",
+    "source_qualification_json_sha256": "696dcae3bd88b9e22d628fa5151c3c3c80181ab97185e496661fdceee3b6f617",
+    "portable_markdown_file": "diclofenac-qualification.md",
+    "portable_markdown_sha256": "5c39b325ff79f2c72e1394d5e2f349c2484be33775c97e033e0102ededeb1e8b",
+    "external_reference_rule": "Raw sources, assets and reading-manifest file references in the source assessment resolve under external_source_root, not the future repository directory.",
+    "transformations": [
+      "Candidate copy only; no root integration or independent reread of other source reviewers claimed.",
+      "Added a portable companion-JSON link; raw source caches and their relative file references remain external.",
+      "Root-requested NAC calibration:2mM is explicit for Figure5A–D morphology; E/F MitoSOX NAC dose is unspecified, and2mM there would be cross-panel inference.",
+      "Root-requested Figure6 refinement: combination comparisons are versus vehicle; no universal superiority over the stronger single agent. MIA PaCa-2 counterexample retained.",
+      "Root-requested calibration: retained200µM author value with unspecified Emax/effect normalization, rather than declaring a definite numerical source error. Separate18h Figure1G/6B discrepancy retained."
+    ],
+    "source_reading_attribution": "Original named source reviewer; candidate preparation does not add full-paper/biological/outer reading credit.",
+    "extra_outer_abstract_credit": 0,
+    "root_approval_required_for_integration": false,
+    "bounded_independent_check_refs": [
+      {
+        "external_file": "antitumor-followup-20260923/diclofenac-independent/independent-check.md",
+        "sha256": "618b643b6ebee0148d068cd87dff644e35f57fc1722cfdd21df70fbca87d6ed0"
+      },
+      {
+        "external_file": "antitumor-followup-20260923/diclofenac-independent/independent-check.json",
+        "sha256": "84a1e8fc54a37e9d96d4be86fc780b6c8bb77daae824f0d5db41e26ac5e0c0ea"
+      }
+    ],
+    "independent_check_scope": "Complete scientific main/captions and sole supplement, with nativeFigures1/2/5/6 only; Figures3/4/7 not independently viewed.",
+    "pre_integration_status": "EXTERNAL_CANDIDATE_NOT_INTEGRATED",
+    "candidate_portable_markdown_sha256": "e7c158997236b4824320f3d2b4b52a346b6758c988fc3817a588eb46fdfc920f"
+  },
+  "source_reviewer_repository_modified": false,
+  "source_md_sha256": "5c39b325ff79f2c72e1394d5e2f349c2484be33775c97e033e0102ededeb1e8b",
+  "integration": {
+    "baseline": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
+    "integrating_reviewer": "/root",
+    "candidate_json_sha256": "51be7e243beeec1e84e4ba6872ca2e9e197bd02d997040567aef0e45e29b5912",
+    "root_reading": {
+      "complete_scientific_main_outputs": [
+        "7f0723",
+        "37159c"
+      ],
+      "all_four_main_and_two_caption_endmarkers_seen": true,
+      "images": [
+        "assets/antioxidants-11-01009-g001.jpg",
+        "assets/antioxidants-11-01009-g002.jpg",
+        "assets/antioxidants-11-01009-g005.jpg",
+        "assets/antioxidants-11-01009-g006.jpg",
+        "supplement/page-1.png"
+      ],
+      "scope": "Scientific main and all captions, nativeFigures1/2/5/6 and whole supplementary blot page; other figures credited to source reviewer.",
+      "source_xml_sha256": "3e4c8f7017d9f21e5d51291a0e3d08f6ab8b9ddbe335aefd901777c45b037d86",
+      "image_sha256": {
+        "assets/antioxidants-11-01009-g001.jpg": "b329a0fbcb7164ba49ed9280ea981b08da543d6984667b067108b92716396099",
+        "assets/antioxidants-11-01009-g002.jpg": "2981e310e192e233b5c0a1a560b5501be04c41d1e6b8f6cea7716314ea6ab232",
+        "assets/antioxidants-11-01009-g005.jpg": "92b0c338fceac2f4fd63c41ace4d127ae2716e23b83caa6952b7140de2f96004",
+        "assets/antioxidants-11-01009-g006.jpg": "1285a4aeaab8602725a172513b0d77ea418e59551b7cf2a96e1f2b03767833dc",
+        "supplement/page-1.png": "967e62c65a303c1a41d16f2b2893e156b9f61aa0ba93fecc0613a9e99aac9843"
+      }
+    },
+    "root_reading_manifest_sha256": "9a713c2a8e5c490383d12deab5be154612eba435243c669b3c0d5660d76f0857",
+    "independent_check_json_sha256": "84a1e8fc54a37e9d96d4be86fc780b6c8bb77daae824f0d5db41e26ac5e0c0ea",
+    "independent_check_md_sha256": "618b643b6ebee0148d068cd87dff644e35f57fc1722cfdd21df70fbca87d6ed0",
+    "scope": "Root and an independent reviewer each read the complete scientific main and all captions, inspected native Figures 1, 2, 5 and 6 and the whole supplementary blot page. The source reviewer inspected all seven main figures. The independent review refined the potency interpretation, combination comparisons and cross-panel NAC dose attribution.",
+    "new_outer_abstract_credit": 0
+  }
+}

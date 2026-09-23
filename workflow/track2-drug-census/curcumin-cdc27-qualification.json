@@ -77,7 +77,7 @@
     "normal_cell_limit": "MDCK is an established canine kidney-derived epithelial line, not primary normal human tissue. Official ATCC MDCK identity supports lineage only; the paper gives no exact catalog/subclone authentication. HT1376 is a relatively resistant bladder-cancer comparator, not a normal cell.",
     "normal_identity_url": "https://www.atcc.org/products/ccl-34",
     "unexplained_native_label": "Figure 4B contains an HBEC blot block not listed in the caption A panel and not defined in the Methods. It is not part of Figure 4C/D six-line cytotoxicity/apoptosis comparison; no normal-human safety or functional benefit is assigned.",
-    "animals": "Supplementary Figure S1 compares Cdc27 protein in corn-oil-control versus curcumin-treated Smo/Smo medulloblastoma tumor specimens from prior work. Three labeled lanes per arm; independent animal n is not established by lane count."
+    "animals": "Supplementary Figure S1 compares Cdc27 protein in corn-oil-control versus curcumin-treated Smo/Smo medulloblastoma tumor specimens treated under a previously described regimen; exact individual-specimen overlap is unproven. Three labeled lanes per arm; independent animal n is not established by lane count."
   },
   "experiments": [
     {
@@ -162,11 +162,11 @@
     },
     {
       "locator": "Supplementary Figure S1 / prior-work paragraph",
-      "model": "Previously obtained Smo/Smo medulloblastoma tumor specimens",
+      "model": "Smo/Smo medulloblastoma tumor specimens linked to the earlier treatment report; exact individual-specimen overlap unproven",
       "exposure": "Curcumin versus corn-oil control; current paper does not restate dose, schedule or route",
       "control": "Corn-oil specimens, tubulin loading",
       "outcome": "Authors report lower tumor Cdc27; high-MW crosslinked species not detected in vivo.",
-      "limit": "Qualitative reused-specimen protein comparison, not a new tumor-growth/survival or PK experiment. Prior reported survival/DAOY-xenograft benefit is cited but not independently qualified here."
+      "limit": "Qualitative linked tumor-protein comparison, not a new tumor-growth/survival or PK experiment. The original2011 benefits are now separately qualified in curcumin-animal-qualification.md; exact specimen overlap is not documented."
     }
   ],
   "strongest_positive": "Ordinary curcumin causes dose- and cell-cycle-dependent DAOY cytotoxicity, delayed mitotic exit and apoptosis-related changes, accompanied by Cdc27 affinity recovery/high-MW bands, reduced Cdc20 association and lower treated-lysate cyclin-fragment ubiquitination. These are real cell and biochemical results; exclusive Cdc27 causality is unproved.",
@@ -190,17 +190,17 @@
     ],
     "mechanistic_context": "APC/C restraint is a concrete, testable timing hypothesis downstream of the spindle assembly checkpoint. This study demonstrates cell-cycle restraint and cancer-cell death, not restoration of checkpoint function, faithful division or healthy output."
   },
-  "animal_exposure_scope": "Current study has reused mouse-tumor protein blots, no new animal efficacy regimen or measured exposure. Do not inherit prior 2011 efficacy paper as fully read. No inference that food, turmeric or oral curcumin supplements attain the 10–40 µM experimental concentrations.",
+  "animal_exposure_scope": "Current study has linked mouse-tumor protein blots, no independent animal efficacy cohort or measured exposure. The2011 efficacy paper is now separately qualified; exact specimen reuse is unproven. No inference that food, turmeric or oral curcumin supplements attain the 10–40 µM experimental concentrations.",
   "relative_priority": "Retain ordinary curcumin as a distinct cancer-cell/APC/C mechanism comparator and DHZ as a tested negative comparator. This source supplies neither BUB1B restoration nor normal functional compensation to displace provisional niacin/apitegromab or the conditional everolimus probe; those nominees also remain unproved for MVA. No measured MVA harm is inferred from tumor-cell killing.",
   "source_issues": [
     "Table S2 prose percentages normalize to initial G2/M fraction rather than the full population.",
     "Table S1 56.9% not-reentered wording is not reconciled with reported whole-culture phase percentages.",
     "Figure 5C preparation differs between caption and surrounding Results wording.",
     "HBEC appears only as an undefined extra Figure 4B blot block; not a six-line function-assay arm.",
-    "Current mouse blots reuse earlier specimens; lane count is not verified independent animal n."
+    "Current mouse blots reference earlier treatment; exact specimen overlap is unproven and lane count is not verified independent animal n."
   ],
   "bounded_followups": [
-    "If quantitative animal efficacy, PK or regimen comparison is needed, independently qualify the cited 2011 paper DOI10.1186/1471-2407-11-144.",
+    "The cited2011paper DOI10.1186/1471-2407-11-144 is now separately qualified; dose conflict, measured PK/safety absence and specimen overlap remain unresolved.",
     "Resolving Cdc27 necessity, direct-contact chemistry or normal BUB1B-mutant functional effects requires experiments not reported here; these are gaps, not inferred benefits."
   ],
   "reading_evidence_file": "read-evidence.json",
@@ -211,7 +211,7 @@
   "biological_replication": false,
   "status": "integrated_bounded_source_qualification",
   "integrated_by": "/root",
-  "source_md_sha256": "c0885ce925b23d9fd0f7765993ca2205927cb9aca4bd6515fca4fae1d2bb1ef8",
+  "source_md_sha256": "8dc15b4539e4a57e27ed3fd412353a1d17cc627e84aa633f9078c64b599fbd1c",
   "original_draft_md_sha256": "23aa22d30186dbbba8cc642145a295fb0bc5f38ca4c700e0767a1c3aa4a137ff",
   "integrated_appraisal_count_change": 2,
   "root_read_scope": {
@@ -259,7 +259,7 @@
       ],
       "route": "Ordinary curcumin / cancer-cell Cdc27–APC/C-associated arrest and apoptosis",
       "disposition": "Retain experimental cancer-cell mechanism comparator; do not nominate as BUBR1 restoration or infer oral-supplement efficacy",
-      "rationale": "Laboratory curcumin at 10–40 µM delays DAOY cycle progression and, depending on schedule, increases cytotoxicity/apoptosis. Cdc27 affinity capture, high-MW bands, reduced Cdc20 association and lower treated-lysate cyclin-fragment ubiquitination support an APC/C-associated mechanism without purified direct binding, covalent-site or Cdc27-necessity proof. MDCK and HT1376 are less responsive under tested conditions, not broad normal-tissue safety evidence. BubR1 is an affinity-binding control, not restored. Reused mouse-tumor blots show lower Cdc27 but no detected crosslinked species; no new animal efficacy/PK or MVA function is established. Distinct from Gemini-Cur nanoparticles."
+      "rationale": "Laboratory curcumin at 10–40 µM delays DAOY cycle progression and, depending on schedule, increases cytotoxicity/apoptosis. Cdc27 affinity capture, high-MW bands, reduced Cdc20 association and lower treated-lysate cyclin-fragment ubiquitination support an APC/C-associated mechanism without purified direct binding, covalent-site or Cdc27-necessity proof. MDCK and HT1376 are less responsive under tested conditions, not broad normal-tissue safety evidence. BubR1 is an affinity-binding control, not restored. Linked mouse-tumor blots show lower Cdc27 but no detected crosslinked species; no new animal efficacy/PK or MVA function is established. Distinct from Gemini-Cur nanoparticles."
     },
     {
       "evidence_scope": "Complete 2012 scientific main/captions, all five native main figures and six supplementary TIFFs (two tables/four figures); source-specific limitations retained.",
@@ -281,5 +281,10 @@
         "DHZ": "Short source abbreviation; full compound names used for catalog joins."
       }
     }
-  ]
+  ],
+  "animal_followup_correction": {
+    "baseline_revision": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
+    "primary": "curcumin-animal-qualification.md",
+    "scope": "Corrected unsupported exact-specimen-reuse wording after reading both papers. No new independent efficacy cohort or PK result is credited to2012."
+  }
 }
