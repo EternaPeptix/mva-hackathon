@@ -1,0 +1,645 @@
+{
+  "schema": "bounded_primary_source_appraisal_v1",
+  "record": "MED:36911196",
+  "pmcid": "PMC9997844",
+  "doi": "10.3389/fbioe.2023.1135997",
+  "title": "Exploration and verification of COVID-19-related hub genes in liver physiological and pathological regeneration.",
+  "first_author": "Jihang Shi",
+  "publication_date": "2023-02-23",
+  "read_date": "2026-09-22",
+  "reader": "/root/revalidation_a64",
+  "existing_route": "new-apcin",
+  "new_route_created": false,
+  "additional_abstract_coverage_credit": 0,
+  "decision": "Positive directly administered Apcin pretreatment evidence for survival and injury reduction in a CCl4 acute-liver-injury mouse model; no demonstrated MVA, BUBR1, checkpoint or chromosome-segregation restoration.",
+  "primary_question_resolved": {
+    "actually_administered": true,
+    "computational_only": false,
+    "drug_effect_measured": true,
+    "post_injury_treatment_tested": false,
+    "mva_model_tested": false
+  },
+  "source_urls": {
+    "publisher": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2023.1135997/full",
+    "pmc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9997844/",
+    "xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9997844/fullTextXML",
+    "supplementary_package": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9997844/supplementaryFiles"
+  },
+  "reading_depth": {
+    "main": "Complete Introduction, Methods (including both main tables), Results, Discussion, Conclusion and statements read from retained XML without regex markup stripping. All seven main figures and legends visually/textually inspected. Bibliographic reference list retained but referenced studies not retrieved or appraised.",
+    "supplement": "Both unique supplementary DOCX files fully text-extracted/read; figure document one rendered page and original embedded figure inspected; DEG table seven rendered pages inspected, with original OOXML text used for legibility where renderer overlaps text. Main calls figure Supplementary Material S2; document legend calls it S1.",
+    "full_source_unavailable": false,
+    "reading_limits": [
+      "No animal-level raw data, numerical source figure tables, exposure/PK or original histology images beyond published panels were supplied in retained article/supplement.",
+      "Independent second reader checked Figure7 and Methods/Results only, not the whole source.",
+      "No broader Apcin literature review or cited-reference primary qualification performed.",
+      "Publisher HTML retained for provenance; main reading used the complete Europe PMC XML and original figure/supplement files."
+    ],
+    "tool_chunks": {
+      "metadata": "1a33cd",
+      "xml_figures_legends": "2727cb",
+      "introduction_methods": "bfb816",
+      "results_discussion_conclusion_statements": "f1ff2f",
+      "supplement_text": "c1e8ff",
+      "publication_metadata_associated_data": "4a68bc"
+    }
+  },
+  "regimen": {
+    "agent": "Apcin",
+    "source_target_description": "CDC20 inhibitor",
+    "dose_mg_per_kg": 30,
+    "route": "intraperitoneal",
+    "vehicle": "corn oil",
+    "timing": "single reported pretreatment 8 hours before CCl4 challenge; no repeat dose described",
+    "injury_agent": "CCl4",
+    "injury_dose_as_reported": "2.9 mL/kg dissolved in corn oil, intraperitoneal",
+    "injury_dilution_or_total_injection_volume": "not specified separately",
+    "model": "male C57BL/6J mice, age8–10weeks, stated weight30g",
+    "controls": [
+      "NC: corn oil, no CCl4",
+      "CCl4: corn oil vehicle and CCl4 injury",
+      "Apcin: Apcin and CCl4 injury"
+    ],
+    "apcin_only_uninjured_control": false,
+    "allocation": "random division stated; allocation sequence/concealment and blinding not described",
+    "cohorts": [
+      {
+        "purpose": "serum/tissue",
+        "total_mice": 21,
+        "groups": 3,
+        "assigned_n_per_group": 7,
+        "harvest": "24h after CCl4,32h after Apcin"
+      },
+      {
+        "purpose": "survival",
+        "total_mice": 21,
+        "groups": 3,
+        "assigned_n_per_group": 7,
+        "planned_followup": "7days in Methods/Fig7A; Fig7B curves shown only to approximately4days,axis extends5days"
+      }
+    ],
+    "source_locators": [
+      "Methods: The acute liver failure model",
+      "Figure7A",
+      "Figure7 legend"
+    ]
+  },
+  "outcomes": [
+    {
+      "endpoint": "survival",
+      "direction": "improved with Apcin pretreatment versus CCl4",
+      "source_locators": [
+        "Figure7B",
+        "Results: The inhibitor Apcin for bub gene CDC20 alleviates ALF"
+      ],
+      "n": 7,
+      "n_unit": "mice per group",
+      "terminal_plotted_survival_approx_percent": {
+        "Apcin_CCl4": 57.1,
+        "CCl4": 14.3,
+        "vehicle": 100
+      },
+      "survivor_counts_inferred_from_plot_and_n": {
+        "Apcin_CCl4": "4/7",
+        "CCl4": "1/7",
+        "vehicle": "7/7"
+      },
+      "count_status": "inferred, not printed as counts or provided as animal-level data",
+      "timepoint": "last displayed point approximatelyday4; not verifiedday7",
+      "statistics": "Kaplan–Meier stated; no survival p-value,log-rank result,CI or at-risk table in source",
+      "statistically_significant_survival_benefit_established": false
+    },
+    {
+      "endpoint": "serum ALT",
+      "direction": "decreased versus CCl4",
+      "source_locators": [
+        "Figure7G",
+        "Methods: Serum biochemical examination"
+      ],
+      "time": "24h after CCl4",
+      "figure_n": 4,
+      "n_unit": "unresolved biological versus technical; Methods says each biochemical parameter repeated four times",
+      "approx_visual_means_U_L": {
+        "CCl4": 1400,
+        "Apcin_CCl4": 300
+      },
+      "value_status": "approximate visual reading of bars,not raw or digitized data",
+      "statistics": "between CCl4 and Apcin+CCl4 bracket*,p<0.05; legend mean±SD,Student t-test",
+      "normalization_to_NC_established": false
+    },
+    {
+      "endpoint": "serum AST",
+      "direction": "decreased versus CCl4",
+      "source_locators": [
+        "Figure7G",
+        "Methods: Serum biochemical examination"
+      ],
+      "time": "24h after CCl4",
+      "figure_n": 4,
+      "n_unit": "unresolved biological versus technical; Methods says each biochemical parameter repeated four times",
+      "approx_visual_means_U_L": {
+        "CCl4": 950,
+        "Apcin_CCl4": 220
+      },
+      "value_status": "approximate visual reading of bars,not raw or digitized data",
+      "statistics": "between CCl4 and Apcin+CCl4 bracket*,p<0.05; legend mean±SD,Student t-test",
+      "normalization_to_NC_established": false
+    },
+    {
+      "endpoint": "TUNEL and H&E liver tissue",
+      "direction": "less apparent TUNEL staining and improved tissue appearance with Apcin; authors interpret reduced injury/inflammatory response",
+      "source_locators": [
+        "Figure7F",
+        "Results drug subsection"
+      ],
+      "figure_n": 3,
+      "time": "24h after CCl4",
+      "qualification": "representative published images; no apoptotic-cell fraction,injury score,field denominator or quantitative inflammatory assay supplied"
+    },
+    {
+      "endpoint": "hepatic synthetic/metabolic function",
+      "measured_drug_benefit": false,
+      "qualification": "ALT/AST are injury markers; no drug-comparison bilirubin,ammonia,coagulation,urea-clearance,CYP-activity or albumin-secretion endpoint shown. Survival is a genuine functional organism-level endpoint."
+    }
+  ],
+  "mechanism_and_attribution": {
+    "CDC20": "Hub gene from human datasets; Cdc20 mRNA increased in CCl4 versus vehicle and CDC20 mRNA/protein staining increased in expanded human progenitors versus hepatocytes. These are untreated injury/expansion comparisons. No drug-arm CDC20 engagement/activity,APC/C substrate ubiquitination or target-rescue experiment is shown.",
+    "BUB1B": "One of15 bioinformatic hub genes. Supplementary Table1 reports upregulation in both datasets with adjusted p=4.36e-8 for GSE38941 and9.39e-3 for GSE180226. No BUBR1 protein/activity or Apcin-induced BUB1B change is shown.",
+    "checkpoint_function": "No SAC function,mitotic timing,chromosome segregation,aneuploidy,micronuclei or faithful-daughter assay shown. Authors cite prior Apcin APC/C-dependent ubiquitination inhibition; that is mechanistic background,not directly measured liver target engagement.",
+    "Figure7C_E": "Only CCl4/ALF versus vehicle, n3; no Apcin arm. Hub/progenitor increases and Cps1/Cyp3a11/Cyp7a1 decreases are injury associations,not drug reversal.",
+    "Figure6_and_supplement": "Human hepatocyte-to-progenitor expansion and injury/vehicle expression comparisons; no Apcin intervention. The expansion medium is a multi-factor chemical/cytokine culture condition,not a genetic CDC20 restoration experiment.",
+    "culture_condition_agents": [
+      {
+        "name": "EGF",
+        "dose": "50ng/mL"
+      },
+      {
+        "name": "HGF",
+        "dose": "20ng/mL"
+      },
+      {
+        "name": "2-phospho-L-ascorbic acid",
+        "dose": "200uM"
+      },
+      {
+        "name": "CHIR99021",
+        "dose": "3uM"
+      },
+      {
+        "name": "SB431542",
+        "dose": "5uM"
+      },
+      {
+        "name": "lysophosphatidic acid",
+        "dose": "5uM"
+      },
+      {
+        "name": "sphingosine-1-phosphate",
+        "dose": "0.5uM"
+      }
+    ],
+    "culture_other_conditions": "William E medium,2%B27withoutVA,1%PS,1%FBS;1e5cells/cm2;7–10days beforepassage1:2,daily medium change;three donor liver entries(age30male,67female,55male,allHCC);figure expression n4,independence/donor mapping not explained."
+  },
+  "harms_and_limits": [
+    "No dedicated Apcin-only healthy-animal toxicity group; no dose-response,PK,systemic toxicity or longer-term tissue-regeneration/genome-integrity evaluation.",
+    "Three of seven Apcin+CCl4 mice appear not to survive to the last displayed point,inferred from the plot; this is residual model mortality and cannot be attributed to drug toxicity.",
+    "Pretreatment before a planned toxic insult does not establish efficacy after established liver failure.",
+    "CCl4 model is not an MVA/BUB1B-deficient model and does not test benefit in COVID-19 infection; authors explicitly call COVID-19 efficacy theoretical.",
+    "Survival timing mismatch and absent significance statistic limit quantitative interpretation.",
+    "Methods assigned n7/group for tissue,but figure uses n3 expression/histology and n4 biochemistry; sample selection and technical-versus-biological units not reconciled.",
+    "No drug-arm restoration of liver identity/function-gene expression is demonstrated despite broad discussion language."
+  ],
+  "secondary_source_consistency_flags": [
+    "Abstract reports418 commonDEGs while Figure1/results/supplement title state192up+227down=419; not silently reconciled.",
+    "Methods names GSE139602 for ACLF then GSE134431 in the next sentence; figure/data-availability useGSE139602.",
+    "Supplementary expression figure referred to as S2 in main but its own legend labels S1."
+  ],
+  "publication_status": "No comment/correction/retraction link in fresh Europe PMC metadata; this is a bounded source-status observation,not a whole-literature audit.",
+  "independent_check": {
+    "reader": "/root/pr1_reuse_check",
+    "scope": "Figure7 visual,complete Methods and Results",
+    "agreement": "Confirms regimen,drug-vs-expression-arm distinction,plotted survival inference/timing mismatch,ALT/AST direction andp<.05,denominator ambiguity",
+    "message_preserved_in": "independent-figure-check.md"
+  },
+  "followup_questions": [
+    "Obtain individual survival/event data through the stated seven-day endpoint,including censoring and comparison statistics.",
+    "Clarify the biological unit behind Fig7G n4 and tissue subsampling from n7assigned/group.",
+    "Test post-injury dosing,exposure-response and Apcin-only tolerability.",
+    "Establish CDC20-dependent target engagement and whether protection reflects hepatocyte-state preservation,altered toxin handling or another mechanism.",
+    "Directly measure BUBR1/checkpoint competence and faithful chromosome segregation in a relevant disease model before any MVA restoration claim."
+  ],
+  "integration": {
+    "existing_route_updated": "new-apcin",
+    "duplicate_route_added": false,
+    "prior_mechanistic_evidence_preserved": true,
+    "additional_abstract_coverage_credit": 0,
+    "primary_source_manifest": {
+      "date_utc": "2026-09-23T03:53:22.865253+00:00",
+      "source_record": "MED:36911196",
+      "license": "CC BY per Europe PMC metadata",
+      "retrievals": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9997844/supplementaryFiles",
+          "retrieved_utc": "2026-09-23T03:46:25.905288+00:00",
+          "file": "epmc-supplementary.zip",
+          "sha256": "9a5ed957d934e0f6ec08c9f8f485c1764466c0bfeb5d34a62cd55a6ded8906f6"
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2023.1135997/full",
+          "retrieved_utc": "2026-09-23T03:46:25.208484+00:00",
+          "file": "publisher.html",
+          "sha256": "4f9c2c97aa41beb81cf37c09b3ea707a4933aab2f99d1a3e2284ad4273161037"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36911196%20AND%20SRC:MED&format=json&resultType=core",
+          "retrieved_utc": "2026-09-23T03:45:33.370010+00:00",
+          "file": "epmc-metadata.json",
+          "sha256": "ded32cd7cad85b867d4f4fed96901dab360d6eddc1eaf3dca6c5f15d15616a82"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9997844/fullTextXML",
+          "retrieved_utc": "2026-09-23T03:45:45.261964+00:00",
+          "file": "PMC9997844.xml",
+          "sha256": "edf82a7637e8046ec20a9d26ded351d194b1cccfaf9b6365825b982672745d61"
+        }
+      ],
+      "files": [
+        {
+          "path": "DataSheet1.docx.text.txt",
+          "bytes": 460,
+          "sha256": "1675c89d496a73f465e38d4a5e6b59541a0d9f4df3dbff7db22dd7967099f6ba",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "PMC9997844.xml",
+          "bytes": 108321,
+          "sha256": "edf82a7637e8046ec20a9d26ded351d194b1cccfaf9b6365825b982672745d61",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9997844/fullTextXML",
+          "provenance": "original download"
+        },
+        {
+          "path": "Table1.DOCX.text.txt",
+          "bytes": 12060,
+          "sha256": "07339d4d4baa8257410e3f5a5b722af2b6c646a05426ab3c422d3f6200c588e1",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "epmc-metadata.json",
+          "bytes": 7639,
+          "sha256": "ded32cd7cad85b867d4f4fed96901dab360d6eddc1eaf3dca6c5f15d15616a82",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36911196%20AND%20SRC:MED&format=json&resultType=core",
+          "provenance": "original download"
+        },
+        {
+          "path": "epmc-supplementary/DataSheet1.docx",
+          "bytes": 343815,
+          "sha256": "b8153032c598a9561a467e8c6f32d176429a6be0ada50172557837aabd8217b8",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/Table1.DOCX",
+          "bytes": 708889,
+          "sha256": "e3e97ffeeed20b14c31930687f08aa057dbd024d674205c518d4a6feaeee0529",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g001.gif",
+          "bytes": 16503,
+          "sha256": "6b029618100cfd730b17000efc5e0448b690ab63ae9c58398b444962f49177d9",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g001.jpg",
+          "bytes": 214644,
+          "sha256": "8fe128f4be3d1383b46e61bae57a3cf54d5ed65e20ce85ce0ca6b3e3a7bda600",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g002.gif",
+          "bytes": 10435,
+          "sha256": "dbd8193a54a05fc74bfab5fba1b21967b14a494a9e313f8330099855fdb781d2",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g002.jpg",
+          "bytes": 71561,
+          "sha256": "8e56e030ab7a3aea5bceceacd5b07cf52fb99d0696b08e77174eca92a36ba4ca",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g003.gif",
+          "bytes": 15434,
+          "sha256": "8330b04861088db1f649c4efafd9c5c0ec235b8e13d3f3a5a4ca166d2d3105a3",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g003.jpg",
+          "bytes": 172225,
+          "sha256": "5645ad2975315a19215a61de07098705e94cc2fec596a4c37ccd9003e098cd06",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g004.gif",
+          "bytes": 9032,
+          "sha256": "5bfa595635bdce19248126af293e507317ef5fa0f694e7fa96babd6d94e0c476",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g004.jpg",
+          "bytes": 51785,
+          "sha256": "8847a134f42e4ff30e8a4b24b6647eed32ab8f93292afbf1e2712a27c15e944d",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g005.gif",
+          "bytes": 13951,
+          "sha256": "7816fd03750ebe136dd8ae0324718e1dc7324dbbec7b733baf6da4f6e77f4eb5",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g005.jpg",
+          "bytes": 92481,
+          "sha256": "afd2649866dd8e1462d8224c04065cab07c8898fd49066130daf3cf253d6c030",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g006.gif",
+          "bytes": 16833,
+          "sha256": "57c1e6b11394d33551e510ba3faed1bb6c43774d316d4cf49580a9c9aaa219e5",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g006.jpg",
+          "bytes": 158512,
+          "sha256": "87529b230bfe5504a14ef9435ec40577788fd4554ff439875981c75c49186d80",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g007.gif",
+          "bytes": 15239,
+          "sha256": "79a0b7ea2277de3b90f8761df86a0bccd2423b584f81c542780a42fde8506a9a",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary/fbioe-11-1135997-g007.jpg",
+          "bytes": 163812,
+          "sha256": "b1825a297912040596d847160621a44e5b8a1b556ae29c0cbf8d3a7f2bbfa2d5",
+          "url": null,
+          "provenance": "extracted original ZIP member"
+        },
+        {
+          "path": "epmc-supplementary.zip",
+          "bytes": 1663749,
+          "sha256": "9a5ed957d934e0f6ec08c9f8f485c1764466c0bfeb5d34a62cd55a6ded8906f6",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9997844/supplementaryFiles",
+          "provenance": "original download"
+        },
+        {
+          "path": "independent-figure-check.md",
+          "bytes": 1070,
+          "sha256": "addd0e4e1b9f1823e76cff30f9e0e623a6b259357043d7dd9be29ba15dd6ea68",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-body.xml.txt",
+          "bytes": 87982,
+          "sha256": "e584a907a3526c285340a14d98ad0af2840c6b19edaeca89eb4ea80b9ccdd3dd",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-section-00.txt",
+          "bytes": 3478,
+          "sha256": "97cc971be0fd478d71d0eaac16f3e278eff857f4e9c20a554f2f767818849da5",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-section-01.txt",
+          "bytes": 10055,
+          "sha256": "edb50439ea9554c1c2b5964c8dd3883fe515cfa4f09ac5d33d06018dd5aab95a",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-section-02.txt",
+          "bytes": 10169,
+          "sha256": "7254c5bc3ea8151ea02ef1c8b619a4cbbe8279822db7d2bba64dc488933b4ca6",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-section-03.txt",
+          "bytes": 5574,
+          "sha256": "a6a3fa5e7bd012af0c76d6a43b250328c0c29ce3ea1c998e66a642a0a8fe2049",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-section-04.txt",
+          "bytes": 395,
+          "sha256": "9a88a9e346ee655d980d45d0cde108ea490bcab742f751fea68943f0d21ea4f8",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-section-05.txt",
+          "bytes": 363,
+          "sha256": "e55ba4b6594bd2664436bb230d4911f60b7f093405b7aaf54652298f3b69be58",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-section-06.txt",
+          "bytes": 534,
+          "sha256": "2bc9ea998ab2f55a2a5636317f866f97176c016c89ebb57d1d4e17033c3b0e8e",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-section-07.txt",
+          "bytes": 378,
+          "sha256": "26f98e7231a2cb1d94ae7f6a32125c9eaad46698d2f841805400c2bcc2a402e8",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-section-08.txt",
+          "bytes": 192,
+          "sha256": "4c55501f8b06bfb6cc262d14716e2b68efe42d1a4cda285e7331f00870e8a8df",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-section-09.txt",
+          "bytes": 364,
+          "sha256": "4553b498fd1839d988506f87bbdc4696c1c83d262f907a40d7e29eea705c9ebd",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-section-10.txt",
+          "bytes": 254,
+          "sha256": "5822cf30a3ea8acb033a3fcb6aa0c51eba3758b8aee9966e4519c12cbea1e301",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-section-11.txt",
+          "bytes": 8933,
+          "sha256": "cb085d7261c888a6108bcf1c16d5ef3a920a4f7637386889d7a84a15fdc45217",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "main-section-12.txt",
+          "bytes": 473,
+          "sha256": "e6850dd211421b8fd0445ab7468ffcc1dce892bc53e769542ca7d2a55d7a3adf",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "publisher.html",
+          "bytes": 814186,
+          "sha256": "4f9c2c97aa41beb81cf37c09b3ea707a4933aab2f99d1a3e2284ad4273161037",
+          "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2023.1135997/full",
+          "provenance": "original download"
+        },
+        {
+          "path": "retrieval-fulltext.json",
+          "bytes": 249,
+          "sha256": "4890ed992fd79244a918b0cd2095c4e76910560c7ee1ac1d6d37cbae44e1d967",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "retrieval-initial.json",
+          "bytes": 303,
+          "sha256": "e6f2b5f6371c880ab5d565a7a1c231dd0ca94adff5aa585ae333ea40f9e4a3c9",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "retrieval-publisher.json",
+          "bytes": 288,
+          "sha256": "055b16b2c7ae3b10629a3e800678cd222ac4db98cec4b445f976081d415216dd",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "retrieval-supplement.json",
+          "bytes": 264,
+          "sha256": "2fad7d3a5573526902d7c2643b8430671c12d0eff81a6f0b5a61192c5c1d091c",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "supplement-figure-render/DataSheet1.pdf",
+          "bytes": 235716,
+          "sha256": "b1040bd0a67a50ba2b5b098c33b0559b94ca13f23703e2dfb8568b1778bc53e5",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "supplement-figure-render/page-1.png",
+          "bytes": 365063,
+          "sha256": "616aaa2d92ac7db234eac4b8877fb34049903fdfb0e32999f70919d4ae90de4b",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "supplement-media/DataSheet1.docx/word/media/image1.png",
+          "bytes": 328585,
+          "sha256": "fc3e660fde44d989288685f8801adcee009fcb93f16086c78efd45e8b407bc40",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "supplement-media/Table1.DOCX/word/media/image1.jpeg",
+          "bytes": 643561,
+          "sha256": "fede2914aa93ec2cff871e9c8cdec1e6877657e50bb011bac05e20581a38118c",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "supplement-table-render/Table1.pdf",
+          "bytes": 737726,
+          "sha256": "2d7df6863d58820d7213100eb9bdbce7975a0d53eb899942ef687f1abb8d6daa",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "supplement-table-render/page-1.png",
+          "bytes": 524249,
+          "sha256": "fd9a8632b813f7c9dd501e31d3ca68d73c0b5dac4f077af2530320288c108797",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "supplement-table-render/page-2.png",
+          "bytes": 478491,
+          "sha256": "e7e363a7fcf6ecadd57dd7f755e053d443eddcdd647316fb890385b38b0ac837",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "supplement-table-render/page-3.png",
+          "bytes": 452647,
+          "sha256": "39f43c32251535f1feba04dc557b8905783ca929476143bc6c95c0c911e57337",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "supplement-table-render/page-4.png",
+          "bytes": 493126,
+          "sha256": "29a40d5f13275f56d46571bc7ea76657a20b1d8e2b84aa4b48dd7b6c2e9c4467",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "supplement-table-render/page-5.png",
+          "bytes": 435774,
+          "sha256": "04f5a7a3db1bac91135850d59b34178a2280c246aaf88daf3633d0e20c922f92",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "supplement-table-render/page-6.png",
+          "bytes": 380737,
+          "sha256": "c61f3c024b2330330361255d0955f5b4e1b4556c377f57b3177d5e1bff208149",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        },
+        {
+          "path": "supplement-table-render/page-7.png",
+          "bytes": 142779,
+          "sha256": "8af6230d550f0cedd89a2041624caac78e38049dd4c82f3c1a6a786a25506519",
+          "url": null,
+          "provenance": "derived text/render/extraction or read evidence"
+        }
+      ],
+      "read_outputs": {
+        "appraisal.md": "d1795085ebc6b015fb22bc63bd774a0fe2db3df4ab43d39b579e8ac27d134db3",
+        "evidence.json": "ed55642df7646a8498a97274a01acc45f2182c1ba0fa697ebfc8b241d83b343e"
+      }
+    }
+  }
+}

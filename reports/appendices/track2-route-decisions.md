@@ -240,3 +240,15 @@ family report; bFGF and collagenase are separate arms of one ex vivo paper.
 | **Collagenase — matrix mechanism probe** | Separate matrix-removal arm improves progenitor division/proliferation indices. | Unspecified preparation cannot inherit a licensed product identity; conflicting concentrations, no clinical muscle result. Resolve preparation and tissue relevance. |
 | **Salbutamol — clinical compensation reserve** | Sustained reported movement benefit in three adult AGRN-CMS siblings after a switch from ephedrine. | Uncontrolled, different lesion; the reported walking gain is not exclusively attributable to salbutamol. Assess a relevant neuromuscular mechanism without assuming this case is purely myopathic. |
 | **Ephedrine — linked clinical-response reserve** | Symptomatic improvement reported after three days in the same family. | Dose/route unspecified and durability confounded by switch to salbutamol. No independent replication or BUB1B benefit. |
+
+## Additional compound and natural-product follow-up
+
+The [compound qualification](../../workflow/track2-drug-census/stat3-compound-qualification.md)
+credits these source-specific positives without transferring genetic animal
+outcomes to drug treatment or equating malignant-cell growth with tissue rescue.
+
+| Unelected route | Evidence retained | Weakness and reopening condition |
+|---|---|---|
+| **SC-43 — antifibrotic/mechanistic comparator** | Mouse liver-fibrosis treatment improved survival versus vehicle; separate leukemia-cell drug arms suppress MAD2L1-associated growth. | No established matching muscle lesion, BUBR1 restoration or human outcome. Registered development includes a zero-enrollment withdrawal and a trial of unknown status. Require a relevant affected-tissue mechanism and functional benefit with preserved renewal/fidelity. |
+| **Garcinone D — natural-product mechanistic lead** | Higher MAD2L1 protein bands and restored growth after knockdown in leukemia cells; separate neural-progenitor proliferation. | BUBR1 is not the restored protein, final leukemia-culture exposure is unresolved, and growth direction varies by cell/exposure. Purified compound is not a mangosteen supplement. Require qualified exposure and useful endogenous checkpoint/tissue rescue before promotion. |
+| **[Apcin — context-dependent research lead](../../workflow/track2-drug-census/apcin-liver-qualification.md)** | Actual pretreatment in a toxic liver-injury mouse model improved plotted survival and reduced ALT/AST. | Stated seven-day survival is not verified by the displayed curve; no survival significance statistic, direct hepatic target engagement or BUBR1/checkpoint restoration. Preserve earlier negative biochemical comparisons. Require relevant tissue benefit, post-injury testing and fidelity before promotion. |

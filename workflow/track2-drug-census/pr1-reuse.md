@@ -8,7 +8,7 @@ not approve publication or declare the drug search complete.
 | PR1 contribution | Disposition |
 |---|---|
 | Niacin/apitegromab proposal, experimental plan, current pitch and earlier drug comparisons | Already inherited through the common ancestor, `84a1a01`. Preserved. |
-| Drug decisions | Before this integration, **107 of PR1's 109 decoded decision objects were equal** to the current branch. The two substantive differences were metformin and UMK57. All 109 decision IDs remain represented; seven later appraisals bring the current total to 116. |
+| Drug decisions | Before this integration, **107 of PR1's 109 decoded decision objects were equal** to the current branch. The two substantive differences were metformin and UMK57. All 109 decision IDs remain represented; seven later appraisals brought the integration checkpoint to 116. |
 | Metformin | Keep the later [primary qualification](protein-and-tissue-qualification.md), which distinguishes TET2 stabilization, functional tumor outcomes, exposure and engineered-cell limits. |
 | UMK57 | Retain the actual acute and post-division fidelity benefits, durability limits and kinetochore BUBR1 measurement. Add PR1's RPE-1/BJ controls with the narrower interpretation below. |
 | Exact-string reader and regression test | Both files are byte-identical between PR1 and the pre-integration branch. No duplicate implementation is needed. |
@@ -48,10 +48,20 @@ established. The separate mathematical-inequality decoder bug has been
 every manual error. Likewise, the 143 initially empty abstract fields have
 separate recovery records and cannot all be called never read.
 
-The committed coverage remains **2,347 outer source/ID records**, including 186
-direct revalidations; **3,412 selected strings require revalidation**. The
+At that integration checkpoint, coverage was **2,347 outer source/ID records**, including 186
+direct revalidations; **3,412 selected strings still required revalidation**. The
 earlier 2,161 annotations have not been independently re-audited here. New work
 in progress receives no credit until checked and integrated. Further source
 questions remain, so the user's conditional publication/submission gate is
 still open. The [machine-readable comparison](pr1-reuse.json) records the exact
 revision, identical components and source checks.
+
+Subsequent qualified additions are tracked in the [current census](README.md).
+The checkpoint counts above are historical, not the current coverage claim.
+
+The later [Apcin qualification](apcin-liver-qualification.md) changes one more
+inherited assessment by crediting an actual-drug mouse organ-protection result.
+All 109 PR1 IDs remain; 106 decoded decision objects are now unchanged, with
+metformin, UMK57 and Apcin updated. The reader/test and all 3,598 selection
+records remain identical. The unsupported completion verifier is retained in
+Git history rather than used for current coverage.

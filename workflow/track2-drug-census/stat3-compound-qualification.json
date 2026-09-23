@@ -1,0 +1,776 @@
+{
+  "date": "2026-09-22",
+  "status": "Bounded source qualification; patient efficacy and compound superiority unestablished.",
+  "mad2l1_study": {
+    "date": "2026-09-22",
+    "study": {
+      "pmid": "36781502",
+      "pmcid": "PMC11797693",
+      "doi": "10.1007/s00432-023-04613-5",
+      "year": 2023
+    },
+    "correction": {
+      "pmid": "41484222",
+      "pmcid": "PMC12764733",
+      "doi": "10.1007/s00432-025-06392-7",
+      "published": "2026-01-04",
+      "change": "Figure 5i bottom-left Nalm6 image replaced; previously duplicated from Figure 5j",
+      "authors_conclusions_unchanged": true,
+      "independently_validated_raw_data": false,
+      "corrected_figure_visually_inspected": true
+    },
+    "reading_depth": {
+      "continuous_complete_main_copy_read": false,
+      "indexed_primary_text_sections_read": [
+        "Background",
+        "Microarray and database analysis",
+        "Patients and specimens",
+        "Cell lines and cell culture",
+        "Quantitative reverse transcription polymerase chain reaction",
+        "Western blotting",
+        "Stable cell lines",
+        "Cell viability",
+        "EdU assay",
+        "Transwell assay",
+        "Cell-cycle analysis",
+        "Xenograft model",
+        "Immunohistochemistry",
+        "Co-immunoprecipitation",
+        "Luciferase reporter assay",
+        "Chromatin immunoprecipitation assay",
+        "Statistical analysis",
+        "all six Results subsections",
+        "Discussion",
+        "all six main figure legends"
+      ],
+      "complete_supplement_read": "Publisher Supplementary file1 DOCX, Tables S1-S3",
+      "complete_correction_read": true,
+      "main_figures_visually_inspected": [
+        "corrected Figure 5"
+      ],
+      "main_figures_not_visually_inspected": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "limitations": "Overlapping indexed primary-source excerpts do not prove a complete continuous main-body read. Direct main HTML/PDF returned recaptcha; EPMC XML failed; BioC had no result."
+    },
+    "compound_arms": [
+      {
+        "compound": "SC-43",
+        "vendor": "MedChemExpress",
+        "catalog_number": "HY-136657",
+        "source_concentration_column": "Working concentration",
+        "source_concentration_literal": "10 mM(DMSO)",
+        "final_culture_concentration": null,
+        "final_DMSO_fraction": null,
+        "drug_exposure_duration": null,
+        "dose_interpretation": "Stock-like notation but not unambiguously designated stock; do not infer final culture dose from it",
+        "cell_model": "RS4;11 B-ALL with lentiviral MAD2L1 overexpression",
+        "groups": [
+          "vector",
+          "ovMAD2L1",
+          "ovMAD2L1 + SC-43"
+        ],
+        "factorial_arm_not_shown": "vector + SC-43",
+        "protein_result": "Reduced MAD2L1, TYK2, phospho-TYK2, STAT3 and phospho-STAT3 relative to overexpression arm; qualitative blot support; no admitted numerical fold changes",
+        "functional_results": [
+          "lower CCK-8 growth/viability",
+          "lower EdU incorporation",
+          "lower transwell migration and invasion endpoints",
+          "cell-cycle distribution shifted toward comparison group"
+        ],
+        "drug_treated_animals_in_this_paper": false,
+        "drug_binding_specificity_tested": false
+      },
+      {
+        "compound": "garcinone D",
+        "vendor": "MedChemExpress",
+        "catalog_number": "HY-N6953",
+        "source_concentration_column": "Working concentration",
+        "source_concentration_literal": "10 mM(DMSO)",
+        "final_culture_concentration": null,
+        "final_DMSO_fraction": null,
+        "drug_exposure_duration": null,
+        "dose_interpretation": "Stock-like notation but not unambiguously designated stock; do not infer final culture dose from it",
+        "cell_model": "Nalm6 B-ALL with stable MAD2L1 shRNA knockdown",
+        "groups": [
+          "shNC",
+          "shMAD2L1",
+          "shMAD2L1 + garcinone D"
+        ],
+        "factorial_arm_not_shown": "shNC + garcinone D",
+        "protein_result": "Increased MAD2L1, TYK2, phospho-TYK2, STAT3 and phospho-STAT3 relative to knockdown arm; qualitative blot support; no admitted numerical fold changes",
+        "functional_results": [
+          "restored CCK-8 growth/viability",
+          "restored EdU incorporation",
+          "restored transwell migration and invasion endpoints",
+          "cell-cycle distribution shifted toward shNC group"
+        ],
+        "meaning_of_rescue": "Restoration of malignant-cell phenotype after MAD2L1 depletion; not healthy-tissue or MVA rescue",
+        "drug_treated_animals_in_this_paper": false,
+        "drug_binding_specificity_tested": false
+      }
+    ],
+    "protein_scope": {
+      "MAD2L1_measured": true,
+      "BUBR1_protein_measured_identified": false,
+      "BUB1B_context": "Discovery-stage hub-gene list; not restored experimental protein",
+      "protein_stabilization_or_half_life_measured": false,
+      "figure5E_densitometry_or_replicate_n_displayed": false,
+      "antibodies": {
+        "MAD2L1": "Abcam ab171084 1:1000",
+        "TYK2": "CST 14193 1:1000",
+        "pTYK2": "CST 68790 Tyr1054/1055 1:1000",
+        "STAT3": "CST 9139 1:1000",
+        "pSTAT3": "CST 9145 Tyr705 1:1000",
+        "GAPDH": "Beijing Ray RM2002 1:5000"
+      }
+    },
+    "assays": {
+      "CCK8": {
+        "cells_per_well": 5000,
+        "readout_hours": [
+          24,
+          48,
+          72,
+          96
+        ],
+        "wavelength_nm": 450,
+        "reagent_incubation_hours": 4,
+        "interpretation": "Metabolic viability/growth, not direct faithful daughter-cell count"
+      },
+      "EdU": {
+        "readout": "Flow cytometry DNA synthesis",
+        "label_duration_identified": null
+      },
+      "transwell": {
+        "cells": 200000,
+        "upper_volume_uL": 200,
+        "lower_volume_uL": 500,
+        "lower_FBS_percent": 10,
+        "migration_hours": 24,
+        "invasion_hours": 48,
+        "matrigel_dilution": "1:7 RPMI-1640",
+        "source_inconsistency": "Methods assigns coating to migration and no coating to invasion; Results assigns uncoated migration and coated invasion",
+        "growth_normalized_motility_identified": false
+      },
+      "PI": {
+        "readout": "DNA-content cell-cycle distribution",
+        "not_established": [
+          "successful chromosome segregation",
+          "checkpoint restoration",
+          "aneuploidy reduction",
+          "productive daughter-cell yield"
+        ]
+      },
+      "figure5_drug_replicate_n": null,
+      "figure3_genetic_cell_cycle_n": 3,
+      "do_not_transfer_figure3_n_to_drug_panels": true
+    },
+    "statistics": {
+      "global_methods": [
+        "independent t test",
+        "one-way ANOVA",
+        "Kaplan-Meier",
+        "log-rank"
+      ],
+      "summary": "mean +/- SD",
+      "software": "GraphPad Prism 8.0",
+      "figure5_panel_specific_test": null,
+      "figure5_independent_replicate_unit": null,
+      "figure5_multiple_testing_correction": null,
+      "numerical_drug_effect_sizes_admitted": false
+    },
+    "genetic_xenograft": {
+      "host": "6-week-old female NOD/SCID",
+      "conditioning": "intraperitoneal cyclophosphamide; dose not identified",
+      "cell_inoculum": 5000000,
+      "volume_uL": 300,
+      "vehicle": "PBS",
+      "route": "tail vein",
+      "groups": [
+        "RS4;11-vector",
+        "RS4;11-ovMAD2L1",
+        "Nalm6-shNC",
+        "Nalm6-shMAD2L1"
+      ],
+      "methods_n_per_group": 10,
+      "figure4_survival_n_per_group": 5,
+      "figure4_day30_spleen_n_per_group": 5,
+      "figure4_IHC_n_per_group": 5,
+      "allocation_reconciliation": "Not explicit in accessed text; separate endpoint subsets possible, not assumed",
+      "positive_results": "Lower-MAD2L1 groups have longer survival/lower leukemia burden; reverse with overexpression",
+      "observers": "Two investigators blinded to allocation monitored daily symptoms",
+      "drug_efficacy_credit": false
+    },
+    "patient_expression_samples": {
+      "healthy": 4,
+      "diagnosis": 13,
+      "remission": 9,
+      "relapse": 6,
+      "compound_treatment_cohort": false
+    },
+    "mechanism": {
+      "support": [
+        "MAD2L1 genetic perturbation tracks TYK2/STAT3 abundance/phosphorylation",
+        "reciprocal FLAG/TYK2 co-IP with input and IgG controls",
+        "STAT3 wild-type/mutant promoter reporter in 293T cells",
+        "STAT3 ChIP with input/IgG controls",
+        "opposing compound perturbations in relevant genetic backgrounds"
+      ],
+      "limits": [
+        "Co-IP supports association, not purified direct binding",
+        "No compound target-occupancy or exclusive specificity assay",
+        "One identified shMAD2L1 sequence",
+        "No complete factorial compound controls shown",
+        "No protein-turnover assay",
+        "No drug normal-PBMC comparator"
+      ]
+    },
+    "not_established": [
+      "BUBR1 restoration",
+      "BUB1B-genotype rescue",
+      "MVA benefit",
+      "muscle benefit",
+      "healthy-tissue repair",
+      "drug-induced faithful division",
+      "drug-treated animal survival in this paper",
+      "human exposure or safety from this paper"
+    ],
+    "recommended_disposition": "Retain actual-drug MAD2L1/protein and functional cancer-cell observations with correction and unresolved exposure/replication. Do not treat as BUBR1 stabilization, MVA rescue, or animal drug-efficacy evidence. Clinical-development and other-tissue findings require separate sources.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11797693/",
+      "https://pubmed.ncbi.nlm.nih.gov/36781502/",
+      "https://link.springer.com/article/10.1007/s00432-023-04613-5",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12764733/fullTextXML",
+      "https://link.springer.com/article/10.1007/s00432-025-06392-7",
+      "https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs00432-023-04613-5/MediaObjects/432_2023_4613_MOESM1_ESM.docx",
+      "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00432-025-06392-7/MediaObjects/432_2025_6392_Fig5_HTML.png"
+    ]
+  },
+  "additional_sources": {
+    "date": "2026-09-22",
+    "reader": "/root",
+    "reading_artifact": "root-appraisal.md",
+    "sources": [
+      {
+        "file": "garcinone-primary-metadata.json",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27177723%20AND%20SRC:MED&format=json&resultType=core",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27177723%20AND%20SRC:MED&format=json&resultType=core",
+        "status": 200,
+        "sha256": "da2ada8cc6665132ef270df0b0973a01471247ff80838ce448da75ea70ce6210",
+        "bytes": 10236,
+        "retrieved_utc": "2026-09-23T03:27:32.068585+00:00"
+      },
+      {
+        "file": "sc43-trials.json",
+        "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%22SC-43%22&format=json&pageSize=100",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies?query.term=%22SC-43%22&format=json&pageSize=100",
+        "status": 200,
+        "sha256": "4885cc8dde87d0ef4dad7e440632f73f0c57b8a7de5b400321ac342d00567823",
+        "bytes": 26676,
+        "retrieved_utc": "2026-09-23T03:27:32.350538+00:00"
+      },
+      {
+        "file": "sc43-product.html",
+        "url": "https://www.selleckchem.com/products/sc-43.html",
+        "final_url": "https://www.selleckchem.com/products/sc-43.html",
+        "status": 200,
+        "sha256": "263f3a4d0c4125e1f387320f30d61ba502a4f328def089c43c86898afe8da7a1",
+        "bytes": 127020,
+        "retrieved_utc": "2026-09-23T03:27:32.582260+00:00"
+      },
+      {
+        "file": "garcinone-product.html",
+        "url": "https://www.medchemexpress.com/garcinone-d.html",
+        "final_url": "https://www.medchemexpress.com/garcinone-d.html",
+        "status": 403,
+        "sha256": "aac9b6c070fe835815dcdca65880a8caad2a7fb42abde952d8fd0486bff56b90",
+        "bytes": 4553,
+        "retrieved_utc": "2026-09-23T03:27:32.689871+00:00"
+      },
+      {
+        "file": "garcinone-publisher.html",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0304394016303111",
+        "final_url": "https://www.sciencedirect.com/science/article/pii/S0304394016303111",
+        "status": 403,
+        "sha256": "c4c208d155f4bdf98892fad996ecd74c75950a2ac25bce924d9e5b802be9066f",
+        "bytes": 832804,
+        "retrieved_utc": "2026-09-23T03:27:32.967835+00:00"
+      },
+      {
+        "file": "xanthones.xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7854934/fullTextXML",
+        "status": 500,
+        "bytes": 150,
+        "sha256": "6e24898e142df89365af4728cd9a6b9526fa761ffd908b9ea193f059ca71ec9d",
+        "retrieved_utc": "2026-09-23T03:28:04.769224+00:00"
+      },
+      {
+        "file": "garcinone-selleck.html",
+        "url": "https://www.selleckchem.com/products/garcinone-d-stat-activator.html",
+        "status": 200,
+        "bytes": 105170,
+        "sha256": "a7d783fb53b4ad094956d05d7f8e6389585240c230d19ed6e507a2e7ffb08cd3",
+        "retrieved_utc": "2026-09-23T03:28:05.111124+00:00"
+      },
+      {
+        "file": "xanthones-bioc.xml",
+        "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC7854934/unicode",
+        "status": 200,
+        "bytes": 30918,
+        "sha256": "68a77044a035c856927dc4673771cf6fe81223cb48cf0fd51d3f160158c0c3f3",
+        "retrieved_utc": "2026-09-23T03:28:29.705949+00:00"
+      },
+      {
+        "file": "xanthones-oa.xml",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC7854934",
+        "status": 404,
+        "bytes": 1584,
+        "sha256": "dd95c0e931bec8815e12f47e97e887eab4144a73e45a6cb3584d25a57fc4d0d2",
+        "retrieved_utc": "2026-09-23T03:28:30.009139+00:00"
+      },
+      {
+        "file": "xanthones-epmc.html",
+        "url": "https://europepmc.org/articles/PMC7854934",
+        "status": 403,
+        "bytes": 5525,
+        "sha256": "236abbc9745f48308bdc64150c00565e2b62eff2dbab81e560c4082684943170",
+        "retrieved_utc": "2026-09-23T03:28:30.116788+00:00"
+      },
+      {
+        "file": "xanthones-ncbi.html",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7854934/?pdf=1",
+        "status": 200,
+        "bytes": 134278,
+        "sha256": "5cf909b96e75735fc87f280f67e9545ff001a22991d5861ed2a5b16cf2502ea8",
+        "retrieved_utc": "2026-09-23T03:28:30.458278+00:00"
+      },
+      {
+        "file": "xanthones-supplement.docx",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/7854934/bin/NIHMS1623555-supplement-Supplementary_Material.docx",
+        "status": 200,
+        "bytes": 1817,
+        "sha256": "5c80bc58e666aa6875e9c74c2e32d3f007f6b4189eae505aebfb95dd252776b6",
+        "retrieved_utc": "2026-09-23T03:29:27.743817+00:00"
+      },
+      {
+        "file": "sc43-fibrosis.xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5431996/fullTextXML",
+        "status": 200,
+        "bytes": 83217,
+        "sha256": "d52639cce1de0a7f18c6a82f7438781dd010031ec689eec9ecfa8afd0efd1bc0",
+        "retrieved_utc": "2026-09-23T03:29:58.032968+00:00"
+      },
+      {
+        "file": "sc43-fibrosis-publisher.html",
+        "url": "https://www.nature.com/articles/s41598-017-01572-z",
+        "status": 200,
+        "sha256": "1b268e6edeb6a82e5c939002acbf5ff2419fc3e239e9be64f117d36be615c446",
+        "bytes": 405474,
+        "retrieved_utc": "2026-09-23T03:31:22.085537+00:00"
+      },
+      {
+        "file": "sc43-fibrosis-fig2.png",
+        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-017-01572-z/MediaObjects/41598_2017_1572_Fig2_HTML.jpg",
+        "status": 200,
+        "sha256": "3124ba512e1442f35cb11a3a417cbb6ec5d3be64ac8a39acfc94b77fd96404aa",
+        "bytes": 74029,
+        "saved_file_mtime_utc": "2026-09-23T03:30:32.608230+00:00"
+      },
+      {
+        "file": "sc43-fibrosis-fig3.png",
+        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-017-01572-z/MediaObjects/41598_2017_1572_Fig3_HTML.jpg",
+        "status": 200,
+        "sha256": "7177f77f9eb6234fbf0c37ee0e643c51166e977838e9c432fb4047444e11b29c",
+        "bytes": 100033,
+        "saved_file_mtime_utc": "2026-09-23T03:30:33.104728+00:00"
+      },
+      {
+        "file": "sc43-fibrosis-fig4.png",
+        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-017-01572-z/MediaObjects/41598_2017_1572_Fig4_HTML.jpg",
+        "status": 200,
+        "sha256": "eeab24a0bb97d4f0355f5563534d1a3ddcc18bfc98c770abd6bf8f39d41e3ce5",
+        "bytes": 41037,
+        "saved_file_mtime_utc": "2026-09-23T03:30:33.783096+00:00"
+      },
+      {
+        "file": "sc43-fibrosis-fig7.png",
+        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-017-01572-z/MediaObjects/41598_2017_1572_Fig7_HTML.jpg",
+        "status": 200,
+        "sha256": "75c113128b69cab385aea1afb0e9c0e18f97b06cea23dd47b6d9dcd1154f1a10",
+        "bytes": 50615,
+        "saved_file_mtime_utc": "2026-09-23T03:30:34.372557+00:00"
+      },
+      {
+        "file": "sc43-fibrosis-fig8.png",
+        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-017-01572-z/MediaObjects/41598_2017_1572_Fig8_HTML.jpg",
+        "status": 200,
+        "sha256": "77b715fe730dcfa66271e615f2f8d682a761bb8535b1873718ab19f77a5eb852",
+        "bytes": 60772,
+        "saved_file_mtime_utc": "2026-09-23T03:30:34.991739+00:00"
+      },
+      {
+        "file": "sc43-fibrosis-supplement.pdf",
+        "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-017-01572-z/MediaObjects/41598_2017_1572_MOESM1_ESM.pdf",
+        "status": 200,
+        "bytes": 940364,
+        "sha256": "43259770c130a45ddaae94c3584786db35bc3b8bb1ba26927894475be9085dac",
+        "retrieved_utc": "2026-09-23T03:31:50.941359+00:00"
+      }
+    ],
+    "sc43_fibrosis": {
+      "source": "https://www.nature.com/articles/s41598-017-01572-z",
+      "pmcid": "PMC5431996",
+      "read_depth": {
+        "main": "complete main body and all legends",
+        "main_figures_viewed": [
+          2,
+          3,
+          4,
+          7,
+          8
+        ],
+        "supplement": "all text; all figures S1-S8 visually inspected on pages2-5"
+      },
+      "organism": "8-week-old male C57BL/6JNarl for CCl4; BALB/c for BDL",
+      "exposure": {
+        "CCl4_treatment_model": "SC-43 5/10/20 mg/kg orally, 5 days/week, six weeks after two weeks CCl4 induction; continued toxin; cremaphor vehicle; sorafenib10mg/kg comparator",
+        "BDL": "10mg/kg orally daily from day1 or8 until day14"
+      },
+      "positive": [
+        "reduced collagen area/Ishak score/hydroxyproline in CCl4 models",
+        "SC43 10mg/kg survival vs vehicle log-rankP=0.0291",
+        "reduced BDL collagen area in prevention and treatment settings"
+      ],
+      "denominators": {
+        "Fig2": "7-9/group",
+        "Fig3_treatment": "6-10/group; exact survival initial n per arm not separately tabulated",
+        "Fig3_regression": "6-8/group",
+        "Fig4": "7-8/group"
+      },
+      "limits": [
+        "No significant survival superiority over sorafenib P=.0671.",
+        "Dose-response trend for fibrosis endpoints is not a demonstrated monotone survival response.",
+        "Spontaneous fibrosis regression occurs after toxin withdrawal, including vehicle.",
+        "S4 alphaSMA P=.0595,n3 is not a significant reduction.",
+        "S6 BDL hydroxyproline bars have no significance marks or disclosedn.",
+        "S5 TUNEL images do not show cell-type co-label; do not infer HSC-selective killing from these alone.",
+        "No BUBR1, chromosome fidelity or muscle output measurement; 25 human biopsies are not a drug trial.",
+        "Mutant/siRNA/pharmacologic controls support SHP1 involvement without exclusive target selectivity or direct binding proof.",
+        "Randomization/blinded scoring not reported in read main methods.",
+        "S3 sodium-stibogluconate BDL contrast P=.0545 is a nonsignificant trend, not proof of worsened fibrosis in that model."
+      ],
+      "source_followups": [
+        "Assess whether relevant fibrosis or SHP1/STAT3 dependence exists in affected muscle before considering compensation transfer.",
+        "Obtain patient-relevant exposure and normal progenitor/tumor interaction evidence."
+      ]
+    },
+    "garcinone_neural": {
+      "pmid": "27177723",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27177723/",
+      "depth": "complete primary abstract and publisher-labelled section snippets only; full methods/figures unavailable",
+      "positive": "C17.2 neural progenitor proliferation/Sphase fraction and pSTAT3,CyclinD1,Nrf2,HO1 increase; brusatol partly reverses proliferation",
+      "publisher_snippet_exposure": "5-10 micromolar viability increase;20-40 micromolar decrease; not patient dosing",
+      "limits": [
+        "Direct/selective STAT3 binding/agonism not established.",
+        "Cell proliferation does not demonstrate neuronal function, BUBR1restoration or faithful division.",
+        "Do not infer safe exposure from natural origin or supplier listing.",
+        "Exact publisher snippet concentration ranges were observed by root with the web search tool; blocked saved publisher HTML prevented independent snippet verification."
+      ]
+    },
+    "garcinone_cdk2": {
+      "pmid": "32691623",
+      "pmcid": "PMC7854934",
+      "depth": "complete available main text via NCBI BioC plus matching HTML; DOCX supplement methods/tables not retrieved; no complete-paper claim",
+      "main_text_garcinone_D_enzyme_EC50_micromolar": 28.23,
+      "main_text_endpoints": "48h individual-compound cancer-cell viability; cell-free CDK2/CyclinE1 inhibition, not MVA, tissue function or human exposure",
+      "compounds": [
+        "alpha-mangostin",
+        "beta-mangostin",
+        "gamma-mangostin",
+        "gartanin",
+        "8-desoxygartanin",
+        "garcinone C",
+        "garcinone D",
+        "9-hydroxycalabaxanthone",
+        "3-isomangostin"
+      ],
+      "limits": [
+        "Compounds are distinct; no inference of equivalent activity or selectivity.",
+        "No import of uninspected compound-specific supplement values.",
+        "Fruit/extract/dietary supplement not equivalent to purified compound."
+      ],
+      "other_eight_status": "source pointers only, not added curated MVA appraisals"
+    },
+    "availability": {
+      "SC-43": {
+        "cas": "1400989-25-4",
+        "selleck": "S0445",
+        "medchemexpress": "HY-136657",
+        "catalog_match": "CHEMBL2063215"
+      },
+      "garcinone D": {
+        "cas": "107390-08-9",
+        "selleck": "E2794",
+        "medchemexpress": "HY-N6953"
+      },
+      "scope": "Supplier-listed research reagents. No stock/delivery/eligibility/lot/clinical-formulation conclusion. Supplier target descriptors are not primary mechanistic proof."
+    },
+    "clinical_registries": [
+      {
+        "nct_id": "NCT03443622",
+        "status": {
+          "statusVerifiedDate": "2020-10",
+          "overallStatus": "WITHDRAWN",
+          "whyStopped": "Another study has been started in other country.",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2021-05",
+            "type": "ESTIMATED"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2022-12",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2023-06",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2018-02-07",
+          "studyFirstSubmitQcDate": "2018-02-17",
+          "studyFirstPostDateStruct": {
+            "date": "2018-02-23",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2020-10-19",
+          "lastUpdatePostDateStruct": {
+            "date": "2020-10-22",
+            "type": "ACTUAL"
+          }
+        },
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": {
+          "count": 0,
+          "type": "ACTUAL"
+        },
+        "has_posted_results": false,
+        "minimum_age": "20 Years",
+        "interpretation": "Registration/estimated enrollment does not establish treatment delivery or clinical benefit; earlier monotherapy/PK alluded to by combination protocol remains unverified here."
+      },
+      {
+        "nct_id": "NCT04733521",
+        "status": {
+          "statusVerifiedDate": "2021-01",
+          "overallStatus": "UNKNOWN",
+          "lastKnownStatus": "NOT_YET_RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2021-05-01",
+            "type": "ESTIMATED"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2023-09-30",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2023-09-30",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2021-01-25",
+          "studyFirstSubmitQcDate": "2021-01-28",
+          "studyFirstPostDateStruct": {
+            "date": "2021-02-02",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2021-01-28",
+          "lastUpdatePostDateStruct": {
+            "date": "2021-02-02",
+            "type": "ACTUAL"
+          }
+        },
+        "phases": [
+          "PHASE1",
+          "PHASE2"
+        ],
+        "enrollment": {
+          "count": 100,
+          "type": "ESTIMATED"
+        },
+        "has_posted_results": false,
+        "minimum_age": "18 Years",
+        "interpretation": "Registration/estimated enrollment does not establish treatment delivery or clinical benefit; earlier monotherapy/PK alluded to by combination protocol remains unverified here."
+      }
+    ],
+    "nominations_changed": false,
+    "clinical_response_probability_estimated": false
+  },
+  "mad2l1_manifest": {
+    "created_at": "2026-09-23T03:35:46.486953+00:00",
+    "directory": "external source cache: revalidation-batch02/mad2l1",
+    "scope": "PMID36781502 and correction PMID41484222, only this external folder written",
+    "main_continuous_complete_copy_obtained": false,
+    "primary_text_reading": "Overlapping web-indexed PMC sections; exact exports retained. All named Methods and Results sections read, but no complete continuous raw main copy verified.",
+    "retrieval_log": "retrieval.json",
+    "correction_jpg_source": "Copied from retained preceding errata cache; corrected full PNG separately retrieved from publisher.",
+    "files": [
+      {
+        "file": "432_2025_6392_Fig5_HTML.jpg",
+        "bytes": 186188,
+        "sha256": "708d9ba7429f5e91f0db9d4f8c04c89421743c18bdc1e557b92b12e7e3e05767"
+      },
+      {
+        "file": "432_2025_6392_Figa_HTML.jpg",
+        "bytes": 192029,
+        "sha256": "e2bac066776940dfa113f880c029f8669cf987030fb494f19332415a9de6bd4f"
+      },
+      {
+        "file": "appraisal.md",
+        "bytes": 8041,
+        "sha256": "756830021e2a2fa608365e707fb90f7630dd6eb9105b918f8cbac5444822d6a8"
+      },
+      {
+        "file": "corrected-fig5.png",
+        "bytes": 1703905,
+        "sha256": "64fe250bd52806ffaa44ca5123303a335c0f7256ac5f86ca42ffea25060f848d"
+      },
+      {
+        "file": "correction.txt",
+        "bytes": 6282,
+        "sha256": "22dab6b6b2a1d04b050d4bf29ad68f6faa87e97e768b6c3e6db6a86ea6662b22"
+      },
+      {
+        "file": "correction.xml",
+        "bytes": 12278,
+        "sha256": "4ccd76c31e7f41d790b947996a09fd637952a3b9beac3facdf7ae684e6154bc8"
+      },
+      {
+        "file": "evidence.json",
+        "bytes": 8601,
+        "sha256": "8b3cf7d251b32dc5dc5c2ec81c97d31a338ef39a334e3ba4860a123a446e04af"
+      },
+      {
+        "file": "main-bioc.xml",
+        "bytes": 6148,
+        "sha256": "3acc5f4c51ec704cd708d3379196db9f66442a96c9bf275773710e0de0196b52"
+      },
+      {
+        "file": "main-core.json",
+        "bytes": 11083,
+        "sha256": "1d6b2879e752198b2b0dac814b37c0e98db19aea8f7ef14107bb59b5b14fcfa5"
+      },
+      {
+        "file": "main-pdf-attempt.bin",
+        "bytes": 21388,
+        "sha256": "b2f893250f1e98a7acb5799203d44ea1bc3e2e823108a2c77f27c4dbd4aea165"
+      },
+      {
+        "file": "main-pdf1.html",
+        "bytes": 21352,
+        "sha256": "98bdf06d34669b6fec8eb97f56a5852d889b433e50198020be206a215512fb04"
+      },
+      {
+        "file": "main-pmc-old.html",
+        "bytes": 21312,
+        "sha256": "5ba2d9d56252218851b337effd6deef4a1f4e5f0fe528bb8015acf30e732391a"
+      },
+      {
+        "file": "main-publisher.html",
+        "bytes": 398920,
+        "sha256": "56a3d174722f47ba6c6f2d42c1e9a93d101850c25c6dbbbf28afd759e84f89b4"
+      },
+      {
+        "file": "main.html",
+        "bytes": 21308,
+        "sha256": "9c7f19e1edd417ddd4a9940c54b104d780dabb743314990b34f6c06d3da4bca8"
+      },
+      {
+        "file": "retrieval.json",
+        "bytes": 3436,
+        "sha256": "1561fdb0f658e3e278a08a45f09e842caad14bf51155b8c0754645ad5055ff35"
+      },
+      {
+        "file": "supplement.docx",
+        "bytes": 22474,
+        "sha256": "1dee54dac593d4658e5acb70c8444401e4e2a9cc1f20a3f790fa7c33c3c24ab2"
+      },
+      {
+        "file": "supplement.txt",
+        "bytes": 3292,
+        "sha256": "3be8b4879e39633ccc911a233c67af53c429711414697bb93defb4333ccaa419"
+      },
+      {
+        "file": "web-main-results.json",
+        "bytes": 31090,
+        "sha256": "824164e46cc290b8bd3881d40ae6504211bffd592ce8a054c174ec780d6d5d11"
+      },
+      {
+        "file": "web-main-results.txt",
+        "bytes": 30753,
+        "sha256": "8521a53dcdf0d23abaddf0a8208cc715150d037cb4fdcf2e17779f99f3d5c102"
+      },
+      {
+        "file": "web-main-search.json",
+        "bytes": 28697,
+        "sha256": "859e59c677e3da0364448fa72ab6c2a680ec3e2eefc09007066740a8c527ed25"
+      },
+      {
+        "file": "web-main-search.txt",
+        "bytes": 28363,
+        "sha256": "de89e85bfb1efc35fd375c784023b0436afe66748056936804dc79b6c3e6fd07"
+      },
+      {
+        "file": "web-methods-survival.json",
+        "bytes": 29699,
+        "sha256": "b2b735688d194a901b92ba46f82bfa777f3fbce970d48fac9e0d7bc542f73d49"
+      },
+      {
+        "file": "web-methods-survival.txt",
+        "bytes": 29357,
+        "sha256": "0db10cf7ef65688d7c3c4199cb5fbf6f782aa230ed818b36d6b8a64ea255b4b9"
+      },
+      {
+        "file": "web-more-results.json",
+        "bytes": 31641,
+        "sha256": "f9ffde08f4b5f0ae1a56167a196f1bfab354ca718f970126fdf35c70a5741f42"
+      },
+      {
+        "file": "web-more-results.txt",
+        "bytes": 31307,
+        "sha256": "1749eed61c6e90126226da55be778807700ad41978baf52bbac60e1a64ead7a3"
+      }
+    ]
+  },
+  "integration": {
+    "research_question": "Can SC43 or natural-product garcinoneD compete with protein-restoration or muscle-compensation nominees?",
+    "decisions_added": [
+      "new-sc43-stat3",
+      "new-garcinone-d"
+    ],
+    "nominees_changed": false,
+    "full_main_read_for_all_papers": false,
+    "scope": "Drug/genetic attribution, source-specific benefits and primary-method limits; not exhaustive safety or clinical efficacy assessment.",
+    "root_secondary_check": "Root visually read corrected Figure5 and complete extracted supplement TablesS1-S3; independent targeted extra-source check recorded externally."
+  },
+  "independent_targeted_check": {
+    "artifact": "External compound-sources/independent-check.md",
+    "reader": "/root/pr1_reuse_check",
+    "scope": "Targeted source/figure/registry check, not all-paper independent review.",
+    "corrections_applied": [
+      "Proposed HSC apoptosis mechanism is not proven selective in-vivo cell removal.",
+      "S6 lacks a test, rather than supplies a formal nonsignificant result.",
+      "S3 BDL inhibitor contrast P=.0545 remains nonsignificant.",
+      "Yang dose snippets independently unchecked due to saved HTML access limit.",
+      "Clinical probability field now states no estimate was computed."
+    ]
+  }
+}

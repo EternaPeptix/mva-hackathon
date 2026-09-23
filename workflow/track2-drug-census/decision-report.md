@@ -2,9 +2,9 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 122 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 124 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
-The latest [three-paper comparison](vascular-enzyme-qualification.md) retains
+The [three-paper comparison](vascular-enzyme-qualification.md) retains
 anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
 and a BUB1B RNA response to alglucosidase alfa in Pompe myocytes. Catalogue-listed
 research reagents are included on their measured merits. None yet justifies
@@ -201,13 +201,13 @@ absence-of-further-leads claim or new submission follows.
 
 ## Muscle benefit recovered by the next unfiltered pass
 
-The [additional 576 assessments](next576-findings.md) bring outer coverage to 1,393 source/ID records, leaving 4,366 originally saved abstracts unread. The [primary comparison](next576-primary-qualification.md) admits **ursolic acid as a substantive functional reserve**: its mouse grip and absolute-force benefit and small randomized human handgrip signal deserve credit alongside the separate human null. It challenges niacin on empirical muscle benefit; niacin is retained for the distinct restoration hypothesis. Apitegromab retains stronger pediatric disease-associated functional evidence. None has demonstrated MVA efficacy, and ursolic-acid product/exposure eligibility remains unresolved.
+The [additional 576 assessments](next576-findings.md) brought outer coverage at that stage to 1,393 source/ID records, leaving 4,366 originally saved abstracts unread. The [primary comparison](next576-primary-qualification.md) admits **ursolic acid as a substantive functional reserve**: its mouse grip and absolute-force benefit and small randomized human handgrip signal deserve credit alongside the separate human null. It challenges niacin on empirical muscle benefit; niacin is retained for the distinct restoration hypothesis. Apitegromab retains stronger pediatric disease-associated functional evidence. None has demonstrated MVA efficacy, and ursolic-acid product/exposure eligibility remains unresolved.
 
-**MG132** has separate alignment and ex vivo muscle-proteolysis benefits, without demonstrated completed faithful division or contractile improvement in the inspected studies. **DHMMF** has RACK1-associated tumor-cell activity, with phospho-BUBR1 rising during damage. These endpoints do not justify muscle-restoration election. The same primary comparison upgrades the existing **bortezomib** entry: bortezomib plus humanin prevented neonatal-denervation contractures, but mortality and reduced normally innervated muscle growth keep it a combination-specific reserve. No active-force or monotherapy benefit is established. The ledger adds three appraisals and revises this existing entry, leaving 96; these are not 96 approved medicines or closed efficacy questions. Further source flags and unread literature remain; publication and submission remain pending.
+**MG132** has separate alignment and ex vivo muscle-proteolysis benefits, without demonstrated completed faithful division or contractile improvement in the inspected studies. **DHMMF** has RACK1-associated tumor-cell activity, with phospho-BUBR1 rising during damage. These endpoints do not justify muscle-restoration election. The same primary comparison upgrades the existing **bortezomib** entry: bortezomib plus humanin prevented neonatal-denervation contractures, but mortality and reduced normally innervated muscle growth keep it a combination-specific reserve. No active-force or monotherapy benefit is established. The ledger adds three appraisals and revises this existing entry, leaving 96 at that stage; these are not 96 approved medicines or closed efficacy questions. Further source flags and unread literature remain; publication and submission remain pending.
 
 ## Exact intervention and endpoint follow-up
 
-The [three-source check](intervention-identity-followup.md) raises the ledger to 99 appraisals without adding abstract records. It identifies DETA/NO and PROLI/NO as distinct vascular interventions, resolves the behavioral claim to flavopiridol while retaining full-text access limits, and qualifies GSK-923295 as a source-specific adverse structural comparator. The existing STLC route now separates partial frog-embryo bipolarity recovery from human-cell monopolar prevalence and control harm. None supplies a stronger current muscle nomination; the reported brain and vascular findings are preserved at their actual evidence depth.
+The [three-source check](intervention-identity-followup.md) raised the ledger at that stage to 99 appraisals without adding abstract records. It identifies DETA/NO and PROLI/NO as distinct vascular interventions, resolves the behavioral claim to flavopiridol while retaining full-text access limits, and qualifies GSK-923295 as a source-specific adverse structural comparator. The existing STLC route now separates partial frog-embryo bipolarity recovery from human-cell monopolar prevalence and control harm. None supplies a stronger current muscle nomination; the reported brain and vascular findings are preserved at their actual evidence depth.
 
 
 ## A current non-US inventory exposes remaining identity work
@@ -258,8 +258,10 @@ restored absolute force, the human trials report no functional advantage, and
 The [mitotic qualification](mitotic-qualification.md) adds proTAME and Apcin as
 mechanistic comparators, not medication leads. proTAME raises selected mitotic
 protein and phosphorylation signals in nocodazole-challenged DNA-PKcs-deficient
-cells; Apcin does not reproduce it, and their combination suppresses the
-response. These are bulk-lysate biochemical measurements in a different lesion,
+cells; Apcin does not reproduce it. Combination panels return to the
+deficient baseline or below, without a combination-versus-proTAME statistical
+comparison. Apcin itself is suppressive in A549, limiting attribution there.
+These are bulk-lysate biochemical measurements in a different lesion,
 so they cannot supply per-cell checkpoint correction or faithful descendants.
 
 At that stage, the ledger held **108 appraisals**. Nothing here establishes BUBR1
@@ -270,8 +272,8 @@ restoration or MVA efficacy, and the nominated pair is unchanged.
 
 The [source revalidation](review-quality-followup.md) withdraws the proposed
 all-read/no-further-leads conclusion from an unreliable draft. The initial 186
-re-read source records plus the [next 128](next128-revalidation-findings.md)
-leave 3,284 selected strings requiring revalidation. The
+re-read source records plus [two subsequent 128-record batches](batch02-revalidation-findings.md)
+leave 3,156 selected strings requiring revalidation. The
 [UMK57 appraisal](umk57-qualification.md) adds a genuine acute and completed-division
 fidelity result in cancer cells, followed by limited durability. It is a
 mechanistic competitor, not an established MVA medicine. Apcin's context-dependent
@@ -293,6 +295,29 @@ recovered matches and source-role decisions into current coverage and triage:
 511 entities have specific co-mentions, while 14,846 remain without one. A
 match is not efficacy. The [primary-question status](primary-question-status.json)
 now links nine of the original 34 questions to primary qualifications, leaving
-25 unreconciled there. The latest 128 abstracts add 52 further source questions;
-3,284 selected strings still require revalidation. Publication/submission remains
-pending.
+25 unreconciled there. The two later batches flag 52 and 49 further questions
+respectively; 3,156 selected strings still require revalidation. Publication and
+submission remain pending.
+
+
+## SC-43 and garcinone D: research availability and competitive position
+
+The [source-qualified comparison](stat3-compound-qualification.md) adds two
+appraisals, bringing the ledger to **124**. SC-43 earns a controlled survival
+positive in mouse liver fibrosis alongside SHP-1/STAT3 evidence. Its clinical
+registration does not establish human outcomes: one trial withdrew before
+recruiting anyone, and a second has unknown status without posted results.
+Garcinone D earns actual compound-associated MAD2L1 protein and proliferation
+results, plus separate natural-product cell-study evidence. These observations
+are not BUBR1 restoration or healthy muscle rescue. Both have supplier listings;
+availability alone is not efficacy. Neither currently displaces the provisional
+niacin/apitegromab comparison, and neither is dismissed for being outside an
+approved-drug catalogue.
+
+A subsequent [Apcin primary qualification](apcin-liver-qualification.md)
+credits improved plotted survival and lower liver-injury markers after mouse
+pretreatment. It updates the existing entry rather than adding another drug.
+The plot does not verify the stated seven-day endpoint or statistical survival
+significance; drug-induced CDC20/BUB1B restoration was not measured. This
+positive organ-level signal and the earlier negative biochemical findings
+coexist, without establishing an MVA mechanism or clinical treatment window.

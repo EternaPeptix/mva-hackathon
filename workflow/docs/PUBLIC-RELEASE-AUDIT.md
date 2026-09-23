@@ -674,3 +674,28 @@ source hashes and screening code. Raw abstracts, articles and figures remain
 external. Historical input files, source provenance, Track 1 uploads and current
 pitch media are preserved. Repository visibility and submission status are
 unchanged: this is a private draft update.
+
+## Further fixed-order readings and compound qualification, 22 September 2026
+
+The [second 128-record batch](../track2-drug-census/batch02-revalidation-findings.md)
+preserves the prior 314 revalidated records and adds 127 saved abstracts plus one
+conference abstract. Cumulative revalidation reaches 442 strings, with 2,603
+outer source/ID records and 3,156 pending strings. A sample comprised ten
+cross-reader checks and six self-rereads; two wording corrections are explicit.
+The linked erratum was read separately and changes author names. None of these
+checks establishes exhaustive scientific coverage or adds independent studies.
+
+The [compound comparison](../track2-drug-census/stat3-compound-qualification.md)
+adds SC-43 and garcinone D, bringing the decision ledger to 124. Their actual
+mouse survival and cellular phenotypes are credited within the measured models;
+they do not demonstrate BUBR1 restoration or MVA muscle benefit. The updated
+[Apcin appraisal](../track2-drug-census/apcin-liver-qualification.md) retains a
+mouse pretreatment liver-injury/survival signal, including its timepoint and
+mechanism limits, without creating a duplicate compound entry.
+
+New files contain original assessments, public bibliographic metadata, hashes
+and verification code. Raw papers, abstracts, figures and reading logs remain
+outside the repository. The original release inventory and source-provenance
+fields are preserved; current artifact hashes are refreshed. Track 1 uploads
+and pitch media remain unchanged. This private draft update authorizes neither
+publication nor submission.
