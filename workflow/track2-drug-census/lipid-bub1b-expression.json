@@ -1,0 +1,162 @@
+{
+  "dataset": "GSE220856",
+  "gene_id": "ENSG00000156970",
+  "gene_name": "BUB1B",
+  "units": "FPKM in filename/method description; one GEO format sentence says RPKM",
+  "groups": {
+    "control": {
+      "source_columns": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "values": [
+        12.7969697597375,
+        16.1567751673713,
+        14.1586140233122
+      ],
+      "n_libraries": 3,
+      "mean": 14.370786316807001,
+      "sample_SD": 1.689921863840593,
+      "ratio_to_PA_mean": 2.0859803078676,
+      "ratio_to_control_mean": 1.0
+    },
+    "PA": {
+      "source_columns": [
+        "PA1",
+        "PA2",
+        "PA3"
+      ],
+      "values": [
+        8.39486953589635,
+        5.40310603862871,
+        6.86969745566416
+      ],
+      "n_libraries": 3,
+      "mean": 6.889224343396407,
+      "sample_SD": 1.4959773328510546,
+      "ratio_to_PA_mean": 1.0,
+      "ratio_to_control_mean": 0.4793909109440507
+    },
+    "PA+OA": {
+      "source_columns": [
+        "OA1",
+        "OA2",
+        "OA3"
+      ],
+      "values": [
+        6.63170313489187,
+        7.72416007773226,
+        10.1124883707961
+      ],
+      "n_libraries": 3,
+      "mean": 8.15611719447341,
+      "sample_SD": 1.7801423194929424,
+      "ratio_to_PA_mean": 1.1838948462015713,
+      "ratio_to_control_mean": 0.567548428782538
+    },
+    "PA+BMS": {
+      "source_columns": [
+        "BMS1",
+        "BMS2",
+        "BMS3"
+      ],
+      "values": [
+        13.6857714589217,
+        14.3032644036769,
+        19.3310631162359
+      ],
+      "n_libraries": 3,
+      "mean": 15.773366326278166,
+      "sample_SD": 3.0964865930861514,
+      "ratio_to_PA_mean": 2.289570717986207,
+      "ratio_to_control_mean": 1.097599392166232
+    }
+  },
+  "sample_mapping": [
+    {
+      "column": "C1",
+      "GSM": "GSM6822915",
+      "title": "HepaRG cells, control-1",
+      "condition": "control"
+    },
+    {
+      "column": "C2",
+      "GSM": "GSM6822916",
+      "title": "HepaRG cells, control-2",
+      "condition": "control"
+    },
+    {
+      "column": "C3",
+      "GSM": "GSM6822917",
+      "title": "HepaRG cells, control-3",
+      "condition": "control"
+    },
+    {
+      "column": "PA1",
+      "GSM": "GSM6822918",
+      "title": "HepaRG cells, PA-1",
+      "condition": "PA"
+    },
+    {
+      "column": "PA2",
+      "GSM": "GSM6822919",
+      "title": "HepaRG cells, PA-2",
+      "condition": "PA"
+    },
+    {
+      "column": "PA3",
+      "GSM": "GSM6822921",
+      "title": "HepaRG cells, PA-3",
+      "condition": "PA"
+    },
+    {
+      "column": "OA1",
+      "GSM": "GSM6822922",
+      "title": "HepaRG cells, PA+OA-1",
+      "condition": "PA+OA"
+    },
+    {
+      "column": "OA2",
+      "GSM": "GSM6822923",
+      "title": "HepaRG cells, PA+OA-2",
+      "condition": "PA+OA"
+    },
+    {
+      "column": "OA3",
+      "GSM": "GSM6822924",
+      "title": "HepaRG cells, PA+OA-3",
+      "condition": "PA+OA"
+    },
+    {
+      "column": "BMS1",
+      "GSM": "GSM6822925",
+      "title": "HepaRG cells, PA+BMS-1",
+      "condition": "PA+BMS"
+    },
+    {
+      "column": "BMS2",
+      "GSM": "GSM6822926",
+      "title": "HepaRG cells, PA+BMS-2",
+      "condition": "PA+BMS"
+    },
+    {
+      "column": "BMS3",
+      "GSM": "GSM6822928",
+      "title": "HepaRG cells, PA+BMS-3",
+      "condition": "PA+BMS"
+    }
+  ],
+  "source_sha256": {
+    "GSE220856_gene_fpkm.txt.gz": "4dc1efaa03af0bb7c9d767122106f519b3c1dd864387a02cd63361f4020d1e63",
+    "GSE220856_family.soft.gz": "5ba36f5da83416c9b029011e29c4385ad8bb49fd18c636caae5b5d534dc27cde"
+  },
+  "scope": "Descriptive extraction of deposited normalized values; no raw-count differential-expression reproduction, new P value or adjusted P value.",
+  "limitations": [
+    "Three libraries per group, not independent donors.",
+    "PA and PA+OA have4h exposure; PA+BMS has24h BMS with concomitant4h PA.",
+    "No BMS-alone or EPA RNA samples are deposited in this series.",
+    "All three replicates retained, including BMS3.",
+    "No BUBR1 protein, chromosome fidelity, MVA or muscle rescue established."
+  ]
+}

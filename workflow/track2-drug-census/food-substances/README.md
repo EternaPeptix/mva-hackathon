@@ -12,12 +12,12 @@ It is not a list of safe treatments or every food compound in existence.
 |---|---:|
 | Preserved source rows / source record IDs | 3,971 / 3,971 |
 | Exact clinical-catalog name candidates | 298 rows |
-| Exact curated-appraisal name candidates | 7 rows |
+| Exact curated-appraisal name candidates | 9 rows |
 | Literal mention rows in the 7,362-record saved corpus | 234 |
 | Food source rows with at least one literal hit | 76 |
 | Matched literature source/ID records | 213 |
-| Common/short/class-name ambiguous mention rows | 161 |
-| Literal-policy rows, now covered by separate abstract overlay | 73 |
+| Common/short/class-name mention rows, now role-annotated | 161 |
+| Literal-policy rows, covered by separate abstract overlay | 73 |
 | New manual-reading / curated-appraisal credit from this inventory | 0 / 0 |
 
 The table retains **17 PROHIBITED**, **3 PROHIBITED WITH EXCEPTIONS**,
@@ -90,8 +90,11 @@ The [lunasin qualification](../lunasin-qualification.md) is a separate,
 source-driven food-peptide result recovered through literature review. It is
 not evidence that this FDA table contains every relevant food-derived candidate.
 
-## Abstract reading and two primary qualifications
+## Abstract reading, explicit admission and primary qualifications
 
-The [separate reading overlay](abstract-findings.md) covers all 67 source/ID records behind the 73 literal-policy rows. It retains derivatives, solvents, endogenous molecules, retraction and version distinctions. The 161 common-name rows remain outside this reading pass. Eight records overlap prior accepted revalidations and two overlap batch08; 26 others occur in the remaining queue. No automatic outer-corpus credit is added.
+The [original literal-policy overlay](abstract-findings.md) covered 67 source/ID records behind 73 rows. Together with the [common-name review](common-abstract-findings.md), the food union now annotates **all 234 query rows across 213 source/ID records**, with **212 saved abstracts read**. PMID 18082453 remains without a saved abstract and receives no reading credit; its [source limit](../fatty-acid-binding-source-limit.md) stays explicit. The 29 common-name reading-time follow-up flags are not 29 novel candidates or necessarily unresolved questions. Compound, derivative, mixture, endogenous molecule, assay reagent and background roles remain distinct.
 
-[Astaxanthin](../astaxanthin-qualification.md) and [citral](../citral-qualification.md) received separate primary qualifications. These add two appraisals and two name cross-references, not demonstrated MVA treatments. The original independent parser review remains bound to its 161-entry snapshot; the parent recheck verifies only the current two-link update, with source fields and all 234 mention rows unchanged.
+The [explicit food-to-outer reconciliation](../food-admission-findings.md) admits **64 already-read records**, not 64 newly read papers, bringing accepted literal revalidations to **1,274**, outer source/ID coverage to **3,435**, and pending strings to **2,324**. Inventory creation and primary-paper follow-ups do not automatically add reading credit.
+
+Earlier [astaxanthin](../astaxanthin-qualification.md) and [citral](../citral-qualification.md) primary qualifications retain their measured positives and limits. The [lipid qualification](../lipid-rescue-qualification.md) and [bromate qualification](../bromate-qualification.md) now add five appraisals: BMS-309403, oleic acid, free EPA, PA-d31 stressor and adverse potassium bromate. The ledger has **168** entries, with all **163** preceding objects unchanged. These are compound/stressor appraisals, not five successful treatments. The original independent parser review remains bound to its earlier snapshot; the source rows and all 234 mention keys remain the discovery basis.
+The current parent replay adds exact appraisal-name links for oleic acid and potassium bromate (nine linked FDA rows total). Source values and all 234 mention rows are unchanged; the original independent parser review remains historical.

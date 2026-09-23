@@ -2879,6 +2879,88 @@
         "https://doi.org/10.1038/s41598-019-41406-8"
       ],
       "identity_limit": "Study-specific isolated material or composite formulation, not equivalence to a consumer preparation."
+    },
+    {
+      "decision_id": "new-bms309403",
+      "match_aliases": [
+        "BMS-309403",
+        "BMS309403"
+      ],
+      "route": "BMS-309403 / lipid-injury BUB1B RNA recovery",
+      "disposition": "retain mechanistic RNA research reserve",
+      "evidence_scope": "Bounded primary-source qualification; actual source/read limits retained in linked assessment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Actual BMS accompanies higher BUB1B RNA in deposited injured-HepaRG libraries: mean 15.773 versus 6.889 with PA, ratio 2.290, and control 14.371; all 3 replicates retained, no gene-specific P/FDR inferred. Physical membrane/lipid effects are positive, but no BUBR1 protein, segregation, muscle or MVA rescue is measured. Schedule differs and BMS-alone RNA is absent. FABP4 pharmacology does not establish FABP1 engagement in these cells. This actual-compound RNA signal is relevant competition for the restoration hypothesis, without demonstrated clinical or functional superiority.",
+      "source_report": "workflow/track2-drug-census/lipid-rescue-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1126/sciadv.abq2937"
+      ],
+      "identity_limit": "Study-specific molecule/formulation and experimental role; no inferred food, supplement or approved-product equivalence."
+    },
+    {
+      "decision_id": "new-oleic-acid",
+      "match_aliases": [
+        "oleic acid"
+      ],
+      "route": "Oleic acid / lipid-remodeling comparator",
+      "disposition": "retain physical-remodeling comparator; restoration unestablished",
+      "evidence_scope": "Bounded primary-source qualification; actual source/read limits retained in linked assessment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "OA cotreatment improves physical membrane/lipid measures in PA-injured HepaRG cells. Deposited BUB1B mean 8.156 versus 6.889 with PA is still below control 14.371; no gene-specific significance or protein rescue established. Ordinary food exposure, isolated OA, mixtures and other fatty acids are not interchangeable.",
+      "source_report": "workflow/track2-drug-census/lipid-rescue-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1126/sciadv.abq2937"
+      ],
+      "identity_limit": "Study-specific molecule/formulation and experimental role; no inferred food, supplement or approved-product equivalence."
+    },
+    {
+      "decision_id": "new-epa",
+      "match_aliases": [
+        "eicosapentaenoic acid"
+      ],
+      "route": "Free eicosapentaenoic acid / lipid-remodeling comparator",
+      "disposition": "retain physical-remodeling comparator; no deposited BUB1B RNA arm",
+      "evidence_scope": "Bounded primary-source qualification; actual source/read limits retained in linked assessment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Free EPA cotreatment improves physical lipid/membrane measures in PA-injured HepaRG cells. No EPA RNA arm exists in the deposited series; it cannot inherit OA/BMS transcript results. No BUBR1, fidelity, muscle or MVA benefit established. Free EPA is not automatically equivalent to icosapent ethyl or fish-oil products.",
+      "source_report": "workflow/track2-drug-census/lipid-rescue-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1126/sciadv.abq2937"
+      ],
+      "identity_limit": "Study-specific molecule/formulation and experimental role; no inferred food, supplement or approved-product equivalence."
+    },
+    {
+      "decision_id": "new-pa-d31",
+      "match_aliases": [
+        "palmitic acid-d31",
+        "PA-d31"
+      ],
+      "route": "PA-d31 / isotope-labeled injury substrate",
+      "disposition": "decline therapeutic nomination; retain model-stressor role",
+      "evidence_scope": "Bounded primary-source qualification; actual source/read limits retained in linked assessment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Isotope-labeled palmitate is the HepaRG injury substrate, not the rescue intervention. Lower BUB1B RNA and adverse membrane ordering occur in this model; the study does not determine ordinary dietary-palmitate harm or benefit. Isotope/formulation/tissue identity is retained.",
+      "source_report": "workflow/track2-drug-census/lipid-rescue-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1126/sciadv.abq2937"
+      ],
+      "identity_limit": "Study-specific molecule/formulation and experimental role; no inferred food, supplement or approved-product equivalence."
+    },
+    {
+      "decision_id": "new-potassium-bromate",
+      "match_aliases": [
+        "potassium bromate"
+      ],
+      "route": "Potassium bromate / oxidative challenge in BubR1-low mice",
+      "disposition": "decline therapeutic nomination; retain direct-model adverse evidence",
+      "evidence_scope": "Bounded primary-source qualification; actual source/read limits retained in linked assessment.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Bromate exposure worsened survival in BubR1-low mice relative to treated WT (reported log-rank P = 0.0082), with survivor pathology and reduced progenitor proliferation. This is an adverse challenge, not antioxidant-rescue evidence. Exact survival denominators and extracted culture 10 mM / 10 µM discrepancy remain unresolved. No human exposure inference or exact-variant transfer.",
+      "source_report": "workflow/track2-drug-census/bromate-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.21873/invivo.10993"
+      ],
+      "identity_limit": "Study-specific molecule/formulation and experimental role; no inferred food, supplement or approved-product equivalence."
     }
   ]
 }

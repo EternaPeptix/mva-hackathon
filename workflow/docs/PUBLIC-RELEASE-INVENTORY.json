@@ -12941,7 +12941,7 @@
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
     "reviewed_at_utc": "2026-09-22T02:51:50.650727+00:00",
-    "scope": "347 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
+    "scope": "364 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12954,7 +12954,7 @@
       "original_audit_bytes_sha256": "7fae846b1a22b88b05096372fa4fbbd9bbca7f27e23f725a2ff32ad1b6a2644b",
       "all_original_fields_unchanged": true
     },
-    "reviewed_payload_count": 347,
+    "reviewed_payload_count": 364,
     "report_tree_files": 32,
     "reviewed_files": [
       {
@@ -12977,8 +12977,8 @@
       },
       {
         "path": "README.md",
-        "bytes": 10336,
-        "sha256": "8571c2b5dd1002e2820d24c80efa762e3e3a4e9fe9847614b9d4b1f0d7439adb",
+        "bytes": 10725,
+        "sha256": "d5bed49464a46ab0766a47ded0b5450cfae57d96f1aed864b0721360d6758511",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13004,8 +13004,8 @@
       },
       {
         "path": "reports/README.md",
-        "bytes": 13947,
-        "sha256": "cd210aca5f4fc3775ce840e7853fe9a9ef8d97ed91e1f696248428525080619c",
+        "bytes": 14355,
+        "sha256": "9c2545316842e2a54e3dcb1e17101af4df752f0de876a2dc74ecf7942d0e6867",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13157,8 +13157,8 @@
       },
       {
         "path": "reports/appendices/track2-route-decisions.md",
-        "bytes": 66495,
-        "sha256": "b01f18fdd161bc6328c43f52cd0cc7e2aeb009ce70e409ba43cbf45d36501553",
+        "bytes": 68589,
+        "sha256": "3183b415d6100ba0588d8ab7533fc966b21d88e20b7a6846361d7e12cab5aa11",
         "mode": 420,
         "decision": "keep",
         "category": "scientific_route_comparison",
@@ -13184,8 +13184,8 @@
       },
       {
         "path": "reports/jeweled_methods_form_answers.md",
-        "bytes": 43491,
-        "sha256": "5e01448c9e0080bb11afa620409a02604f6a2cc53599d3cb3dec7c7ad6b652e6",
+        "bytes": 44253,
+        "sha256": "0a38bde82fcb77aed9be65904fd91e5c5e2b622003bde74d1cf0d2640af1d91b",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13220,8 +13220,8 @@
       },
       {
         "path": "reports/jeweled_track2_report_submission.md",
-        "bytes": 18100,
-        "sha256": "53e74fb20e6f55b7287eb2b079a1d899a44d41d62e058d4db4087e08c43848c6",
+        "bytes": 19082,
+        "sha256": "5b959130ab06d16ca51cb5713c792069cd02219a27496a61e14d8e8ea4e7e765",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13412,8 +13412,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 43458,
-        "sha256": "121b7689c0ec2b4d46e08aaf0a9ea40c148cb6719d77476daea4da2efdfd37a2",
+        "bytes": 43769,
+        "sha256": "e0c968b23b5345d42b8b9fc56e2ed6bef5590862a40475835258e10856d53c1b",
         "mode": 420
       },
       {
@@ -13687,6 +13687,24 @@
         "mode": 420
       },
       {
+        "path": "workflow/track2-drug-census/bromate-qualification.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 9238,
+        "sha256": "fe7885fd9099a4d3fc3b2bf6cdc6af9e1ad0660fe0cbf0bb7942c358b72346c9",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/bromate-qualification.md",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 3667,
+        "sha256": "0313f90e39a2d62367a03a425023c1f484d4deb009480c5a4ea33a77714f360d",
+        "mode": 420
+      },
+      {
         "path": "workflow/track2-drug-census/bromosporine-qualification.json",
         "decision": "keep",
         "category": "public_source_research_assessment",
@@ -13720,6 +13738,15 @@
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
         "bytes": 2633,
         "sha256": "f757635f85d29f577ec0b1bedd4a349274d49e55650eefd85bfe5e09f35a8b90",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/bub1b-lipid-expression.png",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 67858,
+        "sha256": "adfe3712e94103c0d80fe513bbaf7c6d748fd06c42d4516873d26d3a8357d137",
         "mode": 420
       },
       {
@@ -13763,8 +13790,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 2551767,
-        "sha256": "3bd428085cf47eac79fb807216479a2a361d2fee831a33df44f01cc13ebfb267",
+        "bytes": 2551939,
+        "sha256": "db4675e8555fccf2d24570253defd269dca3c430aaf5e97ad49a6f6d5e6973f7",
         "mode": 420
       },
       {
@@ -13889,8 +13916,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 29994,
-        "sha256": "5b4b4be78a9b06528522d2e1e2165eae1155c6fd004215f48bf4f996ebca3fe2",
+        "bytes": 30852,
+        "sha256": "e0f21a6ae99e614d071b93a5606a4ceefe09e21a82ef436554e6fc754d60d78b",
         "mode": 420
       },
       {
@@ -13898,8 +13925,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 46818,
-        "sha256": "96cbb08f6261bce8a34f3453fcc8c17eac250176dd7c919bc8f1b58e12af7417",
+        "bytes": 49037,
+        "sha256": "6dc06bc4835a90afa2670ad538feb4dc9e3a6a68f3e7f3a836cd8ca09ad994ef",
         "mode": 420
       },
       {
@@ -13907,8 +13934,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 231850,
-        "sha256": "b75a5427eac6a8ee603c0343d3bd36668ddba391f59afb5dcd9d9ef4c8fe2ec9",
+        "bytes": 237731,
+        "sha256": "de8078cc684a7e0fd1ac3ccf01d834e0391fa1222250c5050965ac0c90f248d4",
         "mode": 420
       },
       {
@@ -14110,6 +14137,24 @@
         "mode": 420
       },
       {
+        "path": "workflow/track2-drug-census/fatty-acid-binding-source-limit.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 21948,
+        "sha256": "d63b4895e822bff5d64a1ba06082a33d789154556e5785125526381fbb991470",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/fatty-acid-binding-source-limit.md",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 4934,
+        "sha256": "fc35d4eace441d2dff9a671a0cd91ee4c4bec74a42c216af92609afb45d6539e",
+        "mode": 420
+      },
+      {
         "path": "workflow/track2-drug-census/fda_freshness.py",
         "decision": "keep",
         "category": "public_drug_census",
@@ -14128,12 +14173,21 @@
         "mode": 420
       },
       {
+        "path": "workflow/track2-drug-census/food-admission-findings.md",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 2799,
+        "sha256": "789eace73988b6b103fbd6232dc006355f7a7e3eb76f3f73d3a175e31d0c7254",
+        "mode": 420
+      },
+      {
         "path": "workflow/track2-drug-census/food-substances/README.md",
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 5768,
-        "sha256": "d7f5fddaf1944d9d521b23deef27f56d73ed93583a3bb8ab595a3933a7a4e7c6",
+        "bytes": 6879,
+        "sha256": "92bd367cee2e55352c46baaa472171d8b00d73e99817dc32955b99a32a1fff78",
         "mode": 420
       },
       {
@@ -14164,6 +14218,42 @@
         "mode": 420
       },
       {
+        "path": "workflow/track2-drug-census/food-substances/common-abstract-findings.md",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 6396,
+        "sha256": "cbc332d62d762ec9a9ee4a66662e624f1523b0a152962c57a5c1934a6281d409",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/food-substances/common-abstract-review.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 772983,
+        "sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/food-substances/common-abstract-selection.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 78397,
+        "sha256": "3ea6d4bda3faad87024cce42f827d8ece31ee5763ce868f6b568d9ffc0815e73",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/food-substances/common-abstract-validation.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 128190,
+        "sha256": "c273e833b680b34dec9aed0d4e837e9b3f65ba11435417b4e344c7e2a345f999",
+        "mode": 420
+      },
+      {
         "path": "workflow/track2-drug-census/food-substances/mentions.tsv",
         "decision": "keep",
         "category": "public_source_research_assessment",
@@ -14177,8 +14267,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 10962,
-        "sha256": "5730f144200b482eee665b054670580438f75815c38f5adb1c87a55f4b206f7a",
+        "bytes": 12391,
+        "sha256": "5dc2ebfe190f2480172b4bd18777a8f0c9a262daf0fcd1f9699e2010995c1d91",
         "mode": 420
       },
       {
@@ -14186,8 +14276,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 2018624,
-        "sha256": "95a98fa67957409816635894e54fb9518aec7deea154bc7c15d977640387de24",
+        "bytes": 2018671,
+        "sha256": "45ee5cbc9fd6b0e851089d37d070d3b4f8f13deca6b75e97046fd105fb9025dc",
         "mode": 420
       },
       {
@@ -14196,7 +14286,7 @@
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
         "bytes": 2695,
-        "sha256": "23c16bda629fba28830ed87e5d5f730bd5c1fad70895cfbd2924e3ec7dff8f01",
+        "sha256": "8956ec0331197a7a56d5a563533640ba37fe1ef5ddb7bd5bbdb6e4488958686b",
         "mode": 420
       },
       {
@@ -14342,6 +14432,33 @@
         "decision": "keep",
         "category": "public_literature_scientific_assessment",
         "grounds": "Original source-linked primary-evidence appraisal or supplemental recovery metadata; no raw article/abstract/figure or controlled case payload. Historical reading depth and access limits explicit."
+      },
+      {
+        "path": "workflow/track2-drug-census/lipid-bub1b-expression.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 4068,
+        "sha256": "87c4af916f302e9c11c2e1402687159fdf08246ac6d147e3c7a5824252784a1c",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/lipid-rescue-qualification.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 23782,
+        "sha256": "2e285be594151b891ff2593d1273b3666a69ab07f2518995c19502d1f0a724ab",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/lipid-rescue-qualification.md",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 7882,
+        "sha256": "7757d53f08a9213d3a37def848f59c5994f8c3e7ec9297c32b0caf9117f03f06",
+        "mode": 420
       },
       {
         "path": "workflow/track2-drug-census/literature-alias-policy.tsv",
@@ -14749,6 +14866,15 @@
         "grounds": "Original bounded source appraisals or public selection metadata, no raw abstracts or restricted case data. Reading depth and unresolved efficacy remain explicit."
       },
       {
+        "path": "workflow/track2-drug-census/outer-food-admission.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 109969,
+        "sha256": "1fe105032d42ced1d3299e39595a0b3f5e5c7811d0ad48b01205292b2fb5e255",
+        "mode": 420
+      },
+      {
         "path": "workflow/track2-drug-census/outer-missing-next576-review.json",
         "decision": "keep",
         "category": "public_source_research_assessment",
@@ -15041,8 +15167,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 3664,
-        "sha256": "342b550d525736aea7dab55f6807bf724eaf448c328d66d126577807fc3e88d7",
+        "bytes": 3880,
+        "sha256": "c016823d2a9764c1e8bd03290b290128b690e1373029842dfce43aab7def6949",
         "mode": 420
       },
       {
@@ -15050,8 +15176,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 7396,
-        "sha256": "d26fe77cecf7cdcc5ecf6fd0c18daad6cdb3440b0654855847512eb82b31a4d9",
+        "bytes": 7460,
+        "sha256": "18d552cc8ccf8d7ca0afb02e6385f77f5e294085ceccc92a1165f9c4734e0e56",
         "mode": 420
       },
       {
@@ -15294,7 +15420,7 @@
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
         "bytes": 2739,
-        "sha256": "bf23abdc63c2e8ed24bb197c55763c29c987942db6e63872edd72a9fefa58b1a",
+        "sha256": "01900e08a10c4d17e9cb750b79c06439f34dd11ffb329050e84cffeea99b4dc7",
         "mode": 420
       },
       {
@@ -15340,6 +15466,15 @@
         "grounds": "Original public-source assessments, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
         "bytes": 7445,
         "sha256": "bfa817b20548d4ba960eeaaa20d6710f1905b578017cbf0f9e08265f6edb8e31",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/summarize_lipid_bub1b.py",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 5541,
+        "sha256": "00231a1dbb5c5e30ddeb71f5fb53ad0d3b5e0cfd970dad4d619834b3491f4e0f",
         "mode": 420
       },
       {
@@ -15491,8 +15626,26 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 29437,
-        "sha256": "e8df97ffef01c95daa1a155bb22d9e329f8256323c2beb58f4b231ff8a0ca3bc",
+        "bytes": 29595,
+        "sha256": "4785ef67f2fb19b619a17588a0c59cdda10f9bb55bee24f3e63b8aeccb61927f",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/verify_food_admission.py",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 19370,
+        "sha256": "7e5a9022833d50fd1676c6f0dda7474506fdabd2ac8e84fed2b7776d5e5222a5",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/verify_food_common.py",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
+        "bytes": 33994,
+        "sha256": "345f72414ee0b004ada858553dc31264d3d116cc83006a410fef0ae48d8d7e2e",
         "mode": 420
       },
       {
@@ -16779,6 +16932,15 @@
       "verification": "Separate bounded primary checks with corrections, food source/log/overlap data validation, eight root cross-reader checks and full batch08 replay. Verifiers do not prove scientific truth or independent clinical approval.",
       "payload_scope": "Original assessments, compact bibliographic/status metadata and source/evidence verifier. Raw source HTML, abstracts, articles, figures, workbooks and previews external. No controlled-case data added.",
       "delivery": "Private draft. All109PR1 IDs/103unchanged objects, reader/test/3598queue, Track1/current media, original inventory decisions and historical source identities preserved. No merge, publication or submission."
+    },
+    "food_common_compound_followup": {
+      "reviewed_at_utc": "2026-09-23T10:11:51.441359+00:00",
+      "baseline_commit": "907eeb7219b2bf19dc5ae5affbb81508488e5349",
+      "scope": "Five compound/role appraisals add BMS309403, oleic acid, free EPA, PA-d31 stressor and potassium bromate, totaling168; all163 preceding objects unchanged. Common-name overlay153 available abstracts/154IDs plus prior67 gives212unique saved abstracts/213IDs/234 annotated query rows. Missing18082453 remains unread.",
+      "science": "Deposited BUB1B RNA signal in HepaRG cells is descriptive, not protein/function/statistical rescue. Physical lipid readouts and actual-compound attribution retained; target/timing limits and bromate adverse evidence explicit. No MVA efficacy or new clinical score.",
+      "reading": "Explicit reconciliation admits64 already-read food records once, disjoint from1210prior accepted. Cumulative1274accepted/3435outer/2324pending; not64new papers. Twelve predetermined root source/annotation checks had no substantive changes. Verifiers cannot prove viewing or scientific truth.",
+      "payload_scope": "Original assessments and one original plotted figure,12 public normalized expression values/sample identities, compact metadata and replay code. Raw abstracts/fulltext/figures/matrices external. No controlled-case data added.",
+      "delivery": "Private draft only. All109PR1 IDs/103unchanged objects, reader/test/3598queue, Track1/current media, original inventory and historical source identities preserved."
     }
   }
 }

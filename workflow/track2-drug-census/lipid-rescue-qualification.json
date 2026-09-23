@@ -1,0 +1,518 @@
+{
+  "schema_version": 1,
+  "assessed_date": "2026-09-23",
+  "qualification_id": "lipid-remodeling-bub1b-transcript",
+  "reviewer": "/root/bromosporine_primary",
+  "scope": "External structured synthesis and bounded draft/source consistency check. No new broad literature audit, biological experiment, raw-read analysis or clinical recommendation.",
+  "study": {
+    "pmid": "36638165",
+    "pmcid": "PMC9839333",
+    "doi": "10.1126/sciadv.abq2937",
+    "title": "The role of altered lipid composition and distribution in liver fibrosis revealed by multimodal nonlinear optical microscopy",
+    "year": 2023,
+    "journal": "Science Advances",
+    "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9839333/",
+    "dataset": "GSE220856"
+  },
+  "disposition": {
+    "BMS-309403": "mechanistic RNA research reserve",
+    "oleic_acid": "lipid-remodeling comparator; smaller descriptive BUB1B transcript change",
+    "eicosapentaenoic_acid": "lipid-remodeling comparator; no deposited EPA RNA arm",
+    "palmitate_d31": "injury substrate and isotope tracer, not a beneficial intervention",
+    "summary": "An actual BMS-containing treatment arm has higher mean BUB1B RNA than PA alone, near untreated control, alongside measured membrane/lipid improvements. This merits mechanistic follow-up while gene-specific significance, protein/function, causal target attribution and translation remain unqualified.",
+    "clinical_lead": false,
+    "proven_MVA_benefit": false,
+    "automatic_new_outer_reading_credit": 0
+  },
+  "models_and_roles": [
+    {
+      "model": "Human pathological liver tissue",
+      "role": "Observational tissue/lipid distribution evidence",
+      "rescue_compounds_administered": false
+    },
+    {
+      "model": "CCl4-induced mouse liver fibrosis",
+      "role": "Disease induction and tissue observations across fibrosis stages; not BMS/OA/EPA treatment efficacy",
+      "rescue_compounds_administered": false
+    },
+    {
+      "model": "Human HepaRG cultured cells, GEO genotype WT",
+      "role": "Administered PA challenge and compound cotreatments; RNA and membrane/lipid assays",
+      "MVA_or_BUB1B_variant_model": false
+    }
+  ],
+  "study_arms": [
+    {
+      "arm": "control",
+      "agents": [],
+      "role": "Untreated HepaRG RNA comparator, 4 h in GEO design",
+      "RNA_libraries": 3,
+      "vehicle_matching": "Final matched DMSO percentage not resolved in focused source check."
+    },
+    {
+      "arm": "PA",
+      "agents": [
+        {
+          "name": "PA-d31",
+          "identity": "deuterium-labeled palmitate",
+          "supplier": "Sigma-Aldrich",
+          "catalog": "366897",
+          "role": "injury substrate/isotope tracer",
+          "concentration_uM": 400,
+          "duration_h": 4
+        }
+      ],
+      "RNA_libraries": 3,
+      "outcome": "Higher membrane order/lower fluidity; BUB1B in the downregulated Figure 6C heatmap and lower descriptive mean."
+    },
+    {
+      "arm": "PA+OA",
+      "agents": [
+        {
+          "name": "PA-d31",
+          "role": "injury substrate",
+          "concentration_uM": 400,
+          "duration_h": 4
+        },
+        {
+          "name": "oleic acid",
+          "supplier": "Sigma-Aldrich",
+          "catalog": "75090",
+          "role": "cotreatment",
+          "concentration_uM": 200,
+          "duration_h": 4
+        }
+      ],
+      "RNA_libraries": 3,
+      "outcome": "Membrane/lipid phenotype improvement and selected transcript changes; BUB1B mean modestly above PA, still below control."
+    },
+    {
+      "arm": "PA+EPA",
+      "agents": [
+        {
+          "name": "PA-d31",
+          "role": "injury substrate",
+          "concentration_uM": 400,
+          "duration_h": 4
+        },
+        {
+          "name": "eicosapentaenoic acid",
+          "supplier": "Sigma-Aldrich",
+          "catalog": "44864",
+          "role": "cotreatment",
+          "concentration_uM": 50,
+          "duration_h": 4
+        }
+      ],
+      "RNA_libraries": 0,
+      "outcome": "Measured membrane/lipid improvement; no EPA BUB1B RNA result is assigned."
+    },
+    {
+      "arm": "PA+BMS",
+      "agents": [
+        {
+          "name": "PA-d31",
+          "role": "injury substrate",
+          "concentration_uM": 400,
+          "duration_h": 4
+        },
+        {
+          "name": "BMS-309403",
+          "supplier": "Cayman Chemical",
+          "catalog": "10010206",
+          "cas": "300657-03-8",
+          "role": "pharmacological research probe/cotreatment",
+          "concentration_uM": 50,
+          "duration_h": 24
+        }
+      ],
+      "timing": "24 h BMS with concomitant 4 h PA; detailed order and post-injury rescue timing not inferred.",
+      "RNA_libraries": 3,
+      "outcome": "Lower membrane order/higher fluidity, increased total and unsaturated TG accumulation/unsaturation; higher descriptive BUB1B mean near control."
+    },
+    {
+      "arm": "BMS alone",
+      "agents": [
+        {
+          "name": "BMS-309403",
+          "role": "unstressed imaging comparator"
+        }
+      ],
+      "RNA_libraries": 0,
+      "outcome": "Figure S16 reports no change in TG accumulation or membrane lipid order; supplies no unstressed BUB1B RNA comparison."
+    }
+  ],
+  "BUB1B_descriptive_expression": {
+    "dataset": "GSE220856",
+    "gene_id": "ENSG00000156970",
+    "gene_name": "BUB1B",
+    "excluded_feature": {
+      "gene_id": "ENSG00000259288",
+      "gene_name": "BUB1B-PAK6"
+    },
+    "units": "FPKM in filename/method description; one GEO format sentence says RPKM",
+    "groups": {
+      "control": {
+        "source_columns": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "values": [
+          12.7969697597375,
+          16.1567751673713,
+          14.1586140233122
+        ],
+        "n_libraries": 3,
+        "mean": 14.370786316807001,
+        "sample_SD": 1.689921863840593,
+        "ratio_to_PA_mean": 2.0859803078676,
+        "ratio_to_control_mean": 1.0
+      },
+      "PA": {
+        "source_columns": [
+          "PA1",
+          "PA2",
+          "PA3"
+        ],
+        "values": [
+          8.39486953589635,
+          5.40310603862871,
+          6.86969745566416
+        ],
+        "n_libraries": 3,
+        "mean": 6.889224343396407,
+        "sample_SD": 1.4959773328510546,
+        "ratio_to_PA_mean": 1.0,
+        "ratio_to_control_mean": 0.4793909109440507
+      },
+      "PA+OA": {
+        "source_columns": [
+          "OA1",
+          "OA2",
+          "OA3"
+        ],
+        "values": [
+          6.63170313489187,
+          7.72416007773226,
+          10.1124883707961
+        ],
+        "n_libraries": 3,
+        "mean": 8.15611719447341,
+        "sample_SD": 1.7801423194929424,
+        "ratio_to_PA_mean": 1.1838948462015713,
+        "ratio_to_control_mean": 0.567548428782538
+      },
+      "PA+BMS": {
+        "source_columns": [
+          "BMS1",
+          "BMS2",
+          "BMS3"
+        ],
+        "values": [
+          13.6857714589217,
+          14.3032644036769,
+          19.3310631162359
+        ],
+        "n_libraries": 3,
+        "mean": 15.773366326278166,
+        "sample_SD": 3.0964865930861514,
+        "ratio_to_PA_mean": 2.289570717986207,
+        "ratio_to_control_mean": 1.097599392166232
+      }
+    },
+    "sample_mapping": [
+      {
+        "column": "C1",
+        "GSM": "GSM6822915",
+        "title": "HepaRG cells, control-1",
+        "condition": "control"
+      },
+      {
+        "column": "C2",
+        "GSM": "GSM6822916",
+        "title": "HepaRG cells, control-2",
+        "condition": "control"
+      },
+      {
+        "column": "C3",
+        "GSM": "GSM6822917",
+        "title": "HepaRG cells, control-3",
+        "condition": "control"
+      },
+      {
+        "column": "PA1",
+        "GSM": "GSM6822918",
+        "title": "HepaRG cells, PA-1",
+        "condition": "PA"
+      },
+      {
+        "column": "PA2",
+        "GSM": "GSM6822919",
+        "title": "HepaRG cells, PA-2",
+        "condition": "PA"
+      },
+      {
+        "column": "PA3",
+        "GSM": "GSM6822921",
+        "title": "HepaRG cells, PA-3",
+        "condition": "PA"
+      },
+      {
+        "column": "OA1",
+        "GSM": "GSM6822922",
+        "title": "HepaRG cells, PA+OA-1",
+        "condition": "PA+OA"
+      },
+      {
+        "column": "OA2",
+        "GSM": "GSM6822923",
+        "title": "HepaRG cells, PA+OA-2",
+        "condition": "PA+OA"
+      },
+      {
+        "column": "OA3",
+        "GSM": "GSM6822924",
+        "title": "HepaRG cells, PA+OA-3",
+        "condition": "PA+OA"
+      },
+      {
+        "column": "BMS1",
+        "GSM": "GSM6822925",
+        "title": "HepaRG cells, PA+BMS-1",
+        "condition": "PA+BMS"
+      },
+      {
+        "column": "BMS2",
+        "GSM": "GSM6822926",
+        "title": "HepaRG cells, PA+BMS-2",
+        "condition": "PA+BMS"
+      },
+      {
+        "column": "BMS3",
+        "GSM": "GSM6822928",
+        "title": "HepaRG cells, PA+BMS-3",
+        "condition": "PA+BMS"
+      }
+    ],
+    "all_12_libraries_included": true,
+    "outliers_removed": false,
+    "SD_definition": "Sample SD with n-1 denominator.",
+    "ratio_definition": "Ratio of group means; not paired within-replicate treatment effects.",
+    "independent_replay_equal_to_saved_replay": true,
+    "inferential_statistics_computed": false,
+    "gene_specific_rescue_p_value": null,
+    "gene_specific_rescue_adjusted_p_value": null,
+    "statistical_scope": "Descriptive processed FPKM values only; no raw counts reconstructed and no raw-count differential-expression analysis reproduced."
+  },
+  "positive_and_null_evidence": [
+    {
+      "finding": "PA+OA, PA+EPA and PA+BMS alter lipid storage/unsaturation and membrane order in the beneficial direction used by this injury model.",
+      "level": "Measured cellular physical endpoints; not organism or MVA functional rescue."
+    },
+    {
+      "finding": "BMS-containing RNA arm has mean BUB1B 2.289570717986207 times PA mean and 1.097599392166232 times control mean.",
+      "level": "Descriptive gene-specific RNA evidence from exact deposited row, all three replicates retained."
+    },
+    {
+      "finding": "OA-containing RNA arm has mean BUB1B 1.1838948462015713 times PA mean and 0.567548428782538 times control mean.",
+      "level": "Descriptive smaller RNA shift; no inferential significance claim."
+    },
+    {
+      "finding": "BMS alone does not alter reported TG accumulation or membrane order.",
+      "level": "S16 imaging null, not an RNA null."
+    },
+    {
+      "finding": "Figure 6C displays BUB1B after PA challenge; Figure 7F/G rescue heatmaps omit BUB1B.",
+      "level": "The deposited row establishes a descriptive signal; displayed rescue heatmaps do not establish BUB1B significance."
+    }
+  ],
+  "target_attribution": {
+    "compound": "BMS-309403",
+    "established_characterization": "FABP4/aP2-directed research inhibitor with weaker reported FABP3/5 affinity",
+    "assay": "ANS-displacement biochemical Ki, not cellular IC50",
+    "reported_Ki_nM": {
+      "FABP4": "<2",
+      "FABP3": 250,
+      "FABP5": 350,
+      "FABP1": null
+    },
+    "FABP1_status": "Unknown in the inspected selectivity sources; no claim of absence of binding.",
+    "liver_tissue_FABP1": "Increased IHC is an expression association, not BMS-FABP1 occupancy or causal dependence of the HepaRG response.",
+    "positive_other_model_controls": "Original 2007 pharmacology reports FABP4 genetic dependence in macrophage/adipocyte systems; this does not supply FABP1 controls in HepaRG.",
+    "cellular_selectivity_at_50_uM": "Not established; nominal dose-to-Ki comparisons do not establish intracellular free concentration, occupancy or actual off-target effects.",
+    "primary_pharmacology_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4076119/",
+    "discovery_abstract_url": "https://pubmed.ncbi.nlm.nih.gov/17502136/",
+    "supplier_identity_url": "https://cdn.caymanchem.com/cdn/insert/10010206.pdf"
+  },
+  "limitations": [
+    "WT HepaRG palmitate challenge is not constitutional BUB1B-associated MVA or a Leu737Ter/Asn1002Lys model.",
+    "No BUBR1 protein restoration, spindle-checkpoint function, faithful daughter-cell output, segregation correction, muscle output or human MVA benefit is established.",
+    "PA+BMS exposure lasts longer than PA and PA+OA; no fully time-matched vehicle/BMS-alone RNA comparison is supplied.",
+    "No BMS-alone, OA-alone or EPA RNA group occurs among the twelve deposited libraries.",
+    "All three BMS samples retained, including BMS3 separated in source PCA; libraries are not independent human donors.",
+    "Processed matrix has expression values rather than raw counts or gene-specific differential-expression statistics.",
+    "Methods use an adjusted-significance criterion while S18 labels say P/pvalue without adjustment wording; no BUB1B-specific rescue significance is established.",
+    "Figure 7 lipid-panel statistical annotations do not transfer to the BUB1B RNA contrast; omission from a heatmap does not itself prove nonsignificance.",
+    "Lower CASP2 expression is not direct measurement of reduced cell death, clonogenic recovery, organ function or corrected chromosome segregation.",
+    "FABP1 affinity, cellular target engagement and causal dependence at the tested dose remain unqualified.",
+    "Free EPA, oleic acid, dietary mixtures and approved derivative formulations are not interchangeable exposure claims.",
+    "The reviewed rescue series supplies no human drug treatment evidence; no new clinical-exposure or regulatory search was conducted."
+  ],
+  "comparison_to_current_project_nominees": {
+    "scope": "Project comparison supplied by parent; not a new niacin/apitegromab primary reappraisal.",
+    "BMS_strength": "Actual administered-compound association with BUB1B transcript recovery in the reviewed processed data.",
+    "niacin_distinction": "Its BUBR1-restoration bridge depends on different NAD interventions/genetic experiments; separate human muscle NAD engagement and medicine/exposure context do not themselves establish BUBR1 functional rescue.",
+    "shared_gap": "Neither BMS nor niacin establishes relevant-genotype functional rescue.",
+    "ranking_claim": "No superiority claim; mechanistic transcript signal retained without automatically promoting or dismissing it.",
+    "apitegromab": "Provisional compensation nominee, not established MVA benefit."
+  },
+  "followup_questions": [
+    "Does the BUB1B RNA shift persist under matched schedules, matched vehicles and a BMS-alone RNA arm?",
+    "Does BUBR1 protein and chromosome-fidelity output improve in affected/corrected BUB1B cells?",
+    "Which FABP isoform or other mechanism is engaged, and does an orthogonal target perturbation reproduce or occlude the effect?",
+    "Are functional benefit and exposure feasibility sufficient to advance beyond a mechanistic research reserve?"
+  ],
+  "reading_scope": {
+    "root_primary_assessment_reported": "Complete main prose and Methods plus relevant captions/tables; Figures 6/7 and S16-S18 visually; exact BUB1B row and twelve sample metadata. This is the root report scope, not duplicated full reading by the JSON author.",
+    "prior_independent_expression_review": "Exact BUB1B/readthrough rows and header; twelve SOFT assignments; GEO design/processing; targeted main RNA methods/results and Figure 6/7 legends; Figures 6/7 and S16/S18 images. Numeric extraction independently recomputed.",
+    "target_check_reader": "Targeted liver BMS/FABP1/BUB1B passages/Methods/reference 60; Figures 5/7 and S16, S18 caption. Older primary pharmacology passages/captions/Methods and Figure 1 preview; complete Sulsky indexed abstract and official supplier insert. No full discovery body or complete older-paper/supplement reading.",
+    "current_JSON_drafting_pass": "Read draft, replay/script, prior expression assessment and target assessment; targeted main XML paragraphs/captions reread; source hashes verified and extraction replayed in memory. No new image reading or independent whole-paper audit claimed.",
+    "not_performed": [
+      "Biological replication",
+      "Raw-read alignment or count-based differential-expression reproduction",
+      "New P/FDR calculation",
+      "Exhaustive supplementary reanalysis",
+      "New broad literature search"
+    ],
+    "failed_remote_retrievals": "Target-check file distinguishes browser-check/error-response hashes from article-body reading; those failures confer no primary-body credit."
+  },
+  "source_assets": [
+    {
+      "file": "primary.xml",
+      "sha256": "104870cf6ef872f47f4b7be2b754041a82feb53679d742aeaecc25c4a6a75fa5",
+      "kind": "primary_text",
+      "reading_scope": "Complete main XML; root reports complete prose/Methods read; this drafting pass reread targeted intervention, RNA methods/results and Figure 6/7 captions.",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9839333/fullTextXML"
+    },
+    {
+      "file": "assets/sciadv.abq2937-f6.jpg",
+      "sha256": "a4599e4093aa08b335f341dcdc1db6ba9b4bb442e312b51d4fe1006a4d9a47a9",
+      "kind": "primary_figure",
+      "reading_scope": "Prior independent expression review visually inspected Figure 6; no new visual inspection during JSON drafting.",
+      "container_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9839333/supplementaryFiles",
+      "container_sha256": "04d1f8fff5c539ec7e49d23f283b52a52dcd84c7bcbd9909626469a1ee7fc6be"
+    },
+    {
+      "file": "assets/sciadv.abq2937-f7.jpg",
+      "sha256": "46f35eca1ec455a5f8bfe0a58cf7f61cab4086d14ac8619912f98c9b3598aa41",
+      "kind": "primary_figure",
+      "reading_scope": "Prior independent expression and target reviews visually inspected Figure 7; no new visual inspection during JSON drafting.",
+      "container_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9839333/supplementaryFiles",
+      "container_sha256": "04d1f8fff5c539ec7e49d23f283b52a52dcd84c7bcbd9909626469a1ee7fc6be"
+    },
+    {
+      "file": "assets/sciadv.abq2937-f5.jpg",
+      "sha256": "8353b8e378298f397e39448ff0042e9615d090ebdd5b090e6ab42fc517bb2a11",
+      "kind": "primary_figure",
+      "reading_scope": "Target-check reader inspected FABP1 IHC; drafting reviewer relies on documented check.",
+      "container_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9839333/supplementaryFiles",
+      "container_sha256": "04d1f8fff5c539ec7e49d23f283b52a52dcd84c7bcbd9909626469a1ee7fc6be"
+    },
+    {
+      "file": "assets/sciadv.abq2937_sm.pdf",
+      "sha256": "684d05b0065246908cf451972aa7a63e188bc61dda18e16acaf5ad71edb2f43d",
+      "kind": "primary_supplement",
+      "reading_scope": "Relevant S16-S18 scope only; not a claim of complete supplementary-data review.",
+      "container_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9839333/supplementaryFiles",
+      "container_sha256": "04d1f8fff5c539ec7e49d23f283b52a52dcd84c7bcbd9909626469a1ee7fc6be"
+    },
+    {
+      "file": "assets/supp-17.png",
+      "sha256": "778f125331d2efad8c33187b8fb9775e2f42b00b5f5bcb6e43e2768eee906604",
+      "kind": "rendered_supplement_page",
+      "reading_scope": "Prior independent visual inspection of S16; BMS-alone imaging null.",
+      "container_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9839333/supplementaryFiles",
+      "container_sha256": "04d1f8fff5c539ec7e49d23f283b52a52dcd84c7bcbd9909626469a1ee7fc6be"
+    },
+    {
+      "file": "assets/supp-19.png",
+      "sha256": "fa2d3eb3a8a996b6f3c89bde2027e429765926d73cae4f229a781f2b2e028dfe",
+      "kind": "rendered_supplement_page",
+      "reading_scope": "Prior independent visual inspection of S18; PCA and volcano-label limits.",
+      "container_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9839333/supplementaryFiles",
+      "container_sha256": "04d1f8fff5c539ec7e49d23f283b52a52dcd84c7bcbd9909626469a1ee7fc6be"
+    },
+    {
+      "file": "GSE220856_gene_fpkm.txt.gz",
+      "sha256": "4dc1efaa03af0bb7c9d767122106f519b3c1dd864387a02cd63361f4020d1e63",
+      "kind": "processed_expression",
+      "reading_scope": "Exact BUB1B row/header and excluded readthrough checked previously; descriptive extraction replayed in memory now.",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE220nnn/GSE220856/suppl/GSE220856_gene_fpkm.txt.gz"
+    },
+    {
+      "file": "GSE220856_family.soft.gz",
+      "sha256": "5ba36f5da83416c9b029011e29c4385ad8bb49fd18c636caae5b5d534dc27cde",
+      "kind": "sample_metadata",
+      "reading_scope": "All 12 sample assignments checked previously and validated by current replay.",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE220nnn/GSE220856/soft/GSE220856_family.soft.gz"
+    },
+    {
+      "file": "bub1b-expression-replay.json",
+      "sha256": "87c4af916f302e9c11c2e1402687159fdf08246ac6d147e3c7a5824252784a1c",
+      "kind": "derived_numeric_evidence",
+      "reading_scope": "Read and reproduced exactly by current source-hash-checked replay."
+    },
+    {
+      "file": "summarize_lipid_bub1b.py",
+      "sha256": "00231a1dbb5c5e30ddeb71f5fb53ad0d3b5e0cfd970dad4d619834b3491f4e0f",
+      "kind": "replay_code",
+      "reading_scope": "Complete code read; summarize/read_checked functions executed in memory without writing source/summary files."
+    },
+    {
+      "file": "expression-independent-check.json",
+      "sha256": "b124363e6c1abb39e81edeb9e8ead83764d1e0e4738efa5cd88bd9adcd31bf69",
+      "kind": "independent_review",
+      "reading_scope": "Prior exact-row arithmetic, metadata and figure check; source hashes freshly matched."
+    },
+    {
+      "file": "expression-independent-check.md",
+      "sha256": "9b616345e49e6901f4013f524575dc68571d46a823e418bba14d5ff21c880fe4",
+      "kind": "independent_review",
+      "reading_scope": "Complete assessment read in current drafting pass."
+    },
+    {
+      "file": "bms-target-check.json",
+      "sha256": "ce2aecc29ca67bbb2922a53713d33031cb34de9d0c2a1d76defafa9fba537615",
+      "kind": "independent_review",
+      "reading_scope": "Source/identity/selectivity and reading-scope fields used; local asset hashes freshly matched."
+    },
+    {
+      "file": "bms-target-check.md",
+      "sha256": "9f32f3fbcd04e95bea43b032cb549115a356b163ebebc24d9fcac22a761bd57f",
+      "kind": "independent_review",
+      "reading_scope": "Complete focused target assessment read in current drafting pass."
+    },
+    {
+      "file": "lipid-rescue-qualification.md",
+      "sha256": "81d6cbc1875b1e294ceba3398af83c5cd0730bbed36363a8cef83c9709bfd84e",
+      "kind": "draft_checked",
+      "reading_scope": "Draft read completely; source hash identifies the exact draft checked, which parent may subsequently revise."
+    }
+  ],
+  "older_pharmacology_remote_provenance": {
+    "source_file": "bms-target-check.json",
+    "sha256": "ce2aecc29ca67bbb2922a53713d33031cb34de9d0c2a1d76defafa9fba537615",
+    "indexed_primary_body_asset_sha256": null,
+    "official_insert_response_sha256": "aed2a0a81ccfc20fe3fc4257399b0e02c7b55aea7bef84c49df59bb7a26e14d0",
+    "note": "Supplier insert was decoded by target-check reader; response hash is not a local saved source asset. Primary-body indexed passage reading has no full-body asset hash."
+  },
+  "draft_check": {
+    "draft_sha256": "81d6cbc1875b1e294ceba3398af83c5cd0730bbed36363a8cef83c9709bfd84e",
+    "substantive_correction_required": false,
+    "parent_requested_disposition_wording": "mechanistic RNA research reserve replaces low-priority RNA research reserve, preserving the closest actual-compound transcript signal.",
+    "link_resolution": "Parent confirmed lipid-bub1b-expression.json is the intentional repository integration filename; absent external basename is not an integration defect.",
+    "MD_modified_by_this_reviewer": false,
+    "repository_modified_by_this_reviewer": false
+  }
+}
