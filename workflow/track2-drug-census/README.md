@@ -3,6 +3,9 @@
 Read [the decision report](decision-report.md) for new findings and the current
 publication-hold status.
 
+[PR1 reuse](pr1-reuse.md) records which work is already incorporated, adds
+bounded UMK57 control findings, and preserves the later source corrections.
+
 **Catalog snapshot: 21 September 2026; corrected text screen: 22 September 2026,
 America/Phoenix (retrieval timestamps are UTC).**
 This is an enumerated, source-bounded census and retrieval screen. It does not

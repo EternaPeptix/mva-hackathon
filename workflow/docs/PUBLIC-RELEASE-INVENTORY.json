@@ -12941,7 +12941,7 @@
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
     "reviewed_at_utc": "2026-09-22T02:51:50.650727+00:00",
-    "scope": "243 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
+    "scope": "245 current payload files plus two self-referential audit documents; SOURCE-SNAPSHOT records current identities. Historical baseline decisions remain unchanged.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12954,7 +12954,7 @@
       "original_audit_bytes_sha256": "7fae846b1a22b88b05096372fa4fbbd9bbca7f27e23f725a2ff32ad1b6a2644b",
       "all_original_fields_unchanged": true
     },
-    "reviewed_payload_count": 243,
+    "reviewed_payload_count": 245,
     "report_tree_files": 32,
     "reviewed_files": [
       {
@@ -13412,8 +13412,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 33851,
-        "sha256": "33ec8519de06e621f969f33483ce0a1fbce1c1387aff6b0f9d2ec466e2ce0f58",
+        "bytes": 34003,
+        "sha256": "d65e24876804385651ee2fc9fd68f9410811ac91c270865148fdcaafdf648cf3",
         "mode": 420
       },
       {
@@ -13673,8 +13673,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 155453,
-        "sha256": "95bf7c6dc024771c58a18d528db73c8073648a137dd879dbd6c42277cfe370f1",
+        "bytes": 156189,
+        "sha256": "6e71563cddc736ba222f723e1af24056669ead739fe49320cd4d7cd8e0d1fbea",
         "mode": 420
       },
       {
@@ -14204,8 +14204,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 25226,
-        "sha256": "fb43cea376e611c82cdb177e4ff4eb7f09c8a41c9266f98c22044ce7cf95afa9",
+        "bytes": 25237,
+        "sha256": "bf497a517b0c0adcb0adfc91ac437ee8e8b3bcf8a115738efe7a3f9b37f18fe9",
         "mode": 420
       },
       {
@@ -14425,6 +14425,24 @@
         "mode": 420
       },
       {
+        "path": "workflow/track2-drug-census/pr1-reuse.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
+        "bytes": 2338,
+        "sha256": "9f772753c5f0033da39c341c5357f1f62a35339ee015d0dc9e9b372449a50124",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/pr1-reuse.md",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Original public-source assessments, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
+        "bytes": 4488,
+        "sha256": "a6c9514c0b78e6eed447aaf98cdb7ec66a6454285b63a68e26c10b534844baf9",
+        "mode": 420
+      },
+      {
         "path": "workflow/track2-drug-census/primary-question-status.json",
         "decision": "keep",
         "category": "public_source_research_assessment",
@@ -14600,8 +14618,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessment, correction metadata or verification method. No raw abstract/full text, figure or controlled-case payload. Not publication approval.",
-        "bytes": 6532,
-        "sha256": "807c44dc3e277a59b9c5f218a3570ce41a4d4838033e68e441dd87e1891a885c",
+        "bytes": 7412,
+        "sha256": "15be085c9067f4b3247e46d4dced5cb23e8fc8468f3e195676cf0cd962443191",
         "mode": 420
       },
       {
@@ -15734,6 +15752,16 @@
       "verification": "Independent7362-record replay using a separate HTML parser and token matcher, explicit raw inequality checks,7 regression checks, unchanged-source/rejected-note safeguards, full census and source replay. Primary papers read at declared depths, with independent stromal/AGRN integration check. Identity and transformation checks do not prove scientific validity.",
       "payload_scope": "Original assessments, public bibliographic and name metadata, code, source hashes and route decisions. No raw abstracts/articles/figures or controlled case payload.",
       "delivery": "Private draft update;3412 selected strings still require revalidation. Existing Track1 and pitch artifacts preserved. No visibility change or Track2 submission."
+    },
+    "pr1_reconciliation": {
+      "reviewed_at_utc": "2026-09-23T02:02:37.216790+00:00",
+      "baseline_commit": "5a11cfadcf968755f0e4f93353045b75083abe98",
+      "pr1_revision": "26b30ddca828e7fb36e888f0a012bfced4e759e1",
+      "scope": "Reconcile PR1 history with later source corrections. 107 of 109 decision objects, both reading-tool files and all 3,598 selection records already identical. Add bounded UMK57 RPE-1/BJ control interpretation and historical count wording.",
+      "science": "No nomination change. Non-significant controls are model/endpoint-limited; no inference of inactivity in all non-cancer cells, opposite patient attachment defect or proven permeability explanation.",
+      "verification": "Exact commit-level object comparisons and literal saved-source checks for three retained annotation errors. Full census, source/hash package reconciliation and independent UMK57 review. These are not proof of exhaustive efficacy assessment.",
+      "payload_scope": "Original assessments and public-source metadata; no raw articles/abstracts/figures or controlled case payload.",
+      "delivery": "Private branch integration. 116 appraisals, 2,347 accepted outer records, 3,412 pending. Track 1/current pitch preserved; no publication or submission."
     }
   }
 }

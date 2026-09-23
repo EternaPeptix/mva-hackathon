@@ -17,6 +17,7 @@ inspected; results supported only by those panels are identified below.
 |---|---|
 | Actual intervention | UMK57 potentiates MCAK-dependent microtubule depolymerization. The main working concentration was 100 nM against 0.1% DMSO. Inactive analog UMK95 and MCAK-depletion controls support the target relationship. Protein overexpression is a separate intervention. |
 | Acute fidelity | Figure 1A prints 36% lagging anaphases with DMSO and 17% at 100 nM in the U2OS titration. Figure 2B independently presents significant acute reductions in U2OS, HeLa and SW-620: more than 300 anaphases, three independent experiments. These are functional segregation outcomes, although not an all-chromosome daughter-cell count. |
+| Non-transformed controls | Figure 2B reports no statistically significant lagging-anaphase change at 100 nM in hTERT-immortalized RPE-1 or BJ, both with low baseline rates. The text reports low chromosome 2/3 copy-number heterogeneity in RPE-1 colonies grown for 4–6 weeks. These are restricted null results, not proof of inactivity in all non-cancer or BUB1B-deficient cells. |
 | Completed division | Figure 2D reports significantly less mis-segregation of one tagged chromosome in HCT116, among more than 600 daughter-nucleus pairs. Cells underwent 15 hours of monastrol arrest, washout and eight hours of recovery. This measures a restricted completed-division endpoint, not total faithful daughters per starting cell, survival or division yield. No numerical bar height is treated as exact data. |
 | BUBR1 measurement | Figure 2H measures kinetochore BubR1 normalized to Hec1, with at least 150 kinetochores from 10–20 cells, without a significant acute change. It does not measure restoration of total BUBR1 in deficient cells. The earlier draft's claim that BUBR1 was never measured is withdrawn. |
 | Attachment mechanism | Photoactivation measurements use 5 micromolar MG132. Metaphase attachment half-life falls; this arrest-based mechanistic assay remains separate from the post-division result. |
@@ -31,6 +32,12 @@ worldwide regulatory or clinical status. The observed short-term benefit earns
 a research lead, while durability, transfer and medication eligibility remain
 open. Current evidence is insufficient to replace the niacin/apitegromab
 research comparison or to prove those nominees superior.
+
+The vinblastine comparison supports a mechanism distinct from directly targeting
+tubulin; it does not directly measure UMK57 uptake or permeability. The sign of
+the patient's attachment-stability defect is unmeasured. It cannot be assumed
+opposite to the hyper-stable attachments in these cancer models. These
+qualifications preserve the useful controls added in [PR1](pr1-reuse.md).
 
 The next discriminating experiment would measure segregation and absolute
 productive output in affected and corrected cells, including repeated exposure
@@ -49,7 +56,7 @@ UMK57 paper's full-text review depth.
 | Apcin | [PMID32152539](https://pubmed.ncbi.nlm.nih.gov/32152539/) reports opposite effects on mitotic duration at low versus high SAC activity. [PMID26423134](https://pubmed.ncbi.nlm.nih.gov/26423134/) reports increased apcin response in cohesion-defective WABS and cancer cells, within a study of checkpoint-dependent synthetic lethality. | Duration and cell death are not faithful division. The actual BUB1B genotype's response is unmeasured. Do not transfer apcin's regulatory effect to proTAME or presume this child has no checkpoint function. |
 | AICAR, separately from metformin | [PMID21315436](https://pubmed.ncbi.nlm.nih.gov/21315436/) names AICAR, 17-AAG and chloroquine; AICAR induces p53-mediated apoptosis in trisomic MEFs, and AICAR plus 17-AAG has cancer-cell activity. | This does not establish metformin efficacy, a pediatric window, or selective preservation of useful nonmalignant tissue. The p53 statement is specific to the reported AICAR experiment. |
 | Navitoclax and ZM447439 | [PMID26188358](https://pubmed.ncbi.nlm.nih.gov/26188358/) names ABT-263 and reports enhanced loss of viability when combined with Oxindole-1 or ZM447439 in AML models. | Credit the antitumor combination. Do not assign it to single-agent muscle rescue or assume every constitutionally aneuploid cell shares that dependency. |
-| Metformin | [PMID30022161](https://pubmed.ncbi.nlm.nih.gov/30022161/) reports preserved AMPK-mediated TET2 serine-99 phosphorylation and increased TET2 stability after metformin. | This is a positive actual-drug protein-stabilization precedent. The drug-arm model, exposure and in-vivo scope need primary qualification; it is not BUBR1 stabilization. |
+| Metformin | [PMID30022161](https://pubmed.ncbi.nlm.nih.gov/30022161/) reports preserved AMPK-mediated TET2 serine-99 phosphorylation and increased TET2 stability after metformin. | This historical abstract-stage observation is now covered by the [completed primary qualification](protein-and-tissue-qualification.md), including the drug-arm model, exposure and in-vivo scope. It is a positive actual-drug protein-stabilization precedent, not BUBR1 stabilization. |
 
 The [review-quality follow-up](review-quality-followup.md) explains why these
 re-readings replace unsupported missing-text assertions. Raw article text and

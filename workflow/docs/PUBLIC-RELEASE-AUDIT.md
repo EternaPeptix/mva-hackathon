@@ -634,6 +634,22 @@ are preserved, alongside exposure, attribution, model and functional limits.
 Niacin/apitegromab remain provisional nominations; no MVA efficacy is established.
 The 3,412-string revalidation queue and remaining source questions stay open.
 
+## PR1 reconciliation, 22 September 2026
+
+The [PR1 reuse comparison](../track2-drug-census/pr1-reuse.md) reconciles revision
+`26b30dd` with the later corrected branch at `5a11cfa`. Of PR1's 109 decisions,
+107 were already identical; the reader/test files and all selection records
+were also already retained. Bounded RPE-1/BJ UMK57 controls and historical-stage
+wording are incorporated. The 116-entry ledger, primary qualifications,
+corrected text screen, accepted reading counts and pending queue remain intact.
+The unaccepted completion annotations and summary remain preserved in PR1's
+history, without being admitted as validated coverage in this branch.
+
+The new payload consists of original interpretation and public-source comparison
+metadata. It contains no source abstract/full text, figure or controlled case
+payload. Track 1 and pitch media are unchanged. This is private branch
+integration, not a public release or Track 2 submission.
+
 Added material is original interpretation, public bibliographic/naming metadata,
 source hashes and screening code. Raw abstracts, articles and figures remain
 external. Historical input files, source provenance, Track 1 uploads and current
