@@ -131,7 +131,7 @@ recorded separately.
 
 ## Primary qualification adds four entries and revises two
 
-The ledger now holds **108 route/compound appraisals**, previously 104. The
+At this tranche the ledger held **108 route/compound appraisals**, previously 104. The
 [mitotic appraisal](mitotic-qualification.md) and
 [muscle-senescence appraisal](muscle-senescence-qualification.md) hold the source
 detail.

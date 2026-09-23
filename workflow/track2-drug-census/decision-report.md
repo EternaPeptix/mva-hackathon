@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 108 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 109 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 ## The same comparison for leaders and challengers
 
@@ -256,5 +256,5 @@ cells; Apcin does not reproduce it, and their combination suppresses the
 response. These are bulk-lysate biochemical measurements in a different lesion,
 so they cannot supply per-cell checkpoint correction or faithful descendants.
 
-The ledger now holds **108 appraisals**. Nothing here establishes BUBR1
-restoration or MVA efficacy, and the nominated pair is unchanged.
+At that stage the ledger held **108 appraisals**. Nothing there establishes BUBR1
+restoration or MVA efficacy, and the nominated pair was unchanged.
