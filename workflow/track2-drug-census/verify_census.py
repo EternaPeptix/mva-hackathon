@@ -301,6 +301,9 @@ def main():
     if (P/'outer-revalidation-batch12-review.json').exists():
         from verify_revalidation_batch12 import check as check_batch12
         check_batch12(root=P)
+    if (P/'outer-revalidation-batch15-review.json').exists():
+        from verify_revalidation_batch15 import check as check_batch15
+        check_batch15(P)
     if (P/'dsld-ingredients/summary.json').exists():
         from verify_dsld_inventory import check as check_dsld
         check_dsld(root=P)
@@ -376,5 +379,5 @@ def main():
             assert hashlib.sha256((P/meta['file']).read_bytes()).hexdigest()==meta['sha256']
     decisions=json.loads((P/'decisions.json').read_text())['decisions'];joins=read('decision-alias-joins.tsv')
     assert len(decisions)==len(joins) and {r['decision_id'] for r in decisions}=={r['decision_id'] for r in joins}
-    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'curated_appraisals':len(decisions),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation, including fixed-order exclusions and all419 ranked records across433 outer records; unfiltered384 plus next576, next256 and next512 selection/review reconciliation, 2161 historical outer records plus a separately reconciled partial source revalidation; original missing143 depth reconciliation; Broad7540 preferred-name and2148 mention reconciliation with input hashes; all-target source preservation and correction mappings; EMA product-state, recovered-alias overlay, source-input-hash and unknown-efficacy reconciliation; complete decision joins'},indent=2))
+    print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'curated_appraisals':len(decisions),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation, including fixed-order exclusions and all419 ranked records across433 outer records; unfiltered384 plus next576, next256 and next512 selection/review reconciliation, 2161 historical outer records plus3598 separately revalidated original-queue records; original missing143 depth reconciliation; Broad7540 preferred-name and2148 mention reconciliation with input hashes; all-target source preservation and correction mappings; EMA product-state, recovered-alias overlay, source-input-hash and unknown-efficacy reconciliation; complete decision joins'},indent=2))
 if __name__=='__main__':main()

@@ -1603,14 +1603,18 @@
       ],
       "route": "MG132 / proteolysis and mitotic alignment",
       "disposition": "retain endpoint-specific mechanistic evidence; decline election from these studies",
-      "evidence_scope": "Partial kinetochore primary sections and separately reviewed full rat-muscle primary paper; intervention-specific endpoints and source limits retained.",
+      "evidence_scope": "Partial kinetochore primary sections and separately reviewed full rat-muscle primary paper; intervention-specific endpoints and source limits retained. Additional source-qualified CCDC41-oocyte drug/normal-control phenotypes.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "10micromolar MG132 improves alignment after nocodazole withdrawal in CENP50-deficient chicken cells, but persistent mitosis after drug removal prevents calling it completed fidelity rescue. That source has partial primary-text access and unavailable figure-specific n. Separate primary rat-muscle experiments establish ex vivo anti-proteolysis benefit, not contractile force, systemic treatment or BUB1B rescue. Preserve these positive biochemical endpoints without assigning them to bortezomib or an approved human regimen. Direct synthesis/balance and washout figures in the muscle paper used LLN, not MG132. In [Orr, PMID 27829147](https://pubmed.ncbi.nlm.nih.gov/27829147/) MG132 appears only as arrest machinery: 5 micromolar throughout every photoactivation experiment to prevent mitotic exit, and 5 micromolar for 4 hr to enrich the mitotic population for a western. It therefore bounds every k-MT half-life number in that paper and adds no MG132 benefit or harm. Recorded because the alias rule lands the record on this entry; disposition unchanged.",
+      "rationale": "10micromolar MG132 improves alignment after nocodazole withdrawal in CENP50-deficient chicken cells, but persistent mitosis after drug removal prevents calling it completed fidelity rescue. That source has partial primary-text access and unavailable figure-specific n. Separate primary rat-muscle experiments establish ex vivo anti-proteolysis benefit, not contractile force, systemic treatment or BUB1B rescue. Preserve these positive biochemical endpoints without assigning them to bortezomib or an approved human regimen. Direct synthesis/balance and washout figures in the muscle paper used LLN, not MG132. In [Orr, PMID 27829147](https://pubmed.ncbi.nlm.nih.gov/27829147/) MG132 appears only as arrest machinery: 5 micromolar throughout every photoactivation experiment to prevent mitotic exit, and 5 micromolar for 4 hr to enrich the mitotic population for a western. It therefore bounds every k-MT half-life number in that paper and adds no MG132 benefit or harm. Recorded because the alias rule lands the record on this entry; disposition unchanged. A separate CCDC41-depleted mouse-oocyte study (PMID 41331237) adds actual 10 µM MG132 partial phenotype protection: lower early MII and chromosome-region width. Enlarged first polar bodies and poor spindle migration persist, and normal drug-treated oocytes have near-zero MII at the same observation time. Chromosome-count rescue in that paper is genetic Ccdc41 cRNA, not MG132. No completed faithful divisions, BUBR1 restoration, fertility or MVA benefit is established.",
       "source_report": "workflow/track2-drug-census/next576-primary-qualification.md",
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC2262965/",
         "https://doi.org/10.1172/JCI119513",
-        "https://pubmed.ncbi.nlm.nih.gov/27829147/"
+        "https://pubmed.ncbi.nlm.nih.gov/27829147/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/"
+      ],
+      "additional_source_reports": [
+        "workflow/track2-drug-census/ccdc41-qualification.md"
       ]
     },
     {
@@ -3239,6 +3243,162 @@
       ],
       "evidence_scope": "Source-specific administered-intervention evidence with explicit reading, model, comparator and endpoint limits.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys"
+    },
+    {
+      "decision_id": "new-cp5v",
+      "match_aliases": [
+        "CP5V"
+      ],
+      "route": "CP5V / CDC20 degradation and early meiotic resumption",
+      "disposition": "Retain defect-specific early meiotic-resumption comparator; no drug-treated fidelity or MVA rescue established",
+      "rationale": "The 5 µM CDC20-directed PROTAC improves early germinal-vesicle breakdown after Ccdc41 depletion and reverses CDC20/Cyclin B1 changes, with drug-treated normal controls present. This linked degrader is distinct from Apcin. No drug-specific euploidy, fertility, productive lineage or muscle outcome is supplied. Exact pretreatment timing and functional-arm denominators remain limited.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/",
+        "https://doi.org/10.1002/advs.202504665"
+      ],
+      "evidence_scope": "One ex vivo mouse-oocyte primary with Ccdc41 morpholino depletion; native treatment/normal-control panels and limitations qualified. Root full-main reading attributed separately from bounded independent check.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/ccdc41-qualification.md"
+    },
+    {
+      "decision_id": "new-ca-074",
+      "match_aliases": [
+        "CA-074",
+        "CA074"
+      ],
+      "route": "CA-074 / cathepsin-B inhibition in CCDC41-deficient oocytes",
+      "disposition": "Retain partial spindle/checkpoint/timing rescue comparator; no normal-drug-control or MVA efficacy established",
+      "rationale": "At 1 µM, CA-074 reduces abnormal spindle fraction and premature MII and raises MAD1/CREST after Ccdc41 depletion. Timing and MAD1 remain different from control; APC2 is unchanged. No normal drug-treated arm, drug aneuploidy result or BUBR1 restoration assay is supplied. Source HY-103350 identifies CA-074 rather than its methyl ester. Panel lettering and timing discrepancies remain explicit.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/",
+        "https://doi.org/10.1002/advs.202504665"
+      ],
+      "evidence_scope": "One ex vivo mouse-oocyte primary with Ccdc41 morpholino depletion; native treatment/normal-control panels and limitations qualified. Root full-main reading attributed separately from bounded independent check.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/ccdc41-qualification.md"
+    },
+    {
+      "decision_id": "new-concanamycin-a",
+      "match_aliases": [
+        "Concanamycin A"
+      ],
+      "route": "Concanamycin A / V-ATPase inhibition and meiotic timing",
+      "disposition": "Retain restricted timing/marker positive with normal-progression inhibition; no demonstrated spindle-width or MVA rescue",
+      "rationale": "At 115 nM, Concanamycin A reduces premature MII in Ccdc41-depleted oocytes with Cyclin B1/CDC20 and acidification-marker changes. Native S7 labels chromosome-width improvement and APC2 change nonsignificant despite stronger prose. Drug-treated normal controls show near-zero MII at the observed early time. This is Concanamycin, not Concanavalin A; no drug-treated euploidy, fertility or BUBR1 assay establishes faithful rescue.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/",
+        "https://doi.org/10.1002/advs.202504665"
+      ],
+      "evidence_scope": "One ex vivo mouse-oocyte primary with Ccdc41 morpholino depletion; native treatment/normal-control panels and limitations qualified. Root full-main reading attributed separately from bounded independent check.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/ccdc41-qualification.md"
+    },
+    {
+      "decision_id": "new-lapatinib-bladder",
+      "match_aliases": [
+        "lapatinib"
+      ],
+      "route": "Lapatinib / rat bladder-tumor prevention",
+      "disposition": "Retain tumor-prevention comparator; decline BUBR1-restoration nomination",
+      "rationale": "Daily late-start treatment reduced mean bladder-plus-lesion mass and large-tumor incidence. Weekly dosing also reduced mass, without significant incidence differences in every comparison. Selected altered-gene tables lack Bub1b, which is not a null effect. Main/supplement denominators and carcinogen schedule conflict. No normal-muscle or MVA rescue is established.",
+      "evidence_scope": "Source-specific rat bladder-tumor prevention and separate short-treatment RNA experiments, with native table/cell and denominator limits.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/bladder-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.3233/BLC-200423"
+      ]
+    },
+    {
+      "decision_id": "new-naproxen-bladder",
+      "match_aliases": [
+        "naproxen"
+      ],
+      "route": "Naproxen / rat bladder-tumor prevention",
+      "disposition": "Retain common-medicine tumor-prevention result; decline MVA muscle nomination",
+      "rationale": "Daily naproxen reduced bladder-plus-lesion mass and large-tumor incidence in OH-BBN-exposed rats. The result is not tumor eradication, BUBR1 restoration or MVA muscle benefit. The separate RNA experiment used NO-naproxen; those expression results are not assigned to ordinary naproxen.",
+      "evidence_scope": "Source-specific rat bladder-tumor prevention and separate short-treatment RNA experiments, with native table/cell and denominator limits.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/bladder-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.3233/BLC-200423"
+      ]
+    },
+    {
+      "decision_id": "new-lapatinib-naproxen",
+      "match_aliases": [
+        "lapatinib",
+        "naproxen"
+      ],
+      "route": "Lapatinib plus naproxen / combination bladder-tumor prevention",
+      "disposition": "Retain measured combination prevention; no proved synergy or all-lesion eradication",
+      "rationale": "Main Table 2 reports no large tumors among 29 rats at endpoint versus 69% in controls; mean bladder-plus-lesion mass was 137 versus 356 mg. Native Figure 3 supports freedom from the large palpable endpoint, despite its inconsistent y-axis label. No histological all-lesion clearance, post-treatment durability or formal synergy test is established. No combination RNA arm or MVA result is supplied.",
+      "evidence_scope": "Source-specific rat bladder-tumor prevention and separate short-treatment RNA experiments, with native table/cell and denominator limits.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/bladder-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.3233/BLC-200423"
+      ]
+    },
+    {
+      "decision_id": "new-erlotinib-bladder",
+      "match_aliases": [
+        "erlotinib"
+      ],
+      "route": "Erlotinib / tumor prevention and lower tumor Bub1b RNA",
+      "disposition": "Retain anticancer evidence; decline protein-restoration route",
+      "rationale": "Daily erlotinib reduced large-tumor incidence and bladder-plus-lesion mass. A separate five-day tumor RNA arm reports Bub1b signed fold change −1.6521, listed P=0.0053614. This is a tumor RNA decrease, not BUBR1 restoration or a normal-cell harm experiment. Per-gene correction status and source dosing/denominator issues remain unresolved.",
+      "evidence_scope": "Source-specific rat bladder-tumor prevention and separate short-treatment RNA experiments, with native table/cell and denominator limits.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/bladder-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.3233/BLC-200423"
+      ]
+    },
+    {
+      "decision_id": "new-gefitinib-bladder",
+      "match_aliases": [
+        "gefitinib"
+      ],
+      "route": "Gefitinib / lower tumor Bub1b RNA and reused prevention evidence",
+      "disposition": "Retain tumor-expression comparator; do not count reused efficacy data as new replication",
+      "rationale": "Native Supplementary Table4 gives Bub1b signed fold change −1.8603377 and listed P=0.0003605458. This is lower tumor RNA, not functional BUBR1 rescue. The source reuses earlier gefitinib expression/prevention work; those linked primary papers are not newly qualified here. Per-gene correction status remains unresolved.",
+      "evidence_scope": "Source-specific rat bladder-tumor prevention and separate short-treatment RNA experiments, with native table/cell and denominator limits.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/bladder-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.3233/BLC-200423"
+      ]
+    },
+    {
+      "decision_id": "new-no-naproxen",
+      "match_aliases": [
+        "NO-naproxen",
+        "nitric oxide-releasing naproxen"
+      ],
+      "route": "NO-naproxen / distinct RNA and historical prevention comparator",
+      "disposition": "Retain distinct-compound context; do not inherit naproxen combination benefit",
+      "rationale": "The short-treatment RNA arm uses NO-naproxen, and prior prevention results are summarized from a linked earlier paper. This study supplies no new NO-naproxen combination-efficacy arm or BUBR1 restoration. Absence of Bub1b from its selected gene list is not a measured null; chemical and formulation equivalence to naproxen is not assumed.",
+      "evidence_scope": "Source-specific rat bladder-tumor prevention and separate short-treatment RNA experiments, with native table/cell and denominator limits.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/bladder-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.3233/BLC-200423"
+      ]
+    },
+    {
+      "decision_id": "new-zileuton-bladder",
+      "match_aliases": [
+        "zileuton"
+      ],
+      "route": "Zileuton / bladder-tumor RNA comparator",
+      "disposition": "Retain expression comparator; no qualified new prevention or MVA benefit",
+      "rationale": "Short-treatment tumor RNA changes are measured. The stated lack of prevention is attributed to unpublished data rather than a new efficacy table. Myofibril pathway labels are not muscle-performance measurements; no Bub1b selected-list entry, BUBR1 restoration or MVA functional result is established.",
+      "evidence_scope": "Source-specific rat bladder-tumor prevention and separate short-treatment RNA experiments, with native table/cell and denominator limits.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/bladder-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.3233/BLC-200423"
+      ]
     }
   ]
 }

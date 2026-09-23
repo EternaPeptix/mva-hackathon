@@ -1,0 +1,178 @@
+{
+  "date": "2026-09-23",
+  "status": "bounded_primary_qualification",
+  "pmid": "38993610",
+  "pmcid": "PMC11181848",
+  "doi": "10.3233/BLC-200423",
+  "publication_year": 2021,
+  "decision_ids": [
+    "new-lapatinib-bladder",
+    "new-naproxen-bladder",
+    "new-lapatinib-naproxen",
+    "new-erlotinib-bladder",
+    "new-gefitinib-bladder",
+    "new-no-naproxen",
+    "new-zileuton-bladder"
+  ],
+  "decision": "Retain actual tumor-prevention outcomes and separate RNA comparator results; no BUBR1-restoration or MVA-muscle nomination.",
+  "main_table2": {
+    "outcome": "bladder-plus-lesion weight and large/palpable >200mg endpoint",
+    "control": {
+      "n": 34,
+      "mean_mg": 356,
+      "large_percent": 69
+    },
+    "lapatinib": {
+      "n": 29,
+      "mean_mg": 197,
+      "large_percent": 26
+    },
+    "naproxen": {
+      "n": 29,
+      "mean_mg": 185,
+      "large_percent": 23
+    },
+    "combination": {
+      "n": 29,
+      "mean_mg": 137,
+      "large_percent": 0
+    }
+  },
+  "rna": {
+    "scope": "Separate five-day palpable-tumor cohort; five arrays per group in Methods, discussion five to six; gefitinib data reused from previous work.",
+    "combination_arm": false,
+    "naproxen_arm": "NO-naproxen, not naproxen",
+    "original_workbook_cells": [
+      {
+        "file": "blc-7-blc200423-s002.xlsx",
+        "sheet": "Sheet1",
+        "range": "A20:F20",
+        "gene": "Bub1b",
+        "treatment": "erlotinib",
+        "control_mean": 6.3032,
+        "treated_mean": 5.5789,
+        "listed_p": 0.0053614,
+        "listed_signed_fold_change": -1.6521
+      },
+      {
+        "file": "blc-7-blc200423-s003.xlsx",
+        "sheet": "Sheet1",
+        "range": "A19:F19",
+        "gene": "Bub1b",
+        "treatment": "gefitinib",
+        "control_mean": 6.3031915000000005,
+        "treated_mean": 5.407627,
+        "listed_p": 0.00036054577092089427,
+        "listed_signed_fold_change": -1.860337658699664
+      }
+    ],
+    "direction": "Lower tumor Bub1b RNA, not higher BUBR1 protein.",
+    "selected_list_absence": [
+      "lapatinib",
+      "NO-naproxen",
+      "zileuton"
+    ],
+    "absence_scope": "Filtered-list absence is not a null effect.",
+    "union_table": "s005 Sheet1 A241: Bub1b; union of separate treatments, not a combination arm.",
+    "p_value_scope": "Stored per-gene values not relabeled adjusted; source uses inconsistent filtering/correction descriptions."
+  },
+  "unresolved_source_issues": [
+    "Main n34/n29 versus supplement fractions24/35 and8/30 for control/lapatinib; no invented reconciliation.",
+    "OH-BBN methods150mg per gavage twice weekly versus Figure3caption150mg/kg weekly.",
+    "Figure3caption age126DOA inconsistent with stated10week post-carcinogen start.",
+    "Figure3y-axis label suggests incidence while curves/results show tumor freedom.",
+    "No formal synergy or direct combo-versus-monotherapy significance identified.",
+    "No all-histological-lesion, sustained-post-treatment, survival or MVA outcome.",
+    "Randomization/blinding unspecified; unshown body weights not comprehensive safety."
+  ],
+  "root_read_scope": {
+    "complete_scientific_main": [
+      "34e18d",
+      "43ad0d",
+      "679d96"
+    ],
+    "supplement_docx_and_targeted_workbook_headers_cells": [
+      "299065"
+    ],
+    "native_figures": [
+      "Figure3"
+    ],
+    "not_claimed": "All unrelated workbook rows, linked earlier primary papers, raw-array reanalysis."
+  },
+  "primary_assets": [
+    {
+      "file": "11181848.xml",
+      "bytes": 96848,
+      "sha256": "71ca7551d4940a7612182abdcc4868d50cf85a930e6d3492c3ec9e9a0a0c8b9c"
+    },
+    {
+      "file": "38993610-metadata.json",
+      "bytes": 6597,
+      "sha256": "fdcce9e73fa2f5ea2a63c1b0b5a1b6590c5fac2f3fd415bb36350300ccabb923"
+    },
+    {
+      "file": "pubmed-current.xml",
+      "bytes": 38814,
+      "sha256": "b59f473252bdc5e06b5a88ed8f0d6f3a3f6d6864d4d1a69c22122cad02c8d742"
+    },
+    {
+      "file": "11181848-assets.zip",
+      "bytes": 873094,
+      "sha256": "4898c9976f49b92f7aeed5e7ec25918fdda8d354e20315d4d9556cc54ac58ef0"
+    },
+    {
+      "file": "11181848-assets/blc-7-blc200423-s002.xlsx",
+      "bytes": 13630,
+      "sha256": "e7905f7fd6e3a9c08a0ce071af80ab89ac2632c702adb4f06b1d066d817e638f"
+    },
+    {
+      "file": "11181848-assets/blc-7-blc200423-s003.xlsx",
+      "bytes": 45550,
+      "sha256": "86a58265323ae3be6ff343d11d43603a4ae8d473aada1850dd6dd49f059bfb08"
+    },
+    {
+      "file": "11181848-assets/blc-7-blc200423-s004.xlsx",
+      "bytes": 13033,
+      "sha256": "214f9e3d0dea33d857be31d9b6efd1e931cdb3f4f805a9e448aa75bf993516ee"
+    },
+    {
+      "file": "11181848-assets/blc-7-blc200423-s005.xlsx",
+      "bytes": 13451,
+      "sha256": "064908e43c277a75e98e637f63f565a1a01d70699299d21e54053425102268b1"
+    },
+    {
+      "file": "11181848-assets/blc-7-blc200423-s006.xlsx",
+      "bytes": 12591,
+      "sha256": "9ab9ddc6d2100ab11db29587237bf82ec47efaf63ea5fd4c4d138006c93a60a2"
+    },
+    {
+      "file": "11181848-assets/blc-7-blc200423-s007.xlsx",
+      "bytes": 16530,
+      "sha256": "74ce5a3939d3caf3ed5b9391decb949c5aa910b701e3883b554912732831aa7e"
+    },
+    {
+      "file": "11181848-assets/blc-7-blc200423-s001.docx",
+      "bytes": 35071,
+      "sha256": "05f7652a0a8843c4d91dd0dc2d8d0610b40206d65edf603fb57d0268036391aa"
+    },
+    {
+      "file": "11181848-assets/blc-7-blc200423-g003.jpg",
+      "bytes": 89455,
+      "sha256": "d8945eac32581444a2463fe3bd92c04a17848206dda045018bce32cb5395ed70"
+    },
+    {
+      "file": "workbook-extract.json",
+      "bytes": 14457,
+      "sha256": "b716f17e3be3e7ee586165eab0444b8cf1f477064cc4e5e2ac70d38346ef876a"
+    }
+  ],
+  "extra_outer_reading_credit": 0,
+  "clinical_scope": "No patient regimen, MVA efficacy or proof of nominee superiority.",
+  "source_md_sha256": "81dae818f3c56690b790e9cb2ba18e0054f8cae20ea934d817f30b30e5aebf37",
+  "independent_check": {
+    "file": "bladder-independent-check.json",
+    "sha256": "5fe4782720f2ec41ec122b4069166e5b1c8a493a58a0de33b88ccec4568bdf6d",
+    "markdown_sha256": "56783e14fc4db4a6cb89529662e94ce6c4080880b7a12e5d97358207e632a7c1",
+    "scope": "Bounded main Tables1/2, Figures2/3, relevant protocol/RNA sections and native DOCX denominator check; not second full-main read or workbook review."
+  }
+}

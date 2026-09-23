@@ -1,15 +1,17 @@
 {
   "date": "2026-09-23",
   "reviewer": "/root",
-  "scope": "184-appraisal parent replay adds two resveratrol name cross-references in one existing ingredient group. Source fields and six other output tables remain unchanged. No chemical/formulation equivalence, automatic reading or efficacy credit.",
+  "scope": "194-appraisal cached replay preserves every output table and all source fields. No new name relation, reading or efficacy credit.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/resveratrol-followup-20260923/dsld-replay/runs/227feab22c9c39b7432f",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cdc20-prevention-followup-20260923/dsld-replay/runs/78e5fbdb1d9afce03768",
   "historical_ledger_count": 168,
-  "current_ledger_count": 184,
+  "current_ledger_count": 194,
   "unchanged_output_tables": [
     "alias-cells.tsv",
+    "groups.tsv",
     "mentions.tsv",
     "metadata-anomalies.json",
+    "name-crossrefs.tsv",
     "normalized-aliases.tsv",
     "screen-policy.json",
     "source-records.tsv"
@@ -86,7 +88,7 @@
   "name_crossrefs_added": 14,
   "old_name_crossrefs_retained": 6800,
   "current_name_crossrefs": 6814,
-  "current_summary_sha256": "227feab22c9c39b7432f334c0ece72f327b46350f7eee3683fb481e52133f8f2",
+  "current_summary_sha256": "78e5fbdb1d9afce03768b7e3f412e648a703a44da0d469f1f96c7695f87739e4",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -136,42 +138,12 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "from_appraisals": 181,
-    "to_appraisals": 184,
-    "old_name_crossrefs_retained": 6812,
-    "name_crossrefs_added": 2,
-    "group_rows": [
-      {
-        "group_id": "438",
-        "name": "Resveratrol",
-        "before": "[]",
-        "after": "[\"new-resveratrol\"]"
-      }
-    ],
-    "new_name_crossref_rows": [
-      {
-        "group_id": "438",
-        "normalized_alias": "resveratrol",
-        "source_alias_cell_ids": "[\"dsld:438:group_name\",\"dsld:438:synonym:65\"]",
-        "target_layer": "curated_appraisal",
-        "target_id": "new-resveratrol",
-        "target_name_field": "match_aliases",
-        "target_name_as_reported": "resveratrol",
-        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
-        "ambiguity_flags": "[]"
-      },
-      {
-        "group_id": "438",
-        "normalized_alias": "trans resveratrol",
-        "source_alias_cell_ids": "[\"dsld:438:synonym:116\",\"dsld:438:synonym:117\"]",
-        "target_layer": "curated_appraisal",
-        "target_id": "new-resveratrol",
-        "target_name_field": "match_aliases",
-        "target_name_as_reported": "trans-resveratrol",
-        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
-        "ambiguity_flags": "[]"
-      }
-    ]
+    "baseline_commit": "5fb35adf992592c9abd479c1761608a70f7baa55",
+    "prior_appraisals": 184,
+    "current_appraisals": 194,
+    "changed_output_tables": [],
+    "name_crossrefs_added": 0,
+    "new_manual_reading_or_efficacy_credit": 0
   },
   "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
   "result": "PASS",
@@ -2456,10 +2428,10 @@
     }
   },
   "prior_parent_reconciliation": {
-    "commit": "72196c305a758816f7d5beb8749d9320c74566ce",
+    "commit": "5fb35adf992592c9abd479c1761608a70f7baa55",
     "path": "workflow/track2-drug-census/dsld-ingredients/parent-reconciliation.json",
-    "sha256": "9f8bc9fea35dd5d622dc9f8d954403a0fe320f2fddcaf7be28739439a1e172a0",
-    "appraisals": 181
+    "sha256": "c468f40a028d0757f98ab64b8e22b6aaedb76110e8b00542af666450a22c4cb4",
+    "appraisals": 184
   },
   "current_delta_from181": {
     "changed_appraisal_group_rows": [

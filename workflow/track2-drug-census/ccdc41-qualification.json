@@ -1,0 +1,422 @@
+{
+  "schema_version": "bounded-primary-qualification-1",
+  "date": "2026-09-23",
+  "status": "integrated_bounded_source_qualification",
+  "repository_baseline": "5fb35adf992592c9abd479c1761608a70f7baa55",
+  "source": {
+    "pmid": "41331237",
+    "pmcid": "PMC12884753",
+    "doi": "10.1002/advs.202504665",
+    "title": "CCDC41 Drives Oocyte Meiotic Progression by Promoting Rab11a/Rab7-Positive Vesicle Fusion with Target Membranes",
+    "electronic_date_as_saved_PubMed": "2025-12-02",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/",
+    "native_XML_sha256": "5f9828c028fd14c23a90acaa47ca6644eab4c64ed6ff5ce23ae29d363c4301fd",
+    "native_supplement_DOCX_sha256": "d7366343a6983f82a2e49549c221a6ad93cfd65e89975d21f58952b3375feee9",
+    "retrieval_scope": "Root lawfully retrievedofficialEuropePMCXML/supplementaryFiles; thisreview reads/hashes those suppliedbytes, not an independentnetworkretrieval.",
+    "notice_scope": "Inspected current savedPubMed41331237 record has noCommentsCorrections/retractedpublicationlabel. Boundedmetadata only."
+  },
+  "proposed_new_assessments": [
+    {
+      "decision_id": "new-cp5v",
+      "match_aliases": [
+        "CP5V"
+      ],
+      "route": "CP5V / CDC20 degradation and early meiotic resumption",
+      "disposition": "Retain defect-specific early meiotic-resumption comparator; no drug-treated fidelity or MVA rescue established",
+      "rationale": "The 5 µM CDC20-directed PROTAC improves early germinal-vesicle breakdown after Ccdc41 depletion and reverses CDC20/Cyclin B1 changes, with drug-treated normal controls present. This linked degrader is distinct from Apcin. No drug-specific euploidy, fertility, productive lineage or muscle outcome is supplied. Exact pretreatment timing and functional-arm denominators remain limited.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/",
+        "https://doi.org/10.1002/advs.202504665"
+      ],
+      "evidence_scope": "One ex vivo mouse-oocyte primary with Ccdc41 morpholino depletion; native treatment/normal-control panels and limitations qualified. Root full-main reading attributed separately from bounded independent check.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/ccdc41-qualification.md"
+    },
+    {
+      "decision_id": "new-ca-074",
+      "match_aliases": [
+        "CA-074",
+        "CA074"
+      ],
+      "route": "CA-074 / cathepsin-B inhibition in CCDC41-deficient oocytes",
+      "disposition": "Retain partial spindle/checkpoint/timing rescue comparator; no normal-drug-control or MVA efficacy established",
+      "rationale": "At 1 µM, CA-074 reduces abnormal spindle fraction and premature MII and raises MAD1/CREST after Ccdc41 depletion. Timing and MAD1 remain different from control; APC2 is unchanged. No normal drug-treated arm, drug aneuploidy result or BUBR1 restoration assay is supplied. Source HY-103350 identifies CA-074 rather than its methyl ester. Panel lettering and timing discrepancies remain explicit.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/",
+        "https://doi.org/10.1002/advs.202504665"
+      ],
+      "evidence_scope": "One ex vivo mouse-oocyte primary with Ccdc41 morpholino depletion; native treatment/normal-control panels and limitations qualified. Root full-main reading attributed separately from bounded independent check.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/ccdc41-qualification.md"
+    },
+    {
+      "decision_id": "new-concanamycin-a",
+      "match_aliases": [
+        "Concanamycin A"
+      ],
+      "route": "Concanamycin A / V-ATPase inhibition and meiotic timing",
+      "disposition": "Retain restricted timing/marker positive with normal-progression inhibition; no demonstrated spindle-width or MVA rescue",
+      "rationale": "At 115 nM, Concanamycin A reduces premature MII in Ccdc41-depleted oocytes with Cyclin B1/CDC20 and acidification-marker changes. Native S7 labels chromosome-width improvement and APC2 change nonsignificant despite stronger prose. Drug-treated normal controls show near-zero MII at the observed early time. This is Concanamycin, not Concanavalin A; no drug-treated euploidy, fertility or BUBR1 assay establishes faithful rescue.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/",
+        "https://doi.org/10.1002/advs.202504665"
+      ],
+      "evidence_scope": "One ex vivo mouse-oocyte primary with Ccdc41 morpholino depletion; native treatment/normal-control panels and limitations qualified. Root full-main reading attributed separately from bounded independent check.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/ccdc41-qualification.md"
+    }
+  ],
+  "existing_refinement": {
+    "decision_id": "new-mg132",
+    "prior_object": {
+      "decision_id": "new-mg132",
+      "match_aliases": [
+        "MG132",
+        "MG-132"
+      ],
+      "route": "MG132 / proteolysis and mitotic alignment",
+      "disposition": "retain endpoint-specific mechanistic evidence; decline election from these studies",
+      "evidence_scope": "Partial kinetochore primary sections and separately reviewed full rat-muscle primary paper; intervention-specific endpoints and source limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "10micromolar MG132 improves alignment after nocodazole withdrawal in CENP50-deficient chicken cells, but persistent mitosis after drug removal prevents calling it completed fidelity rescue. That source has partial primary-text access and unavailable figure-specific n. Separate primary rat-muscle experiments establish ex vivo anti-proteolysis benefit, not contractile force, systemic treatment or BUB1B rescue. Preserve these positive biochemical endpoints without assigning them to bortezomib or an approved human regimen. Direct synthesis/balance and washout figures in the muscle paper used LLN, not MG132. In [Orr, PMID 27829147](https://pubmed.ncbi.nlm.nih.gov/27829147/) MG132 appears only as arrest machinery: 5 micromolar throughout every photoactivation experiment to prevent mitotic exit, and 5 micromolar for 4 hr to enrich the mitotic population for a western. It therefore bounds every k-MT half-life number in that paper and adds no MG132 benefit or harm. Recorded because the alias rule lands the record on this entry; disposition unchanged.",
+      "source_report": "workflow/track2-drug-census/next576-primary-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2262965/",
+        "https://doi.org/10.1172/JCI119513",
+        "https://pubmed.ncbi.nlm.nih.gov/27829147/"
+      ]
+    },
+    "prior_object_canonical_sha256": "593268313771c952309ca98e1b3585459d27393db7f44893d0dc4c6f3ffb3524",
+    "proposed_object": {
+      "decision_id": "new-mg132",
+      "match_aliases": [
+        "MG132",
+        "MG-132"
+      ],
+      "route": "MG132 / proteolysis and mitotic alignment",
+      "disposition": "retain endpoint-specific mechanistic evidence; decline election from these studies",
+      "evidence_scope": "Partial kinetochore primary sections and separately reviewed full rat-muscle primary paper; intervention-specific endpoints and source limits retained. Additional primary CCDC41-oocyte drug/normal-control figure check, with partial phenotype benefit and persistent/arrest endpoints.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "10micromolar MG132 improves alignment after nocodazole withdrawal in CENP50-deficient chicken cells, but persistent mitosis after drug removal prevents calling it completed fidelity rescue. That source has partial primary-text access and unavailable figure-specific n. Separate primary rat-muscle experiments establish ex vivo anti-proteolysis benefit, not contractile force, systemic treatment or BUB1B rescue. Preserve these positive biochemical endpoints without assigning them to bortezomib or an approved human regimen. Direct synthesis/balance and washout figures in the muscle paper used LLN, not MG132. In [Orr, PMID 27829147](https://pubmed.ncbi.nlm.nih.gov/27829147/) MG132 appears only as arrest machinery: 5 micromolar throughout every photoactivation experiment to prevent mitotic exit, and 5 micromolar for 4 hr to enrich the mitotic population for a western. It therefore bounds every k-MT half-life number in that paper and adds no MG132 benefit or harm. Recorded because the alias rule lands the record on this entry; disposition unchanged. A separate CCDC41-depleted mouse-oocyte study (PMID41331237) adds actual10µM MG132 partial phenotype protection: lower earlyMII and chromosome-region width. EnlargedPB1 and poor spindle migration persist, and normalMG132-treated oocytes have near-zeroMII at the same observedtime. The chromosome-count rescue in this paper is geneticCcdc41cRNA, notMG132. This preserves the positive without claiming completed faithful divisions, BUBR1 restoration, fertility orMVA benefit.",
+      "source_report": "workflow/track2-drug-census/next576-primary-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2262965/",
+        "https://doi.org/10.1172/JCI119513",
+        "https://pubmed.ncbi.nlm.nih.gov/27829147/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/"
+      ]
+    },
+    "preservation": "All prior scientific assertions/URLs retained; newsource adds phenotype andnormal-control limits. No bortezomib orothercompoundobject changed.",
+    "integrated_object": {
+      "decision_id": "new-mg132",
+      "match_aliases": [
+        "MG132",
+        "MG-132"
+      ],
+      "route": "MG132 / proteolysis and mitotic alignment",
+      "disposition": "retain endpoint-specific mechanistic evidence; decline election from these studies",
+      "evidence_scope": "Partial kinetochore primary sections and separately reviewed full rat-muscle primary paper; intervention-specific endpoints and source limits retained. Additional source-qualified CCDC41-oocyte drug/normal-control phenotypes.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "10micromolar MG132 improves alignment after nocodazole withdrawal in CENP50-deficient chicken cells, but persistent mitosis after drug removal prevents calling it completed fidelity rescue. That source has partial primary-text access and unavailable figure-specific n. Separate primary rat-muscle experiments establish ex vivo anti-proteolysis benefit, not contractile force, systemic treatment or BUB1B rescue. Preserve these positive biochemical endpoints without assigning them to bortezomib or an approved human regimen. Direct synthesis/balance and washout figures in the muscle paper used LLN, not MG132. In [Orr, PMID 27829147](https://pubmed.ncbi.nlm.nih.gov/27829147/) MG132 appears only as arrest machinery: 5 micromolar throughout every photoactivation experiment to prevent mitotic exit, and 5 micromolar for 4 hr to enrich the mitotic population for a western. It therefore bounds every k-MT half-life number in that paper and adds no MG132 benefit or harm. Recorded because the alias rule lands the record on this entry; disposition unchanged. A separate CCDC41-depleted mouse-oocyte study (PMID 41331237) adds actual 10 µM MG132 partial phenotype protection: lower early MII and chromosome-region width. Enlarged first polar bodies and poor spindle migration persist, and normal drug-treated oocytes have near-zero MII at the same observation time. Chromosome-count rescue in that paper is genetic Ccdc41 cRNA, not MG132. No completed faithful divisions, BUBR1 restoration, fertility or MVA benefit is established.",
+      "source_report": "workflow/track2-drug-census/next576-primary-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2262965/",
+        "https://doi.org/10.1172/JCI119513",
+        "https://pubmed.ncbi.nlm.nih.gov/27829147/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/"
+      ],
+      "additional_source_reports": [
+        "workflow/track2-drug-census/ccdc41-qualification.md"
+      ]
+    }
+  },
+  "model": {
+    "system": "Exvivo oocytes from3-weekCB6F1mice, withCcdc41morpholino depletion; notBub1b-mutant/MVA model.",
+    "genetic_intervention": "Morpholino-injected oocytes held24hwithmilrinone thenreleased into maturationmedium; geneticrescue usesmyc-Ccdc41cRNA.",
+    "vehicle": "Allstudieddrugs inDMSO; equivalentDMSOcontrol stated, final1:1000orless.",
+    "biological_units": "Oocytes pooledacross at leastthree independentexperiments; donor-mousecount/nesting not reported in inspectedsections. Hundreds ofoocytes, pooledimmunoblotinputs and kinetochoremeasurements do not equate tohundredsofindependentanimals."
+  },
+  "drug_findings": {
+    "CP5V": {
+      "identity": "CDC20-directedVHL-recruitingPROTAC; notApcin monotherapy",
+      "source_catalog": "MCEHY-130257",
+      "nominal_concentration": "5µM",
+      "exposure": "Prior treatmentofGVoocytes;GVBDrates at1/2hIVM; exactpreincubationlength notresolved",
+      "normal_drug_arm_present": true,
+      "source": "MainFig2E–H",
+      "positive": "Ccdc41MO+CP5V earlyGVBDtrajectory approachescontrol; CDC20decreases andCyclinB1increases versusdepletedvehicle.",
+      "limits": "NormalCtrlMO+CP5V included and earlyGVBDremains nearcontrol, but no formal equivalenceclaim. No directCP5V chromosome-count/fertility/cumulativeoutputendpoints. Fig2caption60–150oocytes/sample accompaniesproteinassays; per-armGVBDdenominators notseparatelyspecified.",
+      "replicates": "Atleastthree independentexperiments asreported",
+      "identity_primary": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6945239/ (PMID31669221), abstractandidentitydescription only"
+    },
+    "CA-074": {
+      "identity": "CA-074freeacid, notCA-074methylester",
+      "source_catalog": "MCEHY-103350",
+      "nominal_concentration": "1µM",
+      "normal_drug_arm_present": false,
+      "source": "NativeS9D–J",
+      "positive_comparisons": {
+        "abnormal_spindle_fraction": "MOvsMO+CA-074P<.05;CtrlvsMO+CA-074NS",
+        "MII_rate_at_native_axis10hIVM": "MOvsMO+CA-074P<.05;CtrlvsMO+CA-074P<.05 remains",
+        "MAD1_to_CREST": "MOvsMO+CA-074P<.0001;CtrlvsMO+CA-074P<.0001 remains",
+        "protein": "CDC20decreases andCyclinB1increases inMO+CA-074versusMO",
+        "APC2": "MOvsMO+CA-074NS; noAPC2restoration"
+      },
+      "limits": "Partialrescue;NSspindlecomparisonisnot equivalenceproof. No drugtreatednormalcontrol inS9, drugtreatedchromosomecounts, fertilityorMVAendpoint. Drugexposure schedule notfullydefined."
+    },
+    "ConcanamycinA": {
+      "identity": "ConcanamycinA(V-ATPaseinhibitor), notconcanavalinA",
+      "source_catalog": "MCEHY-N1724",
+      "nominal_concentration": "115nM",
+      "reported_exposure": "Main describes5hincubation afterGVBD, withproteins assessed6hpostGVBD; timingnotfullyalignedwithMIIaxis10hIVM",
+      "normal_drug_arm_present": true,
+      "source": "NativeS7/S8",
+      "positive": "S7CMOvsMO+ConAMIIrateP<.001, approachingCtrl atoneearlytime;CyclinB1/CDC20proteinchanges;S8DND-189/MagicReddecreases inMO+ConA.",
+      "nulls_and_costs": [
+        "S7Bchromosome-regionwidthMOvsMO+ConANS despiteprose significancespindleclaim.",
+        "S7CMIIinCtrlMO+ConAnearlyzero, versusuntreatedCtrlP<.0001; thisdemonstratesnormalprogressionperturbation attheobservedtime, not a clinicaltoxicityclaim.",
+        "S7EAPC2MOvsMO+ConANS despiteproseclaimofdecrease.",
+        "S7WBdoesnotincludeCtrlMO+ConAlane."
+      ],
+      "scope": "Retainlimitedtiming/markerpositive; do not callfullyrestoredspindle/normalmeiosis."
+    },
+    "MG132": {
+      "identity": "Proteasomeinhibitor, sourceTargetmolT2154",
+      "nominal_concentration": "10µM",
+      "source": "NativeS4F–J",
+      "normal_drug_arm_present": true,
+      "positive": "LowersMOearlyMIIrate andchromosome-regionwidth;sourcepartialrescue",
+      "nulls_and_costs": [
+        "NormalCtrlMO+MG132MIIisnearzero at10hIVM.",
+        "EnlargedPB1andspindlemigrationdefects remain:MOvsMO+MG132NSforboth;treatedMOstilldiffersfromCtrl.",
+        "ZeroPB1metricinnormalMG132armcoincideswithnear-zeroMII; cannotinterpretascleanPB1normalization."
+      ],
+      "scope": "Sourcephenotype/normal-controlconstraint only; no newstandaloneappraisalassigned."
+    }
+  },
+  "denominators_as_reported": {
+    "S4G-J_caption": {
+      "CtrlMO": 91,
+      "Ccdc41MO": 132,
+      "CtrlMO_MG132": 108,
+      "Ccdc41MO_MG132": 111,
+      "unit": "oocytes; onecaptiongroupsseveralmetrics, per-metricdenominatorclaritylimited"
+    },
+    "S7B_width": {
+      "CtrlMO": 96,
+      "Ccdc41MO": 102,
+      "CtrlMO_ConA": 98,
+      "Ccdc41MO_ConA": 97
+    },
+    "S7C_MII": {
+      "CtrlMO": 82,
+      "Ccdc41MO": 78,
+      "CtrlMO_ConA": 88,
+      "Ccdc41MO_ConA": 93
+    },
+    "S9_MII_caption_corrected_panelF": {
+      "CtrlMO": 75,
+      "Ccdc41MO": 63,
+      "Ccdc41MO_CA074": 68
+    },
+    "S9_abnormalspindle_caption_corrected_panelE": {
+      "CtrlMO": 86,
+      "Ccdc41MO": 91,
+      "Ccdc41MO_CA074": 92
+    },
+    "S9_MAD1caption_corrected_panelH": {
+      "CtrlMO": 315,
+      "Ccdc41MO": 272,
+      "Ccdc41MO_CA074": 299,
+      "unit_limit": "Captioncallstheseoocytes, butcentromere/kinetochoreintensityquantificationandnestingareinsufficientlydefined; preserveasreported, not independentdonorcounts."
+    },
+    "S4_S7_S9_blots": "90oocytesperpooledsample, repeatedthreeexperiments; S9caption4hpostGVBD.",
+    "Fig5_aneuploidy": {
+      "CtrlMO": 24,
+      "Ccdc41MO": 22,
+      "Ccdc41MO_cRNA": 21,
+      "drug_rescue_arm": false
+    }
+  },
+  "source_issues": {
+    "S9_lettering_map": {
+      "A-C": "geneticCtsbMOfluorescencepanels",
+      "D": "CA074spindleimages; captionsecondA",
+      "E": "abnormalspindlequantification; captionsecondC",
+      "F": "MIIquantification; captionsecondB",
+      "G": "MAD1images; captionsecondE",
+      "H": "MAD1ratio; captionsecondD",
+      "I": "WB; captionsecondF",
+      "J": "combinedproteinquantification; captionG-I"
+    },
+    "S9_genetic_control_label": "CaptionfirstthirdarmCtrlMO+CtsbMO; nativeimageCcdc41MO+CtsbMO. No silentbiological reassignment.",
+    "timing_conflicts": [
+      "S9mainMAD1text8h versuscaption6hpostGVBD; Westerncaption4hpostGVBD.",
+      "S4G/S7C/S9Faxes10hIVM, captions10hwithoutconsistentclock; mainFig8explicitlyequates8hpostGVBDwith10hIVM. Do not silentlycallall10hpostGVBD.",
+      "S2nativeBFApanel15min versusmainparagraph7hBFAand18minrecovery; incidentalnotusedfordrugrescueconclusions."
+    ],
+    "S7_order": "NativeS7orderCtrl,Ctrl+ConA,MO,MO+ConA differscaptionlistingorder; mapbylabels, notpositionassumption.",
+    "figure_file_mapping": {
+      "Figure2": "ADVS-13-e04665-g005.jpg",
+      "Figure5": "ADVS-13-e04665-g002.jpg"
+    },
+    "NS_is_not_equivalence": true
+  },
+  "mechanistic_boundary": {
+    "BUBR1": "BubR1isreferencedinthehypothesizedSirt1–BubR1–CDH1bridge. NoBubR1antibodyorBUB1B/BUBR1treatmentmeasurementidentifiedininspectedmethods/treatmentfigures.",
+    "measured_other_factors": "CDC20,CyclinB1,CDH1,pCDK1,Sirt1,MAD1/BUB3andlysosomalmarkers differinvariousdrugorgeneticarms; these are not interchangeablewithBUBR1protein.",
+    "chromosome_counts": "Fig5geneticCcdc41/cRNAexperimenthasaneuploidycounts; cannottransferthatrescuetoCP5V,CA074,ConAorMG132.",
+    "functional_limit": "EarlyGVBD/MIIchronologyandfixedspindle/SACmarkersarecell-functionphenotypes, butlowerprematureMII canreflectdelay/arrest. No drugcompletedfaithfuldivision/fertility,normalrenewal,muscleorMVAbenefit shown."
+  },
+  "other_experimental_reagents": {
+    "BafilomycinA1": "Printed200µM, preserved as source value; experimental-use mention only, no newappraisal ordosecorrection",
+    "BrefeldinA": "Printed20µM; experimental-use mention only. SupplementalBFA15min image conflictswithmain7h exposure/18min recovery.",
+    "clinical_guidance": false
+  },
+  "reading_scope": {
+    "root_attributed": "Parent/root states full scientific XML read in6parts andcompleteDOCXtext; this declaration is not independent fulltext credit.",
+    "independent": {
+      "scope": "Bounded independent treatment/control/denominator check, not a second full-main-paper review.",
+      "full_native_supplement_text_read": true,
+      "supplement_text": {
+        "file": "supplement-text.txt",
+        "sha256": "9a9890e62ffff142f694a7262af09f05e574694f4a017db6772e1c14dd75f831",
+        "tool_output_chunk": "6e40d2",
+        "endmarker_observed": true
+      },
+      "targeted_main_parts": [
+        {
+          "file": "targeted-part1.txt",
+          "sha256": "38b3f808485626bfebc91252095a297daceea5fbd59d261409e09394803d11f5",
+          "tool_output_chunk": "33ef83",
+          "untruncated_endmarker_observed": true
+        },
+        {
+          "file": "targeted-part2.txt",
+          "sha256": "d1a5d1a23885e991ca2e3767280f37446ba1e3d759f40fd8fd0b85214e606ac6",
+          "tool_output_chunk": "f19d48",
+          "untruncated_endmarker_observed": true
+        },
+        {
+          "file": "targeted-part3.txt",
+          "sha256": "fb1906225941a61e08c0a58a5f652e1e62727e6b9882b8cdc148a521a5584edc",
+          "tool_output_chunk": "64d47b",
+          "untruncated_endmarker_observed": true
+        }
+      ],
+      "additional_timing_and_morpholino_methods_output": "efd6fc",
+      "metadata_output": "347fe0",
+      "native_main_figures_visually_inspected": {
+        "Figure2": "ADVS-13-e04665-g005.jpg",
+        "Figure5": "ADVS-13-e04665-g002.jpg"
+      },
+      "supplementary_figures_visually_inspected": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "inspection_method": "Native embeddedTIFFs composited onto white for legible transparency; S8EMF viewed viaLibreOffice-derivedPDFpage14. Figure-panel comparisons taken from native image content, not digitized values.",
+      "derived_PDF_scope": "17-page generatedPDF; onlypage14 visually read. Other supplementimages were inspected directly.",
+      "video_read": false,
+      "truncated_attempt_not_counted": "66b082; replaced bythree complete boundedoutputs",
+      "original_CP5V_paper": "Identity/abstract and relevantPROTAC distinction from official primaryweb result; not a full qualification of its cancer experiments.",
+      "automatic_outer_credit": 0,
+      "reviewer_performed_biological_replication": false
+    },
+    "root_native_figures": [
+      "Main Figure2",
+      "Supplement S4",
+      "Supplement S7",
+      "Supplement S9"
+    ]
+  },
+  "independent_check": {
+    "file": "independent-check.json",
+    "sha256": "eda2294736805cc3f910169ebf33c0df17e77a5bc648e5d416a1ac9dddbe5d6a",
+    "markdown_file": "independent-check.md",
+    "markdown_sha256": "812e575c0c28fb1b85783ce69b0e8f7919fde08ba35bce227faa1334d573292b"
+  },
+  "asset_manifest": {
+    "file": "asset-manifest.json",
+    "sha256": "c2b7073953a5b246e1fb4d2af3c1f90c423013b143ba21a645f1d213a5c2016b"
+  },
+  "repository_modified": true,
+  "automatic_outer_credit": 0,
+  "integrated_appraisal_count_change": 3,
+  "reviewer_performed_biological_replication": false,
+  "unresolved": [
+    "Drug-treatedchromosomecounts/fertility and productivecelloutput",
+    "BUBR1 quantity/function and causalSirt1-BubR1link in thismodel",
+    "NormalCA074control and longer-termnormaldrugprogression",
+    "ExactCP5V/CA074exposuretiming anddonor-levelreplication",
+    "Source timing, panel lettering anddenominator-unit ambiguities"
+  ],
+  "source_md_sha256": "fb2078363d90d3d8730d327842832456b56b9e95e3fc190d8689775e30fc5c82",
+  "original_draft_md_sha256": "724fbc0f329a4934fb9f7e23501e7bce4c8fe341a564fcda60b8ce9e888678f1",
+  "extra_outer_reading_credit": 0,
+  "integration": {
+    "baseline": "5fb35adf992592c9abd479c1761608a70f7baa55",
+    "new_appraisals": 3,
+    "refined_existing": "new-mg132",
+    "scope": "Actual source-specific drug phenotypes; no MVA efficacy."
+  },
+  "integrated_new_assessments": [
+    {
+      "decision_id": "new-cp5v",
+      "match_aliases": [
+        "CP5V"
+      ],
+      "route": "CP5V / CDC20 degradation and early meiotic resumption",
+      "disposition": "Retain defect-specific early meiotic-resumption comparator; no drug-treated fidelity or MVA rescue established",
+      "rationale": "The 5 µM CDC20-directed PROTAC improves early germinal-vesicle breakdown after Ccdc41 depletion and reverses CDC20/Cyclin B1 changes, with drug-treated normal controls present. This linked degrader is distinct from Apcin. No drug-specific euploidy, fertility, productive lineage or muscle outcome is supplied. Exact pretreatment timing and functional-arm denominators remain limited.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/",
+        "https://doi.org/10.1002/advs.202504665"
+      ],
+      "evidence_scope": "One ex vivo mouse-oocyte primary with Ccdc41 morpholino depletion; native treatment/normal-control panels and limitations qualified. Root full-main reading attributed separately from bounded independent check.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/ccdc41-qualification.md"
+    },
+    {
+      "decision_id": "new-ca-074",
+      "match_aliases": [
+        "CA-074",
+        "CA074"
+      ],
+      "route": "CA-074 / cathepsin-B inhibition in CCDC41-deficient oocytes",
+      "disposition": "Retain partial spindle/checkpoint/timing rescue comparator; no normal-drug-control or MVA efficacy established",
+      "rationale": "At 1 µM, CA-074 reduces abnormal spindle fraction and premature MII and raises MAD1/CREST after Ccdc41 depletion. Timing and MAD1 remain different from control; APC2 is unchanged. No normal drug-treated arm, drug aneuploidy result or BUBR1 restoration assay is supplied. Source HY-103350 identifies CA-074 rather than its methyl ester. Panel lettering and timing discrepancies remain explicit.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/",
+        "https://doi.org/10.1002/advs.202504665"
+      ],
+      "evidence_scope": "One ex vivo mouse-oocyte primary with Ccdc41 morpholino depletion; native treatment/normal-control panels and limitations qualified. Root full-main reading attributed separately from bounded independent check.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/ccdc41-qualification.md"
+    },
+    {
+      "decision_id": "new-concanamycin-a",
+      "match_aliases": [
+        "Concanamycin A"
+      ],
+      "route": "Concanamycin A / V-ATPase inhibition and meiotic timing",
+      "disposition": "Retain restricted timing/marker positive with normal-progression inhibition; no demonstrated spindle-width or MVA rescue",
+      "rationale": "At 115 nM, Concanamycin A reduces premature MII in Ccdc41-depleted oocytes with Cyclin B1/CDC20 and acidification-marker changes. Native S7 labels chromosome-width improvement and APC2 change nonsignificant despite stronger prose. Drug-treated normal controls show near-zero MII at the observed early time. This is Concanamycin, not Concanavalin A; no drug-treated euploidy, fertility or BUBR1 assay establishes faithful rescue.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884753/",
+        "https://doi.org/10.1002/advs.202504665"
+      ],
+      "evidence_scope": "One ex vivo mouse-oocyte primary with Ccdc41 morpholino depletion; native treatment/normal-control panels and limitations qualified. Root full-main reading attributed separately from bounded independent check.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/ccdc41-qualification.md"
+    }
+  ],
+  "integrated_by": "/root",
+  "independent_reviewer_modified_repository": false
+}
