@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 177
+  --out /path/dsld-replay --expected-appraisals 179
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -104,4 +104,6 @@ does not confer its findings on the parent caffeic-acid group.
 
 The preceding **174-appraisal replay** preserves all eight output tables byte-for-byte against the 172-entry snapshot: **6,805 name cross-references and 65 appraisal-linked ingredient groups** remain. Both previous parent reconciliations stay historical. Neither new Claramine nor Nutlin-3a appraisal creates an ingredient-name match or extra reading credit.
 
-The current **177-appraisal replay** adds five exact name links to selenomethionine across three source groups, for **6,810 cross-references and 68 appraisal-linked groups**. Source fields and six other outputs remain unchanged. Group147 is reported as Selenium but matches through a seleno-L-methionine synonym; this does not equate all selenium forms or products. Repeated Selenomethionine groups2384/7901 are source IDs, not distinct molecules. Historical parent reconciliations and independent source reviews remain preserved; no extra reading or efficacy credit follows.
+The preceding **177-appraisal replay** adds five exact name links to selenomethionine across three source groups, for **6,810 cross-references and 68 appraisal-linked groups**. Source fields and six other outputs remain unchanged. Group147 is reported as Selenium but matches through a seleno-L-methionine synonym; this does not equate all selenium forms or products. Repeated Selenomethionine groups2384/7901 are source IDs, not distinct molecules. Historical parent reconciliations and independent source reviews remain preserved; no extra reading or efficacy credit follows.
+
+The current **179-appraisal replay** adds two capsaicin name links, for **6,812 cross-references and 70 appraisal-linked groups**. Groups 3951 (Capsaicin) and 3807 (Capsaisin) share that alias; the original spelling and synonym relation are preserved without inferring product or dietary equivalence. The tested glucosamine/chondroitin combination is not equated to either ingredient alone. All source fields and six other outputs remain unchanged, with no new reading or efficacy credit.
