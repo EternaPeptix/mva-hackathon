@@ -1,11 +1,11 @@
 {
   "date": "2026-09-23",
   "reviewer": "/root",
-  "scope": "219-assessment replay adds two exact L-ascorbic-acid synonym relations in existing Vitamin C groups. All source fields and six other output tables are unchanged; names do not establish preparation equivalence or efficacy.",
+  "scope": "222-assessment replay adds six exact CoQ10/spermidine name relations across four existing source groups. All source fields and six other output tables are unchanged; generic Polyamine and unspecified mitoquinone salt do not inherit chemical or efficacy equivalence.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-functional-integration-20260923/dsld-replay/runs/cddd916b57f8c8234f47",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/reproductive-functional-integration-20260923/dsld-replay/runs/39b79e26dfc36f1429fd",
   "historical_ledger_count": 168,
-  "current_ledger_count": 219,
+  "current_ledger_count": 222,
   "unchanged_output_tables": [
     "alias-cells.tsv",
     "mentions.tsv",
@@ -29,10 +29,22 @@
       "after": "[\"new-capsaicin\"]"
     },
     {
+      "group_id": "7126",
+      "name": "Coenzyme Q10",
+      "before": "[]",
+      "after": "[\"new-coq10\"]"
+    },
+    {
       "group_id": "2377",
       "name": "Curcumin",
       "before": "[]",
       "after": "[\"new-curcumin-cdc27\"]"
+    },
+    {
+      "group_id": "7127",
+      "name": "Coenzyme Q-10",
+      "before": "[]",
+      "after": "[\"new-coq10\"]"
     },
     {
       "group_id": "3807",
@@ -47,6 +59,12 @@
       "after": "[\"new-curcumin-cdc27\"]"
     },
     {
+      "group_id": "7134",
+      "name": "CoQ10",
+      "before": "[]",
+      "after": "[\"new-coq10\"]"
+    },
+    {
       "group_id": "8775",
       "name": "Diclofenac",
       "before": "[]",
@@ -57,6 +75,12 @@
       "name": "Geranylgeraniol",
       "before": "[]",
       "after": "[\"new-trans-geranylgeraniol-source\"]"
+    },
+    {
+      "group_id": "7793",
+      "name": "Polyamine (unspecified)",
+      "before": "[]",
+      "after": "[\"new-spermidine-reproduction\"]"
     },
     {
       "group_id": "438",
@@ -137,10 +161,10 @@
       "after": "[\"new-10-hda\"]"
     }
   ],
-  "name_crossrefs_added": 23,
+  "name_crossrefs_added": 29,
   "old_name_crossrefs_retained": 6800,
-  "current_name_crossrefs": 6823,
-  "current_summary_sha256": "cddd916b57f8c8234f47b1324a8207f87afa1c9f667a90d568e801efc99897a0",
+  "current_name_crossrefs": 6829,
+  "current_summary_sha256": "39b79e26dfc36f1429fdfcfd46e6964565167545bb06395f5012cddf75033286",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -190,52 +214,108 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "baseline_commit": "d88488855307c35ec9230853b77edfaf8e482800",
-    "prior_appraisals": 216,
-    "current_appraisals": 219,
+    "baseline_commit": "b7c292408b99afc80493a8cb462e929caff9ed04",
+    "prior_appraisals": 219,
+    "current_appraisals": 222,
     "changed_output_tables": [
       "groups.tsv",
       "name-crossrefs.tsv"
     ],
     "changed_appraisal_group_rows": [
       {
-        "group_id": "10",
-        "name": "Vitamin C (ascorbic acid)",
+        "group_id": "7126",
+        "name": "Coenzyme Q10",
         "before": "[]",
-        "after": "[\"new-l-ascorbic-acid\"]"
+        "after": "[\"new-coq10\"]"
       },
       {
-        "group_id": "3428",
-        "name": "Vitamin C",
+        "group_id": "7127",
+        "name": "Coenzyme Q-10",
         "before": "[]",
-        "after": "[\"new-l-ascorbic-acid\"]"
+        "after": "[\"new-coq10\"]"
+      },
+      {
+        "group_id": "7134",
+        "name": "CoQ10",
+        "before": "[]",
+        "after": "[\"new-coq10\"]"
+      },
+      {
+        "group_id": "7793",
+        "name": "Polyamine (unspecified)",
+        "before": "[]",
+        "after": "[\"new-spermidine-reproduction\"]"
       }
     ],
     "added_name_crossrefs": [
       {
-        "group_id": "10",
-        "normalized_alias": "l ascorbic acid",
-        "source_alias_cell_ids": "[\"dsld:10:synonym:8\"]",
+        "group_id": "7126",
+        "normalized_alias": "coenzyme q10",
+        "source_alias_cell_ids": "[\"dsld:7126:group_name\",\"dsld:7126:synonym:4\"]",
         "target_layer": "curated_appraisal",
-        "target_id": "new-l-ascorbic-acid",
+        "target_id": "new-coq10",
         "target_name_field": "match_aliases",
-        "target_name_as_reported": "L-ascorbic acid",
+        "target_name_as_reported": "Coenzyme Q10",
         "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
         "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
       },
       {
-        "group_id": "3428",
-        "normalized_alias": "l ascorbic acid",
-        "source_alias_cell_ids": "[\"dsld:3428:synonym:18\"]",
+        "group_id": "7127",
+        "normalized_alias": "coenzyme q10",
+        "source_alias_cell_ids": "[\"dsld:7127:synonym:28\",\"dsld:7127:synonym:30\"]",
         "target_layer": "curated_appraisal",
-        "target_id": "new-l-ascorbic-acid",
+        "target_id": "new-coq10",
         "target_name_field": "match_aliases",
-        "target_name_as_reported": "L-ascorbic acid",
+        "target_name_as_reported": "Coenzyme Q10",
         "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
         "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
+      },
+      {
+        "group_id": "7126",
+        "normalized_alias": "coq10",
+        "source_alias_cell_ids": "[\"dsld:7126:synonym:7\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-coq10",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "CoQ10",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
+      },
+      {
+        "group_id": "7127",
+        "normalized_alias": "coq10",
+        "source_alias_cell_ids": "[\"dsld:7127:synonym:49\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-coq10",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "CoQ10",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
+      },
+      {
+        "group_id": "7134",
+        "normalized_alias": "coq10",
+        "source_alias_cell_ids": "[\"dsld:7134:group_name\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-coq10",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "CoQ10",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
+      },
+      {
+        "group_id": "7793",
+        "normalized_alias": "spermidine",
+        "source_alias_cell_ids": "[\"dsld:7793:synonym:0\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-spermidine-reproduction",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "spermidine",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[]"
       }
     ],
-    "name_crossrefs_added": 2,
+    "name_crossrefs_added": 6,
     "new_manual_reading_or_efficacy_credit": 0
   },
   "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
@@ -2521,10 +2601,10 @@
     }
   },
   "prior_parent_reconciliation": {
-    "commit": "d88488855307c35ec9230853b77edfaf8e482800",
+    "commit": "b7c292408b99afc80493a8cb462e929caff9ed04",
     "repo_relative": "workflow/track2-drug-census/dsld-ingredients/parent-reconciliation.json",
-    "sha256": "a3a3302e0ebe8895db5df5e876a9116b5a7437ba6ac0c24662eda5c318559cbc",
-    "appraisals": 216
+    "sha256": "edfca390b012c0b8afde94311996de53e1583350e59922befe2cf81576dc02d9",
+    "appraisals": 219
   },
   "current_delta_from181": {
     "changed_appraisal_group_rows": [

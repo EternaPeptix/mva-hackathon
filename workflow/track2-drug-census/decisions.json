@@ -699,11 +699,11 @@
         "vitamin K2"
       ],
       "route": "vitamin-k2",
-      "disposition": "Formulation-unresolved neuroprotective reserve",
-      "evidence_scope": "Selected primary-source appraisal; access/model limits in linked review. Not an all-literature efficacy assessment.",
+      "disposition": "Formulation-unresolved neuroprotective reserve with BUB1B molecular response",
+      "evidence_scope": "Partial exact-source qualification: official abstract, complete authenticated supplement and native main Figures1–5; scientific main/Methods and main captions inaccessible. Not an all-literature efficacy assessment.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Neonatal anesthesia-injury model; BUB1B one restored hub gene, no causal MVA rescue established. Do not transfer vitamin-family result to a particular menaquinone medicine.",
-      "source_report": "workflow/track2-drug-census/decision-report.md",
+      "rationale": "VK2 pretreatment before neonatal surgery/fentanyl/sevoflurane exposures protected P30 behavior and accompanied recovery of NAc Bub1b mRNA and BUB1B-labeled normalized immunofluorescence (S3:3 mice/group). This exceeds hub membership alone but does not establish functional BubR1 per-cell restoration, stabilization, causal dependence or MVA rescue; altered tissue composition may contribute. Exact subtype, dose, route and assay specificity remain unresolved; uninjured ±VK2 comparisons were nonsignificant. Do not transfer the vitamin-family result to a particular menaquinone medicine.",
+      "source_report": "workflow/track2-drug-census/vitamin-k2-neonatal-qualification.md",
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/40273626/"
       ]
@@ -3882,6 +3882,62 @@
       "shared_primary_evidence_with": [
         "prior-28"
       ]
+    },
+    {
+      "decision_id": "new-coq10",
+      "match_aliases": [
+        "Coenzyme Q10",
+        "CoQ10"
+      ],
+      "route": "CoQ10 / reproductive-function and oocyte-quality comparator",
+      "disposition": "retain normal-tissue reproductive-function reserve; human oral efficacy and BUB1B-MVA rescue unestablished",
+      "evidence_scope": "Full available mouse/oral scientific mains qualified by source reviewer; independent Methods/Results, key native figures and actual DOCX check. Human IVM source is complete-abstract-only; linked commentary body inaccessible. No new unique or outer-corpus credit.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Aged mice given 22 mg/kg subcutaneous CoQ10 in sesame oil three times weekly for at least 12 weeks showed improved follicle/ovulation measures, spindle/chromosome alignment and live-pup litter size. Litter-size analysis conditions on 15/21 control and 11/12 treated dams that delivered; it is not a proven all-enrolled pregnancy-rate effect. A separate Pdss2-deficient developmental-rescue arm used LiQsorb 0.4 mg/mL drinking water and partially improved ovarian/mitochondrial/alignment endpoints, without treated-mutant live-birth rescue. Bub1b RNA was assayed in S2A without a significant positive result; BubR1 protein restoration was not measured. The small 600 mg/day oral human randomized trial showed no significant outcome difference and retains attrition/denominator inconsistencies. The 50 µmol/L human IVM abstract reports older-donor maturation and polar-body chromosome positives, but full-text donor/assay/formulation details remain unavailable. None demonstrates MVA compensation or nominee superiority.",
+      "source_report": "workflow/track2-drug-census/coq10-reproduction-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4568976/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4071761/",
+        "https://pubmed.ncbi.nlm.nih.gov/32646587/"
+      ],
+      "identity_limit": "Source-reported CoQ10 preparations; no independent authentication of redox state, purity or batch equivalence across injectable CoQ10, LiQsorb, oral AOR softgels and IVM reagent. Exact-name catalog join CHEMBL454801 supplies no ubiquinol/MitoQ, retail-availability or clinical-product-equivalence claim."
+    },
+    {
+      "decision_id": "new-spermidine-reproduction",
+      "match_aliases": [
+        "spermidine"
+      ],
+      "route": "Spermidine / aged-mouse reproductive-function and meiotic-fidelity comparator",
+      "disposition": "retain preclinical reproductive-function comparator; no BubR1-supply or MVA rescue established",
+      "evidence_scope": "Partial primary qualification of PMID 37845508: all main/Extended Data captions, full scientific supplement and reporting summary, selected native figures and exact target source-data cells read. Main narrative/Methods subscription-blocked; no full-primary or outer-corpus credit.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Sigma-Aldrich spermidine (salt, catalog and purity unresolved) at 50 mg/kg/day intraperitoneally in PBS for 10 days improved reproductive function in 52–56-week ICR females. Source means for litter size were 3.03→5.34 pups/litter versus 14.47 young (P=.003, n=9 females/group); fractional source entries leave averaging interval and litters/female unresolved. MII aneuploidy decreased 31.84%→22.61% (P=.0162, n=69/62 aged/treated oocytes; four source percentages/group), alongside fertilization and blastocyst gains. A separate 3 mM drinking-water 30-day arm decreased aneuploidy 29.46%→19.83% (P=.0265, n=68/65 oocytes), but no oral birth benefit is established. In-vitro mouse chromosome counts and K–M attachment improve; selected Fig. 5 dose remains unverified despite an accessible 25/50/100 µM screen. Primordial/primary/secondary follicle counts were null; several doses were null. No randomization/blinding and unresolved donor/batch/embryo denominators limit inference. Official transcriptome row 2332 measures Bub1b RNA with log2(spermidine/aged)=−.5400807590, nominal P=.0064987051 and Q=.1012831891: lower normalized RNA, not an FDR-significant drug response or increased BubR1 supply. No BubR1-specific protein/function response, BUB1B genetic rescue, MVA or human benefit is established. Mdivi-1 pharmacological attenuation supports but does not uniquely prove the proposed mitophagy mechanism. This actual preclinical reproductive/chromosome-fidelity evidence is distinct from niacin’s provisional supply hypothesis and apitegromab’s SMA compensation context; no superiority, ovarian-reserve restoration or comprehensive offspring safety is established.",
+      "source_report": "workflow/track2-drug-census/spermidine-reproduction-qualification.md",
+      "source_urls": [
+        "https://www.nature.com/articles/s43587-023-00498-8",
+        "https://www.nature.com/articles/s43587-023-00498-8/figures/2",
+        "https://www.nature.com/articles/s43587-023-00498-8/figures/3",
+        "https://www.nature.com/articles/s43587-023-00498-8/figures/11",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239551"
+      ],
+      "identity_limit": "Exact spermidine name only; no SPD/Spd alias and no assumed salt. Catalog CHEMBL19612 and NIH DSLD group 7793 Polyamine (unspecified) are identity-retrieval links, not transfer of efficacy to every polyamine, food or retail preparation, and not approval or availability proof."
+    },
+    {
+      "decision_id": "new-mitoquinone-reproduction",
+      "match_aliases": [
+        "mitoquinone"
+      ],
+      "route": "Mitoquinone / developmental protection during oocyte culture stress",
+      "disposition": "retain preclinical developmental-function comparator; BUB1B restoration and human or MVA efficacy unestablished",
+      "evidence_scope": "Full published scientific main and scientific supplements qualified by source reviewer. Root separately read Methods, Results and Discussion and inspected key native figures/tables; no whole-primary or outer-reading credit inherited.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Cayman mitoquinone at 25 nM during 18-hour mouse oocyte maturation improved later blastocyst development, hatching and inner-cell-mass percentage after a concurrent 20% oxygen challenge. Native Figure 6 A/B labels reverse the caption; actual endpoint mapping is retained. Low-oxygen treatment comparisons were nonpositive, and maturation/fertilization comparisons were nonsignificant. The separate aged-mouse arm increased PRKN and phospho-PRKN measurements; it does not supply the developmental experiment. Colocalization is not direct mitophagy flux or a causal-dependence assay. The human arm compares untreated age groups and supplies no human drug effect. No current-paper BUB1B, nuclear chromosome-count or live-birth result is established. This normal-cell developmental benefit merits a distinct comparator, without transferring ordinary CoQ10 evidence, a specified salt, oral exposure, retail formulation or nominee superiority.",
+      "source_report": "workflow/track2-drug-census/mitoquinone-reproduction-qualification.md",
+      "source_urls": [
+        "https://academic.oup.com/molehr/article/29/9/gaad028/7245865",
+        "https://oup.silverchair-cdn.com/article-minimal/7245865"
+      ],
+      "identity_limit": "Exact mitoquinone name joins CHEMBL1229093; supplier Cayman is specified but salt/counterion, catalog number, stock solvent and formulation are unresolved. This name relation does not establish mesylate, ordinary CoQ10, approval or current availability equivalence."
     }
   ]
 }

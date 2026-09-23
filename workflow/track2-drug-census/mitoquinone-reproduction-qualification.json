@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "source": {
+    "id": "37594790",
+    "source": "MED",
+    "pmid": "37594790",
+    "pmcid": null,
+    "doi": "10.1093/molehr/gaad028",
+    "title": "Control of mitochondrial integrity influences oocyte quality during reproductive aging.",
+    "authorString": "Khan SA, Reed L, Schoolcraft WB, Yuan Y, Krisher RL.",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    },
+    "publicationStatus": "ppublish",
+    "commentCorrectionList": null,
+    "versionList": null,
+    "firstPublicationDate": "2023-08-01"
+  },
+  "source_url": "https://academic.oup.com/molehr/article/29/9/gaad028/7245865",
+  "verdict": {
+    "classification": "Preclinical developmental-function comparator under oxidative challenge",
+    "actual_function_positive": true,
+    "human_treated_efficacy": false,
+    "BUB1B_restoration_established": false,
+    "MVA_compensation_established": false,
+    "ordinary_CoQ10_equivalence": false,
+    "summary": "Retain subsequent blastocyst/hatching/ICM-percentage benefits from concurrent MQ exposure during high-oxygen mouse IVM, while preserving maturation/fertilization and low-oxygen nulls. PRKN protein responses support a different target hypothesis, not BubR1 restoration."
+  },
+  "compound": {
+    "source_name": "mitoquinone",
+    "source_abbreviation": "MQ",
+    "supplier": "Cayman Chemicals, Ann Arbor, MI, USA",
+    "source_structure_description": "Synthetic ubiquinone moiety linked to lipophilic triphenylphosphonium cation",
+    "catalog_number": null,
+    "salt_or_counterion": null,
+    "batch_purity": null,
+    "stock_solvent": null,
+    "matched_vehicle_control": null,
+    "formulation_limit": "Source does not establish mesylate/bromide identity, a current retail MitoQ preparation or ordinary CoQ10 equivalence. No forced catalog join."
+  },
+  "exposure": {
+    "concentration_nM": 25,
+    "duration_hours": 18,
+    "route": "Culture-medium addition during mouse cumulus-oocyte-complex IVM",
+    "culture_drop_uL": 50,
+    "COCs_per_treatment_reported": "10–12",
+    "temperature_C": 37,
+    "normal_oxygen_percent": 6.5,
+    "normal_CO2_percent": 7.5,
+    "altitude_note": "Authors describe normal conditions as equivalent to5% O2/6% CO2 at sea level.",
+    "high_oxygen_percent": 20,
+    "experimental_arms": [
+      "low O2 without MQ",
+      "low O2 with MQ",
+      "high O2 without MQ",
+      "high O2 with MQ"
+    ],
+    "timing": "MQ and oxygen challenge concurrent during IVM; not delayed repair of separately established damage.",
+    "post_IVM": "MII selected by polar body; IVF with1×10^6 BDF1 sperm/mL; two-pronuclear zygotes selected after6h and transferred to sequential embryo culture. No continued MQ exposure in embryo culture established.",
+    "oral_or_in_vivo_drug_exposure": false
+  },
+  "models": {
+    "mouse": "Outbred CF1 females,2 months young and13.5 months aged; separate baseline IVO comparisons and IVM treatment experiments.",
+    "human": "Discarded immature GV oocytes from IVF patients, matured24h and selected as MII; untreated young<32 versus AMA>38 comparison, not an MQ clinical or human-cell intervention."
+  },
+  "functional_outcomes": [
+    {
+      "endpoint": "Blastocyst development",
+      "source": "Native Figure6A (caption A/B reversed)",
+      "assessment_time_h": 96,
+      "tested_population": "Young mouse oocytes matured under high O2",
+      "comparison": "MQ versus no MQ within high O2",
+      "direction": "increased",
+      "source_p": "≤0.05",
+      "exact_effect_estimate": null,
+      "visual_approximation_only": "~40% to~70%; not digitized or source-tabulated",
+      "null": "No significant low-O2 MQ benefit."
+    },
+    {
+      "endpoint": "Hatching",
+      "source": "Native Figure6B (caption A/B reversed)",
+      "assessment_time_h": 115,
+      "comparison": "MQ versus no MQ within high O2",
+      "direction": "increased",
+      "source_p": "≤0.05",
+      "exact_effect_estimate": null,
+      "visual_approximation_only": "~42% to~79%; not digitized or source-tabulated",
+      "null": "No significant low-O2 MQ benefit."
+    },
+    {
+      "endpoint": "ICM cells as percentage of total blastocyst cells",
+      "source": "Figure6C, SOX2/CDX2 immunostaining",
+      "assessment_time_h": 115,
+      "comparison": "MQ versus no MQ within high O2",
+      "direction": "increased",
+      "source_p": "≤0.0001",
+      "n_caption": 4,
+      "limit": "Not absolute ICM count, all-oocyte success or implantation; selected blastocysts only."
+    },
+    {
+      "endpoint": "Maturation and fertilization",
+      "source": "Supplemental FigureS1",
+      "replicates": 4,
+      "result": "No significant differences among any treatment groups.",
+      "limit": "No equivalence or broad safety claim."
+    }
+  ],
+  "functional_scope_limits": [
+    "No current-study embryo transfer, pregnancy, live pups or offspring health outcome.",
+    "No current-study chromosome counting, karyotype, spindle scoring or segregation assay.",
+    "Spindle/chromosome rescue statements in Discussion cite earlier20/50nM studies, not this25nM experiment.",
+    "Precise denominator for each developmental percentage and total Figure6 embryo counts not tabulated; two-pronuclear selection prevents assuming all retrieved oocytes as denominator.",
+    "No exact numerical effect/CI reconstructed from bars."
+  ],
+  "protein_and_mitochondrial_results": {
+    "aged_mouse_positive": "MQ increases total PRKN and phospho-PRKN(S65); p-PRKN not significantly different from young. Increased mitochondria/lysosome Pearson colocalization.",
+    "aged_mouse_nulls": "MQ does not significantly restore HSPD1/LONP1; PINK1 not significantly altered. Baseline young-versus-aged colocalization is nonsignificant.",
+    "high_oxygen_positive": "MQ increases p-PRKN(S65), reduces the elevated mtDNA-copy estimate and increases colocalization.",
+    "high_oxygen_nulls": "Total PRKN, HSPD1, LONP1 and PINK1 have no significant treatment response; low-oxygen MQ p-PRKN/mtDNA/developmental outcomes nonpositive. Baseline high-oxygen colocalization is not reported significantly reduced.",
+    "human_positive_association": "Total and phospho-PRKN lower in AMA oocytes, each P≤.05.",
+    "human_null_associations": "HSPD1, LONP1, SQSTM1 and PINK1 not significantly different.",
+    "assay": "Jess antibody-reactive peak area normalized to total protein signal from the same capillary; fold change relative to controls.",
+    "activity_limit": "p-PRKN amount is not a direct enzymatic activity assay; no p-PRKN/total-PRKN ratio supplied.",
+    "flux_limit": "Equatorial dye colocalization is not measured degradation flux. Potential-dependent MitoTracker detects healthy mitochondria, a limitation acknowledged by authors; drug-related potential effects could alter labeling.",
+    "causality": "Authors explicitly report no RNAi/knockout loss-of-function test. No PRKN-mediated necessity/rescue or BUB1B mediation established."
+  },
+  "BUB1B_scope": {
+    "RNA_assayed": false,
+    "protein_assayed": false,
+    "localization_or_function_assayed": false,
+    "basis": "No such assay/result in fully read scientific main, all main figures or supplied supplement. Finite source-level absence, not global evidence of no possible effect.",
+    "different_protein": "PRKN is not BUBR1. mtDNA copy number is not nuclear chromosome-number fidelity."
+  },
+  "biological_units": {
+    "mouse_proteins": "Pooled oocytes,3 for abundant HSPD1/LONP1 and generally15–20 for other targets in Methods; Results mentions10–15. Figure n values3–8 refer to assay biological replicates, not all independent animals.",
+    "mouse_imaging": "Methods report at least3 independent experiments with oocytes from8 young and15–20 aged mice per replicate; exact donor distribution for every functional/protein assay is not mapped.",
+    "human_donors": "Native TableS1 lists10 young and10 aged donors. Methods states13–15 MII oocytes per age category.",
+    "human_assay_units": "Most proteins measured in single oocytes; p-PRKN pools3 oocytes, n=4. Figure7 target-specific n varies; cannot add across assays or equate oocyte n with donor n.",
+    "human_confounding": "Most young donors have no female fertility issue; aged donors include diminished reserve and other conditions. No adjustment beyond age comparison or per-assay donor map.",
+    "allocation": "Randomization and blinding not reported in inspected main; donor-clustered models not described.",
+    "statistics": "Mean±SEM; t tests, one-/two-way ANOVA with Tukey; at least3 biological replicates. No individual-data replay, complete interaction estimates or global multiplicity guarantee."
+  },
+  "source_discrepancies": [
+    "Figure6 caption reverses development versus hatching panels A/B; use native A=development and B=hatching.",
+    "Figure5 caption says three groups but lists/shows four; no arm is omitted in this assessment.",
+    "Some HSPD1 labels are transposed as HSDP1; identity interpreted from paper context and antibody table, without claiming a second target.",
+    "Main abstract describes human MII samples without emphasizing that discarded GVs were matured in vitro; Methods supplies that qualification."
+  ],
+  "safety_and_exposure_limits": "No organism dosing, pharmacokinetics or systematic developmental/systemic toxicity study. Low-O2 functional nulls are not proof of safety or equivalence. Culture concentration cannot establish a usable oral exposure.",
+  "study_independence": "One published primary study with several mouse experiments and an observational human arm, not several independent replications. No new read credit for cited earlier studies; no transfer of ordinary CoQ10 outcomes.",
+  "funding": "Internal Colorado Center for Reproductive Medicine research fund; authors declare no competing interests.",
+  "followup_questions": [
+    "Identify exact Cayman catalog/salt, batch and stock/vehicle details without inferring a mesylate join.",
+    "Obtain experimental donor/animal-to-pool maps and Figure6 denominators for appropriate clustered estimates.",
+    "Test whether PRKN-dependent flux is necessary for developmental benefit rather than correlated protein/dye changes.",
+    "Resolve whether aged-oocyte treatment improves actual embryo/live-birth outcomes; current functional trial uses young high-oxygen oocytes."
+  ],
+  "reading_manifest": {
+    "file": "reading-manifest.json",
+    "sha256": "72b6e5035ede7fcae154d5c663ed32ac30ada03ebcfc105d0808ef6eb01451f7"
+  },
+  "retrieval_manifest": {
+    "file": "retrieval-manifest.json",
+    "sha256": "29e63082d0cde74aa78053c006e7a27f9aad85efdbbbc011d4caa36a07a02d9b"
+  },
+  "source_assets_sha256": {
+    "published-main.html": "20479b890d94e93ccafe67ac753e13a411a3ccb42d34a8745c3104d67fef7c0e",
+    "supplement.pdf": "ae15f0f19652baffb3044aa9cca8a9b291d18cabbf2028def77a3ba2ea2d101b",
+    "figure-1.jpeg": "1cdf76a57c997d13f4735cc324192c4230f861d8c100b55720ed36c05548ad1c",
+    "figure-2.jpeg": "5e9405aeea709c78d585f268e0b41ac54441034f0a3b8fc29a383b0ca3858a89",
+    "figure-3.jpeg": "97651b526fc7b1d34e8715d9f5e84127bedbe5c540764bb6c1163af0ec594ae6",
+    "figure-4.jpeg": "b1b83af50f885b7882cfa7dae560760ad250c36b64ac3681e1fca722558766c0",
+    "figure-5.jpeg": "708d4c3b28f1c44b173a296f5e90298e3b68ca1e0d8977058325c6accb9d41db",
+    "figure-6.jpeg": "bfbb40987b8708b4973a1744b6a650ea3d7a893afa3e6e8578b3db1f2db76543",
+    "figure-7.jpeg": "249aca98bf1adefccf5c21d781f09b16dafaa4226878cb2e6d19077da3c3ce82"
+  },
+  "access": "Initial OUP endpoint403; official web tool redirected to public publisher CDN article-minimal page, which supplied full scientific HTML and signed public supplement/native-image links. Main PDF403 retained as invalid HTML; no main-PDF read credit. No bypass or author contact.",
+  "source_reviewer_status": "COMPLETE_BOUNDED_PRIMARY_QUALIFICATION",
+  "source_reviewer_integration_limits": {
+    "repository_modified": false,
+    "ledger_modified": false,
+    "appraisal_count_changed": false,
+    "outer_reading_credit": 0,
+    "nominee_promotion": false,
+    "independent_replication_claim": false,
+    "root_or_independent_approval_invented": false
+  },
+  "status": "INTEGRATED_WITH_SOURCE_SPECIFIC_READING_AND_ASSAY_LIMITS",
+  "qualification_md_sha256": "9fcf7159ddaeeea7e0498038f00cfe37d1b8f939434a57efda7e4026dd8fbe27",
+  "integration": {
+    "baseline": "b7c292408b99afc80493a8cb462e929caff9ed04",
+    "baseline_assessments": 219,
+    "current_assessments": 222,
+    "prior_decision_objects_unchanged": 218,
+    "refined_prior_ids": [
+      "new-vitamin-k2"
+    ],
+    "decision_id": "new-mitoquinone-reproduction",
+    "frozen_source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/mitoquinone-reproduction-followup-20260923/qualification.json",
+      "sha256": "a425ec3ec0f2cddd50263466fe8430570c11847e9ff3c1eeb21c01f350e2f7e3"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/reproductive-functional-integration-20260923/root-reading.json",
+      "sha256": "e7e453696c8d559cfb0fe1309cc2066cada0dc995533bb4e7281d0865d1566f0"
+    },
+    "new_original_queue_credit": 0,
+    "all47_source_question_records_unchanged": true,
+    "MVA_efficacy_or_nominee_superiority_established": false
+  }
+}

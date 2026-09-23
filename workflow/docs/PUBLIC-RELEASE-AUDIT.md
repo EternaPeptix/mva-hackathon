@@ -1068,3 +1068,13 @@ Seven portable files contain original source qualifications, structured evidence
 All 47 original source-question records and the original reading queue remain byte-identical. No new original-queue reading, independent-study or global-completion credit follows. PR1 retention remains 109 IDs, with 97 unchanged objects and twelve previously qualified refinements. Catalog and ingredient joins are refreshed from the exact new aliases; their matches do not establish availability, preparation equivalence or efficacy.
 
 Track 1, its methods prefix, current pitch/media, model/transfer/RNA and protected experimental plan remain unchanged. Both PRs remain private drafts and unmerged; Track 2 remains unsubmitted.
+
+## Reproductive function and vitamin K2 molecular evidence, 23 September 2026
+
+CoQ10, spermidine and mitoquinone bring the ledger to 222 assessments. Vitamin K2 is the only refined prior object; the other 218 are unchanged. Its original public figures and supporting caption supply Bub1b RNA and BUB1B-associated tissue fluorescence recovery accompanying behavioral protection. Exact preparation, dose, route, assay specificity and cellular/causal interpretation remain unresolved. The source main and Methods remain unread.
+
+Nine portable files provide original qualifications, structured evidence and a compact spermidine source-data summary. Spermidine retains direct mouse chromosome-count and reproductive positives with a downward, non-FDR-significant Bub1b RNA contrast. Root inspected all populated cells of 16 targeted source sheets and the Bub1b row/header and reproduced descriptive means; no new P values, raw-sequencing analysis or full-main reading follows. CoQ10 retains mouse function and an oral human null with a nonpositive Bub1b RNA assay. Mitoquinone retains culture-development benefits and separate PRKN results without BUB1B or nuclear-chromosome evidence. Source, independent and root reading scopes are distinct.
+
+All 47 historical source-question records and original reading queue remain byte-identical. All 109 PR1 IDs remain: 96 unchanged and thirteen qualified refinements, now including vitamin K2. No original-queue reading, independent-study, global-completion or MVA-efficacy credit is inferred. Name relations are regenerated without salt, class, product or availability equivalence.
+
+Raw articles, original images, full workbooks and reading logs remain external. Track 1, its methods prefix, current media, model/transfer/RNA workflows and protected experimental plan are unchanged. Both PRs remain private drafts and unmerged; Track 2 remains unsubmitted.

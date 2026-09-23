@@ -1,0 +1,1030 @@
+{
+  "source": {
+    "pmid": "37845508",
+    "doi": "10.1038/s43587-023-00498-8",
+    "title": "Polyamine metabolite spermidine rejuvenates oocyte quality by enhancing mitophagy during female reproductive aging",
+    "journal": "Nature Aging",
+    "year": 2023,
+    "url": "https://www.nature.com/articles/s43587-023-00498-8",
+    "version": "Published official public primary assets; full main subscription-blocked"
+  },
+  "full_primary_read": false,
+  "conclusion": "Retain actual preclinical aged-mouse reproductive-function and meiotic-aneuploidy improvements as a specific research comparator. No demonstrated BubR1 supply restoration, BUB1B causal rescue, MVA efficacy, human reproductive benefit, safety equivalence or superiority.",
+  "identity": {
+    "administered_name": "spermidine",
+    "supplier_reported": "Sigma-Aldrich",
+    "salt_catalog_purity": "Not established from accessible source assets",
+    "not_equated_to": [
+      "free base",
+      "trihydrochloride",
+      "food extract",
+      "retail supplement",
+      "all polyamines"
+    ]
+  },
+  "model": {
+    "mouse": "ICR females, young 6–8 weeks and aged 52–56 weeks",
+    "context": "Nonmalignant reproductive aging; no identified BUB1B mutation or MVA model",
+    "porcine": "GV oocytes exposed to acute H2O2 stress; donor clustering unresolved"
+  },
+  "regimens": [
+    {
+      "arm": "IP mouse",
+      "dose": 50,
+      "unit": "mg/kg body weight/day",
+      "route": "intraperitoneal",
+      "vehicle": "PBS",
+      "duration_days": 10,
+      "control": "equivalent-volume PBS",
+      "source": "Reporting Summary p3; Fig2 timeline"
+    },
+    {
+      "arm": "Oral mouse",
+      "dose": 3,
+      "unit": "mM in drinking water",
+      "duration_days": 30,
+      "source": "Reporting Summary p3; Extended Data Fig3 timeline",
+      "limit": "Native diagram four-week interval then day28/29 priming and day30 harvest; intake and actual mg/kg unknown"
+    },
+    {
+      "arm": "Mouse oocyte in vitro",
+      "tested_doses_uM": [
+        25,
+        50,
+        100
+      ],
+      "duration_hours": 14,
+      "source": "Extended Data Fig4; Fig5",
+      "limit": "Exact selected dose of Fig5 and downstream culture panels not established by accessible caption"
+    },
+    {
+      "arm": "Porcine oocyte in vitro",
+      "stress": "100 uM H2O2 for30min then fresh medium",
+      "tested_spermidine_doses_uM": [
+        50,
+        100
+      ],
+      "duration_hours": 44,
+      "source": "Extended Data Fig9",
+      "unit_conflict": "Workbook says50ul/100ul; native figure/caption says micromolar"
+    }
+  ],
+  "functional_outcomes": [
+    {
+      "endpoint": "IP litter size",
+      "source_file": "43587_2023_498_MOESM6_ESM.xlsx",
+      "source_sheet": "Fig. 2h",
+      "groups": {
+        "Young": {
+          "source_cells": [
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9",
+            "A10",
+            "A11"
+          ],
+          "values": [
+            16,
+            14.5,
+            15.5,
+            11.67,
+            14,
+            12.5,
+            16.5,
+            15.4,
+            14.2
+          ],
+          "n_source_points": 9,
+          "mean": 14.474444444444444,
+          "sample_sd": 1.5969902246970011
+        },
+        "Aged": {
+          "source_cells": [
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9",
+            "B10",
+            "B11"
+          ],
+          "values": [
+            5,
+            4,
+            2,
+            3.5,
+            0,
+            5,
+            2,
+            2.8,
+            3
+          ],
+          "n_source_points": 9,
+          "mean": 3.033333333333333,
+          "sample_sd": 1.5921683328090657
+        },
+        "Spd+Aged": {
+          "source_cells": [
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8",
+            "C9",
+            "C10",
+            "C11"
+          ],
+          "values": [
+            3.67,
+            6.5,
+            4.67,
+            5.67,
+            6.33,
+            7,
+            5,
+            5.4,
+            3.8
+          ],
+          "n_source_points": 9,
+          "mean": 5.337777777777778,
+          "sample_sd": 1.1682655710258882
+        }
+      },
+      "reported_p_aged_vs_spermidine": ".003",
+      "caption_n_young_aged_spermidine": [
+        9,
+        9,
+        9
+      ],
+      "unit_limit": "female mice; fractional pups/litter entries, averaging interval unresolved",
+      "p_is_newly_computed": false,
+      "means_are_unweighted_source_point_means": true
+    },
+    {
+      "endpoint": "IP ovulated oocyte count",
+      "source_file": "43587_2023_498_MOESM7_ESM.xlsx",
+      "source_sheet": "Fig. 3b",
+      "groups": {
+        "Young": {
+          "source_cells": [
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9",
+            "A10"
+          ],
+          "values": [
+            32,
+            18,
+            30,
+            25,
+            17,
+            35,
+            23,
+            32
+          ],
+          "n_source_points": 8,
+          "mean": 26.5,
+          "sample_sd": 6.782329983125268
+        },
+        "Aged": {
+          "source_cells": [
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9",
+            "B10"
+          ],
+          "values": [
+            15,
+            14,
+            16,
+            6,
+            5,
+            19,
+            6,
+            15
+          ],
+          "n_source_points": 8,
+          "mean": 12,
+          "sample_sd": 5.451081150953975
+        },
+        "Spd+Aged": {
+          "source_cells": [
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8",
+            "C9",
+            "C10"
+          ],
+          "values": [
+            23,
+            18,
+            23,
+            18,
+            9,
+            17,
+            22,
+            16
+          ],
+          "n_source_points": 8,
+          "mean": 18.25,
+          "sample_sd": 4.652188425123938
+        }
+      },
+      "reported_p_aged_vs_spermidine": ".0272",
+      "caption_n_young_aged_spermidine": [
+        8,
+        8,
+        8
+      ],
+      "unit_limit": "mice",
+      "p_is_newly_computed": false,
+      "means_are_unweighted_source_point_means": true
+    },
+    {
+      "endpoint": "IP MII aneuploidy",
+      "source_file": "43587_2023_498_MOESM7_ESM.xlsx",
+      "source_sheet": "Fig. 3i",
+      "groups": {
+        "Young": {
+          "source_cells": [
+            "A3",
+            "A4",
+            "A5",
+            "A6"
+          ],
+          "values": [
+            12.5,
+            7.69,
+            6.67,
+            11.76
+          ],
+          "n_source_points": 4,
+          "mean": 9.655,
+          "sample_sd": 2.903819324039749
+        },
+        "Aged": {
+          "source_cells": [
+            "B3",
+            "B4",
+            "B5",
+            "B6"
+          ],
+          "values": [
+            33.33,
+            27.78,
+            29.41,
+            36.84
+          ],
+          "n_source_points": 4,
+          "mean": 31.84,
+          "sample_sd": 4.066472672968553
+        },
+        "Spd+Aged": {
+          "source_cells": [
+            "C3",
+            "C4",
+            "C5",
+            "C6"
+          ],
+          "values": [
+            26.67,
+            25,
+            18.75,
+            20
+          ],
+          "n_source_points": 4,
+          "mean": 22.605,
+          "sample_sd": 3.8256720542496416
+        }
+      },
+      "reported_p_aged_vs_spermidine": ".0162",
+      "caption_n_young_aged_spermidine": [
+        61,
+        69,
+        62
+      ],
+      "unit_limit": "oocytes, four source percentages/group",
+      "p_is_newly_computed": false,
+      "means_are_unweighted_source_point_means": true
+    },
+    {
+      "endpoint": "IP fertilization",
+      "source_file": "43587_2023_498_MOESM8_ESM.xlsx",
+      "source_sheet": "Fig. 4h",
+      "groups": {
+        "Young": {
+          "source_cells": [
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8"
+          ],
+          "values": [
+            100,
+            85.71,
+            100,
+            92,
+            95.65,
+            91.3
+          ],
+          "n_source_points": 6,
+          "mean": 94.11,
+          "sample_sd": 5.561726350693643
+        },
+        "Aged": {
+          "source_cells": [
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9"
+          ],
+          "values": [
+            37.5,
+            64.71,
+            47.62,
+            35.29,
+            57.14,
+            60,
+            58.33
+          ],
+          "n_source_points": 7,
+          "mean": 51.51285714285714,
+          "sample_sd": 11.540002475860096
+        },
+        "Spd+Aged": {
+          "source_cells": [
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8"
+          ],
+          "values": [
+            75,
+            68.75,
+            62.5,
+            72.22,
+            80,
+            76.19
+          ],
+          "n_source_points": 6,
+          "mean": 72.44333333333333,
+          "sample_sd": 6.168269341287446
+        }
+      },
+      "reported_p_aged_vs_spermidine": ".0022",
+      "caption_n_young_aged_spermidine": [
+        147,
+        134,
+        120
+      ],
+      "unit_limit": "caption oocytes; source replicate percentages",
+      "p_is_newly_computed": false,
+      "means_are_unweighted_source_point_means": true
+    },
+    {
+      "endpoint": "IP blastocyst formation",
+      "source_file": "43587_2023_498_MOESM8_ESM.xlsx",
+      "source_sheet": "Fig. 4i",
+      "groups": {
+        "Young": {
+          "source_cells": [
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8"
+          ],
+          "values": [
+            68.42,
+            77.78,
+            63.64,
+            78.26,
+            72.73,
+            76.19
+          ],
+          "n_source_points": 6,
+          "mean": 72.83666666666667,
+          "sample_sd": 5.817059967601045
+        },
+        "Aged": {
+          "source_cells": [
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9"
+          ],
+          "values": [
+            33.33,
+            36.36,
+            30,
+            16.67,
+            25,
+            33.33,
+            28.57
+          ],
+          "n_source_points": 7,
+          "mean": 29.037142857142857,
+          "sample_sd": 6.593829727570349
+        },
+        "Spd+Aged": {
+          "source_cells": [
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8"
+          ],
+          "values": [
+            33.33,
+            54.55,
+            30,
+            46.15,
+            56.25,
+            43.75
+          ],
+          "n_source_points": 6,
+          "mean": 44.004999999999995,
+          "sample_sd": 10.732182909361915
+        }
+      },
+      "reported_p_aged_vs_spermidine": ".0104",
+      "caption_n_young_aged_spermidine": [
+        147,
+        134,
+        120
+      ],
+      "unit_limit": "caption totals; conditional denominator unresolved",
+      "p_is_newly_computed": false,
+      "means_are_unweighted_source_point_means": true
+    },
+    {
+      "endpoint": "In-vitro MII aneuploidy",
+      "source_file": "43587_2023_498_MOESM9_ESM.xlsx",
+      "source_sheet": "Fig. 5i",
+      "groups": {
+        "Young": {
+          "source_cells": [
+            "A3",
+            "A4",
+            "A5",
+            "A6"
+          ],
+          "values": [
+            16.67,
+            14.28,
+            10,
+            13.33
+          ],
+          "n_source_points": 4,
+          "mean": 13.57,
+          "sample_sd": 2.763849971808649
+        },
+        "Aged": {
+          "source_cells": [
+            "B3",
+            "B4",
+            "B5",
+            "B6"
+          ],
+          "values": [
+            33.33,
+            41.67,
+            36.36,
+            40
+          ],
+          "n_source_points": 4,
+          "mean": 37.84,
+          "sample_sd": 3.735639168870571
+        },
+        "Spd+Aged": {
+          "source_cells": [
+            "C3",
+            "C4",
+            "C5",
+            "C6"
+          ],
+          "values": [
+            26.67,
+            21.43,
+            30.77,
+            28.57
+          ],
+          "n_source_points": 4,
+          "mean": 26.86,
+          "sample_sd": 3.9888678427176134
+        }
+      },
+      "reported_p_aged_vs_spermidine": ".007",
+      "caption_n_young_aged_spermidine": [
+        51,
+        53,
+        56
+      ],
+      "unit_limit": "oocytes, four source percentages/group; selected dose unconfirmed",
+      "p_is_newly_computed": false,
+      "means_are_unweighted_source_point_means": true
+    },
+    {
+      "endpoint": "Oral MII aneuploidy",
+      "source_file": "43587_2023_498_MOESM14_ESM.xlsx",
+      "source_sheet": "Extended Data Fig. 3j",
+      "groups": {
+        "Young": {
+          "source_cells": [
+            "A3",
+            "A4",
+            "A5",
+            "A6"
+          ],
+          "values": [
+            11.76,
+            6.67,
+            13.33,
+            5.88
+          ],
+          "n_source_points": 4,
+          "mean": 9.41,
+          "sample_sd": 3.6904109978880855
+        },
+        "Aged": {
+          "source_cells": [
+            "B3",
+            "B4",
+            "B5",
+            "B6"
+          ],
+          "values": [
+            33.33,
+            31.58,
+            29.41,
+            23.53
+          ],
+          "n_source_points": 4,
+          "mean": 29.4625,
+          "sample_sd": 4.2676564607131455
+        },
+        "Spd+Aged": {
+          "source_cells": [
+            "C3",
+            "C4",
+            "C5",
+            "C6"
+          ],
+          "values": [
+            18.75,
+            25,
+            13.33,
+            22.22
+          ],
+          "n_source_points": 4,
+          "mean": 19.825,
+          "sample_sd": 5.028495467499863
+        }
+      },
+      "reported_p_aged_vs_spermidine": ".0265",
+      "caption_n_young_aged_spermidine": [
+        64,
+        68,
+        65
+      ],
+      "unit_limit": "oocytes, four source percentages/group",
+      "p_is_newly_computed": false,
+      "means_are_unweighted_source_point_means": true
+    },
+    {
+      "endpoint": "Oral fertilization",
+      "source_file": "43587_2023_498_MOESM14_ESM.xlsx",
+      "source_sheet": "Extended Data Fig. 3l",
+      "groups": {
+        "Young": {
+          "source_cells": [
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9"
+          ],
+          "values": [
+            100,
+            93.33,
+            87.5,
+            91.67,
+            83.33,
+            88.89,
+            95.65
+          ],
+          "n_source_points": 7,
+          "mean": 91.48142857142857,
+          "sample_sd": 5.513753798673003
+        },
+        "Aged": {
+          "source_cells": [
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9"
+          ],
+          "values": [
+            62.5,
+            50,
+            44.44,
+            45.45,
+            61.54,
+            53.85,
+            46.67
+          ],
+          "n_source_points": 7,
+          "mean": 52.06428571428572,
+          "sample_sd": 7.495778494465751
+        },
+        "Spd+Aged": {
+          "source_cells": [
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8",
+            "C9"
+          ],
+          "values": [
+            61.54,
+            75,
+            50,
+            64.71,
+            60,
+            53.33,
+            66.67
+          ],
+          "n_source_points": 7,
+          "mean": 61.607142857142854,
+          "sample_sd": 8.37111245949568
+        }
+      },
+      "reported_p_aged_vs_spermidine": ".0442",
+      "caption_n_young_aged_spermidine": [
+        135,
+        96,
+        94
+      ],
+      "unit_limit": "caption oocytes; source replicate percentages",
+      "p_is_newly_computed": false,
+      "means_are_unweighted_source_point_means": true
+    },
+    {
+      "endpoint": "Oral blastocyst formation",
+      "source_file": "43587_2023_498_MOESM14_ESM.xlsx",
+      "source_sheet": "Extended Data Fig. 3m",
+      "groups": {
+        "Young": {
+          "source_cells": [
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9"
+          ],
+          "values": [
+            77.78,
+            71.43,
+            64.29,
+            54.55,
+            75,
+            68.75,
+            77.27
+          ],
+          "n_source_points": 7,
+          "mean": 69.86714285714285,
+          "sample_sd": 8.298310499303888
+        },
+        "Aged": {
+          "source_cells": [
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9"
+          ],
+          "values": [
+            50,
+            40,
+            25,
+            40,
+            37.5,
+            28.57,
+            42.86
+          ],
+          "n_source_points": 7,
+          "mean": 37.70428571428572,
+          "sample_sd": 8.496885423775108
+        },
+        "Spd+Aged": {
+          "source_cells": [
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8",
+            "C9"
+          ],
+          "values": [
+            62.5,
+            66.67,
+            42.86,
+            45.45,
+            50,
+            37.5,
+            50
+          ],
+          "n_source_points": 7,
+          "mean": 50.71142857142857,
+          "sample_sd": 10.476386827164266
+        }
+      },
+      "reported_p_aged_vs_spermidine": ".0254",
+      "caption_n_young_aged_spermidine": [
+        135,
+        96,
+        94
+      ],
+      "unit_limit": "caption totals; conditional denominator unresolved",
+      "p_is_newly_computed": false,
+      "means_are_unweighted_source_point_means": true
+    }
+  ],
+  "bub1b": {
+    "direct_rna_measured": true,
+    "source_file": "43587_2023_498_MOESM4_ESM.xlsx",
+    "sheet": "Transcriptome data",
+    "gene_id": 12236,
+    "gene_symbol": "Bub1b",
+    "row": 2332,
+    "log2_spermidine_vs_aged": -0.54008075900447,
+    "fold_spermidine_vs_aged": 0.6877324101925861,
+    "nominal_p": 0.0064987050652727,
+    "source_q": 0.101283189055314,
+    "fdr_significant_at_05": false,
+    "direction": "lower normalized RNA with treatment",
+    "protein_measured_in_accessed_assets": false,
+    "causal_bub1b_rescue_established": false,
+    "targeted_bub1b_qpcr_identified": false,
+    "limitations": [
+      "No per-oocyte absolute abundance inference",
+      "No BubR1 abundance/localization/activity endpoint identified in accessed experimental assets",
+      "Full Methods unavailable; absence is bounded",
+      "Ten labeled transcriptome samples, not established independent donor counts",
+      "No raw RNA reanalysis"
+    ]
+  },
+  "mechanism": {
+    "evidence": "Autophagy/mitophagy transcript and fluorescence/colocalization/membrane-potential endpoints; Mdivi-1 attenuates maturation and LC3 benefit",
+    "mdivi_1_role": "Separate pharmacological inhibitor and maturation-negative control",
+    "genetic_rescue_identified_in_accessed_assets": false,
+    "exclusive_mitophagy_causality_established": false,
+    "combination_mdivi_1_dose": "Not supplied in accessible combination caption"
+  },
+  "nulls_and_harms": [
+    {
+      "endpoint": "Primordial/primary/secondary follicles",
+      "reported_p": [
+        0.6912,
+        0.906,
+        0.7925
+      ],
+      "conclusion": "No significant improvement; no ovarian-reserve restoration claim"
+    },
+    {
+      "endpoint": "IP25mg/kg PB1",
+      "reported_p": 0.9842,
+      "conclusion": "No significant benefit"
+    },
+    {
+      "endpoint": "Mouse100uM culture PB1",
+      "reported_p": 0.4078,
+      "conclusion": "No significant benefit; not proof of toxicity"
+    },
+    {
+      "endpoint": "Porcine50uM PB1 after H2O2",
+      "reported_p": 0.6526,
+      "conclusion": "No significant benefit"
+    },
+    {
+      "endpoint": "Porcine100uM PB1 after H2O2",
+      "reported_p": 0.0017,
+      "aged_or_stressed_mean_percent": 52.47833333333333,
+      "treated_mean_percent": 69.28166666666667,
+      "conclusion": "Actual culture maturation benefit, not porcine fertility/chromosome-count evidence"
+    },
+    {
+      "endpoint": "Mdivi-1 100/150/200uM young mouse PB1",
+      "conclusion": "Impaired maturation; belongs to Mdivi-1, not spermidine"
+    },
+    {
+      "endpoint": "Maternal/offspring systematic toxicity, long-term chromosome-normal offspring, reproductive lifespan",
+      "conclusion": "Not established in accessed assets"
+    }
+  ],
+  "design_limits": {
+    "randomization": false,
+    "blinded_collection_or_analysis": false,
+    "statistical_sample_size_calculation": false,
+    "data_excluded_reported": false,
+    "replication": "At least3independent repeats per reporting summary",
+    "phenotype_statistics": "Two-tailed unpaired t tests; multiple endpoints without multiplicity adjustment reported in accessed assets",
+    "clustering": "Oocyte totals differ from replicate percentages; animal/donor/batch mapping unresolved",
+    "litter_interval": "Unknown; fractional source values cannot be summed as individual pups",
+    "ovarian_concentration_pooling": "Caption60/36/36mice but3source values/group; unresolved"
+  },
+  "competition": {
+    "niacin": "Different from provisional BubR1-supply hypothesis; no new primary reading of niacin here",
+    "apitegromab": "Different from SMA clinical functional-compensation context; no new primary reading here",
+    "spermidine": "Actual preclinical reproductive function and meiotic chromosome fidelity; putative mitochondrial/autophagy compensation",
+    "superiority_established": false,
+    "nomination_changed": false
+  },
+  "funding": "Chinese national and university grants in public publisher acknowledgements",
+  "declared_competing_interests": "None",
+  "notice_check": "Bounded publisher and Crossref snapshot: no correction/retraction notice or update relation found; no universal guarantee",
+  "artifacts": {
+    "report": "spermidine-reproduction-qualification.md",
+    "exact_source_cells": "spermidine-reproduction-data.json",
+    "reading_scope": "reading-scope.json"
+  },
+  "reading_scope_summary": {
+    "whole_primary_read": false,
+    "main_narrative_and_methods": "Subscription-blocked and unread",
+    "captions": "All8main and all9ExtendedData complete untruncated endmarked readings",
+    "native_figures": {
+      "main": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "extended": [
+        1,
+        3,
+        4,
+        8,
+        9
+      ]
+    },
+    "supplementary_information": "All scientific text and native working model/primer table",
+    "reporting_summary": "All6native PDFpages",
+    "source_workbooks": [
+      {
+        "file": "43587_2023_498_MOESM6_ESM.xlsx",
+        "sheet": "Fig. 2b",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM6_ESM.xlsx",
+        "sheet": "Fig. 2d",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM6_ESM.xlsx",
+        "sheet": "Fig. 2h",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM7_ESM.xlsx",
+        "sheet": "Fig. 3b",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM7_ESM.xlsx",
+        "sheet": "Fig. 3i",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM8_ESM.xlsx",
+        "sheet": "Fig. 4h",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM8_ESM.xlsx",
+        "sheet": "Fig. 4i",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM9_ESM.xlsx",
+        "sheet": "Fig. 5i",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM12_ESM.xlsx",
+        "sheet": "Extended Data Fig. 1a",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM14_ESM.xlsx",
+        "sheet": "Extended Data Fig. 3j",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM14_ESM.xlsx",
+        "sheet": "Extended Data Fig. 3l",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM14_ESM.xlsx",
+        "sheet": "Extended Data Fig. 3m",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM15_ESM.xlsx",
+        "sheet": "Extended Data Fig. 4a",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM18_ESM.xlsx",
+        "sheet": "Extended Data Fig. 8a",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM18_ESM.xlsx",
+        "sheet": "Extended Data Fig. 8d",
+        "scope": "All nonempty cells"
+      },
+      {
+        "file": "43587_2023_498_MOESM19_ESM.xlsx",
+        "sheet": "Extended Data Fig. 9b",
+        "scope": "All nonempty cells"
+      }
+    ],
+    "transcriptome": "Complete headerA1:AQ1 and Bub1b rowA2332:AQ2332 only; no full transcriptome reading",
+    "GEO": "Full series record and targeted condition/protocol/processing fields of10sample records; no raw sequencing reanalysis",
+    "other_primaries": "No new reading of niacin/apitegromab or unrelated references"
+  },
+  "outer_or_unique_reading_credit": false,
+  "source_reviewer_qualification_status": "bounded_partial_primary_qualification",
+  "source_reviewer_repository_or_ledger_edits": false,
+  "source_reviewer_admission_decision": "Root only; an optional external candidate does not alter the ledger",
+  "status": "INTEGRATED_WITH_SOURCE_SPECIFIC_READING_AND_ASSAY_LIMITS",
+  "qualification_md_sha256": "bb243486bbe2549d7ed818a40cc561def93a3b8e9a8cf15670ac8843757ec2a9",
+  "integration": {
+    "baseline": "b7c292408b99afc80493a8cb462e929caff9ed04",
+    "baseline_assessments": 219,
+    "current_assessments": 222,
+    "prior_decision_objects_unchanged": 218,
+    "refined_prior_ids": [
+      "new-vitamin-k2"
+    ],
+    "decision_id": "new-spermidine-reproduction",
+    "frozen_source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/spermidine-reproduction-followup-20260923/spermidine-reproduction-qualification.json",
+      "sha256": "dc48bc03f2a2fa9274916bfaec902ac67ff8adc58362c1c822a60edead062d60"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/reproductive-functional-integration-20260923/root-reading.json",
+      "sha256": "e7e453696c8d559cfb0fe1309cc2066cada0dc995533bb4e7281d0865d1566f0"
+    },
+    "new_original_queue_credit": 0,
+    "all47_source_question_records_unchanged": true,
+    "MVA_efficacy_or_nominee_superiority_established": false
+  }
+}

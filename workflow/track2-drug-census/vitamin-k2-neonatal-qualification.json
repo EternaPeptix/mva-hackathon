@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "source": {
+    "id": "40273626",
+    "source": "MED",
+    "pmid": "40273626",
+    "pmcid": null,
+    "doi": "10.1016/j.bbrc.2025.151784",
+    "title": "Vitamin K2 mitigates cognitive, and motor impairments induced by multiple surgery with anesthesia and analgesia in neonatal stage.",
+    "authorString": "Hou Y, Li S, Hou Q, Wang R, Xu X, Li Z, Ma L, Liu Q, Shen Y, Zheng H.",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    },
+    "publicationStatus": "ppublish",
+    "commentCorrectionList": null,
+    "versionList": null,
+    "firstPublicationDate": "2025-04-08"
+  },
+  "source_url": "https://www.sciencedirect.com/science/article/pii/S0006291X2500498X",
+  "source_identity": {
+    "pii": "S0006291X2500498X",
+    "authentication": "Valid supplementary DOCX has exact article title and matching authors. Main native figure labels/models match the official abstract and authenticated supplement. Public assets served by Elsevier CDN under exact PII.",
+    "asset_url_method": "Standard public publisher asset paths were constructed for the verified PII; successful content identity inspected before scientific use.404 assets receive no source-reading credit."
+  },
+  "conclusion": {
+    "classification": "Formulation-unresolved neuroprotective reserve with directly measured Bub1b RNA and BUB1B-associated tissue IF",
+    "actual_function_positive": true,
+    "Bub1b_mRNA_positive": true,
+    "BUB1B_labeled_IF_positive": true,
+    "functional_BubR1_per_cell_restoration_established": false,
+    "BubR1_stabilization_established": false,
+    "BUB1B_causal_dependence_established": false,
+    "MVA_efficacy_established": false,
+    "interpretation": "This strengthens the prior hub-only description. Retain injury-prevention behavior and molecular recovery together, with unresolved dose/subtype/route and causal/specificity limits."
+  },
+  "compound": {
+    "source_name": "Vitamin K2",
+    "source_abbreviation": "VK2",
+    "menaquinone_subtype": null,
+    "formulation": null,
+    "supplier": null,
+    "dose": null,
+    "administration_route": null,
+    "vehicle": "Corn oil, explicitly named as VK2 solvent in supplementary captions",
+    "identity_limit": "No MK-4/MK-7, medicine, retail supplement or other vitamin-family equivalence inferred."
+  },
+  "model_timing": {
+    "species": "mouse",
+    "injury": "Multiple surgery with fentanyl and sevoflurane (MSFS)",
+    "exposure_postnatal_days": [
+      6,
+      8,
+      10
+    ],
+    "VK2_pretreatment_minutes": 30,
+    "NAc_sampling_day": 11,
+    "behavior_timeline_day": 30,
+    "native_basis": "Figures1A/2A and official abstract",
+    "route_limit": "An injection drawing is not verification of exact route.",
+    "timing_limit": "Pretreatment/protection, not delayed treatment of an established impairment."
+  },
+  "actual_functional_results": {
+    "source": "Figure2B–G; abstract reports significance",
+    "comparisons": "MSFS+VK2 versus MSFS+corn oil; controls N-MSFS+corn oil and N-MSFS+VK2",
+    "positive_directions": {
+      "travel_distance": "reduced excess travel",
+      "first_jump_latency": "increased",
+      "jumping_events": "reduced",
+      "maze_alternation": "increased",
+      "beam_slips": "reduced",
+      "beam_crossing_time": "reduced"
+    },
+    "star_notations": [
+      "***",
+      "****",
+      "****",
+      "***",
+      "*",
+      "**"
+    ],
+    "exact_P_values": null,
+    "effect_estimates": null,
+    "sample_size": null,
+    "untreated_null": "Corresponding uninjured ±VK2 comparisons marked NS; no general baseline enhancement or equivalence established.",
+    "limits": "Main captions, behavioral n, tests, protocol scoring and normalization remain unread. Native functional evidence is not a clinical ADHD diagnosis or a muscle-strength rescue."
+  },
+  "BUB1B_evidence": {
+    "RNAseq_context": "Figure4 labels Bub1b down in MSFS+corn oil versus N-MSFS+corn oil and up in MSFS+VK2 versus MSFS+corn oil. Figure5C provides hub heatmap context; no raw DEG/adjusted-P replay.",
+    "mRNA": {
+      "source": "Figure5I labeled Bub1b, relative level of mRNA; abstract names RT-qPCR validation",
+      "direction": "injury-associated lower signal increased toward control after VK2 pretreatment",
+      "significance_symbol": "***",
+      "exact_P": null,
+      "biological_n_verified": false,
+      "nulls": "N-MSFS ±VK2 NS; treated injured versus baseline comparison marked NS, not equivalence.",
+      "methods_unresolved": [
+        "primer identity",
+        "reference gene",
+        "sample pooling/animal mapping",
+        "main caption thresholds",
+        "statistical test"
+      ]
+    },
+    "protein_associated_IF": {
+      "source": "Native Supplemental FigureS3A/E and authenticated complete caption",
+      "tissue": "nucleus accumbens",
+      "assay_label": "BUB1B immunofluorescence, relative normalized fluorescent intensity",
+      "n_mice_per_group": 3,
+      "summary_error": "mean±SEM",
+      "direction": "MSFS+VK2 higher than MSFS+corn oil and toward control",
+      "contrast_symbol": "****",
+      "caption_literal_threshold": "****P<0.001",
+      "threshold_limit": "Unusual notation preserved literally; not silently changed to P<0.0001.",
+      "controls": "N-MSFS+corn oil, N-MSFS+VK2, MSFS+corn oil, MSFS+VK2",
+      "nulls": "Uninjured ±VK2 NS; control versus treated injury NS is not an equivalence test.",
+      "scale_bar_um": 50
+    },
+    "interpretive_limit": "Tissue RNA/normalized IF does not establish increased functional full-length BubR1 per cell, protein stability, kinetochore localization or checkpoint activity. Changes in proliferating/neural cell abundance or composition could contribute. No image-error allegation.",
+    "not_established_in_inspected_material": [
+      "BUB1B perturbation/necessity",
+      "causal mediation of behavior",
+      "chromosome-fidelity rescue",
+      "BUB1B/MVA genotype rescue"
+    ],
+    "whole_paper_absence_claim": false
+  },
+  "neural_marker_evidence": {
+    "source": "Figures1/2 andSupplementS1",
+    "positive": "VK2 increases injury-reduced Ki67/Sox2 andKi67/Pax6 double-positive fractions,GFAP-positive fraction andTuj1 normalized fluorescence.",
+    "n_mice_per_group": 3,
+    "unit_limit": "S1 caption calls some measures numbers, native axes show percentages. Tuj1 is normalized fluorescence. Lineage tracing and cell-intrinsic differentiation are not independently established by these plots.",
+    "causal_limit": "Marker/tissue recovery plus behavior is not proof that BUB1B caused neurogenesis or behavioral benefit."
+  },
+  "genetic_and_drug_roles": {
+    "VK2": "Preventive administered intervention",
+    "fentanyl_and_sevoflurane": "Components of combined injury paradigm, not restorative drug arms; their individual dose/contributions unresolved",
+    "hub_genes": "Bioinformatic selection followed by molecular measurements, not genetic interventions established by inspected material",
+    "Ki67_Sox2_Pax6_GFAP_Tuj1_DAPI": "Cell/proliferation/differentiation-associated markers or stain, not administered therapies"
+  },
+  "biological_units_and_statistics": {
+    "IF_n": 3,
+    "IF_unit": "mice per group according to S3 caption; no field count substituted for animal n",
+    "unknowns": [
+      "litter allocation and clustering",
+      "randomization and blinding",
+      "field/section selection",
+      "antibody identity and specificity controls",
+      "per-cell versus area/total-signal normalization",
+      "RNAseq/qPCR animal mapping and pooling",
+      "behavior n and test methods",
+      "multiple-testing and exact P definitions in main captions"
+    ],
+    "timepoint_limit": "NAc sampling atP11 andbehavior atP30 do not establish individual-level paired mediation.",
+    "numeric_reanalysis": false
+  },
+  "source_issues": [
+    "SupplementS3 defines four stars asP<0.001; preserve as written, not a conventional threshold assumption.",
+    "S1 native percentage axes differ from caption number wording; describe measured fractions.",
+    "P30 native behavior timeline retained rather than inferring mature-adult or human clinical scope.",
+    "Supplement pathway table rounded zero P values are not treated as exact zero or new FDR results."
+  ],
+  "access_and_version_limits": {
+    "main_body": "Publisher403; FULL API401; default TDM XML metadata only. No main/scientific Methods/captions read.",
+    "partial_primary_access": "Native Figures1–5 and complete supplement1.docx via public exact-PII publisher assets.",
+    "preprint": "Related title/authors DOI10.2139/ssrn.4850820 discovered; body inaccessible. No text/version equivalence or second-study credit.",
+    "notices": "Current EuropePMC metadata has no supplied commentCorrectionList; bounded status check, not exhaustive.",
+    "bypass_or_author_contact": false
+  },
+  "existing_ledger": {
+    "decision_id": "new-vitamin-k2",
+    "baseline_head": "b7c292408b99afc80493a8cb462e929caff9ed04",
+    "appraisals": 219,
+    "decisions_sha256": "4a330c1da112582d9165de4ee6bcb94733361cd8d8f453706d02d75152aa2be1",
+    "existing_entry_file": "existing-entry.json",
+    "existing_entry_sha256": "f78eaf5f088242f9a5042b942cd7465340087b0e2524c9ed38d68d6f91e6a1ad",
+    "recommended_change": "Refine molecular evidence from hub-only to direct Bub1b mRNA and BUB1B IF, retaining family identity and all unresolved Methods limits."
+  },
+  "followup_questions": [
+    "Retrieve lawful main Methods/captions to resolve exact menaquinone, dose, route, antibody/primer specificity, assay normalization and biological allocation.",
+    "Separate per-cell BubR1 changes from tissue-composition shifts and test causal BUB1B dependence.",
+    "Determine whether benefit extends to delayed treatment or a BUB1B-deficient model without assuming it from injury prevention."
+  ],
+  "reading_manifest": {
+    "file": "reading-manifest.json",
+    "sha256": "ec06501890b59ee245dcac16256096302b470faf40cd75439c9ee36d23d1b78e"
+  },
+  "retrieval_manifest": {
+    "file": "retrieval-manifest.json",
+    "sha256": "9f39799e867490adefe645b4432520860144c5004a1e3f3b61ae055a3129f0b2"
+  },
+  "source_assets_sha256": {
+    "metadata.json": "969ace700099477a1e496d43b549e705a1854f175427a2b4f9e0b003dee03aac",
+    "publisher-tdm.xml": "f3cfc06134831dc17dc6f646e5d2c0208b0dbaf46fe3bd51622ab18c81e3be82",
+    "crossref.json": "408baed83dd799580893fbc73118495409ef79047dfc468484058ad65186838f",
+    "supplement1.docx": "73388ecfcb9aab9038a79efc34f3b54d391a1509b983434784234fa42c06dd64",
+    "figure1.jpg": "0acd0f29f0d036910f64ed22669d3daba307f12a9bd238658fa185c52f6daf12",
+    "figure2.jpg": "059a20a2adfec649723a5c9ded1f8e78819964487ffef57aeb91700cceb6e2bb",
+    "figure3.jpg": "0b74f9ff92fa7653a21269517710eb2b69e2a2ff1f4af9b30527c8455bc823ff",
+    "figure4.jpg": "cb66988e20bbfc6de8f39effa363006f03e1b2fc07ddbcf3ac515fb008b8ff35",
+    "figure5.jpg": "f9bd48e5b673bc8e93f002ee860f275dd67c7e138a3e74b166e90cf2fad939dd",
+    "supplement-media/image1.jpeg": "8c58d61b6c69beda7b6dcd32479dbeec380c31249a6de153c3a0df450a067bbd",
+    "supplement-media/image2.jpeg": "60c38d5e21f860114a730eb14f685d22c76f561c0ee2d321b63984967c75e21c",
+    "supplement-media/image3.jpeg": "e7338d42e975cd81e9dcb0b44f2b70e012743966af683b2e6e385df31155f449",
+    "supp-part-01.txt": "7e49b662e7bf10a5b93ced6247d77d776818c905d8dd2c651cc02a0fb470a0c5",
+    "supp-part-02.txt": "3a76df4ea82a5478abee43c02220e2b1a0d14353aa2c949d4fb0399a301e7d52"
+  },
+  "source_reviewer_status": "PARTIAL_EXACT_SOURCE_QUALIFIED_MAIN_METHODS_INACCESSIBLE",
+  "source_reviewer_integration_limits": {
+    "repository_modified": false,
+    "ledger_modified": false,
+    "new_appraisal_count": 0,
+    "outer_reading_credit": 0,
+    "root_reading_scope_invented": false,
+    "independent_replication_claim": false,
+    "nominee_promotion": false
+  },
+  "status": "INTEGRATED_WITH_SOURCE_SPECIFIC_READING_AND_ASSAY_LIMITS",
+  "qualification_md_sha256": "aef1885eb4d23ed09de1dc26562d2581f12bbfd8d75fe1d08135d87b6daae839",
+  "integration": {
+    "baseline": "b7c292408b99afc80493a8cb462e929caff9ed04",
+    "baseline_assessments": 219,
+    "current_assessments": 222,
+    "prior_decision_objects_unchanged": 218,
+    "refined_prior_ids": [
+      "new-vitamin-k2"
+    ],
+    "decision_id": "new-vitamin-k2",
+    "frozen_source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-k2-primary-followup-20260923/qualification.json",
+      "sha256": "8b818c33caad049adc940b4b4b44485c0dafe72e9af8b6f2c94703f6795b28fe"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/reproductive-functional-integration-20260923/root-reading.json",
+      "sha256": "e7e453696c8d559cfb0fe1309cc2066cada0dc995533bb4e7281d0865d1566f0"
+    },
+    "new_original_queue_credit": 0,
+    "all47_source_question_records_unchanged": true,
+    "MVA_efficacy_or_nominee_superiority_established": false,
+    "independent_review": {
+      "accepted": true,
+      "scope": "Bounded independent K2 native-figure/complete supplement/abstract review agrees with source qualification; full main/Methods remain unread. Root separately inspected the critical native panels and supporting captions.",
+      "inputs": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-k2-primary-followup-20260923/independent/independent-check.md",
+          "sha256": "b5b22b74506717cf9f59f48a2cb2db01a857ba3dceab56725d5507dddd4d2d77"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-k2-primary-followup-20260923/independent/independent-check.json",
+          "sha256": "cc6dba426c6f3e33f8b55a4750d3924e057d46edc04cce91cc023997756a706f"
+        }
+      ]
+    }
+  }
+}
