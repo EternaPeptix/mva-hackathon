@@ -1,0 +1,345 @@
+{
+  "source": {
+    "record": "MED:29685974",
+    "pmcid": "PMC5915714",
+    "doi": "10.1098/rstb.2017.0070",
+    "title": "Identification of a novel small molecule that inhibits deacetylase but not defatty-acylase reaction catalysed by SIRT2",
+    "authors": "Kudo N, Ito A, Arata M, Nakata A, Yoshida M",
+    "year": 2018,
+    "urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5915714/",
+      "https://doi.org/10.1098/rstb.2017.0070",
+      "https://www.researchgate.net/publication/324705445_Identification_of_a_novel_small_molecule_that_inhibits_deacetylase_but_not_defatty-acylase_reaction_catalysed_by_SIRT2"
+    ]
+  },
+  "assessment": "Retain substrate-selective SIRT2 probe, PANC-1 anti-growth/viability positive and separately measured HeLa BubR1-protein decrease. No demonstrated MVA rescue, normal-cell therapeutic window or niacin efficacy.",
+  "access_depth": {
+    "continuous_main": "Complete Introduction, Methods a-h, Results a-f, Discussion, Table 1 and all five main figure legends read through the Royal Society-provided full-text preview on ResearchGate. Primary PMC indexed sections corroborate key claims.",
+    "main_figure_pixels_read": [],
+    "figure_text_only": "Publisher preview provides extracted axis/lane labels; exact panel-dose values below are text-extracted, not visually verified.",
+    "supplements": "No separate supplement identified in accessible article or Europe PMC metadata (hasSuppl=N); none read.",
+    "primary_pdf": "Not obtained; apparent downloaded PDF was HTML. Normal PMC/publisher routes challenged or returned403; BioC no result; EPMC XML500. No challenge bypass.",
+    "deposited_data": "PDB5Y0Z and ligand8K9 metadata checked; coordinates/diffraction not reanalysed.",
+    "additional_abstract_credit": 0
+  },
+  "identity": {
+    "name": "NPD11033",
+    "aliases": [
+      "NPD11033",
+      "NPD-11033",
+      "NPD 11033"
+    ],
+    "type": "Synthetic cytisine-derived compound, not cytisine itself",
+    "study_supplier": "Pharmeks Ltd through local distributor",
+    "study_catalog_or_lot": null,
+    "inactive_analogue": "RK-0310020; two bulky 1,1-dimethylpropyl substituents replaced by methyl groups",
+    "deposited_complex": "5Y0Z",
+    "deposited_ligand": "8K9",
+    "formula": "C30H44N2O3",
+    "pdb_molecular_weight": 480.682,
+    "pdb_inchikey": "ITCUJNFERKWPKY-WMTXJRDZSA-N",
+    "verified_cas": null
+  },
+  "biochemistry": [
+    {
+      "endpoint": "SIRT2 deacetylase inhibition",
+      "ic50_micromolar": 0.46,
+      "sd_micromolar": 0.056,
+      "assay": "Fluorescent acetyl-lysine peptide electrophoretic mobility shift, following a fluorogenic screen",
+      "replication": "Figure 1: three independent assays; Methods: IC50 mean/SD from at least three independent dose-response curves",
+      "selectivity_panel": "Marginal effect on SIRT1/SIRT3; no inhibition of HDAC1/HDAC6 under tested conditions, TSA active control",
+      "limits": "No comprehensive off-target panel, no general claim covering untested SIRT4-7; precise HDAC-panel dose not recovered."
+    },
+    {
+      "endpoint": "RK-0310020 negative control",
+      "result": "Lost SIRT2 deacetylase inhibition; extracted Figure 3 label IC50>50 micromolar",
+      "replication": "Three independent assays",
+      "limits": "No measurement of equal cellular uptake/exposure."
+    },
+    {
+      "endpoint": "SIRT2 demyristoylation",
+      "result": "NPD11033 inactive even at1 mM; extracted Figure 4 label IC50>1000 micromolar",
+      "substrate": "50 micromolar Ac-RHKK(Myr)-MCA",
+      "cofactor": "0.1 mM NAD",
+      "conditions": "20 microlitres;50 mM Tris-HCl pH 9.0, 4 mM MgCl2, 0.2 mM DTT;37 C for 60 min, trypsin development for 15 min",
+      "comparators": "SirReal2 also fails to inhibit demyristoylation; suramin inhibits both deacetylation and demyristoylation",
+      "replication": "Three independent assays",
+      "limits": "Applies to tested substrate/assay, not all cellular defatty-acylation. Retention versus kick-out models are unresolved. Do not compute a universal selectivity constant from unlike assays."
+    }
+  ],
+  "binding": {
+    "evidence": "2.0 Angstrom SIRT2-NPD11033 crystal structure; hydrophobic cavity and reported 2.8 Angstrom ligand-His187 hydrogen bond",
+    "protein": "SIRT2 residues 52-356",
+    "crystallization": "17 mg/mL purified protein with 1 mM ligand",
+    "cellular_occupancy_measured": false,
+    "kinetic_NAD_competition_established": false,
+    "residence_time_measured": false
+  },
+  "cellular_arms": [
+    {
+      "id": "Figure 5A",
+      "cell": "PANC-1",
+      "endpoint": "Acetyl-eIF5A western blot",
+      "NPD11033_micromolar": [
+        1,
+        3,
+        10,
+        20
+      ],
+      "dose_provenance": "Text-extracted lane labels; pixels not inspected",
+      "duration_hours": 8,
+      "co_treatment": "1 micromolar TSA",
+      "controls": [
+        "TSA alone",
+        "20 micromolar RK-0310020",
+        "20 micromolar SirReal2"
+      ],
+      "result": "NPD11033 increased eIF5A acetylation; inactive analogue did not",
+      "normalization": "Total eIF5A also measured",
+      "replicate_n": null,
+      "limit": "Cannot transfer the combined TSA/NPD11033 acetylation response to NPD11033 alone."
+    },
+    {
+      "id": "Figure 5B",
+      "cell": "HeLa",
+      "endpoint": "BubR1 protein western blot",
+      "NPD11033_micromolar": [
+        3,
+        10,
+        30
+      ],
+      "dose_provenance": "Text-extracted lane labels; pixels not inspected",
+      "duration_hours": 24,
+      "controls": [
+        "DMSO label",
+        "30 micromolar RK-0310020",
+        "20 millimolar nicotinamide (NA)"
+      ],
+      "result": "Dose-dependent BubR1 decrease with NPD11033, not inactive analogue",
+      "normalization": "Alpha-tubulin loading control",
+      "replicate_n": null,
+      "quantitative_densitometry_reported": false,
+      "limit": "Not a PANC-1 BubR1 result; no half-life, acetyl-BubR1, ubiquitination, BUB1B mRNA or chromosome-segregation result. NA denotes nicotinamide, not nicotinic acid."
+    },
+    {
+      "id": "Figure 5E",
+      "cell": "PANC-1",
+      "endpoint": "ATPlite viable-cell ATP signal",
+      "starting_cells_per_well": 5000,
+      "NPD11033_micromolar": [
+        0,
+        0.1,
+        0.3,
+        1,
+        3,
+        10,
+        30,
+        60
+      ],
+      "dose_provenance": "Text-extracted axis labels; pixels not inspected",
+      "duration_hours": 72,
+      "co_treatment": "No TSA specified in this pharmacology arm",
+      "controls": [
+        "SirReal2 active comparator",
+        "RK-0310020 inactive analogue"
+      ],
+      "result": "NPD11033 and SirReal2 reduce signal; RK-0310020 does not reduce growth through 60 micromolar",
+      "NPD11033_ic50_micromolar": 7.5,
+      "NPD11033_ic50_sd_micromolar": 1.3,
+      "replicate_n": 3,
+      "replicate_unit": "Independent assays; mean with SD",
+      "limit": "Actual anti-growth/viability positive, but ATP assay alone does not distinguish cytostasis, per-cell ATP changes and death. No direct apoptosis, clonogenic, animal-tumour or survival outcome."
+    },
+    {
+      "id": "Figure 5C-D",
+      "cell": "PANC-1",
+      "endpoint": "Genetic SIRT2 knockdown and ATPlite signal",
+      "intervention": "SilencerSelect siRNAs s22707 and s22708 using RNAiMAX",
+      "control": "AllStars non-targeting siRNA",
+      "siRNA_dose": null,
+      "protein_time_days": 5,
+      "viability_time_days": 7,
+      "result": "Reduced SIRT2 protein and viability",
+      "replicate_n": 4,
+      "replicate_unit": "Independent assays; SD",
+      "statistics": "Student t-test; Methods specify **p<0.01, legend prints **p=0.01. Exact threshold notation inconsistent.",
+      "limit": "Genetic phenocopy supports mechanism; no resistant-target rescue establishing exclusive drug action."
+    }
+  ],
+  "culture_and_vehicle": {
+    "PANC1": "DMEM, 10% heat-inactivated FBS, antibiotics, 37 C, 5% CO2",
+    "HeLa_culture": "Not detailed in the read Materials/cell-culture paragraph",
+    "cell_vehicle": "DMSO is labelled in extracted figure; final fraction and matching across all arms not specified",
+    "study_lot_purity": null
+  },
+  "attribution_and_limits": {
+    "target_support": [
+      "Direct purified-protein crystal binding",
+      "Orthogonal biochemical assays",
+      "Inactive structural analogue",
+      "SirReal2 comparator",
+      "Two-siRNA growth phenocopy",
+      "Cellular eIF5A/BubR1 pharmacodynamic readouts"
+    ],
+    "not_established": [
+      "Exclusive cellular target causality",
+      "Causal role of BubR1 loss in PANC-1 growth inhibition",
+      "Normal-cell safety",
+      "In-vivo drug efficacy",
+      "Exposure or pharmacokinetics",
+      "Therapeutic index",
+      "MVA/BUB1B-variant benefit",
+      "Faithful chromosome segregation",
+      "Muscle strength or regeneration"
+    ],
+    "text_label_corrections": [
+      "Study in-vivo inhibition heading refers to cultured cells, not administered animals.",
+      "Main Results cite Figure 5C for inactive-analogue growth comparison; Figure 5 legend places the concentration-response in 5E.",
+      "Figure 5B is HeLa, not PANC-1."
+    ]
+  },
+  "niacin_implication": {
+    "supports": "SIRT2 deacetylase inhibition lowering HeLa BubR1 is consistent with a SIRT2/BUBR1 abundance mechanism and makes substrate-resolved protein measurements important.",
+    "does_not_establish": "No nicotinic-acid intervention, no NAD-precursor-to-SIRT2-to-variant-BUBR1 rescue chain, no allele-specific abundance/function or muscle endpoint.",
+    "direction": "Neither cancer-cell anti-growth nor HeLa BubR1 reduction justifies a class-wide claim that SIRT2 inhibition or activation is always beneficial/harmful.",
+    "nicotinamide_control": "20 mM nicotinamide; not niacin/nicotinic acid",
+    "clinical_efficacy_probability": null
+  },
+  "current_research_supply": {
+    "checked_utc": "2026-09-23T04:37:47.316057+00:00",
+    "listings": [
+      {
+        "supplier": "Probechem",
+        "catalog": "PC-24697",
+        "url": "https://www.probechem.com/products_NPD11033.aspx",
+        "availability": "Quotation-only laboratory-use listing; immediate batch stock not established"
+      },
+      {
+        "supplier": "MedKoo",
+        "catalog": "564325",
+        "url": "https://www.medkoo.com/products/30255",
+        "availability": "Page states currently out of stock; possible custom synthesis"
+      }
+    ],
+    "clinical_status_assessed": false,
+    "historical_lot_match_verified": false,
+    "identity_caveat": "PDB 8K9 specifies hydroxyl-bearing stereocentre and InChIKey ITCUJNFERKWPKY-WMTXJRDZSA-N; MedKoo InChI leaves that centre unspecified (ITCUJNFERKWPKY-JCVDRHSJSA-N). No authenticated batch COA or stereochemical equivalence established; this discrepancy does not prove a supplier batch is wrong."
+  },
+  "decision_reconciliation": {
+    "existing_NPD11033": false,
+    "proposed_id": "new-npd11033",
+    "disposition": "Retain substrate-selective mechanistic counter-probe and cancer-cell viability positive, with separate HeLa BubR1-lowering result; no MVA rescue claim.",
+    "active_comparator": {
+      "name": "SirReal2",
+      "existing_alias_found": false,
+      "reason": "Distinct actual PANC-1 active comparator retained; no SirReal2 BubR1 effect is inferred.",
+      "decision_id": "new-sirreal2"
+    },
+    "existing_TSA_id": "new-trichostatin-a",
+    "suramin": "Biochemical dual-activity positive comparator; not demonstrated cellular rescue in this source.",
+    "RK0310020": "Inactive assay control, not a therapeutic lead.",
+    "possible_context_updates": [
+      "prior-01 niacin",
+      "prior-06 nicotinamide"
+    ],
+    "nomination_change_established": false
+  },
+  "sirreal2_addendum": {
+    "date": "2026-09-22",
+    "primary_source": {
+      "pmid": "29685974",
+      "pmcid": "PMC5915714",
+      "doi": "10.1098/rstb.2017.0070"
+    },
+    "decision_id": "new-sirreal2",
+    "new_abstract_reading_credit": 0,
+    "identity": {
+      "compound": "SirReal2",
+      "study_supplier": "Sigma",
+      "study_catalog_number": "not stated",
+      "study_lot": "not stated",
+      "current_manufacturer": "Sigma-Aldrich",
+      "catalog": "SML1514",
+      "aliases": [
+        "SirReal 2",
+        "Sirtuin-rearranging ligand 2"
+      ],
+      "cas": "709002-46-0",
+      "formula": "C22H20N4OS2",
+      "molecular_weight_g_mol": 420.55,
+      "inchikey": "MENNDDDTIIZDDN-UHFFFAOYSA-N",
+      "catalog_role": "current research reagent listing; not clinical approval or verified historical-lot identity",
+      "current_url": "https://www.sigmaaldrich.com/US/en/product/sigma/sml1514"
+    },
+    "assays": [
+      {
+        "panel": "Figure 5E",
+        "system": "PANC-1",
+        "treatment": "SirReal2 concentration series; no TSA specified",
+        "time_hours": 72,
+        "extracted_axis_micromolar": [
+          0,
+          0.1,
+          0.3,
+          1,
+          3,
+          10,
+          30,
+          60
+        ],
+        "endpoint": "ATPlite ATP-based viability",
+        "result": "decreased viability",
+        "independent_assays": 3,
+        "error": "SD",
+        "cells_per_well": 5000,
+        "sirreal2_cellular_ic50": "not reported numerically",
+        "controls": "NPD11033 active comparator and RK-0310020 inactive analogue in same experiment; extracted figure has untreated zero-concentration condition",
+        "final_vehicle_percent": "not stated",
+        "limit": "Original pixels not inspected; do not infer apoptosis or normal-cell safety from ATP alone."
+      },
+      {
+        "panel": "Figure 5A",
+        "system": "PANC-1",
+        "treatment": "SirReal2 20 micromolar plus TSA 1 micromolar",
+        "time_hours": 8,
+        "endpoint": "acetylated eIF5A immunoblot",
+        "result": "active positive comparator",
+        "replicate_n": "not stated",
+        "controls": "TSA-alone condition, NPD11033 dose series and RK-0310020; total eIF5A measured",
+        "limit": "Co-treatment evidence; not proof of equivalent SirReal2-alone signal."
+      },
+      {
+        "panel": "Figure 4B-C",
+        "system": "purified SIRT2",
+        "result": "deacetylation inhibition without inhibition of tested demyristoylation",
+        "limit": "Do not generalize across all acyl substrates; original figure pixels not inspected."
+      }
+    ],
+    "bubr1": {
+      "sirreal2_measurement_in_this_paper": false,
+      "explanation": "Figure 5B HeLa BubR1 arm tests NPD11033 with inactive analogue and nicotinamide, not SirReal2. Do not transfer its lowering result or vendor biology to this qualified SirReal2 evidence."
+    },
+    "boundaries": [
+      "No SirReal2-specific numerical MVA efficacy",
+      "No BUB1B variant rescue",
+      "No normal-cell therapeutic index",
+      "No drug-treated animal outcome in this paper",
+      "NPD11033 crystal-binding structure and numerical cellular potency belong to NPD11033",
+      "No full figure-image or supplementary-material reading credit"
+    ],
+    "previous_outputs_sha256": {
+      "appraisal.md": "64c5d184e26d39c13d84a220677cc270b4e498205adc3788a3b649b89e8b81a0",
+      "evidence.json": "4faef1aec1103c236e61efd4198f9e338d6df593a8ec0495dfe9b59d7b434522",
+      "manifest.json": "f7b8eb2595b84e3b52d3c54da48fa99934fdccc04421a6a5aa12d55fd9d6e4bf",
+      "decision-proposal.json": "e0b9fba89074e20e3dc659f1d5ae675903b32c59f58c883ebe6d4d8c56c9a1cc"
+    }
+  },
+  "source_sha256": {
+    "publisher-preview-methods.json": "c3525e6381d574f9278926b62249333706683a344e2a7ec524cb6c836f79144d",
+    "publisher-preview-results.json": "3843e89f3293da1fcecd6be846e32a3475a8cf71606a78d8bc1f5721e4269edb",
+    "publisher-preview-discussion.json": "187b97d4e043f623e686f9862eeb401caaef210ff499a42e024956dfc4dc031b",
+    "pdb-entry.json": "10d2457b785328ec70c13c7038b78ff4dd254a02f18d0dd5f7b8ee0def1bf0a7",
+    "pdb-ligand-8K9.json": "028935e0513a96ce05be43b111b2bd51946c816551b5ad00560c350c9ceedde6"
+  },
+  "independent_check": "Root checked extracted primary Figure 5 legend and ATPlite Methods for cell type, timing, co-treatment and replication. No original image review or separate full-paper review claimed."
+}

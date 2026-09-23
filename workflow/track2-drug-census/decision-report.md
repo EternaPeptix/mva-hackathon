@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 128 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 133 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 The [three-paper comparison](vascular-enzyme-qualification.md) retains
 anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
@@ -272,8 +272,8 @@ restoration or MVA efficacy, and the nominated pair is unchanged.
 
 The [source revalidation](review-quality-followup.md) withdraws the proposed
 all-read/no-further-leads conclusion from an unreliable draft. The initial 186
-re-read source records plus [three subsequent 128-record batches](batch03-revalidation-findings.md)
-leave 3,028 selected strings requiring revalidation. The
+re-read source records plus [four subsequent 128-record batches](batch04-revalidation-findings.md)
+leave 2,900 selected strings requiring revalidation. The
 [UMK57 appraisal](umk57-qualification.md) adds a genuine acute and completed-division
 fidelity result in cancer cells, followed by limited durability. It is a
 mechanistic competitor, not an established MVA medicine. Apcin's context-dependent
@@ -295,8 +295,8 @@ recovered matches and source-role decisions into current coverage and triage:
 511 entities have specific co-mentions, while 14,846 remain without one. A
 match is not efficacy. The [primary-question status](primary-question-status.json)
 now links nine of the original 34 questions to primary qualifications, leaving
-25 unreconciled there. The three later batches flag 52, 49 and 31 further
-questions respectively; 3,028 selected strings still require revalidation. Publication and
+25 unreconciled there. The four later batches flag 52, 49, 31 and 34 further
+questions respectively; 2,900 selected strings still require revalidation. Publication and
 submission remain pending.
 
 
@@ -344,6 +344,29 @@ Bub1b evidence is RNA association; neither full-length BUBR1 restoration nor
 muscle rescue was measured. Historic reagent identity and unread figure images
 and supplements remain explicit limits.
 
-The current ledger has **128 appraisals**. These positives broaden the evidence
+At that stage, the ledger reached **128 appraisals**. These positives broaden the evidence
 without demonstrating a better MVA candidate. Niacin/apitegromab remain
 provisional, and further source questions remain open.
+
+
+## Broader compounds: separate survival, protein abundance and fidelity
+
+The [injury study](mapk-injury-qualification.md) and
+[SIRT2 study](sirt2-substrate-qualification.md) add five appraisals, for **133**
+in total. These are two primary-study appraisals with multiple compounds and separate
+checkpoint counterevidence, not five independent demonstrations of benefit. All preceding decision objects are
+preserved, including PR1's retained work.
+
+| Compound | Evidence earned | Decision and limiting evidence |
+|---|---|---|
+| **FR180204** | Early protection of morphology, actin and metabolic signal after fungal-filtrate injury in A549 cells. | Injury-response reserve. Most signal is lost later; no BUBR1 protein, faithful division or muscle benefit measured. |
+| **SP600125** | Similar early protection, with residual metabolic benefit at 24 and 36 hours. | Counter-probe. Separate Mps1 work shows checkpoint override in susceptible cells; protecting injured cells does not establish faithful division. |
+| **SB203580** | A defined negative morphology/actin comparator in the same injury model. | Keep the scoped null; no matched p38 target-engagement proof or displayed XTT/flow arm. |
+| **NPD11033** | SIRT2 deacetylase inhibition, PANC-1 ATP-signal reduction and a separate dose-dependent HeLa BUBR1-protein decrease. | Mechanistic counter-probe. The protein direction supports measuring this pathway, but does not prove the reverse niacin-to-BUBR1 rescue chain. |
+| **SirReal2** | Actual PANC-1 ATP-signal reduction as a distinct SIRT2 comparator. | Retain the positive at its measured scope. The NPD11033 BUBR1 result was not measured for SirReal2 in this study. |
+
+None changes the provisional niacin/apitegromab comparison. Their advantages
+remain hypotheses and evidence from other diseases; these new studies supply
+neither a head-to-head comparison nor an MVA efficacy estimate. The
+[fourth reading batch](batch04-revalidation-findings.md) also retains further
+unqualified leads rather than declaring the search complete.

@@ -2200,6 +2200,97 @@
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC6555151/"
       ]
+    },
+    {
+      "decision_id": "new-fr180204-injury",
+      "match_aliases": [
+        "FR180204",
+        "FR-180204",
+        "FR 180204"
+      ],
+      "route": "FR180204 / ERK-linked injury response",
+      "disposition": "retain transient injury-response research reserve",
+      "evidence_scope": "Primary fungal-injury article and Figures 3\u20134; separate checkpoint-source access limits explicitly retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "At 50 micromolar with two-hour pretreatment and subsequent wash, FR180204 preserves A549 adhesion, actin and early metabolic signal after fungal filtrate. The representative 12-hour PI-positive/annexin-V-negative fraction is 10.7% versus 88.7% with wild-type filtrate, subject to detached-cell recovery bias. Most XTT signal is lost by 24\u201336 hours; benefit remains marked P<0.05 at 24 hours but not 36 hours. The BUB1B RNA row belongs to a wild-type versus PrtT-deficient filtrate comparison, not drug-treated cells. No BUBR1 protein, faithful division, muscle or MVA response is established.",
+      "source_report": "workflow/track2-drug-census/mapk-injury-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3055868/"
+      ]
+    },
+    {
+      "decision_id": "new-sp600125-injury",
+      "match_aliases": [
+        "SP600125",
+        "SP-600125",
+        "SP 600125"
+      ],
+      "route": "SP600125 / JNK-Mps1 compound with opposing injury and checkpoint effects",
+      "disposition": "retain injury positive and checkpoint counter-probe; decline fidelity-restoration lead",
+      "evidence_scope": "Primary fungal-injury article and Figures 3\u20134; separate checkpoint-source access limits explicitly retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "At 25 micromolar with two-hour pretreatment and subsequent wash, SP600125 reduces early A549 filtrate injury, with residual XTT benefit at 24 and 36 hours. Separate primary Mps1 work shows JNK-independent checkpoint override in U2OS and context-dependent BJ-Tert resistance. This is direct contrary evidence for faithful-division rescue, without proving patient-cell harm. Fungal-challenge BUB1B RNA is not drug restoration; neither injury protection nor cancer-cell checkpoint override establishes MVA benefit.",
+      "source_report": "workflow/track2-drug-census/mapk-injury-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3055868/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1369161/"
+      ]
+    },
+    {
+      "decision_id": "new-sb203580-injury",
+      "match_aliases": [
+        "SB203580",
+        "SB-203580",
+        "SB 203580"
+      ],
+      "route": "SB203580 / p38 injury-response comparator",
+      "disposition": "retain scoped negative morphology/actin result",
+      "evidence_scope": "Primary fungal-injury article and Figures 3\u20134; separate checkpoint-source access limits explicitly retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "At 25 micromolar with two-hour pretreatment and subsequent wash, SB203580 does not prevent A549 peeling or actin damage from fungal filtrate in the presented comparisons. No SB203580 XTT or flow arm is displayed, and p38-substrate inhibition is not verified in the matched experiment. This is a bounded negative comparator, not proof that all p38 inhibition fails or a measure of MVA efficacy.",
+      "source_report": "workflow/track2-drug-census/mapk-injury-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3055868/"
+      ]
+    },
+    {
+      "decision_id": "new-npd11033",
+      "match_aliases": [
+        "NPD11033",
+        "NPD-11033",
+        "NPD 11033"
+      ],
+      "route": "NPD11033 / substrate-selective SIRT2 deacetylase inhibition",
+      "disposition": "retain mechanistic counter-probe and PANC-1 viability positive; no MVA rescue established",
+      "evidence_scope": "Complete primary text and all five main figure legends from publisher-provided preview; original figure pixels and raw data unreviewed. Biochemical, PANC-1 and HeLa endpoints kept separate.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "NPD11033 inhibits SIRT2 deacetylation (IC50 0.46\u00b10.056 micromolar) but not the tested demyristoylation reaction through 1 mM. It reduces 72-hour PANC-1 ATPlite viability (IC50 7.5\u00b11.3 micromolar), with inactive-analogue, active-comparator and two-siRNA support. Separately, a 24-hour HeLa immunoblot shows dose-dependent BubR1 reduction; PANC-1 eIF5A acetylation uses TSA co-treatment. Preserve these actual molecular and cell-level effects without converting ATP reduction to proven apoptosis, general normal-cell safety, or chromosome/muscle rescue. Direct crystal binding supports SIRT2 engagement but does not establish exclusive cellular causality. Current research listings exist; historical-lot/current-batch stereochemical equivalence is unverified. The HeLa result is consistent with SIRT2/BUBR1 abundance regulation, not proof of the reverse niacin/NAD rescue chain.",
+      "source_report": "workflow/track2-drug-census/sirt2-substrate-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5915714/",
+        "https://doi.org/10.1098/rstb.2017.0070",
+        "https://www.rcsb.org/structure/5Y0Z"
+      ]
+    },
+    {
+      "decision_id": "new-sirreal2",
+      "match_aliases": [
+        "SirReal2",
+        "SirReal 2",
+        "Sirtuin-rearranging ligand 2",
+        "SML1514"
+      ],
+      "route": "SirReal2 / substrate-selective SIRT2 deacetylase inhibition",
+      "disposition": "retain PANC-1 viability positive and biochemical comparator; no MVA rescue established",
+      "evidence_scope": "Kudo 2018 primary Methods, Results and all main figure legends read in publisher-provided full-text preview; original figure pixels unreviewed. Current manufacturer catalog checked for identity only.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "In Kudo 2018, SirReal2 reduced 72-hour PANC-1 ATP-based viability in a concentration-response experiment with three independent assays; no numerical cellular IC50 was reported for SirReal2. At 20 micromolar with 1 micromolar TSA for 8 hours it served as a positive comparator for PANC-1 eIF5A acetylation. It inhibited purified SIRT2 deacetylation but not the tested demyristoylation reaction. Preserve these actual comparator effects without assigning NPD11033 potency, its crystal structure, or its separate HeLa BubR1-lowering result to SirReal2. ATP reduction alone does not establish apoptosis, normal-cell safety, chromosome rescue or muscle benefit. The study purchased SirReal2 from Sigma; current Sigma SML1514 lists SirReal2/SirReal 2, CAS 709002-46-0. This is a research-reagent identity mapping, not authentication of the historical study lot or clinical availability.",
+      "source_report": "workflow/track2-drug-census/sirt2-substrate-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5915714/",
+        "https://doi.org/10.1098/rstb.2017.0070",
+        "https://www.sigmaaldrich.com/US/en/product/sigma/sml1514"
+      ]
     }
   ]
 }

@@ -6,14 +6,12 @@ publication-hold status.
 [PR1 reuse](pr1-reuse.md) records which work is already incorporated, adds
 bounded UMK57 control findings, and preserves the later source corrections.
 
-The [three-paper comparison](vascular-enzyme-qualification.md) adds six
-intervention appraisals, including catalogue-listed research reagents. The
-[first 128 readings](next128-revalidation-findings.md) and
-[second](batch02-revalidation-findings.md) and
-[third 128 readings](batch03-revalidation-findings.md) preserve positive and
-adverse findings; 3,028 strings remain pending in the revalidation queue.
-The latest primary appraisals distinguish [renal protection](renal-growth-qualification.md)
-from [chemical-assisted reprogramming](reprogramming-qualification.md).
+The latest qualifications preserve [transient injury protection](mapk-injury-qualification.md)
+and distinguish it from checkpoint rescue. [NPD11033 and SirReal2](sirt2-substrate-qualification.md)
+add substrate-specific SIRT2 evidence, including a direct BUBR1-protein decrease
+under NPD11033. These research compounds do not establish MVA benefit.
+The [fourth 128-record revalidation](batch04-revalidation-findings.md) leaves
+2,900 selected strings pending; the search remains unfinished.
 
 **Catalog snapshot: 21 September 2026; corrected text screen: 22 September 2026,
 America/Phoenix (retrieval timestamps are UTC).**
@@ -438,8 +436,8 @@ all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
 claim full-text review of all ranked records. The current decision ledger contains
-128 curated route/compound appraisals, including research tools and a combination
-RNA program rather than 128 approved medicines.
+133 curated route/compound appraisals, including research tools and a combination
+RNA program rather than 133 approved medicines.
 
 The [unfiltered primary comparison](unfiltered-primary-qualification.md) resolves nine prioritized questions, adding six route/compound appraisals and updating existing NAC and nicotinamide entries. Collagen matrices remain a culture method; sFRP3 resolves to an already-qualified genetic study. Neither enlarges the medicine catalog. These qualifications preserve favorable functional results and source-specific counterevidence; they do not close the remaining search.
 
@@ -489,22 +487,24 @@ combination-specific; neither displaces the niacin/apitegromab comparison.
 
 The [quality follow-up](review-quality-followup.md) rejects an unreliable
 3,598-record draft's claim of faithful completion. The initial 186 literal
-revalidations and three subsequent 128-record batches now total **570 strings**,
-bringing the outer ledgers to **2,731 source/ID records** and leaving **3,028
+revalidations and four subsequent 128-record batches now total **698 strings**,
+bringing the outer ledgers to **2,859 source/ID records** and leaving **2,900
 selected strings pending**. The preceding 2,161 annotations have not been
-independently re-audited here. Four initial strings are non-abstract items, and
-the latest batch separately labels four conference abstracts. Original empty fields
-and later recovered bodies remain separately accounted for.
+independently re-audited here. Four initial strings are non-abstract items.
+The latest batch separately labels 124 abstracts, one editorial fragment,
+two commentaries and one preprint abstract. Original empty fields and later
+recovered bodies remain separately accounted for.
 
 The [first 128](next128-revalidation-findings.md) flagged 52 source questions;
-the [second 128](batch02-revalidation-findings.md) flagged 49 and the
-[third 128](batch03-revalidation-findings.md) flags 31. These are source questions,
-not qualified medicines or independent experiments. Eight independent
-cross-reader checks in the latest batch required no substantive changes;
-this is a targeted check, not an estimated annotation error rate. Two linked
-retraction notices were read separately without adding abstract credit.
-The earlier batch retains its two explicit wording corrections and separate
-author-name erratum assessment.
+the [second](batch02-revalidation-findings.md) flagged 49,
+[third](batch03-revalidation-findings.md) 31, and
+[fourth](batch04-revalidation-findings.md) 34. These are questions, not qualified
+medicines or independent experiments. Eight independent cross-reader checks in
+the latest batch required no substantive amendments; this is a targeted check,
+not an estimated annotation error rate. One linked retraction notice was read
+separately, in addition to the preceding batch's two; none adds abstract credit.
+Four errata linked in the latest batch remain pending. Earlier notice and
+annotation decisions are retained at their declared scope.
 
 [UMK57](umk57-qualification.md) adds actual acute and post-division fidelity
 evidence with limited durability, bringing that stage to 109 appraisals.
@@ -541,7 +541,18 @@ this adds no duplicate compound or abstract-reading count.
 The [renal](renal-growth-qualification.md) and
 [reprogramming](reprogramming-qualification.md) qualifications add four distinct
 compound entries and update existing rapamycin and mirdametinib assessments,
-bringing the current ledger to **128**. Positive renal function and cocktail-level
+bringing that stage to **128**. Positive renal function and cocktail-level
 pluripotency outcomes remain attributed to their actual interventions. These
 are not four additional independent efficacy experiments or demonstrated MVA
 responses. The 15,357-entity retrieval denominator is unchanged.
+
+
+The [MAPK injury](mapk-injury-qualification.md) and
+[SIRT2 substrate](sirt2-substrate-qualification.md) qualifications add five
+compound entries, bringing the current ledger to **133** while preserving all
+128 preceding decision objects. FR180204/SP600125 injury protection, the
+SB203580 morphology/actin null, NPD11033 protein/ATP findings and SirReal2's
+separate ATP result retain their model and endpoint boundaries. All five lack
+an exact alias match in the saved clinical catalog; they are research-compound
+appraisals, not additions to the 15,357-entity retrieval denominator. No MVA
+efficacy or change of nominee is established.

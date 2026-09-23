@@ -10,7 +10,7 @@ revised pitch, editable slides and revision-specific reviewer assessments.
   BUB1B **p.(Leu737Ter) + p.(Asn1002Lys)**, at subjective **EPCR 0.8**.
   Phase is unresolved and the missense remains VUS.
 - **[Track 2: selected medications and proposal](reports/jeweled_track2_report_submission.md).**
-  **Niacin (nicotinic acid) and apitegromab are the primary research comparison**, tested separately.
+  **Niacin (nicotinic acid) and apitegromab are the provisional primary research comparison**, tested separately.
   They test usable BUBR1 restoration versus downstream muscle compensation; everolimus remains a conditional mechanism probe. They share the
   same goal: greater absolute muscle output, preserved renewal and no worsened chromosome fidelity.
 - **[Submission index, methods and proposed pitch](reports/README.md).**
@@ -20,7 +20,9 @@ revised pitch, editable slides and revision-specific reviewer assessments.
 
 ## Start here
 
-**Track 2 update:** the [broad drug search](workflow/track2-drug-census/decision-report.md) is incorporated into the report, methods, experimental plan and revised narration. Niacin tests restoration; apitegromab tests compensation. The census screens 15,357 entities plus 40 separate FDA product entries, with 128 curated route/compound appraisals; retrieval is not evidence of every drug’s efficacy. The new eight-slide movie measures 180 seconds: 166.64 seconds of speech and 13.36 seconds of transitions. Technical frame, audio and caption checks passed; no full independent listening review is claimed. Vimeo V3 replacement, new title/description and signed-out apitegromab-slide/caption correspondence at 01:19 were verified on 21 September 2026. Track 2 submission remains pending.
+**Track 2 update:** the [broad drug search](workflow/track2-drug-census/decision-report.md) is incorporated into the report, methods, experimental plan and revised narration. Niacin tests restoration; apitegromab tests compensation. The census screens 15,357 entities plus 40 separate FDA product entries, with 133 curated route/compound appraisals; retrieval is not evidence of every drug’s efficacy. The new eight-slide movie measures 180 seconds: 166.64 seconds of speech and 13.36 seconds of transitions. Technical frame, audio and caption checks passed; no full independent listening review is claimed. Vimeo V3 replacement, new title/description and signed-out apitegromab-slide/caption correspondence at 01:19 were verified on 21 September 2026. Track 2 submission remains pending.
+
+The [fourth source-revalidation batch](workflow/track2-drug-census/batch04-revalidation-findings.md) brings the accepted queue to 698 source records. Five new appraisals preserve the [MAPK injury-model findings](workflow/track2-drug-census/mapk-injury-qualification.md) and [SIRT2 compound findings](workflow/track2-drug-census/sirt2-substrate-qualification.md); all 128 earlier appraisal objects are unchanged. These results refine the alternatives without establishing MVA rescue or changing the proposed research pair.
 
 - [Reproduction guide and public replay](REPRODUCIBILITY.md)
 - [Recorded environment](workflow/environments/20260919/runtime.json)

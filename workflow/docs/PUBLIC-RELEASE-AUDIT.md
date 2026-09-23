@@ -724,3 +724,28 @@ checks corrected the delayed calorie-restriction endpoint wording and verified
 the reprogramming timing and identity boundaries. The original inventory,
 historical source fields, Track 1 uploads and pitch media are preserved. This
 private draft update is not a publication or submission approval.
+
+
+## Fourth revalidation batch and injury/SIRT2 qualification
+
+The [fourth 128-record batch](../track2-drug-census/batch04-revalidation-findings.md)
+preserves the preceding 570 records and raises accepted revalidation to 698,
+with 2,859 outer source/ID records and 2,900 selected strings pending. It contains
+124 abstracts, one saved fragment, two commentaries and one preprint abstract.
+Eight independent sample checks required no substantive changes. One retraction
+notice was read separately, without additional reading credit; four linked
+errata remain pending. Original part annotations and earlier ledgers are
+preserved. Source/log replay and structural checks are separate from scientific
+interpretation and primary-paper qualification.
+
+The [injury](../track2-drug-census/mapk-injury-qualification.md) and
+[SIRT2](../track2-drug-census/sirt2-substrate-qualification.md) assessments add
+five research-compound entries for 133 appraisals. They preserve transient
+injury protection, adverse checkpoint/protein directions and distinct active
+comparators. All 128 preceding decision objects and all 109 PR1 candidate IDs
+remain. Neither assay protection nor ATP reduction establishes MVA benefit.
+
+Only original assessments, public bibliographic metadata and verification code
+are added. Source article text, images, supplementary spreadsheets and reading
+logs remain in the external cache. Track 1 uploads and pitch/media are preserved.
+This is a private draft update, not permission to publish or submit Track 2.

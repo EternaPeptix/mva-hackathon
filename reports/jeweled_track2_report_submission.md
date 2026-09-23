@@ -1,8 +1,8 @@
 # jeweled — Track 2: testing two ways to preserve muscle
 
-**Research proposal, revised 21 September 2026.**
+**Research proposal, revised 22 September 2026.**
 
-We nominate **niacin (nicotinic acid) for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The aim is useful muscle function with preserved renewal in a child with recorded muscle atrophy and failure to thrive. Everolimus remains a conditional signaling probe. Neither primary candidate has demonstrated MVA rescue; this is a research comparison, not a treatment recommendation.
+We provisionally nominate **niacin (nicotinic acid) for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The aim is useful muscle function with preserved renewal in a child with recorded muscle atrophy and failure to thrive. Everolimus remains a conditional signaling probe. Neither primary candidate has demonstrated MVA rescue; this is a research comparison, not a treatment recommendation.
 
 **Media updated:** the report, slides, narration and captions now use this pair. Vimeo V3 replaced the old recording at the same URL, with signed-out visual playback and matching captions verified on 21 September 2026. Track 2 remains unsubmitted.
 
@@ -34,7 +34,7 @@ A [related antibody in SMN-restored SMA mice](https://pmc.ncbi.nlm.nih.gov/artic
 
 ## What the completed work established
 
-The [public census](../workflow/track2-drug-census/README.md) screens **15,357 catalog/supplement entities**, with **40 FDA 2026 product entries assessed separately** and **128 curated route/compound appraisals**. It does not establish every drug's efficacy; missing evidence remains UNKNOWN. A separate [EMA status crosscheck](../workflow/track2-drug-census/ema-coverage-review.md) lists 1,568 authorised human products, with 180 unresolved whole-field name mismatches; this adds coverage, not efficacy claims. The [comparative assessment](../workflow/track2-drug-census/decision-report.md) preserves functional alternatives, including TM5484 muscle-force benefit, hesperetin motor performance and defect-specific Aurora/PLK1 balancing, with their treatment-window and control limitations.
+The [public census](../workflow/track2-drug-census/README.md) screens **15,357 catalog/supplement entities**, with **40 FDA 2026 product entries assessed separately** and **133 curated route/compound appraisals**. It does not establish every drug's efficacy; missing evidence remains UNKNOWN. A separate [EMA status crosscheck](../workflow/track2-drug-census/ema-coverage-review.md) lists 1,568 authorised human products, with 180 unresolved whole-field name mismatches; this adds coverage, not efficacy claims. The [comparative assessment](../workflow/track2-drug-census/decision-report.md) preserves functional alternatives, including TM5484 muscle-force benefit, hesperetin motor performance and defect-specific Aurora/PLK1 balancing, with their treatment-window and control limitations.
 
 A [six-paper follow-up](../workflow/track2-drug-census/protein-and-tissue-qualification.md)
 retains CX-4945 and metformin as protein-specific stabilization precedents,
@@ -51,6 +51,8 @@ or muscle benefit; research-product availability is separate from clinical evide
 [Apcin follow-up](../workflow/track2-drug-census/apcin-liver-qualification.md)
 credits mouse pretreatment organ protection while retaining unresolved survival
 timing and absent checkpoint-restoration evidence.
+
+Alongside the [fourth source batch](../workflow/track2-drug-census/batch04-revalidation-findings.md), primary follow-ups add five compound appraisals without altering the previous 128 objects. The [MAPK injury appraisal](../workflow/track2-drug-census/mapk-injury-qualification.md) preserves model-specific drug responses. The [SIRT2 appraisal](../workflow/track2-drug-census/sirt2-substrate-qualification.md) retains NPD11033 and SirReal2 PANC-1 viability effects, separating NPD11033's HeLa BUBR1-lowering result from SirReal2 and from a niacin-restoration hypothesis. These findings do not establish chromosome or muscle rescue in MVA or change the provisional research pair.
 
 **Ursolic acid is a substantive new muscle-compensation reserve.** The [primary comparison](../workflow/track2-drug-census/next576-primary-qualification.md) credits mouse grip/absolute-force preservation and a small randomized human secondary handgrip benefit alongside a separate controlled null. It challenges niacin on measured muscle benefit; niacin retains the distinct restoration hypothesis. Apitegromab retains stronger pediatric functional evidence. Ursolic-acid product/exposure eligibility and transfer to MVA remain unresolved. The same comparison upgrades bortezomib plus humanin for neonatal-mouse contracture prevention, while retaining mortality and reduced normal-muscle growth as reasons it remains a combination-specific reserve.
 
