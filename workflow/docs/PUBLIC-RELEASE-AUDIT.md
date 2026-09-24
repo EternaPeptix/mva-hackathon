@@ -1098,3 +1098,13 @@ Five portable files contain two source qualifications and a compact set of publi
 All original queue and 47 source-question files remain unchanged. Inventory replay adds two NIH exact-name relations, preserving all source fields and the other twelve FDA/SGC/NIH output tables. Name relations do not prove stereochemistry, formulation, regulatory eligibility, availability or efficacy. Raw papers, native figures and reading logs remain external. No original-queue reading, independent-study, MVA-efficacy or global-completion claim follows.
 
 Track 1, its methods prefix, current media, model/transfer/RNA workflows and experimental plan are unchanged. The repository remains private; both PRs are draft and unmerged; Track 2 remains unsubmitted.
+
+## Common muscle-compound comparisons, 23 September 2026
+
+Two assessments bring the ledger to 227: L-leucine and calcium-HMB. All 225 previous objects and all 109 PR1 IDs remain, with PR1 retention unchanged at 94 equal objects and fifteen earlier refinements. Five portable files contain two source qualifications and compact published HMB outcome estimates; no raw papers, native figures or participant data are added.
+
+Leucine qualification retains nominal walking/expiratory-pressure preservation from a 42/50 complete-case trial alongside LACE’s imprecise overall primary null. Positive subgroup estimates retain the published nonsignificant interaction values; no reanalysis or equivalence inference is claimed. LACE’s source-labelled leucine is not assigned unverified stereochemical identity. Calcium-HMB qualification retains a secondary gait-speed benefit, the protocol-specified calcium-unmatched control, primary mass interaction limits, and one cohort across two analyses. Its result mains remain inaccessible. Independent and root reading scopes are explicitly separate from the source reviewers’ scopes.
+
+Inventory replay adds one FDA L-leucine name link and four NIH name relations in three groups. All source fields and the other eleven FDA/SGC/NIH output tables remain unchanged. Two punctuation aliases do not create distinct compounds. All original queue and 47 source-question files remain unchanged. No new independent-study, original-queue, MVA-efficacy or worldwide-completion credit follows.
+
+Track 1, its methods prefix, current media, model/transfer/RNA workflows and experimental plan are unchanged. The repository remains private, both PRs draft and unmerged, and Track 2 unsubmitted.

@@ -1,11 +1,11 @@
 {
   "date": "2026-09-23",
   "reviewer": "/root",
-  "scope": "225-assessment replay adds two exact-name relations for creatine monohydrate and source-labelled glutamine. Source fields and six other tables remain unchanged; broader ingredient groups do not establish chemical, preparation or efficacy equivalence.",
+  "scope": "227-assessment replay adds four exact-name relations in three existing groups for L-leucine and calcium-HMB. Calcium-HMB punctuation variants are separate name rows, not separate compounds. Source fields and six other tables remain unchanged; name relations do not establish stereochemistry, preparation or efficacy equivalence.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/neuromuscular-compound-integration-20260923/dsld-replay/runs/60ae832885d316a135b4",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-muscle-supplement-integration-20260923/dsld-replay/runs/41c32716b58d1f37bbcd",
   "historical_ledger_count": 168,
-  "current_ledger_count": 225,
+  "current_ledger_count": 227,
   "unchanged_output_tables": [
     "alias-cells.tsv",
     "mentions.tsv",
@@ -27,6 +27,12 @@
       "name": "Capsaicin",
       "before": "[]",
       "after": "[\"new-capsaicin\"]"
+    },
+    {
+      "group_id": "2778",
+      "name": "Calcium hydroxymethylbutyrate",
+      "before": "[]",
+      "after": "[\"new-calcium-hmb\"]"
     },
     {
       "group_id": "397",
@@ -87,6 +93,18 @@
       "name": "Geranylgeraniol",
       "before": "[]",
       "after": "[\"new-trans-geranylgeraniol-source\"]"
+    },
+    {
+      "group_id": "2315",
+      "name": "Leucine",
+      "before": "[]",
+      "after": "[\"new-l-leucine-muscle\"]"
+    },
+    {
+      "group_id": "2188",
+      "name": "L-Leucine",
+      "before": "[]",
+      "after": "[\"new-l-leucine-muscle\"]"
     },
     {
       "group_id": "7793",
@@ -173,10 +191,10 @@
       "after": "[\"new-10-hda\"]"
     }
   ],
-  "name_crossrefs_added": 31,
+  "name_crossrefs_added": 35,
   "old_name_crossrefs_retained": 6800,
-  "current_name_crossrefs": 6831,
-  "current_summary_sha256": "60ae832885d316a135b45f62dee88bf7db8c626091582dc862c9c5df64536e77",
+  "current_name_crossrefs": 6835,
+  "current_summary_sha256": "41c32716b58d1f37bbcd2d5163001b550aa3183c280d2738630d49194d5166fe",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -226,52 +244,80 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "baseline_commit": "f2fe957bb3ae2167228ed25247deef59f2202ade",
-    "prior_appraisals": 222,
-    "current_appraisals": 225,
+    "baseline_commit": "72b1a8b3f78863bbf536a45ed6d7c6d107040c33",
+    "prior_appraisals": 225,
+    "current_appraisals": 227,
     "changed_output_tables": [
       "groups.tsv",
       "name-crossrefs.tsv"
     ],
     "changed_appraisal_group_rows": [
       {
-        "group_id": "397",
-        "name": "Creatine",
+        "group_id": "2778",
+        "name": "Calcium hydroxymethylbutyrate",
         "before": "[]",
-        "after": "[\"new-creatine-monohydrate-muscle\"]"
+        "after": "[\"new-calcium-hmb\"]"
       },
       {
-        "group_id": "75",
-        "name": "Glutamine",
+        "group_id": "2315",
+        "name": "Leucine",
         "before": "[]",
-        "after": "[\"new-glutamine-source-dmd\"]"
+        "after": "[\"new-l-leucine-muscle\"]"
+      },
+      {
+        "group_id": "2188",
+        "name": "L-Leucine",
+        "before": "[]",
+        "after": "[\"new-l-leucine-muscle\"]"
       }
     ],
     "added_name_crossrefs": [
       {
-        "group_id": "397",
-        "normalized_alias": "creatine monohydrate",
-        "source_alias_cell_ids": "[\"dsld:397:synonym:74\"]",
+        "group_id": "2778",
+        "normalized_alias": "calcium hmb",
+        "source_alias_cell_ids": "[\"dsld:2778:synonym:9\"]",
         "target_layer": "curated_appraisal",
-        "target_id": "new-creatine-monohydrate-muscle",
+        "target_id": "new-calcium-hmb",
         "target_name_field": "match_aliases",
-        "target_name_as_reported": "creatine monohydrate",
+        "target_name_as_reported": "calcium HMB",
         "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
         "ambiguity_flags": "[]"
       },
       {
-        "group_id": "75",
-        "normalized_alias": "glutamine",
-        "source_alias_cell_ids": "[\"dsld:75:group_name\",\"dsld:75:synonym:6\"]",
+        "group_id": "2778",
+        "normalized_alias": "calcium hmb",
+        "source_alias_cell_ids": "[\"dsld:2778:synonym:9\"]",
         "target_layer": "curated_appraisal",
-        "target_id": "new-glutamine-source-dmd",
+        "target_id": "new-calcium-hmb",
         "target_name_field": "match_aliases",
-        "target_name_as_reported": "glutamine",
+        "target_name_as_reported": "calcium-HMB",
         "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
         "ambiguity_flags": "[]"
+      },
+      {
+        "group_id": "2188",
+        "normalized_alias": "l leucine",
+        "source_alias_cell_ids": "[\"dsld:2188:group_name\",\"dsld:2188:synonym:1\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-l-leucine-muscle",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "L-leucine",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
+      },
+      {
+        "group_id": "2315",
+        "normalized_alias": "l leucine",
+        "source_alias_cell_ids": "[\"dsld:2315:synonym:16\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-l-leucine-muscle",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "L-leucine",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
       }
     ],
-    "name_crossrefs_added": 2,
+    "name_crossrefs_added": 4,
     "new_manual_reading_or_efficacy_credit": 0
   },
   "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
@@ -2557,10 +2603,10 @@
     }
   },
   "prior_parent_reconciliation": {
-    "commit": "f2fe957bb3ae2167228ed25247deef59f2202ade",
+    "commit": "72b1a8b3f78863bbf536a45ed6d7c6d107040c33",
     "repo_relative": "workflow/track2-drug-census/dsld-ingredients/parent-reconciliation.json",
-    "sha256": "b79b02ae9e6ee056b6c512f627fa9041b6fc98221c825cb11afbdb3a269f6006",
-    "appraisals": 222
+    "sha256": "1673b9c3741de49eb425278beab19190c4cb2d0e56b4a67afa2b03d6d1c13c4e",
+    "appraisals": 225
   },
   "current_delta_from181": {
     "changed_appraisal_group_rows": [

@@ -4002,6 +4002,46 @@
         "https://clinicaltrials.gov/study/NCT01995032"
       ],
       "identity_limit": "Tested two-component hospital-pharmacy regimen only. Main metformin tablets versus protocol capsules unresolved. Exact combined aliases only; no generic citrulline, metformin, AICAR, arginine, food or retail-product joins. No component inherits combination efficacy. Existing prior-27 is unchanged."
+    },
+    {
+      "decision_id": "new-l-leucine-muscle",
+      "match_aliases": [
+        "L-leucine"
+      ],
+      "route": "L-leucine / mixed older-adult muscle-function comparison",
+      "disposition": "retain mixed functional comparator; nominal small-trial preservation versus larger primary null, no BUB1B/MVA rescue established",
+      "evidence_scope": "Source reviewer read both complete scientific mains, all four native main figures and structured tables; LACE supplement text/native S3/S4, selected published protocol sections and current registries. Independent and root checks have separate, narrower scopes. No participant-level reanalysis, meta-analysis replication or new original-queue credit.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "The smaller 2020 trial tested explicit L-leucine and reported nominal between-arm preservation of baseline-relative walking time (P=.011) and expiratory mouth pressure (P=.026), mainly against placebo deterioration. Handgrip and mass-change comparisons were nonsignificant. Only 42/50 randomized participants were analyzed; multiplicity, baseline imbalance and reporting inconsistencies limit confidence. LACE tested source-labelled leucine: 145 randomized versus 440 planned, with adjusted primary SPPB difference 0.1 point (95% CI -1.0 to 1.1; P=.90) and nonsignificant strength and other functional comparisons. Positive low-protein, confirmed-sarcopenia and age-over-80 subgroup estimates have reported interaction P values .70, .06 and .76; they do not establish responder selection. Retain both functional positives and the overall null with its uncertainty. There is no demonstrated equivalence, global inactivity, BUBR1 restoration or comparative MVA efficacy.",
+      "source_report": "workflow/track2-drug-census/leucine-muscle-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7230494/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8977979/",
+        "https://clinicaltrials.gov/study/NCT03831399",
+        "https://www.isrctn.com/ISRCTN90094835",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5753568/"
+      ],
+      "identity_limit": "2020 explicitly names L-leucine powder; LACE names bulk leucine without CAS or stereochemical certificate. Exact L-name links to CHEMBL291962 and NIH groups2188/2315 are retrieval relations, not availability, approval or equivalent efficacy for D-leucine, isoleucine, protein/BCAA mixtures or metabolites."
+    },
+    {
+      "decision_id": "new-calcium-hmb",
+      "match_aliases": [
+        "calcium-HMB",
+        "calcium HMB"
+      ],
+      "route": "Calcium-HMB formulation / controlled adult gait-speed comparator",
+      "disposition": "retain bounded human functional comparator; broad exercise enhancement and nominee replacement not established",
+      "evidence_scope": "Partial results-source qualification: complete original abstracts from one trial and companion secondary analysis; full own-trial protocol text/native flow and bounded official registry history. Neither results main nor native results/supplement was obtained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "A 2×2 factorial trial of 156 older women with low muscle mass reports a secondary usual-gait-speed supplement main effect of +0.06 m/s (95% CI 0.01–0.11) after 12 weeks, distinct from broader exercise effects. Results abstracts label 1500 mg/day calcium-HMB; the own protocol specifies Kyowa powder with 1200 mg HMB plus 207 mg calcium and other nutrients. The protocol specifies placebo lacking both HMB and calcium, with their amounts replaced by carbohydrate, so isolated HMB-specific efficacy is not established. No exercise-by-HMB interaction was reported on primary mass outcomes, and the companion muscle-quality secondary analysis found no HMB-by-training interaction. The latter is the same cohort, not replication; its 0.71 N/mm functional-quality benefit belongs to exercise. 149 and 144 participants were assessed at 12/24 weeks; detailed missingness, final multiplicity/imputation, adherence and HMB-specific 24-week gait contrasts remain unverified. Registry reports 8 potentially supplementation-related events with no significant group difference but no arm counts; this does not establish safety equivalence. Retain the real gait signal while preserving study/formulation and access limits. Compared fairly with current nominees, controlled gait evidence deserves visibility beyond niacin’s open-label function context, while creatine has more directly relevant pediatric neuromuscular strength evidence and apitegromab has stronger documented pediatric primary motor-function evidence. No BUBR1 restoration or durable broad muscle benefit is established. None establishes comparative MVA efficacy.",
+      "source_report": "workflow/track2-drug-census/hmb-muscle-qualification.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34081113/",
+        "https://pubmed.ncbi.nlm.nih.gov/35288513/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6398682/",
+        "https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000032688"
+      ],
+      "identity_limit": "Exact calcium-HMB aliases only; NIH DSLD group 2778 is an ingredient-identity link, not product equivalence or approval. Do not force generic HMB/free-acid CHEMBL4303793, calcium, leucine, arginine-HMB or creatine-HMB joins. Actual final formulation remains bounded by protocol, not a verified manufactured batch."
     }
   ]
 }

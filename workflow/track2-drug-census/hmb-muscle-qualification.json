@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-23",
+  "sources": [
+    {
+      "pmid": "34081113",
+      "doi": "10.1093/ajcn/nqab176",
+      "role": "primary trial results",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34081113/",
+      "whole_main_read": false
+    },
+    {
+      "pmid": "35288513",
+      "doi": "10.1249/MSS.0000000000002836",
+      "role": "same-cohort secondary muscle-quality analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35288513/",
+      "whole_main_read": false
+    },
+    {
+      "pmid": "30819711",
+      "pmcid": "PMC6398682",
+      "doi": "10.1136/bmjopen-2018-025723",
+      "role": "own trial protocol",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6398682/",
+      "whole_scientific_text_read": true
+    }
+  ],
+  "registry": "UMIN000028560",
+  "principal_decision": "Retain controlled gait-signal comparator for tested calcium-containing formulation; broad exercise enhancement and durable HMB-specific function unestablished; no nominee replacement established.",
+  "formulation": {
+    "result_abstract_dose_mg_daily_calcium_HMB": 1500,
+    "protocol_daily_contents_mg": {
+      "HMB": 1200,
+      "calcium": 207,
+      "carbohydrate": 3500,
+      "protein": 30,
+      "fat": 20,
+      "sodium": 0.2
+    },
+    "limits": [
+      "Protocol composition distinguished from direct verification of actual product batch/result Methods.",
+      "No isolated HMB-specific causal attribution; calcium is not matched.",
+      "No free-acid/retail-product equivalence or measured exposure claim."
+    ],
+    "protocol_supplier": "Kyowa, Tokyo, Japan",
+    "protocol_administration": "powder mixed with200mL water once daily after any meal,12weeks",
+    "protocol_placebo": "same flavor/presentation; no HMB or calcium, with those amounts replaced by carbohydrate"
+  },
+  "design": {
+    "population": "156 women65-79 years with SMI<5.7kg/m²",
+    "factorial": "RT+active,RT+placebo,education+active,education+placebo",
+    "unit": "individual participant",
+    "cohort_relation": "one cohort with companion explicitly secondary analysis; not independent replication",
+    "masking_limit": "supplement masking plausible; exercise/education observable despite general double-blind wording",
+    "analyzed_schedule": "12weeks intervention,12weeks observation; later ethical second intervention excluded in native protocol flow",
+    "primary": "muscle mass",
+    "secondary": "strength, physical performance and other domains"
+  },
+  "positive": {
+    "outcome": "usual gait speed",
+    "effect_m_s": 0.06,
+    "ci95": [
+      0.01,
+      0.11
+    ],
+    "scope": "factorial supplement main effect, secondary outcome, multiplicity-adjusted status not verified"
+  },
+  "negative_or_limit": [
+    "No reported exercise-by-HMB interaction on primary mass outcomes.",
+    "Companion shows no HMB-by-RT interaction on either muscle-quality endpoint.",
+    "The strength/multiple-function positives in abstract are exercise main effects.",
+    "Most improvements disappear after observation, but HMB-specific gait persistence not numerically established.",
+    "Actual final imputation, per-arm missingness, adherence and detailed outcome CIs remain inaccessible."
+  ],
+  "bub1b_scope": "No BUB1B/BubR1 endpoint or MVA experiment identified in read abstracts/protocol; cannot assert comprehensive absence in inaccessible result mains.",
+  "registry_history": {
+    "current_version": 10,
+    "current_date": "2021-10-13",
+    "original_version_read": 1,
+    "original_date": "2017-08-07",
+    "original_mass_primary": true,
+    "version3_targeted_date": "2018-01-11",
+    "version3_note": "AWGS sarcopenia exclusion absent before protocol February recruitment/Marchbaseline. Source prints SMI<0.57; current/protocol/result abstracts5.7. Historical discrepancy retained, not silently resolved.",
+    "all_historical_versions_read": false,
+    "published_protocol_timing": "February2019 after reported2018 intervention/observation; registry supports original mass-primary status but not every later detail"
+  },
+  "sponsor": "Kyowa funded/supplied powders; protocol coauthor employed by Kyowa, reported limited funder role.",
+  "competitive": "Specific controlled adult gait evidence deserves visibility over blanket rejection; more causal support for this endpoint than appraised open-label niacin strength. Does not establish BUBR1 restoration or outweigh recorded primary pediatric-SMA function for apitegromab. All nominees remain MVA-unproven; no cross-trial MVA efficacy ordering.",
+  "identity_check": "identity-check.json",
+  "reading_manifest": "reading-manifest.json",
+  "source_reports": [
+    "hmb-muscle-qualification.md",
+    "hmb-muscle-outcomes.json"
+  ],
+  "source_reviewer_status": "PARTIAL_RESULTS_SOURCE_QUALIFICATION",
+  "source_reviewer_no_repo_changes": true,
+  "source_reviewer_no_credit_promotion": true,
+  "status": "INTEGRATED_WITH_EXACT_INTERVENTION_AND_SOURCE_DEPTH_LIMITS",
+  "qualification_md": "hmb-muscle-qualification.md",
+  "qualification_md_sha256": "eee5e5ae627c89b683343c6908410e6750ad787f2e9207406d6638dd6952600e",
+  "integration": {
+    "baseline": "72b1a8b3f78863bbf536a45ed6d7c6d107040c33",
+    "baseline_assessments": 225,
+    "current_assessments": 227,
+    "prior_decision_objects_unchanged": 225,
+    "new_decision_ids": [
+      "new-calcium-hmb"
+    ],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-muscle-primary-followup-20260923/hmb-muscle-qualification.json",
+      "sha256": "892ad76dc261ac1f4391a3ef1c3bc9c3e916d2230bdd9d6a2d2b776933a0b115"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-muscle-supplement-integration-20260923/root-reading.json",
+      "sha256": "8776a4cc253fb71675251f714135d36452b772d4eb1d83caf4d8aca5e9961234"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-muscle-supplement-integration-20260923/independent-hmb/findings.md",
+      "sha256": "c448cbb90155330e1544b4f09cbcda2de9879b1cfa56559987d66d9ed6220e21"
+    },
+    "new_original_queue_credit": 0,
+    "independent_study_count_increment": 0,
+    "MVA_efficacy_or_nominee_superiority_established": false,
+    "research_disposition": "retain bounded human functional comparator; broad exercise enhancement and nominee replacement not established"
+  }
+}
