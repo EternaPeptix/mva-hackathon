@@ -1108,3 +1108,13 @@ Leucine qualification retains nominal walking/expiratory-pressure preservation f
 Inventory replay adds one FDA L-leucine name link and four NIH name relations in three groups. All source fields and the other eleven FDA/SGC/NIH output tables remain unchanged. Two punctuation aliases do not create distinct compounds. All original queue and 47 source-question files remain unchanged. No new independent-study, original-queue, MVA-efficacy or worldwide-completion credit follows.
 
 Track 1, its methods prefix, current media, model/transfer/RNA workflows and experimental plan are unchanged. The repository remains private, both PRs draft and unmerged, and Track 2 unsubmitted.
+
+## L-carnitine endurance comparison, 23 September 2026
+
+One assessment brings the ledger to 228, preserving all 227 previous objects and PR1 retention of 109 IDs/94 unchanged objects/fifteen earlier refinements. Two portable files contain the source qualification and structured evidence; no raw paper, native image or participant data is added.
+
+The controlled mitochondrial-myopathy source retains a cycling-endurance and inspiratory-capacity positive alongside strength, peak-exercise and body-composition nulls. Crossover Methods and unpaired-test footnotes conflict; carnitine levels/genotypes were unmeasured. A distinct DMD source remains complete-abstract-only, with a one-year functional null and unverified randomization. Source, independent and root reading scopes are separately attributed; no global inactivity, measured MVA ordering or BUBR1-restoration claim follows.
+
+FDA replay adds one L-carnitine name relation; NIH replay adds exact-name relations in two existing groups. All original source fields and eleven other FDA/SGC/NIH output tables remain unchanged. Exact molecular synonymy is not trial salt/product equivalence. The original queue and all 47 historical questions remain unchanged.
+
+Track 1, its methods prefix, current media, model/transfer/RNA workflows and experimental plan remain unchanged. The repository remains private, both PRs draft and unmerged, and Track 2 unsubmitted.
