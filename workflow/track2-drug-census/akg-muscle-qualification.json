@@ -1,0 +1,210 @@
+{
+  "title": "Sodium α-ketoglutarate: controlled mouse function and an ADRB2 protein-regulation precedent",
+  "baseline_commit": "3db5c8961499131d8feafbe87f47eb8e6bfbb0e0",
+  "baseline_decisions": 230,
+  "primary": {
+    "pmid": "28939592",
+    "pmcid": "PMC6266637",
+    "doi": "10.1096/fj.201700670R",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6266637/"
+  },
+  "recommendation": "Retain a substantive preclinical muscle-function reserve tied to the tested sodium preparation. No clinical nomination change or BUBR1-restoration claim.",
+  "key_boundary": "Complete scientific main and native Figures2–6 reviewed. Both correction texts and corrected primer table read; corrected Figure1 pixels remain unreviewed. Original Figure1 is excluded from visual evidentiary credit.",
+  "preparation": {
+    "mdx_water": "α-ketoglutarate sodium, 2% in drinking water; water-only controls.",
+    "duration_conflict": "Animals Methods says9weeks; Figure2 legend says8weeks; native body-weight graph extends toweek9.",
+    "unknown": [
+      "Sodium stoichiometry/hydration",
+      "Supplier/grade and batch composition",
+      "Whether2% is weight/volume or another basis",
+      "Water intake and received mg/kg",
+      "Blood/muscle AKG exposure",
+      "Stability and sodium/pH-matched control"
+    ],
+    "cell": "2mM AKG for48h in differentiated C2C12; precise AKG form not resolved in these Methods.",
+    "injection": "1g/kg intraperitoneal AKG;3h readout explicitly for inhibitor experiment. Exact injection form not established; do not infer oral equivalence.",
+    "corticosterone": "10µM in cell experiments;50µg/kg in mouse Figure1/3 context. Figure1 injection-to-readout interval not specified in legend.",
+    "not_inherited": [
+      "Free acid",
+      "Dimethyl/other ester",
+      "Calcium salt",
+      "Arginine/ornithine salts",
+      "Arbitrary retail supplement"
+    ]
+  },
+  "mdx_experiment": {
+    "groups": [
+      "Male C57BL/6J wild type + water",
+      "Male C57BL/10ScSn-background mdx + water",
+      "Male mdx +2% sodiumAKG water"
+    ],
+    "n_each": 10,
+    "starting_age": "Not specified in reviewed mdx description",
+    "randomization": "Groups divided; randomized allocation not expressly described for mdx study.",
+    "masking": "Not described.",
+    "functional_positive": [
+      {
+        "panel": "2B",
+        "endpoint": "Absolute maximum limb grip",
+        "unit": "N",
+        "comparison": "AKG-treated mdx versus mdx water",
+        "P": "<.05 (native # marker)"
+      },
+      {
+        "panel": "2C",
+        "endpoint": "High-speed treadmill time",
+        "unit": "min",
+        "comparison": "AKG-treated mdx versus mdx water",
+        "P": "<.05 (native # marker)"
+      },
+      {
+        "panel": "2D",
+        "endpoint": "Slow-speed treadmill time",
+        "unit": "min",
+        "comparison": "AKG-treated mdx versus mdx water",
+        "P": "<.05 (native # marker)"
+      }
+    ],
+    "other_results": [
+      "Body-weight gain increased.",
+      "Absolute gastrocnemius and soleus weights increased versus untreated mdx.",
+      "Fiber-size measure inµm increased; do not relabel as a measured area.",
+      "Gastrocnemius3-methylhistidine normalized to protein decreased.",
+      "FoxO1/MuRF1/MAFbx-associated protein readouts shifted in the proposed antiatrophy direction."
+    ],
+    "statistics": "Mean±SEM; one-way ANOVA followed by Bonferroni post-hoc tests; no exact effect estimates/CIs supplied in text.",
+    "limits": [
+      "Grip is not body-weight-normalized or isolated specific force.",
+      "Repeated grip efforts are within animals, not extra animal replicates.",
+      "No demonstrated baseline absolute muscle-mass deficit versus WT; hypertrophy is not necessarily restoration of lost mass.",
+      "Different WT/mdx strain backgrounds complicate genotype comparisons.",
+      "Drug comparison within mdx remains actual controlled function evidence.",
+      "No complete normalization, survival, dystrophin rescue or MVA outcome established.",
+      "No stated detailed treadmill stopping criterion or dedicated attrition accounting."
+    ]
+  },
+  "ADRB2_protein_mechanism": {
+    "actual_compound_results": [
+      "Reduced PHD3–ADRB2 co-immunoprecipitation after AKG (Figure4B,n=3/group).",
+      "Reduced anti-ubiquitin-pulldown ADRB2 signal (4C,n=3/group).",
+      "Increased ADRB2 immunoblot/fluorescence abundance, cAMP and PKA/CREB phosphorylation (4D–K, generallyn=6/group).",
+      "Reduced PHD3 protein, without corresponding PHD1/2 changes."
+    ],
+    "stability_interpretation": "Supports authors protein-stability model through abundance/ubiquitination and perturbations; no direct ADRB2 half-life or turnover kinetics reported.",
+    "not_demonstrated": [
+      "Direct AKG target binding",
+      "Measured ADRB2 hydroxylated residues",
+      "Exclusive molecular causality",
+      "General unstable-protein rescue",
+      "BUBR1 abundance/function/fidelity rescue"
+    ],
+    "PHD3_overexpression": "Separate genetic perturbation in C2C12 opposes AKG-associated ADRB2 abundance/myotube/protein effects; not genetic rescue of disease.",
+    "ICI118551": {
+      "identity": "ICI-118,551 hydrochloride, ADRB2 antagonist",
+      "cell_exposure": "10µM with/without2mM AKG for48h",
+      "injection_dose_conflict": {
+        "Methods": "5mg/kg",
+        "Figure5_legend": "5µg/kg"
+      },
+      "AKG_injection": "1g/kg,3h",
+      "interpretation": "Blockade supports dependence; inhibitor-alone effects and unreported specificity/interaction estimates limit exclusivity."
+    },
+    "shADRB2_experiment": {
+      "population": "Forty6-week-old C57BL/6J mice; male per legend",
+      "randomized": true,
+      "groups": 4,
+      "n_each": 10,
+      "regimen": "Scrambled or shADRB2 lentivirus in gastrocnemius, each with/without2%AKG water for8weeks.",
+      "reported_RNA_reduction": "About70%",
+      "native_functional_panels": "6H–J: grip and high/slow-speed running improve under scrambled control; AKG comparison after knockdown labelled nonsignificant.",
+      "interpretation": "Separate normal-background drug-plus-genetic-perturbation experiment; not mdx-specific mechanism proof. No formal treatment-by-knockdown interaction estimate supplied."
+    },
+    "AHA_assay_limit": "AHA is incorporated metabolic label, not itself a long-lived muscle protein. Methods do not clearly specify a full pulse–chase turnover-rate design. Synthesis/assay contribution cannot be excluded from this readout alone."
+  },
+  "corrections": [
+    {
+      "doi": "10.1096/fj.202401222",
+      "pmid": "38855931",
+      "url": "https://faseb.onlinelibrary.wiley.com/doi/10.1096/fj.202401222",
+      "change": "Replaces incorrect Figure1A image; authors state results/conclusions unchanged.",
+      "scope_read": "Complete notice and corrected Figure1 legend.",
+      "corrected_pixels_viewed": false,
+      "native_access": "Official2-page PDF located through web reader; ordinary direct download403 and screenshot wrapper did not expose pixels.",
+      "credit_limit": "No original Figure1 visual credit. Functional Figure2 is not the panel identified by the correction; no global validation inferred."
+    },
+    {
+      "doi": "10.1096/fj.202401377",
+      "pmid": "38925566",
+      "url": "https://faseb.onlinelibrary.wiley.com/doi/10.1096/fj.202401377",
+      "change": "Corrects originalTable1 primer sequences after copy/paste mistake.",
+      "scope_read": "Complete notice and corrected table.",
+      "original_table_status": "Superseded; original PHD3 andADRB2 duplicated primer pairs must not be used.",
+      "correction_validates_actual_reagents_or_result": false
+    }
+  ],
+  "corrected_target_primers": {
+    "PHD1": {
+      "sense_5to3": "AGTCCTTGGAGTCTAGCCGAG",
+      "antisense_5to3": "TGGCAGTGGTCGTAGTAGCA",
+      "product_bp": 153,
+      "Tm_C": 60
+    },
+    "PHD2": {
+      "sense_5to3": "CGTGCCGTGCATGAACAAG",
+      "antisense_5to3": "GATCCAGGTGATCTGGTCCC",
+      "product_bp": 184,
+      "Tm_C": 61
+    },
+    "PHD3": {
+      "sense_5to3": "AGGCAATGGTGGCTTGCTATC",
+      "antisense_5to3": "GCGTCCCAATTCTTATTCAGGT",
+      "product_bp": 118,
+      "Tm_C": 60
+    },
+    "ADRB2": {
+      "sense_5to3": "CTGGTTGGGCTACGTCAACT",
+      "antisense_5to3": "CTTCCTTGGGAGTCAACGCT",
+      "product_bp": 291,
+      "Tm_C": 60
+    }
+  },
+  "harms": "No dedicated adverse-event, mortality, cardiac/tumor/reproductive or long-term assessment presented. No specific harm established here; absence of reporting is not safety evidence.",
+  "competition": "Actual disease-model function and administered-compound protein-regulation evidence merit reserve priority beyond pathway-only hypotheses. Lack of MVA proof is not applied selectively against niacin/arimoclomol, which also lack BUBR1 functional rescue in baseline appraisals. These mouse exposures do not establish clinical superiority over niacin, apitegromab or creatine; no head-to-head ranking or nominee switch.",
+  "identity_routing": "Use sodium-AKG preparation identity if a future entry is drafted; no generic acid/salt/ester catalog propagation. No ketoglutarate/oxoglutarate main-catalog record found in the checked baseline tables; NIH DSLD has many distinct and shared generic groups.",
+  "supplement_scope": "No supplementary attachment identified in saved full PMC article; not proof none exists elsewhere.",
+  "no_broad_discovery_queries": true,
+  "source_reviewer_status": "FROZEN_BOUNDED_QUALIFICATION_WITH_CORRECTED_FIGURE_ACCESS_GAP",
+  "source_reviewer_no_repo_edits": true,
+  "source_reviewer_no_appraisal_or_reading_credit": true,
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "akg-muscle-qualification.md",
+  "qualification_md_sha256": "8bef162d93ba45fe305d0af4c90f37b7bd04ce60cbb27bd781357f0950e5ab28",
+  "integration": {
+    "baseline": "97b54464f6ebf8540cbce8d5df382ad652f963d4",
+    "baseline_assessments": 233,
+    "current_assessments": 235,
+    "retained_prior_ids": 233,
+    "prior_objects_unchanged": 232,
+    "refined_ids": [
+      "prior-05"
+    ],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/akg-muscle-primary-followup-20260923/qualification.json",
+      "sha256": "80cc1ae26f79554330851f3f71605f4ee255f5e5dc6246b9410ff338fcf60912"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/akg-muscle-primary-followup-20260923/reading-manifest.json",
+      "sha256": "fb8bd28f06460f45cada9727db91a9c20b1708d44fbf14775d07ebe76816459f"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/akg-muscle-primary-followup-20260923/independent-akg/independent-check.md",
+      "sha256": "1f99c996db9dc8ab88155a2cf01d4cbf06731407f378966afb0156765539705a"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/akg-nemaline-integration-20260923/root-reading.json",
+      "sha256": "7875a4919f2f609146b1baa7c4805de6aa8c48158aa416ac695ee4ad2507890b"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false
+  }
+}
