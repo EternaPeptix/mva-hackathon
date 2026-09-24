@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 222
+  --out /path/dsld-replay --expected-appraisals 225
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -130,4 +130,6 @@ The preceding **216-appraisal replay** preserves all eight output tables, includ
 
 The preceding **219-appraisal replay** adds two L-ascorbic-acid synonym relations in existing Vitamin C groups 10 and 3428: **6,823 name cross-references, 94 curated relations and 80 appraisal-linked groups**. Only the two appraisal-name cells and their relations change; all source fields and six other output tables remain unchanged. Shared synonyms do not establish chemical preparation, retail-product or efficacy equivalence.
 
-The current **222-appraisal replay** adds six CoQ10/spermidine name relations across existing groups 7126, 7127, 7134 and 7793: **6,829 name cross-references, 100 curated relations and 84 appraisal-linked groups**. Group 7793 is source-labeled Polyamine (unspecified); its spermidine synonym does not confer class-wide benefit. No mitoquinone-mesylate relation is forced from an unspecified source salt. All source fields and six other output tables remain unchanged.
+The preceding **222-appraisal replay** adds six CoQ10/spermidine name relations across existing groups 7126, 7127, 7134 and 7793: **6,829 name cross-references, 100 curated relations and 84 appraisal-linked groups**. Group 7793 is source-labeled Polyamine (unspecified); its spermidine synonym does not confer class-wide benefit. No mitoquinone-mesylate relation is forced from an unspecified source salt. All source fields and six other output tables remain unchanged.
+
+The current **225-appraisal replay** adds two name relations for creatine monohydrate and source-labelled glutamine in existing groups 397 and 75: **6,831 cross-references, 102 curated relations and 86 appraisal-linked groups**. No combination-to-component relation is forced. Broad ingredient grouping does not prove preparation or stereochemical equivalence. All source fields and six other output tables remain unchanged.

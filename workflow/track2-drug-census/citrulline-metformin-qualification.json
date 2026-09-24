@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-23",
+  "source": {
+    "pmid": "31664444",
+    "pmcid": "PMC6824222",
+    "doi": "10.1001/jamanetworkopen.2019.14171",
+    "registry": "NCT01995032",
+    "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6824222/",
+    "protocol_pmid": "27488051",
+    "protocol_doi": "10.1186/s13063-016-1503-1"
+  },
+  "classification": "combination-specific exploratory pediatric muscle-function reserve",
+  "compound_identity": {
+    "components": [
+      "L-citrulline",
+      "metformin hydrochloride"
+    ],
+    "oral_per_dose": {
+      "L-citrulline_g": 2.5,
+      "metformin_hydrochloride_mg": 250
+    },
+    "doses_per_day": 3,
+    "duration_weeks": 26,
+    "placebo": "matching mannitol",
+    "formulation_limit": "Hospital-pharmacy preparations. Main calls metformin tablets; protocols call capsules. No monotherapy arms; no arbitrary retail-product transfer."
+  },
+  "population": {
+    "condition": "genetically confirmed DMD",
+    "age_years": [
+      6.5,
+      10
+    ],
+    "sex": "boys in actual trial",
+    "n_randomized": 47,
+    "setting": "single-center Basel, ambulant at least150m and MFM-D1 at least40%",
+    "baseline_steroids_active_placebo": [
+      12,
+      21
+    ],
+    "baseline_steroid_denominators": [
+      23,
+      24
+    ],
+    "selected_exclusions": [
+      "known or suspected cancer",
+      "clinically important renal/liver/heart disease"
+    ],
+    "exclusion_interpretation": "transfer limits, not patient-specific contraindication determination"
+  },
+  "principal_conclusion": "Overall week26 primary inconclusive; retain week13 strength/distal-function nominal positives, planned stable-subgroup signal and slower MRI worsening. No monotherapy, BUBR1 restoration or MVA efficacy claim.",
+  "primary": {
+    "effect_points": 5.5,
+    "ci95": [
+      -1,
+      12.1
+    ],
+    "p": ".09",
+    "interpretation": "less decline point estimate, not confirmed overall benefit"
+  },
+  "positive_contexts": [
+    "Week13 strength+18.3N (3.0,33.5), P.02 versus placebo",
+    "Week13 MFM-D3+2.9 points (.1,5.8), P.04",
+    "Week26 stable-walker MFM-D1+6.7 points (.9,12.6), P.03; interaction P.67",
+    "Week26 MRI FF/T2 slower worsening, P.04/.02"
+  ],
+  "decisive_limits": [
+    "Overall primary P.09; week26 strength/MFM-D3 and walking/timed outcomes nonsignificant.",
+    "Stable versus unstable treatment interaction P.67; steroids interaction P.20.",
+    "No reported correction for multiple secondary/visit/subgroup comparisons.",
+    "Baseline corticosteroid imbalance12/23 versus21/24.",
+    "45 study completers versus43 complete primary cases; multiple imputation retains47.",
+    "No achieved exposure/numerical adherence result found.",
+    "3 source-labeled severe AEs on active versus0, including2 fractures; causality not established.",
+    "Early versus final significance difference is not a proven treatment-by-time difference."
+  ],
+  "prespecification": {
+    "main_claim": "stability subgroup specified before trialend/unblinding",
+    "supplied_protocol": "Version8, September2015, Wilcoxon/LOCF; threshold not documented in statistical section",
+    "published_protocol": "PMID27488051, August2016, ANCOVA and350m subgroup explicitly planned, secondary endpoints hypothesis-generating; LOCF",
+    "remaining_gap": "Published after trial completion; independently dated finalSAP and historical registry versions not obtained. Source uses>350 versus publication>=350. Not relabeled post hoc."
+  },
+  "biomarker_resolution": "UrineNEAA between-arm P.09 at26wk and.08 at13wk despite Discussion significance claim. Week13 GGT P.02; no week26 listed biomarker significant. No direct NO/mitochondrial or BUB1B mechanism established.",
+  "bub1b": {
+    "rna_measured": false,
+    "protein_measured": false,
+    "function_measured": false,
+    "scope": "No such assay reported in complete2019 scientific main/scientific supplement; not a universal biological absence claim."
+  },
+  "competitive_assessment": {
+    "niacin": "More direct randomized pediatric early functional evidence than the appraised open-label niacin strength result; different from its provisional NAD/SIRT2/BUBR1 restoration hypothesis. No selective MVA-efficacy requirement imposed.",
+    "apitegromab": "Does not currently displace recorded positive primary pediatricSMA motor-function evidence; comparison is not measured cross-trial superiority.",
+    "recommendation": "Visible combination-specific functional reserve; no automatic nominee replacement; preserve prior-27 and old metformin/AICAR rationale."
+  },
+  "source_reports": [
+    "citrulline-metformin-qualification.md",
+    "citrulline-metformin-outcomes.json"
+  ],
+  "reading_manifest": "reading-manifest.json",
+  "source_reviewer_status": "source qualification; external only, optional admission left to root",
+  "status": "INTEGRATED_WITH_EXACT_INTERVENTION_AND_SOURCE_DEPTH_LIMITS",
+  "qualification_md_sha256": "7a9f9661f95466e7d38a8260d159adf0b00c8d273e5d217866d90c0de46fd530",
+  "qualification_md": "citrulline-metformin-qualification.md",
+  "integration": {
+    "baseline": "f2fe957bb3ae2167228ed25247deef59f2202ade",
+    "baseline_assessments": 222,
+    "current_assessments": 225,
+    "prior_decision_objects_unchanged": 222,
+    "new_decision_ids": [
+      "new-citrulline-metformin-dmd"
+    ],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/citrulline-metformin-primary-followup-20260923/citrulline-metformin-qualification.json",
+      "sha256": "280fb62e76a98925f996f39278fb0c9f21bc971dd18984468b67ebc97d56fdb9"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/neuromuscular-compound-integration-20260923/root-reading.json",
+      "sha256": "fc4fd0cda3d5bfafb56bdd65846f614d6a2dcfd5fca68645292172e26818dcd9"
+    },
+    "new_original_queue_credit": 0,
+    "independent_study_count_increment": 0,
+    "MVA_efficacy_or_nominee_superiority_established": false
+  },
+  "source_reviewer_no_repository_changes": true,
+  "source_reviewer_no_count_credit": true
+}

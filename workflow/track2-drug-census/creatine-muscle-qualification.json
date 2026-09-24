@@ -1,0 +1,473 @@
+{
+  "title": "Creatine monohydrate: bounded pediatric muscle evidence assessment",
+  "date": "2026-09-23",
+  "source_review_ledger_check": {
+    "repo_head": "f2fe957bb3ae2167228ed25247deef59f2202ade",
+    "ledger_count": 222,
+    "exact_creatine_entry_present": false,
+    "checks_using_current_join_normalization_and_alias_index": [
+      {
+        "alias": "creatine monohydrate",
+        "normalized_alias": "creatine monohydrate",
+        "catalog_ids": [],
+        "proposed_match_alias": true,
+        "meaning": "Exact preparation alias"
+      },
+      {
+        "alias": "creatine",
+        "normalized_alias": "creatine",
+        "catalog_ids": [
+          "CHEMBL283800"
+        ],
+        "proposed_match_alias": false,
+        "meaning": "Separate parent-moiety reference only; not proposed as an efficacy alias for every form."
+      }
+    ],
+    "NIH_DSLD_name_only_reference": {
+      "group_id": "397",
+      "group_name": "Creatine",
+      "exact_normalized_alias": "creatine monohydrate",
+      "does_not_establish": "Current product availability, approval, formulation equivalence across all177 source synonym cells or efficacy of all source-group members"
+    },
+    "canonical_corpus": {
+      "records": 7362,
+      "sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+      "selected_source_ids_present": [],
+      "outer_credit": 0
+    },
+    "inputs": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
+        "sha256": "441f245954d472bba5508ae9d2ffd9b878855fc47156a493c2aeff92df469619"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/catalog.tsv",
+        "sha256": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/aliases.tsv",
+        "sha256": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/literature_match.py",
+        "sha256": "17ecf93a27d3a30a0e4179c0506f11327fbd0814464d4ad44d3e3c3e6789a0ad"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/dsld-ingredients/normalized-aliases.tsv",
+        "sha256": "1c73e968134b907167ca212586630dd5e68d8a054eb069d2c27401accbde50c7"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/dsld-ingredients/groups.tsv",
+        "sha256": "c1033c4784b20bf2b16bde67c155070b06cd4fa47d89d80a702571f7a1527998"
+      }
+    ],
+    "additional_source_label_check": {
+      "source_label": "glutamine",
+      "current_ledger_alias_overlap": false,
+      "exact_generic_name_catalog_join": [
+        "CHEMBL930"
+      ],
+      "NIH_DSLD_group_id": "75",
+      "stereochemistry_in_read_primary_sources": null,
+      "identity_limit": "Catalog and NIH name relations do not prove the trial preparation is stereodefined L-glutamine; no L-name or product alias proposed."
+    }
+  },
+  "sources": [
+    {
+      "pmid": "15159476",
+      "doi": "10.1212/01.WNL.0000125178.18862.9D",
+      "title": "Creatine monohydrate enhances strength and body composition in Duchenne muscular dystrophy.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15159476/",
+      "publisher_url": "https://doi.org/10.1212/01.WNL.0000125178.18862.9D",
+      "metadata_file": "15159476-metadata.json",
+      "metadata_sha256": "c5f8fd54d1eb3c7bff481b155dca6b43d2fba3b84e940618a21045738a56908b",
+      "abstract_sha256": "b426c91a74002b751224f057d2df772b2c17a38fc084af4d6e589dbc698618ce",
+      "actual_read_scope": "Complete original published abstract via EuropePMC core; public publisher abstract cross-check. Scientific main/captions/native images/tables/supplements not read.",
+      "source_version": "Indexed published journal article; no manuscript or full-text version obtained.",
+      "notice_check": {
+        "date": "2026-09-23",
+        "indexed_comment_correction_list": null,
+        "pub_types": {
+          "pubType": [
+            "Comparative Study",
+            "Clinical Trial",
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "conclusion": "No correction/retraction link identified in this bounded indexed and exact-source notice search; not exhaustive assurance."
+      },
+      "full_primary_text_read": false,
+      "native_figures_read": 0,
+      "supplements_read": false,
+      "design": {
+        "population": "Boys with Duchenne muscular dystrophy; half of completers using corticosteroids",
+        "n_completed": 30,
+        "n_randomized": null,
+        "randomized": true,
+        "masking": "double-blind; roles not specified in read abstract",
+        "design": "crossover",
+        "intervention_identity": "creatine monohydrate",
+        "dose_reported": "approximately 0.10 g/kg/day",
+        "duration": "four months per intervention/placebo phase",
+        "washout": "six weeks",
+        "placebo_composition": null,
+        "manufacturer_purity_catalog_vehicle": null,
+        "carryover_period_sequence_analysis": "Not available; duration of washout is not proof of no carryover."
+      },
+      "outcomes": [
+        {
+          "endpoint": "dominant-hand grip strength",
+          "direction": "positive reported during creatine phase",
+          "p_reported": "<0.05",
+          "exact_contrast_and_effect_size": "Unavailable from read abstract; no independently verified treatment-by-period interaction."
+        },
+        {
+          "endpoint": "fat-free mass",
+          "direction": "positive",
+          "p_reported": "<0.05",
+          "limit": "Not by itself proof of more contractile tissue."
+        },
+        {
+          "endpoint": "functional tasks and activities of daily living",
+          "direction": "no improvement reported"
+        },
+        {
+          "endpoint": "global muscle strength",
+          "direction": "placebo-only decline trend",
+          "p_reported": ".056",
+          "limit": "Within-arm trend is not a between-treatment effect."
+        },
+        {
+          "endpoint": "N-telopeptides",
+          "direction": "decreased",
+          "p_reported": "<0.05",
+          "limit": "Bone-breakdown marker, not measured fracture benefit."
+        },
+        {
+          "endpoint": "urinary 8-OH-2-dG/creatinine",
+          "direction": "Corticosteroid association, not creatine treatment benefit"
+        }
+      ],
+      "safety_read_scope": {
+        "author_tolerability_statement": true,
+        "serum_creatinine_measured_as_listed_in_abstract": true,
+        "numeric_renal_results_or_filtration_measurements_verified": false,
+        "adverse_event_denominators_verified": false
+      }
+    },
+    {
+      "pmid": "15984021",
+      "doi": "10.1002/ana.20523",
+      "title": "CINRG randomized controlled trial of creatine and glutamine in Duchenne muscular dystrophy.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15984021/",
+      "publisher_url": "https://doi.org/10.1002/ana.20523",
+      "metadata_file": "15984021-metadata.json",
+      "metadata_sha256": "99c2d02911066a53ed50325ced6d068f46233ca10e3a2952f2c09c975daa5cfc",
+      "abstract_sha256": "017817054886a8da59f9620a178efc4ee796d887e7676694b1234451295b2583",
+      "actual_read_scope": "Complete original published abstract via EuropePMC core; public publisher abstract cross-check. Scientific main/captions/native images/tables/supplements not read.",
+      "source_version": "Indexed published journal article; no manuscript or full-text version obtained.",
+      "notice_check": {
+        "date": "2026-09-23",
+        "indexed_comment_correction_list": null,
+        "pub_types": {
+          "pubType": [
+            "Clinical Trial",
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "conclusion": "No correction/retraction link identified in this bounded indexed and exact-source notice search; not exhaustive assurance."
+      },
+      "full_primary_text_read": false,
+      "native_figures_read": 0,
+      "supplements_read": false,
+      "design": {
+        "population": "Ambulant boys with DMD; registry describes steroid-naive eligibility",
+        "publication_n": 50,
+        "registry_current_enrollment": 48,
+        "allocation_per_arm": null,
+        "randomized": true,
+        "masking": "double-blind; registry says parents, children and treating doctors masked",
+        "interventions": "Separate creatine monohydrate, glutamine and placebo arms; not combination therapy",
+        "identity_evidence": "Publication abstract says creatine; linked NCT00016653 official title/intervention and procedure specify monohydrate",
+        "creatine_dose_reported": "5 g/day",
+        "glutamine_dose_reported": "0.6 g/kg/day",
+        "duration": "six months",
+        "route": "oral per linked registry",
+        "vehicle": "water-mixed supplement; eligibility identifies powdered hot-cocoa mixture",
+        "manufacturer_purity_catalog": null,
+        "placebo": "Registry calls inactive placebo/sugar pill; full composition and matching not verified",
+        "age_source_discrepancy": "Registry structured 5–9 years; narrative 5–10 years. Publication actual range unavailable."
+      },
+      "outcomes": [
+        {
+          "endpoint": "manual muscle strength, 34 muscle groups; quantitative strength, 10 groups",
+          "hierarchy": "primary efficacy assessment in original abstract",
+          "direction": "no statistically significant effect of either treatment"
+        },
+        {
+          "endpoint": "timed functional tests, functional parameters and pulmonary tests",
+          "hierarchy": "secondary",
+          "direction": "Individual outcomes not resolved from original abstract",
+          "limit": "Do not call all secondary measures null; conflicting review snippets were retrieval leads only."
+        },
+        {
+          "endpoint": "possible age subgroup disease modification",
+          "direction": "cannot be excluded in abstract",
+          "limit": "Not a demonstrated positive effect, treatment interaction or prespecified subgroup success."
+        }
+      ],
+      "safety_read_scope": {
+        "author_tolerability_statement": true,
+        "registry_blood_urine_monitoring_planned": true,
+        "posted_registry_results": false,
+        "numeric_renal_results_or_adverse_event_denominators_verified": false
+      }
+    },
+    {
+      "pmid": "20395096",
+      "doi": "10.1016/j.mri.2010.03.008",
+      "title": "Effect of creatine monohydrate in improving cellular energetics and muscle strength in ambulatory Duchenne muscular dystrophy patients: a randomized, placebo-controlled 31P MRS study.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20395096/",
+      "publisher_url": "https://doi.org/10.1016/j.mri.2010.03.008",
+      "metadata_file": "20395096-metadata.json",
+      "metadata_sha256": "4044e64261582229edb6c25297b09a3703ab0881783d573ca067e9e05f685cb8",
+      "abstract_sha256": "1fd1c126bdbb0c9ed51f6f524626ec28894c30ba7ab68274f04ab007a95dc5be",
+      "actual_read_scope": "Complete original published abstract via EuropePMC core; public publisher abstract cross-check. Scientific main/captions/native images/tables/supplements not read.",
+      "source_version": "Indexed published journal article; no manuscript or full-text version obtained.",
+      "notice_check": {
+        "date": "2026-09-23",
+        "indexed_comment_correction_list": null,
+        "pub_types": {
+          "pubType": [
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "conclusion": "No correction/retraction link identified in this bounded indexed and exact-source notice search; not exhaustive assurance."
+      },
+      "full_primary_text_read": false,
+      "native_figures_read": 0,
+      "supplements_read": false,
+      "design": {
+        "population": "Steroid-naive ambulatory boys with DMD",
+        "n_randomized_reported": 33,
+        "n_assigned_creatine": 18,
+        "n_assigned_comparator": 15,
+        "analysis_specific_n": null,
+        "healthy_mrs_reference_n": 8,
+        "healthy_controls_limit": "Age/sex-matched reference measurements, not randomized treated healthy arm",
+        "randomized": true,
+        "masking": "single-blind; actual masked roles unavailable",
+        "intervention_identity": "creatine monohydrate",
+        "route": "oral",
+        "dose_reported": "5 g/day",
+        "duration": "eight weeks",
+        "comparator_identity": "500 mg vitamin C, called placebo by source",
+        "comparator_limit": "Not assume inert comparator",
+        "manufacturer_purity_catalog_vehicle": null,
+        "statistics": "PCr/Pi ANCOVA adjusted for age and stature; endpoint hierarchy, multiplicity family and complete analysis denominators not verified."
+      },
+      "outcomes": [
+        {
+          "endpoint": "right-calf PCr/Pi by phosphorus MRS",
+          "direction": "between-group positive",
+          "creatine_adjusted_mean": 4.7,
+          "creatine_95ci": [
+            3.9,
+            5.6
+          ],
+          "comparator_adjusted_mean": 3.3,
+          "comparator_95ci": [
+            2.5,
+            4.2
+          ],
+          "p_reported": ".03",
+          "limit": "Energetic ratio, not itself functional movement."
+        },
+        {
+          "endpoint": "manual muscle-test change",
+          "direction": "between-group positive",
+          "p_reported": ".04",
+          "effect_size": null
+        },
+        {
+          "endpoint": "functional scale",
+          "direction": "no significant change",
+          "p_reported": ".19"
+        },
+        {
+          "endpoint": "parent subjective report",
+          "direction": "positive",
+          "p_reported": ".02",
+          "limit": "Subjective result; blinding implementation and effect size unavailable."
+        },
+        {
+          "endpoint": "age-related energetic subgroup patterns",
+          "direction": "described",
+          "limit": "No verified formal interaction or prespecification."
+        },
+        {
+          "endpoint": "long-term treatment or lifespan benefit",
+          "direction": "not established"
+        }
+      ],
+      "safety_read_scope": {
+        "author_tolerability_statement": true,
+        "numeric_renal_results_or_adverse_event_denominators_verified": false
+      }
+    }
+  ],
+  "registry": {
+    "id": "NCT00016653",
+    "other_id": "CNMC0599",
+    "url": "https://clinicaltrials.gov/study/NCT00016653",
+    "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT00016653",
+    "file": "NCT00016653.json",
+    "sha256": "1162538ffca1e311a92ebff3b4cef26325cc5eaec9774239fd979819ecb1ad21",
+    "links_publication_pmid": "15984021",
+    "actual_scope": "Complete current protocolSection and absent results/document modules inspected, not historical-version comparison or publication results reconstruction.",
+    "last_update_posted": "2011-10-27",
+    "first_posted": "2001-05-23",
+    "start": "2000-06",
+    "completion_as_currently_registered": "2006-12",
+    "publication_year": 2005,
+    "registration_after_start": true,
+    "structured_outcomes_module_present": false,
+    "posted_results": false,
+    "documents": false,
+    "unresolved_discrepancies": [
+      "Registry enrollment48 versus publication abstract50",
+      "Structured age5–9 versus narrative5–10",
+      "Current completion2006 versus published results2005",
+      "Registry eligibility wording about other research participation is internally awkward; no repair inferred"
+    ],
+    "identity_contribution": "Confirms monohydrate, oral separate-arm design and hot-cocoa/water-mixed administration; does not supply missing effect sizes or renal results."
+  },
+  "reading": {
+    "manifest": "reading-manifest.json",
+    "sha256": "b1324c2eb0772d57a2a90d65ba384f6c1732129ceadf259ef25b4a88a7f8cd63",
+    "complete_abstracts_read": 3,
+    "complete_registry_protocol_records_read": 1,
+    "full_primary_main_texts_read": 0,
+    "native_figures_read": 0,
+    "supplements_read": 0,
+    "outer_credit": 0,
+    "reviewer_performed_biological_replication": false
+  },
+  "BUB1B_scope": {
+    "BUB1B_or_BubR1_outcome_in_read_trial_abstracts_or_registry": false,
+    "absence_in_full_trials_established": false,
+    "canonical_literature_records_screened": 7362,
+    "canonical_literal_creatine_title_abstract_matches": 0,
+    "canonical_selected_trial_ids_present": [],
+    "live_broad_search_query": "creatine AND (BUB1B OR BUBR1)",
+    "live_broad_hits": 110,
+    "live_literal_creatine_title_abstract_matches": 0,
+    "live_search_file": "bub1b-search.json",
+    "live_search_sha256": "da7aa541a72d5ddc10e2858f5ac2f9f23de015e5b5c063ded5d92b597568f848",
+    "interpretation": "Lexical scope only; no new scientific read credit. Assay phosphocreatine or creatine-kinase co-mentions do not demonstrate administered creatine monohydrate restoration. No worldwide absence claim."
+  },
+  "disposition": {
+    "proposed_id": "new-creatine-monohydrate-muscle",
+    "proposed_route": "Creatine monohydrate / pediatric muscle-strength compensation comparator",
+    "decision": "Retain access-limited clinical muscle-strength reserve with mixed outcomes; not a demonstrated BUB1B-restoring or MVA treatment.",
+    "positive_basis": "Actual pediatric randomized treatment evidence includes a manual-strength between-group result in2010 and reported dominant-hand grip benefit in2004; distinct from FFM or PCr/Pi alone.",
+    "negative_basis": "2005 primary strength null;2004 daily-function/task and2010 functional-scale nulls. Missing original secondary tables prevent calling CINRG globally negative.",
+    "comparison_to_niacin": "More direct pediatric muscle-strength evidence than niacin’s cross-intervention restoration hypothesis; niacin retains separate human muscle NAD evidence. Neither has MVA benefit here.",
+    "comparison_to_apitegromab": "Does not displace the repository’s randomized SMA motor-function comparator on these limited sources; no head-to-head or MVA superiority inferred.",
+    "eligibility": "Exact monohydrate preparation; no retail-product, formulation, approval or safety equivalence inferred from catalog or NIH names.",
+    "automatic_admission": false
+  },
+  "unresolved_questions": [
+    "Obtain lawful full originals: exact effect sizes and primary/hierarchical or multiplicity treatment.",
+    "For2004: randomized versus completed n, actual period/sequence/carryover analysis, washout sufficiency and exact grip contrast.",
+    "For2005: exact allocation/attrition and conflicting secondary timed-function interpretations; reconcile registry/publication differences.",
+    "For2010: analysis-specific MRS/MMT denominators, masking roles, effect sizes and prespecified subgroup tests.",
+    "For all: supplier/purity/batch/vehicle details and numerical safety/renal results; do not equate serum creatinine or qualitative tolerability with validated filtration or MVA safety."
+  ],
+  "additional_intervention": {
+    "source": "PMID15984021 and linked NCT00016653",
+    "name_as_reported": "glutamine",
+    "separate_treatment_arm": true,
+    "combination_with_creatine": false,
+    "dose_reported": "0.6 g/kg/day",
+    "duration": "six months",
+    "route": "oral per registry",
+    "vehicle_scope": "Registry study-wide water-mixed supplements/powdered hot-cocoa mixture; exact arm-specific formulation not reconstructed",
+    "stereochemistry": null,
+    "manufacturer_purity_catalog": null,
+    "primary_outcomes": "No statistically significant effect on manual/quantitative muscle-strength assessments in publication abstract",
+    "secondary_outcomes": "Individual timed/pulmonary results unqualified without main text; possible subgroup wording is not demonstrated efficacy",
+    "safety": "Qualitative tolerability statement only; detailed adverse/renal results not read",
+    "proposed_id": "new-glutamine-source-dmd",
+    "disposition": "Optional bounded primary-strength-null comparison, not global inefficacy; no BUB1B/MVA restoration established",
+    "identity_check": {
+      "source_label": "glutamine",
+      "current_ledger_alias_overlap": false,
+      "exact_generic_name_catalog_join": [
+        "CHEMBL930"
+      ],
+      "NIH_DSLD_group_id": "75",
+      "stereochemistry_in_read_primary_sources": null,
+      "identity_limit": "Catalog and NIH name relations do not prove the trial preparation is stereodefined L-glutamine; no L-name or product alias proposed."
+    },
+    "extra_unique_study_credit": 0,
+    "extra_outer_reading_credit": 0
+  },
+  "retrieval_manifest": {
+    "file": "retrieval-manifest.json",
+    "sha256": "899e490caa99647b5b0cf812486ebf0c8a5d65faab9ebed9b5cae356314faba5"
+  },
+  "search_manifest": {
+    "file": "search-manifest.json",
+    "sha256": "075071cce70a7767abb50eaa1bc62d2a63af9590eb5a4510059a186520a59191"
+  },
+  "optional_join_check": {
+    "file": "optional-join-check/decision-alias-joins.tsv",
+    "sha256": "985afc0c743fcc541991dc11bbc08722fcf18257826028bcf3bd7f86387d230e",
+    "scope": "Original current join_decisions called on two optional entries using full source alias index; catalog-appraisals output intentionally limited to the two referenced parent catalog entities. No repository output changed."
+  },
+  "source_reviewer_status": "External optional appraisal; primary abstracts plus original registry read; full scientific primary access incomplete",
+  "source_reviewer_repo_edited": false,
+  "source_reviewer_root_admission_pending": true,
+  "source_reviewer_qualification_md": "qualification.md",
+  "status": "INTEGRATED_WITH_EXACT_INTERVENTION_AND_SOURCE_DEPTH_LIMITS",
+  "source_reviewer_qualification_md_sha256": "67afe674949d52056adec899774e9fd89fdd2231be6c8af68122b0c12a30266c",
+  "qualification_md_sha256": "a2dcf5747fd0107701d26f00cdc0fd9abcb693cbeabe8608ae70ffaf8d0c1b8c",
+  "qualification_md": "creatine-muscle-qualification.md",
+  "integration": {
+    "baseline": "f2fe957bb3ae2167228ed25247deef59f2202ade",
+    "baseline_assessments": 222,
+    "current_assessments": 225,
+    "prior_decision_objects_unchanged": 222,
+    "new_decision_ids": [
+      "new-creatine-monohydrate-muscle",
+      "new-glutamine-source-dmd"
+    ],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/creatine-muscle-primary-followup-20260923/qualification.json",
+      "sha256": "f3c7c0f1cf9968c38e0ba70f3aaa558c2744620b1c8ced4d07f3ab1b21c26221"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/neuromuscular-compound-integration-20260923/root-reading.json",
+      "sha256": "fc4fd0cda3d5bfafb56bdd65846f614d6a2dcfd5fca68645292172e26818dcd9"
+    },
+    "new_original_queue_credit": 0,
+    "independent_study_count_increment": 0,
+    "MVA_efficacy_or_nominee_superiority_established": false,
+    "competitive_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/neuromuscular-compound-integration-20260923/independent-creatine/findings.md",
+      "sha256": "4db367f9a6ea92e11f9bdc363a8dd4f13e324ec14a8886982a82d167bcf71d2b"
+    },
+    "research_priority": "Prioritize a substantive pediatric strength/energetics compensation comparison; mixed functional outcomes and MVA efficacy unresolved",
+    "interpretation": "Original source-review disposition is historical below. Independent and root review prioritize a substantive comparison; mixed outcomes do not prove superiority or categorically prevent replacement. The mechanism-diverse pair remains provisional."
+  }
+}
