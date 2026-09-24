@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 240
+  --out /path/dsld-replay --expected-appraisals 243
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -146,4 +146,6 @@ The preceding **235-appraisal replay** retains all prior relations and source fi
 
 The preceding **238-appraisal replay** retains all prior relations and source fields: **6,840 cross-references, 111 curated relations and 94 appraisal-linked groups**. Only beta-lapachone adds an exact-name curated relation (group6990). Beta-alanine and apigenin automatic aliases remain empty because mixed derivative/group identities must not inherit the source findings. Name relations do not verify preparation equivalence.
 
-The current **240-appraisal replay** retains all prior relations and source fields: **6,840 cross-references, 111 curated relations and 94 appraisal-linked groups**. Betaine and nitrate-rich juice have no automatic aliases. Mixed betaine salt groups, beet ingredients and nitrate/nitrite/drug classes do not inherit the preparation-specific findings. Name relations do not verify preparation equivalence.
+The preceding **240-appraisal replay** retains all prior relations and source fields: **6,840 cross-references, 111 curated relations and 94 appraisal-linked groups**. Betaine and nitrate-rich juice have no automatic aliases. Mixed betaine salt groups, beet ingredients and nitrate/nitrite/drug classes do not inherit the preparation-specific findings. Name relations do not verify preparation equivalence.
+
+The current **243-appraisal replay** retains all prior relations and source fields: **6,846 cross-references, 117 curated relations and 98 appraisal-linked groups**. Lipoic-acid and L-citrulline name relations do not establish trial-product, salt or stereochemical equivalence. Oral L-arginine has no automatic alias.

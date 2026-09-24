@@ -1,0 +1,294 @@
+{
+  "date": "2026-09-23",
+  "created_at_utc": "2026-09-24T04:17:21.742779+00:00",
+  "baseline": {
+    "head_at_start": "b1feb0d7cff05ed9632fc9fe4c0893f67f871881",
+    "working_decision_count_at_start": 238,
+    "working_decisions_sha256": "8ef4c95bacb9c3783235552d5028786690ca225142fe4fe4f110b79d26f744e9",
+    "existing_decision_hits": []
+  },
+  "recommendation": "Retain bounded alpha-lipoic acid functional/neuropathy reserve; no automatic nomination or admission",
+  "identity": {
+    "exact_names": [
+      "alpha-lipoic acid",
+      "thioctic acid"
+    ],
+    "proposed_catalog_group": "CHEMBL33864, exact generic-name join only",
+    "preparation_limit": "Named ThioctacidHR tablet, Athenion study-specific solubilized liquid, and recentMS capsule kept separate. Administered R/S enantiomer composition and interproduct equivalence not established by read descriptions. No pureR, dihydrolipoic, cholineester, combination or extract inheritance.",
+    "catalog_approval_not_clinical_eligibility": true
+  },
+  "sources": [
+    {
+      "pmid": "33261642",
+      "pmcid": "PMC7708149",
+      "doi": "10.1186/s12970-020-00389-y",
+      "role": "Direct human strength-recovery positive with acute and biomarker nulls",
+      "depth": "Complete scientific main, allsixnativefigures, entire own supplementtext and allthree nativepages",
+      "population": "18 healthytrainedyoungmen enrolled,17completed,1healthwithdrawal; age23.5±3.1years",
+      "design": "Randomized double-blind crossover,4weekwashout; acute+recoverydays+6dayblock repeated underoppositecondition; phase durations are not independent trials",
+      "preparation": "Athenion GmbH study-specific solubilisat,3mL contains150mg namedALA in200mLwater; matchingtaste/appearanceplacebo; differentred/whitecaps; noverifiedR/Sratio,purity/excipientcomposition",
+      "exposure": "150mg singlepostacute;150mg oninterveningrestdays; twice150mg/day before/aftertraining in6dayblock. Figure1 says150mL, conflictingwithMethods/registrymg; receivedlevels/adherenceunmeasured.",
+      "strength": {
+        "n": 17,
+        "unit": "kg1RMbacksquat",
+        "ALA_T0_mean": 128.8,
+        "ALA_T2_mean": 130.0,
+        "PL_T0_mean": 128.2,
+        "PL_T2_mean": 125.6,
+        "acute_time_by_treatment_P": 0.992,
+        "six_day_time_by_treatment_P": 0.028,
+        "reported_d": 0.164,
+        "ALA_within_P": 0.32,
+        "PL_within_P": 0.032,
+        "CI": null,
+        "interpretation": "Comparativeinteractionpositive, notonlywithinPLchange; shortrecovery/preservationcontextnotlongtermtraining/diseaserescue",
+        "source_precision_issue": "ALAsuppTable3SD27.09/26.35 differsmain/Table4SD27.9/27.2; no repaired estimate or new pairedanalysis"
+      },
+      "biomarker_time_by_treatment_P": {
+        "CK_T2": 0.136,
+        "myoglobin_T2": 0.13,
+        "IL6_T2": 0.107,
+        "IL10_T2": 0.959,
+        "HDL_T2": 0.27,
+        "LDL_T2": 0.73,
+        "oxLDL_T2": 0.27
+      },
+      "limits": [
+        "Crossover period/order/carryover terms and ANCOVA covariate not specified",
+        "Multiple listed primaryendpoints, no familywidehierarchy",
+        "Nobiomarker-mediated causality fromwithin-condition significance",
+        ">3SDoutlierruleMethods versus>3.5SDCKhighrespondersDiscussion; assayNs14–17",
+        "NosystematicAE, quantifiedadherence orplasmaALA",
+        "CurrentDRKSregistration2019-09-06 beforestart2019-09-09, nohistoryaudit; noallocationconcealment/sequenceentries"
+      ],
+      "funding": "Noexternalfunding/conflictsdeclared; study-specificbottlesmadebyAthenion"
+    },
+    {
+      "pmid": "21775755",
+      "pmcid": "PMC3161301",
+      "doi": "10.2337/dc11-0503",
+      "role": "Large diabetic-neuropathy trial,primarynull/secondaryclinicalweaknesspositive",
+      "depth": "Complete scientific main/originalXMLtables; nativeflow; entiresupplementtext/nativepages2–3safetytables",
+      "population": "Mild-to-moderate diabetic distal sensorimotorpolyneuropathy; myopathy/interferingneurologicalconditions excluded; meanage~53–54y",
+      "preparation": "ThioctacidHR(MEDA)film-coatedtablets600mgALAonce daily versusmatchingcellulose/lactosetablets; enantiomercompositionnotexplicit",
+      "duration": "4years afterscreening/placeborun-in;4weekwashout described",
+      "denominators": {
+        "randomized_ALA": 233,
+        "randomized_PL": 227,
+        "exposed_ALA": 231,
+        "exposed_PL": 225,
+        "reported_ITT_ALA": 230,
+        "reported_ITT_PL": 224,
+        "intervention_discontinued_ALA": 95,
+        "intervention_discontinued_PL": 89,
+        "Table2_fouryear_endpoint_ALA": 215,
+        "Table2_fouryear_endpoint_PL": 207,
+        "limit": "Endpointpermitslastavailablepostrandomizationvalue; Table2Nnotfouryearcompleters"
+      },
+      "primary": {
+        "endpoint": "NIS-LL+7",
+        "P": 0.105,
+        "ALA_LS_change": -0.45,
+        "PL_LS_change": 0.34,
+        "reported_difference": 0.78,
+        "reported_CI": [
+          -0.16,
+          1.73
+        ],
+        "source_issue": "PaperlabelspositivecontrastALA-minus-placebo despiteoppositesignedmeans;retaininconsistencyratherthanrepair",
+        "final_confirmatory_alpha": 0.0452
+      },
+      "secondary": {
+        "NIS_P": 0.028,
+        "NIS_LL_exact_P": 0.0505,
+        "NIS_LL_muscular_weakness": {
+          "ALA_mean_change": -0.21,
+          "ALA_SD": 1.57,
+          "PL_mean_change": 0.17,
+          "PL_SD": 2.12,
+          "P": 0.045,
+          "unit": "clinicalweaknesssubscorepoints",
+          "meaning": "Examiner-ratedimpairment, notdynamometerforce,gaitorendurance"
+        },
+        "NIS_response_progression_P": 0.013,
+        "NIS_LL_response_progression_P": 0.025,
+        "NSC_weakness_number_P": 0.005,
+        "NSC_weakness_severity_P": 0.008,
+        "meaning": "Nominalsecondaryfindings, questionnairesdistinctfromexamination; nofamilywideconfirmation"
+      },
+      "nulls": [
+        "Nerveconductionparameters",
+        "quantitativesensorytests",
+        "TSS",
+        "primarycomposite"
+      ],
+      "harms": {
+        "SAE_ALA": [
+          88,
+          231
+        ],
+        "SAE_PL": [
+          63,
+          225
+        ],
+        "heart_rate_rhythm_ALA": [
+          16,
+          231
+        ],
+        "heart_rate_rhythm_PL": [
+          6,
+          225
+        ],
+        "heart_rate_rhythm_nominal_P": 0.047,
+        "deaths_ALA": 3,
+        "deaths_PL": 6,
+        "QTc_over60ms_ALA": 3,
+        "QTc_over60ms_PL": 10,
+        "QTc_nominal_P": 0.0497,
+        "limits": "Causalitynotestablishedfromcounts; noindividualCVtypesignificant; similartolerabilitynot safety-equivalence"
+      },
+      "registry": "NCT00977483currentonly,noresults;firstposted2009afterstated2005completion; single-groupfieldcontradictstwoarms; historicalprespecunverified",
+      "sponsor": "MEDA: sponsor-generatedrandomization,authorsfinancial/employmentrelationships; noerasurofresults"
+    },
+    {
+      "pmid": "41397213",
+      "pmcid": "PMC12714125 unavailableuntil2027-01-13",
+      "doi": "10.1212/WNL.0000000000214454",
+      "publication": "Epub2025-12-15;Neurology2026-01-13",
+      "role": "LargerprogressiveMSprimarywalkingnullandharms",
+      "depth": "Completeprimaryabstract+currentNCT03161028; publisher403, nofullmain/nativefigures/supplement/protocolhistorycredit",
+      "design": "Multicentrephase2randomizeddoubleblind24months,linear mixedmodelsITT; planned118; actual54ALA61placebo; named1200mg/dayoralLAcapsule, stereochemistry/formulationunresolved",
+      "flow": {
+        "ALA_start": 54,
+        "PL_start": 61,
+        "ALA_complete": 34,
+        "PL_complete": 51,
+        "ALA_noncomplete": 20,
+        "PL_noncomplete": 10
+      },
+      "walking_primary": {
+        "unit": "ft/s",
+        "ALA_change": -0.39,
+        "PL_change": -0.3,
+        "abstract_contrast": -0.08,
+        "abstract_interval": [
+          -0.33,
+          0.17
+        ],
+        "abstract_interval_level": "Unlabelledinreadabstract",
+        "registry_P": 0.51,
+        "registry_ALA_95CI": [
+          -0.58,
+          -0.2
+        ],
+        "registry_PL_95CI": [
+          -0.46,
+          -0.14
+        ],
+        "registry_method": "mixedmodels;199secondassignedwhenfollowupT25FWcannotbecompleted",
+        "conclusion": "No slowingofwalkingdecline;notprecisionzeroeffectproof"
+      },
+      "registry_secondary_P": {
+        "two_min_walk": 0.902,
+        "fall_count": 0.9,
+        "whole_brain_volume": 0.084
+      },
+      "imaging": "Abstractwhole/deepgrayvolumepatternretainedasbiomarker;greaterT2lesionvolumenoted; nofunctionalbenefitfromwithin-armstability/differences",
+      "registry_harms": {
+        "proteinuria_ALA": [
+          11,
+          54
+        ],
+        "proteinuria_PL": [
+          2,
+          61
+        ],
+        "SAE_ALA": [
+          11,
+          54
+        ],
+        "SAE_PL": [
+          7,
+          61
+        ],
+        "membranous_glomerulonephritis_ALA": [
+          2,
+          54
+        ],
+        "membranous_glomerulonephritis_PL": [
+          0,
+          61
+        ],
+        "suicidal_ideation_ALA": [
+          0,
+          54
+        ],
+        "suicidal_ideation_PL": [
+          9,
+          61
+        ],
+        "deaths_ALA": 0,
+        "deaths_PL": 1,
+        "interpretation": "Abstractreportstreatment-relatedproteinuriaandmonitoringincrease; eventpatternsnotuniversalcausal/netbenefitclaim"
+      },
+      "limitations": "Differentialattrition,COVIDinterruptions/currentregistrylowpowernote; fullsensitivityanalysisunqualifiedwithoutmain; samecurrentregistryisnotadditionalreplication"
+    }
+  ],
+  "additional_abstract_context": [
+    {
+      "pmid": "28680916",
+      "scope": "Completeabstractonly",
+      "positive": "PilotbrainatrophydifferenceP=.002",
+      "null": "WalkingP=.06",
+      "safety": "GIupsetandrenalfailure/glomerulonephritispointers,fullmethodsnotqualified"
+    },
+    {
+      "pmid": "30477834",
+      "scope": "Completeabstractonly",
+      "positive": "18-personlowerdisabilitysubsetturningP=.048",
+      "null": "21-personTUGg=.51CI[-.35,1.38]crosseszero",
+      "overlap": "CompanionofsameNCT01188811pilot,noreplicationcredit; interactions/selectionnotfullqualified"
+    }
+  ],
+  "competitive_judgment": "Actual randomized strengthrecovery and clinicalweaknesssignals merit boundedreserve beyond biochemicalhypothesis. Primaryneuropathy/walkingnulls,shortsmallathletetrial,imputation/attrition, endpointscope andobservedharms prevent automaticnomination or cross-trialMVA superiority. No selectiveMVAproofbar; nomineesequallyuncertain.",
+  "mechanism_boundary": "NoassayedBUB1B/BUBR1restoration, proteinhalf-life/foldingrescue, chromosomalfaithfulnessorMVAfunctionalresponse inqualifiedmaterial. ReducedoxidizedLDL/inflammationnotestablishedinathletetrial; no componentinheritance frommixtures.",
+  "source_reviewer_actions": {
+    "repo_edits": false,
+    "automatic_entry_or_count": false,
+    "nominee_change": false,
+    "optional_entry_proposed": true
+  },
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "lipoic-acid-functional-qualification.md",
+  "qualification_md_sha256": "d4f9b361b98b9affc8b03705cf06c5612eab651f4432997adf870a54300e3428",
+  "integration": {
+    "baseline": "cd9ade60969052500fd48513d0e1e6f11e97a08e",
+    "baseline_assessments": 240,
+    "current_assessments": 243,
+    "retained_prior_ids": 240,
+    "prior_objects_unchanged": 240,
+    "refined_ids": [],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lipoic-acid-functional-followup-20260923/qualification.json",
+      "sha256": "61f81dbe50bba5825f30f1ec945ef626ac72b781e1210304b9970309733b2d4c"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lipoic-acid-functional-followup-20260923/reading-manifest.json",
+      "sha256": "1fc710c0ef21c29ee95b94369e612ce4055a09472f97bd9542573b7f4e169969"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lipoic-acid-functional-followup-20260923/independent-check/independent-check.md",
+      "sha256": "5ee6f8f7575e624a9ac1ddee4a21284857a1cfa21ba6f554b6477a86cd19e3c6"
+    },
+    "independent_structured_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lipoic-acid-functional-followup-20260923/independent-check/independent-check.json",
+      "sha256": "5d1eb398bc43be1f3c207315ed2973a934b9ee47f76a716d754b5b566d78d267"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lipoic-arginine-citrulline-integration-20260923/root-reading.json",
+      "sha256": "17ffa092e3491970159d3278ce523698953542d9a2b521ee82d186af893b780d"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false
+  }
+}
