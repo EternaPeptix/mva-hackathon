@@ -114,4 +114,6 @@ The preceding 233-assessment replay leaves all FDA source/output tables unchange
 
 The preceding 235-assessment replay leaves all FDA source/output tables unchanged, with 13 appraisal-linked rows. No new source-name relationship is assigned to sodium-AKG or the stereochemically unresolved epicatechin entry. Source membership establishes no efficacy or product equivalence.
 
-The current 238-assessment replay leaves all FDA source/output tables unchanged, with 13 appraisal-linked rows. The added beta-alanine, apigenin and beta-lapachone assessments create no FDA source-name relationship. Source membership establishes no efficacy or product equivalence.
+The preceding 238-assessment replay leaves all FDA source/output tables unchanged, with 13 appraisal-linked rows. The added beta-alanine, apigenin and beta-lapachone assessments create no FDA source-name relationship. Source membership establishes no efficacy or product equivalence.
+
+The current 240-assessment replay leaves all FDA source/output tables unchanged, with 13 appraisal-linked rows. The preparation-specific betaine and nitrate-rich juice assessments add no automatic FDA source-name relation. Source membership establishes no efficacy or product equivalence.

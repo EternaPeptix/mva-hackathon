@@ -146,4 +146,6 @@ The preceding update retains all 230 prior IDs, refines only NR and adds three d
 
 The preceding update retains all 233 prior IDs, refines only NR with NEM6 evidence and adds sodium-AKG and source-labelled epicatechin for **235 assessments**. All 109 PR1 IDs remain (93 unchanged; sixteen previously refined). Reader/test, original selection and all 47 historical questions remain unchanged. The report now presents a compact comparison table; its previous detailed block is preserved in the extended appendix.
 
-The current update adds beta-alanine, apigenin and beta-lapachone for **238 assessments**, preserving all 235 preceding objects. All 109 PR1 IDs remain (93 unchanged; sixteen previously refined). Reader/test, original selection, all 47 historical source questions and the preserved comparison appendix remain unchanged.
+The preceding update adds beta-alanine, apigenin and beta-lapachone for **238 assessments**, preserving all 235 preceding objects. All 109 PR1 IDs remain (93 unchanged; sixteen previously refined). Reader/test, original selection, all 47 historical source questions and the preserved comparison appendix remain unchanged.
+
+The current update adds source-labelled betaine and nitrate-containing beetroot juice for **240 assessments**, preserving all 238 preceding objects. PR1 remains 109 IDs/93 unchanged/sixteen earlier refinements. Reader/test, original selection, all 47 historical source questions and the preserved comparison appendix remain unchanged.

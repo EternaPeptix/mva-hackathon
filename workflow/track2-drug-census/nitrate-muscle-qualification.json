@@ -1,0 +1,421 @@
+{
+  "date": "2026-09-23",
+  "route": "Nitrate-containing Beet It Sport beetroot juice",
+  "identity": {
+    "tested": "Concentrated beetroot juice versus manufacturer nitrate-depleted matching juice",
+    "not_tested_as_equivalent": [
+      "Isolated sodium nitrate",
+      "Isolated potassium nitrate",
+      "Nitrite salts",
+      "Organic nitrate medicines",
+      "Other NO donors",
+      "Unspecified beetroot, beet powder or reformulated retail products"
+    ],
+    "limit": "The matched juice contrast supports the role of its nitrate content in that matrix. It does not establish efficacy interchangeability with isolated salts or all beet products.",
+    "inventory": "See identity-check.json; initial clean 235 decisions at 1aca821, later parent working snapshot 238. No repository edits."
+  },
+  "2015": {
+    "pmid": "26179185",
+    "doi": "10.1161/CIRCHEARTFAILURE.115.002141",
+    "source_version": "NIHMS708599 author manuscript in PMC4573847, underlying 2015 publication",
+    "registry": "NCT01682356",
+    "participants": {
+      "screened": 37,
+      "enrolled_and_completed": 9,
+      "male_female": [
+        5,
+        4
+      ],
+      "age_mean_SD_years": [
+        57,
+        10
+      ],
+      "EF_mean_SD_percent": [
+        28,
+        11
+      ],
+      "NYHA_I_II_III_IV": [
+        1,
+        5,
+        3,
+        0
+      ],
+      "HF_duration_mean_SD_years": [
+        10,
+        7
+      ],
+      "condition": "Nonischemic systolic HF, EF≤45%, stable medication; no major other organ dysfunction or exercise contraindication. All nine took beta-blockers, seven ACE inhibitor/ARB, four spironolactone, three statin. Medication unchanged during trial."
+    },
+    "design": {
+      "type": "Randomized double-blind crossover",
+      "washout": "1–2 weeks",
+      "randomization": "Order generated online; detailed concealment not described. Subjects could not reliably identify the active visit when queried.",
+      "flow": "Native Figure 1: six screening exclusions; among 31 eligible, 15 declined, six could not be contacted and one sustained injury; all nine enrolled completed. No post-allocation loss in this report.",
+      "eligibility": "Antacids, proton-pump/xanthine-oxidase inhibitors and PDE inhibitors excluded; these study restrictions are not new contraindication determinations."
+    },
+    "exposure": {
+      "volume_mL": 140,
+      "nitrate_mmol": 11.2,
+      "product": "Beet It Sport, James White Drinks",
+      "duration": "Single dose; exercise began two hours later, with six-minute walk followed by dynamometry",
+      "control": "Same volume, nitrate depleted using an ion-exchange resin; reported matching packaging, color, texture, taste and smell. Exact residual nitrate and batch assay not supplied.",
+      "background": "Low-nitrate diet for ten days before and throughout study, overnight food/caffeine/alcohol/exercise avoidance and no gum/antibacterial mouthwash on test days. These are study conditions, not advice."
+    },
+    "statistics": {
+      "model": "Treatment×order ANOVA, subject repeated within treatment, alpha .05",
+      "author_named_primary": "Breath NO and peak/maximal muscle power and velocity",
+      "secondary": "Other outcomes including walking, isometric torque and fatigue",
+      "power": "Designed to detect effect size≥.69 at 80% power with assumed within-person correlation .95",
+      "limits": [
+        "No study-wide multiplicity correction described",
+        "No paired treatment confidence intervals supplied",
+        "Nonsignificant treatment×order interaction does not prove absence of carryover",
+        "Parabola-derived maximum power and velocity are related outputs of the measured power curve"
+      ]
+    },
+    "outcomes": {
+      "measured_high_speed_power": [
+        {
+          "velocity_rad_s": 4.71,
+          "reported_active_increase_percent": 9,
+          "P": 0.07,
+          "interpretation": "P=.07 is nonsignificant. The asterisk and caption’s significance wording do not override the numerical P."
+        },
+        {
+          "velocity_rad_s": 6.28,
+          "reported_active_increase_percent": 11,
+          "P": "<.05",
+          "interpretation": "Measured high-speed voluntary knee-extension torque multiplied by velocity gives a power benefit."
+        }
+      ],
+      "modeled_Pmax": {
+        "placebo_mean": 4.2,
+        "placebo_SE": 0.33,
+        "nitrate_mean": 4.74,
+        "nitrate_SE": 0.41,
+        "units": "W/kg body mass",
+        "source_percent": 13,
+        "paper_P": "<.05",
+        "CI": null,
+        "method": "Parabolic fit to the measured peak-power/velocity relation; correlated with the measured high-speed effect, not independent replication. Standard error is explicitly identified in the current registry.",
+        "later_registry_same_endpoint": {
+          "n_each_condition": 9,
+          "P": 0.0153,
+          "test": "Paired two-sided t-test in the current registry post",
+          "limit": "Same values and same registered trial; not an additional 17-person power study, and not the exact P from the paper’s stated ANOVA."
+        }
+      },
+      "modeled_Vmax": {
+        "placebo_reported_value": 11.11,
+        "placebo_reported_plusminus": 0.53,
+        "nitrate_reported_value": 12.48,
+        "nitrate_reported_plusminus": 0.95,
+        "units": "rad/s",
+        "source_percent": 12,
+        "paper_P": "<.05",
+        "CI": null,
+        "plusminus_definition": "The read manuscript does not explicitly label this figure/abstract dispersion; do not silently call it SD.",
+        "panel_locator": "Native Figure 3 has velocity above power; Results prose reverses these panel locators."
+      },
+      "isometric_torque": {
+        "placebo": [
+          1.98,
+          0.16
+        ],
+        "nitrate": [
+          1.99,
+          0.1
+        ],
+        "unit": "Nm/kg body mass",
+        "P": 0.86,
+        "meaning": "No detected static-strength benefit; no treatment CI supplied."
+      },
+      "six_minute_walk": {
+        "placebo": [
+          517,
+          31
+        ],
+        "nitrate": [
+          528,
+          30
+        ],
+        "unit": "metres",
+        "P": 0.29,
+        "meaning": "No detected walking benefit. Post hoc power calculations do not convert it to a positive."
+      },
+      "fatigue_table4": {
+        "dispersion": "Mean ± SE, nine participants",
+        "placebo": {
+          "max_peak_power_W_kg": [
+            1.68,
+            0.13
+          ],
+          "average_peak_power_W_kg": [
+            0.82,
+            0.08
+          ],
+          "first_third_J_kg": [
+            15.4,
+            1.8
+          ],
+          "last_third_J_kg": [
+            4.5,
+            0.5
+          ],
+          "last_first_ratio": [
+            0.3,
+            0.02
+          ],
+          "total_J_kg": [
+            28.1,
+            3.2
+          ]
+        },
+        "nitrate": {
+          "max_peak_power_W_kg": [
+            1.78,
+            0.15
+          ],
+          "average_peak_power_W_kg": [
+            0.86,
+            0.11
+          ],
+          "first_third_J_kg": [
+            16.1,
+            1.9
+          ],
+          "last_third_J_kg": [
+            4.4,
+            0.4
+          ],
+          "last_first_ratio": [
+            0.28,
+            0.02
+          ],
+          "total_J_kg": [
+            28.8,
+            3.3
+          ]
+        },
+        "inference": "All reported comparisons null; 50 repeated contractions at 3.14 rad/s are not 50 independent participants."
+      },
+      "markers": "Plasma nitrate and breath NO increased; plasma nitrite difference was not significant. Breath NO is a proxy, not direct muscle NO, sGC or cGMP mediation evidence.",
+      "blood_pressure": "No significant treatment difference in this acute nine-person study; no general hemodynamic equivalence claim."
+    },
+    "harms": {
+      "article": "One participant reported abdominal cramping and loose stools; no significant serious clinical events and no significant BP change.",
+      "current_registry": "Zero other/serious/death events posted for 17 people per condition, despite the article’s GI symptom report. Preserve both; cause of discrepancy unknown.",
+      "limit": "No long-term, pediatric, MVA or tumor safety conclusion."
+    },
+    "mechanism": "No muscle biopsy, NO-cGMP or calcium-handling mediation experiment beyond plasma nitrate/nitrite and breath NO. Voluntary dynamometry does not isolate fiber, neural or blood-flow mechanisms. No BUB1B/BubR1/checkpoint/fidelity endpoint. The authors’ one-third deficit comparison uses external healthy cohorts, not randomized normalization to a healthy range.",
+    "funding": "Barnes-Jewish Hospital Foundation, Washington University programs and NIH-supported UL1 TR000448; disclosures None.",
+    "scope": "Complete scientific author-manuscript text, four table texts and all three native figures. Linked supplemental DOCX/XML requests returned HTML challenges and were not read."
+  },
+  "2023": {
+    "pmid": "37226336",
+    "doi": "10.14814/phy2.15694",
+    "pmcid": "PMC10209430",
+    "version": "Published paper, not predecessor preprint PMID36824817",
+    "registries": [
+      "NCT03513302",
+      "NCT03595774"
+    ],
+    "design": "Secondary pooled analysis of two registered trials; randomized double-blind acute crossover comparisons with one-week washout. The published paper does not map individual contributions or overlap with the parent-trial publications.",
+    "participants": {
+      "screened": 143,
+      "enrolled": 26,
+      "excluded_at_initial_visit": 8,
+      "completed": 18,
+      "sex": "Women",
+      "age_range_years": [
+        65,
+        79
+      ],
+      "age_mean_SD_years": [
+        70,
+        4
+      ],
+      "condition": "Community dwelling; major cardiovascular, metabolic, renal, neuromuscular and other exercise-limiting diseases excluded. No HF/MVA/myopathy cohort.",
+      "flow_limit": "The eight initial-visit exclusions should not be presented as post-treatment attrition."
+    },
+    "exposure": {
+      "volume_mL": 140,
+      "measured_nitrate_mmol_mean_SD": [
+        15.6,
+        3.6
+      ],
+      "control_nitrate_mmol": "<0.05",
+      "product": "Beet It Sport",
+      "timing": "Two hours before testing; 24-hour restriction of nitrate-rich foods and 12-hour fasting/caffeine/alcohol restriction",
+      "blinding": "Independent individual assigned active/placebo to coded bottle labels; broken after data collection."
+    },
+    "assay": "After a non-fatigued force-velocity protocol reported separately, participants performed 50 all-out knee extensions at 3.14 rad/s, followed by recovery measurements through ten minutes. The participant, not each contraction, is the independent unit.",
+    "statistics": "Repeated-measures treatment×time/repetition ANOVA, Holm–Šidák post hoc comparisons, paired t-tests for summary/fit parameters. No CIs or equivalence bounds; separate correction across all endpoint families not established.",
+    "outcomes": {
+      "plasma": "Reported individual-peak nitrate and nitrite increases were 21±8 and 4±4 fold; these were not reconstructed from ratios of group means. Breath NO was not measured.",
+      "fatigue_torque_treatment_P": 0.851,
+      "fatigue_torque_interaction_P": 0.576,
+      "total_work": {
+        "placebo_mean_SD": [
+          34.6,
+          8.0
+        ],
+        "nitrate_mean_SD": [
+          35.3,
+          8.2
+        ],
+        "units": "J/kg",
+        "P": 0.26
+      },
+      "average_torque": {
+        "placebo_mean_SD": [
+          0.57,
+          0.1
+        ],
+        "nitrate_mean_SD": [
+          0.57,
+          0.1
+        ],
+        "units": "Nm/kg",
+        "P": 0.969
+      },
+      "fatigue_index": {
+        "placebo_mean_SD": [
+          50.8,
+          4.8
+        ],
+        "nitrate_mean_SD": [
+          51.4,
+          5.8
+        ],
+        "units": "percent",
+        "P": 0.593
+      },
+      "recovery_body_mass_normalized_torque": {
+        "treatment_P": 0.326,
+        "interaction_P": 0.281,
+        "unit": "Nm/kg"
+      },
+      "recovery_relative_torque": {
+        "treatment_P": 0.275,
+        "interaction_P": 0.5,
+        "unit": "Percent of non-fatigued torque"
+      },
+      "recovery_half_life": {
+        "placebo_mean_SD_seconds": [
+          72.4,
+          82.0
+        ],
+        "nitrate_mean_SD_seconds": [
+          58.1,
+          26.7
+        ],
+        "P": 0.506
+      },
+      "curvefit": "Predicted minimum/maximum and fitted rate parameter were null. The source labels a parameter in s^-1 a time constant; no refit or half-life reconstruction was performed.",
+      "figure_stars": "Native Figures 2 and 3 mark fatigue/recovery relative to baseline, not nitrate-versus-placebo superiority."
+    },
+    "harms": "No systematic adverse-event table in this article. The parent registries have different exposures and denominators; their safety records cannot become zero-harm evidence for all 18 women.",
+    "mechanism": "Plasma nitrate/nitrite increased but NO, blood flow, PCr and pH were not measured. No BUBR1 or chromosome-fidelity assay. The task-specific null does not negate the 2015 high-speed power signal.",
+    "funding": "IUPUI and NIH grants. No COI statement identified in the read scientific main; absence of a located statement is not a verified declaration of no conflicts.",
+    "scope": "Complete scientific main, all three table texts and all three native figures. Graphical abstract viewed but given no separate result credit."
+  },
+  "current_registry_context": {
+    "scope": "Current records only; history not read. No claim of original prospective endpoint specification from current entries.",
+    "NCT01682356": {
+      "overall_completed": 17,
+      "power_measured": 9,
+      "power_result": "Exactly the article’s 4.20±.33 versus4.74±.41 W/kg; dispersion explicitly SE; current paired two-sided P=.0153. Not new independent replication.",
+      "VO2peak": "Eight assessed; 21.4±2.1 versus23.0±2.3 mL/min/kg, SE, paired P=.0131. Registry context only; no full review of the later exercise paper or assumption of overlap/disjointness of endpoint subsets.",
+      "timing": "First posted September2012 after stated January2012 start; current last post December2024. This does not verify the original outcome hierarchy."
+    },
+    "NCT03513302": {
+      "enrolled_including_screen_failures": 47,
+      "completed": 16,
+      "female_male": [
+        11,
+        5
+      ],
+      "design": "Broader 14-day crossover with 14-day washout, not simply the pooled paper’s acute two-condition visit pair",
+      "posted_power": "Day1 placebo3.98±1.18 versus nitrate4.26±1.37 W/kg; day14 4.23±1.21 versus4.31±1.26, SD. No analysis P/CI in these posted endpoints; neither efficacy nor null inferred from means. PROMIS endpoints likewise have no posted inferential test.",
+      "safety": "No serious/death events; other events5/16 placebo versus4/16 nitrate. Screening findings27/47 are not drug effects. Nitrate reports two nausea/diarrhea participants; no causality/equivalence inferred."
+    },
+    "NCT03595774": {
+      "enrolled": 13,
+      "completed": 9,
+      "female_male": [
+        8,
+        1
+      ],
+      "withdrawal": "Two adverse-event withdrawals and two screen failures in posted flow; AE table uses only nine and reports zero, so no zero-event conclusion for all enrolled.",
+      "posted_primary": "Power means3.74/3.92/3.69 W/kg across placebo/low/high, overall ANOVA P=.0131; exact pairwise results absent. Velocity overall P=.0833. No dose-response or pairwise benefit declared here.",
+      "record_issue": "Some outcome placebo descriptions duplicate the low-dose mixture; other protocol labels also conflict. Preserve labels and do not invent repaired assignments."
+    },
+    "pooled_mapping": "The parent registries currently list 11 and8 female completers; the paper reports18 pooled women without a person-level map. Do not assume one overlap or one exclusion to force reconciliation. Parent regimens are broader/different, and their publications are not independent replications of the pooled analysis."
+  },
+  "competitive_judgment": "Actual randomized human high-speed power is a substantive functional signal, closer to compensation than BUBR1 supply. Acute exposure, small sample, related fit-derived outputs, null task outcomes and no CIs/durability limit any nomination. Other nominees retain transfer limits too; no selective requirement for proven MVA efficacy and no cross-trial superiority claim.",
+  "systemic_tumor_unknowns": "Long-term systemic effects, abnormal-clone/tumor outcomes and pediatric/MVA benefit are unmeasured here. NO-related hypotheses do not establish BubR1 restoration, and acute BP nulls do not establish universal safety.",
+  "source_reviewer_status": "Qualified as a bounded human muscle-power research comparator; not automatically nominated",
+  "source_reviewer_reading_manifest": "reading-manifest.json",
+  "source_reviewer_optional_entry": "Preparation-specific nitrate-containing beetroot juice is justified as a bounded reserve; empty automatic aliases prevent juice-to-salt, organic-nitrate or plain-beet inheritance. Root decides admission; no count promotion.",
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "nitrate-muscle-qualification.md",
+  "qualification_md_sha256": "b36d2d156f9d787a7db440f2a198497edab8d829955fb1a288fc28ba9fdbcec1",
+  "integration": {
+    "baseline": "b1feb0d7cff05ed9632fc9fe4c0893f67f871881",
+    "baseline_assessments": 238,
+    "current_assessments": 240,
+    "retained_prior_ids": 238,
+    "prior_objects_unchanged": 238,
+    "refined_ids": [],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nitrate-muscle-primary-followup-20260923/qualification.json",
+      "sha256": "cf35b8aa61f3d4e076fb52b08146dec305ea416d8ab97eb204aed50e2611c4ee"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nitrate-muscle-primary-followup-20260923/reading-manifest.json",
+      "sha256": "1bdbef1eff4b377b54110e9748a3dbc35cd962702319ab4663b36ffffa9011a8"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nitrate-muscle-primary-followup-20260923/independent-nitrate/independent-check.md",
+      "sha256": "e8ab707fdd8424a4152beda2da666342be9ea36e8cd06f44143a50327a3ca05b"
+    },
+    "independent_structured_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nitrate-muscle-primary-followup-20260923/independent-nitrate/independent-check.json",
+      "sha256": "426827e74e0f29c671ee945932725062a8d52f761096e980469258e892dc0dc2"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/betaine-nitrate-integration-20260923/root-reading.json",
+      "sha256": "facb9edb3cc9556b27505840da1248318458b988fa78a0bc8183347f4b456aaf"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false,
+    "schema_correction": {
+      "at_utc": "2026-09-24T04:02:32.035236+00:00",
+      "change_type": "Schema precision only",
+      "old_path": "2023.outcomes.recovery_absolute_torque",
+      "new_path": "2023.outcomes.recovery_body_mass_normalized_torque",
+      "reason": "The preserved unit is Nm/kg; endpoint is normalized to body mass, not absolute torque. Markdown already described it correctly.",
+      "values_unchanged": {
+        "treatment_P": 0.326,
+        "interaction_P": 0.281,
+        "unit": "Nm/kg"
+      },
+      "scientific_conclusion_changed": false,
+      "new_primary_reading": false,
+      "new_count_credit": false,
+      "repo_edits": false,
+      "old_qualification_sha256": "5666da024b5547d2e2a2e4e4ebfe79d0e38e6effabe5fa605adb8309b0df0eae",
+      "new_qualification_sha256": "cf35b8aa61f3d4e076fb52b08146dec305ea416d8ab97eb204aed50e2611c4ee",
+      "previous_freeze_sha256": "616f6c43abcd6e058662995a9c88d3578d4ec997ff0b94d7f3c4477ed282db4c",
+      "unchanged_files": {
+        "qualification.md": "5eee5d8f439b2a33f923cdd5e8d1c3a90af4ae02804771d3524fe98c7392b908",
+        "optional-entry.json": "61c04060aee7aa673c3204dcb20dd383737856be7b5fcb5d4123bf15cbd9ebeb",
+        "reading-manifest.json": "1bdbef1eff4b377b54110e9748a3dbc35cd962702319ab4663b36ffffa9011a8"
+      },
+      "prior_versions": "before-normalized-torque-key/",
+      "existing_independent_review": "The independent review bound to the prior source JSON remains available unchanged; this note does not claim its reapproval."
+    },
+    "root_verified_old_new_equal_after_key_mapping": true
+  }
+}

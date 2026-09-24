@@ -1,0 +1,252 @@
+{
+  "date": "2026-09-23",
+  "created_at_utc": "2026-09-24T03:32:46.555054+00:00",
+  "baseline": "1aca82163b6d42430a56a90813affd416b12b053",
+  "baseline_decisions": 235,
+  "recommendation": "Distinct source-labelled betaine functional reserve/comparator; no nominee change or automatic admission/count",
+  "identity": {
+    "named_intervention": "betaine",
+    "anhydrous_or_hydrochloride": "Not sufficiently specified in selected primary treatment descriptions; do not force either product/form",
+    "exact_main_match_aliases": [],
+    "collision": "Betaine and anhydrous exact aliases match CHEMBL95889 and DC347, both containing HCl aliases",
+    "excluded_equivalences": [
+      "betaine hydrochloride",
+      "particular prescription anhydrous product",
+      "extracts",
+      "chloral betaine",
+      "oxibetaine"
+    ]
+  },
+  "sources": [
+    {
+      "pmid": "39187977",
+      "pmcid": "PMC11446699",
+      "doi": "10.1002/jcsm.13558",
+      "role": "age-related controlled functional primary",
+      "interventions": {
+        "initial_animals": "Male C57BL/6J, 15-month old treated or old controls plus 2-month young comparator; 2% w/v betaine drinking water for 12 weeks, standard chow ad libitum; n=6/group in Figure1",
+        "received_exposure": "Concentration known; actual water intake, mg/kg dose, tissue concentration and salt/hydration/purity/supplier unknown",
+        "cells": "C2C12 ± Mss51 overexpression and Yy1 perturbation, 10 mM betaine; duration not established",
+        "second_animals": "16-to-20-month mice, 2% betaine except WT; muscle AAV at19 months, intended n=10/group, endpoint n=7–9 or4; genetic intervention distinct from drug alone"
+      },
+      "outcomes": [
+        {
+          "endpoint": "body-weight-normalized four-limb grip",
+          "treated_mean": 74.8,
+          "treated_sd": 3.3,
+          "control_mean": 63.7,
+          "control_sd": 8.4,
+          "unit": "N/kg body weight",
+          "n_per_group": 6,
+          "P": 0.01,
+          "contrast": "old beta versus old control",
+          "limit": "Not absolute or specific force; no pretreatment function trajectory"
+        },
+        {
+          "endpoint": "treadmill distance",
+          "treated_mean": 238.2,
+          "treated_sd": 6.7,
+          "control_mean": 200.6,
+          "control_sd": 20.5,
+          "unit": "UNRESOLVED: main metres; native S1D centimetres",
+          "n_per_group": 4,
+          "P": 0.013,
+          "contrast": "old beta versus old control",
+          "limit": "15-minute stimulated treadmill performance; selection from cohort n6 unexplained"
+        },
+        {
+          "endpoint": "lean/fat fraction",
+          "direction": "higher lean percentage, lower fat percentage with beta",
+          "n_per_group": "5–6",
+          "limit": "Not absolute muscle mass"
+        },
+        {
+          "endpoint": "mitochondrial markers and transcription",
+          "direction": "selected ETC proteins up; Mss51 mRNA down; Yy1 mRNA/protein up",
+          "limit": "No direct protein folding/half-life/BUBR1 assay"
+        },
+        {
+          "endpoint": "Mss51-overexpressing C2C12 mitochondrial effects",
+          "positive": "Selected ETC proteins and superoxide respond. Fig3C direct Mss51-OE versus Mss51-OE+betaine comparisons mark increased maximal respiration and spare respiratory capacity (**P<.01; caption n=5–6). Separate Fig5B direct betaine comparisons show increased basal/maximal OCR, ATP production, spare capacity and proton leak (***P<.001; n=4).",
+          "null_or_limit": "Mitochondrial number and PGC1alpha not rescued; Fig3C direct basal-respiration, proton-leak and ATP-production comparisons are unmarked. Fig5B increased proton leak does not itself establish improved ATP efficiency or a beneficial endpoint."
+        }
+      ],
+      "mechanism_limits": [
+        "Yy1 promoter binding/repression supported by luciferase, ChIP, EMSA",
+        "Yy1 loss can itself compromise muscle; no complete drug-by-gene factorial interaction tests",
+        "Second animal performance panel is cage locomotion, not initial treadmill",
+        "Source control-injection conflict: Results saline versus native Fig6 AAV vector",
+        "No direct exclusivity, protein stabilization, NAD or BUBR1 function demonstrated"
+      ],
+      "design_limits": [
+        "Random allocation/masking not established",
+        "Endpoint n smaller than intended cohort without full flow",
+        "No prespecified primary hierarchy/power calculation/systematic harms ascertainment",
+        "One-way ANOVA/DunnettT3 across many assays; no study-wide multiplicity correction described",
+        "Exploratory GSEA uses FDR<.25 or |NES|<1 as written; FDR.10–.14 is not FDR<.05 confirmation"
+      ],
+      "funding": "Chinese public research foundations; authors declare no conflicts"
+    },
+    {
+      "pmid": "20642826",
+      "pmcid": "PMC2915951",
+      "doi": "10.1186/1550-2783-7-27",
+      "role": "controlled human force/power positive",
+      "design": "12 healthy active men 21±3 y; balanced randomized double-blind crossover; 14 days per period, 14-day washout; repeated testing on two consecutive days before/after; two maintenance sessions per supplementation period",
+      "intervention": "Danisco named betaine1.25g twice daily in300mL sports drink per dose; same drink without beta placebo; assigned morning testing dose; form/purity not supplied",
+      "bench_force": {
+        "unit": "N",
+        "summary": "mean±SD",
+        "beta_day1": [
+          2922,
+          297
+        ],
+        "placebo_day1": [
+          2175,
+          92
+        ],
+        "beta_day2": [
+          2503,
+          28
+        ],
+        "placebo_day2": [
+          2128,
+          56
+        ],
+        "n": 12,
+        "comparison": "nativeFigure3 direct corresponding post-placebo and own pre-beta P<.05 markers"
+      },
+      "bench_throw": {
+        "unit": "W",
+        "summary": "mean±SD",
+        "beta_day1": [
+          1779,
+          90
+        ],
+        "placebo_day1": [
+          1374,
+          128
+        ],
+        "beta_day2": [
+          1788,
+          34
+        ],
+        "placebo_day2": [
+          1523,
+          39
+        ],
+        "n": 12,
+        "comparison": "nativeFigure4 direct corresponding post-placebo and own pre-beta P<.05 markers"
+      },
+      "within_only": "Vertical jumps and isometric squat reported against own beta pre; no placebo marker on Figure1; caption wrongly names squat jump while native axis is isometric squat(N)",
+      "nulls": [
+        "Dynamic squat jump power",
+        "Squat/bench repetitions to fatigue",
+        "Hydration/glucose/lactate between-treatment measures"
+      ],
+      "exposure": "Plasma beta increased vs baseline/placebo but numerical post-beta concentration not supplied",
+      "limits": [
+        "No exact contrast P/CI or numerical treatment-by-time estimate",
+        "Repeated-measures ANOVA and Bonferroni posthoc; no period/sequence/carryover term described",
+        "Small short healthy-men study; no primary hierarchy/power calculation/recruitment flow/systematic harms or long-term safety",
+        "Funding Danisco and employee coauthor disclosed",
+        "Mechanistic hypotheses not measured causal mediators"
+      ]
+    },
+    {
+      "pmid": "32516959",
+      "pmcid": "PMC7352895",
+      "doi": "10.3390/nu12061688",
+      "role": "pertinent controlled human functional null",
+      "design": "Methods36 randomized,7 excluded(5missedpost,2incompleteperformance),29analyzed14beta15placebo; abstract29randomized; mixedsex14women15men; 6week training at3gyms",
+      "intervention": "Named betaine2.5g/day split1.25g twice in cellulose mixture versus matched cellulose/flavour; form/supplier/purity and plasma exposure not supplied; packet returns without numeric adherence",
+      "strength": {
+        "endpoint": "3RM back squat",
+        "unit": "kg",
+        "summary": "mean±SD",
+        "beta_pre": [
+          95.08,
+          35.91
+        ],
+        "beta_post": [
+          98.08,
+          36.79
+        ],
+        "placebo_pre": [
+          88.86,
+          27.6
+        ],
+        "placebo_post": [
+          91,
+          29.63
+        ],
+        "interaction_P": 0.23,
+        "beta_within_P": 0.04,
+        "placebo_within_P": 0.13,
+        "meaning": "Within-beta gain does not demonstrate greater gain than placebo"
+      },
+      "other_interaction_P": {
+        "Bergeron_Beep": 0.255,
+        "rowing": 0.488
+      },
+      "other_nulls": "Body composition and hydration interactions nonsignificant",
+      "reporting_limits": [
+        "Abstract versus Methods randomization denominator",
+        "Prose Bergeron percentage gains conflict with Table3 means; do not reconstruct gain",
+        "Several descriptive sex/body-composition labels conflict; not used to infer treatment benefit",
+        "No assigned-group/ITT analysis established",
+        "Unstandardized training/diet and timing; no systematic adverse-event report",
+        "Narrative favourable strength wording exceeds controlled contrast"
+      ],
+      "funding": "No external funding or conflicts declared"
+    }
+  ],
+  "comparative_judgment": "Actual controlled muscle-function outcomes justify reserve status beyond a generic osmolyte hypothesis. Mixed small healthy-human and aged-mouse evidence does not establish MVA superiority. Niacin human muscle NAD/open-label strength and apitegromab pediatric disease motor evidence are distinct comparator dimensions, neither proof of BUB1B efficacy.",
+  "missing_relevant_endpoints": [
+    "BUB1B/BUBR1 response",
+    "checkpoint/fidelity or absolute productive daughter-cell yield",
+    "protein folding or half-life rescue",
+    "patient-specific MVA function",
+    "pediatric efficacy/safety"
+  ],
+  "reading_boundary": "Three complete scientific mains in original XML; original tables and captions; all seven aged mouse main and three supplemental native figures, four crossover native figures and CrossFit native design figure; mouse supplement text read; additional supportingPDF notread; bibliographies/rawdata/unselectedprimaries notread. CrossFit PDF403, originalXML tablesread without layout credit.",
+  "source_reviewer_actions": {
+    "repo_edits": false,
+    "nominee_change": false,
+    "automatic_admission_or_count": false,
+    "optional_entry_proposed": true
+  },
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "betaine-muscle-qualification.md",
+  "qualification_md_sha256": "6bee83878352b8acceae8cf422abcef6849e99b8c8362caab2ed3584bddc1d4f",
+  "integration": {
+    "baseline": "b1feb0d7cff05ed9632fc9fe4c0893f67f871881",
+    "baseline_assessments": 238,
+    "current_assessments": 240,
+    "retained_prior_ids": 238,
+    "prior_objects_unchanged": 238,
+    "refined_ids": [],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/betaine-muscle-primary-followup-20260923/qualification.json",
+      "sha256": "f8f9ebd86ce208af70e218d8fa16b8ed2919360dd00fc2c4412b5a737492e396"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/betaine-muscle-primary-followup-20260923/reading-manifest.json",
+      "sha256": "e5026b497be20e2e66a4dcc9d9b517591b80c2dd73cf68939f19823f0a00f658"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/betaine-muscle-primary-followup-20260923/independent-betaine/independent-check.md",
+      "sha256": "66fe5fa7ae93bbc16a0fa6ebf875967c41243ed008d11ba2ab2b235f811a7e49"
+    },
+    "independent_structured_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/betaine-muscle-primary-followup-20260923/independent-betaine/independent-check.json",
+      "sha256": "db577ba08922a1a5d77d8e892ee8988e7f48823a464922d2ff6c6d80c279d97d"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/betaine-nitrate-integration-20260923/root-reading.json",
+      "sha256": "facb9edb3cc9556b27505840da1248318458b988fa78a0bc8183347f4b456aaf"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false
+  }
+}
