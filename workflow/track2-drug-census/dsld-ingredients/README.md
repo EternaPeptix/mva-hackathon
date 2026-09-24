@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 235
+  --out /path/dsld-replay --expected-appraisals 238
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -142,4 +142,6 @@ The preceding **230-appraisal replay** adds one exact caffeine name relation in 
 
 The preceding **233-appraisal replay** retains all prior relations and source fields: **6,839 cross-references, 110 curated relations and 93 appraisal-linked groups**. Exact L-carnosine is kept separate from the generic carnosine/zinc-carnosine catalog group; tested glycosides and NR–resveratrol do not inherit free-aglycone or component efficacy. Name relations do not verify preparation equivalence.
 
-The current **235-appraisal replay** retains all prior relations and source fields: **6,839 cross-references, 110 curated relations and 93 appraisal-linked groups**. Sodium-AKG has no exact-name relation; epicatechin has no automatic aliases because its stereochemistry remains unverified. The existing NR aliases are unchanged. Name relations do not verify preparation equivalence.
+The preceding **235-appraisal replay** retains all prior relations and source fields: **6,839 cross-references, 110 curated relations and 93 appraisal-linked groups**. Sodium-AKG has no exact-name relation; epicatechin has no automatic aliases because its stereochemistry remains unverified. The existing NR aliases are unchanged. Name relations do not verify preparation equivalence.
+
+The current **238-appraisal replay** retains all prior relations and source fields: **6,840 cross-references, 111 curated relations and 94 appraisal-linked groups**. Only beta-lapachone adds an exact-name curated relation (group6990). Beta-alanine and apigenin automatic aliases remain empty because mixed derivative/group identities must not inherit the source findings. Name relations do not verify preparation equivalence.

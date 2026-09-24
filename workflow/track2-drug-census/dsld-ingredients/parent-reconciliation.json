@@ -1,17 +1,15 @@
 {
   "date": "2026-09-23",
   "reviewer": "/root",
-  "scope": "235-assessment replay preserves all source fields and existing relations. The new assessments have no exact inventory joins; existing relations do not authenticate preparation, retail equivalence or efficacy.",
+  "scope": "238-assessment replay preserves all source fields and existing relations. Only exact beta-lapachone adds a curated relation; beta-alanine and apigenin have automatic matching withheld. Relations do not establish product equivalence or efficacy.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/akg-nemaline-integration-20260923/dsld-replay/runs/e6d230cb0f5052a5f21b",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/beta-alanine-nad-integration-20260923/dsld-replay-final/runs/14ca0c772fcf840ee414",
   "historical_ledger_count": 168,
-  "current_ledger_count": 235,
+  "current_ledger_count": 238,
   "unchanged_output_tables": [
     "alias-cells.tsv",
-    "groups.tsv",
     "mentions.tsv",
     "metadata-anomalies.json",
-    "name-crossrefs.tsv",
     "normalized-aliases.tsv",
     "screen-policy.json",
     "source-records.tsv"
@@ -23,6 +21,12 @@
       "name": "Arachidonic Acid",
       "before": "[]",
       "after": "[\"new-arachidonic-acid\"]"
+    },
+    {
+      "group_id": "6990",
+      "name": "Beta-lapachone",
+      "before": "[]",
+      "after": "[\"new-beta-lapachone-nad-counterprobe\"]"
     },
     {
       "group_id": "7069",
@@ -217,10 +221,10 @@
       "after": "[\"new-10-hda\"]"
     }
   ],
-  "name_crossrefs_added": 39,
+  "name_crossrefs_added": 40,
   "old_name_crossrefs_retained": 6800,
-  "current_name_crossrefs": 6839,
-  "current_summary_sha256": "e6d230cb0f5052a5f21bd59fae58c4d7ce830309f3cff5e2b6280dc162fe32b9",
+  "current_name_crossrefs": 6840,
+  "current_summary_sha256": "14ca0c772fcf840ee414b0c31994951e4361c2bc42885e1c96dcd727f3eac215",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -270,13 +274,35 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "baseline_commit": "97b54464f6ebf8540cbce8d5df382ad652f963d4",
-    "prior_appraisals": 233,
-    "current_appraisals": 235,
-    "changed_output_tables": [],
-    "changed_appraisal_group_rows": [],
-    "added_name_crossrefs": [],
-    "name_crossrefs_added": 0,
+    "baseline_commit": "1aca82163b6d42430a56a90813affd416b12b053",
+    "prior_appraisals": 235,
+    "current_appraisals": 238,
+    "changed_output_tables": [
+      "groups.tsv",
+      "name-crossrefs.tsv"
+    ],
+    "changed_appraisal_group_rows": [
+      {
+        "group_id": "6990",
+        "name": "Beta-lapachone",
+        "before": "[]",
+        "after": "[\"new-beta-lapachone-nad-counterprobe\"]"
+      }
+    ],
+    "added_name_crossrefs": [
+      {
+        "group_id": "6990",
+        "normalized_alias": "beta lapachone",
+        "source_alias_cell_ids": "[\"dsld:6990:group_name\",\"dsld:6990:synonym:0\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-beta-lapachone-nad-counterprobe",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "beta-lapachone",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[]"
+      }
+    ],
+    "name_crossrefs_added": 1,
     "new_manual_reading_or_efficacy_credit": 0
   },
   "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
@@ -2562,10 +2588,10 @@
     }
   },
   "prior_parent_reconciliation": {
-    "commit": "97b54464f6ebf8540cbce8d5df382ad652f963d4",
+    "commit": "1aca82163b6d42430a56a90813affd416b12b053",
     "repo_relative": "workflow/track2-drug-census/dsld-ingredients/parent-reconciliation.json",
-    "sha256": "9a00cfafba4b1ad274b700b57df591adc6694e3b4a4db705b9c89b88ba5b3cfa",
-    "appraisals": 233
+    "sha256": "4b74e152b38993fd610e3f95d766f1b28be302823de0dc68323fe7c9e0b68eb3",
+    "appraisals": 235
   },
   "current_delta_from181": {
     "changed_appraisal_group_rows": [

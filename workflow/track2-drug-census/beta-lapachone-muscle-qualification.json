@@ -1,0 +1,184 @@
+{
+  "created_at_utc": "2026-09-24T03:41:25.028035+00:00",
+  "source_task_date": "2026-09-23",
+  "baseline": {
+    "committed_head": "1aca82163b6d42430a56a90813affd416b12b053",
+    "working_decisions_at_task_start": 238,
+    "working_decisions_sha256": "0dce05d5fca257c270adaf368d3c051a0938f7373f0a3de912e0e1334b4ac2b7",
+    "integration_in_progress": true
+  },
+  "recommendation": "Refine existing beta-lapachone entry to controlled preclinical muscle/motor functional reserve plus exposure-dependent NAD redox counterevidence; stable decision ID and no extra compound count",
+  "stable_decision_id": "new-beta-lapachone-nad-counterprobe",
+  "source": {
+    "pmid": "23071729",
+    "pmcid": "PMC3469505",
+    "doi": "10.1371/journal.pone.0047122",
+    "title": "Beta-Lapachone, a Modulator of NAD Metabolism, Prevents Health Declines in Aged Mice",
+    "year": 2012,
+    "main_xml_sha256": "8392b0ce50d0df27db6952ed8dc8343ab36de7b4a4d42574b3f7c2194ff38475"
+  },
+  "interventions": {
+    "diet": {
+      "population": "Male mice, C57BL/6 in Methods and C57BL/6J in Results; started intervention age13months",
+      "compound": "Named beta-lapachone, normal chow plus0.066% (calculation0.66mg/gfood)",
+      "duration": "10months continuous feeding; motor endpoints3and10months",
+      "received_dose": "Authors estimate70–80mg/kg/day from food intake and bodyweight, not measured systemic/muscle exposure",
+      "controls": "Normal chow ad libitum and70%-of-normal calorie restriction",
+      "identity_limit": "Supplier/catalog/purity/formulation/batch unreported; not alpha-lapachone, bark/tea or derivatives"
+    },
+    "acute": "Separate5mg/kg intravenous beta-lapachone versus vehicle; n5/group muscle NAD ratio/AMPKphosphorylation; acute sampling time/vehicle formulation unspecified; body temperature separate n4/group/timecourse",
+    "genetic": "No drug-by-NQO1 knockout or overexpression experiment in this primary; those mechanistic background findings belong to cited studies"
+  },
+  "functional_outcomes": [
+    {
+      "endpoint": "Accelerating rotarod latency to fall",
+      "procedure": "2–40rpm over5minutes;4trials with30minute rests",
+      "beta_vs_control_P_3months": 0.038,
+      "beta_vs_control_P_10months": 0.033,
+      "beta_vs_CR_P_3months": 0.002,
+      "beta_vs_CR_P_10months": 0.844,
+      "native": "Figure4C",
+      "interpretation": "Controlled actual-compound motor positive at both visits; no quantified treatment-by-time result"
+    },
+    {
+      "endpoint": "Maximum forelimb grip / bodyweight",
+      "procedure": "Highest of5consecutive pulls; nativeaxis Max.grip strength(N)/body weight(g)",
+      "beta_vs_control_P_3months": 0.264,
+      "beta_vs_control_P_10months": 0.036,
+      "beta_vs_CR_P_3months": 0.535,
+      "beta_vs_CR_P_10months": 0.279,
+      "native": "Figure4D",
+      "interpretation": "Positive normalized strength at10months, not3months; absolute force not established, groupmean ratios cannot reconstruct individual absolute forces"
+    },
+    {
+      "endpoint": "Pole-test successful trials",
+      "procedure": "Successes outof5 on vertical pole; slide or hang2minutes constitutes failure",
+      "beta_vs_control_P_3months": 0.209,
+      "beta_vs_control_P_10months": 0.003,
+      "beta_vs_CR_P_3months": 0.518,
+      "beta_vs_CR_P_10months": 0.776,
+      "native": "Figure4E",
+      "interpretation": "Controlled motor positive at10months, not3months; not a hanging-endurance assay"
+    },
+    {
+      "endpoint": "Locomotor distance",
+      "beta_vs_control_P": 0.684,
+      "native": "Figure4A",
+      "interpretation": "No significant advantage; not equivalence"
+    },
+    {
+      "endpoint": "Fear conditioning",
+      "beta_vs_control_P": 0.005,
+      "native": "Figure4B",
+      "interpretation": "Positive total conditioned freezing comparison; cognitive/motor behaviour can involve brain as well as muscle"
+    }
+  ],
+  "functional_denominators": "Figure4 reports n10–15/group and mean±SEM; no exact arm-by-visit Ns, effect estimates or confidence intervals; no graph digitization",
+  "durability": "Observations during continued feeding at3and10months, no withdrawal follow-up; significance emerging at10months is not a demonstrated change in treatment effect",
+  "bodymass_and_food": {
+    "body_weight": "Early decline with beta-lapachone; control survivors later lose substantial weight; longitudinal plots explicitly all survivors",
+    "food_beta_vs_control_P": 0.071,
+    "fat": "Peritoneal and gonadal fat mass / tibia length reduced",
+    "inference_limit": "Bodyweight affects normalized strength and motor performance; weight/fat reduction is not growth-support evidence"
+  },
+  "molecular": {
+    "acute_NAD_ratio_P": 0.035,
+    "acute_AMPK_phosphorylation_P": 0.021,
+    "acute_n": 5,
+    "NAD_pool_limit": "Figure1A reports ratio only, no individual pool values. Chronic-fed tissue NAD+ increase explicitly not measured. Discussion NAD increase/turnover explanations remain unproved for dietary functional benefits.",
+    "mitochondria": "NativeFigure5B higher inter-myofibrillar number /100µm² after10months, beta-v-controlP=.006, n5mice/group,7images/mouse. Representative morphology preserved; nested images are not independent mice.",
+    "transcripts": "NativeFigure5C betaUCP1/UCP3 positive; betaSIRT1/SIRT3/PGC1alpha/NRF1/mTFA not positively significance-marked. These are mRNA, not protein/activity.",
+    "source_issue": "Published mTFA forward/reverse primer strings identical; actual experimental primer identity not verified.",
+    "not_established": [
+      "Absolute chronic NAD-pool expansion",
+      "Causal mediation of motor benefit by NAD ratio/turnover",
+      "Drug-induced SIRT2 activity",
+      "BUBR1 abundance/half-life/functional response",
+      "Protein folding/stability rescue",
+      "Faithful daughter-cell output",
+      "MVA muscle benefit"
+    ]
+  },
+  "survival_and_harms": {
+    "reported_study_survival_months": {
+      "beta_mean": 9.1,
+      "beta_sem": 0.2,
+      "control_mean": 7.8,
+      "control_sem": 0.3,
+      "CR_mean": 8.6,
+      "CR_sem": 0.2,
+      "reported_beta_change": "17%",
+      "beta_vs_control_logrank_P": "<.001"
+    },
+    "scope": "Same behavioural/physiological cohort; nativeS1 substantial mortality, no initialN/numbers-at-risk/censor definitions or complete flow. Authors note shortened control lifespan and possible handling stress and require standard lifespan confirmation.",
+    "survivorship": "Differential survival can change late assay composition; not an initial-cohort functional estimate without complete accounting.",
+    "safety": "No systematic adverse-event or dedicated toxicity assessment. Selected plasma chemistry n5–10/group does not establish safety equivalence.",
+    "table1_precision": "Cholesterol/leptin beta-v-control marked positive; glucose unmarked despite significant wording in Results; do not claim established glucose significance. Other unmarked values are not equivalence."
+  },
+  "analysis_quality": {
+    "reported_tests": "t/pairedt or repeated-measures one-/two-wayANOVA, Holm–Sidak posthoc; survivalKaplan–Meier/logrank; mean±SEM",
+    "not_established": [
+      "Random allocation/concealment",
+      "General blinded motor testing; explicit masking only for fear scoring",
+      "Primary endpoint hierarchy/power calculation",
+      "Exact test assignment per panel",
+      "Study-wide multiplicity control",
+      "Exact arm/timepoint flow and missingness handling"
+    ],
+    "funding_conflicts": "Public Korean grants, no stated funder role; three employees of Mazence declared; no further patents/products stated"
+  },
+  "2018_counterevidence": {
+    "pmid": "29298345",
+    "pmcid": "PMC5752044",
+    "doi": "10.1371/journal.pone.0190717",
+    "scope": "Reuse earlier bounded primary/native review, not a new whole-primary read",
+    "exposure": "10µM2h16HBEcells",
+    "measured": "NAD+andNADHdepleted,n3; olaparib combination preservesNAD+notNADH; increasedNQO1staining/IPisepitopeaccessibility, noestablishedproteinabundanceincrease",
+    "interpretation": "Different exposure/model; does not negate2012functionalpositive. Neither study defines all-dose response or human regimen. Neither ratio nor staining alone proves NAD supply/BUBR1restoration."
+  },
+  "competitive_judgment": "Actual controlled aged-mouse function justifies positive preclinical reserve rather than counter-probe-only disposition. Compare fairly with niacin unproved restoration/human engagement and other functional leads; no comparative MVA efficacy or automatic nomination change.",
+  "unqualified_pointers": [
+    "WK0202 and PMCID12364990 not imported or credited"
+  ],
+  "source_reviewer_actions": {
+    "repo_edits": false,
+    "prior_source_edits": false,
+    "new_compound_count": false,
+    "automatic_reading_credit": false,
+    "optional_refinement_written": true
+  },
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "beta-lapachone-muscle-qualification.md",
+  "qualification_md_sha256": "c3e4fa6ca9b0e6abf6679dd1f4cad58b92333dc384a97692f74fc6472f791d1a",
+  "integration": {
+    "baseline": "1aca82163b6d42430a56a90813affd416b12b053",
+    "baseline_assessments": 235,
+    "current_assessments": 238,
+    "retained_prior_ids": 235,
+    "prior_objects_unchanged": 235,
+    "refined_ids": [],
+    "draft_entry_broadened": "new-beta-lapachone-nad-counterprobe",
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/beta-lapachone-muscle-primary-followup-20260923/qualification.json",
+      "sha256": "311a72101395f0a387fca79c67fac8b7210cf47af9f5ba0061f18e5a8823e16a"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/beta-lapachone-muscle-primary-followup-20260923/reading-manifest.json",
+      "sha256": "8fbb0d26b1a1210f21b2c9cb1ebc145b36f108380fc7218e094189c6e8ea3e5c"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/beta-lapachone-muscle-primary-followup-20260923/independent-beta-lapachone/independent-check.md",
+      "sha256": "2844428d3e6246941173c86751f8c1eef7ff9313c31fa8e4edc805c936182b94"
+    },
+    "independent_structured_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/beta-lapachone-muscle-primary-followup-20260923/independent-beta-lapachone/independent-check.json",
+      "sha256": "9392334f4c7d119d68e7a01d16a2f0638a6ec2eaec638d7a3c0a8f3927ac8749"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/beta-alanine-nad-integration-20260923/root-reading.json",
+      "sha256": "cc19465d42550776bce14ddceaafccb132d9d7aeea026cd3852e98df02c2ca0e"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false
+  }
+}

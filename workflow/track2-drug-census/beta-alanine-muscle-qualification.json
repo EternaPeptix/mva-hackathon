@@ -1,0 +1,234 @@
+{
+  "date": "2026-09-23",
+  "compound": "beta-alanine",
+  "baseline": {
+    "head": "97b54464f6ebf8540cbce8d5df382ad652f963d4",
+    "clean": true,
+    "count": 233,
+    "decisions_sha256": "546b1bd560db6c83c06f2b9c22e9a8e7c3b7a90c8ef4646b4faa51597fb0cac3",
+    "no_standalone_beta_alanine": true
+  },
+  "later_context": {
+    "head": "97b54464f6ebf8540cbce8d5df382ad652f963d4",
+    "working_decision_count": 235,
+    "working_decisions_sha256": "90e6337d598164cdaca14d531ddd62f5d3ae6065ec20526c299454e5d25fe48c",
+    "dirty": true,
+    "note": "Parent concurrent integration; not a 235-decision committed baseline and not edited by this agent."
+  },
+  "competitive_conclusion": "A real randomized active-versus-same-background signal for estimated fatigue-threshold workload merits retention. It does not show broad strength, independent living or pediatric/congenital benefit; small complete-case sample, formulation context and training-null counterevidence limit competitiveness. No automatic nominee replacement or cross-trial MVA efficacy order. No selective demand for MVA proof, which current nominees also lack.",
+  "studies": [
+    {
+      "pmid": "23832078",
+      "doi": "10.1016/j.exger.2013.06.003",
+      "title": "Oral nutritional supplement fortified with beta-alanine improves physical working capacity in older adults: a randomized, placebo-controlled study.",
+      "identity": {
+        "ingredient": "CarnoSyn non-sustained-release beta-alanine powder",
+        "background": "Ensure High Protein, Abbott Nutrition: same batch for all arms, identical apart from beta-alanine addition. Each 8 liquid ounce serving (source also says227g) contains230kcal/12gprotein/31gcarbohydrate/6gfat.",
+        "arms": [
+          {
+            "arm": "ONS",
+            "randomized_n": 20,
+            "complete_n": 16,
+            "male_female_complete": [
+              11,
+              5
+            ],
+            "daily_beta_alanine_g": 0,
+            "adherence_percent": 95
+          },
+          {
+            "arm": "ONS800",
+            "randomized_n": 19,
+            "complete_n": 15,
+            "male_female_complete": [
+              5,
+              10
+            ],
+            "daily_beta_alanine_g": 1.6,
+            "adherence_percent": 93
+          },
+          {
+            "arm": "ONS1200",
+            "randomized_n": 21,
+            "complete_n": 13,
+            "male_female_complete": [
+              6,
+              7
+            ],
+            "daily_beta_alanine_g": 2.4,
+            "adherence_percent": 90
+          }
+        ],
+        "schedule": "800 or1200mg per serving, two servings/day for12weeks (84days); all arms consume ONS twice/day. These are studied exposures, not dosing advice.",
+        "isolation": "Randomized contrast isolates addition of beta-alanine on a common ONS background; not beta-alanine monotherapy against inert placebo or proof the background can be removed. No whole-product/retail reformulation equivalence."
+      },
+      "population": "60 older Central Florida volunteers,27men/33women, mean70.7±6.2y; no sarcopenia requirement established. Among44completers,68% structured activity≥twice/week and21% sedentary. Major recent surgery/asthma/uncontrolled cardiac or pulmonary disease/hypertension and exercise-interfering medications excluded. No disease-genotype/muscle-deficit model.",
+      "design": "Randomized after baseline; described double-blind/placebo-controlled. Allocation generation/concealment and blinding success not given. Normal exercise routines maintained, no assigned training program; diet advice aimed at isocaloric maintenance.",
+      "missingness": "44/60 analyzed at follow-up; no ITT/imputation or missing-outcome sensitivity shown. One exclusion after creatine initiation, one sickness exclusion and other voluntary departures. Eight of21high-dose vs4of19low-dose vs4of20control lacked final measurements. Counts derived from randomized/completer totals; dropout reasons not fully mapped by arm.",
+      "statistics": "Treatment(3)×time(2)ANOVA; ANCOVA for baseline differences/follow-up interactions; Tukey post hoc pair comparisons and paired t-tests after main effects; alpha.05. No across-endpoint family correction, prespecified single primary endpoint/registry, exact pairwise CIs or sample-size effect assumption established. Stated target n≥12/arm for80%power based on earlier study.",
+      "outcomes": {
+        "PWCFT": {
+          "definition": "Submaximal discontinuous cycle ergometry with right-vastus-lateralis EMG. Starts30W,50rpm,two-minute stages, increments10–20W; EMG-slope significance threshold or75%age-predictedHR/RPE>13 stopping criteria; midpoint of significant/nonsignificant workloads or regression-based estimate when no slope threshold. Not directly measured sustained task duration, maximum force or unrestricted daily function.",
+          "unit": "watts",
+          "table5": [
+            {
+              "arm": "ONS1200",
+              "pre_mean": 50.8,
+              "pre_SD": 22.6,
+              "post_mean": 58.8,
+              "post_SD": 22.6,
+              "reported_percent_change": 13.6,
+              "within_arm_P": 0.03
+            },
+            {
+              "arm": "ONS800",
+              "pre_mean": 47.7,
+              "pre_SD": 17.4,
+              "post_mean": 57.3,
+              "post_SD": 22.9,
+              "reported_percent_change": 17.8,
+              "within_arm_P": 0.006
+            },
+            {
+              "arm": "ONS",
+              "pre_mean": 59.4,
+              "pre_SD": 27.7,
+              "post_mean": 55.9,
+              "post_SD": 31.2,
+              "reported_percent_change": -6.3,
+              "within_arm_P": null
+            }
+          ],
+          "group_by_time_P": 0.005,
+          "partial_eta_squared": 0.23,
+          "between_contrast": "Abstract explicitly reports both fortified-arm changes greater than ONS change,P<.05; main reports interaction and active gains. Exact pairwise P/adjustedmean/CI not supplied. High-v-lowP=.547.",
+          "limits": [
+            "Percentages retained exactly as printed, not relabeled ordinary percent change of baseline group means; some do not equal that calculation and formula/individual basis is not specified.",
+            "Reported significance persists excluding paresthesia cases; no Ns or full sensitivity estimates, and this postrandomization exclusion does not establish blinding.",
+            "No familiarization. Test–retestICC.95 withSEM13.7W in10controlparticipants; alternate regression methodICC.95/SEM12.3W. Number requiring alternate estimator not reported."
+          ]
+        },
+        "STS": {
+          "definition": "Complete stands in30s, arms crossed; repetitions",
+          "table5": [
+            {
+              "arm": "ONS1200",
+              "pre_mean": 13.3,
+              "pre_SD": 3.6,
+              "post_mean": 17.1,
+              "post_SD": 7.5,
+              "reported_percent_change": 22.2,
+              "within_arm_P": 0.015
+            },
+            {
+              "arm": "ONS800",
+              "pre_mean": 14.4,
+              "pre_SD": 2.5,
+              "post_mean": 14.9,
+              "post_SD": 2.6,
+              "reported_percent_change": 3.4,
+              "within_arm_P": null
+            },
+            {
+              "arm": "ONS",
+              "pre_mean": 16.6,
+              "pre_SD": 5.8,
+              "post_mean": 18.6,
+              "post_SD": 6.6,
+              "reported_percent_change": 10.7,
+              "within_arm_P": 0.002
+            }
+          ],
+          "group_by_time_P": 0.024,
+          "partial_eta_squared": 0.167,
+          "between_contrast": "Baseline-adjusted high-v-lowP=.021; ONS-v-low not significant. High-v-ONS superior contrast not reported, so high-arm within improvement is not controlled efficacy against ONS.",
+          "reliability": "Control test–retest mean17.5→18.6,P=.026 despiteICC.96, consistent with a repeated-test change; source had no familiarization."
+        },
+        "grip": "No significant treatment×time for dominant-handGRIPMAX orGRIPAVG; three3–5s maximal squeezes, nearestkg. No effect/CI supplied.",
+        "muscle_quality": {
+          "definition": "GRIPMAX(kg)/DEXA arm lean soft tissue mass(kg), not muscle histology or new absolute force",
+          "interaction_P": 0.039,
+          "partial_eta_squared": 0.146,
+          "reported_high_within_P": 0.06,
+          "reported_high_within_percent": 7.4,
+          "between": "After baseline adjustment high arm greater increase than low andONS,P<.05, Fig1caption; exact means/contrasts/CIs not available as numbers and native pixels not viewed."
+        },
+        "body_composition_diet": "No significant bodyweight, lean/fat mass or dietaryprotein/totalcalorie changes reported. No general hypertrophy claim."
+      },
+      "harms": {
+        "paresthesia": "ONS1200:2withdrawals+4continuing participants; ONS800:1continuing participant and no attributed withdrawal; not zero-harm or proven between-arm safety comparison. Potential sensory unblinding not assessed.",
+        "laboratory": "Pre/postCBC/chemistry measured in completers. Glucose remained above lab range; baselineMCHC below range. Authors report no measures newly outside range, but Table4 contains several nominal within-arm changes. No inference of long-term, pediatric or comprehensive safety equivalence."
+      },
+      "mechanism": "Muscle carnosine was explicitly not measured; buffering/calcium-sensitivity explanations cite other work and are not mediation data. No BUB1B/BubR1-specific assay or checkpoint/fidelity endpoint reported in read scientific main. Beta-alanine does not inherit carnosine trial efficacy.",
+      "funding": "Abbott Nutrition grant; JRStout disclosed compensated presentations forAbbott; other authors declared no competing interests.",
+      "reading": "Complete scientific main text and allTable1–5text/Fig1caption read. No native pixels; no supplement/protocol/registry."
+    },
+    {
+      "pmid": "29336621",
+      "doi": "10.1080/19390211.2017.1406422",
+      "title": "Beta-Alanine Does Not Enhance the Effects of Resistance Training in Older Adults.",
+      "reading": "Complete original abstract, exact metadata, publisher acknowledgment/conflict excerpt only; main/PDF inaccessible.",
+      "population": "27 randomized adults aged60–82 years; per-arm n, missingness and clinical eligibility unknown.",
+      "intervention": "3.2g/day beta-alanine or placebo, with or without resistance training, for12 weeks. Publisher acknowledgment says NAI supplied sustained-release tablets and matching placebo. Tablet strength, excipients, adherence and harms not established.",
+      "training": "Three times weekly, two sets of15–25 repetitions on11 pneumatic machines, at50%1RM, alternating upper and lower body.",
+      "reported_outcomes": [
+        "No significant group×time interactions for anthropometric/strength measures except leg-press1RM P=.010. Training groups improved P<.001, with no significant beta-alanine-attributable between-group difference.",
+        "No beta-alanine main effect or specified group×time interaction for20-repetition chest/leg-press tests. Some within-training power/fatigue comparisons were positive; these are not drug effects.",
+        "Authors report no beta-alanine effect on measures. This is a reported null within this small protocol, not equivalence or proof of no useful effects elsewhere."
+      ],
+      "source_independence": "Different authors/University ofMiami versus2013 UCF and a different design/dose. No shared cohort indicated in read material; no registry-based independence verification. Do not merge these as one cohort or claim confirmed independent replication.",
+      "funding": "NAI provided coded tablets at no cost; authors declare NAI had no role in design, collection, statistics or manuscript preparation.",
+      "unresolved": [
+        "Per-arm denominators/dropouts",
+        "Exact ADL tests",
+        "Effect estimates/CIs",
+        "Allocation procedure",
+        "Endpoint hierarchy/multiplicity",
+        "Safety/adherence",
+        "BUBR1 absence outside the abstract is not verified"
+      ]
+    }
+  ],
+  "identity_limits": "Exact beta-alanine only. Do not join generic alanine, carnosine, beta-alanine salts/esters, preworkout combinations or unchanged Ensure product. NIH DSLD1061 exists but includes chemical derivatives; empty automatic aliases proposed unless integration explicitly preserves preparation scope.",
+  "optional_entry_justified": "Yes, as a bounded functional reserve with explicit formulation/access/attrition/counterevidence limits. Independent source check and root admission remain separate. No automatic ledger count or nominee change.",
+  "source_reviewer_status": "Bounded human functional reserve; partial native/access qualification",
+  "source_reviewer_reading_manifest": "reading-manifest.json",
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "beta-alanine-muscle-qualification.md",
+  "qualification_md_sha256": "8f7c4eaf5a33587ae7e952ae6f0837710a30d1c0aab5d088c8b001b96f9f13a3",
+  "independent_precision_addendum": {
+    "grip_arm_mass_ratio_test_retest_ICC": 0.68,
+    "SEM_kg_per_kg": 1.58,
+    "interpretation": "Reliability limitation, not negation of the adjusted treatment contrast or evidence of absolute-force gain."
+  },
+  "integration": {
+    "baseline": "1aca82163b6d42430a56a90813affd416b12b053",
+    "baseline_assessments": 235,
+    "current_assessments": 238,
+    "retained_prior_ids": 235,
+    "prior_objects_unchanged": 235,
+    "refined_ids": [],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/beta-alanine-muscle-primary-followup-20260923/qualification.json",
+      "sha256": "546afd0a1848d6049fc6c9fcce0abb7708f530bd6f99bc47f7ba42da538c4f56"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/beta-alanine-muscle-primary-followup-20260923/reading-manifest.json",
+      "sha256": "086a838ef511f04d57508666fd65a6b88a698f1b68f070d947fdc2e94b07a1e1"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/beta-alanine-muscle-primary-followup-20260923/independent-beta-alanine/independent-check.md",
+      "sha256": "ee0670c6a3ccbafbee3d66796b91a007a9662dc8f6456ec94547d7d8a698a2e0"
+    },
+    "independent_structured_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/beta-alanine-muscle-primary-followup-20260923/independent-beta-alanine/independent-check.json",
+      "sha256": "27508049db635e0db43484f70645b21b369860f8e60a38ca515da33239ab0f30"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/beta-alanine-nad-integration-20260923/root-reading.json",
+      "sha256": "cc19465d42550776bce14ddceaafccb132d9d7aeea026cd3852e98df02c2ca0e"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false
+  }
+}

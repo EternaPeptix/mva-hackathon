@@ -112,4 +112,6 @@ The preceding 230-assessment replay adds one caffeine appraisal-name link at `fd
 
 The preceding 233-assessment replay leaves all FDA source/output tables unchanged, with 13 appraisal-linked rows. Exact L-carnosine, tested quercetin glycosides and the NR–resveratrol combination do not inherit generic component links. Source membership establishes no efficacy or product equivalence.
 
-The current 235-assessment replay leaves all FDA source/output tables unchanged, with 13 appraisal-linked rows. No new source-name relationship is assigned to sodium-AKG or the stereochemically unresolved epicatechin entry. Source membership establishes no efficacy or product equivalence.
+The preceding 235-assessment replay leaves all FDA source/output tables unchanged, with 13 appraisal-linked rows. No new source-name relationship is assigned to sodium-AKG or the stereochemically unresolved epicatechin entry. Source membership establishes no efficacy or product equivalence.
+
+The current 238-assessment replay leaves all FDA source/output tables unchanged, with 13 appraisal-linked rows. The added beta-alanine, apigenin and beta-lapachone assessments create no FDA source-name relationship. Source membership establishes no efficacy or product equivalence.
