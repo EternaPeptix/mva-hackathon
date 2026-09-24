@@ -1,11 +1,11 @@
 {
   "date": "2026-09-23",
   "reviewer": "/root",
-  "scope": "230-assessment replay adds one caffeine name relation in existing group 367. GlyNAC has no exact combined-name match and does not transfer results to ingredient groups. Source fields and six other output tables remain unchanged; names do not establish preparation or efficacy equivalence.",
+  "scope": "233-assessment replay preserves all source fields and existing relations. New exact-name links do not authenticate preparation, component effects, retail equivalence or clinical efficacy.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glynac-caffeine-integration-20260923/dsld-replay/runs/0b9e09d373fe2602573c",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nr-quercetin-carnosine-integration-20260923/dsld-replay/runs/f2e0056025a8a7eb43c9",
   "historical_ledger_count": 168,
-  "current_ledger_count": 230,
+  "current_ledger_count": 233,
   "unchanged_output_tables": [
     "alias-cells.tsv",
     "mentions.tsv",
@@ -21,6 +21,12 @@
       "name": "Arachidonic Acid",
       "before": "[]",
       "after": "[\"new-arachidonic-acid\"]"
+    },
+    {
+      "group_id": "7069",
+      "name": "Carnosine",
+      "before": "[]",
+      "after": "[\"new-l-carnosine-function\"]"
     },
     {
       "group_id": "3951",
@@ -209,10 +215,10 @@
       "after": "[\"new-10-hda\"]"
     }
   ],
-  "name_crossrefs_added": 38,
+  "name_crossrefs_added": 39,
   "old_name_crossrefs_retained": 6800,
-  "current_name_crossrefs": 6838,
-  "current_summary_sha256": "0b9e09d373fe2602573c0dd4cb722f0bafe7bc9dee5b77bded0cedaeeabb0629",
+  "current_name_crossrefs": 6839,
+  "current_summary_sha256": "f2e0056025a8a7eb43c99ada53909b91c2f76fc6e4b3a03f2d20029fa0bfd3eb",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -262,30 +268,30 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "baseline_commit": "fb8b26a6dfebe8ba89d2c914e31d8f7cb2380990",
-    "prior_appraisals": 228,
-    "current_appraisals": 230,
+    "baseline_commit": "3db5c8961499131d8feafbe87f47eb8e6bfbb0e0",
+    "prior_appraisals": 230,
+    "current_appraisals": 233,
     "changed_output_tables": [
       "groups.tsv",
       "name-crossrefs.tsv"
     ],
     "changed_appraisal_group_rows": [
       {
-        "group_id": "367",
-        "name": "Caffeine",
+        "group_id": "7069",
+        "name": "Carnosine",
         "before": "[]",
-        "after": "[\"new-caffeine-oocyte-fidelity\"]"
+        "after": "[\"new-l-carnosine-function\"]"
       }
     ],
     "added_name_crossrefs": [
       {
-        "group_id": "367",
-        "normalized_alias": "caffeine",
-        "source_alias_cell_ids": "[\"dsld:367:group_name\",\"dsld:367:synonym:66\"]",
+        "group_id": "7069",
+        "normalized_alias": "l carnosine",
+        "source_alias_cell_ids": "[\"dsld:7069:synonym:6\"]",
         "target_layer": "curated_appraisal",
-        "target_id": "new-caffeine-oocyte-fidelity",
+        "target_id": "new-l-carnosine-function",
         "target_name_field": "match_aliases",
-        "target_name_as_reported": "caffeine",
+        "target_name_as_reported": "L-carnosine",
         "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
         "ambiguity_flags": "[]"
       }
@@ -2576,10 +2582,10 @@
     }
   },
   "prior_parent_reconciliation": {
-    "commit": "fb8b26a6dfebe8ba89d2c914e31d8f7cb2380990",
+    "commit": "3db5c8961499131d8feafbe87f47eb8e6bfbb0e0",
     "repo_relative": "workflow/track2-drug-census/dsld-ingredients/parent-reconciliation.json",
-    "sha256": "7f0a32f870b5cab1e33290997db087fd8ca3bc540f66675b64dc65130a644053",
-    "appraisals": 228
+    "sha256": "6342a64c0ef304b95a0a350bdef45c20bab92404ae5bbbfa8f83b363502a14cd",
+    "appraisals": 230
   },
   "current_delta_from181": {
     "changed_appraisal_group_rows": [

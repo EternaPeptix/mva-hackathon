@@ -1,0 +1,330 @@
+{
+  "source": "PMID42308284 original Tables1/2,SupplementS1-S4 and native figures",
+  "denominators": {
+    "randomized_active_placebo": [
+      153,
+      146
+    ],
+    "baseline": [
+      147,
+      136
+    ],
+    "visit3": [
+      97,
+      101
+    ],
+    "visit4": [
+      91,
+      101
+    ],
+    "positive_subgroup_n": null
+  },
+  "selection": "Active>=80%adherence and>=10%urinary increase; placebo adherence not used per Discussion. NoITT.",
+  "S2_calf_raise_visit3": {
+    "row_fields": [
+      "group",
+      "coefficient",
+      "95CL",
+      "P"
+    ],
+    "rows": [
+      [
+        "all",
+        0.028,
+        [
+          -0.043,
+          0.099
+        ],
+        0.334
+      ],
+      [
+        "all<=40",
+        0.102,
+        [
+          0.016,
+          0.189
+        ],
+        0.018
+      ],
+      [
+        "all>40",
+        -0.02,
+        [
+          -0.124,
+          0.083
+        ],
+        0.924
+      ],
+      [
+        "males",
+        0.068,
+        [
+          -0.06,
+          0.196
+        ],
+        0.199
+      ],
+      [
+        "males<=40",
+        0.133,
+        [
+          -0.015,
+          0.281
+        ],
+        0.078
+      ],
+      [
+        "males>40",
+        0.037,
+        [
+          -0.151,
+          0.225
+        ],
+        0.509
+      ],
+      [
+        "females",
+        -0.001,
+        [
+          -0.084,
+          0.081
+        ],
+        0.973
+      ],
+      [
+        "females<=40",
+        0.089,
+        [
+          -0.023,
+          0.2
+        ],
+        0.339
+      ],
+      [
+        "females>40",
+        -0.06,
+        [
+          -0.177,
+          0.058
+        ],
+        0.597
+      ]
+    ]
+  },
+  "S3_step_test_visit4": {
+    "row_fields": [
+      "group",
+      "coefficient",
+      "95CL",
+      "P"
+    ],
+    "rows": [
+      [
+        "all",
+        0.036,
+        [
+          -0.018,
+          0.091
+        ],
+        0.57
+      ],
+      [
+        "all<=40",
+        -0.015,
+        [
+          -0.075,
+          0.045
+        ],
+        0.31
+      ],
+      [
+        "all>40",
+        0.065,
+        [
+          -0.015,
+          0.145
+        ],
+        0.15
+      ],
+      [
+        "males",
+        0.029,
+        [
+          -0.032,
+          0.09
+        ],
+        0.06
+      ],
+      [
+        "males<=40",
+        -0.001,
+        [
+          -0.1,
+          0.097
+        ],
+        0.98
+      ],
+      [
+        "males>40",
+        0.074,
+        [
+          0.016,
+          0.132
+        ],
+        0.01
+      ],
+      [
+        "females",
+        0.046,
+        [
+          -0.043,
+          0.135
+        ],
+        0.67
+      ],
+      [
+        "females<=40",
+        -0.017,
+        [
+          -0.099,
+          0.064
+        ],
+        0.31
+      ],
+      [
+        "females>40",
+        0.081,
+        [
+          -0.062,
+          0.224
+        ],
+        0.15
+      ]
+    ]
+  },
+  "S4_age_sex_adjusted_treatment_coefficients": {
+    "row_fields": [
+      "measure",
+      "coefficient",
+      "95CL",
+      "P",
+      "source_measure_unit"
+    ],
+    "rows": [
+      [
+        "gait_speed",
+        0.022,
+        [
+          -0.013,
+          0.056
+        ],
+        0.22,
+        "m/s"
+      ],
+      [
+        "step_test",
+        2.019,
+        [
+          -1.17,
+          5.208
+        ],
+        0.214,
+        "right-knee repetitions/2min"
+      ],
+      [
+        "calf_raise",
+        -0.058,
+        [
+          -0.117,
+          0.002
+        ],
+        0.057,
+        "repetitions/s"
+      ],
+      [
+        "initial_max_R",
+        -1.203,
+        [
+          -3.726,
+          1.32
+        ],
+        0.349,
+        "pounds"
+      ],
+      [
+        "initial_max_L",
+        -0.023,
+        [
+          -2.513,
+          2.467
+        ],
+        0.986,
+        "pounds"
+      ],
+      [
+        "final_max_R",
+        -1.686,
+        [
+          -6.199,
+          2.827
+        ],
+        0.463,
+        "pounds"
+      ],
+      [
+        "final_max_L",
+        -0.058,
+        [
+          -2.495,
+          2.379
+        ],
+        0.963,
+        "pounds"
+      ]
+    ]
+  },
+  "unit_limits": [
+    "S2/S3 coefficient fractions retained; source describes percent-change comparisons and figure axes scale them by100. No new ratio or inference.",
+    "Calf-raise measure labeled repetitions/sec inS1; abstract says number of flexions, so preserve measurement distinction rather than claim total-count/time-to-exhaustion benefit.",
+    "Grip units pounds, notkg.",
+    "CI separators in S4 visually read as lower-to-upper range; no new confidence calculation."
+  ],
+  "source_conflicts": [
+    "Main Methods broadly requires80%adherence;Discussion/nativeflow clarifyactive-onlyfilter.",
+    "Active men39 atvisit3 and45 atvisit4 despiteflow97→91; nested samples not established.",
+    "S2/S3 printedcoefficients notalways equal rounded displayed arm-change differences; preserve source outputs without reconstructingtests."
+  ],
+  "registry_safety": {
+    "population_active_placebo": [
+      153,
+      146
+    ],
+    "deaths": [
+      0,
+      0
+    ],
+    "serious_affected": [
+      3,
+      3
+    ],
+    "other_affected": [
+      24,
+      16
+    ],
+    "tingling": [
+      11,
+      3
+    ],
+    "nausea": [
+      13,
+      13
+    ],
+    "hypotension": [
+      1,
+      2
+    ],
+    "window": "5months fromscreening until1monthaftercompletion",
+    "causal_attribution_or_equivalence": "not established"
+  },
+  "no_new_statistical_tests": true
+}

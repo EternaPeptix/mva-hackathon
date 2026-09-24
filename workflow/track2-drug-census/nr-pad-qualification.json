@@ -1,0 +1,179 @@
+{
+  "baseline": "3db5c8961499131d8feafbe87f47eb8e6bfbb0e0",
+  "source": {
+    "pmid": "38871717",
+    "pmcid": "PMC11176364",
+    "doi": "10.1038/s41467-024-49092-5",
+    "correction_pmid": "39134546",
+    "correction_scope": "Restore registration identifier in abstract; no efficacy correction.",
+    "registry": "NCT03743636"
+  },
+  "identity": {
+    "NR": "ChromaDex 250 mg capsules, 2 twice daily; 1000 mg/day",
+    "combination": "Same NR plus separate ReserveAge 125 mg 98% pure trans-resveratrol daily",
+    "not_equivalent_to": [
+      "niacin",
+      "NMN",
+      "nicotinamide",
+      "NR plus pterostilbene",
+      "all retail NR formulations"
+    ],
+    "composition_independently_verified": false
+  },
+  "design": {
+    "randomized": 90,
+    "NR": 28,
+    "NR_resveratrol": 33,
+    "placebo": 29,
+    "primary_six_month_observed": [
+      28,
+      33,
+      28
+    ],
+    "mean_age_years": 71.2,
+    "months": 6,
+    "masked": true,
+    "population": "Older adults with lower-extremity peripheral artery disease",
+    "adherence_run_in": "At least70% placebo tablets during14 days",
+    "inference": "one-sided P<.10, one-sided90%CI, no multiplicity correction;2primary comparisons",
+    "protocol_seen": "v15 2023-03-06; not original pre-enrollment archive",
+    "phase_discrepancy": "articlePhaseII vs current registryPhase3",
+    "MMRM": "age sex race baseline6MWD adjusted, missing-at-random assumption"
+  },
+  "primary_results": [
+    {
+      "comparison": "NR-placebo",
+      "meters": 17.6,
+      "one_sided_CI90": [
+        1.8,
+        "infinity"
+      ],
+      "P_main": 0.08,
+      "P_native_figure": 0.078,
+      "P_registry": 0.0775,
+      "registry_meters": 17.57,
+      "meets_declared_rule": true,
+      "conventional_two_sided_5pct_confirmatory_result": false
+    },
+    {
+      "comparison": "NR_resveratrol-placebo",
+      "meters": 3.65,
+      "one_sided_CI90": [
+        -11.2,
+        "infinity"
+      ],
+      "P": 0.38,
+      "meets_declared_rule": false
+    }
+  ],
+  "other_outcomes": {
+    "NR_three_month_walk": {
+      "meters": 22.4,
+      "P_one_sided": 0.029
+    },
+    "combination_three_month_walk": {
+      "meters": 20.6,
+      "P_one_sided": 0.034
+    },
+    "NR_six_month_treadmill": {
+      "minutes": 2.1,
+      "P_one_sided": 0.08,
+      "paired_N_NR": 10,
+      "paired_N_placebo": 8
+    },
+    "NR_six_month_satellite_cells": {
+      "difference_per100fibers": 11.14,
+      "P_one_sided": 0.06,
+      "N_NR": 7,
+      "N_placebo": 5,
+      "exploratory": true
+    },
+    "muscle_NAD_benefit_demonstrated": false,
+    "BUBR1_assay": false,
+    "checkpoint_or_chromosome_fidelity_assay": false,
+    "all_assigned_effect_replaced_by_adherer_analysis": false,
+    "adherer_comparisons": "post-hoc, selected;31.0mNR and26.9mcombination vsplacebo"
+  },
+  "harms": {
+    "order": [
+      "NR",
+      "NR+resveratrol",
+      "placebo"
+    ],
+    "denominators": [
+      28,
+      33,
+      29
+    ],
+    "any_event": [
+      18,
+      24,
+      21
+    ],
+    "diarrhea": [
+      11,
+      18,
+      8
+    ],
+    "nausea_vomiting": [
+      4,
+      12,
+      7
+    ],
+    "between_arm_safety_equivalence_established": false,
+    "pediatric_or_MVA_safety_established": false
+  },
+  "competitive_conclusion": "Upgrade NR to substantive preliminary human-function comparator, retaining metabolic null and unproved restoration; no MVA superiority or submission-lead replacement proven. Combination no demonstrated added benefit; no forced molecular/component joins.",
+  "source_data_reanalysis": false,
+  "original_queue_reading_credit": 0,
+  "worldwide_discovery_complete": false,
+  "earlier_human_context": [
+    {
+      "pmid": "31412242",
+      "scope": "Complete abstract and selected muscle-metabolome Results only",
+      "design": "12 older men,1g/day NR chloride,21days,masked crossover",
+      "finding": "Higher muscleNAAD/clearance metabolites, no muscleNAD increase(210vs197pmol/mg,P=.22) or mitochondrial-bioenergetic improvement; not BUBR1/force rescue. Selected Results also report peak and relative hand-grip nulls after21days(P=.96 each); no nativeFigureS4/fullprimary reread."
+    },
+    {
+      "pmid": "31710095",
+      "scope": "Complete abstract re-read; fullmain/figures/supplements not read this pass",
+      "finding": "40 obese insulin-resistant men;1000mg twice daily12wk; no muscleNAD or mitochondrialrespiration benefit; NAMPTprotein14%lower."
+    }
+  ],
+  "source_reviewer_status": "primary qualification awaiting independent check and integration",
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "nr-pad-qualification.md",
+  "qualification_md_sha256": "571195805a8a96922c497c277340903c339c5c30eab7968cdc38158d8ab9ab8e",
+  "integration": {
+    "baseline": "3db5c8961499131d8feafbe87f47eb8e6bfbb0e0",
+    "baseline_assessments": 230,
+    "current_assessments": 233,
+    "retained_prior_ids": 230,
+    "refined_ids": [
+      "prior-05"
+    ],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nr-muscle-primary-followup-20260923/qualification.json",
+      "sha256": "acc97314d66f963be9a98d6b3278046d3997aff55d5ad2c2e2f37ef97395f26b"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nr-muscle-primary-followup-20260923/root-reading.json",
+      "sha256": "615f32aabf3b385faab5194b3b8107f5ff809cd4ff128fcd49ba085ade07c004"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nr-muscle-primary-followup-20260923/independent-nr/independent-check.md",
+      "sha256": "e35d8edb99eb93d8595bc826939f0c2e1920a4af97470abf253c2043687c7901"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nr-quercetin-carnosine-integration-20260923/root-reading.json",
+      "sha256": "9b64c3c073ec562d5994fa42365f542d167f16801a74b8374d8c4e014e1b4c2e"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false,
+    "independent_context_addendum": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nr-muscle-primary-followup-20260923/independent-nr/context-addendum.md",
+      "sha256": "7b0b297ed37ddd7d32af7b9f79a3886fb7659bfd8c67910d302d11016682100c"
+    },
+    "prior_decision_objects_unchanged": 229
+  }
+}

@@ -108,4 +108,6 @@ The preceding 227-assessment replay adds one exact appraisal-name relation for L
 
 The preceding 228-assessment replay adds one L-carnitine appraisal-name link at `fda-food:0531`, for 12 linked source rows. All original source fields and the mentions table remain unchanged. This relation does not establish trial-product equivalence, current permission or BUB1B efficacy.
 
-The current 230-assessment replay adds one caffeine appraisal-name link at `fda-food:0443`, for 13 linked source rows. GlyNAC does not create a component-efficacy relation. All original source fields and the mentions table remain unchanged; caffeine culture findings do not imply dietary or systemic benefit.
+The preceding 230-assessment replay adds one caffeine appraisal-name link at `fda-food:0443`, for 13 linked source rows. GlyNAC does not create a component-efficacy relation. All original source fields and the mentions table remain unchanged; caffeine culture findings do not imply dietary or systemic benefit.
+
+The current 233-assessment replay leaves all FDA source/output tables unchanged, with 13 appraisal-linked rows. Exact L-carnosine, tested quercetin glycosides and the NR–resveratrol combination do not inherit generic component links. Source membership establishes no efficacy or product equivalence.

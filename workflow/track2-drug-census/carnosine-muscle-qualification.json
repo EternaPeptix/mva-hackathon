@@ -1,0 +1,101 @@
+{
+  "title": "L-carnosine physical performance: overall nulls with two exploratory subgroup signals",
+  "source": {
+    "pmid": "42308284",
+    "pmcid": "PMC13276806",
+    "doi": "10.1080/15502783.2026.2679716",
+    "registry": "NCT03314987",
+    "scientific_main_complete_read": true,
+    "supplement_complete_read": true,
+    "native_all3main_figures_and4supp_pages_viewed": true
+  },
+  "disposition": "Retain bounded human functional comparator; no broad strength/endurance efficacy or nomination replacement established",
+  "compound": "L-carnosine",
+  "dose": "2 g/day orally: four 0.5-g capsules, two twice daily, for about 12 weeks",
+  "comparator": "Identical cornstarch capsules, 2 g/day",
+  "formulation_limit": "The 2020 protocol planned BulkSupplements L-carnosine compounded into gelatin capsules at the University of Colorado; final batch not verified. Not beta-alanine, zinc-carnosine or a mixture.",
+  "population": "Louisville-area adults aged 22–65 with low urinary carnosine, mean age about 45; not selected for neuromuscular disease or weakness.",
+  "analysis": {
+    "randomized": 299,
+    "analyzed_baseline": 283,
+    "visit3": 198,
+    "visit4": 192,
+    "ITT": false,
+    "active_only_filters": [
+      "At least 80% capsule adherence",
+      "At least 10% urinary carnosine increase"
+    ],
+    "primary_outcome": "Vascular and circulating-cell measures, not physical function",
+    "overall_physical_comparisons": "All seven overall comparisons were null at both visits; age/sex-adjusted mixed-model coefficients were null.",
+    "nominal_positives": [
+      "All participants ≤40: calf raise at visit 3, coefficient 0.102 (95% CL 0.016–0.189), P=.018",
+      "Men >40: step test at visit 4, coefficient 0.074 (95% CL 0.016–0.132), P=.010"
+    ],
+    "interaction_result_supplied": false,
+    "multiplicity_adjustment_in_results": false,
+    "positive_subgroup_denominators_supplied": false,
+    "prespecification": "Physical tests were planned; age/sex subgroup interest appears in the 2020 SAP. Exact ≤40/>40 cutoff prespecification was not verified; randomization strata were 22–44/45–65.",
+    "no_demonstrated_male_only_calf_benefit": true
+  },
+  "molecular_fidelity": {
+    "BUB1B_specific_RNA_protein_function_assay_identified": false,
+    "checkpoint_or_chromosome_outcome": false,
+    "muscle_carnosine_measured": false,
+    "scope": "Complete scientific main and supplement; not proof about undisclosed data."
+  },
+  "counterevidence": [
+    {
+      "pmid": "39770949",
+      "doi": "10.3390/nu16244328",
+      "scope": "Complete abstract and metadata only",
+      "result": "49 randomized, 43 completed; 2 g/day for 14 weeks. Grip, relative grip, body composition and bone measures did not differ versus placebo.",
+      "not_full_qualification": true
+    },
+    {
+      "pmid": "12459876",
+      "doi": "10.1023/a:1020625225685",
+      "scope": "Complete abstract and metadata only",
+      "result": "SAMR1 mouse aberrant spermatogonia/spermatids increased by 64%/85% by micronucleus assay; SAMP1 result null. Dose, route, denominators and statistical details unread.",
+      "limit": "No human genotoxicity or BUBR1-causal claim.",
+      "not_full_qualification": true
+    }
+  ],
+  "competition": "Retain real between-group functional measurements. Active-only adherence/response exclusions, overall nulls, multiplicity and absent subgroup interaction evidence prevent a strong nominee challenge. Apply the same causal caution to niacin open-label strength; apitegromab has a distinct SMA primary motor context. No comparative MVA efficacy is proved.",
+  "numerical_source_data": "carnosine-outcomes.json",
+  "identity_check": "identity-check.json",
+  "discovery_queries": 6,
+  "source_reviewer_no_repo_edits": true,
+  "source_reviewer_no_entry_or_outer_credit": true,
+  "source_reviewer_reading_scope": "reading-manifest.json",
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "carnosine-muscle-qualification.md",
+  "qualification_md_sha256": "43ea755bedf85ad0d7dc5c116d52f990e686acd741304656b08a5f7673495b9b",
+  "integration": {
+    "baseline": "3db5c8961499131d8feafbe87f47eb8e6bfbb0e0",
+    "baseline_assessments": 230,
+    "current_assessments": 233,
+    "retained_prior_ids": 230,
+    "refined_ids": [
+      "prior-05"
+    ],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-antioxidant-discovery-20260923/carnosine-qualification.json",
+      "sha256": "f5a39af72376ed3917fc3228640b651922684227eb62ca3031a85f84d4040205"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-antioxidant-discovery-20260923/reading-manifest.json",
+      "sha256": "4f738345fd015e7fde10a708f4a0b4582e2bb78bf44e212286dd1591caeb46f4"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-antioxidant-discovery-20260923/independent-carnosine/findings.md",
+      "sha256": "ff923ca9d7fe72d78e64885d0f640eed46ac5a24b9f698a55a491a32c38c7bf4"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nr-quercetin-carnosine-integration-20260923/root-reading.json",
+      "sha256": "9b64c3c073ec562d5994fa42365f542d167f16801a74b8374d8c4e014e1b4c2e"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false,
+    "prior_decision_objects_unchanged": 229
+  }
+}

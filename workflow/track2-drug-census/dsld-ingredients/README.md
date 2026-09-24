@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 230
+  --out /path/dsld-replay --expected-appraisals 233
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -138,4 +138,6 @@ The preceding **227-appraisal replay** adds four exact-name relations in existin
 
 The preceding **228-appraisal replay** adds 2 exact L-carnitine/levocarnitine name relations in existing groups 255 and 7533: **6,837 cross-references, 108 curated relations and 91 appraisal-linked groups**. All source fields and six other output tables remain unchanged. These are name relations, not new unique molecules, trial-product equivalence or efficacy evidence.
 
-The current **230-appraisal replay** adds one exact caffeine name relation in group 367: **6,838 cross-references, 109 curated relations and 92 appraisal-linked groups**. GlyNAC has no exact combined-name link and supplies no ingredient-alone efficacy. All source fields and six other tables remain unchanged; these name relations do not establish retail-preparation equivalence or systemic benefit.
+The preceding **230-appraisal replay** adds one exact caffeine name relation in group 367: **6,838 cross-references, 109 curated relations and 92 appraisal-linked groups**. GlyNAC has no exact combined-name link and supplies no ingredient-alone efficacy. All source fields and six other tables remain unchanged; these name relations do not establish retail-preparation equivalence or systemic benefit.
+
+The current **233-appraisal replay** retains all prior relations and source fields: **6,839 cross-references, 110 curated relations and 93 appraisal-linked groups**. Exact L-carnosine is kept separate from the generic carnosine/zinc-carnosine catalog group; tested glycosides and NR–resveratrol do not inherit free-aglycone or component efficacy. Name relations do not verify preparation equivalence.

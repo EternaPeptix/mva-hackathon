@@ -1128,3 +1128,11 @@ GlyNAC retains measured metabolic/function trajectories while its planned final 
 FDA and NIH replay each add one exact caffeine name relation. GlyNAC creates no component-efficacy joins. All original source fields and eleven other FDA/SGC/NIH output tables remain unchanged. Original queue and 47 source-question objects remain preserved. No new independent-study, original-queue, worldwide-completion or MVA-efficacy credit follows.
 
 Track 1, its methods prefix, current media, model/transfer/RNA workflows and experimental plan remain unchanged. The repository stays private, both PRs draft and unmerged, and Track 2 unsubmitted.
+
+## NR and common-compound functional comparisons, 23 September 2026
+
+The ledger contains 233 assessments: all 230 prior IDs retained, only prior-05 refined, and three distinct comparison entries added. Seven portable files contain three source qualifications and compact carnosine outcome data. Raw papers, figures, registry payloads and reading logs remain external. All original source-question and queue objects remain unchanged.
+
+NR receives credit for a preliminary randomized walking contrast under its declared one-sided pilot rule, preserving earlier metabolic and short-term grip nulls. NR plus trans-resveratrol remains separate. Tested quercetin glycosides retain a controlled training-associated strength positive and longer-trial strength nulls. L-carnosine retains overall nulls and nominal subgroup signals with active-only selection. Exact preparations, endpoint denominators and root/source/independent reading scopes remain explicit. No MVA efficacy ordering, pediatric safety or worldwide-completion claim follows.
+
+Source inventory replays preserve original fields and existing relations. Exact L-carnosine does not propagate to zinc-carnosine, glycosides do not inherit aglycone identity, and component effects are not assigned from combinations. Track 1 and its methods prefix, current media, model/transfer/RNA workflows and experimental plan remain unchanged. Repository stays private, PRs draft/unmerged and Track 2 unsubmitted.
