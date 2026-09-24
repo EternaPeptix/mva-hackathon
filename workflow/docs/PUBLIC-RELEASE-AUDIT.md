@@ -1118,3 +1118,13 @@ The controlled mitochondrial-myopathy source retains a cycling-endurance and ins
 FDA replay adds one L-carnitine name relation; NIH replay adds exact-name relations in two existing groups. All original source fields and eleven other FDA/SGC/NIH output tables remain unchanged. Exact molecular synonymy is not trial salt/product equivalence. The original queue and all 47 historical questions remain unchanged.
 
 Track 1, its methods prefix, current media, model/transfer/RNA workflows and experimental plan remain unchanged. The repository remains private, both PRs draft and unmerged, and Track 2 unsubmitted.
+
+## GlyNAC and caffeine comparisons, 23 September 2026
+
+Two assessments bring the ledger to 230, preserving all 228 preceding objects, including NAC prior-28. PR1 retention remains 109 IDs/94 unchanged objects/fifteen earlier refinements. Five portable files contain two scientific qualifications and a compact GlyNAC outcome table; raw papers, native figures and reading logs remain external.
+
+GlyNAC retains measured metabolic/function trajectories while its planned final randomized functional contrast remains unreported. A separate short trial’s primary blood-GSH null and abstract subgroup mislabel remain explicit; neither ingredient inherits combination outcomes. Caffeine retains a selected human-embryo ploidy association and mixed sibling-pilot observations. Conference/full-paper overlap is unresolved, and treated-only clinical follow-up cannot establish comparative birth benefit or safety. Neither selected normal fraction nor within-arm significance establishes the stronger causal endpoint. Source, independent and root reading scopes remain separately attributed.
+
+FDA and NIH replay each add one exact caffeine name relation. GlyNAC creates no component-efficacy joins. All original source fields and eleven other FDA/SGC/NIH output tables remain unchanged. Original queue and 47 source-question objects remain preserved. No new independent-study, original-queue, worldwide-completion or MVA-efficacy credit follows.
+
+Track 1, its methods prefix, current media, model/transfer/RNA workflows and experimental plan remain unchanged. The repository stays private, both PRs draft and unmerged, and Track 2 unsubmitted.

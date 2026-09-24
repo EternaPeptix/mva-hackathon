@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 228
+  --out /path/dsld-replay --expected-appraisals 230
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -136,4 +136,6 @@ The preceding **225-appraisal replay** adds two name relations for creatine mono
 
 The preceding **227-appraisal replay** adds four exact-name relations in existing groups 2778, 2188 and 2315: **6,835 cross-references, 106 curated relations and 89 appraisal-linked groups**. Two calcium-HMB punctuation variants refer to the same assessment; they are not distinct molecules or trials. L-leucine does not create D-leucine, isoleucine or mixed-protein efficacy links. All source fields and six other output tables remain unchanged.
 
-The current **228-appraisal replay** adds 2 exact L-carnitine/levocarnitine name relations in existing groups 255 and 7533: **6,837 cross-references, 108 curated relations and 91 appraisal-linked groups**. All source fields and six other output tables remain unchanged. These are name relations, not new unique molecules, trial-product equivalence or efficacy evidence.
+The preceding **228-appraisal replay** adds 2 exact L-carnitine/levocarnitine name relations in existing groups 255 and 7533: **6,837 cross-references, 108 curated relations and 91 appraisal-linked groups**. All source fields and six other output tables remain unchanged. These are name relations, not new unique molecules, trial-product equivalence or efficacy evidence.
+
+The current **230-appraisal replay** adds one exact caffeine name relation in group 367: **6,838 cross-references, 109 curated relations and 92 appraisal-linked groups**. GlyNAC has no exact combined-name link and supplies no ingredient-alone efficacy. All source fields and six other tables remain unchanged; these name relations do not establish retail-preparation equivalence or systemic benefit.

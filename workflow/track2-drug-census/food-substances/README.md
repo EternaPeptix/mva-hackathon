@@ -106,4 +106,6 @@ The current replay against **222 assessments** preserves both FDA output tables 
 
 The preceding 227-assessment replay adds one exact appraisal-name relation for L-leucine at `fda-food:2046`, bringing appraisal-linked source rows to 11. All 3,971 original source fields and the complete mentions table remain unchanged. A food inventory match does not establish medication approval, current permission, trial-product equivalence or efficacy.
 
-The current 228-assessment replay adds one L-carnitine appraisal-name link at `fda-food:0531`, for 12 linked source rows. All original source fields and the mentions table remain unchanged. This relation does not establish trial-product equivalence, current permission or BUB1B efficacy.
+The preceding 228-assessment replay adds one L-carnitine appraisal-name link at `fda-food:0531`, for 12 linked source rows. All original source fields and the mentions table remain unchanged. This relation does not establish trial-product equivalence, current permission or BUB1B efficacy.
+
+The current 230-assessment replay adds one caffeine appraisal-name link at `fda-food:0443`, for 13 linked source rows. GlyNAC does not create a component-efficacy relation. All original source fields and the mentions table remain unchanged; caffeine culture findings do not imply dietary or systemic benefit.
