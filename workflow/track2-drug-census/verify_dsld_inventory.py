@@ -27,10 +27,10 @@ def check(root=None):
     assert all(json.loads(x['nutrient_info_as_reported'])==[] for x in groups)
     assert len({x['group_name_as_reported'] for x in groups})==6080
     assert counts['automatic_manual_abstract_reads']==counts['automatic_primary_reads']==counts['automatic_new_appraisals']==0
-    assert len(json.loads((root/'decisions.json').read_text())['decisions'])==counts['target_inventory']['appraisals']==258
+    assert len(json.loads((root/'decisions.json').read_text())['decisions'])==counts['target_inventory']['appraisals']==259
     assert len(rows('name-crossrefs.tsv'))==counts['name_crossref_rows']==6861
     parent=js('parent-reconciliation.json');assert parent['current_summary_sha256']==sha(p/'summary.json') and parent['current_builder_sha256']==sha(root/'build_dsld_inventory.py')
-    assert parent['historical_ledger_count']==168 and parent['current_ledger_count']==258 and parent['new_manual_reading_or_efficacy_credit']==0
+    assert parent['historical_ledger_count']==168 and parent['current_ledger_count']==259 and parent['new_manual_reading_or_efficacy_credit']==0
     overlay=js('first-role-review.json');assert overlay['source_snapshot']['mentions_sha256']==sha(p/'mentions.tsv')
     assert overlay['reading_manifest_sha256']==sha(p/'first-role-reading-manifest.json')
     chosen=[x for record in overlay['records'] for x in record['nih_unflagged_rows']]
