@@ -87,3 +87,5 @@ food constituents, industrial chemicals or every medicine worldwide. Those
 remaining spaces and the unread literature require further work.
 
 The current replay against **222 assessments** preserves all four SGC output tables and **nine labels with curated-appraisal name candidates**. The three common-compound additions add no probe-inventory matches or efficacy credit.
+
+The 247-assessment replay preserves all SGC source fields and prior relations; 9 probe labels have appraisal-name candidates. Any added relation is restricted to the accepted cholecalciferol ID and gives no efficacy credit.

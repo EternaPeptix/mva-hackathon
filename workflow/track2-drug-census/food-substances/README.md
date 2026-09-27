@@ -120,4 +120,6 @@ The preceding 240-assessment replay leaves all FDA source/output tables unchange
 
 The preceding 243-assessment replay retains all FDA output tables and source fields, with 13 appraisal-linked rows and no new FDA relations. Name inventories do not establish preparation equivalence or efficacy. Oral arginine has no automatic alias.
 
-The current 246-assessment replay preserves all FDA output tables and source fields, with 13 appraisal-linked rows and no new relations. The three magnesium preparations have no automatic aliases; inventory membership is not formulation equivalence or efficacy.
+The preceding 246-assessment replay preserves all FDA output tables and source fields, with 13 appraisal-linked rows and no new relations. The three magnesium preparations have no automatic aliases; inventory membership is not formulation equivalence or efficacy.
+
+The current 247-assessment replay preserves all FDA source fields and prior relations, with 13 appraisal-linked rows and 0 changed candidate-list rows. Only the accepted cholecalciferol ID may be added; names are not product equivalence.

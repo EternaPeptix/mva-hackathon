@@ -152,4 +152,6 @@ The preceding update adds source-labelled betaine and nitrate-containing beetroo
 
 The preceding update adds alpha-lipoic acid, L-citrulline and source-labelled chronic oral L-arginine for **243 assessments**, preserving all 240 preceding objects. PR1 remains 109 IDs/93 unchanged/sixteen earlier refinements. Reader/test, original selection, all 47 historical source questions and the preserved comparison appendix remain unchanged.
 
-The current update adds three preparation-specific magnesium assessments for **246 assessments**, preserving all 243 preceding objects. PR1 remains 109 IDs/93 unchanged/sixteen earlier refinements. Reader/test, original selection, all 47 historical source questions and the preserved comparison appendix remain unchanged.
+The preceding update adds three preparation-specific magnesium assessments for **246 assessments**, preserving all 243 preceding objects. PR1 remains 109 IDs/93 unchanged/sixteen earlier refinements. Reader/test, original selection, all 47 historical source questions and the preserved comparison appendix remain unchanged.
+
+The current update adds one cholecalciferol appraisal for **247 assessments**, preserving all 246 preceding objects. PR1 remains 109 IDs/93 unchanged/sixteen earlier refinements. All 47 historical source questions, prior qualifications, the common-compound priority appendix and the symmetric NMN research rule remain unchanged.

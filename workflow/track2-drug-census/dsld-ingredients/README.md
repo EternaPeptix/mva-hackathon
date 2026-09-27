@@ -63,7 +63,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 246
+  --out /path/dsld-replay --expected-appraisals 247
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -150,4 +150,6 @@ The preceding **240-appraisal replay** retains all prior relations and source fi
 
 The preceding **243-appraisal replay** retains all prior relations and source fields: **6,846 cross-references, 117 curated relations and 98 appraisal-linked groups**. Lipoic-acid and L-citrulline name relations do not establish trial-product, salt or stereochemical equivalence. Oral L-arginine has no automatic alias.
 
-The current **246-appraisal replay** retains byte-identical output tables and all prior source fields: **6,846 cross-references, 117 curated relations and 98 appraisal-linked groups**. The three preparation-specific magnesium assessments have empty automatic aliases and add no name relations, reading credit or product equivalence.
+The preceding **246-appraisal replay** retains byte-identical output tables and all prior source fields: **6,846 cross-references, 117 curated relations and 98 appraisal-linked groups**. The three preparation-specific magnesium assessments have empty automatic aliases and add no name relations, reading credit or product equivalence.
+
+The current **247-appraisal replay** preserves all prior relations and source fields: **6,850 cross-references, 121 curated relations and 101 appraisal-linked groups**. Exact cholecalciferol/colecalciferol relations add only the accepted decision ID; broad/shared ingredient groups confer no product equivalence or reading credit.

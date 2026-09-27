@@ -1,17 +1,15 @@
 {
   "date": "2026-09-23",
   "reviewer": "/root",
-  "scope": "The 246-assessment replay preserves all prior output tables, source fields and name relations. Empty magnesium-preparation aliases add no relations or efficacy credit.",
+  "scope": "The 247-assessment replay preserves all source fields and prior name relations. Only exact cholecalciferol/colecalciferol names can add the new appraisal ID; shared ingredient groups do not establish product, regimen or efficacy equivalence.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/magnesium-integration-20260923/dsld-replay-final/runs/1b1111bd9e3ca9baf6d1",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-d3-integration-20260926/dsld-replay-final/runs/5d3a32d47943859e6da7",
   "historical_ledger_count": 168,
-  "current_ledger_count": 246,
+  "current_ledger_count": 247,
   "unchanged_output_tables": [
     "alias-cells.tsv",
-    "groups.tsv",
     "mentions.tsv",
     "metadata-anomalies.json",
-    "name-crossrefs.tsv",
     "normalized-aliases.tsv",
     "screen-policy.json",
     "source-records.tsv"
@@ -229,6 +227,24 @@
       "after": "[\"new-alpha-tocopherol\"]"
     },
     {
+      "group_id": "1538",
+      "name": "Vitamin D",
+      "before": "[]",
+      "after": "[\"new-cholecalciferol-function\"]"
+    },
+    {
+      "group_id": "207",
+      "name": "Vitamin D3",
+      "before": "[]",
+      "after": "[\"new-cholecalciferol-function\"]"
+    },
+    {
+      "group_id": "2297",
+      "name": "Vitamin D (cholecalciferol)",
+      "before": "[]",
+      "after": "[\"new-cholecalciferol-function\"]"
+    },
+    {
       "group_id": "3428",
       "name": "Vitamin C",
       "before": "[]",
@@ -247,10 +263,10 @@
       "after": "[\"new-10-hda\"]"
     }
   ],
-  "name_crossrefs_added": 46,
+  "name_crossrefs_added": 50,
   "old_name_crossrefs_retained": 6800,
-  "current_name_crossrefs": 6846,
-  "current_summary_sha256": "1b1111bd9e3ca9baf6d1fb18f1e7948be9f8e2e70977b389260534e9aa107858",
+  "current_name_crossrefs": 6850,
+  "current_summary_sha256": "5d3a32d47943859e6da7d97b9d5723203f76b8f6c00d1407f841a55e22e1a7a1",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -300,13 +316,77 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "baseline_commit": "f07c1742d5ae6939aed222e68eb5ab366a0bba00",
-    "prior_appraisals": 243,
-    "current_appraisals": 246,
-    "changed_output_tables": [],
-    "changed_appraisal_group_rows": [],
-    "added_name_crossrefs": [],
-    "name_crossrefs_added": 0,
+    "baseline_commit": "7324e443f3fd550d4b207421005322884abf16c5",
+    "prior_appraisals": 246,
+    "current_appraisals": 247,
+    "changed_output_tables": [
+      "groups.tsv",
+      "name-crossrefs.tsv"
+    ],
+    "changed_appraisal_group_rows": [
+      {
+        "id": "1538",
+        "before": "[]",
+        "after": "[\"new-cholecalciferol-function\"]"
+      },
+      {
+        "id": "207",
+        "before": "[]",
+        "after": "[\"new-cholecalciferol-function\"]"
+      },
+      {
+        "id": "2297",
+        "before": "[]",
+        "after": "[\"new-cholecalciferol-function\"]"
+      }
+    ],
+    "added_name_crossrefs": [
+      {
+        "group_id": "1538",
+        "normalized_alias": "cholecalciferol",
+        "source_alias_cell_ids": "[\"dsld:1538:synonym:2\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-cholecalciferol-function",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "cholecalciferol",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
+      },
+      {
+        "group_id": "207",
+        "normalized_alias": "cholecalciferol",
+        "source_alias_cell_ids": "[\"dsld:207:synonym:0\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-cholecalciferol-function",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "cholecalciferol",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
+      },
+      {
+        "group_id": "2297",
+        "normalized_alias": "cholecalciferol",
+        "source_alias_cell_ids": "[\"dsld:2297:synonym:2\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-cholecalciferol-function",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "cholecalciferol",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
+      },
+      {
+        "group_id": "2297",
+        "normalized_alias": "colecalciferol",
+        "source_alias_cell_ids": "[\"dsld:2297:synonym:6\"]",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-cholecalciferol-function",
+        "target_name_field": "match_aliases",
+        "target_name_as_reported": "colecalciferol",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "ambiguity_flags": "[]"
+      }
+    ],
+    "name_crossrefs_added": 4,
     "new_manual_reading_or_efficacy_credit": 0
   },
   "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
@@ -2592,10 +2672,10 @@
     }
   },
   "prior_parent_reconciliation": {
-    "commit": "f07c1742d5ae6939aed222e68eb5ab366a0bba00",
+    "commit": "7324e443f3fd550d4b207421005322884abf16c5",
     "repo_relative": "workflow/track2-drug-census/dsld-ingredients/parent-reconciliation.json",
-    "sha256": "077f441bc69f8fd23027431b2397fcb513ab43076eba6820ff99c2419946d9fb",
-    "appraisals": 243
+    "sha256": "55ea629e1e35cd73fc491e68496098d27bbfef1bad8ab8be56d1489c7534b2ed",
+    "appraisals": 246
   },
   "current_delta_from181": {
     "changed_appraisal_group_rows": [
