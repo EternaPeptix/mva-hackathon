@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "status": "BOUNDED_RETRIEVAL_AUDITED_WITH_PARTIAL_ELIGIBILITY_SCREENING",
+  "date": "2026-09-27",
+  "discovery_question": "What administered compounds or preparations have measured functional outcomes even when BUB1B/BUBR1 is absent from the report?",
+  "corpus_summary": {
+    "version": "v1",
+    "built_utc": "2026-09-27T16:52:18.252478+00:00",
+    "query_count": 3,
+    "all_declared_queries_complete": true,
+    "per_query": [
+      {
+        "query_id": "q1_neuromuscular",
+        "status": "COMPLETE",
+        "initial_count": 7185,
+        "unique_retrieved": 7185,
+        "page_count": 8,
+        "page_hit_counts": [
+          7185
+        ]
+      },
+      {
+        "query_id": "q2_older_nutrition",
+        "status": "COMPLETE",
+        "initial_count": 3982,
+        "unique_retrieved": 3982,
+        "page_count": 4,
+        "page_hit_counts": [
+          3982
+        ]
+      },
+      {
+        "query_id": "q3_common_preparation",
+        "status": "COMPLETE",
+        "initial_count": 50027,
+        "unique_retrieved": 50027,
+        "page_count": 51,
+        "page_hit_counts": [
+          50027
+        ]
+      }
+    ],
+    "sum_query_hits_nonadditive": 61194,
+    "deduplicated_source_id_records": 56217,
+    "source_namespace_counts": {
+      "PPR": 2282,
+      "MED": 52023,
+      "AGR": 1157,
+      "PMC": 409,
+      "ETH": 122,
+      "PAT": 181,
+      "CBA": 42,
+      "CTX": 1
+    },
+    "records_with_abstract": 56131,
+    "records_without_abstract": 86,
+    "query_membership_patterns": {
+      "q1_neuromuscular": 6190,
+      "q1_neuromuscular|q3_common_preparation": 917,
+      "q1_neuromuscular|q2_older_nutrition|q3_common_preparation": 78,
+      "q2_older_nutrition|q3_common_preparation": 3904,
+      "q3_common_preparation": 45128
+    },
+    "pairwise_overlap_records": {
+      "q1_neuromuscular & q2_older_nutrition": 78,
+      "q1_neuromuscular & q3_common_preparation": 995,
+      "q2_older_nutrition & q3_common_preparation": 3982
+    },
+    "q2_subset_of_q3": true,
+    "canonical_gene_comparison": {
+      "baseline_records": 7362,
+      "exact_source_id_overlap": 4,
+      "outcome_records_not_in_gene": 56213,
+      "gene_records_not_in_outcome": 7358
+    },
+    "existing_checkpoint_identifier_pointer_comparison": {
+      "baseline": "35cb26a0b0e2c56170cbf7a01aba4fd9784372db",
+      "records_with_any_existing_pointer": 87,
+      "records_without_pointer_in_declared_scope": 56130,
+      "comparison_classes": {
+        "NEITHER_GENE_NOR_EXISTING_POINTER": 56127,
+        "EXISTING_POINTER_ONLY": 86,
+        "GENE_ONLY": 3,
+        "GENE_AND_EXISTING_POINTER": 1
+      },
+      "role_status": "Unadjudicated reference overlap; not a count of qualified/read sources"
+    },
+    "conservative_verified_direct_anchors": {
+      "declared_anchor_count": 11,
+      "retrieved_anchor_records": 10,
+      "retrieved_anchor_pmids": [
+        "15159476",
+        "15984021",
+        "19952825",
+        "20395096",
+        "31337122",
+        "32078436",
+        "38871717",
+        "40818473",
+        "41754227",
+        "42004609"
+      ],
+      "missing_anchor_pmids": [
+        "32386566"
+      ],
+      "scope": "Convenience source-qualified subset, not all existing qualifications; source reading depths vary and are retained separately"
+    },
+    "sentinel_recall": {
+      "retrieved": 7,
+      "total": 7,
+      "not_sensitivity_estimate": true
+    },
+    "queue_records": 56217,
+    "fresh_manual_reading_credit": 0,
+    "original_queue_reading_credit": 0,
+    "independent_study_count": null,
+    "full_papers_downloaded": 0,
+    "efficacy_classification_performed": false,
+    "global_completeness_claim": false
+  },
+  "frozen_search_specification": {
+    "version": "v1",
+    "frozen_utc": "2026-09-27T16:21:02.549163+00:00",
+    "status": "FROZEN_BEFORE_ANY_NETWORK_REQUEST",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+    "repository_baseline": "35cb26a0b0e2c56170cbf7a01aba4fd9784372db",
+    "query_count": 3,
+    "queries": [
+      {
+        "id": "q1_neuromuscular",
+        "purpose": "Controlled neuromuscular/myopathy/muscular-dystrophy/SMA functional intervention reports",
+        "query": "(TITLE_ABS:neuromuscular OR TITLE_ABS:myopath* OR TITLE_ABS:\"muscular dystroph*\" OR TITLE_ABS:\"muscle dystroph*\" OR TITLE_ABS:\"spinal muscular atrophy\" OR TITLE_ABS:Duchenne OR TITLE_ABS:Becker OR TITLE_ABS:\"amyotrophic lateral sclerosis\" OR TITLE_ABS:\"motor neuron disease\") AND (TITLE_ABS:random* OR TITLE_ABS:placebo* OR TITLE_ABS:controlled OR TITLE_ABS:trial OR TITLE_ABS:crossover OR TITLE_ABS:\"cross-over\") AND (TITLE_ABS:strength OR TITLE_ABS:torque OR TITLE_ABS:force OR TITLE_ABS:\"motor function\" OR TITLE_ABS:\"motor performance\" OR TITLE_ABS:\"physical function\" OR TITLE_ABS:\"physical performance\" OR TITLE_ABS:\"functional capacity\" OR TITLE_ABS:\"functional performance\" OR TITLE_ABS:mobility OR TITLE_ABS:walking OR TITLE_ABS:\"walk test\" OR TITLE_ABS:gait OR TITLE_ABS:endurance OR TITLE_ABS:\"exercise capacity\" OR TITLE_ABS:fatigue OR TITLE_ABS:recovery OR TITLE_ABS:SPPB OR TITLE_ABS:HFMSE OR TITLE_ABS:NSAA OR TITLE_ABS:RULM OR TITLE_ABS:dynamomet*)"
+      },
+      {
+        "id": "q2_older_nutrition",
+        "purpose": "Controlled frailty/sarcopenia/older-adult nutritional/preparation functional reports",
+        "query": "(TITLE_ABS:frail* OR TITLE_ABS:sarcopen* OR TITLE_ABS:\"older adult*\" OR TITLE_ABS:\"older people\" OR TITLE_ABS:\"older person*\" OR TITLE_ABS:\"older men\" OR TITLE_ABS:\"older women\" OR TITLE_ABS:elderly OR TITLE_ABS:geriatric OR TITLE_ABS:aging OR TITLE_ABS:ageing) AND (TITLE_ABS:nutrition* OR TITLE_ABS:supplement* OR TITLE_ABS:protein OR TITLE_ABS:whey OR TITLE_ABS:casein OR TITLE_ABS:dairy OR TITLE_ABS:milk OR TITLE_ABS:collagen OR TITLE_ABS:gelatin OR TITLE_ABS:creatine OR TITLE_ABS:carnitine OR TITLE_ABS:\"amino acid*\" OR TITLE_ABS:leucine OR TITLE_ABS:arginine OR TITLE_ABS:citrulline OR TITLE_ABS:betaine OR TITLE_ABS:alanine OR TITLE_ABS:HMB OR TITLE_ABS:\"hydroxymethylbutyrate\" OR TITLE_ABS:\"hydroxy methylbutyrate\" OR TITLE_ABS:\"hydroxy-methylbutyrate\" OR TITLE_ABS:nitrate OR TITLE_ABS:beetroot OR TITLE_ABS:caffeine OR TITLE_ABS:cocoa OR TITLE_ABS:chocolate OR TITLE_ABS:flavanol* OR TITLE_ABS:polyphenol* OR TITLE_ABS:pomegranate OR TITLE_ABS:cherry OR TITLE_ABS:curcumin OR TITLE_ABS:turmeric OR TITLE_ABS:ginger OR TITLE_ABS:ginseng OR TITLE_ABS:ashwagandha OR TITLE_ABS:resveratrol OR TITLE_ABS:quercetin OR TITLE_ABS:epicatechin OR TITLE_ABS:glucoraphanin OR TITLE_ABS:sulforaphane OR TITLE_ABS:broccoli OR TITLE_ABS:vitamin* OR TITLE_ABS:mineral* OR TITLE_ABS:omega* OR TITLE_ABS:\"fish oil\" OR TITLE_ABS:probiotic* OR TITLE_ABS:prebiotic* OR TITLE_ABS:niacin OR TITLE_ABS:nicotinamide OR TITLE_ABS:nicotinamide-riboside OR TITLE_ABS:NMN OR TITLE_ABS:coenzyme OR TITLE_ABS:ubiquinol OR TITLE_ABS:taurine OR TITLE_ABS:electrolyte* OR TITLE_ABS:bicarbonate OR TITLE_ABS:carbohydrate* OR TITLE_ABS:ketone*) AND (TITLE_ABS:random* OR TITLE_ABS:placebo* OR TITLE_ABS:controlled OR TITLE_ABS:trial OR TITLE_ABS:crossover OR TITLE_ABS:\"cross-over\") AND (TITLE_ABS:strength OR TITLE_ABS:torque OR TITLE_ABS:force OR TITLE_ABS:\"motor function\" OR TITLE_ABS:\"motor performance\" OR TITLE_ABS:\"physical function\" OR TITLE_ABS:\"physical performance\" OR TITLE_ABS:\"functional capacity\" OR TITLE_ABS:\"functional performance\" OR TITLE_ABS:mobility OR TITLE_ABS:walking OR TITLE_ABS:\"walk test\" OR TITLE_ABS:gait OR TITLE_ABS:endurance OR TITLE_ABS:\"exercise capacity\" OR TITLE_ABS:fatigue OR TITLE_ABS:recovery OR TITLE_ABS:SPPB OR TITLE_ABS:HFMSE OR TITLE_ABS:NSAA OR TITLE_ABS:RULM OR TITLE_ABS:dynamomet*)"
+      },
+      {
+        "id": "q3_common_preparation",
+        "purpose": "Controlled common-supplement/preparation function/strength/endurance/recovery reports without age requirement",
+        "query": "(TITLE_ABS:nutrition* OR TITLE_ABS:supplement* OR TITLE_ABS:protein OR TITLE_ABS:whey OR TITLE_ABS:casein OR TITLE_ABS:dairy OR TITLE_ABS:milk OR TITLE_ABS:collagen OR TITLE_ABS:gelatin OR TITLE_ABS:creatine OR TITLE_ABS:carnitine OR TITLE_ABS:\"amino acid*\" OR TITLE_ABS:leucine OR TITLE_ABS:arginine OR TITLE_ABS:citrulline OR TITLE_ABS:betaine OR TITLE_ABS:alanine OR TITLE_ABS:HMB OR TITLE_ABS:\"hydroxymethylbutyrate\" OR TITLE_ABS:\"hydroxy methylbutyrate\" OR TITLE_ABS:\"hydroxy-methylbutyrate\" OR TITLE_ABS:nitrate OR TITLE_ABS:beetroot OR TITLE_ABS:caffeine OR TITLE_ABS:cocoa OR TITLE_ABS:chocolate OR TITLE_ABS:flavanol* OR TITLE_ABS:polyphenol* OR TITLE_ABS:pomegranate OR TITLE_ABS:cherry OR TITLE_ABS:curcumin OR TITLE_ABS:turmeric OR TITLE_ABS:ginger OR TITLE_ABS:ginseng OR TITLE_ABS:ashwagandha OR TITLE_ABS:resveratrol OR TITLE_ABS:quercetin OR TITLE_ABS:epicatechin OR TITLE_ABS:glucoraphanin OR TITLE_ABS:sulforaphane OR TITLE_ABS:broccoli OR TITLE_ABS:vitamin* OR TITLE_ABS:mineral* OR TITLE_ABS:omega* OR TITLE_ABS:\"fish oil\" OR TITLE_ABS:probiotic* OR TITLE_ABS:prebiotic* OR TITLE_ABS:niacin OR TITLE_ABS:nicotinamide OR TITLE_ABS:nicotinamide-riboside OR TITLE_ABS:NMN OR TITLE_ABS:coenzyme OR TITLE_ABS:ubiquinol OR TITLE_ABS:taurine OR TITLE_ABS:electrolyte* OR TITLE_ABS:bicarbonate OR TITLE_ABS:carbohydrate* OR TITLE_ABS:ketone*) AND (TITLE_ABS:random* OR TITLE_ABS:placebo* OR TITLE_ABS:controlled OR TITLE_ABS:trial OR TITLE_ABS:crossover OR TITLE_ABS:\"cross-over\") AND (TITLE_ABS:strength OR TITLE_ABS:torque OR TITLE_ABS:force OR TITLE_ABS:\"motor function\" OR TITLE_ABS:\"motor performance\" OR TITLE_ABS:\"physical function\" OR TITLE_ABS:\"physical performance\" OR TITLE_ABS:\"functional capacity\" OR TITLE_ABS:\"functional performance\" OR TITLE_ABS:mobility OR TITLE_ABS:walking OR TITLE_ABS:\"walk test\" OR TITLE_ABS:gait OR TITLE_ABS:endurance OR TITLE_ABS:\"exercise capacity\" OR TITLE_ABS:fatigue OR TITLE_ABS:recovery OR TITLE_ABS:SPPB OR TITLE_ABS:HFMSE OR TITLE_ABS:NSAA OR TITLE_ABS:RULM OR TITLE_ABS:dynamomet*)"
+      }
+    ],
+    "filters": {
+      "source": null,
+      "date": null,
+      "publication_type": null,
+      "human_indexing": null,
+      "abstract_presence": null,
+      "positive_result": null,
+      "gene_requirement": null,
+      "catalogue_match": null
+    },
+    "search_field": "TITLE_ABS throughout; query terms are lexical report-retrieval proxies, not eligibility/efficacy classification",
+    "record_unit": "Exact Europe PMC source/id; distinct records are not independently randomized studies",
+    "protocol": {
+      "count_first": true,
+      "count_result_type": "lite",
+      "count_page_size": 1,
+      "retrieval_result_type": "core",
+      "retrieval_page_size": 1000,
+      "cursor_initial": "*",
+      "sequential_requests": true,
+      "minimum_pause_seconds": 1.0,
+      "timeout_seconds": 90,
+      "max_attempts_per_request": 4,
+      "retry_backoff_seconds": [
+        5,
+        15,
+        45
+      ],
+      "respect_retry_after": true,
+      "preserve_failed_responses": true,
+      "initial_feasibility_threshold_total_query_hits": 150000,
+      "threshold_policy": "If summed counts exceed 150000, preserve counts and assess feasibility explicitly before pagination; no silent truncation or query change. No record cap once a query starts.",
+      "index_drift_policy": "Record page hit counts and all duplicate IDs. Report changes/early stop; never declare complete solely from nominal hitCount.",
+      "completion": "Reach stable terminal cursor/count, document exact unique count and all pages.",
+      "no_full_text": true
+    },
+    "deduplication": "Exact (source,id); retain query memberships and all source aliases such as PMID/PMCID/DOI. No merging by title/author/DOI as an independent-study claim.",
+    "known_recall_pmids": [
+      "15159476",
+      "15984021",
+      "20395096",
+      "26353786",
+      "33946565",
+      "22889730",
+      "40818473"
+    ],
+    "recall_policy": "Known IDs may be queried separately only after discovery counts/pagination, solely for diagnostic metadata; never inserted into discovery queries or used to require direction of outcome. A miss remains a miss. Any discovery revision receives new frozen version retaining v1.",
+    "scope_limits": [
+      "Q2 is intentionally nested within Q3; it supplies an explicit population stratum, not an independent corpus.",
+      "Controlled terms are title/abstract proxies. Trials with no selected terminology may be missed; reviews, protocols, preclinical work and non-randomized reports may be included pending review.",
+      "The preparation term list is a declared bounded initial vocabulary, not all possible products or compounds.",
+      "Muscle mass or biomarkers alone are not accepted as functional endpoints; broad lexical retrieval does not decide eligibility.",
+      "No source reading or manual efficacy appraisal credit follows metadata/abstract retrieval.",
+      "No efficacy, safety, clinical recommendation, exhaustive enumeration or global-completion inference."
+    ]
+  },
+  "eligibility_pilot": {
+    "status": "PILOT_SCREENED_WITH_BOUNDED_INDEPENDENT_CROSSCHECK",
+    "completed_utc": "2026-09-27T17:04:04.402135+00:00",
+    "records": 40,
+    "record_unit": "Exact(source,id), not independent studies",
+    "lane_counts": {
+      "C": 32,
+      "H_CF": 4,
+      "P_F": 1,
+      "H_UF": 1,
+      "U": 2
+    },
+    "scientific_crosscheck_records": 6,
+    "preselected_crosscheck_records": 4,
+    "additional_disputed_records": 2,
+    "structural_checks_records": 40,
+    "unresolved_route_orders": [
+      29,
+      37
+    ],
+    "incomplete_saved_abstract_orders": [
+      40
+    ],
+    "full_primary_or_efficacy_appraisal_credit": 0,
+    "original_gene_queue_reading_credit": 0,
+    "q1_universe": 7185,
+    "q1_not_screened_by_pilot": 7145,
+    "outcome_corpus_not_screened_by_pilot": 56177,
+    "sampling_limits": "Deterministic40-recordq1pilot; no global clinical-yield, sensitivity or efficacy inference. Human-substance lanes include challenge/anesthesia studies, not only therapeutic candidates.",
+    "all_records_retained": true,
+    "independent_crossreview_manifest_sha256": "2994fc13bc08f8e9c670d7a9441a5e9cc867092c7b7f43ea9c9f93f5c8b003f0"
+  },
+  "targeted_source_appraisals": [
+    {
+      "source": "MED",
+      "id": "40366059",
+      "depth": "Complete scientific main, native figures, full supplementary data, analysis-plan text and current registry; independent source review accepted.",
+      "qualification_report": "creatine-fshd-qualification.md",
+      "finding": "Primary MFM null; secondary walking and functional estimates uncertain."
+    },
+    {
+      "source": "MED",
+      "id": "35567889",
+      "depth": "Complete scientific main and all native figures/tables; independent root source review accepted.",
+      "qualification_report": "gut-muscle-qualification.md",
+      "finding": "Reported within-arm functional changes; randomized between-arm benefit not established."
+    },
+    {
+      "source": "MED",
+      "id": "38135194",
+      "depth": "Complete abstract and incomplete indexed primary sections/captions; native main/figures unavailable; bounded independent root review accepted.",
+      "qualification_report": "gut-muscle-qualification.md",
+      "finding": "Reported within-arm functional changes; randomized between-arm benefit not recovered."
+    }
+  ],
+  "clinical_or_global_claims": {
+    "records_are_independent_studies": false,
+    "retrieval_is_manual_reading": false,
+    "pilot_is_full_corpus_screening": false,
+    "absence_is_efficacy_negative": false,
+    "candidate_superiority_established": false,
+    "worldwide_coverage_established": false
+  },
+  "next_source_questions": [
+    {
+      "pmid": "25042931",
+      "reason": "Pilot surfaced a controlled Becker-muscular-dystrophy sildenafil report; scientific main remains to be qualified."
+    },
+    {
+      "pmid": "38655443",
+      "reason": "Pilot surfaced a qualitative methylcobalamin ALS experience report; evaluate its primary controlled evidence separately."
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-corpus-20260927/final-bindings.json",
+      "sha256": "7bfa879cfd3a235a5efdd42db54205645dd0cbb0606f090cd0157b2a0e72239f"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-corpus-20260927/corpus-summary.json",
+      "sha256": "18692ab4a00b2d5ea84b9a3903f2cb03432304f1685cffc9324f09d62fd3166b"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-corpus-20260927/search-spec-v1.json",
+      "sha256": "8aa6cbfa6c6faa660fe86b4868e93a2d129899923a6bf1235705e4109f40c3c1"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-corpus-20260927/retrieval-independent-review/final-bindings.json",
+      "sha256": "c88c69768e73b916a20887ff452c067c8a713a2b7242db6f84622a1ad121c34c"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-corpus-20260927/retrieval-independent-review/review.json",
+      "sha256": "a467cc3cbf3b7bb0af9cc3e2c7715d7eb907a55d78ef1eb3ba65ce1083b12a0f"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-corpus-20260927/eligibility-pilot-q1/pilot-summary.json",
+      "sha256": "04c0ec29db99d601292d581d99b71421421f52bab25675c83f2cf4fc24e4ff44"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-corpus-20260927/eligibility-pilot-q1/cross-review/final-bindings.json",
+      "sha256": "2994fc13bc08f8e9c670d7a9441a5e9cc867092c7b7f43ea9c9f93f5c8b003f0"
+    }
+  ],
+  "raw_assets_external_to_git": true,
+  "independent_retrieval_limit": "Counts and cursor chains support the recorded run, not an atomic snapshot of the live index. Reported User-Agent was intended session metadata, not verified transport header."
+}
