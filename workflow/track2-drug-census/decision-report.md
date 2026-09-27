@@ -2,7 +2,7 @@
 
 **Adopted research comparison, 21 September 2026.** The broad search changed the proposal: **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The report, methods, experimental plan and revised narration now use this pair. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue; this is a research-priority judgment, not an estimate of treatment efficacy.
 
-The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 250 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
+The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 251 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
 The [three-paper comparison](vascular-enzyme-qualification.md) retains
 anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
@@ -42,7 +42,7 @@ The [FDA food-substance inventory](food-substances/README.md) preserves 3,971 so
 | **Potentilla fulgens methanolic root extract (PRE)** | Fewer stomach carcinomas at day 260 (2/10 versus 10/10), plus lower premature chromosome separation during a carcinogen challenge. | **Substantive protection reserve.** Prophylactic co-exposure, small groups and source-reporting issues; no BUBR1, muscle or genotype-specific rescue. No transfer to root foods or other products. [Qualification](potentilla-qualification.md). |
 | **ECGU: epicatechin, catechin, gallic acid and ursolic acid** | The four-component mixture lowered premature chromosome-separation percentages in exposed mice. | **Preparation-specific protection reserve.** No mixture tumor-histology arm or individual-component controls; all four displayed protein-marker treatment comparisons are nonsignificant. No synergy or MVA benefit established. [Qualification](potentilla-qualification.md). |
 
-The ledger contains **250 appraisals**. The [astaxanthin follow-up](astaxanthin-functional-qualification.md) upgrades an existing culture-only lead to a qualified human-function reserve: controlled walking and cycling signals coexist with strength/mass nulls, distinct combination products and reporting limits. The other 249 appraisals are unchanged, including the separately qualified glycine, ergothioneine and Lovaza comparisons. Formulation and the actual treatment contrast govern interpretation; no BUBR1-restoration or MVA-superiority claim follows.
+The ledger contains **251 appraisals**. The [sodium-bicarbonate comparison](sodium-bicarbonate-functional-qualification.md) retains primary physical-function nulls in CKD alongside a positive pooled-bicarbonate-salt result in older women; neither supports an unqualified sodium-specific muscle claim. [Three further astaxanthin reports](astaxanthin-cycling-qualification.md) add controlled cycling results and a separately labeled abstract-only torque signal. One appraisal is added and astaxanthin refined; the other 249 prior appraisals are unchanged. Current nominations remain provisional, with no MVA efficacy or original-queue reading credit.
 
 ## Common-compound functional comparisons
 
