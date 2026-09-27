@@ -210,21 +210,23 @@
   "subsequent_parent_reconciliation": {
     "date": "2026-09-23",
     "reviewer": "/root",
-    "current_decision_count": 247,
+    "current_decision_count": 250,
     "current_input_hashes": {
       "food-substances-all.html": "54eb4a22b71a109b870ed6133c6bbdb8afc09b395a855170b762cb1d46702acd",
       "literature-gene-unrestricted.json": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
       "catalog.tsv": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299",
       "aliases.tsv": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3",
       "drugcentral-status-unverified.tsv": "10e227cf35b49bf07e7d28f86afee12e0ebd88335a4090275b21339396db372f",
-      "decisions.json": "464165ee5c614830d309d745cbf349adf68d96847b923f65e803db29b7f409c8"
+      "decisions.json": "c1887ac09b679e1612a1faab15f95f53a38efd26d96448144be70172581e7405"
     },
     "current_output_hashes": {
-      "substances.tsv": "4a5dc6f4fda97018ab8d459eeb7670bcbffd11bc9287140c9fa89ffe93a88687",
+      "substances.tsv": "cf4fbf6c4698e7088f786a348e44fe9cf6314a5ea5fa47e97c55d0658d36a623",
       "mentions.tsv": "9408dd04ea11f09299b7928c5d88e1b874c0041d847ea4c8ed0208159daf33a6"
     },
-    "scope": "Existing NMN appraisal refined; all 247 identities and all FDA source fields/name relations retained. Replay adds no reading or efficacy credit.",
-    "changed_source_row_ids": [],
+    "scope": "Three accepted appraisal IDs added; all FDA source fields and prior name relations preserved. Only exact appraisal-name relations change; replay adds no reading or efficacy credit.",
+    "changed_source_row_ids": [
+      "fda-food:1547"
+    ],
     "result": "PASS",
     "historical_172_reconciliation": {
       "date": "2026-09-23",
@@ -531,9 +533,9 @@
       "file_sha256": "24a1801c9c8559c03b841d24d2e964dde779c5b5c98bceaa277be0b67952f6fd"
     },
     "prior_parent_reconciliation": {
-      "commit": "b875209faf0fcc3de9c4985c4645160e8b33b123",
+      "commit": "609edd2b7864ec939f9a620aa00bc8c7f08767f4",
       "repo_relative": "workflow/track2-drug-census/food-substances/review.json",
-      "sha256": "3a83cdba078eb1a850ac115af698077bf8d61ca07844921a7294e40bccf9bad6",
+      "sha256": "216623d2328c89cc78de932dd00e54d42d3a8575b37d96c66d47533155b599d2",
       "appraisals": 247
     }
   },

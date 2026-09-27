@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-09-26",
+  "timezone": "America/Phoenix",
+  "finished_utc": "2026-09-27T03:23:59.072080+00:00",
+  "study_lineages": 2,
+  "compound": "Ergothioneine (EGT)",
+  "fovet2022": {
+    "identity": {
+      "doi": "10.3389/fphys.2022.834597",
+      "pmid": "35222093",
+      "pmcid": "PMC8864143",
+      "publication_date": "2022-02-09",
+      "publisher_article_type": "Original Research",
+      "pubmed_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "classification_basis": "Primary original experimental main; indexing label not used to infer study design"
+    },
+    "population": {
+      "female": true,
+      "age_months": 5,
+      "strain_as_printed": "C56B6J",
+      "n_each": 9,
+      "disease_model": false
+    },
+    "preparation": {
+      "author_description": "Pure ergothioneine",
+      "supplier": "Tetrahedron, Paris",
+      "route": "Drinking water",
+      "target_mg_per_kg_day": 70,
+      "duration_days": 7,
+      "individual_housing_and_water_weight_adjustment": true,
+      "lot_numeric_purity_pk": null,
+      "not_inherited_from_grn734": true
+    },
+    "design": {
+      "MAS_matched": true,
+      "randomization_method_reported": false,
+      "exhaustion_test_author_described_double_blind": true,
+      "blinding_roles_and_concealment_details": null,
+      "rested_arm": false,
+      "work_matched_arm": false,
+      "baseline_endurance_test_reported": false,
+      "baseline_MAS_each_mean_sd_m_per_min": [
+        26.66,
+        3.32
+      ]
+    },
+    "functional": {
+      "endpoint": "Treadmill time to exhaustion at70% individual baseline MAS",
+      "unit": "minutes",
+      "active_mean_sd": [
+        71.55,
+        14
+      ],
+      "control_mean_sd": [
+        50.4,
+        8.41
+      ],
+      "n_each": 9,
+      "reported_p": "<.01",
+      "difference_of_reported_means_minutes": 21.15,
+      "printed_percent_increase": 41.22,
+      "arithmetic_percent_from_displayed_means": 41.96428571428572,
+      "arithmetic_not_raw_data_reanalysis": true,
+      "confidence_interval_reconstructed": false,
+      "exhaustion_rule": "Unable to resume running after ten seconds"
+    },
+    "postexercise": {
+      "collection_minutes_after_individual_exhaustion": 120,
+      "puromycin_minutes_after_individual_exhaustion": 100,
+      "puromycin_nmol_g_ip": 40,
+      "matched_recovery_time_not_matched_work": true,
+      "interpretation": "Unequal exercise history prevents clean attribution of molecular differences to a recovery mechanism; does not erase the endurance positive",
+      "gastrocnemius_samples_per_mouse": 1,
+      "soleus_samples_per_mouse": 2,
+      "bilateral_pooling_or_clustering_handling": "Unclear",
+      "independent_animals_not_doubled": true,
+      "per_panel_protein_animal_denominators": "Not explicitly established",
+      "rna_tissue": "Gastrocnemius only"
+    },
+    "positive_markers": [
+      "Puromycin incorporation in both muscles",
+      "RPS6 phosphorylation in both muscles",
+      "Selected inflammatory transcripts and soleus IL1beta reduction",
+      "Gastrocnemius AMPK phosphorylation reduction",
+      "Soleus GSK3 phosphorylation reduction",
+      "Nrf2 transcript increase",
+      "Soleus PAX7/MyoD/myogenin/Spry1 protein; gastrocnemius MyoD protein",
+      "Parkin transcript reduction, interpretation limited"
+    ],
+    "meaningful_nulls": [
+      "Body weight over one week",
+      "4EBP1 phosphorylation; IGF1/Akt/Mtor/4ebp1/Rps6 transcripts",
+      "UPS markers; ULK1/LC3/p62; Atg7/Pink1",
+      "Soleus AMPK p=.054; gastrocnemius GSK3; Redd1/AMPK/Gsk3 transcripts as reported",
+      "TNFalpha protein both muscles; gastrocnemius IL1beta protein",
+      "4HNE/oxidized proteins/p53/p38 ratios",
+      "SOD1/SOD2/Gpx1 as reported",
+      "PGC1alpha/cytochromeC/COXIV; Pgc1alpha/Nrf1/Tfam transcripts",
+      "Myf5 both muscles; gastrocnemius PAX7/myogenin/Spry1; Pax7/MyoD/myogenin transcripts"
+    ],
+    "abstract_results_discrepancy": "Abstract says oxidative damage decreased; native Figure9 and Results are nonpositive",
+    "not_established": [
+      "Functional recovery or durable strength/hypertrophy",
+      "Satellite-cell count/lineage/renewal/asymmetric division",
+      "Respiratory capacity or long-term adaptation",
+      "Direct NRF2 binding or genetic target dependence",
+      "BUBR1 or MVA rescue",
+      "Comprehensive no-harm claim"
+    ],
+    "stats": {
+      "reported": "t or Mann-Whitney; paired two-wayANOVA for body weight; alpha.05; mean±SD",
+      "multiplicity_correction_reported": false,
+      "prospective_power_reported": false,
+      "rawdata_reanalysis": false
+    },
+    "funding": "CNES",
+    "supplier_support": "Tetrahedron pure EGT and expertise",
+    "author_conflict_declaration": "No commercial/financial relationships declared",
+    "supplement": "No linked attachment located in retrieved JATS/publisher links; generic availability sentence not a supplement reading claim"
+  },
+  "mpst_lineage": {
+    "primary_version": {
+      "doi": "10.1016/j.cmet.2025.01.024",
+      "pmid": "39965563",
+      "year": 2025,
+      "journal": "Cell Metabolism",
+      "status": "Peer-reviewed journal article; scientific reading restricted to accessible abstract"
+    },
+    "superseded_preprint": {
+      "doi": "10.1101/2024.04.10.588849",
+      "pmid": "38645260",
+      "pmcid": "PMC11030429",
+      "year": 2024,
+      "full_main_read": false
+    },
+    "official_publication_link": "PubMed UpdateOf/UpdateIn",
+    "count_once": true,
+    "abstract_reported_claims": [
+      "Exercise-associated muscle-mitochondrial EGT accumulation",
+      "Direct MPST binding/activation",
+      "Increased respiration and mouse exercise-training performance"
+    ],
+    "read_depth": "Published abstract and official identity/status/conflict metadata only; no scientific main/native figures/supplements",
+    "unassessed_not_absent": [
+      "Preparation/dose and exposure",
+      "Endurance endpoint definition/units and effect sizes",
+      "Randomization/blinding",
+      "Biological/technical denominators",
+      "Genetic target-dependence/rescue controls",
+      "Meaningful nulls and safety controls"
+    ],
+    "third_party_detail_imported": false,
+    "access_limitation": "Journal main/PDF and preprintPDF HTTP403; public Elsevier response metadata only; institutional list did not yield fulltext",
+    "conflicts_from_final_PubMed": "BMS Aevum founder; ETC Aevum cofounder/equity and Matchpoint cofounder/equity/board"
+  },
+  "notice_check": {
+    "fovet_crossmark": "current",
+    "mpst2025_crossmark": "current",
+    "correction_retraction_identified_in_checked_fields": false,
+    "publication_update_preserved": true,
+    "bounded_not_exhaustive": true
+  },
+  "regulatory": {
+    "status": "BOUNDED_OFFICIAL_INVENTORY_READING_ONLY",
+    "url": "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=734&set=GRASNotices",
+    "read_via": "web tool; full inventory entry, no notice dossier or FDA letter opened",
+    "GRN": 734,
+    "substance": "Ergothioneine",
+    "notifier": "Blue California",
+    "intended_uses": "Specified food/beverage categories at levels intended to provide 5 mg/serving",
+    "closure": "2018-05-07",
+    "inventory_letter_label": "FDA has no questions",
+    "limits": [
+      "Not a Tetrahedron product-identity record",
+      "Food-use inventory status is not approved-drug or MVA efficacy status",
+      "No comprehensive market or drug-approval survey",
+      "FDA letter and 18.5MB notice dossier not read"
+    ]
+  },
+  "fairness": "Retain actual-compound functional signal and published access-limited report; equal evidentiary and access standards; product eligibility separate; no MVA-only hurdle, comparative ranking or clinical dose advice",
+  "source_reviewer_status": "FROZEN_BOUNDED_SOURCE_QUALIFICATION_FOVET_FULL_MPST_ABSTRACT_ONLY",
+  "source_reviewer_changes": {
+    "repository": false,
+    "other_source_packages": false,
+    "optional_entry_produced": false,
+    "assessment_count": false,
+    "nominee": false,
+    "original_queue_credit": 0
+  },
+  "integration": {
+    "status": "INTEGRATED_SOURCE_QUALIFICATION",
+    "baseline": "609edd2b7864ec939f9a620aa00bc8c7f08767f4",
+    "decision_id": "new-ergothioneine-muscle",
+    "source_author_files": {
+      "markdown": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ergothioneine-functional-followup-20260926/qualification.md",
+        "sha256": "54719931c141af17da6dbd5008ac49b3c08d8aac5c943bcb8fb44ca229925348"
+      },
+      "json": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ergothioneine-functional-followup-20260926/qualification.json",
+        "sha256": "b4cf0de7522209ec26175d3227b6311345307a6cdd2e44b50df3ccb19bdf7530"
+      },
+      "reading_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ergothioneine-functional-followup-20260926/reading-manifest.json",
+        "sha256": "5d0eab81e60a6c3422859bd17e37b1d02d8a0a5617181d75b61cb7191cba8f46"
+      },
+      "freeze_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ergothioneine-functional-followup-20260926/freeze-manifest.json",
+        "sha256": "8986e1d74369a6cddb28761e8a784499913e467b0b59ae7ccf1804f8605dbf3f"
+      }
+    },
+    "independent_check": {
+      "markdown": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ergothioneine-functional-followup-20260926/independent-check/independent-check.md",
+        "sha256": "50e6fcaf7bd4f11f5eea4b19b2e2eaf87a51fb9cbb0ea935a033bf25c8eeeccd"
+      },
+      "json": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ergothioneine-functional-followup-20260926/independent-check/independent-check.json",
+        "sha256": "9a321b614d7fc0091b86a3c420e2a22d72c69d785fc4cb124613c30a35022562"
+      },
+      "reading_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ergothioneine-functional-followup-20260926/independent-check/reading-manifest.json",
+        "sha256": "11cab60bd8c992c4937025425f7ecdc788a133b2d994e89b8d886d35ef7d7f13"
+      },
+      "freeze_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ergothioneine-functional-followup-20260926/independent-check/binding-manifest.json",
+        "sha256": "595debf0db7315789e06ce705aacc22e440affe4f1e26ecb59dbf42f33a0d93a"
+      }
+    },
+    "root_selected_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-function-expansion-20260926/root-ergothioneine-reading-in-progress.json",
+      "sha256": "a3a25efc1afa83354bef3aec4c977d94787cc767ba271856ba4a838c70bd3302"
+    },
+    "root_product_context": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-function-expansion-20260926/root-product-context.json",
+      "sha256": "2b5b535c520daaf065af8316e75646af0450ead8edfef212c662756a827f688b"
+    },
+    "source_scopes_not_inherited_as_root_reading": true,
+    "new_original_queue_credit": 0,
+    "no_nomination_change": true,
+    "raw_primary_assets_remain_external": true,
+    "independent_minor_source_discrepancies": [
+      "Figure8D star versus Results P-value",
+      "Figure13C duplicated axis label; caption/Results identify myogenin"
+    ]
+  }
+}

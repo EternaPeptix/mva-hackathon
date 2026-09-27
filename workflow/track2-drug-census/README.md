@@ -8,7 +8,7 @@ bounded UMK57 control findings, and preserves the later source corrections.
 
 The [food-substance inventory](food-substances/README.md) retains 3,971 FDA rows with explicit source-status flags. The current scientific comparisons are in the [decision report](decision-report.md).
 
-The ledger remains **247 appraisals**, with only NMN further refined and the other 246 decision objects unchanged. A [separate earlier NMN trial](nmn-igarashi2022-qualification.md) adds exploratory motor findings alongside the [previously qualified human trials](nmn-human-functional-qualification.md). Wrong-supplement dispensing excluded 22 of 42 week-12 datasets; the registered primary muscle index was nonpositive. The qualified positives and counterevidence do not establish a dose optimum or MVA efficacy. The preceding [D3 assessment](vitamin-d3-functional-qualification.md) retains a reported within-arm chair-rise positive with unverified controlled contrast, a qualified daily-trial primary leg-power null, and monthly active-comparator function nulls/falls signals. Calcifediol combination results remain separate; no generalized functional benefit or comparative MVA efficacy is established.
+The ledger now contains **250 appraisals**, adding [glycine alone](glycine-functional-qualification.md), [ergothioneine](ergothioneine-functional-qualification.md) and [Lovaza EPA+DHA ethyl esters](omega3-functional-qualification.md), with all 247 earlier decision objects unchanged. Lovaza has a controlled adult strength signal with completer and multiplicity limits; a distinct lower-dose fish-oil regimen was nonpositive. Glycine has a controlled body-composition signal and access-limited ICU functional descriptions; ergothioneine has mouse endurance evidence and a published abstract-level MPST report. Formulation, endpoint and source-depth differences remain explicit. These additions neither establish BUBR1 restoration or MVA superiority nor change the provisional nominations.
 
 The separate [NIH DSLD ingredient inventory](dsld-ingredients/README.md) preserves **6,467 source groups, 78,788 synonym cells and 85,255 total name/synonym cells**. Its **41,496 lexical matches, including 1,077 unflagged matches, provide no efficacy assessment** and confer no reading or appraisal credit. A separate first pass annotates six rows across four previously read abstracts, without new unique credit. Groups, label terms and matches are not unique drugs, verified chemical equivalents or additions to the main entity denominator. API version 9.5.0 (May 2026) and index-name suffix `2025-09-25n` are distinct source descriptors, not current-market or record-update guarantees.
 
@@ -446,7 +446,7 @@ The [intervention/endpoint qualification](intervention-qualification.md) checks
 all fourteen primary follow-ups from the final ranked selection. It resolves
 drug identities, genetic-versus-pharmacological effects, positive organ outcomes
 and control harm; it does not change the historical abstract-reading ledgers or
-claim full-text review of all ranked records. The current decision ledger contains
+claim full-text review of all ranked records. At that historical checkpoint, the decision ledger contained
 152 curated route/compound appraisals, including research tools and a combination
 RNA program rather than 152 approved medicines.
 
