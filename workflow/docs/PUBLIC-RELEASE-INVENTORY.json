@@ -12941,7 +12941,7 @@
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
     "reviewed_at_utc": "2026-09-22T02:51:50.650727+00:00",
-    "scope": "621 current payloads plus two self-referential audit documents; 497 original inventory decisions unchanged.",
+    "scope": "623 current payloads plus two self-referential audit documents; 497 original inventory decisions unchanged.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12954,7 +12954,7 @@
       "original_audit_bytes_sha256": "7fae846b1a22b88b05096372fa4fbbd9bbca7f27e23f725a2ff32ad1b6a2644b",
       "all_original_fields_unchanged": true
     },
-    "reviewed_payload_count": 621,
+    "reviewed_payload_count": 623,
     "report_tree_files": 32,
     "reviewed_files": [
       {
@@ -12978,7 +12978,7 @@
       {
         "path": "README.md",
         "bytes": 11678,
-        "sha256": "30ef6ddaeab2a00bbb19bc2607eed48b92451d596f2d0b1f0cf6c955b6f0cb55",
+        "sha256": "35e54d5ee80548d44218a03ae947f33c08c5f7674cd1b470bc99fe9aecf55afe",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13005,7 +13005,7 @@
       {
         "path": "reports/README.md",
         "bytes": 15308,
-        "sha256": "117d0e4de698b64275b47d6c3eea6824d7b27149267d39513bc322c411cd9bee",
+        "sha256": "07d5312a4541d67f05093e5006c9d87d4cba73cb8ab8db523d4b9be447ee72ca",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13017,7 +13017,7 @@
         "category": "review_navigation",
         "grounds": "Navigation for the human review of existing scientific material, media and the dated AI assessment; no new findings.",
         "bytes": 14458,
-        "sha256": "b05461b7f3c87b44a98f59e5e8746d444ba74909c4d1daababed8444c4aa5ab7",
+        "sha256": "5f817be30c5442bc00a38ee11f697c7b305627ce1a2a1f629b87f052152761ea",
         "mode": 420
       },
       {
@@ -13043,8 +13043,8 @@
         "decision": "keep",
         "category": "public_source_research_synthesis",
         "grounds": "Bounded synthesis of existing source appraisals; no new primary evidence, treatment advice or controlled case payload.",
-        "bytes": 34102,
-        "sha256": "9f517f9aa02e60ab46dffda83bd8da63f8101c83179540cade91cbda0e2223a2",
+        "bytes": 34839,
+        "sha256": "67334b26eb5ebe901708794180c0fd037218415326309074368afdbd09256a26",
         "mode": 420
       },
       {
@@ -13176,7 +13176,7 @@
       {
         "path": "reports/appendices/track2-route-decisions.md",
         "bytes": 107043,
-        "sha256": "c04951ceedb8a765ad923ef9980aacbd0b585fe71bd4f46bc1bbf29e1d167e22",
+        "sha256": "a86c004c7652db0e9e35d12badd20a34981797d04674e5d828c76b36788699c5",
         "mode": 420,
         "decision": "keep",
         "category": "scientific_route_comparison",
@@ -13203,7 +13203,7 @@
       {
         "path": "reports/jeweled_methods_form_answers.md",
         "bytes": 47482,
-        "sha256": "dfc3ddc5ce607008043421ea7c547adc57ddb44c9a8c9d6446cbc4e947d1b7e0",
+        "sha256": "dc3af58cc2471e8c238722589338c30e930319d65ec10eb9fa6c8a1151a31d36",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13239,7 +13239,7 @@
       {
         "path": "reports/jeweled_track2_report_submission.md",
         "bytes": 23447,
-        "sha256": "6d63f1077cae04486b8becfa0e404aaf35279044b22ee8fde2577155b4500f56",
+        "sha256": "738d2ff34a892f32724b39b0c41a307aa1a030baf5cd5d95d22aa991a7240e40",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13449,7 +13449,7 @@
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
         "bytes": 45912,
-        "sha256": "51d7e2b990b597229e9e28047173e1d61ab495c178265d3ed2bfecc3b1d9430c",
+        "sha256": "3dde907681af5e97ad6b734132431665b4f7d8520507a38229fa1937f76ed2ff",
         "mode": 420
       },
       {
@@ -13468,6 +13468,24 @@
         "grounds": "Public literature metadata and original per-record scientific assessments, public ChEMBL assay rows with source-license attribution, or validation/method source. No raw abstracts/full texts or controlled case payload; review scope and unresolved evidence explicit.",
         "bytes": 1254948,
         "sha256": "bf549392c8a9f273fd0a699663e0f9863427a71f7f08e39317486b77536a9c6f",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/ace031-dmd-qualification.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Root-accepted source qualification with actual source and independent reading scopes; raw primary assets remain external.",
+        "bytes": 36692,
+        "sha256": "8cfa909f701d4b080639c1e04290201efa221887b0e5b8ac631541d64ad9a74c",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/ace031-dmd-qualification.md",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Root-accepted source qualification with actual source and independent reading scopes; raw primary assets remain external.",
+        "bytes": 10104,
+        "sha256": "1b7e93b37152030f53b061f51a2e87dfcfcc59c38ba94ed1349902d560899380",
         "mode": 420
       },
       {
@@ -14285,8 +14303,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 2557083,
-        "sha256": "a948759a98a7077240f746fadae76f6a1b91d086d566e826173092519e4feb0c",
+        "bytes": 2557253,
+        "sha256": "e2e9a94e37647441b947e50c62fbb8b04c740b060acb8f8301214f9e5645fcc9",
         "mode": 420
       },
       {
@@ -14645,8 +14663,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 58029,
-        "sha256": "f89f16faeff79508a3c5406fbc268f81ee075be61f6fe55f24ae36dcdb387fdf",
+        "bytes": 58348,
+        "sha256": "1fdeded803139cb71872572282e07eb460064a08cf883e34dcdcb93f3e1c1be2",
         "mode": 420
       },
       {
@@ -14655,7 +14673,7 @@
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
         "bytes": 81537,
-        "sha256": "2ad858d3d3b74ca45ff4081f08c4df15837fc3953e79d7211259e2880d373d5f",
+        "sha256": "433ac7e0181a45f58e783e542e81b21e1fe0fa60696a4eb305900a41d2c5a4d0",
         "mode": 420
       },
       {
@@ -14663,8 +14681,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 498046,
-        "sha256": "a4cb99af54536ce69a3cc9e8170a1e48d617ef6c0df67011c702e4c1e77d5d70",
+        "bytes": 501415,
+        "sha256": "fd56808abad2db475dc7ef6de311a6f64eabf6202d216313daaf83e31f8b34c1",
         "mode": 420
       },
       {
@@ -14879,8 +14897,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
-        "bytes": 102371,
-        "sha256": "4c1670384a047dae53ef9d475255c17421a33344dc75fadb83e053aefe2fa03b",
+        "bytes": 102349,
+        "sha256": "58926d8f0ef88a2d54a07cc2bf773406997e1b52627b76f97a443d708a5970ae",
         "mode": 420
       },
       {
@@ -14915,8 +14933,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
-        "bytes": 17061,
-        "sha256": "5a460160ac49e22e90d18d99f92be2ff30ad768d8581ac1b6ace50e1964c118c",
+        "bytes": 16977,
+        "sha256": "3c0a9d6f4f4bb3e53d5e7cdff137ea707da3f01af110ad992f95728dc4da8bd9",
         "mode": 420
       },
       {
@@ -15239,8 +15257,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 36212,
-        "sha256": "473ce844ed76170d810d89c7efbab7ed8d02e66c125f4d432fd6bbce90faf7c0",
+        "bytes": 36253,
+        "sha256": "efc0a50ff9b234bd01808e02884b56b848f13b073e422c167ff25aba2c38ea25",
         "mode": 420
       },
       {
@@ -15258,7 +15276,7 @@
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
         "bytes": 2696,
-        "sha256": "2b352a20815813e5a6083e5d59358cd98c8983a8a4caa948657415e33484a6c1",
+        "sha256": "e9b59b3ddbaa0f416a3754d735e7a59b23cd3f1df7abfeb4b6558aa527ec0637",
         "mode": 420
       },
       {
@@ -16328,8 +16346,8 @@
         "decision": "keep",
         "category": "public_source_discovery_documentation",
         "grounds": "Root-approved bounded query-collection and pilot-eligibility documentation; no efficacy or complete scientific-reading credit.",
-        "bytes": 48242,
-        "sha256": "45969e3bab2dd4bc345f587d95c94b8143819e2c469538a6ac84c93e6c3ae152",
+        "bytes": 72082,
+        "sha256": "09540b3e5baaf210cb3b44166341f0c99868e4be22f1c6cafd086c6794019b89",
         "mode": 420
       },
       {
@@ -16337,8 +16355,8 @@
         "decision": "keep",
         "category": "public_source_discovery_documentation",
         "grounds": "Root-approved bounded query-collection and pilot-eligibility documentation; no efficacy or complete scientific-reading credit.",
-        "bytes": 7042,
-        "sha256": "4048e9430c6f5c99a09750423ed3da04bdc7e43becc60f973a83e723d2a1b979",
+        "bytes": 7883,
+        "sha256": "f1c048ca321319c7c596a0451ddad1d6df3b37bcedf3b1df1b5cd0943021ab11",
         "mode": 420
       },
       {
@@ -16967,8 +16985,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 114570,
-        "sha256": "2f80db56c0903801b45ab68a4813ee2a2fe320baec42cea95634973aec60dc87",
+        "bytes": 117038,
+        "sha256": "42890d026e19745d9c77ddb20828f76479168dd12336ba21a9781b57330bcacc",
         "mode": 420
       },
       {
@@ -17346,7 +17364,7 @@
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
         "bytes": 2739,
-        "sha256": "d0863f9f4bc85a560b769a349f8df3fa289b411d9880c0795543e955f5bad61b",
+        "sha256": "cc8710fa0d05d62af2a8703613e8670029c2d4917ce31bcde811094da15b2d59",
         "mode": 420
       },
       {
@@ -17805,7 +17823,7 @@
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
         "bytes": 3827,
-        "sha256": "2c24f62217e6b9e2c91483a3d1f8abd03481e4928a2a1a5cc065de99adcac47c",
+        "sha256": "3104c8153c04fb41c112decc401938047ef0981a1984a4f7b7026d2ea39c4aee",
         "mode": 420
       },
       {
@@ -20972,6 +20990,58 @@
         "refined": 19
       },
       "all_FDA_SGC_NIH_outputs_byte_identical": true,
+      "new_original_queue_reading_credit": 0
+    },
+    "ace031_dmd_followup_20260927": {
+      "baseline": "b0159563c86bd0129937cac134caded34b67e5fb",
+      "appraisals": 277,
+      "added_ids": [
+        "new-ace031-dmd"
+      ],
+      "refined_ids": [],
+      "prior_unchanged": 276,
+      "new_portable_files": [
+        "workflow/track2-drug-census/ace031-dmd-qualification.json",
+        "workflow/track2-drug-census/ace031-dmd-qualification.md"
+      ],
+      "original_inventory_fields_unchanged": true,
+      "PR1": {
+        "retained": 109,
+        "unchanged": 90,
+        "refined": 19
+      },
+      "replay_deltas": {
+        "food-substances": {
+          "changed_output_tables": [],
+          "unchanged_output_tables": [
+            "substances.tsv",
+            "mentions.tsv"
+          ]
+        },
+        "sgc-probes": {
+          "changed_output_tables": [],
+          "unchanged_output_tables": [
+            "source-rows.tsv",
+            "probes.tsv",
+            "controls.tsv",
+            "mentions.tsv"
+          ]
+        },
+        "dsld-ingredients": {
+          "changed_output_tables": [],
+          "unchanged_output_tables": [
+            "alias-cells.tsv",
+            "groups.tsv",
+            "mentions.tsv",
+            "metadata-anomalies.json",
+            "name-crossrefs.tsv",
+            "normalized-aliases.tsv",
+            "screen-policy.json",
+            "source-records.tsv"
+          ]
+        }
+      },
+      "prior_source_fields_and_relations_retained": true,
       "new_original_queue_reading_credit": 0
     }
   }

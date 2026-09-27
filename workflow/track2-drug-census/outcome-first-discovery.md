@@ -33,22 +33,24 @@ The original pilot left **56,177 collection records unscreened by that pilot**. 
 
 ## Current eligibility coverage
 
-Three further batches of 40, 40 and 80 records bring screening to **200 disjoint source/ID records**, leaving **56,017 unscreened**. The latest batch includes 79 complete available abstracts and one title/metadata-only record. Review order still uses design, administration and function terms within the same query strata; the doubled batch preserves their proportions and does not prioritize favorable results. Every unselected record remains queued.
+Four further batches of 40, 40, 80 and 160 records bring screening to **360 disjoint source/ID records**, leaving **55,857 unscreened**. All 160 latest records have complete saved abstracts. Review order still uses design, administration and function terms within the same query strata; the doubled batch preserves their proportions and does not prioritize favorable results. Every unselected record remains queued.
 
-| Route at recorded source depth | Batch 2 | Batch 3 | Batch 4 |
-|---|---:|---:|---:|
-| Controlled human functional reports | 21 | 23 | 37 |
-| Uncontrolled human functional reports | 0 | 2 | 4 |
-| Human mass/mechanism reports | 2 | 1 | 3 |
-| Preclinical functional reports | 2 | 3 | 3 |
-| Preclinical mechanism reports | 1 | 0 | 1 |
-| Context, reviews or protocols | 13 | 11 | 29 |
-| Unresolved | 1 | 0 | 3 |
+| Route at recorded source depth | Batch 2 | Batch 3 | Batch 4 | Batch 5 |
+|---|---:|---:|---:|---:|
+| Controlled human functional reports | 21 | 23 | 37 | 96 |
+| Uncontrolled human functional reports | 0 | 2 | 4 | 2 |
+| Human mass/mechanism reports | 2 | 1 | 3 | 8 |
+| Preclinical functional reports | 2 | 3 | 3 | 8 |
+| Preclinical mechanism reports | 1 | 0 | 1 | 1 |
+| Context, reviews or protocols | 13 | 11 | 29 | 42 |
+| Unresolved | 1 | 0 | 3 | 3 |
 
-Eight records in each preceding forty-record batch and twenty-four in the latest batch received a second scientific check. Identities and literal source anchors were checked for all records. Measured function with an omitted treatment estimate remains eligible for follow-up; it is neither a demonstrated benefit nor an absence of functional measurement. Clinical scales, fatigue symptoms, direct force and tissue mechanics remain separately labeled. Mixture, active-dose and rehabilitation comparisons cannot establish isolated ingredient effects.
+Eight records in each forty-record batch, twenty-four in the eighty-record batch and twenty-two in the latest batch received a second scientific check. The latest checks comprise sixteen predeclared interval samples and six flagged boundaries. Identities, literal source anchors and notice metadata were checked for all 160 records. These were bounded source checks with reader discussion, not a blind double review of every record. Measured function with an omitted treatment estimate remains eligible for follow-up; it is neither a demonstrated benefit nor an absence of functional measurement. Clinical scales, fatigue symptoms, direct force and tissue mechanics remain separately labeled. Mixture, active-dose and rehabilitation comparisons cannot establish isolated ingredient effects.
 
-The latest batch retains a retracted Danhong stroke paper as context without supporting efficacy credit. A beef/whey report lacks a saved abstract, and a multi-study hip-fracture report lacks a resolved nutritional comparison. A controlled sepsis mortality report remains unresolved for the current routing definitions; its clinical evidence is preserved rather than mislabeled as a biomarker or muscle result. Corrections, notices and possible shared populations remain attached to their records.
+Three latest records remain unresolved: the ASPIRO analysis mixes external and undosed delayed-treatment controls after design changes; a postoperative steroid-mixture report does not establish concurrent arm structure; an oncology trial's progression/survival endpoints fall outside the current function-versus-biomarker categories. Their reported benefits, nulls and harms remain in the source notes. Prior retraction flags, missing abstracts and unresolved cases remain retained. No compound-wide negative follows from routing or omitted results.
 
 Targeted follow-ups include [methylcobalamin in ALS](methylcobalamin-als-qualification.md), [sildenafil in dystrophinopathy](sildenafil-dystrophinopathy-qualification.md), [creatine in adult inflammatory myopathy and aging](creatine-inflammatory-myopathy-qualification.md), and [L-glutamine in DMD](glutamine-dmd-qualification.md). They retain functional benefits, counterevidence and exploratory signals at their recorded reading depths. Witting's sildenafil main remains partial. The separate [methylcobalamin product-history note](methylcobalamin-regulatory-note.md) adds no clinical-efficacy or screening credit.
+
+[ACE-031 in DMD](ace031-dmd-qualification.md) is now qualified from the complete original abstract and current official registry. It supplies a nonsignificant walking trend and clinical stopping concerns, with separate sponsor-attributed animal-toxicity context. The full paper, native outcomes and animal studies remain unread; this does not establish class-wide harm or apitegromab superiority in MVA. A 2003 DMD/BMD creatine crossover and the geriatric metformin report are further source questions, with no qualification credit yet.
 
 The independent PASS concerns retrieval and bounded review fidelity. It does not establish that every drug or common compound has been enumerated, that every report has been read, or that the nominated candidates are superior.

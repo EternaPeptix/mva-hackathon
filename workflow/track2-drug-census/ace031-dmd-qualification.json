@@ -1,0 +1,1063 @@
+{
+  "schema_version": "ace031-dmd-portable-qualification-v1",
+  "status": "ACCEPTED_SOURCE_PORTABLE_SYNTHESIS_PROPOSED",
+  "source_qualification": {
+    "schema_version": "ace031-dmd-access-limited-primary-qualification-v2",
+    "status": "ABSTRACT_AND_CURRENT_REGISTRY_QUALIFIED_FULL_MAIN_ACCESS_LIMIT_PENDING_REVIEW",
+    "date": "2026-09-27",
+    "source": {
+      "pmid": "27462804",
+      "doi": "10.1002/mus.25268",
+      "title": "Myostatin inhibitor ACE-031 treatment of ambulatory boys with Duchenne muscular dystrophy: Results of a randomized, placebo-controlled clinical trial.",
+      "publication": "Muscle & Nerve2017;55:458–464",
+      "original_abstract": "Complete original abstract from EuropePMC core and publisher reader; no full main.",
+      "paper_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mus.25268"
+    },
+    "registry": {
+      "id": "NCT01099761",
+      "study_id": "A031-03",
+      "url": "https://clinicaltrials.gov/study/NCT01099761",
+      "identity_link_limit": "The current official NCT01099761 registry directly links PMID 27462804 in its IPD-sharing description. The abstract does not print the NCT identifier and referencesModule is absent, but these do not negate the explicit link. Numerical findings remain registry-attributed because the paper main, tables and figures were not obtained or verified.",
+      "has_results": true,
+      "historical_fields_or_protocol_read": false,
+      "identity_link_evidence": {
+        "source_file": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ace031-dmd-primary-20260927/raw/registry-current.json",
+        "json_pointer": "/protocolSection/ipdSharingStatementModule/description",
+        "linked_publication_url": "https://www.ncbi.nlm.nih.gov/pubmed/27462804",
+        "direction": "Official registry to original publication PMID",
+        "scope": "Establishes an explicit registry-publication link; does not verify the article main, analyses, native outcomes or historical registry fields."
+      }
+    },
+    "full_requested_main_native_depth_achieved": false,
+    "existing_decision_id": null,
+    "new_decision_or_alias_proposed": false,
+    "baseline": {
+      "revision": "860bfcf45778079777419f552a47e30a4ad405fb",
+      "appraisals": 276,
+      "repo_relative": "workflow/track2-drug-census/decisions.json",
+      "bytes": 493636,
+      "sha256": "4f7b6e1973e2d6f420e07cbd0a0ba6379efa65a2a536877abc968e832f64995d",
+      "scope": "Immutable committed object only; no live worktree certification."
+    },
+    "existing_identity_check": [
+      {
+        "term": "ACE-031",
+        "exact_normalized_alias_matches": [],
+        "normalized_literal_object_mentions": []
+      },
+      {
+        "term": "ACE031",
+        "exact_normalized_alias_matches": [],
+        "normalized_literal_object_mentions": []
+      },
+      {
+        "term": "ACE 031",
+        "exact_normalized_alias_matches": [],
+        "normalized_literal_object_mentions": []
+      },
+      {
+        "term": "ramatercept",
+        "exact_normalized_alias_matches": [],
+        "normalized_literal_object_mentions": []
+      },
+      {
+        "term": "27462804",
+        "exact_normalized_alias_matches": [],
+        "normalized_literal_object_mentions": []
+      },
+      {
+        "term": "10.1002/mus.25268",
+        "exact_normalized_alias_matches": [],
+        "normalized_literal_object_mentions": []
+      },
+      {
+        "term": "NCT01099761",
+        "exact_normalized_alias_matches": [],
+        "normalized_literal_object_mentions": []
+      }
+    ],
+    "discovery": {
+      "batch": "outcome-first-eligibility-batch02-20260927",
+      "order": 8,
+      "source_id": "MED:27462804",
+      "selection": "Predeclared design/administration/function lexical flags and seeded ordering; no outcome-direction scoring."
+    },
+    "intervention_identity": {
+      "source_name": "ACE-031",
+      "construct": "Activin type IIB receptor–IgG1-Fc fusion protein binding myostatin and related ligands, as original abstract states.",
+      "identity_source_depth": "Abstract only, supported by registry ActRIIB-IgG1 title; no sequence/formulation/ligand-panel qualification.",
+      "formulation_batch_purity_or_retail_equivalence": "Not established.",
+      "ramatercept": "Lookup term only; not source-established or proposed as an alias here.",
+      "off_target_causal_mechanism_established": false
+    },
+    "design_and_exposure": {
+      "population": "Ambulant DMD males age≥4, prior corticosteroids≥1year, stable dose/schedule≥6months; clinical weakness. All24 registry baseline participants male/≤18years/Canada/10m<12s. Exact ages and balance unavailable.",
+      "design": "Randomized,double-blind abstract; current registry quadruple masking/multiple ascending-dose parallel study. Allocation, concealment, cohort pooling and statistical details unavailable.",
+      "dosed_arms": [
+        {
+          "label": "0.5 mg/kg q4wk",
+          "route": "subcutaneous",
+          "planned_treatment_weeks": 12,
+          "started": 9,
+          "completed": 9
+        },
+        {
+          "label": "1.0 mg/kg q2wk",
+          "route": "subcutaneous",
+          "planned_treatment_weeks": 12,
+          "started": 9,
+          "completed": 9
+        },
+        {
+          "label": "matching-volume placebo q2or4wk",
+          "route": "subcutaneous",
+          "planned_treatment_weeks": 12,
+          "started": 6,
+          "completed": 6
+        }
+      ],
+      "unenrolled_arm": {
+        "label_as_reported": "ACE-031 ACE-03 2.5 mg/kg q4wk",
+        "started": 0,
+        "completed": 0,
+        "reason": "Study terminated prior to enrolling cohort3. No efficacy/safety denominator."
+      },
+      "randomized_or_started_total": 24,
+      "registry_completed_total": 24,
+      "actual_injection_counts_or_full_dose_completion": "Not established from posted flow.",
+      "outcome_timeframe_as_registered": "Baseline to end-of-study, approximately24weeks",
+      "safety_timeframe": "24weeks=12weeks treatment+12weeks follow-up",
+      "missingness_limit": "All outcome totals show9/9/6; no walking age-stratum n or detailed analysis/imputation populations supplied."
+    },
+    "hierarchy": {
+      "primary": "Safety: at least possibly related clinical and laboratory adverse reactions.",
+      "secondary": "Lean mass,BMD,myometry,6MWT,10mwalk/run,FVC,MIP,MEP; PK/PD objectives in abstract. Not a confirmed functional-primary trial.",
+      "multiplicity_power_and_SAP": "Unverified without original main/protocol/SAP."
+    },
+    "registry_outcomes_as_reported": [
+      {
+        "type": "PRIMARY",
+        "title": "Number of Subjects With Adverse Reactions.",
+        "unit": "Number of subjects",
+        "param_type": "NUMBER",
+        "dispersion": null,
+        "time_frame": "From treatment initiation to End-of-Study Visit, approximately 24 weeks later",
+        "group_labels": {
+          "OG000": "ACE-031 0.5 mg/kg q4wk",
+          "OG001": "ACE-031 1.0 mg/kg q2wk",
+          "OG002": "Placebo"
+        },
+        "denominators": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "OG000",
+                "value": "9"
+              },
+              {
+                "groupId": "OG001",
+                "value": "9"
+              },
+              {
+                "groupId": "OG002",
+                "value": "6"
+              }
+            ]
+          }
+        ],
+        "reported_values": [
+          {
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "1"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "6"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses_as_posted": []
+      },
+      {
+        "type": "PRIMARY",
+        "title": "Number of Subjects With Clinical Laboratory Adverse Reactions.",
+        "unit": "Number of subjects",
+        "param_type": "NUMBER",
+        "dispersion": null,
+        "time_frame": "Baseline to End-of-Study Visit, approximately 24 weeks later.",
+        "group_labels": {
+          "OG000": "ACE-031 0.5 mg/kg q4wk",
+          "OG001": "ACE-031 1.0 mg/kg q2wk",
+          "OG002": "Placebo"
+        },
+        "denominators": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "OG000",
+                "value": "9"
+              },
+              {
+                "groupId": "OG001",
+                "value": "9"
+              },
+              {
+                "groupId": "OG002",
+                "value": "6"
+              }
+            ]
+          }
+        ],
+        "reported_values": [
+          {
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "0"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "0"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses_as_posted": []
+      },
+      {
+        "type": "SECONDARY",
+        "title": "Percent Change in Total Lean Body Mass by DXA Scan.",
+        "unit": "percentage change in lean body mass",
+        "param_type": "MEAN",
+        "dispersion": "Standard Error",
+        "time_frame": "Baseline to End-of-Study Visit, approximately 24 weeks later.",
+        "group_labels": {
+          "OG000": "ACE-031 0.5 mg/kg q4wk",
+          "OG001": "ACE-031 1.0 mg/kg q2wk",
+          "OG002": "Placebo"
+        },
+        "denominators": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "OG000",
+                "value": "9"
+              },
+              {
+                "groupId": "OG001",
+                "value": "9"
+              },
+              {
+                "groupId": "OG002",
+                "value": "6"
+              }
+            ]
+          }
+        ],
+        "reported_values": [
+          {
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "3.6",
+                    "spread": "1.3"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "4.1",
+                    "spread": "1.5"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "2.6",
+                    "spread": "1.8"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses_as_posted": [
+          {
+            "groupIds": [
+              "OG000"
+            ],
+            "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+            "pValue": "0.023",
+            "statisticalMethod": "ANCOVA",
+            "ciNumSides": "TWO_SIDED"
+          },
+          {
+            "groupIds": [
+              "OG001"
+            ],
+            "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+            "pValue": "0.012",
+            "statisticalMethod": "ANCOVA",
+            "ciNumSides": "TWO_SIDED"
+          },
+          {
+            "groupIds": [
+              "OG002"
+            ],
+            "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+            "pValue": "0.435",
+            "statisticalMethod": "ANCOVA",
+            "ciNumSides": "TWO_SIDED"
+          }
+        ]
+      },
+      {
+        "type": "SECONDARY",
+        "title": "Percent Change in Lumbar Spine Bone Mineral Density by DXA Scan.",
+        "unit": "percentage change from baseline",
+        "param_type": "MEAN",
+        "dispersion": "Standard Error",
+        "time_frame": "Baseline to End-of-Study Visit, approximately 24 weeks later.",
+        "group_labels": {
+          "OG000": "ACE-031 0.5 mg/kg q4wk",
+          "OG001": "ACE-031 1.0 mg/kg q2wk",
+          "OG002": "Placebo"
+        },
+        "denominators": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "OG000",
+                "value": "9"
+              },
+              {
+                "groupId": "OG001",
+                "value": "9"
+              },
+              {
+                "groupId": "OG002",
+                "value": "6"
+              }
+            ]
+          }
+        ],
+        "reported_values": [
+          {
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "1.6",
+                    "spread": "1.8"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "4.4",
+                    "spread": "1.5"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "0.3",
+                    "spread": "4.4"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses_as_posted": [
+          {
+            "groupIds": [
+              "OG001"
+            ],
+            "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+            "pValue": "0.039",
+            "statisticalMethod": "ANCOVA",
+            "ciNumSides": "TWO_SIDED"
+          }
+        ]
+      },
+      {
+        "type": "SECONDARY",
+        "title": "Percent Change in Muscle Strength Score by Hand-held Myometry.",
+        "unit": "percentage change from baseline",
+        "param_type": "MEAN",
+        "dispersion": "Standard Deviation",
+        "time_frame": "Baseline to End-of-Study Visit, approximately 24 weeks later.",
+        "group_labels": {
+          "OG000": "ACE-031 0.5 mg/kg q4wk",
+          "OG001": "ACE-031 1.0 mg/kg q2wk",
+          "OG002": "Placebo"
+        },
+        "denominators": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "OG000",
+                "value": "9"
+              },
+              {
+                "groupId": "OG001",
+                "value": "9"
+              },
+              {
+                "groupId": "OG002",
+                "value": "6"
+              }
+            ]
+          }
+        ],
+        "reported_values": [
+          {
+            "title": "Elbow extension (kg)",
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "0.3",
+                    "spread": "3.2"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "0.1",
+                    "spread": "2.3"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "-0.1",
+                    "spread": "2.1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Elbow flexion (kg)",
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "-0.4",
+                    "spread": "3.4"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "-0.7",
+                    "spread": "2.6"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "0.3",
+                    "spread": "3.1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Knee extension (kg)",
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "-3.6",
+                    "spread": "4.4"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "-3.3",
+                    "spread": "4.4"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "-3.7",
+                    "spread": "5.0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Knee flexion (kg)",
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "-2.2",
+                    "spread": "3.1"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "-1.9",
+                    "spread": "4.1"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "-1.2",
+                    "spread": "3.9"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses_as_posted": []
+      },
+      {
+        "type": "SECONDARY",
+        "title": "Change in Distance Traveled in 6 Minutes (Standardized 6-Minute-Walk Test).",
+        "unit": "change (m) in 6MWT from baseline",
+        "param_type": "MEAN",
+        "dispersion": "Standard Deviation",
+        "time_frame": "Baseline to End-of-Study Visit, approximately 24 weeks later.",
+        "group_labels": {
+          "OG000": "ACE-031 0.5 mg/kg q4wk",
+          "OG001": "ACE-031 1.0 mg/kg q2wk",
+          "OG002": "Placebo"
+        },
+        "denominators": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "OG000",
+                "value": "9"
+              },
+              {
+                "groupId": "OG001",
+                "value": "9"
+              },
+              {
+                "groupId": "OG002",
+                "value": "6"
+              }
+            ]
+          }
+        ],
+        "reported_values": [
+          {
+            "title": "<10 years of age at baseline",
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "43.8",
+                    "spread": "61.5"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "2.5",
+                    "spread": "35.6"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "5.2",
+                    "spread": "23.6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": ">=10 years of age at baseline",
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "4.5",
+                    "spread": "37.6"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "-3.2",
+                    "spread": "35.5"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "-47.6",
+                    "spread": "34.5"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses_as_posted": []
+      },
+      {
+        "type": "SECONDARY",
+        "title": "Change From Baseline in Time to Travel 10 Meters (Standardized 10-Meter-Walk/Run Test).",
+        "unit": "Change (sec) in 10MWT from baseline",
+        "param_type": "MEAN",
+        "dispersion": "Standard Deviation",
+        "time_frame": "Baseline to End-of-Study Visit, approximately 24 weeks later.",
+        "group_labels": {
+          "OG000": "ACE-031 0.5 mg/kg q4wk",
+          "OG001": "ACE-031 1.0 mg/kg q2wk",
+          "OG002": "Placebo"
+        },
+        "denominators": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "OG000",
+                "value": "9"
+              },
+              {
+                "groupId": "OG001",
+                "value": "9"
+              },
+              {
+                "groupId": "OG002",
+                "value": "6"
+              }
+            ]
+          }
+        ],
+        "reported_values": [
+          {
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "0.7",
+                    "spread": "0.9"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "0.7",
+                    "spread": "0.9"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "1.0",
+                    "spread": "0.8"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses_as_posted": []
+      },
+      {
+        "type": "SECONDARY",
+        "title": "Change in Pulmonary Function Tests (FVC)",
+        "unit": "Liters",
+        "param_type": "MEAN",
+        "dispersion": "Standard Deviation",
+        "time_frame": "Baseline to End-of-Study Visit, approximately 24 weeks later.",
+        "group_labels": {
+          "OG000": "ACE-031 0.5 mg/kg q4wk",
+          "OG001": "ACE-031 1.0 mg/kg q2wk",
+          "OG002": "Placebo"
+        },
+        "denominators": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "OG000",
+                "value": "9"
+              },
+              {
+                "groupId": "OG001",
+                "value": "9"
+              },
+              {
+                "groupId": "OG002",
+                "value": "6"
+              }
+            ]
+          }
+        ],
+        "reported_values": [
+          {
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "0.1",
+                    "spread": "0.2"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "0.1",
+                    "spread": "0.1"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "0.1",
+                    "spread": "0.2"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses_as_posted": []
+      },
+      {
+        "type": "SECONDARY",
+        "title": "Change in Pulmonary Function Test (MIP)",
+        "unit": "cm H2O",
+        "param_type": "MEAN",
+        "dispersion": "Standard Deviation",
+        "time_frame": "Baseline to End-of-Study Visit. approximately 24 weeks",
+        "group_labels": {
+          "OG000": "ACE-031 0.5 mg/kg q4wk",
+          "OG001": "ACE-031 1.0 mg/kg q2wk",
+          "OG002": "Placebo"
+        },
+        "denominators": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "OG000",
+                "value": "9"
+              },
+              {
+                "groupId": "OG001",
+                "value": "9"
+              },
+              {
+                "groupId": "OG002",
+                "value": "6"
+              }
+            ]
+          }
+        ],
+        "reported_values": [
+          {
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "17.2",
+                    "spread": "17.2"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "8.7",
+                    "spread": "7.6"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "8.8",
+                    "spread": "22.1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses_as_posted": []
+      },
+      {
+        "type": "SECONDARY",
+        "title": "Change in Pulmonary Function Test (MEP)",
+        "unit": "cm H2O",
+        "param_type": "MEAN",
+        "dispersion": "Standard Deviation",
+        "time_frame": "Baseline to End-of-Stuidy Visit, approximately 24 weeks",
+        "group_labels": {
+          "OG000": "ACE-031 0.5 mg/kg q4wk",
+          "OG001": "ACE-031 1.0 mg/kg q2wk",
+          "OG002": "Placebo"
+        },
+        "denominators": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "OG000",
+                "value": "9"
+              },
+              {
+                "groupId": "OG001",
+                "value": "9"
+              },
+              {
+                "groupId": "OG002",
+                "value": "6"
+              }
+            ]
+          }
+        ],
+        "reported_values": [
+          {
+            "categories": [
+              {
+                "measurements": [
+                  {
+                    "groupId": "OG000",
+                    "value": "11.9",
+                    "spread": "12.5"
+                  },
+                  {
+                    "groupId": "OG001",
+                    "value": "0.8",
+                    "spread": "3.9"
+                  },
+                  {
+                    "groupId": "OG002",
+                    "value": "5.8",
+                    "spread": "12.1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "analyses_as_posted": []
+      }
+    ],
+    "analysis_interpretation": {
+      "walking": "Abstract explicitly describes non-significant6MWT maintenance trend. Registry age-stratified descriptive values supply no formal between-arm P/CI or interaction.",
+      "mass_BMD": "Lean-mass ANCOVA P=.023/.012/.435 attached separately to one group each; BMD P=.039 likewise higher-dose group only. Comparison definition absent: do not label them verified active-placebo positives or definitively within-arm tests.",
+      "strength": "No posted inferential tests; percentage-change title/unit conflicts with category labels kg. Formal strength null unverified.",
+      "fat_mass": "Abstract trend only; numeric fat-mass data not recovered.",
+      "other_function": "10m walk/run and respiratory means/SD retained; no posted inferential analyses.",
+      "no_reconstructed_estimates": true,
+      "no_mass_to_function_or_renewal_inference": true
+    },
+    "safety": {
+      "primary_related_reactions_low_high_placebo": [
+        1,
+        6,
+        0
+      ],
+      "primary_related_laboratory_reactions": [
+        0,
+        0,
+        0
+      ],
+      "at_risk": [
+        9,
+        9,
+        6
+      ],
+      "serious": [
+        0,
+        0,
+        0
+      ],
+      "nonserious_reported_affected": [
+        3,
+        6,
+        3
+      ],
+      "events": {
+        "injection_site_erythema": [
+          3,
+          6,
+          3
+        ],
+        "epistaxis": [
+          1,
+          5,
+          0
+        ],
+        "telangiectasia": [
+          0,
+          5,
+          0
+        ],
+        "headache": [
+          1,
+          3,
+          1
+        ]
+      },
+      "nonserious_frequency_threshold_percent": 5,
+      "category_overlap": "No sum of categories into unique children. Related reactions differ from all reported nonserious events.",
+      "paper_abstract": "No serious or severe adverse events; trial stopped after second regimen due to potential epistaxis/telangiectasia concerns.",
+      "registry_termination": "Based on preliminary safety data.",
+      "unknowns": [
+        "Detailed grading,time-to-onset,duration/reversibility",
+        "Individual causality",
+        "Exposure-adjusted risk",
+        "Specific ligand/off-target mechanism"
+      ],
+      "class_wide_or_MVA_harm_inferred": false,
+      "registry_ipd_termination_context": {
+        "source_file": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ace031-dmd-primary-20260927/raw/registry-current.json",
+        "json_pointer": "/protocolSection/ipdSharingStatementModule/description",
+        "attribution": "Sponsor statement in the current official registry IPD-sharing description",
+        "summary": "The sponsor states that premature termination followed concerns for potential adverse drug reactions with long-term use identified in chronic animal toxicity studies.",
+        "relation_to_original_abstract": "Additional, separately attributed stopping context; the original abstract still attributes stopping after the second regimen to potential epistaxis and telangiectasia concerns. The available sources do not resolve the relative roles or timing of the clinical and animal findings.",
+        "underlying_animal_studies_obtained_or_qualified": false,
+        "specific_mechanism_class_or_MVA_harm_inferred": false
+      }
+    },
+    "planning": {
+      "first_submit": "2010-04-02",
+      "first_post": "2010-04-08",
+      "start_month": "2010-04",
+      "completion": "2011-06",
+      "results_first_post": "2016-10-14",
+      "latest_posted_update": "2022-10-13",
+      "prospective_registration_before_every_participant": "Unresolved from month-only start.",
+      "protocol_SAP_supplement": "None obtained; current documentSection absent. Nonavailability is not proof of nonexistence."
+    },
+    "disclosure": {
+      "registry_sponsor": "Acceleron Pharma, current record names Merck subsidiary",
+      "publisher_affiliations": "Several coauthors affiliated with Acceleron.",
+      "full_funding_and_COI": "Unread with inaccessible main."
+    },
+    "notices": {
+      "current_core_commentCorrectionList": null,
+      "accessible_publisher_notice": "No article-specific notice identified in retained abstract/reference representation.",
+      "exhaustive_notice_or_live_Crossmark_audit": false
+    },
+    "comparative_context": {
+      "baseline_apitegromab_object": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ace031-dmd-primary-20260927/baseline-apitegromab-context.json",
+        "bytes": 1445,
+        "sha256": "0f703c391dbc407e638c7875069aaf8e28c172ff320e0ca4090f1bfda0dbdeb7"
+      },
+      "reading_role": "Existing committed appraisal context only; no new apitegromab source reading.",
+      "assessment": "Existing leader has a recorded randomized SMA motor-function signal with its own limits; accessible ACE-031 sources establish no positive controlled functional contrast. No head-to-head, DMD/MVA-superiority or mechanism-specificity-based safety ranking is inferred.",
+      "same_compensation_criteria": true,
+      "new_nomination": false
+    },
+    "reading_scope": "Complete original abstract and the previously recorded relevant current registry protocol/results modules, plus a targeted complete reading of the IPD-sharing statement during v2 correction. No scientific main, native figures/tables, supplement, original protocol/SAP or underlying animal toxicity study was obtained/read.",
+    "new_original_queue_credit": 0,
+    "new_full_corpus_screening_credit": 0,
+    "repository_edits_joins_tests_replays_publication": false,
+    "clinical_regimen_recommendation": false
+  },
+  "historical_source_metadata_notice": "The nested object is the exact accepted correction-v2 qualification, including its historical 860bfcf/276 identity lookup and pending-review/source-stage no-entry fields. Independent source ACCEPT and the current b0159563/276 to 277 proposal are separately recorded below. Those historical fields are not a current ledger or synthesis status claim.",
+  "source_acceptance": {
+    "status": "ACCEPT",
+    "required_corrections": [],
+    "corrected_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ace031-dmd-primary-20260927/correction-v2/final-bindings.json",
+      "bytes": 4186,
+      "sha256": "c1eaf6f70d4f8143e893a7b0b5901618ea649e0429657175ecea3029c71c6c1c"
+    },
+    "independent_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ace031-dmd-primary-20260927/independent-review/final-bindings.json",
+      "bytes": 10511,
+      "sha256": "561aaf4e2144afd8e3012dc257d69dbab70c7e0962cd7f9a1a1b9445f0543dcb"
+    },
+    "review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ace031-dmd-primary-20260927/independent-review/review.json",
+      "bytes": 4499,
+      "sha256": "ce5ab4579467a8a015268a4da4269e13617aa7a715cc39fb58e2d62476264f7e"
+    }
+  },
+  "reading_attribution": {
+    "source_producer": "Complete original abstract and recorded relevant current registry modules plus targeted complete IPD-sharing statement. No full main, native tables/figures, protocol/SAP, supplement or animal toxicology source read.",
+    "independent_source_review": "Complete original abstract and entire saved current registry JSON, including all posted outcome structures and IPD statement; no main/native/protocol/animal source credit.",
+    "portable_synthesis": "Accepted corrected MD/JSON, independent review and immutable current ledger/alias/document metadata read. No new original-source reading."
+  },
+  "current_identity_check": {
+    "baseline": "b0159563c86bd0129937cac134caded34b67e5fb",
+    "source_aliases": [
+      "ACE-031"
+    ],
+    "normalization": "Exact current literature_match.py normalize: NFKC, HTML removal/unescape, casefold, Unicode alphanumeric tokens separated by spaces.",
+    "exact_catalog_alias_rows": [
+      {
+        "catalog_id": "CHEMBL2108674",
+        "source": "ChEMBL",
+        "source_id": "CHEMBL2108674",
+        "alias_type": "RESEARCH_CODE",
+        "alias": "ACE-031"
+      },
+      {
+        "catalog_id": "CHEMBL2108674",
+        "source": "ChEMBL",
+        "source_id": "CHEMBL2108674",
+        "alias_type": "TRADE_NAME",
+        "alias": "Ace-031"
+      }
+    ],
+    "catalog_record": {
+      "catalog_id": "CHEMBL2108674",
+      "preferred_name": "RAMATERCEPT",
+      "chembl_ids": "[\"CHEMBL2108674\"]",
+      "drugcentral_ids": "[]",
+      "max_phase": "2.0",
+      "withdrawn_flag": "False",
+      "first_approval_years": "[]",
+      "molecule_types": "[\"Protein\"]",
+      "veterinary_flags": "[0]",
+      "drugcentral_approval_agencies": "[]",
+      "inclusion_basis": "[\"ChEMBL_max_phase_ge_1\"]",
+      "inchikeys": "[]",
+      "atc_codes": "[]",
+      "chembl_mechanism_count": "1",
+      "drugcentral_interaction_count": "0",
+      "drugcentral_moa_count": "0",
+      "bub1b_activity_count": "0",
+      "status_summary": "clinical_development_record",
+      "annotation_status": "has_target_or_mechanism_annotation"
+    },
+    "catalog_cross_reference_limit": "ACE-031 exactly matches the existing catalog research-code/trade-name alias for CHEMBL2108674, preferred name RAMATERCEPT. This is a catalog name cross-reference, not a new ramatercept or generic ActRIIB appraisal alias, chemical/formulation/batch equivalence, availability or efficacy determination.",
+    "duplicate_existing_decision": false,
+    "alias_inventory_binding": {
+      "repo_relative": "workflow/track2-drug-census/aliases.tsv",
+      "revision": "b0159563c86bd0129937cac134caded34b67e5fb",
+      "git_object": "8154bca1df839d2177dbb37137c2b2b97972b706",
+      "bytes": 8821935,
+      "sha256": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3"
+    },
+    "catalog_binding": {
+      "repo_relative": "workflow/track2-drug-census/catalog.tsv",
+      "revision": "b0159563c86bd0129937cac134caded34b67e5fb",
+      "git_object": "58b8ba5bba0a68074d0e809370bf2f839f08c995",
+      "bytes": 3691075,
+      "sha256": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299"
+    }
+  },
+  "current_proposal_context": {
+    "baseline": "b0159563c86bd0129937cac134caded34b67e5fb",
+    "baseline_appraisals": 276,
+    "proposed_appraisals": 277,
+    "decision_id": "new-ace031-dmd",
+    "aliases": [
+      "ACE-031"
+    ],
+    "prior_276_objects_exact": true,
+    "nominee_change": false
+  },
+  "new_primary_reading_at_synthesis": false,
+  "new_original_queue_reading_credit": 0,
+  "raw_source_assets": "Retained only in external source packet; portable qualification is not a substitute for unavailable paper tables or native outcomes."
+}
