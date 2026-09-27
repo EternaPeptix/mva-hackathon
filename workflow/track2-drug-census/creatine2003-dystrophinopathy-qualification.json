@@ -1,0 +1,791 @@
+{
+  "schema_version": "creatine2003-dystrophinopathy-qualification-portable-v1",
+  "status": "ACCEPTED_SOURCE_PORTABLE_SYNTHESIS_PROPOSED",
+  "source_qualification": {
+    "status": "SOURCE_QUALIFICATION_FROZEN_FOR_INDEPENDENT_REVIEW",
+    "source": {
+      "pmid": "12707981",
+      "doi": "10.1002/mus.10355",
+      "title": "Beneficial effects of creatine supplementation in dystrophic patients.",
+      "journal": "Muscle & Nerve 27(5):604–610 (2003)",
+      "authors": "Louis M, Lebacq J, Poortmans JR, Belpaire-Dethiou MC, Devogelaer JP, Van Hecke P, Goubel F, Francaux M.",
+      "publisher_first_online": "2003-03-04",
+      "main_accepted_date": "2002-12-31",
+      "doi_url": "https://doi.org/10.1002/mus.10355",
+      "authentic_main_url": "https://research.dial.uclouvain.be/bitstreams/f3892f12-979c-401d-a5a9-65a52901114f/download",
+      "main_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/creatine2003-dystrophinopathy-primary-20260927/raw/louis2003-main.pdf",
+        "bytes": 192988,
+        "sha256": "e560251dc04db7eb28352dfe484016b9ff31c5224438caf9777859fcec194845"
+      },
+      "version": "Seven-page publisher-formatted journal article, printed pp604–610, independently identified by title/authors/journal/page range; retrieved lawfully through public UCLouvain citation_pdf_url. OpenAlex submittedVersion label is not adopted as an inspection finding."
+    },
+    "discovery": {
+      "batch": "outcome-first-eligibility-batch05-20260927",
+      "order": 11,
+      "source": "MED",
+      "id": "12707981",
+      "source_abstract_sha256": "03241645287c31d9d42e10afedab5a40a195fba7763933bd339af6c1317f42c5",
+      "core_sha256": "98eb79430da82216fd323556e3b4a1f5015382965b687bd630a96771ee5f9f8b",
+      "origin": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-corpus-20260927/raw-pages/q1_neuromuscular/page00006-attempt1.response.raw",
+        "sha256": "dc8fa9a2581a3eec3f68b455dc082bb4a65713f8020f5b7712b502b735bfba05",
+        "index": 131
+      },
+      "all_corpus_origins": [
+        {
+          "query_id": "q1_neuromuscular",
+          "page": 6,
+          "record_index": 131,
+          "raw_response": "raw-pages/q1_neuromuscular/page00006-attempt1.response.raw"
+        },
+        {
+          "query_id": "q3_common_preparation",
+          "page": 26,
+          "record_index": 938,
+          "raw_response": "raw-pages/q3_common_preparation/page00026-attempt1.response.raw"
+        }
+      ],
+      "selection": "Frozen continuation selected by design/administration/function flags and fixed stratum ordering; not by favorable findings.",
+      "screen_lane": "H_CF",
+      "screening_is_not_full_paper_or_efficacy_credit": true
+    },
+    "existing_assessment": {
+      "immutable_commit": "b0159563c86bd0129937cac134caded34b67e5fb",
+      "decisions_count": 276,
+      "existing_decision_id": "new-creatine-monohydrate-muscle",
+      "existing_aliases": [
+        "creatine monohydrate"
+      ],
+      "exact_source_in_decisions": [],
+      "qualification_source_identity_checks": [
+        {
+          "path": "workflow/track2-drug-census/creatine-muscle-qualification.json",
+          "commit": "b0159563c86bd0129937cac134caded34b67e5fb",
+          "sha256": "07e6b4b372ccdef472788307272e543a06b0994e95b02f998eef7fc13a32dfc3",
+          "bytes": 24199,
+          "exact_pmid_found": false,
+          "exact_doi_found": false
+        },
+        {
+          "path": "workflow/track2-drug-census/creatine-fshd-qualification.json",
+          "commit": "b0159563c86bd0129937cac134caded34b67e5fb",
+          "sha256": "9e2916b98741203e227e12948fa2c52f22e18858064b56b6fe487b7740c3e8c9",
+          "bytes": 22255,
+          "exact_pmid_found": false,
+          "exact_doi_found": false
+        },
+        {
+          "path": "workflow/track2-drug-census/creatine-inflammatory-myopathy-qualification.json",
+          "commit": "b0159563c86bd0129937cac134caded34b67e5fb",
+          "sha256": "3236d46e6020642230a7c518c54187ce0dcdff4980853dc719e3ba93ca1664d2",
+          "bytes": 32514,
+          "exact_pmid_found": false,
+          "exact_doi_found": false
+        }
+      ],
+      "scope": "Exact PMID and DOI search within all current immutable decision objects and three existing creatine scientific JSON files; no scientific main reading of earlier trials; absence here is not absence from entire literature or catalog."
+    },
+    "preparation": {
+      "compound": "creatine monohydrate",
+      "supplier_as_printed": "Flamma, Chignola d’Isola, Italy",
+      "oral_dose_g_per_day": 3,
+      "period_months": 3,
+      "comparator": "maltodextrin",
+      "placebo_mass": "Abstract describes 3 g Cr or maltodextrin daily; Methods explicitly specify creatine 3 g/day but not separate placebo mass.",
+      "unknowns": [
+        "batch",
+        "purity",
+        "vehicle",
+        "packaging",
+        "masking implementation",
+        "independently detailed placebo calories",
+        "retail product equivalence"
+      ],
+      "cotherapy": "Any other drug therapy excluded; no assigned exercise intervention described.",
+      "exposure_evidence": "Table 2 plasma and urinary creatine positives support absorption; no validated tissue-specific exposure threshold or mechanistic mediation.",
+      "same_supplier_does_not_establish_batch_equivalence": true,
+      "locator": "Subjects p605; Table 2 and Blood/Urine pp607; acknowledgments p609"
+    },
+    "population": {
+      "total": 15,
+      "DMD": 12,
+      "BMD": 3,
+      "sex": "boys",
+      "age_as_stated": "6–16 years; 10.8 ± 2.8 years",
+      "age_table_limit": "Table 1 includes 16.1 years.",
+      "wheelchair_dependent": 10,
+      "wheelchair_independent": 5,
+      "selection": "Clinical diagnosis and dystrophin mutation identification after muscle biopsy; exclude other drug therapy or elbow-flexion torque below 1 N·m.",
+      "transfer_limits": [
+        "mixed DMD/BMD",
+        "minimum measurable torque",
+        "selected boys without other drug therapy",
+        "no MVA population"
+      ],
+      "locator": "Methods and Table 1 p605"
+    },
+    "design": {
+      "design": "randomized double-blind crossover",
+      "creatine_first_n": 8,
+      "placebo_first_n": 7,
+      "treatment_period_months": 3,
+      "washout_months": 2,
+      "total_months": 8,
+      "measurements": "Before and after each treatment period.",
+      "allocation_detail": "Random assignment asserted; generation and concealment not described.",
+      "n_basis": "Table 2 footnote n=15 except stated n=6 TJS and n=6 PCr/β-ATP; no explicit complete-pair flow or ITT/missing-data specification.",
+      "spectroscopy_subset": "Six slimmest participants could fit scanner; anatomically selected.",
+      "stiffness_subset": "n=6 in table; reason unreported and identity with NMR subset not established.",
+      "carryover": "Results and Discussion explicitly report persistence of MVC and fatigue gains at end of two-month washout after creatine.",
+      "crossover_analysis_limits": [
+        "No reported period or sequence model",
+        "No formal carryover test reported",
+        "No separate randomized first-period effect reported",
+        "Disease progression and growth may affect period pooling"
+      ],
+      "locator": "pp605–606, Figure 1 p608, Discussion p609"
+    },
+    "hierarchy_and_statistics": {
+      "primary_endpoint": "Not designated in recovered main.",
+      "prespecified_endpoint_hierarchy": "Not recovered.",
+      "sample_size_plan": "No original prospective calculation recovered; Discussion gives a retrospective NMR sample-size assertion, not a prospective primary plan.",
+      "reported_method": "Paired Student t test on pre/post differences; P<.05; mean ± SE.",
+      "table_contrast": "Table 2 explicitly labels P-value column Placebo vs Cr. Treat as author-reported direct treatment comparisons, not inferred solely from separate within-arm significance.",
+      "analysis_uncertainty": "Methods do not fully specify the construction of each Table 2 contrast; no adjusted period/sequence treatment estimate or CI is provided.",
+      "multiplicity": "No multiplicity adjustment reported across 17 table outcomes and ambulatory subgroup comparisons.",
+      "no_new_stats": true,
+      "locator": "Statistics p606; Table 2 p607; Discussion p607"
+    },
+    "functional_tests": {
+      "MVC": "Elbow-flexion isometric torque, highest of three efforts.",
+      "fatigue": "After eight-minute recovery, time maintaining 75% MVC; not a walking or activities-of-daily-living scale.",
+      "stiffness": "Mechanical perturbations at 25% and 50% MVC; table reports 50% only.",
+      "reported_direct_positives": [
+        "MVC P=.02",
+        "time to exhaustion P<.001",
+        "TJS at 50% MVC P=.03, n=6"
+      ],
+      "narrative_within_period": "Creatine MVC +15% and fatigue nearly doubled; no placebo change in MVC/fatigue. Placebo TJS approximately +25%, creatine TJS unchanged.",
+      "not_placebo_adjusted_percent_effects": true,
+      "locator": "Muscle Function pp605–606; Table 2 p607; Figure 1 p608"
+    },
+    "table2": [
+      {
+        "outcome": "MVC",
+        "unit": "N·m",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          5.01,
+          1.5
+        ],
+        "placebo_post": [
+          4.9,
+          1.6
+        ],
+        "creatine_pre": [
+          5.4,
+          2.1
+        ],
+        "creatine_post": [
+          6.1,
+          2.2
+        ],
+        "reported_placebo_vs_Cr_P": "0.02",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Time to exhaustion",
+        "unit": "s",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          4.9,
+          1.8
+        ],
+        "placebo_post": [
+          4.2,
+          1.2
+        ],
+        "creatine_pre": [
+          4.1,
+          1.3
+        ],
+        "creatine_post": [
+          7.2,
+          1.4
+        ],
+        "reported_placebo_vs_Cr_P": "<0.001",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "TJS at 50% MVC",
+        "unit": "N·m·rad⁻¹",
+        "n_per_table_footnote": 6,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          17.7,
+          4
+        ],
+        "placebo_post": [
+          21.9,
+          4.5
+        ],
+        "creatine_pre": [
+          19.8,
+          6.1
+        ],
+        "creatine_post": [
+          19.3,
+          4.7
+        ],
+        "reported_placebo_vs_Cr_P": "0.03",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "PCr/β-ATP",
+        "unit": "ratio",
+        "n_per_table_footnote": 6,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          3.8,
+          0.2
+        ],
+        "placebo_post": [
+          3.9,
+          0.2
+        ],
+        "creatine_pre": [
+          3.6,
+          0.3
+        ],
+        "creatine_post": [
+          3.9,
+          0.2
+        ],
+        "reported_placebo_vs_Cr_P": "0.04",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Body mass",
+        "unit": "kg",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          38,
+          2.9
+        ],
+        "placebo_post": [
+          39.8,
+          2.9
+        ],
+        "creatine_pre": [
+          40.1,
+          3.7
+        ],
+        "creatine_post": [
+          41.6,
+          3.5
+        ],
+        "reported_placebo_vs_Cr_P": "NS",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Lumbar spine bone density",
+        "unit": "g/cm²",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          0.601,
+          0.06
+        ],
+        "placebo_post": [
+          0.603,
+          0.07
+        ],
+        "creatine_pre": [
+          0.596,
+          0.08
+        ],
+        "creatine_post": [
+          0.599,
+          0.08
+        ],
+        "reported_placebo_vs_Cr_P": "NS",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Whole-body bone density",
+        "unit": "g/cm²",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          0.758,
+          0.07
+        ],
+        "placebo_post": [
+          0.769,
+          0.07
+        ],
+        "creatine_pre": [
+          0.757,
+          0.06
+        ],
+        "creatine_post": [
+          0.762,
+          0.07
+        ],
+        "reported_placebo_vs_Cr_P": "NS",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Urine NTx/creatinine ratio",
+        "unit": "mmol BCE/mmol Crn as printed",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          1619,
+          224
+        ],
+        "placebo_post": [
+          1134,
+          143
+        ],
+        "creatine_pre": [
+          2123,
+          417
+        ],
+        "creatine_post": [
+          1167,
+          175
+        ],
+        "reported_placebo_vs_Cr_P": "NS",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Daily urine Cr",
+        "unit": "mg/24 h",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          846,
+          128
+        ],
+        "placebo_post": [
+          616,
+          121
+        ],
+        "creatine_pre": [
+          600,
+          76
+        ],
+        "creatine_post": [
+          1671,
+          265
+        ],
+        "reported_placebo_vs_Cr_P": "<0.001",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Daily urine creatinine",
+        "unit": "mg/24 h",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          417,
+          82
+        ],
+        "placebo_post": [
+          370,
+          72
+        ],
+        "creatine_pre": [
+          239,
+          38
+        ],
+        "creatine_post": [
+          356,
+          115
+        ],
+        "reported_placebo_vs_Cr_P": "NS",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Albumin excretion rate",
+        "unit": "µg/min",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          11.3,
+          3.7
+        ],
+        "placebo_post": [
+          12.2,
+          2.7
+        ],
+        "creatine_pre": [
+          15.2,
+          2.3
+        ],
+        "creatine_post": [
+          14.5,
+          3.2
+        ],
+        "reported_placebo_vs_Cr_P": "NS",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Plasma creatinine",
+        "unit": "mg/L",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          1.3,
+          0.22
+        ],
+        "placebo_post": [
+          0.68,
+          0.17
+        ],
+        "creatine_pre": [
+          1.42,
+          0.7
+        ],
+        "creatine_post": [
+          1.16,
+          0.3
+        ],
+        "reported_placebo_vs_Cr_P": "NS",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Plasma Cr",
+        "unit": "mg/L",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          15.12,
+          0.67
+        ],
+        "placebo_post": [
+          14.87,
+          0.54
+        ],
+        "creatine_pre": [
+          15.36,
+          0.87
+        ],
+        "creatine_post": [
+          43.31,
+          6.14
+        ],
+        "reported_placebo_vs_Cr_P": "<0.001",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Serum aspartate aminotransferase",
+        "unit": "U/L",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          114,
+          12
+        ],
+        "placebo_post": [
+          144,
+          47
+        ],
+        "creatine_pre": [
+          117,
+          15
+        ],
+        "creatine_post": [
+          136,
+          23
+        ],
+        "reported_placebo_vs_Cr_P": "NS",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Serum alanine aminotransferase",
+        "unit": "U/L",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          167,
+          20
+        ],
+        "placebo_post": [
+          149,
+          17
+        ],
+        "creatine_pre": [
+          159,
+          18
+        ],
+        "creatine_post": [
+          166,
+          22
+        ],
+        "reported_placebo_vs_Cr_P": "NS",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Serum γ-glutamyltransferase",
+        "unit": "U/L",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          9.8,
+          1.1
+        ],
+        "placebo_post": [
+          12,
+          1.1
+        ],
+        "creatine_pre": [
+          10.5,
+          0.9
+        ],
+        "creatine_post": [
+          11.8,
+          1.2
+        ],
+        "reported_placebo_vs_Cr_P": "NS",
+        "locator": "Table 2, printed p607 / PDF p4"
+      },
+      {
+        "outcome": "Serum Cr kinase",
+        "unit": "U/L",
+        "n_per_table_footnote": 15,
+        "summary": "mean ± SE",
+        "placebo_pre": [
+          5769,
+          976
+        ],
+        "placebo_post": [
+          4911,
+          818
+        ],
+        "creatine_pre": [
+          5340,
+          1122
+        ],
+        "creatine_post": [
+          5211,
+          826
+        ],
+        "reported_placebo_vs_Cr_P": "NS",
+        "locator": "Table 2, printed p607 / PDF p4"
+      }
+    ],
+    "native_figures": {
+      "figure1": "All panels A–C and caption read: sequence-specific mean ± SE, percent of first measure; no effect sizes reconstructed from bars.",
+      "figure2": "All three paired-line outcomes/caption read for n=5 ambulatory subgroup; within-treatment P labels retained without interaction inference."
+    },
+    "metabolic_reporting": {
+      "table_result": "PCr/β-ATP P=.04 under Placebo vs Cr, n=6.",
+      "narrative_result": "Approximately 8% creatine-period rise did not reach significance under pre/post test; repeated nonsignificant wording in Discussion.",
+      "adjudication": "Potentially different comparisons; exact relationship unresolved. Preserve both, do not choose one or infer mediation.",
+      "pre_creatine_vs_post_washout": [
+        {
+          "mean": 3.71,
+          "SE": 0.34
+        },
+        {
+          "mean": 3.68,
+          "SE": 0.31
+        }
+      ],
+      "reported_P": "NS",
+      "locator": "p606 NMR, p607 Table 2/Discussion"
+    },
+    "ambulatory_bone_subset": {
+      "n": 5,
+      "population": "Wheelchair-independent throughout study; includes DMD and BMD.",
+      "summary": "means ± SE",
+      "outcomes": [
+        {
+          "outcome": "Lumbar-spine bone density",
+          "units": "g/cm²",
+          "placebo_pre": [
+            0.604,
+            0.0426
+          ],
+          "placebo_post": [
+            0.604,
+            0.0442
+          ],
+          "placebo_within_P": "NS",
+          "creatine_pre": [
+            0.601,
+            0.0476
+          ],
+          "creatine_post": [
+            0.624,
+            0.0498
+          ],
+          "creatine_within_P": "<.05"
+        },
+        {
+          "outcome": "Whole-body bone density",
+          "units": "g/cm²",
+          "placebo_pre": [
+            0.776,
+            0.0215
+          ],
+          "placebo_post": [
+            0.781,
+            0.0189
+          ],
+          "placebo_within_P": "NS",
+          "creatine_pre": [
+            0.776,
+            0.019
+          ],
+          "creatine_post": [
+            0.792,
+            0.0227
+          ],
+          "creatine_within_P": "<.05"
+        },
+        {
+          "outcome": "Urinary NTx/creatinine",
+          "units": "mmol BCE/mmol creatinine as printed",
+          "placebo_pre": [
+            1144,
+            204
+          ],
+          "placebo_post": [
+            1325,
+            264
+          ],
+          "placebo_within_P": "NS",
+          "creatine_pre": [
+            1365,
+            245
+          ],
+          "creatine_post": [
+            599,
+            154
+          ],
+          "creatine_within_P": "<.001"
+        }
+      ],
+      "contrast": "Within-treatment paired tests; no reported subgroup treatment interaction or direct subgroup treatment estimate.",
+      "abstract_wording": "Approximately 3% bone-density increase and NTx decline to about one third after Cr.",
+      "wording_limit": "Retain exact main-text NTx ratio values separately without numerical harmonization of abstract wording.",
+      "wheelchair_dependent_result": "Authors report no effect.",
+      "not_functional_endpoints": true,
+      "locator": "Densitometry p607; Figure 2 p608"
+    },
+    "nulls_and_limits": {
+      "table_NS": [
+        "Body mass",
+        "Lumbar spine bone density",
+        "Whole-body bone density",
+        "Urine NTx/creatinine ratio",
+        "Daily urine creatinine",
+        "Albumin excretion rate",
+        "Plasma creatinine",
+        "Serum aspartate aminotransferase",
+        "Serum alanine aminotransferase",
+        "Serum γ-glutamyltransferase",
+        "Serum Cr kinase"
+      ],
+      "lean_mass": "Discussion says no lean-body-mass increase, citing Table 2, but that table contains body mass rather than a separate lean-mass row. Do not relabel body mass as lean mass or tissue renewal.",
+      "mechanism": "Common growth-signaling and activity/bone explanations are hypotheses; no mediation, renewal, dystrophin repair or BUBR1 result.",
+      "no_functional_null_erasure": true
+    },
+    "harms": {
+      "author_report": "No cramps, diarrhea or other side effects and no adverse hepatic/renal effects observed.",
+      "laboratory_results": "Creatinine, albumin and listed enzymes NS under Table 2 contrasts.",
+      "limits": [
+        "n=15 selected cohort",
+        "No graded adverse-event table",
+        "No systematic adverse-event collection schedule described",
+        "No equivalence testing or long-term safety inference"
+      ],
+      "locator": "Discussion p609; Table 2 p607"
+    },
+    "planning_and_notices": {
+      "ethics": "University medicine faculty ethics approval and written consent from boys/both parents.",
+      "registration": "No identifier in main. Two saved current ClinicalTrials.gov searches (exact PMID/DOI and exact title/investigator) returned empty studies arrays. Not proof of universal nonregistration.",
+      "protocol": "No original protocol recovered.",
+      "supplement": "No separate supplement identified in main or bounded source search; not proof of none.",
+      "linked_notices": "No comment/correction field in saved exact Europe PMC metadata; Crossref relation empty/update-to absent. No exhaustive notice search claim.",
+      "funding": [
+        "Association Française contre les Myopathies",
+        "Fonds National de la Recherche Scientifique, Belgium",
+        "Fondation Van-Goethem-Brichant, Belgium"
+      ],
+      "author_funding": "Magali Louis: Fonds du Patrimoine pour la recherche médicale, Université Catholique de Louvain.",
+      "product_support": "Flamma supplied creatine.",
+      "COI": "No separate conflict declaration identified; not proof of no conflicts.",
+      "locators": [
+        "p605 ethics",
+        "p609 acknowledgments",
+        "saved registry search responses",
+        "saved metadata records"
+      ]
+    },
+    "competitive_assessment": {
+      "conclusion": "Retain reported controlled functional positives as a substantive preparation-specific compensation comparison, with major crossover, selection, multiplicity and reporting limits.",
+      "criteria": "Same function/exposure/renewal/chromosome-fidelity bar as other candidates; BUBR1 mediation is additionally necessary only for restoration claims.",
+      "MVA_efficacy": "Not established.",
+      "BUBR1_restoration": "Not established.",
+      "superiority_to_niacin_or_apitegromab": "Not established.",
+      "new_appraisal_or_alias": "None proposed; later source append/refinement to existing creatine assessment only.",
+      "prior_trials": "Earlier DMD/FSHD, inflammatory-myopathy and healthy-aging evidence remains distinct and unchanged; no pooling or duplicate primary-reading credit.",
+      "clinical_regimen_recommendation": false
+    },
+    "actual_reading_scope": {
+      "producer": "Complete scientific main plus all seven native pages including Tables 1–2, Figures 1–2/captions, acknowledgments and references; complete original abstract/metadata.",
+      "protocol_or_supplement": "None recovered/read.",
+      "current_registry": "Two empty bounded search responses; no trial record recovered.",
+      "earlier_creatine_sources": "Existing decision read and exact-source identity searches within three saved qualification JSONs; no fresh primary science credit.",
+      "independent_review": "Separate stage, pending at producer freeze.",
+      "synthesis": "Not performed or accepted by this source qualification."
+    }
+  },
+  "historical_source_metadata_notice": "Nested source object is verbatim from its accepted producer freeze, including historical b0159563/276 identity checks and source-stage status fields. Those do not certify the current ledger or replace the independent acceptance/current proposal context below.",
+  "independent_source_acceptance": {
+    "status": "ACCEPT",
+    "required_corrections": [],
+    "manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/creatine2003-dystrophinopathy-primary-20260927/independent-review/final-bindings.json",
+      "bytes": 18440,
+      "sha256": "ca3d6f4c9d9767c66f67b9b7e84454ee6232c9374807c418ac3b204d1a29a019"
+    },
+    "review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/creatine2003-dystrophinopathy-primary-20260927/independent-review/review.json",
+      "bytes": 5619,
+      "sha256": "fbe897228a26abf317a9fd6a72efaa7e219fca98c336caf9883d1e1e6ae893da"
+    }
+  },
+  "producer_manifest": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/creatine2003-dystrophinopathy-primary-20260927/final-bindings.json",
+    "bytes": 14531,
+    "sha256": "da1e3ff60cc9ae8123e8a9e5071f8bcc8f9cb2330c8f1173edb0147ed00aa792"
+  },
+  "reading_attribution": {
+    "source_producer": "Complete scientific main plus all seven native pages including Tables 1–2, Figures 1–2/captions, acknowledgments and references; complete original abstract/metadata.",
+    "independent_source_review": "Complete scientific main plus native pages2,4,5 including Tables1–2/Figures1–2; no protocol or supplement.",
+    "portable_synthesis": "Complete accepted qualification and independent review plus current immutable decision/document context; no fresh original-source reading."
+  },
+  "current_proposal_context": {
+    "baseline": "b559d0add8a6b3ee10cc127845fe91b33be821dc",
+    "appraisals": 277,
+    "existing_decision_id": "new-creatine-monohydrate-muscle",
+    "existing_aliases": [
+      "creatine monohydrate"
+    ],
+    "new_decision_or_alias": false,
+    "original_rationale_URLs_primary_report_and_other_source_reports_preserved": true,
+    "nominee_change": false
+  },
+  "new_primary_reading_at_synthesis": false,
+  "new_original_queue_credit": 0,
+  "raw_source_assets": "Preserved externally, excluded from proposed repository files."
+}

@@ -1,0 +1,193 @@
+{
+  "schema_version": "metformin-geriatric-function-qualification-portable-v1",
+  "status": "ACCEPTED_SOURCE_PORTABLE_SYNTHESIS_PROPOSED",
+  "source_qualification": {
+    "schema_version": "metformin-geriatric-function-access-limited-v1",
+    "status": "ABSTRACT_AND_PARTIAL_PUBLISHER_PREVIEW_QUALIFIED_PENDING_INDEPENDENT_REVIEW",
+    "date": "2026-09-27",
+    "citation": {
+      "pmid": "39084174",
+      "doi": "10.1016/j.archger.2024.105587",
+      "pii": "S0167494324002632",
+      "title": "Metformin improves skeletal muscle and physical capacity by stabilizing neuromuscular junction in older adults.",
+      "authors": "Qaisar R; Javed M; Khan IM; Ahmad F; Karim A",
+      "journal": "Archives of Gerontology and Geriatrics 2024;127:105587",
+      "online_publication": "2024-07-25"
+    },
+    "source_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/39084174/",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0167494324002632",
+      "https://doi.org/10.1016/j.archger.2024.105587"
+    ],
+    "full_requested_main_native_depth_achieved": false,
+    "identity_and_exposure": {
+      "source_label": "metformin",
+      "dose_as_abstract_reports": "1700 mg of metformin twice a day for 16 weeks",
+      "literal_arithmetic_mg_per_day": 3400,
+      "arithmetic_limit": "3400 is the literal arithmetic, not independently verified administered exposure or a regimen recommendation. Do not silently rewrite to1700mg/day or assume850mg twice daily. Full dosing Methods, titration, route, brand, salt, release form, adherence and placebo composition unavailable.",
+      "preparation_equivalence_established": false
+    },
+    "population_and_design": {
+      "source_context": "Geriatric men; primary publisher Methods excerpt specifies non-diabetic men. Ethics context names Burns and Plastic Surgery Center,Peshawar,Pakistan. Exact recruitment location/eligibility dates and thresholds unverified.",
+      "evaluated": 220,
+      "excluded_before_randomization": 72,
+      "randomized_total": 148,
+      "randomized_placebo": 77,
+      "randomized_metformin": 71,
+      "randomization_as_reported": "Simple randomization, primary Methods excerpt. Sequence generation and concealment unread.",
+      "blinding": "PubMed indexing includes Double-Blind Method; exact masking implementation not verified from accessible primary Methods.",
+      "abstract_reported_groups": {
+        "placebo": {
+          "n": 70,
+          "age_as_printed": "73.1 ±4.2 years"
+        },
+        "metformin": {
+          "n": 62,
+          "age_as_printed": "70.1 ±4.5 years"
+        }
+      },
+      "denominator_limit": "Abstract n70/62 sum132, whereas preview randomization n77/71 sum148. Differences7/9 are arithmetic only; no verified disposition, endpoint-specific analyzed n,ITT/per-protocol rule, imputation or AE withdrawal attribution.",
+      "baseline_claim": "Abstract says baseline HGS,gait speed,SPPB and plasma chemistry similar. Preview says no age/body-composition difference at any time; underlying Table1 and uncertainty definitions are unread. No new significance calculation."
+    },
+    "hierarchy_and_analysis": {
+      "primary_endpoint": "Not established",
+      "sample_size": "Excerpt mentions an RCT sample-size calculator, but target effect, endpoint, alpha,power and resulting requirement unavailable.",
+      "statistical_methods": "Target paper statistical section unavailable; no paired-test,ANCOVA,interaction or mixed-model attribution borrowed from other papers.",
+      "functional_between_arm_contrast": "Unknown from available text; no recoverable direct treatment-control change estimate,CI or P value. Do not equate within-arm significance patterns with randomized treatment difference or with proof of zero effect.",
+      "multiplicity_prespecification_missingness": "Unverified without main/protocol/SAP/registry."
+    },
+    "outcomes": [
+      {
+        "endpoint": "Handgrip strength",
+        "reported_result": "Abstract reports improvement with metformin, all functional P<.05; no similar placebo observations.",
+        "direct_between_arm_effect": "UNVERIFIED",
+        "value_CI_exact_test": "Unavailable"
+      },
+      {
+        "endpoint": "Gait speed",
+        "reported_result": "Abstract reports improvement with metformin,P<.05; no similar placebo observations.",
+        "direct_between_arm_effect": "UNVERIFIED",
+        "value_CI_exact_test": "Unavailable"
+      },
+      {
+        "endpoint": "Cumulative SPPB",
+        "reported_result": "Abstract reports improvement with metformin,P<.05; no similar placebo observations.",
+        "direct_between_arm_effect": "UNVERIFIED",
+        "individual_components": "Not reported in available excerpt"
+      },
+      {
+        "endpoint": "CAF22 and NfL",
+        "reported_result": "Abstract explicitly reports reductions versus baseline with metformin and no similar placebo observations.",
+        "direct_between_arm_effect": "UNVERIFIED",
+        "interpretation": "Circulating proxies; no direct NMJ structure/transmission or neuronal-regeneration outcome verified."
+      },
+      {
+        "endpoint": "Oxidative stress",
+        "reported_result": "Abstract reports reduced oxidative stress associated with findings.",
+        "specific_marker_numeric_contrast": "Not established from available target text"
+      },
+      {
+        "endpoint": "Body composition",
+        "reported_result": "Preview says no between-group difference at any time point.",
+        "scope_limit": "Truncated narrative only; no verified muscle-mass treatment effect/CI or complete null-outcome inventory."
+      }
+    ],
+    "mediation": {
+      "reported": "CAF22 correlates significantly with HGS,gait speed and cumulative SPPB in the metformin group; numeric coefficients/timing/adjustments unverified.",
+      "established": false,
+      "reason": "Correlation and circulating marker reduction do not isolate NMJ causal mediation. No formal mediation model, mediator perturbation or direct NMJ assay is documented in the accessible material; unavailable main cannot be assumed to contain none.",
+      "BUBR1_renewal_fidelity_or_MVA_inference": false
+    },
+    "harms": {
+      "primary_excerpt_confirmed": [
+        {
+          "event": "Metallic taste",
+          "metformin_n": 5,
+          "reported_percent": 8.06,
+          "source_locator": "Publisher /abs preview: Characteristics of the participants"
+        }
+      ],
+      "not_verified": "The excerpt truncates the next event after soft. Other event counts seen in secondary reviews are not adopted. Placebo event counts,unique affected participants,serious events,withdrawals,systematic collection and causal attribution unavailable.",
+      "absence_of_harm_claim": false
+    },
+    "planning_registry": {
+      "matched_registry": null,
+      "PMID_search_total": 0,
+      "Qaisar_AND_metformin_search_total": 1,
+      "excluded_unrelated_id": "NCT07788378",
+      "prospective_registration_or_protocol_history": "Unverified; search incompleteness is not proof of nonregistration.",
+      "cohort_overlap": "The publisher references a separate Qaisar2024 sarcopenia-quality-of-life report. Participant overlap was not established; no independent-replication credit and no companion-source efficacy imported."
+    },
+    "disclosures": {
+      "ethics": "Publisher excerpt: conducted according to Human Research Ethics Committee of Burns and Plastic Surgery Center,Peshawar,Pakistan; approval identifier/date unread.",
+      "funding": "Publisher Acknowledgments: University of Sharjah competitive grant22010901121 to RizwanQaisar.",
+      "COI": "Publisher and PubMed text state no conflict of interest.",
+      "notice_status": "No linked correction in current EuropePMC metadata; no targeted notice found in bounded access search, not exhaustive."
+    },
+    "existing_evidence": {
+      "baseline": {
+        "revision": "b0159563c86bd0129937cac134caded34b67e5fb",
+        "appraisals": 276,
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "bytes": 498046,
+        "sha256": "a4cb99af54536ce69a3cc9e8170a1e48d617ef6c0df67011c702e4c1e77d5d70",
+        "git_blob": "2700b03379ec4a9d9fed75f5176448ebd59a52f1",
+        "scope": "Immutable baseline decision only; no live repo or whole historical source re-review."
+      },
+      "decision_id": "prior-27",
+      "existing_aliases": [
+        "metformin",
+        "acadesine",
+        "AICAR"
+      ],
+      "preservation": "Existing MASTERS hypertrophy result, metformin TET2 mechanism and separate AICAR evidence remain unchanged. This report is not assigned to AICAR, and does not erase MASTERS or qualify a generic metformin benefit/null. No existing source depth upgrade or duplicate ledger entry.",
+      "candidate_role": "Preserve reported human functional positives as a source-specific follow-up whose randomized contrast remains unresolved; no nominee change or MVA benefit inferred."
+    },
+    "reading_manifest": "reading-manifest.json",
+    "new_original_queue_credit": 0,
+    "new_independent_study_count_claim": false,
+    "repository_mutation_tests_replays_integration_or_publication": false
+  },
+  "historical_source_metadata_notice": "Nested source object is verbatim from its accepted producer freeze, including historical b0159563/276 identity checks and source-stage status fields. Those do not certify the current ledger or replace the independent acceptance/current proposal context below.",
+  "independent_source_acceptance": {
+    "status": "ACCEPT",
+    "required_corrections": [],
+    "manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/metformin-geriatric-function-primary-20260927/independent-review/final-bindings.json",
+      "bytes": 9166,
+      "sha256": "f8a923e25deb742ba8d1eae0f453491dcf36c632cde799991a4c6d1f99ad18a6"
+    },
+    "review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/metformin-geriatric-function-primary-20260927/independent-review/review.json",
+      "bytes": 6887,
+      "sha256": "22dfdad4793885d972da5d2bf8e14a2ea04c5c83eded2c0254999e5c06ef65fb"
+    }
+  },
+  "producer_manifest": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/metformin-geriatric-function-primary-20260927/final-bindings.json",
+    "bytes": 10217,
+    "sha256": "362ef58055e8cc712ef1ffd885f93efc2dd901d221e95ab1bdf62ef35e932d28"
+  },
+  "reading_attribution": {
+    "source_producer": "Complete original abstract and partial indexed publisher primary excerpts; no complete main/native/protocol/SAP/supplement or verified registry.",
+    "independent_source_review": "Complete original abstract and actual saved target publisher excerpts; no additional main/native access.",
+    "portable_synthesis": "Complete accepted qualification and independent review plus current immutable decision/document context; no fresh original-source reading."
+  },
+  "current_proposal_context": {
+    "baseline": "b559d0add8a6b3ee10cc127845fe91b33be821dc",
+    "appraisals": 277,
+    "existing_decision_id": "prior-27",
+    "existing_aliases": [
+      "metformin",
+      "acadesine",
+      "AICAR"
+    ],
+    "new_decision_or_alias": false,
+    "original_rationale_URLs_primary_report_and_other_source_reports_preserved": true,
+    "nominee_change": false
+  },
+  "new_primary_reading_at_synthesis": false,
+  "new_original_queue_credit": 0,
+  "raw_source_assets": "Preserved externally, excluded from proposed repository files.",
+  "independent_registry_clarification": "NCT07788378 is a different Fudan observational diabetes study by institution, population and design. It records a2024 administrative study start but a retrospective2018–2023 hospital population; do not use that start field as verified first-participant chronology. The original source JSON is preserved and no target-trial linkage is inferred."
+}
