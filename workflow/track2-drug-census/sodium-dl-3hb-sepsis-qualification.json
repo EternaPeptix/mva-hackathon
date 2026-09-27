@@ -1,0 +1,540 @@
+{
+  "checked_date": "2026-09-27",
+  "decision_summary": "Retain preparation/route-specific controlled mouse muscle-force evidence, conditional on five-day survival. Persistent atrophy, uncertain 2019 drug-arm allocation/blinding, nominal multiple testing, missing assays, and substantial 2021 electrolyte/mortality harms limit transfer. No universal toxic threshold, safe dose, human/MVA efficacy, or food/retail claim.",
+  "preparation_identity": "Research D,L-3-hydroxybutyrate sodium salt via twice-daily subcutaneous injection; distinct from R,R/S,S ketone esters, oral products and other cation salts.",
+  "comparability_limits": [
+    "2019 explicit 50:50 Sigma H6501 weight-based 5 mg/g/day; 2021 D,L Sigma material with catalogue/ratio/purity not reported and fixed daily amounts. Do not silently equate every product detail.",
+    "2019 healthy controls pair-fed 6.55 kcal/day; 2021 controls pair-fed 5.8 kcal/day.",
+    "No sodium-matched comparator in either study.",
+    "2019 figure means/SEM; 2021 medians/IQR; no between-study pooled force estimate performed."
+  ],
+  "studies": [
+    {
+      "id": "goossens2019-study4-sodium-dl-3hb",
+      "citation": {
+        "title": "Adipose tissue protects against sepsis-induced muscle weakness in mice: from lipolysis to ketones",
+        "doi": "10.1186/s13054-019-2506-6",
+        "pmid": "31262340",
+        "pmcid": "PMC6600878",
+        "url": "https://doi.org/10.1186/s13054-019-2506-6"
+      },
+      "source_qualified_conclusion": "A controlled male-mouse prevention experiment reports higher absolute and CSA-normalized EDL force in day-5 survivors receiving D,L-3HB sodium salt, without preservation of muscle mass. Drug-arm randomization and force-assessor blinding are insufficiently described. A related pending patent and survivor/missing-assay limits qualify the signal; no human, oral/retail or BUB1B/MVA efficacy follows.",
+      "scope": "Only Study 4 tests the sodium-salt drug intervention. Studies 1 (lean/obese metabolism), 2 (adipose ATGL knockout), and 3 (lipid-rich versus standard parenteral nutrition) inform mechanism/context and are not three additional salt efficacy trials. Full main text read; native source depth is specified separately. Figure 5a/b ketogenesis profiles refer to the preceding obesity/lipid/genetic cohorts, not a salt-versus-glucose exposure endpoint.",
+      "preparation": {
+        "substance": "D,L-beta-hydroxybutyrate sodium salt",
+        "isomers": "50% D and 50% L",
+        "catalogue": "Sigma-Aldrich H6501",
+        "source_dose": "5 mg/g body weight/day, not a fixed 150 mg/day in this paper",
+        "route": "Twice-daily 400 µL subcutaneous injections, from day 1 after CLP until sacrifice after day 5",
+        "calories": "Reported 0.75 kcal/day supplement",
+        "vehicle": "Injection solvent not identified in inspected main or Additional file 7; do not infer Plasmalyte from background intravenous resuscitation.",
+        "purity_batch": "Not reported.",
+        "comparator": "D-glucose A3666 Applichem, 6.25 mg/g/day, reported 0.75 kcal/day, same twice-daily 400 µL SC volume; explicitly isocaloric and isovolumetric. No sodium-matched comparator.",
+        "background": "Both septic groups received Olimel N7E mixed PN 5.8 kcal/day from day 1; fluid resuscitation/antibiotics/analgesia. Healthy controls were pair-fed standard chow totaling 6.55 kcal/day for Study 4, not full-fed."
+      },
+      "design": {
+        "animals": "Male 24-week-old C57BL/6JRj mice (Janvier); lean septic cohort",
+        "model": "Centrally catheterized CLP sepsis, initial 20-hour fasting/fluid resuscitation, no mechanical ventilation",
+        "allocation": "Supplement explicitly randomizes mice to healthy versus sepsis. An explicit within-sepsis salt-versus-glucose randomization statement is not located; Table 1 is labeled Randomization but gives no allocation method. Do not call the drug contrast a fully documented randomized experiment.",
+        "blinding": "Blinded liver-steatosis scoring by two evaluators is described, but force-assessor/caretaker blinding for Study 4 is not reported.",
+        "hierarchy": "Authors state ex vivo muscle force was the primary endpoint and sample-size basis for day-5 experiments; experiments continued until at least 14 force measurements per group. Prospectively registered hierarchy and full power assumptions not verified.",
+        "exclusions": "Catheter loss, occlusion or dislocation; per-reason numbers not supplied. Reported starting denominators need not include every animal initially handled before exclusions.",
+        "analysis": "One-way ANOVA with Fisher LSD/Student t post hoc after transformations, or Wilcoxon for nonnormal data; two-sided alpha .05. No broader multiplicity adjustment is reported. Do not import 2022 explicit no-correction wording as a 2019 quotation.",
+        "followup": "Five days only; prevention from day 1, not treatment after documented established weakness."
+      },
+      "denominators": {
+        "healthy": {
+          "included": 15,
+          "survivors": 15,
+          "specific_force": 15,
+          "mass_and_main_molecular": 15
+        },
+        "glucose": {
+          "included_table1": 20,
+          "survivors": 17,
+          "deaths_derived": 3,
+          "specific_force": 16,
+          "mass_and_main_molecular": 17
+        },
+        "salt": {
+          "included_table1": 21,
+          "survivors": 17,
+          "deaths_derived": 4,
+          "specific_force": 14,
+          "mass_and_main_molecular": 17
+        },
+        "study_n49": "49 denotes the 15+17+17 surviving/terminal cohort, not initial enrolled n; Table 1 plus healthy group gives 56 included animals.",
+        "force_n45": "15+16+14 specific-force measurements, conditional on survival; one glucose and three salt survivors lack specific-force measurements with no stated reason.",
+        "absolute_force_n": "Not separately stated; do not silently assign the specific-force n to the reported absolute-force statistical test."
+      },
+      "force_outcomes": [
+        {
+          "endpoint": "Absolute maximal isometric tetanic EDL force ex vivo",
+          "time": "day 5",
+          "contrast": "salt versus glucose",
+          "result": "less reduced with salt",
+          "p": 0.002,
+          "source": "Results paragraph preceding Figure 6; Figure 5f displays representative traces only",
+          "precision": "A genuine reported direct statistical contrast; no tabulated group mean difference/CI and no separate absolute-force assay n."
+        },
+        {
+          "endpoint": "Specific maximal isometric tetanic EDL force",
+          "time": "day 5",
+          "contrast": "salt versus glucose",
+          "result": "higher with salt",
+          "p_bound": "≤.01 from ** marker in native Figure 5g; exact pairwise P unstated",
+          "omnibus_p": "ANOVA P<.0001 in caption, not interchangeable with the pairwise P",
+          "n": "14 salt, 16 glucose, 15 healthy",
+          "normalization": "Force/estimated muscle cross-sectional area; native axis mN/mm². Methods use CSA=mass/[1.06 mg/mm³ × fibre length], fibre length=0.44×optimal resting length. Caption per-unit-mass wording is imprecise.",
+          "healthy_comparison": "Abstract P=.1 compares salt-treated septic mice with healthy controls; nonsignificance does not prove normalization/equivalence.",
+          "precision": "No tabulated direct difference or CI; plots are means±SEM, no digitization."
+        }
+      ],
+      "positive_nonfunctional": {
+        "regeneration": "Salt increased Myod1, Myf5, Pcna, Myog and reduced Mstn versus glucose; Figure 6 native markers distinguish pairwise thresholds from caption omnibus values. Hdac4/Hdac5 lower and Mef2c higher; these markers do not establish causal mediation or restored mature muscle.",
+        "atrophy_marker": "Fbxo32 upregulation attenuated (Figure 5e ** between septic groups); Trim63 remained elevated without a significant treatment marker.",
+        "lipid_profile": "Supplement S3 shows higher plasma triglycerides (P≤.01 marker) and LDL (P≤.05 marker) toward healthy levels; HDL has no significant treatment marker.",
+        "exposure": "Additional file 7 reports transient plasma 3HB 2.9 mM at 30 min, 1.1 mM at 60 min and 0.3 mM at 120 min after bolus. No cohort n, variability, concurrent control or enantiomer-resolved curve supplied."
+      },
+      "nulls_and_safety": {
+        "mass": "TA and EDL dry mass remained reduced; abstract reports about 25% loss in both septic groups. No significant salt-versus-glucose mass difference in Figure 5c/d.",
+        "survival": "17/20 glucose versus 17/21 salt survivors, Table 1 P=.8; no survival benefit or proof of equivalent safety.",
+        "illness": "Cumulative illness score salt 8.1±1.2 versus glucose 6.5±1.3, P=.2; no significant difference, not no discomfort. Nonsurvivors receive the maximum illness score plus one; this score is not wholly independent of mortality.",
+        "other_nulls": "PAX7-positive satellite cell density unaffected (global P=.6); no treatment difference in measured autophagy, inflammatory or mTOR-related markers in S4. Fatty-acid-oxidation gene profile and liver TG not significantly different between drug groups; mass/metabolic nulls do not prove lack of all activity.",
+        "harms_scope": "No systematic electrolyte/acid-base, renal toxicity or long-term safety demonstration in this 2019 treatment cohort. Absence of lipid-PN steatosis is narrower than general salt safety. Sodium and energy contributions are not separately matched by glucose control.",
+        "mechanism": "Reduced ketolysis-transporter/enzyme expression does not establish absence of substrate oxidation without direct flux studies; regeneration markers are associations, not proven causal mediators."
+      },
+      "lineage": {
+        "reuse": "2021 cholesterol paper PMC8285799 explicitly reuses 2019 absolute-force measurements. Do not credit its force as independent replication.",
+        "assay_mapping": "2019 force n15/16/14 versus 2021 overall cohort captions n15/17/17; exact per-animal assay map remains unavailable.",
+        "other_study": "2021 toxic-threshold experiment separately described; no complete animal-level non-overlap proof from retained lineage sources."
+      },
+      "funding_conflicts_notices": {
+        "funding": [
+          "Flemish Government Methusalem METH14/06",
+          "Research Foundation Flanders G.0C78.17N",
+          "ERC Horizon 2020 AdvG 2017-785809"
+        ],
+        "conflict": "CG, GVdB and LL report inventorship on pending patent PCT/EP2017/081394 related to this manuscript.",
+        "data": "Available from corresponding author on request; no raw data obtained or contact made.",
+        "notices": "No linked correction/retraction in fresh PubMed CommentsCorrections or Crossref update/relation fields on 2026-09-27; metadata check is bounded.",
+        "ethics": [
+          "P50/2015",
+          "P009/2016"
+        ]
+      },
+      "transfer_limits": [
+        "Laboratory D,L sodium salt via SC injections is not an oral food/retail ketone-salt preparation",
+        "No sodium-matched or pure-D versus pure-L contrast",
+        "Male mice with acute induced sepsis and PN; not human critical illness, chronic weakness, MVA or BUB1B deficiency",
+        "No BUB1B/BUBR1 measurement in inspected main/methods/gene table",
+        "No whole-animal grip, walking, exercise endurance, post-treatment recovery or long-term survival endpoint"
+      ],
+      "decision_critical_unknowns": [
+        "Explicit drug-arm randomization and force-assessor blinding",
+        "Injection solvent, purity/batch",
+        "Assay/exclusion reasons and absolute-force analysis n",
+        "Numerical group force differences/CI and multiplicity-adjusted inference",
+        "Enantiomer-specific exposure and sodium-independent benefit",
+        "Raw animal crosswalk and independent replication",
+        "Human/enteral/retail efficacy and safety"
+      ],
+      "depth": "Complete scientific main/abstract/methods/results/discussion, Table 1, all main captions and disclosures read in official XML; native Figures 5–6 and native S3/S4 read; complete Additional file 7 text and Additional file 6 gene table read. Non-drug native main Figures 1–4 and supplemental S1/S2/S5 not visually appraised."
+    },
+    {
+      "record_id": "weckx2021-dl3hb-sodium-sepsis-toxicity",
+      "checked_date": "2026-09-27",
+      "created_utc": "2026-09-27T08:07:54.640672+00:00",
+      "citation": {
+        "title": "Identification of the toxic threshold of 3-hydroxybutyrate-sodium supplementation in septic mice",
+        "authors": "Weckx R et al.",
+        "year": 2021,
+        "journal": "BMC Pharmacology and Toxicology",
+        "doi": "10.1186/s40360-021-00517-7",
+        "pmid": "34544493",
+        "pmcid": "PMC8454128",
+        "url": "https://doi.org/10.1186/s40360-021-00517-7"
+      },
+      "interpretation": "Retain nominal specific-force benefit at 150/180 mg per day among five-day survivors, alongside persistent atrophy, electrolyte abnormalities already at 150, and greater illness/mortality at higher tested doses. No general safe dose, class-wide toxic threshold, human regimen, or food/retail transfer established.",
+      "preparation": {
+        "name": "D,L-3-hydroxybutyrate sodium salt",
+        "designation": "D,L material; actual ratio/purity not analytically reported in this paper",
+        "supplier": "Sigma-Aldrich, Saint Louis, MO, USA",
+        "catalogue_batch_purity": "Not stated in this paper; earlier H6501 details not imported",
+        "vehicle_concentration_volume": "Not reported in inspected main or supplements",
+        "route": "Subcutaneous bolus, twice daily from day 1",
+        "daily_total_mg": [
+          150,
+          180,
+          225,
+          300
+        ],
+        "per_injection_amount": "Daily labels must not be read as per-injection doses. Equal splitting is plausible but no exact split is explicitly quantified.",
+        "comparators": "Glucose 187.5 mg/day called isovolumetric/isocaloric; dose-specific calorie matching across the escalation is unverified. No sodium-matched arm.",
+        "excluded_transfers": [
+          "Oral administration",
+          "Ketone ester",
+          "Continuous ketone infusion",
+          "Food/retail product",
+          "Other cation salt",
+          "D-only material"
+        ]
+      },
+      "model_design": {
+        "animals": "24-week-old male C57BL/6J, mean initial weight 28.9 g ± 0.2 SEM",
+        "illness": "Five-day catheterized CLP sepsis",
+        "support": "Fluid 0.3 mL/h for first 20 h, colloid/crystalloid 1:4; twice-daily antibiotics/analgesia; mixed PN 5.8 kcal/day from day 1",
+        "healthy_control": "Pair-fed standard chow 5.8 kcal/day",
+        "randomization": "Reported; generation/concealment details not given",
+        "blinding": "Caretakers/data collectors blinded; histology two independent scorers with consensus",
+        "design": "Adaptive up/down; reference 150 then 300, de-escalated to 225 then 180. Diagram includes hypothetical branches, not all tested arms.",
+        "survivor_target": 15,
+        "power_protocol": "No formal power calculation or prospective registered protocol/SAP identified in inspected sources",
+        "ethics": "P124/2017",
+        "selection": "All terminal assays condition on survival; post-randomization exclusions and varying assay n prevent all-randomized functional interpretation"
+      },
+      "counts": {
+        "source": "Native Figure 1c; main captions Figures 2-7 and supplementary caption",
+        "included_total": 103,
+        "groups": [
+          {
+            "id": "healthy",
+            "daily_salt_mg": null,
+            "included_n": 14,
+            "survivors_day5": 14,
+            "deaths": 0,
+            "specific_force_n": 13,
+            "edl_dry_mass_n": 13,
+            "blood_gene_water_n": 14,
+            "histology_n": 13,
+            "microglia_n": 14
+          },
+          {
+            "id": "glucose",
+            "daily_salt_mg": null,
+            "included_n": 18,
+            "survivors_day5": 15,
+            "deaths": 3,
+            "specific_force_n": 12,
+            "edl_dry_mass_n": 15,
+            "blood_gene_water_n": 15,
+            "histology_n": 14,
+            "microglia_n": 15
+          },
+          {
+            "id": "salt150",
+            "daily_salt_mg": 150,
+            "included_n": 23,
+            "survivors_day5": 16,
+            "deaths": 7,
+            "specific_force_n": 13,
+            "edl_dry_mass_n": 16,
+            "blood_gene_water_n": 16,
+            "histology_n": 16,
+            "microglia_n": 16
+          },
+          {
+            "id": "salt180",
+            "daily_salt_mg": 180,
+            "included_n": 24,
+            "survivors_day5": 12,
+            "deaths": 12,
+            "specific_force_n": 12,
+            "edl_dry_mass_n": 12,
+            "blood_gene_water_n": 12,
+            "histology_n": 12,
+            "microglia_n": 10
+          },
+          {
+            "id": "salt225",
+            "daily_salt_mg": 225,
+            "included_n": 16,
+            "survivors_day5": 7,
+            "deaths": 9,
+            "terminal_assays": "Pooled with the single salt300 survivor; separate effects not reported."
+          },
+          {
+            "id": "salt300",
+            "daily_salt_mg": 300,
+            "included_n": 8,
+            "survivors_day5": 1,
+            "deaths": 7,
+            "terminal_assays": "Pooled with seven salt225 survivors; separate effects not reported."
+          }
+        ],
+        "pooled225_300": {
+          "included_total": 24,
+          "survivors": 8,
+          "deaths": 16,
+          "specific_force_n": 8,
+          "edl_dry_mass_n": 8,
+          "blood_gene_water_n": 8,
+          "histology_n": 8,
+          "microglia_n": 8
+        },
+        "exclusions": {
+          "presurgical_physical_abnormality": 2,
+          "surgery_death": {
+            "salt300": 1
+          },
+          "catheter_malfunction": {
+            "salt150": 1,
+            "salt225": 4,
+            "salt300": 1
+          },
+          "total_reported": 9,
+          "caution": "Figure1 denominators are included post-exclusion denominators, not verified initial randomized counts. Full flow and reasons for missing assays not supplied."
+        }
+      },
+      "force": {
+        "source": "Figure 7a, main force Methods/Results",
+        "endpoint": "Ex vivo EDL maximal isometric tetanic specific force on day 5",
+        "normalization": "Absolute force divided by estimated CSA; CSA = muscle mass / (1.06 mg/mm3 × 0.44 × optimal muscle length)",
+        "units": "mN/mm2",
+        "caption_issue": "Per unit muscle mass is imprecise relative to native axis/Methods",
+        "salt150": {
+          "versus_placebo": "Higher",
+          "p_bound": "P<=.05",
+          "force_n": 13,
+          "placebo_n": 12
+        },
+        "salt180": {
+          "versus_placebo": "Higher",
+          "p_bound": "P<=.05",
+          "force_n": 12,
+          "placebo_n": 12
+        },
+        "high_pooled": "No significant difference from placebo or other groups; highly variable eight selected survivors; no separate 225/300 efficacy estimate",
+        "healthy_comparison": "P ≥ .3 reported in abstract is not equivalence/normalization",
+        "mass": "EDL dry mass lower than healthy in every septic arm, without detected treatment rescue",
+        "absolute_force": "No group absolute-force result presented",
+        "precision": "No numerically tabulated treatment difference or CI; no digitization",
+        "functional_boundary": "No whole-animal strength, locomotion/endurance, cognition or long-term functional outcome",
+        "plot_summary": "Figure 7 uses medians and interquartile ranges, as stated in its caption."
+      },
+      "survival_illness": {
+        "source": "Native Figure 1b/c, Results and abstract",
+        "salt150": "7/23 deaths versus 3/18 placebo; no detected illness/mortality difference versus placebo is not safety equivalence",
+        "illness_vs150_native": {
+          "salt180": ".03",
+          "salt225": ".04",
+          "salt300": ".0008"
+        },
+        "illness_vs_placebo_native": {
+          "salt180": "<=.01",
+          "salt225": "<=.01",
+          "salt300": "<=.001"
+        },
+        "mortality": "225/300 significantly worse versus 150; 180 versus 150 P = .2. The abstract 30.4%-to-87.5% mortality increase is 150-to-300, not placebo-to-300.",
+        "abstract300_mortality_p": ".002",
+        "illness_reporting_difference": "Abstract gives doubled-dose illness P = .004; native Figure 1b gives 150-versus-300 P = .0008. Statistical test/comparison explanation for difference not supplied.",
+        "score_definition": "Nonsurvivors are assigned the maximum severity score plus one. The illness score therefore partly incorporates death and is not wholly separate morbidity evidence."
+      },
+      "harms_nulls": [
+        {
+          "source": "Figure 2",
+          "finding": "All salt arms including 150: higher Na, pH, HCO3 and lower K/Cl versus glucose; higher doses further change selected measures. Pooled high reduces brain/lung water; liver/muscle water and aldosterone show no detected salt-dose effect."
+        },
+        {
+          "source": "Figure 3",
+          "finding": "High pooled group has greater dentate neuronal-damage scores; CA1/CA3 have no significant group markers. Liver largely null; 180 sinusoidal dilatation significant versus healthy only. No renal histology or cognitive test."
+        },
+        {
+          "source": "Figure 4",
+          "finding": "Kim1 higher and Vnn1 lower at 180/high versus placebo. Ngal shows no salt-dose difference. Creatinine salt arms significant versus healthy only, without placebo markers; avoid claiming placebo-controlled creatinine injury or kidney failure."
+        },
+        {
+          "source": "Figure 5",
+          "finding": "Plasma TNFα and kidney/liver Tnf show no detected salt benefit. Hippocampal Tnf in high pooled group versus 150: P = .02."
+        },
+        {
+          "source": "Supplementary Figure 1",
+          "finding": "Native narrower than Results prose: 180 has CA3 versus healthy * only, without placebo/dentate marker; high pooled CA3 versus healthy **/placebo § and dentate versus placebo §; CA1 unmarked. Exact P values not supplied."
+        },
+        {
+          "source": "Figure 6",
+          "finding": "No placebo differences marked for FFA/glycerol. At 180, Ppara is lower versus glucose (native marker P≤.01) and separately versus 150 (P=.02). Hmgcs2 is lower at 180/high versus glucose. These pathway readouts do not establish functional rescue."
+        }
+      ],
+      "exposure_mechanism": {
+        "reported_30min": "3.45 ± .27 mM at 150, 4.46 ± .26 at 180, 4.88 ± .37 at 225 (means ± SEM)",
+        "late": "Four hours after dose on day 5: treated .17 ± .04 mM versus placebo .19 ± .04, P ≥ .8",
+        "limits": "Sparse different-day samples, not formal clearance; Methods say early whole blood, Results call it plasma; no enantiomer-separated exposure data.",
+        "sodium_intake_reported_mg_per_day": {
+          "placebo": 12.96,
+          "150": 37.05,
+          "180": 45.76,
+          "225": 52.06,
+          "300": 66.75
+        },
+        "causality": "Sodium-overload mechanism inferred; no matched-Na comparator separates sodium from ketone/formulation effects. External ester-safety comparisons cited by authors do not isolate mechanism here.",
+        "sodium_intake_caution": "Values retained exactly as printed in the primary Results: 37.05, 45.76, 52.06 and 66.75 mg/day for 150, 180, 225 and 300 mg/day salt, respectively. Internal arithmetic not independently reconciled; no recalculation substituted."
+      },
+      "statistics": {
+        "tests": [
+          "Student t",
+          "Wilcoxon",
+          "Log-rank",
+          "Pearson chi-square"
+        ],
+        "threshold": "Two-sided P ≤ .05",
+        "multiplicity": "Correction not reported; do not import the 2022 explicit no-correction statement. Numerous nominal tests.",
+        "limits": [
+          "Small groups and few high-dose survivors",
+          "Adaptive design",
+          "Survivor-conditioned force and organ assays",
+          "Pooled 225/300 outcomes",
+          "Unexplained missing assays",
+          "No force effect CI",
+          "Below 150 untested; no minimum effective dose or universal toxic threshold"
+        ]
+      },
+      "funding_notices": {
+        "funding": [
+          "Methusalem Flemish Government METH14/06",
+          "Research Foundation Flanders G.0C78.17N",
+          "ERC Horizon 2020 AdvG 2017-785809"
+        ],
+        "funder_role": "Authors state agencies did not participate in design/data/interpretation/writing",
+        "baxter": "Manufacturer of named PN, not listed as funding source in this paper",
+        "conflicts": "No competing interests declared",
+        "data": "Reasonable request to corresponding author; no raw data obtained",
+        "notices": "No linked correction/retraction located in fresh PubMed CommentsCorrections (empty), Europe PMC correction list (absent), Crossref update-to/relation (absent/empty), or publisher notice text. Bounded check; not universal absence proof."
+      },
+      "lineage_transfer": {
+        "lineage": "References the 2019 finding as confirmed here. No explicit reuse found, but complete animal independence unverified. Confirmed 2019-to-2021 cholesterol force reuse remains context, not repeated efficacy credit.",
+        "no_mva": "No BUB1B/BUBR1 assay, MVA model or rescue endpoint",
+        "food_retail": "Injected research sodium salt under severe sepsis/PN does not establish healthy dietary ketosis or oral retail benefit/harm.",
+        "clinical": "No clinical regimen or dose conversion recommended; no class-wide ketone toxic claim."
+      }
+    }
+  ],
+  "lineage": {
+    "confirmed_reuse": "2019 absolute-force data reused by 2021 cholesterol paper PMC8285799; no extra independent force credit.",
+    "uncertain_nonoverlap": "2021 toxicity describes its own experiment but no complete animal-level independence/non-overlap crosswalk is available.",
+    "context_not_drug_efficacy": "2019 obesity/ATGL/lipid interventions and its Figure 5a/b ketogenesis profiles are not additional sodium-salt drug trials.",
+    "prior_frozen_lineage_source": "External primary packet sources2019/lineage.json; binding retained below."
+  },
+  "clinical_regimen_recommendation": false,
+  "schema_version": "1.0",
+  "status": "SOURCE_QUALIFIED_PRECLINICAL_COMPENSATION",
+  "assembled_at_utc": "2026-09-27T08:26:52.549708+00:00",
+  "candidate_id": "new-dl-sodium-3hb-sepsis",
+  "competitiveness": {
+    "functional_credit": "The 2019 reported absolute-force contrast adds useful preclinical evidence beyond normalized force alone. Preserve it despite the figure showing only representative absolute traces; no exact treatment magnitude/CI or absolute-force assay n was reported.",
+    "limits": "Survivor-only terminal outcomes, persistent atrophy, uncertain 2019 drug-arm allocation/blinding, missing assays, nominal multiple tests and substantial 2021 dose-associated harms prevent a net whole-cohort or clinical claim.",
+    "identity": "One D,L sodium-salt route assessment retains the two studies with their separate catalog, ratio, control and dose information. No equivalence to oral products, D-only ketones, other cations or esters follows.",
+    "mechanism": "Neither study isolates sodium from the ketone anion or demonstrates BUBR1 restoration. Marker associations do not establish a necessary rescue pathway.",
+    "decision": "Retain an exploratory preparation-specific compensation comparison. Niacin/restoration and apitegromab/compensation remain provisional; no head-to-head or MVA superiority is established.",
+    "next_evidence": "Measured feasible exposure, sodium-matched and preparation-appropriate controls, absolute useful output with survival/starting-unit denominators, renewable reserve and chromosome fidelity. BUBR1 mediation is additionally required only for restoration claims."
+  },
+  "remaining_mechanistic_followup": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8285799/",
+    "scope": "Earlier lineage reading established reuse of 2019 force data; a complete independent mechanistic appraisal of human association, tracer results and causal necessity remains pending. No additional force replication is assigned."
+  },
+  "scope": {
+    "new_original_queue_reading_credit": 0,
+    "new_independent_replication_credit": 0,
+    "global_completeness": "Broader compound enumeration and efficacy review remain incomplete.",
+    "clinical_regimen": "None proposed; animal exposures are source descriptors."
+  },
+  "metadata": {
+    "source_packet": "ketone-salt-sepsis-primary-20260927",
+    "raw_primary_assets_external": true,
+    "source_and_review_bindings": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-followup-20260927/independent/final-bindings.json",
+        "sha256": "48981d6dc73c09c13e9b4e831a8704f8a1f9c380613912033c90e34ef8e957eb"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-followup-20260927/independent/findings.json",
+        "sha256": "d414b40af231ae3510a120ba70fe084bc664f1dbee3054e55118c3300696ec28"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-followup-20260927/independent/findings.md",
+        "sha256": "45fb1ee5ef157d85fe87aa950690aa6dcae6e22ee2d0aec677cd3f49efc38f6a"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-followup-20260927/independent/reading-scope.json",
+        "sha256": "e6439c24179ad49abf5b15766011e50fc0eadadd67535465a942b4a7dc9153b8"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-followup-20260927/independent/source-bindings.json",
+        "sha256": "8a6bd7b7d372e2d315c04ebb8a60b7f92a03e3032689dac16d4d8e38bb28fd8d"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-followup-20260927/root-reading.json",
+        "sha256": "14cf520fbd41e30d1e8964605902317480425062c8cd2d6109f61be4b7eff462"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/final-bindings.json",
+        "sha256": "9a9eb40258f75ca21c295fbf43217fcd62c18be68f5cd6f9be5da29225a18f5f"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/qualification.json",
+        "sha256": "cba88869eddcfc6ea4dc44f31f3099cc33ae6edfe6dd80ef2662c608b25069f6"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/qualification.md",
+        "sha256": "85bc8ff9034ce801419a00c1a2f4f1f63234d6fba3c29e289ca86cb7fa783c8b"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/reading-scope.json",
+        "sha256": "6b14eca1cb215dcc6284f3c8bf97acb2b9630370a9d1cc1905d59ba09fc36afa"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/reading-scope2019.json",
+        "sha256": "4df33f1ee34b31a0cfdfbb1f856fbd06505d78a6d57cc19af177a2a7c7fa9915"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/retrieval2019.json",
+        "sha256": "aefcaae195f0f62d0c18af1fc9981f4717b363f8c66be541daab3a18587aa14c"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/source-manifest.json",
+        "sha256": "57563283f640ba28a054221a307fd99117d61989c16c97493fd8ea3709abf728"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/source-manifest2019.json",
+        "sha256": "ad8a71372b442d12ceadf96acfcda54faefcd80252d2c761448468f3addfa061"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/study2019.json",
+        "sha256": "cb3368df3b2d115fe0d63880a3d85bc5d029021791b94bd3d7318bbbe5bff997"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/study2019.md",
+        "sha256": "8b54e44e733fa2c21b55cc397ad03ccae3a1b1b57e21e34de45d33fdacd74ef7"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/toxicity2021/final-bindings.json",
+        "sha256": "0c314cd5ef9f417bcaa468816c958ece9cc05f541d889f6f153ccd1f5cba66e2"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/toxicity2021/qualification.json",
+        "sha256": "f2759b03ca898089ef796e98928cca091acb82b8c58eef8791c876aebb65cd26"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/toxicity2021/qualification.md",
+        "sha256": "89b9ba7bd645188c4fc0e763e1e93a2e232c12e8ce90bbbc5cca5bf6072d416d"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/toxicity2021/reading-scope.json",
+        "sha256": "66157b8d974983168be03147e7c00e6b889bd59ab08d6a3dcf38e4cdd9151b54"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-salt-sepsis-primary-20260927/toxicity2021/source-manifest.json",
+        "sha256": "54b544925593cfdbe7cd8dca8250fe796dd3371f928bbfe0421324240ecff7a6"
+      }
+    ],
+    "root_reading": {
+      "2019": "Complete combined and study source qualifications; selected original drug-force paragraph and methods/captions; native Figure 5 all panels, separating prior experiment panels a/b. Not a second complete root scientific-main read.",
+      "2021": "Complete source qualification and combined structured data; selected original illness-score/force text; native Figures 1,2,6,7 all panels. No figure digitization.",
+      "independent": "Independent review read both complete mains and relevant native/supplement sources, with additional child corroboration for 2021. Two precision notes incorporated into this synthesis."
+    },
+    "downstream_precision_notes": [
+      "Both illness scores partly incorporate death.",
+      "Ppara 180-versus-glucose P≤.01 is distinct from 180-versus-150 P=.02."
+    ]
+  }
+}
