@@ -1,0 +1,1022 @@
+{
+  "schema_version": 1,
+  "status": "PORTABLE_PREPARATION_PROPOSAL_PENDING_SEPARATE_SYNTHESIS_REVIEW",
+  "date": "2026-09-27",
+  "decision_id": "new-tieland-mpc80-drink",
+  "preparation_aliases": [
+    "Tieland 2012 MPC80 drink"
+  ],
+  "identity_baseline": {
+    "type": "immutable_git_blob",
+    "repository": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
+    "commit": "572f3e460dff7880e6030db4143512bb79194abc",
+    "path": "workflow/track2-drug-census/decisions.json",
+    "git_blob": "d1bc51f13a54c5a96d46fc1e20d7589ebf758b1c",
+    "bytes": 465747,
+    "sha256": "0a1c912e21997e4c2b9b7173e050c4e0ca0515506217edec466b921ff1d319a3",
+    "decision_count": 268,
+    "scope": "Historical identity baseline only. Root is separately integrating AR-12/sildenafil/AR-13; a fresh clean-baseline identity check is required before applying this proposal."
+  },
+  "acceptance": {
+    "source_primary_qualified": true,
+    "independent_primary_review_status": "ACCEPT",
+    "independent_required_corrections": [],
+    "portable_synthesis_review_status": "PENDING",
+    "ready_document_integration_review_status": "NOT_REQUESTED",
+    "repository_integration_status": "NOT_PERFORMED",
+    "historical_source_status_preserved_verbatim": "PRIMARY_SOURCE_QUALIFIED_FROM_FULL_AUTHOR_REPORT_WITH_VERSION_AND_REPORTING_LIMITS_PENDING_INDEPENDENT_REVIEW",
+    "historical_pending_labels": "Embedded source-level pending-review flags record the frozen producer state. The later independent acceptance is a separate bound record, not a retrospective rewrite."
+  },
+  "source_qualification": {
+    "status": "PRIMARY_SOURCE_QUALIFIED_FROM_FULL_AUTHOR_REPORT_WITH_VERSION_AND_REPORTING_LIMITS_PENDING_INDEPENDENT_REVIEW",
+    "date": "2026-09-27",
+    "study": {
+      "pmid": "22889730",
+      "doi": "10.1016/j.jamda.2012.07.005",
+      "title": "Protein supplementation improves physical performance in frail elderly people: a randomized, double-blind, placebo-controlled trial",
+      "journal": "J Am Med Dir Assoc. 2012;13(8):720-726",
+      "europepmc_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22889730%20AND%20SRC:MED&format=json&resultType=core",
+      "university_record_url": "https://research.wur.nl/en/publications/protein-supplementation-improves-physical-performance-in-frail-el/",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S1525861012002289",
+      "publisher_pdf_status": "403 at https://www.jamda.com/article/S1525-8610(12)00228-9/pdf; original journal PDF not recovered."
+    },
+    "identity_check": {
+      "baseline": {
+        "revision": "572f3e460dff7880e6030db4143512bb79194abc",
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "sha256": "0a1c912e21997e4c2b9b7173e050c4e0ca0515506217edec466b921ff1d319a3",
+        "count": 268,
+        "exact_pmid_doi_tieland_hits": [],
+        "worktree_clean_at_refresh": true
+      },
+      "earlier_baseline_preserved": "f1006fc60fb9a47191d5711bc4e22722b06cb18f had 265 appraisals; working 268 observed before commit refresh.",
+      "source_already_assessed": false,
+      "scope": "No PMID, exact DOI or Tieland string occurs in the committed268 decisions; initial265-ledger search also found no whey/dairy/milk/protein-drink/casein text. Identity checks do not prove universal source absence elsewhere or unique-compound identity."
+    },
+    "central_judgment": "The exact twice-daily MPC80 beverage has randomized, source-qualified evidence of improved secondary physical performance over24 weeks in pre-frail/frail older adults. Primary total lean mass was null and neither leg-extension nor chair-rise interaction met alpha = .05. Preserve the functional positive as a preparation-specific compensation comparison without generic protein/whey efficacy, BUBR1 restoration, MVA benefit or superiority over provisional nominees.",
+    "source_version_limit": {
+      "url": "https://edepot.wur.nl/258500",
+      "identity": "Michael C.A.B. Tieland, Dietary strategies to augment muscle mass in the elderly, Wageningen PhD thesis, 2013, ISBN 978-94-6173-567-6. Chapter 3 reproduces the authors/title and JAMDA 2012 report.",
+      "source_version": "Author thesis reproduction of the trial report; not claimed byte-identical to the journal version of record.",
+      "pages": "Printed 45-63 / PDF pages 46-64, including references. Scientific text through printed 59 / PDF60.",
+      "binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/sources/tieland-thesis.pdf",
+        "bytes": 4563371,
+        "sha256": "97992f4785d28957e608848b1a28084aaf76307e1eb18c50db1404410e831f1b"
+      }
+    },
+    "intervention": {
+      "active": "250 mL vanilla-flavored beverage containing15 g protein as milk protein concentrate MPC80, 7.1 g lactose, 0.5 g fat and 0.4 g calcium; one after breakfast and one after lunch for24 weeks.",
+      "provider": "FrieslandCampina Consumer Products Europe, Wageningen, Netherlands.",
+      "daily_reported_totals": "500 mL beverage and30 g supplemental protein; twice the listed per-serving lactose/calcium.",
+      "comparator": "250 mL matching vanilla-flavored opaque-package beverage with no protein, 7.1 g lactose and0.4 g calcium, twice daily. No placebo-fat quantity or complete kcal label is supplied in the read chapter.",
+      "energy_interpretation": "Reported formulation does not establish an energy-matched comparator. Added protein brings energy as well as nitrogen; protein-specific effects cannot be fully isolated from additional energy. No kcal value or unreported placebo ingredient was invented.",
+      "identity_limits": [
+        "MPC80 is the source ingredient label, not an80:20 casein/whey declaration.",
+        "Whey/casein proportion, amino-acid profile, leucine content, batch assay, retail brand equivalence and current formulation are unverified.",
+        "No transfer to isolated whey, casein, all dairy products, all dietary protein, or a generic retail drink."
+      ],
+      "adherence": "At least92%, assessed by ticked calendars and returned/non-consumed drinks; no between-group difference reported.",
+      "cointerventions": "This target trial has no prescribed resistance-training program. Repeated strength testing/familiarization is distinct from a training intervention. Habitual activity changes were not reported in this chapter."
+    },
+    "design": {
+      "randomized": 65,
+      "arms": {
+        "protein": 34,
+        "placebo": 31
+      },
+      "population": "Men and women age>=65, pre-frail or frail by Fried criteria. Mean age78±1y protein and81±1y placebo; means±SEM. Exact proportions pre-frail versus frail not given in the recovered baseline table.",
+      "recruitment": "734 invited,165 screened,65 included; recruitment December 2009-October2010.",
+      "important_exclusions": "Cancer,COPD, diabetes screened by fasting glucose>=7mmol/L, eGFR<60mL/min/1.73m2; no structured exercise-program history in prior2 years. Registry additionally names milk-protein allergy/sensitivity and anticoagulant use except acetylsalicylic acid.",
+      "allocation": "Independent person; computer-generated random numbers; permuted blocks of 4 stratified by sex.",
+      "masking": "Report titled double-blind; opaque vanilla packages described, biopsy image investigator blinded. Current registry lists quadruple masking. Specific target-chapter staff blinding/unblinding success and concealment implementation are not separately documented.",
+      "withdrawals": "8 withdrew,4 per arm;4 withdrawn participants agreed to final assessment. Reasons, returning-dropout allocation and endpoint-specific missingness by visit are not tabulated.",
+      "analysis": "Authors describe intention-to-treat and an a priori data-analysis plan, with mixed linear models, Toeplitz covariance, time/treatment/interaction fixed and subject random. They state per-protocol results did not differ but do not provide those full estimates. Outcome-specific analysis samples are smaller than65; do not label all as65 completers.",
+      "primary": "DXA total lean mass; planned 1.14 kg between-arm difference, SD 1.4 kg,power 80%,alpha .05,24 per arm minimum, 30 per arm targeted with25% dropout allowance. DXA lean tissue is not a direct measurement of contractile protein or faithful cell renewal.",
+      "secondary": "Muscle fiber CSA, 1-RM leg strength,handgrip and SPPB; blood/diet/general health outcomes also described.",
+      "multiplicity": "No recovered multiplicity correction or hierarchical gatekeeping plan. A secondary nominal P = .02 is retained as such; it does not become a primary endpoint or disappear because mass is null.",
+      "model_effect_limit": "No adjusted between-arm change estimate or confidence interval is supplied. Printed means are rounded; no CI reconstructed from SEM."
+    },
+    "outcomes": [
+      {
+        "name": "SPPB composite",
+        "role": "Secondary functional outcome",
+        "sample_n": 61,
+        "protein_baseline": 8.9,
+        "protein_week24": 10.0,
+        "placebo_baseline": 7.8,
+        "placebo_week24": 7.9,
+        "all_printed_mean_SEM": 0.6,
+        "units": "0-12 points",
+        "contrast": "Treatment×time interactionP = .02 over the repeated intervention measurements.",
+        "interpretation": "A real nominal between-arm trajectory benefit. Roughly+1.1 versus+0.1 points from rounded means is descriptive only, not the adjusted model contrast. Baseline protein-group score was already1.1points higher. No separate balance-component effect, disability reduction, falls, hospitalization or survival benefit was measured here.",
+        "source": "Printed55/Figure3.2;abstract"
+      },
+      {
+        "name": "Total lean mass",
+        "role": "Primary",
+        "sample_n": 62,
+        "protein": "45.8±1.7 to45.8±1.7kg",
+        "placebo": "46.7±1.7 to46.6±1.7kg",
+        "contrast": "No treatment,time or interaction significance reported, P > .05.",
+        "interpretation": "No detected mass benefit, not equivalence or exclusion of smaller effects.",
+        "source": "Printed53-54/Figure3.1"
+      },
+      {
+        "name": "Leg press1-RM",
+        "sample_n": 50,
+        "protein": "118±8 to136±8kg",
+        "placebo": "124±9 to139±9kg",
+        "contrast": "TimeP < .001;interactionP > .05.",
+        "interpretation": "Improvement in both groups is not a protein-specific benefit.",
+        "source": "Table3.3"
+      },
+      {
+        "name": "Leg extension1-RM",
+        "sample_n": 50,
+        "protein": "57±5 to68±5kg",
+        "placebo": "57±5 to63±5kg",
+        "contrast": "InteractionP = .059;timeP < .0001.",
+        "interpretation": "Does not meet statedalpha = .05; not a confirmed between-arm strength gain.",
+        "source": "Table3.3"
+      },
+      {
+        "name": "Handgrip",
+        "sample_n": 65,
+        "protein": "26±2 to26±2kg",
+        "placebo": "26±2 to26±2kg",
+        "contrast": "No interaction or main effects, P > .05.",
+        "source": "Table3.3"
+      },
+      {
+        "name": "Walking-time row labeled gait speed",
+        "sample_n": 61,
+        "protein": "5.5±0.6 to5.6±0.6sec",
+        "placebo": "6.1±0.6 to6.3±0.6sec",
+        "contrast": "No interaction or main effects, P > .05.",
+        "source": "Table3.3",
+        "limit": "Source reports seconds, not a velocity; no gait-speed benefit inferred."
+      },
+      {
+        "name": "Chair-rise time",
+        "sample_n": 48,
+        "protein_table": "13.2±1.0 to11.1±1.1sec",
+        "protein_prose_baseline": "13.7±1.0sec",
+        "placebo": "11.9±1.1 to14.1±1.2sec",
+        "contrast": "InteractionP = .055.",
+        "interpretation": "Does not meet the nominal alpha = .05. No multiplicity-corrected threshold was supplied. Table-versus-prose baseline discrepancy is retained.",
+        "source": "Table3.3 and printed55"
+      },
+      {
+        "name": "Other body composition",
+        "sample_n_by_measure": {
+          "body_weight": 65,
+          "fat_mass_ALM_BMC": 62,
+          "type_I_and_II_fiber_CSA": 46
+        },
+        "result": "No significant treatment,time or interaction effects;typeII fibers smaller than typeI overall.",
+        "source": "Table3.2",
+        "limit": "Author-copy CSA unit label readsmm² beside values around3-5; no numerical fiber-area inference or silent rescaling is made."
+      },
+      {
+        "name": "Habitual intake",
+        "sample_n": 65,
+        "result": "Diet excluding supplements showed no protein/macronutrient interaction; energy declined over timeP = .04,interactionP = .60. Reported total protein with supplements rose from about 1.0 to 1.4 g/kg/day in protein arm.",
+        "source": "Table3.4 and text"
+      },
+      {
+        "name": "Blood and general health",
+        "result": "Glucose,insulin,eGFR,SF-12,blood pressure andMMSE reportedly unchanged over time/in groups;follow-up numeric results are data not shown.",
+        "source": "Printed55-56"
+      }
+    ],
+    "registry": {
+      "identity": "NCT01109628 / A1002-1",
+      "actual_enrollment": 65,
+      "current_primary": "Change in skeletal muscle mass at baseline,3 months,6 months",
+      "current_secondary": "Physical performance,blood parameters,diet,physical activity,cognition and blood pressure; detailed instrument-wise endpoint hierarchy not supplied.",
+      "timing": {
+        "study_start": "2009-11",
+        "first_submitted": "2010-02-12",
+        "first_posted": "2010-04-23",
+        "completion": "2011-07",
+        "last_update_posted": "2025-04-04"
+      },
+      "interpretation": "First submission/posting followed the stated study start and recruitment start. Current record agrees broadly with primary/secondary roles, but original registration version/SAP were not recovered; do not claim fully prospective unmodified prespecification.",
+      "results_posted": false
+    },
+    "safety": {
+      "reported": "Discussion states no health complaints/side effects and no renal-function effect over24 weeks;adherence>=92%.",
+      "limits": "No adverse-event table,ascertainment protocol,adjudication,serious-event counts or withdrawal reasons recovered;renal follow-up is data not shown. Baseline renal disease and major illness exclusions restrict applicability. This is not proof of universal tolerability,renal safety or safety for a child withMVA."
+    },
+    "funding_and_conflicts": {
+      "beverage_provider": "FrieslandCampina explicitly named in Methods.",
+      "research_framework": "Thesis colophon says studies performed within TI Food and Nutrition framework; registry sponsor Wageningen University with Maastricht and TI Food and Nutrition collaborators.",
+      "printing_support": "Wageningen University,TI Food & Nutrition,NZO,Nutricia Advanced Medical Nutrition/Danone named specifically for printing the thesis; not relabeled trial funding.",
+      "author_conflicts": "Indexed original publisher-page text says authors report no conflicts; full journal declaration page not recovered. Thesis chapter gives no fuller trial-specific funding-role disclosure.",
+      "limit": "Funding amount,commercial influence on design/analysis/publication and contract provisions are unverified; no misconduct inference."
+    },
+    "companion": {
+      "pmid": "22770932",
+      "doi": "10.1016/j.jamda.2012.05.020",
+      "registry": "NCT01110369 / A1002-2",
+      "participants": 62,
+      "design": "Protein versus placebo with both arms receiving twice-weekly resistance training for24 weeks.",
+      "bounded_original_result": "Author-report abstract gives lean-mass interactionP = .006, while strength andSPPB improved in both arms without added protein interaction.",
+      "boundary": "Separate registered comparison and exercise background; do not pool with or transfer its mass result to the65-person trial without prescribed training trial. Individual-level overlap/independence was not audited; not counted as independent replication of the secondary SPPB benefit.",
+      "actual_depth": {
+        "limit": 1,
+        "identity": "PMID22770932 / NCT01110369, exercise-plus-protein comparison",
+        "actual_pages": [
+          66,
+          67,
+          69,
+          70
+        ],
+        "scope": "Title, abstract, selected Methods and product/blinding pages; current registry identity/design/arms/outcomes, original metadata. No native companion tables/plots or whole-paper reading credit; no cohort-pooling or independent replication claim."
+      }
+    },
+    "source_discrepancies": [
+      "Chair-rise protein baseline13.2sec in table versus13.7sec in prose.",
+      "Fiber-CSA units in author-copy table need confirmation before absolute-area use.",
+      "65 randomized does not equal endpoint analysisn or fully observed24-week completions.",
+      "Currentregistry firstpost follows study start; original history/SAP unavailable."
+    ],
+    "publication_notice_check": {
+      "comment_links": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "22951026",
+            "reference": "J Am Med Dir Assoc. 2012 Oct;13(8):667-8. doi: 10.1016/j.jamda.2012.07.014",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "23031263",
+            "reference": "J Am Med Dir Assoc. 2013 Jan;14(1):62-3. doi: 10.1016/j.jamda.2012.08.017",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "23098416",
+            "reference": "J Am Med Dir Assoc. 2013 Jan;14(1):63-5. doi: 10.1016/j.jamda.2012.09.009",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "23123006",
+            "reference": "J Am Med Dir Assoc. 2013 Jan;14(1):66-7. doi: 10.1016/j.jamda.2012.09.020",
+            "type": "Comment in",
+            "orderIn": 4
+          },
+          {
+            "source": "MED",
+            "id": "23128023",
+            "reference": "J Am Med Dir Assoc. 2013 Jan;14(1):65-6. doi: 10.1016/j.jamda.2012.09.017",
+            "type": "Comment in",
+            "orderIn": 5
+          },
+          {
+            "source": "MED",
+            "id": "23128025",
+            "reference": "J Am Med Dir Assoc. 2013 Jan;14(1):73-4. doi: 10.1016/j.jamda.2012.09.028",
+            "type": "Comment in",
+            "orderIn": 6
+          },
+          {
+            "source": "MED",
+            "id": "23131547",
+            "reference": "J Am Med Dir Assoc. 2013 Jan;14(1):67-9. doi: 10.1016/j.jamda.2012.09.025",
+            "type": "Comment in",
+            "orderIn": 7
+          },
+          {
+            "source": "MED",
+            "id": "23206724",
+            "reference": "J Am Med Dir Assoc. 2013 Feb;14(2):144-5. doi: 10.1016/j.jamda.2012.11.003",
+            "type": "Comment in",
+            "orderIn": 8
+          }
+        ]
+      },
+      "result": "Eight Comment in links are recorded; no correction/retraction type appeared in recovered Europe PMC metadata or bounded exact-DOI correction/erratum/retraction search. Comment full texts were not read and are not adjudicated as resolved.",
+      "limit": "Bounded metadata/discovery check, not exhaustive integrity assurance."
+    },
+    "remaining_limits": [
+      "Journal-version-of-record PDF not recovered; full author report is the primary reading basis.",
+      "No separate supplement/protocol/SAP or registry history recovered.",
+      "Linked commentary bodies unreviewed.",
+      "No retail formulation equivalence,casein:whey ratio,complete caloric label or protein-versus-energy isolation.",
+      "Missingness reasons and arm-by-visit endpoint denominators incompletely reported.",
+      "No direct mechanistic BUBR1/checkpoint/renewal or MVA outcome."
+    ],
+    "reading_scope_file": "reading-scope.json",
+    "source_access_file": "source-access.json",
+    "independent_review_pending": true,
+    "repository_edit_or_ledger_proposal": false,
+    "new_tests_replays_or_statistical_reanalysis": false
+  },
+  "provenance": {
+    "source_qualification_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/qualification.json",
+      "bytes": 17989,
+      "sha256": "f5c4355c741d9501dda7da8f526093f2203b460e459e13abafaefe7e92bc6b6b"
+    },
+    "source_qualification_markdown": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/qualification.md",
+      "bytes": 12072,
+      "sha256": "bc8db2fe1be638847066649bb0904684f8029b5d3a6bd0a9b4f191d620cb3ca7"
+    },
+    "source_packet_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/final-bindings.json",
+      "bytes": 5064,
+      "sha256": "1fab5ffb6d7570524a74c2d50d4caf813dc1b38873a2346985fb5005d4c060c0"
+    },
+    "independent_review": {
+      "review": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/independent-review/review.json",
+        "bytes": 7413,
+        "sha256": "4d2246f5cc6811be4d23346de926d10fe1a334f13efb54137d0ece2a571917cf"
+      },
+      "manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/independent-review/final-bindings.json",
+        "bytes": 2747,
+        "sha256": "b8744757bfd9aad5f6f05a5113239d3e6a120f2afdab590b831a50aaa0b5d8bb"
+      },
+      "status": "ACCEPT",
+      "required_corrections": [],
+      "findings_verbatim": [
+        {
+          "topic": "Author-report identity and version boundary",
+          "status": "ACCEPT",
+          "locators": [
+            "Thesis Chapter 3 title/abstract, PDF 46–47",
+            "Thesis identity/ISBN pages",
+            "Target Europe PMC identity/abstract",
+            "source-access.json"
+          ],
+          "finding": "Author, title, journal identification and abstract agree with PMID 22889730 / DOI 10.1016/j.jamda.2012.07.005. The complete author thesis report is an adequate stated primary reading basis; journal-version byte equivalence, journal-native PDF, supplement/SAP or registry-history reading is not claimed."
+        },
+        {
+          "topic": "Exact MPC80 exposure and control",
+          "status": "ACCEPT",
+          "locators": [
+            "Native PDF 50 / printed 49, Protein supplementation",
+            "Chapter 3 Methods"
+          ],
+          "finding": "250 mL twice daily after breakfast/lunch for 24 weeks, 15 g MPC80 protein per serving, 7.1 g lactose, 0.5 g fat and 0.4 g calcium match the source. Placebo lists no protein, the same lactose/calcium, and no fat/calorie specification. The comparison cannot establish protein-specific isolation from added energy. No invented calorie total, casein:whey ratio, isolated-whey identity, amino-acid profile or retail equivalence is introduced."
+        },
+        {
+          "topic": "Randomization, hierarchy and analysis samples",
+          "status": "ACCEPT",
+          "locators": [
+            "Chapter 3 Methods, PDF 49, 52–53",
+            "Native Table 3.1, PDF 53",
+            "Native Table 3.2/Figure 3.1/Table 3.3/Figure 3.2, PDF 54–56"
+          ],
+          "finding": "65 randomized (34 protein/31 placebo), eight withdrawals (four per arm) and four final-returning withdrawals are retained without treating 65 as completers. Outcome analysis n remains DXA 62, SPPB/gait 61, 1-RM 50, chair-rise 48, fiber CSA 46, handgrip/body weight 65. Allocation is independently generated, sex stratified in blocks of four. Primary lean mass and secondary strength/function roles and mixed-model/Toeplitz analysis are preserved."
+        },
+        {
+          "topic": "Functional positive versus primary and strength nulls",
+          "status": "ACCEPT",
+          "locators": [
+            "Native Figure 3.1 and Table 3.3, PDF 55",
+            "Native Figure 3.2 and Results, PDF 56",
+            "Chapter 3 abstract and Discussion"
+          ],
+          "finding": "SPPB 8.9±0.6 to 10.0±0.6 versus 7.8±0.6 to 7.9±0.6, interaction P=.02, is a nominal secondary trajectory benefit. The baseline imbalance and rounded descriptive changes are explicit; no adjusted difference/CI is invented. Primary lean mass is null, leg-extension P=.059 and chair-rise P=.055 do not meet alpha .05, and common within-arm strength improvement is not an added protein effect. No falls/disability/mortality benefit was measured."
+        },
+        {
+          "topic": "Multiplicity, missingness and printed discrepancies",
+          "status": "ACCEPT",
+          "locators": [
+            "Chapter 3 statistical Methods and withdrawal paragraph",
+            "Native Table 3.3 versus Results, PDF 55–56",
+            "Native Table 3.2, PDF 54",
+            "Native Table 3.4, PDF 57"
+          ],
+          "finding": "The stated a priori plan is not independently recovered; no multiplicity/hierarchical gate is shown. Missingness reasons and arm-by-visit denominator mapping are not tabulated, and per-protocol similarity has no full estimates. Chair protein baseline 13.2 seconds in the table versus 13.7 in prose, fiber-CSA mm² label, and gait-in-seconds label remain unrepaired source discrepancies. Diet effects exclude supplements and do not remove the energy contrast."
+        },
+        {
+          "topic": "Registry timing and safety/disclosure scope",
+          "status": "ACCEPT",
+          "locators": [
+            "Retained NCT01109628 protocolSection/statusModule and outcomesModule",
+            "Chapter 3 Discussion and unshown follow-up results",
+            "Thesis printing-support page",
+            "Indexed publisher declaration excerpt"
+          ],
+          "finding": "Registry start November 2009 and chapter recruitment December 2009 predate first submission February 2010 and posting April 2010; 2025 current-record update is not original prospective prespecification. Reported no side effects/renal change is limited by unshown follow-up, absent event/withdrawal tables and restricted eligibility. Provider, research framework and printing sponsorship are separated; the no-conflict phrase is attributed only to the indexed publisher excerpt, not a recovered full declaration page."
+        },
+        {
+          "topic": "Separate companion exercise trial",
+          "status": "ACCEPT",
+          "locators": [
+            "Chapter 4 selected pages 66,67,69,70",
+            "Companion PMID 22770932 metadata",
+            "NCT01110369 identity/design/arms/outcomes"
+          ],
+          "finding": "The 62-person exercise-background trial has a separate registry and both arms trained twice weekly. Its abstract reports lean-mass interaction P=.006 and no added strength/SPPB interaction. The limited companion reading is correctly attributed, no pooling or mass-gain transfer occurs, and individual participant independence is not assumed."
+        },
+        {
+          "topic": "Eight linked comments",
+          "status": "ACCEPT_WITH_RETAINED_CONTENT_LIMIT",
+          "locators": [
+            "linked-comment-check.json",
+            "linked-comments-europepmc.json"
+          ],
+          "finding": "All eight exact linked identities were resolved: one editorial and seven perspective/comment letters, with no correction/retraction classification or explicit correction/error title encountered. They all link to both trial reports. No abstracts or full bodies were qualified. Substantive critique is therefore not adjudicated, and this metadata result neither erases the reported functional positive nor certifies its robustness."
+        }
+      ]
+    },
+    "raw_sources_stay_external": true
+  },
+  "reading_attribution": {
+    "source_qualifier": {
+      "binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/reading-scope.json",
+        "bytes": 2148,
+        "sha256": "b4df7ef660bf69f6b4e9cf723690eab2d1da079af492818d17ed0611228c7582"
+      },
+      "scope_verbatim": {
+        "date": "2026-09-27",
+        "role": "Primary source qualifier; independent review pending.",
+        "main_reading": {
+          "source_version": "Original author thesis reproduction, Chapter 3",
+          "complete_scientific_text": "Read title/abstract, Introduction, all Methods, all Results, Discussion/conclusion and acknowledgments on printed45-59 / PDF46-60. Reference pages retained and used only as citation pointers, not independently read papers.",
+          "native_pages_viewed": [
+            50,
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "native_scope": "Complete relevant native PDF pages: product and testing Methods; Table3.1 participant characteristics; Table3.2 body-composition outcomes; Figure3.1 lean-mass plot; Table3.3 function/strength; Figure3.2 SPPB plot; Table3.4 diet. Axes, legends, footnotes, denominators and chair-rise discrepancy inspected.",
+          "not_done": [
+            "No numerical graph digitization",
+            "No patient-level, endpoint reanalysis or new statistical tests",
+            "No journal-version equivalence claim",
+            "No whole-thesis reading credit",
+            "No native journal PDF or original supplement reading"
+          ]
+        },
+        "registry_and_metadata": "Read full current target ClinicalTrials.gov JSON and target Europe PMC identity/abstract/notice metadata. Registry history/SAP unavailable.",
+        "companion_reading": {
+          "limit": 1,
+          "identity": "PMID22770932 / NCT01110369, exercise-plus-protein comparison",
+          "actual_pages": [
+            66,
+            67,
+            69,
+            70
+          ],
+          "scope": "Title, abstract, selected Methods and product/blinding pages; current registry identity/design/arms/outcomes, original metadata. No native companion tables/plots or whole-paper reading credit; no cohort-pooling or independent replication claim."
+        },
+        "other_selected_thesis_content": "Front identity pages and final printed152/PDF153 publishing-support statement. Printing sponsorship is separated from trial funding.",
+        "publication_comment_bodies_read": false,
+        "new_retrieval": true,
+        "repository_or_other_packet_edits": false,
+        "ledger_proposal": false,
+        "tests_replays_or_new_statistical_analysis": false
+      }
+    },
+    "independent_primary_reviewer": {
+      "binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/independent-review/reading-scope.json",
+        "bytes": 5478,
+        "sha256": "f5d6836df751c02a9c11db4cec86563b1e9ad6ae4df6a5d5052afdf413973ad0"
+      },
+      "scope_verbatim": {
+        "status": "INDEPENDENT_PRIMARY_REVIEW_READING_COMPLETE",
+        "created_at_utc": "2026-09-27T15:40:51.588294+00:00",
+        "review_role": "Independent review of the frozen author-thesis primary qualification.",
+        "primary_source_version": "Tieland 2013 Wageningen author thesis, Chapter 3, not the final journal typeset version.",
+        "main_reading": {
+          "source_text": {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/sources/chapter3-original-author-report.txt",
+            "bytes": 46909,
+            "sha256": "2a7661fc4a79ae558ac389cc6a54c6e8b74d76a6a6f2f65a789e46e0f96ba797"
+          },
+          "source_pdf": {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/sources/tieland-thesis.pdf",
+            "bytes": 4563371,
+            "sha256": "97992f4785d28957e608848b1a28084aaf76307e1eb18c50db1404410e831f1b"
+          },
+          "actually_read": "Complete title/abstract, Introduction, all Methods, Results, Discussion/conclusion and acknowledgments, printed pages 45–59 / PDF pages 46–60. Reference pages printed 60–63 / PDF 61–64 inspected as citation pointers only; cited papers were not retrieved/read.",
+          "selected_front_and_end_pages": "Thesis identity/author/ISBN/2013 defense pages and PDF page 153 printing-support text inspected in retained layout extraction.",
+          "not_claimed": "No full 154-page thesis reading, final journal PDF reading/equivalence, original journal declaration page, separate supplement, original protocol or SAP."
+        },
+        "native_pages_viewed": [
+          {
+            "pdf_page": 50,
+            "file": {
+              "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/sources/native-thesis-page-050.png",
+              "bytes": 218324,
+              "sha256": "e3b6b6dccb78dfdd768dbd9bfb3c32f5eb387db4626e9242889ac5f85528e5f8"
+            }
+          },
+          {
+            "pdf_page": 53,
+            "file": {
+              "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/sources/native-thesis-page-053.png",
+              "bytes": 151441,
+              "sha256": "8ba1397ef12e1c5e1813cb96e88431ac6b428b9876f06a6099f950c6592b4622"
+            }
+          },
+          {
+            "pdf_page": 54,
+            "file": {
+              "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/sources/native-thesis-page-054.png",
+              "bytes": 181330,
+              "sha256": "521fdf2f654f86a13bbb46f697de9759d4e1b0025870bb030622271fe04bc932"
+            }
+          },
+          {
+            "pdf_page": 55,
+            "file": {
+              "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/sources/native-thesis-page-055.png",
+              "bytes": 144123,
+              "sha256": "2228af531e8a57513a554c312189a3f182a318970624794c38374ced29aeee73"
+            }
+          },
+          {
+            "pdf_page": 56,
+            "file": {
+              "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/sources/native-thesis-page-056.png",
+              "bytes": 166309,
+              "sha256": "a36e394560b08ec7708de449f42806ef9e32022b8be7e5429468c2f7953abd69"
+            }
+          },
+          {
+            "pdf_page": 57,
+            "file": {
+              "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/sources/native-thesis-page-057.png",
+              "bytes": 155199,
+              "sha256": "f027cd0fc5b8b8bd75c0dbab90f37f907688ab35a5e2de0602c3bcf0dd0d6a8a"
+            }
+          }
+        ],
+        "native_scope": "Complete supplied native page images read at displayed resolution: product/testing Methods, Tables 3.1–3.4, Figures 3.1–3.2, captions, legends, axes, units and footnotes. No graph digitization, remeasurement or numerical reanalysis.",
+        "registry_reading": "Complete retained current NCT01109628 JSON; start/submission/posting/update dates, primary/secondary roles, masking, exclusions and absence of posted results checked. Original registry history/protocol/SAP was not recovered or newly accessed; producer access limits are preserved.",
+        "companion_scope": "One companion only: Chapter 4 retained title/abstract and selected Methods/product text, PDF pages 66, 67, 69, 70; current NCT01110369 identity/design/arms/outcomes and bibliographic/abstract metadata. No full companion paper/native tables or plots. No participant overlap audit or pooled effects.",
+        "comment_scope": "Exact eight linked titles/identities and publication/relationship metadata freshly inspected, as recorded in linked-comment-check.json. No comment body or abstract reading credit.",
+        "qualification_material_read": "Complete qualification.md and qualification.json, source-access.json and reading-scope.json; target/companion bibliographic metadata, publisher-indexed declaration excerpt and exact manifest bindings.",
+        "not_done": [
+          "Patient-level analysis or reconstruction of endpoint/withdrawal denominators",
+          "New statistical test, adjusted effect estimate, confidence interval, multiplicity model or power calculation",
+          "Experimental replay, repository tests or ledger proposal",
+          "Clinical dosing/eligibility recommendation or MVA mechanism inference",
+          "Journal PDF/supplement/SAP/registry-history access upgrade",
+          "Broad literature, exhaustive notice or scientific-integrity review"
+        ],
+        "new_retrieval": true,
+        "new_retrieval_limit": "Exact eight linked comment metadata only",
+        "source_repository_or_other_packet_mutation": false,
+        "ledger_proposal_created": false,
+        "tests_replays_or_statistical_reanalysis": false
+      }
+    },
+    "portable_synthesis_preparer": {
+      "role": "Portable synthesis preparer, not a fresh independent primary reader.",
+      "actually_read": "Complete source qualification Markdown and JSON, source reading scope, complete independent review and scope, acceptance bindings, and selected linked-comment-check metadata. No fresh full original main, native figure, journal PDF, supplement, registry history or commentary-body reading.",
+      "primary_credit_in_this_task": 0,
+      "native_credit_in_this_task": 0,
+      "new_retrieval": false,
+      "new_statistical_analysis": false,
+      "tests_or_replays": false,
+      "editorial_v2_reading": "Compared v1 wrappers with both complete frozen qualification reports and accepted review scope; changed only administrative/source-attribution passages. No new original primary or native reading."
+    },
+    "portable_synthesis_reviewer": {
+      "status": "PENDING",
+      "reading_credit": 0
+    }
+  },
+  "source_access_metadata_verbatim": {
+    "status": "FULL_AUTHOR_REPORT_RECOVERED_JOURNAL_VERSION_AND_REGISTRY_HISTORY_LIMITED",
+    "date": "2026-09-27",
+    "primary_report": {
+      "url": "https://edepot.wur.nl/258500",
+      "identity": "Michael C.A.B. Tieland, Dietary strategies to augment muscle mass in the elderly, Wageningen PhD thesis, 2013, ISBN 978-94-6173-567-6. Chapter 3 reproduces the authors/title and JAMDA 2012 report.",
+      "source_version": "Author thesis reproduction of the trial report; not claimed byte-identical to the journal version of record.",
+      "pages": "Printed 45-63 / PDF pages 46-64, including references. Scientific text through printed 59 / PDF60.",
+      "binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/sources/tieland-thesis.pdf",
+        "bytes": 4563371,
+        "sha256": "97992f4785d28957e608848b1a28084aaf76307e1eb18c50db1404410e831f1b"
+      }
+    },
+    "journal_record": {
+      "pmid": "22889730",
+      "doi": "10.1016/j.jamda.2012.07.005",
+      "title": "Protein supplementation improves physical performance in frail elderly people: a randomized, double-blind, placebo-controlled trial",
+      "journal": "J Am Med Dir Assoc. 2012;13(8):720-726",
+      "europepmc_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22889730%20AND%20SRC:MED&format=json&resultType=core",
+      "university_record_url": "https://research.wur.nl/en/publications/protein-supplementation-improves-physical-performance-in-frail-el/",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S1525861012002289",
+      "publisher_pdf_status": "403 at https://www.jamda.com/article/S1525-8610(12)00228-9/pdf; original journal PDF not recovered."
+    },
+    "registry": {
+      "nct": "NCT01109628",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT01109628",
+      "record_last_posted": "2025-04-04",
+      "retrieved": "2026-09-27",
+      "historical_versions": "History endpoint returned 403; no original registration-version comparison or pre-data SAP verification.",
+      "protocol_or_sap": "No uploaded protocol/SAP in recovered API record; none recovered separately.",
+      "results": "hasResults=false"
+    },
+    "supplement": "No separate supplemental file was linked in the recovered thesis chapter or recovered registry. Publisher supplement availability could not be confirmed because full publisher routes were blocked; no supplement reading or absence claim.",
+    "notice_scope": {
+      "comment_links": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "22951026",
+            "reference": "J Am Med Dir Assoc. 2012 Oct;13(8):667-8. doi: 10.1016/j.jamda.2012.07.014",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "23031263",
+            "reference": "J Am Med Dir Assoc. 2013 Jan;14(1):62-3. doi: 10.1016/j.jamda.2012.08.017",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "23098416",
+            "reference": "J Am Med Dir Assoc. 2013 Jan;14(1):63-5. doi: 10.1016/j.jamda.2012.09.009",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "23123006",
+            "reference": "J Am Med Dir Assoc. 2013 Jan;14(1):66-7. doi: 10.1016/j.jamda.2012.09.020",
+            "type": "Comment in",
+            "orderIn": 4
+          },
+          {
+            "source": "MED",
+            "id": "23128023",
+            "reference": "J Am Med Dir Assoc. 2013 Jan;14(1):65-6. doi: 10.1016/j.jamda.2012.09.017",
+            "type": "Comment in",
+            "orderIn": 5
+          },
+          {
+            "source": "MED",
+            "id": "23128025",
+            "reference": "J Am Med Dir Assoc. 2013 Jan;14(1):73-4. doi: 10.1016/j.jamda.2012.09.028",
+            "type": "Comment in",
+            "orderIn": 6
+          },
+          {
+            "source": "MED",
+            "id": "23131547",
+            "reference": "J Am Med Dir Assoc. 2013 Jan;14(1):67-9. doi: 10.1016/j.jamda.2012.09.025",
+            "type": "Comment in",
+            "orderIn": 7
+          },
+          {
+            "source": "MED",
+            "id": "23206724",
+            "reference": "J Am Med Dir Assoc. 2013 Feb;14(2):144-5. doi: 10.1016/j.jamda.2012.11.003",
+            "type": "Comment in",
+            "orderIn": 8
+          }
+        ]
+      },
+      "result": "Eight Comment in links are recorded; no correction/retraction type appeared in recovered Europe PMC metadata or bounded exact-DOI correction/erratum/retraction search. Comment full texts were not read and are not adjudicated as resolved.",
+      "limit": "Bounded metadata/discovery check, not exhaustive integrity assurance."
+    },
+    "bounded_extra_source": {
+      "pmid": "22770932",
+      "doi": "10.1016/j.jamda.2012.05.020",
+      "nct": "NCT01110369",
+      "reason": "Distinguish the adjacent 62-person resistance-training trial from this 65-person non-training comparison; avoid pooling or misattribution.",
+      "depth": "Thesis Chapter 4 title, abstract, selected Methods/product pages and registry/metadata only; not full companion qualification."
+    },
+    "lawful_access": "Official public university repository, Europe PMC, ClinicalTrials.gov and publisher discovery routes; no credentials, purchase, contact, CAPTCHA bypass or restricted-route circumvention."
+  },
+  "portable_companion_markdown": "tieland-mpc80-drink-qualification.md",
+  "preparation_identity_limit": "No generic nutrient, retail product, batch or peptide/formula equivalence follows from the scoped alias. Exact source evidence is retained per experiment.",
+  "fair_comparison_bar": {
+    "applies_equally_to_nominees_and_challengers": [
+      "justified preparation and exposure",
+      "useful absolute function",
+      "sustainable tissue renewal",
+      "chromosome-segregation fidelity"
+    ],
+    "restoration_only_additional_requirement": "Functional BUBR1 mediation is additionally required for restoration claims; it is not an extra compensation-only hurdle.",
+    "BUB1B_MVA_efficacy": "Not established.",
+    "nominee_superiority_or_change": "Not established; no nominee change proposed."
+  },
+  "batch15_reconciliation_change": false,
+  "fresh_clean_baseline_identity_recheck_required_before_integration": true,
+  "repository_or_other_packet_mutation": false,
+  "new_retrieval_tests_replays_or_statistical_analysis": false,
+  "independent_comment_metadata_followup_verbatim": {
+    "status": "EXACT_EIGHT_LINKED_IDENTITIES_CHECKED_AT_METADATA_DEPTH",
+    "created_at_utc": "2026-09-27T15:40:51.588294+00:00",
+    "target_pmid": "22889730",
+    "companion_pmid": "22770932",
+    "retrieval": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/independent-review/linked-comments-retrieval.json",
+      "bytes": 731,
+      "sha256": "1369bd9d72d6be23fad5544148827727b53ffaab667bc1a61e2f4b623b581c1c"
+    },
+    "metadata": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/tieland-protein-primary-20260927/independent-review/linked-comments-europepmc.json",
+      "bytes": 26454,
+      "sha256": "d8ff454954995f37505e1e38dfd9839b64755643b0b14a0e263bdffd37cb7f5b"
+    },
+    "all_expected_pmids_returned_once": true,
+    "records": [
+      {
+        "pmid": "22951026",
+        "title": "Do frail older persons need more protein?",
+        "authors": "Morley JE.",
+        "doi": "10.1016/j.jamda.2012.07.014",
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/22951026/",
+        "doi_url": "https://doi.org/10.1016/j.jamda.2012.07.014",
+        "publication_types": [
+          "Comment",
+          "Editorial"
+        ],
+        "comment_on_pmids": [
+          "22770932",
+          "22889730"
+        ],
+        "abstract_available_in_retrieved_record": false,
+        "full_comment_body_read": false,
+        "fulltext_link_metadata": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jamda.2012.07.014"
+            }
+          ]
+        },
+        "material_notice_flag": "No explicit correction/retraction/error title or correction/retraction publication type observed. Titles identify discussion/perspectives; substantive critique content remains unadjudicated."
+      },
+      {
+        "pmid": "23031263",
+        "title": "Perspective: Protein supplementation against sarcopenia and frailty: future perspectives from novel data.",
+        "authors": "Cesari M.",
+        "doi": "10.1016/j.jamda.2012.08.017",
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23031263/",
+        "doi_url": "https://doi.org/10.1016/j.jamda.2012.08.017",
+        "publication_types": [
+          "Letter",
+          "Comment"
+        ],
+        "comment_on_pmids": [
+          "22770932",
+          "22889730"
+        ],
+        "abstract_available_in_retrieved_record": false,
+        "full_comment_body_read": false,
+        "fulltext_link_metadata": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://www.jamda.com/article/S1525861012002927/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jamda.2012.08.017"
+            }
+          ]
+        },
+        "material_notice_flag": "No explicit correction/retraction/error title or correction/retraction publication type observed. Titles identify discussion/perspectives; substantive critique content remains unadjudicated."
+      },
+      {
+        "pmid": "23098416",
+        "title": "Perspective: Interventions are relevant in frail older adults.",
+        "authors": "Rolland Y, Cesari M, de Souto Barreto P.",
+        "doi": "10.1016/j.jamda.2012.09.009",
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23098416/",
+        "doi_url": "https://doi.org/10.1016/j.jamda.2012.09.009",
+        "publication_types": [
+          "Letter",
+          "Comment"
+        ],
+        "comment_on_pmids": [
+          "22770932",
+          "22889730"
+        ],
+        "abstract_available_in_retrieved_record": false,
+        "full_comment_body_read": false,
+        "fulltext_link_metadata": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jamda.2012.09.009"
+            }
+          ]
+        },
+        "material_notice_flag": "No explicit correction/retraction/error title or correction/retraction publication type observed. Titles identify discussion/perspectives; substantive critique content remains unadjudicated."
+      },
+      {
+        "pmid": "23123006",
+        "title": "Perspective: Protein: what kind, how much, when?",
+        "authors": "Landi F, Marzetti E, Bernabei R.",
+        "doi": "10.1016/j.jamda.2012.09.020",
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23123006/",
+        "doi_url": "https://doi.org/10.1016/j.jamda.2012.09.020",
+        "publication_types": [
+          "Letter",
+          "Comment"
+        ],
+        "comment_on_pmids": [
+          "22770932",
+          "22889730"
+        ],
+        "abstract_available_in_retrieved_record": false,
+        "full_comment_body_read": false,
+        "fulltext_link_metadata": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://www.jamda.com/article/S152586101200343X/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jamda.2012.09.020"
+            }
+          ]
+        },
+        "material_notice_flag": "No explicit correction/retraction/error title or correction/retraction publication type observed. Titles identify discussion/perspectives; substantive critique content remains unadjudicated."
+      },
+      {
+        "pmid": "23128023",
+        "title": "Perspective: Optimal protein intake in the elderly.",
+        "authors": "Wolfe RR.",
+        "doi": "10.1016/j.jamda.2012.09.017",
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23128023/",
+        "doi_url": "https://doi.org/10.1016/j.jamda.2012.09.017",
+        "publication_types": [
+          "Letter",
+          "Comment"
+        ],
+        "comment_on_pmids": [
+          "22770932",
+          "22889730"
+        ],
+        "abstract_available_in_retrieved_record": false,
+        "full_comment_body_read": false,
+        "fulltext_link_metadata": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://www.jamda.com/article/S1525861012003271/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jamda.2012.09.017"
+            }
+          ]
+        },
+        "material_notice_flag": "No explicit correction/retraction/error title or correction/retraction publication type observed. Titles identify discussion/perspectives; substantive critique content remains unadjudicated."
+      },
+      {
+        "pmid": "23128025",
+        "title": "Perspective: Exercise and protein supplementation in frail elders.",
+        "authors": "Paddon-Jones D.",
+        "doi": "10.1016/j.jamda.2012.09.028",
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23128025/",
+        "doi_url": "https://doi.org/10.1016/j.jamda.2012.09.028",
+        "publication_types": [
+          "Letter",
+          "Comment"
+        ],
+        "comment_on_pmids": [
+          "22770932",
+          "22889730"
+        ],
+        "abstract_available_in_retrieved_record": false,
+        "full_comment_body_read": false,
+        "fulltext_link_metadata": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jamda.2012.09.028"
+            }
+          ]
+        },
+        "material_notice_flag": "No explicit correction/retraction/error title or correction/retraction publication type observed. Titles identify discussion/perspectives; substantive critique content remains unadjudicated."
+      },
+      {
+        "pmid": "23131547",
+        "title": "Perspective: Dietary protein needs of elderly people: protein supplementation as an effective strategy to counteract sarcopenia.",
+        "authors": "Evans WJ, Boccardi V, Paolisso G.",
+        "doi": "10.1016/j.jamda.2012.09.025",
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23131547/",
+        "doi_url": "https://doi.org/10.1016/j.jamda.2012.09.025",
+        "publication_types": [
+          "Letter",
+          "Comment"
+        ],
+        "comment_on_pmids": [
+          "22770932",
+          "22889730"
+        ],
+        "abstract_available_in_retrieved_record": false,
+        "full_comment_body_read": false,
+        "fulltext_link_metadata": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jamda.2012.09.025"
+            }
+          ]
+        },
+        "material_notice_flag": "No explicit correction/retraction/error title or correction/retraction publication type observed. Titles identify discussion/perspectives; substantive critique content remains unadjudicated."
+      },
+      {
+        "pmid": "23206724",
+        "title": "Protein supplementation and physical function: muscular and cognitive perspectives.",
+        "authors": "Chu LW.",
+        "doi": "10.1016/j.jamda.2012.11.003",
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23206724/",
+        "doi_url": "https://doi.org/10.1016/j.jamda.2012.11.003",
+        "publication_types": [
+          "Letter",
+          "Comment"
+        ],
+        "comment_on_pmids": [
+          "22770932",
+          "22889730"
+        ],
+        "abstract_available_in_retrieved_record": false,
+        "full_comment_body_read": false,
+        "fulltext_link_metadata": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jamda.2012.11.003"
+            }
+          ]
+        },
+        "material_notice_flag": "No explicit correction/retraction/error title or correction/retraction publication type observed. Titles identify discussion/perspectives; substantive critique content remains unadjudicated."
+      }
+    ],
+    "interpretation": "One Editorial/Comment and seven Letter/Comment records; all eight link to both trial reports. No abstract is provided in these retrieved records. No correction/retraction classification or explicit correction/error title was encountered. This does not establish absence of substantive critique or a complete integrity search. Retain the reported SPPB positive at its qualified secondary depth; comment titles neither validate nor refute it.",
+    "access_scope": "PubMed pages for 22951026 and 23031263 displayed metadata and no abstract. Direct PubMed opens for 23098416 and 23123006 returned reCAPTCHA and were not retried. A single exact-eight-PMID Europe PMC CORE request returned all records. Metadata lists free PDF links for some records, but those comment PDFs were not fetched or read; no full-comment access failure or full-comment reading is claimed.",
+    "new_retrieval_scope": "Only these eight exact linked comment metadata records; no broader literature or notice search."
+  },
+  "portable_editorial_v2": {
+    "status": "EDITORIAL_V2_PENDING_SEPARATE_SYNTHESIS_REVIEW",
+    "v1_markdown": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-protein-integration-20260927/proposal-ready/tieland-mpc80-drink-qualification.md",
+      "bytes": 14694,
+      "sha256": "f87eba50f52d995fd2d87ecbd840890f571128a3ef6e9d12a939dea0ee32e7e4"
+    },
+    "v1_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-protein-integration-20260927/proposal-ready/tieland-mpc80-drink-qualification.json",
+      "bytes": 56483,
+      "sha256": "61f9da4975bcd665b99121981243c627ce3d2afb6427504d78b718714a35e530"
+    },
+    "scope": "Human prose opens with science and one H1; administrative title/status, historical identity/scope and source-attribution edits only. Original source_qualification and decision objects unchanged.",
+    "fresh_primary_reading_credit": 0,
+    "new_retrieval_tests_or_statistical_analysis": false
+  }
+}
