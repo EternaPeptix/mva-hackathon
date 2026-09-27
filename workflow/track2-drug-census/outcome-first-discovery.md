@@ -29,6 +29,24 @@ Forty fixed records from the neuromuscular collection were screened at available
 
 A second reviewer checked four preselected records and two disputed cases scientifically, plus identities and hashes for all forty. A retracted vecuronium/stimulation-method record remains flagged rather than becoming drug evidence. Medication-use advice without resolved agents and exposure remains uncertain. No records were discarded or assigned a compound-wide negative.
 
-The pilot leaves **56,177 collection records unscreened by that pilot**. Separately targeted primary appraisals have their own source depth and do not silently increase pilot coverage. Useful next questions include the sildenafil Becker-muscular-dystrophy trial and the controlled evidence behind a methylcobalamin ALS experience report. Existing qualifications may be reused at their actual verified depth; publications, cohorts, contrasts and outcomes must remain distinct.
+The original pilot left **56,177 collection records unscreened by that pilot**. Its sampling and reading record remains unchanged. Separately targeted primary appraisals have their own source depth and do not silently increase screening coverage.
+
+## Current eligibility coverage
+
+Two further batches screened forty records each, bringing coverage to **120 disjoint source/ID records** and leaving **56,097 unscreened**. Review order uses design, administration and function terms within three query strata; it does not prioritize favorable results. Every unselected record remains queued. Eight records in each new batch received a second scientific read, alongside identity and source-string checks for all records.
+
+| Route at saved-abstract depth | Batch 2 | Batch 3 |
+|---|---:|---:|
+| Controlled human functional reports | 21 | 23 |
+| Uncontrolled human functional reports | 0 | 2 |
+| Human mass/mechanism reports | 2 | 1 |
+| Preclinical functional reports | 2 | 3 |
+| Preclinical mechanism reports | 1 | 0 |
+| Context, reviews or protocols | 13 | 11 |
+| Unresolved | 1 | 0 |
+
+These routes are eligibility judgments, not efficacy grades or counts of independent trials. Clinical scales, patient-reported fatigue, direct force and tissue mechanics remain separately labeled. Active-comparator timing studies and exercise-plus-nutrition packages cannot establish an isolated ingredient effect. Notices, corrections and possible shared study populations remain attached to their records.
+
+The targeted follow-ups now include [methylcobalamin in ALS](methylcobalamin-als-qualification.md), [sildenafil in dystrophinopathy](sildenafil-dystrophinopathy-qualification.md), and [creatine in adult inflammatory myopathy and aging](creatine-inflammatory-myopathy-qualification.md). They add both controlled functional findings and counterevidence. Witting's sildenafil main remains partial; the other sources retain their recorded primary-reading limits. None of these appraisals turns the remaining literature into screened evidence.
 
 The independent PASS concerns retrieval and bounded review fidelity. It does not establish that every drug or common compound has been enumerated, that every report has been read, or that the nominated candidates are superior.

@@ -1,0 +1,723 @@
+{
+  "schema_version": "sildenafil-dystrophinopathy-portable-qualification-v1",
+  "existing_decision_id": "new-sildenafil",
+  "status": "SOURCE_QUALIFICATION_INDEPENDENTLY_ACCEPTED_PORTABLE_SYNTHESIS_PROPOSED",
+  "scientific_summary": "Oral sildenafil did not establish tested primary benefit in the two specified dystrophinopathy studies. Witting secondary ND rows are not tested nulls; Leung cardiac-worsening and registry-safety comparisons have mixed, overlapping exposure periods and imprecise causal interpretation.",
+  "source_qualification": {
+    "schema_version": "sildenafil-dystrophinopathy-primary-qualification-v1",
+    "status": "SOURCE_QUALIFIED_AT_RECORDED_MIXED_DEPTH_PENDING_INDEPENDENT_REVIEW",
+    "date": "2026-09-27",
+    "existing_decision_id": "new-sildenafil",
+    "new_decision_proposed": false,
+    "existing_aliases_to_preserve": [
+      "sildenafil"
+    ],
+    "baseline": {
+      "revision": "037570fcdf3ba11a0f12df9cdbe725c951f8a06e",
+      "repo_relative": "workflow/track2-drug-census/decisions.json",
+      "bytes": 484517,
+      "sha256": "473851110d4c839a0b920783d54fe43edeb7b7da9cdb7342cbd18ac0234a767f",
+      "git_status_short": ""
+    },
+    "exact_prior_decision": {
+      "decision_id": "new-sildenafil",
+      "match_aliases": [
+        "sildenafil"
+      ],
+      "route": "sildenafil / prior-cell-exposure and AR-12 chaperone-combination comparison",
+      "disposition": "Source-specific cellular pretreatment and combination comparator; defer MVA promotion",
+      "evidence_scope": "Booth Oncotarget 2016: separately attributed complete main/caption review and native Figure 13; cellular combination functional findings have main-text-only supplemental depth. Sildenafil salt, formulation and clinical-equivalent exposure are unresolved.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "GBM12 cells expressing tagged HSP90 or HSP70 receive sildenafil 2 µM for 1 h before immunoprecipitation. Equal isolated bead portions then receive AR-12 or comparators at 30–1000 nM ex vivo. Baseline complex activities are near unchanged after sildenafil pretreatment, while AR-12 inhibition is enhanced. This is prior cellular exposure, not a demonstrated direct sildenafil-binding or purified-enzyme inhibition experiment; associated proteins may contribute to activity. Potentiation differs by compound and chaperone, including distinct pazopanib/regorafenib results. Tumor-cell imaging also tests sildenafil 2 µM with AR-12; antibody-signal changes are not protein-loss or ATPase proof. Main text reports enhanced tumor killing in combination, including the separate AR-13 result, but original supplemental functional plots/captions, exact exposure contrasts and formal additivity-model synergy remain unqualified. Genetic chaperone/thioredoxin protection is not an administered restorative treatment. No direct current-paper non-transformed comparison, therapeutic margin, BUBR1 restoration, healthy-tissue renewal or MVA benefit is established.",
+      "source_report": "workflow/track2-drug-census/ar12-sildenafil-qualification.md",
+      "source_urls": [
+        "https://www.oncotarget.com/article/7349/text/",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4914336/fullTextXML"
+      ]
+    },
+    "role": "Later human dystrophinopathy source qualification for an append/refinement; preserve earlier AR-12 cancer/chaperone interpretation and its independent exposure limits. No actual ledger change.",
+    "sources": [
+      {
+        "id": "witting2014",
+        "pmid": "25042931",
+        "doi": "10.1002/ana.24216",
+        "title": "Effect of sildenafil on skeletal and cardiac muscle in Becker muscular dystrophy",
+        "registration": "NCT01350154",
+        "eudract": "2010-024659-10",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.24216",
+        "source_depth": "Complete abstract, retained primary PDF-reader text L0@P0 through L371@P5, ending at first SF36 Table 3 row. Not full 8-page main or native figures/tables. Direct public PDF is now 404; advertised supplement 403. Current registry read.",
+        "cached_url": "https://ctu.dk/wp-content/uploads/2020/12/nNOS_main2014.pdf"
+      },
+      {
+        "id": "leung2014",
+        "pmid": "25042693",
+        "pmcid": "PMC4191982",
+        "doi": "10.1002/ana.24214",
+        "title": "Sildenafil Does Not Improve Cardiomyopathy in Duchenne/Becker Muscular Dystrophy",
+        "registration": "NCT01168908",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191982/",
+        "source_depth": "Complete scientific main through public NCBI BioC representation plus PMC web-reader funding/COI; original table XML and all 3 native figures read. Native main PDF/table pixels and supplement not obtained. Current registry including posted results read.",
+        "version": "PMC author-manuscript representation of 2014 publication, not a newly verified final publisher PDF. BioC year 2015 reflects repository metadata, not a new trial."
+      }
+    ],
+    "witting2014": {
+      "design": {
+        "setting": "Single-center Copenhagen, Denmark, December 2011–January 2013; recruitment December 2011–November 2012",
+        "population": "Adult ambulatory genetically/Western-blot-confirmed BMD, reduced EF<50% and/or skeletal weakness MRC<5 in paper Table 1; mean age 38, variable severity. Current registry uses MRC<4+ and age 18–80; thresholds are not silently harmonized.",
+        "randomization": "Independent pharmacist, computer-generated blocks of 4, 2:2 active/placebo sequence, no stratification; identical capsules/containers",
+        "study_weeks": 12,
+        "treatment_periods": "Two 4-week periods with 2-week intervening washout and 2-week final follow-up",
+        "screened": 47,
+        "excluded_ineligible": 10,
+        "declined": 20,
+        "randomized_or_included": 17,
+        "withdrawal_after_visit2": 1,
+        "skeletal_analyzed": 16,
+        "cardiac_analyzed": 13,
+        "cardiac_nonparticipants": "Two claustrophobia and one transplanted heart",
+        "ITT_limit": "Authors call intention-to-treat but exclude one randomized participant with no postmedication data; do not claim all 17 analyzed.",
+        "missingness": "8/256 data points partly/completely missing. Four missing baseline observations replaced using other baseline; remaining missing observations retained as missing in ANOVA. Cardiac MRI had only one baseline because of availability.",
+        "power": "No conventional prospective power calculation; reasoned 12 completers, target 20, stopped 17 because eligible subjects exhausted. Table 2 reported power is not equivalence evidence.",
+        "carryover_period_limit": "Washout used, but no formal sequence/period/carryover estimates are shown in the retained methods; do not infer proven absence of carryover."
+      },
+      "exposure": {
+        "compound": "sildenafil",
+        "dose_mg": 20,
+        "frequency": "three times daily",
+        "route": "oral",
+        "duration_each_active_period": "4 weeks",
+        "paper": "20 mg tablets enclosed with placebo in identical capsules; taken 1 hour before evaluation;12 hour nicotine/caffeine abstention",
+        "current_registry": "20 mg in gelatine capsules; placebo lactose monohydrate in gelatine capsules three times daily",
+        "brand_limit": "Registry experimental label prints Revation, with Revatio appearing under the placebo otherNames field; otherNames are cross-assigned. Do not use these fields as clean alias equivalence or batch proof.",
+        "salt_batch_excipient_equivalence": "Exact active salt, manufacturer batch and full excipients not established by accessible primary text; no current retail equivalence."
+      },
+      "hierarchy": {
+        "skeletal_primary": "Brachial artery blood flow during maximal handgrip",
+        "cardiac_primary_paper": [
+          "Resting LVEDV",
+          "Exercise-induced cardiac output"
+        ],
+        "secondary": [
+          "6MWT",
+          "VO2max",
+          "SF36",
+          "resting/exercise EF and LVESV",
+          "resting CO",
+          "exercise LVEDV"
+        ],
+        "registry_limit": "Current NCT record calls resting LVEDV cardiac primary and exercise cardiac function secondary; also includes cognitive/cerebrovascular substudy endpoints. Historical field versions/SAP not read, so exact prespecified exercise-CO hierarchy is unresolved."
+      },
+      "primary_results": {
+        "blood_flow": {
+          "unit": "mL/min",
+          "baseline_mean_SD": [
+            532,
+            245
+          ],
+          "placebo_mean_SD": [
+            633,
+            278
+          ],
+          "active_mean_SD": [
+            642,
+            284
+          ],
+          "reported_changes_placebo_active": [
+            101,
+            110
+          ],
+          "active_vs_placebo_P": ".56",
+          "locator": "Retained Table 2 L235@P3, footnote active versus placebo L262",
+          "interpretation": "Exercise flow increased after both periods relative to baseline; no demonstrated sildenafil-placebo effect. No confidence interval for treatment difference available."
+        },
+        "resting_LVEDV": {
+          "unit": "mL",
+          "baseline_mean_SD": [
+            160,
+            54
+          ],
+          "placebo_mean_SD": [
+            158,
+            55
+          ],
+          "active_mean_SD": [
+            161,
+            57
+          ],
+          "P": ".83",
+          "change_columns_not_corrected": "Retained parser prints 2 and 1; do not silently assign missing minus sign."
+        },
+        "exercise_CO": {
+          "P": ".65",
+          "quantitative_means_not_cleanly_resolved": true,
+          "retained_raw_row": "CO exercise, ml/min 7,503/1,341 7,233/1,473 30 72,263/1,012 20 0.65 0.05",
+          "reason": "Malformed retained PDF extraction requires unavailable native-table verification; do not repair 72,263 or change columns by inference."
+        }
+      },
+      "secondary_descriptive_rows": [
+        {
+          "endpoint": "6MWT",
+          "unit": "m",
+          "baseline_mean_SD": [
+            436,
+            194
+          ],
+          "placebo_mean_SD": [
+            446,
+            197
+          ],
+          "active_mean_SD": [
+            438,
+            197
+          ],
+          "P": "ND"
+        },
+        {
+          "endpoint": "VO2max",
+          "unit": "mL/kg/min",
+          "baseline_mean_SD": [
+            25,
+            12
+          ],
+          "placebo_mean_SD": [
+            27,
+            12
+          ],
+          "active_mean_SD": [
+            25,
+            13
+          ],
+          "P": "ND"
+        },
+        {
+          "endpoint": "Load",
+          "unit": "W",
+          "baseline_mean_SD": [
+            94,
+            72
+          ],
+          "placebo_mean_SD": [
+            88,
+            66
+          ],
+          "active_mean_SD": [
+            93,
+            73
+          ],
+          "P": "ND"
+        },
+        {
+          "endpoint": "SF36 global",
+          "baseline_mean_SD": [
+            71,
+            28
+          ],
+          "placebo_mean_SD": [
+            72,
+            28
+          ],
+          "active_mean_SD": [
+            73,
+            26
+          ],
+          "P": "ND"
+        },
+        {
+          "endpoint": "EF resting",
+          "unit": "%",
+          "baseline_mean_SD": [
+            58,
+            10
+          ],
+          "placebo_mean_SD": [
+            60,
+            10
+          ],
+          "active_mean_SD": [
+            58,
+            10
+          ],
+          "P": "ND"
+        },
+        {
+          "endpoint": "EF exercise",
+          "unit": "%",
+          "baseline_mean_SD": [
+            56,
+            9
+          ],
+          "placebo_mean_SD": [
+            58,
+            10
+          ],
+          "active_mean_SD": [
+            59,
+            10
+          ],
+          "P": "ND"
+        },
+        {
+          "endpoint": "Resting LVESV",
+          "unit": "mL",
+          "baseline_mean_SD": [
+            69,
+            26
+          ],
+          "placebo_mean_SD": [
+            65,
+            24
+          ],
+          "active_mean_SD": [
+            69,
+            30
+          ],
+          "P": "ND"
+        },
+        {
+          "endpoint": "Exercise LVESV",
+          "unit": "mL",
+          "baseline_mean_SD": [
+            72,
+            27
+          ],
+          "placebo_mean_SD": [
+            69,
+            26
+          ],
+          "active_mean_SD": [
+            68,
+            31
+          ],
+          "P": "ND"
+        },
+        {
+          "endpoint": "Exercise stroke volume",
+          "unit": "mL",
+          "baseline_mean_SD": [
+            88,
+            14
+          ],
+          "placebo_mean_SD": [
+            91,
+            16
+          ],
+          "active_mean_SD": [
+            91,
+            15
+          ],
+          "P": "ND"
+        },
+        {
+          "endpoint": "Exercise LVEDV",
+          "unit": "mL",
+          "baseline_mean_SD": [
+            160,
+            31
+          ],
+          "placebo_mean_SD": [
+            160,
+            33
+          ],
+          "active_mean_SD": [
+            158,
+            38
+          ],
+          "P": "ND"
+        }
+      ],
+      "analysis_limit": {
+        "method": "One-way repeated-measures ANOVA for primary measures; secondary means visually inspected and ANOVA only when significance suspected. Authors state 4 ANOVAs total, no multiplicity correction.",
+        "ND_interpretation": "No inferential P supplied; these rows are not formally tested nulls. Remaining SF36 subcategories and identity/result of any fourth ANOVA are not established from truncated Table 3.",
+        "reported_significance_text": "A significance level of <0.05% was applied, resulting in a risk of type 1 error of 0.95.",
+        "qualification": "Mathematically inconsistent as retained. Native PDF unavailable to distinguish source typo from extraction corruption; not silently replaced with alpha .05 or risk .05.",
+        "author_claim": "No effect on any outcome",
+        "reviewer_bound": "Tested primary results did not demonstrate benefit; reported descriptive nonresponse is not universal zero-effect/equivalence evidence."
+      },
+      "mechanism": {
+        "sample_n": 5,
+        "samples": "Previously taken biopsies from subjects 7, 13, 14, 16, 17",
+        "nNOS_relative_report": "0.50 ±0.08; normal=1",
+        "PDE5_relative_report": "0.18 ±0.06",
+        "uncertainty_statistic": "Retained text does not identify SD versus SE here; no relabeling.",
+        "target_availability_limit": "All 5 reported reduced nNOS/PDE5; no native Western blot inspection. Small selected baseline biopsy subset, not a randomized treatment change or demonstrated mediator of response.",
+        "muscle_MRI_context": "Two illustrative patients 14/17; no treatment-induced tissue renewal finding."
+      },
+      "harms_and_other_positive_reports": {
+        "serious_AEs": "None reported in abstract; detailed full supplement not read.",
+        "symptomatic": "Dyspepsia/headache reported by 5 during sildenafil; 1 headache on placebo; no separate count per symptom inferred.",
+        "erectile_reports": "Four volunteered improved erectile function during sildenafil and none placebo. Not systematically solicited to preserve blinding; not a prespecified functional-muscle benefit or proof of muscle target engagement."
+      },
+      "disclosure": "Final funding/author COI section unavailable in retained partial main. Current registry academic sponsor/collaborator does not substitute for disclosure verification."
+    },
+    "leung2014": {
+      "design": {
+        "setting": "Single-center Kennedy Krieger/Johns Hopkins, enrollment September 2010–February 2013",
+        "population": "Adult males with dystrophinopathy and cardiomyopathy;18 DMD / 2 BMD randomized. Initial DMD-only age ≥15,EF ≤45%; amended to include BMD andEF ≤50%, later age ≥18; no minor had enrolled before age amendment.",
+        "background": "Stable ACE inhibitor/ARB required≥3 months; beta-blocker/corticosteroid dose stable if used.",
+        "exposure": "Oral sildenafil 20 mg tablet three times daily versus identical white placebo tablets for 6 months, then planned 6 months open-label sildenafil in both groups.",
+        "source_product": "REVERSE-DBMD/Revatio; Pfizer supplied sildenafil and matching placebo through Investigator-Initiated Research award. Exact batch, salt/excipients and current retail equivalence not verified.",
+        "screened": 25,
+        "randomized": 20,
+        "randomized_active_placebo": [
+          10,
+          10
+        ],
+        "six_month_complete_active_placebo": [
+          7,
+          8
+        ],
+        "twelve_month_complete_active_placebo": [
+          6,
+          7
+        ],
+        "blinded_discontinuations_active": "One death,one withdrawal,one administrative study closure",
+        "blinded_discontinuations_placebo": "One withdrawal,one administrative study closure",
+        "analysis": "Per-protocol complete 6-month MRI, age/baseline-adjusted regression; no imputation. Longitudinal random-effects analyses for repeated FVC/grip/pinch are separate.",
+        "planned_n": 30,
+        "power_assumption": "15/arm for 10% LVESV improvement,80% power, two-sided .05",
+        "interim": "Planned review at half target enrollment; actual DSMB review after 15 completed 6 months; early termination. No full SAP/original protocol/historical registry audit."
+      },
+      "baseline_imbalance": {
+        "all_randomized_LVESV_active_placebo": [
+          99.8,
+          86.7
+        ],
+        "all_randomized_LVESV_SD": [
+          55.3,
+          31.9
+        ],
+        "beta_blockers_active_placebo": [
+          7,
+          4
+        ],
+        "noninvasive_ventilation_active_placebo": [
+          6,
+          3
+        ],
+        "interpretation": "Active arm more severe at baseline on these measures despite randomization; small sample and completion selection limit causal precision."
+      },
+      "primary": {
+        "endpoint": "Six-month change in LVESV,mL; lower is better",
+        "n_active_placebo": [
+          7,
+          8
+        ],
+        "placebo_change_mean_SD": [
+          -0.19,
+          5.56
+        ],
+        "active_change_mean_SD": [
+          5.2,
+          23.61
+        ],
+        "adjusted_effect_as_printed": "6.99 [−0.81,23.77]",
+        "P": ".379",
+        "interpretation": "No statistically established treatment difference; direction did not show anticipated improvement. Printed estimate/CI are retained without recalculation; apparent interval issue flagged.",
+        "locator": "Main Table 2, original table XML/BioC and PMC reader"
+      },
+      "cardiac_worsening_signal": {
+        "endpoint": "≥10% LVESV increase during first 6 months of sildenafil exposure",
+        "sildenafil_counts": [
+          4,
+          14
+        ],
+        "placebo_counts": [
+          1,
+          8
+        ],
+        "active_event_phase_counts": {
+          "blinded": 2,
+          "open_label": 2
+        },
+        "reported_OR": 2.8,
+        "reported_OR_CI95": [
+          0.2,
+          40.1
+        ],
+        "method": "Clustered regression model",
+        "not_simple_parallel_randomized_risk_ratio": true,
+        "overlap": "Some placebo participants later contribute sildenafil exposure; main says 8 of 14 previously received placebo. Do not silently reconcile this statement with native 6/7 twelve-month completion counts.",
+        "interpretation": "Clinically consequential safety signal led to DSMB termination, with very imprecise estimate and baseline-severity confounding; not proven causal harm, MVA harm, or class-wide harm."
+      },
+      "secondary_results": [
+        {
+          "endpoint": "LV mass",
+          "adjusted_effect_CI_as_printed": "0.12 [−12.00,12.23]",
+          "P": ".983",
+          "unit": "g, confirmed by current registry"
+        },
+        {
+          "endpoint": "LVEDV",
+          "adjusted_effect_CI_as_printed": "6.98 [−8.21,22.18]",
+          "P": ".333"
+        },
+        {
+          "endpoint": "Stroke volume",
+          "adjusted_effect_CI_as_printed": "−0.37 [−14.07,13.33]",
+          "P": ".953"
+        },
+        {
+          "endpoint": "EF",
+          "adjusted_effect_CI_as_printed": "−0.60 [−7.98,6.80]",
+          "P": ".864"
+        },
+        {
+          "endpoint": "FVC",
+          "n_placebo_active": [
+            7,
+            7
+          ],
+          "placebo_change": -0.19,
+          "active_change": -0.13,
+          "adjusted_effect_CI_as_printed": "0.01 [0.17,0.20]",
+          "P": ".863",
+          "interval_problem": true
+        },
+        {
+          "endpoint": "Grip/grasp",
+          "n_placebo_active": [
+            8,
+            7
+          ],
+          "unit": "lb per registry",
+          "placebo_change": 0.17,
+          "active_change": 0.37,
+          "adjusted_effect_CI_as_printed": "0.48 [−0.69,1.66]",
+          "P": ".384"
+        },
+        {
+          "endpoint": "Pinch",
+          "n_placebo_active": [
+            7,
+            6
+          ],
+          "unit": "lb per registry",
+          "placebo_change": 0.12,
+          "active_change": -0.06,
+          "adjusted_effect_CI_as_printed": "−0.18 [0.73,0.37]",
+          "P": ".478",
+          "interval_problem": true
+        }
+      ],
+      "other_results": {
+        "quality_of_life": "Authors report no statistically significant SF36v2/INQoL domain differences after baseline/age adjustment; detailed supplement unavailable.",
+        "within_sildenafil_FVC": "Reported decline 0.06 L over 6 months, 95% CI [−.130,−.013],P = .011 in longitudinal model. This is a within-exposure time trend, not the randomized between-group FVC contrast.",
+        "within_sildenafil_grip_pinch": "Reported grip −0.13 lb, CI [−.424,.164],P = .378; pinch −0.07 lb, CI [−.235,.098],P = .420.",
+        "baseline_severity": "Baseline LVESV≥120 mL associated with later worsening regardless of treatment,P = .035; not validated drug-by-severity interaction.",
+        "futility": "Authors extrapolate low likelihood of reaching intended 10% effect using assumed future responses. Their stated 1.75×10^-7 is a conditional calculation, not a new independently rerun analysis or proof of no possible benefit at all exposures.",
+        "fibrosis": "Incomplete DCE imaging, qualitative enhancement; no randomized repair or renewal result."
+      },
+      "harms": {
+        "main": "One heart-failure death during blinded sildenafil phase, judged unlikely related by DSMB. AEs detailed in unavailable SupplementaryTable 1; no claim of no other events.",
+        "current_registry_exposure_groups": {
+          "sildenafil_at_risk": 18,
+          "placebo_at_risk": 10,
+          "deaths": [
+            1,
+            0
+          ],
+          "serious_affected": [
+            5,
+            1
+          ],
+          "other_affected": [
+            13,
+            7
+          ]
+        },
+        "registry_serious_terms": "Sildenafil-labelled group: heart-failure death,dehydration,pneumonia,prostate infection,gastroparesis (one each). Placebo-labelled group:fecal impaction(one).",
+        "registry_other_examples": "Low blood pressure 4/18 versus 0/10; headache 1/18 versus 2/10; all exact terms retained in saved registry.",
+        "registry_limit": "Exposure counts 18/10 exceed randomized 10/10 and include crossover/open-label exposure; do not present these as simple randomized 6-month rates or infer event causality. Time-window metadata not explicit enough to resolve each event period."
+      },
+      "disclosure": "Patient foundations funded the trial and travel; NIH/NCATS institutional clinical/translational support is acknowledged. Pfizer provided drug/placebo. Sponsors proposed idea and received DSMB reports; authors state design/conduct/analysis/publication independent. DPJ Pfizer/Array/Onyx consulting; KRW multiple industry consultancies and honoraria; DAK patent 20090062313 disclosed.",
+      "reporting_problems": [
+        "PMC/BioC Table 2 primary effect 6.99 with printed CI [−.81,23.77] lacks expected centering; no statistical reconstruction.",
+        "FVC printed CI [.17,.20] excludes point 0.01 and conflicts with nonsignificant P = .863; pinch printed CI [.73,.37] is reversed and excludes −0.18. Native final-PDF table unavailable; do not silently insert minus signs or 9.",
+        "Table 1 complete-case baseline LVESV active 105.2 / placebo 84 differs from Table 2 active 107.49 / placebo 84.28; preserve table attribution.",
+        "Main describes 14 sildenafil exposures with 8 prior placebo recipients; native Figure 1 shows 7/8 six-month and 6/7 twelve-month completers. No participant-level reconciliation.",
+        "DCE denominator counts differ from efficacy/completer counts; no universal denominator applied."
+      ]
+    },
+    "other_sources": {
+      "tadalafil_positive": {
+        "identity": "Martin EA, Barresi R, Byrne BJ et al. Tadalafil alleviates muscle ischemia in patients with Becker muscular dystrophy. Sci Transl Med 2012;4:162ra155.",
+        "locators": [
+          "Witting publisher reference 14",
+          "Leung reference 18 and Introduction/Discussion"
+        ],
+        "attribution": "The cited BMD physiology positive belongs to tadalafil, not sildenafil. It does not transfer clinical efficacy to sildenafil or all PDE5 inhibitors.",
+        "reading_depth": "Citation/attribution only; full primary trial not independently qualified here.",
+        "doi_as_cited_in_leung": "10.1126/scitranslmed.3004327",
+        "bibliographic_limit": "Witting reference14 reports4:162ra155; Leung reference18 has malformed volume/page metadata(28(162):162ra55). Identity and tadalafil attribution agree; no new trial appraisal."
+      },
+      "cerebral_companion": {
+        "pmcid_requested": "PMC5233618",
+        "scope": "Optional same-program context only; no valid main obtained from attempted public routes, no scientific reading or independent replication credit. Current Witting registry already documents cognitive/cerebrovascular substudy endpoints.",
+        "new_efficacy_appraisal": false
+      },
+      "other_PDE5_studies": "Not freshly reviewed; no comprehensive class conclusion."
+    },
+    "registration": {
+      "witting": {
+        "NCT": "NCT01350154",
+        "status_module": {
+          "statusVerifiedDate": "2013-04",
+          "overallStatus": "COMPLETED",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2011-11"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2013-04",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2013-04",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2011-05-04",
+          "studyFirstSubmitQcDate": "2011-05-06",
+          "studyFirstPostDateStruct": {
+            "date": "2011-05-09",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2013-04-09",
+          "lastUpdatePostDateStruct": {
+            "date": "2013-04-10",
+            "type": "ESTIMATED"
+          }
+        },
+        "hasResults": false,
+        "current_record_only": true,
+        "historical_field_versions_read": false,
+        "full_protocol_or_SAP_obtained": false
+      },
+      "leung": {
+        "NCT": "NCT01168908",
+        "status_module": {
+          "statusVerifiedDate": "2019-02",
+          "overallStatus": "TERMINATED",
+          "whyStopped": "As recommended by the DSMB.",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2010-09"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2014-01",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2014-01",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2010-07-22",
+          "studyFirstSubmitQcDate": "2010-07-22",
+          "studyFirstPostDateStruct": {
+            "date": "2010-07-23",
+            "type": "ESTIMATED"
+          },
+          "resultsFirstSubmitDate": "2017-08-24",
+          "resultsFirstSubmitQcDate": "2018-03-20",
+          "resultsFirstPostDateStruct": {
+            "date": "2018-03-21",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2019-02-07",
+          "lastUpdatePostDateStruct": {
+            "date": "2019-02-26",
+            "type": "ACTUAL"
+          }
+        },
+        "hasResults": true,
+        "current_record_only": true,
+        "historical_field_versions_read": false,
+        "full_protocol_or_SAP_obtained": false
+      }
+    },
+    "comparative_scope": {
+      "function": "No demonstrated skeletal functional benefit in these sildenafil trials; Witting secondaries largely untested and Leung small complete-case contrasts imprecise. Do not equate insufficient evidence with universalzero effect.",
+      "exposure": "Two oral 20 mg three-times-daily regimens with different durations/populations; neither proves equivalence to AR-12 cellular 2 µM pretreatment.",
+      "target_availability": "Witting 5-biopsy nNOS/PDE5 deficit is a possible local target-availability limitation, not demonstrated response mediation.",
+      "renewal_and_fidelity": "Neither establishes healthy muscle renewal, chromosome segregation fidelity, BUBR1 restoration or MVA benefit.",
+      "fair_bar": "Same function/exposure/durability/renewal/fidelity criteria as other compensation comparisons; BUBR1 mediation additionally needed only for restoration.",
+      "global_ineffectiveness_claim": false,
+      "MVA_harm_claim": false,
+      "automatic_nomination_change": false
+    },
+    "new_original_queue_reading_credit": 0,
+    "new_full_corpus_screening_credit": 0,
+    "repository_edits": false,
+    "catalog_joins_replays_tests": false,
+    "clinical_regimen_recommendation": false,
+    "source_specific_disposition": "Human dystrophinopathy comparison for existing sildenafil: tested primary nonbenefit, Witting untested-secondary/access limits, and Leung imprecise cardiac-worsening signal. Defer MVA promotion; no global ineffectiveness or harm claim."
+  },
+  "historical_metadata_notice": "The nested source qualification is the exact frozen historical object, including its pending-review label and 037570fc/275 identity checkpoint. Separate independent ACCEPT and current c61fc087/276 proposal context are recorded here; historical scientific fields were not rewritten.",
+  "independent_primary_acceptance": {
+    "status": "ACCEPT",
+    "required_corrections": [],
+    "review_manifest": {
+      "archive_file": "sildenafil-dystrophinopathy-primary-20260927/independent-review/final-bindings.json",
+      "bytes": 14745,
+      "sha256": "f71a8d60c8d625112f73861c3b61a1d2c4034a2821e2d244dcc7be72ef032c71"
+    },
+    "review": {
+      "archive_file": "sildenafil-dystrophinopathy-primary-20260927/independent-review/review.json",
+      "bytes": 6571,
+      "sha256": "ec9b8ba3abeb7ec91dcfbb2ef32abb8cdb6ee4cc9ec51ff6424ef45673a36900"
+    }
+  },
+  "source_provenance": {
+    "producer_manifest": {
+      "archive_file": "sildenafil-dystrophinopathy-primary-20260927/final-bindings.json",
+      "bytes": 15759,
+      "sha256": "b7023257a446620d4e4ae04aa83ff209a2d8e2f5da93ba15af59b6db65c9c9da"
+    },
+    "producer_qualification_MD": {
+      "archive_file": "sildenafil-dystrophinopathy-primary-20260927/qualification.md",
+      "bytes": 14454,
+      "sha256": "d52f2c1ae08bd13381921c8543fff4956c1d4246d2bdff95efbb77c16b41876f"
+    },
+    "producer_qualification_JSON": {
+      "archive_file": "sildenafil-dystrophinopathy-primary-20260927/qualification.json",
+      "bytes": 28654,
+      "sha256": "b4aa88212b8772eccf491bea524e3dc24dc47cbdf5b62e26ea82b03fe1f31797"
+    },
+    "producer_reading_manifest": {
+      "archive_file": "sildenafil-dystrophinopathy-primary-20260927/reading-manifest.json",
+      "bytes": 4827,
+      "sha256": "6a381e836e605a1b87f22ca442d93b606da8faa827270fdb749edd9c2a60cc33"
+    },
+    "raw_assets": "Retained externally in the named source archive; no original primary PDFs, raw XML, registry payloads or native images are copied into this portable export."
+  },
+  "reading_attribution": {
+    "source_and_independent_depth": "Witting: complete retained abstract/partial primary excerpt through L371@P5, with no full-main/native/supplement claim. Leung: complete scientific BioC/PMC main, original table XML, three native figures and relevant current registry; native main PDF/table pixels and supplement unavailable.",
+    "portable_synthesis": "Accepted qualifications, independent reviews, immutable ledger and targeted document passages read. No new primary-source or native-panel reading at this stage.",
+    "earlier_studies": "Old source-specific reading depth is preserved; citations and inherited rationale confer no new reading credit."
+  },
+  "current_proposal_context": {
+    "baseline": "c61fc0877a0ffd6d8686cd2602d877281b84e06c",
+    "appraisal_count": 276,
+    "new_decision": false,
+    "decision_refinement_only": true,
+    "existing_aliases": [
+      "sildenafil"
+    ],
+    "alias_changes": false,
+    "prior_source_report_retained": "workflow/track2-drug-census/ar12-sildenafil-qualification.md",
+    "candidate_nomination_change": false
+  },
+  "interpretive_boundaries": [
+    "Separate preparations, populations, exercise/background treatment and durations; no pooled efficacy or generic retail equivalence.",
+    "No MVA efficacy, genotype rescue, healthy-tissue renewal or chromosome-fidelity claim.",
+    "Compensation evidence receives the same function, exposure, durability, renewal and fidelity criteria; BUBR1 mediation additionally applies to restoration claims.",
+    "No universal sildenafil/PDE5 ineffectiveness or proven MVA/clinical causal-harm inference.",
+    "Oral trial exposure is not equated with the earlier AR-12 cellular 2 µM pretreatment."
+  ],
+  "new_original_queue_reading_credit": 0,
+  "new_full_corpus_screening_credit": 0,
+  "new_primary_reading_at_synthesis": false
+}

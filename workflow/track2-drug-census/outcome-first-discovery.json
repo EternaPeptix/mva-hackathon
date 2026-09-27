@@ -251,6 +251,48 @@
       "depth": "Complete abstract and incomplete indexed primary sections/captions; native main/figures unavailable; bounded independent root review accepted.",
       "qualification_report": "gut-muscle-qualification.md",
       "finding": "Reported within-arm functional changes; randomized between-arm benefit not recovered."
+    },
+    {
+      "source": "MED",
+      "id": "35532908",
+      "depth": "Complete scientific main, relevant native outcomes, supplied analysis-plan material and linked public protocol; independent source review accepted.",
+      "qualification_report": "methylcobalamin-als-qualification.md",
+      "finding": "Selected early-ALS primary functional advantage; no demonstrated direct strength or respiratory benefit."
+    },
+    {
+      "source": "MED",
+      "id": "30636701",
+      "depth": "Complete scientific main and recorded supplementary/native outcome scope; independent source review accepted.",
+      "qualification_report": "methylcobalamin-als-qualification.md",
+      "finding": "Earlier broader ALS primary outcomes were null; exploratory early subgroup observations remain distinct."
+    },
+    {
+      "source": "MED",
+      "id": "25042931",
+      "depth": "Complete abstract and retained partial primary PDF-reader text through L371/P5, plus current registry; native main/outcomes and remainder unavailable.",
+      "qualification_report": "sildenafil-dystrophinopathy-qualification.md",
+      "finding": "Tested primary flow/cardiac comparisons did not establish benefit; most ND secondaries were not formally tested."
+    },
+    {
+      "source": "MED",
+      "id": "25042693",
+      "depth": "Complete BioC/PMC scientific main, original table XML and all three native figures; current registry, but main PDF/native table pixels and supplement unavailable.",
+      "qualification_report": "sildenafil-dystrophinopathy-qualification.md",
+      "finding": "No established six-month primary cardiac benefit; imprecise stopping signal mixes blinded/open-label exposures."
+    },
+    {
+      "source": "MED",
+      "id": "17471547",
+      "depth": "Complete scientific main and native outcome tables/figures; independent source review accepted at stated native-page depth.",
+      "qualification_report": "creatine-inflammatory-myopathy-qualification.md",
+      "finding": "Adult inflammatory-myopathy timed-function benefit with shared exercise; reporting, missingness and secondary-analysis limits retained."
+    },
+    {
+      "source": "MED",
+      "id": "27239423",
+      "depth": "Complete scientific main and native outcomes, plus saved current registry; independent source review accepted.",
+      "qualification_report": "creatine-inflammatory-myopathy-qualification.md",
+      "finding": "Older-adult training lean-mass gain without demonstrated added strength; retrospective registration and comparator limits retained."
     }
   ],
   "clinical_or_global_claims": {
@@ -261,16 +303,6 @@
     "candidate_superiority_established": false,
     "worldwide_coverage_established": false
   },
-  "next_source_questions": [
-    {
-      "pmid": "25042931",
-      "reason": "Pilot surfaced a controlled Becker-muscular-dystrophy sildenafil report; scientific main remains to be qualified."
-    },
-    {
-      "pmid": "38655443",
-      "reason": "Pilot surfaced a qualitative methylcobalamin ALS experience report; evaluate its primary controlled evidence separately."
-    }
-  ],
   "source_bindings": [
     {
       "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-corpus-20260927/final-bindings.json",
@@ -299,8 +331,598 @@
     {
       "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-corpus-20260927/eligibility-pilot-q1/cross-review/final-bindings.json",
       "sha256": "2994fc13bc08f8e9c670d7a9441a5e9cc867092c7b7f43ea9c9f93f5c8b003f0"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch02-20260927/screening-final-bindings.json",
+      "sha256": "6327786883c45d1a669960c32d89298629a784288f9f2b748eebb7b0fb3a4e47"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch03-20260927/screening-final-bindings.json",
+      "sha256": "8ee7f7ccc8dddb94420e5db73912c55b5a938fe3466a1cf88f71a5d31f95c5c0"
     }
   ],
   "raw_assets_external_to_git": true,
-  "independent_retrieval_limit": "Counts and cursor chains support the recorded run, not an atomic snapshot of the live index. Reported User-Agent was intended session metadata, not verified transport header."
+  "independent_retrieval_limit": "Counts and cursor chains support the recorded run, not an atomic snapshot of the live index. Reported User-Agent was intended session metadata, not verified transport header.",
+  "eligibility_batches": [
+    {
+      "batch": 2,
+      "records": 40,
+      "lane_counts": {
+        "H_CF": 21,
+        "P_F": 2,
+        "U": 1,
+        "C": 13,
+        "P_M": 1,
+        "H_M": 2
+      },
+      "scientific_crosscheck_records": 8,
+      "scientific_crosscheck_orders": [
+        4,
+        7,
+        10,
+        15,
+        21,
+        26,
+        27,
+        30
+      ],
+      "crosscheck_scope": "Four deterministic sample records plus four flagged cases; root independently checked selection preservation/order and structural source/annotation bindings for all40. Not every scientific route double-read.",
+      "selection": "Same frozen design/administration/function lexical order within 16/12/12 disjoint query strata; batch03 continues batch02 after excluding completed IDs. No result-direction ranking.",
+      "screening_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch02-20260927/screening-final-bindings.json",
+        "sha256": "6327786883c45d1a669960c32d89298629a784288f9f2b748eebb7b0fb3a4e47"
+      },
+      "screened_source_ids": [
+        {
+          "source": "MED",
+          "id": "35239783",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "22291646",
+          "lane": "P_F",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31622158",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "2039377",
+          "lane": "U",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "19768755",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "18678823",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "42355940",
+          "lane": "P_M",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "27462804",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "30817710",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "19160275",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "19421321",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "39354997",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "16625544",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "17471547",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "30169201",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "10150323",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "27239423",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36754563",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "34027128",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "34110707",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31426362",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "39860619",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "39680699",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "34179932",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "40275690",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "34210274",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31558366",
+          "lane": "H_CF",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "16491049",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "39704300",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36482027",
+          "lane": "H_CF",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "26679329",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "9338087",
+          "lane": "H_M",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "15327586",
+          "lane": "H_M",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "26500463",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "11510809",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "PPR",
+          "id": "PPR202682",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "40852891",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "30095737",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "34853156",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36204184",
+          "lane": "P_F",
+          "provisional": true
+        }
+      ],
+      "full_primary_or_efficacy_appraisal_credit": 0,
+      "original_gene_queue_credit": 0
+    },
+    {
+      "batch": 3,
+      "records": 40,
+      "lane_counts": {
+        "H_CF": 23,
+        "C": 11,
+        "H_UF": 2,
+        "P_F": 3,
+        "H_M": 1
+      },
+      "scientific_crosscheck_records": 8,
+      "scientific_crosscheck_orders": [
+        1,
+        8,
+        11,
+        18,
+        19,
+        21,
+        26,
+        31
+      ],
+      "crosscheck_scope": "Four fixed-interval samples (1,11,21,31) plus four flagged cases (8,18,19,26); no lane changes. All40 identities/source strings and full remaining queue verified; not every route scientifically double-read.",
+      "selection": "Same frozen design/administration/function lexical order within 16/12/12 disjoint query strata; batch03 continues batch02 after excluding completed IDs. No result-direction ranking.",
+      "screening_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch03-20260927/screening-final-bindings.json",
+        "sha256": "8ee7f7ccc8dddb94420e5db73912c55b5a938fe3466a1cf88f71a5d31f95c5c0"
+      },
+      "screened_source_ids": [
+        {
+          "source": "MED",
+          "id": "1792411",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "42123940",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "2017271",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "34930408",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "38318125",
+          "lane": "H_UF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "25367345",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "28368955",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "39084174",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "22895935",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "14733959",
+          "lane": "H_UF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "32297320",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31021358",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "8967757",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "19618428",
+          "lane": "P_F",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "41232427",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "12625640",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "23074533",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "24235105",
+          "lane": "H_CF",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "25075311",
+          "lane": "C",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "28969866",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31908428",
+          "lane": "H_CF",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "21744005",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "9302398",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "41161031",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "9877387",
+          "lane": "P_F",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "32266180",
+          "lane": "H_CF",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "32610608",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "11686957",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "30899342",
+          "lane": "H_M",
+          "provisional": false
+        },
+        {
+          "source": "PMC",
+          "id": "PMC9003731",
+          "lane": "P_F",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "32232597",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "22855866",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "PMC",
+          "id": "PMC7258532",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "26301064",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "12821234",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36657217",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "33516238",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "21180141",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "19089749",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "30246799",
+          "lane": "H_CF",
+          "provisional": false
+        }
+      ],
+      "full_primary_or_efficacy_appraisal_credit": 0,
+      "original_gene_queue_credit": 0
+    }
+  ],
+  "current_eligibility_coverage": {
+    "completed_batches": 3,
+    "disjoint_source_id_records": 120,
+    "unscreened_collection_records": 56097,
+    "complete_available_abstracts_or_pilot_saved_partial_depth": "Each original screen retains actual depth; pilot includes one incomplete saved abstract.",
+    "no_independent_study_or_drug_count": true,
+    "not_representative_sample": true,
+    "primary_appraisals_do_not_automatically_increase_screen_count": true
+  },
+  "completed_prior_source_questions": [
+    {
+      "pmid": "25042931",
+      "reason": "Pilot surfaced a controlled Becker-muscular-dystrophy sildenafil report; scientific main remains to be qualified.",
+      "status": "Follow-up qualified at the separate source depths above; prior question text retained as historical discovery context."
+    },
+    {
+      "pmid": "38655443",
+      "reason": "Pilot surfaced a qualitative methylcobalamin ALS experience report; evaluate its primary controlled evidence separately.",
+      "status": "Follow-up qualified at the separate source depths above; prior question text retained as historical discovery context."
+    }
+  ],
+  "next_source_questions": [
+    {
+      "pmid": "19421321",
+      "reason": "Controlled glutamine DMD functional report selected in batch02; primary qualification underway, not yet admitted."
+    },
+    {
+      "pmid": "27462804",
+      "reason": "ACE-031 trial: recover exact function and stopping/safety contrasts before appraisal."
+    },
+    {
+      "pmid": "39084174",
+      "reason": "Metformin geriatric function report: verify literal dose, between-arm contrast and biomarker-mediation claims."
+    }
+  ]
 }
