@@ -1,15 +1,17 @@
 {
   "date": "2026-09-23",
   "reviewer": "/root",
-  "scope": "243-assessment replay preserves all source fields and prior relations. Exact lipoic-acid and L-citrulline names add appraisal links, not preparation equivalence or efficacy; oral arginine automatic matching remains withheld.",
+  "scope": "The 246-assessment replay preserves all prior output tables, source fields and name relations. Empty magnesium-preparation aliases add no relations or efficacy credit.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lipoic-arginine-citrulline-integration-20260923/dsld-replay-final/runs/96c1d3c421e0511a70d2",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/magnesium-integration-20260923/dsld-replay-final/runs/1b1111bd9e3ca9baf6d1",
   "historical_ledger_count": 168,
-  "current_ledger_count": 243,
+  "current_ledger_count": 246,
   "unchanged_output_tables": [
     "alias-cells.tsv",
+    "groups.tsv",
     "mentions.tsv",
     "metadata-anomalies.json",
+    "name-crossrefs.tsv",
     "normalized-aliases.tsv",
     "screen-policy.json",
     "source-records.tsv"
@@ -248,7 +250,7 @@
   "name_crossrefs_added": 46,
   "old_name_crossrefs_retained": 6800,
   "current_name_crossrefs": 6846,
-  "current_summary_sha256": "96c1d3c421e0511a70d2b279394cf9a914f491d9454b7054c83276ce534b461c",
+  "current_summary_sha256": "1b1111bd9e3ca9baf6d1fb18f1e7948be9f8e2e70977b389260534e9aa107858",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -298,108 +300,13 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "baseline_commit": "cd9ade60969052500fd48513d0e1e6f11e97a08e",
-    "prior_appraisals": 240,
-    "current_appraisals": 243,
-    "changed_output_tables": [
-      "groups.tsv",
-      "name-crossrefs.tsv"
-    ],
-    "changed_appraisal_group_rows": [
-      {
-        "group_id": "6878",
-        "name": "Alpha-Lipoic Acid",
-        "before": "[]",
-        "after": "[\"new-alpha-lipoic-acid-function\"]"
-      },
-      {
-        "group_id": "8",
-        "name": "Alpha Lipoic Acid",
-        "before": "[]",
-        "after": "[\"new-alpha-lipoic-acid-function\"]"
-      },
-      {
-        "group_id": "2792",
-        "name": "Citrulline",
-        "before": "[]",
-        "after": "[\"new-l-citrulline-human-function\"]"
-      },
-      {
-        "group_id": "701",
-        "name": "L-Citrulline",
-        "before": "[]",
-        "after": "[\"new-l-citrulline-human-function\"]"
-      }
-    ],
-    "added_name_crossrefs": [
-      {
-        "group_id": "6878",
-        "normalized_alias": "alpha lipoic acid",
-        "source_alias_cell_ids": "[\"dsld:6878:group_name\",\"dsld:6878:synonym:4\",\"dsld:6878:synonym:5\"]",
-        "target_layer": "curated_appraisal",
-        "target_id": "new-alpha-lipoic-acid-function",
-        "target_name_field": "match_aliases",
-        "target_name_as_reported": "alpha-lipoic acid",
-        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
-        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
-      },
-      {
-        "group_id": "8",
-        "normalized_alias": "alpha lipoic acid",
-        "source_alias_cell_ids": "[\"dsld:8:group_name\",\"dsld:8:synonym:6\",\"dsld:8:synonym:7\",\"dsld:8:synonym:8\",\"dsld:8:synonym:9\",\"dsld:8:synonym:10\"]",
-        "target_layer": "curated_appraisal",
-        "target_id": "new-alpha-lipoic-acid-function",
-        "target_name_field": "match_aliases",
-        "target_name_as_reported": "alpha-lipoic acid",
-        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
-        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
-      },
-      {
-        "group_id": "2792",
-        "normalized_alias": "l citrulline",
-        "source_alias_cell_ids": "[\"dsld:2792:synonym:9\"]",
-        "target_layer": "curated_appraisal",
-        "target_id": "new-l-citrulline-human-function",
-        "target_name_field": "match_aliases",
-        "target_name_as_reported": "L-citrulline",
-        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
-        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
-      },
-      {
-        "group_id": "701",
-        "normalized_alias": "l citrulline",
-        "source_alias_cell_ids": "[\"dsld:701:group_name\"]",
-        "target_layer": "curated_appraisal",
-        "target_id": "new-l-citrulline-human-function",
-        "target_name_field": "match_aliases",
-        "target_name_as_reported": "L-citrulline",
-        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
-        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
-      },
-      {
-        "group_id": "6878",
-        "normalized_alias": "thioctic acid",
-        "source_alias_cell_ids": "[\"dsld:6878:synonym:53\"]",
-        "target_layer": "curated_appraisal",
-        "target_id": "new-alpha-lipoic-acid-function",
-        "target_name_field": "match_aliases",
-        "target_name_as_reported": "thioctic acid",
-        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
-        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
-      },
-      {
-        "group_id": "8",
-        "normalized_alias": "thioctic acid",
-        "source_alias_cell_ids": "[\"dsld:8:synonym:68\"]",
-        "target_layer": "curated_appraisal",
-        "target_id": "new-alpha-lipoic-acid-function",
-        "target_name_field": "match_aliases",
-        "target_name_as_reported": "thioctic acid",
-        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
-        "ambiguity_flags": "[\"alias_shared_across_DSLD_groups\"]"
-      }
-    ],
-    "name_crossrefs_added": 6,
+    "baseline_commit": "f07c1742d5ae6939aed222e68eb5ab366a0bba00",
+    "prior_appraisals": 243,
+    "current_appraisals": 246,
+    "changed_output_tables": [],
+    "changed_appraisal_group_rows": [],
+    "added_name_crossrefs": [],
+    "name_crossrefs_added": 0,
     "new_manual_reading_or_efficacy_credit": 0
   },
   "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
@@ -2685,10 +2592,10 @@
     }
   },
   "prior_parent_reconciliation": {
-    "commit": "cd9ade60969052500fd48513d0e1e6f11e97a08e",
+    "commit": "f07c1742d5ae6939aed222e68eb5ab366a0bba00",
     "repo_relative": "workflow/track2-drug-census/dsld-ingredients/parent-reconciliation.json",
-    "sha256": "aa09d11cc4afc018b483f5a55d25c345034d342b1bac9fe62b461d2bde557512",
-    "appraisals": 240
+    "sha256": "077f441bc69f8fd23027431b2397fcb513ab43076eba6820ff99c2419946d9fb",
+    "appraisals": 243
   },
   "current_delta_from181": {
     "changed_appraisal_group_rows": [

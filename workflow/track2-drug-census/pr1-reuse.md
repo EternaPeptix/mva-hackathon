@@ -150,4 +150,6 @@ The preceding update adds beta-alanine, apigenin and beta-lapachone for **238 as
 
 The preceding update adds source-labelled betaine and nitrate-containing beetroot juice for **240 assessments**, preserving all 238 preceding objects. PR1 remains 109 IDs/93 unchanged/sixteen earlier refinements. Reader/test, original selection, all 47 historical source questions and the preserved comparison appendix remain unchanged.
 
-The current update adds alpha-lipoic acid, L-citrulline and source-labelled chronic oral L-arginine for **243 assessments**, preserving all 240 preceding objects. PR1 remains 109 IDs/93 unchanged/sixteen earlier refinements. Reader/test, original selection, all 47 historical source questions and the preserved comparison appendix remain unchanged.
+The preceding update adds alpha-lipoic acid, L-citrulline and source-labelled chronic oral L-arginine for **243 assessments**, preserving all 240 preceding objects. PR1 remains 109 IDs/93 unchanged/sixteen earlier refinements. Reader/test, original selection, all 47 historical source questions and the preserved comparison appendix remain unchanged.
+
+The current update adds three preparation-specific magnesium assessments for **246 assessments**, preserving all 243 preceding objects. PR1 remains 109 IDs/93 unchanged/sixteen earlier refinements. Reader/test, original selection, all 47 historical source questions and the preserved comparison appendix remain unchanged.

@@ -118,4 +118,6 @@ The preceding 238-assessment replay leaves all FDA source/output tables unchange
 
 The preceding 240-assessment replay leaves all FDA source/output tables unchanged, with 13 appraisal-linked rows. The preparation-specific betaine and nitrate-rich juice assessments add no automatic FDA source-name relation. Source membership establishes no efficacy or product equivalence.
 
-The current 243-assessment replay retains all FDA output tables and source fields, with 13 appraisal-linked rows and no new FDA relations. Name inventories do not establish preparation equivalence or efficacy. Oral arginine has no automatic alias.
+The preceding 243-assessment replay retains all FDA output tables and source fields, with 13 appraisal-linked rows and no new FDA relations. Name inventories do not establish preparation equivalence or efficacy. Oral arginine has no automatic alias.
+
+The current 246-assessment replay preserves all FDA output tables and source fields, with 13 appraisal-linked rows and no new relations. The three magnesium preparations have no automatic aliases; inventory membership is not formulation equivalence or efficacy.

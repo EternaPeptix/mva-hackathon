@@ -1,0 +1,528 @@
+{
+  "date": "2026-09-23",
+  "baseline": {
+    "head": "cd9ade60969052500fd48513d0e1e6f11e97a08e",
+    "decisions": 240,
+    "source": "identity-check.json"
+  },
+  "scope": "Three preparation-specific human functional primaries: one partial-source and two complete scientific-main qualifications. No all-magnesium or all-literature conclusion.",
+  "sources": [
+    {
+      "pmid": "25008857",
+      "doi": "10.3945/ajcn.113.080168",
+      "registry": "NCT01971424",
+      "identity": "Magnesium oxide, product unspecified at accessed depth",
+      "reading_depth": "Complete official abstract, current registry and indexed publisher conclusion; full scientific main/native/supplements inaccessible.",
+      "population": {
+        "healthy_older_women": 139,
+        "age_mean_sd_years": [
+          71.5,
+          5.2
+        ],
+        "training_context": "All attending a mild weekly fitness program; no exercise-by-magnesium interaction qualified.",
+        "baseline_diet": "Abstract says more evident below recommended dietary intake; exact stratum sizes, interaction/multiplicity and biochemical-deficiency mapping unverified."
+      },
+      "intervention": {
+        "article_dose": "300 mg Mg/day in magnesium-oxide form, 12 weeks",
+        "registry_dose_literal": "300 mg of daily oral magnesium oxide",
+        "dose_limit": "Elemental versus salt-mass wording differs; no silent equivalence. Exact brand/excipients and received-dose data unverified.",
+        "comparator": "No placebo; current registry describes healthy-diet education. Researchers blinded per abstract, participants not blinded by a matching pill. Registry masking NONE."
+      },
+      "denominators": {
+        "randomized_active": 62,
+        "randomized_control": 77,
+        "analyzed_active": 53,
+        "analyzed_control": 71,
+        "analyzed_total": 124,
+        "ITT": "Not established at accessed depth",
+        "withdrawals_reasons": "Not verified"
+      },
+      "outcomes": {
+        "SPPB": {
+          "author_declared_primary": true,
+          "reported_delta": 0.41,
+          "reported_plus_minus": 0.24,
+          "unit": "points",
+          "p": 0.03
+        },
+        "chair_stand_time": {
+          "reported_delta": -1.31,
+          "reported_plus_minus": 0.33,
+          "unit": "seconds",
+          "p_literal": "<.0001"
+        },
+        "four_metre_gait_speed": {
+          "reported_delta": 0.14,
+          "reported_plus_minus": 0.03,
+          "unit": "m/s",
+          "p": 0.006
+        },
+        "strength": "Secondary isometric/isokinetic lower-limb and handgrip outcomes null in complete abstract.",
+        "dispersion_limit": "Abstract does not define the ± statistic; not relabeled SD/SE/CI.",
+        "contrast_limit": "Abstract explicitly describes treatment-versus-control improvement; full adjusted model and native tables unverified.",
+        "CI": "Not supplied in accessible abstract."
+      },
+      "harms": "No serious adverse effects reported in abstract; full mild-event/adherence tables not read.",
+      "registry_limits": {
+        "actual_enrollment": 100,
+        "paper_randomized": 139,
+        "start": "2012-01",
+        "completion": "2013-03",
+        "first_submit": "2013-10-23",
+        "first_post": "2013-10-29",
+        "masking": "NONE",
+        "primary": "SPPB change",
+        "secondary_only": "Appendicular skeletal mass change",
+        "has_results": false,
+        "history_read": false,
+        "interpretation": "Enrollment/secondary-outcome/masking and dose-wording discrepancies preserved; registration after completion does not establish prospective specification."
+      },
+      "bubr1": "No assay in portions read; inaccessible remainder not claimed absent.",
+      "funding": "Full-paper disclosure unverified; registry sponsor University of Padova.",
+      "notice_scope": {
+        "comment_pmids": [
+          "25527768",
+          "25527769",
+          "25833985",
+          "25833986"
+        ],
+        "classification": "Comment in records, not identified as errata; text unreviewed."
+      },
+      "judgment": "Mobility-functional reserve with source-access and unblinded-control limits; strength restoration not shown."
+    },
+    {
+      "pmid": "12615252",
+      "doi": "10.1016/S0002-9149(02)03297-6",
+      "identity": "Magnosolv-Granulat magnesium-citrate/potassium-hydrogen-carbonate formulation",
+      "reading_depth": "Complete five-page original scientific main, all three native tables and both native figures. Public-copy title/DOI/pages matched official metadata.",
+      "population": {
+        "randomized": 187,
+        "active": 94,
+        "placebo": 93,
+        "male": 151,
+        "female": 36,
+        "age_mean_sd_years": [
+          63,
+          10
+        ],
+        "age_range": [
+          42,
+          83
+        ],
+        "condition": "Stable CAD, usual medications and diet maintained",
+        "training": "No assigned exercise-training intervention described."
+      },
+      "intervention": {
+        "per_administration_magnesium_mmol": 15,
+        "per_administration_magnesium_mg": 365,
+        "magnesium_form_source": "Provided as citrate",
+        "per_administration_potassium_mmol": 5.4,
+        "potassium_form": "Hydrogen carbonate",
+        "administrations_daily": 2,
+        "duration_months": 6,
+        "source": "Methods, native pages517–518",
+        "component_limit": "Placebo composition insufficiently described to establish potassium matching or isolated magnesium causality. No transfer to every citrate product or other salt."
+      },
+      "denominators": {
+        "completed_active": 75,
+        "completed_placebo": 86,
+        "exercise_efficacy_active": 73,
+        "exercise_efficacy_placebo": 84,
+        "Figure2_labels": [
+          94,
+          93
+        ],
+        "substudy_intracellular_Mg": 106,
+        "analysis": "Methods states all randomized ITT, documented-data plus LOCF exercise-time analysis, per-protocol efficacy and ITT safety; analysis-specific exercise estimates not separately supplied.",
+        "active_withdrawals": {
+          "patient_decision": 12,
+          "poor_compliance": 3,
+          "diarrhea": 2,
+          "abdominal_pain_constipation": 1,
+          "elective_surgery": 1
+        },
+        "placebo_withdrawals": {
+          "patient_decision": 3,
+          "poor_compliance": 4
+        },
+        "exercise_test_missing_among_completers_each_arm": 2
+      },
+      "outcomes": {
+        "exercise_duration_at_6_months": {
+          "active_mean_sd": [
+            8.7,
+            2.1
+          ],
+          "placebo_mean_sd": [
+            7.8,
+            2.9
+          ],
+          "unit": "minutes",
+          "p": 0.0075,
+          "contrast": "Direct post-treatment comparison; not a reconstructed change difference",
+          "source": "Figure2/Results",
+          "CI": "Not reported"
+        },
+        "exercise_induced_chest_pain": {
+          "active_events": 6,
+          "active_n": 73,
+          "placebo_events": 18,
+          "placebo_n": 84,
+          "p": 0.0237
+        },
+        "exercise_null_p": {
+          "time_to_chest_pain": 0.7196,
+          "termination_due_angina": 0.0522,
+          "ST_depression": 0.5244,
+          "time_to_1mm_ST_depression": 0.1787,
+          "arrhythmias": 1.0
+        },
+        "NYHA_class": "No treatment difference",
+        "quality_of_life_between_change_p": {
+          "physical_functioning": 0.134,
+          "role_functioning": 0.1843,
+          "emotional": 0.3718,
+          "cognitive": 0.6452,
+          "social": 0.3417,
+          "fatigue": 0.0515,
+          "pain": 0.2318,
+          "global_health": 0.0847,
+          "Seattle_physical_limitation": 0.576,
+          "Seattle_anginal_stability": 0.2093,
+          "Seattle_anginal_frequency": 0.0972,
+          "Seattle_treatment_satisfaction": 0.1072,
+          "Seattle_disease_perception": 0.2609,
+          "constipation_improvement": 0.042,
+          "diarrhea_worsening": 0.004
+        },
+        "diarrhea_symptom_score": {
+          "active_pre_post": [
+            8,
+            25
+          ],
+          "placebo_pre_post": [
+            10,
+            11
+          ],
+          "scale": "0–100; higher worse",
+          "between_change_p": 0.004
+        },
+        "separate_medication_helped_question": {
+          "active_percent": 66,
+          "placebo_percent": 47,
+          "p": 0.0165
+        },
+        "intracellular_magnesium": {
+          "tissue": "Sublingual epithelial cells, not skeletal muscle",
+          "active_exit_mean_sd_mEq_L": [
+            35.5,
+            3.7
+          ],
+          "placebo_exit_mean_sd_mEq_L": [
+            32.6,
+            2.9
+          ],
+          "p": 0.0151,
+          "source_defined_low_baseline_US": [
+            36,
+            50
+          ],
+          "source_defined_low_baseline_Israel": [
+            44,
+            56
+          ],
+          "limit": "No randomized deficiency-stratum treatment interaction; source refers to normal mean37.9±4mEq/L, not independently diagnosed clinical deficiency."
+        },
+        "correlation_conflict": {
+          "native_Figure1_r": 0.67,
+          "Results_r": 0.63,
+          "both_p": 0.0166,
+          "interpretation": "Unresolved source discrepancy; association not causal mediation."
+        },
+        "force_mass_BUBR1_fidelity": "Not measured in complete scientific article."
+      },
+      "statistics_limits": [
+        "No contrast CI.",
+        "No documented family-wide multiplicity adjustment.",
+        "No prospectively verified outcome hierarchy/protocol or own registry read.",
+        "Differential attrition and unclear presentation of observed/LOCF variants."
+      ],
+      "harms": {
+        "reported_overall_AE_at_6_months_percent": {
+          "active": 32,
+          "placebo": 61,
+          "p": 0.0054
+        },
+        "reported_serious_events": {
+          "active": 2,
+          "placebo": 3
+        },
+        "limit": "Retain alongside diarrhea-related withdrawal and questionnaire worsening; no general safety-superiority claim."
+      },
+      "independence": "Earlier US50-person FMD report explicitly ancillary subset of this study, not independent replication. Separately encountered2006 CAD source unqualified; independence not assumed.",
+      "funding": "Supported by Asta Medica Arzneimittel.",
+      "supplements": "None supplied with original five-page copy; no completeness claim.",
+      "judgment": "Real controlled cardiac exercise-tolerance comparator for the actual formulation, not proven isolated magnesium muscle restoration."
+    },
+    {
+      "pmid": "40077784",
+      "pmcid": "PMC11901567",
+      "doi": "10.3390/nu17050915",
+      "registry": "NCT05282693",
+      "identity": "ReMag magnesium-chloride lemon-flavored study drink",
+      "reading_depth": "Complete scientific main/declarations, all seven native main figures, complete three-page supplement text/nativeS1–S2, complete current registry.",
+      "intervention": {
+        "dose_literal": "300 mg magnesium chloride (MgCl2/ReMag) twice daily for9 days",
+        "washout_min_days": 21,
+        "comparator": "Otherwise matching lemon-flavored beverage without magnesium chloride",
+        "dose_limit": "No independently inspectable lot certificates/hydration state; do not convert to600mg elemental magnesium/day or infer molecular-formula dose.",
+        "blind": "Coded drinks; investigators remained blinded through final analyses.",
+        "bottle_issue": "Visible mold in some plastic bottles led to recall/replacement in glass; study paused. Authors state no known ingestion of mold-containing drinks."
+      },
+      "population": {
+        "assessed": 41,
+        "randomized": 22,
+        "placebo_first": 12,
+        "active_first": 10,
+        "first_treatment_received": 19,
+        "not_collected_placebo_first": 3,
+        "lost_scheduling_active_first": 4,
+        "complete_both": 15,
+        "male": 8,
+        "female": 7,
+        "age_mean_sd_years": [
+          26,
+          5
+        ],
+        "sprint_paired_n": 13,
+        "biopsy_n": 6,
+        "baseline_context": "Regular exercisers; no diagnosed hypomagnesemia per authors; diet intake not measured; originally required fitness threshold dropped.",
+        "baseline_ionized_magnesium_mean_sd_mmol_L": [
+          0.47,
+          0.2
+        ],
+        "deficiency_limit": "No independent deficiency classification from summary values; this was not a selected magnesium-deficient population."
+      },
+      "outcomes": {
+        "VO2max_body_mass_normalized": {
+          "placebo_mean_sd": [
+            44.4,
+            7.7
+          ],
+          "active_mean_sd": [
+            41.3,
+            8.0
+          ],
+          "unit": "mL/kg/min",
+          "p": 0.005,
+          "n": 15,
+          "mean_decrease_sd": [
+            3.1,
+            3.6
+          ],
+          "individual_decrease": 11
+        },
+        "VO2max_absolute": {
+          "placebo_mean_sd": [
+            3.21,
+            0.76
+          ],
+          "active_mean_sd": [
+            2.99,
+            0.72
+          ],
+          "unit": "L/min",
+          "p": 0.01
+        },
+        "sprint_mean_power": {
+          "placebo_mean_sd": [
+            439,
+            88
+          ],
+          "active_mean_sd": [
+            415,
+            88
+          ],
+          "unit": "W",
+          "p": 0.03,
+          "n": 13,
+          "mean_decrease_sd": [
+            24,
+            36
+          ],
+          "individual_decrease": 11
+        },
+        "sprint_peak_power": {
+          "placebo_mean_sd": [
+            655,
+            150
+          ],
+          "active_mean_sd": [
+            665,
+            185
+          ],
+          "unit": "W",
+          "p": 0.7
+        },
+        "10km_time_trial": {
+          "placebo_mean_sd": [
+            1282,
+            126
+          ],
+          "active_mean_sd": [
+            1281,
+            97
+          ],
+          "unit": "seconds",
+          "p": 0.89,
+          "n": 15
+        },
+        "time_trial_work_rate": {
+          "placebo_mean_sd": [
+            174,
+            44
+          ],
+          "active_mean_sd": [
+            172,
+            39
+          ],
+          "unit": "W",
+          "p": 0.39
+        },
+        "other_nulls": "Ventilatory-threshold oxygen uptake, exercise lactate-response interaction, peak heart rate/RPE; do not infer universal endurance impairment.",
+        "ionized_magnesium": {
+          "baseline_mean_sd": [
+            0.47,
+            0.2
+          ],
+          "active_day8_mean_sd": [
+            0.63,
+            0.09
+          ],
+          "active_day9_mean_sd": [
+            0.61,
+            0.08
+          ],
+          "unit": "mmol/L",
+          "day8_vs_baseline_p": 0.015,
+          "day9_vs_baseline_p": 0.033,
+          "limit": "Reported tests versus baseline, not a supplied formal active-versus-placebo treatment contrast."
+        },
+        "biopsy_respiration": {
+          "n": 6,
+          "complex_I_ADP_Vmax_Km": "Null",
+          "native_Figure7_p": {
+            "A_ADP_0_5mM": 0.0577,
+            "B_ADP_1mM": 0.0871,
+            "C_ADP_6mM": 0.0887,
+            "D_complexII_supported": 0.0384,
+            "E_uncoupled": 0.0371
+          },
+          "interpretation": "OnlyD/E below.05; A–C trends not significant. Selected oxygen-consumption response, not measured ATP synthesis, BUBR1 or mediation.",
+          "protocol_conflict": "Main sequential0.5µM FCCP versus supplement1.0mM FCCP; unresolved."
+        },
+        "microbiome": "No overall diversity/richness clustering differences; selected genera changes have separate FDR control and do not establish clinical harm or benefit.",
+        "BUBR1_fidelity": "No assay in complete main/supplement."
+      },
+      "statistics": {
+        "performance": "Two-sided paired t-tests; mean±SD; no reported contrast CIs",
+        "limitations": [
+          "Selected completers; no22-person ITT.",
+          "No described study-wide correction across performance/respirometry tests.",
+          "No period/sequence/carryover term described.",
+          "Biopsy study underpowered; authors separately report P<.10 trends."
+        ]
+      },
+      "harms": {
+        "main_general_statement": "No adverse events",
+        "questionnaire_diarrhea_reports": {
+          "active": {
+            "mild": 4,
+            "moderate": 3,
+            "severe": 1
+          },
+          "placebo": {
+            "mild": 1,
+            "moderate": 1,
+            "severe": 0
+          }
+        },
+        "limit": "Symptom reports are retained despite generic statement; no summed unique-patient incidence or safety equivalence inferred."
+      },
+      "registry_limits": {
+        "actual_enrollment": 41,
+        "paper_randomized": 22,
+        "first_post": "2022-03-16",
+        "actual_start": "2021-12-17",
+        "registry_completion": "2024-02-28",
+        "main_collection_analysis_through": "2024-11",
+        "has_results": false,
+        "history_read": false,
+        "outcomes": "Current registry lists many primary outcomes, including cytokines absent from main; article calls performance primary and other assays additional. Original prespecification not inferred."
+      },
+      "funding": "New Capstone supplied/funded products. Authors declare no conflicts and no sponsor role in data/interpretation/publication; Think Healthy Group participated in design discussions and administered sponsor interactions.",
+      "judgment": "Controlled adverse performance and null endurance comparator for this brief ReMag regimen in regular exercisers; no universal magnesium harm claim."
+    }
+  ],
+  "competitive_judgment": "Retain actual mobility/cardiac exercise positives and preparation-specific negative/null evidence. Fair functional-reserve comparison does not require BUBR1 assays, but no head-to-head/MVA/pediatric superiority follows. Niacin bridge and apitegromab SMA motor evidence remain distinct; no fresh nominee-primary credit.",
+  "identity_limit": "Aquamin and ascorbate-phosphate unchanged; optional entries use empty match_aliases to prevent generic magnesium/salt/mixture joins.",
+  "source_reviewer_status": "FROZEN_EXTERNAL_QUALIFICATION_NO_ADMISSION",
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "magnesium-functional-qualification.md",
+  "qualification_md_sha256": "1676fc74d9df4f8c7f3d5441d16b948b5ebd98a4507e78f2efaf3358241bd724",
+  "integration": {
+    "baseline": "f07c1742d5ae6939aed222e68eb5ab366a0bba00",
+    "baseline_assessments": 243,
+    "current_assessments": 246,
+    "retained_prior_ids": 243,
+    "prior_objects_unchanged": 243,
+    "refined_ids": [],
+    "source_markdown": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/magnesium-functional-followup-20260923/qualification.md",
+      "sha256": "a93d07152a20aba483066989adcf16d65169741cb61fafa1150c1806f0324db9"
+    },
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/magnesium-functional-followup-20260923/qualification.json",
+      "sha256": "7bfb2b988bb066c278077bbc34bb6e4b1d559fad0e4fec76665bc376720334b7"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/magnesium-functional-followup-20260923/reading-manifest.json",
+      "sha256": "a39db07c9ca499ff83823cd71ef2c89b12b301f395a56aa3976a6b6df585bc16"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/magnesium-functional-followup-20260923/independent-check/independent-check.md",
+      "sha256": "f8f02de8ddd6331b8d0687be4b0b22b07bdef97a5f0dde63087985c571a3d112"
+    },
+    "independent_structured_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/magnesium-functional-followup-20260923/independent-check/independent-check.json",
+      "sha256": "2fde17733a6fb79b89d75c47cd7228acdf8dd1e8c7001088cef0c86853f1326d"
+    },
+    "independent_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/magnesium-functional-followup-20260923/independent-check/reading-manifest.json",
+      "sha256": "dbde9f627afbd63461f2174003982b7fd0f613b0899d247f835743195d11edf7"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/magnesium-integration-20260923/root-reading.json",
+      "sha256": "bd0b97a04e5838131344cfe4239052b8027a5bcebc82e4b50e553afef6cbf336"
+    },
+    "attribution_correction": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/magnesium-functional-followup-20260923/attribution-correction.json",
+      "sha256": "8871c9f15fa88f5a25bb5f4f04d4bee48fc07c078561e95c393615749e069569"
+    },
+    "source_markdown_before_sole_attribution_fix": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/magnesium-functional-followup-20260923/before-attribution-correction/qualification.md",
+      "sha256": "7bf6153656ef3abd692fffcdc530b1d74ce018643ac03007686808dbffe8d4d0"
+    },
+    "source_markdown_sole_fix_history": {
+      "old_clause": "Methods excluded previous diagnosis rather than selecting a defined deficient cohort.",
+      "new_clause": "the Introduction says participants had not previously been diagnosed, and the Discussion describes their baseline ionized values as within the reference range.",
+      "exact_single_replacement_verified": true,
+      "scientific_outcomes_changed": false
+    },
+    "metadata_renames": {
+      "status": "source_reviewer_status"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false
+  }
+}

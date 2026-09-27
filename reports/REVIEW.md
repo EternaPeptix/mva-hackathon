@@ -4,7 +4,7 @@
 
 The [adopted drug-census decision](../workflow/track2-drug-census/decision-report.md) is incorporated into this package. We nominate **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue. Their shared goal is greater absolute muscle output with preserved renewal and chromosome accuracy.
 
-Niacin retains the more proximal hypothesis; apitegromab has stronger actual-drug human functional evidence from treated SMA, with age/dose limits, fracture risk and intravenous access burden. It requires a suitable myostatin activation system and drug engagement, not mandatory excess baseline myostatin. The linked census, updated 23 September 2026, retains 15,357 entities plus 40 separately assessed FDA product entries and 243 curated route/compound appraisals. This is measured retrieval and review coverage, not efficacy evidence for every medicine.
+Niacin retains the more proximal hypothesis; apitegromab has stronger actual-drug human functional evidence from treated SMA, with age/dose limits, fracture risk and intravenous access burden. It requires a suitable myostatin activation system and drug engagement, not mandatory excess baseline myostatin. The linked census, updated 23 September 2026, retains 15,357 entities plus 40 separately assessed FDA product entries and 246 curated route/compound appraisals. This is measured retrieval and review coverage, not efficacy evidence for every medicine.
 
 Completed work comprises allele-product reconstruction, literature and route
 comparison, synthetic analysis of misleading cell fractions, and a reproducible
@@ -80,3 +80,5 @@ The beta-lapachone follow-up broadens the same new ID with controlled aged-mouse
 Betaine source v2 corrects two undercredited respiratory contrasts while preserving functional/null and preparation limits. Nitrate review retains the nine-person power result, related fitted outcomes, task nulls and registry/cohort discrepancies. The subsequent Nm/kg key rename changes no values; root verified its exact equivalence to the independently reviewed version. No new primary or replication credit follows from that schema correction.
 
 The lipoic-acid and arginine/citrulline source checks preserve controlled functional positives, primary nulls, background medication and observed harms. Full scientific-main reading for the recent MS and NO-PAIN reports is not claimed. Source and independent reading boundaries remain separately attributed.
+
+The magnesium independent check corrected one source attribution: the no-prior-hypomagnesemia-diagnosis description is in the Introduction, not a Methods exclusion. The sole Markdown clause change and preserved prior bytes are bound in the qualification provenance; outcomes and interpretation are unchanged.
