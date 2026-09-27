@@ -12941,7 +12941,7 @@
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
     "reviewed_at_utc": "2026-09-22T02:51:50.650727+00:00",
-    "scope": "585 current payloads plus two self-referential audit documents;497 original inventory decisions unchanged.",
+    "scope": "587 current payloads plus two self-referential audit documents; 497 original inventory decisions unchanged.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12954,7 +12954,7 @@
       "original_audit_bytes_sha256": "7fae846b1a22b88b05096372fa4fbbd9bbca7f27e23f725a2ff32ad1b6a2644b",
       "all_original_fields_unchanged": true
     },
-    "reviewed_payload_count": 585,
+    "reviewed_payload_count": 587,
     "report_tree_files": 32,
     "reviewed_files": [
       {
@@ -12977,8 +12977,8 @@
       },
       {
         "path": "README.md",
-        "bytes": 11621,
-        "sha256": "4172d443b6b1f30fdb7525e48f2de25270d643a4683180b8321d97e6090c0756",
+        "bytes": 11586,
+        "sha256": "a7643c63b5bc0090824bf43c168ac089999ac319ee3d0f0dba373a153c9c6e33",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13004,8 +13004,8 @@
       },
       {
         "path": "reports/README.md",
-        "bytes": 15248,
-        "sha256": "9e58e671d23f1e7edc9e63fd7cd27369d9d772e6fde15fe25a6f437fc57fcea5",
+        "bytes": 15213,
+        "sha256": "09dbe46614faf0d933b27185d25c3169dec20dabb4c868906ebc04b0adb32d0d",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -13175,8 +13175,8 @@
       },
       {
         "path": "reports/appendices/track2-route-decisions.md",
-        "bytes": 106572,
-        "sha256": "56304489288f803bbeefec54fe255b8ab4b6106034e24b2344f8a3b04cc870f0",
+        "bytes": 106537,
+        "sha256": "fe1efd18b8b6a056681657c841db6534f53d90c0fde569236a9bf89b2e26e7aa",
         "mode": 420,
         "decision": "keep",
         "category": "scientific_route_comparison",
@@ -13448,8 +13448,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 45883,
-        "sha256": "974f76f4bb0f9defe37ba09de90d6bbbdacc9ea0af43f8db0d90bb4ccab289c2",
+        "bytes": 45848,
+        "sha256": "c14af02f68c115f4428e04975d5ee16433798ee33097a7ba6ec3b34233f05371",
         "mode": 420
       },
       {
@@ -13516,12 +13516,30 @@
         "mode": 420
       },
       {
+        "path": "workflow/track2-drug-census/apitegromab-regulatory-qualification.json",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Root-approved self-contained regulatory source qualification; source and independent/root review scopes separately bound; raw primary assets remain external.",
+        "bytes": 8922,
+        "sha256": "600f7fdb9c8fda03c029d397469f5ed4b9196a6436962042dd19acfe05ea4ac4",
+        "mode": 420
+      },
+      {
+        "path": "workflow/track2-drug-census/apitegromab-regulatory-qualification.md",
+        "decision": "keep",
+        "category": "public_source_research_assessment",
+        "grounds": "Root-approved self-contained regulatory source qualification; source and independent/root review scopes separately bound; raw primary assets remain external.",
+        "bytes": 8356,
+        "sha256": "269302b3a5c2c6e1bd9dc927a369dc1554dc74739061eb6dde91baa2a44f5a0a",
+        "mode": 420
+      },
+      {
         "path": "workflow/track2-drug-census/apitegromab-review.md",
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 14423,
-        "sha256": "e4de6f4bb980e429264b6d7591305973581de61d5ff667092e0b05618542072b",
+        "bytes": 16181,
+        "sha256": "b9d4b55c7f9127912c56213b6785a209dd20992cd9d862058fc71ee80f39884a",
         "mode": 420
       },
       {
@@ -14528,8 +14546,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 81163,
-        "sha256": "84a47fb16798fc8716032efe7a34618d7ccb4be97b72aa4e111718a8d9e32f86",
+        "bytes": 81128,
+        "sha256": "370945c4359dab94172d75cf488ec441830be9df37893b9379242967b5bd35ed",
         "mode": 420
       },
       {
@@ -14537,8 +14555,8 @@
         "decision": "keep",
         "category": "public_drug_census",
         "grounds": "Public clinical/regulatory metadata, code, retrieval/triage states and selected primary-source research appraisals, or navigation/source-license integration. No raw article abstracts or new controlled case payload. No efficacy imputed to missing evidence. Preserve the source-specific database licenses.",
-        "bytes": 438813,
-        "sha256": "3e6e4195b486501aa9af9411e06276bbc2bfeab79536b10a44d22ac3e3c39256",
+        "bytes": 439326,
+        "sha256": "a115f5008c952b5d2a150fabe1b4d267fadae9f3416f086741629645b09d9d05",
         "mode": 420
       },
       {
@@ -14753,8 +14771,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
-        "bytes": 102376,
-        "sha256": "16c2e69374770cc066b0d5fe229734171ebd73241fc0492fc55c76b5c4fcd32d",
+        "bytes": 102356,
+        "sha256": "54d8cfba77d154f5680ae71b2d97ffc2a5bf3292a76e920edd0c646b4a07ca1c",
         "mode": 420
       },
       {
@@ -14789,8 +14807,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, third-party figure image or controlled case payload. The new expression plot is an original rendering of public numeric values. Not approval to publish.",
-        "bytes": 17055,
-        "sha256": "ce680c95041c6dcd9a5c9af0743b7bc71c296dba5e84055ca43618290c30e182",
+        "bytes": 17073,
+        "sha256": "876e74d682e4f6d4f1ed035e2465f51ee1c2c122ffa602e66d7e9dd5e4fc64cc",
         "mode": 420
       },
       {
@@ -15114,7 +15132,7 @@
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
         "bytes": 36281,
-        "sha256": "41b33bf20bab85b68b0aaa9919dc8c2d27811f224ea33be0c0eb19a6b012d750",
+        "sha256": "584ef34f515e0b15fd5757cc9b0c0903f5416b4e1fa71595f8ecd8d5525a4a9f",
         "mode": 420
       },
       {
@@ -15132,7 +15150,7 @@
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
         "bytes": 2696,
-        "sha256": "d059eac2671a5d39bb70112b1d5270d387d70e8e531548c0cb1d5f62e1a2ab2f",
+        "sha256": "37a80e071c6e87db3d91fbd3c6dee32edebd348cae91a7618a53b11d537c64c1",
         "mode": 420
       },
       {
@@ -16697,8 +16715,8 @@
         "decision": "keep",
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
-        "bytes": 81958,
-        "sha256": "448e13d11789da182d0c70f487521b5e54581f151c12637161eb6b2cab56f97a",
+        "bytes": 84560,
+        "sha256": "b5f7de279bc31696292480d094b0ba894d0157a1cd9bbd00ac24dc7cae40146f",
         "mode": 420
       },
       {
@@ -17076,7 +17094,7 @@
         "category": "public_source_research_assessment",
         "grounds": "Original public-source assessments, public research-probe table metadata, bounded review metadata or verification method. No source abstract/full text, figure image or controlled case payload. Not approval to publish.",
         "bytes": 2739,
-        "sha256": "09cbec4f4a7383903e5842ec16444a82aa7a9e9b4d4533c50c7952fcd1fe468a",
+        "sha256": "aea5c8c27d9d7c5f6a2616d333269db9f5a0395a893a9bef9e95975df3b75258",
         "mode": 420
       },
       {
@@ -20001,6 +20019,62 @@
         "refined": 17
       },
       "prior_source_fields_and_name_relations_preserved": true,
+      "replay_deltas": {
+        "food-substances": {
+          "changed_output_tables": [],
+          "unchanged_output_tables": [
+            "mentions.tsv",
+            "substances.tsv"
+          ]
+        },
+        "sgc-probes": {
+          "changed_output_tables": [],
+          "unchanged_output_tables": [
+            "controls.tsv",
+            "mentions.tsv",
+            "probes.tsv",
+            "source-rows.tsv"
+          ]
+        },
+        "dsld-ingredients": {
+          "changed_output_tables": [],
+          "unchanged_output_tables": [
+            "alias-cells.tsv",
+            "groups.tsv",
+            "mentions.tsv",
+            "metadata-anomalies.json",
+            "name-crossrefs.tsv",
+            "normalized-aliases.tsv",
+            "screen-policy.json",
+            "source-records.tsv"
+          ]
+        }
+      }
+    },
+    "apitegromab_regulatory_followup_20260927": {
+      "baseline": "8383727638fe2a5e1d0823fc4b397956d7ca8891",
+      "appraisals": 259,
+      "added_ids": [],
+      "refined_ids": [
+        "new-apitegromab"
+      ],
+      "new_appraisals": 0,
+      "prior_unchanged": 258,
+      "refined_decision_fields": [
+        "evidence_scope",
+        "rationale",
+        "source_urls"
+      ],
+      "new_portable_files": 2,
+      "refined_portable_files": [],
+      "new_original_queue_credit": 0,
+      "PR1": {
+        "retained": 109,
+        "unchanged": 91,
+        "refined": 18
+      },
+      "prior_source_fields_and_name_relations_preserved": true,
+      "all_rebuilt_output_tables_byte_identical": true,
       "replay_deltas": {
         "food-substances": {
           "changed_output_tables": [],
