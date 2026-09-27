@@ -1,160 +1,65 @@
 {
   "schema": "historical-followup-question-reconciliation/v1",
-  "date": "2026-09-23",
-  "reviewer": "/root/retinoic_independent (source-only candidate assembler)",
+  "date": "2026-09-27",
+  "reviewer": "/root (integration assembly; separate source and synthesis reviews)",
   "repository": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
-  "repository_commit": "313f1207170482439314d52f25dd3c95615e96da",
-  "authoritative_decision_count": 216,
+  "repository_commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+  "authoritative_decision_count": 268,
   "historical_batch": 15,
   "historical_flag_count": 47,
-  "scope": "Only n85 changes, using a separately qualified published counterpart. Fifteen exact-source qualifications remain; the preprint is not credited as full-text read or version-authenticated.",
+  "scope": "Only active n438 receives direct exact-source components with unresolved source conflicts; preserve all other 46 records and all 47 historical questions/flags.",
   "summary": {
-    "exact_source_questions_with_material_direct_qualified_answers": 15,
-    "substantive_primary_qualifications": 16,
+    "exact_source_questions_with_material_direct_qualified_answers": 16,
+    "substantive_primary_qualifications": 17,
     "same_source_target_only_partial_qualification": 0,
-    "no_direct_source_answer": 32,
-    "open_unassigned": 31,
+    "no_direct_source_answer": 31,
+    "open_unassigned": 30,
     "assigned_elsewhere_pending": 0,
     "different_experiment_context_does_not_close_question": 9,
     "fully_resolved_entire_original_composite_questions": 6,
     "new_unique_sources": 0,
     "new_abstract_reading_credit": 0,
     "new_primary_reading_credit": 0,
-    "direct_answers_with_unresolved_original_source_components": 9,
-    "fully_resolved_entire_original_composite_questions_scope": "Six exact-source study-level answers within limits, nine exact-source partials and one published-counterpart partial; original preprint access/version unverified.",
+    "direct_answers_with_unresolved_original_source_components": 10,
+    "fully_resolved_entire_original_composite_questions_scope": "Six exact-source study-level answers within limits, ten exact-source partials and one published-counterpart partial; original preprint access/version remains unverified.",
     "open_questions_with_different_experiment_context": 5,
-    "questions_with_direct_or_linked_publication_information": 16,
+    "questions_with_direct_or_linked_publication_information": 17,
     "published_counterpart_partial_qualifications": 1,
-    "no_qualified_exact_source_or_counterpart": 31,
-    "partial_questions_including_published_counterpart": 10
+    "no_qualified_exact_source_or_counterpart": 30,
+    "partial_questions_including_published_counterpart": 11
   },
-  "count_interpretation": "Sixteen questions have primary information: 15 exact-source qualifications (six source-level answers and nine partials) plus one published-counterpart partial. Thirty-one have neither; 32 still lack an exact-original-source answer.",
+  "count_interpretation": "Seventeen questions have qualified primary information: 16 exact-source qualifications (six source-level answers and ten partials) plus one published-counterpart partial. Thirty have neither; 31 still lack an exact-original-source answer.",
   "source_search_and_reading": {
-    "candidate_discovery": "PMID/PMCID/DOI and linked-version identifier search across repository qualification/review narrative and current decisions; named-intervention/context comparison used only to find candidates. Automatic matches were not treated as scientific resolution.",
-    "actually_inspected": "All47frozen followup questions and source-specific annotations; five exact-source qualification locations and relevant companion JSON; listed related-evidence sections; selected current decision objects and all194baseline route identifiers and three newly integrated decision objects. UpdatedEML1 report/companionJSON and resveratrol/bladder documentation additions read without opening new primary assets. Integrated BAY qualification/companionJSON and corrected appraisal row subsequently inspected.",
-    "not_read": "No new primary text/figure/supplement, linked notice or version was retrieved/read for this task. Existing qualification reading-depth claims remain attributed to their earlier readers.",
-    "repository_docs_considered_for_identity_search": 247,
-    "tool_evidence": [
-      "2b9df0",
-      "328e94 (middle output truncated; missing middle entries re-read in1b3fce)",
-      "87e5a3 (candidate locations only; not complete annotation-read credit)",
-      "1b3fce",
-      "7cc8b9",
-      "a6a4ee",
-      "906177",
-      "d76874",
-      "f93d1e",
-      "6c2593",
-      "284441",
-      "609c58",
-      "d5b682",
-      "8c7aee",
-      "5e36a4",
-      "5a2502",
-      "a5d3a1",
-      "688b8d",
-      "706454",
-      "e2f7a4",
-      "53a905",
-      "d4c2d4"
-    ],
-    "current_update": {
-      "actually_read": "Candidate assembler reused its already completed primary qualification and exact native targeted expression review. Independent and root scopes remain separately attributed in review state.",
-      "assembly_reading_credit": 0,
-      "review_state": {
-        "status": "final_bounded_reviews_complete_source_only_freeze_authorized",
-        "independent_review": {
-          "status": "complete",
-          "reviewer": "ms023_primary",
-          "conclusion": "AGREES_WITH_BOUNDED_SOURCE_QUALIFICATION",
-          "scope": "Targeted independent Methods, selected Results, Table2/Fig2 and native target workbook checks; not whole-paper review.",
-          "artifacts": [
-            {
-              "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/next-source-triage-20260923/pdls-secretome/independent/independent-check.md",
-              "sha256": "2955675e151316cbef9837d714b2358a08a30099d46f42a1e6de9f066c706d19"
-            },
-            {
-              "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/next-source-triage-20260923/pdls-secretome/independent/independent-check.json",
-              "sha256": "2536bd4b1bfd1cfd4fc399dbf920fc0f7d7baf8b6f7a72704dd8ce14b5bf90a1"
-            }
-          ]
-        },
-        "root_primary_review": {
-          "status": "complete",
-          "reviewer": "/root",
-          "scope": "All primary Methods, Fig2caption, Table2, direct osteogenic/network Results and selected Discussion; nativeFig2; original workbook headers/target cells and allsix descriptive ratios. Not whole-paper, allfigures or fullworkbook reading.",
-          "artifacts": [
-            {
-              "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pdls-source-integration-20260923/root-reading.json",
-              "sha256": "0a644cf31bd629a1c385e30af1c16254f5ae9aa306bca10d5be7e843eb454772"
-            }
-          ],
-          "source_only_admission": "Source-only biological-preparation comparison; no new drug identity, catalog join, ingredient efficacy, medicine availability, or MVA rescue claim. Keep ledger207 byte-identical.",
-          "whole_workbook_artifact_attempt_credit": false
-        },
-        "freeze_authorized": true
-      }
-    }
+    "actually_inspected": "Accepted PP2A qualification/proposal, independent synthesis review and targeted n438/current schema; no new original main, image or workbook reading.",
+    "new_primary_reading_credit": 0,
+    "prior_scopes": "Historical source-reading state is preserved in historical_checkpoint_before_pp2a_268."
   },
   "input_provenance": [
     {
-      "source_kind": "baseline_git_blob",
-      "commit": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
-      "repo_relative": "workflow/track2-drug-census/outer-revalidation-batch15-review.json",
-      "git_object": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622:workflow/track2-drug-census/outer-revalidation-batch15-review.json",
-      "sha256": "368b3e7193d9c08fbbd0bac2ebfda5b0b37d35240c67fa9f69ea03993510c277",
-      "role": "Frozen47 questions/all532 annotations"
-    },
-    {
-      "source_kind": "baseline_git_blob",
-      "commit": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
-      "repo_relative": "workflow/track2-drug-census/outer-revalidation-batch15-selection.json",
-      "git_object": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622:workflow/track2-drug-census/outer-revalidation-batch15-selection.json",
-      "sha256": "0a7d4cc32aa681e3452d37c580681f036c3ea5bcb9c31c4e5b326f11020d7ef8",
-      "role": "Frozen532-record selection"
-    },
-    {
-      "source_kind": "baseline_git_blob",
-      "commit": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
-      "repo_relative": "workflow/track2-drug-census/decisions.json",
-      "git_object": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622:workflow/track2-drug-census/decisions.json",
-      "sha256": "e9fa45056609374f9d7b069cca8252cb560fbff4a661a52e3c6adf383d4c883e",
-      "role": "Baseline206ledger, not current207repository input"
-    },
-    {
-      "source_kind": "frozen_external_candidate",
-      "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/retinoic-barrier-followup-20260923/candidate/candidate-decisions.json",
-      "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
-      "candidate_appraisals": 207,
-      "role": "Frozen candidate input; root records current repository hash only after integration"
-    },
-    {
-      "source_kind": "baseline_git_blob",
-      "commit": "32c1db986e6f5728947a59e39d547183f686f2b9",
+      "source_kind": "immutable_baseline_git_blob",
+      "commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
       "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
-      "sha256": "91fd4f4a586b97189694fbc7ce66582d94f111a860f35cc1174e79a0f70e22ce",
-      "role": "Current207assessment/12direct source-question baseline for n64-only candidate"
+      "sha256": "a28c91ce90bd685dcc37b96577bb6d3ae7b7ae5e6274dac34878dbd485c0b345",
+      "role": "Exact previous active reconciliation"
     },
     {
-      "source_kind": "baseline_git_blob",
-      "commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
+      "source_kind": "immutable_baseline_git_blob",
+      "commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
       "repo_relative": "workflow/track2-drug-census/decisions.json",
-      "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
-      "role": "207-assessment integration baseline, distinct from current ledger"
+      "sha256": "327f67234059ba120f8cb5cb9a8959f95d470c0de7cc04134903a20dfef7667b",
+      "role": "265-appraisal integration baseline"
     },
     {
-      "source_kind": "baseline_git_blob",
-      "commit": "313f1207170482439314d52f25dd3c95615e96da",
-      "repo_relative": "workflow/track2-drug-census/decisions.json",
-      "sha256": "4b05570e9110a155581f59d0b6519c59a4daf7b07471e0c9109624d03dad4373",
-      "role": "212-assessment baseline, distinct from current ledger"
+      "source_kind": "accepted_portable_source",
+      "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.md",
+      "sha256": "bb79c11d5edca5e55e727b42eaaf9edbd395dd5b53377dc51fecd1b2de11d759",
+      "role": "Separately qualified exact primary source; no new integration reading credit"
     },
     {
-      "source_kind": "current_repository_file",
-      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
-      "repo_relative": "workflow/track2-drug-census/decisions.json",
-      "sha256": "22ab64ec1f5d902e978eeacb39f7e83d8f1cc8406a01ecea70bbc895fe68da84",
-      "role": "Current216 assessments; four prior source refinements and four additions"
+      "source_kind": "accepted_portable_source",
+      "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.json",
+      "sha256": "ab354aa43e772e5883b4e8f60c9b074ec6686e284b32e1b1778482a927124dd6",
+      "role": "Separately qualified exact primary source; no new integration reading credit"
     }
   ],
   "qualification_files": [
@@ -485,6 +390,20 @@
       "sha256": "911c9d2fccd2a374c962dc3bdb4d469d4b91c4513f57b78918b934faf738357b",
       "line": 1,
       "location_status": "Integrated qualification of published counterpart; original preprint unverified"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pp2a-brca2-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.md",
+      "sha256": "bb79c11d5edca5e55e727b42eaaf9edbd395dd5b53377dc51fecd1b2de11d759",
+      "line": 1,
+      "location_status": "Integrated portable qualification; original sources remain external"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pp2a-brca2-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.json",
+      "sha256": "ab354aa43e772e5883b4e8f60c9b074ec6686e284b32e1b1778482a927124dd6",
+      "line": 1,
+      "location_status": "Integrated portable qualification; original sources remain external"
     }
   ],
   "records": [
@@ -2164,17 +2083,51 @@
         "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
         "json_pointer": "/records/437/followup_reason"
       },
-      "classification": "open_no_direct_source_qualified_answer",
-      "judgment": "No exact PP2A-compound qualification found for the BRCA2 context; neither okadaic acid nor another inhibitor can be inferred from the target.",
-      "remaining_question": "Identify PP2A drugs and model-specific arms, keeping worm genetic survival rescue separate from tumor synthetic lethality and testing normal-cell specificity.",
-      "source_qualified_answer_components": [],
-      "qualification_pointers": [],
-      "current_decision_ids": [],
+      "classification": "direct_primary_answers_with_unresolved_source_conflicts",
+      "judgment": "The exact source now qualifies LB100 as the administered PP2A inhibitor, separates other drug/model arms from Ceubxn-2/NSFL1C genetic rescue, and documents model-specific control/proficient responses. This is a direct bounded answer with unresolved source-form and reporting components.",
+      "remaining_question": "Resolve barasertib parent-versus-HQPA/catalog identity, imaging exposure clocks and cell-to-repeat denominators, duplicated or mismapped supporting values, and animal allocation/death/missing-data accounting before a quantitatively transferable claim. Healthy BUB1B/MVA tissue function, normal-tissue safety and useful renewal remain untested; inspection of controls does not establish universal sparing.",
+      "source_qualified_answer_components": [
+        "LB100 is the actual PP2A inhibitor. Its 10 µM attachment/phosphorylation arms and separate 24-hour clonogenic or xenograft exposures are model-specific drug experiments, not inferred okadaic-acid effects.",
+        "Ceubxn-2/NSFL1C genetic loss supplies worm/cell survival rescue through checkpoint attenuation; LB100 instead reactivates the checkpoint and destabilizes rescued attachments. Native S4 does not show restored p-BubR1/PP2A-B56 localization.",
+        "Source-labeled barasertib 10 nM supplies arrested cold-stable K-fiber findings; NMS-873 10 µM supplies AURKB localization/fractionation; olaparib supplies actual comparator and combination tumor findings. The interventions do not inherit each other’s effects.",
+        "Observed LB100 responses include losses in proficient/control comparators. Equal treated-cell plating and own-control normalization do not establish absolute healthy renewal, universal normal-cell sparing or a clinical safety window.",
+        "The source retains tumor suppression and stronger combination effects but supplies no formal additivity-model synergy or survival-extension result. Duplicated Fig 4C/6E values and Fig 7E/S7H mismatch remain unresolved.",
+        "Methods reports 35 implanted versus 30 allocated animals and later deaths on days 28/30. First-row day-10 death labels omit trajectories and are not evidence of baseline death; causes and missing-data sensitivity remain unresolved."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pp2a-brca2-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.md",
+          "sha256": "bb79c11d5edca5e55e727b42eaaf9edbd395dd5b53377dc51fecd1b2de11d759",
+          "line": 1,
+          "location_status": "Integrated portable qualification; original sources remain external"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pp2a-brca2-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.json",
+          "sha256": "ab354aa43e772e5883b4e8f60c9b074ec6686e284b32e1b1778482a927124dd6",
+          "line": 1,
+          "location_status": "Integrated portable qualification; original sources remain external"
+        }
+      ],
+      "current_decision_ids": [
+        "new-lb100",
+        "new-nms873",
+        "new-olaparib",
+        "new-barasertib"
+      ],
       "related_evidence_is_not_resolution": [],
       "full_original_composite_question_resolved": false,
       "new_unique_source_credit": 0,
       "new_primary_reading_credit": 0,
-      "publication_or_lineage_limit": null
+      "publication_or_lineage_limit": null,
+      "resolution_scope": "Actual compounds, model arms and available control responses are now examined; unresolved source details and absent healthy/MVA experiments remain explicit. The original question is partially answered, not unassigned.",
+      "remaining_gap_types": [
+        "barasertib_form_and_imaging_exposure_unresolved",
+        "source_value_and_denominator_conflicts",
+        "animal_allocation_death_and_missingness_accounting",
+        "healthy_BUB1B_MVA_function_and_safety_unmeasured"
+      ]
     },
     {
       "batch_review_index": 458,
@@ -2303,105 +2256,31 @@
     }
   ],
   "preservation": {
-    "historical_preservation_check": {
-      "historical_preservation_check": {
-        "historical_preservation_check": {
-          "historical_preservation_check": {
-            "historical_preservation_check": {
-              "historical_preservation_check": {
-                "historical_preservation_check": {
-                  "only_written_files": [
-                    "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.md",
-                    "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.json"
-                  ],
-                  "frozen_artifacts_checked": 272,
-                  "frozen_artifacts_sorted_name_hash_manifest_sha256": "83b57bb9bbedff42b1a19e2f8abb3f35f4382fe80b3ea63158d354c491c110ed",
-                  "frozen_artifacts_changed": [],
-                  "original_followup_flags_mutated": false,
-                  "repository_files_written": false,
-                  "other45record_objects_unchanged": true,
-                  "changed_record_indices": [
-                    52,
-                    164
-                  ]
-                },
-                "changed_record_indices": [
-                  35,
-                  52,
-                  225
-                ],
-                "other44record_objects_unchanged": true,
-                "original_followup_flags_mutated": false,
-                "repository_files_written": false,
-                "scope": "Only candidate directory written; no old source packages modified."
-              },
-              "changed_record_indices": [
-                156
-              ],
-              "other46record_objects_unchanged": true,
-              "all47_questions_and_flags_unchanged": true,
-              "all202_prior_ledger_objects_byte_equivalent": true,
-              "repository_files_written": false
-            },
-            "changed_record_indices": [
-              390
-            ],
-            "other46record_objects_unchanged": true,
-            "all47_questions_and_flags_unchanged": true,
-            "all203_prior_ids_retained": true,
-            "other202_prior_objects_unchanged": true,
-            "repository_files_written": false
-          },
-          "changed_record_indices": [
-            418
-          ],
-          "other46record_objects_unchanged": true,
-          "all47_questions_and_flags_unchanged": true,
-          "all206_prior_objects_unchanged": true,
-          "repository_files_written": false
-        },
-        "changed_record_indices": [
-          64
-        ],
-        "other46record_objects_unchanged": true,
-        "all47_questions_and_flags_unchanged": true,
-        "all207_decisions_unchanged": true,
-        "catalog_and_joins_unchanged": true,
-        "repository_files_written": false
-      },
-      "changed_record_indices": [
-        122,
-        340
-      ],
-      "other45record_objects_unchanged": true,
-      "all47_questions_and_flags_unchanged": true,
-      "all207_prior_decision_objects_unchanged": true
-    },
     "changed_record_indices": [
-      85
+      438
     ],
     "other46record_objects_unchanged": true,
     "all47_questions_and_flags_unchanged": true,
-    "all212_prior_decision_ids_retained": true,
-    "prior208_objects_unchanged": true
+    "all265_prior_decision_ids_retained": true,
+    "prior264_objects_unchanged": true
   },
-  "parent_assigned_next_source": "Only n64 qualified in this source-only update; constituent efficacy and beyond-culture questions remain open.",
-  "status": "integrated_published_counterpart_reconciliation",
-  "repository_snapshot_state": "Integrated 216-assessment snapshot; recorded HEAD is the parent until commit.",
-  "freeze_note": "Preserve all other 46 question objects and all 47 original questions/flags. Published counterpart and exact preprint are distinct evidence depths.",
+  "parent_assigned_next_source": "No new source assignment is made by this reconciliation; residual n438 questions are explicit.",
+  "status": "integrated_exact_source_partial_reconciliation",
+  "repository_snapshot_state": "268-appraisal checkpoint; repository_commit is the immutable parent baseline, not a self-referential commit claim.",
+  "freeze_note": "Preserve all other 46 objects and every original question/hash/flag; direct qualification does not imply missing experiments were performed.",
   "historical_integration_transform_at_197": {
     "original_external_markdown_sha256": "a4b579148add74cc47af028853e8f0ac14fd2336dc4b87d5dafe4b256d9c77a7",
     "source_md_sha256": "3df5d40908dd864a6319a9b27e11f8ea0137ca373191382ce29625b368f2ca2b",
     "scope": "Portable same-directory document links and curated prose spacing only; original JSON questions/answers and source hashes unchanged."
   },
   "previous_reconciliation": {
-    "commit": "313f1207170482439314d52f25dd3c95615e96da",
+    "commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
     "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
-    "sha256": "50cde25158d6b4bde3a38a654d00775d7b4bd47e3cda5b7637d6d60fb84b9df1"
+    "sha256": "a28c91ce90bd685dcc37b96577bb6d3ae7b7ae5e6274dac34878dbd485c0b345"
   },
-  "reconciliation_md_sha256": "4f8ca198bcc6857de3a4faf74cec3eb22cac87e60612fceb856b02535e1c5223",
-  "decision_count_scope": "207 is the unchanged authoritative baseline and proposed source-only integration count; no compound assessment or catalog join is added.",
-  "repository_authoritative_decision_count_at_baseline": 212,
+  "reconciliation_md_sha256": "3975f298ed24c3b10bed72c1dc064aefc3d53320bd584d24f398c27e5203336d",
+  "decision_count_scope": "265 baseline appraisals; three additions and one additive existing refinement produce 268.",
+  "repository_authoritative_decision_count_at_baseline": 265,
   "historical_input_provenance_at_202": [
     {
       "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
@@ -2550,32 +2429,26 @@
     "source_scope": "Complete root scientific main/captions/Table1/supplementary text, selected images, targeted GEO values/calls; no raw-array or new outer credit."
   },
   "candidate_input_ledger": {
-    "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cenpe-feedback-followup-20260923/candidate/candidate-decisions.json",
-    "sha256": "22ab64ec1f5d902e978eeacb39f7e83d8f1cc8406a01ecea70bbc895fe68da84",
-    "candidate_appraisals": 216,
-    "scope": "Frozen external candidate, separately retained from current repository input."
+    "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-integration-20260927/ready/decisions-ready.json",
+    "sha256": "0a1c912e21997e4c2b9b7173e050c4e0ca0515506217edec466b921ff1d319a3",
+    "candidate_appraisals": 268,
+    "scope": "Exact reviewed prepared ledger; historical candidates preserved."
   },
   "root_integration": {
-    "baseline": "313f1207170482439314d52f25dd3c95615e96da",
-    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cenpe-feedback-integration-20260923/root-reading.json",
-    "root_reading_sha256": "73ad4df74e37ce45f5b0439a57d56f3bad7766bd7ab8d11ece52f360833b3146",
+    "baseline": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
     "changed_record_indices": [
-      85
+      438
     ],
     "new_ids": [
-      "new-alisertib",
-      "new-centrinone",
-      "new-mln8054",
-      "new-tcs7010"
+      "new-lb100",
+      "new-nms873",
+      "new-olaparib"
     ],
     "refined_ids": [
-      "new-aurora-balancing",
-      "new-eg5-balancing",
-      "new-gsk923295",
-      "new-mg132"
+      "new-barasertib"
     ],
     "new_outer_credit": 0,
-    "preprint_reading_or_version_equivalence_claimed": false
+    "new_primary_reading_credit": 0
   },
   "historical_root_integration_at_207": {
     "baseline": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
@@ -2635,5 +2508,285 @@
     "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
     "assessments": 207,
     "scope": "Baseline before adding five reviewed material-specific assessments."
-  }
+  },
+  "historical_checkpoint_before_pp2a_268": {
+    "date": "2026-09-23",
+    "reviewer": "/root/retinoic_independent (source-only candidate assembler)",
+    "repository_commit": "313f1207170482439314d52f25dd3c95615e96da",
+    "authoritative_decision_count": 216,
+    "scope": "Only n85 changes, using a separately qualified published counterpart. Fifteen exact-source qualifications remain; the preprint is not credited as full-text read or version-authenticated.",
+    "summary": {
+      "exact_source_questions_with_material_direct_qualified_answers": 15,
+      "substantive_primary_qualifications": 16,
+      "same_source_target_only_partial_qualification": 0,
+      "no_direct_source_answer": 32,
+      "open_unassigned": 31,
+      "assigned_elsewhere_pending": 0,
+      "different_experiment_context_does_not_close_question": 9,
+      "fully_resolved_entire_original_composite_questions": 6,
+      "new_unique_sources": 0,
+      "new_abstract_reading_credit": 0,
+      "new_primary_reading_credit": 0,
+      "direct_answers_with_unresolved_original_source_components": 9,
+      "fully_resolved_entire_original_composite_questions_scope": "Six exact-source study-level answers within limits, nine exact-source partials and one published-counterpart partial; original preprint access/version unverified.",
+      "open_questions_with_different_experiment_context": 5,
+      "questions_with_direct_or_linked_publication_information": 16,
+      "published_counterpart_partial_qualifications": 1,
+      "no_qualified_exact_source_or_counterpart": 31,
+      "partial_questions_including_published_counterpart": 10
+    },
+    "count_interpretation": "Sixteen questions have primary information: 15 exact-source qualifications (six source-level answers and nine partials) plus one published-counterpart partial. Thirty-one have neither; 32 still lack an exact-original-source answer.",
+    "source_search_and_reading": {
+      "candidate_discovery": "PMID/PMCID/DOI and linked-version identifier search across repository qualification/review narrative and current decisions; named-intervention/context comparison used only to find candidates. Automatic matches were not treated as scientific resolution.",
+      "actually_inspected": "All47frozen followup questions and source-specific annotations; five exact-source qualification locations and relevant companion JSON; listed related-evidence sections; selected current decision objects and all194baseline route identifiers and three newly integrated decision objects. UpdatedEML1 report/companionJSON and resveratrol/bladder documentation additions read without opening new primary assets. Integrated BAY qualification/companionJSON and corrected appraisal row subsequently inspected.",
+      "not_read": "No new primary text/figure/supplement, linked notice or version was retrieved/read for this task. Existing qualification reading-depth claims remain attributed to their earlier readers.",
+      "repository_docs_considered_for_identity_search": 247,
+      "tool_evidence": [
+        "2b9df0",
+        "328e94 (middle output truncated; missing middle entries re-read in1b3fce)",
+        "87e5a3 (candidate locations only; not complete annotation-read credit)",
+        "1b3fce",
+        "7cc8b9",
+        "a6a4ee",
+        "906177",
+        "d76874",
+        "f93d1e",
+        "6c2593",
+        "284441",
+        "609c58",
+        "d5b682",
+        "8c7aee",
+        "5e36a4",
+        "5a2502",
+        "a5d3a1",
+        "688b8d",
+        "706454",
+        "e2f7a4",
+        "53a905",
+        "d4c2d4"
+      ],
+      "current_update": {
+        "actually_read": "Candidate assembler reused its already completed primary qualification and exact native targeted expression review. Independent and root scopes remain separately attributed in review state.",
+        "assembly_reading_credit": 0,
+        "review_state": {
+          "status": "final_bounded_reviews_complete_source_only_freeze_authorized",
+          "independent_review": {
+            "status": "complete",
+            "reviewer": "ms023_primary",
+            "conclusion": "AGREES_WITH_BOUNDED_SOURCE_QUALIFICATION",
+            "scope": "Targeted independent Methods, selected Results, Table2/Fig2 and native target workbook checks; not whole-paper review.",
+            "artifacts": [
+              {
+                "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/next-source-triage-20260923/pdls-secretome/independent/independent-check.md",
+                "sha256": "2955675e151316cbef9837d714b2358a08a30099d46f42a1e6de9f066c706d19"
+              },
+              {
+                "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/next-source-triage-20260923/pdls-secretome/independent/independent-check.json",
+                "sha256": "2536bd4b1bfd1cfd4fc399dbf920fc0f7d7baf8b6f7a72704dd8ce14b5bf90a1"
+              }
+            ]
+          },
+          "root_primary_review": {
+            "status": "complete",
+            "reviewer": "/root",
+            "scope": "All primary Methods, Fig2caption, Table2, direct osteogenic/network Results and selected Discussion; nativeFig2; original workbook headers/target cells and allsix descriptive ratios. Not whole-paper, allfigures or fullworkbook reading.",
+            "artifacts": [
+              {
+                "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pdls-source-integration-20260923/root-reading.json",
+                "sha256": "0a644cf31bd629a1c385e30af1c16254f5ae9aa306bca10d5be7e843eb454772"
+              }
+            ],
+            "source_only_admission": "Source-only biological-preparation comparison; no new drug identity, catalog join, ingredient efficacy, medicine availability, or MVA rescue claim. Keep ledger207 byte-identical.",
+            "whole_workbook_artifact_attempt_credit": false
+          },
+          "freeze_authorized": true
+        }
+      }
+    },
+    "input_provenance": [
+      {
+        "source_kind": "baseline_git_blob",
+        "commit": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
+        "repo_relative": "workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "git_object": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622:workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "sha256": "368b3e7193d9c08fbbd0bac2ebfda5b0b37d35240c67fa9f69ea03993510c277",
+        "role": "Frozen47 questions/all532 annotations"
+      },
+      {
+        "source_kind": "baseline_git_blob",
+        "commit": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
+        "repo_relative": "workflow/track2-drug-census/outer-revalidation-batch15-selection.json",
+        "git_object": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622:workflow/track2-drug-census/outer-revalidation-batch15-selection.json",
+        "sha256": "0a7d4cc32aa681e3452d37c580681f036c3ea5bcb9c31c4e5b326f11020d7ef8",
+        "role": "Frozen532-record selection"
+      },
+      {
+        "source_kind": "baseline_git_blob",
+        "commit": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "git_object": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622:workflow/track2-drug-census/decisions.json",
+        "sha256": "e9fa45056609374f9d7b069cca8252cb560fbff4a661a52e3c6adf383d4c883e",
+        "role": "Baseline206ledger, not current207repository input"
+      },
+      {
+        "source_kind": "frozen_external_candidate",
+        "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/retinoic-barrier-followup-20260923/candidate/candidate-decisions.json",
+        "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
+        "candidate_appraisals": 207,
+        "role": "Frozen candidate input; root records current repository hash only after integration"
+      },
+      {
+        "source_kind": "baseline_git_blob",
+        "commit": "32c1db986e6f5728947a59e39d547183f686f2b9",
+        "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
+        "sha256": "91fd4f4a586b97189694fbc7ce66582d94f111a860f35cc1174e79a0f70e22ce",
+        "role": "Current207assessment/12direct source-question baseline for n64-only candidate"
+      },
+      {
+        "source_kind": "baseline_git_blob",
+        "commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
+        "role": "207-assessment integration baseline, distinct from current ledger"
+      },
+      {
+        "source_kind": "baseline_git_blob",
+        "commit": "313f1207170482439314d52f25dd3c95615e96da",
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "sha256": "4b05570e9110a155581f59d0b6519c59a4daf7b07471e0c9109624d03dad4373",
+        "role": "212-assessment baseline, distinct from current ledger"
+      },
+      {
+        "source_kind": "current_repository_file",
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "sha256": "22ab64ec1f5d902e978eeacb39f7e83d8f1cc8406a01ecea70bbc895fe68da84",
+        "role": "Current216 assessments; four prior source refinements and four additions"
+      }
+    ],
+    "preservation": {
+      "historical_preservation_check": {
+        "historical_preservation_check": {
+          "historical_preservation_check": {
+            "historical_preservation_check": {
+              "historical_preservation_check": {
+                "historical_preservation_check": {
+                  "historical_preservation_check": {
+                    "only_written_files": [
+                      "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.md",
+                      "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.json"
+                    ],
+                    "frozen_artifacts_checked": 272,
+                    "frozen_artifacts_sorted_name_hash_manifest_sha256": "83b57bb9bbedff42b1a19e2f8abb3f35f4382fe80b3ea63158d354c491c110ed",
+                    "frozen_artifacts_changed": [],
+                    "original_followup_flags_mutated": false,
+                    "repository_files_written": false,
+                    "other45record_objects_unchanged": true,
+                    "changed_record_indices": [
+                      52,
+                      164
+                    ]
+                  },
+                  "changed_record_indices": [
+                    35,
+                    52,
+                    225
+                  ],
+                  "other44record_objects_unchanged": true,
+                  "original_followup_flags_mutated": false,
+                  "repository_files_written": false,
+                  "scope": "Only candidate directory written; no old source packages modified."
+                },
+                "changed_record_indices": [
+                  156
+                ],
+                "other46record_objects_unchanged": true,
+                "all47_questions_and_flags_unchanged": true,
+                "all202_prior_ledger_objects_byte_equivalent": true,
+                "repository_files_written": false
+              },
+              "changed_record_indices": [
+                390
+              ],
+              "other46record_objects_unchanged": true,
+              "all47_questions_and_flags_unchanged": true,
+              "all203_prior_ids_retained": true,
+              "other202_prior_objects_unchanged": true,
+              "repository_files_written": false
+            },
+            "changed_record_indices": [
+              418
+            ],
+            "other46record_objects_unchanged": true,
+            "all47_questions_and_flags_unchanged": true,
+            "all206_prior_objects_unchanged": true,
+            "repository_files_written": false
+          },
+          "changed_record_indices": [
+            64
+          ],
+          "other46record_objects_unchanged": true,
+          "all47_questions_and_flags_unchanged": true,
+          "all207_decisions_unchanged": true,
+          "catalog_and_joins_unchanged": true,
+          "repository_files_written": false
+        },
+        "changed_record_indices": [
+          122,
+          340
+        ],
+        "other45record_objects_unchanged": true,
+        "all47_questions_and_flags_unchanged": true,
+        "all207_prior_decision_objects_unchanged": true
+      },
+      "changed_record_indices": [
+        85
+      ],
+      "other46record_objects_unchanged": true,
+      "all47_questions_and_flags_unchanged": true,
+      "all212_prior_decision_ids_retained": true,
+      "prior208_objects_unchanged": true
+    },
+    "parent_assigned_next_source": "Only n64 qualified in this source-only update; constituent efficacy and beyond-culture questions remain open.",
+    "status": "integrated_published_counterpart_reconciliation",
+    "repository_snapshot_state": "Integrated 216-assessment snapshot; recorded HEAD is the parent until commit.",
+    "freeze_note": "Preserve all other 46 question objects and all 47 original questions/flags. Published counterpart and exact preprint are distinct evidence depths.",
+    "previous_reconciliation": {
+      "commit": "313f1207170482439314d52f25dd3c95615e96da",
+      "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
+      "sha256": "50cde25158d6b4bde3a38a654d00775d7b4bd47e3cda5b7637d6d60fb84b9df1"
+    },
+    "reconciliation_md_sha256": "4f8ca198bcc6857de3a4faf74cec3eb22cac87e60612fceb856b02535e1c5223",
+    "decision_count_scope": "207 is the unchanged authoritative baseline and proposed source-only integration count; no compound assessment or catalog join is added.",
+    "repository_authoritative_decision_count_at_baseline": 212,
+    "candidate_input_ledger": {
+      "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cenpe-feedback-followup-20260923/candidate/candidate-decisions.json",
+      "sha256": "22ab64ec1f5d902e978eeacb39f7e83d8f1cc8406a01ecea70bbc895fe68da84",
+      "candidate_appraisals": 216,
+      "scope": "Frozen external candidate, separately retained from current repository input."
+    },
+    "root_integration": {
+      "baseline": "313f1207170482439314d52f25dd3c95615e96da",
+      "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cenpe-feedback-integration-20260923/root-reading.json",
+      "root_reading_sha256": "73ad4df74e37ce45f5b0439a57d56f3bad7766bd7ab8d11ece52f360833b3146",
+      "changed_record_indices": [
+        85
+      ],
+      "new_ids": [
+        "new-alisertib",
+        "new-centrinone",
+        "new-mln8054",
+        "new-tcs7010"
+      ],
+      "refined_ids": [
+        "new-aurora-balancing",
+        "new-eg5-balancing",
+        "new-gsk923295",
+        "new-mg132"
+      ],
+      "new_outer_credit": 0,
+      "preprint_reading_or_version_equivalence_claimed": false
+    }
+  },
+  "qualification_files_scope": "Pre-existing qualification_files entries and their hashes are preserved historical reading-time bindings, not newly certified current-file hashes. Only the two appended PP2A qualification pointers are bound to the current accepted source bytes in this update. Other 46 question records and their historical pointers are unchanged."
 }

@@ -1,11 +1,11 @@
 {
   "date": "2026-09-23",
   "reviewer": "/root",
-  "scope": "One preparation-specific hot-water broccoli/mustard appraisal added; all 264 existing appraisals unchanged; all NIH source fields and prior relations preserved. Only exact accepted descriptive-alias relations may be added; these establish name provenance, not chemical equivalence or efficacy.",
+  "scope": "Three exact PP2A/BRCA2 appraisals added and barasertib refined additively; 264 other prior objects unchanged. NIH source fields and prior relations preserved. Only accepted new aliases may add name-provenance relations, not chemical equivalence or efficacy.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glucoraphanin-muscle-integration-20260927/dsld-replay-final/runs/c83fc22f726328e39422",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-integration-20260927/dsld-replay-final/runs/7ce64c1ae0eeaef00d0c",
   "historical_ledger_count": 168,
-  "current_ledger_count": 265,
+  "current_ledger_count": 268,
   "unchanged_output_tables": [
     "alias-cells.tsv",
     "groups.tsv",
@@ -21,7 +21,7 @@
   "name_crossrefs_added": 0,
   "old_name_crossrefs_retained": 6862,
   "current_name_crossrefs": 6862,
-  "current_summary_sha256": "c83fc22f726328e3942234706d497e13ad2ca25adb462d27838d9c9969cafc89",
+  "current_summary_sha256": "7ce64c1ae0eeaef00d0c4cd7cde816cdcff61daad1a1563111054047c315302e",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -71,13 +71,17 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "baseline_commit": "3c5a47015e3af9f45379d7dbbbed1731f6a814f3",
-    "prior_appraisals": 264,
-    "current_appraisals": 265,
+    "baseline_commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+    "prior_appraisals": 265,
+    "current_appraisals": 268,
     "added_ids": [
-      "new-hot-water-broccoli-glucoraphanin"
+      "new-lb100",
+      "new-nms873",
+      "new-olaparib"
     ],
-    "refined_ids": [],
+    "refined_ids": [
+      "new-barasertib"
+    ],
     "changed_output_tables": [],
     "changed_appraisal_group_rows": [],
     "added_name_crossrefs": [],
@@ -2367,10 +2371,10 @@
     }
   },
   "prior_parent_reconciliation": {
-    "commit": "3c5a47015e3af9f45379d7dbbbed1731f6a814f3",
+    "commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
     "repo_relative": "workflow/track2-drug-census/dsld-ingredients/parent-reconciliation.json",
-    "sha256": "a765214d0b72d1356c8cf92ec7321c6b9d4d3d7c78cf333bcb8a0e6b2bbcc040",
-    "appraisals": 264
+    "sha256": "50604ce25257c655dcbd1660b5b481fc351058c6cdef2ccc5657627908580f92",
+    "appraisals": 265
   },
   "current_delta_from181": {
     "changed_appraisal_group_rows": [

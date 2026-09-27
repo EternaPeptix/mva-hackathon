@@ -482,12 +482,16 @@
       ],
       "route": "barasertib",
       "disposition": "New same-gene pharmacological precedent; defer promotion",
-      "evidence_scope": "Selected primary-source appraisal; model and access limits in linked review. Not actual-genotype efficacy.",
+      "evidence_scope": "Selected primary-source appraisal; model and access limits in linked review. Not actual-genotype efficacy. Additional Wang JCI 2024 source-qualified BRCA2-siRNA attachment comparison under monastrol/MG132 arrest; separate from the prior BubR1-mouse abstract.",
       "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
-      "rationale": "Conference abstract reports longer median survival in BubR1 hypomorphic mice but no improvement in other monitored age-related phenotypes. Investigational drug; no demonstrated muscle rescue.",
+      "rationale": "Conference abstract reports longer median survival in BubR1 hypomorphic mice but no improvement in other monitored age-related phenotypes. Investigational drug; no demonstrated muscle rescue. Separately, Wang JCI 2024 reports fewer absent/few cold-stable K-fibers with barasertib 10 nM versus DMSO in BRCA2-siRNA HeLa and LNCaP, with n=3 reported repeats and unpaired two-sided t tests (native P<0.001 and P<0.0001). The assay uses monastrol synchronization followed by MG132 arrest and cold challenge; exposure duration and cells per repeat are unresolved. Fig 4C/6E supporting percentages are identical under different model labels despite different native significance symbols, so the reported positives are retained without independently reconciled numerical replication. Arrested attachment does not establish faithful completed division, drug-treated worm survival, BUBR1 restoration, muscle rescue or actual-MVA benefit. The source-specific qualification is workflow/track2-drug-census/pp2a-brca2-qualification.md. The reviewed source qualification does not resolve parent prodrug versus active HQPA or the catalog number; the existing barasertib/AZD1152 aliases are historical matching context and do not establish formulation or potency equivalence.",
       "source_report": "workflow/track2-drug-census/literature-review.md",
       "source_urls": [
-        "https://www.ascpt.org/Portals/28/docs/Annual%20Meetings/Annual%20Meeting%20Archive/2013%20Final%20Program.pdf?ver=2018-01-19-101927-487"
+        "https://www.ascpt.org/Portals/28/docs/Annual%20Meetings/Annual%20Meeting%20Archive/2013%20Final%20Program.pdf?ver=2018-01-19-101927-487",
+        "https://www.jci.org/articles/view/172137",
+        "https://www.jci.org/articles/view/172137/version/2/pdf/render.pdf",
+        "https://www.jci.org/articles/view/172137/sd/1",
+        "https://www.jci.org/articles/view/172137/sd/7"
       ]
     },
     {
@@ -4865,6 +4869,60 @@
         "https://www.mdpi.com/2072-6643/18/4/710/notes"
       ],
       "identity_limit": "The sole descriptive alias identifies the Cesanelli 2026 study preparation: 10 g freeze-dried 99.5% broccoli/0.5% mustard-seed powder supplied by The Smarter Food Company and reconstituted in 125 mL boiling water. It is not a generic glucoraphanin, sulforaphane/SFN, broccoli, mustard, extract or current retail-product alias. Manufacturer-reported glucoraphanin content and consumption do not establish measured sulforaphane exposure or equivalence to separate D,L-sulforaphane preparations."
+    },
+    {
+      "decision_id": "new-lb100",
+      "match_aliases": [
+        "LB100"
+      ],
+      "route": "LB100 / PP2A inhibition in BRCA2-deficient tumor models",
+      "disposition": "Source-specific mechanistic and tumor comparator; defer MVA promotion",
+      "evidence_scope": "Wang JCI 2024 primary main, native figures, supplement and selected supporting values qualified with independent source review. Actual drug arms are separate from Ceubxn-2/NSFL1C genetic rescue.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "LB100 10 µM increases AURKB-T232 phosphorylation and destabilizes rescued K-fibers in BRCA2/NSFL1C-depleted LNCaP; authors interpret checkpoint reactivation. Twenty-four-hour drug exposures reduce normalized colony survival in model-specific BRCA2/SAC contexts, including losses in proficient/control comparators at higher doses. Equal treated-cell plating and own-control normalization do not establish absolute healthy renewal or universal normal-cell sparing. LB100 2 mg/kg intraperitoneal suppresses xenograft growth; combination with olaparib adds reported clonogenic and tumor-BLI suppression without a demonstrated formal synergy index. Animal accounting retains 35 implanted versus 30 allocated, two later deaths and omitted numeric trajectories. Ceubxn-2/NSFL1C genetic survival rescue is not a drug effect. Global PP2A inhibition is not local PP2A-B56 recruitment, BUBR1 restoration, muscle rescue or actual-MVA efficacy.",
+      "source_report": "workflow/track2-drug-census/pp2a-brca2-qualification.md",
+      "source_urls": [
+        "https://www.jci.org/articles/view/172137",
+        "https://www.jci.org/articles/view/172137/version/2/pdf/render.pdf",
+        "https://www.jci.org/articles/view/172137/sd/1",
+        "https://www.jci.org/articles/view/172137/sd/7"
+      ]
+    },
+    {
+      "decision_id": "new-nms873",
+      "match_aliases": [
+        "NMS-873"
+      ],
+      "route": "NMS-873 / VCP-dependent AURKB localization comparator",
+      "disposition": "Source-specific localization comparator; defer MVA promotion",
+      "evidence_scope": "Wang JCI 2024 actual NMS-873 arms: Figures 4J/K and 5D, S6D; complete main and native figures, relevant supplement and controls qualified with independent source review.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "NMS-873 10 µM increases centromeric/chromatin AURKB association after NSFL1C depletion in HeLa/LNCaP or USP9X depletion in HeLa, with DMSO and control-siRNA comparators. Localization captions report n=3 and two-way ANOVA; fractionation blots are representative, exact drug duration and cell-to-repeat mapping remain unresolved. The drug-associated localization result is not restored total BUBR1, faithful completed division, genetic worm survival, muscle output or MVA rescue. It is not inherited evidence for other VCP inhibitors or for LB100.",
+      "source_report": "workflow/track2-drug-census/pp2a-brca2-qualification.md",
+      "source_urls": [
+        "https://www.jci.org/articles/view/172137",
+        "https://www.jci.org/articles/view/172137/version/2/pdf/render.pdf",
+        "https://www.jci.org/articles/view/172137/sd/1",
+        "https://www.jci.org/articles/view/172137/sd/7"
+      ]
+    },
+    {
+      "decision_id": "new-olaparib",
+      "match_aliases": [
+        "olaparib"
+      ],
+      "route": "olaparib / PARP comparator and LB100 combination in BRCA2 tumor models",
+      "disposition": "Source-specific tumor comparator and combination context; defer MVA promotion",
+      "evidence_scope": "Wang JCI 2024 administered olaparib comparator and combination arms qualified at complete-main/native-figure, supplement and selected-value depth with independent source review; no human treatment result.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "Olaparib is an actual PARP comparator whose sensitivity changes with BRCA2 and NSFL1C state. In PC3M-2B4, 24-hour olaparib 0/0.5/1/2.5 µM plus LB100 1 µM reduces normalized colonies relative to olaparib alone; at 2.5 µM, descriptive means are 32.5% alone and 5.9% in combination, n=3. Two-way ANOVA and author synergy wording do not establish a formal additivity-model interaction. The S7H values duplicate another model/dose sheet and do not reconstruct its eight native series. In xenografts, olaparib 75 mg/kg and LB100 2 mg/kg intraperitoneally follow the source graphical schedule; combination BLI suppression is retained. Methods reports 35 implanted versus 30 allocated and deaths on days 28 (combination) and 30 (olaparib); day-10 death labels in the value sheets omit those animals’ trajectories and do not imply baseline death. Causes and missing-data sensitivity are unresolved; nonsignificant weights are not comprehensive safety. No survival extension, BUBR1 restoration, muscle or MVA benefit is shown.",
+      "source_report": "workflow/track2-drug-census/pp2a-brca2-qualification.md",
+      "source_urls": [
+        "https://www.jci.org/articles/view/172137",
+        "https://www.jci.org/articles/view/172137/version/2/pdf/render.pdf",
+        "https://www.jci.org/articles/view/172137/sd/1",
+        "https://www.jci.org/articles/view/172137/sd/7"
+      ]
     }
   ]
 }

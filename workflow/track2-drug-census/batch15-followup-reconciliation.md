@@ -1,10 +1,20 @@
 # Batch 15 historical follow-up reconciliation
 
-**Sixteen of 47 historical questions now have qualified primary information:** 15 from exact-source qualifications and one from a separately reviewed published counterpart. Six exact-source questions are answered within limits; nine exact-source questions and the counterpart retain unresolved components. Thirty-one have neither kind of qualification; 32 still lack an exact-original-source answer.
+**Seventeen of 47 historical questions now have qualified primary information:** 16 from exact-source qualifications and one from a separately reviewed published counterpart. Six exact-source questions are answered within limits; ten exact-source questions and the counterpart retain unresolved components. Thirty have neither kind of qualification; 31 still lack an exact-original-source answer.
 
-**CENP-E published-counterpart update:** four added assessments and four prior source refinements bring the ledger to 216. Only n85 changes; all other 46 question objects and all original questions/flags remain. PPR918452 full text and exact version remain unverified.
+**PP2A/BRCA2 update:** three added assessments and one additive barasertib refinement bring the ledger to 268 at this checkpoint. Only active n438 changes; all other 46 question objects and all 47 original questions/flags remain. Drug, genetic and source-form boundaries remain explicit.
 
 ## Direct coverage and remaining gaps
+
+### n438 — PMID 37934606
+
+LB100 is the actual PP2A inhibitor: its checkpoint-reactivation, disrupted-attachment and tumor-suppression findings are distinct from Ceubxn-2/NSFL1C genetic survival rescue. Barasertib supplies cold-stable K-fiber comparisons under arrest, NMS-873 supplies AURKB localization/fractionation, and olaparib supplies comparator/combination tumor effects. These are source-qualified administered arms, not inferred class effects.
+
+The normal/proficient controls were examined and are not universally spared. Own-control normalized colonies after equal treated-cell plating do not establish absolute healthy renewal or a clinical safety window. Greater combination suppression is retained without formal synergy. Native p-BubR1/PP2A-B56 findings do not establish restoration by the genetic co-depletion or the drug.
+
+**Remaining scope:** Barasertib parent-versus-HQPA/catalog identity, imaging exposure and replicate denominators, duplicated or mismapped values, and 35 implanted versus 30 allocated animals remain unresolved. Deaths reported on days 28/30 are not baseline deaths despite first-row worksheet labels. Healthy BUB1B/MVA function, tissue safety and faithful productive output remain unmeasured. The source-level question now has direct qualified components; the full composite question remains partially unresolved.
+
+Pointers: [PP2A/BRCA2 qualification](pp2a-brca2-qualification.md), [structured evidence](pp2a-brca2-qualification.json).
 
 ### n35 — PMID34745968
 
@@ -121,7 +131,6 @@ Nine records retain related evidence from a different experiment; five of those 
 | [n358 / 36190432](https://pubmed.ncbi.nlm.nih.gov/36190432/) | No exact siHIF2 formulation/trial qualification found; the highlighted responder does not resolve the full phase1 denominator, durability or safety. | Extract RNA formulation/dose, resistant-mutant coverage, full trial denominator, response durability and safety; keep PT2399 and belzutifan distinct. |
 | [n400 / 36380369](https://pubmed.ncbi.nlm.nih.gov/36380369/) | No exact M2I-1 drug-arm qualification found; genetic SGOL2 animal benefit cannot be assigned to the compound. | Separate M2I-1 exposure/model arms from genetic animal experiments and inspect selectivity/normal-cell fidelity; linked preprint content remains unreviewed here. |
 | [n401 / 26887051](https://pubmed.ncbi.nlm.nih.gov/26887051/) | No exact AR-12/sildenafil qualification found; the imaging-versus-western discrepancy remains unresolved by source qualification. | Check binding/ATPase specificity, exposures and normal-cell response while retaining that altered antibody accessibility need not equal protein depletion. |
-| [n438 / 37934606](https://pubmed.ncbi.nlm.nih.gov/37934606/) | No exact PP2A-compound qualification found for the BRCA2 context; neither okadaic acid nor another inhibitor can be inferred from the target. | Identify PP2A drugs and model-specific arms, keeping worm genetic survival rescue separate from tumor synthetic lethality and testing normal-cell specificity. |
 | [n458 / 21242994](https://pubmed.ncbi.nlm.nih.gov/21242994/) | No exact LBH589/ATLL qualification found; existing generic HDAC evidence is not this primary-cell/mouse result. | Extract dose, mouse tumor/toxicity controls and primary-cell selectivity while preserving RAIDD/caspase2 support and p53/death-receptor nulls. |
 | [n464 / 33553272](https://pubmed.ncbi.nlm.nih.gov/33553272/) | No exact PDA-66/PDA-377 qualification found; one derivative’s cell activity does not establish efficacy of the series. | Check structures, matched exposures, normal-cell controls and direct microtubule evidence separately for each derivative. |
 | [n478 / 19927127](https://pubmed.ncbi.nlm.nih.gov/19927127/) | No actual-NUAK1-inhibitor functional qualification found. The flagged paper is genetic lifespan/ploidy evidence and does not supply the requested administered-compound bridge. | Determine whether an actual NUAK1 inhibitor reproduces genetic fibroblast lifespan/ploidy effects with LATS1 dependence and preserved usable function; this would require separate evidence. |
@@ -172,9 +181,9 @@ Pointers: [PDLSC secretome qualification](pdls-secretome-qualification.md), [str
 
 The JSON preserves all 47 original questions verbatim, record/abstract hashes, source pointers/hashes, relevant decision IDs, exact answered components and bounded remaining questions. Historical version/notice limits stay attached: PPR918452 links PMID41120338 by title/first-author matching; PMID35302600 links PPR440054; PMID23403633 links commentary23459035; PMID36380369 links PPR525543. Metadata links do not constitute reading, authenticated version equivalence or independent-study credit.
 
-This reconciliation maps separately attributed primary qualifications to the original questions. It does not turn cross-model pathway membership into a drug response or culture induction into disease repair. Only n85 changes in this update; all other 46 record objects and all 47 original questions/flags are preserved. Prior source qualifications and their reading scopes remain unchanged. Independent/root scopes for the published-counterpart qualification are separately attributed; integration adds no scientific reading credit.
+This reconciliation maps separately attributed primary qualifications to the original questions. It does not turn cross-model pathway membership into a drug response or genetic rescue into drug efficacy. Only n438 changes in this update; all other 46 record objects and all 47 original questions/flags are preserved. Prior source qualifications and reading scopes remain unchanged; this integration adds no scientific reading credit. The earlier n85 published-counterpart update and its preprint limits remain in the historical record.
 
-The 212-assessment reconciliation at `313f1207170482439314d52f25dd3c95615e96da` is the hash-bound baseline. Current 216-assessment input hashes, source scopes and remaining gaps are recorded separately in the companion JSON.
+The previous reconciliation is preserved by its immutable parent revision `f1006fc60fb9a47191d5711bc4e22722b06cb18f`. The current 268-appraisal checkpoint and direct source pointers are recorded in the companion JSON. Earlier 212/216-appraisal provenance remains historical rather than current ledger coverage.
 
 ## Newly qualified n122
 

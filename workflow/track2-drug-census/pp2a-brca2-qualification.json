@@ -1,0 +1,788 @@
+{
+  "status": "SOURCE_QUALIFIED_DRUG_COMPARISON",
+  "created_at_utc": "2026-09-27T12:29:14.291520+00:00",
+  "study": {
+    "authors": "Wang et al.",
+    "title": "PP2A inhibition causes synthetic lethality in BRCA2-mutated prostate cancer models via spindle assembly checkpoint reactivation",
+    "pmid": "37934606",
+    "pmcid": "PMC10760972",
+    "doi": "10.1172/JCI172137",
+    "journal": "J Clin Invest. 2024;134(1):e172137",
+    "publisher_version": 2,
+    "publisher_version_date": "2024-01-02",
+    "in_press_version_date": "2023-11-07",
+    "license": "CC BY 4.0",
+    "identity_basis": "Exact DOI/title on retrieved publisher main/PDF; PMID and PMCID linked in retained exact-source pointer and historical PMID question. No separate new identifier lookup claimed.",
+    "pdf_creation_date_not_article_revision": true
+  },
+  "historical_question": {
+    "batch_review_index": 438,
+    "original_question": "Resolve the actual PP2A compounds and model-specific arms; keep worm genetic rescue separate from cancer-cell killing and inspect normal-cell specificity.",
+    "direct_source_answer_now_available": true,
+    "resolved_components": [
+      "PP2A inhibitor is LB100",
+      "drug versus genetic and model-specific arms",
+      "normal/control relative sensitivity and its limits",
+      "MG132-arrest boundary of attachment assays",
+      "local p-BubR1/PP2A-B56 non-rescue",
+      "source-specific denominator and source-value limitations"
+    ],
+    "unresolved_components": [
+      "Some assay-specific exposure durations, cell denominators and independent-repeat mapping",
+      "Mouse enrollment-to-randomization accounting and omission/sensitivity rules",
+      "Duplicated or mismatched supporting values",
+      "Formal pharmacological synergy and comprehensive normal-tissue specificity"
+    ],
+    "repository_question_status_changed": false
+  },
+  "central_judgment": "Genetic checkpoint attenuation supplies the worm/cell survival rescue. LB100 supplies a distinct checkpoint-reactivation/tumor-killing strategy. No MVA restoration or human therapeutic recommendation follows.",
+  "assay_context": {
+    "cold_stable_attachment": "Monastrol 100 uM for 4 h, wash, MG132 10 uM for 1-2 h, then 15 min on ice before fixation (supplement p21). Arrest-assay endpoints cannot establish accurate completed division.",
+    "live_imaging": "Genetic HeLa mRFP-tubulin/GFP-H2B arm: double-thymidine synchronization, 4 h release before imaging every 5 min for 12 h (supplement p21-22). Selected videos not viewed.",
+    "clonogenic": "Specified drug exposures followed by equal treated-cell plating and colony counting after 10-14 days. Normalized to respective untreated control; absolute output from original starting population not supplied.",
+    "statistics": "Main Methods defines n as independent repeats unless otherwise indicated. Mean +/- SEM, two-sided t, chi-square, log-rank, one-/two-way ANOVA as captioned. Exact P/CI/post-hoc/multiplicity details often absent; no new inferential analysis performed."
+  },
+  "interventions": [
+    {
+      "name": "Ceubxn-2 loss",
+      "kind": "genetic mutation/deletion/RNAi",
+      "models": [
+        "C. elegans brc-2(tm1086)",
+        "N2 control"
+      ],
+      "source": [
+        "Figure1C/D",
+        "S1"
+      ],
+      "n": "RNAi n3; double-mutant brood/hatching n5",
+      "contrast": "ubxn-2 RNAi vs control/mak-2; double mutant vs brc-2",
+      "result": "Hatching/brood rescue in brc-2 background, reduced N2 hatching with ubxn-2 RNAi; IR/HU sensitivity not rescued",
+      "test": "One-way ANOVA Fig1C; unpaired two-sided t Fig1D, native **** P<0.0001",
+      "drug_rescue": false
+    },
+    {
+      "name": "NSFL1C loss",
+      "kind": "genetic siRNA/sgRNA/shRNA",
+      "models": [
+        "HeLa/HCT116/U2OS",
+        "LNCaP",
+        "MCF10A",
+        "PC3M-2B4 xenograft"
+      ],
+      "source": [
+        "Figures1-3",
+        "S1-3",
+        "S6B"
+      ],
+      "result": "BRCA2-deficient viability/mitotic survival and attachments improve, checkpoint association attenuates; HR/fork/DNA-damage defects persist; tumor growth increases with NSFL1C loss",
+      "n": "Clonogenic/competitive-growth/selected attachment assays n3; genetic xenograft 13 shControl versus12 shNSFL1C; Fig2C/D explicit count/replicates not established",
+      "reported_values": "Fig2C 100%,7.14%,75%,58.33% surviving mitoses for control,BRCA2,NSFL1C,double siRNA. Fig2D bipolar/multipolar cytokinesis/death remain distinct.",
+      "test": "Fig2C chi-square, native ** P<0.01 for BRCA2 versus double; no denominator reverse-engineered",
+      "drug_rescue": false
+    },
+    {
+      "name": "USP9X/air-2/bub-1/cul-4 perturbations",
+      "kind": "genetic",
+      "source": [
+        "Figure5E/F/J/K",
+        "S5"
+      ],
+      "result": "USP9X loss restores attachment metrics in BRCA2-siRNA HeLa; worm air-2/bub-1/cul-4 depletion partly restores hatching; not actual inhibitor administration",
+      "normal_counterevidence": "Normal N2 brood drops with multiple gene depletions (Fig5J); UBXN2B loss does not reproduce NSFL1C rescue (S1J)."
+    },
+    {
+      "name": "barasertib",
+      "kind": "actual AURKB inhibitor",
+      "exposure": "10 nM; assay-specific treatment duration unresolved",
+      "models": [
+        "BRCA2-siRNA HeLa",
+        "BRCA2-siRNA LNCaP"
+      ],
+      "control": "DMSO, matched BRCA2 siRNA",
+      "source": [
+        "Figure4B/C",
+        "Figure6E",
+        "S6C"
+      ],
+      "n": "3 reported repeats in each caption; cells per repeat not specified",
+      "result": "Fewer no/few cold-stable K-fibers under arrest",
+      "test": "Unpaired two-sided t, native Fig4C *** P<0.001 and Fig6E **** P<0.0001",
+      "limits": [
+        "Not completed division",
+        "Same six workbook percentages across two differently labelled models; see source inconsistencies",
+        "No additional drug-treated worm or actual-BUB1B model credit"
+      ]
+    },
+    {
+      "name": "NMS-873",
+      "kind": "actual VCP inhibitor",
+      "exposure": "10 uM; exact duration unresolved",
+      "models": [
+        "NSFL1C-siRNA HeLa and LNCaP",
+        "USP9X-siRNA HeLa"
+      ],
+      "control": "DMSO and control siRNA",
+      "source": [
+        "Figure4J/K",
+        "Figure5D",
+        "S6D"
+      ],
+      "n": "Localization n3 caption; point-to-repeat mapping unclear; representative fractionation blots",
+      "result": "Restores AURKB centromeric/chromatin association after NSFL1C/USP9X loss",
+      "test": "Two-way ANOVA for localization; native **** labels, not a demonstrated BUBR1 abundance or division result"
+    },
+    {
+      "name": "LB100",
+      "kind": "actual source-labelled PP2A inhibitor",
+      "exposure": "10 uM in LNCaP imaging; exact imaging duration unresolved",
+      "models": [
+        "LNCaP control, BRCA2, NSFL1C and double siRNA"
+      ],
+      "control": "DMSO factorial genotype arms",
+      "source": [
+        "Figure6F/G",
+        "S6E/F"
+      ],
+      "n": "3 caption; raw intensity rows not mapped to biological repeats",
+      "result": "Raises AURKB-T232ph and increases no/few K-fibers in double depletion; authors interpret SAC reactivation",
+      "test": "Two-way ANOVA; native **** significant selected contrasts, NS indicated for matched destabilized states",
+      "limits": [
+        "No drug-induced BUBR1 restoration shown",
+        "No direct faithful daughter-cell output",
+        "Not local PP2A-B56 recruitment"
+      ]
+    },
+    {
+      "name": "LB100",
+      "kind": "actual drug clonogenic comparisons",
+      "exposure": "24 h; MCF10A0/1/2.5uM, LNCaP0/2.5/5uM, VC-8 0/1/2.5/5/7.5/10uM, PC3M0/2.5/5/10uM",
+      "models": [
+        "MCF10A and LNCaP control/BRCA2/NSFL1C/double siRNA",
+        "VC-8 versus VC-8+BRCA2",
+        "PC3M-2B4 versus BRCA2 plasmid"
+      ],
+      "source": [
+        "Figure7A/B/D",
+        "S7A/B/F"
+      ],
+      "n": "3 reported independent repeats; plotted values normalized to corresponding untreated control",
+      "result": "Greater loss in selected BRCA2/SAC-silenced contexts, with nonzero killing also in control/proficient comparators",
+      "test": "Two-way ANOVA; native comparison stars retained in figures; no IC50 or formal therapeutic window calculated"
+    },
+    {
+      "name": "olaparib",
+      "kind": "actual PARP comparator",
+      "exposure": "24 h, 1 and2.5uM in VC-8 and MCF10A",
+      "source": [
+        "Figure7B",
+        "S7G"
+      ],
+      "n": "3",
+      "result": "BRCA2 deficiency affects sensitivity; NSFL1C co-loss partly attenuates olaparib sensitivity in MCF10A",
+      "test": "Two-way ANOVA",
+      "limits": [
+        "No human drug response in this paper",
+        "No compound substitution for LB100"
+      ]
+    },
+    {
+      "name": "LB100 plus olaparib",
+      "kind": "actual combination",
+      "exposure": "PC3M-2B4 LB1001uM plus olaparib0/0.5/1/2.5uM,24h; LNCaP uses LB1005uM plus olaparib series in S7H",
+      "source": [
+        "Figure7E",
+        "S7H"
+      ],
+      "n": "3",
+      "result": "Combination reduces clonogenic survival relative to olaparib alone; authors call synergy",
+      "test": "Two-way ANOVA, native Figure7E **** P<0.0001. Formal synergy interaction/additivity model not supplied.",
+      "limits": [
+        "S7H source sheet does not reconcile its displayed genotype series",
+        "Do not claim a quantified synergistic index"
+      ]
+    },
+    {
+      "name": "LB100 xenograft monotherapy",
+      "kind": "actual animal drug",
+      "exposure": "2mg/kg intraperitoneal every2days, beginning2weeks after inoculation",
+      "model": "VC-8 versus VC-8+BRCA2 subcutaneous tumors in five-week-old female BALB/c nude mice",
+      "source": [
+        "Figure7C",
+        "Main Methods"
+      ],
+      "n": "10 per group",
+      "control": "vehicle matched cell-line groups",
+      "result": "Greater tumor suppression in BRCA2-deficient VC-8; body-weight contrasts displayed nonsignificant",
+      "test": "Two-way ANOVA; native selected tumor contrast ****",
+      "limits": [
+        "Native time axis days after treatment vs workbook label after implantation conflict",
+        "No survival-extension endpoint or comprehensive toxicity analysis"
+      ]
+    },
+    {
+      "name": "LB100/olaparib four-arm xenograft",
+      "kind": "actual animal monotherapy/combination",
+      "exposure": "LB1002mg/kg and olaparib75mg/kg intraperitoneally according to Figure7G graphical schedule, randomization day10; BLI days10/18/25/31",
+      "model": "PC3M-2B4-Luc subcutaneous tumors in nude mice",
+      "source": [
+        "Figure7F/G",
+        "S7I",
+        "Main Methods"
+      ],
+      "n": "35 implanted stated; allocated DMSO7/olaparib8/LB1007/combination8 total30; workbook seven numeric animals/arm at each time",
+      "control": "DMSO, both monotherapies, combination",
+      "result": "Combination lowers BLI more than monotherapies; no significant weight contrasts reported",
+      "test": "Two-way ANOVA; exact selected pairwise native symbols retained; no prespecified hierarchy, multiplicity rule or formal synergy test established",
+      "deaths": "Combination day28 and olaparib day30; causes not adjudicated in examined text",
+      "limits": [
+        "Five implanted animals unaccounted for in allocation",
+        "Missing trajectories for two later-death animals from all displayed timepoints; no sensitivity analysis",
+        "No survival or safe-exposure inference"
+      ]
+    },
+    {
+      "name": "Assay/challenge compounds",
+      "kind": "actual procedural or damage challenge reagents",
+      "names": [
+        "RO3306 9uM",
+        "MG132 10uM",
+        "monastrol100uM",
+        "nocodazole40-200ng/mL depending context",
+        "thymidine2mM",
+        "cisplatin1/1.5uM24h",
+        "camptothecin5/10nM6h",
+        "hydroxyurea4/8mM24h or4mM5h fiber assay;25mM worm challenge",
+        "EMS50mM mutagenesis"
+      ],
+      "source": [
+        "Main Methods",
+        "Supplement pp17-22",
+        "Figure1B",
+        "S2B"
+      ],
+      "result": "Synchronization, mechanistic perturbation, mutagenesis or unrepaired damage sensitivity; no automatic new medicine appraisal. RO3306 changes AURKB polyubiquitination/complex association in Figure5G/H and S5E/F, not a therapeutic rescue."
+    }
+  ],
+  "observational_human_context": {
+    "expression_association": "Figure6A low/high BRCA2 mRNA strata n56 each; expression strata are not the separately mutation-verified IHC cohort.",
+    "disease_free_survival": "Figure6B all-expression AURKB-low/high n56/56, log-rank P0.0093; low-BRCA2 subset low/high AURKB n40/4, P0.4013 (nonsignificant).",
+    "IHC": "22 BRCA2-WT sporadic versus10 hereditary germline-BRCA2-mutant prostate carcinoma samples, NGS-confirmed; lower NSFL1C/AURKB staining, unpaired two-sided t.",
+    "treatment_efficacy": false
+  },
+  "source_inconsistencies": [
+    {
+      "id": "same_attachment_values",
+      "anchors": [
+        "Workbook Figure4C!B4:G4",
+        "Workbook Figure6E!B4:G4",
+        "Native Figures4C and6E"
+      ],
+      "finding": "Exactly identical six percentages labelled HeLa and LNCaP; native reported significance levels differ under the same named test.",
+      "handling": "Preserve reported positive but do not regard as independently reconciled numerical replication; do not infer misconduct or replace source values."
+    },
+    {
+      "id": "S7H_value_mapping",
+      "anchors": [
+        "Workbook FigureS7H!B4:G7",
+        "Workbook Figure7E!B4:G7",
+        "Native S7H"
+      ],
+      "finding": "Identical single-contrast numbers despite LNCaP/5uM and PC3M/1uM labels; native S7H has eight genotype/drug series not represented by sheet.",
+      "handling": "No reconstruction of missing genotype series or exact S7H quantitative claim."
+    },
+    {
+      "id": "animal_accounting",
+      "anchors": [
+        "Main Methods Mouse models",
+        "Workbook Figure7G!P4:P7 andAD4:AD7",
+        "Workbook FigureS7I!P4:P14 andAD4:AD14"
+      ],
+      "finding": "35 implanted versus30 assigned. Later-death animal columns contain death at day10 then blanks, with no numerical earlier trajectory.",
+      "handling": "No baseline-death inference, zero imputation or cause attribution. Seven numerical animals per arm is observed in these sheets; endpoint exclusions/analysis rules unresolved."
+    },
+    {
+      "id": "VC8_time_axis",
+      "anchors": [
+        "Native Figure7C",
+        "Workbook Figure7C!A3",
+        "Main Methods"
+      ],
+      "finding": "Native days after treatment versus workbook days after cell implantation; Methods drug start two weeks after inoculation.",
+      "handling": "Keep source labels and do not silently align calendars."
+    },
+    {
+      "id": "worm_panel_labels",
+      "anchors": [
+        "Native Figure5J/K",
+        "Workbook Figure5J/Figure5K"
+      ],
+      "finding": "Workbook sheet titles swap the brood/hatching panel association relative to native Figure5J/K; some cullin labels say cul-2 where native/main say cul-3.",
+      "handling": "Use native figures/text to identify genetic experiments; no automated value import across these labels."
+    }
+  ],
+  "BUBR1_and_MVA_boundary": {
+    "S4AB": "NSFL1C co-loss does not restore centromeric p-BubR1(T680) or PP2A-B56 in BRCA2-siRNA HeLa; representative images, no quantified rescue.",
+    "global_vs_local": "LB100 pharmacological PP2A inhibition in this source is different from genetic/local PP2A recruitment described in retained MVA patient-fibroblast qualification.",
+    "not_established": [
+      "BUBR1 total protein restoration",
+      "Actual Leu737Ter/Asn1002Lys correction",
+      "Faithful healthy daughter-cell yield",
+      "Muscle force or durable renewal",
+      "Human/pediatric efficacy or acceptable exposure",
+      "Superiority over niacin/apitegromab"
+    ]
+  },
+  "funding_conflict": "Public Chinese research grants and institutional support; authors declare no conflict. No independent bias certification inferred.",
+  "ledger_check": "identity-check.json in the frozen portable packet; exact immutable baseline binding also embedded in integration_provenance",
+  "candidate_admission": false,
+  "repo_or_previous_evidence_edits": false,
+  "tests_replays_global_recounts": false,
+  "independent_review_pending": false,
+  "reading_scope_file": "#/source_reading_depth",
+  "source_access_file": "Frozen external primary source-access.json bound in provenance.primary_source_access",
+  "source_values_file": "#/retained_descriptive_source_values",
+  "source_reading_depth": {
+    "created_at_utc": "2026-09-27T12:29:14.291520+00:00",
+    "main": "Full scientific main including abstract, introduction, all Results, Discussion, Methods, author contributions, funding/COI and version history via publisher HTML; version2 PDF used for native figures. References are citation pointers, not separately read papers.",
+    "main_native_figures": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "main_pdf_native_pages": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ],
+    "supplement": "All25 PDF pages: text/captions/methods/tables1-2 read through layout extraction; seven original supplemental figure pages viewed. Source table-sequence/genome rows are source context, not new experiments or verification.",
+    "supplement_native_figures": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "supplement_native_pages": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "separate_table3_mass_spec": "Linked but not retrieved or independently analysed.",
+    "separate_videos1to4": "Linked and captions read; not retrieved or viewed. No video-based denominator or fidelity inference.",
+    "workbook": "Sheet index and selected labelled cells only. Targeted values in the retained JSON extracts; no whole-workbook independent analysis, new statistical test or recalculation.",
+    "local_context": "Exact n438 question; exact named compound alias/object mentions from immutable baseline ledger; selected lead-qualification PP2A/MVA passages.",
+    "limits": "Displayed native figures were inspected, not blinded remeasured. Raw image integrity, laboratory reproducibility, individual subject truth, genotype sequencing and all statistical calculations were not independently validated.",
+    "external_only": true
+  },
+  "independent_review_depth": {
+    "created_at_utc": "2026-09-27T12:53:23.782614+00:00",
+    "main": "Complete scientific main in retained PDF-layout text: abstract, Introduction, Results, Discussion, Methods, captions, funding/COI and author/data statements. Bibliography entries are pointers, not independently read cited papers.",
+    "main_native_pages_viewed": [
+      "main-p03.png",
+      "main-p05.png",
+      "main-p07.png",
+      "main-p09.png",
+      "main-p11.png",
+      "main-p13.png",
+      "main-p15.png"
+    ],
+    "main_native_figures": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "supplement": "All seven figure captions and expanded scientific Methods read in retained layout extraction; all seven native figure pages viewed. Tables 1–2 inspected as reagent/genotype context, without sequence/genotype validation. Separate table3 and video files were not opened.",
+    "supplement_native_pages_viewed": [
+      "supplement-p02.png",
+      "supplement-p04.png",
+      "supplement-p06.png",
+      "supplement-p08.png",
+      "supplement-p10.png",
+      "supplement-p12.png",
+      "supplement-p14.png"
+    ],
+    "supplement_native_figures": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "selected_data": "Read descriptive-source-values.json and selected entries from both supporting-data JSON extracts. Compared six Fig 4C/Fig 6E cells and 24 Fig 7E/S7H cells for exact identity; counted numerical entries and inspected death/blanks for Fig 7G/S7I; checked Fig 7C axis header. No mean/CI/statistical-test reanalysis.",
+    "workbook": "XLSX file hash checked as a bound primary asset, but workbook not reopened, independently re-extracted or reanalysed. Numerical worksheet entries were never treated as biological-cell counts.",
+    "narrow_unconfirmed_item": "The author-noted Figure 5J/K workbook-label swap is not independently rechecked against workbook sheets in this review; native genetic panels and their scope were inspected.",
+    "not_claimed": [
+      "Blinded image quantification or raw-image integrity audit",
+      "Independent laboratory/genotype/antibody validation",
+      "Complete separate mass-spectrometry dataset reading",
+      "Video viewing or reverse-engineered cell denominator",
+      "New retrieval or publication-notice search",
+      "Current ledger-alias scan or global corpus recount",
+      "MVA, muscle or human efficacy"
+    ],
+    "source_mutation": false,
+    "repository_mutation": false,
+    "tests_or_replays_or_inferential_statistical_tests": false
+  },
+  "synthesis_reading_depth": {
+    "role": "Portable synthesis preparer; not a new independent primary scientific reviewer.",
+    "actually_read": [
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/qualification.md",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/qualification.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/reading-scope.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/descriptive-source-values.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/input-bindings.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/ledger-compound-check.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/final-bindings.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/independent-review/review.md",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/independent-review/review.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/independent-review/reading-scope.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/independent-review/input-bindings.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/independent-review/final-bindings.json"
+    ],
+    "baseline_reading": "Targeted requested IDs, exact/spacing-punctuation aliases and named literal mentions only; no whole-ledger scientific review or global reappraisal.",
+    "not_reread": [
+      "Original main HTML/PDF or native figure pixels",
+      "Original supplement PDF or native figures",
+      "Original workbook or full selected-cell extracts",
+      "Separate mass-spectrometry Table 3 or four videos"
+    ],
+    "new_primary_reading_credit": false,
+    "new_retrieval": false,
+    "new_statistical_tests_or_replays": false,
+    "scientific_reanalysis": false,
+    "repository_edits": false,
+    "source_integrity_binding_is_not_reading_credit": true
+  },
+  "retained_descriptive_source_values": {
+    "source": "sources/supporting-data-values.xlsx",
+    "source_sha256": "59c6abca4b426c2b8f47a56e69781ee008c77e3b29814e67003b2b4ec6bc8fa0",
+    "analysis_type": "Source reading and descriptive arithmetic only",
+    "new_statistical_tests": false,
+    "summaries": [
+      {
+        "sheet": "Figure 1C",
+        "range": "B4:D4",
+        "label": "N2 control hatching %",
+        "values": [
+          99.51219512195122,
+          98.62385321100918,
+          98.48484848484848
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 98.87363227260296,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure 1C",
+        "range": "E4:G4",
+        "label": "N2 ubxn-2 RNAi hatching %",
+        "values": [
+          57.02479338842975,
+          55.00000000000001,
+          51.06382978723404
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 54.362874391887935,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure 1C",
+        "range": "E5:G5",
+        "label": "brc-2 ubxn-2 RNAi hatching %",
+        "values": [
+          16.666666666666664,
+          13.333333333333334,
+          15.384615384615385
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 15.128205128205128,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure 1D",
+        "range": "B4:F4",
+        "label": "brc-2;ubxn-2 brood",
+        "values": [
+          136,
+          125,
+          118,
+          122,
+          127
+        ],
+        "numeric_n": 5,
+        "arithmetic_mean": 125.6,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure 1D",
+        "range": "B5:F5",
+        "label": "brc-2 brood",
+        "values": [
+          2,
+          1,
+          2,
+          3,
+          4
+        ],
+        "numeric_n": 5,
+        "arithmetic_mean": 2.4,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure 1D",
+        "range": "B9:F9",
+        "label": "brc-2;ubxn-2 hatching %",
+        "values": [
+          70.58823529411765,
+          68,
+          68.64406779661016,
+          68.0327868852459,
+          69.29133858267717
+        ],
+        "numeric_n": 5,
+        "arithmetic_mean": 68.91128571173017,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure 6G",
+        "range": "K5:M5",
+        "label": "double siRNA DMSO no/few K-fibers %",
+        "values": [
+          26.08696,
+          22.22222,
+          25.71429
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 24.67449,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure 6G",
+        "range": "W5:Y5",
+        "label": "double siRNA LB100 no/few K-fibers %",
+        "values": [
+          81.25,
+          77.77778,
+          71.05263
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 76.69347,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure 7A",
+        "range": "B6:D6",
+        "label": "MCF10A control siRNA LB100 2.5 uM survival %",
+        "values": [
+          83.05827,
+          91.37424,
+          85.66816
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 86.70022333333333,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure 7A",
+        "range": "E6:G6",
+        "label": "MCF10A BRCA2 siRNA LB100 2.5 uM survival %",
+        "values": [
+          71.71571,
+          62.16613,
+          78.6332
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 70.83834666666667,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure 7A",
+        "range": "H6:J6",
+        "label": "MCF10A NSFL1C siRNA LB100 2.5 uM survival %",
+        "values": [
+          89.9209,
+          79.90294,
+          68.80261
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 79.54215,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure 7A",
+        "range": "K6:M6",
+        "label": "MCF10A double siRNA LB100 2.5 uM survival %",
+        "values": [
+          3.0176,
+          1.765097,
+          4.427693
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 3.07013,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure S7A",
+        "range": "E6:G6",
+        "label": "LNCaP BRCA2 siRNA LB100 5 uM survival %",
+        "values": [
+          25.333333333333336,
+          26.451612903225808,
+          26.875
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 26.219982078853047,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure S7B",
+        "range": "B9:D9",
+        "label": "VC-8 + BRCA2 LB100 10 uM survival %",
+        "values": [
+          46.08295,
+          44.62617,
+          47.41573
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 46.04161666666667,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure S7B",
+        "range": "E9:G9",
+        "label": "VC-8 LB100 10 uM survival %",
+        "values": [
+          15.21739,
+          14.13333,
+          16.38889
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 15.246536666666668,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure 7E",
+        "range": "B7:D7",
+        "label": "PC3M-2B4 olaparib 2.5 uM survival %",
+        "values": [
+          31.79825,
+          32.20721,
+          33.48115
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 32.495536666666666,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      },
+      {
+        "sheet": "Figure 7E",
+        "range": "E7:G7",
+        "label": "PC3M-2B4 olaparib 2.5 uM + LB100 1 uM survival %",
+        "values": [
+          7.017544,
+          5.630631,
+          5.099778
+        ],
+        "numeric_n": 3,
+        "arithmetic_mean": 5.915984333333333,
+        "calculation": "Unweighted arithmetic mean of source values; descriptive only, not a new inferential test."
+      }
+    ]
+  },
+  "independent_source_acceptance": {
+    "status": "ACCEPT",
+    "required_corrections": [],
+    "review_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/independent-review/review.json",
+      "bytes": 5537,
+      "sha256": "499a9a12f753b558b155ef4d153a3861411efa7d7861ba6cc0d210db1e440ef5"
+    },
+    "final_bindings": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/independent-review/final-bindings.json",
+      "bytes": 1998,
+      "sha256": "6ef4c5f5eb4db5201c15a6656cb1874c3b401488c2724f6da056a3073c4f9efa"
+    },
+    "scope_note": "Independent scientific appraisal at stated reading depth. Does not independently validate laboratory reproducibility, raw-image integrity or whole-workbook extraction."
+  },
+  "provenance": {
+    "primary_final_bindings": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/final-bindings.json",
+      "bytes": 5703,
+      "sha256": "012f66d2aa09ffebaabbc6f894844bb1513d243a97896d8dc55444f1052cc21c"
+    },
+    "primary_qualification_md": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/qualification.md",
+      "bytes": 10217,
+      "sha256": "b757fc5d1cb7d839ad048d4e0f56742daec66beb3e3970e633d088e2be012aec"
+    },
+    "primary_qualification_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/qualification.json",
+      "bytes": 16413,
+      "sha256": "b30efbfd6ceb417cd4bf9166818acb628558f42afb38821c7beb038e030188fb"
+    },
+    "primary_source_access": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-primary-20260927/source-access.json",
+      "bytes": 12755,
+      "sha256": "0bdfb6ec12b36410c116ea444c2f465e17a6ddcfba7f8fb76c37436d86373fb6"
+    },
+    "raw_sources_outside_git": true
+  },
+  "integration_provenance": {
+    "identity_baseline": {
+      "type": "immutable_git_blob",
+      "repository": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
+      "commit": "3c5a47015e3af9f45379d7dbbbed1731f6a814f3",
+      "path": "workflow/track2-drug-census/decisions.json",
+      "git_blob": "497949f129121c47e4ffbf65121f3fe701045403",
+      "sha256": "43e62b53e9908d8a019b1e2823967500719955810687e22603d87a32f92d2f9d",
+      "bytes": 455658,
+      "reading_role": "Targeted requested IDs, exact/spacing-punctuation aliases and named literal mentions only; no whole-ledger scientific review or global reappraisal."
+    },
+    "new_decision_ids": [
+      "new-lb100",
+      "new-nms873",
+      "new-olaparib"
+    ],
+    "new_match_aliases": {
+      "new-lb100": [
+        "LB100"
+      ],
+      "new-nms873": [
+        "NMS-873"
+      ],
+      "new-olaparib": [
+        "olaparib"
+      ]
+    },
+    "existing_refinement_id": "new-barasertib",
+    "existing_barasertib_identity_and_disposition_preserved": true,
+    "one_source_study_not_independent_replication_across_drug_entries": true,
+    "admission_performed": false,
+    "new_independent_synthesis_acceptance_claimed": false,
+    "shared_report": "workflow/track2-drug-census/pp2a-brca2-qualification.md"
+  },
+  "synthesis_identity_limits": {
+    "barasertib": "The reviewed source qualification does not resolve parent prodrug versus active HQPA or the catalog number; the existing barasertib/AZD1152 aliases are historical matching context and do not establish formulation or potency equivalence.",
+    "scope": "Unresolved identity depth in the retained qualification; no new Methods, source-PDF or catalog inspection, and no new source fact is asserted. Existing aliases are preserved."
+  }
+}
