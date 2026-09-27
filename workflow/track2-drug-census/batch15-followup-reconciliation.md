@@ -1,10 +1,22 @@
 # Batch 15 historical follow-up reconciliation
 
-**Seventeen of 47 historical questions now have qualified primary information:** 16 from exact-source qualifications and one from a separately reviewed published counterpart. Six exact-source questions are answered within limits; ten exact-source questions and the counterpart retain unresolved components. Thirty have neither kind of qualification; 31 still lack an exact-original-source answer.
+**Eighteen of 47 historical questions now have qualified primary information:** 17 from exact-source qualifications and one from a separately reviewed published counterpart. Six exact-source questions are answered within limits; eleven exact-source questions and the counterpart retain unresolved components. Twenty-nine have neither kind of qualification; 30 still lack an exact-original-source answer.
 
-**PP2A/BRCA2 update:** three added assessments and one additive barasertib refinement bring the ledger to 268 at this checkpoint. Only active n438 changes; all other 46 question objects and all 47 original questions/flags remain. Drug, genetic and source-form boundaries remain explicit.
+**AR-12/sildenafil update:** three added source-specific assessments bring the ledger to 271 at this checkpoint. Only active n401 changes; all other 46 question objects and all 47 original questions/flags remain. Native Figure 13 evidence is distinguished from main-text-only supplemental reporting.
 
 ## Direct coverage and remaining gaps
+
+### n401 — PMID 26887051
+
+AR-12 is source-identified as OSU-03012, while AR-13 is a distinct analogue. The isolated bacterial HSP90-fragment assay reports approximately 200 nM and 40 nM activity IC50 estimates, respectively, at 0.1 mM ATP. These are not binding affinities or clinical windows. Sildenafil pretreatment of cells before complex isolation is distinct from direct binding or purified-enzyme inhibition.
+
+Early N-terminal antibody fluorescence changes differ from other epitopes and denaturing westerns. HSP27 and Figure 14 prevent either universal protein-depletion or universal masking interpretations. The reported BubR1/BUB3/PLK4 null is data not shown, without a separately specified experiment; it does not establish equivalent abundance or restored function.
+
+Tumor-cell killing and genetic chaperone/thioredoxin protection are retained at their actual reading depth. More than 50% death at 100 nM belongs to AR-13 with sildenafil, not AR-12. Its supplemental functional plots and captions remain unavailable. Normal-cell selectivity belongs to earlier cited work, not an independently qualified comparison in this packet.
+
+**Remaining scope:** Direct selective binding and activity-assay interference/orthogonal controls, experiment-to-material and replicate mapping, native supplemental functional contrasts and the cited normal-cell exposure-response comparisons remain unresolved. Timing/heading discrepancies are retained. Healthy tissue renewal, faithful division and actual-BUB1B/MVA benefit are not established. The full original composite question remains partially unresolved.
+
+Pointers: [AR-12/sildenafil qualification](ar12-sildenafil-qualification.md), [structured evidence](ar12-sildenafil-qualification.json).
 
 ### n438 — PMID 37934606
 
@@ -130,7 +142,6 @@ Nine records retain related evidence from a different experiment; five of those 
 | [n344 / 39668392](https://pubmed.ncbi.nlm.nih.gov/39668392/) | Compound-9 remains chemically unresolved in the current package; target or numbering similarity cannot join it to an existing MPS1 compound. | Resolve chemical identity/exposure and target-selectivity evidence, retaining both sensitive and resistant gastric lines and normal controls. |
 | [n358 / 36190432](https://pubmed.ncbi.nlm.nih.gov/36190432/) | No exact siHIF2 formulation/trial qualification found; the highlighted responder does not resolve the full phase1 denominator, durability or safety. | Extract RNA formulation/dose, resistant-mutant coverage, full trial denominator, response durability and safety; keep PT2399 and belzutifan distinct. |
 | [n400 / 36380369](https://pubmed.ncbi.nlm.nih.gov/36380369/) | No exact M2I-1 drug-arm qualification found; genetic SGOL2 animal benefit cannot be assigned to the compound. | Separate M2I-1 exposure/model arms from genetic animal experiments and inspect selectivity/normal-cell fidelity; linked preprint content remains unreviewed here. |
-| [n401 / 26887051](https://pubmed.ncbi.nlm.nih.gov/26887051/) | No exact AR-12/sildenafil qualification found; the imaging-versus-western discrepancy remains unresolved by source qualification. | Check binding/ATPase specificity, exposures and normal-cell response while retaining that altered antibody accessibility need not equal protein depletion. |
 | [n458 / 21242994](https://pubmed.ncbi.nlm.nih.gov/21242994/) | No exact LBH589/ATLL qualification found; existing generic HDAC evidence is not this primary-cell/mouse result. | Extract dose, mouse tumor/toxicity controls and primary-cell selectivity while preserving RAIDD/caspase2 support and p53/death-receptor nulls. |
 | [n464 / 33553272](https://pubmed.ncbi.nlm.nih.gov/33553272/) | No exact PDA-66/PDA-377 qualification found; one derivative’s cell activity does not establish efficacy of the series. | Check structures, matched exposures, normal-cell controls and direct microtubule evidence separately for each derivative. |
 | [n478 / 19927127](https://pubmed.ncbi.nlm.nih.gov/19927127/) | No actual-NUAK1-inhibitor functional qualification found. The flagged paper is genetic lifespan/ploidy evidence and does not supply the requested administered-compound bridge. | Determine whether an actual NUAK1 inhibitor reproduces genetic fibroblast lifespan/ploidy effects with LATS1 dependence and preserved usable function; this would require separate evidence. |
@@ -181,9 +192,9 @@ Pointers: [PDLSC secretome qualification](pdls-secretome-qualification.md), [str
 
 The JSON preserves all 47 original questions verbatim, record/abstract hashes, source pointers/hashes, relevant decision IDs, exact answered components and bounded remaining questions. Historical version/notice limits stay attached: PPR918452 links PMID41120338 by title/first-author matching; PMID35302600 links PPR440054; PMID23403633 links commentary23459035; PMID36380369 links PPR525543. Metadata links do not constitute reading, authenticated version equivalence or independent-study credit.
 
-This reconciliation maps separately attributed primary qualifications to the original questions. It does not turn cross-model pathway membership into a drug response or genetic rescue into drug efficacy. Only n438 changes in this update; all other 46 record objects and all 47 original questions/flags are preserved. Prior source qualifications and reading scopes remain unchanged; this integration adds no scientific reading credit. The earlier n85 published-counterpart update and its preprint limits remain in the historical record.
+This reconciliation maps separately attributed primary qualifications to the original questions. It does not turn cross-model pathway membership into a drug response or genetic rescue into drug efficacy. Only n401 changes in this update; all other 46 record objects and all 47 original questions/flags are preserved. Prior source qualifications and reading scopes remain unchanged; this integration adds no scientific reading credit. The earlier n85 published-counterpart update and its preprint limits remain in the historical record.
 
-The previous reconciliation is preserved by its immutable parent revision `f1006fc60fb9a47191d5711bc4e22722b06cb18f`. The current 268-appraisal checkpoint and direct source pointers are recorded in the companion JSON. Earlier 212/216-appraisal provenance remains historical rather than current ledger coverage.
+The previous reconciliation is preserved by its immutable parent revision `572f3e460dff7880e6030db4143512bb79194abc`. The current 271-appraisal checkpoint and direct source pointers are recorded in the companion JSON. Earlier 212/216/268-appraisal provenance remains historical rather than current ledger coverage.
 
 ## Newly qualified n122
 

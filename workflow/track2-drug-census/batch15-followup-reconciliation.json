@@ -1,65 +1,65 @@
 {
   "schema": "historical-followup-question-reconciliation/v1",
   "date": "2026-09-27",
-  "reviewer": "/root (integration assembly; separate source and synthesis reviews)",
+  "reviewer": "/root (integration assembly; separate source and prepared-content reviews)",
   "repository": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
-  "repository_commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
-  "authoritative_decision_count": 268,
+  "repository_commit": "572f3e460dff7880e6030db4143512bb79194abc",
+  "authoritative_decision_count": 271,
   "historical_batch": 15,
   "historical_flag_count": 47,
-  "scope": "Only active n438 receives direct exact-source components with unresolved source conflicts; preserve all other 46 records and all 47 historical questions/flags.",
+  "scope": "Only active n401 receives exact-source answer components with explicit unresolved assay/access limits; preserve other 46 records and all 47 historical questions/flags.",
   "summary": {
-    "exact_source_questions_with_material_direct_qualified_answers": 16,
-    "substantive_primary_qualifications": 17,
+    "exact_source_questions_with_material_direct_qualified_answers": 17,
+    "substantive_primary_qualifications": 18,
     "same_source_target_only_partial_qualification": 0,
-    "no_direct_source_answer": 31,
-    "open_unassigned": 30,
+    "no_direct_source_answer": 30,
+    "open_unassigned": 29,
     "assigned_elsewhere_pending": 0,
     "different_experiment_context_does_not_close_question": 9,
     "fully_resolved_entire_original_composite_questions": 6,
     "new_unique_sources": 0,
     "new_abstract_reading_credit": 0,
     "new_primary_reading_credit": 0,
-    "direct_answers_with_unresolved_original_source_components": 10,
-    "fully_resolved_entire_original_composite_questions_scope": "Six exact-source study-level answers within limits, ten exact-source partials and one published-counterpart partial; original preprint access/version remains unverified.",
+    "direct_answers_with_unresolved_original_source_components": 11,
+    "fully_resolved_entire_original_composite_questions_scope": "Six exact-source study-level answers within limits, eleven exact-source partials and one published-counterpart partial; original preprint access/version remains unverified.",
     "open_questions_with_different_experiment_context": 5,
-    "questions_with_direct_or_linked_publication_information": 17,
+    "questions_with_direct_or_linked_publication_information": 18,
     "published_counterpart_partial_qualifications": 1,
-    "no_qualified_exact_source_or_counterpart": 30,
-    "partial_questions_including_published_counterpart": 11
+    "no_qualified_exact_source_or_counterpart": 29,
+    "partial_questions_including_published_counterpart": 12
   },
-  "count_interpretation": "Seventeen questions have qualified primary information: 16 exact-source qualifications (six source-level answers and ten partials) plus one published-counterpart partial. Thirty have neither; 31 still lack an exact-original-source answer.",
+  "count_interpretation": "Eighteen questions have qualified primary information: 17 exact-source qualifications (six source-level answers and eleven partials) plus one published-counterpart partial. Twenty-nine have neither; 30 still lack an exact-original-source answer.",
   "source_search_and_reading": {
-    "actually_inspected": "Accepted PP2A qualification/proposal, independent synthesis review and targeted n438/current schema; no new original main, image or workbook reading.",
+    "actually_inspected": "Accepted AR-12 source qualification/review, portable synthesis and targeted n401/schema; no new original main, native figure or supplement reading.",
     "new_primary_reading_credit": 0,
-    "prior_scopes": "Historical source-reading state is preserved in historical_checkpoint_before_pp2a_268."
+    "prior_scopes": "Historical source-reading state preserved in historical_checkpoint_before_ar12_271."
   },
   "input_provenance": [
     {
       "source_kind": "immutable_baseline_git_blob",
-      "commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+      "commit": "572f3e460dff7880e6030db4143512bb79194abc",
       "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
-      "sha256": "a28c91ce90bd685dcc37b96577bb6d3ae7b7ae5e6274dac34878dbd485c0b345",
+      "sha256": "5f12e3f6abdf96c1ccaa31411408131ce7861b1d1856509dbdb522de12de7994",
       "role": "Exact previous active reconciliation"
     },
     {
       "source_kind": "immutable_baseline_git_blob",
-      "commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+      "commit": "572f3e460dff7880e6030db4143512bb79194abc",
       "repo_relative": "workflow/track2-drug-census/decisions.json",
-      "sha256": "327f67234059ba120f8cb5cb9a8959f95d470c0de7cc04134903a20dfef7667b",
-      "role": "265-appraisal integration baseline"
+      "sha256": "0a1c912e21997e4c2b9b7173e050c4e0ca0515506217edec466b921ff1d319a3",
+      "role": "268-appraisal integration baseline"
     },
     {
       "source_kind": "accepted_portable_source",
-      "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.md",
-      "sha256": "bb79c11d5edca5e55e727b42eaaf9edbd395dd5b53377dc51fecd1b2de11d759",
-      "role": "Separately qualified exact primary source; no new integration reading credit"
+      "repo_relative": "workflow/track2-drug-census/ar12-sildenafil-qualification.md",
+      "sha256": "5068cafaa223b6e91099243fbbe016fb416c9f10276371c1301d8061c8f6bdcb",
+      "role": "Separately qualified exact source; no new integration reading credit"
     },
     {
       "source_kind": "accepted_portable_source",
-      "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.json",
-      "sha256": "ab354aa43e772e5883b4e8f60c9b074ec6686e284b32e1b1778482a927124dd6",
-      "role": "Separately qualified exact primary source; no new integration reading credit"
+      "repo_relative": "workflow/track2-drug-census/ar12-sildenafil-qualification.json",
+      "sha256": "4c27d5b36f16ea438cfff72bb31d7d9b924f1554fafef98b0ca19ab65cff6263",
+      "role": "Separately qualified exact source; no new integration reading credit"
     }
   ],
   "qualification_files": [
@@ -402,6 +402,20 @@
       "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pp2a-brca2-qualification.json",
       "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.json",
       "sha256": "ab354aa43e772e5883b4e8f60c9b074ec6686e284b32e1b1778482a927124dd6",
+      "line": 1,
+      "location_status": "Integrated portable qualification; original sources remain external"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/ar12-sildenafil-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/ar12-sildenafil-qualification.md",
+      "sha256": "5068cafaa223b6e91099243fbbe016fb416c9f10276371c1301d8061c8f6bdcb",
+      "line": 1,
+      "location_status": "Integrated portable qualification; original sources remain external"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/ar12-sildenafil-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/ar12-sildenafil-qualification.json",
+      "sha256": "4c27d5b36f16ea438cfff72bb31d7d9b924f1554fafef98b0ca19ab65cff6263",
       "line": 1,
       "location_status": "Integrated portable qualification; original sources remain external"
     }
@@ -2000,17 +2014,50 @@
         "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
         "json_pointer": "/records/400/followup_reason"
       },
-      "classification": "open_no_direct_source_qualified_answer",
-      "judgment": "No exact AR-12/sildenafil qualification found; the imaging-versus-western discrepancy remains unresolved by source qualification.",
-      "remaining_question": "Check binding/ATPase specificity, exposures and normal-cell response while retaining that altered antibody accessibility need not equal protein depletion.",
-      "source_qualified_answer_components": [],
-      "qualification_pointers": [],
-      "current_decision_ids": [],
+      "classification": "direct_primary_answers_with_unresolved_source_conflicts",
+      "judgment": "The exact original scientific main and available Figure 13 now distinguish fragment ATPase activity, cell-derived complexes after sildenafil pretreatment, antibody accessibility and drug-attributed tumor outcomes. This directly addresses parts of n401; native supplemental functional contrasts, binding specificity and normal-cell responses remain unresolved.",
+      "remaining_question": "Establish direct selective binding and assay specificity with appropriate interference and orthogonal turnover controls; resolve experiment-to-material identity and cell-to-independent-repeat mapping. Recover original supplemental functional plots/captions and their exact exposures/contrasts, and qualify the cited normal-cell comparisons before claiming a therapeutic margin. The unshown BubR1-expression null does not establish equivalent abundance or restored BUBR1 function.",
+      "source_qualified_answer_components": [
+        "AR-12 is source-identified as OSU-03012; AR-13 is a distinct analogue and the biotin-linked affinity reagent is a separate probe. The bacterial GST-HSP90 N-terminal fragment assay reports approximate IC50 values of 200 nM for AR-12 and 40 nM for AR-13 at 0.1 mM ATP; these are activity estimates, not binding affinities or clinical windows.",
+        "Sildenafil 2 micromolar for one hour precedes isolation of tagged HSP90/HSP70 complexes from GBM12 cells. Baseline activity is near unchanged but subsequent AR-12 inhibition is enhanced. This is cellular pretreatment, not demonstrated direct sildenafil binding or inhibition of a purified enzyme.",
+        "Early N-terminal antibody fluorescence falls more than middle/C-terminal signals, while denaturing westerns do not reproduce the same early changes. HSP27 differs, and the Figure 14 cellular antibody changes occur without measured isolated-complex ATPase inhibition. Neither universal protein depletion nor universal epitope masking is established.",
+        "The reported greater-than-50-percent killing at 100 nM belongs to AR-13 combined with sildenafil, not AR-12. This remains main-text reporting because the original S5 plot/caption is unavailable. Genetic thioredoxin/chaperone protection is not an administered healthy-tissue restoration treatment.",
+        "No significant PLK4, BUB3 or BubR1 expression change is explicitly reported as data not shown, without separately specified model, dose, timing, antibody, denominator or contrast. Normal-cell selectivity and animal survival belong to cited earlier work, not an independently qualified comparison in this packet.",
+        "The source distinguishes cells, images, wells and repeated experiments; exact preparation-level independence and activity-assay conversion remain limited. Figure 7B has 2-hour versus 6-hour reporting and Figure 12 has a heading mismatch. These are retained without new statistical reconstruction."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/ar12-sildenafil-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/ar12-sildenafil-qualification.md",
+          "sha256": "5068cafaa223b6e91099243fbbe016fb416c9f10276371c1301d8061c8f6bdcb",
+          "line": 1,
+          "location_status": "Integrated portable qualification; original sources remain external"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/ar12-sildenafil-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/ar12-sildenafil-qualification.json",
+          "sha256": "4c27d5b36f16ea438cfff72bb31d7d9b924f1554fafef98b0ca19ab65cff6263",
+          "line": 1,
+          "location_status": "Integrated portable qualification; original sources remain external"
+        }
+      ],
+      "current_decision_ids": [
+        "new-ar12",
+        "new-sildenafil",
+        "new-ar13"
+      ],
       "related_evidence_is_not_resolution": [],
       "full_original_composite_question_resolved": false,
       "new_unique_source_credit": 0,
       "new_primary_reading_credit": 0,
-      "publication_or_lineage_limit": null
+      "publication_or_lineage_limit": null,
+      "resolution_scope": "Exact source components qualified at complete scientific-main/caption depth and native Figure 13 only; original supplemental figures and normal-cell cited papers remain unread. Integration creates no primary-reading credit.",
+      "remaining_gap_types": [
+        "binding_and_assay_specificity",
+        "native_supplemental_functional_contrasts_unavailable",
+        "preparation_exposure_and_denominator_mapping",
+        "normal_cell_selectivity_and_healthy_BUB1B_function_unestablished"
+      ]
     },
     {
       "batch_review_index": 418,
@@ -2257,30 +2304,29 @@
   ],
   "preservation": {
     "changed_record_indices": [
-      438
+      401
     ],
     "other46record_objects_unchanged": true,
     "all47_questions_and_flags_unchanged": true,
-    "all265_prior_decision_ids_retained": true,
-    "prior264_objects_unchanged": true
+    "all268_prior_decision_objects_unchanged": true
   },
-  "parent_assigned_next_source": "No new source assignment is made by this reconciliation; residual n438 questions are explicit.",
+  "parent_assigned_next_source": "No new source assignment is made by this reconciliation; residual n401 questions are explicit.",
   "status": "integrated_exact_source_partial_reconciliation",
-  "repository_snapshot_state": "268-appraisal checkpoint; repository_commit is the immutable parent baseline, not a self-referential commit claim.",
-  "freeze_note": "Preserve all other 46 objects and every original question/hash/flag; direct qualification does not imply missing experiments were performed.",
+  "repository_snapshot_state": "271-appraisal checkpoint; repository_commit is the immutable parent baseline, not a self-referential commit claim.",
+  "freeze_note": "Preserve other 46 objects and every original question/hash/flag; direct qualification does not imply unavailable data or experiments were examined.",
   "historical_integration_transform_at_197": {
     "original_external_markdown_sha256": "a4b579148add74cc47af028853e8f0ac14fd2336dc4b87d5dafe4b256d9c77a7",
     "source_md_sha256": "3df5d40908dd864a6319a9b27e11f8ea0137ca373191382ce29625b368f2ca2b",
     "scope": "Portable same-directory document links and curated prose spacing only; original JSON questions/answers and source hashes unchanged."
   },
   "previous_reconciliation": {
-    "commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+    "commit": "572f3e460dff7880e6030db4143512bb79194abc",
     "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
-    "sha256": "a28c91ce90bd685dcc37b96577bb6d3ae7b7ae5e6274dac34878dbd485c0b345"
+    "sha256": "5f12e3f6abdf96c1ccaa31411408131ce7861b1d1856509dbdb522de12de7994"
   },
-  "reconciliation_md_sha256": "3975f298ed24c3b10bed72c1dc064aefc3d53320bd584d24f398c27e5203336d",
-  "decision_count_scope": "265 baseline appraisals; three additions and one additive existing refinement produce 268.",
-  "repository_authoritative_decision_count_at_baseline": 265,
+  "reconciliation_md_sha256": "6693d86d73f28494bd5904506c06dcb1e4a9b04f7a2545f01596079fb1e11f1f",
+  "decision_count_scope": "268 baseline appraisals; three distinct additions produce 271.",
+  "repository_authoritative_decision_count_at_baseline": 268,
   "historical_input_provenance_at_202": [
     {
       "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
@@ -2429,24 +2475,22 @@
     "source_scope": "Complete root scientific main/captions/Table1/supplementary text, selected images, targeted GEO values/calls; no raw-array or new outer credit."
   },
   "candidate_input_ledger": {
-    "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-integration-20260927/ready/decisions-ready.json",
-    "sha256": "0a1c912e21997e4c2b9b7173e050c4e0ca0515506217edec466b921ff1d319a3",
-    "candidate_appraisals": 268,
-    "scope": "Exact reviewed prepared ledger; historical candidates preserved."
+    "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-integration-20260927/ready/decisions-ready.json",
+    "sha256": "1cbdfb4627297fedcda275330cb82f31cd301df5cc71e866ef81946b79befc03",
+    "candidate_appraisals": 271,
+    "scope": "Exact prepared ledger; historical candidates preserved."
   },
   "root_integration": {
-    "baseline": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+    "baseline": "572f3e460dff7880e6030db4143512bb79194abc",
     "changed_record_indices": [
-      438
+      401
     ],
     "new_ids": [
-      "new-lb100",
-      "new-nms873",
-      "new-olaparib"
+      "new-ar12",
+      "new-sildenafil",
+      "new-ar13"
     ],
-    "refined_ids": [
-      "new-barasertib"
-    ],
+    "refined_ids": [],
     "new_outer_credit": 0,
     "new_primary_reading_credit": 0
   },
@@ -2788,5 +2832,108 @@
       "preprint_reading_or_version_equivalence_claimed": false
     }
   },
-  "qualification_files_scope": "Pre-existing qualification_files entries and their hashes are preserved historical reading-time bindings, not newly certified current-file hashes. Only the two appended PP2A qualification pointers are bound to the current accepted source bytes in this update. Other 46 question records and their historical pointers are unchanged."
+  "qualification_files_scope": "Pre-existing qualification_files entries and their hashes are preserved historical reading-time bindings, not newly certified current-file hashes. Only the two appended AR-12/sildenafil qualification pointers are bound to the current accepted source bytes in this update. Other 46 question records and their historical pointers are unchanged.",
+  "historical_checkpoint_before_ar12_271": {
+    "reviewer": "/root (integration assembly; separate source and synthesis reviews)",
+    "repository_commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+    "authoritative_decision_count": 268,
+    "scope": "Only active n438 receives direct exact-source components with unresolved source conflicts; preserve all other 46 records and all 47 historical questions/flags.",
+    "summary": {
+      "exact_source_questions_with_material_direct_qualified_answers": 16,
+      "substantive_primary_qualifications": 17,
+      "same_source_target_only_partial_qualification": 0,
+      "no_direct_source_answer": 31,
+      "open_unassigned": 30,
+      "assigned_elsewhere_pending": 0,
+      "different_experiment_context_does_not_close_question": 9,
+      "fully_resolved_entire_original_composite_questions": 6,
+      "new_unique_sources": 0,
+      "new_abstract_reading_credit": 0,
+      "new_primary_reading_credit": 0,
+      "direct_answers_with_unresolved_original_source_components": 10,
+      "fully_resolved_entire_original_composite_questions_scope": "Six exact-source study-level answers within limits, ten exact-source partials and one published-counterpart partial; original preprint access/version remains unverified.",
+      "open_questions_with_different_experiment_context": 5,
+      "questions_with_direct_or_linked_publication_information": 17,
+      "published_counterpart_partial_qualifications": 1,
+      "no_qualified_exact_source_or_counterpart": 30,
+      "partial_questions_including_published_counterpart": 11
+    },
+    "count_interpretation": "Seventeen questions have qualified primary information: 16 exact-source qualifications (six source-level answers and ten partials) plus one published-counterpart partial. Thirty have neither; 31 still lack an exact-original-source answer.",
+    "source_search_and_reading": {
+      "actually_inspected": "Accepted PP2A qualification/proposal, independent synthesis review and targeted n438/current schema; no new original main, image or workbook reading.",
+      "new_primary_reading_credit": 0,
+      "prior_scopes": "Historical source-reading state is preserved in historical_checkpoint_before_pp2a_268."
+    },
+    "input_provenance": [
+      {
+        "source_kind": "immutable_baseline_git_blob",
+        "commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+        "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
+        "sha256": "a28c91ce90bd685dcc37b96577bb6d3ae7b7ae5e6274dac34878dbd485c0b345",
+        "role": "Exact previous active reconciliation"
+      },
+      {
+        "source_kind": "immutable_baseline_git_blob",
+        "commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "sha256": "327f67234059ba120f8cb5cb9a8959f95d470c0de7cc04134903a20dfef7667b",
+        "role": "265-appraisal integration baseline"
+      },
+      {
+        "source_kind": "accepted_portable_source",
+        "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.md",
+        "sha256": "bb79c11d5edca5e55e727b42eaaf9edbd395dd5b53377dc51fecd1b2de11d759",
+        "role": "Separately qualified exact primary source; no new integration reading credit"
+      },
+      {
+        "source_kind": "accepted_portable_source",
+        "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.json",
+        "sha256": "ab354aa43e772e5883b4e8f60c9b074ec6686e284b32e1b1778482a927124dd6",
+        "role": "Separately qualified exact primary source; no new integration reading credit"
+      }
+    ],
+    "preservation": {
+      "changed_record_indices": [
+        438
+      ],
+      "other46record_objects_unchanged": true,
+      "all47_questions_and_flags_unchanged": true,
+      "all265_prior_decision_ids_retained": true,
+      "prior264_objects_unchanged": true
+    },
+    "parent_assigned_next_source": "No new source assignment is made by this reconciliation; residual n438 questions are explicit.",
+    "repository_snapshot_state": "268-appraisal checkpoint; repository_commit is the immutable parent baseline, not a self-referential commit claim.",
+    "freeze_note": "Preserve all other 46 objects and every original question/hash/flag; direct qualification does not imply missing experiments were performed.",
+    "previous_reconciliation": {
+      "commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+      "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
+      "sha256": "a28c91ce90bd685dcc37b96577bb6d3ae7b7ae5e6274dac34878dbd485c0b345"
+    },
+    "reconciliation_md_sha256": "3975f298ed24c3b10bed72c1dc064aefc3d53320bd584d24f398c27e5203336d",
+    "decision_count_scope": "265 baseline appraisals; three additions and one additive existing refinement produce 268.",
+    "repository_authoritative_decision_count_at_baseline": 265,
+    "candidate_input_ledger": {
+      "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-integration-20260927/ready/decisions-ready.json",
+      "sha256": "0a1c912e21997e4c2b9b7173e050c4e0ca0515506217edec466b921ff1d319a3",
+      "candidate_appraisals": 268,
+      "scope": "Exact reviewed prepared ledger; historical candidates preserved."
+    },
+    "root_integration": {
+      "baseline": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+      "changed_record_indices": [
+        438
+      ],
+      "new_ids": [
+        "new-lb100",
+        "new-nms873",
+        "new-olaparib"
+      ],
+      "refined_ids": [
+        "new-barasertib"
+      ],
+      "new_outer_credit": 0,
+      "new_primary_reading_credit": 0
+    },
+    "qualification_files_scope": "Pre-existing qualification_files entries and their hashes are preserved historical reading-time bindings, not newly certified current-file hashes. Only the two appended PP2A qualification pointers are bound to the current accepted source bytes in this update. Other 46 question records and their historical pointers are unchanged."
+  }
 }

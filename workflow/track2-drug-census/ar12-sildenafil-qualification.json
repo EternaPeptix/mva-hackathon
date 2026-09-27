@@ -1,0 +1,463 @@
+{
+  "status": "SOURCE_QUALIFIED_DRUG_COMPARISON_WITH_ACCESS_AND_ASSAY_LIMITS",
+  "date": "2026-09-27",
+  "study": {
+    "title": "Multi-kinase inhibitors can associate with heat shock proteins through their NH2-termini by which they suppress chaperone function",
+    "authors": "Booth et al.",
+    "pmid": "26887051",
+    "pmcid": "PMC4914336",
+    "doi": "10.18632/oncotarget.7349",
+    "journal": "Oncotarget. 2016;7(11):12975-12996",
+    "published_online": "2016-02-12",
+    "license": "Original article states Creative Commons Attribution; source and authors credited."
+  },
+  "historical_question": {
+    "batch_review_index": 401,
+    "pmid": "26887051",
+    "original_question": "Inspect direct binding/ATPase controls, exposures and normal-cell effects; retain imaging-versus-western discrepancy rather than treating all signal loss as protein depletion.",
+    "answered_components": [
+      "Exact source distinguishes early epitope-dependent imaging loss from denaturing western abundance",
+      "Actual AR-12/OSU-03012 versus sildenafil pretreatment and compound-specific ATPase comparisons",
+      "Drug, biotin conjugate, docking and genetic perturbations kept distinct",
+      "Reported BubR1/BUB3/PLK4 expression null identified as data not shown"
+    ],
+    "remaining_components": [
+      "Original supplemental death assays/captions and exact dose-response contrasts remain unreviewed",
+      "Normal-cell selectivity remains a prior-work claim, with no direct current-paper comparator qualified",
+      "Binding affinity/site certainty and full ATPase assay specificity remain limited"
+    ],
+    "full_original_composite_question_resolved": false,
+    "repository_question_status_changed": false
+  },
+  "central_judgment": "AR-12 is an inhibitory chaperone/tumor-cell perturbation in this paper, not a stabilizer restoring BUBR1 or healthy renewal. Early epitope-dependent immunofluorescence loss is not interchangeable with protein depletion, and antibody-signal loss is not by itself proof of ATPase inhibition.",
+  "compound_identity": {
+    "AR-12": "The original explicitly identifies OSU-03012 as AR-12. Materials lists OSU-03012 from Selleckchem and OSU-03012/AR-12 plus AR-13 supplied by Arno Therapeutics; experiment-to-lot mapping, catalog numbers and purity are not supplied in the read Methods.",
+    "sildenafil": "Actual sildenafil purchased from Selleckchem; source also uses Viagra as a name. Salt, catalog number, formulation and clinically equivalent exposure are not established here.",
+    "biotin_probe": "NHS-PEG12-biotin conjugate of AR-12 is the proteomic bait; not assumed identical in binding selectivity or potency to unmodified AR-12. Authors selected a nominally nonessential region and long linker, without a side-by-side bioequivalence assay qualified here.",
+    "AR-13": "Distinct sulfonamide analogue, not an AR-12 alias. Its lower reported ATPase IC50 and stronger combination killing are not transferred to AR-12.",
+    "other_agents": "Sorafenib tosylate, regorafenib, pazopanib, celecoxib, afatinib and ruxolitinib are distinct source comparators; no generic kinase-inhibitor or drug-family efficacy inheritance."
+  },
+  "experiments": [
+    {
+      "id": "epitope_and_western",
+      "sources": [
+        "Figures 1-2",
+        "Figure 10-11",
+        "Results paragraphs on antibody epitopes",
+        "Protein detection Methods"
+      ],
+      "models": "HuH7/HT1080; GBM5/GBM12 and related GBM isolates as individually captioned, all tumor models.",
+      "exposure": "Fig 1A/B AR-12 0-3 µM with or without sildenafil 2 µM for 2 h. Key GBM comparisons AR-12 2 µM with or without sildenafil 2 µM, 2 h epitope comparison and 6 h denaturing western comparison.",
+      "controls": "Vehicle, each drug alone and combinations where captioned; ERK2/JNK1 signal controls; scrambled siRNA, target siRNA and CMV/overexpression controls for antibody specificity; multiple N-terminal/middle/C-terminal antibodies.",
+      "result": "N-terminal HSP90/GRP78/HSP70 in situ detection falls, while middle/C-terminal signals show smaller or absent change and early denaturing western signals do not show the same loss. ERK2/JNK1 are unchanged by both methods. Alternative CHAPS or beta-cyclodextrin permeabilization reportedly did not remove the discrepancy, data not shown.",
+      "denominator": "Figures 1A/B and 3C quantify 40 different cells per condition, mean ± SEM; cell-versus-independent-experiment mapping is not given for each panel. General triplicate/three-study statement does not make 40 independent biological replicates.",
+      "interpretation": "Consistent with altered epitope accessibility/conformation, not direct structural proof or a universal absence of later degradation. Target-siRNA antibody validation is not validation that drug-induced fluorescence loss equals depletion.",
+      "native_scope": "Captions and main text read; Fig 1-2/10-11 pixels not reviewed."
+    },
+    {
+      "id": "HSP27_and_other_complexes",
+      "sources": [
+        "Figures 3-12",
+        "Main descriptions of S1-S2/S6-S10"
+      ],
+      "result": "HSP27 shows more agreement between imaging and western in Fig 3B, but its N-terminal antibody can retain signal when other epitopes lose signal. AR-12 changes chaperone localization/co-localization and co-precipitation; HSP70/HSP40 localization is not changed in Fig 8, while mitochondrial chaperone patterns change. Early AKT T308 effect is little or absent compared with larger mTOR S2448 reduction.",
+      "limit": "Do not force every chaperone or antibody into one abundance explanation. Image overlap and co-precipitation are not direct binary binding or a restored protein function. Supplemental numerical contrasts are unqualified."
+    },
+    {
+      "id": "proteomic_association",
+      "sources": [
+        "Figure 3A",
+        "Proteomic/mass spectrometry Methods",
+        "Main discussion of S11"
+      ],
+      "model": "SKBR3 tumor-cell lysate after 24 h serum-free medium.",
+      "protocol": "Preclear with streptavidin beads for 30 min at 4°C; biotin-AR-12 with or without excess unlabelled AR-12 for 2 h at 4°C; streptavidin capture for another 2 h; wash, gel-band selection and tandem mass spectrometry.",
+      "controls": "Bead preclearing and unlabelled-AR-12 competition select bands. Exact bait/competitor concentrations, quantitative enrichment and complete false-discovery/peptide validation not supplied in the read Methods.",
+      "result": "Chaperone-associated proteins, ULK1, PLK4 and redox proteins are identified as AR-12-dependent co-capture candidates. HSP27 lacks an ATP-binding site and is explicitly treated as an indirect interactor in Discussion.",
+      "binding_limit": "Co-capture may reflect complexes. No direct purified binding Kd/Ki, thermal shift, site mutant, covalent occupancy or crystal structure establishes each protein as a direct selective drug target. No proteomic database reanalysis."
+    },
+    {
+      "id": "HSP90_fragment_ATPase",
+      "sources": [
+        "Figure 13A native JPEG and caption",
+        "ATPase Methods",
+        "Results"
+      ],
+      "preparation": "Bacterial GST-tagged HSP90 N-terminal fragment on glutathione-Sepharose, equal portions.",
+      "doses": "30, 100, 300 and 1000 nM AR-12 and separate drug comparators; source Results states ATP substrate 0.1 mM.",
+      "timing": "Caption: 30 min drug incubation at 37°C before ATP-lite substrate; Methods also describes a 15 min reaction at 37°C after reagent addition. Not a cellular exposure or pharmacokinetic concentration.",
+      "reported_result": "AR-12 IC50 approximately 200 nM; AR-13 approximately 40 nM. Sorafenib/pazopanib inhibit; regorafenib and celecoxib have little or no comparable inhibition in this preparation. Values are source estimates, not fitted/recalculated here.",
+      "readout": "ATPlite 1step luminescence reported as ATPase activity, not an orthogonal direct substrate-turnover measurement.",
+      "n": "Caption n = 3 (×3), ± SEM; general Methods states triplicate experiments individually repeated three times. Preparation-level independence and curve-fit uncertainty are not detailed.",
+      "specificity_limits": [
+        "No GST-only/no-enzyme or drug–luminescence interference control is reported in the examined assay Methods/caption.",
+        "No orthogonal ATP/ADP/phosphate assay, broad selectivity panel or kinetic competition series is qualified.",
+        "N-terminal fragment assay cannot establish all full-length intracellular chaperone functions."
+      ],
+      "native_scope": "Original supplied JPEG Fig 13A-C actually viewed; plotted directions checked, no point digitization."
+    },
+    {
+      "id": "sildenafil_primed_chaperone_complex_ATPase",
+      "sources": [
+        "Figures 13B-C",
+        "Figure 14A-B",
+        "Results"
+      ],
+      "model": "GBM12 transfected with HSP70-GFP or FLAG-HSP90; 24 h later vehicle or sildenafil 2 µM for 1 h, followed by tag immunoprecipitation with phosphatase inhibitors.",
+      "protocol": "Equal immunoprecipitate-bead portions receive AR-12 or distinct comparator 30-1000 nM ex vivo for 30 min at 37°C before ATP-lite substrate. Sildenafil is a prior cell exposure, not described as an added purified-enzyme inhibitor in this comparison.",
+      "result": "Baseline activities from sildenafil- and vehicle-pretreated cells are near identical. Sildenafil pretreatment enhances AR-12 inhibition of HSP90- and HSP70-associated ATPase. Pazopanib HSP90 inhibition is not further enhanced, although HSP70 inhibition is; regorafenib enhancement is HSP70-associated rather than HSP90-associated.",
+      "control_boundary": "Complex ATPase activity can include associated proteins; not pure single-protein direct sildenafil binding.",
+      "negative_control": "Afatinib/ruxolitinib 0.5-2 µM do not inhibit isolated complex ATPase in Fig 14A, yet their 1 µM each 6 h cellular combination reduces N-terminal immunofluorescence in Fig 14B. Thus antibody accessibility changes are not sufficient evidence of ATPase inhibition.",
+      "n": "n = 3 (×3), ± SEM caption; Fig 14 native pixels unreviewed."
+    },
+    {
+      "id": "tumor_killing_and_genetic_protection",
+      "sources": [
+        "Main Results describing S5, S9 and S10"
+      ],
+      "measured_endpoints": "Live/dead tumor-cell assay; ROS/RNS dye fluorescence; signaling and chaperone-client readouts. No muscle force, completed faithful division, tissue regeneration, current-paper animal survival or clinical outcome.",
+      "reported_positive": "AR-12 and AR-13 have similar dose-dependent killing in GBM6/GBM12 as single agents; AR-13 with sildenafil is reported stronger, including >50% death at AR-13 100 nM. This is an AR-13 combination claim and is not reassigned to AR-12.",
+      "genetic_perturbations": "Wild-type thioredoxin overexpression suppresses AR-12-associated oxidant signal and 48 h killing; inactive mutant increases sustained signal/killing. HSP90, GRP78 and selected paired chaperone overexpression protects tumor cells during 24 h toxic combination exposure. Dominant-negative eIF2α and other plasmids/siRNA test pathways, not administered rescue drugs.",
+      "denominator": "Live/dead Methods: about 10,000 cells/well, three images per well from three separately treated wells/exposures, reported nine data points ± SEM; general study repetition is stated. Image, well and experiment units are not interchangeable.",
+      "limit": "Original supplemental dose-response figures, captions, exact death percentages, normal-cell controls and quantitative pairwise statistics could not be reviewed; retain as main-text-reported results only."
+    },
+    {
+      "id": "BubR1_expression_null",
+      "sources": [
+        "Results PLK4/BUB3/BuBR1 paragraph"
+      ],
+      "exposure": "AR-12 or sorafenib, with or without sildenafil; this data-not-shown statement does not independently specify cells, dose, time, antibody, denominator or test.",
+      "result": "Source reports no significant alteration in PLK4, BUB3 or BubR1 expression, data not shown.",
+      "limit": "No demonstrated BUBR1 stabilization, restoration, kinetochore loading, spindle-checkpoint function, chromosome segregation fidelity or BUB1B-variant rescue; do not convert a nonsignificant unshown expression result into equivalence."
+    }
+  ],
+  "safety_and_normal_cells": {
+    "current_paper": "No direct non-transformed-cell exposure-response comparison is established in the read original main/captions; the Discussion labels selective tumor killing as a conclusion of earlier work.",
+    "related_work": "Earlier normal-cell selectivity, GRP78 half-life, orthotopic survival and clinical-trial statements were not independently reread. No historical citation is converted into current-paper evidence.",
+    "harms_boundary": "The intended outcome in the measured tumor models is cell death with stress/autophagy and redox perturbation; this is not evidence of healthy repair. No pediatric exposure, therapeutic margin, normal-tissue renewal or MVA clinical-harm conclusion follows."
+  },
+  "reporting_and_hierarchy": {
+    "statistics": "One-way ANOVA followed by two-tailed Student t tests; nominal P<0.05; experiments stated triplicate and individually repeated three times, ± SEM. Exact per-comparison P values, CIs, multiplicity correction, hierarchy/power/exclusion rules and detailed randomization/blinding are not established.",
+    "source_discrepancies": [
+      "Fig 7B Results describes a 2 h treatment whereas its caption specifies 6 h; do not silently harmonize the CDC37 timepoint.",
+      "Fig 12 heading mentions HSP70 terminal antibodies, but its caption panels and Results describe c-MYC/HSPH1-p105; use panel context and do not assign it an HSP70 abundance outcome."
+    ],
+    "not_recomputed": [
+      "IC50",
+      "dose-response curves",
+      "effect sizes",
+      "confidence intervals",
+      "synergy indices",
+      "statistical tests"
+    ],
+    "formal_synergy": "No new Bliss/Loewe/combination-index analysis qualified; reported enhanced combination killing is not independently established additivity-model synergy."
+  },
+  "funding_and_conflicts": "Massey Cancer Center philanthropic support and Universal Inc. chair. AZ and SP are Arno Therapeutics directors; Arno holds the AR-12 license. CSC is the inventor; DW synthesized the biotin conjugate. These disclosed roles are retained without inferring misconduct.",
+  "publication_status_check": {
+    "checked": [
+      "Europe PMC CORE metadata commentCorrectionList",
+      "Original XML related-article links",
+      "Publisher page identity/version/notice text",
+      "Exact DOI correction OR retraction OR erratum discovery query"
+    ],
+    "result": "No linked correction/retraction or exact notice was encountered in these bounded checks. Europe PMC commentCorrectionList is absent; XML has no related-article links.",
+    "limit": "Not an exhaustive scientific-integrity search or a guarantee against later notices."
+  },
+  "reading_scope_file": "#/source_reading_depth",
+  "source_access_file": "#/source_access",
+  "independent_review_pending": false,
+  "repository_edit_or_ledger_proposal": false,
+  "new_tests_replays_or_statistical_analysis": false,
+  "source_reading_depth": {
+    "date": "2026-09-27",
+    "main_scientific_text": "Complete original abstract, Introduction, Results, Discussion and Materials and Methods read from Europe PMC XML-derived section text; all 14 main figure captions read, with acknowledgments, funding and conflicts. References are citation pointers, not independently qualified papers.",
+    "main_native_visuals": {
+      "actually_viewed": [
+        "Original Figure 13 JPEG from Europe PMC supplementaryFiles archive: panels A-C and plotted axes/legend/error bars."
+      ],
+      "not_viewed": [
+        "Figures 1-12 and 14 native pixels",
+        "Chemical-scheme drawings in Methods",
+        "Whole native 22-page main PDF"
+      ],
+      "web_pdf_screenshots": "The publisher PDF was text-readable through the web tool. Screenshot calls for pages 4/15 returned text handles without model-visible image content and page 16 timed out; these do not count as visual review.",
+      "figure13_limit": "Supplied compressed JPEG inspected; no digitization, remeasurement or raw-image audit."
+    },
+    "supplement": "Original XML links oncotarget-07-12975-s001.pdf. Publisher/Europe PMC direct downloads were blocked; Europe PMC supplementaryFiles returned a valid ZIP containing only six main-figure assets (one zero-byte), no supplement PDF. Supplement Figures S1-S12 are discussed in the main Results/Discussion but their original captions, plots and Methods were not read. No full-supplement credit.",
+    "other_papers": {
+      "full_original_context_papers_read": 0,
+      "prior_normal_cell_safety_half_life_and_animal_claims": "Kept as cited historical context only; not newly qualified."
+    },
+    "read_scope_exclusions": [
+      "No independent laboratory validation",
+      "No entire proteomic raw-data or peptide-confidence audit",
+      "No orthogonal assay replay or new statistical analysis",
+      "No current clinical efficacy or dose recommendation",
+      "No broad class or MVA efficacy inference"
+    ],
+    "native_assets_hashed_not_read": [
+      "oncotarget-07-12975-g004.gif",
+      "oncotarget-07-12975-g007.gif",
+      "oncotarget-07-12975-g011.gif",
+      "oncotarget-07-12975-g012.gif"
+    ],
+    "new_retrieval": true,
+    "repository_edits": false,
+    "tests_or_replays": false,
+    "independent_review_performed": false
+  },
+  "independent_review_depth": {
+    "status": "INDEPENDENT_SOURCE_REVIEW_READING_COMPLETE",
+    "created_at_utc": "2026-09-27T15:19:36.687249+00:00",
+    "reviewer": "/root/pr1_reuse_review",
+    "review_role": "Independent qualification review, not source assembler or ledger integration.",
+    "qualification_read": [
+      "qualification.md complete",
+      "qualification.json complete",
+      "reading-scope.json complete",
+      "source-access.json complete",
+      "source-manifest.json complete",
+      "historical-question.json complete",
+      "retrieval-record.json complete"
+    ],
+    "primary_reading": {
+      "source": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/sources/main.xml",
+        "bytes": 160255,
+        "sha256": "58458b50fee2e153d6fbe2dc7db07a14f64993c7681719c34217df9bc9bda0f2"
+      },
+      "actually_read": [
+        "Original abstract",
+        "Complete Introduction",
+        "Complete Results: all 27 direct paragraphs",
+        "Complete Discussion: all 9 direct paragraphs",
+        "Complete Materials and Methods including protein detection, live/dead measurements, biotin-bait proteomics, bead-bound HSP90 fragment assay, ROS/RNS, gel filtration, docking and statistical analysis",
+        "All 14 main figure captions",
+        "Acknowledgments, funding, conflicts and original license/publication-date elements"
+      ],
+      "excluded": [
+        "Cited reference papers were not retrieved or independently qualified",
+        "Chemical scheme drawings were not visually reviewed",
+        "No native Figures 1-12 or 14",
+        "No original supplemental captions or native S1-S12",
+        "No whole native main PDF, raw proteomics, blots or image audit"
+      ]
+    },
+    "native_visuals": [
+      {
+        "source": {
+          "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/sources/oncotarget-07-12975-g013.jpg",
+          "bytes": 78749,
+          "sha256": "9e9863b6b5d6584ff2ddd75dd60f2af979d66e0c3fccc8b60fd7bd63f74506c3"
+        },
+        "panels": [
+          "13A",
+          "13B",
+          "13C"
+        ],
+        "observed": "Axes, compound legends, plotted directions and error bars inspected at supplied JPEG resolution. Fragment and cell-derived complex panels distinguish AR-12, AR-13 and cellular sildenafil pretreatment.",
+        "limit": "No numerical point digitization, IC50 fit, uncertainty reconstruction or raw-image verification."
+      }
+    ],
+    "supplement_access_review": {
+      "zip": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/sources/supplementary-files.zip",
+        "bytes": 103297,
+        "sha256": "4e6bdb155455f30df8ee2dcc32f60b0efcf9430f7c64a28f0dca2955dd36747a"
+      },
+      "directory_inspected": true,
+      "actual_entries": [
+        {
+          "name": "oncotarget-07-12975-g012.gif",
+          "bytes": 10415
+        },
+        {
+          "name": "oncotarget-07-12975-g004.gif",
+          "bytes": 12867
+        },
+        {
+          "name": "oncotarget-07-12975-g013.jpg",
+          "bytes": 78749
+        },
+        {
+          "name": "oncotarget-07-12975-g007.gif",
+          "bytes": 14182
+        },
+        {
+          "name": "oncotarget-07-12975-g011.gif",
+          "bytes": 15483
+        },
+        {
+          "name": "oncotarget-07-12975-g001.jpg",
+          "bytes": 0
+        }
+      ],
+      "conclusion": "Five nonempty main-figure assets and one zero-byte main-figure entry; no supplemental PDF. Main-text descriptions of supplemental findings are not native supplemental review."
+    },
+    "notice_scope": "Read retained Europe PMC record (no commentCorrectionList) and original XML (no related-article element). Producer bounded publisher/exact-DOI check is attributed to producer access record; no fresh live notice search or exhaustive integrity review here. XML pub-date is 2016-02-12; Europe PMC firstPublicationDate is 2016-03-01, distinct source fields.",
+    "source_expansion_or_new_retrieval": false,
+    "statistical_reanalysis_tests_or_replays": false,
+    "new_ledger_proposal": false,
+    "repository_or_frozen_input_mutation": false
+  },
+  "synthesis_reading_depth": {
+    "role": "Portable synthesis preparer, not a fresh independent primary source reviewer.",
+    "actually_read": [
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/qualification.md",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/qualification.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/reading-scope.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/source-access.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/input-bindings.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/historical-question.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/discovery-and-stop.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/final-bindings.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/independent-review/review.md",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/independent-review/review.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/independent-review/reading-scope.json",
+      "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/independent-review/final-bindings.json"
+    ],
+    "immutable_ledger_reading": "Only requested IDs, exact/normalized source-name aliases and literal mentions; no whole-ledger scientific appraisal.",
+    "immutable_reconciliation_reading": "Only current n401 record and classification vocabulary; no global recount.",
+    "not_reread": [
+      "Original main XML, main scientific text extracts or captions as primary sources",
+      "Native Figure 13 or other figure pixels",
+      "Original main PDF",
+      "Supplement ZIP contents, original supplement figures/captions or supplemental functional data",
+      "Cited original normal-cell, half-life, animal or clinical studies"
+    ],
+    "new_retrieval": false,
+    "new_primary_reading_credit": false,
+    "new_statistical_analysis_tests_or_replays": false,
+    "repository_edits": false,
+    "hash_verification_is_not_source_reading_credit": true
+  },
+  "source_access": {
+    "date": "2026-09-27",
+    "identity": {
+      "title": "Multi-kinase inhibitors can associate with heat shock proteins through their NH2-termini by which they suppress chaperone function",
+      "authors": "Booth et al.",
+      "pmid": "26887051",
+      "pmcid": "PMC4914336",
+      "doi": "10.18632/oncotarget.7349",
+      "journal": "Oncotarget. 2016;7(11):12975-12996",
+      "published_online": "2016-02-12",
+      "license": "Original article states Creative Commons Attribution; source and authors credited."
+    },
+    "primary_text_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4914336/fullTextXML",
+    "publisher_url": "https://www.oncotarget.com/article/7349/text/",
+    "publisher_pdf_url": "https://www.oncotarget.com/article/7349/pdf/",
+    "main_pdf_local_status": "Not recovered; publisher PDF readable via web text tool only. No local PDF or full native-page credit.",
+    "supplement_status": "Linked but original supplemental PDF not recovered or read; incomplete supplementaryFiles ZIP retained as received.",
+    "notice_check": {
+      "checked": [
+        "Europe PMC CORE metadata commentCorrectionList",
+        "Original XML related-article links",
+        "Publisher page identity/version/notice text",
+        "Exact DOI correction OR retraction OR erratum discovery query"
+      ],
+      "result": "No linked correction/retraction or exact notice was encountered in these bounded checks. Europe PMC commentCorrectionList is absent; XML has no related-article links.",
+      "limit": "Not an exhaustive scientific-integrity search or a guarantee against later notices."
+    },
+    "access_boundary": "Lawful public article, archive and metadata endpoints only; no credential, purchase, contact, CAPTCHA bypass or blocked-route retry loop.",
+    "retrieval_record": "retrieval-record.json",
+    "web_record": "web-access-record.json"
+  },
+  "independent_source_acceptance": {
+    "status": "ACCEPT",
+    "required_corrections": [],
+    "review_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/independent-review/review.json",
+      "bytes": 6511,
+      "sha256": "fa72a527c6e5604056de723fe8e21035815662cc7533511d0b6a1d3b7e2564fb"
+    },
+    "final_bindings": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/independent-review/final-bindings.json",
+      "bytes": 1763,
+      "sha256": "3323e5649ecaeb5e087556a441c8113d70f2782396bd1c5b7e7aa89b70ab5489"
+    },
+    "remaining_limits": [
+      "ATPase activity is the source-reported ATPlite readout; direct binding/site selectivity and assay specificity remain unresolved. The source does not detail a signal-to-turnover conversion or orthogonal validation.",
+      "Original supplemental functional plots/captions remain unavailable in this packet; exact AR-12 killing contrasts and full quantitative control comparisons remain unqualified.",
+      "Normal-cell therapeutic margin, useful healthy renewal and actual-BUB1B/MVA function remain untested here.",
+      "No fresh exhaustive notice or integrity search was performed."
+    ]
+  },
+  "provenance": {
+    "primary_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/final-bindings.json",
+      "bytes": 4710,
+      "sha256": "92a80d5958c246555e1f07e1e5d8894d0353fff1c4f7811c6aa4acf5482f4423"
+    },
+    "primary_qualification_md": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/qualification.md",
+      "bytes": 10193,
+      "sha256": "1aee39587012c8ce58828b592167e9566c461ab2fc53172b4013e12855219670"
+    },
+    "primary_qualification_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/qualification.json",
+      "bytes": 15303,
+      "sha256": "0c964cfd3c9737ecb28e9b44b4629217f3c710b155cbd89fcf82c1fa750daf00"
+    },
+    "primary_source_access": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927/source-access.json",
+      "bytes": 1824,
+      "sha256": "3a8e2444071edd7e74650fca76444d3151696f246af4d1f051a88f2c68bf4382"
+    },
+    "source_packet_root": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-primary-20260927",
+    "relative_paths_in_retained_original_metadata_resolve_from_source_packet_root": true,
+    "raw_sources_outside_git": true
+  },
+  "integration_provenance": {
+    "identity_baseline": {
+      "type": "immutable_git_blob",
+      "repository": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
+      "commit": "572f3e460dff7880e6030db4143512bb79194abc",
+      "path": "workflow/track2-drug-census/decisions.json",
+      "git_blob": "d1bc51f13a54c5a96d46fc1e20d7589ebf758b1c",
+      "bytes": 465747,
+      "sha256": "0a1c912e21997e4c2b9b7173e050c4e0ca0515506217edec466b921ff1d319a3",
+      "reading_role": "Exact requested IDs, normalized exact source-name aliases and literal string mentions only; no whole-ledger scientific reappraisal."
+    },
+    "new_decision_ids": [
+      "new-ar12",
+      "new-sildenafil",
+      "new-ar13"
+    ],
+    "new_match_aliases": {
+      "new-ar12": [
+        "AR-12",
+        "OSU-03012"
+      ],
+      "new-sildenafil": [
+        "sildenafil"
+      ],
+      "new-ar13": [
+        "AR-13"
+      ]
+    },
+    "one_paper_not_independent_replication_across_entries": true,
+    "selection_rationale": {
+      "included": [
+        "new-ar12",
+        "new-sildenafil",
+        "new-ar13"
+      ],
+      "AR13_reason": "AR-13 is separately administered and has a distinct Figure 13 fragment-assay result, so it merits its own bounded research-compound comparison. Missing native S5 data limits its functional claim to the main-text report rather than erasing the reported positive. Its approximately 40 nM fragment estimate and >50% death at 100 nM combination statement are not assigned to AR-12.",
+      "depth_distinction": "AR-13 fragment-assay evidence has native Figure 13 review; its tumor-killing evidence is main-text-only reporting of the unrecovered supplement. The entire AR-13 appraisal is not described as main-text-only.",
+      "not_automatically_admitted": [
+        "Biotin-linked AR-12 affinity probe",
+        "Every additional kinase-inhibitor/comparator reagent",
+        "Genetic thioredoxin/chaperone overexpression or siRNA constructs"
+      ],
+      "nonadmission_reason": "These interventions remain explicit methodological or specificity context in this bounded three-identity synthesis; they are not newly proposed merely because present in an assay. No conclusion of inefficacy or permanent ineligibility follows."
+    },
+    "admission_performed": false,
+    "independent_synthesis_review_pending": true
+  },
+  "synthesis_actions": {
+    "external_ledger_proposals_created": true,
+    "repository_edits": false,
+    "historical_reconciliation_mutated": false,
+    "note": "The retained original repository_edit_or_ledger_proposal=false field describes the original primary qualification stage; this external synthesis creates proposals without admission."
+  }
+}
