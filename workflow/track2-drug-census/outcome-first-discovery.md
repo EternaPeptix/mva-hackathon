@@ -33,20 +33,22 @@ The original pilot left **56,177 collection records unscreened by that pilot**. 
 
 ## Current eligibility coverage
 
-Two further batches screened forty records each, bringing coverage to **120 disjoint source/ID records** and leaving **56,097 unscreened**. Review order uses design, administration and function terms within three query strata; it does not prioritize favorable results. Every unselected record remains queued. Eight records in each new batch received a second scientific read, alongside identity and source-string checks for all records.
+Three further batches of 40, 40 and 80 records bring screening to **200 disjoint source/ID records**, leaving **56,017 unscreened**. The latest batch includes 79 complete available abstracts and one title/metadata-only record. Review order still uses design, administration and function terms within the same query strata; the doubled batch preserves their proportions and does not prioritize favorable results. Every unselected record remains queued.
 
-| Route at saved-abstract depth | Batch 2 | Batch 3 |
-|---|---:|---:|
-| Controlled human functional reports | 21 | 23 |
-| Uncontrolled human functional reports | 0 | 2 |
-| Human mass/mechanism reports | 2 | 1 |
-| Preclinical functional reports | 2 | 3 |
-| Preclinical mechanism reports | 1 | 0 |
-| Context, reviews or protocols | 13 | 11 |
-| Unresolved | 1 | 0 |
+| Route at recorded source depth | Batch 2 | Batch 3 | Batch 4 |
+|---|---:|---:|---:|
+| Controlled human functional reports | 21 | 23 | 37 |
+| Uncontrolled human functional reports | 0 | 2 | 4 |
+| Human mass/mechanism reports | 2 | 1 | 3 |
+| Preclinical functional reports | 2 | 3 | 3 |
+| Preclinical mechanism reports | 1 | 0 | 1 |
+| Context, reviews or protocols | 13 | 11 | 29 |
+| Unresolved | 1 | 0 | 3 |
 
-These routes are eligibility judgments, not efficacy grades or counts of independent trials. Clinical scales, patient-reported fatigue, direct force and tissue mechanics remain separately labeled. Active-comparator timing studies and exercise-plus-nutrition packages cannot establish an isolated ingredient effect. Notices, corrections and possible shared study populations remain attached to their records.
+Eight records in each preceding forty-record batch and twenty-four in the latest batch received a second scientific check. Identities and literal source anchors were checked for all records. Measured function with an omitted treatment estimate remains eligible for follow-up; it is neither a demonstrated benefit nor an absence of functional measurement. Clinical scales, fatigue symptoms, direct force and tissue mechanics remain separately labeled. Mixture, active-dose and rehabilitation comparisons cannot establish isolated ingredient effects.
 
-The targeted follow-ups now include [methylcobalamin in ALS](methylcobalamin-als-qualification.md), [sildenafil in dystrophinopathy](sildenafil-dystrophinopathy-qualification.md), and [creatine in adult inflammatory myopathy and aging](creatine-inflammatory-myopathy-qualification.md). They add both controlled functional findings and counterevidence. Witting's sildenafil main remains partial; the other sources retain their recorded primary-reading limits. None of these appraisals turns the remaining literature into screened evidence.
+The latest batch retains a retracted Danhong stroke paper as context without supporting efficacy credit. A beef/whey report lacks a saved abstract, and a multi-study hip-fracture report lacks a resolved nutritional comparison. A controlled sepsis mortality report remains unresolved for the current routing definitions; its clinical evidence is preserved rather than mislabeled as a biomarker or muscle result. Corrections, notices and possible shared populations remain attached to their records.
+
+Targeted follow-ups include [methylcobalamin in ALS](methylcobalamin-als-qualification.md), [sildenafil in dystrophinopathy](sildenafil-dystrophinopathy-qualification.md), [creatine in adult inflammatory myopathy and aging](creatine-inflammatory-myopathy-qualification.md), and [L-glutamine in DMD](glutamine-dmd-qualification.md). They retain functional benefits, counterevidence and exploratory signals at their recorded reading depths. Witting's sildenafil main remains partial. The separate [methylcobalamin product-history note](methylcobalamin-regulatory-note.md) adds no clinical-efficacy or screening credit.
 
 The independent PASS concerns retrieval and bounded review fidelity. It does not establish that every drug or common compound has been enumerated, that every report has been read, or that the nominated candidates are superior.

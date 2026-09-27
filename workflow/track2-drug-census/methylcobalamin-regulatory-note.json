@@ -1,0 +1,99 @@
+{
+  "schema_version": "methylcobalamin-regulatory-portable-note-v1",
+  "status": "ACCEPTED_CORRECTED_SOURCE_PORTABLE_SYNTHESIS_PROPOSED",
+  "existing_decision_id": "new-methylcobalamin-als",
+  "corrected_source_note": {
+    "status": "BOUNDED_HISTORICAL_PRODUCT_STATUS_VERIFIED_BY_ROOT",
+    "checked_at_utc": "2026-09-27T18:07:43.045327+00:00",
+    "reader": "/root",
+    "historical_approval": {
+      "jurisdiction": "Japan",
+      "product": "Rozebalamin for Injection 25 mg",
+      "active": "Mecobalamin",
+      "PMDA_index_month": "2024-09",
+      "manufacturer_reported_approval_date": "2024-09-24",
+      "manufacturer_reported_launch_date": "2024-11-20"
+    },
+    "source_scope": {
+      "PMDA_index": "Only relevant product row",
+      "PMDA_59_page_review": "Text of first6PDFpages, not remaining clinical review or native pixels",
+      "manufacturer_release": "Full3-page extracted text"
+    },
+    "not_verified": [
+      "Current stock/pricing/access",
+      "FDA/EMA status",
+      "Current Japanese label/amendments",
+      "Full commercial/trial formulation bridging",
+      "Generic/compounded/oralB12 equivalence",
+      "Hackathon eligibility",
+      "MVA efficacy"
+    ],
+    "new_primary_efficacy_qualification_credit": 0,
+    "included_in_current_integration": false,
+    "formulation_precision": {
+      "total_mecobalamin_per_vial_mg": 28.75,
+      "labeled_withdrawable_mg": 25,
+      "overage_amount_mg": null,
+      "scope": "Total vial content includes overage;28.75mg is not the excess amount. No injection instructions or current-product equivalence inferred."
+    }
+  },
+  "historical_metadata_notice": "The nested note is the exact accepted corrected v2 object, including its historical root-reading and not-yet-integrated fields. Separate independent regulatory ACCEPT and current proposal context are recorded here. The original ambiguous vial wording is not used as an active formulation statement.",
+  "historical_status_summary": "PMDA corroborates Rozebalamin/mecobalamin approval month September 2024; exact 24 September approval and 20 November launch dates are attributed to Eisai. Historical Japan product/formulation context supplies no new clinical efficacy or cross-product equivalence.",
+  "independent_regulatory_acceptance": {
+    "status": "ACCEPT",
+    "required_corrections": [],
+    "manifest": {
+      "archive_file": "methylcobalamin-als-primary-20260927/regulatory-followup/independent-review/final-bindings.json",
+      "bytes": 9123,
+      "sha256": "28e989743fd1bb225918ee9341eb4782afd0e5e033530891301234cb3eb6755b"
+    },
+    "review": {
+      "archive_file": "methylcobalamin-als-primary-20260927/regulatory-followup/independent-review/review.json",
+      "bytes": 3546,
+      "sha256": "ced869ac425220e6e01b297217e62ff6862cc879be257a81e51e122d596a5a29"
+    }
+  },
+  "source_provenance": {
+    "accepted_corrected_manifest": {
+      "archive_file": "methylcobalamin-als-primary-20260927/regulatory-followup/revision-v2/final-bindings.json",
+      "bytes": 1477,
+      "sha256": "5b67086f1b512f0851b6aa975a1070d8e8cce35771b2f45115f18b9b22a209d6"
+    },
+    "corrected_note_MD": {
+      "archive_file": "methylcobalamin-als-primary-20260927/regulatory-followup/revision-v2/note.md",
+      "bytes": 2662,
+      "sha256": "9db9793cc0dc449bf04f3f8b41df689b8e61c7b2904ce4f73110a933dd6fec1e"
+    },
+    "corrected_note_JSON": {
+      "archive_file": "methylcobalamin-als-primary-20260927/regulatory-followup/revision-v2/note.json",
+      "bytes": 1319,
+      "sha256": "0903e036e8432ca3a4d421876ba045205a50bf24bd1188632968fe95fbc2465b"
+    },
+    "independent_reading": {
+      "archive_file": "methylcobalamin-als-primary-20260927/regulatory-followup/independent-review/reading-scope.json",
+      "bytes": 1196,
+      "sha256": "1cc7b13c6d38b1f52e9583045a5a305fe90263e6c444114fff4a71bf9b14222d"
+    },
+    "original_source_archive": "Original source assets and superseded wording remain externally preserved for provenance; only corrected v2 science is exported."
+  },
+  "reading_attribution": {
+    "root_source_scope": "Relevant PMDA index row; text of review pages 1–6 of 59 and complete three-page manufacturer release. No native reading credited to root.",
+    "independent_scope": "Relevant saved index row; text/native PMDA pages 1–6 and Eisai pages 1–3. Remaining clinical review, Japanese original label, amendments/current stock and other-jurisdiction status not read or established.",
+    "portable_synthesis": "Corrected note and complete independent review read; no new primary efficacy, native regulatory-page or current market research."
+  },
+  "current_proposal_context": {
+    "baseline": "860bfcf45778079777419f552a47e30a4ad405fb",
+    "appraisals": 276,
+    "aliases": [
+      "methylcobalamin",
+      "mecobalamin",
+      "E0302"
+    ],
+    "new_entry": false,
+    "new_alias": false,
+    "nominee_change": false
+  },
+  "new_clinical_efficacy_or_regeneration_credit": 0,
+  "new_original_queue_reading_credit": 0,
+  "new_primary_reading_at_synthesis": false
+}
