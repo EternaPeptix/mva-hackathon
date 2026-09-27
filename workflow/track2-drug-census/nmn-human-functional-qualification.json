@@ -1,0 +1,480 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-09-26",
+  "timezone": "America/Phoenix",
+  "decision_id": "prior-04",
+  "compound": "Actual oral NMN; not NR or niacin",
+  "selected_trial_count": 2,
+  "selection": {
+    "yi2023": "Randomized dose-group walking signal, actual function rather than biomarker only",
+    "igarashi2026": "Newly published longer-duration trial in older adults with walking and strength counterevidence",
+    "not_systematic": true,
+    "other_discovered_trials": "Not fully qualified or admitted; Igarashi2022 surfaced during selection only"
+  },
+  "sources": [
+    {
+      "schema_version": "1.0",
+      "review_date_local": "2026-09-26",
+      "review_timezone": "America/Phoenix",
+      "source_id": "yi2023",
+      "doi": "10.1007/s11357-022-00705-1",
+      "pmid": "36482258",
+      "pmcid": "PMC9735188",
+      "original_independent_trial_count": 1,
+      "preparation": "AbinoNutra NMN fine crystalline food-grade powder in 150mg capsules",
+      "population": "80 healthy adults aged40-65 in Pune India",
+      "duration_days": 60,
+      "randomized": 80,
+      "analyzed_walking": {
+        "placebo": 20,
+        "300mg": 20,
+        "600mg": 20,
+        "900mg": 20
+      },
+      "placebo_capsule_subgroups": [
+        7,
+        7,
+        6
+      ],
+      "missingness": "No walking dropout reported; HOMA-IR excludes one placebo and one900mg nonfasting participant",
+      "efficacy_set": "per protocol",
+      "main_endpoint_hierarchy": {
+        "primary": [
+          "serum total NAD+ plus NADH"
+        ],
+        "secondary": [
+          "manual treadmill six-minute walk",
+          "SF-36",
+          "Aging.Ai biological age",
+          "HOMA-IR",
+          "safety",
+          "tolerability"
+        ]
+      },
+      "walking": {
+        "modality": "manual treadmill with digital odometer, adapted ATS protocol",
+        "unit": "m",
+        "time_days": [
+          0,
+          30,
+          60
+        ],
+        "group_mean_sd": {
+          "placebo": [
+            [
+              325,
+              144
+            ],
+            [
+              310,
+              125
+            ],
+            [
+              330,
+              117
+            ]
+          ],
+          "300mg": [
+            [
+              307,
+              108
+            ],
+            [
+              350,
+              115
+            ],
+            [
+              380,
+              144
+            ]
+          ],
+          "600mg": [
+            [
+              290,
+              92
+            ],
+            [
+              400,
+              86
+            ],
+            [
+              435,
+              104
+            ]
+          ],
+          "900mg": [
+            [
+              323,
+              113
+            ],
+            [
+              425,
+              141
+            ],
+            [
+              480,
+              128
+            ]
+          ]
+        },
+        "within_arm_p": {
+          "placebo": [
+            ".73",
+            ".90"
+          ],
+          "300mg": [
+            ".23",
+            ".079"
+          ],
+          "600mg": [
+            "<.001",
+            "<.001"
+          ],
+          "900mg": [
+            ".016",
+            "<.001"
+          ]
+        },
+        "between_group_change_p_figure2B": {
+          "300mg_vs_placebo": [
+            "<.001",
+            "<.01"
+          ],
+          "600mg_vs_placebo": [
+            "<.001",
+            "<.001"
+          ],
+          "900mg_vs_placebo": [
+            "<.001",
+            "<.001"
+          ],
+          "600mg_vs_300mg": [
+            "<.01",
+            "<.01"
+          ],
+          "900mg_vs_600mg": [
+            "NS",
+            "NS"
+          ]
+        },
+        "arithmetic_unadjusted_difference_of_rounded_mean_changes_vs_placebo_m": {
+          "300mg": [
+            58,
+            68
+          ],
+          "600mg": [
+            125,
+            140
+          ],
+          "900mg": [
+            117,
+            152
+          ]
+        },
+        "derived_contrast_caveat": "Derived only, not model-adjusted estimates; no confidence interval reconstructed; not transferable to corridor-walk clinical thresholds",
+        "published_contrast_ci": null,
+        "between_group_method_reported": "MMRM",
+        "broad_multiplicity_adjustment_stated": false,
+        "model_formula_covariance_covariates_provided": false
+      },
+      "adverse_events": {
+        "events": [
+          6,
+          3,
+          0,
+          0
+        ],
+        "participants": [
+          5,
+          2,
+          0,
+          0
+        ],
+        "order": [
+          "placebo",
+          "300mg",
+          "600mg",
+          "900mg"
+        ],
+        "serious": 0,
+        "ae_withdrawals": 0,
+        "author_classified_treatment_related": 0,
+        "scope": "60days, small selected healthy sample"
+      },
+      "registry": {
+        "id": "NCT04823260",
+        "current_record_retrieved": true,
+        "first_posted": "2021-03-30",
+        "actual_start": "2021-05-25",
+        "last_update_posted": "2021-10-01",
+        "actual_enrollment": 90,
+        "partI_randomized": 80,
+        "partII_open_label": 10,
+        "hasResults": false,
+        "protocol_or_sap_recovered": false,
+        "historical_version_read": false,
+        "primary_current_partI": [
+          "NAD",
+          "six-minute walking endurance",
+          "SF-36"
+        ],
+        "hierarchy_disagrees_with_paper": true,
+        "ctri_id": "CTRI/2021/03/032421",
+        "official_ctri_record_retrieved": false,
+        "ctri_access_limit": "Official search form requires security code; no bypass"
+      },
+      "reporting_inconsistencies": [
+        "Discussion excludes300mg day30 walking positivity whereas Abstract Results and Figure2B support it",
+        "Supplement Figure1B labels all walking clusters Placebo and repeats day0-60 for last pair",
+        "Table2 placebo HOMA-IR P=.048 contradicts nonsignificant prose",
+        "Table1 age300mg vs placebo P=.04 despite balanced-demographics prose",
+        "Registry ArmE label n10 but detailed PartI design n20",
+        "Current registry endpoint hierarchy differs from paper; historical prespecification unverified",
+        "Registry arm descriptions after breakfast differ from detailed description and paper before breakfast"
+      ],
+      "funding": "Fully funded by Aba Chemicals and Abinopharm",
+      "conflicts": "Yi employee Abinopharm; Tao and Lin employees Aba; others declare no conflict",
+      "notice_check": {
+        "crossmark": "current, no updates listed",
+        "crossref_update_relation": null,
+        "specific_notice_found": false,
+        "certainty": "bounded accessible-record review only"
+      },
+      "qualification": "Qualified positive reported between-group manual-treadmill functional signal, short duration and small arms; no superiority or general recommendation",
+      "source_reading": {
+        "main_scientific_complete": true,
+        "main_tables": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "main_figures": [
+          1,
+          2
+        ],
+        "supplement_complete": true,
+        "supplement_figures": [
+          "1A",
+          "1B",
+          "1C",
+          "1D",
+          "1E"
+        ],
+        "native_visuals_inspected": true,
+        "registry_notice_credit": "provenance only"
+      },
+      "changes": {
+        "repository": false,
+        "entry": false,
+        "nominee": false,
+        "nr_or_niacin_evidence_inherited": false
+      }
+    },
+    {
+      "source_id": "igarashi2026",
+      "doi": "10.1038/s41514-026-00482-7",
+      "publication_date": "2026-09-25",
+      "version": "Article in Press; final edited version may replace it",
+      "title": "Sustained NAD⁺ augmentation by high-dose nicotinamide mononucleotide supplementation in older adults: a 24-week randomized, double-blind, placebo-controlled trial",
+      "preparation": "MIRAILAB BIOSCIENCE NMN; registry five 250-mg tablets daily; independently assayed content not established",
+      "dose_mg_per_day": 1250,
+      "duration_weeks": 24,
+      "comparator": "Matched starch and starch-hydrolysate placebo, five tablets daily",
+      "population": "Relatively healthy Japanese adults aged at least65; median age71; no MVA cohort",
+      "randomized_active_placebo": [
+        31,
+        31
+      ],
+      "efficacy_safety_active_placebo": [
+        31,
+        29
+      ],
+      "observed_week24_active_placebo": [
+        30,
+        28
+      ],
+      "attrition": [
+        "Two placebo exclusions at week0: consent withdrawal and protocol deviation",
+        "One active liver-enzyme adverse-event discontinuation at week6",
+        "One placebo missed week24"
+      ],
+      "primary_outcome": "Pure-tone hearing change; no benefit (P=.95, q=.999)",
+      "functional_outcome_role": "Secondary, confirmed in original and current jRCT records",
+      "functional_results": {
+        "unit_of_summary": "Median individual change, not mean treatment effect or subtraction of baseline/follow-up medians",
+        "right_grip_kg": {
+          "active": 0,
+          "placebo": -1,
+          "between_group_p": 0.179,
+          "q": 0.454
+        },
+        "left_grip_kg": {
+          "active": 0.5,
+          "placebo": 1,
+          "between_group_p": 1,
+          "q": 1
+        },
+        "chair_stand_count_per30sec": {
+          "active": 1,
+          "placebo": 1,
+          "between_group_p": 0.937,
+          "q": 0.999
+        },
+        "six_minute_hallway_walk_m": {
+          "active": -7.5,
+          "placebo": 5,
+          "between_group_p": 0.423,
+          "q": 0.645
+        },
+        "gait": {
+          "between_group_p": 0.797,
+          "q": 0.999,
+          "unit_issue": "Table3 labels values such as7.03 as m/s; Methods records time over central10m. Unresolved; no conversion or directional magnitude inferred."
+        },
+        "contrast_ci": null
+      },
+      "analysis": "Mann-Whitney U comparisons of changes, baseline ANCOVA where indicated; BH-FDR for reported overall comparisons, subgroup/exploratory comparisons unadjusted; no all-randomized missing-data analysis established",
+      "biomarker": "Whole-blood NAD+ by LC-MS/MS increased; distinct from serum total NAD+ plus NADH in Yi. No muscle NAD or BUBR1/checkpoint assay in complete scientific main/supplement.",
+      "harms": {
+        "any_ae_active": 7,
+        "any_ae_placebo": 6,
+        "denominators": [
+          31,
+          29
+        ],
+        "active_liver_discontinuations": 1,
+        "liver_causality": "Baseline abnormalities; contribution of NMN not excluded",
+        "native_plot_prose_discrepancy": "Post-stop AST rises while ALT falls slightly in Supplementary Figure1; do not say both improved/stabilized or use as proof against drug contribution. No exact values digitized.",
+        "placebo_serious_pancytopenia": 1,
+        "limits": "Small selected cohort; no long-term or rare-event safety proof"
+      },
+      "source_reporting_limits": [
+        "Native flow gives84 screened,22 excluded,62 randomized; prose additionally mentions pre-enrollment withdrawal without arithmetic reconciliation",
+        "Gait unit/scale inconsistency",
+        "Liver-enzyme plot/prose discrepancy",
+        "Reported hearing power calculation not independently reproduced; no claim of adequate physical-function power",
+        "No reported functional treatment-effect CI; no reconstruction"
+      ],
+      "registry": {
+        "id": "jRCTs031220373",
+        "first_record_read": "2022-10-11",
+        "current_record_last_modified": "2024-10-01",
+        "first_and_current_outcomes_agree": "Hearing primary; physical function and six-minute walking secondary",
+        "first_record_url": "https://jrct.mhlw.go.jp/pages/en-detail/25443/jRCT/1",
+        "current_record_url": "https://jrct.mhlw.go.jp/en-latest-detail/jRCTs031220373",
+        "full_protocol_sap_acquired": false,
+        "intermediate_history_read": false
+      },
+      "funding_conflicts": "MIRAILAB funded/supplied NMN; three employees, including company executive, coauthors; role limits stated by authors",
+      "notice_check": "Publisher Article-in-Press identity verified; current Crossref no update relation; bounded, not exhaustive",
+      "conclusion": "Regimen/population-specific nonpositive physical outcomes despite NAD augmentation; not universal NMN inefficacy or direct high-versus-low-dose comparison"
+    }
+  ],
+  "synthesis": {
+    "scientific_priority": "Mechanistic plus mixed controlled human-function comparator",
+    "positive_earns_credit": true,
+    "longer_null_does_not_erase_positive": true,
+    "no_cross_trial_dose_response": true,
+    "comparison_to_niacin": "More controlled design for the tested walking signal than inherited uncontrolled niacin functional observations; no comparative magnitude or MVA superiority established",
+    "eligibility": "Separate product-specific question; no new regulatory audit or approval conclusion",
+    "unchanged_mechanistic_claims": "North provides WT BUBR1 abundance evidence at high experimental exposure. Separately, Kang 2018 reports 0.5 mM NMN improving mitotic completion in NQO1-depleted MCF-7 cancer cells. That is functional division evidence, not niacin treatment, BUBR1-loss rescue, faithful daughter chromosome counts or muscle function. Genetic SIRT2 survival benefits remain separate. Product eligibility and actual-allele benefit at justified exposure remain unestablished.",
+    "reciprocal_research_criterion_unchanged": true,
+    "nomination_change": false,
+    "assessment_count_change": 0,
+    "original_queue_reading_credit": 0
+  },
+  "review_ownership": {
+    "yi2023": "/root/vitamin_d3_source_review/nmn_yi2023",
+    "igarashi2026": "/root/vitamin_d3_source_review",
+    "synthesis": "/root/vitamin_d3_source_review"
+  },
+  "source_reviewer_status": "FROZEN_EXTERNAL_TWO_TRIAL_QUALIFICATION_PENDING_SEPARATE_ACCEPTANCE",
+  "source_reviewer_optional_refinement": "optional-refinement-prior-04.json",
+  "source_reviewer_source_or_repo_edits": false,
+  "source_reviewer_source_detail_files": [
+    "yi2023/qualification.json",
+    "igarashi2026/qualification.json"
+  ],
+  "status": "INTEGRATED_EXISTING_ENTRY_REFINEMENT_WITH_SOURCE_LIMITS",
+  "integration": {
+    "baseline": "452238b99fca90673d86f77e1dfbf311247dab87",
+    "assessment_count": 247,
+    "refined_ids": [
+      "prior-04"
+    ],
+    "other_decision_objects_unchanged": 246,
+    "new_assessment_count": 0,
+    "new_original_queue_credit": 0,
+    "nomination_change": false,
+    "source_markdown": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-human-functional-followup-20260926/qualification.md",
+      "sha256": "db2ab513122c109579901dfaba77cf183a308f0ad6f72b9b3ee6e4c966c6de62"
+    },
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-human-functional-followup-20260926/qualification.json",
+      "sha256": "d3633dd268e97326b008c23b6f9bee26f39ba547d1fb7448bfd365ee998e997d"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-human-functional-followup-20260926/reading-manifest.json",
+      "sha256": "0d0b8eb3429f4346efc580a8c4e449b8a76f7995512f418bd1c87bda04914294"
+    },
+    "source_freeze": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-human-functional-followup-20260926/freeze-manifest.json",
+      "sha256": "b1265fe8f309e3e3f4dc4e2becaca76155d8ee8ef848356b38432a56d9df4b7c"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-human-functional-followup-20260926/independent-check/independent-check.md",
+      "sha256": "cb317a485c5ec256ecdb55393a468d9298cbac7bff94bb4f7d131854bd552995"
+    },
+    "independent_structured_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-human-functional-followup-20260926/independent-check/independent-check.json",
+      "sha256": "b108bfca6155bd3309d2450a7bc81e26bdd29474ac96951f2a5c150e7dffd6ab"
+    },
+    "independent_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-human-functional-followup-20260926/independent-check/reading-manifest.json",
+      "sha256": "62163fd51cb0aa06c35fa875b8dce4ea240127f420b6a598f283f9301c86f5c9"
+    },
+    "independent_binding_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-human-functional-followup-20260926/independent-check/binding-manifest.json",
+      "sha256": "efbd97af3ed06ad4022564edd219eec795e1619d12100fd6b73d067f9e737c6a"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-human-functional-integration-20260926/root-reading.json",
+      "sha256": "febb2960d4937cf0575377d8c2e76e39ab8693ce9acb81cbfd303c77a3b8bc7c"
+    },
+    "accepted_source_optional": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-human-functional-followup-20260926/optional-refinement-prior-04.json",
+      "sha256": "eb3bf4c69607f2672215900bdaf49b4c39e1646e1ce5df06d2310b6942d15b51"
+    },
+    "accepted_repo_entry": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-human-functional-integration-20260926/accepted-entry.json",
+      "sha256": "13bd3c82cad939c2d7cbe2f336db5bd8af16705852c76fe38a52d52752586db4"
+    },
+    "metadata_renames": {
+      "status": "source_reviewer_status",
+      "optional_refinement": "source_reviewer_optional_refinement",
+      "source_or_repo_edits": "source_reviewer_source_or_repo_edits",
+      "source_detail_files": "source_reviewer_source_detail_files"
+    },
+    "markdown_metadata_replacements": [
+      {
+        "before": "**The existing NMN appraisal should include qualified human functional evidence, alongside its unchanged North/Kang mechanistic evidence.**",
+        "after": "**The NMN appraisal includes qualified human functional evidence alongside its unchanged North/Kang mechanistic evidence.**"
+      },
+      {
+        "before": "No nomination or count change is proposed.",
+        "after": "This existing-entry refinement changes neither the nomination nor the assessment count."
+      },
+      {
+        "before": "The optional `prior-04` refinement appends these two trials to the existing identity and preserves its aliases and North/Kang rationale. It makes no automatic repository, assessment-count or nominee change.",
+        "after": "The integrated `prior-04` refinement appends these two trials while preserving its identity, aliases and North/Kang rationale. The ledger remains at 247 assessments; the other 246 decision objects and the nominations are unchanged."
+      }
+    ],
+    "old_mechanistic_source_pointer_retained": "workflow/track2-drug-census/nqo1-sirt2-followup.md",
+    "external_detail_files_not_bundled": true,
+    "MVA_superiority_established": false
+  },
+  "qualification_md": "nmn-human-functional-qualification.md",
+  "qualification_md_sha256": "c1ebdd34ecab1294b8950af00359c9927529f39b9e769080d751054411a6fc01"
+}

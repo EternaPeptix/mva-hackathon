@@ -1,6 +1,6 @@
 # jeweled — Track 2: testing two ways to preserve muscle
 
-**Research proposal, revised 23 September 2026.**
+**Research proposal, revised 26 September 2026.**
 
 We provisionally nominate **niacin (nicotinic acid) for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The aim is useful muscle function with preserved renewal in a child with recorded muscle atrophy and failure to thrive. Everolimus remains a conditional signaling probe. Neither primary candidate has demonstrated MVA rescue; this is a research comparison, not a treatment recommendation.
 
@@ -15,6 +15,8 @@ We provisionally nominate **niacin (nicotinic acid) for BUBR1 restoration and ap
 ## Niacin: test restoration of working BUBR1
 
 The 2010 HeLa titration found missegregation in most cells near 6% BUBR1 but little effect near 13%; these assay-specific levels are not treatment thresholds. [North's experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/) linked NAD-dependent SIRT2 to BUBR1 stabilization. NMN increased BUBR1; genetic SIRT2 elevation improved selected cardiac outcomes and male survival in hypomorphic mice. Neither was niacin treatment or demonstrated skeletal-muscle rescue.
+
+[Two human NMN trials](../workflow/track2-drug-census/nmn-human-functional-qualification.md) add a reported short-term treadmill-walking advantage over placebo and a longer physical-function null despite blood NAD augmentation. Their differing preparations, populations and tests, and reporting limitations, prevent a pooled efficacy conclusion; neither reports muscle BUBR1 rescue. This supports a fair experimental comparison with niacin, without establishing a winner.
 
 [Pirinen's small open-label mitochondrial-myopathy study](https://pubmed.ncbi.nlm.nih.gov/32386566/) showed niacin-mediated muscle NAD correction. Patient knee-extension strength rose about **1.1-fold after ten months**, with larger changes elsewhere, but niacin-treated healthy controls also gained strength. Without placebo, this is engagement evidence, not disease-specific functional rescue. A [pediatric case](https://pubmed.ncbi.nlm.nih.gov/39173541/) progressed despite biochemical correction. Niacin must therefore improve useful muscle, with BUBR1-dependent evidence to claim restoration. Other NAD precursors cannot supply its missing evidence; prescription-niacin pediatric safety and effectiveness are unestablished.
 
