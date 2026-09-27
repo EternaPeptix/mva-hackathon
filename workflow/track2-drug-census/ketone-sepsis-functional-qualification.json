@@ -1,0 +1,457 @@
+{
+  "checked_date": "2026-09-27",
+  "citation": {
+    "title": "Efficacy and safety of ketone ester infusion to prevent muscle weakness in a mouse model of sepsis-induced critical illness",
+    "journal": "Scientific Reports",
+    "year": 2022,
+    "pmid": "35732826",
+    "pmcid": "PMC9217969",
+    "doi": "10.1038/s41598-022-14961-w",
+    "url": "https://doi.org/10.1038/s41598-022-14961-w",
+    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9217969/",
+    "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9217969/fullTextXML",
+    "supplement_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-022-14961-w/MediaObjects/41598_2022_14961_MOESM1_ESM.pdf"
+  },
+  "interpretation": "Retain dose- and preparation-specific nominal benefits in ex vivo CSA-normalized EDL force in day-5 survivors, alongside severe dose/route-dependent toxicity and largely persistent atrophy. The only continuous-infusion preparation is the 50:50 R,R/S,S mixture. This is not evidence for D-only infusion, human clinical benefit, whole-animal functional rescue, or BUB1B/MVA rescue.",
+  "formulations": [
+    {
+      "id": "D",
+      "exact_identity": "(R)-3-hydroxybutyl-(R)-3-hydroxybutanoate ester",
+      "stereochemistry": "R,R",
+      "supplier": "Innov’Orga, Reims, France",
+      "tested_routes": [
+        "subcutaneous bolus"
+      ],
+      "vehicle": "Plasmalyte A Viaflo",
+      "purity_and_batch": "not reported in inspected main/supplement"
+    },
+    {
+      "id": "L",
+      "exact_identity": "(S)-3-hydroxybutyl-(S)-3-hydroxybutanoate ester",
+      "stereochemistry": "S,S",
+      "supplier": "Synthenova, Hérouville Saint Clair, France",
+      "tested_routes": [
+        "subcutaneous bolus"
+      ],
+      "vehicle": "Plasmalyte A Viaflo",
+      "purity_and_batch": "not reported in inspected main/supplement"
+    },
+    {
+      "id": "DL",
+      "exact_identity": "50:50 mixture of the two pure R,R and S,S 3HHB esters",
+      "tested_routes": [
+        "subcutaneous bolus",
+        "continuous intravenous infusion"
+      ],
+      "vehicle": "Plasmalyte A Viaflo",
+      "boundary": "Not sodium D,L-3HB salt; not unspecified four-stereoisomer material; continuous infusion cannot be credited to R,R alone."
+    }
+  ],
+  "model_and_design": {
+    "animals": "24-week-old male C57BL/6J mice (Janvier)",
+    "model": "5-day centrally catheterized, fluid-resuscitated cecal ligation/puncture sepsis",
+    "healthy_comparator": "full-fed standard chow",
+    "randomization": "Supplement reports random allocation to healthy/sepsis and within sepsis to placebo/ester in experiments 1 and 3; sequence-generation/concealment detail not reported. Experiment 2 is separately described; within-dose randomization not established.",
+    "blinding": "Caretakers and data collectors blinded to group allocation.",
+    "support": "Balanced fluid/hydroxyethyl starch during first 20 hours; antibiotics and buprenorphine every 12 hours; mixed parenteral nutrition Olimel N7E 5.8 kcal/day from day 1.",
+    "hierarchy": "Muscle force is the stated efficacy focus and sample-size basis; no prospective registered endpoint hierarchy or SAP verified.",
+    "sampling": "Sequential dose escalation; each dose step included healthy and placebo controls, presented pooled. In absence of toxicity, continued until 14 day-5 survivors with force measurements.",
+    "exclusions": "A priori physical abnormality before surgery, surgery death, pre-randomization death, or catheter malfunction; per-reason excluded counts not given. Included survival denominators are not independently verified as all initially allocated animals.",
+    "selection": "Force, tissue and endpoint blood outcomes are conditional on day-5 survival. Numbers sometimes differ from surviving counts; missing-assay reasons are not supplied.",
+    "analysis": "ANOVA with Fisher LSD/Student t post hoc, transformations as needed; Wilcoxon for nonnormal data, chi-square mortality, MANOVA for kinetic profiles. Explicitly no multiple-comparison correction.",
+    "ethics": [
+      "P048/2019",
+      "P135/2020"
+    ]
+  },
+  "controls_and_exposure": {
+    "bolus": "Twice-daily subcutaneous administration from day 1. D/L source daily-dose labels 10, 20, 40, 80 mmol/kg/day; mixture 20, 40, 80. Isovolumetric glucose/Plasmalyte placebo, main 187.5 mg/day; supplement 6.25 mg/g/day. Not established isocaloric across ester doses.",
+    "infusion": "Mixture only, 40 or 80 mmol/kg/day from day 1; PN 0.2 mL/h plus ester/vehicle 0.033 mL/h via a catheter with non-return valves.",
+    "unresolved_control_unit_discrepancy": "Supplement page 3 prints infusion D-glucose 6.25 mg/kg/day; page 2 prints bolus 6.25 mg/g/day and main gives bolus 187.5 mg/day. The 1000-fold difference in weight-normalized units remains unresolved; no correction or caloric equivalence assumed.",
+    "kinetics": "Separate experiment with healthy/day-2 septic mice after D-ester bolus at source daily-dose labels 40 or 80 mmol/kg/day; samples at 30, 45, 60, 180 minutes. Single-injection amount should not be inferred by silently converting the daily-dose labels."
+  },
+  "experiment1": {
+    "paperwide_included_n": 376,
+    "group_endpoint_counts": [
+      {
+        "preparation": "healthy",
+        "source_daily_dose_mmol_per_kg": null,
+        "included_n": 80,
+        "deaths_by_day5": 0,
+        "survivors": 80,
+        "specific_force_n": 62,
+        "mass_blood_expression_n": 80,
+        "liver_histology_n": 79
+      },
+      {
+        "preparation": "placebo",
+        "source_daily_dose_mmol_per_kg": null,
+        "included_n": 103,
+        "deaths_by_day5": 23,
+        "survivors": 80,
+        "specific_force_n": 67,
+        "mass_blood_expression_n": 74,
+        "liver_histology_n": 65
+      },
+      {
+        "preparation": "D",
+        "source_daily_dose_mmol_per_kg": 10,
+        "included_n": 20,
+        "deaths_by_day5": 2,
+        "survivors": 18,
+        "specific_force_n": 17,
+        "mass_blood_expression_n": 18,
+        "liver_histology_n": 18
+      },
+      {
+        "preparation": "D",
+        "source_daily_dose_mmol_per_kg": 20,
+        "included_n": 24,
+        "deaths_by_day5": 5,
+        "survivors": 19,
+        "specific_force_n": 19,
+        "mass_blood_expression_n": 19,
+        "liver_histology_n": 12
+      },
+      {
+        "preparation": "D",
+        "source_daily_dose_mmol_per_kg": 40,
+        "included_n": 21,
+        "deaths_by_day5": 5,
+        "survivors": 16,
+        "specific_force_n": 16,
+        "mass_blood_expression_n": 16,
+        "liver_histology_n": 16
+      },
+      {
+        "preparation": "D",
+        "source_daily_dose_mmol_per_kg": 80,
+        "included_n": 8,
+        "deaths_by_day5": 8,
+        "survivors": 0,
+        "specific_force_n": 0,
+        "mass_blood_expression_n": 0,
+        "liver_histology_n": 0
+      },
+      {
+        "preparation": "L",
+        "source_daily_dose_mmol_per_kg": 10,
+        "included_n": 17,
+        "deaths_by_day5": 2,
+        "survivors": 15,
+        "specific_force_n": 15,
+        "mass_blood_expression_n": 15,
+        "liver_histology_n": 15
+      },
+      {
+        "preparation": "L",
+        "source_daily_dose_mmol_per_kg": 20,
+        "included_n": 24,
+        "deaths_by_day5": 5,
+        "survivors": 19,
+        "specific_force_n": 18,
+        "mass_blood_expression_n": 19,
+        "liver_histology_n": 14
+      },
+      {
+        "preparation": "L",
+        "source_daily_dose_mmol_per_kg": 40,
+        "included_n": 24,
+        "deaths_by_day5": 10,
+        "survivors": 14,
+        "specific_force_n": 14,
+        "mass_blood_expression_n": 14,
+        "liver_histology_n": 13
+      },
+      {
+        "preparation": "L",
+        "source_daily_dose_mmol_per_kg": 80,
+        "included_n": 8,
+        "deaths_by_day5": 8,
+        "survivors": 0,
+        "specific_force_n": 0,
+        "mass_blood_expression_n": 0,
+        "liver_histology_n": 0
+      },
+      {
+        "preparation": "DL",
+        "source_daily_dose_mmol_per_kg": 20,
+        "included_n": 17,
+        "deaths_by_day5": 1,
+        "survivors": 16,
+        "specific_force_n": 15,
+        "mass_blood_expression_n": 16,
+        "liver_histology_n": 15
+      },
+      {
+        "preparation": "DL",
+        "source_daily_dose_mmol_per_kg": 40,
+        "included_n": 23,
+        "deaths_by_day5": 6,
+        "survivors": 17,
+        "specific_force_n": 17,
+        "mass_blood_expression_n": 17,
+        "liver_histology_n": 17
+      },
+      {
+        "preparation": "DL",
+        "source_daily_dose_mmol_per_kg": 80,
+        "included_n": 7,
+        "deaths_by_day5": 7,
+        "survivors": 0,
+        "specific_force_n": 0,
+        "mass_blood_expression_n": 0,
+        "liver_histology_n": 0
+      }
+    ],
+    "counts_sources": "Main Figures 1–4 captions; native Figure 1 and Supplement Figure S1. Zero terminal endpoint counts at 80 reflect all deaths, not measured nulls.",
+    "specific_force": [
+      {
+        "preparation": "L",
+        "dose": 20,
+        "effect": "higher than placebo; reported 93% of healthy control level",
+        "p": 0.007,
+        "endpoint_n": 18,
+        "placebo_n": 67
+      },
+      {
+        "preparation": "D",
+        "dose": 40,
+        "effect": "higher than placebo; reported 93% of healthy control level",
+        "p": 0.05,
+        "endpoint_n": 16,
+        "placebo_n": 67
+      },
+      {
+        "preparation": "DL",
+        "dose": 40,
+        "effect": "higher than placebo; reported 90% of healthy control level",
+        "p": 0.04,
+        "endpoint_n": 17,
+        "placebo_n": 67
+      }
+    ],
+    "force_nulls": "D10, L10, D20 and DL20 were not significantly improved versus placebo; L40 has no placebo-difference marker in native Figure 2a and no reported significant force benefit. No force assessment survives in any 80 bolus arm.",
+    "other_positives": "D10 has lower illness score with a P≤.05 versus-placebo marker in native Figure 1b (exact P not supplied). DL40 attenuated tibialis loss and L40 attenuated EDL loss, each P=.01 versus placebo; L40 also increased illness/mortality. D20/L20 had lower creatinine than placebo (P≤.03).",
+    "harms": "All 80 bolus arms died (D 8/8, L 8/8, DL 7/7; P<.0001 versus placebo). L40 illness P=.01 and mortality P=.05 versus placebo (10/24 versus 23/103). D20/DL20 raised sodium (P≤.02); L40 lowered bicarbonate (P≤.0001). Native Figure 4c shows greater histological liver-damage distributions at D10 and L10 (text P≤.02).",
+    "nulls": "Most muscle-mass loss persisted; Trim63/Fbxo32 upregulation was unchanged versus placebo (P≥.1). TNFα did not improve (P≥.07); liver triglycerides were similar (P≥.1). GGT similar (P≥.4), reported as data not shown. These nulls do not establish absence of harm.",
+    "reporting_caution": "The discussion’s broad claims of no electrolyte or histological harm are qualified by the explicit Results/native Figure 3/4 findings above."
+  },
+  "experiment2": {
+    "paperwide_included_n": 27,
+    "per_group_n": null,
+    "count_gap": "Main/native Figure 5 supplies total N=27 only; Methods says at least five per concentration, but exact healthy/septic by-dose analyzed counts are not reported.",
+    "outcomes": "D-3HB exposure/time profiles indicated slower apparent clearance in sepsis at both source dose labels: 40 P=.04; 80 P=.02. At 80 neither healthy nor septic mice cleared the rise by 180 minutes.",
+    "limits": "Only D-3HB measured. No L-3HB, circulating intact ester, 1,3-butanediol, or urinary mass balance; no formal clearance parameters/CI. Do not attribute observed lethality to a proven specific metabolite mechanism."
+  },
+  "experiment3": {
+    "paperwide_included_n": 72,
+    "group_endpoint_counts": [
+      {
+        "preparation": "healthy",
+        "source_daily_dose_mmol_per_kg": null,
+        "included_n": 15,
+        "deaths_by_day5": 0,
+        "day5_survivors": 15,
+        "specific_force_mass_blood_n": 15
+      },
+      {
+        "preparation": "placebo",
+        "source_daily_dose_mmol_per_kg": null,
+        "included_n": 17,
+        "deaths_by_day5": 2,
+        "day5_survivors": 15,
+        "specific_force_mass_blood_n": 15
+      },
+      {
+        "preparation": "DL",
+        "source_daily_dose_mmol_per_kg": 40,
+        "included_n": 21,
+        "deaths_by_day5": 4,
+        "day5_survivors": 17,
+        "specific_force_mass_blood_n": 17
+      },
+      {
+        "preparation": "DL",
+        "source_daily_dose_mmol_per_kg": 80,
+        "included_n": 19,
+        "deaths_by_day5": 5,
+        "day5_survivors": 14,
+        "specific_force_mass_blood_n": 14
+      }
+    ],
+    "counts_sources": "Native Figure 6b gives placebo 15/17, DL40 17/21, DL80 14/19 survivors/total; healthy n15 in captions. Figure 6c/d and S3/S4 terminal n15/15/17/14.",
+    "specific_force": [
+      {
+        "preparation": "DL",
+        "dose": 40,
+        "effect": "higher than placebo",
+        "p": 0.03,
+        "endpoint_n": 17,
+        "placebo_n": 15
+      },
+      {
+        "preparation": "DL",
+        "dose": 80,
+        "effect": "numerically higher but not conventionally significant; reported trend",
+        "p": 0.08,
+        "endpoint_n": 14,
+        "placebo_n": 15
+      }
+    ],
+    "mortality_and_illness": "No significant difference versus placebo (mortality P≥.2; illness P≥.7). Deaths are still 2/17 placebo, 4/21 DL40, 5/19 DL80; this is not equivalence or zero mortality.",
+    "other_outcomes": "Plasma D-3HB increased dose dependently (P≤.0001); no muscle-mass benefit. Sodium/bicarbonate/glucose/creatinine had no detected difference versus placebo (P≥.2).",
+    "route_comparison_limit": "Bolus and infusion were separate experiments with different cohorts/control pools; no randomized direct route contrast or route-by-dose interaction established. Infusion evidence applies only to the mixture."
+  },
+  "force_measurement": {
+    "endpoint": "Ex vivo EDL maximal isometric tetanic specific force on day 5",
+    "normalization": "Absolute force divided by estimated cross-sectional area; CSA=muscle mass/[1.06 mg/mm³ × optimal fibre length], fibre length=0.44×resting optimal length.",
+    "native_units": "mN/mm² in Figures 2a and 6c",
+    "caption_inconsistency": "Captions say per unit muscle mass; main/supplement Methods and native axes explicitly support CSA normalization.",
+    "absolute_force": "Figure 2b is a representative absolute-force trace (DL40), not a group-level absolute treatment contrast.",
+    "effect_precision": "Group plots show means±SEM; no numerically reported between-group force difference or CI. Healthy-percent descriptions are not treatment differences. No plot digitization or equivalence interpretation.",
+    "transfer": "No locomotion/endurance/whole-animal strength assay, no human sepsis trial, no BUB1B/BUBR1 expression/function or MVA model in this source."
+  },
+  "lineage": {
+    "packet": "External primary packet lineage/lineage.json; see source bindings below.",
+    "confirmed_reuse": "PMC8285799 (2021 cholesterol) explicitly reuses absolute-force measurements from PMC6600878 (2019). These are D,L-3HB sodium-salt data, not ester data.",
+    "endpoint_crosswalk": "Overall healthy/placebo/salt survivor counts 15/17/17 match; 2019 specific-force n15/16/14 differs from 2021 overall captions. Exact animal-by-assay identity remains unavailable.",
+    "other_experiments": "PMC8454128 (2021 salt toxicity) and the 2022 ester series describe their own experiments without located reuse statements; complete animal/control independence is not proven. Do not count four papers as four independent force replications.",
+    "scope": "Bounded lineage appraisal, not full efficacy reappraisal of all earlier papers."
+  },
+  "funding_and_notices": {
+    "funding": [
+      "Flemish Government Methusalem METH14/06",
+      "Research Foundation Flanders G.0C78.17N and G.0694.21N",
+      "ERC Horizon 2020 AdvG 2017-785809",
+      "Part funding from Baxter Healthcare, manufacturer of Olimel N7E parenteral nutrition"
+    ],
+    "conflicts": "Authors declare no competing interests.",
+    "data": "Data on reasonable request; no author contact/raw data obtained.",
+    "notices": "No linked correction/retraction found in retrieved PubMed CommentsCorrections, Europe PMC metadata or Crossref update/relation fields on 2026-09-27; ordinary PMC full text has no correction/retraction notice located. This is a bounded metadata check, not universal absence proof."
+  },
+  "depth": "Complete scientific main via official full XML; native Figures 1–6 viewed; all 10 supplement pages viewed including methods, design diagram, Table S1 and Figures S1–S4. Earlier papers only at the delegated lineage depth.",
+  "remaining_gaps": [
+    "Per-cell experiment-2 n",
+    "Missing-assay/exclusion counts and individual animal mapping",
+    "Prospective endpoint hierarchy/SAP",
+    "Unambiguous infusion glucose-unit correction",
+    "Raw data and effect CIs",
+    "L-metabolite and ester exposure data",
+    "Longer survival/function and external/MVA transfer"
+  ],
+  "schema_version": "1.0",
+  "status": "SOURCE_QUALIFIED_PRECLINICAL_COMPARISON",
+  "assembled_at_utc": "2026-09-27T07:58:16.078485+00:00",
+  "candidate_ids": [
+    "new-ketone-monoester-function",
+    "new-ketone-ss-ester-sepsis",
+    "new-ketone-rr-ss-mixture-sepsis"
+  ],
+  "competitiveness": {
+    "credit": "Actual disease-model muscle-force evidence adds a direct muscle endpoint beyond sports performance. Preserve nominal preparation-specific positives; survivor conditioning does not prove the gains are artifacts.",
+    "limits": "CSA-normalized force among survivors is not whole-cohort survival/function benefit, absolute force restoration or durable renewal. Uncorrected tests, pooled controls, assay missingness and severe exposure-dependent harms constrain advancement.",
+    "RR": "Refines the existing exact R,R monoester appraisal. The R,R bolus result does not inherit mixture-only infusion effects or an oral sepsis effect.",
+    "SS": "Separate exploratory preclinical preparation. A nominal gain at a lower tested dose than R,R does not establish superior clinical potency; the next reported dose increased illness/mortality.",
+    "mixture": "Separate 50:50 R,R/S,S preparation. Nominal infusion force benefit at one exposure has no demonstrated mortality equivalence or direct randomized route comparison.",
+    "leaders": "Niacin/restoration and apitegromab/compensation remain provisional. No head-to-head or MVA efficacy ranking is established. BUBR1 mediation is additionally needed only for a restoration claim, not to recognize a compensation endpoint.",
+    "next_evidence": "An exposure-qualified controlled comparison of absolute useful output, renewable reserve and chromosome fidelity, accounting for all starting units and survival. Neither survivor percentage nor normalized force alone settles net benefit."
+  },
+  "remaining_salt_followup": {
+    "scope": "Three earlier papers were read at bounded lineage depth, not fully qualified for independent efficacy here. The 2021 cholesterol/force analysis reuses 2019 force data.",
+    "urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6600878/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8454128/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8285799/"
+    ]
+  },
+  "scope": {
+    "new_original_queue_reading_credit": 0,
+    "new_independent_replication_credit": 0,
+    "clinical_regimen": "None proposed; reported animal exposures are source descriptors.",
+    "global_completeness": "Broader enumeration and efficacy follow-up remain incomplete."
+  },
+  "metadata": {
+    "raw_primary_assets_external": true,
+    "source_packet": "ketone-sepsis-primary-20260927",
+    "source_and_review_bindings": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-followup-20260927/independent/final-bindings.json",
+        "sha256": "d4f6e4aa010f73050a044875030745baa03868cff38bd78855f24d93fdb7776c"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-followup-20260927/independent/findings.json",
+        "sha256": "8aa492b9ffc8368b0b7a984682ff27d929d80a4cbfd1a62b6e3b2d24e42c455f"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-followup-20260927/independent/findings.md",
+        "sha256": "876a0f68d43a56234d7c45fc5cc9b2d5bc2b58e2657b9e559f0d58b54a5265ba"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-followup-20260927/independent/reading-scope.json",
+        "sha256": "367bcd573905eb11621b92ef2a8ae6bacbb5442b842e87053bb0da8b4e7a9201"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-followup-20260927/independent/source-bindings.json",
+        "sha256": "cb6a600fcc6bc47a6b64b285633e70d779ca8514de37a0501c0f55e53e72a960"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-followup-20260927/root-reading.json",
+        "sha256": "64d203d21525a62763bf3954f93c9ff9e9650564ca6090121fce8e19549f2a5f"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-primary-20260927/final-bindings.json",
+        "sha256": "b686f974a48821ca7da7fef7cd4c10092f00e6dc1b4b7842da4bf64dd067025a"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-primary-20260927/lineage/independent-parent-review.json",
+        "sha256": "7be5dcb302acdabacd96c3ca4253280ae8be1e2f625bddf6f8e0e5cc7a7b1f60"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-primary-20260927/lineage/independent-parent-review.md",
+        "sha256": "013a4ef82257e3ee9b696a7d82d8f7a4945d3dc40a4dbd20f85858855a9ce668"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-primary-20260927/lineage/lineage.json",
+        "sha256": "a2ae2c7b70ee9c6e4ce4ad147f6a822ed8bcaa22bac60af3ac29e10b1ef07ac9"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-primary-20260927/lineage/lineage.md",
+        "sha256": "129ed92903fdff0b6a4255a104dcc1e70ae85123b14a42b84d0fbe6628fb75b2"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-primary-20260927/lineage/retrieval.json",
+        "sha256": "3a0f028c4ea9e49f740e3fa3ee8284ef156a3d77bfbcad3d8de77744f1e13a23"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-primary-20260927/lineage/supplement-retrieval.json",
+        "sha256": "1794d7a80f8b6be61143285b537053063a1cb6736ff61b141b6842a35aa55e32"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-primary-20260927/qualification.json",
+        "sha256": "fd4f43b731bdc038f8756b96eb01df537343edc6b9a13d421b499e2d194eb1fd"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-primary-20260927/qualification.md",
+        "sha256": "4995c300c73ad026bd66ecf70e7f42ee230f3d48bc5457a244ce0270ff21ee84"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-primary-20260927/reading-scope.json",
+        "sha256": "3b2732c352c70827ad30881546e4703d818cb68850bc8e8a960c27d488de3477"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-primary-20260927/retrieval-log.json",
+        "sha256": "208a963508fc656e170d7e93b2a71b628192da818375d03b99a12d6a22cbda52"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-sepsis-primary-20260927/source-manifest.json",
+        "sha256": "df13a67e114b0d603abbd3c43bf119883d4bf32b377e59222486f59889aecc18"
+      }
+    ],
+    "root_reading": {
+      "main": "Selected original preparation, experiment, results/captions, force methods and statistics passages; complete source qualification and lineage report. Not a second complete root main reading.",
+      "native": "All panels of native Figures 1, 2, 4 and 6; native supplement page 3. Figure images/axes and captions cross-checked; no numerical digitization or independent histopathological diagnosis.",
+      "independent": "Separate independent reviewer read complete main, all six native figures and ten supplement pages, plus bounded original lineage evidence; PASS without required correction."
+    }
+  }
+}
