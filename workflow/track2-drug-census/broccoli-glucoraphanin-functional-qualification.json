@@ -1,0 +1,468 @@
+{
+  "status": "SOURCE_QUALIFIED_PREPARATION_SPECIFIC_FUNCTIONAL_COMPARISON",
+  "date": "2026-09-27",
+  "scope": "One preparation-specific human recovery comparison. No generic glucoraphanin or sulforaphane efficacy, clinical regimen, BUB1B/MVA benefit, original-queue credit or nomination replacement is established.",
+  "citation": {
+    "authors": "Cesanelli et al.",
+    "title": "Short-Term Effects of Broccoli-Derived Glucoraphanin on Recovery from Eccentric Muscle Damage: A Double-Blind Randomized Crossover Study",
+    "journal": "Nutrients",
+    "year": 2026,
+    "volume": 18,
+    "issue": 4,
+    "article": 710,
+    "pmid": "41754227",
+    "pmcid": "PMC12943077",
+    "doi": "10.3390/nu18040710"
+  },
+  "preparation": {
+    "descriptive_label": "Cesanelli 2026 hot-water broccoli/mustard glucoraphanin powder",
+    "supplier": "The Smarter Food Company, Norwich, UK",
+    "powder_g_per_serving": 10,
+    "composition_percent": {
+      "broccoli": 99.5,
+      "mustard_seed": 0.5
+    },
+    "preparation": "Freeze-dried powder dissolved in 125 mL boiling water, consumed hot/warm.",
+    "glucoraphanin_dose_as_reported": {
+      "value": 320,
+      "unit": "micrograms per serving",
+      "independent_assay": false,
+      "source_agreement": [
+        "main abstract",
+        "main Methods",
+        "registry",
+        "protocol v1",
+        "protocol v2"
+      ],
+      "interpretation": "Preserve μg; no inspected original supports correction to mg or μmol. Manufacturer confirmation is stated but no lot assay/certificate or validated concentration is supplied. High-dose label not independently validated."
+    },
+    "schedule_methods": "Once daily for six pre-exercise days, on day7 three hours before exercise, then daily for four post-exercise days.",
+    "schedule_abstract": "Two weeks before exercise; inconsistent with detailed schedule.",
+    "washout": "Stated 14-day washout; exercise section separately says next exercise after 14 days; exact period calendar not reconstructible.",
+    "control": "Matched-appearance/preparation mixture of spinach, nettle, dill, parsley, carrot, onion and basil; full ingredient quantities and biochemical/nutrient matching unknown.",
+    "bioactivation_limit": "Mustard inclusion does not establish active myrosinase after heating. Residual activity/microbial conversion and sulforaphane exposure were unmeasured.",
+    "target_engagement": "No sulforaphane metabolites, Nrf2 target genes, direct oxidative stress assays or metabolism genotype measurements.",
+    "identity_boundary": "Not purified glucoraphanin or sulforaphane; no equivalence to D,L-sulforaphane animal preparations or arbitrary broccoli foods."
+  },
+  "design": {
+    "reported_design": "Double-blind randomized paired crossover with exercised/control arms",
+    "recruited": 17,
+    "analyzed_completers": 15,
+    "population": "Healthy untrained men aged 18-35",
+    "age_mean_sd": [
+      26,
+      6
+    ],
+    "body_mass_kg_mean_sd": [
+      83.8,
+      13.4
+    ],
+    "sequence_counts_figure1": {
+      "X_then_Y": 8,
+      "Y_then_X": 7
+    },
+    "attrition": "Two incomplete participants attributed to work duties; main/caption imply prior exclusion, native figure labels 17 randomized then 2 dropouts. Allocation and timing unresolved.",
+    "randomization": "Reported independent researcher random-number generator for condition order.",
+    "masking": "Participants and assessors reportedly masked; identical sealed sachets; success not evaluated.",
+    "exercise": "Six sets of ten maximal voluntary eccentric elbow-flexor contractions at 60 degrees/second; alternate arm at second period.",
+    "arm_assignment_inconsistency": "Section 2.2/protocols say dominant arm first; Section 2.3/protocol exercise section says randomly selected arm.",
+    "control_arm_limit": "Same person and systemic preparation; second-period control is previously exercised arm if stated switch followed.",
+    "crossover_limit": "No period/sequence/dominance or treatment-by-period output reported. Baseline null does not exclude response carryover or contralateral repeated-bout adaptation. Washout is not proof that exercise adaptation disappeared.",
+    "workload": "Comparable work asserted but numeric values omitted.",
+    "adherence": "Daily logs/sachet counts exceed 95% for all completers; no biochemical confirmation.",
+    "diet": "Maintain usual diet; retrospective crucifer survey reported low stable intake; total diet not controlled."
+  },
+  "analysis": {
+    "primary_model": "Three-way repeated-measures Time(Pre,Post,48h,96h) × Supplement(X,Y) × Arm(exercised,control), all designated within-person; CK/soreness Time × Supplement.",
+    "paired_structure_acknowledged": true,
+    "implementation_verified": false,
+    "checks_reported": "Shapiro-Wilk normality, Mauchly sphericity, Greenhouse-Geisser corrections as needed.",
+    "multiplicity": "Bonferroni time-pair post hoc comparisons; no complete across-outcome family control described.",
+    "hierarchy": "Main/protocols no single primary or confirmatory gate. Registry lists torque/ROM/girth primary and soreness/CK secondary, omits ultrasound hierarchy and has other design errors.",
+    "feasibility_sample": "Target around 15 completers; reported post hoc sensitivity at alpha .05/power .80 for partial eta² around.06.",
+    "effect_size_claim_limit": "Method reports Time×Supplement eta²<.05; torque Results broader bound <.105 for listed nonsignificant interactions. No exact treatment differences/CI or full ANOVA degrees of freedom. Null and post hoc sensitivity do not demonstrate equivalence or exclusion of clinically relevant effects.",
+    "no_reanalysis": true
+  },
+  "outcomes": [
+    {
+      "endpoint": "isometric_torque",
+      "figure": 2,
+      "unit": "Nm",
+      "time": {
+        "F": 4.77,
+        "p": 0.006,
+        "partial_eta_squared": 0.078
+      },
+      "time_by_arm": {
+        "F": 5.88,
+        "p": 0.002,
+        "partial_eta_squared": 0.095
+      },
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization.",
+      "time_by_arm_by_supplement": "Nonpositive as reported; full endpoint-level ANOVA output unavailable."
+    },
+    {
+      "endpoint": "concentric_isokinetic_torque",
+      "figure": 2,
+      "unit": "Nm",
+      "time": {
+        "F": 7.62,
+        "p": "<.001",
+        "partial_eta_squared": 0.12
+      },
+      "time_by_arm": {
+        "F": 15.46,
+        "p": "<.001",
+        "partial_eta_squared": 0.216
+      },
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization.",
+      "time_by_arm_by_supplement": "Nonpositive as reported; full endpoint-level ANOVA output unavailable."
+    },
+    {
+      "endpoint": "resting_elbow_ROM",
+      "figure": 3,
+      "unit": "degrees",
+      "time": {
+        "F": 14.02,
+        "p": "<.001",
+        "partial_eta_squared": 0.2
+      },
+      "time_by_arm": {
+        "F": 3.86,
+        "p": 0.017,
+        "partial_eta_squared": 0.064
+      },
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization.",
+      "time_by_arm_by_supplement": "Nonpositive as reported; full endpoint-level ANOVA output unavailable."
+    },
+    {
+      "endpoint": "flexion_elbow_ROM",
+      "figure": 3,
+      "unit": "degrees",
+      "omnibus_report": "No significant main or interaction effects stated; native figure has significant within-condition time brackets.",
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization.",
+      "time_by_arm_by_supplement": "Nonpositive as reported; full endpoint-level ANOVA output unavailable."
+    },
+    {
+      "endpoint": "extension_elbow_ROM",
+      "figure": 3,
+      "unit": "degrees",
+      "time": {
+        "F": 17.0,
+        "p": "<.001",
+        "partial_eta_squared": 0.233
+      },
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization.",
+      "time_by_arm_by_supplement": "Nonpositive as reported; full endpoint-level ANOVA output unavailable."
+    },
+    {
+      "endpoint": "relaxed_arm_girth",
+      "figure": 4,
+      "unit": "cm",
+      "omnibus_report": "No significant main or interaction effects stated; native figure has significant within-condition time brackets.",
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization.",
+      "time_by_arm_by_supplement": "Nonpositive as reported; full endpoint-level ANOVA output unavailable."
+    },
+    {
+      "endpoint": "flexed_arm_girth",
+      "figure": 4,
+      "unit": "cm",
+      "omnibus_report": "No significant main or interaction effects stated; native figure has significant within-condition time brackets.",
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization.",
+      "time_by_arm_by_supplement": "Nonpositive as reported; full endpoint-level ANOVA output unavailable."
+    },
+    {
+      "endpoint": "muscle_thickness",
+      "figure": 5,
+      "unit": "mm",
+      "time": {
+        "F": 76.34,
+        "p": "<.001",
+        "partial_eta_squared": 0.577
+      },
+      "time_by_arm": {
+        "F": 39.39,
+        "p": "<.001",
+        "partial_eta_squared": 0.413
+      },
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization.",
+      "time_by_arm_by_supplement": "Nonpositive as reported; full endpoint-level ANOVA output unavailable."
+    },
+    {
+      "endpoint": "muscle_cross_sectional_area",
+      "figure": 5,
+      "unit_as_printed": "mm²",
+      "time": {
+        "F": 28.8,
+        "p": "<.001",
+        "partial_eta_squared": 0.34
+      },
+      "time_by_arm": {
+        "F": 6.59,
+        "p": "<.001",
+        "partial_eta_squared": 0.105
+      },
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization.",
+      "time_by_arm_by_supplement": "Nonpositive as reported; full endpoint-level ANOVA output unavailable."
+    },
+    {
+      "endpoint": "distal_tendon_thickness",
+      "figure": 6,
+      "unit": "mm",
+      "time": {
+        "F": 61.68,
+        "p": "<.001",
+        "partial_eta_squared": 0.524
+      },
+      "time_by_arm": {
+        "F": 24.83,
+        "p": "<.001",
+        "partial_eta_squared": 0.307
+      },
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization.",
+      "time_by_arm_by_supplement": "Nonpositive as reported; full endpoint-level ANOVA output unavailable."
+    },
+    {
+      "endpoint": "muscle_echo_intensity",
+      "figure": 7,
+      "unit": "gray-scale value",
+      "time": {
+        "F": 38.17,
+        "p": "<.001",
+        "partial_eta_squared": 0.405
+      },
+      "time_by_arm": {
+        "F": 10.0,
+        "p": "<.001",
+        "partial_eta_squared": 0.151
+      },
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization.",
+      "time_by_arm_by_supplement": "Nonpositive as reported; full endpoint-level ANOVA output unavailable."
+    },
+    {
+      "endpoint": "tendon_echo_intensity",
+      "figure": 7,
+      "unit": "gray-scale value",
+      "time": {
+        "F": 35.09,
+        "p": "<.001",
+        "partial_eta_squared": 0.397
+      },
+      "time_by_arm": {
+        "F": 9.17,
+        "p": "<.001",
+        "partial_eta_squared": 0.139
+      },
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization.",
+      "time_by_arm_by_supplement": "Nonpositive as reported; full endpoint-level ANOVA output unavailable."
+    },
+    {
+      "endpoint": "plasma_creatine_kinase",
+      "figure": 8,
+      "unit_as_printed": "μkat/L",
+      "time": {
+        "F": 4.58,
+        "p": 0.023,
+        "partial_eta_squared": 0.141
+      },
+      "time_by_supplement_p_raw": "0 0.411",
+      "time_by_supplement_p_interpretation": "Apparently .411, with source typographical error preserved; no significant interaction reported.",
+      "source_figure_cross_reference_error": "Results points to Figure7; actual CK panel is Figure8.",
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization."
+    },
+    {
+      "endpoint": "movement_soreness",
+      "figure": 8,
+      "scale": "0-10 verbal-anchored scale",
+      "time": {
+        "F": 151.94,
+        "p": "<.001",
+        "partial_eta_squared": 0.884
+      },
+      "time_by_supplement_p": 0.649,
+      "nonparametric_sensitivity": "Friedman result described as concordant; complete test output not supplied.",
+      "supplement_recovery_result": "No significant Time × Supplement recovery effect reported.",
+      "exact_between_preparation_effect": null,
+      "effect_CI": null,
+      "plot_uncertainty": "Mean ± SD",
+      "endpoint_specific_n_reported": null,
+      "analysis_sample_context": "15 completers; endpoint-specific missingness not separately enumerated; no graph digitization."
+    }
+  ],
+  "native_figure_findings": {
+    "all_eight_inspected": true,
+    "benefit": "No reported significant preparation-benefit contrast; time/arm response signals retained.",
+    "figure1": "17 randomized label versus text/caption 15; 8/7 crossover sequences; 7+4 day supplementation and 14-day washout.",
+    "figure3": "Flexion time brackets despite null omnibus text.",
+    "figure4": "Significant time brackets despite null omnibus statement in results and caption.",
+    "control_panels": "Some nonexercised-arm panels show time brackets; discussion claim that changes occur only in exercised arm is overbroad.",
+    "graph_values": "No digitization; plots interpreted at descriptive direction and source-annotated significance depth."
+  },
+  "registry": {
+    "nct": "NCT07373106",
+    "source": "https://clinicaltrials.gov/api/v2/studies/NCT07373106",
+    "as_of": "2026-09-27",
+    "first_submitted": "2025-09-15",
+    "first_posted": "2026-01-28",
+    "last_posted": "2026-01-28",
+    "status": "NOT_YET_RECRUITING",
+    "estimated_start": "2026-02-15",
+    "estimated_primary_completion": "2026-03-15",
+    "estimated_completion": "2026-03-31",
+    "enrollment_estimated": 17,
+    "has_results": false,
+    "structured_design": "Allocation NA; SINGLE_GROUP; masking NONE.",
+    "narrative_design": "Randomized double-blind crossover.",
+    "actual_data_collection_dates": null,
+    "prospective_registration_independently_verified": false,
+    "prospectivity_limit": "Manuscript received 16 January 2026 before first public posting 28 January and registry estimated start 15 February. Registry future schedule cannot establish chronology for the completed reported cohort. Author extension claim retained without validation.",
+    "endpoint_discrepancies": [
+      "Torque description knee extension and Nm/s versus actual elbow-flexor torque Nm",
+      "Arm girth mm versus figure cm",
+      "CK venous blood IU/L versus main fingertip plasma μkat/L",
+      "Ultrasound absent from listed hierarchy"
+    ],
+    "protocols": [
+      {
+        "version": 1,
+        "document_date": "2025-09-15",
+        "upload_date": "2025-09-15",
+        "pages": 5,
+        "source": "https://cdn.clinicaltrials.gov/large-docs/06/NCT07373106/Prot_SAP_000.pdf"
+      },
+      {
+        "version": 2,
+        "document_date": "2025-09-26",
+        "upload_date": "2025-09-26",
+        "pages": 5,
+        "source": "https://cdn.clinicaltrials.gov/large-docs/06/NCT07373106/Prot_SAP_001.pdf"
+      }
+    ],
+    "protocol_limit": "Both full texts read; all v2 native pages inspected. Similar paired design does not prove pre-enrollment fixation; actual start unknown, historical versions not inspected."
+  },
+  "harms": {
+    "reported": "No nausea, heartburn or other gastrointestinal discomfort among analyzed participants.",
+    "limit": "No comprehensive adverse-event table, severity denominators or long follow-up; not established safety.",
+    "dropouts": "Work duties per source; timing/allocation unclear."
+  },
+  "funding_conflicts": {
+    "funding": "Partial unrestricted funding from The Smarter Food Company.",
+    "in_kind": "Broccoli and placebo powder supplied by same company.",
+    "authors_statement": "No related personal financial relationships, consultancies or equity; supplier reportedly no role in design, collection, analysis, interpretation, writing or publication.",
+    "independently_audited": false
+  },
+  "publication_status": {
+    "received": "2026-01-16",
+    "revised": "2026-02-10",
+    "accepted": "2026-02-17",
+    "published": "2026-02-23",
+    "license": "CC BY 4.0",
+    "linked_formal_notice_exposed": false,
+    "status_scope": "Crossref/EuropePMC metadata and exact DOI notice search only; not exhaustive.",
+    "publisher_version_update": "Indexed publisher notes list updated PDF/XML 5 March 2026 and HTML same date; change content and VOR differences uninspected. Not equated to formal erratum.",
+    "publisher_main_pdf": "403; unusable. Full original scientific XML and native figures read instead."
+  },
+  "conclusion": "No demonstrated improvement of 96-hour recovery for this hot-water broccoli/mustard preparation under severe eccentric loading in 15 healthy men. Dose identity/exposure, crossover analysis, registry chronology and reporting inconsistencies limit inference. No generic sulforaphane failure, equivalence, MVA benefit or nomination change follows.",
+  "source_urls": [
+    "https://www.mdpi.com/2072-6643/18/4/710",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12943077/",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12943077/fullTextXML",
+    "https://clinicaltrials.gov/study/NCT07373106",
+    "https://www.mdpi.com/2072-6643/18/4/710/notes"
+  ],
+  "candidate_id": "new-hot-water-broccoli-glucoraphanin",
+  "match_aliases": [
+    "Cesanelli 2026 hot-water broccoli and mustard powder"
+  ],
+  "identity_limit": "The sole descriptive alias identifies the Cesanelli 2026 study preparation: 10 g freeze-dried 99.5% broccoli/0.5% mustard-seed powder supplied by The Smarter Food Company and reconstituted in 125 mL boiling water. It is not a generic glucoraphanin, sulforaphane/SFN, broccoli, mustard, extract or current retail-product alias. Manufacturer-reported glucoraphanin content and consumption do not establish measured sulforaphane exposure or equivalence to separate D,L-sulforaphane preparations.",
+  "source_and_review_provenance": {
+    "primary_manifest_sha256": "667a92cb8da8c8e45a9ed3828a46046c52e0ecfbe32beb566ee1f6b266657ea6",
+    "primary_qualification_md_sha256": "409382e0d664f8149d8e422e483bafa076accf58e09dcd04eb5c9f34be73f6ff",
+    "primary_qualification_json_sha256": "00643ab4314843dce8d4f8ffe602809241f4b91ac4c7c8a35a11ca2e82cf7a41",
+    "primary_reading_scope_sha256": "c90c9bc022009cdabe9bd06b067a7303c93f636e7cf52bf41131acc7eaf9e1e3",
+    "primary_source_manifest_sha256": "750e6714e5832324a08f955ce32b379e36f7599d34b2b16c199c4aa8379de9b5",
+    "independent_review_status": "ACCEPT",
+    "independent_review_manifest_sha256": "b7d05b893872058e1ff809f460a17d10725e79da4f4a6a68d8060280d0c8890c",
+    "independent_review_json_sha256": "e785d3f072fed8116627b9b28d45d405e9010f2250100b191c428706479325a5",
+    "independent_review_md_sha256": "39fe8eba49e87a111ef67b2cb38d6d031978dea80f4f1d9f3284d101b47940b4",
+    "independent_reading_scope_sha256": "8a5eb3327712c5c4e1542c868f798a1417c802cb80976ef9ab1c6a0282a24c5f",
+    "primary_reading_depth": "Complete original scientific main and all eight captions/native figures; complete text of both five-page protocol/SAP versions; all five native v2 protocol pages; complete current registry. No usable native main PDF, participant data, historical registry, original-versus-updated VOR comparison or independent assay of product/exposure.",
+    "independent_reading_depth": "Accepted independent review of complete retained main and all eight captions/native figures, both complete five-page protocol texts and current registry; native v2 protocol pages 1, 2 and 5 only. Native v1 pages and v2 pages 3/4 were not independently inspected; no fresh retrieval, raw data or statistical replay."
+  },
+  "synthesis_scope": {
+    "producer_role": "Portable preparation from frozen qualification and accepted review. The producer previously performed that independent source review; this assembly is not another independent primary review.",
+    "new_original_reading_credit": 0,
+    "new_native_pixel_credit": 0,
+    "new_retrieval": false,
+    "tests_replays_or_statistical_analyses": false,
+    "repository_or_frozen_source_mutation": false,
+    "new_cohort_or_replication_credit": 0,
+    "baseline_binding": "Deferred to root; no ledger access or current/uncreated baseline binding."
+  },
+  "raw_payload_policy": "Original article, registry, protocols, figures and access records remain outside Git and retain their source-manifest bindings."
+}
