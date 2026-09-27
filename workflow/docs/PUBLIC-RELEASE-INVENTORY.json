@@ -12941,7 +12941,7 @@
   "final_delta": {
     "status": "content_review_complete_for_private_revision",
     "reviewed_at_utc": "2026-09-22T02:51:50.650727+00:00",
-    "scope": "549 current payload files plus two self-referential audit documents; original 497 inventory decisions unchanged.",
+    "scope": "550 current payload files plus two self-referential audit documents; original inventory decisions unchanged.",
     "baseline_preserved": {
       "files": 497,
       "decisions": {
@@ -12954,7 +12954,7 @@
       "original_audit_bytes_sha256": "7fae846b1a22b88b05096372fa4fbbd9bbca7f27e23f725a2ff32ad1b6a2644b",
       "all_original_fields_unchanged": true
     },
-    "reviewed_payload_count": 549,
+    "reviewed_payload_count": 550,
     "report_tree_files": 32,
     "reviewed_files": [
       {
@@ -13037,6 +13037,15 @@
         "decision": "keep",
         "category": "bounded_case_interpretation",
         "grounds": "Two selected alleles, ten-gene aggregate differential, phase limits and subjective causal/criterion reasoning; no genome-scale genotype export."
+      },
+      {
+        "path": "reports/appendices/common-compound-priorities.md",
+        "decision": "keep",
+        "category": "public_source_research_synthesis",
+        "grounds": "Bounded synthesis of existing source appraisals; no new primary evidence, treatment advice or controlled case payload.",
+        "bytes": 10940,
+        "sha256": "f51290ef421b0d08a0836c111363f7399335716bb0fc8f6f308011ee7295f8ef",
+        "mode": 420
       },
       {
         "path": "reports/appendices/founder-ledger.md",
@@ -13166,8 +13175,8 @@
       },
       {
         "path": "reports/appendices/track2-route-decisions.md",
-        "bytes": 104957,
-        "sha256": "6993e6a8dd9674f8018540dc7e405b41672f93ac7df5c8b2c2a90aec71320cb0",
+        "bytes": 105080,
+        "sha256": "cb21a459a3c76b2a0a517dcfd0efc60951cb2b9b4f0b8705d66f5ec86a95e982",
         "mode": 420,
         "decision": "keep",
         "category": "scientific_route_comparison",
@@ -13229,8 +13238,8 @@
       },
       {
         "path": "reports/jeweled_track2_report_submission.md",
-        "bytes": 19005,
-        "sha256": "e959ee0e16733b6126435c2a9ab2608118ef5256e57534330e8f528d4224911b",
+        "bytes": 19133,
+        "sha256": "3423f193ad9c9c88896f389ab3fbe439656b1de1c2aea6c73c9f2aa138a2107b",
         "mode": 420,
         "decision": "keep",
         "category": "selected_scientific_proposal",
@@ -18968,6 +18977,15 @@
       "old_decision_join_rows_preserved": 243,
       "new_no_catalog_match_rows": 3,
       "MVA_superiority_established": false
+    },
+    "common_compound_priority_synthesis": {
+      "baseline": "ae0a345057fdb3e095538253f843d3b4d3df2943",
+      "assessment_count": 246,
+      "prior_decision_objects_unchanged": 246,
+      "new_files": 1,
+      "primary_reading_credit": 0,
+      "nomination_change": false,
+      "NMN_threshold_symmetric": true
     }
   }
 }
