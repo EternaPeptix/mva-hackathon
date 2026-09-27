@@ -1,32 +1,27 @@
 {
   "date": "2026-09-23",
   "reviewer": "/root",
-  "scope": "One exact KSM-66 root-extract preparation appraisal added; all 256 existing appraisals unchanged; all NIH source fields and prior relations preserved. New exact-name relations are provenance only, not reading or efficacy credit.",
+  "scope": "One exact Cherrypharm cherry-apple juice blend preparation appraisal added; all 257 existing appraisals unchanged; all NIH source fields and prior relations preserved. New exact-name relations are provenance only, not reading or efficacy credit.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ashwagandha-functional-followup-20260927/dsld-replay-final/runs/abef48951c8546396c28",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/dsld-replay-final/runs/b8346b011788befeb664",
   "historical_ledger_count": 168,
-  "current_ledger_count": 257,
+  "current_ledger_count": 258,
   "unchanged_output_tables": [
     "alias-cells.tsv",
+    "groups.tsv",
     "mentions.tsv",
     "metadata-anomalies.json",
+    "name-crossrefs.tsv",
     "normalized-aliases.tsv",
     "screen-policy.json",
     "source-records.tsv"
   ],
   "source_fields_unchanged_for_all_groups": 6467,
-  "changed_appraisal_group_rows": [
-    {
-      "group_id": "11",
-      "before": "[]",
-      "after": "[\"new-ashwagandha-ksm66\"]",
-      "name": "Ashwagandha"
-    }
-  ],
-  "name_crossrefs_added": 2,
-  "old_name_crossrefs_retained": 6859,
+  "changed_appraisal_group_rows": [],
+  "name_crossrefs_added": 0,
+  "old_name_crossrefs_retained": 6861,
   "current_name_crossrefs": 6861,
-  "current_summary_sha256": "abef48951c8546396c287c70d9225569eb921f954430848f10864c7731429184",
+  "current_summary_sha256": "b8346b011788befeb664092c4838027e5086f4f348fc7817a893ec472b44a274",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -76,50 +71,17 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "baseline_commit": "0f9b9542dc3622864159dc5d799e6dd79306854a",
-    "prior_appraisals": 256,
-    "current_appraisals": 257,
+    "baseline_commit": "c2caac052b6f0db2bbc10edc96be6b5bc55af528",
+    "prior_appraisals": 257,
+    "current_appraisals": 258,
     "added_ids": [
-      "new-ashwagandha-ksm66"
+      "new-cherrypharm-cherry-apple-blend"
     ],
     "refined_ids": [],
-    "changed_output_tables": [
-      "groups.tsv",
-      "name-crossrefs.tsv"
-    ],
-    "changed_appraisal_group_rows": [
-      {
-        "group_id": "11",
-        "before": "[]",
-        "after": "[\"new-ashwagandha-ksm66\"]",
-        "name": "Ashwagandha"
-      }
-    ],
-    "added_name_crossrefs": [
-      {
-        "group_id": "11",
-        "normalized_alias": "ksm 66",
-        "source_alias_cell_ids": "[\"dsld:11:synonym:147\"]",
-        "target_layer": "curated_appraisal",
-        "target_id": "new-ashwagandha-ksm66",
-        "target_name_field": "match_aliases",
-        "target_name_as_reported": "KSM-66",
-        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
-        "ambiguity_flags": "[]"
-      },
-      {
-        "group_id": "11",
-        "normalized_alias": "ksm 66 ashwagandha root extract",
-        "source_alias_cell_ids": "[\"dsld:11:synonym:152\",\"dsld:11:synonym:153\"]",
-        "target_layer": "curated_appraisal",
-        "target_id": "new-ashwagandha-ksm66",
-        "target_name_field": "match_aliases",
-        "target_name_as_reported": "KSM-66 ashwagandha root extract",
-        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
-        "ambiguity_flags": "[]"
-      }
-    ],
-    "name_crossrefs_added": 2,
+    "changed_output_tables": [],
+    "changed_appraisal_group_rows": [],
+    "added_name_crossrefs": [],
+    "name_crossrefs_added": 0,
     "new_manual_reading_or_efficacy_credit": 0
   },
   "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
@@ -2405,10 +2367,10 @@
     }
   },
   "prior_parent_reconciliation": {
-    "commit": "0f9b9542dc3622864159dc5d799e6dd79306854a",
+    "commit": "c2caac052b6f0db2bbc10edc96be6b5bc55af528",
     "repo_relative": "workflow/track2-drug-census/dsld-ingredients/parent-reconciliation.json",
-    "sha256": "d678f3a6ecfc8401af299b6a77c0f6fe927082c356f4e8653c94ea1073f82392",
-    "appraisals": 256
+    "sha256": "16a16bfa725e79d8efa9eb9002cc2bb0e718674ec5f85394866ee3ed2b0cc853",
+    "appraisals": 257
   },
   "current_delta_from181": {
     "changed_appraisal_group_rows": [
