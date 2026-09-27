@@ -59,7 +59,7 @@
     "new-umk57"
   ],
   "current_checkpoint": {
-    "parent_revision": "79e6ce8d537ca5be3b16f16e4e806a1d173fd0a5",
+    "parent_revision": "f1e8767fcd1b35596ec7a9c3e90b6239294f1f19",
     "pr1_is_ancestor": true,
     "pr1_assessment_ids_retained": 109,
     "pr1_decoded_assessments_equal": 92,
@@ -93,7 +93,7 @@
     "SGC_probe_labels_separate_inventory": 249,
     "FDA_food_source_rows_separate_inventory": 3971,
     "assessment_date": "2026-09-27",
-    "scope": "Current checkpoint: one sodium D,L-3HB preparation appraisal added; all 255 prior objects remain unchanged. Four existing qualification files update only follow-up pointers. PR1 retains 109 identities, 92 unchanged objects and 17 earlier refinements. Original reading and source-inventory counts remain unchanged.",
+    "scope": "Current checkpoint: the existing sodium D,L-3HB appraisal is refined without a new identity or alias; all 255 other objects remain unchanged. Six existing qualification files update only follow-up pointers. PR1 retains 109 identities, 92 unchanged objects and 17 earlier refinements. Original reading and source-inventory counts remain unchanged.",
     "food_union_source_ids": 213,
     "food_union_saved_abstract_ids": 212,
     "explicit_food_admission_count": 64,
@@ -114,10 +114,10 @@
     "prior_243_assessment_ids_retained": 243,
     "prior_246_assessment_ids_retained": 246,
     "prior_247_assessment_ids_retained": 247,
-    "refined_ids": [],
-    "added_ids": [
+    "refined_ids": [
       "new-dl-sodium-3hb-sepsis"
-    ]
+    ],
+    "added_ids": []
   },
   "historical_170_checkpoint": {
     "parent_revision": "b9772e874e65fe6e4450d74d5c27a7563a95899b",
@@ -1877,6 +1877,67 @@
     "added_ids": [
       "new-ketone-ss-ester-sepsis",
       "new-ketone-rr-ss-mixture-sepsis"
+    ]
+  },
+  "historical_256_before_ketone_cholesterol_20260927": {
+    "parent_revision": "79e6ce8d537ca5be3b16f16e4e806a1d173fd0a5",
+    "pr1_is_ancestor": true,
+    "pr1_assessment_ids_retained": 109,
+    "pr1_decoded_assessments_equal": 92,
+    "later_qualified_decision_ids": [
+      "new-CAPE",
+      "new-apcin",
+      "new-aurora-balancing",
+      "new-eg5-balancing",
+      "new-gsk923295",
+      "new-icariin",
+      "new-lithium-chloride",
+      "new-mg132",
+      "new-mirdametinib",
+      "new-okadaic-acid",
+      "new-tg101209",
+      "new-umk57",
+      "new-vitamin-k2",
+      "prior-03",
+      "prior-04",
+      "prior-05",
+      "prior-27"
+    ],
+    "reader_and_test_byte_identical": true,
+    "selection_records_identical": 3598,
+    "current_appraisals": 256,
+    "literal_revalidations": 3598,
+    "outer_source_id_records": 5759,
+    "pending_selected_strings": 0,
+    "food_abstract_overlay_records": 67,
+    "food_overlay_extra_outer_credit": 0,
+    "SGC_probe_labels_separate_inventory": 249,
+    "FDA_food_source_rows_separate_inventory": 3971,
+    "assessment_date": "2026-09-27",
+    "scope": "Current checkpoint: one sodium D,L-3HB preparation appraisal added; all 255 prior objects remain unchanged. Four existing qualification files update only follow-up pointers. PR1 retains 109 identities, 92 unchanged objects and 17 earlier refinements. Original reading and source-inventory counts remain unchanged.",
+    "food_union_source_ids": 213,
+    "food_union_saved_abstract_ids": 212,
+    "explicit_food_admission_count": 64,
+    "food_admission_new_reading_credit": 0,
+    "NIH_ingredient_source_groups": 6467,
+    "NIH_lexical_matches": 41496,
+    "NIH_extra_reading_credit": 0,
+    "prior_assessment_objects_unchanged": 255,
+    "prior_222_assessment_ids_retained": 222,
+    "prior_225_assessment_ids_retained": 225,
+    "prior_227_assessment_ids_retained": 227,
+    "prior_228_assessment_ids_retained": 228,
+    "prior_230_assessment_ids_retained": 230,
+    "prior_233_assessment_ids_retained": 233,
+    "prior_235_assessment_ids_retained": 235,
+    "prior_238_assessment_ids_retained": 238,
+    "prior_240_assessment_ids_retained": 240,
+    "prior_243_assessment_ids_retained": 243,
+    "prior_246_assessment_ids_retained": 246,
+    "prior_247_assessment_ids_retained": 247,
+    "refined_ids": [],
+    "added_ids": [
+      "new-dl-sodium-3hb-sepsis"
     ]
   }
 }

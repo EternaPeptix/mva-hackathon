@@ -1,0 +1,666 @@
+{
+  "checked_date": "2026-09-27",
+  "citation": {
+    "title": "Altered cholesterol homeostasis in critical illness-induced muscle weakness: effect of exogenous 3-hydroxybutyrate",
+    "pmid": "34274000",
+    "pmcid": "PMC8285799",
+    "doi": "10.1186/s13054-021-03688-1",
+    "url": "https://doi.org/10.1186/s13054-021-03688-1"
+  },
+  "decision": "Retain mechanistic plausibility supported by an observational human association, intervention-associated sterol readouts in a reused mouse force cohort, and direct 13C incorporation into mevalonate in a separate tracer cohort. Necessity/sufficiency/mediation of force rescue by cholesterol is unresolved. No human ketone efficacy, dietary cholesterol efficacy, retail transfer or BUB1B/MVA mechanism.",
+  "human": {
+    "record_id": "goossens2021-human-cholesterol-weakness",
+    "checked_date": "2026-09-27",
+    "created_utc": "2026-09-27T08:33:02.561744+00:00",
+    "citation": {
+      "pmcid": "PMC8285799",
+      "pmid": "34274000",
+      "doi": "10.1186/s13054-021-03688-1",
+      "title": "Altered cholesterol homeostasis in critical illness-induced muscle weakness: effect of exogenous 3-hydroxybutyrate",
+      "url": "https://doi.org/10.1186/s13054-021-03688-1"
+    },
+    "conclusion": "Retain an adjusted observational association of lower early serum total cholesterol with later MRC-defined weakness in selected EPaNIC patients. Human ketone/supplement efficacy, cholesterol causality or mediation is not established; reported OR scaling and a sepsis covariate reversal remain unresolved.",
+    "cohort_lineage": {
+      "trial": "EPaNIC, NCT00512122",
+      "parent_rct": {
+        "pmid": "21714640",
+        "doi": "10.1056/NEJMoa1102662",
+        "read_depth": "Primary abstract only",
+        "randomized_total": 4640,
+        "early_pn_n": 2312,
+        "late_pn_n": 2328,
+        "contrast": "PN within 48 hours versus not before day 8, supplementing insufficient enteral nutrition"
+      },
+      "parent_weakness_substudy": {
+        "pmid": "24461665",
+        "doi": "10.1016/S2213-2600(13)70183-8",
+        "read_depth": "Primary abstract only",
+        "description": "Prospectively planned MRC substudy of 600 awake/cooperative patients",
+        "early_pn_n": 295,
+        "early_pn_weak": 127,
+        "late_pn_n": 305,
+        "late_pn_weak": 105,
+        "timing": "First assessment median day 9 post-randomization"
+      },
+      "reuse": "Exact nutrition-arm/weakness counts match the 2021 tables, and main explicitly cites the earlier assessment and uses stored serum. Reuses the parent human outcome cohort, not a new 600-person randomized trial.",
+      "prespecification": "Prospectively planned strength substudy does not establish prespecification of the later cholesterol analysis."
+    },
+    "population": {
+      "n": 600,
+      "weak_n": 232,
+      "nonweak_n": 368,
+      "early_pn_n": 295,
+      "late_pn_n": 305,
+      "statin_at_day3_lastday_n": 141,
+      "statin_percent": 23.5,
+      "sepsis_on_admission_n": 264,
+      "sepsis_percent": 44,
+      "sepsis_total_provenance": "Calculated from Table 1 counts 141 weak plus 123 nonweak; not a sepsis-only cohort",
+      "surgical_n": 496,
+      "medical_n": 104,
+      "clinical_scope": "Mixed, predominantly surgical ICU population",
+      "baseline_imbalance": {
+        "apache_ii_median_weak_nonweak": [
+          35,
+          26
+        ],
+        "nrs_ge5_percent_weak_nonweak": [
+          40.9,
+          22.3
+        ],
+        "sepsis_percent_weak_nonweak": [
+          60.8,
+          33.4
+        ]
+      },
+      "selection": "Awake/cooperative assessed cohort; not all randomized parent-trial patients. Patients dying or unable to cooperate before strength assessment are not represented."
+    },
+    "measurements": {
+      "outcome": "MRC sum score <48 defines weakness",
+      "timing_2021": "Post-randomization day 8 ± 1; assessment in ICU or ward",
+      "timing_parent2013": "First assessment median day 9; individual-level time crosswalk not available",
+      "outcome_details_unreported": [
+        "Assessor blinding and repeatability in 2021 description",
+        "Pre-illness strength",
+        "Full selection flow"
+      ],
+      "exposure": "Stored serum total cholesterol measured by Amplex Red Cholesterol Assay Kit",
+      "sample_times": [
+        "Admission",
+        "Day 3 or last ICU day when stay shorter than 3 days"
+      ],
+      "time_mixing": "Counts and characteristics of earlier-last-day patients not supplied",
+      "missingness": "Separate serum-sample denominators, specimen loss, model complete-case n, missing-data method/imputation and assay storage/precision details not supplied. The 4040 parent-trial patients outside this selected cohort are not simply missing cholesterol samples.",
+      "human_ketone_intervention": false,
+      "human_cholesterol_replacement": false
+    },
+    "unadjusted_results": [
+      {
+        "comparison": "Admission cholesterol, weak vs nonweak",
+        "mean_weak": 67.9,
+        "se_weak": 2.5,
+        "mean_nonweak": 79.4,
+        "se_nonweak": 2.0,
+        "unit": "mg/dL",
+        "p_as_printed": "0004",
+        "p_numeric": null,
+        "source": "Native main PDF p3 and XML human Results"
+      },
+      {
+        "comparison": "Day 3/last-day cholesterol, weak vs nonweak",
+        "mean_weak": 67.6,
+        "se_weak": 2.1,
+        "mean_nonweak": 77.8,
+        "se_nonweak": 1.8,
+        "unit": "mg/dL",
+        "p": 0.0002
+      },
+      {
+        "comparison": "Statin vs no statin, day 3/last-day cholesterol",
+        "mean_statin": 66.9,
+        "se_statin": 2.1,
+        "mean_no_statin": 76.1,
+        "se_no_statin": 1.3,
+        "unit": "mg/dL",
+        "p": 0.01
+      },
+      {
+        "comparison": "Statin vs weakness",
+        "p": 0.2,
+        "interpretation": "No detected association, not a causal negative-control result or safety equivalence"
+      },
+      {
+        "comparison": "Early vs late PN, day 3/last-day cholesterol",
+        "mean_early": 72.7,
+        "se_early": 2.0,
+        "mean_late": 74.9,
+        "se_late": 2.0,
+        "unit": "mg/dL",
+        "p": 0.2,
+        "source": "Native Table 2 footnote"
+      }
+    ],
+    "logistic_weakness_models": {
+      "source": "Table 2, native main PDF p4",
+      "covariates": [
+        "Nutrition assignment",
+        "Age per year",
+        "Male sex",
+        "BMI 25-40 kg/m2 category",
+        "NRS >=5",
+        "APACHE II per unit",
+        "Diabetes",
+        "Malignancy",
+        "Pre-admission dialysis",
+        "Sepsis at admission",
+        "Admission category with medical ICU reference"
+      ],
+      "baseline_model_cholesterol": {
+        "odds_ratio": 0.94,
+        "ci95": [
+          0.89,
+          1.0
+        ],
+        "p": 0.05,
+        "increment_as_printed": "per mg/l added"
+      },
+      "statin_augmented_cholesterol": {
+        "odds_ratio": 0.94,
+        "ci95": [
+          0.89,
+          0.99
+        ],
+        "p": 0.03,
+        "increment_as_printed": "per mg/l added"
+      },
+      "statin_augmented_statin": {
+        "odds_ratio": 0.66,
+        "ci95": [
+          0.4,
+          1.08
+        ],
+        "p": 0.1
+      },
+      "late_pn_baseline": {
+        "odds_ratio": 0.69,
+        "ci95": [
+          0.47,
+          1.0
+        ],
+        "p": 0.05
+      },
+      "late_pn_with_statin": {
+        "odds_ratio": 0.68,
+        "ci95": [
+          0.46,
+          0.99
+        ],
+        "p": 0.04
+      },
+      "sepsis_baseline": {
+        "odds_ratio": 2.26,
+        "ci95": [
+          1.42,
+          3.59
+        ],
+        "p": 0.0005
+      },
+      "sepsis_with_statin": {
+        "odds_ratio": 0.44,
+        "ci95": [
+          0.28,
+          0.7
+        ],
+        "p": 0.0006
+      },
+      "gaps": [
+        "No adjusted admission-cholesterol model shown",
+        "Exact covariate reference coding outside stated categories unclear",
+        "Cholesterol scale/transformation unresolved",
+        "Logit linearity and diagnostics not reported",
+        "No discrimination/calibration or sensitivity results reported"
+      ]
+    },
+    "linear_cholesterol_model": {
+      "source": "Supplementary Table S2, original DOCX rendered page 6",
+      "outcome": "Day 3/last-day serum cholesterol",
+      "r_squared": 0.07,
+      "model_p": "<.001",
+      "coefficient_scale": "Units/transformation not identified; do not label estimates as mg/dL effects",
+      "statin": {
+        "estimate": -0.37,
+        "ci95": [
+          -0.73,
+          -0.01
+        ],
+        "p": 0.04
+      },
+      "early_pn": {
+        "estimate": -0.08,
+        "ci95": [
+          -0.36,
+          0.19
+        ],
+        "p": 0.54
+      },
+      "female_sex": {
+        "estimate": 0.31,
+        "ci95": [
+          0.03,
+          0.6
+        ],
+        "p": 0.02
+      },
+      "nrs_ge5": {
+        "estimate": -0.32,
+        "ci95": [
+          -0.65,
+          0.01
+        ],
+        "p": 0.05
+      },
+      "apache_ii": {
+        "estimate": -0.07,
+        "ci95": [
+          -0.11,
+          -0.04
+        ],
+        "p": "<.0001"
+      },
+      "emergency_surgical": {
+        "estimate": 0.72,
+        "ci95": [
+          0.19,
+          1.25
+        ],
+        "p": 0.007
+      },
+      "dialysis_as_reported": {
+        "estimate": 0.6,
+        "ci95": [
+          -1.99,
+          0.78
+        ],
+        "p": 0.3
+      },
+      "nulls": "Age, BMI category, diabetes, malignancy, dialysis, sepsis and other admission-category terms have no nominal significant association; these are not equivalence findings.",
+      "sex_coding": "Female here, male in Table 2; preserve each stated model coding."
+    },
+    "reporting_issues": [
+      {
+        "issue": "Admission P lacks decimal",
+        "native_confirmation": "Main PDF p3 visibly prints P=0004",
+        "handling": "Store verbatim; numeric P unknown without correction"
+      },
+      {
+        "issue": "Cholesterol OR increment unit",
+        "native_confirmation": "Main PDF p4 labels per mg/l added, while means on p3/footnote are mg/dL",
+        "handling": "No silent rescaling or OR per 10-unit conversion; exact clinically interpretable scale unresolved"
+      },
+      {
+        "issue": "Sepsis adjusted OR reversal",
+        "native_confirmation": "Main PDF p4: 2.26 to 0.44, approximately reciprocal, under same row label",
+        "handling": "Unexplained coding/reporting issue; no protective-sepsis interpretation"
+      },
+      {
+        "issue": "Supplement coefficient scale and dialysis interval",
+        "native_confirmation": "DOCX rendered p6 confirms estimates and unusually asymmetric dialysis CI around 0.60",
+        "handling": "Keep original values; no sign repair or unit assumption"
+      }
+    ],
+    "causality_limits": [
+      "Cholesterol and statins were not randomized; nutrition assignment was",
+      "Only baseline covariates modeled, with residual time-varying illness confounding possible",
+      "Selected awake/cooperative survivors may distort or limit associations",
+      "Pre-illness strength not established in this report",
+      "Earlier sampling is not proof of causal direction or a cholesterol mechanism",
+      "No formal mediation analysis or human ketone-to-cholesterol pathway measure",
+      "No detected nutrition-assignment effect on measured cholesterol provides no positive support for measured cholesterol mediation",
+      "Mouse findings cannot remove residual human confounding",
+      "Many nominal comparisons; human multiplicity control not described"
+    ],
+    "ethics_funding": {
+      "human_irb": "KU Leuven ML4190",
+      "consent": "Patients closest family members; healthy volunteers also described in paper ethics statement",
+      "funding": [
+        "Methusalem METH14/06",
+        "FWO G.0C78.17N and G.0694.21N",
+        "ERC Horizon 2020 AdvG 2017-785809",
+        "Partial Baxter Healthcare support"
+      ],
+      "conflicts": "No competing interests declared",
+      "data": "Not publicly supplied; available on reasonable request; none obtained"
+    },
+    "boundaries": "No human ketone/supplement efficacy or regimen; no causal cholesterol replacement claim; no MVA/BUB1B transfer. Mouse/tracer appraisal and full notice check remain parent scope.",
+    "read_scope": {
+      "human_main": "Complete human Methods, human Results, Tables 1/2 with all rows/footnotes, relevant Discussion and limitations, human ethics, data/funding/conflict statements; human sections checked against native publisher PDF pages 3/4.",
+      "human_native_outcomes": "No separate human outcome plot. Tables 1/2 visually inspected in full on PDF pages 3/4. Official publisher table HTML also retained.",
+      "supplement": "Complete Table S2 and footnotes extracted and visually inspected on DOCX-rendered page 6. Other supplement material is mouse-focused, not reappraised; page 7 mouse survival image incidentally viewed only.",
+      "parent_2011": "Primary abstract and bibliographic metadata only, PMID 21714640, exact paper cited as reference 23.",
+      "parent_2013": "Primary abstract and bibliographic metadata only, PMID 24461665, exact paper cited as reference 24.",
+      "not_done": [
+        "Full parent trial protocols or trial reanalysis",
+        "Raw data or author contact",
+        "Mouse/tracer mechanism reappraisal in this subreview",
+        "All supplementary pages visual review",
+        "New broad search or clinical recommendations",
+        "Repository/current256 changes or queue credit"
+      ],
+      "renderer": "Bundled documents renderer; bundled LibreOffice via resolved override path, Mac only."
+    }
+  },
+  "mouse": {
+    "model": "24-week-old male C57BL/6J CLP sepsis mice, centrally catheterized, fluids first 20 hours, antibiotics/analgesia and mixed PN Olimel N7E 5.8 kcal/day.",
+    "first_study": {
+      "preparation": "D,L-3HB sodium salt, 150 mg/day total, twice-daily subcutaneous injection; this paper does not restate catalogue, analytical isomer ratio, solvent, batch or purity. Earlier linked 2019 preparation details are separate context, not independent chemical verification here.",
+      "comparator": "D-glucose, described as isocaloric/isovolumetric; no sodium-matched comparator. Healthy controls pair-fed.",
+      "reuse": "Figures 1d and 4f explicitly say absolute EDL force previously quantified in reference 5, DOI 10.1186/s13054-019-2506-6. No new force replication or force-treatment estimate is credited.",
+      "cohort_counts": {
+        "healthy": {
+          "reported_figure_n": 15
+        },
+        "placebo": {
+          "included": 20,
+          "survivors": 17,
+          "reported_figure_n": 17
+        },
+        "salt": {
+          "included": 21,
+          "survivors": 17,
+          "reported_figure_n": 17
+        }
+      },
+      "survival": "17/20 versus 17/21, Wilcoxon P=.8 in native S1; no equality/safety proof. Main calls 17/21 82%, although arithmetic is 80.95%; counts retained as authoritative rather than rounded label.",
+      "assay_n": {
+        "plasma_cholesterol_mevalonate_gene_expression": {
+          "healthy": 15,
+          "placebo": 17,
+          "salt": 17
+        },
+        "ubiquinone9": {
+          "healthy": 13,
+          "placebo": 15,
+          "salt": 14
+        },
+        "muscle_enzyme_gene_total_cholesterol_caption": {
+          "healthy": 15,
+          "placebo": 17,
+          "salt": 17
+        },
+        "force_correlation_complete_pairs": null
+      },
+      "missingness": "Reasons for assay losses and pairwise complete n absent. Ubiquinone is missing 2/2/3 relative to reported surviving group labels. Do not substitute earlier specific-force n=15/16/14 for this paper’s absolute-force correlation pairs.",
+      "randomization_blinding": "This paper does not specify animal sequence generation/allocation concealment or assay blinding. Prior animal paper details are not silently treated as new verification.",
+      "exclusions": "Catheter-related problems mentioned; counts and per-endpoint flow absent.",
+      "outcomes": [
+        {
+          "source": "Figure 1a-c",
+          "endpoint": "Plasma total/free/esterified cholesterol",
+          "measurement": "Total and free cholesterol measured with and without esterase; esterified fraction calculated as total minus free.",
+          "contrast": "Salt versus glucose at day 5",
+          "result": "Total and esterified higher, P≤.05; free higher, P≤.01; native markers.",
+          "healthy_limit": "Free cholesterol is also higher than healthy (P≤.05 native marker); do not claim all fractions normalized. Total/esterified healthy nonsignificance is not equivalence.",
+          "precision": "Median/IQR plots; no tabulated treatment differences/CIs."
+        },
+        {
+          "source": "Figure 1d and Results",
+          "endpoint": "Plasma esterified cholesterol versus reused absolute force",
+          "r_squared": 0.1,
+          "p": 0.02,
+          "analysis_limit": "Pooled unadjusted correlation, group membership not distinguished/adjusted; no within-arm causal mediation.",
+          "null": "Free cholesterol correlation R²=.009, P=.5."
+        },
+        {
+          "source": "Figure 2a",
+          "endpoint": "Plasma mevalonate",
+          "contrast": "Salt versus glucose",
+          "result": "Higher, P≤.05 native marker; author-described normalization, not equivalence or direct flux measure."
+        },
+        {
+          "source": "Figure 2f-g",
+          "endpoint": "Muscle sterol-pathway gene expression",
+          "contrast": "Salt versus glucose",
+          "result": "Srebf2 higher P≤.01, Hmgcs1/Hmgcr higher P≤.001, Ldlr higher P≤.05. No drug-group difference marked for Fdft1, Aacs, Lpl, Abca1, Abcg1.",
+          "limit": "RNA normalized to Hprt/Rn18s; no protein activity or gene-specific causal perturbation."
+        },
+        {
+          "source": "Figure 2c-e",
+          "endpoint": "Hepatic cholesterol-related transcripts",
+          "result": "No salt-versus-placebo markers in hepatic panels; illness effects present.",
+          "reporting_issue": "Main says Hmgcs1 unaffected and Hmgcr upregulated only in salt-treated mice; native Hmgcs1 carries the healthy-comparison marker while Hmgcr has none. Preserve native/prose distinction."
+        },
+        {
+          "source": "Figure 4a-c",
+          "endpoint": "Plasma ubiquinone-9 and tibialis citrate synthase/complex I",
+          "result": "Plasma ubiquinone-9 increased with sepsis without drug-group difference; citrate synthase/complex I activities remained lower than healthy without salt restoration.",
+          "limit": "Plasma ubiquinone and two homogenate enzyme activities do not exclude every mitochondrial mechanism; no intramuscular ubiquinone measurement or broad respiration assay demonstrated."
+        },
+        {
+          "source": "Figure 4d-e",
+          "endpoint": "EDL total cholesterol and muscle Nceh1/Acat1 transcripts",
+          "result": "Salt increased whole-muscle total cholesterol P≤.05 and Nceh1 RNA P≤.05 versus glucose; no difference for reported Acat1.",
+          "measurement": "EDL homogenate lipids extracted; total cholesterol in duplicate, normalized to mg protein. Not isolated membranes or membrane free-cholesterol measurement.",
+          "annotation_limit": "Reported Acat1 assay identity is not Soat1; detailed identity check below."
+        },
+        {
+          "source": "Figure 4f native and Results",
+          "endpoint": "Muscle total cholesterol versus reused absolute force",
+          "r_squared": 0.1,
+          "p": 0.04,
+          "null_correlations": {
+            "citrate_synthase": {
+              "r_squared": 0.02,
+              "p": 0.3
+            },
+            "complexI": {
+              "r_squared": 0.01,
+              "p": 0.4
+            }
+          },
+          "limit": "Pooled unadjusted associations; no formal mediation/necessity test."
+        }
+      ],
+      "harms_scope": "This mechanism paper supplies survival comparison, not systematic new electrolyte/toxic-threshold or long-term safety assessment. Salt safety data from separately qualified studies must remain available; do not infer safety from these mechanistic endpoints."
+    },
+    "second_tracer_study": {
+      "preparation": "Single 75 mg subcutaneous D,L-3HB-13C4 sodium salt (Sigma 606030) on day 2 or day 5; healthy controls receive equal bolus. Injection solvent/volume, isotopic purity and analytical isomer ratio not stated.",
+      "count": {
+        "healthy_analyzed": 7,
+        "sepsis_day2_analyzed": 7,
+        "sepsis_day5_analyzed": 7,
+        "starting_denominators": null,
+        "deaths_exclusions": null
+      },
+      "cohort_design": "Separate cross-sectional groups sampled 2 hours after bolus; day 2/day 5 are not repeated measures in the same mice. Healthy controls full-fed; septic groups PN-fed. Feeding/illness state differences cannot be separated.",
+      "assays": "LC-MS on plasma, liver and gastrocnemius extracts: labeled 3HB, mevalonate, citrate, fumarate. Each metabolite labeled fraction normalized to plasma 3HB fractional labeling per mouse.",
+      "native_findings": "Figure 3b tissue 3HB normalized fractions are higher in muscle and lower in liver relative to plasma=1. Figure 3d muscle mevalonate labeling higher than healthy on day 2 (P≤.05) and day 5 (P≤.01), with author-reported sixfold and 16-fold increases. Plasma/liver mevalonate significant only day 5. Citrate/fumarate labeling also increases in selected muscle/liver comparisons.",
+      "strong_support": "Carbon from administered ketone reaches mevalonate; labeling pattern differs during sepsis, supporting access to the mevalonate pathway.",
+      "not_established": [
+        "No isotope measurement of final cholesterol, membrane cholesterol or ubiquinone",
+        "Single-time fractional enrichments are not uptake rates or absolute synthesis/oxidative fluxes",
+        "Comparisons of different metabolite fractional enrichments cannot alone rank absolute pathway throughput or rule out ATP substrate use",
+        "No sterol-pathway inhibition, knockout, cholesterol-specific rescue, or mediation analysis",
+        "No muscle-force endpoint in tracer cohort",
+        "No detailed statistical definition of overall fractional contribution pooling/aggregation across tissues in Figure 3c; repeated tissue observations not independently counted as animals"
+      ],
+      "reporting_issue": "Methods and native figure measure fumarate; a Discussion sentence instead says malate. Use actual assay/figure identity, no new malate endpoint inferred."
+    }
+  },
+  "mechanistic_claim_ladder": [
+    {
+      "claim": "Lower early serum cholesterol predicts later human weakness",
+      "support": "Adjusted observational association, with unit/coding/selection limits",
+      "causal_credit": false
+    },
+    {
+      "claim": "Injected D,L sodium salt changes muscle cholesterol-related biology",
+      "support": "Controlled biochemical/transcript contrasts in previously used force cohort",
+      "limit": "No independent force replication or sodium-matched control; assay and reporting caveats"
+    },
+    {
+      "claim": "Administered ketone carbon enters mevalonate",
+      "support": "Direct isotope labeling, n7 per separate group",
+      "causal_credit": "Supports substrate entry, not final-cholesterol labeling"
+    },
+    {
+      "claim": "Ketones chiefly supply cholesterol rather than energy in absolute flux terms",
+      "support": "Authors inference from relative isotope enrichment",
+      "established": false
+    },
+    {
+      "claim": "Increased membrane cholesterol causes force protection",
+      "support": "Whole-muscle total cholesterol association only; no membrane isolation or causal perturbation",
+      "established": false
+    },
+    {
+      "claim": "This pathway mediates the human nutritional effect or rescues BUB1B/MVA",
+      "support": "No direct mediation/BUB1B/MVA assay",
+      "established": false
+    }
+  ],
+  "assay_identity_check": {
+    "trigger": "Main calls Acat1 a cholesterol-esterification enzyme; supplement Table S1 lists acetyl-CoA acetyltransferase 1, assay Mm00507463_m1.",
+    "manufacturer": "Official Thermo assay page identifies mouse Acat1, Gene 110446, acetyl-Coenzyme A acetyltransferase 1; product gene function is mitochondrial acetoacetyl-CoA thiolase.",
+    "gene_record": "NCBI Gene 110446 Acat1 is distinct from Gene 20652 Soat1, sterol O-acyltransferase 1 / acyl-coenzyme A:cholesterol acyltransferase 1.",
+    "urls": [
+      "https://www.thermofisher.com/taqman-gene-expression/product/Mm00507463_m1",
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=gene&id=110446,20652&retmode=xml",
+      "https://www.ncbi.nlm.nih.gov/gene/20652"
+    ],
+    "interpretation": "Unresolved reported-marker annotation/assay identity issue. Do not infer the actual reagent used beyond the reported assay or treat unchanged Acat1 as validated unchanged cholesterol esterification. This does not erase the separate cholesterol-content or tracer findings.",
+    "scope": "One bounded primary manufacturer/NCBI identity check; no efficacy-source expansion."
+  },
+  "statistics": {
+    "mouse": "Student t/ANOVA with Fisher LSD after transformations where needed; Wilcoxon/Median tests otherwise; two-sided P≤.05. Multiple nominal comparisons, no broader multiplicity correction described.",
+    "plots": "Boxplots median/IQR; numerical treatment differences and confidence intervals not provided for mouse molecular outcomes. No digitization.",
+    "human": "Two reported logistic models plus separate linear cholesterol model; exact scale/coding and diagnostic/missing-data details limited. Parent randomized nutrition does not randomize cholesterol/statins.",
+    "prospective_status": "No prospective registered mechanism hierarchy/SAP verified; planned parent strength substudy does not establish prespecification of later cholesterol analysis."
+  },
+  "funding_notices": {
+    "funding": [
+      "Methusalem METH14/06",
+      "Research Foundation Flanders G.0C78.17N and G.0694.21N",
+      "ERC Horizon2020 AdvG2017-785809",
+      "Partial Baxter Healthcare financial support"
+    ],
+    "conflicts": "Authors declare no conflicts in this 2021 paper. The earlier 2019 patent disclosure remains separately qualified context; no inference about disclosure intent.",
+    "ethics": {
+      "animal": [
+        "p009/2016",
+        "p124/2017",
+        "p032/2018"
+      ],
+      "human": "ML4190"
+    },
+    "data": "Some/all datasets not public, available upon reasonable request; none requested or obtained.",
+    "notices": "No linked correction/retraction in fresh PubMed CommentsCorrections, EuropePMC correction fields, or Crossref update/relation fields on 2026-09-27; bounded check, not universal absence proof."
+  },
+  "unresolved_links": [
+    "Exact human cholesterol OR units/transformation and sepsis-covariate coding",
+    "Human sample/model denominators and survivor-selection sensitivity",
+    "Raw force-to-assay animal crosswalk and reasons for missing assays",
+    "Mouse allocation/blinding and tracer starting/survival counts",
+    "Figure3c aggregation and any within-animal tissue dependence",
+    "Absolute metabolic flux and isotope incorporation into final cholesterol",
+    "Membrane cholesterol rather than whole-muscle total content",
+    "Causal sterol-pathway necessity/rescue/mediation",
+    "Reported Acat1 versus Soat1 marker identity",
+    "Species, route, sodium load and diet-context transfer; no BUB1B assay"
+  ],
+  "counts": {
+    "new_drug_count": 0,
+    "new_independent_force_replication_count": 0,
+    "human_ketone_intervention_n": 0,
+    "tracer_analyzed_animals": 21
+  },
+  "schema_version": "1.0",
+  "status": "SOURCE_QUALIFIED_MECHANISM_WITH_CAUSAL_GAPS",
+  "assembled_at_utc": "2026-09-27T08:54:32.958212+00:00",
+  "candidate_id": "new-dl-sodium-3hb-sepsis",
+  "correspondence_followup": {
+    "doi": "10.1186/s13054-021-03722-2",
+    "url": "https://link.springer.com/article/10.1186/s13054-021-03722-2",
+    "reading": "Complete publisher letter and embedded authors response, including disclosures. Referenced external papers not newly read.",
+    "critique": "Questions the cholesterol/strength timing, endogenous ketones and pharmacokinetics, fatty-acid synthesis and indirect hepatic metabolism.",
+    "response": "Authors selected an early blood timepoint because sampling stopped at ICU discharge, to avoid restricting later samples to long-stayers. They cite earlier nutrition-dependent ketogenesis and lipid observations, acknowledge possible indirect metabolism and agree that pharmacokinetics and clinical potential require further work.",
+    "interpretation": "This gives a reason for the timing choice; it does not randomize cholesterol, remove illness-course confounding, demonstrate mediation or add a new intervention outcome.",
+    "source_binding": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-followup-20260927/letter-followup/publisher.html",
+      "sha256": "3964f3a2573ab75c28263168f1bacc59a250d741752f5c5aba4b67bb883f6d45"
+    }
+  },
+  "competitiveness": {
+    "credit": "Separate isotope evidence supports entry of administered ketone carbon into mevalonate. Controlled sterol readouts and the earlier force advantage justify a preparation-specific compensation hypothesis.",
+    "causal_limit": "No independent force replication, final-cholesterol labeling, membrane-specific measurement or necessity/mediation experiment. The human evidence is observational, with table-scale and covariate ambiguities.",
+    "decision": "Retain the injected D,L sodium salt as an exploratory compensation comparison. This mechanism does not establish BUBR1 restoration, clinical or MVA efficacy, oral/retail equivalence, or superiority over provisional niacin/apitegromab.",
+    "next_evidence": "Test justified measured exposure and sodium-matched controls with absolute useful output, renewal, fidelity and survival/starting-unit denominators. A sterol-specific perturbation plus appropriate rescue, final-product tracing and membrane measurements would distinguish the proposed mediator from parallel biochemical changes."
+  },
+  "scope": {
+    "new_appraisal_count": 0,
+    "new_original_queue_reading_credit": 0,
+    "new_independent_force_replication_credit": 0,
+    "broader_discovery_complete": false
+  },
+  "metadata": {
+    "raw_primary_assets_external": true,
+    "source_and_review_bindings": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-mechanism-20260927/qualification.md",
+        "sha256": "616ea83b9e00affe283b5914e1d4bc26d8fb8c3b02795908ed392508f40e2009"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-mechanism-20260927/qualification.json",
+        "sha256": "3ae287cff724088d78376c44fad2d67c8cf19d76c40d1ef0e3727649914da6b2"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-mechanism-20260927/reading-scope.json",
+        "sha256": "6ec732f507eae39a34f1542b9e8c785e7b926c33b8519a25f84e346f9439566d"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-mechanism-20260927/source-manifest.json",
+        "sha256": "df93c860590324e6a04f3e2545a0fa00fa112b452cc214a7a6820903f0b02536"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-mechanism-20260927/final-bindings.json",
+        "sha256": "28506cf8e3846dedeef7bb406549442e3e79fe9d6c8866fc8854e8b613c085f6"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-followup-20260927/independent/findings.md",
+        "sha256": "03c5cc5d7c54fcfad55c5beae14857b2f4104130bc115ae9ce8fb1a402f9cfb7"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-followup-20260927/independent/findings.json",
+        "sha256": "3002756b4ebd2cfae436e7eee69bf71c79de0cd6fe8bf18d22e8debebda349c6"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-followup-20260927/independent/reading-scope.json",
+        "sha256": "cb531b8498afe6881fcc24d487f75c8d46ef4fc44586afd4fea1f1b7197c1d08"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-followup-20260927/independent/source-bindings.json",
+        "sha256": "97c14ff1ecf9d2b8a3ae77ab8ff4584fe4b4139c482c1a41289df317620d5712"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-followup-20260927/independent/final-bindings.json",
+        "sha256": "661ca405072488ef9a4f41dc2a0de531e28fd4b2b748dc6a3a55121ae8476dee"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-followup-20260927/root-reading.json",
+        "sha256": "8e2af995b0f2c5aa831e1ac1fc65d9662539504ce0837d7321030fc836e934de"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-followup-20260927/letter-followup/qualification.json",
+        "sha256": "c78dcca9dc6f8db94d3a2ff5b13fe7ef90ef2891836cdb0690733843f30fa6fc"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ketone-cholesterol-followup-20260927/letter-followup/retrieval.json",
+        "sha256": "f21617880e9b3cddb30173d327da3c47ce5495f15904b08cd864fd8591e07511"
+      }
+    ],
+    "root_reading": {
+      "primary": "Complete source qualification Markdown and selected structured fields; original main abstract, introduction, Methods, Results, Discussion and Conclusions through publisher extraction; native Figures 3 and 4 and native human Tables 1 and 2. Not every supplement or native main figure independently re-read by root.",
+      "independent": "Full original scientific main, all four native figures, both native human tables and complete supplement reviewed independently; root read findings and checked frozen bindings.",
+      "letter": "Complete publisher letter and embedded authors response, including disclosures. Referenced external papers not newly read."
+    }
+  }
+}
