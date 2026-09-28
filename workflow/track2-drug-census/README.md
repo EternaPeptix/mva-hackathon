@@ -14,6 +14,8 @@ The comparison covers **290 appraisals**. [Creatine monohydrate](creatine-inflam
 
 The separate [NIH DSLD ingredient inventory](dsld-ingredients/README.md) preserves **6,467 source groups, 78,788 synonym cells and 85,255 total name/synonym cells**. Its **41,496 lexical matches, including 1,077 unflagged matches, provide no efficacy assessment** and confer no reading or appraisal credit. A separate first pass annotates six rows across four previously read abstracts, without new unique credit. Groups, label terms and matches are not unique drugs, verified chemical equivalents or additions to the main entity denominator. API version 9.5.0 (May 2026) and index-name suffix `2025-09-25n` are distinct source descriptors, not current-market or record-update guarantees.
 
+The separate [full-label prevalence layer](dsld-label-prevalence/README.md) processes a January 2026 NIH DSLD export: **214,780 label records**, including **121,959 marked on-market**, with exact Supplement Facts ingredient spellings retained separately. It identifies consumer-label breadth for common compounds but does not estimate sales, actual exposure or efficacy; generic “Niacin” entries do not identify the formulation used in the clinical niacin study.
+
 The [research-probe inventory](sgc-probes/README.md) adds 249 SGC probe labels
 and 230 parent-scoped negative-control records as a separate discovery layer.
 Seven complete matched abstracts were read; one BSP match is a PCR abbreviation.
