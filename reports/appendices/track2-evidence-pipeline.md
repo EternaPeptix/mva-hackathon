@@ -616,6 +616,16 @@ The conditional mTOR literature contains both class trials and direct everolimus
 reports; they answer different questions and cannot be pooled into an assumed
 anticancer benefit for this child.
 
+A separate 2025 breast-cancer study reports that shRNA BUB1B knockdown in
+MDA-MB-231 cells reduced radiation-associated G2/M accumulation and RAD51, and
+increased DNA-damage markers after 8 Gy. It used genetic knockdown, not a
+BUBR1-restoring drug, and did not measure irradiated clonogenic survival or an
+MVA/muscle model. It therefore does not establish that niacin, NMN or another
+restoration hypothesis protects tumors from radiation. If radiotherapy is part
+of the confirmed oncology regimen, include it in the candidate-compatibility
+test rather than extrapolating from the knockdown result. See the
+[source-bounded qualification](../../workflow/track2-drug-census/bubr1b-radiation-compatibility-qualification.md).
+
 | Primary clinical evidence | Finding | Consequence for this proposal |
 |---|---|---|
 | [ARST0921, first relapse/progression RMS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6823886/) | Temsirolimus or bevacizumab, each with vinorelbine/cyclophosphamide: reported six-month event-free survival 69.1% versus 54.6%; final EFS comparison P=.018. No significant overall-survival difference. | Favors the temsirolimus-containing regimen over that comparator. No chemotherapy-only arm and no everolimus arm; it does not establish everolimus benefit. |
