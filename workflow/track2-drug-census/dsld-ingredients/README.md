@@ -96,8 +96,11 @@ clinical status or MVA efficacy is established by this inventory. The
 ## Qualified source follow-ups
 
 Primary reviews now distinguish [CAPE](../cape-neurological-qualification.md),
-[Gemini-Cur](../gemini-cur-qualification.md) and [10-HDA](../10hda-qualification.md).
-These refine or add curated appraisals without new abstract-reading credit.
+[Gemini-Cur](../gemini-cur-qualification.md), [10-HDA](../10hda-qualification.md)
+and the source-specific [poplar propolis ethanol extract](../propolis-qualification.md).
+The extract adds one mixture-level appraisal with a BUB1B-down cell-line signal;
+it does not map to the generic PROPOLIS WAX catalog entry or CAPE. These reviews
+refine or add curated appraisals without new abstract-reading credit.
 The first six-row role review remains an immutable account of its earlier
 abstract-only scope; subsequent primary evidence is linked separately.
 
