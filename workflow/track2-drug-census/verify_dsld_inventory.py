@@ -11,8 +11,19 @@ def check(root=None):
     s=js('summary.json');counts=s['counts']
     for name,h in s['output_sha256'].items():assert Path(name).name==name and sha(p/name)==h,name
     inputs=s['input_sha256']
-    for name in ['build_dsld_inventory.py','broad_hub_screen.py','catalog.tsv','aliases.tsv','drugcentral-status-unverified.tsv','decisions.json']:
+    for name in ['build_dsld_inventory.py','broad_hub_screen.py','catalog.tsv','aliases.tsv','drugcentral-status-unverified.tsv']:
         hits=[h for k,h in inputs.items() if Path(k).name==name];assert len(hits)==1 and sha(root/name)==hits[0],name
+    # The NIH ingredient inventory is an immutable 23 September snapshot. Its
+    # appraisal cross-references are pinned to the first N decisions in that
+    # snapshot; later append-only decisions belong to the current census, not
+    # retroactively to this frozen output.
+    ledger=json.loads((root/'decisions.json').read_text())
+    frozen_count=counts['target_inventory']['appraisals']
+    assert len(ledger['decisions'])>=frozen_count
+    frozen={**ledger,'date':s['retrieval_date'],'decisions':ledger['decisions'][:frozen_count]}
+    frozen_bytes=(json.dumps(frozen,indent=2,ensure_ascii=False)+'\n').encode()
+    ledger_hashes=[h for k,h in inputs.items() if Path(k).name=='decisions.json'];assert len(ledger_hashes)==1
+    assert hashlib.sha256(frozen_bytes).hexdigest()==ledger_hashes[0]
     assert sha(root/'food-substances/substances.tsv')==next(h for k,h in inputs.items() if k.endswith('/food-substances/substances.tsv'))
     assert sha(p/'source-retrieval-manifest.json')==next(h for k,h in inputs.items() if Path(k).name=='retrieval-manifest.json')
     groups=rows('groups.tsv');cells=rows('alias-cells.tsv');mentions=rows('mentions.tsv');records=rows('source-records.tsv')
@@ -27,7 +38,7 @@ def check(root=None):
     assert all(json.loads(x['nutrient_info_as_reported'])==[] for x in groups)
     assert len({x['group_name_as_reported'] for x in groups})==6080
     assert counts['automatic_manual_abstract_reads']==counts['automatic_primary_reads']==counts['automatic_new_appraisals']==0
-    assert len(json.loads((root/'decisions.json').read_text())['decisions'])==counts['target_inventory']['appraisals']==282
+    assert frozen_count==282
     assert len(rows('name-crossrefs.tsv'))==counts['name_crossref_rows']==6869
     parent=js('parent-reconciliation.json');assert parent['current_summary_sha256']==sha(p/'summary.json') and parent['current_builder_sha256']==sha(root/'build_dsld_inventory.py')
     assert parent['historical_ledger_count']==168 and parent['current_ledger_count']==282 and parent['new_manual_reading_or_efficacy_credit']==0

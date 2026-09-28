@@ -71,6 +71,11 @@ The builder stages a complete immutable run, rechecks inputs and atomically
 switches the output's `current` symlink. Resolve it once and check the
 [summary hashes](summary.json). Outputs are copied here from the completed run.
 The command is a snapshot replay, not a live worldwide inventory update.
+This published replay is pinned to the **282-appraisal ledger snapshot from
+23 September 2026**. Later append-only appraisals are counted in the current
+drug census but do not retroactively change these ingredient cross-references.
+The verifier reconstructs that frozen ledger prefix and checks its recorded
+hash.
 
 The [builder checks](inventory-check.md) passed fifteen data-handling fixtures
 and a second identical replay. A different regex matcher agreed on 5,295

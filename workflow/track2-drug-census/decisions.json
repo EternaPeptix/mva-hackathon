@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-28",
   "status": "Source-bounded research triage. New leads found; publication/submission condition not met. No clinical efficacy estimates. Selected primary-source appraisals are separate from all-entity screening.",
   "matching": "Only exact normalized compound aliases; report collision or multi-match instead of choosing silently. Unmatched entries are unknown, not failed candidates.",
   "decisions": [
@@ -5229,6 +5229,25 @@
         "https://doi.org/10.3389/fphys.2023.1215644.s001"
       ],
       "identity_limit": "Only exact phenylcapsaicin and source-reported aXivite names are proposed as candidates. NIH DSLD group 3951 contains both names under its source-defined Capsaicin group; this does not equate phenylcapsaicin with ordinary capsaicin or CHEMBL294199. Preserve existing capsaicin analgesia separately. No chili, food, topical preparation, analog-class, retail-product efficacy or approved-medicine equivalence follows."
+    },
+    {
+      "decision_id": "new-propylparaben-oocyte-hazard",
+      "match_aliases": [
+        "propylparaben"
+      ],
+      "route": "Propylparaben / commonly encountered preservative; mouse-oocyte meiotic hazard comparator",
+      "disposition": "Retain as a source-limited adverse-exposure comparator, not a BUB1B-MVA treatment candidate. The high-concentration oocyte finding is not evidence about ordinary product-use risk or this child; do not infer therapeutic benefit or a candidate rank.",
+      "evidence_scope": "Complete primary PubMed/EPMC abstracts for the mouse-oocyte exposure study, human paired blood biomonitoring and human oral pharmacokinetics. The 2024 mouse-oocyte full article and supplement were not retrieved. This is a common-consumer-exposure appraisal, not a medication efficacy result.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys; no BUB1B-MVA model or somatic-cell rescue was tested.",
+      "rationale": "Pan et al. report that 600 micromolar propylparaben reduced mouse-oocyte germinal-vesicle breakdown. The abstract also attributes meiotic resumption arrest and first-polar-body extrusion failure, mitochondrial/oxidative injury, DNA damage, MPF disruption, spindle/chromosome misalignment, unstable microtubules, impaired kinetochore attachment and persistent BUB3/BubR1 checkpoint activation to exposure. The checkpoint signal is consistent with a response to attachment damage; it is not evidence of greater functional BUBR1 or rescue. In a separate biomonitoring study of 139 paired Chinese-adult serum/whole-blood samples, mean propylparaben was 2.1 ng/mL in serum (reported range below detection to 21) and 1.3 ng/mL in whole blood. PubChem molecular weight 180.20 g/mol gives 600 micromolar = 108.12 mg/L = 108,120 ng/mL, approximately 51,500 times the separate serum mean. This nominal culture-medium/total-serum comparison is only magnitude context, not an internal-dose equivalence, exposure margin or risk threshold. A separate human oral PK abstract (12 adult men, labelled compound at 0.6 and 2.5 mg/kg) reports rapid absorption and a 2.9-hour terminal half-life; those controlled doses are not typical consumer-use exposure. No ordinary consumer exposure, ovarian concentration, offspring endpoint, MVA phenotype, BUB1B variant response or muscle benefit is established.",
+      "source_report": "workflow/track2-drug-census/propylparaben-oocyte-qualification.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/39083874/",
+        "https://pubmed.ncbi.nlm.nih.gov/38185174/",
+        "https://pubmed.ncbi.nlm.nih.gov/31234001/",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/Propylparaben"
+      ],
+      "identity_limit": "Exact normalized alias propylparaben joins to status-unverified DrugCentral supplement entity DC2307. The source describes propylparaben as a preservative in pharmaceuticals, food and cosmetics. Do not transfer the source effect to methyl-, ethyl- or butylparaben, mixtures, retail formulations, or ordinary human exposure. No therapeutic indication or product equivalence is asserted."
     }
   ]
 }
