@@ -1,0 +1,116 @@
+{
+  "schema": "track2-existing-candidate-source-update-v1",
+  "candidate": "Apitegromab (existing candidate; no new drug identity)",
+  "date": "2026-09-28",
+  "status": "ROOT_SINGLE_READER_FULL_PRIMARY_AND_REGISTRY_SOURCE_UPDATE",
+  "ledger_admission": false,
+  "new_candidate": false,
+  "unique_trial_count_delta": 0,
+  "disposition": "Retain as the strongest pediatric human motor-function comparator in the selected shortlist, but distinguish the positive pooled-dose primary test from the nonsignificant single high-dose test and exploratory lower-dose/secondary estimates.",
+  "mva_bub1b_evidence": {
+    "BUB1B_or_BUBR1_measured": false,
+    "actual_variant_response_measured": false,
+    "chromosome_fidelity_measured": false,
+    "MVA_population_studied": false,
+    "MVA_efficacy_established": false,
+    "cancer_surveillance_outcome_measured": false
+  },
+  "primary_trial": {
+    "id": "NCT05156320 / EudraCT 2021-005314-34 / SRK-015-003",
+    "citation": "Crawford TO et al. Safety and efficacy of apitegromab in nonambulatory type 2 or type 3 spinal muscular atrophy (SAPPHIRE): a phase 3, double-blind, randomised, placebo-controlled trial. Lancet Neurol. 2025;24(9):727-739. PMID 40818473; DOI 10.1016/S1474-4422(25)00225-X.",
+    "design": "52-week, multicentre, randomised, double-blind, placebo-controlled phase 3 trial at 48 hospitals in nine countries; 216 screened, 188 randomised.",
+    "population": "Nonambulatory, genetically documented SMN-deficient SMA type 2/3; ages 2-21; baseline HFMSE 10-45; on nusinersen for at least 10 months or risdiplam for at least 6 months. Main efficacy population ages 2-12 (n=156); exploratory ages 13-21 (n=32).",
+    "main_population_arms": {
+      "placebo": 50,
+      "apitegromab_10_mg_kg": 53,
+      "apitegromab_20_mg_kg": 53
+    },
+    "exploratory_population_arms": {
+      "placebo": 10,
+      "apitegromab_20_mg_kg": 22
+    },
+    "primary_results": {
+      "combined_10_and_20_mg_kg_vs_placebo": {
+        "n": "106 versus 50",
+        "ls_mean_change": "+0.6 versus -1.2",
+        "difference": 1.8,
+        "ci95": [0.3, 3.32],
+        "p": 0.0192,
+        "status": "Prespecified primary comparison; passed Hochberg at p<=0.025."
+      },
+      "20_mg_kg_vs_placebo": {
+        "n": "53 versus 50",
+        "ls_mean_change": "+0.2 versus -1.2",
+        "difference": 1.4,
+        "ci95": [-0.34, 3.13],
+        "p": 0.1149,
+        "status": "Second prespecified primary comparison; did not pass. Gatekeeping stopped after Step 1."
+      },
+      "10_mg_kg_vs_placebo": {
+        "n": "53 versus 50",
+        "ls_mean_change": "+1.0 versus -1.2",
+        "difference": 2.2,
+        "ci95": [0.49, 3.95],
+        "p": 0.0121,
+        "status": "Step 5 of the prespecified hierarchy; exploratory because the 20 mg/kg primary test failed."
+      }
+    },
+    "secondary_outcomes": {
+      "20_mg_kg_vs_placebo": {
+        "RULM_difference": {"estimate": 0.7, "ci95": [-0.31, 1.71]},
+        "HFMSE_ge3_response_OR": {"estimate": 2.4, "ci95": [0.82, 7.07]},
+        "WHO_milestone_difference": {"estimate": 0.2, "ci95": [-0.10, 0.40]}
+      },
+      "10_mg_kg_vs_placebo": {
+        "RULM_difference": {"estimate": 0.6, "ci95": [-0.42, 1.61]},
+        "HFMSE_ge3_response_OR": {"estimate": 3.8, "ci95": [1.33, 10.90]},
+        "WHO_milestone_difference": {"estimate": 0.1, "ci95": [-0.15, 0.35]}
+      },
+      "interpretation": "All secondary tests are exploratory under the prespecified hierarchy; the EU registry supplies no inferential tests for them."
+    },
+    "analysis": "Protocol V3.0 dated 2024-06-11 and SAP V1.0 dated 2024-08-30 prespecified simultaneous Hochberg tests for pooled 10+20 mg/kg and 20 mg/kg alone, then a gated secondary sequence. Primary endpoint was MMRM in the mITT set; article reports missing-at-random handling. The main primary comparison passed and 20 mg/kg did not, so subsequent comparisons were exploratory.",
+    "safety": "Published article reports no treatment-related serious adverse events, no AE-related discontinuations and no deaths; SAE incidence was 21/128 (16%) for pooled apitegromab versus 6/60 (10%) placebo, mainly infection/respiratory and assessed unrelated. The current FDA label separately reports fractures: 5/53 at 10 mg/kg, 3/53 at 20 mg/kg and 1/50 placebo.",
+    "sponsor_role": "Scholar Rock funded the study and was responsible for design, SAP, drug procurement, trial management/conduct, and oversight of data collection and analysis; an independent data monitoring committee also reviewed safety.",
+    "competitive_interpretation": "No change to the provisional candidate pair. Apitegromab remains the strongest pediatric human motor-function comparator in the selected set, but its confirmatory result is pooled-dose in SMA; the labeled 10 mg/kg single-dose estimate is exploratory under the hierarchy. No BUB1B/MVA transfer is demonstrated."
+  },
+  "source_scope": {
+    "full_main_article": "All 13 pages of the published article were reviewed; pages were rendered and visually inspected, and OCR was used only as a reading aid.",
+    "protocol_and_sap": "Targeted endpoint, estimand, analysis-set, missing-data, and multiplicity sections read in full from the official 94-page Protocol Amendment V3.0 and 79-page SAP V1.0.",
+    "euctr": "Current results page sections for trial identity/design, disposition, baseline, endpoints, and adverse events reviewed; version 1 posted 2026-01-03.",
+    "not_obtained": ["Separate online journal appendix", "Individual participant data", "Full ClinicalTrials.gov history"],
+    "source_reading_independent": false
+  },
+  "source_files": [
+    {
+      "file": "crawford-2025-sapphire-fulltext.pdf",
+      "url": "https://orbi.uliege.be/bitstream/2268/339849/1/Safety%20and%20efficacy%20of%20apitegromab%20in%20nonambulatory%20type%202%20or%20type%203%20spinal%20muscular%20atrophy.pdf",
+      "sha256": "4f790ccb50beff356e176aa4ed69a0eb77a86266453443957feec626ad87047d",
+      "scope": "Full published 13-page article PDF from institutional repository."
+    },
+    {
+      "file": "sapphire-sap-2024-08-30.pdf",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT05156320/SAP_001.pdf",
+      "sha256": "32061acaec873ff85fe556574ea214ee57e60abc33d2255771cf1233b8d6ab39",
+      "scope": "Official ClinicalTrials.gov SAP V1.0, 30 August 2024."
+    },
+    {
+      "file": "sapphire-protocol-version-3-2024-06-11.pdf",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT05156320/Prot_000.pdf",
+      "sha256": "09fef3c582dcbbbb3da7ba60ab8e6c103e0d6d2a4ed6648b38eac8480c7c73b0",
+      "scope": "Official ClinicalTrials.gov Protocol Amendment V3.0, 11 June 2024."
+    },
+    {
+      "file": "euctr-2021-005314-34-results.html",
+      "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2021-005314-34/results",
+      "sha256": "c14713902724f42b97f019135502912412d3828a4b57fd26c6178c962bdadfbe",
+      "scope": "Official EU Clinical Trials Register results page, version 1."
+    },
+    {
+      "file": "clinicaltrials-nct05156320.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05156320",
+      "sha256": "7fb25ec87b0ea2050a7aa2a7389025617b6a326f35286e749b7e8c62f86c0331",
+      "scope": "Current US registry identity, status, enrollment, dates, and results/document-section fields."
+    }
+  ],
+  "external_source_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/apitegromab-sapphire-primary-followup-20260928/source-manifest.json"
+}
