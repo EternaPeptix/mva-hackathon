@@ -1,0 +1,920 @@
+{
+  "schema_version": 1,
+  "status": "INDEPENDENT_SOURCE_REVIEW_ACCEPTED",
+  "source_qualification": {
+    "schema_version": "phenylcapsaicin-function-primary-v1",
+    "status": "FROZEN_SOURCE_QUALIFICATION_PENDING_INDEPENDENT_REVIEW_NOT_ADMITTED",
+    "producer": "/root/quercetin_primary",
+    "prepared_utc": "2026-09-28T12:21:33.066711+00:00",
+    "source": {
+      "pmid": "37601635",
+      "pmcid": "PMC10433207",
+      "doi": "10.3389/fphys.2023.1215644",
+      "title": "Effects of different phenylcapsaicin doses on neuromuscular activity and mechanical performance in trained male subjects: a randomized, triple-blinded, crossover, placebo-controlled trial",
+      "published": "2023-08-02",
+      "main": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/raw/main.pdf",
+        "bytes": 1061160,
+        "sha256": "1c322f5abfe1cad83e55c329f98c8087abee1c4187d637d321b7c63baf0da9a4"
+      },
+      "supplement": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/raw/supplement.docx",
+        "bytes": 742145,
+        "sha256": "8751d9a34c29d462a0f3e3ed745edb31b887e449ee42810f0e04eea98a9c49d6"
+      },
+      "supplement_doi": "10.3389/fphys.2023.1215644.s001",
+      "supplement_figshare": {
+        "collection": 6770985,
+        "article": 23820165,
+        "file": 41798931
+      },
+      "unique_trial_count": 1
+    },
+    "identity": {
+      "source_start": {
+        "checked_utc": "2026-09-28T12:05:51.627133+00:00",
+        "head": "ccf7ff8ed64485bd7867c46a2d7c9f5e0426b57f",
+        "working_tree_status": " M reports/README.md\n M reports/appendices/common-compound-priorities.md\n M reports/appendices/track2-route-decisions.md\n M reports/jeweled_methods_form_answers.md\n M reports/jeweled_track2_report_submission.md\n M workflow/track2-drug-census/README.md\n M workflow/track2-drug-census/decision-alias-joins.tsv\n M workflow/track2-drug-census/decision-report.md\n M workflow/track2-drug-census/decisions.json\n M workflow/track2-drug-census/outcome-first-discovery.json\n M workflow/track2-drug-census/outcome-first-discovery.md\n M workflow/track2-drug-census/verify_dsld_inventory.py\n?? workflow/track2-drug-census/hmb-bedrest-qualification.json\n?? workflow/track2-drug-census/hmb-bedrest-qualification.md\n?? workflow/track2-drug-census/krill-oil-muscle-qualification.json\n?? workflow/track2-drug-census/krill-oil-muscle-qualification.md\n",
+        "decision_count": 280,
+        "decisions_path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
+        "decisions_bytes": 519788,
+        "decisions_sha256": "1fcc0f3e3552d7191d8a35b52f36843db2ee5c2eeb470691fd35f04ecf132c83",
+        "matches": [
+          {
+            "decision_id": "new-capsaicin",
+            "match_aliases": [
+              "capsaicin"
+            ],
+            "route": "Capsaicin / local sensory defunctionalization and analgesia",
+            "disposition": "Retain symptom-specific local analgesia reserve; no current MVA muscle or BUBR1-restoration nomination",
+            "rationale": "Local capsaicin pretreatment reduced spontaneous foot-lift duration and mechanical/heat hypersensitivity in a rat incision model, with local sensory denervation. The printed overall frequency P=.059 is not significant; heat responses exceed baseline for several days, so this is sensory suppression rather than demonstrated regeneration. Bub1b is an injury-versus-sham RNA decrease; no gene-specific drug response or BUBR1 protein/segregation assay is supplied. Figure 2 overlap labels conflict with the claimed global transcript reversal. A separate mouse primary is abstract-only; its fully read correction adds funding, not altered experimental results. Preserve measured analgesia without transferring it to dietary intake, muscle output or MVA rescue.",
+            "source_urls": [
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC7493244/",
+              "https://pubmed.ncbi.nlm.nih.gov/34452938/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC11044096/"
+            ],
+            "source_report": "workflow/track2-drug-census/capsaicin-qualification.md",
+            "evidence_scope": "Actual symptom or biomarker benefits retained; source assay, formulation and disease limits distinguished.",
+            "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys"
+          }
+        ],
+        "reading_limit": "Relevant current ledger identity only; earlier capsaicin evidence not newly qualified."
+      },
+      "at_freeze": {
+        "checked_utc": "2026-09-28T12:24:11.417439+00:00",
+        "head": "52de81f0299fd4573c56b49332eb9fb15327c43d",
+        "working_tree_status": "",
+        "decision_count": 280,
+        "decisions_path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
+        "decisions_sha256": "1fcc0f3e3552d7191d8a35b52f36843db2ee5c2eeb470691fd35f04ecf132c83",
+        "matches": [
+          {
+            "decision_id": "new-capsaicin",
+            "match_aliases": [
+              "capsaicin"
+            ],
+            "route": "Capsaicin / local sensory defunctionalization and analgesia",
+            "disposition": "Retain symptom-specific local analgesia reserve; no current MVA muscle or BUBR1-restoration nomination",
+            "rationale": "Local capsaicin pretreatment reduced spontaneous foot-lift duration and mechanical/heat hypersensitivity in a rat incision model, with local sensory denervation. The printed overall frequency P=.059 is not significant; heat responses exceed baseline for several days, so this is sensory suppression rather than demonstrated regeneration. Bub1b is an injury-versus-sham RNA decrease; no gene-specific drug response or BUBR1 protein/segregation assay is supplied. Figure 2 overlap labels conflict with the claimed global transcript reversal. A separate mouse primary is abstract-only; its fully read correction adds funding, not altered experimental results. Preserve measured analgesia without transferring it to dietary intake, muscle output or MVA rescue.",
+            "source_urls": [
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC7493244/",
+              "https://pubmed.ncbi.nlm.nih.gov/34452938/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC11044096/"
+            ],
+            "source_report": "workflow/track2-drug-census/capsaicin-qualification.md",
+            "evidence_scope": "Actual symptom or biomarker benefits retained; source assay, formulation and disease limits distinguished.",
+            "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys"
+          }
+        ],
+        "earlier_capture": "identity-at-start.json preserved as historical dirty source-start context",
+        "earlier_report_bindings": [
+          {
+            "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/capsaicin-qualification.md",
+            "bytes": 10801,
+            "sha256": "8ae0c6eecb79a9ff9b941a32f16fd32ae98a06e1dc7feb48ddbe3d46b0fe2268",
+            "reading_scope": "Existing identity/source-route context only, not new primary-paper appraisal."
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/capsaicin-qualification.json",
+            "bytes": 13024,
+            "sha256": "5f407b1b20671cc43f701828030cd5998f5c84a831c93bb1859825486972c183",
+            "reading_scope": "Existing identity/source-route context only, not new primary-paper appraisal."
+          }
+        ],
+        "interim_published_capture": "identity-pre-freeze-57febe3.json retained"
+      },
+      "existing_capsaicin_is_not_this_preparation": true,
+      "new_current_assessment": false,
+      "no_prior_capsaicin_efficacy_reused": true
+    },
+    "preparation": {
+      "molecule": "Phenylcapsaicin, synthetic capsaicin analog",
+      "brand_as_reported": "aXivite, Malmö, Sweden",
+      "dose_mg": {
+        "HD": 2.5,
+        "LD": 0.625
+      },
+      "placebo": "Maltodextrin, excipients and red dye; amounts unreported",
+      "packaging": "Non-involved researcher at Life Pro Nutrition industries, Madrid; identical appearance/color/taste claimed",
+      "administration": "One assigned condition per week, capsule orally with water under supervision 45 min before the first weekly exercise; no 24-hour redose described.",
+      "batch_purity_assay": "Not established. Introduction 98% composition is cited background, not a verified trial-batch assay.",
+      "PK_or_target_exposure_measured": false,
+      "capsaicin_food_topical_equivalence": false,
+      "retail_equivalence": "Not established",
+      "medicine_or_pediatric_approval": "Not established; cited EFSA opinion not independently qualified."
+    },
+    "participants": {
+      "enrolled": 25,
+      "withdrawals": 2,
+      "withdrawal_reasons": [
+        "injury",
+        "missed session"
+      ],
+      "23_is_only_arithmetic_not_verified_analysis_n": true,
+      "per_outcome_analyzed_n": "UNKNOWN",
+      "missing_data_handling": "Not supplied",
+      "healthy_trained_men": true,
+      "age_mean_SD": [
+        21.7,
+        3.7
+      ],
+      "bodymass_kg_mean_SD": [
+        77.4,
+        9.1
+      ],
+      "height_cm_mean_SD": [
+        176.7,
+        7.2
+      ],
+      "squat_1RM_kg_mean_SD": [
+        125.6,
+        21.0
+      ],
+      "training_years_range": [
+        2,
+        5
+      ],
+      "excluded_disease_groups": [
+        "cardiovascular",
+        "muscular",
+        "neurological",
+        "metabolic"
+      ]
+    },
+    "design": {
+      "randomized_triple_blind_crossover_placebo": true,
+      "randomizer": "Third-party Research Randomizer assignment two weeks before the study.",
+      "counterbalanced_claim": true,
+      "weekly_allocation_HD_LD_PLA": [
+        [
+          8,
+          8,
+          9
+        ],
+        [
+          7,
+          10,
+          8
+        ],
+        [
+          10,
+          7,
+          8
+        ]
+      ],
+      "periods": 3,
+      "period_schedule": "One condition weekly, first exercise session plus a 24-hour assessment.",
+      "washout": "Weekly spacing reported; no explicitly validated pharmacological washout, measured clearance, or previous-treatment carryover model.",
+      "blinding": "Codes 1–3; not unblinded until independent researcher completed analyses; success not assessed.",
+      "pretesting": "Initial anthropometry, 1RM, load–velocity and familiarization two weeks before; each period pre-exercise measurements followed the capsule/warm-up schedule.",
+      "diet_activity": "Maintain diet; avoid stimulants/ergogenic aids and strenuous training before testing; dietary adherence not directly recorded."
+    },
+    "exercise": {
+      "main_protocol": "3 sets × 8 repetitions at 70% 1RM, 2-min rest; load adjusted daily from warm-up and load–velocity relationship.",
+      "abstract_wording": "3% × 8 × 70% 1RM",
+      "outcomes_timing": [
+        "preexercise",
+        "immediatepost",
+        "24hpost"
+      ],
+      "post_test_minutes": {
+        "CMJ": 1,
+        "60percent_squat": 2,
+        "isometric": 3
+      },
+      "maximum_1RM_treatment_effect_demonstrated": false,
+      "instruments": [
+        "OptoJump infraredCMJ",
+        "T-Force linearvelocitytransducer",
+        "forceplatform isometricforce/RFD",
+        "bipolarEMG VM/VL averaged"
+      ]
+    },
+    "analysis": {
+      "explicit_primary_secondary_hierarchy": "Not supplied",
+      "power_basis": "Prior squat total volume; alpha .05, power .80, effect size .60, minimum 21 participants.",
+      "model": "Repeated-measures condition × time ANOVA with Bonferroni pairwise tests; one-way ANOVA for total volume/individual repetitions; Greenhouse–Geisser where Mauchly test significant.",
+      "threshold": 0.05,
+      "global_across_outcomes_and_repetition_multiplicity": "Not established",
+      "treatment_effect_CIs": null,
+      "reliability_ICC_CIs_not_efficacy": true,
+      "order_analysis": "Supplement Tables S1–S3 group by week; invalid P values and P=.05 prevent a blanket no-order-effect claim; not proof of no carryover."
+    },
+    "outcomes": {
+      "CMJ": {
+        "unit": "cm",
+        "PLA_pre_post_24_mean_SD": [
+          [
+            39.94,
+            9.63
+          ],
+          [
+            32.92,
+            8.24
+          ],
+          [
+            39.07,
+            9.12
+          ]
+        ],
+        "LD_pre_post_24_mean_SD": [
+          [
+            40.15,
+            9.61
+          ],
+          [
+            33.13,
+            8.29
+          ],
+          [
+            40.02,
+            9.68
+          ]
+        ],
+        "HD_pre_post_24_mean_SD": [
+          [
+            40.18,
+            9.88
+          ],
+          [
+            34.73,
+            9.08
+          ],
+          [
+            39.71,
+            9.71
+          ]
+        ],
+        "condition_p": "<.001",
+        "time_p": 0.07,
+        "interaction_table_p": 0.01,
+        "interaction_prose_p": "<.01",
+        "reported_pairwise": [
+          {
+            "contrast": "HD>PLA",
+            "p": "<.001",
+            "Cohens_d": 0.72
+          },
+          {
+            "contrast": "HD>LD",
+            "p": "<.001",
+            "Cohens_d": 0.37
+          }
+        ],
+        "pairwise_time_scope": "Not explicitly assigned to a specific post-exercise time in Results; no verified 24-hour advantage.",
+        "treatment_CI": null
+      },
+      "60percent_load_MPV": {
+        "unit": "m/s",
+        "PLA_pre_post_24_mean_SD": [
+          [
+            0.91,
+            0.07
+          ],
+          [
+            0.77,
+            0.09
+          ],
+          [
+            0.89,
+            0.07
+          ]
+        ],
+        "LD_pre_post_24_mean_SD": [
+          [
+            0.93,
+            0.06
+          ],
+          [
+            0.8,
+            0.08
+          ],
+          [
+            0.93,
+            0.09
+          ]
+        ],
+        "HD_pre_post_24_mean_SD": [
+          [
+            0.93,
+            0.06
+          ],
+          [
+            0.81,
+            0.12
+          ],
+          [
+            0.91,
+            0.08
+          ]
+        ],
+        "condition_p": 0.03,
+        "interaction_p": 0.74
+      },
+      "MPVmean": {
+        "condition_p": 0.02,
+        "interaction_p": 0.77,
+        "PLA_sets_mean_SD": [
+          [
+            0.65,
+            0.04
+          ],
+          [
+            0.6,
+            0.05
+          ],
+          [
+            0.57,
+            0.06
+          ]
+        ],
+        "LD_sets_mean_SD": [
+          [
+            0.66,
+            0.07
+          ],
+          [
+            0.6,
+            0.07
+          ],
+          [
+            0.58,
+            0.08
+          ]
+        ],
+        "HD_sets_mean_SD": [
+          [
+            0.68,
+            0.07
+          ],
+          [
+            0.64,
+            0.08
+          ],
+          [
+            0.61,
+            0.08
+          ]
+        ]
+      },
+      "VLoss": {
+        "unit": "percent",
+        "condition_p": 0.04,
+        "interaction_p": 0.98,
+        "PLA_sets_mean_SD": [
+          [
+            29.4,
+            8.5
+          ],
+          [
+            29.9,
+            11.8
+          ],
+          [
+            34.2,
+            11.9
+          ]
+        ],
+        "LD_sets_mean_SD": [
+          [
+            29.7,
+            10.9
+          ],
+          [
+            30.9,
+            10.2
+          ],
+          [
+            34.4,
+            12.2
+          ]
+        ],
+        "HD_sets_mean_SD": [
+          [
+            26.6,
+            9.4
+          ],
+          [
+            26.6,
+            11.7
+          ],
+          [
+            29.8,
+            10.9
+          ]
+        ]
+      },
+      "MPVbest": {
+        "condition_p": 0.14,
+        "interaction_p": 0.9
+      },
+      "velocity_pairwise_limit": "Combined Results velocity paragraph reports Bonferroni condition comparisons P=.06–.07; no complete outcome-by-pair listing; omnibus positives are not substituted for pairwise benefit.",
+      "individual_repetitions_body": [
+        {
+          "repetition": 23,
+          "contrast": "HD>PLA",
+          "p": 0.01,
+          "d": 0.65
+        },
+        {
+          "repetition": 15,
+          "contrast": "HD>LD",
+          "p": 0.008,
+          "d": 0.5
+        },
+        {
+          "repetition": 16,
+          "contrast": "HD>LD",
+          "p": 0.004,
+          "d": 0.46
+        }
+      ],
+      "individual_repetitions_abstract": "Comparator assignment reversed: HD>LD P=.01; HD>PLA P=.004–.008.",
+      "individual_repetition_omnibus_positive_reps": [
+        13,
+        15,
+        16,
+        17,
+        23,
+        24
+      ],
+      "totalvolume": {
+        "unit": "kg",
+        "PLA_mean_SD": [
+          2089.1,
+          357.6
+        ],
+        "LD_mean_SD": [
+          2014.6,
+          380.9
+        ],
+        "HD_mean_SD": [
+          2101.7,
+          352.9
+        ],
+        "condition_p": 0.35
+      },
+      "isometric": {
+        "outcomes": [
+          "MIF",
+          "RFDmax",
+          "RFD0–50",
+          "RFD0–100",
+          "RFD0–150",
+          "RFD0–200",
+          "RFD0–400"
+        ],
+        "condition_p": [
+          0.57,
+          0.97,
+          0.29,
+          0.19,
+          0.58,
+          0.76,
+          0.62
+        ],
+        "interaction_p": [
+          0.81,
+          0.22,
+          0.19,
+          0.1,
+          0.09,
+          0.16,
+          0.89
+        ],
+        "interpretation": "Tests were performed; controlled results were nonpositive. MIF percent/scale and RFD time-label issues remain unresolved."
+      },
+      "EMG": {
+        "outcomes": [
+          "isometricRMS",
+          "60percentRMS",
+          "isometricMDF",
+          "60percentMDF",
+          "protocolRMS",
+          "protocolMDF"
+        ],
+        "condition_p": [
+          0.33,
+          0.35,
+          0.32,
+          0.88,
+          0.36,
+          0.54
+        ],
+        "interaction_p": [
+          0.69,
+          0.34,
+          0.62,
+          0.26,
+          0.52,
+          0.29
+        ],
+        "interpretation": "No significant condition or interaction effects; time effects are not treatment effects. No established neural mediation."
+      },
+      "unmeasured": [
+        "perceivedpain",
+        "perceivedexertion",
+        "TRPV1engagement",
+        "calciumflux",
+        "acetylcholineturnover",
+        "BUBR1",
+        "chromosomefidelity",
+        "productive renewal"
+      ],
+      "force_2point5_percent_discussion": "Cited association from another relationship, not a measured trial treatment effect on force."
+    },
+    "source_discrepancies": [
+      {
+        "id": "abstract_protocol",
+        "locator": "Abstract versus Methods and nativeFig1",
+        "printed": "Abstract3%×8×70%1RM; Methods three sets of eight reps at70%1RM",
+        "handling": "Use explicit Methods protocol; preserve abstract discrepancy."
+      },
+      {
+        "id": "withdrawals",
+        "locator": "Subjects/Supplementation procedures",
+        "printed": "25 enrolled,2 withdrew; weekly allocation counts each sum25",
+        "handling": "No verified final per-outcome n or imputation;23 only arithmetic, not analysis count."
+      },
+      {
+        "id": "intraset_comparators",
+        "locator": "Abstract versus Results p7",
+        "printed": "Abstract HD>LD P.01 and HD>PLA P.004–.008; Results HD>PLA rep23P.01,d.65 and HD>LD rep15P.008,d.50/rep16P.004,d.46",
+        "handling": "Retain body attribution and abstract conflict; no repaired pairwise mapping."
+      },
+      {
+        "id": "CMJ_interaction",
+        "locator": "Abstract/Results/Table3",
+        "printed": "Table3 interactionP.01, mainproseP<.01, abstract mixes condition×time wording with pairwiseP≤.001",
+        "handling": "Do not replace interactionP with posthocP."
+      },
+      {
+        "id": "invalid_supplement_P",
+        "locator": "S2 RFDmax interaction; S2RFD0–150 condition; S3CMJ time",
+        "printed": [
+          "1.83",
+          "2.89",
+          "1.57"
+        ],
+        "handling": "Invalid probabilities, not nulls; no decimal repair."
+      },
+      {
+        "id": "order_threshold",
+        "locator": "S1 SQprotocolMDF",
+        "printed": "Week/conditionP.05, no star although threshold≤.05",
+        "handling": "Cannot claim every order test is nonsignificant or no carryover."
+      },
+      {
+        "id": "isometric_labels_scale",
+        "locator": "Table2/S2",
+        "printed": "RFD0–100 and later intervals labelledSet1/2/3; MIF labelledpercent with.88–.95 numericvalues",
+        "handling": "Preserve labels/scale; do not silently convert or relabel."
+      },
+      {
+        "id": "supplement_descriptives",
+        "locator": "Table3 versusS3",
+        "printed": "Main CMJ pre≈40cm eachcondition versusweek-specific37.82/36.71/35.19; post trajectories also differ",
+        "handling": "No per-outcome matchingdenominators/IPD to reconcile; no pooled estimate or repaireddata."
+      },
+      {
+        "id": "numeric_strings_ranges",
+        "locator": "Main/supplementtables",
+        "printed": "Multiple inconsistent numeric separators and prose P ranges",
+        "handling": "Verbatimcell extraction preserves source; no silent fixes."
+      }
+    ],
+    "registry": {
+      "own_identifier_in_main_supplement": null,
+      "ethics_code": "0513-N-22",
+      "ethics_not_registration": true,
+      "bounded_lookup": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/raw/registry-search-phenylcapsaicin.json",
+        "bytes": 30007,
+        "sha256": "54ace6d6beb3ddcbf85126fd1d1db1a5d278be3a4a50a929d95e4e897b307f11"
+      },
+      "query": "phenylcapsaicin",
+      "returned_later_different_trials": [
+        "NCT06784271",
+        "NCT07504068"
+      ],
+      "modules_read": "Identification, dates, design, arms and references for identity only.",
+      "scope": "No own registry identified; not an exhaustive absence claim. Candidate-trial efficacy not qualified.",
+      "full_protocol_SAP": "Not recovered"
+    },
+    "safety": {
+      "reported_statement": "The adverse effects were not reported for any of the supplementation conditions.",
+      "systematic_ascertainment": "Not described",
+      "counts_grade_safety_denominators": "Not supplied",
+      "injury_withdrawal_attribution": "Unknown",
+      "pediatric_or_longterm_safety_claim": false
+    },
+    "funding_conflicts": {
+      "support": "aXichem provided scientific materials.",
+      "stated_role_limit": "Not involved in design, data collection or data entry; no restrictions on analysis, writing or publication.",
+      "disclosures": "PJ-M and CA-F are scientific advisors to Life Pro Nutrition; others declare no commercial/financial conflict."
+    },
+    "equal_competition": {
+      "function": "Retain acute CMJ/selected-repetition positives alongside isometric, EMG, volume and pairwise-velocity nonpositive findings; no selective BUBR1 requirement for compensation.",
+      "exposure": "Study oral nominal dose and supervision; pharmacokinetics, batch assay and target engagement unknown.",
+      "durability": "Only acute and 24-hour observations; no chronic adaptation or prolonged recovery established.",
+      "renewal": "Not measured.",
+      "fidelity_restoration": "Not measured.",
+      "MVA_child": "Not established.",
+      "nominee_or_cross_trial_superiority": "Not established."
+    },
+    "disposition": "Bounded preparation-specific human-performance comparator pending independent review; no admission or nominee change.",
+    "source_access": "source-access.json",
+    "reading_manifest": "reading-manifest.json",
+    "retrieval_log": "retrieval-log.json",
+    "no_tests_replays_joins_repository_edits": true,
+    "future_independent_review_excluded": true
+  },
+  "producer_reading_manifest": {
+    "producer": "/root/quercetin_primary",
+    "completed_utc": "2026-09-28T12:23:20.975196+00:00",
+    "main": {
+      "source": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/raw/main.pdf",
+        "bytes": 1061160,
+        "sha256": "1c322f5abfe1cad83e55c329f98c8087abee1c4187d637d321b7c63baf0da9a4"
+      },
+      "scope": "Complete scientific main pp1–10, all tables and figure captions read in layout extraction; bibliography inspected, cited original papers not read. No new primary-reading credit from duplicate formats.",
+      "native_pages_inspected": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "native_scope": "Figure1 timeline; all Table1/2/3 cells, headers, units and footnotes; Figure2 axes/legend/markers/caption without digitization; discussion, limitations, funding, safety and disclosures.",
+      "other_native_pages": "1,2,3,5,11 rendered but not separately visually inspected; their scientific text read in layout extraction."
+    },
+    "XML": "Attachment identifiers and complete Table1–3 cell extraction cross-checked; not claimed as an additional original source or full independent end-to-end XML reading.",
+    "supplement": {
+      "source": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/raw/supplement.docx",
+        "bytes": 742145,
+        "sha256": "8751d9a34c29d462a0f3e3ed745edb31b887e449ee42810f0e04eea98a9c49d6"
+      },
+      "scope": "All paragraphs and all three tables including every cell/footnote read in original DOCX XML. All 7 locally rendered pages inspected; table-containing pages2,4,6 with footnotes and source layout retained.",
+      "render": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/derived/supplement.pdf",
+        "bytes": 318135,
+        "sha256": "4108bebc246aab7fb236e55f8577afa19555cc9f6abdbaefa3c5aab4ef52c9f4"
+      },
+      "render_limit": "Local LibreOffice conversion, not publisher-native PDF. Very wide TableS3/render page6 reaches/clips the right page edge; complete XML cells preserve all text. No source table edited or repaired."
+    },
+    "registry": "Bounded ClinicalTrials.gov phenylcapsaicin search; selected identity/date/design/arms/references modules of two later candidates read only to exclude as own trial. No own current/historical registry, protocol or SAP recovered.",
+    "prior_identity": "Fresh relevant ledger at initial dirty ccf7ff8/280, interim published clean57febe3/280 and final published clean52de81f0299fd4573c56b49332eb9fb15327c43d/280; capsaicin source-route identity retained without rereading its primary studies.",
+    "supplement_discovery": "Publisher supplementary link/PMC media href, Figshare collection/article/file DOI identity and file record inspected.",
+    "downloaded_but_not_read_end_to_end": [
+      "Complete publisher HTML",
+      "EuropePMC core metadata JSON",
+      "Complete scientific duplicate text file",
+      "Other modules of registry candidate records",
+      "Complete reference metadata in Figshare record beyond identity/file association"
+    ],
+    "not_read": [
+      "Participant data",
+      "Separate protocol/SAP",
+      "Own registry history",
+      "Cited safety/bioavailability papers including EFSA opinion",
+      "Other capsaicin/phenylcapsaicin trial mains from search hits"
+    ],
+    "no_statistical_reconstruction_or_plot_digitization": true,
+    "independent_review_excluded": true
+  },
+  "independent_review": {
+    "status": "ACCEPT",
+    "reviewer": "/root/maxepa_primary",
+    "completed_utc": "2026-09-28T12:27:41.865783+00:00",
+    "producer_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/final-bindings.json",
+      "bytes": 16914,
+      "sha256": "328ac4fe55974e0cae76b5351f13a1abc5f481c55bd3c421efc74b7f86f4cc0a"
+    },
+    "producer_qualification_md": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/qualification.md",
+      "bytes": 14585,
+      "sha256": "b38bbbd5f3d343d9023ebcb75f4be58984898a8b2707bbfb66239881ea2413be"
+    },
+    "producer_qualification_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/qualification.json",
+      "bytes": 22785,
+      "sha256": "c8c9e8300f2fe46f51eb303bb9a88130c6782df1bd02c508012e3f9636b2352e"
+    },
+    "source_first_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/independent-review/source-first-final-bindings.json",
+      "bytes": 2484,
+      "sha256": "38bd4529730b6252df931b17e395f2ac6bc0c4baedb137d61f9c14522ab076d0"
+    },
+    "source_first_timing_addendum": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/independent-review/source-first-addendum.json",
+      "bytes": 868,
+      "sha256": "2e3dbb5d8f2f1dc8b8a8c936c27cf442d6373fb2865bf8e8678ce3adf1d515ad"
+    },
+    "independence": {
+      "source_first_reading_before_producer_qualification": true,
+      "independent_with_task_context": true,
+      "blind_review": false,
+      "discussion_before_producer_freeze": true,
+      "description": "Source-first concerns and timing clarification were sent to producer before its final freeze. Final comparison therefore is not blind independent convergence; original source-first findings remain unchanged."
+    },
+    "actual_reviewer_scope": {
+      "main": "All11originalpublisherPDFpages in text and native images, including Tables1-3,Figures1-2,full scientific text,disclosures and bibliography. Cited studies were not separately read.",
+      "supplement": "OriginalDOCX text and all7local renderedpages, including everyS1-S3row/footnote and blankpages. Local conversion not called publisher-nativePDF; originalXML supplies complete wide-table text.",
+      "PMC_XML": "Identity,supplement links and full-squat protocol/results cross-check, not a second trial or end-to-end independentXML read.",
+      "registry_candidates": "After source-first freeze: identification,status/date,design,arms modules ofNCT06784271/NCT07504068 to verify they are later/different; other modules not read and no efficacy appraisal.",
+      "producer_documents": "QualificationMD/JSON,readingmanifest and finalbindings read fully; rawFigshareidentity/file metadata checked. Bound files not all claimed independentlyread end-to-end.",
+      "not_obtained_or_read": [
+        "Participant-level data",
+        "Own prospectively registered protocol/SAP",
+        "Own registry history",
+        "Cited EFSA/bioavailability papers",
+        "Other capsaicin orphenylcapsaicin primarytrials"
+      ]
+    },
+    "comparisons": [
+      {
+        "topic": "Preparation and comparator",
+        "status": "PASS",
+        "finding": "aXivite phenylcapsaicin 2.5/0.625mg, supervised oral capsule, maltodextrin/excipient/red-dye control and packing source are exact. Generic capsaicin, retail equivalence and cited98% purity are not inherited as verified batch evidence."
+      },
+      {
+        "topic": "Design, timing and missingness",
+        "status": "PASS",
+        "finding": "Three weekly crossover conditions plus24h measurements, post-ingestion pre-exercise baseline,25enrolled/two withdrawals and unverified endpoint analysis n are preserved. No unverified pharmacological washout, all25-completer or23-analysis claim."
+      },
+      {
+        "topic": "Models and multiplicity",
+        "status": "PASS",
+        "finding": "Repeated-measures and correction descriptions match. Omnibus condition tests and Bonferroni pairwise tests remain distinct; global correction and exact prespecified hierarchy remain unverified."
+      },
+      {
+        "topic": "Positive function",
+        "status": "PASS",
+        "finding": "CMJ and selected repetition positives are retained. CMJ pairwise time scope is not assigned to24h; native interactionP=.01 is distinct from posthocP<.001. Repetition23HD/PLA and15/16HD/LD follow body with abstract conflict retained."
+      },
+      {
+        "topic": "Measured nulls",
+        "status": "PASS",
+        "finding": "MIF/RFD, EMG, total volume, best velocity and nonsignificant corrected velocity condition comparisons remain visible. Time effects are not treatment effects; measured nulls are not called absent tests."
+      },
+      {
+        "topic": "Supplement/order analysis",
+        "status": "PASS",
+        "finding": "InvalidP=1.83/2.89/1.57, S1weekP=.05, MIFscale, RFDtime labels and discrepant week-versus-condition descriptives remain unresolved. No decimal repair or assurance of absent carryover."
+      },
+      {
+        "topic": "Safety/disclosures",
+        "status": "PASS",
+        "finding": "No reported adverse effects is bounded by missing ascertainment/denominators, injury attribution unknown and short exposure. aXichem material support and Life Pro adviser/packing links retained."
+      },
+      {
+        "topic": "Exposure, durability, renewal and fidelity",
+        "status": "PASS",
+        "finding": "No direct PK/target assay; acute/24h evidence only. No chronic adaptation, MVA rescue, BUBR1 restoration or nominee superiority inferred; compensation evidence not unfairly required to restoreBUBR1."
+      },
+      {
+        "topic": "Reading scope and registry",
+        "status": "PASS",
+        "finding": "Producer distinguishes layout-text reading, native inspected pages, local office supplement conversion and complete XML cells. Two later registry candidates are excluded, not treated as this trial or newly qualified efficacy. No global absence-of-registration claim."
+      },
+      {
+        "topic": "Source binding and ownership",
+        "status": "PASS",
+        "finding": "47-file whitelist matches actual sizes/hashes and excludes this review. Sources match source-first frozen inputs. Producer and root files unchanged by reviewer."
+      }
+    ],
+    "required_corrections": [],
+    "scientific_limits_retained": [
+      "ACCEPT means faithful bounded qualification, not validation of authors statistical calculations.",
+      "Published main and supplement contain unresolved reporting defects.",
+      "No source-derived confidence interval, baseline-adjusted estimate or missing denominator reconstructed.",
+      "No generic capsaicin identity transfer, ledger admission or nomination decision."
+    ],
+    "integrity": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/independent-review/binding-verification.json",
+      "bytes": 8044,
+      "sha256": "9ab5ede234465fae78e9aa6a158a983ef03a186b78480240b1f534f1a931597b"
+    },
+    "no_tests_replays_joins_or_repo_edits": true
+  },
+  "accepted_source_bindings": {
+    "producer_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/final-bindings.json",
+      "bytes": 16914,
+      "sha256": "328ac4fe55974e0cae76b5351f13a1abc5f481c55bd3c421efc74b7f86f4cc0a"
+    },
+    "producer_qualification": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/qualification.json",
+      "bytes": 22785,
+      "sha256": "c8c9e8300f2fe46f51eb303bb9a88130c6782df1bd02c508012e3f9636b2352e"
+    },
+    "producer_markdown": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/qualification.md",
+      "bytes": 14585,
+      "sha256": "b38bbbd5f3d343d9023ebcb75f4be58984898a8b2707bbfb66239881ea2413be"
+    },
+    "review_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/independent-review/final-bindings.json",
+      "bytes": 4131,
+      "sha256": "b4b99f9c2f17b5c682f0a2a7175e3db873107af50846877b2ae60e4eccd5874e"
+    },
+    "review_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/phenylcapsaicin-function-primary-20260928/independent-review/review.json",
+      "bytes": 7097,
+      "sha256": "77ab3bb763502f6b164d1a37619ab5da21e1ef0f69daf02f2aba779e45f0f3ac"
+    }
+  },
+  "proposal_baseline": {
+    "head": "52de81f0299fd4573c56b49332eb9fb15327c43d",
+    "assessment_count": 280,
+    "clean": true
+  },
+  "reading_roles": {
+    "source_producer": "/root/quercetin_primary",
+    "independent_source_reviewer": "/root/maxepa_primary",
+    "proposal_preparer": "/root/maxepa_primary",
+    "proposal_adds_new_source_reading": false,
+    "reviewer_and_proposal_preparer_are_same_agent": true,
+    "blind_review": false,
+    "scope": "Exact original producer object and separately stated reading roles retained. No third independent review is credited."
+  },
+  "markdown_transformations": [
+    {
+      "old": "**Disposition: retain a bounded, preparation-specific human performance comparator for independent review.**",
+      "new": "**Disposition: retain a bounded, preparation-specific human performance comparator; independent source review accepted.**",
+      "count": 1,
+      "reason": "Completed independent-review status only."
+    },
+    {
+      "operation": "append",
+      "text": "\n## Accepted source review and integration proposal provenance\n\nIndependent review accepted this source-bounded qualification. The original producer object is preserved exactly inside the structured companion; its historical pending-review status is retained there. The Markdown has only the documented disposition-status replacement and this appended provenance section. Scientific findings and limitations are unchanged.\n\nThe source producer was `/root/quercetin_primary`; the independent source reviewer was `/root/maxepa_primary`. The latter also prepared this external proposal, reusing the same reading rather than supplying a third independent scientific review. Source-first findings were frozen before the reviewer opened producer conclusions; substantive concerns and timing clarification were discussed before the producer freeze. The review is independent with task context, not blinded. Producer and reviewer reading scopes remain separately recorded.\n\nThe proposed entry is an acute healthy-adult performance comparator. Exact phenylcapsaicin and aXivite name candidates are supported by the original Methods. Current saved catalog/FDA/SGC records have no matching name; NIH DSLD source group3951 has both names as synonyms under Capsaicin. Name relations do not establish chemical equivalence to ordinary capsaicin or a tested retail product. No main report, pitch, research-priority matrix, nominee or current count is changed by this external proposal. Root owns any later combined integration, identity joins and count reconciliation. HMB transplant is a separate accepted source and is excluded from this proposal.\n\nProducer freeze: `328ac4fe55974e0cae76b5351f13a1abc5f481c55bd3c421efc74b7f86f4cc0a`. Independent-review freeze: `b4b99f9c2f17b5c682f0a2a7175e3db873107af50846877b2ae60e4eccd5874e`. Proposal baseline: clean `52de81f0299fd4573c56b49332eb9fb15327c43d`,280 assessments. Raw assets remain external; this portable export adds no primary-reading, biological-replication or efficacy credit.\n",
+      "reason": "Portable provenance and proposal scope; no scientific rewriting."
+    }
+  ],
+  "proposed_decision": {
+    "decision_id": "new-phenylcapsaicin-muscle",
+    "match_aliases": [
+      "phenylcapsaicin",
+      "aXivite"
+    ],
+    "route": "Phenylcapsaicin (aXivite study preparation) / acute healthy-adult mechanical-performance comparator",
+    "disposition": "Retain bounded acute jump and selected-repetition performance findings with measured nulls and reporting limitations; no MVA-efficacy or nominee promotion",
+    "evidence_scope": "Complete original scientific main and original supplement. The producer read main text and native pages 4 and 6–10 covering all outcome tables and figures; the independent source reviewer read all 11 native main pages and the complete supplement text and seven locally rendered pages. Source-first concerns were discussed before producer freeze, not blind convergence. No own registered protocol/SAP or participant data was recovered; later registry candidates are different studies. This proposal reuses those readings and adds no independent source-reading credit.",
+    "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+    "rationale": "A randomized, triple-blinded crossover study gave healthy trained young men 2.5 mg or 0.625 mg phenylcapsaicin (aXivite), or maltodextrin/excipient placebo, before a squat session. Twenty-five enrolled and two withdrew; outcome-specific analysis counts remain unclear. The main reports a CMJ condition-by-time interaction (Table 3 P=.01), with corrected high-dose comparisons above placebo and low dose (both P<.001), but their time-specific scope is not explicit. Selected repetition-velocity comparisons are positive; the abstract reverses the comparator assignments printed in Results. Omnibus condition tests for 60%-load velocity, mean within-set velocity and velocity loss were significant, but reported Bonferroni condition comparisons were not (P=.06–.07). Isometric force/RFD, EMG, total volume and best-velocity findings were nonpositive. These are measured functional outcomes without demonstrated maximum-1RM or 24-hour recovery benefit. Weekly scheduling does not prove absence of carryover. Supplemental tables contain invalid P values of 1.83, 2.89 and 1.57, a week P=.05, inconsistent labels and discrepant descriptives; these remain unrepaired. No adverse effects were reported, without systematic safety counts or injury-withdrawal attribution. Industry material support and adviser roles are disclosed. Exposure is nominal supervised study dosing; batch assay, PK and retail equivalence are unverified. Acute and 24-hour observations establish no chronic adaptation, productive renewal, chromosome fidelity, BUBR1 restoration or pediatric/MVA efficacy. This is a preparation-specific performance comparator, not evidence of superiority to niacin or apitegromab.",
+    "source_report": "workflow/track2-drug-census/phenylcapsaicin-function-qualification.md",
+    "source_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/37601635/",
+      "https://doi.org/10.3389/fphys.2023.1215644",
+      "https://doi.org/10.3389/fphys.2023.1215644.s001"
+    ],
+    "identity_limit": "Only exact phenylcapsaicin and source-reported aXivite names are proposed as candidates. NIH DSLD group 3951 contains both names under its source-defined Capsaicin group; this does not equate phenylcapsaicin with ordinary capsaicin or CHEMBL294199. Preserve existing capsaicin analgesia separately. No chili, food, topical preparation, analog-class, retail-product efficacy or approved-medicine equivalence follows."
+  },
+  "exact_name_relations_summary": {
+    "new_main_catalog_name_candidates": 0,
+    "new_status_unverified_name_candidates": 0,
+    "new_FDA2026_product_name_candidates": 0,
+    "new_FDA_food_name_candidates": 0,
+    "new_SGC_probe_or_control_name_candidates": 0,
+    "new_NIH_appraisal_name_crossref_rows": 2,
+    "new_NIH_appraisal_linked_group_IDs": 0,
+    "affected_existing_NIH_group_IDs": [
+      "3951"
+    ],
+    "group_appraisal_candidate_ids_after": [
+      "new-capsaicin",
+      "new-phenylcapsaicin-muscle"
+    ],
+    "ordinary_capsaicin_CHEMBL294199_relation_to_new_decision": "Excluded; existing group crossrefs stay separate. Source-defined NIH grouping is not chemical equivalence.",
+    "global_replay_counts": "Not recomputed; root owns later joins and any count changes."
+  },
+  "scientific_summary": "A randomized, triple-blinded crossover study gave healthy trained young men 2.5 mg or 0.625 mg phenylcapsaicin (aXivite), or maltodextrin/excipient placebo, before a squat session. Twenty-five enrolled and two withdrew; outcome-specific analysis counts remain unclear. The main reports a CMJ condition-by-time interaction (Table 3 P=.01), with corrected high-dose comparisons above placebo and low dose (both P<.001), but their time-specific scope is not explicit. Selected repetition-velocity comparisons are positive; the abstract reverses the comparator assignments printed in Results. Omnibus condition tests for 60%-load velocity, mean within-set velocity and velocity loss were significant, but reported Bonferroni condition comparisons were not (P=.06–.07). Isometric force/RFD, EMG, total volume and best-velocity findings were nonpositive. These are measured functional outcomes without demonstrated maximum-1RM or 24-hour recovery benefit. Weekly scheduling does not prove absence of carryover. Supplemental tables contain invalid P values of 1.83, 2.89 and 1.57, a week P=.05, inconsistent labels and discrepant descriptives; these remain unrepaired. No adverse effects were reported, without systematic safety counts or injury-withdrawal attribution. Industry material support and adviser roles are disclosed. Exposure is nominal supervised study dosing; batch assay, PK and retail equivalence are unverified. Acute and 24-hour observations establish no chronic adaptation, productive renewal, chromosome fidelity, BUBR1 restoration or pediatric/MVA efficacy. This is a preparation-specific performance comparator, not evidence of superiority to niacin or apitegromab.",
+  "no_ledger_admission_by_this_export": true,
+  "no_primary_or_replication_credit_from_export": true,
+  "raw_assets_outside_Git": true,
+  "integration_state": "EXTERNAL_PROPOSAL_NOT_APPLIED"
+}

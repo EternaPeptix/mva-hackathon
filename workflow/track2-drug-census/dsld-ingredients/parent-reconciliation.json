@@ -1,27 +1,32 @@
 {
   "date": "2026-09-28",
   "reviewer": "/root",
-  "scope": "The existing calcium-HMB decision receives a source refinement and one exact SuperbaBoost krill-oil decision with no aliases is added. All eight NIH outputs, source rows and old name relations remain byte-identical. Only the appraisal denominator and current input provenance change. No chemical-equivalence, automatic reading or efficacy credit.",
+  "scope": "Two accepted source-specific appraisals are integrated: exact phenylcapsaicin/aXivite name candidates and an HMB transplant study with unspecified product/form. All source group rows and old name relations are preserved; two exact phenylcapsaicin name relations are added in existing Capsaicin group3951. No chemical equivalence, HMB identity join, automatic reading or efficacy credit.",
   "historical_checked_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived/runs/7a86160f6d9a7faeef69",
-  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-krill-integration-20260927/dsld-replay-final/runs/ef052d9fb157cb1fb89a",
+  "current_replay_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/dsld-replay-282-20260928/runs/fcf5a1c9aac4397bf7b5",
   "historical_ledger_count": 168,
-  "current_ledger_count": 280,
+  "current_ledger_count": 282,
   "unchanged_output_tables": [
     "alias-cells.tsv",
-    "groups.tsv",
     "mentions.tsv",
     "metadata-anomalies.json",
-    "name-crossrefs.tsv",
     "normalized-aliases.tsv",
     "screen-policy.json",
     "source-records.tsv"
   ],
   "source_fields_unchanged_for_all_groups": 6467,
-  "changed_appraisal_group_rows": [],
-  "name_crossrefs_added": 0,
+  "changed_appraisal_group_rows": [
+    {
+      "group_id": "3951",
+      "name": "Capsaicin",
+      "before": "[\"new-capsaicin\"]",
+      "after": "[\"new-capsaicin\",\"new-phenylcapsaicin-muscle\"]"
+    }
+  ],
+  "name_crossrefs_added": 2,
   "old_name_crossrefs_retained": 6867,
-  "current_name_crossrefs": 6867,
-  "current_summary_sha256": "ef052d9fb157cb1fb89a44b54ee19c8421aaa6aa75fbd323887e26b1ef1ed2bb",
+  "current_name_crossrefs": 6869,
+  "current_summary_sha256": "fcf5a1c9aac4397bf7b5bf26c2a0b15dfab8d699db34bf539e1e7322361f446c",
   "current_builder_sha256": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
   "historical_independent_source_check_sha256": "3e316309c1848a8375db66c0a1906c916b715dc2a5f84d0c741bd52b05b7b20a",
   "historical_170_reconciliation": {
@@ -71,19 +76,42 @@
     "new_manual_reading_or_efficacy_credit": 0
   },
   "latest_parent_delta": {
-    "baseline_commit": "ccf7ff8ed64485bd7867c46a2d7c9f5e0426b57f",
-    "prior_appraisals": 279,
-    "current_appraisals": 280,
+    "baseline_commit": "52de81f0299fd4573c56b49332eb9fb15327c43d",
+    "prior_appraisals": 280,
+    "current_appraisals": 282,
     "added_ids": [
-      "new-superbaboost-krill-oil"
+      "new-hmb-transplant-unspecified",
+      "new-phenylcapsaicin-muscle"
     ],
-    "refined_ids": [
-      "new-calcium-hmb"
+    "refined_ids": [],
+    "changed_output_tables": [
+      "groups.tsv",
+      "name-crossrefs.tsv",
+      "summary.json"
     ],
-    "changed_output_tables": [],
-    "changed_appraisal_group_rows": [],
-    "added_name_crossrefs": [],
-    "name_crossrefs_added": 0,
+    "changed_appraisal_group_rows": [
+      {
+        "group_id": "3951",
+        "name": "Capsaicin",
+        "before": "[\"new-capsaicin\"]",
+        "after": "[\"new-capsaicin\",\"new-phenylcapsaicin-muscle\"]"
+      }
+    ],
+    "added_name_crossrefs": [
+      {
+        "group_id": "3951",
+        "normalized_alias": "axivite",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-phenylcapsaicin-muscle"
+      },
+      {
+        "group_id": "3951",
+        "normalized_alias": "phenylcapsaicin",
+        "target_layer": "curated_appraisal",
+        "target_id": "new-phenylcapsaicin-muscle"
+      }
+    ],
+    "name_crossrefs_added": 2,
     "new_manual_reading_or_efficacy_credit": 0
   },
   "identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
@@ -2417,5 +2445,10 @@
     "name_crossrefs_added": 0,
     "group_rows": [],
     "new_name_crossref_rows": []
-  }
+  },
+  "changed_output_tables": [
+    "groups.tsv",
+    "name-crossrefs.tsv",
+    "summary.json"
+  ]
 }

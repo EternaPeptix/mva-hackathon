@@ -16,7 +16,8 @@ molecules, current products or demonstrated treatments.
 | Group–alias–record mention rows | 41,496 |
 | Groups / source records with a mention | 1,143 / 6,578 |
 | Unflagged mention rows / groups / records | 1,077 / 371 / 774 |
-| Exact-name-linked groups: main catalog / status-unverified / FDA / appraisal | 1,121 / 43 / 545 / 65 |
+| Exact-name-linked groups: main catalog / status-unverified / FDA / appraisal | 1,121 / 43 / 545 / 114 |
+| Name cross-reference rows: total / curated appraisal layer | 6,869 / 140 |
 | Added reading or efficacy credit | 0 |
 
 **The automated inventory marks every lexical match context-unreviewed.** A separate [initial role review](first-role-findings.md) now annotates six matching rows across four previously read abstracts, without new unique reading or appraisal credit. Unflagged means only that
@@ -63,7 +64,7 @@ python3 workflow/track2-drug-census/build_dsld_inventory.py \
   --source-dir /path/supplement-ingredients-20260923 \
   --catalog-dir workflow/track2-drug-census \
   --corpus /path/literature-gene-unrestricted.json \
-  --out /path/dsld-replay --expected-appraisals 247
+  --out /path/dsld-replay --expected-appraisals 282
 ```
 
 The builder stages a complete immutable run, rechecks inputs and atomically
@@ -153,3 +154,5 @@ The preceding **243-appraisal replay** retains all prior relations and source fi
 The preceding **246-appraisal replay** retains byte-identical output tables and all prior source fields: **6,846 cross-references, 117 curated relations and 98 appraisal-linked groups**. The three preparation-specific magnesium assessments have empty automatic aliases and add no name relations, reading credit or product equivalence.
 
 The current **247-appraisal replay** preserves all prior relations and source fields: **6,850 cross-references, 121 curated relations and 101 appraisal-linked groups**. Exact cholecalciferol/colecalciferol relations add only the accepted decision ID; broad/shared ingredient groups confer no product equivalence or reading credit.
+
+The current **282-appraisal replay** preserves every prior name relation and adds two exact-name cross-reference rows for source-specific phenylcapsaicin / aXivite within existing NIH group3951 (source label: Capsaicin): **6,869 total name relations, 140 curated relations and 114 appraisal-linked groups**. The source-name relation does not make phenylcapsaicin chemically equivalent to ordinary capsaicin; the existing `new-capsaicin` target remains distinct. The HMB transplant decision has empty automatic aliases because its salt and product are not identified. The exact diff and hashes are in [replay-282-reconciliation.json](replay-282-reconciliation.json); every other output table matches the prior snapshot byte-for-byte. This replay adds no reading, efficacy or current-product credit.

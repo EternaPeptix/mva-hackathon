@@ -33,17 +33,17 @@ The original pilot left **56,177 collection records unscreened by that pilot**. 
 
 ## Current eligibility coverage
 
-Nine completed batches, including the original forty-record pilot, cover **1,000 disjoint source/ID records**, leaving **55,217 unscreened**. One assigned reader screened batch 9 in two eighty-record packets: **159 complete available saved abstracts and one title/metadata-only erratum at order 118**. Order 16 explicitly ends with the original 250-word truncation marker; missing original text receives no reading credit. Review order retains the same design, administration and function flags and query-stratum proportions, without ranking favorable results. Every unselected record remains queued.
+Ten completed batches, including the original forty-record pilot, cover **1,160 disjoint source/ID records**, leaving **55,057 unscreened**. One assigned reader screened batch 9 in two eighty-record packets: **159 complete available saved abstracts and one title/metadata-only erratum at order 118**. Order 16 explicitly ends with the original 250-word truncation marker; missing original text receives no reading credit. Batch 10 contains 160 available saved abstracts without an observed missing abstract or explicit truncation marker. Review order retains the same design, administration and function flags and query-stratum proportions, without ranking favorable results. Every unselected record remains queued.
 
-| Route at recorded source depth | Batch 2 | Batch 3 | Batch 4 | Batch 5 | Batch 6 | Batch 7 | Batch 8 | Batch 9 |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Controlled human functional reports | 21 | 23 | 37 | 96 | 72 | 84 | 85 | 85 |
-| Uncontrolled human functional reports | 0 | 2 | 4 | 2 | 4 | 3 | 5 | 4 |
-| Human mass/mechanism reports | 2 | 1 | 3 | 8 | 11 | 13 | 12 | 8 |
-| Preclinical functional reports | 2 | 3 | 3 | 8 | 8 | 7 | 7 | 8 |
-| Preclinical mechanism reports | 1 | 0 | 1 | 1 | 1 | 6 | 1 | 6 |
-| Context, reviews or protocols | 13 | 11 | 29 | 42 | 63 | 45 | 48 | 48 |
-| Unresolved | 1 | 0 | 3 | 3 | 1 | 2 | 2 | 1 |
+| Route at recorded source depth | Batch 2 | Batch 3 | Batch 4 | Batch 5 | Batch 6 | Batch 7 | Batch 8 | Batch 9 | Batch 10 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controlled human functional reports | 21 | 23 | 37 | 96 | 72 | 84 | 85 | 85 | 90 |
+| Uncontrolled human functional reports | 0 | 2 | 4 | 2 | 4 | 3 | 5 | 4 | 3 |
+| Human mass/mechanism reports | 2 | 1 | 3 | 8 | 11 | 13 | 12 | 8 | 9 |
+| Preclinical functional reports | 2 | 3 | 3 | 8 | 8 | 7 | 7 | 8 | 11 |
+| Preclinical mechanism reports | 1 | 0 | 1 | 1 | 1 | 6 | 1 | 6 | 4 |
+| Context, reviews or protocols | 13 | 11 | 29 | 42 | 63 | 45 | 48 | 48 | 42 |
+| Unresolved | 1 | 0 | 3 | 3 | 1 | 2 | 2 | 1 | 1 |
 
 Batch 8 received **36 separate checks**: sixteen predeclared interval samples and twenty flagged boundaries, comprising 35 available abstracts and the metadata-only reply. All 160 identities, available literal source anchors and notice metadata were checked. Earlier checks and their limits remain recorded. Reader discussion occurred; this is not a blind double review of every record.
 
@@ -61,8 +61,10 @@ Earlier targeted follow-ups, from [creatine](creatine-inflammatory-myopathy-qual
 
 The [acute quercetin-glycoside follow-up](quercetin-acute-function-qualification.md) refines an existing assessment: greater immediate post-exercise torque decline does not overturn the six-week training strength positive or establish chronic harm. The abstract, first-page preview and captions support the stated comparison; original Methods/native outcomes and exact formulation matching remain unavailable. The separate [MAX-EPA source-access note](maxepa-ra-source-note.md) retains reported RA symptom estimates without repairing damaged comparator wording or inventing strength benefit. It adds no decision or EPA/Lovaza equivalence. Both original-paper access questions remain open. The [SuperbaBoost krill-oil parent and same-cohort subgroup](krill-oil-muscle-qualification.md) are now qualified: controlled torque/grip benefits remain alongside mobility nulls, incomplete randomized accounting and source discrepancies. The [separate Ca-HMB bed-rest trial](hmb-bedrest-qualification.md) adds an exclusion-sensitive mass result and measured nonpositive functional comparisons to the existing HMB assessment, preserving its different Kyowa gait-positive trial. These primary appraisals do not increase eligibility-screening counts.
 
-Batch 9 used the previously frozen selection of 160 from all 55,377 remaining records; 55,217 remain unscreened. The structured companion preserves the former pending-selection object and its original metadata as history.
+Batch 9 used the previously frozen selection of 160 from all 55,377 remaining records; 55,217 remained unscreened afterward. Batch 10 then sampled 160 from that queue, leaving 55,057 unscreened. The structured companion preserves the former pending-selection object and its original metadata as history.
 
-The phenylcapsaicin crossover (PMID 37601635) and post-liver-transplant HMB pilot (PMID 31546969) remain pending original-paper questions. Their source appraisals are underway, with no qualification credit in this update. Screening completion adds no ledger appraisal: the snapshot remains **280 appraisals**.
+The original selection listed the phenylcapsaicin crossover (PMID 37601635) and post-liver-transplant HMB pilot (PMID 31546969) as pending original-paper questions. Both have since received bounded primary-source qualifications with separate accepted reviews and are represented in the ledger as source-specific assessments. Phenylcapsaicin retains exact preparation aliases; the transplant study retains an empty automatic alias list because its HMB salt/product is unknown. These two appraisals add no original-queue abstract-reading or biological-replication credit. The ledger now contains **282 appraisals**.
+
+Batch 10 used one assigned reader for all 160 saved abstracts. Root independently checked sixteen predeclared interval samples and all 24 flagged boundaries; order 1 overlaps, yielding **39 distinct root checks**, not an independent reread of all 160. All checked routes were retained. The exercise-horse HMB/γ-oryzanol report remains a preclinical-functional follow-up because speed and heart rate were monitored, but its saved abstract reports biochemical outcomes and no speed/performance contrast; this omission is not treated as a null. Other boundary checks preserve controlled versus observational contrasts, derived physiology, self-report and mixture limits. No screened record establishes BUB1B/MVA benefit or changes the provisional niacin-restoration and apitegromab-compensation comparison. This broad eligibility screen is not a competitive efficacy ranking and adds no new curated appraisal or original gene-queue reading credit. Root's selection, boundary checks and hashes remain in the external work archive.
 
 The independent PASS concerns retrieval and bounded review fidelity. It does not establish that every drug or common compound has been enumerated, that every report has been read, or that the nominated candidates are superior.
