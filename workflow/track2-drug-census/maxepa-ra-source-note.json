@@ -1,0 +1,208 @@
+{
+  "schema_version": "accepted-source-portable-qualification-v1",
+  "status": "PORTABLE_SYNTHESIS_OF_ACCEPTED_ACCESS_LIMITED_PACKET",
+  "source_preparation": "MAX-EPA / access-limited rheumatoid-arthritis symptom source note",
+  "decision_id": null,
+  "integration_baseline": "8251103f7fd7f26e7d591fb325c60967a4f3d487",
+  "source_qualification": {
+    "schema_version": "maxepa-ra-primary-v1",
+    "status": "ACCESS_LIMITED_ABSTRACT_REQUALIFICATION",
+    "prepared_utc": "2026-09-28T00:04:06.817095+00:00",
+    "study": {
+      "pmid": "3030173",
+      "doi": "10.7326/0003-4819-106-4-497",
+      "title": "Fish-oil fatty acid supplementation in active rheumatoid arthritis. A double-blinded, controlled, crossover study.",
+      "authors": "Kremer JM, Jubiz W, Michalek A, Rynes RI, Bartholomew LE, Bigaouette J, Timchalk M, Beeler D, Lininger L.",
+      "journal": "Annals of Internal Medicine",
+      "year": 1987,
+      "volume": 106,
+      "issue": 4,
+      "pages": "497-503",
+      "official_pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/3030173/"
+    },
+    "baseline": {
+      "repo_head": "8251103f7fd7f26e7d591fb325c60967a4f3d487",
+      "appraisals": 279,
+      "discovery_batch": "07",
+      "discovery_order": 131,
+      "existing_preparation_decision": null,
+      "existing_decisions_checked": [
+        "new-epa",
+        "new-lovaza-muscle"
+      ],
+      "new_original_queue_screen_credit": 0,
+      "new_full_paper_qualification_credit": 0
+    },
+    "preparation": {
+      "name": "MAX-EPA",
+      "supplier_as_abstract": "R.P. Scherer, Clearwater, Florida",
+      "capsules_per_day": 15,
+      "epa_g_day": 2.7,
+      "dha_g_day": 1.8,
+      "duration_per_treatment_period_weeks": 14,
+      "chemical_form": "UNKNOWN from inspected abstract",
+      "total_oil_mass": "UNKNOWN from inspected abstract",
+      "other_constituents": "UNKNOWN",
+      "assay_authentication": "UNKNOWN",
+      "placebo": "identical-appearing capsules; contents UNKNOWN",
+      "background_diet": "reported unchanged; exact nutritional intake/control UNKNOWN",
+      "generic_epa_equivalence": false,
+      "lovaza_equivalence": false,
+      "arbitrary_fish_oil_equivalence": false
+    },
+    "population_design": {
+      "setting": "Academic medical center referral rheumatology clinic",
+      "population": "Active, definite or classical rheumatoid arthritis",
+      "volunteers": 40,
+      "initial_maxepa": 21,
+      "initial_placebo": 19,
+      "dropouts": 5,
+      "removed_noncompliance": 2,
+      "arithmetic_remainder": 33,
+      "arithmetic_remainder_is_verified_analysis_n": false,
+      "outcome_specific_denominators": "UNKNOWN",
+      "age_sex_disease_duration_baseline_characteristics": "UNKNOWN beyond adult/aged/middle-aged/male/female indexing",
+      "design_as_abstract": "nonrandomized, double-blinded, placebo-controlled crossover",
+      "allocation_method": "UNKNOWN",
+      "periods_weeks": 14,
+      "washouts_weeks": 4,
+      "background_medication": "NSAIDs, slow-acting antirheumatic drugs and prednisone continued; exact doses/change rules UNKNOWN",
+      "analysis_population": "UNKNOWN",
+      "missing_data_method": "UNKNOWN"
+    },
+    "wording_integrity": {
+      "broken_comparator_literal": "favored fish oil placebo",
+      "broken_significance_literal": "but did reach statistical significance",
+      "fresh_confirmation": "Both phrases reproduced by PubMed efetch and EuropePMC core",
+      "repair_performed": false,
+      "primary_printed_wording_verified": false
+    },
+    "outcomes": [
+      {
+        "endpoint": "Mean time to onset of fatigue",
+        "as_reported_effect": 156,
+        "unit": "minutes",
+        "ci95": [
+          1.2,
+          311.0
+        ],
+        "time": "after 14 weeks",
+        "evidence_level": "indexed abstract",
+        "formal_contrast": "UNRESOLVED: damaged comparison wording; placebo-controlled design stated",
+        "change_vs_final_score_coding": "UNKNOWN",
+        "instrument_and_ascertainment": "UNKNOWN",
+        "endpoint_n": "UNKNOWN",
+        "model": "UNKNOWN",
+        "interpretation": "Retain reported symptom improvement estimate; not direct muscle force/endurance-test evidence."
+      },
+      {
+        "endpoint": "Number of tender joints",
+        "as_reported_effect": -3.5,
+        "unit": "joints",
+        "ci95": [
+          -6.0,
+          -1.0
+        ],
+        "time": "after 14 weeks",
+        "evidence_level": "indexed abstract",
+        "formal_contrast": "UNRESOLVED: damaged comparison wording; placebo-controlled design stated",
+        "change_vs_final_score_coding": "UNKNOWN",
+        "endpoint_n": "UNKNOWN",
+        "model": "UNKNOWN",
+        "interpretation": "Retain reported joint-symptom improvement estimate; not direct muscle-strength evidence."
+      },
+      {
+        "endpoint": "Other clinical measures",
+        "direction_as_indexed": "favored fish oil",
+        "significance": "UNRESOLVED due exact anomalous phrase; do not convert to significant or nonsignificant",
+        "endpoint_inventory": "UNKNOWN",
+        "estimates": "UNKNOWN",
+        "direct_strength_or_performance_assessed": "UNKNOWN",
+        "interpretation": "Omission from abstract is not a null result and does not establish absence of measurement."
+      },
+      {
+        "endpoint": "Neutrophil leukotriene B4 and tender-joint decrease",
+        "spearman_r": 0.53,
+        "p": "<0.05",
+        "denominator": "UNKNOWN",
+        "mechanistic_scope": "Clinical biomarker association, not causal mediation or muscle restoration; do not infer sign transformation."
+      },
+      {
+        "endpoint": "Hemoglobin, sedimentation rate, rheumatoid factor presence",
+        "as_reported": "No statistically significant differences",
+        "estimates_denominators": "UNKNOWN",
+        "interpretation": "Do not turn nonsignificance into equivalence or no biological effect."
+      },
+      {
+        "endpoint": "Patient-reported adverse effects",
+        "as_reported": "No statistically significant differences",
+        "counts_severity_and_denominator": "UNKNOWN",
+        "interpretation": "Not a no-adverse-events or safety-equivalence claim."
+      }
+    ],
+    "design_limits": {
+      "hierarchy": "UNKNOWN; no primary/secondary hierarchy verified",
+      "multiplicity": "UNKNOWN; no family correction verified",
+      "period_sequence_baseline_adjustment": "UNKNOWN",
+      "carryover": "Abstract explicitly reports effect persisted beyond 4-week washout; native magnitude, affected outcomes, carryover test/model and handling UNKNOWN",
+      "first_period_only_estimates": "UNKNOWN",
+      "direct_controlled_final_score_data": "No native tables/main recovered, so availability and values UNKNOWN; no zero/null coding",
+      "funding": "PubMed and EuropePMC index NCRR NIH HHS grant 5MO1RR00749-13; complete funding/support and roles not verified",
+      "conflicts_and_supplier_roles": "UNKNOWN; supplier name is not a complete disclosure statement"
+    },
+    "common_evaluation": {
+      "function": "Abstract-level symptom signal (fatigue onset and tender joints) retained; no verified objective strength or physical-performance result from the unavailable main. Symptoms cannot inherit strength credit.",
+      "exposure": "Human administered MAX-EPA mixture dose identified, with form, assay, placebo composition and outcome denominators unresolved; no pediatric/MVA exposure established.",
+      "durability": "14-week periods with reported persistence beyond 4 weeks; this is a carryover warning and a limited persistence observation, not quantified durable muscle benefit after cessation.",
+      "renewal": "No stem/progenitor renewal or regeneration evidence established by the inspected source scope.",
+      "fidelity": "No BUBR1 restoration, spindle-checkpoint, chromosome-segregation or aneuploidy correction established by the inspected source scope.",
+      "bub1b_mva": "No BUB1B-MVA response or variant-specific efficacy established; no superiority to provisional niacin restoration or apitegromab compensation established."
+    },
+    "disposition": {
+      "source_level": "Retain preparation-specific abstract lead with documented primary access gap; not a full-paper/native-outcome qualification",
+      "ledger_action": "No new decision recommended on this access-limited pass; do not merge into new-epa or new-lovaza-muscle",
+      "prior_evidence": "Existing free-EPA and Lovaza/MAPT appraisals retain their own populations/preparations/constraints; no scientific reread or verdict revision here",
+      "nominees": "Unchanged",
+      "next_discriminating_source": "Lawful original journal pp497-503, especially outcome inventory/native numerical table, allocation, analysis n, crossover/carryover model, exact abstract wording, adverse-event/withdrawal details and disclosures."
+    },
+    "source_access": "source-access.json",
+    "reading_manifest": "reading-manifest.json",
+    "frozen_bindings": "final-bindings.json"
+  },
+  "source_and_review_provenance": {
+    "producer_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/maxepa-ra-primary-20260927/final-bindings.json",
+      "bytes": 7219,
+      "sha256": "5e5af2e44db90715ebe99df49a3448a8faa887743d7252fc5b7101f96ec1f48e"
+    },
+    "producer_qualification": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/maxepa-ra-primary-20260927/qualification.json",
+      "bytes": 8309,
+      "sha256": "5325b58efc37b1db5bcaa953b9be6db4e90717bf24dcbdadff3dd9c47cdbba7c"
+    },
+    "independent_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/maxepa-ra-primary-20260927/independent-review/final-bindings.json",
+      "bytes": 1936,
+      "sha256": "df91345864f04499a7e33b941c7ac6d93ab83a3bdb196b99e8633c8ec10ec66a"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/maxepa-ra-primary-20260927/independent-review/review.json",
+      "bytes": 3202,
+      "sha256": "f81342c30b1abd52def9c52d84e719e90e45a61014e56612b3e070c48c63ff8c"
+    },
+    "reading_roles": "Producer reading, separate independent reading, and this proposal synthesis remain distinct. No new primary reading in this synthesis."
+  },
+  "outward_markdown_transformations": [
+    {
+      "old": "Raw assets and this assessment are outside Git.",
+      "new": "Raw assets and the producer's original assessment remain outside Git; this portable note preserves their accepted source-limited conclusions.",
+      "reason": "Portable source-stage wording only; no scientific change."
+    }
+  ],
+  "source_JSON_preserved_exact": true,
+  "scientific_summary": "Retain the indexed abstract symptom estimates and unresolved original-paper gap. No new intervention decision, direct strength claim, repaired comparator wording, or transfer to free EPA/Lovaza is proposed.",
+  "integration_precision": "Abstract source note only; malformed contrast/significance wording is not repaired.",
+  "new_decision_proposed": false,
+  "new_primary_reading_or_efficiency_evidence": false,
+  "repository_mutation": false
+}
