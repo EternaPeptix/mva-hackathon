@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-28",
+  "route": "Resveratrol / BUB1B transcript screen in A549 cells",
+  "decision": "Do not use this evidence to support BUBR1 restoration. Retain resveratrol's separate functional muscle evidence as a reserve; this source establishes no MVA benefit or ordinary-use harm.",
+  "primary_source": {
+    "pmid": "18089832",
+    "doi": "10.1158/0008-5472.CAN-07-2464",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18089832/"
+  },
+  "experiment": {
+    "cell_model": "A549 lung-carcinoma cell line",
+    "compound": "Resveratrol",
+    "concentration_um": 25,
+    "exposure_hours": 48,
+    "dataset": "GEO GSE9008",
+    "platform": "GPL570",
+    "control_arrays": 1,
+    "treated_arrays": 3,
+    "processing": "MAS5.0, as stated in GEO sample metadata",
+    "gene_probe": {
+      "probe_id": "203755_at",
+      "gene_symbol": "BUB1B",
+      "entrez_gene_id": "701",
+      "platform_annotation_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570&targ=self&form=text&view=full"
+    }
+  },
+  "analysis": {
+    "reanalysis_script": "workflow/track2-drug-census/reanalyze_resveratrol_gse9008.py",
+    "output": "workflow/track2-drug-census/resveratrol-bubr1b-gse9008-reanalysis.json",
+    "summary": "All three treated-array signals are 16.5% to 20.4% below one vehicle-control signal; no valid inferential test is available with a single control.",
+    "not_measured": [
+      "BUBR1 protein abundance",
+      "checkpoint function",
+      "chromosome segregation fidelity",
+      "muscle output or renewal",
+      "MVA1 cells or the nominated patient variants"
+    ]
+  },
+  "decision_ledger_id": "new-resveratrol",
+  "source_manifest": "workflow/track2-drug-census/resveratrol-bubr1b-source-manifest.json"
+}

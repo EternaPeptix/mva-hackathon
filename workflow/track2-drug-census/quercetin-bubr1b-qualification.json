@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-28",
+  "route": "Quercetin aglycone / exploratory BUB1B transcript response",
+  "decision": "Do not elevate as a BUBR1-restoration lead. Retain a low-confidence, source-specific transcript screen; no MVA efficacy established.",
+  "primary_source": {
+    "pmid": "21782406",
+    "doi": "10.1016/j.jnutbio.2011.03.010",
+    "title": "Quercetin accumulates in nuclear structures and triggers specific gene expression in epithelial cells",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21782406/"
+  },
+  "experiment": {
+    "cell_model": "HepG2 hepatocellular-carcinoma cell line",
+    "compound": "Non-conjugated quercetin aglycone",
+    "concentration_um": 3,
+    "timepoints_hours": [2, 4, 12, 24],
+    "dataset": "GEO GSE15162",
+    "platform": "GPL570",
+    "processed_arrays": 8,
+    "array_layout": "One vehicle and one treated processed array at each timepoint in the deposited series matrix",
+    "normalization": "RMA using raw data with GeneSpring GX v9.0, as stated in GEO sample metadata",
+    "gene_probe": {
+      "probe_id": "203755_at",
+      "gene_symbol": "BUB1B",
+      "entrez_gene_id": "701",
+      "platform_annotation_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570&targ=self&form=text&view=full"
+    }
+  },
+  "analysis": {
+    "reanalysis_script": "workflow/track2-drug-census/reanalyze_quercetin_gse15162.py",
+    "output": "workflow/track2-drug-census/quercetin-bubr1b-gse15162-reanalysis.json",
+    "summary": "Small mixed-direction descriptive probe shifts; no replicate-level variance or inferential test is available.",
+    "not_measured": [
+      "BUBR1 protein abundance",
+      "checkpoint function",
+      "chromosome segregation fidelity",
+      "muscle output or renewal",
+      "MVA1 cells or the nominated patient variants"
+    ]
+  },
+  "qualification_md": "workflow/track2-drug-census/quercetin-bubr1b-qualification.md",
+  "decision_ledger_id": "new-quercetin-aglycone-bubr1b-screen",
+  "source_manifest": "workflow/track2-drug-census/quercetin-bubr1b-source-manifest.json"
+}

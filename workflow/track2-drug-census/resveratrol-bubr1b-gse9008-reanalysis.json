@@ -1,0 +1,56 @@
+{
+  "geo_series": "GSE9008",
+  "primary_paper_pmid": "18089832",
+  "platform": "GPL570",
+  "target_gene": "BUB1B",
+  "target_probe": "203755_at",
+  "matrix_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE9nnn/GSE9008/matrix/GSE9008_series_matrix.txt.gz",
+  "matrix_sha256": "4015268331cdaa0a6b913115cd54883200a671c7922f965b3d4aef212e28f86c",
+  "matrix_bytes": 1014859,
+  "processing_reported_by_geo": "MAS5.0",
+  "resveratrol_concentration_um": 25,
+  "exposure_hours": 48,
+  "control_sample": {
+    "sample": "GSM228717",
+    "title": "A549, 48 h, ethanol control",
+    "mas5_signal": 2471.85
+  },
+  "treated_array_count": 3,
+  "treated_to_single_control_ratio_mean": 0.8101556863617668,
+  "treated_to_single_control_ratio_range": [
+    0.7960515403442766,
+    0.8352044015615835
+  ],
+  "observations": [
+    {
+      "sample": "GSM228718",
+      "title": "A549, 48 h, 25 microM resveratrol, replicate 1",
+      "mas5_signal": 2064.5,
+      "treated_to_single_control_ratio": 0.8352044015615835,
+      "relative_change_percent": -16.479559843841653
+    },
+    {
+      "sample": "GSM228719",
+      "title": "A549, 48 h, 25 microM resveratrol, replicate 2",
+      "mas5_signal": 1975.53,
+      "treated_to_single_control_ratio": 0.7992111171794405,
+      "relative_change_percent": -20.07888828205595
+    },
+    {
+      "sample": "GSM228720",
+      "title": "A549, 48 h, 25 microM resveratrol, replicate 3",
+      "mas5_signal": 1967.72,
+      "treated_to_single_control_ratio": 0.7960515403442766,
+      "relative_change_percent": -20.39484596557234
+    }
+  ],
+  "statistical_test": null,
+  "interpretation": "All three treated-array signals are descriptively below the single control; the design cannot estimate control variance or support an inferential treatment comparison.",
+  "not_measured": [
+    "BUBR1 protein abundance",
+    "BUBR1 checkpoint function",
+    "chromosome segregation fidelity",
+    "muscle output or renewal",
+    "MVA1 cells or either nominated patient variant"
+  ]
+}

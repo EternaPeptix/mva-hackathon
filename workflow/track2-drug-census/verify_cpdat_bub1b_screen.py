@@ -95,13 +95,14 @@ def check_overlay(overlay, decisions, decision_ids):
 def check():
     decisions = json.loads((ROOT / 'decisions.json').read_text())['decisions']
     decision_ids = {d['decision_id'] for d in decisions}
-    assert len(decisions) == 288
+    assert len(decisions) == 289
     assert {
         'new-bisphenol-a-bubr1-exposure',
         'new-naproxen-bubr1-downregulation',
         'new-ibuprofen-bubr1-downregulation',
         'new-mnbp-bubr1b-downregulation',
         'new-ozone-bubr1b-downregulation',
+        'new-quercetin-aglycone-bubr1b-screen',
     } <= decision_ids
     return {'result': 'PASS', 'current_decisions': len(decisions), 'overlays': [check_overlay(o, decisions, decision_ids) for o in OVERLAYS]}
 

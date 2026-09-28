@@ -5347,6 +5347,24 @@
         "https://comptox.epa.gov/chemexpo/chemical/DTXSID0021098"
       ],
       "identity_limit": "CPDat DTXSID0021098 appears only in Article-kind Construction and building materials records; these do not establish purchase or personal exposure. Inhaled pollutant exposure in neonatal mice is distinct from any ozone device, food antimicrobial use, or other proposed therapeutic route. Do not infer patient-level harm or benefit."
+    },
+    {
+      "decision_id": "new-quercetin-aglycone-bubr1b-screen",
+      "match_aliases": [
+        "quercetin"
+      ],
+      "route": "Quercetin aglycone / consumer-compound BUB1B transcript screen",
+      "disposition": "Retain as a bounded, exploratory transcript observation; do not advance as a BUBR1-restoration lead. This does not establish MVA benefit, ordinary-product exposure, or harm.",
+      "evidence_scope": "Primary quercetin-expression study with GEO GSE15162 processed matrix reanalysis: one vehicle and one treated array per timepoint at 2, 4, 12 and 24 hours. No replicate-level significance test; no BUBR1 protein/function, chromosome-fidelity, muscle or MVA experiment.",
+      "bub1b_variant_efficacy": "No rescue demonstrated for Leu737Ter/Asn1002Lys; a single-array HepG2 transcript time course shows small mixed-direction BUB1B probe shifts, without inferential evidence.",
+      "rationale": "Notas et al. report 3 μM non-conjugated quercetin exposure in HepG2 cells and broad transcriptional changes with G1 arrest and reduced cell proliferation. Reanalysis of the authors’ GEO GSE15162 RMA-normalized matrix maps the sole BUB1B probe (203755_at, GPL570/Entrez 701) to log2 differences of −0.1332 (2 h), +0.2067 (4 h), +0.2103 (12 h) and −0.0548 (24 h), corresponding to treated/control ratios 0.912, 1.154, 1.157 and 0.963. The deposited matrix has one processed array per condition/timepoint, so these are descriptive only; no sample variance, inferential test, or consistent direction can be estimated. The study did not assess BUBR1 protein, checkpoint activity, chromosome segregation, muscle function, MVA or either nominated patient allele. The cancer-cell G1-arrest phenotype is not evidence of a beneficial checkpoint correction in muscle progenitors. Do not transfer the result to quercetin glycosides, dasatinib-plus-quercetin, or unspecified retail preparations.",
+      "source_report": "workflow/track2-drug-census/quercetin-bubr1b-qualification.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/21782406/",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE15162",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570&targ=self&form=text&view=full"
+      ],
+      "identity_limit": "This is non-conjugated quercetin in a single HepG2 experiment. The data do not identify or test retail products, glycoside preparations, D+Q, ordinary consumer dose or exposure. CPDat v4.0/v4.1 names do not establish prevalence or use."
     }
   ]
 }
