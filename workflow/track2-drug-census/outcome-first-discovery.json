@@ -6764,13 +6764,41 @@
         "decisions_sha256": "1fcc0f3e3552d7191d8a35b52f36843db2ee5c2eeb470691fd35f04ecf132c83",
         "appraisal_count_changed_by_screening": false
       }
+    },
+    {
+      "batch": 10,
+      "records": 160,
+      "complete_available_saved_abstracts": 160,
+      "missing_abstract_orders": [],
+      "source_truncated_abstract_orders": [],
+      "incomplete_reference_tail_orders": [],
+      "assigned_readers": 1,
+      "assigned_reader": "/root/batch08_screen",
+      "lane_counts": {
+        "H_CF": 90,
+        "H_UF": 3,
+        "H_M": 9,
+        "P_F": 11,
+        "P_M": 4,
+        "C": 42,
+        "U": 1
+      },
+      "scientific_crosscheck_records": 39,
+      "scientific_crosscheck_orders": "Sixteen predeclared fixed-interval records plus 24 flagged boundaries; one overlap at order 1.",
+      "full_independent_reread_claimed": false,
+      "crosscheck_scope": "Root reviewed the fixed sample and flagged boundaries, not every record. Original notes/adjudications and review manifests remain in the external archive.",
+      "all_source_cores_abstracts_and_origins_verified": true,
+      "all_notice_and_version_links_routed": true,
+      "new_eligibility_screening_credit": 160,
+      "new_primary_or_efficacy_appraisal_credit": 0,
+      "new_ledger_assessments": 0
     }
   ],
   "current_eligibility_coverage": {
-    "completed_batches": 9,
-    "disjoint_source_id_records": 1000,
-    "unscreened_collection_records": 55217,
-    "complete_available_abstracts_or_pilot_saved_partial_depth": "Each original screen retains actual depth. Pilot includes one incomplete saved abstract; batch04 has79 abstracts+1metadata-only; batch05 has160abstracts; batch06 has159abstracts+authors-reply title/metadata only atorder108. Batch07 has160 complete saved abstracts, including two explicitly truncated original abstracts at orders122/146 retained at their available depth. Batch08 has159 available abstracts and one metadata-only reply atorder142; order145 explicitly truncates at250words and order66 ends in an incomplete reference. One assigned reader read both80record packets; separate root checks are bounded. Batch09 adds159 complete available saved abstracts and order118 erratum title/metadata only. Order16 explicitly truncates at250words. One assigned reader read both packets; bounded independent checks cover33 scientific records plus1 metadata, with discussion and two preserved lane adjudications.",
+    "completed_batches": 10,
+    "disjoint_source_id_records": 1160,
+    "unscreened_collection_records": 55057,
+    "complete_available_abstracts_or_pilot_saved_partial_depth": "Each original screen retains actual depth. Pilot includes one incomplete saved abstract; batch04 has79 abstracts+1metadata-only; batch05 has160abstracts; batch06 has159abstracts+authors-reply title/metadata only atorder108. Batch07 has160 complete saved abstracts, including two explicitly truncated original abstracts at orders122/146 retained at their available depth. Batch08 has159 available abstracts and one metadata-only reply atorder142; order145 explicitly truncates at250words and order66 ends in an incomplete reference. One assigned reader read both80record packets; separate root checks are bounded. Batch09 adds159 complete available saved abstracts and order118 erratum title/metadata only. Order16 explicitly truncates at250words. One assigned reader read both packets; bounded independent checks cover33 scientific records plus1 metadata, with discussion and two preserved lane adjudications. Batch10 adds160 complete available saved abstracts, with no observed missing abstract or explicit truncation marker; one assigned reader read all160 and root completed 39 fixed/boundary checks, not a full independent reread.",
     "no_independent_study_or_drug_count": true,
     "not_representative_sample": true,
     "primary_appraisals_do_not_automatically_increase_screen_count": true
@@ -6900,5 +6928,45 @@
         "sha256": "01086d869719e30fdd4c4b5b12100f7cda6dafc24e58815f22e8abd4a7e4c07d"
       }
     }
-  ]
+  ],
+  "pending_eligibility_batch": {
+    "batch": 11,
+    "selected_records": 160,
+    "selection_status": "PASS",
+    "selected_strata": {
+      "Q1": 64,
+      "Q2_minus_Q1": 48,
+      "Q3_minus_Q1_Q2": 48
+    },
+    "single_reader_screen_status": "All160 available saved abstracts read by one root reader; source anchors, identities, raw origins and end markers verified.",
+    "independent_second_reader": false,
+    "accepted_coverage_credit": 0,
+    "provisional_lane_counts": {
+      "H_CF": 74,
+      "H_UF": 6,
+      "H_M": 16,
+      "P_F": 3,
+      "P_M": 1,
+      "C": 59,
+      "U": 1
+    },
+    "notice_records_reviewed": 22,
+    "retracted_publication_type_records": 0,
+    "linked_errata_routed": 2,
+    "targeted_full_text_followups": [
+      "vitamin D2 chronic intestinal failure PMID 41449463",
+      "HMB sarcopenia PMID 37248756",
+      "inulin knee osteoarthritis PMID 41829888"
+    ],
+    "unselected_after_batch_selection": 54897,
+    "pending_review": "Independent source/lane review required before adding these160 to accepted collection coverage.",
+    "external_archive": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch11-20260928/"
+  },
+  "provisional_common_compound_followup": {
+    "report": "batch11-common-compound-followup.md",
+    "data": "batch11-common-compound-followup.json",
+    "status": "Single-reader selected source follow-up; independent review pending; no ledger admission.",
+    "current_decision": "Vitamin D2 is a deficiency/malabsorption-conditional reserve; calcium-HMB is a promising common-supplement functional reserve in the pairwise HMB/inulin comparison; inulin is lower-priority. None replaces niacin/restoration plus apitegromab/function.",
+    "no_mva_or_bub1b_rescue_claim": true
+  }
 }

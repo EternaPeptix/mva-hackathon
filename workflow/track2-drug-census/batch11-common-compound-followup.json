@@ -1,0 +1,205 @@
+{
+  "date": "2026-09-28",
+  "status": "PROVISIONAL_SINGLE_READER_FULL_TEXT_FOLLOWUP_PENDING_INDEPENDENT_REVIEW",
+  "independent_review": false,
+  "ledger_admission": false,
+  "bub1b_or_mva_efficacy_claim": false,
+  "sources": [
+    {
+      "id": "PMID:37248756",
+      "doi": "10.1007/s12603-023-1911-1",
+      "role": "primary randomized sarcopenia trial of calcium-HMB",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37248756/",
+      "saved_source": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch11-20260928/sources/hmb-sarcopenia-PMC12878579.xml",
+      "sha256": "6f5841a92ffb285318533d3416473a83b37350dedfaaa11abb02887615cfa741",
+      "whole_saved_article_read": false,
+      "reviewed_depth": "Full text retrieved; relevant methods, outcome, analysis and limitation sections reviewed; independent review pending.",
+      "registry": {
+        "id": "ChiCTR2000028778",
+        "url": "https://www.chictr.org.cn/showproj.aspx?proj=47571",
+        "paper_cites_record": true,
+        "direct_access_this_pass": "HTTP 405",
+        "historical_fields_recovered": false
+      }
+    },
+    {
+      "id": "PMID:41829888",
+      "pmcid": "PMC12986947",
+      "doi": "10.3390/nu18050714",
+      "role": "primary inulin factorial randomized knee-osteoarthritis trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41829888/",
+      "saved_source": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch11-20260928/sources/inulin-OA-PMC12986947.xml",
+      "sha256": "bf481d408af01e703c7a04dbcfbdd22172e5812a7bd2420802cc36e8a2012e4a",
+      "whole_saved_article_read": false,
+      "reviewed_depth": "Full text retrieved; relevant methods, outcome, analysis and limitation sections reviewed; independent review pending.",
+      "registry": {
+        "id": "NCT05670314",
+        "url": "https://clinicaltrials.gov/study/NCT05670314",
+        "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT05670314",
+        "retrieved": "2026-09-28",
+        "saved_source": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch11-20260928/sources/NCT05670314-api.json",
+        "sha256": "bb53e3d96b61dfe0e9433dcc6f54e9e930dfc21bd7ad95af0fac6a6a0cb62925",
+        "actual_start_date": "2022-05-01",
+        "first_submission_date": "2022-11-18",
+        "first_posted_date": "2023-01-04",
+        "actual_enrollment": 117,
+        "paper_randomized": 136,
+        "paper_completed": 117
+      }
+    },
+    {
+      "id": "PMID:41449463",
+      "pmcid": "PMC12903407",
+      "doi": "10.1186/s12967-025-07607-8",
+      "role": "primary randomized vitamin D2 trial in chronic intestinal failure",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41449463/",
+      "saved_source": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch11-20260928/sources/vitaminD2-CIF-PMC12903407.xml",
+      "sha256": "3d234578e887a5ddb745a38d56ae56e15243d126b5ed01a2ad7097147b6fe217",
+      "whole_saved_article_read": false,
+      "reviewed_depth": "Full text retrieved; trial design, primary outcomes, reported effects, safety and limitation sections reviewed; independent review pending.",
+      "registry": {
+        "id": "NCT06283615",
+        "url": "https://clinicaltrials.gov/study/NCT06283615",
+        "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT06283615",
+        "retrieved": "2026-09-28",
+        "saved_source": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch11-20260928/sources/NCT06283615-api.json",
+        "sha256": "f3d77749f8646cc557833e88c5147afe6ba5b562f1a261d6d0cc858f618fa9e6",
+        "first_posted_date": "2024-02-28",
+        "actual_start_date": "2024-03-12",
+        "actual_enrollment": 84
+      }
+    }
+  ],
+  "calcium_hmb": {
+    "population": "34 adults aged >=60 with sarcopenia; n=18 calcium-HMB, n=16 placebo",
+    "preparation": "NOURIGEN powder; 3 g sachet contained 1.5 g calcium-HMB; twice daily for 12 weeks",
+    "cointervention": "both groups received supervised resistance exercise twice weekly",
+    "primary_outcome": "handgrip strength",
+    "reported_week12_between_group_differences": {
+      "handgrip_kg": {
+        "estimate": 4.61,
+        "ci95": [
+          2.93,
+          6.28
+        ],
+        "p": "<0.001"
+      },
+      "gait_speed_m_s": {
+        "estimate": 0.11,
+        "ci95": [
+          0.02,
+          0.2
+        ],
+        "p": 0.014
+      },
+      "five_times_chair_stand_s": {
+        "estimate": -3.65,
+        "ci95": [
+          -5.72,
+          -1.58
+        ],
+        "p": 0.001
+      }
+    },
+    "body_composition": "No significant differences in skeletal muscle mass, skeletal muscle index or other body-composition measures were reported.",
+    "missing_data": "Last observation carried forward was used for dropout-related missing data.",
+    "competitive_role": "highest-priority newly surfaced common-supplement functional reserve; not an MVA/BUB1B lead",
+    "week8_primary_grip_contrast": {
+      "estimate_kg": 1.49,
+      "ci95": [
+        -0.43,
+        3.41
+      ],
+      "p": 0.124,
+      "interpretation": "non-significant; do not omit when emphasizing the week-12 result"
+    },
+    "formulation_limit": "Calcium-HMB salt as tested; do not assume free-acid dose or retail-product equivalence."
+  },
+  "inulin": {
+    "population": "knee osteoarthritis; mean age 67.5 years; mean BMI 29.5 kg/m2",
+    "design": "2x2 factorial RCT, 136 randomized, 117 completed; 20 g/day inulin, exercise, combination, or 10 g/day maltodextrin for six weeks",
+    "primary_outcome": "knee-pain NRS",
+    "reported_effects": {
+      "pain_inulin_vs_placebo": {
+        "estimate": -1.11,
+        "ci95": [
+          -2.18,
+          -0.04
+        ],
+        "p": 0.045
+      },
+      "grip_strength_kg_secondary": {
+        "estimate": 4.62,
+        "ci95": [
+          1.67,
+          7.57
+        ],
+        "p": 0.002
+      },
+      "inulin_alone_30_second_chair_stand": "no significant effect",
+      "inulin_alone_timed_up_and_go": "no significant effect"
+    },
+    "design_limitations": [
+      "secondary outcomes were not powered",
+      "exercise-arm dropout was 17/81 versus 2/55 in non-exercise arms",
+      "allocation probabilities changed during later recruitment to over-recruit exercise arms",
+      "ClinicalTrials.gov first posting followed actual study start"
+    ],
+    "competitive_role": "lower-priority common-fiber reserve; symptom and secondary grip signal, not a BUB1B/MVA lead"
+  },
+  "decision": "Keep niacin/restoration and apitegromab/function as separate core hypotheses. Vitamin D2 is conditional on measured deficiency/malabsorption, calcium-HMB is the strongest common-supplement functional reserve in the reviewed pairwise comparison with inulin, and inulin remains exploratory. None of these batch11 routes displaces the core pair or has demonstrated MVA benefit.",
+  "screen_context": {
+    "batch": 11,
+    "records": 160,
+    "root_single_reader": true,
+    "pending_independent_review": true,
+    "current_repo_accepted_screen_count_before_batch": 1160,
+    "batch_not_added_to_accepted_coverage_yet": true,
+    "unselected_queue_after_selection": 54897
+  },
+  "vitamin_d2_conditional_reserve": {
+    "population": "84 adults aged 18-70 with chronic intestinal failure and baseline 25(OH)D <30 ng/mL",
+    "intervention": "Intramuscular vitamin D2 600,000 IU every two weeks for 10 weeks; total 3 million IU",
+    "control": "Matched placebo; both groups standard care, with nutrition and activity monitored",
+    "reported_week12_between_group_differences": {
+      "handgrip_kg": {
+        "estimate": 2.3,
+        "ci95": [
+          0.629,
+          3.971
+        ],
+        "p": 0.008
+      },
+      "6m_walk_speed_m_s": {
+        "estimate": 0.12,
+        "ci95": [
+          0.037,
+          0.203
+        ],
+        "p": 0.005
+      },
+      "appendicular_muscle_mass_index_kg_m2": {
+        "estimate": 0.4,
+        "ci95": [
+          0.108,
+          0.692
+        ],
+        "p": 0.008
+      },
+      "SF36_physical_component": {
+        "estimate": 6.2,
+        "ci95": [
+          2.966,
+          9.434
+        ],
+        "p": "<0.001"
+      }
+    },
+    "limitations": [
+      "Deficiency- and malabsorption-specific population",
+      "Very high injectable exposure and only 12-week observation",
+      "No MVA, BUB1B, BUBR1 or chromosome-fidelity endpoint"
+    ],
+    "competitive_role": "Strongest controlled function signal among these three batch11 full-text leads, conditional on comparable deficiency; not a general MVA candidate"
+  }
+}
