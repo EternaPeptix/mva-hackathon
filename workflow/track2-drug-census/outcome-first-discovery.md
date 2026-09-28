@@ -33,21 +33,27 @@ The original pilot left **56,177 collection records unscreened by that pilot**. 
 
 ## Current eligibility coverage
 
-Eight completed batches, including the original forty-record pilot, cover **840 disjoint source/ID records**, leaving **55,377 unscreened**. One assigned reader screened the latest 160 records in two eighty-record packets: **159 complete available saved abstracts and one title/metadata-only reply**. One original abstract explicitly truncates at 250 words; another saved text ends in an incomplete reference. Missing original text receives no reading credit. Review order retains the same design, administration and function flags and query-stratum proportions, without ranking favorable results. Every unselected record remains queued.
+Nine completed batches, including the original forty-record pilot, cover **1,000 disjoint source/ID records**, leaving **55,217 unscreened**. One assigned reader screened batch 9 in two eighty-record packets: **159 complete available saved abstracts and one title/metadata-only erratum at order 118**. Order 16 explicitly ends with the original 250-word truncation marker; missing original text receives no reading credit. Review order retains the same design, administration and function flags and query-stratum proportions, without ranking favorable results. Every unselected record remains queued.
 
-| Route at recorded source depth | Batch 2 | Batch 3 | Batch 4 | Batch 5 | Batch 6 | Batch 7 | Batch 8 |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Controlled human functional reports | 21 | 23 | 37 | 96 | 72 | 84 | 85 |
-| Uncontrolled human functional reports | 0 | 2 | 4 | 2 | 4 | 3 | 5 |
-| Human mass/mechanism reports | 2 | 1 | 3 | 8 | 11 | 13 | 12 |
-| Preclinical functional reports | 2 | 3 | 3 | 8 | 8 | 7 | 7 |
-| Preclinical mechanism reports | 1 | 0 | 1 | 1 | 1 | 6 | 1 |
-| Context, reviews or protocols | 13 | 11 | 29 | 42 | 63 | 45 | 48 |
-| Unresolved | 1 | 0 | 3 | 3 | 1 | 2 | 2 |
+| Route at recorded source depth | Batch 2 | Batch 3 | Batch 4 | Batch 5 | Batch 6 | Batch 7 | Batch 8 | Batch 9 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controlled human functional reports | 21 | 23 | 37 | 96 | 72 | 84 | 85 | 85 |
+| Uncontrolled human functional reports | 0 | 2 | 4 | 2 | 4 | 3 | 5 | 4 |
+| Human mass/mechanism reports | 2 | 1 | 3 | 8 | 11 | 13 | 12 | 8 |
+| Preclinical functional reports | 2 | 3 | 3 | 8 | 8 | 7 | 7 | 8 |
+| Preclinical mechanism reports | 1 | 0 | 1 | 1 | 1 | 6 | 1 | 6 |
+| Context, reviews or protocols | 13 | 11 | 29 | 42 | 63 | 45 | 48 | 48 |
+| Unresolved | 1 | 0 | 3 | 3 | 1 | 2 | 2 | 1 |
 
-The latest batch received **36 separate checks**: sixteen predeclared interval samples and twenty flagged boundaries, comprising 35 available abstracts and the metadata-only reply. All 160 identities, available literal source anchors and notice metadata were checked. Earlier checks and their limits remain recorded. Reader discussion occurred; this is not a blind double review of every record.
+Batch 8 received **36 separate checks**: sixteen predeclared interval samples and twenty flagged boundaries, comprising 35 available abstracts and the metadata-only reply. All 160 identities, available literal source anchors and notice metadata were checked. Earlier checks and their limits remain recorded. Reader discussion occurred; this is not a blind double review of every record.
 
-One classification changed from a human-mechanism route to context: both arms received B vitamins, while the assigned difference was taping. The original annotation and adjudication remain preserved. Two reports retain unresolved attribution: a multimodal rehabilitation package with unspecified medicines, and a hydration/exercise/sauna experiment with a shared carbohydrate challenge. Neither becomes evidence of compound ineffectiveness. A proteomics follow-up does not acquire a new functional observation from the parent trial's earlier strength result.
+In batch 8, one classification changed from a human-mechanism route to context: both arms received B vitamins, while the assigned difference was taping. The original annotation and adjudication remain preserved. Two reports retain unresolved attribution: a multimodal rehabilitation package with unspecified medicines, and a hydration/exercise/sauna experiment with a shared carbohydrate challenge. Neither becomes evidence of compound ineffectiveness. A proteomics follow-up does not acquire a new functional observation from the parent trial's earlier strength result.
+
+Batch 8's source limits remain recorded: order 145 explicitly truncates at 250 words, order 66 ends with an incomplete reference, and order 142 has reply metadata only.
+
+Batch 9 received **34 distinct checks: 33 complete available saved abstracts and the metadata-only erratum**. Root read sixteen fixed interval samples and seven first-packet flags; another reviewer read ten second-packet flags and truncated order 16, overlapping root only at order 81, plus order 118 metadata. All 160 identities, 184 literal anchors, available end markers and notice/version metadata were checked. Discussion occurred after the original packet freezes; this is not a blind double review of every record.
+
+Two batch 9 lane changes preserve both original annotations and adjudications. Order 12 moves from unresolved to controlled human function because reconstructed longitudinal stages use functional and respiratory measures within the original controlled riluzole trial; survival and earlier-stage findings remain distinct. Order 122 moves from human mass/mechanism to unresolved because clinical periodontal indices and tooth instability do not securely fit the fixed endpoint categories. This uncertainty is about classification, not evidence of calcium ineffectiveness. Root's reconsiderations at orders 27 and 36 also remain recorded.
 
 Actually measured function remains eligible when a treatment estimate is omitted. The reports separately identify direct muscle force, cardiac mechanics, daily-living scales and biological skin/tendon/bone mechanics; egg-shell strength and production are not muscle function. Retrospective comparisons, observational preparation cohorts, open-label early/delayed treatment and post-hoc pooled analyses do not become randomized efficacy trials through routing. Formulations, mixtures and biological preparations are not unique chemical-drug counts. Prior source/version links, retraction flags and unresolved records remain intact.
 
@@ -55,6 +61,8 @@ Earlier targeted follow-ups, from [creatine](creatine-inflammatory-myopathy-qual
 
 The [acute quercetin-glycoside follow-up](quercetin-acute-function-qualification.md) refines an existing assessment: greater immediate post-exercise torque decline does not overturn the six-week training strength positive or establish chronic harm. The abstract, first-page preview and captions support the stated comparison; original Methods/native outcomes and exact formulation matching remain unavailable. The separate [MAX-EPA source-access note](maxepa-ra-source-note.md) retains reported RA symptom estimates without repairing damaged comparator wording or inventing strength benefit. It adds no decision or EPA/Lovaza equivalence. Both original-paper access questions remain open. The [SuperbaBoost krill-oil parent and same-cohort subgroup](krill-oil-muscle-qualification.md) are now qualified: controlled torque/grip benefits remain alongside mobility nulls, incomplete randomized accounting and source discrepancies. The [separate Ca-HMB bed-rest trial](hmb-bedrest-qualification.md) adds an exclusion-sensitive mass result and measured nonpositive functional comparisons to the existing HMB assessment, preserving its different Kyowa gait-positive trial. These primary appraisals do not increase eligibility-screening counts.
 
-The next 160-record selection retains all 55,377 previously unscreened records in its ordered queue: 160 selected and 55,217 unselected. Its 159 available abstracts and one metadata-only record are being screened. The selection and fixed root sample checks do not yet count as a completed batch; completed coverage remains 840.
+Batch 9 used the previously frozen selection of 160 from all 55,377 remaining records; 55,217 remain unscreened. The structured companion preserves the former pending-selection object and its original metadata as history.
+
+The phenylcapsaicin crossover (PMID 37601635) and post-liver-transplant HMB pilot (PMID 31546969) remain pending original-paper questions. Their source appraisals are underway, with no qualification credit in this update. Screening completion adds no ledger appraisal: the snapshot remains **280 appraisals**.
 
 The independent PASS concerns retrieval and bounded review fidelity. It does not establish that every drug or common compound has been enumerated, that every report has been read, or that the nominated candidates are superior.

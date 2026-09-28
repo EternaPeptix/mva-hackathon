@@ -5627,13 +5627,1150 @@
       ],
       "full_primary_or_efficacy_appraisal_credit": 0,
       "original_gene_queue_credit": 0
+    },
+    {
+      "batch": 9,
+      "records": 160,
+      "complete_available_saved_abstracts": 159,
+      "missing_abstract_orders": [
+        118
+      ],
+      "source_truncated_abstract_orders": [
+        16
+      ],
+      "incomplete_reference_tail_orders": [],
+      "assigned_readers": 1,
+      "assigned_reader": "/root/maxepa_primary",
+      "lane_counts": {
+        "C": 48,
+        "P_F": 8,
+        "H_CF": 85,
+        "H_UF": 4,
+        "H_M": 8,
+        "P_M": 6,
+        "U": 1
+      },
+      "scientific_crosscheck_records": 33,
+      "scientific_crosscheck_orders": [
+        1,
+        6,
+        11,
+        12,
+        16,
+        21,
+        27,
+        28,
+        31,
+        36,
+        38,
+        41,
+        51,
+        61,
+        71,
+        76,
+        81,
+        89,
+        91,
+        101,
+        111,
+        112,
+        116,
+        121,
+        122,
+        123,
+        128,
+        129,
+        131,
+        141,
+        146,
+        148,
+        151
+      ],
+      "metadata_crosscheck_records": 1,
+      "metadata_crosscheck_orders": [
+        118
+      ],
+      "all_crosscheck_records": 34,
+      "all_crosscheck_orders": [
+        1,
+        6,
+        11,
+        12,
+        16,
+        21,
+        27,
+        28,
+        31,
+        36,
+        38,
+        41,
+        51,
+        61,
+        71,
+        76,
+        81,
+        89,
+        91,
+        101,
+        111,
+        112,
+        116,
+        118,
+        121,
+        122,
+        123,
+        128,
+        129,
+        131,
+        141,
+        146,
+        148,
+        151
+      ],
+      "crosscheck_scope": "One assigned reader read all 159 complete available saved abstracts and order118 title/metadata across two80-record packets. Root separately read16 fixed samples and7 first-packet flags (23 scientific records). A further reviewer read10 second-packet flags plus truncated order16 (11 scientific records) and order118 metadata; overlap with root occurs only at81. Union33 scientific plus1 metadata checks, not all160 independently reread. Original16 explicitly truncates at250words; only its available text is credited. All160 identities,184 literal anchors, end markers/tails and complete metadata were checked. All244 source-origin entries and53 raw-page bindings remain retained; root's previously verified raw-record/full-queue audit is reused. Discussion occurred after original packet freezes; original notes and adjudications remain available.",
+      "selection": "Same160 size,64/48/48 quotas, frozen seed, design/administration/function flags and within-stratum ordering. Only the exact prior840 completed source/IDs were excluded; all55377 remaining records stayed queued before selection,160 selected and55217 unselected. No outcome-direction ranking.",
+      "selection_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch09-20260927/selection-final-bindings.json",
+        "sha256": "ef12742bc4875727750f52b9148af5aba6a6d59b6e4f222504335047255999cd"
+      },
+      "screening_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch09-20260927/independent-final-review/final-bindings.json",
+        "sha256": "01086d869719e30fdd4c4b5b12100f7cda6dafc24e58815f22e8abd4a7e4c07d"
+      },
+      "reviewed_screening_proposal": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch09-20260927/independent-final-review/screening-final-proposal.json",
+        "sha256": "a72f38e1eff06d30b0b90d0d8f05abf4301cd68c1b87fe3c2be0cd113e0d86f8"
+      },
+      "independent_review": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch09-20260927/independent-final-review/final-review.json",
+        "sha256": "2e6727b601b15c619cf8fb4b565151faa661cf1db95698cbb64436f12af674ec"
+      },
+      "screened_source_ids": [
+        {
+          "source": "MED",
+          "id": "41295858",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "15972811",
+          "lane": "P_F",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "30128316",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "42392582",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31512330",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36439698",
+          "lane": "P_F",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "23512724",
+          "lane": "P_F",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "35599917",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "34082792",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "8170484",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "37601635",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "29525492",
+          "lane": "H_CF",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "41799862",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "26686693",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "12076411",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "2858145",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "PMC",
+          "id": "PMC8090397",
+          "lane": "H_UF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "24796987",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "9455973",
+          "lane": "P_F",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "8676624",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "35240263",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "39105791",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31141387",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36408510",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "35396092",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "41722591",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36562873",
+          "lane": "H_CF",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "31468171",
+          "lane": "C",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "42196972",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "40778350",
+          "lane": "H_UF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "33162329",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31594243",
+          "lane": "H_UF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "19086063",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "29079458",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "27776081",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "32539076",
+          "lane": "H_UF",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "37346024",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "40318171",
+          "lane": "C",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "28460889",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "33467104",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "29653550",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "38498654",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "29500292",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "9861607",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "27776843",
+          "lane": "H_M",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "23152212",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "27864638",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "41879641",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "32877582",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "39572310",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "19727018",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "15266526",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "27428352",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "19821312",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "42676602",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "17146317",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "40213793",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "39683633",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "42528893",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "32356505",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "10796795",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "39408270",
+          "lane": "H_M",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "24798789",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "19760253",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "35798137",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "30824459",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "32993140",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31296516",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "38888088",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "40864449",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31546969",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "24225081",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "38500043",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36940921",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "PPR",
+          "id": "PPR71937",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "CBA",
+          "id": "273964",
+          "lane": "H_CF",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "32193264",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "20863330",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36237992",
+          "lane": "P_F",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "28814401",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "19752529",
+          "lane": "C",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "33074327",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "40126292",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31766576",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "29751507",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "23569677",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "27521997",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31726309",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "35990804",
+          "lane": "H_CF",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "39716287",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "PMC",
+          "id": "PMC6844768",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "39683431",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "33268143",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36571774",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "11108415",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "26353786",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "29951592",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "41805014",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "21054285",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "12131252",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "16874784",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "20629339",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "24919692",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "32961041",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "23124786",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36026532",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "30583082",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "42020128",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "34620350",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "27567888",
+          "lane": "P_F",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "41483327",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "PMC",
+          "id": "PMC6840347",
+          "lane": "H_CF",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "32129963",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "35517806",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "39671753",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36976044",
+          "lane": "P_M",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "24284618",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "27443549",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "1550530",
+          "lane": "P_M",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31135902",
+          "lane": "P_M",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "42105255",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "6584449",
+          "lane": "U",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "34156129",
+          "lane": "P_M",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "37490202",
+          "lane": "H_M",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "3553496",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "38436924",
+          "lane": "H_M",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "29876876",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "29953297",
+          "lane": "H_CF",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "39595272",
+          "lane": "P_M",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "37929237",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "3237047",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "12053643",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "27899900",
+          "lane": "H_M",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "17693685",
+          "lane": "H_M",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "8775366",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "40355744",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "8605516",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "40945966",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "35309526",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "37010270",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "34338762",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "12900686",
+          "lane": "H_M",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36718317",
+          "lane": "P_M",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "38243326",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "31860387",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "27585560",
+          "lane": "P_F",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "33295851",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "36334223",
+          "lane": "H_CF",
+          "provisional": true
+        },
+        {
+          "source": "MED",
+          "id": "31470444",
+          "lane": "H_M",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "37997783",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "39934549",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "29154900",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "37711701",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "25516993",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "37716377",
+          "lane": "C",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "27044854",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "29108664",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "35335899",
+          "lane": "P_F",
+          "provisional": false
+        },
+        {
+          "source": "ETH",
+          "id": "727399",
+          "lane": "H_CF",
+          "provisional": false
+        },
+        {
+          "source": "MED",
+          "id": "38193939",
+          "lane": "H_CF",
+          "provisional": false
+        }
+      ],
+      "adjudication_orders": [
+        12,
+        122
+      ],
+      "adjudications": [
+        {
+          "order": 12,
+          "source": "MED",
+          "id": "29525492",
+          "original_lane": "U",
+          "final_lane": "H_CF",
+          "reason": "Derived longitudinal clinical staging uses actual functional/respiratory measures within the controlled original riluzole trial. Survival and earlier-stage findings remain distinct; no new direct-force estimate or independent trial."
+        },
+        {
+          "order": 122,
+          "source": "MED",
+          "id": "6584449",
+          "original_lane": "H_M",
+          "final_lane": "U",
+          "reason": "Clinical periodontal indices and tooth instability do not securely fit the fixed functional or mass/biomarker/mechanism categories. Retain randomized calcium administration and all measured clinical findings; classification uncertainty is not ineffectiveness."
+        }
+      ],
+      "root_reconsiderations": [
+        {
+          "order": 27,
+          "root_initial_lane": "C",
+          "reader_lane_and_final": "H_CF",
+          "reason": "Actual performance/PRO measurements explicitly completed within the controlled trial. Psychometric-only report supplies no drug-effect estimate or independent efficacy replication."
+        },
+        {
+          "order": 36,
+          "root_initial_lane": "U",
+          "reader_lane_and_final": "H_UF",
+          "reason": "Observed four-patient before/after NSAA result can be retained provisionally; title control label does not identify a concurrent comparator. Concurrent control remains unverified."
+        }
+      ],
+      "adjudication_bindings": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-krill-integration-20260927/root/batch09-firstpacket-adjudication.json",
+          "bytes": 1493,
+          "sha256": "701f0c55bef1cbb2889541dff047c4acb7ecba21afa39fea4472acf8b431a48f"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch09-20260927/independent-final-review/second-packet-adjudication.json",
+          "bytes": 4207,
+          "sha256": "3fba6bfc8d35edfa9846e2311bb28507620610d04aace31e0e96399c0ed0815a"
+        }
+      ],
+      "full_primary_or_efficacy_appraisal_credit": 0,
+      "original_gene_queue_credit": 0,
+      "new_ledger_appraisals": 0,
+      "ledger_snapshot_at_screening_update": {
+        "repo_commit": "57febe325df45e0d0a0d14fe3af977c71a4917f1",
+        "appraisals": 280,
+        "decisions_sha256": "1fcc0f3e3552d7191d8a35b52f36843db2ee5c2eeb470691fd35f04ecf132c83",
+        "appraisal_count_changed_by_screening": false
+      }
     }
   ],
   "current_eligibility_coverage": {
-    "completed_batches": 8,
-    "disjoint_source_id_records": 840,
-    "unscreened_collection_records": 55377,
-    "complete_available_abstracts_or_pilot_saved_partial_depth": "Each original screen retains actual depth. Pilot includes one incomplete saved abstract; batch04 has79 abstracts+1metadata-only; batch05 has160abstracts; batch06 has159abstracts+authors-reply title/metadata only atorder108. Batch07 has160 complete saved abstracts, including two explicitly truncated original abstracts at orders122/146 retained at their available depth. Batch08 has159 available abstracts and one metadata-only reply atorder142; order145 explicitly truncates at250words and order66 ends in an incomplete reference. One assigned reader read both80record packets; separate root checks are bounded.",
+    "completed_batches": 9,
+    "disjoint_source_id_records": 1000,
+    "unscreened_collection_records": 55217,
+    "complete_available_abstracts_or_pilot_saved_partial_depth": "Each original screen retains actual depth. Pilot includes one incomplete saved abstract; batch04 has79 abstracts+1metadata-only; batch05 has160abstracts; batch06 has159abstracts+authors-reply title/metadata only atorder108. Batch07 has160 complete saved abstracts, including two explicitly truncated original abstracts at orders122/146 retained at their available depth. Batch08 has159 available abstracts and one metadata-only reply atorder142; order145 explicitly truncates at250words and order66 ends in an incomplete reference. One assigned reader read both80record packets; separate root checks are bounded. Batch09 adds159 complete available saved abstracts and order118 erratum title/metadata only. Order16 explicitly truncates at250words. One assigned reader read both packets; bounded independent checks cover33 scientific records plus1 metadata, with discussion and two preserved lane adjudications.",
     "no_independent_study_or_drug_count": true,
     "not_representative_sample": true,
     "primary_appraisals_do_not_automatically_increase_screen_count": true
@@ -5706,6 +6843,18 @@
         "report": "maxepa-ra-source-note.md",
         "status": "Abstract-access note accepted; original pp497–503 and formal contrast/outcome/safety analyses remain unresolved. Not a completed full-paper appraisal."
       }
+    },
+    {
+      "pmid": "37601635",
+      "reason": "Batch09 phenylcapsaicin exercise crossover: recover the exact preparation, doses, control, outcome hierarchy and controlled mechanical/neural contrasts, including the unusual printed protocol notation. Retain preparation-specific scope; no generic capsaicin or MVA transfer.",
+      "status": "Original-paper appraisal underway; not yet qualified.",
+      "qualification_credit": 0
+    },
+    {
+      "pmid": "31546969",
+      "reason": "Batch09 post-liver-transplant HMB pilot: recover the exact HMB form, dose, control, analysis denominators and randomized functional contrasts. Within-arm grip gains alone do not establish treatment interaction or comparative persistence. Preserve its distinction from the already qualified HMB trials.",
+      "status": "Original-paper appraisal underway; not yet qualified.",
+      "qualification_credit": 0
     }
   ],
   "source_access_notes": [
@@ -5719,26 +6868,37 @@
       "full_paper_qualification_credit": 0
     }
   ],
-  "pending_eligibility_selection": {
-    "batch": 9,
-    "selected_source_ID_records": 160,
-    "saved_abstracts": 159,
-    "missing_abstract_orders": [
-      118
-    ],
-    "prior_completed_exclusions": 840,
-    "retained_before_selection": 55377,
-    "unselected_after_selection": 55217,
-    "selection_manifest": {
-      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch09-20260927/selection-final-bindings.json",
-      "sha256": "ef12742bc4875727750f52b9148af5aba6a6d59b6e4f222504335047255999cd"
-    },
-    "root_selection_verification": {
-      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-krill-integration-20260927/root/batch09-selection-verification.json",
-      "sha256": "944ba31e39a7771754986d59bc5b8e350d750e554d0aa8f9a97bf2907eab8f57"
-    },
-    "status": "Scientific screening in progress; not added to completed coverage at this checkpoint.",
-    "new_completed_screening_credit": 0,
-    "selection_is_not_reading": true
-  }
+  "completed_eligibility_selection_history": [
+    {
+      "batch": 9,
+      "historical_checkpoint": "57febe325df45e0d0a0d14fe3af977c71a4917f1",
+      "original_published_pending_selection": {
+        "batch": 9,
+        "selected_source_ID_records": 160,
+        "saved_abstracts": 159,
+        "missing_abstract_orders": [
+          118
+        ],
+        "prior_completed_exclusions": 840,
+        "retained_before_selection": 55377,
+        "unselected_after_selection": 55217,
+        "selection_manifest": {
+          "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch09-20260927/selection-final-bindings.json",
+          "sha256": "ef12742bc4875727750f52b9148af5aba6a6d59b6e4f222504335047255999cd"
+        },
+        "root_selection_verification": {
+          "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-krill-integration-20260927/root/batch09-selection-verification.json",
+          "sha256": "944ba31e39a7771754986d59bc5b8e350d750e554d0aa8f9a97bf2907eab8f57"
+        },
+        "status": "Scientific screening in progress; not added to completed coverage at this checkpoint.",
+        "new_completed_screening_credit": 0,
+        "selection_is_not_reading": true
+      },
+      "completion_state": "Completed at the separately bound available-source screening scope; former pending state preserved as history.",
+      "completed_screening_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch09-20260927/independent-final-review/final-bindings.json",
+        "sha256": "01086d869719e30fdd4c4b5b12100f7cda6dafc24e58815f22e8abd4a7e4c07d"
+      }
+    }
+  ]
 }
