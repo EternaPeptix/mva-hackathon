@@ -108,7 +108,7 @@ laboratory, material or instrument has been secured.
 | Access and genetic interpretation | Prospective genetics/cell-engineering partner; authorized material and genotype/phase verification. Access is unconfirmed. | Model origin, allele configuration and controls established; apply confirmed-cis stop and label engineered alternatives. |
 | Drug-free muscle qualification | Prospective muscle laboratory; differentiation, stimulation/force measurement, viable-tissue accounting and allele assays. | Masked affected-versus-corrected comparisons; identify a functional deficit that genetic correction improves, or document why interpretation failed. |
 | Mechanism and exposure | Qualified model plus analytical/pharmacology support; niacin utilization/BUBR1 function, myostatin precursor activation/antibody engagement and measured exposure. mTOR studies are conditional. | A justified mechanism/exposure window, or a specific unresolved limitation. Nominal concentration alone cannot qualify exposure. |
-| Separate drug pilots | Qualified cultures, matched vehicle/isotype controls, randomization, masking and complete outcome accounting. | Select one regimen each for niacin and apitegromab; estimate variance/missingness and freeze margins and independent confirmation size. Keep conditional probes exploratory. |
+| Separate drug pilots | Qualified cultures, matched vehicle/isotype controls, randomization, masking and complete outcome accounting. | Compare niacin with a distinct NMN precursor benchmark in the restoration pilot, and test apitegromab separately for compensation. Do not transfer an effect between precursors or combine candidates. Estimate variance/missingness and freeze margins and independent confirmation size; keep other conditional probes exploratory. |
 | Independent confirmation | Fresh preparations, both functional cohorts, the four-claim rule below and oncology compatibility review. | Advance only an implementation meeting functional, renewal, fidelity, exposure and compatibility requirements. |
 
 Only public-data computation and the documented analyses are currently available.
@@ -193,7 +193,7 @@ excess or treatment response.
 Qualify the relevant mechanism in the same model before interpreting its drug
 test; failed models or assays are not candidate exclusions.
 
-### Niacin: core restoration hypothesis, with arimoclomol as a reserve
+### Niacin and NMN: distinct restoration hypotheses; arimoclomol as a reserve
 
 Separate rescue of quantity from rescue of quality.
 
@@ -222,11 +222,12 @@ or function per molecule**; arimoclomol would then need to demonstrate that dist
 effect. If neither WT correction nor a qualified WT rescue restores the phenotype,
 resolve the model/background before assigning drug failure to this mechanism.
 
-For niacin, measure baseline and drug-induced intracellular NAD, SIRT2 expression
+For niacin and the separate NMN benchmark, measure baseline and compound-induced intracellular NAD, SIRT2 expression
 and a validated activity readout, then BUBR1 turnover and tissue function. NAD
 deficiency is an unknown to measure, not a mandatory inclusion criterion. Compare
 a suitable SIRT2 perturbation with its rescue or catalytically inactive control; account for effects on baseline BUBR1, viability
-and cell cycle. NMN provides a pathway reference, not an interchangeable exposure.
+and cell cycle. Interpret the two compounds at measured exposure; NMN's prior
+BubR1-abundance result does not establish niacin response or actual-mutant rescue.
 For arimoclomol, distinguish inducible/constitutive HSP70-family responses and
 HSP90-related effects from BUBR1 amount, localization and function. Neither a
 chaperone marker nor correlation between NAD and BUBR1 proves causal rescue.
@@ -688,8 +689,9 @@ no genotype-directed chemotherapy dose change or clinical avoid-list.
 | A qualified experiment excludes a useful effect with adequate precision | Resolved negative only for the tested implementation, tissue, genotype, exposure and duration. |
 | Independent experiments meet absolute functional-benefit, renewal-preservation, no-worse-fidelity and exposure criteria with acceptable parallel results | Advance that implementation to relevant-model/translational confirmation; state only the supported mechanism. Bone, developmental, oncology and other systemic outcomes remain outside a culture-based benefit claim. |
 
-The proposal nominates niacin-mediated BUBR1 restoration and apitegromab-mediated
-muscle compensation as separate core hypotheses. Everolimus remains a conditional
+The proposal prioritizes niacin-mediated BUBR1 restoration with NMN as a distinct
+precursor benchmark, and apitegromab-mediated muscle compensation as separate
+hypotheses. Everolimus remains a conditional
 mechanism probe; arimoclomol and dasatinib retain their qualified reserve roles.
 These priorities weigh gene relevance and functional evidence symmetrically;
 functional superiority in MVA remains unmeasured.
