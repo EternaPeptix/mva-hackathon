@@ -6,6 +6,8 @@
 
 Niacin’s human muscle-NAD engagement remains useful, but five myopathy patients and ten **treated** healthy controls provide no placebo-controlled functional contrast; follow-up durations also differ. Pediatric progression despite NAD correction shows why engagement alone is insufficient. Its BUBR1 bridge relies on **NMN and genetic SIRT2**, not niacin rescue. [Existing evidence table](../../reports/appendices/track2-evidence-pipeline.md).
 
+A low-dose 32-day crossover mixture (4 mg/day nicotinic acid plus nicotinamide and tryptophan) raised muscle methyl-nicotinamide but not muscle NAD+ and did not improve objective muscle or mitochondrial outcomes. This is useful counterevidence to generic NAD-precursor claims, not a high-dose niacin monotherapy test; see the [source qualification](../../workflow/track2-drug-census/nad-precursor-mixture-muscle-qualification.md).
+
 Apitegromab retains the strongest documented pediatric **primary motor-function** comparison in this selected set: pooled SAPPHIRE HFMSE difference 1.8 points (95% CI 0.30–3.32). It was measured in SMA on SMN therapy. Higher-dose standalone efficacy was nonsignificant; fractures were 5/53 versus 1/50 at the labeled-dose comparison, and EMBRAZE supplied no notable functional gain despite lean-mass retention. The inherited SAPPHIRE review used the primary abstract and full official label, **not the full trial main/SAP**; incomplete source access therefore cannot uniquely disqualify challengers. [Existing appraisal](../../workflow/track2-drug-census/apitegromab-review.md).
 
 **Proximal BUBR1 / protein route**

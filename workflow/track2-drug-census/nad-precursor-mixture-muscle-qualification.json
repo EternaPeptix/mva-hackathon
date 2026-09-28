@@ -1,0 +1,80 @@
+{
+  "schema": "track2-compound-primary-appraisal-v1",
+  "candidate": "Low-dose L-tryptophan + nicotinic acid + nicotinamide mixture (Connell et al. 2021)",
+  "status": "ROOT_SINGLE_READER_FULL_TEXT_QUALIFICATION",
+  "ledger_admission": false,
+  "disposition": "Retain as bounded counterevidence to generic NAD-precursor claims; not a niacin monotherapy test, BUB1B candidate, or Track 2 nominee.",
+  "route": "NAD-precursor mixture; no BUBR1-restoration mechanism tested.",
+  "identity_boundary": "The intervention combined L-tryptophan, nicotinic acid and nicotinamide. Results cannot be attributed to nicotinic acid alone or transferred to NMN, NR, other niacin doses, or retail products.",
+  "bub1b_mva_evidence": {
+    "BUB1B_or_BUBR1_measured": false,
+    "patient_variant_response_measured": false,
+    "spindle_checkpoint_or_chromosome_fidelity_measured": false,
+    "MVA_population_studied": false,
+    "MVA_efficacy_established": false,
+    "tumor_or_cancer_safety_outcome_measured": false
+  },
+  "primary_study": {
+    "id": "PMID:34191033 / DOI:10.1093/jn/nxab193 / NCT03310034",
+    "citation": "Connell NJ et al. NAD+-Precursor Supplementation With L-Tryptophan, Nicotinic Acid, and Nicotinamide Does Not Affect Mitochondrial Function or Skeletal Muscle Function in Physically Compromised Older Adults. J Nutr. 2021;151(10):2917-2931.",
+    "design": "Randomized, double-blind, controlled crossover; each period 32 days with at least five weeks washout.",
+    "population": "Community-dwelling physically compromised adults aged at least 65; 14 actual participants in the registry, 13 described in the paper, outcome-specific n=11-13. Not selected for NAD deficiency or a neuromuscular diagnosis.",
+    "intervention": "Reported 207.5 mg/day niacin equivalents: L-tryptophan 210 mg/day, nicotinic acid 4 mg/day, and nicotinamide 200 mg/day.",
+    "comparator": "Amino-acid mixture resembling the whey-protein source without the three tested NAD precursors.",
+    "outcomes": {
+      "muscle_NAD_plus": "No intervention-control difference, P=.123; n=11.",
+      "muscle_NAAD": "No difference, P=.262; n=11.",
+      "muscle_methyl_nicotinamide": "Increased under intervention, P=.001; marker compatible with altered NAD turnover, not proof of increased NAD availability or BUBR1 engagement.",
+      "mitochondrial_respiration": "No benefit in ADP-stimulated respiration, P=.716, or maximal uncoupled respiration, P=.495. Abstract and main text give discrepant net exercise-efficiency P values (.342 and .636 respectively); discrepancy retained unresolved.",
+      "physical_function": "SPPB balance, gait, chair-rise and total-score comparisons nonpositive. One perceived-physical-function RAND-36 domain favored intervention, P=.031, n=12; other reported domains nonpositive. Figure caption says eight domains while Discussion says one of nine; multiplicity adjustment not identified.",
+      "body_composition_and_volume": "No reported intervention-control difference in body composition or vastus lateralis volume.",
+      "exercise_and_energy": "No reported benefit in exercise energy expenditure, substrate use or efficiency.",
+      "tolerability": "100% intervention sachets and 99% control sachets reported consumed; one cold sore resolved without intervention. Short, small study does not establish broader safety."
+    },
+    "limitations": [
+      "The intervention is a mixture, so the effect of nicotinic acid cannot be isolated.",
+      "Nicotinic acid was only 4 mg/day, far below the 750-1000 mg/day niacin dose in Pirinen et al.; this is not a high-dose niacin monotherapy failure test.",
+      "No BUB1B/BUBR1, checkpoint, chromosome-fidelity, or MVA endpoint was measured.",
+      "Functional outcomes were secondary/exploratory; the sample-size calculation concerned primary mitochondrial respiration, not those functional endpoints.",
+      "The sole perceived-function positive was one among multiple RAND-36 domains; no multiplicity correction was identified.",
+      "The sample was small, follow-up was 32 days per condition, and some assays used only 11-13 participants.",
+      "Abstract/main-text P values disagree for net exercise efficiency; RAND-36 domain count also differs between caption and discussion.",
+      "ClinicalTrials.gov lists the study as terminated after COVID-19 disruption and posts no results."
+    ],
+    "source_scope": "Complete Europe PMC XML scientific text, figure captions, methods, results and discussion; PubMed record; current ClinicalTrials.gov API record. Figure images and historical registry versions were not inspected."
+  },
+  "competitive_interpretation": {
+    "versus_niacin": "No direct BUB1B/BUBR1 evidence and no objective function benefit, but it does not test high-dose nicotinic acid monotherapy. It supports compound- and dose-specific evaluation rather than class-wide precursor equivalence.",
+    "versus_apitegromab": "No objective muscle-function positive; apitegromab has stronger pediatric motor-function evidence in SMA, although no MVA transfer is established.",
+    "nomination_decision": "Do not add as a Track 2 nominee or alter the provisional niacin/apitegromab pair. Retain as a niacin counterevidence qualification."
+  },
+  "source_files": [
+    {
+      "file": "nadal-skeletal-muscle-pmc8485915.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8485915/fullTextXML",
+      "bytes": 142114,
+      "sha256": "e26e2bf41b4f2efe3ec58feafa902b633ca9873422e151b0f78830388ccb8841",
+      "scope": "Complete scientific article XML."
+    },
+    {
+      "file": "pubmed-34191033.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34191033&retmode=xml",
+      "bytes": 35975,
+      "sha256": "bdffaa61cfa33798ba05bcaab578f046b32c5573c42da74e032d74051db0c4ee",
+      "scope": "Bibliographic identity and abstract."
+    },
+    {
+      "file": "clinicaltrials-nct03310034.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT03310034",
+      "bytes": 7046,
+      "sha256": "96a5aa8cd674ccaee9f6fe4e219bf9474ffa2f3c30b584cdc679a53c17f32d27",
+      "scope": "Current registry design, status, intervention, outcomes, enrollment and posting history fields."
+    }
+  ],
+  "external_source_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nad-precursor-combination-followup-20260928/source-manifest.json",
+  "next_evidence_gates": [
+    "Keep nicotinic acid, nicotinamide, NMN, NR and mixtures as distinct interventions in the next comparative BUBR1 study.",
+    "Measure muscle NAD pathway engagement, allele-specific BUBR1 abundance/function, absolute muscle output, renewal and chromosome fidelity at justified exposure.",
+    "Do not use this mixture trial as a negative test of high-dose niacin or as evidence for MVA efficacy."
+  ]
+}
