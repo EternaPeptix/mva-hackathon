@@ -25,6 +25,14 @@ CPDAT_GENERIC = {
     'ethyl', 'propyl', 'butyl', 'ester', 'esters', 'yeast',
     'saccharomyces cerevisiae', 'not available', 'not specified', 'unknown',
     'none', 'n a', 'na', 'n d', 'nd',
+    # Names below generated clear lexical collisions in the version-comparison
+    # audit: common prose, broad chemical classes, or fragments of longer names.
+    'balance', 'trigger', 'vehicle', 'essence', 'acetyl', 'amine', 'acetamide',
+    'retinal', 'yellow', 'label', 'lead compound', 'binder', 'cement',
+    'additive', 'stabilizer', 'lutetium',
+    'nicotinamide adenine dinucleotide phosphate',
+    # Parent-name fragments in a derivative/epoxide or broad chemical family.
+    'phthalate', '4 vinylcyclohexene',
 }
 
 
@@ -36,18 +44,48 @@ def sha(path):
     return h.hexdigest()
 
 
-def read_cpdat(path):
+def read_cpdat(path, target_kind='Formulation'):
     chemicals = {}
     row_count = 0
     category_stats = defaultdict(lambda: {'rows': 0, 'dtxsids': set(), 'product_ids': set()})
     with zipfile.ZipFile(path) as archive:
-        table = 'cpdat_v4.0/cpdat_v4.0_product_composition_data.csv'
+        members = archive.namelist()
+        old_table = 'cpdat_v4.0/cpdat_v4.0_product_composition_data.csv'
+        if old_table in members:
+            table = old_table
+            field_map = {
+                'puc_kind': 'puc_kind',
+                'dtxsid': 'dtxsid',
+                'category': 'puc_general_category',
+                'curated_name': 'curated_chemical_name',
+                'raw_name': 'raw_chemical_name',
+                'document_id': 'cpdat_product_id',
+                'product_name': 'product_title',
+            }
+            release = 'CPDat v4.0, Figshare version 5, posted 2025-04-09'
+            product_identity_basis = 'cpdat_product_id'
+        else:
+            candidates = [name for name in members if name.endswith('ChemExpo_bulk_composition_chemicals.csv')]
+            if len(candidates) != 1:
+                raise ValueError(f'Cannot identify a supported CPDat composition CSV in {path}: {members[:5]}')
+            table = candidates[0]
+            field_map = {
+                'puc_kind': 'PUC Kind',
+                'dtxsid': 'DTXSID',
+                'category': 'PUC General Category',
+                'curated_name': 'Curated Chemical Name',
+                'raw_name': 'Raw Chemical Name',
+                'document_id': 'Data Document ID',
+                'product_name': 'Product Name',
+            }
+            release = 'CPDat v4.1 (May 2025; ChemExpo bulk download retrieved 2026-09-28)'
+            product_identity_basis = 'Data Document ID + Product Name; bulk export has no stable product ID field'
         with archive.open(table) as raw:
             rows = csv.DictReader(io.TextIOWrapper(raw, encoding='utf-8-sig', newline=''))
             for row in rows:
-                if (row.get('puc_kind') or '').strip() != 'Formulation':
+                if (row.get(field_map['puc_kind']) or '').strip() != target_kind:
                     continue
-                dtxsid = (row.get('dtxsid') or '').strip()
+                dtxsid = (row.get(field_map['dtxsid']) or '').strip()
                 if not dtxsid:
                     continue
                 row_count += 1
@@ -55,20 +93,23 @@ def read_cpdat(path):
                     'names': set(), 'categories': set(), 'product_ids': set(), 'rows': 0,
                 })
                 item['rows'] += 1
-                category = (row.get('puc_general_category') or '').strip() or 'UNKNOWN'
+                category = (row.get(field_map['category']) or '').strip() or 'UNKNOWN'
                 category_stats[category]['rows'] += 1
                 category_stats[category]['dtxsids'].add(dtxsid)
-                for field in ('curated_chemical_name', 'raw_chemical_name'):
-                    value = (row.get(field) or '').strip()
+                for field in ('curated_name', 'raw_name'):
+                    value = (row.get(field_map[field]) or '').strip()
                     if value:
-                        item['names'].add((field, value))
+                        canonical_field = 'curated_chemical_name' if field == 'curated_name' else 'raw_chemical_name'
+                        item['names'].add((canonical_field, value))
                 if category:
                     item['categories'].add(category)
-                product_id = (row.get('cpdat_product_id') or '').strip()
+                document_id = (row.get(field_map['document_id']) or '').strip()
+                product_name = (row.get(field_map['product_name']) or '').strip()
+                product_id = document_id if product_identity_basis == 'cpdat_product_id' else '\x1f'.join((document_id, product_name))
                 if product_id:
                     item['product_ids'].add(product_id)
                     category_stats[category]['product_ids'].add(product_id)
-    return chemicals, row_count, category_stats
+    return chemicals, row_count, category_stats, release, table, product_identity_basis, target_kind
 
 
 def read_corpus(path):
@@ -85,10 +126,13 @@ def main():
     ap.add_argument('--corpus', type=Path, required=True)
     ap.add_argument('--decision-ledger', type=Path, required=True)
     ap.add_argument('--out', type=Path, required=True)
+    ap.add_argument('--puc-kind', choices=('Formulation', 'Article'), default='Formulation',
+                    help='Screen one CPDat product-use kind. Formulation is the default; Article is a separate consumer/article discovery layer.')
     args = ap.parse_args()
     args.out.mkdir(parents=True, exist_ok=True)
 
-    chemicals, formulation_rows, category_stats = read_cpdat(args.cpdat_zip)
+    chemicals, selected_rows, category_stats, cpdat_release, composition_table, product_identity_basis, target_kind = read_cpdat(args.cpdat_zip, args.puc_kind)
+    output_stem = 'consumer-formulations' if target_kind == 'Formulation' else 'consumer-articles'
     corpus, records = read_corpus(args.corpus)
     ledger = json.loads(args.decision_ledger.read_text())
     ledger_aliases = defaultdict(set)
@@ -124,9 +168,9 @@ def main():
                 'normalized_name': normalize(name),
                 'categories': ';'.join(sorted(item['categories'])),
                 'composition_rows': item['rows'],
-                'product_ids': len(item['product_ids']),
+                'distinct_product_keys': len(item['product_ids']),
             })
-    with (args.out / 'consumer-formulation-aliases.tsv').open('w', newline='') as f:
+    with (args.out / f'{output_stem}-aliases.tsv').open('w', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=list(alias_rows[0]), delimiter='\t', lineterminator='\n')
         writer.writeheader(); writer.writerows(alias_rows)
 
@@ -140,16 +184,16 @@ def main():
             'raw_names': json.dumps(raw, ensure_ascii=False),
             'product_categories': ';'.join(sorted(item['categories'])),
             'composition_rows': item['rows'],
-            'unique_product_ids': len(item['product_ids']),
+            'distinct_product_keys': len(item['product_ids']),
         })
-    with (args.out / 'consumer-formulations.tsv').open('w', newline='') as f:
+    with (args.out / f'{output_stem}.tsv').open('w', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=list(chemical_rows[0]), delimiter='\t', lineterminator='\n')
         writer.writeheader(); writer.writerows(chemical_rows)
     with (args.out / 'product-category-summary.tsv').open('w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=['product_category', 'formulation_rows', 'unique_dtxsids', 'unique_product_ids'], delimiter='\t', lineterminator='\n')
+        writer = csv.DictWriter(f, fieldnames=['puc_kind', 'product_category', 'composition_rows_with_dtxsid', 'unique_dtxsids', 'distinct_product_keys'], delimiter='\t', lineterminator='\n')
         writer.writeheader()
         for category, counts in sorted(category_stats.items()):
-            writer.writerow({'product_category': category, 'formulation_rows': counts['rows'], 'unique_dtxsids': len(counts['dtxsids']), 'unique_product_ids': len(counts['product_ids'])})
+            writer.writerow({'puc_kind': target_kind, 'product_category': category, 'composition_rows_with_dtxsid': counts['rows'], 'unique_dtxsids': len(counts['dtxsids']), 'distinct_product_keys': len(counts['product_ids'])})
 
     match_counts = Counter()
     matches = []
@@ -197,20 +241,24 @@ def main():
     payload = {
         'schema_version': 1,
         'status': 'LEXICAL_DISCOVERY_ONLY_NOT_EFFICACY_REVIEW',
-        'cpdat_release': 'CPDat v4.0, Figshare version 5, posted 2025-04-09',
-        'cpdat_doi': '10.23645/epacomptox.5352997',
-        'cpdat_scope': 'Product composition table, puc_kind=Formulation; includes source product categories such as personal care, household cleaning, food/drug, pesticides, vehicles and others. Product records do not prove current availability, use, exposure, or ingredient concentration in a purchased item.',
+        'cpdat_release': cpdat_release,
+        'cpdat_source_url': 'https://comptox.epa.gov/chemexpo/get_data/',
+        'cpdat_doi': '10.23645/epacomptox.5352997' if 'v4.0' in cpdat_release else None,
+        'composition_table': composition_table,
+        'product_identity_basis': product_identity_basis,
+        'puc_kind': target_kind,
+        'cpdat_scope': f'Product composition table filtered to PUC Kind={target_kind}; product categories are retained separately. Product records do not prove current availability, use, exposure, or ingredient concentration in a purchased item.',
         'cpdat_archive_sha256': sha(args.cpdat_zip),
         'gene_corpus_sha256': sha(args.corpus),
         'decision_ledger_sha256': sha(args.decision_ledger),
         'decision_ledger_count': len(ledger['decisions']),
         'gene_corpus_query': corpus.get('query'),
         'gene_corpus_records': len(records),
-        'formulation_composition_rows_with_dtxsid': formulation_rows,
-        'unique_formulation_dtxsids': len(chemicals),
-        'unique_normalized_formulation_names': len(alias_to_ids),
-        'cpdat_alias_rows': len(alias_rows),
-        'formulation_product_categories': len(category_stats),
+        'selected_kind_composition_rows_with_dtxsid': selected_rows,
+        'unique_selected_kind_dtxsids': len(chemicals),
+        'unique_normalized_selected_kind_names': len(alias_to_ids),
+        'selected_kind_alias_rows': len(alias_rows),
+        'selected_kind_categories': len(category_stats),
         'exact_name_screen_counts': dict(match_counts),
         'exact_unique_name_matches_written': len(matches),
         'source_id_records_with_any_exact_or_low_specificity_match': len(all_source_ids),
@@ -218,15 +266,23 @@ def main():
         'review_class_exact_match_dtxsids': len(review_dtxsids),
         'review_class_matches_to_existing_decision_aliases': len(matched_decisions),
         'limitations': [
-            'CPDat v4.0 is a dated source release; the EPA ChemExpo page reports CPDat 4.1 as the current release, which was not obtained in this run.',
+            'CPDat is a dated source release and the bulk download endpoint may be updated independently; archive hashes identify the exact bytes used.',
             'This is a lexical exact-name screen of curated/raw chemical names against titles and abstracts in the fixed BUB1B/BUBR1 literature corpus.',
             'LOW_SPECIFICITY names use the existing BUB1B corpus common-term list plus explicit CPDat generic labels; they are counted but excluded from the review list. Multi-DTXSID names are also excluded.',
             'A co-mention is not evidence that the chemical was administered, changed BUB1B/BUBR1, or improved MVA phenotype.',
             'No CPDat record establishes current market presence, actual household exposure, dose, route, or product concentration.',
+            'CPDat v4.1 has no stable product ID column in its bulk composition export; distinct Data Document ID plus Product Name pairs are used only as a descriptive key and are not equivalent to the v4.0 cpdat_product_id field.',
         ],
     }
+    if target_kind == 'Formulation':
+        payload['formulation_composition_rows_with_dtxsid'] = selected_rows
+        payload['unique_formulation_dtxsids'] = len(chemicals)
+        payload['unique_normalized_formulation_names'] = len(alias_to_ids)
+        payload['cpdat_alias_rows'] = len(alias_rows)
+        payload['formulation_product_categories'] = len(category_stats)
     (args.out / 'screen-summary.json').write_text(json.dumps(payload, indent=2, ensure_ascii=False) + '\n')
-    print(json.dumps({k: payload[k] for k in ('cpdat_release','formulation_composition_rows_with_dtxsid','unique_formulation_dtxsids','unique_normalized_formulation_names','cpdat_alias_rows','exact_name_screen_counts','exact_unique_name_matches_written','source_id_records_with_any_exact_or_low_specificity_match','source_id_records_with_review_class_exact_match','review_class_exact_match_dtxsids','review_class_matches_to_existing_decision_aliases','limitations')},indent=2,ensure_ascii=False))
+    keys = ('cpdat_release','puc_kind','selected_kind_composition_rows_with_dtxsid','unique_selected_kind_dtxsids','unique_normalized_selected_kind_names','selected_kind_alias_rows','selected_kind_categories','exact_name_screen_counts','exact_unique_name_matches_written','source_id_records_with_any_exact_or_low_specificity_match','source_id_records_with_review_class_exact_match','review_class_exact_match_dtxsids','review_class_matches_to_existing_decision_aliases','limitations')
+    print(json.dumps({k: payload[k] for k in keys},indent=2,ensure_ascii=False))
 
 
 if __name__ == '__main__':

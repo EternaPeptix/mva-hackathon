@@ -1,0 +1,47 @@
+{
+  "target_corpus": "BUB1B/BUBR1 Europe PMC corpus frozen 2026-09-21",
+  "target_corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+  "decision_ledger_sha256": "b79a1158b136d737854d64d675efb0a41e8df7c97875ce00786f604123d0a748",
+  "decision_ledger_count": 287,
+  "screening_script": "workflow/track2-drug-census/build_cpdat_bub1b_screen.py",
+  "screening_script_sha256": "beacd5c63fa1b7467c09e300ce4ed7ded9b41b833347ea781b7669851fcda7a3",
+  "schema_version": 1,
+  "retrieval_date": "2026-09-28",
+  "source": "US EPA Chemical and Products Database (CPDat) v4.0, Figshare version 5",
+  "source_doi": "https://doi.org/10.23645/epacomptox.5352997",
+  "file_url": "https://ndownloader.figshare.com/files/53538266",
+  "license": "CC0",
+  "archive_bytes": 106473580,
+  "archive_sha256": "53cd5b49210a6f3790be0c33485654de7461b4d1fdeea9fdc312668c82e93d15",
+  "puc_kind": "Article",
+  "output_table": "consumer-articles.tsv",
+  "product_identity_basis": "cpdat_product_id",
+  "outputs": [
+    {
+      "path": "README.md",
+      "bytes": 1353,
+      "sha256": "22333cc320bcb97776cfb1b0d7bc83d42c93076781add1c05b3c8e48d7b3fbd6"
+    },
+    {
+      "path": "consumer-articles.tsv",
+      "bytes": 726135,
+      "sha256": "330bfcb935bd1ac1c9049a3ec883c40fc667bdeb4823954212d9132bec09dc07"
+    },
+    {
+      "path": "product-category-summary.tsv",
+      "bytes": 725,
+      "sha256": "74dcad0d2e101a9bb14789f94762bb320fe55bdde152048b283233b203790402"
+    },
+    {
+      "path": "bub1b-exact-name-co-mentions.tsv",
+      "bytes": 72472,
+      "sha256": "5fa3afa1463f83a1c72d19f3a176757c3d164371e4957e2eaf6790559d1a1918"
+    },
+    {
+      "path": "screen-summary.json",
+      "bytes": 2675,
+      "sha256": "d5e46a8527f1dc67ade4f05393470e40ebc317c01b00b199ca42892b2da38f56"
+    }
+  ],
+  "scope_limit": "Article-kind source records include consumer and industrial categories; exact-name co-mentions do not establish use, exposure, efficacy or current availability."
+}

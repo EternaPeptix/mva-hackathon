@@ -5270,6 +5270,62 @@
         "https://doi.org/10.23645/epacomptox.5352997"
       ],
       "identity_limit": "BPA is distinct from BPB, BPAP, BPAF, BPS, and other bisphenol analogues. CPDat v4.0 product-category evidence does not establish current-market status, the chemical content of any currently purchased item, or user exposure. No transfer to other bisphenols or retail products."
+    },
+    {
+      "decision_id": "new-naproxen-bubr1-downregulation",
+      "match_aliases": [
+        "naproxen"
+      ],
+      "route": "Naproxen / common analgesic; high-concentration BUB1B transcript comparator",
+      "disposition": "Retain the source-specific high-concentration BUB1B-down transcript result as an adverse-direction comparator; decline as a BUB1B-restoration or MVA muscle-benefit lead.",
+      "evidence_scope": "Full 2026 primary NHP Sertoli-cell study and Europe PMC supplement, including Data File S1. Three biological replicates per RNA-seq condition; no MVA, muscle, BUBR1 protein, checkpoint-function or chromosome-fidelity assay.",
+      "bub1b_variant_efficacy": "No rescue demonstrated for Leu737Ter/Asn1002Lys; high-concentration exposure lowered BUB1B RNA in a nonhuman-primate Sertoli-cell model.",
+      "rationale": "Crow et al. compared primary rhesus-macaque Sertoli cells treated with naproxen at 4, 40 or 400 µM against water vehicle. The 4 and 40 µM expression profiles were described as similar to control; 400 µM produced the largest transcriptional response. Supplementary Data File S1 lists BUB1B with effect column −0.681759, P=5.26e−8 and adjusted P=6.08e−6, meeting the authors’ DEG threshold. The article has an internal total-DEG discrepancy (142 in Results versus 158 in the Figure 2 legend); it does not alter the BUB1B row. The highest nominal concentration exceeds typical plasma exposure per the authors. This is a lower-transcript signal, not BUBR1 protein loss, faithful-division impairment, muscle harm or ordinary-use risk. It opposes the restoration rationale and does not establish harm or benefit in MVA.",
+      "source_report": "workflow/track2-drug-census/naproxen-ibuprofen-bubr1b-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13072845/",
+        "https://pubmed.ncbi.nlm.nih.gov/41977223/",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13072845/supplementaryFiles",
+        "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1241271",
+        "https://comptox.epa.gov/chemexpo/"
+      ],
+      "identity_limit": "The article names naproxen (Sigma catalog N8280); CPDat v4.1 lists naproxen sodium as a separate formulation-table chemical. Do not automatically assign the cell result to every salt, marketed formulation, dose or ordinary-use exposure."
+    },
+    {
+      "decision_id": "new-ibuprofen-bubr1-downregulation",
+      "match_aliases": [
+        "ibuprofen"
+      ],
+      "route": "Ibuprofen / common analgesic; high-concentration BUB1B transcript comparator",
+      "disposition": "Retain the source-specific high-concentration BUB1B-down transcript result as an adverse-direction comparator; decline as a BUB1B-restoration or MVA muscle-benefit lead.",
+      "evidence_scope": "Full 2026 primary NHP Sertoli-cell study and Europe PMC supplement, including Data File S4. Three biological replicates per RNA-seq condition; no MVA, muscle, BUBR1 protein, checkpoint-function or chromosome-fidelity assay.",
+      "bub1b_variant_efficacy": "No rescue demonstrated for Leu737Ter/Asn1002Lys; high-concentration exposure lowered BUB1B RNA in a nonhuman-primate Sertoli-cell model.",
+      "rationale": "Crow et al. compared primary rhesus-macaque Sertoli cells treated with ibuprofen at 1, 10 or 100 µM against ethanol vehicle. The 1 and 10 µM expression profiles were described as similar to control; 100 µM produced the largest transcriptional response. Supplementary Data File S4 lists BUB1B with effect column −1.0040105, P=2.21e−10 and adjusted P=2.89e−8, meeting the authors’ DEG threshold. The highest nominal concentration exceeds typical plasma exposure per the authors. This is a lower-transcript signal, not BUBR1 protein loss, faithful-division impairment, muscle harm or ordinary-use risk. It opposes the restoration rationale and does not establish harm or benefit in MVA.",
+      "source_report": "workflow/track2-drug-census/naproxen-ibuprofen-bubr1b-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13072845/",
+        "https://pubmed.ncbi.nlm.nih.gov/41977223/",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13072845/supplementaryFiles",
+        "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1241271",
+        "https://comptox.epa.gov/chemexpo/"
+      ],
+      "identity_limit": "CPDat v4.1 records ibuprofen under its curated/raw exact name. Formulation rows do not establish current sale, product prevalence or individual exposure; do not infer a clinically meaningful BUB1B effect from this high-concentration in-vitro result."
+    },
+    {
+      "decision_id": "new-mnbp-bubr1b-downregulation",
+      "match_aliases": [],
+      "route": "Mono-n-butyl phthalate (MnBP) / human reproductive-cell exposure comparator",
+      "disposition": "Retain as a source-specific BUB1B-down exposure observation; decline as a restoration or muscle-benefit lead. Do not transfer to other phthalates or infer ordinary-exposure harm.",
+      "evidence_scope": "Full open primary article on urinary metabolites and pooled human granulosa-cell experiments. No MVA, patient variants, BUBR1 protein/function, chromosome-fidelity or muscle outcomes.",
+      "bub1b_variant_efficacy": "No rescue demonstrated for Leu737Ter/Asn1002Lys; high-concentration MnBP treatment lowered BUB1B RNA in pooled human granulosa cells.",
+      "rationale": "In 123 women with endometriosis and 78 controls, urinary MnBP was higher in the endometriosis group after adjustment for number of deliveries, BMI and medication use; other phthalate metabolites were correlated, so this is not a MnBP-specific causal result. For the cell experiment, granulosa cells pooled at oocyte retrieval were treated with 67.5, 250 or 500 micrograms/mL MnBP for 24 hours for RT-qPCR, or 72 hours for mitochondrial-membrane-potential measurement. The article describes lower BUB1B, BIRC3, CDC20 and cyclin B1 RNA, lower AMH/inhibin-B expression and reduced mitochondrial membrane-potential ratio. It does not give a numerical BUB1B effect estimate in prose; pooling prevents donor-level replication. No BUBR1 protein, checkpoint function, chromosome segregation, MVA, muscle or either nominated variant was tested. The high nominal culture concentrations and study design do not establish effects at ordinary exposure. This is an adverse-direction exposure comparator, not a treatment lead.",
+      "source_report": "workflow/track2-drug-census/monobutyl-phthalate-bubr1b-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7084286/",
+        "https://pubmed.ncbi.nlm.nih.gov/32151056/",
+        "https://comptox.epa.gov/chemexpo/"
+      ],
+      "identity_limit": "No exact current-catalog identity join is asserted. The CPDat v4.1 Phthalate article alias is not a match to mono-n-butyl phthalate (MnBP). Do not transfer the source finding to DBP, all phthalates, other metabolites, or consumer products."
     }
   ]
 }

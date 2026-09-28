@@ -6,10 +6,14 @@
     "name": "Bisphenol A",
     "aliases": ["BPA", "4,4-isopropylidenediphenol"],
     "epa_dtxsid": "DTXSID7020182",
-    "cpdat_release": "v4.0, Figshare version 5, posted 2025-04-09"
+    "cpdat_release": "v4.0, Figshare version 5, posted 2025-04-09; v4.1, ChemExpo release May 2025, bulk snapshot retrieved 2026-09-28"
   },
   "cpdat_context": {
-    "formulation_product_ids": 42,
+    "v4_0_formulation_rows": 42,
+    "v4_0_stable_product_ids": 42,
+    "v4_1_formulation_rows": 43,
+    "v4_1_distinct_document_product_name_pairs": 43,
+    "v4_1_product_key_limit": "The v4.1 bulk export has no stable product ID; document/product-name pairs are not directly equivalent to v4.0 product IDs.",
     "product_categories": ["Food and drug", "Home maintenance"],
     "interpretation": "Source product-composition records, not current product availability, purchase prevalence, actual exposure, or concentration."
   },
@@ -33,12 +37,14 @@
     "reason": "The reported direction is lower BUB1B in non-MVA cell models, without evidence of improved checkpoint function or chromosome fidelity. Cytotoxicity and exposure context prevent treating gene reduction as a selective mechanism.",
     "patient_or_ordinary_use_inference": "Not established. No result transfers to the patient's alleles, MVA muscle, or ordinary consumer-product exposure."
   },
-  "source_manifest": "workflow/track2-drug-census/cpdat-v4.0/source-manifest.json",
+  "source_manifests": ["workflow/track2-drug-census/cpdat-v4.0/source-manifest.json", "workflow/track2-drug-census/cpdat-v4.1/source-manifest.json"],
   "source_urls": [
     "https://pubmed.ncbi.nlm.nih.gov/28951153/",
     "https://www.sciencedirect.com/science/article/abs/pii/S0890623817305221",
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC12571864/",
     "https://www.epa.gov/chemical-research/chemical-and-products-database-cpdat",
+    "https://comptox.epa.gov/chemexpo/",
+    "https://comptox.epa.gov/chemexpo/get_data/",
     "https://doi.org/10.23645/epacomptox.5352997"
   ]
 }

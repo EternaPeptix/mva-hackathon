@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "retrieval_date": "2026-09-28",
+  "source": "US EPA ChemExpo bulk composition download; CPDat 4.1 (May 2025, as labelled on current ChemExpo page)",
+  "source_page": "https://comptox.epa.gov/chemexpo/",
+  "download_page": "https://comptox.epa.gov/chemexpo/get_data/",
+  "file_url": "https://comptox.epa.gov/chemexpo/dl_co_chemicals/",
+  "download_response_filename": "ChemExpo_bulk_composition_chemicals_20260928.zip",
+  "license": "No separate license statement was captured on the live bulk-download page; the v4.0 CC0 designation is not applied to this v4.1 snapshot.",
+  "archive_cache_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cpdat-consumer-inventory-20260928/cpdat_v4.1_chemexpo_bulk_composition_20260928.zip",
+  "archive_bytes": 63166256,
+  "archive_sha256": "13c5f2993767d12ec75b47ec4d8d4ce3febb6640ebfa2ece502c32fe7243aa20",
+  "composition_csv_member": "ChemExpo_bulk_composition_chemicals.csv",
+  "composition_csv_uncompressed_bytes": 1083810855,
+  "composition_filter": "Selected PUC Kind and nonblank DTXSID",
+  "product_identity_basis": "Data Document ID + Product Name; not equivalent to v4.0 cpdat_product_id",
+  "source_corpus": "BUB1B/BUBR1 Europe PMC corpus frozen 2026-09-21",
+  "target_corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+  "decision_ledger_sha256": "b79a1158b136d737854d64d675efb0a41e8df7c97875ce00786f604123d0a748",
+  "decision_ledger_count": 287,
+  "screening_script": "workflow/track2-drug-census/build_cpdat_bub1b_screen.py",
+  "screening_script_sha256": "beacd5c63fa1b7467c09e300ce4ed7ded9b41b833347ea781b7669851fcda7a3",
+  "puc_kind": "Article",
+  "output_table": "consumer-articles.tsv",
+  "outputs": [
+    {
+      "path": "README.md",
+      "bytes": 2570,
+      "sha256": "124dc94e1addd43ee9ed1c2276be0383b3d8bcd9a35ed3a1ee5fc890de75501e"
+    },
+    {
+      "path": "consumer-articles.tsv",
+      "bytes": 752660,
+      "sha256": "2b6710c7153e7ae255fa8bde058124dc212154a7971f1415181eafc868247f21"
+    },
+    {
+      "path": "product-category-summary.tsv",
+      "bytes": 731,
+      "sha256": "c420f6fb9d72bb04dfb114d40902d89eb40d96819762c4fc82319c80f186bd74"
+    },
+    {
+      "path": "bub1b-exact-name-co-mentions.tsv",
+      "bytes": 75301,
+      "sha256": "60681bd7bdbdf4be2520d8dffeafc53c2d184dcbbc662196d35b43215d2e2c55"
+    },
+    {
+      "path": "screen-summary.json",
+      "bytes": 2716,
+      "sha256": "f2e450a8d7ca274cb6c7fb90486888a46bde904e019d71f52a5ceb6bb3dc5302"
+    },
+    {
+      "path": "new-article-only-hit-triage.tsv",
+      "bytes": 2121,
+      "sha256": "d6f96dece6c2483a1cb4a0b40d8b1564565799af13c57d06816fa96f92347aac"
+    }
+  ],
+  "scope_limit": "Article-kind records include consumer and industrial categories. They are not evidence of purchase, exposure, therapeutic efficacy or complete chemical coverage."
+}

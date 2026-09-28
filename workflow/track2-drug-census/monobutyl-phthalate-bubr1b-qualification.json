@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "qualification": "ADVERSE_DIRECTION_EXPOSURE_COMPARATOR_NOT_MVA_EFFICACY",
+  "review_date": "2026-09-28",
+  "compound": "Mono-n-butyl phthalate (MnBP)",
+  "source": {
+    "title": "Exposure to Mono-n-Butyl Phthalate in Women with Endometriosis and Its Association with the Biological Effects on Human Granulosa Cells",
+    "pmid": "32151056",
+    "pmcid": "PMC7084286",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7084286/"
+  },
+  "human_observation": {
+    "endometriosis_group_n": 123,
+    "control_group_n": 78,
+    "finding": "Urinary MnBP was higher in women with endometriosis after adjustment for number of deliveries, BMI, and medication use.",
+    "limits": [
+      "Observational association does not establish causation.",
+      "MnBP correlated with the other measured phthalate metabolites, so the association is not MnBP-specific."
+    ]
+  },
+  "cell_experiment": {
+    "model": "Human granulosa cells pooled at oocyte retrieval; too few cells were available for separate same-day treatment-group cultures.",
+    "doses_microgram_per_ml": [67.5, 250, 500],
+    "exposure": "24 hours for RT-qPCR; 72 hours for mitochondrial membrane-potential measurement.",
+    "bubr1b_result": "The article reports lower BUB1B RNA after MnBP treatment; no numerical BUB1B effect estimate is provided in the prose.",
+    "other_results": [
+      "Lower BIRC3, CDC20, and cyclin B1 RNA.",
+      "Reduced mitochondrial membrane-potential ratio.",
+      "Lower AMH and inhibin-B expression."
+    ]
+  },
+  "not_measured": [
+    "BUBR1 protein abundance or checkpoint function",
+    "chromosome segregation or aneuploidy",
+    "skeletal muscle output",
+    "MVA or either nominated BUB1B variant",
+    "effects at ordinary exposure concentrations"
+  ],
+  "decision": "Retain as a source-specific BUB1B-down exposure comparator; decline as a BUB1B-restoration or muscle-benefit lead. No ordinary-exposure harm or MVA effect is established.",
+  "identity_limit": "The CPDat v4.1 Phthalate article alias is not an identity match to MnBP. No CPDat product record for MnBP or exact catalog join is asserted. Do not transfer the result to DBP, other phthalates, metabolites, or consumer products.",
+  "source_urls": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7084286/",
+    "https://pubmed.ncbi.nlm.nih.gov/32151056/",
+    "https://comptox.epa.gov/chemexpo/"
+  ]
+}

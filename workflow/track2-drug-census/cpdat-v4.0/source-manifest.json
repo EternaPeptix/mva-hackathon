@@ -1,4 +1,10 @@
 {
+  "target_corpus": "BUB1B/BUBR1 Europe PMC corpus frozen 2026-09-21",
+  "target_corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+  "decision_ledger_sha256": "b79a1158b136d737854d64d675efb0a41e8df7c97875ce00786f604123d0a748",
+  "decision_ledger_count": 287,
+  "screening_script": "workflow/track2-drug-census/build_cpdat_bub1b_screen.py",
+  "screening_script_sha256": "beacd5c63fa1b7467c09e300ce4ed7ded9b41b833347ea781b7669851fcda7a3",
   "schema_version": 1,
   "retrieval_date": "2026-09-28",
   "source": "US EPA Chemical and Products Database (CPDat) v4.0, Figshare version 5",
@@ -7,47 +13,45 @@
   "license": "CC0",
   "archive_bytes": 106473580,
   "archive_sha256": "53cd5b49210a6f3790be0c33485654de7461b4d1fdeea9fdc312668c82e93d15",
-  "target_corpus": "BUB1B/BUBR1 Europe PMC corpus frozen 2026-09-21",
-  "target_corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
-  "decision_ledger_sha256": "a070505bb102402acc9566cbcbf71697e786b2a68289ffff38de8ca70274f1fb",
-  "screening_script": "workflow/track2-drug-census/build_cpdat_bub1b_screen.py",
-  "screening_script_sha256": "ec4b951e2c81d0e6d96e9e382f1a671fbf09d447fffe89048c6297ff198130ca",
+  "puc_kind": "Formulation",
+  "output_table": "consumer-formulations.tsv",
+  "product_identity_basis": "cpdat_product_id",
   "outputs": [
     {
       "path": "README.md",
-      "bytes": 3561,
-      "sha256": "8cc8aa61c64951572c7e309c2105fcdf58ee829c142a227495bb46d215060df4"
+      "bytes": 3821,
+      "sha256": "89db40187b8f55bb14bd9ac0477208cff63d704aed86ef2fd4767a102d574307"
     },
     {
       "path": "consumer-formulations.tsv",
-      "bytes": 2846726,
-      "sha256": "2def8d9133006f5d35776ffdebe65e6718213d36f057fe3d3d6eb1631e1f7ada"
+      "bytes": 2846729,
+      "sha256": "bc04edf6f575d389b7b5ffe2205c34fa445bf80f1bb004dade58bf0eb063c233"
     },
     {
       "path": "product-category-summary.tsv",
-      "bytes": 506,
-      "sha256": "e7fc8b66398adf6b8a27f7e08eb84afb3b173ea91982a62efea8a6199696406e"
+      "bytes": 686,
+      "sha256": "05192ca9d00595efcebff929b09cb7b0dad68231a02127ada955ff098ca2cc09"
     },
     {
       "path": "bub1b-exact-name-co-mentions.tsv",
-      "bytes": 381129,
-      "sha256": "ad77b1a4788437962560982b4b381e4473731cdc4cf21fe4457623f38ccb4948"
+      "bytes": 368573,
+      "sha256": "a6d8824737c9892ef4adcd0e6510e371f90785a83a0231a9e3f6f62fcc878084"
     },
     {
       "path": "screen-summary.json",
-      "bytes": 2301,
-      "sha256": "20343231b930cc170db6a9f82e5d28b70eb4fa1d3bc50dd5fa078a6adc9db0cd"
+      "bytes": 2901,
+      "sha256": "a2153858e064f4ff0d87ed5b3059bd58c956a25daa7d7f350298d2e068ccfb7e"
     },
     {
       "path": "bisphenol-a-consumer-exposure-qualification.md",
-      "bytes": 2970,
-      "sha256": "fc6caec426a31d832fd8290cb63ac8fc24f34f9cb127fcaf6537a529ba003583"
+      "bytes": 3114,
+      "sha256": "e3905441f5396b7ea74a4592fa67efaaa5f417a82eb05a3af4b169545e7b5b5f"
     },
     {
       "path": "bisphenol-a-consumer-exposure-qualification.json",
-      "bytes": 3019,
-      "sha256": "703c80edddffecce319a1af0951ad040c6404ea993fbb3150c2e677badb534a1"
+      "bytes": 3521,
+      "sha256": "a58b1b9cc38d461c85edb29f3efa84abbc6e95580f73e00d4c226cab46c29d27"
     }
   ],
-  "scope_limit": "A dated consumer-formulation discovery overlay; exact name co-mentions are not efficacy, exposure, current availability, or therapeutic candidate evidence. The current CPDat 4.1 release is not contained in this archive."
+  "scope_limit": "Dated formulation-only consumer-product discovery overlay. Exact-name co-mentions are not efficacy, current availability or exposure evidence."
 }
