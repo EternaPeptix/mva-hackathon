@@ -16,6 +16,8 @@ The most decision-relevant new consumer-formulation match is **ibuprofen**. A pr
 
 CPDat v4.1 records ibuprofen (DTXSID5020732; two formulation rows) and naproxen sodium (DTXSID7045576; six rows), both under “Food and drug.” The source's salt-form record is not silently equated with the naproxen preparation used in the cell study. These source categories do not establish current sale, prevalence or human exposure.
 
+One separate exact-hit study reports **Bub1b RNA upregulation in sciatic nerve from streptozotocin-induced diabetic-neuropathy rats**. Streptozotocin was the diabetogenic model inducer; this is a disease-state transcript observation after model induction, not evidence that streptozotocin beneficially treats BUB1B deficiency. The study did not measure BUBR1 protein, checkpoint function, chromosome fidelity, MVA or muscle rescue. This source-specific distinction is recorded in the [exact-hit triage table](new-exact-hit-triage.tsv).
+
 **Candidate ranking is unchanged:** niacin remains the proximal BUBR1-restoration hypothesis, and apitegromab remains the distinct downstream muscle-compensation hypothesis. Neither has demonstrated MVA rescue. Ibuprofen and naproxen are adverse-direction mechanistic comparators in this specific high-dose Sertoli-cell experiment, not treatment candidates. Everolimus remains a conditional probe.
 
 ## Reproduction and limits
