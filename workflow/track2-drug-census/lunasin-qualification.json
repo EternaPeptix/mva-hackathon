@@ -1,5 +1,5 @@
 {
-  "assessed_date": "2026-09-23",
+  "assessed_date": "2026-09-28",
   "compound": "lunasin",
   "extra_outer_abstract_credit": 0,
   "biological_replication": false,
@@ -19,7 +19,22 @@
     "fidelity_or_muscle_rescue": false
   },
   "mechanism_limit": "THBS1 and histone-acetylation experiments are not BUB1B-specific promoter/protein/function validation. Confirmed four genes exclude BUB1B.",
-  "disposition": "Retain food-derived transcript-restoration research reserve. No MVA functional efficacy or basis to replace provisional nominees yet; no consumer-soy or supplement equivalence.",
+  "geo_reanalysis": {
+    "accession": "GSE2992",
+    "output": "lunasin-gse2992-reanalysis.json",
+    "source_manifest": "lunasin-gse2992-source-manifest.json",
+    "script": "reanalyze_lunasin_gse2992.py",
+    "rwpe1_ratio": 2.2290621281270586,
+    "rwpe2_ratio": 1.2520286835927839,
+    "published_rwpe1_table2_fold_change": 2.23,
+    "same_source_arrays_likely": true,
+    "independent_biological_replication": false,
+    "geo_citation_missing": true,
+    "paper_accession_linkage": "Inferred from matching title/topic, authors, cell lines, concentration and duration; GEO does not explicitly cite PMID 21526452.",
+    "raw_cel_files_reprocessed": false,
+    "inferential_test": null
+  },
+  "disposition": "Retain food-derived transcript-restoration research reserve. Processed GEO values reproduce the published RWPE-1 fold change, but no MVA functional efficacy or basis to replace provisional nominees is established; no consumer-soy or supplement equivalence.",
   "human": {
     "plasma_evidence_tier": "Complete2020conferenceabstract",
     "n": 31,
@@ -32,6 +47,10 @@
       10
     ],
     "intact_active_muscle_exposure_established": false,
+    "maximum_elisa_value_if_intact_5_5_kda_nanomolar": 1.818,
+    "nominal_culture_concentration_nanomolar": 2000,
+    "approximate_cross_matrix_concentration_ratio": 1100,
+    "comparison_limit": "Arithmetic scale check only; plasma ELISA does not establish intact active lunasin and plasma is not culture medium or muscle intracellular exposure.",
     "cardiometabolic_trial": "PMID30955400 completeprimaryabstract only; no significant measured benefits; possible samecohort as plasmaabstract, not independent replication",
     "ALS_trial": "PMID30663902 completeprimaryabstract only;50 participants, openlabel/historicalcontrols; no significant histoneacetylation or progression effect; not a test of MVA"
   },
@@ -45,6 +64,20 @@
   },
   "current_nominees": "Niacin/restoration and apitegromab/compensation remain provisional and unproved in MVA; exposure and functional gates apply equally.",
   "sources": [
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE2nnn/GSE2992/matrix/GSE2992_series_matrix.txt.gz",
+      "external_file": "GSE2992_series_matrix.txt.gz",
+      "bytes": 831055,
+      "sha256": "e6745b7d18799779a0141b6ece520cce1a42eaa931b802bc33175db98561d04f",
+      "reading_depth": "Processed matrix reanalyzed for the BUB1B probe; raw CEL files not independently reprocessed; one array per condition"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL96&targ=self&form=text&view=full",
+      "external_file": null,
+      "bytes": 46608806,
+      "sha256": "34e01f9a175dc3927f8bd0f8301b164dcb6540ba26ffa360540ae597a360752c",
+      "reading_depth": "Official full platform annotation streamed; unique 203755_at row maps to BUB1B/Entrez 701; source not retained locally"
+    },
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3210036/",
       "external_file": "primary-pmc.html",
