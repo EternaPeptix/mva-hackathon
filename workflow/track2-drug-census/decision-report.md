@@ -4,6 +4,8 @@
 
 The census screens 15,357 entities plus 40 FDA 2026 product entries assessed separately, with 282 curated route/compound appraisals. Retrieval and co-mentions do not establish every drug's efficacy; missing evidence remains UNKNOWN. The revised local movie is complete. At the existing Vimeo URL, **V3 replacement is verified**. Track 2 remains unsubmitted.
 
+**Literature refresh, 28 September:** a targeted chaperone query returns 878 source/ID records. Seven pairs were absent from the saved 21 September gene corpus; two are duplicate index records, leaving five additional paper identities. One HCC multi-omics paper lists BUB1B among combination-associated transcripts after loratadine/raloxifene/sorafenib treatment, but does not report BUB1B's direction or function. This is not MVA rescue or ingredient-specific evidence and does not alter the candidate comparison; see the [source-bounded refresh](chaperone-refresh-2026-09-28.md).
+
 The [three-paper comparison](vascular-enzyme-qualification.md) retains
 anti-KLK8 antibody as an organ-protection research lead, K858's vascular benefit,
 and a BUB1B RNA response to alglucosidase alfa in Pompe myocytes. Catalogue-listed
