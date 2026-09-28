@@ -1,6 +1,6 @@
 # Taurine: retain a muscle-physiology reserve, separating depletion from treatment
 
-**23 September 2026.** The primary TauT study supports the importance of taurine homeostasis to muscle aging; it does **not** test taurine replacement. One directly cited aged-rat treatment paper adds an actual-compound electrophysiology/contraction-threshold positive, at a limited accessible reading depth. Neither establishes BUBR1 restoration or MVA rescue.
+**Updated 28 September 2026.** The primary TauT study supports the importance of taurine homeostasis to muscle aging; it does **not** test taurine replacement. One directly cited aged-rat treatment paper adds an actual-compound electrophysiology/contraction-threshold positive, at a limited accessible reading depth. A targeted primary-source search adds small, mixed human exercise studies. None establishes BUBR1 restoration or MVA rescue.
 
 ## What the TauT primary actually tested
 
@@ -18,9 +18,20 @@ Direct reference 54 is [Pierno et al., 1998; PMID 9732377](https://pubmed.ncbi.n
 
 The [publisher's accessible section snippets](https://www.sciencedirect.com/science/article/abs/pii/S0022356524377109) retain no food-intake/body-weight change and no deaths in either aged treatment condition. This is not survival-extension evidence. The full paper/figures were unavailable through the checked publisher and public institutional routes; the author repository explicitly has no attached file. Per-group animal counts, analysis units, complete controls and figure effect sizes remain unqualified. **No complete-paper reading credit is claimed for this follow-up.** The animal regimen is a source description, not a clinical dose.
 
+## Targeted human exercise evidence
+
+These studies assess exercise performance or recovery in small groups of adults. They did not measure BUB1B/BUBR1, checkpoint function, chromosome fidelity or MVA.
+
+- In a blinded randomized crossover, **10 recreationally fit men** received taurine or rice-flour placebo for 72 hours after eccentric biceps exercise. Taurine was **0.1 g/kg/day**. The only treatment effect was peak eccentric torque; the time-by-treatment interaction was not significant, although the paper reports a 48-hour between-condition contrast of *p*=0.048. CK was not different. This is a narrow post-exercise recovery signal, not sustained strength restoration. [McLeay et al., full primary text](https://pmc.ncbi.nlm.nih.gov/articles/PMC5745489/).
+- A double-blind counterbalanced study of **14 trained men** separated participants by caffeine-use history and tested **40 mg/kg taurine** acutely. In non-caffeine users, taurine reduced first and best isokinetic peak torque and power, and reduced isometric torque. In the caffeine-habituated subgroup tested during caffeine withdrawal, best isokinetic power rose **5.2%** (*p*=0.045), with no improvement in the other measures. The subgroup-specific result cannot be generalized to taurine alone as a muscle enhancer. [Lim et al., PubMed primary abstract](https://pubmed.ncbi.nlm.nih.gov/28945675/).
+- A randomized double-blind crossover in **9 male triathletes** compared **3 g/day taurine plus 400 mL chocolate milk** with placebo plus the same milk for eight weeks. It reported no change in treadmill performance, anaerobic threshold, perceived exertion, heart rate or inflammatory markers. Plasma taurine and CK rose after the taurine phase, but the abstract does not establish a between-condition CK effect. A separate report by the same group describes a highly similar 8-week taurine-plus-milk protocol in 10 triathletes. The reports may overlap and are not counted as independent replication. [Galan et al., PubMed primary abstract](https://pubmed.ncbi.nlm.nih.gov/28745470/); [related report](https://pmc.ncbi.nlm.nih.gov/articles/PMC5611412/).
+- A **2026 randomized crossover** in 32 trained men found no significant performance effect from **10 mg/kg taurine alone**. A caffeine-plus-taurine condition showed selected handgrip and average-power differences; those combination effects cannot be assigned to taurine. The registry was retrospective. [Köse et al., PubMed primary abstract](https://pubmed.ncbi.nlm.nih.gov/42421135/).
+
+Together, these sources show context-dependent exercise findings rather than a consistent taurine-monotherapy effect: one small recovery endpoint, a direct null, and an acute study with adverse-direction torque/power results in non-caffeine users. This targeted review does not claim exhaustive coverage of taurine research.
+
 ## Competitive implication and provenance
 
-Retain taurine as a **muscle-physiology research reserve**. The actual-treatment physiology is useful; the knockout survival result cannot be relabeled supplementation benefit. Neither lack of MVA testing nor a different model uniquely excludes a challenger: niacin's restoration bridge spans different interventions, and apitegromab's clinical function evidence is in SMA. Here, BUBR1 function, faithful renewal and useful absolute muscle output remain unestablished, and the treatment source has an access limit. No superiority or replacement of the provisional nominees is supported.
+Retain taurine as a **low-priority muscle-physiology reserve**, below the current niacin/apitegromab comparison. The aged-rat treatment result is useful but access-limited; human exercise evidence is small and mixed. The knockout survival result cannot be relabeled supplementation benefit. Taurine has no demonstrated BUBR1 restoration, faithful renewal or MVA muscle benefit, so its general supplement availability does not make it competitive with the nominees. No superiority or replacement is supported.
 
 Fresh Europe PMC/PubMed checks found no indexed retraction or correction notice for the two papers; that is not a comprehensive integrity guarantee. The externally retained `taurine/publication-status.json` preserves checked metadata.
 
