@@ -1,0 +1,117 @@
+{
+  "assessed_date": "2026-09-29",
+  "compound": "sodium butyrate",
+  "preparation": "Aladdin sodium butyrate mixed into basal rabbit feed at 0.75 g/kg diet",
+  "identity_boundary": [
+    "BODYBIO sodium butyrate 300 mg capsules in the separate human COPD report",
+    "sodium phenylbutyrate",
+    "glycerol phenylbutyrate",
+    "hydroxybutyrates",
+    "endogenously produced microbiome butyrate",
+    "in-vitro sodium butyrate exposures"
+  ],
+  "source": {
+    "title": "Dietary supplement of sodium butyrate improves the growth performance and intestinal health by targeting Wnt/beta-catenin signaling pathway in rabbits",
+    "doi": "10.1002/aro2.71",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/aro2.71",
+    "first_published": "2024-06-11",
+    "source_type": "Open-access primary animal study",
+    "raw_data_repository": "None; the article says datasets are available from corresponding authors on reasonable request.",
+    "supplementary_file": "Wiley linked aro271-sup-0001-suppl-data.docx; download returned HTTP 403 and was not bypassed."
+  },
+  "animal_design": {
+    "species_strain": "New Zealand White rabbit",
+    "sex": "male",
+    "age_days_mean": 35,
+    "n_total": 14,
+    "n_per_group": 7,
+    "randomized": true,
+    "dose_g_per_kg_diet": 0.75,
+    "duration_weeks": 10,
+    "delivery": "dietary feed additive",
+    "supplier": "Aladdin, China"
+  },
+  "positive_results": {
+    "growth": [
+      "higher body weight in treatment group during weeks 6-10",
+      "higher average daily gain during weeks 2-7",
+      "feed conversion ratio and diarrhea score improved as reported"
+    ],
+    "muscle": [
+      "quadriceps fiber count increased",
+      "quadriceps total fiber area increased",
+      "quadriceps fiber density increased",
+      "quadriceps fiber diameter decreased"
+    ],
+    "transcriptomic_context": {
+      "tissue": "cecum",
+      "total_degs": 466,
+      "upregulated_degs": 250,
+      "downregulated_degs": 216,
+      "upregulated_enrichments": [
+        "cell cycle",
+        "microtubule cytoskeleton",
+        "chromosomal region"
+      ],
+      "BUB1B_observation": "BUB1B is listed in a cell-cycle gene cluster whose expression is reported as positively correlated with muscle-fiber density; the article does not give a BUB1B-specific treatment effect or validate BUB1B by qPCR/protein in the accessible main text."
+    }
+  },
+  "material_limits": [
+    "Muscle strength, fatigue, endurance and absolute contractile force were not measured.",
+    "No BUBR1 protein, checkpoint function, chromosome-fidelity or MVA assay was reported.",
+    "Cecal BUB1B association is not a skeletal-muscle BUB1B effect or causal mediation.",
+    "BUB1B-specific fold change and gene-level P/q value were not recovered; supplement and raw RNA-seq data were unavailable.",
+    "Small, single-species cohort; no human or pediatric exposure bridge.",
+    "Serum GGT, bile acids, cholesterol, triglycerides, creatinine, urea and glucose increased, total CO2 decreased, and heart/liver/lung weights decreased; significance does not establish clinical harm or safety."
+  ],
+  "cell_culture": {
+    "model": "Primary rabbit cecal epithelial cells",
+    "concentration_mM": 0.75,
+    "duration_hours": 24,
+    "reported_results": [
+      "CCK-8 signal increased",
+      "wound-closure area decreased",
+      "selected proliferation markers increased"
+    ],
+    "BUB1B_specific_rescue": false,
+    "chromosome_fidelity_measured": false
+  },
+  "human_context": {
+    "qualification": "gut-muscle-qualification.md",
+    "preparation": "BODYBIO 300 mg sodium butyrate capsule, 12 weeks, older men with COPD",
+    "reported_within_arm_signals": [
+      "handgrip strength",
+      "gait",
+      "selected SPPB components"
+    ],
+    "randomized_between_arm_functional_contrast_recovered": false,
+    "plasma_butyrate_measured": false,
+    "transfer_to_rabbit_feed_formulation": false
+  },
+  "competitive_assessment": {
+    "disposition": "Common-compound muscle/gut reserve; not a BUB1B restoration lead.",
+    "relative_to_nmn": "Less direct: no measured BubR1 abundance response.",
+    "relative_to_niacin": "No human muscle NAD engagement or direct BUBR1 assay.",
+    "relative_to_apitegromab": "The human butyrate COPD report lacks a recovered between-arm functional contrast; rabbit muscle morphology and growth are not clinical muscle-function evidence.",
+    "nomination_changed": false,
+    "appraisal_count_changed": false,
+    "recommended_next_measurements": [
+      "BUB1B RNA and BUBR1 protein in the same treated samples",
+      "mitotic checkpoint function",
+      "spontaneous chromosome segregation errors",
+      "progenitor renewal and absolute muscle contractile output"
+    ]
+  },
+  "reading_scope": "Targeted reading of the official Wiley article's treatment/transcriptome methods, relevant growth/muscle and BUB1B-correlation results, captions, limitations and data-availability statement; not exhaustive article review. Supplementary DOCX download returned HTTP 403 and was not bypassed. No raw sequence data or BUB1B-specific expression value was independently reanalyzed.",
+  "sources": [
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/aro2.71",
+      "scope": "Primary rabbit study full text",
+      "first_published": "2024-06-11"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.rmed.2023.107510",
+      "scope": "Distinct BODYBIO human COPD study, separately qualified in gut-muscle-qualification.md"
+    }
+  ]
+}
