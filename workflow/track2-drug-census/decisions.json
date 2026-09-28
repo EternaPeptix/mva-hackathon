@@ -5248,6 +5248,28 @@
         "https://pubchem.ncbi.nlm.nih.gov/compound/Propylparaben"
       ],
       "identity_limit": "Exact normalized alias propylparaben joins to status-unverified DrugCentral supplement entity DC2307. The source describes propylparaben as a preservative in pharmaceuticals, food and cosmetics. Do not transfer the source effect to methyl-, ethyl- or butylparaben, mixtures, retail formulations, or ordinary human exposure. No therapeutic indication or product equivalence is asserted."
+    },
+    {
+      "decision_id": "new-bisphenol-a-bubr1-exposure",
+      "match_aliases": [
+        "bisphenol A",
+        "BPA",
+        "4,4-isopropylidenediphenol"
+      ],
+      "route": "Bisphenol A / consumer-product chemical; BUB1B suppression and reproductive-cell toxicity comparator",
+      "disposition": "Retain as an adverse-exposure comparator, not a treatment candidate. The reviewed cell experiments report BUB1B reduction in cytotoxic or high-dose contexts; they do not show rescue, improved chromosome fidelity, MVA benefit, or a safe/beneficial human exposure.",
+      "evidence_scope": "Primary abstract and publisher-reported results for human ovarian cumulus-cell cultures (PMID 28951153); full open primary article for BPA-treated BEAS-2B cells (PMID 41181148); EPA CPDat v4.0 product-composition table. The 2017 full article and current CPDat v4.1 bulk file were not obtained in this pass.",
+      "bub1b_variant_efficacy": "No Leu737Ter/Asn1002Lys, MVA, BUBR1 checkpoint-function, or chromosome-segregation rescue experiment was identified.",
+      "rationale": "EPA CPDat v4.0 maps DTXSID7020182 (curated name Bisphenol A) to 42 formulation product IDs in the Food and drug and Home maintenance categories. These are source product-composition records, not proof of present-day sale, prevalence, actual exposure, or concentration. In primary cultures of human cumulus cells from women undergoing ICSI, the 2017 abstract reports BPA concentrations of 0, 0.002, 0.02, and 20 micrograms/mL; only 20 micrograms/mL was reported to significantly reduce BUB1B, CDC20, and HAS2 and increase apoptosis-associated outcomes. The authors describe this concentration as very high and supra-physiological. A 2025 primary study reports lower BUB1B mRNA and protein in immortalized human bronchial BEAS-2B cells treated with 80 nM BPA; the same work reports dose-dependent cytotoxicity, and it did not measure checkpoint function or chromosome fidelity. Its network and docking analyses do not establish direct BPA-BUBR1 binding or causality. Neither result supports treatment benefit, normal consumer exposure harm, or an MVA-specific effect.",
+      "source_report": "workflow/track2-drug-census/cpdat-v4.0/bisphenol-a-consumer-exposure-qualification.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/28951153/",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0890623817305221",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12571864/",
+        "https://www.epa.gov/chemical-research/chemical-and-products-database-cpdat",
+        "https://doi.org/10.23645/epacomptox.5352997"
+      ],
+      "identity_limit": "BPA is distinct from BPB, BPAP, BPAF, BPS, and other bisphenol analogues. CPDat v4.0 product-category evidence does not establish current-market status, the chemical content of any currently purchased item, or user exposure. No transfer to other bisphenols or retail products."
     }
   ]
 }

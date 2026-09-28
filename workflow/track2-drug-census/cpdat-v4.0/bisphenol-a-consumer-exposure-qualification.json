@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-09-28",
+  "decision_id": "new-bisphenol-a-bubr1-exposure",
+  "chemical": {
+    "name": "Bisphenol A",
+    "aliases": ["BPA", "4,4-isopropylidenediphenol"],
+    "epa_dtxsid": "DTXSID7020182",
+    "cpdat_release": "v4.0, Figshare version 5, posted 2025-04-09"
+  },
+  "cpdat_context": {
+    "formulation_product_ids": 42,
+    "product_categories": ["Food and drug", "Home maintenance"],
+    "interpretation": "Source product-composition records, not current product availability, purchase prevalence, actual exposure, or concentration."
+  },
+  "human_cumulus_cell_study": {
+    "source": "PMID 28951153",
+    "population": "Primary cumulus cells collected from 26 women undergoing ICSI",
+    "nominal_doses": ["0", "0.002", "0.02", "20 micrograms/mL"],
+    "reported_effect": "At 20 micrograms/mL, the abstract reports decreased BUB1B, CDC20 and HAS2 expression, increased TRIB3 and LUM, and more anti-CASP3-positive cells compared with control.",
+    "source_limit": "Primary abstract and publisher excerpt only; full article and complete outcome tables were not obtained. The authors describe 20 micrograms/mL as very high and supra-physiological.",
+    "molar_conversion": "Approximately 87.6 micromolar using BPA molecular weight 228.29 g/mol."
+  },
+  "bronchial_cell_study": {
+    "source": "PMID 41181148; PMCID PMC12571864",
+    "model": "Immortalized human bronchial epithelial BEAS-2B cells",
+    "reported_dose_for_bubr1": "80 nM",
+    "reported_effect": "BUB1B transcript and protein decreased; the study also reports dose-dependent loss of cell viability under BPA exposure.",
+    "source_limit": "No chromosome-segregation, spindle-checkpoint, BUB1B-variant, MVA or muscle endpoint. The same paper's separate TCGA analysis found BUB1B higher in tumors than normal tissue, while BPA-treated BEAS-2B showed lower BUB1B; these distinct comparisons do not establish a BPA-caused tumor mechanism. Docking is predictive and the paper's broader exposure-to-lung-cancer claims are described as primarily correlative."
+  },
+  "competitive_decision": {
+    "disposition": "Adverse-exposure comparator; not a BUB1B restoration candidate.",
+    "reason": "The reported direction is lower BUB1B in non-MVA cell models, without evidence of improved checkpoint function or chromosome fidelity. Cytotoxicity and exposure context prevent treating gene reduction as a selective mechanism.",
+    "patient_or_ordinary_use_inference": "Not established. No result transfers to the patient's alleles, MVA muscle, or ordinary consumer-product exposure."
+  },
+  "source_manifest": "workflow/track2-drug-census/cpdat-v4.0/source-manifest.json",
+  "source_urls": [
+    "https://pubmed.ncbi.nlm.nih.gov/28951153/",
+    "https://www.sciencedirect.com/science/article/abs/pii/S0890623817305221",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12571864/",
+    "https://www.epa.gov/chemical-research/chemical-and-products-database-cpdat",
+    "https://doi.org/10.23645/epacomptox.5352997"
+  ]
+}
