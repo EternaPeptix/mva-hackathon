@@ -16,8 +16,8 @@
   "product_identity_basis": "Data Document ID + Product Name; not equivalent to v4.0 cpdat_product_id",
   "source_corpus": "BUB1B/BUBR1 Europe PMC corpus frozen 2026-09-21",
   "target_corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
-  "decision_ledger_sha256": "b79a1158b136d737854d64d675efb0a41e8df7c97875ce00786f604123d0a748",
-  "decision_ledger_count": 287,
+  "decision_ledger_sha256": "cb4eadcc7f986c1f2bd950e5adf9b3113d49b0af916778a7a5fab6846e9c4911",
+  "decision_ledger_count": 288,
   "screening_script": "workflow/track2-drug-census/build_cpdat_bub1b_screen.py",
   "screening_script_sha256": "beacd5c63fa1b7467c09e300ce4ed7ded9b41b833347ea781b7669851fcda7a3",
   "puc_kind": "Article",
@@ -25,8 +25,8 @@
   "outputs": [
     {
       "path": "README.md",
-      "bytes": 3083,
-      "sha256": "ccd63a4cab338b6b84a68643a49f9cf4dacb781f828f5d7649b80de473bf9d91"
+      "bytes": 3496,
+      "sha256": "2fc43c3fdd623f2b53c5d8de4addb0ad0a3e76ab855af21596ee3f1c24920b94"
     },
     {
       "path": "consumer-articles.tsv",
@@ -40,18 +40,38 @@
     },
     {
       "path": "bub1b-exact-name-co-mentions.tsv",
-      "bytes": 75301,
-      "sha256": "60681bd7bdbdf4be2520d8dffeafc53c2d184dcbbc662196d35b43215d2e2c55"
+      "bytes": 75321,
+      "sha256": "efe9c4f9699441d65669c7e3294a903f1b0f77fe6b578f104eebe2a7af7d605b"
     },
     {
       "path": "screen-summary.json",
       "bytes": 2716,
-      "sha256": "f2e450a8d7ca274cb6c7fb90486888a46bde904e019d71f52a5ceb6bb3dc5302"
+      "sha256": "7328ac9443b8e235ccedaae3b1373415d8b77817f5c33f719484a413c70a76b4"
     },
     {
       "path": "new-article-only-hit-triage.tsv",
-      "bytes": 2990,
-      "sha256": "9405b2f99752b4eb5e8ac02053d4510520554a673f138fee1a427a4013bc6531"
+      "bytes": 3213,
+      "sha256": "854de6c72e4c6b010361f2eb02e69cf16764bab7b0207c61258462b225fbbb47"
+    },
+    {
+      "path": "../../ozone-bubr1b-qualification.md",
+      "bytes": 4216,
+      "sha256": "b7910d11a187e9e4e33b00d809bdcd64c416f75a13aa3bde1d20b2f6ed9a23d3"
+    },
+    {
+      "path": "../../ozone-bubr1b-qualification.json",
+      "bytes": 5502,
+      "sha256": "ae9f8637d04fe426a890a112c85b0d6aae96612a5d30f1e60394ce91b1f4737c"
+    },
+    {
+      "path": "../../ozone-bubr1b-reanalysis.json",
+      "bytes": 2047,
+      "sha256": "7ca3d42825a24906e1ef94ed1044dbc9c74c336bc0a82f06e85ff76158c3d1c0"
+    },
+    {
+      "path": "../../reanalyze_ozone_bubr1b.py",
+      "bytes": 5865,
+      "sha256": "ae693eaa62508a6f6014a3b52a7604b4f943c9433266358784a7b6818fe9c91a"
     }
   ],
   "scope_limit": "Article-kind records include consumer and industrial categories. They are not evidence of purchase, exposure, therapeutic efficacy or complete chemical coverage."

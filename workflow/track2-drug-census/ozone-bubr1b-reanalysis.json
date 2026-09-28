@@ -1,0 +1,45 @@
+{
+  "series_accession": "GSE45166",
+  "platform_accession": "GPL7202",
+  "feature_count": 41173,
+  "sample_matrix_sha256": "678c9c54ee28aa3dd8d42600b8eafdbf649238599fd9ebb8920aad8bf1e3d109",
+  "platform_annotation_sha256": "bd2f3199bea338b87d12b41f451ea899ac3e52bc5fb62d8e935514504e45c62d",
+  "method": "Two-sided equal-variance Student t-test on GEO-provided log2-transformed, quantile-normalized values; Benjamini-Hochberg across all matrix features.",
+  "results": [
+    {
+      "timepoint": "6h",
+      "n_per_group": 4,
+      "probe_id": "A_51_P490509",
+      "ozone_mean_log2": 8.8602275,
+      "filtered_air_mean_log2": 9.039805,
+      "log2_difference_ozone_minus_air": -0.17957749999999884,
+      "ozone_to_air_ratio": 0.8829615378532177,
+      "student_t_two_sided_p": 0.31921063890428336,
+      "benjamini_hochberg_q_all_probes": 0.7261062427848006,
+      "passes_article_p_lt_0_05_and_1_5_fold_rule": false,
+      "all_probe_count_p_lt_0_05_and_1_5_fold": 620,
+      "all_probe_count_bh_q_lt_0_05": 0,
+      "all_probe_count_bh_q_lt_0_05_and_1_5_fold": 0
+    },
+    {
+      "timepoint": "24h",
+      "n_per_group": 4,
+      "probe_id": "A_51_P490509",
+      "ozone_mean_log2": 9.1911325,
+      "filtered_air_mean_log2": 10.304400000000001,
+      "log2_difference_ozone_minus_air": -1.113267500000001,
+      "ozone_to_air_ratio": 0.4622459229179185,
+      "student_t_two_sided_p": 6.944124010215893e-05,
+      "benjamini_hochberg_q_all_probes": 0.04347445467488452,
+      "passes_article_p_lt_0_05_and_1_5_fold_rule": true,
+      "all_probe_count_p_lt_0_05_and_1_5_fold": 866,
+      "all_probe_count_bh_q_lt_0_05": 108,
+      "all_probe_count_bh_q_lt_0_05_and_1_5_fold": 60
+    }
+  ],
+  "limits": [
+    "Whole-lung transcript signal; not a cell-intrinsic or protein measurement.",
+    "No BUBR1 abundance/function, chromosome fidelity, muscle, or MVA outcome was measured.",
+    "The 6-hour source-threshold DEG count differs by one in this reanalysis; Bub1b's 24-hour result matches the published supplementary row to rounding."
+  ]
+}

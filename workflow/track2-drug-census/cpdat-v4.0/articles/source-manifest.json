@@ -1,8 +1,8 @@
 {
   "target_corpus": "BUB1B/BUBR1 Europe PMC corpus frozen 2026-09-21",
   "target_corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
-  "decision_ledger_sha256": "b79a1158b136d737854d64d675efb0a41e8df7c97875ce00786f604123d0a748",
-  "decision_ledger_count": 287,
+  "decision_ledger_sha256": "cb4eadcc7f986c1f2bd950e5adf9b3113d49b0af916778a7a5fab6846e9c4911",
+  "decision_ledger_count": 288,
   "screening_script": "workflow/track2-drug-census/build_cpdat_bub1b_screen.py",
   "screening_script_sha256": "beacd5c63fa1b7467c09e300ce4ed7ded9b41b833347ea781b7669851fcda7a3",
   "schema_version": 1,
@@ -19,8 +19,8 @@
   "outputs": [
     {
       "path": "README.md",
-      "bytes": 1353,
-      "sha256": "22333cc320bcb97776cfb1b0d7bc83d42c93076781add1c05b3c8e48d7b3fbd6"
+      "bytes": 1700,
+      "sha256": "45846a6e8af48c2baab669284fc18bba9f33d421af2dcd87ed17d6aeb959b4d8"
     },
     {
       "path": "consumer-articles.tsv",
@@ -34,13 +34,33 @@
     },
     {
       "path": "bub1b-exact-name-co-mentions.tsv",
-      "bytes": 72472,
-      "sha256": "5fa3afa1463f83a1c72d19f3a176757c3d164371e4957e2eaf6790559d1a1918"
+      "bytes": 72492,
+      "sha256": "86e3d7968da14e695337343b19bf04e02d209ad9b592ff06a0949cd0741d1a77"
     },
     {
       "path": "screen-summary.json",
       "bytes": 2675,
-      "sha256": "d5e46a8527f1dc67ade4f05393470e40ebc317c01b00b199ca42892b2da38f56"
+      "sha256": "2db29984bfed8b04564a5fd381a7e7e94c2d8bcd9dae8b39e6f4b14c6c1e7d25"
+    },
+    {
+      "path": "../../ozone-bubr1b-qualification.md",
+      "bytes": 4216,
+      "sha256": "b7910d11a187e9e4e33b00d809bdcd64c416f75a13aa3bde1d20b2f6ed9a23d3"
+    },
+    {
+      "path": "../../ozone-bubr1b-qualification.json",
+      "bytes": 5502,
+      "sha256": "ae9f8637d04fe426a890a112c85b0d6aae96612a5d30f1e60394ce91b1f4737c"
+    },
+    {
+      "path": "../../ozone-bubr1b-reanalysis.json",
+      "bytes": 2047,
+      "sha256": "7ca3d42825a24906e1ef94ed1044dbc9c74c336bc0a82f06e85ff76158c3d1c0"
+    },
+    {
+      "path": "../../reanalyze_ozone_bubr1b.py",
+      "bytes": 5865,
+      "sha256": "ae693eaa62508a6f6014a3b52a7604b4f943c9433266358784a7b6818fe9c91a"
     }
   ],
   "scope_limit": "Article-kind source records include consumer and industrial categories; exact-name co-mentions do not establish use, exposure, efficacy or current availability."

@@ -5326,6 +5326,27 @@
         "https://comptox.epa.gov/chemexpo/"
       ],
       "identity_limit": "No exact current-catalog identity join is asserted. The CPDat v4.1 Phthalate article alias is not a match to mono-n-butyl phthalate (MnBP). Do not transfer the source finding to DBP, all phthalates, other metabolites, or consumer products."
+    },
+    {
+      "decision_id": "new-ozone-bubr1b-downregulation",
+      "match_aliases": [
+        "ozone"
+      ],
+      "route": "Ozone (O3) / environmental-exposure BUB1B transcript comparator; ChEMBL clinical-development record",
+      "disposition": "Retain the high-concentration neonatal inhalation result as an adverse-direction exposure observation; decline as a BUBR1-restoration or MVA muscle-benefit lead. Do not transfer to ambient exposure or distinct medical-ozone routes.",
+      "evidence_scope": "Primary neonatal BALB/c whole-lung microarray, published supplementary BUB1B row, and independent reanalysis of GEO GSE45166/GPL7202; n=4 per condition and timepoint. No MVA, muscle, BUBR1 protein/function or chromosome-fidelity experiment.",
+      "bub1b_variant_efficacy": "No rescue demonstrated for Leu737Ter/Asn1002Lys; Bub1b transcript was lower 24 hours after acute ozone exposure in a neonatal-mouse lung model.",
+      "rationale": "Gabehart et al. exposed three-day-old BALB/c mice to 1,000 ppb O3 for 3 h and collected whole lungs 6 and 24 h later. The paper supplement reports probe A_51_P490509 (Bub1b) at -2.16 signed fold change, P=6.90e-5, q=0.043 at 24 h. Reanalysis of the GEO log2/quantile-normalized matrix yields ozone/air ratio 0.462, log2 difference -1.1133, Student t P=6.944e-5, BH q=0.04347; at 6 h ratio=0.883, P=0.319, q=0.726. The study also reports broadly suppressed cell-cycle programs and reduced lung-cell proliferation. This is a whole-lung RNA observation, not BUBR1 protein loss, cell-intrinsic mechanism, checkpoint dysfunction, MVA, muscle, or evidence about ordinary exposures. The article's global DEG/FDR counts are not exactly reproduced by the simple reanalysis (one-feature 6 h count difference and q/FC total discrepancy); the Bub1b row itself matches to rounding. The ChEMBL OZONE entry has maximum phase 3 in the captured record, therapeutic_flag false and no first-approval date; this metadata is not an approved regimen or MVA-efficacy evidence.",
+      "source_report": "workflow/track2-drug-census/ozone-bubr1b-qualification.md",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3930365/",
+        "https://pubmed.ncbi.nlm.nih.gov/24336422/",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE45166",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL7202",
+        "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL2447938.json",
+        "https://comptox.epa.gov/chemexpo/chemical/DTXSID0021098"
+      ],
+      "identity_limit": "CPDat DTXSID0021098 appears only in Article-kind Construction and building materials records; these do not establish purchase or personal exposure. Inhaled pollutant exposure in neonatal mice is distinct from any ozone device, food antimicrobial use, or other proposed therapeutic route. Do not infer patient-level harm or benefit."
     }
   ]
 }

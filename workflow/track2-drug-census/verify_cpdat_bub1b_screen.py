@@ -74,6 +74,10 @@ def check_overlay(overlay, decisions, decision_ids):
         assert int(naproxen_sodium[0]['distinct_product_keys']) == 5
         assert summary['product_identity_basis'].startswith('Data Document ID + Product Name')
         assert any(r['current_decision_ids'] == 'new-ibuprofen-bubr1-downregulation' for r in mentions if 'DTXSID5020732' in r['dtxsids'])
+    if manifest['puc_kind'] == 'Article':
+        ozone_rows = [r for r in mentions if r['id'] == '24336422' and 'DTXSID0021098' in r['dtxsids']]
+        assert ozone_rows
+        assert all('new-ozone-bubr1b-downregulation' in r['current_decision_ids'].split(';') for r in ozone_rows)
 
     return {
         'overlay': str(overlay.relative_to(ROOT)),
@@ -91,12 +95,13 @@ def check_overlay(overlay, decisions, decision_ids):
 def check():
     decisions = json.loads((ROOT / 'decisions.json').read_text())['decisions']
     decision_ids = {d['decision_id'] for d in decisions}
-    assert len(decisions) == 287
+    assert len(decisions) == 288
     assert {
         'new-bisphenol-a-bubr1-exposure',
         'new-naproxen-bubr1-downregulation',
         'new-ibuprofen-bubr1-downregulation',
         'new-mnbp-bubr1b-downregulation',
+        'new-ozone-bubr1b-downregulation',
     } <= decision_ids
     return {'result': 'PASS', 'current_decisions': len(decisions), 'overlays': [check_overlay(o, decisions, decision_ids) for o in OVERLAYS]}
 

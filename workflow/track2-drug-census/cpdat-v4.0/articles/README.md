@@ -6,4 +6,6 @@ After requiring a DTXSID, the v4.0 table contains **63,457 composition rows**, *
 
 The companion [v4.1 Article-kind screen](../../cpdat-v4.1/articles/README.md) is based on the current ChemExpo bulk download. Categories and product-key schemas differ by release, so row counts are not treated as comparable purchase or prevalence estimates. All exact-name matches need context review; they are not efficacy results.
 
+The ozone exact-name hit in both releases has a source-specific BUB1B RNA decrease in neonatal mouse lung after acute high-concentration exposure. The result and independent GEO reanalysis are documented in the [ozone qualification](../../ozone-bubr1b-qualification.md); this is an adverse-exposure comparator, not a BUB1B-restoration candidate.
+
 Reproduce with the shared screen builder and `--puc-kind Article`. The [source manifest](source-manifest.json) binds the archive snapshot, corpus, decision ledger, code and outputs.
