@@ -1,0 +1,143 @@
+{
+  "schema": "track2-compound-primary-appraisal-v1",
+  "status": "ROOT_SINGLE_READER_REVIEW_PENDING_INDEPENDENT_REVIEW",
+  "source": {
+    "pmid": "26529601",
+    "pmcid": "PMC4631374",
+    "doi": "10.1371/journal.pone.0141757",
+    "nct": "NCT02118181",
+    "product": "Ensure Plus Advance 220 mL drink containing 1.5 g calcium-HMB",
+    "independent_drug_identity_isolated": false
+  },
+  "population_design": {
+    "n_randomized": 80,
+    "n_completed": 65,
+    "active_completed": 32,
+    "control_completed": 33,
+    "population": "healthy older women over 65 attending mild fitness twice weekly",
+    "duration_weeks": 8,
+    "control": "no drink, placebo or matched nutrition product",
+    "blinding": "open label; outcome staff asked not to learn allocation",
+    "registration": "posted after enrollment began; first submission 2014-04-16; first posting 2014-04-21 estimated",
+    "registry_actual_start": null,
+    "malignancy_exclusion": "history/evidence of malignancy in prior 5 years except non-melanoma skin neoplasia",
+    "renal_failure_excluded": true
+  },
+  "outcome_hierarchy": {
+    "primary": "SPPB",
+    "primary_result": "No between-group effect; p=.92",
+    "secondary_positive": {
+      "isokinetic_knee_flexion_Nm": {
+        "difference": 1.56,
+        "p": 0.03
+      },
+      "isokinetic_knee_extension_Nm": {
+        "difference": 3.32,
+        "p": 0.03
+      },
+      "isometric_torque_Nm": {
+        "difference": 9.74,
+        "p": 0.02
+      },
+      "6MWT_m": {
+        "difference": 7.67,
+        "p": 0.04
+      },
+      "grip_endurance_s": {
+        "difference": 21.41,
+        "p": 0.02
+      },
+      "pQCT_muscle_density": {
+        "radius_p": 0.03,
+        "tibia_p": 0.03
+      }
+    },
+    "nulls": [
+      "SPPB components",
+      "maximum grip strength",
+      "DXA fat-free mass",
+      "DXA appendicular mass index",
+      "DXA abdominal fat"
+    ],
+    "multiplicity_adjustment": false,
+    "secondary_analysis_designated_exploratory": true
+  },
+  "safety": {
+    "severe_adverse_events_reported": 0,
+    "mild_events_reported": [
+      "abdominal pain x2",
+      "constipation x2",
+      "itching x1"
+    ],
+    "resolution": "resolved after discontinuing drink",
+    "generalizability_limit": "recent malignancy and renal failure excluded"
+  },
+  "bubr1_mva_evidence": {
+    "BUB1B_or_BUBR1_measured": false,
+    "checkpoint_or_chromosome_fidelity_measured": false,
+    "MVA_population": false,
+    "MVA_efficacy_demonstrated": false
+  },
+  "competitive_disposition": {
+    "category": "low-cost oral muscle-function alternative / rejected-routes table",
+    "leader_change": false,
+    "nomination": false,
+    "reason": "primary SPPB null; open-label drink versus no-treatment control; multiple unadjusted secondary findings; adult healthy population; no BUBR1 or MVA evidence",
+    "relative_to_niacin": "less causal-protein relevance",
+    "relative_to_apitegromab": "more scalable oral format, but weaker design and no pediatric disease-matched evidence"
+  },
+  "review": {
+    "reviewer": "root",
+    "full_article_read": true,
+    "current_registry_api_read": true,
+    "independent_review": false,
+    "participant_level_reanalysis": false,
+    "accepted_ledger_credit": false
+  },
+  "sources": [
+    {
+      "type": "full_article_xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4631374/fullTextXML",
+      "bytes": 106980,
+      "sha256": "716a87ab16cdf1c70f55fa448a733438f02d8a2bb9dcfcaf265e88ed597bd03c",
+      "identity": {
+        "title": "Effect of Oral Beta-Hydroxy-Beta-Methylbutyrate (HMB) Supplementation on Physical Performance in Healthy Old Women Over 65 Years: An Open Label Randomized Controlled Trial",
+        "pmcid": "PMC4631374",
+        "pmid": "26529601",
+        "doi": "10.1371/journal.pone.0141757"
+      }
+    },
+    {
+      "type": "current_registry_api",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT02118181",
+      "bytes": 3688,
+      "sha256": "3c13b162063573be136426381165ef0312159cd564795ef431e92eb502936cef",
+      "identity": {
+        "nctId": "NCT02118181",
+        "briefTitle": "Assessment of Physical Performance With A Supplementation Containing HMB in a Sample of Old Women in Good Health",
+        "studyType": "INTERVENTIONAL",
+        "studyStart": null,
+        "studyFirstSubmit": "2014-04-16",
+        "studyFirstPost": {
+          "date": "2014-04-21",
+          "type": "ESTIMATED"
+        },
+        "enrollmentInfo": {
+          "count": 80,
+          "type": "ACTUAL"
+        },
+        "primaryOutcomes": null
+      }
+    }
+  ],
+  "relationship_to_existing_route": "Distinct 2015 HMB-containing drink and cohort; it supplements, but does not replace or replicate, the later Kyowa calcium-HMB powder trial. No unique compound/decision row is added.",
+  "abstract_screen_ref": "outcome-first batch 12, order 102, MED:26529601; abstract lane H_CF.",
+  "primary_source_scope": {
+    "full_article_main_text_read": true,
+    "tables_read": true,
+    "supplementary_files_read": false,
+    "historical_registry_versions_read": false,
+    "native_figures_visually_inspected": false,
+    "independent_reader": false
+  }
+}
