@@ -1,0 +1,178 @@
+{
+  "schema": "track2-compound-primary-appraisal-v1",
+  "candidate": "Bovine colostrum (product-specific oral powder; Eterna Gold in the older-adult trial)",
+  "status": "ROOT_SINGLE_READER_AUTHOR_MANUSCRIPT_QUALIFICATION_PENDING_INDEPENDENT_REVIEW",
+  "ledger_admission": false,
+  "disposition": "Retain as an appendix-level oral muscle-function challenger; do not promote to a Track 2 lead.",
+  "route": "Nutritional muscle-output support during resistance training; no BUBR1-restoration route established.",
+  "identity_boundary": "Bovine colostrum is a complex animal-derived preparation, not a single defined molecule. The older-adult trial used heat-treated spray-dried Eterna Gold with >25% IgG; results do not automatically transfer to other brands, lots, doses, colostrum fractions, or combination products.",
+  "bub1b_mva_evidence": {
+    "BUB1B_or_BUBR1_measured": false,
+    "patient_variant_response_measured": false,
+    "spindle_checkpoint_or_chromosome_fidelity_measured": false,
+    "MVA_population_studied": false,
+    "MVA_efficacy_established": false,
+    "tumor_or_cancer_safety_outcome_measured": false
+  },
+  "screening_provenance": {
+    "batch": 14,
+    "record": "MED:24281841",
+    "order": 160,
+    "lane": "H_CF",
+    "source_abstract_sha256": "a53ad2dcf2db3d31cf6cb962116c8018531d37c517f381e47d211d684006ac85",
+    "screen_integrity_status": "PASS_BATCH14_SCREEN_INTEGRITY",
+    "screen_was_abstract_level": true,
+    "independent_second_reader": false,
+    "full_paper_credit_in_batch14": 0
+  },
+  "primary_study": {
+    "id": "PMID:24281841 / NCT01792297",
+    "design": "Randomized double-blind 8-week comparison during supervised resistance training, three nonconsecutive days per week.",
+    "population": "40 adults aged at least 50 years; 15 men and 25 women; group means approximately 59 years. The trial was not a diagnosed sarcopenia or neuromuscular-disease cohort.",
+    "randomized_groups": {
+      "colostrum": 19,
+      "whey": 21
+    },
+    "intervention": "60 g/day Eterna Gold bovine colostrum, split into three 20 g doses; accepted author manuscript reports heat-treated spray-dried powder with >25% IgG.",
+    "comparator": "60 g/day whey protein complex, approximately 38 g protein; both arms received the same 12-exercise resistance-training program.",
+    "registry_primary_outcomes": [
+      "DXA lean tissue mass",
+      "Bench-press 1RM",
+      "Leg-press 1RM"
+    ],
+    "outcomes": {
+      "leg_press_1rm_change": "Colostrum +24 ± 29 kg versus whey +8 ± 16 kg; group-by-time P=.026. Baseline-adjusted post-intervention means 165 ± 5 versus 149 ± 5 kg, P=.045.",
+      "other_primary_outcomes": "No colostrum-specific group difference for lean tissue mass or bench-press 1RM.",
+      "muscle_thickness": "Elbow-flexor and knee-extensor thickness increased over time, without a group difference.",
+      "igf1_and_crp": "No group-by-time effect or increase in serum IGF-1 or CRP.",
+      "bone_resorption_marker": "Urinary N-telopeptides favored colostrum (group-by-time P=.024; manuscript table reports change -15 ± 40% versus +10 ± 42%); this is a biomarker, not fracture or bone-density benefit."
+    },
+    "limitations": [
+      "Only one of three registry-listed primary outcomes favored colostrum; no confidence interval for the change-score difference was reported.",
+      "Authors explicitly noted that the leg-press result could be a type I error among multiple statistical tests.",
+      "Sample-size planning was based on lean-mass estimates from younger adults, not a leg-press treatment effect; only 40 participants were enrolled.",
+      "The current registry was first submitted after the stated study start month (December 2012); prospective registration before first enrollment is not established. No registry results section is posted.",
+      "One whey participant withdrew and was lost to follow-up; two additional whey participants stopped the supplement because of reflux but continued training. The manuscript says analyses were intention-to-treat but does not specify a missing-data procedure.",
+      "Supplement adherence was reported as 97 ± 12% for colostrum and 88 ± 23% with whey. Total dietary protein estimates differed between groups at baseline and remained numerically different.",
+      "Two colostrum participants reported mild gastrointestinal events. Three whey participants reported GI events, including two who discontinued the supplement.",
+      "Funding included Mitacs and the product manufacturer, Saskatoon Colostrum Company."
+    ],
+    "source_scope": "The full accepted author manuscript reprinted by permission in the first author's University of Saskatchewan dissertation was read, including methods, results, tables, figures, and discussion. It was not the final publisher PDF; the publisher route returned HTTP 403. Identity was checked against PubMed and the official trial registry."
+  },
+  "related_human_evidence": [
+    {
+      "id": "PMID:12848392",
+      "scope": "PubMed abstract only",
+      "result": "In 51 men after 8 weeks of resistance/plyometric training with 60 g/day colostrum versus whey, vertical-jump and cycle peak power favored colostrum at week 8; 1RM and alactic work capacity did not differ between groups, and IGF-1 did not change."
+    },
+    {
+      "id": "PMID:11312068",
+      "scope": "PubMed abstract only",
+      "result": "In active adults taking 20 g/day with exercise for 8 weeks, no measured exercise-performance parameter changed; a within-colostrum bone-free lean-mass increase was reported."
+    },
+    {
+      "id": "PMID:14504943",
+      "scope": "PubMed abstract only",
+      "result": "In 34 young men receiving 60 g/day during 8 weeks of arm training, maximal voluntary torque and biceps-curl 1RM did not improve more than whey; measured cross-sectional-area change was partly due to skin/subcutaneous-fat area."
+    },
+    {
+      "id": "PMID:17679046",
+      "scope": "PubMed abstract only; four-arm combination study",
+      "result": "During resistance training, 1RM, muscular endurance, and sprint capacity increased across groups, without a between-group advantage among protein, colostrum, creatine, or colostrum-plus-creatine arms. Combination results are not assigned to colostrum alone."
+    },
+    {
+      "id": "PMID:40640599",
+      "scope": "PubMed abstract only",
+      "result": "A 2025 8-week randomized rugby-player trial (29 participants; 38 g/day colostrum versus soy protein) reported a vertical-jump difference (+1.0 cm versus -0.5 cm, P=.0023), but no between-group upper- or lower-body strength, aerobic-power, body-composition, or salivary-marker difference."
+    }
+  ],
+  "competitive_interpretation": {
+    "versus_niacin": "Colostrum has a controlled leg-press signal in one product-specific training study, while niacin has the more proximal NAD/SIRT2/BUBR1 hypothesis and an uncontrolled human muscle-NAD study. These distinct evidence types do not establish a scalar efficacy ranking.",
+    "versus_apitegromab": "Colostrum is an oral nutrition-product route, but it has no pediatric neuromuscular-disease motor-function evidence and no BUB1B/MVA experiment; apitegromab has stronger disease-context motor-function evidence in SMA, without establishing MVA benefit.",
+    "versus_creatine": "The repository's creatine evidence includes randomized comparisons in neuromuscular and adult myopathy populations. Colostrum has one relevant older-adult leg-press signal and mixed training studies, with no MVA or BUBR1 measurements.",
+    "decision": "Appendix-level functional challenger only; do not add to the primary nominee pair or claim BUBR1 restoration, MVA benefit, cancer safety, or generic-product equivalence."
+  },
+  "promotion_trigger": "Replicate a prespecified lower-body functional effect using an authenticated product and matched protein/energy control, then test the exact product in affected and corrected muscle models for absolute output, renewal, chromosome fidelity, and exposure. Any BUBR1-restoration claim requires direct target and function evidence.",
+  "review": {
+    "reviewer": "root",
+    "author_manuscript_full_read": true,
+    "primary_published_version_available": false,
+    "official_registry_read": true,
+    "related_trials_reading_depth": "PubMed abstracts only",
+    "native_tables_and_figures_visually_inspected": true,
+    "independent_review": false,
+    "participant_level_reanalysis": false,
+    "ledger_credit": false,
+    "MVA_experiment": false
+  },
+  "source_bindings": [
+    {
+      "file": "duff-dissertation.pdf",
+      "url": "https://harvest.usask.ca/server/api/core/bitstreams/af0ac47c-add0-4be7-8b9b-0eab4e1f0952/content",
+      "bytes": 2806671,
+      "sha256": "e769e2be66147f420190c2a2cdbfe92ce375c7491c1c2c99e53be6f8b80efea1",
+      "scope": "official University of Saskatchewan repository; full accepted author manuscript reprinted by permission within the thesis; physical PDF pages 51-65 reviewed, including key tables and figures"
+    },
+    {
+      "file": "harvest-item.json",
+      "url": "https://harvest.usask.ca/server/api/core/items/3a14d213-c5eb-40fd-a476-0a652e3853a5",
+      "bytes": 9159,
+      "sha256": "9fc88243e7762b0a4dc783a88672bec1e1aef4b84b2298022869fe4b0b774496",
+      "scope": "official repository item metadata; author Duff; handle 10388/ETD-2015-12-2326"
+    },
+    {
+      "file": "pubmed-24281841.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=24281841&retmode=xml",
+      "bytes": 8409,
+      "sha256": "4a40c20cb1db608070f0d86580c1f31e7f0c3266e9a58703cd2eb5c6e00ce4d5",
+      "scope": "official PubMed bibliographic record and abstract; no correction notice listed"
+    },
+    {
+      "file": "clinicaltrials-nct01792297.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT01792297",
+      "bytes": 8520,
+      "sha256": "b9ea699c8ffabc86b193134f21e104183b6bf02bf9c1440f4a90d4d5c4122594",
+      "scope": "current official registry record; actual enrollment 40; three primary outcomes; no results section"
+    },
+    {
+      "file": "pubmed-12848392.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=12848392&retmode=xml",
+      "bytes": 8086,
+      "sha256": "2fa5bc8bc24a937f9df78d1f24753c369a6167a6e0d3de0740c54571ad037d5f",
+      "scope": "official abstract"
+    },
+    {
+      "file": "pubmed-11312068.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=11312068&retmode=xml",
+      "bytes": 6291,
+      "sha256": "6ff5872bc4fe106bb6d246b6201cb69d636cd48cbdf5edaff99f83af6b9884d7",
+      "scope": "official abstract"
+    },
+    {
+      "file": "pubmed-14504943.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=14504943&retmode=xml",
+      "bytes": 11382,
+      "sha256": "bbe22d370d37ead4f08b2355582970f09428f6944a4a4f59705ee5802f6ab28e",
+      "scope": "official abstract"
+    },
+    {
+      "file": "pubmed-17679046.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=17679046&retmode=xml",
+      "bytes": 9426,
+      "sha256": "ef7be649305fd0c97dbd6327073780c3ce0014d0c7a42b6c5e47affb37fa288b",
+      "scope": "official abstract"
+    },
+    {
+      "file": "pubmed-40640599-europepmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40640599&format=json&resultType=core",
+      "bytes": 6636,
+      "sha256": "802ca425115b2573bfe72dca04848552e961d76b5f6bec6328f7f1ed8616f8a4",
+      "scope": "Europe PMC abstract metadata"
+    }
+  ],
+  "next_evidence_gates": [
+    "Independent reader review of the older-adult trial and registration timing.",
+    "Replicate the lower-body strength effect with an authenticated product and prospective outcome hierarchy.",
+    "Test product-specific exposure and net absolute output, renewal, and chromosome fidelity in relevant BUB1B models before any MVA claim."
+  ]
+}
