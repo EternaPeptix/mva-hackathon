@@ -1,0 +1,686 @@
+{
+  "schema_version": "accepted-source-portable-qualification-v1",
+  "status": "PROPOSED_PORTABLE_EXPORT_OF_INDEPENDENTLY_ACCEPTED_SOURCE",
+  "integration_baseline": "ccf7ff8ed64485bd7867c46a2d7c9f5e0426b57f",
+  "decision_id": "new-calcium-hmb",
+  "source_qualification": {
+    "status": "FROZEN_SOURCE_QUALIFICATION_PENDING_INDEPENDENT_REVIEW",
+    "producer": "/root/quercetin_primary",
+    "created_utc": "2026-09-28T00:35:24.798889+00:00",
+    "current_checkpoint_admission": false,
+    "source": {
+      "pmid": "23514626",
+      "doi": "10.1016/j.clnu.2013.02.011",
+      "title": "Effect of beta-hydroxy-beta-methylbutyrate (HMB) on lean body mass during 10 days of bed rest in older adults",
+      "journal": "Clinical Nutrition 2013;32:704-712",
+      "trial_registry": "NCT00945581",
+      "main": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-bedrest-primary-20260927/raw/main.pdf",
+        "bytes": 343030,
+        "sha256": "c864addf49efe2792e0de281ddec0c07b6915065f5adb8db6866e63763c27b7f"
+      },
+      "main_provenance": "Public Caldic-hosted reproduction of publisher-layout original matched to official bibliographic identity; no authenticated publisher checksum",
+      "supplement": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-bedrest-primary-20260927/raw/supplement.docx",
+        "bytes": 263496,
+        "sha256": "d7669f13ecc3800fce9623a6f50040703c50b309dbd1eed1d64f69381f6bb05b"
+      },
+      "independent_trials": 1
+    },
+    "baseline": {
+      "baseline_at_initial_live_read": "8251103f7fd7f26e7d591fb325c60967a4f3d487",
+      "assessments": 279,
+      "existing_decision_id": "new-calcium-hmb",
+      "inputs": [
+        {
+          "repo_relative": "workflow/track2-drug-census/decisions.json",
+          "baseline": "8251103f7fd7f26e7d591fb325c60967a4f3d487",
+          "bytes": 512918,
+          "sha256": "1fb0cd987a18c7819b8ad40c010ca0bceea73af14d51d24d2cec6ff37e35fece"
+        },
+        {
+          "repo_relative": "workflow/track2-drug-census/hmb-muscle-qualification.md",
+          "baseline": "8251103f7fd7f26e7d591fb325c60967a4f3d487",
+          "bytes": 12500,
+          "sha256": "eee5e5ae627c89b683343c6908410e6750ad787f2e9207406d6638dd6952600e"
+        },
+        {
+          "repo_relative": "workflow/track2-drug-census/hmb-muscle-qualification.json",
+          "baseline": "8251103f7fd7f26e7d591fb325c60967a4f3d487",
+          "bytes": 6364,
+          "sha256": "2a4fc91e351cc687f3aa4f12656f960cba5ceeb6212ecd00773a4c036e8bf445"
+        }
+      ],
+      "root_may_integrate_other_checkpoint_concurrently": true,
+      "proposed_stage": "Source qualification only, not admitted in quercetin/MAX-EPA checkpoint",
+      "fresh_identity_at_freeze": {
+        "head": "ccf7ff8ed64485bd7867c46a2d7c9f5e0426b57f",
+        "checked_utc": "2026-09-28T00:36:10.951658+00:00",
+        "assessments": 279,
+        "exact_HMB_object_unchanged_from_initial_read": true,
+        "HMB_report_bytes_unchanged": true,
+        "HMB_JSON_bytes_unchanged": true,
+        "exact_target_PMID_matches": [],
+        "decisions_sha256": "db0f78924daf58c549e7bd0c45171ad20c653a23d6be6d5648e695e79f6d21d9"
+      }
+    },
+    "recommendation": "Bounded refinement of existing new-calcium-hmb after independent review; no new family identity or current-checkpoint admission. Preserve earlier different-trial gait positive. No nominee replacement.",
+    "preparation": {
+      "active_per_sachet": {
+        "Ca_HMB_g": 1.5,
+        "supplier": "TSI, Salt Lake City, Utah",
+        "maltodextrin_g": 4,
+        "listed_calcium_mg": 200,
+        "other": "flavoring and sweetener"
+      },
+      "schedule": "Two sachets daily around meals, morning/evening, from five days before bed rest through eight weeks rehabilitation",
+      "nominal_Ca_HMB_g_day": 3,
+      "control": "Described as identical except Ca-HMB; listed maltodextrin/calcium background nominally shared",
+      "calcium_limit": "No analytical confirmation of total elemental-calcium matching or clarification whether listed 200 mg is salt-associated or separately supplied calcium",
+      "free_acid_HMB_equivalent": "UNKNOWN",
+      "packager": "Unnamed third party",
+      "batch_purity_assay": "UNKNOWN",
+      "retail_equivalence": "UNKNOWN",
+      "different_from_prior": "Prior Kyowa preparation/control and tested population/dose remain separate; do not import its calcium-free control description",
+      "urinary_HMB_nmol_ml_mean_SEM": {
+        "control_start": [
+          16.93,
+          4.27
+        ],
+        "control_end": [
+          27.44,
+          8.26
+        ],
+        "HMB_start": [
+          2258.88,
+          365.86
+        ],
+        "HMB_end": [
+          2383.86,
+          462.88
+        ]
+      },
+      "urinary_n": {
+        "control": 8,
+        "HMB": 11
+      },
+      "urinary_timing": "First/second day of bed rest and end of bed rest; baseline after supplement run-in",
+      "exposure_scope": "Supports ingestion, not plasma level, tissue target engagement or pediatric regimen"
+    },
+    "design": {
+      "type": "Randomized masked parallel trial",
+      "site": "UAMS Clinical Research Center",
+      "randomization": "Abbott computer-generated pseudo-random permuted blocks stratified by age group and sex; sequential sealed envelopes",
+      "masking": "Main describes subjects, investigators/site and involved Abbott staff masked through analysis",
+      "eligibility": "Age 60-79, BMI20-35, SPPB>=9, healthy ambulatory; evaluable age60-76",
+      "intervention": "5-day run-in;10-day bed rest;8-week resistance rehabilitation",
+      "diet": "Controlled run-in/bed-rest diet with protein0.8g/kg/day",
+      "rehabilitation": "Shared1h three times/week,24sessions,3sets8-10repetitions around80%1RM; supplement continued"
+    },
+    "participants": {
+      "screened": 217,
+      "screening_excluded": 193,
+      "randomized": {
+        "total": 24,
+        "control": 11,
+        "HMB": 13,
+        "women": 20,
+        "men": 4
+      },
+      "bedrest_evaluable": {
+        "control": 8,
+        "HMB": 11
+      },
+      "full_study_evaluable": {
+        "control": 7,
+        "HMB": 11
+      },
+      "before_bedrest_exclusions": {
+        "control_D_dimer": 2,
+        "HMB_D_dimer": 1,
+        "HMB_knee_pain_swelling": 1,
+        "control_vomiting": 1
+      },
+      "recovery_control_withdrawal": "Pulmonary embolism/hypertension serious adverse event",
+      "DXA_active_outlier": {
+        "sex": "male",
+        "excluded_from_subsequent_DXA": true,
+        "rationale": "Authors hypothesized baseline DXA error after disproportionate lean loss and no rehabilitation recovery; error not demonstrated",
+        "prespecified_rule": "Not recovered"
+      },
+      "bedrest_DXA_after_exclusion": {
+        "control": 8,
+        "HMB": 10
+      },
+      "rehab_DXA": {
+        "control": 7,
+        "HMB": 10,
+        "selected_HMB_regions": 9
+      },
+      "female_subgroup": {
+        "control": 7,
+        "HMB": 8,
+        "replication": false,
+        "sex_interaction_established": false
+      },
+      "FSR_n": {
+        "control": 8,
+        "HMB": 10,
+        "reason": "One HMB participant could not undergo procedure; identity not shown same as DXA exclusion"
+      },
+      "analysis_policy": "Evaluable analysis; wrong product/excluded concomitant treatment/<67% consumption listed exclusion criteria; ITT/imputation not demonstrated",
+      "exact_strength_endpoint_n": "Not independently specified for every reported test"
+    },
+    "mass_outcomes": {
+      "all_evaluable_total_lean_kg": {
+        "control_mean_SEM": [
+          -2.05,
+          0.66
+        ],
+        "HMB_mean_SEM": [
+          -0.6,
+          0.47
+        ],
+        "between_p": 0.16,
+        "test": "ANOVA"
+      },
+      "excluded_total_lean_kg": {
+        "control_mean_SEM": [
+          -2.05,
+          0.66
+        ],
+        "HMB_mean_SEM": [
+          -0.17,
+          0.19
+        ],
+        "between_p": 0.02,
+        "test": "ANOVA"
+      },
+      "excluded_leg_lean_kg": {
+        "control_mean_SEM": [
+          -1.01,
+          0.35
+        ],
+        "HMB_mean_SEM": [
+          -0.08,
+          0.17
+        ],
+        "between_p": 0.02
+      },
+      "female_total_lean_kg": {
+        "control_mean_SEM": [
+          -1.89,
+          0.75
+        ],
+        "HMB_mean_SEM": [
+          -0.2,
+          0.24
+        ],
+        "between_p": 0.04
+      },
+      "rehab_total_lean_change_from_original_baseline_kg": {
+        "control_mean_SEM": [
+          -0.43,
+          0.67
+        ],
+        "HMB_mean_SEM": [
+          0.07,
+          0.26
+        ],
+        "within_p": {
+          "control": 0.55,
+          "HMB": 0.8
+        },
+        "between_contrast": "Not reported"
+      },
+      "rehab_leg_lean_change_from_original_baseline_kg": {
+        "control_mean_SEM": [
+          -0.06,
+          0.22
+        ],
+        "HMB_mean_SEM": [
+          0.71,
+          0.33
+        ],
+        "within_p": {
+          "control": 0.78,
+          "HMB": ".06 main/.061 supplement"
+        },
+        "between_contrast": "Not reported"
+      },
+      "treatment_effect_CI": null,
+      "interpretation": "All-evaluable total-mass contrast nonsignificant; exclusion-sensitive nominal mass preservation; not proven force/function or renewal"
+    },
+    "strength_outcomes": {
+      "tested": [
+        "Isokinetic knee extension60/180",
+        "Isokinetic knee flexion60/180",
+        "Isotonic1RM/leg press",
+        "Standing plantar-flexor",
+        "Stair ascent/descent power"
+      ],
+      "60_bedrest_change": {
+        "control_mean_SEM": [
+          -12.54,
+          7.84
+        ],
+        "HMB_mean_SEM": [
+          0.67,
+          6.91
+        ],
+        "between_p_as_printed": 0.84
+      },
+      "180_bedrest_change": {
+        "control_mean_SEM": [
+          -11.0,
+          8.31
+        ],
+        "HMB_mean_SEM": [
+          -0.18,
+          7.07
+        ],
+        "between_p_as_printed": 0.1
+      },
+      "60_rehab_change_from_bedrest_end": {
+        "control_mean_SEM": [
+          22.24,
+          8.16
+        ],
+        "HMB_mean_SEM": [
+          23.64,
+          9.61
+        ],
+        "within_p": {
+          "control": 0.03,
+          "HMB": 0.03
+        },
+        "between_recovery_end": "Main states nonsignificant"
+      },
+      "180_rehab_change_from_bedrest_end": {
+        "control_mean_SEM": [
+          15.9,
+          8.06
+        ],
+        "HMB_mean_SEM": [
+          11.15,
+          8.49
+        ],
+        "within_p": {
+          "control": 0.1,
+          "HMB": 0.22
+        }
+      },
+      "HMB_only_baseline_to_rehab_p": {
+        "60": ".004 figure/.0041 prose",
+        "180": 0.03
+      },
+      "units": "Main text Nm/s; native Figure3 axes Nm; unresolved as printed",
+      "tests_performed": true,
+      "function_tests_infeasible_claim": false,
+      "no_within_arm_significance_transfer": true,
+      "unreported_estimates": "No complete numeric results for every named strength/power endpoint; no fabricated nulls or treatment CIs"
+    },
+    "function_outcomes": {
+      "visit_order": [
+        "pre-bedrest",
+        "post-bedrest",
+        "post-rehabilitation"
+      ],
+      "variation": "SEM",
+      "nominal_n_by_visit": {
+        "control": [
+          8,
+          8,
+          7
+        ],
+        "HMB": [
+          11,
+          11,
+          11
+        ]
+      },
+      "table": {
+        "SPPB": {
+          "control": [
+            [
+              11.6,
+              0.3
+            ],
+            [
+              11.5,
+              0.3
+            ],
+            [
+              11.6,
+              0.4
+            ]
+          ],
+          "HMB": [
+            [
+              11.5,
+              0.2
+            ],
+            [
+              11.5,
+              0.3
+            ],
+            [
+              11.9,
+              0.1
+            ]
+          ],
+          "unit": "score",
+          "within_arm_bedrest": "ns both",
+          "within_arm_rehab": "ns both"
+        },
+        "five_item_performance": {
+          "control": [
+            [
+              14.4,
+              0.3
+            ],
+            [
+              14.1,
+              0.2
+            ],
+            [
+              14.7,
+              0.2
+            ]
+          ],
+          "HMB": [
+            [
+              14.5,
+              0.2
+            ],
+            [
+              13.9,
+              0.4
+            ],
+            [
+              14.5,
+              0.2
+            ]
+          ],
+          "unit": "score",
+          "within_arm_bedrest": "ns both",
+          "within_arm_rehab": "ns both"
+        },
+        "Get_Up_and_Go": {
+          "control": [
+            [
+              6.88,
+              0.37
+            ],
+            [
+              6.92,
+              0.52
+            ],
+            [
+              5.59,
+              0.24
+            ]
+          ],
+          "HMB": [
+            [
+              6.18,
+              0.38
+            ],
+            [
+              6.87,
+              0.43
+            ],
+            [
+              5.43,
+              0.23
+            ]
+          ],
+          "unit": "seconds",
+          "within_arm_bedrest": "ns both",
+          "within_arm_rehab_p": {
+            "control": 0.0323,
+            "HMB": 0.0025
+          }
+        },
+        "standing_plantar_flexor": {
+          "control": [
+            [
+              30.9,
+              2.5
+            ],
+            [
+              32.8,
+              2.5
+            ],
+            [
+              43.1,
+              4.7
+            ]
+          ],
+          "HMB": [
+            [
+              34.3,
+              5.1
+            ],
+            [
+              34.7,
+              5.1
+            ],
+            [
+              41.9,
+              3.9
+            ]
+          ],
+          "unit": "repetitions/minute",
+          "within_arm_bedrest": "ns both",
+          "within_arm_rehab_p": {
+            "control": 0.089,
+            "HMB": 0.0456
+          }
+        }
+      },
+      "supplement_ns_definition": "P>0.1",
+      "supplement_p_scope": "Within-arm signed-rank or paired t-tests, not treatment comparisons",
+      "main_between_bedrest_end": "No significant difference for SPPB,Get-Up-and-Go,5-item score",
+      "rehab_between_contrasts": "Not provided for these individual tasks; active-only/both-arm improvement is not HMB effect",
+      "VO2peak": {
+        "control_mean_SEM": [
+          [
+            17.35,
+            1.09
+          ],
+          [
+            15.37,
+            1.73
+          ]
+        ],
+        "HMB_mean_SEM": [
+          [
+            18.1,
+            1.21
+          ],
+          [
+            17.11,
+            1.34
+          ]
+        ],
+        "control_n": [
+          7,
+          5
+        ],
+        "HMB_n": [
+          11,
+          9
+        ],
+        "rehab": "Not measured",
+        "within_arm": "ns",
+        "between": "Not supplied"
+      },
+      "physical_activity": "Supplement provides within-arm ns values; no independent replication or treatment benefit"
+    },
+    "mechanistic_outcome": {
+      "FSR_percent_per_hour_mean_SEM": {
+        "control_pre": [
+          0.1028,
+          0.0042
+        ],
+        "control_post": [
+          0.08,
+          0.0124
+        ],
+        "HMB_pre": [
+          0.0978,
+          0.0062
+        ],
+        "HMB_post": [
+          0.0962,
+          0.0129
+        ]
+      },
+      "between_change_p": 0.3,
+      "test": "ANOVA",
+      "scope": "Six-hour fed-state muscle synthesis measurement; no demonstrated treatment mediation, productive renewal or fidelity"
+    },
+    "statistical_hierarchy": {
+      "current_registry_primary": "Lower-extremity muscle-strength change during bed rest and recovery",
+      "registry_secondary": [
+        "lower-extremity lean mass",
+        "muscle functionality",
+        "total lean mass",
+        "physical activity"
+      ],
+      "main_threshold": 0.05,
+      "interaction_threshold": 0.1,
+      "multiple_variables_adjustment": "None",
+      "conditional_followup": "Holm stepdown after significant interaction",
+      "female_or_outlier_prespecification": "Not established",
+      "full_protocol_SAP": "Not recovered",
+      "effect_CIs": "Not supplied; no reconstruction"
+    },
+    "registry": {
+      "current_record": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-bedrest-primary-20260927/raw/registry-current.json",
+        "bytes": 6268,
+        "sha256": "ed577a8cbf046ad3e247478fa5af503efa096c8263a83677ac6fe1f0101a1e61"
+      },
+      "first_posted": "2009-07-24",
+      "last_update_posted": "2011-03-29",
+      "actual_enrollment": 36,
+      "paper_randomized": 24,
+      "discrepancy": "Unresolved; do not add registry enrollment to paper denominators",
+      "results_posted": false,
+      "historical_versions_read": false,
+      "history_access": "403",
+      "full_protocol_document": "Not supplied in recovered API record; no full protocol recovered"
+    },
+    "reporting_conflicts": [
+      "Abstract excluded HMB mass mean uses within P=.23; main .42/Table3 .4177, whereas .23 is all-active11 result",
+      "Native Table3 active arm-lean change+.02 despite displayed4.07to4.04 means; retained without repair",
+      "Figure2 general control n8 versus supplemental rehabilitation n7",
+      "Supplementary mass header/columns baseline-to-rehab versus P footnote post-bedrest-to-rehab",
+      "Main strength prose Nm/s versus Figure3 Nm",
+      "Unexplained pound symbol on active baseline activity cells"
+    ],
+    "safety": {
+      "SAE_participants": {
+        "control": 1,
+        "HMB": 1
+      },
+      "SAE_control": "Pulmonary embolism and hypertension",
+      "SAE_HMB": "Hyponatremia",
+      "author_attribution": "Both unrelated to study product; discharged stable",
+      "other_withdrawals": "Control vomiting;HMB knee pain/swelling;D-dimer exclusions",
+      "between_AE_statement": "No significant differences in number reporting categories/terms; no complete graded arm table recovered",
+      "safety_equivalence": false
+    },
+    "funding_conflicts": {
+      "funder": "Abbott Nutrition",
+      "roles": "Design, planning and statistical analysis in conjunction with Abbott",
+      "employee_authors": [
+        "Pereira",
+        "Oliver",
+        "Edens"
+      ],
+      "Wolfe": "Compensated Abbott Research Advisory Board member",
+      "other_authors": "Deutz,Hays,Evans declare no conflict"
+    },
+    "correspondence": {
+      "comment_pmid": "23706872",
+      "comment_doi": "10.1016/j.clnu.2013.04.022",
+      "comment_title": "Establishing exercise habit is important when assessing lean body mass in elderly",
+      "indexed_type": [
+        "Letter",
+        "Comment"
+      ],
+      "reply_pmid": "23725606",
+      "reply_doi": "10.1016/j.clnu.2013.05.003",
+      "reply_authors": "Pereira,Deutz,Wolfe",
+      "both_full_text_read": false,
+      "specific_criticism_or_concession": "UNKNOWN; title alone insufficient",
+      "not_labelled_as": "Correction or retraction in inspected metadata",
+      "notice_scope": "Bounded parent/comment/reply metadata, not exhaustive notice audit",
+      "independent_trial_credit": 0
+    },
+    "equal_competition": {
+      "function": "Retain measured nonsignificant/imprecise controlled comparisons; do not import mass as function; earlier different-trial gait positive remains",
+      "exposure": "Trial calcium-salt sachet orally tested; batch/free-acid-equivalent/calcium-matching/plasma and pediatric transfer unresolved",
+      "durability": "Supplement continued during rehab; no withdrawal durability demonstrated",
+      "renewal": "No productive tissue-renewal assay; FSR contrast nonsignificant",
+      "fidelity_restoration": "No selected BUB1B/BUBR1 or chromosome-fidelity experiment",
+      "MVA_child_efficacy": "Not established",
+      "nominee_superiority": "No automatic niacin/apitegromab superiority or selective actual-allele hurdle"
+    },
+    "qualification_md": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-bedrest-primary-20260927/qualification.md",
+      "bytes": 14389,
+      "sha256": "03bc1e037f476f8343c6a966ed0eefc064184cf4597e5cd5419364ae36350470"
+    },
+    "reading_manifest": "reading-manifest.json",
+    "retrieval_log": "retrieval-log.json",
+    "no_repository_edits_tests_replays_joins": true,
+    "future_independent_review_excluded": true
+  },
+  "source_and_review_provenance": {
+    "producer_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-bedrest-primary-20260927/final-bindings.json",
+      "bytes": 17628,
+      "sha256": "12e490f0deeccf883444f4db4dab1dfb939103bb65e79a9d6e416e61cbab555d"
+    },
+    "producer_qualification": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-bedrest-primary-20260927/qualification.json",
+      "bytes": 18964,
+      "sha256": "d4221d542ff4d32b0383680d00c9f60aa5611acbcd9a55f84bd55a2cdce7335c"
+    },
+    "independent_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-bedrest-primary-20260927/independent-review/final-bindings.json",
+      "bytes": 3054,
+      "sha256": "3ca2ce42dc0b003afdd79600fe7264f95f47e412c64099e12e932568be7f67f7"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-bedrest-primary-20260927/independent-review/review.json",
+      "bytes": 2539,
+      "sha256": "3c8b1e3e063c96fb943bb905f888e10bdc444a7892e49517f25c17421724d2a5"
+    },
+    "reading_roles": "Original producer and independent source reading retain their declared scopes. This external proposal adds no new primary reading or biological replication."
+  },
+  "producer_JSON_nested_exact": true,
+  "producer_MD_preserved_as_exact_prefix": false,
+  "markdown_transformations": [
+    [
+      "This packet is outside the current quercetin/MAX-EPA checkpoint and makes no repository change.",
+      "This source-stage packet preceded the integrated HMB/krill update; independent review has since accepted the bounded refinement."
+    ],
+    [
+      "A bounded refinement of existing calcium-HMB evidence is appropriate after independent review; no new assessment or current-checkpoint admission is made here.",
+      "Independent review accepted this bounded refinement of existing calcium-HMB evidence; it adds no new HMB assessment identity."
+    ]
+  ],
+  "appended_provenance": "\n## Portable integration provenance\n\nThis export preserves the accepted producer's scientific text, with two documented status-only sentence changes reflecting completed independent review and this integration. The original producer JSON remains exact inside the structured companion. The earlier HMB-only proposal used the 279-assessment checkpoint `ccf7ff8ed64485bd7867c46a2d7c9f5e0426b57f` and added no identity; the combined HMB/krill update refines this existing calcium-HMB decision and adds one separate krill-preparation assessment, bringing the ledger to 280. The earlier Kyowa trial, its gait-positive result and its calcium-free control remain separate from this TSI bed-rest preparation. Producer, independent-source reviewer and integrating-reviewer reading scopes remain separately attributed. Exporting these documents adds no primary-reading or biological-replication credit. Raw sources and native assets remain outside Git. Original correspondence bodies, historical registry versions and the locked protocol/SAP remain unavailable. No nominee, variant-efficacy or product-equivalence claim is added.\n",
+  "scientific_summary": "Separately, the recovered original main and official supplement for PMID 23514626 test TSI calcium-HMB sachets during ten-day bed rest and eight-week rehabilitation after five-day pretreatment in healthy older adults. Twenty-four were randomized (11 control/13 active); bed-rest evaluable counts were 8/11, and full-study counts 7/11. The all-evaluable total lean-mass change contrast was nonsignificant (P=.16); excluding one active male with suspected, unproven baseline DXA error yielded nominal total/leg mass contrasts P=.02 (8/10), while the same-cohort female subgroup was 7/8 with total-mass P=.04. These are population-specific sensitivity findings, not strength benefit. Actual strength and functional tests were performed; printed knee-extension bed-rest treatment P values were .84 and .10, and the main reported no end-bed-rest SPPB, Get-Up-and-Go or five-item treatment differences. Within-arm recovery improvements and missing individual estimates do not establish treatment benefit, equivalence or universal ineffectiveness. The current NCT00945581 record lists strength as primary and mass/function/activity as secondary; historical versions/SAP and the registry 36-versus-paper 24 enrollment discrepancy remain unresolved. The nominally shared maltodextrin/calcium background differs from the earlier Kyowa trial control; exact elemental-calcium matching and product interchangeability remain unverified. Two SAEs, one per arm, were judged unrelated by the authors; no safety-equivalence claim follows. Continued supplementation during rehabilitation is not off-treatment durability. Preserve the earlier separate-trial gait positive and its control/access limits. This source adds no BUBR1 restoration, productive renewal, fidelity or MVA efficacy; source reporting conflicts and unread comment/reply bodies remain explicit.",
+  "new_decisions": 0,
+  "proposal_primary_reading_credit": 0,
+  "repository_mutation": false,
+  "historical_HMB_only_assessments": 279,
+  "combined_HMB_krill_assessments": 280,
+  "integrating_reviewer_scope": "Read full producer qualification and independent review; original main Methods layout100–195, native main pages4–7 (methods, mass analyses, function, harms, discussion) and supplementary native pages39 and41. No root complete-main/subgroup/registry/correspondence reading claim; source reviewers have separately recorded wider scope. Not blind/source-first root review."
+}

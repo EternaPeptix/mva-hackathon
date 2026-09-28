@@ -343,6 +343,25 @@
       "qualification_report": "quercetin-acute-function-qualification.md",
       "finding": "Greater acute post-exercise electrically elicited torque decline at low/moderate intensity, with high-intensity nonsignificance; no intensity interaction or chronic benefit/harm. Paired condition changes supported for contributing participants, complete all-participant crossover methods and formulation matching unresolved.",
       "ledger_action": "Refines existing quercetin-glycoside evidence without changing identity/disposition or assessment count."
+    },
+    {
+      "source": "MED",
+      "id": "35504165",
+      "related_same_cohort_report": "41344001",
+      "depth": "Complete parent and subgroup scientific mains, native outcomes, source-specific CONSORT checklist and current registry; independent reading at stated scopes. Historical registry, separate protocol/SAP and participant data unavailable.",
+      "qualification_report": "krill-oil-muscle-qualification.md",
+      "finding": "Controlled knee torque/grip positives, with nonpositive walking/chair-rise/whole-body mass/QoL; 94/102 analyzed despite ITT label, delayed registration and source-reporting conflicts retained. The subgroup paper is the same trial, not independent replication.",
+      "ledger_action": "Adds one exact SuperbaBoost trial-preparation assessment with no automatic catalog aliases.",
+      "new_eligibility_screening_credit": 0
+    },
+    {
+      "source": "MED",
+      "id": "23514626",
+      "depth": "Complete original main and native outcomes, official appended supplementary flow/tables and current registry; comment/reply metadata only. Independent review accepted; historical registry/protocol/SAP and correspondence bodies unavailable.",
+      "qualification_report": "hmb-bedrest-qualification.md",
+      "finding": "All-evaluable total lean-mass contrast P=.16; P=.02 after one active DXA exclusion. Strength and functional testing performed with reported nonpositive between-treatment comparisons; within-arm recovery and missing estimates do not establish benefit or universal null.",
+      "ledger_action": "Refines existing calcium-HMB source evidence while preserving separate Kyowa gait-positive trial and its different control; no new identity.",
+      "new_eligibility_screening_credit": 0
     }
   ],
   "clinical_or_global_claims": {
@@ -5659,6 +5678,16 @@
       "pmid": "39823681",
       "reason": "Protein-enriched lacto-vegetarian soup report from batch06: recover exact nutritional preparation, controlled function estimates, multiple-primary hierarchy and energy/protein comparator before appraisal.",
       "status": "Follow-up qualified at the source-specific depth above; original question retained, unresolved analysis/preparation/exposure limits remain."
+    },
+    {
+      "pmid": "41344001",
+      "reason": "Krill-oil subgroup source frombatch08: retrieve its parent randomized trial NCT04048096 and exact formulation; distinguish primary controlled strength evidence from exploratory sex/age/BMI analyses. No qualification credit yet.",
+      "status": "Source-specific follow-up qualified at its explicit reading depth; historical question preserved and remaining preparation/analysis/access limits remain."
+    },
+    {
+      "pmid": "23514626",
+      "reason": "Ca-HMB bed-rest report frombatch08: recover exact preparation/control, participant exclusion and outcome-specific functional comparisons; distinguish mass preservation from function. Existing HMB appraisal must not inherit this trial without qualification.",
+      "status": "Source-specific follow-up qualified at its explicit reading depth; historical question preserved and remaining preparation/analysis/access limits remain."
     }
   ],
   "next_source_questions": [
@@ -5677,14 +5706,6 @@
         "report": "maxepa-ra-source-note.md",
         "status": "Abstract-access note accepted; original pp497–503 and formal contrast/outcome/safety analyses remain unresolved. Not a completed full-paper appraisal."
       }
-    },
-    {
-      "pmid": "41344001",
-      "reason": "Krill-oil subgroup source frombatch08: retrieve its parent randomized trial NCT04048096 and exact formulation; distinguish primary controlled strength evidence from exploratory sex/age/BMI analyses. No qualification credit yet."
-    },
-    {
-      "pmid": "23514626",
-      "reason": "Ca-HMB bed-rest report frombatch08: recover exact preparation/control, participant exclusion and outcome-specific functional comparisons; distinguish mass preservation from function. Existing HMB appraisal must not inherit this trial without qualification."
     }
   ],
   "source_access_notes": [
@@ -5697,5 +5718,27 @@
       "ledger_action": "No new fully qualified decision; no EPA/Lovaza or generic-product transfer.",
       "full_paper_qualification_credit": 0
     }
-  ]
+  ],
+  "pending_eligibility_selection": {
+    "batch": 9,
+    "selected_source_ID_records": 160,
+    "saved_abstracts": 159,
+    "missing_abstract_orders": [
+      118
+    ],
+    "prior_completed_exclusions": 840,
+    "retained_before_selection": 55377,
+    "unselected_after_selection": 55217,
+    "selection_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch09-20260927/selection-final-bindings.json",
+      "sha256": "ef12742bc4875727750f52b9148af5aba6a6d59b6e4f222504335047255999cd"
+    },
+    "root_selection_verification": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/hmb-krill-integration-20260927/root/batch09-selection-verification.json",
+      "sha256": "944ba31e39a7771754986d59bc5b8e350d750e554d0aa8f9a97bf2907eab8f57"
+    },
+    "status": "Scientific screening in progress; not added to completed coverage at this checkpoint.",
+    "new_completed_screening_credit": 0,
+    "selection_is_not_reading": true
+  }
 }
