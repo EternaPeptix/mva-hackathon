@@ -23,7 +23,23 @@ def tsv(path):
         return list(csv.DictReader(f, delimiter='\t'))
 
 
-def check_overlay(overlay, decisions, decision_ids):
+def decision_snapshot(ledger_bytes, recorded_count, recorded_sha256):
+    """Authenticate the ledger used by a dated overlay, allowing later appends."""
+    ledger = json.loads(ledger_bytes)
+    decisions = ledger['decisions']
+    assert 0 <= recorded_count <= len(decisions), 'Recorded decision snapshot is truncated'
+    if recorded_count == len(decisions):
+        snapshot_bytes = ledger_bytes
+    else:
+        # Preserve metadata and key order. This reconstruction is accepted only
+        # when it reproduces the exact bytes authenticated by the recorded hash.
+        ledger['decisions'] = decisions[:recorded_count]
+        snapshot_bytes = (json.dumps(ledger, indent=2, ensure_ascii=False) + '\n').encode('utf-8')
+    assert hashlib.sha256(snapshot_bytes).hexdigest() == recorded_sha256, 'Recorded decision snapshot changed'
+    return decisions[:recorded_count]
+
+
+def check_overlay(overlay, ledger_bytes):
     manifest = json.loads((overlay / 'source-manifest.json').read_text())
     summary = json.loads((overlay / 'screen-summary.json').read_text())
     for item in manifest['outputs']:
@@ -31,9 +47,10 @@ def check_overlay(overlay, decisions, decision_ids):
         assert path.stat().st_size == item['bytes'], (overlay.name, item['path'])
         assert digest(path) == item['sha256'], (overlay.name, item['path'])
     assert manifest['screening_script_sha256'] == digest(ROOT / 'build_cpdat_bub1b_screen.py')
-    assert manifest['decision_ledger_sha256'] == digest(ROOT / 'decisions.json')
     assert summary['decision_ledger_sha256'] == manifest['decision_ledger_sha256']
-    assert summary['decision_ledger_count'] == len(decisions)
+    assert summary['decision_ledger_count'] == manifest['decision_ledger_count']
+    decisions = decision_snapshot(ledger_bytes, summary['decision_ledger_count'], manifest['decision_ledger_sha256'])
+    decision_ids = {d['decision_id'] for d in decisions}
     assert summary['cpdat_archive_sha256'] == manifest['archive_sha256']
     assert summary['gene_corpus_sha256'] == manifest['target_corpus_sha256']
     assert summary['puc_kind'] == manifest['puc_kind']
@@ -84,6 +101,8 @@ def check_overlay(overlay, decisions, decision_ids):
         'result': 'PASS',
         'puc_kind': manifest['puc_kind'],
         'cpdat_release': manifest['source'],
+        'screened_decisions': len(decisions),
+        'appended_decisions_since_screen': len(json.loads(ledger_bytes)['decisions']) - len(decisions),
         'composition_rows_with_dtxsid': summary['selected_kind_composition_rows_with_dtxsid'],
         'dtxsids': len(chemicals),
         'review_class_exact_name_rows': len(mentions),
@@ -93,9 +112,9 @@ def check_overlay(overlay, decisions, decision_ids):
 
 
 def check():
-    decisions = json.loads((ROOT / 'decisions.json').read_text())['decisions']
+    ledger_bytes = (ROOT / 'decisions.json').read_bytes()
+    decisions = json.loads(ledger_bytes)['decisions']
     decision_ids = {d['decision_id'] for d in decisions}
-    assert len(decisions) == 289
     assert {
         'new-bisphenol-a-bubr1-exposure',
         'new-naproxen-bubr1-downregulation',
@@ -104,7 +123,7 @@ def check():
         'new-ozone-bubr1b-downregulation',
         'new-quercetin-aglycone-bubr1b-screen',
     } <= decision_ids
-    return {'result': 'PASS', 'current_decisions': len(decisions), 'overlays': [check_overlay(o, decisions, decision_ids) for o in OVERLAYS]}
+    return {'result': 'PASS', 'current_decisions': len(decisions), 'overlays': [check_overlay(o, ledger_bytes) for o in OVERLAYS]}
 
 
 if __name__ == '__main__':
