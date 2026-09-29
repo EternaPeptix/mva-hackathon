@@ -1,5 +1,7 @@
 # Reusing PR1 without losing source corrections
 
+**Live recheck, 29 September 2026:** PR1 still publishes revision `26b30ddca828e7fb36e888f0a012bfced4e759e1`, already an ancestor of PR2. All 109 original decision IDs remain in the current 290-entry ledger: 90 decoded objects are unchanged and 19 retain later source qualifications. The reader/test files are byte-identical, and all 3,598 selected records are preserved. No additional merge is required to inherit the published PR1 additions. The checkpoint history below explains the qualified differences.
+
 **22 September 2026.** The work in [PR1 revision 26b30dd](https://github.com/EternaPeptix/mva-hackathon/commit/26b30ddca828e7fb36e888f0a012bfced4e759e1)
 is reusable. Most of it was already present in the evidence branch. This
 integration reconciles that revision with the later source corrections; it does

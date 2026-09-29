@@ -1,10 +1,10 @@
 # Track 2: testing two ways to preserve muscle
 
-**21 September 2026. Research proposal; Track 2 has not been submitted.**
+**Updated 29 September 2026. Research proposal; Track 2 has not been submitted.**
 
 The [adopted drug-census decision](../workflow/track2-drug-census/decision-report.md) is incorporated into this package. We nominate **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue. Their shared goal is greater absolute muscle output with preserved renewal and chromosome accuracy.
 
-Niacin retains the more proximal hypothesis; apitegromab has stronger actual-drug human functional evidence from treated SMA, with age/dose limits, fracture risk and intravenous access burden. It requires a suitable myostatin activation system and drug engagement, not mandatory excess baseline myostatin. The clean-state scoring review itself assessed 282 appraisals. Subsequent propylparaben, BPA, NSAID, MnBP and ozone comparator appraisals bring the current ledger to 288; the CPDat v4.1 Formulation and Article overlays were added after that review and do not change the nominee comparison. These are measured retrieval and review counts, not efficacy evidence for every medicine.
+Niacin retains the more proximal hypothesis; apitegromab has stronger actual-drug human functional evidence from treated SMA, with age/dose limits, fracture risk and intravenous access burden. It requires a suitable myostatin activation system and drug engagement, not mandatory excess baseline myostatin. The current ledger contains 290 appraisals. The dated numerical reviews do not score the subsequent source qualifications or this candidate shortlist; the 29 September independent check assessed candidate selection rather than assigning a new full-package score.
 
 Completed work comprises allele-product reconstruction, literature and route
 comparison, synthetic analysis of misleading cell fractions, and a reproducible
@@ -15,6 +15,7 @@ Laboratory and patient-model access remain unsecured.
 
 | Material | Purpose |
 |---|---|
+| [Candidate shortlist](appendices/track2-candidate-shortlist.md) | Nominees, experimental challengers and evidence that would change the choice |
 | [Drug census and comparative decision](../workflow/track2-drug-census/decision-report.md) | Broad public catalog screen, adopted comparison, additional leads and remaining evidence gaps |
 | [Revised narration](jeweled_track2_pitch_reconciled.md) and [local pitch media](media/jeweled_track2_skylar.mp4) | Niacin restoration / apitegromab compensation, eight slides and 180 seconds |
 | [Main report](jeweled_track2_report_submission.md) | Evidence chain, counterevidence, completed findings and first experiment |
@@ -47,7 +48,7 @@ scored the earlier niacin/everolimus version **77/100** (29 rigor, 20 impact,
 The score does not cover the new niacin/apitegromab proposal or replacement movie;
 no fresh independent score is claimed. Biological and execution gaps remain.
 
-The [source-revalidation correction](../workflow/track2-drug-census/review-quality-followup.md) rejects the proposed all-read completion claim and retains a pending queue. Its [UMK57 appraisal](../workflow/track2-drug-census/umk57-qualification.md) credits actual fidelity benefit at the measured scope. Further primary-source lines remain; this review does not authorize publication or Track 2 submission.
+The [source-revalidation correction](../workflow/track2-drug-census/review-quality-followup.md) rejects the earlier unsupported all-read claim. The [original selection is now revalidated](../workflow/track2-drug-census/batch15-revalidation-findings.md); broader discovery and primary follow-up remain incomplete. Its [UMK57 appraisal](../workflow/track2-drug-census/umk57-qualification.md) credits actual fidelity benefit at the measured scope. Further primary-source lines remain; this review does not authorize publication or Track 2 submission.
 
 The [PDLSC conditioned-medium source comparison](../workflow/track2-drug-census/pdls-secretome-qualification.md) adds a biological-mixture functional/RNA observation with a portable six-ratio replay. All 207 ledger entries remain unchanged; no constituent is treated as an independently effective medicine.
 

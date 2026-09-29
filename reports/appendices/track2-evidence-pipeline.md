@@ -1,6 +1,6 @@
 # Evidence pipeline for the Track 2 niacin–apitegromab comparison
 
-22 September 2026; updated 28 September 2026 with the low-dose NAD-mixture qualification. The provisional core pair is **niacin (nicotinic acid) for restoration**
+22 September 2026; updated 29 September 2026 with the candidate shortlist and low-dose NAD-mixture clarification. The provisional core pair is **niacin (nicotinic acid) for restoration**
 and **apitegromab for downstream muscle compensation**, tested separately.
 Niacin asks whether the NAD/SIRT2 route can restore usable BUBR1; apitegromab
 asks whether selective inhibition of myostatin activation improves useful muscle
@@ -9,7 +9,8 @@ apitegromab has stronger randomized human muscle-function evidence, in SMA rathe
 than MVA. Neither has demonstrated actual-allele rescue or superiority here.
 **Everolimus remains a conditional mTOR mechanism probe**, outside the core
 confirmation family unless prospectively promoted. This revision follows the
-[broad drug comparison](../../workflow/track2-drug-census/decision-report.md),
+[broad drug comparison](../../workflow/track2-drug-census/decision-report.md) and
+[candidate shortlist](track2-candidate-shortlist.md),
 not measured MVA efficacy or an assumption of pediatric safety.
 
 **Arimoclomol is a restoration-specific reserve; dasatinib is a reserve requiring
@@ -22,10 +23,10 @@ none waits for another to fail. [Current proposal](../jeweled_track2_report_subm
 and [full alternative-route audit and promotion triggers](track2-route-decisions.md).
 
 Candidate reconstruction, population sensitivity calculations and a secondary
-mouse RNA analysis are completed. The [sixth source batch](../../workflow/track2-drug-census/batch06-revalidation-findings.md)
-adds 128 literal revalidations, bringing coverage to 954, with 3,115 accepted outer
-source/ID records, 2,644 pending strings and 142 curated appraisals. Its 22 new
-source questions are flagged separately; the literature review remains incomplete.
+mouse RNA analysis are completed. The [original source-revalidation selection](../../workflow/track2-drug-census/batch15-revalidation-findings.md)
+is closed at 3,598 accepted literal revalidations; broader discovery and primary-source
+follow-up remain incomplete. The current ledger contains 290 route/compound appraisals,
+which document evidence decisions rather than treatment effects.
 No patient-cell, drug-exposure or functional
 rescue experiment below has been performed; laboratory access is not secured.
 This pipeline supersedes the elected-lead choices in the dated protocols while
@@ -38,7 +39,7 @@ retaining their useful assay controls. It supplies no clinical dosing proposal.
 | [Suijkerbuijk 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC2887387/), abstract and Fig. 4D | Reported truncating-plus-missense architecture and abundance defects in selected MVA cells. In HeLa shRNA titration, about 6% BUBR1 caused missegregation in most cells; about 13% had little effect. Raising selected unstable mutants restored checkpoint challenge responses. | This supports an abundance-dependent mechanism, not a universal threshold. N1002K was not tested. HSP90 dependence does not demonstrate arimoclomol/HSP70 rescue, and restored challenge arrest does not establish complete tissue function. |
 | [North 2014, Figs. 4–6](https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/) | NMN increased BUBR1 abundance in WT MEFs, largely through SIRT2, and in aged WT mouse testes. Genetic SIRT2 overexpression improved selected cardiac outcomes and male survival in BubR1 hypomorphs. | The drug experiments used 1 mM NMN for 24 hours in cells and 500 mg/kg/day intraperitoneally for seven days in mice. NMN did not supply the genetic survival result. WT/hypomorphic protein is not N1002K; small size, cataracts and lordokyphosis were not reversed by SIRT2 overexpression. |
 | [Pirinen 2020, Fig. 3 and methods](https://www.brennerlab.net/files/Pirinen20.pdf) | Five mitochondrial-myopathy patients ([ages 17–70, Table S1](https://ars.els-cdn.com/content/image/1-s2.0-S155041312030190X-mmc1.pdf)) and ten matched healthy controls enrolled; both received niacin, escalated to 750–1,000 mg/day. Patient muscle NAD reached control levels. Strength improved in both groups; patient knee extension was 1.1-fold at ten months. Controls were followed for four months; two withdrew. | Nonrandomized, open-label, no placebo arm or BUBR1 measurement. Healthy controls were treated comparators, not untreated efficacy controls; this does not establish disease-specific strength rescue. Use as muscle NAD-engagement evidence. The ten-month patient and four-month control changes are not a matched-time comparison. The studied formulation and exposure do not establish an appropriate exposure for this child. |
-| [Connell 2021, PMID 34191033](https://pmc.ncbi.nlm.nih.gov/articles/PMC8485915/) | Randomized 32-day crossover of a 207.5-mg/day mixture (210 mg tryptophan, 4 mg nicotinic acid, 200 mg nicotinamide) in physically compromised older adults: muscle methyl-nicotinamide increased; muscle NAD+, NAAD, objective muscle/mitochondrial outcomes and SPPB did not. | The mixture cannot isolate niacin; 4 mg/day nicotinic acid is not Pirinen's higher-dose monotherapy. One perceived-function domain was positive among multiple questionnaire domains. No BUB1B/BUBR1, MVA or chromosome-fidelity test. Treat as counterevidence to generic precursor interchangeability, not as a niacin failure test. See the [full qualification](../../workflow/track2-drug-census/nad-precursor-mixture-muscle-qualification.md). |
+| [Connell 2021, PMID 34191033](https://pmc.ncbi.nlm.nih.gov/articles/PMC8485915/) | Randomized 32-day crossover of a mixture providing 207.5 mg/day niacin equivalents (210 mg tryptophan, 4 mg nicotinic acid, 200 mg nicotinamide) in physically compromised older adults: muscle methyl-nicotinamide increased; muscle NAD+, NAAD, objective muscle/mitochondrial outcomes and SPPB did not. | The mixture cannot isolate niacin; 4 mg/day nicotinic acid is not Pirinen's higher-dose monotherapy. One perceived-function domain was positive among multiple questionnaire domains. No BUB1B/BUBR1, MVA or chromosome-fidelity test. Treat as counterevidence to generic precursor interchangeability, not as a niacin failure test. See the [full qualification](../../workflow/track2-drug-census/nad-precursor-mixture-muscle-qualification.md). |
 | [Membrez 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10963276/) | Human-myotube NA/NAPRT experiments provide a direct-utilization precedent; exact results below. | No BUBR1, mutant-function or clinical-exposure result. |
 | [Nicotinic acid in toxin-exposed oocytes, 2025](https://pubmed.ncbi.nlm.nih.gov/40062928/) | Concurrent 15 micromolar nicotinic acid; human maturation means 56.7% with BaP+drug, 31.7% with BaP and 73.5% in controls (16/22/21 oocytes; three experiments). Mouse cellular protection and SIRT1 protein recovery are reported. | Figure 4C does not label a direct drug-plus-toxin versus toxin significance test; ns versus control is not equivalence. No SIRT2, direct NAD assay, niacin-induced BUBR1 restoration, euploidy or MVA muscle result. BUBR1 staining belongs to the toxin challenge. See [primary qualification](../../workflow/track2-drug-census/unfiltered-findings.md). |
 | [Aaltio 2024](https://pubmed.ncbi.nlm.nih.gov/39173541/) | A child with MTTN myopathy had metabolic improvement after niacin corrected NAD deficiency. | Disease progressed with meager clinical response: NAD normalization alone is not useful tissue rescue. |
