@@ -4,7 +4,7 @@
 
 We provisionally nominate **niacin (nicotinic acid) for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. The aim is useful muscle function with preserved renewal in a child with recorded muscle atrophy and failure to thrive. Everolimus remains a conditional signaling probe. Neither primary candidate has demonstrated MVA rescue; this is a research comparison, not a treatment recommendation. The [candidate shortlist](appendices/track2-candidate-shortlist.md) explains the selection and competing hypotheses.
 
-**Media updated:** the report and final eight-slide deck use this pair. The local V4 movie is 180 seconds and uses the verified V3 narration and captions. Vimeo currently serves V3 pending replacement; Track 2 portal submission remains pending.
+**Media updated:** the report and final eight-slide deck use this pair. The accompanying V4 movie is 180 seconds and reuses the previously reviewed narration and caption text. The pitch presents a research proposal; it does not report a biological drug experiment.
 
 ## The genetic condition on this proposal
 
@@ -84,7 +84,7 @@ Recorded rhabdomyosarcoma requires [tumor/regimen compatibility review](appendic
 
 Claude Code and Codex assisted literature review, analysis and writing on personal subscriptions, with training disabled according to the user; exact historical model/plan names are unverified. [Methods](jeweled_methods_form_answers.md#track-2-drug-repositioning) and [data provenance](PROVENANCE.md#dataset-provenance) distinguish public resources from controlled challenge data. Raw case reads and genome-scale payloads are excluded from this private repository. Team-authored reports carry CC BY 4.0; code also has an MIT option, with third-party and controlled-data exceptions in the [license](../LICENSE).
 
-The [new pitch](jeweled_track2_pitch_reconciled.md) uses stock Skylar narration from Cartesia Sonic 3.6 on its Free plan, verified on 21 September 2026. Cartesia training/retention settings remain unverified. OpenAI image generation through Codex supplied a conceptual cover illustration, not biological evidence. The [final V4 three-minute video](media/jeweled_track2_skylar_v4.mp4) and [eight-slide deck](media/jeweled_track2_slides_20261001_final.pptx) accompany this report. V4 retains the verified V3 narration and captions. The public [Vimeo upload](https://vimeo.com/1228990028) currently serves V3 pending replacement; the [submission index](README.md) records portal delivery as pending.
+The [new pitch](jeweled_track2_pitch_reconciled.md) uses stock Skylar narration from Cartesia Sonic 3.6 on its Free plan, verified on 21 September 2026. Cartesia training/retention settings remain unverified. OpenAI image generation through Codex supplied a conceptual cover illustration, not biological evidence. The [final V4 three-minute video](media/jeweled_track2_skylar_v4.mp4) and [eight-slide deck](media/jeweled_track2_slides_20261001_final.pptx) accompany this report. V4 retains the previously reviewed narration and captions. The portal video field supplies the public playback link; the scientific proposal and the linked media make no claim of experimental drug rescue.
 
 ## Acknowledgement
 
