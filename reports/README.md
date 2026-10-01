@@ -1,6 +1,6 @@
 # jeweled — current research reports
 
-**Revised 29 September 2026.** Track 1 model 1 has a confirmed automated score; its final report-persistence check is pending as detailed below. Track 2 has not been submitted. No clinical sign-out has occurred. The repository remains private. The revised niacin/apitegromab Skylar movie is **verified as V3 at the [existing Vimeo URL](https://vimeo.com/1228990028)**, with completed optimization and enabled English captions.
+**Revised 1 October 2026.** Track 1 model 1 has a confirmed automated score; its final report-persistence check is pending as detailed below. Track 2 submission remains pending. No clinical sign-out has occurred. The repository remains private. The revised eight-slide deck and three-minute V4 movie are complete and visually checked locally; the [existing Vimeo URL](https://vimeo.com/1228990028) still serves V3 pending replacement.
 
 **[Open the Track 2 review package](REVIEW.md)** for the current report, evidence,
 revised pitch, editable slides, captions and revision-specific reviewer assessments.
@@ -53,9 +53,9 @@ The completed [public mouse RNA analysis](../workflow/track2-rna/README.md) did 
 
 ## Pitch and delivery
 
-The [revised pitch script](jeweled_track2_pitch_reconciled.md) now presents niacin restoration and apitegromab compensation, tested separately. The new eight-slide Skylar movie measures **180 seconds: 166.64 seconds of speech and 13.36 seconds of transitions**. The [movie](media/jeweled_track2_skylar.mp4), [editable deck](media/jeweled_track2_slides.pptx) and [captions](media/jeweled_track2_skylar.srt) are the current local media. Technical frame, audio and caption checks passed; no full independent listening review is claimed.
+The [revised pitch script](jeweled_track2_pitch_reconciled.md) presents niacin restoration and apitegromab compensation, tested separately. The new V4 movie measures **180 seconds: 166.64 seconds of speech and 13.36 seconds of transitions**. The [V4 MP4](media/jeweled_track2_skylar_v4.mp4), [editable eight-slide deck](media/jeweled_track2_slides_20261001_final.pptx) and [matching captions](media/jeweled_track2_skylar_v4.srt) are the current local media. Technical frame, audio and caption checks passed; no full independent listening review is claimed.
 
-At the [existing Vimeo URL](https://vimeo.com/1228990028), **V3 replacement is verified**. The owner interface showed “Optimization complete,” the new title “Preserving muscle in MVA: niacin and apitegromab | jeweled Track 2,” the saved new description and replaced, enabled English closed captions. Signed-out private-browser playback at 01:19 showed the apitegromab slide with the +1.8 result, confidence interval, age/background-treatment qualifications and matching new caption. This is a visual playback/caption check, not full independent listening. V2 is no longer public and remains in private version history; the Lauren release is also archival. Track 2 portal delivery remains pending, and repository visibility is unchanged.
+At the [existing Vimeo URL](https://vimeo.com/1228990028), **V3 remains the published version while V4 replacement is pending**. The owner interface showed “Optimization complete,” the new title “Preserving muscle in MVA: niacin and apitegromab | jeweled Track 2,” the saved new description and replaced, enabled English closed captions. Signed-out private-browser playback at 01:19 showed the apitegromab slide with the +1.8 result, confidence interval, age/background-treatment qualifications and matching new caption. This is a visual playback/caption check, not full independent listening. V2 is no longer public and remains in private version history; the Lauren release is also archival. Track 2 portal delivery remains pending, and repository visibility is unchanged.
 
 The [route decisions](appendices/track2-route-decisions.md) and [experimental plan](appendices/track2-evidence-pipeline.md) govern the adopted comparison and the evidence that could change it. The new scientific revision has not received a fresh independent rubric score.
 
@@ -83,7 +83,7 @@ commit), changes relative file links to GitHub links pinned to that revision,
 and adds a source header. Report prose and external citations are preserved;
 the CSV is copied byte for byte. Uncommitted edits are not exported. The command
 does not upload files, change repository visibility or grant access to private
-links. The [existing video URL](https://vimeo.com/1228990028) serves the verified niacin/apitegromab V3 replacement; portal delivery is recorded separately.
+links. The [existing video URL](https://vimeo.com/1228990028) currently serves V3; local V4 replacement and portal delivery remain pending.
 
 ## Methods and retained appendices
 

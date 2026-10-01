@@ -1,6 +1,6 @@
 # jeweled — Track 2 revised pitch script
 
-**21 September 2026. Niacin restoration and apitegromab muscle compensation.** The [Vimeo recording](https://vimeo.com/1228990028), [MP4](media/jeweled_track2_skylar.mp4), [captions](media/jeweled_track2_skylar.srt) and editable deck now present this proposal. Vimeo V3 replaced the preceding niacin/everolimus recording at the same URL; the earlier version remains in private history. Track 2 remains unsubmitted.
+**1 October 2026. Niacin restoration and apitegromab muscle compensation.** The revised [eight-slide deck](media/jeweled_track2_slides_20261001_final.pptx) and [V4 MP4](media/jeweled_track2_skylar_v4.mp4) present this proposal. Captions are unchanged from the verified V3 narration. The [Vimeo recording](https://vimeo.com/1228990028) currently remains V3; V4 publication and Track 2 portal submission are pending.
 
 The eight-slide movie is exactly 180 seconds, including 166.64 seconds of complete narration and 13.36 seconds of transitions. No biological drug experiment is claimed.
 
@@ -42,4 +42,4 @@ The [current report](jeweled_track2_report_submission.md), [route comparison](ap
 
 The recording uses Cartesia Sonic 3.6 and stock Skylar, with no voice cloning. Three changed sections were regenerated; five unchanged sections were reused. Its Free plan was verified on 21 September 2026; Cartesia training/retention settings remain unverified. The conceptual cover illustration uses OpenAI-generated art, not a patient image or experimental result. Claude Code and Codex assisted writing and analysis on personal subscriptions with training disabled according to the user. Those settings do not establish Cartesia settings.
 
-All eight final slides were visually inspected. Decoded video frames matched their sources, audio matched the complete source narration, and subtitle text matched the script. A separate scientific check found no material correction needed in the revised pitch. Vimeo reported optimization complete and enabled the replacement English captions; signed-out playback at 01:19 showed the apitegromab slide and matching caption. These are technical and visual checks, not a full independent listening review.
+All eight final slides were visually inspected. The V4 contact sheet and sampled encoded frames match the final deck; audio and captions are unchanged from V3. A separate scientific check found no material correction needed in the revised pitch. Vimeo reported optimization complete and enabled the V3 English captions; signed-out playback at 01:19 showed the apitegromab slide and matching caption. V4 has not yet been uploaded. These are technical and visual checks, not a full independent listening review.

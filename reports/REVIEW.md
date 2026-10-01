@@ -1,6 +1,6 @@
 # Track 2: testing two ways to preserve muscle
 
-**Updated 29 September 2026. Research proposal; Track 2 has not been submitted.**
+**Updated 1 October 2026. Research proposal; V4 delivery package prepared, with Vimeo replacement and Track 2 portal submission pending.**
 
 The [adopted drug-census decision](../workflow/track2-drug-census/decision-report.md) is incorporated into this package. We nominate **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue. Their shared goal is greater absolute muscle output with preserved renewal and chromosome accuracy.
 
@@ -17,7 +17,7 @@ Laboratory and patient-model access remain unsecured.
 |---|---|
 | [Candidate shortlist](appendices/track2-candidate-shortlist.md) | Nominees, experimental challengers and evidence that would change the choice |
 | [Drug census and comparative decision](../workflow/track2-drug-census/decision-report.md) | Broad public catalog screen, adopted comparison, additional leads and remaining evidence gaps |
-| [Revised narration](jeweled_track2_pitch_reconciled.md) and [local pitch media](media/jeweled_track2_skylar.mp4) | Niacin restoration / apitegromab compensation, eight slides and 180 seconds |
+| [Revised narration](jeweled_track2_pitch_reconciled.md) and [local V4 pitch media](media/jeweled_track2_skylar_v4.mp4) | Niacin restoration / apitegromab compensation, final eight slides and 180 seconds |
 | [Main report](jeweled_track2_report_submission.md) | Evidence chain, counterevidence, completed findings and first experiment |
 | [Sequence/population analysis](../workflow/track2-model/README.md) and [public RNA analysis](../workflow/track2-rna/README.md) | Reproducible computation with its biological limits |
 | [Cell selection and tissue output explorer](../workflow/track2-model/explorer/README.md) | Offline interactive comparison of retained synthetic fractions and absolute output; aggregate compartments, not pedigrees |
@@ -26,18 +26,14 @@ Laboratory and patient-model access remain unsecured.
 | [Experimental plan](appendices/track2-evidence-pipeline.md#first-execution-milestone-and-dependencies) | Initial milestone, resource dependencies and downstream confirmation |
 | [Track 2 methods](jeweled_methods_form_answers.md#track-2-drug-repositioning) and [provenance](PROVENANCE.md) | Methods answers, data handling, sources and AI disclosure |
 
-The [editable slides](media/jeweled_track2_slides.pptx),
-[MP4](media/jeweled_track2_skylar.mp4) and [SRT captions](media/jeweled_track2_skylar.srt)
-are the current local media. The new Skylar movie measures **180 seconds: 166.64 seconds
-of speech and 13.36 seconds of transitions**, across eight slides. Technical frame,
-audio and caption checks passed; no full independent listening review is claimed.
-At the [existing Vimeo URL](https://vimeo.com/1228990028), **V3 replacement is verified**.
-Optimization is complete, the new title and description are saved, and the replaced
-English captions are enabled. Signed-out playback at 01:19 showed the apitegromab
-slide, its +1.8 result and age/background-treatment qualifications, with the matching
-new caption. This was a visual playback/caption check, not full independent listening.
-V2 is no longer public and remains in private version history. Use GitHub's download option if local media do not preview. The
-repository remains private during the event.
+The [final editable slides](media/jeweled_track2_slides_20261001_final.pptx),
+[V4 MP4](media/jeweled_track2_skylar_v4.mp4) and [V4 SRT captions](media/jeweled_track2_skylar_v4.srt)
+are the current local media. V4 measures **180 seconds: 166.64 seconds of speech and
+13.36 seconds of transitions**, across eight slides. The deck and sampled encoded video
+frames were visually checked; the narration and captions are unchanged from V3. No
+full independent listening review is claimed. The [existing Vimeo URL](https://vimeo.com/1228990028)
+still serves V3 pending V4 replacement; portal delivery is also pending. Repository
+visibility remains private during the event.
 
 [Submission status and retained review history](README.md) are separate from the
 scientific evidence. Prior AI review scores are unofficial and revision-specific.

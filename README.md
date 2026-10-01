@@ -16,7 +16,7 @@ revised pitch, editable slides and revision-specific reviewer assessments.
 - **[Submission index, methods and proposed pitch](reports/README.md).**
   **Track 1 model 1 scored 100 rank points and F-max 1.000 on 21 September.**
   [Submission record](reports/README.md#track-1-submission-record) distinguishes the
-  confirmed score from the pending final report-persistence check. Track 2 has not been submitted. The new niacin/apitegromab Skylar video is **verified as V3 at the [existing Vimeo URL](https://vimeo.com/1228990028)**, with completed optimization and enabled English captions. No drug experiment has run.
+  confirmed score from the pending final report-persistence check. Track 2 submission remains pending. The revised eight-slide deck and three-minute V4 movie are visually checked locally; the [existing Vimeo URL](https://vimeo.com/1228990028) still serves V3 pending replacement. No drug experiment has run.
 
 ## Start here
 
