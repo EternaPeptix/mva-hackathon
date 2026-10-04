@@ -33,17 +33,17 @@ The original pilot left **56,177 collection records unscreened by that pilot**. 
 
 ## Current eligibility coverage
 
-Ten completed batches, including the original forty-record pilot, cover **1,160 disjoint source/ID records**, leaving **55,057 unscreened**. One assigned reader screened batch 9 in two eighty-record packets: **159 complete available saved abstracts and one title/metadata-only erratum at order 118**. Order 16 explicitly ends with the original 250-word truncation marker; missing original text receives no reading credit. Batch 10 contains 160 available saved abstracts without an observed missing abstract or explicit truncation marker. Review order retains the same design, administration and function flags and query-stratum proportions, without ranking favorable results. Every unselected record remains queued.
+Twelve completed batches, including the original forty-record pilot, cover **1,480 disjoint source/ID records**, leaving **54,737 unscreened**. One assigned reader screened batch 9 in two eighty-record packets: **159 complete available saved abstracts and one title/metadata-only erratum at order 118**. Order 16 explicitly ends with the original 250-word truncation marker; missing original text receives no reading credit. Batch 10 contains 160 available saved abstracts without an observed missing abstract or explicit truncation marker. Review order retains the same design, administration and function flags and query-stratum proportions, without ranking favorable results. Every unselected record remains queued.
 
-| Route at recorded source depth | Batch 2 | Batch 3 | Batch 4 | Batch 5 | Batch 6 | Batch 7 | Batch 8 | Batch 9 | Batch 10 |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Controlled human functional reports | 21 | 23 | 37 | 96 | 72 | 84 | 85 | 85 | 90 |
-| Uncontrolled human functional reports | 0 | 2 | 4 | 2 | 4 | 3 | 5 | 4 | 3 |
-| Human mass/mechanism reports | 2 | 1 | 3 | 8 | 11 | 13 | 12 | 8 | 9 |
-| Preclinical functional reports | 2 | 3 | 3 | 8 | 8 | 7 | 7 | 8 | 11 |
-| Preclinical mechanism reports | 1 | 0 | 1 | 1 | 1 | 6 | 1 | 6 | 4 |
-| Context, reviews or protocols | 13 | 11 | 29 | 42 | 63 | 45 | 48 | 48 | 42 |
-| Unresolved | 1 | 0 | 3 | 3 | 1 | 2 | 2 | 1 | 1 |
+| Route at recorded source depth | Batch 2 | Batch 3 | Batch 4 | Batch 5 | Batch 6 | Batch 7 | Batch 8 | Batch 9 | Batch 10  Batch 11  Batch 12 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:---:---:|
+| Human functional reports with comparators | 21 | 23 | 37 | 96 | 72 | 84 | 85 | 85 | 90  85  92 |
+| Uncontrolled human functional reports | 0 | 2 | 4 | 2 | 4 | 3 | 5 | 4 | 3  7  1 |
+| Human mass/mechanism reports | 2 | 1 | 3 | 8 | 11 | 13 | 12 | 8 | 9  12  9 |
+| Preclinical functional reports | 2 | 3 | 3 | 8 | 8 | 7 | 7 | 8 | 11  5  7 |
+| Preclinical mechanism reports | 1 | 0 | 1 | 1 | 1 | 6 | 1 | 6 | 4  2  0 |
+| Context, reviews or protocols | 13 | 11 | 29 | 42 | 63 | 45 | 48 | 48 | 42  47  43 |
+| Unresolved | 1 | 0 | 3 | 3 | 1 | 2 | 2 | 1 | 1  2  8 |
 
 Batch 8 received **36 separate checks**: sixteen predeclared interval samples and twenty flagged boundaries, comprising 35 available abstracts and the metadata-only reply. All 160 identities, available literal source anchors and notice metadata were checked. Earlier checks and their limits remain recorded. Reader discussion occurred; this is not a blind double review of every record.
 
@@ -67,6 +67,14 @@ The original selection listed the phenylcapsaicin crossover (PMID 37601635) and 
 
 Batch 10 used one assigned reader for all 160 saved abstracts. Root independently checked sixteen predeclared interval samples and all 24 flagged boundaries; order 1 overlaps, yielding **39 distinct root checks**, not an independent reread of all 160. All checked routes were retained. The exercise-horse HMB/γ-oryzanol report remains a preclinical-functional follow-up because speed and heart rate were monitored, but its saved abstract reports biochemical outcomes and no speed/performance contrast; this omission is not treated as a null. Other boundary checks preserve controlled versus observational contrasts, derived physiology, self-report and mixture limits. No screened record establishes BUB1B/MVA benefit or changes the provisional niacin-restoration and apitegromab-compensation comparison. This broad eligibility screen is not a competitive efficacy ranking and adds no new curated appraisal or original gene-queue reading credit. Root's selection, boundary checks and hashes remain in the external work archive.
 
-Batch 11 selected 160 more records from the frozen remaining queue. One root reader has read all 160 available abstracts; selection identity, end markers, exact anchors, raw origins and linked notice metadata passed verification. The screen is **pending independent review**, so the accepted coverage above remains 1,160 and its 55,057 unscreened count is unchanged. After selection, the unselected queue contains 54,897 records. The provisional lanes are 74 controlled human-function, 6 uncontrolled human-function, 16 human mass/mechanism, 3 preclinical-function, 1 preclinical-mechanism, 59 context/review/protocol and 1 unresolved record. A targeted source note on the newly surfaced vitamin D2, HMB and inulin trials is available in [batch11-common-compound-followup.md](batch11-common-compound-followup.md); it is pending independent review and makes no ledger admission.
+Batch 11 is now accepted at **complete available saved-abstract depth for 160 exact source/ID records**. A second reader independently read all 160 (316,943 saved-abstract characters), checked 225 source bindings and reviewed the saved notice metadata. The review was not blinded. Root reread the 19 lane disagreements and preserved both original annotations and the adjudications. Final lanes are 85 controlled human-function, 7 uncontrolled human-function, 12 human mass/mechanism, 5 preclinical-function, 2 preclinical-mechanism, 47 context/review/protocol and 2 unresolved records. The unresolved cases concern tissue-biomechanics attribution and postoperative clinical-process endpoints; they are not compound efficacy negatives. See the [accepted record-level screen](outcome-first-batch11-screen.json).
+
+The notice check covers 22 saved metadata-bearing records and two short linked corrigenda. It is not a fresh verification of every publication status: the historical Crossmark check at order 74 was not refreshed, and the preprint/journal-family pointer at order 84 remains provisional without identity merging. Full-paper reading, unique-study counts and original gene-queue reading receive no credit from this abstract screen.
+
+Batch 12 is now accepted for **160 complete available saved abstracts** after an independent reread of every record and root rereads of all 21 lane disagreements. Twenty classifications changed; laser-only order 33 retains context. Final counts are 92 human-function reports with comparators, 1 uncontrolled human-function, 9 human mass/mechanism, 7 preclinical-function, 43 context and 8 unresolved. The [accepted screen](outcome-first-batch12-screen.md) preserves external/historical comparator designs, missing estimates, narrow symptoms/biological mechanics and cognition/sleep/mood/hair taxonomy limits. Own independent decisions were frozen before direct comparison, but no fully blind-review claim is made.
+
+Metadata checks cover 42 linked-target and 8 selected PPR identities/lists; scientific notice bodies and version-result equivalence remain unread. Four erratum links and title/first-author preprint linkage are retained separately without unaffected-result or unique-study credit. This screen adds no primary appraisal, original gene-queue or MVA-efficacy credit.
+
+Batch 13 has 160 separately selected source/ID records under the unchanged frozen order. First-pass scientific reading and root fixed/boundary review are not yet accepted. The current accepted unscreened count is 54,737; after its selection, 54,577 remain unselected. The [targeted primary follow-ups](batch11-common-compound-followup.md) have separate reading scopes and do not increase eligibility-screen counts.
 
 The independent PASS concerns retrieval and bounded review fidelity. It does not establish that every drug or common compound has been enumerated, that every report has been read, or that the nominated candidates are superior.

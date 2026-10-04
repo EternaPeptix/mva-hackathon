@@ -14,14 +14,16 @@ def check(root=None):
     for name in ['build_dsld_inventory.py','broad_hub_screen.py','catalog.tsv','aliases.tsv','drugcentral-status-unverified.tsv']:
         hits=[h for k,h in inputs.items() if Path(k).name==name];assert len(hits)==1 and sha(root/name)==hits[0],name
     # The NIH ingredient inventory is an immutable 23 September snapshot. Its
-    # appraisal cross-references are pinned to the first N decisions in that
-    # snapshot; later append-only decisions belong to the current census, not
-    # retroactively to this frozen output.
+    # appraisal cross-references are pinned to the original source bytes.
+    # Current appraisals can be amended or appended without rewriting this
+    # historical inventory or reconstructing it from mutable scientific text.
     ledger=json.loads((root/'decisions.json').read_text())
     frozen_count=counts['target_inventory']['appraisals']
     assert len(ledger['decisions'])>=frozen_count
-    frozen={**ledger,'date':s['retrieval_date'],'decisions':ledger['decisions'][:frozen_count]}
-    frozen_bytes=(json.dumps(frozen,indent=2,ensure_ascii=False)+'\n').encode()
+    frozen_bytes=(p/'decisions-at-inventory-snapshot.json').read_bytes()
+    frozen=json.loads(frozen_bytes)
+    assert frozen['date']==s['retrieval_date'] and len(frozen['decisions'])==frozen_count
+    assert [r['decision_id'] for r in frozen['decisions']]==[r['decision_id'] for r in ledger['decisions'][:frozen_count]]
     ledger_hashes=[h for k,h in inputs.items() if Path(k).name=='decisions.json'];assert len(ledger_hashes)==1
     assert hashlib.sha256(frozen_bytes).hexdigest()==ledger_hashes[0]
     assert sha(root/'food-substances/substances.tsv')==next(h for k,h in inputs.items() if k.endswith('/food-substances/substances.tsv'))
