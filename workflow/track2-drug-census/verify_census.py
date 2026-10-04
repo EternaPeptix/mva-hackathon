@@ -377,6 +377,24 @@ def main():
         for name in ['screen_script','catalog','aliases','supplement','literature_match_script']:
             meta=broad['inputs'][name]
             assert hashlib.sha256((P/meta['file']).read_bytes()).hexdigest()==meta['sha256']
+    if (P/'approval-refresh-20261004.json').exists():
+        prior=json.loads((P/'approval-overrides.json').read_text())
+        fresh=json.loads((P/'approval-refresh-20261004.json').read_text())
+        audit=json.loads((P/'fda-approval-refresh-20261004-audit.json').read_text())
+        product_key=lambda r:(r['brand'],r['active_ingredient'],r['fda_approval_date'])
+        old_keys={product_key(r) for r in prior['records']}
+        new_keys={product_key(r) for r in fresh['records']}
+        assert len(old_keys)==prior['count']==audit['prior_frozen_products']==40
+        assert len(new_keys)==fresh['count']==audit['count']==45 and old_keys<=new_keys
+        assert len(new_keys-old_keys)==fresh['new_product_count']==audit['new_products']==5
+        assert {k[0] for k in new_keys-old_keys}=={'Onswik','Lyrfigtu','Juvmo','Atebrioz','Emcitate'}
+        assert all(set(r['catalog_matches'])<=all_ids for r in fresh['records'])
+        assert all(r['efficacy_in_bub1b']=='UNKNOWN' for r in fresh['records'])
+        assert fresh['catalog_new_entities']==fresh['new_curated_appraisals']==fresh['accepted_abstract_screen_increment']==0
+        assert fresh['source_raw_bytes_sha256']==audit['raw_vs_text_hashes']['current45_raw_byte_sha256']
+        assert fresh['source_sha256']==audit['raw_vs_text_hashes']['current45_legacy_read_text_sha256']
+        assert audit['source_overlap_summary']['accepted_count']==1640
+        assert audit['source_overlap_summary']['exact_match_count']==0
     decisions=json.loads((P/'decisions.json').read_text())['decisions'];joins=read('decision-alias-joins.tsv')
     assert len(decisions)==len(joins) and {r['decision_id'] for r in decisions}=={r['decision_id'] for r in joins}
     print(json.dumps({'result':'PASS','clinical_source_records':len(clinical),'main_catalog_entities':len(ids),'status_unverified_entities':len(supplement),'literature_screened_entities':len(all_ids),'curated_appraisals':len(decisions),'checks':'source ID/count reconciliation; complete interaction and literature coverage; UNKNOWN semantics; ambiguity regressions; original assay relation/units; triage coverage and compound identity guards; supplemental version/alias reconciliation; catalog-independent review depth; full saved-abstract and selected outer-corpus assessment reconciliation, including fixed-order exclusions and all419 ranked records across433 outer records; unfiltered384 plus next576, next256 and next512 selection/review reconciliation, 2161 historical outer records plus3598 separately revalidated original-queue records; original missing143 depth reconciliation; Broad7540 preferred-name and2148 mention reconciliation with input hashes; all-target source preservation and correction mappings; EMA product-state, recovered-alias overlay, source-input-hash and unknown-efficacy reconciliation; complete decision joins'},indent=2))

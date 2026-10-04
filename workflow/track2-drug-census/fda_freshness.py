@@ -67,8 +67,12 @@ def main():
     p.add_argument("--html", type=Path, help="Saved public FDA page, otherwise fetch live")
     p.add_argument("--catalog-dir", type=Path, default=Path(__file__).resolve().parent)
     p.add_argument("--corpus", type=Path, help="Complete saved Europe PMC gene corpus for fresh-name screening")
+    p.add_argument("--output", type=Path, help="Write a dated refresh separately from approval-overrides.json")
     args = p.parse_args()
-    raw = args.html.read_text() if args.html else urllib.request.urlopen(URL, timeout=60).read().decode()
+    raw_bytes = args.html.read_bytes() if args.html else urllib.request.urlopen(URL, timeout=60).read()
+    raw = raw_bytes.decode()
+    # Preserve the historical text-hash convention while also binding transport bytes.
+    raw = raw.replace("\r\n", "\n").replace("\r", "\n")
     parser = Tables()
     parser.feed(raw)
     tables = [t for t in parser.tables if t and "Active Ingredient" in t[0]]
@@ -136,10 +140,13 @@ def main():
     output = {"source_url": URL, "generated_at_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
               "source_mode": "saved HTML snapshot" if args.html else "live retrieval",
               "source_sha256": hashlib.sha256(raw.encode()).hexdigest(),
+              "source_sha256_method": "UTF-8 decoded HTML with universal newline normalization, matching the historical read_text convention",
+              "source_raw_bytes_sha256": hashlib.sha256(raw_bytes).hexdigest(),
               "literature_corpus_sha256": hashlib.sha256(args.corpus.read_bytes()).hexdigest() if corpus else None,
               "scope": "CDER 2026 novel approvals only. Not all FDA products or worldwide approvals. Approval in another indication is not BUB1B efficacy.",
               "count": len(records), "records": records}
-    (args.catalog_dir / "approval-overrides.json").write_text(json.dumps(output, indent=2) + "\n")
+    output_path = args.output or args.catalog_dir / "approval-overrides.json"
+    output_path.write_text(json.dumps(output, indent=2) + "\n")
     print("FDA novel approvals", len(records), "matched", sum(bool(r["catalog_matches"]) for r in records),
           "unmatched", sum(not r["catalog_matches"] for r in records))
 

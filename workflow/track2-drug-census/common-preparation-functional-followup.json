@@ -1,0 +1,464 @@
+{
+  "date": "2026-10-04",
+  "ledger_before": 300,
+  "ledger_after": 303,
+  "new_decision_ids": [
+    "new-shatavari-training-context",
+    "new-mfgm-glucosamine-function-context",
+    "new-protein-meal-function-context"
+  ],
+  "collection_screen_increment": 0,
+  "reading_depth_limit": "Targeted primary appraisals are separate from eligibility screens, unique studies/molecules and MVA efficacy. Protein-meal main remains unread.",
+  "source_audits": [
+    {
+      "qualification_date": "2026-10-04",
+      "reviewer": "/root/menaquinone_check",
+      "collection_screen_increment": 0,
+      "ledger_admissions": 0,
+      "repository_edits": false,
+      "exact_trial_overlap": "No target PMID/DOI in frozen300 decisions or existing qualification reports checked before reading. Targeted depth for frozenB13, not new collection screening.",
+      "comparator_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/immutable-comparator-manifest.json",
+        "bytes": 4142,
+        "sha256": "96e8d7fef01925a3c3b3a4a8aafc6cedf4750b43b33f4b74a72549f7b198add8"
+      },
+      "overlap_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/existing-overlap.json",
+        "bytes": 2878,
+        "sha256": "7a6805948ae5d886552f6f259a514877d67dd98f33628ec3bcbd8d9cfe36bd0d"
+      },
+      "bub1b_mva": "No established variant efficacy forLeu737Ter/Asn1002Lys; no MVA benefit or head-to-head superiority.",
+      "patient_dosing_advice": false,
+      "source": {
+        "pmid": "39834460",
+        "pmcid": "PMC11743497",
+        "doi": "10.3389/fnut.2024.1498674",
+        "title": "Shatavari supplementation during eight weeks of resistance training increases training load, enhances skeletal muscle contractility and alters the skeletal muscle proteome in older women."
+      },
+      "reading_depth": {
+        "original_scientific_main": "Complete scientific Introduction, Methods, Results, Discussion, limitations, conclusion, declarations and front funding statement. Initial large-display truncation was resolved by reading structured full scientific text in four bounded chunks. References were not individually qualified.",
+        "native_main": "Figures 1\u20134 and both main Tables 1\u20132 were inspected; tables were viewed on original PDF pages 9\u201310.",
+        "supplement": "Entire original Table_1.DOCX cells, text and caption were read; embedded Supplementary Figure 1 was viewed.",
+        "own_registry": "No own record identified. The original main has no registration identifier. Current official ClinicalTrials.gov search candidates were checked; NCT05025917 is the distinct six-week 2019 cohort, not this eight-week training study.",
+        "protocol_sap": "Not obtained; no verified prospective hierarchy.",
+        "raw_data": "Zenodo record and file inventory were inspected; participant/proteomic workbooks were downloaded but remain unread. PRIDE raw proteomics was not downloaded or read."
+      },
+      "identity": {
+        "active": "Two500mg capsules/day shatavari powder, total1000mg/day, source-reported equivalent26500mg/day fresh-weightroot",
+        "control": "Two500mg magnesium-stearate capsules/day, indistinguishableappearance/smell/taste",
+        "duration": "8weeks simultaneous with two supervised lower-limb resistance sessions/week",
+        "brand_lot_content_assay": "Not stated/verified inmain. PukkaHerbs funding does not by itself identify a retail product, standardizedextract or batchassay.",
+        "limits": "Complexroot preparation; no isolatedconstituent, freshrootdose, retailbatch, genericherb or approvedmedicine equivalence."
+      },
+      "design": {
+        "population": "Youngwomen18\u201335years and\u226555postmenopausal women, not regularly doing>2lower-limbtraining sessions/week.",
+        "randomization": "Independentresearcher, onlinegenerator,1:1SH/placebo,doubleblind",
+        "denominators": "26older+18younger recruited/randomized;22older(11/11)and17younger(SH9/PL8)completed.4oldermedicalwithdrawalsdeclaredunrelated,1youngertimewithdrawal.",
+        "outcome_counts": "NativeFigure4olderLPstrengthplacebon10/SHn11,olderKE11/11;youngerLP/KE8/9. OneolderPLLPstrengthrecord unavailable/unexplained relative22completers. Trainingmodelsdisplayyoungerresidualdf9 withoutoutcomeNs.",
+        "proteomics": "28participants:old8/8,youngSH5/PL7; older16/22andyoung12/17subsets.",
+        "missingness": "Completer/subsetanalysis; no all-randomizedITT or missing-data sensitivity demonstrated.",
+        "hierarchy": "Main explicitly identifies post-trainingKE1RM asprimary; nonpositive. Registration/protocolcannotindependentlyestablishprospective hierarchy or secondarygatekeeping.",
+        "sample_size": "Planned16/group peragecohort basedonbenchpressd1.03; reports1\u2212\u03b2=.08. Oldertrialstoppedafterplannedblindedinterim at11/group,smallprimaryeffectestimatedrequiring144total;youngtrialstoppedbelowtargetamidCOVID/recruitment/resources. Do not silently repair powernotation or treatnullaspowered-equivalence.",
+        "analysis": "Baseline-controlling repeatedANCOVA; Bonferroniposthoctestsdeclared; no demonstrated globalcontrol acrossfunctionaloutcomes/agegroups/analyses. ProteomicpathwaysBH-FDR; noindividualproteinsdifferentiallyexpressed."
+      },
+      "controlled_outcomes": [
+        {
+          "outcome": "OlderweeklyLPrepetitions",
+          "F": "F(1,18)=4.438",
+          "P": 0.049,
+          "partial_eta_squared": 0.198,
+          "result": "Reportednominaltraining-performancepositive"
+        },
+        {
+          "outcome": "OlderweeklyLPmaximumweight/baseline1RM",
+          "F": "F(1,19)=11.951",
+          "P_reported": 0.03,
+          "partial_eta_squared": 0.386,
+          "result": "Reportednominaltraining-loadpositive; internalF/Pconflictretained"
+        },
+        {
+          "outcome": "OlderweeklyKEmaximumweight/baseline1RM",
+          "F": "F(1,19)=4.98",
+          "P_reported": 0.043,
+          "partial_eta_squared_reported": 0.198,
+          "result": "Reportedpositive; DiscussionblanketnoKEtraining-loadstatementcontradictsResults/nativeFigure3B"
+        },
+        {
+          "outcome": "OlderKErepetitions",
+          "P_reported": 0.286,
+          "partial_eta_squared_reported": 0.62,
+          "result": "Nonpositive; eta/Farithmeticconflict"
+        },
+        {
+          "outcome": "Youngerweeklyrepetitionsandnormalizedload",
+          "P": "LP/KErepetitions.745/.188;LP/KEload.123/.612",
+          "result": "Nonpositive"
+        },
+        {
+          "outcome": "Post-training1RM",
+          "older_SH_PL_changes_mean_SD": "LP53.8\u00b125.7/55.2\u00b136.0%;KE25.3\u00b118.3/17.6\u00b110.8%",
+          "older_supplement_P": "LP.575;KE.293",
+          "younger_SH_PL_changes_mean_SD": "LP39.2\u00b122.8/48.0\u00b134.4%;KE17.7\u00b17.6/30.1\u00b19.1%",
+          "younger_supplement_P": "LP.969;KE.436",
+          "result": "Traininggainsinbotharms do notestablish supplementationstrengthgain"
+        },
+        {
+          "outcome": "HGS,fibercross-sectionalarea,isometrickneeMVC",
+          "result": "Supplementeffectsnonpositiveinbothcohorts;Table1MVColderP.545,youngerP.466. Sharedfiberhypertrophyisnotcompoundrenewal."
+        },
+        {
+          "outcome": "Olderpotentiated-twitchHRT",
+          "SH_PL_percent_changes_mean_SD": "\u221211.74\u00b111.93/+0.42\u00b114.73%",
+          "P": 0.021,
+          "native_prepost_mean_SD": "SH139.0\u00b143.8\u2192120.9\u00b134.2ms;PL141.0\u00b148.2\u2192139.8\u00b142.5ms",
+          "result": "Reportedcontractilitytimingpositive; not a directfatiguechallengeorwhole-organstrengthgain"
+        },
+        {
+          "outcome": "Youngerpeak-twitchamplitude",
+          "rest_P": 0.006,
+          "MVC_P": 0.029,
+          "potentiated_P": 0.01,
+          "rest_SH_PL_percent_changes_mean_SD": "9.6\u00b17.2/\u22122.7\u00b17.4%",
+          "MVC_SH_PL_percent_changes_mean_SD": "30.8\u00b1120.4/\u221255.0\u00b179.0%",
+          "potentiated_SH_PL_percent_changes_mean_SD": "7.9\u00b17.6/\u22122.8\u00b17.9%",
+          "result": "Nominalevokedcontractilitypositivesretained; no isometricMVC orpost-training1RMpositive"
+        },
+        {
+          "outcome": "Mwaveamplitude/contractiontime",
+          "result": "Supplementeffectsnonpositive"
+        }
+      ],
+      "reporting_conflicts": [
+        "ResultsolderKEweeklynormalizedloadpositiveversusDiscussionnoKEtrainingloadeffect; retainResults/nativeFigure3B.",
+        "LPF11.951df1,19reportsP.03; literalFtail\u2248.00264057. OlderKErepetitioneta.62versus\u2248.0621452ifliteralFdfcorrect. OtherreportedF/P/etacellsalso differ. Internalcalculationsare not rawdatareanalysis or sourcecorrection.",
+        "NativeTable2youngDNAmethylationFDR.9898,whileprose.100; noyoungpositiveregardless. HemostasisproseLogFC\u2212.001versustable\u2212.0083;pathwaydirectionsretainedwithoutinventingprecision.",
+        "Figure4LPolderplacebon10versus11completers;trainingdf9youngerunexplained.",
+        "Methods reportsmeanfiber-count2382,SD1364,min266,max2514; no cell-levelreconstruction."
+      ],
+      "proteomic_directions": "Olderstriatedcontraction,translation/transcription,selectedECM/mitochondrial-importpathwaysdecreased;acute-phase/innate/complementpathwaysincreased. Youngerseveralimmune/ECMpathwaysdecreased. Noindividualproteinpositive; pathwaychangesneitherproveclinicalharmnorproductive-renewalmechanism.",
+      "safety": "No seriousAEsreported; fouroldermedicalwithdrawalsdeclaredunrelated, noeventcounttable/arm-specificlaboutcomes. Eightweeks/completers cannotestablishlong-term/pediatric safety.",
+      "funding": "Pukka Herbs funded the research. Authors declared no commercial or financial conflicts. Funder role, supplier and tested retail-product identity are not fully specified.",
+      "renewal_fidelity": "No demonstrated BUBR1restoration,faithfulsegregation,progenitor-derivedrenewal orMVAresponse. Sharedfiberhypertrophy/proteomicnetworkchangescannotprovide this.",
+      "disposition": "Retain the tested root preparation as a controlled training-performance and evoked-contractility reserve. The main-declared primary post-training strength outcome was nonpositive. Keep analysis, missingness and reporting limits; no nomination or ledger admission.",
+      "consistency_check": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/shatavari/statistical-consistency-check.json",
+        "bytes": 1362,
+        "sha256": "f4f43d1fd69cb7b5d4725b81f20073c23aa3b42d28a202ccd141004e479519b9"
+      },
+      "source_bindings": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/shatavari/source-bindings.json",
+        "bytes": 18888,
+        "sha256": "b37583a48185d139db66cda1c261ebf9c1b1e6b949370c6d27a4fcae8516c2a4"
+      }
+    },
+    {
+      "qualification_date": "2026-10-04",
+      "reviewer": "/root/menaquinone_check",
+      "collection_screen_increment": 0,
+      "ledger_admissions": 0,
+      "repository_edits": false,
+      "exact_trial_overlap": "No target PMID/DOI in frozen300 decisions or existing qualification reports checked before reading. Targeted depth for frozenB13, not new collection screening.",
+      "comparator_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/immutable-comparator-manifest.json",
+        "bytes": 4142,
+        "sha256": "96e8d7fef01925a3c3b3a4a8aafc6cedf4750b43b33f4b74a72549f7b198add8"
+      },
+      "overlap_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/existing-overlap.json",
+        "bytes": 2878,
+        "sha256": "7a6805948ae5d886552f6f259a514877d67dd98f33628ec3bcbd8d9cfe36bd0d"
+      },
+      "bub1b_mva": "No established variant efficacy forLeu737Ter/Asn1002Lys; no MVA benefit or head-to-head superiority.",
+      "patient_dosing_advice": false,
+      "source": {
+        "pmid": "31257264",
+        "doi": "10.3177/jnsv.65.242",
+        "title": "Milk-Fat Globule Membrane Plus Glucosamine Improves Joint Function and Physical Performance: A Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study."
+      },
+      "reading_depth": {
+        "scientific_main": "Complete scientific Introduction, Methods, Results, Discussion, Acknowledgments and funding in the original nine-page PDF; all main cell text was read. References were not individually qualified.",
+        "native_main": "Native Figure 1 and Tables 1\u20137 were inspected on PDF pages 2\u20137.",
+        "supplement_protocol_sap": "No scientific supplement, full protocol or SAP was recovered from the publisher or own registry.",
+        "own_registry": "Complete current English UMIN000025660 record and history list were read; targeted outcome, design, arm, target-sample and timing fields were read in original v1 and later v2\u2013v4. Other historical fields were not fully read.",
+        "raw_data": "Not obtained"
+      },
+      "identity": {
+        "active": "Eightstudy-madecompressedtablets/day:1gMFGMfromArlaFoods+1.5gglucosamineHClfromKoyoChemical",
+        "sphingomyelin": "Methods38mgversusnativeTable1 35.2mg per8tablets; unresolved.",
+        "control": "EightmatchedtabletswithoutMFGM/glucosamine;equal12.2kcal/day butprotein1.1gactive/.2gplacebo andcarbohydrate1.2/2.1g",
+        "duration": "8weeks",
+        "activity": "Habitualactivitymaintained;dailystepscovariate; no prescribedresistancetraining",
+        "limits": "Combinationonly; notMFGMalone,glucosaminealone,sphingomyelinalone,glucosaminesulfate or different2015glucosamine/chondroitinmixture. Registeredglu-onlyarmisnotreportedcomparison."
+      },
+      "design": {
+        "population": "Japaneseadults60\u201374withmildknee/low-backpain,OAandmajordiseaseexcluded;notMVA/inheritedmyopathy/pediatric",
+        "allocation": "Computerrandomnumbers,JKOM/pain-balancedallocation,sealedlist,doubleblind",
+        "denominators": "257screened\u219260randomized30/30;oneactivewithdrawalforarthralgiamedication\u219259safety29/30;furtheractive4andplacebo2excluded\u219253perprotocol25/28function.",
+        "exclusions": "Activepooradherence2,pain-treatment1,lowbaselineVAS1;placebopain-treatment1,lowVAS1. No all60randomizedefficacy/ITT or sensitivityshown.",
+        "analysis": "Linearmixedtime\u00d7groupmodel acrossbaseline/week4/week8. Baselinecovariatesforjoint/symptom/anthropometry;dailyphysicalactivitycovariateforperformance. Bonferroniposthoctestsdeclared; no demonstratedglobalmultiplicitycontrolofinteractiontestsacrossbroadprimaryfamily.",
+        "hierarchy": "Original/currentregistry callsalljoint/symptom/physicaltestsbroadprimaryoutcomes,exploratorytrial; notsingleconfirmatoryprimary. Mainreports nohierarchicalgate/SAP."
+      },
+      "function_outcomes": [
+        {
+          "outcome": "10mobstaclewalk",
+          "active_pre_week4_week8": "0.96(.02),1.05(.03),1.08(.03)m/s",
+          "placebo_pre_week4_week8": "0.97(.03),1.04(.03),1.04(.03)m/s",
+          "time_group_P": 0.045,
+          "result": "Nominalcontrolledinteractionpositive; Discussionrawchangedifference.05m/s is not published adjustedpointcontrast/CI."
+        },
+        {
+          "outcome": "Ascendingstairs",
+          "active_pre_week4_week8": "13.0(.5),11.9(.4),11.2(.4)s",
+          "placebo_pre_week4_week8": "12.8(.5),12.2(.4),11.6(.4)s",
+          "time_group_P": 0.036,
+          "result": "Nominalcontrolledinteractionpositive, notactiveonly improvementorweek8-onlytest."
+        },
+        {
+          "outcome": "Otherphysicalperformance",
+          "P": "Open-close.146;onelegeyesopen.307/closed.634;normalwalk.464/maxwalk.945;descendingstairs.200",
+          "result": "Nonpositivecontrolledinteractions;sharedtraining/practice/timeimprovementnotmixturecredit."
+        },
+        {
+          "outcome": "Passivekneeflexion",
+          "P": 0.031,
+          "result": "Nominalinteractionpositive;lowbackrotationP.961nonpositive."
+        },
+        {
+          "outcome": "ActiveROMselfreport",
+          "P": "Kneeflexion.009/ease.004;lowbackforward.029/backward.018/twist.013/ease.021",
+          "result": "PositiveVASscores(mm), notmeasuredphysicalROMdegrees."
+        },
+        {
+          "outcome": "JKOM,JLEQ,andpain",
+          "P": "JKOM.476,JLEQ.118;pain.076\u2013.731",
+          "result": "Controllednonpositive despitewithin-armchanges."
+        }
+      ],
+      "outcome_precision": "Table means\u00b1SE,notSD;no adjustedcontrasteffectCI supplied/invented. No directgrip/force test.",
+      "registry": {
+        "id": "UMIN000025660",
+        "receipt": "R000029475",
+        "registered_date": "2017-01-13",
+        "original_disclosure": "2017-07-31",
+        "planned_start": "2017-01-31",
+        "paper_conduct": "January\u2013March2017",
+        "original_and_all4versions": "Threearms:milkderived+glucosamine,glucosaminealone,placebo;target90",
+        "published": "Twoarms,60randomized; noglu-onlyresults",
+        "interpretation": "Enteredbeforeplannedstart,butpublicdisclosureafterpaperconduct. Three-versus-two-arm/sample/reportingdiscrepancyunresolved;notproofanunreportedarmactuallyran/failed. Cannot awardisolatedcomponentefficacy.",
+        "secondary_outcomes": "Registeredcartilage/cytokineoutcomesnotreported inmain;measurement/omissionreasonunknown.",
+        "version_dates": [
+          "2017-01-13",
+          "2017-08-23",
+          "2019-07-18",
+          "2019-07-19"
+        ],
+        "full_protocol_sap": "Unavailable"
+      },
+      "safety": {
+        "events": "22active versus30placebo EVENTS,notaffected-patientcounts;alltransient/mild/declaredunrelated;notreatmentdiscontinuationforAEs reported.",
+        "events_active": "12respiratoryinfections,1feebleness,2headache,1stomachache,3jointpain,1constipation,1gastricdistress,1drymouth",
+        "events_placebo": "8respiratoryinfections,3feebleness,3headache,1stomachache,9jointpain,2shouldertightness,1constipation,1hardstool,1diarrhea,1gastricdistress",
+        "labs": "ALTinteractionP.018,gammaGTP.006declinesactive;creatinine.010increaseplacebo. CRPactive.082\u2192.311/placebo.257\u2192.102mg/dL,interactionP.148nonpositive. No urinarychangesreported.",
+        "limit": "Small8-weekadulttrial;paperclaimssafearebroaderthan demonstratedshort-termtolerability."
+      },
+      "funding": "KaoCorporationfunding;4of5authorsKaoemployees,clinicalcontractorganizationJikokai.",
+      "renewal_fidelity": "NoBUB1B/BUBR1,productive-renewal,faithfuldivisionorMVAresponse. Creatinineisnotconfirmedmusclemassaccretion;no directmusclemass/strengthgain inferred.",
+      "disposition": "Retain the exact combination as a human functional-performance reserve with per-protocol selection, multiplicity and three-arm registry reporting uncertainty. No standalone MFGM/glucosamine credit or automatic existing-entry upgrade.",
+      "source_bindings": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/mfgm-glucosamine/source-bindings.json",
+        "bytes": 19562,
+        "sha256": "7d4ba13b9c90a903652e72deff2efdf24010b9a7e9ab6b454329602ace15b9e2"
+      },
+      "independent_targeted_check": {
+        "reviewer": "/root/menaquinone_check/mfgm_registry_check",
+        "scope": "Original main intervention, native Figure1/Tables1/5/6, AE section, and own original/later registry design/outcome/timing fields; not an independent complete-main audit.",
+        "result": "Confirmed dose discrepancy,30/30\u219229/30safety\u219225/28efficacy, nominal time\u00d7group function positives/nulls, event counts,3arm/90 versus2arm/60 and entry/disclosure distinction."
+      },
+      "source_anchors": {
+        "dose": "main-raw-readable.txt131; journalpage243/Table1",
+        "denominators": "main-raw-readable.txt328; nativeFigure1/journalpage244",
+        "physical_function": "main-raw-readable.txt347; nativeTable6/journalpage246",
+        "adverse_events": "main-raw-readable.txt524; journalpage248",
+        "original_registry_primary": "umin-history-v1.txt33",
+        "original_registry_arms": "umin-history-v1.txt49",
+        "original_registry_target90": "umin-history-v1.txt99",
+        "original_registry_disclosure": "umin-history-v1.txt141",
+        "original_registry_registration": "umin-history-v1.txt160"
+      }
+    },
+    {
+      "qualification_date": "2026-10-04",
+      "reviewer": "/root/menaquinone_check",
+      "collection_screen_increment": 0,
+      "ledger_admissions": 0,
+      "repository_edits": false,
+      "exact_trial_overlap": "No target PMID/DOI in frozen300 decisions or existing qualification reports checked before reading. Targeted depth for frozenB13, not new collection screening.",
+      "comparator_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/immutable-comparator-manifest.json",
+        "bytes": 4142,
+        "sha256": "96e8d7fef01925a3c3b3a4a8aafc6cedf4750b43b33f4b74a72549f7b198add8"
+      },
+      "overlap_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/existing-overlap.json",
+        "bytes": 2878,
+        "sha256": "7a6805948ae5d886552f6f259a514877d67dd98f33628ec3bcbd8d9cfe36bd0d"
+      },
+      "bub1b_mva": "No established variant efficacy forLeu737Ter/Asn1002Lys; no MVA benefit or head-to-head superiority.",
+      "patient_dosing_advice": false,
+      "source": {
+        "pmid": "34098214",
+        "doi": "10.1016/j.archger.2021.104436",
+        "title": "Protein-enriched diet improved muscle endurance and marginally reduced intramuscular adiposity: Results from a randomized controlled trial among middle-aged and older adults."
+      },
+      "reading_depth": {
+        "indexed_original_abstract": "Complete original indexed abstract via EuropePMC core.",
+        "main_native_supplement": "Not obtained or read; DOI landing page and Elsevier core-only XML are not full text.",
+        "own_registry_protocol_sap": "Not identified or recovered; no other protein-trial registration was borrowed.",
+        "secondary_reviews": "Not used as primary qualification."
+      },
+      "identity": {
+        "intervention": "10frozenmeals/week for12weeks:highprotein25%dailycalorieofprotein versusregular15%",
+        "food_components_g_perkg_totalenergy_brand_assay_adherence": "UNKNOWNatabstractscope; do notinferisolatedprotein/whey/soy orhighergramdose frompercentrecipealone."
+      },
+      "design": {
+        "allocation": "Randomizedcontrolledtrialperabstract; detailedsequence/blinding/hierarchyunknown",
+        "enrolled": "70participants;abstractdoesnotspecifyexactrandomizeddenominatorbyarm",
+        "analyzed": "52total:27HPG/25RPG;meanage53.7\u00b18.3,53.8%male",
+        "missingness": "18of70notavailableforanalysis;reasons/armdistribution/ITThandlingunknown",
+        "measurements": "Bioimpedancebodycomposition,mid-thighMRIandfunctionaltests;6minwalkcourse/protocolunknown"
+      },
+      "outcomes": [
+        {
+          "outcome": "6minwalkingdistance",
+          "result": "HPG versusRPGsignificantimprovementreported;no numericcontrast/P/CI orendpointprimaryhierarchyprovided.",
+          "credit": "Controlledreportedendurancepositive retainedatabstractonlydepth."
+        },
+        {
+          "outcome": "Handgrip",
+          "result": "SignificantdeclineinBOTHarms;no demonstratedhigh-protein-specificharmcontrast inabstract."
+        },
+        {
+          "outcome": "hsCRP",
+          "result": "HPG greaterincreasethanRPGreported;adversebiomarkerdirection retained;clinicalharmnotestablished."
+        },
+        {
+          "outcome": "Intramuscularadiposity",
+          "result": "MarginalreductionrelativeRPG,notconfirmedpositiveeffectwithsuppliednumericCI/P."
+        },
+        {
+          "outcome": "Relativeappendicularmusclemass",
+          "result": "Notchangedsignificantly withinbotharmsperabstract;no usefulrenewalinferred."
+        },
+        {
+          "outcome": "Weight,BMI,totalbodyfat",
+          "result": "Reducedbothgroups,notprotein-specificfunctionalbenefit."
+        }
+      ],
+      "safety": "AEcollection/numbers/labs/withdrawalsUNKNOWNatabstractscope;abstractsilenceisnotsafetyproof.",
+      "funding": "Detailedmainfunding/conflictsunread;do notborrowsecondary-reviewclassification.",
+      "access": "NoPMCID;ScienceDirect403;NYCUrepositoryaccess403/metadataonlythroughindexedprimarypage;ElsevierAPI1953bytescore-onlyXML,openaccess0,nooriginalmain. Boundedexact-sourceprimary/authorrepositoriesdidnotrecover main.",
+      "renewal_fidelity": "RecoveredabstractcontainsnodemonstratedBUBR1/faithfulsegregation/renewal/MVAresponse;cannotassertanunreadfullpapernevercontainedadditionalassays.",
+      "disposition": "Retain the preparation-specific abstract-level endurance positive with grip/hsCRP counterdirections. Full qualification and ingredient attribution remain unresolved; no ledger admission.",
+      "source_bindings": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/protein-meal/source-bindings.json",
+        "bytes": 4187,
+        "sha256": "e3d86dfe0b8ab259539ad6966a0f0c55275a57bf907f0788818f7c937e4b5424"
+      }
+    }
+  ],
+  "audit_summary": {
+    "finished_utc": "2026-10-04T14:11:40.518808+00:00",
+    "reviewer": "/root/menaquinone_check",
+    "source_count": 3,
+    "complete_scientific_mains": 2,
+    "complete_original_indexed_abstract_only": 1,
+    "complete_scientific_supplements": 1,
+    "own_registry_scope": "MFGM current record read completely; original and later four historical outcome, design and timing fields read selectively. Other own records were not identified.",
+    "immutable_comparator_decision_count": 300,
+    "collection_screen_increment": 0,
+    "ledger_admissions": 0,
+    "repo_files_written": false,
+    "source_audits": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/shatavari/audit.json",
+        "bytes": 9933,
+        "sha256": "6de1c20226fecaf8ff98a6bfc86c9a81275f44ae83e905c0d1e75630ea8ffe77"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/mfgm-glucosamine/audit.json",
+        "bytes": 9027,
+        "sha256": "013a36c18e8ae31609b8409901d816fd343b36754a4a1ca3dc77d03e1ba4e1d9"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/protein-meal/audit.json",
+        "bytes": 4705,
+        "sha256": "62e3c38b8a8bf07c46064f04ef6d55d132c86223ee665b51b18aaa65f37278da"
+      }
+    ],
+    "readable_audits": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/shatavari/audit.md",
+        "bytes": 4680,
+        "sha256": "c64032ef49b6eb76124833f6e03aa94a995fc8d020196db07574bf66be4dc62a"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/mfgm-glucosamine/audit.md",
+        "bytes": 5095,
+        "sha256": "f020d6881708ef4b4784009bf47753d91961b5e74e4d61fdb4e36b533e18471b"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/protein-meal/audit.md",
+        "bytes": 2626,
+        "sha256": "f2262d8176596c020b53590c31e5c7ac358744967a30ca35362f529b40cd3c13"
+      }
+    ],
+    "source_binding_manifests": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/shatavari/source-bindings.json",
+        "bytes": 18888,
+        "sha256": "b37583a48185d139db66cda1c261ebf9c1b1e6b949370c6d27a4fcae8516c2a4"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/mfgm-glucosamine/source-bindings.json",
+        "bytes": 19562,
+        "sha256": "7d4ba13b9c90a903652e72deff2efdf24010b9a7e9ab6b454329602ace15b9e2"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/protein-meal/source-bindings.json",
+        "bytes": 4187,
+        "sha256": "e3d86dfe0b8ab259539ad6966a0f0c55275a57bf907f0788818f7c937e4b5424"
+      }
+    ],
+    "comparison": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/comparison.md",
+      "bytes": 3221,
+      "sha256": "83cfc6e502ca9b72ae60f349681f9b45ca4a642ce650220bfbb21435ae5a577c"
+    },
+    "immutable_comparator_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/immutable-comparator-manifest.json",
+      "bytes": 4142,
+      "sha256": "96e8d7fef01925a3c3b3a4a8aafc6cedf4750b43b33f4b74a72549f7b198add8"
+    },
+    "overlap": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/existing-overlap.json",
+      "bytes": 2878,
+      "sha256": "7a6805948ae5d886552f6f259a514877d67dd98f33628ec3bcbd8d9cfe36bd0d"
+    },
+    "major_limits": [
+      "Shatavari primary post-training strength nonpositive; training/load and contractility positives retained with reporting conflicts.",
+      "MFGM original three arms/90 versus published two arms/60; per-protocol selection, multiplicity and component attribution limits.",
+      "Protein-meal main unavailable; walking positive with grip decline in both arms and relative hsCRP increase at abstract-only scope."
+    ],
+    "independent_targeted_check": "MFGM native outcomes, preparation/denominators/safety and own original/later registry design/timing corroborated by separate reader; no second complete-main credit."
+  },
+  "package_manifest": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/batch13-primary-followups/final-bindings.json",
+    "bytes": 32773,
+    "sha256": "edcb733bb083f5f4b60378b8c5736963cbc1c8018c3ae7b3746578918f37f45f"
+  },
+  "root_integration_check": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-extension-review-20261004/root-primary-integration-20261004/root-integration-check.json",
+    "bytes": 1642,
+    "sha256": "5eb6a52515aa2cab0261abd39b09b40f0314d0716585f550422d00efd3a730b3"
+  }
+}

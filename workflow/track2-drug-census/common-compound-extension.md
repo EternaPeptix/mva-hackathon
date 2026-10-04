@@ -50,7 +50,7 @@ The 2023 sarcopenia row in [the batch-11 follow-up](batch11-common-compound-foll
 
 ## Reading scope and remaining work
 
-The new sources were followed outside the original frozen gene queue; no original-queue reading, independent-study count or accepted outcome-corpus screening increment is assigned. The outcome collection now has 1,480 accepted source/ID screens through batch 12; batch 13 has 160 separately selected records awaiting review/acceptance. Primary follow-ups do not count as reviewing those entire batches.
+The new sources were followed outside the original frozen gene queue; no original-queue reading, independent-study count or accepted outcome-corpus screening increment is assigned. The outcome collection now has 1,640 accepted source/ID screens through batch 13; its bounded root cross-check covered 86 fixed/flagged saved abstracts. Primary follow-ups do not count as reviewing those entire batches.
 
 - **Tyrosine:** two complete human abstracts; targeted original mouse treatment Methods/Results/Discussion/captions and native Figure 5; targeted later ACTA1/NEB mains/captions. Human mains, later native animal panels and supplements remain unread.
 - **Riboflavin:** complete SLC25A32 scientific main/Table 1 and pediatric letter/caption; targeted ACAD9 treatment main/captions. Repp S1/S3 cell text was checked for overlap/counts; native cohort plots and the Schiff appendix remain unread.
@@ -61,4 +61,6 @@ The new sources were followed outside the original frozen gene queue; no origina
 A fresh lawful access check still did not obtain the three older pediatric DMD creatine mains (PMIDs 15159476, 15984021, 20395096). Institutional records and publisher responses add no efficacy upgrade. These remain substantive source gaps; source access failures are not candidate failures. The broader census and competitive evaluation remain unfinished.
 
 
-The subsequent [food/BCAA/Shoden follow-up](common-preparation-counterevidence.md) adds three bounded appraisals, bringing the current ledger to **300** without changing this pass's seven-entry admission or the nominees.
+The subsequent [food/BCAA/Shoden follow-up](common-preparation-counterevidence.md) adds three bounded appraisals, bringing that checkpoint to **300** without changing this pass's seven-entry admission or the nominees.
+
+The subsequent [shatavari/MFGM/protein-meal follow-up](common-preparation-functional-followup.md) brings the current ledger to **303** with preparation-specific functional positives and counterevidence; nominations remain provisional.
