@@ -25,7 +25,7 @@ and [full alternative-route audit and promotion triggers](track2-route-decisions
 Candidate reconstruction, population sensitivity calculations and a secondary
 mouse RNA analysis are completed. The [original source-revalidation selection](../../workflow/track2-drug-census/batch15-revalidation-findings.md)
 is closed at 3,598 accepted literal revalidations; broader discovery and primary-source
-follow-up remain incomplete. The current ledger contains 304 route/compound appraisals,
+follow-up remain incomplete. The current ledger contains 305 route/compound appraisals,
 which document evidence decisions rather than treatment effects.
 No patient-cell, drug-exposure or functional
 rescue experiment below has been performed; laboratory access is not secured.

@@ -4,7 +4,7 @@
 
 The [adopted drug-census decision](../workflow/track2-drug-census/decision-report.md) is incorporated into this package. We nominate **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue. Their shared goal is greater absolute muscle output with preserved renewal and chromosome accuracy.
 
-Niacin retains the more proximal hypothesis; apitegromab has stronger actual-drug human functional evidence from treated SMA, with age/dose limits, fracture risk and intravenous access burden. It requires a suitable myostatin activation system and drug engagement, not mandatory excess baseline myostatin. The current ledger contains 304 appraisals. The dated numerical reviews do not score the subsequent source qualifications or this candidate shortlist; the 29 September independent check assessed candidate selection rather than assigning a new full-package score.
+Niacin retains the more proximal hypothesis; apitegromab has stronger actual-drug human functional evidence from treated SMA, with age/dose limits, fracture risk and intravenous access burden. It requires a suitable myostatin activation system and drug engagement, not mandatory excess baseline myostatin. The current ledger contains 305 appraisals. The dated numerical reviews do not score the subsequent source qualifications or this candidate shortlist; the 29 September independent check assessed candidate selection rather than assigning a new full-package score.
 
 Completed work comprises allele-product reconstruction, literature and route
 comparison, synthetic analysis of misleading cell fractions, and a reproducible
