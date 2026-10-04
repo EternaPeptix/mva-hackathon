@@ -33,17 +33,17 @@ The original pilot left **56,177 collection records unscreened by that pilot**. 
 
 ## Current eligibility coverage
 
-Fourteen completed batches, including the original forty-record pilot, cover **1,800 disjoint source/ID records**, leaving **54,417 unscreened**. One assigned reader screened batch 9 in two eighty-record packets: **159 complete available saved abstracts and one title/metadata-only erratum at order 118**. Order 16 explicitly ends with the original 250-word truncation marker; missing original text receives no reading credit. Batch 10 contains 160 available saved abstracts without an observed missing abstract or explicit truncation marker. Review order retains the same design, administration and function flags and query-stratum proportions, without ranking favorable results. Every unselected record remains queued.
+Fifteen completed batches, including the original forty-record pilot, cover **1,960 disjoint source/ID records**, leaving **54,257 unscreened**. One assigned reader screened batch 9 in two eighty-record packets: **159 complete available saved abstracts and one title/metadata-only erratum at order 118**. Order 16 explicitly ends with the original 250-word truncation marker; missing original text receives no reading credit. Batch 10 contains 160 available saved abstracts without an observed missing abstract or explicit truncation marker. Review order retains the same design, administration and function flags and query-stratum proportions, without ranking favorable results. Every unselected record remains queued.
 
-| Route at recorded source depth | Batch 2 | Batch 3 | Batch 4 | Batch 5 | Batch 6 | Batch 7 | Batch 8 | Batch 9 | Batch 10 | Batch 11 | Batch 12 | Batch 13 | Batch 14 |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Human functional reports with comparators | 21 | 23 | 37 | 96 | 72 | 84 | 85 | 85 | 90 | 85 | 92 | 89 | 79 |
-| Uncontrolled human functional reports | 0 | 2 | 4 | 2 | 4 | 3 | 5 | 4 | 3 | 7 | 1 | 3 | 3 |
-| Human mass/mechanism reports | 2 | 1 | 3 | 8 | 11 | 13 | 12 | 8 | 9 | 12 | 9 | 6 | 8 |
-| Preclinical functional reports | 2 | 3 | 3 | 8 | 8 | 7 | 7 | 8 | 11 | 5 | 7 | 6 | 7 |
-| Preclinical mechanism reports | 1 | 0 | 1 | 1 | 1 | 6 | 1 | 6 | 4 | 2 | 0 | 3 | 2 |
-| Context, reviews or protocols | 13 | 11 | 29 | 42 | 63 | 45 | 48 | 48 | 42 | 47 | 43 | 47 | 56 |
-| Unresolved | 1 | 0 | 3 | 3 | 1 | 2 | 2 | 1 | 1 | 2 | 8 | 6 | 5 |
+| Route at recorded source depth | Batch 2 | Batch 3 | Batch 4 | Batch 5 | Batch 6 | Batch 7 | Batch 8 | Batch 9 | Batch 10 | Batch 11 | Batch 12 | Batch 13 | Batch 14 | Batch 15 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:| ---: |
+| Human functional reports with comparators | 21 | 23 | 37 | 96 | 72 | 84 | 85 | 85 | 90 | 85 | 92 | 89 | 79 | 49 |
+| Uncontrolled human functional reports | 0 | 2 | 4 | 2 | 4 | 3 | 5 | 4 | 3 | 7 | 1 | 3 | 3 | 2 |
+| Human mass/mechanism reports | 2 | 1 | 3 | 8 | 11 | 13 | 12 | 8 | 9 | 12 | 9 | 6 | 8 | 13 |
+| Preclinical functional reports | 2 | 3 | 3 | 8 | 8 | 7 | 7 | 8 | 11 | 5 | 7 | 6 | 7 | 7 |
+| Preclinical mechanism reports | 1 | 0 | 1 | 1 | 1 | 6 | 1 | 6 | 4 | 2 | 0 | 3 | 2 | 2 |
+| Context, reviews or protocols | 13 | 11 | 29 | 42 | 63 | 45 | 48 | 48 | 42 | 47 | 43 | 47 | 56 | 77 |
+| Unresolved | 1 | 0 | 3 | 3 | 1 | 2 | 2 | 1 | 1 | 2 | 8 | 6 | 5 | 10 |
 
 Batch 8 received **36 separate checks**: sixteen predeclared interval samples and twenty flagged boundaries, comprising 35 available abstracts and the metadata-only reply. All 160 identities, available literal source anchors and notice metadata were checked. Earlier checks and their limits remain recorded. Reader discussion occurred; this is not a blind double review of every record.
 
@@ -83,4 +83,4 @@ The independent PASS concerns retrieval and bounded review fidelity. It does not
 
 [Batch 14 primary follow-ups](batch14-primary-followups.md) now qualify the complete tea-extract and riboflavin mains while retaining CoQ10 as a partial access/erratum note. These targeted appraisals add no eligibility records or nominee changes.
 
-[Batch 15](outcome-first-batch15-selection.md) is a frozen pending selection of 160 records, with original truncation 50 preserved. Scientific reading and required root checks are underway; accepted coverage remains 1,800/56,217 and these pending records remain inside the 54,417 unscreened denominator.
+[Batch 15](outcome-first-batch15-screen.md) is accepted for **160 complete literal available saved fields**, with original truncation 50 and Methods-only continuation 77 preserved. A separate reader froze all 160 own judgments before comparison. Root read **147 distinct required abstracts** and all 19 current notice identities; no root reread of every record or full blinding is claimed. Four routes changed after eight explicit disagreements; all 911 flags and ten unresolved cases remain. The complete original retraction notice 46 gives no reason; the indexed erratum 102 does not certify unread numerical versions. Final routes are 49 controlled human function, 2 uncontrolled human function, 13 human mass, exposure or mechanism, 7 preclinical function, 2 preclinical mechanism, 77 context and 10 unresolved. All 217 origins on 55 pages and the unchanged ordering passed checks. This adds no unique-drug, independent-trial, full-paper efficacy or BUB1B/MVA rescue credit. The [Korean mistletoe note](korean-mistletoe-partial-source-note.md) preserves partial access and provisional registry linkage without admission. The [original selection](outcome-first-batch15-selection.md) remains a historical zero-credit checkpoint.
