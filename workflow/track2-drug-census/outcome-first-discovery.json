@@ -13490,5 +13490,37 @@
     "status": "Single-reader selected source follow-up; independent review pending; no ledger admission.",
     "current_decision": "Vitamin D2 is a deficiency/malabsorption-conditional reserve; calcium-HMB is a promising common-supplement functional reserve in the pairwise HMB/inulin comparison; inulin is lower-priority. None replaces niacin/restoration plus apitegromab/function.",
     "no_mva_or_bub1b_rescue_claim": true
+  },
+  "pending_eligibility_selection": {
+    "batch": 17,
+    "status": "FROZEN_SELECTION_NOT_ACCEPTED",
+    "selected_records": 160,
+    "accepted_eligibility_increment": 0,
+    "accepted_baseline_records": 2120,
+    "unreserved_queue_after_selection": 53937,
+    "total_unscreened_including_selected": 54097,
+    "selection_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch17-20261004/selection-final-bindings.json",
+      "bytes": 70328,
+      "sha256": "f6fc08ed95af318298d20b24aa5bf872313ad465262ce7ad7117483bc506bd11"
+    },
+    "independent_selection_QA": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch17-selection-independent-qa-20261004/final-bindings.json",
+      "bytes": 53416,
+      "sha256": "19bab9ffe68ad2153d7bd7ede6c8cf9335be996379b7b756e7495b2d1710639b"
+    },
+    "repository_selection": {
+      "path": "workflow/track2-drug-census/outcome-first-batch17-selection.json",
+      "sha256": "cbb2cb9f09ccf88c40ef98b7f2a40446611cab919174b57b76d3a96701633392"
+    },
+    "report": "outcome-first-batch17-selection.md",
+    "reading_and_source_limits": "Frozen selection only.160 nonempty saved fields; original completeness UNKNOWN. First and independent science in progress; root scientific review and acceptance remain separate. Zero accepted increment.",
+    "prior_exclusion_status_wording_addendum": {
+      "original_status": "FROZEN_PRIOR2120_EXACT_ORIGINAL_SELECTION_IDS_ACCEPTED_THROUGH_BATCH17",
+      "actual_exclusion_scope": "16 accepted prior batches through B16; 2,120 exact identities",
+      "B17_accepted_increment": 0,
+      "original_unchanged": true,
+      "reason": "Original status ACCEPTED_THROUGH_BATCH17 is a wording discrepancy; counts/IDs correctly exclude only through B16."
+    }
   }
 }
