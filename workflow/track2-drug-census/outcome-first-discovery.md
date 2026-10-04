@@ -82,3 +82,5 @@ Batch 14 is accepted for **159 complete literal available saved abstracts and me
 The independent PASS concerns retrieval and bounded review fidelity. It does not establish that every drug or common compound has been enumerated, that every report has been read, or that the nominated candidates are superior.
 
 [Batch 14 primary follow-ups](batch14-primary-followups.md) now qualify the complete tea-extract and riboflavin mains while retaining CoQ10 as a partial access/erratum note. These targeted appraisals add no eligibility records or nominee changes.
+
+[Batch 15](outcome-first-batch15-selection.md) is a frozen pending selection of 160 records, with original truncation 50 preserved. Scientific reading and required root checks are underway; accepted coverage remains 1,800/56,217 and these pending records remain inside the 54,417 unscreened denominator.

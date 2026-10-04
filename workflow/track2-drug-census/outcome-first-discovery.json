@@ -11155,7 +11155,26 @@
       }
     }
   ],
-  "pending_eligibility_batch": null,
+  "pending_eligibility_batch": {
+    "batch": 15,
+    "status": "FROZEN_SELECTION_WITH_SCIENTIFIC_READING_UNDERWAY_NOT_ACCEPTED",
+    "selected_records": 160,
+    "accepted_eligibility_increment": 0,
+    "accepted_baseline_records": 1800,
+    "unreserved_queue_after_selection": 54257,
+    "total_unscreened_including_selected": 54417,
+    "selection_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch15-20261004/selection-final-bindings.json",
+      "bytes": 29829,
+      "sha256": "22d89fa8f76716a1abac62545eb852072497b5e34d7e0095862f12c741435840"
+    },
+    "repository_selection": {
+      "path": "workflow/track2-drug-census/outcome-first-batch15-selection.json",
+      "sha256": "9f162920d3eeb3890566dd980aa795b9e8b972c9c4692b984114d7d63608d397"
+    },
+    "report": "outcome-first-batch15-selection.md",
+    "reading_and_source_limits": "160 nonempty saved fields; original50 truncated. First-pass and independent source reads plus all required root checks are pending; no accepted increment."
+  },
   "provisional_common_compound_followup": {
     "report": "batch11-common-compound-followup.md",
     "data": "batch11-common-compound-followup.json",
