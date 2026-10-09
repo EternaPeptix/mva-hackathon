@@ -1,0 +1,411 @@
+{
+  "schema": "bounded-primary-source-qualification/v1",
+  "created_utc": "2026-09-27T03:29:32.634462+00:00",
+  "compound": "glycine alone",
+  "source_count": 2,
+  "repository_baseline": {
+    "head": "609edd2b7864ec939f9a620aa00bc8c7f08767f4",
+    "decisions": 247,
+    "decisions_sha256": "464165ee5c614830d309d745cbf349adf68d96847b923f65e803db29b7f409c8"
+  },
+  "identity_boundary": "GlyNAC is a distinct glycine-plus-NAC combination; no efficacy inheritance by glycine or NAC alone.",
+  "sources": [
+    {
+      "source_id": "genton2021",
+      "doi": "10.1002/jcsm.12780",
+      "pmid": "34519439",
+      "pmcid": "PMC8718019",
+      "title": "Glycine increases fat-free mass in malnourished haemodialysis patients: a randomized double-blind crossover trial",
+      "urls": [
+        "https://doi.org/10.1002/jcsm.12780",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8718019/",
+        "https://archive-ouverte.unige.ch/unige:157425",
+        "https://clinicaltrials.gov/study/NCT02962089"
+      ],
+      "reading_depth": "Complete scientific main and declarations; all main table text; native Figure 1 and Tables 1 and 4. Current registry scientific fields. Supplement captions only; no actual supplement read.",
+      "design": {
+        "type": "Randomized, double-blind, active-comparator crossover; reported post hoc secondary analysis",
+        "primary": "Gut microbiota composition/function",
+        "randomized": 37,
+        "exposed_with_baseline": 36,
+        "per_protocol_completers": 27,
+        "sequence_counts_completers": {
+          "BCAA_then_glycine": 15,
+          "glycine_then_BCAA": 12
+        },
+        "bia_participants": 26,
+        "bia_measurements": 155,
+        "dxa_participants": 27,
+        "dxa_measurements": 108,
+        "washout": "One month; observed 31 ± 4 days",
+        "period_duration_months": 4,
+        "total_duration_months": 9,
+        "missingness": "One withdrew before baseline and allocation was reassigned; nine of 36 starters were not in the 27-person complete-crossover analysis. Full loss reasons were not enumerated in the main read. No ITT estimate qualified."
+      },
+      "population": {
+        "description": "Maintenance haemodialysis adults with features of protein-energy wasting",
+        "completer_mean_age_years": 61.2,
+        "completer_women": 11,
+        "MVA_cohort": false
+      },
+      "preparations": {
+        "glycine": "7 g granule packs twice daily, 30 minutes before breakfast and dinner, 14 g/day orally",
+        "comparator": "BCAA per pack leucine 3.62 g, valine 1.94 g, isoleucine 1.45 g; twice daily",
+        "manufacturer_packaging": "Bichsel pharmacy, Interlaken; Ivers-Lee, Burgdorf; matched appearance/taste and cGMP packaging",
+        "identity_boundary": "Biologically active BCAA comparison, no inert or unsupplemented period; no retail-product equivalence",
+        "compliance": "More than 80% of packs in each period, assessed by returned empty/full packs"
+      },
+      "analyses": {
+        "model": "Supplement, month, period, age and sex fixed effects; participant random intercept; some outcomes transformed for normality",
+        "multiplicity": "Benjamini–Hochberg; Table 4 supplement significance threshold below .005",
+        "carryover": "Not tested; nonsignificant period×month interaction and washout do not prove absence of carryover",
+        "hierarchy": "Post hoc secondary analysis. Current registry has microbiota primary, with body composition and physical outcomes among many secondary measures. Original registry history/SAP not read.",
+        "registration_timing": "First submitted 2016-08-23, first posted 2016-11-11, study start 2016-08 (main 2016-08-01); current record does not establish prospective public posting.",
+        "power_limit": "Secondary lean-mass sample-size assumption derived from a different large comparison; adequate power for each functional outcome not established."
+      },
+      "controlled_results": [
+        {
+          "endpoint": "BIA fat-free mass index",
+          "contrast": "BCAA minus glycine",
+          "estimate": -0.27,
+          "unit": "kg/m²",
+          "ci95": [
+            -0.43,
+            -0.1
+          ],
+          "p": 0.002,
+          "model_p": "<.001",
+          "source": "Native main Table 4",
+          "interpretation": "Positive comparative BIA signal favouring glycine; survives reported supplement multiplicity correction; not a direct muscle-protein or force measure"
+        },
+        {
+          "endpoint": "BIA fat-free mass index, baseline-adjusted model",
+          "contrast": "BCAA minus glycine",
+          "estimate": -0.3,
+          "unit": "kg/m²",
+          "ci95": [
+            -0.47,
+            -0.14
+          ],
+          "p": "<.001",
+          "source": "Main Results"
+        },
+        {
+          "endpoint": "DXA lean body mass index",
+          "contrast": "BCAA minus glycine",
+          "estimate": -0.07,
+          "unit": "kg/m²",
+          "ci95": [
+            -0.27,
+            0.13
+          ],
+          "p": 0.52,
+          "model_p": 0.28,
+          "source": "Native main Table 4",
+          "interpretation": "Nonpositive; DXA definition includes lean soft tissue and bone mineral"
+        },
+        {
+          "endpoint": "Body weight",
+          "contrast": "BCAA minus glycine",
+          "estimate": -0.59,
+          "unit": "kg",
+          "ci95": [
+            -0.95,
+            -0.22
+          ],
+          "p": 0.002,
+          "model_p": 0.052,
+          "source": "Native main Table 4",
+          "interpretation": "Table coefficient and footnote are positive for glycine, while abstract/Results prose says weight did not differ. Preserve discrepancy, not an unqualified weight null or benefit."
+        },
+        {
+          "endpoint": "Handgrip, pedometry and quality of life",
+          "contrast": "Between supplements in crossover model",
+          "estimate": null,
+          "p": null,
+          "source": "Complete main Results; detailed supplement not accessed",
+          "interpretation": "Main reports no between-supplement differences. Detailed numeric estimates/CIs not independently qualified."
+        }
+      ],
+      "within_period_results": [
+        {
+          "endpoint": "Handgrip, glycine month 1 versus baseline",
+          "estimate": 0.11,
+          "ci95": [
+            0.01,
+            0.22
+          ],
+          "p": 0.048,
+          "unit": "Square-root transformed grip scale; not kg",
+          "limit": "Selected within-period result; not randomized treatment contrast; transform identified in Figure S2 caption, actual supplement not read"
+        },
+        {
+          "endpoint": "Handgrip, BCAA month 3 versus baseline",
+          "estimate": 0.15,
+          "ci95": [
+            0.01,
+            0.29
+          ],
+          "p": 0.046,
+          "unit": "Transformed grip scale; not kg",
+          "limit": "Within-period comparison"
+        },
+        {
+          "endpoint": "BIA fat-free mass index, glycine month 4 versus baseline",
+          "estimate": 0.4,
+          "ci95": [
+            0.1,
+            0.69
+          ],
+          "p": 0.009,
+          "unit": "kg/m²",
+          "limit": "Within-period result, separate from controlled coefficient"
+        }
+      ],
+      "assays_and_transfer": "No muscle biopsy, BUBR1, chromosome-fidelity or variant-rescue assay reported in main. Plasma glycine did not rise at sampled visits; timing explanation is speculative. BIA fluid/protein composition remains unresolved despite post-dialysis measurement and fluid-status observations.",
+      "harms": {
+        "population": 36,
+        "deaths": 0,
+        "hospitalized_serious_events_patients": 11,
+        "author_attribution": "Serious events judged unrelated",
+        "table_unit": "Episodes, not independent-patient risk",
+        "nausea_vomiting_episodes": {
+          "glycine": 6,
+          "BCAA": 1,
+          "washout": 3
+        },
+        "nuance": "Discussion describes six glycine patients, three also symptomatic during washout; causal attribution uncertain. Fluid-overload supplemental dialysis clustered in four patients. No significant reported AE difference is not proof of safety equivalence."
+      },
+      "funding_conflicts": "Swiss National Science Foundation, Alfred and Alice Lachmann Foundation, Fresenius Kabi; stated no funder role. Genton/Teta industry relationships; Cani biotech cofounder and patent interests."
+    },
+    {
+      "source_id": "icu2025",
+      "doi": "10.1016/j.clnu.2025.10.001",
+      "pmid": "41109034",
+      "pii": "S0261561425002717",
+      "title": "The effect of enteral glycine on plasma glycine and muscle structure, size, and function in the critically ill: A randomized controlled trial",
+      "urls": [
+        "https://doi.org/10.1016/j.clnu.2025.10.001",
+        "https://www.sciencedirect.com/science/article/pii/S0261561425002717",
+        "https://pubmed.ncbi.nlm.nih.gov/41109034/",
+        "https://anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12618000409279"
+      ],
+      "reading_depth": "Complete abstract, public publisher-indexed scientific excerpts and Figure 3 caption, metadata, current registry displayed scientific fields. No complete main, native outcome table/figure, actual supplement or separate SAP.",
+      "access_status": "Publisher marks OA CC BY4.0. HTML routes403/challenge; PDF open failed; publisher API200 contains metadata only; native-image and possible-supplement URLs403. Technical access limitation, not paywall proof or negative efficacy.",
+      "design": {
+        "type": "Blinded randomized parallel three groups in mechanically ventilated adults",
+        "primary": "Plasma glycine AUC over 240 minutes",
+        "randomized": 29,
+        "arms": {
+          "placebo": 10,
+          "glycine_low": 9,
+          "glycine_high": 10
+        },
+        "duration": "Until extubation or at most seven days",
+        "biopsy_participants": 28,
+        "biopsies": 53,
+        "paired_biopsies": 25,
+        "histology_n_caption": 23,
+        "pressure_ultrasound_n_caption": 27,
+        "functional_denominators": null,
+        "functional_missingness": "Only assessable patients described; exact handling of inability to participate, death and missing follow-up unverified"
+      },
+      "preparations": {
+        "low": "0.2 g/kg/day enteral glycine with usual ICU care",
+        "high": "0.4 g/kg/day enteral glycine with usual ICU care",
+        "registry_route": "Nasogastric in sterile water, two daily infusions; standard enteral nutrition in all groups",
+        "test_meal": "Approximately 0.0667 or 0.1333 g/kg glycine with 100 mL standard feed; control without added glycine",
+        "actual_low_g_day_median_iqr": [
+          16.2,
+          4.6,
+          16.4
+        ],
+        "actual_high_g_day_median_iqr": [
+          29.6,
+          24.8,
+          32.4
+        ],
+        "supplier_purity_batch": "Unverified from accessed material",
+        "boundary": "Not interchangeable with four-month oral Genton regimen; no retail equivalence"
+      },
+      "results": [
+        {
+          "endpoint": "Plasma glycine AUC240",
+          "contrast": "High dose minus placebo",
+          "estimate": 759.4,
+          "unit": "μmol/L·min",
+          "ci95": [
+            219.27,
+            1299.54
+          ],
+          "p": 0.008,
+          "source": "Full abstract",
+          "interpretation": "Positive primary exposure/absorption result, not function"
+        },
+        {
+          "endpoint": "Muscle glycine",
+          "contrast": "Low dose minus placebo",
+          "estimate": 0.1,
+          "unit": "nmol/mg wet muscle",
+          "ci95": [
+            0.02,
+            0.18
+          ],
+          "p": 0.017,
+          "source": "Publisher-indexed Results/Figure 3 caption"
+        },
+        {
+          "endpoint": "Muscle glycine",
+          "contrast": "High dose minus placebo",
+          "estimate": 0.16,
+          "unit": "nmol/mg wet muscle",
+          "ci95": [
+            0.08,
+            0.23
+          ],
+          "p": 0.001,
+          "source": "Full abstract and publisher-indexed Results"
+        },
+        {
+          "endpoint": "Pressure ultrasound quadriceps thickness",
+          "contrast": "High dose minus placebo",
+          "estimate": 0.11,
+          "unit": "cm",
+          "ci95": [
+            -0.1,
+            0.31
+          ],
+          "p": 0.299,
+          "source": "Abstract and publisher-indexed Results",
+          "interpretation": "Favourable point estimate, inconclusive comparison"
+        },
+        {
+          "endpoint": "Pressure ultrasound quadriceps thickness",
+          "contrast": "Low dose minus placebo",
+          "estimate": 0.06,
+          "unit": "cm",
+          "ci95": [
+            -0.14,
+            0.26
+          ],
+          "p": 0.555,
+          "source": "Publisher-indexed Results",
+          "interpretation": "Favourable point estimate, inconclusive comparison"
+        },
+        {
+          "endpoint": "Myofibre diameter/area",
+          "source": "Abstract and publisher-indexed Results",
+          "interpretation": "No effect reported; native table/figure unavailable"
+        },
+        {
+          "endpoint": "FIM motor, MRC threshold, length of stay, EQ-5D-5L VAS",
+          "source": "Publisher-indexed Results 3.3.3, unavailable Table S4/main Table 4",
+          "interpretation": "FIM and clinical directions favour glycine; MRC threshold differs across group summaries among assessable participants. Exact controlled effects, denominators, CIs/P values and missingness unverified. Preserve directions; do not infer significance or convert to null."
+        }
+      ],
+      "registry": {
+        "id": "ACTRN12618000409279",
+        "registration_date": "2018-03-21",
+        "actual_first_enrolment": "2018-05-21",
+        "actual_last_enrolment": "2022-07-27",
+        "target_n": 30,
+        "final_n": 29,
+        "primary": "Absorption",
+        "secondary_function": [
+          "FIM motor",
+          "Handgrip dynamometry",
+          "PFIT-s"
+        ],
+        "other_secondary": "Morphology, muscle glycine, quality of life and clinical outcomes",
+        "analysis": "AUC regression age/APACHE II adjusted; baseline-adjusted morphology/thickness; nominal P<.05 for all tests; no stated multiplicity correction",
+        "history_limit": "Current displays only, no original archived version. Same-URL renderings differ in last-update display; no endpoint-change inference. No supporting document attached."
+      },
+      "harms_conflicts_limit": "Complete AE and conflict/funder-role sections unavailable. Excerpt says similar peak urea/creatinine; insufficient for overall safety. Registry/Crossref funding is not a full conflict declaration.",
+      "assay_limit": "No BUBR1 response, MVA rescue or chromosome-fidelity result reported in abstract/excerpts/registry read. Scope-limited absence, not a measured BUBR1 null or a whole-main claim."
+    }
+  ],
+  "notice_check": "Exact DOI/title identities verified; same-run Crossref no update-to/relation notices and exact-DOI notice searches did not surface correction/retraction. Bounded, not exhaustive.",
+  "availability": {
+    "primary_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c10a4657-cf64-4a71-a247-363dd58993bc",
+    "formulation": "Glycine 1.5% urologic irrigation",
+    "application": "NDA018315",
+    "archive_version": 9,
+    "archive_date": "2026-06-22",
+    "prescribing_text_revised": "2022-11",
+    "limit": "Irrigation approval does not establish oral supplement approval, efficacy, or preparation equivalence. No dose advice."
+  },
+  "comparative_position": "Credit controlled BIA signal and reported ICU favourable functional directions; distinguish these from a verified controlled functional benefit. Apply the same within-arm causal caution used for niacin. No selectively stricter MVA-only hurdle, cross-trial MVA ranking or nomination change.",
+  "remaining_gaps": [
+    "Genton authentic supplement, especially detailed functional Table S4",
+    "ICU complete main, Table 4 and supplement Table S4 with actual contrasts/denominators, missingness, harms and declarations"
+  ],
+  "qualification_md": {
+    "path": "qualification.md",
+    "bytes": 18057,
+    "sha256": "f20996214e24a2ae64f31fe62d2f7d6b5d2fade5f6069e92b4c5520702ad8d13"
+  },
+  "source_reviewer_decision_object_created": false,
+  "source_reviewer_repository_edits": false,
+  "source_reviewer_scope": "Two specified human originals only; optional 2019 myotube source not read",
+  "integration": {
+    "status": "INTEGRATED_SOURCE_QUALIFICATION",
+    "baseline": "609edd2b7864ec939f9a620aa00bc8c7f08767f4",
+    "decision_id": "new-glycine-muscle",
+    "source_author_files": {
+      "markdown": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glycine-functional-followup-20260926/qualification.md",
+        "sha256": "f20996214e24a2ae64f31fe62d2f7d6b5d2fade5f6069e92b4c5520702ad8d13"
+      },
+      "json": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glycine-functional-followup-20260926/qualification.json",
+        "sha256": "7895d02c6d6c67af3dcd7c47bc8daffcd02ad4ba213617d6834033ed08c20b29"
+      },
+      "reading_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glycine-functional-followup-20260926/reading-manifest.json",
+        "sha256": "41d30709d2105d85587d95025d76277f890f7620873df43d87487e4d7b548b00"
+      },
+      "freeze_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glycine-functional-followup-20260926/freeze-manifest.json",
+        "sha256": "bd4b6f7cf97ee068dfb8b7cb1bb5cac031346a2397c7dbce1c0dc00e30ec0e92"
+      }
+    },
+    "independent_check": {
+      "markdown": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glycine-functional-followup-20260926/independent-check/independent-check.md",
+        "sha256": "fb1cf67ddc69d00a9eb282b6ed5a503f30ca0c62ccfe4576093dcd368ac7cb0c"
+      },
+      "json": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glycine-functional-followup-20260926/independent-check/independent-check.json",
+        "sha256": "4a169fa77d04b71df35b591f44f32428b22b2141d390add3f19fe1586ea6ac1a"
+      },
+      "reading_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glycine-functional-followup-20260926/independent-check/reading-manifest.json",
+        "sha256": "c6720d8613634bbfc071b597edcc601868910b706b774407fbbe14e69836f09f"
+      },
+      "freeze_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glycine-functional-followup-20260926/independent-check/freeze-manifest.json",
+        "sha256": "7721160932a5c1f10cdf15d7b39022c05b2e6ac6e71617e29b31b403197743bc"
+      }
+    },
+    "root_selected_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-function-expansion-20260926/root-glycine-reading-in-progress.json",
+      "sha256": "4723db426a17a623c68f8ac900500535112780146a4f14afd81ad0a8ac60e0ac"
+    },
+    "root_product_context": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-function-expansion-20260926/root-product-context.json",
+      "sha256": "2b5b535c520daaf065af8316e75646af0450ead8edfef212c662756a827f688b"
+    },
+    "source_scopes_not_inherited_as_root_reading": true,
+    "new_original_queue_credit": 0,
+    "no_nomination_change": true,
+    "raw_primary_assets_remain_external": true,
+    "provenance_clarification": {
+      "scientific_correction": false,
+      "actual_ICU_Results_3_3_2_and_3_3_3_archive": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glycine-functional-followup-20260926/glycine_discovery2.json",
+        "sha256": "62f796bb1ea29e8d67eb34acf3517366c545859c2a0462b566a0eed5e9fa1af3"
+      },
+      "explanation": "Author manifest overattributes these passages to two excerpt text files. They are in the frozen publisher-result archive independently and directly read here."
+    }
+  }
+}

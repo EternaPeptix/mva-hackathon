@@ -1,0 +1,976 @@
+{
+  "schema_version": "1.0",
+  "assessment_date": "2026-09-23",
+  "compound": "bromosporine",
+  "primary_pmid": "41663394",
+  "primary_doi": "10.1038/s41467-026-69311-5",
+  "repository_context": {
+    "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
+    "commit": "725447082e515c090c2139c89b23a398e4f25079",
+    "access": "read-only"
+  },
+  "scope": {
+    "original_primary_source_qualification": true,
+    "experimental_replication": false,
+    "statistical_reanalysis": false,
+    "clinical_recommendation": false,
+    "repo_edits": false,
+    "publishing": false,
+    "spark_use": false,
+    "descriptive_source_arithmetic": true
+  },
+  "disposition": {
+    "cancer_monotherapy": "retain_reported_preclinical_benefit",
+    "cancer_combination": "retain_distinct_bromosporine_plus_RMP1_14_preclinical_benefit",
+    "formal_synergy": "not_established_by_reported_analysis",
+    "bromodomain_binding": "established_broad_polypharmacology",
+    "selective_catalytic_PCAF_inhibition": "not_established_in_qualified_data",
+    "PDAC_mechanism_assignment": "PCAF_biology_supported_bromosporine_on_target_attribution_unresolved",
+    "BUB1B_restoration": "not_supported",
+    "muscle_compensation": "not_tested",
+    "MVA_rescue": "not_tested_do_not_promote",
+    "nominee_change": "none; niacin/apitegromab remain provisional, everolimus conditional, none proven MVA"
+  },
+  "identity": {
+    "reported_product": "MCE HY-15815",
+    "name": "bromosporine",
+    "alias": "BSP",
+    "cas": "1619994-69-2",
+    "molecular_formula": "C17H20N6O4S",
+    "molecular_weight_g_mol": 404.44,
+    "inchikey": "UYBRROMMFMPJAN-UHFFFAOYSA-N",
+    "scaffold": "triazolopyridazine",
+    "lot_identity_confirmed": false,
+    "sources": [
+      "Zhang methods",
+      "SGC bromosporine page",
+      "indexed official MCE page"
+    ],
+    "excluded_conflations": [
+      "L-Moses",
+      "D-Moses",
+      "biotinylated BSP-a/BSP-b",
+      "unqualified BSP abbreviation"
+    ]
+  },
+  "combination_identity": {
+    "anti_PD1": {
+      "supplier": "Bio X Cell",
+      "catalog": "BE0146",
+      "clone": "RMP1-14",
+      "species_target": "mouse",
+      "isotype": "rat IgG2a kappa",
+      "mapping_basis": "catalog number in paper; clone in official indexed manufacturer datasheet",
+      "not_human_licensed_drug": [
+        "pembrolizumab",
+        "nivolumab"
+      ]
+    },
+    "isotype_control": {
+      "catalog": "BE0089",
+      "clone": "2A3",
+      "target": "trinitrophenol",
+      "isotype": "rat IgG2a kappa",
+      "mapping_basis": "catalog number in paper; clone in official indexed manufacturer datasheet"
+    }
+  },
+  "selectivity": {
+    "source": "Picaud2016 PMID27757418 Table1",
+    "assay": "ITC of isolated recombinant human bromodomains",
+    "measurement": "KD_nM_mean_plus_minus_SD",
+    "values": [
+      {
+        "target": "PCAF",
+        "KD_nM": 4762,
+        "SD_nM": 459
+      },
+      {
+        "target": "BRD4(1)",
+        "KD_nM": 41.8,
+        "SD_nM": 2.8
+      },
+      {
+        "target": "BRD4(2)",
+        "KD_nM": 39.7,
+        "SD_nM": 2.2
+      },
+      {
+        "target": "BRD9",
+        "KD_nM": 41.7,
+        "SD_nM": 3.8
+      },
+      {
+        "target": "CECR2",
+        "KD_nM": 8,
+        "SD_nM": 1
+      },
+      {
+        "target": "TAF1(2)",
+        "KD_nM": 16.6,
+        "SD_nM": 2.7
+      }
+    ],
+    "other_evidence": [
+      "42-bromodomain BLI screen",
+      "bromodomain acetyl-lysine pocket crystal structures",
+      "cellular BRD4/BRD9 FRAP displacement",
+      "BET-like leukemia transcriptional signature"
+    ],
+    "interpretation": "Binding is not catalytic PCAF HAT/lactyltransferase inhibition; many targets bind much more strongly than PCAF."
+  },
+  "PCAF_mechanism": {
+    "support": [
+      "Pcaf knockdown lowers H3K18la/CXCL1",
+      "purified PCAF + histone H3 + lactyl-CoA generates H3K18la in Fig4F",
+      "embelin and bromosporine each lower cellular H3K18la"
+    ],
+    "does_not_establish": [
+      "Fig4F has no bromosporine condition",
+      "lactyl-CoA docking is not bromosporine target engagement",
+      "knockdown phenocopy cannot isolate compound polypharmacology"
+    ],
+    "missing": [
+      "PDAC cellular PCAF target engagement",
+      "purified PCAF bromosporine catalytic inhibition curve",
+      "PCAF-specific drug-resistant rescue",
+      "domain-selective mechanistic comparator"
+    ],
+    "later_claim": {
+      "pmid": "34126285",
+      "doi": "10.1016/j.bmc.2021.116266",
+      "reported_indexed_PCAF_IC50_uM": 2.1,
+      "status": "abstract/introduction excerpt only; exact assay construct/readout unavailable; no catalytic completion credit",
+      "caution": "Not evidence that catalytic effects are impossible; incomplete assay qualification."
+    }
+  },
+  "experiments": [
+    {
+      "id": "cell_fig4",
+      "model": [
+        "PANC1",
+        "BxPC3",
+        "KPC",
+        "PANC02"
+      ],
+      "intervention": "bromosporine",
+      "concentrations_uM": [
+        0,
+        5,
+        20
+      ],
+      "duration": "not located for these panels",
+      "readouts": [
+        "H3K18la Western blot",
+        "CXCL1 qPCR/ELISA in PANC1/BxPC3"
+      ],
+      "n_CXCL1": 3,
+      "other_compound": {
+        "name": "embelin",
+        "supplier_catalog": "Selleck S7025",
+        "concentrations_uM": [
+          0,
+          10,
+          20
+        ],
+        "scope": "separate H3K18la cell experiment, Fig4D"
+      }
+    },
+    {
+      "id": "orthotopic_monotherapy_fig4",
+      "species": "mouse",
+      "host": "male C57BL/6J, 6-8 weeks",
+      "tumor": "KPC-luc",
+      "cells": 2000000,
+      "site": "pancreas",
+      "bromosporine_mg_kg": 30,
+      "route": "i.p.",
+      "schedule": "daily days7-13",
+      "comparator": "vehicle",
+      "n_per_group": 5,
+      "blot_n_per_group": 4,
+      "benefit": "lower tumor weight, H3K18la, serum CXCL1 and neutrophils; more CD8/GZMB+CD8",
+      "null": "PD1+CD8 fraction p=0.4041"
+    },
+    {
+      "id": "subcutaneous_monotherapy_S8",
+      "host": "male C57BL/6J, 6-8 weeks",
+      "tumor": "KPC-luc",
+      "cells": 3000000,
+      "site": "right flank",
+      "bromosporine_mg_kg": 30,
+      "route": "i.p.",
+      "schedule": "methods: daily starting day9, 11 doses; schematic/body-weight timeline alignment unresolved",
+      "comparator": "vehicle",
+      "n_per_group": 6,
+      "benefit": "lower tumor growth/weight and H3K18la/CXCL1/neutrophils; more CD8",
+      "limited_tolerance": "body weight unaffected; spleen-weight difference not significant"
+    },
+    {
+      "id": "subcutaneous_combination_fig5",
+      "host": "male C57BL/6J, 6-8 weeks",
+      "tumor": "PANC02",
+      "cells": 6000000,
+      "site": "right flank",
+      "arms": [
+        "DMSO+IgG2a",
+        "bromosporine+IgG2a",
+        "DMSO+anti-PD1",
+        "bromosporine+anti-PD1"
+      ],
+      "bromosporine_mg_kg": 30,
+      "antibody_ug_mouse": 200,
+      "route": "i.p.",
+      "bromosporine_days": [
+        14,
+        15,
+        17,
+        21,
+        22,
+        24
+      ],
+      "antibody_days": [
+        13,
+        16,
+        20,
+        23
+      ],
+      "harvest_day": 25,
+      "n_per_group": 6,
+      "immune_n_caption": 3,
+      "immune_source_values_per_arm": 9,
+      "immune_sampling_unit": "unresolved",
+      "results_wording": "additive tumor-growth inhibition",
+      "nulls": [
+        "neutrophil percentage combination vs bromosporine p=0.6229",
+        "CXCL1 combination vs bromosporine p=0.2814",
+        "CXCL1 anti-PD1 vs control p=0.9453"
+      ]
+    },
+    {
+      "id": "orthotopic_combination_fig5",
+      "host": "male C57BL/6J, 6-8 weeks",
+      "tumor": "KPC-luc",
+      "cells": 2000000,
+      "site": "pancreas",
+      "arms": [
+        "DMSO+IgG2a",
+        "bromosporine+IgG2a",
+        "DMSO+anti-PD1",
+        "bromosporine+anti-PD1"
+      ],
+      "bromosporine_mg_kg": 30,
+      "antibody_ug_mouse": 200,
+      "route": "i.p.",
+      "bromosporine_days": [
+        7,
+        8,
+        10,
+        14,
+        15,
+        17
+      ],
+      "antibody_days": [
+        6,
+        9,
+        13,
+        16
+      ],
+      "imaging_day": 12,
+      "harvest_day": 18,
+      "n_total_per_arm": 21,
+      "n_tissue_per_arm": 6,
+      "n_survival_per_arm": 15,
+      "flux_source_values_per_arm": 15,
+      "benefit": "combination lowers tumor weight/flux and prolongs survival versus single agents; each monotherapy also shows survival benefit relative to vehicle in Fig5Q; less neutrophils and more GZMB+CD8",
+      "nulls": [
+        "total CD8 fraction combination vs monotherapies p=0.6784 and 0.8616",
+        "PD1+CD8 fraction combination vs anti-PD1 p=0.9871",
+        "PD1+CD8 bromosporine vs vehicle p=0.1696"
+      ]
+    }
+  ],
+  "descriptive_tumor_weights": [
+    {
+      "label": "5D DMSO+IgG2A",
+      "sheet": "Figure 5",
+      "range": "C19:H19",
+      "n_values": 6,
+      "mean": 0.46499999999999997,
+      "values": [
+        0.868,
+        0.461,
+        0.42,
+        0.417,
+        0.357,
+        0.267
+      ]
+    },
+    {
+      "label": "5D Bromos+IgG2A",
+      "sheet": "Figure 5",
+      "range": "C20:H20",
+      "n_values": 6,
+      "mean": 0.28633333333333333,
+      "values": [
+        0.41,
+        0.342,
+        0.363,
+        0.228,
+        0.178,
+        0.197
+      ]
+    },
+    {
+      "label": "5D DMSO+PD-1",
+      "sheet": "Figure 5",
+      "range": "C21:H21",
+      "n_values": 6,
+      "mean": 0.286,
+      "values": [
+        0.374,
+        0.348,
+        0.216,
+        0.2,
+        0.416,
+        0.162
+      ]
+    },
+    {
+      "label": "5D Bromos+PD-1",
+      "sheet": "Figure 5",
+      "range": "C22:H22",
+      "n_values": 6,
+      "mean": 0.18033333333333335,
+      "values": [
+        0.256,
+        0.208,
+        0.169,
+        0.141,
+        0.176,
+        0.132
+      ]
+    },
+    {
+      "label": "5J DMSO+IgG2A",
+      "sheet": "Figure 5",
+      "range": "C60:H60",
+      "n_values": 6,
+      "mean": 1.1,
+      "values": [
+        0.95,
+        1.02,
+        0.68,
+        1.32,
+        1.26,
+        1.37
+      ]
+    },
+    {
+      "label": "5J Bromos+IgG2A",
+      "sheet": "Figure 5",
+      "range": "C61:H61",
+      "n_values": 6,
+      "mean": 0.7733333333333333,
+      "values": [
+        0.85,
+        0.53,
+        0.88,
+        0.77,
+        0.82,
+        0.79
+      ]
+    },
+    {
+      "label": "5J DMSO+PD-1",
+      "sheet": "Figure 5",
+      "range": "C62:H62",
+      "n_values": 6,
+      "mean": 0.41500000000000004,
+      "values": [
+        0.38,
+        0.39,
+        0.38,
+        0.4,
+        0.39,
+        0.55
+      ]
+    },
+    {
+      "label": "5J Bromos+PD-1",
+      "sheet": "Figure 5",
+      "range": "C63:H63",
+      "n_values": 6,
+      "mean": 0.23333333333333334,
+      "values": [
+        0.27,
+        0.22,
+        0.13,
+        0.25,
+        0.24,
+        0.29
+      ]
+    },
+    {
+      "label": "4L Vehicle",
+      "sheet": "Figure 4",
+      "range": "A35:A39",
+      "n_values": 5,
+      "mean": 0.98,
+      "values": [
+        0.83,
+        0.62,
+        0.87,
+        1.28,
+        1.3
+      ]
+    },
+    {
+      "label": "4L Bromos",
+      "sheet": "Figure 4",
+      "range": "B35:B39",
+      "n_values": 5,
+      "mean": 0.518,
+      "values": [
+        0.52,
+        0.56,
+        0.52,
+        0.43,
+        0.56
+      ]
+    },
+    {
+      "label": "S8M Vehicle",
+      "sheet": "Figure S8",
+      "range": "B67:G67",
+      "n_values": 6,
+      "mean": 0.6095,
+      "values": [
+        0.254,
+        0.722,
+        0.99,
+        1.018,
+        0.361,
+        0.312
+      ]
+    },
+    {
+      "label": "S8M Bromos",
+      "sheet": "Figure S8",
+      "range": "B68:G68",
+      "n_values": 6,
+      "mean": 0.2585,
+      "values": [
+        0.264,
+        0.083,
+        0.068,
+        0.273,
+        0.386,
+        0.477
+      ]
+    }
+  ],
+  "statistical_basis": {
+    "reported_tests": [
+      "two-tailed unpaired Students t-test",
+      "log-rank survival test"
+    ],
+    "interaction_analysis_located": false,
+    "dose_matrix_located": false,
+    "prespecified_additive_null_located": false,
+    "interpretation": "single-agent superiority supports combination benefit, not formal supra-additive synergy",
+    "multiplicity_correction": "not clearly specified for Figure5 repeated pairwise tests",
+    "randomization": "reporting summary says specimens randomly distributed",
+    "blinding": "reporting summary says not applicable",
+    "power": "no explicit power calculation located",
+    "animal_repeat_depth": "figure legends identify one experiment; generic repeat statements are not upgraded to independent animal cohorts"
+  },
+  "normal_cell_and_safety": {
+    "positive_evidence": [
+      "gross body-weight tolerance in tumor-bearing mice",
+      "S10 no significant body/kidney/spleen weight difference reported"
+    ],
+    "not_drug_safety_evidence": [
+      "S7 normal-cell lanes compare baseline marks",
+      "S7H direct immune-cell test used 2DG",
+      "S6 neutrophil viability/ROS/degranulation used conditioned medium from 2DG or LDH-knockdown cells",
+      "L-Moses PBMC tolerance belongs to another compound"
+    ],
+    "not_tested": [
+      "nonmalignant BUB1B-deficient cells",
+      "muscle function",
+      "chromosome segregation",
+      "constitutional developmental phenotype",
+      "detailed normal-organ function/systemic toxicity",
+      "BSP direct immune-cell selectivity"
+    ]
+  },
+  "BUB1B_connection": {
+    "in_primary": "discussion citation to Li2024, not a reported BSP BUB1B endpoint",
+    "traced_reference": {
+      "pmid": "38711083",
+      "doi": "10.1186/s12943-024-02008-9",
+      "read_depth": "targeted full-text results/methods/legends only",
+      "finding": "H3K18la promotes TTK/BUB1B transcription in PDAC; glycolysis inhibitors/genetic manipulations reduce the pathway",
+      "bromosporine_treatment_present": false
+    },
+    "directional_interpretation": "possible cancer suppression connection, not demonstrated BUBR1 restoration",
+    "normal_tissue_BUBR1_effect": "unknown; not proven harmful or beneficial by these data"
+  },
+  "pending_gaps": [
+    "exact assay basis of later PCAF IC50 2.10 uM",
+    "PDAC PCAF catalytic/selective compound mechanism",
+    "Figure5E sampling and nine-values/three-mice aggregation",
+    "S8R five source values despite n6 caption",
+    "cell exposure duration and injected vehicle formulation",
+    "monotherapy schedule alignment",
+    "formal interaction/synergy evidence",
+    "normal BUB1B-deficient tissue, exposure and functional-preservation evidence"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12996564/fullTextXML",
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12996564/fullTextXML",
+      "content_type": "application/xml",
+      "file": "zhang2026.xml",
+      "bytes": 169781,
+      "sha256": "bb0d67ce52df8d4e6b4e896d6497b0f3489fd14eb3ef3d74ff0cb9439de643a6",
+      "reading_depth": "primary full text: results, discussion and relevant methods/legends reviewed"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-026-69311-5",
+      "final_url": "https://www.nature.com/articles/s41467-026-69311-5?error=cookies_not_supported&code=a52dd068-f93e-4085-a417-52ca4f36b92f",
+      "content_type": "text/html; charset=utf-8",
+      "file": "zhang2026.html",
+      "bytes": 575630,
+      "sha256": "eefd00b3e6c169ef30c34fc96e4f5e269e0f27d4608f5801a35b3013764acd10",
+      "reading_depth": "official main HTML corroboration"
+    },
+    {
+      "url": "https://www.thesgc.org/chemical-probes/bromosporine-bsp",
+      "final_url": "https://www.thesgc.org/chemical-probes/bromosporine-bsp",
+      "content_type": "text/html; charset=UTF-8",
+      "file": "sgc_bromosporine.html",
+      "bytes": 67650,
+      "sha256": "7c7a7f57211eebfae22278f57ae22225813d3cec3d8641362aa1fda98a4e1e47",
+      "reading_depth": "official full identity/selectivity page reviewed"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27757418%20AND%20SRC:MED&format=xml",
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27757418%20AND%20SRC:MED&format=xml",
+      "content_type": "application/xml",
+      "file": "probe_pubmed.xml",
+      "bytes": 2036,
+      "sha256": "bbc9d86a40f0ffd45e19b92d716a8db47a2c317ff12b84315767adbe93708a8a",
+      "reading_depth": "metadata locator only"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5412877/fullTextXML",
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5412877/fullTextXML",
+      "content_type": "application/xml",
+      "file": "moustakim2017.xml",
+      "bytes": 86905,
+      "sha256": "b3387572bccda3796b6aaca65825de7b3316f9eebfa9cbdf3e8ab66aca567aaf",
+      "reading_depth": "targeted primary domain-architecture and bromosporine/L-Moses distinction"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-026-69311-5.pdf",
+      "final_url": "https://www.nature.com/articles/s41467-026-69311-5.pdf?error=cookies_not_supported&code=b0797860-4270-4229-944e-a9ea47bfe93d",
+      "content_type": "application/pdf",
+      "file": "zhang2026_main.pdf",
+      "bytes": 4855376,
+      "sha256": "1249adf3ef3603aa7df8f06c9ca45e4da46e032e614a4176a09856b642e180be",
+      "reading_depth": "primary PDF acquired, extracted; Figure4/5 visual review uses publisher PNGs"
+    },
+    {
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-69311-5/MediaObjects/41467_2026_69311_MOESM2_ESM.pdf",
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-69311-5/MediaObjects/41467_2026_69311_MOESM2_ESM.pdf",
+      "content_type": "application/pdf",
+      "file": "zhang2026_supp.pdf",
+      "bytes": 5594615,
+      "sha256": "95d9a423d8b0c99e9377cec1fde457cc8d65592bf81bec73d8f8982014455f4f",
+      "reading_depth": "all 16 pages text read; S7/S8/S10 images visually reviewed"
+    },
+    {
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-69311-5/MediaObjects/41467_2026_69311_MOESM1_ESM.pdf",
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-69311-5/MediaObjects/41467_2026_69311_MOESM1_ESM.pdf",
+      "content_type": "application/pdf",
+      "file": "zhang2026_reporting.pdf",
+      "bytes": 4791158,
+      "sha256": "0653787bd2fdf2e7e4dbecf382273c90c8b9a49f86f8ba5d4f0deee2c5f509d5",
+      "reading_depth": "pp2-3 visually reviewed; no reliable text layer"
+    },
+    {
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-69311-5/MediaObjects/41467_2026_69311_MOESM3_ESM.pdf",
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-69311-5/MediaObjects/41467_2026_69311_MOESM3_ESM.pdf",
+      "content_type": "application/pdf",
+      "file": "zhang2026_peer_review.pdf",
+      "bytes": 345852,
+      "sha256": "2ee52ea376a106e5e15fe32838e69f13dd825835a5f5fd467a9040b31b344e9f",
+      "reading_depth": "targeted text review: PCAF, immune cells and schedule"
+    },
+    {
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-69311-5/MediaObjects/41467_2026_69311_MOESM4_ESM.xlsx",
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-69311-5/MediaObjects/41467_2026_69311_MOESM4_ESM.xlsx",
+      "content_type": "application/octet-stream",
+      "file": "zhang2026_source.xlsx",
+      "bytes": 14353832,
+      "sha256": "8d34e4882ebaf5aa6648ac453f114ff62f5efc5081159367168672eff193f2ef",
+      "reading_depth": "selected Figure4/5/S8/S10 labels and values reviewed read-only; no inferential reanalysis"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5061470/fullTextXML",
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5061470/fullTextXML",
+      "content_type": "application/xml",
+      "file": "picaud2016.xml",
+      "bytes": 234629,
+      "sha256": "220b6fc05001521dee111db63cec70dd219716357bc850db238560ae1120c58d",
+      "reading_depth": "primary biochemical/selectivity and cellular engagement review; Table1 checked"
+    },
+    {
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-69311-5/MediaObjects/41467_2026_69311_Fig4_HTML.png",
+      "final_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-69311-5/MediaObjects/41467_2026_69311_Fig4_HTML.png",
+      "content_type": "image/png",
+      "file": "zhang2026_fig4.png",
+      "bytes": 1503687,
+      "sha256": "61fefd22ac8e74d9cb8073d9197a849d1ad95800f74107e98a93d5ad858a2507",
+      "reading_depth": "visually reviewed all panels"
+    },
+    {
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-69311-5/MediaObjects/41467_2026_69311_Fig5_HTML.png",
+      "final_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-69311-5/MediaObjects/41467_2026_69311_Fig5_HTML.png",
+      "content_type": "image/png",
+      "file": "zhang2026_fig5.png",
+      "bytes": 1284735,
+      "sha256": "17ed033de483e2d1cdcb69802b63818f9f1262ea353f5ac9b9f7ee3a2861ea98",
+      "reading_depth": "visually reviewed all panels"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5061470/supplementaryFiles",
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5061470/supplementaryFiles",
+      "content_type": "application/zip",
+      "file": "picaud2016_supp.zip",
+      "bytes": 5576948,
+      "sha256": "5f8cc1d207f5796b0138fe44615ef552b861158db1603ff320a0561b6da24d13",
+      "reading_depth": "official Europe PMC supplement/image bundle; selected material inspected"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11071201/fullTextXML",
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11071201/fullTextXML",
+      "content_type": "application/xml",
+      "file": "li2024.xml",
+      "bytes": 158969,
+      "sha256": "f6c067971bdf84f22cee808dae63781913269e105b9411ccf7702f91a532e801",
+      "reading_depth": "targeted citation-trace reading of BUB1B intervention results/legends; no figure/supplement completion credit"
+    },
+    {
+      "file": "bioxcell_BE0146.pdf",
+      "url": "https://bioxcell.com/pub/media/tds/BE0146-TDS.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "reading_depth": "direct download failed; official indexed manufacturer excerpt separately retained"
+    },
+    {
+      "file": "bioxcell_BE0089.pdf",
+      "url": "https://bioxcell.com/pub/media/tds/BE0089-TDS.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "reading_depth": "direct download failed; official indexed manufacturer excerpt separately retained"
+    },
+    {
+      "file": "mce_bromosporine.html",
+      "url": "https://www.medchemexpress.com/Bromosporine.html",
+      "error": "HTTP Error 403: Forbidden",
+      "reading_depth": "direct download failed; official indexed manufacturer excerpt separately retained"
+    }
+  ],
+  "web_only_sources": [
+    {
+      "url": "https://bioxcell.com/pub/media/tds/BE0146-TDS.pdf",
+      "access": "official indexed extract; direct403"
+    },
+    {
+      "url": "https://bioxcell.com/pub/media/tds/BE0089-TDS.pdf",
+      "access": "official indexed extract; direct403"
+    },
+    {
+      "url": "https://www.medchemexpress.com/Bromosporine.html",
+      "access": "official indexed extract; direct403"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0968089621002741",
+      "access": "indexed abstract/introduction; direct403; no full-text credit"
+    }
+  ],
+  "asset_manifest": [
+    {
+      "path": "external-sources/bromosporine/raw/1600760-F1.jpg",
+      "sha256": "e5e45a31f4bb70f216de7614b24e981f455e585a0548bf0e5a0b44b5cdffc6b9",
+      "bytes": 67245,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/1600760-F2.jpg",
+      "sha256": "f1040fe1ddecaa22dba933ed5ab7a8479b5dcfcec2c920b053fae2b3e52d404a",
+      "bytes": 78305,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/1600760_SM.pdf",
+      "sha256": "b7949e6ec2a0674c62d4f25c5c4ffd10ad7e3c97d1ffa2aabd14426ec716b499",
+      "bytes": 5421666,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/1600760_SM.txt",
+      "sha256": "76e9f1047fd82446678fc762ff3b574d8619de525de2f1f34ed55cc340e4cde9",
+      "bytes": 36094,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/Figure 4_cells.json",
+      "sha256": "d8246edb999c21c8d6ab3f97778b280f3213d0c0d54a320a1fa91a36ffe93aa6",
+      "bytes": 4876,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/Figure 5_cells.json",
+      "sha256": "d2424b4f5862a9e9cda400a6cc30a84e8be64509bc6df8c35da4ccb79fd1963b",
+      "bytes": 15121,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/Figure S10_cells.json",
+      "sha256": "40b624d2fba6869f3eb4977e133120145adc3aee1105c21c7d4ca43add74ebcf",
+      "bytes": 6771,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/Figure S8_cells.json",
+      "sha256": "f3c2ab2086e264e156b49f3976e37b9a6e9ba3fe17a80ad62c0ac52d6321f231",
+      "bytes": 9468,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/auxiliary_web_excerpt.txt",
+      "sha256": "2945e3461bee7a6c58780ea7763ea1e17b026743211217a34e5fc5f92ee9c7d5",
+      "bytes": 30105,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/li2024.txt",
+      "sha256": "56fb04f21fd6f59dd9f23c6d7c7e1c144bf5afd366524fb42f5d905895d19732",
+      "bytes": 86079,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/li2024.xml",
+      "sha256": "f6c067971bdf84f22cee808dae63781913269e105b9411ccf7702f91a532e801",
+      "bytes": 158969,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/moustakim2017.txt",
+      "sha256": "283a3cd447aa2c5bd8fd54c7be2af6c4967dda8d0affd746557e5930c2dcb139",
+      "bytes": 23126,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/moustakim2017.xml",
+      "sha256": "b3387572bccda3796b6aaca65825de7b3316f9eebfa9cbdf3e8ab66aca567aaf",
+      "bytes": 86905,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/picaud2016.txt",
+      "sha256": "428e4a62fb42f5b369cdaa64f65d75dc58426569fc4b3c701e0a34f10f31de69",
+      "bytes": 82494,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/picaud2016.xml",
+      "sha256": "220b6fc05001521dee111db63cec70dd219716357bc850db238560ae1120c58d",
+      "bytes": 234629,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/picaud2016_supp.zip",
+      "sha256": "5f8cc1d207f5796b0138fe44615ef552b861158db1603ff320a0561b6da24d13",
+      "bytes": 5576948,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/picaud_supp-04.png",
+      "sha256": "32c33d25efbd93f168c3b91265fd9f9b859ba87411a50f578268f4167b74db1a",
+      "bytes": 38772,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/picaud_supp-05.png",
+      "sha256": "f5dff2d33f4abec4912324b29bba3618cedd98ad9f2fd9e9b2a3009a8e42f3c7",
+      "bytes": 712873,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/picaud_supp-06.png",
+      "sha256": "2017c9f3e945ebc79fc455e3901df8d5052e0df8f4b3179e5b3b13cb995a31cf",
+      "bytes": 167960,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/probe_pubmed.xml",
+      "sha256": "bbc9d86a40f0ffd45e19b92d716a8db47a2c317ff12b84315767adbe93708a8a",
+      "bytes": 2036,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/reporting_p02.png",
+      "sha256": "d439837bd523784c37b9f422d428feedd418a43a1fb1c11af8ad379c137b10d9",
+      "bytes": 366786,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/reporting_p03.png",
+      "sha256": "aa79a0ee2e391c7ad21a656b283151c5c94fd5b4f737a46f7c726c3f8cf04cc6",
+      "bytes": 361348,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/retrieval.json",
+      "sha256": "6f695c8a6fa00d4ef1290ff4df6aec808453e2b5da7151884219fb235c5479c2",
+      "bytes": 6840,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/selected_descriptive_data.json",
+      "sha256": "cd32ed362f74c0e128dd9c189ccbc0a265cd8177ba6c7ba0fe69b13f4c923a94",
+      "bytes": 2711,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/sgc_bromosporine.html",
+      "sha256": "7c7a7f57211eebfae22278f57ae22225813d3cec3d8641362aa1fda98a4e1e47",
+      "bytes": 67650,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/sgc_bromosporine.txt",
+      "sha256": "4a1185336609c7eb30565d564b59697e6d7b673c777bd7070193ac224b08b67c",
+      "bytes": 16842,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/supp_p08.png",
+      "sha256": "307e022f3310bdead62c905143b55918411434cf0fe91caa04e65c2ec7bbe9f2",
+      "bytes": 794646,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/supp_p09.png",
+      "sha256": "80cfbfb290056eb4370e42ddd329b1b5b964f11c299672a20730abb43efd6da9",
+      "bytes": 756601,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/supp_p11.png",
+      "sha256": "0c9f3f9d0ae57db7ded9d53eb5b6c5f3a5542fd413d6f7706b572327d3752391",
+      "bytes": 833977,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026.html",
+      "sha256": "eefd00b3e6c169ef30c34fc96e4f5e269e0f27d4608f5801a35b3013764acd10",
+      "bytes": 575630,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026.txt",
+      "sha256": "ac964bf55aee44b8b65c3a321218b2e4de541e9870c6d1cb91efc4bc507be279",
+      "bytes": 99106,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026.xml",
+      "sha256": "bb0d67ce52df8d4e6b4e896d6497b0f3489fd14eb3ef3d74ff0cb9439de643a6",
+      "bytes": 169781,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026_fig4.png",
+      "sha256": "61fefd22ac8e74d9cb8073d9197a849d1ad95800f74107e98a93d5ad858a2507",
+      "bytes": 1503687,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026_fig5.png",
+      "sha256": "17ed033de483e2d1cdcb69802b63818f9f1262ea353f5ac9b9f7ee3a2861ea98",
+      "bytes": 1284735,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026_main.pdf",
+      "sha256": "1249adf3ef3603aa7df8f06c9ca45e4da46e032e614a4176a09856b642e180be",
+      "bytes": 4855376,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026_main.txt",
+      "sha256": "c4faaf823ec8a867a9fcefc5436d064154f661266c01a4298c46431e41ccd72a",
+      "bytes": 107065,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026_peer_review.pdf",
+      "sha256": "2ee52ea376a106e5e15fe32838e69f13dd825835a5f5fd467a9040b31b344e9f",
+      "bytes": 345852,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026_peer_review.txt",
+      "sha256": "f41d31e9e7487250f1e2616de8fc0bb884006a4a11b72847b8c5cb9b4c68c67b",
+      "bytes": 44162,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026_reporting.pdf",
+      "sha256": "0653787bd2fdf2e7e4dbecf382273c90c8b9a49f86f8ba5d4f0deee2c5f509d5",
+      "bytes": 4791158,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026_reporting.txt",
+      "sha256": "f28d25acf142495db293b06644b91adb69f02f26f3a85e9c040156340aa7534d",
+      "bytes": 48,
+      "kind": "derived_or_web_excerpt"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026_source.xlsx",
+      "sha256": "8d34e4882ebaf5aa6648ac453f114ff62f5efc5081159367168672eff193f2ef",
+      "bytes": 14353832,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026_supp.pdf",
+      "sha256": "95d9a423d8b0c99e9377cec1fde457cc8d65592bf81bec73d8f8982014455f4f",
+      "bytes": 5594615,
+      "kind": "source_download"
+    },
+    {
+      "path": "external-sources/bromosporine/raw/zhang2026_supp.txt",
+      "sha256": "01da73599dca113291a3670566e785e1a035a24cb1458b27243985839c83463d",
+      "bytes": 18617,
+      "kind": "derived_or_web_excerpt"
+    }
+  ],
+  "read_depth_not_exhaustive": [
+    "unrelated main figure images",
+    "all embedded source blot images",
+    "entire Picaud supplement transcriptomics",
+    "Li2024 figures/supplements",
+    "2021 PCAF assay methods"
+  ],
+  "integration": {
+    "review_type": "Delegated primary-source qualification; parent synthesis and selected source checks. Not a clean-state review of the whole proposal.",
+    "extra_outer_abstract_credit": 0,
+    "biological_replication": false,
+    "external_asset_root": "sgc-followup-20260923/bromosporine",
+    "parent_baseline": "725447082e515c090c2139c89b23a398e4f25079"
+  }
+}

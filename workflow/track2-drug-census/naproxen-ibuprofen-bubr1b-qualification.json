@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "qualification": "ADVERSE_DIRECTION_EXPOSURE_COMPARATORS_NOT_MVA_EFFICACY",
+  "review_date": "2026-09-28",
+  "source": {
+    "title": "Naproxen and Ibuprofen Exposure Alter the Blood-Testis Barrier in a Novel In Vitro Model",
+    "pmid": "41977223",
+    "pmcid": "PMC13072845",
+    "doi": "10.3390/ijms27073033",
+    "article_xml_sha256": "715529790cff3c2e2bcfc83e16febf3142e099bdeb3ab8e77251718e92bc4a31",
+    "supplementary_archive_sha256": "41a21aea89a7e8dbe0bf26a32c4a571574e2b2c5b8c1a4547d60f76d14d261d6",
+    "supplemental_workbook_sha256": "4dfb29bdd95e7e2c3ada041b7d931b3ea2bb1485f799d7b23c6e9710044fcdee",
+    "rna_seq_bioproject": "PRJNA1241271"
+  },
+  "model": "Primary rhesus-macaque Sertoli cells; three biological replicates per RNA-seq condition.",
+  "study_design": {
+    "naproxen_um": [4, 40, 400],
+    "ibuprofen_um": [1, 10, 100],
+    "rna_seq_exposure": "Daily exposure in the study's five-day cell protocol, with a 24-hour pretreatment before seeding.",
+    "differential_expression_threshold": "Adjusted p < 0.01 and fold change > 1.5 in either direction, as described by the authors.",
+    "notes": [
+      "Authors describe the highest naproxen and ibuprofen concentrations as exceeding typical human plasma concentrations.",
+      "Lower-dose expression profiles were described as broadly similar to their vehicle controls.",
+      "Main text reports 142 DEGs at 400 uM naproxen, while the Figure 2 legend reports 158; this count conflict is preserved."
+    ]
+  },
+  "measurements": [
+    {
+      "compound": "naproxen",
+      "dose_um": 400,
+      "supplement": "Data File S1",
+      "bubr1b_effect_column": -0.681759466,
+      "p_value": 5.26e-8,
+      "adjusted_p_value": 6.08e-6,
+      "interpretation": "Lower BUB1B transcript signal in this condition; the visible source spreadsheet does not label its effect column, so it is not relabeled as a fold change here."
+    },
+    {
+      "compound": "ibuprofen",
+      "dose_um": 100,
+      "supplement": "Data File S4",
+      "bubr1b_effect_column": -1.0040105,
+      "p_value": 2.21e-10,
+      "adjusted_p_value": 2.89e-8,
+      "interpretation": "Lower BUB1B transcript signal in this condition; the visible source spreadsheet does not label its effect column, so it is not relabeled as a fold change here."
+    }
+  ],
+  "not_measured": [
+    "BUBR1 protein abundance",
+    "BUBR1 checkpoint function",
+    "chromosome segregation or aneuploidy",
+    "skeletal muscle output",
+    "MVA or either nominated BUB1B variant",
+    "ordinary consumer exposure or a patient-level effect"
+  ],
+  "decision": "Direction is opposite to BUB1B restoration at the highest tested concentrations. Retain as an adverse-direction, tissue-specific mechanistic comparator; decline as a treatment lead. Do not infer ordinary-use harm or medical-use advice.",
+  "cpdat_v4_1_identity": {
+    "ibuprofen": {
+      "dtxsid": "DTXSID5020732",
+      "product_categories": ["Food and drug"],
+      "composition_rows": 2
+    },
+    "naproxen_sodium": {
+      "dtxsid": "DTXSID7045576",
+      "product_categories": ["Food and drug"],
+      "composition_rows": 6,
+      "identity_caveat": "This CPDat salt-form record is kept separate from the study's naproxen preparation."
+    }
+  },
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13072845/",
+    "https://pubmed.ncbi.nlm.nih.gov/41977223/",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13072845/supplementaryFiles",
+    "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1241271",
+    "https://comptox.epa.gov/chemexpo/"
+  ]
+}

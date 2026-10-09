@@ -1,0 +1,290 @@
+{
+  "schema": "bounded-primary-qualification-v1",
+  "date": "2026-09-23",
+  "reviewer": "/root/ms023_primary",
+  "source": {
+    "id": "22280307",
+    "source": "MED",
+    "pmid": "22280307",
+    "pmcid": "PMC3296673",
+    "doi": "10.1186/1471-2407-12-44",
+    "title": "Anaphase-promoting complex/cyclosome protein Cdc27 is a target for curcumin-induced cell cycle arrest and apoptosis.",
+    "firstPublicationDate": "2012-01-26",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "publicationStatus": "epublish",
+    "commentCorrectionList": null,
+    "versionList": null,
+    "versionNumber": null,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3296673/",
+    "metadata_sha256": "c2ef1fbeff016a8ae7cecc4ce86ddf8a1fcd1f739262f28c47143e3c2a5e92b8",
+    "primary_xml_sha256": "1ab82a850e4092a4d16e537b2b4d05a9d8b7f103da6a51492b404d7f4364c37b",
+    "status_limit": "No correction/retraction/version relation present in this saved Europe PMC result; not a complete integrity assessment."
+  },
+  "identity": {
+    "compound": "Curcumin",
+    "supplier": "Sigma-Aldrich, per Methods",
+    "preparation": "Laboratory curcumin reagent; no delivery formulation specified. Not Gemini-Cur, turmeric extract or an oral supplement.",
+    "missing": [
+      "Purity and lot/catalog identifier",
+      "Measured cell-medium concentration or free fraction",
+      "Human or tumor pharmacokinetics",
+      "Oral product equivalence"
+    ],
+    "separate_control": {
+      "name": "Dehydrozingerone",
+      "source_names": [
+        "half-curcumin",
+        "4-(4-hydroxy-3-methoxyphenyl)-3-buten-2-one",
+        "DHZ"
+      ],
+      "supplier": "Sigma-Aldrich",
+      "role": "Actually administered structural comparator in Figure 3B/C; not an untested target-derived name."
+    },
+    "overlap_check": {
+      "exact_primary_already_qualified": false,
+      "prior_exact_abstract": "outer-revalidation-batch15-review.json n52 and batch15-revalidation-findings.md",
+      "existing_curcumin_appraisal": "new-gemini-cur concerns mPEG urethane gemini surfactant nanoparticles in HCT116, DOI10.3390/molecules27113470; not this reagent or study.",
+      "separate_oocyte_context": "oocyte-metabolism-qualification.md reports curcumin with no apparent GVBD/polar-body effect in another source; no new primary reading of that experiment here.",
+      "new_abstract_credit": 0
+    }
+  },
+  "models": {
+    "main": "DAOY medulloblastoma cells, cultured in MEM with 10% FBS, glutamine and penicillin/streptomycin; source states all lines obtained from ATCC.",
+    "Figure4A_expression_panel": [
+      "DAOY",
+      "NT2",
+      "D283 Med",
+      "D341 Med",
+      "HCT116",
+      "HT1376",
+      "RT4",
+      "MDCK"
+    ],
+    "Figure4C_D_function_panel": [
+      "DAOY",
+      "HCT116",
+      "RT4",
+      "NT2",
+      "HT1376",
+      "MDCK"
+    ],
+    "normal_cell_limit": "MDCK is an established canine kidney-derived epithelial line, not primary normal human tissue. Official ATCC MDCK identity supports lineage only; the paper gives no exact catalog/subclone authentication. HT1376 is a relatively resistant bladder-cancer comparator, not a normal cell.",
+    "normal_identity_url": "https://www.atcc.org/products/ccl-34",
+    "unexplained_native_label": "Figure 4B contains an HBEC blot block not listed in the caption A panel and not defined in the Methods. It is not part of Figure 4C/D six-line cytotoxicity/apoptosis comparison; no normal-human safety or functional benefit is assigned.",
+    "animals": "Supplementary Figure S1 compares Cdc27 protein in corn-oil-control versus curcumin-treated Smo/Smo medulloblastoma tumor specimens treated under a previously described regimen; exact individual-specimen overlap is unproven. Three labeled lanes per arm; independent animal n is not established by lane count."
+  },
+  "experiments": [
+    {
+      "locator": "Figure 1A / Table S1",
+      "model": "DAOY, double-thymidine synchronization (2 mM for 18 h, release 9 h, 2 mM for 18 h)",
+      "exposure": "Release with 0, 10 or 20 µM curcumin; 0, 4, 8, 12, 16, 20 h",
+      "control": "No-curcumin release; only about 48% G0/G1 initially",
+      "outcome": "Delayed cycle progression/reentry; no sub-G0/G1 fraction detected over this interval despite delay.",
+      "limit": "Incomplete synchronization; no division-fidelity outcome. See Table S1 prose discrepancy."
+    },
+    {
+      "locator": "Figure 1B / Table S2",
+      "model": "DAOY, thymidine 2 mM for 24 h, release 3 h, nocodazole 100 nM for 12 h",
+      "exposure": "After washout, DMSO or 10/20 µM curcumin for 0–10 h, sampled every 2 h",
+      "control": "DMSO release; initial G2/M 70.15%",
+      "outcome": "Delayed G2/M exit and increased sub-G0/G1. At 10 h, 20 µM G2/M 48.95 ± 10.95%; sub-G0/G1 11.67 ± 6.07% versus 5.52 ± 0.38% control.",
+      "limit": "Reported 69.8% remaining is normalized to initial G2/M, not 69.8% of all cells; DNA content cannot separate G2 from M or identify the same cells."
+    },
+    {
+      "locator": "Figure 1C",
+      "model": "DAOY unsynchronized, G1/S release and G1/S release 8 h before drug addition",
+      "exposure": "0, 5, 10, 20 µM curcumin for 12 h",
+      "control": "Matched no-drug and cell-cycle-schedule comparisons",
+      "outcome": "Higher LDH release in cells exposed after the 8-hour release; authors describe about threefold higher cytotoxicity at 20 µM than the other schedules.",
+      "limit": "This G2/M-scheduled LDH arm is not the thymidine/nocodazole protocol; no mitotic lineage tracking. Figure states three independent experiments, SEM."
+    },
+    {
+      "locator": "Figure 2",
+      "model": "DAOY lysate immunoblots",
+      "exposure": "Figure 2A: 0, 5, 10, 15, 20 µM for 12 h; 2B: 0, 5, 10, 20 µM; 2C: 0, 6, 12, 24 h (concentration not labeled in its caption/image)",
+      "control": "Loading controls and other cell-cycle/APC proteins",
+      "outcome": "Cdc27 higher-molecular-weight bands increase with concentration/time; APC2, p55Cdc20, cyclin A/E expression not noticeably changed in 2A; APC7/8 do not show analogous crosslinked bands.",
+      "limit": "Long/short exposure panels are the same blot where stated; no molecular identification of a covalent linkage."
+    },
+    {
+      "locator": "Figure 3A",
+      "model": "DAOY lysate affinity capture",
+      "exposure": "Curcumin covalently immobilized on epoxy-Sepharose; 500 µg lysate + 20 µl beads, 3 h at 4°C",
+      "control": "Matched beads without curcumin; two curcumin-bead preparations; BubR1 nonspecific-binding control immunoblot",
+      "outcome": "Cdc27 recovered, preferentially the higher/phosphorylated band.",
+      "limit": "Lysate affinity capture, not purified-protein affinity, direct-contact or covalent-site measurement; complex co-capture not excluded. BubR1 was assayed as a binding control, not restored or functionally rescued."
+    },
+    {
+      "locator": "Figure 3B/C",
+      "model": "DAOY",
+      "exposure": "3B: curcumin 20 µM versus DHZ 40 µM for 3, 6, 9, 24 h; 3C: each compound 0, 5, 10, 20 µM for 16 h",
+      "control": "DHZ structural comparator, no-drug control and GAPDH loading",
+      "outcome": "Curcumin induces high-MW Cdc27 bands and dose-dependent LDH release; DHZ lacks the analogous band shift and has little LDH increase. Native graph at 20 µM is approximately 47% curcumin versus 9–10% DHZ cytotoxicity, compared with approximately 7–8% baseline.",
+      "limit": "Graph values are visual approximations, not raw data. Three independent experiments/SEM for LDH. Neither general DHZ inactivity nor DHZ safety or MVA benefit follows."
+    },
+    {
+      "locator": "Figure 4 / Supplementary Figures S2–S4",
+      "model": "Expression and six-line function panels as listed",
+      "exposure": "4C: 0, 5, 10, 20 µM for 24 h; 4B/D and S4: 20 µM at 0, 4, 8, 24 h; S3 cycle release: 0, 10, 20 µM up to 10 h",
+      "control": "Low-phospho-Cdc27 MDCK/HT1376 compared with more responsive lines; phosphatase supports upper-band phosphorylation; loading controls",
+      "outcome": "Differential LDH and PARP/caspase responses; DAOY and NT2 strongly responsive, MDCK/HT1376 much weaker. NT2 mitotic-exit delay contrasts with comparatively unchanged MDCK profiles. Acetylated-tubulin increase also tracks responsive lines.",
+      "limit": "Correlation across lines is not Cdc27 phosphorylation necessity or a validated predictive biomarker. No normal-cell equivalence or safety claim, and no normal-cell functional rescue."
+    },
+    {
+      "locator": "Figure 5A/B",
+      "model": "DAOY after thymidine/nocodazole block",
+      "exposure": "0, 20, 40 µM curcumin following release; A 0.5–4 h, B 2/4 h",
+      "control": "Untreated release and loading controls",
+      "outcome": "Cyclin B1/securin persist; APC2, p55Cdc20 and cyclin D1 do not show analogous changes.",
+      "limit": "Substrate persistence supports altered APC/C function but is not selective target proof."
+    },
+    {
+      "locator": "Figure 5C",
+      "model": "DAOY Cdc27 immunoprecipitation",
+      "exposure": "0, 10, 20, 40 µM for 8 h; caption says double-thymidine arrest",
+      "control": "Total-lysate/loading and APC2/APC8 association controls",
+      "outcome": "Reduced Cdc27–p55Cdc20 association while APC2/APC8 association persists; Cdh1 not detected under these conditions.",
+      "limit": "Results prose refers to G2/M release, whereas caption specifies double-thymidine preparation; preserve this preparation mismatch."
+    },
+    {
+      "locator": "Figure 5D / Methods in vitro APC assay",
+      "model": "Lysate from treated DAOY cells, not purified APC/C",
+      "exposure": "Mitotic release in DMSO or 20/40 µM curcumin for 1/2 h; assay adds UbcH10, ubiquitin, radiolabeled cyclin B1 N1–102, ATPγS and MG132",
+      "control": "DMSO lysate, reaction time and ubiquitinated-substrate signal",
+      "outcome": "Reduced cyclin-fragment ubiquitination in the 2-hour drug-treated lysates versus increasing control activity.",
+      "limit": "No purified direct-inhibitor IC50, free-drug-carryover separation or Cdc27-resistant rescue. MG132 and 35S-methionine are assay reagents here."
+    },
+    {
+      "locator": "Supplementary Figure S1 / prior-work paragraph",
+      "model": "Smo/Smo medulloblastoma tumor specimens linked to the earlier treatment report; exact individual-specimen overlap unproven",
+      "exposure": "Curcumin versus corn-oil control; current paper does not restate dose, schedule or route",
+      "control": "Corn-oil specimens, tubulin loading",
+      "outcome": "Authors report lower tumor Cdc27; high-MW crosslinked species not detected in vivo.",
+      "limit": "Qualitative linked tumor-protein comparison, not a new tumor-growth/survival or PK experiment. The original2011 benefits are now separately qualified in curcumin-animal-qualification.md; exact specimen overlap is not documented."
+    }
+  ],
+  "strongest_positive": "Ordinary curcumin causes dose- and cell-cycle-dependent DAOY cytotoxicity, delayed mitotic exit and apoptosis-related changes, accompanied by Cdc27 affinity recovery/high-MW bands, reduced Cdc20 association and lower treated-lysate cyclin-fragment ubiquitination. These are real cell and biochemical results; exclusive Cdc27 causality is unproved.",
+  "important_nulls": [
+    "No detected sub-G0/G1 in the double-thymidine release interval despite cycle delay",
+    "Weak response of MDCK and cancer line HT1376 under tested exposure",
+    "DHZ little LDH increase/no analogous high-MW Cdc27 band under specified assays",
+    "No in-vivo crosslinked Cdc27 species detected",
+    "Other APC-component association/expression controls relatively preserved as specified",
+    "Cdh1 not detected in the Figure 5C IP conditions"
+  ],
+  "target_attribution": "The data support a Cdc27/APC/C-associated mechanism; they do not establish purified direct binding, a mapped covalent Cdc27 site, selective Cdc27 inhibition, necessity/sufficiency or a clinically validated phospho-Cdc27 response biomarker.",
+  "BUB1B_relevance": {
+    "measured": "BubR1 immunoblot included in Figure 3A as nonspecific affinity-binding control.",
+    "not_measured": [
+      "BUB1B transcript or total-protein restoration",
+      "BUBR1-dependent rescue",
+      "Leu737Ter/Asn1002Lys MVA cells or animal model",
+      "Chromosome segregation fidelity or aneuploidy rescue",
+      "Normal muscle output or other normal-tissue functional compensation"
+    ],
+    "mechanistic_context": "APC/C restraint is a concrete, testable timing hypothesis downstream of the spindle assembly checkpoint. This study demonstrates cell-cycle restraint and cancer-cell death, not restoration of checkpoint function, faithful division or healthy output."
+  },
+  "animal_exposure_scope": "Current study has linked mouse-tumor protein blots, no independent animal efficacy cohort or measured exposure. The2011 efficacy paper is now separately qualified; exact specimen reuse is unproven. No inference that food, turmeric or oral curcumin supplements attain the 10–40 µM experimental concentrations.",
+  "relative_priority": "Retain ordinary curcumin as a distinct cancer-cell/APC/C mechanism comparator and DHZ as a tested negative comparator. This source supplies neither BUB1B restoration nor normal functional compensation to displace provisional niacin/apitegromab or the conditional everolimus probe; those nominees also remain unproved for MVA. No measured MVA harm is inferred from tumor-cell killing.",
+  "source_issues": [
+    "Table S2 prose percentages normalize to initial G2/M fraction rather than the full population.",
+    "Table S1 56.9% not-reentered wording is not reconciled with reported whole-culture phase percentages.",
+    "Figure 5C preparation differs between caption and surrounding Results wording.",
+    "HBEC appears only as an undefined extra Figure 4B blot block; not a six-line function-assay arm.",
+    "Current mouse blots reference earlier treatment; exact specimen overlap is unproven and lane count is not verified independent animal n."
+  ],
+  "bounded_followups": [
+    "The cited2011paper DOI10.1186/1471-2407-11-144 is now separately qualified; dose conflict, measured PK/safety absence and specimen overlap remain unresolved.",
+    "Resolving Cdc27 necessity, direct-contact chemistry or normal BUB1B-mutant functional effects requires experiments not reported here; these are gaps, not inferred benefits."
+  ],
+  "reading_evidence_file": "read-evidence.json",
+  "table_check_file": "table-value-check.json",
+  "repository_modified": true,
+  "automatic_outer_reading_credit": 0,
+  "new_primary_sources_qualified": 1,
+  "biological_replication": false,
+  "status": "integrated_bounded_source_qualification",
+  "integrated_by": "/root",
+  "source_md_sha256": "8dc15b4539e4a57e27ed3fd412353a1d17cc627e84aa633f9078c64b599fbd1c",
+  "original_draft_md_sha256": "23aa22d30186dbbba8cc642145a295fb0bc5f38ca4c700e0767a1c3aa4a137ff",
+  "integrated_appraisal_count_change": 2,
+  "root_read_scope": {
+    "complete_main_chunks": [
+      "28b65f",
+      "23dd2a",
+      "812c1c",
+      "075902"
+    ],
+    "native_main_figures": [
+      3,
+      4,
+      5
+    ],
+    "native_supplements": [
+      "TableS1 original resolution",
+      "TableS2 original resolution",
+      "FigureS1"
+    ],
+    "remaining_supplement_images_read": false,
+    "all_endmarkers_observed": true,
+    "source_precision": "Only genuine S1 prose and S2 reference-denominator limits retained; no false row-sum claim."
+  },
+  "asset_manifest": {
+    "file": "asset-manifest.json",
+    "sha256": "2bb8de1e3ebeca4b5d90f4ac6c918db2b74e27ca5f08791079a26ef400614c16"
+  },
+  "reading_manifest": {
+    "file": "read-evidence.json",
+    "sha256": "6c2ffce5a976d9cd9cb9fa2885ec55fce7683cc5328607014c751e492065a7d6"
+  },
+  "integrated_appraisals": [
+    {
+      "evidence_scope": "Complete 2012 scientific main/captions, all five native main figures and six supplementary TIFFs (two tables/four figures); source-specific limitations retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/curcumin-cdc27-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1186/1471-2407-12-44"
+      ],
+      "decision_id": "new-curcumin-cdc27",
+      "match_aliases": [
+        "curcumin",
+        "ordinary curcumin",
+        "unformulated curcumin"
+      ],
+      "route": "Ordinary curcumin / cancer-cell Cdc27–APC/C-associated arrest and apoptosis",
+      "disposition": "Retain experimental cancer-cell mechanism comparator; do not nominate as BUBR1 restoration or infer oral-supplement efficacy",
+      "rationale": "Laboratory curcumin at 10–40 µM delays DAOY cycle progression and, depending on schedule, increases cytotoxicity/apoptosis. Cdc27 affinity capture, high-MW bands, reduced Cdc20 association and lower treated-lysate cyclin-fragment ubiquitination support an APC/C-associated mechanism without purified direct binding, covalent-site or Cdc27-necessity proof. MDCK and HT1376 are less responsive under tested conditions, not broad normal-tissue safety evidence. BubR1 is an affinity-binding control, not restored. Linked mouse-tumor blots show lower Cdc27 but no detected crosslinked species; no new animal efficacy/PK or MVA function is established. Distinct from Gemini-Cur nanoparticles."
+    },
+    {
+      "evidence_scope": "Complete 2012 scientific main/captions, all five native main figures and six supplementary TIFFs (two tables/four figures); source-specific limitations retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/curcumin-cdc27-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.1186/1471-2407-12-44"
+      ],
+      "decision_id": "new-dehydrozingerone",
+      "match_aliases": [
+        "dehydrozingerone",
+        "half-curcumin",
+        "half curcumin"
+      ],
+      "route": "Dehydrozingerone / tested structural comparator in curcumin–Cdc27 study",
+      "disposition": "Retain dose-bounded negative experimental comparator; no general inactivity, safety or MVA-rescue claim",
+      "rationale": "In DAOY cells, half-curcumin/dehydrozingerone at 40 µM for 3–24 h lacks the analogous high-MW Cdc27 bands seen with 20 µM curcumin. In the separate equal-concentration 16-hour LDH assay (0–20 µM each), DHZ has little cytotoxicity increase while curcumin rises substantially. These actual null/weak responses constrain this assay only; they do not establish DHZ efficacy, human exposure, normal-cell safety or BUB1B/MVA rescue.",
+      "source_aliases_not_used_for_catalog_join": {
+        "DHZ": "Short source abbreviation; full compound names used for catalog joins."
+      }
+    }
+  ],
+  "animal_followup_correction": {
+    "baseline_revision": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
+    "primary": "curcumin-animal-qualification.md",
+    "scope": "Corrected unsupported exact-specimen-reuse wording after reading both papers. No new independent efficacy cohort or PK result is credited to2012."
+  }
+}

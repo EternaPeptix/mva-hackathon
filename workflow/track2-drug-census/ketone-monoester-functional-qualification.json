@@ -1,0 +1,970 @@
+{
+  "schema_version": "1.0",
+  "status": "SOURCE_QUALIFIED_WITH_EXPLICIT_PARTIAL_READING",
+  "assembled_at_utc": "2026-09-27T07:26:22.044746+00:00",
+  "candidate_id": "new-ketone-monoester-function",
+  "qualification": "Retain a preparation- and context-specific exploratory muscle-performance comparator. Controlled positives and decrements coexist; no BUBR1 restoration, MVA efficacy or head-to-head superiority is established.",
+  "identity": {
+    "exact_alias": "(R)-3-hydroxybutyl (R)-3-hydroxybutyrate",
+    "same_molecule_not_same_intervention": "Preserve manufacturer, coingredients, nutritional comparator, exercise state and timing in each trial. The current older-muscle registry does not independently verify the final administered product.",
+    "excluded_equivalences": [
+      "Beta-hydroxybutyrate salts and their counterions/enantiomer mixtures",
+      "Acetoacetate monoester/diester mixtures",
+      "Free R,S-1,3-butanediol",
+      "Ketogenic diets",
+      "Unspecified retail ketone products"
+    ],
+    "regimen_boundary": "Study exposures are source descriptors, not a proposed pediatric or MVA regimen."
+  },
+  "studies": [
+    {
+      "id": "robberechts2026",
+      "pmid": "41757674",
+      "doi": "10.1113/JP290315",
+      "url": "https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP290315",
+      "source_version": "20-page Early View publisher PDF; Creative Commons Attribution notice and DOI verified; obtained from a public mirror, checked against publisher HTML.",
+      "design": {
+        "type": "Pair-matched randomized, double-blind, parallel-group training comparison",
+        "included": 30,
+        "registry_actual_enrollment": 30,
+        "completed_analyzed": 28,
+        "analyzed_per_arm": 14,
+        "dropouts": "One participant from each arm did not complete because of illness during the experimental period.",
+        "randomized_count": "30 total / 15 per arm is supported by the entered count, randomization description and one post-allocation withdrawal per group; this is a reconstruction, not a separately displayed allocation-flow denominator. Do not label 28 as the number originally randomized.",
+        "analysis_population": "Completers; no intention-to-treat sensitivity analysis identified.",
+        "population": "Trained young men, eligibility 18–35 years, regular cycling, VO2peak screening >50 mL/kg/min; no chronic-weakness cohort.",
+        "allocation": "Pair-matched on familiarized TT performance, split by researcher not conducting experimental measurements; exact sequence-generation/concealment details limited.",
+        "blinding": "Nontransparent tubes; bitter comparator. At end, 7/14 CON and 8/14 KE identified assignment correctly.",
+        "duration": "8 weeks; PRE, week 3 MID, week 7 POST, week 8 after taper."
+      },
+      "preparation": {
+        "active": "Pure (R)-3-hydroxybutyl (R)-3-hydroxybutyrate, purchased from KetoneAid Inc.; numeric purity/batch assay not supplied.",
+        "control": "16.4 g pure medium-chain triglycerides plus 1 mM bitter sucrose octaacetate in a 25 g control drink.",
+        "energy": "489 kJ per 25 g drink in each condition.",
+        "timing": "Reported 25 g immediately after each training session and 30 min before sleep; first training day excepted for baseline sleep recording. Post-exercise intake supervised. Weekly bags/empty returns for other doses. Main mentions non-training-day supplements without a fully explicit off-day clock schedule; do not invent one. Discussion describes 50–75 g/day.",
+        "common_nutrition": "About 60 g carbohydrate/hour during sessions >1 h; common recovery shake 64 g carbohydrate plus 30 g protein five minutes post-training; standardized test meals.",
+        "interpretation": "Monoester versus an isocaloric MCT nutritional comparator under supervised training; not an inert placebo contrast, generic ketone class test or dosing recommendation."
+      },
+      "registration": {
+        "registry": "NCT05932420",
+        "url": "https://clinicaltrials.gov/study/NCT05932420",
+        "api": "https://clinicaltrials.gov/api/v2/studies/NCT05932420",
+        "actual_start": "2022-10-01",
+        "actual_primary_completion": "2023-05-01",
+        "first_submission": "2023-06-27",
+        "first_posting": "2023-07-06",
+        "last_update_submission": "2023-06-27",
+        "primary_outcomes": [
+          "Change in mean power output during a 30 min cycling time trial",
+          "Change in capillarization of the musculus vastus lateralis",
+          "Change in sleep efficiency",
+          "Change in REM sleep"
+        ],
+        "judgment": "Accessible official registration is retrospective relative to primary completion. TT is one of four registered primary outcomes, not sole prospectively verified primary.",
+        "history_limit": "Current official API record and its first/last dates read; archived version-by-version history and a pre-study protocol not independently obtained."
+      },
+      "function_outcomes": [
+        {
+          "name": "30-min mean cycling power at week 7",
+          "active_mean_SD_W": [
+            302,
+            28
+          ],
+          "control_mean_SD_W": [
+            291,
+            27
+          ],
+          "reported_difference_W": 11,
+          "reported_CI95_W": [
+            4,
+            18
+          ],
+          "posthoc_p": "<.001",
+          "group_time_p": 0.027,
+          "Hedges_g": 0.4,
+          "source": "PDFp9; native Figure2A-B,p10",
+          "interpretation": "Direct reported between-group functional contrast; about4% higher after training."
+        },
+        {
+          "name": "30-min mean cycling power after taper",
+          "reported_difference_W": 9,
+          "reported_CI95_W": [
+            2,
+            15
+          ],
+          "p": 0.006,
+          "Hedges_g": 0.28,
+          "source": "PDFp9; Figure2A-B"
+        },
+        {
+          "name": "Peak power in VO2peak test, PRE-to-POST change",
+          "active_change_mean_SD_W": [
+            52,
+            34
+          ],
+          "control_change_mean_SD_W": [
+            25,
+            38
+          ],
+          "difference_in_change_W": 27,
+          "reported_CI95_W": [
+            13,
+            41
+          ],
+          "p": "<.001",
+          "group_time_p": 0.013,
+          "Hedges_g": 0.75,
+          "absolute_post_between_group_p": 0.091,
+          "source": "PDFp9; native Figure2C-D,p10",
+          "interpretation": "Improvement difference positive; do not relabel final absolute peak power as a significant group difference."
+        },
+        {
+          "name": "Relative VO2peak PRE-to-POST change",
+          "difference_in_change_mL_kg_min": 3.1,
+          "reported_CI95": [
+            1.5,
+            4.7
+          ],
+          "p": "<.001",
+          "group_time_p": 0.044,
+          "Hedges_g": 0.88,
+          "source": "PDFp9-11; Figure2E-F",
+          "interpretation": "Physiological capacity positive; baseline relative VO2peak differs (PRE p=.028), so retain change contrast and baseline imbalance."
+        }
+      ],
+      "other_results": {
+        "training_load": "No group-time interaction p=.122 or group effect p=.398; equal workload is a reported null, not proof of exact exposure equivalence.",
+        "body_composition": "No treatment-by-time effect on body composition; lean mass increased with training across groups, not a demonstrated added monoester hypertrophy effect.",
+        "stress_recovery": "No group-time differences in stress-recovery state p=.811, total stress p=.723 or recovery p=.891.",
+        "cardiac": "No group-time effect for peak cardiac output p=.334 or stroke volume p=.428; no direct added cardiac adaptation.",
+        "biochemistry": "CS activity between-group POST contrast positive p=.035 and group-time p<.001. Complex II interaction p=.036, with KE within-arm increase 25%,p=.030; not separately reported significant absolute post KE-CON protein contrast. PGC1alpha increased similarly; SIRT3 and acetylation null.",
+        "metabolomics": "57 analytes; ketone-related interactions and citric-acid contrast arose only without multiple-testing correction. Do not promote uncorrected citrate result to confirmed mechanism.",
+        "mechanism_boundary": "No causal mediation analysis or direct maximal mitochondrial respiratory-capacity assay here. CS/SDH are markers; last training bout and biopsy timing may contribute. No BUB1B/BUBR1 or chromosome-fidelity intervention assay."
+      },
+      "analysis": {
+        "reported": "Repeated-measures group-by-time ANOVA; Sidak post hoc. Missing cardiac data via mixed model. Metabolomics BH-FDR and Bonferroni post hoc. TT-focused sample-size calculation, 14/group.",
+        "limits": [
+          "Small completer cohort; male-only trained population",
+          "Retrospective registration with multiple registered primary outcomes; no family-wide primary-outcome correction identified",
+          "Exact role of matched pairs in final covariance model not fully specified; published estimates retained without independent reanalysis",
+          "No raw-data paired or intention-to-treat reconstruction performed"
+        ]
+      },
+      "harms": {
+        "dropouts": "One illness-related noncompletion per arm; diagnoses/causality not given.",
+        "training_interruptions": "Four participants per arm missed >=1 session for illness/injury; five CON and four KE had reduced training intensity for fatigue.",
+        "cardiac_observation": "No arrhythmias detected at rest/during exercise; cardiac strain and adaptation measures did not suggest adverse change over8 weeks.",
+        "limit": "No comprehensive prospective adverse-event table or GI-symptom denominator identified. Author statement of good tolerability cannot establish broad safety."
+      },
+      "funding_conflicts": {
+        "study": "FWO G089221N and KU Leuven internal C14/21/092.",
+        "author_support": "CP:FWO1244921N/12B0E24N; YB:FWO-TBM T004420N; KT:EACVI research grant2021.",
+        "competing_interests": "Authors declare none.",
+        "source": "Native PDFp20 inspected."
+      },
+      "source_reporting_gaps": [
+        {
+          "issue": "Cardiac analysis denominators",
+          "source": "Methods p6 excludes 3 KE/2 CON for peak output/stroke volume, while Table2p14 caption says 13 per arm. Outcome-specific counts unresolved; TT figure remains 14 per arm."
+        },
+        {
+          "issue": "CS units",
+          "source": "Results p11 uses micromol per hour/kg protein, whereas Figure3 axis and abstract use mol per hour/kg protein. Direction and statistical contrast preserved; exact biochemical units unqualified."
+        },
+        {
+          "issue": "Session/time labels",
+          "source": "Figure1 axis TR1/TR14/TR38 differs from caption/body TR7/TR16/TR43; Table3 KE middle column says week 2 versus Methods/CONweek 3. Do not silently resolve."
+        }
+      ],
+      "access_gaps": [
+        "Linked appendix and peer-review files returned403 or web access errors; not read",
+        "Archived registry history/pre-study protocol unavailable in current bounded packet"
+      ],
+      "conclusion": "Retain a controlled, modest, context-specific training-performance positive for this monoester. Prospective hierarchy and supplementary/reporting gaps limit certainty; no MVA or generic ketone efficacy transfer."
+    },
+    {
+      "id": "poffe2021",
+      "pmid": "33196605",
+      "pmcid": "PMC8048725",
+      "doi": "10.1249/MSS.0000000000002552",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8048725/",
+      "source_version": "Complete Europe PMC primary XML from retained lead source; byte-identical local copy.",
+      "design": {
+        "type": "Randomized double-blind four-period crossover, two factors (ketone and bicarbonate)",
+        "conditions": [
+          "CON",
+          "KE",
+          "BIC",
+          "KE+BIC"
+        ],
+        "washout": "7 days between sessions",
+        "participants": "Main recruitment, power calculation and figure captions all say 12 highly trained men; abstract says 14.",
+        "n_main": 12,
+        "n_abstract": 14,
+        "denominator_gap": "Unresolved source disagreement, not demonstrated 14 enrolled/12 completed attrition.",
+        "sequence": "Stratified random order based on familiarization TT output; same time of day.",
+        "outcome": "60 min standardized warm-up;30 min time trial; subsequent all-out 175% lactate-threshold sprint."
+      },
+      "preparation": {
+        "active": "(R)-3-hydroxybutyl (R)-3-hydroxybutyrate, TdeltaS Ltd; total 50 g in two equal portions at warm-up minutes 30 and 55. Numeric purity unreported.",
+        "control": "Taste/volume/viscosity-matched 12.5% w/v collagen-peptan plus 1 mM bitter sucrose octaacetate; isocaloric matching not established.",
+        "cofactor": "Bicarbonate 180 mg/kg across capsules/drinks; non-bicarbonate conditions received equimolar-sodium NaCl control.",
+        "common_nutrition": "Standardized carbohydrate-rich dinner/breakfast and 60 g carbohydrate during warm-up in all conditions.",
+        "scope": "Source descriptors only; no regimen advice; supplier/vehicle/timing differs from training trial despite same ester molecule."
+      },
+      "primary_effect": {
+        "endpoint": "30-min mean power",
+        "estimand": "Within-person ketone main effect: mean(KE,KE+BIC) minus mean(CON,BIC)",
+        "reported_difference_W": -3.8,
+        "reported_CI95_W": [
+          -7.2,
+          -0.5
+        ],
+        "p": 0.03,
+        "partial_eta_squared": 0.33,
+        "reported_Cohens_d": 0.13,
+        "reported_relative_difference_percent": -1.5,
+        "direct_KE_only_vs_CON_p": null,
+        "direct_KE_only_vs_CON_CI": null,
+        "interpretation": "Do not relabel this factorial estimate as a separately established ketone-only versus placebo pairwise estimate; do not count four arms as independent subjects."
+      },
+      "other_function": {
+        "sprint_estimand": "Bicarbonate main effect: mean(BIC,KE+BIC) minus mean(CON,KE)",
+        "sprint_difference_s": 5,
+        "sprint_CI95_s": [
+          2,
+          8
+        ],
+        "sprint_p": "<.01",
+        "sprint_partial_eta_squared": 0.39,
+        "sprint_Cohens_d": 0.3,
+        "sprint_outlier": "One time-to-exhaustion outlier removed using ROUT 1%; exact condition not specified in main.",
+        "boundary": "Sprint benefit belongs to bicarbonate factorial contrast, not a ketone benefit."
+      },
+      "analysis_and_interactions": {
+        "methods": "Two-way repeated-measures KE-by-BIC ANOVA for single-time outcomes; time-by-KE-by-BIC repeated-measures ANOVA for longitudinal measures. Geisser-Greenhouse if needed; Bonferroni post hoc after significant interaction.",
+        "primary_design": "Main identifies TT mean power as primary in its sample-size paragraph; no prospectively archived trial protocol/registry qualified.",
+        "performance_order_p": {
+          "TT": 0.36,
+          "sprint": 0.6
+        },
+        "performance_KE_BIC_interaction_p": null,
+        "interpretation": "Performance section reports ketone main effect and bicarbonate sprint main effect, but no numeric KE-by-BIC performance interaction estimate/p/CI. Author independence wording does not establish zero interaction.",
+        "metabolic_interaction": "A time-by-KE-by-BIC interaction for blood betaHB is reported p=.02; bicarbonate raises ketone concentration. This physiological interaction is not the performance interaction."
+      },
+      "harms_and_mechanism": {
+        "GI": "Overall low symptom scores but ketone main effect p=.01: KE 12 ± 12, KE+BIC 11 ± 9, CON 7 ± 12, BIC 5 ± 8 on 96-point scale; dizziness/upper-abdominal symptoms contribute.",
+        "acid_base": "KE lowers pH/bicarbonate; co-bicarbonate counteracts measured acidosis without improving the reported pooled ketone TT effect.",
+        "causality": "GI symptoms may contribute to output; blood lactate changes do not establish glycogen sparing or a single mechanism.",
+        "blinding": "None identified all four conditions correctly; 9/12 identified their best performance trial.",
+        "safety_limit": "Acute small healthy sample; no clinical/MVA safety claim."
+      },
+      "funding_conflicts": {
+        "funding": "Research Fund Flanders G080117N and Flemish Ministry of Sport/Sport Vlaanderen.",
+        "competing_interests": "Authors declare none.",
+        "source": "Primary XML acknowledgments."
+      },
+      "access_gaps": [
+        "Full article PDF and raw individual dataset not obtained; full XML and all four native main figures are now available and read.",
+        "No exact direct KE-only versus CON confidence interval or P value reconstructed from the plot."
+      ],
+      "conclusion": "A same-molecule acute high-intensity performance counterexample, with a small adverse within-person factorial estimate; not a direct test of the chronic post-exercise training strategy.",
+      "native_figure_update": {
+        "access": "Public Europe PMC supplementaryFiles ZIP supplies original main figures 1–4, not a new supplementary outcome dataset.",
+        "result": "Figure 4B confirms the pooled ketone effect; Figure 4E confirms the pooled bicarbonate effect. Figure 4C graphically displays a KE-only versus CON 95% CI crossing zero; no exact endpoints or pairwise P inferred.",
+        "mechanism": "Figures 2 and 3 show bicarbonate alters circulating ketones as well as acid–base measures; acid–base causality is not isolated.",
+        "reading": "Independent reviewer inspected all four native figures; root inspected Figures 3 and 4 and their full XML captions."
+      }
+    },
+    {
+      "source": {
+        "pmid": "38320460",
+        "doi": "10.1016/j.clnu.2024.01.026",
+        "title": "Acute ketone supplementation in the absence of muscle glycogen utilization: Insights from McArdle disease",
+        "authors": "Valenzuela et al.",
+        "journal": "Clinical Nutrition 43(3):692–700 (2024)",
+        "urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/38320460/",
+          "https://doi.org/10.1016/j.clnu.2024.01.026",
+          "https://hdl.handle.net/11268/13459",
+          "https://hdl.handle.net/10433/25425"
+        ],
+        "scientific_depth": "Complete primary abstract only; full main, native tables/figures and supplements not obtained."
+      },
+      "design": {
+        "reported": "Randomized crossover; submaximal constant-load test followed by maximal ramp test after placebo or acute ketone ester. Patients additionally assessed after carbohydrate.",
+        "reported_group_n": {
+          "McArdle_patients": 8,
+          "healthy_controls": 7
+        },
+        "screened_n": null,
+        "randomized_n_separately_verified": null,
+        "completed_n_separately_verified": null,
+        "endpoint_specific_n": null,
+        "denominator_limit": "Abstract reports n=8/7 but provides no flow or endpoint denominators. Do not independently certify that every endpoint includes all participants.",
+        "patient_healthy_status": "Disease-versus-healthy comparison is between populations, not a randomized disease assignment.",
+        "CHO_arm": "75 g carbohydrate tested in patients only; carbohydrate source, allocation/order relative to placebo/ketone and third-condition crossover structure not independently verified.",
+        "randomization_sequence": "Unverified",
+        "allocation_concealment": "Unverified",
+        "blinding": "Unverified",
+        "washout": "Unverified",
+        "pretest_diet_and_training": "Unverified",
+        "paired_analysis": "Within-participant treatment comparison implied by crossover; statistical pairing method cannot be verified.",
+        "carryover_period_sequence_analysis": "Unknown; no claim that carryover was absent.",
+        "registration_and_endpoint_hierarchy": "Not verified from accessible sources.",
+        "multiplicity": "Unknown; no multiplicity plan obtained."
+      },
+      "preparation": {
+        "ketone": "30 g D-beta-hydroxybutyrate/D-1,3-butanediol monoester, as named in abstract",
+        "route": "Ingested",
+        "manufacturer": null,
+        "purity": null,
+        "product_or_batch": null,
+        "vehicle_coingredients": null,
+        "timing_relative_to_exercise": null,
+        "placebo_composition": null,
+        "taste_or_energy_matching": null,
+        "carbohydrate": "75 g; exact carbohydrate/preparation unverified",
+        "boundary": "Specific acute monoester exposure, not ketogenic diet, ketone salts, calcium/sodium pyruvate, or an interchangeable ketone class; not regimen advice."
+      },
+      "outcomes": [
+        {
+          "name": "Maximal ramp-test peak power output",
+          "population": "McArdle patients",
+          "contrast": "Ketone ester versus placebo in crossover",
+          "reported_percent_difference": -11.6,
+          "p": 0.001,
+          "absolute_watts": null,
+          "ci": null,
+          "n": "8 patients described in abstract; endpoint-specific analyzed n not independently verified",
+          "interpretation": "Reported adverse controlled functional contrast for this acute preparation in this disease context."
+        },
+        {
+          "name": "Maximal ramp-test peak power output",
+          "population": "Healthy controls",
+          "contrast": "Ketone ester versus placebo in crossover",
+          "reported_percent_difference": null,
+          "p": 0.268,
+          "absolute_watts": null,
+          "ci": null,
+          "n": "7 controls described; endpoint n unverified",
+          "interpretation": "No statistically significant effect reported; not proof of equivalence or universal absence of benefit."
+        },
+        {
+          "name": "Maximal ramp-test peak power output",
+          "population": "McArdle patients",
+          "contrast": "Carbohydrate versus ketone ester",
+          "reported_percent_difference": 21.5,
+          "p": 0.001,
+          "absolute_watts": null,
+          "ci": null,
+          "interpretation": "Reported carbohydrate advantage over ketone condition; full order/pairing details unavailable."
+        },
+        {
+          "name": "Maximal ramp-test peak power output",
+          "population": "McArdle patients",
+          "contrast": "Carbohydrate versus placebo",
+          "reported_percent_difference": 12.6,
+          "p": 0.057,
+          "absolute_watts": null,
+          "ci": null,
+          "interpretation": "Positive point estimate but no conventional statistical superiority established in this comparison. Do not inherit the abstract conclusion as a significant placebo comparison."
+        },
+        {
+          "name": "Peak power output disease-versus-healthy comparison",
+          "contrast": "Patients versus healthy controls",
+          "reported_percent_difference": -65,
+          "p": "<0.001",
+          "interpretation": "Cross-population capacity difference, not a ketone treatment effect."
+        },
+        {
+          "name": "Blood ketones",
+          "population": "All participants",
+          "reported_concentration_mM": "3.7 ± 0.9",
+          "dispersion_definition": "Not stated in abstract",
+          "interpretation": "Ketosis/biochemical engagement in all participants, not functional benefit."
+        },
+        {
+          "name": "Gas exchange",
+          "reported": "Some responses changed, notably increased respiratory exchange ratio, especially in patients",
+          "exact_values_CI_P": null,
+          "interpretation": "Physiological change; not an independent claim of improved function."
+        }
+      ],
+      "critical_boundaries": {
+        "interaction": "Patient P=.001 and control P=.268 do not establish a disease-by-treatment interaction. Interaction statistic/P/CI not available; differential treatment response remains unverified.",
+        "effect_scale": "Retain published percent differences as reported. Absolute paired differences, denominator used for each percent, individual trajectories and precision unavailable; do not reconstruct unreported effect sizes from these percentages.",
+        "clinical_scope": "McArdle disease prevents use of muscle glycogen; this result does not establish MVA harm or general ketone-class failure.",
+        "carbohydrate": "Preserve the positive point estimate and significant versus-ketone contrast, without promoting P=.057 versus placebo to established superiority."
+      },
+      "harms": {
+        "adverse_events": null,
+        "GI_tolerance": null,
+        "withdrawals": null,
+        "attribution": "No harms/tolerance detail in abstract. Absence of a harms summary is not evidence of no adverse events. Lower task power is the reported functional outcome, not proof of general clinical toxicity."
+      },
+      "cohort_ancestry_and_overlap": {
+        "status": "UNRESOLVED",
+        "primary_metadata_pointers": [
+          {
+            "reference_number": 20,
+            "citation": "Løkken et al. 2022, No effect of oral ketone ester supplementation on exercise capacity in patients with McArdle disease and healthy controls",
+            "doi": "10.1002/jimd.12484",
+            "depth": "Cited-reference metadata only; cohort not reappraised."
+          },
+          {
+            "reference_number": 25,
+            "citation": "Valenzuela et al., Dose–response effect of pre-exercise carbohydrates under muscle glycogen unavailability: insights from McArdle disease",
+            "pmid_pointer": "38030066",
+            "depth": "Cited-reference metadata/title pointer only; no patient mapping."
+          }
+        ],
+        "interpretation": "Neither citations, shared investigators nor different publications establish independence or overlap. Participant identities/genotypes/site timelines unavailable; no summed unique-patient or independent-replication count.",
+        "participant_ancestry_and_genotypes": "Not described in abstract; author affiliations do not establish ancestry."
+      },
+      "funding_and_interests": {
+        "source": "Publisher-deposited Crossref metadata only",
+        "funders": [
+          {
+            "name": "Instituto de Salud Carlos III",
+            "awards": [
+              "PI22/00201"
+            ]
+          },
+          {
+            "name": "Instituto de Salud Carlos III",
+            "awards": [
+              "PI18/00139"
+            ]
+          },
+          {
+            "name": "Instituto de Salud Carlos III",
+            "awards": [
+              "CD21/00138"
+            ]
+          }
+        ],
+        "full_acknowledgments": null,
+        "COI": null,
+        "manufacturer_role": null,
+        "limit": "Do not treat bibliographic funding metadata as complete declarations."
+      },
+      "notice_check": {
+        "pubmed_linked_correction_present": false,
+        "crossref_relation": {},
+        "crossref_update_to": null,
+        "crossref_updated_by": null,
+        "scope": "No linked correction/retraction found in retained metadata; publisher notice history not fully audited."
+      },
+      "new_original_queue_reading_credit": 0,
+      "id": "valenzuela2024",
+      "status": "ABSTRACT_ONLY_WITH_INDEPENDENT_ABSTRACT_CHECK",
+      "decision": "Retain an incompletely appraised clinical counterexample; the full main remains unavailable. No MVA or class-wide harm inference."
+    },
+    {
+      "article": {
+        "pmid": "41644499",
+        "doi": "10.1111/apha.70161",
+        "title": "Ketone Monoester Increases Skeletal Muscle Power and Energy Turnover in Older but Not Young Men Without Affecting Metabolic Economy: A Controlled, Double Blind, Cross-Over Trial",
+        "authors": "Andersen et al.",
+        "journal": "Acta Physiologica 242(3):e70161, March 2026",
+        "urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/41644499/",
+          "https://onlinelibrary.wiley.com/doi/10.1111/apha.70161",
+          "https://clinicaltrials.gov/study/NCT05732909"
+        ]
+      },
+      "access": {
+        "full_main_obtained": false,
+        "native_main_figures_obtained": false,
+        "native_supplements_obtained": false,
+        "lawful_routes": "Wiley full-text/PDF links redirected to abstract; normal public HTML/full-XML and supporting-image requests returned 403. Aarhus and Aalborg institutional records expose abstract/DOI but no deposited full file. ResearchGate search result is request-only; no contact.",
+        "scope": "Stop after normal publisher, institutional and author/OA discovery routes. No bypass, account action or author contact.",
+        "reliance": "Paper outcomes from primary abstract; preparation/protocol details separately attributed to current registry. Public supporting captions are methodological pointers, not inspected images."
+      },
+      "cohort": {
+        "abstract_participants": 24,
+        "abstract_young_n": 12,
+        "abstract_older_n": 12,
+        "young_age_range_years": [
+          20,
+          25
+        ],
+        "older_age_range_years": [
+          65,
+          85
+        ],
+        "population": "Healthy men, matched by age-adjusted VO2max; not a frailty, myopathy or MVA cohort.",
+        "registry_actual_enrollment": 25,
+        "registry_eligibility": "BMI 19–27, stable weight and less than three 60-minute structured-exercise sessions per week; exclusions include metabolism-altering medication and disease affecting exercise.",
+        "randomized_n_by_sequence": null,
+        "completed_n_by_age": null,
+        "endpoint_analyzed_n_by_age": null,
+        "missingness": "The current registry enrollment of 25 versus abstract total of 24 is unresolved. Do not invent an exclusion/withdrawal or use 12/12 as verified n for every endpoint; the public S3 enrollment image could not be obtained."
+      },
+      "preparation": {
+        "paper_abstract": "Ketone monoester versus placebo; low-dose continuous glucose infusion on both days to inhibit endogenous ketogenesis.",
+        "current_registry_identity": "D-beta-hydroxybutyrate/D-1,3-butanediol monoester",
+        "current_registry_product": "KetoneAid Pro KE4",
+        "current_registry_vehicle_and_control": "Volume-, calorie- and taste-matched lipid-emulsion placebo; blood ketones maintained with a sipping protocol.",
+        "actual_administered_product_verified_in_main": false,
+        "amount": null,
+        "concentration": null,
+        "timing_relative_to_each_outcome": null,
+        "cointervention": "Continuous low-dose glucose infusion in both conditions; this is not a ketone-alone fasting contrast.",
+        "unknowns": [
+          "Exact administered formulation/batch/purity",
+          "Vehicle ingredients",
+          "Dose and sipping schedule",
+          "Glucose infusion rate",
+          "Measured ketone exposure and protocol adherence"
+        ],
+        "boundary": "Registry naming does not independently verify the final administered product or justify transfer to salts, diesters, free precursors or other commercial products."
+      },
+      "design": {
+        "paper_abstract": "Randomized crossover, double blind",
+        "current_registry": "Two study days, randomized order, participant/investigator masking, at least four weeks apart; fasted visits with controlled prior diet/activity.",
+        "randomization_and_allocation_details": null,
+        "masking_success": "Public Figure S2 caption identifies a treatment-certainty assessment, but its numerical results/image were inaccessible.",
+        "registered_primary_current": "Work efficiency: external ankle dorsiflexion work per ATP consumed, measured by dynamometer and 31P-MRS.",
+        "other_registered_current": "Oxidative capacity, ATP generation, mitochondrial function, intramuscular pH, tibialis anterior fatigue, blood measures, and cycling-related measures.",
+        "registration_timing": "Current record actual start 2022-12-22; first submitted 2023-01-17 and first posted 2023-02-17. Abstract says pre-registered, but pre-enrollment registration is not established by these dates.",
+        "registry_history": "Not audited; current record updated 2026-03-06 after publication. No posted results (hasResults=false). Prospective fixed endpoint hierarchy not independently verified.",
+        "registry_protocol_amendment": "Current description limits fixed-intensity cycling to young participants because older participants had difficulty completing it. This is not an observed ketone adverse-effect finding; broader registered cycling results are not supplied by the article abstract."
+      },
+      "outcomes": [
+        {
+          "name": "Peak muscle power",
+          "muscle": "Tibialis anterior",
+          "older": "Reported increase with ketones",
+          "young": "No increase reported in abstract conclusion",
+          "absolute_effect": null,
+          "normalized_effect": null,
+          "unit": null,
+          "p": null,
+          "ci": null,
+          "endpoint_n": null,
+          "boundary": "Absolute versus volume-normalized effect not verified; no inference about maximal isometric force or daily mobility."
+        },
+        {
+          "name": "Time-torque-derived work capacity",
+          "muscle": "Tibialis anterior",
+          "older": "Reported increase",
+          "young": "No increase reported in abstract conclusion",
+          "effect": null,
+          "p": null,
+          "ci": null,
+          "endpoint_n": null,
+          "boundary": "Time-torque integral is not interchangeable with mechanical work in joules. Public S1 caption distinguishes concentric work, TTI and their economy metrics; positive abstract statement does not establish every absolute or normalized work metric."
+        },
+        {
+          "name": "ATP production",
+          "older": "Reported increase",
+          "young": "No increase reported in abstract conclusion",
+          "effect": null,
+          "p": null,
+          "ci": null,
+          "interpretation": "Biochemical/energetic response; increased ATP turnover is not improved ATP economy."
+        },
+        {
+          "name": "Metabolic economy",
+          "older": "No ketone effect reported",
+          "young": "No ketone effect reported",
+          "age_comparison": "Older group lower economy than young",
+          "hierarchy": "Corresponds to current registered primary work-efficiency construct",
+          "effect": null,
+          "p": null,
+          "ci": null,
+          "boundary": "Primary economy null is retained; no equivalence conclusion."
+        },
+        {
+          "name": "Relative decline in peak power",
+          "older": "Reported greater decline with ketones",
+          "effect": null,
+          "p": null,
+          "ci": null,
+          "boundary": "Preserve reduced relative power retention/increased relative fatigability as a tradeoff. Higher initial peak can influence this relative metric; absolute final power, functional harm and mechanism cannot be inferred."
+        },
+        {
+          "name": "Contraction-induced intramuscular pH decline",
+          "older": "Reported greater decline with ketones",
+          "effect": null,
+          "p": null,
+          "ci": null,
+          "boundary": "Do not convert local contraction-induced acidification into evidence of systemic ketoacidosis or a clinical adverse event."
+        },
+        {
+          "name": "Oxidative capacity",
+          "result": "Similar between age groups and unaffected by ketones",
+          "method": "31P-MRS/phosphocreatine recovery according to abstract and registry",
+          "effect": null,
+          "p": null,
+          "ci": null
+        },
+        {
+          "name": "Complex I+II respiration",
+          "muscle": "Quadriceps femoris biopsy",
+          "result": "Lower in older than young, with no ketone effect",
+          "method": "High-resolution respirometry",
+          "effect": null,
+          "p": null,
+          "ci": null,
+          "boundary": "Age difference is not a ketone-induced mitochondrial impairment."
+        }
+      ],
+      "age_interaction": {
+        "verified_result": null,
+        "available_model_description": "S1 public caption describes treatment-group-time interactions with day/order fixed effects and participant/participant-day random effects.",
+        "boundary": "A model containing an interaction is not a significant interaction result. Older-group significance and young-group nonsignificance alone do not prove age-specific treatment response; no direct age-interaction estimate/P or CI is available."
+      },
+      "harms": "GI symptoms, other adverse events, dropouts and severity/attribution cannot be verified. Greater power decline and pH decline are measured performance/physiological tradeoffs, not a complete clinical safety assessment.",
+      "funding_and_conflicts": {
+        "conflicts": "Public publisher page declares none.",
+        "publisher_crossref_funders": [
+          {
+            "name": "Danish Diabetes and Endocrine Academy",
+            "award": [
+              "NNF17SA0031406"
+            ]
+          },
+          {
+            "name": "Aarhus Universitet",
+            "award": []
+          },
+          {
+            "name": "Kulturministeriet",
+            "award": [
+              "FPK.2021‐0032"
+            ]
+          },
+          {
+            "name": "Novo Nordisk Fonden",
+            "award": [
+              "NNF19OC0055002"
+            ]
+          },
+          {
+            "name": "A.P. Møller og Hustru Chastine Mc-Kinney Møllers Fond til almene Formaal",
+            "award": [
+              "L‐2021‐00248"
+            ]
+          }
+        ],
+        "current_registry_sponsor": "University of Aarhus",
+        "limits": "Full funding/funder-role and product-supply statements inaccessible. No commercial conflict is inferred merely from the brand in the registry."
+      },
+      "BUB1B_MVA": "No BUB1B/BUBR1 restoration or MVA efficacy established by the accessible study material. Useful local human-function observations should not be discarded solely because no BUBR1 assay is available, but transfer to MVA is unproven.",
+      "notice_check": {
+        "checked_at_utc": "2026-09-27T07:05:32.922859+00:00",
+        "pubmed_comments_corrections": [],
+        "crossref_relation": {},
+        "crossref_update_to": null,
+        "crossref_updated_by": null,
+        "limit": "No linked notice identified in these metadata records; no full publisher Crossmark history audit."
+      },
+      "clinical_advice": false,
+      "id": "andersen2026",
+      "status": "ABSTRACT_OUTCOMES_WITH_SEPARATELY_ATTRIBUTED_CURRENT_REGISTRY",
+      "decision": "Retain local-muscle function positives, nulls and fatigue/pH tradeoffs as incomplete evidence; no verified age interaction or MVA transfer."
+    },
+    {
+      "id": "cox2016_study5",
+      "pmid": "27475046",
+      "doi": "10.1016/j.cmet.2016.07.010",
+      "url": "https://doi.org/10.1016/j.cmet.2016.07.010",
+      "lawful_manuscript": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/038ff3ef-c7a2-4c25-915f-3e82d2daa977/content",
+      "selection": "Earlier controlled positive retained as contextual lead, not preaccepted",
+      "design": "Randomized-order blinded crossover; n=8 (6 men, 2 women), not the paper-wide 39.",
+      "preparation": "(R)-3-hydroxybutyl (R)-3-hydroxybutyrate monoester (reported >99.8% purity), 40% calories plus dextrose, versus isocaloric mixed carbohydrates; carbohydrate composition/amount differ.",
+      "context": "Overnight fast, one-hour fixed cycling then 30-minute distance time trial.",
+      "distance_difference_m": 411,
+      "SEM_m": 162,
+      "p": "<0.05",
+      "reported_relative_improvement_percent": 2,
+      "paired_CI": null,
+      "analysis": "Paired two-sided t test; study-five power calculation described.",
+      "interests": "Patent/royalty and TdeltaS relationships declared; DARPA and UK Sport funding.",
+      "gaps": [
+        "No prospective registry/hierarchy verification",
+        "Small study-specific sample",
+        "Carbohydrate contrast prevents isolating added ketone with carbohydrate held equal",
+        "No biopsy in study five; metabolic studies are separate"
+      ],
+      "reading_depth": "Cambridge 74-page combined manuscript retained; targeted study-five result/design/supplement/statistics and conflicts, native Figure 7 page45 inspected. No whole-paper full appraisal.",
+      "status": "TARGETED_STUDY_5_CHECK_NOT_WHOLE_PAPER_APPRAISAL",
+      "independent_source_inconsistencies": [
+        "Figure 7 caption calls F a percent comparison and G a Bland–Altman plot; native panels show distance bars and connected paired distances.",
+        "Supplement gives a dextrose/fructose/maltodextrin ratio inconsistent with the native Figure 7A calorie split. Use mixed carbohydrates with different composition/amount, not an unambiguous exact ratio."
+      ]
+    },
+    {
+      "id": "prins2026",
+      "pmid": "41773904",
+      "doi": "10.1080/27697061.2026.2636551",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41773904/",
+      "status": "ABSTRACT_ONLY_CONTEXTUAL_COUNTEREVIDENCE",
+      "design": "Single-blind randomized parallel comparison; 18 runners, nine per arm; 31 days.",
+      "preparation": "Same named monoester versus isocaloric flavor-matched placebo; manufacturer, vehicle and final analysis details unqualified.",
+      "functional_result": "No 5-km time-trial improvement reported. Absolute treatment contrast, confidence interval and equivalence margin unavailable in the abstract.",
+      "other_results": "Selected cognitive signals and preserved mean absolute exercise oxygen uptake reported; these do not establish running benefit or a VO2peak gain.",
+      "gaps": "Full main/native outcomes, prospective endpoint hierarchy, multiplicity, detailed harms and participant flow not qualified. Direct publisher access failed; search-index main excerpts are not a full-main appraisal.",
+      "reading": "Root read complete retained official PubMed abstract; independent reviewer also read the complete abstract. No summed replication or unique-patient count."
+    }
+  ],
+  "BUB1B_BUBR1": {
+    "bounded_search_result": {
+      "direct_intervention_found": false,
+      "scope": "bounded-search.json",
+      "excluded_broad_query_hit_PMID": "24968064",
+      "conclusion": "No qualifying intervention identified; not proof of universal absence."
+    },
+    "scope": "No qualifying BUB1B/BUBR1 intervention identified in the recorded bounded searches or these assessed trials; not proof that none exists anywhere.",
+    "transfer": "Ketosis, ATP turnover or sports performance cannot substitute for BUBR1 protein/function or chromosome-fidelity measurements."
+  },
+  "competitiveness": {
+    "credit": "The training and study-5 performance positives deserve actual-function credit; no mandatory BUBR1 assay is imposed on a compensation route.",
+    "limitations": "Small trained/healthy cohorts, active nutrition comparators, retrospective primary-outcome registration, acute context-dependent decrements and incomplete clinical/local-muscle reporting prevent an established general muscle-rescue or MVA ranking.",
+    "current_decision": "Exploratory compensation comparator; niacin/restoration and apitegromab/compensation remain provisional rather than proven superior.",
+    "next_discriminating_evidence": "A relevant metabolic phenotype and achievable measured exposure, followed by controlled absolute useful-function, renewable-reserve and chromosome-fidelity outcomes in affected/corrected models. Establish BUBR1 mediation additionally only if claiming restoration.",
+    "no_cross_trial_ranking": "Do not pool watts, distance, local torque integrals and clinical deficits into a common efficacy score."
+  },
+  "scope": {
+    "new_original_queue_reading_credit": 0,
+    "independent_cohorts": "No combined unique-participant or independent-replication count; cited McArdle cohorts and publications may overlap, and no participant mapping was obtained.",
+    "raw_data": "No individual-level reanalysis or figure digitization.",
+    "completeness": "Broader compound enumeration, efficacy and source follow-up remain incomplete."
+  },
+  "pending_primary_followup": {
+    "status": "SOURCE_APPRAISAL_COMPLETED_CAUSAL_QUESTIONS_REMAIN",
+    "report": "sodium-dl-3hb-cholesterol-qualification.md",
+    "urls": [],
+    "scope": "The previously pending cholesterol paper is now fully qualified; its force data are reused and its separate tracer supports mevalonate pathway entry. Causality, feasible exposure, preparation transfer and relevant-model efficacy remain unresolved research questions, not unread-source claims."
+  },
+  "metadata": {
+    "raw_sources_external": true,
+    "external_packet_name": "ketone-functional-leads-20260927",
+    "source_and_review_bindings": [
+      {
+        "external_packet_path": "bounded-search.json",
+        "sha256": "3c02b75e53feaac36f19bc6ed084a8fa1913ebd88f596a18e9e4b1aa61164dad",
+        "bytes": 2262
+      },
+      {
+        "external_packet_path": "independent-training-acute/final-bindings.json",
+        "sha256": "d2f1bdacbef848ed3d94c586f15050ca65127f2feb1c9b116c8efb5d6188f8f3",
+        "bytes": 3094
+      },
+      {
+        "external_packet_path": "independent-training-acute/findings.json",
+        "sha256": "6e689078907e052b273ac7b9b80485ce633529d38433a47bbf08a4d3dc29bd95",
+        "bytes": 13952
+      },
+      {
+        "external_packet_path": "independent-training-acute/findings.md",
+        "sha256": "2e2cc520cbd8ce736934ccef318af71b05b96a738a6f0c104d5e0df8dc76631f",
+        "bytes": 2536
+      },
+      {
+        "external_packet_path": "independent-training-acute/poffe-subreview.json",
+        "sha256": "47d75c9ca06725ffec31016edd342eecd7963e47a699f1147cdf397747d47587",
+        "bytes": 762
+      },
+      {
+        "external_packet_path": "independent-training-acute/reading-scope.json",
+        "sha256": "51121cdcdf56962a18b13ce69de42eb002ad1bd061a6af173cf634974391700e",
+        "bytes": 1236
+      },
+      {
+        "external_packet_path": "lead-triage.json",
+        "sha256": "816c14eef7044f240d006209fd718309b2b57f751b7b1687dbbfe5500eb61f3d",
+        "bytes": 11719
+      },
+      {
+        "external_packet_path": "mcardle-primary/access-notes.json",
+        "sha256": "a6cb1f9f84002a6cc32d693d130e52a9f27804ebc86e1929a58c89cf59132a18",
+        "bytes": 988
+      },
+      {
+        "external_packet_path": "mcardle-primary/final-bindings.json",
+        "sha256": "a9ab554f5d35ac47fe8df480ea661081aff786d9cf7e24b8479da482cdb9be87",
+        "bytes": 1434
+      },
+      {
+        "external_packet_path": "mcardle-primary/qualification.json",
+        "sha256": "55c0515fd22b39b1fb2a6cca52601b906b038552406b26d0326a9276e48bbb6b",
+        "bytes": 9265
+      },
+      {
+        "external_packet_path": "mcardle-primary/qualification.md",
+        "sha256": "004fcd7914adbb8c6673be1903f2fe45179650df0018d0c9b92c3721d8d8ccd6",
+        "bytes": 2956
+      },
+      {
+        "external_packet_path": "mcardle-primary/reading-scope.json",
+        "sha256": "4ca359fb2943c5891bb3c8c89c8936710acd84795397bbdbd3aa07259ee4c4fa",
+        "bytes": 1308
+      },
+      {
+        "external_packet_path": "mcardle-primary/source-manifest.json",
+        "sha256": "2ad2c72234266a3a1b58c05975596beaa058a754b42b59316f8e003b8b62c615",
+        "bytes": 4291
+      },
+      {
+        "external_packet_path": "native-poffe-addendum/addendum.json",
+        "sha256": "427122917200ee1fc1005f5a0f5ad9eb85d8ba679b9410af54f2baa6b621b006",
+        "bytes": 11449
+      },
+      {
+        "external_packet_path": "native-poffe-addendum/addendum.md",
+        "sha256": "13488afe851df31fefa0cd22650456c18ef04a3198d8820901704c451ea3620d",
+        "bytes": 2426
+      },
+      {
+        "external_packet_path": "native-poffe-addendum/final-bindings.json",
+        "sha256": "a420977f5d8b03dce1be5e25aac6e9e452fc47476d99e828ec7b1c149bad4ccd",
+        "bytes": 917
+      },
+      {
+        "external_packet_path": "native-poffe-addendum/reading-scope.json",
+        "sha256": "3acca4ec11aa3e060ada235d02abaaad9b96030364fd384702f203a097d710e4",
+        "bytes": 1024
+      },
+      {
+        "external_packet_path": "older-muscle-primary/bounded-access-search.json",
+        "sha256": "497cb85523a3569d9af4fb7df510ef4fc75e8c471da4ec60b95b089f46292c73",
+        "bytes": 844
+      },
+      {
+        "external_packet_path": "older-muscle-primary/final-bindings.json",
+        "sha256": "1f03ca3b1d6812063bc618fead1e9e9ba2c1366d9ab950bec899d24cf9e3c650",
+        "bytes": 1309
+      },
+      {
+        "external_packet_path": "older-muscle-primary/publisher-public-observations.json",
+        "sha256": "220ee5ac5258fa360572df46d96da6697ffcd62c90def34a7f1dc4f46a25ba41",
+        "bytes": 1413
+      },
+      {
+        "external_packet_path": "older-muscle-primary/qualification.json",
+        "sha256": "119c4edf7d9fb0285caf2deb77e22d80cbab2277f99b46c38bb5b34b9c8e65b4",
+        "bytes": 10948
+      },
+      {
+        "external_packet_path": "older-muscle-primary/qualification.md",
+        "sha256": "e8e60c4246677fec2ed7a2d8bd65dc68b7ea195e903e23c1fc76935cb1dbd44c",
+        "bytes": 4299
+      },
+      {
+        "external_packet_path": "older-muscle-primary/reading-scope.json",
+        "sha256": "93f9a4ca23ca7af72ae0d612e2d7aad9980b0e021d10753a10e8d6f2bb11cb0b",
+        "bytes": 1576
+      },
+      {
+        "external_packet_path": "older-muscle-primary/retrieval-log.json",
+        "sha256": "e3a33de984c3de577638cb74a03b87c961af4a6231fb7e26972ccad8b27130d9",
+        "bytes": 2317
+      },
+      {
+        "external_packet_path": "older-muscle-primary/source-manifest.json",
+        "sha256": "23b5bdc9711d8e7f4c64ac92037be617f302df6706e9446fdae32366f3a215f9",
+        "bytes": 2255
+      },
+      {
+        "external_packet_path": "reading-scope.json",
+        "sha256": "029eaed33d084f2f30c668add605a435ef6c8dfe4d523befdbadfdb17eed4cea",
+        "bytes": 2184
+      },
+      {
+        "external_packet_path": "root-poffe-native/retrieval.json",
+        "sha256": "63277378a75f41c7f20cb47a239a6eacdb169e1d02ac79c0b1e582799e9bd2ee",
+        "bytes": 545
+      },
+      {
+        "external_packet_path": "root-prins2026/abstract.txt",
+        "sha256": "e938db9f65efa18223491caf91c1a3b629e8dbd8f38a7a077ac7aa0bf6e0453e",
+        "bytes": 1942
+      },
+      {
+        "external_packet_path": "root-prins2026/pubmed.xml",
+        "sha256": "1e29bb1fcf8ed97ca3a386ca00501f4941449331e360903b44b1d69f8384b5d5",
+        "bytes": 11415
+      },
+      {
+        "external_packet_path": "root-prins2026/retrieval.json",
+        "sha256": "485bcedf3020bf0df0a7adda0262714ad964ec2926530c6eadb3e092784d9e86",
+        "bytes": 250
+      },
+      {
+        "external_packet_path": "root-source-check.json",
+        "sha256": "3488d131ade03be475f3ddf8edde3decaa814b4b8440cc3e67812bdc16429d1f",
+        "bytes": 2563
+      },
+      {
+        "external_packet_path": "source-manifest.json",
+        "sha256": "a2b2e28818c0746c264a2c0f539d87f92fd97de664a883d90a393a40fdced163",
+        "bytes": 3659
+      },
+      {
+        "external_packet_path": "training-and-acute/final-bindings.json",
+        "sha256": "7f8b009b7eb1257af8436f56c1f6afeb318ae3091a347cb04f5c919f2042e213",
+        "bytes": 991
+      },
+      {
+        "external_packet_path": "training-and-acute/qualification.json",
+        "sha256": "2b0952ffc776cf5e9dac836f2ffc5663d7c69b80dd71b4968837b8be8c149748",
+        "bytes": 16919
+      },
+      {
+        "external_packet_path": "training-and-acute/qualification.md",
+        "sha256": "8a769395e13eb56223dbef2d36358f039e86a4cddd7573207f28b0c5c75ac27d",
+        "bytes": 5414
+      },
+      {
+        "external_packet_path": "training-and-acute/reading-scope.json",
+        "sha256": "c635a09d2545243c28a0c18467243aae287042e2a2e0aecf62248268580374fb",
+        "bytes": 1871
+      },
+      {
+        "external_packet_path": "training-and-acute/retrieval-log.json",
+        "sha256": "bb6860d8b8836ad1d5d7f67c4de27717035e1f4d25a53f9b273f6a74808950d0",
+        "bytes": 4383
+      },
+      {
+        "external_packet_path": "training-and-acute/source-manifest.json",
+        "sha256": "18058202c070d9535ee95d3d671eb29bfabd8597b9ab54c47bcfe706a44719d9",
+        "bytes": 4017
+      }
+    ],
+    "root_reading": {
+      "mcardle": "Full retained PubMed abstract/text and qualification, including all reported contrast P values; not full main.",
+      "andersen": "Full retained PubMed abstract; current registry status/design/arms/outcome modules; source qualification. No scientific main or native figures.",
+      "poffe": "Native main Figures 3 and 4 and full XML captions; source and independent qualification/addendum. Not a second complete root XML reading.",
+      "robberechts": "Source and independent qualifications; relies on their separately recorded main/native figure reading, not a new root complete-main pass.",
+      "cox": "Targeted source-qualified contextual lead and independent study-5 check, not a new root whole-paper read."
+    }
+  },
+  "additional_source_qualification": {
+    "date": "2026-09-27",
+    "report": "ketone-sepsis-functional-qualification.md",
+    "source": "https://doi.org/10.1038/s41598-022-14961-w",
+    "scope": "Separate R,R bolus force signal; S,S and 50:50 R,R/S,S mixture are distinct. No R,R-only infusion experiment, oral sepsis efficacy or MVA benefit established."
+  },
+  "additional_salt_source_qualification": {
+    "date": "2026-09-27",
+    "report": "sodium-dl-3hb-sepsis-qualification.md",
+    "sources": [
+      "https://doi.org/10.1186/s13054-019-2506-6",
+      "https://doi.org/10.1186/s40360-021-00517-7"
+    ],
+    "scope": "Injected D,L sodium-salt force evidence, including a reported 2019 absolute-force contrast, with survivor, allocation, toxicity and preparation limits. No oral-ester or MVA transfer."
+  },
+  "additional_cholesterol_source_qualification": {
+    "date": "2026-09-27",
+    "report": "sodium-dl-3hb-cholesterol-qualification.md",
+    "sources": [
+      "https://doi.org/10.1186/s13054-021-03688-1",
+      "https://doi.org/10.1186/s13054-021-03722-2"
+    ],
+    "scope": "Complete mechanism-source qualification and published correspondence: mixed-ICU association, reused 2019 force, separate mevalonate tracer evidence and unresolved causal mediation. No new drug or force replication and no oral-ester, dietary-cholesterol or MVA efficacy transfer."
+  }
+}

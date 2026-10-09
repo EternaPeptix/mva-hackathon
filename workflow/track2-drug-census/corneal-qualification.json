@@ -1,0 +1,188 @@
+{
+  "date": "2026-09-22",
+  "source": {
+    "pmid": "41749258",
+    "pmcid": "PMC13041143",
+    "doi": "10.1186/s12967-026-07771-5"
+  },
+  "new_abstract_reading_credit": 0,
+  "reading_depth": {
+    "complete_main": true,
+    "all_main_legends": true,
+    "main_table": "1",
+    "images_inspected": [
+      "4",
+      "5",
+      "6",
+      "S1"
+    ],
+    "unreviewed": "Other main images, S2-S16, raw data",
+    "independent_check": "Methods and selected Results/images, not independent experiment"
+  },
+  "external_source_manifest": [
+    {
+      "file": "primary.xml",
+      "bytes": 159367,
+      "sha256": "ee81fbcb71f54579093e1f2a35dbaf416b1bf812099bbfacf7832b339864d451"
+    },
+    {
+      "file": "12967_2026_7771_Fig4_HTML.png",
+      "bytes": 816012,
+      "sha256": "69f17a9781e20d0fb25b612815c18ba4e698ed397c68287c53e975ed5d1444e9"
+    },
+    {
+      "file": "12967_2026_7771_Fig5_HTML.png",
+      "bytes": 237067,
+      "sha256": "b825683a0a3fa1f6146943553980235f898641859a862123973393d591b5b0fd"
+    },
+    {
+      "file": "12967_2026_7771_Fig6_HTML.png",
+      "bytes": 77829,
+      "sha256": "5242def6c963a4c245fe774fe2d6f19dfb117939575d8446b69d2178b20e948b"
+    },
+    {
+      "file": "Supplement1.tif",
+      "bytes": 230856,
+      "sha256": "8f8d889ebe1af0ef9f1912ad6b384854edbb7e4ebcd98e0d1b5f0db3ba263606"
+    },
+    {
+      "file": "Supplement1-white.png",
+      "bytes": 45024,
+      "sha256": "2a2c5f35765e83d57d312206bb21497c3f07edbe43be2ac5863e2cff61644311"
+    },
+    {
+      "file": "independent-check.md",
+      "bytes": 10234,
+      "sha256": "e8c2c352ccbfd758b71d6d28a0c02fb88a859f3e1e7eda12f3679d53375b15f6"
+    },
+    {
+      "file": "independent-check.json",
+      "bytes": 3236,
+      "sha256": "0e1c78e2f5bfd51b66c52c84a9fa5c391555b759ea41dcafee0fdc65bc26a0b5"
+    }
+  ],
+  "reading_chunks": [
+    "41aa8e",
+    "2c51e2",
+    "3fb334",
+    "9524aa",
+    "1e19fe"
+  ],
+  "agents": {
+    "2DG": {
+      "name": "2-deoxy-D-glucose",
+      "catalog": "Selleck S4701",
+      "CAS": "154-17-6",
+      "mouse_concentration_mM": 10,
+      "cell_concentration_mM": 15
+    },
+    "Stattic": {
+      "catalog": "MCE HY-13818",
+      "CAS": "19983-44-9",
+      "mouse_concentration_mM": 0.4
+    },
+    "rotenone": {
+      "catalog": "MCE B1756 in paper; HY-B1756 supplier",
+      "CAS": "83-79-4",
+      "cell_concentration_nM": 100
+    }
+  },
+  "mouse": {
+    "model": "male C57BL/6 6-8 weeks, alkali injury",
+    "delivery": "alternating subconjunctival and parabulbar injections",
+    "schedule_volume_total_dose": "not specified",
+    "result_time": "day7; Methods score times differ",
+    "OCT_n": 3,
+    "inflammation_haze_n": 6,
+    "masked_graders": 3,
+    "positive": "Both2DG/Stattic reduce thickness, inflammation and haze vs injured eyes",
+    "limits": [
+      "No direct drug-vs-drug significance brackets",
+      "No vision or quantified drug-induced epithelial-closure result",
+      "No full normalization",
+      "No complete vehicle-injection or uninjured-drug safety comparison"
+    ]
+  },
+  "cells": {
+    "source": "ScienCell6520 primary human keratocytes passages3-5",
+    "IL1beta": "5ng/mL48h in downstream experiments",
+    "TGFbeta1": "10ng/mL48h",
+    "LPS": "100/150/200ng/mL24h; only200 positive",
+    "direction": "2DG lowers several metabolic/inflammatory markers; rotenone generally raises protein markers vsDMSO; IL6mRNA comparisonNS",
+    "S1": "IL1beta +/-2DG5/10/15/20mM24h; rawCCK8OD450, allNS, numerical decreases; caption labels contradictpixels; not equivalence/no-toxicity",
+    "causal_limits": [
+      "LDHAknockdown is partial mechanistic corroboration, not exhaustive off-target exclusion",
+      "No direct promoter-specific lactylation or site-specificm6A chain",
+      "STAT1primer vsSTAT3claim discrepancy",
+      "Fig5FcaptionIL1beta vsimageIL6"
+    ]
+  },
+  "bub1b_measured_here": false,
+  "bub1b_role": "OnlyDiscussionbackground; citedCR2/CR41 mismatched for a direct PDACprimaryclaim",
+  "additional_bounded_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11071201/",
+    "scope": "Relevant Methods/Results/Figure7legend only; not full-paper or image review",
+    "finding": "Context-specific directional counter-evidence, not MVA harm established"
+  },
+  "comparison": "Retain actual non-MVA tissue positives. No change to provisional niacin/apitegromab comparison; no established efficacy for any candidate in actual genotype.",
+  "integration": "Original assessment only; raw primary materials remain external.",
+  "integration_status": "Integrated as original assessment; raw source materials remain outside Git; no additional abstract credit.",
+  "independent_appraisal_check": {
+    "report": {
+      "date": "2026-09-22",
+      "reader": "/root/revalidation_a64",
+      "status": "PASS_bounded_claims",
+      "blocking_corrections": [],
+      "reviewed_files": [
+        {
+          "file": "appraisal.md",
+          "sha256": "f2f73c6d3a37b6ffb0081a996cadecbca8e9ade2172ca588950931adcffbea33"
+        },
+        {
+          "file": "evidence.json",
+          "sha256": "ac158cfb5938dac0bf8fed136e271e7cb64cb39e263a09888d785cbf7aad16b3"
+        },
+        {
+          "file": "independent-check.md",
+          "sha256": "e8c2c352ccbfd758b71d6d28a0c02fb88a859f3e1e7eda12f3679d53375b15f6"
+        },
+        {
+          "file": "independent-check.json",
+          "sha256": "0e1c78e2f5bfd51b66c52c84a9fa5c391555b759ea41dcafee0fdc65bc26a0b5"
+        }
+      ],
+      "tool_read_evidence": {
+        "appraisal_chunk": "2c7bb4",
+        "evidence_chunk": "d52ea9",
+        "targeted_XML_and_manifest_verification_chunk": "d420fd"
+      },
+      "manifest_verification": {
+        "entries": 8,
+        "byte_counts": "all_match",
+        "sha256": "all_match"
+      },
+      "json_checks": {
+        "raw_source_body_fields": false,
+        "local_Users_paths": false
+      },
+      "approved_boundaries": [
+        "Positive corneal tissue outcomes retained separately from marker-only cell effects.",
+        "Dose concentrations/local route correct; incomplete injection regimen remains unresolved.",
+        "S1 NS findings not claimed as equivalence/no toxicity; caption and assay ambiguities preserved.",
+        "BUB1B not measured in corneal drug experiment.",
+        "PDAC source explicitly bounded to relevant Methods/Results/legend excerpts, not full-paper/image review; not generalized to MVA harm."
+      ],
+      "not_independently_revalidated": [
+        "Root complete-main read declaration beyond selected independent scope",
+        "Manufacturer/current catalog listings",
+        "PDAC primary factual extraction and dose, raw data or images"
+      ],
+      "new_abstract_reading_credit": 0,
+      "mutated_source_files": [],
+      "report_file": "final-appraisal-check.md",
+      "report_sha256": "bcad415b3d76fcb22766c8f1eced8a40aacc30a95e18b2fe1c3514bfb1b4c35f"
+    },
+    "external_file": "final-appraisal-check.json",
+    "sha256": "775acd860d922256d0c3b4af3f1621f39b6caad138642ff665f968ba06aadc34"
+  }
+}

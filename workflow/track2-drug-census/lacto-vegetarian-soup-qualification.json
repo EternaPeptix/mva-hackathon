@@ -1,0 +1,4920 @@
+{
+  "schema_version": "accepted-source-portable-qualification-v1",
+  "status": "PORTABLE_SYNTHESIS_OF_ACCEPTED_PRIMARY_PACKET",
+  "source_preparation": "LAUREL NUTRILAB lacto-vegetarian trial soup: older-adult functional-compensation comparison",
+  "decision_id": "new-laurel-lacto-vegetarian-soup",
+  "integration_baseline": "25527a94dd348829fb84c384c6c117aa5737a2ce",
+  "source_qualification": {
+    "schema_version": "lacto-vegetarian-soup-primary-qualification-v1",
+    "status": "FROZEN_PRIMARY_QUALIFICATION_PENDING_INDEPENDENT_REVIEW",
+    "date": "2026-09-27",
+    "citation": {
+      "pmid": "39823681",
+      "pmcid": "PMC12180063",
+      "doi": "10.1016/j.jnha.2024.100477",
+      "title": "Daily Supplementation with Protein-Enriched Lacto-Vegetarian Soups and Muscle Health in Community-Dwelling Older Adults: A Randomized Controlled Trial.",
+      "authors": "Kao SL, Wang JH, Lai HY, Hsiao FY, Chen LK, Loh CH.",
+      "journal": "The Journal of Nutrition, Health & Aging 29(3):100477 (2025)",
+      "first_online": "2025-01-16",
+      "source_urls": [
+        "https://doi.org/10.1016/j.jnha.2024.100477",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12180063/",
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12180063.1/PMC12180063.1.pdf",
+        "https://clinicaltrials.gov/study/NCT05243472"
+      ]
+    },
+    "preparation": {
+      "source_name": "protein-enriched lacto-vegetarian soup",
+      "named_supplier": "LAUREL NUTRILAB, Taiwan",
+      "source_commercial_description": true,
+      "exposure": "One pack ingested daily for 12 weeks, providing 24–30 g protein; frozen delivery or self-collection.",
+      "protein_sources_as_current_registry": "May come from soy, beans or milk products.",
+      "wording_limit": "Methods 2.3 initially describes 24–30 grams of protein-enriched soups; abstract, allocation paragraph and surrounding Methods specify protein per serving. Total soup mass is not recovered.",
+      "exact_recipe_pack_size_calories_micronutrients_sodium_amino_acids_batch_SKU": "Not recovered.",
+      "current_retail_or_generic_equivalence": false,
+      "comparator": "Usual diet/healthy-aging education without nutritional supplementation; no energy/protein/ingredient matched placebo.",
+      "lifestyle": "No assigned exercise; both groups asked to maintain usual diet/lifestyle and avoid added supplements or intervention programs.",
+      "attribution_limit": "Whole preparation versus education/usual diet; cannot isolate protein from energy, other ingredients, expectations or behavior.",
+      "locators": [
+        "Methods 2.1–2.3, PDF pp2–3",
+        "registry protocolSection/armsInterventionsModule"
+      ]
+    },
+    "design_population": {
+      "design": "Open-label parallel randomized trial; computer-generated blocks of 4, stratified by age and sex, independent allocator, sealed envelopes opened after baseline assessment.",
+      "recruitment_setting": "Hualien Tzu Chi Hospital and community channels, Taiwan",
+      "trial_dates_as_reported": [
+        "2022-03-01",
+        "2023-08-31"
+      ],
+      "duration_weeks": 12,
+      "screened": 102,
+      "excluded_before_randomization": 2,
+      "randomized": 100,
+      "randomized_groups": {
+        "intervention": 50,
+        "control": 50
+      },
+      "analyzed_groups": {
+        "intervention": 48,
+        "control": 49
+      },
+      "analysis_total": 97,
+      "withdrawals": {
+        "intervention_n": 2,
+        "intervention_main_reason": "Difficulty with intervention regimen",
+        "intervention_flowchart_reason": "Personal reasons",
+        "control_n": 1,
+        "control_reason": "Fall/lower-limb fracture and subsequent lifestyle change"
+      },
+      "mean_age_SD": [
+        72.4,
+        5.1
+      ],
+      "female_n_percent": [
+        73,
+        75.3
+      ],
+      "vegetarian_n_percent": [
+        45,
+        46.4
+      ],
+      "eligibility": "Age ≥65, MNA-SF ≤11, SARC-F ≥4 or SARC-CalF ≥11, willingness/ability to consent; exclude intolerance, serious/uncontrolled disease including cirrhosis/eGFR<30, relevant malignancy and major sensory impairment. Current registry gives further exclusions.",
+      "population_limit": "Selected older adults at nutritional/sarcopenia risk, not all vegetarians or all confirmed sarcopenia diagnoses; no MVA population.",
+      "masking": "None in current registry; main open-label; no verified outcome-assessor masking.",
+      "missingness": "Three randomized withdrawals excluded; no ITT definition, imputation or sensitivity analysis reported. Table 2 chair-rise n=46 intervention/48 control versus most rows48/49. Table 3 endpoint-specific denominators absent.",
+      "locators": [
+        "Methods 2.1–2.2 PDF p2",
+        "Results 3.1/Fig1/Table1 PDF pp3–4",
+        "Table2 PDF p5"
+      ]
+    },
+    "hierarchy_and_statistics": {
+      "paper_primary_domains": [
+        "Body composition",
+        "Physical performance and handgrip strength",
+        "Functional assessments including SARC-F, SARC-CalF, MNA-SF, MMSE, GDS-15"
+      ],
+      "paper_secondary": "Cardiometabolic/inflammatory biomarkers; additional renal/hepatic/electrolyte/vitamin measures reported.",
+      "sample_size_plan": {
+        "target_lean_mass_difference_kg": 1.14,
+        "SD_kg": 1.25,
+        "power": 0.9,
+        "alpha": 0.05,
+        "stated_base_sample": 54,
+        "minimum_after_dropout_allowance": 72,
+        "actual_enrolled": 100,
+        "functional_endpoint_specific_power": "Not established."
+      },
+      "within_group_test": "Paired t test; Table2 mean ± SD.",
+      "between_group_baseline_tests": "Student t test/chi-square as described; not a new balance test here.",
+      "GEE_reported_comparative_scope": "Author-reported intervention-versus-control GEE endpoint comparison at 12 weeks, based on Table 3 title and Results/Discussion. Exact group/reference/time coding and adjustment unspecified; do not label as independently verified adjusted change or interaction.",
+      "GEE_title": "The impacts of protein-enriched lacto-vegetarian soups on outcomes at 12th week using generalized estimating equations.",
+      "GEE_unspecified": [
+        "formula",
+        "link and distribution",
+        "working correlation",
+        "robust/model-based variance choice",
+        "group/reference/time coding",
+        "covariates",
+        "baseline-outcome adjustment",
+        "treatment-by-time term",
+        "endpoint-specific n",
+        "missing-data implementation"
+      ],
+      "adjusted_change_or_interaction_verified": false,
+      "comparative_endpoint_positives_retained": true,
+      "multiplicity": "No correction across multiple primary domains, components and numerous laboratory outcomes described. Nominal two-sided P<.05.",
+      "statistical_reanalysis": false,
+      "locators": [
+        "Methods2.5 PDFp3",
+        "Results3.3/Table3/Discussion PDFp6"
+      ]
+    },
+    "functional_findings": {
+      "reported_GEE": {
+        "SPPB": {
+          "beta": 0.83,
+          "CI95": [
+            0.15,
+            1.51
+          ],
+          "P": 0.02
+        },
+        "chair_rise_seconds": {
+          "beta": -2.25,
+          "CI95": [
+            -4.04,
+            -0.44
+          ],
+          "P": 0.01
+        },
+        "six_meter_walk_seconds": {
+          "beta": -0.65,
+          "CI95": [
+            -1.36,
+            0.05
+          ],
+          "P": 0.07
+        },
+        "handgrip_kg": {
+          "beta": 0.37,
+          "CI95": [
+            -1.98,
+            2.71
+          ],
+          "P": 0.76
+        },
+        "SARC_F": {
+          "beta": -0.68,
+          "CI95": [
+            -1.34,
+            -0.02
+          ],
+          "P": 0.04
+        },
+        "MNA_SF": {
+          "beta": 0.44,
+          "CI95": [
+            0.03,
+            0.84
+          ],
+          "P": 0.03
+        }
+      },
+      "SPPB_raw_mean_SD": {
+        "control_pre": [
+          10.1,
+          2.1
+        ],
+        "control_post": [
+          10.4,
+          2.3
+        ],
+        "intervention_pre": [
+          10.8,
+          1.4
+        ],
+        "intervention_post": [
+          11.4,
+          1.1
+        ]
+      },
+      "chair_raw_mean_SD_seconds": {
+        "control_pre": [
+          13.4,
+          6.3
+        ],
+        "control_post": [
+          12.1,
+          5.5
+        ],
+        "intervention_pre": [
+          10.8,
+          3.1
+        ],
+        "intervention_post": [
+          9.8,
+          2.3
+        ],
+        "control_n": 48,
+        "intervention_n": 46
+      },
+      "interpretation": "Raw trajectories and initial functional separation are distinct from author-reported GEE betas. Do not infer a wrong model from their mismatch, reconstruct an adjusted change effect, or erase comparative endpoint findings.",
+      "test_definitions": "SPPB balance/chair and 4-m walking in Methods; separate table/current-registry walk uses 6 m. Grip is best of 3 dominant-hand Smedley measurements. Preserve labels.",
+      "component_dependency": "Chair-rise and composite SPPB are related outcomes, not independent replications.",
+      "ceiling_context": "Intervention SPPB baseline 10.8/final 11.4 near upper score 12."
+    },
+    "body_composition_reporting": {
+      "abstract": "Broad wording says no significant body-composition changes in intervention.",
+      "main_within_group": "Table 2/Results report intervention waist, hip, total body water and skeletal muscle mass increases; muscle mass 18.8 ±3.0 to 19.0 ±2.9 kg, P=.003.",
+      "GEE": "All Table3 body-composition coefficients nonpositive; muscle mass −0.32 kg (−1.49,0.86), P=.60; ASM 0.06 kg/m² (−0.21,0.34), P=.65.",
+      "limit": "Keep wording and test types separate; within-arm gain is not comparative gain, and comparative nonpositive result does not erase within-arm observation. BIA is not direct tissue renewal."
+    },
+    "lab_findings": "Within-arm changes in both groups; no Table3 cardiometabolic, inflammatory, renal, hepatic, electrolyte or vitamin coefficient is significant under its printed P. Do not convert lab nonpositives into renal/hepatic safety equivalence.",
+    "nutrient_rows": {
+      "Calorie": {
+        "beta_and_CI": "288.7 (12.96 to 564.42)",
+        "P": "0.04*"
+      },
+      "Water": {
+        "beta_and_CI": "292.62 (1.32 to 583.9)",
+        "P": "0.05, no star"
+      },
+      "Protein": {
+        "beta_and_CI": "8.61 (−3.21 to 20.43)",
+        "P": "0.15"
+      },
+      "Fat": {
+        "beta_and_CI": "6.00 (−7.00 to 19.00)",
+        "P": "0.37"
+      },
+      "Carbohydrate": {
+        "beta_and_CI": "9.62 (−31.85 to 51.09)",
+        "P": "0.65"
+      },
+      "limits": "Table 3 nutrient rows omit units, complete assessment details and baseline/final intake values. Not the soup nutrient label or demonstrated 24–30 g increase in total daily intake."
+    },
+    "all_tables_as_reported": [
+      {
+        "id": "tbl0005",
+        "label": "Table 1",
+        "caption": "Demographic and clinical characteristics between intervention and control groups (n = 97).",
+        "rows": [
+          [
+            {
+              "text": "",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "Total",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "Control",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "Intervention",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "P-value",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "2"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "(n = 97)",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "(n = 49)",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "(n = 48)",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Age (years)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "72.4 ± 5.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "72.3 ± 5.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "72.6 ± 5.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.82",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Female (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "73 (75.3%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "37 (75.5%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "36 (75.0%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.95",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Education (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.95",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Elementary school (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "23 (23.7%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "11 (22.5%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "12 (25.0%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Junior high school (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "18 (18.6%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "9 (18.4%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "9 (18.8%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "High school (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "27 (27.8%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "15 (30.6%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "12 (25.0%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Junior college (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "18 (18.6%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "8 (16.3%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "10 (20.8%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "College and above (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "11 (11.3%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "6 (12.2%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5 (10.4%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Vegetarian (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "45 (46.4%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "23 (46.9%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "22 (45.8%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.91",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Smoking (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "14 (14.4%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "7 (14.3%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "7 (14.6%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.97",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "CCI",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "4.6 ± 1.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "4.7 ± 1.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "4.5 ± 1.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.51",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ]
+        ],
+        "footnotes": [
+          "Note: Data are presented as number (%) or mean ± standard deviation.*P < 0.05.CCI: Charlson comorbidity index."
+        ],
+        "source": "raw/main.xml",
+        "native_page": 4
+      },
+      {
+        "id": "tbl0010",
+        "label": "Table 2",
+        "caption": "Changes at baseline (0 weeks) and at 12th weeks in the intervention and control groups (n = 97).",
+        "rows": [
+          [
+            {
+              "text": "",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "Control",
+              "tag": "th",
+              "colspan": "4",
+              "rowspan": "1"
+            },
+            {
+              "text": "Intervention",
+              "tag": "th",
+              "colspan": "4",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "n",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "Baseline",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "at 12th week",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "P-value",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "n",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "Baseline",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "at 12th week",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "P-value",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Body composition",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "BMI (kg/m2)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "21.7 ± 2.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "21.7 ± 2.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.56",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "22.3 ± 2.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "22.4 ± 2.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.70",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Waist circumference (cm)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "84.2 ± 8.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "84.3 ± 8.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.06",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "84.1 ± 7.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "85.3 ± 8.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Hip circumference (cm)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "91.4 ± 4.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "91.0 ± 4.8",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.004*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "91.6 ± 5.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "91.9 ± 5.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.003*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Total body water (kg)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "26.7 ± 3.8",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "26.8 ± 3.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.42",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "26.2 ± 3.8",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "26.5 ± 3.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.009*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Body fat percentage (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "30.3 ± 5.8",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "30.1 ± 6.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.42",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "31.8 ± 7.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "31.3 ± 7.4",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.06",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Skeletal muscle mass (kg)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "19.2 ± 3.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "19.3 ± 3.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.41",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "18.8 ± 3.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "19.0 ± 2.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.003*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "ASM (kg/m2)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.8 ± 0.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.8 ± 0.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.99",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.8 ± 0.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.9 ± 0.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.17",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Physical performance and muscle strength",
+              "tag": "td",
+              "colspan": "9",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "SPPB",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "10.1 ± 2.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "10.4 ± 2.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.08",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "10.8 ± 1.4",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "11.4 ± 1.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "5-time chair rise test (sec)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "13.4 ± 6.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "12.1 ± 5.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "46",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "10.8 ± 3.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "9.8 ± 2.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.003*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "6-meter walk (sec)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "7.0 ± 2.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "6.6 ± 2.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "6.2 ± 1.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "6.1 ± 1.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.05",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Hand grip strength (kg)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "21.7 ± 6.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "22.2 ± 5.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.17",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "22.2 ± 6.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "22.5 ± 5.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.54",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Functional assessment",
+              "tag": "td",
+              "colspan": "9",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "SARC-F",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "3.0 ± 1.8",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "2.6 ± 1.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.008*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "2.5 ± 1.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "1.7 ± 1.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "SARC-CalF",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "11.0 ± 3.8",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "10.1 ± 4.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.02*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "10.9 ± 3.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "9.2 ± 4.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "MNA-SF",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "10.1 ± 1.4",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "11.7 ± 1.4",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "10.6 ± 1.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "12.1 ± 1.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "MMSE",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "27.4 ± 2.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "28.0 ± 2.6",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.06",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "27.6 ± 2.4",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "28.7 ± 1.8",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "GDS-15",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "2.8 ± 2.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "2.8 ± 2.8",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.83",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "2.2 ± 2.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "1.8 ± 1.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.11",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Laboratory data",
+              "tag": "td",
+              "colspan": "9",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Cardiometabolic risk factors",
+              "tag": "td",
+              "colspan": "9",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Total cholesterol (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "182.6 ± 39.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "171.8 ± 31.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "191.9 ± 34.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "182.7 ± 34.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "LDL (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "102.3 ± 32.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "95.8 ± 25.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "109.4 ± 30.8",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "106.6 ± 28.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.07",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "HDL (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "59.8 ± 14.4",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "57.4 ± 14.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "57.4 ± 14.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "56.4 ± 15.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.03*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Triglyceride (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "109.6 ± 47.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "108.2 ± 42.4",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.68",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "127.6 ± 83.6",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "116.5 ± 70.4",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.002*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Fasting glucose (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "101.6 ± 15.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "104.4 ± 18.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "102.6 ± 16.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "103.1 ± 17.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.54",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "HbA1c (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "6.0 ± 0.6",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "6.0 ± 0.6",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.18",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "6.0 ± 0.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "6.0 ± 0.6",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.10",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Insulin (uIU/mL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "4.8 ± 2.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.1 ± 2.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.08",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "4.8 ± 2.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.1 ± 2.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.06",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Homocysteine (μmol/L)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "9.8 ± 3.6",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "9.4 ± 2.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.006*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "9.7 ± 3.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "9.5 ± 3.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.15",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Inflammatory markers",
+              "tag": "td",
+              "colspan": "9",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Albumin (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "4.4 ± 0.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "4.2 ± 0.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "4.3 ± 0.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "4.2 ± 0.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Hb (g/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "13.2 ± 1.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "13.0 ± 1.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "13.6 ± 1.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "13.4 ± 1.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "WBC (103/uL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.4 ± 1.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.3 ± 1.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.14",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.6 ± 1.4",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.7 ± 1.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.08",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Lymphocyte (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "31.8 ± 9.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "32.1 ± 8.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.58",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "31.2 ± 10.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "32.8 ± 9.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "hs-CRP (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.2 ± 0.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.1 ± 0.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.80",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.2 ± 0.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.7 ± 2.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.08",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Renal function",
+              "tag": "td",
+              "colspan": "9",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "eGFR",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "84.2 ± 15.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "88.3 ± 17.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "84.8 ± 20.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "91.1 ± 19.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "eGFRcys",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "81.8 ± 16.6",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "78.3 ± 17.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "81.0 ± 17.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "80.8 ± 16.6",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.69",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "BUN (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "15.4 ± 3.6",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "16.9 ± 4.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.29",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "14.8 ± 4.6",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "15.1 ± 3.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Creatinine (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.79 ± 0.16",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.77 ± 0.17",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.81± 0.24",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.75 ± 0.18",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Cystatin C (mg/L)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.90 ± 0.18",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.94 ± 0.18",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.91± 0.20",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.91± 0.17",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.77",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Liver function",
+              "tag": "td",
+              "colspan": "9",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "AST (U/L)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "19.4 ± 4.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "20.9 ± 7.4",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.002*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "20.9 ± 5.4",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "21.1 ± 7.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.40",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "ALT (U/L)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "15.7 ± 4.8",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "16.9 ± 11.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.15",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "16.9 ± 7.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "17.9 ± 11.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.21",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Electrolyte",
+              "tag": "td",
+              "colspan": "9",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Sodium (mmol/L)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "140.2 ± 2.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "139.8 ± 2.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.07",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "140.8 ± 1.9",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "139.0 ± 2.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Potassium (mmol/L)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "4.1 ± 0.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "4.1 ± 0.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.14",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "4.2 ± 0.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "4.2 ± 0.3",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.45",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Vit B12 (pg/mL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "652.6 ± 785.8",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "661.9 ± 988.4",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.66",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "645.2 ± 498.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "600.4 ± 401.7",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.02*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "25-(OH) Vit D3 (ng/mL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "36.4 ± 13.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "38.3 ± 16.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.008*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "36.3 ± 12.5",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "36.8 ± 12.8",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.41",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Uric acid (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "49",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.0 ± 1.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.2 ± 1.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "<0.001*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.1 ± 1.1",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.1 ± 1.0",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.86",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ]
+        ],
+        "footnotes": [
+          "Note: Data are presented as mean ± standard deviation. *P < 0.05.ASM Appendicular skeletal muscle mass index (calculated as appendicular skeletal muscle mass in kilograms divided by height in meters squared), BMI Body mass index (calculated as weight in kilograms divided by height in meters squared), GDS-15 Geriatric depression scale-15, HDL-C High-density lipoprotein cholesterol, hs-CRP High sensitive C-reactive protein, LDL-C Low-density lipoprotein cholesterol, MMSE Mini-mental state examination, MNA-SF Mini nutritional assessment-short form, SARC-CalF SARC-F combined with calf circumference, SPPB Short physical performance battery, WBC White blood cell count."
+        ],
+        "source": "raw/main.xml",
+        "native_page": 5
+      },
+      {
+        "id": "tbl0015",
+        "label": "Table 3",
+        "caption": "The impacts of protein-enriched lacto-vegetarian soups on outcomes at 12th week using generalized estimating equations.",
+        "rows": [
+          [
+            {
+              "text": "",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "2"
+            },
+            {
+              "text": "At 12th week",
+              "tag": "th",
+              "colspan": "3",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Beta (95% CI)",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "SE",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "P-value",
+              "tag": "th",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Body composition",
+              "tag": "td",
+              "colspan": "4",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "BMI (kg/m2)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.63 (−0.35 to 1.61)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.50",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.21",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Waist circumference (cm)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.59 (−2.56 to 3.75)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "1.61",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.71",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Hip circumference (cm)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.55 (−1.34 to 2.45)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.97",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.57",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Leg circumference (cm)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.23 (−0.55 to 1.02)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.40",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.56",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Body fat percentage (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "1.34 (−1.25 to 3.94)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "1.32",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.31",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Skeletal muscle mass (kg)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−0.32 (−1.49 to 0.86)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.60",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.60",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "ASM (kg/m2)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.06 (−0.21 to 0.34)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.14",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.65",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Physical performance and muscle strength",
+              "tag": "td",
+              "colspan": "4",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "SPPB",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.83 (0.15 to 1.51)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.35",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.02*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "5-time chair rise test (sec)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−2.25 (−4.04 to −0.44)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.92",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.01*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "6-meter walk (sec)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−0.65 (−1.36 to 0.05)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.36",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.07",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Hand grip strength (kg)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.37 (−1.98 to 2.71)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "1.20",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.76",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Functional assessment",
+              "tag": "td",
+              "colspan": "4",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "SARC-F",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−0.68 (−1.34 to −0.02)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.34",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.04*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "SARC-CalF",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−0.51 (−1.93 to 0.91)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.73",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "MNA-SF",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.44 (0.03 to 0.84)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.21",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.03*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "MMSE",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.45 (−0.42 to 1.34)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.45",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.30",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "GDS-15",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−0.90 (−1.80 to 0.04)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.06",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Laboratory data",
+              "tag": "td",
+              "colspan": "4",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Cardiometabolic risk factors",
+              "tag": "td",
+              "colspan": "4",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Total cholesterol (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "10.08 (−2.90 to 23.08)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "6.62",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.13",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "LDL (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "8.94 (−2.02 to 19.92)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "5.60",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.11",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "HDL (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−1.68 (−7.31 to 3.97)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "2.88",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.56",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Triglyceride (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "13.21 (−10.38 to 36.79)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "12.03",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.27",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Fasting glucose (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−0.18 (−6.65 to 6.30)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "3.30",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.96",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "HbA1c (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.04 (−0.20 to 0.28)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.12",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.75",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Insulin (uIU/mL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−0.02 (−1.00 to 0.96)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.50",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.97",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Homocysteine (μmol/L)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−0.02 (−1.28 to 1.23)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.63",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.97",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Inflammatory markers",
+              "tag": "td",
+              "colspan": "4",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Albumin (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.0009 (−0.08 to 0.08)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.04",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.98",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Hb (g/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.40 (−0.12 to 0.93)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.27",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.13",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "WBC (103/uL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.29 (−0.21 to 0.81)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.26",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.26",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Lymphocyte (%)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.05 (−3.30 to 3.41)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "1.72",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.98",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "hs-CRP (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.29 (−0.12 to 0.71)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.21",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.17",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Renal function",
+              "tag": "td",
+              "colspan": "4",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "eGFR",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "1.71 (−5.39 to 8.80)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "3.62",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.64",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "eGFRcys",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.79 (−5.75 to 7.34)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "3.34",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.81",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "BUN (mg/dl)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.58 (−0.91 to 2.07)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.76",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.45",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Creatinine (mg/dl)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.0006 (−0.07 to 0.07)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.04",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.99",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Cystatin C (mg/L)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−0.009 (−0.08 to 0.06)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.03",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.80",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Liver function",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "AST (U/L)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.85 (−1.42 to 3.13)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "1.16",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.46",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "ALT (U/L)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "1.11 (−1.99 to 4.21)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "1.58",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.48",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Electrolyte",
+              "tag": "td",
+              "colspan": "4",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Sodium (mmol/L)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−0.10 (−0.89 to 0.68)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.40",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.80",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Potassium (mmol/L)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.09 (−0.02 to 0.20)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.05",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.10",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Vit B12 (pg/mL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−34.48 (−308.35 to 239.38)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "139.72",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.81",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "25-(OH) Vit D3 (ng/mL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "−0.79 (−5.99 to 4.40)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "2.65",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.76",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Uric acid (mg/dL)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.04 (−0.36 to 0.43)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.20",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.86",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Nutrient element",
+              "tag": "td",
+              "colspan": "4",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Calorie",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "288.7 (12.96 to 564.42)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "140.68",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.04*",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Water",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "292.62 (1.32 to 583.9)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "148.6",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.05",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Protein",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "8.61 (−3.21 to 20.43)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "6.03",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.15",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Fat",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "6.00 (−7.00 to 19.00)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "6.63",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.37",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ],
+          [
+            {
+              "text": "Carbohydrate",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "9.62 (−31.85 to 51.09)",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "21.2",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            },
+            {
+              "text": "0.65",
+              "tag": "td",
+              "colspan": "1",
+              "rowspan": "1"
+            }
+          ]
+        ],
+        "footnotes": [
+          "ASM Appendicular skeletal muscle mass index (calculated as appendicular skeletal muscle mass in kilograms divided by height in meters squared), BMI Body mass index (calculated as weight in kilograms divided by height in meters squared), GDS-15 Geriatric depression scale-15, HDL-C High-density lipoprotein cholesterol, hs-CRP High sensitive C-reactive protein, LDL-C Low-density lipoprotein cholesterol, MMSE Mini-mental state examination, MNA-SF Mini nutritional assessment-short form, SARC-CalF SARC-F combined with calf circumference, SPPB Short physical performance battery, WBC White blood cell count.",
+          "*P < 0.05."
+        ],
+        "source": "raw/main.xml",
+        "native_page": 6
+      }
+    ],
+    "GEE_rows_compact": [
+      {
+        "outcome_as_printed": "BMI (kg/m2)",
+        "beta_and_95CI_as_printed": "0.63 (−0.35 to 1.61)",
+        "SE_as_printed": "0.50",
+        "P_as_printed": "0.21"
+      },
+      {
+        "outcome_as_printed": "Waist circumference (cm)",
+        "beta_and_95CI_as_printed": "0.59 (−2.56 to 3.75)",
+        "SE_as_printed": "1.61",
+        "P_as_printed": "0.71"
+      },
+      {
+        "outcome_as_printed": "Hip circumference (cm)",
+        "beta_and_95CI_as_printed": "0.55 (−1.34 to 2.45)",
+        "SE_as_printed": "0.97",
+        "P_as_printed": "0.57"
+      },
+      {
+        "outcome_as_printed": "Leg circumference (cm)",
+        "beta_and_95CI_as_printed": "0.23 (−0.55 to 1.02)",
+        "SE_as_printed": "0.40",
+        "P_as_printed": "0.56"
+      },
+      {
+        "outcome_as_printed": "Body fat percentage (%)",
+        "beta_and_95CI_as_printed": "1.34 (−1.25 to 3.94)",
+        "SE_as_printed": "1.32",
+        "P_as_printed": "0.31"
+      },
+      {
+        "outcome_as_printed": "Skeletal muscle mass (kg)",
+        "beta_and_95CI_as_printed": "−0.32 (−1.49 to 0.86)",
+        "SE_as_printed": "0.60",
+        "P_as_printed": "0.60"
+      },
+      {
+        "outcome_as_printed": "ASM (kg/m2)",
+        "beta_and_95CI_as_printed": "0.06 (−0.21 to 0.34)",
+        "SE_as_printed": "0.14",
+        "P_as_printed": "0.65"
+      },
+      {
+        "outcome_as_printed": "SPPB",
+        "beta_and_95CI_as_printed": "0.83 (0.15 to 1.51)",
+        "SE_as_printed": "0.35",
+        "P_as_printed": "0.02*"
+      },
+      {
+        "outcome_as_printed": "5-time chair rise test (sec)",
+        "beta_and_95CI_as_printed": "−2.25 (−4.04 to −0.44)",
+        "SE_as_printed": "0.92",
+        "P_as_printed": "0.01*"
+      },
+      {
+        "outcome_as_printed": "6-meter walk (sec)",
+        "beta_and_95CI_as_printed": "−0.65 (−1.36 to 0.05)",
+        "SE_as_printed": "0.36",
+        "P_as_printed": "0.07"
+      },
+      {
+        "outcome_as_printed": "Hand grip strength (kg)",
+        "beta_and_95CI_as_printed": "0.37 (−1.98 to 2.71)",
+        "SE_as_printed": "1.20",
+        "P_as_printed": "0.76"
+      },
+      {
+        "outcome_as_printed": "SARC-F",
+        "beta_and_95CI_as_printed": "−0.68 (−1.34 to −0.02)",
+        "SE_as_printed": "0.34",
+        "P_as_printed": "0.04*"
+      },
+      {
+        "outcome_as_printed": "SARC-CalF",
+        "beta_and_95CI_as_printed": "−0.51 (−1.93 to 0.91)",
+        "SE_as_printed": "0.73",
+        "P_as_printed": "0.48"
+      },
+      {
+        "outcome_as_printed": "MNA-SF",
+        "beta_and_95CI_as_printed": "0.44 (0.03 to 0.84)",
+        "SE_as_printed": "0.21",
+        "P_as_printed": "0.03*"
+      },
+      {
+        "outcome_as_printed": "MMSE",
+        "beta_and_95CI_as_printed": "0.45 (−0.42 to 1.34)",
+        "SE_as_printed": "0.45",
+        "P_as_printed": "0.30"
+      },
+      {
+        "outcome_as_printed": "GDS-15",
+        "beta_and_95CI_as_printed": "−0.90 (−1.80 to 0.04)",
+        "SE_as_printed": "0.48",
+        "P_as_printed": "0.06"
+      },
+      {
+        "outcome_as_printed": "Total cholesterol (mg/dL)",
+        "beta_and_95CI_as_printed": "10.08 (−2.90 to 23.08)",
+        "SE_as_printed": "6.62",
+        "P_as_printed": "0.13"
+      },
+      {
+        "outcome_as_printed": "LDL (mg/dL)",
+        "beta_and_95CI_as_printed": "8.94 (−2.02 to 19.92)",
+        "SE_as_printed": "5.60",
+        "P_as_printed": "0.11"
+      },
+      {
+        "outcome_as_printed": "HDL (mg/dL)",
+        "beta_and_95CI_as_printed": "−1.68 (−7.31 to 3.97)",
+        "SE_as_printed": "2.88",
+        "P_as_printed": "0.56"
+      },
+      {
+        "outcome_as_printed": "Triglyceride (mg/dL)",
+        "beta_and_95CI_as_printed": "13.21 (−10.38 to 36.79)",
+        "SE_as_printed": "12.03",
+        "P_as_printed": "0.27"
+      },
+      {
+        "outcome_as_printed": "Fasting glucose (mg/dL)",
+        "beta_and_95CI_as_printed": "−0.18 (−6.65 to 6.30)",
+        "SE_as_printed": "3.30",
+        "P_as_printed": "0.96"
+      },
+      {
+        "outcome_as_printed": "HbA1c (%)",
+        "beta_and_95CI_as_printed": "0.04 (−0.20 to 0.28)",
+        "SE_as_printed": "0.12",
+        "P_as_printed": "0.75"
+      },
+      {
+        "outcome_as_printed": "Insulin (uIU/mL)",
+        "beta_and_95CI_as_printed": "−0.02 (−1.00 to 0.96)",
+        "SE_as_printed": "0.50",
+        "P_as_printed": "0.97"
+      },
+      {
+        "outcome_as_printed": "Homocysteine (μmol/L)",
+        "beta_and_95CI_as_printed": "−0.02 (−1.28 to 1.23)",
+        "SE_as_printed": "0.63",
+        "P_as_printed": "0.97"
+      },
+      {
+        "outcome_as_printed": "Albumin (mg/dL)",
+        "beta_and_95CI_as_printed": "0.0009 (−0.08 to 0.08)",
+        "SE_as_printed": "0.04",
+        "P_as_printed": "0.98"
+      },
+      {
+        "outcome_as_printed": "Hb (g/dL)",
+        "beta_and_95CI_as_printed": "0.40 (−0.12 to 0.93)",
+        "SE_as_printed": "0.27",
+        "P_as_printed": "0.13"
+      },
+      {
+        "outcome_as_printed": "WBC (103/uL)",
+        "beta_and_95CI_as_printed": "0.29 (−0.21 to 0.81)",
+        "SE_as_printed": "0.26",
+        "P_as_printed": "0.26"
+      },
+      {
+        "outcome_as_printed": "Lymphocyte (%)",
+        "beta_and_95CI_as_printed": "0.05 (−3.30 to 3.41)",
+        "SE_as_printed": "1.72",
+        "P_as_printed": "0.98"
+      },
+      {
+        "outcome_as_printed": "hs-CRP (mg/dL)",
+        "beta_and_95CI_as_printed": "0.29 (−0.12 to 0.71)",
+        "SE_as_printed": "0.21",
+        "P_as_printed": "0.17"
+      },
+      {
+        "outcome_as_printed": "eGFR",
+        "beta_and_95CI_as_printed": "1.71 (−5.39 to 8.80)",
+        "SE_as_printed": "3.62",
+        "P_as_printed": "0.64"
+      },
+      {
+        "outcome_as_printed": "eGFRcys",
+        "beta_and_95CI_as_printed": "0.79 (−5.75 to 7.34)",
+        "SE_as_printed": "3.34",
+        "P_as_printed": "0.81"
+      },
+      {
+        "outcome_as_printed": "BUN (mg/dl)",
+        "beta_and_95CI_as_printed": "0.58 (−0.91 to 2.07)",
+        "SE_as_printed": "0.76",
+        "P_as_printed": "0.45"
+      },
+      {
+        "outcome_as_printed": "Creatinine (mg/dl)",
+        "beta_and_95CI_as_printed": "0.0006 (−0.07 to 0.07)",
+        "SE_as_printed": "0.04",
+        "P_as_printed": "0.99"
+      },
+      {
+        "outcome_as_printed": "Cystatin C (mg/L)",
+        "beta_and_95CI_as_printed": "−0.009 (−0.08 to 0.06)",
+        "SE_as_printed": "0.03",
+        "P_as_printed": "0.80"
+      },
+      {
+        "outcome_as_printed": "AST (U/L)",
+        "beta_and_95CI_as_printed": "0.85 (−1.42 to 3.13)",
+        "SE_as_printed": "1.16",
+        "P_as_printed": "0.46"
+      },
+      {
+        "outcome_as_printed": "ALT (U/L)",
+        "beta_and_95CI_as_printed": "1.11 (−1.99 to 4.21)",
+        "SE_as_printed": "1.58",
+        "P_as_printed": "0.48"
+      },
+      {
+        "outcome_as_printed": "Sodium (mmol/L)",
+        "beta_and_95CI_as_printed": "−0.10 (−0.89 to 0.68)",
+        "SE_as_printed": "0.40",
+        "P_as_printed": "0.80"
+      },
+      {
+        "outcome_as_printed": "Potassium (mmol/L)",
+        "beta_and_95CI_as_printed": "0.09 (−0.02 to 0.20)",
+        "SE_as_printed": "0.05",
+        "P_as_printed": "0.10"
+      },
+      {
+        "outcome_as_printed": "Vit B12 (pg/mL)",
+        "beta_and_95CI_as_printed": "−34.48 (−308.35 to 239.38)",
+        "SE_as_printed": "139.72",
+        "P_as_printed": "0.81"
+      },
+      {
+        "outcome_as_printed": "25-(OH) Vit D3 (ng/mL)",
+        "beta_and_95CI_as_printed": "−0.79 (−5.99 to 4.40)",
+        "SE_as_printed": "2.65",
+        "P_as_printed": "0.76"
+      },
+      {
+        "outcome_as_printed": "Uric acid (mg/dL)",
+        "beta_and_95CI_as_printed": "0.04 (−0.36 to 0.43)",
+        "SE_as_printed": "0.20",
+        "P_as_printed": "0.86"
+      },
+      {
+        "outcome_as_printed": "Calorie",
+        "beta_and_95CI_as_printed": "288.7 (12.96 to 564.42)",
+        "SE_as_printed": "140.68",
+        "P_as_printed": "0.04*"
+      },
+      {
+        "outcome_as_printed": "Water",
+        "beta_and_95CI_as_printed": "292.62 (1.32 to 583.9)",
+        "SE_as_printed": "148.6",
+        "P_as_printed": "0.05"
+      },
+      {
+        "outcome_as_printed": "Protein",
+        "beta_and_95CI_as_printed": "8.61 (−3.21 to 20.43)",
+        "SE_as_printed": "6.03",
+        "P_as_printed": "0.15"
+      },
+      {
+        "outcome_as_printed": "Fat",
+        "beta_and_95CI_as_printed": "6.00 (−7.00 to 19.00)",
+        "SE_as_printed": "6.63",
+        "P_as_printed": "0.37"
+      },
+      {
+        "outcome_as_printed": "Carbohydrate",
+        "beta_and_95CI_as_printed": "9.62 (−31.85 to 51.09)",
+        "SE_as_printed": "21.2",
+        "P_as_printed": "0.65"
+      }
+    ],
+    "adherence_harms": {
+      "contact_schedule": "Every two weeks by phone/in person.",
+      "intervention_completers_adherence": {
+        "n": 48,
+        "80_to_90_percent": 3,
+        "90_to_100_percent": 45
+      },
+      "adherence_limit": "Completers only, not all 50 randomized.",
+      "reported": "No severe adverse reactions throughout study.",
+      "withdrawals_and_control_fracture_retained": true,
+      "limits": [
+        "No graded adverse-event table",
+        "No event definitions or full comparative counts",
+        "Two intervention withdrawals not causally assigned to adverse reactions",
+        "Laboratory nonpositives do not establish equivalence",
+        "No long-term safety demonstrated"
+      ]
+    },
+    "registration": {
+      "id": "NCT05243472",
+      "paper_link_verified": "Main prints NCT; current registry references PMID39823681 and matches investigator/institution/IRB.",
+      "first_submitted": "2022-01-06",
+      "first_posted": "2022-02-17",
+      "actual_start": "2022-03-01",
+      "completion": "2023-08-31",
+      "latest_posted_update": "2024-08-07",
+      "registration_before_reported_start_supported": true,
+      "original_historical_fields_verified": false,
+      "history_access": "Public history page failed; saved history endpoint returned403. No access-control bypass.",
+      "current_primary_count": 11,
+      "current_secondary_count": 28,
+      "differences": "Current registry primary CFS,FRAIL,WHOQOL-BREF,IPAQ not recovered in main. Body/muscle mass secondary in current record but paper primary domain. SARC-F/SARC-CalF not separately named in current primary list.",
+      "mapping": "registry-outcome-map.json",
+      "interpretation": "Current record versus publication comparison, not proof of prospective outcome switching.",
+      "has_posted_results": false,
+      "protocol_SAP_code_or_attachment": "No documentSection in current response; no original protocol/SAP/code recovered."
+    },
+    "disclosure_and_family": {
+      "funding": "Industry-academia cooperation project, Hualien Tzu Chi Hospital and Laurel Corporation.",
+      "COI": "Authors claim no conflict.",
+      "ethics": "Hualien Tzu Chi Hospital IRB110-246-A, consent reported.",
+      "data_access": "Upon reasonable request; no request sent or data obtained.",
+      "notices": "No comment/correction in exact current EuropePMC metadata; Crossref relation empty/update-to absent and cloud is_retracted=false. Not an exhaustive notice-history audit.",
+      "cohort_family": "One identified paper/NCT05243472. Cited earlier protein studies are context; their cohorts were not freshly read or pooled, and no independent replication count is claimed."
+    },
+    "competitive_scope": {
+      "reported_functional_positive_retained": true,
+      "matched_energy_or_isolated_protein_effect": false,
+      "BUBR1_restoration": false,
+      "MVA_efficacy": false,
+      "tissue_renewal_or_fidelity_demonstrated": false,
+      "same_compensation_criteria": true,
+      "BUBR1_mediation_additionally_required_only_for_restoration_claim": true,
+      "nominee_change": false,
+      "new_appraisal_or_alias_proposed": false,
+      "clinical_regimen_or_retail_equivalence_claim": false
+    },
+    "historical_identity_check": {
+      "binding": {
+        "baseline": "b559d0add8a6b3ee10cc127845fe91b33be821dc",
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "bytes": 501415,
+        "sha256": "fd56808abad2db475dc7ef6de311a6f64eabf6202d216313daaf83e31f8b34c1",
+        "appraisals": 277,
+        "scope": "Exact source/preparation string lookup in immutable ledger, not live state or exhaustive synonym search. No appraisal proposed."
+      },
+      "exact_substring_matches": {
+        "39823681": [],
+        "10.1016/j.jnha.2024.100477": [],
+        "NCT05243472": [],
+        "LAUREL NUTRILAB": [],
+        "lacto-vegetarian soup": []
+      },
+      "new_appraisal_or_alias_proposed": false
+    },
+    "actual_reading_scope": "Complete scientific main plus all 8 native pages, flowchart and all tables/captions/footnotes/disclosures/references; current registry complete. No historical fields, original protocol/SAP, separate supplement, participant data, code or cited-study reading.",
+    "new_original_queue_credit": 0,
+    "repository_edits_tests_replays_or_integration": false
+  },
+  "source_and_review_provenance": {
+    "producer_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lacto-vegetarian-soup-primary-20260927/final-bindings.json",
+      "bytes": 18537,
+      "sha256": "754affc87ee206cdcfe189b8b58e1111441c2a532ebb5d77069ebfe7133cb458"
+    },
+    "producer_qualification": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lacto-vegetarian-soup-primary-20260927/qualification.json",
+      "bytes": 119860,
+      "sha256": "cd36bfa609262662349c4ed7d3a775bd77e6112b873c101ca1a8847bf6d8a5a8"
+    },
+    "independent_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lacto-vegetarian-soup-primary-20260927/independent-review/final-bindings.json",
+      "bytes": 3563,
+      "sha256": "994e0768ec580da2b30966e1c3450ab15a6c0d2a37c6273b987be1075d278381"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lacto-vegetarian-soup-primary-20260927/independent-review/review.json",
+      "bytes": 5008,
+      "sha256": "1971b98b0a58df13d8137d59b904e7669864e8b0c1a462199e8bb428781ca830"
+    },
+    "reading_roles": "Producer primary reading, separate independent source review, and this portable synthesis are distinct. No new primary reading in this synthesis."
+  },
+  "outward_markdown_transformations": [
+    {
+      "old": "nonpositive",
+      "new": "nonsignificant",
+      "occurrences": 3,
+      "reason": "Root-approved independent-review clarification: refers to P>.05, not coefficient sign. No numerical or inferential change."
+    }
+  ],
+  "source_JSON_preserved_exact": true,
+  "scientific_summary": "The open-label randomized Taiwan trial tested one commercially described LAUREL NUTRILAB lacto-vegetarian soup daily, providing 24–30 g protein for 12 weeks, against usual diet/healthy-aging education without a supplement. One hundred adults aged at least 65 at nutritional and sarcopenia risk were randomized 50/50; 48 intervention/49 control participants were analyzed, with chair testing in 46/48. Table 3 and Results report comparative 12-week GEE coefficients favoring soup for SPPB (+0.83 points, 95% CI 0.15–1.51; P=.02) and chair-rise time (−2.25 seconds, −4.04 to −0.44; P=.01). These are reported intervention-versus-control endpoint positives; exact coding, baseline adjustment and change/interaction construction are unrecovered, so raw-change differences neither reconstruct nor invalidate the model. Grip (+0.37 kg; P=.76), six-metre walk (−0.65 seconds; P=.07) and all body-composition comparisons were nonsignificant. Within-arm mass gain is a separate observation. SARC-F and MNA-SF were nominally favorable; other functional and laboratory comparisons were nonsignificant. The recipe, ingredient proportions and current retail equivalent are unknown; registry protein sources may include soy, beans or milk. Unmatched food energy, open-label behavior, multiple outcomes, baseline differences and missingness prevent an isolated-protein conclusion. No severe adverse reactions were reported, without a graded comparative safety table; regimen withdrawals and a control fracture are retained. Current registry hierarchy differs from the paper, without verified original history. Industry–academic support is disclosed. This preparation adds useful functional comparative evidence without establishing generic soup/protein efficacy, MVA benefit, tissue renewal or superiority to the provisional nominees.",
+  "identity_limit": "Automatic aliases are withheld. The source-specific trial label and supplier do not identify a unique recipe or equivalent catalog/retail product. Generic protein, soy, bean, milk, lacto-vegetarian soup and LAUREL alone must not inherit this result.",
+  "new_primary_reading_or_efficiency_evidence": false,
+  "repository_mutation": false
+}

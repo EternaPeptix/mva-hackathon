@@ -1,0 +1,735 @@
+{
+  "schema_version": "1.0",
+  "checked_date": "2026-09-27",
+  "assembled_at_utc": "2026-09-27T10:28:34.687698+00:00",
+  "status": "SOURCE_QUALIFIED_EXACT_BLEND_FUNCTIONAL_RESERVE",
+  "candidate_id": "new-cherrypharm-cherry-apple-blend",
+  "decision": "Retain the tested Cherrypharm Montmorency cherry–apple blend as a controlled acute-function research reserve. Preserve the 2006 strength positive and separately identified 2019 concentrate counterevidence. No generic-cherry, pooled efficacy, structural muscle-protection, BUBR1-restoration or MVA-superiority claim.",
+  "identity_boundary": "One exact proprietary cherry–apple blend appraisal. CherryActive concentrate and POM Wonderful are separate comparison preparations, not aliases or additional positive nominations. Current retail equivalence and approved-drug eligibility remain unestablished.",
+  "studies": [
+    {
+      "schema_version": 1,
+      "checked_date": "2026-09-27",
+      "record_id": "connolly2006-cherrypharm-montmorency-apple-blend",
+      "citation": {
+        "doi": "10.1136/bjsm.2005.025429",
+        "pmid": "16790484",
+        "pmcid": "PMC2579450",
+        "title": "Efficacy of a tart cherry juice blend in preventing the symptoms of muscle damage",
+        "year": 2006,
+        "full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2579450/"
+      },
+      "decision": "Retain a preparation-specific acute muscle-function protection signal for independent review; no chronic MVA efficacy, BUBR1-restoration or clinical-superiority claim.",
+      "preparation": {
+        "name": "Cherrypharm proprietary Montmorency tart-cherry and apple juice blend",
+        "plant_material": "Frozen tart cultivar Montmorency cherries; freshly prepared juice, not concentrate",
+        "apple": "Commercially available apple juice; proprietary undisclosed ratio",
+        "processing": "Heated to 85 C, hot packed in 12 oz glass bottles with three-minute hold, water-bath cooled",
+        "per_bottle_reported": {
+          "phenolics_mg_minimum": 600,
+          "phenolics_basis": "Gallic acid equivalents, Singleton and Rossi method",
+          "anthocyanins_mg_minimum": 40,
+          "anthocyanins_basis": "Cyanidin-3-glucoside equivalents, pH differential method",
+          "cherry_equivalents": "50–60"
+        },
+        "source_exposure": "12 fl oz twice daily for eight days, eccentric challenge on fourth supplementation day; trial history only",
+        "comparator": "Unsweetened black-cherry Kool-Aid in water at approximately 2 g/L; sugar added to 13 Brix; same pasteurization/bottling",
+        "matching_limit": "Soluble solids matched; an analytical calorie comparison and apple-only comparator not reported",
+        "identity_limits": [
+          "No generic cherry/cherry-concentrate equivalence",
+          "No isolated anthocyanin attribution",
+          "No separation of cherry and apple effects",
+          "No current retail SKU equivalence",
+          "No measured pharmacokinetics"
+        ]
+      },
+      "design": {
+        "reported": "Randomized placebo-controlled crossover with randomized arm and treatment order",
+        "sequence_generation": "Not described",
+        "allocation_concealment": "Not described",
+        "blinding": "Participant/assessor masking not described; do not assign double-blind from this main",
+        "population": "Men, mean age 22 years SD 4; no elbow pain, recent upper-extremity strength training or elbow/shoulder injury history",
+        "initial_n": 16,
+        "initial_sequence": {
+          "placebo_first": 9,
+          "blend_first": 7
+        },
+        "withdrawals": {
+          "n": 2,
+          "sequence": "Both blend-first",
+          "reason": "Left school at semester end before completing protocol"
+        },
+        "completed_n": 14,
+        "completed_sequence": {
+          "placebo_first": 9,
+          "blend_first": 5
+        },
+        "analysis": "Completers; no intention-to-treat result, imputation or missing-sequence sensitivity supplied",
+        "challenge": "Two sets of 20 maximal eccentric elbow-flexion contractions, three-minute set rest, about three seconds/contraction and 12 seconds between contractions",
+        "period_timing": "Second baseline two weeks after initial baseline, six days after end of first trial; opposite arm used",
+        "washout_limit": "Not a two-week treatment-free washout; no verified pharmacological washout",
+        "crossover_limit": "Contralateral muscle avoids same-local-muscle repeat exposure but does not demonstrate absence of cross-limb, systemic, learning or period effects; formal treatment-by-period/sequence model unreported",
+        "baseline_timing": "Before drink supply at beginning of each period; described as four days before challenge",
+        "followup_hours_after_challenge": [
+          24,
+          48,
+          72,
+          96
+        ],
+        "adherence": "Quantitative drink adherence and achieved eccentric workloads not supplied",
+        "restrictions": "No upper-extremity exercise, anti-inflammatory/pain-relieving drugs or other damage treatments; lower-body activity not prohibited"
+      },
+      "measurement": {
+        "strength": "Force-transducer peak voluntary isometric elbow-flexion force in Newtons; mean of two contractions at each of 130,90,30-degree flexion angles",
+        "published_strength_scale": "Percent of period-specific baseline, averaged across angles",
+        "absolute_force_effect_N": null,
+        "treatment_difference_CI": null,
+        "inference_limit": "A percent-of-baseline force difference is functional evidence but not a published absolute Newton treatment effect or durable strength gain",
+        "pain": "Subjective 0–10 discomfort with active movements/daily activities",
+        "tenderness": "Threshold applied force at distal biceps site, difference from baseline",
+        "motion": "Relaxed elbow angle with goniometer",
+        "serum_CK_myoglobin": "Not measured"
+      },
+      "outcomes": {
+        "strength_average_loss": {
+          "blend_mean_SD_percent": [
+            4,
+            15
+          ],
+          "placebo_mean_SD_percent": [
+            22,
+            12
+          ],
+          "arithmetic_difference_percentage_points": 18,
+          "treatment_time_p": "<0.0001",
+          "reported_average_loss_p": "<0.0001",
+          "CI": null
+        },
+        "strength_day24_loss_percent": {
+          "blend": 12,
+          "placebo": 30,
+          "native_pairwise_p": "<0.01"
+        },
+        "strength_day96_relative_to_baseline_percent": {
+          "blend": 106,
+          "placebo": 88,
+          "native_pairwise_p": "<0.001"
+        },
+        "other_native_strength_pairwise": {
+          "48_hours": "<0.001",
+          "72_hours": "<0.05",
+          "correction": "Bonferroni, caption and statistics section"
+        },
+        "angle_effects": {
+          "angle_treatment_time_p": 0.41,
+          "strength_loss_angle_p": 0.31,
+          "equivalence_established": false
+        },
+        "pain": {
+          "four_day_average_blend_mean_SD": [
+            2.4,
+            0.7
+          ],
+          "four_day_average_placebo_mean_SD": [
+            3.2,
+            1.1
+          ],
+          "average_p": 0.051,
+          "treatment_time_p": 0.017,
+          "blend_peak_day1_mean_SD": [
+            3.4,
+            1.2
+          ],
+          "placebo_peak_day2_mean_SD": [
+            4.5,
+            1.7
+          ]
+        },
+        "motion_loss_degrees": {
+          "blend_mean_SD": [
+            3.5,
+            6.0
+          ],
+          "placebo_mean_SD": [
+            4.4,
+            5.6
+          ],
+          "treatment_time_p": 0.85
+        },
+        "tenderness_change_N": {
+          "blend_mean_SD": [
+            8.8,
+            9.7
+          ],
+          "placebo_mean_SD": [
+            8.2,
+            10.1
+          ],
+          "treatment_time_p": 0.81,
+          "average_p": 0.84
+        },
+        "dispersion": "Text SD; figures SE"
+      },
+      "sequence_sensitivity": {
+        "population": "Five blend-first completers only",
+        "timing": "Discussion reports reanalysis; not an independent prospective endpoint",
+        "strength_blend_loss_mean_SD_percent": [
+          3,
+          2
+        ],
+        "strength_later_placebo_loss_mean_SD_percent": [
+          24,
+          3
+        ],
+        "strength_treatment_time_p": 0.001,
+        "pain_treatment_time_p": 0.83,
+        "interpretation": "Strength result argues against a simple second-period-only protective explanation, but does not resolve all carryover/period mechanisms or missing sequences"
+      },
+      "statistics": {
+        "sample_size": "Planned 16, 80% power at p<.05 for stated 14% difference in strength loss; detectable pain/tenderness/motion differences also provided",
+        "planned_primary": "Strength anchors sample size; no independently verified prospective single-primary hierarchy",
+        "model": "Treatment-by-time repeated-measures ANOVA; strength also assesses angle interactions",
+        "multiplicity": "Bonferroni correction explicitly reported for treatment-versus-placebo pairwise comparisons; across-endpoint family adjustment not reported",
+        "registry": "No identifier or recruitment dates in main; exact-title ClinicalTrials.gov query yielded zero; no exhaustive registration-absence claim",
+        "raw_data": "Not obtained"
+      },
+      "mechanism": {
+        "hypothesis": "Antioxidant/anti-inflammatory attenuation of secondary response to exercise damage",
+        "measured_mediation": false,
+        "structural_damage_prevention_established": false,
+        "BUB1B_BUBR1_or_MVA_tested": false,
+        "restoration_claim": false,
+        "compensation_credit_does_not_require_BUBR1": true,
+        "alternative_explanations_not_separated": [
+          "Voluntary activation",
+          "Pain-related inhibition",
+          "Structural muscle protection"
+        ]
+      },
+      "safety": {
+        "systematic_adverse_event_counts": "Not reported",
+        "safety_laboratory_endpoints": "Not reported",
+        "no_adverse_events_claim_supported": false,
+        "long_term_pediatric_cancer_safety": "Not established",
+        "withdrawal_cause": "Reported departure from school, not assigned a treatment adverse-event cause"
+      },
+      "transparency": {
+        "funding": "Cherrypharm Inc",
+        "conflict": "Paper discloses each author holds 2.5% equity in Cherrypharm Inc",
+        "sponsor_role": "Beyond funding not separately detailed",
+        "PubMed_comment": "CommentIn PMID 17092438; not read here and not a correction",
+        "correction_retraction_notice": "None in inspected PubMed/Crossref fields; bounded check"
+      },
+      "competitiveness": {
+        "retained": "Direct controlled acute strength-protection observation in healthy exercisers",
+        "not_established": [
+          "Treatment of chronic weakness",
+          "MVA benefit",
+          "BUBR1 restoration",
+          "Clinical superiority or inferiority versus niacin/apitegromab",
+          "Generic juice/isolated-compound equivalence"
+        ],
+        "advancement_standard": "Relevant-model useful output, justified exposure, renewable reserve and chromosome fidelity; BUBR1 mediation additionally needed only if claiming restoration"
+      },
+      "reading_depth": "Complete scientific main from lawful PMC HTML, all four native outcome figures/captions; no results tables or linked supplement in main. PDF routes failed; no PDF reading credit."
+    },
+    {
+      "schema_version": 1,
+      "checked_date": "2026-09-27",
+      "record_id": "lamb2019-cherryactive-concentrate-functional-counterevidence",
+      "citation": {
+        "title": "No Effect of Tart Cherry Juice or Pomegranate Juice on Recovery from Exercise-Induced Muscle Damage in Non-Resistance Trained Men",
+        "authors": [
+          "Kirstie L. Lamb",
+          "Mayur K. Ranchordas",
+          "Elizabeth Johnson",
+          "Jessica Denning",
+          "Faye Downing",
+          "Anthony Lynn"
+        ],
+        "pmid": "31337122",
+        "pmcid": "PMC6683053",
+        "doi": "10.3390/nu11071593",
+        "journal": "Nutrients 2019;11(7):1593",
+        "published": "2019-07-14",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6683053/"
+      },
+      "decision": "Preparation-specific randomized functional counterevidence: no statistically detectable recovery benefit, but not an equivalence test or exact-product refutation of the 2006 Cherrypharm cherry–apple blend. No repository addition or nomination change authorized by this packet.",
+      "preparation": {
+        "active": "CherryActive Ltd., Hanworth, UK tart-cherry concentrate",
+        "per_serving": {
+          "concentrate_mL": 30,
+          "water_mL": 220,
+          "prepared_drink_mL": 250,
+          "energy_adjustment": "Maltodextrin from My Protein added to match 250 mL POM Wonderful. Exact grams/calories not supplied."
+        },
+        "cultivar_and_lot": "Intervention Methods do not explicitly identify cultivar, batch or source-fruit composition; do not certify Montmorency lot identity from the brand alone.",
+        "apple": "No apple ingredient or blending ratio supplied for the tested concentrate. Do not assign the 2006 cherry–apple preparation to this trial.",
+        "control": "Science in Sport Energy Go blackcurrant-flavored maltodextrin sports drink, prepared to match energy of both active drinks.",
+        "other_active_arm": "250 mL undiluted POM Wonderful pomegranate juice. This arm is context from the same trial, not a separate preparation appraisal or independent cohort.",
+        "source_schedule": "One 250 mL serving in the morning and one in the evening for 9 days; an extra 250 mL immediately after the day-5 exercise challenge. Trial description only.",
+        "abstract_ambiguity": "Abstract wording 2 × 250 mL ... twice daily is clarified by Methods as two routine daily servings, not four.",
+        "handling": "Fresh drinks prepared/delivered every two days, brown bottles to mask color from investigators; participants instructed to refrigerate.",
+        "characterization": {
+          "assays": "Three bottles per juice analyzed in triplicate; Folin–Ciocalteu phenolics as gallic-acid equivalents, pH differential monomeric anthocyanins as cyanidin-3-glucoside equivalents.",
+          "limits": "No systemic exposure, identified active-compound dose, tissue uptake or composition-mediated efficacy test.",
+          "cherry_per_serving_value_plus_minus_mg": {
+            "phenolics": [
+              294.7,
+              14.9
+            ],
+            "anthocyanins": [
+              7.7,
+              0.3
+            ]
+          },
+          "pomegranate_per_serving_value_plus_minus_mg": {
+            "phenolics": [
+              878.9,
+              92.7
+            ],
+            "anthocyanins": [
+              49.4,
+              2.0
+            ]
+          },
+          "dispersion_type": "The original chemical-assay Results do not identify the reported ± quantities as SD or SEM. Values are retained without assigning a dispersion type."
+        }
+      },
+      "design": {
+        "type": "Randomized, reported double-blind, energy-matched placebo-controlled parallel trial with three arms",
+        "population": "Non-resistance-trained men; eligibility age 18–65, nonsmoking, injury-free, no upper-body strength training for 3 months, no current anti-inflammatories or antioxidant supplements.",
+        "age_median_IQR_years": [
+          24.0,
+          22.0,
+          33.0
+        ],
+        "BMI_mean_SD_kg_m2": [
+          25.6,
+          4.0
+        ],
+        "randomization": "Computerized random block order, block sizes 3 and 6, generated by researcher outside participant recruitment.",
+        "concealment": "No additional explicit allocation-concealment procedure described.",
+        "masking": "Separate technician prepared drinks in brown bottles, outside data collection; participants told different fruit-flavored drinks were under investigation and unaware which was placebo. No masking-success assessment reported.",
+        "screened_n": null,
+        "randomized_n": 36,
+        "randomized_per_arm": {
+          "cherry": 12,
+          "pomegranate": 12,
+          "placebo": 12
+        },
+        "completed_n": 36,
+        "withdrawals": 0,
+        "sequence_carryover": "Not applicable to this parallel trial. No participant crosses between treatments; avoids treatment-period and cross-limb crossover carryover.",
+        "familiarization": "Minimal-effort practice intended to avoid unintentional damage or repeated-bout protection; absence of any adaptation not experimentally established.",
+        "challenge": "Day 5: 50 maximal eccentric nondominant elbow-flexor contractions, 5 sets of 10, forced extension 90° to 180° at 60°/s, 12-second intervals and 2-minute interset rest.",
+        "baseline": "Day-5 pre-exercise measurement after four supplementation days and morning drink. Not a pre-supplement strength baseline.",
+        "measurement_times": [
+          "pre-exercise",
+          "immediate post-exercise",
+          "24 h",
+          "48 h",
+          "72 h",
+          "96 h"
+        ],
+        "cointerventions": "Standardized immediate post-exercise meal providing 0.3 g protein/kg body weight; chicken or cheese option. Other foods/drinks except water avoided for 3 hours. Strenuous exercise, other recovery measures, supplements and polyphenol-rich foods discouraged.",
+        "adherence": "All drinks reportedly consumed; empty bottles counted. Two participants consumed both daily servings in the evening on one day. Background polyphenol foods persisted; diary means did not differ detectably (P=.44)."
+      },
+      "denominators_and_missingness": {
+        "strength": {
+          "cherry": 11,
+          "pomegranate": 11,
+          "placebo": 11,
+          "basis": "Figure 2 caption; omnibus residual group df 30 also consistent with 33 analyzed."
+        },
+        "soreness_and_ROM": {
+          "cherry": 12,
+          "pomegranate": 12,
+          "placebo": 11,
+          "basis": "Figures 3/4 captions"
+        },
+        "CK": {
+          "cherry": 12,
+          "pomegranate": 11,
+          "placebo": 11,
+          "basis": "Figure 5 caption"
+        },
+        "missing_observations": [
+          "One placebo participant missed 72-hour measurements owing to illness.",
+          "One pomegranate CK value at 48 hours missing for technical reasons.",
+          "One cherry and one pomegranate MIVC value at 72 hours missing for technical reasons."
+        ],
+        "handling": "All 36 trial completers are not the strength-analysis denominator. No imputation method supplied; figure captions give complete-series n rather than all randomized n.",
+        "hyper_responders": {
+          "definition": "Post-exercise CK >2000 U/L at any time point",
+          "n": 6,
+          "per_arm": 2,
+          "main_analysis": "Included",
+          "exploratory_analysis": "Excluded separately; endpoint-specific remaining n and overlap with missing observations not supplied, so do not assume every analysis is 10 per arm."
+        }
+      },
+      "outcome_hierarchy": {
+        "prespecified_primary": "Not independently verified; main does not specify a single primary outcome or registration ID.",
+        "reported_outcomes": [
+          "MIVC strength",
+          "Soreness",
+          "Range of motion",
+          "CK"
+        ],
+        "power": "No sample-size calculation supplied. Discussion acknowledges that small parallel groups may miss small/moderate effects.",
+        "registry": "Bounded ClinicalTrials.gov tart cherry pomegranate query returned zero records; an initial exact-title request returned HTTP 400. Registration elsewhere or under different terms remains unknown.",
+        "protocol_and_raw_data": "No public protocol, SAP, supplement or participant dataset obtained; no scientific supplement linked in retained main.",
+        "endurance": "No endurance-performance test or chronic muscle-strength outcome."
+      },
+      "measurement": {
+        "strength": "Biodex dynamometer, mean of five 3-second maximal voluntary isometric elbow-flexion contractions at 90°, 10-second rests.",
+        "strength_effect_scale": "Percent of day-5 pre-exercise strength; no absolute force treatment contrast supplied.",
+        "baseline_unit_issue": "Table 1 labels baseline strength N·cm⁻² without explaining area normalization; retain ambiguity, do not silently correct or treat as demonstrated specific force.",
+        "soreness": "100-mm VAS after two biceps curls with a 1-kg dumbbell.",
+        "ROM": "Maximal elbow flexion and extension measured by goniometer, total range calculated; efficacy as percent of pre-exercise.",
+        "CK": "Finger-prick whole-blood CK; capillary assay, dilution for values above assay range.",
+        "dispersion": "Native figures mean ± SEM; baseline characteristics use mean ± SD or median/IQR as specified."
+      },
+      "outcomes": {
+        "strength": {
+          "analysis_n_total": 33,
+          "mean_decrement_percent": {
+            "cherry": 14.6,
+            "pomegranate": 19.4,
+            "placebo": 17.3
+          },
+          "group_test": {
+            "F": "F(2,30)=0.27",
+            "p": 0.77
+          },
+          "group_by_time": {
+            "F": "F(5.7,85.5)=0.33",
+            "p": 0.91
+          },
+          "arithmetic_cherry_minus_placebo_decrement_pp": -2.7,
+          "pairwise_treatment_effect_CI": null,
+          "pairwise_cherry_placebo_p": null,
+          "interpretation": "Omnibus three-group tests, not pairwise cherry-versus-placebo tests. Arithmetic mean-loss difference is descriptive, not a demonstrated benefit.",
+          "time_effect": {
+            "F": "F(2.9,85.5)=23.30",
+            "p": "<.001",
+            "max_pooled_decrement_percent": 26.8,
+            "nadir_hours": 24,
+            "posthoc": "Bonferroni differences from pre-exercise through 72 hours; not at 96 hours (P=.08)."
+          }
+        },
+        "soreness": {
+          "mean_increase_mm": {
+            "cherry": 17.2,
+            "pomegranate": 17.4,
+            "placebo": 11.7
+          },
+          "group_p": 0.32,
+          "group_by_time_p": 0.1,
+          "time_p": "<.001",
+          "peak_mean_increase_mm": 26.9,
+          "peak_hours": 48
+        },
+        "ROM": {
+          "mean_decrement_percent": {
+            "cherry": 4.6,
+            "pomegranate": 6.1,
+            "placebo": 3.5
+          },
+          "group_p": 0.31,
+          "group_by_time_p": 0.71,
+          "max_decrement_percent": 6.8,
+          "reporting_discrepancy": "Abstract locates maximum decrease at 72 hours and time P=.001; Results says 48 hours and P<.001 and prints malformed-looking F degrees of freedom. No silent reconciliation; treatment null tests retained."
+        },
+        "CK": {
+          "mean_increase_U_L": {
+            "cherry": 478.3,
+            "pomegranate": 502.9,
+            "placebo": 471.6
+          },
+          "group_p_as_printed": 0.995,
+          "group_F_as_printed": "F(2,31)=0.05",
+          "group_by_time_p": 0.93,
+          "time_p": 0.03,
+          "peak_time_hours": 96,
+          "reporting_note": "Abstract gives maximum increase 1385 U/L; Results describes peak 1383 U/L. No digitized/recomputed estimate or correction supplied."
+        },
+        "hyper_responder_exclusion": {
+          "strength": {
+            "group_p": 0.78,
+            "interaction_p": 0.97
+          },
+          "soreness": {
+            "group_p": 0.28,
+            "interaction_p": 0.26
+          },
+          "ROM": {
+            "group_p": 0.71,
+            "interaction_p": 0.9
+          },
+          "CK": {
+            "group_p": 0.87,
+            "interaction_p": 0.35
+          },
+          "role": "Exploratory sensitivity within the same trial, not independent replication or primary analysis."
+        }
+      },
+      "statistics": {
+        "main_model": "Mixed ANOVA: time within participant, treatment between participant. Strength and ROM normalized to baseline.",
+        "sphericity": "Greenhouse–Geisser correction when Mauchly test failed.",
+        "multiplicity": "Bonferroni post-hoc tests for significant time effects; no reported family-wide correction across four outcomes.",
+        "null_limit": "Small samples, no equivalence/noninferiority design and no pairwise treatment CIs mean nonsignificance cannot establish zero effect.",
+        "positive_evidence_retained": "A clear exercise-induced force decrement validates that recovery could be observed; descriptive cherry strength trajectory is numerically favorable but not statistically established. Earlier blend benefit is preserved in its own packet."
+      },
+      "safety": {
+        "systematic_adverse_events": "Not reported",
+        "tolerability_endpoint": "Not reported",
+        "missed_visit": "One placebo participant ill at 72 hours; no treatment attribution supplied.",
+        "CK_hyper_response": "Two per arm after deliberate damage; this is an exercise-response subgroup, not established supplement toxicity.",
+        "transfer": "No long-term, pediatric, cancer or MVA safety claim supported."
+      },
+      "funding": {
+        "present_study": "Sheffield Hallam University and University of Sheffield",
+        "disclosure": "Anthony Lynn received a Cherry Marketing Institute grant for a separate gout study; Kirstie Lamb was working on that study. Other authors declare no conflicts.",
+        "limit": "Do not relabel the present university-funded trial as industry-funded based only on the separate disclosed grant. Product donation or further sponsor role not stated."
+      },
+      "comparison_to_connolly2006": {
+        "context_bindings": [
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-primary-20260927/qualification.md",
+            "sha256": "723f097a9674f1a685f767a79ebfaf64f07149dec5d7a91d0a855a4b984a05bb",
+            "scope": "Read-only context from frozen 2006 qualification, not fresh primary-paper reading"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-primary-20260927/qualification.json",
+            "sha256": "5195cbb6821c0a1b7dcc104c398caef587f7a9a627b3a0231ea1e59af072ab8c",
+            "scope": "Read-only context from frozen 2006 qualification, not fresh primary-paper reading"
+          }
+        ],
+        "shared_relevance": "Healthy untrained men, eccentric elbow-flexor injury challenge and measured voluntary isometric recovery through 96 hours. Functional counterevidence, not merely biomarker nulls.",
+        "preparation_difference": "CherryActive concentrate plus water/maltodextrin versus Cherrypharm fresh-from-frozen Montmorency cherry–apple blend with proprietary apple ratio.",
+        "composition_difference": "2019 serving measured 294.7 mg phenolics/7.7 mg monomeric anthocyanins; 2006 bottle reported at least 600/40 mg in equivalent assay units. Dose/composition causality not established.",
+        "design_difference": "2019 parallel 12 randomized per arm, strength 11 per arm, versus 2006 imbalanced completer crossover 14 with period/cross-limb concerns.",
+        "challenge_difference": "50 versus 40 eccentric contractions; different strength angles/measurement protocols, supplementation/baseline timing and standardized post-exercise meal.",
+        "interpretation": "Qualifies generic product/category transfer; does not prove the exact 2006 blend ineffective. Neither paper supplies a head-to-head clinical comparison against niacin/apitegromab."
+      },
+      "competitiveness": {
+        "supports": "Keep preparation-specific recovery evidence and counterevidence together, with product chemistry and analysis scope.",
+        "limits": [
+          "No clinical chronic-weakness treatment evidence",
+          "No MVA efficacy",
+          "No BUB1B/BUBR1 assay or restoration mechanism",
+          "No evidence sufficient to displace disease-relevant provisional nominees",
+          "No class-wide cherry, polyphenol or pomegranate efficacy/toxicity conclusion"
+        ],
+        "fairness": "BUBR1 restoration is not required to acknowledge measured functional protection/recovery. Model relevance and exposure/long-term transfer remain separate limitations."
+      },
+      "notices_and_access": {
+        "notice_check": "No correction/retraction relations in current retained PubMed XML or Crossref metadata. Bounded check, not universal absence.",
+        "main": "Complete scientific main and two tables read from lawful official Europe PMC XML/PMC HTML.",
+        "native": "All five native figures and captions visually inspected from official Europe PMC assets.",
+        "supplement": "supplementaryFiles ZIP contained only five JPG figures and GIF thumbnails; no separate scientific supplement linked in main.",
+        "pdf": "Publisher PDF HTTP 403; no PDF reading credit or bypass."
+      }
+    }
+  ],
+  "integration_precision_corrections": {
+    "2019_dispersion": {
+      "renamed_keys": {
+        "cherry_per_serving_mean_SD_mg": "cherry_per_serving_value_plus_minus_mg",
+        "pomegranate_per_serving_mean_SD_mg": "pomegranate_per_serving_value_plus_minus_mg"
+      },
+      "numerical_values_unchanged": true,
+      "reason": "Independent primary reading did not find SD/SEM defined for these chemical-assay ± values; source and participant-table dispersion labels must not be conflated."
+    },
+    "2006_control": "Listed Kool-Aid ingredients include ascorbic acid, quantity unreported. It is a flavored soluble-solids-matched control, not proven inert, plain sugar water or analytically calorie-matched.",
+    "baseline_estimands": "The 2006 baseline precedes supplementation, without a reported immediate pre-exercise re-baseline; 2019 normalizes to day-five pre-exercise values after four supplementation days and the morning drink. Percentage estimands differ.",
+    "functional_not_structural": "The measured post-challenge strength contrast is real functional evidence. It does not distinguish prechallenge strengthening, altered voluntary activation, less damage or faster recovery.",
+    "2019_analysis_set": "Endpoint counts and degrees of freedom are consistent with excluding incomplete series, but that analysis rule is inferred rather than explicitly reported; no imputation is stated."
+  },
+  "commentary_source_limit": {
+    "schema_version": 1,
+    "status": "SOURCE_LIMIT_NO_FULL_TEXT_READING_CREDIT",
+    "checked_at_utc": "2026-09-27T10:05:42.465932+00:00",
+    "identity": {
+      "title": "Dietary factors as novel therapies for muscle pain",
+      "author": "Roland Staud",
+      "pmid": "17092438",
+      "doi": "10.1007/s11926-006-0033-3",
+      "journal": "Current Rheumatology Reports",
+      "volume": "8",
+      "issue": "6",
+      "pages": "409–410",
+      "year": 2006,
+      "indexing": "Comment on PMID 16790484, not an indexed correction or retraction",
+      "date_discrepancy": "PubMed gives December 2006; publisher/Crossref give November 2006. No outcome inference depends on resolving this bibliographic difference."
+    },
+    "full_text": {
+      "obtained": false,
+      "read": false,
+      "abstract_available": false,
+      "publisher_result": "Subscription preview with references and metadata; scientific commentary body absent. Standard PDF endpoint returned the same HTML preview and failed the PDF signature check.",
+      "europepmc_result": "No PMC/Europe PMC full text, no PDF; subscription-required DOI link.",
+      "lawful_copy_search": "Exact title/DOI and author-institution checks found no usable primary or institutional full text; bounded, not exhaustive."
+    },
+    "author_response": {
+      "identified": false,
+      "read": false,
+      "status": "NOT_IDENTIFIED_IN_CHECKED_RECORDS_EXISTENCE_UNKNOWN",
+      "checked": "PubMed CommentOn/CommentIn relations for commentary and parent; Crossref relation/update metadata; visible publisher preview links; exact DOI reply/response search.",
+      "access_limit": "Parent BMJ responses endpoint returned HTTP 403. No assertion that a response never existed."
+    },
+    "scientific_delta": {
+      "status": "UNKNOWN_FROM_UNREAD_COMMENTARY",
+      "masking": "No change justified by this retrieval. Existing source-qualified masking uncertainty stays in place. Do not attribute a masking criticism or defense to Staud.",
+      "crossover": "No change justified. Retain prior limits on period/carryover and the small blend-first subgroup countercheck without attributing either to Staud.",
+      "outcome_inference": "No new effect estimate, endpoint interpretation or strength/pain claim obtained. The existing direct functional positive remains; unread commentary cannot strengthen or nullify it.",
+      "proprietary_blend": "No newly read composition disclosure. Preserve the exact cherry–apple blend identity and undisclosed ratio; do not generalize to isolated cherry constituents or other preparations.",
+      "commentary_opinion": "Unknown because body unavailable. No opinion has been substituted for trial data.",
+      "new_data_obtained": false
+    },
+    "integration_recommendation": {
+      "decision": "INTEGRATE_ACCESS_NOTE_ONLY_NO_EFFICACY_CHANGE",
+      "reason": "The citation relationship and remaining source-access gap are verified; scientific content and any response are unreviewed. This retrieval neither disqualifies the existing primary-trial qualification nor supplies positive or negative efficacy credit.",
+      "suggested_sentence": "A later commentary by Staud (PMID 17092438) is indexed on the Connolly trial, but lawful retrieval yielded only subscription-preview metadata and references; its scientific content and any author response remain unreviewed. No efficacy inference or new study credit is assigned."
+    },
+    "credit": {
+      "commentary_full_read": 0,
+      "new_trial_cohort": 0,
+      "new_original_queue_credit": 0,
+      "new_efficacy_credit": 0
+    },
+    "source_urls": {
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/17092438/",
+      "publisher": "https://link.springer.com/article/10.1007/s11926-006-0033-3",
+      "parent": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2579450/",
+      "europepmc": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17092438%20AND%20SRC:MED&format=json&resultType=core",
+      "responses": "https://bjsm.bmj.com/content/40/8/679.responses"
+    },
+    "repository_changes": false,
+    "frozen_packet_changes": false,
+    "only_owned_directory_written": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/commentary"
+  },
+  "competitiveness": {
+    "positive_credit": "The 2006 crossover reports less measured strength loss with the blend, including corrected daily treatment comparisons. The blend-first sensitivity strengthens the functional signal without creating an independent cohort.",
+    "counterevidence_credit": "The 2019 parallel concentrate study has a measurable exercise-induced strength deficit and no detected treatment recovery advantage. Its omnibus tests and absent pairwise CIs do not establish equivalence or refute a different product.",
+    "comparison_limits": "Preparation/composition, design, baseline timing, challenge intensity, cointerventions, missingness and short healthy-exercise settings prevent an interchangeable-product or clinical-potency ranking. No pooled estimate is computed.",
+    "nominees": "Niacin/restoration and apitegromab/compensation remain provisional. Missing MVA rescue cannot be demanded uniquely of this challenger, but neither study demonstrates superiority over those different clinical/mechanistic comparisons.",
+    "next": "Identify reproducible preparation or relevant metabolites and justified measured exposure; test useful absolute muscle output, renewable reserve and chromosome fidelity in appropriate affected/corrected models. Functional BUBR1 mediation is additional only for restoration claims."
+  },
+  "scope": {
+    "new_appraisal_count": 1,
+    "old_decisions_unchanged": 257,
+    "new_original_queue_reading_credit": 0,
+    "new_biological_experiments_performed": 0,
+    "interchangeable_product_replication_claim": false,
+    "broader_discovery_complete": false
+  },
+  "metadata": {
+    "raw_primary_assets_external": true,
+    "source_and_review_bindings": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/commentary/final-bindings.json",
+        "sha256": "c3a9ff916d4660b3d7e39ddb96c69e415b575ca0c25f27bbb6eccc87b13bdbac"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/commentary/findings.json",
+        "sha256": "f086afe812351e42674dae65c1861e50da80fbf54e83553898f0f3c353d635ed"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/commentary/findings.md",
+        "sha256": "b47c615dcd1df9e0899edcdcb842a19b1295e52a36e50fa3deb3b4040e912ce9"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/commentary/reading-scope.json",
+        "sha256": "2aab47669a0a8fdfe5bac2bd7c4d2a7284afad3c5c1d93bd7373af752f0179c9"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/commentary/retrieval.json",
+        "sha256": "b3f110e7d2232559a47244c7a4e30468c430659e64848cf1e70cffd57cb919bb"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/commentary/search-scope.json",
+        "sha256": "25a828221aad069293825e403715544fb9cb957b5122d10f71d55934119d06f2"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/independent/final-bindings.json",
+        "sha256": "c02fc318819218a088efd2de443bea50530c62729fada1cd646d23919b2926ab"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/independent/findings.json",
+        "sha256": "216e8bbf86181e10695f90b905e5371336407e76408195ff958aab2fe76b577f"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/independent/findings.md",
+        "sha256": "159e5d0b0225b2eca7b971a7ce8702e6086f83e50bca85f05654efbaf25d7129"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/independent/reading-scope.json",
+        "sha256": "e7089e16a386e3d2ababb6df71b8f997fdc394aa0fd4a0d95a4d97441a4ac51f"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/independent/source-bindings.json",
+        "sha256": "adc0e1c1b5ed6b8763e1b27d546f2e4e35d1e6b8af0d7829236454908b485cf3"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cherry-functional-followup-20260927/root-reading.json",
+        "sha256": "3be64d424018dc574dd420dc9ffa6916a22c4016a8ddf0c07a8c959f7d646f38"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-counterevidence-20260927/final-bindings.json",
+        "sha256": "8330d4cb0adfd86e184583094031b1f7bc7ae55fdfbca9bac5974c33e20b3f18"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-counterevidence-20260927/qualification.json",
+        "sha256": "1b0ee2216b681e1c4f199ff89490b6f4134ecf25eb45498428ae62095e5e25e1"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-counterevidence-20260927/qualification.md",
+        "sha256": "fe78e0a96e5ff746acd99e0210b0fe63bca6ae5991212859c7bbea9db5a9528e"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-counterevidence-20260927/reading-scope.json",
+        "sha256": "d272be1170b896aaf1ba28d802197672406688a448ffc4148cba202051c8a6cd"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-counterevidence-20260927/retrieval.json",
+        "sha256": "09dbc01d4c74d1dbc69bc50aa979d13cdeb3eec18a8495261d0253054a8ecba0"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-counterevidence-20260927/source-manifest.json",
+        "sha256": "c0fe8ce90cb24573098791310bb2e984b3ed23ca1f4ae0ee6f01d4971dffa570"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-primary-20260927/final-bindings.json",
+        "sha256": "c29f04e117cd8b957b1d277954c78f56af935900ff86500c7c9210cc4ce737f2"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-primary-20260927/qualification.json",
+        "sha256": "5195cbb6821c0a1b7dcc104c398caef587f7a9a627b3a0231ea1e59af072ab8c"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-primary-20260927/qualification.md",
+        "sha256": "723f097a9674f1a685f767a79ebfaf64f07149dec5d7a91d0a855a4b984a05bb"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-primary-20260927/reading-scope.json",
+        "sha256": "387608a57e89881da83c902fc4dced2aa2d5dee6d3408c1e3f7e05319015ac54"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-primary-20260927/retrieval.json",
+        "sha256": "d14a44a825980adf711e5a8681af520c3f2f036a55d5165141e7317fefa4865d"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/montmorency-primary-20260927/source-manifest.json",
+        "sha256": "73ec561a83289d789f8897afb7d9167c4f2532fd667f7fb06e11ae7aeac63db7"
+      }
+    ],
+    "root_reading": {
+      "2006": "Complete source qualification and independent review; original preparation, comparator, baseline/sequence, strength Results and Discussion passages; native strength Figure 1. Not a second complete root scientific-main read.",
+      "2019": "Complete source qualification and independent review; selected original Methods, missingness, strength Results, composition and Discussion passages; native strength Figure 2. Not all native figures or the complete main independently re-read by root.",
+      "independent": "Both full scientific mains, all nine native figures and both 2019 native HTML tables read independently; separate subordinate 2019 check. Exact scopes retained in frozen packets.",
+      "commentary": "Root read the completed source-limit finding. Commentary scientific body and any associated response remain unreviewed; no opinion inferred from metadata."
+    }
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "identity": {
+    "molecule": "urolithin A",
+    "administered_preparation": "Mitopure / AMAZ-02, Amazentis SA;250mg active per softgel",
+    "oral": true,
+    "equivalence_limits": [
+      "No transfer to pomegranate, ellagitannins or endogenous microbiome UA production.",
+      "No current retail product identity, availability, approval or therapeutic indication assessed.",
+      "Do not silently assign ENERGIZE excipient weights to ATLAS."
+    ]
+  },
+  "sources": [
+    {
+      "pmid": "35050355",
+      "pmcid": "PMC8777576",
+      "doi": "10.1001/jamanetworkopen.2021.44279",
+      "trial": "ENERGIZE",
+      "registry": "NCT03283462",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8777576/"
+    },
+    {
+      "pmid": "35584623",
+      "pmcid": "PMC9133463",
+      "doi": "10.1016/j.xcrm.2022.100633",
+      "trial": "ATLAS",
+      "registry": "NCT03464500",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9133463/"
+    }
+  ],
+  "verdict": {
+    "type": "Exploratory downstream muscle-function comparator",
+    "actual_human_function_positive": true,
+    "primary_endpoints_met": false,
+    "BUB1B_restoration_established": false,
+    "MVA_compensation_established": false,
+    "nominee_superiority_established": false,
+    "positive_credit": "Early hand endurance and four-month hamstring/flexion torque gains versus placebo are actual functional signals; primary nulls do not erase them.",
+    "limits": "Not durable final endurance benefit in ENERGIZE; not significant whole-body walk/aerobic benefit in ATLAS; no confirmed proximal BubR1 supply or disease-specific response."
+  },
+  "trial_designs": {
+    "ENERGIZE": {
+      "n_randomized": 66,
+      "n_per_arm": 33,
+      "ua_mg_day": 1000,
+      "duration_days": 120,
+      "population": "Ambulatory otherwise healthy adults65–90;mean71.7,50women,allWhite; Seattle",
+      "baseline_walk_m": {
+        "ua": 436.6,
+        "placebo": 464.6
+      },
+      "baseline_combined_ATPmax_mM_s": 0.678,
+      "flow_ITT_n_per_arm": 30,
+      "flow_PP_n_per_arm": 25,
+      "FAS_definition": "Dosed with at least one post-dose primary measurement",
+      "missingness": "Valid-case, noLOCF/imputation perV6p62;10COVID-related functional-test limitations; no endpoint-by-visit denominator table",
+      "exercise": "No prescribed training; actual daily activity not monitored",
+      "primary_amendment": "After start, hand endurance replaced by6MWD; handATP retained as gatedsecondprimary",
+      "cross_trial_design_link": "V6pp8/59 explicitly uses completed ATLASwalking findings for primary revision/powering and explains stopping at66 amidCOVID",
+      "SAP_limit": "Article says prepared beforeunblinding; suppliedV6protocol statisticalsection refers to forthcomingdetailedSAP. Separate datedfinalSAP not located.",
+      "multiplicity": "Ordered primarygate; secondary clinical findings exploratory, no establishedfamily-wideadjustment; plasma explicitnone"
+    },
+    "ATLAS": {
+      "n_randomized": 88,
+      "arms_randomized": {
+        "placebo": 29,
+        "ua500": 29,
+        "ua1000": 30
+      },
+      "n_completed": 79,
+      "discontinued_by_arm": {
+        "placebo": 2,
+        "ua500": 2,
+        "ua1000": 5
+      },
+      "PP_n": 74,
+      "PP_by_arm": {
+        "placebo": 25,
+        "ua500": 26,
+        "ua1000": 23
+      },
+      "duration_days": 120,
+      "population": "Otherwise healthy sedentary overweight adults; Intro40–64,Methods40–65; BMI25–34.9,VO2max<35mL/kg/min;Ontario",
+      "ITT_limit": "Article says all88mainclinicalanalysis; statistical definition also requires postrandomization efficacy. No detailedclinicalmissingdata sensitivity supplied.",
+      "exercise": "Remain lowactivity; avoidexercise24hprevisit; noaddedregimen; dietaryrecall reportedlystable",
+      "primary": "Day120 peakpoweroutput on cycleergometer;not significant",
+      "multiplicity": "All endpoints calledexploratory; no describedfamily-wideclinicalcorrection. Tukeydescribed forbaselinepairwisecomparisons; plasma no correction."
+    }
+  },
+  "clinical_outcomes": {
+    "file": "urolithin-human-outcomes.json",
+    "sha256": "b15cc4286242b88e982668b55f760c5c046a7d7ce22c8cfd907e471deb646212",
+    "adjusted_95CI_numerically_available": false,
+    "computed_new_model_estimates": false
+  },
+  "mechanism": {
+    "measured": "Bioavailability, plasma acylcarnitines/CRP; ATLASmuscleRNAseq/proteomics andselected immunoblots",
+    "causal_mitophagy_mediation_established": false,
+    "direct_mitophagy_flux_measured": false,
+    "within_vs_between_limit": "Omics largely within-arm pre/post plusfiltering significantplacebo pathways; not equivalentto treatment×time interaction. Selected westernsn6paired/group.",
+    "BUB1B_scope": "No BUB1B/BubR1-specific reported result in mains/scientificsupplements; TableS2selectedproteins notcompleteinventory; noGEOmining. Absenceofreport isnotvalidatedprotein-null."
+  },
+  "safety": {
+    "ENERGIZE": {
+      "all_events": {
+        "ua": 18,
+        "placebo": 15
+      },
+      "treatment_emergent_events": {
+        "ua": 16,
+        "placebo": 15
+      },
+      "serious_events": {
+        "ua": 0,
+        "placebo": 0
+      },
+      "AE_withdrawals": {
+        "ua": 1,
+        "placebo": 1
+      },
+      "table_unit": "Eventtotals;uniqueaffectedparticipantcount notclearlysupplied",
+      "reported_between_group": "No significantdifference;causationnotestablished"
+    },
+    "ATLAS": {
+      "events": {
+        "placebo": 42,
+        "ua500": 24,
+        "ua1000": 36
+      },
+      "affected_participants": {
+        "placebo": 17,
+        "ua500": 13,
+        "ua1000": 15
+      },
+      "overall_source_p": 0.113,
+      "table_percent_denominator": "Eventsperarm, notrandomizedparticipants",
+      "reported_between_group": "No significantoverall safetytestdifference;musclebiopsy complaintscontribute"
+    },
+    "limit": "Four-month smallselectedcohorts;notlong-term,rare-event,MVAorpediatric safety."
+  },
+  "cohort_independence": {
+    "distinct_trials_sites_and_population": true,
+    "shared_sponsor_and_research_team": true,
+    "endpoint_selection_independent": false,
+    "participant_identifier_overlap_audited": false,
+    "basis": "DifferentregistryIDs, Seattleolder versusOntariomiddleaged recruitment;JAMAprotocol explicitly citesATLASasparallel/completedotherstudy."
+  },
+  "sponsorship": "BothfundedbyAmazentis;publishedsponsorrolesand employee/board/patent/adviserinterests retained;notautomaticallydisqualifying positivecontrolledfindings.",
+  "registry": {
+    "jama": {
+      "status_module": {
+        "statusVerifiedDate": "2020-10",
+        "overallStatus": "COMPLETED",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2018-02-15",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2020-09-25",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2020-10-28",
+          "type": "ACTUAL"
+        },
+        "studyFirstSubmitDate": "2017-09-13",
+        "studyFirstSubmitQcDate": "2017-09-13",
+        "studyFirstPostDateStruct": {
+          "date": "2017-09-14",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2022-08-18",
+        "lastUpdatePostDateStruct": {
+          "date": "2022-08-22",
+          "type": "ACTUAL"
+        }
+      },
+      "enrollment": {
+        "count": 66,
+        "type": "ACTUAL"
+      },
+      "has_results": false,
+      "documents": null
+    },
+    "cell": {
+      "status_module": {
+        "statusVerifiedDate": "2019-10",
+        "overallStatus": "COMPLETED",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2018-03-06",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2019-09-30",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2019-09-30",
+          "type": "ACTUAL"
+        },
+        "studyFirstSubmitDate": "2018-02-05",
+        "studyFirstSubmitQcDate": "2018-03-07",
+        "studyFirstPostDateStruct": {
+          "date": "2018-03-14",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2022-08-15",
+        "lastUpdatePostDateStruct": {
+          "date": "2022-08-17",
+          "type": "ACTUAL"
+        }
+      },
+      "enrollment": {
+        "count": 90,
+        "type": "ACTUAL"
+      },
+      "has_results": false,
+      "documents": null
+    }
+  },
+  "registry_limits": [
+    "OnlycurrentofficialAPIrecords;historyAPI403/publichistoryviewinaccessible.",
+    "ENERGIZEcurrentdatesdifferfromarticle andregistryincludesadditionalunreportedoutcomes/timing.",
+    "ATLAScurrentactualenrollment90versusarticle88;completionSeptemberversusAugust2019.",
+    "Currentprimary/secondaryconcordance doesnotverifyunchangedoriginalregistration.",
+    "NoauthorcontactforIPD/SAP."
+  ],
+  "source_discrepancies": [
+    "JAMAabsoluteleg2monthP=.05 versusnonsignificantmarkedpercentpanel;detailedprotocol permitsbothabsoluteandpercentlegendpoints.",
+    "ATLASpredictedVO2max mainP=.058 versusnativeS2B.068;bothnonsignificant.",
+    "ATLASquadricepsS1caption saysimprovedwhilemainP=.26/.18andnativepanelshavenosignificance.",
+    "ATLASDiscussion peakpower dose-order/roundedvalues differfromTable2;useTable2.",
+    "JAMA legATPmax Results prints UA−0.03[10]mM/s; official structuredabstract andEuropePMCabstract both give−0.03(0.10)mM/s. OutcomeSD0.10 explicitly comesfromabstract, notsilentResultsrepair."
+  ],
+  "typed_comparison": {
+    "source": "Current comparator-snapshot.json;notnewprimaryvalidation",
+    "niacin": "DistinctNADrestorationhypothesis/open-labelstrength;UAaddsrandomizedfunctionalprecedent butnoMVAorproximalrestorationsuperiority.",
+    "apitegromab": "Downstreamcompensation comparatorwithrecordedrandomizedmotorbenefitinSMA;UAhealthy-adultexploratorysignalsdonotestablishsame disease-specificbenefitorsuperiority.",
+    "recommendation_boundary": "Noledgerpromotion,head-to-headrankingortreatmentrecommendation."
+  },
+  "reading_scope_sha256": "0404853e0a4caf80eb8bfe27e32cd17ff82dc8a8aea225b75676fea001d8f63b",
+  "source_notice_check": "CurrentEuropePMCmetadata:RCTresearcharticles,no commentCorrectionList;boundednotexhaustive.",
+  "source_reviewer_status": "SOURCE_QUALIFIED_PENDING_ROOT_ADMISSION",
+  "status": "INTEGRATED_SOURCE_QUALIFICATION_WITH_EXPLICIT_LIMITS",
+  "source_reviewer_integration_limits": {
+    "repository_modified": false,
+    "ledger_modified": false,
+    "appraisal_count_changed": false,
+    "outer_reading_credit": 0,
+    "global_completeness_claim": false
+  },
+  "qualification_md_sha256": "57d8e37916873097e1e3607313a949eac150393529948bcadd0f0e4b63e0c856",
+  "source_reviewer_reading_scope_file": "/Users/jeweled/mva-hackathon/track2-drug-census-work/urolithin-human-followup-20260923/reading-scope.json",
+  "source_reviewer_reading_scope": {
+    "main_scientific_text_complete": {
+      "jama": true,
+      "cell": true
+    },
+    "untruncated_endmarked_text_outputs": [
+      {
+        "scope": "JAMA parts1–2",
+        "chunk": "84e660"
+      },
+      {
+        "scope": "JAMA parts3–4",
+        "chunk": "ec76e6"
+      },
+      {
+        "scope": "Cell parts1–2",
+        "chunk": "e4b08e"
+      },
+      {
+        "scope": "Cell parts3–4",
+        "chunk": "7ac434"
+      },
+      {
+        "scope": "Cell parts5–6",
+        "chunk": "30b3ee"
+      },
+      {
+        "scope": "Cell parts7–8",
+        "chunk": "6c0851"
+      },
+      {
+        "scope": "Selected registry modules, JAMA front disclosures, complete Cell scientific SupplementS1 text",
+        "chunk": "30d464"
+      },
+      {
+        "scope": "JAMA protocol pages1,5–8,36–43",
+        "chunk": "a71e43"
+      },
+      {
+        "scope": "JAMA protocol pages44–48,59–62 and complete scientific Supplement2/data-sharing Supplement3",
+        "chunk": "e63ca1"
+      }
+    ],
+    "native_visuals_viewed": [
+      "JAMA main Figures1–3",
+      "Cell main Figures1–5",
+      "JAMA Supplement2 pages2–6, eTable and eFigures1–4",
+      "Cell SupplementS1 pages2–12, FiguresS1–S7 and TablesS1/S2",
+      "JAMA protocol pages44,46,59–62",
+      "Cell article-plus-supplement PDF page5, printedarticlepage4/Table2",
+      "Cell graphical abstract"
+    ],
+    "protocol_full80pages_read": false,
+    "registry_history_read": false,
+    "participant_level_data_reanalyzed": false,
+    "RNAseq_GEO_reanalyzed": false,
+    "referenced_studies_read_this_task": false,
+    "all_main_PDF_pages_visually_read": false,
+    "not_claimed": [
+      "Whole80-page protocol reading",
+      "Separately dated final SAP",
+      "All historical registry versions",
+      "JAMA primaryPDF retrieval",
+      "Raw participant data",
+      "New BUB1B posthoc RNAseq analysis",
+      "Independent efficacy replication from secondary reader"
+    ],
+    "hash_is_not_reading": true,
+    "sources_sha256": {
+      "jama-main.xml": "57911b6e47b20fe0d78e374ffc786153cbd588550f2f9326821544b60177f6f9",
+      "cell-main.xml": "905aff89e682aba92a7ffbe3c05d54da8ce9c8ae779ccc65588122c1c497eb5a",
+      "jama-main.html": "9390b02e9034f4bd1a114eec6c6f5ba6504c1f0535b43f417e7c10e258eedb84",
+      "cell-main.html": "34a595344928b45eef55eafd26a81546423cafd58237e02c3f6abe358d1e5c91",
+      "jama-metadata.json": "e162e88fc1c2dee2741f7210f2b4bc178f697643f65098ad4f21b191e554bca5",
+      "cell-metadata.json": "1aa9a4d9af84c70a0d15f9e2e3120dbd3c29fc5f9e16d44af4329a84e56e5e19",
+      "jama-registry.json": "c09c4fb0ab615c86756a7bd58bf91c048e1b1f9aaea52d938c632d6c621279b0",
+      "cell-registry.json": "996e698a06ead15ff9a9c32d069a2657380201a52b89e3d21f71f1f868e510aa",
+      "jama-supplements.zip": "b819c158a46f5c0c94068791dda95708a13afcde08667d44822497f092db26d3",
+      "cell-supplements.zip": "118a209274c01ed31436405d7ded0b18536cf1826e837f016525b367535e38d1",
+      "jama-supplements/jamanetwopen-e2144279-s001.pdf": "3ad212ccbd681f454656e44b85ab084924765d25f22da0ecac237329f58054cd",
+      "jama-supplements/jamanetwopen-e2144279-s002.pdf": "58a376d7a11b431e010c0ba1dce2ee3038f32c14d576d282b0a10764a0b775fa",
+      "jama-supplements/jamanetwopen-e2144279-s003.pdf": "fd8c5122f493ae17006286680957884ee1cbb000857e42e95db064cd17afef02",
+      "cell-supplements/mmc1.pdf": "b68b4060442e51db4004696e4e7026cfb6215e5d89e78f0b1ff663f8ef97a919",
+      "cell-supplements/mmc2.pdf": "ae52d462e3ebc38c4842f9a6f978e88ee4abc1e7a523139f27dcdabdec5a560b"
+    },
+    "text_parts_sha256": {
+      "cell-part-01.txt": "65c77c73e184714061013148c3e749d099855aa83bc4396e3aec8d40bcefd6f8",
+      "cell-part-02.txt": "f0787760a7195500d47082ab1a3386617849249c450bfb632e2e1ba4638dd3f4",
+      "cell-part-03.txt": "fbb05ad495e2b67838890df82a92986c771e0b37abfe8b43a7a2b61c42cb06c8",
+      "cell-part-04.txt": "76b179cf69a6c46d3fd7d1d8cd11cfc50a6045a580d830d029d6a991d09c160b",
+      "cell-part-05.txt": "b1eadab6dd8349bb6f8383f6e0f6b8c3927febb13485950ef59130c44f105a9f",
+      "cell-part-06.txt": "b04e88a8500c0a4087c5adac7a0d472f31df7a66474f24dae13e5044340777cf",
+      "cell-part-07.txt": "b7c107003e5571eab5645d4c2d05c8ee90844ba516deed0455335c9bc9a6c835",
+      "cell-part-08.txt": "caa06813216faabc568954f48b1382d6a720544a5e69bed0f822bb20e029c6bb",
+      "jama-part-01.txt": "c0a6795ffc8f9394c9f38a0b7243367b6d07e0ab538353d73abef96b9204d467",
+      "jama-part-02.txt": "a425a807951291c10655ee3da608361c21ac0ca3e2d3c97ef7de6f713895336f",
+      "jama-part-03.txt": "72f474704a979afb03a74b55714c24d72dff18da195fffb2aeafebd78a00d701",
+      "jama-part-04.txt": "702d491c5f5dd36d937872ca9d64e89e102137e1cc8c035806ff4d060ee2cc40"
+    }
+  },
+  "independent_review": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/urolithin-human-followup-20260923/independent/independent-check.json",
+    "sha256": "e23a9c60f0ea6198de6fcee76141293eba4f75f00508ad5c913c64dd7d18ee89",
+    "scope": "Separate independent selected Methods/Results/native-figure/protocol review; not an independent biological replication."
+  },
+  "integration": {
+    "baseline": "d88488855307c35ec9230853b77edfaf8e482800",
+    "baseline_assessments": 216,
+    "current_assessments": 219,
+    "prior_decision_objects_unchanged": 216,
+    "new_decision_id": "new-urolithin-a",
+    "frozen_source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/urolithin-human-followup-20260923/qualification.json",
+      "sha256": "5502bb47b465bec526f30fa963377eaea34f21a78f4cef153841ccda52327923"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-functional-integration-20260923/root-reading.json",
+      "sha256": "bd03f6c2ecb0427c7eebb22657908c34434b86bf65b4a660e888c1b0c0cd4db5"
+    },
+    "original_queue_new_credit": 0,
+    "all47_original_source_question_records_unchanged": true,
+    "nominee_superiority_established": false
+  }
+}

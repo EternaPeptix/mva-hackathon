@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "assessment_date": "2026-09-23",
+  "reviewer": "/root/bromosporine_primary",
+  "repo_baseline": "b09033549d2858a52533bdc7989236a34fa6e97c",
+  "study": {
+    "pmid": "39204193",
+    "pmcid": "PMC11357620",
+    "doi": "10.3390/ph17081088",
+    "year": 2024,
+    "title": "Antitumor Effects and the Potential Mechanism of 10-HDA against SU-DHL-2 Cells",
+    "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11357620/",
+    "publisher_url": "https://www.mdpi.com/1424-8247/17/8/1088"
+  },
+  "existing_appraisal_check": {
+    "scope": "decisions.json and existing primary qualification/review Markdown",
+    "result": "No matching 10-HDA/PMID39204193 appraisal found; not a claim that the source was absent from prior abstract ledgers."
+  },
+  "compound_identity": {
+    "name_as_reported": "10-hydroxy-2-decenoic acid",
+    "abbreviation": "10-HDA",
+    "preparation": "Named compound, 50 mg dissolved in 100 µL anhydrous ethanol, diluted in culture medium; not an administered royal-jelly mixture.",
+    "structure_scope": "Figure1 depicts the unsaturated hydroxylated C10 acid; reagent supplier, catalogue, lot, purity and independent structural/batch authentication are not specified in the read main paper.",
+    "identity_limit": "No CAS/isomer or commercial-product equivalence inferred from a name or the association with royal jelly.",
+    "common_availability": "Royal-jelly association is a natural-source description; this task did not establish current product stock, human exposure, efficacy or safety."
+  },
+  "study_arms": [
+    {
+      "model": "SU-DHL-2 human DLBCL cells",
+      "source": "Reported ATCC CRL-2956, purchased from Cellcook, Guangzhou",
+      "intervention": "10-HDA for24h after an initial24h incubation",
+      "nominal_doses_ug_mL_in_methods": [
+        250,
+        500,
+        750,
+        1000
+      ],
+      "figure2A_dose_labels_ug_mL": [
+        250,
+        500,
+        800,
+        1000
+      ],
+      "cell_density_as_reported": "3 x10^6 cells/well in96-well plates",
+      "controls": "0.02%ethanol in complete culture medium; no standard antitumor positive control.",
+      "endpoint": "CCK-8 OD450-derived reduction in viability/metabolic signal, labeled cell death by authors.",
+      "reported_IC50_ug_mL": 496.8
+    },
+    {
+      "model": "LO2 /L-02 comparator",
+      "nominal_doses_ug_mL": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ],
+      "duration_h": 24,
+      "medium": "RPMI-1640-based complete medium",
+      "endpoint": "CCK-8; signal rises at200-600 and falls at800-1000; reported IC50 approximately1000µg/mL.",
+      "normal_cell_claim": "Cannot establish a normal-hepatocyte window: Cellosaurus CVCL_6926 identifies L-02/LO2 as a contaminated HeLa derivative (ICLAC-00575). Study stock STR/authentication not supplied."
+    },
+    {
+      "model": "HSF, described as normal human fibroblasts",
+      "nominal_doses_ug_mL": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ],
+      "duration_h": 24,
+      "medium": "High-glucose DMEM-based complete medium",
+      "endpoint": "Smaller CCK-8 changes than SU-DHL-2; no50%inhibition reached in displayed range; authors report IC50>1000µg/mL.",
+      "controls_limit": "Generic HSF identity, donor/source and stock-authentication details are not supplied; comparator remains useful at stated scope.",
+      "statistics": "Reported overall F(5,12)=2.473,p=.0923, while Figure2C marks1000µg/mL with an asterisk."
+    },
+    {
+      "model": "SU-DHL-2 molecular response",
+      "intervention": "496.8µg/mL10-HDA versus0.02%ethanol control for24h in proteomics; RT-PCR treatment/control ratio in same study context",
+      "endpoint": "Label-free proteomics, exploratory enrichment/network analysis and selected-gene RT-PCR.",
+      "timing_limit": "RT-PCR subsection does not independently restate its dose/time; IC50 context is explicit for proteomics and inferred study context only for the gene panel."
+    }
+  ],
+  "BUB1B_evidence": {
+    "direction": "RNA lower than solvent-control reference",
+    "assay": "Selected-gene RT-PCR, beta-actin reference; Table3 lists BUB1B primers, Figure6 shows expression<1.",
+    "numeric_fold_change": null,
+    "gene_specific_p_value": null,
+    "gene_specific_adjusted_p_value": null,
+    "statistical_note": "No exact numerical fold or BUB1B-specific P/FDR displayed; Figure6 lacks gene-specific significance markers. No digitized estimate assigned.",
+    "protein_direction": "Unqualified. No BUBR1-specific quantitative protein result or orthogonal Western assay is supplied in the read main material; authors explicitly note noncorrespondence of selected RNA/protein directions.",
+    "target_claim": "No10-HDA-BUBR1 binding, occupancy or BUB1B-dependent genetic rescue/epistasis demonstrated.",
+    "functional_limit": "No checkpoint, chromosome-fidelity, productive-renewal or useful-muscle endpoint."
+  },
+  "positive_and_null_findings": [
+    {
+      "finding": "SU-DHL-2 metabolic viability suppression with concentration response and reported24h IC50=496.8µg/mL",
+      "credit": "Actual named-compound cell-assay positive, not animal tumor response or clinical benefit."
+    },
+    {
+      "finding": "No significant difference reported between the higher750 and1000µg/mL groups",
+      "limit": "Figure2A labels the former800, so the exact higher-dose identity is unresolved."
+    },
+    {
+      "finding": "HSF responds less strongly and does not reach50%inhibition in plotted range",
+      "credit": "Comparator finding preserved without a broad normal-cell safety/selectivity claim."
+    },
+    {
+      "finding": "LO2 shows increased CCK-8 signal at lower doses and stronger suppression at higher doses",
+      "limit": "Not verified proliferation or normal liver repair; LO2 identity precludes normal-hepatocyte inference."
+    },
+    {
+      "finding": "147 proteins up,347 down,3405not significantly changed by stated proteomics criteria; complement/coagulation enrichment adjustedP=.0124",
+      "limit": "The pathway value is not a BUB1B P value or causal target validation; other displayed pathways fail adjusted significance."
+    },
+    {
+      "finding": "Xenograft model reportedly failed repeatedly",
+      "limit": "No successful in-vivo treatment efficacy. Failed model establishment is not evidence of an ineffective administered regimen."
+    },
+    {
+      "finding": "Royal jelly/10-HDA plus R-CHOP is suggested in discussion",
+      "limit": "No such combination arm, synergy test or patient treatment was performed in this study."
+    }
+  ],
+  "experimental_and_statistical_units": {
+    "replication": "All experiments stated to be in triplicate; mean±SEM. Independent cultures versus technical wells and proteomics biological-preparation units not resolved. Individual cells are not independent n.",
+    "cell_statistics": "Arcsine-square-root-transformed OD-derived percentages analyzed by ANOVA; post hoc details/exact contrasts are not fully supplied.",
+    "proteomics": "Identification FDR≤1% and ≥1unique peptide; expression testing uses t-tests with nominalp≤.05 andFC≥2or≤.5. Identification FDR is not an expression multiple-testing correction.",
+    "gene_panel": "RT-PCR treatment/control ratios, beta-actin normalization; no BUB1B-specific significance or usable raw table.",
+    "data_availability": "Article states data contained within article; no proteomics accession or raw-data reproduction claimed."
+  },
+  "source_issues": [
+    {
+      "issue": "Solvent arithmetic",
+      "reported": "50mg/100µL ethanol stock;0.02%ethanol called equal to the1000µg/mL drug condition.",
+      "calculation": "The reported stock is500mg/mL; dilution to1mg/mL implies0.2%v/vethanol, tenfold the stated0.02%.",
+      "interpretation": "Unresolved documentation/procedure discrepancy; do not silently repair the dose or claim the observed effect was caused by ethanol."
+    },
+    {
+      "issue": "Lymphoma concentration labels",
+      "reported": "Methods/Results specify750µg/mL, Figure2A labels800µg/mL.",
+      "interpretation": "Retain exact source disagreement."
+    },
+    {
+      "issue": "Low-dose lymphoma significance",
+      "reported": "Text calls250µg/mL significant, but Figure2A shows no asterisk on250; stars appear at500,800,1000.",
+      "interpretation": "Exact low-dose significance remains unresolved."
+    },
+    {
+      "issue": "HSF significance",
+      "reported": "Overall ANOVA p=.0923 versus asterisk at1000µg/mL in Figure2C.",
+      "interpretation": "Different contrasts might be involved, but they are not adequately specified. Do not declare all doses nontoxic or erase the upper-dose signal."
+    },
+    {
+      "issue": "Cell-death terminology",
+      "reported": "The death percentage is calculated from CCK-8 OD450, with negative values in some comparators.",
+      "interpretation": "It is a metabolic/viability-assay change, not direct dead-cell counting, apoptosis confirmation or proliferation rate. No cell-free assay-interference control described."
+    }
+  ],
+  "control_authenticity": {
+    "resource": "Cellosaurus L-02, CVCL_6926",
+    "url": "https://www.cellosaurus.org/CVCL_6926",
+    "entry_version": 24,
+    "entry_updated": "2025-04-10",
+    "primary_authentication_citation_PMID": "26116706",
+    "status": "HeLa derivative; ICLAC-00575; originally misidentified as normal fetal liver",
+    "scope": "Official identity registry checked; no new authentication of the authors actual vial or full rereading of the2015 authentication primary."
+  },
+  "competitive_disposition": {
+    "proposed_decision_id": "new-10-hda",
+    "match_aliases": [
+      "10-HDA",
+      "10-hydroxy-2-decenoic acid"
+    ],
+    "disposition": "Retain in-vitro lymphoma viability comparator; deprioritize the present evidence as a BUBR1-restoration or muscle-compensation lead.",
+    "reason": "Actual cell suppression and BUB1B RNA lowering deserve credit at their assay/model scope. They do not supply restoration of the relevant protein or useful muscle output; the comparator and solvent/reporting limits materially constrain selectivity and exposure claims.",
+    "equal_standards": "A different model is not itself disqualifying; niacin and apitegromab also lack established MVA rescue. The current10-HDA result points toward cancer-cell suppression/RNA decrease, whereas niacin has a separate cross-intervention restoration rationale and apitegromab has clinical motor-function evidence in another disease. No comparative MVA efficacy or superiority is inferred.",
+    "normal_MVA_harm": "Not demonstrated; cancer-cell RNA decrease cannot establish normal-MVA harm.",
+    "royal_jelly_equivalence": "Not established; no royal-jelly mixture efficacy, safety, intake or human regimen inferred."
+  },
+  "actual_read_scope": {
+    "main_text": "Complete Introduction, Results, Discussion and Materials/Methods, plus all three tables, all six figure captions and declarations.",
+    "figures": "Native Figures1-6 visually inspected after successful final official Europe PMC asset retrieval. Figure1 contextual application labels are background, not present-study outcomes.",
+    "supplement": "Retrieved XML has no linked supplementary material; successful asset ZIP contains only six main figures and thumbnails. No nonexistent/raw supplement credit assigned.",
+    "metadata": "Current PubMed EFetch publication/status/correction fields read; EuropePMC metadata attempts returned502/503.",
+    "not_performed": [
+      "Raw proteomics or PCR reanalysis",
+      "Cell-line authentication experiments",
+      "Chemical purity or exposure assay",
+      "Biological replication",
+      "Other claimed royal-jelly studies or clinical trials",
+      "New whole-corpus abstract reading"
+    ]
+  },
+  "reading_evidence": {
+    "main_results_methods_exec_chunk": "dec4ba",
+    "main_intro_discussion_exec_chunk": "cc9605",
+    "end_markers_observed": true,
+    "untruncated_main_outputs": true,
+    "native_figure_files": [
+      "assets/pharmaceuticals-17-01088-g001.jpg",
+      "assets/pharmaceuticals-17-01088-g002.jpg",
+      "assets/pharmaceuticals-17-01088-g003.jpg",
+      "assets/pharmaceuticals-17-01088-g004.jpg",
+      "assets/pharmaceuticals-17-01088-g005.jpg",
+      "assets/pharmaceuticals-17-01088-g006.jpg"
+    ]
+  },
+  "publication_status": "publication-status.json; no indexed correction/retraction notice observed in fresh PubMed record, not a comprehensive integrity guarantee.",
+  "asset_manifest": "asset-manifest.json",
+  "retrieval_manifest": "retrieval-manifest.json",
+  "automatic_outer_reading_credit": 0,
+  "new_ledger_entry_written": false,
+  "repo_modified": false,
+  "clinical_dosing_advice": false,
+  "parent_integration": {
+    "date": "2026-09-23",
+    "baseline": "b09033549d2858a52533bdc7989236a34fa6e97c",
+    "external_source_root": "common-compound-followups-20260923/10hda",
+    "delegated_or_root_source_md_sha256": "0d182d9f2c3293d05458ba4e65c5837e2c859c1247aab619614e017d677ec5a5",
+    "delegated_or_root_source_json_sha256": "86124c2831540fab6a9c14f01022cc0616f073b66b856efcc1381020e30a80ef",
+    "root_checks": [
+      "Root inspected native Figures 2 and 6, complete selected solvent/control/xenograft paragraphs and live official Cellosaurus entry. Did not independently reread the complete paper."
+    ],
+    "extra_outer_abstract_credit": 0,
+    "new_ledger_id": "new-10-hda",
+    "NIH_name_identity_warning": "NIH groups3291 and6680 display10-Hydroxy-2-Decanoic Acid but match the paper via a10-hydroxy-2-decenoic acid synonym or10-HDA abbreviation. Saturated/unsaturated or commercial-product equivalence is not established; source labels are preserved.",
+    "NIH_name_crossrefs": [
+      {
+        "ambiguity_flags": "[]",
+        "group_id": "3291",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "normalized_alias": "10 hydroxy 2 decenoic acid",
+        "source_alias_cell_ids": "[\"dsld:3291:synonym:0\"]",
+        "target_id": "new-10-hda",
+        "target_layer": "curated_appraisal",
+        "target_name_as_reported": "10-hydroxy-2-decenoic acid",
+        "target_name_field": "match_aliases"
+      },
+      {
+        "ambiguity_flags": "[]",
+        "group_id": "6680",
+        "identity_state": "EXACT_NORMALIZED_NAME_ONLY_NOT_CHEMICAL_EQUIVALENCE",
+        "normalized_alias": "10 hda",
+        "source_alias_cell_ids": "[\"dsld:6680:synonym:1\",\"dsld:6680:synonym:2\"]",
+        "target_id": "new-10-hda",
+        "target_layer": "curated_appraisal",
+        "target_name_as_reported": "10-HDA",
+        "target_name_field": "match_aliases"
+      }
+    ]
+  }
+}

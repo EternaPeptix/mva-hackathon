@@ -1,5 +1,43 @@
 # Reproduction scope and order
 
+Start with the public HG002 benchmark below to exercise download, calling and comparison without any private case inputs. Historical case-workflow restoration follows separately.
+
+## Public benchmark quick start
+
+From a fresh clone, with Bash and system Python 3.9+ installed:
+
+```bash
+bash workflow/public-benchmark/run.sh ../hg002-public-replay
+```
+
+The new [public replay entrypoint](workflow/public-benchmark/README.md) downloads
+checksum-pinned public HG002 chr20 reads, GRCh38 reference and GIAB v4.2.1 truth;
+installs an isolated, explicitly locked runtime; runs the existing twelve RTG
+controls; prepares the reference; runs the unchanged GATK/bcftools caller over
+the full public chromosome; then runs the genotype-aware comparison and
+accounting audit. It preserves full chromosome context and
+official confident-region evaluation. This is a prealigned caller-component
+benchmark, not FASTQ alignment or clinical validation. It has no private-input
+requirement and does not copy historical performance numbers into a new result.
+
+Choose a new output tree outside the clone. Public data total 2.15 GB, with about
+another 1 GB for runtime archives; plan 15–25 GiB working storage and at least
+40 GiB free. The full Mac Studio replay took 134.3 minutes, including downloads,
+setup, calling, comparison and audit; another host's runtime is unmeasured. The default two-worker run has
+a six-hour, 32-GiB sampled group-memory and 30-GiB output guard. Only its own
+process group is controlled. Linux x86-64/aarch64 and macOS arm64 have separate
+package locks; package resolution alone does not establish execution on Linux.
+The [replay guide](workflow/public-benchmark/README.md) gives exact scope,
+prerequisites, limits, output locations and a clearly labelled controls-only mode.
+
+On 21 September 2026, the full macOS arm64 replay completed with exit 0 after downloads, setup, twelve existing RTG controls, both callers, comparisons and accounting audit. It exactly reproduced the original primary split-call counts and audit partitions over 82,589 scored truth records. Total wall time was 8,057.14 seconds (134.3 minutes), with peak sampled process-group memory 5.31 GiB and output files 12.65 GiB. These are observations from one run, not resource guarantees.
+
+Linux x86-64 under QEMU completed the pinned environment, all twelve controls, and actual GATK/bcftools calling plus both RTG comparisons on a predefined public 100-kb interval. Full Linux chr20 replay remains unverified; Linux aarch64 has a resolved lock only.
+
+The final launcher adds shell-safe Java-path quoting and inherited-JVM-option sanitation after the Mac run started. Those safeguards received separate syntax/path checks; the complete run proves the recorded launched source, not full execution of the final hardened launcher. Scientific helper bodies and settings are unchanged. The [platform record](results/public-benchmark-replay-20260921.json) retains the executed/final source identities and terminal evidence.
+
+## Historical authorized-case workflow (Apple Silicon)
+
 This snapshot supplies the workflow source and configuration files. Reproduction
 requires the separately acquired inputs and software below. Exact executed commands,
 input identities and output counts are retained in the selected JSON receipts.
@@ -108,6 +146,12 @@ not freshly installed in either exercise.
 
 ## 2. Reproduce the public small-variant comparison
 
+### Historical machine-bound entrypoints
+
+The instructions and receipts below retain the original native execution. Their
+Mac executable hashes and private-layout runtime locations should not be used as
+a claim of fresh-clone portability; use the new adapter above for that purpose.
+
 The input is public HG002 NovaSeq PCR-free chr20 reads with their exact GRCh38 no-alt
 reference; small-variant truth is GIAB v4.2.1 with its official confident-region BED.
 The [input receipt](results/germline-public-inputs-20260919.json),
@@ -149,6 +193,13 @@ four. [All losses](results/germline-representation-loss-review-20260919.json) re
 available alongside the gains. The frozen primary result is not replaced.
 
 ## 3. Reproduce the authorised case analysis
+
+Start with the [case-evidence and reconstruction map](reports/appendices/track1-case-evidence.md).
+It connects the reported ranks, predictor sensitivities, selected allele support,
+locus/ten-gene census, coding depth and phase to the corresponding inputs and
+entry points. The supplied-VCF ranking runs and final four-lane native-call
+reviews are separate analyses. The map states which original outputs remain
+restricted or unavailable in this checkout; it is not a fresh-clone case replay.
 
 Obtain the challenge data through its access process and retain it outside the Git
 checkout. The internal analysis used all eight source FASTQs from four lanes, with

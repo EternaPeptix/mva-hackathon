@@ -1,0 +1,784 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-09-22T06:31:24.550304+00:00",
+  "scope": "Three EMA name-gap identities and bounded actual-product relevance follow-up",
+  "alias_screen": {
+    "schema_version": 1,
+    "generated_utc": "2026-09-22T06:28:13.754582+00:00",
+    "medicines": {
+      "etuvetidigene autotemcel": {
+        "aliases_screened": 16,
+        "catalog_match_rows": 0,
+        "saved_corpus_distinct_record_matches": 0
+      },
+      "garadacimab": {
+        "aliases_screened": 13,
+        "catalog_match_rows": 0,
+        "saved_corpus_distinct_record_matches": 0
+      },
+      "zapomeran": {
+        "aliases_screened": 8,
+        "catalog_match_rows": 0,
+        "saved_corpus_distinct_record_matches": 0
+      }
+    },
+    "catalog_normalization": "NFKC, casefold, whitespace collapse; explicit official names and separately labeled typography variants only. No fuzzy, salt, combination or platform merge.",
+    "corpus_normalization": "HTML text extraction/unescape, Unicode dash-to-hyphen, NFKC/casefold/whitespace collapse, word-boundary literal alias matching. Titles and saved abstracts only; not full texts.",
+    "corpus_query": "BUB1B OR BUBR1 OR \"mosaic variegated aneuploidy\"",
+    "corpus_records": 7362,
+    "corpus_records_with_abstract": 7191,
+    "corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+    "alias_input_sha256": "5f7a93c3b93df45597686b0168f6b22c2c954935c40a3e5cc1da9b18bbd7be71",
+    "catalog_input_sha256": {
+      "catalog.tsv": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299",
+      "aliases.tsv": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3",
+      "drugcentral-status-unverified.tsv": "10e227cf35b49bf07e7d28f86afee12e0ebd88335a4090275b21339396db372f",
+      "approval-overrides.json": "3b8706a2cf66cdd3786b504a5542c4032cccf8dd525ff531846857aba82a4108",
+      "broad-hub-screen.tsv": "05e54144433804e08f7cdc91f18f366a296cbf4fbbad1dc88565b020c130adbe"
+    },
+    "limits": "Zero matches do not demonstrate null efficacy, prove a drug absent under every possible alias, or certify worldwide uniqueness. Historical 180-product mismatch snapshot and 15,357 entity denominator unchanged."
+  },
+  "medicines": [
+    {
+      "medicine": "garadacimab",
+      "brand": "Andembry",
+      "official_identity_status": "VALIDATED_OFFICIAL_NAMES_AND_DEVELOPMENT_ALIAS",
+      "unii": "32W6AJL0DY",
+      "gsrs_uuid": "a858d516-cf0b-4cae-a854-6ec6f70e98cb",
+      "gsrs_version": "26",
+      "primary_evidence": [
+        {
+          "pmid": "36868261",
+          "doi": "10.1016/S0140-6736(23)00350-1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36868261/",
+          "coverage": "Primary abstract plus official complete NCT04656418 registry outcomes",
+          "intervention": "garadacimab",
+          "population": "HAE age12+",
+          "randomized": 65,
+          "treated_analyzed": 64,
+          "drug_n": 39,
+          "placebo_n": 25,
+          "endpoint": "Investigator-confirmed HAE attacks per month over6months",
+          "drug_mean": 0.27,
+          "placebo_mean": 2.01,
+          "mva_or_muscle_restoration_endpoint": false
+        }
+      ],
+      "direct_queries": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28garadacimab+OR+%22CSL312%22+OR+%22CSL-312%22+OR+Andembry%29+AND+%28BUB1B+OR+BUBR1+OR+%22mosaic+variegated+aneuploidy%22%29&resultType=core&format=json&pageSize=1000",
+          "error": "'hitCount'",
+          "retrieved_utc": "2026-09-22T06:19:58.568693+00:00",
+          "path": "raw/drug-gene.json",
+          "bytes": 17,
+          "sha256": "6417c45aae878ff7fe9b70ad452ac5020cc93d25347839763dd9a6efe69e0f76",
+          "http_status": 200,
+          "validation_error": "Initial response had only version; hitCount absent. Repeated request separately succeeded. This attempt is not a zero-result search."
+        },
+        {
+          "path": "raw/drug-muscle.json",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28garadacimab+OR+%22CSL312%22+OR+%22CSL-312%22+OR+Andembry%29+AND+%28muscle+OR+sarcopenia+OR+atrophy+OR+myostatin+OR+strength+OR+regeneration%29&resultType=core&format=json&pageSize=1000",
+          "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28garadacimab+OR+%22CSL312%22+OR+%22CSL-312%22+OR+Andembry%29+AND+%28muscle+OR+sarcopenia+OR+atrophy+OR+myostatin+OR+strength+OR+regeneration%29&resultType=core&format=json&pageSize=1000",
+          "retrieved_utc": "2026-09-22T06:20:00.674265+00:00",
+          "bytes": 635716,
+          "sha256": "aebb58b00bb505669f67f30e72ee7ef2f4908f81cfd2e91f096daf1e2855a1f9",
+          "http_status": 200,
+          "content_type": "application/json;charset=UTF-8",
+          "last_modified": null,
+          "query": "(garadacimab OR \"CSL312\" OR \"CSL-312\" OR Andembry) AND (muscle OR sarcopenia OR atrophy OR myostatin OR strength OR regeneration)",
+          "hitCount": 84,
+          "returnedCount": 84
+        },
+        {
+          "path": "raw/fxii-gene.json",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22factor+XII%22+OR+FXII+OR+FXIIa%29+AND+%28BUB1B+OR+BUBR1+OR+%22mosaic+variegated+aneuploidy%22%29&resultType=core&format=json&pageSize=1000",
+          "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22factor+XII%22+OR+FXII+OR+FXIIa%29+AND+%28BUB1B+OR+BUBR1+OR+%22mosaic+variegated+aneuploidy%22%29&resultType=core&format=json&pageSize=1000",
+          "retrieved_utc": "2026-09-22T06:20:01.730837+00:00",
+          "bytes": 40066,
+          "sha256": "a2f3b644987f619b2be91cf206ac8f1e15f89fe4d8fd7d95a1a0e4c4552e2d64",
+          "http_status": 200,
+          "content_type": "application/json;charset=UTF-8",
+          "last_modified": null,
+          "query": "(\"factor XII\" OR FXII OR FXIIa) AND (BUB1B OR BUBR1 OR \"mosaic variegated aneuploidy\")",
+          "hitCount": 7,
+          "returnedCount": 7
+        },
+        {
+          "path": "raw/fxii-muscle.json",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22factor+XII%22+OR+FXII+OR+FXIIa%29+AND+%28%22skeletal+muscle%22+OR+sarcopenia+OR+myostatin%29&resultType=core&format=json&pageSize=1000",
+          "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22factor+XII%22+OR+FXII+OR+FXIIa%29+AND+%28%22skeletal+muscle%22+OR+sarcopenia+OR+myostatin%29&resultType=core&format=json&pageSize=1000",
+          "retrieved_utc": "2026-09-22T06:20:06.468753+00:00",
+          "bytes": 2441313,
+          "sha256": "d760f5264cbceb26133d1fe1fdc6b3bde689a0a0658c2c533c43f4db92fe94bc",
+          "http_status": 200,
+          "content_type": "application/json;charset=UTF-8",
+          "last_modified": null,
+          "query": "(\"factor XII\" OR FXII OR FXIIa) AND (\"skeletal muscle\" OR sarcopenia OR myostatin)",
+          "hitCount": 431,
+          "returnedCount": 431
+        },
+        {
+          "path": "raw/drug-gene-lite.json",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&query=%28garadacimab+OR+CSL312+OR+%22CSL-312%22+OR+Andembry%29+AND+%28BUB1B+OR+BUBR1+OR+%22mosaic+variegated+aneuploidy%22%29&pageSize=1000&resultType=core",
+          "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&query=%28garadacimab+OR+CSL312+OR+%22CSL-312%22+OR+Andembry%29+AND+%28BUB1B+OR+BUBR1+OR+%22mosaic+variegated+aneuploidy%22%29&pageSize=1000&resultType=core",
+          "retrieved_utc": "2026-09-22T06:22:00.569948+00:00",
+          "bytes": 272,
+          "sha256": "9f2a0d120f670bb9ddd3b604f5cb52af61e62875efedc7a49c991c4bc8270892",
+          "http_status": 200,
+          "query": "(garadacimab OR CSL312 OR \"CSL-312\" OR Andembry) AND (BUB1B OR BUBR1 OR \"mosaic variegated aneuploidy\")",
+          "hitCount": 0,
+          "returnedCount": 0
+        },
+        {
+          "path": "raw/drug-muscle-titleabstract.json",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&query=TITLE_ABS%3A%28garadacimab+OR+CSL312+OR+%22CSL-312%22+OR+Andembry%29+AND+TITLE_ABS%3A%28muscle+OR+sarcopenia+OR+atrophy+OR+myostatin+OR+strength+OR+regeneration%29&pageSize=1000&resultType=core",
+          "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&query=TITLE_ABS%3A%28garadacimab+OR+CSL312+OR+%22CSL-312%22+OR+Andembry%29+AND+TITLE_ABS%3A%28muscle+OR+sarcopenia+OR+atrophy+OR+myostatin+OR+strength+OR+regeneration%29&pageSize=1000&resultType=core",
+          "retrieved_utc": "2026-09-22T06:22:01.715154+00:00",
+          "bytes": 314,
+          "sha256": "774c38c01d4143fddf1eb617cf2c9b5f18e9b7aa0f24f07a82fa2e86f3a7adf8",
+          "http_status": 200,
+          "query": "TITLE_ABS:(garadacimab OR CSL312 OR \"CSL-312\" OR Andembry) AND TITLE_ABS:(muscle OR sarcopenia OR atrophy OR myostatin OR strength OR regeneration)",
+          "hitCount": 0,
+          "returnedCount": 0
+        },
+        {
+          "path": "raw/muscle-instability.json",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&query=EXT_ID%3A41783625+AND+SRC%3AMED&pageSize=1000&resultType=core",
+          "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&query=EXT_ID%3A41783625+AND+SRC%3AMED&pageSize=1000&resultType=core",
+          "retrieved_utc": "2026-09-22T06:22:02.378355+00:00",
+          "bytes": 7281,
+          "sha256": "874f9f784ef3cec1bf9512fe40d7a0cf63393c96acb245b9d522cb703f97b6ec",
+          "http_status": 200,
+          "query": "EXT_ID:41783625 AND SRC:MED",
+          "hitCount": 1,
+          "returnedCount": 1
+        },
+        {
+          "path": "raw/kidney-fibrosis.json",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&query=EXT_ID%3A41318746+AND+SRC%3AMED&pageSize=1000&resultType=core",
+          "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&query=EXT_ID%3A41318746+AND+SRC%3AMED&pageSize=1000&resultType=core",
+          "retrieved_utc": "2026-09-22T06:22:03.040855+00:00",
+          "bytes": 9762,
+          "sha256": "eab574b4a1794d38826a1ce3f6e9f743251891215cf42ab66e766ebcde360dea",
+          "http_status": 200,
+          "query": "EXT_ID:41318746 AND SRC:MED",
+          "hitCount": 1,
+          "returnedCount": 1
+        },
+        {
+          "path": "raw/pubmed-drug-gene.json",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28garadacimab%5BTitle%2FAbstract%5D+OR+CSL312%5BTitle%2FAbstract%5D+OR+%22CSL-312%22%5BTitle%2FAbstract%5D+OR+Andembry%5BTitle%2FAbstract%5D%29+AND+%28BUB1B%5BTitle%2FAbstract%5D+OR+BUBR1%5BTitle%2FAbstract%5D+OR+%22mosaic+variegated+aneuploidy%22%5BTitle%2FAbstract%5D%29",
+          "retrieved_utc": "2026-09-22T06:22:03.304643+00:00",
+          "bytes": 497,
+          "sha256": "3369a15de874609e0242dd41a8bda46da476a28c89c15f7fbf378ffab0ae74fc",
+          "http_status": 200,
+          "query": "(garadacimab[Title/Abstract] OR CSL312[Title/Abstract] OR \"CSL-312\"[Title/Abstract] OR Andembry[Title/Abstract]) AND (BUB1B[Title/Abstract] OR BUBR1[Title/Abstract] OR \"mosaic variegated aneuploidy\"[Title/Abstract])",
+          "hitCount": "0"
+        }
+      ],
+      "source_manifest": "garadacimab/retrieval-metadata.json",
+      "source_notes": "garadacimab/notes.md"
+    },
+    {
+      "checked_at_utc": "2026-09-22T06:23:41.496441+00:00",
+      "scope": "Kostaive identity and actual-product primary evidence; no repository edits; catalog equivalence delegated to parent",
+      "identity": {
+        "brand": "Kostaive",
+        "inn": "zapomeran",
+        "product_development_code": "ARCT-154",
+        "active_substance_development_code": "mRNA-2105",
+        "status": "EMA_EXPLICITLY_CONFIRMED",
+        "source_file": "raw/ema-assessment.pdf",
+        "locators": {
+          "brand_inn_product_code": "Printed page 12, section 2.2",
+          "inn_substance_code": "Printed page 14, section 2.3.2.1"
+        },
+        "visually_verified_pages": [
+          12,
+          14
+        ],
+        "search_normalizations": [
+          "ARCT154",
+          "ARCT 154",
+          "mRNA2105",
+          "mRNA 2105"
+        ],
+        "do_not_merge_by_platform": [
+          "LUNAR-COV19",
+          "STARR",
+          "ARCT-021"
+        ],
+        "initial_eu_authorisation_date": "2025-02-12"
+      },
+      "actual_payload": [
+        "VEE-derived replicase",
+        "SARS-CoV-2 spike D614G; prefusion stabilized; furin site inactivated"
+      ],
+      "primary_evidence": [
+        {
+          "id": "PMID38744844",
+          "doi": "10.1038/s41467-024-47905-1",
+          "type": "randomized clinical trial",
+          "full_text": "raw/pmc-pivotal.xml",
+          "actual_product": "ARCT-154",
+          "endpoints": [
+            "safety/reactogenicity",
+            "neutralizing antibodies",
+            "COVID-19 incidence and severity"
+          ],
+          "direct_mva_or_muscle_rescue_endpoint_identified": false
+        },
+        {
+          "id": "NCT05012943",
+          "type": "official clinical trial record",
+          "file": "raw/ctgov-pivotal.json",
+          "outcomes_reviewed": true,
+          "direct_mva_or_muscle_rescue_endpoint_identified": false
+        },
+        {
+          "id": "PMID38141632",
+          "doi": "10.1016/S1473-3099(23)00650-3",
+          "type": "randomized booster clinical trial",
+          "coverage": "primary abstract",
+          "file": "raw/pubmed-booster.xml",
+          "arms": {
+            "ARCT-154": 420,
+            "BNT162b2": 408
+          },
+          "endpoints": [
+            "neutralizing antibody GMT and seroresponse",
+            "tolerability"
+          ],
+          "direct_mva_or_muscle_rescue_endpoint_identified": false
+        },
+        {
+          "id": "PMID40236291",
+          "pmcid": "PMC11999312",
+          "doi": "10.1016/j.bbrep.2025.101999",
+          "type": "actual-product mouse study",
+          "file": "raw/muscle-clearance-primary.xml",
+          "intervention": "10 micrograms ARCT-154 intramuscular; BALB/c; n=5 per time interval",
+          "endpoints": [
+            "spike protein tissue clearance",
+            "replicase protein tissue clearance"
+          ],
+          "muscle_meaning": "injection site and protein-distribution sampling",
+          "direct_mva_or_muscle_rescue_endpoint_identified": false
+        }
+      ],
+      "direct_query": "(zapomeran OR Kostaive OR \"ARCT-154\" OR ARCT154 OR \"ARCT 154\" OR \"mRNA-2105\" OR mRNA2105 OR \"mRNA 2105\") AND (BUB1B OR BUBR1 OR \"BUB R1\" OR \"mosaic variegated aneuploidy\")",
+      "search_results": [
+        {
+          "database": "Europe PMC",
+          "count": 0,
+          "file": "raw/epmc-direct-mva-all-aliases.json"
+        },
+        {
+          "database": "PubMed",
+          "count": 0,
+          "file": "raw/pubmed-direct-mva-all-aliases.json",
+          "caveat": "automatic query translation and warnings preserved in raw response"
+        },
+        {
+          "database": "ClinicalTrials.gov",
+          "count": 0,
+          "file": "raw/ctgov-direct-mva-all-aliases.json"
+        }
+      ],
+      "broad_muscle_search": {
+        "database": "Europe PMC",
+        "hitCount": 81,
+        "file": "raw/epmc-muscle.json",
+        "full_hit_set_adjudicated": false,
+        "purpose": "Locate actual-product muscle study; background/reference matches are possible"
+      },
+      "literal_text_screen": {
+        "ema-assessment.txt": {
+          "BUB1B": 0,
+          "BUBR1": 0,
+          "mosaic variegated": 0,
+          "muscle strength": 0,
+          "sarcopenia": 0,
+          "myogenesis": 0
+        },
+        "ema-product-info.txt": {
+          "BUB1B": 0,
+          "BUBR1": 0,
+          "mosaic variegated": 0,
+          "muscle strength": 0,
+          "sarcopenia": 0,
+          "myogenesis": 0
+        }
+      },
+      "judgment": {
+        "bub1b_bubr1_restoration": "UNKNOWN; no supporting actual-product evidence retrieved",
+        "mva_rescue": "UNKNOWN; no supporting actual-product evidence retrieved",
+        "muscle_compensation": "UNKNOWN; no supporting actual-product evidence retrieved",
+        "generic_samrna_platform_relevance": "hypothesis only; payload replacement is a distinct intervention",
+        "identity_screen_ready": true,
+        "census_membership": "DELEGATED_TO_PARENT",
+        "null_efficacy_claim": false
+      },
+      "source_manifest": "source-manifest.json"
+    },
+    {
+      "record_created_at_utc": "2026-09-22T06:22:46.647309+00:00",
+      "scope": "Independent actual-product identity and direct primary-evidence screen; no repo edits; no census count change; parent handles catalog and saved-corpus matching.",
+      "product": "Waskyra",
+      "inn": "etuvetidigene autotemcel",
+      "ema_initial_authorisation": "2026-01-09",
+      "fda_initial_approval": "2025-12-09",
+      "identity_status": "CONFIRMED_OFFICIAL_ALIASES",
+      "aliases": [
+        {
+          "name": "Telethon003",
+          "source": "ema_assessment.pdf",
+          "locator": "section 2.2, printed p12"
+        },
+        {
+          "name": "OTL-103",
+          "source": "ema_assessment.pdf",
+          "locator": "section 2.2, printed p12"
+        },
+        {
+          "name": "GSK2696275",
+          "source": "ema_assessment.pdf",
+          "locator": "section 2.2, printed p12"
+        },
+        {
+          "name": "etu-cel",
+          "source": "fda_sbra.pdf",
+          "locator": "Executive Summary, PDF p4"
+        },
+        {
+          "name": "Telethon-003",
+          "source": "fda_sbra.pdf",
+          "locator": "Executive Summary, PDF p4"
+        },
+        {
+          "name": "TLT003",
+          "source": "fda_sbra.pdf",
+          "locator": "Executive Summary, PDF p4"
+        }
+      ],
+      "normalisation_variants_for_matching_only": [
+        "OTL 103",
+        "GSK-2696275",
+        "GSK 2696275",
+        "Telethon 003",
+        "Etu-cel"
+      ],
+      "study_ids_not_product_aliases": [
+        "NCT01515462",
+        "TIGET-WAS",
+        "201228",
+        "NCT03837483",
+        "OTL-103-4",
+        "205030",
+        "206257"
+      ],
+      "mechanism": {
+        "source": "ema_assessment.pdf",
+        "locator": "section 2.2, printed p12",
+        "payload_gene": "WAS",
+        "expressed_protein": "WASP",
+        "cells": "Autologous CD34+ hematopoietic stem/progenitor cells modified ex vivo using a WAS-encoding lentiviral vector",
+        "compartment": "Hematopoietic engraftment and lymphoid/myeloid descendants",
+        "BUB1B_payload": false
+      },
+      "primary_evidence": [
+        {
+          "source": "fda_sbra.pdf",
+          "locator": "Clinical/Statistical, PDF pp14-17",
+          "population": "27 male patients with severe WAS, ages 0.98-35.1 years",
+          "design": "Two open-label single-arm studies plus expanded access; historical within-patient pretreatment comparison",
+          "outcomes": "Survival, severe infections, moderate/severe bleeding; WASP expression and hematopoietic biomarkers",
+          "limitation": "No contemporaneous control; small and selected population; no BUB1B/MVA or muscle compensation efficacy endpoints"
+        },
+        {
+          "source": "ctg_NCT03837483.json",
+          "locator": "protocolSection.outcomesModule",
+          "study": "NCT03837483 / OTL-103-4",
+          "primary_endpoints": [
+            "Annualized severe infection rate, months 6-18 versus pretreatment year",
+            "Annualized moderate/severe bleeding rate, first year versus pretreatment year"
+          ],
+          "direct_BUB1B_or_muscle_endpoint": false
+        },
+        {
+          "source": "pubmed_Ferrua_2019.xml",
+          "pmid": "30981783",
+          "doi": "10.1016/S2352-3026(19)30021-3",
+          "study": "NCT01515462",
+          "summary": "Original 2019 nonrandomized phase 1/2 interim analysis: eight treated boys with WAS; sustained corrected HSPC engraftment and increased WASP-positive blood cells; 100% survival at median 3.6 years. These are WAS outcomes.",
+          "full_text_source": "pmc_Ferrua_2019.html"
+        },
+        {
+          "source": "pubmed_Aiuti_2013.xml",
+          "pmid": "23845947",
+          "study": "NCT01515462",
+          "summary": "Original 2013 first-three-patient report: WASP-expression engraftment with platelet and immune improvement after WAS-directed HSPC gene therapy."
+        }
+      ],
+      "transfer_assessment": {
+        "direct_BUB1B_restoration": "UNKNOWN: no direct evidence found in bounded screen",
+        "direct_MVA_efficacy": "UNKNOWN: no direct evidence found in bounded screen",
+        "direct_muscle_compensation": "UNKNOWN: no direct evidence found in bounded screen",
+        "inference": "The actual approved product adds WAS, not BUB1B, and the studied outcomes are hematopoietic/immune. Its efficacy cannot be transferred to BUB1B restoration, mosaic variegated aneuploidy, or muscle compensation from these records. A BUB1B-engineered product would be a separate intervention requiring its own evidence.",
+        "do_not_promote": "Generic lentiviral/HSPC platform feasibility is not evidence for this product treating MVA."
+      },
+      "direct_queries": [
+        {
+          "source_file": "pubmed_complete_bub_mva.json",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28etuvetidigene+OR+Waskyra+OR+%22OTL-103%22+OR+%22OTL+103%22+OR+GSK2696275+OR+%22GSK-2696275%22+OR+Telethon003+OR+%22Telethon+003%22+OR+%22Telethon-003%22+OR+TLT003+OR+%22etu-cel%22%29+AND+%28BUB1B+OR+BUBR1+OR+%22mosaic+variegated+aneuploidy%22%29&retmode=json&retmax=100",
+          "query": "(etuvetidigene OR Waskyra OR \"OTL-103\" OR \"OTL 103\" OR GSK2696275 OR \"GSK-2696275\" OR Telethon003 OR \"Telethon 003\" OR \"Telethon-003\" OR TLT003 OR \"etu-cel\") AND (BUB1B OR BUBR1 OR \"mosaic variegated aneuploidy\")",
+          "retrieved_at_utc": "2026-09-22T06:20:15.471887+00:00",
+          "count": 0,
+          "pmids": [],
+          "query_translation": "(\"etuvetidigene\"[All Fields] OR \"Waskyra\"[All Fields] OR (\"otl\"[All Fields] AND \"103\"[All Fields]) OR (\"telethon\"[All Fields] AND \"003\"[All Fields])) AND (\"bub1b protein human\"[Supplementary Concept] OR \"bub1b protein human\"[All Fields] OR \"bub1b\"[All Fields] OR \"BUBR1\"[All Fields] OR \"mosaic variegated aneuploidy\"[All Fields])",
+          "warnings": {
+            "phrasesignored": [],
+            "quotedphrasesnotfound": [
+              "\"OTL-103\"",
+              "\"OTL 103\"",
+              "\"GSK-2696275\"",
+              "\"Telethon 003\"",
+              "\"Telethon-003\"",
+              "\"etu-cel\""
+            ],
+            "outputmessages": [
+              "No items found."
+            ]
+          },
+          "errors": {
+            "phrasesnotfound": [
+              "GSK2696275",
+              "Telethon003",
+              "TLT003"
+            ],
+            "fieldsnotfound": []
+          }
+        },
+        {
+          "source_file": "pubmed_complete_muscle.json",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28etuvetidigene+OR+Waskyra+OR+%22OTL-103%22+OR+%22OTL+103%22+OR+GSK2696275+OR+%22GSK-2696275%22+OR+Telethon003+OR+%22Telethon+003%22+OR+%22Telethon-003%22+OR+TLT003+OR+%22etu-cel%22%29+AND+%28muscle+OR+muscular+OR+sarcopenia+OR+myogenesis+OR+myopathy%29&retmode=json&retmax=100",
+          "query": "(etuvetidigene OR Waskyra OR \"OTL-103\" OR \"OTL 103\" OR GSK2696275 OR \"GSK-2696275\" OR Telethon003 OR \"Telethon 003\" OR \"Telethon-003\" OR TLT003 OR \"etu-cel\") AND (muscle OR muscular OR sarcopenia OR myogenesis OR myopathy)",
+          "retrieved_at_utc": "2026-09-22T06:20:15.758626+00:00",
+          "count": 11,
+          "pmids": [
+            "41938492",
+            "39499670",
+            "36074925",
+            "35503999",
+            "31480808",
+            "29752552",
+            "26275215",
+            "25037680",
+            "24030947",
+            "21178099",
+            "20837821"
+          ],
+          "query_translation": "(\"etuvetidigene\"[All Fields] OR \"Waskyra\"[All Fields] OR (\"otl\"[All Fields] AND \"103\"[All Fields]) OR (\"telethon\"[All Fields] AND \"003\"[All Fields])) AND (\"muscle s\"[All Fields] OR \"muscles\"[MeSH Terms] OR \"muscles\"[All Fields] OR \"muscle\"[All Fields] OR \"muscular\"[All Fields] OR (\"sarcopenia\"[MeSH Terms] OR \"sarcopenia\"[All Fields] OR \"sarcopenia s\"[All Fields]) OR (\"muscle development\"[MeSH Terms] OR (\"muscle\"[All Fields] AND \"development\"[All Fields]) OR \"muscle development\"[All Fields] OR \"myogenesis\"[All Fields]) OR (\"muscular diseases\"[MeSH Terms] OR (\"muscular\"[All Fields] AND \"diseases\"[All Fields]) OR \"muscular diseases\"[All Fields] OR \"myopathies\"[All Fields] OR \"myopathy\"[All Fields]))",
+          "warnings": {
+            "phrasesignored": [],
+            "quotedphrasesnotfound": [
+              "\"OTL-103\"",
+              "\"OTL 103\"",
+              "\"GSK-2696275\"",
+              "\"Telethon 003\"",
+              "\"Telethon-003\"",
+              "\"etu-cel\""
+            ],
+            "outputmessages": []
+          },
+          "errors": {
+            "phrasesnotfound": [
+              "GSK2696275",
+              "Telethon003",
+              "TLT003"
+            ],
+            "fieldsnotfound": []
+          }
+        },
+        {
+          "source_file": "ctg_complete_bub_mva.json",
+          "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%28etuvetidigene+OR+Waskyra+OR+%22OTL-103%22+OR+%22OTL+103%22+OR+GSK2696275+OR+%22GSK-2696275%22+OR+Telethon003+OR+%22Telethon+003%22+OR+%22Telethon-003%22+OR+TLT003+OR+%22etu-cel%22%29+AND+%28BUB1B+OR+BUBR1+OR+%22mosaic+variegated+aneuploidy%22%29&format=json&countTotal=true&pageSize=100",
+          "query": "(etuvetidigene OR Waskyra OR \"OTL-103\" OR \"OTL 103\" OR GSK2696275 OR \"GSK-2696275\" OR Telethon003 OR \"Telethon 003\" OR \"Telethon-003\" OR TLT003 OR \"etu-cel\") AND (BUB1B OR BUBR1 OR \"mosaic variegated aneuploidy\")",
+          "retrieved_at_utc": "2026-09-22T06:20:16.500525+00:00",
+          "count": 0,
+          "pmids": [],
+          "query_translation": null,
+          "warnings": null,
+          "errors": null
+        },
+        {
+          "source_file": "ctg_complete_muscle.json",
+          "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%28etuvetidigene+OR+Waskyra+OR+%22OTL-103%22+OR+%22OTL+103%22+OR+GSK2696275+OR+%22GSK-2696275%22+OR+Telethon003+OR+%22Telethon+003%22+OR+%22Telethon-003%22+OR+TLT003+OR+%22etu-cel%22%29+AND+%28muscle+OR+muscular+OR+sarcopenia+OR+myogenesis+OR+myopathy%29&format=json&countTotal=true&pageSize=100",
+          "query": "(etuvetidigene OR Waskyra OR \"OTL-103\" OR \"OTL 103\" OR GSK2696275 OR \"GSK-2696275\" OR Telethon003 OR \"Telethon 003\" OR \"Telethon-003\" OR TLT003 OR \"etu-cel\") AND (muscle OR muscular OR sarcopenia OR myogenesis OR myopathy)",
+          "retrieved_at_utc": "2026-09-22T06:20:16.723201+00:00",
+          "count": 0,
+          "pmids": [],
+          "query_translation": null,
+          "warnings": null,
+          "errors": null
+        },
+        {
+          "source_file": "pubmed_tiab_bub_mva.json",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22etuvetidigene%22%5BTitle%2FAbstract%5D+OR+%22Waskyra%22%5BTitle%2FAbstract%5D+OR+%22OTL-103%22%5BTitle%2FAbstract%5D+OR+%22OTL+103%22%5BTitle%2FAbstract%5D+OR+%22GSK2696275%22%5BTitle%2FAbstract%5D+OR+%22GSK-2696275%22%5BTitle%2FAbstract%5D+OR+%22Telethon003%22%5BTitle%2FAbstract%5D+OR+%22Telethon+003%22%5BTitle%2FAbstract%5D+OR+%22Telethon-003%22%5BTitle%2FAbstract%5D+OR+%22TLT003%22%5BTitle%2FAbstract%5D+OR+%22etu-cel%22%5BTitle%2FAbstract%5D%29+AND+%28BUB1B+OR+BUBR1+OR+%22mosaic+variegated+aneuploidy%22%29&retmode=json&retmax=100",
+          "query": "(\"etuvetidigene\"[Title/Abstract] OR \"Waskyra\"[Title/Abstract] OR \"OTL-103\"[Title/Abstract] OR \"OTL 103\"[Title/Abstract] OR \"GSK2696275\"[Title/Abstract] OR \"GSK-2696275\"[Title/Abstract] OR \"Telethon003\"[Title/Abstract] OR \"Telethon 003\"[Title/Abstract] OR \"Telethon-003\"[Title/Abstract] OR \"TLT003\"[Title/Abstract] OR \"etu-cel\"[Title/Abstract]) AND (BUB1B OR BUBR1 OR \"mosaic variegated aneuploidy\")",
+          "retrieved_at_utc": "2026-09-22T06:21:01.998814+00:00",
+          "count": 0,
+          "pmids": [],
+          "query_translation": "(\"etuvetidigene\"[Title/Abstract] OR \"Waskyra\"[Title/Abstract]) AND (\"bub1b protein human\"[Supplementary Concept] OR \"bub1b protein human\"[All Fields] OR \"bub1b\"[All Fields] OR \"BUBR1\"[All Fields] OR \"mosaic variegated aneuploidy\"[All Fields])",
+          "warnings": {
+            "phrasesignored": [],
+            "quotedphrasesnotfound": [
+              "\"OTL-103\"[Title/Abstract]",
+              "\"OTL 103\"[Title/Abstract]",
+              "\"GSK2696275\"[Title/Abstract]",
+              "\"GSK-2696275\"[Title/Abstract]",
+              "\"Telethon003\"[Title/Abstract]",
+              "\"Telethon 003\"[Title/Abstract]",
+              "\"Telethon-003\"[Title/Abstract]",
+              "\"TLT003\"[Title/Abstract]",
+              "\"etu-cel\"[Title/Abstract]"
+            ],
+            "outputmessages": [
+              "No items found."
+            ]
+          },
+          "errors": null
+        },
+        {
+          "source_file": "pubmed_tiab_muscle.json",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22etuvetidigene%22%5BTitle%2FAbstract%5D+OR+%22Waskyra%22%5BTitle%2FAbstract%5D+OR+%22OTL-103%22%5BTitle%2FAbstract%5D+OR+%22OTL+103%22%5BTitle%2FAbstract%5D+OR+%22GSK2696275%22%5BTitle%2FAbstract%5D+OR+%22GSK-2696275%22%5BTitle%2FAbstract%5D+OR+%22Telethon003%22%5BTitle%2FAbstract%5D+OR+%22Telethon+003%22%5BTitle%2FAbstract%5D+OR+%22Telethon-003%22%5BTitle%2FAbstract%5D+OR+%22TLT003%22%5BTitle%2FAbstract%5D+OR+%22etu-cel%22%5BTitle%2FAbstract%5D%29+AND+%28muscle+OR+muscular+OR+sarcopenia+OR+myogenesis+OR+myopathy%29&retmode=json&retmax=100",
+          "query": "(\"etuvetidigene\"[Title/Abstract] OR \"Waskyra\"[Title/Abstract] OR \"OTL-103\"[Title/Abstract] OR \"OTL 103\"[Title/Abstract] OR \"GSK2696275\"[Title/Abstract] OR \"GSK-2696275\"[Title/Abstract] OR \"Telethon003\"[Title/Abstract] OR \"Telethon 003\"[Title/Abstract] OR \"Telethon-003\"[Title/Abstract] OR \"TLT003\"[Title/Abstract] OR \"etu-cel\"[Title/Abstract]) AND (muscle OR muscular OR sarcopenia OR myogenesis OR myopathy)",
+          "retrieved_at_utc": "2026-09-22T06:21:02.303277+00:00",
+          "count": 0,
+          "pmids": [],
+          "query_translation": "(\"etuvetidigene\"[Title/Abstract] OR \"Waskyra\"[Title/Abstract]) AND (\"muscle s\"[All Fields] OR \"muscles\"[MeSH Terms] OR \"muscles\"[All Fields] OR \"muscle\"[All Fields] OR \"muscular\"[All Fields] OR (\"sarcopenia\"[MeSH Terms] OR \"sarcopenia\"[All Fields] OR \"sarcopenia s\"[All Fields]) OR (\"muscle development\"[MeSH Terms] OR (\"muscle\"[All Fields] AND \"development\"[All Fields]) OR \"muscle development\"[All Fields] OR \"myogenesis\"[All Fields]) OR (\"muscular diseases\"[MeSH Terms] OR (\"muscular\"[All Fields] AND \"diseases\"[All Fields]) OR \"muscular diseases\"[All Fields] OR \"myopathies\"[All Fields] OR \"myopathy\"[All Fields]))",
+          "warnings": {
+            "phrasesignored": [],
+            "quotedphrasesnotfound": [
+              "\"OTL-103\"[Title/Abstract]",
+              "\"OTL 103\"[Title/Abstract]",
+              "\"GSK2696275\"[Title/Abstract]",
+              "\"GSK-2696275\"[Title/Abstract]",
+              "\"Telethon003\"[Title/Abstract]",
+              "\"Telethon 003\"[Title/Abstract]",
+              "\"Telethon-003\"[Title/Abstract]",
+              "\"TLT003\"[Title/Abstract]",
+              "\"etu-cel\"[Title/Abstract]"
+            ],
+            "outputmessages": [
+              "No items found."
+            ]
+          },
+          "errors": null
+        }
+      ],
+      "pubmed_muscle_hits_screen": [
+        {
+          "pmid": "41938492",
+          "title": "Toward Trial Readiness in Congenital Myotonic Dystrophy: A Longitudinal Cohort Study of Predictors of Motor Function in Childhood.",
+          "literal_product_alias_found_in_retrieved_record": false,
+          "disposition": "Not actual-product evidence: no literal product alias in retrieved bibliographic record; distinct disease/intervention title."
+        },
+        {
+          "pmid": "39499670",
+          "title": "Natural history of Becker muscular dystrophy: DMD gene mutations predict clinical severity.",
+          "literal_product_alias_found_in_retrieved_record": false,
+          "disposition": "Not actual-product evidence: no literal product alias in retrieved bibliographic record; distinct disease/intervention title."
+        },
+        {
+          "pmid": "36074925",
+          "title": "Airway smooth muscle thickness and contraction are enhanced by intra-amniotic lipopolysaccharide in an ovine model of premature birth.",
+          "literal_product_alias_found_in_retrieved_record": false,
+          "disposition": "Not actual-product evidence: no literal product alias in retrieved bibliographic record; distinct disease/intervention title."
+        },
+        {
+          "pmid": "35503999",
+          "title": "Isoelectric Electroencephalography in Infants and Toddlers during Anesthesia for Surgery: An International Observational Study.",
+          "literal_product_alias_found_in_retrieved_record": false,
+          "disposition": "Not actual-product evidence: no literal product alias in retrieved bibliographic record; distinct disease/intervention title."
+        },
+        {
+          "pmid": "31480808",
+          "title": "ADCK2 Haploinsufficiency Reduces Mitochondrial Lipid Oxidation and Causes Myopathy Associated with CoQ Deficiency.",
+          "literal_product_alias_found_in_retrieved_record": false,
+          "disposition": "Not actual-product evidence: no literal product alias in retrieved bibliographic record; distinct disease/intervention title."
+        },
+        {
+          "pmid": "29752552",
+          "title": "Collagen VI is required for the structural and functional integrity of the neuromuscular junction.",
+          "literal_product_alias_found_in_retrieved_record": false,
+          "disposition": "Not actual-product evidence: no literal product alias in retrieved bibliographic record; distinct disease/intervention title."
+        },
+        {
+          "pmid": "26275215",
+          "title": "Early Neurodevelopmental Findings Predict School Age Cognitive Abilities in Duchenne Muscular Dystrophy: A Longitudinal Study.",
+          "literal_product_alias_found_in_retrieved_record": false,
+          "disposition": "Not actual-product evidence: no literal product alias in retrieved bibliographic record; distinct disease/intervention title."
+        },
+        {
+          "pmid": "25037680",
+          "title": "Significance of sarcomere gene mutations analysis in the end-stage phase of hypertrophic cardiomyopathy.",
+          "literal_product_alias_found_in_retrieved_record": false,
+          "disposition": "Not actual-product evidence: no literal product alias in retrieved bibliographic record; distinct disease/intervention title."
+        },
+        {
+          "pmid": "24030947",
+          "title": "Large scale genotype-phenotype analyses indicate that novel prognostic tools are required for families with facioscapulohumeral muscular dystrophy.",
+          "literal_product_alias_found_in_retrieved_record": false,
+          "disposition": "Not actual-product evidence: no literal product alias in retrieved bibliographic record; distinct disease/intervention title."
+        },
+        {
+          "pmid": "21178099",
+          "title": "SPP1 genotype is a determinant of disease severity in Duchenne muscular dystrophy.",
+          "literal_product_alias_found_in_retrieved_record": false,
+          "disposition": "Not actual-product evidence: no literal product alias in retrieved bibliographic record; distinct disease/intervention title."
+        },
+        {
+          "pmid": "20837821",
+          "title": "Defective mitochondrial adenosine triphosphate production in skeletal muscle from patients with dominant optic atrophy due to OPA1 mutations.",
+          "literal_product_alias_found_in_retrieved_record": false,
+          "disposition": "Not actual-product evidence: no literal product alias in retrieved bibliographic record; distinct disease/intervention title."
+        }
+      ],
+      "official_pdf_term_scans": [
+        {
+          "file": "ema_assessment.txt",
+          "sha256": "093072a0b2675bd89069eb923b568d124c6c5887521e3923da4497bcd983c37c",
+          "counts": {
+            "BUB1B": 0,
+            "BUBR1": 0,
+            "mosaic variegated aneuploidy": 0,
+            "muscle": 0,
+            "muscular": 0,
+            "myogenesis": 0,
+            "sarcopenia": 0
+          },
+          "pages_1based": {}
+        },
+        {
+          "file": "ema_product_information.txt",
+          "sha256": "6ca3c533ea2bd9dabfd46100d5a789cf1cb4a55a4cfae9bc560941eda315ab37",
+          "counts": {
+            "BUB1B": 0,
+            "BUBR1": 0,
+            "mosaic variegated aneuploidy": 0,
+            "muscle": 0,
+            "muscular": 0,
+            "myogenesis": 0,
+            "sarcopenia": 0
+          },
+          "pages_1based": {}
+        },
+        {
+          "file": "fda_approval.txt",
+          "sha256": "f33eda7a63682b65544ce24cde408654ff411c0c32d01a4caf3239989c146384",
+          "counts": {
+            "BUB1B": 0,
+            "BUBR1": 0,
+            "mosaic variegated aneuploidy": 0,
+            "muscle": 0,
+            "muscular": 0,
+            "myogenesis": 0,
+            "sarcopenia": 0
+          },
+          "pages_1based": {}
+        },
+        {
+          "file": "fda_label.txt",
+          "sha256": "08d51f6c80db6573e9f9ef36082b62f86a2697df7a5160de7224e78114ef30ea",
+          "counts": {
+            "BUB1B": 0,
+            "BUBR1": 0,
+            "mosaic variegated aneuploidy": 0,
+            "muscle": 0,
+            "muscular": 0,
+            "myogenesis": 0,
+            "sarcopenia": 0
+          },
+          "pages_1based": {}
+        },
+        {
+          "file": "fda_sbra.txt",
+          "sha256": "c13227e7d443de11b0c306769b295841a46f38779a3609320602df80da401a50",
+          "counts": {
+            "BUB1B": 0,
+            "BUBR1": 0,
+            "mosaic variegated aneuploidy": 0,
+            "muscle": 0,
+            "muscular": 0,
+            "myogenesis": 0,
+            "sarcopenia": 0
+          },
+          "pages_1based": {}
+        }
+      ],
+      "search_limitations": [
+        "A zero search count is not proof of no effect or exhaustive absence of evidence.",
+        "PubMed broad queries expanded some quoted development aliases into separated terms and discarded unindexed names. The 11 muscle results are therefore not literal product matches.",
+        "Title/Abstract queries returned zero but explicitly dropped unindexed development aliases, retaining etuvetidigene and Waskyra. This narrowing is retained in the raw query translations.",
+        "ClinicalTrials.gov query results and explicit trial outcomes cover registry records, not all unpublished experiments.",
+        "Current FDA label retrieved is revised July 2026; EMA initial-authorisation date is verified from EPAR, not inferred from publication or label-update date."
+      ],
+      "raw_metadata_file": "retrieval-metadata.json",
+      "verification": {
+        "downloaded_records": 25,
+        "all_http_200": true,
+        "all_raw_hashes_valid": true,
+        "all_saved_pdfs_have_pdf_signature": true
+      }
+    }
+  ],
+  "adjacent_primary_evidence": [
+    {
+      "pmid": "41783625",
+      "pmcid": "PMC12955664",
+      "doi": "10.1016/j.waojou.2026.101350",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12955664/",
+      "intervention": "donidalorsen, not garadacimab",
+      "coverage": "Full article text including Results, Tables1-2 and Discussion; figure pixels not inspected",
+      "population": "HAE phase2/3 participants with incidentally collected CK",
+      "endpoint": "Serum CK, not direct strength or muscle output",
+      "phase3_q4w_n": 45,
+      "phase3_q4w_within_condition_p": 0.016,
+      "phase3_q8w_n": 23,
+      "phase3_q8w_within_condition_p": 0.286,
+      "phase2_p": 0.299,
+      "limitations": [
+        "Baseline-to-followup tests within each condition, not a reported between-arm muscle-function effect",
+        "Incidental sampling; no exercise/fitness data; lacks longitudinal CK-fatigue relationship",
+        "No BUB1B/MVA disease experiment"
+      ],
+      "disposition": "Potential later biomarker-only triage for different medicine; not evidence credit for Andembry"
+    },
+    {
+      "pmid": "41318746",
+      "pmcid": "PMC12775217",
+      "doi": "10.1007/s00018-025-05988-z",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12775217/",
+      "intervention": "3F7 anti-FXII/FXIIa antibody; equivalence to Andembry not established here",
+      "coverage": "Primary abstract and relevant full-text Results/Discussion; no figure-pixel review",
+      "population": "Mouse unilateral ureteral obstruction and renal epithelial cells",
+      "endpoints": [
+        "Renal tissue morphology/fibrosis",
+        "Tubular epithelial apoptosis/proliferation",
+        "p21-positive tubular cells"
+      ],
+      "limits": [
+        "Not BUB1B/MVA model",
+        "Not skeletal-muscle function",
+        "Do not turn target/pathway similarity into actual-drug identity or efficacy"
+      ],
+      "disposition": "Adjacent target-level repair evidence, not actual-product MVA lead"
+    }
+  ],
+  "overall_judgment": "No retrieved actual-product evidence justifies promotion of these three medicines over the current niacin/apitegromab research comparison. MVA efficacy remains UNKNOWN; zero retrieval is not null efficacy.",
+  "historical_ema_no_match_products_changed": false,
+  "main_15357_denominator_changed": false,
+  "repository_files_written": false,
+  "source_registry_and_abstract_depth_preserved": true
+}

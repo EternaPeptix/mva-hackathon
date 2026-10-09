@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "status": "SOURCE_QUALIFIED_REGULATORY_CONTEXT_DELTA_STATISTICAL_GAPS_UNRESOLVED",
+  "created_at_utc": "2026-09-27T11:12:39.871794+00:00",
+  "candidate": "apitegromab-mstn",
+  "study": {
+    "name": "SAPPHIRE",
+    "nct_id": "NCT05156320",
+    "sponsor_study_id": "SRK-015-003",
+    "publication_pmid": "40818473",
+    "publication_doi": "10.1016/S1474-4422(25)00225-X"
+  },
+  "new_source": {
+    "type": "official FDA approval letter",
+    "BLA": "761463",
+    "reference_id": "5868054",
+    "signed_at_as_printed": "09/11/2026 04:42:12 PM",
+    "pages": 9,
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761463Orig1s000ltr.pdf",
+    "sha256": "846b3931180fc2fcf7370ccb316ae37b5b7710c264543c1a7df8f3b0a788a4b1"
+  },
+  "delta": {
+    "fracture_EPV": {
+      "status": "REQUESTED_ENHANCED_PHARMACOVIGILANCE",
+      "recipient": "Sponsor submits to FDA",
+      "alert_reports": {
+        "scope": "All serious and non-serious domestic and/or foreign fracture cases",
+        "timing": "15-day Alert reports",
+        "separate_end_date_stated": false
+      },
+      "narrative_analysis": {
+        "frequency": "Quarterly during first 3 years post-approval, annually thereafter through year 5 after initial US approval",
+        "scope": "Interval and cumulative fracture cases; causality assessment including indication, temporal association, therapy duration, symptoms, confounders, underlying risk factors, treatment, outcome and dechallenge/rechallenge"
+      },
+      "utilization_exposure": {
+        "frequency": "Annually through year 5 after initial US approval",
+        "scope": "Cumulative utilization/exposure including doses or units administered",
+        "observed_incidence_or_unique_patient_denominator_supplied": false
+      },
+      "is_fracture_505o_PMR": false,
+      "new_observed_events": 0,
+      "new_incidence_estimates": 0,
+      "described_as_REMS_in_letter": false,
+      "global_REMS_status_not_assessed": true
+    },
+    "pregnancy_PMR": {
+      "id": "4891-1",
+      "status": "REQUIRED_UNDER_505o",
+      "design": "Worldwide single-arm pregnancy safety study for at least 10 years",
+      "draft_protocol": "2027-01",
+      "final_protocol": "2027-09",
+      "completion": "2038-03",
+      "final_report": "2039-03",
+      "new_observed_outcomes": false
+    },
+    "no_AdCom_rationale": "Letter says intended-population application did not raise significant safety or efficacy issues. Not evidence of universal safety or safety in MVA."
+  },
+  "inherited_not_new": {
+    "randomized_fractures": {
+      "10mg_per_kg": "5/53",
+      "20mg_per_kg": "3/53",
+      "placebo": "1/50"
+    },
+    "extension_fractures": {
+      "regimen": "20 mg/kg open-label extension",
+      "patients": 22,
+      "serious_femur_events": 5
+    },
+    "efficacy": "Pooled younger-cohort positive, 20-mg comparison nonsignificant, 10-mg label comparison nominal. No new effect estimate or hierarchy resolution."
+  },
+  "current_registry": {
+    "last_update_submitted": "2026-01-16",
+    "last_update_posted": "2026-01-22",
+    "derived_version_holder": "2026-09-25",
+    "derived_version_holder_is_study_update_date": false,
+    "hasResults": false,
+    "resultsSection_present": false,
+    "documentSection_present": false,
+    "enrollment": 188,
+    "history_successfully_read": false,
+    "absence_scope": "Current retrieved public record only, not a claim that an SAP/results never existed or were not submitted",
+    "retrieval_started_at_utc": "2026-09-27T10:59:33.470272+00:00"
+  },
+  "unresolved": [
+    "Prespecified pooled/20mg/10mg hierarchy and multiplicity",
+    "Protocol/SAP amendment chronology",
+    "Missing-data and sensitivity analyses",
+    "New event-level fracture adjudication or incidence",
+    "MVA efficacy or comparative nominee ordering"
+  ],
+  "recommendation": "Retain current provisional priority. Incorporate the requested-EPV and source-access context in the existing apitegromab appraisal; no new candidate or efficacy promotion.",
+  "credit": {
+    "new_study_cohorts": 0,
+    "new_efficacy_estimates": 0,
+    "new_original_queue_reading_credit": 0,
+    "new_full_trial_main_read": 0
+  },
+  "scope": {
+    "integration_status": "SOURCE_QUALIFIED_EXISTING_APPRAISAL_REFINEMENT",
+    "candidate_count": 259,
+    "new_candidate_count": 0,
+    "refined_id": "new-apitegromab",
+    "other_decisions_unchanged": 258,
+    "independent_review_complete": true,
+    "new_experiments": 0,
+    "new_original_queue_reading_credit": 0,
+    "broader_discovery_complete": false
+  },
+  "metadata": {
+    "integrated_at_utc": "2026-09-27T11:28:11.891912+00:00",
+    "raw_primary_assets_external": true,
+    "baseline_source_references": [
+      {
+        "repo_relative": "workflow/track2-drug-census/apitegromab-review.md",
+        "revision": "8383727638fe2a5e1d0823fc4b397956d7ca8891",
+        "sha256": "e4de6f4bb980e429264b6d7591305973581de61d5ff667092e0b05618542072b"
+      }
+    ],
+    "source_and_review_bindings": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/apitegromab-regulatory-followup-20260927/qualification.md",
+        "sha256": "9ed856e24e09f28353305d008be9048e66a82b0bffefc3f904effee2a2994ede"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/apitegromab-regulatory-followup-20260927/qualification-v2.json",
+        "sha256": "033f71a0d93bfb2ed86f27976885c2b0db6fe0de5d9a452ba5c8008a885ac2f6"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/apitegromab-regulatory-followup-20260927/final-bindings.json",
+        "sha256": "c17d307bdbba2e7fdb99a1be5f537900ac7aac663ebd17dea9db518dbf759377"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/apitegromab-regulatory-followup-20260927/correction-bindings.json",
+        "sha256": "5b87cf1986da17b11f92b04bde0caf927162abd7567444c724a632614e94e638"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/apitegromab-regulatory-followup-20260927/source-manifest.json",
+        "sha256": "c7e5b134826c885d310eeab176f8dde604f7fdce04870bca93052f03063c9127"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/apitegromab-regulatory-followup-20260927/context-bindings.json",
+        "sha256": "bdfd06498c5874e2e3d70ed77d96aca428a3ffdb335861ce96ea01c75b926cbd"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/apitegromab-regulatory-followup-20260927/reading-scope.json",
+        "sha256": "3aa06fa5641f8bae1c967f154227669e52f666cea4de0d077c067a2f1110fc43"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/apitegromab-regulatory-followup-20260927/retrieval-record.json",
+        "sha256": "12339f8fef08939bc370af7efbb9f363a8a2961e08dfc3d00e513c905033c1ff"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/apitegromab-regulatory-followup-20260927/independent/review.md",
+        "sha256": "9778d2b64dd1d7ea0c76ef15da177ea49549c42dafbe61f8526eca24b9667681"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/apitegromab-regulatory-followup-20260927/independent/review.json",
+        "sha256": "1f6df6b83f151b9874ec293b6cff9e973629e5e24dd4c768c184074ffd9c7d38"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/apitegromab-regulatory-followup-20260927/independent/final-bindings.json",
+        "sha256": "58ac25f34aadfd0724ef78fcb502d945bdb4ec011693188c0e44b4042cda905c"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/apitegromab-regulatory-integration-20260927/root-reading.json",
+        "sha256": "3c0af98c0778778d8a1efe01651b83af2c580915479bd92a96e3a1592644674c"
+      }
+    ],
+    "root_reading": {
+      "root": "Complete retained letter text, official listing extract, complete existing apitegromab appraisal, primary qualification narrative, complete corrected qualification-v2 JSON, independent final review and correction note. No native letter pixels read by root; no original SAPPHIRE main/SAP or historical registry version read.",
+      "primary": "Complete nine-page letter text, native pages1 and4-9; current registry and exact bounded access scope retained in frozen packet.",
+      "independent": "Complete letter text and all nine native pages, existing appraisal and bounded listing/currentregistry/source-integrity review. No new source retrieval or original trial-main reading."
+    },
+    "correction_scope": "Use separately bound corrected retrieval-start time and letter-scoped REMS description. Original frozen narrative, raw assets and primary manifest remain unchanged. Mutable repository appraisal references in old source-context files refer to the exact baseline Git blob, not its later edited live path."
+  }
+}

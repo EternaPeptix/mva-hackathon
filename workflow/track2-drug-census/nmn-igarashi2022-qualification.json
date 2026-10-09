@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-09-26",
+  "timezone": "America/Phoenix",
+  "source": {
+    "doi": "10.1038/s41514-022-00084-z",
+    "pmid": "35927255",
+    "pmcid": "PMC9158788",
+    "title": "Chronic nicotinamide mononucleotide supplementation elevates blood nicotinamide adenine dinucleotide levels and alters muscle function in healthy older men",
+    "publication_date": "2022-05-01",
+    "registry": "UMIN000036321",
+    "registry_receipt": "R000040733"
+  },
+  "preparation": {
+    "intervention": "Oral NMN 250 mg once daily for an intended 12 weeks",
+    "supplier": "Mitsubishi Corporation Life Sciences Limited",
+    "placebo": "Composition not established in read sources",
+    "product_lot_purity_excipients": "Not established",
+    "not_inherited_from_other_trials": true
+  },
+  "population": "Healthy Japanese men aged at least 65, BMI 22–28, nonsmokers; no active disease; no MVA or pediatric cohort",
+  "denominators": {
+    "screened": 65,
+    "excluded_native_flow": 23,
+    "randomized_active_placebo": [
+      21,
+      21
+    ],
+    "baseline_and_week6_active_placebo": [
+      21,
+      21
+    ],
+    "week12_analyzed_active_placebo": [
+      10,
+      10
+    ],
+    "retained_subset_baseline_week6_active_placebo": [
+      10,
+      10
+    ]
+  },
+  "dispensing_error": {
+    "affected_each_arm": 11,
+    "timing": "Other supplement supplied at week 6, discovered after study completion",
+    "analysis_action": "Excluded all 22 affected week-12 datasets following the ethics committee decision; retained baseline and week-six measurements",
+    "interpretation": "Protocol-deviation data exclusions; not 22 adverse-event withdrawals or an intended crossover",
+    "randomized_week12_complete_contrast_available": false
+  },
+  "functional_tests": {
+    "gait": "Central 10 m of a 16-m course; average of two measurements; Table 3 reports m/s",
+    "grip": "Two trials per hand with Smedley digital dynamometer; highest value",
+    "chair": "Rises in 30 seconds from an armless chair"
+  },
+  "longitudinal_tests": {
+    "counts": "21 per arm at baseline and week six; 10 per arm at week 12",
+    "gait_mixed_p": 0.033,
+    "gait_mmrm_p": 0.015,
+    "left_grip_mmrm_p": 0.019,
+    "right_grip_mixed_p": 0.259,
+    "right_grip_mmrm_p": 0.194,
+    "chair_mixed_p": 0.509,
+    "chair_mmrm_p": 0.309,
+    "type": "Group-by-visit interaction; nominal exploratory uncorrected findings"
+  },
+  "change_comparisons": {
+    "summary": "Reported group mean changes±SD; not adjusted treatment estimates",
+    "week6_full21_each": {
+      "gait": {
+        "active": [
+          0.02,
+          0.09
+        ],
+        "placebo": [
+          -0.02,
+          0.13
+        ],
+        "unit": "m/s",
+        "p": 0.111,
+        "method": "baseline-adjusted ANCOVA"
+      },
+      "left_grip": {
+        "active": [
+          1.5,
+          4.3
+        ],
+        "placebo": [
+          0.1,
+          3.4
+        ],
+        "unit": "kg",
+        "p": 0.204,
+        "method": "baseline-adjusted ANCOVA"
+      },
+      "right_grip": {
+        "active": [
+          1.5,
+          4.0
+        ],
+        "placebo": [
+          1.6,
+          3.4
+        ],
+        "unit": "kg",
+        "p": 0.669,
+        "method": "baseline-adjusted ANCOVA"
+      },
+      "chair": {
+        "active": [
+          1.2,
+          2.1
+        ],
+        "placebo": [
+          -0.5,
+          2.6
+        ],
+        "unit": "count/30s",
+        "p": 0.031,
+        "method": "baseline-adjusted ANCOVA"
+      }
+    },
+    "week12_retained10_each": {
+      "gait": {
+        "active": [
+          0.09,
+          0.13
+        ],
+        "placebo": [
+          -0.01,
+          0.1
+        ],
+        "unit": "m/s",
+        "p": 0.066,
+        "method": "Table 3 footnote c: unpaired t test, no baseline adjustment"
+      },
+      "left_grip": {
+        "active": [
+          1.3,
+          2.7
+        ],
+        "placebo": [
+          -0.7,
+          2.5
+        ],
+        "unit": "kg",
+        "p": 0.082,
+        "method": "baseline-adjusted ANCOVA"
+      },
+      "right_grip": {
+        "active": [
+          1.8,
+          4.2
+        ],
+        "placebo": [
+          1.3,
+          3.2
+        ],
+        "unit": "kg",
+        "p": 0.479,
+        "method": "baseline-adjusted ANCOVA"
+      },
+      "chair": {
+        "active": [
+          1.5,
+          1.7
+        ],
+        "placebo": [
+          0.5,
+          3.7
+        ],
+        "unit": "count/30s",
+        "p": 0.311,
+        "method": "baseline-adjusted ANCOVA"
+      }
+    },
+    "published_treatment_effect_ci": null,
+    "ci_reconstructed": false
+  },
+  "gait_endpoint_limits": {
+    "retained20_baseline_active": [
+      1.5,
+      0.2
+    ],
+    "retained20_baseline_placebo": [
+      1.31,
+      0.19
+    ],
+    "baseline_p": 0.041,
+    "week12_active": [
+      1.6,
+      0.13
+    ],
+    "week12_placebo": [
+      1.3,
+      0.22
+    ],
+    "week12_unadjusted_endpoint_p": 0.002,
+    "week6_full42_endpoint_p": 0.023,
+    "week6_retained20_change_ancova_p": 0.03,
+    "limit": "Endpoint separation is not adjusted treatment benefit; different populations/tests are not interchangeable."
+  },
+  "primary_mass": {
+    "registered_primary": "Skeletal muscle index by BIA",
+    "mixed_p": 0.979,
+    "mmrm_p": 0.874,
+    "week12_change_ancova_p": 0.805,
+    "posthoc_power": "Authors calculate for assumed large SMI effect; not proof of adequate functional power or absence of smaller benefit",
+    "retained20_week6_counterevidence": {
+      "right_arm_lean_change_active_placebo_kg": [
+        -0.07,
+        0.04
+      ],
+      "right_arm_p": 0.012,
+      "trunk_lean_change_active_placebo_kg": [
+        -0.3,
+        0.2
+      ],
+      "trunk_p": 0.039,
+      "limit": "Subset exploratory uncorrected comparisons, not generalized muscle harm"
+    }
+  },
+  "hierarchy_analysis": {
+    "public_registry_original_and_current": "SMI primary; glucose metabolism/FMD key secondary; gait/grip/chair/NAD unlisted",
+    "main_methods": "Broader primary objectives blood NAD and body composition; secondary aging-related functions",
+    "reporting_summary": "SMI primary; broad secondary categories; 24 January 2022",
+    "functional_prospective_registration_established": false,
+    "omission_proves_posthoc_invention": false,
+    "full_protocol_sap_acquired": false,
+    "protocol_available_on_request_statement": true,
+    "multiplicity": "No correction explicitly applied; all analyses exploratory",
+    "mixed_model": "Intercept/visit random; group/visit/interaction fixed",
+    "mmrm": "Alternative when mixed model fails; group/visit/interaction fixed, unrestricted covariance described",
+    "missing_data_sensitivity_analysis_established": false
+  },
+  "biomarker": {
+    "tissue": "Whole blood, LC-MS/MS, baseline/week 12",
+    "week12_n_each": 10,
+    "native_nad_change_p": "<.001",
+    "not_measured": [
+      "muscle NAD",
+      "SIRT2 activity",
+      "BUBR1 abundance/function",
+      "chromosome fidelity",
+      "MVA-genotype rescue"
+    ],
+    "source_distinction": "Figure 2 change comparisons differ from Supplementary Table 4 endpoint comparisons; NA/NAM endpoint differences do not imply significant change differences"
+  },
+  "safety": {
+    "pill_adherence_author_report": ">90%; does not repair wrong-supplement exposure",
+    "serious_ae_author_report": "None",
+    "all_adverse_event_counts": "Not supplied in complete arm-specific table",
+    "week12_lab_n_each": 10,
+    "interpretation": "Short selected-sample tolerability; not no-AE or long-term safety proof"
+  },
+  "funding_conflicts": "Mitsubishi funded/supplied NMN; three employee coauthors contributed to conceptualization; others declared none",
+  "publication_notice": {
+    "specific_correction_or_retraction_identified": false,
+    "bounded_check": "Crossmark current, Crossref/PubMed/EuropePMC notice fields plus exact-source searches",
+    "allocation_error_is_original_report_not_later_correction": true,
+    "registry_notices_detail": {
+      "schema_version": "1.0",
+      "review_date_local": "2026-09-26",
+      "timezone": "America/Phoenix",
+      "doi": "10.1038/s41514-022-00084-z",
+      "pmid": "35927255",
+      "pmcid": "PMC9158788",
+      "registry_id": "UMIN000036321",
+      "registry_receipt": "R000040733",
+      "identity_verified_against_main": true,
+      "current_record_read_complete": true,
+      "historical_versions_read_complete": [
+        1,
+        2,
+        3
+      ],
+      "version_history": [
+        {
+          "version": 1,
+          "timestamp": "2019-03-27 22:27:43",
+          "status": "Preinitiation",
+          "funder": "MC Food Specialities Inc.",
+          "irb_date": null
+        },
+        {
+          "version": 2,
+          "timestamp": "2019-06-27 23:22:33",
+          "status": "Preinitiation",
+          "funder": "Mitsubishi Corporation Life Sciences Limited",
+          "irb_date": null,
+          "changes": "Funding-organization English/Japanese fields"
+        },
+        {
+          "version": 3,
+          "timestamp": "2021-03-02 18:05:15",
+          "status": "Completed",
+          "funder": "Mitsubishi Corporation Life Sciences Limited",
+          "irb_date": "2019-03-29",
+          "changes": "Recruitment status and IRB date"
+        }
+      ],
+      "unchanged_registered_design": {
+        "population": "Healthy men65orolder, BMI22-28, no smoking history, Japan",
+        "target_total": 42,
+        "actual_enrolled_registry": null,
+        "arms": 2,
+        "intervention": "NMN250mg/day12weeks",
+        "comparator": "placebo12weeks",
+        "character": "exploratory randomized parallel double-blind placebo-controlled",
+        "primary": "Skeletal muscle index by bioelectrical impedance",
+        "key_secondary": [
+          "glucose-metabolism parameters",
+          "FMD vascular endothelial function"
+        ],
+        "functional_endpoints_listed": false,
+        "NAD_endpoint_listed": false,
+        "outcome_specific_times_or_analysis_contrasts": "not stated"
+      },
+      "registration_dates": {
+        "registered": "2019-03-27",
+        "public_disclosure": "2019-06-01",
+        "protocol_fixation": "2019-02-07",
+        "anticipated_start": "2019-06-01",
+        "last_followup": "2019-09-30",
+        "paper_conduct_interval": "2019-07 through2019-11",
+        "interpretation": "Registration/disclosure precedes reported conduct; confirms prospective registration of listed outcomes only"
+      },
+      "hierarchy_discrepancy": "Paper adds primary bloodNAD and broader secondary aging-related function; archived registry lists SMI primary and glucose/FMD key secondary only",
+      "not_concluded": "Not-listing in accessible registry does not prove posthoc invention; complete original protocol/SAP absent from these records",
+      "protocol_url_blank_all_versions": true,
+      "protocol_recovered": false,
+      "sap_recovered": false,
+      "posted_results_registry": false,
+      "current_registry_results_label": "Unpublished; stale last update2021-03-02",
+      "notice_check": {
+        "crossmark": "current,no updates listed",
+        "crossref_update_to": null,
+        "crossref_updated_by": null,
+        "crossref_relation": {},
+        "pubmed_comments_corrections_count": 0,
+        "pubmed_publication_types": [
+          "Journal Article"
+        ],
+        "pmc_related_article_notice_count": 0,
+        "trial_specific_notice_found": false,
+        "bounded_not_exhaustive": true
+      },
+      "reading_credit": "Registry/notices only; main XML targeted identity/hierarchy/date check, not additional scientific-trial reading",
+      "optional_refinement_created": false,
+      "edits_outside_owned_folder": false
+    }
+  },
+  "comparison": {
+    "other_qualified_trials": "Yi 2023 and Igarashi 2026 remain separate frozen qualifications; no modifications",
+    "judgment": "Additional exploratory motor signals support mixed controlled human-function comparator; dispensing error and analysis limits prevent broad restoration claim",
+    "no_dose_product_pooling": true,
+    "no_head_to_head_niacin_superiority": true,
+    "same_reciprocal_MVA_research_criterion": true,
+    "drug_eligibility_separate": true
+  },
+  "source_reviewer_status": "FROZEN_SEPARATE_SOURCE_QUALIFICATION_NO_ENTRY_CHANGE",
+  "source_reviewer_changes": {
+    "repository": false,
+    "prior_source_packages": false,
+    "entry": false,
+    "optional_refinement_produced": false,
+    "new_compound_count": 0,
+    "nominee": false,
+    "original_queue_credit": 0
+  },
+  "status": "INTEGRATED_ADDITIONAL_SOURCE_FOR_EXISTING_NMN_ENTRY",
+  "qualification_md": "nmn-igarashi2022-qualification.md",
+  "qualification_md_sha256": "a16c9fdcc0f33596ddb986193c273e79b60070c1b80fb4fcbb8b7be6a8eed378",
+  "integration": {
+    "baseline": "b875209faf0fcc3de9c4985c4645160e8b33b123",
+    "appraisals": 247,
+    "refined_ids": [
+      "prior-04"
+    ],
+    "other_objects_unchanged": 246,
+    "new_appraisals": 0,
+    "new_original_queue_credit": 0,
+    "nomination_change": false,
+    "previous_two_trial_source_files_unchanged": true,
+    "source_markdown": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-igarashi2022-followup-20260926/qualification.md",
+      "sha256": "be7f6a21ee098544c3d66fddd536e798f232954c1c8874970f9f3af0d23555e1"
+    },
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-igarashi2022-followup-20260926/qualification.json",
+      "sha256": "a2d463fd0c7544b462d6e2013fbb207ce255e8bfb39c68c22509f928b81310c8"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-igarashi2022-followup-20260926/reading-manifest.json",
+      "sha256": "d118e0862dc6c6c883bef5f7b1a61b907a089f4020c40e47d2b67a0a17e2986b"
+    },
+    "source_freeze": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-igarashi2022-followup-20260926/freeze-manifest.json",
+      "sha256": "ff6056d85c3bc05af669b16bcc2ecbec577eb37a23a6a497ba0d59389eff735b"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-igarashi2022-followup-20260926/independent-check/independent-check.md",
+      "sha256": "99a746eaff5ba06053e56540a54f88463f05c3b35d3da1284e7d341a87d7a8cb"
+    },
+    "independent_structured_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-igarashi2022-followup-20260926/independent-check/independent-check.json",
+      "sha256": "8cec98199192f9dc29e2c99d6f2cd88af2a995b4f33c879dff2e814eb3e4dab5"
+    },
+    "independent_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-igarashi2022-followup-20260926/independent-check/reading-manifest.json",
+      "sha256": "9136b2ef5d137669fd7e48a6d771bdd3df2db1b32fa17913da80e0046cf74757"
+    },
+    "independent_bindings": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-igarashi2022-followup-20260926/independent-check/binding-manifest.json",
+      "sha256": "d60837ba1c7fc43f65c7b0625e802e23ca9efb7ae9d41fbe6f824519725cb87c"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-igarashi2022-integration-20260926/root-reading.json",
+      "sha256": "1274b963a3b053a0a9f98f1956527c0cf3228a5a302416a979d35cd1042c8478"
+    },
+    "entry_before": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-igarashi2022-integration-20260926/baseline-prior-04.json",
+      "sha256": "13bd3c82cad939c2d7cbe2f336db5bd8af16705852c76fe38a52d52752586db4"
+    },
+    "root_appended_entry": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nmn-igarashi2022-integration-20260926/accepted-entry.json",
+      "sha256": "e044ff4fd8472e00719ccd28432285b5a7591ec4a602a0ae760cb7fe68428d41"
+    },
+    "metadata_renames": {
+      "status": "source_reviewer_status",
+      "changes": "source_reviewer_changes"
+    },
+    "markdown_metadata_replacements": [
+      {
+        "before": "This separate source review was completed on 26 September 2026, America/Phoenix, with retrievals on 27 September UTC. It does not modify the previously accepted Yi 2023/Igarashi 2026 package, any repository entry, assessment count or nomination. No optional `prior-04` refinement is supplied.",
+        "after": "This separate source review was completed on 26 September 2026, America/Phoenix, with retrievals on 27 September UTC. It is integrated as an additional source for the existing NMN appraisal. The previously accepted Yi 2023/Igarashi 2026 qualification files, the other 246 decision objects, the 247-assessment count and the nominations remain unchanged. Source reviewers supplied no optional entry; the integrating reviewer recorded the appended `prior-04` evidence separately."
+      }
+    ],
+    "root_entry_addition_scope": "Append accepted source rationale and reading scope; add new report/URLs. All prior fields/identity/disposition and original rationale prefix retained.",
+    "MVA_superiority_established": false
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-04",
+  "verified_utc": "2026-10-04T16:28:28.952875+00:00",
+  "status": "PASS_SOURCE_BINDINGS_COUNTS_PRESERVATION_AND_INDEPENDENT_INTEGRATION_QA",
+  "historical_ledger_before": 304,
+  "accepted_ledger_at_this_checkpoint": 305,
+  "accepted_eligibility_records_at_this_checkpoint": 1800,
+  "unscreened_at_this_checkpoint": 54417,
+  "not_worldwide_enumeration_or_MVA_efficacy": true,
+  "root_verification": [
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/primary-packages-root-rehash.json",
+      "bytes": 33710,
+      "sha256": "e60e70de298ac15349f621a7fc3ae077e9721cd9f6ffa30e03f9c961cb6c6f89"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/primary-post-integration-root-check.json",
+      "bytes": 489,
+      "sha256": "a8663d3e11e53fe652e4153486b1e21aa886b4cc2e52c33549d6992931a6d6a9"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/independent-packages-root-rehash.json",
+      "bytes": 507,
+      "sha256": "dc6592f13c1a2cb715709ab20e82a52c2306b8c11a385ad65a73b797a529ac63"
+    }
+  ],
+  "independent_review_packages": [
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-repo-integration-independent-20261004/final-bindings.json",
+      "bytes": 125568,
+      "sha256": "27359330f6633e3b0aa46dc18be7a18a9d0e586ac3edb0d6d3b201a774b693e9"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-integration-independent-20261004/final-bindings.json",
+      "bytes": 16021,
+      "sha256": "8bc5161c659c8b82fac28605e3ca6aeadb1bef765fcf8858879640ecaaead68e"
+    }
+  ],
+  "independent_review_scope": {
+    "eligibility": "4386 mechanical checks;325 literal anchors;160 identities; prior batches unchanged;351 current input paths stable. No scientific reread credit.",
+    "primary_integration": "302 prior appraisals unchanged,2 amendments,1 empty-alias preparation.134 source paths,33 numerical claim groups; no additional source reading credit."
+  },
+  "census_check": {
+    "command": "python3 workflow/track2-drug-census/verify_census.py",
+    "result": "PASS",
+    "curated_appraisals": 305,
+    "catalog_entities": 15357,
+    "scope": "Complete repository verifier; no new original-source reading or result-accuracy certification supplied by program checks."
+  },
+  "new_screen_ids_from_targeted_primary_followups": 0,
+  "source_correction_limits": "CoQ10 original main/native estimates and erratum contents unresolved. B14 order48 metadata only; order60 retains explicit original abstract truncation. Notice/body/version limits remain in each record.",
+  "immutable_checkpoint_artifact_bindings": [
+    {
+      "repository_relative_path": "workflow/track2-drug-census/outcome-first-batch14-screen.json",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/immutable-integrated-checkpoint/outcome-first-batch14-screen.json",
+        "bytes": 1893945,
+        "sha256": "1ee4e1475ae12a8065d8998e6ad6fc852bb8e51c588759cfde5b6bab450bd9d5"
+      },
+      "scope": "These snapshot bytes were current at this checkpoint; later project mutations do not invalidate the historical snapshot."
+    },
+    {
+      "repository_relative_path": "workflow/track2-drug-census/outcome-first-batch14-screen.md",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/immutable-integrated-checkpoint/outcome-first-batch14-screen.md",
+        "bytes": 7724,
+        "sha256": "13ad609125cb35872479f3fa426136b8ade3ead25f7037c0c72b9caf314ca5d3"
+      },
+      "scope": "These snapshot bytes were current at this checkpoint; later project mutations do not invalidate the historical snapshot."
+    },
+    {
+      "repository_relative_path": "workflow/track2-drug-census/batch14-primary-followups.json",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/immutable-integrated-checkpoint/batch14-primary-followups.json",
+        "bytes": 180474,
+        "sha256": "ef8b1777b0cd0aa8bec89896d355d3d078a8ef7bc00ab5a1d7a49a1939857709"
+      },
+      "scope": "These snapshot bytes were current at this checkpoint; later project mutations do not invalidate the historical snapshot."
+    },
+    {
+      "repository_relative_path": "workflow/track2-drug-census/batch14-primary-followups.md",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/immutable-integrated-checkpoint/batch14-primary-followups.md",
+        "bytes": 1547,
+        "sha256": "fb16ad6d23627ed0419beb72c6085a10d7b4b7c0e3d862acb638f524b725c6c8"
+      },
+      "scope": "These snapshot bytes were current at this checkpoint; later project mutations do not invalidate the historical snapshot."
+    },
+    {
+      "repository_relative_path": "workflow/track2-drug-census/coq10-acute-fatigue-source-note.md",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/immutable-integrated-checkpoint/coq10-acute-fatigue-source-note.md",
+        "bytes": 1244,
+        "sha256": "0129a9e14b7790a06608415f34449c78e68b3918a0609ef1e375bcfb6de24c78"
+      },
+      "scope": "These snapshot bytes were current at this checkpoint; later project mutations do not invalidate the historical snapshot."
+    },
+    {
+      "repository_relative_path": "workflow/track2-drug-census/riboflavin-exercise-function-qualification.md",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/immutable-integrated-checkpoint/riboflavin-exercise-function-qualification.md",
+        "bytes": 2450,
+        "sha256": "d88aef7a77646e497e301e912a994b9c1c65bca2d8691d2eef091f4951c82d61"
+      },
+      "scope": "These snapshot bytes were current at this checkpoint; later project mutations do not invalidate the historical snapshot."
+    },
+    {
+      "repository_relative_path": "workflow/track2-drug-census/tannase-green-tea-function-qualification.md",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/immutable-integrated-checkpoint/tannase-green-tea-function-qualification.md",
+        "bytes": 3418,
+        "sha256": "61575b445469be5100693c40880d326d6a67ce97b54c81c29c05a9faa339a6f1"
+      },
+      "scope": "These snapshot bytes were current at this checkpoint; later project mutations do not invalidate the historical snapshot."
+    },
+    {
+      "repository_relative_path": "workflow/track2-drug-census/decisions.json",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/immutable-integrated-checkpoint/decisions.json",
+        "bytes": 595113,
+        "sha256": "76fcd1f67181bd37dc4b7470f3adc54fe5ae22435fd26f673d735379c9549629"
+      },
+      "scope": "These snapshot bytes were current at this checkpoint; later project mutations do not invalidate the historical snapshot."
+    },
+    {
+      "repository_relative_path": "workflow/track2-drug-census/outcome-first-discovery.json",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/immutable-integrated-checkpoint/outcome-first-discovery.json",
+        "bytes": 285507,
+        "sha256": "4dea4b1a21b53eb2a8cd50f989212d4dcb7e50bca16a2d3fcdbbe2427738df1e"
+      },
+      "scope": "These snapshot bytes were current at this checkpoint; later project mutations do not invalidate the historical snapshot."
+    },
+    {
+      "repository_relative_path": "workflow/track2-drug-census/decision-alias-joins.tsv",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/immutable-integrated-checkpoint/decision-alias-joins.tsv",
+        "bytes": 67206,
+        "sha256": "dbcb8d29ff3682162082f5a9e636b06658aebc33d226ec82f1a9f07575507a36"
+      },
+      "scope": "These snapshot bytes were current at this checkpoint; later project mutations do not invalidate the historical snapshot."
+    },
+    {
+      "repository_relative_path": "workflow/track2-drug-census/catalog-appraisals.tsv",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch14-primary-root-check-20261004/immutable-integrated-checkpoint/catalog-appraisals.tsv",
+        "bytes": 2559337,
+        "sha256": "d90e98d3718314120318d71d57e551925a8da600524317bedc5bd89f799b0c3d"
+      },
+      "scope": "These snapshot bytes were current at this checkpoint; later project mutations do not invalidate the historical snapshot."
+    }
+  ],
+  "artifact_scope": "All project artifacts are bound through immutable external snapshots. Repository-relative paths identify the reviewed destination, not a claim that future mutable files retain these hashes."
+}

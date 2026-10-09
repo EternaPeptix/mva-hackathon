@@ -1,0 +1,676 @@
+{
+  "schema_version": "1.0",
+  "status": "ROOT_ACCEPTED_SOURCE_QUALIFICATION",
+  "assembled_at_utc": "2026-09-27T05:53:15.606226+00:00",
+  "candidate_id": "new-sodium-bicarbonate-function",
+  "qualification": "Do not prioritize as general MVA muscle compensation; retain context-dependent acid-base route and the controlled positive pooled-salt result without sodium-only attribution.",
+  "studies": [
+    {
+      "schema_version": "1.0",
+      "checked_utc": "2026-09-27T05:45:15.809240+00:00",
+      "article": {
+        "pmid": "32268897",
+        "pmcid": "PMC7144058",
+        "doi": "10.1186/s12916-020-01542-9",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7144058/"
+      },
+      "design": "27-center UK randomized parallel double-blind placebo-controlled trial; preregistered. A prespecified analysis plan is reported in the main; the separate SAP was not read.",
+      "population": "Adults aged 60+ with nondialysis advanced CKD, eGFR <30 mL/min/1.73 m² and bicarbonate <22 mmol/L; mean age 74, mostly white.",
+      "formulation": "Legosan 500 mg sodium bicarbonate tablets versus matched placebo; lactose excipient mentioned. Study exposure was 1.5 g/day, with conditional escalation to 3 g/day at three months; not regimen advice.",
+      "denominators": {
+        "randomized": {
+          "active": 152,
+          "placebo": 148
+        },
+        "12month_visit_attendance": {
+          "active": 116,
+          "placebo": 104
+        },
+        "12month_SPPB": {
+          "active": 97,
+          "placebo": 90
+        },
+        "planned_total": 380,
+        "actual_total": 300
+      },
+      "outcomes": [
+        {
+          "name": "SPPB at 12 months",
+          "hierarchy": "prespecified primary",
+          "effect": -0.4,
+          "unit": "points",
+          "ci95": [
+            -0.9,
+            0.1
+          ],
+          "p": 0.15,
+          "contrast": "Adjusted between groups at 12 months"
+        },
+        {
+          "name": "SPPB at 12 months, multiple imputation",
+          "effect": -0.3,
+          "ci95": [
+            -1.0,
+            0.3
+          ],
+          "p": 0.29
+        },
+        {
+          "name": "SPPB, all-time repeated measures",
+          "effect": -0.6,
+          "ci95": [
+            -1.0,
+            -0.1
+          ],
+          "p": 0.02
+        },
+        {
+          "name": "Six-minute walk distance",
+          "effect": -33,
+          "unit": "m",
+          "ci95": [
+            -62,
+            -4
+          ],
+          "p": 0.02,
+          "hierarchy": "secondary",
+          "contrast": "Repeated measures using all available timepoints"
+        },
+        {
+          "name": "Grip strength",
+          "effect": -1.5,
+          "unit": "kg",
+          "ci95": [
+            -2.8,
+            -0.2
+          ],
+          "p": 0.03,
+          "hierarchy": "secondary",
+          "contrast": "Repeated measures using all available timepoints"
+        },
+        {
+          "name": "Serum bicarbonate at three months",
+          "effect": 1.7,
+          "unit": "mmol/L",
+          "ci95": [
+            1.0,
+            2.4
+          ]
+        },
+        {
+          "name": "Serum bicarbonate, all-time repeated measures",
+          "effect": 1.1,
+          "unit": "mmol/L",
+          "ci95": [
+            0.6,
+            1.6
+          ]
+        }
+      ],
+      "multiplicity": "No adjustment for multiple testing; secondary nominal P values do not establish general functional toxicity.",
+      "harms": {
+        "events": {
+          "active": 457,
+          "placebo": 400
+        },
+        "people_with_any_event": {
+          "active": 131,
+          "placebo": 132
+        },
+        "any_event_p": 0.38,
+        "gastrointestinal_events": {
+          "active": 45,
+          "placebo": 25
+        }
+      },
+      "adherence": {
+        "tablet_count_percent_both_arms": 73,
+        "placebo_started_prescribed_bicarbonate": 18,
+        "retained_by_allocation": true
+      },
+      "qualification": "Context-qualified primary physical-function null despite modest target engagement; no BUBR1/MVA conclusion, no all-regimen/population rejection.",
+      "same_trial_companion": "NIHR monograph DOI 10.3310/hta24270 is not independent replication; full monograph not read.",
+      "reading_scope": {
+        "root_read": [
+          "Abstract",
+          "Methods",
+          "Results",
+          "XML Tables 1–4",
+          "Relevant Discussion",
+          "Conclusion",
+          "Funding",
+          "Competing interests",
+          "Native Figures 1–3"
+        ],
+        "root_not_read": [
+          "Native Figure 4",
+          "DOCX supplement",
+          "Separate original protocol/SAP",
+          "Participant-level data"
+        ],
+        "independent_review": "../independent-bicarb/findings.json"
+      },
+      "source_files": [
+        {
+          "path": "12916_2020_1542_Fig1_HTML.jpg",
+          "sha256": "b263fd05a7e8538d3b1ef221eb95de432ec7076db5bf165bb380bc63fcdc1972",
+          "bytes": 139150
+        },
+        {
+          "path": "12916_2020_1542_Fig2_HTML.jpg",
+          "sha256": "9f1e437f1176bad029f4302ce9c8ab9d17e5d9eb1fdf9a1e2ea2985a4e17cd8e",
+          "bytes": 25552
+        },
+        {
+          "path": "12916_2020_1542_Fig3_HTML.jpg",
+          "sha256": "fcbb907e72db1e8013bd3d720eaa992785feb38180b14c667b47d930ed6307f4",
+          "bytes": 31681
+        },
+        {
+          "path": "12916_2020_1542_Fig4_HTML.jpg",
+          "sha256": "20d182f266f0d69aef7dd44097fb2d68481ca7368174c9752fe7ea73bb4eb2ea",
+          "bytes": 120978
+        },
+        {
+          "path": "12916_2020_1542_MOESM1_ESM.docx",
+          "sha256": "f9b69cc98d2a22cd581f68eff4d317ffa41c9285a637d16df178cb47c5b9e01e",
+          "bytes": 13687
+        },
+        {
+          "path": "bicarb-main.xml",
+          "sha256": "940a6cfca1ef17929ceed0b8b2c840a1461061cc37c4b12c59b72a889afb7ae6",
+          "bytes": 141257
+        },
+        {
+          "path": "bicarb-supplementary.zip",
+          "sha256": "cdc31d003e7c7df88d992a1979a45247785f48347fa8870eb3cf54d08738c54b",
+          "bytes": 310906
+        }
+      ]
+    },
+    {
+      "id": "melamed2020",
+      "title": "Effects of Sodium Bicarbonate in CKD Stages 3 and 4: A Randomized, Placebo-Controlled, Multicenter Clinical Trial",
+      "pmid": "31699517",
+      "pmcid": "PMC7012673",
+      "doi": "10.1053/j.ajkd.2019.07.016",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7012673/",
+        "https://doi.org/10.1053/j.ajkd.2019.07.016",
+        "https://clinicaltrials.gov/study/NCT01452412"
+      ],
+      "cohort": {
+        "randomized": 149,
+        "sodium_bicarbonate": 74,
+        "placebo": 75,
+        "dropouts": 45,
+        "dropouts_by_arm": {
+          "sodium_bicarbonate": 28,
+          "placebo": 17
+        },
+        "analysis": "Intention-to-treat repeated-measures mixed models; native Figure 1 labels all 74/75 randomized participants analyzed and 28/17 lost to follow-up. This does not establish 149 observed at 24 months.",
+        "population": "CKD stages 3 and 4, mean age 61.0 (SD 12.6), 54% women, mean eGFR 36.3 (SD 11.2) mL/min/1.73m²; 62% diabetes and 93% hypertension.",
+        "baseline_bicarbonate_mEq_L": {
+          "mean": 24.0,
+          "sd": 2.2,
+          "eligibility": [
+            20,
+            26
+          ]
+        },
+        "eligibility_note": "Upper limit increased from 25 to 26 midway through recruitment. Bicarbonate below 20 excluded; results chiefly concern a population with normal baseline bicarbonate.",
+        "mean_followup_years": 1.35,
+        "endpoint_specific_observed_n": "Unreported for the functional endpoint measurements in the retained main results; do not infer from randomized or registry-reported overall-study completion counts.",
+        "registry_reported_overall_study_completers": 104,
+        "registry_reported_overall_study_completers_by_arm": {
+          "sodium_bicarbonate": 46,
+          "placebo": 58
+        },
+        "completion_source": "NCT01452412 retained registry resultsSection.participantFlowModule: Overall Study period, COMPLETED milestone, 46 sodium bicarbonate and 58 placebo. These are registry-reported overall-study completers, not endpoint-specific observed 24-month functional denominators."
+      },
+      "design": {
+        "randomized": true,
+        "allocation": "Computer-generated pharmacy protocol stratified by center at three sites.",
+        "blinding": "Participants, coordinators and investigators blinded; current registry lists quadruple masking.",
+        "formulation": "Watson Pharmaceuticals sodium bicarbonate, 0.4 mEq/kg ideal body weight/day, typical 1950 or 2600 mg/day; fixed dose, not titrated.",
+        "control": "Identical-appearing placebo capsule; complete excipient composition not disclosed in main paper.",
+        "duration": "Visits at baseline and 2, 6, 12 and 24 months.",
+        "hierarchy": "Paper dual primary outcomes: sit-to-stand muscle function and BMD. Current registry specifies 10 sit-to-stand repetitions and wrist DEXA; paper BMD methods use femoral neck.",
+        "prespecification_limit": "Current registry, not its historical versions, read. Paper recruitment begins July 2011; registry start October 2011 and first submission October 12, 2011. Do not claim prospectively frozen endpoint hierarchy.",
+        "functional_method": "Time for 10 sit-to-stand-to-sit repetitions, first 5 also recorded; repeated twice at least 30 minutes apart and mean used. Log-transformed time analyzed by linear mixed models."
+      },
+      "outcomes": [
+        {
+          "name": "10-repetition sit-to-stand",
+          "status": "No significant between-group difference",
+          "hierarchy": "Registered primary; paper primary muscle-function measure",
+          "p": 0.07,
+          "effect_estimate": null,
+          "ci": null,
+          "effect_gap": "Adjusted contrast and CI not printed in the main paper.",
+          "descriptive_baseline_to_24_month_seconds": {
+            "sodium_bicarbonate": [
+              27.4,
+              23.8
+            ],
+            "placebo": [
+              25.9,
+              22.9
+            ]
+          },
+          "interpretation": "Both arms improved over time; within-arm improvement does not establish treatment benefit. These null tests do not prove equivalence."
+        },
+        {
+          "name": "5-repetition sit-to-stand",
+          "status": "No significant between-group difference",
+          "p": 0.1,
+          "effect_estimate": null,
+          "ci": null,
+          "descriptive_baseline_to_24_month_seconds": {
+            "sodium_bicarbonate": [
+              12.6,
+              10.8
+            ],
+            "placebo": [
+              11.7,
+              10.3
+            ]
+          }
+        },
+        {
+          "name": "Handgrip strength",
+          "status": "Null",
+          "hierarchy": "Registry secondary",
+          "p": 0.9
+        },
+        {
+          "name": "SF-36 physical function",
+          "status": "Null",
+          "hierarchy": "Registry secondary",
+          "p": 0.7
+        },
+        {
+          "name": "BMD",
+          "status": "Null",
+          "hierarchy": "Co-primary; anatomical-site discrepancy retained",
+          "p": 0.3
+        },
+        {
+          "name": "eGFR",
+          "status": "Null; not powered for this outcome",
+          "p": 0.7
+        },
+        {
+          "name": "Serum bicarbonate",
+          "status": "Biochemical target engagement",
+          "p": "<0.001",
+          "treated_means_mEq_L_at_months_2_6_12_24": [
+            26.4,
+            25.5,
+            25.6,
+            24.4
+          ],
+          "more_than_3_mEq_L_rise_any_visit": {
+            "sodium_bicarbonate": 44,
+            "placebo": 20,
+            "p": "<0.001"
+          },
+          "limit": "Separation weakened by 24 months; Figure 2A labels 12-month treated mean 25.8 whereas main text says 25.6."
+        },
+        {
+          "name": "Muscle biopsy markers",
+          "status": "All reported comparisons null",
+          "n": {
+            "sodium_bicarbonate": 5,
+            "placebo": 7
+          },
+          "time_months": 2,
+          "p": {
+            "phosphorylated_Akt": 0.4,
+            "14_kDa_actin_fragment": 0.2,
+            "MuRF1": 0.07,
+            "atrogin_1": 0.09,
+            "TNF_alpha": 0.3,
+            "CD68": 0.3,
+            "IL_6": 0.3
+          },
+          "limit": "One placebo outlier excluded from IL-6/CD68; no BUB1B/BUBR1 assay."
+        }
+      ],
+      "harms": {
+        "all_cause_adverse_events_participants": {
+          "sodium_bicarbonate": 33,
+          "placebo": 24,
+          "risk_difference": 0.13,
+          "ci95": [
+            -0.03,
+            0.28
+          ]
+        },
+        "all_cause_hospitalization": {
+          "sodium_bicarbonate": 20,
+          "placebo": 15,
+          "risk_difference": 0.07,
+          "ci95": [
+            -0.07,
+            0.21
+          ]
+        },
+        "hyperkalemia": {
+          "sodium_bicarbonate": 14,
+          "placebo": 30,
+          "p": 0.006,
+          "odds_ratio": 0.35,
+          "ci95": [
+            0.17,
+            0.74
+          ],
+          "threshold_note": "Text/methods use potassium >5.0 mEq/L, Table 4 labels ≥5.0."
+        },
+        "edema_at_least_2_plus": {
+          "sodium_bicarbonate": 35,
+          "placebo": 35
+        },
+        "increase_in_other_BP_medications": {
+          "sodium_bicarbonate": 14,
+          "placebo": 7,
+          "risk_difference": 0.1,
+          "ci95": [
+            -0.02,
+            0.21
+          ]
+        },
+        "interpretation": "No statistically significant SAE difference reported; wide intervals and more participants with any AE do not establish absence of harm."
+      },
+      "funding": "NIH/NIDDK U01 DK087783; funder reported no role in design, data collection, analysis, reporting or submission. Authors declare no relevant financial interests.",
+      "limits": [
+        "About 30% attrition, unequal by arm; late biochemical separation weak.",
+        "Mostly normal baseline bicarbonate; fixed modest dose; no complete blood-gas/urine acid-base characterization.",
+        "Current registry wrist versus paper femoral-neck BMD discrepancy and enrollment-date discrepancy.",
+        "Discussion gives 26/57 as a 24-month treated denominator; this remains unresolved. The registry reports 46 active-arm overall-study completers, but neither count is a verified endpoint-specific observed 24-month functional denominator.",
+        "Author manuscript includes editorial/numeric inconsistencies; no functional CI supplied."
+      ],
+      "decision": "Direct sodium-bicarbonate clinical function evidence with biochemical target engagement but no established sit-to-stand or handgrip benefit under this trial context. Does not reject treatment of metabolic acidosis, imply equivalence, or establish MVA efficacy."
+    },
+    {
+      "id": "dawson2010",
+      "title": "Impact of supplementation with bicarbonate on lower-extremity muscle performance in older men and women",
+      "pmid": "19727904",
+      "pmcid": "PMC2888724",
+      "doi": "10.1007/s00198-009-1049-0",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2888724/",
+        "https://doi.org/10.1007/s00198-009-1049-0"
+      ],
+      "cohort": {
+        "enrolled": 171,
+        "men_enrolled": 76,
+        "women_enrolled": 95,
+        "dropouts": 7,
+        "additional_exclusions": 2,
+        "analyzed": 162,
+        "men_analyzed": 71,
+        "women_analyzed": 91,
+        "pooled_analyzed_n": {
+          "men_bicarbonate": 36,
+          "men_control": 35,
+          "women_bicarbonate": 42,
+          "women_control": 49
+        },
+        "original_four_arm_counts": "Not enumerated in the retained muscle-performance main results; do not infer equal counts from block size.",
+        "outcome_specific_missingness": "Up to 6 control and 3 bicarbonate participants missed individual muscle tests.",
+        "population": "Healthy ambulatory adults age ≥50, mean age 63 (SD 7.9); women postmenopausal. Excluded creatinine clearance <50 mL/min/1.73m², diabetes, heart disease and uncontrolled hypertension; not a CKD or MVA population.",
+        "baseline_acid_base": "Positive mean net acid excretion; baseline serum bicarbonate not supplied in the principal baseline table."
+      },
+      "design": {
+        "randomized": true,
+        "blinding": "Double blind",
+        "allocation": "Blocks of four within sex and age strata (50–64 and ≥65).",
+        "arms": [
+          "Sodium bicarbonate",
+          "Potassium bicarbonate",
+          "Potassium chloride",
+          "Microcrystalline-cellulose placebo"
+        ],
+        "formulation": "Each active salt 67.5 mmol/day in nine gelatin capsules of 7.5 mmol; titrated over first two weeks. Pharmacy: Medical Pharmacy and Supply, Stoughton, MA. Placebo equal volume microcrystalline cellulose.",
+        "shared_cointervention": "All arms received 600 mg calcium as triphosphate plus 125 IU vitamin D3 and a multivitamin containing another 400 IU vitamin D3.",
+        "duration_months": 3,
+        "actual_functional_contrast": "Pooled sodium bicarbonate + potassium bicarbonate versus pooled potassium chloride + placebo.",
+        "pooling_rationale": "After preliminary tests reported no significant muscle-outcome differences between bicarbonate salts or between controls; nonsignificance does not establish salt equivalence.",
+        "hierarchy": "Muscle paper calls these primary muscle outcomes; underlying four-arm design selected for bone outcomes. No prospective muscle-endpoint ranking or multiplicity plan independently verified.",
+        "analysis": "Sex-stratified after significant sex-by-treatment interaction stated without statistic; ANCOVA adjusts baseline outcome, tester concordance, and changes in urinary sodium/creatinine and potassium/creatinine. Multiple functional outcomes; no family-wide multiplicity correction reported."
+      },
+      "outcomes": [
+        {
+          "name": "Double leg-press power at 70% 1RM",
+          "population": "Women",
+          "status": "Positive controlled pooled-salt contrast",
+          "adjusted_percent_change_mean_sem": {
+            "bicarbonate": [
+              11.61,
+              3.74
+            ],
+            "control": [
+              -1.86,
+              3.39
+            ]
+          },
+          "p": 0.003,
+          "effect_ci": null,
+          "interpretation": "Difference of reported adjusted percent changes is 13.47 percentage points; no sodium-specific estimate or CI printed."
+        },
+        {
+          "name": "Double leg-press power at 40% 1RM",
+          "population": "Women",
+          "status": "Positive controlled pooled-salt contrast",
+          "adjusted_percent_change_mean_sem": {
+            "bicarbonate": [
+              4.08,
+              2.82
+            ],
+            "control": [
+              -5.2,
+              2.55
+            ]
+          },
+          "p": 0.006
+        },
+        {
+          "name": "Knee-extension power at 70% 1RM",
+          "population": "Women",
+          "status": "Positive controlled pooled-salt contrast",
+          "adjusted_percent_change_mean_sem": {
+            "bicarbonate": [
+              5.82,
+              1.79
+            ],
+            "control": [
+              0.52,
+              1.66
+            ]
+          },
+          "p": 0.014
+        },
+        {
+          "name": "Knee-extension endurance at 240 degrees/second",
+          "population": "Women",
+          "status": "Positive controlled pooled-salt contrast",
+          "adjusted_percent_change_mean_sem": {
+            "bicarbonate": [
+              5.12,
+              3.66
+            ],
+            "control": [
+              -3.59,
+              3.2
+            ]
+          },
+          "p": 0.047
+        },
+        {
+          "name": "Knee-extension power at 40% 1RM",
+          "population": "Women",
+          "status": "Null",
+          "p": 0.263
+        },
+        {
+          "name": "Knee-flexion endurance at 240 degrees/second",
+          "population": "Women",
+          "status": "Null",
+          "p": 0.057
+        },
+        {
+          "name": "Grip strength",
+          "population": "Women",
+          "status": "Null",
+          "p": 0.178
+        },
+        {
+          "name": "All reported muscle-performance outcomes",
+          "population": "Men",
+          "status": "Null"
+        },
+        {
+          "name": "Net acid excretion",
+          "status": "Biochemical target engagement in each bicarbonate salt",
+          "p": "<0.001",
+          "interpretation": "Native Figure 1 shows reductions separately for sodium and potassium bicarbonate versus controls. This is not a salt-specific functional contrast."
+        },
+        {
+          "name": "Urinary nitrogen/creatinine",
+          "population": "Women",
+          "status": "Positive pooled-salt biochemical contrast",
+          "p": 0.004
+        },
+        {
+          "name": "Urinary nitrogen/creatinine",
+          "population": "Men",
+          "status": "Null",
+          "p": 0.767
+        }
+      ],
+      "harms": {
+        "GI_treatment_discontinuations": {
+          "sodium_bicarbonate": 3,
+          "potassium_bicarbonate": 1,
+          "potassium_chloride": 7,
+          "placebo": 1
+        },
+        "sodium_arm_dropout_reasons": [
+          "One woman with high blood pressure",
+          "One man with headache",
+          "One man and one woman lost interest"
+        ],
+        "other_dropout_reasons": [
+          "Placebo: one man with a cardiac event",
+          "Potassium chloride: one man with prostate cancer",
+          "Potassium bicarbonate: one woman lost interest"
+        ],
+        "additional_exclusions": [
+          "Potassium bicarbonate: one man with suspected acid-base disorder",
+          "Sodium bicarbonate: one woman with high baseline net acid excretion/creatinine"
+        ],
+        "mild_potassium_elevation": "At 3 weeks, potassium 5.1–5.4 mmol/L in three participants not on potassium and five on potassium.",
+        "attribution": "Observed events and discontinuations; causality not established."
+      },
+      "funding": "NIAMS 1R01AR052322-01A1 and USDA Agricultural Research Service 58-1950-7-707; authors report no conflicts.",
+      "overlap": "Bone-outcome article DOI 10.1210/jc.2008-1662 uses this same cohort; not independent replication.",
+      "limits": [
+        "Positive result is pooled across two salts and confined to selected tests in women; no isolated sodium function contrast printed.",
+        "Healthy older adults and 3-month duration; no disability, gait, falls, or MVA outcome.",
+        "Multiple endpoints, sex subgroup and analysis-dependent pooling; no prospective hierarchy verified.",
+        "No equivalence inference from nonsignificant differences between salts; do not transfer combined effect to sodium alone.",
+        "Discussion body-weight dose units appear inconsistent with the 67.5 mmol/day Methods regimen; retain Methods regimen without clinical extrapolation."
+      ],
+      "decision": "Preserve credible randomized controlled positive lower-extremity function evidence for the pooled bicarbonate-salt contrast in older women. It is contextual support for a compensation hypothesis, not a qualified sodium-only efficacy result."
+    }
+  ],
+  "BUB1B_BUBR1": {
+    "scope": "Bounded targeted primary discovery; no exhaustive search claim.",
+    "queries": [
+      "\"sodium bicarbonate\" \"BUB1B\" OR \"BUBR1\"",
+      "\"sodium bicarbonate\" \"BUB1B\" -site:axilscientific.com",
+      "\"sodium bicarbonate\" \"BubR1\" intervention",
+      "\"bicarbonate\" \"BUB1B\" senescence",
+      "\"bicarbonate\" \"BUBR1\" muscle"
+    ],
+    "qualified_direct_intervention_evidence_identified": false,
+    "primary_hit_checked": {
+      "pmcid": "PMC11072012",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11072012/",
+      "title": "E3-ubiquitin ligase, FBXW7 regulates mitotic progression by targeting BubR1 for ubiquitin-mediated degradation",
+      "depth": "Relevant Materials and methods culture/reagent paragraph checked; no full scientific appraisal.",
+      "finding": "Sodium bicarbonate 1.5 mg/mL is part of routine DMEM culture medium. The paper studies FBXW7/BubR1 perturbations, not bicarbonate as an intervention restoring BUBR1."
+    },
+    "conclusion": "No direct bicarbonate intervention-to-BUB1B/BUBR1 restoration evidence identified in this bounded search. Routine culture-medium co-occurrence is not mechanistic efficacy evidence."
+  },
+  "notice_check": {
+    "checked_at_utc": "2026-09-27T05:47:24.730895+00:00",
+    "sources": [
+      "sources/pubmed-notice-metadata.xml",
+      "sources/melamed-crossref.json",
+      "sources/dawson-crossref.json"
+    ],
+    "result": "Neither retained PubMed record contains linked CommentsCorrections; neither Crossref record exposes update-to/updated-by or relation notices.",
+    "limit": "This bounded metadata check does not guarantee absence of all notices; publisher Crossmark history was not independently audited. Both main scientific copies are PMC author manuscripts."
+  },
+  "remaining_pointers": "remaining-source-pointers.json",
+  "scope": "Three cohorts; BiCARB monograph and Dawson bone companion are not independent replication. Source exposures, not clinical regimens. No MVA efficacy or original-queue reading credit.",
+  "metadata": {
+    "external_archive": "bicarbonate-functional-followup-20260927",
+    "raw_sources_external": true,
+    "accepted_source_packet_hashes": [
+      {
+        "external_packet_path": "root-bicarb/qualification.md",
+        "sha256": "d383155cc29453d31a09fae55ac7ed7dd61cccd1f6c0f6bd29f1fd81dca7eeef",
+        "bytes": 4496
+      },
+      {
+        "external_packet_path": "root-bicarb/qualification.json",
+        "sha256": "00c11f682c9cc0ea1fefa164ef59e074e52115caa490802ba9068b0a63e1ffc1",
+        "bytes": 5017
+      },
+      {
+        "external_packet_path": "root-bicarb/source-manifest.json",
+        "sha256": "8bade73b6bfad969cb68191f350a20f010c814808cedb235fc89ac83bc9e5114",
+        "bytes": 273
+      },
+      {
+        "external_packet_path": "complementary/qualification.md",
+        "sha256": "0b5d0d3209634a1a35c2524e9968638605d877ff44b3578ee89050149bc49435",
+        "bytes": 6487
+      },
+      {
+        "external_packet_path": "complementary/qualification.json",
+        "sha256": "0bff926a5420aae8de44c6aa9814517e68393b4353cc12390c7185f35b70969c",
+        "bytes": 20035
+      },
+      {
+        "external_packet_path": "complementary/reading-scope.json",
+        "sha256": "9d15f0e20b85fa9c3439835cb9b7fd385c32a73f05fdd58913e78b0152aeee75",
+        "bytes": 4106
+      },
+      {
+        "external_packet_path": "complementary/source-manifest.json",
+        "sha256": "51975427942f29ff35a8b04b57c2291ae1fb0c1a3316213c6937c8085cb57ac7",
+        "bytes": 6507
+      },
+      {
+        "external_packet_path": "complementary/final-bindings.json",
+        "sha256": "77825fd31e173c5165b7e987d0e9c86eef0fd146929f8f3fc6a90d2338a103ea",
+        "bytes": 1188
+      },
+      {
+        "external_packet_path": "independent-bicarb/findings.md",
+        "sha256": "5da0958d307beed2cd36d17f2bfcd789f5492d99d6d060a86c6336c012d446fa",
+        "bytes": 4124
+      },
+      {
+        "external_packet_path": "independent-bicarb/findings.json",
+        "sha256": "819fd0422a1838b09c8fcb6165b4fdcc3090d46691f9c98ea5af3b85074d1f7e",
+        "bytes": 10297
+      }
+    ],
+    "root_reading": "BiCARB primary abstract, Methods/Results/XMLTables1-4, relevant discussion/declarations/nativeFigures1-3. Complementary source appraisal and selected original Methods/Results/Table2; native MelamedFig1 and DawsonFig2. Complete-source reviewers and independent checks have their own recorded depth; root did not reread both entire complementary mains."
+  }
+}

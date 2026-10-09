@@ -1,0 +1,1077 @@
+{
+  "schema_version": 1,
+  "status": "PORTABLE_PREPARATION_PROPOSAL_PENDING_SEPARATE_SYNTHESIS_REVIEW",
+  "date": "2026-09-27",
+  "decision_id": "new-bodybalance-collagen-peptides",
+  "preparation_aliases": [
+    "BODYBALANCE collagen peptides"
+  ],
+  "identity_baseline": {
+    "type": "immutable_git_blob",
+    "repository": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
+    "commit": "572f3e460dff7880e6030db4143512bb79194abc",
+    "path": "workflow/track2-drug-census/decisions.json",
+    "git_blob": "d1bc51f13a54c5a96d46fc1e20d7589ebf758b1c",
+    "bytes": 465747,
+    "sha256": "0a1c912e21997e4c2b9b7173e050c4e0ca0515506217edec466b921ff1d319a3",
+    "decision_count": 268,
+    "scope": "Historical identity baseline only. Root is separately integrating AR-12/sildenafil/AR-13; a fresh clean-baseline identity check is required before applying this proposal."
+  },
+  "acceptance": {
+    "source_primary_qualified": true,
+    "independent_primary_review_status": "ACCEPT",
+    "independent_required_corrections": [],
+    "portable_synthesis_review_status": "PENDING",
+    "ready_document_integration_review_status": "NOT_REQUESTED",
+    "repository_integration_status": "NOT_PERFORMED",
+    "historical_source_status_preserved_verbatim": "COMPLETE_BOUNDED_PRIMARY_QUALIFICATION_FOR_INDEPENDENT_REVIEW",
+    "historical_pending_labels": "Embedded source-level pending-review flags record the frozen producer state. The later independent acceptance is a separate bound record, not a retrospective rewrite."
+  },
+  "source_qualification": {
+    "status": "COMPLETE_BOUNDED_PRIMARY_QUALIFICATION_FOR_INDEPENDENT_REVIEW",
+    "date": "2026-09-27",
+    "preparation": "GELITA BODYBALANCE collagen peptides as administered in the 2015 and 2021 trials",
+    "intervention_trial_count": 2,
+    "disposition": "retain limited preparation-specific functional-compensation research challenger; preserve 2015 secondary strength positive and 2021 secondary force non-significance; no nomination change",
+    "authoritative_ledger": {
+      "repository": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
+      "commit": "572f3e460dff7880e6030db4143512bb79194abc",
+      "count": 268,
+      "sha256": "0a1c912e21997e4c2b9b7173e050c4e0ca0515506217edec466b921ff1d319a3",
+      "matched_scoped_candidate_ids": [],
+      "catalog": "DSLD bodybalance lexical hit exists; not preparation equivalence"
+    },
+    "identity_scope_correction": {
+      "original_scout_prose_count": 268,
+      "original_scout_actual_f1006fc_count": 265,
+      "fresh_later_count": 268,
+      "original_manifest": "5562393cfa1b030c43bcb717d8ef444cb32a1f2b343e8067cc11b5dbc44fea67",
+      "root_addendum_manifest": "af159c224704861d75a3e6b99a973bac2505d218c4c118b83d2ae32c9d73b342",
+      "originals_preserved": true
+    },
+    "claims": [
+      {
+        "id": "C1",
+        "claim": "2015 trial reports nominal controlled secondary isokinetic quadriceps-strength benefit during training",
+        "evidence": [
+          "T2015:Results Body composition and muscle strength",
+          "T2015:Table2 interaction column",
+          "T2015:Figure5 native strength bracket/caption"
+        ],
+        "limit": "completers, non-primary endpoint, nominal multiplicity, unmatched protein/calories, numerical/dispersion discrepancies; no exact contrast CI"
+      },
+      {
+        "id": "C2",
+        "claim": "2021 trial does not establish added isometric leg-press force benefit",
+        "evidence": [
+          "T2021:Table2 strength row P=.158",
+          "T2021:Figure2B P=.158",
+          "T2021:Results3.2"
+        ],
+        "limit": "non-significance is not equivalence; does not negate different population/assay2015 positive"
+      },
+      {
+        "id": "C3",
+        "claim": "same brand and matching reported amino-acid profile do not verify batch/peptide composition equivalence",
+        "evidence": [
+          "T2015:Table1",
+          "T2021:TableS1",
+          "T2015:Protein supplementation",
+          "T2021:Investigational products"
+        ],
+        "limit": "no lot certificates or peptide sequences; no current retail equivalence"
+      },
+      {
+        "id": "C4",
+        "claim": "2025 correction changes funding/COI disclosure, not strength results",
+        "evidence": [
+          "CORR2025:complete correction"
+        ],
+        "limit": "does not resolve 2015 numerical/dispersion discrepancies"
+      },
+      {
+        "id": "C5",
+        "claim": "2016 letter challenges body-composition magnitude and mechanistic plausibility, not a corrected strength estimate",
+        "evidence": [
+          "LETTER2016:pp569-570"
+        ],
+        "limit": "no torque reanalysis; reference comparisons not requalified; own nutrition-industry COIs retained"
+      },
+      {
+        "id": "C6",
+        "claim": "2021 registration is retrospective",
+        "evidence": [
+          "REG2021:current Organizational Data and Recruitment",
+          "REG2021:history index"
+        ],
+        "limit": "prior-version field contents not inspected; no protocol/SAP recovered"
+      }
+    ],
+    "studies": [
+      {
+        "id": "T2015",
+        "pmid": "26353786",
+        "pmcid": "PMC4594048",
+        "doi": "10.1017/S0007114515002810",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4594048/",
+        "population": "Independently living, non-frail/non-cachectic men over 65 with grip below 32 kg and DXA class I/II sarcopenia; capable of training; not MVA.",
+        "design": "randomized double-blind placebo-controlled 12-week study; completer analysis",
+        "denominators": {
+          "assessed": 148,
+          "excluded": 88,
+          "randomized": 60,
+          "allocated": {
+            "collagen": 30,
+            "silica": 30
+          },
+          "lost_noncompliant": {
+            "collagen": 4,
+            "silica": 3
+          },
+          "analyzed": {
+            "collagen": 26,
+            "silica": 27
+          }
+        },
+        "intervention": {
+          "name": "BODYBALANCE GELITA collagen peptides",
+          "daily_powder_g": 15,
+          "duration_weeks": 12,
+          "type": "type-I-derived hydrolysate",
+          "mean_molecular_weight_kDa": 3,
+          "timing": "Within one hour after training; comparable time on other days.",
+          "water_mL": 250,
+          "animal_species": "unreported",
+          "lot_peptide_sequence": "unreported",
+          "measured_PK_tissue_exposure": false
+        },
+        "comparator": {
+          "name": "Sipernat350 silicon dioxide, Evonik",
+          "dose_g": "unreported in inspected main",
+          "extra_calories": 0,
+          "protein_energy_matched": false
+        },
+        "training": "Three 60-minute sessions per week of supervised whole-body resistance exercise; progression through 15, 10 and 8 repetitions; missing more than 10% caused exclusion.",
+        "primary": "DXA FFM change; powered on 2 kg with SD 2.5, alpha .05, power .80; 25 per arm plus dropout allowance.",
+        "strength": {
+          "hierarchy": "secondary/non-primary",
+          "measurement": "right-leg isokinetic quadriceps strength, Con-Trex",
+          "unit": "Nm",
+          "results_delta": {
+            "collagen": 16.12,
+            "silica": 7.38
+          },
+          "results_dispersion": {
+            "label": "SEM as printed",
+            "collagen": 12.9,
+            "silica": 13.2
+          },
+          "abstract_delta": {
+            "collagen": 16.5,
+            "silica": 7.3
+          },
+          "abstract_dispersion_label": "SD",
+          "interaction_test": "two-way repeated-measures ANOVA treatment x time",
+          "p_reported": "<0.05",
+          "between_arm_CI": "not reported",
+          "interpretation": "nominal controlled secondary positive"
+        },
+        "other_outcomes": {
+          "sensory_motor_control": "non-significant treatment contrast",
+          "FFM": "primary positive +4.22 vs+2.90kg, P<.05",
+          "fat_mass": "-5.45 vs-3.51kg, P<.05",
+          "weight_and_bone_mass": "between-arm non-significant"
+        },
+        "multiplicity": "no correction reported",
+        "preregistration": "not identified in main/bounded search; prospective status unverified",
+        "ITT": "not performed",
+        "harms": "no serious adverse events, no dropout attributed to product, no pathological routine blood findings; no comprehensive armwise AE table",
+        "funding": "use CORR2025 disclosure; manufacturer samples plus participant compensation/sample analysis costs",
+        "material_issues": [
+          "Abstract and Results strength values differ.",
+          "SD and SEM labels conflict.",
+          "Table 2 labels the Nm outcome as Power.",
+          "Placebo within-arm strength star differs from broad Results sentence.",
+          "Figure 4 placebo caption gives n=26 versus the 27 completers.",
+          "Figure 5 motor-control cm versus Table 2 mm and scale unresolved.",
+          "Protein and calories unmatched.",
+          "Baseline FFM and fat-mass imbalance.",
+          "No MVA transfer demonstrated."
+        ]
+      },
+      {
+        "id": "T2021",
+        "pmid": "33946565",
+        "pmcid": "PMC8125453",
+        "doi": "10.3390/ijerph18094837",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8125453/",
+        "population": "Sedentary overweight men 30-60 years; BMI 27.5-35 and fat mass >25%; stable weight/diet; not MVA.",
+        "design": "Single-center randomized double-blind three-arm 12-week study; collagen versus placebo main analysis; whey exploratory.",
+        "denominators": {
+          "assessed": 126,
+          "excluded": 6,
+          "randomized": 120,
+          "allocated": {
+            "collagen": 40,
+            "silica": 40,
+            "whey": 40
+          },
+          "lost_noncompliant_nonappearance": {
+            "collagen": 10,
+            "silica": 9,
+            "whey": 4
+          },
+          "analyzed_PP": {
+            "collagen": 30,
+            "silica": 31,
+            "whey": 36
+          },
+          "main_comparison": 61,
+          "exploratory_total": 97,
+          "diet_table_whey_label": 31
+        },
+        "intervention": {
+          "name": "BODYBALANCE Gelita collagen-peptide mixture",
+          "daily_powder_g": 15,
+          "duration_weeks": 12,
+          "water_mL": 250,
+          "timing": "Within one hour after training; same time on other days.",
+          "calories_reported": 60,
+          "lot_peptide_sequence": "unreported",
+          "measured_PK_tissue_exposure": false
+        },
+        "comparator": {
+          "name": "silicon dioxide",
+          "daily_powder_g": 15,
+          "protein_energy_matched": false
+        },
+        "whey_context": {
+          "name": "Volactive 90% whey isolate",
+          "daily_powder_g": 15,
+          "role": "Exploratory context; no separate appraisal or synergy claim.",
+          "strength_delta_N": 120,
+          "strength_delta_SD": 233,
+          "strength_vs_collagen_p": 0.417,
+          "strength_vs_silica_p": 0.685,
+          "three_arm_strength_p": 0.444,
+          "FFM_vs_collagen_p": 0.074,
+          "FFM_vs_silica_p": 0.442
+        },
+        "amino_acids_percent_protein": {
+          "collagen": {
+            "leucine": 2.7,
+            "glycine": 22.1,
+            "arginine": 7.8,
+            "tryptophan": 0,
+            "cystine": 0
+          },
+          "whey": {
+            "leucine": 10.6,
+            "glycine": 1.4,
+            "arginine": 2.1,
+            "tryptophan": 1.4,
+            "cystine": 2.2
+          }
+        },
+        "training": "Supervised resistance training three times weekly for 60 minutes; three-set program at 70-85% 1RM through 15, 12, 10 and 8 repetitions. PP required at least 30 of 36 sessions and 80% of supplements.",
+        "primary": "FFM in kg, collagen versus placebo.",
+        "power": "Calculation referenced earlier trial; complete assumptions and power details unreported.",
+        "strength": {
+          "hierarchy": "secondary",
+          "measurement": "Maximum voluntary isometric bilateral contraction on a 90-degree leg press with Kistler platform; mean of three presses.",
+          "unit": "N",
+          "delta": {
+            "collagen": 163,
+            "silica": 100
+          },
+          "delta_SD": {
+            "collagen": 189,
+            "silica": 154
+          },
+          "interaction_test": "Linear mixed model, treatment x time.",
+          "p": 0.158,
+          "reported_d": 0.366,
+          "between_arm_CI": "Not reported; figure intervals refer to arm changes.",
+          "interpretation": "non-significant controlled secondary outcome; not equivalence"
+        },
+        "other_outcomes": {
+          "FFM": "Primary: +3.42 (SD 2.54) versus +1.83 (SD 2.09) kg; P=.010.",
+          "fat_mass": "-5.28 (SD 3.19) versus -3.39 (SD 3.13) kg; P=.023.",
+          "weight_p": 0.743,
+          "waist_p": 0.292,
+          "bone_mineral_content_kg_p": 0.33,
+          "skeletal_muscle_mass": "Estimated using a formula, not directly measured."
+        },
+        "multiplicity": "No correction stated; numerous main secondary and exploratory comparisons.",
+        "ITT": "Authors say ITT confirms PP, but denominator, missing-data method, estimates and tables are not provided.",
+        "registry": {
+          "id": "DRKS00008925",
+          "registration_type": "retrospective",
+          "registered": "2015-09-01",
+          "actual_start": "2014-11-01",
+          "actual_completion": "2015-09-30",
+          "history_index_read": true,
+          "historical_field_versions_read": false,
+          "differences": [
+            "Arm strength and several metabolic outcomes not reported in the inspected main.",
+            "Registry inclusion mentions reduced muscle mass and handgrip function.",
+            "Registry ethics date 2014-10-10 differs from article 2014-11-05."
+          ]
+        },
+        "harms": "No product-related dropout; no adverse events in PP population and no abnormal routine CK/urea; all-randomized harms not detailed.",
+        "funding_COI": "Gelita provided product and partial funding; Oesser disclosed supported lectures and patent co-inventorship; Zdzieblik joined CRI after study; authors assert funder independence.",
+        "material_issues": [
+          "Retrospective registration.",
+          "PP losses: 10 collagen, 9 placebo, 4 whey.",
+          "ITT not auditable from report.",
+          "Dietary table labels whey n=31 versus 36 for outcomes.",
+          "Food diaries exclude test supplement; energy and carbohydrate differences.",
+          "Unmatched protein and calories.",
+          "Shared investigators and manufacturer.",
+          "FFM subtraction wording differs from Results direction.",
+          "No MVA or BUBR1-restoration transfer."
+        ]
+      }
+    ],
+    "ancillary": [
+      {
+        "id": "CORR2025",
+        "pmid": "40859798",
+        "doi": "10.1017/S000711452510425X",
+        "url": "https://doi.org/10.1017/S000711452510425X",
+        "correction": "Gelita samples and participant-compensation/sample-analysis funding; Oesser co-inventor of related patent application filed 2013-05-13, with no exploitation remuneration.",
+        "does_not_correct": [
+          "Strength estimates",
+          "Dispersion labels",
+          "Analyses",
+          "Body-composition data"
+        ],
+        "not_retraction": true
+      },
+      {
+        "id": "LETTER2016",
+        "pmid": "27267663",
+        "doi": "10.1017/S000711451600221X",
+        "url": "https://doi.org/10.1017/S000711451600221X",
+        "claim": "Large FFM gain and fat loss, and leucine/arginine/creatine-substrate mechanisms require explanation; DXA FFM may not represent skeletal muscle.",
+        "strength_reanalysis": false,
+        "COI": "Phillips: dairy industry and Pepsico. Paddon-Jones: beef, dairy and egg industry. Van Loon: Nutricia. Others report none.",
+        "reply_status": "No formal reply recovered in bounded metadata/search; not proof none exists."
+      }
+    ],
+    "comparison_bar": {
+      "function": "Limited controlled secondary positive in 2015; secondary force non-significance in 2021 retained.",
+      "exposure": "Actual oral trial preparation/dose; muscle pharmacokinetics and target engagement unknown.",
+      "renewal": "Unmeasured.",
+      "chromosome_fidelity": "Unmeasured.",
+      "BUBR1_mediation": "Unmeasured; additionally required only for restoration claims.",
+      "BUB1B_MVA_efficacy": "Not established.",
+      "superiority_niacin_apitegromab": "Not established.",
+      "same_bar_for_incumbents_and_challengers": true
+    },
+    "prohibited_inferences": [
+      "Body mass or FFM treated as function.",
+      "Pooling isokinetic Nm with isometric N.",
+      "Between-arm benefit inferred from within-arm stars.",
+      "Brand treated as batch equivalence.",
+      "Generic-collagen inheritance.",
+      "Automatic whey separate appraisal.",
+      "Synergy without factorial comparison.",
+      "BUBR1 restoration.",
+      "MVA disease modification.",
+      "Nominee superiority.",
+      "Current retail availability.",
+      "No-catalog claim."
+    ],
+    "new_statistics": false,
+    "clinical_regimen_proposed": false,
+    "repository_edits": false,
+    "ledger_edits": false,
+    "tests_or_replays": false,
+    "bindings": {
+      "inputs": "input-bindings.json",
+      "identity": "identity-source-check.json",
+      "sources": "source-bindings.json",
+      "reading": "reading-bindings.json",
+      "retrieval": "retrieval-new.json",
+      "searches": "web-search-record.json",
+      "prose": "qualification.md",
+      "final": "final-bindings.json"
+    },
+    "source_definitions": {
+      "T2015": "2015 Zdzieblik trial, main XML and publisher PDF, Tables 1-2, Figures 1-5.",
+      "T2021": "2021 Zdzieblik trial, main XML Tables 1-4, native Figures 1-2, Table S1 supplement.",
+      "REG2021": "DRKS00008925 current official record and history index.",
+      "LETTER2016": "Phillips et al. complete two-page critical letter.",
+      "CORR2025": "Complete publisher corrigendum text."
+    }
+  },
+  "provenance": {
+    "source_qualification_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/qualification.json",
+      "bytes": 15844,
+      "sha256": "e660aefe0bd46325e1eb7cbf30184abee37b63bc22fbe94fd5215e3dfe1ef872"
+    },
+    "source_qualification_markdown": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/qualification.md",
+      "bytes": 22882,
+      "sha256": "015b3a06dc6fc5ecfd0b89f3f74d48e2a93ac26adf2865c3f1af93aa5c3d8d65"
+    },
+    "source_packet_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/final-bindings.json",
+      "bytes": 22483,
+      "sha256": "206be2535420bc7304b0a676fafdf07f30d53c4ea80f65cc912094991d47ca35"
+    },
+    "independent_review": {
+      "review": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/independent-review/review.json",
+        "bytes": 8174,
+        "sha256": "8d671526497d08a0285c653d8baefbcf429ce8686a2467323b8265755400817e"
+      },
+      "manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/independent-review/final-bindings.json",
+        "bytes": 1734,
+        "sha256": "c886c241ce35d708b72caae7b1c7605edcd42c3a72a35ba746783b21e019ef31"
+      },
+      "status": "ACCEPT",
+      "required_corrections": [],
+      "findings_verbatim": [
+        {
+          "topic": "Controlled function and hierarchy",
+          "status": "ACCEPT",
+          "locators": [
+            "2015 XML sec2/Table 2/Figure 5; native pages 1240 and1242",
+            "2021 XML sec3/Table 2 and native Figure 2B"
+          ],
+          "finding": "2015 reports a treatment-by-time secondary isokinetic quadriceps-strength positive (P<.05), supported by the native bracket rather than inferred from within-arm stars. 2021 reports secondary bilateral isometric-force P=.158, despite both arms improving. Primary FFM is distinct in both studies; nominal multiple testing and absent treatment-effect CIs remain explicit. Non-significance is not equivalence, and Nm is not quantitatively pooled with N."
+        },
+        {
+          "topic": "2015 source discrepancies and exact measurements",
+          "status": "ACCEPT_WITH_RETAINED_REPORTING_LIMITS",
+          "locators": [
+            "2015 native page1237 abstract, page1240 Table2/Results, page1242 Figures4–5",
+            "2015 XML Methods statistical methods"
+          ],
+          "finding": "The abstract reports 16.5 versus7.3 Nm changes with SD12.9/13.2, while Results prints16.12 versus7.38 and calls those dispersions SEM; figure captions also say SEM. Table2 labels an Nm strength measure Power. Placebo strength within-arm stars conflict with the broad Results wording; placebo Figure4 says n26 versus27 completers; motor-control cm versus mm is unresolved. These are retained, not silently repaired or used to create a new corrected significance claim."
+        },
+        {
+          "topic": "Population, attrition, design and harms",
+          "status": "ACCEPT",
+          "locators": [
+            "2015 native Figure1/Methods/Results",
+            "2021 native Figure1 and XML Methods2.1–2.5/Results3.1"
+          ],
+          "finding": "2015 older independently living non-frail sarcopenic men:60 randomized,30/arm,26/27 analyzed, no ITT. 2021 overweight sedentary middle-aged men:120 randomized,40/arm,30/31/36 PP; main61 and exploratory97 remain distinct. The 2021 unsupported ITT-confirmation sentence is not independently auditable. Training/adherence exclusion thresholds, absent achieved adherence detail, and PP-limited safety claims are retained without all-randomized or pediatric/MVA safety inference."
+        },
+        {
+          "topic": "Preparation, protein/energy control and exploratory whey",
+          "status": "ACCEPT",
+          "locators": [
+            "2015 native Table1 and Protein supplementation",
+            "2021 XML Investigational products/Dietary intake and native TableS1"
+          ],
+          "finding": "Both trials administer15g/day of the named collagen preparation during supervised training. The2015 type-I origin and approximate3kDa mean are source-specific; no species/lot/peptide-sequence or measured tissue exposure is established. Silica controls do not match protein/energy;2015 placebo gram amount is unreported,2021 all sachets15g and authors describe60kcal protein addition. Amino-acid profiles match where reported, but do not verify batch or retail equivalence. The15g Volactive90% powder is not an assayed15g pure-protein dose; whey contrasts are exploratory and non-significant, without superiority/equivalence or synergy."
+        },
+        {
+          "topic": "2021 quantitative/reporting limits",
+          "status": "ACCEPT",
+          "locators": [
+            "2021 XML Tables1–4, Results3.2–3.4, Methods2.2/2.5",
+            "2021 native Figure2"
+          ],
+          "finding": "Force changes163±189 versus100±154N, P=.158, primary FFM +3.42±2.54 versus+1.83±2.09kg, P=.010, fat-mass P=.023, and exploratory force P=.444 match the source. Figure95% intervals are arm-change intervals, not a treatment-effect CI. Table4 whey n31 differs from outcome n36; reported diet excludes test products and energy/carbohydrate differences remain. Formula-estimated muscle mass is not direct biopsy/MRI, and the verbal FFM subtraction-direction defect is preserved."
+        },
+        {
+          "topic": "Registration and independence",
+          "status": "ACCEPT",
+          "locators": [
+            "DRKS00008925 current record and history index",
+            "2021 XML ethics/author/funding/COI",
+            "2015 main registration scope"
+          ],
+          "finding": "2021 registry explicitly labels retrospective registration (2015-09-01 after2014-11-01 start). Current eligibility, unreported arm/metabolic outcomes and ethics date differ from the main in stated ways; prior-version field contents are unverified and no outcome-switching/misconduct inference follows.2015 registration is unverified rather than asserted absent. Shared investigators, institution and manufacturer support prevent an independent-laboratory replication claim."
+        },
+        {
+          "topic": "2025 correction scope",
+          "status": "ACCEPT",
+          "locators": [
+            "Complete collagen-corrigendum-text.txt",
+            "Retained publisher correction HTML"
+          ],
+          "finding": "Correction adds Gelita sample provision and participant-compensation/sample-analysis costs, and Oesser patent co-inventorship for a2013-05-13 application with no exploitation remuneration. It changes disclosure, not endpoints, dispersion labels, statistics or strength data, and is not a retraction. The2015 original no-conflict statement is not used in place of the corrected disclosure."
+        },
+        {
+          "topic": "2016 critical letter scope",
+          "status": "ACCEPT",
+          "locators": [
+            "Full native letter pages569–570",
+            "critical-letter-complete.txt",
+            "original/comment linked metadata"
+          ],
+          "finding": "The letter questions large FFM/fat-loss effects and leucine/arginine/creatine mechanisms, and asks what tissue DXA FFM represents. It has no torque reanalysis or replacement strength estimate. Its quoted numeric/arginine figures remain letter claims, and cited comparator studies are not requalified. The letter authors’ disclosed dairy/beef/egg/Pepsico/Nutricia interests are retained without using conflicts to dismiss the criticism. No formal reply was recovered; the2021 discussion is not established as such a reply."
+        },
+        {
+          "topic": "Fair transfer and scientific reading scope",
+          "status": "ACCEPT",
+          "locators": [
+            "qualification comparison_bar and prohibited_inferences",
+            "qualification.md fair comparison and reading sections"
+          ],
+          "finding": "The paired positive/non-significant function evidence supports a limited preparation-specific research comparison. It establishes no generic collagen benefit, BUBR1 restoration, healthy renewal/chromosome fidelity, MVA response, current retail equivalence or superiority to niacin/apitegromab. Earlier nominee evidence is context, not newly reviewed. The explicit2021 table-pixel and registry/reply limits match the actual available sources."
+        }
+      ]
+    },
+    "raw_sources_stay_external": true
+  },
+  "reading_attribution": {
+    "source_qualifier": {
+      "binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/reading-bindings.json",
+        "bytes": 8509,
+        "sha256": "854db77fbcc2d82b645ffd2941ddc10fc6118301e90e5d0d5dc9f996531abd63"
+      },
+      "scope_verbatim": {
+        "date": "2026-09-27",
+        "intervention_trial_count": 2,
+        "reading": [
+          {
+            "source": "2015 trial",
+            "scientific_main": "complete original XML abstract, Introduction, Methods, Results, Discussion, conclusion, acknowledgements and COI; references not newly qualified",
+            "main_assets": [
+              "sources/collagen-main.xml",
+              "sources/2015-publisher-main.pdf"
+            ],
+            "tables_read": [
+              "Table 1 amino acids, full XML and native publisher page 1238",
+              "Table 2 full XML and native publisher page 1240"
+            ],
+            "native_figures_read": [
+              "Figure 1 recruitment",
+              "Figure 2 mass changes",
+              "Figure 3 active correlation",
+              "Figure 4 placebo correlation",
+              "Figure 5 strength and motor control"
+            ],
+            "native_publisher_pages_visually_read": [
+              1238,
+              1240,
+              1241,
+              1242
+            ],
+            "figure_files": [
+              "sources/2015-fig1.jpg",
+              "sources/2015-fig2.jpg",
+              "sources/2015-fig3.jpg",
+              "sources/2015-fig4.jpg",
+              "sources/2015-fig5.jpg"
+            ],
+            "captions": "all five fully read",
+            "supplement": "No supplementary scientific material listed in XML/main; EPMC asset archive contains main figure/table and inline images only.",
+            "registration": "No identifier in main; bounded search found no registration. Prospective registration unverified.",
+            "main_assets_sha256": {
+              "sources/collagen-main.xml": "dbca8fd77b0ed8715c29a341a9a179cb983cef85d2fa3844c757d6440022a84c",
+              "sources/2015-publisher-main.pdf": "c469fded0f14e8713d9369e460e27c4801a2060e03f7b9bfc417c74e6db2c5a6"
+            },
+            "figure_files_sha256": {
+              "sources/2015-fig1.jpg": "60a81c0fad4b9fde7ac3e658c315a0eb5fa6dfe97e3cb644eb50638e2b801abc",
+              "sources/2015-fig2.jpg": "d5c13feb560c74b2bef05fd141fcb7048a2d58cd6ddf8a107148bfa3fa22f206",
+              "sources/2015-fig3.jpg": "f18bd9b3aef7f135e579d8145b9bf349886a94b092984bb42ab656d318a2dbf4",
+              "sources/2015-fig4.jpg": "7d2666ca843811601eee1e50f314fcab653376ad0e5d2d40e3f7caf26c051b86",
+              "sources/2015-fig5.jpg": "9a0672b30332e3a49cca9935958b9d8d8075d6c9cb124497df1846e2d8d87882"
+            }
+          },
+          {
+            "source": "2021 trial",
+            "scientific_main": "complete original XML abstract, Introduction, Methods, Results, Discussion, Conclusions and all declarations; references not newly qualified",
+            "main_assets": [
+              "sources/collagen-2021-main.xml"
+            ],
+            "tables_read": [
+              "Tables 1 through 4 in full original XML with row structure and footnotes"
+            ],
+            "native_table_pixels": "not recovered for main Tables 1-4; no credit claimed",
+            "native_figures_read": [
+              "Figure 1 full flow diagram",
+              "Figure 2 both body-composition and leg-strength panels"
+            ],
+            "figure_files": [
+              "sources/2021-supplement/ijerph-18-04837-g001.jpg",
+              "sources/2021-supplement/ijerph-18-04837-g002.jpg"
+            ],
+            "captions": "both fully read",
+            "supplement": "Table S1 full one-page native PDF and text; native amino-acid profile verified",
+            "supplement_file": "sources/2021-supplement/table-s1/ijerph-1201634-supplementary.pdf",
+            "main_pdf_access": "publisher PDF 403; EuropePMC render 403; PMC main browser challenge. XML and native figures/supplement available lawfully.",
+            "main_assets_sha256": {
+              "sources/collagen-2021-main.xml": "182776a02bb69ee9cd790ec589a8f5575c3f3adcabe3e196634121816bd9e77a"
+            },
+            "figure_files_sha256": {
+              "sources/2021-supplement/ijerph-18-04837-g001.jpg": "416b9bfa59bd83560da28bcbebe84031c891addbd52a152ffee1aac00d8569b8",
+              "sources/2021-supplement/ijerph-18-04837-g002.jpg": "0de161eb812224c04d040076373d8a7d6535c3784a98e61ae256dcbfef51ac59"
+            }
+          },
+          {
+            "source": "2025 corrigendum",
+            "depth": "complete correction text, checked against retained publisher HTML; missing acknowledgement and COI additions; no altered endpoint data",
+            "files": [
+              "sources/collagen-corrigendum.html",
+              "sources/collagen-corrigendum-text.txt"
+            ],
+            "native_pdf": "not needed/not retrieved",
+            "files_sha256": {
+              "sources/collagen-corrigendum.html": "7628e1e53239449b0ba74de14dda45ae672b1983e978e2eda3374597917f8c9a",
+              "sources/collagen-corrigendum-text.txt": "b418d1625179606436fcc50ce0f1bc87e64b7e972c2d456f4a5a9446a3977698"
+            }
+          },
+          {
+            "source": "2016 critical letter",
+            "depth": "complete two-page native PDF and full extracted text, including own COIs and references; cited primary comparator studies not separately read",
+            "files": [
+              "sources/collagen-critical-comment.pdf"
+            ],
+            "native_pages": [
+              569,
+              570
+            ],
+            "reply": "original/comment metadata and bounded title/author search; no formal reply recovered, not proof of absence",
+            "files_sha256": {
+              "sources/collagen-critical-comment.pdf": "c775c26a05032fa902fa5772bcef43345adc3a1a7c60f2ce2ff0f3a6515043fe"
+            }
+          },
+          {
+            "source": "DRKS00008925",
+            "depth": "complete current record text incl eligibility, intervention, endpoint, registration/start/completion dates, ethics, support, protocol/IPD availability; history index only",
+            "files": [
+              "sources/2021-registry.html",
+              "sources/2021-registry-history.html"
+            ],
+            "retrospective": true,
+            "registered": "2015-09-01",
+            "actual_start": "2014-11-01",
+            "actual_completion": "2015-09-30",
+            "current_last_update": "2025-02-19",
+            "history_index_releases": [
+              "2015-09-01",
+              "2018-09-10",
+              "2025-02-19"
+            ],
+            "historical_field_versions_read": false,
+            "protocol_SAP": "no linked document in current record",
+            "files_sha256": {
+              "sources/2021-registry.html": "e2e27e88277a5b16dc1bd19467545a160a970b1b269f648526fed10dfd8d3ca9",
+              "sources/2021-registry-history.html": "c91175268e766273409987743fa7c1cbfbf3525fc502a35960983de9f512e8f7"
+            }
+          },
+          {
+            "source": "268-entry ledger",
+            "depth": "all identity/alias/route/source URL records searched; not all scientific rationales reread",
+            "file": "derived/decisions.json",
+            "commit": "572f3e460dff7880e6030db4143512bb79194abc"
+          },
+          {
+            "source": "current common-compound appendix",
+            "depth": "task-relevant functional-challenger/niacin/apitegromab/equal-bar passages inspected; prior scientific appraisals not requalified",
+            "file": "derived/common-compound-priorities.md"
+          },
+          {
+            "source": "old scout and root identity addendum",
+            "depth": "complete scout prose, input/reading/identity records and root correction read; frozen-manifest hashes verified",
+            "files": [
+              "provenance/scout-scout.md",
+              "provenance/scout-input-bindings.json",
+              "provenance/scout-reading-scope.json",
+              "provenance/scout-identity-source-check.json",
+              "provenance/scout-final-bindings.json",
+              "provenance/root-identity-addendum/correction.md",
+              "provenance/root-identity-addendum/identity-check.json",
+              "provenance/root-identity-addendum/final-bindings.json"
+            ],
+            "files_sha256": {
+              "provenance/scout-scout.md": "2158c4a9d64775e8ffae9f73e480ff51af95f05864717e441641b86e584a3333",
+              "provenance/scout-input-bindings.json": "8b69c7ab5d62bf3bea47854d7d871c0147db41be9a9e400e223bfccb92fbe348",
+              "provenance/scout-reading-scope.json": "bbe4204b2e22d841080dde4653b818b430cff0aba8d88861b2adbd48963076f0",
+              "provenance/scout-identity-source-check.json": "fe816a1ac8bf5c9423b6b62c0e06eda0663784fffec432f4facc656e19c68290",
+              "provenance/scout-final-bindings.json": "5562393cfa1b030c43bcb717d8ef444cb32a1f2b343e8067cc11b5dbc44fea67",
+              "provenance/root-identity-addendum/correction.md": "7b0d3df1282b7e395570dd69dfead8cf06c2c097192a8f399fb528118f537ed7",
+              "provenance/root-identity-addendum/identity-check.json": "620939c3c15d14e7454630a920d2eda1bcab4b368c54c3c174494a52225fc930",
+              "provenance/root-identity-addendum/final-bindings.json": "af159c224704861d75a3e6b99a973bac2505d218c4c118b83d2ae32c9d73b342"
+            }
+          }
+        ],
+        "not_newly_qualified": [
+          "additional trials appearing in bibliographies or searches",
+          "cited mechanistic studies",
+          "2016 letter comparator studies",
+          "current retail products",
+          "niacin and apitegromab underlying trials"
+        ],
+        "no_new_statistics": true
+      }
+    },
+    "independent_primary_reviewer": {
+      "binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/independent-review/reading-scope.json",
+        "bytes": 6583,
+        "sha256": "93dfaf5200e08a7abac944ab84bdacfbc627dd8d83dabc2791334657e807db63"
+      },
+      "scope_verbatim": {
+        "status": "INDEPENDENT_PRIMARY_REVIEW_READING_COMPLETE",
+        "created_at_utc": "2026-09-27T15:48:05.979763+00:00",
+        "role": "Independent primary review of the frozen BODYBALANCE qualification, not source assembler or ledger proposer.",
+        "intervention_trial_count": 2,
+        "scientific_main_reading": [
+          {
+            "source": {
+              "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/sources/collagen-main.xml",
+              "bytes": 102269,
+              "sha256": "dbca8fd77b0ed8715c29a341a9a179cb983cef85d2fa3844c757d6440022a84c"
+            },
+            "depth": "Complete original abstract; all introductory paragraphs; all Methods, Results, Discussion/conclusion and acknowledgments/COI; all Table 1–2 cells/footnotes and Figure 1–5 captions read directly by parsing the frozen original XML. References are citation pointers, not separately read studies."
+          },
+          {
+            "source": {
+              "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/sources/collagen-2021-main.xml",
+              "bytes": 141867,
+              "sha256": "182776a02bb69ee9cd790ec589a8f5575c3f3adcabe3e196634121816bd9e77a"
+            },
+            "depth": "Complete original abstract and Sections 1–5; acknowledgments, supplementary-material statement, author contributions, funding, ethics/consent/data availability/COI and publisher note; full structured Tables 1–4 with footnotes and both main captions. No full native main PDF or main-table pixel credit."
+          }
+        ],
+        "native_visuals": [
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/derived/2015-native-1.png",
+            "bytes": 561727,
+            "sha256": "a329f6ea04879d95d5ece2b255c651be2c2c4f5067d6f863214a3974dd36338d"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/derived/2015-native-2.png",
+            "bytes": 464549,
+            "sha256": "901c811ac574d42b2ad527506000295136c4223d2ca8f5384fb64bf129ab4df3"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/derived/2015-native-3.png",
+            "bytes": 663343,
+            "sha256": "d21475a3e98e7e66200f8634d7c5e612254c4ea17fdb593af4cd472b0689380c"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/derived/2015-native-4.png",
+            "bytes": 620012,
+            "sha256": "4d3848530cdda6fcced2432020e28a7f90097ccf958404a0ee79f53b587b95ce"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/derived/2015-native-5.png",
+            "bytes": 349564,
+            "sha256": "18e02925d8b99732910749cea8092512962dc0f4a77cb4feff3c5abcd74767dd"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/derived/2015-native-6.png",
+            "bytes": 335152,
+            "sha256": "43a4082d71a50655065026189d506338f0bb90fd4215bcf47e0a84429d818e0f"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/sources/2021-supplement/ijerph-18-04837-g001.jpg",
+            "bytes": 84406,
+            "sha256": "416b9bfa59bd83560da28bcbebe84031c891addbd52a152ffee1aac00d8569b8"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/sources/2021-supplement/ijerph-18-04837-g002.jpg",
+            "bytes": 29655,
+            "sha256": "0de161eb812224c04d040076373d8a7d6535c3784a98e61ae256dcbfef51ac59"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/derived/2021-s1-1.png",
+            "bytes": 99905,
+            "sha256": "53d4a6471b4bb33e61ec442e94be05e07ffd826dc9e36db5d1c1de47c1a1d0bc"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/derived/letter-1.png",
+            "bytes": 619172,
+            "sha256": "031baba361c6ee48b5b84016bbb72d05260ba5a70d7b0ac44fef744597f632ce"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/collagen-bodybalance-primary-20260927/derived/letter-2.png",
+            "bytes": 296508,
+            "sha256": "6feb188b97dd56e545dbe1de9918a4bda1334ae2fdbcfba4111a8ec12fc9b41d"
+          }
+        ],
+        "native_depth": {
+          "2015": "All six retained publisher pages 1237–1242 inspected, covering original abstract, Methods, full Tables 1–2, flow chart and all five main figures with captions, axes, legends, error labels and significance brackets. Complete native publisher PDF reading beyond those pages is not claimed.",
+          "2021": "Full native Figures 1 and 2, including attrition accounting and both body-composition/force panels; complete one-page native Table S1. Main Tables 1–4 read as original XML, not native PDF pixels.",
+          "letter": "Both native pages 569–570 plus full extracted letter text, including its COIs and bibliography. Cited comparison studies were not independently retrieved or adjudicated."
+        },
+        "correction": "Complete 2025 correction text and the matching substantive correction in retained publisher HTML, including original text and corrected acknowledgments/COI. No separate correction PDF was retrieved.",
+        "registry": "Complete retained DRKS00008925 current-record text and history index. Retrospective label, dates, target/final N, current endpoints/eligibility/ethics/support/protocol/IPD fields checked. Prior-version field contents and protocol/SAP remain unverified.",
+        "identity_and_notice_context": "Read original/comment linked metadata, source identity correction addendum and qualification reading bindings. Frozen count-correction provenance preserved. No fresh ledger or catalog scan; no fresh exhaustive notice or formal-reply search.",
+        "not_claimed": [
+          "Additional intervention trials or broad literature review",
+          "Full final 2021 native PDF/main-table pixels",
+          "2015 prospective registration verified or known absent",
+          "Prior DRKS versions or prospective SAP comparison",
+          "A formal reply recovered or proof that none exists",
+          "Patient-level data audit, graph digitization, variance correction, effect recomputation or pooling Nm with N",
+          "Current retail/batch/peptide-sequence equivalence",
+          "Clinical eligibility, MVA benefit or nominee superiority"
+        ],
+        "new_retrieval": false,
+        "new_statistical_analysis_tests_or_replays": false,
+        "source_repository_or_other_packet_mutation": false,
+        "ledger_proposal_created": false
+      }
+    },
+    "portable_synthesis_preparer": {
+      "role": "Portable synthesis preparer, not a fresh independent primary reader.",
+      "actually_read": "Original collagen qualification was produced in this agent earlier; this task read the actual complete independent review and scope, verified the frozen source bytes, and reused the source qualification without fresh primary retrieval or new scientific reanalysis.",
+      "primary_credit_in_this_task": 0,
+      "native_credit_in_this_task": 0,
+      "new_retrieval": false,
+      "new_statistical_analysis": false,
+      "tests_or_replays": false,
+      "editorial_v2_reading": "Compared v1 wrappers with both complete frozen qualification reports and accepted review scope; changed only administrative/source-attribution passages. No new original primary or native reading."
+    },
+    "portable_synthesis_reviewer": {
+      "status": "PENDING",
+      "reading_credit": 0
+    }
+  },
+  "source_access_metadata_verbatim": {
+    "date": "2026-09-27",
+    "sources": [
+      {
+        "path": "sources/2015-assets.zip",
+        "sha256": "6f3ac4f4248f1d61948234ca02528aab2813731de0a4479c33d3923cd9e30862",
+        "bytes": 251199,
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4594048/supplementaryFiles"
+      },
+      {
+        "path": "sources/2015-fig1.jpg",
+        "sha256": "60a81c0fad4b9fde7ac3e658c315a0eb5fa6dfe97e3cb644eb50638e2b801abc",
+        "bytes": 90115,
+        "retrieval_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caca/4594048/543bd4b233e6/S0007114515002810_fig1.jpg"
+      },
+      {
+        "path": "sources/2015-fig2.jpg",
+        "sha256": "d5c13feb560c74b2bef05fd141fcb7048a2d58cd6ddf8a107148bfa3fa22f206",
+        "bytes": 18634,
+        "retrieval_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caca/4594048/93f841a3a2f7/S0007114515002810_fig2.jpg"
+      },
+      {
+        "path": "sources/2015-fig3.jpg",
+        "sha256": "f18bd9b3aef7f135e579d8145b9bf349886a94b092984bb42ab656d318a2dbf4",
+        "bytes": 38284,
+        "retrieval_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caca/4594048/1760f654651a/S0007114515002810_fig3.jpg"
+      },
+      {
+        "path": "sources/2015-fig4.jpg",
+        "sha256": "7d2666ca843811601eee1e50f314fcab653376ad0e5d2d40e3f7caf26c051b86",
+        "bytes": 34323,
+        "retrieval_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caca/4594048/0df8da404abf/S0007114515002810_fig4.jpg"
+      },
+      {
+        "path": "sources/2015-fig5.jpg",
+        "sha256": "9a0672b30332e3a49cca9935958b9d8d8075d6c9cb124497df1846e2d8d87882",
+        "bytes": 24604,
+        "retrieval_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caca/4594048/61e9307c800a/S0007114515002810_fig5.jpg"
+      },
+      {
+        "path": "sources/2015-main-pdf-request-response.html",
+        "sha256": "a96f57e360885b003a3565d7fd45d1a910e30857aedcd306e993809c545bcc2f",
+        "bytes": 1817,
+        "retrieval_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4594048/pdf/S0007114515002810a.pdf",
+        "access_class": "browser challenge; no main-reading credit"
+      },
+      {
+        "path": "sources/2015-pmc.html",
+        "sha256": "114c44d66d927e77cd0d6b96b282518c2276e0bd973f81e7249dee55350b8993",
+        "bytes": 198708,
+        "retrieval_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4594048/"
+      },
+      {
+        "path": "sources/2015-publisher-main.pdf",
+        "sha256": "c469fded0f14e8713d9369e460e27c4801a2060e03f7b9bfc417c74e6db2c5a6",
+        "bytes": 1101249,
+        "retrieval_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9426E375742D094F91029FD0364815C4/S0007114515002810a.pdf/div-class-title-collagen-peptide-supplementation-in-combination-with-resistance-training-improves-body-composition-and-increases-muscle-strength-in-elderly-sarcopenic-men-a-randomised-controlled-trial-div.pdf",
+        "pdf_signature_verified": true
+      },
+      {
+        "path": "sources/2021-pmc.html",
+        "sha256": "e99e3b1939fe62e73d5d3fb7a40f07c0ba9518fd2479d96769bd07b877749d1b",
+        "bytes": 21308,
+        "retrieval_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8125453/",
+        "access_class": "browser challenge; no main-reading credit"
+      },
+      {
+        "path": "sources/2021-registry-history.html",
+        "sha256": "c91175268e766273409987743fa7c1cbfbf3525fc502a35960983de9f512e8f7",
+        "bytes": 16869,
+        "retrieval_url": "https://drks.de/search/en/trial/DRKS00008925/history"
+      },
+      {
+        "path": "sources/2021-registry.html",
+        "sha256": "e2e27e88277a5b16dc1bd19467545a160a970b1b269f648526fed10dfd8d3ca9",
+        "bytes": 41424,
+        "retrieval_url": "https://drks.de/search/en/trial/DRKS00008925"
+      },
+      {
+        "path": "sources/2021-supplement/ijerph-18-04837-g001.gif",
+        "sha256": "06f9e5257e9010f1744f9bdc377396aa19fdb014f61e8b1a7b1107bd95633c0e",
+        "bytes": 3457,
+        "container": "sources/2021-supplement.zip"
+      },
+      {
+        "path": "sources/2021-supplement/ijerph-18-04837-g001.jpg",
+        "sha256": "416b9bfa59bd83560da28bcbebe84031c891addbd52a152ffee1aac00d8569b8",
+        "bytes": 84406,
+        "container": "sources/2021-supplement.zip"
+      },
+      {
+        "path": "sources/2021-supplement/ijerph-18-04837-g002.gif",
+        "sha256": "b12b63189f0bcdd23ddc13bd56e9f1a7c30a4b88b954e766bf9d4e5ce2661783",
+        "bytes": 2882,
+        "container": "sources/2021-supplement.zip"
+      },
+      {
+        "path": "sources/2021-supplement/ijerph-18-04837-g002.jpg",
+        "sha256": "0de161eb812224c04d040076373d8a7d6535c3784a98e61ae256dcbfef51ac59",
+        "bytes": 29655,
+        "container": "sources/2021-supplement.zip"
+      },
+      {
+        "path": "sources/2021-supplement/ijerph-18-04837-s001.zip",
+        "sha256": "73f157d01824521f9806821afa29c7c7663e12e80c1d2bbdd86952e328059318",
+        "bytes": 53143,
+        "container": "sources/2021-supplement.zip"
+      },
+      {
+        "path": "sources/2021-supplement/table-s1/ijerph-1201634-supplementary.pdf",
+        "sha256": "e26dcad63662f1e7ba84155672d9d5d01f8cba1b474aafe6c1dc751934b2e526",
+        "bytes": 57149,
+        "container": "sources/2021-supplement.zip",
+        "nested_container": "sources/2021-supplement/ijerph-18-04837-s001.zip",
+        "pdf_signature_verified": true
+      },
+      {
+        "path": "sources/2021-supplement.zip",
+        "sha256": "6da2ceb29439ccbbc5d5ec205d55e83561cab64bc0ad7d0c6c2574380849b62c",
+        "bytes": 155501,
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8125453/supplementaryFiles"
+      },
+      {
+        "path": "sources/collagen-2015-metadata.json",
+        "sha256": "e1ba0cf5fbdc67e97cfb6a2e11eb2ba2a023f99cd2599b10b5111ff96338e85d",
+        "bytes": 8760,
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26353786%20AND%20SRC:MED&format=json&resultType=core"
+      },
+      {
+        "path": "sources/collagen-2021-main.xml",
+        "sha256": "182776a02bb69ee9cd790ec589a8f5575c3f3adcabe3e196634121816bd9e77a",
+        "bytes": 141867,
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8125453/fullTextXML"
+      },
+      {
+        "path": "sources/collagen-2021-methods-selected.txt",
+        "sha256": "9367b095a0dd73044d96c5c8a52a1c94041d58f532d6d6e32e7d760222a4840f",
+        "bytes": 8085,
+        "origin": "unchanged retained scout asset; see provenance/scout-retrieval-record.json"
+      },
+      {
+        "path": "sources/collagen-2021-targeted-extract.txt",
+        "sha256": "a564d87d29befe16d854720067600adebffacd0b64510e697e9e66642e3c35b6",
+        "bytes": 8659,
+        "origin": "unchanged retained scout asset; see provenance/scout-retrieval-record.json"
+      },
+      {
+        "path": "sources/collagen-comment-metadata.json",
+        "sha256": "7db96355ff20b900d0a2919b5a65f7d9d6bc84a62686b664cdbdf226cffbd1df",
+        "bytes": 5560,
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27267663%20AND%20SRC:MED&format=json&resultType=core"
+      },
+      {
+        "path": "sources/collagen-corrigendum-text.txt",
+        "sha256": "b418d1625179606436fcc50ce0f1bc87e64b7e972c2d456f4a5a9446a3977698",
+        "bytes": 1934,
+        "derived_from": "sources/collagen-corrigendum.html",
+        "origin": "unchanged inherited scout extract"
+      },
+      {
+        "path": "sources/collagen-corrigendum.html",
+        "sha256": "7628e1e53239449b0ba74de14dda45ae672b1983e978e2eda3374597917f8c9a",
+        "bytes": 773007,
+        "retrieval_url": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/collagen-peptide-supplementation-in-combination-with-resistance-training-improves-body-composition-and-increases-muscle-strength-in-elderly-sarcopenic-men-a-randomised-controlled-trial-corrigendum/F41D0B9057E90903D53AF598CDC9A7C8"
+      },
+      {
+        "path": "sources/collagen-critical-comment.pdf",
+        "sha256": "c775c26a05032fa902fa5772bcef43345adc3a1a7c60f2ce2ff0f3a6515043fe",
+        "bytes": 97401,
+        "retrieval_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7DB10E371EDDC45642688278BCEFC6DF/S000711451600221Xa.pdf/exceptional-body-composition-changes-attributed-to-collagen-peptide-supplementation-and-resistance-training-in-older-sarcopenic-men.pdf",
+        "pdf_signature_verified": true
+      },
+      {
+        "path": "sources/collagen-main.xml",
+        "sha256": "dbca8fd77b0ed8715c29a341a9a179cb983cef85d2fa3844c757d6440022a84c",
+        "bytes": 102269,
+        "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4594048/fullTextXML"
+      },
+      {
+        "path": "sources/collagen-targeted-extract.txt",
+        "sha256": "474a596c1f5ed9476773da2a5d99e0c93ffc1c47dba1ddc282c2623952cd1184",
+        "bytes": 9730,
+        "origin": "unchanged retained scout asset; see provenance/scout-retrieval-record.json"
+      }
+    ],
+    "source_identity": {
+      "2015": {
+        "pmid": "26353786",
+        "pmcid": "PMC4594048",
+        "doi": "10.1017/S0007114515002810"
+      },
+      "2021": {
+        "pmid": "33946565",
+        "pmcid": "PMC8125453",
+        "doi": "10.3390/ijerph18094837"
+      },
+      "critical_letter": {
+        "pmid": "27267663",
+        "doi": "10.1017/S000711451600221X"
+      },
+      "corrigendum": {
+        "pmid": "40859798",
+        "doi": "10.1017/S000711452510425X"
+      }
+    },
+    "assets_modified": false,
+    "derivatives_separate": true
+  },
+  "portable_companion_markdown": "bodybalance-collagen-qualification.md",
+  "preparation_identity_limit": "No generic nutrient, retail product, batch or peptide/formula equivalence follows from the scoped alias. Exact source evidence is retained per experiment.",
+  "fair_comparison_bar": {
+    "applies_equally_to_nominees_and_challengers": [
+      "justified preparation and exposure",
+      "useful absolute function",
+      "sustainable tissue renewal",
+      "chromosome-segregation fidelity"
+    ],
+    "restoration_only_additional_requirement": "Functional BUBR1 mediation is additionally required for restoration claims; it is not an extra compensation-only hurdle.",
+    "BUB1B_MVA_efficacy": "Not established.",
+    "nominee_superiority_or_change": "Not established; no nominee change proposed."
+  },
+  "batch15_reconciliation_change": false,
+  "fresh_clean_baseline_identity_recheck_required_before_integration": true,
+  "repository_or_other_packet_mutation": false,
+  "new_retrieval_tests_replays_or_statistical_analysis": false,
+  "portable_editorial_v2": {
+    "status": "EDITORIAL_V2_PENDING_SEPARATE_SYNTHESIS_REVIEW",
+    "v1_markdown": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-protein-integration-20260927/proposal-ready/bodybalance-collagen-qualification.md",
+      "bytes": 25640,
+      "sha256": "6ba97e1b6b84e3a8b4733473302b54c6150c63d923ab85df072ed8fce9eec302"
+    },
+    "v1_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-protein-integration-20260927/proposal-ready/bodybalance-collagen-qualification.json",
+      "bytes": 55687,
+      "sha256": "97060251df4e726811b6d613ff3d3e0dddf2ec0c4ef34bbaf130afe6d8b39622"
+    },
+    "scope": "Human prose opens with science and one H1; administrative title/status, historical identity/scope and source-attribution edits only. Original source_qualification and decision objects unchanged.",
+    "fresh_primary_reading_credit": 0,
+    "new_retrieval_tests_or_statistical_analysis": false
+  }
+}

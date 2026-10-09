@@ -1,0 +1,376 @@
+{
+  "schema": "bounded-primary-qualification-v1",
+  "date": "2026-09-23",
+  "compound": "Putrescine dihydrochloride; generic putrescine only where source form unresolved",
+  "automatic_ledger_credit": 0,
+  "automatic_outer_credit": 0,
+  "disposition": {
+    "proposed_id": "new-putrescine-dihydrochloride-reproduction",
+    "proposal_only": true,
+    "route": "experimental nonmalignant reproductive-function reserve, with separate access-limited aneuploidy lead",
+    "positive": "Reduced embryo resorption in two older-mouse strains and greater blastocyst cell numbers; observed aggregate live-pup increase.",
+    "limit": "No BUB1B/BubR1 response, MVA model or isolated oocyte mechanism demonstrated; 2013 aneuploidy source remains abstract-level.",
+    "competitive_comparison": "The directly administered common-molecule preparation has meaningful noncancer in-vivo outcomes and deserves retention beside provisional niacin/apitegromab hypotheses, which also lack demonstrated MVA benefit. This does not rank it as an established MVA treatment."
+  },
+  "ledger_overlap": {
+    "date": "2026-09-23",
+    "repo_head": "313f1207170482439314d52f25dd3c95615e96da",
+    "ledger_path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
+    "ledger_sha256": "22ab64ec1f5d902e978eeacb39f7e83d8f1cc8406a01ecea70bbc895fe68da84",
+    "count": 216,
+    "putrescine_text_hits": []
+  },
+  "identity": {
+    "primary_2015_name": "putrescine dihydrochloride",
+    "supplier": "Sigma",
+    "catalog": "P-5780",
+    "grade": "BioReagent",
+    "chemical_purity_percent": null,
+    "source_cas": null,
+    "formulation": "1% w/v in drinking water, source states 62 mM",
+    "identity_2013": "Abstract says putrescine; salt/formulation and concentration unverified",
+    "aliases_not_inherited": [
+      "generic putrescine free base",
+      "spermidine",
+      "spermine",
+      "ornithine",
+      "food mixtures or consumer products"
+    ],
+    "catalog_note": "The earlier triage found a generic putrescine catalog identity; chemical-form equivalence and current availability are not asserted."
+  },
+  "sources": [
+    {
+      "pmid": "23061827",
+      "doi": "10.1111/acel.12016",
+      "title": "Deficiency of ovarian ornithine decarboxylase contributes to aging-related egg aneuploidy in mice",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/acel.12016",
+      "depth": "complete abstract plus publisher metadata/supporting-file descriptions only",
+      "complete_scientific_main_read": false,
+      "native_figures_inspected": false,
+      "supplement_bodies_read": false,
+      "abstract_positive": {
+        "age_months": 8,
+        "intervention": "Combined drinking-water pretreatment and in-vitro oocyte maturation supplementation",
+        "egg_aneuploidy_percent_control": 12.7,
+        "egg_aneuploidy_percent_putrescine": 5.3,
+        "denominator": null,
+        "statistical_test": null,
+        "salt": null,
+        "concentration": null,
+        "FISH_versus_whole_karyotype": null
+      },
+      "not_resolved": [
+        "ODC genetic and pharmacologic arm details",
+        "separate oral and IVM contributions",
+        "karyotype/FISH coverage and scoring definition",
+        "sample and maternal denominators",
+        "randomization/blinding",
+        "normal treated controls",
+        "exact formulation and exposure"
+      ],
+      "publication_dates": {
+        "publisher_page_first_published_observed": "2012-10-13",
+        "crossref_epmc_electronic": "2012-11-26",
+        "print": "2013-02"
+      },
+      "abstract_only_credit": true
+    },
+    {
+      "pmid": "26082481",
+      "doi": "10.1093/humrep/dev130",
+      "title": "Peri-ovulatory putrescine supplementation reduces embryo resorption in older mice",
+      "url": "https://academic.oup.com/humrep/article/30/8/1867/950709",
+      "author_copy_reader": "https://www.researchgate.net/publication/278793283_Peri-ovulatory_putrescine_supplementation_reduces_embryo_resorption_in_older_mice",
+      "depth": "Complete scientific main in author-copy text reader, extracted Tables I-II, available Figures1-5 captions and funding/conflict text. Native figures/PDF and supplement bodies unavailable. Figure1 caption extraction only a short title.",
+      "complete_scientific_main_read": true,
+      "native_figures_inspected": false,
+      "supplement_bodies_read": false,
+      "native_pdf_sha256": null,
+      "publication_date": "2015-06-16",
+      "study_period": "2010-2014",
+      "conflict_statement": "None declared",
+      "funding": [
+        "NSERC",
+        "March of Dimes Foundation",
+        "National Natural Science Foundation of China (81225004)"
+      ]
+    }
+  ],
+  "exposures_2015": [
+    {
+      "model": "CF1 retired breeder females, 9-10 months",
+      "route": "drinking water",
+      "dose": "1% w/v putrescine dihydrochloride (62 mM)",
+      "timing": "4 days before natural mating; withdraw when plug seen or after 4 consecutive mating nights",
+      "comparator": "control drinking water; young 3-month CF1 group",
+      "endpoint_time": "12.5 dpc; unplugged mice also assessed 12.5 days after last mating night"
+    },
+    {
+      "model": "C57BL/6 retired breeder females, 10 months for resorption; 10-11 months for births",
+      "route": "drinking water",
+      "dose": "1% w/v putrescine dihydrochloride (62 mM)",
+      "timing": "Male bedding, 2 days before natural mating; withdraw on plug or after 2 mating nights",
+      "comparator": "control drinking water",
+      "endpoint_time": "9.5 dpc resorption; 16.5-23.5 dpc daily birth checks"
+    },
+    {
+      "model": "C57BL/6, old 10 months and young 2 months",
+      "route": "same premating oral protocol",
+      "endpoint_time": "3.5 dpc blastocyst collection",
+      "assay": "TUNEL plus Hoechst, nuclei and mitotic-cell counts"
+    },
+    {
+      "model": "CF1 age7 months; C57BL/6 age12 months ovarian content cohorts",
+      "route": "oral",
+      "dose": "1% putrescine water",
+      "timing": "CF1 4 days / C57BL/6 2 days ending 5 hours after hCG; eCG priming44h before hCG",
+      "unit": "mice, n8/12 CF1 control/treated; C57BL/6 n5 young,n7 old,n6 old treated",
+      "positive": "Higher ovarian putrescine; measured spermidine/spermine not significantly changed"
+    },
+    {
+      "model": "Young CF1, 2 months",
+      "route": "subcutaneous",
+      "dose": "100 mg/kg",
+      "timing": "single bolus; three mice per time point",
+      "purpose": "Separate pharmacokinetics, not reproductive efficacy",
+      "reported_exposure": "Serum nearly500nmol/mL at20min, <10% at1h and baseline by2h; ovary74 to450nmol/g at20min, half-life less than2h",
+      "limit": "Does not quantify oral bioavailability or individual efficacy exposure"
+    }
+  ],
+  "outcomes_2015": {
+    "cf1_resorption": {
+      "females": {
+        "young": 10,
+        "old_control": 31,
+        "old_putrescine": 29
+      },
+      "pregnancies": {
+        "young": 6,
+        "old_control": 20,
+        "old_putrescine": 24
+      },
+      "implantation_sites": {
+        "young": 84,
+        "old_control": 225,
+        "old_putrescine": 282
+      },
+      "resorption_percent": {
+        "young": 3.6,
+        "old_control": 14.2,
+        "old_putrescine": 6.4
+      },
+      "control_vs_putrescine_p_reported": 0.004,
+      "young_vs_putrescine_p_reported": 0.43,
+      "test": "two-sided Fisher exact, implantation-site level",
+      "exact_resorption_numerators": "Not transcribed from unread supplementary mother-level data; rounded percentages not relabeled as native counts."
+    },
+    "c57_resorption": {
+      "females": {
+        "control": 34,
+        "putrescine": 36
+      },
+      "pregnancies": {
+        "control": 12,
+        "putrescine": 17
+      },
+      "implantation_sites": {
+        "control": 90,
+        "putrescine": 130
+      },
+      "resorption_percent": {
+        "control": 41.1,
+        "putrescine": 15.4
+      },
+      "p_reported": "<0.0001",
+      "test": "two-sided Fisher exact, implantation-site level",
+      "abnormal_retarded_plus_resorbed_percent_approx": {
+        "control": 60,
+        "putrescine": 28
+      },
+      "abnormal_p_reported": "<0.0001",
+      "limit": "Retarded fetuses were not classified as resorptions; future term death is a prediction, not observed in this killed cohort."
+    },
+    "live_birth_table_I": {
+      "control": {
+        "females": 63,
+        "plugged": 49,
+        "litters": 15,
+        "total_pups": 58,
+        "live_pups": 40,
+        "stillbirths": 18,
+        "litter_mean": 3.9,
+        "litter_sd": 2.0
+      },
+      "putrescine": {
+        "females": 66,
+        "plugged": 47,
+        "litters": 21,
+        "total_pups": 102,
+        "live_pups": 81,
+        "stillbirths": 21,
+        "litter_mean": 4.9,
+        "litter_sd": 2.1
+      },
+      "mean_denominator": "Only females producing at least one pup, live or stillborn",
+      "source_inference": "Litter proportion and mean litter size each explicitly nonsignificant",
+      "aggregate_inference": "40 to81 live pups is observed aggregate output; no verified significant doubling per mother or litter."
+    },
+    "blastocysts": {
+      "means": {
+        "old_control": 40.1,
+        "old_putrescine": 54.2,
+        "young": 66.6
+      },
+      "abstract_test": "P<0.0001 t-test",
+      "caption_test": "ANOVA with Newman-Keuls comparisons",
+      "complete_group_and_donor_n": null,
+      "known_old_control_n": 36,
+      "known_old_control_at_most_32_cells": 10,
+      "mitotic_index": "No significant difference among three groups",
+      "apoptotic_index": "No significant difference among three groups",
+      "mechanism": "Cell-count increase does not isolate proliferation versus cell-death mechanism."
+    },
+    "other_nulls": [
+      "No significant change in pregnancy rates or implantation numbers per pregnancy reported.",
+      "No significant change in mating plug rates reported.",
+      "Spermidine/spermine levels not significantly changed in relevant ovarian comparisons."
+    ],
+    "BUB1B_RNA": {
+      "measured": false,
+      "scope": "No assay reported in read2015 scientific main"
+    },
+    "BubR1_protein": {
+      "measured": false,
+      "scope": "No assay reported in read2015 scientific main"
+    },
+    "current_reproductive_cohort_aneuploidy": {
+      "measured_in_this_paper": false,
+      "basis": "Discussion references prior2013 finding and unpublished karyotypes rather than providing concurrent karyotype outcomes."
+    }
+  },
+  "design_limits": [
+    "Multiple implantation sites per mother; reported Fisher test does not model maternal clustering.",
+    "Random allocation and blinded classification not stated in read Methods.",
+    "Cohort/batch replication and donor-level blastocyst data unavailable without supplementary tables.",
+    "Males co-exposed in drinking-water mating protocol and rotated between later experiments; isolated oocyte mechanism not established.",
+    "No IVF/embryo transfer performed in2015; authors explicitly identify those as needed to exclude male/uterine contributions.",
+    "Oral intake not quantified per mouse; subjective no-noticeable-consumption-change observation is not a measured exposure control.",
+    "Within-study two-strain outcomes are not independent-laboratory replication.",
+    "Native images, numerical point distributions and supplement data unavailable; reported values not independently reproduced."
+  ],
+  "safety": {
+    "observed": "Small young-mouse breeding groups and offspring breeding observations reported normal pups and fertility.",
+    "table_II_extracted_groups": [
+      {
+        "age_months": 2.5,
+        "strain": "CF1",
+        "dose_mM": 1,
+        "schedule": "24h before mating to birth",
+        "n": 5,
+        "outcome": "all pregnant,66normal pups"
+      },
+      {
+        "age_months": 3,
+        "strain": "CF1",
+        "dose_mM": 10,
+        "schedule": "4days before mating to birth",
+        "n": 5,
+        "outcome": "all pregnant,67normal pups"
+      },
+      {
+        "age_months": 3,
+        "strain": "CF1",
+        "dose_mM": 62,
+        "schedule": "0.5-5.5dpc",
+        "n": 3,
+        "outcome": "2pregnant,22normal pups"
+      },
+      {
+        "age_months": 3,
+        "strain": "CF1",
+        "dose_mM": 62,
+        "schedule": "0.5-10.5dpc",
+        "n": 3,
+        "outcome": "2pregnant,14normal pups"
+      },
+      {
+        "age_months": 3,
+        "strain": "F1offspring",
+        "n": 3,
+        "outcome": "two litters,49normal pups; sex symbol unresolved"
+      },
+      {
+        "age_months": 3,
+        "strain": "F1offspring",
+        "n": 2,
+        "outcome": "two litters,26normal pups; sex symbol unresolved"
+      }
+    ],
+    "sex_symbol_limit": "Author-copy text corrupts native sex symbols in TableII; do not assign row sexes from C/F extraction. Main prose states male and female offspring fertile.",
+    "not_established": [
+      "comprehensive long-term developmental safety",
+      "multigenerational systematic safety",
+      "human efficacy or safety",
+      "MVA efficacy or safety"
+    ],
+    "no_harm_inference": "Missing long-term data is not an observed harm signal."
+  },
+  "unresolved_questions": [
+    "2013 exact salt/dose/arm design, complete chromosome counting versus selected FISH, denominator and maternal units.",
+    "2013 drug-treated normal controls and separation from ODC genetic/DFMO interventions.",
+    "2015 maternal-level supplementary data and blinded/randomized allocation details.",
+    "2015 native figure and TableII symbols; full blastocyst donor/embryo Ns.",
+    "Does an isolated oocyte intervention preserve the reproductive benefit after IVF and transfer?",
+    "Is any BUB1B/BubR1 response or benefit present in BUB1B-deficient systems? Not measured here."
+  ],
+  "source_status": {
+    "date": "2026-09-23",
+    "sources": [
+      "Europe PMC core records",
+      "Crossref DOI records",
+      "official publisher article/abstract views"
+    ],
+    "result": "No correction/retraction links or retraction publication type observed in inspected metadata; Crossref update-to/updated-by absent and relation empty. Bounded check, not proof of absence of all possible notices."
+  },
+  "read_scope": {
+    "manifest": "reading-manifest.json",
+    "sha256": "fc74493453333e69fe892d0a79bc6d8f189dc21115231716360f48e8f240cebe",
+    "full_native_figure_audit": false,
+    "reviewer_performed_biological_replication": false,
+    "reviewer_performed_statistical_replication": false
+  },
+  "provenance": {
+    "retrieval_manifest": "retrieval-manifest.json",
+    "sha256": "d003c605b6aeab1ec9e572a10a3f3af4f82b8db26f24cebd5406a501549e70ec",
+    "qualification_md_sha256": "a9bc6e015e30529efb0ec972c7ba255ecccf9c7858749d2505fa9709965ea368",
+    "source_caches_external_only": true
+  },
+  "status": "INTEGRATED_SOURCE_QUALIFICATION_WITH_EXPLICIT_LIMITS",
+  "source_reviewer_repository_edited": false,
+  "source_reviewer_root_admission_pending": true,
+  "source_reviewer_credit": {
+    "new_ledger_objects": 0,
+    "new_unique_abstract_reads": 0,
+    "new_outer_corpus_credit": 0,
+    "notes": "Proposal is subject to root integration;2013 abstract depth remains separate from2015 scientific main reader depth."
+  },
+  "qualification_md_sha256": "a9bc6e015e30529efb0ec972c7ba255ecccf9c7858749d2505fa9709965ea368",
+  "integration": {
+    "baseline": "d88488855307c35ec9230853b77edfaf8e482800",
+    "baseline_assessments": 216,
+    "current_assessments": 219,
+    "prior_decision_objects_unchanged": 216,
+    "new_decision_id": "new-putrescine-dihydrochloride-reproduction",
+    "frozen_source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/putrescine-reproduction-followup-20260923/qualification.json",
+      "sha256": "c223adbadc5b98e8c77a31bbc3c8806ad3007bb5b6542845111705c1b24f5ee9"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-functional-integration-20260923/root-reading.json",
+      "sha256": "bd03f6c2ecb0427c7eebb22657908c34434b86bf65b4a660e888c1b0c0cd4db5"
+    },
+    "original_queue_new_credit": 0,
+    "all47_original_source_question_records_unchanged": true,
+    "nominee_superiority_established": false
+  }
+}

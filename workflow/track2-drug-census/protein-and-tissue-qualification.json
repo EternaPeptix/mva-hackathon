@@ -1,0 +1,1517 @@
+{
+  "date": "2026-09-22",
+  "scope": "Six bounded primary-source qualifications; original assessments and source metadata only. Raw literature remains external to Git.",
+  "paper_count": 6,
+  "appraisals_before": 109,
+  "appraisals_after": 116,
+  "new_decision_ids": [
+    "new-cx4945",
+    "new-wy14643",
+    "new-eplerenone",
+    "new-bfgf-stromal-support",
+    "new-collagenase-matrix",
+    "new-salbutamol-agrn-cms",
+    "new-ephedrine-agrn-cms"
+  ],
+  "updated_decision_ids": [
+    "prior-27"
+  ],
+  "nomination_changes": [],
+  "patient_premise": {
+    "phase": "UNRESOLVED",
+    "Asn1002Lys_function_and_abundance": "UNRESOLVED",
+    "low_BUBR1_assumed": false
+  },
+  "independence_limits": [
+    "bFGF and collagenase are separate exposures in one paper, not independent replications.",
+    "Salbutamol and ephedrine share one three-sibling treatment sequence; one-sister walking response is not separately attributable."
+  ],
+  "identity_limits": [
+    "Catalog matching is at the generic protein-name level; it does not establish preparation, recombinant construct or clinical formulation equivalence.",
+    "No catalog alias is assigned: the unspecified Worthington preparation cannot be resolved to collagenase clostridium histolyticum or another clinical product from this paper.",
+    "The saved generic salbutamol alias matches ALBUTEROL and LEVOSALBUTAMOL; retain the ambiguous join, without assigning levalbuterol-specific efficacy or silently resolving formulation."
+  ],
+  "papers": [
+    {
+      "pmid": "34050247",
+      "pmcid": "PMC8163776",
+      "decision_ids": [
+        "new-cx4945"
+      ],
+      "assessment": {
+        "agent": "CX-4945 (silmitasertib)",
+        "pmid": "34050247",
+        "pmcid": "PMC8163776",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8163776/",
+        "reading_depth": {
+          "complete_main_text": true,
+          "complete_methods": true,
+          "all_main_legends": true,
+          "main_figure_pixels": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "all_supplementary_legends": true,
+          "supplementary_figure_pixels": [
+            3,
+            4
+          ],
+          "source_workbook_sheets_read": [
+            "Fig 5b",
+            "Fig 6a",
+            "Fig 6b",
+            "Fig 6c",
+            "Fig 6f",
+            "Supp Data Fig 1g"
+          ]
+        },
+        "drug_results": [
+          {
+            "endpoint": "endogenous CDCA3 quantity",
+            "models": "8 NSCLC lines",
+            "regimen": "5 micromolar; Methods and supplementary Figure 3b specify 12 h; Results specifies 24 h",
+            "effect": "Authors report approximately 1.3-2.3-fold increase except CRL-5889",
+            "denominator": "8 paired cell-line values averaged from 3 independent experiments",
+            "statistics": "Paired t P=0.0126; source Fig 5b B16 mean log2 difference 0.4881, 95% CI 0.1412-0.8350",
+            "panels": [
+              "5b",
+              "S3b"
+            ]
+          },
+          {
+            "endpoint": "CK2-motif phosphorylation and CDCA3/Cdh1 binding",
+            "model": "H460, endogenous or ectopic proteins by panel",
+            "regimen": "5 micromolar for 12 h by Methods",
+            "effect": "Reduced CDCA3 phospho-CK2-substrate immunoreactivity and reduced CDCA3/Cdh1 association",
+            "denominator": "Representative of 3 independent repeats",
+            "panels": [
+              "5d",
+              "5f"
+            ]
+          },
+          {
+            "endpoint": "cisplatin potency",
+            "models": "CDCA3-low NSCLC cultures",
+            "regimen": "Each line-specific CX-4945 IC25 plus cisplatin dose response; 48 h ATP-based viability",
+            "effect": "Reported median cisplatin IC50 approximately 19 to 10 micromolar",
+            "denominator": "4 analysed values per arm, source Fig 6f B28-B29; sampling identities not explicitly assigned",
+            "statistics": "Unpaired t P=0.0138, df=6; log10-IC50 means 1.265 versus 1.005",
+            "limitations": "Exact line-specific CX-4945 IC25 concentrations not recovered; no formal synergy calculation or direct death count",
+            "panels": [
+              "6f"
+            ]
+          },
+          {
+            "endpoint": "gamma-H2AX after drug washout",
+            "models": [
+              "EBC-1",
+              "CRL-5889",
+              "HTB-182"
+            ],
+            "regimen": "Respective IC50 concentrations for 12 h, then washout and 8 h recovery",
+            "effect": "Persistent foci under the combination; no increase with CX-4945 alone at the measured time",
+            "denominator": "13-16 fields, at least 800 nuclei per condition",
+            "printed_foci_recovery_percent": {
+              "cisplatin": [
+                46,
+                50.5,
+                32.1
+              ],
+              "combination": [
+                -34,
+                -2.5,
+                -25.7
+              ]
+            },
+            "limitations": "Foci change, not survival/tissue recovery; fields are not independent animals",
+            "panels": [
+              "6g"
+            ]
+          },
+          {
+            "endpoint": "single-agent ATP-based viability",
+            "model": "8 NSCLC lines",
+            "regimen": "48 h dose escalation",
+            "effect": "IC50 3.8-14.6 micromolar",
+            "denominator": "n=4 per supplementary Figure 4b legend",
+            "panels": [
+              "S4b"
+            ]
+          }
+        ],
+        "do_not_transfer": [
+          "CDCA3 overexpression gives approximately twofold/sixfold cisplatin/carboplatin sensitization; this is genetic, not the CX-4945 effect size.",
+          "The cycloheximide chase measures the cisplatin effect, not a CX-4945-specific half-life.",
+          "Cdh1/CK2 siRNAs and CDCA3 mutants are mechanistic experiments, not administered-drug rescue.",
+          "BUB1B appears only in a motif alignment."
+        ],
+        "unresolved": [
+          "12 h versus 24 h source discrepancy",
+          "Figure 6f four observations not explicitly mapped to cell lines or independent biological repeats",
+          "No normal-cell comparator or therapeutic animal arm",
+          "No BUBR1/MVA/muscle/faithful-division endpoint",
+          "No CX-treated cell-cycle profile to exclude arrest or redistribution",
+          "No CDCA3-loss test showing complete mediation of CX sensitization",
+          "No current approval or pediatric exposure inference",
+          "Patient variant phase and Asn1002Lys function unresolved; low BUBR1 not assumed"
+        ],
+        "comparison": "Actual-drug CDCA3 and cancer-cell benefits deserve positive credit. They do not establish BUBR1 or muscle benefit, or comparative superiority over unproven niacin restoration or apitegromab function in a different disease."
+      }
+    },
+    {
+      "pmid": "30022161",
+      "pmcid": "PMC6430198",
+      "decision_ids": [
+        "prior-27"
+      ],
+      "assessment": {
+        "record_id": "prior-27",
+        "intervention": "metformin",
+        "pmid": "30022161",
+        "pmcid": "PMC6430198",
+        "doi": "10.1038/s41586-018-0350-5",
+        "scope": "One primary paper and attached supplements only; no repository edits; no expanded review.",
+        "decision": "RETAIN_QUALIFIED_PROTEIN_STABILITY_LEAD",
+        "patient_premise": {
+          "phase": "UNRESOLVED",
+          "N1002K_function": "UNRESOLVED",
+          "BUBR1_deficiency_assumed": false
+        },
+        "drug_results": [
+          {
+            "id": "MET-TET2-STABILITY",
+            "model": "A2058 melanoma stably expressing full-length Flag-TET2 WT",
+            "condition": "4.5 g/L glucose DMEM",
+            "dose": "5 mM metformin for CHX chase; 0.5/1/2/5 mM dose blot",
+            "time": "CHX 0,2,4,5 h; metformin pretreatment and dose-blot duration UNKNOWN",
+            "comparator": "same engineered line without metformin",
+            "endpoint": "Flag-TET2 protein decay, pS99, pAMPK",
+            "result": "increased protein and slower decay",
+            "n": "3 biological repeats stated",
+            "magnitude": {
+              "type": "approximate visual reading only",
+              "five_hour_remaining_with_metformin": 0.75,
+              "five_hour_remaining_without_metformin": 0.2,
+              "fitted_half_life": "NOT_REPORTED"
+            },
+            "source": "Fig3f; ED6a,c; Supplementary Information Cell Culture",
+            "pixels_viewed": true
+          },
+          {
+            "id": "MET-5HMC",
+            "model": "A2058 TET2WT/S99A/mock",
+            "dose": "5 mM",
+            "time": "specific treatment duration UNKNOWN",
+            "endpoint": "5hmC dot blot",
+            "result": "increased WT; no significant increase S99A/mock",
+            "n": 5,
+            "n_unit": "biological repeats",
+            "p": 0.026,
+            "source": "ED8e",
+            "pixels_viewed": true
+          },
+          {
+            "id": "MET-GROWTH",
+            "model": "A2058 TET2WT/S99A/mock",
+            "dose": "5 mM",
+            "time": "24-72 h",
+            "endpoint": "MTS absorbance at 490 nm",
+            "result": "lower WT day3; no corresponding significant S99A/mock inhibition",
+            "n": 5,
+            "n_unit": "biological repeats",
+            "p": 7.18e-05,
+            "interpretation_limit": "Metabolic growth proxy, not direct cell count",
+            "source": "ED8f; supplementary methods pp17-18",
+            "pixels_viewed": true
+          },
+          {
+            "id": "MET-COLONIES",
+            "model": "A2058 TET2WT/S99A/mock",
+            "dose": "0/2/4 mM",
+            "time": "colonies counted 4 weeks",
+            "endpoint": "soft-agar colonies",
+            "result": "dose-dependent WT colony suppression; no significant S99A/mock drug response",
+            "n": "Four plotted points per group; biological n for g/h not expressly assigned in caption",
+            "source": "ED8g,h; supplementary methods p17",
+            "pixels_viewed": true
+          },
+          {
+            "id": "MET-XENOGRAFT",
+            "model": "Female athymic BALB/c nude mice purchased at 4 weeks; diabetic/nondiabetic A2058-WT or mock tumours",
+            "dose": "500 mg/L in drinking water; actual mg/kg/day and blood exposure UNKNOWN",
+            "time": "starts 7 days pre-implantation; continues to endpoint approximately 22 days post-implantation",
+            "groups": "2 glucose/diabetes states x 2 tumour constructs x with/without metformin",
+            "endpoint": "tumour volume",
+            "result": "additional WT suppression in both host states; no significant mock suppression",
+            "n": "diabetic 5; nondiabetic 4-5",
+            "p": {
+              "diabetic_WT_drug_vs_no_drug": 0.048,
+              "nondiabetic_WT_drug_vs_no_drug": 0.0046
+            },
+            "independent_metformin_knockdown_result": "TET2 depletion removed drug-associated tumour suppression (ED9g,h n4-5)",
+            "limitations": [
+              "Pretreatment rather than established-tumour regression",
+              "Methods n6 differs from final n4-5; no-exclusions statement does not explain discrepancy",
+              "No systematic toxicity or developmental/function endpoint identified"
+            ],
+            "source": "Fig4; ED9; supplementary methods p14",
+            "pixels_viewed": true
+          },
+          {
+            "id": "MET-TUMOUR-MARKERS",
+            "model": "same xenografts",
+            "endpoint": "pAMPK and 5hmC IHC",
+            "result": "pAMPK increased WT and mock; 5hmC increased WT only",
+            "n": "4 slides represented; 10 random fields per group; not 10 animals",
+            "source": "ED10; supplementary methods pp15-16",
+            "pixels_viewed": true
+          }
+        ],
+        "separate_non_metformin_results": [
+          {
+            "intervention": "AMPK recombinant kinase / AMPKalpha2 knockdown / TET2 mutants",
+            "credit": "mechanistic support, not administered-metformin rescue"
+          },
+          {
+            "intervention": "A769662",
+            "credit": "100 micromolar 5hmC and 42%->73% TET2 remaining at 4h are this drug, not metformin"
+          },
+          {
+            "intervention": "TET2 expression in MDA-MB-231",
+            "credit": "genetic soft-agar comparison only; no shown metformin arm"
+          },
+          {
+            "intervention": "glucose/TET2 knockdown in TF-1",
+            "credit": "glucose/genetic proliferation tests, not metformin"
+          },
+          {
+            "intervention": "calpain inhibitor",
+            "credit": "~3.7fold S99A TET2 protein increase; no corresponding functional rescue shown"
+          }
+        ],
+        "normal_cell_evidence": {
+          "PBMC_HUVEC": "glucose-responsive endogenous TET2/pS99/5hmC, not administered-metformin tests",
+          "human": "observational diabetes-control PBMCs; n28/29, HPLC subset15/18, protein subset6; age/BMI confounding",
+          "human_treatment_trial": false
+        },
+        "bias_and_unknowns": {
+          "randomization": "reported for mice; random HPLC sample selection",
+          "blinding": "two blinded IHC pathologists; tumour volume blinding UNKNOWN",
+          "sample_accounting": "Methods n6/subgroup; final n4-5; reporting summary says no data excluded; unresolved",
+          "exposure": "authors note up to5mM in vitro vs approximately20micromolar human circulating; 250fold arithmetic comparison only",
+          "CHX_concentration": "UNKNOWN",
+          "metformin_molecular_assay_duration": "UNKNOWN",
+          "systematic_harm_assessment": "NOT_IDENTIFIED",
+          "long_term_survival_or_development": "NOT_TESTED_IN_REVIEWED_RECORD"
+        },
+        "patient_endpoint_status": {
+          "BUBR1_amount_or_stability": "NOT_MEASURED",
+          "mitotic_fidelity": "NOT_MEASURED",
+          "muscle_function": "NOT_MEASURED",
+          "patient_variant_response": "NOT_TESTED"
+        },
+        "nominee_comparison": "Retain favorable metformin/TET2 evidence independently. Niacin BUBR1 restoration remains unproven in task premise; apitegromab has different-disease function evidence. This paper supplies neither head-to-head superiority nor patient benefit.",
+        "reading_depth": {
+          "main_text": "COMPLETE",
+          "main_and_extended_legends": "COMPLETE",
+          "supplementary_information_22pages": "COMPLETE_TEXT; key methods pages6,14,15,17,18 visually checked",
+          "reporting_summary_2pages": "COMPLETE_TEXT; page1 visually checked",
+          "primary_pixels": [
+            "Fig1",
+            "Fig2",
+            "Fig3",
+            "Fig4",
+            "ED1",
+            "ED5",
+            "ED6",
+            "ED7",
+            "ED8",
+            "ED9",
+            "ED10"
+          ],
+          "uncropped_blot_supplement": "RETRIEVED_NOT_INSPECTED_IN_FULL",
+          "source_spreadsheets": "NOT_RETRIEVED",
+          "sequencing_reanalysis": "NOT_PERFORMED"
+        }
+      }
+    },
+    {
+      "pmid": "42019507",
+      "pmcid": "PMC13325914",
+      "decision_ids": [
+        "new-wy14643"
+      ],
+      "assessment": {
+        "agent": "Wy-14643 / pirinixic acid",
+        "pmid": "42019507",
+        "pmcid": "PMC13325914",
+        "doi": "10.1111/cpr.70214",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13325914/",
+        "reading_depth": {
+          "main_text": "complete Introduction, Results and Discussion",
+          "methods": "complete section 4",
+          "legends": "all main and supplement legends",
+          "figures_visually_inspected": [
+            "Figure 6",
+            "Supplementary Figure 1",
+            "Supplementary Figure 7"
+          ],
+          "supplement": "All DOCX text/legends and primer table read; S1 and S7 images inspected. Other supplement images not independently appraised."
+        },
+        "source_hashes": {
+          "main_xml": "ecc0636da584c70d30ad55a8edc5ed032eabf1e209d92cf65e3926916bdce76a",
+          "supplement_docx": "98e291fb7d31948d59d1dfe60d853df7cecaf288a8b0ea8797357d9557f725d6"
+        },
+        "drug_experiment": {
+          "species_strain_sex": "Male C57BL/6 mice",
+          "body_mass": "20–25 g",
+          "age": "Not reported",
+          "lesion": "70% partial hepatectomy, left lateral and median lobes resected",
+          "drug": "Pirinixic acid (Wy-14643)",
+          "dose": "50 mg/kg per administration",
+          "route": "Intraperitoneal",
+          "schedule": "Every 12 h, starting 24 h BEFORE PHx and continuing until 24 h after PHx; tissue collected at that endpoint.",
+          "sample_size": "n=3 treated; corresponding vehicle comparison, methods describe six additional animals for this comparison. Figure 6 states n=3; three lanes/dots per condition support n=3 each.",
+          "control": "Corresponding vehicle in PHx animals; vehicle formulation not specified in the retrieved methods.",
+          "randomization": "Explicit for separate 28-mouse kinetic experiment; pharmacological allocation not explicitly described as randomized.",
+          "blinding": "Not reported",
+          "statistics": "Mean±SE/SEM, at least three independent experiments; two-tailed unpaired t test. Figures use significance stars; no exact Wy effect sizes in text."
+        },
+        "positive_observations": [
+          {
+            "endpoint": "Cyclin D1, CDK1, Ki67 and PCNA staining",
+            "finding": "Figure 6A shows treatment-associated increases in regeneration/cell-cycle-associated staining, consistent with authors' stated pro-regenerative direction.",
+            "location": "Results 2.6; Figure 6A",
+            "limit": "Representative IHC; no treated-arm tissue-mass recovery or organ-function result and no numeric IHC effect size shown."
+          },
+          {
+            "endpoint": "ACSL1, FOXM1 and HIF1alpha protein abundance",
+            "finding": "Higher in Wy-treated regenerating liver; supporting densitometry in S7E.",
+            "location": "Figure 6B; S7E",
+            "n": "3/condition",
+            "quantitation": "From plotted bars only: approximately 1.35, 1.7 and 2.4 times normalized control, respectively. These are visual estimates, not raw-data estimates.",
+            "significance": "S7E labels ACSL1 *; FOXM1 **; HIF1alpha *. Paper defines * p≤0.05 and ** p≤0.01."
+          }
+        ],
+        "recovery_or_function": {
+          "drug_assigned_mass_recovery": "Not demonstrated in retrieved main figures or supplement.",
+          "drug_assigned_organ_function": "No treatment comparison of liver synthetic/metabolic function, liver enzymes, postoperative failure or survival is presented.",
+          "separate_positive_recovery": "S1A shows liver/body-weight recovery over 0–120 h following PHx, n=4/time point, in the model-characterization experiment. This must not be assigned to Wy.",
+          "separate_metabolic_measurements": "FFA/TG accumulation measured across PHx time points is not a direct Wy-versus-vehicle oxidation/flux or lipid-clearance measurement."
+        },
+        "mechanism_boundaries": [
+          "Bub1b is among mitotic transcripts elevated in regenerating hepatocyte clusters. FOXM1 targeting is inferred from databases and correlated in HCC data; no Wy-induced BUBR1 protein/half-life, localization, checkpoint competence or segregation fidelity is measured.",
+          "HuH7 HIF1alpha inhibition with BAY 87-2243 at figure-labeled 5 and 10 micrograms/mL reduces FOXM1; CDK1 protein reduction is supported at 10, not at the lower dose. Duration is not reported for these panels.",
+          "The HIF-inhibitor experiment is in transformed HuH7 cells and is not a Wy-plus-inhibitor epistasis/rescue test in the PHx animals.",
+          "Akt1/Akt2/Foxo1 knockout rescue and prior Ppara knockout/agonist studies are cited background, not genetic experiments performed here and not additional Wy efficacy.",
+          "No result is inherited by fenofibrate, another fibrate or another PPAR agonist."
+        ],
+        "normal_controls_and_toxicity": {
+          "normal_context": "Drug experiment uses non-tumor-bearing surgically injured mice. A separate sham/PHx kinetic comparison exists; no unoperated Wy-treated arm is shown.",
+          "cell_context": "Mechanistic cell work uses HuH7 hepatoma cells, with no primary quiescent hepatocyte validation in this paper.",
+          "toxicity": "No dedicated Wy toxicity, exposure, systemic growth, tumor-incidence or long-term survival assessment is presented.",
+          "interpretation": "Neither benefit nor harm to this patient can be inferred from increased proliferation. The paper itself discusses context-dependent PPARalpha/tumor biology."
+        },
+        "source_contradictions_and_gaps": [
+          "Results describe Wy administration following PHx, while methods specify pretreatment beginning 24 h before PHx. Use the methods schedule.",
+          "The abstract's improved recovery/clinical translation language exceeds the presented drug-assigned functional outcomes; preserve the measured staining/protein effects instead.",
+          "S7 legend uses stale main-figure references (e.g. Figure 7B for the Wy blot now in Figure 6B). Match image content and panel identity, not the stale number.",
+          "S7A blot labels Gef whereas its adjacent quantification labels Gef+AS; this separate mechanistic-panel labeling inconsistency is unresolved.",
+          "Vehicle composition, age, pharmacological randomization/blinding, exact IHC effect sizes and Wy exposure/pharmacokinetics are unreported."
+        ]
+      }
+    },
+    {
+      "pmid": "25564371",
+      "pmcid": "PMC4330055",
+      "decision_ids": [
+        "new-eplerenone"
+      ],
+      "assessment": {
+        "agent": "Eplerenone",
+        "pmid": "25564371",
+        "pmcid": "PMC4330055",
+        "doi": "10.1161/JAHA.114.001266",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4330055/",
+        "reading_depth": {
+          "main_text": "Complete Introduction, Results, Discussion",
+          "methods": "Complete Materials and Methods",
+          "legends": "All main figure legends",
+          "figures_visually_inspected": [
+            "Figure 4",
+            "Figure 5",
+            "Figure 6"
+          ],
+          "supplement": "Public media archive contains main figures; no supplementary method document listed in JATS or archive."
+        },
+        "source_hashes": {
+          "main_xml": "b6f8d08fdcf5bbc615eb4bc577add3a37b291ec2aad7b776d55ad503b4c8bd22"
+        },
+        "drug_experiment": {
+          "species_sex": "Male rats; strain not specified",
+          "age_at_surgery": "3 weeks",
+          "body_mass_at_surgery": "60±1 g",
+          "lesion": "Ascending thoracic aortic coarctation with a partially occluded Weck Hemoclip; sham procedure without clip.",
+          "drug": "Eplerenone, Sigma-Aldrich E6657",
+          "dose": "UNKNOWN: food concentration and mg/kg intake not reported in this paper.",
+          "route": "Incorporated in food, available ad libitum",
+          "schedule": "Animals sacrificed 3 months after the procedure. Exact first treatment day and interruptions are not specified; do not substitute the separate seven-day aldosterone regimen.",
+          "sample_sizes": {
+            "sham": 5,
+            "sham_plus_eplerenone": 4,
+            "TAC": 5,
+            "TAC_plus_eplerenone": 6
+          },
+          "control": "Sham and TAC, each with and without eplerenone. Sham drug arm showed no marked Ki67 change in Figure 6.",
+          "randomization": "Not reported",
+          "blinding": "Not reported",
+          "statistics": "Kruskal-Wallis with Holm-adjusted post-hoc comparisons; mean±SEM."
+        },
+        "positive_observations": [
+          {
+            "endpoint": "Cardiac Ki67 index",
+            "finding": "TAC increased Ki67 index by 61% versus sham; eplerenone returned it toward sham levels.",
+            "location": "Results: Endothelial Cell Proliferation in Heart Failure; Figure 6A",
+            "significance": "p<0.05 for TAC versus sham and TAC versus TAC+eplerenone",
+            "quantitation": "Visual bar estimates only: approximately 2.6%, 2.4%, 4.2%, 2.3% Ki67-positive nuclei for sham, sham+drug, TAC, TAC+drug. The +61% is reported in text; the four bar values are not exact raw data."
+          },
+          {
+            "endpoint": "Cell identity",
+            "finding": "Most Ki67-positive nuclei colocalized within caveolin-1-positive cells, supporting endothelial identity.",
+            "location": "Figure 6B",
+            "limit": "Cell-cycle marker and colocalization; not lineage tracing, endothelial cell accumulation, perfusion or organ function."
+          }
+        ],
+        "recovery_or_function": {
+          "drug_assigned_cardiac_function": "No ejection fraction, pressure-volume, contractility, exercise, perfusion or survival comparison is reported for eplerenone in this paper.",
+          "interpretation": "Suppression/normalization of excess endothelial cycling is established; functional benefit versus harm is unresolved and explicitly discussed as unknown by the authors."
+        },
+        "separate_interventions_not_to_transfer": [
+          {
+            "agent": "Aldosterone",
+            "model": "4-month-old male B6D2 mice",
+            "dose_route_time": "60 micrograms/kg/day osmotic infusion for 1 week or 4 weeks",
+            "n": "1 week control 6/aldosterone 9; 4 weeks 8/8; microarray 5/5",
+            "findings": "One week increased cardiac Ki67 by 300% and cell-cycle transcripts. Four weeks increased capillary density by 7% and Ki67 by 38%, without detected changes in measured blood pressure/body/heart weights. These observations belong to aldosterone, not eplerenone."
+          },
+          {
+            "agent": "Aldosterone and spironolactone",
+            "model": "Human umbilical vein endothelial cells",
+            "dose_route_time": "Aldosterone 10^-8 M with/without spironolactone 10^-6 M; 48–96 h",
+            "n": "6 wells/condition; independent donors/biological replication not specified",
+            "findings": "Aldosterone increased WST-1 signal at 96 h and spironolactone prevented this. WST-1 is a metabolic/viability-based proxy; this was not eplerenone."
+          },
+          {
+            "agent": "Aldosterone",
+            "finding": "Cardiac Bub1b transcript increased 2.47-fold (corrected p=0.0003) in the one-week microarray. No eplerenone-dependent BUBR1 protein or fidelity measurement is shown."
+          }
+        ],
+        "normal_controls_and_toxicity": {
+          "normal_control": "Sham+eplerenone group included; this is useful baseline cycling control, not a full toxicity study.",
+          "development": "Exposure model starts with juvenile rats; a blanket adult-only characterization would be incorrect. Developmental growth, muscle and patient-specific safety remain untested.",
+          "toxicity": "No eplerenone-specific potassium, renal function, exposure, growth, tumor or survival assessment is provided here.",
+          "interpretation": "Do not infer that suppressing proliferation is harmful or helpful without functional outcomes. Context-dependent angiogenesis examples in Discussion are literature background, not new outcomes of these animals."
+        },
+        "source_contradictions_and_gaps": [
+          "Abstract language does not specify the eplerenone species/time; full text identifies juvenile-start rats assessed after 3 months. The seven-day regimen is the separate mouse aldosterone arm.",
+          "Dose and precise eplerenone initiation are not recoverable from this paper. It cites an earlier model study, which was not pursued beyond this two-paper scope.",
+          "The text's claim that 494/14021 transcripts equals 0.04% is arithmetically inconsistent (approximately 3.5%); this affects descriptive enrichment wording, not the Figure 6 intervention result.",
+          "No functional cardiac benefit, BUBR1 restoration or chromosome-fidelity rescue is measured."
+        ]
+      }
+    },
+    {
+      "pmid": "24014875",
+      "pmcid": "PMC4346227",
+      "decision_ids": [
+        "new-bfgf-stromal-support",
+        "new-collagenase-matrix"
+      ],
+      "assessment": {
+        "pmid": "24014875",
+        "pmcid": "PMC4346227",
+        "doi": "10.4049/jimmunol.1203424",
+        "citation": "Mailloux AW et al. J Immunol. 2013;191:3578-3593.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4346227/",
+        "read_depth": "Complete main Introduction, Methods, Results and Discussion; all seven main-figure legends; all three main-table texts. Source is NCBI BioC representation of the author manuscript. Original figure panels and supplementary materials were not visually inspected.",
+        "model": "Retrospective LGL-leukemia marrow cohort and cultured patient-derived mesenchymal stromal cells supporting healthy donor hematopoietic progenitors.",
+        "cohort_context": {
+          "LGL_cases": 24,
+          "B_cell_malignancy_controls": 11,
+          "median_LGL_age_years": 66,
+          "severe_fibrosis": {
+            "numerator": 15,
+            "denominator": 24
+          },
+          "drug_treated_patients": 0
+        },
+        "intervention_arms": [
+          {
+            "name": "Exogenous basic fibroblast growth factor (bFGF; called FGFb in paper)",
+            "role": "Added protein/growth-factor treatment of primary stromal cultures, not gene overexpression or patient treatment",
+            "regimen": "20 ng/mL for 72 h before progenitor co-culture; repeated growth-curve supplementation at each passage is described, but its exact concentration is not specified in the read text/legend",
+            "sample_sizes": {
+              "secreted_factor_ELISA": "6 LGL and 6 normal MSC donors",
+              "growth_curve": "representative of 3 experiments and 3 donor pairs",
+              "collagen_quantification": "n=4 per condition",
+              "HPC_support": "n=4 iterations; independent donor pairing not fully specified"
+            },
+            "controls": [
+              "Untreated LGL MSCs",
+              "Normal donor MSCs",
+              "LIF as a separate growth-factor comparison in growth curves; did not restore proliferation",
+              "Collagenase pretreatment as a separate matrix-removal comparator"
+            ],
+            "outcomes": [
+              "Restored LGL MSC growth toward normal and spindle-like morphology.",
+              "Reduced type I, III and V collagen immunofluorescence.",
+              "Pretreated LGL MSCs improved the CFSE-derived proliferation index of healthy HPCs; text also reports increased fraction dividing and calls support only partially restored."
+            ],
+            "functional_credit": "Positive ex vivo stromal growth and progenitor-support evidence, beyond a transcript-only association.",
+            "not_established": [
+              "Clinical correction of cytopenias",
+              "Long-term repopulating stem-cell engraftment",
+              "Absolute viable output with preserved chromosome fidelity",
+              "Muscle repair or force",
+              "BUBR1 protein restoration"
+            ],
+            "locators": [
+              "BioC passages 59 and 212; Figure 7C-L"
+            ]
+          },
+          {
+            "name": "Collagenase (Worthington; preparation/type not specified)",
+            "role": "Ex vivo matrix-removal pretreatment; separate from bFGF",
+            "regimen": "20 U/mL in Methods; 60 U/mL in Results and Figures 4/5/7 legends. Pretreatment duration/washout not consistently specified.",
+            "controls": [
+              "Untreated LGL MSCs",
+              "Normal MSCs",
+              "Collagen-negative HS5 support line"
+            ],
+            "sample_size": "n=4 iterations in Figures 5 and 7",
+            "outcomes": [
+              "Restored healthy HPC proliferation index and division index over LGL MSCs.",
+              "Fraction dividing was not significantly lower over untreated LGL MSCs in the initial Figure 5 experiment; do not claim correction of every metric."
+            ],
+            "functional_credit": "Matrix-removal mechanism supported by an actual enzyme exposure in co-culture.",
+            "not_established": [
+              "An approved collagenase product identity",
+              "Systemic or local clinical dosing",
+              "Therapeutic tissue preservation in an animal or patient"
+            ],
+            "locators": [
+              "BioC passages 34, 53, 54, 208, 212; Figures 5 and 7"
+            ]
+          }
+        ],
+        "mechanistic_boundaries": [
+          "BUB1B/BUBR1 appears as a downregulated transcript in the LGL-versus-early-normal expression table, not as a bFGF-rescued protein measurement.",
+          "No causal BUB1B manipulation links the stromal rescue to the MVA checkpoint lesion.",
+          "Co-culture pretreatment is described, but the read text does not establish a rigorous washout or a direct-HPC bFGF control excluding growth-factor carryover.",
+          "Reduced excess collagen plus recovered proliferative support does not prove safe stimulation of damaged or aneuploid cells. Neither does it establish unavoidable cancer risk."
+        ],
+        "source_internal_discrepancies": [
+          {
+            "field": "collagenase concentration",
+            "methods": "20 U/mL",
+            "results_legends": "60 U/mL",
+            "resolution": "Unresolved; both retained."
+          },
+          {
+            "field": "HPC CD45 gate",
+            "methods": "CD34+CD45-negative CFSE-positive",
+            "results_legends": "CD45-positive CD34-positive",
+            "resolution": "Unresolved; dominant Results/legend description noted without silently correcting Methods."
+          },
+          {
+            "field": "culture timing",
+            "methods_results": "72 h stromal matrix deposition/preparation plus 7 days after adding labeled healthy cells",
+            "legends": "10-day co-culture",
+            "resolution": "Could reflect total preparation plus assay time, but not confirmed; use both descriptions."
+          },
+          {
+            "field": "MSC donor flow",
+            "methods": "11 cryopreserved donors described, 3 insufficient viability, 7 cultures established and 5 with no proliferation",
+            "results": "6 long-term MSC lines from 12 aspirates",
+            "resolution": "Inconsistent accounting; do not infer a single donor denominator. Individual figure n is preserved."
+          }
+        ],
+        "figure_limit": "Figures 5 and 7 were requested from standard PMC asset paths but returned 404 or a browser-check HTML document, not images. Figure legends were read; no panel bars, significance brackets or exact graph heights were independently extracted.",
+        "decision": "Retain bFGF as an ex vivo niche-restoration research-tool appraisal; retain collagenase as a separate matrix-mechanism probe rather than a clinical medicine nomination."
+      }
+    },
+    {
+      "pmid": "28937031",
+      "pmcid": "PMC5634075",
+      "decision_ids": [
+        "new-salbutamol-agrn-cms",
+        "new-ephedrine-agrn-cms"
+      ],
+      "assessment": {
+        "pmid": "28937031",
+        "pmcid": "PMC5634075",
+        "doi": "10.4103/0366-6999.215332",
+        "citation": "Zhang Y et al. Chin Med J (Engl). 2017;130:2279-2282.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5634075/",
+        "read_depth": "Complete main Introduction, Methods, Results and Discussion and all three main-figure legends from Europe PMC JATS. Embedded supplementary gene-panel table was available. Original figure panels were not visually inspected.",
+        "model": "Uncontrolled clinical report of three adult siblings with homozygous AGRN c.5302G>C (p.A1768P); reported ages 27, 29 and 31 years.",
+        "sample_size": 3,
+        "clinical_context": {
+          "proband_onset": "Overt fatigable lower-limb weakness at 21 years; earlier difficulty with high jump/running.",
+          "sister_II_2_onset": "Lower-limb weakness at age 7, upper-limb involvement at 9.",
+          "proband_baseline_MRC": "Proximal lower limb 4-/5; distal 4+/5 at age 25.",
+          "proband_RNS": "3 Hz tibialis-anterior decrement: 16% left, 18% right; 10 and 20 Hz not significantly changed.",
+          "oldest_sister": "Most affected; report states she did not undergo formal evaluation."
+        },
+        "intervention_arms": [
+          {
+            "name": "Pyridostigmine",
+            "regimen": "Dose and exact exposure not specified.",
+            "outcome": "Reported transient benefit during the first month followed by worsening.",
+            "limit": "Sequential uncontrolled treatment history, not a randomized comparison."
+          },
+          {
+            "name": "Ephedrine",
+            "regimen": "Dose and route not stated.",
+            "outcome": "Reported clear symptomatic improvement after 3 days; changed because it was difficult to obtain.",
+            "limit": "Individual patient-by-agent denominators and quantitative response timing not provided."
+          },
+          {
+            "name": "Salbutamol",
+            "regimen": "2 mg three times daily for more than 1 year in all three; route not explicitly stated.",
+            "outcome": "Similar reported effect to ephedrine and sustained movement status.",
+            "limit": "Uncontrolled treatment sequence; no quantified post-treatment strength scale, timed walk protocol, or formal safety dataset."
+          }
+        ],
+        "functional_outcome": {
+          "endpoint": "Walking distance of the most affected sister, II-1",
+          "before": "less than 50 m",
+          "after": "more than 500 m",
+          "source": "Results: Treatment and follow-up",
+          "credit": "Actual reported clinical locomotor benefit, not only a biomarker or predicted mechanism.",
+          "limitations": [
+            "Measured-versus-self-reported method is unstated.",
+            "No standardized 6-minute-walk protocol, assessor blinding, comparator or repeated numerical series.",
+            "The sentence says after treatment; the exact time and attribution to ephedrine versus the subsequent salbutamol phase are not separately resolved.",
+            "Do not convert the bounds into an exact percentage gain."
+          ]
+        },
+        "genetic_boundary": "The family segregation and predictions support the AGRN interpretation, but this paper did not functionally test A1768P protein or show drug correction of agrin clustering. No BUB1B intervention or genotype was studied.",
+        "safety_limit": "No structured adverse-event assessment, cardiac monitoring result or long-term safety denominator is reported; sustained use is not proof of safety.",
+        "figure_limit": "Figures 1-3 are pedigree, baseline pathology and Sanger traces, not treatment-response plots. All legends were read. The key pathology image request returned browser-check HTML, so no visual inspection is claimed.",
+        "decision": "Resolve the unnamed agonist lead to salbutamol and ephedrine. Add a qualified salbutamol clinical neuromuscular-compensation reserve; record ephedrine as the preceding short-latency response, not an independent controlled outcome."
+      }
+    }
+  ],
+  "external_provenance": [
+    {
+      "external_work_directory": "post-revalidation/protein-stability",
+      "assessment_file_sha256": {
+        "appraisal.md": "67db05e6ba64ca6fe90a09060ae4e92b15e7a287bc0ac16c7b37a758e178564a",
+        "evidence.json": "1a339d1b3a193b6145a71e14f46f16128481ba581bff85b6be8540da19b0c29f",
+        "source-manifest.json": "929f10164f2a8474f10a4ff1c5867bbd0af2f55a71827d6d9d6830c1e54b2a1b"
+      },
+      "source_manifest": {
+        "papers": [
+          {
+            "paper_directory": "cx4945",
+            "individual_manifest": "cx4945/source-manifest.json",
+            "individual_manifest_sha256": "3b925dfdc1bd654a558e1a22c86ffac9a06958b59be13d192dd9bd19a22e158b",
+            "sources": [
+              {
+                "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8163776/fullTextXML",
+                "file": "fulltext.xml",
+                "status": 200,
+                "bytes": 138340,
+                "sha256": "ca1d1296705be9913eb5a5432b952b88dbde86af5045041bc1be13c12c2b5625",
+                "validation": "Valid primary JATS; title and PMID confirmed",
+                "read_depth": "Complete main text, Methods and all main figure legends"
+              },
+              {
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8163776/",
+                "file": "page.html",
+                "status": 200,
+                "bytes": 21309,
+                "sha256": "04262649d17770048486550d25ea307ddd5162576522ec30145334cdb1ae263c",
+                "validation": "CAPTCHA interstitial; HTTP200 is not successful fulltext",
+                "read_depth": "not evidence"
+              },
+              {
+                "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC8163776/unicode",
+                "file": "bioc.json",
+                "status": 200,
+                "bytes": 100712,
+                "sha256": "6f3152cb4331ab3f82e67b81704aaa19186280b94af8f316659d07781c06e3b1",
+                "read_depth": "Retrieved; analysis used XML"
+              },
+              {
+                "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42003-021-02136-8/MediaObjects/42003_2021_2136_Fig3_HTML.png",
+                "file": "figure3.png",
+                "status": 200,
+                "bytes": 830526,
+                "sha256": "4a2d1b9db276eacf5699764b0ae49779be124dd31507a0d07b121d3cb1d48e2d",
+                "signature": "89504e470d0a1a0a",
+                "read_depth": "pixels inspected"
+              },
+              {
+                "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42003-021-02136-8/MediaObjects/42003_2021_2136_Fig4_HTML.png",
+                "file": "figure4.png",
+                "status": 200,
+                "bytes": 737870,
+                "sha256": "b03413faae62e41ff4fcf983f76d63f34be6f5db03cc82553a6fd3dcd86d915a",
+                "signature": "89504e470d0a1a0a",
+                "read_depth": "pixels inspected"
+              },
+              {
+                "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42003-021-02136-8/MediaObjects/42003_2021_2136_Fig5_HTML.png",
+                "file": "figure5.png",
+                "status": 200,
+                "bytes": 662120,
+                "sha256": "aa52b0c35b03cb1576fd5d6550963da541fd5035a1125d4e1682ebe8fb502cc8",
+                "signature": "89504e470d0a1a0a",
+                "read_depth": "pixels inspected"
+              },
+              {
+                "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42003-021-02136-8/MediaObjects/42003_2021_2136_Fig6_HTML.png",
+                "file": "figure6.png",
+                "status": 200,
+                "bytes": 816876,
+                "sha256": "c05dab1ea7167be1391d2963113e733c70cfcce50dd572ad0b17d6340361ada9",
+                "signature": "89504e470d0a1a0a",
+                "read_depth": "pixels inspected"
+              },
+              {
+                "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs42003-021-02136-8/MediaObjects/42003_2021_2136_MOESM1_ESM.pdf",
+                "file": "supplement1.pdf",
+                "status": "retrieval_failed",
+                "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+              },
+              {
+                "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs42003-021-02136-8/MediaObjects/42003_2021_2136_MOESM3_ESM.xlsx",
+                "file": "source-data.xlsx",
+                "status": "retrieval_failed",
+                "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+              },
+              {
+                "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8163776/supplementaryFiles",
+                "file": "supplementary-files.zip",
+                "status": 200,
+                "bytes": 4227930,
+                "sha256": "a5fd25721b481e82c31fc20e79ae2b0bd208d2b0ec3362f7fc1614b9cf72a8f1",
+                "signature": "504b030414000808"
+              },
+              {
+                "file": "42003_2021_2136_MOESM1_ESM.pdf",
+                "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8163776/supplementaryFiles",
+                "status": "validated",
+                "bytes": 1573216,
+                "sha256": "ab4d19c6639a53c62f7f9d4c0626a46bbe8af22131f9b4cdedbb9a1a3be41d14",
+                "read_depth": "All supplementary legends read; pages 5-6 inspected as pixels"
+              },
+              {
+                "file": "42003_2021_2136_MOESM3_ESM.xlsx",
+                "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8163776/supplementaryFiles",
+                "status": "validated",
+                "bytes": 2281195,
+                "sha256": "9572f6a5eaf4778e36825cca1abbf7d9ca2947dc04e39b7e8bc7d463892721a3",
+                "read_depth": "Targeted source sheets read; workbook unchanged"
+              },
+              {
+                "file": "full-maintext-legends.txt",
+                "url": "derived local extraction",
+                "status": "validated",
+                "bytes": 53048,
+                "sha256": "5795225d2ecb740367e2c4b110c1903e9c02ec24c95610aa43d7687ff5e36ffc",
+                "read_depth": "Derived extraction read completely"
+              },
+              {
+                "file": "supplement1-text.txt",
+                "url": "derived local extraction",
+                "status": "validated",
+                "bytes": 4055,
+                "sha256": "0b77c7d5b8fe7cf793d2b4754fc50853bfd6180de836421931b88ffbffdbbcdb",
+                "read_depth": "Derived extraction read completely"
+              },
+              {
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC8163776",
+                "status": "HTTP404",
+                "read_depth": "failed;not evidence"
+              }
+            ]
+          },
+          {
+            "paper_directory": "metformin",
+            "individual_manifest": "metformin/source-manifest.json",
+            "individual_manifest_sha256": "219b29f00b6121b4bc2c6bc69a45d4d4fd394b15d7bb2f4dfb19a50136668bde",
+            "sources": [
+              {
+                "file": "PMC6430198.xml",
+                "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6430198/fullTextXML",
+                "error": "HTTP Error 500: ",
+                "usable_source": false
+              },
+              {
+                "file": "epmc-metadata.json",
+                "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30022161&format=json",
+                "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30022161&format=json",
+                "status": 200,
+                "bytes": 1299,
+                "content_type": "application/json;charset=UTF-8",
+                "sha256": "5e4b5fc3504c9b383dd17c76d940380d66c98a572b8539a84153068f52bcd31a",
+                "retrieved_at": "2026-09-23T01:08:20.317544+00:00",
+                "usable_source": true,
+                "reading_depth": "Identifiers/title/metadata verified."
+              },
+              {
+                "file": "oa.xml",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC6430198",
+                "error": "HTTP Error 404: Not Found",
+                "usable_source": false
+              },
+              {
+                "file": "pmc-page.html",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6430198/",
+                "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6430198/",
+                "status": 200,
+                "bytes": 21309,
+                "content_type": "text/html; charset=utf-8",
+                "sha256": "7fc1d5b31a87617341894314f950fdee2a6b6c01828e9ad743ccde3a32b601b2",
+                "retrieved_at": "2026-09-23T01:08:20.774167+00:00",
+                "usable_source": false,
+                "reading_depth": "Browser challenge HTML; excluded as evidence."
+              },
+              {
+                "file": "efetch.xml",
+                "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6430198",
+                "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6430198",
+                "status": 200,
+                "bytes": 139083,
+                "content_type": "text/xml; charset=UTF-8",
+                "sha256": "e04bb96dda0c3363ac7f5630ed477098b97810620d2a4bc6265a5931474a0bee",
+                "retrieved_at": "2026-09-23T01:08:37.315308+00:00",
+                "usable_source": true,
+                "reading_depth": "Complete main text, all main/Extended Data captions, narrative/table captions; no supplementary spreadsheet cell read."
+              },
+              {
+                "file": "publisher.html",
+                "url": "https://www.nature.com/articles/s41586-018-0357-5",
+                "error": "HTTP Error 404: Not Found",
+                "usable_source": false
+              },
+              {
+                "file": "publisher.html",
+                "url": "https://www.nature.com/articles/s41586-018-0350-5",
+                "final_url": "https://www.nature.com/articles/s41586-018-0350-5?error=cookies_not_supported&code=d94f8bf2-e0e4-451b-ada5-3fc5eb537056",
+                "status": 200,
+                "bytes": 469209,
+                "content_type": "text/html; charset=utf-8",
+                "sha256": "f88f2a2bd8995026b7cd3b660f212b6eb3e8e91cf1083fefd6467065ecf048f0",
+                "retrieved_at": "2026-09-23T01:09:30.547596+00:00",
+                "usable_source": true,
+                "reading_depth": "Supplement and figure-source links inspected; primary content taken from PMC efetch."
+              },
+              {
+                "file": "fig3.jpg",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0003.jpg",
+                "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5db8/6430198/ca32744fbbe4/nihms-1012444-f0003.jpg",
+                "status": 200,
+                "bytes": 232009,
+                "content_type": "image/jpeg",
+                "sha256": "5c385fc370c94e1d19d177e45563ae148fb43c62d924b88c0d29d0d38e20af57",
+                "retrieved_at": "2026-09-23T01:09:28.954185+00:00",
+                "usable_source": true,
+                "reading_depth": "Primary figure pixels inspected; no digitized source-data extraction."
+              },
+              {
+                "file": "supplementary-information.pdf",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/NIHMS1012444-supplement-Supplementary_Information.pdf",
+                "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/NIHMS1012444-supplement-Supplementary_Information.pdf",
+                "status": 200,
+                "bytes": 1813,
+                "content_type": "text/html; charset=utf-8",
+                "sha256": "84bdacb5828e7192fcabee18a39eb53cbff87a0b10319fe45f536af305e42c20",
+                "retrieved_at": "2026-09-23T01:09:28.537607+00:00",
+                "usable_source": false,
+                "reading_depth": "HTML/challenge response, not the requested PDF/image; excluded as evidence."
+              },
+              {
+                "file": "publisher-supplement-1.pdf",
+                "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_MOESM1_ESM.pdf",
+                "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_MOESM1_ESM.pdf",
+                "status": 200,
+                "bytes": 565456,
+                "content_type": "application/pdf",
+                "sha256": "6f0b1b51d4278341d3073c2eb89ce19deb4e8e6ad55024e1fc058120e3bc9992",
+                "retrieved_at": "2026-09-23T01:10:33.192452+00:00",
+                "usable_source": true,
+                "reading_depth": "Complete 22-page text; rendered pages6,14,15,17,18 visually checked."
+              },
+              {
+                "file": "publisher-supplement-2.pdf",
+                "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_MOESM2_ESM.pdf",
+                "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_MOESM2_ESM.pdf",
+                "status": 200,
+                "bytes": 74009,
+                "content_type": "application/pdf",
+                "sha256": "25e734acdf708aa286c2c36d253554b20218433d7c5763e26a60dad22a46282e",
+                "retrieved_at": "2026-09-23T01:10:32.050551+00:00",
+                "usable_source": true,
+                "reading_depth": "Complete 2-page text; rendered page1 visually checked."
+              },
+              {
+                "file": "publisher-supplement-3.pdf",
+                "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_MOESM3_ESM.pdf",
+                "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_MOESM3_ESM.pdf",
+                "status": 200,
+                "bytes": 3010917,
+                "content_type": "application/pdf",
+                "sha256": "ed22ea450de94894e1325dd28384175fc4d86cafcb1d383b11eb83f02e02b762",
+                "retrieved_at": "2026-09-23T01:10:43.629313+00:00",
+                "usable_source": true,
+                "reading_depth": "Retrieved and text-extracted, not inspected in full; no uncropped-blot certification."
+              },
+              {
+                "file": "fig1.jpg",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0001.jpg",
+                "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0001.jpg",
+                "status": 200,
+                "bytes": 21397,
+                "content_type": "text/html; charset=utf-8",
+                "sha256": "d397ed90730ec7a1713403c7f9c89214633e9500bf8bc30e2b3aac6bf86b50b9",
+                "retrieved_at": "2026-09-23T01:10:31.944906+00:00",
+                "usable_source": false,
+                "reading_depth": "HTML/challenge response, not the requested PDF/image; excluded as evidence."
+              },
+              {
+                "file": "fig2.jpg",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0002.jpg",
+                "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0002.jpg",
+                "status": 200,
+                "bytes": 21397,
+                "content_type": "text/html; charset=utf-8",
+                "sha256": "9b37a0df0e9255ba31115c7434f461f54c27d2628f9632b778bff577ad202cf7",
+                "retrieved_at": "2026-09-23T01:10:31.944358+00:00",
+                "usable_source": false,
+                "reading_depth": "HTML/challenge response, not the requested PDF/image; excluded as evidence."
+              },
+              {
+                "file": "fig4.jpg",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0004.jpg",
+                "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0004.jpg",
+                "status": 200,
+                "bytes": 21397,
+                "content_type": "text/html; charset=utf-8",
+                "sha256": "99d6d1c08c2dde9995fe6f12b8b93bbbb4a19f5a4d65b28e4d4fa1174a8fd97b",
+                "retrieved_at": "2026-09-23T01:10:31.947639+00:00",
+                "usable_source": false,
+                "reading_depth": "HTML/challenge response, not the requested PDF/image; excluded as evidence."
+              },
+              {
+                "file": "fig5.jpg",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0005.jpg",
+                "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0005.jpg",
+                "status": 200,
+                "bytes": 21396,
+                "content_type": "text/html; charset=utf-8",
+                "sha256": "e26cb30c293f6241da07c4d9b3869f905e1fdbefaf29cfbd3f2e74bad8992b54",
+                "retrieved_at": "2026-09-23T01:10:32.202780+00:00",
+                "usable_source": false,
+                "reading_depth": "HTML/challenge response, not the requested PDF/image; excluded as evidence."
+              },
+              {
+                "file": "fig9.jpg",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0009.jpg",
+                "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0009.jpg",
+                "status": 200,
+                "bytes": 21395,
+                "content_type": "text/html; charset=utf-8",
+                "sha256": "740489a9eb5f3243db13836eeeb27a1a6c6b2cd4deebf13c2d0c58bb55a8846f",
+                "retrieved_at": "2026-09-23T01:10:32.193019+00:00",
+                "usable_source": false,
+                "reading_depth": "HTML/challenge response, not the requested PDF/image; excluded as evidence."
+              },
+              {
+                "file": "fig10.jpg",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0010.jpg",
+                "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0010.jpg",
+                "status": 200,
+                "bytes": 21395,
+                "content_type": "text/html; charset=utf-8",
+                "sha256": "312576348d77f20cd3f5635e0ae4ec66bbee3b45e6b0e876726191a4def38942",
+                "retrieved_at": "2026-09-23T01:10:32.186772+00:00",
+                "usable_source": false,
+                "reading_depth": "HTML/challenge response, not the requested PDF/image; excluded as evidence."
+              },
+              {
+                "file": "fig11.jpg",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0011.jpg",
+                "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0011.jpg",
+                "status": 200,
+                "bytes": 21396,
+                "content_type": "text/html; charset=utf-8",
+                "sha256": "e0616175125b0416ff45901566929562e9f5f67815f64a2d8d2ff293d6587fa2",
+                "retrieved_at": "2026-09-23T01:10:32.294239+00:00",
+                "usable_source": false,
+                "reading_depth": "HTML/challenge response, not the requested PDF/image; excluded as evidence."
+              },
+              {
+                "file": "fig12.jpg",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0012.jpg",
+                "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0012.jpg",
+                "status": 200,
+                "bytes": 21398,
+                "content_type": "text/html; charset=utf-8",
+                "sha256": "d9d5dd6389bac5e87b0d5550403a285a2a7f195ec81c36d5fa2e4c30fe179a79",
+                "retrieved_at": "2026-09-23T01:10:32.450266+00:00",
+                "usable_source": false,
+                "reading_depth": "HTML/challenge response, not the requested PDF/image; excluded as evidence."
+              },
+              {
+                "file": "fig13.jpg",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0013.jpg",
+                "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0013.jpg",
+                "status": 200,
+                "bytes": 21397,
+                "content_type": "text/html; charset=utf-8",
+                "sha256": "850b0707733e212d08363b610c5c704f980b5d093753ec811a8840f1acdc5df0",
+                "retrieved_at": "2026-09-23T01:10:32.459337+00:00",
+                "usable_source": false,
+                "reading_depth": "HTML/challenge response, not the requested PDF/image; excluded as evidence."
+              },
+              {
+                "file": "fig14.jpg",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0014.jpg",
+                "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/6430198/bin/nihms-1012444-f0014.jpg",
+                "status": 200,
+                "bytes": 21397,
+                "content_type": "text/html; charset=utf-8",
+                "sha256": "ef6f54d0294ca15422a62f8e234850278988aa2081a75bdb386accfc6de43043",
+                "retrieved_at": "2026-09-23T01:10:32.450733+00:00",
+                "usable_source": false,
+                "reading_depth": "HTML/challenge response, not the requested PDF/image; excluded as evidence."
+              },
+              {
+                "file": "publisher-figure10.html",
+                "url": "https://www.nature.com/articles/s41586-018-0350-5/figures/10",
+                "bytes": 185734,
+                "sha256": "e13a36eafc1b518d677194065fa98e816fb047d28341c537aaf67c71f9feebff",
+                "retrieved_at": "2026-09-23T01:11:01.986125+00:00",
+                "usable_source": true,
+                "reading_depth": "Source-image URL located."
+              },
+              {
+                "file": "publisher-fig1.png",
+                "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig1_HTML.png",
+                "final_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig1_HTML.png",
+                "status": 200,
+                "bytes": 316169,
+                "content_type": "image/png",
+                "sha256": "67dddd499d3601ef9afc80bb1fa949ee5b5e4d77c3a33645195200c41c5d60f4",
+                "retrieved_at": "2026-09-23T01:11:36.384655+00:00",
+                "usable_source": true,
+                "reading_depth": "Primary figure pixels inspected; no digitized source-data extraction."
+              },
+              {
+                "file": "publisher-fig2.png",
+                "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig2_HTML.png",
+                "final_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig2_HTML.png",
+                "status": 200,
+                "bytes": 222271,
+                "content_type": "image/png",
+                "sha256": "41bfa1b0d0289926fdb484845a79da422745ddfc5af6ab6c73e267ff221cf9e6",
+                "retrieved_at": "2026-09-23T01:11:36.821961+00:00",
+                "usable_source": true,
+                "reading_depth": "Primary figure pixels inspected; no digitized source-data extraction."
+              },
+              {
+                "file": "publisher-fig4.png",
+                "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig4_HTML.png",
+                "final_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig4_HTML.png",
+                "status": 200,
+                "bytes": 280793,
+                "content_type": "image/png",
+                "sha256": "67cb42ed387472d24da7c179ce93be2bec5d8f9e84dabe457016cc579adcb4b6",
+                "retrieved_at": "2026-09-23T01:11:36.696897+00:00",
+                "usable_source": true,
+                "reading_depth": "Primary figure pixels inspected; no digitized source-data extraction."
+              },
+              {
+                "file": "publisher-ed1.jpg",
+                "url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig5_ESM.jpg",
+                "final_url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig5_ESM.jpg",
+                "status": 200,
+                "bytes": 407377,
+                "content_type": "image/jpeg",
+                "sha256": "ef7d36b2863abd38697ad1b8270067b18c6df04a2b062fa4400d95f6e34a7313",
+                "retrieved_at": "2026-09-23T01:11:37.308822+00:00",
+                "usable_source": true,
+                "reading_depth": "Primary figure pixels inspected; no digitized source-data extraction."
+              },
+              {
+                "file": "publisher-ed5.jpg",
+                "url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig9_ESM.jpg",
+                "final_url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig9_ESM.jpg",
+                "status": 200,
+                "bytes": 364345,
+                "content_type": "image/jpeg",
+                "sha256": "37cfc1a469b15cacddb0d04782ac96685d09d7c0b47b98c96e97b3b2114b698c",
+                "retrieved_at": "2026-09-23T01:11:36.697096+00:00",
+                "usable_source": true,
+                "reading_depth": "Primary figure pixels inspected; no digitized source-data extraction."
+              },
+              {
+                "file": "publisher-ed6.jpg",
+                "url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig10_ESM.jpg",
+                "final_url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig10_ESM.jpg",
+                "status": 200,
+                "bytes": 254617,
+                "content_type": "image/jpeg",
+                "sha256": "e5c1c5b203871d28879bea713409dc6b8fc4dc5139f4e1193190f19f75efce0b",
+                "retrieved_at": "2026-09-23T01:11:37.184864+00:00",
+                "usable_source": true,
+                "reading_depth": "Primary figure pixels inspected; no digitized source-data extraction."
+              },
+              {
+                "file": "publisher-ed7.jpg",
+                "url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig11_ESM.jpg",
+                "final_url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig11_ESM.jpg",
+                "status": 200,
+                "bytes": 508896,
+                "content_type": "image/jpeg",
+                "sha256": "355db4e4ca9fc030d418b5092c020b66a9b361cbb3112fb94de7999bede23193",
+                "retrieved_at": "2026-09-23T01:11:38.431800+00:00",
+                "usable_source": true,
+                "reading_depth": "Primary figure pixels inspected; no digitized source-data extraction."
+              },
+              {
+                "file": "publisher-ed8.jpg",
+                "url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig12_ESM.jpg",
+                "final_url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig12_ESM.jpg",
+                "status": 200,
+                "bytes": 520579,
+                "content_type": "image/jpeg",
+                "sha256": "587732dead8246c90ab515b572ab274830c6d479ad42d4b181eebcef983cd7a4",
+                "retrieved_at": "2026-09-23T01:11:38.102460+00:00",
+                "usable_source": true,
+                "reading_depth": "Primary figure pixels inspected; no digitized source-data extraction."
+              },
+              {
+                "file": "publisher-ed9.jpg",
+                "url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig13_ESM.jpg",
+                "final_url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig13_ESM.jpg",
+                "status": 200,
+                "bytes": 381619,
+                "content_type": "image/jpeg",
+                "sha256": "9f8d23f504dfe7b681ddb56b0e0d9067f2a19abfcc93af44fa0259c35b8e357b",
+                "retrieved_at": "2026-09-23T01:11:39.553945+00:00",
+                "usable_source": true,
+                "reading_depth": "Primary figure pixels inspected; no digitized source-data extraction."
+              },
+              {
+                "file": "publisher-ed10.jpg",
+                "url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig14_ESM.jpg",
+                "final_url": "https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0350-5/MediaObjects/41586_2018_350_Fig14_ESM.jpg",
+                "status": 200,
+                "bytes": 571380,
+                "content_type": "image/jpeg",
+                "sha256": "926652224afbfbbfbf08c9efd3a7307c0630f5fcf9295b1921c337d7157c26a2",
+                "retrieved_at": "2026-09-23T01:11:39.916876+00:00",
+                "usable_source": true,
+                "reading_depth": "Primary figure pixels inspected; no digitized source-data extraction."
+              }
+            ]
+          }
+        ],
+        "scope": "Only the two named primary papers, attached supplementary material and primary metadata; failed/challenge responses explicitly excluded from evidence",
+        "read_depth_details": [
+          "cx4945/appraisal.md",
+          "metformin/appraisal.md"
+        ],
+        "repository_mutations": false
+      }
+    },
+    {
+      "external_work_directory": "post-revalidation/organ-repair",
+      "assessment_file_sha256": {
+        "appraisal.md": "07517e0513165a93e91003803d9c15f74a7af3e7cfb43fe712a24babcac0c1db",
+        "evidence.json": "9aa558e0ab8a992419f076324fa23dd57e797acaa940c15d63cb39453d622742",
+        "source-manifest.json": "ed3a761a6ce450f9d81eeddacc9a4631954e8b6977289f42dbc14a3b07a15b24"
+      },
+      "source_manifest": {
+        "manifest_time_utc": "2026-09-23T01:14:51.657801+00:00",
+        "scope": "Lawful public copies of two PMC primary papers. Browser CAPTCHA was not solved or bypassed; public literature-distribution APIs were used. Raw article data remains outside Git.",
+        "sources": [
+          {
+            "file": "wy-pmc.xml",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13325914/fullTextXML",
+            "description": "PMC primary article JATS via public EuropePMC distribution",
+            "license": "CC BY 4.0",
+            "bytes": 135707,
+            "sha256": "ecc0636da584c70d30ad55a8edc5ed032eabf1e209d92cf65e3926916bdce76a",
+            "acquisition": "HTTP 200"
+          },
+          {
+            "file": "wy-pubmed.xml",
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42019507&retmode=xml",
+            "description": "PubMed record",
+            "license": "PubMed metadata",
+            "bytes": 32891,
+            "sha256": "8ad5a11ccab0ed0022339d5467231bfa5d8ba71ef687ceb44891f6460bcfd37a",
+            "acquisition": "HTTP 200"
+          },
+          {
+            "file": "wy-supplementary.zip",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13325914/supplementaryFiles",
+            "description": "PMC article figure/supplement archive via public EuropePMC distribution",
+            "license": "CC BY 4.0",
+            "bytes": 16123216,
+            "sha256": "72aba77309dfe6911f86567eb16f9b78fb3faf6efa502d342ad1495984d3a781",
+            "acquisition": "HTTP 200"
+          },
+          {
+            "file": "eplerenone-pmc.xml",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4330055/fullTextXML",
+            "description": "PMC primary article JATS via public EuropePMC distribution",
+            "license": "CC BY-NC; see article permissions",
+            "bytes": 128244,
+            "sha256": "b6f8d08fdcf5bbc615eb4bc577add3a37b291ec2aad7b776d55ad503b4c8bd22",
+            "acquisition": "HTTP 200"
+          },
+          {
+            "file": "eplerenone-pubmed.xml",
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=25564371&retmode=xml",
+            "description": "PubMed record",
+            "license": "PubMed metadata",
+            "bytes": 23924,
+            "sha256": "9084ded6045d6fe6046e72c0b74de20887c2f76458341114dd7a27e4e0704dc5",
+            "acquisition": "HTTP 200"
+          },
+          {
+            "file": "eplerenone-supplementary.zip",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4330055/supplementaryFiles",
+            "description": "PMC article figure archive via public EuropePMC distribution",
+            "license": "CC BY-NC; see article permissions",
+            "bytes": 877470,
+            "sha256": "167a3a85b4f1c2fc7b0a68f1a4eeed94cd3b7116f9c1705f0f2857352f434ff5",
+            "acquisition": "HTTP 200"
+          }
+        ],
+        "unavailable_routes": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13325914/",
+            "result": "Browser CAPTCHA; no bypass attempted"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4330055/",
+            "result": "Browser CAPTCHA; no bypass attempted"
+          },
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC13325914",
+            "result": "HTTP 404"
+          },
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC4330055",
+            "result": "HTTP 404"
+          }
+        ],
+        "derived_files": [
+          {
+            "file": "wy-maintext.txt",
+            "bytes": 70454,
+            "sha256": "05d9019ece15c3531317b94d272b80c6cea1b266df7a5bd49af2b788d19748f1",
+            "derivation": "Text extracted from source XML/DOCX, or original archive member extracted without content editing."
+          },
+          {
+            "file": "eplerenone-maintext.txt",
+            "bytes": 51154,
+            "sha256": "7ea391cb16483558447efb95be2cb6cf00664098d1d0484aef0fc4ae13721017",
+            "derivation": "Text extracted from source XML/DOCX, or original archive member extracted without content editing."
+          },
+          {
+            "file": "wy-supplement-text.txt",
+            "bytes": 3270,
+            "sha256": "ddc6fd7ec2717cf6c4b08f0101a78bad004aa6353f36237b5c1b2f1f75115ff6",
+            "derivation": "Text extracted from source XML/DOCX, or original archive member extracted without content editing."
+          },
+          {
+            "file": "wy-files/CPR-59-e70214-g003.webp",
+            "bytes": 170376,
+            "sha256": "6ade95803e7b9ce975b2d7675775a2f1a609426db4becd21d8b7f3f15a6efedf",
+            "derivation": "Text extracted from source XML/DOCX, or original archive member extracted without content editing."
+          },
+          {
+            "file": "wy-files/CPR-59-e70214-s001.docx",
+            "bytes": 14863902,
+            "sha256": "98e291fb7d31948d59d1dfe60d853df7cecaf288a8b0ea8797357d9557f725d6",
+            "derivation": "Text extracted from source XML/DOCX, or original archive member extracted without content editing."
+          },
+          {
+            "file": "wy-supplement-images/image1.tiff",
+            "bytes": 8869242,
+            "sha256": "ba800bd2c148f55be292b095c8e8d9260f663ed5884f33df31542befa40bddd4",
+            "derivation": "Text extracted from source XML/DOCX, or original archive member extracted without content editing."
+          },
+          {
+            "file": "wy-supplement-images/image7.tiff",
+            "bytes": 3742266,
+            "sha256": "0aa5bfbfb591bd8db88641a5a79c4aa063b746df1fdaba59df2815553dc94115",
+            "derivation": "Text extracted from source XML/DOCX, or original archive member extracted without content editing."
+          },
+          {
+            "file": "eplerenone-files/jah3-4-e001266-g4.jpg",
+            "bytes": 284004,
+            "sha256": "2acea82cf2d2a6a207f7fb1bef78aee36807fc4eef6dc5af30629a51768c639e",
+            "derivation": "Text extracted from source XML/DOCX, or original archive member extracted without content editing."
+          },
+          {
+            "file": "eplerenone-files/jah3-4-e001266-g5.jpg",
+            "bytes": 96772,
+            "sha256": "ee2798b0da40add76f8172f597575dbf05e19e9bc62053f63bee87e08d604121",
+            "derivation": "Text extracted from source XML/DOCX, or original archive member extracted without content editing."
+          },
+          {
+            "file": "eplerenone-files/jah3-4-e001266-g6.jpg",
+            "bytes": 124870,
+            "sha256": "149b3a9e4b055d879589c94efc1eb4a98c11c5062a13be8e508a8d7186880ee3",
+            "derivation": "Text extracted from source XML/DOCX, or original archive member extracted without content editing."
+          }
+        ]
+      }
+    },
+    {
+      "external_work_directory": "post-revalidation/stromal-neuromuscular",
+      "assessment_file_sha256": {
+        "appraisal.md": "3b71f70a90cb8e8b3adee1e721832efa194b3d5da3509efcc02e312feb395895",
+        "evidence.json": "a9614c538c49525ff411d28a654fd6b3cd9995c6cf4932205bd3e2e52a767c68",
+        "source-manifest.json": "710b4de8fd162cd8a588e501a5163dad2eac6ebe6656780246ef253a4f7057ff"
+      },
+      "source_manifest": {
+        "date": "2026-09-22",
+        "scope_pmids": [
+          "24014875",
+          "28937031"
+        ],
+        "successful_primary_sources": [
+          {
+            "pmid": "24014875",
+            "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4346227/unicode",
+            "file": "raw/PMC4346227-bioc.xml",
+            "format": "BioC XML, complete main text and figure/table captions",
+            "access": "Public NCBI text API; author manuscript; not an open-access licensing claim"
+          },
+          {
+            "pmid": "28937031",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5634075/fullTextXML",
+            "file": "raw/PMC5634075.xml",
+            "format": "JATS XML",
+            "license": "CC BY-NC-SA 3.0, stated in source; copyright Chinese Medical Journal 2017",
+            "access": "Public Europe PMC full-text API"
+          }
+        ],
+        "failed_access_summary": [
+          "PMC article and image pages returned browser verification or inaccessible responses. No CAPTCHA was solved or bypassed.",
+          "Europe PMC website requests returned 403. The bFGF fullTextXML endpoint returned HTTP 500.",
+          "Standard PMC image endpoints returned 404 or HTML browser checks, not valid images."
+        ],
+        "figure_reading_status": {
+          "PMC4346227": "Seven legends read; no actual figure panels inspected.",
+          "PMC5634075": "Three legends read; no actual figure panels inspected."
+        },
+        "supplement_status": {
+          "PMC4346227": "Separate supplementary figures and donor tables not obtained/read.",
+          "PMC5634075": "Embedded gene-panel table available in JATS; no additional supplemental source claimed."
+        },
+        "source_notice_status": "No current independent correction/retraction search was performed in this bounded two-paper qualification.",
+        "raw_files": [
+          {
+            "file": "raw/PMC4346227-F5.jpg.response",
+            "bytes": 21382,
+            "sha256": "80f01ee58e857a55c5e014d6578d53816c8a62feb42d911c431348822cd2f850",
+            "kind": "browser_challenge_not_source"
+          },
+          {
+            "file": "raw/PMC4346227-F7.jpg.response",
+            "bytes": 21382,
+            "sha256": "0b5ab87afdec1bf2b3f23565d45d6a571bdf9c6fb467882485bc5df5cfb0a445",
+            "kind": "browser_challenge_not_source"
+          },
+          {
+            "file": "raw/PMC4346227-bioc.xml",
+            "bytes": 221756,
+            "sha256": "26c00dbdc560eca93ffcd66b0ec406512cb167321b0e75953a704c50a6ae15c4",
+            "kind": "source_or_source_metadata"
+          },
+          {
+            "file": "raw/PMC4346227-maintext-legends-tables.txt",
+            "bytes": 66169,
+            "sha256": "aca55d85002cff4cfb44449617c9532289f83195d3bd5a7b1dc79eca470e6b8c",
+            "kind": "derived_reading_text"
+          },
+          {
+            "file": "raw/PMC4346227-passages.json",
+            "bytes": 190600,
+            "sha256": "5b91befbcaa341293c5327bda8e912b4e583b5c47b6446f0f0277306a746b21e",
+            "kind": "derived_reading_text"
+          },
+          {
+            "file": "raw/PMC5634075-F2.jpg.response",
+            "bytes": 21391,
+            "sha256": "28ba54ab73178b732ae8ed5e5c1b936ae0e3e3d1e65c33bdef7ede31cc312f5e",
+            "kind": "browser_challenge_not_source"
+          },
+          {
+            "file": "raw/PMC5634075-maintext.txt",
+            "bytes": 14280,
+            "sha256": "cf5ae4c8971431c914eb130a9692abcb3401a777033c4570322e1c094b2d57c0",
+            "kind": "derived_reading_text"
+          },
+          {
+            "file": "raw/PMC5634075.xml",
+            "bytes": 81725,
+            "sha256": "c0b98a31c7e9a8ecb33ff5de397bbe2c9990948c34a093e4b36aa1cb7a72b5f9",
+            "kind": "source_or_source_metadata"
+          },
+          {
+            "file": "raw/metadata-24014875.json",
+            "bytes": 14382,
+            "sha256": "00014a88e93c3cfc9ac9eebc3091f23fbfb63ae0f875c46723fc2a9cb344cd7b",
+            "kind": "source_or_source_metadata"
+          },
+          {
+            "file": "raw/metadata-28937031.json",
+            "bytes": 10265,
+            "sha256": "d7ec9903def563b7a3e5b891db4348b0e4be8665e3a177420ddd0ca17b5893f5",
+            "kind": "source_or_source_metadata"
+          },
+          {
+            "file": "raw/retrieval-log-bioc.json",
+            "bytes": 351,
+            "sha256": "c0e5e6a9dd03b54e44386c707097639185e473b6f7a91dd138e0b0c5e3e9c023",
+            "kind": "retrieval_log"
+          },
+          {
+            "file": "raw/retrieval-log-figures.json",
+            "bytes": 411,
+            "sha256": "ee8114889be904f1feeec55597924c03680005d7448a5c13cf7f2f76245096a8",
+            "kind": "retrieval_log"
+          },
+          {
+            "file": "raw/retrieval-log-instance-figures.json",
+            "bytes": 1597,
+            "sha256": "3eb8d294b476990cc0f8e4ef6136db0ab23fccfde3956eac5c6a140d40c2794a",
+            "kind": "retrieval_log"
+          },
+          {
+            "file": "raw/retrieval-log.json",
+            "bytes": 868,
+            "sha256": "075bd83df44a4b19b68fd16a991062d7bcd6102f6a421a465a687af6acef9f38",
+            "kind": "retrieval_log"
+          }
+        ]
+      }
+    }
+  ],
+  "comparison": "No source establishes MVA efficacy. Retain positive interventions independently of niacin/apitegromab; no head-to-head superiority or new clinical-approval claim is made."
+}

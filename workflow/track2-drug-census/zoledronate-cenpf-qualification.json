@@ -1,0 +1,351 @@
+{
+  "date": "2026-09-23",
+  "source": {
+    "pmid": "20015195",
+    "pmcid": "PMC3922372",
+    "doi": "10.1111/j.1582-4934.2009.00995.x",
+    "title": "The kinetochore protein Cenp-F is a potential novel target for zoledronic acid in breast cancer cells",
+    "online_date": "2009-12-08",
+    "print_issue": "2011 March, 15(3):501–513",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3922372/",
+    "lawful_author_copy": "https://eprints.whiterose.ac.uk/id/eprint/86805/7/WRRO_86805.pdf"
+  },
+  "question": {
+    "batch15_index": 122,
+    "original_unfiltered_index": 4883,
+    "text": "Which intermediate/doses reverse zoledronic-acid CENP-F loss, and how do cancer cytotoxicity and normal-cell segregation outcomes compare?",
+    "assessment": "Directly answers intermediate identities/doses and reported normal-cell comparisons; quantitative normal-cell/cytotoxicity comparisons remain unavailable because relevant results were not shown and no complete fidelity-rescue experiment was performed.",
+    "fully_resolved": false
+  },
+  "model": {
+    "type": "In vitro cell lines only",
+    "tumor_lines": [
+      "MDA-MB-436",
+      "MDA-MB-231",
+      "MCF-7"
+    ],
+    "normal_comparator": "Nonmalignant MCF-10A cell line; not primary normal tissue, a donor panel or an MVA model.",
+    "culture_difference": "Cancer lines RPMI-1640+10% fetal calf serum; MCF-10A different DMEM/HAM-F12 medium, horse serum, insulin, EGF and hydrocortisol. Treatment uptake and growth-rate causation were not measured.",
+    "animals_or_patients_treated": false
+  },
+  "identities": [
+    {
+      "proposed_id": "new-zoledronic-acid-cenpf",
+      "name": "Zoledronic acid, source hydrated disodium salt",
+      "source_identity": "[2-(imidazol-1-yl)-hydroxy-ethylidene-1,1-bisphosphonic acid, disodium salt, 4.5 hydrate]",
+      "supplier": "Novartis Pharma AG, gift",
+      "stock": "10 mM in PBS, stored −20°C",
+      "catalog_or_CAS_reported": null,
+      "purity_reported": null,
+      "role": "Experimental perturbation of CENP-F localization and chromosome alignment",
+      "identity_limit": "Do not equate every formulation or clinical exposure to this cultured-cell salt regimen."
+    },
+    {
+      "proposed_id": "new-trans-trans-farnesol",
+      "name": "trans,trans-farnesol",
+      "source_identity": "Explicit (E,E)-3,7,11-trimethyl-2,6,10-dodecatrien-1-ol",
+      "supplier": "Sigma-Aldrich",
+      "storage": "Room temperature",
+      "stock_vehicle_or_formulation_reported": null,
+      "catalog_or_CAS_reported": null,
+      "purity_reported": null,
+      "role": "Direct partial rescue of zoledronic-acid-induced CENP-F delocalization",
+      "identity_limit": "Source specifies the E,E isomer. Do not silently assign its result to unspecified farnesol mixtures, FPP or generic isoprenoids.",
+      "suggested_source_exact_aliases": [
+        "trans,trans-farnesol",
+        "trans-trans farnesol",
+        "(E,E)-farnesol"
+      ]
+    },
+    {
+      "proposed_id": "new-trans-geranylgeraniol-source",
+      "name": "Source-labelled trans-geranylgeraniol",
+      "source_identity": "trans-3,7,11–15-tetramethyl-2,6,10,14-hexadecatetraen-1-ol, as printed",
+      "supplier": "Sigma-Aldrich",
+      "storage": "−20°C",
+      "stock_vehicle_or_formulation_reported": null,
+      "catalog_or_CAS_reported": null,
+      "purity_reported": null,
+      "role": "Same-dose nonsignificant CENP-F rescue comparison; higher-dose reversal reported without displayed data",
+      "identity_limit": "The printed trans label does not enumerate every double-bond configuration. No verified all-trans assignment or transfer to GGPP/GGOH mixtures.",
+      "suggested_source_exact_aliases": [
+        "trans-geranylgeraniol"
+      ]
+    },
+    {
+      "proposed_id": "new-clodronate-cenpf-control",
+      "name": "Clodronate, source disodium tetrahydrate",
+      "source_identity": "Dichloromethylene bisphosphonate disodium tetrahydrate",
+      "supplier": "Leiras Oy",
+      "stock": "50 mM in distilled water, stored 4°C",
+      "catalog_or_CAS_reported": null,
+      "purity_reported": null,
+      "role": "Non-nitrogen bisphosphonate negative control, result not shown",
+      "identity_limit": "An experimental comparator null in one localization assay; not a general efficacy or safety assessment."
+    }
+  ],
+  "exposures": [
+    {
+      "agent": "Zoledronic acid",
+      "dose_uM": [
+        0,
+        10,
+        25
+      ],
+      "schedule": "1, 4, 6, 8 or 24 h exposures; Figures 3/5 captions say these are followed by incubation in medium up to 48 h, or describe 48 h continuous exposure. The exact cancer-cell pulse-to-assay mapping is not specified; do not infer 48 h total or an immediate 4–8 h time-to-effect. Figure 2 explicitly uses 10 µM for 24 h followed by 24 h drug-free. Separately, the MCF-10A Results explicitly state incubation to a total of 48 h. Main prose sometimes abbreviates the cancer schedule as 24 h treatment.",
+      "models": [
+        "MDA-MB-436",
+        "MDA-MB-231",
+        "MCF-7"
+      ]
+    },
+    {
+      "agent": "Zoledronic acid",
+      "dose_uM": [
+        0,
+        4,
+        6,
+        10,
+        25
+      ],
+      "schedule": "48 h continuous",
+      "models": [
+        "MDA-MB-436"
+      ],
+      "outcomes": [
+        "CENP-F localization",
+        "chromosome misalignment"
+      ]
+    },
+    {
+      "agent": "Zoledronic acid",
+      "dose_uM": 25,
+      "schedule": "8 or24 h then drug-free to48 h, or48 h continuous",
+      "models": [
+        "MCF-10A"
+      ],
+      "outcomes": [
+        "CENP-F localization",
+        "mitotic phase distribution"
+      ],
+      "displayed_data": false
+    },
+    {
+      "agent": "Farnesol or geranylgeraniol plus zoledronic acid",
+      "dose_uM": {
+        "zoledronic_acid": 25,
+        "FOH_or_GGOH": [
+          50,
+          100
+        ]
+      },
+      "schedule": "Concurrent48 h; not delayed repair after established injury",
+      "model": "MDA-MB-436",
+      "controls": [
+        "Untreated RPMI+10%FCS",
+        "FOH/GGOH alone at both doses",
+        "Zoledronic acid alone"
+      ],
+      "endpoint": "Percentage of selected pro/pro/meta-phase cells with punctate CENP-F kinetochore localization"
+    },
+    {
+      "agent": "Geranylgeraniol plus zoledronic acid",
+      "dose_uM": {
+        "zoledronic_acid": 25,
+        "GGOH": 150
+      },
+      "schedule": "In same rescue-results context; no separate timing/raw protocol for high-dose observation",
+      "displayed_data": false
+    },
+    {
+      "agent": "Clodronate",
+      "dose_uM": 500,
+      "schedule": "48 h",
+      "model": "MDA-MB-436",
+      "displayed_data": false
+    }
+  ],
+  "outcomes": {
+    "FOH_positive": {
+      "figure": "6A",
+      "ZA_alone_localized_cells_percent": 16.7,
+      "ZA_plus_50uM_FOH_percent": 49.2,
+      "ZA_plus_100uM_FOH_percent": 60.0,
+      "reported_P_vs_ZA_alone": "<0.01 for both",
+      "untreated": "Approximately90% in graph; approximate visual context only, not raw-data reconstruction",
+      "interpretation": "Direct compound-specific partial restoration of protein localization in a drug-perturbed cancer line. Both combinations numerically below untreated; a rescue-versus-untreated P is not reported.",
+      "FOH_alone": "No significant localization effect versus control reported at50/100 µM"
+    },
+    "GGOH_mixed": {
+      "figure": "6B",
+      "50_100uM_with_ZA": "Explicit ns native brackets versus ZA alone; increases in plotted means do not establish a significant effect.",
+      "150uM_with_ZA": "Authors report reversal, data not shown; no effect size/variance/exactP supplied.",
+      "GGOH_alone": "No significant localization effect versus control reported at50/100 µM",
+      "prohibited_inference": "No class-wide or all-dose GGOH null."
+    },
+    "ZA_localization": {
+      "figures": "2–4",
+      "endpoint": "Fraction of scored mitotic cells showing CENP-F puncta; not total protein amount or fraction of individual kinetochores.",
+      "three_cancer_lines": "Localization reduced with10/25 µM exposures; Fig3 marked within-dose contrasts vary by line and time.",
+      "lower_dose_48h_MDA436": {
+        "control_percent": 90.0,
+        "6uM_percent": 59.2,
+        "reported_P": "<0.05",
+        "4uM": "No significant effect marked/reported; exact text Table1 says below4µM but tested nonzero low dose was4µM."
+      },
+      "protein_total_RNA_farnesylation_assay": false
+    },
+    "ZA_mitosis": {
+      "figure": "5",
+      "all_mitotic_cells": "Significant early-phase fraction increases limited to MDA43625µM48h, MDA23110µM24h, MCF710µM24h; other conditions not universally positive.",
+      "CENPF_negative_subset": "More early-phase cells lacking CENP-F localization after ZA; endpoint partly conditions on the localization response.",
+      "limit": "Fixed-cell phase fractions, not direct single-cell transit times or completed division."
+    },
+    "ZA_alignment": {
+      "figure": "7",
+      "MDA43648h": {
+        "control_percent": 0.3,
+        "10uM_percent": 4.7,
+        "25uM_percent": 7.3,
+        "reported_P": [
+          "<0.05",
+          "<0.001"
+        ]
+      },
+      "definition": "Misaligned chromosomes outside prometaphase/metaphase plates among scored mitotic cells without kinetochore CENP-F; caption calls these lagging chromosomes.",
+      "tripolar": "Representative morphology shown, but increase nonsignificant at every tested dose. Staining is DAPI/CENP-F, not a direct tubulin assay.",
+      "not_measured": [
+        "Anaphase daughter-cell chromosome count",
+        "Aneuploidy/karyotype",
+        "Long-term colony/survival",
+        "FOH/GGOH correction of alignment or spindle defects"
+      ]
+    },
+    "MCF10A_nulls": {
+      "localization_mitosis": "No change reported under25µM schedules, data not shown.",
+      "alignment_spindle": "No effect reported in repeated alignment experiment, data not shown; numerical group values/P absent.",
+      "limits": "One nonmalignant cell line in different medium; no matched viability/functional-safety panel. No normal-cell FOH/GGOH rescue study."
+    },
+    "cytotoxicity": "Preliminary data-not-shown: no apoptosis effect in MDA436 at25µM72h or MCF7 at25µM48h. No assay description/numerical viability data supplied and no quantitative MDA231/MCF10A death comparison. The title/discussion anticancer mechanism is not a demonstrated cancer-killing/tumor-regression endpoint here.",
+    "clodronate": "500µM48h did not alter CENP-F localization in MDA436; data not shown."
+  },
+  "causality_and_BUB1B": {
+    "BUBR1_measured": false,
+    "BUB1B_RNA_measured": false,
+    "CENPF_direct_binding_or_total_depletion_proven": false,
+    "CENPF_farnesylation_directly_assayed": false,
+    "gene_specific_epistasis_or_mutant_rescue_performed": false,
+    "bridge": "BubR1 occurs in introduction/discussion and references about kinetochore assembly/SAC after CENP-F silencing. Those genetic studies are not drug measurements in this paper.",
+    "mechanistic_value": "FOH rescue plus clodronate comparator support mevalonate/prenylation involvement; do not isolate CENP-F as the sole causal target. Source itself discusses CENP-E/lamin B/other prenylated targets."
+  },
+  "replication_and_statistics": {
+    "figures": "Mean±SEM of3 experiments",
+    "localization_scoring": "Methods:40 pro/pro/meta-phase cells scored as punctate CENP-F at kinetochore or not. Individual experiment values/cell allocation not provided.",
+    "alignment_scoring": "100 mitotic cells per drug concentration stated; caption3 experiments. Treat experiment as inferential unit, not300 independent biological replicates.",
+    "statistics": "Two-way ANOVA+Bonferroni for dose/time series; one-way ANOVA+Dunnett for a single exposure time. Fig6 comparison brackets versus ZA-alone.",
+    "randomization_blinding": "Not reported",
+    "raw_data_or_P_reproduced": false
+  },
+  "exposure_and_availability_limits": {
+    "source_exposure_context": "Authors note10–25µM sustained cultures exceed cited human plasma1–2µM after an infusion; even the6µM48h localization finding is not evidence of clinical exposure equivalence. This is source historical context, not current dosing advice.",
+    "vehicle": "ZA PBS stock and clodronate water stock explicit; final carrier fractions/matched solvent-only control and FOH/GGOH solvents/purity/catalog numbers not specified.",
+    "current_market_or_regulatory_check_performed": false,
+    "food_or_supplement_equivalence_established": false,
+    "human_or_MVA_benefit_established": false
+  },
+  "competitive_assessment": "Retain trans,trans-farnesol as valuable direct protein-localization rescue evidence and source-labelled trans-geranylgeraniol as dose-dependent evidence with an unshown high-dose positive. Neither demonstrates BUBR1 restoration, chromosome-fidelity rescue or useful normal-tissue function. ZA is a mechanistic cancer-cell perturbation, not a restoration lead here. These limits do not prove inferiority, safety or clinical harm; provisional niacin/apitegromab also remain unproven for MVA.",
+  "source_status": {
+    "date": "2026-09-23",
+    "urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3922372/",
+      "https://pubmed.ncbi.nlm.nih.gov/20015195/"
+    ],
+    "direct_open": "Browser-check pages; no bypass attempted. Search-indexed metadata accessible.",
+    "exact_DOI_query": "\"10.1111/j.1582-4934.2009.00995.x\" correction retraction",
+    "finding": "No linked notice surfaced; obtained Europe PMC core/XML have no correction/retraction link; Crossref relation is empty and no update-to/updated-by field. Bounded check, not a guarantee of absence."
+  },
+  "reading_scope": {
+    "main": "Complete scientific main, all captions and Table1 via5 endmarked untruncated parts; reference list separately inpart6; front abstract/permissions separately.",
+    "native_figures": "All7 main figures, comprising12 JPEG assets, viewed; native Table1 PDFpage12 and MethodsPDFpage3/Fig5PDFpage9 inspected.",
+    "supplements": "The official supplementaryFiles ZIP contains 24 main-figure JPEG/GIF assets only. No separate supplement is referenced in the full XML or present in this ZIP; no claim to have read a nonexistent/unretrieved supplement.",
+    "other_primaries": "None read; reference list does not create cited-source credit.",
+    "new_unique_or_outer_abstract_credit": 0,
+    "reviewer_performed_biological_replication": false
+  },
+  "source_hashes": {
+    "main.xml": "f20ae133e134c080b8f9f16d667d2f6b6dbbb761bcfd34d251fc3b02fecfc2b8",
+    "author-copy.pdf": "2105d33fc4b483ee1bd561deabead5be5c75dfcf18b8a75b2028a21e67e09d34",
+    "metadata.json": "4962f5b10367dae19375329984454de3b2a87493d72d37201c88a341c385c3d5",
+    "supplementary-assets.zip": "ad059fc8fcb2debe63b3e7477cee62482e2873604d9532a94468c8556ef87cfd",
+    "crossref.json": "40da6df5d0fcd35c0d6df4d8c69c1122be7c9e063e41fdc653466770306f899f"
+  },
+  "manifests": {
+    "retrieval-manifest.json": "19f425befb7052ec28ce5626634a89f08db81619f8ce14dd7e26ec17c13f174f",
+    "reading-manifest.json": "2975c9f3cf4ac840b77ac26738bdfebdcb82118872ee2814dd16558b95d74eb2",
+    "asset-manifest.json": "8f2235fd636d71f47d0435a1319aaad10a2078c51025db90ad4a12b893ef1d9a"
+  },
+  "source_reviewer_status": "EXTERNAL_SOURCE_QUALIFICATION_PENDING_ROOT_INTEGRATION",
+  "source_reviewer_ledger_check": {
+    "repo_head": "32c1db986e6f5728947a59e39d547183f686f2b9",
+    "count": 207,
+    "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
+    "exact_source_or_named_intervention_hits": [],
+    "scope": "Case-insensitive exact source/name-stem scan of current decoded decisions, plus qualification/reconciliation search; no claim that absence from the ledger means absence from catalogs or literature."
+  },
+  "source_reviewer_proposed_integration": {
+    "automatic_appraisal_count": 0,
+    "existing_refinements": [],
+    "new_identity_candidates": [
+      "new-zoledronic-acid-cenpf",
+      "new-trans-trans-farnesol",
+      "new-trans-geranylgeraniol-source"
+    ],
+    "additional_tested_control_candidate": "new-clodronate-cenpf-control; optional source-scoped null-control appraisal, never positive efficacy credit",
+    "catalog_joins": "Not forced or run. No reported chemical CAS/catalog identifiers; source-confirmed identities remain separate from catalog-name cross-references.",
+    "reconciliation": "Only Batch15n122 is addressed; retain original question/flag and unresolved quantitative comparison limits. Root decides integration."
+  },
+  "status": "INTEGRATED_SOURCE_QUALIFICATION",
+  "root_admission_pending": false,
+  "repository_integrated": true,
+  "qualification_md_sha256": "7290d8e1bf0f009966dbf5314f10f9d6e4f5de269ae3be513c27e00e920d8fec",
+  "integration": {
+    "baseline_commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
+    "baseline_appraisals": 207,
+    "current_appraisals": 212,
+    "all207_prior_objects_unchanged": true,
+    "integrated_ids": [
+      "new-zoledronic-acid-cenpf",
+      "new-trans-trans-farnesol",
+      "new-trans-geranylgeraniol-source",
+      "new-clodronate-cenpf-control"
+    ],
+    "source_candidate_json_sha256": "692aeffa20417874d1bcc1af28c3d22ad3944f193b43cb3b8a3897d71ae9a776",
+    "independent_json_sha256": "34fec20907c2ac3ebdee7c058a418d5a25f5cd29fdf34df13cbbf62d52941cdd",
+    "independent_md_sha256": "31a0a270b8b5b44a5e1ed6cb3c2f5a71cee584452a963d6642175fc09a8c664b",
+    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/terpenoid-kalanchoe-integration-20260923/root-reading.json",
+    "root_reading_sha256": "1f9215934332c74e8af6939dedccc709a301bc6e96ef22fa7847759a84cd86cc",
+    "reading_scope": {
+      "text_outputs": [
+        "7500bf",
+        "e81a60",
+        "c9af60"
+      ],
+      "complete_sections": [
+        "All Materials and methods",
+        "All Results sec10-sec13 with captions",
+        "Table1"
+      ],
+      "selected_sections": [
+        "Two relevant Discussion paragraphs"
+      ],
+      "images_viewed": [
+        "assets/jcmm0015-0501-f6.jpg",
+        "assets/jcmm0015-0501-f7a.jpg",
+        "renders/table1-page12.png"
+      ],
+      "source_qualification_sha256": "692aeffa20417874d1bcc1af28c3d22ad3944f193b43cb3b8a3897d71ae9a776",
+      "findings": "Partial E,E-farnesol CENP-F localization rescue; higher-dose GGOH reported unshown; no compound-driven BUBR1, fidelity or useful-normal-function result."
+    },
+    "new_outer_credit": 0
+  }
+}

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An offline explorer of retained, assumption-based cell-population simulations. Compare chromosome-normal fraction with absolute tissue output.">
+  <title>Cell selection and tissue output</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow"><span class="dot"></span> A COMPUTATIONAL EXPLAINER <span class="offline">OFFLINE · RETAINED RESULTS</span></div>
+    <h1>Cell selection<br>and tissue output</h1>
+    <p class="intro">A larger chromosome-normal fraction can accompany less tissue output. Explore why a change in the surviving population does not, by itself, establish functional rescue.</p>
+    <p class="scope">An assumption-based population model. These are aggregate cell compartments, not tracked family trees, patient forecasts or drug-response predictions.</p>
+  </header>
+
+  <section class="workspace" aria-label="Interactive scenario comparison">
+    <aside class="controls panel">
+      <div class="section-number">01 / SET THE ASSUMPTIONS</div>
+      <h2>Explore a retained scenario</h2>
+      <p class="muted">Four choices from the original grid. Every setting below is assumed, not measured in a patient.</p>
+      <label for="renewal">Cell renewal</label>
+      <select id="renewal"><option value="true">Renewing progenitor pool</option><option value="false">No renewing progenitors</option></select>
+      <label for="division">Abnormal-cell division rate</label>
+      <select id="division"></select><span class="hint">Relative to chromosome-normal progenitors.</span>
+      <label for="error">Chromosome-error probability</label>
+      <select id="error"></select><span class="hint">An assumed chance per division in this model.</span>
+      <label for="duration">Observation horizon</label>
+      <select id="duration"></select><span class="hint">Arbitrary model-time units; not days.</span>
+      <div class="rule"></div>
+      <label for="arm">Hypothetical intervention</label>
+      <select id="arm">
+        <option value="selective_aneuploid_killing">Selective abnormal-cell killing</option>
+        <option value="functional_error_reduction">Reduce chromosome errors</option>
+        <option value="stress_protection">Protect abnormal cells from stress</option>
+        <option value="growth_slowing_only">Slow division only</option>
+        <option value="growth_slowing_and_less_senescence">Slow division + less senescence</option>
+        <option value="selective_senescent_removal">Remove senescent cells</option>
+        <option value="senescent_removal_with_offtarget_loss">Remove senescent cells + off-target loss</option>
+        <option value="untreated">Untreated reference</option>
+      </select>
+      <p id="arm-description" class="arm-description"></p>
+      <div class="buttons"><button id="reset" type="button">Reset example</button><button id="download" class="primary" type="button">Save scenario JSON <span aria-hidden="true">↓</span></button></div>
+      <p class="hint">Runs locally. No uploads or network requests.</p>
+    </aside>
+
+    <div class="results" aria-live="polite" aria-atomic="true">
+      <div class="result-heading"><div class="section-number">02 / READ BOTH OUTCOMES</div><span id="scenario-label" class="tag"></span></div>
+      <h2 id="interpretation">A better fraction can accompany less output</h2>
+      <div class="metric-grid">
+        <article class="metric fraction"><h3>Chromosome-normal fraction</h3><div class="big-number" id="fraction-change"></div><p id="fraction-values"></p><span class="hint">Among all surviving cells at the endpoint.</span></article>
+        <article class="metric output"><h3>Accumulated differentiated-cell output</h3><div class="big-number" id="output-change"></div><p id="output-values"></p><span class="hint">Raw differentiated-cell time, without function weights.</span></article>
+      </div>
+      <section class="panel chart-panel" aria-label="Absolute output and cell counts">
+        <h3>Keep the absolute quantities in view</h3>
+        <p class="muted chart-note">Each pair uses a shared scale starting at zero. Fraction and output measure different things.</p>
+        <div class="chart-title">Accumulated differentiated-cell output <span>cell × model-time units</span></div>
+        <div id="output-bars" class="bars"></div>
+        <div class="rule"></div>
+        <div class="chart-title">Surviving cell population <span>modeled cell counts</span></div>
+        <div class="legend"><span><i class="normal"></i>Chromosome-normal</span><span><i class="abnormal"></i>Abnormal</span></div>
+        <div id="cell-bars" class="bars"></div>
+        <p class="hint">Counts include progenitor, differentiated and senescent compartments. All retain the modeled constitutional genotype; chromosome-normal does not mean genetically corrected.</p>
+      </section>
+      <section class="reading-note"><span aria-hidden="true">↳</span><p id="reading"></p></section>
+    </div>
+  </section>
+
+  <section class="methods panel">
+    <div class="section-number">03 / CHECK WHAT THE MODEL COUNTS</div>
+    <h2>A transparent comparison, with fixed assumptions</h2>
+    <p>This explorer looks up <strong>192 retained results</strong>: 24 scenarios × eight intervention arms. It performs no new simulation, interpolation or fitting. Untreated and intervention results always share the same starting assumptions and horizon.</p>
+    <details>
+      <summary>Absolute results and optional function weighting</summary>
+      <div class="table-scroll"><table><caption>Selected scenario compared with its untreated reference</caption><thead><tr><th scope="col">Quantity</th><th scope="col">Untreated</th><th scope="col">Selected arm</th></tr></thead><tbody id="result-table"></tbody></table></div>
+      <p class="hint">Weighted output integrates (D<sub>E</sub> + 0.5D<sub>A</sub> + 0.25S) / (1 + S/2000). These function weights and the impairment term are assumptions, not measurements of muscle strength. Raw output integrates D<sub>E</sub> + D<sub>A</sub>.</p>
+    </details>
+    <details>
+      <summary>Fixed assumptions and interpretation limits</summary>
+      <p>Every displayed scenario begins with 4,000 cells: 20% chromosome-abnormal and 25% senescent. The renewing scenario starts with 800 progenitors; the nonrenewing scenario starts with none. Initial senescence, senescence-associated impairment (1), senescent function (0.25), abnormal-cell function (0.5), crowding capacity (2,000), senescent niche weight (0), and the off-target fraction (0.02) stay fixed in this explorer.</p>
+      <p>State changes describe aggregate progenitor, differentiated and senescent populations. Individual pedigrees, chromosome-specific changes, tumors, systemic pharmacology and muscle mechanics are outside the model. A higher chromosome-normal fraction can result from differential loss or growth. It does not establish correction of existing cells.</p>
+      <p>The baseline model and stored intervention effects are fully defined in <a href="../population.py">population.py</a>. The full grid and limitations are in the <a href="../README.md">model documentation</a>. No named drug is assigned to an intervention arm.</p>
+    </details>
+    <details>
+      <summary>Reproduce this view and inspect provenance</summary>
+      <p>From the repository root, run <code>python3 workflow/track2-model/explorer/build_data.py</code> to regenerate the portable data from the retained results. Open this page directly afterward; no server or installation is required to use it.</p>
+      <p>The export includes both complete result rows, all chosen and fixed assumptions, and source hashes. Numerical checks in the source establish computational consistency, not biological validation.</p>
+      <p class="hash-label">Retained result SHA-256</p><code id="source-hash" class="hash"></code>
+      <p><a href="../population-results.json">Retained source results</a> · <a href="README.md">Explorer documentation</a></p>
+    </details>
+  </section>
+  <footer>Cell selection and tissue output <span>Open the assumptions. Compare the outcomes.</span></footer>
+  <noscript><p>This explorer needs JavaScript enabled locally. The retained results and model documentation remain available in the links above.</p></noscript>
+</main>
+</body>
+</html>

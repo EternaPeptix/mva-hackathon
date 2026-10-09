@@ -1,0 +1,143 @@
+{
+  "title": "Glycine plus N-acetylcysteine: human muscle evidence with an unresolved randomized functional contrast",
+  "date": "2026-09-23",
+  "decision": "retain substantive combination-specific human metabolic and functional-trajectory reserve; no demonstrated BUBR1 restoration or nominee replacement",
+  "sources": [
+    {
+      "pmid": "35975308",
+      "pmcid": "PMC9879756",
+      "doi": "10.1093/gerona/glac135",
+      "registry": "NCT01870193",
+      "scientific_main_read_complete": true,
+      "supplement_text_read_complete": true,
+      "cohort": "24 older randomized (12/12), 12 young separate uncontrolled; week16 active11/placebo12",
+      "exposure": "glycine100 mg/kg/day + NAC100 mg/kg/day for16 weeks vs alanine200 mg/kg/day",
+      "positive": "Measured muscle GSH and within-arm grip/gait/chair-rise improvements",
+      "critical_limit": "Methods plans OAP16 versus OAG16 functional test, but numeric contrast P/CI and interaction inference are not supplied in examined main/supplement. Within-arm significance cannot establish between-arm benefit.",
+      "nulls": [
+        "six-minute rapid walk within-active P=.053",
+        "lean mass and fat mass nonsignificant",
+        "HRQoL and glucose-tolerance improvement not demonstrated",
+        "native GCLM, pAMPK/AMPK, ATP5A, LC3AB and POT1 comparisons nonsignificant"
+      ],
+      "statistical_limits": [
+        "Holm correction within each measure, not across all outcomes",
+        "small sample and sex imbalance",
+        "protein analysis three participants/group",
+        "aging-hallmark analyses added exploratory after trial completion",
+        "no explicit ITT/PP estimand or sensitivity analysis; one active withdrawal after two weeks",
+        "no off-treatment durability established in this RCT"
+      ]
+    },
+    {
+      "pmid": "35821844",
+      "pmcid": "PMC9261343",
+      "doi": "10.3389/fragi.2022.852569",
+      "registry": "NCT05041179",
+      "scientific_main_read_complete": true,
+      "supplement_text_read_complete": true,
+      "cohort": "117 older randomized,114 completed;20 young untreated reference; distinct German cohort",
+      "exposure": "2.4/4.8/7.2 g/day total1:1 glycine+NAC for14 days vs7.2g/day isomaltulose; lower arms contain balancing isomaltulose",
+      "primary": "Hematocrit-normalized whole-blood total GSH: three active-versus-placebo P=.904/.934/.278",
+      "positive": "Post hoc baseline-adjusted blood glycine response at4.8/7.2g; selected subgroup within-active GSH signal",
+      "critical_limit": "Abstract mislabels active-subgroup baseline819.7 as placebo; Results/Fig4C identify819.7→905.4,P=.016 as paired active change. No between-arm-change or subgroup interaction result supplied.",
+      "physical_function": "Not measured/reported; no function null claimed",
+      "within_arm_exceptions": [
+        "low-dose GSH-T Pc=.045",
+        "low-dose GSH-F Pc=.014",
+        "placebo ratio Pc=.040"
+      ],
+      "conflict": "Safety prose middle dose3.6g versus supplement4.8g; preserve actual assigned4.8g"
+    }
+  ],
+  "BUB1B": {
+    "specific_RNA_assay_identified": false,
+    "specific_protein_assay_identified": false,
+    "specific_function_assay_identified": false,
+    "scope": "Complete scientific mains and supplements examined, not undisclosed/raw-omics absence proof",
+    "chromosome_fidelity_measured": false,
+    "limits": [
+      "pH2AX/8OHdG are damage markers, not karyotype/fidelity",
+      "bulk PAX7 does not track stem renewal",
+      "p16 decrease does not demonstrate senolytic clearance",
+      "PINK1 abundance does not establish flux",
+      "SIRT3 is not SIRT2"
+    ]
+  },
+  "identity": {
+    "combination_only": true,
+    "component_alone_arms": false,
+    "existing_NAC_prior28_unchanged": true,
+    "not_synergy_proof": true,
+    "no_arbitrary_retail_equivalence": true
+  },
+  "registry_scope": {
+    "current_only": true,
+    "history_read": false,
+    "separate_final_SAP_obtained": false,
+    "results_sections_present": false,
+    "limits": [
+      "NCT01870193 primary muscleGSH differs from publication power calculation based on RBCGSH",
+      "NCT05041179 first posted after study completion",
+      "NCT05041179 enrollment128 conflicts with paper117 randomized/137 including reference young"
+    ]
+  },
+  "safety": {
+    "2023": "No attributed supplement adverse events; ALT/AST/creatinine nonsignificant; other nominal lab changes exist. Small selected short study.",
+    "2022": "No severe events or attributed discontinuation; one highBP withdrawal without demonstrated causation; ALP mid/high higher judged clinically unimportant by authors."
+  },
+  "competition": "Visible metabolic/function reserve; stronger design than a generic antioxidant rationale. Apply the same within-arm causal caution to niacin open-label strength evidence. No gene-specific restoration, pediatric primary function or MVA ordering established; retain provisional nominees without claiming superiority.",
+  "portable_data": "glynac-muscle-outcomes.json",
+  "baseline": {
+    "head": "fb8b26a6dfebe8ba89d2c914e31d8f7cb2380990",
+    "count": 228,
+    "existing_combination_decisions": [],
+    "existing_component_id": "prior-28",
+    "input_hashes": {
+      "decisions.json": "a074b274a960ae53641022c80f7349d14631deac92f4e79e2dc010b35bbd9110",
+      "catalog.tsv": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299",
+      "aliases.tsv": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3",
+      "dsld-ingredients/normalized-aliases.tsv": "1c73e968134b907167ca212586630dd5e68d8a054eb069d2c27401accbde50c7"
+    },
+    "no_monotherapy_transfer": true,
+    "snapshot_type": "committed HEAD and working decisions bytes identical",
+    "committed_head_assessment_count": 228,
+    "preserved_component_id": "prior-28"
+  },
+  "no_new_global_or_outer_reading_credit": true,
+  "source_reviewer_status": "source qualification; external optional proposal only",
+  "source_reviewer_no_repo_changes": true,
+  "source_reviewer_reading_manifest": "worker-reading-manifest.json",
+  "status": "INTEGRATED_WITH_EXACT_INTERVENTION_AND_SOURCE_DEPTH_LIMITS",
+  "qualification_md": "glynac-muscle-qualification.md",
+  "qualification_md_sha256": "53d363e3272ad4e6044b38d8367742969e047213e77790482cb6f3c71bbd0e79",
+  "reading_manifest": {
+    "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glynac-muscle-primary-followup-20260923/worker-reading-manifest.json",
+    "sha256": "e4b51ace898d6fe19a022fc71f92caac5f4316bee4346b081f8b03a3eec4c96d",
+    "scope": "Source-reviewer reading and source assets, retained outside Git; root and independent scopes are separately attributed."
+  },
+  "integration": {
+    "baseline": "fb8b26a6dfebe8ba89d2c914e31d8f7cb2380990",
+    "baseline_assessments": 228,
+    "current_assessments": 230,
+    "prior_decision_objects_unchanged": 228,
+    "new_decision_ids": [
+      "new-glynac"
+    ],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glynac-muscle-primary-followup-20260923/glynac-muscle-qualification.json",
+      "sha256": "adf316a8d820dc7e8d0f73f9302cb86ec40c222eae783a7c7343ddfda05b9497"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glynac-caffeine-integration-20260923/root-reading.json",
+      "sha256": "214556dd72d9f935a43b8a75e6c0d543355130faed63e865ca283fa6fd4ce099"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glynac-compound-integration-20260923/independent-glynac/independent-check.md",
+      "sha256": "c6a6b8f2c78adb7f8dae4457121f90a099b9aee2a1918c9aacb093747e4a2a30"
+    },
+    "new_original_queue_credit": 0,
+    "independent_study_count_increment": 0,
+    "MVA_efficacy_or_nominee_superiority_established": false
+  }
+}

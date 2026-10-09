@@ -1,0 +1,530 @@
+{
+  "schema_version": "1.0",
+  "assessment_date": "2026-09-23",
+  "scope": "Bounded primary qualification for BUB1B/MVA census; no clinical treatment guidance",
+  "paper": {
+    "pmid": "42121254",
+    "pmcid": "PMC13455430",
+    "doi": "10.1186/s13148-026-02144-7",
+    "title": "Identification of METTL3 and PRMT5 as an oncogenic pair for the prognosis and therapeutic targets of colorectal cancer subtype",
+    "publication_date": "2026-05-12",
+    "primary_url": "https://doi.org/10.1186/s13148-026-02144-7",
+    "fulltext_asset": "assets/primary-fulltext.xml"
+  },
+  "disposition": {
+    "category": "CRC_MECHANISM_AND_PRELIMINARY_COMBINATION_EFFECT_ONLY",
+    "mva_nomination": "NOT_PROMOTED",
+    "bubr1_restoration": "NOT_TESTED",
+    "mva_functional_rescue": "NOT_TESTED",
+    "bubr1_direction_of_effect": "UNKNOWN",
+    "formal_pharmacologic_synergy": "NOT_ESTABLISHED",
+    "normal_cell_drug_window": "NOT_ESTABLISHED",
+    "combination_animal_efficacy": "NOT_TESTED_IN_THIS_PAPER",
+    "patient_medicine_access": "NOT_ESTABLISHED",
+    "primary_completion_credit": true,
+    "abstract_only": false
+  },
+  "bub1b_evidence": {
+    "type": "observational_transcript_coexpression",
+    "locator": "Main Table 1; gene co-expression methods",
+    "spearman_r": 0.57408837,
+    "reported_p_value": 2.4e-07,
+    "described_cohort": "SRA 34-patient CRC cohort",
+    "independent_reanalysis": false,
+    "bubr1_protein_measured": false,
+    "mva_model_tested": false,
+    "interpretation": "Does not establish a compound effect on BUB1B/BUBR1 or benefit in MVA"
+  },
+  "compounds": [
+    {
+      "name": "GSK591",
+      "aliases": [
+        "EPZ015866",
+        "GSK3203591"
+      ],
+      "cas": "1616391-87-7",
+      "inchi_key": "TWKYXZSXXXKKJU-FQEVSTJZSA-N",
+      "target": "PRMT5/MEP50",
+      "action": "inhibitor",
+      "distinct_from": [
+        "EPZ015666"
+      ],
+      "negative_control": "SGC2096",
+      "negative_control_used_in_crc_paper": false,
+      "qualification": {
+        "source": "https://www.thesgc.org/chemical-probes/gsk591",
+        "biochemical_ic50_nM": 11,
+        "biochemical_assay": "H4 methylation by PRMT5/MEP50",
+        "cellular_ec50_nM": 56,
+        "cellular_assay": "SmD3 symmetric arginine dimethylation in Z-138",
+        "selectivity": "SGC methyltransferase panel up to 50 uM; not proteome-wide specificity",
+        "negative_control_inactive_up_to_uM": 10
+      },
+      "research_product_access": "Live SGC and TargetMol product pages on 2026-09-23; research-only",
+      "clinical_access_qualified": false
+    },
+    {
+      "name": "STM2457",
+      "aliases": [],
+      "cas": "2499663-01-1",
+      "target": "METTL3",
+      "action": "catalytic inhibitor",
+      "qualification": {
+        "source": "https://www.nature.com/articles/s41586-021-03536-w",
+        "reading_level": "Publisher preview and extended-data captions only",
+        "sam_competition": "Described in Extended Data Fig. 1 caption",
+        "kinase_screen": "468 kinases at 10 uM; no less-than-50%-control hits described",
+        "caveat": "CRC study used 40 uM; original full main/supplement package not reviewed"
+      },
+      "research_product_access": "Live TargetMol product page on 2026-09-23; research-only",
+      "clinical_access_qualified": false
+    }
+  ],
+  "mechanistic_evidence": [
+    {
+      "locator": "Fig. 1G-H",
+      "intervention_type": "genetic",
+      "result": "Reciprocal METTL3 and PRMT5 protein regulation",
+      "bubr1_result": null
+    },
+    {
+      "locator": "Fig. 2A-B",
+      "intervention_type": "genetic plus GSK591",
+      "result": "METTL3 mRNA comparisons marked ns after PRMT5 overexpression with or without GSK591",
+      "direction": "null",
+      "compound_dose_time": "not explicit in panel caption"
+    },
+    {
+      "locator": "Fig. 2C-G",
+      "intervention_type": "genetic catalytic mutant and knockdown; co-IP/CHX",
+      "result": "WT PRMT5 supports METTL3 sDMA and protein stability compared with E444Q; PRMT5 knockdown reduces METTL3 sDMA",
+      "bubr1_result": null,
+      "compound_specific_chase": false
+    },
+    {
+      "locator": "Fig. 2H",
+      "intervention_type": "METTL3 overexpression with or without GSK591",
+      "result": "GSK591 does not significantly reverse the METTL3-associated increase in PRMT5 mRNA",
+      "direction": "null_for_added_GSK591"
+    },
+    {
+      "locator": "Fig. 2I-L",
+      "intervention_type": "genetic knockdown and WT/catalytic mutant rescue",
+      "result": "Supports METTL3-catalytic-dependent PRMT5 mRNA m6A and post-transcriptional stability",
+      "bubr1_result": null
+    },
+    {
+      "locator": "Fig. 6",
+      "intervention_type": "genetic",
+      "result": "Mitochondrial fission/mitophagy changes; CKAP4, GM130 and TMEM192 reported unchanged",
+      "drug_combination_test": false,
+      "normal_drug_safety_test": false
+    }
+  ],
+  "compound_functional_evidence": [
+    {
+      "locator": "Fig. 7A-C",
+      "models": [
+        "HCT116",
+        "HT29"
+      ],
+      "groups": [
+        "NC",
+        "METTL3 overexpression",
+        "METTL3 overexpression + GSK591"
+      ],
+      "gsk591_uM": 40,
+      "cck8_exposure_hours": 24,
+      "endpoints": [
+        "CCK-8",
+        "colony formation"
+      ],
+      "result": "Reduction of METTL3-associated growth increase with GSK591",
+      "missing_control": "parental+GSK591 in these panels"
+    },
+    {
+      "locator": "Fig. 7D-G and Animal experiments",
+      "models": [
+        "HCT116 xenografts in female BALB/c nude mice"
+      ],
+      "n_per_group": 6,
+      "groups": [
+        "NC",
+        "METTL3 overexpression",
+        "METTL3 overexpression + GSK591"
+      ],
+      "gsk591_mg_per_kg": 50,
+      "route": "intragastric gavage",
+      "frequency": "every other day",
+      "methods_start_day": 14,
+      "methods_treatment_duration_days": 14,
+      "result": "Reduced tumor growth, weight and Ki67 relative to METTL3-overexpressing tumors",
+      "stm2457_arm": false,
+      "combination_arm": false,
+      "timeline_caveat": "Figure 7E plots days 10-20; relationship to methods timing unresolved",
+      "toxicology_reported": false
+    },
+    {
+      "locator": "Fig. 7J-L",
+      "models": [
+        "HCT116",
+        "HT29"
+      ],
+      "gsk591_uM": 40,
+      "stm2457_uM": 40,
+      "cck8_exposure_hours": 24,
+      "colony_duration_days": 15,
+      "groups": [
+        "NC",
+        "GSK591",
+        "STM2457",
+        "combination"
+      ],
+      "result": "Combination lower than each monotherapy in indicated viability/colony comparisons",
+      "formal_synergy": false
+    },
+    {
+      "locator": "Fig. 7M-O",
+      "models": [
+        "CRC PDO #1",
+        "CRC PDO #2"
+      ],
+      "patient_cases": 2,
+      "cck8_n_as_reported": 4,
+      "gsk591_uM": 40,
+      "stm2457_uM": 40,
+      "exposure_duration": "not explicitly reported",
+      "result_by_model": {
+        "PDO_1": "Combination significant versus control and each single agent",
+        "PDO_2": "Combination significant versus control; both comparisons versus monotherapies marked ns"
+      },
+      "normal_pdo_comparator": false
+    }
+  ],
+  "dose_response": {
+    "locator": "Supplementary Fig. S4",
+    "single_agent_only": true,
+    "cck8_duration": "not reported in S4 caption",
+    "concentrations_uM": {
+      "HCT116_STM2457": [
+        0,
+        5,
+        10,
+        20,
+        40,
+        80
+      ],
+      "HCT116_GSK591": [
+        0,
+        5,
+        10,
+        20,
+        40,
+        80
+      ],
+      "HT29_STM2457": [
+        0,
+        0.5,
+        1,
+        5,
+        10,
+        20,
+        40
+      ],
+      "HT29_GSK591": [
+        0,
+        5,
+        10,
+        20,
+        40,
+        80,
+        160
+      ]
+    },
+    "fit_ic50_reported": false,
+    "caveat": "HT29 STM2457 at 40 uM visually ~0.4 in S4 vs ~0.6 in Fig7J; different timing cannot be excluded; values are plot estimates only"
+  },
+  "synergy_audit": {
+    "reported_statistics": "t-tests/ANOVA generally; Fig.7 one-way ANOVA",
+    "formal_models_found": [],
+    "dose_matrix_found": false,
+    "interaction_test_found": false,
+    "conclusion": "One-dose combination superiority is not a formal pharmacologic synergy demonstration"
+  },
+  "controls_and_limits": {
+    "chemical_inactive_controls_found": false,
+    "orthogonal_compound_controls_found": false,
+    "crc_pharmacodynamic_target_engagement_at_40uM_found": false,
+    "compound_phenotype_target_rescue_found": false,
+    "normal_drug_model_found": false,
+    "cell_vehicle_final_concentration": "not clearly reported",
+    "animal_vehicle_composition": "not specified",
+    "animal_randomization_blinding": "not reported",
+    "animal_systemic_exposure": "not reported",
+    "body_weight_blood_counts_organ_histology": "not reported",
+    "raw_plot_data_reanalysis": false
+  },
+  "reporting_discrepancies": [
+    {
+      "locator": "Fig.7 overall caption vs D-G/methods",
+      "issue": "Broad in-vivo combination wording; actual mouse arms test GSK591 only"
+    },
+    {
+      "locator": "Supplementary Fig.S2 vs main text",
+      "issue": "PRMT5-alone log-rank p=0.16, not significant; METTL3 alone p=0.006, joint four strata p=0.05; no direct proof of joint predictor superiority"
+    },
+    {
+      "locator": "Fig.2 caption vs panel L/methods/results",
+      "issue": "Doxorubicin wording versus actinomycin D"
+    },
+    {
+      "locator": "Fig.1H caption",
+      "issue": "METTL5 text while blot and narrative identify METTL3"
+    },
+    {
+      "locator": "Fig.7H-I",
+      "issue": "DLD1 included in blot but omitted in caption cell-line list; six plotted points with r=.6476 and p=.0037 without clear replicate/calculation basis"
+    },
+    {
+      "locator": "Fig.7E",
+      "issue": "Plotted day10-20 time axis unclear relative to methods treatment day14-28"
+    }
+  ],
+  "reading_limits": {
+    "primary_main": "Methods, results, discussion, Table1 and all captions read from full XML",
+    "main_figures_visually_inspected": [
+      1,
+      2,
+      6,
+      7
+    ],
+    "main_figures_caption_text_only": [
+      3,
+      4,
+      5,
+      8
+    ],
+    "supplements": "All MOESM1-3 text extracted; all rendered pages visually inspected; S4 original embedded image additionally inspected",
+    "supplement_render_pages": {
+      "MOESM1": 3,
+      "MOESM2": 2,
+      "MOESM3": 3
+    },
+    "MOESM2_last_page": "blank",
+    "sgc_probe": "full page read",
+    "stm2457_original_nature": "preview and extended-data captions only; no full-primary completion credit",
+    "gsk591_original_discovery": "Not retrieved/read in full; no completion credit",
+    "not_done": [
+      "public cohort reanalysis",
+      "raw experimental data reconstruction",
+      "uncropped blot inspection",
+      "clinical trial/regulatory census",
+      "any wet-lab experiment",
+      "any clinical recommendation"
+    ]
+  },
+  "access_failures": [
+    "PMC article browser pages displayed reCAPTCHA; no challenge bypassed",
+    "Europe PMC fullTextXML PMC7613134 returned HTTP500",
+    "Europe PMC fullTextXML PMC4753547 returned HTTP500",
+    "Cayman shell lacked useful product text; not used for final access qualification"
+  ],
+  "census_context": {
+    "niacin": "provisional restoration nominee unchanged",
+    "apitegromab": "provisional compensation nominee unchanged",
+    "everolimus": "conditional probe unchanged",
+    "none_proven_mva_treatment": true
+  },
+  "provenance": {
+    "source_manifest": "sources.json",
+    "all_asset_hashes": "External asset-manifest.json; raw sources not in Git",
+    "original_assessment": "assessment.md",
+    "primary_license": "CC BY-NC-ND 4.0; original assets retained",
+    "repo_edits": false,
+    "git_or_network_publication": false,
+    "sparks_used": false,
+    "memory_used_for_substantive_claims": false
+  },
+  "integration": {
+    "review_type": "Delegated primary-source qualification; parent synthesis and selected source checks. Not a clean-state review of the whole proposal.",
+    "extra_outer_abstract_credit": 0,
+    "biological_replication": false,
+    "external_asset_root": "sgc-followup-20260923/prmt5-mettl3",
+    "parent_baseline": "725447082e515c090c2139c89b23a398e4f25079"
+  },
+  "source_manifest": [
+    {
+      "file": "assets/primary-fulltext.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13455430/fullTextXML",
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13455430/fullTextXML",
+      "http_status": 200,
+      "content_type": "application/xml",
+      "bytes": 138091,
+      "sha256": "d9944d9c655453a14465d1e6f6f679d845d3deffa3547d8144ae50f21903b190",
+      "retrieved_utc": "2026-09-23T07:36:59.990409+00:00",
+      "content_status": "Complete primary main text, captions, table and references in XML; read as stated in assessment."
+    },
+    {
+      "file": "assets/primary-publisher.html",
+      "url": "https://link.springer.com/article/10.1186/s13148-026-02144-7",
+      "final_url": "https://link.springer.com/article/10.1186/s13148-026-02144-7?error=cookies_not_supported&code=cab7c561-121d-4dfc-b6b0-e2ac63d92d8e",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 485323,
+      "sha256": "7cdde9cab5da544b311d5c0f32b2b0ca5dada91042f2650f82788d8412ad5bba",
+      "retrieved_utc": "2026-09-23T07:37:02.605215+00:00",
+      "content_status": "Article HTML with main text and asset links despite cookie query suffix."
+    },
+    {
+      "file": "assets/pubmed.html",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42121254/",
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/42121254/",
+      "http_status": 203,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 5568,
+      "sha256": "0c0238990624f063268c7588eb9174326e79ab6385092bf88b18b020353fb993",
+      "retrieved_utc": "2026-09-23T07:37:02.851362+00:00",
+      "content_status": "HTTP 203 browser/security shell; not used as paper evidence. PubMed tool view supplied bibliographic metadata."
+    },
+    {
+      "file": "assets/supplement1.docx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_MOESM1_ESM.docx",
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_MOESM1_ESM.docx",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 33029,
+      "sha256": "7c015fa252c262c73f04dc46266935d31460101971cdea7aa0ea71e898b133ae",
+      "retrieved_utc": "2026-09-23T07:38:04.575115+00:00",
+      "content_status": "Original publisher supplement; all text extracted and rendered pages inspected."
+    },
+    {
+      "file": "assets/supplement2.docx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_MOESM2_ESM.docx",
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_MOESM2_ESM.docx",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 20720,
+      "sha256": "8ac4bbf3c4b1923fe4895c6d9110c8d13d116c24dbe1a8bc8cce9c8dcd4fe18c",
+      "retrieved_utc": "2026-09-23T07:38:04.553280+00:00",
+      "content_status": "Original publisher supplement; all text extracted and rendered pages inspected."
+    },
+    {
+      "file": "assets/supplement3.docx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_MOESM3_ESM.docx",
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_MOESM3_ESM.docx",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 573901,
+      "sha256": "300c0ebabe416c1d47ab6667fa7ae7fb6a7258a63239ddfc1cbbec645894aa78",
+      "retrieved_utc": "2026-09-23T07:38:05.654238+00:00",
+      "content_status": "Original publisher supplement; all text extracted and rendered pages inspected."
+    },
+    {
+      "file": "assets/figure1.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_Figa_HTML.png",
+      "final_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_Figa_HTML.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 1288169,
+      "sha256": "f324dbbaf79cfd891b6684848e15ab16257a755813f888df246c399c4169f4e5",
+      "retrieved_utc": "2026-09-23T07:38:08.655680+00:00",
+      "content_status": "Original publisher figure visually inspected."
+    },
+    {
+      "file": "assets/figure2.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_Figb_HTML.png",
+      "final_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_Figb_HTML.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 644731,
+      "sha256": "ef6ca3c4e7c7d63ba8ba83ac45c47fc297ce3060b2dd92aa830fb5e441fa3a1d",
+      "retrieved_utc": "2026-09-23T07:38:05.545517+00:00",
+      "content_status": "Original publisher figure visually inspected."
+    },
+    {
+      "file": "assets/figure6.jpg",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_Figf_HTML.jpg",
+      "final_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_Figf_HTML.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 371227,
+      "sha256": "007144a40b6132cc3f403afa479cefbfa38469aca39869c8c62ab91c33335a01",
+      "retrieved_utc": "2026-09-23T07:38:06.608326+00:00",
+      "content_status": "Original publisher figure visually inspected."
+    },
+    {
+      "file": "assets/figure7.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_Figg_HTML.png",
+      "final_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13148-026-02144-7/MediaObjects/13148_2026_2144_Figg_HTML.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 2531710,
+      "sha256": "676610f301de4ee9b47a0f6fe74325bff901749c3e5ad39f8a09912d4d7f9725",
+      "retrieved_utc": "2026-09-23T07:38:09.376737+00:00",
+      "content_status": "Original publisher figure visually inspected."
+    },
+    {
+      "file": "assets/sgc-gsk591.html",
+      "url": "https://www.thesgc.org/chemical-probes/GSK591",
+      "final_url": "https://www.thesgc.org/chemical-probes/gsk591",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 69642,
+      "sha256": "537bcb097b24fe10dbec4b9872bd866703333f09322b20ab6c223b2fac7a897b",
+      "retrieved_utc": "2026-09-23T07:38:06.146560+00:00",
+      "content_status": "Accessible page retained; reading scope stated in assessment."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7613134/fullTextXML",
+      "error": "HTTP Error 500: "
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4753547/fullTextXML",
+      "error": "HTTP Error 500: "
+    },
+    {
+      "file": "assets/stm2457-primary-nature.html",
+      "url": "https://www.nature.com/articles/s41586-021-03536-w",
+      "final_url": "https://www.nature.com/articles/s41586-021-03536-w?error=cookies_not_supported&code=c657b052-1cf8-477e-a286-4e43f0857b33",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 462882,
+      "sha256": "4bf27fa803df05822c59edd44735ee8236c90b85f227656c9b751a9ba38f827a",
+      "retrieved_utc": "2026-09-23T07:39:58.111734+00:00",
+      "content_status": "Subscription preview plus exposed extended-data captions; full main text not read."
+    },
+    {
+      "file": "assets/stm2457-product.html",
+      "url": "https://www.targetmol.com/compound/STM2457",
+      "final_url": "https://www.targetmol.com/compound/STM2457",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "bytes": 273090,
+      "sha256": "858555f621d003b29504acbd4af24f0ed4ff214dd08f88da2e2fe94691057f00",
+      "retrieved_utc": "2026-09-23T07:39:56.863578+00:00",
+      "content_status": "Accessible page retained; reading scope stated in assessment."
+    },
+    {
+      "file": "assets/gsk591-product.html",
+      "url": "https://www.caymanchem.com/product/18354/gsk591",
+      "final_url": "https://www.caymanchem.com/product/18354/gsk591",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 3987,
+      "sha256": "4b1caa43b2e67ba00b212e1bface207e0822d5dc75d03c1811c8701c0dd8923b",
+      "retrieved_utc": "2026-09-23T07:39:56.325032+00:00",
+      "content_status": "Cayman lightweight app shell, not used for access qualification; SGC and TargetMol used instead."
+    },
+    {
+      "file": "assets/gsk591-targetmol.html",
+      "url": "https://www.targetmol.com/compound/gsk591",
+      "final_url": "https://www.targetmol.com/compound/gsk591",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "bytes": 276409,
+      "sha256": "27f1fd37d53342d72ed2aeb943b7e83c4686564fefb1d67e6b78cf655a0e42ad",
+      "retrieved_utc": "2026-09-23T07:44:15.111548+00:00",
+      "content_status": "Accessible page retained; reading scope stated in assessment."
+    }
+  ]
+}

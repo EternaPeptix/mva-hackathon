@@ -1,0 +1,305 @@
+{
+  "schema": "bounded-primary-qualification-v1",
+  "date": "2026-09-23",
+  "reviewer": "/root/ms023_primary",
+  "source": {
+    "id": "21501498",
+    "source": "MED",
+    "pmid": "21501498",
+    "pmcid": "PMC3090367",
+    "doi": "10.1186/1471-2407-11-144",
+    "title": "Curcumin-induced HDAC inhibition and attenuation of medulloblastoma growth in vitro and in vivo.",
+    "firstPublicationDate": "2011-04-18",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "publicationStatus": "epublish",
+    "commentCorrectionList": null,
+    "versionList": null,
+    "versionNumber": null,
+    "primary_xml_sha256": "44946cf1bf079f6dfd3659ae006494eca52ad6846e651e4ff3cfb3e0f844fe1a",
+    "metadata_sha256": "64a4d5f279d94c963119c8d1a2c5f1d47645f2a4b4367e2e37ae8db25f2ed8af",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3090367/",
+    "status_scope": "No relation in the saved Europe PMC correction/version fields; this is not a universal integrity clearance."
+  },
+  "identity": {
+    "compound": "Ordinary curcumin (diferuloylmethane)",
+    "supplier": "Sigma-Aldrich per Methods",
+    "animal_formulation": "Curcumin dissolved in corn oil; corn-oil vehicle comparator; daily oral gavage",
+    "formulation_limits": [
+      "No nanoparticle or Gemini-Cur delivery used",
+      "No purity, catalog/lot, administered concentration or gavage-volume detail",
+      "No verified oral supplement equivalence"
+    ],
+    "actually_administered_other_agents": [
+      {
+        "name": "z-VAD-FMK",
+        "role": "Pan-caspase inhibitor used for mechanistic cell control, 20 µM for 2 h pretreatment then during an additional 8 h with curcumin",
+        "result": "Cleaved caspase-3 signal suppressed; curcumin-associated HDAC4 reduction and HDAC-activity reduction persist. No LDH, organism survival or MVA rescue in this control."
+      },
+      {
+        "name": "thymidine",
+        "role": "Cell-cycle synchronization, 2 mM for 18 h before release"
+      },
+      {
+        "name": "nocodazole",
+        "role": "Prometaphase arrest, 100 nM for 8 h after 3 h release"
+      },
+      {
+        "name": "G418",
+        "role": "Selection of tdTomato-positive DAOY clones, 500 µg/ml for 2 weeks"
+      },
+      {
+        "name": "DMSO",
+        "role": "Vehicle in cell experiments"
+      },
+      {
+        "name": "corn oil",
+        "role": "Animal formulation/vehicle, not an independently tested beneficial agent"
+      }
+    ]
+  },
+  "dose": {
+    "status": "UNRESOLVED_SOURCE_DISCREPANCY",
+    "methods_xenograft_mg_per_kg": 1,
+    "Figure6A_caption_g_per_kg": 1,
+    "Supplement5_caption_g_per_kg": 1,
+    "factor_difference": 1000,
+    "route_frequency": "Daily oral gavage",
+    "Smo_Smo_dose": "Smo/Smo Methods paragraph states daily gavage from weaning but does not independently restate a numerical dose. Do not silently assign either conflicting xenograft dose.",
+    "interpretation": "The source supports a curcumin-versus-corn-oil comparison, but an unambiguous reproducible numerical regimen cannot be reconstructed from the published descriptions alone. No presumed typo is corrected."
+  },
+  "design": {
+    "xenograft": {
+      "methods_host": "Female hairless SCID mice, 5–6 weeks old",
+      "caption_host": "Nude mice in Figure 6A and Supplement 5",
+      "host_discrepancy": "Preserved; do not silently treat the labels as an authenticated identical strain.",
+      "inoculum": "7 × 10^6 viable DAOY or tdTomato-DAOY cells with Matrigel, subcutaneous",
+      "start": "30 days after inoculation, established tumors",
+      "allocation_n": "Methods 8–12 mice per group; Figure 6A specifies 12/group; supplementary Figure 5 specifies 8/group",
+      "measurement": "Caliper twice weekly; volume = length × width × depth × 0.5; tdTomato images weekly",
+      "humane_endpoints": "Weight loss ≥15% of initial weight or tumor volume ≥2000 mm³",
+      "reported_volume_caveat": "Final control mean 2294 mm³ exceeds the stated volume euthanasia threshold; sampling/removal implementation and per-timepoint denominators are not explained. This is a reporting ambiguity, not evidence of a particular protocol violation.",
+      "randomization": "Not reported",
+      "blinding": "Not reported",
+      "power_calculation": "Not reported",
+      "attrition_and_exclusions": "No animal-level accounting or per-timepoint at-risk n supplied",
+      "weight_matching_pair_feeding": "Not reported"
+    },
+    "Smo_Smo": {
+      "model": "Constitutively active Smoothened expressed in cerebellar granule neuron precursors; spontaneous medulloblastoma model, not BUB1B/MVA",
+      "allocation_n": 9,
+      "allocation_n_unit": "mice per group",
+      "start": "Weaning; numerical age not specified",
+      "end": "Clinical manifestation of disease, followed by euthanasia and tumor collection",
+      "sex": "Not reported in the Smo/Smo paragraph; do not inherit female from xenograft hosts",
+      "randomization": "Not reported",
+      "blinding": "Not reported",
+      "power_calculation": "Not reported",
+      "survival_limit": "Reported lifespan/clinical-symptom humane-endpoint time, not an observed untreated natural-death comparison; no hazard ratio or confidence interval provided."
+    }
+  },
+  "outcomes": [
+    {
+      "locator": "Figure 6A main DAOY xenograft",
+      "kind": "actual animal tumor-growth benefit",
+      "n_per_group": 12,
+      "reported_result": {
+        "curcumin_volume_mm3": 1442,
+        "curcumin_error": 225,
+        "control_volume_mm3": 2294,
+        "control_error": 202,
+        "error_type": "SEM per Figure 6A caption",
+        "P": "<0.001"
+      },
+      "schedule": "Daily treatment starts day 30; plotted follow-up through day 91 after implantation",
+      "effect_description": "Tumor growth reduced, not eliminated or reversed to no tumor. tdTomato images (two illustrated animals per arm) corroborate relative tumor burden but are not drug-exposure images.",
+      "replication_scope": "Caption says representative of three independent studies. This is author-reported within-publication repetition; complete per-study animal data are not supplied, and no independent external replication is claimed."
+    },
+    {
+      "locator": "Supplementary Figure 5",
+      "kind": "separate plotted xenograft trend; nonsignificant reported contrasts",
+      "n_per_group": 8,
+      "schedule": "Treatment starts approximately day 30, follow-up to day 64",
+      "reported_P_values": [
+        0.0512,
+        0.0544,
+        0.0694
+      ],
+      "native_star_symbols": [
+        "*",
+        "**",
+        "***"
+      ],
+      "interpretation": "All listed P values exceed .05; stars must not be translated into conventional significant thresholds. The lower curcumin trajectory is retained as a trend without claiming demonstrated significance in these contrasts.",
+      "replication_scope": "Caption says representative of two independent studies; no basis to pool automatically with the three main-caption studies or assume five unique studies."
+    },
+    {
+      "locator": "Figure 6B Smo/Smo survival",
+      "kind": "actual in-vivo lifespan/clinical-endpoint benefit",
+      "n_per_group": 9,
+      "median_curcumin_days": 192,
+      "median_vehicle_days": 144,
+      "absolute_median_difference_days": 48,
+      "P": 0.0308,
+      "test": "log-rank (caption), Kaplan–Meier curves",
+      "interpretation": "Longer time to clinical disease/euthanasia in this model. Curves ultimately reach zero; no tumor eradication or cure. No PK, normal-tissue function or MVA endpoint inferred."
+    },
+    {
+      "locator": "Figure 6C Smo/Smo tumor lysates",
+      "kind": "animal tumor biochemical comparison",
+      "result": "More cleaved caspase-3/PARP, less HDAC4 and phospho-HDAC4/5/7 signal, more acetylated tubulin; GAPDH loading control. HDAC2/3/6 included.",
+      "limit": "One displayed lane per arm; no per-animal quantification, pooling specification or biological n tied to this blot. End-stage tumors were collected at clinical manifestation, potentially at different ages/times; biochemical mediation is not established."
+    },
+    {
+      "locator": "Figures 1/2 and Supplement 2",
+      "kind": "cancer-cell cytotoxicity/cycle effects",
+      "model": "DAOY plus D283 Med/D341 Med for supplemental protein assays",
+      "exposure": "Main morphology 0/10/20/40 µM for 16 h; LDH0/10/20/40 µM at 8/24 h; cell cycle at 7/24 h; supplemental D283/D341 protein 0/5/10/20/40 µM for 24 h",
+      "result": "Dose/time-related LDH and apoptotic marker increases; G2/M accumulation (10 µM,24 h: reported 74.5% versus 30.8% control). Higher concentrations show a different distribution; authors suggest slippage, but no live lineage tracking proves it.",
+      "limit": "No normal-cell comparative assay in this study. Source Results twice say D431 Med, whereas Methods/native supplements identify D341 Med."
+    },
+    {
+      "locator": "Figure 3 spindle assay",
+      "kind": "actual adverse cancer-cell division phenotype",
+      "model": "DAOY after thymidine/nocodazole block",
+      "exposure": "Release with20 µM curcumin or vehicle for 60 min",
+      "result": {
+        "curcumin_abnormal_spindle_percent": 64,
+        "curcumin_SD": 6,
+        "vehicle_abnormal_spindle_percent": 11,
+        "vehicle_SD": 4,
+        "replicates": "three independent experiments; cell denominator not stated"
+      },
+      "interpretation": "More spindle abnormalities/disordered chromosome alignment. This supports antimitotic injury, not recovered segregation fidelity; no measured normal-MVA harm is inferred."
+    },
+    {
+      "locator": "Figures 4/5 and Supplements 1/3/4",
+      "kind": "HDAC/tubulin biochemical association",
+      "exposure": "Assays include5–50 µM; bulk HDAC activity is after 3 h in Methods versus 6 h in Figure 5A caption/Results",
+      "result": "Lower total lysate HDAC activity and HDAC4 protein/phosphorylation, increased acetylated tubulin; HDAC4 cytoplasmic distribution and bulk histone acetylation reported largely unchanged. z-VAD-FMK blocks caspase signal without eliminating HDAC effects.",
+      "limit": "Treated-cell lysate activity is not a purified isoform inhibition/selectivity assay. No HDAC4 genetic rescue, direct binding assay, target-resistance or mediation proof. Other isoform densitometry is not uniformly unchanged (e.g., Figure 5B 25 µM/15 h HDAC2 .57,HDAC7 .55; Supplement 3 D341/50 µM HDAC2 .50), so avoid an absolute HDAC4-only effect claim."
+    }
+  ],
+  "limits": {
+    "pharmacokinetics": "No measured plasma, brain or tumor drug/metabolite concentration, bioavailability, free fraction or exposure-response relationship. tdTomato fluorescence measures tumor reporter, not curcumin. Brain tumor outcome is functional in-vivo evidence, but cannot itself quantify BBB penetration or identify the active chemical reaching tumor.",
+    "toxicity": "No body-weight trajectory, organ weights, histopathology, blood counts/chemistry, normal developmental or neurological testing, maximum tolerated dose or adverse-event table. Weight-loss euthanasia criteria are monitoring rules, not a demonstrated absence of toxicity.",
+    "normal_cells": "No normal-cell dose comparison in this 2011 study; do not import the 2012 MDCK panel or earlier clinical-safety citations as measured outcomes here.",
+    "clinical": "No human trial, pediatric treatment, MVA cohort, RMS model or consumer supplement equivalence. Background clinical/spice safety statements are citations, not this study’s measured safety data.",
+    "mechanism": "HDAC4/tubulin changes accompany antitumor effects; sole-target causality and purified biochemical selectivity are not established. Cdc27/BubR1/BUB1B restoration was not tested in this 2011 study.",
+    "combination": "Discussion proposes combinations with chemotherapy/irradiation but does not test a therapeutic combination in these mice."
+  },
+  "2012_link_and_overlap": {
+    "2012_source": "PMID22280307 / PMC3296673 / DOI10.1186/1471-2407-12-44",
+    "exact_citation_resolved": true,
+    "citation_file": "citation-from-2012.xml",
+    "2012_evidence": "2012 cites this 2011 survival/xenograft study and shows Smo/Smo tumor Cdc27 blots using samples from mice treated as previously described; it reports lower Cdc27 and no detected high-MW crosslinked species.",
+    "overlap_limit": "No animal identifiers, specimen IDs or explicit cohort map establish which individual 2011 animals supplied the 2012 blot lanes. Treat as linked prior-protocol/tumor-sample evidence, with no demonstrated independent new efficacy cohort. Do not claim all lanes are proven identical specimens.",
+    "credit_rule": "The 2012 biochemical followup is not independent replication of the 2011 tumor-growth or survival endpoints. This qualification resolves the original primary; it adds no automatically admitted abstract record or new drug identity."
+  },
+  "source_issues": [
+    {
+      "issue": "Dose conflict",
+      "detail": "Methods 1 mg/kg versus main/supplement captions 1 g/kg; unresolved 1000-fold difference."
+    },
+    {
+      "issue": "Host identity conflict",
+      "detail": "Methods hairless SCID versus captions nude."
+    },
+    {
+      "issue": "Supplement significance convention",
+      "detail": "Supplement 5 stars correspond to explicit P values >.05, not conventional significant thresholds."
+    },
+    {
+      "issue": "HDAC assay timing",
+      "detail": "Methods 3 h versus Figure 5A caption/Results 6 h."
+    },
+    {
+      "issue": "Cell line spelling",
+      "detail": "D431 in portions of Results versus D341 in Methods/native supplements."
+    },
+    {
+      "issue": "Xenograft removal timing",
+      "detail": "Reported final control mean exceeds declared 2000 mm³ euthanasia threshold; animal-level removal/accounting not reported."
+    }
+  ],
+  "strongest_positive": "A significant Smo/Smo lifespan/clinical-endpoint extension and significant main DAOY xenograft tumor-volume reduction are genuine drug-assigned in-vivo positives, accompanied by tumor HDAC4/tubulin/apoptotic changes. The supplementary xenograft contrasts remain nonsignificant as printed.",
+  "BUB1B_MVA_assessment": "The study strengthens ordinary curcumin’s tumor-control evidence. It does not establish BUB1B restoration, healthy division, muscle output or MVA/RMS benefit. Actual spindle disruption at 20 µM requires preserving the antimitotic direction. A timing/mitotic mechanism can remain a testable hypothesis without converting tumor killing into normal-cell compensation or assuming harm in untested MVA tissues.",
+  "relative_priority": "Retain the real preclinical tumor benefit under the same no-MVA-proof standard used for provisional niacin/apitegromab. This source supports an antitumor reserve/comparator, not a demonstrated restoration or normal-function route; it does not resolve the competing nominees.",
+  "bounded_followups": [
+    "Resolve the 1 mg/kg versus1 g/kg dose, exact host identity and Smo/Smo regimen through an authoritative correction or original study records before quantitative exposure translation.",
+    "Obtain animal-level assignment, censoring/endpoint and safety data if using this as a reproducible regimen or estimating therapeutic window.",
+    "Do not claim specimen overlap or independent replication without a 2011-to-2012 animal/sample map."
+  ],
+  "reading_evidence_file": "read-evidence.json",
+  "repository_modified": true,
+  "automatic_outer_reading_credit": 0,
+  "new_drug_identity_count": 0,
+  "biological_replication": false,
+  "candidate_provenance": {
+    "status": "INTEGRATED_WITH_ROOT_SOURCE_CHECK",
+    "baseline": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
+    "decision_id": "new-curcumin-cdc27",
+    "external_source_root": "curcumin-animal-followup-20260923",
+    "source_qualification_md_sha256": "7e4f21f33e62aff500ead89c78caee81e93cdb43a94f34b709bf2eb677b254d0",
+    "source_qualification_json_sha256": "268ab18735e56c945bb101a3abbec3087ea76e1cce52f185c784ff81f20d1be2",
+    "portable_markdown_file": "curcumin-animal-qualification.md",
+    "portable_markdown_sha256": "9ca7d8a5f9993b7d05f41d43050fddeb339f48b36953fe2824fbdbcde2076d76",
+    "external_reference_rule": "Raw sources, assets and reading-manifest file references in the source assessment resolve under external_source_root, not the future repository directory.",
+    "transformations": [
+      "Candidate copy only; no root integration or independent reread of other source reviewers claimed.",
+      "Added a portable companion-JSON link; raw source caches and their relative file references remain external."
+    ],
+    "source_reading_attribution": "Original named source reviewer; candidate preparation does not add full-paper/biological/outer reading credit.",
+    "extra_outer_abstract_credit": 0,
+    "root_approval_required_for_integration": false,
+    "bounded_independent_check_refs": [
+      {
+        "external_file": "antitumor-followup-20260923/scientific-independent/independent-check.md",
+        "sha256": "293620f73be6f37fb034dc0fbc3b4d6e04b45cc4d652ea3effe2e41239216cb1"
+      },
+      {
+        "external_file": "antitumor-followup-20260923/scientific-independent/independent-check.json",
+        "sha256": "6dc3e402158c5becd0823ebeac9ace9f84bf2e2a489351087728a324bb5918f3"
+      }
+    ],
+    "independent_check_scope": "Selected native figures and text/table/registry verification only; not a second complete main-text review.",
+    "pre_integration_status": "EXTERNAL_CANDIDATE_NOT_INTEGRATED",
+    "candidate_portable_markdown_sha256": "acf65eebb304643cbc13a35b0df68532e53c68f3a20afbd3405ace0192035e3c"
+  },
+  "source_reviewer_repository_modified": false,
+  "source_md_sha256": "9ca7d8a5f9993b7d05f41d43050fddeb339f48b36953fe2824fbdbcde2076d76",
+  "integration": {
+    "baseline": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
+    "integrating_reviewer": "/root",
+    "candidate_json_sha256": "67f0b37289900c9881d1108cc1c2c8dd9d2d189b6549c4bdbf842984d44fa9d6",
+    "root_reading": {
+      "complete_scientific_main_outputs": [
+        "77f1b4",
+        "15aaab"
+      ],
+      "all_five_endmarkers_seen": true,
+      "images": [
+        "figure6-publisher.jpg",
+        "assets/1471-2407-11-144-S5.TIFF",
+        "assets/1471-2407-11-144-3.jpg"
+      ],
+      "scope": "Scientific main and captions; selected core native figures. Other figures and supplement images credited to source reviewer, not root.",
+      "source_xml_sha256": "44946cf1bf079f6dfd3659ae006494eca52ad6846e651e4ff3cfb3e0f844fe1a",
+      "image_sha256": {
+        "figure6-publisher.jpg": "b8e5de49a5e010dfd33eb784693a928e7f9a1de543697ad7cdcd0b32822bca20",
+        "assets/1471-2407-11-144-S5.TIFF": "2ebd86836d9940e01f2a81ef17d7c57914e25b888fbb5e128207fb197600afa1",
+        "assets/1471-2407-11-144-3.jpg": "a85e89dd67a0339066d32fc22d4155d480998d3a41345c76ec62651eb066da5a"
+      }
+    },
+    "root_reading_manifest_sha256": "9a713c2a8e5c490383d12deab5be154612eba435243c669b3c0d5660d76f0857",
+    "independent_check_json_sha256": "6dc3e402158c5becd0823ebeac9ace9f84bf2e2a489351087728a324bb5918f3",
+    "independent_check_md_sha256": "293620f73be6f37fb034dc0fbc3b4d6e04b45cc4d652ea3effe2e41239216cb1",
+    "scope": "Root read the complete scientific main and captions, native Figures 3 and 6 and supplementary Figure 5. A separate reviewer checked the animal methods/results and native Figure 6/S5. The source reviewer completed the broader image review described above.",
+    "new_outer_abstract_credit": 0
+  }
+}

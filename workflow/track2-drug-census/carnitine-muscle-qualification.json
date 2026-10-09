@@ -1,0 +1,395 @@
+{
+  "title": "L-carnitine / levocarnitine: bounded neuromuscular endurance comparison",
+  "date_local": "2026-09-23",
+  "source_review_ledger_check": {
+    "repo_head": "46c4b0363e38499c3db8117b6e96a3df53386ae1",
+    "ledger_count": 227,
+    "ledger_sha256": "a0b4f0cabf636b498c85f1c46a55356a02ccf79e5c92c2f5dba86073a56aa9a6",
+    "duplicate_matches": [],
+    "prior_working_tree_check": "initial-ledger-check.json",
+    "prior_scope": "Earlier227-entry uncommitted working tree on72b1a8b, not the contents of that commit.",
+    "exact_alias_checks": [
+      {
+        "alias": "L-carnitine",
+        "normalized_alias": "l carnitine",
+        "catalog_ids": [
+          "CHEMBL1149"
+        ],
+        "proposed": true
+      },
+      {
+        "alias": "levocarnitine",
+        "normalized_alias": "levocarnitine",
+        "catalog_ids": [
+          "CHEMBL1149"
+        ],
+        "proposed": true
+      },
+      {
+        "alias": "carnitine",
+        "normalized_alias": "carnitine",
+        "catalog_ids": [
+          "CHEMBL1149",
+          "CHEMBL172513"
+        ],
+        "proposed": false
+      },
+      {
+        "alias": "acetyl-L-carnitine",
+        "normalized_alias": "acetyl l carnitine",
+        "catalog_ids": [
+          "CHEMBL1697733"
+        ],
+        "proposed": false
+      },
+      {
+        "alias": "L-carnitine L-tartrate",
+        "normalized_alias": "l carnitine l tartrate",
+        "catalog_ids": [],
+        "proposed": false
+      }
+    ],
+    "NIH_groups": [
+      {
+        "group_id": "7066",
+        "name_as_reported": "Carnitine"
+      },
+      {
+        "group_id": "255",
+        "name_as_reported": "L-Carnitine"
+      },
+      {
+        "group_id": "7533",
+        "name_as_reported": "L-Carnitine"
+      }
+    ],
+    "limits": "Name relations do not establish salt, manufacturer, current availability, approval indication or equivalent efficacy for derivatives/mixtures.",
+    "official_synonym_verification": {
+      "file": "levocarnitine-pubchem-synonyms.json",
+      "sha256": "9717b38a6e12cf9f350efefd62c23f0b650142c66cade7ebd26858a0e6b8f93f",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/levocarnitine/synonyms/JSON",
+      "CID": 10917,
+      "exact_synonyms": [
+        "L-carnitine",
+        "Levocarnitine",
+        "541-15-1"
+      ],
+      "limit": "Chemical nomenclature only; actual trial salt, capsule ingredients, purity and product equivalence unresolved."
+    }
+  },
+  "sources": [
+    {
+      "source_key": "MED:25714882",
+      "pmid": "25714882",
+      "pmcid": "PMC4418367",
+      "doi": "10.1590/1414-431X20143467",
+      "title": "Effect of L-carnitine on exercise performance in patients with mitochondrial myopathy",
+      "citation": "Brazilian Journal of Medical and Biological Research2015;48(4):354–362",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4418367/",
+      "main_file": "MM-main.xml",
+      "main_sha256": "007724166c82f3997aa54d081c82c38332b874365060d89b76dd373a03a9d6c4",
+      "depth": "Complete scientific main plus all six native table images and native flowchart; no individual-data reanalysis.",
+      "model": {
+        "population": "Biopsy-confirmed mitochondrial myopathy with CPEO, exercise intolerance/mild weakness/myalgia",
+        "n": 12,
+        "healthy_reference_n": 10,
+        "healthy_reference_scope": "Untreated; baseline testing only; no constant-work endurance test",
+        "eligibility_age": ">14years",
+        "age_as_printed": {
+          "abstract_mean_SD": [
+            35.4,
+            10.8
+          ],
+          "Table1_mean_SD": [
+            34.5,
+            11.2
+          ]
+        },
+        "age_range": null,
+        "sex_Table1": {
+          "male": 8,
+          "female": 4
+        },
+        "genotype_assessed": false,
+        "plasma_or_muscle_carnitine_measured": false,
+        "deficiency_replacement_demonstrated": false,
+        "excluded": "Severe limb weakness, renal/cardiac/pulmonary dysfunction, concomitant ergogenic supplements, regular physical activity in preceding year"
+      },
+      "intervention": {
+        "source_identity": "L-carnitine",
+        "chemical_synonym": "levocarnitine, verified separately by official nomenclature",
+        "dose": "3g/day",
+        "route": "oral capsule once daily with breakfast or lunch",
+        "duration": "8weeks per phase",
+        "supplier": "DrogaDerma,Brazil; identical-looking capsules",
+        "comparator": "3g placebo; contents not specified",
+        "salt_purity_catalog_batch": null,
+        "design": "Randomized double-blind crossover;6participants per initial sequence",
+        "washout": "4weeks",
+        "period_sequence_carryover_estimates": null,
+        "randomization_and_allocation_details": "Random assignment reported; reproducible sequence/concealment details not supplied",
+        "adherence": "Authors report100% adherence and no dropouts; weekly telephone/monthly visits and empty bottles, not biochemical verification"
+      },
+      "outcomes": [
+        {
+          "endpoint": "Constant-work cycling time to limit of tolerance",
+          "L_carnitine_mean_SD": [
+            14,
+            1.9
+          ],
+          "placebo_mean_SD": [
+            11,
+            1.4
+          ],
+          "unit": "minutes",
+          "significance": "MarkedP<.05",
+          "scope": "Actual endurance function at70%ofpeak workload; identical absolute load across visits not established",
+          "exact_p": null,
+          "ci95": null
+        },
+        {
+          "endpoint": "Oxygen uptake at six-minute isotime",
+          "L_carnitine_mean_SD": [
+            1151,
+            115
+          ],
+          "placebo_mean_SD": [
+            1049,
+            104
+          ],
+          "unit": "mL/min",
+          "significance": "MarkedP<.05"
+        },
+        {
+          "endpoint": "Oxygen uptake at exhaustion",
+          "L_carnitine_mean_SD": [
+            1223,
+            114
+          ],
+          "placebo_mean_SD": [
+            1060,
+            108
+          ],
+          "unit": "mL/min",
+          "significance": "MarkedP<.05"
+        },
+        {
+          "endpoint": "Inspiratory capacity",
+          "L_carnitine_mean_SD": [
+            2.45,
+            0.23
+          ],
+          "placebo_mean_SD": [
+            2.26,
+            0.22
+          ],
+          "unit": "L",
+          "significance": "MarkedP<.05",
+          "limit": "Pulmonary volume, not clinical respiratory benefit or muscle-force restoration"
+        },
+        {
+          "endpoint": "Isotime gas-exchange ratio",
+          "L_carnitine_mean_SD": [
+            1.03,
+            0.04
+          ],
+          "placebo_mean_SD": [
+            1.11,
+            0.04
+          ],
+          "significance": "MarkedP<.05,lower"
+        },
+        {
+          "endpoint": "Gas-exchange ratio at exhaustion",
+          "L_carnitine_mean_SD": [
+            1.4,
+            0.01
+          ],
+          "placebo_mean_SD": [
+            1.17,
+            0.03
+          ],
+          "significance": "No significant marker; do not silently repair printed values or claim a lower ratio here"
+        },
+        {
+          "endpoint": "Oxygen pulse at exhaustion",
+          "L_carnitine_mean_SD": [
+            7.7,
+            2.4
+          ],
+          "placebo_mean_SD": [
+            7,
+            2.2
+          ],
+          "unit": "mL/beat",
+          "significance": "MarkedP<.05",
+          "limit": "Not direct cardiac-rescue assay"
+        },
+        {
+          "endpoint": "Peak incremental exercise variables including oxygen uptake,work rate,lactate and symptoms",
+          "direction": "No significant intervention differences reported in Results/Table5"
+        },
+        {
+          "endpoint": "Peripheral knee torque,total work,body composition",
+          "direction": "No significant intervention differences reported in Results/Table4"
+        }
+      ],
+      "analysis_limits": [
+        "Methods describes repeated-measures crossover model for treatment/carryover, but native Tables4–6 say unpaired t-test. Actual model-derived contrast cannot be independently reconstructed.",
+        "No sequence,period or carryover estimates; a four-week washout alone does not establish no carryover.",
+        "No exact P values or confidence intervals for positives; no multiplicity correction or prospectively verified endpoint hierarchy identified.",
+        "Endurance is called the principal variable in post hoc power analysis; post hoc power does not establish prospective adequacy.",
+        "CWR specified as70%ofpeak; identical absolute workloads across visits were not demonstrated."
+      ],
+      "source_issues": [
+        "Discussion says significant body-composition change, contrary to Results/Table4 and its subsequent context. Retain measured null rather than silently inserting a missing word.",
+        "Mean/SD age differs between abstract and Table1; actual age range unavailable.",
+        "Native Table6 exhaustion GER is numerically higher and unmarked; preserve isotime-specific lower GER only."
+      ],
+      "mechanism_limit": "Observed exercise intolerance and physiological treatment response do not prove measured carnitine deficiency, restored muscle carnitine, substrate flux, mitochondrial repair, BUB1B engagement or genotype rescue.",
+      "safety_scope": "Side effects were solicited; no detailed adverse-event table or renal-safety analysis supplied. No dropouts/adherence is not proof of no harm."
+    },
+    {
+      "source_key": "Escobar-Cedillo2013-Carnitine-DMD",
+      "pmid": null,
+      "doi": null,
+      "title": "L-carnitine supplementation in Duchenne muscular dystrophy steroid-naïve patients: a pilot study",
+      "year": 2013,
+      "journal": "Current Topics in Nutraceutical Research11(3)",
+      "pages_as_reported": {
+        "UNAM": "97–101",
+        "author_upload": "97–102"
+      },
+      "institutional_url": "https://produccion.siia.unam.mx/Publicaciones/ProdCientif/PublicacionFrw.aspx?id=260670&scopus=0",
+      "author_record_url": "https://www.researchgate.net/publication/257927285_L-carnitine_supplementation_in_duchenne_muscular_dystrophy_steroid-naive_patients_A_pilot_study",
+      "abstract_source_file": "DMD-unam.html",
+      "abstract_source_sha256": "d51904397fbf0122475ce100d31ed7167ee421577120274b1afd486b9f5c9baf",
+      "abstract_read_file": "DMD-abstract-read.txt",
+      "depth": "Complete original abstract mirrored by institution and corroborated at author-upload landing page; no main/table/figure/supplement reading.",
+      "design_as_abstract": "Double-blind controlled trial;20patients assigned to L-carnitine or placebo",
+      "randomized_verified": false,
+      "age_range": null,
+      "group_sizes": null,
+      "attrition": null,
+      "model": "Steroid-naïve DMD; no participant-level deficiency test verified at this depth",
+      "dose": "50mg/kg twice daily as printed, not assumed50mg/kg total per day",
+      "duration": "One year",
+      "route": null,
+      "formulation_salt_purity": null,
+      "control_ingredients": null,
+      "analysis": "Evaluations every four months; ANOVA as reported",
+      "outcome": "No between-group clinical benefit in upper/lower-extremity function,P>.05",
+      "exact_scales_effect_sizes_CI": null,
+      "safety": "Abstract reports tolerability and no significant side effects; detailed event/renal assessments unverified",
+      "access_limit": "Author-PDF indexed as6pages, but ordinary direct download403 and screenshots timeout/no inspectable image. No native PDF cached/hash/full-read credit.",
+      "notice_limit": "No verified PMID/DOI in bounded searches; no linked notice identified, with limited coverage."
+    }
+  ],
+  "gene_search_scope": {
+    "query": "carnitine AND (BUB1B OR BUBR1)",
+    "source": "EuropePMC core response",
+    "response_file": "gene-search.json",
+    "response_sha256": "633b0d39080ae15d7485b6a1be8cd73a3ea9b4a03ab0834d6bb3b9351a666c6f",
+    "hits": 86,
+    "literal_carnitine_title_abstract_hits": 0,
+    "canonical_records": 7362,
+    "canonical_literal_carnitine_hits": 0,
+    "canonical_MM_ID_present": false,
+    "direct_administered_BUB1B_evidence_identified": false,
+    "limit": "Lexical screen, not86complete readings and not global absence proof. Endogenous/acylcarnitine/enzyme/reference co-occurrence is not treatment efficacy."
+  },
+  "deferred_primary_leads": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5244582/",
+      "scope": "Search excerpt only; not one of the two qualified studies",
+      "question": "Separate L-carnitine-tartrate monotherapy leg-strength result from composite-endpoint null and multicomponent creatine/leucine/vitaminD preparation; no inherited efficacy here."
+    },
+    {
+      "pmid": "18394615",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18394615/",
+      "scope": "Original metadata and publicly displayed primary excerpts encountered; main not qualified",
+      "question": "Determine whether monotherapy cytoskeleton protection is only morphology or includes chromosome-number fidelity; do not infer aneuploidy rescue."
+    },
+    {
+      "pmid": "37768816",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37768816/",
+      "scope": "Search-level identity boundary",
+      "question": "L-carnitine plus omega3 is a combination, not isolated L-carnitine efficacy."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3720066/",
+      "scope": "Search-level identity boundary",
+      "question": "L-carnitine plus acetyl-L-carnitine plus cinnoxicam cannot establish isolated L-carnitine chromosome rescue."
+    }
+  ],
+  "recommended_disposition": {
+    "proposed_id": "new-levocarnitine-muscle",
+    "decision": "Retain a substantive controlled human endurance reserve, with explicit small-study/statistical/access limits and DMD functional counterevidence.",
+    "not_established": [
+      "General muscle-strength or hypertrophy benefit",
+      "BUB1B/BubR1 restoration",
+      "MVA benefit",
+      "Genotype-specific or measured deficiency correction",
+      "Retail-product or derivative equivalence"
+    ],
+    "niacin_comparison": "Actual controlled endurance is empirical functional evidence; niacin retains separate human NAD engagement and restoration hypothesis. Neither has MVA rescue established.",
+    "apitegromab_comparison": "Does not replace the stronger randomized disease-specific motor-function comparison on this small CPEO study; MVA transfer is unproved for both.",
+    "creatine_comparison": "Creatine has separate selected DMD-strength positives and functional nulls; no head-to-head superiority inferred.",
+    "clinical_recommendation": false
+  },
+  "reading_manifest": {
+    "file": "reading-manifest.json",
+    "sha256": "104ef1c995380e8ad53054f97e8deed4b5545b88c6bdb250539a31d7c56e8c48"
+  },
+  "outer_reading_credit": 0,
+  "new_study_credit": 0,
+  "reviewer_performed_biological_replication": false,
+  "retrieval_manifest": {
+    "file": "retrieval-manifest.json",
+    "sha256": "d314b797fda59f69c084c374326d2bae1161af86be86e72131bb9cd9acae9461"
+  },
+  "search_manifest": {
+    "file": "search-manifest.json",
+    "sha256": "624a3f3b725b6257d945a3ec93192a44935894e5d4b5a8acf94f03c0f29f7593"
+  },
+  "optional_join_check": {
+    "file": "optional-join-check/decision-alias-joins.tsv",
+    "sha256": "bbb810f464c3565751ba8880231cd46afe92a1cbc5706932aa34d9ad69e5269d",
+    "scope": "Actual current join function with complete alias index; relevant catalog output restricted to CHEMBL1149; no repo writes."
+  },
+  "notice_check": {
+    "MM_core_comment_correction_list": null,
+    "scope": "Fresh exact-source indexed metadata and notice queries; no notice identified, not exhaustive assurance."
+  },
+  "source_reviewer_status": "External qualification and optional molecule appraisal; root admission pending",
+  "source_reviewer_repo_edited": false,
+  "source_reviewer_qualification_md": "qualification.md",
+  "source_reviewer_qualification_md_sha256": "ee4339d62fa6599ea3a2a5c0e1b32b2d62084762cab6d36d44152cdb2c094e9c",
+  "status": "INTEGRATED_WITH_EXACT_INTERVENTION_AND_SOURCE_DEPTH_LIMITS",
+  "qualification_md": "carnitine-muscle-qualification.md",
+  "qualification_md_sha256": "5c117b6a1677629676a5ab60249147e2f6622da8b6b1d760480ed6a564127de1",
+  "integration": {
+    "baseline": "46c4b0363e38499c3db8117b6e96a3df53386ae1",
+    "baseline_assessments": 227,
+    "current_assessments": 228,
+    "prior_decision_objects_unchanged": 227,
+    "new_decision_ids": [
+      "new-levocarnitine-muscle"
+    ],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/carnitine-muscle-primary-followup-20260923/qualification.json",
+      "sha256": "34c257cbd44c5eff17d670855fa37cb854678ce1f4c487a1cf1f06facd2ba985"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/carnitine-compound-integration-20260923/root-reading.json",
+      "sha256": "e61b6ca7eec518ae879b6cd35c170e38c0aa0ab30f956ac365b198322f66d58c"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/carnitine-compound-integration-20260923/independent-carnitine/findings.md",
+      "sha256": "91fb20470d7248daf3a4fb26e6c9cba16c52ae5001cbea80d7000a4edd443ef9"
+    },
+    "new_original_queue_credit": 0,
+    "independent_study_count_increment": 0,
+    "MVA_efficacy_or_nominee_superiority_established": false
+  }
+}

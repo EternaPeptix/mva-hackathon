@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-23",
+  "scope": "Four previously reviewed source abstracts, re-read unchanged for six NIH DSLD query roles only.",
+  "corpus": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/literature-gene-unrestricted.json",
+    "sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9"
+  },
+  "reader": {
+    "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/read_abstracts.py",
+    "sha256": "354ac74ad402b41a25239a17400aec4f12aff8f4caf18bdec18a82059866dada"
+  },
+  "literal_log": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/dsld-first-followups-20260923/literal-abstract-reading.jsonl",
+    "sha256": "e863417498317a9fdadcf09b646c19ba298486c77d68527d0ce92ed5ff9ecfd3",
+    "tool_chunk_id": "754396",
+    "output_truncated": false,
+    "end_of_batch_observed": true,
+    "emitted_records": 4,
+    "total_abstract_characters": 8294,
+    "method": "Exact read_abstracts.py output; original abstractText strings retained without HTML stripping or rewriting."
+  },
+  "source_abstracts": [
+    {
+      "source_id": "MED:31053147",
+      "title": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+      "abstract_sha256": "4110ceb3f817e7e9bbc498a27f90251617a085ae143a8dba92da58fa98635453",
+      "abstract_characters": 1733
+    },
+    {
+      "source_id": "MED:40220420",
+      "title": "Integrating thermal proteome profiling and virtual screening to reveal the mechanism of Bletilla striata against osteoclast-driven osteoporosis.",
+      "abstract_sha256": "840fcf7bb1c3edf0ff3ffc1bd66cf8326ab8d62a0c1a28523505014a21fd6de8",
+      "abstract_characters": 2120
+    },
+    {
+      "source_id": "MED:36389792",
+      "title": "Blood transcriptome analysis revealed the crosstalk between COVID-19 and HIV.",
+      "abstract_sha256": "a3b19ae531955a5d61120f61a5e8b745da638cb5206bcc7a9bab0200da728946",
+      "abstract_characters": 2954
+    },
+    {
+      "source_id": "MED:35684411",
+      "title": "Transcriptome Profiling of HCT-116 Colorectal Cancer Cells with RNA Sequencing Reveals Novel Targets for Polyphenol Nano Curcumin.",
+      "abstract_sha256": "03be151d741e6d2039f73bd977e93a8c8517b645b7529da06b130b036bf8e841",
+      "abstract_characters": 1487
+    }
+  ],
+  "prior_annotations_checked_before_abstract_read": {
+    "tool_chunk_id": "b3d664",
+    "end_marker_observed": "[END PRIOR ANNOTATION CHECK]",
+    "files": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/abstract-review-notes.json",
+        "sha256": "bf549392c8a9f273fd0a699663e0f9863427a71f7f08e39317486b77536a9c6f"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
+        "sha256": "5be5e5f7ca3717e36485016f0034b306e7ff189225b4004006470bd175c25ca6"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/literature-triage-summary.json",
+        "sha256": "a45fd528365c04bb9519a88964a412fda0a495dedaa20c8adefdb095a35c8d9c"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/lead-qualification.md",
+        "sha256": "034d9062bef786423fe7042ccab31ec31242eb9dd40272862b78f4e839a31dd8"
+      }
+    ]
+  },
+  "nih_match_snapshot": {
+    "resolved_run": "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/derived-170/runs/f18bc929796d98de657d",
+    "appraisals_in_input_ledger": 170,
+    "summary_sha256": "f18bc929796d98de657d8db165cf62b595b96daaf45ba88cc31a06845556c903",
+    "mentions_sha256": "eabe69f574125d0d97031683d72cf950f50087fb23c3375afeea7c4e89a356fc",
+    "name_crossrefs_sha256": "49f2b6ad20127c955e6b29214baa133f42d69f0e35b0feb96231b6cf010900a2",
+    "unflagged_selected_rows": 6,
+    "selected_groups_with_curated_appraisal_name_crossrefs": 0,
+    "note": "Missing literal name crossrefs do not imply no existing appraisal; Bletilla extract already appraised."
+  },
+  "read_limits": [
+    "All four complete saved abstracts actually read in this turn.",
+    "Prior exact-ID annotations and Bletilla appraisal inspected; no new main text, figures, supplements or raw experimental data read.",
+    "Publication and access metadata are preserved from the saved corpus, not freshly verified online.",
+    "A verbose metadata/summary inspection was truncated; no abstract reading relied on that output. Compact metadata and all six selected unflagged rows were subsequently displayed untruncated."
+  ],
+  "credit": {
+    "new_unique_abstract_reads": 0,
+    "new_outer_corpus_reads": 0,
+    "new_primary_reads": 0,
+    "new_drug_appraisals": 0,
+    "independent_biological_replication": false,
+    "new_query_role_annotations": 6
+  }
+}

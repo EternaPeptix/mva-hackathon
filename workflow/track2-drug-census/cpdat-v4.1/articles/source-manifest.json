@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "retrieval_date": "2026-09-28",
+  "source": "US EPA ChemExpo bulk composition download; CPDat 4.1 (May 2025, as labelled on current ChemExpo page)",
+  "source_page": "https://comptox.epa.gov/chemexpo/",
+  "download_page": "https://comptox.epa.gov/chemexpo/get_data/",
+  "file_url": "https://comptox.epa.gov/chemexpo/dl_co_chemicals/",
+  "download_response_filename": "ChemExpo_bulk_composition_chemicals_20260928.zip",
+  "license": "No separate license statement was captured on the live bulk-download page; the v4.0 CC0 designation is not applied to this v4.1 snapshot.",
+  "archive_cache_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cpdat-consumer-inventory-20260928/cpdat_v4.1_chemexpo_bulk_composition_20260928.zip",
+  "archive_bytes": 63166256,
+  "archive_sha256": "13c5f2993767d12ec75b47ec4d8d4ce3febb6640ebfa2ece502c32fe7243aa20",
+  "composition_csv_member": "ChemExpo_bulk_composition_chemicals.csv",
+  "composition_csv_uncompressed_bytes": 1083810855,
+  "composition_filter": "Selected PUC Kind and nonblank DTXSID",
+  "product_identity_basis": "Data Document ID + Product Name; not equivalent to v4.0 cpdat_product_id",
+  "source_corpus": "BUB1B/BUBR1 Europe PMC corpus frozen 2026-09-21",
+  "target_corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+  "decision_ledger_sha256": "b3802bba5a4a2aee7165511f8dcbff945d12808ef45515902d535a5616f66b5e",
+  "decision_ledger_count": 289,
+  "screening_script": "workflow/track2-drug-census/build_cpdat_bub1b_screen.py",
+  "screening_script_sha256": "beacd5c63fa1b7467c09e300ce4ed7ded9b41b833347ea781b7669851fcda7a3",
+  "puc_kind": "Article",
+  "output_table": "consumer-articles.tsv",
+  "outputs": [
+    {
+      "path": "README.md",
+      "bytes": 3496,
+      "sha256": "2fc43c3fdd623f2b53c5d8de4addb0ad0a3e76ab855af21596ee3f1c24920b94"
+    },
+    {
+      "path": "consumer-articles.tsv",
+      "bytes": 752660,
+      "sha256": "2b6710c7153e7ae255fa8bde058124dc212154a7971f1415181eafc868247f21"
+    },
+    {
+      "path": "product-category-summary.tsv",
+      "bytes": 731,
+      "sha256": "c420f6fb9d72bb04dfb114d40902d89eb40d96819762c4fc82319c80f186bd74"
+    },
+    {
+      "path": "bub1b-exact-name-co-mentions.tsv",
+      "bytes": 75321,
+      "sha256": "efe9c4f9699441d65669c7e3294a903f1b0f77fe6b578f104eebe2a7af7d605b"
+    },
+    {
+      "path": "screen-summary.json",
+      "bytes": 2716,
+      "sha256": "ce2005009e3d8c4daed35b707a90c54c57180214e543a143a349318c5e279404"
+    },
+    {
+      "path": "new-article-only-hit-triage.tsv",
+      "bytes": 3213,
+      "sha256": "854de6c72e4c6b010361f2eb02e69cf16764bab7b0207c61258462b225fbbb47"
+    },
+    {
+      "path": "../../ozone-bubr1b-qualification.md",
+      "bytes": 4216,
+      "sha256": "b7910d11a187e9e4e33b00d809bdcd64c416f75a13aa3bde1d20b2f6ed9a23d3"
+    },
+    {
+      "path": "../../ozone-bubr1b-qualification.json",
+      "bytes": 5502,
+      "sha256": "ae9f8637d04fe426a890a112c85b0d6aae96612a5d30f1e60394ce91b1f4737c"
+    },
+    {
+      "path": "../../ozone-bubr1b-reanalysis.json",
+      "bytes": 2047,
+      "sha256": "7ca3d42825a24906e1ef94ed1044dbc9c74c336bc0a82f06e85ff76158c3d1c0"
+    },
+    {
+      "path": "../../reanalyze_ozone_bubr1b.py",
+      "bytes": 5865,
+      "sha256": "ae693eaa62508a6f6014a3b52a7604b4f943c9433266358784a7b6818fe9c91a"
+    }
+  ],
+  "scope_limit": "Article-kind records include consumer and industrial categories. They are not evidence of purchase, exposure, therapeutic efficacy or complete chemical coverage."
+}

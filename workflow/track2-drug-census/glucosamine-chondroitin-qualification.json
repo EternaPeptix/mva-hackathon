@@ -1,0 +1,138 @@
+{
+  "schema_version": "bounded-primary-qualification-1",
+  "date": "2026-09-23",
+  "compound": "glucosamine hydrochloride plus sodium chondroitin sulfate",
+  "proposed_appraisal_id": "new-glucosamine-chondroitin",
+  "disposition": "human_inflammatory_biomarker_reserve_not_established_BUBR1_restoration_or_MVA_muscle_compensation",
+  "repository_baseline": "704600dbba982cc40b14ea539f5f8416b62e79e4",
+  "integration_status": "integrated_bounded_assessment",
+  "sources": [
+    {
+      "pmid": "25719429",
+      "pmcid": "PMC4342228",
+      "doi": "10.1371/journal.pone.0117534",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117534",
+      "reading_depth": "complete scientific body, all native tables, full supplied protocol, registry; selected source workbooks; Figure1 visually",
+      "raw_source_sha256": "1d9f929d76d49a728618fb48944c002249f6de2bb259efa5730ba1a089a8b415"
+    },
+    {
+      "registry": "NCT01682694",
+      "url": "https://clinicaltrials.gov/study/NCT01682694",
+      "raw_source_sha256": "5dcdbe12a3a899908f33ae05ad8938b706679381e3d6cc36404edb7c124d0bcf",
+      "primary_outcome": "hsCRP"
+    }
+  ],
+  "design": {
+    "randomized": 20,
+    "analyzed": 18,
+    "women": 9,
+    "men": 9,
+    "population": "healthy overweight adults aged20–55 years",
+    "crossover": true,
+    "period_days": 28,
+    "washout_days": 28,
+    "blinding": "double-blind as reported",
+    "post_randomization_exclusions": [
+      "new diet/exercise program",
+      "illness at visit"
+    ],
+    "intent_to_treat_all_20": false
+  },
+  "intervention": {
+    "type": "combined supplement, no monotherapy arms",
+    "glucosamine_hydrochloride_mg_day": 1500,
+    "sodium_chondroitin_sulfate_mg_day": 1200,
+    "materials": [
+      "FCHG49",
+      "TRH122"
+    ],
+    "placebo": "crystalline cellulose",
+    "manufacturer": "Nutramax",
+    "independent_content_check": "HPLC-UV within specifications; no active ingredients detected in placebo",
+    "human_dosing_recommendation": false,
+    "product_or_salt_equivalence_inferred": false
+  },
+  "measured_result": {
+    "primary": "CRP",
+    "source_reported_geometric_means_mg_L": {
+      "placebo": 1.17,
+      "combination": 0.9
+    },
+    "reported_percent_lower": 23,
+    "reported_P": 0.048,
+    "other_five_biomarkers": "not significant",
+    "no_adverse_events_reported": true,
+    "clinical_functional_outcome": "not measured",
+    "cancer_or_mortality_reduction": "observational background, not randomized trial outcome"
+  },
+  "BUB1B": {
+    "main_paper": "Table3 nucleus pathway membership, not individual response estimate",
+    "assay": "plasma antibody array",
+    "source_probe": "Plate6_C23_BUB1B_SDI",
+    "workbook": "pone.0117534.s003.xls",
+    "cell_range": "SA10+_18pairs_AfterNorm_M!A2134:AK2134",
+    "values": 35,
+    "complete_pairs": 17,
+    "blank": "M2134",
+    "gene_specific_P": null,
+    "drug_direction": "not assigned from unnamed coded groups",
+    "intracellular_or_functional_rescue": false,
+    "orthogonal_target_identity_validation": false,
+    "coded_case1_minus_case0_mean": -0.04501493786470589,
+    "coded_case1_minus_case0_SD": 0.5237546696480347,
+    "derived_result_scope": "descriptive source units; not covariate-adjusted model or fold change"
+  },
+  "analysis_limits": [
+    "Article baseline-adjusted Day28 GEE differs from protocol change-interaction wording; supplied workbook has one baseline per subject, model not reproduced.",
+    "3586 plasma data rows versus2938 analyzed antibodies; filtering not reproduced.",
+    "Array antibody specificity and extracellular origin unresolved; no total intracellular BUBR1 or segregation outcome.",
+    "Short small adult biomarker trial does not establish pediatric/long-term safety."
+  ],
+  "competition": "Preserve actual human CRP effect; do not infer either-component efficacy or current superiority to provisional niacin/apitegromab. Both leaders also lack demonstrated MVA efficacy.",
+  "source_check_file": "source-check.json",
+  "source_check_sha256": "fa56dc3cdc439c0b4e6ac4f56c5bbfd2f2ffd4bb40cca07ec45fbb9ecf584e59",
+  "read_scope": {
+    "main_text_parts": [
+      "05900a",
+      "83d65c",
+      "6abc0e",
+      "736374",
+      "5d87f0"
+    ],
+    "main_parts_endmarkers_observed": 5,
+    "protocol_parts_outputs": [
+      "a7d95c",
+      "007e18"
+    ],
+    "protocol_endmarkers_observed": 4,
+    "selected_workbook_outputs": [
+      "41bbcf",
+      "80f76d",
+      "1a2c31"
+    ],
+    "figure_visually_inspected": "pone.0117534.g001.jpg",
+    "not_read": [
+      "CONSORT checklist",
+      "all other plasma rows",
+      "all other figure/table images"
+    ]
+  },
+  "prior_abstract_reading": "outer-revalidation-batch11-review.json MED:25719429",
+  "automatic_outer_corpus_credit": 0,
+  "raw_sources_in_repository": false,
+  "independent_biological_replication": false,
+  "parent_integration": {
+    "date": "2026-09-23",
+    "baseline": "704600dbba982cc40b14ea539f5f8416b62e79e4",
+    "external_source_root": "common-symptom-followups-20260923/glucosamine-chondroitin",
+    "source_md_sha256": "a25b67cc12755fdf10c35a8fea591903302007064cb5b58988f8f8c31253f2df",
+    "source_json_sha256": "ff6ec9a9f3ced4c9761e5860904c21abfc703082e1461df91d6a564017d0f8d5",
+    "extra_outer_reading_credit": 0,
+    "new_ids": [
+      "new-glucosamine-chondroitin"
+    ],
+    "root_checks": "Complete scientific main text/tables and protocol, registry, selected plasma metadata/BUB1B row, all nonblank biomarker rows; Figure1 visually. Independent reviewer checked selected main methods/tables, registry and S1 exclusion rows, not the S2 matrix. A second reader subsequently parsed the native S2 row and independently confirmed 35 numeric values,17 complete pairs,blank M2134 and the descriptive paired arithmetic, without inferring a named treatment direction or adjusted P.",
+    "bounded_independent_check_sha256": "5933f4254eea33be9f08b3c31bd19eb5bb25ca7c8efc16524cd50c351b598cff",
+    "bounded_independent_check_file": "source-independent-check.json"
+  }
+}

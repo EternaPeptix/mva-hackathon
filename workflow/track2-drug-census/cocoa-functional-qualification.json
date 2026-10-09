@@ -1,0 +1,1327 @@
+{
+  "schema_version": 1,
+  "status": "SOURCE_QUALIFIED_PREPARATION_SPECIFIC_FUNCTIONAL_COMPARISON",
+  "source_qualification_date": "2026-09-27",
+  "appraisals": [
+    {
+      "candidate_id": "new-cocoa-pad-beverage",
+      "match_aliases": [
+        "COCOA-PAD flavanol-rich cocoa beverage"
+      ],
+      "source_key": "cocoa-pad"
+    },
+    {
+      "candidate_id": "new-cosmos-cocoa-extract",
+      "match_aliases": [
+        "COSMOS Mars Edge cocoa-extract capsules"
+      ],
+      "source_key": "cosmos"
+    }
+  ],
+  "comparison": "COCOA-PAD supplies a preparation-specific controlled walking positive primarily 2.5 hours after the last beverage, with pilot threshold, timing, missingness and observed harms limits. COSMOS supplies overall functional nulls for a different capsule preparation in a different population, with retained tandem-stand and opposing subgroup signals. Neither result is assigned to isolated ingredients or generic cocoa, and the effects are not pooled.",
+  "identity_policy": "The sole descriptive aliases identify the tested study preparations. They do not establish current retail identity, full composition, equivalence to chocolate or all cocoa/flavanols, or isolated epicatechin efficacy. No source catalogue match or absence is inferred by this qualification.",
+  "source_specific_qualifications": {
+    "cocoa-pad": {
+      "citation": {
+        "PMID": "32078436",
+        "PMCID": "PMC7141749",
+        "DOI": "10.1161/CIRCRESAHA.119.315600",
+        "journal": "Circulation Research",
+        "volume": 126,
+        "issue": 5,
+        "pages": "589-599",
+        "epub": "2020-02-14",
+        "issue_date": "2020-02-28"
+      },
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32078436/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7141749/",
+        "https://doi.org/10.1161/CIRCRESAHA.119.315600",
+        "https://clinicaltrials.gov/study/NCT02876887",
+        "https://clinicaltrials.gov/api/v2/studies/NCT02876887",
+        "https://cdn.clinicaltrials.gov/large-docs/87/NCT02876887/Prot_SAP_000.pdf"
+      ],
+      "preparation": {
+        "descriptive_label": "COCOA-PAD flavanol-rich cocoa beverage",
+        "manufacturer_and_supplier": "The Hershey Company",
+        "daily_source_dose": {
+          "cocoa_g": 15,
+          "epicatechin_mg": 75,
+          "beverages": 3
+        },
+        "duration_months": 6,
+        "source_dose_interpretation": "Daily totals reported in the original abstract, not per beverage; study description only.",
+        "administration": "Powder packets mixed with water or milk in main; protocol describes water.",
+        "placebo": "Hershey-manufactured cocoa-free/flavanol-free beverage, similar appearing and tasting, identically packaged with masked group labels.",
+        "protocol_energy_description": "Approximately 180 calories daily in each group; nearly identical nutritional content.",
+        "full_composition_status": "Online Table I was inaccessible. Exact complete macro/micronutrient, total-flavanol, caffeine and theobromine content, lot/COA and current retail equivalence remain unverified.",
+        "alias_scope": {
+          "descriptive_study_label": "COCOA-PAD flavanol-rich cocoa beverage",
+          "excluded_generic_aliases": [
+            "cocoa",
+            "chocolate",
+            "epicatechin",
+            "(-)-epicatechin",
+            "Hershey cocoa"
+          ],
+          "reason": "A study preparation label does not identify all cocoa products, isolated ingredients or a presently marketed product."
+        }
+      },
+      "design": {
+        "type": "Single-center parallel randomized masked pilot trial",
+        "site": "Northwestern University, Chicago",
+        "n_randomized": 44,
+        "allocation": {
+          "cocoa": 23,
+          "placebo": 21
+        },
+        "population": "Adults at least 60 years old with PAD; important mobility/comorbidity and procedure exclusions.",
+        "mean_age_SD_years": [
+          72.3,
+          7.1
+        ],
+        "mean_ABI_SD": [
+          0.66,
+          0.15
+        ],
+        "sex_counts": {
+          "men": 29,
+          "women": 15
+        },
+        "randomization": "Permuted blocks stratified by baseline six-minute walk. Protocol v15 specifies blocks of four and six and computerized assignment.",
+        "masking": "Main: participants, investigators, study staff and data management masked to A/B identities until end. Current registry: quadruple masking. Protocol uses D/F packet labels.",
+        "source_strata_typo": "Main gives 365.75 m versus 367.65 m at the split around 1200 feet; exact cutpoint wording is inconsistent and not silently repaired.",
+        "first_randomized": "2017-01-18",
+        "last_followup_main": "2018-10-30",
+        "muscle_analysis_completed_main": "2019-10-03",
+        "imbalances": {
+          "BMI_cocoa_placebo": [
+            27,
+            31
+          ],
+          "current_smokers_n": [
+            11,
+            3
+          ],
+          "African_American_n": [
+            19,
+            12
+          ]
+        },
+        "reported_adjustment": [
+          "BMI",
+          "race",
+          "smoking"
+        ],
+        "generalizability": "PAD walking limitations do not directly model inherited muscle disease, pediatric MVA or BUB1B variants."
+      },
+      "endpoint_measurement": {
+        "walking": "Six-minute corridor walk on a 100-foot course; instruction to cover as much distance as possible. Integrated mobility, not isolated muscle-force measurement.",
+        "two_primary_assessments": "Six-month change measured 2.5 h and 24 h after beverage.",
+        "secondary_treadmill": "Gardner-Skinner pain-free and maximal walking times at 48 h after beverage.",
+        "dose_timing": "Study beverage temporarily stopped for timed outcomes and resumed for biopsy/perfusion; most remaining outcomes obtained on continuing beverage.",
+        "durability_limit": "2.5 h combines chronic exposure with recent intake; timing arms do not isolate acute/chronic components or prove their interaction. The 24 h main analysis and 48 h treadmill nulls limit a durable withdrawal claim.",
+        "learning_fatigue": "Consecutive 2.5 h/24 h tests and different placebo responses permit learning/fatigue explanations, not established causal accounts."
+      },
+      "functional_results": {
+        "source": "PMID 32078436, PMC author manuscript Tables 3 and 4",
+        "adjustment": [
+          "smoking",
+          "body mass index",
+          "race"
+        ],
+        "dispersion": "Baseline and follow-up SD; within-group finite 90% CIs and between-group one-sided 90% CIs copied as reported. No CIs recalculated.",
+        "nonadditivity": "Raw baseline/follow-up means do not subtract to the adjusted within-group changes; the source footnotes explicitly attribute this to adjustment.",
+        "results": [
+          {
+            "endpoint": "Six-minute walk distance",
+            "analysis": "Main Table 3 observed outcomes; labelled intention to treat",
+            "months": 6,
+            "hours_after_last_beverage": 2.5,
+            "n": {
+              "cocoa": 17,
+              "placebo": 20
+            },
+            "baseline_mean_SD": {
+              "cocoa": [
+                348.6,
+                74.2
+              ],
+              "placebo": [
+                337.3,
+                85.2
+              ]
+            },
+            "followup_mean_SD": {
+              "cocoa": [
+                356.6,
+                64.0
+              ],
+              "placebo": [
+                322.0,
+                96.4
+              ]
+            },
+            "adjusted_within_group_change": {
+              "cocoa": 18.4,
+              "placebo": -24.2
+            },
+            "reported_within_group_90_CI": {
+              "cocoa": [
+                0.34,
+                36.5
+              ],
+              "placebo": [
+                -40.7,
+                -7.8
+              ]
+            },
+            "adjusted_between_group_difference": 42.6,
+            "reported_between_group_one_sided_90_CI": {
+              "lower": 22.2,
+              "upper": "+infinity"
+            },
+            "one_sided_P": 0.005,
+            "unit": "m"
+          },
+          {
+            "endpoint": "Six-minute walk distance",
+            "analysis": "Main Table 3 observed outcomes; labelled intention to treat",
+            "months": 6,
+            "hours_after_last_beverage": 24,
+            "n": {
+              "cocoa": 19,
+              "placebo": 20
+            },
+            "baseline_mean_SD": {
+              "cocoa": [
+                347.7,
+                74.3
+              ],
+              "placebo": [
+                329.1,
+                90.4
+              ]
+            },
+            "followup_mean_SD": {
+              "cocoa": [
+                353.0,
+                76.9
+              ],
+              "placebo": [
+                335.4,
+                92.5
+              ]
+            },
+            "adjusted_within_group_change": {
+              "cocoa": 15.1,
+              "placebo": -2.9
+            },
+            "reported_within_group_90_CI": {
+              "cocoa": [
+                -1.9,
+                32.1
+              ],
+              "placebo": [
+                -19.4,
+                13.6
+              ]
+            },
+            "adjusted_between_group_difference": 18.0,
+            "reported_between_group_one_sided_90_CI": {
+              "lower": -1.7,
+              "upper": "+infinity"
+            },
+            "one_sided_P": 0.12,
+            "unit": "m"
+          },
+          {
+            "endpoint": "Six-minute walk distance",
+            "analysis": "Main Table 3 multiple imputation for missing surviving participants",
+            "months": 6,
+            "hours_after_last_beverage": 2.5,
+            "n": {
+              "cocoa": 22,
+              "placebo": 21
+            },
+            "baseline_mean_SD": {
+              "cocoa": [
+                338.9,
+                74.7
+              ],
+              "placebo": [
+                330.7,
+                86.4
+              ]
+            },
+            "followup_mean_SD": {
+              "cocoa": [
+                337.7,
+                68.6
+              ],
+              "placebo": [
+                320.0,
+                92.3
+              ]
+            },
+            "adjusted_within_group_change": {
+              "cocoa": 9.8,
+              "placebo": -22.2
+            },
+            "reported_within_group_90_CI": {
+              "cocoa": [
+                -9.8,
+                29.4
+              ],
+              "placebo": [
+                -41.5,
+                -3.0
+              ]
+            },
+            "adjusted_between_group_difference": 32.0,
+            "reported_between_group_one_sided_90_CI": {
+              "lower": 8.6,
+              "upper": "+infinity"
+            },
+            "one_sided_P": 0.04,
+            "unit": "m"
+          },
+          {
+            "endpoint": "Six-minute walk distance",
+            "analysis": "Main Table 3 multiple imputation for missing surviving participants",
+            "months": 6,
+            "hours_after_last_beverage": 24,
+            "n": {
+              "cocoa": 22,
+              "placebo": 21
+            },
+            "baseline_mean_SD": {
+              "cocoa": [
+                338.9,
+                74.7
+              ],
+              "placebo": [
+                330.7,
+                86.4
+              ]
+            },
+            "followup_mean_SD": {
+              "cocoa": [
+                346.6,
+                74.2
+              ],
+              "placebo": [
+                336.4,
+                88.3
+              ]
+            },
+            "adjusted_within_group_change": {
+              "cocoa": 17.2,
+              "placebo": -4.3
+            },
+            "reported_within_group_90_CI": {
+              "cocoa": [
+                0.5,
+                34.0
+              ],
+              "placebo": [
+                -20.7,
+                12.1
+              ]
+            },
+            "adjusted_between_group_difference": 21.5,
+            "reported_between_group_one_sided_90_CI": {
+              "lower": 1.5,
+              "upper": "+infinity"
+            },
+            "one_sided_P": 0.084,
+            "unit": "m"
+          },
+          {
+            "endpoint": "Pain-free treadmill walking time",
+            "analysis": "Main Table 4",
+            "months": 6,
+            "hours_after_last_beverage": 48,
+            "n": {
+              "cocoa": 18,
+              "placebo": 19
+            },
+            "baseline_mean_SD": {
+              "cocoa": [
+                6.08,
+                4.28
+              ],
+              "placebo": [
+                5.23,
+                3.38
+              ]
+            },
+            "followup_mean_SD": {
+              "cocoa": [
+                6.22,
+                3.81
+              ],
+              "placebo": [
+                5.44,
+                3.2
+              ]
+            },
+            "adjusted_within_group_change": {
+              "cocoa": -0.07,
+              "placebo": 0.39
+            },
+            "reported_within_group_90_CI": {
+              "cocoa": [
+                -1.13,
+                1.0
+              ],
+              "placebo": [
+                -0.64,
+                1.43
+              ]
+            },
+            "adjusted_between_group_difference": -0.46,
+            "reported_between_group_one_sided_90_CI": {
+              "lower": -1.7,
+              "upper": "+infinity"
+            },
+            "one_sided_P": 0.68,
+            "unit": "minutes"
+          },
+          {
+            "endpoint": "Maximal treadmill walking time",
+            "analysis": "Main Table 4",
+            "months": 6,
+            "hours_after_last_beverage": 48,
+            "n": {
+              "cocoa": 18,
+              "placebo": 20
+            },
+            "baseline_mean_SD": {
+              "cocoa": [
+                8.86,
+                4.86
+              ],
+              "placebo": [
+                9.76,
+                7.4
+              ]
+            },
+            "followup_mean_SD": {
+              "cocoa": [
+                9.14,
+                4.43
+              ],
+              "placebo": [
+                9.76,
+                8.57
+              ]
+            },
+            "adjusted_within_group_change": {
+              "cocoa": -0.03,
+              "placebo": 0.28
+            },
+            "reported_within_group_90_CI": {
+              "cocoa": [
+                -1.16,
+                1.1
+              ],
+              "placebo": [
+                -0.79,
+                1.34
+              ]
+            },
+            "adjusted_between_group_difference": -0.31,
+            "reported_between_group_one_sided_90_CI": {
+              "lower": -1.6,
+              "upper": "+infinity"
+            },
+            "one_sided_P": 0.62,
+            "unit": "minutes"
+          },
+          {
+            "endpoint": "Free-living physical activity",
+            "analysis": "Main Table 4; seven-day accelerometer",
+            "months": 6,
+            "hours_after_last_beverage": null,
+            "n": {
+              "cocoa": 15,
+              "placebo": 19
+            },
+            "baseline_mean_SD": {
+              "cocoa": [
+                97812,
+                25410
+              ],
+              "placebo": [
+                89527,
+                54517
+              ]
+            },
+            "followup_mean_SD": {
+              "cocoa": [
+                98551,
+                43057
+              ],
+              "placebo": [
+                78447,
+                40182
+              ]
+            },
+            "adjusted_within_group_change": {
+              "cocoa": -1919,
+              "placebo": -8981
+            },
+            "reported_within_group_90_CI": {
+              "cocoa": [
+                -17743,
+                13904
+              ],
+              "placebo": [
+                -22743,
+                4780
+              ]
+            },
+            "adjusted_between_group_difference": 7062,
+            "reported_between_group_one_sided_90_CI": {
+              "lower": -10515,
+              "upper": "+infinity"
+            },
+            "one_sided_P": 0.3,
+            "unit": "activity counts"
+          }
+        ],
+        "additional_reported_sensitivities": [
+          {
+            "analysis": "Exclude two cocoa participants revascularized during follow-up",
+            "hours": 2.5,
+            "difference_m": 42.3,
+            "one_sided_90_CI": [
+              21.4,
+              "+infinity"
+            ],
+            "P": 0.006
+          },
+          {
+            "analysis": "Exclude two cocoa participants revascularized during follow-up",
+            "hours": 24,
+            "difference_m": 25.2,
+            "one_sided_90_CI": [
+              4.8,
+              "+infinity"
+            ],
+            "P": 0.058
+          },
+          {
+            "analysis": "Adjust for beverage adherence",
+            "hours": 2.5,
+            "difference_m": 46.5,
+            "one_sided_90_CI": [
+              26.6,
+              "+infinity"
+            ],
+            "P": 0.002
+          },
+          {
+            "analysis": "Adjust for beverage adherence",
+            "hours": 24,
+            "difference_m": 18.9,
+            "one_sided_90_CI": [
+              -1.2,
+              "+infinity"
+            ],
+            "P": 0.114
+          }
+        ],
+        "sensitivity_denominators": "Not supplied in this main-results prose; no reconstructed n assigned.",
+        "native_table_pixels_reviewed": false,
+        "main_HTML_tables_read_in_full": true
+      },
+      "missingness": {
+        "any_followup_n": 40,
+        "native_flow_followup_n": {
+          "cocoa": 19,
+          "placebo": 21
+        },
+        "cocoa_without_primary_or_secondary_tests": {
+          "death": 1,
+          "refusal": 1,
+          "questionnaire_only": 2
+        },
+        "walk_both_timepoints_n": 36,
+        "walk_only_2_5h_n": 1,
+        "walk_only_24h_n": 3,
+        "endpoint_n": "Table 3 observed 17/20 and 19/20; imputed survivors 22/21. Do not substitute randomized or any-follow-up counts.",
+        "imputation": "20 multiple imputations for missing survivors. One death excluded. Variables/model/seed and individual records not supplied sufficiently to reproduce.",
+        "ITT_label_limit": "Assigned groups retained regardless of adherence, but observed-outcome analyses contain fewer than 44 and imputation covers 43 survivors.",
+        "registry_denominator_difference": "Registry primary family uses 19/21 and treadmill family 18/19, while the main supplies timepoint-specific 17/20,19/20 and maximal treadmill 18/20. Main endpoint-specific values are retained.",
+        "adherence_packet_counts_percent": {
+          "all": [
+            68,
+            80
+          ],
+          "excluding_seven_discontinuers_who_returned": [
+            80,
+            87
+          ]
+        },
+        "native_flow_discontinued_intervention": {
+          "cocoa": 7,
+          "placebo": 2
+        },
+        "cocoa_discontinuation_reasons": {
+          "death": 1,
+          "lost_to_followup": 1,
+          "side_effect": 4,
+          "stroke": 1
+        }
+      },
+      "statistics_and_prespecification": {
+        "reported_rule": "One-sided P<.10; between-arm one-sided 90% confidence intervals.",
+        "main_power": "70% power for roughly 30 m difference, using SD 52 m and 20 participants per arm at one-sided .10.",
+        "protocol_version": 15,
+        "protocol_date": "2018-05-24",
+        "protocol_upload_date": "2020-04-20",
+        "protocol_amendment": "Section 11.3 says one-sided .10 and one-sided 90% CIs were selected after recruitment completed and before reviewing results. Native page 22 verified. Earlier sections retain two-sided 95% CIs and interval-precision calculations.",
+        "before_enrollment_rule_established": false,
+        "claimed_before_results_not_independently_verified": true,
+        "original_protocol_versions_and_registry_history_reviewed": false,
+        "multiplicity": "Two primary timings and numerous secondary/exploratory outcomes; no family-wise correction or prespecified multiplicity hierarchy established. Treat P values as nominal pilot analyses.",
+        "planned_missingness": "v15 discusses expected low missingness and an adherence-subset sensitivity restricted to at least 80%; does not document the final multiple-imputation procedure.",
+        "24h_robustness": "Observed analysis P=.12 and adherence adjustment P=.114; imputation P=.084 and revascularization exclusion P=.058 cross only the pilot .10 threshold.",
+        "raw_data_reanalysis": false,
+        "hierarchy_and_reporting_difference": "Protocol v15 lists perfusion and regeneration measures among secondary aims; main calls these exploratory. Planned TFAM is not reported in the reviewed main. This is a recorded document difference, not proof of selective reporting."
+      },
+      "registry": {
+        "nct": "NCT02876887",
+        "current_record_last_update_posted": "2020-08-06",
+        "first_posted": "2016-08-24",
+        "start": "2017-01",
+        "results_posted": "2020-08-06",
+        "results_present": true,
+        "enrollment": 44,
+        "current_primary_completion": "2019-10-15",
+        "interpretation": "Registration predates trial start according to current metadata, but original endpoint wording and amendment history were not retrieved. Primary-completion date differs from final clinical follow-up in article; later laboratory work occurred, but the registry date rationale was not verified.",
+        "IPD_sharing": "Current record says NO; main says supporting data available upon reasonable request."
+      },
+      "muscle_biology": {
+        "baseline_tissue_n": 21,
+        "baseline_biopsy_attempts_n": 22,
+        "repeat_biopsy_n": 17,
+        "selection": "Optional biopsy subset, not all randomized participants. Biochemical assays generally 10/6; histology 11/6.",
+        "COX": {
+          "n": [
+            10,
+            6
+          ],
+          "unit": "nmol/min/mg protein",
+          "baseline_mean_SD": {
+            "cocoa": [
+              65.1,
+              64.3
+            ],
+            "placebo": [
+              131.4,
+              95.4
+            ]
+          },
+          "adjusted_changes": [
+            -4.6,
+            -90.0
+          ],
+          "adjusted_difference": 85.5,
+          "one_sided_90_CI": [
+            40.4,
+            "+infinity"
+          ],
+          "P": 0.013,
+          "interpretation": "Relative contrast largely from greater placebo decline, not an observed within-cocoa enzyme increase; baseline values differ substantially."
+        },
+        "capillary_density": {
+          "n": [
+            11,
+            6
+          ],
+          "adjusted_changes": [
+            0.07,
+            -0.31
+          ],
+          "difference": 0.38,
+          "one_sided_90_CI": [
+            0.17,
+            "+infinity"
+          ],
+          "P": 0.014,
+          "measurement": "Lectin-positive capillaries relative to fiber number in methods."
+        },
+        "central_nuclei": {
+          "n": [
+            11,
+            6
+          ],
+          "unit": "percent of total",
+          "adjusted_changes": [
+            0.25,
+            7.34
+          ],
+          "difference": -7.1,
+          "one_sided_90_CI": [
+            "-infinity",
+            -2.33
+          ],
+          "P_table5": 0.033,
+          "P_author_abstract": 0.024,
+          "interpretation": "Relative reduction versus placebo increase, not a demonstrated within-cocoa reduction or renewal-fidelity assay."
+        },
+        "perfusion": {
+          "n": [
+            13,
+            13
+          ],
+          "reported_unit": "ml/min/100 gram",
+          "analysis": "Log-transformed data per Table 5 footnote; retain reported scale, do not reinterpret as an untransformed absolute flow gain.",
+          "difference": 0.42,
+          "one_sided_90_CI": [
+            0.004,
+            "+infinity"
+          ],
+          "P": 0.098
+        },
+        "nulls": [
+          "PGC1alpha P=.40",
+          "myostatin P=.69",
+          "follistatin P=.74",
+          "citrate synthase P=.41",
+          "Pax7-positive cells P=.29",
+          "embryonic-myosin-positive fibers P=.17",
+          "nitrotyrosine P=.86",
+          "4-HNE P=.40"
+        ],
+        "native_figure2": "Same tissue sample before/after lamin A/C staining; nuclear envelope surrounds DAPI signal, supporting central-nucleus identity. Not a treatment before/after panel.",
+        "mediation_and_fidelity": "Concurrent randomized-subset biochemical/histological differences do not demonstrate mediation of walking, purified epicatechin causality, satellite-cell self-renewal, chromosome fidelity, BUBR1 or MVA rescue."
+      },
+      "harms_and_support": {
+        "serious_events_main": [
+          7,
+          2
+        ],
+        "registry_serious_affected_and_at_risk": {
+          "cocoa": [
+            7,
+            23
+          ],
+          "placebo": [
+            2,
+            21
+          ]
+        },
+        "death": {
+          "cocoa": 1,
+          "placebo": 0,
+          "reported_cause": "Myocardial infarction"
+        },
+        "cocoa_events": [
+          "fatal myocardial infarction",
+          "two lower-extremity vascular-procedure hospitalizations",
+          "ischemic stroke",
+          "foot infection",
+          "urinary difficulty",
+          "depression"
+        ],
+        "placebo_events": [
+          "atrial fibrillation/dyspnea hospitalization",
+          "cough/chest pain hospitalization"
+        ],
+        "attribution": "Main states no serious event considered likely related to study participation. Do not upgrade this to proof of unrelatedness or safety.",
+        "adjudication_limit": "Protocol plans blinded DSMB review at least six-monthly and continuous AE monitoring; case-level adjudication records/DSMB minutes not obtained.",
+        "nonserious_event_limit": "Registry explicitly says information about other adverse events was not collected; zero/zero other-event fields are not evidence of absence. Native flow records four cocoa discontinuations for side effects.",
+        "smoking_explanation": "Authors hypothesize higher cocoa-arm smoking could contribute; this is not demonstrated causation.",
+        "funding": [
+          "National Institute on Aging R21-AG050897 and intramural office",
+          "NIH Office of Dietary Supplements"
+        ],
+        "in_kind": [
+          "Hershey supplied cocoa/placebo",
+          "Mars performed epicatechin/valerolactone/theobromine assays"
+        ],
+        "disclosures": [
+          "Acknowledged assay contributor Javier Ottaviani employed by Mars",
+          "Francisco Villarreal co-founder/stockholder of Cardero Therapeutics",
+          "McDermott other research support from Helixmith, Reserveage, Chromadex, ArtAssist, described as unrelated"
+        ]
+      },
+      "publication_status": {
+        "as_of": "2026-09-27",
+        "citation": {
+          "PMID": "32078436",
+          "PMCID": "PMC7141749",
+          "DOI": "10.1161/CIRCRESAHA.119.315600",
+          "journal": "Circulation Research",
+          "volume": 126,
+          "issue": 5,
+          "pages": "589-599",
+          "epub": "2020-02-14",
+          "issue_date": "2020-02-28"
+        },
+        "pubmed_publication_types": [
+          "Clinical Trial, Phase II",
+          "Journal Article",
+          "Randomized Controlled Trial",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, N.I.H., Intramural"
+        ],
+        "pubmed_comments_corrections": [
+          {
+            "type": "CommentIn",
+            "text": "Circ Res. 2020 Feb 28;126(5):600-602. doi: 10.1161/CIRCRESAHA.120.316614.32078440"
+          }
+        ],
+        "crossref_update_to": [],
+        "crossref_relation": {},
+        "targeted_search_queries": [
+          "\"COCOA-PAD\" \"retraction\" correction",
+          "\"CIRCRESAHA.119.315600\" correction retraction erratum"
+        ],
+        "result": "No matching correction/retraction notice was exposed by retained PubMed/Crossref metadata or these bounded searches. The linked PMID 32078440 is an editorial CommentIn, not a correction. This is not a comprehensive publication-integrity audit.",
+        "source_version_discrepancies": [
+          "Author-manuscript abstract states central-nuclei P=.024, whereas its Table 5 and the final PubMed abstract state .033. Use the actual Table 5 result and retain the discrepancy.",
+          "Author-manuscript randomization text gives baseline-walk cutpoints 365.75 and 367.65 metres; no silent harmonization of the printed mismatch."
+        ]
+      },
+      "cohort_credit": {
+        "primary_cohorts": 1,
+        "discovery_is_same_cohort": true,
+        "additional_conference_or_followup_cohort_credit": 0,
+        "existing_sources_distinct": [
+          "PMID 30299198 source-labelled epicatechin sarcopenia trial",
+          "ECGU mixture and Potentilla source",
+          "methyl-relative astrocyte source",
+          "CINRG cocoa vehicle"
+        ]
+      },
+      "conclusion": "Retain a preparation-specific controlled mobility-compensation challenger. The direct 2.5 h walking contrast merits consideration under the same endpoint and access standards as provisional nominees; pilot amendment, multiple outcomes, missingness, 24 h sensitivity and 48 h nulls, preparation limits and observed harms prevent definitive efficacy/safety or broad ingredient claims. No nomination replacement or MVA benefit established."
+    },
+    "cosmos": {
+      "study": {
+        "id": "chou2026_cosmos_physical_function",
+        "title": "Effects of cocoa extract supplementation on physical performance measures: results from the randomized controlled COcoa Supplement and Multivitamin Outcomes study",
+        "pmid": "42004609",
+        "pmcid": "PMC13089503",
+        "doi": "10.1093/jbmrpl/ziag041",
+        "journal": "JBMR Plus",
+        "year": 2026,
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13089503/",
+        "electronic_publication_date": "2026-03-18",
+        "corrected_typeset_date": "2026-04-16",
+        "version_notice_limit": "Corrected-typeset is a production date, not a formal correction notice. No linked correction/retraction exposed by retained Crossref/XML metadata; no exhaustive notice search."
+      },
+      "preparation": {
+        "description": "Mars Edge cocoa extract capsules",
+        "route": "oral",
+        "reported_daily_capsules": 2,
+        "total_flavanols_mg_per_day": 500,
+        "minus_epicatechin_mg_per_day": 80,
+        "theobromine_mg_per_day_approx": 50,
+        "caffeine_mg_per_day_approx": 15,
+        "control": "Cocoa-extract placebo",
+        "unknowns": [
+          "Full capsule/excipient composition",
+          "Whether placebo matched methylxanthines"
+        ],
+        "separate_factor": "Centrum Silver multivitamin/multimineral versus its placebo; supplied by Pfizer Consumer Healthcare, now Haleon",
+        "attribution_limit": "Whole-extract result; no isolated epicatechin, arbitrary cocoa product, chocolate, or food-equivalence credit."
+      },
+      "design": {
+        "type": "Double-blind placebo-controlled 2 × 2 factorial parent RCT, with clinic functional subset",
+        "randomization": "Computer-generated permuted blocks; parent report describes stratification by sex, age and recruitment source, blocks of 12, and household members assigned together where possible",
+        "parent_randomized_n": 21442,
+        "clinic_baseline_n": 603,
+        "clinic_cocoa_n": 299,
+        "clinic_cocoa_placebo_n": 304,
+        "baseline_factorial_cells": {
+          "cocoa_plus_mvm": 154,
+          "cocoa_plus_mvm_placebo": 145,
+          "cocoa_placebo_plus_mvm": 135,
+          "double_placebo": 169
+        },
+        "two_year_returned_n": 535,
+        "not_completing_two_year_visit_n": 68,
+        "retention_percent": 88.7,
+        "attrition_limit": "Native supplementary flowchart does not supply arm-specific losses or reasons; task counts are pooled observations at each visit, not necessarily complete-pair analysis counts.",
+        "functional_followup_years": 2,
+        "functional_followup_end": "2020-11",
+        "parent_intervention_median_years": 3.6,
+        "run_in": "Two-month placebo run-in, at least 75% self-reported pill adherence required",
+        "population": "Generally healthy ambulatory parent-trial participants within 50 miles of Boston; women aged at least 65 and men at least 60",
+        "mean_age_years": 69.7,
+        "women_percent": 49.3,
+        "non_hispanic_white_percent": 96.5,
+        "low_function_prevalence": "Low grip 6.5% of men and 8.1% of women; SPPB ≤8 in 2.1%; only one TUG >20 seconds; no gait ≤0.8 m/s or chair stands >15 seconds",
+        "nonstudy_supplements": "Personal cocoa extract and MVM supplements prohibited",
+        "analysis_estimand": "Cocoa versus cocoa placebo, averaged across MVM assignment; repeated-measures treatment × time contrast adjusted for age, sex and MVM assignment",
+        "missingness": "All available data; missing-at-random assumption; no participant-level reanalysis"
+      },
+      "hierarchy_registration": {
+        "ancillary_primary_aim": "Injurious/recurrent falls",
+        "physical_function_aim": "Secondary aim of ancillary study",
+        "author_reported_prespecified_functional_primaries": [
+          "grip strength",
+          "walking speed",
+          "SPPB"
+        ],
+        "secondary_sensitivity": [
+          "BMI-normalized grip"
+        ],
+        "secondary_list": [
+          "normal walking speed, also under primary walking-speed language",
+          "fast walking speed",
+          "standing balance",
+          "chair stands",
+          "TUG"
+        ],
+        "exploratory": [
+          "Subgroup analyses",
+          "Individual balance-position sensitivity analyses"
+        ],
+        "unresolved_normal_speed_hierarchy": "Normal walking speed appears both under primary walking-speed language and in the secondary list.",
+        "ancillary_registry": "NCT05232669",
+        "registry_first_posted": "2022-02-10",
+        "current_registry_last_posted": "2026-04-13",
+        "current_registry_endpoints": [
+          "Injurious falls resulting in healthcare utilization",
+          "Recurrent falls"
+        ],
+        "temporal_limit": "Current registry and 2023 published design follow the completed 2020 functional data collection. They support reported aims but do not independently verify prospective registration of the functional hierarchy. No historical registry versions or pre-unblinding protocol/SAP were read.",
+        "design_report": "PMID36621596 / PMC10732156 / DOI10.1016/j.cct.2023.107078; selected aims, physical-assessment, analysis-plan and power sections read",
+        "analysis_plan_difference": "Published design named recruitment-source and key-baseline-imbalance adjustment; final report names age, sex and MVM. Effect of this difference is unknown.",
+        "multiplicity": "P<.05; source explicitly states no adjustment for multiple hypotheses. Nominal findings are not automatically spurious.",
+        "power_limit": "Reported prospective/post hoc detectable differences are not equivalence margins."
+      },
+      "main_functional_results": [
+        {
+          "endpoint": "grip_men",
+          "unit": "kg",
+          "cocoa_minus_placebo_change": -0.23,
+          "standard_error": 0.68,
+          "p_value": 0.74,
+          "baseline_observations": 306,
+          "year_two_observations": 272,
+          "hierarchy": "primary",
+          "locator": "Main Table 2",
+          "ci": null,
+          "ci_status": "not reported; not calculated"
+        },
+        {
+          "endpoint": "grip_women",
+          "unit": "kg",
+          "cocoa_minus_placebo_change": -0.48,
+          "standard_error": 0.45,
+          "p_value": 0.29,
+          "baseline_observations": 297,
+          "year_two_observations": 263,
+          "hierarchy": "primary",
+          "locator": "Main Table 2",
+          "ci": null,
+          "ci_status": "not reported; not calculated"
+        },
+        {
+          "endpoint": "sppb",
+          "unit": "points",
+          "cocoa_minus_placebo_change": 0.13,
+          "standard_error": 0.09,
+          "p_value": 0.15,
+          "baseline_observations": 569,
+          "year_two_observations": 509,
+          "hierarchy": "primary",
+          "locator": "Main Table 2",
+          "ci": null,
+          "ci_status": "not reported; not calculated"
+        },
+        {
+          "endpoint": "normal_walking_speed",
+          "unit": "m/s",
+          "cocoa_minus_placebo_change": 0.01,
+          "standard_error": 0.01,
+          "p_value": 0.35,
+          "baseline_observations": 599,
+          "year_two_observations": 529,
+          "hierarchy": "walking speed designated primary; normal speed also listed as secondary",
+          "locator": "Main Table 2",
+          "ci": null,
+          "ci_status": "not reported; not calculated"
+        },
+        {
+          "endpoint": "fast_walking_speed",
+          "unit": "m/s",
+          "cocoa_minus_placebo_change": 0.01,
+          "standard_error": 0.02,
+          "p_value": 0.72,
+          "baseline_observations": 587,
+          "year_two_observations": 522,
+          "hierarchy": "secondary",
+          "locator": "Main Table 2",
+          "ci": null,
+          "ci_status": "not reported; not calculated"
+        },
+        {
+          "endpoint": "total_standing_balance",
+          "unit": "seconds",
+          "cocoa_minus_placebo_change": 0.2,
+          "standard_error": 0.24,
+          "p_value": 0.39,
+          "baseline_observations": 595,
+          "year_two_observations": 526,
+          "hierarchy": "secondary",
+          "locator": "Main Table 2",
+          "ci": null,
+          "ci_status": "not reported; not calculated"
+        },
+        {
+          "endpoint": "five_chair_stands",
+          "unit": "seconds",
+          "cocoa_minus_placebo_change": -0.01,
+          "standard_error": 0.25,
+          "p_value": 0.98,
+          "baseline_observations": 573,
+          "year_two_observations": 513,
+          "hierarchy": "secondary",
+          "locator": "Main Table 2",
+          "ci": null,
+          "ci_status": "not reported; not calculated"
+        },
+        {
+          "endpoint": "timed_up_and_go",
+          "unit": "seconds",
+          "cocoa_minus_placebo_change": 0.04,
+          "standard_error": 0.11,
+          "p_value": 0.75,
+          "baseline_observations": 597,
+          "year_two_observations": 522,
+          "hierarchy": "secondary",
+          "locator": "Main Table 2",
+          "ci": null,
+          "ci_status": "not reported; not calculated"
+        }
+      ],
+      "functional_methods": {
+        "grip": "Dominant-hand JAMAR Plus+ digital dynamometer; twice at each visit, mean used",
+        "gait": "Normal and fast pace over timed 6 m within a 7 m course with rolling start; twice, mean used",
+        "sppb": "0–12 points combining gait, five chair stands, and balance",
+        "tug": "Rise from chair, walk 3 m, turn, return and sit; twice, mean used",
+        "balance": "Side-by-side, semi-tandem and tandem up to 10 seconds each; assessed once"
+      },
+      "sensitivity_results": [
+        {
+          "endpoint": "BMI-normalized grip overall",
+          "effect": -0.02,
+          "se": 0.02,
+          "p_value": 0.35,
+          "unit": "kg per kg/m²",
+          "baseline_observations": 603,
+          "year_two_observations": 535,
+          "locator": "Supplementary Table 3",
+          "sex_specific_p_values": {
+            "men": 0.81,
+            "women": 0.56
+          },
+          "ci": null
+        },
+        {
+          "endpoint": "Semi-tandem stand",
+          "effect_seconds": -0.04,
+          "se_seconds": 0.03,
+          "p_value": 0.19,
+          "baseline_observations": 590,
+          "year_two_observations": 525,
+          "locator": "Supplementary Table 3",
+          "ci": null
+        },
+        {
+          "endpoint": "Tandem stand",
+          "cocoa_change_seconds": 0.52,
+          "cocoa_se_seconds": 0.12,
+          "placebo_change_seconds": 0.17,
+          "placebo_se_seconds": 0.11,
+          "effect_seconds": 0.35,
+          "se_seconds": 0.16,
+          "p_value_table": 0.03,
+          "p_value_prose": 0.028,
+          "baseline_observations": 579,
+          "year_two_observations": 511,
+          "locator": "Supplementary Table 3; rendered supplement page 6",
+          "interpretation": "Positive nominal treatment contrast; sensitivity outcome with 10-second ceiling, not an overall primary benefit",
+          "ci": null
+        }
+      ],
+      "subgroup_findings": [
+        {
+          "endpoint": "Grip by at least one prior-year fall",
+          "interaction_p": "<.001",
+          "interaction_type": "time × treatment × prior-fall subgroup",
+          "with_fall": {
+            "cocoa_baseline_n": 90,
+            "placebo_baseline_n": 87,
+            "cocoa_change_kg": -7.66,
+            "cocoa_se": 0.57,
+            "placebo_change_kg": -9.49,
+            "placebo_se": 0.57,
+            "treatment_p": 0.02,
+            "direction": "favors cocoa"
+          },
+          "without_fall": {
+            "cocoa_baseline_n": 206,
+            "placebo_baseline_n": 217,
+            "cocoa_change_kg": -10.34,
+            "cocoa_se": 0.4,
+            "placebo_change_kg": -8.71,
+            "placebo_se": 0.39,
+            "treatment_p": 0.004,
+            "direction": "favors placebo"
+          },
+          "locator": "Main Table 3"
+        },
+        {
+          "endpoint": "Grip by at least two prior-year falls",
+          "interaction_p": 0.01,
+          "with_two_or_more_falls": {
+            "cocoa_baseline_n": 31,
+            "placebo_baseline_n": 41,
+            "cocoa_change_kg": -8.68,
+            "cocoa_se": 1.06,
+            "placebo_change_kg": -11.13,
+            "placebo_se": 0.9,
+            "treatment_p": 0.08,
+            "interpretation": "Positive point estimate without statistically established within-subgroup difference"
+          },
+          "without_two_or_more_falls": {
+            "cocoa_baseline_n": 265,
+            "placebo_baseline_n": 263,
+            "cocoa_change_kg": -9.65,
+            "cocoa_se": 0.35,
+            "placebo_change_kg": -8.61,
+            "placebo_se": 0.35,
+            "treatment_p": 0.04,
+            "direction": "favors placebo"
+          },
+          "locator": "Main Table 3"
+        },
+        {
+          "endpoint": "Grip sex analysis among prior fallers",
+          "reported_sex_interaction_p": 0.016,
+          "men": {
+            "cocoa_change_kg": -10.28,
+            "cocoa_se": 1.0,
+            "placebo_change_kg": -13.53,
+            "placebo_se": 0.85,
+            "treatment_p": 0.016
+          },
+          "women": {
+            "cocoa_change_kg": -6.48,
+            "cocoa_se": 0.51,
+            "placebo_change_kg": -6.34,
+            "placebo_se": 0.56,
+            "treatment_p": 0.85
+          },
+          "endpoint_n": null,
+          "locator": "Main Results prose"
+        },
+        {
+          "endpoint": "Normal gait by general health",
+          "interaction_p": 0.01,
+          "excellent_health": {
+            "cocoa_baseline_n": 98,
+            "placebo_baseline_n": 113,
+            "cocoa_change_m_per_s": -0.01,
+            "cocoa_se": 0.01,
+            "placebo_change_m_per_s": -0.07,
+            "placebo_se": 0.01,
+            "treatment_p": 0.003
+          },
+          "locator": "Main Table 3",
+          "limit": "Conflicts with prose statement of no effect modification by general health; retained as nominal exploratory table result."
+        },
+        {
+          "endpoint": "SPPB in MVM-assigned subgroup",
+          "cocoa_baseline_n": 154,
+          "placebo_baseline_n": 135,
+          "cocoa_change_points": -0.05,
+          "cocoa_se": 0.09,
+          "placebo_change_points": -0.34,
+          "placebo_se": 0.09,
+          "treatment_p": 0.02,
+          "cocoa_by_mvm_interaction_p": 0.1,
+          "locator": "Main Table 3",
+          "limit": "Significant within-subgroup treatment contrast does not establish differential response to MVM assignment."
+        }
+      ],
+      "interpretive_limits": {
+        "overall": "No demonstrated overall cocoa benefit on functional primary outcomes; no equivalence inference.",
+        "calibration": "Authors acknowledge possible equipment calibration issue between baseline and year two. Absolute grip trajectory and measurement validity are uncertain. Comparable equipment/protocol across randomized groups was reported; randomization contrast is not presumed wholly invalid. Calibration records unavailable.",
+        "exposure": "Urinary gVLM treatment difference P<.001 supports differential exposure, not functional efficacy.",
+        "subgroup_n": "Table subgroup Ns are baseline group labels, not verified endpoint-completer denominators.",
+        "source_sign_inconsistency": "Main Table 3 high-baseline-gVLM cocoa grip change prints +10.35 (SE .57) versus placebo −9.38 (.55), treatment P=.22. Sign unresolved, not silently corrected or used as positive efficacy evidence.",
+        "safety_citation_inconsistency": "Functional report cites ref30 for parent adverse effects, but ref30 is a Jamar dynamometer article; parent primary safety text was checked directly.",
+        "raw_data": "Data/code available upon approved request; no raw participant data or calibration records accessed.",
+        "inferences_not_supported": [
+          "MVA or BUB1B rescue",
+          "Isolated epicatechin efficacy",
+          "Generic cocoa-wide failure",
+          "Equivalence or proof of no meaningful effect",
+          "Clinical or potency superiority",
+          "Nomination replacement"
+        ]
+      },
+      "mvm_context": {
+        "same_cohort": true,
+        "overall_functional_results": "No demonstrated overall MVM benefit; Main supplemental Table 2/3 and all S4 subgroup rows read. This is a separate factor in the same cohort, not biological replication.",
+        "source": "Supplementary Tables 1–4"
+      },
+      "harms": {
+        "clinic_subset_counts": "Not supplied in inspected functional main/supplement",
+        "parent_context_only": {
+          "source_pmid": "35294962",
+          "source_pmcid": "PMC9170467",
+          "source_doi": "10.1093/ajcn/nqac055",
+          "parent_randomized_n": 21442,
+          "nausea": {
+            "hazard_ratio": 1.06,
+            "ci_95": [
+              1.02,
+              1.11
+            ]
+          },
+          "flu_like_symptoms": {
+            "hazard_ratio": 0.95,
+            "ci_95": [
+              0.91,
+              0.99
+            ]
+          },
+          "other_headaches": {
+            "hazard_ratio": 0.95,
+            "ci_95": [
+              0.91,
+              0.99
+            ]
+          },
+          "migraine": {
+            "hazard_ratio": 0.85,
+            "ci_95": [
+              0.78,
+              0.93
+            ]
+          },
+          "reading_limit": "Selected parent Methods, formulation and safety Results paragraphs only; not full parent main/native safety supplement. No raw event counts extracted."
+        }
+      },
+      "funding_conflicts": {
+        "ancillary": "NIA R01AG071611; 1UL1TR001102 and 1UL1TR002541-01",
+        "parent": "NIH AG050657, AG071611, EY025623, HL157665; Mars Edge infrastructure support and study pills/packaging; Pfizer Consumer Healthcare (now Haleon) study pills/packaging",
+        "author_disclosures": "Sesso and Manson report related Mars/Pfizer support; Sesso other industry grants and honoraria/travel; LeBoff unrelated Amgen stock; other authors report NIH/public support or none."
+      },
+      "cohort_relationships": {
+        "parent_cosmos": "Physical-function, MVM, fracture, cardiovascular/cancer and design reports overlap the COSMOS parent cohort; no independent functional replication credit.",
+        "cocoa_pad": {
+          "distinct_trial": true,
+          "source_pmid": "32078436",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7141749/",
+          "preparation": "Hershey cocoa beverage, 15 g cocoa and 75 mg epicatechin daily",
+          "population_n": 44,
+          "population": "Peripheral artery disease",
+          "duration_months": 6,
+          "endpoint": "Six-minute walk distance",
+          "comparison_limit": "Different preparation, population, task and follow-up from COSMOS capsules; no pooling or product interchangeability. Prior frozen primary Methods/abstract context reused; no new COCOA-PAD retrieval or full reappraisal."
+        }
+      },
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13089503/",
+        "https://doi.org/10.1093/jbmrpl/ziag041",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13089503/supplementaryFiles",
+        "https://clinicaltrials.gov/study/NCT05232669",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10732156/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9170467/"
+      ]
+    }
+  },
+  "source_and_review_provenance": {
+    "cocoa-pad": {
+      "primary_final_manifest_sha256": "789ac25f1bff5c68cdc63b2bea9729e8fee3af9d4a08b6dca4480c76b82ee174",
+      "primary_qualification_md_sha256": "dd6d0361a9be0241e01657a4da633064f051c4b100f6c0d7f7b388b698bd378f",
+      "primary_qualification_json_sha256": "8087afb6bfd9b040af2e3f5a9a5ebccc2f606ab520df05ffbd6f9d5ebe9e692f",
+      "primary_reading_scope_sha256": "c26c95fff1e14061c6b2371cb555cb7bf257d9d12510e194c2edbf86557a8821",
+      "primary_source_manifest_sha256": "d5e84f3f83c7345a4e2ea19dc16f7aedd2b1814d85c6a6cafa04a3fdc3b6d713",
+      "independent_review_status": "ACCEPT",
+      "independent_review_json_sha256": "1fc23c639d7f112a894145a99cc0ac2028b7387b14ff7ff1633eb85c9359b749",
+      "independent_review_manifest_sha256": "3812c0acc7dd8862a2464078255566c14ccdb594d14c870f2eb2b55e966bc0ad",
+      "reading_depth": {
+        "primary": "Complete accessible author-manuscript scientific main, all five HTML tables and both captions; native Figures 1 and 2. Selected protocol/SAP v15 pages 3, 4, 8–13, 21–25 and 32, with native page 22; page 25 beyond the displayed biopsy-risk paragraph not fully read. Current registry design/results/harms fields and original PubMed abstract/metadata.",
+        "protocol_version_date": "v15, 2018-05-24; 41 pages total, not all read",
+        "not_read": [
+          "Online supplement",
+          "Native main-table pixels",
+          "Usable final publisher PDF",
+          "Original protocol versions or historical registry",
+          "Case-level adverse-event adjudication",
+          "Participant data"
+        ],
+        "independent": "Accepted full retained scientific main/textual-table/caption review, native Figures 1 and 2 and protocol page 22; selected protocol and current registry fields. No claim of complete protocol, supplement, native table pixels, historical registry or new notice search."
+      }
+    },
+    "cosmos": {
+      "primary_final_manifest_sha256": "883f76e4aad246a6b24d5f7d26dcb5a7204ffd0fe9fda071603caba8276e1156",
+      "primary_qualification_md_sha256": "7d2216397895dadd605f3c681b731f394b5793c60cc78042b4eaec6e74f3793a",
+      "primary_qualification_json_sha256": "f61b7fba7707bfe212f54c39de605cbc8192091b350ef0f2c56a480d581b4863",
+      "primary_reading_scope_sha256": "697dc4a1af09d7b6492c10197b3185ef1f69795ff73076ae6d82fc9132484059",
+      "primary_source_manifest_sha256": "939cd65a9a7f835dff9ca19bd33febef6df24eed587f833350121dfa4de5f160",
+      "independent_review_status": "ACCEPT",
+      "independent_review_json_sha256": "1fc23c639d7f112a894145a99cc0ac2028b7387b14ff7ff1633eb85c9359b749",
+      "independent_review_manifest_sha256": "3812c0acc7dd8862a2464078255566c14ccdb594d14c870f2eb2b55e966bc0ad",
+      "reading_depth": {
+        "primary": "Complete functional scientific main, all three original XML tables and all nine rendered pages of original DOCX supplement (flowchart and Tables S1–S4). Selected design and parent formulation/randomization/safety sections only; current registry and linked metadata.",
+        "native_supplement_pages_primary": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "native_supplement_pages_independent": [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "not_read": [
+          "Usable native publisher main PDF",
+          "Full parent or design scientific mains",
+          "Parent safety supplement",
+          "Historical registry or pre-unblinding protocol/SAP",
+          "Calibration records or participant data"
+        ],
+        "independent": "Accepted complete retained functional main and original XML Tables 1–3; selected parent/design/current-registry content; native supplement pages 1, 2, 4, 5 and 6 only. Pages 3, 7, 8 and 9 and the full MVM subgroup table were not independently reviewed. Rendered supplement is derived from the original DOCX, not an original publisher PDF."
+      }
+    }
+  },
+  "independent_review_nonblocking_observation": [
+    {
+      "finding": "Published COSMOS design text describes a 60-mile clinic catchment; the final functional paper says 50 miles. Qualification accurately follows the final paper.",
+      "impact": "Minor provenance discrepancy; does not alter assigned-group outcome interpretation.",
+      "required_change": false
+    }
+  ],
+  "root_comparison_notes_sha256": "cbef6f9bbac00c12afb5bd95631d226cdc70a2425a8b8d68fcbef834353c08ac",
+  "shared_limits": [
+    "No pooled effect, dose threshold, potency comparison or product interchangeability.",
+    "COCOA-PAD discovery and source qualification describe one cohort; COSMOS functional/MVM/parent reports are overlapping parent-cohort evidence, not independent replications.",
+    "Function, biochemical/histological associations, durable benefit, safety, renewal and chromosome fidelity remain separate claims.",
+    "No BUBR1 restoration, actual-BUB1B-allele rescue, MVA benefit or superiority over provisional nominees is established.",
+    "No human regimen recommendation or nomination replacement follows."
+  ],
+  "synthesis_reading_scope": "Assembly from the two frozen qualifications, their actual independent review and root comparison notes. No new original-source, native-pixel, registry-history, publication-status or participant-data reading credit is added.",
+  "raw_payload_policy": "Original source assets remain outside Git; public primary URLs and exact source/review hashes preserve provenance."
+}

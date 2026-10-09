@@ -1,0 +1,246 @@
+{
+  "dataset": "GSE132397",
+  "pmid": "31477687",
+  "platform": "GPL1261",
+  "unit": "Deposited MAS5.0 signal, per native GEO family SOFT #VALUE field. Not RNA counts/FPKM and not protein.",
+  "controls": [
+    "GSM3861604",
+    "GSM3861605",
+    "GSM3861606",
+    "GSM3861607"
+  ],
+  "lithium": [
+    "GSM3861608",
+    "GSM3861609",
+    "GSM3861610",
+    "GSM3861611"
+  ],
+  "groups_bound_to_native_titles": {
+    "titles": [
+      "P35-45 3DIV ONCulture Control_1",
+      "P35-45 3DIV ONCulture Control_2",
+      "P35-45 3DIV ONCulture Control_3",
+      "P35-45 3DIV ONCulture Control_4",
+      "P35-45 3DIV ONCulture Lithium_1",
+      "P35-45 3DIV ONCulture Lithium_2",
+      "P35-45 3DIV ONCulture Lithium_3",
+      "P35-45 3DIV ONCulture Lithium_4"
+    ],
+    "accessions": [
+      "GSM3861604",
+      "GSM3861605",
+      "GSM3861606",
+      "GSM3861607",
+      "GSM3861608",
+      "GSM3861609",
+      "GSM3861610",
+      "GSM3861611"
+    ]
+  },
+  "data_scope": "All8 deposited arrays and all3 GPL1261 exact-symbol Bub1b probes; no cherry-picked probes or arrays.",
+  "source_hashes": {
+    "GPL1261.annot.gz": "394c103cf4ca99500d06369e4fb2b9b9bffc2c10fd3cbeb0b0d64c51c3fc95f8",
+    "geo-matrix.txt.gz": "15e2053fe4e5c250b2ac1338517cfcc114b276bfd3bd67ce04654a7a617df5f2",
+    "geo-family.soft.gz": "f6efca0ff9c1776aabe64e434645cf87c86355537882a8035b15d6d5ea5dd5f4"
+  },
+  "rows": [
+    {
+      "probe": "1416961_at",
+      "gene_symbol": "Bub1b",
+      "entrez_gene_id": "12236",
+      "GenBank_accession": "NM_009773",
+      "control_values": [
+        30.6795,
+        25.4454,
+        62.8038,
+        76.0278
+      ],
+      "lithium_values": [
+        1.62905,
+        2.72438,
+        6.90681,
+        8.49794
+      ],
+      "control_mean": 48.739125,
+      "control_sample_SD": 24.571219923774645,
+      "lithium_mean": 4.939545,
+      "lithium_sample_SD": 3.2862663555317604,
+      "ratio_lithium_mean_to_control_mean": 0.10134660808949689,
+      "all_lithium_values_below_all_control_values": true,
+      "gene_specific_p": null,
+      "gene_specific_fdr": null,
+      "control_detection_calls": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "lithium_detection_calls": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "control_detection_p_values": [
+        "0.000244141",
+        "0.000244141",
+        "0.000244141",
+        "0.000244141"
+      ],
+      "lithium_detection_p_values": [
+        "0.5",
+        "0.0185547",
+        "0.0239258",
+        "0.0012207"
+      ],
+      "detection_scope": "Native within-sample detection call/P only; not a between-condition differential-expression test."
+    },
+    {
+      "probe": "1447362_at",
+      "gene_symbol": "Bub1b",
+      "entrez_gene_id": "12236",
+      "GenBank_accession": "AU045529",
+      "control_values": [
+        8.0346,
+        7.74278,
+        13.6567,
+        10.7604
+      ],
+      "lithium_values": [
+        0.423011,
+        3.55942,
+        1.0377,
+        1.4426
+      ],
+      "control_mean": 10.04862,
+      "control_sample_SD": 2.762730938811572,
+      "lithium_mean": 1.61568275,
+      "lithium_sample_SD": 1.3619351548355436,
+      "ratio_lithium_mean_to_control_mean": 0.16078653088682823,
+      "all_lithium_values_below_all_control_values": true,
+      "gene_specific_p": null,
+      "gene_specific_fdr": null,
+      "control_detection_calls": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "lithium_detection_calls": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "control_detection_p_values": [
+        "0.219482",
+        "0.111572",
+        "0.27417",
+        "0.27417"
+      ],
+      "lithium_detection_p_values": [
+        "0.828613",
+        "0.398926",
+        "0.665527",
+        "0.567627"
+      ],
+      "detection_scope": "Native within-sample detection call/P only; not a between-condition differential-expression test.",
+      "detection_limit": "All eight calls are absent; these low signals are background-limited and do not independently establish transcript presence or abundance change."
+    },
+    {
+      "probe": "1447363_s_at",
+      "gene_symbol": "Bub1b",
+      "entrez_gene_id": "12236",
+      "GenBank_accession": "AU045529",
+      "control_values": [
+        37.2125,
+        27.904,
+        98.8437,
+        107.89
+      ],
+      "lithium_values": [
+        4.79591,
+        6.00107,
+        8.65789,
+        10.7133
+      ],
+      "control_mean": 67.96255,
+      "control_sample_SD": 41.22337400039772,
+      "lithium_mean": 7.5420425,
+      "lithium_sample_SD": 2.6594378934826937,
+      "ratio_lithium_mean_to_control_mean": 0.1109735067327521,
+      "all_lithium_values_below_all_control_values": true,
+      "gene_specific_p": null,
+      "gene_specific_fdr": null,
+      "control_detection_calls": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "lithium_detection_calls": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "control_detection_p_values": [
+        "0.000244141",
+        "0.000244141",
+        "0.000244141",
+        "0.000244141"
+      ],
+      "lithium_detection_p_values": [
+        "0.0239258",
+        "0.00292969",
+        "0.000732422",
+        "0.000244141"
+      ],
+      "detection_scope": "Native within-sample detection call/P only; not a between-condition differential-expression test."
+    }
+  ],
+  "method": "Descriptive means and sample SD (n-1); ratio of group arithmetic means. Native matrix values cross-checked exactly against each sample SOFT table. No CEL reprocessing, inferential test, multiplicity correction or recreation of authors differential-expression pipeline.",
+  "biological_unit_limit": "Four array samples/group. Sample descriptions say n=6 optic nerves; paper says12 nerves/6mice per transcriptomic group and experiments in triplicate. Exact pooling/independence map unresolved.",
+  "composition_limit": "Bulk optic nerve; astrocyte association is based on intersection with published astroglial lists, not sorted-cell or per-cell BUB1B measurement.",
+  "candidate_provenance": {
+    "status": "FROZEN_EXTERNAL_CANDIDATE_ONLY",
+    "baseline": "2591b136724889da47837dc75e8754aca3f9ee1d",
+    "source_file": "lithium-astrocyte-followup-20260923/bub1b-expression.json",
+    "source_sha256": "69a4e245762dc139608b0047d04bee7c6f5e49a5e1f6bff7e9846c4573ed044b",
+    "external_source_root": "lithium-astrocyte-followup-20260923",
+    "external_candidate_dir": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lithium-astrocyte-followup-20260923/candidate",
+    "dataset_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132397",
+    "platform_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL1261",
+    "scope": "All 24 targeted values, all three exact-symbol probes, all eight sample labels and descriptive statistics copied unchanged. No full transcriptomic or raw CEL reanalysis.",
+    "normalization_limit": "Paper describes MAS-5 then baseline transformation to the all-sample mean; deposit defines VALUE as MAS5.0 signal and names GeneSpringGX12. No normalization/filter pipeline is reproduced.",
+    "independent_probe_check_file": "independent/probe-check.json",
+    "independent_probe_check_sha256": "0e2ce8150320ae89566985b8e39ac2aed6892b40c7e11db83bc5c84631c5be88",
+    "gene_specific_inferential_claim": false,
+    "protein_or_function_claim": false,
+    "automatic_outer_credit": 0,
+    "detection_call_check": {
+      "external_file": "candidate/bub1b-detection-calls.json",
+      "sha256": "d4c706ee0438c62ecf6810d76b00b9e6c7c7a7b9d91a6ac7d0f1a7213b548ea8",
+      "reader": "/root/ms023_primary",
+      "row_output_chunks": [
+        "d1b6d0",
+        "187c28"
+      ],
+      "field_definitions_output_chunk": "ab90a7",
+      "scope": "All24 targeted cells and native definitions read; no whole-SOFT or raw-array reanalysis."
+    },
+    "portable_replay": {
+      "portable_file": "summarize_lithium_bub1b.py",
+      "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lithium-astrocyte-followup-20260923/candidate/summarize_lithium_bub1b.py",
+      "sha256": "3b60e22548873a66f771ccd03805b28066bd2f302dbb0e492060017e1379c4d1",
+      "inputs": "Three official hash-pinned gz files supplied by caller; no download or raw CEL processing.",
+      "claim": "24 exact matrix/SOFT matches, sample/annotation/detection fields and descriptive summaries only; no differential-expression inference."
+    }
+  },
+  "native_detection_fields": {
+    "!Sample_data_processing": "Data processing was performed using Agilent Genespring GX 12",
+    "#VALUE": "MAS5.0 signal",
+    "#ABS_CALL": "indicating whether the transcript was present (P), absent (A), or marginal (M)"
+  },
+  "detection_interpretation": "One probe is absent in every array; another has one absent lithium call; the third is present in every array. Retain all features without treating three probes as three independent studies or detection P as DE P/FDR. Lower processed probe signals are not a validated RNA-abundance decrease."
+}

@@ -1,0 +1,2044 @@
+{
+  "schema_version": "explicit-food-outer-admission/1",
+  "date": "2026-09-23",
+  "reference_commit": "907eeb7219b2bf19dc5ae5affbb81508488e5349",
+  "status": "EXPLICIT_RECONCILIATION_ADMITTED",
+  "source_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+  "parent_selection_sha256": "a9a12a95285b7456be572811a0a03891748535abe263706184ef517069938fb2",
+  "original_selection_record_objects_sha256": "537708c8b4b26f97a11901752e0e67e509e0fce9903cacff842103bda557f162",
+  "prior_accepted_inputs": [
+    {
+      "file": "outer-revalidation-review.json",
+      "sha256": "0bdc47535b70046b0d0a115da26339ec845aacb4d38827a9cec65e88e0dd81bb",
+      "records": 186,
+      "record_objects_sha256": "df4549b54d074076c2d69458baed74f6f196ba1329613fa83e8558896b2a60cc"
+    },
+    {
+      "file": "outer-revalidation-next128-review.json",
+      "sha256": "26102e1a6e5bd6cd5204e4d38d92e53b5757709cb4cfda8a839fe7c9769fda7c",
+      "records": 128,
+      "record_objects_sha256": "34f62e3b6eb8cb0fd6bdd0ab9a6f3128ed101b340d4534f8a51da43bfd04e732"
+    },
+    {
+      "file": "outer-revalidation-batch02-review.json",
+      "sha256": "222ef9edb446dae6c87782eb5a672a904ba45342b5866e49fe3a854f8444ef03",
+      "records": 128,
+      "record_objects_sha256": "52ef58bde0e778c8d9e6bb078b825ef9ee5a948b58fc789464ec17d8b16e4c12"
+    },
+    {
+      "file": "outer-revalidation-batch03-review.json",
+      "sha256": "28ad16f471d3951ec911498b4285ab023306239c547d4d294d4eec3a237daedb",
+      "records": 128,
+      "record_objects_sha256": "9409b8a5631caa341856b7ed130cb67ac060a77961a6c6c21cea2df7b5a750ef"
+    },
+    {
+      "file": "outer-revalidation-batch04-review.json",
+      "sha256": "20a7d66a849ea614cf5367b2b02d0d0e0f20f87a61fb46fe19ef103bfef1777c",
+      "records": 128,
+      "record_objects_sha256": "fd3bd630593c9eacabf3ffd964587c32ece5f6a18cfb71477aebd8ea3f4e83b2"
+    },
+    {
+      "file": "outer-revalidation-batch05-review.json",
+      "sha256": "46b5d57e18f6b4207fbbe0e5139b93e3cb0824d2a8e643fcba981d1423ac9bfd",
+      "records": 128,
+      "record_objects_sha256": "83f56fca56c5975373beeec525fc67c4bf00a33737751d543c5efeed5e18a4b7"
+    },
+    {
+      "file": "outer-revalidation-batch06-review.json",
+      "sha256": "843b26bf60409ddbe21ec733c8d6d309b98829d5e0d81253b04b4811be7f3276",
+      "records": 128,
+      "record_objects_sha256": "9a0476bfaf1b8aaaf30c1fb8c144d045760bef33c7e8b2613df49360af6267c2"
+    },
+    {
+      "file": "outer-revalidation-batch07-review.json",
+      "sha256": "0132f1a63792eaead21fbb9d9f430d813897abfac1454fd5fffc01eadf1aa840",
+      "records": 128,
+      "record_objects_sha256": "31bf9f9783575d39a98138edebbbad05115336d458830a0356c5ed1d5f95b161"
+    },
+    {
+      "file": "outer-revalidation-batch08-review.json",
+      "sha256": "c186a07facdce5cad33e256dfcaa46b65d635885d5e04558c53f9436cbb2f3fc",
+      "records": 128,
+      "record_objects_sha256": "592be2e11e0a9f1fa1f6ac8926e3ba8aafc9fefe5bb7b6d5028d94b877d883aa"
+    }
+  ],
+  "prior_accepted_record_objects_sha256": "d19fa49e3eca604ec05e3cb0c7463cc8153483dce8bea18b5279d24cdff43ee6",
+  "evidence_inputs": {
+    "literal_food_compact_review": {
+      "file": "food-substances/abstract-review.json",
+      "sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+      "original_external_review_sha256": "f4395a70e1e499c8e0971bf8a884c74ed09ce2a6a1efccb1138e2e02974a0fb1"
+    },
+    "common_food_review": {
+      "file": "food-substances/common-abstract-review.json",
+      "sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e"
+    },
+    "common_structural_validation_sha256": "c273e833b680b34dec9aed0d4e837e9b3f65ba11435417b4e344c7e2a345f999"
+  },
+  "selection_rule": "Original3598 order; exclude all1210 prior accepted IDs; admit the union of already-read literal-food and available common-food IDs that remain in the2388 queue. No new outcome/title filter.",
+  "old_food_pending_count": 26,
+  "common_food_pending_count": 40,
+  "shared_pending_ids": [
+    "MED:21753893",
+    "MED:37096022"
+  ],
+  "selected_count": 64,
+  "reviewed_count": 64,
+  "admitted_count": 64,
+  "prior_accepted_revalidation_records": 1210,
+  "cumulative_accepted_revalidation_records": 1274,
+  "previous_outer_ledger_count": 3371,
+  "combined_outer_ledger_count": 3435,
+  "pending_before": 2388,
+  "pending_after": 2324,
+  "pending_count": 2324,
+  "pending_before_record_objects_sha256": "61df1bb4142c5662a93d441858936e41d98c13e695c6c22b7c2aa8e316215d6a",
+  "pending_after_record_objects_sha256": "c9848995dc8914b94a4933bbbd5eaa89ebc1e7e762a0c508a7651c62f237e4a1",
+  "missing_abstracts_excluded": [
+    "MED:18082453"
+  ],
+  "new_literal_reading_credit": 0,
+  "new_appraisal_credit": 0,
+  "food_overlay_automatic_credit_remains": 0,
+  "root_sample_gate": {
+    "status": "COMPLETE_DECLARED_BY_ROOT",
+    "reviewer": "/root",
+    "sample_records": 12,
+    "sample_groups": [
+      {
+        "selection_file": "prior-food-admission-samples.json",
+        "selection_sha256": "f0ec6f432c3cc11527f2bc592bc2eea3df8f413cbcb619a53ab8bd520c319a0e",
+        "population_count": 26,
+        "predetermined_zero_based_indices": [
+          0,
+          5,
+          10,
+          15,
+          20,
+          25
+        ],
+        "source_ids": [
+          "MED:33174609",
+          "MED:24336422",
+          "MED:36176055",
+          "MED:36760739",
+          "MED:29713277",
+          "MED:27074562"
+        ],
+        "selection_objects_sha256": "b597158b1c88c3129c2272b7b1d90ca1631c99f901527086e46ce0c5ec5b8348",
+        "annotation_comparison_tool_chunk_id": "cb0737",
+        "annotation_comparison_complete_declared": true
+      },
+      {
+        "selection_file": "common-admission-samples.json",
+        "selection_sha256": "2b9a70038abbad4759dc06355d3cf7588139025c30a8a62830eb425741d9faa2",
+        "population_count": 38,
+        "predetermined_zero_based_indices": [
+          0,
+          7,
+          15,
+          22,
+          30,
+          37
+        ],
+        "source_ids": [
+          "MED:32021241",
+          "MED:33932994",
+          "MED:39859069",
+          "MED:33068521",
+          "MED:23476019",
+          "MED:33397691"
+        ],
+        "selection_objects_sha256": "6c02844949ade91dedb07096c47051eabac36e2677941b0ea6bca5f03c59c42a",
+        "annotation_comparison_tool_chunk_id": "2840bd",
+        "annotation_comparison_complete_declared": true
+      }
+    ],
+    "literal_logs": [
+      {
+        "log_file": "prior-food-sample-a.jsonl",
+        "log_sha256": "4a628b95363b104a3d0f3386bfeaa63f29400f50e69bccf7019f60a4b6ac7f2e",
+        "source_ids": [
+          "MED:33174609",
+          "MED:24336422",
+          "MED:36176055"
+        ],
+        "emitted_records": 3,
+        "abstract_characters": 5388,
+        "tool_chunk_id": "c296fc",
+        "end_marker_observed_declared": true,
+        "untruncated_literal_read_declared": true
+      },
+      {
+        "log_file": "prior-food-sample-b.jsonl",
+        "log_sha256": "44208788c61ab7fac6bf7f91a3755467661ea2f295e551c74d79a41d37559709",
+        "source_ids": [
+          "MED:36760739",
+          "MED:29713277",
+          "MED:27074562"
+        ],
+        "emitted_records": 3,
+        "abstract_characters": 4880,
+        "tool_chunk_id": "12998d",
+        "end_marker_observed_declared": true,
+        "untruncated_literal_read_declared": true
+      },
+      {
+        "log_file": "common-sample-a.jsonl",
+        "log_sha256": "532b03385583074e3b93e65935c29944ccedd08b67e606bfb62abe3c12bc5c7a",
+        "source_ids": [
+          "MED:32021241",
+          "MED:33932994",
+          "MED:39859069"
+        ],
+        "emitted_records": 3,
+        "abstract_characters": 5337,
+        "tool_chunk_id": "3a9433",
+        "end_marker_observed_declared": true,
+        "untruncated_literal_read_declared": true
+      },
+      {
+        "log_file": "common-sample-b.jsonl",
+        "log_sha256": "a9603f5a1c9c833e8a93d98ab0083a646bb6655019af8a65b63870a44e1e18f9",
+        "source_ids": [
+          "MED:33068521",
+          "MED:23476019",
+          "MED:33397691"
+        ],
+        "emitted_records": 3,
+        "abstract_characters": 3985,
+        "tool_chunk_id": "0f5aa9",
+        "end_marker_observed_declared": true,
+        "untruncated_literal_read_declared": true
+      }
+    ],
+    "substantive_annotation_corrections": 0,
+    "additional_reading_credit": 0,
+    "declaration_provenance": "Parent/root completion message in this task on 2026-09-23: all twelve predetermined literal strings read with observed end markers and all twelve annotations compared; no substantive correction needed.",
+    "scope_limit": "Twelve bounded spot-checks, not independent re-review of all64 or all212 food sources. Viewing and annotation comparison are root declarations; file checks cannot prove them."
+  },
+  "verification_limits": [
+    "This separate reconciliation grants64 unique outer-ledger admissions once; original overlays retain zero automatic outer credit.",
+    "Exact source/annotation/hash integrity and declared reading gates do not establish scientific correctness, independent replication or MVA efficacy.",
+    "Prior1210 records and all3598 selection objects are preserved by pinned files and canonical object hashes.",
+    "No raw abstracts or duplicated scientific annotations are included."
+  ],
+  "records": [
+    {
+      "unfiltered_index": 2814,
+      "source": "MED",
+      "record_id": "32021241",
+      "pmid": "32021241",
+      "title": "Potential Prognostic and Diagnostic Values of CDC6, CDC45, ORC6 and SNHG7 in Colorectal Cancer.",
+      "abstract_sha256": "ebabe2091caf404f14543fd416e00a1e9595a9bbe1d397516617e495cb0e5006",
+      "order_key": "87f69de5413c0e20979449d830b64cdd25ec5bdacc510ff753bba8a8c87ba792",
+      "source_id": "MED:32021241",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 64,
+          "source_id": "MED:32021241",
+          "abstract_sha256": "ebabe2091caf404f14543fd416e00a1e9595a9bbe1d397516617e495cb0e5006",
+          "record_object_sha256": "ab37def72883990760c2b801467df779ac1f9cb9970176ee8b3ecde2e6e1bc07",
+          "annotation_excluding_source_metadata_sha256": "b311999fc912f9b374dcd329512fb2b8f71d70b67ae0654fc7a0629bbfe2ee24",
+          "source_metadata_sha256": "17c3de86842ff4ffbb6822df1c6e99d2fa919bb9e1f4a3761104f67fc0781ab6",
+          "read_evidence_sha256": "6ccd1f4a3e062c872f3753759d87f6fee75a8aaee65bb0a24a479573d63f1d39"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 2840,
+      "source": "MED",
+      "record_id": "33174609",
+      "pmid": "33174609",
+      "title": "Anti‑inflammatory mechanism of berberine on lipopolysaccharide‑induced IEC‑18 models based on comparative transcriptomics.",
+      "abstract_sha256": "afc741092d0ac07bfeb4e339fc9de01572c8f32184b31a6351e0ac15b19d56f4",
+      "order_key": "89586d085d15336305c378342f4294a2b83239b6ca47df024202f76b2d24306b",
+      "source_id": "MED:33174609",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 30,
+          "source_id": "MED:33174609",
+          "abstract_sha256": "afc741092d0ac07bfeb4e339fc9de01572c8f32184b31a6351e0ac15b19d56f4",
+          "record_object_sha256": "29ff5ff85d2a008c2a22bcd180822b08a3e2af037864dd8398bf66fe457d709c",
+          "annotation_excluding_source_metadata_sha256": "03596303fafdddd6bbe028518d9f8ac30b15f92eb7250ba8c92bf7c77f29e803",
+          "source_metadata_sha256": "e2f43aa7ff97f54484784d2471eeca9a327341d4f7cf0f2100c3a86aed412965",
+          "read_evidence_sha256": "d41dffc8f4ad4fb28300461ccc85576d4d5b595d4fa8ef4cc23b2f51f0f49873"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 2853,
+      "source": "MED",
+      "record_id": "30858614",
+      "pmid": "30858614",
+      "title": "The ATPase module of mammalian SWI/SNF family complexes mediates subcomplex identity and catalytic activity-independent genomic targeting.",
+      "abstract_sha256": "3ef4b5a1a830792cf772ee50f95dc4cb5ee22227bdcec51e7e08e98035df16dd",
+      "order_key": "8a360b80e64b3abd940dd0546ef000cb37f95b67ada92c86cb20b1af94994d24",
+      "source_id": "MED:30858614",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 54,
+          "source_id": "MED:30858614",
+          "abstract_sha256": "3ef4b5a1a830792cf772ee50f95dc4cb5ee22227bdcec51e7e08e98035df16dd",
+          "record_object_sha256": "b457dc353ad08a99abdbbe6f06ac69ed46d96a248e054c5841a6482bf54e61fa",
+          "annotation_excluding_source_metadata_sha256": "e5828810738acbd4bc14c5354dc4c59e9639ab52442e0c096a25439014289440",
+          "source_metadata_sha256": "0c7f697cdd268218effc4267544a51cf96a28c0d74b122ba39f457f4ba1175c2",
+          "read_evidence_sha256": "98b6c19a9a00544f85d94eca47de38da6c33e50e0c525d1bb029ecb74646e87f"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 2864,
+      "source": "MED",
+      "record_id": "40399304",
+      "pmid": "40399304",
+      "title": "Acyl post-translational modification of proteins by metabolites in cancer cells.",
+      "abstract_sha256": "8aafced111e5e12ba717a0b82fe195172a414529157bd4753a8bab9e6a55d3ca",
+      "order_key": "8ada224f02c6bed1bed6ff488090158267b551785453a251bb304f58ef24ce25",
+      "source_id": "MED:40399304",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 54,
+          "source_id": "MED:40399304",
+          "abstract_sha256": "8aafced111e5e12ba717a0b82fe195172a414529157bd4753a8bab9e6a55d3ca",
+          "record_object_sha256": "ca70f51018e098f865ac14949f9e3f1712bd8282d695751bff59c75cd453b862",
+          "annotation_excluding_source_metadata_sha256": "6dd67463013be2cba1226ec8e39aa4168d5495d224ea287d0e176d4f994fc499",
+          "source_metadata_sha256": "32ee9aae43852f5c04ab0157bb00a4d1e1a11194d4143ffd9cf7848579edbbb9",
+          "read_evidence_sha256": "f2d3df68971b4fa7be372be905393ff90bdc4525b1635bb14e09f8d9e4c27d4a"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 2884,
+      "source": "MED",
+      "record_id": "22006429",
+      "pmid": "22006429",
+      "title": "High-throughput genotyping in osteosarcoma identifies multiple mutations in phosphoinositide-3-kinase and other oncogenes.",
+      "abstract_sha256": "f09fb027b8925040fe4bcb3b5848b1552a50ddd66139c75cf79939811522a1ad",
+      "order_key": "8bade91d088d75866ab15ca904d2cff4290b6eeef8f7e492b366166db65fd8d3",
+      "source_id": "MED:22006429",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 18,
+          "source_id": "MED:22006429",
+          "abstract_sha256": "f09fb027b8925040fe4bcb3b5848b1552a50ddd66139c75cf79939811522a1ad",
+          "record_object_sha256": "29f977865f07d3a339a5ce000c0f444ce2090568e937295b79e41e29994fbc35",
+          "annotation_excluding_source_metadata_sha256": "f8b290222738f494257ab93f4b3d4bb3f739f7cd0128e3e6d632aa93257ae28f",
+          "source_metadata_sha256": "da3527b9c8bdfc41082023d1196cd558d1484c44c995f63bee98203b15f60f86",
+          "read_evidence_sha256": "16e9a1c93e8085ccaf5e67b991b875d671f1d56c3f38fe52061e53c8cbb2cbf8"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 2909,
+      "source": "MED",
+      "record_id": "21118148",
+      "pmid": "21118148",
+      "title": "Mechanisms of metal-induced centrosome amplification.",
+      "abstract_sha256": "847f50bec0157e94715bf8ebf1b7ab1724c4cadcbb97343bcf6981a3aa1eee08",
+      "order_key": "8cbde0031456b1abb9b86d113dada5c163286cd7b5ed61521ab3d1a469283c7a",
+      "source_id": "MED:21118148",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 5,
+          "source_id": "MED:21118148",
+          "abstract_sha256": "847f50bec0157e94715bf8ebf1b7ab1724c4cadcbb97343bcf6981a3aa1eee08",
+          "record_object_sha256": "1f83458e146990a90c2dc679993d5e0479d5f018f02ace8e3a5eed46ad1e5ffe",
+          "annotation_excluding_source_metadata_sha256": "3663033fa8401b890e9c6cc65261ec24cbd204760a440f070abdd3da7a7940e6",
+          "source_metadata_sha256": "15e591a3237d766778dee4e016812fa8be0eeb072bc27bc402150a30fbd025be",
+          "read_evidence_sha256": "2c1d70993f37c4c4d483ad5b8dbf0498b3b475acdde63e44eb051818ca382ea0"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 2970,
+      "source": "MED",
+      "record_id": "35750870",
+      "pmid": "35750870",
+      "title": "A potent estrogen receptor and microtubule specific purine-benzothiazole-based fluorescent molecular probe induces apoptotic death of breast cancer cells.",
+      "abstract_sha256": "975e6283ed994dac98c380d94b699fd783aa0b8735399e08fb156179f043df4f",
+      "order_key": "8f4d306164d431b8c8ce3227ababaf6d8df85d2521976251b37e47bebc97c463",
+      "source_id": "MED:35750870",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 39,
+          "source_id": "MED:35750870",
+          "abstract_sha256": "975e6283ed994dac98c380d94b699fd783aa0b8735399e08fb156179f043df4f",
+          "record_object_sha256": "34810a0e235f2de07566c88665bb9a829ee147d90ab045c4488e3bdf8c2be59c",
+          "annotation_excluding_source_metadata_sha256": "68c0285b2a62c467a93942aa15fdadbe28c731e2b4c63a4ea0e7d808b1fa85e6",
+          "source_metadata_sha256": "04e2811cf271546681a9d5a783c884b53d0957e01f7637826725a6c613093db9",
+          "read_evidence_sha256": "1525a30571f35512a1c4e4a3252bc8ee4ede0eeced3727aefcd614e468d01d56"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3011,
+      "source": "MED",
+      "record_id": "37096022",
+      "pmid": "37096022",
+      "title": "3D spheroid culture to examine adaptive therapy response in invading tumor cells.",
+      "abstract_sha256": "3508fe40ce6f1b5e20c19ba514c21d9f1d82e0bd6eb605776608a9793cf57c4a",
+      "order_key": "919a1fcd56353a35758a01f9646f29a00f4a107a33842decebc15695e7749860",
+      "source_id": "MED:37096022",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 45,
+          "source_id": "MED:37096022",
+          "abstract_sha256": "3508fe40ce6f1b5e20c19ba514c21d9f1d82e0bd6eb605776608a9793cf57c4a",
+          "record_object_sha256": "b416292f73f7a27a975e4ec31eb89ef9938db88903d3166cbbcb171fba361afc",
+          "annotation_excluding_source_metadata_sha256": "cb93852349fd02b7b51df7ee2f09253f860e3ff0e02071899342d89e88922285",
+          "source_metadata_sha256": "f478bd5302aeadc15b8dee3de26da0cc977466c7eb97d1bea9034cffac344407",
+          "read_evidence_sha256": "6be5653ddc54b069edfddcf32373a59648d292e566ed73b0324897f4db2f15f1"
+        },
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 110,
+          "source_id": "MED:37096022",
+          "abstract_sha256": "3508fe40ce6f1b5e20c19ba514c21d9f1d82e0bd6eb605776608a9793cf57c4a",
+          "record_object_sha256": "a2dfbaa78e498a4cdd661f933922977b07672e7d9fc87135c7bad25399aa4c48",
+          "annotation_excluding_source_metadata_sha256": "69e64554f14990261c933f356c70b75a93f1fa40c5114e808f4d13b2f503bd81",
+          "source_metadata_sha256": "4a04b0084d8ca852e70f24bb6c9443ce0a865d136506d2313bc08d4df04259fd",
+          "read_evidence_sha256": "c5c8b7767f873e15845eadb1ec60d7428cb9add99434bdd4ed1f461dd85aa602"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3062,
+      "source": "MED",
+      "record_id": "40051576",
+      "pmid": "40051576",
+      "title": "Combined genomic, transcriptomic, and metabolomic analyses provide insights into the fruit development of bottle gourd (&lt;i&gt;Lagenaria siceraria&lt;/i&gt;).",
+      "abstract_sha256": "48e9ce181951ec9af078f6fd33af3aaade0b6b7759d82c6e700752da6e20ff45",
+      "order_key": "93a1a6c7fd21499c1315a96d07619ac3f2d685cb114f8d1b08352f580d79d5c5",
+      "source_id": "MED:40051576",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 128,
+          "source_id": "MED:40051576",
+          "abstract_sha256": "48e9ce181951ec9af078f6fd33af3aaade0b6b7759d82c6e700752da6e20ff45",
+          "record_object_sha256": "b5f07b71ff0790a952e6e35c3afe167c2994ea26b9191983a6ccf752f285c3c5",
+          "annotation_excluding_source_metadata_sha256": "ad1a04bb5e85add23438622049bd4ee990375261360bca8b7805b2b6aed98c1f",
+          "source_metadata_sha256": "eb925379fc959f58580dba29811ddddea54fcceb3fd4b4e6115ec4b91e4da0c3",
+          "read_evidence_sha256": "b69026576b8778a504a69f67e933ea42f9460cef290d9420650e82a0b436d2d2"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3077,
+      "source": "MED",
+      "record_id": "24336422",
+      "pmid": "24336422",
+      "title": "Transcriptome profiling of the newborn mouse lung response to acute ozone exposure.",
+      "abstract_sha256": "bbb9a183f7ad83c80dd092d8cdd2f4b2d4cb0ae88dc92a41272b43aab6862d19",
+      "order_key": "9420088ec307decd8fde0e281b0b39c9f18ba1053ecc764603c100c4ad73b925",
+      "source_id": "MED:24336422",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 12,
+          "source_id": "MED:24336422",
+          "abstract_sha256": "bbb9a183f7ad83c80dd092d8cdd2f4b2d4cb0ae88dc92a41272b43aab6862d19",
+          "record_object_sha256": "26e17ebbeab1600838edadcd09489485067950840a62db5f0384e307f65e0737",
+          "annotation_excluding_source_metadata_sha256": "4d88d147cf061678a431e08109bfb9ee886332f731531d6a0c4954d4b6ab8d4e",
+          "source_metadata_sha256": "3502f36aad7a756f2063b113e33692ac3c0c9e7362c7ef75fef85eab9e2e8918",
+          "read_evidence_sha256": "8c30c20e3198d71a9394445496743ea29956d56fe6955f91116e3d69b369e0fc"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3167,
+      "source": "MED",
+      "record_id": "28223486",
+      "pmid": "28223486",
+      "title": "Serum-borne bioactivity caused by pulmonary multiwalled carbon nanotubes induces neuroinflammation via blood-brain barrier impairment.",
+      "abstract_sha256": "7f433b38a6db1d33eca0bebe1c06027abc45189fcba9cb6f2a48997e072d5f1f",
+      "order_key": "98b06cce2388cb994c3ede0cf34ed7ff6372abac9efd582ce0415f0168718115",
+      "source_id": "MED:28223486",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 43,
+          "source_id": "MED:28223486",
+          "abstract_sha256": "7f433b38a6db1d33eca0bebe1c06027abc45189fcba9cb6f2a48997e072d5f1f",
+          "record_object_sha256": "3bc355a2b5553bf6565501567d52da1e907d48552eddcdab824b5ca0140a1991",
+          "annotation_excluding_source_metadata_sha256": "4f97c75012867b05b555e9235b2c296333b1e6be4d6dc92d15e43a5e92f1520c",
+          "source_metadata_sha256": "27c3094476dc90a8bdd514a156830794d886617890764e39d5870277234fd9c5",
+          "read_evidence_sha256": "ae1888faca8358be608ff67db1edf73d1b0347dc4d36fe7212e74d145d947a65"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3276,
+      "source": "MED",
+      "record_id": "35095530",
+      "pmid": "35095530",
+      "title": "Transcriptomic and Lipidomic Profiles in Nasal Polyps of Glucocorticoid Responders and Non-Responders: Before and After Treatment.",
+      "abstract_sha256": "5494eb2613407bd24cd6994d916ec61145f3606e27438ca64ea01925a3e0e995",
+      "order_key": "9d9f119148f517c3ac351e35d02dae238fb268d36f67dc2ff64c3334577af68c",
+      "source_id": "MED:35095530",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 98,
+          "source_id": "MED:35095530",
+          "abstract_sha256": "5494eb2613407bd24cd6994d916ec61145f3606e27438ca64ea01925a3e0e995",
+          "record_object_sha256": "27fcca17527913eb691f5eccc82966a5cba5f9470e22e4acf6bc2ae1304f681a",
+          "annotation_excluding_source_metadata_sha256": "40c1a4e98a32ff368d49902b290ecad393b32b71b87cb995c6486fac6141b92d",
+          "source_metadata_sha256": "5c6bd9feffdf6c452e7d75d2a266cb4e12fb171d306eb8a9006a8bce1781794e",
+          "read_evidence_sha256": "3cbee1766631ea79704acb16fb4bccd05d8c20a6e0a6f2806620c5b00c3acae3"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3392,
+      "source": "MED",
+      "record_id": "19191707",
+      "pmid": "19191707",
+      "title": "Comparative analysis of gene expression changes mediated by individual constituents of hemozoin.",
+      "abstract_sha256": "2f3ceca5906c581d149876c4a4bdc4bffc73c2662ef4e3a0492b5a0f28f8a243",
+      "order_key": "a29dc7c7a4a43ac08ef9737567c2459298f421dc2b52d99d3de5e2c6da51d377",
+      "source_id": "MED:19191707",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 3,
+          "source_id": "MED:19191707",
+          "abstract_sha256": "2f3ceca5906c581d149876c4a4bdc4bffc73c2662ef4e3a0492b5a0f28f8a243",
+          "record_object_sha256": "6f4480e34e88f94f7843e37d9cf2e5ce30d72a0beb4de4dc1e5da6a13977d1d4",
+          "annotation_excluding_source_metadata_sha256": "4142e4973469418b83f8ba2a5690ffd2372a7dd94d14b6288d73c91c1838c7d0",
+          "source_metadata_sha256": "c52370e6cf33730c14369f9324a270fb1dd5b1305ad51b5338fe300450e032d3",
+          "read_evidence_sha256": "752ddbf189d97371565fc994de24bdaf52b3302ae6b57e92bec6e7446a8855a1"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3536,
+      "source": "MED",
+      "record_id": "33573291",
+      "pmid": "33573291",
+      "title": "A Review of Selected IBD Biomarkers: From Animal Models to Bedside.",
+      "abstract_sha256": "d97364a875f458d3a31a46afd86e8cc75a13e683f91a927afe1301edc94aacc9",
+      "order_key": "a9a0d46118c5b6f0d1f5e6e33163e0a99c6ca8dfc0cd9ce83161f5e7c6bcaeb0",
+      "source_id": "MED:33573291",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 31,
+          "source_id": "MED:33573291",
+          "abstract_sha256": "d97364a875f458d3a31a46afd86e8cc75a13e683f91a927afe1301edc94aacc9",
+          "record_object_sha256": "827f4c6eb60b831eee1dd52b0603d4cf2705c20abafacd304a1a81ab63a621a4",
+          "annotation_excluding_source_metadata_sha256": "f7e67ffb5ae9ba3325b9b5e1062832c15d98778ea36df1bc4e0af8b7a066c28d",
+          "source_metadata_sha256": "7b0064a90da929ed869f6321679536974c31899a778a31bb6750a49e3c84b2ab",
+          "read_evidence_sha256": "29e017535910eb5ddd57a8f6bcd28b48d100895d396f754ebeef7c41f096b26a"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3553,
+      "source": "MED",
+      "record_id": "32712616",
+      "pmid": "32712616",
+      "title": "Integrated Analysis of Three Publicly Available Gene Expression Profiles Identified Genes and Pathways Associated with Clear Cell Renal Cell Carcinoma.",
+      "abstract_sha256": "513ee27c7681b527d85a6681edfa0d4a1dcdc4a29aca2b4c27bb02d2631b0057",
+      "order_key": "aa74593e4e6847bb7e614eec95134fb420e2a15b6a3ab26e50f052893349ca9f",
+      "source_id": "MED:32712616",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 29,
+          "source_id": "MED:32712616",
+          "abstract_sha256": "513ee27c7681b527d85a6681edfa0d4a1dcdc4a29aca2b4c27bb02d2631b0057",
+          "record_object_sha256": "b76f5f678a4dde0b6b286304b407ed7bdf8e92f0a441c0acc29e64bd7dc0f93d",
+          "annotation_excluding_source_metadata_sha256": "b8f32122dcb0d0d45aa6abfe993e4c059c93d870c703cb10a37e75bfce790528",
+          "source_metadata_sha256": "32ff81bf143342469700cbdfcc6dbcb1eed9794602ba83d93c909b0ea960756c",
+          "read_evidence_sha256": "bd271168181a6b0be73ff034fd189a6ae6b7b68eeb2b9e16463daba1e001bbed"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3571,
+      "source": "MED",
+      "record_id": "34238734",
+      "pmid": "34238734",
+      "title": "[Expression of nicotinamide-N-methyltransferase in gastric cancer and its biological and clinicopathological significance].",
+      "abstract_sha256": "26cebaa6c04c84577f91ddd00b72c26e16bdfa410fcaa323c4414a3c1d853b31",
+      "order_key": "abbeb06fdf08712ca4e827aeef5cf535bd6461139d748b291f5889b17f9b65dc",
+      "source_id": "MED:34238734",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 85,
+          "source_id": "MED:34238734",
+          "abstract_sha256": "26cebaa6c04c84577f91ddd00b72c26e16bdfa410fcaa323c4414a3c1d853b31",
+          "record_object_sha256": "d0c2550d36303516eb3aae6c28b85b5dacbb94bf214a2bf2f69af26fea0d433e",
+          "annotation_excluding_source_metadata_sha256": "1912570805e56a5455115f3048983d7f4ca8a74495dbb9740e912b7fab0ed858",
+          "source_metadata_sha256": "a09dabb953956ca8ea6c3eb4affebb696d771fe8a4ae6dad382e6cbbd740e58e",
+          "read_evidence_sha256": "85641e7b82f4897ff33b94b39a728bc956e493c7dac711d993d2623b3c5dd0f8"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3580,
+      "source": "MED",
+      "record_id": "33932994",
+      "pmid": "33932994",
+      "title": "RNA sequencing-based analysis of the magnum tissues revealed the novel genes and biological pathways involved in the egg-white formation in the laying hen.",
+      "abstract_sha256": "cb71767d301434a0acd570b1f0d8c3d989c8a7ea90fa1bee8d99bc14642068df",
+      "order_key": "ac5bd7afc6908e3e1b32ac3461925bba3e3ea39d8d4365d298432f66624e4d51",
+      "source_id": "MED:33932994",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 80,
+          "source_id": "MED:33932994",
+          "abstract_sha256": "cb71767d301434a0acd570b1f0d8c3d989c8a7ea90fa1bee8d99bc14642068df",
+          "record_object_sha256": "a9899eb29f1f69d3642160333566ee447f34938476765418e521c47993702097",
+          "annotation_excluding_source_metadata_sha256": "dd04f81830bed1a16ae5f68d48830db593394c198139a5d5f320e517b4e36e3e",
+          "source_metadata_sha256": "92f8af93907ed90b1c4babfe8334b176005b2e952030ed5b1e762a9162f688ee",
+          "read_evidence_sha256": "fa1a69ae770d161d724d533331cec1ea5dee22a1b6516d34cb66903d72e0ba8a"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3653,
+      "source": "MED",
+      "record_id": "29620224",
+      "pmid": "29620224",
+      "title": "Role of COL6A3 in colorectal cancer.",
+      "abstract_sha256": "14c47d7c646c6f8c0deac3c7729dbf37f6d5e81b43c5986faf48c7042af6eb1f",
+      "order_key": "b055509fd92ca735c84f9a046f7c0e6a8d756153e6398f84baa43f6f45f0f459",
+      "source_id": "MED:29620224",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 49,
+          "source_id": "MED:29620224",
+          "abstract_sha256": "14c47d7c646c6f8c0deac3c7729dbf37f6d5e81b43c5986faf48c7042af6eb1f",
+          "record_object_sha256": "123a8350f4763f09da6bd58d66321f8eaf6b29fe2c1f87cb7b0221da56fdc7bd",
+          "annotation_excluding_source_metadata_sha256": "ec0b4e69c53a781e4f4d59a0ad66a2eab1897c7a5f0b0ad70593f7903355c14c",
+          "source_metadata_sha256": "fb59e37dc684ab4a7cd25fe62155bbf40b5af18cf27fe8b12023fc4bef22cb02",
+          "read_evidence_sha256": "4ddf91b0959e1f5b088537fe2da2b766e5cb3d38e839c0e72c113070d83def19"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3722,
+      "source": "MED",
+      "record_id": "35269837",
+      "pmid": "35269837",
+      "title": "Thidiazuron Promotes Leaf Abscission by Regulating the Crosstalk Complexities between Ethylene, Auxin, and Cytokinin in Cotton.",
+      "abstract_sha256": "a277095c922e331c6f848ba82a5c38eeb9248101f43cf93cc26f89a494b2548a",
+      "order_key": "b36fc81a255d60bf9966f02998108806859b609745c4e029f83248e3c2d1505e",
+      "source_id": "MED:35269837",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 35,
+          "source_id": "MED:35269837",
+          "abstract_sha256": "a277095c922e331c6f848ba82a5c38eeb9248101f43cf93cc26f89a494b2548a",
+          "record_object_sha256": "6f6a682cc2d3ab14bd94d9cb15b86224945e45bfa55f23c3f19660ded4cc0b2f",
+          "annotation_excluding_source_metadata_sha256": "348870bc32cd5f58673a204b631007aa74c7f7195de9fa7692e9825c9c5daf22",
+          "source_metadata_sha256": "aaaa28e9ddfbbd7673f53b3dd4194d951000ffc2e75d98283801f5588b0c7333",
+          "read_evidence_sha256": "a9277be90aa9a98701be2703193015596255fba6581ed1d08c8499f3cdc0566f"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3782,
+      "source": "MED",
+      "record_id": "36176055",
+      "pmid": "36176055",
+      "title": "Exploring the molecular and functional cellular response to hydrazine via transcriptomics and DNA repair mutant cell lines.",
+      "abstract_sha256": "8906bbfa412c908d1a66c97959f13644f3928c1ce83a61764b60942027c21a4a",
+      "order_key": "b681de168aa1de7aaffe551bdf65e8ea16ba5e2f429214aaac05d4913365421f",
+      "source_id": "MED:36176055",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 42,
+          "source_id": "MED:36176055",
+          "abstract_sha256": "8906bbfa412c908d1a66c97959f13644f3928c1ce83a61764b60942027c21a4a",
+          "record_object_sha256": "0ea726e62b45b7df789554cc5e3dd6067abf114b4af06f984f92fe523a42df4f",
+          "annotation_excluding_source_metadata_sha256": "9e75f1056c8cea8462dc498d163e147e86483d41056479c74a1e0b6ab4e467ea",
+          "source_metadata_sha256": "047459a99c5e638cfc3011198afe281ce585f771a8bdc1880202b6727df71a78",
+          "read_evidence_sha256": "0c1849ec284d230e1a8ec38de976acdde5f46bf11da2a086fa88f38226d80057"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3890,
+      "source": "MED",
+      "record_id": "40799801",
+      "pmid": "40799801",
+      "title": "Synergistic targeting of cancer-related proteins by benzyl isothiocyanate and caffeic acid: MLSD and cytotoxic mechanisms in MCF-7 cells.",
+      "abstract_sha256": "e276d009033d277212352f0d2e8c63904a9e16d8609fc0528f6ec3ec40ad3bd8",
+      "order_key": "bb2be0b8cca4d64a2f3fa162b2ba1d4587f8d711777537d48bf4c890dea3be96",
+      "source_id": "MED:40799801",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 58,
+          "source_id": "MED:40799801",
+          "abstract_sha256": "e276d009033d277212352f0d2e8c63904a9e16d8609fc0528f6ec3ec40ad3bd8",
+          "record_object_sha256": "b6003399ddcd285997c0b20f079dde1504dd7357fa04c572cb1026dd815957b3",
+          "annotation_excluding_source_metadata_sha256": "43f90af6dc44bc997b1f35f7a05f9ba05b31d12e4977b2ac4f50f13d819ca3ea",
+          "source_metadata_sha256": "e6e54aa55aaf7e75ddd8c6259f1391fd68c018971c46fa18695e1127e2833e31",
+          "read_evidence_sha256": "22aa5464ffcb8ffa02a2e03a22554982997626a3c4542671d6b504e3eae5330f"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3924,
+      "source": "MED",
+      "record_id": "33149108",
+      "pmid": "33149108",
+      "title": "Integrated Bioinformatics Analysis of Hub Genes and Pathways Associated with a Compression Model of Spinal Cord Injury in Rats.",
+      "abstract_sha256": "88dadc681bade55feb432d75c8808655ec7eac6f848a5b557daa99c4ae72cbf6",
+      "order_key": "bcb8aec7313df6660430065c5a283e63d457ea9fb17ae33d9310a0d0f0715621",
+      "source_id": "MED:33149108",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 75,
+          "source_id": "MED:33149108",
+          "abstract_sha256": "88dadc681bade55feb432d75c8808655ec7eac6f848a5b557daa99c4ae72cbf6",
+          "record_object_sha256": "74a70e0bf8561d2fb04095391aff03e958d4dbf0c4929869cdbc50aa10676c87",
+          "annotation_excluding_source_metadata_sha256": "59ec88bb6587cba559d32376d0375154f6087d4e856458ed9f0ee4e987625e37",
+          "source_metadata_sha256": "ef267fc6a19c4bb4e0c2910f1e97000344406941b73aa53d2ca99f548d5bfbba",
+          "read_evidence_sha256": "dbc8b16d03b1dfb6708811cde4f9ff377da3cdc49cb3aa3af0307dc1c1ffa7f9"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3985,
+      "source": "MED",
+      "record_id": "20951947",
+      "pmid": "20951947",
+      "title": "Pharmacologic inhibition of the anaphase-promoting complex induces a spindle checkpoint-dependent mitotic arrest in the absence of spindle damage.",
+      "abstract_sha256": "1e748ef296bc36e04a27b33a9b7c28f54f57aca802fee576e3e58fcfc3b07b48",
+      "order_key": "bf6921f24860a1be22605793ed8480b4d60169ff23805e103140b92e97a36aa4",
+      "source_id": "MED:20951947",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 13,
+          "source_id": "MED:20951947",
+          "abstract_sha256": "1e748ef296bc36e04a27b33a9b7c28f54f57aca802fee576e3e58fcfc3b07b48",
+          "record_object_sha256": "9d747a24268cc0ad5df4f27de402a8aa78a865a5742395432b187b6842a5027c",
+          "annotation_excluding_source_metadata_sha256": "985b1891cdd6c948b65cd499e6486a09bfa99b4f914e4afaff9c590f83c1c89f",
+          "source_metadata_sha256": "9040166e3dd5ea83772f1aa1f3abc01753e64bd48c5c7978a75b499b3d410df7",
+          "read_evidence_sha256": "d767f88cf0e646ba05480b0b7521d6a242a59f7680fddc1e6b9652178cddd397"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 3987,
+      "source": "MED",
+      "record_id": "24885402",
+      "pmid": "24885402",
+      "title": "Nucleosome positioning and histone modifications define relationships between regulatory elements and nearby gene expression in breast epithelial cells.",
+      "abstract_sha256": "805e05893f06bed8505eed32ea0a16c3641a5101352fbce80733f3c531926aeb",
+      "order_key": "bfa855b6dcf29dcbe5c1768330b7129381c652d5bfc80cf872259781c5edb754",
+      "source_id": "MED:24885402",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 28,
+          "source_id": "MED:24885402",
+          "abstract_sha256": "805e05893f06bed8505eed32ea0a16c3641a5101352fbce80733f3c531926aeb",
+          "record_object_sha256": "54112f7e976244813338a2c11b4a715c4787348805c0045b1803a976aff25265",
+          "annotation_excluding_source_metadata_sha256": "9b96a067a7d13eebdccfd3f9c049e2cb527dff620086d3afc334de29808bb24c",
+          "source_metadata_sha256": "262c5cf9401e5d62bd85f6861c5797a09b306525630a163e779cf205a4782a14",
+          "read_evidence_sha256": "b923e0060250006f8e6cd147545656808577c22628bcbef762e2121e7b983638"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4019,
+      "source": "MED",
+      "record_id": "34171357",
+      "pmid": "34171357",
+      "title": "Roles of constitutive and signal-dependent protein phosphatase 2A docking motifs in burst attenuation of the cyclic AMP response element-binding protein.",
+      "abstract_sha256": "61e9e7853df25c98b87a07913df46190335134d91e666b594eea98f8e01689ac",
+      "order_key": "c132ff6d0ab0352211275fc92534d8f0c8e040be6a44cdc56fde751b156752a7",
+      "source_id": "MED:34171357",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 84,
+          "source_id": "MED:34171357",
+          "abstract_sha256": "61e9e7853df25c98b87a07913df46190335134d91e666b594eea98f8e01689ac",
+          "record_object_sha256": "6d213cf961719f2361965250d365acb2a73949e6d4d2ab94a430a0c0118954e4",
+          "annotation_excluding_source_metadata_sha256": "3c432e69c3537236e0d576bd5fda78837f1134184e5ad9d1a034f1be58275a64",
+          "source_metadata_sha256": "66a0dcfbf604a6f0b90abe45e91f6c3d9396fd23dd86c1dfd4a6bdc7d4f89fda",
+          "read_evidence_sha256": "66f2280d806dba780b9e5d0bc5b663373e8ade16558c2cbb070bd77c2f698bbd"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4029,
+      "source": "MED",
+      "record_id": "23284772",
+      "pmid": "23284772",
+      "title": "Activation of TGF-β pathway by areca nut constituents: a possible cause of oral submucous fibrosis.",
+      "abstract_sha256": "e148f8463d1be356f34427a255c8001273a9ade8b15d4dd8f976e7a535b51e9c",
+      "order_key": "c1a1b23ea627a8e40ce125c3f3d99757962c7a5d5319a35b5a8ceee160277828",
+      "source_id": "MED:23284772",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 21,
+          "source_id": "MED:23284772",
+          "abstract_sha256": "e148f8463d1be356f34427a255c8001273a9ade8b15d4dd8f976e7a535b51e9c",
+          "record_object_sha256": "8e13baf204904a8c83e31b7b415c495ef84c16863a7dac3d22354da082242977",
+          "annotation_excluding_source_metadata_sha256": "6aa71b550f47e719d19e6bc1e129b5df82181d7fd9d54dcb5f3493d5329df062",
+          "source_metadata_sha256": "6a0e852138b45b45a7dfbe720836ba36b5686b659587642dab21edf8a5012064",
+          "read_evidence_sha256": "c8618b52fc337e747e64e53b63ec49f504b8cc4ccace1163a03903d3170f857e"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4041,
+      "source": "MED",
+      "record_id": "35105939",
+      "pmid": "35105939",
+      "title": "Comprehensive metabolomics expands precision medicine for triple-negative breast cancer.",
+      "abstract_sha256": "c92da210dd336a0fbe6041cd2e2e7e151b0a34b2ea8c013ed455fcc94989d52a",
+      "order_key": "c23be947a8b86145739e607cc00145d5d9039e4f9f8548c8e932f3a00d9ce229",
+      "source_id": "MED:35105939",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 99,
+          "source_id": "MED:35105939",
+          "abstract_sha256": "c92da210dd336a0fbe6041cd2e2e7e151b0a34b2ea8c013ed455fcc94989d52a",
+          "record_object_sha256": "7fabdbbe8ae1e2f50ad4374137b0c6745efab2be8f4867baa45134bb55ff03c1",
+          "annotation_excluding_source_metadata_sha256": "1c5df9c228e5f44fea3d95d6fce7bb3f8579a9fa76936715fa030bb80480e488",
+          "source_metadata_sha256": "9066e357569f4cc73f44a8dcec2878fafa8b863a5cdc1c9766219df2563ae70d",
+          "read_evidence_sha256": "76af41cf4435ca0303ce905fe0a5e5460907f7c4b70f708762dde18bfd71d7d9"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4081,
+      "source": "MED",
+      "record_id": "23406204",
+      "pmid": "23406204",
+      "title": "Intragastric exposure to titanium dioxide nanoparticles induced nephrotoxicity in mice, assessed by physiological and gene expression modifications.",
+      "abstract_sha256": "3a85a1ef83f5f57fbac9bfc3959b60a68b2f8d3f488a44f2a04190c99ce4e5ca",
+      "order_key": "c3de67623cdc0dfc8637853662e48dec75eae683ca286f6ee03c874e06be01fb",
+      "source_id": "MED:23406204",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 10,
+          "source_id": "MED:23406204",
+          "abstract_sha256": "3a85a1ef83f5f57fbac9bfc3959b60a68b2f8d3f488a44f2a04190c99ce4e5ca",
+          "record_object_sha256": "29d895ce228dc3647f63650cca9313d6718e19a9c6ef8205b11e25002f8131a4",
+          "annotation_excluding_source_metadata_sha256": "4c066adb7cc5b2becb3b1f695382b32818771f94eb0a60d30d0ef778c6132dc1",
+          "source_metadata_sha256": "cda021129280dd3cc3312ebfa206822738524e1334339eb1ccfe4ebb587d670a",
+          "read_evidence_sha256": "d48f8cbb8e3b833281eaf335e8e9d75d473010ec42aa67ed860e70190cd0b28b"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4120,
+      "source": "MED",
+      "record_id": "39859069",
+      "pmid": "39859069",
+      "title": "Natural History of Metabolic Dysfunction-Associated Steatotic Liver Disease: From Metabolic Syndrome to Hepatocellular Carcinoma.",
+      "abstract_sha256": "8c11cc91ece94c4293d2d0b5d8f29b84dff7ccf83b7bf6076db59f366e05e122",
+      "order_key": "c58395d85b3bc4ba074f00177e25fa8d42e9fefabe0ac9b645b79dd7fc172c33",
+      "source_id": "MED:39859069",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 125,
+          "source_id": "MED:39859069",
+          "abstract_sha256": "8c11cc91ece94c4293d2d0b5d8f29b84dff7ccf83b7bf6076db59f366e05e122",
+          "record_object_sha256": "e8a64951cba96bd3ecba95601db76793081beec9192ccbef051bf6e4c583cb0a",
+          "annotation_excluding_source_metadata_sha256": "c2b8e44dcd06a1893ddeb8753e93be3217b505cd9b96abc9eaffb7825f74f7a1",
+          "source_metadata_sha256": "8320f3d818cf73b39299cc7e1b7f7ca4f907a8366ac9013c70af732f379a0528",
+          "read_evidence_sha256": "4aaff1b9d6da0972d7d12a808a7ab8ed7d63d6c4b4717f4961b094b0b2404041"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4128,
+      "source": "MED",
+      "record_id": "42345812",
+      "pmid": "42345812",
+      "title": "Two-Step &lt;i&gt;Vibrio parahaemolyticus&lt;/i&gt; Challenge Reveals Transcriptional Reprogramming of Trained Immunity in Shrimp Hemocytes.",
+      "abstract_sha256": "be4ad12b9ff36a284601e13e68fbe596fec2ef528f803a5a4dbff7ae38736549",
+      "order_key": "c5b9e000090e47cb9efa3f92f1c239edc750726f7245a206ebc03a0e0eb4c08a",
+      "source_id": "MED:42345812",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 148,
+          "source_id": "MED:42345812",
+          "abstract_sha256": "be4ad12b9ff36a284601e13e68fbe596fec2ef528f803a5a4dbff7ae38736549",
+          "record_object_sha256": "c5c0c7b24e4fc28daccf4daa564ca1bf6f52d334b3770199ee269111d0637e36",
+          "annotation_excluding_source_metadata_sha256": "c42481686d694979d327c6173314198d62ca052f8b6705c9769f6e80eb18c429",
+          "source_metadata_sha256": "0fe131d5e26de7dd42c2ac3f143c10eced2a5899f3007c9656f89db3f1fac55f",
+          "read_evidence_sha256": "034d1eff968ba84704d33da835367923421a01f34224fe2c74c739ec6066a09a"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4185,
+      "source": "MED",
+      "record_id": "31392101",
+      "pmid": "31392101",
+      "title": "Identification of significant gene and pathways involved in HBV-related hepatocellular carcinoma by bioinformatics analysis.",
+      "abstract_sha256": "23efe21189f56441d821d4510d6fea980df844f42da473379cd84fbddb0821a9",
+      "order_key": "c863a7276200da623c50d5d0e7a1345d8d9cf5438345172f9a4627360804baf7",
+      "source_id": "MED:31392101",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 26,
+          "source_id": "MED:31392101",
+          "abstract_sha256": "23efe21189f56441d821d4510d6fea980df844f42da473379cd84fbddb0821a9",
+          "record_object_sha256": "bdf917c330c773711ce30e1e6edd39b27416d2690fb6a1ec891cbf5bd61e7ba5",
+          "annotation_excluding_source_metadata_sha256": "8025563dc41479b1ffa719574556f95221a4db4abda17925a1d1bcab191cd25a",
+          "source_metadata_sha256": "54ab9c0e46c6e89d1b7c110c23ddab04ff4055fbe00e8c1d8ccc52711ee5f76a",
+          "read_evidence_sha256": "e6495df661f93fe67496ff33d14c7042f9f03d013f12fd9425b9c30df73280dd"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4186,
+      "source": "MED",
+      "record_id": "29769406",
+      "pmid": "29769406",
+      "title": "Spindle Assembly Disruption and Cancer Cell Apoptosis with a CLTC-Binding Compound.",
+      "abstract_sha256": "d603cd867c934b17cdeb12345a2b0ae0295dc182762cc9d2d5f64a9269793cf4",
+      "order_key": "c8739ddfb029a2aceb82cde0f4b6c726f6ec5733ef10ce7652015acaf0762081",
+      "source_id": "MED:29769406",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 51,
+          "source_id": "MED:29769406",
+          "abstract_sha256": "d603cd867c934b17cdeb12345a2b0ae0295dc182762cc9d2d5f64a9269793cf4",
+          "record_object_sha256": "5d248acdac1164c98f85047bc60763886fc5c3da1c50ac3af32af31e37ce5573",
+          "annotation_excluding_source_metadata_sha256": "9eed7aa89823009008186d69ecc1bfa059f9fcd0e638815cef448b16f2bd459d",
+          "source_metadata_sha256": "eeb542a8f6838f870633d2390094610f036bc1b2de42ea8b6b02eab7906cb074",
+          "read_evidence_sha256": "0c42fd8e011109cffb9c2e50b373604be63d04049322547a06dd9c096ef51cd4"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4203,
+      "source": "MED",
+      "record_id": "21753893",
+      "pmid": "21753893",
+      "title": "Molecular and cellular pathways associated with chromosome 1p deletions during colon carcinogenesis.",
+      "abstract_sha256": "9ca8c7b2813c52a9efe4af92aabfbfb8441428ff4ecaa7080f853055ee8b4f45",
+      "order_key": "c9265acff52e37afceccacb6634c0f065cb6abf0f6f5a7167b393ca3a36261d7",
+      "source_id": "MED:21753893",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 7,
+          "source_id": "MED:21753893",
+          "abstract_sha256": "9ca8c7b2813c52a9efe4af92aabfbfb8441428ff4ecaa7080f853055ee8b4f45",
+          "record_object_sha256": "6862f1beef59ad790e9cfba6417ea2c97f0d9137ea16f9fc8a489eb7a8b0e0d2",
+          "annotation_excluding_source_metadata_sha256": "b2101440640d203832373af0d3618a672cddf47d8be3cedc6705d0be5d4281d4",
+          "source_metadata_sha256": "f2f23263107c28329d7ea814290b38497ae707507888dad61b2d9cc433aa10e3",
+          "read_evidence_sha256": "caaae39b089ec7ca7a4ec167f5231eb9bc0ed998290f0648e4f14f923137a33f"
+        },
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 16,
+          "source_id": "MED:21753893",
+          "abstract_sha256": "9ca8c7b2813c52a9efe4af92aabfbfb8441428ff4ecaa7080f853055ee8b4f45",
+          "record_object_sha256": "855ce63cbf4f325b033e1e9ee74bcb892c8b480f054b437629a2f918c53c432c",
+          "annotation_excluding_source_metadata_sha256": "6b736442ad34b87eeee74072169bbec058a9ae28917ccc7ca631ac8ee7b2a0e3",
+          "source_metadata_sha256": "004e2e977f0d7d3ef159519f329110bb881a7d182c2db0186ac47bad85facddc",
+          "read_evidence_sha256": "9e5598e24e0f2e8653bc99b6cbf1d10a355b5ea35bee120a26c05935705a515e"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4301,
+      "source": "MED",
+      "record_id": "33807411",
+      "pmid": "33807411",
+      "title": "Covalent Cysteine Targeting of Bruton's Tyrosine Kinase (BTK) Family by Withaferin-A Reduces Survival of Glucocorticoid-Resistant Multiple Myeloma MM1 Cells.",
+      "abstract_sha256": "201f1c3c93fd2b8b2aa7405c7f416449e291d0070b9b5097a426bbd1e90ecbda",
+      "order_key": "ce6563810f2645998502b60cb4ba9637e11e7e9943f89bc5c39fd28f2dd03bf9",
+      "source_id": "MED:33807411",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 78,
+          "source_id": "MED:33807411",
+          "abstract_sha256": "201f1c3c93fd2b8b2aa7405c7f416449e291d0070b9b5097a426bbd1e90ecbda",
+          "record_object_sha256": "b9a54e648a31f58e2e6e672b982c0cef08fe9ba0389cb4617ce2f00aa1319ce0",
+          "annotation_excluding_source_metadata_sha256": "ca089ab97de30686b4be886db72d6c8f27e8591b35ea6f227189b2476e9195ec",
+          "source_metadata_sha256": "729f5cc30d833b3e88c985fa65cb32c47a9e1ba374a46bf3ef0a6ec26c550ae4",
+          "read_evidence_sha256": "3bfab18932d76aff6e33a1af121af264ce2cd1392d5880f3d7d6e84254fba40b"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4308,
+      "source": "MED",
+      "record_id": "26229962",
+      "pmid": "26229962",
+      "title": "Cyclic Tensile Strain Induces Tenogenic Differentiation of Tendon-Derived Stem Cells in Bioreactor Culture.",
+      "abstract_sha256": "3eebfc1b09d0f698ba26fa869c83bb79a583ed51bf3b16f61100bf08fccfe6e9",
+      "order_key": "ceaddc20476eb420913ec6b66978ca261e0d5a1b78f02934b278ac57b34e3a55",
+      "source_id": "MED:26229962",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 32,
+          "source_id": "MED:26229962",
+          "abstract_sha256": "3eebfc1b09d0f698ba26fa869c83bb79a583ed51bf3b16f61100bf08fccfe6e9",
+          "record_object_sha256": "eee4e438205dbf88fe756d28dd8e88a412777cf5002ecb241be52914f2a194d0",
+          "annotation_excluding_source_metadata_sha256": "4625bf6c40b04eb8f6b1ae3f131d3ff6f530562ca74901d3b3270306100c6472",
+          "source_metadata_sha256": "f5946b2c52338de3afb21bc372faafb9d1d579a7f95b969efc1f780706bcc379",
+          "read_evidence_sha256": "a53396eeb53277b62641aa565e99891890db1917a07688ff6e98ba4066f1a450"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4367,
+      "source": "MED",
+      "record_id": "36638165",
+      "pmid": "36638165",
+      "title": "The role of altered lipid composition and distribution in liver fibrosis revealed by multimodal nonlinear optical microscopy.",
+      "abstract_sha256": "a2257302e7dfcebc40f4680e771bd1f56441576b125c44cf718d78c76c9dd40e",
+      "order_key": "d1c8509326dc3c48eee934a46aa37b318500fcd60f9978cadfb72af2d29d3ebd",
+      "source_id": "MED:36638165",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 109,
+          "source_id": "MED:36638165",
+          "abstract_sha256": "a2257302e7dfcebc40f4680e771bd1f56441576b125c44cf718d78c76c9dd40e",
+          "record_object_sha256": "50e9241fdd787d48e41b78e437a501e899db8c3f3eabdfe03f084001d53562c0",
+          "annotation_excluding_source_metadata_sha256": "f5f6931b5cadbeee36c6eb9a8e6d685eacfa332308f8039d401fdd6ab502d7b5",
+          "source_metadata_sha256": "f7bbcdce0b3281a72209797789de98cb6a63390d6c0aa03855f39a4660b75f58",
+          "read_evidence_sha256": "ce10d57c95e0404b78cb2f0f73b25cee66e612d54a1dfe11b613251dbd6b67c0"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4443,
+      "source": "MED",
+      "record_id": "34591613",
+      "pmid": "34591613",
+      "title": "Interpretation of cancer mutations using a multiscale map of protein systems.",
+      "abstract_sha256": "98d5d7247a0316c08bd3b698e1190ad83ac54a218478c2ca519f99e7e1b58ed7",
+      "order_key": "d562d332958f7c1a5f4316426f006db923d882a6ff36e677aa8b4a6aa592ddfc",
+      "source_id": "MED:34591613",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 87,
+          "source_id": "MED:34591613",
+          "abstract_sha256": "98d5d7247a0316c08bd3b698e1190ad83ac54a218478c2ca519f99e7e1b58ed7",
+          "record_object_sha256": "c814fb566dfcfd931d8448b179637da0714e0609dd35cf5d8e0119515f832024",
+          "annotation_excluding_source_metadata_sha256": "e8e0188a7999a6c0d93f873b14231dd0b16065e425618fe6ee525095b17ebcaa",
+          "source_metadata_sha256": "6c2cb0aa2a11bbaaac8a65d20acee0fb515094cb877f37cda3da50fc2e0fb120",
+          "read_evidence_sha256": "be227847f4d42033dceaa6695d075e4026a0487327bd57ee70a1a6b4a168e2ac"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4496,
+      "source": "MED",
+      "record_id": "36760739",
+      "pmid": "36760739",
+      "title": "Synthesis and bioactive evaluation of <i>N</i>-((1-methyl-1<i>H</i>-indol-3-yl)methyl)-<i>N</i>-(3,4,5-trimethoxyphenyl)acetamide derivatives as agents for inhibiting tubulin polymerization.",
+      "abstract_sha256": "2a52c263953a523a22682df2778718720cf6900d3f104f63bf7e898e7cd1326c",
+      "order_key": "d7bc7df8be19a05ea96d08346e81cb2433e996407f102aa64f722227c64b1813",
+      "source_id": "MED:36760739",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 44,
+          "source_id": "MED:36760739",
+          "abstract_sha256": "2a52c263953a523a22682df2778718720cf6900d3f104f63bf7e898e7cd1326c",
+          "record_object_sha256": "fff8a5c3923175e76c8c021b26104abd3aebf3dea05d3657f70af045110b22b2",
+          "annotation_excluding_source_metadata_sha256": "03fb17d3d40a25df62114079f88e384cdf209e9eecfdec698c723c1ea7526afb",
+          "source_metadata_sha256": "b9cfda8e5b0d2c42f5f31665866f7aa7700ee756e4bd283c92cdf2df90c5279f",
+          "read_evidence_sha256": "ad63e2bdd7d400798e4bda70a89f288aea661a24bd2fcbf7bd1f2aabba5893e2"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4512,
+      "source": "MED",
+      "record_id": "34669932",
+      "pmid": "34669932",
+      "title": "Maternal caffeine intake and DNA methylation in newborn cord blood.",
+      "abstract_sha256": "a4d825194411ddd4fa2285e1106d8c76f99770b03e430c7a5c5054fb0da04700",
+      "order_key": "d85c8a065035896c7e5a429607d11586f8814d675047c21ea6c6a63eb2d05942",
+      "source_id": "MED:34669932",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 34,
+          "source_id": "MED:34669932",
+          "abstract_sha256": "a4d825194411ddd4fa2285e1106d8c76f99770b03e430c7a5c5054fb0da04700",
+          "record_object_sha256": "aba8e172bd0b112c05b5c4b2537753647fcdc904f9c2bfd60213f820e1013222",
+          "annotation_excluding_source_metadata_sha256": "a8ed6f54cd790a7ef927dbeb0f11b0e1b81f6c6f85796b719d3aec739944520e",
+          "source_metadata_sha256": "127226233e5d436434f3cc36e5080a287676c53bb1878067403d21ed8e98d2a8",
+          "read_evidence_sha256": "05e72cbce434c9150e9afd918e8143c1e00c65218483b3b2d5fbdabce069bae7"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4604,
+      "source": "MED",
+      "record_id": "33068521",
+      "pmid": "33068521",
+      "title": "Characterization of Metabolic Patterns in Mouse Oocytes during Meiotic Maturation.",
+      "abstract_sha256": "8ea731f822450c18b5e50af4b4f1e1a5f98b979217efc7596e78d0979be4906d",
+      "order_key": "dc91ac44516d12f664614d8f41d5ada73da506734213a28c20b8b8cbd6780a85",
+      "source_id": "MED:33068521",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 72,
+          "source_id": "MED:33068521",
+          "abstract_sha256": "8ea731f822450c18b5e50af4b4f1e1a5f98b979217efc7596e78d0979be4906d",
+          "record_object_sha256": "59815ed4728cce24d6713eecbada2aedfeba517a1d93ce54b29f0954e3795253",
+          "annotation_excluding_source_metadata_sha256": "43d415ab35ce8b298f28c6d3100ae4eae9fbb5205d4b73df95deb45a7843733a",
+          "source_metadata_sha256": "6390c96c70bd819c6c4695761e130abe08e7ab59d5c5d09225da31487068dda9",
+          "read_evidence_sha256": "45a0f37e3c16e475ccd46e2ce9f9c42689ef8fc2ecc25af64f2ec44e54d68f2b"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4608,
+      "source": "MED",
+      "record_id": "32802414",
+      "pmid": "32802414",
+      "title": "Persistent Hypoglycemia in Seven-year-old Saudi Child: A Case Report.",
+      "abstract_sha256": "2cecd57e0eb6076c3a215445f865d6a04a8d04f8db357c99415bcbab6fccb48d",
+      "order_key": "dcf052d874de32ca6c16e1566982fcda2c65447b203513d2a64cf8b02285f675",
+      "source_id": "MED:32802414",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 69,
+          "source_id": "MED:32802414",
+          "abstract_sha256": "2cecd57e0eb6076c3a215445f865d6a04a8d04f8db357c99415bcbab6fccb48d",
+          "record_object_sha256": "cd97faf92a1227e0864c56dd8eb181e112fcc25edf42d0630b586a3db69cbde5",
+          "annotation_excluding_source_metadata_sha256": "d2f68f6abc72f240f80311e6eb36163ed1577a0b3415fce5c483faae51c8b730",
+          "source_metadata_sha256": "f7251fbb48a0777294872e73a286ae768122f9969e4edc5ad532df3bc2066b9c",
+          "read_evidence_sha256": "c03faae5bdb669908c2153ea311c0365c25278c6205d0b1bfa2ca8c0800b906b"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4684,
+      "source": "MED",
+      "record_id": "33919944",
+      "pmid": "33919944",
+      "title": "Integrated Metabolomics and Transcriptomics Using an Optimised Dual Extraction Process to Study Human Brain Cancer Cells and Tissues.",
+      "abstract_sha256": "3140d151ed299e674505819fe11bf2e281305f2c249dba2e3549a0d78eb6a99c",
+      "order_key": "e0910dab5e3eb80ccee9d0d9e10266b3f7c22805ee64f89f0dcda4d0324aac2b",
+      "source_id": "MED:33919944",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 32,
+          "source_id": "MED:33919944",
+          "abstract_sha256": "3140d151ed299e674505819fe11bf2e281305f2c249dba2e3549a0d78eb6a99c",
+          "record_object_sha256": "1b6eacaab793d04d3aafe4f788a3c8cc4787467ad2f82410de8fad9fca6d39c7",
+          "annotation_excluding_source_metadata_sha256": "a625023c9e84f064aed144cc4e212c2b96fbbc40f849d094132df1b9faf3ef75",
+          "source_metadata_sha256": "e2d0bbea013eb6393d8099303796b2af640174a90fd09afaedc2f45515621a40",
+          "read_evidence_sha256": "a6a73a88297fa31eb3488f4ac9ca24d1252415ac17aba9067164fee32e735ed5"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4709,
+      "source": "MED",
+      "record_id": "27011768",
+      "pmid": "27011768",
+      "title": "Active centromere and chromosome identification in fixed cell lines.",
+      "abstract_sha256": "a090e7725bd512dad31061236f243d99261cf3511a9d94b9446bbfea6038141e",
+      "order_key": "e1c79b82ac814ce460d23ab352239f404af1202c27218be83fe8cb3b689dba5e",
+      "source_id": "MED:27011768",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 16,
+          "source_id": "MED:27011768",
+          "abstract_sha256": "a090e7725bd512dad31061236f243d99261cf3511a9d94b9446bbfea6038141e",
+          "record_object_sha256": "4ee9e6068a5d4bdf19577dc00409ea52288fdfa2e0cbe547db01cfdc6ffd10d7",
+          "annotation_excluding_source_metadata_sha256": "df366942a0d1210eecb392917fe04eb7ba84e5a287bf4c9eddb199bc4208cd07",
+          "source_metadata_sha256": "57265bad2b53aabac99c6a073546ff8cc42c2d938ed7cc47d06d633a4c759d6e",
+          "read_evidence_sha256": "c9982949042cf9f9d4a708b17a92959c087e649efb73838902f849fd5bcdb4f1"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4715,
+      "source": "MED",
+      "record_id": "39215940",
+      "pmid": "39215940",
+      "title": "Collagen-Heparin-FGF2-VEGF Scaffolds Induce a Regenerative Gene Expression Profile in a Fetal Sheep Wound Model.",
+      "abstract_sha256": "74d8ce12c2c8e73f9c25f95b47ed1cea58e7614d3ac2243dc939ff33aae6521f",
+      "order_key": "e20e10f47e8de1d43ed7bf500db1967dd608226eb58e746da2eb984c5db45a86",
+      "source_id": "MED:39215940",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 118,
+          "source_id": "MED:39215940",
+          "abstract_sha256": "74d8ce12c2c8e73f9c25f95b47ed1cea58e7614d3ac2243dc939ff33aae6521f",
+          "record_object_sha256": "7368f259a88f191f9fd0bf0c242061c8cb9506a0d6b25686c5e86a4ff69d1255",
+          "annotation_excluding_source_metadata_sha256": "b31ca94e80a7116ac15dcb423c6aa62063411c34552d3b542d6581a16692815a",
+          "source_metadata_sha256": "003f1ba2312b10858fba62521ca6aa94130d0da74b4c6c3bf3c38422c31666c3",
+          "read_evidence_sha256": "f5c8ac55c2fe394f6a9d77fbe10d6f425fe57f99e77ba084a93dce4255fc5a65"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4776,
+      "source": "MED",
+      "record_id": "31783552",
+      "pmid": "31783552",
+      "title": "Paclitaxel's Mechanistic and Clinical Effects on Breast Cancer.",
+      "abstract_sha256": "d8fb7fc7ecedd62a822e289afa8d545c2f769e963a38c55e4a0c59f76c16bd09",
+      "order_key": "e4b02f6fffbfdb16cc24934fc1dd3bee624c6e74818eeeb0ef506666c61d96bc",
+      "source_id": "MED:31783552",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 60,
+          "source_id": "MED:31783552",
+          "abstract_sha256": "d8fb7fc7ecedd62a822e289afa8d545c2f769e963a38c55e4a0c59f76c16bd09",
+          "record_object_sha256": "e7dd058c75c8725fa833fb434b89e64ed76cefc75302bb0ee077975368f343f7",
+          "annotation_excluding_source_metadata_sha256": "c1f99385e3a2836c91c07543dbcd8a7a928ec70084f82a83652d7e1358066dc5",
+          "source_metadata_sha256": "c00134da1e004099e9d8755abe329c97a36136901fba7c339d3c8827cc3e6292",
+          "read_evidence_sha256": "3171f77766936d07bae62f05fe3414f38b94b2d2d3acd6388e80a9f669208acc"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4814,
+      "source": "PPR",
+      "record_id": "PPR624548",
+      "pmid": null,
+      "title": "Bulk RNA-Sequencing of small airway cell cultures from IPF and post-COVID lung fibrosis patients illustrates disease signatures and differential responses to TGF-  <i>β</i>  1 treatment",
+      "abstract_sha256": "cd8e6dd1651dfca6c6526a1df8957b2c1f55d5f436ce28de5acdadbc221026e9",
+      "order_key": "e6a12a0a25db289999b4288ee6559029a4382dd82e9f0a25b313cb0fe0e9123e",
+      "source_id": "PPR:PPR624548",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 153,
+          "source_id": "PPR:PPR624548",
+          "abstract_sha256": "cd8e6dd1651dfca6c6526a1df8957b2c1f55d5f436ce28de5acdadbc221026e9",
+          "record_object_sha256": "755d189d5f225d1234667766ef22a00a0e36628fff53317c7c3c734b183f534e",
+          "annotation_excluding_source_metadata_sha256": "d32880022ecafd5a49337c277d64e1aec662755290b439fb655af010f04e3b54",
+          "source_metadata_sha256": "5f50b780e37f5f81c0f29317f6b3cbfdc08b1b140cd6c41ad41c2f3cff9d1335",
+          "read_evidence_sha256": "23c95c68fd3005125575b4872e2e74d6014c788c76805feb785461e747ea3569"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4839,
+      "source": "MED",
+      "record_id": "28586059",
+      "pmid": "28586059",
+      "title": "Identification of critical genes in nucleus pulposus cells isolated from degenerated intervertebral discs using bioinformatics analysis.",
+      "abstract_sha256": "72eaeac0b5c5cbc363a5acb2a7cf3429dee7610d7ed1280597dec9360f2c5de8",
+      "order_key": "e78a4320db503ea82e243189cdd73d062c0517e568e6acfc5edacc8ce8e061c6",
+      "source_id": "MED:28586059",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 44,
+          "source_id": "MED:28586059",
+          "abstract_sha256": "72eaeac0b5c5cbc363a5acb2a7cf3429dee7610d7ed1280597dec9360f2c5de8",
+          "record_object_sha256": "4baf977b4e15b56156659ff2fa9c5f1bccae007f0dfe09aa983e4d6a9fae2738",
+          "annotation_excluding_source_metadata_sha256": "466302dc69f7f3453d31ad90fc47e0f64c459b28f662b697f9f2bb594ab1c8fd",
+          "source_metadata_sha256": "8e9185df01007b1f22553c90e74dd8bf0f80eb7cb961d153a7d042166538d7ec",
+          "read_evidence_sha256": "10554ed6b41fbcbd92f08a5f20894fa59deabd91ef1672a9e0294199f78f7f30"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4880,
+      "source": "MED",
+      "record_id": "42193067",
+      "pmid": "42193067",
+      "title": "Transcriptomics, Proteomics and Network Pharmacology Reveal the Mechanisms of Cantharidin-Induced Kidney Injury in Rats.",
+      "abstract_sha256": "1f5544e0dd8d04ef3be8c98a6bd2dcc849a27ac1dbbfb7a6ae6bb2b1364cdbf6",
+      "order_key": "e9a0a2d6ff416203e13558986ab9ee0948ad22a44b14a98cae252a9ff1306ab4",
+      "source_id": "MED:42193067",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 147,
+          "source_id": "MED:42193067",
+          "abstract_sha256": "1f5544e0dd8d04ef3be8c98a6bd2dcc849a27ac1dbbfb7a6ae6bb2b1364cdbf6",
+          "record_object_sha256": "bd7d5a733ebb6aed0ce0e9ef1eca4ec7576880ca4d35681f0c49ce7bb278bd5d",
+          "annotation_excluding_source_metadata_sha256": "eebc369d36124b17bca44dfc948038457fdce3c0d600a95a9c0dd54f8d060741",
+          "source_metadata_sha256": "ed48b12fce892024af02df8cc13d9b08b5ff292ab3e4894fdb6e23dfe1eef1f5",
+          "read_evidence_sha256": "017eb8a925d23d306f2af4884650f1414190e72575d57962ce87b2216be6df34"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4914,
+      "source": "MED",
+      "record_id": "40161411",
+      "pmid": "40161411",
+      "title": "Carotenoids Modulate FoxO-Induced Cell Cycle Awrrest in Human Cancer Cell Lines: A Scoping Review.",
+      "abstract_sha256": "8afc91f23835b3f50137346a976cc75e7c8f4ed842ae49f3d88fbc146e5fb0b8",
+      "order_key": "eb910102763c3e013ec41860a9b44a67fd752fc170e8c3dc48c4a799ad83edac",
+      "source_id": "MED:40161411",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 51,
+          "source_id": "MED:40161411",
+          "abstract_sha256": "8afc91f23835b3f50137346a976cc75e7c8f4ed842ae49f3d88fbc146e5fb0b8",
+          "record_object_sha256": "093736288c0491c8728d8eb66676f6616e907bf38a5fcb777437b58209826b0e",
+          "annotation_excluding_source_metadata_sha256": "b67d4ba21c5d68f2fe191513818e2e42ea79ac558de8a9c1640aceeacaed9b81",
+          "source_metadata_sha256": "c3f14f1febd7c64bbdaf6b6b29630ff5269d81295a2cdce2b4cf32e4078efd19",
+          "read_evidence_sha256": "c82ac2e706a2ff4951dff7dd587383cdd32a001333d6e85c494bc5d059a95fa2"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4959,
+      "source": "MED",
+      "record_id": "29147457",
+      "pmid": "29147457",
+      "title": "Oxidative Stress Delays Prometaphase/Metaphase of the First Cleavage in Mouse Zygotes via the MAD2L1-Mediated Spindle Assembly Checkpoint.",
+      "abstract_sha256": "2464d4d3d59c8fa52c242c3b966541b90da0d4565e9b0ae19c9bdd3760c621c0",
+      "order_key": "edb34d5daa93d6b0a308a3e61034bd0724b4a299605a7e96cf4dd7a6b3ed4012",
+      "source_id": "MED:29147457",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 47,
+          "source_id": "MED:29147457",
+          "abstract_sha256": "2464d4d3d59c8fa52c242c3b966541b90da0d4565e9b0ae19c9bdd3760c621c0",
+          "record_object_sha256": "e907992fd768926c37b88e9af129fa0c4fd8b94d19e178af6d086084f8ffa576",
+          "annotation_excluding_source_metadata_sha256": "72af179cb36aab4f4fc0629cb7ddb5652b2b70c7e8cde356443d5609f777d984",
+          "source_metadata_sha256": "e463de490d713aaafbda08353e187678bf50f2fd901ef8ffee5b080912b82d6d",
+          "read_evidence_sha256": "2de3b0c12857a2eee4984962b6b97043752ea25fe5e2d2c2e639a7463d7bce34"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4973,
+      "source": "MED",
+      "record_id": "23476019",
+      "pmid": "23476019",
+      "title": "Coordinate changes in histone modifications, mRNA levels, and metabolite profiles in clonal INS-1 832/13 β-cells accompany functional adaptations to lipotoxicity.",
+      "abstract_sha256": "3eccf4204a47fc2c1d06eed84e82819e301d31cbf3f6dac0409fd512e667d415",
+      "order_key": "ee48084ad465bfbaae8858aa904e35c9e03595d5db032790a684d5e24426ec30",
+      "source_id": "MED:23476019",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 22,
+          "source_id": "MED:23476019",
+          "abstract_sha256": "3eccf4204a47fc2c1d06eed84e82819e301d31cbf3f6dac0409fd512e667d415",
+          "record_object_sha256": "82b359866264f19e4667277241c5f10130b51d3dafbcfed545dbe7563633b0d3",
+          "annotation_excluding_source_metadata_sha256": "693dcfb1cb5d0644845cb5a3b13a67a6f5ffb8a83d7b544ca590ff4e3aefd3f4",
+          "source_metadata_sha256": "3bf6ec20a20d8483dd139bab59792a18fea84cf869e96d3638d735bf482d39ea",
+          "read_evidence_sha256": "02c4d51b7ef2306b6c6f4fd85e58355ee2ce66929ad328dca61549f52b3c14f8"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 4994,
+      "source": "MED",
+      "record_id": "35172237",
+      "pmid": "35172237",
+      "title": "Study on the effect of different types of sugar on lipid deposition in goose fatty liver.",
+      "abstract_sha256": "aad5489378c52051214019f04b16ca1c704fd50d8840c855821e7ac7811c9704",
+      "order_key": "ef508838b4ebdf468410f0fbbbeca6cebd332abb7b47589b15682dece71952a8",
+      "source_id": "MED:35172237",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 100,
+          "source_id": "MED:35172237",
+          "abstract_sha256": "aad5489378c52051214019f04b16ca1c704fd50d8840c855821e7ac7811c9704",
+          "record_object_sha256": "1060e84f11be17ea72295e767b5be18b5509a509db38fce96a934f54c608b0b9",
+          "annotation_excluding_source_metadata_sha256": "932597554eb455575aefb6c0fde97a0d4ce01b986fc87cdfd05344d5ad5c73c8",
+          "source_metadata_sha256": "37657fc906c49ccea1367ae9c3099f8dc5328b68dfda9b1c52b75668d5c6d449",
+          "read_evidence_sha256": "be4edfceef85c349454eb2bdec6f98d2384fb57b01c2c81238c415bee97e0e0e"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 5017,
+      "source": "MED",
+      "record_id": "20701600",
+      "pmid": "20701600",
+      "title": "Fat tissue, aging, and cellular senescence.",
+      "abstract_sha256": "9734c473ef3d7518fcba1c93364531c2cf7f2af7cf8ba29b9de3d78af3ad1854",
+      "order_key": "f02f7e5f1b370e77232c89e35e4ed182e15e5d6f11e28c29bc390fb05dbffe80",
+      "source_id": "MED:20701600",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 12,
+          "source_id": "MED:20701600",
+          "abstract_sha256": "9734c473ef3d7518fcba1c93364531c2cf7f2af7cf8ba29b9de3d78af3ad1854",
+          "record_object_sha256": "fec67a52824c5a5e4477ce093d483be9e3cc0e26af98307c2d68e57ca2872e5b",
+          "annotation_excluding_source_metadata_sha256": "3260dac7677d188f82cd9da5e9c840bdc88810c77e2b9f01dff95bd3ce12b7fd",
+          "source_metadata_sha256": "6d3bb563e5092164886886214c1a3c11ba9e20baf6d70d66c2bd5c8510b2ed6d",
+          "read_evidence_sha256": "9423090a5d933e53e1ac0f03f0b780ba9b9f0da41376effa5db1212ce39aaf47"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 5030,
+      "source": "MED",
+      "record_id": "29713277",
+      "pmid": "29713277",
+      "title": "Greater Celandine's Ups and Downs-21 Centuries of Medicinal Uses of <i>Chelidonium majus</i> From the Viewpoint of Today's Pharmacology.",
+      "abstract_sha256": "b1d64a64c59a177135df11775b8119129b5b6f1b60e0b89c57dc580c8bcf08b1",
+      "order_key": "f0d86b4131323e99071c741a4bb6fa5c7ec18247b3e71bfcf96f285fb42e934c",
+      "source_id": "MED:29713277",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 22,
+          "source_id": "MED:29713277",
+          "abstract_sha256": "b1d64a64c59a177135df11775b8119129b5b6f1b60e0b89c57dc580c8bcf08b1",
+          "record_object_sha256": "598f9fc7699f27e926643f7a4a2ea6ceb8ae34bfe5fcc6e702161add891fb9b1",
+          "annotation_excluding_source_metadata_sha256": "ef6d35e01bdff3eb2cfdc7f831ceafd1073aaca1a80e95bcb858f291f36db848",
+          "source_metadata_sha256": "8161af717da3e99979fabffa12efef0fb266ebf9b3b4b36d8dfa7def96125bcf",
+          "read_evidence_sha256": "88fa155fc7587ff45a5b111a46fee07ee99f8637ea8119144f99c0421c47be48"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 5039,
+      "source": "MED",
+      "record_id": "42488336",
+      "pmid": "42488336",
+      "title": "Research progress of lactylation modification in tumors (Review).",
+      "abstract_sha256": "57b2b13aab5279563b084f594dfef6a5dbb954602f809ef15a90f92587533e89",
+      "order_key": "f147438a0a749b77f032b7606b559c7053d0a72d51ab226dbb52992f913a03cc",
+      "source_id": "MED:42488336",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 150,
+          "source_id": "MED:42488336",
+          "abstract_sha256": "57b2b13aab5279563b084f594dfef6a5dbb954602f809ef15a90f92587533e89",
+          "record_object_sha256": "2631cefccbf2776c744c66468ded35b4a98cd7fffbf3fd36552557f3008bedd6",
+          "annotation_excluding_source_metadata_sha256": "4950094eeea013c248ce86cc265c6e69c30d6aa30e442f2804cf4a6180177f91",
+          "source_metadata_sha256": "fb650a2b65c17738d841d1c13a42e0078fe879c54fe927c6fe53852e819d397b",
+          "read_evidence_sha256": "9c7962713d670b3493d2e5dc0db5a5394a3042336e9f0b1d0c0f81bfceda7ea9"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 5085,
+      "source": "MED",
+      "record_id": "35921017",
+      "pmid": "35921017",
+      "title": "Chemical Ecology of the host searching behavior in an Egg Parasitoid: are Common Chemical Cues exploited to locate hosts in Taxonomically Distant Plant Species?",
+      "abstract_sha256": "5f4e1677a45b551c3698534bfc4ae888e34a0f68c450dd66456bb17d1704dd7e",
+      "order_key": "f3002d8b4208d3f90d244f02a4ba81c6bee287da6022a80b0c65a730581a9b02",
+      "source_id": "MED:35921017",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 40,
+          "source_id": "MED:35921017",
+          "abstract_sha256": "5f4e1677a45b551c3698534bfc4ae888e34a0f68c450dd66456bb17d1704dd7e",
+          "record_object_sha256": "1c260c26401b8c21d41aa7f74c210b64ddf68363e130a03b8d786b1ae62ed948",
+          "annotation_excluding_source_metadata_sha256": "9b56cf6c658b521f9185e4f7c529df7d553e6a0c85e4db62161f788f45a038c9",
+          "source_metadata_sha256": "d70225ee0c78041fd8397f3d59d05a886b09c9137df1daf2a60a59cb5da2011f",
+          "read_evidence_sha256": "311ece17bc26b81dfcb6811699001ac88e7007952b54192505fa3ce9e5e6edd2"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 5102,
+      "source": "MED",
+      "record_id": "35063803",
+      "pmid": "35063803",
+      "title": "Cell cycle-related genes associate with sensitivity to hydrogen peroxide-induced toxicity.",
+      "abstract_sha256": "6cf2bcfef70cc43ede7e6d2636291c0c85a5148b1a32f2e9b621d1cec5de994d",
+      "order_key": "f3f29d5afa8fde6944c50bb321466cf2b77229bc5c567e45c8e23339fb72c829",
+      "source_id": "MED:35063803",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 97,
+          "source_id": "MED:35063803",
+          "abstract_sha256": "6cf2bcfef70cc43ede7e6d2636291c0c85a5148b1a32f2e9b621d1cec5de994d",
+          "record_object_sha256": "5f88b21dd10de5ff62743772778e694f9956a91802c93005f94ddf988d30e092",
+          "annotation_excluding_source_metadata_sha256": "fbb549728d6823b1ff40c48de1235708147e7f802efb232de23080f170d0401d",
+          "source_metadata_sha256": "d9504c78e3e5de1bd361fe6aa529b1792482725b6139ba9254d3c571ee7a9cbc",
+          "read_evidence_sha256": "9b13bd01464c7cd323ff1df2af7608f9270b16f4f7f238847f36fd33d6d1ff92"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 5118,
+      "source": "MED",
+      "record_id": "29882797",
+      "pmid": "29882797",
+      "title": "Targeting Histone Deacetylases with Natural and Synthetic Agents: An Emerging Anticancer Strategy.",
+      "abstract_sha256": "9d35d87fa32af594881d6ad3cda484d2c75688aa31bb4d0d6d79d670da0be73d",
+      "order_key": "f4e778259ad89b159090c0bbfb62e9af8abf46371c024292a8f25673b03b9609",
+      "source_id": "MED:29882797",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 23,
+          "source_id": "MED:29882797",
+          "abstract_sha256": "9d35d87fa32af594881d6ad3cda484d2c75688aa31bb4d0d6d79d670da0be73d",
+          "record_object_sha256": "96ab79b7fbce27e3e48ae64af68137e4b9e2ed90b4910c7142a4d28272b785cf",
+          "annotation_excluding_source_metadata_sha256": "eaf630924bf0d78cf6581e8f74087921106e75a1ba01820ec16a22d161550f90",
+          "source_metadata_sha256": "3fea511ca48a16b9e834854566c209cb90d8cec0aa87df714ad81a6de6496ed5",
+          "read_evidence_sha256": "f794277b7dabd306d3fc9a4f2d3edc5d964ace4284201e3561ce218b7e816d65"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 5167,
+      "source": "MED",
+      "record_id": "34987801",
+      "pmid": "34987801",
+      "title": "COL17A1 germline variant p.Ser1029Ala and mucosal malignant melanoma: An autopsy study.",
+      "abstract_sha256": "cff4ffa735568e08fe72db2a2c92dcd6251c04e1ba096d44447f6b36ae1c015c",
+      "order_key": "f71ce161d7658dc9b8ef0f7482dc2a8d126a6fefe108e5a97c92f0dfefbe5fa6",
+      "source_id": "MED:34987801",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 96,
+          "source_id": "MED:34987801",
+          "abstract_sha256": "cff4ffa735568e08fe72db2a2c92dcd6251c04e1ba096d44447f6b36ae1c015c",
+          "record_object_sha256": "b55af7041898ab4ebf0b884fa7420e4c39f788e6849860f159e8891a46a3ac6c",
+          "annotation_excluding_source_metadata_sha256": "194d342894cf26bb6cee6cfbd713fd99b8bcb18c7339c524b314a52dd5f039dc",
+          "source_metadata_sha256": "77020b6111d02cbd752839f175d7172762aaa1dd7cb33a68fe8d104fdc699cb9",
+          "read_evidence_sha256": "136f8d8f93b69fcdbeaa5ebfa77ae07a24a7ec736c5f13779119f536a5a23e81"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 5200,
+      "source": "MED",
+      "record_id": "40462232",
+      "pmid": "40462232",
+      "title": "Linear ubiquitination of p31&lt;sup&gt;comet&lt;/sup&gt; by HOIP couples cytokine response with mitotic regulation.",
+      "abstract_sha256": "932a2cd79dfc54cb5c48750245c907066949dc089b16cc87ef2e1f14fc89c7ec",
+      "order_key": "f88e1ccf70002ba70a9d1899582f7d32f14912b322ec6fc18d02d36fd07ee457",
+      "source_id": "MED:40462232",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 136,
+          "source_id": "MED:40462232",
+          "abstract_sha256": "932a2cd79dfc54cb5c48750245c907066949dc089b16cc87ef2e1f14fc89c7ec",
+          "record_object_sha256": "c64455cd4fcd032405d35ef5a5b17c6190a2542a9e4a2d0180d2f434eb42ae95",
+          "annotation_excluding_source_metadata_sha256": "62daed328b47bafe794ff06a0de667d06c74111941ea60954f71eeb3b283903b",
+          "source_metadata_sha256": "3464e27496d05fbb7062dd730ffb3f3dfccfb6bec9e59f4df7304ba7d0d25ca3",
+          "read_evidence_sha256": "d76fcf0bd1ecdf9e349416002f0928b5ec6202505040870d955439eca044a684"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 5206,
+      "source": "MED",
+      "record_id": "30890753",
+      "pmid": "30890753",
+      "title": "Integrated transcriptome and in vitro analysis revealed anti-proliferative effect of citral in human stomach cancer through apoptosis.",
+      "abstract_sha256": "dd29f12b7efee156abd66ffca8695724651312dabf5bc7ccfc6c76d165ddbe5a",
+      "order_key": "f8f9e5b2f8492ed4b228ea1254c6aa18d4ae3d311a98719cb5235d2165247583",
+      "source_id": "MED:30890753",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 24,
+          "source_id": "MED:30890753",
+          "abstract_sha256": "dd29f12b7efee156abd66ffca8695724651312dabf5bc7ccfc6c76d165ddbe5a",
+          "record_object_sha256": "9ad35aaa54132e5dd17b8a1c5810ffaf82a5eaf3a290c5f7f02f22403078de4c",
+          "annotation_excluding_source_metadata_sha256": "4685b6f02ea7eb179572edd882d1f50763d9273b68dde905173996b37a948871",
+          "source_metadata_sha256": "53e88548b0097f2b74015a29a8988f21fe15695f5eed8e3bd9b745b338bc3a1b",
+          "read_evidence_sha256": "c5b3ba2327ecf24fa6dbb1dc78dbaa2013d4190a7235e0bc7ac7eb581a40cc27"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 5208,
+      "source": "MED",
+      "record_id": "40244007",
+      "pmid": "40244007",
+      "title": "Harnessing Apple Cell Suspension Cultures in Bioreactors for Triterpene Production: Transcriptomic Insights into Biomass and Triterpene Biosynthesis.",
+      "abstract_sha256": "4ead6f8c9311cab8bdc9b5f6143e4110c2c68e1fcf85a0c2ad00b51612e3097d",
+      "order_key": "f91a2e47189bc56d63bc1e8acc4ee22359f864960d8dc8a4ad1410f8b827a188",
+      "source_id": "MED:40244007",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 53,
+          "source_id": "MED:40244007",
+          "abstract_sha256": "4ead6f8c9311cab8bdc9b5f6143e4110c2c68e1fcf85a0c2ad00b51612e3097d",
+          "record_object_sha256": "becb71ee2fb5de1bb3dda1d74c5bb708f1f153a8fab44150d347f610dfad85db",
+          "annotation_excluding_source_metadata_sha256": "55425eb0fbc641e52118a414927a4253c2a3b7e432e16061081f469410894336",
+          "source_metadata_sha256": "ccce406b644243531179586f4054277cad79f04331d3399a1c9cc40bdf22d4a9",
+          "read_evidence_sha256": "db617329e05b43d79d41dcac40875909eeeaa4dfff4d359e375a1b36c9b255e9"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 5249,
+      "source": "MED",
+      "record_id": "33397691",
+      "pmid": "33397691",
+      "title": "The PHLPP1 N-Terminal Extension Is a Mitotic Cdk1 Substrate and Controls an Interactome Switch.",
+      "abstract_sha256": "d6b2df3fe04f17ac8dbadba0322315f459c01cc80f8385d7e2fadb54a8e5d33d",
+      "order_key": "fb879f3baf57b3cf8e16af14cb76e8c3273dc0d41c667dba5f1a857252fad7c0",
+      "source_id": "MED:33397691",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "common_food",
+          "review_file": "food-substances/common-abstract-review.json",
+          "review_file_sha256": "1eaa78d49dfd9aa4a17ea1bee1e339668cf07f686c0b6311582bce11cab3675e",
+          "record_index": 77,
+          "source_id": "MED:33397691",
+          "abstract_sha256": "d6b2df3fe04f17ac8dbadba0322315f459c01cc80f8385d7e2fadb54a8e5d33d",
+          "record_object_sha256": "9793333f1d673bba11f58b95dec0a02a0da93cb465cc4e0792ab674dc2e6caae",
+          "annotation_excluding_source_metadata_sha256": "b173c368242a768a9f0db5ea0d1567f34dd53c39da974dea9cfe7b5270a9d8aa",
+          "source_metadata_sha256": "20ddbf83a5c4438379254febd8142c081d681930e051021c537cf28b5e7cf600",
+          "read_evidence_sha256": "d269a2c1b8660639bc86d1711de384a6bca4066594475db46bd4a66fdc364709"
+        }
+      ]
+    },
+    {
+      "unfiltered_index": 5251,
+      "source": "MED",
+      "record_id": "27074562",
+      "pmid": "27074562",
+      "title": "FOXM1 in sarcoma: role in cell cycle, pluripotency genes and stem cell pathways.",
+      "abstract_sha256": "11143c84c55b8e2c1e357ea8fab817b65128f9229ff94e708c37d10cbb6fb431",
+      "order_key": "fbafc8891480c4c86a3de85a7826a92f4e5fdf54dbc505fd3e3065827776f245",
+      "source_id": "MED:27074562",
+      "admission_credit": 1,
+      "new_literal_reading_credit": 0,
+      "new_appraisal_credit": 0,
+      "annotation_policy": "Reference the unchanged scientific annotation; do not duplicate or synthesize it.",
+      "evidence_references": [
+        {
+          "layer": "literal_food",
+          "review_file": "food-substances/abstract-review.json",
+          "review_file_sha256": "9dcffb1be97f6559f42e4b4b3268df60a6cfe4d403c1fd9729ecf2c46ef68183",
+          "record_index": 17,
+          "source_id": "MED:27074562",
+          "abstract_sha256": "11143c84c55b8e2c1e357ea8fab817b65128f9229ff94e708c37d10cbb6fb431",
+          "record_object_sha256": "7c33b1d51c5e463dc64a2f3da4d4707b9e04f12d6014096c61c59c92bea0ec49",
+          "annotation_excluding_source_metadata_sha256": "e784e843a4eabb0267b153b39e5599de9c20f41deca0a59f0bf004ab98e26252",
+          "source_metadata_sha256": "090d5082ca7ed47c6979be08afe70b55f5a9bee4bc365cef0a7f39ba1d1f9ff8",
+          "read_evidence_sha256": "afa93623433ed30299835d04b6142aa7948aab2de929b9a64364769ffaf6e308"
+        }
+      ]
+    }
+  ]
+}

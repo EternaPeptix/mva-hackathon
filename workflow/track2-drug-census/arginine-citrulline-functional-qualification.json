@@ -1,0 +1,367 @@
+{
+  "date": "2026-09-23",
+  "scope": "One full-main L-citrulline human crossover qualification and one partial-main chronic oral L-arginine PAD qualification; four targeted discovery queries; no global evidence census.",
+  "citrulline": {
+    "pmid": "40944179",
+    "pmcid": "PMC12430577",
+    "doi": "10.3390/nu17172790",
+    "registry": "NCT06016478",
+    "title": "Citrulline Supplementation Improves Microvascular Function and Muscle Strength in Middle-Aged and Older Adults with Type 2 Diabetes",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12430577/",
+    "reading": "Complete scientific main, all three tables/five captions and all five native main figures; full current registry. No registry history or separate protocol.",
+    "intervention": {
+      "identity": "Citrulline in article; L-citrulline explicitly in current own registry",
+      "form": "NOW Foods capsules, 750 mg each; no malate/AKG or other active ingredient described",
+      "daily_g": 6,
+      "capsules_daily": 8,
+      "duration_weeks_per_condition": 4,
+      "washout_weeks": 8,
+      "comparator": "Matching microcrystalline-cellulose capsules; registry describes 6 g/day",
+      "usual_care": "Usual medications/diet/activity maintained; 13/16 analyzed participants on metformin. This was a single randomized supplement difference on usual care, not medication-free monotherapy or the assigned DMD combination.",
+      "received_exposure_limit": "Dose assigned by capsule content; adherence by returned capsules; no independent batch chemistry."
+    },
+    "design": {
+      "type": "Randomized, double-blind, placebo-controlled crossover",
+      "screened": 118,
+      "randomized": 22,
+      "initial_sequences": [
+        11,
+        11
+      ],
+      "analyzed_complete_both_periods": 16,
+      "first_period_discontinuations": {
+        "citrulline": 1,
+        "placebo": 1
+      },
+      "second_period_discontinuations": {
+        "citrulline": 1,
+        "placebo": 1
+      },
+      "second_period_lost_follow_up": {
+        "placebo": 2
+      },
+      "withdrawal_reasons": "Not specified by cause; mild discomfort not linked to assignment or withdrawal.",
+      "analysis": "Complete-both-period sample; no ITT or imputation reported"
+    },
+    "population": {
+      "age_range_years": [
+        53,
+        72
+      ],
+      "age_mean_sd_years": [
+        62,
+        6
+      ],
+      "male": 7,
+      "female": 9,
+      "condition": "Controlled T2D, mean duration 8±5 years",
+      "bmi_mean_sd": [
+        33.4,
+        4.9
+      ],
+      "baseline_hgs_mean_sd_kg": [
+        32.2,
+        7.7
+      ],
+      "metformin_users": 13,
+      "no_low_HGS_or_ASMI": true,
+      "baseline_function_limit": "No participant met the stated sarcopenic low-grip or low-appendicular-mass criteria."
+    },
+    "statistics": {
+      "primaryness": "Current registry lists strength as secondary; main sample-size calculation is based on RHI. Prospective original registry version not read.",
+      "test": "Two-way repeated-measures time×condition ANOVA; Bonferroni-adjusted post-hoc tests when interaction significant.",
+      "limits": [
+        "No described period/sequence/carryover term.",
+        "No described family-wide adjustment across all outcomes.",
+        "No strength treatment-contrast CI or meaningful-change threshold.",
+        "Complete-case selection, small sample, no durability or daily-function assessment."
+      ],
+      "dispersion": "Source labels mean±SD, including figures."
+    },
+    "outcomes": {
+      "calf_10RM_load": {
+        "unit": "kg external load",
+        "citrulline_pre_mean_sd": [
+          99,
+          26
+        ],
+        "citrulline_post_mean_sd": [
+          100,
+          26
+        ],
+        "placebo_pre_mean_sd": [
+          102,
+          27
+        ],
+        "placebo_post_mean_sd": [
+          101,
+          27
+        ],
+        "citrulline_change_mean_sd": [
+          1.5,
+          2.8
+        ],
+        "placebo_change_mean_sd": [
+          -0.3,
+          1.2
+        ],
+        "interaction_p": 0.03,
+        "citrulline_within_p": 0.01,
+        "placebo_within_p": 0.59,
+        "source": "Table 2, abstract and Methods 2.3.1",
+        "limit": "Highest load through ten plantarflexion repetitions, not maximal isometric or isolated specific force. No rounding-derived treatment estimate."
+      },
+      "calf_10RM_body_mass_normalized": {
+        "unit": "kg/kg",
+        "citrulline_pre_mean_sd": [
+          1.07,
+          0.22
+        ],
+        "citrulline_post_mean_sd": [
+          1.09,
+          0.21
+        ],
+        "placebo_pre_mean_sd": [
+          1.11,
+          0.23
+        ],
+        "placebo_post_mean_sd": [
+          1.11,
+          0.23
+        ],
+        "citrulline_change_mean_sd": [
+          0.02,
+          0.03
+        ],
+        "placebo_change_mean_sd": [
+          -0.01,
+          0.02
+        ],
+        "interaction_p": 0.006,
+        "citrulline_within_p": 0.004,
+        "placebo_within_p": 0.28,
+        "source": "Table 2, Figure 2C, abstract"
+      },
+      "handgrip": {
+        "unit": "kg",
+        "citrulline_pre_mean_sd": [
+          32,
+          8
+        ],
+        "citrulline_post_mean_sd": [
+          33,
+          8
+        ],
+        "placebo_pre_mean_sd": [
+          32,
+          8
+        ],
+        "placebo_post_mean_sd": [
+          32,
+          8
+        ],
+        "interaction_p": 0.16,
+        "source": "Table 2",
+        "interpretation": "Controlled null"
+      },
+      "handgrip_body_mass_normalized": {
+        "unit": "kg/kg",
+        "citrulline_pre_mean_sd": [
+          0.35,
+          0.09
+        ],
+        "citrulline_post_mean_sd": [
+          0.36,
+          0.09
+        ],
+        "placebo_pre_mean_sd": [
+          0.36,
+          0.1
+        ],
+        "placebo_post_mean_sd": [
+          0.35,
+          0.09
+        ],
+        "interaction_p": 0.09,
+        "source": "Table 2 and Figure 2B",
+        "interpretation": "Controlled null"
+      },
+      "plasma_arginine": {
+        "unit_literal": "µM/L",
+        "citrulline_pre_mean_sd": [
+          77,
+          19
+        ],
+        "citrulline_post_mean_sd": [
+          120,
+          30
+        ],
+        "placebo_pre_mean_sd": [
+          83,
+          18
+        ],
+        "placebo_post_mean_sd": [
+          84,
+          19
+        ],
+        "interaction_p": 0.001,
+        "source": "Table 2; printed unit preserved, no silent dimensional correction"
+      },
+      "microvascular_interaction_p": {
+        "RHI": 0.01,
+        "LnRHI": 0.01,
+        "TOI_baseline": 0.2,
+        "TOI_occlusion_magnitude": 0.06,
+        "TOI_range": 0.008,
+        "TOI_hyperemic_response": 0.03,
+        "TOI_AUC_2min": 0.007,
+        "source": "Table 3",
+        "AUC_unit_literal": "%/s"
+      },
+      "vascular_strength_correlation": {
+        "r": 0.37,
+        "p_literal": "<.05",
+        "source": "Figure 4 and Results 3.3",
+        "limits": "Plot contains placebo and citrulline change markers from the crossover; no repeated-person correlation model described. No mediation or causal vascular mechanism inferred."
+      },
+      "walking_endurance_daily_function": "Not measured in this report",
+      "muscle_mass_change": "Not measured: DXA at baseline only",
+      "NO": "Not directly measured",
+      "bub1b_bubr1": "No expression, protein, stability, checkpoint or chromosome-fidelity assay in the complete scientific main."
+    },
+    "safety": {
+      "adherence_citrulline_mean_sd_percent": [
+        92,
+        6
+      ],
+      "adherence_placebo_mean_sd_percent": [
+        91,
+        7
+      ],
+      "reported": "One mild stomach discomfort, no other adverse effects reported. Assignment/withdrawal relation unstated.",
+      "limits": "No detailed AE table; selected short study does not establish safety equivalence."
+    },
+    "registry_current_limits": {
+      "enrollment_actual_current": 36,
+      "paper_randomized": 22,
+      "enrollment_discrepancy": "Unresolved; no additional analyzed participants inferred.",
+      "actual_start": "2023-05-01",
+      "first_submit": "2023-08-19",
+      "first_post": "2023-08-29",
+      "last_update_post": "2025-05-15",
+      "has_results": false,
+      "history_read": false,
+      "other_discrepancies": "Structured inclusion age40–75 versus exclusion line>65; current secondary strength includes leg extension not presented in this article. No selective-reporting cause inferred."
+    },
+    "funding_and_notice": {
+      "funding": "Authors state no external funding; NOW Foods donated both products.",
+      "COI": "Authors declare none.",
+      "notice_check": "No commentCorrectionList in retrieved EPMC core record; not a comprehensive notice audit."
+    },
+    "judgment": "Preliminary controlled human functional comparator; retain real calf-load benefit and grip null, without generalized strength restoration or automatic nominee replacement."
+  },
+  "arginine": {
+    "pmid": "17592080",
+    "doi": "10.1161/CIRCULATIONAHA.106.683656",
+    "registry": "NCT00284076",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/17592080/",
+    "title": "L-arginine supplementation in peripheral arterial disease: no benefit and possible harm",
+    "reading": "Complete official abstract; selected indexed publisher Methods/opening Results; complete current registry. Full scientific main/native figures/tables/supplements not accessible and not claimed.",
+    "intervention": {
+      "identity": "Source-labelled oral L-arginine",
+      "dose_g_day": 3,
+      "duration_months": 6,
+      "schedule_excerpt": "1 g three times daily with meals",
+      "manufacturer_excerpt": "Ajinomoto; encapsulated by CosmoPharm",
+      "comparator": "Placebo",
+      "chemical_limit": "Counterion and full excipient composition not verified; no HCl/AKG/malate/mixture equivalence."
+    },
+    "design": {
+      "randomized_total": 133,
+      "arginine_randomized": 66,
+      "placebo_randomized": 67,
+      "population": "Adults with stable intermittent claudication due to PAD; accessible Methods age≥45 and ABI<.9",
+      "excerpt_remaining_arginine": 58,
+      "excerpt_remaining_placebo": 61,
+      "final_primary_analysis_denominator": "Not independently verified from inaccessible remainder",
+      "excerpt_analysis": "Modified ITT: ≥1 dose and ≥1 valid post-randomization treadmill; LOCF for missing six-month value; baseline-adjusted analysis",
+      "primary": "Six-month change in absolute claudication distance, Skinner–Gardner treadmill"
+    },
+    "outcomes": {
+      "primary_walking": {
+        "arginine_improvement_percent": 11.5,
+        "placebo_improvement_percent": 28.3,
+        "between_group_p": 0.024,
+        "CI": "Not verified",
+        "source": "Complete abstract direction plus indexed main Results ordering",
+        "ordering_limit": "Abstract prints28.3% versus11.5% after saying arginine improved less; group labels retained from explicit direction/indexed Results.",
+        "interpretation": "Both groups improved; active improvement was smaller. Not universal deterioration or a mortality result."
+      },
+      "biomarkers": "Plasma arginine increased; abstract reports NO-availability measures reduced or not improved against placebo.",
+      "bubr1": "No assay reported in the portions read; no absence claim for inaccessible remainder.",
+      "harms": "Complete AE/withdrawal tables not read. Do not infer safety equivalence or specific mortality effect."
+    },
+    "registry_current_limits": {
+      "has_results": false,
+      "history_read": false,
+      "first_submit": "2006-01-27",
+      "start": "2000-02",
+      "description": "Earlier80-person six-week dose-ranging and planned12-month prolonged study; must not pool with133-person six-month publication.",
+      "enrollment_current": "Not supplied",
+      "exclusions": "Active/prior malignancy among registry exclusions; transfer limit, not blanket contraindication."
+    },
+    "funding_and_notice": {
+      "sponsor": "Stanford; NHLBI collaborator/funding in current registry/indexed Methods",
+      "comment": "PMID18268155 is a comment/author reply; text not read, not classified as erratum."
+    },
+    "positive_context_pointer": {
+      "doi": "10.1016/S0735-1097(98)00375-1",
+      "title": "Restoring vascular nitric oxide formation by l-arginine improves the symptoms of intermittent claudication in patients with peripheral arterial occlusive disease",
+      "reading": "Primary abstract returned during bounded discovery only; full article not qualified",
+      "context": "Short intravenous L-arginine, different comparator/route/duration; cannot offset or inherit the chronic oral result. Exact denominator/allocation and within-versus-between interpretation remain unqualified."
+    },
+    "judgment": "Discriminating adverse-direction functional comparator for this chronic oral PAD regimen; no positive lead or global all-route harm claim."
+  },
+  "competition": {
+    "decision": "Keep provisional nominations unresolved by these two sources; retain citrulline functional reserve and oral-arginine counterevidence explicitly.",
+    "fairness": "No selective demand for MVA proof. Controlled citrulline load evidence is real, but small selected secondary endpoint with grip null and no walking/durability; niacin bridge and apitegromab SMA motor-function context are distinct, not demonstrated superior across trials.",
+    "existing_combo": "new-citrulline-metformin-dmd and prior metformin unchanged; no component efficacy inheritance.",
+    "no_new_nominee_primary_reading": true
+  },
+  "identity_report": "identity-check.json",
+  "source_reviewer_status": "EXTERNAL_SOURCE_QUALIFICATION_NO_ADMISSION_OR_COUNT_CHANGE",
+  "source_reviewer_reading_manifest": "reading-manifest.json",
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "arginine-citrulline-functional-qualification.md",
+  "qualification_md_sha256": "19de80c1e49cda4340a1f724b733a5f42627e27c898b7a8c93e996de4effc151",
+  "integration": {
+    "baseline": "cd9ade60969052500fd48513d0e1e6f11e97a08e",
+    "baseline_assessments": 240,
+    "current_assessments": 243,
+    "retained_prior_ids": 240,
+    "prior_objects_unchanged": 240,
+    "refined_ids": [],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/arginine-citrulline-functional-followup-20260923/qualification.json",
+      "sha256": "0feadde4b80f894d166ae86613bc620d06204857937593622ef1299b3c01884f"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/arginine-citrulline-functional-followup-20260923/reading-manifest.json",
+      "sha256": "90fc57f015a04b0a749f0fb0f09c2243a7440c2cae923f1a32adfbc43ca7a8b1"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/arginine-citrulline-functional-followup-20260923/independent-check/independent-check.md",
+      "sha256": "8df43d77691f4bd31307692fdc16eb09bdbbbcaa2a4025aec2ead66da3b5310d"
+    },
+    "independent_structured_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/arginine-citrulline-functional-followup-20260923/independent-check/independent-check.json",
+      "sha256": "f670999bcbbee51e0d2571595320e3cac67a3d5fae2f6fed7857dd4232ad2faa"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lipoic-arginine-citrulline-integration-20260923/root-reading.json",
+      "sha256": "17ffa092e3491970159d3278ce523698953542d9a2b521ee82d186af893b780d"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false
+  }
+}

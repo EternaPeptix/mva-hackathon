@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "source_id": "MED:35684411",
+  "pmid": "35684411",
+  "pmcid": "PMC9182402",
+  "doi": "10.3390/molecules27113470",
+  "title": "Transcriptome Profiling of HCT-116 Colorectal Cancer Cells with RNA Sequencing Reveals Novel Targets for Polyphenol Nano Curcumin",
+  "repo_baseline": "b09033549d2858a52533bdc7989236a34fa6e97c",
+  "duplicate_check": {
+    "scope": "Read-only decisions and qualification-file search, then all workflow/track2-drug-census and reports exact PMID/Gemini-Cur search.",
+    "prior_completed_work": "Complete saved abstract annotation and six-row/four-source NIH first-role overlay; no existing primary Gemini-Cur qualification or exact formulation appraisal found.",
+    "existing_appraisal_id": null,
+    "prior_abstract_sha256": "03be151d741e6d2039f73bd977e93a8c8517b645b7529da06b130b036bf8e841",
+    "files": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
+        "sha256": "5be5e5f7ca3717e36485016f0034b306e7ff189225b4004006470bd175c25ca6"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/abstract-review-notes.json",
+        "sha256": "bf549392c8a9f273fd0a699663e0f9863427a71f7f08e39317486b77536a9c6f"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/dsld-ingredients/first-role-review.json",
+        "sha256": "6be60837c92eff84c1ec11c238dd6512c69b702fc9d865930883dbd4f5be4b47"
+      }
+    ]
+  },
+  "source_urls": {
+    "publisher_pdf": "https://mdpi-res.com/d_attachment/molecules/molecules-27-03470/article_deploy/molecules-27-03470.pdf",
+    "pmc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9182402/",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/35684411/",
+    "publisher_version_notes": "https://www.mdpi.com/1420-3049/27/11/3470/notes",
+    "supplement": "https://pmc.ncbi.nlm.nih.gov/articles/instance/9182402/bin/molecules-27-03470-s001.zip"
+  },
+  "publication_status": {
+    "checked_date": "2026-09-23",
+    "live_pubmed": "Journal Article; no CommentsCorrections links and no retracted/retraction/correction publication type in live efetch XML.",
+    "current_pmc": "No correction/retraction banner identified on retrieved article.",
+    "publisher_notes": "Cached official version notes list HTML update 2022-08-03 and PDF/XML updates2022-05-30; direct notes retrieval blocked. No formal notice located in bounded search.",
+    "limit": "No notice found in checked sources is not a guarantee against later/unindexed corrections. The Correction in reference21 concerns another DPP3/CDK1 paper."
+  },
+  "identity": {
+    "intervention": "Gemini-Cur: curcumin encapsulated in mPEG urethane gemini surfactant nanoparticles.",
+    "curcumin_CAS_as_reported": "458-37-7",
+    "formulation_details": "Main Methods2.1.1–2.1.2 report curcumin and mPEG urethane gemini surfactant from Institute for Color Science and Technology, Tehran; nanoprecipitation using nominal6mg curcumin/100mg surfactant, methanol/PBS and solvent evaporation.",
+    "identity_limits": [
+      "This paper does not report batch particle-size/PDI/zeta-potential, encapsulation efficiency, loading, residual solvent assay or complete carrier structural specification.",
+      "The source prints a 0.22 µM syringe-filter unit; apparent reporting typo is not silently treated as a verified dimension.",
+      "Formulation method cites earlier work, which was not independently retrieved/read here; no earlier-paper results are imported.",
+      "Not chemically or pharmacokinetically interchangeable with free curcumin, turmeric, other nano-curcumin formulations or unspecified polyphenols.",
+      "Author sample availability is a research statement, not evidence of current product availability or clinical approval."
+    ]
+  },
+  "model_exposure_controls": {
+    "model": "One human colorectal cancer line, HCT-116. No non-cancer cells, BUB1B-deficient/MVA cells, animals or patients tested in this paper.",
+    "exposure": [
+      {
+        "assay": "Figure1A viability",
+        "reported": "0–about100µM dose axis; Results3.1 reports24h IC50=51.50. The sentence omits units; the µM unit comes from the figure axis.",
+        "limits": "No IC50 confidence interval, per-point sample count, error bars or fitted curve method shown. Gemini carrier molarity/equivalent dose is not defined."
+      },
+      {
+        "assay": "AO/EB morphology",
+        "reported": "IC50-dose Gemini-Cur, sampled24/48/72h; qualitative images.",
+        "limits": "Numeric dose separately tied to this entire time series is not clearly specified; no apoptotic fraction counts."
+      },
+      {
+        "assay": "RNA-seq",
+        "reported": "24h drug exposure after seeding;3treated and3untreated RNA samples. Methods2.1.5 describes library preparation from each sample; Figure2 visually showsC1/C2/C3 andT1/T2/T3.",
+        "limits": "Exact RNA-seq concentration is not expressly stated; do not silently assign51.50µM. Culture/passages/independent experimental-unit provenance is not described. It is not a reported one-library-per-arm design, but biological independence is unverified."
+      }
+    ],
+    "controls_present": [
+      "Figure1A includes Gemini carrier alone and unformulated Cur alongside Gemini-Cur, with substantially less viability inhibition by the first two curves.",
+      "Untreated HCT-116 controls in RNA-seq, qPCR, Western blot and morphology.",
+      "Beta-actin is the stated qPCR/Western normalization control."
+    ],
+    "controls_missing_or_unclear": [
+      "No carrier-only/free-curcumin transcriptomic or BUB1B validation arm reported.",
+      "No clearly defined matched solvent/PBS vehicle arm or residual-methanol measurement.",
+      "Methods mention5-FU positive-control apoptosis images, but Figure1B displays only control plus Gemini-Cur time points; do not credit an observed5-FU arm.",
+      "No healthy-cell comparator or checkpoint/fidelity/normal-function endpoint."
+    ]
+  },
+  "bub1b_evidence": {
+    "RNA_seq": {
+      "direction": "down",
+      "log2_fold_change_reported": -2.99,
+      "adjusted_p_reported": 2.72e-06,
+      "source_location": "Supplementary XLSX Sheet2 row77 (ENSG00000156970); concordant rounded values in Discussion p14 and Down label in Table3.",
+      "status": "BUB1B result row directly read from native author supplementary XLSX; no raw-count or raw-sequence reanalysis.",
+      "log2_fold_change_supplement": -2.98986192471533,
+      "nominal_p_supplement": 5.87278330800647e-09,
+      "adjusted_p_supplement": 2.71894226070518e-06,
+      "base_mean_supplement": 2591.45959800967
+    },
+    "qPCR": {
+      "prose": "Methods/Results/Discussion call BUB1B downregulated, with2^-delta-delta-Ct and untreated reference.",
+      "visual_conflict": "Figure6A bars labeled fold change expression put BUB1B at approximately2.1, CDK1/CCNA2 above1 and ATF3 below1, opposite to prose under the stated usual treated/control interpretation. Same conflict in current PMC native image. Ratio inversion is possible but not specified; unresolved.",
+      "statistics": "No error bars, replicate labels, specific BUB1B PCR P value or test description in figure/caption.",
+      "decision": "Do not credit a clean independently concordant qPCR validation."
+    },
+    "protein": {
+      "direction": "qualitative decrease",
+      "source_location": "Figure6B BUB1B120kDa lane weaker in Gemini-Cur than control; beta-actin bands visibly similar.",
+      "limits": "Representative two-lane cropped blot; no densitometry, error bars, replicate count, target-antibody catalog number or uncropped blots supplied in main text. Not independently replicated or quantified by reviewer."
+    },
+    "causality": "No binding/target-engagement test, BUB1B rescue/epistasis, kinetochore localization, checkpoint challenge, mitotic completion or chromosome-segregation-error experiment. Expression changes may accompany altered cell-cycle composition/cytotoxic stress."
+  },
+  "material_positives": [
+    "Gemini-Cur causes greater HCT-116 viability reduction than plotted carrier-alone and free-curcumin comparators; dose-response and apoptotic morphology support a cancer-cell activity claim.",
+    "Author-reported3+3 RNA samples/libraries support a treatment-associated transcriptomic response. Native supplementary BUB1B row confirms RNA suppression; global reported DEG counts do not reproduce from the supplied result table.",
+    "BUB1B suppression reported by RNA-seq is qualitatively compatible with weaker protein band."
+  ],
+  "nulls_inconsistencies": [
+    "GADD45G RNA-seq upregulation was not significantly confirmed by PCR and was not detected by Western according to Discussion. Figure6 labels GADD45A instead of GADD45G.",
+    "Table1 prints identical forward and reverse sequences for ATF3 and beta-actin, despite different product lengths; this is a reproducibility/reporting concern, not proof that the actual experiments used those erroneous primers.",
+    "Table5 caption says upregulated genes while listing BUB1B among genes the text classifies as downregulated.",
+    "Figure6A direction conflict and omitted uncertainty prevent treating all claimed validations as clean concordant results.",
+    "Native supplementary result table count check does not reproduce the global DEG counts:3891data rows,820padj<.01,243up/197down at additional absolute log2FC>2; authors report3892/244/198. BUB1B itself meets the reported significance threshold."
+  ],
+  "functional_scope": {
+    "measured": "Cancer-cell viability and qualitative apoptotic morphology.",
+    "not_demonstrated": [
+      "Improved spindle checkpoint function",
+      "Reduced chromosome mis-segregation or aneuploidy",
+      "Faithful viable daughter output",
+      "Useful normal-cell/tissue function",
+      "BUBR1-deficiency rescue",
+      "MVA benefit",
+      "Clinical or growing-animal muscle function"
+    ],
+    "distinction": "Pathway enrichment terms for checkpoint/spindle/segregation are annotations of gene lists, not measured functional improvements. Prior subG1/Hoechst/cell-cycle claims cited in this paper are not new experiments independently qualified here."
+  },
+  "competitive_assessment": {
+    "disposition": "Formulation-specific experimental counterevidence to a BUBR1-restoration nomination; not nominated for MVA.",
+    "comparison": "The paper has an actual compound-formulation treatment and cancer-cell effect, but neither a useful-normal-function result nor BUBR1 restoration. It does not displace provisional niacin restoration or apitegromab muscle compensation. Niacin and apitegromab remain unproven in MVA; no head-to-head superiority or patient-specific harm is inferred.",
+    "asymmetry_avoided": "Cancer-cell BUB1B lowering alone does not prove every exposure or all curcumin formulations harm MVA, just as indirect mechanism evidence does not prove niacin benefits MVA."
+  },
+  "integration_recommendation": {
+    "recommended_action": "Add a distinct formulation-specific primary appraisal, if the curated ledger records evaluated non-nominated compounds; also update existing PMID/NIH role notes with direction and contradictions.",
+    "suggested_decision_id": "new-gemini-cur",
+    "suggested_match_aliases": [
+      "Gemini-Cur",
+      "gemini curcumin",
+      "gemini nanoparticle curcumin"
+    ],
+    "do_not_add_as_equivalent_aliases": [
+      "curcumin",
+      "turmeric",
+      "polyphenol",
+      "all nano-curcumin"
+    ],
+    "reason": "No existing exact-formulation entry found. Actual intervention plus primary BUB1B RNA/protein direction warrants a distinct evidence record, not an efficacy nomination. A generic polyphenol query must not become a second appraisal.",
+    "automatic_appraisal_credit": 0,
+    "root_integration_required": true
+  },
+  "reading": {
+    "complete_text": "Publisher PDF pages1–16 all prose, methods, captions, tables and references read from extracted page strings.",
+    "text_read_tool_chunks": [
+      "b65c36",
+      "ddd5c3",
+      "bb5612"
+    ],
+    "all_three_text_endmarkers_observed": true,
+    "all_three_text_outputs_untruncated": true,
+    "visual_reads": [
+      "PDF page6 Figure1A/B",
+      "PDF page13 Figure6A/B",
+      "PDF pages4–5 Table1 primer entries",
+      "Current PMC native Figure6 JPEG",
+      "PDF page7 Figure2 sample labels C1/C2/C3 and T1/T2/T3"
+    ],
+    "not_visually_read": [
+      "Figures3–5 network/heatmap images (captions and associated text read)"
+    ],
+    "html_read": "Current PMC asset links, Figure6 caption/asset and correction-banner check; not claimed as an additional full-text read.",
+    "metadata_read": "Live PubMed PMID/title/publication type/correction-relation and revised-date fields.",
+    "supplement": "Recovered from official EuropePMC supplementaryFiles API: native166-page table PDF and XLSX. XLSX Sheet2 header and six named target-gene rows including BUB1B row77 read completely in an untruncated bounded output. All3891 numerical result rows processed only for stated threshold counts; not3891 gene-specific scientific appraisals. Supplement PDF was mechanically extracted, with a truncated broad preview; no full166-page reading credit. BUB1B PDF search located accession on page2 and gene/padj on page85. No raw sequence/count-matrix reanalysis, PCR raw data or uncropped-blot read.",
+    "reviewer_performed_biological_replication": false,
+    "supplement_target_read_tool_chunk": "9db83d",
+    "supplement_target_endmarker_observed": true,
+    "supplement_target_output_truncated": false,
+    "earlier_supplement_preview_truncated": true,
+    "replication_unit": "Six RNA samples/libraries reported (three treated, three controls); Fig2 C1–C3/T1–T3 visually verified. Independent-culture provenance not specified; author-reported replication is not reviewer biological replication."
+  },
+  "credit": {
+    "new_unique_abstracts": 0,
+    "new_outer_corpus_reads": 0,
+    "primary_source_qualification_completed": true,
+    "automatic_repository_reading_credit": 0,
+    "reviewer_performed_biological_replication": false
+  },
+  "source_asset_sha256": {
+    "primary.pdf": "a6e1e084a8ec371f0fa65b00cec31e7567a800bbd9c196011c1ea3d1716f9552",
+    "pmc-current.html": "1c45ee7fb03b33a3dbbfe035050b23cb788bb96ae51e6e5ad524897125b9390a",
+    "pubmed-current.xml": "6c12941d69d557e21708f5843ef4e5f07a432c08bfe3a378c5a332a0149b3e51",
+    "figure6-current.jpg": "53058be8b5df0d2c2f68a96b909dba9c43cbe4e3f731a3968979b259c903ee55",
+    "supplement-download-response.html": "fad96c2302ea1e293583b6b08fdca81ec25ebc686007f98d43c25b9ae07f19ed",
+    "epmc-supplementary-response.zip": "b07f3feeb8693fc1f9d2e234488c98b181da374ea89776bbb34b5c39fb4a59c1",
+    "supplement-native.zip": "ce485b649ca7298637d9cd0175ad44527055934b5e368e5e5b7310078e5193a8",
+    "supplement-molecules-1730393-supplementary.pdf": "2860c57bd444386b51dbb156b589a6ae8bc0f34e543094c6986bdf4d67e504f1",
+    "supplement-molecules-1730393-supplementary-DEGs.xlsx": "8c27da5ff8797e2b5edf5e4c95498fde490cb72a6a80995e12646cfa727c51c0",
+    "supplement-target-reading.txt": "052ccf7eb508eff2f56474fab6288183dcc372c94eb18d70f87878bf2a47e6e7",
+    "page-07.png": "1edc8b192f4806161dc9be4e0a82d9962dcaf57a5b4aeb9982c71f91fa961694"
+  },
+  "retrieval_manifest": "retrieval-manifest.json",
+  "retrieval_manifest_sha256": "f5a35a4aa474085983a6ddd23e0dcc7c13b4f46c5f88a04ddee923a09dd6c11c",
+  "supplement_count_check": {
+    "scope": "Arithmetic filter of supplied author result table, not differential-expression reanalysis.",
+    "sheet": "Sheet2",
+    "header_row": 1,
+    "last_row": 3892,
+    "data_rows": 3891,
+    "padj_min": 9.29499031023575e-27,
+    "padj_max": 0.183232988608446,
+    "count_padj_lt_0_01": 820,
+    "count_padj_lt_0_01_log2FC_gt_2": 243,
+    "count_padj_lt_0_01_log2FC_lt_minus2": 197,
+    "paper_claim": {
+      "DEGs_padj_lt_0_01": 3892,
+      "up_log2FC_gt_2": 244,
+      "down_log2FC_lt_minus2": 198
+    },
+    "interpretation": "The provided table does not reproduce the stated global counts. It includes less-significant rows, but BUB1B itself remains below0.01 adjusted P with a negative fold change. No explanation or correction inferred."
+  },
+  "parent_integration": {
+    "date": "2026-09-23",
+    "baseline": "b09033549d2858a52533bdc7989236a34fa6e97c",
+    "external_source_root": "common-compound-followups-20260923/gemini-cur",
+    "delegated_or_root_source_md_sha256": "4e398eb85a5b8a52a9f8638b941aff083e16b903d1cc73b06ba7531e4111de09",
+    "delegated_or_root_source_json_sha256": "f4131c4f7978eb194c0702156cb561ee518211a9b9b55815c1bd0b94ba0b6913",
+    "root_checks": [
+      "Root visually checked main Figures 1, 2 and current Figure 6. Independently parsed native XLSX header/BUB1B row and recalculated the stated global threshold counts; not raw-RNA reanalysis."
+    ],
+    "extra_outer_abstract_credit": 0,
+    "new_ledger_id": "new-gemini-cur"
+  }
+}

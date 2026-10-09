@@ -1,0 +1,55 @@
+{
+  "geo_series": "GSE2992",
+  "geo_series_title": "Soy peptide up-regulates tumor suppressor and other chemopreventive genes in prostate epithelial cells",
+  "geo_citation_status": "GEO record says Citation missing",
+  "primary_paper_pmid": "21526452",
+  "primary_paper_doi": "10.1080/01635581.2011.539312",
+  "paper_accession_linkage": "Inferred from matching study title/topic, RWPE-1/RWPE-2 design, 2 uM/24 h treatment and authors; GEO does not explicitly cite the paper. The paper's Table 2 reports a 2.23-fold BUB1B value consistent with RWPE-1 matrix ratio.",
+  "platform": "GPL96",
+  "target_gene": "BUB1B",
+  "target_probe": "203755_at",
+  "platform_annotation_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL96&targ=self&form=text&view=full",
+  "platform_annotation_sha256": "34e01f9a175dc3927f8bd0f8301b164dcb6540ba26ffa360540ae597a360752c",
+  "platform_annotation_bytes": 46608806,
+  "platform_annotation_matching_rows": 1,
+  "platform_annotation_row": "203755_at\tNM_001211\t\tHomo sapiens\tOct 6, 2014\tExemplar sequence\tGenBank\tgb:NM_001211.2 /DEF=Homo sapiens budding uninhibited by benzimidazoles 1 (yeast homolog), beta (BUB1B), mRNA.  /FEA=mRNA /GEN=BUB1B /PROD=budding uninhibited by benzimidazoles 1 (yeasthomolog), beta /DB_XREF=gi:5729749 /UG=Hs.36708 budding uninhibited by benzimidazoles 1 (yeast homolog), beta /FL=gb:AF053306.1 gb:AF035933.1 gb:AF068760.1 gb:AF046918.1 gb:AF107297.1 gb:AF046079.2 gb:NM_001211.2\tNM_001211\tBUB1 mitotic checkpoint serine/threonine kinase B\tBUB1B\t701\tNM_001211\t0000278 // mitotic cell cycle // traceable author statement /// 0006468 // protein phosphorylation // inferred from electronic annotation /// 0006915 // apoptotic process // inferred from electronic annotation /// 0007049 // cell cycle // non-traceable author statement /// 0007051 // spindle organization // non-traceable author statement /// 0007067 // mitotic nuclear division // non-traceable author statement /// 0007091 // metaphase/anaphase transition of mitotic cell cycle // inferred from electronic annotation /// 0007093 // mitotic cell cycle checkpoint // traceable author statement /// 0007094 // mitotic spindle assembly checkpoint // traceable author statement /// 0008283 // cell proliferation // traceable author statement /// 0016310 // phosphorylation // inferred from electronic annotation /// 0031145 // anaphase-promoting complex-dependent proteasomal ubiquitin-dependent protein catabolic process // traceable author statement /// 0034501 // protein localization to kinetochore // inferred from physical interaction /// 0048015 // phosphatidylinositol-mediated signaling // non-traceable author statement /// 0051301 // cell division // inferred from electronic annotation /// 0051436 // negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle // traceable author statement /// 0051439 // regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle // traceable author statement /// 0071459 // protein localization to chromosome, centromeric region // inferred from electronic annotation\t0000775 // chromosome, centromeric region // inferred from electronic annotation /// 0000776 // kinetochore // inferred from direct assay /// 0000776 // kinetochore // non-traceable author statement /// 0000776 // kinetochore // traceable author statement /// 0000777 // condensed chromosome kinetochore // inferred from direct assay /// 0000778 // condensed nuclear chromosome kinetochore // inferred from electronic annotation /// 0000940 // condensed chromosome outer kinetochore // inferred from direct assay /// 0005634 // nucleus // inferred from electronic annotation /// 0005680 // anaphase-promoting complex // traceable author statement /// 0005694 // chromosome // inferred from electronic annotation /// 0005737 // cytoplasm // inferred from direct assay /// 0005815 // microtubule organizing center // inferred from electronic annotation /// 0005829 // cytosol // traceable author statement /// 0005856 // cytoskeleton // inferred from electronic annotation /// 0048471 // perinuclear region of cytoplasm // inferred from direct assay /// 0051233 // spindle midzone // non-traceable author statement\t0000166 // nucleotide binding // inferred from electronic annotation /// 0004672 // protein kinase activity // non-traceable author statement /// 0004674 // protein serine/threonine kinase activity // inferred from electronic annotation /// 0005515 // protein binding // inferred from physical interaction /// 0005524 // ATP binding // inferred from electronic annotation /// 0016301 // kinase activity // inferred from electronic annotation /// 0016740 // transferase activity // inferred from electronic annotation /// 0016772 // transferase activity, transferring phosphorus-containing groups // inferred from electronic annotation",
+  "matrix_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE2nnn/GSE2992/matrix/GSE2992_series_matrix.txt.gz",
+  "matrix_sha256": "e6745b7d18799779a0141b6ece520cce1a42eaa931b802bc33175db98561d04f",
+  "matrix_bytes": 831055,
+  "processing_reported_by_geo": "2^(RMA-normalized data)",
+  "sample_count": 4,
+  "sample_design": "One processed array per cell line per condition; no replicate-level variance",
+  "lunasin_concentration_um": 2,
+  "exposure_hours": 24,
+  "observations": [
+    {
+      "cell_line": "RWPE-1",
+      "control_sample": "GSM65385",
+      "lunasin_sample": "GSM65386",
+      "control_linear_expression": 124.471887007104,
+      "lunasin_linear_expression": 277.455569344046,
+      "lunasin_to_control_linear_ratio": 2.2290621281270586,
+      "statistical_test": null
+    },
+    {
+      "cell_line": "RWPE-2",
+      "control_sample": "GSM65387",
+      "lunasin_sample": "GSM65412",
+      "control_linear_expression": 331.955569344046,
+      "lunasin_linear_expression": 415.617894497119,
+      "lunasin_to_control_linear_ratio": 1.2520286835927839,
+      "statistical_test": null
+    }
+  ],
+  "published_rwpe1_table2_fold_change": 2.23,
+  "rwpe1_ratio_rounds_to_published_fold_change": true,
+  "interpretation": "The processed RWPE-1 matrix descriptively reproduces the published 2.23-fold BUB1B RNA value; RWPE-2 is 1.25-fold. This reuses the likely same source arrays, not independent biological replication, and has no inferential test.",
+  "not_measured": [
+    "BUBR1 protein abundance or half-life",
+    "BUBR1 checkpoint function",
+    "chromosome segregation fidelity",
+    "muscle output or renewal",
+    "MVA1 cells or either patient variant",
+    "intact lunasin concentration inside human muscle"
+  ]
+}

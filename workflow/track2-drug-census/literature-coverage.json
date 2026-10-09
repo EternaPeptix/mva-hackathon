@@ -1,0 +1,28 @@
+{
+  "alias_policy_counts": {
+    "ambiguous_manual_review": 50200,
+    "specific_alias_comention_only": 42592
+  },
+  "ambiguous_comention_rows": 6160,
+  "built_utc": "2026-09-22T00:34:50.987397+00:00",
+  "catalog_entities_screened": 15357,
+  "clinical_catalog_entities_with_comention": 495,
+  "clinical_or_approved_catalog_entities_screened": 14882,
+  "corpus_hit_count": 7362,
+  "corpus_query": "BUB1B OR BUBR1 OR \"mosaic variegated aneuploidy\"",
+  "corpus_records_scanned": 7362,
+  "corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+  "entities_with_specific_alias_comention": 503,
+  "entities_without_specific_alias_comention": 14854,
+  "gene_title_abstract_query_count": 1460,
+  "interpretation": "Conservative lexical retrieval screen only. A match can refer to a control, assay reagent, harmful exposure, other disorder, endogenous molecule, cited background, or drug combination. No match is UNKNOWN, not inefficacy. Broad-query records can match the gene only in full text/references; the explicit direct-gene flag distinguishes title/abstract co-mentions. Text normalization permits punctuation/hyphen differences; ambiguous aliases are separated. Exact studies and intervention direction require manual appraisal.",
+  "normalized_aliases": 92792,
+  "records_with_abstracts": 7191,
+  "records_with_gene_literal_in_title_abstract": 1455,
+  "reproduce_command": "python3 literature_match.py --corpus /path/literature-gene-unrestricted.json --title-abstract-corpus /path/literature-gene-title-abstract.json",
+  "specific_alias_comention_rows": 1779,
+  "specific_alias_direct_gene_comention_rows": 401,
+  "status_unverified_entities_with_comention": 8,
+  "status_unverified_supplement_entities_screened": 475,
+  "title_abstract_corpus_sha256": "1df717bce779851e8f8f02654cc476de320cf368ad3cbc10dad1499b5a809e90"
+}

@@ -1,0 +1,761 @@
+{
+  "schema_version": "accepted-source-portable-qualification-v1",
+  "status": "PORTABLE_SYNTHESIS_OF_ACCEPTED_PRIMARY_PACKET",
+  "source_preparation": "Myoki / CG-A1 trial peptide formulation: adult muscle-function compensation comparison",
+  "decision_id": "new-myoki-cga1-muscle",
+  "integration_baseline": "25527a94dd348829fb84c384c6c117aa5737a2ce",
+  "source_qualification": {
+    "status": "FROZEN_SOURCE_QUALIFICATION_FOR_INDEPENDENT_REVIEW",
+    "source": {
+      "pmid": "41769692",
+      "pmcid": "PMC12935919",
+      "doi": "10.3389/fphar.2026.1663850",
+      "title": "The therapeutic potential of Myoki, a novel peptide in muscle atrophy: mechanisms and applications.",
+      "publication_date": "2026-02-12",
+      "main_pdf": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/myoki-muscle-primary-20260927/raw/main.pdf",
+        "bytes": 6426272,
+        "sha256": "67fbf8d812a2c25e45e9b5bce8fb788d8821ef65f8e7be4ef6477b2bdd02f15b"
+      },
+      "main_xml": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/myoki-muscle-primary-20260927/raw/main.xml",
+        "bytes": 148519,
+        "sha256": "77f5acfbe1791b6c3a708f42cc0c6fc815dd2511bb62988fd95caecda38c8a0d"
+      },
+      "supplement": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/myoki-muscle-primary-20260927/raw/supplement.docx",
+        "bytes": 1192595,
+        "sha256": "47c85c70e47325b6c02add110f9107ac7c3abdd81306e927b9eac8457e8bb9f6"
+      },
+      "doi_url": "https://doi.org/10.3389/fphar.2026.1663850",
+      "article_count": 1,
+      "independent_clinical_trials_qualified": 1
+    },
+    "discovery": {
+      "batch": "outcome-first-eligibility-batch06-20260927",
+      "order": 87,
+      "source": "MED",
+      "id": "41769692",
+      "exact_saved_abstract_sha256": "6fcebd1c7bde8002eef1a23f347f8c0510bcfa165729f2b8ef2cd93327fecdb7",
+      "core_sha256": "d6f20bb2ea55e526edf6387597191f8306b35ec66e1a06056323de7eff081229",
+      "all_corpus_origins": [
+        {
+          "query_id": "q2_older_nutrition",
+          "page": 1,
+          "record_index": 73,
+          "raw_response": "raw-pages/q2_older_nutrition/page00001-attempt1.response.raw"
+        },
+        {
+          "query_id": "q3_common_preparation",
+          "page": 1,
+          "record_index": 317,
+          "raw_response": "raw-pages/q3_common_preparation/page00001-attempt1.response.raw"
+        }
+      ],
+      "route": "Provisional H_CF at prior screening depth; current primary qualification is separate.",
+      "selection": "Frozen broad-discovery continuation; no favorable-outcome or nominee filtering."
+    },
+    "identity": {
+      "preparation_name": "Myoki",
+      "trial_preparation_code": "CG-A1",
+      "sequence": "EAEYEHL",
+      "residues": 7,
+      "synthesis": "Final main: Fmoc solid-phase peptide synthesis, purification by C18 chromatography.",
+      "reported_purity_percent": 99.8,
+      "reported_molecular_weight_Da": 889.9,
+      "manufacturer": "Supplementary Figure 2: Caregen Co., Ltd., Gyeonggi-do, Republic of Korea.",
+      "code_linkage": "The published paper explicitly cites CTRI/2024/01/061919; that record identifies CG-A1 and the supplement schematic also names CG-A1. Same report/trial relationship, not independent batch equivalence.",
+      "preprint_description": "Corn-derived origin/extraction plus different synthesis description; final publication uses synthetic characterization.",
+      "unresolved": [
+        "clinical batch identifier",
+        "counterion/terminal-modification specification",
+        "batch-level product fidelity",
+        "generic or retail equivalence"
+      ],
+      "baseline": {
+        "repo": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
+        "commit": "b559d0add8a6b3ee10cc127845fe91b33be821dc",
+        "worktree_status": "",
+        "appraisal_count": 277,
+        "exact_name_source_hits": [],
+        "decisions_sha256": "fd56808abad2db475dc7ef6de311a6f64eabf6202d216313daaf83e31f8b34c1",
+        "scope": "Read-only immutable decision identity check; no catalog or source qualification absence inference."
+      },
+      "catalog_or_ledger_mutation": false,
+      "proposed_aliases_or_new_decision": null
+    },
+    "clinical_preparation": {
+      "active": "Myoki peptide + arginine + maltodextrin",
+      "control": "Arginine + maltodextrin, described as no active peptide",
+      "route": "oral sachet contents in water",
+      "peptide_mg_per_sachet": 100,
+      "sachets_per_day": 2,
+      "water_mL_per_sachet": 100,
+      "timing": "after breakfast and after dinner",
+      "total_daily_peptide_mg": 200,
+      "duration_weeks": 12,
+      "cointervention": "No standardized exercise/resistance-training treatment tested; shared background arginine/maltodextrin.",
+      "quantitative_matching": "Arginine/maltodextrin amounts, total mass/calories, sensory matching and product batch details unresolved.",
+      "control_registry_error": "Comparator details repeat 200 mg peptide per day despite peptide-free label; do not resolve by assigning active peptide to control.",
+      "attribution": "Incremental tested-preparation comparison on shared named background ingredients; not a peptide-alone arm or arginine synergy test.",
+      "exposure_limit": "No human PK, intact-peptide systemic absorption, muscle concentration or myostatin target engagement recovered.",
+      "locators": [
+        "Methods 2.15",
+        "CTRI intervention/comparator fields",
+        "Supplementary Figure 2"
+      ]
+    },
+    "population": {
+      "randomized": 80,
+      "per_arm": 40,
+      "mean_age_SD_years": [
+        38.83,
+        9.91
+      ],
+      "age_range_years": [
+        23,
+        69
+      ],
+      "men": 61,
+      "women": 19,
+      "ethnicity_as_reported": "Asian, 80/80",
+      "diagnosis": "Muscle wasting/atrophy M62.5; not an elderly-only sarcopenia cohort.",
+      "DEXA_threshold_kg_per_m2": {
+        "men": "<7.0",
+        "women": "<5.4"
+      },
+      "functional_entry": "Low handgrip (<28 kg men, <18 kg women) OR 6-metre walking speed <1.0 m/s in Methods and Supplementary Table 1. Results instead say AND.",
+      "registry_entry_limit": "CTRI inclusion does not explicitly reproduce DEXA thresholds; paper/supplement do.",
+      "other_criteria": [
+        "BMI <25",
+        "nonsmoking",
+        "normal or clinically insignificant vital/laboratory abnormalities",
+        "habitual normal activity except low-performance/bedridden patients"
+      ],
+      "key_exclusions": [
+        "uncontrolled systemic disease",
+        "musculoskeletal or neurological disorders",
+        "several drugs affecting protein metabolism",
+        "recent anabolic steroids",
+        "recent hospitalization",
+        "long-term-care residence"
+      ],
+      "transfer": "Selection limits transfer to older sarcopenia, neuromuscular disease and MVA.",
+      "baseline_table_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/myoki-muscle-primary-20260927/derived/main-tables.json",
+        "bytes": 5438,
+        "sha256": "9fe0a0c5e91c8b159c056a39f1f1b26114e6721d4855c61cebc675151e96c833"
+      }
+    },
+    "clinical_design": {
+      "design": "Randomized, double-blind, placebo-controlled parallel study",
+      "allocation_ratio": "1:1",
+      "registry_sequence": "computer generated",
+      "registry_concealment": "centralized",
+      "masking": "Registry: participant and investigator; main additionally says staff unaware.",
+      "primary_registered": "DEXA muscle-mass change baseline to week 12",
+      "secondary_registered": [
+        "6-metre walk time",
+        "handgrip",
+        "TNF-alpha",
+        "IL-6",
+        "IGF-1",
+        "estrogen",
+        "testosterone",
+        "CK-MB",
+        "AST",
+        "troponin I",
+        "myoglobin"
+      ],
+      "primary_measure_limit": "Mass reported as both grams and kg/m² index; power assumptions 0.3 difference/0.5 SD have no stated units. Do not count two independent primary successes.",
+      "sample_size_plan_as_published": {
+        "required": 72,
+        "planned": 80,
+        "power": 0.8,
+        "two_sided_alpha": 0.05,
+        "assumed_difference": 0.3,
+        "assumed_SD": 0.5,
+        "anticipated_dropout_percent": 10
+      },
+      "efficacy_population": "per protocol",
+      "statistical_analysis": "SAS 9.4; baseline-adjusted ANCOVA of week 12 change, LS means, 95%CI and two-sided P values.",
+      "multiplicity": "No clinical multiplicity correction described.",
+      "ITT_or_missing_data_sensitivity": "Not recovered.",
+      "unreported_registered_endpoint": "Troponin I result not identified in main/supplement.",
+      "locators": [
+        "Methods 2.14–2.17",
+        "native PDF pp6–7",
+        "CTRI outcomes"
+      ]
+    },
+    "denominators": {
+      "screened": 89,
+      "main_screen_failures": 7,
+      "main_prerandomization_withdrawals": 2,
+      "randomized": 80,
+      "safety_per_arm": 40,
+      "total_completed": 75,
+      "results_table2_figure8": {
+        "Myoki": 38,
+        "placebo": 37
+      },
+      "native_figure7": {
+        "test_randomized": 40,
+        "comparator_randomized": 40,
+        "test_completed_analyzed": 37,
+        "comparator_completed_analyzed": 38,
+        "test_discontinued": 3,
+        "comparator_discontinued": 2,
+        "test_reasons": {
+          "inadequate_efficacy": 2,
+          "lost_followup": 1,
+          "AE": 0
+        },
+        "comparator_reasons": {
+          "inadequate_efficacy": 1,
+          "lost_followup": 1,
+          "AE": 0
+        },
+        "prerandomization_issue": "Only7 screen failures displayed; two withdrawals described in Methods absent."
+      },
+      "adjudication": "Arm assignment conflict unresolved; retain both. This is confirmed in native figure, not based on generated alt text. Do not remap attrition reasons.",
+      "bias_limit": "Per-protocol exclusion including inadequate efficacy can affect estimates."
+    },
+    "clinical_table2": [
+      {
+        "endpoint": "Lean muscle mass",
+        "unit": "g",
+        "placebo_LS_change": 225,
+        "placebo_95CI": [
+          33.69,
+          416.31
+        ],
+        "Myoki_LS_change": 930.8,
+        "Myoki_95CI": [
+          736.9,
+          1124.7
+        ],
+        "printed_adjusted_difference": 705.8,
+        "printed_difference_95CI": [
+          433.4,
+          978.16
+        ],
+        "printed_two_sided_P": "<.01",
+        "reported_table_n": {
+          "placebo": 37,
+          "Myoki": 38
+        },
+        "locator": "Published main Table 2, native PDF p13"
+      },
+      {
+        "endpoint": "Muscle mass index",
+        "unit": "kg/m²",
+        "placebo_LS_change": 0.02,
+        "placebo_95CI": [
+          -0.02,
+          0.06
+        ],
+        "Myoki_LS_change": 0.15,
+        "Myoki_95CI": [
+          0.11,
+          0.19
+        ],
+        "printed_adjusted_difference": 0.13,
+        "printed_difference_95CI": [
+          0.07,
+          0.19
+        ],
+        "printed_two_sided_P": "<.01",
+        "reported_table_n": {
+          "placebo": 37,
+          "Myoki": 38
+        },
+        "locator": "Published main Table 2, native PDF p13"
+      },
+      {
+        "endpoint": "Time to complete 6-metre walk",
+        "unit": "s",
+        "placebo_LS_change": -0.77,
+        "placebo_95CI": [
+          -1.01,
+          -0.53
+        ],
+        "Myoki_LS_change": -1.12,
+        "Myoki_95CI": [
+          -1.36,
+          -0.87
+        ],
+        "printed_adjusted_difference": -0.34,
+        "printed_difference_95CI": [
+          -0.68,
+          0.0
+        ],
+        "printed_two_sided_P": "<.01",
+        "reported_table_n": {
+          "placebo": 37,
+          "Myoki": 38
+        },
+        "locator": "Published main Table 2, native PDF p13"
+      },
+      {
+        "endpoint": "Left-hand grip",
+        "unit": "kg",
+        "placebo_LS_change": 0.81,
+        "placebo_95CI": [
+          0.51,
+          1.1
+        ],
+        "Myoki_LS_change": 1.07,
+        "Myoki_95CI": [
+          0.77,
+          1.37
+        ],
+        "printed_adjusted_difference": 0.27,
+        "printed_difference_95CI": [
+          -0.15,
+          0.69
+        ],
+        "printed_two_sided_P": ".02",
+        "reported_table_n": {
+          "placebo": 37,
+          "Myoki": 38
+        },
+        "locator": "Published main Table 2, native PDF p13"
+      },
+      {
+        "endpoint": "Right-hand grip",
+        "unit": "kg",
+        "placebo_LS_change": 0.85,
+        "placebo_95CI": [
+          0.52,
+          1.17
+        ],
+        "Myoki_LS_change": 1.27,
+        "Myoki_95CI": [
+          0.94,
+          1.6
+        ],
+        "printed_adjusted_difference": 0.43,
+        "printed_difference_95CI": [
+          -0.04,
+          0.89
+        ],
+        "printed_two_sided_P": ".04",
+        "reported_table_n": {
+          "placebo": 37,
+          "Myoki": 38
+        },
+        "locator": "Published main Table 2, native PDF p13"
+      },
+      {
+        "endpoint": "TNF-alpha",
+        "unit": "pg/mL",
+        "placebo_LS_change": 4.3,
+        "placebo_95CI": [
+          -1.14,
+          9.74
+        ],
+        "Myoki_LS_change": 3.97,
+        "Myoki_95CI": [
+          -1.54,
+          9.48
+        ],
+        "printed_adjusted_difference": -0.33,
+        "printed_difference_95CI": [
+          -8.07,
+          7.42
+        ],
+        "printed_two_sided_P": ".933",
+        "reported_table_n": {
+          "placebo": 37,
+          "Myoki": 38
+        },
+        "locator": "Published main Table 2, native PDF p13"
+      },
+      {
+        "endpoint": "IGF-1",
+        "unit": "ng/mL",
+        "placebo_LS_change": 13.51,
+        "placebo_95CI": [
+          1.71,
+          25.3
+        ],
+        "Myoki_LS_change": 31.44,
+        "Myoki_95CI": [
+          19.49,
+          43.4
+        ],
+        "printed_adjusted_difference": 17.93,
+        "printed_difference_95CI": [
+          1.0,
+          34.87
+        ],
+        "printed_two_sided_P": ".038",
+        "reported_table_n": {
+          "placebo": 37,
+          "Myoki": 38
+        },
+        "locator": "Published main Table 2, native PDF p13"
+      },
+      {
+        "endpoint": "Estrogen",
+        "unit": "pg/mL",
+        "placebo_LS_change": -1.98,
+        "placebo_95CI": [
+          -7.64,
+          3.68
+        ],
+        "Myoki_LS_change": -2.37,
+        "Myoki_95CI": [
+          -8.11,
+          3.36
+        ],
+        "printed_adjusted_difference": -0.39,
+        "printed_difference_95CI": [
+          -8.45,
+          7.67
+        ],
+        "printed_two_sided_P": ".923",
+        "reported_table_n": {
+          "placebo": 37,
+          "Myoki": 38
+        },
+        "locator": "Published main Table 2, native PDF p13"
+      },
+      {
+        "endpoint": "Testosterone",
+        "unit": "pg/mL",
+        "placebo_LS_change": -29.9,
+        "placebo_95CI": [
+          -96.63,
+          36.83
+        ],
+        "Myoki_LS_change": 46.54,
+        "Myoki_95CI": [
+          -21.09,
+          114.17
+        ],
+        "printed_adjusted_difference": 76.44,
+        "printed_difference_95CI": [
+          -18.68,
+          171.56
+        ],
+        "printed_two_sided_P": ".114",
+        "reported_table_n": {
+          "placebo": 37,
+          "Myoki": 38
+        },
+        "locator": "Published main Table 2, native PDF p13"
+      },
+      {
+        "endpoint": "IL-6",
+        "unit": "pg/mL",
+        "placebo_LS_change": 1.31,
+        "placebo_95CI": [
+          -1.28,
+          3.9
+        ],
+        "Myoki_LS_change": 0.04,
+        "Myoki_95CI": [
+          -2.59,
+          2.67
+        ],
+        "printed_adjusted_difference": -1.27,
+        "printed_difference_95CI": [
+          -4.97,
+          2.43
+        ],
+        "printed_two_sided_P": ".496",
+        "reported_table_n": {
+          "placebo": 37,
+          "Myoki": 38
+        },
+        "locator": "Published main Table 2, native PDF p13"
+      },
+      {
+        "endpoint": "Myoglobin",
+        "unit": "ng/mL",
+        "placebo_LS_change": 8.15,
+        "placebo_95CI": [
+          4.32,
+          11.98
+        ],
+        "Myoki_LS_change": -6.45,
+        "Myoki_95CI": [
+          -10.33,
+          -2.56
+        ],
+        "printed_adjusted_difference": -14.6,
+        "printed_difference_95CI": [
+          -20.06,
+          -9.14
+        ],
+        "printed_two_sided_P": "<.01",
+        "reported_table_n": {
+          "placebo": 37,
+          "Myoki": 38
+        },
+        "locator": "Published main Table 2, native PDF p13"
+      },
+      {
+        "endpoint": "CK-MB",
+        "unit": "ng/mL",
+        "placebo_LS_change": 3.41,
+        "placebo_95CI": [
+          1.84,
+          4.97
+        ],
+        "Myoki_LS_change": -0.54,
+        "Myoki_95CI": [
+          -2.13,
+          1.04
+        ],
+        "printed_adjusted_difference": -3.95,
+        "printed_difference_95CI": [
+          -6.18,
+          -1.72
+        ],
+        "printed_two_sided_P": "<.01",
+        "reported_table_n": {
+          "placebo": 37,
+          "Myoki": 38
+        },
+        "locator": "Published main Table 2, native PDF p13"
+      },
+      {
+        "endpoint": "Aspartate aminotransferase",
+        "unit": "IU/L",
+        "placebo_LS_change": 2.57,
+        "placebo_95CI": [
+          -0.7,
+          5.84
+        ],
+        "Myoki_LS_change": -2.83,
+        "Myoki_95CI": [
+          -6.14,
+          0.49
+        ],
+        "printed_adjusted_difference": -5.39,
+        "printed_difference_95CI": [
+          -10.09,
+          -0.7
+        ],
+        "printed_two_sided_P": ".025",
+        "reported_table_n": {
+          "placebo": 37,
+          "Myoki": 38
+        },
+        "locator": "Published main Table 2, native PDF p13"
+      }
+    ],
+    "functional_result_adjudication": {
+      "author_claim": "Nominal between-group improvements in walking time and left/right grip.",
+      "credit": "Actual controlled functional measurements and author-reported adjusted positive estimates retained.",
+      "CI_P_issue": "Walking CI reaches 0.00 after rounding despite P<.01; both grip CIs include 0 despite P=.02/.04. Methods/table/caption indicate same per-protocol adjusted between-group change and two-sided tests.",
+      "unresolved": "No within-arm alternative, different population, one-sided convention or detailed analysis output supplied to reconcile these.",
+      "text_table_issue": "Results prose prints negative upper grip CI bounds (−0.69/−0.89), unlike native Table 2 positive upper bounds.",
+      "difference_heading": "Column says difference between placebo and treatment; signs follow treatment minus placebo.",
+      "conclusion": "Reported functional positives have unresolved statistical credibility, not confirmed nulls or securely established causal benefits.",
+      "no_reanalysis_or_recomputed_P_CI": true,
+      "walking_test": "6 metres timed, not six-minute walk.",
+      "mass_limit": "DEXA mass signal is not itself useful function or contractile-tissue renewal."
+    },
+    "biomarker_results": {
+      "nominal_positives": [
+        "IGF-1 +17.93 ng/mL, CI 1.00 to 34.87, P=.038",
+        "myoglobin −14.6 ng/mL, CI−20.06 to−9.14, P<.01",
+        "CK-MB −3.95 ng/mL, CI−6.18 to−1.72, P<.01",
+        "AST −5.39 IU/L, CI−10.09 to−.70, P=.025"
+      ],
+      "nulls": [
+        "TNF-alpha",
+        "estrogen",
+        "testosterone",
+        "IL-6"
+      ],
+      "interpretation": "Not additional functional trials, direct protein-turnover/renewal measurements or target mediation."
+    },
+    "harms": {
+      "safety_population": 80,
+      "per_arm": 40,
+      "main_reported_participants_with_TEAE": {
+        "Myoki": 10,
+        "placebo": 7
+      },
+      "main_reported_events": {
+        "Myoki": 10,
+        "placebo": 7
+      },
+      "main_percent": {
+        "Myoki": 25.0,
+        "placebo": 17.5
+      },
+      "supplement_table_unit": "E (%), footnote defines number of adverse events; unique-person counts attributed to main rather than inferred from table.",
+      "event_terms_placebo_Myoki": {
+        "constipation": [
+          0,
+          1
+        ],
+        "nausea": [
+          1,
+          3
+        ],
+        "pyrexia": [
+          2,
+          3
+        ],
+        "nasopharyngitis": [
+          2,
+          0
+        ],
+        "headache": [
+          2,
+          2
+        ],
+        "cough": [
+          0,
+          1
+        ]
+      },
+      "author_assessment": "All mild, resolved, no serious TEAEs and none attributed to product.",
+      "limits": "Events retained despite nonattribution; no generic safety or comparative-harm significance claim.",
+      "locator": "Results 3.6 / supplementary Table 2 (rendered p4)"
+    },
+    "preclinical": {
+      "cell_system": "C2C12; separate from clinical trial and not independent human replication.",
+      "viability": "No significant reduction through 500 µM after 24 h in reported assay; not universal nontoxicity.",
+      "differentiation": "Methods/native figures 5/50/100 µM, narrative 1/10/100 µM conflict; myotube morphology, fusion and structural/myogenic markers increase selectively.",
+      "DEX_model": "10 µM DEX with 10 or 100 µM Myoki; selected Akt/mTOR/p70S6K and structural-protein changes plus degradation-marker reductions.",
+      "functional_limit": "No cell force or protein-synthesis flux assay; gene/signaling changes not chromosome fidelity or renewal.",
+      "binding": {
+        "SPR": "3.125–200 µM, concentration-dependent interaction; numerical Kd not recovered.",
+        "ELISA": "µM peptide versus nM ActR2B, explicitly not direct affinity comparison. Native peptide doses 31.3–500 µM differ from narrative 125–1000 µM.",
+        "causality": "No sufficient pathway dependence/target engagement establishing antiatrophy mechanism; final Discussion explicitly limits causality."
+      },
+      "mouse": {
+        "sex": "male",
+        "models": [
+          "SAMP8",
+          "SAMR1"
+        ],
+        "n_per_group": 5,
+        "groups": [
+          "SAMR1 +PBS",
+          "SAMP8 +PBS",
+          "SAMP8 +Myoki"
+        ],
+        "route": "oral gavage",
+        "dose": "20 mg in 200 µL PBS daily",
+        "duration_weeks": 45,
+        "outcomes": "H&E total stained area; collagen area; MAFbx/fast-MyHC fluorescence.",
+        "positive": "Higher stained muscle area; gastrocnemius collagen reduction and selected marker changes.",
+        "nulls_limits": [
+          "Quadriceps collagen decrease not significant",
+          "Quadriceps MAFbx treatment panel lacks significance marker although collective prose is broader",
+          "Total stained area differs from individual-fiber cross-sectional area wording",
+          "No grip/endurance or other direct physiological function measured"
+        ],
+        "replication": "No animal functional replication or MVA/BUBR1 evidence."
+      },
+      "supplement_screen": "Figure S1 qualitative candidate A–G/Myoki MyoG/MuRF1 screening; not independent functional efficacy."
+    },
+    "registration": {
+      "registry": "CTRI",
+      "id": "CTRI/2024/01/061919",
+      "official_url": "https://ctri.nic.in/Clinicaltrials/pmaindet2.php?EncHid=OTgzMjc=",
+      "registered": "2024-01-29",
+      "last_modified": "2024-01-29",
+      "first_enrolment_listed": "2024-02-14",
+      "prospective_label": true,
+      "timing_limit": "Current registry dates support a prospectively registered core plan; historical snapshots and actual recruitment chronology were not independently audited.",
+      "current_record_status": "Not Yet Recruiting; stale and not current completion proof.",
+      "protocol_reference": "BSR/CT/023/23, Version 1, 20 Sep 2023",
+      "full_protocol_SAP_CSR": "Not recovered; supplementary schematic screenshot is not full CSR.",
+      "system_mismatch": "Printed clinicaltrials.gov with CTRI identifier; matching source is CTRI, ClinicalTrials.gov exact search empty.",
+      "WHO_mirror": "Official mirror last refreshed 4 March 2024; complete saved record read.",
+      "type": "Nutraceutical",
+      "phase_field": "N/A",
+      "summary_phase_wording": "Phase III",
+      "DCGI_clearance_field": "Not Applicable",
+      "approval_availability": "Not established. These fields do not prove marketing approval, retail availability or standard-drug repurposing eligibility.",
+      "ethics": "Current stale CTRI record: Excel approved; six other entries submitted/under review. WHO mirror simplifies others as Not Approved; no later-site legality inference.",
+      "registry_number_is_not_ethics_identifier": true
+    },
+    "disclosures_and_versions": {
+      "final_COI": "All five authors employed by Caregen.",
+      "final_funding_statement": "No financial support received for work and/or publication.",
+      "CTRI_support": "Caregen is monetary/material support and primary sponsor.",
+      "interpretation": "Preserve source-attributed disclosure difference; do not presume independence or misconduct.",
+      "preprint": {
+        "id": "PPR1036768",
+        "doi": "10.20944/preprints202506.1181.v1",
+        "posted": "2025-06-13",
+        "family": "Reciprocal preprint/published metadata links; same authors/sequence/registry/cohort design, not replication.",
+        "reading": "Targeted retained HTML identity, preparation, methods, clinical and disclosure passages; raw PDF retrieval403.",
+        "differences": [
+          "Corn-derived/extraction and synthesis description versus final Fmoc synthetic methods",
+          "Excel Student t-test description versus final SAS ANCOVA",
+          "No conflicts declared versus final company employment disclosure",
+          "No external funding wording versus final no financial support wording",
+          "Stronger causal myostatin language versus final explicit limitation"
+        ]
+      },
+      "external_references_unread": true
+    },
+    "research_decision": {
+      "candidate_role": "Distinct source-defined compensation challenger; reported mass positive and disputed nominal secondary function positives retained.",
+      "bar": "Equal function/exposure/renewal/chromosome-fidelity criteria; BUBR1 mediation additionally needed only for restoration.",
+      "MVA_efficacy": "Not established",
+      "BUBR1_mediation": "Not established",
+      "nominee_superiority": "Not established for niacin or apitegromab",
+      "nominee_change": false,
+      "clinical_regimen_recommendation": false,
+      "repurposing_availability": "Unresolved; do not call a commonly marketed molecule."
+    },
+    "actual_reading": {
+      "main": "Complete scientific text and captions, native pages 5–14 containing Figures 1–8 and Tables 1–2. Other native main pages not visually inspected.",
+      "supplement": "Complete DOCX scientific text and tables, all 4 locally rendered pages, embedded images.",
+      "registry": "Complete saved official CTRI and WHO record text; stale/historical limits retained.",
+      "preprint": "Targeted cached HTML passages only; no native PDF/figure credit.",
+      "not_read": [
+        "Full original protocol",
+        "Full SAP",
+        "Full CSR",
+        "Historical registry archives",
+        "Referenced papers",
+        "Other Myoki studies"
+      ],
+      "independent_review": "Pending at producer freeze; separate review subtree excluded.",
+      "no_new_participant_analysis": true
+    }
+  },
+  "source_and_review_provenance": {
+    "producer_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/myoki-muscle-primary-20260927/final-bindings.json",
+      "bytes": 21691,
+      "sha256": "fa382d5d046cd9a66683939b141974e17524515803cc928c96a34997b6daa8db"
+    },
+    "producer_qualification": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/myoki-muscle-primary-20260927/qualification.json",
+      "bytes": 25606,
+      "sha256": "c93a4db8b9f80b2bd2b0fa81addf4322c96d4a2434719aaccef12904a92ba649"
+    },
+    "independent_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/myoki-muscle-primary-20260927/independent-review/final-bindings.json",
+      "bytes": 3990,
+      "sha256": "45fb59b3ea236df387a7c5dde55cafce53fa47302beacc16cf7d194338e6b244"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/myoki-muscle-primary-20260927/independent-review/review.json",
+      "bytes": 4960,
+      "sha256": "5953994d6610f0b831342597767e221a89291dadc91ba231683280f02a5018b8"
+    },
+    "reading_roles": "Producer primary reading, separate independent source review, and this portable synthesis are distinct. No new primary reading in this synthesis."
+  },
+  "outward_markdown_transformations": [],
+  "source_JSON_preserved_exact": true,
+  "scientific_summary": "The source-defined synthetic EAEYEHL peptide was administered as Myoki/CG-A1 with arginine and maltodextrin, nominally 200 mg/day orally for 12 weeks, versus the named background ingredients without peptide. Eighty adults with muscle atrophy were randomized 40/40; the outcome table reports 38 Myoki/37 placebo analyzed, while the native flowchart reverses the arm labels. The primary DEXA lean-mass comparison favors Myoki by 705.8 g (95% CI 433.40–978.16). Authors report adjusted secondary contrasts of −0.34 seconds for a six-metre walk (−0.68–0.00; P<.01), +0.27 kg left grip (−0.15–0.69; P=.02) and +0.43 kg right grip (−0.04–0.89; P=.04). Retain these actual comparative estimates without repairing their inconsistent confidence intervals/P values or treating them as proven nulls. Per-protocol exclusions, including inadequate efficacy, multiplicity, unresolved shared-ingredient quantities and copied comparator-dose wording limit inference. Four biomarker comparisons were nonsignificant; registered troponin I was unreported. Mild TEAEs affected 10/40 versus 7/40 as stated in the main, without a demonstrated comparative safety conclusion. Cell interaction with myostatin is not receptor blockade or human target engagement; mouse histology lacks direct physiological function. Current registry timing, unavailable historical analysis plan and sponsor disclosures remain qualified. Marketed-product identity, oral bioavailability, useful durable function, renewal and chromosome fidelity are unestablished. Apply the same criteria as the provisional compensation nominee; no MVA, BUBR1-restoration or superiority claim follows.",
+  "identity_limit": "Myoki and CG-A1 are linked by this paper, supplement and CTRI trial. Aliases identify that source relationship only; no generic corn, myostatin inhibitor, arginine, dietary protein or current retail/batch equivalence. No matching catalog/alias row was found in the bounded baseline lookup; future name relations require identity review.",
+  "new_primary_reading_or_efficiency_evidence": false,
+  "repository_mutation": false
+}

@@ -1,0 +1,304 @@
+{
+  "schema_version": "bounded-primary-qualification-v1",
+  "compound": "piperlongumine",
+  "proposed_entry_id": "new-piperlongumine",
+  "aliases": [
+    "piperlongumine"
+  ],
+  "excluded_aliases": [
+    "piperine",
+    "black pepper",
+    "long pepper extract",
+    "generic pepper products"
+  ],
+  "integration_status": "integrated_bounded_source_qualification",
+  "date": "2026-09-23",
+  "primary_source": {
+    "pmid": "34745968",
+    "pmcid": "PMC8568458",
+    "doi": "10.3389/fonc.2021.745590",
+    "title": "Identification of Novel Drug Candidate for Epithelial Ovarian Cancer via In Silico Investigation and In Vitro Validation",
+    "urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/34745968/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8568458/",
+      "https://doi.org/10.3389/fonc.2021.745590"
+    ],
+    "xml_sha256": "a537d7a94e916705960b2d304d59d4fac0a06a02603db2c5c681c9afe3182edf"
+  },
+  "prior_context": {
+    "repo_head_observed": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
+    "decisions_sha256": "d422617240394a35e0b8ef92bc0e33d89d857c8db649b44f8dbe32a3d91bed1b",
+    "exact_decision_compound_or_source_match": false,
+    "existing_abstract_annotation_pmids": [
+      "34745968",
+      "23764397",
+      "28190297"
+    ],
+    "context_boundary": "Different-source prior abstract annotations are not full-primary qualifications and their normal-cell/BUB1B/genetic/animal claims are not assigned to this study. No existing object changed."
+  },
+  "identity": {
+    "material": "Piperlongumine from NeOnc Technologies",
+    "catalog": null,
+    "purity": null,
+    "batch_characterization": null,
+    "stock": "10 mM in DMSO, stored at −20°C",
+    "reported_maximum_final_dmso_percent": 0.5,
+    "preparation_equivalence": "No transfer to piperine,plants,extracts,food,oral products or human exposure."
+  },
+  "models": {
+    "named_cell_lines": [
+      "SK-OV-3",
+      "CA-OV-3",
+      "HO-8910"
+    ],
+    "normal_drug_treated_cells": false,
+    "treated_animals": false,
+    "treated_humans": false,
+    "authentication_reported": false,
+    "ho8910_registry": {
+      "url": "https://www.cellosaurus.org/CVCL_6868",
+      "record_file": "cellosaurus-ho8910.txt",
+      "sha256": "85ee4333cb88676aa723d1db25b8d77af2f3e744bda053d7df2e0383a40b06e1",
+      "finding": "Contaminated HeLa derivative; ICLAC-00606. Preserve cell response but not authenticated independent ovarian identity."
+    }
+  },
+  "positive_evidence": [
+    {
+      "endpoint": "MTT",
+      "times_h": [
+        24,
+        48
+      ],
+      "native_figures": [
+        "6A",
+        "6B",
+        "6C"
+      ],
+      "reported_ic50_uM": {
+        "SK-OV-3": [
+          49.32,
+          16.28
+        ],
+        "CA-OV-3": [
+          18.76,
+          11.58
+        ],
+        "HO-8910": [
+          12.7,
+          6.8
+        ]
+      },
+      "scope": "Lower cancer-cell MTT signal with dose and time; author IC50 values not refitted. Figure axes: SK-OV-3/HO-8910 0–100 µM; CA-OV-3 0–20 µM."
+    },
+    {
+      "endpoint": "colony formation",
+      "doses_uM": [
+        0,
+        10,
+        20
+      ],
+      "native_figures": [
+        "6D",
+        "6E"
+      ],
+      "scope": "Significant reductions in colony numbers at 10/20 µM in all three named lines; orthogonal to MTT and after withdrawal according to Methods. Schedule and denominator conflicts limit exact protocol and absolute-count interpretation."
+    },
+    {
+      "endpoint": "Annexin-V/PI apoptosis",
+      "native_figures": [
+        "6G"
+      ],
+      "doses_uM_by_model": {
+        "SK-OV-3": [
+          0,
+          10,
+          20
+        ],
+        "CA-OV-3": [
+          0,
+          10,
+          20
+        ],
+        "HO-8910": [
+          0,
+          5,
+          10
+        ]
+      },
+      "scope": "Higher apoptotic fraction with significance marks at both active doses; distinct assay from MTT. No individual cytometry plots or event counts. Time-point mapping unresolved."
+    },
+    {
+      "endpoint": "protein abundance",
+      "native_figures": [
+        "6F"
+      ],
+      "doses_uM": [
+        10,
+        20
+      ],
+      "time_h": 24,
+      "proteins": [
+        "CDK1",
+        "CCNB1",
+        "survivin"
+      ],
+      "loading_control": "beta-actin",
+      "scope": "Representative bands decrease; not biochemical inhibition or engagement, and no BUBR1 assay. No displayed densitometry or exact protein P-value."
+    }
+  ],
+  "replication_and_statistics": {
+    "figure6_n": 3,
+    "methods": "At least three independent experiments; explicitly three for colonies/apoptosis; mean±SD; Student t-test or one-way ANOVA. Figure6 names an unspecified multiple-comparison test.",
+    "limits": [
+      "Technical wells and culture passages not mapped",
+      "No individual data",
+      "Cytometry events not reported",
+      "Exact P-values absent",
+      "No independent biological replication by reviewer"
+    ]
+  },
+  "mechanism": {
+    "docking": {
+      "PL_score_kcal_mol": -8.121,
+      "AZD5438_score_kcal_mol": -8.24,
+      "comparator_role": "Computational reference only; no administered AZD5438 arm"
+    },
+    "measured_direct_binding": false,
+    "measured_cdk1_kinase_inhibition": false,
+    "cellular_target_engagement": false,
+    "selectivity_panel": false,
+    "genetic_target_rescue": false,
+    "cell_cycle_distribution_measured": false,
+    "judgment": "Docking plus lower protein abundance cannot establish direct, selective CDK1-mediated death."
+  },
+  "bub1b": {
+    "role": "Tumor-versus-normal expression list and computational hub",
+    "supplement_direction": "Upregulated in the tumor-dataset intersection; not a PL-treated comparison",
+    "supplement_up_gene_count": 115,
+    "supplement_down_gene_count": 181,
+    "individual_gene_statistic_supplied": false,
+    "drug_response_rna_measured": false,
+    "BUBR1_protein_measured": false,
+    "fidelity_or_checkpoint_measured": false,
+    "mva_model": false
+  },
+  "source_issues": [
+    {
+      "id": "colony_schedule",
+      "source": "Methods Colony Formation versus Figure6 caption",
+      "detail": "Methods: 200 cells/well, then 24 h exposure, withdrawal and 14 days growth. Caption: treatment then plating and 7 days growth. Exact sequence and duration unresolved."
+    },
+    {
+      "id": "colony_denominator",
+      "source": "Figure6E versus Methods/caption",
+      "detail": "Native SK-OV-3 control mean exceeds 400 colonies and CA-OV-3 exceeds 200, versus 200 plated cells. No stated aggregation explains the count; no repaired values supplied."
+    },
+    {
+      "id": "dmso_stock",
+      "source": "Chemicals versus Figure6A/C high-dose axis",
+      "detail": "Conditional direct dilution of 10 mM DMSO stock to 100 µM gives 1% DMSO, exceeding the stated maximum 0.5%; no alternate stock or solvent exchange described. This is not proof of vehicle artifact at 10–20 µM."
+    },
+    {
+      "id": "apoptosis_time_mapping",
+      "source": "Figure6G versus Results",
+      "detail": "Dose-only bars do not separately map 24/48 h. Prose gives SKOV3 at 20 µM: 37.6%/53.4%; retained as author-reported, not independently verified at both times from the graph."
+    },
+    {
+      "id": "control_label",
+      "source": "Figure6F",
+      "detail": "Control lanes labeled Vector without described transfection; not evidence of genetic manipulation or rescue."
+    },
+    {
+      "id": "deg_counts",
+      "source": "Results,Figure1,Table1 versusDiscussion",
+      "detail": "296 = 115 up + 181 down is supported by the supplement; Discussion gives 247 = 103 + 144."
+    },
+    {
+      "id": "deg_threshold",
+      "source": "Methods versus Figure1caption",
+      "detail": "Methods use |log2FC| > 1; Figure1 caption prints ≥2."
+    },
+    {
+      "id": "model_number",
+      "source": "Final Discussion versus Methods/Results/Figure6",
+      "detail": "Final limitation says one cell line; three named lines are displayed. HO-8910 is separately flagged as a HeLa derivative by the official registry."
+    }
+  ],
+  "absence_scope": "Only the reviewed paper and package; no broad absence claim across PL literature. Missing controls do not establish harm or artifact.",
+  "competitive_assessment": "Real anticancer cellular outcomes retained; no useful-normal-function or BUB1B/MVA defect rescue. Niacin and apitegromab remain provisional and unproven in MVA; this paper does not establish a basis for promoting PL above them.",
+  "recommended_disposition": "Experimental anticancer comparator, not an MVA lead; primary mechanism and normal-cell selectivity gaps remain unresolved",
+  "followup_questions": [
+    "Can direct CDK1 engagement and causality be demonstrated apart from cytotoxicity or cell-composition changes?",
+    "What are matched normal/BUB1B-deficient functional outcomes at verified exposure?",
+    "Resolve colony denominator/schedule, vehicle, cytometry timing and cell authentication before quantitative follow-up."
+  ],
+  "status_file": "source-status.json",
+  "read_scope_file": "read-scope.json",
+  "retrieval_manifest_file": "retrieval-manifest.json",
+  "asset_manifest_file": "asset-manifest.json",
+  "qualification_markdown_file": "piperlongumine-qualification.md",
+  "qualification_markdown_sha256": "939d9979b69dd5cbc7cf2492863c5136c5ee290bae8bcde87c761c927a3f1ad4",
+  "outer_abstract_credit": 0,
+  "new_appraisal_credit": 0,
+  "reviewer_performed_biological_replication": false,
+  "clinical_recommendation": false,
+  "repo_modified": true,
+  "candidate_provenance": {
+    "status": "INTEGRATED_WITH_ROOT_SOURCE_CHECK",
+    "baseline": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
+    "decision_id": "new-piperlongumine",
+    "external_source_root": "piperlongumine-followup-20260923",
+    "source_qualification_md_sha256": "906a79eda8a4322f25b417a3bbc5e55fcdba34dc42abfde2ff26bbbd387b0b2f",
+    "source_qualification_json_sha256": "729ee169fe3714dbfecfc8798aed051894397d250141da2f3ff3a80f8157d1fd",
+    "portable_markdown_file": "piperlongumine-qualification.md",
+    "portable_markdown_sha256": "939d9979b69dd5cbc7cf2492863c5136c5ee290bae8bcde87c761c927a3f1ad4",
+    "external_reference_rule": "Raw sources, assets and reading-manifest file references in the source assessment resolve under external_source_root, not the future repository directory.",
+    "transformations": [
+      "Candidate copy only; no root integration or independent reread of other source reviewers claimed.",
+      "Added a portable companion-JSON link; raw source caches and their relative file references remain external."
+    ],
+    "source_reading_attribution": "Original named source reviewer; candidate preparation does not add full-paper/biological/outer reading credit.",
+    "extra_outer_abstract_credit": 0,
+    "root_approval_required_for_integration": false,
+    "bounded_independent_check_refs": [
+      {
+        "external_file": "antitumor-followup-20260923/scientific-independent/independent-check.md",
+        "sha256": "293620f73be6f37fb034dc0fbc3b4d6e04b45cc4d652ea3effe2e41239216cb1"
+      },
+      {
+        "external_file": "antitumor-followup-20260923/scientific-independent/independent-check.json",
+        "sha256": "6dc3e402158c5becd0823ebeac9ace9f84bf2e2a489351087728a324bb5918f3"
+      }
+    ],
+    "independent_check_scope": "Selected native figures and text/table/registry verification only; not a second complete main-text review.",
+    "pre_integration_status": "EXTERNAL_CANDIDATE_NOT_INTEGRATED",
+    "candidate_portable_markdown_sha256": "df289dd22a9637d7bf0559c07dbed1f7807a2eb27ad5ae24adcf9f9aa3c28af2"
+  },
+  "source_reviewer_repo_modified": false,
+  "source_md_sha256": "939d9979b69dd5cbc7cf2492863c5136c5ee290bae8bcde87c761c927a3f1ad4",
+  "integration": {
+    "baseline": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
+    "integrating_reviewer": "/root",
+    "candidate_json_sha256": "149690c5c0c4cde5dd81dd2d47442c7b605af645245df8ceb5a049554be72bc2",
+    "root_reading": {
+      "complete_scientific_main_outputs": [
+        "63b7eb"
+      ],
+      "all_three_endmarkers_seen": true,
+      "supplement_and_registry_output": "513cec",
+      "images": [
+        "assets/fonc-11-745590-g006.jpg"
+      ],
+      "scope": "Scientific main and captions, full extracted supplementary gene table, official registry text; native Figure6. Other native figures credited to source reviewer.",
+      "source_xml_sha256": "a537d7a94e916705960b2d304d59d4fac0a06a02603db2c5c681c9afe3182edf",
+      "image_sha256": {
+        "assets/fonc-11-745590-g006.jpg": "abd6754cf1aca5b3a1c203e7bc1737260995040d0b7c56609ae9a55a3f91cf58"
+      }
+    },
+    "root_reading_manifest_sha256": "9a713c2a8e5c490383d12deab5be154612eba435243c669b3c0d5660d76f0857",
+    "independent_check_json_sha256": "6dc3e402158c5becd0823ebeac9ace9f84bf2e2a489351087728a324bb5918f3",
+    "independent_check_md_sha256": "293620f73be6f37fb034dc0fbc3b4d6e04b45cc4d652ea3effe2e41239216cb1",
+    "scope": "Root read the complete scientific main and captions, extracted supplementary gene table, official HO-8910 registry and native Figure 6. A separate reviewer checked the core methods/results, native Figure 6, all native supplementary table cells and registry. The source reviewer inspected the remaining main figures.",
+    "new_outer_abstract_credit": 0
+  }
+}

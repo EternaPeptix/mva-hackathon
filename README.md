@@ -1,332 +1,151 @@
-# MVA research workflows
+# MVA: from genome evidence to a testable rescue experiment
 
-This is the private reproducibility repository for team **jeweled**'s MVA hackathon
-research. It contains the analysis code, configurations, recorded Mac Studio
-environments, and selected public/synthetic validation evidence. The clinical
-analysis and Track 1/Track 2 submissions remain unfinished.
+Team **jeweled** focuses on the case's [recorded muscle atrophy and failure to thrive](workflow/configs/lirical-subject.json):
+could a gene-informed medication hypothesis preserve muscle function and the cells that renew it?
 
-The working hypothesis and eventual drug-repurposing proposal require careful
-variant, phase, functional and exposure review. No diagnosis or treatment benefit
-is established by this repository. The public benchmark is a workflow check, not
-clinical sensitivity for the child.
+**[Review the current Track 2 package](reports/REVIEW.md):** report, route comparison,
+revised pitch, editable slides and revision-specific reviewer assessments.
+
+- **[Track 1: candidate and evidence](reports/jeweled_track1_report_submission.md).**
+  BUB1B **p.(Leu737Ter) + p.(Asn1002Lys)**, at subjective **EPCR 0.8**.
+  Phase is unresolved and the missense remains VUS.
+- **[Track 2: selected medications and proposal](reports/jeweled_track2_report_submission.md).**
+  **Niacin (nicotinic acid) and apitegromab are the provisional primary research comparison**, tested separately.
+  They test usable BUBR1 restoration versus downstream muscle compensation; everolimus remains a conditional mechanism probe. They share the
+  same goal: greater absolute muscle output, preserved renewal and no worsened chromosome fidelity.
+- **[Submission index, methods and proposed pitch](reports/README.md).**
+  **Track 1 model 1 scored 100 rank points and F-max 1.000 on 21 September.**
+  [Submission record](reports/README.md#track-1-submission-record) distinguishes the
+  confirmed score from the pending final report-persistence check. Track 2 submission remains pending. The revised eight-slide deck and three-minute V4 movie are visually checked locally; the [existing Vimeo URL](https://vimeo.com/1228990028) now serves V4, with signed-out playback and English captions verified on 8 October 2026. No drug experiment has run.
 
 ## Start here
 
-- [Reproduction and data requirements](REPRODUCIBILITY.md)
-- [Apple Silicon environment capture](workflow/environments/20260919/runtime.json)
-- [Frozen small-variant comparison](workflow/configs/public-small-variant-comparison.json)
-- [Original public benchmark result](results/germline-public-comparison-20260919.json)
-- [Exploratory multiallelic comparison](results/germline-retained-multiallelic-comparison-20260919.json)
-- [Exact truth-identity and scope reconciliation](results/germline-representation-reconciliation-20260919.json)
-- [Native CRAM compatibility control](results/gatk-cram-compatibility-native-control-20260920.json)
-- [Python builds from published sources](results/runtime-published-source-build-20260920.json)
-- [Fresh runtime validation](results/runtime-published-source-validation-20260920.json)
-- [Public structural comparison reproduced with the new runtime](results/runtime-published-source-public-sv-20260920.json)
-- [Pinned public CNV context resources](results/cnv-context-public-sources-20260920.json)
-- [CNV context representation controls](results/cnv-context-method-controls-20260920.json)
-- [Structural/CNV selection controls](results/structural-cnv-context-controls-20260920.json)
-- [Literal tandem-junction and transcript-geometry controls](results/tandem-junction-method-controls-20260920.json)
-- [Nearby-pair phase, mapping and mate-handling controls](results/paralog-pair-method-controls-20260920.json)
-- [Prospective assay-capacity calculation](results/assay-capacity-planning-20260920.json) — planning assumptions, not an experiment or power estimate
-- [SNV cluster and fragment controls](results/snv-cluster-method-controls-20260920.json)
-- [Public sequence comparison controls](results/public-clone-method-controls-20260920.json)
-- [Target-base orientation controls](results/cluster-target-projection-controls-20260920.json)
-- [Four-lane indel sequence/genotype controls](results/four-lane-indel-controls-20260920.json)
-- [Indel window and orientation diagnostics](results/four-lane-indel-context-controls-20260920.json)
-- [Fixed-region depth and missingness controls](results/chromosome-depth-method-controls-20260920.json)
-- [Regional-ploidy interval controls](results/ploidy-region-method-controls-20260920-v2.json)
-- [Diploid/haploid calling on fictional sequence](results/ploidy-calling-native-controls-20260920.json)
-- [Ploidy-boundary genotype and ownership controls](results/ploidy-boundary-method-controls-20260920.json)
-- [Native boundary reproduction and fixed-ploidy recovery](results/ploidy-boundary-native-controls-20260920.json)
-- [Pinned GATK regional-ploidy semantics](results/ploidy-boundary-public-source-review-20260920.json)
-- [Versioned mitochondrial references and indexes](results/mitochondrial-public-resource-verification-20260920.json)
-- [Mitochondrial geometry and read-preservation controls](results/mitochondrial-method-controls-20260920.json)
-- [Circular-read native calling control](results/mitochondrial-native-control-20260920.json)
-- [Original multi-allele context during mitochondrial comparison](results/mitochondrial-review-method-controls-20260920.json)
-- [Mitochondrial read-context and coordinate controls](results/mitochondrial-context-method-controls-20260920.json)
-- [Pinned mitochondrial mixture-screen runtimes and sources](results/mutserve-runtime-source-review-20260920.json)
-- [Native caller/importer contracts on fictional reads](results/mutserve-contract-controls-20260920.json)
-- [Mixture-screen selection and allele-rank controls](results/mitochondrial-mixture-method-controls-20260920.json)
+**Track 2 update:** the [candidate shortlist](reports/appendices/track2-candidate-shortlist.md) explains the current choices: niacin as a provisional BUBR1-restoration lead, apitegromab for muscle compensation, NMN as a direct molecular benchmark and Amla as a laboratory comparator requiring preparation and safety qualification. The [broad search](workflow/track2-drug-census/decision-report.md) retains 310 route/compound appraisals across 15,357 screened entities plus 45 separate dated FDA product entries. The source evidence supports experimental priorities rather than an efficacy ranking in MVA. The revised report, methods and three-minute pitch use the nominated pair; Track 2 submission remains pending.
 
-The workflow covers reference preparation, alignment, native GATK/bcftools calling,
-phenotype-assisted and phenotype-independent prioritisation, read evidence, phasing,
-copy number, homozygosity, structural discovery, public controls, and report/pitch
-production. Some components are completed controls or prepared follow-ons; presence
-of a script does not mean it has produced a patient result.
+The [food-name review](workflow/track2-drug-census/food-substances/common-abstract-findings.md) retains 212 available abstracts across 213 source IDs. [Batch15](workflow/track2-drug-census/batch15-revalidation-findings.md) adds the final 532 saved strings: **3,598 accepted revalidations, 5,759 combined outer source/ID records and zero pending in the original selection**. This closes that queue, not the broader search or primary-source follow-up. The earlier 2,161 annotations were not independently re-audited here. Root checked 16 source/annotation pairs in the final batch; versions are not independent studies and the 143 initially empty fields retain separate recovery statuses.
 
-The revised local pitch tools include segment-by-segment decoding and caption/audio
-integrity checks. The [media reproduction recipe](workflow/docs/pitch-v2-reproduction.md)
-documents the tested Mac Studio environment, storyboard contract and limits. The
-case-specific storyboard, clinical reports and media remain outside this source snapshot.
+The comparison covers **310 appraisals**. [Creatine monohydrate](workflow/track2-drug-census/creatine-inflammatory-myopathy-qualification.md) now has a randomized functional benefit in adults with stable inflammatory myopathy receiving shared exercise; separate aging strength nulls and pediatric results remain part of its assessment. [Sildenafil](workflow/track2-drug-census/sildenafil-dystrophinopathy-qualification.md) did not demonstrate the primary benefits sought in two dystrophinopathy trials, and one produced an imprecise cardiac safety signal. These findings strengthen creatine’s case as a muscle-function comparator without establishing MVA benefit or changing the provisional nominees.
 
-The [changed-call read-review recipe](workflow/docs/changed-call-read-reproduction.md)
-adds original ploidy/allele-preserving context, competing-alternate fragment counts
-and exact-window sensitivities. Three fictional native-pysam controls qualify this
-path; selected case inputs and results remain separately controlled.
+The separate [NIH DSLD ingredient inventory](workflow/track2-drug-census/dsld-ingredients/README.md) preserves **6,467 source groups, 78,788 synonym cells and 85,255 total name/synonym cells**. Its **41,496 lexical matches, including 1,077 unflagged matches, provide no efficacy assessment** and confer no reading or appraisal credit. A separate first pass annotates six rows across four previously read abstracts, without new unique credit. Groups, label terms and matches are not unique drugs, verified chemical equivalents or additions to the main entity denominator. API version 9.5.0 (May 2026) and index-name suffix `2025-09-25n` are distinct source descriptors, not current-market or record-update guarantees.
 
-The tested platform is **Apple Silicon macOS on a Mac Studio**. Conda specifications
-are for `osx-arm64`; Linux, x86 and GPU-only paths are not substitutes for this setup.
-The older Docker/three-caller scripts remain historical and are not the active method.
-Use the native entry points described in the reproduction document.
+- [Reproduction guide and public replay](REPRODUCIBILITY.md)
+- [Recorded environment](workflow/environments/20260919/runtime.json)
+- [Benchmark methods and results](workflow/docs/PUBLIC-BENCHMARK-METHOD.md)
+- [Evidence and component index](results/INDEX.md)
 
-## Measured public checks
+**Native** means an installed bioinformatics executable was run. **Synthetic controls**
+(“fictional” in old files) use invented inputs with expected outcomes. A **receipt** records
+commands, versions, input/output identities and results; it is not itself a biological finding.
 
-On public HG002 chromosome 20, over the identical 82,589 GIAB v4.2.1 truth records:
+## Pipeline
 
-| Caller | Original split-call recall / precision | Exploratory retained-genotype recall / precision |
-|---|---:|---:|
-| GATK | 99.1040% / 98.5365% | 99.3680% / 99.0537% |
-| bcftools | 98.2867% / 97.8593% | 98.5289% / 98.3415% |
+**Track 1 — rank a causal hypothesis**
 
-The retained-genotype arm was motivated by observed discordances. It uses the same
-comparison rules and does not overwrite the original result. Splitting complex
-genotypes can introduce conflicting reference assertions or obscure a wrong second
-allele. Both gains and losses are counted; changed call-record denominators are not
-one-to-one counts of corrected biological errors. Neither result establishes phase
-or causal probability for the child.
+1. Verify supplied reads; align four sequencing lanes to GRCh38.
+2. Run GATK and bcftools; preserve original genotypes through normalization and annotation.
+3. Review phenotype, population frequency, recessive models and alternative explanations.
+4. Examine read support, phase, structural evidence and coverage limitations.
+5. Rank the retained hypothesis with an explicit estimated probability of causality (EPCR).
 
-Twelve original native comparator controls, six audit controls, six multiallelic
-mechanism controls, five metadata checks and three interval-geometry checks passed.
-Separately, seven reconstructed environments passed 22 selected existing native
-controls. These are scoped checks, not a claim that every workflow has been reproduced
-end to end from a fresh public download.
+**Track 2 — turn the mechanism into an experiment**
 
-The source-build route now obtains 40 pinned publisher wheels and builds the other
-five packages from pinned published source archives without reading the old cached
-wheels. Seven further fresh environments pass the same 22 controls; six additional
-native-extension cases match the old runtime. Repeating both public structural
-comparisons reproduces every compared allele, genotype and decision, including
-69/802 matched DELLY truth alleles and 171/802 SvABA truth alleles. Those repetitions
-reuse the original caller outputs. They do not close the structural sensitivity gap
-or establish clinical accuracy. See the installation recipe and limits in
-[REPRODUCIBILITY.md](REPRODUCIBILITY.md).
+6. Qualify allele products, useful BUBR1 function and a myostatin precursor/activation system in controlled muscle models.
+7. Test niacin and apitegromab separately at justified exposure, with drug-appropriate, genetic and tumor controls.
+8. Measure absolute muscle output, renewal and fidelity; retain everolimus as a conditional mTORC1 probe and qualify reserve routes.
 
-The pinned GATK/HTSJDK reader rejects CRAM 3.1. A separate recovery path creates
-CRAM 3.0 and directly compares every decoded record, including all FLAG bits and
-auxiliary data, before calling. Its native 195-record synthetic control recovers
-the known heterozygous SNV and deletion with both callers, and rejects deliberate
-quality, tag, duplicate-flag and record-order changes. The direct check covers a
-flag-preservation gap reproduced in the pinned samtools checksum implementation.
+## Quick start: public HG002 chromosome 20
 
-Copy-number context code now compares nominal intervals with the complete gnomAD
-v4.1 SV sites release and dated ClinGen dosage tables, and retains every common-panel
-marker including missing/excluded evidence. Nine focused representation controls
-pass on the Studio. Population allele counts and multiallelic sample copy-state
-distributions remain distinct; overlap alone does not classify a case allele.
-The corresponding patient-derived result tables and figures are excluded.
+```sh
+bash workflow/public-benchmark/run.sh /absolute/path/to/new-output
+```
 
-A fixed-region depth workflow preserves explicit zeros and separate reference-span
-and concrete-base denominators. Four native controls cover selection, missing
-positions, overlapping mates and filters. The regional-ploidy runner has three
-interval controls; both GATK and bcftools recover a diploid SNV, haploid SNV and
-haploid insertion on fictional sequence. The initial index-collision source is
-preserved separately. These controls do not validate a karyotype, mosaicism
-sensitivity, mitochondrial interpretation or clinical negative result. Patient
-depth measurements and case output files are outside this export.
+The command downloads public inputs and runs both callers plus RTG vcfeval. See
+[requirements and actual platform verification](REPRODUCIBILITY.md#public-benchmark-quick-start).
+The full Mac Studio replay reproduced the primary counts in **134.3 minutes**, including
+downloads and setup; controlled case data are separate.
 
-A boundary-specific native probe reproduces GATK 4.6.1.0's documented use of the
-maximum ploidy overlapping an active region. It plants 12 SNVs across three
-transitions, including exact interval endpoints. Six regional genotype-shape
-exceptions recur; independent constant-ploidy calls and the second caller recover
-all 24 expected caller/allele genotypes. Four focused tests check original
-multiallelic genotype/likelihood preservation, invalid and partial evidence, and
-explicit handling of boundary-spanning records. The fixed-ploidy runner preserves
-the original output and reuses a checksum-identified completed bcftools VCF.
+## Validation summary
 
-The mitochondrial adaptation verifies the literal rCRS sequence and 8,000-base
-rotation, preserves primary read sequence/quality, and keeps original multi-allele
-context through calling, liftover and comparison. Nine focused checks and four
-planted alleles in 30,000 synthetic circular read pairs pass. Initial filters assume
-zero contamination; the method has not validated that assumption, nuclear-copy
-discrimination or very low heteroplasmy. Case calls, target-level read counts and
-interpretations remain outside the source export.
+HG002 reads are labelled nominally 35×; measured mean depth is **36.97× inside the confident
+regions**, with **99.25% of bases at least 20×** (MAPQ≥20/BQ≥20). Comparison uses GIAB v4.2.1,
+its official chr20 confident BED and genotype-aware RTG Tools 3.13 vcfeval, with full-chromosome
+context and raw calls. [Methods](workflow/docs/PUBLIC-BENCHMARK-METHOD.md) explain the definitions.
 
-A further context helper preserves CIGAR-aware mismatch and read-cycle evidence,
-BAQ missingness, reciprocal mates and reported full-reference remapping alternatives.
-Seven focused controls pass. Its symmetric read-context filters are exploratory;
-they do not establish a heteroplasmy detection limit or exhaustive NUMT exclusion.
-Detailed read identities, sequences and case-derived summaries are not exported.
+| Public check | Recorded result |
+|---|---|
+| GATK SNVs / indels, original split calls | Recall 99.3748% / 97.3902%; precision 98.9548% / 96.0168% |
+| bcftools SNVs / indels, original split calls | Recall 99.3593% / 91.5115%; precision 98.9512% / 91.1827% |
+| DELLY structural variants | 69/802 truth alleles matched (**8.6%**) |
+| SvABA structural variants | 171/802 truth alleles matched (**21.3%**) |
 
-## Data and release status
+Retaining native multiallelic genotypes improves the indel comparison; this later sensitivity
+analysis is reported separately. [Structural results and miss analysis](results/INDEX.md#structural-variants)
+retain the same truth denominator, including difficult insertions and repeat-associated alleles.
 
-Raw reads, alignments, genotype-scale tables, patient-derived result files, tool
-archives and downloaded references are absent from this source snapshot. Configurations
-include permitted HPO terms and a bounded list of named candidate sites needed to
-reproduce the targeted analyses. Included empirical result files use public HG002
-or fictional controls; runtime records describe software reconstruction. The CNV
-source receipt contains public download identities and metadata, not case matches.
-The structural/CNV control receipt covers fictional genotype/filter/query-boundary
-selection cases; the corresponding patient call comparisons remain outside this export.
+Three useful implementation findings changed the workflow: the pinned GATK reader rejects
+CRAM 3.1; samtools' checksum misses a FLAG-preservation difference; and GATK uses the maximum
+ploidy spanning an active region. Methods and control counts are in the component index.
 
-Access to the challenge dataset must be obtained separately through its authorised
-process. The organisers' [data-handling clarification](https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/discussions/2)
-distinguishes retained findings/code from genomic data and its reformats. The final
-reports, reviewed candidate CSV and pitch URL will be added after their remaining
-analysis and review. This repository stays private during the current research phase;
-the required later public release remains a separate step.
+## Findings and repurposing proposal
 
-`SOURCE-SNAPSHOT.json` records source and release hashes. It also records a
-comment-only substitution of an unnecessary acquisition-specific read header/barcode
-example in the exported alignment script. No executable lines change. The internal
-Git history and private analysis outputs were not copied. Historical source hashes
-in execution receipts refer to the original analysis files, not an assertion that
-every later documentation or comment revision has identical bytes.
+**Track 1:** BUB1B **p.(Leu737Ter) + p.(Asn1002Lys)** is our leading hypothesis, at subjective
+**EPCR 0.8**. Both alleles are observed; trans is favored under the recessive model but unobserved.
+Confirmed cis would retire this pair as the compound-heterozygous explanation.
+The stop has a two-star ClinVar P/LP assertion and the missense remains VUS. The
+[report](reports/jeweled_track1_report_submission.md) explains the two-allele census, ten-gene
+differential, 288 bp phase blocks versus a 10,911 bp gap, and retracted mosaic signal.
 
-**AI disclosure:** Anthropic Claude Code and OpenAI Codex, personal subscriptions,
-training on the user's content disabled, user-confirmed 19 September 2026. Exact
-historical model/plan names remain unverified. This records the user's configuration;
-it is not an independent audit of all historical provider retention or feedback settings.
+**Track 2:** nominate **niacin (nicotinic acid)** for BUBR1 restoration and **apitegromab**
+for downstream muscle compensation, tested separately. Human muscle NAD engagement
+and separate SIRT2/BUBR1 experiments support testing niacin; they do not demonstrate
+its restoration chain. Apitegromab has randomized motor-function evidence in SMA,
+with age, dose and background-treatment limits, labeled fracture risk and intravenous
+access burden. Neither primary candidate has demonstrated MVA rescue. The myostatin
+assay must support actual-drug engagement; excess baseline myostatin is not mandatory
+for compensation. Everolimus remains a conditional mTORC1 mechanism probe because
+harmful pathway excess is unestablished here. Our [RNA reanalysis](workflow/track2-rna/README.md)
+adds no mTORC1 support and does not settle the qualitative carrier-blot observation.
+Arimoclomol and dasatinib remain conditional reserves.
 
-Code is covered by the [MIT license](LICENSE); written reports and documentation use
-CC BY 4.0 under its scope note. Third-party software and reference data retain their
-own licenses and access requirements.
+The [proposal](reports/jeweled_track2_report_submission.md) and
+[evidence pipeline](reports/appendices/track2-evidence-pipeline.md) explain the
+qualitative selection, exposure gate, absolute-output endpoints and rhabdomyosarcoma counter-screen.
+The [unelected-route table](reports/appendices/track2-route-decisions.md) explains alternatives and weaknesses.
+The [Cell selection and tissue output explorer](workflow/track2-model/explorer/README.md)
+makes the synthetic +16.8-point chromosome-normal fraction / −11.0% raw-output example
+interactive offline. It displays retained aggregate populations, not individual lineages.
+The [genome-informed model](workflow/track2-model/README.md) separates sequence reconstruction
+from assumption-based population scenarios; it does not predict drug response. The
+[public-source transfer replay](workflow/track2-transfer/README.md) executes the decision process
+on BUB1B and a synthetic TRIP13 example, retaining gene-specific evidence gaps.
+It is a second worked example, not validation in two patients. No drug experiment
+has run, and neither chromosome correction nor clinical efficacy is claimed.
 
-## Autosomal discovery handoff
+## Scope and limitations
 
-The [completed-shard handoff audit](workflow/docs/discovery-handoff-reproduction.md)
-checks native allele/genotype preservation, the existing screen's quality-field
-compatibility, and complete-record normalization replay before downstream ranking.
-Five [native fictional controls](workflow/source-snapshots/discovery-handoff-controls-20260920/controls.json)
-pass, including wrong-index and changed-input refusal. Pending chromosomes remain
-explicit. This adds a method check; it does not establish a complete genomic analysis,
-new causal candidate, quality policy or clinical sensitivity. Case audit outputs are
-not included in this source snapshot.
+**Low SV recall (8.6% DELLY; 21.3% SvABA) limits the causal search:** a negative short-read result
+cannot exclude difficult structural alternatives. Annotation locates misses without proving their
+cause. One public chromosome and synthetic tests do not establish case-wide clinical sensitivity.
+Phase, endogenous allele function, rescue competence and drug benefit remain unresolved. EPCR is a research judgment.
+Exploratory control development closed on 20 September; remaining work concerns reproduction,
+documented defects and submission delivery before **24 October 2026**.
 
-## Native coding inventory and descriptive models
+## Data handling, disclosure and license
 
-The [native coding review](workflow/docs/NATIVE-CODING-REVIEW.md) links each
-protein-altering allele to its complete original caller record, including
-multiallelic genotype and likelihoods. Missing or low quality remains visible;
-no PASS label or GQ is imputed. Caller-separated recessive combinations retain
-frequency uncertainty and source-scoped phase.
+The repository remains private; curated findings are included, raw reads and genome-scale case
+payloads are excluded. [Release review](workflow/docs/PUBLIC-RELEASE-AUDIT.md) records decisions.
+Claude Code/Codex used personal subscriptions with training disabled (user-confirmed). Narration
+uses Cartesia Sonic 3.6/Skylar on the Free plan; its training/retention settings remain unverified. See [LICENSE](LICENSE),
+[required attribution and dataset citation status](reports/PROVENANCE.md#acknowledgement), and [CHANGELOG](CHANGELOG.md).
 
-Eighteen [native fictional checks](workflow/source-snapshots/native-coding-controls-20260920/controls.json)
-pass, including exact sequence-equivalent normalization, complete annotation
-payload preservation, original multiallelic recovery, input-tamper refusal and
-explicit partial scope. These checks do not establish biological sensitivity or
-a complete candidate ranking. Case inventories remain outside this source export.
+The [tested creatine–HMB rowing preparation](workflow/track2-drug-census/creatine-hmb-rowing-qualification.md) adds a narrow lactate-indexed performance comparison, with nonsignificant other thresholds/morphology and unresolved synergy/source numbers. This targeted primary appraisal leaves the nominees unchanged. The separate [batch 17 screen](workflow/track2-drug-census/outcome-first-batch17-screen.md) brings eligibility coverage to **2,280 / 56,217**, retaining 53,937 unscreened records and all 2,680 original flags.
 
-## Joint sequence hypotheses and fragment evidence
+The separately qualified [acute-stroke creatine regimen](workflow/track2-drug-census/creatine-acute-stroke-qualification.md) found no significant controlled benefit in its reported functional, strength or mass/degradation outcomes. This small seven-day pilot does not establish equivalence or negate the distinct myopathy/dystrophinopathy results. Nominal biomarker findings, gastrointestinal symptoms and creatinine rises remain explicit; the chemical form is unknown and aliases remain empty. The source-specific addition brings the curated comparison to 307 appraisals without changing nominees or eligibility coverage.
 
-The [joint-haplotype review](workflow/docs/JOINT-HAPLOTYPE-REVIEW.md) enumerates
-compatible sequence hypotheses within each caller, including retained uncalled
-ALTs. Identical sequences preserve all source lineages while sharing one
-observed fragment count. Original read groups, unmatched sequences, mate
-conflicts and raw-quality sensitivity remain explicit; constructed sequences
-do not become genotype or parental-phase calls.
+The preparation-specific [Pennisetum aqueous-extract appraisal](workflow/track2-drug-census/pennisetum-muscle-qualification.md) retains a reported grip interaction alongside nonsignificant visit-level grip, walking and comparative mass/marker results. Paper and current registry disagree on allocation, and harms ascertainment remains incomplete. This adds the 308th appraisal with empty aliases, no eligibility increment and no nominee change; it does not establish BUB1B/MVA benefit.
 
-Twenty [fictional helper and native integration controls](workflow/source-snapshots/joint-haplotype-controls-20260920/controls.json)
-passed on Mac Studio 512S2. They exercise literal sequence equivalence, native
-CRAM extraction, original caller context and constructed-sequence annotation.
-They do not establish clinical sensitivity, causality or treatment benefit.
+The preparation-specific [Korean red ginseng tablet appraisal](workflow/track2-drug-census/korean-red-ginseng-muscle-qualification.md) retains a reported secondary self-reported FSS change comparison. Objective force/task performance was unmeasured; TAS and blood mtDNA remain biomarkers. Allocation wording, completer analysis, retrospective registration, missing outcomes, printed conflicts and harms uncertainty remain explicit. This adds the 309th appraisal with empty aliases, no eligibility increment and no nominee change; it does not establish BUB1B/MVA benefit.
 
-The private source configuration includes selected targets, sample labels and
-input-identity hashes needed to reproduce the exact method. Individual read
-records, read names, case evidence/result payloads, clinical reports and media
-are excluded from this source export.
+The source-specific [Risulose isomaltulose running appraisal](workflow/track2-drug-census/isomaltulose-running-qualification.md) retains a controlled running null alongside metabolic positives. Nonzero symptoms, missing results and printed statistical/unit/timing conflicts remain explicit. It adds one named-preparation appraisal with empty aliases, no eligibility increment and no nominee change; BUB1B rescue and superiority to the current leaders remain unestablished.
 
-## Full-query clipped-read review
-
-The [clipped-read workflow](workflow/docs/CLIPPED-READ-REVIEW.md) retains the
-complete available seed query, including soft clips and original qualities,
-for bounded local sequence comparison. Canonical seed and mate ends are also
-remapped in separate single-end and paired arms against the whole reference.
-Exact ties, capped traceback witnesses, unresolved mate lookups and every
-reported alternative alignment remain visible.
-
-Twelve [fictional helper and native integration controls](workflow/source-snapshots/clipped-read-controls-20260920/controls.json)
-passed with no skips on Mac Studio 512S2. They exercise exact fitting, native
-BAM/CRAM and raw VCF/BCF preservation, full-query/quality orientation, real BWA
-indexing and remapping, a planted distant alternative locus, mate deduplication,
-missing qualities and refusal paths. The receipt pins all eight executed
-source, configuration and test files.
-
-Local unit edit distance ignores base qualities and is not a genotype score.
-Missing qualities remain unavailable; hard-clipped sequence cannot be recovered.
-BWA's reported alternatives are nonexhaustive, and remap arms reuse the same
-ends. Fits and reported placements do not establish genomic origin, parental
-phase, causality or clinical benefit. This source update contains method and
-fictional-control evidence, with actual read identities, sequences and case
-outputs retained separately.
-
-## Prospective founder-cell ledger
-
-The [founder-ledger method](workflow/docs/FOUNDER-LEDGER.md) checks an adjudicated
-first-mitosis outcome table against a separately pinned roster of starting cells
-and a registry of every planned well. Missing outcomes, extra cells and descendants
-cannot silently change the primary denominator. Failed or unrun wells remain visible;
-an unavailable starting count remains unavailable.
-
-The output retains scorable and unscorable anaphases, non-entry, exit without
-anaphase, death, ongoing first mitosis and tracking loss. It reports descriptive
-counts and fractions within each recorded experimental stratum. Later outcomes
-remain secondary records, and an apparent decrease in scored errors must be read
-alongside the yield of starting cells reaching a scorable anaphase without a scored
-error. Neither quantity establishes a normal chromosome complement or functional
-rescue.
-
-The [qualification receipt](workflow/source-snapshots/founder-ledger-controls-20260920/controls.json)
-contains fictional software controls only. This source addition contains no
-laboratory observations, treatment-effect estimates, power calculations or automatic
-decisions to advance a drug. Raw-image truth, actual pretreatment freezing and the
-completeness of the starting-cell roster require separate experimental review.
-
-
-## Coding-region depth method
-
-The source snapshot now includes the fixed-gene CDS-depth method, its exact
-configuration and ten native fictional controls. The method retains explicit
-zero coverage and reference denominators, refuses unavailable mapping/base
-qualities, and reports three declared quality views. Depth alone does not call
-genotypes or establish clinical callability. The configuration contains the
-authorised sample/input identities and selected gene list; alignment data and
-case results are excluded from this source export.
-
-See the [reproduction guide](workflow/docs/CODING-DEPTH-REPRODUCTION.md) and
-[qualified fictional-control record](workflow/source-snapshots/coding-depth-controls-20260920/controls.json).
-
-
-## Native representation overlay and secondary inventory
-
-This source update adds a separately verified normalized-representation overlay
-and the native secondary-inventory adapter. Both preserve original caller lineage,
-missing FORMAT values and bounded interpretation. The overlay reuses independently
-verified observations without new read extraction; the secondary adapter retains
-exact-match strata and source provenance without treating variant-only absence as
-a reference genotype or a clinical negative.
-
-See the [overlay method](workflow/docs/ADAMTS1-NORMALIZED-OVERLAY.md),
-[secondary contract](workflow/docs/NATIVE-SECONDARY-CONTRACT.md) and
-[secondary reproduction guide](workflow/docs/NATIVE-SECONDARY-REPRODUCTION.md).
-Historical fictional controls passed in four separate suites: [overlay, 21](workflow/source-snapshots/adamts1-normalized-overlay-20260920/controls.json),
-[independent overlay checker, 23](workflow/source-snapshots/adamts1-normalized-overlay-20260920/independent-verification/controls.json),
-[secondary producer, 35](workflow/source-snapshots/native-secondary-controls-20260920/controls.json),
-and [independent secondary checker, 36](workflow/source-snapshots/native-secondary-independent-20260920/controls.json).
-These receipts qualify their stated software revisions and fictional fixtures;
-they do not supply case results or clinical validation.
-
-The exact private configurations include authorized sample/target/input identities,
-hashes and source-selection counts. Individual observations, reads and read names,
-case result payloads, clinical reports, media and internal working Git history are
-excluded. The secondary producer receipt inventories its entire historical workflow;
-this export includes only the selected source subset, not that full historical
-snapshot. Its reproduction guide explains the additional private prerequisites.
-
-
-## v26: immutable audit sources and qualification maps
-
-This source increment adds whole-reference preservation checks, public 84-gene target and guarded depth sources, independent depth verification, public nuclear-panel transformation, nuclear-assay wrappers and saved-output checks, and population-frequency field inspection. Qualified source bytes and historical fictional receipts are retained exactly.
-
-The [v26 reproduction guide](workflow/docs/V26-SOURCE-REPRODUCTION.md) links the [native layout map](workflow/docs/V26-NATIVE-RESTORATION.json) and [nine-suite qualification map](workflow/docs/V26-QUALIFICATION-MAP.json). A source clone alone lacks the private inputs/results, historical completion receipts, public resources and native runtimes needed by the fixed-layout runners. No patient observations, scientific reports or media are added. Existing pitch utilities are reused unchanged. Earlier sections remain historical release notes; this addition describes source availability, not current patient-analysis or submission status.
-
-
-## Saved-depth mapping and Sonic narration source update (v27)
-
-The private source archive now includes the guarded saved-depth interval mapper, its exact fictional qualification, generic saved-output checking and appendix derivatives, and the Sonic 3.6 synthesis/assembly sources. The [v27 reproduction notes](workflow/docs/V27-SOURCE-REPRODUCTION.md) distinguish immutable executed sources, post-run safety changes, and release adaptations. The [source and qualification map](workflow/docs/V27-SOURCE-MAP.json) records exact hashes, dependencies and restoration boundaries. This is a source-only update; it contains no new case outputs, narration manifests, media, scientific reports or submission payloads.
-
-
-## Saved public structural-variant annotation diagnostic
-
-The [residual annotation source snapshot](workflow/source-snapshots/public-sv-residual-review-20260920/README.md) retains the exact analyzer, independent VCF reader/checker, configurations, historical launch plans and separate fictional-control receipts used on 20 September 2026. It describes existing public HG002 chromosome 20 truth annotations within fixed variant classes and size bins while preserving both callers' saved decisions. It does not call variants or rerun the benchmark.
-
-The snapshot distinguishes 29 producer controls from nine narrower independent-parser/helper checks. Historical plan paths and hashes require the documented native layout and separately available inputs; a fresh clone alone is not a replay. No clinical validation or untested-caller improvement is implied.
+The [source evidence and review-depth register](workflow/track2-drug-census/evidence-stage-register/README.md) preserves the complete older 309-appraisal snapshot and an additive link to the current 310th appraisal. Original reading claims, source scopes, preparation/contrast fields and every recorded gap remain visible; byte checks do not establish efficacy or complete primary reading. Validated restoration, function and leader-competitiveness denominators remain UNKNOWN.

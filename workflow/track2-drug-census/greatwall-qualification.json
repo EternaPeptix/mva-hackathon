@@ -1,0 +1,345 @@
+{
+  "assessed_date": "2026-09-22",
+  "publication": {
+    "pmid": "20538976",
+    "pmcid": "PMC2906566",
+    "doi": "10.1073/pnas.0914191107",
+    "title": "Loss of human Greatwall results in G2 arrest and multiple mitotic defects due to deregulation of cyclin B-Cdc2/PP2A balance"
+  },
+  "source_version": "27-page author-deposited manuscript, HAL hal-00491971; not final publisher typeset PDF",
+  "source_url": "https://hal.science/hal-00491971/file/Burgess_et_al_PDF.pdf",
+  "access_depth": {
+    "main": "Complete main scientific text, Methods, references and four figure legends read; four original main figures visually inspected.",
+    "supplement": "Not obtained or read; no supplementary figure or movie inspection.",
+    "raw_data_reanalysis": false,
+    "extra_abstract_credit": 0
+  },
+  "model": {
+    "cell_line": "HeLa",
+    "perturbation": "Greatwall/MASTL siRNA",
+    "patient_bub1b_model": false,
+    "bub1b_variant_model": false
+  },
+  "drug": {
+    "name": "okadaic acid",
+    "supplier_in_paper": "Calbiochem",
+    "dose_nM": 500,
+    "timing": "Added 6 h after release from thymidine G1/S block; siRNA 24 h before synchronization.",
+    "catalog_form_lot_vehicle": "Not specified",
+    "intracellular_holoenzyme_selectivity_established": false
+  },
+  "figure3h": {
+    "endpoint": "Time from thymidine-block release to mitotic entry",
+    "imaging_interval_minutes": 10,
+    "arms": [
+      {
+        "arm": "Scrambled",
+        "mean_minutes": 620,
+        "cells": 93
+      },
+      {
+        "arm": "Scrambled + OA",
+        "mean_minutes": 575,
+        "cells": 96
+      },
+      {
+        "arm": "Greatwall siRNA",
+        "mean_minutes": 732,
+        "cells": 83
+      },
+      {
+        "arm": "Greatwall siRNA + OA",
+        "mean_minutes": 585,
+        "cells": 90
+      }
+    ],
+    "plotted_tests": [
+      {
+        "contrast": "Scrambled vs Scrambled + OA",
+        "p": 0.0139
+      },
+      {
+        "contrast": "Scrambled vs Greatwall",
+        "p": 0.0001
+      },
+      {
+        "contrast": "Greatwall vs Greatwall + OA",
+        "p": 0.0001
+      }
+    ],
+    "biological_replicates": "Not specified independently of plotted cells",
+    "censoring": "Handling of cells that never entered not fully specified",
+    "interpretation": "Drug rescues entry-timing delay and also advances control-cell entry. No equivalence test or faithful-daughter-cell percentage."
+  },
+  "figure3g": {
+    "intervention": "Genetic PP2AC depletion, not drug",
+    "single_greatwall_percent": 20,
+    "single_denominator": "Scrambled siRNA",
+    "double_greatwall_pp2ac_percent": 64,
+    "double_denominator": "PP2AC depletion alone",
+    "normalization": "phospho-CDK substrate signal normalized to beta-tubulin, then respective control",
+    "interpretation": "Partial biochemical rescue with different denominators; not common-baseline 20-to-64% drug response",
+    "pp2ac_alone_death": "Approximately 15% increase reported by authors, not OA toxicity"
+  },
+  "bubr1": {
+    "figure": "2B",
+    "measurement": "Kinetochore localization after Greatwall depletion",
+    "oa_drug_arm": false,
+    "total_protein_stability_rescue": false
+  },
+  "not_measured_in_oa_arm": [
+    "faithful chromosome segregation",
+    "viable euploid daughter-cell output",
+    "sustained clonogenic fidelity",
+    "BUBR1 protein restoration",
+    "Leu737Ter/Asn1002Lys rescue",
+    "muscle function",
+    "clinical efficacy",
+    "dose-dependent clinical therapeutic window"
+  ],
+  "prior_positive_retained": {
+    "source": "PMC4050138",
+    "dose_nM": 20,
+    "finding": "Partial visually normal completed-mitosis rescue under partial RO3306/CDK1 inhibition",
+    "report": "workflow/track2-drug-census/clearance-and-fidelity.md",
+    "distinct_from_present_500nM_experiment": true
+  },
+  "supplier_check": {
+    "url": "https://www.sigmaaldrich.com/US/en/product/mm/495604",
+    "catalog": "495604",
+    "identity": "Okadaic acid free acid, CAS 78111-17-8",
+    "study_product_match": false,
+    "clinical_product_inference": false,
+    "limits": "Current research listing; both PP1/PP2A biochemical inhibition reported, not intracellular selectivity or study-lot proof."
+  },
+  "disposition": "Additive mechanistic research comparator; no new nominee or compound count",
+  "source_sha256": {
+    "primary-hal.pdf": "3b5ff690c9ace235ed3da214d8d699e9c58ebe0ed55a8360e8cf43934e6ae325",
+    "hal-metadata.json": "c66ce9c62d71d256eb20a2b6c0c17d23d33612a35d381ac29c2603df2e5a267d"
+  },
+  "read_evidence": {
+    "main_text_chunks": [
+      "8b86b6",
+      "c23366",
+      "0ea18f"
+    ],
+    "visual_files": [
+      "main-24.png",
+      "main-25.png",
+      "main-26.png",
+      "main-27.png"
+    ],
+    "source_pages": "2-23 scientific text and legends; 24-27 figure images"
+  },
+  "failed_access": [
+    "PMC access challenge",
+    "Europe PMC full-text XML HTTP500 twice",
+    "NCBI BioC no result",
+    "PNAS conventional supplement PDF HTTP403",
+    "PNAS published supplemental index inaccessible via web tool"
+  ],
+  "raw_source_distribution": "All source PDF, extracted text and image renderings retained outside Git.",
+  "independent_appraisal_check": {
+    "report": {
+      "assessed_date": "2026-09-22",
+      "reader": "/root/revalidation_a64",
+      "result": "PASS_BOUNDED_CLAIMS",
+      "material_corrections": [],
+      "reviewed_artifacts": {
+        "appraisal.md": {
+          "sha256": "458f6f170a0f21038d5428850d99a134c398af14f3d876ddca702bfedf4eea6b",
+          "bytes": 5436
+        },
+        "evidence.json": {
+          "sha256": "4a3471389e0b8960a70821c8e4655cf64c7d64e23bdc48ae16038242bb4ebf5a",
+          "bytes": 5128
+        }
+      },
+      "source_identity": {
+        "pmid": "20538976",
+        "pmcid": "PMC2906566",
+        "doi": "10.1073/pnas.0914191107",
+        "version": "HAL hal-00491971v1 author-deposited manuscript; 27-page PDF, not final publisher typeset PDF",
+        "pdf": "primary-hal.pdf",
+        "pdf_sha256": "3b5ff690c9ace235ed3da214d8d699e9c58ebe0ed55a8360e8cf43934e6ae325"
+      },
+      "independent_read_scope": {
+        "main_text": "Complete extracted PDF pages 10, 11, 14, 15, 16, 17, 20, 21 and 22. This includes complete Methods (pages 14-17), relevant genetic/drug Results (10-11), Figure 2 legend and Figure 3 legend. It is a bounded check, not a full-paper independent reread.",
+        "original_figure_pixels": [
+          {
+            "file": "main-25.png",
+            "sha256": "9dd577dd163e23012758c05e05e66846e77a486aefb4c2a1fe732f5b7a47bf14",
+            "focus": "Figure 2, especially BUBR1/Aurora B localization arms in panel B."
+          },
+          {
+            "file": "main-26.png",
+            "sha256": "f76dccee4c2a15cf90bb5baef185078314a03ee174ec2ff1e0cfa4a84d475658",
+            "focus": "Figure 3, especially genetic normalization in G and OA entry timing, cell numbers and P brackets in H; confirmed that A-C have no OA arms."
+          }
+        ],
+        "text_files": [
+          {
+            "file": "page-10.txt",
+            "sha256": "78ceab1b7aff0ee337b84ad4fbdba867f9cda2ec5ec58bef951b9096b0c61c6a"
+          },
+          {
+            "file": "page-11.txt",
+            "sha256": "707b0df637857fcfae76a9b2714123f10fd71dd61a73b34cd3940e470f9728ba"
+          },
+          {
+            "file": "page-14.txt",
+            "sha256": "25fed375fa4b96ff2f57b5f0df608883ef5f251b6731a8ab96812cf6a6dc8cf0"
+          },
+          {
+            "file": "page-15.txt",
+            "sha256": "cd7ac7299f764afb4d6cede1cefa8f0c9d13d5f145354f8e254c5d67f88fa2ce"
+          },
+          {
+            "file": "page-16.txt",
+            "sha256": "b0a9361ce2793e3c0c31301bca4b2e8672906c401037b21b763159fb17aead6a"
+          },
+          {
+            "file": "page-17.txt",
+            "sha256": "dbda3f913f4d79c4bdd7f1b9bf0fc81b059200f7dc8fdc4f14718046820bbb54"
+          },
+          {
+            "file": "page-20.txt",
+            "sha256": "6f4e8661c461761a21863101cd05d0358f0d2eabb16a028343c7f317bf13245d"
+          },
+          {
+            "file": "page-21.txt",
+            "sha256": "abdd41e3c3e2afafd8864bcfdbc3538da2c572faa1bcf67c7741d4de9c62513f"
+          },
+          {
+            "file": "page-22.txt",
+            "sha256": "c73173030125a52004fbafe099aa37f0805a63e4262a8d91335469c51dc4dcea"
+          }
+        ],
+        "text_tool_chunks": [
+          "dbf686",
+          "64f973"
+        ],
+        "figure_tool_call": "functions.exec calls displaying original main-26.png and main-25.png via view_image",
+        "full_paper_independent_reread": false,
+        "supplement_or_movies_read": false,
+        "raw_data_reanalyzed": false,
+        "supplier_listing_independently_rechecked": false,
+        "prior_20nM_source_independently_reread": false,
+        "extra_abstract_coverage_credit": 0
+      },
+      "checks": [
+        {
+          "claim": "500 nM OA and synchronization schedule",
+          "status": "PASS",
+          "evidence": "PDF page 22 Figure 3H legend: EB3-GFP/H2B-CherryFP cells received 100 nM SC or hGwl siRNA, were synchronized with thymidine 24 h later, then treated or untreated with 500 nM OA six hours after release. Images every ten minutes. Page 14 Methods identifies Calbiochem as OA supplier.",
+          "limits": "The inspected Methods do not provide OA catalog, form, lot or stock vehicle. No treatment washout or explicit total OA exposure duration is supplied by the Figure 3H legend."
+        },
+        {
+          "claim": "Four reported mean mitotic-entry times",
+          "status": "PASS",
+          "evidence_locator": "PDF page 11 Results; independent means are text-reported, not digitized from the boxplot.",
+          "arms": [
+            {
+              "arm": "SC",
+              "reported_mean": "10 h 20 min",
+              "mean_minutes": 620,
+              "plotted_cells": 93
+            },
+            {
+              "arm": "SC + OA",
+              "reported_mean": "9 h 35 min",
+              "mean_minutes": 575,
+              "plotted_cells": 96
+            },
+            {
+              "arm": "hGwl siRNA",
+              "reported_mean": "12 h 12 min",
+              "mean_minutes": 732,
+              "plotted_cells": 83
+            },
+            {
+              "arm": "hGwl siRNA + OA",
+              "reported_mean": "9 h 45 min",
+              "mean_minutes": 585,
+              "plotted_cells": 90
+            }
+          ],
+          "limits": "OA advances entry in SC controls as well. Similar mean timing is not a demonstrated equivalence test. The plotted counts are cells, not independently identified culture replicates or percentages of all cells successfully rescued."
+        },
+        {
+          "claim": "Figure 3H P values and denominators",
+          "status": "PASS",
+          "evidence_locator": "Original Figure 3H pixels, main-26.png; caption on PDF page 22.",
+          "contrasts": [
+            {
+              "arms": [
+                "SC",
+                "SC + OA"
+              ],
+              "displayed_p": "0.0139"
+            },
+            {
+              "arms": [
+                "SC",
+                "hGwl siRNA"
+              ],
+              "displayed_p": "0.0001"
+            },
+            {
+              "arms": [
+                "hGwl siRNA",
+                "hGwl siRNA + OA"
+              ],
+              "displayed_p": "0.0001"
+            }
+          ],
+          "test": "Caption specifies two-tailed unpaired Student t-tests. No bracket establishes equality between OA-treated groups.",
+          "limits": "Caption calls the plots boxplots with 5-95% confidence intervals; no raw-data recalculation or correction of that source terminology was attempted. Handling of non-entering cells and independent experiment counts remain incompletely specified in inspected material."
+        },
+        {
+          "claim": "20% versus 64% biochemical normalization",
+          "status": "PASS",
+          "evidence_locator": "PDF page 22 Figure 3G legend and original panel G on main-26.png; related Results pages 10-11.",
+          "values": [
+            {
+              "arm": "hGwl siRNA",
+              "percent": 20,
+              "denominator": "SC siRNA, set to 100%"
+            },
+            {
+              "arm": "PP2AC + hGwl siRNA",
+              "percent": 64,
+              "denominator": "PP2AC siRNA alone, separately set to 100%"
+            }
+          ],
+          "normalization": "Phospho-serine CDK-substrate signal equalized against beta-tubulin before comparison with each respective baseline.",
+          "limits": "These are genetic depletion arms, not OA treatments; 20-to-64 is not a common-baseline drug response or a functional rescue probability. Results attribute an approximately 15% cell-death increase to PP2A depletion, not to OA."
+        },
+        {
+          "claim": "Mitotic entry is distinct from completed faithful division",
+          "status": "PASS",
+          "evidence": "Figure 3H legend scores entry by DNA condensation and cell detachment. General live-imaging Methods additionally describe spindle appearance, condensed chromosomes, nucleolus loss and cell rounding. Figure 3H reports entry time, with no drug-arm completed-division or daughter-karyotype denominator. Figure 3A-C contain SC/Gwl knockdown dose arms, not OA rescue arms.",
+          "limits": "The result supports chemical rescue of entry delay in MASTL-depleted HeLa cells. It does not establish restored segregation fidelity, viable euploid descendants or durable productive proliferation."
+        },
+        {
+          "claim": "BUBR1 measurement does not establish drug restoration",
+          "status": "PASS",
+          "evidence": "Figure 2B pixels and caption (PDF page 20; main-25.png) compare scrambled versus hGwl siRNA cells stained for BUBR1 or Aurora B with DNA. There is no OA arm.",
+          "limits": "Localization after Gwl depletion is not a measurement of OA-mediated total BUBR1 abundance, stability or rescue of a BUB1B variant."
+        },
+        {
+          "claim": "Distinct prior 20 nM positive and manuscript reading limits retained",
+          "status": "PASS_WITH_SCOPE_LIMIT",
+          "evidence": "Both current appraisal artifacts explicitly keep the prior 20 nM OA/partial-CDK1-inhibition completed-mitosis result separate from this 500 nM entry-timing experiment; they state that supplement and movies were not obtained.",
+          "limits": "This independent check confirms preservation and nonconflation of the prior claim, not its source-level revalidation. The current manufacturer listing and broader full-main reading declaration belong to the root reader, not to this bounded independent check."
+        }
+      ],
+      "interpretive_conclusion": "No material scientific overclaim identified in the checked appraisal/evidence version. Retain a genuine chemical entry-timing rescue while preserving the different genetic denominators, control-cell acceleration, unread supplement boundary and lack of demonstrated BUB1B or faithful-daughter rescue.",
+      "repository_or_parent_artifacts_modified": false,
+      "allowed_output": "independent-check.json"
+    },
+    "external_file": "independent-check.json",
+    "sha256": "f9ed3325592a7929ec6edc01433422d7988f08bba1c7811d265366a2c1643e78"
+  },
+  "integration_status": "Integrated original assessment; raw source material remains outside Git; no extra abstract credit."
+}

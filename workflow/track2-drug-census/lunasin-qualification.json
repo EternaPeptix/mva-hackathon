@@ -1,0 +1,117 @@
+{
+  "assessed_date": "2026-09-28",
+  "compound": "lunasin",
+  "extra_outer_abstract_credit": 0,
+  "biological_replication": false,
+  "source_pmid": "21526452",
+  "source_doi": "10.1080/01635581.2011.539312",
+  "positive": {
+    "intervention": "Synthetic lunasin peptide, supplied by Soy Labs",
+    "dose_micromolar": 2,
+    "duration_hours": 24,
+    "control": "PBS",
+    "model": "Non-tumorigenic RWPE-1 prostate epithelial cells; RWPE-2 comparison",
+    "BUB1B_fold_change": 2.23,
+    "assay": "Microarray, Table2",
+    "independent_BUB1B_PCR": false,
+    "BUBR1_protein": false,
+    "BUB1B_specific_CI_or_adjusted_p": "not supplied",
+    "fidelity_or_muscle_rescue": false
+  },
+  "mechanism_limit": "THBS1 and histone-acetylation experiments are not BUB1B-specific promoter/protein/function validation. Confirmed four genes exclude BUB1B.",
+  "geo_reanalysis": {
+    "accession": "GSE2992",
+    "output": "lunasin-gse2992-reanalysis.json",
+    "source_manifest": "lunasin-gse2992-source-manifest.json",
+    "script": "reanalyze_lunasin_gse2992.py",
+    "rwpe1_ratio": 2.2290621281270586,
+    "rwpe2_ratio": 1.2520286835927839,
+    "published_rwpe1_table2_fold_change": 2.23,
+    "same_source_arrays_likely": true,
+    "independent_biological_replication": false,
+    "geo_citation_missing": true,
+    "paper_accession_linkage": "Inferred from matching title/topic, authors, cell lines, concentration and duration; GEO does not explicitly cite PMID 21526452.",
+    "raw_cel_files_reprocessed": false,
+    "inferential_test": null
+  },
+  "disposition": "Retain food-derived transcript-restoration research reserve. Processed GEO values reproduce the published RWPE-1 fold change, but no MVA functional efficacy or basis to replace provisional nominees is established; no consumer-soy or supplement equivalence.",
+  "human": {
+    "plasma_evidence_tier": "Complete2020conferenceabstract",
+    "n": 31,
+    "reported_extract_mg_day": 335,
+    "reported_lunasin_mg_day": 50,
+    "weeks": 8,
+    "assay": "Fasting plasma ELISA",
+    "range_ng_ml": [
+      0,
+      10
+    ],
+    "intact_active_muscle_exposure_established": false,
+    "maximum_elisa_value_if_intact_5_5_kda_nanomolar": 1.818,
+    "nominal_culture_concentration_nanomolar": 2000,
+    "approximate_cross_matrix_concentration_ratio": 1100,
+    "comparison_limit": "Arithmetic scale check only; plasma ELISA does not establish intact active lunasin and plasma is not culture medium or muscle intracellular exposure.",
+    "cardiometabolic_trial": "PMID30955400 completeprimaryabstract only; no significant measured benefits; possible samecohort as plasmaabstract, not independent replication",
+    "ALS_trial": "PMID30663902 completeprimaryabstract only;50 participants, openlabel/historicalcontrols; no significant histoneacetylation or progression effect; not a test of MVA"
+  },
+  "original_expression_caution": {
+    "source": "https://doi.org/10.1038/8676",
+    "pmid": "10331812",
+    "reading_depth": "Publisher abstract",
+    "intervention": "GFP-lunasin genetic expression",
+    "result": "Mitotic/spindle/chromosome disruption and cell death",
+    "limit": "Not evidence that administered peptide or oral soy causes these effects"
+  },
+  "current_nominees": "Niacin/restoration and apitegromab/compensation remain provisional and unproved in MVA; exposure and functional gates apply equally.",
+  "sources": [
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE2nnn/GSE2992/matrix/GSE2992_series_matrix.txt.gz",
+      "external_file": "GSE2992_series_matrix.txt.gz",
+      "bytes": 831055,
+      "sha256": "e6745b7d18799779a0141b6ece520cce1a42eaa931b802bc33175db98561d04f",
+      "reading_depth": "Processed matrix reanalyzed for the BUB1B probe; raw CEL files not independently reprocessed; one array per condition"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL96&targ=self&form=text&view=full",
+      "external_file": null,
+      "bytes": 46608806,
+      "sha256": "34e01f9a175dc3927f8bd0f8301b164dcb6540ba26ffa360540ae597a360752c",
+      "reading_depth": "Official full platform annotation streamed; unique 203755_at row maps to BUB1B/Entrez 701; source not retained locally"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3210036/",
+      "external_file": "primary-pmc.html",
+      "bytes": 215827,
+      "sha256": "682160a9c560d31d2f33df3ed9fcc1b1f5c78150245d63f2945805fef52fc7f3",
+      "reading_depth": "Full maintext,Tables1/2,allcaptions;Figures1/6inspected; otherimages/rawdata notindependentlyanalyzed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7258671/",
+      "external_file": "plasma-conference.html",
+      "bytes": 92983,
+      "sha256": "431c860d130c41f47363f5fb01a5a3f66ec4e2f8c7f7c6d166db9fc7a5a299fd",
+      "reading_depth": "Completeconferenceabstract"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30955400/",
+      "external_file": "30955400-metadata.json",
+      "bytes": 11494,
+      "sha256": "3d4fdbdd33707e6861b39c16d08f68e325789f1fe3eb05a602a28b2c924cea44",
+      "reading_depth": "Completeprimaryabstractonly"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30663902/",
+      "external_file": "30663902-metadata.json",
+      "bytes": 10135,
+      "sha256": "3afc53284322d028840e73d0d9657a6b3b2dff65f9e0485d1ce6df76d62fcfb5",
+      "reading_depth": "Completeprimaryabstractonly"
+    }
+  ],
+  "independent_source_check": {
+    "type": "Separate delegated source check; not blinded to project context or whole-proposal score",
+    "external_file": "ms023/lunasin-independent-check.json",
+    "sha256": "6e217d3bd093357313903b449ae8d30d6e324deda677fa163390bea4ee2005e8",
+    "result": "Agrees on2.23-foldtranscriptpositive, absentBUBR1/fidelity/muscleproof and exposurelimits"
+  },
+  "recovered_from": "False BSP/bisulfitePCR alias hit in SGC overlay; not bromosporine evidence"
+}

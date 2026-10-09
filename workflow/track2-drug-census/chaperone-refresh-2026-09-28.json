@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-09-28",
+  "status": "REFRESHED_QUERY_DELTA_SCREEN_NO_CANDIDATE_PROMOTION",
+  "query": {
+    "provider": "Europe PMC REST API",
+    "expression": "(BUB1B OR BUBR1) AND (HSP70 OR HSPA1A OR HSPA8 OR HSP90 OR HSF1 OR chaperone OR proteostasis)",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28BUB1B+OR+BUBR1%29+AND+%28HSP70+OR+HSPA1A+OR+HSPA8+OR+HSP90+OR+HSF1+OR+chaperone+OR+proteostasis%29&format=json&resultType=core&pageSize=1000",
+    "hit_count": 878,
+    "returned_records": 878,
+    "abstracts_in_core_response": 842,
+    "full_text_ids_in_core_response": 873,
+    "response_file": "chaperone-bridge-epmc-page1000.json",
+    "response_sha256": "01a2c73af5bd9ac5fd81cfab4048ba51ef0cd278e632a923add2a0ae19fca0e4"
+  },
+  "baseline_comparison": {
+    "date": "2026-09-21",
+    "unrestricted_gene_corpus_records": 7362,
+    "unrestricted_gene_corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+    "overlap_source_id_pairs": 871,
+    "publication_date_warning": "New to the saved snapshot does not mean published after 2026-09-21; indexing can change.",
+    "new_source_id_pairs_absent_from_snapshot": 7,
+    "duplicate_index_records_already_in_snapshot": 2,
+    "new_unique_paper_identities": 5,
+    "duplicate_source_id_pairs": [
+      {
+        "source": "MED",
+        "id": "42760281",
+        "duplicate_of_baseline": {
+          "source": "PMC",
+          "id": "PMC13588816"
+        },
+        "match_basis": [
+          "title"
+        ]
+      },
+      {
+        "source": "MED",
+        "id": "42749449",
+        "duplicate_of_baseline": {
+          "source": "PMC",
+          "id": "PMC13446096"
+        },
+        "match_basis": [
+          "title"
+        ]
+      }
+    ]
+  },
+  "new_records": [
+    {
+      "source": "MED",
+      "id": "42760281",
+      "pmid": "42760281",
+      "doi": "10.1038/s41392-026-02940-w",
+      "title": "Chromosomal instability in cancer: sources, consequences and new therapeutic opportunities",
+      "role": "Review; no new compound-level BUBR1 intervention identified in this pass.",
+      "duplicate_of_baseline": {
+        "source": "PMC",
+        "id": "PMC13588816"
+      }
+    },
+    {
+      "source": "PMC",
+      "id": "PMC13604813",
+      "doi": "10.3390/biom16091252",
+      "title": "Uremic Serum Alters Gene Expression Profiles and Signaling Pathway Activity in Porcine Arterial Smooth Muscle Cells",
+      "role": "Mixed serum exposure; BUB1B transcript decreases with cell-cycle/chaperone program. No discrete drug."
+    },
+    {
+      "source": "PMC",
+      "id": "PMC13609810",
+      "doi": "10.3390/medicina62091810",
+      "title": "The Meiotic Spindle, Mechanisms of Chromosome Segregation and Aneuploidy in Aging Human Oocytes: An Update Review",
+      "role": "Review; no new primary drug\u2013BUBR1 experiment qualified."
+    },
+    {
+      "source": "PMC",
+      "id": "PMC13602669",
+      "doi": "10.1186/s12917-026-05835-8",
+      "title": "Transcriptome profiling analysis of heat-adapted and heat-sensitive breeder hen jejunal mucosal tissues in response to acute heat stress",
+      "role": "Heat-stress group comparison; BUB1B/HSP genes are expression/pathway observations, not compound treatment."
+    },
+    {
+      "source": "PMC",
+      "id": "PMC13605071",
+      "doi": "10.3390/cimb48090959",
+      "title": "Endocrine and Molecular Mechanisms of Oocyte Aging: From Gonadotropin Signaling to Metabolic and Microenvironmental Dysfunction",
+      "role": "Review; no new primary drug\u2013BUBR1 experiment qualified."
+    },
+    {
+      "source": "MED",
+      "id": "42749449",
+      "pmid": "42749449",
+      "doi": "10.1016/j.jgeb.2026.100779",
+      "title": "From COPD and asthma to lung cancer: potential candidate genes and their associated biological pathways for the incidence risk of lung cancer",
+      "role": "Bioinformatic prediction; no administered compound.",
+      "duplicate_of_baseline": {
+        "source": "PMC",
+        "id": "PMC13446096"
+      }
+    },
+    {
+      "source": "PMC",
+      "id": "PMC13604568",
+      "pmid": "42792641",
+      "doi": "10.3390/biomedicines14091898",
+      "title": "Rewiring of Molecular Networks Induced by the Combination of Loratadine, Raloxifene, and Sorafenib Leads to the Identification of Clinically Relevant Therapeutic Targets in Hepatocellular Carcinoma",
+      "role": "Three-drug combination in HuH7 cancer cells; BUB1B is listed among treatment-associated cell-cycle transcripts, but direction and gene-specific effect are not reported in the main text. No MVA rescue."
+    }
+  ],
+  "specific_catalog_alias_hits": [
+    {
+      "source_id": "PMC13604568",
+      "catalog_id": "CHEMBL998",
+      "name": "loratadine",
+      "role": "co-mentioned combination ingredient"
+    },
+    {
+      "source_id": "PMC13604568",
+      "catalog_id": "CHEMBL81",
+      "name": "raloxifene",
+      "role": "co-mentioned combination ingredient"
+    },
+    {
+      "source_id": "PMC13604568",
+      "catalog_id": "CHEMBL1336",
+      "name": "sorafenib",
+      "role": "co-mentioned combination ingredient"
+    }
+  ],
+  "lrs_study": {
+    "pmid": "42792641",
+    "pmcid": "PMC13604568",
+    "doi": "10.3390/biomedicines14091898",
+    "model": "HuH7 hepatocellular carcinoma cell line",
+    "intervention": "loratadine + raloxifene + sorafenib at the study's previously determined IC20 concentrations for 72 hours",
+    "assay_replicates": {
+      "transcript_microarray": 4,
+      "proteomics": 3,
+      "metabolomics": 6
+    },
+    "bub1b_result": {
+      "reported_as": "included in Table 8's treatment-associated cell-cycle differentially expressed transcript list",
+      "direction": "UNKNOWN_FROM_MAIN_TEXT",
+      "effect_size": null,
+      "gene_specific_adjusted_p": null,
+      "protein_or_functional_followup": "Not reported as a BUBR1-specific result in the main article text; proteomic supplement not obtained.",
+      "bub1b_dependency": false
+    },
+    "not_tested_or_not_established": [
+      "BUB1B-mutant or MVA model",
+      "checkpoint restoration",
+      "live chromosome segregation fidelity",
+      "skeletal-muscle output or renewal",
+      "individual ingredient attribution"
+    ],
+    "data_availability": "Article states raw and analyzed data are available from the corresponding author on request; no public accession was cited in the reviewed text.",
+    "supplement_retrieved": false
+  },
+  "reading_scope": {
+    "all_seven_titles_and_available_abstracts_screened": true,
+    "five_pmc_full_text_xml_files_retrieved": true,
+    "entire_main_texts_of_all_seven_read": false,
+    "targeted_lrs_methods_results_discussion_and_data_statement_read": true,
+    "supplement_or_raw_data_retrieved": false,
+    "independent_review": false
+  },
+  "competitive_consequence": {
+    "new_candidate": false,
+    "nomination_change": false,
+    "curated_appraisal_count_change": 0,
+    "current_curated_appraisals": 282,
+    "interpretation": "A new combination-level cancer-cell transcript association is retained as source-level context. It does not establish a useful BUBR1 direction, MVA rescue, single-ingredient effect, or comparative efficacy against current nominees."
+  },
+  "external_source_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/chaperone-corpus-followup-20260928/source-manifest.json",
+  "external_source_manifest_sha256": "8ca0ca5491c5c24924d3fa00899e0863f6a2244bb73ae56407bcafc7fc55b6c4",
+  "unique_new_papers": [
+    {
+      "source": "PMC",
+      "id": "PMC13604813",
+      "doi": "10.3390/biom16091252",
+      "title": "Uremic Serum Alters Gene Expression Profiles and Signaling Pathway Activity in Porcine Arterial Smooth Muscle Cells",
+      "role": "Mixed serum exposure; BUB1B transcript decreases with cell-cycle/chaperone program. No discrete drug."
+    },
+    {
+      "source": "PMC",
+      "id": "PMC13609810",
+      "doi": "10.3390/medicina62091810",
+      "title": "The Meiotic Spindle, Mechanisms of Chromosome Segregation and Aneuploidy in Aging Human Oocytes: An Update Review",
+      "role": "Review; no new primary drug\u2013BUBR1 experiment qualified."
+    },
+    {
+      "source": "PMC",
+      "id": "PMC13602669",
+      "doi": "10.1186/s12917-026-05835-8",
+      "title": "Transcriptome profiling analysis of heat-adapted and heat-sensitive breeder hen jejunal mucosal tissues in response to acute heat stress",
+      "role": "Heat-stress group comparison; BUB1B/HSP genes are expression/pathway observations, not compound treatment."
+    },
+    {
+      "source": "PMC",
+      "id": "PMC13605071",
+      "doi": "10.3390/cimb48090959",
+      "title": "Endocrine and Molecular Mechanisms of Oocyte Aging: From Gonadotropin Signaling to Metabolic and Microenvironmental Dysfunction",
+      "role": "Review; no new primary drug\u2013BUBR1 experiment qualified."
+    },
+    {
+      "source": "PMC",
+      "id": "PMC13604568",
+      "pmid": "42792641",
+      "doi": "10.3390/biomedicines14091898",
+      "title": "Rewiring of Molecular Networks Induced by the Combination of Loratadine, Raloxifene, and Sorafenib Leads to the Identification of Clinically Relevant Therapeutic Targets in Hepatocellular Carcinoma",
+      "role": "Three-drug combination in HuH7 cancer cells; BUB1B is listed among treatment-associated cell-cycle transcripts, but direction and gene-specific effect are not reported in the main text. No MVA rescue."
+    }
+  ]
+}

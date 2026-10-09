@@ -1,0 +1,209 @@
+{
+  "scope": "Two worked sequence-to-mechanism-to-route examples: the existing BUB1B research hypothesis and an explicitly synthetic TRIP13 homozygous genotype from public literature. No second patient was analyzed, and no drug response was measured.",
+  "cases": [
+    {
+      "id": "bub1b-existing-hypothesis",
+      "input_type": "existing hypothesis reconstructed from public reference sequence",
+      "gene": "BUB1B",
+      "genotype": "Two heterozygous coding SNVs; trans hypothesis, phase unresolved",
+      "transcript": "NM_001211.6",
+      "cds_length_nt": 3153,
+      "reference_protein_length_aa": 1050,
+      "sequence_checks": "RefSeq translation and complete Ensembl CDS agree",
+      "variants": {
+        "c.2210T>G": {
+          "coding_hgvs": "c.2210T>G",
+          "protein_hgvs": "p.(Leu737Ter)",
+          "reference_codon": "TTA",
+          "alternate_codon": "TGA",
+          "consequence": "stop_gained",
+          "protein_length_if_translated": 736,
+          "full_length_sequence_possible": false,
+          "stop_end_to_final_junction_nt": 746,
+          "positional_nmd_prediction": true,
+          "nmd_limit": "Positional >50 nt rule only; not a measurement of RNA decay."
+        },
+        "c.3006T>G": {
+          "coding_hgvs": "c.3006T>G",
+          "protein_hgvs": "p.(Asn1002Lys)",
+          "reference_codon": "AAT",
+          "alternate_codon": "AAG",
+          "consequence": "missense",
+          "protein_length_if_translated": 1050,
+          "full_length_sequence_possible": true,
+          "stop_end_to_final_junction_nt": -196,
+          "positional_nmd_prediction": false,
+          "nmd_limit": "Positional >50 nt rule only; not a measurement of RNA decay."
+        }
+      },
+      "mechanism": "BUBR1 insufficiency is supported for selected MVA1 alleles. The actual N1002K abundance/function and phase remain unmeasured.",
+      "mechanism_evidence_type": "Human-curated primary-source assertions, not inferred from sequence",
+      "source_ids": [
+        "suijkerbuijk2010",
+        "north2014",
+        "pirinen2020"
+      ],
+      "routes": [
+        {
+          "route": "Niacin / NAD-SIRT2-BUBR1 stabilization",
+          "status": "conditional_research_route",
+          "gates": [
+            {
+              "gate": "causal_protein_matches_stabilization_target",
+              "state": true,
+              "basis": "Conditional on the proposed pair, the affected protein is BUBR1; selected human MVA1 mutants show abundance defects (Suijkerbuijk 2010)."
+            },
+            {
+              "gate": "full_length_canonical_product_possible",
+              "state": true,
+              "basis": "Computed canonical products; protein abundance and activity remain unmeasured."
+            },
+            {
+              "gate": "proximal_pathway_to_target_bridge",
+              "state": true,
+              "basis": "North 2014 supplies an NMN/SIRT2-to-BUBR1 bridge; Pirinen 2020 supplies niacin-to-human-muscle-NAD engagement. Joining these interventions is a hypothesis, not niacin/BUB1B rescue."
+            }
+          ],
+          "clinical_recommendation": false,
+          "phase_constraint": "Resolve trans; confirmed cis retires the proposed pair.",
+          "required_next_evidence": "Confirm trans and an abundance-limited, functional N1002K substrate; measure niacin exposure, NAD/SIRT2 engagement, BUBR1 mediation, segregation fidelity and productive muscle output. A full-length sequence is not a functional protein measurement."
+        },
+        {
+          "route": "Arimoclomol / proteostasis restoration",
+          "status": "evidence_gap",
+          "gates": [
+            {
+              "gate": "full_length_canonical_product_possible",
+              "state": true,
+              "basis": "Computed canonical products; protein abundance and activity remain unmeasured."
+            },
+            {
+              "gate": "actual_mutant_rescued_by_drug_at_relevant_exposure",
+              "state": null,
+              "basis": "No N1002K/arimoclomol rescue supplied. HSP90 dependence of selected BUBR1 mutants does not establish rescue by this medicine."
+            }
+          ],
+          "clinical_recommendation": false,
+          "phase_constraint": "Resolve trans; confirmed cis retires the proposed pair.",
+          "required_next_evidence": "Demonstrate actual-mutant function at justified exposure before promoting proteostasis support beyond a reserve hypothesis."
+        },
+        {
+          "route": "Everolimus / mTORC1 probe",
+          "status": "evidence_gap",
+          "gates": [
+            {
+              "gate": "harmful_excess_mtorc1_in_relevant_model",
+              "state": null,
+              "basis": "Current proposal has only qualitative carrier-mouse phosphoprotein bands and no confirming muscle RNA result; no affected/corrected human model establishes harmful excess."
+            },
+            {
+              "gate": "normalization_preserves_productive_tissue_output",
+              "state": null,
+              "basis": "No drug or genetic-normalization experiment has measured productive output in the proposed model."
+            }
+          ],
+          "clinical_recommendation": false,
+          "phase_constraint": "Resolve trans; confirmed cis retires the proposed pair.",
+          "required_next_evidence": "Qualify harmful excess and causal partial normalization first; then measure drug engagement, tissue output and renewal. Keep as a probe, not an automatically transferred rescue."
+        }
+      ],
+      "clinical_lead": null
+    },
+    {
+      "id": "trip13-public-synthetic",
+      "input_type": "synthetic homozygous public genotype; no patient phenotype or reads",
+      "gene": "TRIP13",
+      "genotype": "c.[1060C>T];[1060C>T] is stipulated for this example",
+      "transcript": "NM_004237.4",
+      "cds_length_nt": 1299,
+      "reference_protein_length_aa": 432,
+      "sequence_checks": "RefSeq translation and complete Ensembl CDS agree",
+      "variants": {
+        "c.1060C>T": {
+          "coding_hgvs": "c.1060C>T",
+          "protein_hgvs": "p.(Arg354Ter)",
+          "reference_codon": "CGA",
+          "alternate_codon": "TGA",
+          "consequence": "stop_gained",
+          "protein_length_if_translated": 353,
+          "full_length_sequence_possible": false,
+          "stop_end_to_final_junction_nt": 141,
+          "positional_nmd_prediction": true,
+          "nmd_limit": "Positional >50 nt rule only; not a measurement of RNA decay."
+        }
+      },
+      "mechanism": "Published Arg354Ter cells lacked detectable TRIP13 and had checkpoint/segregation defects rescued by WT TRIP13; mutant rescue failed. MAD2 remodeling supplies a distinct checkpoint mechanism.",
+      "mechanism_evidence_type": "Human-curated primary-source assertions, not inferred from sequence",
+      "source_ids": [
+        "yost2017",
+        "kim2018",
+        "clinvar431045"
+      ],
+      "routes": [
+        {
+          "route": "Niacin / NAD-SIRT2-BUBR1 stabilization",
+          "status": "not_transferred",
+          "gates": [
+            {
+              "gate": "causal_protein_matches_stabilization_target",
+              "state": false,
+              "basis": "The sequence lesion and published genetic rescue concern TRIP13, not BUBR1. A shared checkpoint phenotype does not establish that raising BUBR1 substitutes for TRIP13."
+            },
+            {
+              "gate": "full_length_canonical_product_possible",
+              "state": false,
+              "basis": "Computed canonical products; protein abundance and activity remain unmeasured."
+            },
+            {
+              "gate": "proximal_pathway_to_target_bridge",
+              "state": null,
+              "basis": "The bounded source set supplies no NAD/SIRT2-to-TRIP13 rescue or validated BUBR1 bypass."
+            }
+          ],
+          "clinical_recommendation": false,
+          "phase_constraint": "Homozygosity is stipulated for the synthetic example, not observed here.",
+          "required_next_evidence": "Test TRIP13-specific correction and successful chromosome segregation as a positive control; a BUBR1 bypass would require direct evidence. Non-transfer is an evidence decision, not proof that a bypass is impossible."
+        },
+        {
+          "route": "Arimoclomol / proteostasis restoration",
+          "status": "not_transferred",
+          "gates": [
+            {
+              "gate": "full_length_canonical_product_possible",
+              "state": false,
+              "basis": "Computed canonical products; protein abundance and activity remain unmeasured."
+            },
+            {
+              "gate": "actual_mutant_rescued_by_drug_at_relevant_exposure",
+              "state": null,
+              "basis": "Published WT rescue does not show pharmacological rescue of Arg354Ter; its expressed mutant failed checkpoint rescue."
+            }
+          ],
+          "clinical_recommendation": false,
+          "phase_constraint": "Homozygosity is stipulated for the synthetic example, not observed here.",
+          "required_next_evidence": "Any truncation-rescue or readthrough mechanism needs its own transcript, protein-function and exposure evidence. It is not the full-length missense-stabilization route transferred from BUB1B."
+        },
+        {
+          "route": "Everolimus / mTORC1 probe",
+          "status": "evidence_gap",
+          "gates": [
+            {
+              "gate": "harmful_excess_mtorc1_in_relevant_model",
+              "state": null,
+              "basis": "No TRIP13-genotype-specific harmful mTORC1 excess is established by the selected primary sources."
+            },
+            {
+              "gate": "normalization_preserves_productive_tissue_output",
+              "state": null,
+              "basis": "No relevant output-preserving rescue is supplied."
+            }
+          ],
+          "clinical_recommendation": false,
+          "phase_constraint": "Homozygosity is stipulated for the synthetic example, not observed here.",
+          "required_next_evidence": "Establish a relevant causal signaling abnormality and functional rescue before nominating this downstream drug. Shared MVA labeling is insufficient."
+        }
+      ],
+      "clinical_lead": null
+    }
+  ]
+}

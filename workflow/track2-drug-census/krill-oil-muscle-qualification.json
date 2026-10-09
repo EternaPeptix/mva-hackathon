@@ -1,0 +1,631 @@
+{
+  "schema_version": 1,
+  "status": "INDEPENDENT_SOURCE_REVIEW_ACCEPTED",
+  "source_qualification": {
+    "schema_version": "krill-oil-muscle-primary-v1",
+    "prepared_utc": "2026-09-28T00:37:41.271841+00:00",
+    "status": "FROZEN_SOURCE_QUALIFICATION_PENDING_INDEPENDENT_REVIEW_NOT_ADMITTED",
+    "baseline_history": {
+      "start": "8251103f7fd7f26e7d591fb325c60967a4f3d487",
+      "at_freeze": "ccf7ff8ed64485bd7867c46a2d7c9f5e0426b57f",
+      "assessments": 279,
+      "krill_exact_identity_absent_at_both_checks": true
+    },
+    "discovery": {
+      "batch": "08",
+      "order": 41,
+      "pmid": "41344001",
+      "role": "Same-cohort secondary report led to parent retrieval",
+      "new_original_queue_screen_credit": 0
+    },
+    "parent": {
+      "pmid": "35504165",
+      "doi": "10.1016/j.clnu.2022.04.007",
+      "registry": "NCT04048096",
+      "publication": "Clinical Nutrition2022;41:1228–1235",
+      "main_pages": 8,
+      "full_main_read": true,
+      "native_tables_read": 4,
+      "native_figures_read": 2
+    },
+    "preparation": {
+      "name": "SuperbaBoost krill oil",
+      "manufacturer": "Aker Biomarine Antarctic AS, Lysaker, Norway",
+      "oil_g_day": 4,
+      "capsules_g_each": 1,
+      "capsules_day": 4,
+      "schedule": "Two capsules with lunch and two with dinner",
+      "duration_months": 6,
+      "per_g_mg": {
+        "LCn3_PUFA": 322,
+        "EPA": 193,
+        "DHA": 96,
+        "choline": 79
+      },
+      "daily_mg_by_simple_dose_multiplication": {
+        "LCn3_PUFA": 1288,
+        "EPA": 772,
+        "DHA": 384,
+        "choline": 316
+      },
+      "chemical_form": "Krill mixture. Introduction states krill oil generally has>40% of LCn3PUFA in phospholipid form, but no exact trial-batch phospholipid fraction/form distribution verified.",
+      "astaxanthin_dose": "UNKNOWN; mentioned generally, not quantified for study batch",
+      "excipients": "UNKNOWN",
+      "independent_batch_assay_purity_oxidation": "UNKNOWN",
+      "current_retail_equivalence": false,
+      "free_EPA_equivalence": false,
+      "Lovaza_equivalence": false,
+      "approved_medicine_equivalence": false,
+      "ingredient_specific_effect": "Not separable among oil components"
+    },
+    "control": {
+      "oil_g_day": 4,
+      "mixture": "Extra-virgin cold-pressed olive oil, refined maize oil, refined palm-kernel oil, medium-chain triglycerides",
+      "ratio": [
+        4,
+        4,
+        3,
+        2
+      ],
+      "LCn3_PUFA_mg_g": 4,
+      "EPA_and_DHA_mg_g": "<1 as reported",
+      "blinding": "Capsules described identical in look and taste; blinding success not assessed",
+      "supplier": "Aker supplied both oils"
+    },
+    "design_population": {
+      "parallel_randomized": true,
+      "allocation": "Independent colleague using sealedenvelope.com, intended1:1 after baseline",
+      "blinding": "Main double-blind, assessor/statistics blinded; registry triple participant/investigator/assessor",
+      "population": "Healthy community-dwelling older adults in Glasgow, age above65/BMI<35/<1h structured exercise weekly; no probable/confirmed/severe sarcopenia under authors description",
+      "disease_pediatric_MVA_population": false,
+      "maintained_diet_activity": true,
+      "training_intervention": false,
+      "timepoints": [
+        "baseline",
+        "6weeks",
+        "6months"
+      ],
+      "flow": {
+        "page": 4,
+        "screened": 120,
+        "excluded_before_randomization": 18,
+        "randomized": 102,
+        "allocated_received": {
+          "krill": 53,
+          "control": 49
+        },
+        "lost_followup": {
+          "krill": 2,
+          "control": 2
+        },
+        "lost_reasons": {
+          "krill": "Issues swallowing capsules, health issues; individual counts per reason not specified",
+          "control": "Lost interest, health issues; individual counts per reason not specified"
+        },
+        "covid_analysis_exclusions": {
+          "krill": 2,
+          "control": 2
+        },
+        "analyzed": {
+          "krill": 49,
+          "control": 45
+        },
+        "table_specific_denominators": "Not restated for individual outcomes/timepoints."
+      },
+      "analysis_limit": "Main labels ITT but flow94/102 analyzed. No imputation or full102 sensitivity described; per-endpoint n not separately supplied. Subgroup explicitly94 complete data."
+    },
+    "hierarchy": {
+      "main_primary": "Knee-extensor muscle strength change baseline-to6months",
+      "main_secondary": [
+        "grip strength",
+        "vastus lateralis thickness",
+        "SPPB",
+        "blood lipids",
+        "fasting glucose",
+        "CRP",
+        "erythrocyte fatty-acid profiles"
+      ],
+      "main_all_other_outcomes": "Exploratory perMethods2.4",
+      "registry_secondary_additions": [
+        "bodyfat",
+        "leanmass"
+      ],
+      "abstract_neuromuscular_label": "Secondary in abstract, exploratory under main Methods definition",
+      "multiplicity": "Bonferroni post-hoc t-tests after significant repeated-measures ANOVA interactions; no overall family correction across secondary/exploratory endpoints described.",
+      "preregistration": "Start2018-03-07; firstsubmit2019-07-26/firstpost2019-08-07; prospective pre-recruitment hierarchy not established; current record only."
+    },
+    "analysis": "Two-way repeated-measures ANOVA time/group/time*group, normality/skewness checked, baseline unpaired t-tests; no baseline-covariate ANCOVA described.",
+    "parent_outcomes": [
+      {
+        "outcome": "Knee extensor maximal torque",
+        "reported_6mo_treatment_effect_percent": 9.3,
+        "ci95": [
+          2.8,
+          15.8
+        ],
+        "control_change_percent_mean_sd": [
+          -2.2,
+          14.1
+        ],
+        "krill_change_percent_mean_sd": [
+          7.1,
+          17.2
+        ],
+        "source": "Results3.2/p1231; Fig2"
+      },
+      {
+        "outcome": "Grip strength",
+        "reported_6mo_treatment_effect_percent": 10.9,
+        "ci95": [
+          8.3,
+          13.6
+        ],
+        "control_change_percent_mean_sd": [
+          -2.1,
+          6.2
+        ],
+        "krill_change_percent_mean_sd": [
+          8.8,
+          7.2
+        ],
+        "discussion_reported_absolute_effect_kg": 3.4,
+        "absolute_effect_ci": "Not given",
+        "source": "Results3.3/p1231; discussionp1232; Fig2"
+      },
+      {
+        "outcome": "Vastus lateralis thickness",
+        "reported_6mo_treatment_effect_percent": 3.5,
+        "ci95": [
+          2.1,
+          4.9
+        ],
+        "control_change_percent_mean_sd": [
+          0.05,
+          1.1
+        ],
+        "krill_change_percent_mean_sd": [
+          3.5,
+          4.5
+        ],
+        "source": "Results3.4/pp1231-1232; Fig2"
+      },
+      {
+        "outcome": "M-wave",
+        "results_reported_6mo_treatment_effect_percent": 25.4,
+        "ci95": [
+          12.7,
+          38.1
+        ],
+        "control_change_percent_mean_sd": [
+          -8.1,
+          23.6
+        ],
+        "krill_change_percent_mean_sd": [
+          17.4,
+          37.6
+        ],
+        "abstract_reported_effect_percent": 17,
+        "status": "Unreconciled published discrepancy; do not silently repair."
+      }
+    ],
+    "direct_final_score_credit": {
+      "knee_torque": "Explicit corrected post-hoc higher krill vs control at6months",
+      "grip": "Explicit corrected post-hoc higher krill vs control at6months",
+      "thickness": "Interaction and reported change effect; no final-score star inFig2",
+      "Mwave": "Explicit higher krill vs control at6months; effect magnitude discrepancy retained",
+      "numeric_parent_force_means": "Presented graphically, not digitized; no fabricated exact values"
+    },
+    "parent_counterevidence": [
+      "No controlled4m walk orchair-rise improvement",
+      "All balance tests fully completed; numerical balance scores not displayed",
+      "No BIA muscle-mass or body-fat benefit",
+      "No controlled RTD50/100/200/300, RMS or voluntary-activation benefit",
+      "No QoL benefit",
+      "No treatment interaction on glucose, lipids, insulin or CRP"
+    ],
+    "exposure": {
+      "blood_fatty_acid_changes": {
+        "EPA": {
+          "effect": 214,
+          "ci95": [
+            166,
+            262
+          ]
+        },
+        "DHA": {
+          "effect": 36,
+          "ci95": [
+            24,
+            48
+          ]
+        },
+        "omega3_index": {
+          "effect": 61,
+          "ci95": [
+            49,
+            73
+          ]
+        },
+        "arachidonic_acid": {
+          "effect": -13,
+          "ci95": [
+            -16,
+            -10
+          ]
+        }
+      },
+      "omega3_index_krill_baseline_6wk_6mo": [
+        [
+          6.5,
+          1.7
+        ],
+        [
+          9.7,
+          2.6
+        ],
+        [
+          10.0,
+          2.1
+        ]
+      ],
+      "pill_count_adherence": "Not reported in read sources",
+      "muscle_tissue_exposure": "Not measured/reported in qualified scope",
+      "causal_mediation": false
+    },
+    "subgroup": {
+      "pmid": "41344001",
+      "pmcid": "PMC12720336",
+      "doi": "10.1016/j.jnha.2025.100747",
+      "role": "Exploratory secondary analysis of the same NCT04048096 participants, not independent replication",
+      "total_complete_data": 94,
+      "krill": 49,
+      "control": 45,
+      "printed_subgroup_counts": {
+        "sex": {
+          "control_female": 27,
+          "krill_female": 26,
+          "control_male": 18,
+          "krill_male": 23
+        },
+        "age": {
+          "control_young": 27,
+          "krill_young": 27,
+          "control_old": 18,
+          "krill_old": 22
+        },
+        "BMI": {
+          "control_normal": 18,
+          "krill_normal": 24,
+          "control_overweight_obese": 27,
+          "krill_overweight_obese": 26
+        }
+      },
+      "BMI_count_conflict": "Printed krill BMI groups sum to50, conflicting with49 total; not repaired.",
+      "cutoffs_as_printed": {
+        "age": "young<=70; old>70 years",
+        "BMI": "normal<=24.9; overweight/obese>25 kg/m2; exact boundary unclear"
+      },
+      "model": "Mixed-design ANOVA (afex): Time within person; Group and Sex/Age/BMI between people; estimated marginal means (emmeans); Bonferroni post-hoc pairwise comparisons.",
+      "power": "Explicitly not powered for subgroup interactions; exploratory. No demonstrated global multiplicity correction across outcomes/subgroup interactions.",
+      "sex_three_way_interaction_p": {
+        "omega3_index": 0.603,
+        "knee_torque": 0.206,
+        "grip": 0.188,
+        "thickness": 0.893,
+        "walk": 0.982,
+        "chair": 0.915,
+        "voluntary_activation": 0.17,
+        "RTD50": 0.094,
+        "RTD100": 0.124,
+        "RTD200": 0.083,
+        "RTD300": 0.229,
+        "RMS": 0.2,
+        "Mwave": 0.009
+      },
+      "sex_reported_controlled_change_effects": {
+        "knee_torque_Nm": {
+          "female": {
+            "effect": 11.7,
+            "ci95": [
+              3.05,
+              20.35
+            ]
+          },
+          "male": {
+            "effect": 20.24,
+            "ci95": [
+              10.34,
+              30.15
+            ]
+          }
+        },
+        "grip_kg": {
+          "female": {
+            "effect": 2.93,
+            "ci95": [
+              1.81,
+              4.04
+            ]
+          },
+          "male": {
+            "effect": 4.07,
+            "ci95": [
+              2.8,
+              5.35
+            ]
+          }
+        },
+        "thickness_mm": {
+          "female": {
+            "effect": 0.95,
+            "ci95": [
+              0.51,
+              1.38
+            ]
+          },
+          "male": {
+            "effect": 0.99,
+            "ci95": [
+              0.49,
+              1.48
+            ]
+          }
+        },
+        "Mwave_mV": {
+          "female": {
+            "effect": 1.94,
+            "ci95": [
+              -0.8,
+              4.69
+            ]
+          },
+          "male": {
+            "effect": 7.61,
+            "ci95": [
+              4.46,
+              10.76
+            ]
+          }
+        }
+      },
+      "sex_within_group_Mwave_as_printed": {
+        "krill_male_change": 3.8,
+        "krill_male_ci95": [
+          1.72,
+          5.88
+        ],
+        "krill_male_p": 0.016,
+        "control_male_change": -3.71,
+        "control_male_printed_interval": [
+          1.58,
+          6.05
+        ],
+        "control_male_p": 0.059,
+        "conflict": "Control effect sign/CI/P not reconciled."
+      },
+      "BMI_three_way_results": {
+        "knee_torque_p": 0.34,
+        "RMS_p": 0.03,
+        "RMS_posthoc": "All response comparisons P>.05",
+        "Mwave_p": 0.328,
+        "other_strength_p_labels": "BMI Results prints Age labels for grip .950, thickness .893, walk .893, chair .626; retain label ambiguity."
+      },
+      "age_three_way_interaction_p": {
+        "knee_torque": 0.367,
+        "grip": 0.95,
+        "thickness": 0.202,
+        "walk": 0.415,
+        "chair": 0.613,
+        "Mwave": 0.485
+      },
+      "interpretation": "No strength subgroup equivalence established; actual nominal sex*Mwave interaction is retained as exploratory, not inferred from within-group P values. No recommendation by sex/BMI/age. Reporting issues retained."
+    },
+    "source_discrepancies": [
+      {
+        "id": "P1",
+        "source": "parent",
+        "locator": "Methods 2.15/p1231 and Fig.1/p1231",
+        "issue": "The main labels the analysis ITT, but Fig.1 shows 102 randomized, 94 analyzed and eight postrandomization losses/exclusions. No imputation or full randomized-population sensitivity method is supplied.",
+        "handling": "Preserve the label and actual flow; full-102 ITT is not demonstrated."
+      },
+      {
+        "id": "P2",
+        "source": "parent",
+        "locator": "Abstract/p1228 versus Results 3.7/p1232",
+        "issue": "The abstract prints a 17% M-wave effect and the Results prints 25.4%, both with 95% CI 12.7–38.1.",
+        "handling": "Retain both source statements; no averaging or silent repair."
+      },
+      {
+        "id": "P3",
+        "source": "parent/currentregistry",
+        "locator": "Methods 2.4, abstract and current registry outcomes",
+        "issue": "The registry labels body fat and lean mass secondary; the main Methods calls outcomes outside its narrower list exploratory, while the abstract labels neuromuscular measures secondary.",
+        "handling": "Primary knee-strength hierarchy is consistent; preserve uncertainty for other endpoints."
+      },
+      {
+        "id": "S1",
+        "source": "subgroup",
+        "locator": "Subgroup native Table 1/p3 and XML tbl0005",
+        "issue": "Printed krill BMI subgroup counts are 24 normal weight plus 26 overweight/obese, totaling 50 versus 49 krill participants overall.",
+        "handling": "Do not silently change a denominator or invent the analysis n."
+      },
+      {
+        "id": "S2",
+        "source": "subgroup",
+        "locator": "Subgroup Results 3.3/p4",
+        "issue": "The BMI Results section switches several interaction labels to Group*Age*Time while discussing BMI.",
+        "handling": "Preserve printed label/section context; no precise model reassignment."
+      },
+      {
+        "id": "S3",
+        "source": "subgroup",
+        "locator": "Subgroup abstract/p1 and Results 3.2/p3",
+        "issue": "The male control M-wave change is printed as −3.71 [1.58–6.05] mV, P=.059. The effect sign, positive interval and nonsignificant P value are inconsistent as printed.",
+        "handling": "Retain literal numbers and flag; no sign, CI or P-value repair."
+      },
+      {
+        "id": "S4",
+        "source": "subgroup",
+        "locator": "Subgroup Tables 2–4 and Fig.2/p6",
+        "issue": "Tables 2 and 4 omit explicit sex/age labels above the two blocks. Fig.2 BMI torque control-change pattern conflicts with Table 3 subgroup ordering.",
+        "handling": "Preserve source assets; no plot digitization or relabeling."
+      },
+      {
+        "id": "S5",
+        "source": "subgroup",
+        "locator": "Subgroup Results 3.4/p4 versus Results 3.2/p3 and Table 4/p6",
+        "issue": "Age-specific grip effect estimates/CIs repeat the sex-specific figures verbatim despite different age-group descriptive patterns.",
+        "handling": "Potential reporting inconsistency; exact age effects remain qualified. No reconstructed replacement."
+      },
+      {
+        "id": "S6",
+        "source": "subgroup",
+        "locator": "Subgroup abstract and Fig.2 caption",
+        "issue": "BMI cutoffs are printed as <=24.9 and >25 kg/m2; handling of the exact boundary is not explained.",
+        "handling": "Do not assume an unprinted corrected threshold."
+      },
+      {
+        "id": "S7",
+        "source": "subgroup",
+        "locator": "Subgroup Fig.1–3 captions and abstract",
+        "issue": "Captions append all P<.05 while describing no change in controls; the abstract broadly mentions physical-function increases despite nonpositive walk/chair Results.",
+        "handling": "Interpret formal controlled results; no function-positive or subgroup interaction inference from those phrases."
+      }
+    ],
+    "safety": {
+      "systematic_AE_table": "Not present in read papers",
+      "AE_counts_severity_and_analysis_set": "UNKNOWN",
+      "withdrawals": {
+        "krill": "Issues swallowing capsules, health issues; individual counts per reason not specified",
+        "control": "Lost interest, health issues; individual counts per reason not specified"
+      },
+      "supplement_checklist_harms": "NA",
+      "zero_event_claim": false,
+      "pediatric_safety_established": false
+    },
+    "disclosures": {
+      "funding": "SA studentship from Government of Saudi Arabia in both papers",
+      "conflicts": "Both papers declare no conflicts",
+      "supply": "Parent states both oils supplied by Aker Biomarine Antarctic AS",
+      "manufacturer_role": "Both papers state no role in design, conduct or analysis; no further roles inferred"
+    },
+    "durability": "Six months during supplementation; no post-withdrawal or longer disease-trajectory follow-up established.",
+    "renewal": "No direct stem/progenitor maintenance or regeneration outcome; ultrasound thickness is not renewal proof.",
+    "fidelity": "No BUBR1 restoration, checkpoint, chromosome-segregation or aneuploidy correction demonstrated in read sources.",
+    "competition": {
+      "function": "Substantive controlled human-strength evidence merits comparison; actual task-performance nulls retained",
+      "exposure": "Study-specific mixture and dose, biological exposure documented but batch chemistry incomplete",
+      "niacin": "No head-to-head restoration superiority; provisional hypothesis remains distinct",
+      "apitegromab": "No head-to-head motor-function superiority; disease/population/endpoints differ",
+      "MVA": "No BUB1B actual-allele or pediatric efficacy established, same standards as comparators",
+      "cross_trial_superiority": false
+    },
+    "recommendation": {
+      "route": "Preparation-specific SuperbaBoost krill-oil human-strength comparator after independent review",
+      "do_not_merge": [
+        "new-epa",
+        "new-lovaza-muscle",
+        "generic fishoil",
+        "arbitrary retail krill oil"
+      ],
+      "parent_plus_subgroup_unique_trials": 1,
+      "checkpoint_admission": false,
+      "repo_changes": false,
+      "tests_replays_catalog_joins": false
+    },
+    "access": "source-access.json",
+    "reading": "reading-manifest.json",
+    "manifest": "final-bindings.json"
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/krill-oil-muscle-primary-20260927/qualification.md",
+      "bytes": 17797,
+      "sha256": "4c72cce5898143d8653ac3722fc292c51e250abe4fc449ce9290c555efaa88b1"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/krill-oil-muscle-primary-20260927/qualification.json",
+      "bytes": 18551,
+      "sha256": "f42e5e2685f49a628b26261ed31dfbf29457b6135de52cda42a72c09e641dc40"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/krill-oil-muscle-primary-20260927/final-bindings.json",
+      "bytes": 19957,
+      "sha256": "95a03eb84f750b683bd64dfea1b19d568f039aa9489fe98cca4c4977043f52cc"
+    }
+  ],
+  "independent_review": {
+    "status": "ACCEPT",
+    "required_corrections": [],
+    "reviewer": "/root/quercetin_primary",
+    "completed_utc": "2026-09-28T00:46:24.028495+00:00",
+    "producer_final_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/krill-oil-muscle-primary-20260927/final-bindings.json",
+    "producer_final_sha256": "95a03eb84f750b683bd64dfea1b19d568f039aa9489fe98cca4c4977043f52cc",
+    "producer_bound_files": 57,
+    "all_producer_bound_bytes_verified": true,
+    "source_first_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/krill-oil-muscle-primary-20260927/independent-review/source-first-bindings.json",
+    "source_first_manifest_sha256": "e0623532f7568e106db02466f559da05b9c2a07fb453e0a60c13ec22eae9fc56",
+    "source_first_reading": "source-first-reading.json",
+    "source_first_findings": "source-first-findings.json",
+    "source_first_order": "Source-first findings and reading bindings frozen before qualification.md/json were opened.",
+    "comparison_read_scope": [
+      "qualification.md complete",
+      "qualification.json complete",
+      "reading-manifest.json complete",
+      "source-access.json complete",
+      "source-discrepancies.json complete",
+      "registry-outcome-map.json complete",
+      "identity-check-at-freeze.json complete",
+      "retrieval-log.json complete",
+      "derived/parent-native-outcomes.json complete",
+      "derived/subgroup-controlled-outcomes.json complete"
+    ],
+    "checks": {
+      "parent_efficacy": "Controlled torque9.3%CI2.8–15.8 and grip10.9%CI8.3–13.6 retained with final-score contrast credit; local thickness separately identified.",
+      "null_outcomes": "Walking, chair rise, RTD, BIA mass and QoL nonpositive; no missing result miscalled null.",
+      "attrition": "Native53/49 randomized and49/45 analyzed accurately retained; ITT label limited.",
+      "identity": "Exact SuperbaBoost 4g/day mixture, component arithmetic and mixed-oil control; no free-EPA/Lovaza/retail equivalence.",
+      "subgroup": "One unique trial; same94 complete cases; subgroup interaction limits, nominal M-wave sex interaction and RMS BMI interaction retained.",
+      "discrepancies": "Parent M-wave discrepancy and subgroup denominator/label/CI/age-grip/figure issues explicitly preserved without repair.",
+      "hierarchy": "Current registry start vs later first posting, current-only history limits, main/abstract secondary hierarchy and multiplicity limits accurate.",
+      "exposure_durability_renewal_fidelity": "Biological incorporation and six-month ongoing treatment distinguished from postwithdrawal durability; no renewal, fidelity or MVA restoration claim.",
+      "safety_disclosures": "No systematic safety inference; withdrawals, sponsor supply, stated funding/conflicts and stated manufacturer role preserved.",
+      "source_depth": "Full parent/subgroup original PDFs plus native key tables/figures/current registry; supplementary checklist is correctly limited, no absent protocol search overstated.",
+      "live_identity": "Currentccf7ff8/279 agrees frozen producer; no krill decision; no changes made."
+    },
+    "nonblocking_precision": [
+      "The source-first review notes that Figure2 BMI disagreement may involve additional panels besides torque. Producer already flags the figure/table ordering conflict and makes no repaired subgroup claim; no correction required.",
+      "The omega-3 index in the main is estimated from dried blood spots by a regression equation. Producer calls this biological exposure and does not claim measured muscle incorporation; the interpretation is bounded."
+    ],
+    "decision": "Substantive preparation-specific controlled human-strength comparator is defensible, with one unique trial and retained nulls/limits. ACCEPT does not admit a decision or promote any candidate.",
+    "forbidden_actions_performed": {
+      "repo_edits": false,
+      "producer_edits": false,
+      "catalog_joins": false,
+      "tests_or_replays": false,
+      "source_statistic_reconstruction": false
+    }
+  },
+  "independent_manifest": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/krill-oil-muscle-primary-20260927/independent-review/final-bindings.json",
+    "bytes": 4086,
+    "sha256": "b77c3691888b0fa80654383464258b6dcf504382f079de66b5481ce640594701"
+  },
+  "integrating_reviewer_scope": "Read parent scientific text layout1–496, including methods, results, discussion and declarations, native parent pages4–6 (flow, Figure2, Tables1–3), producer qualification, registry-outcome map and independent review. Root did not read the subgroup original or original registry/CONSORT; rely on separately recorded independent source review for those. Not blind root review.",
+  "portable_editorial_changes": [
+    [
+      "for independent review; no established",
+      "with completed independent review; no established"
+    ],
+    [
+      "This packet is the next source question, not an intervention admitted to the checkpoint being closed. No repository, catalog or coverage changes were made.",
+      "This integrated qualification adds the exact studied preparation to the comparison. The frozen source packet preceded repository admission; its source-stage history is preserved below."
+    ],
+    [
+      "A future reviewed entry should identify the **tested SuperbaBoost krill-oil mixture**,",
+      "The reviewed entry identifies the **tested SuperbaBoost krill-oil mixture**,"
+    ]
+  ],
+  "raw_assets_external_to_git": true,
+  "new_primary_reading_from_export": 0
+}

@@ -1,0 +1,2939 @@
+{
+  "schema": "historical-followup-question-reconciliation/v1",
+  "date": "2026-09-27",
+  "reviewer": "/root (integration assembly; separate source and prepared-content reviews)",
+  "repository": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
+  "repository_commit": "572f3e460dff7880e6030db4143512bb79194abc",
+  "authoritative_decision_count": 271,
+  "historical_batch": 15,
+  "historical_flag_count": 47,
+  "scope": "Only active n401 receives exact-source answer components with explicit unresolved assay/access limits; preserve other 46 records and all 47 historical questions/flags.",
+  "summary": {
+    "exact_source_questions_with_material_direct_qualified_answers": 17,
+    "substantive_primary_qualifications": 18,
+    "same_source_target_only_partial_qualification": 0,
+    "no_direct_source_answer": 30,
+    "open_unassigned": 29,
+    "assigned_elsewhere_pending": 0,
+    "different_experiment_context_does_not_close_question": 9,
+    "fully_resolved_entire_original_composite_questions": 6,
+    "new_unique_sources": 0,
+    "new_abstract_reading_credit": 0,
+    "new_primary_reading_credit": 0,
+    "direct_answers_with_unresolved_original_source_components": 11,
+    "fully_resolved_entire_original_composite_questions_scope": "Six exact-source study-level answers within limits, eleven exact-source partials and one published-counterpart partial; original preprint access/version remains unverified.",
+    "open_questions_with_different_experiment_context": 5,
+    "questions_with_direct_or_linked_publication_information": 18,
+    "published_counterpart_partial_qualifications": 1,
+    "no_qualified_exact_source_or_counterpart": 29,
+    "partial_questions_including_published_counterpart": 12
+  },
+  "count_interpretation": "Eighteen questions have qualified primary information: 17 exact-source qualifications (six source-level answers and eleven partials) plus one published-counterpart partial. Twenty-nine have neither; 30 still lack an exact-original-source answer.",
+  "source_search_and_reading": {
+    "actually_inspected": "Accepted AR-12 source qualification/review, portable synthesis and targeted n401/schema; no new original main, native figure or supplement reading.",
+    "new_primary_reading_credit": 0,
+    "prior_scopes": "Historical source-reading state preserved in historical_checkpoint_before_ar12_271."
+  },
+  "input_provenance": [
+    {
+      "source_kind": "immutable_baseline_git_blob",
+      "commit": "572f3e460dff7880e6030db4143512bb79194abc",
+      "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
+      "sha256": "5f12e3f6abdf96c1ccaa31411408131ce7861b1d1856509dbdb522de12de7994",
+      "role": "Exact previous active reconciliation"
+    },
+    {
+      "source_kind": "immutable_baseline_git_blob",
+      "commit": "572f3e460dff7880e6030db4143512bb79194abc",
+      "repo_relative": "workflow/track2-drug-census/decisions.json",
+      "sha256": "0a1c912e21997e4c2b9b7173e050c4e0ca0515506217edec466b921ff1d319a3",
+      "role": "268-appraisal integration baseline"
+    },
+    {
+      "source_kind": "accepted_portable_source",
+      "repo_relative": "workflow/track2-drug-census/ar12-sildenafil-qualification.md",
+      "sha256": "5068cafaa223b6e91099243fbbe016fb416c9f10276371c1301d8061c8f6bdcb",
+      "role": "Separately qualified exact source; no new integration reading credit"
+    },
+    {
+      "source_kind": "accepted_portable_source",
+      "repo_relative": "workflow/track2-drug-census/ar12-sildenafil-qualification.json",
+      "sha256": "4c27d5b36f16ea438cfff72bb31d7d9b924f1554fafef98b0ca19ab65cff6263",
+      "role": "Separately qualified exact source; no new integration reading credit"
+    }
+  ],
+  "qualification_files": [
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/appraisal.md",
+      "repo_relative": "workflow/track2-drug-census/appraisal.md",
+      "sha256": "000bf69c637c61a85c3045228039b2cefec4a70172d6980c20e34713e8d91138",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/bay-bub1-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/bay-bub1-qualification.json",
+      "sha256": "86af3024a163efcf08d5b5ac6a3abd36e58d17c1f00134ebe1f478843dd5eafb",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/bay-bub1-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/bay-bub1-qualification.md",
+      "sha256": "18b1eccae2ec7da3aee47ed08657c0ce94ed7af97555555ae6782c71960b72de",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/bladder-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/bladder-qualification.json",
+      "sha256": "e99cf20851cc4b260b87a14db5c3da28064520c459d85db6fd8575f001345efd",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/bladder-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/bladder-qualification.md",
+      "sha256": "bc803ad6a9b390358ab6a79a480d0c2ee4f0f3651bc24e9b43f263cf9e482ed8",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/catalog-independent-review.md",
+      "repo_relative": "workflow/track2-drug-census/catalog-independent-review.md",
+      "sha256": "bd071a8458ead33a7ff3619e3bd4f29eff5fa50588ce0beb549ecb5cfe86ad3f",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/ccdc41-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/ccdc41-qualification.json",
+      "sha256": "a6250d9d0893dd6853e9cfd02a5ebebd51dbef5b0c25809acab6036ed1902865",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/ccdc41-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/ccdc41-qualification.md",
+      "sha256": "fb2078363d90d3d8730d327842832456b56b9e95e3fc190d8689775e30fc5c82",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/eml1-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/eml1-qualification.json",
+      "sha256": "431caf61bac837a031ed61188f921389002e61e2a9af680f422c1a5cf6576153",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/eml1-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/eml1-qualification.md",
+      "sha256": "d148e1a09b1461b67d12724187c2f3654bbcd571452f1c5496200080f8d3f59d",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/gemini-cur-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/gemini-cur-qualification.md",
+      "sha256": "3a2d8c232ea94a1d5675db55337952362b0f0d57fbcad647deee6316094e31c2",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/intervention-identity-followup.md",
+      "repo_relative": "workflow/track2-drug-census/intervention-identity-followup.md",
+      "sha256": "eb1d7385ef83521d4cae252866b970fdbfc22d7241ed864104e9592c0cec096f",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/intervention-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/intervention-qualification.md",
+      "sha256": "94e2bd56b6276234b8fe6e5feb7e07d362a1b696f4196e7f0cf5b4ff764e9e81",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/mapk-injury-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/mapk-injury-qualification.md",
+      "sha256": "c2102db5133b70cb03955044b268d3e178b1d97d4b2840f8b5cdfece02e54d38",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/resveratrol-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/resveratrol-qualification.json",
+      "sha256": "38a9d73315d808c11a0672b32ef7052ef20a6f1229f2b8f25b1795cb73e563be",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/resveratrol-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/resveratrol-qualification.md",
+      "sha256": "6ea79fc71f060a81bcd3ca7182f6aa65edb31522c69325af1e4902d4b311ca6a",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/translation-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/translation-qualification.md",
+      "sha256": "8790df06f7ca78acffc55817a9e516d9ae2bcd26219811b53f80f43d7984cac8",
+      "line": 1,
+      "role": "Inspected qualifying or related-context repository report"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/curcumin-cdc27-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/curcumin-cdc27-qualification.md",
+      "sha256": "8dc15b4539e4a57e27ed3fd412353a1d17cc627e84aa633f9078c64b599fbd1c",
+      "line": 1,
+      "role": "New direct qualification inspected for this two-question update"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/curcumin-cdc27-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/curcumin-cdc27-qualification.json",
+      "sha256": "50ce618ad8fd376702003cdbd284c203a1a56c0f2b10d7fb296c6848bfcd649f",
+      "line": 1,
+      "role": "New direct qualification inspected for this two-question update"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/tocopherol-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/tocopherol-qualification.md",
+      "sha256": "49db2baaf9183d4181a6f7e7cfa19fee005ad2e6918e009459b1dbb3c9fb493a",
+      "line": 1,
+      "role": "New direct qualification inspected for this two-question update"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/tocopherol-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/tocopherol-qualification.json",
+      "sha256": "ed7a0db30b36313158ca576c23c764e21083bae50478e1ab26d6727d2ff9199b",
+      "line": 1,
+      "role": "New direct qualification inspected for this two-question update"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/curcumin-animal-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/curcumin-animal-qualification.md",
+      "sha256": "9ca7d8a5f9993b7d05f41d43050fddeb339f48b36953fe2824fbdbcde2076d76",
+      "line": 1,
+      "location_status": "Integrated repository file",
+      "role": "External portable candidate assessment"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/curcumin-animal-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/curcumin-animal-qualification.json",
+      "sha256": "959c7fe99f6b61e1eefda61fe7b229d544b393c077a25e72f0b300c22c63cb0c",
+      "line": 1,
+      "location_status": "Integrated repository file",
+      "role": "External portable candidate assessment"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/piperlongumine-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/piperlongumine-qualification.md",
+      "sha256": "939d9979b69dd5cbc7cf2492863c5136c5ee290bae8bcde87c761c927a3f1ad4",
+      "line": 1,
+      "location_status": "Integrated repository file",
+      "role": "External portable candidate assessment"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/piperlongumine-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/piperlongumine-qualification.json",
+      "sha256": "52118ce7e8ddd97f8d83e3f89cc82619cf82f73cb8196cdf9bc553c4b7fa3cda",
+      "line": 1,
+      "location_status": "Integrated repository file",
+      "role": "External portable candidate assessment"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/diclofenac-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/diclofenac-qualification.md",
+      "sha256": "5c39b325ff79f2c72e1394d5e2f349c2484be33775c97e033e0102ededeb1e8b",
+      "line": 1,
+      "location_status": "Integrated repository file",
+      "role": "External portable candidate assessment"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/diclofenac-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/diclofenac-qualification.json",
+      "sha256": "b911faa6e77ffbe98a5da2c15973639d814d6eabee26a4ce628c1c07ddeb6d6b",
+      "line": 1,
+      "location_status": "Integrated repository file",
+      "role": "External portable candidate assessment"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/yiqi-lung-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/yiqi-lung-qualification.md",
+      "sha256": "575bda7553da9aee4f7cce0e72c6d52baa3f11e3acab14ce8ec76edd9012ceba",
+      "line": 1,
+      "location_status": "Integrated repository file",
+      "role": "YQHYJD portable candidate assessment"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/yiqi-lung-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/yiqi-lung-qualification.json",
+      "sha256": "3aef3689748b0095990dccc7615ca227ada38f6e766528caead0848f4fc1c732",
+      "line": 1,
+      "location_status": "Integrated repository file",
+      "role": "YQHYJD portable candidate assessment"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/lithium-astrocyte-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/lithium-astrocyte-qualification.md",
+      "sha256": "e1c21e2f7781460c6307ec93fedfaf33386cc951e8815a167f2e41e32424176a",
+      "line": 1,
+      "location_status": "Integrated repository file",
+      "role": "Lithium astrocyte portable qualification/targeted expression candidate"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/lithium-astrocyte-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/lithium-astrocyte-qualification.json",
+      "sha256": "8d09c16d3bb08d85dd8a056354eb4250d84bdd2050831c94f44f5cb94384e6db",
+      "line": 1,
+      "location_status": "Integrated repository file",
+      "role": "Lithium astrocyte portable qualification/targeted expression candidate"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/lithium-astrocyte-expression.json",
+      "repo_relative": "workflow/track2-drug-census/lithium-astrocyte-expression.json",
+      "sha256": "6f920f8bffee9910c97ff74c4cbf511a61eeb7303cfbfd91133f14444a5bc53c",
+      "line": 1,
+      "location_status": "Integrated repository file",
+      "role": "Lithium astrocyte portable qualification/targeted expression candidate"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/retinoic-barrier-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/retinoic-barrier-qualification.md",
+      "sha256": "838e32297bb7c1ad7e051e7b6f386d040f967df50db877276c0a00bf7d4501c7",
+      "line": 1,
+      "location_status": "Integrated repository file",
+      "role": "Retinoic barrier portable source qualification"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/retinoic-barrier-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/retinoic-barrier-qualification.json",
+      "sha256": "fe38355fa4f9fbd0fde2079f6ecffb62ce559d6f4cbb60100f6797c0342b4c39",
+      "line": 1,
+      "location_status": "Integrated repository file",
+      "role": "Retinoic barrier portable source qualification"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pdls-secretome-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/pdls-secretome-qualification.md",
+      "sha256": "773c5b794cb142665028581dcf300afd2a344b6ca31ef26e6d1c7a6aec7a1b1e",
+      "line": 1,
+      "location_status": "Integrated repository source-comparison file"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pdls-secretome-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/pdls-secretome-qualification.json",
+      "sha256": "cea5fe2f5d83ec044f4fd5d44dcc7703b1d3cb765c9d085f564de99fb8c3e54f",
+      "line": 1,
+      "location_status": "Integrated repository source-comparison file"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pdls-secretome-expression.json",
+      "repo_relative": "workflow/track2-drug-census/pdls-secretome-expression.json",
+      "sha256": "cd7118a5489b935bcd262c77d873ff0455ef0b386d4fb9029f8e15a577a6c694",
+      "line": 1,
+      "location_status": "Integrated repository source-comparison file"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/replay_pdls_bub1b.py",
+      "repo_relative": "workflow/track2-drug-census/replay_pdls_bub1b.py",
+      "sha256": "8aadebda7e5882a963de052acb4e9f8ac191d66b52cf97b9948bd4c92bbf46e6",
+      "line": 1,
+      "location_status": "Integrated repository source-comparison file"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/zoledronate-cenpf-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/zoledronate-cenpf-qualification.md",
+      "sha256": "7290d8e1bf0f009966dbf5314f10f9d6e4f5de269ae3be513c27e00e920d8fec",
+      "line": 1,
+      "location_status": "Integrated repository qualification"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/zoledronate-cenpf-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/zoledronate-cenpf-qualification.json",
+      "sha256": "975fb460410af8b8991bd4b0d86987470ac851b5285fe44c4eeb33e52b6cfab5",
+      "line": 1,
+      "location_status": "Integrated repository qualification"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/kalanchoe-mitosis-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/kalanchoe-mitosis-qualification.md",
+      "sha256": "00e9087e21a04e7b6e1332293036b1225e7470be65db8085058293973adca06d",
+      "line": 1,
+      "location_status": "Integrated repository qualification"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/kalanchoe-mitosis-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/kalanchoe-mitosis-qualification.json",
+      "sha256": "fafb543debe7f9d0aa339ffbbdc9e13330a88ed85de30dcec52f194eaa488410",
+      "line": 1,
+      "location_status": "Integrated repository qualification"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/cenpe-feedback-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/cenpe-feedback-qualification.md",
+      "sha256": "209ba75379dfc9b3793dbb18339593181aa18e07c42dee4164543a529c00deab",
+      "line": 1,
+      "location_status": "Integrated qualification of published counterpart; original preprint unverified"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/cenpe-feedback-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/cenpe-feedback-qualification.json",
+      "sha256": "dbdfa0cb43dca90b04cb2c4d4a1d9e695fa69bbde935eaa4a2b0be4519fadbc0",
+      "line": 1,
+      "location_status": "Integrated qualification of published counterpart; original preprint unverified"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/cenpe-feedback-data.json",
+      "repo_relative": "workflow/track2-drug-census/cenpe-feedback-data.json",
+      "sha256": "911c9d2fccd2a374c962dc3bdb4d469d4b91c4513f57b78918b934faf738357b",
+      "line": 1,
+      "location_status": "Integrated qualification of published counterpart; original preprint unverified"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pp2a-brca2-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.md",
+      "sha256": "bb79c11d5edca5e55e727b42eaaf9edbd395dd5b53377dc51fecd1b2de11d759",
+      "line": 1,
+      "location_status": "Integrated portable qualification; original sources remain external"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pp2a-brca2-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.json",
+      "sha256": "ab354aa43e772e5883b4e8f60c9b074ec6686e284b32e1b1778482a927124dd6",
+      "line": 1,
+      "location_status": "Integrated portable qualification; original sources remain external"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/ar12-sildenafil-qualification.md",
+      "repo_relative": "workflow/track2-drug-census/ar12-sildenafil-qualification.md",
+      "sha256": "5068cafaa223b6e91099243fbbe016fb416c9f10276371c1301d8061c8f6bdcb",
+      "line": 1,
+      "location_status": "Integrated portable qualification; original sources remain external"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/ar12-sildenafil-qualification.json",
+      "repo_relative": "workflow/track2-drug-census/ar12-sildenafil-qualification.json",
+      "sha256": "4c27d5b36f16ea438cfff72bb31d7d9b924f1554fafef98b0ca19ab65cff6263",
+      "line": 1,
+      "location_status": "Integrated portable qualification; original sources remain external"
+    }
+  ],
+  "records": [
+    {
+      "batch_review_index": 9,
+      "source": "MED",
+      "record_id": "29046878",
+      "pmid": "29046878",
+      "title": "Determination of the Proteomic Response to Lapatinib Treatment using a comprehensive and reproducible ion-current-based proteomics strategy.",
+      "original_followup_question": "Which CENPE inhibitor and exposure reduced survival with lapatinib, and were normal-cell or in-vivo comparisons performed?",
+      "frozen_source_abstract_sha256": "e85054545dc10e3b6d19089423b63164a69a797628894c75fab222e1a3a0ce74",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/8/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact SKBR3/CENP-E combination qualification found. The existing lapatinib bladder study tests a different partner, tissue and endpoint.",
+      "remaining_question": "Identify the CENP-E inhibitor and its lapatinib combination dose in SKBR3, then check normal-cell and in-vivo comparisons.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/bladder-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/bladder-qualification.md",
+          "sha256": "bc803ad6a9b390358ab6a79a480d0c2ee4f0f3651bc24e9b43f263cf9e482ed8",
+          "line": 18,
+          "relevance": "Different lapatinib bladder prevention experiment; does not resolve SKBR3/CENP-E combination",
+          "decision_id": "new-lapatinib-bladder"
+        }
+      ],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 14,
+      "source": "MED",
+      "record_id": "32637030",
+      "pmid": "32637030",
+      "title": "RSK inhibitor BI-D1870 inhibits acute myeloid leukemia cell proliferation by targeting mitotic exit.",
+      "original_followup_question": "What exposures and normal-cell selectivity support BI-D1870/vincristine synergy, and are in-vivo efficacy or specificity controls available?",
+      "frozen_source_abstract_sha256": "dc6900d0ca0a7bc1aabf7e61ac60a30a57da8f4ae41e259d4c3312821fc4d857",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/13/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No inspected qualification answers BI-D1870/vincristine exposures, specificity or normal-cell/animal comparisons.",
+      "remaining_question": "Verify the BI-D1870/vincristine schedule, interaction model, normal-cell response and any actual animal arm.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 26,
+      "source": "MED",
+      "record_id": "32555285",
+      "pmid": "32555285",
+      "title": "Antitumor effect of a WEE1 inhibitor and potentiation of olaparib sensitivity by DNA damage response modulation in triple-negative breast cancer.",
+      "original_followup_question": "What functional combination effects and normal-cell comparisons support AZD1775/olaparib in TNBC, beyond the abstract's broad conclusion?",
+      "frozen_source_abstract_sha256": "18edb45577bccd1cf2cd558749ad727624c6b915c926ea30599d9c589431618d",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/25/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "A WEE1 route or another WEE1 inhibitor is not source qualification of this AZD1775/olaparib TNBC experiment.",
+      "remaining_question": "Extract arm-specific AZD1775/olaparib functional effects, exposure and normal-cell controls from this source.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 27,
+      "source": "MED",
+      "record_id": "42045150",
+      "pmid": "42045150",
+      "title": "Drugging the intrinsically disordered transactivation domain of androgen receptor.",
+      "original_followup_question": "Which exact ARTADIs and exposures outperformed enzalutamide, with what toxicity and xenograft controls?",
+      "frozen_source_abstract_sha256": "1d901c6a53776476d712318acf87775e04ce3cad1b7d19d7284975d4a0ac62e0",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/26/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "The ARTADI identities remain unspecified in the frozen annotation; no exact-source qualification found.",
+      "remaining_question": "Identify the active ARTADIs and xenograft exposures, comparator conditions and toxicity measurements.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 35,
+      "source": "MED",
+      "record_id": "34745968",
+      "pmid": "34745968",
+      "title": "Identification of Novel Drug Candidate for Epithelial Ovarian Cancer <i>via In Silico</i> Investigation and <i>In Vitro</i> Validation.",
+      "original_followup_question": "Does the primary demonstrate direct CDK1 engagement and selective functional effects of piperlongumine beyond docking and expression changes?",
+      "frozen_source_abstract_sha256": "a12df8848f2138a11142587b9aad1664754aaa59dba049563c6fb31bf4085673",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/34/followup_reason"
+      },
+      "classification": "direct_primary_question_answered_at_source_scope",
+      "judgment": "Actual colony and apoptosis effects exceed docking-only evidence, but no direct CDK1 engagement/kinase assay, selectivity panel, target rescue or normal-cell comparison establishes selective CDK1-mediated activity.",
+      "remaining_question": "Direct/selective CDK1 causality, matched normal-cell function and exposure remain untested. Colony schedule/denominator, DMSO dilution and apoptosis-time mapping conflicts constrain quantitative follow-up.",
+      "source_qualified_answer_components": [
+        "Piperlongumine from NeOnc, DMSO stock; no piperine or pepper-product equivalence.",
+        "MTT dose/time response plus reduced colonies after exposure/withdrawal and increased Annexin-V/PI apoptosis provide actual cellular anticancer positives.",
+        "AZD5438 is a docking reference only; lower CDK1/CCNB1 abundance is not direct target engagement or genetic rescue.",
+        "All models are cancer cells; official HO-8910 record identifies a HeLa derivative. No treated-animal or normal-cell arm.",
+        "BUB1B occurs in a tumor-upregulated gene list/network, not a PL-treated RNA/protein or fidelity assay."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/piperlongumine-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/piperlongumine-qualification.md",
+          "sha256": "939d9979b69dd5cbc7cf2492863c5136c5ee290bae8bcde87c761c927a3f1ad4",
+          "line": 1,
+          "location_status": "Integrated repository file"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/piperlongumine-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/piperlongumine-qualification.json",
+          "sha256": "52118ce7e8ddd97f8d83e3f89cc82619cf82f73cb8196cdf9bc553c4b7fa3cda",
+          "line": 1,
+          "location_status": "Integrated repository file"
+        }
+      ],
+      "current_decision_ids": [
+        "new-piperlongumine"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": true,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null,
+      "resolution_scope": "Original study-level question answered: measured cellular effects are present; direct/selective CDK1 evidence and normal-cell controls are absent. No efficacy/causality is inferred from absence.",
+      "remaining_gap_types": [
+        "direct_CDK1_engagement_and_target_rescue_absent",
+        "normal_cell_comparator_absent",
+        "colony_schedule_denominator_and_vehicle_conflicts",
+        "drug_BUB1B_fidelity_MVA_endpoints_absent"
+      ]
+    },
+    {
+      "batch_review_index": 52,
+      "source": "MED",
+      "record_id": "22280307",
+      "pmid": "22280307",
+      "title": "Anaphase-promoting complex/cyclosome protein Cdc27 is a target for curcumin-induced cell cycle arrest and apoptosis.",
+      "original_followup_question": "What curcumin exposures, normal-cell controls and target-specific rescue experiments substantiate Cdc27-dependent selectivity?",
+      "frozen_source_abstract_sha256": "877e24ee847f4f43204d7c0b9ab8c6b8b23b0000f58015a68391ee9ee7468210",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/51/followup_reason"
+      },
+      "classification": "direct_primary_question_answered_at_source_scope",
+      "judgment": "The ordinary-curcumin primary is now directly qualified, including exposure-specific LDH/cycle effects, limited MDCK comparison, actual DHZ structural-control results, and the absence of Cdc27-specific rescue. It supports a Cdc27/APC/C-associated mechanism without establishing exclusive Cdc27 causality or cancer-versus-normal selectivity.",
+      "remaining_question": "Purified binding, mapped covalent site and Cdc27-resistant/necessity/sufficiency rescue remain absent. MDCK is not primary human tissue; HBEC remains an undefined blot-only block. 2012 TableS1/Figure5C issues remain. The cited2011 animal source is now separately qualified with real tumor/lifespan benefits, but dose/host discrepancies and absent measured PK/safety prevent an exposure bridge; it does not establish Cdc27-dependent selectivity.",
+      "source_qualified_answer_components": [
+        "Sigma laboratory curcumin without nanoparticle delivery was tested; purity/lot/measured concentration and oral-product equivalence are unspecified. It is distinct from Gemini-Cur.",
+        "DAOY cell-cycle work used10/20µM curcumin, with exposure schedules distinguished: G1/S release0–20h versus nocodazole-mitotic release0–10h. LDH arms used0/5/10/20µM for12h,16h or24h in separate assays.",
+        "MDCK had relatively little cytotoxicity under the tested conditions, but this canine kidney-derived line is not normal primary human tissue. HT1376 is a relatively less-sensitive cancer comparator. HBEC appears only in an undefined blot block, not the functional comparison arms.",
+        "DHZ was actually administered:40µM versus20µM curcumin in time-course blots, and matching0/5/10/20µM16h LDH arms. DHZ produced much less LDH release and no analogous high-molecular-weight Cdc27 shift.",
+        "Curcumin-linked Sepharose recovered Cdc27 from lysate, with beads/BubR1 nonspecific-binding controls. Treated-cell lysate APC/C-associated assays showed substrate persistence/lower ubiquitination, but no purified direct-binding or Cdc27-resistant rescue experiment.",
+        "The study reports cell-cycle restraint/cancer-cell death, not faithful division or BUBR1 restoration. Linked Smo/Smo tumor blots lacked detectable crosslinked Cdc27; the 2012 blot alone supplies neither independent animal efficacy nor PK.",
+        "Separately qualified cited2011 paper reports main DAOY xenograft attenuation and Smo/Smo lifespan-to-clinical-endpoint benefit. Supplementary xenograft contrasts have printedP>.05; 1mg/kg versus1g/kg remains unresolved. The linked2012 Cdc27 blots are not independent efficacy replication; exact specimen overlap is undocumented. No benefit is transferred to DHZ or Gemini-Cur."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/curcumin-cdc27-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/curcumin-cdc27-qualification.md",
+          "sha256": "8dc15b4539e4a57e27ed3fd412353a1d17cc627e84aa633f9078c64b599fbd1c",
+          "line": 1
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/curcumin-cdc27-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/curcumin-cdc27-qualification.json",
+          "sha256": "50ce618ad8fd376702003cdbd284c203a1a56c0f2b10d7fb296c6848bfcd649f",
+          "line": 1
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/curcumin-animal-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/curcumin-animal-qualification.md",
+          "sha256": "9ca7d8a5f9993b7d05f41d43050fddeb339f48b36953fe2824fbdbcde2076d76",
+          "line": 1,
+          "location_status": "Integrated repository file"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/curcumin-animal-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/curcumin-animal-qualification.json",
+          "sha256": "959c7fe99f6b61e1eefda61fe7b229d544b393c077a25e72f0b300c22c63cb0c",
+          "line": 1,
+          "location_status": "Integrated repository file"
+        }
+      ],
+      "current_decision_ids": [
+        "new-curcumin-cdc27",
+        "new-dehydrozingerone"
+      ],
+      "related_evidence_is_not_resolution": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/gemini-cur-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/gemini-cur-qualification.md",
+          "sha256": "3a2d8c232ea94a1d5675db55337952362b0f0d57fbcad647deee6316094e31c2",
+          "line": 9,
+          "relevance": "Nanoparticle HCT-116 experiment and free-curcumin comparator do not qualify Cdc27-dependent selectivity",
+          "decision_id": "new-gemini-cur"
+        }
+      ],
+      "full_original_composite_question_resolved": true,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": "2011 animal efficacy is now qualified separately; 2012 linked tumor biochemistry does not establish an independent efficacy cohort or exact animal/specimen identity.",
+      "resolution_scope": "Original study-level exposures, comparator and target-specific-control question answered, including explicitly absent experiments; selective Cdc27 causality or normal-tissue benefit is not established.",
+      "remaining_gap_types": [
+        "Cdc27_specific_rescue_or_purified_binding_absent",
+        "normal_human_functional_comparator_absent",
+        "TableS1_arithmetic_and_Figure5C_preparation_conflicts",
+        "2011_animal_dose_host_conflicts_and_PK_safety_absence",
+        "2011_2012_specimen_overlap_unmapped_no_independent_efficacy_replication"
+      ]
+    },
+    {
+      "batch_review_index": 64,
+      "source": "MED",
+      "record_id": "38539170",
+      "pmid": "38539170",
+      "title": "Translating proteome and transcriptome dynamics of periodontal ligament stem cell-derived secretome/conditioned medium in an in vitro model of periodontitis.",
+      "original_followup_question": "Which secretome components and controlled mineralization outcomes support the LPS osteogenic rescue, and does benefit extend beyond this culture model?",
+      "frozen_source_abstract_sha256": "744d33c7ca783f857e02c7308804cfc7ce47eef3fcd00649fcf76df982860bb9",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/63/followup_reason"
+      },
+      "classification": "direct_primary_answers_with_remaining_experimental_gaps",
+      "judgment": "The exact source now qualifies the PDLSC-conditioned-medium preparation, its controlled normal-cell osteogenic/mineralization response and treatment-associated BUB1B RNA summary. No isolated causal constituent, defined ordinary compound/medicine, BubR1 protein/function or beyond-culture efficacy is established.",
+      "remaining_question": "Identify and test the causal active constituent(s) and standardized exposure, distinguish cell-cycle composition from a per-cell BUB1B response, measure BubR1 protein/function and test relevant beyond-culture outcomes. The source itself supplies neither isolated-constituent efficacy nor animal/clinical periodontal repair; the original composite question remains partially unresolved.",
+      "source_qualified_answer_components": [
+        "Preparation: healthy commercially sourced human PDLSCs at passages4–6; 70% confluence, serum-free α-MEM for48h, then3000rpm5min supernatant. This is an incompletely defined biological mixture with no active-component/total-protein-standardized treatment dose.",
+        "Controls: osteogenic medium,5µg/mL P.gingivalis LPS, PDLSC-CM and LPS+CM, with corresponding osteogenic supplements. Ascorbic acid50µg/mL, dexamethasone1µM and β-glycerophosphate3mM are shared background ingredients, not isolated rescue arms.",
+        "Actual normal-cell function: Figure2 reports higher ALP/calcium and14day Alizarin Red S mineralization with CM in the LPS setting; n5 mean±SD with P<.05 comparisons. OCN/OSX/RUNX2 protein changes are separately measured at7days with n3. A clearly staged post-injury treatment interval is not established.",
+        "BUB1B RNA: native Supplement3 total row7664 G=2.64203727647014 for LPS+CM/LPS; normalized log2 signals independently reproduce the ratio. CM/control=0.705636356979759; LPS+CM/control=2.1143672082262. No generalized CM-alone increase or simple baseline restoration is claimed.",
+        "Protein boundary: RNA-derived Table2/STRING BUB1B network connectivity is not a measured protein response. No BubR1 assay is supplied, and the detected-protein tables have no matching BUB1B/O60566/synonym entry. Finite-table absence is not a validated biological null.",
+        "Component and translation limits: detected ECM/cytoskeletal constituents are not independently administered or causally tested. No animal/clinical efficacy, MVA model, checkpoint fidelity or comparative nominee superiority follows. The result is a biological comparator/research source only, without a new compound ledger identity."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pdls-secretome-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/pdls-secretome-qualification.md",
+          "sha256": "773c5b794cb142665028581dcf300afd2a344b6ca31ef26e6d1c7a6aec7a1b1e",
+          "line": 1,
+          "location_status": "Integrated repository source-comparison file"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pdls-secretome-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/pdls-secretome-qualification.json",
+          "sha256": "cea5fe2f5d83ec044f4fd5d44dcc7703b1d3cb765c9d085f564de99fb8c3e54f",
+          "line": 1,
+          "location_status": "Integrated repository source-comparison file"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pdls-secretome-expression.json",
+          "repo_relative": "workflow/track2-drug-census/pdls-secretome-expression.json",
+          "sha256": "cd7118a5489b935bcd262c77d873ff0455ef0b386d4fb9029f8e15a577a6c694",
+          "line": 1,
+          "location_status": "Integrated repository source-comparison file"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/replay_pdls_bub1b.py",
+          "repo_relative": "workflow/track2-drug-census/replay_pdls_bub1b.py",
+          "sha256": "8aadebda7e5882a963de052acb4e9f8ac191d66b52cf97b9948bd4c92bbf46e6",
+          "line": 1,
+          "location_status": "Integrated repository source-comparison file"
+        }
+      ],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/catalog-independent-review.md",
+          "repo_relative": "workflow/track2-drug-census/catalog-independent-review.md",
+          "sha256": "bd071a8458ead33a7ff3619e3bd4f29eff5fa50588ce0beb549ecb5cfe86ad3f",
+          "line": 46,
+          "relevance": "Different aged-oocyte secretome/BDNF/7,8-DHF evidence, not periodontal conditioned medium",
+          "decision_id": "new-7-8-dhf"
+        }
+      ],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": "Bounded article-metadata/Crossref/XML check found no source-level notice. A nested retraction link belongs to cited reference55, whose notice body was not read; it does not label this article retracted.",
+      "remaining_gap_types": [
+        "causal_component_identity_and_standardized_exposure",
+        "beyond_culture_efficacy",
+        "replicate_statistics_and_rna_cell_composition",
+        "BubR1_protein_and_function"
+      ],
+      "within_source_attribution_limits": [
+        "Calcium units conflict: original methods mg/100mg protein versus Figure2B mM/100mg protein.",
+        "No causal ingredient efficacy, ordinary product equivalence, clinical benefit or nominee superiority is assigned."
+      ]
+    },
+    {
+      "batch_review_index": 79,
+      "source": "MED",
+      "record_id": "22438244",
+      "pmid": "22438244",
+      "title": "Selective killing of p53-deficient cancer cells by SP600125.",
+      "original_followup_question": "What xenograft exposures, normal-tissue effects and residual cytotoxicity after resistant-MPS1 rescue define SP600125's genotype selectivity?",
+      "frozen_source_abstract_sha256": "774289eefea7df63a0eb59d362038e34391871ae33fedb334bc98216674eadad",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/78/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "SP600125 is qualified in A549 fungal injury and separate U2OS/BJ-Tert checkpoint experiments, not this TP53-dependent colon-xenograft study.",
+      "remaining_question": "Verify TP53-stratified xenograft exposure, normal-tissue outcomes and residual killing after resistant-MPS1 rescue in PMID22438244.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/mapk-injury-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/mapk-injury-qualification.md",
+          "sha256": "c2102db5133b70cb03955044b268d3e178b1d97d4b2840f8b5cdfece02e54d38",
+          "line": 67,
+          "relevance": "Separate checkpoint specificity supports context, not TP53 xenograft exposure/window",
+          "decision_id": "new-sp600125-injury"
+        }
+      ],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 85,
+      "source": "PPR",
+      "record_id": "PPR918452",
+      "pmid": null,
+      "title": "Kinetochore-centrosome feedback linking CENP-E and Aurora kinases controls chromosome congression",
+      "original_followup_question": "Which inhibitors and exposures enable CENP-E-independent congression, and do later segregation/error outcomes improve?",
+      "frozen_source_abstract_sha256": "1af7c5707529876d28c85f7a056ca55dd0d6e8a87a57d35d361442098a483fdd",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/84/followup_reason"
+      },
+      "classification": "published_counterpart_partial_original_preprint_unverified",
+      "judgment": "The accessible published counterpart qualifies exact drug identities and restricted RPE-1 chromosome-congression positives for centrinone, MLN8054 and TCS7010, with a separate short-exposure alisertib null. The original flagged preprint full text/version remains unverified; later faithful daughter-cell yield is not established.",
+      "remaining_question": "Authenticate/read the original preprint version if claiming its text was qualified. For the published experiments, resolve pooled MLN8054 dose assignment and genetic-assay schedule conflicts, and measure whole-starting-population completed chromosome fidelity and useful function.",
+      "source_qualified_answer_components": [
+        "Published PMID41120338 is linked by title/first-author matching to PPR918452; this is not text-level version verification or an independent replicate.",
+        "Centrinone 300 nM over 1–5 days yields centriole-loss-dependent congression bypass. MLN8054 and TCS7010 reduce polar chromosome counts after CENP-E inhibition; quantitative MLN8054 columns omit exact pooled-arm dose composition.",
+        "Native Fig4f values average 7.026 polar chromosomes with DMSO versus 3.553 with MLN8054 and 3.857 with TCS7010, with source Tukey P=1.77e-7 and 4.39e-6. Alisertib 125 nM/30 min is a scoped null (5.5; P=.117), not an all-exposure negative.",
+        "Fig4 caption MLN8237 conflicts with explicit MLN8054 panels/Methods; this does not transfer the positive to alisertib. Source numeric columns lack treatment-name headers or dish/replicate assignments.",
+        "Hec1-9A rescue is genetic, requires endogenous Hec1 depletion and fails under drug-bound CENP-E. GSK creates the defect; ZM-447439 validates phospho markers; monastrol is a distinct negative/structural control; MG132 supports arrest.",
+        "Live tracking selects anaphase-entering cells, excludes multipolar spindles and ends polar residence at alignment or anaphase with an unaligned chromosome. No BUBR1 response or whole-population faithful daughter-cell/tissue benefit is established."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/cenpe-feedback-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/cenpe-feedback-qualification.md",
+          "sha256": "209ba75379dfc9b3793dbb18339593181aa18e07c42dee4164543a529c00deab",
+          "line": 1,
+          "location_status": "Integrated qualification of published counterpart; original preprint unverified"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/cenpe-feedback-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/cenpe-feedback-qualification.json",
+          "sha256": "dbdfa0cb43dca90b04cb2c4d4a1d9e695fa69bbde935eaa4a2b0be4519fadbc0",
+          "line": 1,
+          "location_status": "Integrated qualification of published counterpart; original preprint unverified"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/cenpe-feedback-data.json",
+          "repo_relative": "workflow/track2-drug-census/cenpe-feedback-data.json",
+          "sha256": "911c9d2fccd2a374c962dc3bdb4d469d4b91c4513f57b78918b934faf738357b",
+          "line": 1,
+          "location_status": "Integrated qualification of published counterpart; original preprint unverified"
+        }
+      ],
+      "current_decision_ids": [
+        "new-alisertib",
+        "new-aurora-balancing",
+        "new-centrinone",
+        "new-eg5-balancing",
+        "new-gsk923295",
+        "new-mg132",
+        "new-mln8054",
+        "new-tcs7010"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": "Qualification applies to the accessible published PMID41120338. Exact PPR918452 version/body remains unavailable; title/first-author metadata linkage does not establish unchanged text. No independent-study or new outer-reading credit.",
+      "qualified_source_relation": {
+        "original_source": "PPR918452",
+        "qualified_published_source": "MED:41120338",
+        "metadata_link_basis": "title-first-author match",
+        "preprint_text_or_version_verified": false
+      },
+      "remaining_gap_types": [
+        "original_preprint_version_and_text",
+        "pooled_MLN8054_exposure_and_protocol_conflicts",
+        "completed_fidelity_and_useful_function"
+      ]
+    },
+    {
+      "batch_review_index": 97,
+      "source": "MED",
+      "record_id": "23899403",
+      "pmid": "23899403",
+      "title": "Cell-cycle synchronization reverses Taxol resistance of human ovarian cancer cell lines.",
+      "original_followup_question": "What synchronization/release schedule and controls separate thymidine-induced cycle effects from Taxol resistance reversal, and is there in-vivo evidence?",
+      "frozen_source_abstract_sha256": "0ded413c54c8af7692ab863d7a1fd6619e348240a383c5016c9f670e135b5b35",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/96/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact synchronization-source qualification found. Thymidine use as a reagent does not establish supplementation or an in-vivo sensitizer.",
+      "remaining_question": "Check thymidine synchronization/release timing, matched controls and any actual animal Taxol-resensitization arm.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 102,
+      "source": "MED",
+      "record_id": "37935787",
+      "pmid": "37935787",
+      "title": "Breast cancers with high proliferation and low ER-related signalling have poor prognosis and unique molecular features with implications for therapy.",
+      "original_followup_question": "Do prespecified controlled analyses support immunotherapy benefit in the MKS-high/ERS-low subgroup beyond the nonsignificant pCR trend?",
+      "frozen_source_abstract_sha256": "cfe678c99c92873e84d561a767ef416c214e06592a937aacc95abcace90a0854",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/101/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No qualified prespecified controlled subgroup analysis found; the two abstract pCR trends remain nonsignificant.",
+      "remaining_question": "Check whether prespecified controlled analyses support MKS-high/ERS-low immunotherapy benefit beyond the P=.07 pCR trend.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 105,
+      "source": "MED",
+      "record_id": "38993610",
+      "pmid": "38993610",
+      "title": "Efficacy of EGFR Inhibitors and NSAIDs Against Basal Bladder Cancers in a Rat Model: Daily vs. Weekly Dosing, Combining EGFR Inhibitors with Naproxen, and Effects on RNA Expression.",
+      "original_followup_question": "Which lapatinib dose, initiation time, denominators and toxicity controls underlie the no-tumor combination result, distinct from established-tumor RNA arms?",
+      "frozen_source_abstract_sha256": "c3f8b6157c4b72f6390fcc6bff37fbddb5433d739d2bf2be820890a7654d1928",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/104/followup_reason"
+      },
+      "classification": "direct_primary_answers_with_unresolved_source_conflicts",
+      "judgment": "Direct source qualification establishes the combination identity, large-endpoint benefit, main-table denominators and separate RNA cohort; it deliberately leaves source conflicts unresolved.",
+      "remaining_question": "Resolve the main-versus-supplement denominators and contradictory carcinogen/treatment timing without reconstructing counts; obtain stronger toxicity assessment if a safety window is claimed.",
+      "source_qualified_answer_components": [
+        "Daily gavage lapatinib75mg/kg BW/day plus plain naproxen30mg/kg BW/day, initiated ten weeks after the finalOH-BBN according to methods; notNO-naproxen. The measured large palpable/>200mg endpoint improved; all-lesion eradication is not established.",
+        "Main Table2 combination n29,0%large endpoint and137mg mean versus n34,69% and356mg control.",
+        "Separate five-day RNA cohort; no combination RNA arm.",
+        "No formal synergy; unshown body weights do not establish comprehensive safety."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/bladder-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/bladder-qualification.md",
+          "sha256": "bc803ad6a9b390358ab6a79a480d0c2ee4f0f3651bc24e9b43f263cf9e482ed8",
+          "line": 9
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/bladder-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/bladder-qualification.json",
+          "sha256": "e99cf20851cc4b260b87a14db5c3da28064520c459d85db6fd8575f001345efd",
+          "line": 1
+        }
+      ],
+      "current_decision_ids": [
+        "new-lapatinib-bladder",
+        "new-naproxen-bladder",
+        "new-lapatinib-naproxen",
+        "new-erlotinib-bladder",
+        "new-gefitinib-bladder",
+        "new-no-naproxen",
+        "new-zileuton-bladder"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null,
+      "remaining_gap_types": [
+        "unresolved_source_denominator_and_schedule_conflicts",
+        "safety_not_established"
+      ]
+    },
+    {
+      "batch_review_index": 107,
+      "source": "MED",
+      "record_id": "28035071",
+      "pmid": "28035071",
+      "title": "Heterogeneity in sarcoma cell lines reveals enhanced motility of tetraploid versus diploid cells.",
+      "original_followup_question": "Which exact kinase inhibitors reduced sarcoma invasion without cytotoxicity, and were effects confirmed in vivo?",
+      "frozen_source_abstract_sha256": "cdfd43fd106ef52634ec3a32391c30b1db176494054006edef894eff0e640015",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/106/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "The unnamed kinase inhibitors have not been resolved by an exact-source qualification.",
+      "remaining_question": "Identify the inhibitors/doses that reduce sarcoma invasion independently of cytotoxicity and any actual in-vivo confirmation.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 122,
+      "source": "MED",
+      "record_id": "20015195",
+      "pmid": "20015195",
+      "title": "The kinetochore protein Cenp-F is a potential novel target for zoledronic acid in breast cancer cells.",
+      "original_followup_question": "Which intermediate/doses reverse zoledronic-acid CENP-F loss, and how do cancer cytotoxicity and normal-cell segregation outcomes compare?",
+      "frozen_source_abstract_sha256": "e728960ff4c4d2e04ecc14b454a751275928fd3d18c273618c850e1eb0769d96",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/121/followup_reason"
+      },
+      "classification": "direct_primary_answers_with_remaining_experimental_gaps",
+      "judgment": "The exact source qualifies E,E-farnesol partial CENP-F localization rescue, dose-specific geranylgeraniol evidence and zoledronic-acid/clodronate comparisons. Neither BUBR1 nor completed segregation rescue was measured.",
+      "remaining_question": "Quantitative cancer-versus-normal viability and chromosome outcomes remain unavailable; MCF-10A and apoptosis nulls and 150 µM GGOH reversal are data not shown. Farnesol correction of segregation and useful normal-cell function is untested.",
+      "source_qualified_answer_components": [
+        "Source-confirmed trans,trans/(E,E)-farnesol at 50/100 µM concurrently with 25 µM zoledronic acid for 48 h raised localized-cell fractions from 16.7% to 49.2%/60.0%, reported P<.01; native Figure 6A supports partial rescue, not full normalization.",
+        "Source-labelled trans-geranylgeraniol at 50/100 µM gave nonsignificant comparisons in Figure 6B; reversal at 150 µM was reported without displayed data or a separate high-dose timing protocol. Double-bond geometry is incompletely specified.",
+        "Zoledronic acid reduced localized CENP-F and increased metaphase-region misalignment; tripolar-morphology increases were nonsignificant. Clodronate disodium tetrahydrate 500 µM/48 h was an administered localization null, data not shown.",
+        "No total CENP-F/BUBR1 restoration, actual farnesylation measurement or completed daughter-chromosome rescue was established. Normal MCF-10A and preliminary apoptosis results were unshown; cancer pulse-to-assay timing remains limited."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/zoledronate-cenpf-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/zoledronate-cenpf-qualification.md",
+          "sha256": "7290d8e1bf0f009966dbf5314f10f9d6e4f5de269ae3be513c27e00e920d8fec",
+          "line": 1,
+          "location_status": "Integrated repository qualification"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/zoledronate-cenpf-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/zoledronate-cenpf-qualification.json",
+          "sha256": "975fb460410af8b8991bd4b0d86987470ac851b5285fe44c4eeb33e52b6cfab5",
+          "line": 1,
+          "location_status": "Integrated repository qualification"
+        }
+      ],
+      "current_decision_ids": [
+        "new-zoledronic-acid-cenpf",
+        "new-trans-trans-farnesol",
+        "new-trans-geranylgeraniol-source",
+        "new-clodronate-cenpf-control"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": "Bounded source-review notice check and distinct reading scopes retained in the qualification; no global notice guarantee.",
+      "remaining_gap_types": [
+        "unshown_normal_cell_and_cytotoxicity_comparisons",
+        "GGOH_identity_and_high_dose_quantification",
+        "completed_segregation_and_useful_function"
+      ]
+    },
+    {
+      "batch_review_index": 128,
+      "source": "MED",
+      "record_id": "36031387",
+      "pmid": "36031387",
+      "title": "Trip13 Depletion in Liver Cancer Induces a Lipogenic Response Contributing to Plin2-Dependent Mitotic Cell Death.",
+      "original_followup_question": "How are paclitaxel dose-response and Plin2 dependence measured separately from Trip13 depletion, with normal-cell controls?",
+      "frozen_source_abstract_sha256": "458d736c0441804f9c033a7165abd90f7eee6b2833f8aec3f1d34577da9bb144",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/127/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact Trip13/Plin2 qualification found; a genetic-depletion outcome does not resolve the separate paclitaxel exposure-response question.",
+      "remaining_question": "Qualify paclitaxel dose-response, Plin2 dependence and normal-cell controls separately from Trip13 depletion.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 133,
+      "source": "MED",
+      "record_id": "35302600",
+      "pmid": "35302600",
+      "title": "Aberrant Activation of Cell-Cycle-Related Kinases and the Potential Therapeutic Impact of PLK1 or CHEK1 Inhibition in Uterine Leiomyosarcoma.",
+      "original_followup_question": "What arm-specific tumor effect sizes, exposures and toxicity controls support BI-2536 monotherapy versus prexasertib/cisplatin?",
+      "frozen_source_abstract_sha256": "a6d97b1470631104641a7aad8f1364aca22dde3b8f21508af31742f655ff133b",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/132/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "Existing BI2536 sources concern patient ciliogenesis or UBAP2L/other mitotic perturbations, not the uterine leiomyosarcoma monotherapy/combination animal arms.",
+      "remaining_question": "Extract distinct BI-2536 monotherapy and prexasertib/cisplatin regimens, tumor effects, randomization and toxicity controls.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/intervention-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/intervention-qualification.md",
+          "sha256": "94e2bd56b6276234b8fe6e5feb7e07d362a1b696f4196e7f0cf5b4ff764e9e81",
+          "line": 24,
+          "relevance": "BI2536 UBAP2L experiment differs from leiomyosarcoma animal arms",
+          "decision_id": "new-plk1-reduction"
+        }
+      ],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": "Saved Preprint in link: PPR:PPR440054. This relation listing does not read linked notice/version/commentary content; any separately selected linked record retains its own reading entry, without extra independent-study credit."
+    },
+    {
+      "batch_review_index": 154,
+      "source": "MED",
+      "record_id": "41331237",
+      "pmid": "41331237",
+      "title": "CCDC41 Drives Oocyte Meiotic Progression by Promoting Rab11a/Rab7-Positive Vesicle Fusion with Target Membranes.",
+      "original_followup_question": "Which exact CDC20/cathepsin B inhibitors, exposures and oocyte models produced rescue, and were chromosome fidelity, fertilization or offspring measured?",
+      "frozen_source_abstract_sha256": "72c6ba59598bc8d9d353b6f27d05a79152ed38c4fa40057b71a19fc6713b9f66",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/153/followup_reason"
+      },
+      "classification": "direct_primary_answers_with_remaining_experimental_gaps",
+      "judgment": "Direct qualification identifies CP5V and CA-074 with doses and mouse-oocyte model, preserves real phenotype improvements, and establishes that drug-treated fidelity/fertility outcomes were not supplied.",
+      "remaining_question": "Resolve CP5V/CA-074 exposure clocks, donor-level replication and source timing conflicts; drug-treated chromosome counts, fertility and normal CA-074 controls remain absent.",
+      "source_qualified_answer_components": [
+        "Mouse CB6F1 oocytes with Ccdc41 morpholino depletion; actualCP5V5µM andCA-0741µM, not inferred Apcin or CA-074 methyl ester.",
+        "CP5V improves earlyGVBD; CA-074 improves abnormal-spindle fraction/prematureMII andMAD1 with incomplete normalization and no normal-drug arm.",
+        "Drug-treated chromosome-count/fertility benefit is not supplied; Figure5 chromosome-count rescue is geneticCcdc41cRNA."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/ccdc41-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/ccdc41-qualification.md",
+          "sha256": "fb2078363d90d3d8730d327842832456b56b9e95e3fc190d8689775e30fc5c82",
+          "line": 7
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/ccdc41-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/ccdc41-qualification.json",
+          "sha256": "a6250d9d0893dd6853e9cfd02a5ebebd51dbef5b0c25809acab6036ed1902865",
+          "line": 1
+        }
+      ],
+      "current_decision_ids": [
+        "new-cp5v",
+        "new-ca-074",
+        "new-concanamycin-a",
+        "new-mg132"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null,
+      "remaining_gap_types": [
+        "exact_exposure_timing_unresolved",
+        "drug_fidelity_fertility_endpoints_absent",
+        "normal_CA074_arm_absent",
+        "donor_replication_ambiguous"
+      ]
+    },
+    {
+      "batch_review_index": 156,
+      "source": "MED",
+      "record_id": "32849901",
+      "pmid": "32849901",
+      "title": "Study on Intervention Mechanism of Yiqi Huayu Jiedu Decoction on ARDS Based on Network Pharmacology.",
+      "original_followup_question": "What exact formulation, injury/treatment schedule and functional respiratory outcomes support the rat lung-protection claim?",
+      "frozen_source_abstract_sha256": "c03951fe44975c8b4ba71cebeddde29c09c2ff13eca64f6d066e73caa2e77b7d",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/155/followup_reason"
+      },
+      "classification": "direct_primary_question_answered_at_source_scope",
+      "judgment": "The exact eight-herb batch, pretreatment sequence and outcome scope are qualified. Qualitative lung histological protection and protein-marker changes are retained; no respiratory-function, survival or post-injury treatment outcome was measured.",
+      "remaining_question": "Resolve batch chemical characterization, actual group-specific gavage exposure, six allocated versus five plotted samples and raw normalized protein data. Blinded quantitative injury and respiratory outcomes plus a post-injury arm are needed for functional treatment claims.",
+      "source_qualified_answer_components": [
+        "Eight-herb aqueous preparation, batch20170320,122g crude recipe and1.22g crude equivalent/mL stock; no measured batch fingerprint or isolated-ingredient efficacy.",
+        "Male Sprague–Dawley rats,30 total, six per group, stated random allocation. Decoction6.1/12.2/24.4g crude/kg/day for seven days; LPS2mg/kg tail vein six hours after last gavage; lungs sampled16hours later.",
+        "Native H&E images support a qualitative protective appearance; no quantified injury score, oxygenation, lung mechanics, respiratory performance, survival or late recovery outcome.",
+        "Author-reported AKT1 reduction is marked at middle/high doses but not low dose; pan-Ras reductions are marked at all doses and are nonmonotonic. Protein direction does not establish restoration or causal mediation.",
+        "BUB1B is a disease-target database/network node, absent from the278 putative-drug-target list; no treated BUB1B RNA/BUBR1 protein, fidelity or MVA assay."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/yiqi-lung-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/yiqi-lung-qualification.md",
+          "sha256": "575bda7553da9aee4f7cce0e72c6d52baa3f11e3acab14ce8ec76edd9012ceba",
+          "line": 1,
+          "location_status": "Integrated repository file"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/yiqi-lung-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/yiqi-lung-qualification.json",
+          "sha256": "3aef3689748b0095990dccc7615ca227ada38f6e766528caead0848f4fc1c732",
+          "line": 1,
+          "location_status": "Integrated repository file"
+        }
+      ],
+      "current_decision_ids": [
+        "new-yiqi-huayu-jiedu-decoction"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": true,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": "Source declares data part of first author master dissertation; not an independently qualified additional cohort. Current official metadata have no linked notice, which is not an integrity guarantee.",
+      "resolution_scope": "Original source-level preparation, sequence and functional-outcome question answered, including explicit absence of respiratory-function outcomes. This does not establish respiratory efficacy or resolve all source reproducibility limits.",
+      "remaining_gap_types": [
+        "batch_chemical_characterization_absent",
+        "group_specific_actual_volume_concentration_not_tabulated",
+        "allocation6_vs_WB5_and_normalization_unresolved",
+        "quantitative_histology_and_respiratory_function_absent",
+        "postinjury_arm_and_healthy_mixture_control_absent"
+      ]
+    },
+    {
+      "batch_review_index": 159,
+      "source": "MED",
+      "record_id": "24194906",
+      "pmid": "24194906",
+      "title": "Resveratrol protects mouse oocytes from methylglyoxal-induced oxidative damage.",
+      "original_followup_question": "What resveratrol dose/timing and chromosome or developmental outcomes support protection beyond methylglyoxal stress markers?",
+      "frozen_source_abstract_sha256": "6102bb3296e1066ef1b8d2ccc8104dbbeab842eb570978aa60d82ff79da73c0a",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/158/followup_reason"
+      },
+      "classification": "direct_primary_question_answered_at_study_scope",
+      "judgment": "Direct oocyte-source qualification now documents exact study-level dose/timing as well as partial maturation/alignment benefit and kinetochore-localization interpretation. Figure7-specific exposure and downstream fidelity/development remain unresolved.",
+      "remaining_question": "Do not assign the study-wide regimen to Figure7: its own BubR1 concentration/sampling time is unspecified. Preserve the lowest-dose plot/text conflict and absent chromosome-count, lineage, fertilization and offspring outcomes.",
+      "source_qualified_answer_components": [
+        "PMID24194906 was fully main-text read by root with native Figures2/3/7; partial polar-body extrusion/spindle-alignment benefit is directly qualified.",
+        "Extrusion21.8%to53.3% at highest tested concentration versus80.5%control; not full restoration.",
+        "BubR1 kinetochore signal is relieved injury-associated localization, not increased total protein.",
+        "No chromosome-count, lineage, offspring or MVA-muscle endpoint establishes faithful rescue; lowest-dose graph/text discrepancy remains.",
+        "Already-read study parameters now documented: resveratrol5/10/25µM with75µM methylglyoxal inM2; GV damage/mitochondrial assays6h with2.5µM milrinone, MI8.5h, MII/PBE12h;53.3%PBE belongs to25µM. Co-culture does not establish reversal after a separate12h insult."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/resveratrol-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/resveratrol-qualification.md",
+          "sha256": "6ea79fc71f060a81bcd3ca7182f6aa65edb31522c69325af1e4902d4b311ca6a",
+          "line": 27
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/resveratrol-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/resveratrol-qualification.json",
+          "sha256": "38a9d73315d808c11a0672b32ef7052ef20a6f1229f2b8f25b1795cb73e563be",
+          "line": 1
+        }
+      ],
+      "current_decision_ids": [
+        "new-resveratrol"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": true,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null,
+      "remaining_gap_types": [
+        "Figure7_specific_dose_and_sampling_time_not_reported",
+        "lowest_dose_source_discrepancy",
+        "development_fidelity_endpoints_absent"
+      ],
+      "documentation_gap_action": "Study-level exposure documentation gap closed by root from already-read source; no new unique source credit.",
+      "resolution_scope": "Original study-level regimen and protection-beyond-stress-markers question answered. Figure7-specific exposure and unmeasured developmental/fidelity endpoints remain explicitly limited."
+    },
+    {
+      "batch_review_index": 164,
+      "source": "MED",
+      "record_id": "31405115",
+      "pmid": "31405115",
+      "title": "α-Tocopherol Modulates Non-Amyloidogenic Pathway and Autophagy in an In Vitro Model of Alzheimer's Disease: A Transcriptional Study.",
+      "original_followup_question": "What α-tocopherol exposures and orthogonal viability/neural-function controls support the Aβ culture protection?",
+      "frozen_source_abstract_sha256": "e3af9e9bd7eca1d3955334c9656ea3ea525898330f1e89a398e2977ca57b1e04",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/163/followup_reason"
+      },
+      "classification": "direct_primary_question_answered_at_source_scope",
+      "judgment": "The Aβ/alpha-tocopherol primary now directly qualifies dose/timing, both high-dose MTT positives, incomplete protection, and missing orthogonal viability/neural-function controls. The measured RNA direction is downward; no protein or functional BUBR1 inference is admitted.",
+      "remaining_question": "Orthogonal viable-cell/death/neural-function outcomes and cell-free MTT interference controls were not supplied; their absence does not prove artifact. Alpha-tocopherol stereochemistry, formulation/vehicle and measured exposure remain unspecified. RNA lacks an uninjured comparator, exact BUB1B q/P/units and protein/fidelity endpoints.",
+      "source_qualified_answer_components": [
+        "Retinoic-acid-differentiated SH-SY5Y cells received alpha-tocopherol24h before another24h with10µM Aβ1–42; no delayed-after-injury rescue arm was reported.",
+        "100µM improved MTT versus Aβ alone(P<.0001) but remained below uninjured control(P<.001).200µM also improved MTT(P<.001) and remained below control(P<.0001); no extra benefit over100µM was established.",
+        "10/50µM combinations were not significantly improved versus Aβ. Alpha-tocopherol alone10–200µM did not reduce the MTT readout; this is not comprehensive safety.",
+        "MTT was the only quantified viability assay; no orthogonal death/cell-count or cell-free interference experiment was supplied. Representative iNOS/Nrf2 staining is qualitative, not directROS/neural-function/viability confirmation.",
+        "At100µM, Table3 BUB1B RNA falls192.20to162.39 with listedlog2−.24. Expression units and exact geneq/P are unspecified; q<.05 is the selected-gene threshold. No BUBR1 protein/localization/checkpoint or chromosome-fidelity result was supplied."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/tocopherol-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/tocopherol-qualification.md",
+          "sha256": "49db2baaf9183d4181a6f7e7cfa19fee005ad2e6918e009459b1dbb3c9fb493a",
+          "line": 1
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/tocopherol-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/tocopherol-qualification.json",
+          "sha256": "ed7a0db30b36313158ca576c23c764e21083bae50478e1ab26d6727d2ff9199b",
+          "line": 1
+        }
+      ],
+      "current_decision_ids": [
+        "new-alpha-tocopherol"
+      ],
+      "related_evidence_is_not_resolution": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/translation-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/translation-qualification.md",
+          "sha256": "8790df06f7ca78acffc55817a9e516d9ae2bcd26219811b53f80f43d7984cac8",
+          "line": 60,
+          "relevance": "DL-alpha-tocopherol co-comparator in aged oocytes; not the Aβ model or an interchangeable stereochemical/formulation claim",
+          "decision_id": "new-liproxstatin"
+        }
+      ],
+      "full_original_composite_question_resolved": true,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null,
+      "resolution_scope": "Original study-level exposure and orthogonal-control question answered; quantified MTT protection remains an assay result without proved cell-survival/neural-function rescue.",
+      "remaining_gap_types": [
+        "orthogonal_viability_and_neural_function_absent",
+        "MTT_interference_control_absent_not_proven_artifact",
+        "preparation_vehicle_and_exposure_ambiguities",
+        "RNA_reference_units_exact_q_and_function_unresolved",
+        "catalog_exact_name_relation_ambiguous_not_preparation_identity"
+      ],
+      "catalog_identity_boundary": {
+        "status": "AMBIGUOUS_MULTIPLE_ENTITIES",
+        "candidates": [
+          {
+            "id": "CHEMBL2108106",
+            "name": "TOCOFERSOLAN"
+          },
+          {
+            "id": "CHEMBL3989727",
+            "name": "VITAMIN E"
+          }
+        ],
+        "meaning": "Raw exact-alias relations only; neither is verified as the experimental preparation or supplies approval/efficacy equivalence."
+      }
+    },
+    {
+      "batch_review_index": 182,
+      "source": "MED",
+      "record_id": "26885717",
+      "pmid": "26885717",
+      "title": "Probing the catalytic functions of Bub1 kinase using the small molecule inhibitors BAY-320 and BAY-524.",
+      "original_followup_question": "What cancer-versus-RPE1 exposure responses and selectivity controls qualify BAY-320/BAY-524 paclitaxel sensitization?",
+      "frozen_source_abstract_sha256": "5ebd703e615ea5047e2178ad92afad94c384ebf76068c87807404ce42cbff4a1",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/181/followup_reason"
+      },
+      "classification": "direct_primary_question_answered_at_source_scope",
+      "judgment": "The integrated BAY source qualification now answers cancer-versus-RPE1 exposure, endpoint and specificity questions with explicit compound-specific limits; the previous IC50 assay conflation is corrected.",
+      "remaining_question": "No BAY animal efficacy/PK/tolerability or clinical window is supplied. BAY524 lacks the broad panels and formal fixed-ratio synergy study; inhibitor-resistant target rescue and raw experiment-level combination uncertainty remain absent. These are documented limits, not a reason to repeat the now-answered study-level question.",
+      "source_qualified_answer_components": [
+        "BAY320/BAY524 IC50s680±280/450±60nM come from insect-cell-expressed humanBub1 residues704–1085 with synthetic peptide/TR-FRET at2mMATP. The WT/KD LAP-Bub1-H2A assay is separate at100µMATP.",
+        "HeLa proliferationIC50s: BAY3204.0±1.4µM alone versus0.67±0.27µM with3nMpaclitaxel; BAY5248.1±1.2 versus0.64±0.59µM. Native table assay duration/n are not specified.",
+        "Seven-day colony comparisons use3µMBAY320 or7/10µMBAY524 with1–4nMpaclitaxel; relativeRPE1 sparing depends on dose/endpoint. At4nMpaclitaxel, nativeRPE1 combination bars show essentially all scored cells with severe errors.",
+        "Formal96h Chou–Talalay synergy was tested for BAY320 inHeLa/NCI-H1299, not BAY524/RPE1. HeLaZ10 is above theCI≤0.8 cutoff; not every ratio is synergistic.",
+        "BAY320 panels provide222 activity and403 binding entries under specified conditions, with partial off-target effects and noBUB1B row; BAY524 does not inherit these panels. No animal efficacy/PK/tolerability result or BUBR1 restoration is supplied."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/bay-bub1-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/bay-bub1-qualification.md",
+          "sha256": "18b1eccae2ec7da3aee47ed08657c0ce94ed7af97555555ae6782c71960b72de",
+          "line": 1
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/bay-bub1-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/bay-bub1-qualification.json",
+          "sha256": "86af3024a163efcf08d5b5ac6a3abd36e58d17c1f00134ebe1f478843dd5eafb",
+          "line": 1
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/appraisal.md",
+          "repo_relative": "workflow/track2-drug-census/appraisal.md",
+          "sha256": "000bf69c637c61a85c3045228039b2cefec4a70172d6980c20e34713e8d91138",
+          "line": 33
+        }
+      ],
+      "current_decision_ids": [
+        "new-bay320",
+        "new-bay524"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": true,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null,
+      "remaining_gap_types": [
+        "BAY524_broad_panel_and_formal_synergy_absent",
+        "no_inhibitor_resistant_target_rescue",
+        "no_animal_or_clinical_window",
+        "experiment_level_combination_uncertainty_unavailable"
+      ],
+      "resolution_scope": "Original study-level exposure/response/selectivity question answered; no safety/efficacy extrapolation."
+    },
+    {
+      "batch_review_index": 183,
+      "source": "MED",
+      "record_id": "18068629",
+      "pmid": "18068629",
+      "title": "The extracellular matrix protein TGFBI induces microtubule stabilization and sensitizes ovarian cancers to paclitaxel.",
+      "original_followup_question": "What recombinant TGFBI exposures and in-vivo treatment controls support sensitization beyond clinical staining correlations?",
+      "frozen_source_abstract_sha256": "4e46e4afcb92a7c51c3779f1d3d7907e49ac0a32fdb5e0bd4c2860d7e4db55a0",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/182/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact TGFBI-source qualification found; recombinant-protein cell sensitization is distinct from human tumor-staining correlation.",
+      "remaining_question": "Extract recombinant TGFBI exposures and any actual in-vivo administered-protein controls, retaining the observational clinical boundary.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 184,
+      "source": "MED",
+      "record_id": "42454028",
+      "pmid": "42454028",
+      "title": "Glycolysis-mediated H3K18la modifications drive aggressive bladder cancer through metabolic and epigenetic reprogramming.",
+      "original_followup_question": "Which glycolysis inhibitors and animal exposures produced benefit, distinct from LDHA genetic knockdown?",
+      "frozen_source_abstract_sha256": "ed9c3278e6a3519d960e573722114b9059e3b47264e02298ddc48bc5a3ec3313",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/183/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact-source glycolysis-inhibitor identity/animal-arm qualification found. Other 2DG or lactylation studies cannot identify the unnamed interventions here.",
+      "remaining_question": "Identify the actual glycolysis compounds and animal exposures, and separate their effects from LDHA knockdown.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 218,
+      "source": "MED",
+      "record_id": "28337968",
+      "pmid": "28337968",
+      "title": "CRISPR/Cas9 mutagenesis invalidates a putative cancer dependency targeted in on-going clinical trials.",
+      "original_followup_question": "How do OTS167 efficacy/selectivity and alternative targets hold up after the MELK-null control, distinct from the invalidated MELK dependency?",
+      "frozen_source_abstract_sha256": "bbf15bd9760000dbafacf1f53151d22a221d4b5018b8d756775bda07f82a49ec",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/217/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact-source post-MELK-null OTS167 qualification found; the abstract undermines target dependence while retaining drug activity.",
+      "remaining_question": "Check actual OTS167 efficacy/selectivity and experimentally supported alternative targets after the MELK-null control; do not infer no anticancer activity.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 225,
+      "source": "MED",
+      "record_id": "35624874",
+      "pmid": "35624874",
+      "title": "Diclofenac: A Nonsteroidal Anti-Inflammatory Drug Inducing Cancer Cell Death by Inhibiting Microtubule Polymerization and Autophagy Flux.",
+      "original_followup_question": "Do exposure and normal-cell data support diclofenac's 170–200 μM anticancer effect, and was the combination formally tested for synergy?",
+      "frozen_source_abstract_sha256": "c950fc69683cea41a2d9a3cf22b34c5372119ad8f738dd5a5fe806d52127b6f7",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/224/followup_reason"
+      },
+      "classification": "direct_primary_answers_with_unresolved_source_conflicts",
+      "judgment": "Diclofenac sodium has cellular microtubule/mitotic and autophagy-associated effects plus low-µM pancreatic 5-FU combination signals versus vehicle, without universal superiority over the stronger single agent. No measured PK, normal-cell window or formal synergy analysis is supplied; the reported potency and effect normalization remain unresolved.",
+      "remaining_question": "Source reports200µM half-maximal lethality but Figure1G retains about75% tetrazolium signal. No fittedEmax/curve/definition establishes a50%-viability concentration. Separate18h Figure1G/6B series differ. Resolve potency/exposure and test normal cells and formal interaction before translational inference.",
+      "source_qualified_answer_components": [
+        "Diclofenac sodium Sigma D6899, not an authenticated clinical formulation; 0.1%DMSO cellular and0.01%DMSO cell-free controls.",
+        "HeLa mitotic effects around170–200µM and higher-dose tubulin/trafficking assays are measured cancer-cell perturbations, not normal-function or checkpoint rescue.",
+        "AsPC-1 and MIA PaCa-2 combinations use1–2.5µM diclofenac with 5-FU for18h and retain lower tetrazolium signals versus vehicle; superiority over the stronger single agent is not uniform.",
+        "Reported t-tests/comparisons with control do not establish Bliss/Loewe/combination-index synergy; they also do not prove synergy absent.",
+        "No measured PK, animal efficacy or normal-cell experiment; no BUB1B/BUBR1 response assay."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/diclofenac-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/diclofenac-qualification.md",
+          "sha256": "5c39b325ff79f2c72e1394d5e2f349c2484be33775c97e033e0102ededeb1e8b",
+          "line": 1,
+          "location_status": "Integrated repository file"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/diclofenac-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/diclofenac-qualification.json",
+          "sha256": "b911faa6e77ffbe98a5da2c15973639d814d6eabee26a4ce628c1c07ddeb6d6b",
+          "line": 1,
+          "location_status": "Integrated repository file"
+        }
+      ],
+      "current_decision_ids": [
+        "new-diclofenac"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null,
+      "resolution_scope": "Material source-qualified answers supplied; original potency/exposure component remains limited by undefined effect normalization and inconsistent plotted series.",
+      "remaining_gap_types": [
+        "potency_effect_normalization_and18h_curve_discrepancies",
+        "measured_exposure_and_normal_cell_window_absent",
+        "formal_combination_interaction_absent",
+        "BUB1B_or_MVA_response_absent"
+      ]
+    },
+    {
+      "batch_review_index": 227,
+      "source": "MED",
+      "record_id": "28147323",
+      "pmid": "28147323",
+      "title": "The DNA repair function of CUX1 contributes to radioresistance.",
+      "original_followup_question": "Which OGG1 inhibitors show radiation sensitization after normalization to baseline toxicity and with normal-cell comparators?",
+      "frozen_source_abstract_sha256": "997eff655a073637ede913b61cd6d7180b3e29b9358917e594eea5c9909a122d",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/226/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact-source OGG1 inhibitor identity or normalized radiosensitization qualification found.",
+      "remaining_question": "Identify the OGG1 inhibitors and assess radiosensitization after baseline-toxicity normalization with normal-cell comparators.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 228,
+      "source": "MED",
+      "record_id": "37894450",
+      "pmid": "37894450",
+      "title": "A Novel ASCT2 Inhibitor, C118P, Blocks Glutamine Transport and Exhibits Antitumour Efficacy in Breast Cancer.",
+      "original_followup_question": "What ASCT2-specific rescue/selectivity controls distinguish C118P's glutamine effects from its microtubule activity?",
+      "frozen_source_abstract_sha256": "d25823de64bdd703e6db2b31e450e114d7882ca941f7de7d230149e7b0c87d53",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/227/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact C118P/ASCT2 qualification found; binding and cell response do not distinguish ASCT2 mediation from microtubule activity.",
+      "remaining_question": "Check ASCT2-specific rescue/selectivity and arm-specific glutamine versus tubulin effects; do not infer an animal efficacy arm from a mouse cytokine assay.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 229,
+      "source": "MED",
+      "record_id": "33584305",
+      "pmid": "33584305",
+      "title": "Dual Inhibition of γ-Tubulin and Plk1 Induces Mitotic Cell Death.",
+      "original_followup_question": "What exposures, normal-cell comparisons and formal interaction analyses support gatastatin/BI2536 benefit?",
+      "frozen_source_abstract_sha256": "2b5a3515aa79b8049eee983c471cccf10ad38eea50410c0326e6b0bb9014c1d4",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/228/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "Existing BI2536 qualifications do not cover the gatastatin combination, exposure matching or formal interaction analysis.",
+      "remaining_question": "Extract gatastatin/BI2536 doses, normal-cell comparisons and the quantitative combination model.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/intervention-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/intervention-qualification.md",
+          "sha256": "94e2bd56b6276234b8fe6e5feb7e07d362a1b696f4196e7f0cf5b4ff764e9e81",
+          "line": 24,
+          "relevance": "Different BI2536 experiment, not gatastatin combination",
+          "decision_id": "new-plk1-reduction"
+        }
+      ],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 231,
+      "source": "MED",
+      "record_id": "34124073",
+      "pmid": "34124073",
+      "title": "Echinoderm Microtubule Associated Protein Like 1 Is Indispensable for Oocyte Spindle Assembly and Meiotic Progression in Mice.",
+      "original_followup_question": "Does PD166285 rescue chromosome fidelity/fertility as well as MII progression in EML1-deficient oocytes, and at what dose/timing?",
+      "frozen_source_abstract_sha256": "99b744609792390424fad9de8af2344bd881cdf7e7f6a1350650684ba43488ae",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/230/followup_reason"
+      },
+      "classification": "direct_primary_answers_with_remaining_experimental_gaps",
+      "judgment": "The newly integrated EML1 qualification directly answers drug identity, concentration, actual acute-morpholino model, early progression benefit and schedule-specific structural limits; it does not establish fidelity/fertility.",
+      "remaining_question": "Resolve delayed4h-versus6h exposure and morpholino-hold conflicts; normal drug-treated controls, drug-arm denominators and vehicle details remain missing, and drug-treated chromosome counts, fertilization, development or offspring were not supplied.",
+      "source_qualified_answer_components": [
+        "PD16628510µM, Tocris3785 matched to dihydrochloride; broad kinase activity rather than established selectiveWEE1/2 inhibition.",
+        "Drug experiments use acuteEML1 morpholino depletion in normal mouse oocytes, not drug treatment of the genetic-mutant animals.",
+        "Continuous treatment fromIVM start for20h or delayed addition after14h: earlyGVBD accelerates and both regimens reduce abnormal pronucleus formation.",
+        "Continuous-drug normal-spindle comparison isNS; delayed treatment hasP<.05 but most treated oocytes remain abnormal.",
+        "BubR1 imaging and mutant fertility results are genetic-only; no drug-specific euploidy/fertility benefit is reported."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/eml1-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/eml1-qualification.md",
+          "sha256": "d148e1a09b1461b67d12724187c2f3654bbcd571452f1c5496200080f8d3f59d",
+          "line": 10
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/eml1-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/eml1-qualification.json",
+          "sha256": "431caf61bac837a031ed61188f921389002e61e2a9af680f422c1a5cf6576153",
+          "line": 1
+        }
+      ],
+      "current_decision_ids": [
+        "new-pd166285"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null,
+      "remaining_gap_types": [
+        "delayed_exposure_time_conflict",
+        "normal_drug_and_vehicle_controls_absent",
+        "drug_arm_denominators_unreported",
+        "drug_fidelity_and_development_endpoints_absent"
+      ]
+    },
+    {
+      "batch_review_index": 271,
+      "source": "MED",
+      "record_id": "23403633",
+      "pmid": "23403633",
+      "title": "The investigational Aurora kinase A inhibitor MLN8237 induces defects in cell viability and cell-cycle progression in malignant bladder cancer cells in vitro and in vivo.",
+      "original_followup_question": "Inspect schedule/dose, quantitative synergy, RT4 responses and normal/tolerability controls before assigning a therapeutic window.",
+      "frozen_source_abstract_sha256": "8c176c87f049a3b4cc8f0dbc0738ec65287e8a93c05d568cb16e6c1a5e08254e",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/270/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact MLN8237 bladder-source qualification found; papilloma-derived RT4 cannot be treated as normal tissue.",
+      "remaining_question": "Check schedule/dose, sequential-combination interaction statistics, RT4 response and actual normal/tolerability controls; keep the linked commentary unread unless separately reviewed.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": "Metadata links commentary PMID23459035; its body was not read in this partner task."
+    },
+    {
+      "batch_review_index": 299,
+      "source": "MED",
+      "record_id": "37242727",
+      "pmid": "37242727",
+      "title": "Exploring the Molecular Players behind the Potentiation of Chemotherapy Effects by Durvalumab in Lung Adenocarcinoma Cell Lines.",
+      "original_followup_question": "Inspect cellular viability/combination metrics, RB1 perturbation and antibody controls before assigning the potentiation mechanism or clinical significance.",
+      "frozen_source_abstract_sha256": "4981662b050996d5d5837f74808ab8f520873922d8f85716bafab0e45d2cc072",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/298/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact durvalumab-cell-combination qualification found; cultured cancer-cell responses are not proof of patient immune potentiation.",
+      "remaining_question": "Check cellular viability/interaction metrics, RB1 perturbation, antibody controls and exposure relevance.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 307,
+      "source": "MED",
+      "record_id": "23940287",
+      "pmid": "23940287",
+      "title": "Effects of the selective MPS1 inhibitor MPS1-IN-3 on glioblastoma sensitivity to antimitotic drugs.",
+      "original_followup_question": "Inspect doses, brain exposure, compound selectivity, single-agent controls and toxicity scope; retain orthotopic survival benefit without assigning it to inhibitor monotherapy or normal checkpoint rescue.",
+      "frozen_source_abstract_sha256": "918bc1a8780f208d2d7c3df8fac815b5bb0912b896e5d54fd604801e8b63b425",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/306/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact MPS1-IN-3 glioblastoma qualification found; different MPS1 inhibitors cannot close the compound-specific survival and toxicity question.",
+      "remaining_question": "Qualify dose/brain exposure, selectivity, single-agent controls and measured toxicity for the small orthotopic combination-survival study.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 320,
+      "source": "MED",
+      "record_id": "33804489",
+      "pmid": "33804489",
+      "title": "CENPE Inhibition Leads to Mitotic Catastrophe and DNA Damage in Medulloblastoma Cells.",
+      "original_followup_question": "Inspect dose/time, target engagement and normal neural-progenitor comparisons before therapeutic-window claims; mitotic catastrophe is not checkpoint restoration.",
+      "frozen_source_abstract_sha256": "327c18fca8be3893838f25b442d0b9a248d8095b2aa9ad764d27f2ed9eed24fd",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/319/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "Existing GSK923295 qualification is a LIC-depletion HeLaM structural counterexample, not the medulloblastoma/normal-neural-progenitor comparison.",
+      "remaining_question": "Qualify medulloblastoma dose/time, target engagement and matched normal neural-progenitor response; retain antitumor activity and do not extrapolate the HeLaM result.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/intervention-identity-followup.md",
+          "repo_relative": "workflow/track2-drug-census/intervention-identity-followup.md",
+          "sha256": "eb1d7385ef83521d4cae252866b970fdbfc22d7241ed864104e9592c0cec096f",
+          "line": 76,
+          "relevance": "LIC-depletion HeLaM experiment, not medulloblastoma neural-cell window",
+          "decision_id": "new-gsk923295"
+        }
+      ],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 336,
+      "source": "MED",
+      "record_id": "21179037",
+      "pmid": "21179037",
+      "title": "PBOX-15, a novel microtubule targeting agent, induces apoptosis, upregulates death receptors, and potentiates TRAIL-mediated apoptosis in multiple myeloma cells.",
+      "original_followup_question": "Inspect doses, primary-cell denominators, normal-cell window and quantitative combination interaction; distinguish potentiation from demonstrated clinical efficacy.",
+      "frozen_source_abstract_sha256": "673439d8dd1ed353ae5e1cfe028716a54a40ed99abec455a9cea31a2da57a076",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/335/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact PBOX-15/TRAIL qualification found; primary patient cells are ex vivo, not a treated clinical cohort.",
+      "remaining_question": "Extract compound/protein doses, primary-cell denominators, normal-cell window and quantitative interaction analysis.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 340,
+      "source": "MED",
+      "record_id": "22963191",
+      "pmid": "22963191",
+      "title": "Kalanchoe tubiflora extract inhibits cell proliferation by affecting the mitotic apparatus.",
+      "original_followup_question": "Resolve cell identities, fraction composition, dose labeling and normal-cell controls; preserve measured antimitotic activity without inferring whole-plant efficacy or safety.",
+      "frozen_source_abstract_sha256": "85abfc8113d21300544ae2d214b92989cfcd3a2064726afd86a4960a8d3a2e2f",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/339/followup_reason"
+      },
+      "classification": "direct_primary_answers_with_remaining_experimental_gaps",
+      "judgment": "The exact ethanol-extracted n-butanol fraction KT-NB has cancer-culture growth inhibition and mitotic defects. WI-38 is relatively spared but affected. Preparation composition and source reporting conflicts remain unresolved; no BUB1B/BubR1 response was measured.",
+      "remaining_question": "Plant part/voucher, chemical composition and active-content standardization remain unknown; S1 doses/time normalization and Figure 4/7 denominators are unresolved. No isolated constituent, causal target or useful normal-cell/MVA rescue is established.",
+      "source_qualified_answer_components": [
+        "Author Leu collected and identified the plant. Ethanol extraction followed by water/chloroform/n-butanol partition yielded KT-NB, the only assayed fraction. This is not a household plant, tea, juice or single-molecule exposure.",
+        "HeLa counts and cancer-panel MTT fall; 6.75 µg/mL for 24 h produces multipolar spindles and chromosome misalignment. These are perturbation outcomes, not faithful division or useful-cell restoration.",
+        "WI-38 supplement curves remain below their contemporaneous untreated control despite relative sparing versus A549. Caption versus plotted dose series disagree; untreated controls grow above the time-zero 100% reference.",
+        "HEp-2 is registry-listed as a HeLa derivative. Figure 4 phase totals are incomplete and 72 h sub-G1 is 33% in the native table versus 35% in prose; Figure 7D denominator is ambiguous and distinct from the all-mitotic Figure 7E endpoint.",
+        "BubR1 appears only in CENP-E literature background. No BUB1B RNA, BubR1 protein/function, direct target assay, animal efficacy or MVA benefit was supplied."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/kalanchoe-mitosis-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/kalanchoe-mitosis-qualification.md",
+          "sha256": "00e9087e21a04e7b6e1332293036b1225e7470be65db8085058293973adca06d",
+          "line": 1,
+          "location_status": "Integrated repository qualification"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/kalanchoe-mitosis-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/kalanchoe-mitosis-qualification.json",
+          "sha256": "fafb543debe7f9d0aa339ffbbdc9e13330a88ed85de30dcec52f194eaa488410",
+          "line": 1,
+          "location_status": "Integrated repository qualification"
+        }
+      ],
+      "current_decision_ids": [
+        "new-kalanchoe-kt-nb"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": "Bounded source-review notice check and distinct reading scopes retained in the qualification; no global notice guarantee.",
+      "remaining_gap_types": [
+        "preparation_composition_and_reproducibility",
+        "dose_normalization_and_denominator_conflicts",
+        "causal_target_and_useful_normal_cell_function"
+      ]
+    },
+    {
+      "batch_review_index": 344,
+      "source": "MED",
+      "record_id": "39668392",
+      "pmid": "39668392",
+      "title": "Identifying Anti-cancer Effects and Exploring the Mechanism of an MPS1/TTK Inhibitor in Gastric Cancer.",
+      "original_followup_question": "Resolve chemical identity/exposures, target-selectivity evidence and sensitive/resistant/normal-cell controls before assigning a compound appraisal or broad CIN sensitivity claim.",
+      "frozen_source_abstract_sha256": "1ebdcc2a7c3c2c551587fa0585428e091722327456a29a0dd06a287fe850f3ac",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/343/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "Compound-9 remains chemically unresolved in the current package; target or numbering similarity cannot join it to an existing MPS1 compound.",
+      "remaining_question": "Resolve chemical identity/exposure and target-selectivity evidence, retaining both sensitive and resistant gastric lines and normal controls.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 358,
+      "source": "MED",
+      "record_id": "36190432",
+      "pmid": "36190432",
+      "title": "HIF2 Inactivation and Tumor Suppression with a Tumor-Directed RNA-Silencing Drug in Mice and Humans.",
+      "original_followup_question": "Inspect RNA formulation/dose, resistant-mutant coverage, phase1 denominator/response durability and safety; distinguish the highlighted patient from the full trial and PT2399 from belzutifan.",
+      "frozen_source_abstract_sha256": "f2414e8146bd580ca09f8231bd803375c202fa13f5c8da0254efcde632ee2b4b",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/357/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact siHIF2 formulation/trial qualification found; the highlighted responder does not resolve the full phase1 denominator, durability or safety.",
+      "remaining_question": "Extract RNA formulation/dose, resistant-mutant coverage, full trial denominator, response durability and safety; keep PT2399 and belzutifan distinct.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 390,
+      "source": "MED",
+      "record_id": "31477687",
+      "pmid": "31477687",
+      "title": "Astrocytes are direct cellular targets of lithium treatment: novel roles for lysyl oxidase and peroxisome-proliferator activated receptor-γ as astroglial targets of lithium.",
+      "original_followup_question": "Inspect cell model, lithium formulation/exposure and direct morphological/functional endpoints; distinguish astroglial target response from demonstrated disease rescue.",
+      "frozen_source_abstract_sha256": "85e085f23f2d85f36b21ec079b3488380ce0c97913aa3f6ec6abb23f792741a5",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/389/followup_reason"
+      },
+      "classification": "direct_primary_answers_with_unresolved_source_conflicts",
+      "judgment": "The LiCl formulation, nominal ex-vivo schedule and actual sampled-field morphology/count outcomes are qualified. Lower deposited bulk Bub1b signals are separately supported descriptively, without protein or useful-neural-function rescue. Three actual Figure 4 comparator treatments remain distinct.",
+      "remaining_question": "Resolve mouse background, nerve/donor/array pooling, cRNA input and actual tissue exposure; distinguish reporter counts from division/survival and test neuronal function. Resolve BAPN concentration and the flavonoid preparation wording before exposure/chemical-equivalence claims.",
+      "source_qualified_answer_components": [
+        "LiCl was applied at a nominal 20 mM for three days to adult mouse optic-nerve organotypic cultures with retina attached; the asserted 1–2 mM tissue level was not measured here.",
+        "GFAP-EGFP-positive sampled-field counts increased and stellate morphology changed to polarised/palisade-like processes. The observations do not independently establish cell birth, survival or neuron-supportive function.",
+        "All three GPL1261 exact-symbol Bub1b probes have lower deposited MAS5.0 signals, but native detection calls include one all-absent probe and one absent lithium sample in another probe. These are lower processed features, not a validated RNA-abundance decrease, differential-expression P/FDR, BUBR1 protein or checkpoint-function measurement.",
+        "The study independently administered BAPN (dose unknown), pioglitazone (1 mM) and a nominal 3 µM source-labelled methyl-epicatechin preparation for three days, with reporter-count/morphology positives. No LiCl RNA result transfers to these agents, and no formal lithium equivalence was tested.",
+        "Mouse strain, pooling/replicate units and 10-versus-7 µg cRNA input remain inconsistent across paper/deposit. The three comparator identities/exposures retain the source limits."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/lithium-astrocyte-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/lithium-astrocyte-qualification.md",
+          "sha256": "e1c21e2f7781460c6307ec93fedfaf33386cc951e8815a167f2e41e32424176a",
+          "line": 1,
+          "location_status": "Integrated repository file"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/lithium-astrocyte-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/lithium-astrocyte-qualification.json",
+          "sha256": "8d09c16d3bb08d85dd8a056354eb4250d84bdd2050831c94f44f5cb94384e6db",
+          "line": 1,
+          "location_status": "Integrated repository file"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/lithium-astrocyte-expression.json",
+          "repo_relative": "workflow/track2-drug-census/lithium-astrocyte-expression.json",
+          "sha256": "6f920f8bffee9910c97ff74c4cbf511a61eeb7303cfbfd91133f14444a5bc53c",
+          "line": 1,
+          "location_status": "Integrated repository file"
+        }
+      ],
+      "current_decision_ids": [
+        "new-lithium-chloride",
+        "new-beta-aminopropionitrile",
+        "new-pioglitazone",
+        "new-3-prime-o-methylepicatechin"
+      ],
+      "related_evidence_is_not_resolution": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/catalog-independent-review.md",
+          "repo_relative": "workflow/track2-drug-census/catalog-independent-review.md",
+          "sha256": "bd071a8458ead33a7ff3619e3bd4f29eff5fa50588ce0beb549ecb5cfe86ad3f",
+          "line": 82,
+          "relevance": "LiCl/Axin1 oocyte experiment, not lithium astrocyte response",
+          "decision_id": "new-lithium-chloride"
+        }
+      ],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": "One primary ex-vivo source and its linked GEO deposit; neither three probes nor three comparator compounds are independent study replications. Current metadata status remains attributed to source reviewer.",
+      "resolution_scope": "Material source-qualified answers supplied, including the absence of useful-neural-function testing; exact model/exposure/cohort components remain limited by source conflicts.",
+      "remaining_gap_types": [
+        "paper_deposit_mouse_background_conflict",
+        "nerve_donor_array_pooling_and_clustering_unresolved",
+        "cRNA_input_discrepancy",
+        "intranerve_exposure_unmeasured",
+        "reporter_count_not_direct_division_survival_or_function",
+        "BAPN_dose_missing",
+        "flavonoid_positional_preparation_wording"
+      ]
+    },
+    {
+      "batch_review_index": 400,
+      "source": "MED",
+      "record_id": "36380369",
+      "pmid": "36380369",
+      "title": "SGOL2 is a novel prognostic marker and fosters disease progression via a MAD2-mediated pathway in hepatocellular carcinoma.",
+      "original_followup_question": "Separate M2I-1-treated arms from SGOL2 genetic animal experiments and inspect drug dose, selectivity and normal-cell fidelity before assigning compound efficacy.",
+      "frozen_source_abstract_sha256": "c7eaee3b66e782e21b42fa05021e47887ec86f97c0e4733779626e58725be0b4",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/399/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact M2I-1 drug-arm qualification found; genetic SGOL2 animal benefit cannot be assigned to the compound.",
+      "remaining_question": "Separate M2I-1 exposure/model arms from genetic animal experiments and inspect selectivity/normal-cell fidelity; linked preprint content remains unreviewed here.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": "Metadata links PPR525543 through a title/first-author match; linked version and exact lineage equivalence were not read/verified in this partner task."
+    },
+    {
+      "batch_review_index": 401,
+      "source": "MED",
+      "record_id": "26887051",
+      "pmid": "26887051",
+      "title": "Multi-kinase inhibitors can associate with heat shock proteins through their NH2-termini by which they suppress chaperone function.",
+      "original_followup_question": "Inspect direct binding/ATPase controls, exposures and normal-cell effects; retain imaging-versus-western discrepancy rather than treating all signal loss as protein depletion.",
+      "frozen_source_abstract_sha256": "e08e503fc69a17e6ed95566e46fae4e67857785204f899d31113d62544a1125d",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/400/followup_reason"
+      },
+      "classification": "direct_primary_answers_with_unresolved_source_conflicts",
+      "judgment": "The exact original scientific main and available Figure 13 now distinguish fragment ATPase activity, cell-derived complexes after sildenafil pretreatment, antibody accessibility and drug-attributed tumor outcomes. This directly addresses parts of n401; native supplemental functional contrasts, binding specificity and normal-cell responses remain unresolved.",
+      "remaining_question": "Establish direct selective binding and assay specificity with appropriate interference and orthogonal turnover controls; resolve experiment-to-material identity and cell-to-independent-repeat mapping. Recover original supplemental functional plots/captions and their exact exposures/contrasts, and qualify the cited normal-cell comparisons before claiming a therapeutic margin. The unshown BubR1-expression null does not establish equivalent abundance or restored BUBR1 function.",
+      "source_qualified_answer_components": [
+        "AR-12 is source-identified as OSU-03012; AR-13 is a distinct analogue and the biotin-linked affinity reagent is a separate probe. The bacterial GST-HSP90 N-terminal fragment assay reports approximate IC50 values of 200 nM for AR-12 and 40 nM for AR-13 at 0.1 mM ATP; these are activity estimates, not binding affinities or clinical windows.",
+        "Sildenafil 2 micromolar for one hour precedes isolation of tagged HSP90/HSP70 complexes from GBM12 cells. Baseline activity is near unchanged but subsequent AR-12 inhibition is enhanced. This is cellular pretreatment, not demonstrated direct sildenafil binding or inhibition of a purified enzyme.",
+        "Early N-terminal antibody fluorescence falls more than middle/C-terminal signals, while denaturing westerns do not reproduce the same early changes. HSP27 differs, and the Figure 14 cellular antibody changes occur without measured isolated-complex ATPase inhibition. Neither universal protein depletion nor universal epitope masking is established.",
+        "The reported greater-than-50-percent killing at 100 nM belongs to AR-13 combined with sildenafil, not AR-12. This remains main-text reporting because the original S5 plot/caption is unavailable. Genetic thioredoxin/chaperone protection is not an administered healthy-tissue restoration treatment.",
+        "No significant PLK4, BUB3 or BubR1 expression change is explicitly reported as data not shown, without separately specified model, dose, timing, antibody, denominator or contrast. Normal-cell selectivity and animal survival belong to cited earlier work, not an independently qualified comparison in this packet.",
+        "The source distinguishes cells, images, wells and repeated experiments; exact preparation-level independence and activity-assay conversion remain limited. Figure 7B has 2-hour versus 6-hour reporting and Figure 12 has a heading mismatch. These are retained without new statistical reconstruction."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/ar12-sildenafil-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/ar12-sildenafil-qualification.md",
+          "sha256": "5068cafaa223b6e91099243fbbe016fb416c9f10276371c1301d8061c8f6bdcb",
+          "line": 1,
+          "location_status": "Integrated portable qualification; original sources remain external"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/ar12-sildenafil-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/ar12-sildenafil-qualification.json",
+          "sha256": "4c27d5b36f16ea438cfff72bb31d7d9b924f1554fafef98b0ca19ab65cff6263",
+          "line": 1,
+          "location_status": "Integrated portable qualification; original sources remain external"
+        }
+      ],
+      "current_decision_ids": [
+        "new-ar12",
+        "new-sildenafil",
+        "new-ar13"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null,
+      "resolution_scope": "Exact source components qualified at complete scientific-main/caption depth and native Figure 13 only; original supplemental figures and normal-cell cited papers remain unread. Integration creates no primary-reading credit.",
+      "remaining_gap_types": [
+        "binding_and_assay_specificity",
+        "native_supplemental_functional_contrasts_unavailable",
+        "preparation_exposure_and_denominator_mapping",
+        "normal_cell_selectivity_and_healthy_BUB1B_function_unestablished"
+      ]
+    },
+    {
+      "batch_review_index": 418,
+      "source": "MED",
+      "record_id": "37237379",
+      "pmid": "37237379",
+      "title": "Mouse embryonic stem cell-derived blood-brain barrier model: applicability to studying antibody triggered receptor mediated transcytosis.",
+      "original_followup_question": "Resolve retinoic-acid identity/exposure and matched barrier controls, distinguishing model induction from rescue of a diseased BBB and accounting for mixed lineage phenotype.",
+      "frozen_source_abstract_sha256": "b57b57e77afc8d90c85a78860b339bde1718560108d13341215d60f01c2b12ab",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/417/followup_reason"
+      },
+      "classification": "direct_primary_answers_with_unresolved_source_conflicts",
+      "judgment": "The exact source answers the all-trans molecular identity, supportive culture context, functional TEER response and model-induction/mixed-lineage boundary. Initial RA concentration and several protocol/control details remain unresolved.",
+      "remaining_question": "Resolve native 10 mM versus 10 µM initial RA exposure, schematic/prose day convention and density-graph/prose inconsistency; establish the RA solvent/matched vehicle and exact replicate/statistical model if these are needed for protocol reproduction. Diseased-barrier repair, drug-assigned BUB1B change and BUBR1/function remain untested rather than presumed answers.",
+      "source_qualified_answer_components": [
+        "Identity: the administered reagent is Sigma-Aldrich all-trans retinoic acid; no catalog, purity, vehicle or salt is specified. Official PubChem verifies tretinoin as the same molecular CID/InChIKey, not a verified experimental product or approval.",
+        "Exposure: Results describes RA/bFGF introduction on day 6, 2 days before replating, followed by RA-containing barrier culture. Transwell methods/Fig3A/S4 specify 10 µM, but native PDF page 3 also prints 10 mM for the initial step; do not silently resolve this source conflict.",
+        "Controls and actual function: a direct +/-RA culture comparison reports higher TEER with RA, about 350–400 Ωcm² by day 7 versus 60–100 without RA over 11 days, with 3 independent differentiations. The supportive medium/ACM context remains; no matched RA-solvent control or panel-specific TEER P value is supplied.",
+        "No disease-repair arm: this is model development and differentiation. Low tracer permeability and species-selective transport belong to the optimized multicomponent model, with no isolated +/-RA transport comparison. The TNF-alpha/IFN-gamma experiment measures a separate VCAM1 response, not RA repair.",
+        "Lineage: marker expression and matrix selection coexist with acknowledged endothelial–epithelial features and epithelial/choroid-plexus transcripts. One cell line and independent differentiations do not establish pure mature brain endothelium or donor-level replication.",
+        "BUB1B: native Table2 lists it separately from BUB1 in an upregulated cell-cycle gene-set comparison of mBECs versus primary mouse BECs. GSEA pathway significance is not an individual BUB1B P value or an RA-response measurement; BUBR1 protein, stability and faithful division were not measured."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/retinoic-barrier-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/retinoic-barrier-qualification.md",
+          "sha256": "838e32297bb7c1ad7e051e7b6f386d040f967df50db877276c0a00bf7d4501c7",
+          "line": 1,
+          "location_status": "Integrated repository file"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/retinoic-barrier-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/retinoic-barrier-qualification.json",
+          "sha256": "fe38355fa4f9fbd0fde2079f6ecffb62ce559d6f4cbb60100f6797c0342b4c39",
+          "line": 1,
+          "location_status": "Integrated repository file"
+        }
+      ],
+      "current_decision_ids": [
+        "new-all-trans-retinoic-acid"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": "Fresh metadata found no linked correction/retraction; no notice body read. Mixed endothelial–epithelial phenotype remains explicit.",
+      "remaining_gap_types": [
+        "unresolved_source_concentration_schedule_and_density_conflicts",
+        "vehicle_and_replicate_statistical_details",
+        "untested_disease_repair_and_BUB1B_function"
+      ],
+      "within_source_attribution_limits": [
+        "PubChem synonym identity does not establish regulatory approval or product/formulation equivalence.",
+        "Cross-model BUB1B pathway membership and optimized transport properties do not answer a drug-specific rescue question."
+      ]
+    },
+    {
+      "batch_review_index": 438,
+      "source": "MED",
+      "record_id": "37934606",
+      "pmid": "37934606",
+      "title": "PP2A inhibition causes synthetic lethality in BRCA2-mutated prostate cancer models via spindle assembly checkpoint reactivation.",
+      "original_followup_question": "Resolve the actual PP2A compounds and model-specific arms; keep worm genetic rescue separate from cancer-cell killing and inspect normal-cell specificity.",
+      "frozen_source_abstract_sha256": "80befa61cbd0de03c9fd1050497527c25fb8b8e96ae700025a6c19bbac25312b",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/437/followup_reason"
+      },
+      "classification": "direct_primary_answers_with_unresolved_source_conflicts",
+      "judgment": "The exact source now qualifies LB100 as the administered PP2A inhibitor, separates other drug/model arms from Ceubxn-2/NSFL1C genetic rescue, and documents model-specific control/proficient responses. This is a direct bounded answer with unresolved source-form and reporting components.",
+      "remaining_question": "Resolve barasertib parent-versus-HQPA/catalog identity, imaging exposure clocks and cell-to-repeat denominators, duplicated or mismapped supporting values, and animal allocation/death/missing-data accounting before a quantitatively transferable claim. Healthy BUB1B/MVA tissue function, normal-tissue safety and useful renewal remain untested; inspection of controls does not establish universal sparing.",
+      "source_qualified_answer_components": [
+        "LB100 is the actual PP2A inhibitor. Its 10 µM attachment/phosphorylation arms and separate 24-hour clonogenic or xenograft exposures are model-specific drug experiments, not inferred okadaic-acid effects.",
+        "Ceubxn-2/NSFL1C genetic loss supplies worm/cell survival rescue through checkpoint attenuation; LB100 instead reactivates the checkpoint and destabilizes rescued attachments. Native S4 does not show restored p-BubR1/PP2A-B56 localization.",
+        "Source-labeled barasertib 10 nM supplies arrested cold-stable K-fiber findings; NMS-873 10 µM supplies AURKB localization/fractionation; olaparib supplies actual comparator and combination tumor findings. The interventions do not inherit each other’s effects.",
+        "Observed LB100 responses include losses in proficient/control comparators. Equal treated-cell plating and own-control normalization do not establish absolute healthy renewal, universal normal-cell sparing or a clinical safety window.",
+        "The source retains tumor suppression and stronger combination effects but supplies no formal additivity-model synergy or survival-extension result. Duplicated Fig 4C/6E values and Fig 7E/S7H mismatch remain unresolved.",
+        "Methods reports 35 implanted versus 30 allocated animals and later deaths on days 28/30. First-row day-10 death labels omit trajectories and are not evidence of baseline death; causes and missing-data sensitivity remain unresolved."
+      ],
+      "qualification_pointers": [
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pp2a-brca2-qualification.md",
+          "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.md",
+          "sha256": "bb79c11d5edca5e55e727b42eaaf9edbd395dd5b53377dc51fecd1b2de11d759",
+          "line": 1,
+          "location_status": "Integrated portable qualification; original sources remain external"
+        },
+        {
+          "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/pp2a-brca2-qualification.json",
+          "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.json",
+          "sha256": "ab354aa43e772e5883b4e8f60c9b074ec6686e284b32e1b1778482a927124dd6",
+          "line": 1,
+          "location_status": "Integrated portable qualification; original sources remain external"
+        }
+      ],
+      "current_decision_ids": [
+        "new-lb100",
+        "new-nms873",
+        "new-olaparib",
+        "new-barasertib"
+      ],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null,
+      "resolution_scope": "Actual compounds, model arms and available control responses are now examined; unresolved source details and absent healthy/MVA experiments remain explicit. The original question is partially answered, not unassigned.",
+      "remaining_gap_types": [
+        "barasertib_form_and_imaging_exposure_unresolved",
+        "source_value_and_denominator_conflicts",
+        "animal_allocation_death_and_missingness_accounting",
+        "healthy_BUB1B_MVA_function_and_safety_unmeasured"
+      ]
+    },
+    {
+      "batch_review_index": 458,
+      "source": "MED",
+      "record_id": "21242994",
+      "pmid": "21242994",
+      "title": "LBH589, a deacetylase inhibitor, induces apoptosis in adult T-cell leukemia/lymphoma cells via activation of a novel RAIDD-caspase-2 pathway.",
+      "original_followup_question": "Inspect exposure, mouse efficacy/toxicity controls and primary-cell selectivity, retaining RAIDD mechanism and p53/death-receptor nulls.",
+      "frozen_source_abstract_sha256": "eb2a4fdd9c742d8cd51ba5211a2103409dd283c3d9b64acda382a7ef52a8d718",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/457/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact LBH589/ATLL qualification found; existing generic HDAC evidence is not this primary-cell/mouse result.",
+      "remaining_question": "Extract dose, mouse tumor/toxicity controls and primary-cell selectivity while preserving RAIDD/caspase2 support and p53/death-receptor nulls.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 464,
+      "source": "MED",
+      "record_id": "33553272",
+      "pmid": "33553272",
+      "title": "PDA Indolylmaleimides Induce Anti-Tumor Effects in Prostate Carcinoma Cell Lines Through Mitotic Death.",
+      "original_followup_question": "Inspect structures, exposure matching, normal-cell selectivity and direct microtubule evidence before assigning efficacy to this chemical series.",
+      "frozen_source_abstract_sha256": "71b612291acd05d73d612582f1fb5d2683b2f3a34bfac03059d27f75450b8833",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/463/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact PDA-66/PDA-377 qualification found; one derivative’s cell activity does not establish efficacy of the series.",
+      "remaining_question": "Check structures, matched exposures, normal-cell controls and direct microtubule evidence separately for each derivative.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 478,
+      "source": "MED",
+      "record_id": "19927127",
+      "pmid": "19927127",
+      "title": "Regulation of ploidy and senescence by the AMPK-related kinase NUAK1.",
+      "original_followup_question": "If considering a NUAK1 compound route, first verify whether any actual inhibitor reproduces the genetic lifespan/ploidy effects with LATS1 dependence and preserved function; this paper alone does not supply drug efficacy.",
+      "frozen_source_abstract_sha256": "29b7d07ea020b2e4202be17e81693ab632722e26a005a5d31cc69891243a4cb1",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/477/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No actual-NUAK1-inhibitor functional qualification found. The flagged paper is genetic lifespan/ploidy evidence and does not supply the requested administered-compound bridge.",
+      "remaining_question": "Determine whether an actual NUAK1 inhibitor reproduces genetic fibroblast lifespan/ploidy effects with LATS1 dependence and preserved usable function; this would require separate evidence.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 508,
+      "source": "MED",
+      "record_id": "36204232",
+      "pmid": "36204232",
+      "title": "Bioinformatics and network-based screening and discovery of potential molecular targets and small molecular drugs for breast cancer.",
+      "original_followup_question": "Inspect masitinib dose/target/normal-cell controls and distinguish it from docking-only candidates; do not transfer one validation to the whole nomination list.",
+      "frozen_source_abstract_sha256": "161e9a8769abd67043d2a3e9473db9b187079657851cfefd2113e15aa764d7c1",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/507/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact masitinib-validation qualification found; computational co-nominations are not equally validated drugs.",
+      "remaining_question": "Extract masitinib exposure, cell models, target/normal-cell controls, and maintain separation from the other docking-only nominations.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    },
+    {
+      "batch_review_index": 531,
+      "source": "MED",
+      "record_id": "21755010",
+      "pmid": "21755010",
+      "title": "Small compound 6-O-angeloylplenolin induces mitotic arrest and exhibits therapeutic potentials in multiple myeloma.",
+      "original_followup_question": "Inspect compound identity/exposure, mouse regimen/tumor outcomes, normal-cell controls, interaction metric and rat PK values; separate single-agent animal benefit from in-vitro bortezomib potentiation.",
+      "frozen_source_abstract_sha256": "35212d241a146b1f4713b16e60be2edf095b7a3310be5aec99b1d16b22433eb7",
+      "original_flag_retained": true,
+      "historical_question_pointer": {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "json_pointer": "/records/530/followup_reason"
+      },
+      "classification": "open_no_direct_source_qualified_answer",
+      "judgment": "No exact 6-OAP myeloma/PK qualification found; a generic bortezomib appraisal cannot supply combination-specific or 6-OAP single-agent animal evidence.",
+      "remaining_question": "Qualify 6-OAP identity, exposure, mouse tumor units, normal-cell controls, rat PK and in-vitro bortezomib interaction separately.",
+      "source_qualified_answer_components": [],
+      "qualification_pointers": [],
+      "current_decision_ids": [],
+      "related_evidence_is_not_resolution": [],
+      "full_original_composite_question_resolved": false,
+      "new_unique_source_credit": 0,
+      "new_primary_reading_credit": 0,
+      "publication_or_lineage_limit": null
+    }
+  ],
+  "preservation": {
+    "changed_record_indices": [
+      401
+    ],
+    "other46record_objects_unchanged": true,
+    "all47_questions_and_flags_unchanged": true,
+    "all268_prior_decision_objects_unchanged": true
+  },
+  "parent_assigned_next_source": "No new source assignment is made by this reconciliation; residual n401 questions are explicit.",
+  "status": "integrated_exact_source_partial_reconciliation",
+  "repository_snapshot_state": "271-appraisal checkpoint; repository_commit is the immutable parent baseline, not a self-referential commit claim.",
+  "freeze_note": "Preserve other 46 objects and every original question/hash/flag; direct qualification does not imply unavailable data or experiments were examined.",
+  "historical_integration_transform_at_197": {
+    "original_external_markdown_sha256": "a4b579148add74cc47af028853e8f0ac14fd2336dc4b87d5dafe4b256d9c77a7",
+    "source_md_sha256": "3df5d40908dd864a6319a9b27e11f8ea0137ca373191382ce29625b368f2ca2b",
+    "scope": "Portable same-directory document links and curated prose spacing only; original JSON questions/answers and source hashes unchanged."
+  },
+  "previous_reconciliation": {
+    "commit": "572f3e460dff7880e6030db4143512bb79194abc",
+    "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
+    "sha256": "5f12e3f6abdf96c1ccaa31411408131ce7861b1d1856509dbdb522de12de7994"
+  },
+  "reconciliation_md_sha256": "6693d86d73f28494bd5904506c06dcb1e4a9b04f7a2545f01596079fb1e11f1f",
+  "decision_count_scope": "268 baseline appraisals; three distinct additions produce 271.",
+  "repository_authoritative_decision_count_at_baseline": 268,
+  "historical_input_provenance_at_202": [
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+      "repo_relative": "workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+      "sha256": "368b3e7193d9c08fbbd0bac2ebfda5b0b37d35240c67fa9f69ea03993510c277",
+      "role": "Frozen47question source; all532records unchanged"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/outer-revalidation-batch15-selection.json",
+      "repo_relative": "workflow/track2-drug-census/outer-revalidation-batch15-selection.json",
+      "sha256": "0a7d4cc32aa681e3452d37c580681f036c3ea5bcb9c31c4e5b326f11020d7ef8",
+      "role": "Frozen532-record selection"
+    },
+    {
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
+      "repo_relative": "workflow/track2-drug-census/decisions.json",
+      "sha256": "d7113c6699a27423d048722a46180aa528485f353b9be8d35f021ee62df39aa8",
+      "role": "Current202assessment ledger; all200priorIDs retained,199objects unchanged"
+    }
+  ],
+  "historical_root_integration_at_202": {
+    "baseline": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
+    "candidate_reconciliation_sha256": "3d51e9dbbb224b70452a7c17e19a8c003f5fa2991a0a2d4d61b01d2671734027",
+    "root_reading_sha256": "9a713c2a8e5c490383d12deab5be154612eba435243c669b3c0d5660d76f0857",
+    "changed_record_indices": [
+      35,
+      52,
+      225
+    ],
+    "scope": "Direct source qualifications; all original questions and outer readings unchanged. Individual 2011/2012 curcumin specimen reuse remains unproven.",
+    "source_read_scope_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/antitumor-followup-20260923/root-reading.json",
+    "source_read_scope": "Root read all3scientificmains/captions and selected nativefigures, with exactscope inlinkedmanifest; no newouterabstractcredit."
+  },
+  "historical_candidate_input_ledger_at_202": {
+    "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/antitumor-followup-20260923/candidate/candidate-decisions.json",
+    "sha256": "d7113c6699a27423d048722a46180aa528485f353b9be8d35f021ee62df39aa8",
+    "scope": "Frozen proposed202ledger, preserved separately from the current repository input"
+  },
+  "historical_input_ledger_at_200": {
+    "commit": "d84a4dd77954fcdd69d8cb716738e8d8a3b13a7b",
+    "repo_path": "workflow/track2-drug-census/decisions.json",
+    "sha256": "d422617240394a35e0b8ef92bc0e33d89d857c8db649b44f8dbe32a3d91bed1b",
+    "appraisals": 200
+  },
+  "historical_input_provenance_at_203": [
+    {
+      "source_kind": "baseline_git_blob",
+      "commit": "afac76b79cdf85171a488b18533c1ec72c183112",
+      "repo_relative": "workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+      "git_object": "afac76b79cdf85171a488b18533c1ec72c183112:workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+      "sha256": "368b3e7193d9c08fbbd0bac2ebfda5b0b37d35240c67fa9f69ea03993510c277",
+      "role": "Frozen original47 questions/all532 annotations"
+    },
+    {
+      "source_kind": "baseline_git_blob",
+      "commit": "afac76b79cdf85171a488b18533c1ec72c183112",
+      "repo_relative": "workflow/track2-drug-census/outer-revalidation-batch15-selection.json",
+      "git_object": "afac76b79cdf85171a488b18533c1ec72c183112:workflow/track2-drug-census/outer-revalidation-batch15-selection.json",
+      "sha256": "0a7d4cc32aa681e3452d37c580681f036c3ea5bcb9c31c4e5b326f11020d7ef8",
+      "role": "Frozen532-record selection"
+    },
+    {
+      "source_kind": "baseline_git_blob",
+      "commit": "afac76b79cdf85171a488b18533c1ec72c183112",
+      "repo_relative": "workflow/track2-drug-census/decisions.json",
+      "git_object": "afac76b79cdf85171a488b18533c1ec72c183112:workflow/track2-drug-census/decisions.json",
+      "sha256": "d7113c6699a27423d048722a46180aa528485f353b9be8d35f021ee62df39aa8",
+      "role": "Baseline202 ledger; not current203 repository input"
+    },
+    {
+      "source_kind": "current_repository_file",
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
+      "repo_relative": "workflow/track2-drug-census/decisions.json",
+      "sha256": "7d400083aa3a507b48008ff5cd6b0b46f51a99fb13e8d159064f782f0006524c",
+      "role": "Current203assessment ledger; all202prior objects unchanged"
+    }
+  ],
+  "historical_candidate_input_ledger_at_203": {
+    "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/mixture-restoration-followup-20260923/candidate/candidate-decisions.json",
+    "sha256": "7d400083aa3a507b48008ff5cd6b0b46f51a99fb13e8d159064f782f0006524c",
+    "scope": "Frozen203assessment candidate retained as historical integration input."
+  },
+  "historical_root_integration_at_203": {
+    "baseline": "afac76b79cdf85171a488b18533c1ec72c183112",
+    "candidate_reconciliation_sha256": "21f7196e8d433f284c1c0f09a0611e2d8236d3dd057583877c93b48676e74699",
+    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/mixture-restoration-followup-20260923/root-reading.json",
+    "root_reading_sha256": "2795092ff445ec0f43050f174a0f2860193cfb379b6468d027d80fb314d3153b",
+    "changed_record_indices": [
+      156
+    ],
+    "source_scope": "Complete rootmain/captions/main tables and selectedimages; no rootwhole-supplementreading ornewoutercredit."
+  },
+  "historical_input_provenance_at_206": [
+    {
+      "source_kind": "baseline_git_blob",
+      "commit": "2591b136724889da47837dc75e8754aca3f9ee1d",
+      "repo_relative": "workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+      "git_object": "2591b136724889da47837dc75e8754aca3f9ee1d:workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+      "sha256": "368b3e7193d9c08fbbd0bac2ebfda5b0b37d35240c67fa9f69ea03993510c277",
+      "role": "Frozen 47 questions/all 532 annotations"
+    },
+    {
+      "source_kind": "baseline_git_blob",
+      "commit": "2591b136724889da47837dc75e8754aca3f9ee1d",
+      "repo_relative": "workflow/track2-drug-census/outer-revalidation-batch15-selection.json",
+      "git_object": "2591b136724889da47837dc75e8754aca3f9ee1d:workflow/track2-drug-census/outer-revalidation-batch15-selection.json",
+      "sha256": "0a7d4cc32aa681e3452d37c580681f036c3ea5bcb9c31c4e5b326f11020d7ef8",
+      "role": "Frozen 532-record selection"
+    },
+    {
+      "source_kind": "baseline_git_blob",
+      "commit": "2591b136724889da47837dc75e8754aca3f9ee1d",
+      "repo_relative": "workflow/track2-drug-census/decisions.json",
+      "git_object": "2591b136724889da47837dc75e8754aca3f9ee1d:workflow/track2-drug-census/decisions.json",
+      "sha256": "7d400083aa3a507b48008ff5cd6b0b46f51a99fb13e8d159064f782f0006524c",
+      "role": "Baseline 203 ledger; not a current 206 repository input"
+    },
+    {
+      "source_kind": "frozen_external_candidate",
+      "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lithium-astrocyte-followup-20260923/candidate/candidate-decisions.json",
+      "sha256": "e9fa45056609374f9d7b069cca8252cb560fbff4a661a52e3c6adf383d4c883e",
+      "candidate_appraisals": 206,
+      "role": "Frozen candidate input; root supplies current repository hash only after integration"
+    },
+    {
+      "source_kind": "current_repository_file",
+      "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
+      "repo_relative": "workflow/track2-drug-census/decisions.json",
+      "sha256": "e9fa45056609374f9d7b069cca8252cb560fbff4a661a52e3c6adf383d4c883e",
+      "role": "Current 206-assessment ledger; 203 prior IDs, 202 unchanged objects and LiCl refined."
+    }
+  ],
+  "historical_candidate_input_ledger_at_206": {
+    "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lithium-astrocyte-followup-20260923/candidate/candidate-decisions.json",
+    "sha256": "e9fa45056609374f9d7b069cca8252cb560fbff4a661a52e3c6adf383d4c883e",
+    "scope": "Frozen 206-assessment historical integration input."
+  },
+  "historical_root_integration_at_206": {
+    "baseline": "2591b136724889da47837dc75e8754aca3f9ee1d",
+    "candidate_reconciliation_sha256": "5c22f98ec0d663912f92b93eea8ec77dd8f56eb45200c9e9d2ef37b0b99aedf9",
+    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lithium-comparison-followup-20260923/root-reading.json",
+    "root_reading_sha256": "e92a702b890913899686ab54a90f464fe5aefbf80f3d06600823f4df3806f515",
+    "changed_record_indices": [
+      390
+    ],
+    "source_scope": "Complete root scientific main/captions/Table1/supplementary text, selected images, targeted GEO values/calls; no raw-array or new outer credit."
+  },
+  "candidate_input_ledger": {
+    "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/ar12-sildenafil-integration-20260927/ready/decisions-ready.json",
+    "sha256": "1cbdfb4627297fedcda275330cb82f31cd301df5cc71e866ef81946b79befc03",
+    "candidate_appraisals": 271,
+    "scope": "Exact prepared ledger; historical candidates preserved."
+  },
+  "root_integration": {
+    "baseline": "572f3e460dff7880e6030db4143512bb79194abc",
+    "changed_record_indices": [
+      401
+    ],
+    "new_ids": [
+      "new-ar12",
+      "new-sildenafil",
+      "new-ar13"
+    ],
+    "refined_ids": [],
+    "new_outer_credit": 0,
+    "new_primary_reading_credit": 0
+  },
+  "historical_root_integration_at_207": {
+    "baseline": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
+    "candidate_reconciliation_sha256": "8a623eee495a6b379088cf2409727f3776fe651d93e59c0395282c989d56c8e1",
+    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/retinoic-integration-20260923/root-reading.json",
+    "root_reading_sha256": "da263f409ff2c32b185232ed4e74b03a572ecf58419fa4b1c56014c7dd5a8e8f",
+    "changed_record_indices": [
+      418
+    ],
+    "source_scope": "Root selected primary pages/figure/caption/results; separate source and independent full reading. No raw-sequencing analysis or new outer credit."
+  },
+  "historical_candidate_input_ledger_at_207": {
+    "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/retinoic-barrier-followup-20260923/candidate/candidate-decisions.json",
+    "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
+    "scope": "Frozen207assessment historical integration input."
+  },
+  "historical_root_integration_before_212": {
+    "baseline": "32c1db986e6f5728947a59e39d547183f686f2b9",
+    "candidate_reconciliation_sha256": "b9b901a726c69d0537850cc970d6568190ab0a39f74941f9eb634d14825dcdaf",
+    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pdls-source-integration-20260923/root-reading.json",
+    "root_reading_sha256": "0a644cf31bd629a1c385e30af1c16254f5ae9aa306bca10d5be7e843eb454772",
+    "changed_record_indices": [
+      64
+    ],
+    "ledger_modified": false,
+    "source_scope": "Source-only biological-preparation comparison with bounded root/independent primary reading and native-cell replay; no new drug or outer credit."
+  },
+  "historical_candidate_input_ledger_before_212": {
+    "source_kind": "unchanged_baseline_git_blob",
+    "commit": "32c1db986e6f5728947a59e39d547183f686f2b9",
+    "repo_relative": "workflow/track2-drug-census/decisions.json",
+    "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
+    "assessments": 207,
+    "scope": "No candidate ledger produced or edited; all207existing assessment objects remain unchanged."
+  },
+  "historical_root_integration_before_216": {
+    "baseline": "3c6d2e4f04df81b89525fa43612de61fe76db191",
+    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/terpenoid-kalanchoe-integration-20260923/root-reading.json",
+    "root_reading_sha256": "1f9215934332c74e8af6939dedccc709a301bc6e96ef22fa7847759a84cd86cc",
+    "changed_record_indices": [
+      122,
+      340
+    ],
+    "new_decision_ids": [
+      "new-zoledronic-acid-cenpf",
+      "new-trans-trans-farnesol",
+      "new-trans-geranylgeraniol-source",
+      "new-clodronate-cenpf-control",
+      "new-kalanchoe-kt-nb"
+    ],
+    "new_outer_reading_credit": 0
+  },
+  "historical_candidate_input_ledger_before_216": {
+    "source_kind": "baseline_git_blob",
+    "commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
+    "repo_relative": "workflow/track2-drug-census/decisions.json",
+    "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
+    "assessments": 207,
+    "scope": "Baseline before adding five reviewed material-specific assessments."
+  },
+  "historical_checkpoint_before_pp2a_268": {
+    "date": "2026-09-23",
+    "reviewer": "/root/retinoic_independent (source-only candidate assembler)",
+    "repository_commit": "313f1207170482439314d52f25dd3c95615e96da",
+    "authoritative_decision_count": 216,
+    "scope": "Only n85 changes, using a separately qualified published counterpart. Fifteen exact-source qualifications remain; the preprint is not credited as full-text read or version-authenticated.",
+    "summary": {
+      "exact_source_questions_with_material_direct_qualified_answers": 15,
+      "substantive_primary_qualifications": 16,
+      "same_source_target_only_partial_qualification": 0,
+      "no_direct_source_answer": 32,
+      "open_unassigned": 31,
+      "assigned_elsewhere_pending": 0,
+      "different_experiment_context_does_not_close_question": 9,
+      "fully_resolved_entire_original_composite_questions": 6,
+      "new_unique_sources": 0,
+      "new_abstract_reading_credit": 0,
+      "new_primary_reading_credit": 0,
+      "direct_answers_with_unresolved_original_source_components": 9,
+      "fully_resolved_entire_original_composite_questions_scope": "Six exact-source study-level answers within limits, nine exact-source partials and one published-counterpart partial; original preprint access/version unverified.",
+      "open_questions_with_different_experiment_context": 5,
+      "questions_with_direct_or_linked_publication_information": 16,
+      "published_counterpart_partial_qualifications": 1,
+      "no_qualified_exact_source_or_counterpart": 31,
+      "partial_questions_including_published_counterpart": 10
+    },
+    "count_interpretation": "Sixteen questions have primary information: 15 exact-source qualifications (six source-level answers and nine partials) plus one published-counterpart partial. Thirty-one have neither; 32 still lack an exact-original-source answer.",
+    "source_search_and_reading": {
+      "candidate_discovery": "PMID/PMCID/DOI and linked-version identifier search across repository qualification/review narrative and current decisions; named-intervention/context comparison used only to find candidates. Automatic matches were not treated as scientific resolution.",
+      "actually_inspected": "All47frozen followup questions and source-specific annotations; five exact-source qualification locations and relevant companion JSON; listed related-evidence sections; selected current decision objects and all194baseline route identifiers and three newly integrated decision objects. UpdatedEML1 report/companionJSON and resveratrol/bladder documentation additions read without opening new primary assets. Integrated BAY qualification/companionJSON and corrected appraisal row subsequently inspected.",
+      "not_read": "No new primary text/figure/supplement, linked notice or version was retrieved/read for this task. Existing qualification reading-depth claims remain attributed to their earlier readers.",
+      "repository_docs_considered_for_identity_search": 247,
+      "tool_evidence": [
+        "2b9df0",
+        "328e94 (middle output truncated; missing middle entries re-read in1b3fce)",
+        "87e5a3 (candidate locations only; not complete annotation-read credit)",
+        "1b3fce",
+        "7cc8b9",
+        "a6a4ee",
+        "906177",
+        "d76874",
+        "f93d1e",
+        "6c2593",
+        "284441",
+        "609c58",
+        "d5b682",
+        "8c7aee",
+        "5e36a4",
+        "5a2502",
+        "a5d3a1",
+        "688b8d",
+        "706454",
+        "e2f7a4",
+        "53a905",
+        "d4c2d4"
+      ],
+      "current_update": {
+        "actually_read": "Candidate assembler reused its already completed primary qualification and exact native targeted expression review. Independent and root scopes remain separately attributed in review state.",
+        "assembly_reading_credit": 0,
+        "review_state": {
+          "status": "final_bounded_reviews_complete_source_only_freeze_authorized",
+          "independent_review": {
+            "status": "complete",
+            "reviewer": "ms023_primary",
+            "conclusion": "AGREES_WITH_BOUNDED_SOURCE_QUALIFICATION",
+            "scope": "Targeted independent Methods, selected Results, Table2/Fig2 and native target workbook checks; not whole-paper review.",
+            "artifacts": [
+              {
+                "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/next-source-triage-20260923/pdls-secretome/independent/independent-check.md",
+                "sha256": "2955675e151316cbef9837d714b2358a08a30099d46f42a1e6de9f066c706d19"
+              },
+              {
+                "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/next-source-triage-20260923/pdls-secretome/independent/independent-check.json",
+                "sha256": "2536bd4b1bfd1cfd4fc399dbf920fc0f7d7baf8b6f7a72704dd8ce14b5bf90a1"
+              }
+            ]
+          },
+          "root_primary_review": {
+            "status": "complete",
+            "reviewer": "/root",
+            "scope": "All primary Methods, Fig2caption, Table2, direct osteogenic/network Results and selected Discussion; nativeFig2; original workbook headers/target cells and allsix descriptive ratios. Not whole-paper, allfigures or fullworkbook reading.",
+            "artifacts": [
+              {
+                "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pdls-source-integration-20260923/root-reading.json",
+                "sha256": "0a644cf31bd629a1c385e30af1c16254f5ae9aa306bca10d5be7e843eb454772"
+              }
+            ],
+            "source_only_admission": "Source-only biological-preparation comparison; no new drug identity, catalog join, ingredient efficacy, medicine availability, or MVA rescue claim. Keep ledger207 byte-identical.",
+            "whole_workbook_artifact_attempt_credit": false
+          },
+          "freeze_authorized": true
+        }
+      }
+    },
+    "input_provenance": [
+      {
+        "source_kind": "baseline_git_blob",
+        "commit": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
+        "repo_relative": "workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "git_object": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622:workflow/track2-drug-census/outer-revalidation-batch15-review.json",
+        "sha256": "368b3e7193d9c08fbbd0bac2ebfda5b0b37d35240c67fa9f69ea03993510c277",
+        "role": "Frozen47 questions/all532 annotations"
+      },
+      {
+        "source_kind": "baseline_git_blob",
+        "commit": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
+        "repo_relative": "workflow/track2-drug-census/outer-revalidation-batch15-selection.json",
+        "git_object": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622:workflow/track2-drug-census/outer-revalidation-batch15-selection.json",
+        "sha256": "0a7d4cc32aa681e3452d37c580681f036c3ea5bcb9c31c4e5b326f11020d7ef8",
+        "role": "Frozen532-record selection"
+      },
+      {
+        "source_kind": "baseline_git_blob",
+        "commit": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622",
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "git_object": "e79f1296e2c34c4985d2ae0055950dfc6d4a2622:workflow/track2-drug-census/decisions.json",
+        "sha256": "e9fa45056609374f9d7b069cca8252cb560fbff4a661a52e3c6adf383d4c883e",
+        "role": "Baseline206ledger, not current207repository input"
+      },
+      {
+        "source_kind": "frozen_external_candidate",
+        "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/retinoic-barrier-followup-20260923/candidate/candidate-decisions.json",
+        "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
+        "candidate_appraisals": 207,
+        "role": "Frozen candidate input; root records current repository hash only after integration"
+      },
+      {
+        "source_kind": "baseline_git_blob",
+        "commit": "32c1db986e6f5728947a59e39d547183f686f2b9",
+        "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
+        "sha256": "91fd4f4a586b97189694fbc7ce66582d94f111a860f35cc1174e79a0f70e22ce",
+        "role": "Current207assessment/12direct source-question baseline for n64-only candidate"
+      },
+      {
+        "source_kind": "baseline_git_blob",
+        "commit": "3c6d2e4f04df81b89525fa43612de61fe76db191",
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "sha256": "fa5bf965b8ef51bf6f7f43aa7b5abce1cd0344b6499701075fbc1da0a00a6e27",
+        "role": "207-assessment integration baseline, distinct from current ledger"
+      },
+      {
+        "source_kind": "baseline_git_blob",
+        "commit": "313f1207170482439314d52f25dd3c95615e96da",
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "sha256": "4b05570e9110a155581f59d0b6519c59a4daf7b07471e0c9109624d03dad4373",
+        "role": "212-assessment baseline, distinct from current ledger"
+      },
+      {
+        "source_kind": "current_repository_file",
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "sha256": "22ab64ec1f5d902e978eeacb39f7e83d8f1cc8406a01ecea70bbc895fe68da84",
+        "role": "Current216 assessments; four prior source refinements and four additions"
+      }
+    ],
+    "preservation": {
+      "historical_preservation_check": {
+        "historical_preservation_check": {
+          "historical_preservation_check": {
+            "historical_preservation_check": {
+              "historical_preservation_check": {
+                "historical_preservation_check": {
+                  "historical_preservation_check": {
+                    "only_written_files": [
+                      "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.md",
+                      "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-compound-followup-20260923/reconciliation/batch15-followup-reconciliation.json"
+                    ],
+                    "frozen_artifacts_checked": 272,
+                    "frozen_artifacts_sorted_name_hash_manifest_sha256": "83b57bb9bbedff42b1a19e2f8abb3f35f4382fe80b3ea63158d354c491c110ed",
+                    "frozen_artifacts_changed": [],
+                    "original_followup_flags_mutated": false,
+                    "repository_files_written": false,
+                    "other45record_objects_unchanged": true,
+                    "changed_record_indices": [
+                      52,
+                      164
+                    ]
+                  },
+                  "changed_record_indices": [
+                    35,
+                    52,
+                    225
+                  ],
+                  "other44record_objects_unchanged": true,
+                  "original_followup_flags_mutated": false,
+                  "repository_files_written": false,
+                  "scope": "Only candidate directory written; no old source packages modified."
+                },
+                "changed_record_indices": [
+                  156
+                ],
+                "other46record_objects_unchanged": true,
+                "all47_questions_and_flags_unchanged": true,
+                "all202_prior_ledger_objects_byte_equivalent": true,
+                "repository_files_written": false
+              },
+              "changed_record_indices": [
+                390
+              ],
+              "other46record_objects_unchanged": true,
+              "all47_questions_and_flags_unchanged": true,
+              "all203_prior_ids_retained": true,
+              "other202_prior_objects_unchanged": true,
+              "repository_files_written": false
+            },
+            "changed_record_indices": [
+              418
+            ],
+            "other46record_objects_unchanged": true,
+            "all47_questions_and_flags_unchanged": true,
+            "all206_prior_objects_unchanged": true,
+            "repository_files_written": false
+          },
+          "changed_record_indices": [
+            64
+          ],
+          "other46record_objects_unchanged": true,
+          "all47_questions_and_flags_unchanged": true,
+          "all207_decisions_unchanged": true,
+          "catalog_and_joins_unchanged": true,
+          "repository_files_written": false
+        },
+        "changed_record_indices": [
+          122,
+          340
+        ],
+        "other45record_objects_unchanged": true,
+        "all47_questions_and_flags_unchanged": true,
+        "all207_prior_decision_objects_unchanged": true
+      },
+      "changed_record_indices": [
+        85
+      ],
+      "other46record_objects_unchanged": true,
+      "all47_questions_and_flags_unchanged": true,
+      "all212_prior_decision_ids_retained": true,
+      "prior208_objects_unchanged": true
+    },
+    "parent_assigned_next_source": "Only n64 qualified in this source-only update; constituent efficacy and beyond-culture questions remain open.",
+    "status": "integrated_published_counterpart_reconciliation",
+    "repository_snapshot_state": "Integrated 216-assessment snapshot; recorded HEAD is the parent until commit.",
+    "freeze_note": "Preserve all other 46 question objects and all 47 original questions/flags. Published counterpart and exact preprint are distinct evidence depths.",
+    "previous_reconciliation": {
+      "commit": "313f1207170482439314d52f25dd3c95615e96da",
+      "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
+      "sha256": "50cde25158d6b4bde3a38a654d00775d7b4bd47e3cda5b7637d6d60fb84b9df1"
+    },
+    "reconciliation_md_sha256": "4f8ca198bcc6857de3a4faf74cec3eb22cac87e60612fceb856b02535e1c5223",
+    "decision_count_scope": "207 is the unchanged authoritative baseline and proposed source-only integration count; no compound assessment or catalog join is added.",
+    "repository_authoritative_decision_count_at_baseline": 212,
+    "candidate_input_ledger": {
+      "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cenpe-feedback-followup-20260923/candidate/candidate-decisions.json",
+      "sha256": "22ab64ec1f5d902e978eeacb39f7e83d8f1cc8406a01ecea70bbc895fe68da84",
+      "candidate_appraisals": 216,
+      "scope": "Frozen external candidate, separately retained from current repository input."
+    },
+    "root_integration": {
+      "baseline": "313f1207170482439314d52f25dd3c95615e96da",
+      "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cenpe-feedback-integration-20260923/root-reading.json",
+      "root_reading_sha256": "73ad4df74e37ce45f5b0439a57d56f3bad7766bd7ab8d11ece52f360833b3146",
+      "changed_record_indices": [
+        85
+      ],
+      "new_ids": [
+        "new-alisertib",
+        "new-centrinone",
+        "new-mln8054",
+        "new-tcs7010"
+      ],
+      "refined_ids": [
+        "new-aurora-balancing",
+        "new-eg5-balancing",
+        "new-gsk923295",
+        "new-mg132"
+      ],
+      "new_outer_credit": 0,
+      "preprint_reading_or_version_equivalence_claimed": false
+    }
+  },
+  "qualification_files_scope": "Pre-existing qualification_files entries and their hashes are preserved historical reading-time bindings, not newly certified current-file hashes. Only the two appended AR-12/sildenafil qualification pointers are bound to the current accepted source bytes in this update. Other 46 question records and their historical pointers are unchanged.",
+  "historical_checkpoint_before_ar12_271": {
+    "reviewer": "/root (integration assembly; separate source and synthesis reviews)",
+    "repository_commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+    "authoritative_decision_count": 268,
+    "scope": "Only active n438 receives direct exact-source components with unresolved source conflicts; preserve all other 46 records and all 47 historical questions/flags.",
+    "summary": {
+      "exact_source_questions_with_material_direct_qualified_answers": 16,
+      "substantive_primary_qualifications": 17,
+      "same_source_target_only_partial_qualification": 0,
+      "no_direct_source_answer": 31,
+      "open_unassigned": 30,
+      "assigned_elsewhere_pending": 0,
+      "different_experiment_context_does_not_close_question": 9,
+      "fully_resolved_entire_original_composite_questions": 6,
+      "new_unique_sources": 0,
+      "new_abstract_reading_credit": 0,
+      "new_primary_reading_credit": 0,
+      "direct_answers_with_unresolved_original_source_components": 10,
+      "fully_resolved_entire_original_composite_questions_scope": "Six exact-source study-level answers within limits, ten exact-source partials and one published-counterpart partial; original preprint access/version remains unverified.",
+      "open_questions_with_different_experiment_context": 5,
+      "questions_with_direct_or_linked_publication_information": 17,
+      "published_counterpart_partial_qualifications": 1,
+      "no_qualified_exact_source_or_counterpart": 30,
+      "partial_questions_including_published_counterpart": 11
+    },
+    "count_interpretation": "Seventeen questions have qualified primary information: 16 exact-source qualifications (six source-level answers and ten partials) plus one published-counterpart partial. Thirty have neither; 31 still lack an exact-original-source answer.",
+    "source_search_and_reading": {
+      "actually_inspected": "Accepted PP2A qualification/proposal, independent synthesis review and targeted n438/current schema; no new original main, image or workbook reading.",
+      "new_primary_reading_credit": 0,
+      "prior_scopes": "Historical source-reading state is preserved in historical_checkpoint_before_pp2a_268."
+    },
+    "input_provenance": [
+      {
+        "source_kind": "immutable_baseline_git_blob",
+        "commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+        "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
+        "sha256": "a28c91ce90bd685dcc37b96577bb6d3ae7b7ae5e6274dac34878dbd485c0b345",
+        "role": "Exact previous active reconciliation"
+      },
+      {
+        "source_kind": "immutable_baseline_git_blob",
+        "commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "sha256": "327f67234059ba120f8cb5cb9a8959f95d470c0de7cc04134903a20dfef7667b",
+        "role": "265-appraisal integration baseline"
+      },
+      {
+        "source_kind": "accepted_portable_source",
+        "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.md",
+        "sha256": "bb79c11d5edca5e55e727b42eaaf9edbd395dd5b53377dc51fecd1b2de11d759",
+        "role": "Separately qualified exact primary source; no new integration reading credit"
+      },
+      {
+        "source_kind": "accepted_portable_source",
+        "repo_relative": "workflow/track2-drug-census/pp2a-brca2-qualification.json",
+        "sha256": "ab354aa43e772e5883b4e8f60c9b074ec6686e284b32e1b1778482a927124dd6",
+        "role": "Separately qualified exact primary source; no new integration reading credit"
+      }
+    ],
+    "preservation": {
+      "changed_record_indices": [
+        438
+      ],
+      "other46record_objects_unchanged": true,
+      "all47_questions_and_flags_unchanged": true,
+      "all265_prior_decision_ids_retained": true,
+      "prior264_objects_unchanged": true
+    },
+    "parent_assigned_next_source": "No new source assignment is made by this reconciliation; residual n438 questions are explicit.",
+    "repository_snapshot_state": "268-appraisal checkpoint; repository_commit is the immutable parent baseline, not a self-referential commit claim.",
+    "freeze_note": "Preserve all other 46 objects and every original question/hash/flag; direct qualification does not imply missing experiments were performed.",
+    "previous_reconciliation": {
+      "commit": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+      "repo_relative": "workflow/track2-drug-census/batch15-followup-reconciliation.json",
+      "sha256": "a28c91ce90bd685dcc37b96577bb6d3ae7b7ae5e6274dac34878dbd485c0b345"
+    },
+    "reconciliation_md_sha256": "3975f298ed24c3b10bed72c1dc064aefc3d53320bd584d24f398c27e5203336d",
+    "decision_count_scope": "265 baseline appraisals; three additions and one additive existing refinement produce 268.",
+    "repository_authoritative_decision_count_at_baseline": 265,
+    "candidate_input_ledger": {
+      "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pp2a-brca2-integration-20260927/ready/decisions-ready.json",
+      "sha256": "0a1c912e21997e4c2b9b7173e050c4e0ca0515506217edec466b921ff1d319a3",
+      "candidate_appraisals": 268,
+      "scope": "Exact reviewed prepared ledger; historical candidates preserved."
+    },
+    "root_integration": {
+      "baseline": "f1006fc60fb9a47191d5711bc4e22722b06cb18f",
+      "changed_record_indices": [
+        438
+      ],
+      "new_ids": [
+        "new-lb100",
+        "new-nms873",
+        "new-olaparib"
+      ],
+      "refined_ids": [
+        "new-barasertib"
+      ],
+      "new_outer_credit": 0,
+      "new_primary_reading_credit": 0
+    },
+    "qualification_files_scope": "Pre-existing qualification_files entries and their hashes are preserved historical reading-time bindings, not newly certified current-file hashes. Only the two appended PP2A qualification pointers are bound to the current accepted source bytes in this update. Other 46 question records and their historical pointers are unchanged."
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "date": "2026-09-23",
+  "status": "INTEGRATED_SOURCE_QUALIFICATION",
+  "pmid": "31477687",
+  "pmcid": "PMC6718419",
+  "doi": "10.1038/s41398-019-0542-2",
+  "title": "Astrocytes are direct cellular targets of lithium treatment: novel roles for lysyl oxidase and peroxisome-proliferator activated receptor-γ as astroglial targets of lithium.",
+  "source_url": "https://www.nature.com/articles/s41398-019-0542-2",
+  "source_metadata": {
+    "pubYear": "2019",
+    "firstPublicationDate": "2019-09-02",
+    "publicationStatus": "epublish",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  "identity": {
+    "lithium_salt_verified": "lithium chloride",
+    "current_matching_decision": "new-lithium-chloride",
+    "ledger_sha256": "7d400083aa3a507b48008ff5cd6b0b46f51a99fb13e8d159064f782f0006524c",
+    "ledger_object_read_tool_chunk": "c94a02",
+    "new_identity_required": false,
+    "clinical_formulation_equivalence": false
+  },
+  "actual_arms": [
+    {
+      "name": "lithium chloride",
+      "role": "actual ex-vivo intervention",
+      "exposure": "20 mM nominal culture condition for3days; Sigma Aldrich; catalog/purity not specified",
+      "control": "Control medium in paper; saline-labelled controls in GEO; no explicit equiosmolar chloride comparator described",
+      "result": "Increased GFAP-EGFP-positive cell counts and induced polarised long smooth processes/palisades; bulk Bub1b RNA signals lower."
+    },
+    {
+      "name": "β-aminopropionitrile (BAPN)",
+      "role": "actual separate LOX-inhibitor comparator",
+      "exposure": "3days; concentration not reported in reviewed main/captions/supplements",
+      "result": "Similar morphology and increased reporter-positive counts; Fig4E one-star control bracket, whose threshold is not defined in the caption."
+    },
+    {
+      "name": "pioglitazone",
+      "role": "actual separate PPAR-gamma comparator",
+      "exposure": "1 mM,3days; salt/catalog/vehicle unspecified",
+      "result": "Increased reporter counts; Fig4E ** control bracket per caption p<0.01; no head-to-head equivalence test against lithium."
+    },
+    {
+      "name": "3-prime-O-methylepicatechin",
+      "role": "actual flavonoid preparation per Results, Fig4 and caption",
+      "exposure": "Methods calls it 3-O-Epicatechin at3micromolar; Results/caption/image specify methyl derivative;3days; identity wording conflict remains",
+      "result": "Increased reporter counts; Fig4E *** control bracket p<0.001; no inheritance by dietary epicatechin or ordinary catechin."
+    }
+  ],
+  "model": {
+    "setting": "Adult mouse optic nerve with attached retina, organotypic ex-vivo culture; healthy background tissue, not a BUB1B-deficient or psychiatric disease model.",
+    "age": "35–45days in Methods,5–6weeks in captions",
+    "sex": "Not reported in reviewed main",
+    "culture": "3days,37C, reported95%O2/5%CO2;25%horse serum/49%OptiMEM/25%HBSS based medium",
+    "randomization_blinding": "Group allocation not blinded; outcome measures said blinded; no excluded samples. Random assignment method not specified."
+  },
+  "phenotypic_evidence": {
+    "Fig1C": "Author reports approximately doubled cell counts; native graph visually about21 versus38 cells/FOV, not digitized; p<0.001, unpaired/Student t-test, meanSEM.",
+    "FOV": "200x200micrometers in-plane and25micrometers depth, starting15micrometers below pia; one mid-nerve field per nerve.",
+    "what_was_measured": "GFAP-EGFP reporter-positive counts and confocal morphology.",
+    "proliferation_limit": "Authors call it proliferation; no BrdU/EdU/Ki67, division tracking or independent birth/death assay in reviewed study. Increased counts do not separate proliferation, survival or reporter detectability.",
+    "function_limit": "No neuronal electrophysiology, synaptic support, axonal conduction, motor/cognitive behavior, injury rescue or BUB1B-deficient functional assay. The neuron-supportive phenotype is an interpretation, not directly tested function.",
+    "clinical_benefit_or_harm": "Neither inferred."
+  },
+  "bub1b_evidence": {
+    "main": "Bub1b is central in a computational cell-cycle network in Fig1Hi; BUB1 is a distinct node. Node colour/enrichment P does not establish gene expression direction or protein abundance.",
+    "supplement": "Nine top-ranked genes do not include Bub1b; absence from this selected table is not a null experiment.",
+    "deposited_expression_file": "bub1b-expression.json",
+    "deposited_expression_sha256": "69a4e245762dc139608b0047d04bee7c6f5e49a5e1f6bff7e9846c4573ed044b",
+    "measured_level": "Bulk optic-nerve RNA microarray; astrocyte-associated gene-list intersection, not sorted-cell expression.",
+    "direction": "All3 exact-symbol probe sets have lower MAS5.0 signals in all4 lithium arrays than all4 control arrays.",
+    "descriptive_rows": [
+      {
+        "probe": "1416961_at",
+        "gene_symbol": "Bub1b",
+        "entrez_gene_id": "12236",
+        "GenBank_accession": "NM_009773",
+        "control_values": [
+          30.6795,
+          25.4454,
+          62.8038,
+          76.0278
+        ],
+        "lithium_values": [
+          1.62905,
+          2.72438,
+          6.90681,
+          8.49794
+        ],
+        "control_mean": 48.739125,
+        "control_sample_SD": 24.571219923774645,
+        "lithium_mean": 4.939545,
+        "lithium_sample_SD": 3.2862663555317604,
+        "ratio_lithium_mean_to_control_mean": 0.10134660808949689,
+        "all_lithium_values_below_all_control_values": true,
+        "gene_specific_p": null,
+        "gene_specific_fdr": null
+      },
+      {
+        "probe": "1447362_at",
+        "gene_symbol": "Bub1b",
+        "entrez_gene_id": "12236",
+        "GenBank_accession": "AU045529",
+        "control_values": [
+          8.0346,
+          7.74278,
+          13.6567,
+          10.7604
+        ],
+        "lithium_values": [
+          0.423011,
+          3.55942,
+          1.0377,
+          1.4426
+        ],
+        "control_mean": 10.04862,
+        "control_sample_SD": 2.762730938811572,
+        "lithium_mean": 1.61568275,
+        "lithium_sample_SD": 1.3619351548355436,
+        "ratio_lithium_mean_to_control_mean": 0.16078653088682823,
+        "all_lithium_values_below_all_control_values": true,
+        "gene_specific_p": null,
+        "gene_specific_fdr": null
+      },
+      {
+        "probe": "1447363_s_at",
+        "gene_symbol": "Bub1b",
+        "entrez_gene_id": "12236",
+        "GenBank_accession": "AU045529",
+        "control_values": [
+          37.2125,
+          27.904,
+          98.8437,
+          107.89
+        ],
+        "lithium_values": [
+          4.79591,
+          6.00107,
+          8.65789,
+          10.7133
+        ],
+        "control_mean": 67.96255,
+        "control_sample_SD": 41.22337400039772,
+        "lithium_mean": 7.5420425,
+        "lithium_sample_SD": 2.6594378934826937,
+        "ratio_lithium_mean_to_control_mean": 0.1109735067327521,
+        "all_lithium_values_below_all_control_values": true,
+        "gene_specific_p": null,
+        "gene_specific_fdr": null
+      }
+    ],
+    "inferential_status": "No between-group gene-specific differential-expression P/FDR assigned or recomputed. Native per-sample detection P values are available and retained separately; they are not treatment-effect tests. The original gene-filter/normalization pipeline is not reproduced.",
+    "protein_stability_function": "Not assayed; no restoration or checkpoint-harm inference.",
+    "raw_pipeline_reproduction": false,
+    "detection_limit": "One probe is absent in every array; another has one absent lithium call; the third is present in every array. Retain all features without treating three probes as three independent studies or detection P as DE P/FDR. Lower processed probe signals are not a validated RNA-abundance decrease.",
+    "portable_detection_data_file": "lithium-astrocyte-expression.json",
+    "portable_detection_data_sha256": "6f920f8bffee9910c97ff74c4cbf511a61eeb7303cfbfd91133f14444a5bc53c"
+  },
+  "exposure_limit": {
+    "nominal_culture_mM": 20,
+    "duration_days": 3,
+    "authors_claim": "Pia permeability reduces intranerve exposure to1–2mM, citing prior work.",
+    "what_verified": "This paper and supplements provide no measured tissue lithium concentration or human exposure bridge. Prior cited dose-response/PK paper not independently read here.",
+    "clinical_advice": false
+  },
+  "source_conflicts": [
+    {
+      "item": "Mouse background",
+      "paper": "C57/BL10 for wild-type microarray; GFAP-EGFP reporter mice for imaging",
+      "deposit": "All eight arrays and overall design state C57BL/6",
+      "resolution": "Unresolved source discrepancy; do not silently choose a strain."
+    },
+    {
+      "item": "Experimental units/pooling",
+      "paper": "Imaging6nerves/3mice per group; transcriptomics12nerves/6mice per group; experiments in triplicate. Each nerve counted as n.",
+      "deposit": "4arrays/group; each sample description says n=6optic nerves.",
+      "resolution": "Exact pooling, donor overlap and replication mapping unresolved; no reconstructed animal count. Same-animal nerve clustering not described in statistics."
+    },
+    {
+      "item": "Fstl1 direction",
+      "paper": "Results says upregulated",
+      "deposit": "Native Supplementary Table1 rowFstl1 has signedFC−2.73 and listedP7.47e−05",
+      "resolution": "Retain conflict. Do not claim Fstl1 upregulation as a verified mechanistic link."
+    },
+    {
+      "item": "BAPN dose and star",
+      "paper": "No reviewed concentration; Fig4E one-star bracket",
+      "deposit": "Caption only defines two/three stars",
+      "resolution": "No dose or exactP assigned."
+    },
+    {
+      "item": "Flavonoid identity",
+      "paper": "Methods3-O-Epicatechin versus Results/Fig4/caption3-prime-O-methylepicatechin",
+      "deposit": "No product identifier",
+      "resolution": "Methyl-derivative evidence is not inherited by unmodified epicatechin."
+    },
+    {
+      "item": "Predicted compound identity",
+      "paper": "Narrative top BD agent called betulinic acid",
+      "deposit": "Main Table1B names Betulin",
+      "resolution": "Computational prediction only; do not treat either as administered in this paper."
+    },
+    {
+      "item": "cRNA hybridization input",
+      "paper": "10 µg",
+      "deposit": "7 µg",
+      "resolution": "Independent reviewer confirmed a source metadata discrepancy; no correction to deposited values or reconstruction of actual input is asserted.",
+      "attribution": "independent/independent-check.md"
+    }
+  ],
+  "computational_vs_administered": "Table1 lists40 computationally ranked candidate rows; these are not40 treatment arms. Quercetin, ordinarycatechin, betulin, betulinic acid and most listed compounds were not administered in this paper.",
+  "notice_status": {
+    "europe_pmc_notice_relation": null,
+    "crossref_relation": {},
+    "crossref_update_to": null,
+    "openalex_is_retracted": false,
+    "limit": "Fresh metadata returned no notice relation and not-retracted flag; no notice text read; not a universal guarantee."
+  },
+  "disposition": {
+    "refine_existing_LiCl": true,
+    "add_new_appraisal": false,
+    "scientific_scope": "Add independently source-qualified ex-vivo astrocyte morphology/count and lower processed probe-signal context to existing LiCl decision; preserve prior oocyte/checkpoint evidence separately.",
+    "MVA_or_nominee_displacement": "Not established. No BUBR1 protein rescue, genotype functional rescue or muscle endpoint. Actual morphological response is retained and is not called harmful merely because deposited Bub1b probe signals are lower.",
+    "no_new_outer_credit": true
+  },
+  "reading_evidence_file": "read-evidence.json",
+  "reading_evidence_sha256": "ea19635437cb41cf78834d2c401cfc22d974dd687e370f82a1538d6265cf4b32",
+  "retrieval_manifest_sha256": "32c5a51c25d0778d7c297b9878d1b32075cb39de91176e9fadc51b5d07dbc67b",
+  "source_assets": [
+    {
+      "file": "europepmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31477687+AND+SRC%3AMED&format=json&resultType=core",
+      "sha256": "97c6419bf62dfa4c8ea7306c710ccc317e372a3f6a1f095b72bedc7df373059f",
+      "retrieved_utc": "2026-09-23T19:11:46.441269+00:00"
+    },
+    {
+      "file": "main.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6718419/fullTextXML",
+      "sha256": "cd2358b7dfe173f11c0168944165121ac90b467bb03e7344da502884fc0ad82c",
+      "retrieved_utc": "2026-09-23T19:12:03.310842+00:00"
+    },
+    {
+      "file": "publisher.html",
+      "url": "https://www.nature.com/articles/s41398-019-0542-2",
+      "sha256": "ed743f30440bb626b1676f27e8166395072b71ff64cd35befefe30eba40d06e1",
+      "retrieved_utc": "2026-09-23T19:12:45.092560+00:00"
+    },
+    {
+      "file": "fig1.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41398-019-0542-2/MediaObjects/41398_2019_542_Fig1_HTML.png",
+      "retrieved_utc": "2026-09-23T19:13:06.156855+00:00",
+      "status": 200,
+      "bytes": 2141120,
+      "sha256": "6a0a00340d6d6b994c690935e610a0684502b63d2efe56de8d8616413b2012cb",
+      "content_type": "image/png"
+    },
+    {
+      "file": "fig2.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41398-019-0542-2/MediaObjects/41398_2019_542_Fig2_HTML.png",
+      "retrieved_utc": "2026-09-23T19:13:06.157130+00:00",
+      "status": 200,
+      "bytes": 1881098,
+      "sha256": "173281baade73e3783715dbbd8fbe34ea5e28306b01504bca1cedc1412260648",
+      "content_type": "image/png"
+    },
+    {
+      "file": "fig3.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41398-019-0542-2/MediaObjects/41398_2019_542_Fig3_HTML.png",
+      "retrieved_utc": "2026-09-23T19:13:06.157228+00:00",
+      "status": 200,
+      "bytes": 1888650,
+      "sha256": "f2284f8d9d597c13eb67c287bc24b96c381b99f62585b4cecd46168460e3e842",
+      "content_type": "image/png"
+    },
+    {
+      "file": "fig4.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41398-019-0542-2/MediaObjects/41398_2019_542_Fig4_HTML.png",
+      "retrieved_utc": "2026-09-23T19:13:06.157289+00:00",
+      "status": 200,
+      "bytes": 3973238,
+      "sha256": "b8d182f1d33a1e14187c0a50603b456bfec8022abeffe9a07cc1905c48729fe8",
+      "content_type": "image/png"
+    },
+    {
+      "file": "supp1.docx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41398-019-0542-2/MediaObjects/41398_2019_542_MOESM1_ESM.docx",
+      "retrieved_utc": "2026-09-23T19:13:11.287552+00:00",
+      "status": 200,
+      "bytes": 12445,
+      "sha256": "02fe1a80744ce877078278eae82872cf2575cda5e9de1b237a3d52fb25974f52",
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "supp2.docx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41398-019-0542-2/MediaObjects/41398_2019_542_MOESM2_ESM.docx",
+      "retrieved_utc": "2026-09-23T19:13:11.737535+00:00",
+      "status": 200,
+      "bytes": 12431,
+      "sha256": "85e21ddf15c0b7bb10e464da27d46e4fe02eea1f2c8132157b733f494553b740",
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "supp3.tif",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41398-019-0542-2/MediaObjects/41398_2019_542_MOESM3_ESM.tif",
+      "retrieved_utc": "2026-09-23T19:13:12.195699+00:00",
+      "status": 200,
+      "bytes": 2484314,
+      "sha256": "466fa1357bb23628df6c37f333c70462cf1faf01be0552ef3c61f89e4ab8b52a",
+      "content_type": "image/tiff"
+    },
+    {
+      "file": "geo-matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE132nnn/GSE132397/matrix/GSE132397_series_matrix.txt.gz",
+      "retrieved_utc": "2026-09-23T19:14:34.913094+00:00",
+      "status": 200,
+      "bytes": 1535005,
+      "sha256": "15e2053fe4e5c250b2ac1338517cfcc114b276bfd3bd67ce04654a7a617df5f2"
+    },
+    {
+      "file": "crossref.json",
+      "url": "https://api.crossref.org/works/10.1038/s41398-019-0542-2",
+      "retrieved_utc": "2026-09-23T19:14:34.913362+00:00",
+      "status": 200,
+      "bytes": 40162,
+      "sha256": "73bd7098e777e6d54cae4c214ef28dcd0ac60a1227b5a93188059676eaf45a0b"
+    },
+    {
+      "file": "openalex.json",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1038/s41398-019-0542-2",
+      "retrieved_utc": "2026-09-23T19:14:34.913433+00:00",
+      "status": 200,
+      "bytes": 26564,
+      "sha256": "3a0f78eaebe52cad843022e3b50a0189962eea224709d79c4aa0b70e65bcc049"
+    },
+    {
+      "file": "GPL1261.annot.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL1nnn/GPL1261/annot/GPL1261.annot.gz",
+      "sha256": "394c103cf4ca99500d06369e4fb2b9b9bffc2c10fd3cbeb0b0d64c51c3fc95f8",
+      "retrieved_utc": "2026-09-23T19:15:28.167023+00:00"
+    },
+    {
+      "file": "geo-family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE132nnn/GSE132397/soft/GSE132397_family.soft.gz",
+      "sha256": "f6efca0ff9c1776aabe64e434645cf87c86355537882a8035b15d6d5ea5dd5f4",
+      "bytes": 13102407,
+      "retrieved_utc": "2026-09-23T19:16:47.161230+00:00"
+    }
+  ],
+  "blocked_assets": [],
+  "candidate_detection_qualification": {
+    "source_file": "candidate/bub1b-detection-calls.json",
+    "sha256": "d4c706ee0438c62ecf6810d76b00b9e6c7c7a7b9d91a6ac7d0f1a7213b548ea8",
+    "interpretation": "One probe is absent in every array; another has one absent lithium call; the third is present in every array. Retain all features without treating three probes as three independent studies or detection P as DE P/FDR. Lower processed probe signals are not a validated RNA-abundance decrease.",
+    "scope": "Targeted call fields actually read by candidate assembler; this extends rather than rewrites the frozen source/independent reports."
+  },
+  "candidate_provenance": {
+    "status": "INTEGRATED_WITH_ROOT_SOURCE_CHECK",
+    "baseline": "2591b136724889da47837dc75e8754aca3f9ee1d",
+    "external_source_root": "lithium-astrocyte-followup-20260923",
+    "external_candidate_dir": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lithium-astrocyte-followup-20260923/candidate",
+    "source_qualification_md_sha256": "5e3514dc4913b59802455c6b397407c8cd67aace0670a474e6e6a598db022861",
+    "source_qualification_json_sha256": "c5679c46f524a0a16d3f3ce34dae9990d7172358bb539c33648de9e99ad361e4",
+    "portable_md_file": "lithium-astrocyte-qualification.md",
+    "portable_md_sha256": "e1c21e2f7781460c6307ec93fedfaf33386cc951e8815a167f2e41e32424176a",
+    "expression_file": "lithium-astrocyte-expression.json",
+    "expression_sha256": "6f920f8bffee9910c97ff74c4cbf511a61eeb7303cfbfd91133f14444a5bc53c",
+    "root_source_review_declaration": {
+      "attribution": "Actual root reading declared in separately saved manifest; candidate assembly does not expand it.",
+      "manifest_file": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lithium-comparison-followup-20260923/root-reading.json",
+      "manifest_sha256": "e92a702b890913899686ab54a90f464fe5aefbf80f3d06600823f4df3806f515",
+      "declared_scope": {
+        "baseline": "2591b136724889da47837dc75e8754aca3f9ee1d",
+        "previous_goal_turn": "progress: live PR1 comparison established exact preserved components; current continuation returns to source qualification",
+        "scope": "Root scientific reading across preceding context and this continuation; outputs are reading evidence, hashes alone are not reading proof.",
+        "scientific_main_complete_outputs": [
+          "49d454",
+          "26e07d"
+        ],
+        "all_main_captions_table1_output": "9c5267",
+        "native_figures_viewed": [
+          "fig1.png",
+          "fig4.png"
+        ],
+        "GEO_annotation_metadata_all24signals_verified_output": "3ab945",
+        "complete_supplementary_texts_output": "3ab945",
+        "detection_calls_full24_read_output": "d14053",
+        "root_independent_SOFT_detection_replay_output": "424905",
+        "detection_replay_sha256": "40e5312b6e9a8f4757251545f23a9c9c115b1db36f15ef7a17a3cec11e09c75e",
+        "not_claimed": [
+          "Root did not inspect main Figure2/3 images or supplementary schematic this pass",
+          "No raw CEL reprocessing or between-group differential-expression P/FDR",
+          "No new outer abstract credit",
+          "No measured BUBR1 protein or MVA efficacy",
+          "No equivalence of deposited reporter count with proliferation or neuron function"
+        ],
+        "primary_files": {
+          "main.xml": "cd2358b7dfe173f11c0168944165121ac90b467bb03e7344da502884fc0ad82c",
+          "geo-family.soft.gz": "f6efca0ff9c1776aabe64e434645cf87c86355537882a8035b15d6d5ea5dd5f4",
+          "geo-matrix.txt.gz": "15e2053fe4e5c250b2ac1338517cfcc114b276bfd3bd67ce04654a7a617df5f2",
+          "GPL1261.annot.gz": "394c103cf4ca99500d06369e4fb2b9b9bffc2c10fd3cbeb0b0d64c51c3fc95f8",
+          "supp1.docx": "02fe1a80744ce877078278eae82872cf2575cda5e9de1b237a3d52fb25974f52",
+          "supp2.docx": "85e21ddf15c0b7bb10e464da27d46e4fe02eea1f2c8132157b733f494553b740"
+        }
+      },
+      "admission": "Parent admitted three Figure 4 companions plus LiCl refinement.",
+      "outer_reading_credit": 0
+    },
+    "independent_check_refs": [
+      {
+        "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lithium-astrocyte-followup-20260923/independent/independent-check.md",
+        "sha256": "cf6fb23e9589534a8b4428f4df4185b8fec1f60fe86a681942e0d90a8463e8a9"
+      },
+      {
+        "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lithium-astrocyte-followup-20260923/independent/independent-check.json",
+        "sha256": "dfe041cc98e08877e54018db2b14f7fb4f4bd1324693f946d9e9ad294a49507b"
+      }
+    ],
+    "independent_scope": {
+      "primary_sections": [
+        "Sec2 allMethods/subsections",
+        "Sec10–12 Results",
+        "Sec17 Discussion",
+        "Sec14–15 Results including entire40-rowTable1 andFigure4caption",
+        "Selected BAPN/flavonoid Discussionparagraphs elsewhere"
+      ],
+      "primary_text_plan_file": "primary-read-plan.json",
+      "primary_text_tool_chunks": [
+        "f69bd1",
+        "47dd3a",
+        "05f299"
+      ],
+      "native_figures_viewed": [
+        1,
+        4
+      ],
+      "supplement": "All9rows of supp2.docx nativeTable1",
+      "supplement_tool_chunk": "dd090a",
+      "GEO_scope": "Series/sample metadata, exact Bub1b annotations and all24 signal/ABS_CALL/detectionP cells checked against native SOFT and matrix; no all-gene or raw-array review.",
+      "GEO_tool_chunks": [
+        "47dd3a",
+        "dd090a",
+        "55c91e",
+        "30129c"
+      ],
+      "source_scope_validation_chunk": "891699",
+      "not_read": [
+        "RemainingResults/Discussion",
+        "NativeFigures2/3",
+        "OtherSupplement",
+        "RawCEL/CHP",
+        "Citedprimaries"
+      ],
+      "complete_paper_independent_credit": false,
+      "figure4_context_file": "figure4-context.txt",
+      "figure4_context_sha256": "75893099dc2967ec719e7af6b0858935bd12564e8c011d9a6c23bf780f79fcaa"
+    },
+    "independent_review_read_by_candidate_assembler_tool_chunks": [
+      "de9d02",
+      "07e9f5",
+      "c8635b"
+    ],
+    "source_reading_attribution": "Source reviewer completed primary qualification; independent scope and parent reading separately declared. Candidate assembly read assessments and all24 targeted native SOFT value/call/detection-P cells plus definitions, not full primary/raw arrays.",
+    "proposed_refined_id": "new-lithium-chloride",
+    "proposed_new_ids": [
+      "new-beta-aminopropionitrile",
+      "new-pioglitazone",
+      "new-3-prime-o-methylepicatechin"
+    ],
+    "candidate_ledger_count": 206,
+    "new_primary_studies_from_this_candidate": 0,
+    "extra_outer_reading_credit": 0,
+    "external_reference_rule": "Original relative assets/read manifests resolve under external_source_root. Candidate assembly does not mutate those sources.",
+    "pre_integration_status": "FROZEN_EXTERNAL_CANDIDATE_ONLY",
+    "frozen_candidate_md_sha256": "6d1dfa2d26e10760a15589afdad0ad28c743c3f812032ecc19338234115266fe"
+  },
+  "qualification_md_sha256": "e1c21e2f7781460c6307ec93fedfaf33386cc951e8815a167f2e41e32424176a",
+  "integration": {
+    "baseline": "2591b136724889da47837dc75e8754aca3f9ee1d",
+    "candidate_json_sha256": "7554b86013a465b9ac194c9bdbb16ac783d9841beab963202330562a646c26a7",
+    "root_reading": {
+      "baseline": "2591b136724889da47837dc75e8754aca3f9ee1d",
+      "previous_goal_turn": "progress: live PR1 comparison established exact preserved components; current continuation returns to source qualification",
+      "scope": "Root scientific reading across preceding context and this continuation; outputs are reading evidence, hashes alone are not reading proof.",
+      "scientific_main_complete_outputs": [
+        "49d454",
+        "26e07d"
+      ],
+      "all_main_captions_table1_output": "9c5267",
+      "native_figures_viewed": [
+        "fig1.png",
+        "fig4.png"
+      ],
+      "GEO_annotation_metadata_all24signals_verified_output": "3ab945",
+      "complete_supplementary_texts_output": "3ab945",
+      "detection_calls_full24_read_output": "d14053",
+      "root_independent_SOFT_detection_replay_output": "424905",
+      "detection_replay_sha256": "40e5312b6e9a8f4757251545f23a9c9c115b1db36f15ef7a17a3cec11e09c75e",
+      "not_claimed": [
+        "Root did not inspect main Figure2/3 images or supplementary schematic this pass",
+        "No raw CEL reprocessing or between-group differential-expression P/FDR",
+        "No new outer abstract credit",
+        "No measured BUBR1 protein or MVA efficacy",
+        "No equivalence of deposited reporter count with proliferation or neuron function"
+      ],
+      "primary_files": {
+        "main.xml": "cd2358b7dfe173f11c0168944165121ac90b467bb03e7344da502884fc0ad82c",
+        "geo-family.soft.gz": "f6efca0ff9c1776aabe64e434645cf87c86355537882a8035b15d6d5ea5dd5f4",
+        "geo-matrix.txt.gz": "15e2053fe4e5c250b2ac1338517cfcc114b276bfd3bd67ce04654a7a617df5f2",
+        "GPL1261.annot.gz": "394c103cf4ca99500d06369e4fb2b9b9bffc2c10fd3cbeb0b0d64c51c3fc95f8",
+        "supp1.docx": "02fe1a80744ce877078278eae82872cf2575cda5e9de1b237a3d52fb25974f52",
+        "supp2.docx": "85e21ddf15c0b7bb10e464da27d46e4fe02eea1f2c8132157b733f494553b740"
+      }
+    },
+    "root_reading_manifest_sha256": "e92a702b890913899686ab54a90f464fe5aefbf80f3d06600823f4df3806f515",
+    "independent_check_json_sha256": "dfe041cc98e08877e54018db2b14f7fb4f4bd1324693f946d9e9ad294a49507b",
+    "independent_check_md_sha256": "cf6fb23e9589534a8b4428f4df4185b8fec1f60fe86a681942e0d90a8463e8a9",
+    "public_replay_script": "summarize_lithium_bub1b.py",
+    "public_replay_sha256": "3b60e22548873a66f771ccd03805b28066bd2f302dbb0e492060017e1379c4d1",
+    "refined_id": "new-lithium-chloride",
+    "new_ids": [
+      "new-3-prime-o-methylepicatechin",
+      "new-beta-aminopropionitrile",
+      "new-pioglitazone"
+    ],
+    "new_outer_abstract_credit": 0,
+    "root_wording_refinements": [
+      "Scope source-disposition wording consistently to lower processed probe signals; no validated RNA-abundance decrease."
+    ]
+  }
+}

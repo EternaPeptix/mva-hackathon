@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "source_question": {
+    "batch": 15,
+    "n": 85,
+    "original_unfiltered_index": 4841,
+    "original_record_id": "PPR918452",
+    "question": "Which inhibitors and exposures enable CENP-E-independent congression, and do later segregation/error outcomes improve?",
+    "classification": "partial_answer_via_published_related_source",
+    "components": {
+      "inhibitor_identity_and_exposure": "answered_with_protocol_and_quantitative_arm_limits",
+      "restricted_congression_response": "answered",
+      "later_segregation_error_improvement": "not_established",
+      "exact_preprint_version_and_text": "unresolved_access_and_version_boundary"
+    }
+  },
+  "sources": {
+    "title": "Kinetochore-centrosome feedback linking CENP-E and Aurora kinases controls chromosome congression",
+    "preprint": {
+      "source": "PPR",
+      "record_id": "PPR918452",
+      "doi": "10.1101/2024.09.29.614573",
+      "first_publication_date": "2024-10-01",
+      "version": null,
+      "full_text_read": false,
+      "access": "OfficialEuropePMC PDF403;bioRxivHTML403;bioRxivAPI empty200",
+      "relation_basis": "EuropePMC title-first-author match; no textlevel equivalence verified"
+    },
+    "published": {
+      "pmid": "41120338",
+      "pmcid": "PMC12540731",
+      "doi": "10.1038/s41467-025-64804-1",
+      "date": "2025-10-21",
+      "journal": "Nature Communications16:9097",
+      "url": "https://www.nature.com/articles/s41467-025-64804-1"
+    },
+    "source_data": {
+      "doi": "10.6084/m9.figshare.29135756.v1",
+      "version": 1,
+      "zip_md5": "f68e33f641917667b89e4974657c87e2",
+      "official_api": "https://api.figshare.com/v2/articles/29135756"
+    }
+  },
+  "verdict": {
+    "classification": "bounded_mechanistic_congression_assay_comparators",
+    "restoration_candidate_supported": false,
+    "BUB1B_drug_response_measured": false,
+    "BubR1_protein_or_function_rescue_measured": false,
+    "MVA_rescue_measured": false,
+    "faithful_daughter_cell_yield_measured": false,
+    "clinical_benefit_inference": false,
+    "ordinary_availability_assessed": false,
+    "competitive_credit": "Measured conditional congression and kinase-phosphosignal responses in cell lines, including nontransformed immortalizedRPE-1; retain positiveMLN8054/TCS7010/centrinone and negativealisertib, not MVArestoration."
+  },
+  "administered_exposures": [
+    {
+      "identity": "centrinone",
+      "catalog": "MCE HY-18682",
+      "role": "PLK4 inhibitor / chronic centriole depletion; conditional congression bypass comparator",
+      "concentration": "300nM",
+      "schedule": "1–5days continuous;1day1:1;2days includes1:0;>3days rare0:0",
+      "model": "RPE-1;U2OS CENP-E-perturbation comparison",
+      "response": "Fewer polar chromosomes and shorter polar residence near acentriolar poles under CENP-E perturbation; no faster congression velocity",
+      "direction": "positive_restricted_congression",
+      "limits": [
+        "rare completely acentriolar RPE-1 attributed to p53-dependent arrest",
+        "no BubR1 response or postdivision fidelity assay"
+      ],
+      "figures": [
+        "1",
+        "2",
+        "3",
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "identity": "MLN8054",
+      "catalog": "MCE HY-10180",
+      "role": "Aurora A inhibitor / acute congression and phosphosignal comparator",
+      "concentration": "125 or250nM",
+      "schedule": "acute or30–60min; representative4d250nM30min;4h250nM",
+      "quantitative_exposure_limit": "4e-g labels onlydrug names; sourceworkbooks no doses. Do not guarantee all pooled values belong to single125 or250nM exposure.",
+      "model": "CENP-E-inhibited RPE-1",
+      "response": "Lower pAurB polar/aligned ratio and fewer polar chromosomes; shorter spindles; end-on attachments in most examined congressing kinetochores in Figure4h (15 cells examined).",
+      "direction": "positive_restricted_congression_with_spindle_shortening",
+      "figures": [
+        "4",
+        "S3"
+      ]
+    },
+    {
+      "identity": "TCS7010",
+      "catalog": "MCE HY-70061",
+      "role": "Aurora A inhibitor / acute comparator",
+      "concentration": "100nM",
+      "schedule": "30min",
+      "model": "CENP-E-inhibited RPE-1",
+      "response": "Lower pAurB polar/aligned ratio and fewer polar chromosomes; shorter spindles",
+      "direction": "positive_restricted_congression_with_spindle_shortening",
+      "figures": [
+        "4"
+      ]
+    },
+    {
+      "identity": "alisertib",
+      "alias": "MLN8237",
+      "catalog": "MCE HY-10971",
+      "role": "Aurora A inhibitor / tested negative comparator",
+      "concentration": "125nM",
+      "schedule": "30min",
+      "model": "CENP-E-inhibited RPE-1",
+      "response": "No significant difference in pAurB ratio, polar chromosome count or spindle length versusDMSO",
+      "direction": "no_significant_effect_at_tested_exposure",
+      "reported_p": [
+        "0.399",
+        "0.117",
+        "0.993"
+      ],
+      "limit": "Longer/higher exposure efficacy is author speculation, not tested result",
+      "figures": [
+        "4"
+      ]
+    },
+    {
+      "identity": "GSK-923295",
+      "catalog": "MCE HY-10299",
+      "role": "CENP-E inhibitor / background lesion, not beneficial intervention",
+      "concentration": "80nM explicitly for RPE-1 andU2OS",
+      "schedule": "1–4h oracute;Fig1 schematic4h;moviecaption3h",
+      "model": "RPE-1,U2OS;HeLa used but do not automatically assignRPE-1/U2OS dose sentence toHeLa",
+      "direction": "congression_impairing_perturbation",
+      "context_refinement_only": "Root reports pre-existing new-gsk923295 identity; retain this source context without duplicate identity."
+    },
+    {
+      "identity": "ZM-447439",
+      "catalog": "MCE HY-10128",
+      "role": "Aurora A/B inhibitor / phospho-antibody specificity control",
+      "concentration": "3µM",
+      "schedule": "15min",
+      "response": "pAurB andpKnl1 nearly abolished; pHec1-S55 unchanged",
+      "direction": "assay_signal_validation",
+      "limit": "No independently measured postdivision rescue in this arm",
+      "figures": [
+        "S3c"
+      ]
+    },
+    {
+      "identity": "monastrol",
+      "catalog": "MCE HY-101071A",
+      "role": "Eg5 inhibitor / monopolarization-washout and acute spindle-shortening controls",
+      "concentration": "100µM generalMethods;50µM separateacute experiment",
+      "schedule": "100µM3h oracute asnoted;washout defined inMethods",
+      "response": "Transient monopolarization didnot reproduce acentriolar effect onpolar chromosome count;acute50µM shortens spindle",
+      "direction": "negative_mechanistic_control_and_structural_perturbation",
+      "figures": [
+        "S2a"
+      ]
+    },
+    {
+      "identity": "MG-132",
+      "role": "proteasome inhibitor / metaphase arrest support",
+      "concentration": "1µM",
+      "schedule": "HeLaMethods5h unsynchronized or2h after2h release synchronized;nativeFig5schematic3hconflict;U2OS2h",
+      "direction": "supporting_protocol_not_independent_benefit"
+    },
+    {
+      "identity": "thymidine",
+      "role": "synchronization support",
+      "concentration": "2mM",
+      "schedule": "24h",
+      "direction": "supporting_protocol_not_independent_benefit"
+    },
+    {
+      "identity": "RO-3306",
+      "role": "G2 synchronization support",
+      "concentration": "5µM",
+      "schedule": "Methods16h;Fig5schematic18h intervalconflict",
+      "direction": "supporting_protocol_not_independent_benefit"
+    },
+    {
+      "identity": "doxycycline",
+      "role": "inducible construct expression",
+      "concentration": "1µg/mL",
+      "schedule": "HeLa24h;U2OSovernight",
+      "direction": "supporting_protocol_not_independent_benefit"
+    }
+  ],
+  "genetic_interventions": {
+    "Hec1_9A": "Genetic nine-site phosphonull GFP-Hec1-9A inHeLa; positivecongression underCENP-Edepletion onlyafterendogenousHec1depletion; fails withCENP-Einhibition orwhenendogenousHec1remains. FixedMG132arrest assays.",
+    "CENP_E_T422A": "Induced U2OS phosphonull construct afterendogenousCENP-Edepletion supports centriole-dependent congression model; notdrug.",
+    "siRNA": "CENP-E,Hec1 depletion mechanisticperturbations, notdefinedmedicines."
+  },
+  "models": {
+    "RPE_1": "hTERT-immortalized human RPE-1, callednontransformed; fluorescentreporters",
+    "U2OS": "osteosarcoma transformedline",
+    "HeLa": "cervicalcarcinoma transformedline",
+    "patient_or_MVA_model": false,
+    "primary_normal_tissue": false,
+    "authentication": "None ofcelllines authenticated perMethods",
+    "mycoplasma": "Reported monthlynegative;MethodsSiR-DNA/Hoechst versusreportingsummaryDAPI wording"
+  },
+  "BUB1B_scope": "BubR1 appears inIntroduction/Discussion model andreferences; noBUB1B RNA,BubR1 protein amount/stability/localization/function orBubR1specificrescue measured inexamined publishedmain/figures/supplement. Companionreference11 notread; noimportedresult.",
+  "later_outcome_limits": [
+    "No measured chromosome-missegregationrate,laggingchromosome,micronucleus,aneuploidy,faithfuldaughteryield orlongtermnormalfunction improvement.",
+    "LLSM tracking onlycells thatenteredmitosis andsubsequentlyanaphase duringimaging.",
+    "Multipolarspindlesexcluded.",
+    "Polarresidence endsatcongression ORanaphasewithuncongressedchromosome;durationcannotstandforfidelity.",
+    "WeakAurorakinase errorcorrection warning is citeddiscussion, notmeasuredharmrate here.",
+    "AuroraA→AuroraB directbiochemicalinteraction remainsunproven."
+  ],
+  "source_conflicts": [
+    {
+      "where": "Fig4 finalcaption;XMLandpublisherPDFp6",
+      "text": "MLN,MLN8237",
+      "resolution": "Nativepanel labels/results/methods/Table1 identifyMLN8054;alisertibMLN8237 separatelyassayedandnull. Preserveconflictanddonottransferpositive."
+    },
+    {
+      "where": "Fig4quantitativeexposure",
+      "text": "4e-g/workbookslabelonlydrug;representative4d250nM30min;Methods125/250nM",
+      "resolution": "Do notassignexactdosecompositiontoallpooledMLN8054values."
+    },
+    {
+      "where": "Fig5schedule",
+      "text": "schematic3hMG132versusMethods5hunsync/2hsync;G2schematic18hversusMethods16h",
+      "resolution": "Preserveprotocoluncertaintywithoutdiscardinggeneticdirection."
+    },
+    {
+      "where": "Fig5caption",
+      "text": "MLN8054mentionedwithoutcorrespondingclearlylabeleddrugarm",
+      "resolution": "NoadditionalMLNexperimentinferred."
+    },
+    {
+      "where": "randomization",
+      "text": "MainMethodsnotrandomized;reportingsummarywithinregimeassignmentrandom/nootherrandomization",
+      "resolution": "Donotcallrandomizedblindeddesign;noformalpower."
+    }
+  ],
+  "reading_scope": {
+    "published_scientific_main_complete": true,
+    "all_assets_complete": false,
+    "exact_preprint_complete": false,
+    "text_outputs": [
+      {
+        "parts": [
+          1,
+          2
+        ],
+        "chunk": "a17bb4",
+        "untruncated": true,
+        "endmarked": true
+      },
+      {
+        "parts": [
+          3,
+          4
+        ],
+        "chunk": "232f22",
+        "untruncated": true,
+        "endmarked": true
+      },
+      {
+        "parts": [
+          5,
+          6
+        ],
+        "chunk": "020da3",
+        "untruncated": true,
+        "endmarked": true
+      },
+      {
+        "scope": "abstract+originalPDFpages6/10",
+        "chunk": "0b3825",
+        "untruncated": true,
+        "endmarked": true
+      },
+      {
+        "scope": "allmaincaptions+completeSupplementaryInformationtext+moviecaption",
+        "chunk": "566d37",
+        "untruncated": true,
+        "endmarked": true
+      },
+      {
+        "scope": "allcells4e/4f/4gworkbooks",
+        "chunk": "ea7a0a",
+        "untruncated": true,
+        "endmarked": true
+      }
+    ],
+    "native_figures_viewed": [
+      "main1",
+      "main2",
+      "main3",
+      "main4",
+      "main5",
+      "main6",
+      "SupplementaryS1page5",
+      "SupplementaryS2page6",
+      "SupplementaryS3page8andcaptionpage9",
+      "reportingsummarypages1–4",
+      "originalmainPDFpage6"
+    ],
+    "not_read": [
+      "exactpreprintfulltext",
+      "SupplementaryVideo1video",
+      "peerreviewfile",
+      "other13sourceworkbooks",
+      "companionandotherreferencedpapers",
+      "everyoriginalmainPDFpageasimage"
+    ],
+    "hash_is_not_reading": true,
+    "other_readers_not_credited": "Root and MS reading/check outputs are not claimed as this agent’s reading credit."
+  },
+  "notice_check": {
+    "scope": "currentEuropePMCmetadata,CrossrefJSON,publishedXMLarticlemetadata",
+    "finding": "Onlypreprintrelationship;noCrossrefupdate-toorXMLrelatedarticle",
+    "exhaustive": false
+  },
+  "source_hashes": {
+    "published-main.xml": "f136d7f65910c850417a893114172bf0212f691952baac877cf0c62c24b2c8b3",
+    "published-main.pdf": "121c80d690c9f07caf3d2afbbb51115ff19236164ec1048641893eb09f96121c",
+    "supp-info.pdf": "0dd448f52176acf4bd5f96ba0b4c84e1993fc4a41198cb080b023629dd4ea084",
+    "additional-files-description.pdf": "83b48b4a333b7d6f2723860750866cf1a9eb2fce4ece1e63cb1c9da80a2f7b28",
+    "reporting-summary.pdf": "5ebb14a1e8566aed295828662e8b06c0e6ce5d8e02f2e55d820b90ff42c37f75",
+    "published-metadata.json": "c2145d4b3afb7df74bb164f2d17fd4e5f1667a85f55e0ba26b4d499614b73557",
+    "preprint-metadata.json": "faeb61ca64f8253d55267f44ae9d7dafdd827539143307fc63675e97db35b04c",
+    "published-crossref.json": "868c5d6bf029a76240afcf045f30912583d2eb9e012987cfb5731bcd4a3c3d2a",
+    "preprint-crossref.json": "b563c1c3254792d8bf4773873f4ae09cf6fdafcb294967bb96d5bbd73b776708",
+    "figshare-record.json": "3f400971dff277c3f969b9d7421eef9240bc1fdef11e183f63b2e62856169233",
+    "source-data.zip": "851a40a449ff78bcb9cb20b77526a0dfec54b811ab22fff9ea86cc3d9022d8be",
+    "fig1.png": "d19123f1357bf8e4a645f64859dd130ab53703db0d9e9f3e7b380c15a96ec5ad",
+    "fig2.png": "f7e5e9c01e0449a454adb5a3c7cc419050bf9b29d1d6eca66cba406801a12148",
+    "fig3.png": "0255dfffbd435f40b9919982a462f44acbe9578e0904d15364b8e1dfa8fe2d26",
+    "fig4.png": "62bb1be3aa37722891108d1653eff0f3a4f0f804eeac52395bb0e517ea77a039",
+    "fig5.png": "6b7fe2330fb6f8f5f7db29be1299a48c4751c65e101aa40abad5c191e940f333",
+    "fig6.png": "abfa910130fd36c45b0e8ddf13eca93b6a9356ca77573de281ea418d692005d2",
+    "published-part-01.txt": "c6474aa6e956cac09745f0ea70d855e05759ad0188a76956b0d07139e565911f",
+    "published-part-02.txt": "cbf3c05865bdfc9b257b69607289e0c04db540f195f7c5e6e3d6b04b1c1e9b56",
+    "published-part-03.txt": "0e0ddb892a1e6ac8ad89db7a80bd21bdcbda0a8a2eaa8c22f80739a35584c664",
+    "published-part-04.txt": "45b6c98e2b5e4619577f1211055f434b0dc6dab2eeb5d8c39abccaaa83ed92f8",
+    "published-part-05.txt": "f54b5433a0a0c8244b88a6b842d0810107c70f90318e105ef650ca06a9cb12e1",
+    "published-part-06.txt": "01c921fffa1fb28bc9cd2f6fb16902021b0d772d1301041ec7e6eaa98b9f92e1",
+    "source-data/Source data/Fig 4/4e/4e source data.xlsx": "cea9b9d72b166d8986ed8c06e46d7d37d5bab2beed542b7ddde4cbd4f8419784",
+    "source-data/Source data/Fig 4/4f/4f source data.xlsx": "36de2ca9a78803e08592ed5bfcf9371b483bbf4a7dd3a2cc74a7f5cae1e0667b",
+    "source-data/Source data/Fig 4/4g/4g source data.xlsx": "b93b95e97d48eadb5cfddda0ad18301554259d5848b6a6da865c7a4557bbfb11"
+  },
+  "numeric_replay": {
+    "file": "drug-comparison-data.json",
+    "sha256": "911c9d2fccd2a374c962dc3bdb4d469d4b91c4513f57b78918b934faf738357b",
+    "script": "replay-drug-comparison.py",
+    "new_p_values": false,
+    "raw_image_reanalysis": false,
+    "portability_note": "Standalone stdlib replay is external optional verification; root may integrate only compact numeric JSON plus report.",
+    "grouping_limit": "The three workbooks contain no experiment/dish identifiers. No hierarchical or independent-replicate analysis was reconstructed."
+  },
+  "source_reviewer_status": "external_source_qualification_pending_root_admission",
+  "status": "INTEGRATED_PUBLISHED_SOURCE_PREPRINT_UNVERIFIED",
+  "source_reviewer_integration_limits": {
+    "repository_modified": false,
+    "ledger_or_catalog_modified": false,
+    "new_identity_count_assigned": false,
+    "review_count_credit": 0,
+    "unique_reading_credit": 0,
+    "global_completeness_claim": false,
+    "suggestion": "Root may refine existing GSK-923295, ZM-447439, monastrol and MG-132 source contexts and evaluate narrow MLN8054/TCS7010/alisertib/centrinone entries. No duplicate identity or count admission was done here."
+  },
+  "qualification_md_sha256": "209ba75379dfc9b3793dbb18339593181aa18e07c42dee4164543a529c00deab",
+  "integration": {
+    "baseline": "313f1207170482439314d52f25dd3c95615e96da",
+    "baseline_assessments": 212,
+    "current_assessments": 216,
+    "unchanged_prior_objects": 208,
+    "refined_ids": [
+      "new-aurora-balancing",
+      "new-eg5-balancing",
+      "new-gsk923295",
+      "new-mg132"
+    ],
+    "new_ids": [
+      "new-alisertib",
+      "new-centrinone",
+      "new-mln8054",
+      "new-tcs7010"
+    ],
+    "frozen_source_json_sha256": "f80b45f4b256307fedb4bfec1f5bd681708596422215d4ce025217bce2adae30",
+    "independent_json_sha256": "fbee3833ac4a0fbf865b20c92daa1829b21dc88cba439ab9d0b1187bf588b5ea",
+    "independent_md_sha256": "2bd3504a01bf487fe03cee1a72cfc8583449f909f44801dbefdae34585a8d25e",
+    "root_reading_manifest": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cenpe-feedback-integration-20260923/root-reading.json",
+    "root_reading_sha256": "73ad4df74e37ce45f5b0439a57d56f3bad7766bd7ab8d11ece52f360833b3146",
+    "compact_data_file": "cenpe-feedback-data.json",
+    "compact_data_sha256": "911c9d2fccd2a374c962dc3bdb4d469d4b91c4513f57b78918b934faf738357b",
+    "new_outer_credit": 0,
+    "preprint_version_or_full_text_verified": false
+  }
+}

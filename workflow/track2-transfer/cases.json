@@ -1,0 +1,114 @@
+{
+  "scope": "Two worked sequence-to-mechanism-to-route examples: the existing BUB1B research hypothesis and an explicitly synthetic TRIP13 homozygous genotype from public literature. No second patient was analyzed, and no drug response was measured.",
+  "cases": [
+    {
+      "id": "bub1b-existing-hypothesis",
+      "input_type": "existing hypothesis reconstructed from public reference sequence",
+      "gene": "BUB1B",
+      "transcript": "NM_001211.6",
+      "ensembl_transcript": "ENST00000287598.11",
+      "refseq_file": "NM_001211.6.gb",
+      "ensembl_file": "ENST00000287598.cds.json",
+      "variants": ["c.2210T>G", "c.3006T>G"],
+      "genotype": "Two heterozygous coding SNVs; trans hypothesis, phase unresolved",
+      "phase": "unresolved",
+      "external_consequence_check": {"c.2210T>G": "p.(Leu737Ter)", "c.3006T>G": "p.(Asn1002Lys)"},
+      "external_check_source": "Existing reference reconstruction: ../track2-model/allele-inputs.json; Leu737Ter also ClinVar variation 533901. This is not new variant discovery.",
+      "mechanism_id": "bubr1-insufficiency-hypothesis"
+    },
+    {
+      "id": "trip13-public-synthetic",
+      "input_type": "synthetic homozygous public genotype; no patient phenotype or reads",
+      "gene": "TRIP13",
+      "transcript": "NM_004237.4",
+      "ensembl_transcript": "ENST00000166345.8",
+      "refseq_file": "NM_004237.4.gb",
+      "ensembl_file": "ENST00000166345.cds.json",
+      "variants": ["c.1060C>T"],
+      "genotype": "c.[1060C>T];[1060C>T] is stipulated for this example",
+      "phase": "synthetic_homozygous",
+      "external_consequence_check": {"c.1060C>T": "p.(Arg354Ter)"},
+      "external_check_source": "ClinVar VCV000431045.1 and Yost 2017",
+      "clinvar_file": "VCV000431045.1.xml",
+      "clinvar_variation_id": "431045",
+      "mechanism_id": "trip13-null"
+    }
+  ],
+  "routes": [
+    {
+      "id": "nad-bubr1",
+      "name": "Niacin / NAD-SIRT2-BUBR1 stabilization",
+      "gates": [
+        {"kind": "curated", "key": "causal_protein_matches_stabilization_target"},
+        {"kind": "sequence", "key": "full_length_canonical_product_possible"},
+        {"kind": "curated", "key": "proximal_pathway_to_target_bridge"}
+      ]
+    },
+    {
+      "id": "arimoclomol",
+      "name": "Arimoclomol / proteostasis restoration",
+      "gates": [
+        {"kind": "sequence", "key": "full_length_canonical_product_possible"},
+        {"kind": "curated", "key": "actual_mutant_rescued_by_drug_at_relevant_exposure"}
+      ]
+    },
+    {
+      "id": "mtorc1",
+      "name": "Everolimus / mTORC1 probe",
+      "gates": [
+        {"kind": "curated", "key": "harmful_excess_mtorc1_in_relevant_model"},
+        {"kind": "curated", "key": "normalization_preserves_productive_tissue_output"}
+      ]
+    }
+  ],
+  "mechanisms": {
+    "bubr1-insufficiency-hypothesis": {
+      "summary": "BUBR1 insufficiency is supported for selected MVA1 alleles. The actual N1002K abundance/function and phase remain unmeasured.",
+      "source_ids": ["suijkerbuijk2010", "north2014", "pirinen2020"],
+      "route_evidence": {
+        "nad-bubr1": {
+          "causal_protein_matches_stabilization_target": {"state": true, "basis": "Conditional on the proposed pair, the affected protein is BUBR1; selected human MVA1 mutants show abundance defects (Suijkerbuijk 2010)."},
+          "proximal_pathway_to_target_bridge": {"state": true, "basis": "North 2014 supplies an NMN/SIRT2-to-BUBR1 bridge; Pirinen 2020 supplies niacin-to-human-muscle-NAD engagement. Joining these interventions is a hypothesis, not niacin/BUB1B rescue."},
+          "next": "Confirm trans and an abundance-limited, functional N1002K substrate; measure niacin exposure, NAD/SIRT2 engagement, BUBR1 mediation, segregation fidelity and productive muscle output. A full-length sequence is not a functional protein measurement."
+        },
+        "arimoclomol": {
+          "actual_mutant_rescued_by_drug_at_relevant_exposure": {"state": null, "basis": "No N1002K/arimoclomol rescue supplied. HSP90 dependence of selected BUBR1 mutants does not establish rescue by this medicine."},
+          "next": "Demonstrate actual-mutant function at justified exposure before promoting proteostasis support beyond a reserve hypothesis."
+        },
+        "mtorc1": {
+          "harmful_excess_mtorc1_in_relevant_model": {"state": null, "basis": "Current proposal has only qualitative carrier-mouse phosphoprotein bands and no confirming muscle RNA result; no affected/corrected human model establishes harmful excess."},
+          "normalization_preserves_productive_tissue_output": {"state": null, "basis": "No drug or genetic-normalization experiment has measured productive output in the proposed model."},
+          "next": "Qualify harmful excess and causal partial normalization first; then measure drug engagement, tissue output and renewal. Keep as a probe, not an automatically transferred rescue."
+        }
+      }
+    },
+    "trip13-null": {
+      "summary": "Published Arg354Ter cells lacked detectable TRIP13 and had checkpoint/segregation defects rescued by WT TRIP13; mutant rescue failed. MAD2 remodeling supplies a distinct checkpoint mechanism.",
+      "source_ids": ["yost2017", "kim2018", "clinvar431045"],
+      "route_evidence": {
+        "nad-bubr1": {
+          "causal_protein_matches_stabilization_target": {"state": false, "basis": "The sequence lesion and published genetic rescue concern TRIP13, not BUBR1. A shared checkpoint phenotype does not establish that raising BUBR1 substitutes for TRIP13."},
+          "proximal_pathway_to_target_bridge": {"state": null, "basis": "The bounded source set supplies no NAD/SIRT2-to-TRIP13 rescue or validated BUBR1 bypass."},
+          "next": "Test TRIP13-specific correction and successful chromosome segregation as a positive control; a BUBR1 bypass would require direct evidence. Non-transfer is an evidence decision, not proof that a bypass is impossible."
+        },
+        "arimoclomol": {
+          "actual_mutant_rescued_by_drug_at_relevant_exposure": {"state": null, "basis": "Published WT rescue does not show pharmacological rescue of Arg354Ter; its expressed mutant failed checkpoint rescue."},
+          "next": "Any truncation-rescue or readthrough mechanism needs its own transcript, protein-function and exposure evidence. It is not the full-length missense-stabilization route transferred from BUB1B."
+        },
+        "mtorc1": {
+          "harmful_excess_mtorc1_in_relevant_model": {"state": null, "basis": "No TRIP13-genotype-specific harmful mTORC1 excess is established by the selected primary sources."},
+          "normalization_preserves_productive_tissue_output": {"state": null, "basis": "No relevant output-preserving rescue is supplied."},
+          "next": "Establish a relevant causal signaling abnormality and functional rescue before nominating this downstream drug. Shared MVA labeling is insufficient."
+        }
+      }
+    }
+  },
+  "citations": {
+    "yost2017": {"title": "Yost et al., Biallelic TRIP13 mutations predispose to Wilms tumor and chromosome missegregation", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5493194/", "scope": "Table 1, Figs. 1–3 and supplements: public Arg354Ter genotype, RNA/protein findings and genetic rescue; no repurposed-drug rescue."},
+    "kim2018": {"title": "TRIP13 and APC15 drive mitotic exit by turnover of interphase- and unattached kinetochore-produced MCC", "url": "https://www.nature.com/articles/s41467-018-06774-1", "scope": "TRIP13 loss, MAD2 state, checkpoint activation and silencing; mechanistic context, not this synthetic example's experimental result."},
+    "clinvar431045": {"title": "ClinVar VCV000431045.1", "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/431045/", "scope": "Pathogenic, one literature-only OMIM submission, no assertion criteria (zero stars); exact MANE variant. This is not expert-panel review or independent evidence from Yost."},
+    "suijkerbuijk2010": {"title": "Suijkerbuijk et al., Molecular causes for BUBR1 dysfunction in the human cancer predisposition syndrome mosaic variegated aneuploidy", "url": "https://pubmed.ncbi.nlm.nih.gov/20516114/", "scope": "Selected human MVA1 mutant abundance defects and expression rescue; N1002K was not tested."},
+    "north2014": {"title": "North et al., SIRT2 induces the checkpoint kinase BubR1 to increase lifespan", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4194088/", "scope": "NMN abundance experiments and separate genetic SIRT2 experiments; neither proves niacin/N1002K rescue."},
+    "pirinen2020": {"title": "Pirinen et al., Niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy", "url": "https://pubmed.ncbi.nlm.nih.gov/32386566/", "scope": "Human muscle NAD engagement in another disease; strength also improved in treated healthy controls, so disease-specific functional rescue is unestablished."}
+  }
+}

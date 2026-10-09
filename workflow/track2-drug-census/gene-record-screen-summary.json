@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-21",
+  "source_file": "literature-gene-title-abstract.json",
+  "source_sha256": "1df717bce779851e8f8f02654cc476de320cf368ad3cbc10dad1499b5a809e90",
+  "query": "(TITLE_ABS:BUBR1 OR TITLE_ABS:BUB1B OR TITLE_ABS:\"BUB-R1\" OR TITLE_ABS:\"mosaic variegated aneuploidy\")",
+  "filters": {
+    "benefit": "rescu|restor|protect|amelior|improv|alleviat|revers|attenuat|prevent|supplement",
+    "generic_intervention": "treat|administr|supplement|compound|chemical|pharmacolog|inhibitor|activator|agonist|antagonist|extract|peptide|antioxidant|diet|vitamin|hormon",
+    "sensitivity_title_nonbenefit_only": "oocyt|ageing|aging|senescen|muscle|proger|aneuploid|pharmacolog|drug|treat|antioxidant|diet|vitamin|hormon|supplement|compound|extract"
+  },
+  "records": 1460,
+  "unique_source_ids": 1460,
+  "abstracts_available": 1432,
+  "abstracts_missing": 28,
+  "selected_title_records": 594,
+  "manual_title_seen_including_all_missing_abstract_titles": 609,
+  "manual_full_abstracts_read": 21,
+  "primary_methods_results_passages_verified": 7,
+  "additional_primary_abstract_live_verified": 1,
+  "machine_priority_counts": {
+    "not_prioritized_by_filters": 866,
+    "sensitivity_title": 172,
+    "benefit_and_intervention": 236,
+    "benefit_only": 186
+  },
+  "source_counts": {
+    "MED": 1305,
+    "PPR": 113,
+    "AGR": 6,
+    "ETH": 13,
+    "PMC": 9,
+    "PAT": 14
+  },
+  "review_tagged_records": 72,
+  "limitations": "Manual title screen is not manual abstract adjudication. Twenty-one abstracts and seven primary methods/results passage sets plus one live primary abstract were read. Remaining records are unadjudicated, not negative. Corpus can omit full-text-only interventions, missing abstracts, other genes, unpublished/non-indexed work. No drug catalog gate and no clinical efficacy imputation."
+}

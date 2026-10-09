@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "source_manifest": "source-manifest.json",
+  "source_zip_sha256": "058ce9867ad13c66d51a56fdaaa2015747cea2c27f55aaa6631e9d5e831fb05a",
+  "source_version": "9.4.0 | January 2026",
+  "source_export_timestamp": "2026-01-10T17:35:26-05:00",
+  "retrieved_date": "2026-09-28",
+  "label_counts": {
+    "all_labels": 214780,
+    "on_market": 121959,
+    "off_market": 92821,
+    "unique_product_ids": 214780,
+    "on_market_label_records_with_supplement_facts": 121949,
+    "all_label_records_with_supplement_facts": 214768
+  },
+  "ingredient_facts": {
+    "source_rows": 2020128,
+    "distinct_label_ingredient_pairs": 1917673,
+    "distinct_exact_ingredient_strings": 76422,
+    "source_strings_with_on_market_labels": 59911
+  },
+  "candidate_terms": 56,
+  "candidate_literals_with_zero_on_market_labels": [],
+  "counts_are": "Distinct DSLD label IDs containing each exact Ingredient string in DietarySupplementFacts.",
+  "counts_are_not": [
+    "sales, purchases, product availability in current retail stock, consumers, or exposures",
+    "verified chemical identities for broad label names",
+    "ingredient amounts, dose feasibility, safety, BUB1B efficacy, or treatment benefit"
+  ]
+}

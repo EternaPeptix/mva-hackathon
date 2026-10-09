@@ -1,0 +1,294 @@
+{
+  "schema_version": "bounded-primary-qualification-1",
+  "date": "2026-09-23",
+  "compound": "capsaicin",
+  "proposed_appraisal_id": "new-capsaicin",
+  "disposition": "symptom_specific_local_analgesia_reserve_not_BUBR1_restoration_or_MVA_muscle_lead",
+  "repository_baseline": "704600d",
+  "integration_status": "integrated_bounded_assessment",
+  "exact_prior_appraisal_found": false,
+  "prior_abstract_reading": "PMID32909881 already read inbatch11",
+  "automatic_unique_abstract_credit": 0,
+  "automatic_outer_corpus_credit": 0,
+  "automatic_curated_appraisal_credit": 0,
+  "reviewer_performed_biological_replication": false,
+  "raw_data_reanalysis_performed": false,
+  "sources": [
+    {
+      "pmid": "32909881",
+      "pmcid": "PMC7493244",
+      "doi": "10.1177/1744806920956480",
+      "title": "Global transcriptome analysis of rat dorsal root ganglia to identify molecular pathways involved in incisional pain.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32909881/",
+      "metadata_file": "pubmed-32909881.xml",
+      "metadata_sha256": "a82a8aec3f0f72c8f382c7b8164283d9a849ddacb7f4667a654123a4557d0737",
+      "scientific_asset": "primary-2020.xml",
+      "scientific_asset_sha256": "eac9c8542ab691057288c0f53e3612d8f6916e523e52a3fc7124da04cea7847f",
+      "reading_depth": "complete scientific main text; figures1/2/3/5 visually",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "notices": []
+    },
+    {
+      "pmid": "34452938",
+      "pmcid": "PMC8513701",
+      "doi": "10.1523/JNEUROSCI.0457-21.2021",
+      "title": "In Vivo Calcium Imaging Visualizes Incision-Induced Primary Afferent Sensitization and Its Amelioration by Capsaicin Pretreatment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34452938/",
+      "metadata_file": "pubmed-34452938.xml",
+      "metadata_sha256": "edc0e626297c775ee5d829ccc4539c20c11b6a45b576c7ec0f1e2b3b921695b0",
+      "scientific_asset": null,
+      "scientific_asset_sha256": null,
+      "reading_depth": "complete PubMed abstract and metadata only",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "notices": [
+        {
+          "type": "ErratumIn",
+          "pmid": "38621999",
+          "source": "J Neurosci. 2024 Apr 24;44(17):e0540242024. doi: 10.1523/JNEUROSCI.0540-24.2024."
+        }
+      ]
+    },
+    {
+      "pmid": "38621999",
+      "pmcid": "PMC11044096",
+      "doi": "10.1523/JNEUROSCI.0540-24.2024",
+      "title": "Erratum: Ishida et al., \"In Vivo Calcium Imaging Visualizes Incision-Induced Primary Afferent Sensitization and Its Amelioration by Capsaicin Pretreatment\".",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38621999/",
+      "metadata_file": "pubmed-erratum.xml",
+      "metadata_sha256": "49f1ee0f03b9bc85e1a5dc2fcc8ad52b3657b62163fef6ca6985ec988d095c3f",
+      "scientific_asset": "erratum-public.html",
+      "scientific_asset_sha256": "8d3c6a365be071e3e89095beaca8226dc6ab4ffbc6a00d44a7ce258d3aa119bd",
+      "reading_depth": "complete funding-correction body",
+      "publication_types": [
+        "Journal Article",
+        "Published Erratum"
+      ],
+      "notices": [
+        {
+          "type": "ErratumFor",
+          "pmid": "34452938",
+          "source": "J Neurosci. 2021 Oct 13;41(41):8494-8507. doi: 10.1523/JNEUROSCI.0457-21.2021."
+        }
+      ]
+    }
+  ],
+  "identity": {
+    "intervention": "capsaicin experimental local solution",
+    "2020_concentration_percent": 1,
+    "2020_concentration_mg_mL": 10,
+    "2020_volume_uL": 200,
+    "calculated_nominal_amount_mg": 2,
+    "amount_calculation": "10mg/mL ×0.2mL;reported-experiment arithmetic,not a human dose",
+    "route": "subcutaneous/intraplantar infiltration at intended surgical site",
+    "timing": "single pretreatment30minutes before incision",
+    "vehicle": "80%saline,10%ethanol,10%Tween-80",
+    "catalogue_lot_purity": "not reported for capsaicin",
+    "scope_exclusions": [
+      "oral exposure",
+      "food intake",
+      "plant extract",
+      "marketed topical formulation equivalence"
+    ]
+  },
+  "rat_2020": {
+    "model": "adult male Sprague–Dawley rats250–300g;plantar skin/fascia incision with longitudinal flexor digitorum brevis injury",
+    "comparator": "vehicle+incision",
+    "sham": "anesthesia without incision for transcript comparison",
+    "capsaicin_only_no_incision_arm": "not reported",
+    "randomization": "not described",
+    "blinding": "behavioral assessor blinded but authors report limited blinding due to distinct heat-response effect",
+    "behavior": {
+      "biological_units": {
+        "capsaicin_plus_incision_rats": 5,
+        "vehicle_plus_incision_rats": 6
+      },
+      "abstract_n_discrepancy": "abstract says6–9/group;use methods assay-specific denominators",
+      "measurement_times": [
+        "3h",
+        "day1",
+        "day2",
+        "day3",
+        "day4",
+        "day5",
+        "day7",
+        "day9",
+        "day16"
+      ],
+      "baseline": "heat/mechanical measurements on three presurgical days",
+      "technical_measurements": "four5-minute SFL observations summed perrat;three withdrawal trials averaged perrat;not independent biological units",
+      "statistical_method": "two-way repeated-measures ANOVA with Bonferroni timepoint comparisons;mean±SD",
+      "author_reported_tests": {
+        "SFL_frequency": {
+          "F_text": "F2,11=2.0",
+          "p": 0.059
+        },
+        "SFL_duration": {
+          "F_text": "F2,11=2.20",
+          "p": 0.037
+        },
+        "mechanical_withdrawal": {
+          "F_text": "F2,11=11.2",
+          "p_less_than": 0.0001
+        },
+        "heat_withdrawal": {
+          "F_text": "F2,11=28.9",
+          "p_less_than": 0.0001
+        }
+      },
+      "positive": "reduced spontaneous foot-lift duration and mechanical/heat hypersensitivity;earlyposthoc SFLfrequency star inFigure1",
+      "qualification": "frequency overallP=.059 is not significant at statedalpha.05 despite blanket prose;printed degrees of freedom not reconstructed",
+      "persistence": "paper describes incision symptoms3–9days;heat withdrawal remains abovebaseline for severaldays aftercapsaicin;curves converge nearbaseline byday16",
+      "recovery_limit": "graph-level behavioral follow-up,not equivalence or reinnervation proof"
+    },
+    "histology": {
+      "n_rats_per_arm": 3,
+      "time_hours_after_incision": 24,
+      "markers": [
+        "advillin nervefibers",
+        "collagenIV basementmembrane",
+        "DAPI nuclei"
+      ],
+      "reported_positive": "loss of epidermal/dermal nervefibers in local sampled skin;authors call complete denervation",
+      "measurement_scope": "representative images,not quantified whole-paw fiber-count estimate",
+      "other_observations": "Merkelcells and dermalvessels appear unchanged inimages",
+      "unmeasured": [
+        "later nerve regrowth",
+        "healing strength",
+        "motor force",
+        "gait or locomotor function",
+        "protective-sensation equivalence",
+        "organ/developmental outcomes"
+      ]
+    },
+    "RNA": {
+      "tissue": "bulk L4–L6 dorsalrootganglia,not purified neurons",
+      "time_hours": 24,
+      "groups": [
+        "sham",
+        "incision",
+        "capsaicin+incision"
+      ],
+      "n_rats_per_group": 4,
+      "independence_limit": "ganglionlevels do not constitute independent animals;cell-type-specific signal unassigned",
+      "analysis": "rn6 mapping,raw readcounts,edgeR",
+      "selection": "absolute foldchange≥1.5;FDR<.05",
+      "normalization": "edgeR pipeline stated;no raw count matrix or gene-level q-values recovered",
+      "Bub1b": {
+        "location": "Table2,downregulated genes,incision versuscontrol",
+        "printed_value": -3.42,
+        "printed_column_label": "log2(Fold change)",
+        "direction_in_injury": "down",
+        "gene_specific_p_or_q": null,
+        "compound_specific_response": "not numerically established",
+        "magnitude_limit": "do not exponentiate or relabel3.42-fold because column convention conflicts with prose IFIT1B50-fold interpretation",
+        "unmeasured": [
+          "BUB1B-specific qPCR",
+          "BUBR1 protein",
+          "BUB1B deficiency",
+          "chromosome segregation",
+          "checkpoint restoration"
+        ]
+      },
+      "reported_global_response": "authors claim capsaicin prevented99/126 transcriptchanges",
+      "global_response_conflict": "Figure2B labels Inci/Cntl and(Inci+Cap)/Cntl with99overlap and25/1unique;setlabels/counts do not establish99reversals;cannot assignBub1b response",
+      "table_row_count_check": {
+        "table1_up_rows": 35,
+        "table2_down_rows": 91,
+        "total": 126,
+        "prose_up": 36,
+        "prose_down": 90
+      },
+      "additional_count_conflict": "Figure6caption25 versusResults27 notinfluenced genes",
+      "pathway_limit": "IPA-predicted mitosis,mortality,tissuesize,IGF/TLR9/IL10RA are not measured regeneration/survival or causal mediation",
+      "qPCR_validation": {
+        "genes": [
+          "Igf2",
+          "Igfbp6"
+        ],
+        "different_biological_replicates": true,
+        "methods_n": "3–5/group",
+        "caption_n": "3–6/group",
+        "technical_duplicates": true,
+        "normalizer": "Actb",
+        "source_report": "incision upregulation attenuated bycapsaicin",
+        "not_BUB1B_validation": true
+      }
+    },
+    "supplement_raw_access": "SupplementalFigure3 cited forRNAquality but no native supplementlink/assets recovered;ZIP containsfigures/tablesonly;no matching rawRNA accessionidentified bybounded publisher/NCBIcheck"
+  },
+  "mouse_2021_access_bounded": {
+    "pmid": "34452938",
+    "source_depth": "completeabstract/metadataonly",
+    "model_in_abstract": "male/female Pirt-GCaMP3 mice",
+    "intervention_in_abstract": "0.05%intraplantar capsaicin pretreatment",
+    "positive_in_abstract": "reduced spontaneous/mechanical/heat pain-like behavior and sensoryfiberlength,with attenuatedcalciumresponses",
+    "interpretation": "supports distinct noncancer local-analgesia/defunctionalization lead;not equivalent to1%rat regimen",
+    "not_qualified": [
+      "injectionvolume",
+      "precisetiming",
+      "sampleunits",
+      "controlstructure",
+      "effectsizes",
+      "persistence",
+      "recovery",
+      "figurestatistics"
+    ],
+    "BUB1B_response": "notassigned",
+    "access_limits": [
+      "EuropePMCfullTextXML500",
+      "EuropePMCsupplementAPI200XMLnot-open-accesserror,notZIP",
+      "PMCbrowsercheck",
+      "publisher403",
+      "EuropePMCarticlepagefailure",
+      "ResearchGateauthorcopypage429"
+    ],
+    "access_barrier_bypass": false
+  },
+  "mechanism_and_competition": {
+    "measured_positive_scope": "local analgesicbehavior in noncancer incisionmodel with sensorydenervation",
+    "TRPV1": "nociceptor mechanism distinct fromBUBR1;ratstudy hasno receptorKO/antagonistselectivitytest",
+    "MVA_deficiency_model": false,
+    "normal_muscle_regeneration_or_fidelity_rescue": false,
+    "clinical_pediatric_harm_inferred": false,
+    "comparison": "Preserve symptom-specific benefit fairly. A pain benefit need not restoreBUBR1,but this local sensory target differs frommuscleoutput/renewal;provisionalniacin/apitegromab also lackMVAefficacy. No dietary or general regenerative claim."
+  },
+  "fresh_notice_check": {
+    "date": "2026-09-23",
+    "2020_pubmed_linked_notice": null,
+    "2021_pubmed_linked_notice": "PMID38621999",
+    "correction_scope": "omitted funding;NIH5T32DE014318 paid JohnShannonhouse salary/expenses;acknowledgmentadded",
+    "correction_experimental_change": "none stated in fullnotice",
+    "limit": "bounded indexed check,not integrityclearance"
+  },
+  "unqualified_leads": [
+    {
+      "pmcid": "PMC9871044",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9871044/",
+      "title": "The Preemptive Analgesic Effect of Capsaicin Involves Attenuations of Epidermal Keratinocytes Proliferation and Expression of Pro-Inflammatory Mediators After Plantar Incision in Rats",
+      "scope": "surfacedonly;no third-paper qualification or importedresult"
+    }
+  ],
+  "read_scope_manifest": "read-scope.json",
+  "retrieval_manifest": "retrieval-manifest.json",
+  "asset_manifest": "asset-manifest.json",
+  "parent_integration": {
+    "date": "2026-09-23",
+    "baseline": "704600dbba982cc40b14ea539f5f8416b62e79e4",
+    "external_source_root": "common-symptom-followups-20260923/capsaicin",
+    "source_md_sha256": "5c3ac64a63221a293da84d9955f8512c3716e0406aaac3bdfe02ea41bb1621c1",
+    "source_json_sha256": "e2016617006281a913dac16eeaad8e507ac1b15803628f4e97823e53007bd8da",
+    "extra_outer_reading_credit": 0,
+    "new_ids": [
+      "new-capsaicin"
+    ],
+    "root_checks": "Read delegated qualification and Results; visually checked Figures 1/2. This is a bounded check, not complete independent re-reading."
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "assessed_date": "2026-09-22",
+  "extra_abstract_credit": 0,
+  "independent_review_this_update": false,
+  "biological_replication": false,
+  "primary_source": {
+    "pmid": "42054500",
+    "pmcid": "PMC13412306",
+    "doi": "10.1093/jleuko/qiag017",
+    "url": "https://doi.org/10.1093/jleuko/qiag017",
+    "read_depth": "Complete main text and all main legends; complete 18-page supplement text/captions/tables. Main figure images 4 and 5 and supplementary S3, S7, S12 inspected. Other images and raw data not independently analyzed.",
+    "retrieved_main": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13412306/fullTextXML",
+      "file": "42054500-full.xml",
+      "bytes": 147487,
+      "sha256": "f4d31b6b0cdbe95c971effe4908d762ded9370c5d111e5459176843e4f6b2b67",
+      "retrieved_at": "2026-09-23T06:25:26.057900+00:00",
+      "raw_payload_location": "External to repository"
+    },
+    "retrieved_assets": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13412306/supplementaryFiles",
+      "file": "42054500-assets.zip",
+      "bytes": 3175042,
+      "sha256": "b7e6eed6d49801bbb58be484d1f245671da268ad30c0027ac568cf7c6b50e17f",
+      "content_type": "application/zip",
+      "retrieved_at": "2026-09-23T06:26:44.920459+00:00",
+      "raw_payload_location": "External to repository"
+    }
+  },
+  "administered_compounds": [
+    {
+      "decision_id": "new-abbv744",
+      "name": "ABBV-744",
+      "aliases": [
+        "ABBV-744",
+        "ABBV744"
+      ],
+      "cell_micromolar": 0.5,
+      "study_catalog": "MCE HY-112090",
+      "kind": "BET BD2 inhibitor",
+      "unique_result": "Only compound administered to mice in this study. Substantial plaque reduction during concurrent high-fat feeding; not established-plaque reversal. No BUBR1 protein, muscle or chromosome-fidelity benefit measured.",
+      "disposition": "retain controlled vascular benefit; no MVA restoration or compensation established"
+    },
+    {
+      "decision_id": "new-molibresib",
+      "name": "Molibresib",
+      "aliases": [
+        "molibresib",
+        "iBET-762",
+        "I-BET762"
+      ],
+      "cell_micromolar": 0.5,
+      "study_catalog": "Sigma SML1272",
+      "kind": "BET inhibitor",
+      "unique_result": "Retain cell lipid-uptake and inflammatory results with an unstimulated mouse-macrophage lipid-uptake null in S7c; no mouse treatment arm for this compound.",
+      "disposition": "retain cell-context positive and null; no MVA efficacy established"
+    },
+    {
+      "decision_id": "new-jq1-positive",
+      "name": "(+)-JQ1",
+      "aliases": [
+        "(+)-JQ1"
+      ],
+      "cell_micromolar": 0.5,
+      "study_catalog": "BPS 27402",
+      "kind": "BET inhibitor, positive enantiomer",
+      "unique_result": "The BPS catalog identifies the positive enantiomer. Cell effects do not establish chronic safety or BUBR1 restoration; do not merge with (-)-JQ1. Punctuation-normalized catalog joins require stereoisomer review.",
+      "disposition": "retain positive-enantiomer cell comparator; no MVA efficacy established"
+    },
+    {
+      "decision_id": "new-apabetalone",
+      "name": "Apabetalone",
+      "aliases": [
+        "apabetalone",
+        "RVX-208",
+        "RVX208"
+      ],
+      "cell_micromolar": 5,
+      "study_catalog": "Selleck S7295",
+      "kind": "BET inhibitor",
+      "unique_result": "Retain cellular inflammatory/lipid results and the separate adult BETonMACE primary cardiovascular endpoint that did not reach statistical significance. Neither is a BUBR1 or muscle-rescue test.",
+      "disposition": "retain cell effects and clinical uncertainty; no MVA efficacy established"
+    },
+    {
+      "decision_id": "new-gsk046",
+      "name": "GSK046",
+      "aliases": [
+        "GSK046",
+        "GSK-046"
+      ],
+      "cell_micromolar": 0.5,
+      "study_catalog": "MCE HY-136571",
+      "kind": "BET BD2 probe",
+      "unique_result": "Cell comparator with no animal treatment arm in this study. Separate identity from GSK620.",
+      "disposition": "retain cell comparator; no MVA restoration established"
+    },
+    {
+      "decision_id": "new-gsk620",
+      "name": "GSK620",
+      "aliases": [
+        "GSK620",
+        "GSK-620"
+      ],
+      "cell_micromolar": 0.5,
+      "study_catalog": "MCE HY-137892",
+      "kind": "BET BD2 probe",
+      "unique_result": "Cell comparator with no animal treatment arm in this study. Separate glioblastoma source identified for later reading; its result is not qualified here.",
+      "disposition": "retain cell comparator and further source question; no MVA restoration established"
+    },
+    {
+      "decision_id": "new-mz1",
+      "name": "MZ1",
+      "aliases": [
+        "MZ1"
+      ],
+      "cell_micromolar": 0.1,
+      "study_catalog": "Cayman 21622",
+      "kind": "BET PROTAC/degrader",
+      "unique_result": "Administered degrader with cellular lipid/inflammatory effects; do not transfer inhibitor selectivity, dosing or animal outcomes to it.",
+      "disposition": "retain distinct degrader comparator; no MVA restoration established"
+    }
+  ],
+  "cell_design": {
+    "models": [
+      "Human THP-1-derived macrophages",
+      "Mouse bone-marrow-derived macrophages"
+    ],
+    "default_pretreatment_hours": 24,
+    "minimum_individual_experiments_stated": 3,
+    "control": "DMSO; final culture concentration unstated",
+    "positive": "Reduced inflammatory secretion and oxLDL uptake in selected conditions",
+    "limits": [
+      "S3 dose curves have no statistical annotations and are not uniformly monotone",
+      "S7c unstimulated mouse-macrophage molibresib comparison is nonsignificant",
+      "Per-cell observations are not independent biological replicate counts; clustering treatment unclear",
+      "Short-term MTT is not a long-term survival, renewal or fidelity endpoint"
+    ]
+  },
+  "bub1b_observation": {
+    "intervention": "Genetic shYAP, shTAZ or shBRD4 knockdown",
+    "readout": "Lower BUB1B RNA in shared target analysis",
+    "drug_specific_bubr1_protein_measurement": false,
+    "interpretation": "Neither restoration nor drug-induced BUBR1 loss is established by the genetic RNA finding."
+  },
+  "mouse_ABBV744": {
+    "model": "Male C57BL/6J AAV-PCSK9, with separate AAV-PCSK9 plus YAP/TAZ-overexpression model",
+    "exposure": "5 mg/kg orally daily, concurrent with 60 days of high-fat diet",
+    "control": "Matched 10% DMSO in corn oil",
+    "allocated_n_per_group": 12,
+    "tissue_assay_n_per_group": "3–5 per Methods; exact panel-specific n not displayed",
+    "timing": "Prevention during diet challenge, not treatment of established plaques",
+    "positive": "Approximately twofold plaque reduction in standard model and over 50% in YAP/TAZ model, with selected histologic and inflammatory endpoints",
+    "null_or_limits": [
+      "Figure 5J standard-model IL6 P=.083",
+      "Figure 5J YAP/TAZ-model MCP1 P=.053",
+      "No skeletal-muscle function, survival or chromosome-fidelity endpoint",
+      "Systemic dosing does not identify an exclusive macrophage mediator",
+      "Main Methods do not describe randomization or blinding",
+      "S12 body weights are not comprehensive developmental or tumor-safety evidence"
+    ]
+  },
+  "human_apabetalone": {
+    "source_url": "https://jamanetwork.com/journals/jama/fullarticle/2763951",
+    "doi": "10.1001/jama.2020.3308",
+    "trial": "NCT02586155",
+    "read_depth": "Main trial design, primary efficacy, safety and Table 2; no protocol/supplement/raw-data review",
+    "randomized_n": 2425,
+    "efficacy_n": [
+      1212,
+      1206
+    ],
+    "safety_n": [
+      1212,
+      1207
+    ],
+    "context": "Adults with type 2 diabetes and recent acute coronary syndrome; add-on to usual care",
+    "primary_MACE_HR": 0.82,
+    "CI95": [
+      0.65,
+      1.04
+    ],
+    "P": 0.11,
+    "AE_discontinuation_percent": [
+      9.4,
+      5.7
+    ],
+    "ALT_over_5_ULN_percent": [
+      3.3,
+      0.7
+    ],
+    "interpretation": "Primary endpoint did not reach significance; not proof of zero benefit. Do not extrapolate results to every BET compound or to MVA."
+  },
+  "identity_sources": [
+    {
+      "url": "https://bpsbioscience.com/images/Flyers/BPS_Catalog.pdf",
+      "purpose": "BPS27402 positive JQ1 enantiomer"
+    },
+    {
+      "url": "https://www.medchemexpress.com/us/en/ABBV-744.html",
+      "purpose": "Research identity HY-112090"
+    },
+    {
+      "url": "https://www.medchemexpress.com/us/en/gsk046.html",
+      "purpose": "Research identity HY-136571"
+    },
+    {
+      "url": "https://cdn.caymanchem.com/cdn/insert/36139.pdf",
+      "purpose": "Current GSK620 research listing, not the historical MCE batch"
+    },
+    {
+      "url": "https://cdn.caymanchem.com/cdn/insert/21622.pdf",
+      "purpose": "MZ1 research degrader identity"
+    }
+  ],
+  "decision": "Retain model-specific positives. No demonstrated mechanism or functional advantage in the relevant MVA model; no nomination change or assertion of proven clinical inferiority.",
+  "followup_of": {
+    "ledger": "outer-revalidation-next128-review.json",
+    "source": "MED",
+    "record_id": "42054500",
+    "status": "Bounded primary qualification now available; clinical transfer and specified source questions remain open"
+  },
+  "completed_followups": [
+    {
+      "previous_pointer": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10349949/",
+        "question": "Separate GSK620 glioblastoma intervention, function and harms",
+        "depth": "Search result only; not qualified evidence"
+      },
+      "qualified_date": "2026-09-23",
+      "status": "Published GBM version now qualified with positive GSK620 mouse survival; earlier preprint is not independent evidence",
+      "report": "workflow/track2-drug-census/gsk620-gbm-qualification.md",
+      "published_pmid": "40686478"
+    }
+  ]
+}

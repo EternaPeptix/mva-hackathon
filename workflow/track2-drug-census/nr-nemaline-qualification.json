@@ -1,0 +1,229 @@
+{
+  "primary": {
+    "pmid": "42323895",
+    "pmcid": "PMC13283445",
+    "doi": "10.1093/hmg/ddag023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13283445/"
+  },
+  "baseline": {
+    "commit": "3db5c8961499131d8feafbe87f47eb8e6bfbb0e0",
+    "committed_decisions": 230,
+    "initial_observed_worktree_decisions": 233,
+    "existing_route": "prior-05 NR / nicotinamide riboside",
+    "separate_combination": "new-nr-resveratrol-pad",
+    "exact_NEM6_source_previously_admitted": false,
+    "later_root_commit_context_only": "97b54464f6ebf8540cbce8d5df382ad652f963d4; 233 decisions. This does not relabel the initial baseline."
+  },
+  "recommendation": "Retain qualified preclinical mitochondrial/morphology context for existing NR. No new demonstrated treated strength/endurance benefit or independent functional-priority upgrade.",
+  "decisive_limit": "Figure5 respiratory analyses are genotype comparisons within untreated and NR-treated groups, separately normalized to their respective WT. No direct NR-versus-untreated NEM6 effect, genotype-by-treatment interaction or common absolute-scale treatment estimate/CI supplied. Authors acknowledge lack of placebo-controlled mice.",
+  "intervention": {
+    "compound": "Nicotinamide riboside chloride",
+    "source_reagent": "MedChemExpress HY-123033A",
+    "route": "Drinking water",
+    "concentration_mg_per_ml": 3,
+    "stated_daily_regimen_mg_per_kg": 500,
+    "start_age_weeks": 4,
+    "duration_weeks": 8,
+    "endpoint_age_approx_months": 3,
+    "water_refreshed": "Twice weekly",
+    "received_exposure_limit": "Actual individual water consumption, adherence, weight-based adjustment, systemic exposure and chloride/free-riboside dose conversion not reported. Group housed with ad-libitum water/food.",
+    "timing": "Before observed mitochondrial phenotype, not reversal after established disease or an off-treatment durability experiment.",
+    "source_naming": "Methods once says nicotinamide ribose, but defined NR and reagent identity specify riboside chloride.",
+    "no_identity_transfer": [
+      "Niacin",
+      "NMN",
+      "NAD+",
+      "Arbitrary retail NR product"
+    ]
+  },
+  "model": {
+    "genotype": "Homozygous Kbtbd13 R408C knock-in",
+    "disease_context": "NEM6; human founder variant described as autosomal dominant. Not BUB1B/MVA.",
+    "controls": "NR-treated WT and NEM6 are compared with untreated natural-history groups; authors explicitly state no placebo-controlled mice.",
+    "allocation_masking": "Not reported for treatment experiment.",
+    "total_treated_animal_flow": "Not supplied; endpoint sample sets cannot be summed as distinct animals."
+  },
+  "treatment_observations": {
+    "severely_damaged_mitochondria": {
+      "panel": "5F-G",
+      "source_untreated_percent": 47,
+      "source_NR_percent": "<1",
+      "n_mice_each": 3,
+      "P_or_CI_supplied": false,
+      "credit": "Marked observed morphological difference; individual mitochondria are nested within animals.",
+      "limit": "Generic microscopy count ranges cannot be imposed on the treated group or treated as independent animals."
+    },
+    "core_affected_fibers": {
+      "panel": "5C",
+      "P": 0.908,
+      "untreated_n": 5,
+      "untreated_sex": "Male",
+      "treated_n": 5,
+      "treated_sex": {
+        "male": 2,
+        "female": 3
+      },
+      "result": "No prevention of core phenotype demonstrated."
+    },
+    "protein_abundance": {
+      "panel": "5D-E",
+      "untreated_n": 8,
+      "untreated_sex": "Female",
+      "treated_n": 6,
+      "treated_sex": {
+        "male": 3,
+        "female": 3
+      },
+      "normalization": "Total protein; fold change to untreated NEM6.",
+      "P": {
+        "TOM20": 0.699,
+        "complex_I": 0.311,
+        "complex_II": 0.831,
+        "complex_III": 0.005,
+        "complex_IV": 0.114,
+        "complex_V": 0.011
+      },
+      "interpretation": "Selected complexIII/V protein increases; no detected TOM20 increase. Unmatched sex composition and absent placebo allocation constrain treatment attribution. No BUBR1 assay."
+    },
+    "cristae_count_per_area": {
+      "panel": "Supplement5F",
+      "P": 0.1218,
+      "result": "Directionally higher, not statistically established."
+    },
+    "mitochondrial_length": {
+      "panel": "Supplement5G",
+      "P": 0.1038,
+      "result": "Directionally lower, not statistically established."
+    },
+    "residual_structure": "Z-line discontinuities still visible in treated electron micrographs.",
+    "treated_grip_or_force": "Not reported, not an observed null.",
+    "treated_treadmill_or_endurance": "Not reported, not an observed null.",
+    "treated_clinical_motor_outcome": "Not reported; no human NR intervention in this study."
+  },
+  "respiration": {
+    "method": "High-resolution ex-vivo respiration in permeabilized soleus bundles, normalized to wet sample mass before fold-change presentation.",
+    "panels": [
+      "5H",
+      "5I",
+      "5J"
+    ],
+    "display": "Untreated normalized to untreated WT; treated normalized to NR-treated WT.",
+    "comparisons": [
+      {
+        "endpoint": "OXPHOS",
+        "untreated_genotype_P": 0.033,
+        "treated_genotype_P": 0.439
+      },
+      {
+        "endpoint": "NADH-linked",
+        "untreated_genotype_P": 0.135,
+        "treated_genotype_P": 0.483
+      },
+      {
+        "endpoint": "Succinate-linked",
+        "untreated_genotype_P": 0.002,
+        "treated_genotype_P": 0.895
+      }
+    ],
+    "treatment_effect_test_supplied": false,
+    "genotype_treatment_interaction_supplied": false,
+    "common_absolute_scale_treatment_effect_CI": null,
+    "endpoint_n_sex": "Not explicitly given in main treatment legend or essential supplement; no animal n inferred from point symbols.",
+    "interpretation": "No detected genotype gap after treatment is compatible with prevention, but does not establish a significant NR effect or equivalence to WT. The untreated NADH-linked comparison was already nonsignificant."
+  },
+  "natural_history_separate": {
+    "untreated_respiration": "No detected soleus OXPHOS genotype deficit at1month; deficit at3,9,18months. EDL respiratory comparisons at older ages are nonsignificant.",
+    "untreated_treadmill": "No detected3-4month genotype impairment; later8-9month metabolic/running and18-20month running impairments. No NR-treated treadmill test at these ages.",
+    "documented_running_denominators": {
+      "8_9_months": {
+        "WT": 6,
+        "NEM6": 17
+      },
+      "18_20_months": {
+        "WT": 12,
+        "NEM6": 8
+      }
+    },
+    "treadmill_source_P": {
+      "3_4months": 0.702,
+      "8_9months": 0.001,
+      "18_20months": 0.032
+    },
+    "limit": "Natural-history muscle weakness may also influence treadmill results; mitochondrial causality is not isolated."
+  },
+  "NAD_mechanism": {
+    "pre_treatment_rationale": "Untreated metabolomics authors report lower NAD+ at3 and9months; no exact NAD-specific treatment effect or FDR supplied in the text.",
+    "not_established": [
+      "NAD deficiency at every age",
+      "NAD deficit in four-week-old treatment-start animals",
+      "Post-NR muscle NAD restoration",
+      "NAD restoration mediating the observed changes",
+      "Human NEM6 clinical benefit",
+      "BUBR1 restoration/checkpoint/fidelity rescue"
+    ],
+    "staining_limit": "NADH histoenzymatic staining is not direct endogenous NAD+ pool quantification.",
+    "tryptophan_limit": "Lower abundance is not direct proof of impaired de-novo flux.",
+    "acute_NAD_experiment": {
+      "panel": "Supplement5A-B",
+      "intervention": "10µM NAD+ added ex vivo, distinct from chronic NR",
+      "endpoint": "NADH-linked respiration in3-month NEM6 soleus",
+      "paired_P": 0.9405,
+      "visible_paired_observations": 3,
+      "biological_n_explicitly_reported": false,
+      "interpretation": "Restricted acute assay null; no broad inference about every NAD-directed therapy."
+    }
+  },
+  "harms": "No systematic treatment-arm adverse-event, mortality, organ toxicity, cancer or long-term assessment. Cited general tolerability is not safety evidence from this experiment.",
+  "essential_counterevidence": {
+    "pmid": "33092650",
+    "doi": "10.1186/s13395-020-00249-y",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33092650/",
+    "scope": "Complete exact primary abstract and metadata only; no full main.",
+    "NR_result": "Dystrophin-deficient MDX model under repeated eccentric challenge: NR did not significantly change molecular phenotype, sustainably increase bulk NAD, lessen injury markers or improve maximal hindlimb strength.",
+    "CD38_separate": "Separate inhibitor altered metabolites more extensively without functional protection; do not assign those molecular results to NR.",
+    "unknown_at_abstract_depth": [
+      "Dose/preparation",
+      "Animal denominators",
+      "Detailed analyses",
+      "Detailed adverse effects"
+    ],
+    "limit": "Context-specific actual NR functional null; not all-congenital-myopathy inefficacy and not negation of NEM6 morphology observations."
+  },
+  "competition": "Useful actual-compound preclinical morphology/organelle-function context, without adding a demonstrated NR-treated strength/endurance result. Does not replace the distinct NICE human walking signal or establish superiority over niacin/apitegromab. No selective MVA-proof bar, no quantitative cross-trial ranking.",
+  "reading_manifest": "reading-manifest.json",
+  "source_reviewer_status": "FROZEN_PRECLINICAL_MITOCHONDRIAL_ADDENDUM_NOT_ADMITTED",
+  "source_reviewer_no_repo_edits": true,
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "nr-nemaline-qualification.md",
+  "qualification_md_sha256": "c0881b84225e0c3620322f6a381c0ad274ac9836cfac488d7bd70db7935d4c9b",
+  "integration": {
+    "baseline": "97b54464f6ebf8540cbce8d5df382ad652f963d4",
+    "baseline_assessments": 233,
+    "current_assessments": 235,
+    "retained_prior_ids": 233,
+    "prior_objects_unchanged": 232,
+    "refined_ids": [
+      "prior-05"
+    ],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nr-nemaline-primary-followup-20260923/qualification.json",
+      "sha256": "74c8bfadd122b056a06e3efea0f43547288e0e9afbbf2233f6a01751ad60ced8"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nr-nemaline-primary-followup-20260923/reading-manifest.json",
+      "sha256": "6870859d0e639768d387d02ebd5bef1cc153cfbc44bc0f60604bf86298d0a9a2"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nr-nemaline-primary-followup-20260923/independent-nemaline/independent-check.md",
+      "sha256": "adf092347c4f4ef0884052cb265303598b53bd86d6c923d7f9cde6f40c06df87"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/akg-nemaline-integration-20260923/root-reading.json",
+      "sha256": "7875a4919f2f609146b1baa7c4805de6aa8c48158aa416ac695ee4ad2507890b"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false
+  },
+  "source_reviewer_no_accepted_entry_change": true,
+  "source_reviewer_no_new_appraisal_or_reading_credit": true
+}

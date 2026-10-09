@@ -1,0 +1,115 @@
+{
+  "assessed_date": "2026-09-23",
+  "compound": "citral",
+  "extra_outer_abstract_credit": 0,
+  "reviewers": [
+    "/root"
+  ],
+  "source_manifest": [
+    {
+      "external_file": "citral.xml",
+      "bytes": 121362,
+      "sha256": "5d5cf9fc582cbda23b3723f82586e31473cb5f3526146c7b930d847719574352"
+    },
+    {
+      "external_file": "citral-assets.zip",
+      "bytes": 1808460,
+      "sha256": "796ccc4a82ea9800bfc69bfbb12da354af6ded6afa6bc70b71fa9ef67d793b77"
+    },
+    {
+      "external_file": "30890753-metadata.json",
+      "bytes": 8409,
+      "sha256": "c093437b20dc282dfa408835efdc05ecccba4f51f9413b6827d8db6f03132c34"
+    },
+    {
+      "external_file": "citral-assets/41598_2019_41406_MOESM7_ESM.xlsx",
+      "bytes": 312094,
+      "sha256": "157bb81a9e3d5d1a2f7a177411e183bc81e077238899e6c19a863bb07d3b5016"
+    },
+    {
+      "external_file": "citral-assets/41598_2019_41406_MOESM1_ESM.pdf",
+      "bytes": 635898,
+      "sha256": "7fe2c0933fe053e217c50c99b7256f6cb1e6f0d0b335436ac7ae0283b95fb1a5"
+    },
+    {
+      "external_file": "citral-assets/bub1b-cells.json",
+      "bytes": 1918,
+      "sha256": "682ed46e5d7671d65bbbdba58ac6f5235a40306174fcfd709844f768cdc8b278"
+    },
+    {
+      "external_file": "citral-assets/41598_2019_41406_Fig1_HTML.jpg",
+      "bytes": 72234,
+      "sha256": "877ebefa8780334c359de7bf13654095a63e3305af97e93a4513085057a13afd"
+    },
+    {
+      "external_file": "citral-assets/41598_2019_41406_Fig8_HTML.jpg",
+      "bytes": 108729,
+      "sha256": "18ea449f6e50e0097d886ada215fc9830bf94450b34d485f72be84886983b535"
+    },
+    {
+      "external_file": "citral-assets/41598_2019_41406_Fig9_HTML.jpg",
+      "bytes": 56171,
+      "sha256": "04c69a3d98b48bbb689ba8e48faa6aa144d00c0eeba7820945242e61c4992611"
+    }
+  ],
+  "scope": "Bounded primary qualification. No extrapolation from food inventory membership to safety, exposure or efficacy. See accompanying Markdown for exact reading limits.",
+  "pmid": "30890753",
+  "doi": "10.1038/s41598-019-41406-8",
+  "model": "AGS gastric cancer cells; MRC-5 normal lung viability comparator",
+  "BUB1B_evidence": {
+    "source_file": "41598_2019_41406_MOESM7_ESM.xlsx",
+    "source_sheet": "Sheet1",
+    "source_row": 514,
+    "control_FPKM": 20.4812,
+    "treated_FPKM": 2.77232,
+    "log2_fold_change": -2.88513454791642,
+    "nominal_p": 0.00535,
+    "q_FDR": 0.542718,
+    "significant_flag": "no",
+    "protein_measured": false,
+    "fidelity_measured": false
+  },
+  "disposition": "Retain in-vitro anticancer benefit; deprioritize restoration/compensation; normal MVA effect unknown",
+  "findings": [
+    "Reduced viability and colonies; cell injury/apoptosis assays",
+    "Positive MRC-5 versus AGS viability difference retained, no exact graph-derived IC50 asserted",
+    "BUB1B down-direction RNA is not FDR significant",
+    "One RNA library per condition reported; biological sequencing replication not established",
+    "Scratch closure confounded by survival/proliferation; Figure9C control fluorescence contradicts narrative"
+  ],
+  "reading_scope": {
+    "main_text_tables_captions": "complete",
+    "main_figures": [
+      1,
+      8,
+      9
+    ],
+    "supplement_PDF": "Complete text; RNA-quality/expression figure pages5and6 inspected",
+    "workbooks": "All seven sheet/header inventories and BUB1B-bearing rows; not every unrelated row",
+    "raw_RNA_reanalysis": false
+  },
+  "reviewer_performed_biological_replication": false,
+  "independent_source_check": {
+    "scope": "Separate delegated check of assigned source claims; not whole-submission scoring or biological replication.",
+    "file": "citral-independent-check.json",
+    "sha256": "3d894027ec7558fc2ec3d6dbdbfeed2275651f9f517200f950cdbfd4f418a224",
+    "external_root": "food-primary-20260923",
+    "result": "Citral values and interpretation confirmed; scratch/PI-panel caveats retained."
+  },
+  "retrieval": [
+    {
+      "file": "citral.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6425008/fullTextXML",
+      "bytes": 121362,
+      "sha256": "5d5cf9fc582cbda23b3723f82586e31473cb5f3526146c7b930d847719574352",
+      "retrieved_utc": "2026-09-23T08:23:25.324416+00:00"
+    },
+    {
+      "file": "citral-assets.zip",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6425008/supplementaryFiles",
+      "bytes": 1808460,
+      "sha256": "796ccc4a82ea9800bfc69bfbb12da354af6ded6afa6bc70b71fa9ef67d793b77",
+      "retrieved_utc": "2026-09-23T08:24:00.027593+00:00"
+    }
+  ]
+}

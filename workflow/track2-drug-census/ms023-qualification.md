@@ -1,0 +1,47 @@
+# MS023 qualification for BUB1B/MVA
+
+Reviewed 23 September 2026 against repository commit `725447082e515c090c2139c89b23a398e4f25079`, read-only. This is a primary-source appraisal, not an experimental replication or a treatment recommendation.
+
+**Disposition: retain the genuine preclinical anticancer finding; deprioritize MS023 for MVA muscle restoration or compensation.** Walton et al. demonstrate growth suppression in clear-cell renal carcinoma (ccRCC), including xenografts. They also directly measure reduced BUB1B RNA and protein, impaired DNA repair, and eventual cancer-cell death. These results weaken a BUBR1-restoration rationale at the tested exposures. They do not measure harm in normal MVA tissue. No MVA model, patient allele, skeletal-muscle function, regeneration, or faithful-division rescue was tested. The provisional niacin/apitegromab nominations remain hypotheses, but this source supplies neither their restoration bridge nor a competing muscle-compensation result. Everolimus remains a separate conditional probe. [Walton primary article](https://doi.org/10.1038/s41467-024-52507-y)
+
+## What was actually administered and measured
+
+| Intervention and control | Model/exposure | Supported finding and boundary |
+|---|---|---|
+| MS023; 0.1% DMSO, with MS094 inactive analog in five dose-response models | Eight ccRCC lines in a 7-day screen, MS023 10 µM. Follow-up MS023 0.25–10 µM; endpoints varied with control confluence. | Reduced growth, with reported fitted IC50 values 0.4–6.1 µM. MS094 was broadly inactive; its 786-0 curve is absent, explicitly acknowledged in peer review. Confluence/DRAQ5 are growth measures, not muscle function. |
+| MS023; DMSO | RCC243/786-0, 5 µM, 3 days for RNA-seq; RCC243 0, 0.1, 5, 10 µM, 3 days for protein | BUB1B RNA decreases in the aggregate RNA analysis: log2FC −1.23874, adjusted p=5.4753×10⁻⁷ (Supplementary Data 1a, A493:G493). Figure 5a and its uncropped source show qualitative loss of α-BUB1B signal at 5–10 µM, with GAPDH loading control. Methods name CST #4116S. No BUB1B densitometry, statistical protein effect size, or checkpoint functional assay is supplied. |
+| MS023; DMSO and NU7441 comparator | RCC243 5 µM MS023 or 2 µM NU7441 for 24 h, then 10 Gy irradiation | Neutral comet assay shows slower double-strand-break removal with MS023. This is measured repair impairment, not improved genomic fidelity. |
+| MS023; DMSO, mitomycin C challenge | RCC243 5 µM for 3 days, then 2 µM mitomycin C for 24 h | Fewer induced FANCD2 foci. BRCA2, FANCM, FANCD2 and RAD51AP1 proteins fall with drug. γH2AX accumulates over time; the RCC243 day-1 comparison is nonsignificant, later comparisons significant. |
+| MS023; DMSO | RCC243 5 µM, through 9 days | Reduced mitotic marker, no accumulation at one specific cell-cycle phase, followed by a large sub-2N population. R-loop staining and widespread splicing changes support RNA-metabolism disruption, without establishing a single complete causal mechanism. |
+| MS023; vehicle | Established subcutaneous tumors in NSG mice; 80 mg/kg intraperitoneally, daily for 3 days then 4 days off | Tumor growth reduced in RCC243 and 786-0 cell-line xenografts and RCC243/RCC63 PDXs. Figure 8 reports n=10/5/5/10 per treatment group respectively. These are real tumor-burden benefits; no survival, muscle-function, MVA-cancer prevention, or rhabdomyosarcoma result follows. |
+
+The mouse schedule followed a 40–160 mg/kg tolerability exploration: 80 mg/kg was selected using a ≤10% body-weight-loss criterion. Drug remained detectable in tumors four days after the third injection (Supplementary Figure 10, n=2/time point). This establishes exposure and a limited tolerability observation, not chronic or pediatric safety. Vehicle composition was not located in the paper. Figures and source data were checked; no new biological experiments or reanalysis of raw sequencing were performed.
+
+## Pharmacology is distinct from genetic PRMT1 depletion
+
+MS023 inhibits **type I PRMTs**, not PRMT1 alone. The original characterization reports biochemical IC50s of 30, 119, 83, 4 and 5 nM for PRMT1, PRMT3, PRMT4/CARM1, PRMT6 and PRMT8, respectively. It was inactive against the tested type II/III PRMTs and other epigenetic enzymes up to 10 µM; those panels do not exclude every cellular off-target. The identity is supported by the original chemistry paper and SGC structure identifiers. [Eram primary characterization](https://pmc.ncbi.nlm.nih.gov/articles/PMC4798913/), [SGC MS023](https://www.thesgc.org/chemical-probes/ms023)
+
+Walton's CRISPR competition experiments, inducible shRNA and PRMT1 isoform overexpression provide separate evidence that PRMT1 is the important growth dependency in these ccRCC models. Overexpression rescues drug-suppressed proliferation; it is rescue of tumor growth, not MVA rescue. PRMT1 knockdown produces a separate BUB1B RNA result (log2FC −0.76245, adjusted p=2.3464×10⁻¹⁰; Supplementary Data 1b A313:G313). Do not relabel that intervention as MS023 or infer complete equivalence of their transcriptomes or xenograft effects. Doxycycline induces the constructs and is not a tested MVA therapy here.
+
+## Normal-cell evidence has a lower, explicit evidence tier
+
+The final article and ordinary supplement do not present a normal renal-cell efficacy/safety comparison. **The published peer-review response, pages 8–9, does show preliminary MS023 curves for VHL-wild-type renal epithelial cultures from patients RCC22 and RCC171.** The authors describe them as more resistant and explicitly say they excluded the results from the manuscript because additional experiments were needed. The fitted IC50 labels are 94.9 and 40.9 µM, but neither displayed curve reaches 50% viability: those values extrapolate beyond the plotted observations. Exposure duration, replicate count and raw data for these curves are not supplied there. This is suggestive selectivity, not a validated therapeutic window, and does not address normal MVA progenitors or muscle. [Published peer-review file](https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-024-52507-y/MediaObjects/41467_2024_52507_MOESM2_ESM.pdf)
+
+The original MS023 paper also describes time- and cell-dependent growth inhibition, including HEK293 sensitivity at 1 µM and a 30% lower MCF7 cell number after 10 days at 0.1 µM. These are separate cell-line observations, not a normal-tissue safety study. Walton cites no directly relevant beneficial muscle study; a comprehensive search of other MS023 indications was outside this bounded review.
+
+## Additional compound entries and source issues
+
+[screen-compound records](ms023-screen-compounds.json) preserves all 36 epiprobes as screening observations; it does **not** turn them into 36 completed efficacy appraisals. Individually followed-up compounds merit distinct occurrence/qualification entries: **GSK3368715, GSKJ4, (+)-JQ1, UNC1999, GSK591 and PFI-1**. The paired negative controls **MS094, GSKJ5, (−)-JQ1, UNC2400 and SGC2096** merit control entries. MS049 and SGC707 are informative negative screening comparators. NU7441, mitomycin C, etoposide and nocodazole are experimental challenge/comparator drugs, not restoration candidates. Doxycycline, selection antibiotics, biotin, media, dyes and solvents belong in experimental-reagent metadata. The existing (+)-JQ1 decision can receive a source link; its stereoisomer must remain separate.
+
+Preserve unresolved source differences: GSK591 is 10 µM in Figure 1 but 5 µM in its source workbook; GSK-LSD2 appears in Figure 1 while Table S1/workbook say GSKLSD1; the supplemental screen plot names valproic acid while the corresponding additional workbook row says olaparib. Neither of those last two identities earns confirmed-compound result credit from this review. Nocodazole is 0.1 µg/mL in the Figure 5 caption but 1 µg/mL on the image. The text's isolated PRMT8 assignment to SGC707 conflicts with its PRMT3 assignment elsewhere. Figure 2's RPA1 caption conflicts with RPA3 methods/guide table. The BUB1B gene, dose labels and GAPDH loading control in Figure 5a agree across the relevant sources.
+
+## Reading and provenance
+
+Read Walton's full results, discussion and methods from Europe PMC XML; all supplementary PDF text; selected supplementary figures including the compound dose curves; main Figures 1, 4, 5, 6 and 8; BUB1B rows in Supplementary Data 1; the uncropped Figure 5a images and relevant source-workbook entries; and the relevant peer-review exchanges/normal-cell page. Eram was read for identity, selectivity and cell-growth context, without a full independent audit of its supplement. Reporting Summary was retrieved and text-extracted but not independently audited. Raw GEO/proteomics data were not reprocessed. No missing source was counted as read.
+
+All downloaded sources remain unmodified in the external source folder; extracted text/images are separately named. the structured qualification records URLs and SHA-256 hashes. The Springer CDN hostname failed DNS locally; the official Europe PMC supplementaryFiles endpoint successfully supplied the actual PDF/XLSX/figure assets. Assessment JSON provides finer evidence locators and limits.
+
+
+Integration note: this delegated source qualification contributes zero additional outer-corpus completion credit. It is not a clean-state review of the whole submission or biological replication.
+
+[Structured qualification](ms023-qualification.json).

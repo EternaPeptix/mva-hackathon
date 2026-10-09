@@ -1,0 +1,662 @@
+{
+  "date": "2026-09-22 America/Phoenix",
+  "scope": "Three primary-source qualifications and six compound/tool appraisals; no extra abstract-reading credit. Original interpretation only; raw sources external.",
+  "paper_count": 3,
+  "appraisals_before": 116,
+  "appraisals_after": 122,
+  "new_decision_ids": [
+    "new-klk8-m021-3",
+    "new-sc79",
+    "new-mhy1485-klk8-control",
+    "new-azd5363-klk8-control",
+    "new-k858-vascular",
+    "new-alglucosidase-pompe"
+  ],
+  "nomination_changes": [],
+  "papers": [
+    {
+      "pmid": "40291017",
+      "assessment": {
+        "schema_version": 1,
+        "created_at_utc": "2026-09-23T01:45:24.827668+00:00",
+        "reviewer": "Codex subagent /root/final_coverage_audit; model identity not independently captured",
+        "scope": "One primary scientific paper fully read; manufacturer primary product records for exact reagent identity. Other search hits not appraised or used for efficacy. No repository edits.",
+        "paper": {
+          "source_key": "MED:40291017",
+          "pmid": "40291017",
+          "pmcid": "PMC12032894",
+          "doi": "10.1016/j.jpha.2024.101153",
+          "title": "Inhibition of KLK8 promotes pulmonary endothelial repair by restoring the VE-cadherin/Akt/FOXM1 pathway.",
+          "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12032894/"
+        },
+        "saved_abstract": {
+          "text": "Image 1.",
+          "sha256": "f8fb95111b41b49698175ba5e5492d14953cd3b58a98a5344d1f62b7c99e75f7",
+          "interpretation": "Placeholder, not evidence-bearing abstract; body qualification adds depth, not a newly read original abstract."
+        },
+        "reading_coverage": {
+          "main_text": "all",
+          "supplement_methods": "1.1-1.14 all",
+          "legends": "Fig1 and S1-S10 all",
+          "figures_visually_inspected": [
+            "Fig1",
+            "S1",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "S8",
+            "S9",
+            "S10"
+          ],
+          "supplement_table": "Table1 primer list",
+          "raw_individual_data": "not supplied/independently analysed",
+          "dose_encoding_check": "DOCX converted from original DOC contains Symbol f06d for µ:20µg/kg; plain itertext loses symbol. Corrected derivative preserves symbol.",
+          "source_version": "Published journal article; corpus also links PPR772420. Do not count that linked preprint as independent replication."
+        },
+        "intervention_identity": {
+          "name": "Anti-KLK8 / anti-neuropsin neutralizing antibody",
+          "manufacturer": "MBL",
+          "catalogue": "M021-3",
+          "clone_current_manufacturer_record": "MabB5",
+          "isotype_current_manufacturer_record": "Rat IgG2a",
+          "reactivity_current_manufacturer_record": "Mouse",
+          "modality": "research monoclonal antibody, not a named small-molecule KLK8 inhibitor",
+          "administered_dose_as_reported": "20 µg/kg",
+          "route": "tail-vein intravenous",
+          "schedule": "single reported pretreatment, 30 minutes before LPS or CLP",
+          "control": "MBL M081-3M2 IgG isotype, same reported 20 µg/kg and timing",
+          "study_final_formulation": "UNKNOWN: injection volume, dilution buffer, glycerol matching, lot and concentration not reported",
+          "current_product_formulation": "M021-3: 1 mg/mL in PBS/50% glycerol pH7.2; M081-3M2: 5 mg/mL PBS. These are present manufacturer specifications, not proof of historical administered formulations.",
+          "identity_limits": "Study identifies vendor/catalogue but not sequence/epitope/lot; manufacturer identifies clone. Human neutralization, clinical formulation, exposure, organ distribution and occupancy were not established in this paper."
+        },
+        "experiments": [
+          {
+            "id": "antibody_lps",
+            "source_locations": [
+              "Supplement Methods1.1",
+              "FigS3",
+              "FigS4",
+              "FigS10A,C,D"
+            ],
+            "model": "Male mice; experimental strain/age/weight not explicitly reported for these cohorts. LPS E.coli O111:B4 30 mg/kg intraperitoneal; saline control. Do not assign the 3-4 week C57BL/6 cell-donor age to the survival mice.",
+            "intervention": {
+              "name": "Anti-KLK8 / anti-neuropsin neutralizing antibody",
+              "manufacturer": "MBL",
+              "catalogue": "M021-3",
+              "clone_current_manufacturer_record": "MabB5",
+              "isotype_current_manufacturer_record": "Rat IgG2a",
+              "reactivity_current_manufacturer_record": "Mouse",
+              "modality": "research monoclonal antibody, not a named small-molecule KLK8 inhibitor",
+              "administered_dose_as_reported": "20 µg/kg",
+              "route": "tail-vein intravenous",
+              "schedule": "single reported pretreatment, 30 minutes before LPS or CLP",
+              "control": "MBL M081-3M2 IgG isotype, same reported 20 µg/kg and timing",
+              "study_final_formulation": "UNKNOWN: injection volume, dilution buffer, glycerol matching, lot and concentration not reported",
+              "current_product_formulation": "M021-3: 1 mg/mL in PBS/50% glycerol pH7.2; M081-3M2: 5 mg/mL PBS. These are present manufacturer specifications, not proof of historical administered formulations.",
+              "identity_limits": "Study identifies vendor/catalogue but not sequence/epitope/lot; manufacturer identifies clone. Human neutralization, clinical formulation, exposure, organ distribution and occupancy were not established in this paper."
+            },
+            "n": "6 per group for marker/permeability/histology/proliferation panels; 30 per arm for LPS survival",
+            "controls": [
+              "IgG+saline",
+              "IgG+LPS",
+              "antibody+saline",
+              "antibody+LPS"
+            ],
+            "measurements": [
+              {
+                "endpoint": "Evans blue-albumin lung extravasation",
+                "time": "24 h after LPS",
+                "result": "significant reduction, partial toward saline baseline",
+                "visual_estimate": "~0.022 to ~0.016 µg albumin/g body weight; saline ~0.014",
+                "statistics": "FigS3B ** P<0.01; one-way ANOVA + Student-Newman-Keuls",
+                "classification": "functional vascular permeability"
+              },
+              {
+                "endpoint": "Histological injury score (0-5)",
+                "time": "48 h",
+                "result": "partly attenuated; treated injury-score group mean remains above saline reference",
+                "visual_estimate": "~4.4 IgG+LPS vs ~2.7 antibody+LPS; saline ~0.8",
+                "statistics": "FigS3D ** P<0.01; n6",
+                "classification": "tissue damage"
+              },
+              {
+                "endpoint": "Survival",
+                "time": "0-48 h",
+                "result": "improved",
+                "visual_estimate": "60% vs approximately27% at48h (graph estimate, not tabulated counts)",
+                "statistics": "FigS4 ** P<0.01, Kaplan-Meier test as reported; n30/arm, no CI/HR/individual survival data supplied",
+                "classification": "whole-animal short-term survival"
+              },
+              {
+                "endpoint": "CD31/ZO-1/ICAM-1, VE-cadherin/pAkt/FOXM1",
+                "time": "24 h",
+                "result": "injury-associated marker changes attenuated",
+                "classification": "molecular markers"
+              },
+              {
+                "endpoint": "Ki67+/CD31+ fraction",
+                "time": "48 h",
+                "result": "increased, ~8% to~31% visually",
+                "statistics": "FigS10D ** P<0.01; n6; five high-power fields per mouse",
+                "classification": "endothelial proliferation marker, not lineage-traced regeneration"
+              }
+            ]
+          },
+          {
+            "id": "antibody_clp",
+            "source_locations": [
+              "Supplement Methods1.1",
+              "Fig1A-C,M",
+              "FigS3E",
+              "FigS10B,D"
+            ],
+            "model": "Male mice; cecum ligated0.5cm from tip, punctured21-gauge, small fecal extrusion; sham without CLP. Age/strain/weight not explicitly given for these cohorts. No antibiotic/fluid rescue protocol reported.",
+            "intervention": {
+              "name": "Anti-KLK8 / anti-neuropsin neutralizing antibody",
+              "manufacturer": "MBL",
+              "catalogue": "M021-3",
+              "clone_current_manufacturer_record": "MabB5",
+              "isotype_current_manufacturer_record": "Rat IgG2a",
+              "reactivity_current_manufacturer_record": "Mouse",
+              "modality": "research monoclonal antibody, not a named small-molecule KLK8 inhibitor",
+              "administered_dose_as_reported": "20 µg/kg",
+              "route": "tail-vein intravenous",
+              "schedule": "single reported pretreatment, 30 minutes before LPS or CLP",
+              "control": "MBL M081-3M2 IgG isotype, same reported 20 µg/kg and timing",
+              "study_final_formulation": "UNKNOWN: injection volume, dilution buffer, glycerol matching, lot and concentration not reported",
+              "current_product_formulation": "M021-3: 1 mg/mL in PBS/50% glycerol pH7.2; M081-3M2: 5 mg/mL PBS. These are present manufacturer specifications, not proof of historical administered formulations.",
+              "identity_limits": "Study identifies vendor/catalogue but not sequence/epitope/lot; manufacturer identifies clone. Human neutralization, clinical formulation, exposure, organ distribution and occupancy were not established in this paper."
+            },
+            "n": "6 per group for tissue/marker/proliferation panels; 30 per arm for survival",
+            "controls": [
+              "IgG+sham",
+              "IgG+CLP",
+              "antibody+sham",
+              "antibody+CLP"
+            ],
+            "measurements": [
+              {
+                "endpoint": "Survival",
+                "time": "0-48 h",
+                "result": "improved",
+                "visual_estimate": "~63% vs~37% at48h; graph estimate, not exact tabulated counts",
+                "statistics": "Fig1C ** P<0.01 Kaplan-Meier test as reported; no CI/HR/individual survival data",
+                "classification": "whole-animal short-term survival"
+              },
+              {
+                "endpoint": "H&E lung injury score",
+                "time": "48 h",
+                "result": "partial attenuation",
+                "visual_estimate": "~4.5 to~2.6; sham~0.8",
+                "statistics": "Fig1B ** P<0.01; n6",
+                "classification": "tissue damage"
+              },
+              {
+                "endpoint": "CD31/ZO-1/ICAM-1 and VE-cadherin/pAkt/FOXM1",
+                "time": "24 h",
+                "result": "injury-associated marker changes attenuated",
+                "classification": "molecular markers"
+              },
+              {
+                "endpoint": "Ki67+/CD31+ fraction",
+                "time": "48 h",
+                "result": "increased,~12% to~40% visually",
+                "statistics": "FigS10D ** P<0.01; n6",
+                "classification": "endothelial proliferation marker"
+              }
+            ],
+            "limits": "Direct albumin-leak measurement is shown for LPS (S3B), not CLP; do not duplicate that endpoint into CLP. Pretreatment does not prove treatment of established injury."
+          },
+          {
+            "id": "klk8_global_knockout",
+            "source_locations": [
+              "Supplement Methods1.1",
+              "FigS2"
+            ],
+            "role": "genetic target evidence, separate from administered antibody",
+            "model": "Klk8 flox exon1-3 crossed with EIIa-Cre; global deletion vs age-matched Cre-negative floxed littermates; LPS30mg/kg",
+            "n": "6 per group for24h permeability/markers and48h histology;30 per arm for48h survival",
+            "result": "attenuated vascular leakage, marker changes, lung injury and mortality",
+            "limits": "Global lifelong deletion, not endothelial-specific blockade and not a drug."
+          },
+          {
+            "id": "klk8_gain_of_function",
+            "source_locations": [
+              "FigS5",
+              "Fig1D,E,G,H,J",
+              "FigS6",
+              "FigS8A-C",
+              "FigS9A",
+              "Supplement Methods1.2,1.4,1.13"
+            ],
+            "role": "genetic model/mechanism",
+            "model": "Primary mouse lung endothelial cells from male C57BL/6 donors3-4weeks, passages3-4; Ad-KLK8 MOI1,3,10 for48h vs adenovector. Mouse intratracheal Ad-KLK8 1x10^8pfu/30µL,48h vs vector.",
+            "n": "cells n4; mouse tissues n6; RNAseq plot shows3 columns per group but legend does not explicitly define biological n",
+            "result": "KLK8 overexpression reduces MTT signal, increases FITC-dextran permeability, reduces VE-cadherin/pAkt/FOXM1, yields shed VE-cadherin fragment; in vivo increases EBA leak and injury. RNAseq regulator/pathway associations are predictions.",
+            "limits": "KLK8-overexpression injury is not BUB1B-deficient disease; MTT is metabolic viability proxy, not direct cell counting."
+          },
+          {
+            "id": "foxm1_genetic_rescue",
+            "source_locations": [
+              "Fig1F",
+              "FigS7A,B",
+              "Supplement Table1"
+            ],
+            "role": "genetic rescue, sole direct Bub1b measurement",
+            "model": "MLVECs; Len-FOXM1 MOI10 for30min before Ad-vector/KLK8 MOI3 for48h; EdU10µM for2h",
+            "n": 4,
+            "controls": [
+              "Len-vector+Ad-vector",
+              "Len-vector+Ad-KLK8",
+              "Len-FOXM1+Ad-vector",
+              "Len-FOXM1+Ad-KLK8"
+            ],
+            "result": "FOXM1 overexpression partially restores EdU-positive cells and Ccnd1/Cdc20/Ccnf/Bub1b mRNA under KLK8 overexpression. EdU visually~6% to~17% vs~26% vector baseline; Bub1b mRNA~0.5 to~0.8 relative to1.0 baseline; rescue comparisons **P<0.01. Estimates are visual.",
+            "bub1b_limits": "No BUBR1 protein, localization, spindle-assembly checkpoint, chromosome segregation, aneuploidy or variant-specific function measured. No antibody or SC79 arm measures Bub1b.",
+            "limits": " Group means remain below vector-control means; no direct baseline-versus-rescue equivalence test is shown."
+          },
+          {
+            "id": "sc79",
+            "source_locations": [
+              "Fig1I",
+              "FigS8D"
+            ],
+            "role": "administered chemical Akt activator; mechanistic positive probe",
+            "identity": "SC79; no supplier/catalogue/purity/vehicle stated",
+            "dose_timing": "10µM in presence/absence of Ad-KLK8 MOI3; readout48h; exact addition interval unspecified",
+            "n": 4,
+            "controls": [
+              "Ad-vector",
+              "Ad-KLK8",
+              "Ad-vector+SC79",
+              "Ad-KLK8+SC79"
+            ],
+            "result": "Restores pAkt/Akt and FOXM1 protein to approximately untreated-vector baseline during KLK8 overexpression; increases basal FOXM1. FigS8D **P<0.01.",
+            "limits": "No SC79 animal dosing/survival, leak assay, EdU, Bub1b/BUBR1 or fidelity measurement; do not inherit antibody benefit."
+          },
+          {
+            "id": "mhy1485",
+            "source_locations": [
+              "FigS8E"
+            ],
+            "role": "administered mTOR agonist negative pathway probe",
+            "identity": "MHY1485; vendor/purity/vehicle unspecified",
+            "dose_timing": "10µM;48h endpoint with/without Ad-KLK8 MOI3",
+            "n": 4,
+            "result": "Raises p-mTOR and p-S6K but does not restore FOXM1. Not a positive restorative lead from this paper.",
+            "limits": "MHY1485 S8E shows phospho-mTOR/phospho-S6K normalized with beta-actin but no total-mTOR/total-S6K denominators; do not claim a phosphorylation-fraction comparison."
+          },
+          {
+            "id": "azd5363",
+            "source_locations": [
+              "Fig1K,L",
+              "FigS9B,C"
+            ],
+            "role": "administered Akt inhibitor, mechanistic antagonist",
+            "identity": "AZD5363; no formulation/vendor/purity specified",
+            "dose_timing": "10µM;48h endpoint; VE-cadherin lentivirus MOI10 for30min before Ad-KLK8 MOI3 in rescue experiments",
+            "n": 4,
+            "result": "VE-cadherin overexpression restores pAkt/FOXM1; AZD5363 substantially blocks the VE-cadherin-associated FOXM1 increase. Not a restorative result for AZD5363."
+          }
+        ],
+        "strengths": [
+          "Two injury models and pharmacological/genetic direction agreement",
+          "Functional LPS vascular leak and short-term whole-animal survival outcomes beyond markers",
+          "Isotype and saline/sham controls",
+          "Randomization stated; genotype/treatment blinded during measurement/analysis; pathology scored by two blinded pathologists"
+        ],
+        "limitations": [
+          "Pre-injury intervention only; no delayed treatment after established pulmonary injury.",
+          "Short follow-up ends48h; no sustained recovery, lung mechanics, blood gases, exercise or muscle function.",
+          "No plasma/lung antibody concentrations, half-life, occupancy, catalytic activity suppression, dose-response or antibody-independent pharmacological replication.",
+          "No antibody+endothelial FOXM1 loss-of-function epistasis proving that survival depends on this pathway; systemic immune/other-organ effects remain possible.",
+          "Saline/sham antibody baseline arms help contextualize acute lung endpoints but are not a comprehensive toxicity assessment. No dedicated infection clearance, long-term growth, tumor initiation/progression, or genomic-instability controls.",
+          "All animal experiments male. Mouse experimental ages/strain/weights incompletely specified; sample-size calculations/exclusions and exact survival statistics not provided.",
+          "No BUB1B-mutant, BubR1-hypomorphic, MVA, patient-derived, or N1002K model; actual patient variant phase and N1002K function remain unknown.",
+          "Human cross-reactivity/neutralization and final clinical formulation not established by the reviewed study."
+        ],
+        "source_corrections": [
+          "Fig1 legend title omits inhibition, reversing plain-language direction; experimental groups/body identify inhibitory antibody as beneficial.",
+          "FigS10 title says KLK8 deficiency, but legend/panels use neutralizing antibody, not knockout.",
+          "Main text says FOXM1 overexpression restored proliferation; S7 rescue group means remain below vector-control means; no baseline-versus-rescue equivalence test is supplied.",
+          "Main text refers to figure administration and supplement RNAseq methods to Fig7E; stale references do not supply additional data.",
+          "Fig1J body estimates shed VE-cadherin~30kDa; image labels35kDa. Preserve approximate30-35kDa rather than precise cleavage-site claim."
+        ],
+        "comparison_to_existing_project_candidates": {
+          "scope": "Evidence-level comparison only; comparator primary papers not rereviewed in this bounded task.",
+          "niacin": "Existing project niacin evidence includes human functional observations but no established MVA rescue; antibody has controlled mouse organ/survival protection in a different disease. Neither is a direct MVA efficacy demonstration.",
+          "apitegromab": "Existing project apitegromab randomized motor evidence in treated SMA is more directly functional in humans, but transfers neither to MVA nor endothelial biology. Antibody remains a worthwhile independent preclinical organ-protection lead.",
+          "conclusion": "Retain KLK8 antibody positive signal without requiring it to defeat nominees; current evidence does not justify prioritizing it as a human MVA treatment. Do not infer harm solely from higher FOXM1/proliferation."
+        },
+        "proposed_ledger_entries": [
+          {
+            "decision_id_proposed": "new-klk8-m021-3",
+            "merge_policy": "Deduplicate against current catalogue/ledger; source-role records for existing entities are updates, not new entity counts.",
+            "match_aliases": [
+              "M021-3",
+              "anti-KLK8 M021-3",
+              "MabB5"
+            ],
+            "route": "KLK8-neutralizing research antibody M021-3 / MabB5",
+            "disposition": "retain preclinical organ-protection lead; not established MVA therapy",
+            "rationale": "Actual IV antibody pretreatment improves48h survival in LPS and CLP mouse models and LPS albumin barrier leak. Reagent identity is catalog-bound; Bub1b RNA evidence is from separate genetic FOXM1 rescue only.",
+            "bub1b_variant_efficacy": "Not established; actual phase and N1002K function unknown",
+            "source": {
+              "source_key": "MED:40291017",
+              "pmid": "40291017",
+              "pmcid": "PMC12032894",
+              "doi": "10.1016/j.jpha.2024.101153",
+              "title": "Inhibition of KLK8 promotes pulmonary endothelial repair by restoring the VE-cadherin/Akt/FOXM1 pathway.",
+              "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12032894/"
+            },
+            "reading_depth": "Main text + all Supplement Methods1.1-1.14 + all Fig1/S1-S10 legends and images + Table1",
+            "quality_validation": "Source-bound manual primary qualification; separates intervention, comparator, model, endpoint and uncertainty",
+            "human_efficacy_for_mva": "UNKNOWN"
+          },
+          {
+            "decision_id_proposed": "new-sc79",
+            "merge_policy": "Deduplicate against current catalogue/ledger; source-role records for existing entities are updates, not new entity counts.",
+            "match_aliases": [
+              "SC79",
+              "SC-79"
+            ],
+            "route": "SC79 Akt activation",
+            "disposition": "retain mechanistic marker-rescue probe; no functional drug rescue established here",
+            "rationale": "10µM SC79 restores Akt phosphorylation and FOXM1 protein in KLK8-overexpressing mouse endothelial cells; no drug-associated Bub1b/BUBR1, barrier or animal-survival endpoint.",
+            "bub1b_variant_efficacy": "Not established; actual phase and N1002K function unknown",
+            "source": {
+              "source_key": "MED:40291017",
+              "pmid": "40291017",
+              "pmcid": "PMC12032894",
+              "doi": "10.1016/j.jpha.2024.101153",
+              "title": "Inhibition of KLK8 promotes pulmonary endothelial repair by restoring the VE-cadherin/Akt/FOXM1 pathway.",
+              "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12032894/"
+            },
+            "reading_depth": "Main text + all Supplement Methods1.1-1.14 + all Fig1/S1-S10 legends and images + Table1",
+            "quality_validation": "Source-bound manual primary qualification; separates intervention, comparator, model, endpoint and uncertainty",
+            "human_efficacy_for_mva": "UNKNOWN"
+          },
+          {
+            "decision_id_proposed": "source-role-mhy1485",
+            "merge_policy": "Deduplicate against current catalogue/ledger; source-role records for existing entities are updates, not new entity counts.",
+            "match_aliases": [
+              "MHY1485"
+            ],
+            "route": "MHY1485 mTOR activation",
+            "disposition": "retain negative mechanistic result for this source",
+            "rationale": "10 micromolar MHY1485 raises phospho-mTOR/phospho-S6K bands without restoring FOXM1 in KLK8-overexpressing cells; total-mTOR/total-S6K denominators are absent in this panel.",
+            "bub1b_variant_efficacy": "Not established; actual phase and N1002K function unknown",
+            "source": {
+              "source_key": "MED:40291017",
+              "pmid": "40291017",
+              "pmcid": "PMC12032894",
+              "doi": "10.1016/j.jpha.2024.101153",
+              "title": "Inhibition of KLK8 promotes pulmonary endothelial repair by restoring the VE-cadherin/Akt/FOXM1 pathway.",
+              "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12032894/"
+            },
+            "reading_depth": "Main text + all Supplement Methods1.1-1.14 + all Fig1/S1-S10 legends and images + Table1",
+            "quality_validation": "Source-bound manual primary qualification; separates intervention, comparator, model, endpoint and uncertainty",
+            "human_efficacy_for_mva": "UNKNOWN"
+          },
+          {
+            "decision_id_proposed": "source-role-azd5363",
+            "merge_policy": "Deduplicate against current catalogue/ledger; source-role records for existing entities are updates, not new entity counts.",
+            "match_aliases": [
+              "AZD5363"
+            ],
+            "route": "AZD5363 Akt inhibition",
+            "disposition": "retain mechanistic antagonist role for this source",
+            "rationale": "10µM attenuates genetic VE-cadherin-mediated FOXM1 restoration; not a positive recovery intervention in this paper.",
+            "bub1b_variant_efficacy": "Not established; actual phase and N1002K function unknown",
+            "source": {
+              "source_key": "MED:40291017",
+              "pmid": "40291017",
+              "pmcid": "PMC12032894",
+              "doi": "10.1016/j.jpha.2024.101153",
+              "title": "Inhibition of KLK8 promotes pulmonary endothelial repair by restoring the VE-cadherin/Akt/FOXM1 pathway.",
+              "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12032894/"
+            },
+            "reading_depth": "Main text + all Supplement Methods1.1-1.14 + all Fig1/S1-S10 legends and images + Table1",
+            "quality_validation": "Source-bound manual primary qualification; separates intervention, comparator, model, endpoint and uncertainty",
+            "human_efficacy_for_mva": "UNKNOWN"
+          }
+        ],
+        "next_discriminating_followup": "If advancing experimentally: confirm M021-3 formulation/species activity and direct KLK8 suppression; test delayed dosing with sustained barrier/function outcomes, then patient-relevant BUB1B cells with BUBR1 protein/checkpoint/chromosome fidelity and matched normal controls before any disease-specific rescue claim."
+      }
+    },
+    {
+      "pmid": "39166113",
+      "assessment": {
+        "reader": "/root",
+        "date": "2026-09-22 America/Phoenix",
+        "patient_premise": "Phase and N1002K function/abundance remain unresolved. Neither low BUBR1 nor a muscle-only cause of weakness is assumed.",
+        "comparative_standard": "Positive source-model outcomes receive credit; no clinical efficacy probability or comparative effect size across different diseases is assigned.",
+        "pmid": "39166113",
+        "pmcid": "PMC11333341",
+        "doi": "10.3389/fphar.2024.1392352",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11333341/",
+        "agent": "K858 (KIF11 inhibitor)",
+        "decision_id": "new-k858-vascular",
+        "reading_depth": {
+          "complete_main_text": true,
+          "complete_methods": true,
+          "all_main_legends": true,
+          "main_figure_pixels": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "all_supplementary_legends": true,
+          "supplementary_figure_pixels": [
+            2
+          ]
+        },
+        "drug_results": [
+          {
+            "endpoint": "Neointimal lesion and luminal stenosis",
+            "model": "Eight-week-old male C57 mice, carotid guidewire injury",
+            "regimen": "50 mg/kg intraperitoneally every other day for 2 weeks after injury",
+            "comparator": "DMSO-treated injured mice; sham reference",
+            "n": "5 per group in Figure 5 legend",
+            "result": "Reduced intimal area, intima/media ratio and lumen stenosis ratio; all drug-versus-injury comparisons marked P<0.01 in Figure 5C-E",
+            "magnitude": "No numerical source table recovered; bar heights are not treated as exact effect sizes",
+            "source": "Methods 2.2; Results 3.5; Figure 5C-E",
+            "scope": "Drug-assigned histological lesion benefit, not a measured blood-flow, organ-performance or survival benefit"
+          },
+          {
+            "endpoint": "VSMC S-phase entry and proliferation",
+            "model": "Primary mouse aortic VSMCs, generally stimulated with PDGF-BB 20 ng/mL for 24 h for the stated flow/EdU/protein protocols; Figure 3H displays a CCK8 time course at 0, 24, 48 and 72 h",
+            "regimen": "K858 1 micromolar explicitly stated for the cell-cycle experiment; other assay-specific exposure and pretreatment timing are incompletely documented",
+            "n": "3 per main figure legend; animal-of-origin independence not specified",
+            "result": "Reduced stimulated S-phase fraction, EdU-positive fraction, CCK8 signal and PCNA, with lowered cell-cycle proteins",
+            "source": "Results 3.2-3.3; Figures 2D-E/H-I and 3F-J",
+            "scope": "Proliferation suppression; CCK8 is not a direct cell count and no chromosome-fidelity endpoint is shown"
+          },
+          {
+            "endpoint": "Limited toxicity observations",
+            "model": "Cultured VSMCs and injured mice",
+            "result": "No significant apoptosis difference reported in S2A-B; no significant body-weight difference over 14 days",
+            "n": "3 culture replicates; 5 mice/group",
+            "scope": "Does not establish general safety or a human exposure window"
+          }
+        ],
+        "bub1b_bridge": {
+          "finding": "Bub1b appears as a network hit, but PDGF-BB qPCR comparison is not significant in Figure 1E. No K858-induced BUBR1 protein/function result.",
+          "genetic_results_separate": "Kif11 siRNA and KIF11 overexpression reversing some LY294002 effects are separate genetic experiments."
+        },
+        "source_cautions": [
+          "Figure 3A-B caption says K858 but actual panel labels and Results show siKif11; actual drug EdU panels are 3F-G.",
+          "Figure 2A GSEA displays FDR=0.3435; not a significant pathway-enrichment claim.",
+          "S2B legend calls the plot cell-cycle phases although plotted endpoint is apoptotic rate.",
+          "S2C-D legend states rapamycin 20 nM and 24 h followed by PDGF-BB 24 h, while plot labels show 0/12/24/48 h; retain this timing discrepancy. It is KIF11 reduction, not BUBR1 rescue.",
+          "No VSMC-specific in vivo manipulation or uninjured K858 arm; systemic contributions unresolved.",
+          "No PK, pediatric exposure, MVA genotype, muscle output or checkpoint-restoration measurement.",
+          "Figure 3H CCK8 data extend through 72 h despite caption wording of a 24 h PDGF-BB treatment; Figure 3C and 4H also show 0/24/48/72 h time courses. Do not assign every plotted result to a 24 h exposure.",
+          "Figure 3F-G caption calls the assay CCK8, but actual panels show EdU images and EdU-positive-cell percentage.",
+          "Figure 4 caption/results swap some protein and flow-cytometry panel references: actual protein blots/quantification are D-E and actual flow/cell-phase panels are F-G."
+        ],
+        "decision": "Retain vascular antiproliferative tool evidence; decline present MVA restoration or muscle-compensation lead. No universal class-level contraindication inferred.",
+        "independent_check": {
+          "reader": "/root/revalidation_a64",
+          "date": "2026-09-22 America/Phoenix",
+          "report_file": "independent-check.md",
+          "initial_appraisal_sha256": "f2a90981c6ad715371cc0b9facbe609647fc641458ac0e4c66026e5e1a0aa6a7",
+          "scoped_corrections_applied": [
+            "Distinguished CCK8 0-72 h time course from stated 24 h induction assays.",
+            "Recorded additional Figure 3/4 caption mismatches."
+          ],
+          "source_first_author": "Gengqiao Wang",
+          "source_author_attribution": "Wang et al.",
+          "separate_reading_depth": "Complete retained main-text body and all main legends; main pixels 1-5; all supplementary legends; S2 pixels. Does not alter the original reader reading_depth declaration."
+        }
+      }
+    },
+    {
+      "pmid": "29044175",
+      "assessment": {
+        "reader": "/root",
+        "date": "2026-09-22 America/Phoenix",
+        "patient_premise": "Phase and N1002K function/abundance remain unresolved. Neither low BUBR1 nor a muscle-only cause of weakness is assumed.",
+        "comparative_standard": "Positive source-model outcomes receive credit; no clinical efficacy probability or comparative effect size across different diseases is assigned.",
+        "pmid": "29044175",
+        "pmcid": "PMC5647434",
+        "doi": "10.1038/s41598-017-14063-y",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5647434/",
+        "agent": "Myozyme recombinant human GAA (alglucosidase alfa)",
+        "decision_id": "new-alglucosidase-pompe",
+        "identity_source": "https://www.ema.europa.eu/en/medicines/human/EPAR/myozyme",
+        "reading_depth": {
+          "complete_main_text": true,
+          "complete_methods": true,
+          "all_main_legends": true,
+          "main_figure_pixels": [
+            4,
+            5,
+            7
+          ],
+          "all_supplementary_legends": true,
+          "supplementary_figure_pixels": [
+            4,
+            5
+          ],
+          "supplementary_tables": "S1/S2 read; initial part of metabolite table S3 inspected only, not complete table audit"
+        },
+        "drug_results": [
+          {
+            "endpoint": "Lysosomal glycogen burden",
+            "model": "MyoD-induced iPSC myocytes from three unrelated infantile-onset Pompe patients, two clones per line",
+            "regimen": "0, 10, 50 nM rhGAA for final 3 days of differentiation, with glucose withdrawal for final 24 h",
+            "n": "3 experiments per clone; not 6 independent patients",
+            "result": "Dose-related reduction in protein-normalized glycogen in most clones; Pom2b exception lacks significant dose response",
+            "source": "Figure 4D; PAS images 4E and S3 use default 1 micromolar unless otherwise specified",
+            "scope": "Actual disease-substrate correction; no force measurement"
+          },
+          {
+            "endpoint": "Stimulus-dependent mTORC1 readouts",
+            "model": "One clone per patient/control iPSC line",
+            "regimen": "Default 1 micromolar Myozyme for final 3 days; amino-acid deprivation 1 h, then amino acids plus insulin 100 nM for 10 min",
+            "n": "3 experiments per clone",
+            "result": "Untreated Pompe myocytes have lower pS6K/total S6K and p4E-BP1/total 4E-BP1; rhGAA partially improves pS6K, significant in 2 of 3 patient clones, but not p4E-BP1",
+            "source": "Figure 5A-D; S4 baseline and S5 rapamycin control",
+            "scope": "Total-protein-normalized quantified readouts, not general proof that mTOR inhibition helps muscle disease"
+          },
+          {
+            "endpoint": "Cellular energy state",
+            "model": "Ctr2a and Pom1b clones",
+            "regimen": "Default 1 micromolar rhGAA for final 3 days",
+            "n": "3 experiments; one patient clone for this comparison",
+            "result": "Adenylate energy charge improves with rhGAA; no significant treatment correction marked for guanylate charge, phosphocreatine/creatine or NAD+/NADH in Figure 5E",
+            "source": "Figure 5E",
+            "scope": "Biochemical energy endpoint, not contractile output or whole-patient benefit"
+          },
+          {
+            "endpoint": "BUB1B mRNA",
+            "model": "Three Pompe iPSC-derived myocyte lines",
+            "regimen": "Default 1 micromolar rhGAA for final 3 days",
+            "n": "3 cell lines",
+            "result": "Increased beta-actin-normalized BUB1B qPCR signal, P<0.05 indicated; exact fold not tabulated (bar approximately 1.7-1.8, visual estimate only)",
+            "source": "Figure 7C",
+            "scope": "Actual-drug transcript response in GAA deficiency; no BUBR1 protein, variant stability or faithful-mitosis measurement"
+          },
+          {
+            "endpoint": "Mitochondrial staining readout (MitoTracker Red)",
+            "model": "Pom1b, Pom2b and Pom3a iPSC-derived myocyte clones, one selected clone per patient line, with within-clone untreated/treated comparisons",
+            "regimen": "Default 1 micromolar Myozyme rhGAA for final 3 days of differentiation",
+            "n": "3 microscopic fields per comparison; not 3 independent treatment experiments or additional patients",
+            "denominator": "Integrated MitoTracker Red fluorescence adjusted for MHC-positive area; treatment fold change relative to the same clone without rhGAA",
+            "result": "rhGAA significantly decreased MitoTracker MFI in Pom1b and Pom3a (both P<0.01), with no significant change in Pom2b. Untreated Pompe-versus-control MFI comparison was not significant.",
+            "source": "Figure 5F-G and corresponding Results paragraph",
+            "scope": "Actual drug-associated staining change; does not independently demonstrate restored mitochondrial respiration, contractile force or general mitochondrial function."
+          }
+        ],
+        "controls": {
+          "rapamycin": "200 nM for 1 h before stimulation, used to verify phosphorylation readouts; not a disease-rescue experiment.",
+          "doxycycline": "MyoD induction, 1 microgram/mL; not a therapeutic test.",
+          "bFGF_and_Y27632": "Cell-culture reagents, not asserted disease treatment."
+        },
+        "source_cautions": [
+          "MyoD overexpression itself suppresses proliferation; authors state this model is unsuitable to analyze cell-cycle/proliferation pathways.",
+          "No CRISPR-isogenic control, muscle force, long-term renewal or MVA experiment.",
+          "No evidence that this MVA case is GAA-deficient; tissue overlap and BUB1B transcript increase do not establish an indication for GAA replacement.",
+          "Myozyme identity does not transfer effects to avalglucosidase or cipaglucosidase formulations.",
+          "Pom1 had only one GAA sequence variant identified despite profound enzymatic deficiency; patient groups were not claimed to be fully sequence-solved."
+        ],
+        "decision": "Retain as a positive lesion-matched enzyme-replacement model and drug-associated BUB1B-transcript observation. Decline direct MVA nomination absent a GAA-deficiency bridge.",
+        "independent_check": {
+          "reader": "/root/revalidation_a64",
+          "date": "2026-09-22 America/Phoenix",
+          "report_file": "independent-check.md",
+          "initial_appraisal_sha256": "2e8799260f0475fff1d85e71a939005562dae1d454c43f00ebf6c017d2ad39b5",
+          "scoped_corrections_applied": [
+            "Preserved Figure 5G drug-responsive MitoTracker readout with MHC-area denominator and three-microscopic-field unit."
+          ],
+          "source_first_author": "Takeshi Yoshida",
+          "source_author_attribution": "Yoshida et al.",
+          "separate_reading_depth": "Complete retained main-text body and all main legends; main pixels 4,5,7; supplementary legends S1-S5; S4/S5 pixels; tables S1/S2 and initial S3 header/rows only. Does not alter the original reader reading_depth declaration."
+        }
+      }
+    }
+  ],
+  "source_preparation_limits": "Study identities are retained; present manufacturer catalogues establish listings, not historical lot/formulation equivalence, clinical suitability or confirmed delivery.",
+  "research_supply_checks": {
+    "checked_date": "2026-09-22 America/Phoenix",
+    "scope": "Manufacturer catalogue identities inspected through public product pages; no purchase, stock guarantee, study-lot equivalence or clinical-formulation inference.",
+    "products": [
+      {
+        "name": "M021-3 / MabB5",
+        "supplier": "MBL",
+        "catalogue": "M021-3",
+        "url": "https://www.mblbio.com/bio/g/dtl/A/?pcd=M021-3"
+      },
+      {
+        "name": "SC79",
+        "supplier": "MilliporeSigma",
+        "catalogue": "123871",
+        "cas": "305834-79-1",
+        "url": "https://www.sigmaaldrich.com/US/en/product/mm/123871"
+      },
+      {
+        "name": "MHY1485",
+        "supplier": "MilliporeSigma",
+        "catalogue": [
+          "SML0810",
+          "500554"
+        ],
+        "cas": "326914-06-1",
+        "url": "https://www.sigmaaldrich.com/US/en/product/sigma/sml0810"
+      },
+      {
+        "name": "K858",
+        "supplier": "Cayman Chemical",
+        "catalogue": "22112",
+        "cas": "72926-24-0",
+        "url": "https://www.caymanchem.com/product/22112/k858"
+      }
+    ]
+  },
+  "integration_review": "K858/Pompe independently compared to primary text and specified figures. KLK8 received root primary-text/key-figure check and author integration check, not independent replication. MHY total-protein-denominator and below-control-mean wording refined here; initial external appraisals preserved."
+}

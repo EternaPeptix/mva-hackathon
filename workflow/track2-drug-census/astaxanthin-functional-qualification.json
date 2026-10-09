@@ -1,0 +1,1019 @@
+{
+  "schema_version": "1.0",
+  "status": "ROOT_ACCEPTED_SOURCE_QUALIFICATION",
+  "assembled_at_utc": "2026-09-27T04:50:53.777488+00:00",
+  "candidate_id": "new-astaxanthin",
+  "qualification": {
+    "prior": "culture-only low-priority lead",
+    "proposed": "qualified human-function/compensation reserve",
+    "change_existing_nominees": false,
+    "retain_existing_hydrogel_appraisal": true,
+    "existing_qualification_relative_url": "astaxanthin-qualification.md",
+    "claim": "Small controlled human walking/cycling and sport-task signals justify retaining a compensation reserve, with mixed results, formulation-specific attribution, reporting/access limitations and no MVA efficacy inference.",
+    "not_supported": [
+      "Isolated-astaxanthin attribution of unmatched-mixture effects.",
+      "Consistent controlled muscle-strength/endurance efficacy.",
+      "BUBR1 restoration or MVA/BUB1B efficacy.",
+      "Cross-trial superiority over niacin or apitegromab.",
+      "Clinical dose/regimen recommendation or established safety."
+    ]
+  },
+  "cohort_deduplication": [
+    {
+      "cohort": "Liu2018_Liu2021",
+      "papers": [
+        "PMID30259703",
+        "PMID34110707"
+      ],
+      "count": 1
+    },
+    {
+      "cohort": "Res2013_Klinkenberg2013",
+      "papers": [
+        "PMID23274592",
+        "PMID24260184"
+      ],
+      "count": 1
+    }
+  ],
+  "studies": [
+    {
+      "cohort_id": "Nakanishi2022",
+      "papers": [
+        {
+          "pmid": "36294075",
+          "pmcid": "PMC9603106",
+          "doi": "10.3390/ijerph192013492",
+          "title": "Impacts of Astaxanthin Supplementation on Walking Capacity by Reducing Oxidative Stress in Nursing Home Residents",
+          "year": 2022
+        }
+      ],
+      "design": "Randomized double-blind 16-week trial in healthy nursing-home residents, baseline ages 67–94, without assigned exercise; unblinded statistician generated assignments; detailed concealment/adherence measurement not supplied.",
+      "formulation": {
+        "brand": "AstaReal act",
+        "active_daily_mg": {
+          "astaxanthin": 24,
+          "tocotrienol": 40,
+          "vitamin_C": 30
+        },
+        "control_daily_mg": {
+          "tocotrienol": 40,
+          "vitamin_C": 30
+        },
+        "duration_weeks": 16,
+        "attribution": "Astaxanthin is stated between-arm difference on matched nutrient background; not a pure-ingredient-alone formulation test. Full excipients/species/isomers unspecified."
+      },
+      "denominators": {
+        "randomized": 30,
+        "randomized_arms": [
+          15,
+          15
+        ],
+        "completers": [
+          13,
+          11
+        ],
+        "attrition": 6,
+        "analysis": "Complete case; no endpoint-specific n/ITT/sensitivity analysis. Body-composition paragraph says 23 rather than 24."
+      },
+      "endpoint_hierarchy": {
+        "prospective_verified": false,
+        "registration_id": "not reported; unregistered not established",
+        "multiplicity": "Within-arm posthoc Bonferroni; no verified family-wide hierarchy. Power based on prior protein-carbonyl study."
+      },
+      "functional_outcomes": [
+        {
+          "name": "6-minute walking distance",
+          "unit": "m",
+          "reported_summary": "median (min-max)",
+          "active": {
+            "before": {
+              "median": 333,
+              "min": 107,
+              "max": 478
+            },
+            "after": {
+              "median": 371,
+              "min": 180,
+              "max": 494
+            }
+          },
+          "control": {
+            "before": {
+              "median": 326,
+              "min": 68,
+              "max": 438
+            },
+            "after": {
+              "median": 314,
+              "min": 56,
+              "max": 448
+            }
+          },
+          "contrast": {
+            "type": "two-way repeated-measures time-by-supplement interaction",
+            "F": 6.12,
+            "p": "<0.05",
+            "degrees_of_freedom": null,
+            "within_active": "Bonferroni post hoc p<0.05; values and Figure 3 show increase",
+            "effect_estimate": null
+          },
+          "endpoint_n": {
+            "active": 13,
+            "control": 11,
+            "status": "global completer counts only; endpoint-specific denominators not printed"
+          },
+          "confidence_interval": null
+        },
+        {
+          "name": "Knee extensor strength",
+          "unit": "kg as reported",
+          "reported_summary": "median (min-max)",
+          "active": {
+            "before": {
+              "median": 15.0,
+              "min": 5.0,
+              "max": 33.0
+            },
+            "after": {
+              "median": 12.8,
+              "min": 6.7,
+              "max": 27.7
+            }
+          },
+          "control": {
+            "before": {
+              "median": 16.5,
+              "min": 5.0,
+              "max": 31.0
+            },
+            "after": {
+              "median": 14.7,
+              "min": 4.0,
+              "max": 28.3
+            }
+          },
+          "contrast": {
+            "type": "two-way repeated-measures ANOVA",
+            "p": "no significant differences reported; exact p and F absent",
+            "effect_estimate": null
+          },
+          "endpoint_n": {
+            "active": 13,
+            "control": 11,
+            "status": "global completer counts only; endpoint-specific denominators not printed"
+          },
+          "confidence_interval": null
+        },
+        {
+          "name": "Handgrip strength",
+          "unit": "kg",
+          "reported_summary": "median (min-max)",
+          "active": {
+            "before": {
+              "median": 18.6,
+              "min": 6.8,
+              "max": 32.2
+            },
+            "after": {
+              "median": 17.5,
+              "min": 6.5,
+              "max": 29.7
+            }
+          },
+          "control": {
+            "before": {
+              "median": 19.6,
+              "min": 7.3,
+              "max": 33.0
+            },
+            "after": {
+              "median": 20.0,
+              "min": 10.3,
+              "max": 26.5
+            }
+          },
+          "contrast": {
+            "type": "two-way repeated-measures ANOVA",
+            "p": "no significant differences reported; exact p and F absent",
+            "effect_estimate": null
+          },
+          "endpoint_n": {
+            "active": 13,
+            "control": 11,
+            "status": "global completer counts only; endpoint-specific denominators not printed"
+          },
+          "confidence_interval": null
+        },
+        {
+          "name": "Percent muscle mass by bioelectrical impedance",
+          "unit": "%",
+          "reported_summary": "median (min-max)",
+          "active": {
+            "before": {
+              "median": 24.2,
+              "min": 14.5,
+              "max": 32.9
+            },
+            "after": {
+              "median": 24.5,
+              "min": 19.9,
+              "max": 30.3
+            }
+          },
+          "control": {
+            "before": {
+              "median": 24.8,
+              "min": 19.9,
+              "max": 34.5
+            },
+            "after": {
+              "median": 23.8,
+              "min": 19.9,
+              "max": 30.2
+            }
+          },
+          "contrast": {
+            "type": "two-way repeated-measures ANOVA",
+            "p": "no significant differences reported; exact p and F absent",
+            "effect_estimate": null
+          },
+          "endpoint_n": {
+            "active": null,
+            "control": null,
+            "status": "unresolved: Section 3.1 says 23, while global completers total 24; Table 1 prints no n"
+          },
+          "confidence_interval": null
+        }
+      ],
+      "additional_results": {
+        "d_ROMs": "Positive interaction F 5.17, p<.05; biomarker not direct mechanism.",
+        "lactate": "Post-walk normalized intergroup contrast p<.05; ambiguous percentage formula/caption, not a direct lactate-production measurement."
+      },
+      "harms": "Five illnesses described as unrelated and one personal/ingestion-burden withdrawal; no systematic AE table or diagnoses/adjudication. Safety citation uses 24 mg/kg/day although administration 24 mg/day.",
+      "funding": "JSPS KAKENHI 18H03130; no COI declared; manufacturer matched capsules, full role unspecified.",
+      "limitations": [
+        "Section 3.3 calls post-active walking distance lower, although medians, Figure 3 and discussion show higher",
+        "Section 3.1 says 23 completers versus 24 elsewhere",
+        "Figure 4 caption compares with before-6MWT while Figure 4b brackets placebo versus active and methods use an unpaired t test",
+        "Lactate prose refers to before supplementation despite reporting relative-to-before-supplementation percentages; exact calculation is absent",
+        "Safety sentence uses mg/kg/day instead of trial mg/day"
+      ],
+      "notice": "Crossmark current/no update; PubMed/Crossref no linked notice; EPMC not retracted in official 2026-09-27 snapshots. Bounded check; errors unresolved.",
+      "depth": "Complete scientific main/declarations, all 5 native figures and every Table 1 cell; relevant published PDF pages visually checked. No participant data/prospective protocol retrieved.",
+      "source_urls": [
+        "https://doi.org/10.3390/ijerph192013492",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9603106/fullTextXML",
+        "https://da.lib.kobe-u.ac.jp/da/kernel/0100477379/0100477379.pdf"
+      ],
+      "source_packet": "primary-2022",
+      "independent_review": "independent-2022"
+    },
+    {
+      "cohort_id": "Liu2018_Liu2021",
+      "papers": [
+        {
+          "id": "Liu2018",
+          "pmid": "30259703",
+          "pmcid": "PMC6204600",
+          "doi": "10.1002/jcsm.12318",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6204600/",
+          "role": "initial human cohort report plus aged-mouse pilot"
+        },
+        {
+          "id": "Liu2021",
+          "pmid": "34110707",
+          "pmcid": "PMC8191397",
+          "doi": "10.14814/phy2.14887",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8191397/",
+          "role": "secondary analysis of Liu2018, explicitly stated in Methods 2.2"
+        }
+      ],
+      "one_human_cohort": true,
+      "independent_replication": false,
+      "design": "Randomized double-blind mixture+training vs placebo+training in healthy independent older adults. One supplement-only month then 12 weeks supervised incline treadmill intervals 3 times/week. No human exercise-free or ingredient-factorial arm.",
+      "formulation": {
+        "daily_mg": {
+          "astaxanthin": 12,
+          "tocotrienol": 10,
+          "zinc": 6
+        },
+        "duration_months": 4,
+        "labels": "Astamed 2018/AstaReal AX 2021/AstaMed MYO registry; H. pluvialis source per registry",
+        "control": "Placebo composition undisclosed; no isolated ingredient attribution."
+      },
+      "denominators": {
+        "randomized": 58,
+        "arms_randomized": [
+          32,
+          26
+        ],
+        "final_completers": [
+          23,
+          19
+        ],
+        "dropouts": 16,
+        "2021_GXT_completers": 40,
+        "2021_GXT_fat_oxidation_analyzed": 39,
+        "2021_TA_analyzed": "unclear exclusions/final arm n",
+        "unresolved": [
+          "2018 text 43 vs flow 42; registry 41.",
+          "2018 placebo female 9 vs 2021 subset 10.",
+          "2021 TA exclusions overlap unspecified."
+        ]
+      },
+      "endpoint_hierarchy": {
+        "registry": "NCT03368872",
+        "completed": "2016-08",
+        "first_submitted": "2017-12-06",
+        "prospective_verified": false,
+        "current_registered_primary": "Leg-fatigue-test work rate/31P-MRS muscle performance",
+        "results_posted": false,
+        "qualification": "Do not relabel published successes/nulls as prospectively primary."
+      },
+      "outcomes": [
+        {
+          "paper": "Liu2018",
+          "endpoint": "TA maximal voluntary contraction percent change",
+          "AX": {
+            "mean": 14.4,
+            "SEM": 6.2,
+            "paired_p": "<0.02"
+          },
+          "PL": {
+            "mean": 2.9,
+            "SEM": 5.6,
+            "paired_p": ">0.6"
+          },
+          "unit": "percent change",
+          "between_group_p": null,
+          "between_group_CI": null,
+          "inference": "within-arm improvement only; superiority not established"
+        },
+        {
+          "paper": "Liu2018",
+          "endpoint": "TA specific force percent change",
+          "AX": {
+            "mean": 11.6,
+            "SEM": 6.1,
+            "paired_p": "0.053"
+          },
+          "PL": {
+            "mean": 2.4,
+            "SEM": 5.7,
+            "paired_p": ">0.6"
+          },
+          "unit": "percent change",
+          "between_group_p": null,
+          "between_group_CI": null,
+          "note": "abstract rounds P to 0.05 and SEM to 6.0; main/Figure 3 P=0.053 retained"
+        },
+        {
+          "paper": "Liu2018",
+          "endpoint": "6-minute walk change",
+          "AX": {
+            "pre_mean": 530,
+            "post_mean": 581,
+            "reported_change_mean": 48,
+            "change_SD": 38,
+            "paired_p": "<0.01"
+          },
+          "PL": {
+            "pre_mean": 527,
+            "post_mean": 568,
+            "reported_change_mean": 41,
+            "change_SD": 65,
+            "paired_p": "<0.001"
+          },
+          "unit": "m",
+          "between_group_p": null,
+          "between_group_CI": null,
+          "inference": "both arms improve; no reported direct superiority test",
+          "note": "AX means subtract to 51 m, not source change 48 m; preserve inconsistency"
+        },
+        {
+          "paper": "Liu2021",
+          "endpoint": "TA contraction count/endurance",
+          "AX": {
+            "pre_mean": 353,
+            "pre_SEM": 26,
+            "post_mean": 472,
+            "post_SEM": 41,
+            "within_group_p": "<0.05"
+          },
+          "between_group_result": "no treatment×time interaction; no treatment effect on change or sex difference",
+          "between_group_exact_p": null,
+          "between_group_CI": null,
+          "inference": "controlled functional null despite AX within-arm significance"
+        },
+        {
+          "paper": "Liu2021",
+          "endpoint": "graded exercise test duration change",
+          "AX": {
+            "mean": 41.1,
+            "SEM": 6.3
+          },
+          "PL": {
+            "mean": 40.8,
+            "SEM": 9.1
+          },
+          "unit": "percent change",
+          "between_group_result": "not different",
+          "between_group_exact_p": null,
+          "between_group_CI": null,
+          "inference": "controlled endurance null"
+        },
+        {
+          "paper": "Liu2021",
+          "endpoint": "predicted VO2max change",
+          "between_group_result": "not different",
+          "between_group_exact_p": null,
+          "between_group_CI": null,
+          "note": "derived from Balke treadmill duration, not measured maximal VO2",
+          "inference": "controlled null"
+        },
+        {
+          "paper": "Liu2021",
+          "endpoint": "S1 matched-workload fat oxidation change",
+          "AX": {
+            "mean": 0.76,
+            "SEM": 0.18
+          },
+          "PL": {
+            "mean": 0.23,
+            "SEM": 0.15
+          },
+          "unit": "g",
+          "descriptive_AX_minus_PL": 0.53,
+          "between_group_p": "<0.05 in both male and female panels, Figure 4a",
+          "between_group_CI": null,
+          "inference": "positive controlled metabolic exercise finding; not independently replicated"
+        },
+        {
+          "paper": "Liu2021",
+          "endpoint": "S1-end respiratory exchange ratio change",
+          "between_group_p": "<0.05",
+          "direction": "greater RER reduction with AX",
+          "between_group_CI": null,
+          "inference": "positive controlled fuel-use physiology"
+        },
+        {
+          "paper": "Liu2021",
+          "endpoint": "S1 carbohydrate oxidation change",
+          "between_group_p": "<0.05 in males, not females",
+          "sex_treatment_interaction_p": "<0.05, native Figure 4b",
+          "exact_values": "not numerically reported; graphed",
+          "between_group_CI": null,
+          "inference": "exploratory male-specific controlled substrate-use finding"
+        },
+        {
+          "paper": "Liu2021",
+          "endpoint": "total and S1 exercise efficiency change",
+          "between_group_p": "<0.05 in males, not females",
+          "exact_values": "not numerically reported; graphed",
+          "between_group_CI": null,
+          "inference": "positive controlled exercise physiology in small male subgroup, not proof of improved endurance performance"
+        }
+      ],
+      "ancillary_mouse_pilot": {
+        "population": "29-month wild-type male mice; assigned 10 active/9 chow; analyzed endpoint n unspecified",
+        "formulation": "Astaxanthin 300 mg/kg/day with 8 weeks training; no untrained control",
+        "specific_force_N_cm2": {
+          "active_mean_SD": [
+            5.0,
+            0.6
+          ],
+          "control_mean_SD": [
+            4.0,
+            0.6
+          ],
+          "between_p": 0.004
+        },
+        "absolute_force_mN": {
+          "active_mean_SD": [
+            406,
+            74
+          ],
+          "control_mean_SD": [
+            351,
+            73
+          ],
+          "between_p": 0.12
+        },
+        "MVA_model": false
+      },
+      "harms": {
+        "complete_arm_level_AE_table": false,
+        "medical_withdrawals": "8 described as unrelated to treatment; event-level detail not supplied",
+        "2021_signal": "triglyceride change higher with AX after exercise; stated to remain within healthy range",
+        "other_blood_results": "no between-group differences in insulin, HDL, LDL, total cholesterol",
+        "conclusion": "Cannot infer no harms from incomplete reporting."
+      },
+      "funding": "Astavita funded both reports and participated in design; Conley received company funding and scientific-adviser role; NIH/UW/Fred Hutchinson support also listed.",
+      "limitations": [
+        "Completer attrition 27.6%; small sex subgroups; unclear exclusions and endpoint n.",
+        "2018 paired within-arm tests without multiplicity correction; 2021 selected adjusted comparisons not verified global prespecified family.",
+        "No diet/biopsy mechanism measurements; different sex-specific GXT protocols.",
+        "2018 AX 6MWT 530→581 m but reported change 48 m; unresolved arithmetic.",
+        "Industry sponsor participated in design."
+      ],
+      "notice": "No formal correction/retraction identified in bounded Crossref/EPMC/DOI checks; numerical/denominator inconsistencies unresolved.",
+      "depth": "Both complete scientific mains and main tables via official XML; all native main figures; 2018 supplement Tables S1–S4/Figures S1–S2; 2021 native DOCX table cells S1–S2 and supplement figures. Main PDF 403; no participant data/prospective SAP/placebo composition.",
+      "source_urls": [
+        "https://doi.org/10.1002/jcsm.12318",
+        "https://doi.org/10.14814/phy2.14887",
+        "https://clinicaltrials.gov/study/NCT03368872"
+      ],
+      "source_packet": "mixture-2018-2021",
+      "independent_review": "Root accepted packet; no separate mixture-review file supplied to this assembler."
+    },
+    {
+      "cohort_id": "Res2013_Klinkenberg2013",
+      "papers": [
+        {
+          "pmid": "23274592",
+          "doi": "10.1249/MSS.0b013e31827fddc4"
+        },
+        {
+          "pmid": "24260184",
+          "pmcid": "PMC3834092",
+          "doi": "10.1371/journal.pone.0079280",
+          "role": "same-cohort biomarker companion"
+        }
+      ],
+      "one_human_cohort": true,
+      "independent_replication": false,
+      "design": "Randomized double-blind parallel trial in young trained male cyclists/triathletes; 32 randomized, 31 analyzed (16 active/15 placebo), one unrelated medical placebo dropout.",
+      "formulation": {
+        "duration_days": 28,
+        "daily_mg": {
+          "astaxanthin": 20,
+          "vitamin_C": 300,
+          "vitamin_E": 50
+        },
+        "active": "BioReal algal extract in sunflower-oil gelatin capsules",
+        "control": "Soy-oil matched gelatin capsules",
+        "isolated_astaxanthin": false
+      },
+      "endpoint_hierarchy": {
+        "registry": "NCT01241877",
+        "primary": "time-trial performance",
+        "secondary": "substrate use",
+        "limits": "Registry 90 min lead-in vs published 60 min; estimated 24 vs 32 recruited; stale UNKNOWN/no results."
+      },
+      "outcomes": {
+        "time_trial_minutes": {
+          "summary_type": "mean±SEM",
+          "astaxanthin_pre": [
+            60.38,
+            1.2
+          ],
+          "astaxanthin_post": [
+            59.14,
+            1.21
+          ],
+          "placebo_pre": [
+            59.43,
+            1.37
+          ],
+          "placebo_post": [
+            58.57,
+            1.39
+          ],
+          "treatment_by_time_p": 0.63,
+          "calculated_unadjusted_difference_in_mean_changes_minutes": -0.38,
+          "calculated_effect_caveat": "Arithmetic from rounded arm means, not a published adjusted estimate; change-score variance and CI unavailable."
+        },
+        "mean_power_watts": {
+          "astaxanthin_pre": [
+            238,
+            6
+          ],
+          "astaxanthin_post": [
+            244,
+            6
+          ],
+          "placebo_pre": [
+            236,
+            9
+          ],
+          "placebo_post": [
+            239,
+            7
+          ],
+          "summary_type": "mean±SEM"
+        },
+        "fat_oxidation": {
+          "astaxanthin_pre_g_min": 0.66,
+          "astaxanthin_post_g_min": 0.61,
+          "placebo_pre_g_min": 0.71,
+          "placebo_post_g_min": 0.68,
+          "p": 0.73
+        },
+        "positive_uptake": "Plasma astaxanthin increased from undetectable to 187±19 micrograms/kg (mean±SEM; main Results p<.001), showing uptake.",
+        "other_nulls": [
+          "No treatment effect in resting/submaximal substrate use or cardiorespiratory outcomes.",
+          "No significant treatment-time effect in glucose, insulin, lactate, free fatty acids, or antioxidant markers."
+        ],
+        "uncertainty": "No equivalence/noninferiority test; no confidence interval for treatment effect; modest parallel sample does not establish zero effect."
+      },
+      "harms": "No adverse effects reported after astaxanthin supplementation; short trial and small n limit safety inference.",
+      "funding": "Authors state no study funding and no declared conflicts; BioReal Sweden donated active and placebo pills. Industry material support therefore present.",
+      "notice": "No linked notice in retrieved PubMed/Crossref fields; final publisher unavailable; bounded metadata check.",
+      "depth": "Full non-final coauthor manuscript read as web PDF-extracted scientific main/table/result/caption text. Native graphical figures NOT visually inspected; no local native PDF. Companion complete main XML/registry read. Troponin power calculation cannot be transferred to performance.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/23274592/",
+        "https://www.researchgate.net/publication/234011244_Astaxanthin_Supplementation_Does_Not_Augment_Fat_Use_or_Improve_Endurance_Performance",
+        "https://clinicaltrials.gov/study/NCT01241877",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0079280"
+      ],
+      "source_packet": "counterevidence",
+      "independent_review": "independent-counter"
+    },
+    {
+      "cohort_id": "Bloomer2005",
+      "papers": [
+        {
+          "pmid": "16286671",
+          "doi": "10.1123/ijsnem.15.4.401"
+        }
+      ],
+      "design": "RCT/double-blind indexed; 20 assigned 10/10 resistance-trained men; random sequence and analyzed n not verified.",
+      "formulation": {
+        "reported": "BioAstin 1732 mg safflower oil/algal extract containing 4 mg astaxanthin and 480 mg lutein as printed; safflower-oil control",
+        "duration": "3 weeks before eccentric challenge through 96 h after",
+        "gaps": "Lutein unit and exact daily capsule total unverified; not an isolated ingredient test."
+      },
+      "endpoint_hierarchy": "Unknown; abstract lists soreness, CK and muscle performance before/through 96 h after eccentric exercise.",
+      "outcomes": {
+        "abstract_result": "Similar responses for all dependent variables",
+        "numeric_effect": null,
+        "CI": null
+      },
+      "positive_results": "Abstract reports no positive treatment finding; full main could contain details not visible here.",
+      "harms": "UNKNOWN: abstract does not supply adverse-event or dropout detail.",
+      "funding": "Unknown from primary abstract/metadata.",
+      "notice": "No linked notice in retrieved PubMed/Crossref; publisher inaccessible, check incomplete.",
+      "depth": "Abstract/indexing/metadata only; no full main or native outcome table. Analyzed n/effects/harms/funding uncertain; indexed randomization not independently verified in Methods.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/16286671/",
+        "https://digitalcommons.memphis.edu/facpubs/9789/",
+        "https://oasis.library.unlv.edu/kns_fac_articles/58/",
+        "https://doi.org/10.1123/ijsnem.15.4.401"
+      ],
+      "source_packet": "counterevidence",
+      "independent_review": "independent-counter"
+    },
+    {
+      "cohort_id": "Barker2023",
+      "papers": [
+        {
+          "pmid": "40757570",
+          "pmcid": "PMC12225492",
+          "doi": "10.3390/muscles2020017"
+        }
+      ],
+      "design": "Controlled double-blind parallel study; NOT counted as randomized. Methods rank by 48 h VAS and alternate assignments; no random sequence described.",
+      "population": "Resistance-trained men; mean 22.6±2.2 years",
+      "denominators": {
+        "recruited": 22,
+        "completed": 19,
+        "arms": {
+          "astaxanthin": 10,
+          "placebo": 9
+        },
+        "dropouts": "Three injuries during habitual training; arm/timing not given."
+      },
+      "formulation": "AstaReal capsules 6 mg each twice daily (12 mg/day) for 4 weeks; matched sunflower-oil placebo. No additional active ingredient stated; complete excipient/isomer composition not reported.",
+      "endpoint_hierarchy": {
+        "author_stated": {
+          "primary": "Subjective soreness/DOMS (VAS and SORE)",
+          "secondary": "Resistance-exercise performance; leg-press repetitions to failure 65%, 70%, 75% estimated 1RM 48 h after eccentric challenge."
+        },
+        "prospective_hierarchy_verified": false
+      },
+      "outcomes": {
+        "repetitions": {
+          "summary_type": "mean±SD",
+          "percent65": {
+            "active_pre": [
+              19,
+              6
+            ],
+            "active_post": [
+              20,
+              8
+            ],
+            "placebo_pre": [
+              21,
+              7
+            ],
+            "placebo_post": [
+              23,
+              12
+            ]
+          },
+          "percent70": {
+            "active_pre": [
+              13,
+              5
+            ],
+            "active_post": [
+              12,
+              4
+            ],
+            "placebo_pre": [
+              16,
+              5
+            ],
+            "placebo_post": [
+              16,
+              7
+            ]
+          },
+          "percent75": {
+            "active_pre": [
+              10,
+              3
+            ],
+            "active_post": [
+              9,
+              4
+            ],
+            "placebo_pre": [
+              11,
+              3
+            ],
+            "placebo_post": [
+              14,
+              7
+            ]
+          },
+          "inference": "No significant main effects or interactions at any intensity; all p>.05; exact estimates/CIs not given."
+        },
+        "retained_positive": "Group×condition interactions favoring reduced subjective soreness: SORE p=.01, VAS p=.02 (Results); no group×condition×time interaction; no timepoint-specific benefit established.",
+        "other_nulls": "No group effect/interactions for perceived recovery; no significant effects for session perceived exertion."
+      },
+      "harms": "Three habitual-training injury dropouts; no systematic supplement adverse-event accounting identified. Do not infer proven absence of harm.",
+      "funding": "No external funding/COI declared. AstaReal donated supplements; Karen Hecht acknowledged for dosage-protocol input.",
+      "depth": "Complete primary JATS/XML scientific main and native table-cell text; no rendered-page/graphical inspection claimed. Author-stated purpose is not prospective hierarchy.",
+      "notice": "Primary XML retained; no comprehensive notice search documented. No notice encountered in supplied report.",
+      "source_inconsistencies": [
+        "Discussion swaps SORE/VAS p labels relative to Results/Table 2; prefer Results: .01/.02.",
+        "Abstract calls strength test 1RM; Methods measures 3RM and estimates 1RM."
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12225492/",
+        "https://doi.org/10.3390/muscles2020017"
+      ],
+      "source_packet": "counterevidence",
+      "independent_review": "independent-counter"
+    },
+    {
+      "cohort_id": "Tsao2025",
+      "papers": [
+        {
+          "pmid": "40615903",
+          "doi": "10.1186/s13102-025-01221-3"
+        }
+      ],
+      "design": "Randomized crossover; publication single-blind; current retrospective registry quadruple-masked with double-blind outcome prose.",
+      "population": "Ten healthy physically active young men; all completed both conditions.",
+      "formulation": "Paper-reported AstaReal capsules,4 mg each, 28 mg/day for 4 days; one-week washout. Registry specifies placebo excipients; full active/excipient matching unresolved.",
+      "outcomes": [
+        {
+          "name": "Cycling time to exhaustion at 75% baseline VO2max",
+          "active_mean_min": 85.41,
+          "active_SE_min": 4.42,
+          "placebo_mean_min": 72.11,
+          "placebo_SE_min": 2.24,
+          "paired_p_result_and_native_figure": 0.001,
+          "abstract_caption_p": "<.001",
+          "CI": "not provided",
+          "arithmetic_mean_difference_min": 13.3
+        }
+      ],
+      "nulls": [
+        "LDH and MDA treatment-by-time interactions were nonpositive (p=.733 and p=.359, respectively); selected time-point positives are different tests.",
+        "Inflammatory, total-antioxidant and substrate-utilization interactions were nonpositive.",
+        "Mood/POMS comparisons were nonpositive; this does not establish general safety."
+      ],
+      "limitations": [
+        "Small all-male sample; no reported period/carryover estimate.",
+        "Power calculated from observed outcomes, calling reported SEs SDs; not prospective justification.",
+        "Reported standardized effects disagree: abstract partial eta squared .71 in the abstract, .071 and d=1.42 in Results, and d=3.47 in the power paragraph; not repaired.",
+        "Multiple outcomes without described family correction.",
+        "CK interaction P=.039, LDH P=.733 and MDA P=.359; selected time-point positives are different tests.",
+        "Exhaustion samples follow different work durations; no 24–72 h recovery assessment.",
+        "Mood/inflammatory/substrate results nonpositive; mood null and CONSORT harms marked None do not establish general safety."
+      ],
+      "funding": "Taiwan NSTC and China Medical University; no competing interests declared.",
+      "notice": "Current EPMC core records have no commentCorrectionList; no notice encountered on retrieved publisher pages. Bounded check, not exhaustive certification.",
+      "source_packet": "root-newer-trials",
+      "independent_review": "independent-newer",
+      "registration": {
+        "id": "NCT06593535",
+        "completed": "2022-09-20",
+        "first_submitted": "2024-09-05",
+        "first_posted": "2024-09-19",
+        "prospective_hierarchy_verified": false,
+        "current_primary_categories": 6
+      },
+      "depth": "Complete scientific body/declarations and abstract; native Figures 1 and 3–6; main Table 1 text, supplement 2 DOCX table cells, supplement 1 CONSORT extracted text, current registry. Figure 2 not visually read; original registry history and protocol/SAP not obtained.",
+      "source_urls": [
+        "https://doi.org/10.1186/s13102-025-01221-3",
+        "https://clinicaltrials.gov/study/NCT06593535"
+      ],
+      "harms": "Mood null/CONSORT harms item None do not establish general safety."
+    },
+    {
+      "cohort_id": "Zhang2025",
+      "papers": [
+        {
+          "pmid": "41473192",
+          "doi": "10.3389/fnut.2025.1731899"
+        }
+      ],
+      "design": "Paper-reported randomized double-blind parallel trial.",
+      "population": "Male Taekwondo athletes aged 15–18; 42 randomized (21/21), 37 analyzed (18/19).",
+      "formulation": "Paper-reported Nutricost natural astaxanthin 12 mg/day in sunflower oil for 4 weeks vs sunflower-oil placebo with regular training. Historical product identity not externally authenticated.",
+      "outcomes": [
+        {
+          "name": "Week 4 double-jump kick count per 20 s",
+          "active_mean": 70.1,
+          "active_SD": 2.5,
+          "control_mean": 66.9,
+          "control_SD": 2.7,
+          "reported_Mann_Whitney_p": 0.001
+        },
+        {
+          "name": "Week 4 high-roundhouse kick count per 60 s",
+          "active_mean": 96.7,
+          "active_SD": 4.9,
+          "control_mean": 93.6,
+          "control_SD": 3.1,
+          "reported_Mann_Whitney_p": 0.03
+        }
+      ],
+      "nulls": [
+        "Body composition: muscle mass, body fat, intracellular/extracellular fluid."
+      ],
+      "limitations": [
+        "Sport-specific counts are not direct force, power or MVA motor scores.",
+        "Five post-randomization exclusions; four injuries; relationship to supplement unknown.",
+        "Weekly multiple tests without stated family correction; prospective hierarchy not verified.",
+        "PERMANOVA subject-restricted permutations unspecified, not proven absent.",
+        "Table 3 interaction df=3, SS=276.9, MS=6.9 inconsistent; no corrected estimate inferred.",
+        "Native Figure 2 upper panel at week 4 labels **P<.01, conflicting with Results P=.03.",
+        "Table 1 active weight range 52–95 kg, mean 78.25, SD 4.71 is inconsistent with analyzed n=18 or randomized n=21.",
+        "No raw participant data or protocol obtained; no registration identified in main."
+      ],
+      "funding": "Korea Innovation Foundation and Soonchunhyang University; no commercial conflict declared.",
+      "notice": "Current EPMC core records have no commentCorrectionList; no notice encountered on retrieved publisher pages. Bounded check, not exhaustive certification.",
+      "source_packet": "root-newer-trials",
+      "independent_review": "independent-newer",
+      "depth": "Complete scientific body/declarations/abstract; both native figures; all three XML tables; no native PDF/table visual claim.",
+      "source_urls": [
+        "https://doi.org/10.3389/fnut.2025.1731899"
+      ],
+      "harms": "Four injury withdrawals and one competition withdrawal; injury attribution to supplementation unspecified despite general no-adverse-events wording."
+    }
+  ],
+  "competitiveness": "Upgrade beyond culture-only low priority is warranted by real controlled human functional signals. Existing niacin/restoration and apitegromab/compensation nominees remain unchanged; MVA disease relevance and direct efficacy are not established here. Lack of a BUBR1 assay alone is not grounds to dismiss useful functional data.",
+  "scope": "Bounded primary-source synthesis of accepted packets and independent checks; not exhaustive coverage, independent replication, raw-data reanalysis, or clinical advice. Amounts describe study exposures. Raw article bodies are not embedded.",
+  "metadata": {
+    "source_packets_external_archive": "astaxanthin-functional-followup-20260927",
+    "raw_sources_external_and_unchanged": true,
+    "source_packet_hashes": [
+      {
+        "external_packet_path": "primary-2022/qualification.md",
+        "sha256": "f89ac4544c2ce728be122376047e4532ad726b79698109d18116c9665145b144",
+        "bytes": 10729
+      },
+      {
+        "external_packet_path": "primary-2022/qualification.json",
+        "sha256": "9f66970590772f18ad55cd6ff837f5ddfb32a1d2aa2b05d568c82583ec337dc9",
+        "bytes": 17708
+      },
+      {
+        "external_packet_path": "primary-2022/reading-scope.json",
+        "sha256": "bdeb5de16789a7b76bdb072d46495542a156e9622206a3fc88fb14cbb7e58fa8",
+        "bytes": 13150
+      },
+      {
+        "external_packet_path": "primary-2022/source-file-manifest.json",
+        "sha256": "923e7c921f20df0c34fb4d8cfe46bbe940d4a6b427f89649d5c4a3081902cb6a",
+        "bytes": 13532
+      },
+      {
+        "external_packet_path": "mixture-2018-2021/qualification.md",
+        "sha256": "87274247c20588d75bfd5b379c4bbfca6c5ce719be7e0c0d49cd71357f933e72",
+        "bytes": 10235
+      },
+      {
+        "external_packet_path": "mixture-2018-2021/qualification.json",
+        "sha256": "bc034376755412c96444147196202a03e476a05cc6928fdfd25b2da39d5c179f",
+        "bytes": 14546
+      },
+      {
+        "external_packet_path": "mixture-2018-2021/reading-scope.json",
+        "sha256": "520cd14939eb0eb6981aec4acb88dea1b8807df65544328e991018033b50f254",
+        "bytes": 4147
+      },
+      {
+        "external_packet_path": "mixture-2018-2021/source-manifest.json",
+        "sha256": "f1facda2a693355f27a91d511f98ad2acb5210f76b968fb03b76925295e00773",
+        "bytes": 27296
+      },
+      {
+        "external_packet_path": "counterevidence/counterevidence.md",
+        "sha256": "1479f4b464be9682412f0867bbdae8bd2814f33eac56ab7c30fd8e9c502b03a6",
+        "bytes": 6027
+      },
+      {
+        "external_packet_path": "counterevidence/counterevidence.json",
+        "sha256": "fa71b8c1e9ffa725e73c8da081158dc5a4004dfb3ebae4b01bce9612f3e4946b",
+        "bytes": 15910
+      },
+      {
+        "external_packet_path": "counterevidence/source_manifest.json",
+        "sha256": "89009b1a3983a9837b15281f2882855fe7f35b2910605900fad62200a5239c2a",
+        "bytes": 7084
+      },
+      {
+        "external_packet_path": "root-newer-trials/qualification.md",
+        "sha256": "ada842435c5db006a353b2cf8e0c2bdb3ecd4d1d5ca7222e1bc0f8fa7ed03638",
+        "bytes": 5174
+      },
+      {
+        "external_packet_path": "root-newer-trials/qualification.json",
+        "sha256": "209f13e2d0a325f9d1b9408460b1ffa4b95723f86855d4e57a5a19ebbba48a43",
+        "bytes": 5195
+      },
+      {
+        "external_packet_path": "root-newer-trials/reading-scope.json",
+        "sha256": "28187e59ffbe8835ded9217466f037b1477a23b877427c56a88b7fdefe7add81",
+        "bytes": 506
+      },
+      {
+        "external_packet_path": "root-newer-trials/source-manifest.json",
+        "sha256": "759ad835450c6a048b4a2f6fbf36dfb41f3cdb9b03d48b32c06fbd0f05b78bdc",
+        "bytes": 6648
+      },
+      {
+        "external_packet_path": "independent-2022/independent-review.md",
+        "sha256": "3ca267513873522d5d0562dde6000d0f775153736363ba77e27c1d27afd2cf6a",
+        "bytes": 3848
+      },
+      {
+        "external_packet_path": "independent-2022/independent-review.json",
+        "sha256": "c27dc2a2ff270ef5a620ebcf732c27dff46533734289084be29f32600b18a72e",
+        "bytes": 8263
+      },
+      {
+        "external_packet_path": "independent-2022/source-bindings.json",
+        "sha256": "057307c8a800e7cb4c3dfeb2d6393b1248f9e07217f133077458ac7ed8dbf6d1",
+        "bytes": 11907
+      },
+      {
+        "external_packet_path": "independent-counter/independent-review.md",
+        "sha256": "44d51e402ee90444c24b2fb6d424f3a577a9fe0cfe2c96d3f5eaf0b1cb1535ce",
+        "bytes": 4839
+      },
+      {
+        "external_packet_path": "independent-counter/independent-review.json",
+        "sha256": "0acccb4620eb678338a25e9cb01cc2846ad596ad7aa285c721044a60cb2fe26b",
+        "bytes": 14782
+      },
+      {
+        "external_packet_path": "independent-newer/independent-review.md",
+        "sha256": "08a2bf6e28ddf442c2c1291a1502d346f1b2a756d2e78638160285527f8290ac",
+        "bytes": 6422
+      },
+      {
+        "external_packet_path": "independent-newer/independent-review.json",
+        "sha256": "19cd336d60114030597a0d0e067dbd650cadf7d76ff52a0edb65cffe904c9eac",
+        "bytes": 17752
+      }
+    ],
+    "old_qualification_external_reference": {
+      "external_archive": "food-primary-20260923",
+      "file": "astaxanthin-qualification.md",
+      "sha256": "26e4d040b3f54fe5e0284f7deecdd15649d107af81c3edbfc6ecc29df273a558"
+    },
+    "markdown_sha256": "173c8fc9d992cea9c5b4d71cda20bfca8737be58e0141751110433224645b59a",
+    "notice_policy": "No formal notice identified in the documented bounded source checks; this is not an exhaustive clearance. Per-study gaps and official snapshot scope are preserved.",
+    "reading_depth_policy": "Depth belongs to original packet reviewers plus stated independent checks; assembler synthesized their accepted outputs. Res extracted table text is not native graphical inspection; Barker hierarchy is author-stated, not prospectively verified.",
+    "integrating_review": {
+      "external_packet_path": "root-reading.json",
+      "sha256": "9ed7cf317f11a34a424874c15d9917bf7f7b8202abf1e55e65aadcf645cc2702",
+      "scope": {
+        "Nakanishi2022": "Qualification and structured synthesis plus independent-review conclusions; not a new root full-primary reading. Independent source reviewer read full main/native outcomes.",
+        "Liu2018_2021": "Root read complete 2018 Methods/Results and 2021 Methods/Results with primary XML tables, current registry dates, native 2018 Figure 3 and all five 2021 main figures; selected source checks, not root full paper/supplement reading.",
+        "Res_Bloomer_Barker": "Root read source qualification, structured synthesis and independent review; no additional root primary reading. Res author-manuscript extracted text is not native visual inspection; Bloomer abstract only; Barker nonrandomized.",
+        "Tsao_Zhang2025": "Root authored primary qualification after full scientific body/abstract/declaration reading, native selected cycling/all sport figures,registry/supplementcells; precise depths in root-newer-trials/reading-scope.json. Independent newer-source check corroborated claims."
+      }
+    },
+    "portable_changes": "Draft heading/status replaced with current root acceptance; the MD clarifies that nonsignificant results do not demonstrate equivalence. Scientific study records are unchanged from the reviewed, copyedited assembly."
+  }
+}

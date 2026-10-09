@@ -1,0 +1,435 @@
+{
+  "assessed_date": "2026-09-22",
+  "compound": {
+    "preferred_name": "unesbulin",
+    "study_name": "PTC596",
+    "aliases": [
+      "PTC596",
+      "PTC 596",
+      "PTC-596",
+      "unesbulin"
+    ],
+    "cas": "1610964-64-1",
+    "formula": "C19H13F5N6",
+    "molecular_weight": 420.34
+  },
+  "extra_abstract_credit": 0,
+  "repository_edited": false,
+  "sources": [
+    {
+      "pmcid": "PMC6477309",
+      "doi": "10.1093/neuonc/noz036.004",
+      "year": 2019,
+      "type": "Conference abstract",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6477309/",
+      "read_depth": "Complete abstract and metadata; no Methods, figures or supplement available in this publication."
+    },
+    {
+      "pmcid": "PMC7715494",
+      "doi": "10.1093/neuonc/noaa222.006",
+      "year": 2020,
+      "type": "Conference abstract",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7715494/",
+      "read_depth": "Complete abstract and metadata; no Methods, figures or supplement available in this publication."
+    },
+    {
+      "pmid": "34315764",
+      "pmcid": "PMC9398121",
+      "doi": "10.1158/1535-7163.MCT-20-0774",
+      "year": 2021,
+      "type": "Full primary mechanistic, preclinical and early-clinical article",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9398121/",
+      "read_depth": "Complete main Introduction, Methods, Results, Discussion and all six original figure images/legends. Supplementary Methods, Figures S1\u2013S7, Tables S1\u2013S4 and File S2 not obtained; raw data not reanalyzed."
+    },
+    {
+      "nct_id": "NCT05269355",
+      "type": "Official sponsor-posted registry results",
+      "url": "https://clinicaltrials.gov/study/NCT05269355",
+      "read_depth": "Design/status, participant flow, all posted outcome rows, aggregate AE groups and selected hematologic AE rows read; no complete protocol/SAP or separate full clinical paper."
+    }
+  ],
+  "atrt": {
+    "retained_positives": [
+      "Reduced orthotopic intracranial tumor growth by MRI",
+      "Longer mouse survival versus control",
+      "In vitro clonogenicity suppression and apoptosis"
+    ],
+    "effect_sizes_or_significance": "Qualitative authors claims of significance; no survival medians, exact P values or effect sizes supplied.",
+    "unresolved": [
+      "PTC596 dose",
+      "route",
+      "vehicle",
+      "schedule",
+      "treatment initiation",
+      "model cell-line identities",
+      "mouse strain/sex",
+      "group n",
+      "attrition",
+      "normal-cell drug controls",
+      "harms"
+    ],
+    "independence": "2019 and 2020 abstracts share investigators, a 408-gene screen and similar MRI/survival claims. Treat as one potentially overlapping program, not independent replication; exact overlap undisclosed.",
+    "full_paper_search": "No full primary ATRT PTC596 study identified in bounded web and PubMed searches. Absence from these results is not proof that none exists.",
+    "genetic_vs_drug": "BMI1 shRNA/depletion, PTC596 administration and doxycycline-induced SMARCB1 re-expression are separate interventions; do not infer selective drug mechanism from genetic dependency.",
+    "normal_cerebellum": "BMI1-expression comparator, not normal-cell drug-safety experiment."
+  },
+  "mechanism": {
+    "direct_target": "alpha-beta tubulin colchicine-binding site",
+    "direct_evidence": "2.05-Angstrom co-crystal structure, Figure 1/Methods of Jernigan2021.",
+    "competition": "Colchicine versus vinblastine competition reported in main Results; supplementary panel not read.",
+    "response_pattern": "Across 33 cancer/normal-fibroblast lines, stronger correlation with known tubulin agents and close analogs than BMI1-downregulating comparators; supportive, not proof alone.",
+    "bmi1_status": "Authors describe BMI1 reduction as secondary to tubulin-associated G2/M arrest/apoptosis and cite earlier work. Earlier cited mechanism paper not independently read here. Direct binding means PTC596 should not be treated as a validated selective BMI1-only probe.",
+    "no_exclusive_mechanism_claim": true
+  },
+  "cell_screen": {
+    "method": "72-hour CellTiter-Glo ATP/viability assay",
+    "cancer_lines": 239,
+    "responders": 208,
+    "response_threshold_CC50_micromolar": 1.2,
+    "normal_comparison": "Normal fibroblasts included in separate 33-line mechanism-comparison panel; exact normal-line CC50 and selectivity margin in unread Table S1.",
+    "missing": [
+      "exact dose grid",
+      "in vitro vehicle",
+      "replicate counts",
+      "study lot provenance"
+    ],
+    "normal_sparing_established": false
+  },
+  "animal_studies": [
+    {
+      "model": "HT1080 subcutaneous fibrosarcoma",
+      "mouse": "Athymic nude",
+      "n_per_group": 10,
+      "source": "Figure 3",
+      "PTC596_doses": "5 mg/kg oral daily; 10 mg/kg oral weekly, twice weekly or every other day",
+      "result": "Twice-weekly/every-other-day 10 mg/kg arms significantly delay time to tumor endpoint versus vehicle, P<0.001. Daily 5 mg/kg and weekly 10 mg/kg nonsignificant.",
+      "endpoint": "Time to 1,000 mm3 or death, not unqualified lifespan",
+      "vehicle_composition": "Not stated in accessible main Methods"
+    },
+    {
+      "model": "U-87 MG orthotopic glioblastoma",
+      "mouse": "Female athymic nude",
+      "n_per_group": 10,
+      "source": "Figure 5A",
+      "PTC596": "20 mg/kg orally on post-inoculation days 10,17,24",
+      "comparators": [
+        "vehicle",
+        "temozolomide 50 mg/kg orally daily on days 10\u201314"
+      ],
+      "median_survival_days": {
+        "PTC596": 20,
+        "vehicle": 15,
+        "temozolomide": 15
+      },
+      "logrank_P_PTC596_vs_vehicle": 0.0042,
+      "logrank_P_PTC596_vs_temozolomide": 0.0003,
+      "temozolomide_vs_vehicle": "Nonsignificant",
+      "not_ATRT": true
+    },
+    {
+      "model": "SK-UT-1 subcutaneous leiomyosarcoma",
+      "mouse": "Male athymic nude",
+      "n_per_group": 10,
+      "source": "Figure 4A/B",
+      "PTC596": "12.5 mg/kg orally twice weekly for six weeks",
+      "median_tumor_endpoint_days": {
+        "PTC596": 31.2,
+        "vehicle": 18.6
+      },
+      "P_vs_vehicle": 0.0306,
+      "combination": "Docetaxel 15 mg/kg IP weekly for six weeks plus PTC596; eight tumor-free animals at day 145 among eight remaining from ten initially assigned.",
+      "tumor_free_denominator_limit": "8/8 in figure is TFS/study-survivors, not 100% of initially assigned animals."
+    },
+    {
+      "model": "SK-LMS-1 subcutaneous leiomyosarcoma",
+      "mouse": "Male athymic nude",
+      "n_per_group": 8,
+      "source": "Figure 4C\u2013F",
+      "PTC596": "12.5 mg/kg orally twice weekly",
+      "median_tumor_endpoint_days": {
+        "PTC596": 23.0,
+        "vehicle": 17.7
+      },
+      "PTC596_monotherapy_vs_vehicle": "Nonsignificant in figure",
+      "combination": "Dacarbazine 21 mg/kg IP daily for five doses plus PTC596: reported endpoint statistic 165 days at study end; five tumor-free among seven remaining from eight initial mice. Do not infer that a Kaplan\u2013Meier median was reached.",
+      "not_every_comparison_significant": true
+    },
+    {
+      "model": "D-09\u20130500 MG patient-derived subcutaneous glioblastoma",
+      "n_per_group": 9,
+      "source": "Figure 5B",
+      "PTC596": "12 mg/kg orally twice weekly",
+      "temozolomide": "25 mg/kg daily on treatment days 3\u20137",
+      "median_tumor_endpoint_days": {
+        "vehicle": 10.6,
+        "PTC596": 37.8,
+        "temozolomide": 43.4,
+        "combination": 115.5
+      },
+      "combination_vs_PTC596": "Nonsignificant",
+      "combination_vs_temozolomide_P": 0.035,
+      "tumor_free_combination": "Three tumor-free animals at day 147 among three remaining from nine initially assigned."
+    },
+    {
+      "model": "U-87 MG subcutaneous glioblastoma",
+      "mouse": "Male athymic nude",
+      "n_per_group": 10,
+      "source": "Figure 5C\u2013F",
+      "PTC596": "12 mg/kg orally twice weekly",
+      "result": "Tumor-endpoint delays with monotherapy and selected sunitinib/paclitaxel/temozolomide combinations; does not prove all pairwise comparisons or formal synergy."
+    }
+  ],
+  "animal_quality_and_harms": {
+    "randomization": "Volume-balanced randomization stated for subcutaneous studies; randomized group assignment for orthotopic study.",
+    "blinding": "Not described",
+    "statistics": "Log-rank endpoint tests; legends say correction for multiple comparisons without naming method; mean\u00b1SEM curves.",
+    "censoring": "Curves truncated when at least 50% reach endpoint. Removal for endpoint volume, death/moribundity or at least 20% body-weight loss.",
+    "limitations": "Supplementary weight data inaccessible. No comprehensive normal-cell safety or developmental/muscle safety conclusion; tumor-free survivors are not whole-cohort cure rates.",
+    "normal_muscle_or_chromosome_rescue_tested": false
+  },
+  "phase1_paper": {
+    "n": 31,
+    "population": "Adults with advanced solid tumors, open label",
+    "dose": "0.65\u201310 mg/kg orally twice weekly; eight doses per four-week cycle",
+    "positive": "Seven of 31 had the composite of mixed/partial response or stable disease.",
+    "limit": "Not objective response rate or randomized clinical benefit. Mouse-to-human exposure extrapolation is not proof of efficacy. Figure6 includes AE/SAE discontinuations; complete safety study not read."
+  },
+  "randomized_lms_registry": {
+    "nct_id": "NCT05269355",
+    "source_status": "Sponsor-posted ClinicalTrials.gov results, not independently read full clinical paper",
+    "results_posted": "2025-06-13",
+    "design": "Randomized 2:1, triple-masked, phase 2/3",
+    "disease": "Advanced leiomyosarcoma",
+    "status": "TERMINATED",
+    "why_stopped": "Business decision",
+    "regimens": {
+      "active": "Unesbulin 300 mg orally twice weekly plus dacarbazine 1,000 mg/m2 IV every 21 days",
+      "control": "Matching placebo plus the same dacarbazine regimen"
+    },
+    "randomized_n": {
+      "active": 239,
+      "control": 120
+    },
+    "safety_n": {
+      "active": 238,
+      "control": 120
+    },
+    "primary_mITT_n": {
+      "active": 209,
+      "control": 105
+    },
+    "mITT_definition": "One to three prior treatment lines",
+    "PFS_months": {
+      "active": 3.6,
+      "active_95CI": [
+        2.8,
+        5.5
+      ],
+      "control": 2.6,
+      "control_95CI": [
+        1.5,
+        3.0
+      ]
+    },
+    "PFS_HR": 0.61,
+    "PFS_HR_95CI": [
+      0.45,
+      0.83
+    ],
+    "PFS_P": 0.0017,
+    "PFS_analysis": "Independent central RECIST review; Cox regression",
+    "OS": "Neither median estimable due to limited events; no superiority inference and no comparison statistic in inspected row.",
+    "TEAE_num": {
+      "active": 236,
+      "control": 112
+    },
+    "SAE_num": {
+      "active": 81,
+      "control": 43
+    },
+    "serious_febrile_neutropenia_num": {
+      "active": 8,
+      "control": 0
+    },
+    "AE_denominator_note": "Use safety n=238/120, not mITT n=209/105. Events regardless of causality; overlapping categories not summed and raw proportions not a tested risk difference.",
+    "interpretation": "Retain randomized incremental combination PFS benefit in stated LMS population. Do not attribute monotherapy, OS, ATRT, RMS, MVA or muscle-restoration efficacy. Trial termination alone does not negate posted benefit.",
+    "read_limit": "No complete protocol/SAP or full independent clinical paper; abbreviated follow-up and endpoint populations must remain explicit."
+  },
+  "current_trial_records": [
+    {
+      "nct_id": "NCT02404480",
+      "title": "PTC596 in Patients With Advanced Solid Tumors",
+      "status": "COMPLETED",
+      "why_stopped": null,
+      "enrollment": {
+        "count": 31,
+        "type": "ACTUAL"
+      },
+      "last_update_posted": {
+        "date": "2017-12-08",
+        "type": "ACTUAL"
+      },
+      "has_posted_results": false,
+      "url": "https://clinicaltrials.gov/study/NCT02404480"
+    },
+    {
+      "nct_id": "NCT03605550",
+      "title": "A Phase 1b Study of PTC596 in Children With Newly Diagnosed Diffuse Intrinsic Pontine Glioma and High Grade Glioma",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "why_stopped": null,
+      "enrollment": {
+        "count": 64,
+        "type": "ESTIMATED"
+      },
+      "last_update_posted": {
+        "date": "2026-03-27",
+        "type": "ACTUAL"
+      },
+      "has_posted_results": false,
+      "url": "https://clinicaltrials.gov/study/NCT03605550"
+    },
+    {
+      "nct_id": "NCT05269355",
+      "title": "A Study of Unesbulin in Participants With Advanced Leiomyosarcoma (LMS)",
+      "status": "TERMINATED",
+      "why_stopped": "Business decision",
+      "enrollment": {
+        "count": 359,
+        "type": "ACTUAL"
+      },
+      "last_update_posted": {
+        "date": "2025-06-13",
+        "type": "ACTUAL"
+      },
+      "has_posted_results": true,
+      "url": "https://clinicaltrials.gov/study/NCT05269355"
+    },
+    {
+      "nct_id": "NCT03206645",
+      "title": "Unesbulin in Women With Ovarian Cancer Receiving Neoadjuvant Chemotherapy",
+      "status": "COMPLETED",
+      "why_stopped": null,
+      "enrollment": {
+        "count": 27,
+        "type": "ACTUAL"
+      },
+      "last_update_posted": {
+        "date": "2024-04-23",
+        "type": "ACTUAL"
+      },
+      "has_posted_results": false,
+      "url": "https://clinicaltrials.gov/study/NCT03206645"
+    },
+    {
+      "nct_id": "NCT03761095",
+      "title": "A Study of Unesbulin (PTC596) in Combination With Dacarbazine in Participants With Advanced Leiomyosarcoma (LMS)",
+      "status": "COMPLETED",
+      "why_stopped": null,
+      "enrollment": {
+        "count": 41,
+        "type": "ACTUAL"
+      },
+      "last_update_posted": {
+        "date": "2024-03-15",
+        "type": "ACTUAL"
+      },
+      "has_posted_results": false,
+      "url": "https://clinicaltrials.gov/study/NCT03761095"
+    }
+  ],
+  "supply": {
+    "primary_manufacturer": "MedChemExpress",
+    "catalog": "HY-112041",
+    "url": "https://www.medchemexpress.com/us/en/ptc596.html",
+    "identity": "Unesbulin/PTC596, CAS 1610964-64-1, C19H13F5N6, MW 420.34",
+    "scope": "Research listing only; no purchase or clinical-access/approval inference. Vendor BMI1 labeling is not definitive mechanism evidence and vendor trial references were not used."
+  },
+  "bub1b": {
+    "measured": false,
+    "scope": "No BUB1B/BUBR1 assay described in either conference abstract or full Jernigan paper.",
+    "no_supported_claims": [
+      "BUBR1 abundance restoration",
+      "BUBR1 stabilization",
+      "checkpoint restoration",
+      "chromosome-fidelity rescue",
+      "Leu737Ter/Asn1002Lys rescue",
+      "muscle function or renewal"
+    ]
+  },
+  "fair_comparison": "Anticancer benefit is preserved despite lack of MVA evidence. Niacin/apitegromab are also MVA-unproved. Different tumor/muscle outcomes cannot supply numerical MVA efficacy or justify replacing nominees; LMS is not case-recorded rhabdomyosarcoma.",
+  "proposed_decision_id": "new-unesbulin",
+  "source_hashes": {
+    "conference-2019.html": "b21687891882b6d6b28e1539a65503ec2a279c300e2d3ca8c6bc07c86c738ea6",
+    "conference-2020.html": "54601251e7342ef7c768c47b42bcc725f4eb5780f33aa3b792dea1cd5f12330a",
+    "PMC9398121.xml": "cb3607b4bf43beed246af45aacb8e6d57483f18c46a20db24e162d12962777ba",
+    "trials.json": "d21c61d8e764b7af293f254f124c956b3d2f48beb53892f129af195e0a5f05e8",
+    "NCT05269355.json": "13d0d5aaa2e7985df1893a4e501a8d8732bb05c37f4fbc0cdc95447342ec606b",
+    "manufacturer-web-snapshot.json": "4f665928e40106978263a8fb75bef612dfc60e3cb3042d3185b6454753602157"
+  },
+  "independent_appraisal_check": {
+    "report": {
+      "date": "2026-09-22",
+      "reader": "/root",
+      "scope": "Bounded independent source check, not complete reread of all primary studies or clinical registry",
+      "result": "PASS; no substantive amendment",
+      "checks": [
+        {
+          "claim": "Randomized LMS PFS combination positive",
+          "finding": "Triple-masked randomization239/120, safety238/120, primary modifiedITT209/105 retained distinctly. Median3.6/2.6months; HR0.61 CI0.45-0.83 P.0017; this adds unesbulin to DTIC and does not establish monotherapy or OS."
+        },
+        {
+          "claim": "Termination and OS",
+          "finding": "Official reasonBusiness decision; both OSmediansunestimable, noOSanalysisstatisticposted inrow. Cannotlabelthistrialan efficacyfailure."
+        },
+        {
+          "claim": "Safety",
+          "finding": "TEAE236/238 vs112/120; SAE81/238 vs43/120; seriousfebrileneutropenia8/238 vs0/120; irrespectiveofcausality, overlappingcategoriesnotadditive."
+        },
+        {
+          "claim": "Directmechanism",
+          "finding": "CrystallographyMethods2.05A andFigure1D/E originalimage/legend support colchicine-site tubulinbinding; notvalidatedselectiveBMI1-onlymechanism."
+        },
+        {
+          "claim": "OrthotopicGBMsurvival",
+          "finding": "Methods/Results andFigure5Aoriginalimage/legend: n10/group,20mg/kg days10/17/24,median20vs15days,P.0042vsvehicle; comparatorP.0003. Figuretablegenericvolume-endpointlabeldoesnoteraseexplicitorthotopicsurvivaldesign."
+        },
+        {
+          "claim": "Combinationstatisticsanddenominator",
+          "finding": "Figure5Boriginalimageindicatesnonsignificantcombo-vsPTC596 andP.0350vsTMZ;3/3remainingTFSisnot3/3originalenrollment."
+        }
+      ],
+      "not_checked": [
+        "ATRTconferenceoriginalsources",
+        "allotherprimaryResultsandfigures",
+        "fulltrialprotocol/SAP",
+        "alladverseeventrows",
+        "manufactureridentity",
+        "allcurrenttrialstates",
+        "unavailableprimarysupplement",
+        "normalfibroblastselectivity"
+      ],
+      "extra_abstract_credit": 0,
+      "full_paper_reread_credit": 0,
+      "text_chunks": [
+        "680ea6",
+        "905afa",
+        "bc3a23"
+      ],
+      "visual_files": [
+        "1846fig1.jpg",
+        "1846fig5.jpg"
+      ],
+      "input_hashes": {
+        "appraisal.md": "ffe105cc4a41571eb0f38b5cb8f473494a8f668b82a1695811c5f82c0180198a",
+        "evidence.json": "b44608e53553be8871f632cb57f73ae28c4b90b082fad85e0a554d6b470aa620",
+        "NCT05269355.json": "13d0d5aaa2e7985df1893a4e501a8d8732bb05c37f4fbc0cdc95447342ec606b",
+        "PMC9398121.xml": "cb3607b4bf43beed246af45aacb8e6d57483f18c46a20db24e162d12962777ba",
+        "1846fig1.jpg": "4c6c939b52a3024f3177e402dc08753df80a91d10b39d1cc3e6bc423f184c3a7",
+        "1846fig5.jpg": "1e05f84b734ad4a0f39700185803e237f5f2c1449fc13aa85a7cac312d9c94ad"
+      }
+    },
+    "external_file": "independent-check.json",
+    "sha256": "d6df3bfc885d89d63099ed2312e871a6d311ef69ffe22594bdf84dabd3d34162"
+  },
+  "integration_status": "Integrated original assessment; raw source material remains outside Git; no extra abstract credit."
+}

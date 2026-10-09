@@ -1,0 +1,85 @@
+{
+  "source_names_screened": 7540,
+  "independent_match_verification": "All title/abstract fields checked by a separate first-token candidate matcher; exact match and span equality passed",
+  "normalized_names_screened": 7448,
+  "corpus_records_scanned": 7362,
+  "records_with_abstracts": 7191,
+  "records_with_direct_gene_literal": 1460,
+  "normalization_differs_from_old_html_order_records": 313,
+  "matched_source_names": 544,
+  "unmatched_source_names": 6996,
+  "lexical_mention_rows": 2148,
+  "ambiguity_policy_counts": {
+    "AMBIGUOUS_PREFERRED_NAME_MANUAL_REVIEW": 1375,
+    "SPECIFIC_PREFERRED_NAME_DISCOVERY_ONLY": 6165
+  },
+  "no_catalog_match_source_names": 2713,
+  "no_catalog_match_names_with_mentions": 127,
+  "no_catalog_match_names_with_direct_gene_mentions": 39,
+  "no_catalog_match_specific_names_with_direct_gene_mentions": 17,
+  "identity_flag_counts": {
+    "no_current_catalog_name_or_full_key_candidate_not_proof_of_novelty": 2713,
+    "repeated_broad_sample_id_annotation_rows": 3162,
+    "catalog_identity_unresolved": 1283,
+    "full_key_also_occurs_under_other_source_names": 112,
+    "source_includes_structure_row_without_broad_sample_id": 109,
+    "multiple_source_sample_full_keys": 148,
+    "no_source_sample_annotation_rows": 18
+  },
+  "audited_distinct_sample_names": 7522,
+  "source_annotation_rows": 22612,
+  "distinct_nonblank_broad_ids": 15673,
+  "sample_rows_without_broad_id": 109,
+  "scope": "All 7540 preferred source names; no alias expansion, fuzzy matching, full texts, primary followups, or network.",
+  "limits": "Mentions are lexical discovery only. NO_MATCH is an unresolved catalog cross-reference, not a new unique medicine. No text-match absence establishes inefficacy. Phase labels are dated source annotations, not verified present approval.",
+  "inputs": {
+    "drug_source": {
+      "file": "repo-drug-annotation-20250818.txt",
+      "sha256": "5f8284538e73c19a316d1cf45ea10300de6e15c555d75ced7c1b7387457fc523"
+    },
+    "sample_source": {
+      "file": "repo-sample-annotation-20250818.txt",
+      "sha256": "06eb19ad48f0e3301dbead3e184c14fd37b31c220151d5cd87fa487483db73fd"
+    },
+    "screen_script": {
+      "file": "broad_hub_screen.py",
+      "sha256": "e68a4be2aace30846e9b5ae27a66463336d2671a5701246ad25323ff3d8b4dac"
+    },
+    "catalog": {
+      "file": "catalog.tsv",
+      "sha256": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299"
+    },
+    "aliases": {
+      "file": "aliases.tsv",
+      "sha256": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3"
+    },
+    "supplement": {
+      "file": "drugcentral-status-unverified.tsv",
+      "sha256": "10e227cf35b49bf07e7d28f86afee12e0ebd88335a4090275b21339396db372f"
+    },
+    "literature_match_script": {
+      "file": "literature_match.py",
+      "sha256": "17ecf93a27d3a30a0e4179c0506f11327fbd0814464d4ad44d3e3c3e6789a0ad"
+    },
+    "corpus": {
+      "file": "literature-gene-unrestricted.json",
+      "sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9"
+    },
+    "title_abstract_corpus": {
+      "file": "literature-gene-title-abstract.json",
+      "sha256": "1df717bce779851e8f8f02654cc476de320cf368ad3cbc10dad1499b5a809e90"
+    }
+  },
+  "source_metadata": {
+    "official_hub_url": "https://repo-hub.broadinstitute.org/repurposing",
+    "source_banner_url": "http://www.broadinstitute.org/repurposing",
+    "drug_annotation_url": "https://repo-hub.broadinstitute.org/public/data/repo-drug-annotation-20250818.txt",
+    "sample_annotation_url": "https://repo-hub.broadinstitute.org/public/data/repo-sample-annotation-20250818.txt",
+    "source_file_date": "8/18/2025",
+    "raw_txt_license_notice": "The Drug Repurposing Hub data is provided for non-commercial use only.",
+    "portal_metadata_license": "CC-BY 4.0 (current portal, root verified 2026-09-21)",
+    "portal_use_restrictions": "Research use; not for clinical treatment decisions or commercial marketing.",
+    "license_notice_note": "Retain the dated raw-TXT and current-portal notices separately; do not silently substitute one for the other. This is a research discovery artifact.",
+    "citation_doi": "10.1038/nm.4306"
+  }
+}

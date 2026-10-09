@@ -1,0 +1,460 @@
+{
+  "title": "Caffeine culture: selected human-embryo ploidy and development reserve",
+  "date_local": "2026-09-23",
+  "source_review_ledger_check": {
+    "repo_head": "fb8b26a6dfebe8ba89d2c914e31d8f7cb2380990",
+    "ledger_count": 228,
+    "ledger_sha256": "a074b274a960ae53641022c80f7349d14631deac92f4e79e2dc010b35bbd9110",
+    "matching_assessment_aliases": [],
+    "existing_rationale_mentions": [
+      {
+        "decision_id": "new-5c-liver",
+        "route": "Five-compound liver program / mixture-only appraisal",
+        "rationale": "5C is forskolin+salidroside+CID755673+GSK429286A+ETC-1002 (bempedoic acid). It improves traced hepatocyte expansion and liver function after mouse injury; caffeine-clearance n 3/group. Human hepatocytes received 3C and BUB1B is a transcript association. Alias joins identify ingredients only: neither complete cocktail benefit nor muscle/fidelity rescue can be assigned to any single component. Chromosome fidelity and long-term tumor outcomes unresolved."
+      }
+    ],
+    "exact_alias": "caffeine",
+    "catalog_ids": [
+      "CHEMBL113"
+    ],
+    "NIH_exact_normalized_alias": {
+      "normalized_alias": "caffeine",
+      "group_ids": "[\"367\"]",
+      "group_count": "1",
+      "source_cell_count": "2",
+      "ambiguity_flags": "[]",
+      "literature_source_record_count": "7",
+      "literal_occurrences": "24"
+    },
+    "exact_source_id_search": {
+      "terms": [
+        "deaf097.447",
+        "41695143",
+        "rmb2.70029"
+      ],
+      "matching_lines": []
+    },
+    "inputs": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json",
+        "sha256": "a074b274a960ae53641022c80f7349d14631deac92f4e79e2dc010b35bbd9110"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/catalog.tsv",
+        "sha256": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/aliases.tsv",
+        "sha256": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/dsld-ingredients/groups.tsv",
+        "sha256": "1d4803de9a0f5c59320d2a4eeeb83e1ff5530e33cea882a1bf8d833db1fba798"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/dsld-ingredients/normalized-aliases.tsv",
+        "sha256": "1c73e968134b907167ca212586630dd5e68d8a054eb069d2c27401accbde50c7"
+      }
+    ],
+    "limits": "Exact name relations only. CHEMBL113 catalog group merges source identities including CHEMBL1200569; no salt, retail/medicinal product, route or caffeine-citrate equivalence inferred. Existing liver-program mention is a caffeine-clearance assay, not treatment efficacy."
+  },
+  "cohort_relationship": {
+    "status": "UNRESOLVED_POSSIBLE_OVERLAP_NOT_VERIFIED_VERSION_OR_INDEPENDENT_REPLICATION",
+    "supporting_similarity": [
+      "Same CHA center",
+      "Overlapping investigators",
+      "1.25 mM caffeine for four hours before wash/ICSI"
+    ],
+    "material_differences": [
+      "Conference 783 patients over40, Jun2022–Dec2024",
+      "Full report 704 patients at least35, Jun2023–Feb2024",
+      "Different oocyte/PGT-A/spindle denominators and outcome rates"
+    ],
+    "explicit_link_found": false,
+    "combined_patient_count": null,
+    "independent_replication_count": null
+  },
+  "sources": [
+    {
+      "source_key": "DOI:10.1093/humrep/deaf097.447",
+      "title": "P-138 Effects of caffeine supplementation prior to fertilization on oocyte quality and euploidy rates in aged women",
+      "doi": "10.1093/humrep/deaf097.447",
+      "pmid": null,
+      "url": "https://academic.oup.com/humrep/article/40/Supplement_1/deaf097.447/8171253",
+      "depth": "Complete original conference abstract and publisher/Crossref metadata; no complete scientific main or exact protocol",
+      "publisher_online_date": "2025-06-23",
+      "study_type": "Retrospective same-patient previous-cycle comparison; not randomized",
+      "population": {
+        "patients": 783,
+        "eligibility_age": ">40 years",
+        "period": "June2022–December2024",
+        "retrieved_oocytes_caffeine": 5161,
+        "retrieved_oocytes_previous": 5313,
+        "retrieved_total": 10474,
+        "spindle_patients": 205,
+        "number_of_cycles_per_group": null,
+        "PGTA_patients": null,
+        "PGTA_blastocyst_counts": null
+      },
+      "intervention": {
+        "compound": "caffeine",
+        "concentration_mM": 1.25,
+        "culture_hours": 4,
+        "timing": "After oocyte retrieval and before wash/ICSI",
+        "route": "In vitro oocyte culture; not administered to patients",
+        "supplier_catalog_purity": null
+      },
+      "outcomes": [
+        {
+          "endpoint": "Euploidy rate",
+          "caffeine_percent": 23.5,
+          "previous_percent": 15.6,
+          "p": 0.02,
+          "denominator": "Not supplied; do not use total retrieved oocytes"
+        },
+        {
+          "endpoint": "Mosaicism rate",
+          "caffeine_percent": 18.6,
+          "previous_percent": 29.4,
+          "p": 0.0048,
+          "denominator": "Not supplied"
+        },
+        {
+          "endpoint": "Normal spindle location <30 degrees",
+          "caffeine_percent": 79.2,
+          "previous_percent": 58.6,
+          "p": "<.0001",
+          "denominator": "Oocyte count not supplied; subset205patients"
+        },
+        {
+          "endpoint": "Fertilization",
+          "caffeine_percent": 77.5,
+          "previous_percent": 71.8,
+          "p": "<.0001"
+        },
+        {
+          "endpoint": "Day3 top-quality cleavage",
+          "caffeine_percent": 64.0,
+          "previous_percent": 57.7,
+          "p": "<.0001"
+        },
+        {
+          "endpoint": "Blastocyst utilization",
+          "caffeine_percent": 39.5,
+          "previous_percent": 32.8,
+          "p": "<.0001"
+        },
+        {
+          "endpoint": "Top-quality blastocysts",
+          "caffeine_percent": 40.4,
+          "previous_percent": 30.2,
+          "p": "<.0001",
+          "difference_unit": "10.2 percentage points, not10.2% relative"
+        }
+      ],
+      "analysis_and_endpoint_limits": [
+        "Cycle/embryo denominators, clustering/paired model, selection/losses, exact PGT-A platform and calling thresholds unreported",
+        "No confidence intervals, family-wide multiplicity or prospective outcome hierarchy",
+        "No clinical transfer/birth/miscarriage/harm data",
+        "Trial registration reported No; no exact separate protocol found in bounded search",
+        "Myt1/Wee1/MPF rationale is background; no measured BUBR1 or causal molecular mediator"
+      ]
+    },
+    {
+      "source_key": "MED:41695143",
+      "pmid": "41695143",
+      "pmcid": "PMC12903026",
+      "doi": "10.1002/rmb2.70029",
+      "title": "Caffeine Supplementation Enhances Aged Human Oocyte Quality and Embryo Development in In Vitro Fertilization: A Retrospective Paired Study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12903026/",
+      "online_date": "2026-02-13",
+      "depth": "Complete scientific main, six structured tables, both native figures and full single-table DOCX supplement",
+      "main_file": "related-main.xml",
+      "main_sha256": "161bdbbe268b4cc9a0527d95aee2be5b1120a5ba94ed46107cd3b5d4ca825a22",
+      "population": {
+        "patients": 704,
+        "eligibility_age": ">=35 years",
+        "period": "June2023–February2024",
+        "paired_cycles": "Two ICSI cycles within12months; caffeine always later",
+        "retrieved_oocytes": [
+          4816,
+          4950
+        ],
+        "MII_oocytes": [
+          3601,
+          3508
+        ],
+        "spindle_patients": 173,
+        "spindle_MII_oocytes": [
+          735,
+          690
+        ],
+        "PGTA_patients": 97,
+        "biopsied_blastocysts": [
+          215,
+          242
+        ]
+      },
+      "intervention": {
+        "compound": "caffeine",
+        "supplier": "Sigma-Aldrich",
+        "catalog": "C8960",
+        "medium": "SAGE Quinn's Advantage Fertilization Medium",
+        "concentration_mM": 1.25,
+        "duration_hours": 4,
+        "cumulus_removal_hours": 2,
+        "wash": "Several washes beforeICSI; residual caffeine not measured",
+        "route": "In vitro; no oral/systemic-equivalence claim"
+      },
+      "selection": [
+        "Abnormal retrieval, fertilization or embryo development byday2 excluded",
+        "Biopsy of selected expanded day5/6 blastocysts with Gardner score>=3BC and defined morphology",
+        "Unreported decision criteria for97-patient PGT-A subset"
+      ],
+      "PGTA": {
+        "assay": "Trophectoderm biopsy, outsourced NGS to CHA Biotech",
+        "mosaic_thresholds": null,
+        "detailed_pipeline": null,
+        "segmental_and_inconclusive_handling": null,
+        "whole_embryo_normality_or_faithful_lineage_output_demonstrated": false
+      },
+      "statistics": {
+        "paired_tests": [
+          "Wilcoxon signed-rank",
+          "McNemar"
+        ],
+        "dispersion": "Mean±SEM unless otherwise specified",
+        "multiplicity_adjustment_described": false,
+        "CI_available": false,
+        "limits": [
+          "Exact embryo-level-to-patient analysis mapping and zero-denominator handling incomplete",
+          "Paired design does not remove time/order/regression-to-mean or post-exposure selection effects",
+          "Do not multiply mean rates by aggregate counts to reconstruct euploid embryo numbers"
+        ]
+      },
+      "outcomes": [
+        {
+          "endpoint": "Euploid rate",
+          "caffeine_mean_SEM": [
+            22.9,
+            3.55
+          ],
+          "control_mean_SEM": [
+            10.9,
+            2.1
+          ],
+          "unit": "percent",
+          "p": 0.002,
+          "absolute_euploid_counts": null
+        },
+        {
+          "endpoint": "Mosaic rate",
+          "caffeine_mean_SEM": [
+            15.4,
+            2.83
+          ],
+          "control_mean_SEM": [
+            21.4,
+            3.23
+          ],
+          "unit": "percent",
+          "p": 0.215,
+          "significance": "nonsignificant"
+        },
+        {
+          "endpoint": "Fertilization",
+          "means_percent": [
+            81.4,
+            80.8
+          ],
+          "p": 0.628
+        },
+        {
+          "endpoint": "High-quality cleavage",
+          "means_percent": [
+            63.2,
+            53.6
+          ],
+          "p": "<.001"
+        },
+        {
+          "endpoint": "Blastocyst utilization",
+          "means_percent": [
+            19.6,
+            17.2
+          ],
+          "p": 0.023
+        },
+        {
+          "endpoint": "High-quality blastocysts",
+          "means_percent": [
+            39.2,
+            26.1
+          ],
+          "p": "<.001"
+        },
+        {
+          "endpoint": "Normal spindle location",
+          "means_percent": [
+            80.2,
+            61.2
+          ],
+          "p": "<.001"
+        }
+      ],
+      "clinical_followup": {
+        "comparison": "Caffeine only; no comparable untreated birth cohort",
+        "total_caffeine_cycles": 704,
+        "ET_attempted": 344,
+        "ET_not_performed": 360,
+        "no_ET_reasons": {
+          "total_embryo_cryopreservation_failure": 167,
+          "all_abnormal_or_mosaic_PGTA": 70,
+          "unused_other_reasons": 123
+        },
+        "mixed_ET_excluded": 119,
+        "analyzed_ET_cycles": 225,
+        "embryos_transferred": 447,
+        "clinical_pregnancies": 88,
+        "pregnancy_losses": 20,
+        "ectopic_pregnancy": 1,
+        "neonatal_data_women": 20,
+        "liveborn_neonates": 24,
+        "flow_exclusions_from88": {
+          "spontaneous_abortion": 20,
+          "other_clinic": 33,
+          "records_unavailable": 5,
+          "ongoing": 10
+        },
+        "observed_harms": {
+          "birthweight_under2500g_neonates": 5,
+          "NICU_neonates": 3,
+          "32_to36week_pregnancies": 4,
+          "twin_pregnancies": 4,
+          "neonatal_death": 0,
+          "birth_defect": 0
+        },
+        "scope": "Selected incomplete follow-up; no comparative birth or safety inference; do not use24/704or24/225as ascertained treatment birth rates"
+      },
+      "source_issues": [
+        "Table6 labels Apgar perneonate but prints2(10%);2of24 is8.3%, unresolved denominator inconsistency",
+        "Table4 paragraph and table swap SEMs for biopsies/person; these SEMs not used in qualification outcomes",
+        "Discussion says pilot total blastulation benefit; S1 reports nonsignificant blastocyst utilization and no separately labelled total-blastulation row",
+        "No explicit statement links this population toP-138; do not merge outcomes or call independent replication"
+      ],
+      "sibling_oocyte_supplement": {
+        "file": "related-assets/RMB2-25-e70029-s001.docx",
+        "patients": 30,
+        "MII_oocytes": [
+          206,
+          202
+        ],
+        "outcomes": [
+          {
+            "endpoint": "High-quality cleavage",
+            "means_percent": [
+              36.7,
+              25.2
+            ],
+            "p": 0.04
+          },
+          {
+            "endpoint": "High-quality blastocysts",
+            "means_percent": [
+              14.5,
+              4.6
+            ],
+            "p": 0.034
+          },
+          {
+            "endpoint": "Fertilization",
+            "means_percent": [
+              70.9,
+              73.0
+            ],
+            "p": 0.757
+          },
+          {
+            "endpoint": "Blastocyst utilization",
+            "means_percent": [
+              27.6,
+              26.9
+            ],
+            "p": 0.786
+          }
+        ],
+        "PGTA_or_birth_endpoints": false,
+        "allocation_randomization_masking": null,
+        "cohort_overlap": null,
+        "independent_replication": false
+      },
+      "molecular_limit": "No direct molecular assessments of human oocytes; no demonstrated MPF/Wee1/BUBR1 response or restoration."
+    }
+  ],
+  "recommended_disposition": {
+    "decision_id": "new-caffeine-oocyte-fidelity",
+    "decision": "retain bounded human-cell ploidy/development reserve; causal fidelity, absolute productive yield and MVA efficacy unknown",
+    "scientific_usefulness": "Direct selected human embryo chromosome-status endpoint merits bounded fidelity/development comparison, beyond a generic gene association.",
+    "absolute_productive_yield": "UNKNOWN",
+    "causal_chromosome_fidelity": "UNKNOWN",
+    "BUB1B_MVA_efficacy": "UNKNOWN_NOT_DEMONSTRATED",
+    "comparative_priority": "Neither nominee has MVA efficacy established. This comparator is limited by selection/design/endpoint transfer, not a selective MVA-proof requirement. No muscle benefit, restoration lead or systemic treatment ranking established.",
+    "clinical_recommendation": false
+  },
+  "retrieval_manifest": {
+    "file": "retrieval-manifest.json",
+    "sha256": "172abaeddeda372157e337a177267bb6ec9bfa47d955786c0af3f9e8260949c7"
+  },
+  "search_manifest": {
+    "file": "search-manifest.json",
+    "sha256": "d19429c1a26ab18277e9c6c641d956a251044e422b1de1b818191d00467d8d41"
+  },
+  "outer_reading_credit": 0,
+  "new_study_credit": 0,
+  "reviewer_performed_biological_replication": false,
+  "optional_join_check": {
+    "file": "optional-join-check/decision-alias-joins.tsv",
+    "sha256": "f4b6ac3695c949e66346c743135fc792c7df9c2eef95f9d31fe2df5fd75692d0",
+    "scope": "External current join function, complete alias index, exact caffeine only; catalog output restricted toCHEMBL113. This229-object external fixture is not repository admission."
+  },
+  "source_reviewer_status": "External scientific qualification; optional appraisal pending coordinating-reviewer admission",
+  "source_reviewer_repo_edited": false,
+  "source_reviewer_qualification_md": "qualification.md",
+  "source_reviewer_qualification_md_sha256": "2bb1ba394f3d7fb6c0f3db327526446891c19f6d3240640932ae4c7a4f1a8070",
+  "source_reviewer_reading_manifest": {
+    "file": "reading-manifest.json",
+    "sha256": "6df22c4c75176b866829c7074f022f6b516267572c4e2ca74dc5df6b39a448a1"
+  },
+  "status": "INTEGRATED_WITH_EXACT_INTERVENTION_AND_SOURCE_DEPTH_LIMITS",
+  "qualification_md": "caffeine-fidelity-qualification.md",
+  "qualification_md_sha256": "16ab16a4d57ef45fa354f5fadc5f39241067f0ec438a2f998cfc0a532970f0d0",
+  "reading_manifest": {
+    "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/caffeine-fidelity-primary-followup-20260923/reading-manifest.json",
+    "sha256": "6df22c4c75176b866829c7074f022f6b516267572c4e2ca74dc5df6b39a448a1",
+    "scope": "Source-reviewer reading and source assets, retained outside Git; root and independent scopes are separately attributed."
+  },
+  "integration": {
+    "baseline": "fb8b26a6dfebe8ba89d2c914e31d8f7cb2380990",
+    "baseline_assessments": 228,
+    "current_assessments": 230,
+    "prior_decision_objects_unchanged": 228,
+    "new_decision_ids": [
+      "new-caffeine-oocyte-fidelity"
+    ],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/caffeine-fidelity-primary-followup-20260923/qualification.json",
+      "sha256": "2fd73b755c1c2f2aa345633b193de3139ef0f7dcd72b4a6d77cda8ef2068f7d7"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/glynac-caffeine-integration-20260923/root-reading.json",
+      "sha256": "214556dd72d9f935a43b8a75e6c0d543355130faed63e865ca283fa6fd4ce099"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/caffeine-compound-integration-20260923/independent-caffeine/independent-check.md",
+      "sha256": "bd189f59309237ec6d0d78a5144997fcfec9aa9005835e649b80d0960475f913"
+    },
+    "new_original_queue_credit": 0,
+    "independent_study_count_increment": 0,
+    "MVA_efficacy_or_nominee_superiority_established": false
+  }
+}

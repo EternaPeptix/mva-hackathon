@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-27T11:29:20.286157+00:00",
+  "status": "FULL_MAIN_TEXT_QUALIFIED_NATIVE_PIXELS_UNVERIFIED",
+  "citation": {
+    "title": "Effects of Differing Dosages of Pomegranate Juice Supplementation after Eccentric Exercise",
+    "authors": [
+      "Daniel R. Machin",
+      "Kevin M. Christmas",
+      "Ting-Heng Chou",
+      "Sarah C. Hill",
+      "Douglas W. Van Pelt",
+      "Justin R. Trombold",
+      "Edward F. Coyle"
+    ],
+    "doi": "10.1155/2014/271959",
+    "journal": "Physiology Journal",
+    "year": 2014,
+    "article_id": "271959",
+    "received": "2014-07-24",
+    "accepted": "2014-09-16",
+    "published": "2014-09-29",
+    "pages": 7,
+    "publisher_main": "https://onlinelibrary.wiley.com/doi/10.1155/2014/271959",
+    "publisher_pdf": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2014/271959"
+  },
+  "design": {
+    "reported": "Randomized double-blind placebo-controlled parallel groups, one eight-day period",
+    "recruited": 45,
+    "population": "Healthy nonsmoking nonresistance-trained recreationally active men",
+    "age_mean_SD_years": [
+      22.3,
+      4.1
+    ],
+    "arm_counts": null,
+    "arm_count_caution": "Do not infer 15 per arm",
+    "randomization_method": null,
+    "allocation_concealment": null,
+    "masking_success": null,
+    "familiarization_days": 3,
+    "baseline": "Day4 after supplementation begun, before eccentric exercise",
+    "postexercise_hours": [
+      2,
+      24,
+      48,
+      72,
+      96
+    ],
+    "strength_and_soreness_caption_total_n": 45,
+    "complete_endpoint_by_time_missingness_account": false,
+    "crossover": false
+  },
+  "preparation": {
+    "source": "POM Wonderful Inc., LLP; Wonderful-variety California pomegranates; concentrate in 500mL bottles",
+    "active_serving_ml": 30,
+    "final_dilution_volume_ml": null,
+    "source_reported_polyphenol_GAE_mg_per_serving": 650,
+    "reported_profile_percent": {
+      "ellagitannins": 95.5,
+      "ellagic_acid": 3.5,
+      "anthocyanins": 1
+    },
+    "independent_batch_assay_method_or_lot_reported": false,
+    "all_groups_drinks_per_day": 2,
+    "approx_interval_hours": 12,
+    "arms": {
+      "1x": {
+        "morning": "PJC",
+        "evening": "placebo",
+        "daily_reported_GAE_mg": 650
+      },
+      "2x": {
+        "morning": "PJC",
+        "evening": "PJC",
+        "daily_reported_GAE_mg": 1300
+      },
+      "placebo": {
+        "morning": "placebo",
+        "evening": "placebo",
+        "daily_reported_GAE_mg": 0
+      }
+    },
+    "matching": "Both active/placebo 24g carbohydrate per serving; color/flavor added",
+    "GAE_is_pure_gallic_acid_dose": false,
+    "retail_equivalence_established": false,
+    "POMx_or_undiluted_juice_equivalence_established": false
+  },
+  "outcomes": {
+    "estimand": "Reported mean baseline-relative strength averaged over postexercise period",
+    "dispersion": "Mean±SD as reported; exact participant/time averaging implementation not fully described",
+    "order": [
+      "1x",
+      "2x",
+      "placebo"
+    ],
+    "knee_strength_percent_baseline": {
+      "means": [
+        93.9,
+        91.6,
+        87.1
+      ],
+      "SD": [
+        6.1,
+        5.6,
+        7.9
+      ],
+      "reported_treatment_effect_P": "<0.05",
+      "reported_each_active_vs_placebo_P": "<0.05",
+      "derived_descriptive_active_minus_placebo_percentage_points": [
+        6.8,
+        4.5
+      ]
+    },
+    "elbow_strength_percent_baseline": {
+      "means": [
+        83.6,
+        85.6,
+        78.4
+      ],
+      "SD": [
+        10.4,
+        7.2,
+        6.7
+      ],
+      "reported_treatment_effect_P": "<0.05",
+      "reported_each_active_vs_placebo_P": "<0.05",
+      "derived_descriptive_active_minus_placebo_percentage_points": [
+        5.2,
+        7.2
+      ]
+    },
+    "knee_soreness": {
+      "means": [
+        2.3,
+        2.3,
+        2.3
+      ],
+      "SD": [
+        1.3,
+        1.1,
+        1.4
+      ],
+      "group_P": ">0.05"
+    },
+    "elbow_soreness": {
+      "means": [
+        3.0,
+        2.9,
+        2.9
+      ],
+      "SD": [
+        1.5,
+        1.1,
+        1.2
+      ],
+      "group_P": ">0.05"
+    },
+    "myoglobin_ng_per_ml": {
+      "means": [
+        79,
+        53,
+        56
+      ],
+      "SD": [
+        56,
+        27,
+        22
+      ],
+      "group_P": ">0.05",
+      "analyzed_n": 39,
+      "derived_exclusions": 6,
+      "exclusion_rule_as_reported": "Individuals exhibiting values four times the group mean at any time point",
+      "per_arm_exclusions": null,
+      "all_participant_sensitivity_reported": false
+    },
+    "treatment_by_time_interactions": "No significant interaction for any measured variable (P>0.05)",
+    "strength_returned_to_baseline_by_96h": false,
+    "absolute_force_treatment_estimate": null,
+    "treatment_contrast_CI": null,
+    "time_specific_pairwise_strength_P_values_reported": false,
+    "faster_recovery_trajectory_established": false
+  },
+  "dose_comparison": {
+    "reported": "No statistically significant 1x vs2x strength difference",
+    "exact_P": null,
+    "CI": null,
+    "equivalence_margin": null,
+    "equivalence_test_reported": false,
+    "minimum_effective_dose_established": false,
+    "plateau_or_saturation_established": false,
+    "derived_descriptive_1x_minus_2x_percentage_points": {
+      "knee": 2.3,
+      "elbow": -2.0
+    }
+  },
+  "statistics": {
+    "reported_model": "Two-way ANOVA for treatment,time,interaction",
+    "alpha": "<0.05",
+    "software": "SPSS",
+    "pairwise_method": null,
+    "multiplicity_adjustment": null,
+    "F_or_df_for_strength": null,
+    "power_calculation": null,
+    "prespecified_registration_protocol_SAP": null,
+    "prospective_endpoint_hierarchy": null,
+    "repeated_measure_covariance_or_sphericity_method": null,
+    "unreported_is_not_assumed_corrected_or_uncorrected": true
+  },
+  "safety": {
+    "AE_counts_reported": false,
+    "tolerability_assessment_reported": false,
+    "no_events_inferred_from_absence": false
+  },
+  "funding": {
+    "grant": "POM Wonderful Inc., LLP",
+    "sponsor_final_paper_approval": "Authors report sponsor did not have final approval",
+    "COI_declaration": "Authors declare none",
+    "sponsor_independence_inferred": false
+  },
+  "cohort_comparison": {
+    "distinct_reported_study": "45-man 8-day parallel experiment versus POMx2010 crossover and Lamb2019 36-man Sheffield parallel trial",
+    "independent_laboratory_replication_of_POMx": false,
+    "individual_overlap_with_prior_UT_participants": "UNKNOWN; identifiers/recruitment dates unavailable",
+    "prior_POMx_source_depth": "Complete original abstract only, preserved;2014 retrospective statements do not upgrade it",
+    "Lamb2019_source_depth": "Previously qualified complete scientific main/native outcomes; undiluted juice, different formulation and challenge",
+    "pooled_estimate_computed": false
+  },
+  "mechanistic_or_clinical_claims": {
+    "structural_protection_demonstrated": false,
+    "BUBR1_restoration_demonstrated": false,
+    "MVA_or_actual_allele_rescue_demonstrated": false,
+    "chronic_weakness_benefit_demonstrated": false,
+    "nominee_superiority_demonstrated": false,
+    "clinical_regimen_proposed": false
+  },
+  "reading": {
+    "complete_scientific_main_text": true,
+    "complete_figure_captions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "native_figure_pixels_viewed": [],
+    "native_table_pixels_viewed": [],
+    "local_PDF_downloaded_successfully": false,
+    "publisher_PDF_read_via_web_text": true,
+    "supplement_obtained": false,
+    "raw_data_obtained": false
+  },
+  "notices": {
+    "crossref_relations": {},
+    "crossref_update_to": null,
+    "publisher_banner_found": false,
+    "exact_notice_search_identified_notice": false,
+    "scope": "Bounded metadata/main/exact-DOI query only; not universal notice absence"
+  },
+  "decision": "Retain the preparation-specific controlled functional reserve. Preserve averaged strength treatment effects and reporting limits; no dose equivalence/threshold, faster trajectory, chronic MVA benefit, BUBR1 restoration or nominee superiority.",
+  "scope": {
+    "integration_status": "SOURCE_QUALIFIED_PREPARATION_APPRAISAL",
+    "new_appraisal_count": 1,
+    "other_decisions_unchanged": 259,
+    "biological_experiments": 0,
+    "original_queue_reading_credit": 0,
+    "broader_discovery_complete": false
+  },
+  "candidate_id": "new-pomegranate-juice-concentrate-machin2014",
+  "integration_metadata": {
+    "proposal_status": "SOURCE_QUALIFIED_APPRAISAL",
+    "created_at_utc": "2026-09-27T11:43:21.185083+00:00",
+    "match_aliases": [
+      "pomegranate juice concentrate"
+    ],
+    "identity_limit": "Descriptive source-faithful phrase scoped to the POM Wonderful-source 2014 tested concentrate. A name match is retrieval provenance only, not equivalence with generic concentrates, POMx, brand-level juice or isolated constituents.",
+    "raw_primary_assets_external": true,
+    "primary_scientific_payload_preserved": true,
+    "independent_verdict": "ACCEPT_PREPARATION_SPECIFIC_CONTROLLED_FUNCTIONAL_APPRAISAL",
+    "independent_native_pixels_reviewed": false,
+    "integrating_root_reading": "Original Methods, Results, Discussion, acknowledgments and all six captions; no new scientific correction and no native pixel inspection claimed.",
+    "related_preparations": [
+      {
+        "id": "new-pomx-pomegranate-extract",
+        "source_report": "workflow/track2-drug-census/pomegranate-extract-functional-qualification.md",
+        "relation": "Distinct extract, retained original-abstract-only depth"
+      },
+      {
+        "source_report": "workflow/track2-drug-census/cherry-blend-functional-qualification.md",
+        "relation": "Distinct Lamb2019 undiluted juice in previously qualified cohort; not an exact-concentrate replication"
+      }
+    ],
+    "source_and_review_bindings": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pomegranate-machin2014-primary-20260927/final-bindings.json",
+        "bytes": 6138,
+        "sha256": "2b56f57cf9fadc52c1f89774a71240eb45670c912899377ee0dd6da503c23ac7"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pomegranate-machin2014-primary-20260927/qualification.md",
+        "bytes": 12572,
+        "sha256": "8b4a5cfc5f2cababa9ddfc24f9ab49def2195015930ca998fd7cfc4d9ca325b7"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pomegranate-machin2014-primary-20260927/qualification.json",
+        "bytes": 8317,
+        "sha256": "0240546dae43f16c1bbc51bbf14bc39cb9b4e0f38224ec86cf018e76fefd3683"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pomegranate-machin2014-primary-20260927/reading-scope.json",
+        "bytes": 1906,
+        "sha256": "070b221cf4b92dd62dc8e70489beef50835a26b0a32775e747463eb61dc0dab4"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pomegranate-machin2014-primary-20260927/access-scope.json",
+        "bytes": 1256,
+        "sha256": "15ae9ac2546a9417be639ceb07f75a38f002ecbaa0fa871094e1a58831e1fb8d"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pomegranate-machin2014-primary-20260927/source-manifest.json",
+        "bytes": 4387,
+        "sha256": "94c96d76686e71aa39da54b9ff2ddbc3cb5eeb00529f87a45b7a18cb76f02280"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pomegranate-machin2014-primary-20260927/context-bindings.json",
+        "bytes": 886,
+        "sha256": "0db59c01c8ae7c0b7790920d5ec0877b160da92b388c213d44c6cfb4a97a1976"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pomegranate-machin2014-primary-20260927/independent/bindings.json",
+        "bytes": 5891,
+        "sha256": "10aa393275bd1c0a86b3168820e69efa547f77b0acbd287df397bdb0f1ff8171"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pomegranate-machin2014-primary-20260927/independent/review.md",
+        "bytes": 8367,
+        "sha256": "66f2913a8719759d2c2e4cc900623180fc81b915c67622d066fbd2814ffdbbbb"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pomegranate-machin2014-primary-20260927/independent/review.json",
+        "bytes": 5960,
+        "sha256": "1e29198b92dc54a517fdc62e7a73088b15a7c0a611cbeff7f8240bca61317156"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pomegranate-machin2014-primary-20260927/independent/reading-scope.json",
+        "bytes": 1830,
+        "sha256": "47ed254e57029ac482c35187d8bdf0e66e138f372c19c87fc3bfaa0720cb02da"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pomegranate-machin2014-primary-20260927/proposal-ready/final-bindings.json",
+        "sha256": "c7af751cd8d8ba851f20ae47b94133b58858ec76b957910c0ce5f779ce43af3f"
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/pomegranate-concentrate-integration-20260927/root-reading.json",
+        "sha256": "5237dccbce3c436067dbd4cab1705936e52afecf385ee6bd90596e55985e73b4"
+      }
+    ],
+    "integrated_at_utc": "2026-09-27T11:53:08.386042+00:00",
+    "root_reading": {
+      "root": "Complete primary qualification and independent review, original Methods/Results/Discussion/Acknowledgments and all six captions (retained lines176-271), complete portable draft Markdown/JSON and decision proposal. Not complete introductory main or native pixels.",
+      "primary_and_independent": "Complete original scientific-main/PDF text witnesses and all six figure captions; native pixels, usable local PDF, supplement and participant dataset not obtained. Exact source access limits preserved.",
+      "prior_studies": "POMx retains original-abstract depth; Lamb2019 retains its separately qualified full-source depth. No extra cohort/reading credit or product pooling."
+    },
+    "baseline_source_references": [
+      {
+        "repo_relative": "workflow/track2-drug-census/decisions.json",
+        "revision": "af15184f3e6973c6bf2939e479c345440bc0382b",
+        "sha256": "a115f5008c952b5d2a150fabe1b4d267fadae9f3416f086741629645b09d9d05",
+        "scope": "Proposal alias check observed an earlier HEAD with the working ledger that became this exact baseline blob; not a binding to the future mutable live file."
+      }
+    ]
+  }
+}

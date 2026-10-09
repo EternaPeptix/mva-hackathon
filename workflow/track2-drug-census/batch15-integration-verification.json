@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "date": "2026-10-04",
+  "checkpoint_scope": "Immutable saved accepted B15 state before any future batch16 selection integration; original repository paths are historical labels only.",
+  "accepted_collection_records": 1960,
+  "unscreened": 54257,
+  "ledger_appraisals": 305,
+  "core_checks": {
+    "status": "PASS",
+    "before_head": "6e1f937",
+    "records": 160,
+    "root_actual_sources": 147,
+    "all_original_flags_preserved": 911,
+    "all_source_anchors_previously_verified": 880,
+    "bound_completed_root_files_rehashed": 117,
+    "old_batches_and_discovery_fields_preserved": true,
+    "ledger_alias_catalog_and_selection_json_bytes_unchanged": true,
+    "new_report_source_links_match_exact_selected_ids": true,
+    "screen_source_bindings_freshly_verified": 21,
+    "partial_note_source_bindings_freshly_verified": 9,
+    "accepted_count": 1960,
+    "unscreened": 54257,
+    "semantic_reading_credit_from_this_integrity_check": 0,
+    "code_validation": {
+      "command": "python3 workflow/track2-drug-census/verify_census.py",
+      "actual_exit_code": 0,
+      "actual_result": "PASS",
+      "catalog_entities": 15357,
+      "curated_appraisals": 305,
+      "clinical_source_records": 16784,
+      "validation_scope": "Repository identity/policy/source/UNKNOWN/joins reconciliation, not proof of scientific conclusions."
+    },
+    "markdown_and_local_link_validation": "PASS; current route table checked separately from unrelated tables; all new relative links resolve",
+    "verification_helper_limits": "Initial whole-document table-width assumption was false for unrelated tables; repaired bounded check passed without edits. Script integration initially encountered differing reader hash schemas/root anchor schemas/missing IDs in pilot/B10 summaries; repaired before final successful discovery mutation, with only self-generated orphan screen removed. No frozen source package changed."
+  },
+  "root_fresh_independent_packages_rehash": {
+    "status": "PASS",
+    "packages": [
+      {
+        "status": "PASS",
+        "package": {
+          "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/mistletoe-independent-review-20261004/final-bindings.json",
+          "bytes": 32120,
+          "sha256": "dc06e8392d14026971aaced0128f0ddf66d9008f20c425f4d15f2504091a0620"
+        },
+        "owned_declared_files_rehashed": 85,
+        "semantic_credit_from_rehash": 0,
+        "complete_review_report_actually_read": true
+      },
+      {
+        "package": {
+          "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-repo-integration-independent-20261004/final-bindings.json",
+          "bytes": 562296,
+          "sha256": "71495a5c867631d517f9bd6e2e9decd9c50255feacbaff1d24c655204124d0c4"
+        },
+        "owned_declared_files_rehashed": 1345,
+        "complete_report_actually_read": true,
+        "semantic_credit_from_rehash": 0
+      }
+    ]
+  },
+  "independent_integration_qa_final": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-repo-integration-independent-20261004/final-bindings.json",
+    "bytes": 562296,
+    "sha256": "71495a5c867631d517f9bd6e2e9decd9c50255feacbaff1d24c655204124d0c4"
+  },
+  "independent_integration_qa_report": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-repo-integration-independent-20261004/report.md",
+    "bytes": 4462,
+    "sha256": "af78d74e683b250c5917f0b811bd4191977ef04f5a5fbf0865431fbe630faf31"
+  },
+  "independent_mistletoe_qa_final": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/mistletoe-independent-review-20261004/final-bindings.json",
+    "bytes": 32120,
+    "sha256": "dc06e8392d14026971aaced0128f0ddf66d9008f20c425f4d15f2504091a0620"
+  },
+  "completed_root_source_reading_and_adjudication": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-eligibility-batch15-20261004/root-acceptance-20261004/root-acceptance-bindings.json",
+    "bytes": 37782,
+    "sha256": "793ef428994fd72f30af02819753b62af6f28b849dc34136c6ef470f473a4e56"
+  },
+  "immutable_integrated_checkpoint_files": [
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/reports/README.md",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/01-README.md",
+        "bytes": 18280,
+        "sha256": "7f804dfad3dba2c877a3910ec0bb02275833be56997bec887add724bb27ff249"
+      }
+    },
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/workflow/track2-drug-census/README.md",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/02-README.md",
+        "bytes": 50472,
+        "sha256": "68612034a17d5cf1150146d288d0b400ddcf79330d8bb6c220e680d22a298f95"
+      }
+    },
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/workflow/track2-drug-census/decision-report.md",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/03-decision-report.md",
+        "bytes": 107857,
+        "sha256": "22020902fea1c34d0d4018eac0f50270bf27aff46983da6d1d082a9500297391"
+      }
+    },
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/workflow/track2-drug-census/outcome-first-discovery.json",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/04-outcome-first-discovery.json",
+        "bytes": 311291,
+        "sha256": "83153abb93cc8f4397a03da45523f5e3d19be4777cc0c45cfc2a045b5c5542ad"
+      }
+    },
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/workflow/track2-drug-census/outcome-first-discovery.md",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/05-outcome-first-discovery.md",
+        "bytes": 19031,
+        "sha256": "892c343d19d33063001c3c9d5b0db56257226178349c15acc26297380669f541"
+      }
+    },
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/workflow/track2-drug-census/outcome-first-batch15-selection.json",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/06-outcome-first-batch15-selection.json",
+        "bytes": 50227,
+        "sha256": "9f162920d3eeb3890566dd980aa795b9e8b972c9c4692b984114d7d63608d397"
+      }
+    },
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/workflow/track2-drug-census/outcome-first-batch15-selection.md",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/07-outcome-first-batch15-selection.md",
+        "bytes": 1998,
+        "sha256": "f70b43a7a97ff61a53a10794374759155f19b9d0a229bf5984d134e3357821dd"
+      }
+    },
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/workflow/track2-drug-census/outcome-first-batch15-screen.json",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/08-outcome-first-batch15-screen.json",
+        "bytes": 3280479,
+        "sha256": "f714eff7272503d813fd909889ac014e5b79aa32a4373ec7b437b45696702171"
+      }
+    },
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/workflow/track2-drug-census/outcome-first-batch15-screen.md",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/09-outcome-first-batch15-screen.md",
+        "bytes": 7034,
+        "sha256": "8c29b672433a818b104879495e087c226d9851ba50b183a157467ee865bc8169"
+      }
+    },
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/workflow/track2-drug-census/korean-mistletoe-partial-source-note.json",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/10-korean-mistletoe-partial-source-note.json",
+        "bytes": 77208,
+        "sha256": "f5cb9c06ae0e74b65ec95726767d7058f0ca0edecf5d036f24ff2484dacc5fa8"
+      }
+    },
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/workflow/track2-drug-census/korean-mistletoe-partial-source-note.md",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/11-korean-mistletoe-partial-source-note.md",
+        "bytes": 3409,
+        "sha256": "661005eacff7021b20d7071c8ca0e7c23f5d5788f8c1e98a2a0abd52724dcd89"
+      }
+    },
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/workflow/track2-drug-census/decisions.json",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/12-decisions.json",
+        "bytes": 595113,
+        "sha256": "76fcd1f67181bd37dc4b7470f3adc54fe5ae22435fd26f673d735379c9549629"
+      }
+    },
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/workflow/track2-drug-census/aliases.tsv",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/13-aliases.tsv",
+        "bytes": 8821935,
+        "sha256": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3"
+      }
+    },
+    {
+      "historical_repository_path": "/Users/jeweled/Documents/Codex/2026-09-18/co/work/mva-pr2-hmb-integration-20260928/workflow/track2-drug-census/catalog-appraisals.tsv",
+      "immutable_checkpoint_binding": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/batch15-root-integration-checkpoint-20261004/14-catalog-appraisals.tsv",
+        "bytes": 2559337,
+        "sha256": "d90e98d3718314120318d71d57e551925a8da600524317bedc5bd89f799b0c3d"
+      }
+    }
+  ],
+  "new_eligibility_records": 160,
+  "new_full_primary_ledger_drug_trial_or_efficacy_credit": 0
+}

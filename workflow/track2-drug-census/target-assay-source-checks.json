@@ -1,0 +1,170 @@
+{
+  "date": "2026-09-21",
+  "scope": "All retrieved target rows preserved; document-level interpretation with verification depth detailed in target-assay-review.md. Not all original assay figures verified.",
+  "source_api_rows_sha256": "d02d9e245205831edc1cca087330c47747f06c7e033b763e4e8430b39f7ddc4c",
+  "row_count": 24,
+  "molecule_count": 15,
+  "document_groups": [
+    {
+      "document_chembl_id": "CHEMBL4251633",
+      "activity_ids": [
+        "18699283",
+        "18699284"
+      ]
+    },
+    {
+      "document_chembl_id": "CHEMBL4806967",
+      "activity_ids": [
+        "23127855",
+        "23127856",
+        "23127857"
+      ]
+    },
+    {
+      "document_chembl_id": "CHEMBL5465560",
+      "activity_ids": [
+        "25778935",
+        "25778936"
+      ]
+    },
+    {
+      "document_chembl_id": "CHEMBL5653628",
+      "activity_ids": [
+        "26230299",
+        "26230300",
+        "26231114",
+        "26231115"
+      ]
+    },
+    {
+      "document_chembl_id": "CHEMBL5661966",
+      "activity_ids": [
+        "26238046",
+        "26238047",
+        "26238049"
+      ]
+    },
+    {
+      "document_chembl_id": "CHEMBL6121040",
+      "activity_ids": [
+        "29222144",
+        "29222145",
+        "29222146",
+        "29222147",
+        "29222148",
+        "29222266",
+        "29222267",
+        "29222268",
+        "29222269"
+      ]
+    },
+    {
+      "document_chembl_id": "CHEMBL6134771",
+      "activity_ids": [
+        "29247185"
+      ]
+    }
+  ],
+  "verified_workbook": {
+    "primary_article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5119931/",
+    "supplement_endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5119931/supplementaryFiles",
+    "member": "mmc2.xls",
+    "member_sha256": "21b7045937dc882ee819e95db4e322bca31a326fc0da1be211e30f015423e2c3",
+    "sheet": "Tabelle1",
+    "endpoint_heading": "A5",
+    "replication_heading": "A3",
+    "compound_headings": [
+      "F10",
+      "H10"
+    ],
+    "concentration_headings": [
+      "F11",
+      "G11",
+      "H11",
+      "I11"
+    ],
+    "replication": "singlicate",
+    "compound_mapping_url": "https://www.ebi.ac.uk/chembl/api/data/compound_record.json?document_chembl_id=CHEMBL5653628&limit=1000",
+    "compound_mapping_sha256": "5b30519acb70a044894e457da56e407af3088edaeccf192dd9181f016d04528d"
+  },
+  "corrections": [
+    {
+      "activity_id": "26230300",
+      "source_cell": "F53",
+      "source_compound": "4",
+      "source_molecule_chembl_id": "CHEMBL4564280",
+      "source_concentration_nM": 100,
+      "source_endpoint": "residual activity percent of control",
+      "source_value": 92.3963963963964,
+      "recorded_molecule_chembl_id": "CHEMBL4564280",
+      "recorded_standard_type": "Inhibition",
+      "recorded_value": "92.0",
+      "recorded_assay_description": "Inhibition of BUB1B (unknown origin) at 100 nM relative to control",
+      "direction_label_error": true,
+      "compound_and_concentration_error": false
+    },
+    {
+      "activity_id": "26230299",
+      "source_cell": "G53",
+      "source_compound": "4",
+      "source_molecule_chembl_id": "CHEMBL4564280",
+      "source_concentration_nM": 500,
+      "source_endpoint": "residual activity percent of control",
+      "source_value": 83.31531531531532,
+      "recorded_molecule_chembl_id": "CHEMBL5188882",
+      "recorded_standard_type": "Inhibition",
+      "recorded_value": "83.0",
+      "recorded_assay_description": "Inhibition of BUB1B (unknown origin) at 100 nM relative to control",
+      "direction_label_error": true,
+      "compound_and_concentration_error": true
+    },
+    {
+      "activity_id": "26231114",
+      "source_cell": "H53",
+      "source_compound": "5",
+      "source_molecule_chembl_id": "CHEMBL5188882",
+      "source_concentration_nM": 100,
+      "source_endpoint": "residual activity percent of control",
+      "source_value": 109.98494731560461,
+      "recorded_molecule_chembl_id": "CHEMBL4564280",
+      "recorded_standard_type": "Inhibition",
+      "recorded_value": "110.0",
+      "recorded_assay_description": "Inhibition of BUB1B (unknown origin) at 500 nM relative to control",
+      "direction_label_error": true,
+      "compound_and_concentration_error": true
+    },
+    {
+      "activity_id": "26231115",
+      "source_cell": "I53",
+      "source_compound": "5",
+      "source_molecule_chembl_id": "CHEMBL5188882",
+      "source_concentration_nM": 500,
+      "source_endpoint": "residual activity percent of control",
+      "source_value": 115.85549422980432,
+      "recorded_molecule_chembl_id": "CHEMBL5188882",
+      "recorded_standard_type": "Inhibition",
+      "recorded_value": "116.0",
+      "recorded_assay_description": "Inhibition of BUB1B (unknown origin) at 500 nM relative to control",
+      "direction_label_error": true,
+      "compound_and_concentration_error": false
+    }
+  ],
+  "interpretation": "Residual values above100 do not establish activation. Corrections are an interpretation layer; original rows retained unchanged. CETSA is not a turnover or checkpoint-rescue result.",
+  "additional_property_checks": [
+    {
+      "activity_id": "25778935",
+      "property": "Selectivity Remarks",
+      "source_text": "Screened at 1 uM (in vitro)",
+      "concentration_uM": 1,
+      "linked_primary_pmid": "27977190"
+    },
+    {
+      "activity_id": "25778936",
+      "property": "Selectivity Remarks",
+      "source_text": "Screened at 5 uM (in vitro)",
+      "concentration_uM": 5,
+      "linked_primary_pmid": "27977190"
+    }
+  ],
+  "independent_review": "Original workbook and compound-record mapping independently reread by a second AI reviewer. Four direction errors and two assignment transpositions agreed; concentrations in EUbOPEN nested properties recovered and disclosed. Primary verification remains limited as described in the review."
+}

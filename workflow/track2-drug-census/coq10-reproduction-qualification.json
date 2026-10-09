@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "identity": {
+    "core_name": "Coenzyme Q10 (CoQ10)",
+    "source_term": "The 2015 paper calls CoQ ubiquinone. Exact redox form, purity, isomer composition and batch certificate are not specified for every administered preparation. No independent ubiquinol equivalence is established.",
+    "preparations": [
+      "Sigma-Aldrich or Advanced Orthomolecular Research CoQ10 in sesame oil, aged mouse subcutaneous route",
+      "LiQsorb (Tishcon) CoQ10 in drinking water, genetic-rescue/young-control mouse route",
+      "Micronized AOR CoQ10 100 mg softgels, oral human trial",
+      "CoQ10 at 50 µmol/L in human IVM medium, abstract-level exact formulation/vehicle unknown"
+    ],
+    "excluded_equivalences": [
+      "ubiquinol",
+      "MitoQ/mitoquinone",
+      "any generic commercial supplement or current approved-product identity",
+      "all dietary CoQ exposure"
+    ]
+  },
+  "ledger_check": {
+    "head": "d88488855307c35ec9230853b77edfaf8e482800",
+    "count": 216,
+    "sha256": "22ab64ec1f5d902e978eeacb39f7e83d8f1cc8406a01ecea70bbc895fe68da84",
+    "matching_CoQ10_decision_found": false,
+    "scope": "Read-only finite current decisions check; subsequent root changes not included."
+  },
+  "source_metadata": {
+    "ivm": {
+      "id": "32646587",
+      "source": "MED",
+      "pmid": "32646587",
+      "pmcid": null,
+      "doi": "10.1016/j.fertnstert.2020.04.002",
+      "title": "Coenzyme Q10 supplementation of human oocyte in vitro maturation reduces postmeiotic aneuploidies.",
+      "authorString": "Ma L, Cai L, Hu M, Wang J, Xie J, Xing Y, Shen J, Cui Y, Liu XJ, Liu J.",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "publicationStatus": "ppublish",
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "32622659",
+            "reference": "Fertil Steril. 2020 Aug;114(2):265-266. doi: 10.1016/j.fertnstert.2020.05.009",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "versionList": null,
+      "firstPublicationDate": "2020-07-07"
+    },
+    "mouse": {
+      "id": "26111777",
+      "source": "MED",
+      "pmid": "26111777",
+      "pmcid": "PMC4568976",
+      "doi": "10.1111/acel.12368",
+      "title": "Coenzyme Q10 restores oocyte mitochondrial function and fertility during reproductive aging.",
+      "authorString": "Ben-Meir A, Burstein E, Borrego-Alvarez A, Chong J, Wong E, Yavorska T, Naranian T, Chi M, Wang Y, Bentov Y, Alexis J, Meriano J, Sung HK, Gasser DL, Moley KH, Hekimi S, Casper RF, Jurisicova A.",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "publicationStatus": "ppublish",
+      "commentCorrectionList": null,
+      "versionList": null,
+      "firstPublicationDate": "2015-06-26"
+    },
+    "oral": {
+      "id": "24987272",
+      "source": "MED",
+      "pmid": "24987272",
+      "pmcid": "PMC4071761",
+      "doi": "10.4137/cmrh.s14681",
+      "title": "Coenzyme Q10 Supplementation and Oocyte Aneuploidy in Women Undergoing IVF-ICSI Treatment.",
+      "authorString": "Bentov Y, Hannam T, Jurisicova A, Esfandiari N, Casper RF.",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "publicationStatus": "epublish",
+      "commentCorrectionList": null,
+      "versionList": null,
+      "firstPublicationDate": "2014-06-08"
+    },
+    "comment": {
+      "id": "32622659",
+      "source": "MED",
+      "pmid": "32622659",
+      "pmcid": null,
+      "doi": "10.1016/j.fertnstert.2020.05.009",
+      "title": "A battery boost for old eggs?",
+      "authorString": "Casper RF.",
+      "pubTypeList": {
+        "pubType": [
+          "Comment",
+          "Editorial"
+        ]
+      },
+      "publicationStatus": "ppublish",
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "32646587",
+            "reference": "Fertil Steril. 2020 Aug;114(2):331-337. doi: 10.1016/j.fertnstert.2020.04.002",
+            "type": "Comment on",
+            "orderIn": 1
+          }
+        ]
+      },
+      "versionList": null,
+      "firstPublicationDate": "2020-07-01"
+    }
+  },
+  "verdict": {
+    "actual_normal_reproductive_function_positive": true,
+    "mouse_live_pup_litter_size_positive": true,
+    "human_oral_trial_positive_established": false,
+    "human_IVM_positive_reported_in_abstract": true,
+    "human_IVM_main_qualified": false,
+    "Bub1b_transcript_assayed_in_mouse": true,
+    "BubR1_protein_restoration_established": false,
+    "MVA_efficacy_established": false,
+    "competitiveness": "A substantive normal-tissue reproductive-function reserve with spindle/alignment benefit and a direct Bub1b transcript nonpositive result. Human culture benefit remains abstract-qualified; oral clinical superiority was not shown. This is neither proven MVA compensation nor a nominee promotion."
+  },
+  "mouse_26111777": {
+    "exposure_aged": {
+      "strain": "ICR",
+      "starting_age_months": 9,
+      "parity": "Retired proven breeders; young comparison animals were 7–8 week virgin females.",
+      "drug": "CoQ10, Sigma-Aldrich or AOR",
+      "dose_mg_kg": 22,
+      "route": "subcutaneous",
+      "vehicle": "sesame oil",
+      "frequency": "three times weekly",
+      "schedule": "At least 12 weeks; oocyte analyses after 12–13 weeks. Figure 1 follicle caption says 15 weeks. Breeding follows 12 weeks pretreatment, with up to another month treatment, stopped when pregnancy detected (~10.5 days). Do not force one schedule on all assays.",
+      "control": "Age-matched sesame-oil injected dams plus young comparator."
+    },
+    "aged_function": {
+      "ovulated_oocytes": "Figure 1B n=20 young, 16 old vehicle, 16 old CoQ10; old CoQ10 versus old P=.05; still below young (P<.01). Pilot S1A gives P<.02 versus old vehicle.",
+      "follicles": "Figure 1A n=9 per age/treatment; primordial and secondary follicle counts P=.01; primary follicles P=.059, not significant.",
+      "litter_size": "Figure 1C litter size higher versus old vehicle (P<.01), young versus old CoQ10 marked NS; lack of significance is not equivalence. Plotted n=39 young,15 old vehicle,11 old CoQ10 are successful litters/dams. Methods enrolled 21 old controls and 12 CoQ10 dams; 15 and 11 produced a litter. No inferred statistically proven pregnancy-rate effect or exact all-enrolled mean.",
+      "spindle_alignment": "Figure 3A scored tubulin/DAPI spindle appearance and chromosome alignment: 60 young,73 old,51 treated oocytes. Abnormality rates reduced to a young-like range; no chromosome enumeration, direct embryo karyotype or BUB1B-lesion rescue.",
+      "metabolic": "ATP, oxygen-consumption probe and several mitochondrial measures improve. Aging reduces MitoSOX signal and treatment raises it in this model; do not turn this into a measured ROS-lowering result."
+    },
+    "genetic_model": {
+      "lesion": "Oocyte-restricted Pdss2 flox/ZP3-Cre; CoQ-biosynthesis lesion, not Bub1b.",
+      "genetic_phenotype": "Loss of follicles, reduced ovulation/ATP, misalignment; untreated Cre+ females yielded no viable offspring in the reported breeding study.",
+      "administered_rescue": "LiQsorb (Tishcon) 0.4 mg/mL drinking water to mothers during pregnancy and offspring after weaning; lactational exposure described. Figure 5 caption says birth through seven weeks; Results also describes evaluation near two months. Intake-derived mg/kg and exact fetal/milk exposure not measured.",
+      "timing_inference": "Early preventive developmental exposure; not demonstrated delayed treatment of established adult infertility.",
+      "positive": "Partial rescue of follicle reserve, ovulation, ATP, membrane potential, ROS signal and chromosome alignment.",
+      "null_and_bounds": "Respiring mitochondrial pool unchanged with rescue (native Figure 5C P=NS). No treated-mutant live-birth/fertility-rescue arm established by Figure 5; do not transfer aged wild-type litter benefit.",
+      "wildtype_young": "LiQsorb young controls show no significant improvement in breeding, ovulation, follicle reserve and shown mitochondrial/ROS measures. Caption adds chromosome-abnormality/ATP nulls; corresponding extra S4 panels are not visible in the retrieved composite."
+    },
+    "Bub1b": {
+      "assay": "qRT-PCR transcript, native Supplemental Figure S2A and primer Table S2",
+      "arms": [
+        "young",
+        "old",
+        "old plus CoQ10"
+      ],
+      "source_result": "Bub1b appears among transcript panels described as not significantly changed with age and/or treatment and has no significance marker. No positive Bub1b restoration result.",
+      "numeric_effect_or_p": null,
+      "axis_limit": "Native axis is Reference/Target; Methods say delta Ct normalized to beta-actin. Without raw Ct values, do not reinterpret bar height as a validated RNA fold change or quantify it by eye.",
+      "protein": "No BubR1 protein result reported in the inspected main/supplement material.",
+      "causality": "No Bub1b rescue/knockdown mediation or BUB1B/MVA genotype tested."
+    },
+    "units_statistics": "Animals are intervention units. Several mitochondrial and spindle panels report oocyte counts; qPCR panels use three-oocyte pools (often 4/6/5 pools). Numbers of contributing donors and donor-level clustering are not consistently supplied. Tests listed include ANOVA/post-tests, t/Mann–Whitney and chi-square without a complete panel-by-panel analysis map. Randomization and blinded scoring not specified in this full paper; do not equate cell n with independent mice.",
+    "human_observation": "Single human GV per patient, 8 younger (<32) and 8 older (>39), untreated age comparison of CoQ biosynthetic transcripts. Human COQ6 decline is observational, not a human CoQ10 intervention or BubR1 assay.",
+    "exposure_confirmation": "Table S1 (n=3–5 mice/group, ng/mg protein) reports ovarian CoQ10 67.2±1.0 vehicle,227.2±34.3 subcutaneous,766.9±144.6 LiQsorb; both treated P<.01 versus vehicle. Whole ovaries, not isolated oocyte concentrations. Authors could not measure oocyte CoQ directly and found no significant age reduction in total ovarian CoQ9/10.",
+    "source_issues": [
+      "Figure 3B native fourth gene is Msh3, while caption lists Smarca2; do not silently relabel the image. Smarca2 is actually shown separately in Figure 2C.",
+      "S4 caption lists E–G chromosome/ATP panels beyond the five visible graphs in the supplied S4 PDF composite; those extra outcomes remain caption-level, not visually confirmed.",
+      "Genetic rescue Results cites some panels inconsistently; use native panel labels and explicit caption exposures.",
+      "Native qPCR reference/target axes are not numerically reconstructed."
+    ]
+  },
+  "oral_24987272": {
+    "design": "Two-site, single-laboratory, double-blind randomized placebo-controlled IVF–ICSI trial, ages35–43; recruited2010–2012; NCT01048385 cited but registry/protocol not retrieved this task.",
+    "exposure": {
+      "preparation": "Micronized AOR CoQ10 100 mg softgels; source registration code135307",
+      "daily_dose_mg": 600,
+      "route": "oral, six capsules with breakfast",
+      "schedule": "Two months before ovarian stimulation, continued through IVF cycle; up to three cycles planned, stopped if pregnant.",
+      "vehicle": "Source describes matched placebo softgels/gelatin capsules containing rice oil/starch; no independent batch, oxidation-state or serum/follicular concentration verification.",
+      "common_care": "Gonadotropin/GnRH stimulation, hCG, ICSI and progesterone support; these are background treatment, not additional CoQ efficacy arms."
+    },
+    "participants": {
+      "randomized": {
+        "CoQ10": 17,
+        "placebo": 22
+      },
+      "started_supplements": {
+        "CoQ10": 12,
+        "placebo": 15
+      },
+      "reported_completed_IVF_biopsy_transfer": {
+        "CoQ10": 10,
+        "placebo": 14
+      },
+      "target_per_arm": 27,
+      "analysis_limit": "Substantial post-randomization attrition; no complete ITT efficacy analysis or missing-data strategy supplied."
+    },
+    "chromosome_assay": "One or two polar bodies biopsied simultaneously after fertilization, amplified and array-CGH tested for all24 chromosome targets as described. This infers maternal meiotic/oocyte status; it is not direct whole-embryo karyotyping and does not establish paternal or postzygotic mosaic normality.",
+    "reported_outcomes": {
+      "aneuploidy_percent": {
+        "CoQ10": 46.5,
+        "placebo": 62.8,
+        "significant": false
+      },
+      "clinical_pregnancy_percent": {
+        "CoQ10": 33.3,
+        "placebo": 26.7,
+        "significant": false
+      },
+      "live_birth_percent": {
+        "CoQ10": 25,
+        "placebo": 26.7,
+        "significant": false
+      },
+      "top_quality_embryos": "Higher point estimates at48/72h, but no significant outcome difference reported.",
+      "primary_defined": "Number of euploid eggs per retrieval; reported aneuploidy rates should not be treated as a successful primary endpoint."
+    },
+    "stopping": "Stopped early over polar-body-biopsy effects on embryo quality/implantation, not demonstrated CoQ10 toxicity. Underpowered null is neither proof of equivalence nor proof of benefit.",
+    "denominator_and_analysis_limits": [
+      "Results states114 biopsied zygotes but arm totals41+74=115.",
+      "24 are described as completing biopsy and transfer, yet later three patients reportedly had no transfer.",
+      "Pregnancy/live-birth denominator not explicitly attached to each percentage; do not reverse-engineer clean counts or use all39 randomized.",
+      "Table1 protocol percentages30.8/7.7 do not transparently map to12/15 treated or10/14 completed; stimulation protocol chosen by physician.",
+      "Table2 provides percentage means with error terms, and Methods unpaired Welch t tests, but patient clustering/weighting of polar-body results is not fully described. Do not substitute each embryo for an independent randomized patient."
+    ],
+    "safety_scope": "No detailed adverse-event table or long-term/pediatric safety assessment; biopsy stopping concern is distinct from compound safety.",
+    "conflicts": "Ferring supplied Menopur; Casper disclosed consultancy with Fertility Nutraceuticals and advisory-board role with Ferring. This does not make the controlled null invalid."
+  },
+  "IVM_32646587": {
+    "reading_depth": "Complete exact official saved abstract and current metadata only. Main/captions/native figures/supplements NOT read.",
+    "known_from_abstract": {
+      "design": "Clinical laboratory observation",
+      "patients_older": 45,
+      "patients_young": 18,
+      "older_age": "38–46 years",
+      "young_age": "≤30 years",
+      "culture": "Germinal-vesicle oocytes with associated cumulus cells;24–48h with or without50µmol/L CoQ10.",
+      "maturation_assay": "First polar-body presence",
+      "chromosome_assay": "NGS of biopsied polar bodies; no direct embryo karyotype established at this depth.",
+      "older_maturation_percent": {
+        "CoQ10": 82.6,
+        "control": 63.0,
+        "p": 0.035
+      },
+      "older_aneuploidy_percent": {
+        "CoQ10": 36.8,
+        "control": 65.5,
+        "p": 0.02
+      },
+      "older_chromosome_aneuploidy_frequency_percent": {
+        "CoQ10": 4.1,
+        "control": 7.0,
+        "p": 0.012
+      },
+      "young": "No demonstrated maturation or postmeiotic aneuploidy effect."
+    },
+    "unknowns": [
+      "Exact ubiquinone/ubiquinol/reagent purity, stock solvent and matched vehicle",
+      "Sibling-oocyte allocation/randomization and number of oocytes per donor per arm",
+      "Donor-level clustering and analysis denominator",
+      "PB1 versus PB2 sampling, NGS chromosome coverage, thresholds, failures and confirmatory accuracy",
+      "Formal age-by-treatment interaction",
+      "Fertilization/development/live-birth and BUB1B/protein assays beyond abstract"
+    ],
+    "inference_limit": "Older subgroup positive and young null do not prove a statistical age interaction. No oral exposure or clinical live-birth efficacy can be inferred from culture concentration."
+  },
+  "commentary_32622659": {
+    "title": "A battery boost for old eggs?",
+    "author": "Robert F Casper",
+    "type": "Editorial/Comment on32646587, not correction or retraction",
+    "reading_depth": "Official metadata only; no abstract supplied; body inaccessible in attempted lawful routes.",
+    "limit": "Content and position unknown. Not an independent efficacy study; author also participated in the2014/2015 papers."
+  },
+  "cohorts_and_reuse": {
+    "distinct_contexts": "Nanjing human IVM, Toronto human oral IVF trial and Canadian mouse aging/genetic work are distinct designs/species. Mouse paper also contains a separate observational human GV comparison; no claim of participant-ID audit.",
+    "prior_mouse_reference": "Oral paper cites2009 Fertility and Sterility conference abstract S31 (Burstein et al.) for preliminary mouse work. That source was not read; shared investigators and precursor findings are not independently counted replication of2015 experiments.",
+    "biological_units": "Patients randomized in oral trial; IVM donor/oocyte allocation unknown; mice treated in aging study; genetic maternal exposure may cluster offspring by dam. Assay panels and doses are not separate studies."
+  },
+  "other_actual_compounds": [
+    {
+      "name": "alpha-lipoic acid (ALA)",
+      "dose": "33mg/kg subcutaneous three times weekly for≥12weeks in sesame oil",
+      "result": "S1A aged-mouse ovulation comparison not significant; no broad inefficacy claim.",
+      "identity": "Exact stereochemistry unreported; do not inherit R-alpha-lipoic acid identity from2014 background prose.",
+      "ledger_role": "Separate bounded negative-comparator assessment could be considered; no matching lipoic appraisal found in finite216 ledger."
+    },
+    {
+      "name": "resveratrol",
+      "dose": "10mg/kg subcutaneous on same schedule",
+      "result": "S1A aged-mouse ovulation comparison not significant; different from other qualified resveratrol exposures.",
+      "ledger_role": "Context for existing new-resveratrol, no automatic new molecule."
+    },
+    {
+      "name": "antimycin",
+      "dose": "8µM for30min in isolated oocytes",
+      "result": "ATP/oxygen-probe assay inhibition control (S5), not restorative treatment.",
+      "identity": "Specific antimycin subtype not stated; no antimycin A inference."
+    }
+  ],
+  "access_limits": {
+    "IVM_comment": "Publisher DOI resolved to open-archive metadata, but article/PDF pages returned403 and official API FULL returned401. Default API gave only coredata. Exact-source public search yielded no verified body. No paywall/anti-bot bypass or author contact.",
+    "oral_pdf": "PMC PDF URL returned HTML and is saved as invalid-response.html, not credited as a PDF.",
+    "status": "Current EuropePMC records show no correction/retraction links for mouse/oral and a Comment-in link for IVM. Finite source check, not an exhaustive notice audit."
+  },
+  "followup_questions": [
+    "Obtain lawful IVM full text/supplement and commentary to resolve donor allocation, clustering, PB/NGS coverage and exact culture formulation.",
+    "Resolve oral trial internal denominators and obtain patient-level clustered estimates without treating its null as benefit.",
+    "Resolve native qPCR axis/raw Ct values and mouse dam-level assay structure; no Bub1b-positive claim from the existing S2 panel.",
+    "Determine whether partial Pdss2 developmental rescue produces live offspring; not supplied by the qualified Figure5."
+  ],
+  "source_hashes": {
+    "mouse-main.xml": "bcc694554246aba1dac3f3c973cac95afa6fbcaaf17ef982bbc0bcd8ad3494a0",
+    "oral-main.xml": "79970184583e97fe9f3b4f79a1698b96de36fc82265d81b2f193bd7e9986cc57",
+    "mouse-main.html": "063cdc9c85e37747b9ad66c1038de8864dba3a7a6a26ba9904b1b540e2141367",
+    "oral-main.html": "875ca9876eaa24a0b2a12e86aaca0b618422aa7a4fc2493330f7b5b476cb3f2f",
+    "ivm-metadata.json": "441ad88998bc6eed6967315b11028167b96f99c07510959b07dda5e71177e25b",
+    "mouse-metadata.json": "f12e08093ce7d48d3d60aa0c6a5e20b77591ed7eaa34a74514b6320cf014ce30",
+    "oral-metadata.json": "128e54ac496f5bd39245e3a6cb34294f10f926555815fa88d3e1c6e034d8bc07",
+    "comment-metadata.json": "78293b9017ec96e578012ea3975f86496caaacfa3371c696b9cc9c483c3a7963",
+    "ivm-api.xml": "9ace73614625cca768d4d0fa7bd50c564b9c99ba01007c6af29baa37b57137e3",
+    "comment-api.xml": "51fae71702f4d791986925ce88cc75e3fbe3f81585f8753e056984f848330c16",
+    "mouse-supplements.zip": "9d1c5779d6bfcd8108f581bb6febcc3e8bb3efb340919612b75bfa50c5d2c3ce",
+    "mouse-supplements/acel0014-0887-sd1.pdf": "cf57022f30304b0fb19d64aeac2638665592e3349abf37a5a1efd3810011f9ec",
+    "mouse-supplements/acel0014-0887-sd2.docx": "ce64ddc053b5422ccd6f4d151b31cf2d74f2591cbfab5860e29e3272416f3e2a",
+    "mouse-supplements/acel0014-0887-sd3.docx": "3d61811d66c6e71dbb3dfbe6dd764a615209e0e929ab1f48a25ecf342f4d29ab",
+    "mouse-supplements/acel0014-0887-f1.jpg": "674ee2c036856d098bcadaa1a92f5802407beed85070222d2b02562354fef201",
+    "mouse-supplements/acel0014-0887-f2.jpg": "67201a63784ae93600d68ed5eefcf50d0f1deaee9f048bade0f9b6c884db2fcf",
+    "mouse-supplements/acel0014-0887-f3.jpg": "100052ee6091ddd1fddfecddb43025c69599b70e7b07e86ca7bc1870591aba26",
+    "mouse-supplements/acel0014-0887-f4.jpg": "33f863e9835ad081eabf4ea4dc652ffe1a9be1c086111f758b4d2e03be859d1a",
+    "mouse-supplements/acel0014-0887-f5.jpg": "82ff762230d61215a183fd9d568260162c1a16d62574196dfd118667c6c4f11d",
+    "mouse-part-01.txt": "14a68668df67070ae4ed90bd3e066f1dd9e1ee313604c1291bd8a830df1dffe0",
+    "mouse-part-02.txt": "895705542825f1d5abb8def65007ff9c1891b767e793067d0d2ddc1ca1647114",
+    "mouse-part-03.txt": "6d4cdc8af5843bb02a91843b99a481f0fc7d71d4a6b2d4ebb71f55cbd66e5b27",
+    "mouse-part-04.txt": "c4aa452ce14c92e06af3b43725c4689eb126302be436a5606e765ea32a59bd9a",
+    "mouse-part-05.txt": "eb9ec37b50f556dac234ae6e9ceaa81f14c7eb26c82e1c30e72500b04db1da1c",
+    "oral-part-01.txt": "563d63fa84bbe76183bb9a77968609127df4d1f13abbd4c45dbd8097f8b6a47c",
+    "oral-part-02.txt": "b50dec80fba1270d923a259755819940dc9e003bef335911f11f4b18eec138fc",
+    "oral-part-03.txt": "f0eb42e6ef96d0a81dbaebc73d41d2908faf7c464352f5e0c06b434836b712f9"
+  },
+  "retrieval_manifest": {
+    "file": "retrieval-manifest.json",
+    "sha256": "8974ebd6681c1f022f7588b46b41d1049442cfbdb346d64e9ac5b796aa80d2af"
+  },
+  "reading_scope": {
+    "file": "reading-scope.json",
+    "sha256": "5ed300d9438411da8f39967e91b9a9fab16bbfb7d884998896eec030ba9ecdb2"
+  },
+  "source_reviewer_status": "BOUNDED_SOURCE_QUALIFICATION_WITH_EXPLICIT_IVM_AND_COMMENT_ACCESS_LIMITS",
+  "source_reviewer_integration_limits": {
+    "repository_modified": false,
+    "ledger_modified": false,
+    "outer_reading_credit": 0,
+    "nominee_promotion": false,
+    "independent_replication_performed": false,
+    "root_or_second_reader_approval_invented": false
+  },
+  "status": "INTEGRATED_WITH_SOURCE_SPECIFIC_READING_AND_ASSAY_LIMITS",
+  "qualification_md_sha256": "6b5057328ac7f459541bdb71957ec0d9d31ac7731a80950cd19df93405dc7d09",
+  "integration": {
+    "baseline": "b7c292408b99afc80493a8cb462e929caff9ed04",
+    "baseline_assessments": 219,
+    "current_assessments": 222,
+    "prior_decision_objects_unchanged": 218,
+    "refined_prior_ids": [
+      "new-vitamin-k2"
+    ],
+    "decision_id": "new-coq10",
+    "frozen_source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/coq10-reproduction-followup-20260923/qualification.json",
+      "sha256": "05c3609831af9eaecc66c77cddddf21f8d185dd98fe1d94fc1268dd06c8b9533"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/reproductive-functional-integration-20260923/root-reading.json",
+      "sha256": "e7e453696c8d559cfb0fe1309cc2066cada0dc995533bb4e7281d0865d1566f0"
+    },
+    "new_original_queue_credit": 0,
+    "all47_source_question_records_unchanged": true,
+    "MVA_efficacy_or_nominee_superiority_established": false,
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/coq10-reproduction-followup-20260923/independent/independent-check.json",
+      "sha256": "b45b55fe128dc1b9268de92511c2e6c5cea99143428e106684ae5595fba898c7"
+    }
+  }
+}

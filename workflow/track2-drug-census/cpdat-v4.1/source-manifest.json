@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "retrieval_date": "2026-09-28",
+  "source": "US EPA ChemExpo bulk composition download; CPDat 4.1 (May 2025, as labelled on current ChemExpo page)",
+  "source_page": "https://comptox.epa.gov/chemexpo/",
+  "download_page": "https://comptox.epa.gov/chemexpo/get_data/",
+  "file_url": "https://comptox.epa.gov/chemexpo/dl_co_chemicals/",
+  "download_response_filename": "ChemExpo_bulk_composition_chemicals_20260928.zip",
+  "license": "No separate license statement was captured on the live bulk-download page; the v4.0 CC0 designation is not applied to this v4.1 snapshot.",
+  "archive_cache_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/cpdat-consumer-inventory-20260928/cpdat_v4.1_chemexpo_bulk_composition_20260928.zip",
+  "archive_bytes": 63166256,
+  "archive_sha256": "13c5f2993767d12ec75b47ec4d8d4ce3febb6640ebfa2ece502c32fe7243aa20",
+  "composition_csv_member": "ChemExpo_bulk_composition_chemicals.csv",
+  "composition_csv_uncompressed_bytes": 1083810855,
+  "composition_filter": "Selected PUC Kind and nonblank DTXSID",
+  "product_identity_basis": "Data Document ID + Product Name; not equivalent to v4.0 cpdat_product_id",
+  "source_corpus": "BUB1B/BUBR1 Europe PMC corpus frozen 2026-09-21",
+  "target_corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+  "decision_ledger_sha256": "b3802bba5a4a2aee7165511f8dcbff945d12808ef45515902d535a5616f66b5e",
+  "decision_ledger_count": 289,
+  "screening_script": "workflow/track2-drug-census/build_cpdat_bub1b_screen.py",
+  "screening_script_sha256": "beacd5c63fa1b7467c09e300ce4ed7ded9b41b833347ea781b7669851fcda7a3",
+  "puc_kind": "Formulation",
+  "output_table": "consumer-formulations.tsv",
+  "outputs": [
+    {
+      "path": "README.md",
+      "bytes": 5550,
+      "sha256": "3279ede34a084b0b78f89c59ccc46bfe9b4ee56e9a2142dc766e6d6d17e89267"
+    },
+    {
+      "path": "consumer-formulations.tsv",
+      "bytes": 3169428,
+      "sha256": "e1a2bcdc006e6e28b73426ac84cdcec1878a1ac1e46a5586b23b9d669ce2063b"
+    },
+    {
+      "path": "product-category-summary.tsv",
+      "bytes": 651,
+      "sha256": "133e48962dbb12b19e6d6d1f76a66d727dc230b52dcc4e0ad9c5b3a1f0b8b070"
+    },
+    {
+      "path": "bub1b-exact-name-co-mentions.tsv",
+      "bytes": 358218,
+      "sha256": "f7031b7c2a56e518b20b2e6dbad2220c44759b82bc5c5b1f0195e220d395f9a6"
+    },
+    {
+      "path": "screen-summary.json",
+      "bytes": 2942,
+      "sha256": "d2bb7ed45bc8630e2dba8ddd60d63ec20a03dcbd01f1737deb246fdf661dc590"
+    },
+    {
+      "path": "new-exact-hit-triage.tsv",
+      "bytes": 5135,
+      "sha256": "0606113a0a297bb5a6790a3079a625929027ee0d8241cdffbe0378e0abf8dc7f"
+    },
+    {
+      "path": "../naproxen-ibuprofen-bubr1b-qualification.md",
+      "bytes": 4255,
+      "sha256": "f1258af60bd35fb068a75b2372ead75facd6108ab0d7145cf09dc06ae26d69d7"
+    },
+    {
+      "path": "../naproxen-ibuprofen-bubr1b-qualification.json",
+      "bytes": 3578,
+      "sha256": "4cbb0ec772ae8811ecbfa4f458a09b4d8b9a9183e437279426e18575d2b821cf"
+    }
+  ],
+  "scope_limit": "Formulation-only exposure discovery; no claim of complete medicines, chemical efficacy, current products or actual exposure."
+}

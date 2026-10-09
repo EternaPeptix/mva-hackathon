@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "status": "LEXICAL_DISCOVERY_ONLY_NOT_EFFICACY_REVIEW",
+  "cpdat_release": "CPDat v4.0, Figshare version 5, posted 2025-04-09",
+  "cpdat_source_url": "https://comptox.epa.gov/chemexpo/get_data/",
+  "cpdat_doi": "10.23645/epacomptox.5352997",
+  "composition_table": "cpdat_v4.0/cpdat_v4.0_product_composition_data.csv",
+  "product_identity_basis": "cpdat_product_id",
+  "puc_kind": "Article",
+  "cpdat_scope": "Product composition table filtered to PUC Kind=Article; product categories are retained separately. Product records do not prove current availability, use, exposure, or ingredient concentration in a purchased item.",
+  "cpdat_archive_sha256": "53cd5b49210a6f3790be0c33485654de7461b4d1fdeea9fdc312668c82e93d15",
+  "gene_corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+  "decision_ledger_sha256": "b3802bba5a4a2aee7165511f8dcbff945d12808ef45515902d535a5616f66b5e",
+  "decision_ledger_count": 289,
+  "gene_corpus_query": "BUB1B OR BUBR1 OR \"mosaic variegated aneuploidy\"",
+  "gene_corpus_records": 7362,
+  "selected_kind_composition_rows_with_dtxsid": 63457,
+  "unique_selected_kind_dtxsids": 2468,
+  "unique_normalized_selected_kind_names": 9506,
+  "selected_kind_alias_rows": 12299,
+  "selected_kind_categories": 14,
+  "exact_name_screen_counts": {
+    "REVIEW_EXACT_NAME": 190,
+    "LOW_SPECIFICITY": 1425,
+    "AMBIGUOUS_DTXSID": 37
+  },
+  "exact_unique_name_matches_written": 190,
+  "source_id_records_with_any_exact_or_low_specificity_match": 1209,
+  "source_id_records_with_review_class_exact_match": 125,
+  "review_class_exact_match_dtxsids": 79,
+  "review_class_matches_to_existing_decision_aliases": 7,
+  "limitations": [
+    "CPDat is a dated source release and the bulk download endpoint may be updated independently; archive hashes identify the exact bytes used.",
+    "This is a lexical exact-name screen of curated/raw chemical names against titles and abstracts in the fixed BUB1B/BUBR1 literature corpus.",
+    "LOW_SPECIFICITY names use the existing BUB1B corpus common-term list plus explicit CPDat generic labels; they are counted but excluded from the review list. Multi-DTXSID names are also excluded.",
+    "A co-mention is not evidence that the chemical was administered, changed BUB1B/BUBR1, or improved MVA phenotype.",
+    "No CPDat record establishes current market presence, actual household exposure, dose, route, or product concentration.",
+    "CPDat v4.1 has no stable product ID column in its bulk composition export; distinct Data Document ID plus Product Name pairs are used only as a descriptive key and are not equivalent to the v4.0 cpdat_product_id field."
+  ]
+}

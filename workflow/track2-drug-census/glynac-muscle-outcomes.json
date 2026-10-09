@@ -1,0 +1,281 @@
+{
+  "purpose": "Portable exact selected source numbers; no new hypothesis tests or inferred treatment-contrast confidence intervals.",
+  "pmid35975308": {
+    "source": "Table 2, official publisher HTML and native AOP PDF page 7; Methods Statistical Analysis; complete Supplement S1/S2",
+    "group_definitions": {
+      "OAG": "older adults receiving glycine 100 mg/kg/day plus NAC 100 mg/kg/day for 16 weeks",
+      "OAP": "older adults receiving alanine 200 mg/kg/day for 16 weeks",
+      "YA": "young reference cohort; not randomized against young placebo"
+    },
+    "denominators": {
+      "OAG_baseline": 12,
+      "OAG_week16": 11,
+      "OAP_baseline": 12,
+      "OAP_week16": 12,
+      "YA_table": 11
+    },
+    "statistics": "Published means ± SD, not change-score SEs. P strings below are within-arm baseline-to-week16 comparisons; Methods specifies Holm correction within each measure. No final active-vs-placebo functional P/CI or cohort-by-time P supplied in examined main/supplement.",
+    "physical_function": [
+      {
+        "endpoint": "gait_speed",
+        "unit": "m/s",
+        "OAG_baseline_mean_sd": [
+          1.13,
+          0.19
+        ],
+        "OAG_week16_mean_sd": [
+          1.34,
+          0.28
+        ],
+        "OAG_within_P": ".032",
+        "OAP_baseline_mean_sd": [
+          1.11,
+          0.19
+        ],
+        "OAP_week16_mean_sd": [
+          1.16,
+          0.21
+        ],
+        "OAP_within_P": ">.99",
+        "between_arm_P": null,
+        "between_arm_CI": null
+      },
+      {
+        "endpoint": "dominant_grip",
+        "unit": "kg",
+        "OAG_baseline_mean_sd": [
+          32.3,
+          10.0
+        ],
+        "OAG_week16_mean_sd": [
+          36.7,
+          10.6
+        ],
+        "OAG_within_P": ".004",
+        "OAP_baseline_mean_sd": [
+          31.4,
+          9.8
+        ],
+        "OAP_week16_mean_sd": [
+          29.3,
+          10.9
+        ],
+        "OAP_within_P": ".14",
+        "between_arm_P": null,
+        "between_arm_CI": null
+      },
+      {
+        "endpoint": "nondominant_grip",
+        "unit": "kg",
+        "OAG_baseline_mean_sd": [
+          29.6,
+          9.2
+        ],
+        "OAG_week16_mean_sd": [
+          33.9,
+          10.5
+        ],
+        "OAG_within_P": ".004",
+        "OAP_baseline_mean_sd": [
+          30.7,
+          10.6
+        ],
+        "OAP_week16_mean_sd": [
+          27.8,
+          11.7
+        ],
+        "OAP_within_P": ".009",
+        "between_arm_P": null,
+        "between_arm_CI": null
+      },
+      {
+        "endpoint": "chair_rise_time",
+        "unit": "s",
+        "OAG_baseline_mean_sd": [
+          25.6,
+          8.9
+        ],
+        "OAG_week16_mean_sd": [
+          18.8,
+          6.6
+        ],
+        "OAG_within_P": ".002",
+        "OAP_baseline_mean_sd": [
+          22.6,
+          4.0
+        ],
+        "OAP_week16_mean_sd": [
+          20.7,
+          3.8
+        ],
+        "OAP_within_P": ".86",
+        "between_arm_P": null,
+        "between_arm_CI": null
+      },
+      {
+        "endpoint": "six_minute_rapid_walk",
+        "unit": "m",
+        "OAG_baseline_mean_sd": [
+          522.5,
+          62.5
+        ],
+        "OAG_week16_mean_sd": [
+          564.8,
+          68.9
+        ],
+        "OAG_within_P": ".053",
+        "OAP_baseline_mean_sd": [
+          518.3,
+          52.9
+        ],
+        "OAP_week16_mean_sd": [
+          527.1,
+          66.0
+        ],
+        "OAP_within_P": ".99",
+        "between_arm_P": null,
+        "between_arm_CI": null
+      },
+      {
+        "endpoint": "lean_mass",
+        "unit": "kg",
+        "OAG_baseline_mean_sd": [
+          57.2,
+          10.2
+        ],
+        "OAG_week16_mean_sd": [
+          57.6,
+          10.8
+        ],
+        "OAG_within_P": ">.99",
+        "OAP_baseline_mean_sd": [
+          51.2,
+          13.0
+        ],
+        "OAP_week16_mean_sd": [
+          51.1,
+          12.8
+        ],
+        "OAP_within_P": ">.99",
+        "between_arm_P": null,
+        "between_arm_CI": null
+      }
+    ],
+    "selected_tissue_marker": {
+      "name": "muscle GSH",
+      "unit": "mmol/kg",
+      "OAG_baseline_mean_sd": [
+        2.4,
+        0.6
+      ],
+      "OAG_week16_mean_sd": [
+        6.3,
+        1.2
+      ],
+      "OAG_within_P": "<.001",
+      "OAP_baseline_mean_sd": [
+        2.4,
+        0.8
+      ],
+      "OAP_week16_mean_sd": [
+        2.4,
+        0.8
+      ],
+      "interpretation": "Measured muscle-metabolite response, not BUBR1 or chromosome fidelity."
+    },
+    "native_figure2B_nonsignificant_within_OAG_markers": {
+      "GCLM": ".076",
+      "pAMPK/AMPK": ".090",
+      "ATP5A": ".095",
+      "LC3AB": ".17",
+      "POT1": ".6"
+    },
+    "protein_analysis_unit": "3 participants per group; serial biopsies paired within participant; bulk immunoblot densitometry normalized to beta-actin; not per-cell assays"
+  },
+  "pmid35821844": {
+    "source": "Main Table 2 native PDF page 10; Results/Figure 4; Supplement Tables S5-S6",
+    "dose_definition": "2.4/4.8/7.2 g/day total 1:1 glycine+NAC for 14 days, not each ingredient dose",
+    "randomized": 117,
+    "completed": 114,
+    "primary_endpoint": "whole-blood total GSH normalized to hematocrit",
+    "primary_unit_as_printed": "mg/L per % Ht",
+    "primary_endpoint_LS_mean_CI": {
+      "placebo": {
+        "mean": 903.5,
+        "CI95": [
+          835.4,
+          977.2
+        ]
+      },
+      "2.4g": {
+        "mean": 947.7,
+        "CI95": [
+          876.6,
+          1014.6
+        ],
+        "Pe_vs_placebo": ".904"
+      },
+      "4.8g": {
+        "mean": 907.7,
+        "CI95": [
+          841.1,
+          979.5
+        ],
+        "Pe_vs_placebo": ".934"
+      },
+      "7.2g": {
+        "mean": 959.6,
+        "CI95": [
+          889.7,
+          1035.1
+        ],
+        "Pe_vs_placebo": ".278"
+      }
+    },
+    "CI_limit": "These are arm-specific endpoint CIs, not treatment-difference CIs. Source 2.4g CI is transcribed as printed.",
+    "GSHF_GSSG_Pe_vs_placebo": [
+      ".276",
+      ".502",
+      ".739"
+    ],
+    "posthoc_low_GSH_high_MDA": {
+      "selection": "lower half baseline GSH and upper half baseline MDA; 4.8 and 7.2 g pooled",
+      "pooled_active_baseline_median": 819.7,
+      "pooled_active_end_median": 905.4,
+      "within_active_P": ".016",
+      "placebo_baseline_median": 824.4,
+      "placebo_end_median": 780,
+      "within_placebo_P": ".734",
+      "between_arm_change_P": null,
+      "interaction_P": null,
+      "conflict": "Abstract labels 819.7 as placebo; full Results/Fig4C identify it as the active subgroup baseline. Do not convert the paired P into treatment-versus-placebo evidence."
+    },
+    "nominal_within_arm_exceptions": {
+      "2.4g_GSHT_Pc": ".045",
+      "2.4g_GSHF_Pc": ".014",
+      "placebo_GSHF_GSSG_Pc": ".040"
+    },
+    "posthoc_glycine_ANCOVA": {
+      "subset": "baseline glycine top quartile excluded",
+      "reference": "placebo; adjusted for baseline glycine",
+      "unit": "µmol/L per % Ht as source",
+      "2.4g": {
+        "estimate": 29.99,
+        "SE": 27.03,
+        "P": ".27"
+      },
+      "4.8g": {
+        "estimate": 65.1,
+        "SE": 27.63,
+        "P": ".021"
+      },
+      "7.2g": {
+        "estimate": 74.9,
+        "SE": 27.29,
+        "P": ".007"
+      },
+      "limit": "Circulating precursor response; not muscle function or overall GSH efficacy."
+    },
+    "physical_function": "Not measured/reported as a clinical function endpoint; no muscle-function null inferred."
+  }
+}

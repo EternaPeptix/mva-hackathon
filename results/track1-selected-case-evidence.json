@@ -1,0 +1,511 @@
+{
+  "scope": "Selected aggregate results recovered from completed September 19-20 analyses; not a new analysis or full case-data export.",
+  "ranking_input": "Organizer-supplied VCF and seven supplied subject HPO terms. No final four-lane native-callset ranking rerun is claimed.",
+  "resources": {
+    "Exomiser": "15.1.0; hg38 and phenotype bundles 2512",
+    "LIRICAL": "2.4.1; HPO 2026-09-01; Ensembl transcript database",
+    "phenotype_annotations": "Historical report states 2026-09-02; raw date header not independently recovered. Retained file hash below is authoritative for identity.",
+    "REVEL": "Historical provenance: v1.3",
+    "AlphaMissense": "Primary hg38 release; exact release date not retained",
+    "public_lirical_resource_sha256": {
+      "hp.json": "a7b3a012e7b4007a35a7cf8da35f2373b54cc16907f80d13d62470d31f833501",
+      "phenotype.hpoa": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+      "hgnc_complete_set.txt": "729fcc76e1e0efba6f8959d4a3ce6ab6d68a5b248de64269dcaa7c7f7625bc17",
+      "mim2gene_medgen": "0a8ede2a37ac4ba88bfd00e5dbc42c67585bc19e11f94f2d01fabe42fe364e2c",
+      "en_product6.xml": "f1c039f78683beea7ca5b34d1c01c4ec98f80e8ca488eee69770074db1020e39",
+      "hg19_ensembl.ser": "5e149f4e1fff0dd670fba0dd94f7ecc56ee681a0b9c8506f3cc8cf1c7e15d8d8",
+      "hg19_refseq.ser": "ce3635d85b9465e1bcf0e6290cdeedeadb5f7a5ea365d5055c1968714f4c6308",
+      "hg19_refseq_curated.ser": "624a87d093ccb682890a0e2b593ddb260ca869350b5fe5927fc8b5b17fd3e58b",
+      "hg38_ensembl.ser": "c1f6f3bb670b234e5d6bd5da00312f72c2108f22d6b390b65e70cfeb46609c92",
+      "hg38_refseq.ser": "b2a2fdb8eb9e52abfc748f55c61db3dbfc77ed1d76d81913c70d6b4db821c9b8",
+      "hg38_refseq_curated.ser": "2066e7fedf2f3218fd3b5f425efdfef38262cfcda32d9d5497d492db367947e0"
+    },
+    "public_exomiser_database_sha256": {
+      "2512_hg38_clinvar.mv.db": "76b55ca5a842981997bce12eb36151ef4fd0682fc99c6080306655901f6426e2",
+      "2512_hg38_genome.mv.db": "2b8bac0f17ce0c9d02b628c7a990621aa5ae1da61f9ad06f182def96c14b5805",
+      "2512_hg38_variants.mv.db": "191585391252f5b9f86a6fefa2b891feda8058bb0f273a661de9e101c8104c1a"
+    }
+  },
+  "exomiser": {
+    "rank_unit": "gene and inheritance-model combination",
+    "source_summaries": [
+      "exomiser-ranking-comparison-20260919.json",
+      "exomiser-predictor-sensitivity-20260919.json"
+    ],
+    "runs": [
+      {
+        "name": "subject-phenotypes",
+        "BUB1B": [
+          {
+            "inheritance": "AD",
+            "rank": 1,
+            "combined_score": 0.5464
+          },
+          {
+            "inheritance": "AR",
+            "rank": 2,
+            "combined_score": 0.4877
+          }
+        ],
+        "AR_pair_matches_nominated_pair": true
+      },
+      {
+        "name": "parental-history-sensitivity",
+        "BUB1B": [
+          {
+            "inheritance": "AD",
+            "rank": 1,
+            "combined_score": 0.586
+          },
+          {
+            "inheritance": "AR",
+            "rank": 2,
+            "combined_score": 0.5565
+          }
+        ],
+        "AR_pair_matches_nominated_pair": true
+      },
+      {
+        "name": "revel-only-strict",
+        "BUB1B": [
+          {
+            "inheritance": "AD",
+            "rank": 1,
+            "combined_score": 0.5464
+          }
+        ],
+        "keepNonPathogenic": false
+      },
+      {
+        "name": "revel-only-permissive",
+        "BUB1B": [
+          {
+            "inheritance": "AD",
+            "rank": 1,
+            "combined_score": 0.5464
+          },
+          {
+            "inheritance": "AR",
+            "rank": 3,
+            "combined_score": 0.1806
+          }
+        ],
+        "keepNonPathogenic": true
+      }
+    ]
+  },
+  "lirical": {
+    "rank_unit": "Disease rank in complete JSON, exact-probability ties allowed",
+    "source_summary": "lirical-comparison-20260919-full.json",
+    "runs": [
+      {
+        "name": "subject-compatible",
+        "mode": "phenotype_only",
+        "disease": "MVA1 (OMIM:257300)",
+        "rank": 4,
+        "json_disease_count": 8525,
+        "model_probability_not_EPCR": 0.01785847482318165
+      },
+      {
+        "name": "without-rhabdomyosarcoma-compatible",
+        "mode": "phenotype_only",
+        "disease": "MVA1 (OMIM:257300)",
+        "rank": 38,
+        "json_disease_count": 8525,
+        "model_probability_not_EPCR": 9.810499534128152e-05
+      },
+      {
+        "name": "rhabdomyosarcoma-only-compatible",
+        "mode": "phenotype_only",
+        "disease": "MVA1 (OMIM:257300)",
+        "rank": 10,
+        "json_disease_count": 8525,
+        "model_probability_not_EPCR": 0.02127903901521473
+      },
+      {
+        "name": "genome-global-json-compatible",
+        "mode": "genotype_aware",
+        "disease": "MVA1 (OMIM:257300)",
+        "rank": 1,
+        "json_disease_count": 8525,
+        "model_probability_not_EPCR": 0.9575393487837311
+      }
+    ],
+    "parental_history_sensitivity": "Failed strict validation; no successful corresponding result."
+  },
+  "N1002K_predictors": {
+    "source_summary": "lirical-candidate-metadata-20260919.json",
+    "scores": {
+      "ALPHA_MISSENSE": 0.9229,
+      "REVEL": 0.472
+    },
+    "adopted_criterion_policy": "REVEL 0.472 is indeterminate: no PP3 or BP4. AlphaMissense is a disclosed alternative, not stacked or selected to upgrade the allele.",
+    "ranking_transcript": "ENST00000287598.10; current reconstruction uses .11"
+  },
+  "allele_presence": {
+    "source_summary": "bub1b-four-lane-targets-20260920.json",
+    "scope": "Selected SNPs in completed four-lane alignment; same biological sample.",
+    "filter_policy": {
+      "minimum_mapping_quality": 20,
+      "minimum_base_quality": 20,
+      "exclude_flags": "0xF04",
+      "BAQ": true,
+      "one_fragment_per_RG_and_query_name": true,
+      "conflicting_mates_retained_separately": true
+    },
+    "counting": "One observation per read-group/query-name pair; disagreeing mates retained separately; orphan pairs excluded. Caller depth is not the same quantity.",
+    "candidates": [
+      {
+        "candidate": "15:40209701:T:G",
+        "REF_fragments": 21,
+        "ALT_fragments": 26,
+        "ALT_strand_fragments": {
+          "forward": 14,
+          "reverse": 12
+        },
+        "mate_conflict_fragments": 0
+      },
+      {
+        "candidate": "15:40220612:T:G",
+        "REF_fragments": 15,
+        "ALT_fragments": 12,
+        "ALT_strand_fragments": {
+          "reverse": 7,
+          "both": 1,
+          "forward": 4
+        },
+        "mate_conflict_fragments": 0
+      }
+    ]
+  },
+  "BUB1B_locus_census": {
+    "source_summary": "bub1b-native-locus-summary-20260920.json",
+    "gene_plus_flank_GRCh38_1based_inclusive": "15:40155984-40226137",
+    "annotation": "Ensembl 116; MANE ENST00000287598.11",
+    "callers": {
+      "gatk": {
+        "window_records": 17,
+        "gene_records": 14,
+        "exon_or_CDS_overlap_positions": [
+          40209701,
+          40220612
+        ],
+        "additional_screened_splice_overlap_count": 0,
+        "whole_chr15_records": 141845
+      },
+      "bcftools": {
+        "window_records": 16,
+        "gene_records": 13,
+        "exon_or_CDS_overlap_positions": [
+          40209701,
+          40220612
+        ],
+        "additional_screened_splice_overlap_count": 0,
+        "whole_chr15_records": 141309
+      }
+    },
+    "scope_limit": "Emitted native records, unfiltered FILTER dot; no new PASS/GQ threshold. Splice screen covers canonical first/last two intronic bases and broader three exonic/eight intronic bases, not every splice mechanism."
+  },
+  "phase": {
+    "source_summary": "bub1b-four-lane-phasing-20260920.json",
+    "whatshap_version": "2.8",
+    "scope": "Completed four-lane alignment, bounded GRCh38 15:40204701-40225612 regional calls. Same child and sequencing data.",
+    "read_policy": {
+      "excluded_flags": "0xF04",
+      "minimum_mapping_quality": 20,
+      "hard_minimum_base_quality": null,
+      "base_quality_handling": "WhatsHap realignment/quality model; no BQ20 hard filter",
+      "supplementary_used": false,
+      "duplicates_used": false,
+      "statistical_population_or_pedigree_phasing": false,
+      "prior_VCF_phase_fields_removed": [
+        "PS",
+        "PGT",
+        "PID",
+        "HP",
+        "PQ"
+      ]
+    },
+    "candidate_distance_bp": 10911,
+    "historical_vendor_maximum_block_span_bp": 288,
+    "historical_two_lane_100kb_maximum_block_span_bp": 2327,
+    "historical_scope_note": "The 2327 bp maximum belongs to the earlier two-lane 100 kb study, not the final four-lane bounded runs.",
+    "four_lane_runs": [
+      {
+        "record_count": 6,
+        "phase_blocks": 0,
+        "maximum_block_span_bp": 0,
+        "maximum_gap_between_intervening_heterozygous_positions_bp": 6769,
+        "candidate_pair_relation": "unknown",
+        "name": "gatk_four_lane-all"
+      },
+      {
+        "record_count": 6,
+        "phase_blocks": 0,
+        "maximum_block_span_bp": 0,
+        "maximum_gap_between_intervening_heterozygous_positions_bp": 6769,
+        "candidate_pair_relation": "unknown",
+        "name": "gatk_four_lane-snvs"
+      },
+      {
+        "record_count": 6,
+        "phase_blocks": 1,
+        "maximum_block_span_bp": 77,
+        "maximum_gap_between_intervening_heterozygous_positions_bp": 6769,
+        "candidate_pair_relation": "unknown",
+        "name": "bcftools_four_lane-all"
+      },
+      {
+        "record_count": 6,
+        "phase_blocks": 0,
+        "maximum_block_span_bp": 0,
+        "maximum_gap_between_intervening_heterozygous_positions_bp": 6769,
+        "candidate_pair_relation": "unknown",
+        "name": "bcftools_four_lane-snvs"
+      }
+    ]
+  },
+  "limitations": [
+    "Curated numerical projection, not independently verifiable from public case reads: restricted inputs and full original result ledgers are not included.",
+    "Caller agreement and ranker agreement reuse the same sample, variants and some databases. They are not independent biological replication.",
+    "Model probabilities are not calibrated EPCR, phase observations or measured missense function.",
+    "The final inventory and read reviews are distinct from earlier vendor-VCF prioritization. No new ranking or biological measurement was run for this revision."
+  ],
+  "coding_differential": {
+    "source_summaries": [
+      "native-coding-autosomes-gatk-summary-20260920.json",
+      "native-coding-autosomes-bcftools-summary-20260920.json"
+    ],
+    "source_inventories": "Restricted completed autosomal coding-allele inventories, one per caller; omitted from the repository.",
+    "both_callers_agree": true,
+    "all_22_autosomes_complete": true,
+    "counts_per_caller": {
+      "BUB1B": {
+        "inventory_alleles": 2,
+        "AF_below_0_01": 2,
+        "frequency_unresolved": 0,
+        "retained_max_AF_fractions": [
+          8.992757233324281e-07,
+          9.982140062914461e-05
+        ]
+      },
+      "TRIP13": {
+        "inventory_alleles": 0,
+        "AF_below_0_01": 0,
+        "frequency_unresolved": 0,
+        "retained_max_AF_fractions": []
+      },
+      "CEP57": {
+        "inventory_alleles": 0,
+        "AF_below_0_01": 0,
+        "frequency_unresolved": 0,
+        "retained_max_AF_fractions": []
+      },
+      "CENATAC": {
+        "inventory_alleles": 1,
+        "AF_below_0_01": 0,
+        "frequency_unresolved": 0,
+        "retained_max_AF_fractions": [
+          0.04470064724919094
+        ]
+      },
+      "MAD2L1BP": {
+        "inventory_alleles": 0,
+        "AF_below_0_01": 0,
+        "frequency_unresolved": 0,
+        "retained_max_AF_fractions": []
+      },
+      "SLF2": {
+        "inventory_alleles": 1,
+        "AF_below_0_01": 0,
+        "frequency_unresolved": 0,
+        "retained_max_AF_fractions": [
+          0.6141807606948803
+        ]
+      },
+      "SMC5": {
+        "inventory_alleles": 1,
+        "AF_below_0_01": 0,
+        "frequency_unresolved": 0,
+        "retained_max_AF_fractions": [
+          0.9338928706148624
+        ]
+      },
+      "TRIM37": {
+        "inventory_alleles": 0,
+        "AF_below_0_01": 0,
+        "frequency_unresolved": 0,
+        "retained_max_AF_fractions": []
+      },
+      "BUB1": {
+        "inventory_alleles": 0,
+        "AF_below_0_01": 0,
+        "frequency_unresolved": 0,
+        "retained_max_AF_fractions": []
+      },
+      "BUB3": {
+        "inventory_alleles": 0,
+        "AF_below_0_01": 0,
+        "frequency_unresolved": 0,
+        "retained_max_AF_fractions": []
+      },
+      "MAD2L1": {
+        "inventory_alleles": 0,
+        "AF_below_0_01": 0,
+        "frequency_unresolved": 0,
+        "retained_max_AF_fractions": []
+      }
+    },
+    "filter_policy": "Protein-altering and canonical-splice effects on supported protein-coding transcripts; no FILTER/DP/GQ admission threshold. AF is maximum valid AC/AN across retained GNOMAD_E_/GNOMAD_G_ sources in Exomiser 2512. This table uses AF <0.01; native sensitivity models use <=0.01; no selected row equals the boundary."
+  },
+  "coding_depth": {
+    "source_summary": "coding-depth-summary-20260920.json",
+    "scope": "All-transcript CDS unions from Ensembl 116; completed four-lane alignment.",
+    "counting": "Overlapping mates suppressed; flags 0xF04 excluded; deletion/reference-skip bases excluded; no BAQ. Depth is not validated clinical callability.",
+    "genes": {
+      "BUB1B": {
+        "CDS_union_bases": 3549,
+        "MQ20_BQ20": {
+          "minimum_depth": 24,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        },
+        "MQ60_BQ20": {
+          "minimum_depth": 24,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        }
+      },
+      "TRIP13": {
+        "CDS_union_bases": 1388,
+        "MQ20_BQ20": {
+          "minimum_depth": 24,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        },
+        "MQ60_BQ20": {
+          "minimum_depth": 24,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        }
+      },
+      "CEP57": {
+        "CDS_union_bases": 1884,
+        "MQ20_BQ20": {
+          "minimum_depth": 20,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        },
+        "MQ60_BQ20": {
+          "minimum_depth": 20,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        }
+      },
+      "CENATAC": {
+        "CDS_union_bases": 1248,
+        "MQ20_BQ20": {
+          "minimum_depth": 28,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        },
+        "MQ60_BQ20": {
+          "minimum_depth": 28,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        }
+      },
+      "MAD2L1BP": {
+        "CDS_union_bases": 982,
+        "MQ20_BQ20": {
+          "minimum_depth": 23,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        },
+        "MQ60_BQ20": {
+          "minimum_depth": 23,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        }
+      },
+      "SLF2": {
+        "CDS_union_bases": 4044,
+        "MQ20_BQ20": {
+          "minimum_depth": 24,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        },
+        "MQ60_BQ20": {
+          "minimum_depth": 24,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        }
+      },
+      "SMC5": {
+        "CDS_union_bases": 3739,
+        "MQ20_BQ20": {
+          "minimum_depth": 15,
+          "zero_depth_bases": 0,
+          "bases_below_20": 15
+        },
+        "MQ60_BQ20": {
+          "minimum_depth": 15,
+          "zero_depth_bases": 0,
+          "bases_below_20": 17
+        }
+      },
+      "TRIM37": {
+        "CDS_union_bases": 3286,
+        "MQ20_BQ20": {
+          "minimum_depth": 22,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        },
+        "MQ60_BQ20": {
+          "minimum_depth": 22,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        }
+      },
+      "BUB1": {
+        "CDS_union_bases": 3417,
+        "MQ20_BQ20": {
+          "minimum_depth": 20,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        },
+        "MQ60_BQ20": {
+          "minimum_depth": 20,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        }
+      },
+      "BUB3": {
+        "CDS_union_bases": 1312,
+        "MQ20_BQ20": {
+          "minimum_depth": 16,
+          "zero_depth_bases": 0,
+          "bases_below_20": 4
+        },
+        "MQ60_BQ20": {
+          "minimum_depth": 16,
+          "zero_depth_bases": 0,
+          "bases_below_20": 5
+        }
+      },
+      "MAD2L1": {
+        "CDS_union_bases": 618,
+        "MQ20_BQ20": {
+          "minimum_depth": 24,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        },
+        "MQ60_BQ20": {
+          "minimum_depth": 24,
+          "zero_depth_bases": 0,
+          "bases_below_20": 0
+        }
+      }
+    }
+  }
+}

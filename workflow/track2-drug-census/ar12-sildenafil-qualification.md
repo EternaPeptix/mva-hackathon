@@ -1,0 +1,66 @@
+# AR-12 and sildenafil: chaperone assays and tumor-cell outcomes
+
+**Source qualified with separate independent review, within assay and access limits; no MVA nomination.** Booth et al., *Multi-kinase inhibitors can associate with heat shock proteins through their NH2-termini by which they suppress chaperone function*, Oncotarget 2016;7:12975–12996, PMID 26887051, PMCID PMC4914336, DOI 10.18632/oncotarget.7349. [Original publisher article](https://www.oncotarget.com/article/7349/text/), [original XML](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4914336/fullTextXML).
+
+The paper supports AR-12-associated chaperone perturbation and reported tumor-cell killing. It directly warns against treating early loss of antibody signal as protein depletion. It also reports **no significant change in PLK4, BUB3 or BubR1 expression**, explicitly as **data not shown**. Neither finding establishes BUBR1 stabilization, checkpoint repair, healthy tissue renewal or actual-BUB1B/MVA rescue.
+
+## Identity, exposure and what was measured
+
+AR-12 is explicitly OSU-03012 in this source. Materials lists OSU-03012 from Selleckchem and AR-12/AR-13 supplied by Arno Therapeutics; experiment-to-lot mapping, catalog numbers and purity are not given. Sildenafil was purchased from Selleckchem; a salt, pharmaceutical formulation or clinical-equivalent exposure is not established. **AR-13 is a separate analogue**, and the biotin-linked AR-12 affinity reagent is a separate probe, not assumed to have identical selectivity or potency.
+
+| Experiment | Actual finding and controls | Boundary |
+|---|---|---|
+| Early imaging versus westerns, Figures 1–2 and 10–11 | AR-12 0–3 µM with or without sildenafil 2 µM is tested at 2 h in HuH7/HT1080. Key GBM comparisons use AR-12 2 µM with or without sildenafil 2 µM. N-terminal HSP90/GRP78/HSP70 fluorescence falls more than middle/C-terminal signals. At 6 h, denaturing westerns do not show the same early loss. ERK2/JNK1 remain unchanged by both methods. | Epitope-dependent detection is not total abundance. siRNA/overexpression validates antibody targets, not the interpretation that a drug-induced imaging decrease must represent depletion. Alternative permeabilization results are reported without shown data. |
+| HSP27 and chaperone complexes, Figures 3–12 | HSP27 imaging and western results agree more closely, but its N-terminal antibody can retain signal when other epitopes lose signal. Localization, co-localization and co-precipitation change. HSP70/HSP40 localization is reported unchanged in Figure 8. Early AKT T308 changes are small or absent relative to mTOR S2448 changes. | Neither a universal “all proteins are depleted” nor “all changes are merely accessibility” explanation is justified. Co-localization and co-precipitation do not establish direct binary binding. |
+| Biotin-AR-12 proteomics, Figure 3A and Methods | SKBR3 lysate is precleared on streptavidin beads, incubated with biotin-AR-12 with or without excess unlabelled AR-12 for 2 h, then captured for another 2 h at 4°C. Competition-selected bands yield chaperone-associated, kinase and redox proteins. | This supports compound-dependent co-capture, potentially through complexes. HSP27 is explicitly described as an indirect interactor. Exact bait/competitor concentrations and a complete quantitative selectivity/peptide-confidence audit are not supplied here. |
+| Isolated HSP90-fragment ATPase, Figure 13A | Bacterial GST-HSP90 N-terminal fragment on beads is exposed to 30, 100, 300 or 1000 nM drug. The source reports AR-12 IC50 about 200 nM with 0.1 mM ATP, versus about 40 nM for distinct AR-13. Regorafenib and celecoxib show little or no comparable inhibition in this preparation. | Reported ATPlite luminescence activity is not a binding affinity or an intracellular therapeutic window. No GST-only/no-enzyme or drug–luminescence-interference control, orthogonal turnover assay or kinetic competition series is established in the examined Methods/caption. |
+| Sildenafil-pretreated chaperone complexes, Figures 13B/C | GBM12 cells express tagged HSP90 or HSP70, then receive sildenafil 2 µM for 1 h before immunoprecipitation. Equal bead portions receive AR-12 or comparators ex vivo. Sildenafil pretreatment alone leaves baseline isolated activities near unchanged but enhances AR-12 inhibition. | This is prior cellular sildenafil exposure, not a demonstrated direct sildenafil-binding or purified-enzyme inhibition experiment. Associated proteins may contribute to complex activity. |
+| Specificity counterexample, Figure 14 | Afatinib/ruxolitinib at 0.5–2 µM do not inhibit isolated complex ATPase, yet their cellular combination at 1 µM each for 6 h reduces N-terminal antibody detection. | Antibody accessibility changes are not sufficient evidence of ATPase inhibition. Docking is a hypothesis about interaction, not crystallographic or affinity proof. |
+
+The native Figure 13 image confirms the plotted direction and the distinction between the bacterial fragment and cell-derived complexes. No points were digitized, IC50 recalculated, or confidence interval invented. The caption specifies 30 min drug incubation at 37°C before ATP-lite substrate; Methods also describes a 15 min reaction after reagent addition. These are assay conditions, not dosing guidance.
+
+Sildenafil potentiation is also compound- and chaperone-dependent: the source reports no additional inhibition of HSP90 by sildenafil pretreatment with pazopanib, while HSP70 inhibition is enhanced; regorafenib potentiation is HSP70-associated rather than HSP90-associated. Those results do not make the drugs interchangeable.
+
+## Tumor-cell function, genetic protection and normal-cell limits
+
+The main Results reports dose-dependent AR-12 and AR-13 killing in GBM6/GBM12, with stronger killing by AR-13 plus sildenafil. Its statement of more than 50% death at 100 nM concerns **AR-13 in combination**, not AR-12. The original supplemental S5 plot and caption were not recovered, so exact AR-12 death contrasts, exposure duration and statistical comparisons are not reconstructed.
+
+The main describes wild-type thioredoxin overexpression reducing AR-12-associated oxidant signal and 48 h killing, whereas inactive thioredoxin increases these outcomes. Chaperone overexpression, including HSP90, GRP78 and selected paired constructs, protects tumor cells during 24 h drug-combination exposure. These are **genetic mechanistic protection experiments**, not administered restorative therapies. Their S9/S10 plots and original captions remain unreviewed. Tumor-cell viability protection and drug-induced tumor killing do not establish healthy tissue repair.
+
+The read main and captions do not establish a direct non-transformed-cell exposure-response comparison. Discussion attributes selective tumor killing to **earlier work**. Earlier GRP78 half-life, orthotopic survival and normal-cell claims are citation context only; no related original paper was newly qualified. Normal-cell selectivity, a therapeutic margin and normal-tissue safety therefore remain unresolved in this packet.
+
+The BubR1/BUB3/PLK4 expression null has no displayed data or separately specified cell model, dose, timing, antibody, denominator or statistical contrast. It is not evidence of equivalent expression, restored BubR1 function, kinetochore recruitment, faithful daughter-cell production or actual-allele rescue.
+
+## Denominators, reporting and remaining limits
+
+Figures 1A/B and 3C report fluorescence from **40 cells per condition**, which must not be read as 40 independent biological replicates. ATPase captions state **n = 3 (×3), mean ± SEM**; Methods says triplicate experiments repeated individually three times. Preparation-level independence and fit uncertainty are not detailed. Live/dead Methods specifies about 10,000 cells per well, three images from each of three treated wells/exposures, and nine image data points; cells, images, wells and independent experiments are distinct units.
+
+The stated analysis is one-way ANOVA followed by two-tailed Student t tests, nominal P < 0.05. A prespecified endpoint hierarchy, multiplicity correction, power/exclusion rules and detailed randomization/blinding are not established. No new tests, curve fitting or formal combination-synergy analysis were performed.
+
+Two reporting mismatches are retained: Figure 7B is described as 2 h in Results but 6 h in its caption; Figure 12's heading refers to terminal HSP70 antibodies while its panels/Results describe c-MYC and HSPH1/p105. These are not silently harmonized.
+
+Funding includes Massey Cancer Center philanthropy and a named chair. Two authors are Arno Therapeutics directors, the company holding the AR-12 license; another is the inventor, and the biotin conjugate was synthesized in his laboratory. Those disclosed interests are retained without inferring misconduct.
+
+## Original source qualification reading and access
+
+The original source qualifier read the **complete scientific main text**, all 14 main captions, Methods, funding and conflicts from retained original XML and its section extracts. **Only native Figure 13** was visually inspected from its supplied JPEG. The publisher's 22-page PDF was text-accessible through the web tool but was not locally recovered or visually reviewed as a complete PDF.
+
+The original XML links a supplemental PDF. The public supplementaryFiles service returned a valid but incomplete ZIP with a few main-figure assets and no supplemental PDF; direct source routes were blocked. **No original supplemental caption or native S1–S12 figure reading is claimed.** Main-text descriptions of those experiments are identified as such. Screenshot text handles without visible images are not native reading credit.
+
+No linked correction/retraction was encountered in the bounded exact-DOI, publisher, XML and Europe PMC metadata check; this is not an exhaustive integrity search. Exact access records, hashes and reading scope accompany this qualification.
+
+Historical question n401 is **partially answered**, with normal-cell comparisons, supplemental functional contrasts and binding/assay specificity limits still open. No historical record, ledger entry, repository file or prior source was changed.
+
+## Independent review and portable synthesis scope
+
+The separate independent reviewer accepted the primary qualification without required corrections after reading the complete original scientific XML, all 14 main captions, funding and conflicts, and viewing only native Figure 13A–C. The original S1–S12 captions and native supplemental figures remain unread. The reviewer confirmed that the incomplete ZIP contains main-figure assets rather than the supplemental PDF; files named s1-text through s4-text are main-section extracts. The original PDF, other native main figures and cited earlier studies receive no additional reading credit here.
+
+This portable preparer read the frozen qualification, independent review and their reading/access records. It did not reread the original XML, figure pixels, main PDF, supplemental material or cited prior studies, and performed no new retrieval, curve fitting, statistical analysis, test or replay. The accompanying structured qualification preserves every original scientific field and value, with source, independent-primary and synthesis roles stated separately. Original administrative action fields describe the source-qualification stage; external proposals are separately recorded as synthesis actions.
+
+## Proposed source-specific comparisons
+
+At immutable ledger baseline **572f3e460dff7880e6030db4143512bb79194abc**, the requested IDs and exact spelling/spacing/punctuation-normalized aliases do not collide with an existing appraisal. The proposed aliases are **AR-12 / OSU-03012**, **sildenafil** and **AR-13**. The AR-12 equivalence is explicitly source-established; no salt, formulation, clinical exposure, brand-product or probe equivalence is added. This is a bounded ledger-identity check, not an external-catalog absence claim.
+
+AR-12 and sildenafil receive distinct drug-specific comparisons. **AR-13 also receives its own bounded research-compound comparison** because it was separately administered and has a distinct Figure 13 HSP90-fragment result. Its approximately 40 nM fragment ATPase estimate has the stated native Figure 13 review depth. Its stronger sildenafil-combination killing, including more than 50% death at 100 nM, remains a main-text report of unrecovered S5 plots/captions, with exact functional design and quantitative contrasts unresolved. Those AR-13 results are never assigned to AR-12. Missing native supplemental data limits the claim; it does not erase the reported positive.
+
+The biotin-linked AR-12 affinity probe, genetic perturbations and other assay comparators remain methodological or specificity context in this bounded synthesis and are not automatically proposed as additional appraisals. The three proposed entries describe one paper, not independent replications, restored BUBR1 function, healthy-muscle output, actual-MVA benefit or clinical eligibility. Historical n401 has direct qualified components with explicit remaining questions; this packet proposes a reconciliation but changes no active record or ledger.

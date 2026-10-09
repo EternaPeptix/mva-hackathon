@@ -1,0 +1,214 @@
+{
+  "schema_version": "accepted-source-portable-qualification-v1",
+  "status": "PORTABLE_SYNTHESIS_OF_ACCEPTED_ACCESS_LIMITED_PACKET",
+  "source_preparation": "Acute 500 mg quercetin glycoside / bounded refinement of existing reserve",
+  "decision_id": "new-quercetin-glycosides",
+  "integration_baseline": "8251103f7fd7f26e7d591fb325c60967a4f3d487",
+  "source_qualification": {
+    "producer": "/root/quercetin_primary",
+    "qualified_utc": "2026-09-28T00:05:35.911507+00:00",
+    "status": "FROZEN_ACCESS_LIMITED_SOURCE_QUALIFICATION",
+    "baseline": {
+      "repo": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
+      "verified_utc": "2026-09-28T00:05:35.911507+00:00",
+      "head": "8251103f7fd7f26e7d591fb325c60967a4f3d487",
+      "assessment_count": 279,
+      "existing_decision_id": "new-quercetin-glycosides",
+      "repo_edited": false,
+      "catalog_joins_performed": false,
+      "proposed_route": "source-specific access-limited refinement of existing glycoside appraisal"
+    },
+    "source": {
+      "pmid": "41056568",
+      "doi": "10.1139/apnm-2025-0169",
+      "title": "Effects of quercetin ingestion on neuromuscular system following single session of resistance exercise at differing intensities in older adults",
+      "primary_url": "https://pubmed.ncbi.nlm.nih.gov/41056568/",
+      "main_complete_read": false
+    },
+    "recommendation": "Retain existing glycoside reserve and earlier positives/nulls; add source-specific acute contractile decline evidence with access and exact-preparation limits. No replacement nomination or new generic quercetin identity.",
+    "identity": {
+      "verified_administered_label": "quercetin glycoside",
+      "verified_oral_dose_mg": 500,
+      "manufacturer": null,
+      "glycoside_distribution": null,
+      "excipients": null,
+      "purity": null,
+      "aglycone_equivalent_mg": null,
+      "systemic_exposure": null,
+      "same_as_existing_preparation": "UNKNOWN",
+      "existing_preparation_context": "200 mg/day San-Ei Gen F.F.I. enzymatically produced glycosides plus dextrin in six-week trial; no primary re-reading of that trial here",
+      "no_aglycone_dq_or_retail_inheritance": true
+    },
+    "design": {
+      "population": "older adults",
+      "total_reported_n": 38,
+      "intensity_groups_percent_MVC": [
+        40,
+        60,
+        80
+      ],
+      "sessions_per_participant": 2,
+      "comparator": "placebo",
+      "sampling": [
+        "pre-ingestion",
+        "post-ingestion",
+        "post-exercise"
+      ],
+      "randomized_controlled": "PubMed publication type; actual allocation method unread",
+      "double_blind": "PubMed MeSH indexing; implementation unread",
+      "randomized_intensity_allocation": null,
+      "treatment_sequence_randomization": null,
+      "all_participants_received_both_conditions": "Not explicitly resolved by accessible abstract",
+      "washout": null,
+      "exact_pre_exercise_interval": null,
+      "age_distribution": null,
+      "sex_counts": null,
+      "randomized_completed_analyzed_denominators": null,
+      "analysis_population": "UNKNOWN",
+      "source_boundary": "Do not substitute secondary-summary 60 minutes or 13/13/12 for inspected primary methods"
+    },
+    "function_eligibility": {
+      "eligible": true,
+      "reason": "Administered compound and controlled measured electrically elicited torque endpoint. Missing effect magnitude does not convert to null or ineligibility.",
+      "benefit_demonstrated": false
+    },
+    "outcomes": [
+      {
+        "endpoint": "exercise-related electrically elicited contraction torque decline",
+        "comparison": "quercetin vs placebo within intensity",
+        "low_intensity": {
+          "p": 0.014,
+          "direction": "greater decline with quercetin"
+        },
+        "moderate_intensity": {
+          "p": 0.025,
+          "direction": "greater decline with quercetin"
+        },
+        "high_intensity": {
+          "p": 0.792,
+          "direction": "no significant contrast reported; equivalence not established"
+        },
+        "effect_size": null,
+        "confidence_interval": null,
+        "intensity_interaction": "not accessible; differing P values do not establish interaction",
+        "primary_secondary_hierarchy": "UNKNOWN"
+      },
+      {
+        "endpoint": "motor-unit recruitment threshold",
+        "comparison": "before vs after ingestion, exact model/treatment contrast unspecified in abstract",
+        "p": "<.001",
+        "direction": "decreased",
+        "clinical_benefit_or_mediation": false
+      },
+      {
+        "endpoint": "association between treatment-difference changes in EEC and higher-threshold MU recruitment",
+        "low": {
+          "spearman_rs": 0.566,
+          "p": 0.047
+        },
+        "moderate": {
+          "spearman_rs": 0.692,
+          "p": 0.011
+        },
+        "high": {
+          "spearman_rs": null,
+          "p": 0.228
+        },
+        "caption_context": "Nine panels across three intensities and three MU threshold categories; QUE minus PLA differences of change scores; Spearman correlations; lines displayed at nominal P<.05",
+        "multiplicity_control": "UNKNOWN",
+        "mediation_established": false
+      }
+    ],
+    "statistical_limits": [
+      "No accessible effect means, SDs or CIs",
+      "No full model, carryover/period adjustment or allocation methods read",
+      "No available hierarchy or own-trial registry",
+      "No verified motor-unit clustering strategy",
+      "At least nine correlation panels; no accessible multiplicity correction",
+      "No reconstruction from P values or secondary summaries"
+    ],
+    "safety": {
+      "adverse_event_ascertainment": "UNKNOWN",
+      "events": "UNKNOWN",
+      "withdrawals": "UNKNOWN",
+      "zero_event_claim": false,
+      "acute_contractile_decline_is_chronic_toxicity": false
+    },
+    "disclosures": {
+      "conflict": "PubMed reports authors declared no competing interests",
+      "funding_metadata": "Publisher-deposited Crossref identifies Japan Society for the Promotion of Science award JPJSBP-82626",
+      "full_main_funding_supplier_role": "UNREAD"
+    },
+    "registry": {
+      "own_trial_id": null,
+      "search_status": "No exact own-trial match identified in bounded title/quercetin/intensity UMIN searches",
+      "other_trials_not_assigned": [
+        "UMIN000053019 six-week older-adult trial",
+        "UMIN000052255 seven-day young-adult trial"
+      ],
+      "absence_claim": false,
+      "protocol_read": false
+    },
+    "competition": {
+      "function": "Acute controlled decline, not established therapeutic benefit; earlier six-week strength positive retained",
+      "exposure": "500 mg oral label; formulation/systemic exposure and pediatric transfer unresolved",
+      "durability": "Acute sessions only; chronic adaptation, recovery and harm not established",
+      "renewal": "No qualified direct renewal result in read material",
+      "fidelity_restoration": "No qualified direct BUB1B/BUBR1/fidelity result in read material; no full-main absence claim",
+      "niacin": "No automatic restoration priority or demonstrated superiority; provisional restoration hypothesis unchanged",
+      "apitegromab": "No reason from this acute source to replace separately appraised motor-function candidate",
+      "mva_efficacy": "UNKNOWN; no selective actual-allele hurdle",
+      "head_to_head_superiority": false
+    },
+    "reading_manifest": "reading-manifest.json",
+    "access_manifest": "source-access-manifest.json",
+    "qualification_md": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/quercetin-acute-function-primary-20260927/qualification.md",
+      "bytes": 9312,
+      "sha256": "89c350db6606eb5c7b9196861c0159a98424c41f85c70dd9b16bf6db5aec0f45"
+    },
+    "no_repo_edits_tests_replays_catalog_joins": true,
+    "independent_review": "Not yet performed; future independent-review files excluded from producer freeze"
+  },
+  "source_and_review_provenance": {
+    "producer_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/quercetin-acute-function-primary-20260927/final-bindings.json",
+      "bytes": 10938,
+      "sha256": "503973361493e2950e28ee4e38ac7becb35e923100fb7cc81e28eab4f00872fe"
+    },
+    "producer_qualification": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/quercetin-acute-function-primary-20260927/qualification.json",
+      "bytes": 7285,
+      "sha256": "709ee268dffac7051d97197a9c7def2fb8e19b9542b26fb7f38b25d66d178b59"
+    },
+    "independent_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/quercetin-acute-function-primary-20260927/independent-review/final-bindings.json",
+      "bytes": 2169,
+      "sha256": "ff4b74bc93b622bf8f2ca7eb55dd30639cb894a4a516350492e286570bc403be"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/quercetin-acute-function-primary-20260927/independent-review/review.json",
+      "bytes": 4621,
+      "sha256": "129f754744fdabe2277f3fcc43bb07ca946799b49f9b43b7c4ffa1857817d973"
+    },
+    "reading_roles": "Producer reading, separate independent reading, and this proposal synthesis remain distinct. No new primary reading in this synthesis."
+  },
+  "outward_markdown_transformations": [
+    {
+      "old": "This establishes repeated-session controlled exposure, but the abstract does not explicitly resolve sequence randomization, whether every participant received both conditions, washout, or randomization of intensity allocation.",
+      "new": "This establishes repeated-session controlled exposure. The displayed correlation caption supports paired, within-person QUE-minus-PLA change contrasts for contributing participants; allocation/order, washout and complete paired outcomes for all 38 remain UNKNOWN. Randomization of intensity allocation is not established by the accessible abstract.",
+      "reason": "Accepted independent-review precision: use actual participant-level paired-condition caption information without inventing a complete randomized crossover protocol."
+    },
+    {
+      "old": "A repeated-session description does not authorize an assumed intention-to-treat or complete-case population.",
+      "new": "The caption-supported paired contrasts do not establish complete paired data for all 38 participants or an intention-to-treat analysis.",
+      "reason": "Same caption-supported precision; retain unknown analysis completeness."
+    }
+  ],
+  "source_JSON_preserved_exact": true,
+  "scientific_summary": "Separately, PMID 41056568 provides access-limited acute contractile evidence in 38 older adults given 500 mg quercetin glycoside or placebo before two exercise sessions. The complete original abstract reports greater post-exercise electrically elicited torque decline with active ingestion at low and moderate intensity (P=.014 and .025), with a nonsignificant high-intensity contrast (P=.792); differing subgroup P values do not establish an intensity interaction. The displayed correlation caption supports paired participant-level QUE-minus-PLA change contrasts among contributing participants, while allocation/order, washout and complete paired outcomes for all 38 remain unknown. No native torque magnitudes, confidence intervals, full analysis model or safety findings were recovered. The glycoside label does not establish matching manufacturer or chemistry with the earlier San-Ei preparation. Acute contractile decline may reflect exercise stress; neither chronic benefit nor chronic harm follows. The existing six-week strength positive and separate longer-trial nulls remain intact. Source and independent review read the complete indexed abstract, first-page publisher preview and five displayed captions, not the remaining main or native tables/plots. This bounded refinement adds no MVA, BUBR1, renewal, fidelity or superiority claim and does not change reserve disposition.",
+  "integration_precision": "The displayed quercetin correlation caption supports participant-level paired QUE-minus-PLA changes for contributors; allocation/order/washout/all-38 complete pairs remain unknown.",
+  "new_decision_proposed": false,
+  "new_primary_reading_or_efficiency_evidence": false,
+  "repository_mutation": false
+}

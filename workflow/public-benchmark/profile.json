@@ -1,0 +1,120 @@
+{
+  "scope": "Full public prealigned HG002 chr20, GIABv4.2.1; both frozen diploid callers and genotype-aware RTG comparison. No patient inputs.",
+  "inputs": [
+    {
+      "name": "HG002.novaseq.pcr-free.35x.dedup.grch38_no_alt.chr20.bam",
+      "url": "https://storage.googleapis.com/deepvariant/case-study-testdata/HG002.novaseq.pcr-free.35x.dedup.grch38_no_alt.chr20.bam",
+      "bytes": 1093938924,
+      "sha256": "34ac157739e1feeb590f6eb7e11046ccc2aa3277fd55a3ce0942e774d931ed81",
+      "kind": "alignment"
+    },
+    {
+      "name": "HG002.novaseq.pcr-free.35x.dedup.grch38_no_alt.chr20.bam.bai",
+      "url": "https://storage.googleapis.com/deepvariant/case-study-testdata/HG002.novaseq.pcr-free.35x.dedup.grch38_no_alt.chr20.bam.bai",
+      "bytes": 196136,
+      "sha256": "245dcdcc474b1971eeb36fc9a8af37b76ac8b4c7ce06a7bdee64e0c42bd93f34",
+      "kind": "alignment"
+    },
+    {
+      "name": "GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta.gz",
+      "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/references/GRCh38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta.gz",
+      "bytes": 886344618,
+      "sha256": "3c8def6d325c5d1e934b2dd530c4d1709f027677a15859467071fddf3fff2026",
+      "kind": "reference"
+    },
+    {
+      "name": "HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz",
+      "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/HG002_NA24385_son/NISTv4.2.1/GRCh38/HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz",
+      "bytes": 156252944,
+      "sha256": "adb4d4a50048aa13353a06b84fcfcbca09a5d17525efaa4cea44f8822e81175c",
+      "kind": "truth"
+    },
+    {
+      "name": "HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.tbi",
+      "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/HG002_NA24385_son/NISTv4.2.1/GRCh38/HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.tbi",
+      "bytes": 1657747,
+      "sha256": "23162712553413b10f88916c28bd1238deb703a7237be2910440773beea71894",
+      "kind": "truth"
+    },
+    {
+      "name": "HG002_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed",
+      "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/HG002_NA24385_son/NISTv4.2.1/GRCh38/HG002_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed",
+      "bytes": 11494021,
+      "sha256": "fba9a57c36ec88e5d14ea3e259c8866c7935f4998d3ec0fa2d6c3962da5b5575",
+      "kind": "truth"
+    }
+  ],
+  "input_pin_origin": "Existing local SHA256 pins; public BAM/reference also had publisher integrity checks. GIAB primary small-variant pins are locally recorded, not publisher digests.",
+  "locks": {
+    "osx-arm64": {
+      "sha256": "6fde03105e1c31d96d8223866679a9321673549def8ddb722d82df1d4cf352c3",
+      "packages": 46,
+      "download_bytes": 248471294,
+      "versions": {
+        "openjdk": "21.0.10",
+        "python": "3.12.14",
+        "pysam": "0.24.1",
+        "samtools": "1.24",
+        "bcftools": "1.24"
+      }
+    },
+    "linux-64": {
+      "sha256": "b738598ef17428528ce4f855a1f00824657dbc02935fbc8c9c68f6bc9f32fee4",
+      "packages": 91,
+      "download_bytes": 311816667,
+      "versions": {
+        "python": "3.12.14",
+        "openjdk": "21.0.10",
+        "pysam": "0.24.1",
+        "samtools": "1.24",
+        "bcftools": "1.24"
+      }
+    },
+    "linux-aarch64": {
+      "sha256": "9774f7b7249eec195fd646ab71a22e47152c5893f365fffede66acac60c46d9a",
+      "packages": 91,
+      "download_bytes": 302830528,
+      "versions": {
+        "python": "3.12.14",
+        "openjdk": "21.0.10",
+        "pysam": "0.24.1",
+        "samtools": "1.24",
+        "bcftools": "1.24"
+      }
+    }
+  },
+  "source_sha256": {
+    "workflow/scripts/call_genome.py": "5af91153e9926b0d8b985d0575b0a6ef51e1496d16ff3614c4cb4d8b2b4ac358",
+    "workflow/scripts/prepare_public_small_variant_benchmark.py": "b27447fcb7e81882d88a4f8db0f4318a151395bea69591cc6a3082bd029f44dd",
+    "workflow/scripts/probe_rtg_comparator.py": "a047e76451866e8ebf202189e198286102c265379ec9f08d70fbc95eea50d709",
+    "workflow/scripts/compare_public_small_variants.py": "9a675ce4ed80b39fdd58aefbccf7bf04256bbb39e06420731224ffdccb132a51",
+    "workflow/scripts/rtg_small_variant_helpers.py": "5091f56222ff3f31303e9effa10d4033b8ec14bd12026095569856eefd1906c5",
+    "workflow/scripts/build_structural_exclusions.py": "fec839f21855949af0bc3e2030cbc062e57297139f6971feacf08f9e3daee5f8",
+    "workflow/scripts/audit_public_small_variants.py": "f843f496c2112ca30b807bbccce1ddd0190d718a6d8d007f063a5e92315bcbc7",
+    "workflow/configs/public-small-variant-comparison.json": "628e04cfd7e5d2385a59043555221eaa1393fd6151b72d2e614bf67475994007"
+  },
+  "micromamba": {
+    "version": "2.9.0-0",
+    "url_prefix": "https://github.com/mamba-org/micromamba-releases/releases/download/2.9.0-0/micromamba-",
+    "sha256": {
+      "osx-arm64": "ec2a072f028e1a7cf20f3e2e74d5a8127cf5a5f27636375b5359811565f4e5be",
+      "linux-64": "366cd9cd8be14df1ab8ed50352a82111082a36686b2d389fdb79a92c3fafb3e3",
+      "linux-aarch64": "9f93b974adcb4d166996af969b6cd371287d1a3e52733704727884d9b74cb7a7"
+    }
+  },
+  "gatk": {
+    "url": "https://github.com/broadinstitute/gatk/releases/download/4.6.1.0/gatk-4.6.1.0.zip",
+    "archive_bytes": 698893720,
+    "jar_member": "gatk-4.6.1.0/gatk-package-4.6.1.0-local.jar",
+    "jar_sha256": "b2824999fafe4dc83036e334b9765d4a7de4f4ff4bec1e929d77bea04a1560c7",
+    "archive_sha256": null,
+    "integrity": "Exact extracted jar pin is required before execution; archive lacks a retained publisher digest."
+  },
+  "rtg": {
+    "url": "https://github.com/RealTimeGenomics/rtg-tools/releases/download/3.13/rtg-tools-3.13-nojre.zip",
+    "bytes": 9048648,
+    "sha256": "bc5c6badb07d7e20d1c5c557bd6d571a022bbd9f58fa1e3840bcff9431a18f96",
+    "publisher_asset_digest": null,
+    "note": "HTTPS release asset and declared byte count verified; SHA256 recorded locally, no publisher asset digest supplied"
+  }
+}

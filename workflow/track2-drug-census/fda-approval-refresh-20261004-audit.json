@@ -1,0 +1,2081 @@
+{
+  "date": "2026-10-04",
+  "status": "ACCEPTED_DATED_INVENTORY_REFRESH_WITH_BOUNDED_SECTION_REVIEW",
+  "count": 45,
+  "prior_frozen_products": 40,
+  "new_products": 5,
+  "catalog_entity_total_unchanged": 15357,
+  "current_appraisal_total_at_integration": 303,
+  "curated_appraisals_added": 0,
+  "accepted_abstract_screen_increment": 0,
+  "raw_vs_text_hashes": {
+    "created_utc": "2026-10-04T14:29:03.063826+00:00",
+    "scope": "Hash representation correction only; all row identities and frozen source bytes unchanged.",
+    "original40_raw_byte_sha256": "c3d9615696459501ca67e55c462005cfda3631eed8599f4f931eb6081384d5ec",
+    "original40_legacy_read_text_sha256": "6157e9d47e5850a33f7f9bbc20d2a3ece97fc49761ca414acedf3b3b863e24c8",
+    "current45_raw_byte_sha256": "1902b1cbee043d5439d8266309a6addc41f161af01e9f9125cbb95be49443ff1",
+    "current45_legacy_read_text_sha256": "b8e7ac4236260ed306e6b6a943a84fc7a5836a09ac4fc3ca38612ed663068283",
+    "CRLF_sequences_each_source": 2,
+    "reason": "Original fda_freshness.py reads saved HTML with read_text() and re-encodes it, normalizing two CRLF sequences. It reports the text hash, not the raw-file hash. The preliminary inventory retained this legacy hash under source_sha256; the final inventory explicitly separates both representations.",
+    "prequalification_inventory_frozen_binding": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/current-inventory-frozen.json",
+      "bytes": 62137,
+      "sha256": "71b308d454cfa0f5d433501e56cb53562a7459ef4c7809de053e1f845ea6ab3f"
+    },
+    "prequalification_snapshot_unchanged": true
+  },
+  "new_product_rows": [
+    {
+      "source_table_number": 45,
+      "source_display_order": 1,
+      "brand": "Emcitate",
+      "active_ingredient": "tiratricol",
+      "fda_approval_date": "2026-09-28",
+      "fda_approved_use_on_approval_date_presentation_only": "To treat peripheral thyrotoxicosis in patients with MCT8 deficiency",
+      "catalog_matches": [
+        "CHEMBL41632"
+      ],
+      "match_method": "ingredient or brand alias, isotope typography normalized",
+      "component_cross_references": [],
+      "exact_identity_merge_claimed": false,
+      "is_new_fda_product_row": true,
+      "historical_source_record_unchanged": false,
+      "product_does_not_imply_unique_molecule_or_appraisal": true,
+      "efficacy_in_bub1b": "UNKNOWN",
+      "bounded_source_review_pending_admission": true,
+      "no_automatic_ledger_appraisal": true
+    },
+    {
+      "source_table_number": 44,
+      "source_display_order": 2,
+      "brand": "Atebrioz",
+      "active_ingredient": "zilurgisertib",
+      "fda_approval_date": "2026-09-25",
+      "fda_approved_use_on_approval_date_presentation_only": "To reduce the volume of total new heterotopic ossification in adults and pediatric patients 12 years and older with fibrodysplasia ossificans progressiva",
+      "catalog_matches": [
+        "CHEMBL5314579"
+      ],
+      "match_method": "ingredient or brand alias, isotope typography normalized",
+      "component_cross_references": [],
+      "exact_identity_merge_claimed": false,
+      "is_new_fda_product_row": true,
+      "historical_source_record_unchanged": false,
+      "product_does_not_imply_unique_molecule_or_appraisal": true,
+      "efficacy_in_bub1b": "UNKNOWN",
+      "bounded_source_review_pending_admission": true,
+      "no_automatic_ledger_appraisal": true
+    },
+    {
+      "source_table_number": 43,
+      "source_display_order": 3,
+      "brand": "Juvmo",
+      "active_ingredient": "tavapadon",
+      "fda_approval_date": "2026-09-25",
+      "fda_approved_use_on_approval_date_presentation_only": "To treat Parkinson\u2019s disease in adults",
+      "catalog_matches": [
+        "CHEMBL3697617"
+      ],
+      "match_method": "ingredient or brand alias, isotope typography normalized",
+      "component_cross_references": [],
+      "exact_identity_merge_claimed": false,
+      "is_new_fda_product_row": true,
+      "historical_source_record_unchanged": false,
+      "product_does_not_imply_unique_molecule_or_appraisal": true,
+      "efficacy_in_bub1b": "UNKNOWN",
+      "bounded_source_review_pending_admission": true,
+      "no_automatic_ledger_appraisal": true
+    },
+    {
+      "source_table_number": 42,
+      "source_display_order": 4,
+      "brand": "Lyrfigtu",
+      "active_ingredient": "lirafugratinib",
+      "fda_approval_date": "2026-09-23",
+      "fda_approved_use_on_approval_date_presentation_only": "To adults with previously treated unresectable, locally advanced or metastatic cholangiocarcinoma harboring a fibroblast growth factor receptor 2 gene fusion or other rearrangement",
+      "catalog_matches": [
+        "CHEMBL5314555"
+      ],
+      "match_method": "ingredient or brand alias, isotope typography normalized",
+      "component_cross_references": [],
+      "exact_identity_merge_claimed": false,
+      "is_new_fda_product_row": true,
+      "historical_source_record_unchanged": false,
+      "product_does_not_imply_unique_molecule_or_appraisal": true,
+      "efficacy_in_bub1b": "UNKNOWN",
+      "bounded_source_review_pending_admission": true,
+      "no_automatic_ledger_appraisal": true
+    },
+    {
+      "source_table_number": 41,
+      "source_display_order": 5,
+      "brand": "Onswik",
+      "active_ingredient": "insulin efsitora alfa-gobe",
+      "fda_approval_date": "2026-09-23",
+      "fda_approved_use_on_approval_date_presentation_only": "To improve glycemic control in adults with type 2 diabetes mellitus, as an adjunct to diet and exercise",
+      "catalog_matches": [
+        "CHEMBL5095357"
+      ],
+      "match_method": "biologic suffix removed; manual identity review required",
+      "component_cross_references": [],
+      "exact_identity_merge_claimed": false,
+      "is_new_fda_product_row": true,
+      "historical_source_record_unchanged": false,
+      "product_does_not_imply_unique_molecule_or_appraisal": true,
+      "efficacy_in_bub1b": "UNKNOWN",
+      "bounded_source_review_pending_admission": true,
+      "no_automatic_ledger_appraisal": true
+    }
+  ],
+  "source_review": {
+    "status": "BOUNDED_SECTION_REVIEW_AND_CANDIDATE_RETRIEVAL_ONLY",
+    "created_utc": "2026-10-04T14:29:03.063826+00:00",
+    "whole_labels_semantically_read": 0,
+    "full_primary_paper_appraisals": 0,
+    "additional_abstract_screen_credit": 0,
+    "new_curated_appraisals": 0,
+    "independent_acceptance_claimed": false,
+    "efficacy_in_bub1b": "UNKNOWN",
+    "records41_42": [
+      {
+        "fda_table_number": 41,
+        "brand": "Onswik",
+        "active_ingredient": "insulin efsitora alfa-gobe",
+        "approval_application": "BLA 761408",
+        "identity": "Once-weekly recombinant single-chain insulin analog/IgG2 Fc homodimer from CHO cells, supplied in 500 and 1,000 units/mL subcutaneous 3 mL prefilled pens. The catalog insulin efsitora alfa record requires suffix-aware product identity review; no automatic product merge is claimed.",
+        "moa": "Insulin receptor activity regulates glucose: peripheral uptake including skeletal muscle and fat, inhibition of hepatic glucose production, inhibition of lipolysis and proteolysis, and enhanced protein synthesis. Protracted action is linked to molecular size, neonatal Fc receptor binding, and reduced insulin receptor affinity and clearance. These mechanisms do not establish muscle force gain.",
+        "indication": "Adjunct to diet and exercise for glycemic control in adults with type 2 diabetes. The label does not recommend use in type 1 diabetes because of severe hypoglycemia risk.",
+        "safety": "Medication, frequency and dose errors can cause serious hypoglycemia with prolonged recovery. Sponsor PI section 5.2 reports severe hypoglycemia in 10% versus 3% with degludec in a 52-week type 1 trial. Other section 5 warnings cover regimen changes, hypersensitivity, hypokalemia, pen sharing, and fluid retention or heart failure with PPAR-gamma agonists.",
+        "label_trial_endpoints": "Four randomized, open-label, active-controlled QWINT trials in type 2 diabetes. Label section 14 reports HbA1c, fasting glucose, time in glucose range and insulin dose. No motor, force or task benefit is reported in this section. HbA1c noninferiority does not establish functional efficacy.",
+        "official_label_access": "Drugs@FDA BLA 761408 explicitly states that the label is not available on this site. Guessed FDA Orig1s000 and s000 PDF URLs returned 404. Official approval letter, news and application are saved. Sponsor-hosted PI was read with distinct provenance.",
+        "actual_read_scopes": [
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-approval.pdf",
+            "depth": "Approval letter page 1 licensing, identity and manufacturing, plus the dated signature page; not the complete letter."
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-drugsatfda.html",
+            "depth": "Application product and approval-history tables, including the explicit label-unavailable note."
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-fda-news.html",
+            "depth": "All main FDA article sections: Action, Disease or Condition, Effectiveness and Safety Information."
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-manufacturer-label.pdf",
+            "depth": "Complete extracted text of sections 1, 5, 11, 12.1 and 14; native Table 7 and Figures 2/3 inspected. Other sections were not reviewed. No full-label claim.",
+            "hosting": "Lilly manufacturer hosting; FDA-hosted label bytes unavailable."
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-primary-pro.xml",
+            "depth": "Partial primary report: QWINT-2 design, SF-36 instrument rows of Table 1, SF-36 methods, statistical methods and QWINT-2 results. Remaining sections, Figure 2 numeric panels and supplements not reviewed; no full primary appraisal.",
+            "article_identity": "PMID 41591636; PMCID PMC13000101.1; DOI 10.1007/s13300-025-01833-5"
+          }
+        ],
+        "bounded_primary_candidate": {
+          "identity": "MED:41591636",
+          "status": "PARTIAL_PRIMARY_FUNCTION_CANDIDATE_PENDING_INDEPENDENT_FULL_QUALIFICATION",
+          "candidate_lane": "H_CF",
+          "reason": "QWINT-2 randomized weekly efsitora versus daily degludec and measured SF-36v2 physical functioning, role physical and vitality, confirmed in the methods and instrument Table 1. The parent trial randomized 928; the PRO report is a secondary report, not a new independent cohort.",
+          "observed_result": "The read QWINT-2 result subsection reports no between-group difference on SF-36v2 or EQ-5D-5L at any timepoint. Treatment burden and satisfaction positives do not establish a physical function gain.",
+          "estimate_status": "Explicit comparative null reported in text. Function-domain numerical estimates and confidence intervals were not independently verified from Figure 2 or supplements.",
+          "analysis_limits": "Treated randomized analysis excludes postrandomization eligibility failures; PRO P values are nominal and not adjusted for multiple comparisons. Open-label self-report and weekly versus daily treatment burden limit interpretation.",
+          "pending": [
+            "Read Figure 2 domain panels and supplementary denominators and estimates, including all nulls.",
+            "Verify exact trial preparation, exposure and study-family link to QWINT-2 before any ledger appraisal.",
+            "No BUB1B, MVA or pediatric rescue was tested in the inspected material."
+          ]
+        },
+        "gene_search_state": "The saved exact-name Europe PMC query found zero hits. This bounds the query only; it does not establish absence of a biological effect or complete literature coverage.",
+        "new_appraisal_credit": 0,
+        "abstract_screen_credit": 0,
+        "independent_acceptance": false,
+        "full_paper_or_label_read_claimed": false,
+        "efficacy_in_bub1b": "UNKNOWN",
+        "review_utc": "2026-10-04T14:13:40.276362+00:00",
+        "source_bindings": [
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-approval.pdf",
+            "bytes": 435868,
+            "sha256": "b74d59237d6286cd1a37c817bf583fa02baefa228b04c8840ff8d85609b2526d",
+            "actual_read_scope": "Approval letter page 1 licensing, identity and manufacturing, plus the dated signature page; not the complete letter."
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-drugsatfda.html",
+            "bytes": 29392,
+            "sha256": "1436c724674741d54f907a978ad4e42adc153f60e20cd5c8f05fc87246d34f21",
+            "actual_read_scope": "Application product and approval-history tables, including the explicit label-unavailable note."
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-fda-news.html",
+            "bytes": 34357,
+            "sha256": "26f10dc9463567c6e19105cce7b9bb41c4d0bcbd6c5e44fd7409a96ada1879cf",
+            "actual_read_scope": "All main FDA article sections: Action, Disease or Condition, Effectiveness and Safety Information."
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-manufacturer-label.pdf",
+            "bytes": 586597,
+            "sha256": "4153fda4d5b55b876a4f694c8faf75cfc2151904ed084f622664089874fa6a18",
+            "actual_read_scope": "Complete extracted text of sections 1, 5, 11, 12.1 and 14; native Table 7 and Figures 2/3 inspected. Other sections were not reviewed. No full-label claim."
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-primary-pro.xml",
+            "bytes": 113537,
+            "sha256": "cd39863d94243a1c97142477e23f0254a4d61cce1d17c3e882408cf9295076e6",
+            "actual_read_scope": "Partial primary report: QWINT-2 design, SF-36 instrument rows of Table 1, SF-36 methods, statistical methods and QWINT-2 results. Remaining sections, Figure 2 numeric panels and supplements not reviewed; no full primary appraisal."
+          }
+        ],
+        "label_sections_read_boundaries": [
+          {
+            "section": "1",
+            "start": 11646,
+            "end": 11982,
+            "pages_start": 3,
+            "pages_end": 3,
+            "section_sha256": "629bdc3fa27408e7ba68c9d5fd38d8eeb54d7c07de2183d15966184a83a1f30d",
+            "source_extraction_sha256": "ca7ef0c328083a887a6a51c4f1d24e9dd32a9819f33743bdeef82a1bc33c755c"
+          },
+          {
+            "section": "5",
+            "start": 23536,
+            "end": 31510,
+            "pages_start": 5,
+            "pages_end": 7,
+            "section_sha256": "b350081a376a4b478e85a0c10846770cc8776382304b6655e2d54fc32013d7f9",
+            "source_extraction_sha256": "ca7ef0c328083a887a6a51c4f1d24e9dd32a9819f33743bdeef82a1bc33c755c"
+          },
+          {
+            "section": "12.1",
+            "start": 50388,
+            "end": 51315,
+            "pages_start": 11,
+            "pages_end": 12,
+            "section_sha256": "42faaf3ef7256b3cc182230fc622866b68019d92c104194cefcb77e89ccd4ac7",
+            "source_extraction_sha256": "ca7ef0c328083a887a6a51c4f1d24e9dd32a9819f33743bdeef82a1bc33c755c"
+          },
+          {
+            "section": "14",
+            "start": 58987,
+            "end": 83695,
+            "pages_start": 14,
+            "pages_end": 20,
+            "section_sha256": "6c487f550b244c74f53e21ac85d674beda1b37bdd4dc2117c389c1e4aa7d903b",
+            "source_extraction_sha256": "ca7ef0c328083a887a6a51c4f1d24e9dd32a9819f33743bdeef82a1bc33c755c"
+          }
+        ],
+        "exact_extraction_anchors": [
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-manufacturer-label.txt",
+            "exact_text": "is indicated as an adjunct to diet and exercise",
+            "start": 11686,
+            "end": 11733,
+            "source_sha256": "ca7ef0c328083a887a6a51c4f1d24e9dd32a9819f33743bdeef82a1bc33c755c"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-manufacturer-label.txt",
+            "exact_text": "The primary activity of ONSWIK is the regulation of glucose metabolism.",
+            "start": 50542,
+            "end": 50613,
+            "source_sha256": "ca7ef0c328083a887a6a51c4f1d24e9dd32a9819f33743bdeef82a1bc33c755c"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-manufacturer-label.txt",
+            "exact_text": "The effectiveness of ONSWIK administered once weekly",
+            "start": 59051,
+            "end": 59103,
+            "source_sha256": "ca7ef0c328083a887a6a51c4f1d24e9dd32a9819f33743bdeef82a1bc33c755c"
+          }
+        ],
+        "additional_description_section_binding": {
+          "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/onswik-manufacturer-label-description.txt",
+          "sha256": "29d79f445269f59ae04bd7cd0a9832a681559fa7f0467401abbac04d7387e925",
+          "scope": "Complete extracted section 11 text only; chemical image not evaluated."
+        }
+      },
+      {
+        "fda_table_number": 42,
+        "brand": "Lyrfigtu",
+        "active_ingredient": "lirafugratinib",
+        "approval_application": "NDA 220425",
+        "identity": "Oral lirafugratinib hydrochloride capsules: 20 mg active moiety corresponds to 21.43 mg salt; 30 mg corresponds to 32.15 mg salt. The catalog groups CHEMBL5314555 and CHEMBL5314556. Preserve the administered salt and active-moiety distinction.",
+        "moa": "Covalent FGFR2 small-molecule kinase inhibitor. The label describes inhibition of phosphorylation, downstream signaling and cancer-cell viability with FGFR2 alterations, plus xenograft anti-tumor activity. This cancer mechanism does not establish BUB1B rescue or physiological force benefit.",
+        "indication": "Adults with previously treated unresectable, locally advanced or metastatic cholangiocarcinoma harboring an FGFR2 fusion or other rearrangement.",
+        "safety": "Section 5 reports ocular toxicity, including retinal pigment epithelial detachment in 31% of 385 monitored patients (Grade 2: 12%; Grade 3: 1.8%), blurred vision, dry eye and corneal toxicity. Hyperphosphatemia occurred in 21%; soft tissue mineralization and embryo-fetal harm or pregnancy loss are warnings. The 385-person safety denominator differs from the 116-person efficacy cohort.",
+        "label_trial_endpoints": "REFOCUS (RLY-4008-101; NCT04526106) was an open-label, single-arm trial in 116 previously treated, FGFR-inhibitor-naive patients receiving 70 mg daily. Independent RECIST v1.1 response assessment gave ORR 46% (95% CI 36\u201355), with 3 complete and 50 partial responses; median duration of response was 11.8 months (7.5\u201313.0). ECOG 0/1 was a baseline characteristic, not a measured treatment function outcome.",
+        "official_label_access": "FDA-hosted label was saved and hash-bound: revised 09/2026, Reference ID 5873509.",
+        "actual_read_scopes": [
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/lyrfigtu-approval.pdf",
+            "depth": "Approval letter page 1 identity and approval, plus dated signature page; not the complete letter."
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/lyrfigtu-fda-news.html",
+            "depth": "Complete main FDA approval article; linked documents not all reviewed."
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/lyrfigtu-label.pdf",
+            "depth": "Complete extracted text of sections 1, 5, 11, 12.1 and 14; native Table 6 inspected. Highlights and adverse reaction section were only partially inspected. Chemical structure image and other sections unreviewed. No full-label claim."
+          }
+        ],
+        "bounded_primary_candidate": {
+          "status": "NO_DIRECT_FUNCTION_CANDIDATE_QUALIFIED_FROM_BOUNDED_READ",
+          "pending": [
+            "Resolve indexed exact-name/gene hit MED:42633749, an EACR 2026 congress supplement, to a same-abstract treatment/gene relation. The saved abstract only describes the conference proceedings.",
+            "A full-text cooccurrence can arise from different abstracts in the supplement. Its body is unreviewed; no rescue relation is established.",
+            "The function query returned 28 hits and retrieved the first 25. Pointers include reviews, other agents and cancer context; they are not a completed scientific census.",
+            "Baseline ECOG and fatigue adverse events do not establish functional treatment efficacy."
+          ]
+        },
+        "gene_search_state": "The exact-name Europe PMC gene query returned one indexed hit, MED:42633749. Its available abstract was read as congress context only; the supplement body was not read and no same-experiment gene/drug relation was verified.",
+        "new_appraisal_credit": 0,
+        "abstract_screen_credit": 0,
+        "independent_acceptance": false,
+        "full_paper_or_label_read_claimed": false,
+        "efficacy_in_bub1b": "UNKNOWN",
+        "review_utc": "2026-10-04T14:13:40.277480+00:00",
+        "source_bindings": [
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/lyrfigtu-approval.pdf",
+            "bytes": 380192,
+            "sha256": "6a03fe038968a84cd56fa85e6f5b3c6cf82d6f140df4d3d14b579f68fe905ca1",
+            "actual_read_scope": "Approval letter page 1 identity and approval, plus dated signature page; not the complete letter."
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/lyrfigtu-fda-news.html",
+            "bytes": 36338,
+            "sha256": "16e3448328385156a11bae80919ab309a5c14d77648c4ee650da4297d46ae4cf",
+            "actual_read_scope": "Complete main FDA approval article; linked documents not all reviewed."
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/lyrfigtu-label.pdf",
+            "bytes": 370336,
+            "sha256": "a2f97ca5a9395e4d8f289dfa88938a0e45a29cd284bff6eeebad80162d490f42",
+            "actual_read_scope": "Complete extracted text of sections 1, 5, 11, 12.1 and 14; native Table 6 inspected. Highlights and adverse reaction section were only partially inspected. Chemical structure image and other sections unreviewed. No full-label claim."
+          }
+        ],
+        "label_sections_read_boundaries": [
+          {
+            "section": "1",
+            "start": 7884,
+            "end": 8198,
+            "pages_start": 2,
+            "pages_end": 2,
+            "section_sha256": "8a4efbbdef6173c4c34913a7b1d5471be6338d62294e184a342ddf32f6503725",
+            "source_extraction_sha256": "27e4d76969e8aad0102834c39eac12f10b7da627197c2df07ba7c7058948caba"
+          },
+          {
+            "section": "5",
+            "start": 13748,
+            "end": 17086,
+            "pages_start": 4,
+            "pages_end": 5,
+            "section_sha256": "6bedc5377109fd387cc0a919f8351574951b300c5a5fe23ed6467b19477951af",
+            "source_extraction_sha256": "27e4d76969e8aad0102834c39eac12f10b7da627197c2df07ba7c7058948caba"
+          },
+          {
+            "section": "12.1",
+            "start": 35177,
+            "end": 35857,
+            "pages_start": 10,
+            "pages_end": 10,
+            "section_sha256": "3a96773c453dc7be7188c9644415f7c32266debc75ef4e81ac16d29d2fe3119d",
+            "source_extraction_sha256": "27e4d76969e8aad0102834c39eac12f10b7da627197c2df07ba7c7058948caba"
+          },
+          {
+            "section": "14",
+            "start": 42095,
+            "end": 44962,
+            "pages_start": 13,
+            "pages_end": 13,
+            "section_sha256": "cea130e45b679bff27e74f903f0d1d868d45930cccd4a7e6bc223ebdba6a90b4",
+            "source_extraction_sha256": "27e4d76969e8aad0102834c39eac12f10b7da627197c2df07ba7c7058948caba"
+          }
+        ],
+        "exact_extraction_anchors": [
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/lyrfigtu-label.txt",
+            "exact_text": "Lirafugratinib hydrochloride is the salt form of lirafugratinib",
+            "start": 33499,
+            "end": 33562,
+            "source_sha256": "27e4d76969e8aad0102834c39eac12f10b7da627197c2df07ba7c7058948caba"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/lyrfigtu-label.txt",
+            "exact_text": "Lirafugratinib covalently binds",
+            "start": 35287,
+            "end": 35318,
+            "source_sha256": "27e4d76969e8aad0102834c39eac12f10b7da627197c2df07ba7c7058948caba"
+          },
+          {
+            "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/lyrfigtu-label.txt",
+            "exact_text": "The major efficacy outcome measures were objective response rate (ORR) and duration of response",
+            "start": 42915,
+            "end": 43010,
+            "source_sha256": "27e4d76969e8aad0102834c39eac12f10b7da627197c2df07ba7c7058948caba"
+          }
+        ],
+        "additional_description_section_binding": {
+          "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/sources/lyrfigtu-label-description.txt",
+          "sha256": "46af299e684a85cbd63686a6a45f534443be690ef6fb4fc30013021f949f8ad9",
+          "scope": "Complete extracted section 11 text only; chemical image not evaluated."
+        }
+      }
+    ],
+    "records43_45": [
+      {
+        "inventory_row": 43,
+        "brand_name": "Juvmo",
+        "active_ingredient": "tavapadon",
+        "nda": "220415",
+        "approval_date": "2026-09-25",
+        "slug": "juvmo-tavapadon",
+        "label_filename": "juvmo_pi.pdf",
+        "FDA_hosted_label": false,
+        "label_pages": 23,
+        "read_scope": {
+          "full_file_downloaded": true,
+          "whole_label_semantically_read": false,
+          "pages_1based": [
+            1,
+            2,
+            5,
+            6,
+            11,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "complete_named_sections": [
+            "1",
+            "5.1-5.4",
+            "11",
+            "12.1",
+            "14.1-14.2"
+          ],
+          "visual_pages": [
+            18
+          ],
+          "pdf_total_pages": 23
+        },
+        "identity": {
+          "active_moiety": "tavapadon",
+          "chemical_form": "tavapadon; no salt named in section 11",
+          "formula": "C19H16F3N3O3",
+          "molecular_weight_Da": 391.35,
+          "dosage_form": "film-coated oral tablets",
+          "strengths_mg": [
+            0.25,
+            1,
+            5,
+            10,
+            15
+          ],
+          "fixed_combination": false,
+          "section": "11",
+          "pages": [
+            11
+          ],
+          "aliases": {
+            "label_reported": [],
+            "candidate_protocol_alias": "CVL-751",
+            "status": "protocol candidate; not used to expand nohit claim"
+          }
+        },
+        "indication": {
+          "section": "1",
+          "pages": [
+            2
+          ],
+          "anchor": "1 INDICATIONS AND USAGE",
+          "summary": "Parkinson disease in adults."
+        },
+        "mechanism": {
+          "section": "12.1",
+          "pages": [
+            11
+          ],
+          "anchor": "12.1 Mechanism of Action",
+          "summary": "Selective partial agonist at dopamine D1 and D5 receptor subtypes."
+        },
+        "safety": {
+          "scope": "Complete section 5 read; not a comprehensive safety review of all labeling.",
+          "boxed_warning": {
+            "present": false,
+            "basis": "Highlights page 1 and FPI opening page 2 reviewed."
+          },
+          "warnings": [
+            {
+              "section": "5.1",
+              "pages": [
+                5
+              ],
+              "anchor": "Hypotension/Orthostatic Hypotension",
+              "summary": "Monitor for hypotension/orthostatic symptoms, especially dose escalation."
+            },
+            {
+              "section": "5.2",
+              "pages": [
+                5
+              ],
+              "anchor": "Impulse Control/Compulsive Behaviors",
+              "summary": "Gambling, sexual, spending, eating or other intense urges; assess with patient/caregiver and consider dose reduction or discontinuation."
+            },
+            {
+              "section": "5.3",
+              "pages": [
+                5,
+                6
+              ],
+              "anchor": "Hallucinations and Psychotic-like Behavior",
+              "summary": "Hallucination or psychotic-like changes; risk increases with age and may increase with strong CYP3A inhibitors during maintenance."
+            },
+            {
+              "section": "5.4",
+              "pages": [
+                6
+              ],
+              "anchor": "Dyskinesia",
+              "summary": "May cause or worsen dyskinesia; consider reduction of this or other dopaminergic drugs."
+            }
+          ],
+          "other_safety_read": "Highlights interactions/adverse reactions and section 13.1 encountered on page 14; no full sections 6-8 appraisal."
+        },
+        "clinical_studies": {
+          "section": "14",
+          "pages": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "anchor": "14 CLINICAL STUDIES",
+          "read_scope": "complete section 14; sponsor USPI",
+          "motor_or_daily_function_endpoints_reported": true,
+          "MVA_endpoint": null,
+          "MVA_endpoint_status": "not_reported_in_complete_read_section_14",
+          "studies": [
+            {
+              "study": 1,
+              "nct": "NCT04201093",
+              "population": "early adult PD without concomitant levodopa; stable MAO-B inhibitor permitted",
+              "design": "27-week randomized double-blind placebo controlled",
+              "randomized_n": 529,
+              "randomized_arms": {
+                "tavapadon5mg": 177,
+                "tavapadon15mg": 177,
+                "placebo": 175
+              },
+              "treatment": "tavapadon 5 or 15 mg daily, titrated from 0.25 mg",
+              "endpoint": "MDS-UPDRS Part II change to week 26",
+              "endpoint_role_label": "efficacy determined based on Part II",
+              "endpoint_type": "motor-related activities of daily living",
+              "table": 8,
+              "pages": [
+                14,
+                15
+              ],
+              "results": {
+                "tavapadon5mg_change": -1.6,
+                "tavapadon15mg_change": -1.7,
+                "placebo_change": 0.9,
+                "LSMD5mg_vs_placebo": -2.5,
+                "CI95_5mg": [
+                  -3.3,
+                  -1.7
+                ],
+                "LSMD15mg_vs_placebo": -2.6,
+                "CI95_15mg": [
+                  -3.4,
+                  -1.7
+                ],
+                "p": "<0.0001 each"
+              },
+              "analysis_n": {
+                "tavapadon5mg": 174,
+                "tavapadon15mg": 172,
+                "placebo": 174
+              },
+              "status": "label_reported_not_independent_appraisal"
+            },
+            {
+              "study": 2,
+              "nct": "NCT04223193",
+              "population": "early adult PD without concomitant levodopa",
+              "design": "27-week randomized double-blind placebo controlled",
+              "randomized_n": 304,
+              "randomized_arms": {
+                "tavapadon": 151,
+                "placebo": 153
+              },
+              "treatment": "tavapadon 5-15 mg daily",
+              "endpoint": "MDS-UPDRS Part II change to week 26",
+              "endpoint_type": "motor-related activities of daily living",
+              "table": 9,
+              "pages": [
+                16,
+                17
+              ],
+              "results": {
+                "tavapadon_change": -1.5,
+                "placebo_change": 0,
+                "LSMD_vs_placebo": -1.5,
+                "CI95": [
+                  -2.4,
+                  -0.6
+                ],
+                "p_table": 0.0007
+              },
+              "analysis_n": {
+                "tavapadon": 150,
+                "placebo": 151
+              },
+              "source_discrepancy": "Study 2 narrative p<0.0001 differs from Table 9 p=0.0007; table value preserved.",
+              "status": "label_reported_not_independent_appraisal"
+            },
+            {
+              "study": 3,
+              "nct": "NCT04542499",
+              "population": "adult PD motor fluctuations on stable levodopa at least 400 mg/day",
+              "design": "27-week randomized double-blind placebo controlled",
+              "randomized_n": 507,
+              "randomized_arms": {
+                "tavapadon": 252,
+                "placebo": 255
+              },
+              "treatment": "5-15 mg daily added to unchanged pre-study levodopa",
+              "primary_endpoint": "Hauser home diary total daily ON time without troublesome dyskinesia, week 26",
+              "endpoint_type": "patient-reported motor-state duration",
+              "key_secondary_endpoint": "total daily OFF time, week 26",
+              "table": 10,
+              "pages": [
+                17,
+                18
+              ],
+              "primary_results": {
+                "tavapadon_change_hours": 1.7,
+                "placebo_change_hours": 0.6,
+                "LS_difference_hours": 1.1,
+                "reported_interval": [
+                  0.6,
+                  1.7
+                ],
+                "p": "<0.0001"
+              },
+              "secondary_results": {
+                "tavapadon_change_hours": -1.9,
+                "placebo_change_hours": -0.9,
+                "LS_difference_hours": -0.9,
+                "reported_interval": [
+                  -1.5,
+                  -0.4
+                ],
+                "p": 0.0006
+              },
+              "analysis_n": {
+                "tavapadon": 242,
+                "placebo": 245
+              },
+              "source_table_note": "Difference row says LS Mean (SE) Difference although parentheses contain two bounds; retained as reported_interval without imposed interval label.",
+              "status": "label_reported_not_independent_appraisal"
+            }
+          ],
+          "boundary": "Adult PD daily functioning and motor fluctuations do not establish MVA benefit, BUB1B rescue or disease modification."
+        },
+        "scientific_pending_questions": [
+          "Confirm sponsor USPI against FDA-hosted label once available.",
+          "Resolve label Study 2 narrative/Table 9 p-value discrepancy and compare label versus trial-defined endpoint roles.",
+          "Review primary TEMPO papers, methods, attrition, dosing and harms before appraisal.",
+          "Direct BUB1B/BUBR1/MVA model or clinical evidence is required for any relevance or rescue claim."
+        ],
+        "candidate_papers": {
+          "additional_web_candidates": [
+            {
+              "pmid": "41860544",
+              "title": "Tavapadon as Adjunctive Treatment for Parkinson Disease: The TEMPO-3 Randomized Clinical Trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41860544/"
+            },
+            {
+              "pmid": "41860533",
+              "title": "Fixed-Dose Tavapadon for Early Parkinson Disease: A Randomized Clinical Trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41860533/"
+            }
+          ],
+          "status": "retrieved candidates pending systematic abstract screen and appraisal",
+          "PubMed_motor_function_ids": [
+            "42822261",
+            "42601529",
+            "42456682",
+            "42393412",
+            "42162439",
+            "41860544",
+            "41860533",
+            "41570740",
+            "41141087",
+            "41002726",
+            "40552668",
+            "40537032",
+            "40500235",
+            "40384932",
+            "40152930",
+            "39270528",
+            "37238699",
+            "36999711",
+            "35676276"
+          ],
+          "PubMed_motor_function_count": 19,
+          "retrieval_limit": 20,
+          "systematic_abstract_screen_completed": false,
+          "primary_study_eligibility": "unassessed",
+          "full_text_appraisal_completed": false
+        },
+        "schema_version": "source-bound-regulatory-preliminary-v1",
+        "created_utc": "2026-10-04T14:21:33.152897+00:00",
+        "record_status": "label_section_annotation_and_candidate_retrieval_only",
+        "approval_date_source": "Current FDA application Original Approvals table and letter electronic signature",
+        "label_source": {
+          "molecule": "juvmo-tavapadon",
+          "download_url": "https://www.rxabbvie.com/pdf/juvmo_pi.pdf",
+          "resolved_url": "https://www.rxabbvie.com/pdf/juvmo_pi.pdf",
+          "retrieval_started_utc": "2026-10-04T14:07:45.989114+00:00",
+          "retrieval_completed_utc": "2026-10-04T14:07:49.877492+00:00",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "bytes": 826211,
+          "sha256": "c92204ea10bb82074c8ef82dbb0ef99fb52099992092421f73e10d6ebda9de87",
+          "valid_file": true,
+          "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/juvmo-tavapadon/sources/juvmo_pi.pdf",
+          "transport": "urllib Request User-Agent Mozilla/5.0",
+          "source_type": "sponsor_hosted_US_prescribing_information_not_FDA_hosted",
+          "page_count": 23,
+          "source_role": "sponsor_hosted_US_prescribing_information",
+          "read_depth": {
+            "full_file_downloaded": true,
+            "whole_label_semantically_read": false,
+            "pages_1based": [
+              1,
+              2,
+              5,
+              6,
+              11,
+              14,
+              15,
+              16,
+              17,
+              18
+            ],
+            "complete_named_sections": [
+              "1",
+              "5.1-5.4",
+              "11",
+              "12.1",
+              "14.1-14.2"
+            ],
+            "visual_pages": [
+              18
+            ],
+            "pdf_total_pages": 23
+          }
+        },
+        "sources": [
+          {
+            "molecule": "juvmo-tavapadon",
+            "download_url": "https://www.rxabbvie.com/pdf/juvmo_pi.pdf",
+            "resolved_url": "https://www.rxabbvie.com/pdf/juvmo_pi.pdf",
+            "retrieval_started_utc": "2026-10-04T14:07:45.989114+00:00",
+            "retrieval_completed_utc": "2026-10-04T14:07:49.877492+00:00",
+            "http_status": 200,
+            "content_type": "application/pdf",
+            "bytes": 826211,
+            "sha256": "c92204ea10bb82074c8ef82dbb0ef99fb52099992092421f73e10d6ebda9de87",
+            "valid_file": true,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/juvmo-tavapadon/sources/juvmo_pi.pdf",
+            "transport": "urllib Request User-Agent Mozilla/5.0",
+            "source_type": "sponsor_hosted_US_prescribing_information_not_FDA_hosted",
+            "page_count": 23,
+            "source_role": "sponsor_hosted_US_prescribing_information",
+            "read_depth": {
+              "full_file_downloaded": true,
+              "whole_label_semantically_read": false,
+              "pages_1based": [
+                1,
+                2,
+                5,
+                6,
+                11,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "complete_named_sections": [
+                "1",
+                "5.1-5.4",
+                "11",
+                "12.1",
+                "14.1-14.2"
+              ],
+              "visual_pages": [
+                18
+              ],
+              "pdf_total_pages": 23
+            }
+          },
+          {
+            "molecule": "juvmo-tavapadon",
+            "download_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/220415Orig1s000ltr.pdf",
+            "resolved_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/220415Orig1s000ltr.pdf",
+            "retrieval_started_utc": "2026-10-04T14:05:41.168372+00:00",
+            "retrieval_completed_utc": "2026-10-04T14:05:41.983463+00:00",
+            "http_status": 200,
+            "content_type": "application/pdf",
+            "bytes": 250647,
+            "sha256": "41ec84c08eeab7716bd37fd38632b94375ba5991aedabb429a80ccd383713a86",
+            "valid_file": true,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/juvmo-tavapadon/sources/220415Orig1s000ltr.pdf",
+            "transport": "urllib Request User-Agent Mozilla/5.0",
+            "source_role": "FDA_approval_letter",
+            "read_depth": {
+              "scope": "partial_document",
+              "pages_1based": [
+                1,
+                5
+              ],
+              "anchors": [
+                "NDA APPROVAL",
+                "APPROVAL & LABELING",
+                "electronic signature page"
+              ]
+            }
+          },
+          {
+            "molecule": "juvmo-tavapadon",
+            "download_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220415",
+            "resolved_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220415",
+            "retrieval_started_utc": "2026-10-04T14:05:41.983738+00:00",
+            "retrieval_completed_utc": "2026-10-04T14:05:43.178212+00:00",
+            "http_status": 200,
+            "content_type": "text/html;charset=UTF-8",
+            "bytes": 30453,
+            "sha256": "b303a80acb6706b3e20a899afff20e02fad8504298f6ad3598fa2dc369ad45e5",
+            "valid_file": true,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/juvmo-tavapadon/sources/drugsatfda-application.html",
+            "transport": "urllib Request User-Agent Mozilla/5.0",
+            "source_role": "FDA_application_overview",
+            "read_depth": {
+              "scope": "application identity and original approval table",
+              "anchors": [
+                "New Drug Application (NDA)",
+                "Original Approvals or Tentative Approvals",
+                "collapseApproval"
+              ]
+            }
+          }
+        ],
+        "FDA_hosted_label_missing_reason": "Current FDA application table explicitly says Label is not available on this site; browser-UA candidate Orig1s000 and s000 FDA label URLs returned 404. Sponsor-hosted PI used explicitly.",
+        "source_bound_annotation": {
+          "label_url": "https://www.rxabbvie.com/pdf/juvmo_pi.pdf",
+          "label_sha256": "c92204ea10bb82074c8ef82dbb0ef99fb52099992092421f73e10d6ebda9de87",
+          "all_identity_indication_mechanism_safety_study_fields_bind_to_this_label": true,
+          "locators": "Named sections and 1-based PDF pages in individual fields.",
+          "source_host_substitution_hidden": false
+        },
+        "scientific_queries": [
+          {
+            "molecule": "tavapadon",
+            "query": "tavapadon[All Fields] AND (BUB1B[All Fields] OR BUBR1[All Fields] OR \"mosaic variegated aneuploidy\"[All Fields])",
+            "purpose": "mva",
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=tavapadon%5BAll+Fields%5D+AND+%28BUB1B%5BAll+Fields%5D+OR+BUBR1%5BAll+Fields%5D+OR+%22mosaic+variegated+aneuploidy%22%5BAll+Fields%5D%29&retmode=json&retmax=20",
+            "retrieved_utc": "2026-10-04T14:07:18.143572+00:00",
+            "http_status": 200,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/tavapadon-mva-pubmed-esearch.json",
+            "sha256": "288e1104abab98e86b856fc0977e5481e3f5da656a5000cb267687eadf5c8193",
+            "count": 0,
+            "ids": [],
+            "translation": "\"tavapadon\"[All Fields] AND (\"bub1b protein human\"[Supplementary Concept] OR \"bub1b protein human\"[All Fields] OR \"bub1b\"[All Fields] OR \"BUBR1\"[All Fields] OR \"mosaic variegated aneuploidy\"[All Fields])",
+            "status": "candidate_retrieval_only_not_abstract_screen"
+          },
+          {
+            "molecule": "tavapadon",
+            "query": "tavapadon[All Fields] AND (motor[All Fields] OR function[All Fields] OR mobility[All Fields] OR dyskinesia[All Fields])",
+            "purpose": "motor_function",
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=tavapadon%5BAll+Fields%5D+AND+%28motor%5BAll+Fields%5D+OR+function%5BAll+Fields%5D+OR+mobility%5BAll+Fields%5D+OR+dyskinesia%5BAll+Fields%5D%29&retmode=json&retmax=20",
+            "retrieved_utc": "2026-10-04T14:07:19.404662+00:00",
+            "http_status": 200,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/tavapadon-motor_function-pubmed-esearch.json",
+            "sha256": "0005be0c775234f00b341463cf68fda9ba55a26c38b11c909fa8dcb789605ce4",
+            "count": 19,
+            "ids": [
+              "42822261",
+              "42601529",
+              "42456682",
+              "42393412",
+              "42162439",
+              "41860544",
+              "41860533",
+              "41570740",
+              "41141087",
+              "41002726",
+              "40552668",
+              "40537032",
+              "40500235",
+              "40384932",
+              "40152930",
+              "39270528",
+              "37238699",
+              "36999711",
+              "35676276"
+            ],
+            "translation": "\"tavapadon\"[All Fields] AND (\"motor\"[All Fields] OR \"motor s\"[All Fields] OR \"motoric\"[All Fields] OR \"motorically\"[All Fields] OR \"motorics\"[All Fields] OR \"motoring\"[All Fields] OR \"motorisation\"[All Fields] OR \"motorised\"[All Fields] OR \"motorization\"[All Fields] OR \"motorized\"[All Fields] OR \"motors\"[All Fields] OR (\"functional\"[All Fields] OR \"functional s\"[All Fields] OR \"functionalities\"[All Fields] OR \"functionality\"[All Fields] OR \"functionalization\"[All Fields] OR \"functionalizations\"[All Fields] OR \"functionalize\"[All Fields] OR \"functionalized\"[All Fields] OR \"functionalizes\"[All Fields] OR \"functionalizing\"[All Fields] OR \"functionally\"[All Fields] OR \"functionals\"[All Fields] OR \"functioned\"[All Fields] OR \"functioning\"[All Fields] OR \"functionings\"[All Fields] OR \"functions\"[All Fields] OR \"physiology\"[MeSH Subheading] OR \"physiology\"[All Fields] OR \"function\"[All Fields] OR \"physiology\"[MeSH Terms]) OR (\"mobilities\"[All Fields] OR \"range of motion, articular\"[MeSH Terms] OR (\"range\"[All Fields] AND \"motion\"[All Fields] AND \"articular\"[All Fields]) OR \"articular range of motion\"[All Fields] OR \"mobility\"[All Fields]) OR (\"dyskinesiae\"[All Fields] OR \"dyskinesias\"[MeSH Terms] OR \"dyskinesias\"[All Fields] OR \"dyskinesia\"[All Fields]))",
+            "status": "candidate_retrieval_only_not_abstract_screen"
+          }
+        ],
+        "europepmc_queries": [
+          {
+            "molecule": "tavapadon",
+            "query": "\"tavapadon\" AND (BUB1B OR BUBR1 OR \"mosaic variegated aneuploidy\")",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22tavapadon%22+AND+%28BUB1B+OR+BUBR1+OR+%22mosaic+variegated+aneuploidy%22%29&format=json&pageSize=20",
+            "retrieved_utc": "2026-10-04T14:17:47.353945+00:00",
+            "http_status": 200,
+            "sha256": "9ee7eef12d5e4bb01f02eb7e4382bfbce71cba91d51dbe3d46a093e8bb49b5ea",
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/tavapadon-mva-europepmc.json",
+            "hit_count": 0,
+            "results": [],
+            "read_scope": "query response metadata only; titles and returned cooccurrences not same-experiment evidence; abstracts and body unreviewed",
+            "appraisal_status": "pending"
+          }
+        ],
+        "mva_query_boundary": {
+          "PubMed_count": 0,
+          "Europe_PMC_count": 0,
+          "status": "bounded_current_snapshot_only",
+          "limitations": [
+            "No-hit does not prove absence or lack of efficacy.",
+            "No exhaustive coverage of unpublished work, alternate spellings, all development-code aliases, every registry or non-indexed literature.",
+            "PubMed auto term mapping and original queries preserved in raw response and query log.",
+            "Europe PMC query metadata/full-text cooccurrence would not demonstrate same-experiment evidence; body unreviewed.",
+            "Broad web Boolean batch returned unrelated MVA pages; exact narrower web query batch returned empty; cannot promote broad web recall to exhaustive zero evidence."
+          ]
+        },
+        "credit": {
+          "abstract_screen": false,
+          "scientific_appraisal": false,
+          "efficacy_appraisal": false,
+          "MVA_efficacy": false,
+          "MVA_mechanistic_rescue": false,
+          "motor_function_transfer_to_MVA": false,
+          "reason": "Retrieval and explicit label section annotation only; primary candidates and scientific questions pending."
+        }
+      },
+      {
+        "inventory_row": 44,
+        "brand_name": "Atebrioz",
+        "active_ingredient": "zilurgisertib",
+        "nda": "221198",
+        "approval_date": "2026-09-25",
+        "slug": "atebrioz-zilurgisertib",
+        "label_filename": "Atebrioz-USPI-MedGuide.pdf",
+        "FDA_hosted_label": false,
+        "label_pages": 14,
+        "read_scope": {
+          "full_file_downloaded": true,
+          "whole_label_semantically_read": false,
+          "pages_1based": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "complete_named_sections": [
+            "1",
+            "5.1",
+            "11",
+            "12.1",
+            "14"
+          ],
+          "visual_pages": [
+            11
+          ],
+          "pdf_total_pages": 14
+        },
+        "identity": {
+          "active_moiety": "zilurgisertib",
+          "chemical_form": "zilurgisertib fumarate dihydrate",
+          "formula": "C30H38N4O3.C4H4O4.2H2O",
+          "molecular_weight_g_per_mol": 654.76,
+          "dosage_form": "film-coated oral tablet",
+          "strength_mg_active_moiety": 25,
+          "salt_hydrate_mg_per_tablet": 32.55,
+          "fixed_combination": false,
+          "section": "11",
+          "pages": [
+            6,
+            7
+          ],
+          "aliases": {
+            "label_reported": [],
+            "unresolved_candidates": [
+              "INCB000928",
+              "INCB00928"
+            ],
+            "status": "not verified by this label; alias equality not assumed from snippets"
+          }
+        },
+        "indication": {
+          "section": "1",
+          "pages": [
+            2
+          ],
+          "anchor": "1. INDICATIONS AND USAGE",
+          "summary": "Reduce total new heterotopic ossification volume in adults and pediatric patients at least 12 years with FOP."
+        },
+        "preparation": {
+          "section": "2.2",
+          "pages": [
+            2
+          ],
+          "summary": "100 mg once daily whole tablets or four crushed tablets mixed with 60 mL water, orange juice, apple sauce or plain yogurt and administered immediately; no grapefruit/pomelo products."
+        },
+        "mechanism": {
+          "section": "12.1",
+          "pages": [
+            7
+          ],
+          "anchor": "12.1. Mechanism of Action",
+          "summary": "Selective inhibition of wild-type and pathogenic R206H ALK2; inhibits ALK2 signaling and endochondral bone formation in the FOP ACVR1 gain-of-function pathway."
+        },
+        "safety": {
+          "scope": "Complete section 5 read; not comprehensive safety review of all labeling.",
+          "boxed_warning": {
+            "present": false,
+            "basis": "Highlights page 1 and FPI opening page 2 reviewed."
+          },
+          "warnings": [
+            {
+              "section": "5.1",
+              "pages": [
+                3
+              ],
+              "anchor": "Embryo-Fetal Toxicity",
+              "summary": "Contraindicated in pregnancy; fetal harm based on mechanism and rats. Verify not pregnant; contraception during treatment and one week after final dose; immediately stop if pregnancy occurs."
+            }
+          ],
+          "interaction_section": {
+            "section": "7",
+            "pages": [
+              4
+            ],
+            "summary": "Strong CYP3A4 inhibitor dose reduction; avoid strong/moderate CYP3A4 inducers and MATE1/MATE2-K substrates, including metformin, where possible."
+          },
+          "additional_read": "Sections 4, 6.1, 7, 8.2-8.5 and 13.1 encountered; rat potential preneoplastic liver alterations and iron accumulation with uncertain human relevance remain pending."
+        },
+        "clinical_studies": {
+          "section": "14",
+          "pages": [
+            10,
+            11
+          ],
+          "anchor": "14. CLINICAL STUDIES",
+          "read_scope": "complete section 14; sponsor USPI",
+          "motor_function_endpoint_reported": false,
+          "motor_function_result": null,
+          "motor_function_result_status": "not_reported_in_complete_read_section_14",
+          "MVA_endpoint": null,
+          "MVA_endpoint_status": "not_reported_in_complete_read_section_14",
+          "CAJIS_role": "Baseline eligibility (at most 23) and stratification; no CAJIS function-change efficacy result reported.",
+          "studies": [
+            {
+              "study": "1 / PROGRESS cohort 1",
+              "nct": "NCT05090891",
+              "population": "FOP, ages 12-64, recent disease activity, CAJIS at most 23",
+              "design": "24-week randomized double-blind placebo controlled followed by 292-week open-label extension",
+              "randomized_n": 63,
+              "randomized_arms": {
+                "zilurgisertib": 32,
+                "placebo": 31
+              },
+              "adults_n": 28,
+              "pediatric_n": 35,
+              "treatment": "zilurgisertib 100 mg daily",
+              "endpoint": "total new HO lesion volume by whole-body CT excluding head; includes expansion of baseline lesions plus new discrete HO",
+              "endpoint_type": "structural imaging endpoint; not motor performance or ADL outcome",
+              "results": {
+                "zilurgisertib_mean_change_cm3": -3.2,
+                "zilurgisertib_SD": 19.9,
+                "placebo_mean_change_cm3": 24.6,
+                "placebo_SD": 51.9,
+                "Hodges_Lehmann_difference_cm3": -15.8,
+                "CI95": [
+                  -32.1,
+                  -6
+                ],
+                "p": null,
+                "p_status": "not_reported_in_read_section_14"
+              },
+              "pages": [
+                10,
+                11
+              ],
+              "status": "label_reported_not_independent_appraisal"
+            }
+          ],
+          "boundary": "CT new HO volume reduction in FOP is not evidence of motor/function improvement or MVA benefit."
+        },
+        "source_discrepancies": [
+          "Approval letter page 1 states NDA received September 26, 2026, later than September 25 signature; application approval table says September 25. Preserve source, do not invent correction."
+        ],
+        "scientific_pending_questions": [
+          "Confirm sponsor USPI against FDA-hosted label once posted.",
+          "Review PROGRESS protocol and primary results for prespecified/exploratory function endpoints; do not infer motor benefit from CT volume.",
+          "Verify development-code aliases and exact compound form before combining evidence.",
+          "Appraise rat hepatic iron/preneoplastic findings with direct evidence in any cancer-predisposed application.",
+          "No BUB1B/BUBR1/MVA relevance or rescue is established here.",
+          "Retrieve and isolate exact constituent congress abstracts containing each term before assessing whether compound and BUB1B/BUBR1/MVA occur in the same experiment."
+        ],
+        "candidate_papers": {
+          "status": "motor/function query identifiers only; primary eligibility unassessed",
+          "Europe_PMC_gene_candidate": {
+            "metadata": {
+              "id": "PMC11177578",
+              "source": "PMC",
+              "pmcid": "PMC11177578",
+              "fullTextIdList": {
+                "fullTextId": [
+                  "PMC11177578"
+                ]
+              },
+              "title": "EHA2024 Hybrid Congress",
+              "journalTitle": "Hemasphere",
+              "issue": "suppl 1",
+              "journalVolume": "8",
+              "pubYear": "2024",
+              "journalIssn": "2572-9241",
+              "pubType": "abstract",
+              "isOpenAccess": "N",
+              "inEPMC": "Y",
+              "inPMC": "Y",
+              "citedByCount": 0,
+              "hasReferences": "N",
+              "hasTextMinedTerms": "N",
+              "hasDbCrossReferences": "N",
+              "hasPDF": "Y",
+              "hasBook": "N",
+              "hasSuppl": "N",
+              "hasLabsLinks": "N",
+              "hasTMAccessionNumbers": "N",
+              "firstPublicationDate": "2024-06-01",
+              "firstIndexDate": "2024-06-18"
+            },
+            "matched_exact_query": "\"zilurgisertib\" AND (BUB1B OR BUBR1 OR \"mosaic variegated aneuploidy\")",
+            "query_response_local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/zilurgisertib-mva-europepmc.json",
+            "query_response_sha256": "2d1890da38a41a33db3068765908e0a7995ef6843d2c53e0355c82a2c5fc4e8c",
+            "full_text_retrieval_attempt": {
+              "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11177578/fullTextXML",
+              "attempt_date": "2026-10-04",
+              "http_status": 500,
+              "successful_full_text_bytes_saved": false,
+              "sha256": null,
+              "sha256_status": "body_not_preserved_for_failed_attempt"
+            },
+            "read_scope": "Query metadata only; full text and constituent abstracts unreviewed. Title is an aggregate congress supplement, not a molecule-specific primary-study title.",
+            "evidence_interpretation": "Potential full-text cooccurrence across conference resource; no same-experiment connection, appraisal or MVA efficacy/rescue credit.",
+            "scientific_pending_question": "Retrieve and isolate exact constituent congress abstracts containing each term before assessing whether compound and BUB1B/BUBR1/MVA occur in the same experiment."
+          },
+          "PubMed_motor_function_ids": [
+            "41360500",
+            "41256990",
+            "41127889",
+            "40462754",
+            "40056069",
+            "39652202"
+          ],
+          "PubMed_motor_function_count": 6,
+          "retrieval_limit": 20,
+          "systematic_abstract_screen_completed": false,
+          "primary_study_eligibility": "unassessed",
+          "full_text_appraisal_completed": false
+        },
+        "schema_version": "source-bound-regulatory-preliminary-v1",
+        "created_utc": "2026-10-04T14:21:33.154150+00:00",
+        "record_status": "label_section_annotation_and_candidate_retrieval_only",
+        "approval_date_source": "Current FDA application Original Approvals table and letter electronic signature",
+        "label_source": {
+          "molecule": "atebrioz-zilurgisertib",
+          "download_url": "https://files.mirumpharma.com/atebrioz/Atebrioz-USPI-MedGuide.pdf",
+          "resolved_url": "https://files.mirumpharma.com/atebrioz/Atebrioz-USPI-MedGuide.pdf",
+          "retrieval_started_utc": "2026-10-04T14:07:49.877823+00:00",
+          "retrieval_completed_utc": "2026-10-04T14:07:51.273652+00:00",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "bytes": 477103,
+          "sha256": "27a9561b17d9f633275a80bb6a9be54806b6fd2e2d1d73d2d6d0082bb323056b",
+          "valid_file": true,
+          "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/atebrioz-zilurgisertib/sources/Atebrioz-USPI-MedGuide.pdf",
+          "transport": "urllib Request User-Agent Mozilla/5.0",
+          "source_type": "sponsor_hosted_US_prescribing_information_not_FDA_hosted",
+          "page_count": 14,
+          "source_role": "sponsor_hosted_US_prescribing_information",
+          "read_depth": {
+            "full_file_downloaded": true,
+            "whole_label_semantically_read": false,
+            "pages_1based": [
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "complete_named_sections": [
+              "1",
+              "5.1",
+              "11",
+              "12.1",
+              "14"
+            ],
+            "visual_pages": [
+              11
+            ],
+            "pdf_total_pages": 14
+          }
+        },
+        "sources": [
+          {
+            "molecule": "atebrioz-zilurgisertib",
+            "download_url": "https://files.mirumpharma.com/atebrioz/Atebrioz-USPI-MedGuide.pdf",
+            "resolved_url": "https://files.mirumpharma.com/atebrioz/Atebrioz-USPI-MedGuide.pdf",
+            "retrieval_started_utc": "2026-10-04T14:07:49.877823+00:00",
+            "retrieval_completed_utc": "2026-10-04T14:07:51.273652+00:00",
+            "http_status": 200,
+            "content_type": "application/pdf",
+            "bytes": 477103,
+            "sha256": "27a9561b17d9f633275a80bb6a9be54806b6fd2e2d1d73d2d6d0082bb323056b",
+            "valid_file": true,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/atebrioz-zilurgisertib/sources/Atebrioz-USPI-MedGuide.pdf",
+            "transport": "urllib Request User-Agent Mozilla/5.0",
+            "source_type": "sponsor_hosted_US_prescribing_information_not_FDA_hosted",
+            "page_count": 14,
+            "source_role": "sponsor_hosted_US_prescribing_information",
+            "read_depth": {
+              "full_file_downloaded": true,
+              "whole_label_semantically_read": false,
+              "pages_1based": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "complete_named_sections": [
+                "1",
+                "5.1",
+                "11",
+                "12.1",
+                "14"
+              ],
+              "visual_pages": [
+                11
+              ],
+              "pdf_total_pages": 14
+            }
+          },
+          {
+            "molecule": "atebrioz-zilurgisertib",
+            "download_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/221198Orig1s000ltr.pdf",
+            "resolved_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/221198Orig1s000ltr.pdf",
+            "retrieval_started_utc": "2026-10-04T14:05:45.516069+00:00",
+            "retrieval_completed_utc": "2026-10-04T14:05:47.077513+00:00",
+            "http_status": 200,
+            "content_type": "application/pdf",
+            "bytes": 256045,
+            "sha256": "5dee8c301e2e10e56ab1b019fefd5aa54979ed9a6f84e343a89a79615f188cdd",
+            "valid_file": true,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/atebrioz-zilurgisertib/sources/221198Orig1s000ltr.pdf",
+            "transport": "urllib Request User-Agent Mozilla/5.0",
+            "source_role": "FDA_approval_letter",
+            "read_depth": {
+              "scope": "partial_document",
+              "pages_1based": [
+                1,
+                6
+              ],
+              "anchors": [
+                "NDA APPROVAL",
+                "APPROVAL & LABELING",
+                "electronic signature page"
+              ]
+            }
+          },
+          {
+            "molecule": "atebrioz-zilurgisertib",
+            "download_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221198",
+            "resolved_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221198",
+            "retrieval_started_utc": "2026-10-04T14:05:47.077707+00:00",
+            "retrieval_completed_utc": "2026-10-04T14:05:48.008456+00:00",
+            "http_status": 200,
+            "content_type": "text/html;charset=UTF-8",
+            "bytes": 28996,
+            "sha256": "95bc132ddaccaa03b49e13ee8416d574cab67403c2b0d0fe1975d9e5365db650",
+            "valid_file": true,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/atebrioz-zilurgisertib/sources/drugsatfda-application.html",
+            "transport": "urllib Request User-Agent Mozilla/5.0",
+            "source_role": "FDA_application_overview",
+            "read_depth": {
+              "scope": "application identity and original approval table",
+              "anchors": [
+                "New Drug Application (NDA)",
+                "Original Approvals or Tentative Approvals",
+                "collapseApproval"
+              ]
+            }
+          },
+          {
+            "molecule": "atebrioz-zilurgisertib",
+            "download_url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-third-treatment-fibrodysplasia-ossificans-progressiva",
+            "resolved_url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-third-treatment-fibrodysplasia-ossificans-progressiva",
+            "retrieval_started_utc": "2026-10-04T14:05:51.939883+00:00",
+            "retrieval_completed_utc": "2026-10-04T14:05:52.342541+00:00",
+            "http_status": 200,
+            "content_type": "text/html; charset=UTF-8",
+            "bytes": 33702,
+            "sha256": "6563d2945378d78e97fbf803f41e9ff3297deec4cafa67ab7169b65c385b8b30",
+            "valid_file": true,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/atebrioz-zilurgisertib/sources/fda-approval-news.html",
+            "transport": "urllib Request User-Agent Mozilla/5.0",
+            "source_role": "FDA_approval_news",
+            "read_depth": {
+              "scope": "Article body read via FDA web tool; HTML navigation not semantically reviewed",
+              "anchors": [
+                "Action",
+                "Effectiveness",
+                "Safety Information"
+              ]
+            }
+          }
+        ],
+        "FDA_hosted_label_missing_reason": "Current FDA application table explicitly says Label is not available on this site; browser-UA candidate Orig1s000 and s000 FDA label URLs returned 404. Sponsor-hosted PI used explicitly.",
+        "source_bound_annotation": {
+          "label_url": "https://files.mirumpharma.com/atebrioz/Atebrioz-USPI-MedGuide.pdf",
+          "label_sha256": "27a9561b17d9f633275a80bb6a9be54806b6fd2e2d1d73d2d6d0082bb323056b",
+          "all_identity_indication_mechanism_safety_study_fields_bind_to_this_label": true,
+          "locators": "Named sections and 1-based PDF pages in individual fields.",
+          "source_host_substitution_hidden": false
+        },
+        "scientific_queries": [
+          {
+            "molecule": "zilurgisertib",
+            "query": "zilurgisertib[All Fields] AND (BUB1B[All Fields] OR BUBR1[All Fields] OR \"mosaic variegated aneuploidy\"[All Fields])",
+            "purpose": "mva",
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=zilurgisertib%5BAll+Fields%5D+AND+%28BUB1B%5BAll+Fields%5D+OR+BUBR1%5BAll+Fields%5D+OR+%22mosaic+variegated+aneuploidy%22%5BAll+Fields%5D%29&retmode=json&retmax=20",
+            "retrieved_utc": "2026-10-04T14:07:20.239943+00:00",
+            "http_status": 200,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/zilurgisertib-mva-pubmed-esearch.json",
+            "sha256": "f844935c9a866015094bd858b79a4672e8f310da950241ff762542fb59465cbb",
+            "count": 0,
+            "ids": [],
+            "translation": "\"zilurgisertib\"[All Fields] AND (\"bub1b protein human\"[Supplementary Concept] OR \"bub1b protein human\"[All Fields] OR \"bub1b\"[All Fields] OR \"BUBR1\"[All Fields] OR \"mosaic variegated aneuploidy\"[All Fields])",
+            "status": "candidate_retrieval_only_not_abstract_screen"
+          },
+          {
+            "molecule": "zilurgisertib",
+            "query": "zilurgisertib[All Fields] AND (motor[All Fields] OR function[All Fields] OR mobility[All Fields] OR dyskinesia[All Fields])",
+            "purpose": "motor_function",
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=zilurgisertib%5BAll+Fields%5D+AND+%28motor%5BAll+Fields%5D+OR+function%5BAll+Fields%5D+OR+mobility%5BAll+Fields%5D+OR+dyskinesia%5BAll+Fields%5D%29&retmode=json&retmax=20",
+            "retrieved_utc": "2026-10-04T14:07:21.325703+00:00",
+            "http_status": 200,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/zilurgisertib-motor_function-pubmed-esearch.json",
+            "sha256": "a15cffb6dd4f1ba55b99d69991a492ea2bebe71d0b089ac08540c30bd5e57069",
+            "count": 6,
+            "ids": [
+              "41360500",
+              "41256990",
+              "41127889",
+              "40462754",
+              "40056069",
+              "39652202"
+            ],
+            "translation": "\"zilurgisertib\"[All Fields] AND (\"motor\"[All Fields] OR \"motor s\"[All Fields] OR \"motoric\"[All Fields] OR \"motorically\"[All Fields] OR \"motorics\"[All Fields] OR \"motoring\"[All Fields] OR \"motorisation\"[All Fields] OR \"motorised\"[All Fields] OR \"motorization\"[All Fields] OR \"motorized\"[All Fields] OR \"motors\"[All Fields] OR (\"functional\"[All Fields] OR \"functional s\"[All Fields] OR \"functionalities\"[All Fields] OR \"functionality\"[All Fields] OR \"functionalization\"[All Fields] OR \"functionalizations\"[All Fields] OR \"functionalize\"[All Fields] OR \"functionalized\"[All Fields] OR \"functionalizes\"[All Fields] OR \"functionalizing\"[All Fields] OR \"functionally\"[All Fields] OR \"functionals\"[All Fields] OR \"functioned\"[All Fields] OR \"functioning\"[All Fields] OR \"functionings\"[All Fields] OR \"functions\"[All Fields] OR \"physiology\"[MeSH Subheading] OR \"physiology\"[All Fields] OR \"function\"[All Fields] OR \"physiology\"[MeSH Terms]) OR (\"mobilities\"[All Fields] OR \"range of motion, articular\"[MeSH Terms] OR (\"range\"[All Fields] AND \"motion\"[All Fields] AND \"articular\"[All Fields]) OR \"articular range of motion\"[All Fields] OR \"mobility\"[All Fields]) OR (\"dyskinesiae\"[All Fields] OR \"dyskinesias\"[MeSH Terms] OR \"dyskinesias\"[All Fields] OR \"dyskinesia\"[All Fields]))",
+            "status": "candidate_retrieval_only_not_abstract_screen"
+          }
+        ],
+        "europepmc_queries": [
+          {
+            "molecule": "zilurgisertib",
+            "query": "\"zilurgisertib\" AND (BUB1B OR BUBR1 OR \"mosaic variegated aneuploidy\")",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22zilurgisertib%22+AND+%28BUB1B+OR+BUBR1+OR+%22mosaic+variegated+aneuploidy%22%29&format=json&pageSize=20",
+            "retrieved_utc": "2026-10-04T14:17:49.453848+00:00",
+            "http_status": 200,
+            "sha256": "2d1890da38a41a33db3068765908e0a7995ef6843d2c53e0355c82a2c5fc4e8c",
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/zilurgisertib-mva-europepmc.json",
+            "hit_count": 1,
+            "results": [
+              {
+                "id": "PMC11177578",
+                "source": "PMC",
+                "pmcid": "PMC11177578",
+                "fullTextIdList": {
+                  "fullTextId": [
+                    "PMC11177578"
+                  ]
+                },
+                "title": "EHA2024 Hybrid Congress",
+                "journalTitle": "Hemasphere",
+                "issue": "suppl 1",
+                "journalVolume": "8",
+                "pubYear": "2024",
+                "journalIssn": "2572-9241",
+                "pubType": "abstract",
+                "isOpenAccess": "N",
+                "inEPMC": "Y",
+                "inPMC": "Y",
+                "citedByCount": 0,
+                "hasReferences": "N",
+                "hasTextMinedTerms": "N",
+                "hasDbCrossReferences": "N",
+                "hasPDF": "Y",
+                "hasBook": "N",
+                "hasSuppl": "N",
+                "hasLabsLinks": "N",
+                "hasTMAccessionNumbers": "N",
+                "firstPublicationDate": "2024-06-01",
+                "firstIndexDate": "2024-06-18"
+              }
+            ],
+            "read_scope": "query response metadata only; titles and returned cooccurrences not same-experiment evidence; abstracts and body unreviewed",
+            "appraisal_status": "pending"
+          }
+        ],
+        "mva_query_boundary": {
+          "PubMed_count": 0,
+          "Europe_PMC_count": 1,
+          "status": "bounded_current_snapshot_only",
+          "limitations": [
+            "No-hit does not prove absence or lack of efficacy.",
+            "No exhaustive coverage of unpublished work, alternate spellings, all development-code aliases, every registry or non-indexed literature.",
+            "PubMed auto term mapping and original queries preserved in raw response and query log.",
+            "Europe PMC query metadata/full-text cooccurrence would not demonstrate same-experiment evidence; body unreviewed.",
+            "Broad web Boolean batch returned unrelated MVA pages; exact narrower web query batch returned empty; cannot promote broad web recall to exhaustive zero evidence."
+          ]
+        },
+        "credit": {
+          "abstract_screen": false,
+          "scientific_appraisal": false,
+          "efficacy_appraisal": false,
+          "MVA_efficacy": false,
+          "MVA_mechanistic_rescue": false,
+          "motor_function_transfer_to_MVA": false,
+          "reason": "Retrieval and explicit label section annotation only; primary candidates and scientific questions pending."
+        }
+      },
+      {
+        "inventory_row": 45,
+        "brand_name": "Emcitate",
+        "active_ingredient": "tiratricol",
+        "nda": "220963",
+        "approval_date": "2026-09-28",
+        "slug": "emcitate-tiratricol",
+        "label_filename": "220963s000lbl.pdf",
+        "FDA_hosted_label": true,
+        "label_pages": 23,
+        "read_scope": {
+          "full_file_downloaded": true,
+          "whole_label_semantically_read": false,
+          "pages_1based": [
+            1,
+            2,
+            4,
+            5,
+            9,
+            11,
+            12,
+            13
+          ],
+          "complete_named_sections": [
+            "1",
+            "boxed warning",
+            "2.7-2.8",
+            "3",
+            "5.1-5.3",
+            "11",
+            "12.1",
+            "14"
+          ],
+          "visual_pages": [
+            13
+          ],
+          "pdf_total_pages": 23
+        },
+        "identity": {
+          "active_moiety": "tiratricol",
+          "chemical_form": "tiratricol; no salt named in section 11",
+          "formula": "C14H9I3O4",
+          "molecular_weight_g_per_mol": 621.93,
+          "dosage_form": "functionally scored tablets for oral suspension",
+          "strength_mcg": 350,
+          "fixed_combination": false,
+          "section": "11",
+          "pages": [
+            9
+          ],
+          "aliases": {
+            "label_reported": [],
+            "candidate_from_primary_trial_title": "Triac / 3,3-prime,5-triiodothyroacetic acid",
+            "status": "publication candidate; not complete preparation-equivalence review"
+          }
+        },
+        "indication": {
+          "section": "1",
+          "pages": [
+            2
+          ],
+          "anchor": "1 INDICATIONS AND USAGE",
+          "summary": "Peripheral thyrotoxicosis in adults and children with MCT8 deficiency (Allan-Herndon-Dudley syndrome). Not recommended for primary hypothyroidism."
+        },
+        "preparation": {
+          "section": "2.7-2.8",
+          "pages": [
+            4
+          ],
+          "summary": "Disperse in room-temperature drinking water in a 10-12 mL syringe, orally or via enteral tube into stomach. No swallowing whole/chewing/crushing or other liquids/foods/formulas; at most three tablets per preparation; discard unused suspension after 30 minutes. Tablet may be halved."
+        },
+        "mechanism": {
+          "section": "12.1",
+          "pages": [
+            9
+          ],
+          "anchor": "12.1 Mechanism of Action",
+          "summary": "Thyroid hormone receptor agonist enters cells independently of MCT8, modulates hypothalamic-pituitary-thyroid signaling and lowers circulating T3 in MCT8/SLC16A2 deficiency. Mechanism itself does not establish brain or motor rescue."
+        },
+        "safety": {
+          "scope": "Complete section 5 read; not comprehensive safety review of all labeling.",
+          "boxed_warning": {
+            "present": true,
+            "pages": [
+              1,
+              2
+            ],
+            "anchor": "WARNING: NOT FOR TREATMENT OF OBESITY OR FOR WEIGHT LOSS",
+            "summary": "Thyroid hormones including Emcitate alone or with other agents should not be used for obesity or weight loss."
+          },
+          "warnings": [
+            {
+              "section": "5.1",
+              "pages": [
+                5
+              ],
+              "anchor": "New Onset or Worsening of Thyrotoxicosis",
+              "summary": "Thyromimetic effects may produce increased heart rate/BP, diarrhea, sweating, irritability, insomnia or nightmares; down-titrate for symptoms despite T3 normalization."
+            },
+            {
+              "section": "5.2",
+              "pages": [
+                5
+              ],
+              "anchor": "Not for Treatment of Obesity or Weight Loss",
+              "summary": "Weight reduction use may cause serious or life-threatening thyrotoxicosis."
+            },
+            {
+              "section": "5.3",
+              "pages": [
+                5
+              ],
+              "anchor": "Laboratory Test Interference for T3 Measurement",
+              "summary": "T3 immunoassay cross-reactivity can overestimate T3; LC-MS/MS is not expected to be affected, but no FDA-authorized total-T3 LC-MS/MS test at labeling."
+            }
+          ],
+          "contraindication": {
+            "section": "4",
+            "pages": [
+              5
+            ],
+            "summary": "Primary hyperthyroidism."
+          },
+          "additional_read": "Overview suggests considering vision assessment under age 8; nonclinical eye text on page 11 expresses human-risk uncertainty. Complete section 7 not appraised."
+        },
+        "clinical_studies": {
+          "section": "14",
+          "pages": [
+            11,
+            12,
+            13
+          ],
+          "anchor": "14 CLINICAL STUDIES",
+          "read_scope": "complete section 14; FDA-hosted label",
+          "motor_neurodevelopmental_endpoint_reported": false,
+          "motor_neurodevelopmental_result": null,
+          "motor_neurodevelopmental_result_status": "not_reported_in_complete_read_section_14",
+          "MVA_endpoint": null,
+          "MVA_endpoint_status": "not_reported_in_complete_read_section_14",
+          "studies": [
+            {
+              "study": 1,
+              "nct": "NCT05579327",
+              "population": "20 males MCT8 deficiency, ages 5-31; 15 stabilized participants randomized",
+              "enrolled_n": 20,
+              "randomized_n": 15,
+              "randomized_arms": {
+                "tiratricol": 7,
+                "placebo": 8
+              },
+              "design": "run-in/titration, 30-day randomized double-blind withdrawal, six-week open label",
+              "treatment": "continue individualized stable tiratricol versus withdrawal to placebo",
+              "primary_endpoints": [
+                "serum total T3 rate of change",
+                "proportion meeting T3 above upper normal limit rescue criterion"
+              ],
+              "endpoint_type": "thyroid biochemical endpoints",
+              "results": {
+                "T3_rate_tiratricol": 1.1,
+                "T3_rate_placebo": 1.6,
+                "placebo_over_tiratricol_ratio": 1.5,
+                "ratio_CI95": [
+                  1,
+                  2.2
+                ],
+                "ratio_p": 0.034,
+                "T3_change_difference_placebo_minus_tiratricol_ng_dL": 64.8,
+                "change_difference_CI95": [
+                  44.7,
+                  84.8
+                ],
+                "rescue_met_tiratricol_n": 1,
+                "rescue_met_placebo_n": 4,
+                "rescue_met_tiratricol_pct": 14.3,
+                "rescue_met_placebo_pct": 50,
+                "proportion_difference": 0.36,
+                "proportion_difference_CI95": [
+                  -0.16,
+                  0.77
+                ]
+              },
+              "secondary_endpoints": "heart rate and systolic BP; numerical trend in treatment-naive cohort B, stable in previously treated A",
+              "tables": [
+                5,
+                6
+              ],
+              "pages": [
+                11,
+                12
+              ],
+              "status": "label_reported_not_independent_appraisal"
+            },
+            {
+              "study": 2,
+              "nct": "NCT02060474",
+              "population": "46 males MCT8 deficiency, ages 10 months-66.8 years",
+              "enrolled_n": 46,
+              "T3_analysis_n": 45,
+              "design": "12-month multicenter single-arm open label",
+              "treatment": "individualized tiratricol targeting serum total T3",
+              "primary_endpoint": "change in mean total serum T3 to month 12",
+              "endpoint_type": "thyroid biochemical endpoint",
+              "primary_results": {
+                "baseline_ng_dL": 323.4,
+                "month12_ng_dL": 118.3,
+                "mean_difference_ng_dL": -205.2,
+                "CI95": [
+                  -235.7,
+                  -174.6
+                ],
+                "imputation": "last observation carried forward for early discontinuation"
+              },
+              "secondary_endpoints": "systolic BP, heart rate, weight signs of peripheral thyrotoxicosis",
+              "secondary_results": {
+                "SBP_change_mmHg": -4.1,
+                "SBP_CI95": [
+                  -8.1,
+                  -0.1
+                ],
+                "SBP_n": 35,
+                "HR_change_bpm": -8.9,
+                "HR_CI95": [
+                  -15.6,
+                  -2.3
+                ],
+                "HR_n": 34,
+                "weight_for_age_Z_change": 0.22,
+                "weight_CI95": [
+                  -0.01,
+                  0.45
+                ],
+                "weight_n": 45,
+                "untreated_comparison_Z_change": 0.51,
+                "untreated_comparison_CI95": [
+                  0.25,
+                  0.76
+                ],
+                "untreated_comparison_n": 36
+              },
+              "table": 7,
+              "pages": [
+                13
+              ],
+              "status": "label_reported_not_independent_appraisal",
+              "source_note": "Untreated body-weight comparison retained as written; not a randomized motor outcome."
+            }
+          ],
+          "boundary": "Peripheral thyrotoxicosis in MCT8 deficiency is the indication; brain dysfunction described in mechanism is not proof of developmental, motor or MVA rescue."
+        },
+        "scientific_pending_questions": [
+          "Review primary tiratricol/Triac studies and protocols for motor/neurodevelopmental endpoints, age dependence, exact preparation and study design.",
+          "Do not transfer thyroid normalization to neurological rescue or MVA treatment.",
+          "Validate source text anomalies against rendered page before quoting; selected efficacy page visually checked.",
+          "Future expanded aliases require identity matching; current zero count is the ingredient-query snapshot."
+        ],
+        "candidate_papers": {
+          "additional_web_candidates": [
+            {
+              "pmid": "31377265",
+              "title": "Effectiveness and safety of the tri-iodothyronine analogue Triac in children and adults with MCT8 deficiency: an international, single-arm, open-label, phase 2 trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31377265/"
+            }
+          ],
+          "status": "retrieved web candidate; not completed abstract screen or appraisal",
+          "PubMed_motor_function_ids": [
+            "42484993",
+            "42340815",
+            "42329790",
+            "41926547",
+            "41627438",
+            "41131705",
+            "40981297",
+            "40549098",
+            "40131620",
+            "38836423",
+            "38558372",
+            "38376950",
+            "38054413",
+            "37925810",
+            "37879570",
+            "37408688",
+            "36883873",
+            "36834863",
+            "36565029",
+            "36555189"
+          ],
+          "PubMed_motor_function_count": 222,
+          "retrieval_limit": 20,
+          "systematic_abstract_screen_completed": false,
+          "primary_study_eligibility": "unassessed",
+          "full_text_appraisal_completed": false
+        },
+        "schema_version": "source-bound-regulatory-preliminary-v1",
+        "created_utc": "2026-10-04T14:21:33.154921+00:00",
+        "record_status": "label_section_annotation_and_candidate_retrieval_only",
+        "approval_date_source": "Current FDA application Original Approvals table and letter electronic signature",
+        "label_source": {
+          "molecule": "emcitate-tiratricol",
+          "download_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220963s000lbl.pdf",
+          "resolved_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220963s000lbl.pdf",
+          "retrieval_started_utc": "2026-10-04T14:05:48.430155+00:00",
+          "retrieval_completed_utc": "2026-10-04T14:05:49.301865+00:00",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "bytes": 989574,
+          "sha256": "def86596b411efc42ef300860440b4546d9a47f36dda0c407029d5f91ccb57d6",
+          "valid_file": true,
+          "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/emcitate-tiratricol/sources/220963s000lbl.pdf",
+          "transport": "urllib Request User-Agent Mozilla/5.0",
+          "source_role": "FDA_hosted_label",
+          "read_depth": {
+            "full_file_downloaded": true,
+            "whole_label_semantically_read": false,
+            "pages_1based": [
+              1,
+              2,
+              4,
+              5,
+              9,
+              11,
+              12,
+              13
+            ],
+            "complete_named_sections": [
+              "1",
+              "boxed warning",
+              "2.7-2.8",
+              "3",
+              "5.1-5.3",
+              "11",
+              "12.1",
+              "14"
+            ],
+            "visual_pages": [
+              13
+            ],
+            "pdf_total_pages": 23
+          }
+        },
+        "sources": [
+          {
+            "molecule": "emcitate-tiratricol",
+            "download_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220963s000lbl.pdf",
+            "resolved_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220963s000lbl.pdf",
+            "retrieval_started_utc": "2026-10-04T14:05:48.430155+00:00",
+            "retrieval_completed_utc": "2026-10-04T14:05:49.301865+00:00",
+            "http_status": 200,
+            "content_type": "application/pdf",
+            "bytes": 989574,
+            "sha256": "def86596b411efc42ef300860440b4546d9a47f36dda0c407029d5f91ccb57d6",
+            "valid_file": true,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/emcitate-tiratricol/sources/220963s000lbl.pdf",
+            "transport": "urllib Request User-Agent Mozilla/5.0",
+            "source_role": "FDA_hosted_label",
+            "read_depth": {
+              "full_file_downloaded": true,
+              "whole_label_semantically_read": false,
+              "pages_1based": [
+                1,
+                2,
+                4,
+                5,
+                9,
+                11,
+                12,
+                13
+              ],
+              "complete_named_sections": [
+                "1",
+                "boxed warning",
+                "2.7-2.8",
+                "3",
+                "5.1-5.3",
+                "11",
+                "12.1",
+                "14"
+              ],
+              "visual_pages": [
+                13
+              ],
+              "pdf_total_pages": 23
+            }
+          },
+          {
+            "molecule": "emcitate-tiratricol",
+            "download_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/220963Orig1s000ltr.pdf",
+            "resolved_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/220963Orig1s000ltr.pdf",
+            "retrieval_started_utc": "2026-10-04T14:05:52.655134+00:00",
+            "retrieval_completed_utc": "2026-10-04T14:05:53.552527+00:00",
+            "http_status": 200,
+            "content_type": "application/pdf",
+            "bytes": 272013,
+            "sha256": "6f5a561ddd1f3f3bfef0f3d23f09522fb658fdc0ece1754442818317fc1b7023",
+            "valid_file": true,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/emcitate-tiratricol/sources/220963Orig1s000ltr.pdf",
+            "transport": "urllib Request User-Agent Mozilla/5.0",
+            "source_role": "FDA_approval_letter",
+            "read_depth": {
+              "scope": "partial_document",
+              "pages_1based": [
+                1,
+                8
+              ],
+              "anchors": [
+                "NDA APPROVAL",
+                "APPROVAL & LABELING",
+                "electronic signature page"
+              ]
+            }
+          },
+          {
+            "molecule": "emcitate-tiratricol",
+            "download_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220963",
+            "resolved_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220963",
+            "retrieval_started_utc": "2026-10-04T14:05:51.352885+00:00",
+            "retrieval_completed_utc": "2026-10-04T14:05:51.939795+00:00",
+            "http_status": 200,
+            "content_type": "text/html;charset=UTF-8",
+            "bytes": 30958,
+            "sha256": "816cac2634e3a7fcbbdae3f31cca7a4895a92ad6f72316bd9176557411ef6f94",
+            "valid_file": true,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/emcitate-tiratricol/sources/drugsatfda-application.html",
+            "transport": "urllib Request User-Agent Mozilla/5.0",
+            "source_role": "FDA_application_overview",
+            "read_depth": {
+              "scope": "application identity and original approval table",
+              "anchors": [
+                "New Drug Application (NDA)",
+                "Original Approvals or Tentative Approvals",
+                "collapseApproval"
+              ]
+            }
+          },
+          {
+            "molecule": "emcitate-tiratricol",
+            "download_url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-mct8-deficiency",
+            "resolved_url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-mct8-deficiency",
+            "retrieval_started_utc": "2026-10-04T14:05:52.342638+00:00",
+            "retrieval_completed_utc": "2026-10-04T14:05:52.655046+00:00",
+            "http_status": 200,
+            "content_type": "text/html; charset=UTF-8",
+            "bytes": 36703,
+            "sha256": "368bc17e4fee7824a49db3a754363cbf4e40e0dc702c80e529ba8fd19d310971",
+            "valid_file": true,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/emcitate-tiratricol/sources/fda-approval-news.html",
+            "transport": "urllib Request User-Agent Mozilla/5.0",
+            "source_role": "FDA_approval_news",
+            "read_depth": {
+              "scope": "Article body read via FDA web tool; HTML navigation not semantically reviewed",
+              "anchors": [
+                "FDA Approves First Treatment for MCT8 Deficiency",
+                "For Immediate Release"
+              ]
+            }
+          }
+        ],
+        "FDA_hosted_label_missing_reason": null,
+        "source_bound_annotation": {
+          "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220963s000lbl.pdf",
+          "label_sha256": "def86596b411efc42ef300860440b4546d9a47f36dda0c407029d5f91ccb57d6",
+          "all_identity_indication_mechanism_safety_study_fields_bind_to_this_label": true,
+          "locators": "Named sections and 1-based PDF pages in individual fields.",
+          "source_host_substitution_hidden": false
+        },
+        "scientific_queries": [
+          {
+            "molecule": "tiratricol",
+            "query": "tiratricol[All Fields] AND (BUB1B[All Fields] OR BUBR1[All Fields] OR \"mosaic variegated aneuploidy\"[All Fields])",
+            "purpose": "mva",
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=tiratricol%5BAll+Fields%5D+AND+%28BUB1B%5BAll+Fields%5D+OR+BUBR1%5BAll+Fields%5D+OR+%22mosaic+variegated+aneuploidy%22%5BAll+Fields%5D%29&retmode=json&retmax=20",
+            "retrieved_utc": "2026-10-04T14:07:22.118430+00:00",
+            "http_status": 200,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/tiratricol-mva-pubmed-esearch.json",
+            "sha256": "17e3c345724446db7e28a7067135f1981d65e5b111112bf264efa65498006177",
+            "count": 0,
+            "ids": [],
+            "translation": "(\"3 3 5 triiodothyroacetic acid\"[Supplementary Concept] OR \"3 3 5 triiodothyroacetic acid\"[All Fields] OR \"tiratricol\"[All Fields]) AND (\"bub1b protein human\"[Supplementary Concept] OR \"bub1b protein human\"[All Fields] OR \"bub1b\"[All Fields] OR \"BUBR1\"[All Fields] OR \"mosaic variegated aneuploidy\"[All Fields])",
+            "status": "candidate_retrieval_only_not_abstract_screen"
+          },
+          {
+            "molecule": "tiratricol",
+            "query": "tiratricol[All Fields] AND (motor[All Fields] OR function[All Fields] OR mobility[All Fields] OR dyskinesia[All Fields])",
+            "purpose": "motor_function",
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=tiratricol%5BAll+Fields%5D+AND+%28motor%5BAll+Fields%5D+OR+function%5BAll+Fields%5D+OR+mobility%5BAll+Fields%5D+OR+dyskinesia%5BAll+Fields%5D%29&retmode=json&retmax=20",
+            "retrieved_utc": "2026-10-04T14:07:22.924302+00:00",
+            "http_status": 200,
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/tiratricol-motor_function-pubmed-esearch.json",
+            "sha256": "8896122fae3291db10340929408c683fd400d1dfb1771b1a89c55142a4bbf69c",
+            "count": 222,
+            "ids": [
+              "42484993",
+              "42340815",
+              "42329790",
+              "41926547",
+              "41627438",
+              "41131705",
+              "40981297",
+              "40549098",
+              "40131620",
+              "38836423",
+              "38558372",
+              "38376950",
+              "38054413",
+              "37925810",
+              "37879570",
+              "37408688",
+              "36883873",
+              "36834863",
+              "36565029",
+              "36555189"
+            ],
+            "translation": "(\"3 3 5 triiodothyroacetic acid\"[Supplementary Concept] OR \"3 3 5 triiodothyroacetic acid\"[All Fields] OR \"tiratricol\"[All Fields]) AND (\"motor\"[All Fields] OR \"motor s\"[All Fields] OR \"motoric\"[All Fields] OR \"motorically\"[All Fields] OR \"motorics\"[All Fields] OR \"motoring\"[All Fields] OR \"motorisation\"[All Fields] OR \"motorised\"[All Fields] OR \"motorization\"[All Fields] OR \"motorized\"[All Fields] OR \"motors\"[All Fields] OR (\"functional\"[All Fields] OR \"functional s\"[All Fields] OR \"functionalities\"[All Fields] OR \"functionality\"[All Fields] OR \"functionalization\"[All Fields] OR \"functionalizations\"[All Fields] OR \"functionalize\"[All Fields] OR \"functionalized\"[All Fields] OR \"functionalizes\"[All Fields] OR \"functionalizing\"[All Fields] OR \"functionally\"[All Fields] OR \"functionals\"[All Fields] OR \"functioned\"[All Fields] OR \"functioning\"[All Fields] OR \"functionings\"[All Fields] OR \"functions\"[All Fields] OR \"physiology\"[MeSH Subheading] OR \"physiology\"[All Fields] OR \"function\"[All Fields] OR \"physiology\"[MeSH Terms]) OR (\"mobilities\"[All Fields] OR \"range of motion, articular\"[MeSH Terms] OR (\"range\"[All Fields] AND \"motion\"[All Fields] AND \"articular\"[All Fields]) OR \"articular range of motion\"[All Fields] OR \"mobility\"[All Fields]) OR (\"dyskinesiae\"[All Fields] OR \"dyskinesias\"[MeSH Terms] OR \"dyskinesias\"[All Fields] OR \"dyskinesia\"[All Fields]))",
+            "status": "candidate_retrieval_only_not_abstract_screen"
+          }
+        ],
+        "europepmc_queries": [
+          {
+            "molecule": "tiratricol",
+            "query": "\"tiratricol\" AND (BUB1B OR BUBR1 OR \"mosaic variegated aneuploidy\")",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22tiratricol%22+AND+%28BUB1B+OR+BUBR1+OR+%22mosaic+variegated+aneuploidy%22%29&format=json&pageSize=20",
+            "retrieved_utc": "2026-10-04T14:17:50.778025+00:00",
+            "http_status": 200,
+            "sha256": "294e25391f08ca20cc1ac514306e2b0489daa95e81ce72e3727aef67043545e4",
+            "local_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/labels-43-45/tiratricol-mva-europepmc.json",
+            "hit_count": 0,
+            "results": [],
+            "read_scope": "query response metadata only; titles and returned cooccurrences not same-experiment evidence; abstracts and body unreviewed",
+            "appraisal_status": "pending"
+          }
+        ],
+        "mva_query_boundary": {
+          "PubMed_count": 0,
+          "Europe_PMC_count": 0,
+          "status": "bounded_current_snapshot_only",
+          "limitations": [
+            "No-hit does not prove absence or lack of efficacy.",
+            "No exhaustive coverage of unpublished work, alternate spellings, all development-code aliases, every registry or non-indexed literature.",
+            "PubMed auto term mapping and original queries preserved in raw response and query log.",
+            "Europe PMC query metadata/full-text cooccurrence would not demonstrate same-experiment evidence; body unreviewed.",
+            "Broad web Boolean batch returned unrelated MVA pages; exact narrower web query batch returned empty; cannot promote broad web recall to exhaustive zero evidence."
+          ]
+        },
+        "credit": {
+          "abstract_screen": false,
+          "scientific_appraisal": false,
+          "efficacy_appraisal": false,
+          "MVA_efficacy": false,
+          "MVA_mechanistic_rescue": false,
+          "motor_function_transfer_to_MVA": false,
+          "reason": "Retrieval and explicit label section annotation only; primary candidates and scientific questions pending."
+        }
+      }
+    ],
+    "accepted_exact_overlap": {
+      "count": 0,
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/accepted1640-source-overlap.json"
+    },
+    "scientific_scope_limits": "Complete named label sections and partial primary candidate sections only, with individual source/reader scopes. Approval is not BUB1B/MVA efficacy; absent search hits are query limits, not efficacy failures. Congress cooccurrence bodies are unreviewed. No all-existing-drug completion claim."
+  },
+  "source_overlap_summary": {
+    "status": "PASS_EXACT_SOURCE_ID_COMPARISON",
+    "accepted_count": 1640,
+    "retrieved_exact_candidate_records": 79,
+    "exact_match_count": 0,
+    "limits": "Exact source/ID only. DOI, title, PMC/PMID aliases and study-family equivalence are not merged. FDA application/label numbers are regulatory documents and are not bibliographic source IDs. Retrieved query pointers are not additional screening or appraisal credit."
+  },
+  "final_verification": {
+    "status": "PASS_FINAL_SAVED_SOURCE_AND_INVENTORY_CHECK",
+    "created_utc": "2026-10-04T14:29:03.063826+00:00",
+    "inventory_products": 45,
+    "new_product_rows": 5,
+    "original40_retained": true,
+    "catalog_new_molecule_records": 0,
+    "curated_appraisals_added": 0,
+    "abstract_screen_credit_added": 0,
+    "accepted_outcome_exact_ids": 1640,
+    "retrieved_candidate_exact_ids": 79,
+    "accepted_exact_candidate_matches": 0,
+    "successful_saved_source_bindings_checked": 24,
+    "own_exact_anchors_checked": 6,
+    "no_completed_source_refetch_or_reread": true,
+    "repository_mutations": false,
+    "failures": []
+  },
+  "source_manifest": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-20261004/final-bindings.json",
+    "bytes": 9319,
+    "sha256": "83f92b1666731d84c0a803ec9bc1aa7fb74a32028ed2fc27269aa02605d88ff3"
+  },
+  "root_acceptance": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/fda-freshness-root-acceptance-20261004/root-acceptance-check.json",
+    "bytes": 17196,
+    "sha256": "78fb4cd22491227c2a3c32f1b89ca443110c16c47f509db5d0d9ffb044af6916"
+  }
+}

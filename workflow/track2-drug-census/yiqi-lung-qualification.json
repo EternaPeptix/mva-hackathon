@@ -1,0 +1,341 @@
+{
+  "schema": "bounded-primary-qualification/v1",
+  "date": "2026-09-23",
+  "reviewer": "/root/prmt5_mettl3_primary",
+  "source": {
+    "pmid": "32849901",
+    "pmcid": "PMC7439204",
+    "doi": "10.1155/2020/4782470",
+    "title": "Study on Intervention Mechanism of Yiqi Huayu Jiedu Decoction on ARDS Based on Network Pharmacology",
+    "publication_date": "2020-08-11",
+    "urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7439204/",
+      "https://doi.org/10.1155/2020/4782470"
+    ],
+    "primary_xml_sha256": "45a271a206141e63b237eaca1123abba920e3f4f16a34c41beb5b515ac374198",
+    "current_pubmed_sha256": "5915331af5076ed07e2a2be2bafec8cb245b9ae570ec1033cbe2eaf40164113f",
+    "europepmc_metadata_sha256": "0132aeca53e27e843b7cca3da73a9bc3a0d2cdefe01421206b486ad6edec499f",
+    "status": "Current official PubMed/EuropePMC lists JournalArticle without linked correction/retraction; exactDOI official-site notice search found no separate notice. Bounded observation, not integrity clearance.",
+    "data_availability": "Upon reasonable request; no author contacted. Source declares data part of first author master dissertation, not an independently qualified cohort."
+  },
+  "prior_overlap": {
+    "exact_decision_or_primary_qualification_found": false,
+    "existing_abstract_question": "Batch15 n156",
+    "tool_output_chunk": "76fa7b",
+    "outer_reading_credit": 0
+  },
+  "identity": {
+    "name": "Yiqi Huayu Jiedu decoction",
+    "abbreviation": "YQHYJD",
+    "batch": "20170320",
+    "crude_material_supplier": "Bozhou Yonggang Decoction Pieces Factory Co.,Ltd.",
+    "preparation_provider": "Institute of Chinese Materia Medica, Chinese Academy of Chinese Medical Sciences",
+    "recipe": [
+      {
+        "material": "Radix Astragali",
+        "crude_mass_g": 30,
+        "source_botanical_definition": "Astragalus membranaceus root"
+      },
+      {
+        "material": "Panax notoginseng",
+        "crude_mass_g": 10,
+        "source_botanical_definition": "Panax notoginseng root"
+      },
+      {
+        "material": "Flos Lonicerae",
+        "crude_mass_g": 15,
+        "source_botanical_definition": "Lonicera japonica flowers"
+      },
+      {
+        "material": "Radix Scutellariae",
+        "crude_mass_g": 10,
+        "source_botanical_definition": "Scutellaria baicalensis root"
+      },
+      {
+        "material": "fried Fructus Aurantii Immaturus",
+        "crude_mass_g": 12,
+        "source_botanical_definition": "Citrus aurantium or Citrus sinensis fruit"
+      },
+      {
+        "material": "Radix Paeoniae Rubra",
+        "crude_mass_g": 15,
+        "source_botanical_definition": "Paeonia lactiflora or Paeonia veitchii root"
+      },
+      {
+        "material": "Semen Descurainiae",
+        "crude_mass_g": 15,
+        "source_botanical_definition": "Lepidium apetalum or Descurainia sophia seeds"
+      },
+      {
+        "material": "Cortex Mori",
+        "crude_mass_g": 15,
+        "source_botanical_definition": "Morus alba root bark"
+      }
+    ],
+    "total_crude_mass_g": 122,
+    "extraction": "Two water decoctions, each30min using10times material mass in water; combined,centrifuged,concentrated to1.22g crude-drug equivalent/mL;4°C storage.",
+    "stock_units": "Crude-drug equivalent, not extract solids or measured active molecules",
+    "chemical_quality_control": "No analytical fingerprint/marker quantitation, extraction yield or contamination assay reported. Only one batch identified; species alternatives not resolved to authenticated batch.",
+    "not_interchangeable_with": [
+      "Individual herbs",
+      "Predicted isolated ingredients",
+      "Other formulas with similar names",
+      "Unverified retail products"
+    ]
+  },
+  "animal_design": {
+    "species": "Male Sprague–Dawley rat",
+    "age_weeks": 8,
+    "weight_g": [
+      190,
+      210
+    ],
+    "allocation_total": 30,
+    "groups": 5,
+    "allocated_per_group": 6,
+    "cage_occupancy": 6,
+    "randomization": "Stated; method/concealment not specified",
+    "blinding": "Not reported",
+    "power_calculation": "Not reported",
+    "animal_accounting": "No individual exclusions/attrition map; WB n=5 versus allocation6/group unexplained",
+    "treated_uninjured_control": false,
+    "active_reference_treatment": false,
+    "cell_culture_experiment": false
+  },
+  "schedule": {
+    "pretreatment_days": 7,
+    "route": "Oral gavage",
+    "daily_doses_g_crude_per_kg": [
+      6.1,
+      12.2,
+      24.4
+    ],
+    "water_control_mL_per_100g_per_day": 1,
+    "injury": "LPS2mg/kg tail-vein injection6h after last day7 gavage",
+    "normal_injection": "Saline; printed2mg/kg unit, volume unclear",
+    "sampling_h_after_LPS": 16,
+    "water_withholding_h_before_sampling": 8,
+    "postinjury_therapeutic_arm": false,
+    "later_recovery_or_survival_followup": false,
+    "dose_volume_limit": "At unchanged1.22g/mL, nominal doses imply5/10/20mL/kg; this is conditional arithmetic. Group-specific concentrations/volumes are not clearly tabulated."
+  },
+  "measured_evidence": [
+    {
+      "endpoint": "H&E lung morphology",
+      "native_figure": 6,
+      "direction": "Qualitatively less lung damage in three pretreated groups versus model; medium-dose image/description relatively preserved",
+      "quantified_injury_score": false,
+      "blinded_histology_score": false,
+      "fields_or_animal_image_denominator": "Not specified",
+      "interpretation": "Actual reported nonmalignant-tissue protective appearance, not quantified respiratory benefit or uniform dose response"
+    },
+    {
+      "endpoint": "Total AKT1 protein graph",
+      "native_figure": "7a",
+      "reported_n": 5,
+      "error_type": "SD",
+      "comparison": "Versus model",
+      "low_dose": "No significance mark; not proof of a true null",
+      "medium_dose": "# P<.05",
+      "high_dose": "* P<.01",
+      "normal_control": "# P<.05 versus model, not a treatment effect",
+      "scope": "Author-reported densitometry, not independently reproduced; no phospho-AKT/activity/causal rescue."
+    },
+    {
+      "endpoint": "Combined KRAS/HRAS/NRAS antibody signal",
+      "native_figure": "7b",
+      "reported_n": 5,
+      "error_type": "SD",
+      "comparison": "Versus model",
+      "all_three_doses": "** P<.001",
+      "pattern": "Nonmonotonic; high-dose mean exceeds low/medium means",
+      "scope": "Combined signal, not separately resolved isoforms or Ras-GTP activity. Lower than normal in some arms is not necessarily normalization."
+    }
+  ],
+  "statistics": {
+    "methods": "MeanSD; one-wayANOVA if equal variances, rank-sum if unequal; significanceP<.05. Pairwise post-hoc/multiplicity procedure not stated.",
+    "figure7_symbols": {
+      "#": "P<.05",
+      "*": "P<.01",
+      "**": "P<.001"
+    },
+    "normalization": "Beta-actin bands present; axis %adj.vol., complete calculation definition absent",
+    "raw_data": "No animal-level values or full uncropped blots supplied in retrieved package",
+    "image_to_summary_issue": "Displayed representative blots do not permit reconstruction of the plotted group means or dose response. Individual normalized densitometry and full uncropped blots are unavailable. Report graph as author-reported, not independently reproduced; no demonstrated image/summary contradiction."
+  },
+  "functional_endpoints_absent": [
+    "Blood gases/oxygenation/saturation",
+    "Lung compliance/resistance or respiratory performance",
+    "Survival or later recovery",
+    "Direct permeability or alveolar-fluid-clearance assay",
+    "Wet/dry lung ratio",
+    "Current-study coagulation or cytokine panel"
+  ],
+  "BUB1B": {
+    "source_role": "Known-disease-target database/network input per authors, not measured biomarker",
+    "main_table": 3,
+    "Uniprot": "O60566",
+    "degree": 41,
+    "betweenness": 0.00549867,
+    "closeness": 0.56704981,
+    "supplement": "Disease-target table12 row187 including header; absent278-entry putative-drug-target table9",
+    "RNA_measured": false,
+    "BUBR1_protein_localization_measured": false,
+    "checkpoint_fidelity_or_MVA_measured": false,
+    "causal_disease_target_validated_by_reviewer": false
+  },
+  "supplement_counts": {
+    "ingredient_row_count": 369,
+    "distinct_printed_TCMIP_IDs": 354,
+    "putative_target_rows": 278,
+    "distinct_putative_gene_strings": 278,
+    "disease_target_rows": 322,
+    "distinct_disease_gene_strings": 322,
+    "BUB1B_in_putative_targets": false,
+    "BUB1B_in_disease_targets": true,
+    "scope": "Descriptive count of printed identifiers, not chemical identity resolution, assay validation or measured preparation chemistry."
+  },
+  "source_limits": [
+    "Histology qualitative without injury-score or sampling denominator",
+    "WB allocation6/group versus plottedn5 unresolved",
+    "Representative-band/summary normalization not reproduced",
+    "No healthy-mixture or systematic toxicity/PK evaluation",
+    "Group-specific gavage volume/concentration unclear",
+    "Saline injection printed2mg/kg and tissue-storage line80°C left unrepaired",
+    "ErbB targets14 in prose versus16 inTable4",
+    "Network overlap is not experimental mixture synergy/antagonism or measured ingredient chemistry"
+  ],
+  "competitive_assessment": "Retain actual noncancer histological protection signal; it does not demonstrate respiratory performance, BUB1B restoration or MVA/muscle compensation. No comparative superiority over provisionalniacin/apitegromab, which also remain unprovenMVA.",
+  "proposed_assessment": {
+    "decision_id": "new-yiqi-huayu-jiedu-decoction",
+    "match_aliases": [
+      "Yiqi Huayu Jiedu decoction"
+    ],
+    "route": "Exact eight-herb Yiqi Huayu Jiedu decoction / lung-injury pretreatment histology and protein markers",
+    "disposition": "Retain preparation-specific preclinical histology/marker comparator; no measured respiratory-function, BUBR1 or MVA rescue",
+    "rationale": "Batch 20170320 aqueous decoction was given for seven days before LPS injury in male rats. Qualitative H&E protection and author-reported total AKT1/pan-Ras changes are retained, but respiratory mechanics, oxygenation, survival and post-injury treatment benefit were not measured. Histology lacks quantitative scoring; WB n=5 differs from six allocated rats per group and raw normalization is unreproduced. BUB1B is only a disease-target database/network input, not a measured response. Predicted ingredients are neither batch chemical quality control nor isolated-agent efficacy.",
+    "evidence_scope": "Source reviewer read complete scientific main/captions/tables, all seven native main figures, complete supplementary table text and graphical abstract; only selected supplementary page renders. Root scope is separately limited in the qualification.",
+    "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+    "source_report": "workflow/track2-drug-census/yiqi-lung-qualification.md",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7439204/",
+      "https://doi.org/10.1155/2020/4782470"
+    ]
+  },
+  "followup_questions": [
+    "Clarify batch chemistry/species and group-specific actual exposure",
+    "Resolve animal accounting and raw protein-normalization data",
+    "Test blinded quantitative injury and respiratory function, with a post-injury arm and appropriate normal/toxicity controls"
+  ],
+  "read_scope_file": "read-scope.json",
+  "asset_manifest_file": "asset-manifest.json",
+  "retrieval_manifest_file": "retrieval-manifest.json",
+  "qualification_md_sha256": "575bda7553da9aee4f7cce0e72c6d52baa3f11e3acab14ce8ec76edd9012ceba",
+  "automatic_outer_credit": 0,
+  "automatic_appraisal_credit": 0,
+  "biological_replication": false,
+  "repository_modified": true,
+  "clinical_recommendation": false,
+  "candidate_provenance": {
+    "status": "INTEGRATED_WITH_ROOT_SOURCE_CHECK",
+    "baseline": "afac76b79cdf85171a488b18533c1ec72c183112",
+    "external_source_root": "yiqi-lung-followup-20260923",
+    "source_qualification_md_sha256": "a1fd25258e798f879e7ddc4c098c963c26cb841ffdbcbdb758f417b5d7d3d325",
+    "source_qualification_json_sha256": "54f5a359a4ae736ddb0fe717bd9e7aae19ba392c36ca8333293801ef7394abb9",
+    "portable_md_file": "yiqi-lung-qualification.md",
+    "portable_md_sha256": "575bda7553da9aee4f7cce0e72c6d52baa3f11e3acab14ce8ec76edd9012ceba",
+    "external_reference_rule": "Raw assets and reading-manifest file references resolve in the external source cache, not the intended repository directory.",
+    "transformations": [
+      "Portable companion link added.",
+      "Proposed alias restricted to exact full mixture name; no ingredient or short-abbreviation aliases.",
+      "Appraisal prose spacing and attribution clarified.",
+      "Root refinement: a representative blot need not follow group means; graph is author-reported and unreproduced, without a demonstrated image/summary contradiction."
+    ],
+    "root_source_review_declaration": {
+      "attribution": "Root message; candidate builder does not inherit or expand this reading credit.",
+      "complete_main_and_captions_tool_chunks": [
+        "30483f",
+        "9b4e5d"
+      ],
+      "all_four_structured_tables_tool_chunk": "66d158",
+      "native_figures_viewed": [
+        6,
+        7
+      ],
+      "root_complete_supplement_read_claim": false,
+      "outer_reading_credit": 0
+    },
+    "independent_check_status": "Completed bounded report read during candidate assembly; substantive agreement and no additional biological correction.",
+    "independent_check_refs": [
+      {
+        "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/mixture-restoration-followup-20260923/yiqi-independent/independent-check.md",
+        "sha256": "290ab1b7ff8cd99e56b5b0723dd963c80acb8935edd95e4e4903028764814486"
+      },
+      {
+        "external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/mixture-restoration-followup-20260923/yiqi-independent/independent-check.json",
+        "sha256": "1ae0c6694698becac3033bdbbb6861a278440e5461919361e62db12562c946af"
+      }
+    ],
+    "independent_check_scope": "Independent reviewer declares all four main parts/captions, all four structured tables, nativeFigures6/7, both complete supplementary target lists9/12, all supplement headings and renderedpages1/31. Ingredient/enrichment tables, graphical abstract, other mainimages and other supplementary pageimages were not independently read in full.",
+    "candidate_read_of_independent_report_tool_chunk": "3a1443",
+    "extra_outer_reading_credit": 0,
+    "pre_integration_status": "EXTERNAL_CANDIDATE_NOT_INTEGRATED",
+    "frozen_candidate_md_sha256": "baa98d5d0a8f27eab6682a8a0686249c01fef7c01f51b20753252f464b92d4af"
+  },
+  "source_reviewer_repository_modified": false,
+  "source_md_sha256": "575bda7553da9aee4f7cce0e72c6d52baa3f11e3acab14ce8ec76edd9012ceba",
+  "integration": {
+    "baseline": "afac76b79cdf85171a488b18533c1ec72c183112",
+    "integrating_reviewer": "/root",
+    "new_assessment_count_change": 1,
+    "candidate_json_sha256": "ea915e0c7f4fa8b0a7bb805b10cf4b01c0c4d6049e058c4f05d6bf83b378cfe5",
+    "root_reading": {
+      "baseline": "afac76b79cdf85171a488b18533c1ec72c183112",
+      "reader": "/root",
+      "scientific_main_outputs": [
+        "30483f",
+        "9b4e5d"
+      ],
+      "all_main_endmarkers_seen": true,
+      "all_four_main_tables_output": "66d158",
+      "native_main_figures": [
+        6,
+        7
+      ],
+      "rendered_supplement_pages": [
+        1,
+        31
+      ],
+      "full_supplement_text_read_by_root": false,
+      "primary_body_scope": "Complete scientific main, captions and main tables. Supplement content beyond selected pageviews is attributed to the source/independent reviewers; no whole-supplement reading by root claimed.",
+      "file_sha256": {
+        "primary.xml": "45a271a206141e63b237eaca1123abba920e3f4f16a34c41beb5b515ac374198",
+        "main-part01.txt": "284139c8a59fa74819c9d4580d03482509b1c2cf2b561a1332e49b50ac4c5f8b",
+        "main-part02.txt": "c13ff1e7be262410d236d8e09ebe2b1b0982543d3eb8f29d98e189484a1a270d",
+        "main-part03.txt": "eae4c50d2fb78ef2bc0f56562a9a8ec8e8d627cc6d0ca548d9276df9c0b44b7c",
+        "main-part04.txt": "4eb63b8dd1f088506efde42bbd5ecd2aff6dfa2093d75f861366ac14e6b4eca1",
+        "native-tables.txt": "3a7dc82393cf04a7e14bcc89c0faca808ff530c540462ede871111f955c7e3ff",
+        "assets/ECAM2020-4782470.006.jpg": "355f957a37cecdffec2340f3d41987d8b6ec71c0614867fd64a86c941da2362f",
+        "assets/ECAM2020-4782470.007.jpg": "5445c18c62641316c4369ff357b2728995d494582b8bc702003b18371900e662",
+        "supplement/page-1.png": "e95a2c472f8e21f403c55586997470fe9d853dc21d8c8c01693a66b76ae2606d",
+        "supplement/page-31.png": "cdddb270a891331332d6771f62c1fc88e8500f0a39a34067ef4cbff483c3c07d"
+      },
+      "root_refinement": "Representative AKT1blots do not reconstruct n5groupmeans; retain author-reported graph without claiming a provedvisualcontradiction.",
+      "additional_outer_abstract_credit": 0,
+      "biological_replication": false,
+      "discovery_followup": {
+        "complete_saved_abstract_output": "73ceea",
+        "pmids": [
+          "15309432",
+          "21632981",
+          "38334966"
+        ],
+        "scope": "Complete officialabstracts only; two quercetin nativeRNA directions remainunknown,no newappraisalcredit."
+      }
+    },
+    "root_reading_manifest_sha256": "2795092ff445ec0f43050f174a0f2860193cfb379b6468d027d80fb314d3153b",
+    "independent_check_json_sha256": "1ae0c6694698becac3033bdbbb6861a278440e5461919361e62db12562c946af",
+    "independent_check_md_sha256": "290ab1b7ff8cd99e56b5b0723dd963c80acb8935edd95e4e4903028764814486",
+    "new_outer_abstract_credit": 0
+  }
+}

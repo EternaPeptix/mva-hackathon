@@ -1,0 +1,207 @@
+{
+  "date": "2026-09-23",
+  "baseline": {
+    "commit": "97b54464f6ebf8540cbce8d5df382ad652f963d4",
+    "worktree_clean_at_initial_check": true,
+    "decision_count": 233,
+    "decisions_sha256": "546b1bd560db6c83c06f2b9c22e9a8e7c3b7a90c8ef4646b4faa51597fb0cac3",
+    "apigenin_or_lapachone_decision_token_hits": 0,
+    "existing_related_decisions": [
+      "NMN rationale linked to nqo1-sirt2-followup.md",
+      "new-dicoumarol"
+    ],
+    "identity_context": {
+      "beta_lapachone": [
+        "CHEMBL15192 LAPACHONE with beta-lapachone aliases",
+        "NIH DSLD group 6990"
+      ],
+      "apigenin": [
+        "NIH DSLD groups 222 and 6916 share the apigenin name",
+        "Group 6916 includes glycoside/extract aliases that must not inherit aglycone findings"
+      ]
+    },
+    "eligibility_limit": "Inventory identity is not approved status, exposure validation or equivalence of products."
+  },
+  "verdict": "No qualified direct BUBR1-restoration or chromosome-fidelity benefit emerged from these returned and inspected sources. This is a bounded finding, not a global absence claim. Do not change nominees or add efficacy identities automatically.",
+  "beta_lapachone": {
+    "identity": "beta-lapachone, a quinone bought from Santa Cruz Biotechnology; product/catalog/purity not supplied. Not alpha-lapachone, an oxime derivative, whole lapacho bark or tea.",
+    "source": {
+      "pmid": "29298345",
+      "pmcid": "PMC5752044.1",
+      "doi": "10.1371/journal.pone.0190717",
+      "title": "Redox modulation of NQO1",
+      "publication": "2018-01-03"
+    },
+    "exposure": {
+      "in_cells": "10 micromolar in culture, DMSO comparator; 16HBE and ARPE19 time series 0,5,15,30,60,120 min; TrHBMEC 0,15,30,60,120 min. Nucleotide endpoint at 2 h in 16HBE.",
+      "combination_control": "1 micromolar olaparib pretreatment 30 min then coexposure 2 h; DMSO 0.01% specified for pretreatment comparator. Not isolated beta-lapachone benefit.",
+      "models": "Human bronchial epithelial 16HBE, ARPE19 retinal epithelial line, transformed human bone marrow endothelial TrHBMEC; no primary patient-derived MVA model, animal, muscle or clinical outcome. ARPE19 appears in Results/figures but detailed culture provenance is not supplied in inspected Methods."
+    },
+    "actual_observations": [
+      {
+        "endpoint": "NADH and NAD+",
+        "direction": "Both depleted by beta-lapachone alone; olaparib coexposure prevents NAD+ depletion, not NADH oxidation.",
+        "units": "pmol/mg protein; Fig4C mean±SD, n=3; no P value/CI or replicate independence definition supplied",
+        "mechanistic_limit": "An oxidized ratio is not an increase in total usable NAD+ supply. No numerical effect reconstructed from bars."
+      },
+      {
+        "endpoint": "NQO1 immunoprecipitation/immunostaining",
+        "direction": "Increased accessibility to C-terminal/A180 antibodies after treatment; A180 fluorescence higher at 30/120 min.",
+        "limit": "Non-denaturing epitope reactivity; no NQO1 increase in accompanying denaturing protein-expression blot (S2). No quantified fluorescence effect/denominator/statistical test supplied despite prose saying significant."
+      },
+      {
+        "endpoint": "NQO1 abundance",
+        "direction": "Authors report no increase during 2 h; S2 includes beta-actin controls and all three lines.",
+        "limit": "Representative blot, no densitometry/P/equivalence claim. TrHBMEC later NQO1 bands visibly weaker; do not quantify or call a statistically established decrease."
+      },
+      {
+        "endpoint": "Sirt2 and microtubule colocalization",
+        "direction": "Observed in untreated cells in Figs8/9",
+        "limit": "Not beta-lapachone-induced Sirt2 activation, mitotic completion, segregation fidelity, BUBR1 abundance, BUBR1 deacetylation or protein half-life."
+      }
+    ],
+    "missing_endpoints": [
+      "BUB1B RNA or BubR1 protein assay",
+      "BubR1-dependent checkpoint or protein stabilization",
+      "Drug-versus-control aneuploidy/faithful daughter output",
+      "Muscle force/endurance",
+      "Cell viability or clinical safety outcome in this experiment"
+    ],
+    "mechanism_limits": [
+      "NQO1*2 recombinant mutant and NQO1 siRNA are separate validation interventions, not drug rescue.",
+      "Reduced NADH protects recombinant NQO1 against trypsin; this does not measure beta-lapachone stabilization of BubR1.",
+      "Potential local NQO1 provision of NAD+ to Sirt2 is a hypothesis in the Discussion; no direct local flux or drug-induced Sirt2 activity measurement.",
+      "Dicumarol blocks antibody binding in recombinant NQO1 assays; this adds no independent therapeutic rescue to its existing ledger entry."
+    ],
+    "role": "Useful redox/antibody-readout mechanistic caution, with adverse NAD-pool direction at the tested exposure; not nominated as a NAD-supply or BUBR1-restoration treatment. No inference of toxicity rate from depletion alone.",
+    "quality_limits": [
+      "n=3 nucleotide measurements, biological independence unspecified",
+      "No allocated/masked design, sample-size plan, exact inferential test or CI established",
+      "Representative blots/images do not establish a quantified population effect",
+      "Authors DS/DR and University of Colorado license A180 antibody; NIH funded study with stated no funder role"
+    ]
+  },
+  "apigenin": {
+    "role": "Mechanistic NAD/CD38 hypothesis with real administered-compound metabolic effects; not direct SIRT2/BUBR1 restoration in the examined passages. No treatment-fidelity benefit qualified.",
+    "source": {
+      "pmid": "23172919",
+      "pmcid": "PMC3609577",
+      "doi": "10.2337/db12-1139"
+    },
+    "identity": "Apigenin named Sigma reagent; no automatic transfer to apigenin glycosides, plant extracts or supplement mixtures.",
+    "exposure_and_positive": "A549 dose-response NAD experiments at 6 h and 25 micromolar PBS time-course; WT/CD38-KO MEF NAD comparison at 25 micromolar for 6 h. Obese C57BL/6 mice after 4-week high-fat diet randomized 6/group to 100 mg/kg/day intraperitoneal apigenin or DMSO for 7 days. Hepatic NAD+ increased and CD38 activity/global acetylation decreased; glucose and hepatic lipid endpoints improved, reported P<.05, no exact effects/CI qualified. Mouse sex not established in the selected Methods.",
+    "counterpoints": [
+      "No direct recombinant SIRT1 activation (0–100 micromolar).",
+      "No further NAD+ increase in CD38-knockout MEFs; CD38 genetics is not treated BUBR1 evidence.",
+      "Liver SIRT1/CD38/Nampt expression not significantly changed; activity/deacetylation is not protein supply.",
+      "No group difference in food intake/body weight over treatment.",
+      "HepG2 25 micromolar apigenin/6 h effects opposed by 10 micromolar EX527 support SIRT1 involvement, not SIRT2 interchangeability.",
+      "No direct BubR1/checkpoint/fidelity assay in examined source sections; full other sections/supplement not reviewed, so not a whole-source validated null."
+    ],
+    "additional_abstract_pointers": [
+      {
+        "pmid": "33098770",
+        "doi": "10.1016/j.ajhg.2020.10.001",
+        "positive": "Actual apigenin culture and prenatal/lifelong chow treatment improves oxidative/developmental and some sex-dependent mouse behavioral outcomes.",
+        "limit": "Down-syndrome phenotype modulation, not chromosome-21 removal or demonstrated faithful chromosome segregation. Abstract reports no significant birth-defect/pup-death increase, not proven safety; dose/n/P/CI/full methods unqualified."
+      },
+      {
+        "doi": "10.1016/j.theriogenology.2024.01.007",
+        "positive": "Porcine postovulatory in-vitro aging abstract reports less oxidative stress and improved embryo development with apigenin, SIRT1 upregulation.",
+        "limit": "Not demonstrated SIRT2/BubR1 restoration; abstract does not supply a measured aneuploidy improvement. Dose/n/full figures unqualified."
+      }
+    ]
+  },
+  "fair_competitive_judgment": "No requirement for proven MVA efficacy is applied selectively. Apigenin has a plausible NAD-sparing intervention and real metabolic/other-model phenotype signals, but no examined compound-to-SIRT2/BubR1 bridge or muscle/fidelity result comparable to the existing NMN source context. Beta-lapachone at this exposure depletes NAD pools. These sources therefore do not justify replacing provisional nominations. Apigenin could be a bounded direct-assay comparator if further experimental prioritization is wanted; no efficacy nomination follows automatically.",
+  "source_reviewer_scope": "Apigenin and beta-lapachone, six-query bounded discovery; one mechanistic primary qualified",
+  "source_reviewer_actions": {
+    "repo_changes": false,
+    "new_decision_entry_proposed": false,
+    "counts_promoted": false,
+    "broader_search_needed_for_this_task": false
+  },
+  "source_reviewer_reading_manifest": "reading-manifest.json",
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "nad-modulator-qualification.md",
+  "qualification_md_sha256": "3140a144c11bcebaa215f555045027559ca3ad43d489fd8e950d9eea367d078c",
+  "independent_precision_addendum": {
+    "apigenin_primary": {
+      "pmid": "23172919",
+      "pmcid": "PMC3609577",
+      "doi": "10.2337/db12-1139",
+      "preparation": "Named Sigma-Aldrich apigenin reagent; catalog/purity not reported in inspected Methods; no glycoside/extract/product equivalence",
+      "mouse_design": "12 C57BL/6 mice, 20 weeks old before 4 weeks HFD; randomized 6/group to 100 mg/kg i.p. apigenin daily or DMSO for 7 days on continued HFD; mouse sex not established",
+      "cell_exposures": "A549 6-hour dose-response; 25 micromolar PBS protection; WT/KO MEFs 25 micromolar 6 hours; HepG2 apigenin 25 micromolar with EX527 10 micromolar in separate assays",
+      "positive_outcomes": [
+        "CD38 enzyme/lysate inhibition",
+        "A549/WT-MEF NAD+ increase or preservation",
+        "hepatic NAD+ increase and CD38 activity decrease, n=6/group P<.05",
+        "hepatic global acetylation decrease, n=3/group P<.05",
+        "fed/fasting glucose and selected glucose-tolerance timepoint positives, n=6/group P<.05",
+        "hepatic triglycerides decrease and LCAD/MCAD mRNA increase, n=6/group P<.05",
+        "HepG2 lipid/deacetylation effects opposed by EX527"
+      ],
+      "precision_limits": [
+        "Native Fig7D AUC numerically lower without significance annotation, exact P or CI",
+        "Triglycerides and transcripts do not directly measure fatty-acid oxidation flux",
+        "No positive CPT1a significance annotation",
+        "CD38 knockout has higher baseline NAD and its own control normalization; ceiling and nonexclusive targeting remain possible",
+        "p65 acetylation is undetectable in control KO, not evaluable for further apigenin response",
+        "EX527 cellular experiments do not establish in-vivo SIRT1 mediation",
+        "No direct recombinant SIRT1 activation; no SIRT2 assay",
+        "Liver protein nonchanges are representative blots, not quantified equivalence"
+      ],
+      "harms_and_design_limits": "No systematic harm ascertainment, primary hierarchy, sample-size plan, masking, concealment or tissue exposure established; no food-intake/body-weight difference is not safety equivalence; small short study with multiple endpoints; no graph-digitized effect estimates"
+    },
+    "beta_lapachone_primary": {
+      "pmid": "29298345",
+      "pmcid": "PMC5752044",
+      "doi": "10.1371/journal.pone.0190717",
+      "preparation": "Santa Cruz beta-lapachone; product/catalog/purity unspecified; not alpha-lapachone or bark/tea",
+      "exposure": "10 micromolar in cells, 0–120-minute timecourses; NAD endpoint 16HBE at 2 hours; olaparib 1 micromolar 30 minutes pretreatment then coexposure",
+      "actual_effects": [
+        "NADH and NAD+ depleted with beta-lapachone alone",
+        "Olaparib rescues NAD+ pool but not NADH in combination",
+        "NQO1 IP and A180 staining increase through epitope accessibility",
+        "S2 shows no established NQO1 abundance increase"
+      ],
+      "inferences_not_outcomes": [
+        "Untreated Sirt2/NQO1/tubulin colocalization is not drug-induced Sirt2 function",
+        "Local NAD+ provision is a Discussion hypothesis",
+        "Trypsin protection with NADH is a different intervention",
+        "NAD depletion is not a measured cytotoxicity rate"
+      ],
+      "numeric_scope": "Fig4C mean±SD n=3; no exact P/CI or independent-biological-replicate definition; staining/blots lack quantitative inferential effects"
+    }
+  },
+  "integration": {
+    "baseline": "1aca82163b6d42430a56a90813affd416b12b053",
+    "baseline_assessments": 235,
+    "current_assessments": 238,
+    "retained_prior_ids": 235,
+    "prior_objects_unchanged": 235,
+    "refined_ids": [],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nad-modulator-discovery-20260923/qualification.json",
+      "sha256": "4a7ecc835729d0c0c6b8e098af43af6b6ca1a824979b3afed8250c8714abc2fe"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nad-modulator-discovery-20260923/reading-manifest.json",
+      "sha256": "209aa3c76be62d73493c91e7ac062ee11e57b5bdbef5534b659822c7fed36ed6"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nad-modulator-discovery-20260923/independent-nad-modulators/independent-check.md",
+      "sha256": "b6831c7cec4988f96441dc7f1aac698d9b2e1692199fba6603fd692ec4f98d29"
+    },
+    "independent_structured_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nad-modulator-discovery-20260923/independent-nad-modulators/independent-check.json",
+      "sha256": "4e2772aabf448936e3f21c0f35ed3f6f3a57fa5d45eff1e844d1a43a9183d9b0"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/beta-alanine-nad-integration-20260923/root-reading.json",
+      "sha256": "cc19465d42550776bce14ddceaafccb132d9d7aeea026cd3852e98df02c2ca0e"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false
+  }
+}

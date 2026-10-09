@@ -1,0 +1,141 @@
+{
+  "schema": "bounded_primary_appraisal_v1",
+  "record": "MED:28720684",
+  "pmcid": "PMC5619973",
+  "doi": "10.1681/ASN.2017020174",
+  "date": "2026-09-22",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5619973/",
+  "supplement_url": "https://cdn-links.lww.com/permalink/jsn/c/jsn_28_10_2022_12_05_nishizono_asn2017020174_sdc1.pdf",
+  "reading_depth": {
+    "main": "Complete substantive article body, all six tables and seven figure legends, through Methods/Disclosures/Acknowledgments/Footnotes; bibliography not independently appraised. Source retained as full PMC HTML, readable text derived with HTMLParser without deleting scientific inequalities.",
+    "main_figures_visually_read": [
+      3,
+      4,
+      5
+    ],
+    "supplement_pdf_pages": 17,
+    "supplement_pages_visually_read": [
+      1,
+      2,
+      3,
+      4,
+      14,
+      15,
+      17
+    ],
+    "supplement_scope": "Complete Table1 and legend; Table2 heading, Bub1b row and legend; Table3 heading, Bub1b row and legend. No whole538-gene-table review claimed.",
+    "supplementary_abstract_reading_credit": 0
+  },
+  "model": {
+    "species": "Fischer344 rat",
+    "lesion": "Podocyte-specific human nonphosphorylatable AA-4E-BP1 transgene limiting hypertrophic adaptation; not BUB1B deficiency.",
+    "early_study": "Male rats nephrectomized or sham-operated at100g; random assignment day1; three-week tissue cohorts n5\u20137/group.",
+    "long_study": "Figures2\u20135 at12\u201314weeks after nephrectomy; exact long-term per-arm n not located in main text/legends or relevant supplement pages. Do not transfer the three-week n.",
+    "histology": "Masson trichrome adhesions/scarring scored by blinded observer; global experimental blinding/allocation concealment not stated."
+  },
+  "interventions": [
+    {
+      "agent": "rapamycin",
+      "existing_id": "prior-03",
+      "catalog_id": "CHEMBL413",
+      "source_supplier": "LC Laboratories; no catalogSKU or salt identity given",
+      "dose": "10mg/kg intraperitoneally every2days or once weekly",
+      "vehicle": "Ethanol stock100mg/mL diluted to1mg/mL in water/5%Tween80/5%PEG; vehicle control described. Final ethanol fraction not explicitly stated.",
+      "early_start": "day1 after nephrectomy",
+      "late_start": "day21; Results mentions once-weekly effectiveness, Figure5 does not label frequency per curve",
+      "early_alternate_day_results": {
+        "creatinine_clearance": "Higher body-weight-normalized clearance than untreated, Figure3H **P<.01",
+        "proteinuria": "Lower,Figure3C **P<.01",
+        "adhesions": "Lower,Figure3G **P<.01",
+        "body_growth": "Lower,Figure3A **P<.01",
+        "blood_pressure": "No significant difference,Figure3B",
+        "target_measurement": "Phospho-S6 immunofluorescence largely suppressed, qualitative Figure3E; no totalS6 denominator/densitometry."
+      },
+      "early_weekly_results": {
+        "kidney_weight": "Reduced,Figure3F **P<.01",
+        "clearance_proteinuria_adhesions": "No statistically significant difference versus untreated in3H/3C/3G, despite directional changes; do not call equivalent protection",
+        "body_weight": "NS versus untreated in3A",
+        "target_measurement": "Residual phospho-S6 signal in3E3"
+      },
+      "late_results": "Figure5 supports lower proteinuria/kidney weight/adhesions for delayed drug, with reduced protection versus early initiation. Delayed-arm creatinine clearance is not shown."
+    },
+    {
+      "agent": "enalapril",
+      "proposed_new_id": "new-enalapril-renal",
+      "catalog_id": "CHEMBL578",
+      "source_supplier": "Sigma, no SKU/formulation/salt specified",
+      "dose": "10mg/kg/day in drinking water",
+      "start": "day1 or day21 after nephrectomy",
+      "early_results": {
+        "creatinine_clearance": "Higher body-weight-normalized clearance,Figure4H **P<.01",
+        "proteinuria_and_adhesions": "Lower,Figure4C/G **P<.01",
+        "kidney_growth": "Reduced,Figure4F **P<.01",
+        "body_weight": "No significant difference,Figure4A; not an equivalence/safety result",
+        "blood_pressure": "Lower,Figure4B **P<.01"
+      },
+      "late_results": "Partial proteinuria/adhesion reduction inFigure5; no delayed clearance panel. No proof that renal growth alone mediates benefit independently of blood-pressure effects."
+    }
+  ],
+  "bub1b": {
+    "measurement": "Bulk isolated glomerular Affymetrix RNA; not protein or per-cell expression",
+    "table": "Supplemental Table2, repeated rounded inTable3",
+    "comparator": "FSGS TG.1K.ALD group",
+    "log2_fold_change": {
+      "40percent_calorie_reduction": -0.932,
+      "rapamycin": -0.808,
+      "enalapril": -0.481
+    },
+    "qualification": "Genes selected as P<.05 and changed in same direction across interventions; individual gene P-values not displayed. Reduced cell cycling and cell-composition changes prevent interpretation as direct drug-induced per-cell BUBR1 loss or causal rescue.",
+    "no_measurements": [
+      "BUBR1 abundance/half-life",
+      "checkpoint fidelity",
+      "completed faithful daughter output",
+      "MVA genotype rescue",
+      "muscle function"
+    ]
+  },
+  "diet_context": {
+    "not_new_drug_entries": true,
+    "table1_population": "Adult heterozygous AA-4E-BP1 rats nephrectomized at~300g, different cohort; n5\u20138 per arm",
+    "duration_conflict": "Table heading16weeks; legend initially14weeks then16weeks",
+    "reported_observations": "20%and40%calorie reduction protected renal endpoints;24h urinary creatinine fell16%and24%, respectively. This is an indirect muscle-mass proxy, not measured strength or imaging-derived muscle loss. Low-protein and high-fat diets are compound dietary conditions, not isolated-molecule efficacy. Sucrose addition abolished partial high-fat protection in this cohort.",
+    "late20percent_reduction": "Figure5A/C: delayed20% calorie reduction did not significantly lower proteinuria or adhesions. Figure5B shows lower kidney weight, P<.05. Do not transfer early/full-restriction protection to every delayed endpoint."
+  },
+  "limits": [
+    "No BUB1B-deficient or patient-derived model.",
+    "Creatinine clearance normalized perkg, not absolute measured GFR; body-weight changes complicate rapamycin interpretation.",
+    "No raw individual-animal outcomes retrieved; long-term arm denominators unresolved.",
+    "No human intervention or pediatric-MVA therapeutic window established.",
+    "Dose-frequency differences and late-start endpoints must not be pooled.",
+    "Renal protection does not supply a BUBR1-restoration mechanism or muscle benefit; no matching proteinuric hypertrophic glomerular lesion is established for this case."
+  ],
+  "decision": {
+    "rapamycin": "Add qualified organ-function precedent to existing conditional probe; do not transfer efficacy to everolimus or all exposure schedules.",
+    "enalapril": "Retain renal-mechanism reserve for a separately demonstrated matching phenotype; no current restoration or muscle-lead election.",
+    "comparative_standard": "Niacin/apitegromab are also unproved in MVA; this study is neither a head-to-head comparison nor a numerical ranking.",
+    "next_questions": [
+      "Resolve long-term group sizes and drug schedules.",
+      "Qualify any relevant renal phenotype independently of MVA label.",
+      "Separate blood-pressure/growth effects and directly measure productive tissue function and fidelity in appropriate models."
+    ]
+  },
+  "publication_status": {
+    "current_metadata_links": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "28716959",
+          "reference": "J Am Soc Nephrol. 2017 Oct;28(10):2825-2827. doi: 10.1681/ASN.2017060612",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    "interpretation": "Linked editorial is not a correction or independent experiment; not read here. No correction/retraction link returned by this metadata check."
+  },
+  "source_sha256": {
+    "pmc.html": "0ae867982a7c691e7a8a9a1eadec1c602fa767891b6424d09e9e5670803b74a1",
+    "supplement.pdf": "dc38921ed6ebf8e7b97bc7a55357902857606f06f1be1bc5aed8132930dc3b8c"
+  },
+  "independent_check": "A second reader checked the main Methods/Results and Figures3-5 plus selected supplement pages. The delayed calorie-restriction statement was narrowed: kidney weight decreased, while proteinuria and adhesions were nonsignificant. This was a targeted check, not a second complete-paper review."
+}

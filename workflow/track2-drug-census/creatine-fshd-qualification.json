@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "document_role": "Portable source qualification for proposed integration; not an executed admission.",
+  "baseline_commit": "3ea8a6b1c4a9f498b0314d39eee174cb210938a5",
+  "source_qualification": {
+    "schema_version": 1,
+    "status": "ROOT_PRIMARY_QUALIFICATION_READY_FOR_INDEPENDENT_REVIEW",
+    "assessed_at_utc": "2026-09-27T16:49:41.266701+00:00",
+    "source": {
+      "pmid": "40366059",
+      "pmcid": "PMC12149790",
+      "doi": "10.1002/phar.70025",
+      "title": "Effect of creatine monohydrate on motor function in children with facioscapulohumeral muscular dystrophy: A multicenter, randomized, double-blind placebo-controlled crossover trial.",
+      "publication_year": 2025,
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12149790/",
+      "registry": "NCT02948244",
+      "metadata_notice_list": null,
+      "notice_scope": "Exact discovery metadata only; absence of a linked notice is not an exhaustive correction/retraction search."
+    },
+    "existing_decision_id": "new-creatine-monohydrate-muscle",
+    "current_nomination_change": false,
+    "source_specific_disposition": "Controlled pediatric primary functional null; secondary favorable but uncertain estimates. Retain creatine as a mixed-evidence compensation challenger without nomination promotion.",
+    "intervention": {
+      "identity": "creatine monohydrate",
+      "form": "powder",
+      "route": "oral",
+      "weight_bands_g_per_day": [
+        2.5,
+        5,
+        7.5,
+        10
+      ],
+      "source_nominal_dose": "approximately100mg/kg/day, maximum10g/day",
+      "duration_per_period_weeks": 12,
+      "washout_planned_weeks": 6,
+      "comparator": "maltodextrin placebo",
+      "shared_vehicle": "5gSplenda as reported, dissolved in250mLskimmed milk",
+      "supplier_purity_lot": "not established",
+      "usual_activity": "no advice to change usual diet or activity",
+      "clinical_dosing_recommendation": false
+    },
+    "design": {
+      "population": "children with FSHD; not BUB1B/MVA",
+      "randomized": 13,
+      "sequence_n": [
+        7,
+        6
+      ],
+      "completed_both_periods": 11,
+      "reported_ITT_analyzed": 13,
+      "MFM_available_creatine_periods": 12,
+      "MFM_available_placebo_periods": 12,
+      "MFM_paired_subjects": 11,
+      "mean_age_years": 12.2,
+      "age_range_years": [
+        7,
+        15
+      ],
+      "planned_n": 20,
+      "secondary_model_denominators": "not all supplied; do not assume13pairs",
+      "randomization": "computer-generated; dietitian and independent statistician unblinded",
+      "analysis": "mixed effects of treatment and period with participant random effect described; supplement P-value header says t-test",
+      "source_period_and_carryover_assumptions": "source states no period effect/no treatment-period interaction; carryover not empirically settled without PK/excretion data"
+    },
+    "outcomes": [
+      {
+        "endpoint": "MFM-32",
+        "hierarchy": "primary",
+        "difference": 0.19,
+        "units": "points",
+        "ci95": [
+          -0.71,
+          1.08
+        ],
+        "p_reported_supplement": 0.68,
+        "interpretation": "No demonstrated primary motor-function benefit"
+      },
+      {
+        "endpoint": "6-minute walk",
+        "hierarchy": "secondary",
+        "difference": 27.74,
+        "units": "m",
+        "ci95": [
+          -1.41,
+          56.88
+        ],
+        "p_reported_supplement": 0.06,
+        "interpretation": "Favorable point estimate with interval crossing zero"
+      },
+      {
+        "endpoint": "FSHD-COM Peds",
+        "hierarchy": "secondary",
+        "difference": -2.06,
+        "units": "points; lower better",
+        "ci95": [
+          -4.82,
+          0.71
+        ],
+        "p_reported_supplement": 0.15,
+        "interpretation": "Favorable direction with interval crossing zero"
+      },
+      {
+        "endpoint": "10m walk/run",
+        "hierarchy": "secondary",
+        "difference": -0.21,
+        "units": "s",
+        "ci95": [
+          -0.45,
+          0.02
+        ],
+        "p_reported_supplement": 0.07,
+        "interpretation": "No demonstrated treatment effect"
+      },
+      {
+        "endpoint": "PUL",
+        "hierarchy": "secondary",
+        "difference": -0.03,
+        "units": "points; higher better",
+        "ci95": [
+          -0.41,
+          0.36
+        ],
+        "p_reported_supplement": 0.89
+      },
+      {
+        "endpoint": "MRI fat replacement",
+        "hierarchy": "secondary biomarker",
+        "difference": -0.25,
+        "units": "score",
+        "ci95": [
+          -2.24,
+          1.73
+        ],
+        "p_reported_supplement": 0.8
+      },
+      {
+        "endpoint": "MRI atrophy",
+        "hierarchy": "secondary biomarker",
+        "difference": -1.81,
+        "units": "score",
+        "ci95": [
+          -4.87,
+          1.26
+        ],
+        "p_reported_supplement": 0.25
+      },
+      {
+        "endpoint": "MRI edema",
+        "hierarchy": "secondary biomarker",
+        "difference": -0.32,
+        "units": "score",
+        "ci95": [
+          -4.29,
+          3.64
+        ],
+        "p_reported_supplement": 0.87
+      },
+      {
+        "endpoint": "serum creatinine",
+        "hierarchy": "safety",
+        "difference": 12.63,
+        "units": "micromol/L",
+        "ci95": [
+          1.14,
+          24.12
+        ],
+        "p_reported_supplement": 0.031
+      },
+      {
+        "endpoint": "creatinine-derived eGFR",
+        "hierarchy": "safety derived measurement",
+        "difference": -25.79,
+        "units": "mL/min/1.73m2",
+        "ci95": [
+          -44.3,
+          -7.25
+        ],
+        "p_reported_supplement": 0.006
+      }
+    ],
+    "outcome_source": "Main Table2/Results and supplementary dataPDFp2; safety main and nativePDFp3. Published results, not reanalysis.",
+    "multiplicity_and_plan": {
+      "adjustment": "SAP expressly no adjustment",
+      "subgroups": "SAP none",
+      "SAP_date": "2022-10-05",
+      "SAP_version": 1,
+      "SAP_timing_limit": "After main-reported May2021 final visit and currentregistry July2022completion; states blinded development, independently verified unblinding timing absent.",
+      "SAP_internal_inconsistencies": [
+        "Friedreich-ataxia headings",
+        "Different NCT03933163 in administrative section, versus correct study on cover",
+        "Pill-count wording for sachet intervention"
+      ]
+    },
+    "registry": {
+      "first_posted": "2016-10-28",
+      "before_recruitment": true,
+      "current_enrollment": 11,
+      "paper_randomized": 13,
+      "has_posted_results": false,
+      "historical_fields_read": false,
+      "unreported_listed_outcomes": [
+        "quantitative strength",
+        "ultrasound",
+        "GPX3",
+        "step counts"
+      ],
+      "missing_outcomes_are_null": false
+    },
+    "safety": {
+      "reported_treatment_discontinuations_due_AE": 0,
+      "creatine_related_SAE_reported": false,
+      "fall": "Occurred during washout; prevented second-period walking assessments. Causation by creatine not established.",
+      "blood_testing_missing_on_creatine": 2,
+      "renal_interpretation": "Creatinine rises/eGFR decreases and normalization aftercessation reported. Authors favor production effect; no independent measuredGFR/cystatinC confirmation. Do not establish either renalinjury or unaffectedfiltration.",
+      "general_safety_established": false
+    },
+    "reporting_limits": [
+      "Mainbaseline12ambulant/1wheelchair vs supplementary11/2",
+      "Main placeboMFMmean0.06 vs supplement0",
+      "Some Table1 totalmeans do not reconcile with displayedsequence means/denominators",
+      "Supplement labels differ between XMLlinks and text; identifiedby filename/content",
+      "Secondary nominal pvalues and missing denominators retained"
+    ],
+    "comparative_interpretation": {
+      "prior_DMD_evidence_preserved": true,
+      "head_to_head_with_nominees": false,
+      "MVA_efficacy_established": false,
+      "BUBR1_restoration_established": false,
+      "chromosome_fidelity_measured": false,
+      "functional_BUBR1_mediation_required_only_for_restoration": true,
+      "required_shared_gates": [
+        "justified exposure",
+        "useful functional outcome",
+        "renewal",
+        "chromosome fidelity"
+      ]
+    },
+    "reading_manifest_sha256": "5a4a7efd184158542670687647649c137aeccd195963994a7652a314fc12c3fd",
+    "raw_sources_external_to_git": true,
+    "new_original_queue_reading_credit": 0,
+    "new_full_corpus_screening_credit": 0
+  },
+  "source_qualification_binding": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/creatine-fshd-primary-20260927/qualification.json",
+    "bytes": 7888,
+    "sha256": "30bebe6ee2589dfe38a537e45d3c7532efb227258ace9aa4025be4f1ead17cd9"
+  },
+  "independent_source_review": {
+    "schema_version": 1,
+    "status": "ACCEPT",
+    "required_corrections": [],
+    "blockers": [],
+    "reviewed_at_utc": "2026-09-27T16:55:13.333611+00:00",
+    "qualified_v1_binding": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/creatine-fshd-primary-20260927/final-bindings.json",
+      "bytes": 7856,
+      "sha256": "ed75ec940bc641f9e495b759d802f3e82556326bb0f59ac4df1691ee17ada7b3"
+    },
+    "qualification_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/creatine-fshd-primary-20260927/qualification.json",
+      "bytes": 7888,
+      "sha256": "30bebe6ee2589dfe38a537e45d3c7532efb227258ace9aa4025be4f1ead17cd9"
+    },
+    "qualification_markdown": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/creatine-fshd-primary-20260927/qualification.md",
+      "bytes": 8600,
+      "sha256": "ae33bea4bef96e9a1473eceeb09ef2c35eb3bcf20f2c32e4cf3edb4beae4ca55"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/creatine-fshd-primary-20260927/reading-manifest.json",
+      "bytes": 3446,
+      "sha256": "5a4a7efd184158542670687647649c137aeccd195963994a7652a314fc12c3fd"
+    },
+    "source_identity": {
+      "pmid": "40366059",
+      "pmcid": "PMC12149790",
+      "doi": "10.1002/phar.70025",
+      "registry": "NCT02948244"
+    },
+    "findings": [
+      {
+        "id": "identity_and_exposure",
+        "result": "PASS",
+        "source_locators": [
+          "primary.xml article-meta/article-id",
+          "primary.xml phar70025-sec-0011 Treatment intervention",
+          "registry.json protocolSection/armsInterventionsModule"
+        ],
+        "finding": "Powdered oral creatine monohydrate versus maltodextrin placebo is preserved, with source weight bands 2.5/5/7.5/10 g daily, nominal approximately 100 mg/kg/day up to 10 g, two 12-week periods and planned six-week washout. Shared 5 g Splenda and 250 mL skimmed milk are reported exposures, not a clinical regimen. No unsupported supplier, purity, lot, salt substitution or retail equivalence is assigned."
+      },
+      {
+        "id": "cohort_and_missingness",
+        "result": "PASS",
+        "source_locators": [
+          "primary.xml phar70025-sec-0022 Results and phar70025-tbl-0001",
+          "native Figure 1 (PHAR-45-341-g003.jpg)",
+          "supplement PDF pp1–2"
+        ],
+        "finding": "13 randomized (7 creatine-first/6 placebo-first), 11 completed both periods, and flowchart 13 analyzed are distinct. Native MFM rows have 12 treatment changes, 12 placebo changes and 11 paired rows; 13 complete pairs are not implied. Pandemic withdrawals, injury during washout and remote assessment are source-specific limits. The 12/1 versus 11/2 ambulant/wheelchair discrepancy remains unresolved. Secondary denominators must not be assumed equal."
+      },
+      {
+        "id": "primary_and_secondary_contrasts",
+        "result": "PASS",
+        "source_locators": [
+          "primary.xml phar70025-sec-0023 and phar70025-tbl-0002",
+          "primary.xml phar70025-sec-0024",
+          "supplement PDF p2",
+          "native Figures 2–3"
+        ],
+        "finding": "Primary MFM difference +0.19 points (95% CI -0.71 to 1.08; supplementary P=.68) supplies no demonstrated motor-function benefit, not proof of zero effect. The +27.74 m walking estimate (95% CI -1.41 to 56.88; P=.06), FSHD-COM -2.06 (-4.82 to 0.71; P=.15), and timed walk/run -0.21 s (-0.45 to 0.02; P=.07) remain favorable but uncertain. PUL and each MRI interval cross zero. Scale direction and primary/secondary hierarchy are correctly separated; MRI is not functional output. Other Table 2 measures do not establish that every secondary estimate favored creatine."
+      },
+      {
+        "id": "model_and_reporting",
+        "result": "PASS",
+        "source_locators": [
+          "primary.xml phar70025-sec-0019 Data analysis",
+          "SAP Main Analysis, Definition of analysis populations, Handling of Missing Data, and secondary outcome sections",
+          "supplement PDF p2 efficacy header"
+        ],
+        "finding": "Treatment/period fixed effects with a participant random effect are the described primary analysis. No period effect and no treatment-period interaction are assumptions, not proven tests. The supplement says t-test p-value; some ordinal secondary SAP sections specify Wilcoxon signed-rank analysis, so one verified analytic provenance cannot be assigned to all endpoints. Qualification appropriately leaves provenance incomplete and avoids reconstructing adjusted contrasts by subtracting unadjusted means. No model was rerun."
+      },
+      {
+        "id": "SAP_timing_and_hierarchy",
+        "result": "PASS",
+        "source_locators": [
+          "SAP cover: Version 1, 05 October 2022",
+          "SAP Administrative Information and Approvals",
+          "SAP Adjustment for Multiplicity; Subgroup Analyses",
+          "primary.xml phar70025-sec-0008 Participants",
+          "registry.json statusModule/completionDateStruct"
+        ],
+        "finding": "The retained SAP date follows the main-reported May 2021 last visit and current July 2022 completion date. Its blinded-development statement is retained without independently established unblinding timing. Friedreich-ataxia contents/abbreviations, unrelated administrative NCT03933163 and pill-count wording are real internal remnants, not proof of invalid results or misconduct. The SAP states no multiplicity adjustment and no subgroup analysis. No confirmed subgroup benefit or pediatric FSHD walking threshold is inferred."
+      },
+      {
+        "id": "registry_and_unreported_outcomes",
+        "result": "PASS",
+        "source_locators": [
+          "registry.json statusModule",
+          "registry.json designModule/enrollmentInfo",
+          "registry.json outcomesModule",
+          "primary.xml Methods/Results",
+          "SAP Study Synopsis and Study Schedule"
+        ],
+        "finding": "Current first posting 2016-10-28 precedes recruitment, but historical field versions are unread. Current enrollment 11 versus publication randomized 13 remains explicit. Listed quantitative strength, ultrasound, GPX3 and step-count outcomes have no result identified in the retained publication/supplements. Their status is unreported/unknown, not null. Current hasResults=false is a registry fact, not proof no data or other versions exist."
+      },
+      {
+        "id": "renal_and_other_safety",
+        "result": "PASS",
+        "source_locators": [
+          "primary.xml phar70025-sec-0016 Safety monitoring",
+          "primary.xml phar70025-sec-0026 Safety analysis and Discussion",
+          "supplement PDF p3 full safety table and bottom summary"
+        ],
+        "finding": "Creatinine +12.63 micromol/L (95% CI 1.14 to 24.12; P=.031) and calculated eGFR -25.79 mL/min/1.73 m2 (-44.3 to -7.25; P=.006) are preserved exactly. The authors attribute change to creatinine production and report reversal, but creatinine-derived eGFR with no measured-GFR/cystatin-C confirmation establishes neither kidney injury nor unaffected filtration. Two missing creatine blood tests, renal exclusions, small sample and short exposure limit transfer. No AE discontinuation or creatine-related SAE is reported; the washout fall is not attributed causally to creatine."
+      },
+      {
+        "id": "source_limits_and_competitiveness",
+        "result": "PASS",
+        "source_locators": [
+          "qualification.md What constrains confidence; Safety and competitiveness; Source and reading depth",
+          "primary.xml Discussion and Conclusion"
+        ],
+        "finding": "The root summary is more calibrated than the paper’s general safe/well-tolerated wording and does not erase favorable uncertain estimates or earlier DMD positives. This FSHD contrast adds a controlled primary null to a mixed evidence base; it supplies no head-to-head superiority, generic no-effect conclusion, BUBR1 restoration, chromosome-fidelity or MVA endpoint. The shared exposure/function/renewal/fidelity bar and restoration-specific BUBR1 mediation distinction are appropriate."
+      }
+    ],
+    "nonblocking_observations": [
+      {
+        "classification": "nonblocking_additional_source_context",
+        "source_locators": [
+          "primary.xml phar70025-sec-0029 Funding information",
+          "primary.xml phar70025-sec-0030 Conflict of interest statement"
+        ],
+        "detail": "The trial reports a competitive FSHD Global Research Foundation grant and named investigators’ other pharmaceutical honoraria/grants/trial roles. These are not manufacturer sponsorship of the trial preparation or evidence that disclosures caused the findings. Root read these sections; their absence from the concise narrative does not alter its bounded conclusion."
+      },
+      {
+        "classification": "nonblocking_reporting_limit",
+        "source_locators": [
+          "primary.xml phar70025-tbl-0002",
+          "supplement PDF p2",
+          "SAP secondary ordinal outcome sections"
+        ],
+        "detail": "Main Table 2 also contains FSHD-CS/CSS, ACTIVLIM, Health Index, global change and PedsQL rows; the supplementary efficacy table does not print PedsQL P values. The parent PedsQL interval is rounded to -5 to 0. Do not infer a significant effect or classify all secondary directions as favorable from this rounded endpoint. The root qualification makes neither claim."
+      }
+    ],
+    "reading_scope": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/creatine-fshd-primary-20260927/independent-review/reading-scope.json",
+      "bytes": 3776,
+      "sha256": "295fa53b2506fdd4ae5547bcd2e5fbe4445a648a91bee7440113d0b0dce31bc8"
+    },
+    "input_bindings": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/creatine-fshd-primary-20260927/independent-review/input-bindings.json",
+      "bytes": 7863,
+      "sha256": "efa8827633907667474e6bce2e14b4d637a39d620952639efc93d8018743a188"
+    },
+    "actual_primary_review_count": 1,
+    "new_original_queue_reading_credit": 0,
+    "prior_DMD_fresh_reading": false,
+    "network_retrieval": false,
+    "tests_replays_or_statistical_reanalysis": false,
+    "source_or_repository_mutation": false,
+    "acceptance_scope": "Accept the frozen root source qualification v1 at its exact scientific/source-access limits. This is independent source acceptance, not a ledger proposal, integration, clinical recommendation or full-corpus completion."
+  },
+  "independent_source_review_binding": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/creatine-fshd-primary-20260927/independent-review/review.json",
+    "bytes": 10236,
+    "sha256": "245541aa9aa046ca24756e81064f7415468f94e56be3e05dbac351fb3ed57a96"
+  },
+  "source_stage_acceptance": "ACCEPT, at the supplied independent source-review stage.",
+  "historical_status_note": "Any ready-for-review or pending fields inside source_qualification are preserved historical source-stage metadata, not a denial or backdating of subsequent independent acceptance.",
+  "portable_preparation_reading": {
+    "reader": "/root/collagen_bodybalance_primary",
+    "stage": "Portable proposal preparation",
+    "actually_read": "Complete accepted source qualification Markdown/JSON, independent review Markdown/JSON and recorded reading scopes; scoped immutable existing creatine decision/qualification, comparison rows, priority appendix and normalized identity data.",
+    "new_primary_reading": false,
+    "new_source_retrieval": false,
+    "earlier_gut_producer_reading": "Preserved as a separate prior source stage, not repeated or reassigned to this preparation.",
+    "creatine_primary_reading": "Root source qualifier and independent reviewer supplied the qualified primary reading; this preparer did not freshly read its raw primary assets.",
+    "older_DMD_primary_reading": "Not freshly read. Existing qualification retains its original abstract/registry depth.",
+    "portable_synthesis_acceptance": "Not established by this producer proposal; separate review required.",
+    "no_efficacy_or_global_completion_upgrade": true
+  },
+  "human_report": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-source-integration-20260927/proposal-ready/creatine-fshd-qualification.md",
+    "bytes": 9251,
+    "sha256": "471d801aebfddab61bb4b8693eea5785c6b0bb4b0e855dea7268f4d6b20245ca"
+  },
+  "identity_check": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/outcome-first-source-integration-20260927/proposal-ready/current-identity-check.json",
+    "bytes": 7897,
+    "sha256": "9db5f3669e3ccc08bddfc31127aa521fd9e75d90be9620864e5f66c969d42d6e"
+  },
+  "earlier_DMD_qualification": {
+    "repository_path": "workflow/track2-drug-census/creatine-muscle-qualification.md",
+    "binding": {
+      "repo": "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo",
+      "commit": "3ea8a6b1c4a9f498b0314d39eee174cb210938a5",
+      "path": "workflow/track2-drug-census/creatine-muscle-qualification.md",
+      "git_object": "3ea8a6b1c4a9f498b0314d39eee174cb210938a5:workflow/track2-drug-census/creatine-muscle-qualification.md",
+      "bytes": 8848,
+      "sha256": "a2dcf5747fd0107701d26f00cdc0fd9abcb693cbeabe8608ae70ffaf8d0c1b8c"
+    },
+    "preserved": true
+  }
+}

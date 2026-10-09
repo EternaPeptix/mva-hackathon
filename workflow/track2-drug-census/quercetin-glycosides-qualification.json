@@ -1,0 +1,219 @@
+{
+  "baseline_commit": "3db5c8961499131d8feafbe87f47eb8e6bfbb0e0",
+  "baseline_decisions": 230,
+  "compound_route": "Quercetin glycosides as adjunct to resistance training",
+  "recommendation": "Retain formulation-specific conditional human-strength reserve; no current replacement nomination.",
+  "bub1b_variant_efficacy": "Not established; no BUBR1 protein/fidelity experiment in the selected clinical studies.",
+  "identity": {
+    "exact_active": "Quercetin glycosides enzymatically manufactured by San-Ei Gen F.F.I. from isoquercitrin prepared from quercetin-3-O-rutinoside",
+    "main_daily_preparation": "200 mg glycosides plus 1.8 g dextrin in two capsules; placebo 2.0 g dextrin; six weeks",
+    "unknown": [
+      "Complete glycoside composition and batch purity",
+      "Verified aglycone-equivalent dose",
+      "Plasma exposure in 2025 trial",
+      "Interchangeability with CHEMBL50 aglycone, isoquercitrin alone, D+Q phytosome or arbitrary retail products"
+    ],
+    "matching_policy": "Only exact quercetin glycoside/glycosides aliases; no automatic quercetin-aglycone or enzymatically-modified-isoquercitrin product join."
+  },
+  "main": {
+    "pmid": "40063125",
+    "pmcid": "PMC11893712",
+    "doi": "10.1007/s00394-025-03634-9",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11893712/",
+    "design": "Randomized double-blind placebo-controlled added-supplement contrast under common resistance training; no no-exercise arms.",
+    "population": "Healthy independent adults aged65-82",
+    "randomized_per_arm": 15,
+    "analyzed_per_arm": 13,
+    "analysis_population": "Completers; no demonstrated ITT",
+    "losses": "Two per arm; scheduling/personal reasons",
+    "sex_analyzed": {
+      "placebo": {
+        "men": 5,
+        "women": 8
+      },
+      "glycosides": {
+        "men": 6,
+        "women": 7
+      }
+    },
+    "training": "Six weeks, three times weekly, bilateral isometric knee extension, three sets of ten contractions,60% PRE MVF; nativeFig1 POST one week after intervention.",
+    "outcome_summary": "Between-treatment primary strength improvement; no added physical-fitness/mass/thickness benefit.",
+    "mvf_Nm_mean_sd": {
+      "placebo_PRE": [
+        111.2,
+        47.4
+      ],
+      "placebo_POST": [
+        117.1,
+        49.9
+      ],
+      "glycosides_PRE": [
+        93.9,
+        25.4
+      ],
+      "glycosides_POST": [
+        105.9,
+        25.5
+      ]
+    },
+    "mvf_group_time_P": 0.036,
+    "mvf_group_main_effect_P": 0.24,
+    "individual_POST_PRE_percent_mean_sd": {
+      "placebo": [
+        105.3,
+        4.8
+      ],
+      "glycosides": [
+        115.1,
+        11.0
+      ]
+    },
+    "ratio_comparison": {
+      "test": "Mann-Whitney",
+      "P": "<.001",
+      "reported_r": 0.55,
+      "difference_of_reported_ratio_means_percentage_points": 9.8,
+      "adjusted_treatment_CI": null
+    },
+    "ratio_limit": "Percent of PRE, not percent increase or ratio of group means. No reconstructed participant outcomes.",
+    "other_group_time_P": {
+      "TUG_normal": 0.877,
+      "TUG_fast": 0.42,
+      "chair_5times": 0.588,
+      "chair_30sec": 0.488,
+      "muscle_thickness": 0.364,
+      "right_lower_limb_muscle_mass": 0.454
+    },
+    "MU": {
+      "interactions_P": {
+        "all": 0.044,
+        "20_40": 0.015,
+        "40_60": 0.028
+      },
+      "detected_all_PRE_placebo_glycosides": [
+        65,
+        99
+      ],
+      "detected_all_POST_placebo_glycosides": [
+        112,
+        135
+      ],
+      "tracked_all_per_arm": 39,
+      "participants_per_arm": 13,
+      "correlation_high_threshold_active_arm": {
+        "r": 0.642,
+        "P": 0.018
+      },
+      "limits": "Motor units are not independent randomized people; hierarchical pooled-unit analysis not described. Tracking within-arm changes and correlation do not prove treatment contrast or mediation."
+    },
+    "harms": "No systematic AE table or explicit zero-event result in reviewed main; cannot infer safety from unreported harms.",
+    "source_issues": [
+      "Abstract repeats20-40% for high recruitment threshold; Methods and native figures specify40-60%.",
+      "Table2 footnote printsP<.50; Results suppliesP<.001 for both MVF within-arm changes.",
+      "One Results fitness sentence denies time effects; Table2/Discussion report TUG time effects.",
+      "Methods/Results arm age summaries differ.",
+      "Table2 says two-way ANCOVA; Methods PRE covariate description names strength/thickness/mass but does not fully specify fitness-test model."
+    ]
+  },
+  "registry": {
+    "url": "https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000060482",
+    "id": "UMIN000053019",
+    "registered": "2023-12-06",
+    "disclosed": "2023-12-08",
+    "listed_start": "2023-06-12",
+    "listed_last_followup": "2023-09-02",
+    "primary": "Strength",
+    "secondary": "Motor unit behavior",
+    "sample_target_enrolled": 30,
+    "randomization_unit": "Cluster",
+    "limit": "Registration after listed followup; does not substantiate prospective outcome hierarchy. Cluster label conflicts with paper individual dynamic allocation. Results/AE fields blank; no full protocol/history review."
+  },
+  "counterevidence": {
+    "pmcid": "PMC9298516",
+    "doi": "10.3389/fnut.2022.912217",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9298516/",
+    "preparation": "200 or500mg/day glycosides, same described enzymatic manufacturing route; matched capsules; arbitrary formulation equivalence not inferred.",
+    "regimen": "24weeks40% estimated1-RM machine training,3days/week; different endpoint and adults50-74.",
+    "screened": 185,
+    "randomized": 54,
+    "safety_set_total": 51,
+    "safety_per_arm": 17,
+    "efficacy_PPS_total": 48,
+    "efficacy_per_arm": 16,
+    "primary_thigh_CSA_interaction_P": 0.915,
+    "strength_supplementary_table1_interactions_P": {
+      "leg_extension": 0.413,
+      "leg_curl": 0.923,
+      "leg_press": 0.448,
+      "chest_press": 0.837
+    },
+    "strength_missingness": "Six observations missing, including four atweek24placebo. Nominal16/arm is not complete observations at each visit. Indirect1-RM method.",
+    "stiffness_secondary_positive": {
+      "fully_flexed_knee_SWV_change_ms": {
+        "placebo": -0.3,
+        "200mg": -0.6,
+        "500mg": -0.6
+      },
+      "interaction_P": 0.023,
+      "both_change_comparisons_vs_placebo_P": "<.05",
+      "meaning": "Passive-stiffness measurement; not demonstrated greater strength or histological fibrosis reversal."
+    },
+    "adverse_event_incidence_percent": {
+      "placebo": 70.6,
+      "200mg": 52.9,
+      "500mg": 70.6
+    },
+    "safety_limits": "No severe events or attributed supplement side effects reported; incidence not significantly different. Small adult safety set does not prove pediatric/long-term safety.",
+    "erratum": {
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.1028810/full",
+      "correction": "Removed placebo-versus-itself asterisk in Table2 fully flexed SWV change row. Inspected XML relevant row corrected."
+    },
+    "funding": "Conflict statement reports Suntory Wellness funding, four employee authors and design/data/analysis/writing involvement; separate funding statement says no specific grant."
+  },
+  "fidelity_pointer_scope": {
+    "PMID21632981": "Complete abstract only: HepG2 phenotypic/transcriptomic genotoxicity comparison; quercetin showed genotoxicity-like effects. Database decreasedBUB1B mRNA sign not independently primary-verified.",
+    "PMID15309432": "Complete abstract only: Caco-2 5or50micromolar48h expression/proliferation;50micromolar proliferation51.3%control. Database increasedBUB1B mRNA sign not independently primary-verified.",
+    "conclusion": "No qualified BUBR1 protein/fidelity rescue; no global absence or universal clinical harm claim."
+  },
+  "competition": {
+    "niacin": "Quercetin glycosides have a controlled strength positive; niacin is not proven superior and keeps a distinct restoration hypothesis. Neither MVA-proven.",
+    "apitegromab": "Current appraisal has stronger disease-associated pediatric motor-function foundation.",
+    "creatine": "Current appraisal is more disease-proximate via pediatric neuromuscular trials with mixed strength findings.",
+    "decision": "Conditional glycoside-specific reserve. No cross-trial numeric ranking or head-to-head claim."
+  },
+  "source_reviewer_status": "FROZEN_BOUNDED_QUALIFICATION",
+  "source_reviewer_no_repo_edits": true,
+  "source_reviewer_no_automatic_appraisal_or_reading_credit": true,
+  "source_reviewer_scope_manifest": "reading-manifest.json",
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "quercetin-glycosides-qualification.md",
+  "qualification_md_sha256": "f8782bf36bc191cadf288a1faeefa7c813cb338fd7029d0b26419812fd1e5c3c",
+  "integration": {
+    "baseline": "3db5c8961499131d8feafbe87f47eb8e6bfbb0e0",
+    "baseline_assessments": 230,
+    "current_assessments": 233,
+    "retained_prior_ids": 230,
+    "refined_ids": [
+      "prior-05"
+    ],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/quercetin-single-agent-discovery-20260923/qualification.json",
+      "sha256": "29ea435cab603b98e50c64b150a964f4ed79256852d1cdc5096284d531bfdc25"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/quercetin-single-agent-discovery-20260923/reading-manifest.json",
+      "sha256": "eddbff3e3d0799cda97ae04884e3001264095fcdcf9cec8004570cf2d78323a0"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/quercetin-single-agent-discovery-20260923/independent-quercetin/independent-check.md",
+      "sha256": "3e3fc29356abd34801dcab652ec60afab34f88a65604e89908aa50ce0ad0d571"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/nr-quercetin-carnosine-integration-20260923/root-reading.json",
+      "sha256": "9b64c3c073ec562d5994fa42365f542d167f16801a74b8374d8c4e014e1b4c2e"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false,
+    "prior_decision_objects_unchanged": 229
+  }
+}

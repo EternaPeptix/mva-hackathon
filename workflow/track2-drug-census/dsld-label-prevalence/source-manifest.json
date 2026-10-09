@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "source": "NIH Office of Dietary Supplements Dietary Supplement Label Database (DSLD)",
+  "source_version": "9.4.0 | January 2026",
+  "source_export_timestamp": "2026-01-10T17:35:26-05:00",
+  "retrieved_date": "2026-09-28",
+  "download_url": "https://api.ods.od.nih.gov/staging-s3/data/DSLD-full-database-CSV.zip",
+  "official_dataset_description": "https://ods.od.nih.gov/Research/Dietary_Supplement_Label_Database/",
+  "official_api_guide": "https://dsld.od.nih.gov/api-guide",
+  "retrieval_endpoint_scope": "The public bulk asset is served from the staging-s3 path. Its embedded readme attributes the file to NIH ODS DSLD and identifies version 9.4.0 | January 2026. Do not assume it is byte-for-byte or semantically identical to the separately observed production API v9.5.0 index.",
+  "download_readme_label_count": 214780,
+  "zip_bytes": 92613625,
+  "http_last_modified": "Sat, 10 Jan 2026 23:30:08 GMT",
+  "http_etag": "\"ceae37ec4fb8f13ffb779c3611af871d-12\"",
+  "sha256": "058ce9867ad13c66d51a56fdaaa2015747cea2c27f55aaa6631e9d5e831fb05a",
+  "license": "CC0 1.0 Universal, as stated in the NIH DSLD API documentation",
+  "limitations": [
+    "The source contains historical and on-market product labels; on-market is the database status, not proof of current retail stock or sales.",
+    "One label is one catalog record, not one unique formulation sold, one purchase, one consumer, or one exposure.",
+    "Counts use exact Ingredient strings in DietarySupplementFacts. They do not merge aliases, infer chemical identity, or expand proprietary blends.",
+    "These data measure label representation, not BUB1B efficacy, dose feasibility, uptake, safety, or consumer use."
+  ]
+}

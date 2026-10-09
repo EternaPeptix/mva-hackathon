@@ -30,10 +30,35 @@ It does NOT cover:
 
   - The challenge dataset (proband WGS and clinical summary), which is
     controlled-access and remains subject to the Sage Bionetworks data use
-    terms. No such data is present in this repository.
+    terms. Raw genomic files and the complete source clinical record are excluded;
+    bounded case-derived findings and selectors are included.
 
-  - The written report and figures, which are licensed CC BY 4.0.
+  - The written reports, figures and team-authored documentation, which are
+    licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/.
 
   - Third-party reference resources referenced by the workflow (GRCh38,
     ClinVar, gnomAD, VEP, REVEL, AlphaMissense, Exomiser, HPO), each of which
     carries its own licence and must be obtained from its original source.
+
+  - Database-derived drug-census tables in workflow/track2-drug-census/.
+    ChEMBL-derived data retain CC BY-SA 3.0 terms; DrugCentral-derived data
+    retain CC BY-SA 4.0 terms; UniProt data retain CC BY 4.0 terms.
+    Broad Repurposing Hub metadata retain the source-specific notices
+    recorded in workflow/track2-drug-census/broad-hub-review.md and its
+    linked summary. Their
+    source-qualified provenance and attribution are documented in that
+    directory's README. Neither the MIT code option nor the team-authored
+    submission grant overrides those third-party terms.
+
+HACKATHON SUBMISSION GRANT
+
+The MVA Hackathon terms require submitted participant code, reports and other
+team-authored outputs to be available under CC BY 4.0. For the team's own material
+included in a submission, that grant applies in addition to the MIT option for
+code above. It does not relicense third-party dependencies or grant access to the
+controlled dataset. Keeping this working repository private does not waive the
+submission terms or satisfy the later public-release requirement.
+
+Official terms:
+https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/blob/main/tabs/rules.py
+https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/blob/main/tabs/about.py

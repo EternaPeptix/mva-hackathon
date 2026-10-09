@@ -1,0 +1,379 @@
+{
+  "schema_version": "bounded-primary-qualification/1",
+  "date": "2026-09-23",
+  "status": "integrated_bounded_source_qualification",
+  "source": {
+    "pmid": "26885717",
+    "pmcid": "PMC4769170",
+    "doi": "10.7554/eLife.12187",
+    "title": "Probing the catalytic functions of Bub1 kinase using the small molecule inhibitors BAY-320 and BAY-524",
+    "publication_date": "2016-02-17",
+    "url": "https://doi.org/10.7554/eLife.12187",
+    "primary_xml_sha256": "c30a1d367f4d80f07fa412dd369a9b63281057fd683b080d30189e4227b5ade6",
+    "metadata_sha256": "aa0da76671f866b679188ab4bc58edc192771f65a3820322fa13a8904678d013",
+    "notice_scope": "Fresh official Europe PMC core metadata contains no commentCorrectionList or retracted-publication label; bounded metadata observation, not integrity clearance."
+  },
+  "conclusion": "Retain genuine drug-treated antiproliferative combination findings, with formal BAY-320 synergy distinct from BAY-524 potentiation. Neither is BUBR1 restoration or improved fidelity. RPE1 relative sparing is restricted by dose and endpoint;4nM paclitaxel combinations produce essentially all severe errors in the plotted RPE1 cells. No drug-treated animal efficacy/PK/tolerability or MVA evidence.",
+  "models": {
+    "HeLa": "Aneuploid HeLa S3 and H2B-GFP variants; HeLa Kyoto FRET assays.",
+    "RPE1": "hTERT-immortalized near-diploid cells, H2B-GFP and endogenous tagged-protein variants; not primary normal muscle or constitutional MVA.",
+    "other": "NCI-H1299 formal BAY-320 synergy; A375 only supplementary proliferation values; HEK293T for LAP-Bub1 purification and Hi5 insect cells for recombinant catalytic domain.",
+    "controls": "DMSO vehicle, siGl2 versus siBub1, WT versus K821R KD Bub1, AuroraB/Mps1/Haspin probe comparisons and Haspin-substrate control."
+  },
+  "potency_assays": {
+    "IC50_TR_FRET": {
+      "construct": "His6 human BUB1 residues704–1085 expressed in Hi5 cells",
+      "substrate": "Biotin-Ahx-VLLPKKSFAEPG, C-terminal amide",
+      "ATP_mM": 2,
+      "BAY320_nM_mean_SD": [
+        680,
+        280
+      ],
+      "BAY524_nM_mean_SD": [
+        450,
+        60
+      ],
+      "source": "Methods Determination of IC50-concentrations; Supplementary file1 rows1–4",
+      "replicate_n": "not supplied in table"
+    },
+    "Figure1B": {
+      "construct": "WT or K821R KD LAP-Bub1 expressed/purified from mitotic HEK293T cells",
+      "substrate": "recombinant histoneH2A",
+      "ATP_uM": 100,
+      "radiotracer": "5μCi γ-32P-ATP",
+      "reaction": "30min at30°C",
+      "limit": "Separate qualitative dose-response/control assay; not the source of680/450nM IC50s."
+    },
+    "cellular_target_readout": {
+      "H2A_T120_IC50_BAY320_nM_mean_SD": [
+        379,
+        156
+      ],
+      "conditions": "HeLa nocodazole16h then BAY3201h, in-cell western normalized to cell stain",
+      "near_maximal_ranges_uM": {
+        "BAY320": [
+          3,
+          10
+        ],
+        "BAY524": [
+          7,
+          10
+        ]
+      }
+    }
+  },
+  "supplement1_proliferation_IC50_uM": {
+    "BAY320": {
+      "HeLa_alone_mean_SD": [
+        4.0,
+        1.4
+      ],
+      "HeLa_plus_3nM_paclitaxel_mean_SD": [
+        0.67,
+        0.27
+      ],
+      "A375_alone": 3.6,
+      "A375_plus_3nM_paclitaxel": 0.4
+    },
+    "BAY524": {
+      "HeLa_alone_mean_SD": [
+        8.1,
+        1.2
+      ],
+      "HeLa_plus_3nM_paclitaxel_mean_SD": [
+        0.64,
+        0.59
+      ],
+      "A375": "nd"
+    },
+    "limits": "Native table gives molar units and SD columns only for kinase and HeLa; A375 no SD, table assay duration/n not specified."
+  },
+  "functional_findings": {
+    "single_agent": "Modest timing effects and no significant live missegregation elevation in tested conditions, despite persistent chromosome-arm cohesion and Sgo/CPC redistribution. HeLa protein depletion causes much larger timing/congression/checkpoint defects.",
+    "monastrol_release": "150μM monastrol challenge then washout into MG132+inhibitor2h: >90% drug-treated HeLa aligned; about28% Bub1-depleted cells failed full alignment. n170–200 cells. Alignment under arrest is not productive-lineage rescue.",
+    "colony_assay": {
+      "duration_days": 7,
+      "plated_cells_per_well": 50000,
+      "readout": "Cresyl Violet stained population intensity after methanol fixation",
+      "BAY320_uM": 3,
+      "BAY524_uM": [
+        7,
+        10
+      ],
+      "paclitaxel_nM": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "result": "Combination reduced HeLa signal more strongly than RPE1, but RPE1 also declined; not a general safety window."
+    },
+    "formal_synergy": {
+      "compound": "BAY-320 only",
+      "lines": [
+        "HeLa",
+        "NCI-H1299"
+      ],
+      "duration_hours": 96,
+      "readout": "CellTiter-Glo normalized to DMSO and pretreatment readings",
+      "BAY320_uM_range": [
+        0.1,
+        10
+      ],
+      "paclitaxel_nM_range": [
+        1,
+        100
+      ],
+      "fixed_ratio_combinations": 9,
+      "method": "Chou–Talalay median-effect IC50 isobolograms",
+      "synergy_cutoff_CI": 0.8,
+      "antagonism_cutoff_CI": 1.2,
+      "native_figure_limit": "HeLa Z10 approximately0.89 visually exceeds0.8. Do not claim allratios or BAY524/RPE1 formally synergistic. Numeric rawCI values were not recovered."
+    },
+    "segregation": {
+      "source": "Figure8E–F",
+      "n_cells_per_condition": 100,
+      "classification": [
+        "no defect",
+        "mild defect",
+        "severe defect"
+      ],
+      "low_paclitaxel_nM": [
+        1,
+        2
+      ],
+      "low_dose_result": "Much greater severe-error enhancement in HeLa than RPE1",
+      "paclitaxel_4nM_result": "Native RPE1 BAY-combination bars essentially all severe defects; paclitaxel alone already substantial. Visual categorical bar interpretation, no raw-cell recount."
+    },
+    "nocodazole_challenge": {
+      "nocodazole_uM": 3.3,
+      "observation_hours": 24,
+      "BAY320_uM": 3,
+      "BAY524_uM": 7,
+      "RPE1_arrest_percent_control_BAY320_BAY524": [
+        61,
+        51,
+        44
+      ],
+      "RPE1_slippage_percent_control_BAY320_BAY524": [
+        20,
+        26,
+        42
+      ],
+      "RPE1_apoptosis_percent_control_BAY320_BAY524": [
+        19,
+        23,
+        14
+      ],
+      "HeLa_apoptosis_percent_control_BAY320_BAY524": [
+        74,
+        93,
+        94
+      ],
+      "scope": "Separate challenged assay,150cells per condition from3experiments; no extrapolation to general normal-cell or paclitaxel safety."
+    }
+  },
+  "BUB1B_connection": {
+    "BubR1_assayed": true,
+    "endpoint": "HeLa kinetochore IF relative intensity, Figure6A–B",
+    "result": "Localization largely retained with BAY inhibitors; BAY524 lower bar and possible modest effect described, versus marked loss after Bub1 depletion. Not an equivalence test.",
+    "not_established": [
+      "total BUBR1 restoration",
+      "direct BUBR1 binding/inhibition",
+      "BUB1B-mutant rescue",
+      "normal-muscle output",
+      "MVA efficacy"
+    ]
+  },
+  "selectivity": {
+    "BAY320_activity_panel": {
+      "entries": 222,
+      "compound_uM": 10,
+      "ATP_uM": 10,
+      "residual_activity_percent_examples": {
+        "Lck": 32,
+        "MST3": 33,
+        "TrkA": 37,
+        "Mer": 38,
+        "PhKγ2": 38,
+        "Haspin": 47
+      },
+      "limit": "Single-point assay, not cross-targetIC50; some entries are mouse-labeled. Do not infer exact20-fold margin from this table."
+    },
+    "BAY320_binding_panel": {
+      "entries": 403,
+      "compound_nM": [
+        300,
+        1000
+      ],
+      "percent_control_binding": {
+        "BUB1": [
+          0,
+          0.3
+        ],
+        "LOK": [
+          72,
+          53
+        ],
+        "SRPK1": [
+          76,
+          56
+        ],
+        "TTK": [
+          89,
+          59
+        ]
+      },
+      "BUB1_cells": "Sheet1 A5:C5",
+      "limit": "Binding competition under stated concentrations, not catalytic activity or full cellular specificity at3–10μM."
+    },
+    "BAY524": "No matching broad panel in this paper; target/phenotypic evidence cannot inherit BAY320 panel coverage.",
+    "BUB1B_panel_row": "No BUB1B/BubR1 entry found in either native panel.",
+    "cellular_control": "BAY inhibitors spare Haspin-dependent H3-T3 phosphorylation at tested exposures;5-iodotubercidin changes it.",
+    "resistant_target_rescue": "Not supplied"
+  },
+  "animal_evidence": {
+    "BAY_drug_efficacy": false,
+    "BAY_PK": false,
+    "BAY_tolerability": false,
+    "scope": "Genetic mouse viability and Mps1 mouse studies are cited background; antibody-production animal work is not BAY efficacy."
+  },
+  "other_agents": {
+    "paclitaxel": "anticancer combination agent",
+    "Reversine": "Mps1 comparator/sensitizing probe,0.25/0.5μM",
+    "ZM-447439": "AuroraB mechanistic comparator,1.25/2.5/5μM",
+    "5-Iodotubercidin": "Haspin probe,2.5μM",
+    "Monastrol": "Eg5 synchronization/challenge,150μM",
+    "STLC": "Eg5 synchronization reagent,10μM in Figure6C",
+    "MG132": "mitotic-arrest machinery,10/20μM",
+    "RO-3306": "synchronization/reporter-cell selection,10μM",
+    "thymidine": "synchronization,typically2mM and4mM RPE1 spread protocol",
+    "nocodazole": "microtubule challenge/synchronization,typically3.3μM with distinct sorting/purification conditions",
+    "DMSO": "vehicle",
+    "not_new_efficacy_appraisals": "Controls/culture reagents are not automatically new candidates."
+  },
+  "limitations": [
+    "2–3 independent experiments pooled in microscopy methods; cell/kinetochore counts are not independent mice/patients.",
+    "Figure8F categorical bars lack underlying raw-cell counts and experiment-level uncertainties in retrieved files.",
+    "Supplementary proliferation assay duration/n and A375 culture details are not clearly supplied.",
+    "No demonstrated inhibitor-resistant Bub1 rescue, broad normal-tissue study, in-vivo exposure or therapeutic efficacy.",
+    "Figure3 supplement1 image labels BAY-520 whereas caption identifies BAY-524; no invented third compound.",
+    "Relative RPE1 sparing and author interpretation do not establish patient safety or a clinically usable drug window."
+  ],
+  "appraisal_correction": {
+    "file": "appraisal-row-replacement.md",
+    "sha256": "bf4f28d033cdecb59eadac9ebe65f3d100b0d60ef310f8d8aef228cfcb5cff9c",
+    "reason": "Separate the recombinant-domain synthetic-peptide2mM-ATP IC50 assay from the WT/KD LAP-Bub1-H2A100μM-ATP assay."
+  },
+  "proposed_appraisals": [
+    {
+      "decision_id": "new-bay320",
+      "match_aliases": [
+        "BAY-320",
+        "BAY320",
+        "BAY 320"
+      ],
+      "route": "BAY-320 / Bub1 catalytic inhibition and paclitaxel sensitization",
+      "disposition": "Retain experimental anticancer-combination comparator and Bub1 probe; do not elect BUBR1-restoration route",
+      "rationale": "BAY-320 inhibits recombinant BUB1 and cellular H2A-T120 phosphorylation. It enhances paclitaxel-associated loss of colony signal and chromosome missegregation. A separate 96-hour fixed-ratio assay supports formal synergy in HeLa and NCI-H1299, with the HeLa Z10 ratio above the study's CI≤0.8 cutoff. RPE1 is relatively spared at lower paclitaxel concentrations but shows near-universal severe segregation defects in 4 nM combinations. BubR1 kinetochore IF was measured without protein restoration; BUB1 catalytic inhibition is distinct from BUB1B targeting or Bub1 depletion. No drug-treated animal efficacy, PK, normal-tissue window or MVA rescue is established.",
+      "evidence_scope": "Complete 2016 scientific main/captions, all three native supplementary tables and all eight main figures; selected figure supplements and bounded root panel/assay check.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/bay-bub1-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.7554/eLife.12187",
+        "https://doi.org/10.7554/eLife.12187.018"
+      ]
+    },
+    {
+      "decision_id": "new-bay524",
+      "match_aliases": [
+        "BAY-524",
+        "BAY524",
+        "BAY 524"
+      ],
+      "route": "BAY-524 / Bub1 catalytic inhibition and paclitaxel potentiation",
+      "disposition": "Retain experimental cell-combination comparator; do not inherit BAY-320 formal synergy or broad-panel selectivity",
+      "rationale": "BAY-524 inhibits recombinant BUB1 and cellular H2A-T120 phosphorylation. At 7–10 µM it enhances seven-day paclitaxel-associated colony reduction and segregation defects; the native potency table reports HeLa proliferation IC50 shifting from 8.1 ± 1.2 µM alone to 0.64 ± 0.59 µM with 3 nM paclitaxel. Formal fixed-ratio synergy and broad kinase panels belong to BAY-320, not this compound. RPE1 combination harm at 4 nM paclitaxel limits normal-cell-sparing claims. BubR1 kinetochore signal is modestly lower, not restored; catalytic inhibition and Bub1 protein depletion have different consequences. No animal therapeutic window, normal-muscle output or MVA efficacy is established.",
+      "evidence_scope": "Complete 2016 scientific main/captions and native potency table/figures; BAY-320-only panel and formal-synergy limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/bay-bub1-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.7554/eLife.12187",
+        "https://doi.org/10.7554/eLife.12187.018"
+      ]
+    }
+  ],
+  "reading_evidence": {
+    "file": "read-evidence.json",
+    "sha256": "ddaf00a26cb224e2a50e227ff75aa3141ece4133de443bae94fc98c4fd080b3d"
+  },
+  "retrieval_manifest": {
+    "file": "retrieval-manifest.json",
+    "sha256": "372efda37dbdfdb80abf7860b15c485d7c1a6740b0ffc9abe462109c9550639b"
+  },
+  "asset_manifest": {
+    "file": "asset-manifest.json",
+    "sha256": "422eba0248f5b84c061d3f5357a6fba57a85ffc73e391c09125d940a3b601314"
+  },
+  "repository_modified": true,
+  "automatic_outer_reading_credit": 0,
+  "new_appraisal_count_proposed": 2,
+  "biological_replication": false,
+  "clinical_recommendation": false,
+  "original_draft_md_sha256": "28d30016a616e2147559bfa3a31ec197c625b05801dd2eab31fee51567a7561b",
+  "source_md_sha256": "18b1eccae2ec7da3aee47ed08657c0ce94ed7af97555555ae6782c71960b72de",
+  "integrated_by": "/root",
+  "new_appraisal_count_integrated": 2,
+  "root_additional_scope": {
+    "targeted_read_chunks": [
+      "ed47a3",
+      "84bfb2",
+      "5f19e3",
+      "2f54ea"
+    ],
+    "native_figures": [
+      6,
+      8
+    ],
+    "original_supplement1_read": true,
+    "full_main_or_supplement2_3_read": false
+  },
+  "integrated_appraisals": [
+    {
+      "decision_id": "new-bay320",
+      "match_aliases": [
+        "BAY-320",
+        "BAY320",
+        "BAY 320"
+      ],
+      "route": "BAY-320 / Bub1 catalytic inhibition and paclitaxel sensitization",
+      "disposition": "Retain experimental anticancer-combination comparator and Bub1 probe; do not elect BUBR1-restoration route",
+      "rationale": "BAY-320 inhibits recombinant BUB1 and cellular H2A-T120 phosphorylation. It enhances paclitaxel-associated loss of colony signal and chromosome missegregation. A separate 96-hour fixed-ratio assay supports formal synergy in HeLa and NCI-H1299, with the HeLa Z10 ratio above the study's CI≤0.8 cutoff. RPE1 is relatively spared at lower paclitaxel concentrations but shows near-universal severe segregation defects in 4 nM combinations. BubR1 kinetochore IF was measured without protein restoration; BUB1 catalytic inhibition is distinct from BUB1B targeting or Bub1 depletion. No drug-treated animal efficacy, PK, normal-tissue window or MVA rescue is established.",
+      "evidence_scope": "Complete 2016 scientific main/captions, all three native supplementary tables and all eight main figures; selected figure supplements and bounded root panel/assay check.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/bay-bub1-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.7554/eLife.12187",
+        "https://doi.org/10.7554/eLife.12187.018"
+      ]
+    },
+    {
+      "decision_id": "new-bay524",
+      "match_aliases": [
+        "BAY-524",
+        "BAY524",
+        "BAY 524"
+      ],
+      "route": "BAY-524 / Bub1 catalytic inhibition and paclitaxel potentiation",
+      "disposition": "Retain experimental cell-combination comparator; do not inherit BAY-320 formal synergy or broad-panel selectivity",
+      "rationale": "BAY-524 inhibits recombinant BUB1 and cellular H2A-T120 phosphorylation. At 7–10 µM it enhances seven-day paclitaxel-associated colony reduction and segregation defects; the native potency table reports HeLa proliferation IC50 shifting from 8.1 ± 1.2 µM alone to 0.64 ± 0.59 µM with 3 nM paclitaxel. Formal fixed-ratio synergy and broad kinase panels belong to BAY-320, not this compound. RPE1 combination harm at 4 nM paclitaxel limits normal-cell-sparing claims. BubR1 kinetochore signal is modestly lower, not restored; catalytic inhibition and Bub1 protein depletion have different consequences. No animal therapeutic window, normal-muscle output or MVA efficacy is established.",
+      "evidence_scope": "Complete 2016 scientific main/captions and native potency table/figures; BAY-320-only panel and formal-synergy limits retained.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "source_report": "workflow/track2-drug-census/bay-bub1-qualification.md",
+      "source_urls": [
+        "https://doi.org/10.7554/eLife.12187",
+        "https://doi.org/10.7554/eLife.12187.018"
+      ]
+    }
+  ]
+}

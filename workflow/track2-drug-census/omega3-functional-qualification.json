@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-26",
+  "baseline": "609edd2b7864ec939f9a620aa00bc8c7f08767f4",
+  "main": {
+    "identity": {
+      "pmid": "25994567",
+      "pmcid": "PMC4480667",
+      "doi": "10.3945/ajcn.114.105833",
+      "registry": "NCT01308957",
+      "year": 2015
+    },
+    "preparation": {
+      "name": "Lovaza",
+      "source_supplier": "GlaxoSmithKline plc",
+      "chemical_form": "omega-3-acid ethyl-esters mixture",
+      "capsules_per_day": 4,
+      "capsule_nominal_g": 1,
+      "source_nominal_epa_g_day": 1.86,
+      "source_nominal_dha_g_day": 1.5,
+      "schedule": "two capsules with breakfast and two with dinner",
+      "duration_months": 6,
+      "comparator": "four identical-looking corn-oil capsules/day",
+      "free_epa_equivalent": false,
+      "epa_monotherapy": false,
+      "arbitrary_fish_oil_equivalence": false,
+      "batch_authentication": "not independently assayed"
+    },
+    "population": {
+      "age_range_years": [
+        60,
+        85
+      ],
+      "setting": "sedentary healthy older adults; clinically important impairment and serious chronic disease excluded",
+      "screened": 109,
+      "randomized": {
+        "active": 40,
+        "control": 20
+      },
+      "baseline_completed": {
+        "active": 35,
+        "control": 18
+      },
+      "month3_completed": {
+        "active": 31,
+        "control": 15
+      },
+      "final_completed": {
+        "active": 29,
+        "control": 15
+      },
+      "strength_usable": {
+        "active": 28,
+        "control": 15
+      },
+      "strength_missing_reason": "one active completer unable to perform grip/1RM due to shoulder and arm pain at3/6months",
+      "efficacy_analysis": "completers only; no retrieved randomized-population sensitivity or imputation",
+      "registry_total": 77,
+      "registry_total_limit": "includes young no-intervention comparison arm; exact young count not established;77 is not older randomized denominator"
+    },
+    "hierarchy": {
+      "main_four_primary": [
+        "MRI thigh muscle volume",
+        "handgrip",
+        "composite1RM",
+        "compositeaverageisokineticpower"
+      ],
+      "current_registry_primary": [
+        "24week musclemass",
+        "24week physicalfunction including strength,isometric/isokinetic force and usual-activity PPT"
+      ],
+      "unreported_in_main": [
+        "post-treatment PPT",
+        "isometric-force results"
+      ],
+      "first_posted": "2011-03-04",
+      "current_last_update_submitted": "2014-12-08",
+      "original_historical_version_read": false,
+      "separate_protocol_read": false,
+      "sap_read": false,
+      "prospective_detailed_hierarchy_verified": false
+    },
+    "outcomes": [
+      {
+        "endpoint": "MRI thigh muscle volume",
+        "effect": 3.6,
+        "unit": "percent",
+        "ci95": [
+          0.2,
+          7.0
+        ],
+        "p": "<0.05",
+        "population_active": 29,
+        "population_control": 15,
+        "analysis": "baseline-adjusted ANCOVA",
+        "interpretation": "structural volume positive; not a force endpoint"
+      },
+      {
+        "endpoint": "handgrip strength",
+        "effect": 2.3,
+        "unit": "kg",
+        "ci95": [
+          0.8,
+          3.7
+        ],
+        "p": "<0.01 in main Results",
+        "population_active": 28,
+        "population_control": 15,
+        "analysis": "mixed-model repeated-measures analysis, completers only",
+        "interpretation": "actual between-group strength positive"
+      },
+      {
+        "endpoint": "composite four-exercise 1-RM",
+        "effect": 4.0,
+        "unit": "percent",
+        "ci95": [
+          0.8,
+          7.3
+        ],
+        "p": "<0.05",
+        "population_active": 28,
+        "population_control": 15,
+        "analysis": "mixed-model repeated-measures analysis, completers only",
+        "interpretation": "one composite strength positive, not four independent positive endpoints"
+      },
+      {
+        "endpoint": "composite average isokinetic power",
+        "effect": 5.6,
+        "unit": "percent",
+        "ci95": [
+          -0.6,
+          11.7
+        ],
+        "p": 0.075,
+        "population_active": "main completer population29; endpoint-specific availability not separately confirmed",
+        "population_control": 15,
+        "analysis": "mixed-model repeated-measures analysis, completers only",
+        "interpretation": "not statistically significant"
+      }
+    ],
+    "multiplicity": {
+      "four_co_primary": true,
+      "reported_cutoff": "P<=0.05",
+      "family_correction_reported": false,
+      "authors_acknowledge_false_positive_risk": true,
+      "no_invented_corrected_estimates": true
+    },
+    "other_nulls": [
+      "bodyweight",
+      "bodyfat",
+      "intermuscularfat",
+      "bloodpressure",
+      "lipid/glucose/liver-test treatment contrasts"
+    ],
+    "harms": {
+      "population": {
+        "active": 35,
+        "control": 18
+      },
+      "fishy_aftertaste_active": 12,
+      "gastrointestinal_symptoms": {
+        "active": 11,
+        "control": 6
+      },
+      "active_withdrawal_for_pill_side_effects": 3,
+      "active_melanoma_exclusion": 1,
+      "control_dvt_exclusion": 1,
+      "source_classification": "melanoma/DVT unlikely related; no serious treatment-related event reported, not no serious event",
+      "safety_scope": "small selected adult population; not comprehensive long-term/pediatric safety"
+    },
+    "reporting_conflicts": [
+      "NativeFigure1 says2controls discontinued after baseline; safetyTable3 describes7randomized participants not completing baseline.",
+      "NativeHTMLTable2 AST/ALT controlCI bounds appear malformed; no silent sign correction."
+    ],
+    "funding": "NIH grants and GSK gift of active/placebo pills; authors state funders had no design/implementation/analysis/interpretation role and no study-related conflicts",
+    "sources": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/main-pmc.html",
+        "sha256": "3c90a60759873f10526b786b3055e58c7fa5603e2e462d82559fb8032fa1030b",
+        "bytes": 197436
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/main-readable.txt",
+        "sha256": "ce56685147f652e5729686b9638662fd7cebaae1171ff72854e1e76b4230063a",
+        "bytes": 44557
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/main-native-table1.html",
+        "sha256": "fb6dddf3921f9211c40414924d4b1dfa37d4a059ef648610b3cee532502209af",
+        "bytes": 8672
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/main-native-table2.html",
+        "sha256": "1e91fc61934ad28c78e925d181888ca48386975111197a09910ce5c22a57bca7",
+        "bytes": 4937
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/main-native-table3.html",
+        "sha256": "7fbdae25823d28c4043b6c4c06b31541e1c0663e4a6262db6b084417319edde7",
+        "bytes": 4530
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/main-figure1.jpg",
+        "sha256": "07dc054a9691ec91388be7d2e24af1e0d1eedd57e8f149f61ae85c8eafd93e8c",
+        "bytes": 136231
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/main-figure2.jpg",
+        "sha256": "0621a3b107e4b13486ca933ca33e1ada66ae823f3dd5786712e0141ec62eecf2",
+        "bytes": 82830
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/registry-current.json",
+        "sha256": "aeaf53b5f12f8b6260411aba4d4bc2cfe23b69273d71aab73f228d8c0697f1f7",
+        "bytes": 9204
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/main-metadata.json",
+        "sha256": "3b8705b6b8350280f1e7d2c34adaf23d2cd1ce82d2bd21b0e55bc08ee555d115",
+        "bytes": 9169
+      }
+    ]
+  },
+  "product_label": {
+    "set_id": "c1920576-1b04-4b20-bb00-061f09032574",
+    "revision": "2025-09",
+    "product": "Lovaza oralomega3acidethylesters",
+    "labeler": "Woodward Pharma Services LLC",
+    "initial_us_approval_year": 2004,
+    "indication": "adjunct to diet for adult severe hypertriglyceridemia >=500mg/dL",
+    "per_1g_capsule_description": "atleast900mgomega3ethylesters; approximately465mgEPAethylester+375mgDHAethylester",
+    "pediatric_use": "safety and effectiveness not established",
+    "relevant_limits": [
+      "fishallergy",
+      "LDL monitoring",
+      "coagulationdrugmonitoring",
+      "possibleAF/flutterrecurrence in susceptiblepatients"
+    ],
+    "current_stock_checked": false,
+    "historical_batch_equivalence_proved": false,
+    "source": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/lovaza-current-label.html",
+      "sha256": "eec1d507cb25090e9796347e27261204ed2408ce702d37da86f3436705624f64",
+      "bytes": 55927
+    }
+  },
+  "counterstudy": {
+    "identity": {
+      "pmid": "31426362",
+      "pmcid": "PMC6723398",
+      "doi": "10.3390/nu11081931",
+      "registry": "NCT00672685",
+      "year": 2019,
+      "relation": "functional secondary analysis of MAPT, not an independent cognitive trial"
+    },
+    "preparation": {
+      "name": "V0137 natural fish oil",
+      "daily_dha_mg": 800,
+      "daily_epa_mg": 225,
+      "capsules_per_day": 2,
+      "chemical_form": "not resolved as ethyl ester versus triglyceride in read materials",
+      "duration_months": 36,
+      "comparator": "flavored paraffin oil",
+      "standalone_arm_only_for_main_contrast": true
+    },
+    "population": {
+      "randomized": 1680,
+      "modified_itt": 1679,
+      "standalone_analysis_active": 422,
+      "standalone_analysis_placebo": 420,
+      "age_minimum": 70,
+      "setting": "community dwelling with memory complaint, instrumental-activity limitation or slow gait",
+      "endpoint_visit_completion_denominators": "not fully reported in this functional paper; analysis counts are not all36month completers"
+    },
+    "hierarchy": {
+      "registered_trial_primary": "cognition",
+      "physical_function_trial_secondary": true,
+      "current_registry_read": true,
+      "original_protocol_sap_read": false
+    },
+    "outcomes": [
+      {
+        "endpoint": "five-chair-stand time",
+        "effect": -0.053,
+        "unit": "seconds",
+        "ci95": [
+          -0.68,
+          0.572
+        ],
+        "p_raw": 0.866,
+        "p_hochberg": 0.866
+      },
+      {
+        "endpoint": "handgrip",
+        "effect": 0.382,
+        "unit": "kg",
+        "ci95": [
+          -0.575,
+          1.341
+        ],
+        "p_raw": 0.433,
+        "p_hochberg": 0.914
+      },
+      {
+        "endpoint": "4-meter walking speed",
+        "effect": -0.015,
+        "unit": "m/s",
+        "ci95": [
+          -0.053,
+          0.023
+        ],
+        "p_raw": 0.435,
+        "p_hochberg": 0.737
+      },
+      {
+        "endpoint": "SPPB",
+        "effect": -0.11,
+        "unit": "points",
+        "ci95": [
+          -0.37,
+          0.149
+        ],
+        "p_raw": 0.403,
+        "p_hochberg": 0.646
+      }
+    ],
+    "multiplicity": "Hochberg for3intervention-versus-placebo comparisons permodel; no demonstrated globalendpoint/subgroupfamily correction",
+    "reporting_conflicts": [
+      "Abstract interchanges combined/multidomain chair estimates relative toTable3 and contains inconsistent combined-armP.",
+      "Table5 generic direction footnote conflicts with lower-is-betterchairtime.",
+      "Some subgroup entries,denominators andCI/pvalues appear malformed; not used to claim responders."
+    ],
+    "harms": "No complete harms table in this functional paper; originalcognitionreport/safety not qualified; no zero-event inference",
+    "funding": "French public funders,PierreFabreResearchInstitute(manufacturer),ExhonitTherapeutics,AvidRadiopharmaceuticals; authorsdeclarenoconflict",
+    "direct_refutation_of_smith": false,
+    "difference_limit": "lower totaldose,lowerEPA,differentratio/preparation,duration,population,andsecondaryendpointhierarchy",
+    "sources": [
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/counter-main.xml",
+        "sha256": "481704db591507a446781b983a3a7b0a901b16421ec99674877aba00e948e530",
+        "bytes": 118651
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/counter-pmc.html",
+        "sha256": "b1f4006a0ffc5bbc0d15f0fbff6ce5e3f94023cd71c91acfb98d687978c5bf3b",
+        "bytes": 213332
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/counter-readable.txt",
+        "sha256": "9ef065d5c6fccd0271f37e2e3b7fb2e5c2084273080f51c0946c0b98b46bb765",
+        "bytes": 21500
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/counter-native.pdf",
+        "sha256": "7440a228bfc9060b978c09212fa78b08b555a87df90cd0df7ca13f985064d6a5",
+        "bytes": 272450
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/counter-native-text.txt",
+        "sha256": "4164ea4d1d6b441cc108976698f9a420ed4b4674c905258c697c3592d15a07c3",
+        "bytes": 58331
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/counter-registry-current.json",
+        "sha256": "bbc13f8bb55f5e9826a79d90e0280692827f96403cc98ab873f87b9726f850b2",
+        "bytes": 21484
+      },
+      {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/counter-metadata.json",
+        "sha256": "bb9d06e42396d779e90a004752f51736d9139487b9fd1c14f8b756d7ca8bf2f8",
+        "bytes": 9518
+      }
+    ]
+  },
+  "bubr1_restoration_measured": false,
+  "chromosome_fidelity_measured": false,
+  "renewal_measured": false,
+  "mva_actual_allele_efficacy": "not established",
+  "comparative_position": "Retain preliminary controlledstrength research comparator; same function/exposure/renewal/fidelity threshold as nominees; no comparativeclinicalsuperiority.",
+  "existing_decision_constraint": "new-epa unchanged; noEPAmonotherapy or arbitraryfishoil efficacy inheritance",
+  "unresolved": [
+    "Smith originalprospectiveregistry/protocol/SAP",
+    "Smith omitted PPT/isometric outcomes",
+    "Smith randomizedpopulation sensitivity",
+    "mainPDF/nativePDFtableverification",
+    "MAPT endpointvisitmissingness/safety and tabledefects",
+    "exactformulation/retail equivalence"
+  ],
+  "reading_scope": "See reading-manifest.json; single-source-reviewer only. No independent or rootreading claimed.",
+  "qualification_markdown": {
+    "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/qualification.md",
+    "sha256": "fe9fbaec28bfa1d1ce6b4c93b9162b408b6885c33cda6e8375165926fcd09339",
+    "bytes": 13260
+  },
+  "source_reviewer_status": "SOURCE_REVIEW_COMPLETE_WITH_EXPLICIT_ACCESS_LIMITS_NOT_ROOT_ACCEPTED",
+  "source_reviewer_scope": "Two distinct EPA+DHA formulations: requested Smith2015 trial and exactly one counterstudy, MAPT functional secondary analysis. No repository edit, optional entry, alias change or nomination.",
+  "source_reviewer_credit": {
+    "new_original_queue_reading": 0,
+    "new_ledger_entries": 0,
+    "nomination_change": false,
+    "biological_replications": 0
+  },
+  "integration": {
+    "status": "INTEGRATED_SOURCE_QUALIFICATION",
+    "baseline": "609edd2b7864ec939f9a620aa00bc8c7f08767f4",
+    "decision_id": "new-lovaza-muscle",
+    "source_author_files": {
+      "markdown": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/qualification.md",
+        "sha256": "fe9fbaec28bfa1d1ce6b4c93b9162b408b6885c33cda6e8375165926fcd09339"
+      },
+      "json": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/qualification.json",
+        "sha256": "052f162569cfe52208c703ef8621469fb849df015785e083d617918575f015e7"
+      },
+      "reading_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/reading-manifest.json",
+        "sha256": "aae1b6cdc8f383eeefe62a936c9a633b88fb897f05a1af26ba82f568ee27467c"
+      },
+      "freeze_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/freeze-manifest.json",
+        "sha256": "721bc43383b0f049f93e6fb29189a434a0c2c8ad405cdccccc78092ac6df7039"
+      }
+    },
+    "independent_check": {
+      "markdown": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/independent-check/independent-check.md",
+        "sha256": "564773070127753c13ec4654ee4e0a1df58bba5f53795843f124dc4a93d913a6"
+      },
+      "json": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/independent-check/independent-check.json",
+        "sha256": "f470d6450d9420a2fc1b3f7bb237363390b7a1e95a84b2eeb7533f5eb070d63b"
+      },
+      "reading_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/independent-check/reading-manifest.json",
+        "sha256": "3466d0a370a60cedcdeb519fff34d940f2b5051369a3d6dc755638004000cd3d"
+      },
+      "freeze_manifest": {
+        "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/omega3-functional-followup-20260926/independent-check/binding-manifest.json",
+        "sha256": "326acc9a03bdf7de71ea0a2f1927ad5898a36bab8f59c7639f54ea42ad3f8e1b"
+      }
+    },
+    "root_selected_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-function-expansion-20260926/root-omega3-reading-in-progress.json",
+      "sha256": "9caae05b8d079ecb0652605b2c28531c9f53d5b3f3a9d2e562f7722d2ebe3942"
+    },
+    "root_product_context": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-function-expansion-20260926/root-product-context.json",
+      "sha256": "2b5b535c520daaf065af8316e75646af0450ead8edfef212c662756a827f688b"
+    },
+    "source_scopes_not_inherited_as_root_reading": true,
+    "new_original_queue_credit": 0,
+    "no_nomination_change": true,
+    "raw_primary_assets_remain_external": true
+  }
+}

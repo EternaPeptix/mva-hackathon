@@ -1,0 +1,48 @@
+{
+  "retrieved_utc_date": "2026-09-28",
+  "primary_publication": {
+    "pmid": "21526452",
+    "doi": "10.1080/01635581.2011.539312",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3210036/",
+    "accession_linkage_status": "inferred from matching title/topic, authors, cell lines, dose and duration; GEO citation field says Citation missing"
+  },
+  "geo_series_matrix": {
+    "accession": "GSE2992",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE2nnn/GSE2992/matrix/GSE2992_series_matrix.txt.gz",
+    "bytes": 831055,
+    "sha256": "e6745b7d18799779a0141b6ece520cce1a42eaa931b802bc33175db98561d04f",
+    "cached_external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lunasin-gse2992-20260928/GSE2992_series_matrix.txt.gz",
+    "series_matrix_processing": "2^(RMA-normalized data)",
+    "samples": [
+      {"gsm": "GSM65385", "cell_line": "RWPE-1", "treatment": "untreated control"},
+      {"gsm": "GSM65386", "cell_line": "RWPE-1", "treatment": "lunasin 2 uM for 24 h"},
+      {"gsm": "GSM65387", "cell_line": "RWPE-2", "treatment": "untreated control"},
+      {"gsm": "GSM65412", "cell_line": "RWPE-2", "treatment": "lunasin 2 uM for 24 h"}
+    ],
+    "design_limit": "One processed array per cell line per condition; no replicate-level variance or inferential test"
+  },
+  "geo_series_soft": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE2nnn/GSE2992/soft/GSE2992_family.soft.gz",
+    "bytes": 7093906,
+    "sha256": "9bc4ea2cb30d2c4de6bd17c9a5f7010c90747c91b7d9cf146c0e55d81d09581a",
+    "cached_external_path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/lunasin-gse2992-20260928/GSE2992_family.soft.gz",
+    "purpose": "Series and sample metadata cross-check"
+  },
+  "platform_annotation": {
+    "accession": "GPL96",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL96&targ=self&form=text&view=full",
+    "bytes": 46608806,
+    "sha256": "34e01f9a175dc3927f8bd0f8301b164dcb6540ba26ffa360540ae597a360752c",
+    "filtered_gene_rows": 1,
+    "probe": "203755_at",
+    "gene_symbol": "BUB1B",
+    "gene_entrez": "701",
+    "retrieval_note": "Full official annotation streamed for SHA-256 and matching-row extraction; not retained in the repository."
+  },
+  "published_comparison": {
+    "paper_table": "Table 2",
+    "rwpe1_reported_fold_change": 2.23,
+    "matrix_rwpe1_ratio": 2.2290621281,
+    "independence": "Likely the same source arrays; agreement is a reproducibility/consistency check, not independent biological replication."
+  }
+}

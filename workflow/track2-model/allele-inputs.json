@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "scope": "Reference-based canonical sequence reconstruction. No patient RNA/protein, folding, functional activity, quantitative NMD, drug response or clinical benefit is inferred.",
+  "translation_assumptions": [
+    "Standard nuclear code; initiation at the annotated CDS start",
+    "Termination at the first in-frame stop; no readthrough, reinitiation or alternative splicing",
+    "Products describe sequence if translated, not proof they exist endogenously"
+  ],
+  "transcript": {
+    "id": "ENST00000287598.11",
+    "assembly": "GRCh38",
+    "strand": 1,
+    "ensembl_release": 116,
+    "exon_count": 23,
+    "spliced_length_nt": 3669,
+    "coding_length_nt_including_terminal_stop": 3153,
+    "cds_start_transcript_coordinate": 153,
+    "spliced_reference_sha256": "71a97465d86af5bf6e17dec4634938a6006baf5a61e15f3a0d97945ee861f3df",
+    "cds_sha256": "dd7234bbbeed61f89eed8bfaeddd8e2fec74461fea5fc7592ae5a02150b75863",
+    "full_cds_matches_spliced_reference": true
+  },
+  "reference": {
+    "sha256": "187917c00fa7373a054f9768009d19e4f6e5fc87d3a6c125ce131164ca69fcd6",
+    "bytes": 3150144669,
+    "index_sha256": "d81f672f40cfabf2510f37e3f790f2c79665023f4ac950bb9cc6496a40cebf32",
+    "contig": "15",
+    "identity_verified_by": "full-file SHA256 during this run"
+  },
+  "public_source_identity": {
+    "exons.json": {
+      "sha256": "dec2ff9c23822d4ac3259f5153ea1d548b8ba264c4eddfdc49ab19b91bde2d80",
+      "bytes": 153249,
+      "url": "https://rest.ensembl.org/overlap/id/ENST00000287598?feature=exon;content-type=application/json"
+    },
+    "cds.json": {
+      "sha256": "573be6f7288f6b59ff036cf31c36b17169152d196fcab5ffab137828fd79a8e1",
+      "bytes": 3254,
+      "url": "https://rest.ensembl.org/sequence/id/ENST00000287598?type=cds"
+    },
+    "info.json": {
+      "sha256": "86e87c46ae1a424702676493d024d0508ce60f6c951b0b2803ce10269e09c20c",
+      "bytes": 18,
+      "url": "https://rest.ensembl.org/info/data"
+    },
+    "map-stop.json": {
+      "sha256": "3aabdfb29f2e443501e114daa50aec9bbfcca6f1d1b4e7041bfa0bc128df6b4b",
+      "bytes": 152,
+      "url": "https://rest.ensembl.org/map/cds/ENST00000287598/2210..2210?content-type=application/json"
+    }
+  },
+  "variants": {
+    "L737Ter": {
+      "position": 40209701,
+      "coding_position": 2210,
+      "protein_position": 737,
+      "reference_codon": "TTA",
+      "alternate_codon": "TGA",
+      "chrom": "chr15",
+      "ref": "T",
+      "alt": "G",
+      "transcript_position": 2362,
+      "exon_rank": 17
+    },
+    "N1002Lys": {
+      "position": 40220612,
+      "coding_position": 3006,
+      "protein_position": 1002,
+      "reference_codon": "AAT",
+      "alternate_codon": "AAG",
+      "chrom": "chr15",
+      "ref": "T",
+      "alt": "G",
+      "transcript_position": 3158,
+      "exon_rank": 23
+    }
+  },
+  "allele_products": {
+    "WT": {
+      "variants": [],
+      "edited_cds_sha256": "dd7234bbbeed61f89eed8bfaeddd8e2fec74461fea5fc7592ae5a02150b75863",
+      "protein_sequence": "MAAVKKEGGALSEAMSLEGDEWELSKENVQPLRQGRIMSTLQGALAQESACNNTLQQQKRAFEYEIRFYTGNDPLDVWDRYISWTEQNYPQGGKESNMSTLLERAVEALQGEKRYYSDPRFLNLWLKLGRLCNEPLDMYSYLHNQGIGVSLAQFYISWAEEYEARENFRKADAIFQEGIQQKAEPLERLQSQHRQFQARVSRQTLLALEKEEEEEVFESSVPQRSTLAELKSKGKKTARAPIIRVGGALKAPSQNRGLQNPFPQQMQNNSRITVFDENADEASTAELSKPTVQPWIAPPMPRAKENELQAGPWNTGRSLEHRPRGNTASLIAVPAVLPSFTPYVEETARQPVMTPCKIEPSINHILSTRKPGKEEGDPLQRVQSHQQASEEKKEKMMYCKEKIYAGVGEFSFEEIRAEVFRKKLKEQREAELLTSAEKRAEMQKQIEEMEKKLKEIQTTQQERTGDQQEETMPTKETTKLQIASESQKIPGMTLSSSVCQVNCCARETSLAENIWQEQPHSKGPSVPFSIFDEFLLSEKKNKSPPADPPRVLAQRRPLAVLKTSESITSNEDVSPDVCDEFTGIEPLSEDAIITGFRNVTICPNPEDTCDFARAARFVSTPFHEIMSLKDLPSDPERLLPEEDLDVKTSEDQQTACGTIYSQTLSIKKLSPIIEDSREATHSSGFSGSSASVASTSSIKCLQIPEKLELTNETSENPTQSPWCSQYRRQLLKSLPELSASAELCIEDRPMPKLEIEKEIELGNEDYCIKREYLICEDYKLFWVAPRNSAELTVIKVSSQPVPWDFYINLKLKERLNEDFDHFCSCYQYQDGCIVWHQYINCFTLQDLLQHSEYITHEITVLIIYNLLTIVEMLHKAEIVHGDLSPRCLILRNRIHDPYDCNKNNQALKIVDFSYSVDLRVQLDVFTLSGFRTVQILEGQKILANCSSPYQVDLFGIADLAHLLLFKEHLQVFWDGSFWKLSQNISELKDGELWNKFFVRILNANDEATVSVLGELAAEMNGVFDTTFQSHLNKALWKVGKLTSPGALLFQ",
+      "protein_sha256": "9f8af4ce0e38de97088ba953dab247491574c96cb7eceb93306cca25692d6c2d",
+      "protein_length_aa": 1050,
+      "first_stop_codon_aa_position": 1051,
+      "first_stop_codon_dna": "TGA",
+      "premature_stop": false,
+      "masked_downstream_variants": [],
+      "positional_nmd": {
+        "rule": "premature termination more than 50 nt upstream of final exon junction",
+        "stop_codon_end_transcript_coordinate": 3305,
+        "final_junction_after_transcript_coordinate": 3109,
+        "spliced_bases_from_stop_end_to_final_junction": -196,
+        "rule_positive": false,
+        "rna_survival_fraction": null,
+        "interpretation": "positional prediction only; actual RNA decay is unmeasured"
+      },
+      "endogenous_product_detected": null,
+      "relative_abundance": null,
+      "functional_activity": null
+    },
+    "L737Ter": {
+      "variants": [
+        "L737Ter"
+      ],
+      "edited_cds_sha256": "1536b46b1ef27c8d89126690dc7a818ed2d447ccd928f0a0c187325511239987",
+      "protein_sequence": "MAAVKKEGGALSEAMSLEGDEWELSKENVQPLRQGRIMSTLQGALAQESACNNTLQQQKRAFEYEIRFYTGNDPLDVWDRYISWTEQNYPQGGKESNMSTLLERAVEALQGEKRYYSDPRFLNLWLKLGRLCNEPLDMYSYLHNQGIGVSLAQFYISWAEEYEARENFRKADAIFQEGIQQKAEPLERLQSQHRQFQARVSRQTLLALEKEEEEEVFESSVPQRSTLAELKSKGKKTARAPIIRVGGALKAPSQNRGLQNPFPQQMQNNSRITVFDENADEASTAELSKPTVQPWIAPPMPRAKENELQAGPWNTGRSLEHRPRGNTASLIAVPAVLPSFTPYVEETARQPVMTPCKIEPSINHILSTRKPGKEEGDPLQRVQSHQQASEEKKEKMMYCKEKIYAGVGEFSFEEIRAEVFRKKLKEQREAELLTSAEKRAEMQKQIEEMEKKLKEIQTTQQERTGDQQEETMPTKETTKLQIASESQKIPGMTLSSSVCQVNCCARETSLAENIWQEQPHSKGPSVPFSIFDEFLLSEKKNKSPPADPPRVLAQRRPLAVLKTSESITSNEDVSPDVCDEFTGIEPLSEDAIITGFRNVTICPNPEDTCDFARAARFVSTPFHEIMSLKDLPSDPERLLPEEDLDVKTSEDQQTACGTIYSQTLSIKKLSPIIEDSREATHSSGFSGSSASVASTSSIKCLQIPEKLELTNETSENPTQSPWCSQYRRQLLKSLPE",
+      "protein_sha256": "52d68d25d25a179785a8f4cb63a984539cf71eb22c92f27bbf479a776e5dc283",
+      "protein_length_aa": 736,
+      "first_stop_codon_aa_position": 737,
+      "first_stop_codon_dna": "TGA",
+      "premature_stop": true,
+      "masked_downstream_variants": [],
+      "positional_nmd": {
+        "rule": "premature termination more than 50 nt upstream of final exon junction",
+        "stop_codon_end_transcript_coordinate": 2363,
+        "final_junction_after_transcript_coordinate": 3109,
+        "spliced_bases_from_stop_end_to_final_junction": 746,
+        "rule_positive": true,
+        "rna_survival_fraction": null,
+        "interpretation": "positional prediction only; actual RNA decay is unmeasured"
+      },
+      "endogenous_product_detected": null,
+      "relative_abundance": null,
+      "functional_activity": null
+    },
+    "N1002Lys": {
+      "variants": [
+        "N1002Lys"
+      ],
+      "edited_cds_sha256": "ab09bf1355c97278cd8a1ebda3d65748f8fdff8216c2853cb8b28628cfd6b4ab",
+      "protein_sequence": "MAAVKKEGGALSEAMSLEGDEWELSKENVQPLRQGRIMSTLQGALAQESACNNTLQQQKRAFEYEIRFYTGNDPLDVWDRYISWTEQNYPQGGKESNMSTLLERAVEALQGEKRYYSDPRFLNLWLKLGRLCNEPLDMYSYLHNQGIGVSLAQFYISWAEEYEARENFRKADAIFQEGIQQKAEPLERLQSQHRQFQARVSRQTLLALEKEEEEEVFESSVPQRSTLAELKSKGKKTARAPIIRVGGALKAPSQNRGLQNPFPQQMQNNSRITVFDENADEASTAELSKPTVQPWIAPPMPRAKENELQAGPWNTGRSLEHRPRGNTASLIAVPAVLPSFTPYVEETARQPVMTPCKIEPSINHILSTRKPGKEEGDPLQRVQSHQQASEEKKEKMMYCKEKIYAGVGEFSFEEIRAEVFRKKLKEQREAELLTSAEKRAEMQKQIEEMEKKLKEIQTTQQERTGDQQEETMPTKETTKLQIASESQKIPGMTLSSSVCQVNCCARETSLAENIWQEQPHSKGPSVPFSIFDEFLLSEKKNKSPPADPPRVLAQRRPLAVLKTSESITSNEDVSPDVCDEFTGIEPLSEDAIITGFRNVTICPNPEDTCDFARAARFVSTPFHEIMSLKDLPSDPERLLPEEDLDVKTSEDQQTACGTIYSQTLSIKKLSPIIEDSREATHSSGFSGSSASVASTSSIKCLQIPEKLELTNETSENPTQSPWCSQYRRQLLKSLPELSASAELCIEDRPMPKLEIEKEIELGNEDYCIKREYLICEDYKLFWVAPRNSAELTVIKVSSQPVPWDFYINLKLKERLNEDFDHFCSCYQYQDGCIVWHQYINCFTLQDLLQHSEYITHEITVLIIYNLLTIVEMLHKAEIVHGDLSPRCLILRNRIHDPYDCNKNNQALKIVDFSYSVDLRVQLDVFTLSGFRTVQILEGQKILANCSSPYQVDLFGIADLAHLLLFKEHLQVFWDGSFWKLSQNISELKDGELWNKFFVRILKANDEATVSVLGELAAEMNGVFDTTFQSHLNKALWKVGKLTSPGALLFQ",
+      "protein_sha256": "4de90a7033505431405806b492bb4a09c01ab90d9f2d8e20ddb4920825e3e02c",
+      "protein_length_aa": 1050,
+      "first_stop_codon_aa_position": 1051,
+      "first_stop_codon_dna": "TGA",
+      "premature_stop": false,
+      "masked_downstream_variants": [],
+      "positional_nmd": {
+        "rule": "premature termination more than 50 nt upstream of final exon junction",
+        "stop_codon_end_transcript_coordinate": 3305,
+        "final_junction_after_transcript_coordinate": 3109,
+        "spliced_bases_from_stop_end_to_final_junction": -196,
+        "rule_positive": false,
+        "rna_survival_fraction": null,
+        "interpretation": "positional prediction only; actual RNA decay is unmeasured"
+      },
+      "endogenous_product_detected": null,
+      "relative_abundance": null,
+      "functional_activity": null
+    },
+    "L737Ter_N1002Lys_cis": {
+      "variants": [
+        "L737Ter",
+        "N1002Lys"
+      ],
+      "edited_cds_sha256": "be9c263e479868f0505a1f92a29d1352ec8892919e7a00fd694715084aa7be73",
+      "protein_sequence": "MAAVKKEGGALSEAMSLEGDEWELSKENVQPLRQGRIMSTLQGALAQESACNNTLQQQKRAFEYEIRFYTGNDPLDVWDRYISWTEQNYPQGGKESNMSTLLERAVEALQGEKRYYSDPRFLNLWLKLGRLCNEPLDMYSYLHNQGIGVSLAQFYISWAEEYEARENFRKADAIFQEGIQQKAEPLERLQSQHRQFQARVSRQTLLALEKEEEEEVFESSVPQRSTLAELKSKGKKTARAPIIRVGGALKAPSQNRGLQNPFPQQMQNNSRITVFDENADEASTAELSKPTVQPWIAPPMPRAKENELQAGPWNTGRSLEHRPRGNTASLIAVPAVLPSFTPYVEETARQPVMTPCKIEPSINHILSTRKPGKEEGDPLQRVQSHQQASEEKKEKMMYCKEKIYAGVGEFSFEEIRAEVFRKKLKEQREAELLTSAEKRAEMQKQIEEMEKKLKEIQTTQQERTGDQQEETMPTKETTKLQIASESQKIPGMTLSSSVCQVNCCARETSLAENIWQEQPHSKGPSVPFSIFDEFLLSEKKNKSPPADPPRVLAQRRPLAVLKTSESITSNEDVSPDVCDEFTGIEPLSEDAIITGFRNVTICPNPEDTCDFARAARFVSTPFHEIMSLKDLPSDPERLLPEEDLDVKTSEDQQTACGTIYSQTLSIKKLSPIIEDSREATHSSGFSGSSASVASTSSIKCLQIPEKLELTNETSENPTQSPWCSQYRRQLLKSLPE",
+      "protein_sha256": "52d68d25d25a179785a8f4cb63a984539cf71eb22c92f27bbf479a776e5dc283",
+      "protein_length_aa": 736,
+      "first_stop_codon_aa_position": 737,
+      "first_stop_codon_dna": "TGA",
+      "premature_stop": true,
+      "masked_downstream_variants": [
+        "N1002Lys"
+      ],
+      "positional_nmd": {
+        "rule": "premature termination more than 50 nt upstream of final exon junction",
+        "stop_codon_end_transcript_coordinate": 2363,
+        "final_junction_after_transcript_coordinate": 3109,
+        "spliced_bases_from_stop_end_to_final_junction": 746,
+        "rule_positive": true,
+        "rna_survival_fraction": null,
+        "interpretation": "positional prediction only; actual RNA decay is unmeasured"
+      },
+      "endogenous_product_detected": null,
+      "relative_abundance": null,
+      "functional_activity": null
+    }
+  },
+  "observed_phase": "unresolved",
+  "phase_scenarios": {
+    "reference": {
+      "alleles": [
+        "WT",
+        "WT"
+      ]
+    },
+    "trans": {
+      "alleles": [
+        "L737Ter",
+        "N1002Lys"
+      ]
+    },
+    "cis": {
+      "alleles": [
+        "L737Ter_N1002Lys_cis",
+        "WT"
+      ],
+      "interpretation": "With only these two modeled variants, the second allele has WT coding sequence. Its expression, dosage compensation and functional sufficiency are not established."
+    }
+  },
+  "phase_scenario_limit": "These are conditional two-variant configurations, not measured phase or an assertion that other sequence, regulatory or structural changes are absent.",
+  "execution": {
+    "script_sha256": "5b763a3b182c6d4dbc28be29e60e498e58297d9a306a79a71de76734d066e40c",
+    "elapsed_seconds": 1.326,
+    "completed_at_utc": "2026-09-21T12:44:13Z"
+  }
+}

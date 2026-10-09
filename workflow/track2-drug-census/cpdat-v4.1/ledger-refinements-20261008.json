@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "scope": "Exact admitted metadata and two source-qualified decision refinements for verification of the unchanged historical CPDat screen. This is byte/identity reconciliation, not new scientific review or efficacy evidence.",
+  "original_ledger_source_commit": "093ec38d4168b72747390dca8c2b34e41a05e791",
+  "current_ledger_source_commit": "aeea6cceb2d3f3d995682ed0c6ebab97394fbd23",
+  "recorded_decision_count": 289,
+  "recorded_ledger_sha256": "b3802bba5a4a2aee7165511f8dcbff945d12808ef45515902d535a5616f66b5e",
+  "metadata_refinements": {
+    "date": {
+      "original": "2026-09-28",
+      "accepted_current": "2026-10-04"
+    },
+    "status": {
+      "original": "Source-bounded research triage. New leads found; publication/submission condition not met. No clinical efficacy estimates. Selected primary-source appraisals are separate from all-entity screening.",
+      "accepted_current": "Source-bounded research triage; selected primary appraisals are separate from all-entity screening. Clinical function findings in other diseases do not establish BUB1B/MVA efficacy. Worldwide enumeration and broader primary follow-up remain incomplete."
+    }
+  },
+  "decision_refinements": [
+    {
+      "index": 219,
+      "decision_id": "new-coq10",
+      "original_object": {
+        "decision_id": "new-coq10",
+        "match_aliases": [
+          "Coenzyme Q10",
+          "CoQ10"
+        ],
+        "route": "CoQ10 / reproductive-function and oocyte-quality comparator",
+        "disposition": "retain normal-tissue reproductive-function reserve; human oral efficacy and BUB1B-MVA rescue unestablished",
+        "evidence_scope": "Full available mouse/oral scientific mains qualified by source reviewer; independent Methods/Results, key native figures and actual DOCX check. Human IVM source is complete-abstract-only; linked commentary body inaccessible. No new unique or outer-corpus credit.",
+        "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+        "rationale": "Aged mice given 22 mg/kg subcutaneous CoQ10 in sesame oil three times weekly for at least 12 weeks showed improved follicle/ovulation measures, spindle/chromosome alignment and live-pup litter size. Litter-size analysis conditions on 15/21 control and 11/12 treated dams that delivered; it is not a proven all-enrolled pregnancy-rate effect. A separate Pdss2-deficient developmental-rescue arm used LiQsorb 0.4 mg/mL drinking water and partially improved ovarian/mitochondrial/alignment endpoints, without treated-mutant live-birth rescue. Bub1b RNA was assayed in S2A without a significant positive result; BubR1 protein restoration was not measured. The small 600 mg/day oral human randomized trial showed no significant outcome difference and retains attrition/denominator inconsistencies. The 50 µmol/L human IVM abstract reports older-donor maturation and polar-body chromosome positives, but full-text donor/assay/formulation details remain unavailable. None demonstrates MVA compensation or nominee superiority.",
+        "source_report": "workflow/track2-drug-census/coq10-reproduction-qualification.md",
+        "source_urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4568976/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4071761/",
+          "https://pubmed.ncbi.nlm.nih.gov/32646587/"
+        ],
+        "identity_limit": "Source-reported CoQ10 preparations; no independent authentication of redox state, purity or batch equivalence across injectable CoQ10, LiQsorb, oral AOR softgels and IVM reagent. Exact-name catalog join CHEMBL454801 supplies no ubiquinol/MitoQ, retail-availability or clinical-product-equivalence claim."
+      },
+      "accepted_current_object_sha256": "6636170f0f5b7f8d2f4070523dcf734fad9fe423a16f7a853da59b0182d6dc78",
+      "changed_fields": [
+        "additional_source_reports",
+        "batch14_primary_source_audit",
+        "evidence_scope",
+        "last_source_qualification_date",
+        "rationale",
+        "route",
+        "source_urls"
+      ],
+      "qualification_paths": [
+        "workflow/track2-drug-census/coq10-acute-fatigue-source-note.md"
+      ]
+    },
+    {
+      "index": 226,
+      "decision_id": "new-calcium-hmb",
+      "original_object": {
+        "decision_id": "new-calcium-hmb",
+        "match_aliases": [
+          "calcium-HMB",
+          "calcium HMB"
+        ],
+        "route": "Calcium-HMB formulation / controlled adult gait-speed comparator",
+        "disposition": "retain bounded human functional comparator; broad exercise enhancement and nominee replacement not established",
+        "evidence_scope": "Partial results-source qualification: complete original abstracts from one trial and companion secondary analysis; full own-trial protocol text/native flow and bounded official registry history. Neither results main nor native results/supplement was obtained.",
+        "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+        "rationale": "A 2×2 factorial trial of 156 older women with low muscle mass reports a secondary usual-gait-speed supplement main effect of +0.06 m/s (95% CI 0.01–0.11) after 12 weeks, distinct from broader exercise effects. Results abstracts label 1500 mg/day calcium-HMB; the own protocol specifies Kyowa powder with 1200 mg HMB plus 207 mg calcium and other nutrients. The protocol specifies placebo lacking both HMB and calcium, with their amounts replaced by carbohydrate, so isolated HMB-specific efficacy is not established. No exercise-by-HMB interaction was reported on primary mass outcomes, and the companion muscle-quality secondary analysis found no HMB-by-training interaction. The latter is the same cohort, not replication; its 0.71 N/mm functional-quality benefit belongs to exercise. 149 and 144 participants were assessed at 12/24 weeks; detailed missingness, final multiplicity/imputation, adherence and HMB-specific 24-week gait contrasts remain unverified. Registry reports 8 potentially supplementation-related events with no significant group difference but no arm counts; this does not establish safety equivalence. Retain the real gait signal while preserving study/formulation and access limits. Compared fairly with current nominees, controlled gait evidence deserves visibility beyond niacin’s open-label function context, while creatine has more directly relevant pediatric neuromuscular strength evidence and apitegromab has stronger documented pediatric primary motor-function evidence. No BUBR1 restoration or durable broad muscle benefit is established. None establishes comparative MVA efficacy. Separately, the recovered original main and official supplement for PMID 23514626 test TSI calcium-HMB sachets during ten-day bed rest and eight-week rehabilitation after five-day pretreatment in healthy older adults. Twenty-four were randomized (11 control/13 active); bed-rest evaluable counts were 8/11, and full-study counts 7/11. The all-evaluable total lean-mass change contrast was nonsignificant (P=.16); excluding one active male with suspected, unproven baseline DXA error yielded nominal total/leg mass contrasts P=.02 (8/10), while the same-cohort female subgroup was 7/8 with total-mass P=.04. These are population-specific sensitivity findings, not strength benefit. Actual strength and functional tests were performed; printed knee-extension bed-rest treatment P values were .84 and .10, and the main reported no end-bed-rest SPPB, Get-Up-and-Go or five-item treatment differences. Within-arm recovery improvements and missing individual estimates do not establish treatment benefit, equivalence or universal ineffectiveness. The current NCT00945581 record lists strength as primary and mass/function/activity as secondary; historical versions/SAP and the registry 36-versus-paper 24 enrollment discrepancy remain unresolved. The nominally shared maltodextrin/calcium background differs from the earlier Kyowa trial control; exact elemental-calcium matching and product interchangeability remain unverified. Two SAEs, one per arm, were judged unrelated by the authors; no safety-equivalence claim follows. Continued supplementation during rehabilitation is not off-treatment durability. Preserve the earlier separate-trial gait positive and its control/access limits. This source adds no BUBR1 restoration, productive renewal, fidelity or MVA efficacy; source reporting conflicts and unread comment/reply bodies remain explicit.",
+        "source_report": "workflow/track2-drug-census/hmb-muscle-qualification.md",
+        "source_urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/34081113/",
+          "https://pubmed.ncbi.nlm.nih.gov/35288513/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6398682/",
+          "https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000032688",
+          "https://pubmed.ncbi.nlm.nih.gov/23514626/",
+          "https://clinicaltrials.gov/study/NCT00945581"
+        ],
+        "identity_limit": "Exact calcium-HMB aliases only; NIH DSLD group 2778 is an ingredient-identity link, not product equivalence or approval. Do not force generic HMB/free-acid CHEMBL4303793, calcium, leucine, arginine-HMB or creatine-HMB joins. Actual final formulation remains bounded by protocol, not a verified manufactured batch.",
+        "additional_source_reports": [
+          "workflow/track2-drug-census/hmb-bedrest-qualification.md"
+        ]
+      },
+      "accepted_current_object_sha256": "5938f55f1719e2a80ea3d1aa702fc8bec6e573bd9ff7360c8e36a4815451766b",
+      "changed_fields": [
+        "additional_source_reports",
+        "evidence_scope",
+        "last_source_qualification_date",
+        "rationale",
+        "source_qualification_audit",
+        "source_urls"
+      ],
+      "qualification_paths": [
+        "workflow/track2-drug-census/hmb-bedrest-qualification.md",
+        "workflow/track2-drug-census/batch11-common-compound-followup.md"
+      ]
+    }
+  ],
+  "unchanged_current_prefix_decisions": 287,
+  "historical_cpdat_outputs_and_manifests_unchanged": true,
+  "reconstruction_policy": "Accept only original values or these exact admitted values. Reconstruct the original snapshot solely for its original SHA256 check; never rewrite the active ledger. Unexpected metadata, prior-object, order or alias changes fail."
+}

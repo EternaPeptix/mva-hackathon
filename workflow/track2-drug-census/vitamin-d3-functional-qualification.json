@@ -1,0 +1,478 @@
+{
+  "date": "2026-09-23",
+  "identity": "Cholecalciferol / vitamin D3; distinct from D2, calcifediol and calcitriol",
+  "scope": "Three primary trials selected after four queries; one abstract-only positive report, two complete scientific-main functional null/counterevidence qualifications. No global vitamin-D evidence conclusion.",
+  "sources": [
+    {
+      "pmid": "25956283",
+      "doi": "10.1007/s00198-015-3151-9",
+      "reading": "Complete official/publisher abstract and publisher disclosures; UNESP access status. Full main, native figures/tables, supplement/protocol/registry not read.",
+      "design": {
+        "randomized": 160,
+        "active_n": 80,
+        "placebo_n": 80,
+        "age_years": [
+          50,
+          65
+        ],
+        "population": "Brazilian postmenopausal women with fall in previous12months",
+        "intervention": "D3 1000 IU/day orally for9months",
+        "comparator": "Placebo",
+        "product": "Not verified beyond source-labelled D3",
+        "calcium_exercise_context": "Author describes vitaminD alone; full training/background-supplement details unqualified",
+        "analysis_claim": "Authors state ITT, ANOVA/Student t/Tukey; missingness, endpoint hierarchy and multiplicity not independently qualified"
+      },
+      "outcomes": {
+        "25OHD_ng_ml": {
+          "active_pre_mean_sd": [
+            15.0,
+            7.5
+          ],
+          "active_post_mean_sd": [
+            27.5,
+            10.4
+          ],
+          "placebo_pre_mean_sd": [
+            16.9,
+            6.7
+          ],
+          "placebo_post_mean_sd": [
+            13.8,
+            6.0
+          ],
+          "author_active_percent_change": 45.4,
+          "percent_limit": "Source percentage denominator unresolved; no silent recalculation."
+        },
+        "chair_rise": {
+          "author_active_percent_increase": 25.3,
+          "p": 0.036,
+          "contrast": "Within active group in abstract; randomized treatment contrast not supplied",
+          "unit_limit": "Exact chair-rise timing/repetition measure unknown; not isolated muscle force",
+          "CI": "Not supplied"
+        },
+        "lean_mass": {
+          "author_placebo_percent_change": -6.8,
+          "p": 0.03,
+          "contrast": "Within placebo, not verified prevention of loss by D3"
+        },
+        "grip": "Measured according to abstract but quantitative result not available at this scope"
+      },
+      "limits": [
+        "Low baseline mean does not establish deficiency-based enrollment/all participants deficient.",
+        "No verified randomized functional positive; not converted to measured null either.",
+        "Full harms/adherence/attrition unavailable.",
+        "No BUBR1 assay in read portions; inaccessible remainder not claimed absent."
+      ],
+      "funding": "FAPESP2011/14447-1; publisher declares no conflicts.",
+      "judgment": "Preserve reported positive as a bounded source-follow-up lead, not demonstrated placebo-superior muscle restoration."
+    },
+    {
+      "pmid": "37084814",
+      "pmcid": "PMC10447505",
+      "doi": "10.1016/j.ajcnut.2023.04.021",
+      "registry": "NCT02015611",
+      "reading": "Complete scientific main and all3table cells, both native main figures, complete corrigendum; selected current registry modules and postedSAPpages1,2,8–11. Supplement not acquired.",
+      "correction": {
+        "pmid": "37331702",
+        "doi": "10.1016/j.ajcnut.2023.06.004",
+        "pmcid": "PMC10493470",
+        "content": "Abstract background conversion corrected from<30ng/mL[<50nmol/L] to<30ng/mL[<75nmol/L]. No outcome correction."
+      },
+      "design": {
+        "randomized": 136,
+        "active": 66,
+        "placebo": 70,
+        "completed_active": 64,
+        "completed_placebo": 65,
+        "placebo_treatment_discontinued": 5,
+        "population": "Community adults65–89, SPPB≤10, screening25OHD18 to<30ng/mL",
+        "mean_age_sd": [
+          73.4,
+          6.3
+        ],
+        "mean_SPPB_sd": [
+          7.8,
+          1.8
+        ],
+        "intervention": "Tishcon D3 capsules, initially2000IU/day for12months;10active participants escalated to4000IU/day after4months based on clinical assay. Matched placebo capsule-count escalation preserves masking.",
+        "dose_certification": "Supplement content not independently verified in study",
+        "background": "Baseline low-dose vitaminD allowed; some participants changed supplements. No assigned calcium or exercise-training cointervention."
+      },
+      "baseline_assay": {
+        "screening_mean_sd_ng_ml": [
+          24.5,
+          3.2
+        ],
+        "screening_range_ng_ml": [
+          18.0,
+          29.7
+        ],
+        "research_baseline_mean_sd_ng_ml": [
+          19.6,
+          4.6
+        ],
+        "research_baseline_range_ng_ml": [
+          7.2,
+          32.9
+        ],
+        "below18_research_percent": 36,
+        "limit": "Clinical assay and laterLCMS values/visits differ; no equivalent strata or all-severe-deficiency generalization."
+      },
+      "outcomes": {
+        "leg_power_body_mass_normalized": {
+          "active_change_se": [
+            -0.13,
+            0.04
+          ],
+          "placebo_change_se": [
+            -0.1,
+            0.04
+          ],
+          "difference_se": [
+            -0.03,
+            0.06
+          ],
+          "unit": "W/kg",
+          "p": 0.63,
+          "observed_at12mo_each_arm": 61,
+          "role": "Registry primary; main describes legpower primary and reports absolute/normalized forms"
+        },
+        "leg_power_absolute": {
+          "difference_se": [
+            -4.0,
+            5.26
+          ],
+          "unit": "W",
+          "p": 0.45
+        },
+        "knee_extensor_torque": {
+          "difference_se": [
+            -4.25,
+            2.37
+          ],
+          "unit": "Nm",
+          "p": 0.08,
+          "active_n12": 45,
+          "placebo_n12": 50
+        },
+        "grip": {
+          "difference_se": [
+            -0.15,
+            0.69
+          ],
+          "unit": "kg",
+          "p": 0.82,
+          "active_n12": 56,
+          "placebo_n12": 64
+        },
+        "SPPB": {
+          "difference_se": [
+            -0.18,
+            0.29
+          ],
+          "unit": "points",
+          "p": 0.53,
+          "active_n12": 60,
+          "placebo_n12": 63
+        },
+        "usual_gait": {
+          "difference_se": [
+            0.0,
+            0.02
+          ],
+          "unit": "m/s",
+          "p": 0.83
+        },
+        "chair_time": {
+          "difference_se": [
+            -0.08,
+            0.59
+          ],
+          "unit": "s",
+          "p": 0.89
+        },
+        "TUG": {
+          "difference_se": [
+            0.03,
+            0.27
+          ],
+          "unit": "s",
+          "p": 0.92
+        },
+        "25OHD": {
+          "difference_se": [
+            9.1,
+            1.1
+          ],
+          "unit": "ng/mL",
+          "p_literal": "<.0001",
+          "interpretation": "Biomarker response without functional benefit"
+        },
+        "CI": "Main suppliesLSmean±SE, no reported contrastCI; none reconstructed.",
+        "biopsy": {
+          "selected": 38,
+          "baseline_biopsy": 37,
+          "typeII_paired_active": 18,
+          "typeII_paired_placebo": 14,
+          "main_typeII_p": 0.91,
+          "registry_typeII_p": 0.64,
+          "model_limit": "Main and registry use differently described adjustments; both null, not combined/repaired.",
+          "VDR_p": 0.37,
+          "contractility": "No group effect reported on single-fiber force,velocity,power; substantial missing measurements, especiallytypeII, and limited power.",
+          "BUBR1": "Not measured; VDR is different protein."
+        },
+        "falls": {
+          "AE_event_counts": {
+            "active": 6,
+            "placebo": 10
+          },
+          "registry_calendar": {
+            "active_n": 60,
+            "placebo_n": 64,
+            "active_mean_sd": [
+              1.4,
+              2.85
+            ],
+            "placebo_mean_sd": [
+              1.47,
+              2.76
+            ],
+            "test": "None posted"
+          },
+          "limit": "AEfalls not allfalls or a randomized fall-prevention result."
+        }
+      },
+      "analysis_limits": [
+        "Constrained longitudinal model adjusted for age,sex,race,season; endpoint-specific missingness/exclusions.",
+        "Registry secondary exclusions include aids/pain and change>2IQR;2020postedSAP describes≥3IQR beyondquartiles. No invented reconciliation.",
+        "Primary12-month legpower has seven additional missing outcomes among completers.",
+        "No broad multiplicity adjustment described.",
+        "Selected2020protocol pages do not verify original2013prespecification."
+      ],
+      "harms": {
+        "serious_events_active": 10,
+        "serious_events_placebo": 15,
+        "nonserious_events_active": 72,
+        "nonserious_events_placebo": 93,
+        "biopsy_related_events_each_arm": 1,
+        "hypercalcemia": "None>10.6mg/dL reported",
+        "interpretation": "Counts not general safety-superiority or all-fall incidence; registry person counts distinct."
+      },
+      "registry_scope": {
+        "current_protocol_selected_modules": true,
+        "flow_all_outcome_records": true,
+        "selected_AE_records": true,
+        "history_read": false,
+        "enrollment": 136,
+        "first_post": "2013-12-19",
+        "actual_start": "2013-12",
+        "completion": "2018-09-26",
+        "results_post": "2022-11-15",
+        "posted_Protocol_SAP_date": "2020-04-16"
+      },
+      "funding": "NIH/NIA and WakeForestPepperCenter; authors declare no conflicts.",
+      "judgment": "Substantive randomized functional null for this selected population/regimen; no all-deficiency or MVA extrapolation."
+    },
+    {
+      "pmid": "26747333",
+      "doi": "10.1001/jamainternmed.2015.7148",
+      "registry": {
+        "current_enrollment": 200,
+        "first_post": "2009-11-20",
+        "registry_start": "2010-01",
+        "registry_completion": "2011-12",
+        "article_last_visit": "2011-05",
+        "has_results": false,
+        "history_read": false
+      },
+      "reading": "Complete scientific main via officialweb, both native figures/all3native tables and footnotes, selected currentregistry modules. FullPDF/ownprotocol/supplements not acquired.",
+      "design": {
+        "randomized": 200,
+        "arms": [
+          {
+            "name": "D3_24000_monthly",
+            "n": 67
+          },
+          {
+            "name": "D3_60000_monthly",
+            "n": 67
+          },
+          {
+            "name": "D3_24000_plus_calcifediol_300ug_monthly",
+            "n": 66
+          }
+        ],
+        "duration_months": 12,
+        "population": "Community adults≥70 with priorfall;meanage78;134female",
+        "baseline_below20_ng_ml": 116,
+        "baseline_below10_ng_ml": 26,
+        "product": "DSM matching oral solutions/capsules; contents assayed. Currentregistry namesViDe3/Hidroferol.",
+        "control_limit": "Active lower-dose comparator, not placebo; mixedcalcifediolarm separate; no biologicdaily-equivalence inference."
+      },
+      "outcomes": {
+        "SPPB": {
+          "overall_time_treatment_p": 0.26,
+          "12mo_change_CI95": {
+            "D3_24000": [
+              0.38,
+              0.07,
+              0.68
+            ],
+            "D3_60000": [
+              0.1,
+              -0.21,
+              0.41
+            ],
+            "combination": [
+              0.11,
+              -0.19,
+              0.43
+            ]
+          },
+          "unit": "points",
+          "interpretation": "No significant differential functional benefit. Lowerdosewithin-armCI not benefit versusplacebo."
+        },
+        "fallers": {
+          "adjusted_percent_CI95": {
+            "D3_24000": [
+              47.9,
+              35.8,
+              60.3
+            ],
+            "D3_60000": [
+              66.9,
+              54.4,
+              77.5
+            ],
+            "combination": [
+              66.1,
+              53.5,
+              76.8
+            ]
+          },
+          "overall_three_arm_p": 0.048,
+          "native_footnote": "Bothhigherarms pairwise significant versus24000; exactpairwiseP notsupplied; higherarms notdifferentfromeachother.",
+          "raw_anyfall_total": 121,
+          "limit": "Adjustedpercentages not reconstructed integercounts."
+        },
+        "mean_falls": {
+          "adjusted_mean_CI95": {
+            "D3_24000": [
+              0.94,
+              0.6,
+              1.29
+            ],
+            "D3_60000": [
+              1.47,
+              1.13,
+              1.82
+            ],
+            "combination": [
+              1.24,
+              0.89,
+              1.58
+            ]
+          },
+          "overall_three_arm_p": 0.09,
+          "60000_vs24000_main_pairwise_p": 0.02,
+          "combination_vs24000_main_pairwise_p": 0.22,
+          "analysis_limit": "Counts cappedat5perparticipant; unadjustedmultiplicity."
+        },
+        "baseline_deficiency_interaction": "NativeTable3states no statisticallysignificantinteraction for anyprimary/secondaryendpoint. Do notinfer subgroup-specificcausalefficacy.",
+        "achieved_25OHD_quartiles": "Observationalpostrandomization, not assignedtreatment or optimalclinicaltarget.",
+        "BUBR1_fidelity": "No assay in fullscientificmain."
+      },
+      "missingness_harms": {
+        "included_in_analysis": [
+          67,
+          67,
+          66
+        ],
+        "discontinued_treatment": [
+          2,
+          4,
+          3
+        ],
+        "native_flow_60000_reasons": {
+          "died": 2,
+          "nursing_home": 2
+        },
+        "other_discontinuations": "Lowdose stroke/hipsurgery;combination stroke/consentwithdrawal/increasingfrailty.",
+        "limit": "No all200observed12month claim; no causal mortality attribution.",
+        "adherence": "Above98%first6months,94%latter6months",
+        "biochemical_safety": "Similar means except transient2weekcalciumexcretionincrease inhigherarms; not fall-safety equivalence."
+      },
+      "prespecification_limits": "Article describes abandoning painfulkneestrength/alternativecomposite duringimplementation and adoptingSPPBprimary. Currentregistry retains4testbinarycompositeprimary andSPPBsecondary. History/ownprotocol unavailable; exactamendmenttiming unknown. Multiplicitynotadjusted forsecondary/exploratoryoutcomes.",
+      "notice": "Publisher correctionFeb8,2016 fixes correspondingauthoraddress; no outcomechange. Linkedcomments notfullyqualified.",
+      "funding": "SwissNationalScienceFoundation/VELUX plusinvestigatorinitiatedindustryfunding; author disclosed fees/advisoryrelationships; sponsorroleinconduct/analysis denied.",
+      "judgment": "Regimen-specific falls concern and functionalnull versuslowerdose; not all-D3harm or demonstrationlowdosehelps versusplacebo."
+    }
+  ],
+  "competitive_judgment": "Do not advance a generalized muscle-function nomination on these qualified contrasts. Retain reportedlow-vitamin-Dpositive with its access/within-arm limits, primaryfunctionalnull and monthlyregimenharm signal. This is not a selectiveMVAproofbar or head-to-head superiority claim forniacin/apitegromab. No inheritance fromcalcitriol/VDR route.",
+  "source_reviewer_status": "EXTERNAL_SOURCE_QUALIFICATION_NO_ADMISSION",
+  "source_reviewer_no_repo_count_or_nomination_change": true,
+  "status": "INTEGRATED_WITH_SOURCE_AND_INTERVENTION_LIMITS",
+  "qualification_md": "vitamin-d3-functional-qualification.md",
+  "qualification_md_sha256": "07e3586bd8931e1427993feda017b0e58c12092bb06bd334c8123d7e30217da9",
+  "integration": {
+    "baseline": "7324e443f3fd550d4b207421005322884abf16c5",
+    "baseline_assessments": 246,
+    "current_assessments": 247,
+    "retained_prior_ids": 246,
+    "prior_objects_unchanged": 246,
+    "refined_ids": [],
+    "source_markdown": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-d3-functional-followup-20260923/qualification.md",
+      "sha256": "92a223f6212411371d39714cd38f624a81edec55d957a7b087b53fe6b9b628fb"
+    },
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-d3-functional-followup-20260923/qualification.json",
+      "sha256": "ec959d8042ad0ce6815eae6f051280df17b0f8574fcdf763482534a666e0ef78"
+    },
+    "source_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-d3-functional-followup-20260923/reading-manifest.json",
+      "sha256": "fdecc512809b65089595f92bafa4bc69d2eaec1ef957249a8227e2d8730e4232"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-d3-functional-followup-20260923/independent-check/independent-check.md",
+      "sha256": "91465534f3f33871b978d165cc679d2148623ed23304168f86a98a2bf8de32eb"
+    },
+    "independent_structured_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-d3-functional-followup-20260923/independent-check/independent-check.json",
+      "sha256": "b39a82edd92cbe7a0e3ab19a2a0395aa9e08a7c2bd4c532b0bf310d0e37260fa"
+    },
+    "independent_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-d3-functional-followup-20260923/independent-check/reading-manifest.json",
+      "sha256": "19643260571227d6c2fc302b7c5431c887519622dd1d7c0aba41dccb4dd98261"
+    },
+    "root_reading": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-d3-integration-20260926/root-reading.json",
+      "sha256": "d218359e98937e2d1810cd58b37b416392d0d5a418fcdc8c0ee25575ccb53825"
+    },
+    "optional_wording_correction": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-d3-functional-followup-20260923/bubr1-wording-correction.json",
+      "sha256": "b924a619f91ef4278c33226c80be38ada1210f6f13193321ebdb72843a33e9b1"
+    },
+    "optional_entry_before_sole_wording_fix": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-d3-functional-followup-20260923/before-bubr1-wording-correction/optional-entry.json",
+      "sha256": "2678bd923b89e6a6cc6ca26bdc4d49f2b067e538ce5b1343d8d95824576f6cf4"
+    },
+    "corrected_optional_entry": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/vitamin-d3-functional-followup-20260923/optional-entry.json",
+      "sha256": "74c1d6ce98096ed50f2c9ee362516786323ac9e5ae455c9fbb2d02b2b7eebc09"
+    },
+    "optional_sole_fix_history": {
+      "field": "bub1b_variant_efficacy",
+      "before": "Not established; no BUBR1 response in qualified full mains or accessed positive abstract.",
+      "after": "Not established. No BUBR1 assay or response is reported in the qualified full mains or accessed abstract; this is not a measured BUBR1 null.",
+      "exact_single_field_replacement_verified": true,
+      "scientific_outcomes_changed": false
+    },
+    "metadata_renames": {
+      "status": "source_reviewer_status",
+      "no_repo_count_or_nomination_change": "source_reviewer_no_repo_count_or_nomination_change"
+    },
+    "new_original_queue_credit": 0,
+    "MVA_superiority_established": false
+  }
+}

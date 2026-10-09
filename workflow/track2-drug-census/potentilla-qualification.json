@@ -1,0 +1,233 @@
+{
+  "schema_version": "bounded-primary-qualification-1",
+  "date": "2026-09-23",
+  "source": {
+    "pmid": "31740710",
+    "pmcid": "PMC6861273",
+    "doi": "10.1038/s41598-019-53747-5",
+    "url": "https://www.nature.com/articles/s41598-019-53747-5",
+    "native_main_sha256": "87ff92046d25f35ea76e99dfe576169660a9aaa058d46d12a40421c46941e813",
+    "native_supplement_sha256": "e8b88b089b59d64851715c16442507ed073a0b22d35ee326b1acce9771c9386a",
+    "license_as_indexed": "CC BY",
+    "indexed_notices": "None linked in fresh retrieved metadata; not integrity clearance"
+  },
+  "repository_baseline": "7ef2b0a2833d4baeb4e0ae83fa846336d446fc90",
+  "integration_status": "integrated_bounded_assessment",
+  "new_assessment_ids": [
+    "new-potentilla-pre",
+    "new-ecgu-mixture"
+  ],
+  "proposed_dispositions": {
+    "new-potentilla-pre": "substantive chemical-challenge cancer/separation protection reserve, not established MVA rescue",
+    "new-ecgu-mixture": "defined-mixture premature-separation protection reserve; no direct tumor endpoint here"
+  },
+  "model": {
+    "species": "Swiss albino mouse",
+    "initial_weight_g": [
+      25,
+      30
+    ],
+    "initial_age_months": [
+      2,
+      3
+    ],
+    "total_across_assays_timepoints": 160,
+    "sex": "not specified",
+    "randomization": "not reported",
+    "pathology_blinding": "not specified",
+    "IHC_readers": "two independent investigators in supplement; not proof of treatment blinding",
+    "exposure": "raw areca-nut extract plus lime in drinking water; estimated increasing intake",
+    "timing": "Methods explicitly says PRE started 30 days before RAN; Discussion states one-month lead-in for both PRE and ECGU, followed by continued co-exposure. Reported timing, not independently measured intake.",
+    "design": "prophylactic co-exposure with destructive endpoint cohorts, not established-cancer therapy or constitutional BUB1B deficiency"
+  },
+  "preparations": [
+    {
+      "id": "new-potentilla-pre",
+      "name": "methanolic Potentilla fulgens root extract",
+      "short_name": "PRE",
+      "daily_mg_per_mouse": 2,
+      "route": "feed",
+      "identity": "voucher 11906; collected roots; methanolic extract, not whole food or all species/products",
+      "direct_endpoints": [
+        "PAS percentages at 60/120/180 days",
+        "chromosome-bin counts with source inconsistencies",
+        "tissue oxidative-DNA-damage/qPCR/protein markers",
+        "stomach histology/IHC at 260 days"
+      ],
+      "missing": [
+        "extract-only control",
+        "measured tissue exposure",
+        "batch numerical purity/residual solvent specification",
+        "independent replication"
+      ]
+    },
+    {
+      "id": "new-ecgu-mixture",
+      "name": "epicatechin plus catechin plus gallic acid plus ursolic acid",
+      "short_name": "ECGU",
+      "daily_micrograms_per_component_per_mouse": 50,
+      "daily_total_micrograms_per_mouse": 200,
+      "mass_ratio": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "route": "feed",
+      "component_names": [
+        "epicatechin",
+        "catechin",
+        "gallic acid",
+        "ursolic acid"
+      ],
+      "individual_component_arms": false,
+      "equimolar_claim": false,
+      "factorial_synergy_test": false,
+      "direct_endpoints": [
+        "PAS at 60/120/180 days",
+        "p53/Securin blots at180 days"
+      ],
+      "not_directly_tested": [
+        "260-day tumor histology",
+        "chromosome-bin counts/aneuploidy",
+        "BUB1B/R1 rescue",
+        "muscle function"
+      ],
+      "missing": [
+        "stock solvent",
+        "numerical purity and enantiomer specifications",
+        "tissue exposure",
+        "mixture-only control"
+      ]
+    }
+  ],
+  "BUB1B_connection": {
+    "actual_BUB1B_or_BUBR1_assay": false,
+    "mention_role": "Discussion citation to different arecoline experiment",
+    "qPCR_targets": [
+      "Mad2",
+      "Aurora A",
+      "GAPDH reference"
+    ],
+    "protein_targets": [
+      "p53",
+      "Securin",
+      "beta-actin reference"
+    ],
+    "mutant_BUB1B_model": false
+  },
+  "primary_benefits": {
+    "PRE_day260_carcinoma": {
+      "RAN_only": [
+        10,
+        10
+      ],
+      "PRE_plus_RAN": [
+        2,
+        10
+      ],
+      "other_PRE_outcomes": {
+        "hyperplasia": 5,
+        "normal": 3
+      },
+      "ECGU_cancer_endpoint": "absent",
+      "exploratory_Fisher_two_sided_P": 0.0007144558228149558,
+      "analysis_scope": "Root calculation from published counts; not authors reported test, raw pathology review or independent experiment"
+    },
+    "PAS_day180": {
+      "RAN_n": 5,
+      "RAN_mean_percent": 27.96,
+      "PRE_n": 5,
+      "PRE_mean_percent": 16.96,
+      "PRE_difference_pp": -11.0,
+      "ECGU_n": 4,
+      "ECGU_mean_percent": 19.75,
+      "ECGU_difference_pp": -8.21,
+      "measurement": "static bone-marrow metaphase spreads after colchicine; about 100 spreads/mouse",
+      "scope": "partial chemical-challenge phenotype protection, not living-cell error-rate or lineage-renewal rescue"
+    }
+  },
+  "molecular_scope": {
+    "ECGU_direct_protein_comparison_P": {
+      "esophagus_p53": 0.06,
+      "esophagus_securin": 0.08,
+      "stomach_p53": 0.07,
+      "stomach_securin": 0.07
+    },
+    "PRE_8OHdG_comparison_P": {
+      "esophagus180days": 0.11,
+      "stomach180days": 0.01,
+      "esophagus260days": 0.004,
+      "stomach260days": 0.07
+    },
+    "qPCR_P_labels": "untreated versus RAN, no annotated PRE rescue comparison; Mad2 .09/.12, AuKA .005/.18",
+    "protein_generalization": "PRE and ECGU marker changes not uniformly significant"
+  },
+  "source_issues": [
+    "Four mainTable 2 total/bin-count inconsistencies, no silent repairs.",
+    "Figure 1D plotted means visibly differ from Table 2; no exact graph digitization claim.",
+    "S2 pairedtest label despite4 ECGU versus 5 RAN animals; day 60 unpaired reconstruction differs from reported P.",
+    "S2 contains no chromosome-bin data despite aneuploidy-reduction prose.",
+    "Figure 3F PRE label conflicts with ECGU arm/caption.",
+    "qPCR main DeltaDeltaCt versus supplement OE33 standard-curve method.",
+    "IHC declared 0–250 scale versus formula maximum 300.",
+    "p-hydroxybenzoic acid versus p-hydroxybenzaldehyde isolation label discrepancy outside ECGU."
+  ],
+  "competitive_judgment": "Both preparations provide direct pharmacological challenge-protection evidence worth retaining. No useful muscle outcome or BUB1B-deficient rescue; no demonstrated superiority over provisional niacin/apitegromab, whose MVA efficacy also remains unproved. No individual-component or whole-food benefit transfer.",
+  "root_analysis": {
+    "file": "main-table-check.json",
+    "sha256": "7a3cd2861e5e2a699a209f5fbb14fe5eb2cf5eb49b57cfdef426d08b3ec80c24",
+    "script": "check-main-table.py",
+    "script_sha256": "6cce3a184f3cbdc450890358291c29a61340b76b23b40bf3ef92c7ca64937d9c",
+    "scope": "Published per-mouse PAS arithmetic, explicit count inconsistencies and exploratory histology Fisher. No source-cell correction or biological replication."
+  },
+  "independent_check": {
+    "file": "independent/independent-check.json",
+    "sha256": "54b723eb120af9b7f6a7160be1c44041620c8bf52d18633c2e63e834e78c5443",
+    "scope": "Complete native supplement, methods/allocation, selected Results/figures and ECGU arithmetic; no full-main independent reading claim Explicit one-month lead-in for both preparations confirmed in Discussion; earlier Methods-only reviewer objection resolved."
+  },
+  "root_read_scope": {
+    "complete_main_scientific_text_parts": [
+      "34dc4a",
+      "63ce8f",
+      "d34de8",
+      "e57e6d"
+    ],
+    "main_endmarkers_observed": 4,
+    "figures_visually_inspected": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "supplement_full_text_chunk": "0b7ac5",
+    "supplement_endmarker_observed": true,
+    "supplement_visual_pages": [
+      1,
+      3
+    ],
+    "main_native_table_XML_check": "8f7495",
+    "arithmetic_output": "9006d4"
+  },
+  "raw_sources_in_repo": false,
+  "prior_abstract_reading": "Batch13 MED:31740710",
+  "extra_outer_abstract_credit": 0,
+  "existing_ursolic_acid_assessment_unchanged": true,
+  "unqualified_followup": {
+    "pmcid": "PMC11787717",
+    "role": "2025 diabetic-wound rat study surfaced only; no source/effect imported"
+  },
+  "parent_integration": {
+    "date": "2026-09-23",
+    "baseline": "7ef2b0a2833d4baeb4e0ae83fa846336d446fc90",
+    "external_source_root": "potentilla-followup-20260923",
+    "source_md_sha256": "4b014d060a0ce853be1beee9ee49af26f9bfeb577fe43f861bae924a4507d675",
+    "source_json_sha256": "f436024dd03a030160905e0d3bbe7769bc58d3be350693407daea35a44731b51",
+    "extra_outer_reading_credit": 0,
+    "new_ids": [
+      "new-potentilla-pre",
+      "new-ecgu-mixture"
+    ],
+    "scope": "Root complete scientific body/tables and four figures, full supplementary text and selected rendered pages; independent methods/supplement/selected-figure and arithmetic checks. No independent biological replication or full-main second reading."
+  }
+}

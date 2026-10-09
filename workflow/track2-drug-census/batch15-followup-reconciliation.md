@@ -1,0 +1,227 @@
+# Batch 15 historical follow-up reconciliation
+
+**Eighteen of 47 historical questions now have qualified primary information:** 17 from exact-source qualifications and one from a separately reviewed published counterpart. Six exact-source questions are answered within limits; eleven exact-source questions and the counterpart retain unresolved components. Twenty-nine have neither kind of qualification; 30 still lack an exact-original-source answer.
+
+**AR-12/sildenafil update:** three added source-specific assessments bring the ledger to 271 at this checkpoint. Only active n401 changes; all other 46 question objects and all 47 original questions/flags remain. Native Figure 13 evidence is distinguished from main-text-only supplemental reporting.
+
+## Direct coverage and remaining gaps
+
+### n401 — PMID 26887051
+
+AR-12 is source-identified as OSU-03012, while AR-13 is a distinct analogue. The isolated bacterial HSP90-fragment assay reports approximately 200 nM and 40 nM activity IC50 estimates, respectively, at 0.1 mM ATP. These are not binding affinities or clinical windows. Sildenafil pretreatment of cells before complex isolation is distinct from direct binding or purified-enzyme inhibition.
+
+Early N-terminal antibody fluorescence changes differ from other epitopes and denaturing westerns. HSP27 and Figure 14 prevent either universal protein-depletion or universal masking interpretations. The reported BubR1/BUB3/PLK4 null is data not shown, without a separately specified experiment; it does not establish equivalent abundance or restored function.
+
+Tumor-cell killing and genetic chaperone/thioredoxin protection are retained at their actual reading depth. More than 50% death at 100 nM belongs to AR-13 with sildenafil, not AR-12. Its supplemental functional plots and captions remain unavailable. Normal-cell selectivity belongs to earlier cited work, not an independently qualified comparison in this packet.
+
+**Remaining scope:** Direct selective binding and activity-assay interference/orthogonal controls, experiment-to-material and replicate mapping, native supplemental functional contrasts and the cited normal-cell exposure-response comparisons remain unresolved. Timing/heading discrepancies are retained. Healthy tissue renewal, faithful division and actual-BUB1B/MVA benefit are not established. The full original composite question remains partially unresolved.
+
+Pointers: [AR-12/sildenafil qualification](ar12-sildenafil-qualification.md), [structured evidence](ar12-sildenafil-qualification.json).
+
+### n438 — PMID 37934606
+
+LB100 is the actual PP2A inhibitor: its checkpoint-reactivation, disrupted-attachment and tumor-suppression findings are distinct from Ceubxn-2/NSFL1C genetic survival rescue. Barasertib supplies cold-stable K-fiber comparisons under arrest, NMS-873 supplies AURKB localization/fractionation, and olaparib supplies comparator/combination tumor effects. These are source-qualified administered arms, not inferred class effects.
+
+The normal/proficient controls were examined and are not universally spared. Own-control normalized colonies after equal treated-cell plating do not establish absolute healthy renewal or a clinical safety window. Greater combination suppression is retained without formal synergy. Native p-BubR1/PP2A-B56 findings do not establish restoration by the genetic co-depletion or the drug.
+
+**Remaining scope:** Barasertib parent-versus-HQPA/catalog identity, imaging exposure and replicate denominators, duplicated or mismapped values, and 35 implanted versus 30 allocated animals remain unresolved. Deaths reported on days 28/30 are not baseline deaths despite first-row worksheet labels. Healthy BUB1B/MVA function, tissue safety and faithful productive output remain unmeasured. The source-level question now has direct qualified components; the full composite question remains partially unresolved.
+
+Pointers: [PP2A/BRCA2 qualification](pp2a-brca2-qualification.md), [structured evidence](pp2a-brca2-qualification.json).
+
+### n35 — PMID34745968
+
+Piperlongumine reduces MTT signal and colonies after exposure/withdrawal and increases Annexin-V/PI apoptosis. Direct CDK1 engagement/kinase selectivity and genetic rescue are not supplied; AZD5438 is a docking reference only. No normal-cell or animal drug arm is present. HO-8910 is a registry-flagged HeLa derivative, and BUB1B is an expression/network hub rather than a treated response. Colony schedule/count and high-dose solvent arithmetic remain limited. These findings answer the original source-level control/mechanism question without proving selective CDK1 causality or MVA benefit.
+
+Pointers: [piperlongumine qualification](piperlongumine-qualification.md), [structured assessment](piperlongumine-qualification.json).
+
+### n52 — PMID22280307
+
+Ordinary Sigma laboratory curcumin is now directly qualified, separately from Gemini-Cur. DAOY cycle-release experiments used 10/20 µM under distinct G1/S or nocodazole-release schedules. LDH experiments used 0/5/10/20 µM for 12, 16 or 24 hours in distinct comparisons; APC/C-associated experiments included 20/40 µM. MDCK was relatively less sensitive but is a canine kidney-derived line, and HT1376 is a less-sensitive cancer comparator; this is not established cancer-versus-normal selectivity. The undefined HBEC blot block is not a functional comparison arm.
+
+DHZ was actually tested and much less cytotoxic, with no analogous Cdc27 shift. Curcumin-linked beads recovered Cdc27 from lysate, and treated-cell lysate assays showed APC/C-associated changes; BubR1 was a nonspecific affinity-binding control. These findings support an associated mechanism, not purified direct binding or exclusive target causality.
+
+**Remaining scope:** No Cdc27-resistant, necessity/sufficiency or purified-binding experiment establishes selectivity. Table S1 arithmetic and Figure5C preparation remain ambiguous. The separately qualified cited2011 paper reports main xenograft attenuation and Smo/Smo lifespan-to-clinical-endpoint benefit; supplementary contrasts have printedP>.05. The1mg/kg versus1g/kg dose conflict and unmeasured PK/safety remain unresolved. Linked2012 Cdc27 blots are not independent efficacy replication, and exact specimen overlap is undocumented. These animal positives do not establish Cdc27-dependent selectivity. Normal-human function, faithful division and oral-product equivalence are unestablished.
+
+Pointers: [curcumin-cdc27-qualification.md](curcumin-cdc27-qualification.md), [curcumin-cdc27-qualification.json](curcumin-cdc27-qualification.json), [cited2011 animal qualification](curcumin-animal-qualification.md).
+
+### n105 — PMID38993610
+
+Daily gavage lapatinib 75 mg/kg BW/day plus plain naproxen 30 mg/kg BW/day, initiated ten weeks after the final OH-BBN according to methods; not NO-naproxen. The measured large palpable/>200mg endpoint improved; all-lesion eradication is not established. Main Table 2 combination n=29, 0% large endpoint and137 mg mean versus n=34, 69% and356 mg control. Separate five-day RNA cohort; no combination RNA arm. No formal synergy; unshown body weights do not establish comprehensive safety.
+
+**Remaining scope:** Resolve the main-versus-supplement denominators and contradictory carcinogen/treatment timing without reconstructing counts; obtain stronger toxicity assessment if a safety window is claimed.
+
+Pointers: [bladder-qualification.md](bladder-qualification.md), [bladder-qualification.json](bladder-qualification.json).
+
+### n154 — PMID41331237
+
+Mouse CB6F1 oocytes with Ccdc41 morpholino depletion; actual CP5V 5 µM and CA-074 1 µM, not inferred Apcin or CA-074 methyl ester. CP5V improves early GVBD; CA-074 improves abnormal-spindle fraction/premature MII and MAD1 with incomplete normalization and no normal-drug arm. Drug-treated chromosome-count/fertility benefit is not supplied; Figure 5 chromosome-count rescue is genetic Ccdc41 cRNA.
+
+**Remaining scope:** Resolve CP5V/CA-074 exposure clocks, donor-level replication and source timing conflicts; drug-treated chromosome counts, fertility and normal CA-074 controls remain absent.
+
+Pointers: [ccdc41-qualification.md](ccdc41-qualification.md), [ccdc41-qualification.json](ccdc41-qualification.json).
+
+### n156 — PMID32849901
+
+The exact eight-herb aqueous Yiqi Huayu Jiedu decoction, batch20170320, was given for seven days before LPS injury in rats. Doses were6.1/12.2/24.4g crude equivalent/kg/day; LPS2mg/kg followed six hours after the last gavage and lungs were sampled16hours later. Representative H&E protection is retained as a qualitative nonmalignant-tissue positive. Author-reported total AKT1/pan-Ras protein changes are markers; they do not establish restoration or causal mediation. No oxygenation, lung mechanics, respiratory performance, survival or post-injury treatment arm was measured. BUB1B is a disease-target network input, not a response assay. Predicted ingredient tables are not batch chemical quality control or isolated-ingredient efficacy.
+
+**Remaining scope:** Chemical characterization, exact administered volumes, six allocated versus five plotted samples and raw protein normalization remain unresolved. Histology lacks quantitative scoring, and no healthy-mixture or systematic toxicity/PK comparison establishes a window. These limits do not erase the source-reported histological protection or create a functional-respiratory/MVA benefit.
+
+Pointers: [YQHYJD qualification](yiqi-lung-qualification.md), [structured assessment](yiqi-lung-qualification.json).
+
+### n159 — PMID 24194906
+
+PMID 24194906 was fully main-text read by root with native Figures 2/3/7; partial polar-body extrusion/spindle-alignment benefit is directly qualified. Extrusion 21.8% to 53.3% at highest tested concentration versus 80.5% control; not full restoration. BubR1 kinetochore signal is relieved injury-associated localization, not increased total protein. No chromosome-count, lineage, offspring or MVA-muscle endpoint establishes faithful rescue; lowest-dose graph/text discrepancy remains. Already-read study parameters now documented: resveratrol 5/10/25 µM with 75 µM methylglyoxal in M2; GV damage/mitochondrial assays 6 h with 2.5 µM milrinone, MI 8.5 h, MII/PBE 12 h; 53.3% PBE belongs to 25 µM. Co-culture does not establish reversal after a separate 12 h insult.
+
+**Remaining scope:** Do not assign the study-wide regimen to Figure 7: its own BubR1 concentration/sampling time is unspecified. Preserve the lowest-dose plot/text conflict and absent chromosome-count, lineage, fertilization and offspring outcomes.
+
+Pointers: [resveratrol-qualification.md](resveratrol-qualification.md), [resveratrol-qualification.json](resveratrol-qualification.json).
+
+### n164 — PMID31405115
+
+Alpha-tocopherol was given for 24 hours before a further 24 hours with 10 µM Aβ in differentiated SH-SY5Y cells. Both 100 and 200 µM improved MTT signal versus Aβ alone (P<.0001 and P<.001 respectively), but remained below uninjured control (P<.001 and P<.0001). The 10/50 µM combinations were not significantly improved. No post-injury-only rescue arm was supplied.
+
+MTT was the only quantified viability assay. Orthogonal death/cell-count, neural-function and cell-free MTT interference controls were not supplied; missing controls do not prove an artifact. iNOS/Nrf2 staining is qualitative. At 100 µM, BUB1B RNA falls from 192.20 to 162.39 (listed log2−.24), without BUBR1 protein or checkpoint/fidelity evidence.
+
+**Remaining scope:** Preparation stereochemistry/vehicle and measured exposure remain unspecified. The RNA contrast lacks an uninjured reference and explicit expression units or exact gene q/P. These documented gaps constrain a genuine measured MTT improvement without inventing either confirmed cell survival or assay interference.
+
+The exact-name catalog layer returns TOCOFERSOLAN (CHEMBL2108106) and VITAMIN E (CHEMBL3989727). This ambiguous source-alias relation is preserved; it does not establish experimental-preparation identity, approval eligibility or efficacy.
+
+Pointers: [tocopherol-qualification.md](tocopherol-qualification.md), [tocopherol-qualification.json](tocopherol-qualification.json).
+
+### n182 — PMID26885717
+
+BAY-320/BAY-524 IC50s 680 ± 280/450 ± 60 nM come from insect-cell-expressed human Bub1 residues 704–1085 with synthetic peptide/TR-FRET at2 mM ATP. The WT/KD LAP-Bub1-H2A assay is separate at100 µM ATP. HeLa proliferation IC50s: BAY-320 4.0 ± 1.4 µM alone versus 0.67 ± 0.27 µM with 3 nM paclitaxel; BAY-524 8.1 ± 1.2 versus 0.64 ± 0.59 µM. Native table assay duration/n are not specified. Seven-day colony comparisons use 3 µM BAY-320 or 7/10 µM BAY-524 with 1–4 nM paclitaxel; relative RPE1 sparing depends on dose/endpoint. At 4 nM paclitaxel, native RPE1 combination bars show essentially all scored cells with severe errors. Formal 96 h Chou–Talalay synergy was tested for BAY-320 in HeLa/NCI-H1299, not BAY-524/RPE1. HeLa Z10 is above the CI≤0.8 cutoff; not every ratio is synergistic. BAY-320 panels provide 222 activity and 403 binding entries under specified conditions, with partial off-target effects and no BUB1B row; BAY-524 does not inherit these panels. No animal efficacy/PK/tolerability result or BUBR1 restoration is supplied.
+
+**Remaining scope:** No BAY animal efficacy/PK/tolerability or clinical window is supplied. BAY-524 lacks the broad panels and formal fixed-ratio synergy study; inhibitor-resistant target rescue and raw experiment-level combination uncertainty remain absent. These are documented limits, not a reason to repeat the now-answered study-level question.
+
+Pointers: [bay-bub1-qualification.md](bay-bub1-qualification.md), [bay-bub1-qualification.json](bay-bub1-qualification.json), [appraisal.md](appraisal.md).
+
+### n225 — PMID35624874
+
+Diclofenac sodium has measured cancer-cell microtubule/mitotic and autophagy-associated effects. The pancreatic combinations retain lower tetrazolium signals versus vehicle with1–2.5µM diclofenac plus5-FU over18h, including selected conditions with little single-agent effect; universal superiority over the stronger single agent and formal synergy are unestablished. There is no measured PK, normal-cell window, animal or BUB1B response experiment. Source-reported200µM half-maximal lethality is not a verified50%-viability concentration: Figure1G retains about75% signal, and Emax/effect normalization is undefined. The distinct18h Figure1G/6B curves also differ. These source conflicts leave the original potency/exposure component unresolved, despite substantial primary qualification.
+
+Pointers: [diclofenac qualification](diclofenac-qualification.md), [structured assessment](diclofenac-qualification.json).
+
+### n231 — PMID34124073
+
+PD166285 10 µM, Tocris 3785 matched to dihydrochloride; broad kinase activity rather than established selective WEE1/2 inhibition. Drug experiments use acute EML1 morpholino depletion in normal mouse oocytes, not drug treatment of the genetic-mutant animals. Continuous treatment from IVM start for 20 h or delayed addition after 14 h: early GVBD accelerates and both regimens reduce abnormal pronucleus formation. Continuous-drug normal-spindle comparison is NS; delayed treatment has P<.05 but most treated oocytes remain abnormal. BubR1 imaging and mutant fertility results are genetic-only; no drug-specific euploidy/fertility benefit is reported.
+
+**Remaining scope:** Resolve delayed 4 h versus 6 h exposure and morpholino-hold conflicts; normal drug-treated controls, drug-arm denominators and vehicle details remain missing, and drug-treated chromosome counts, fertilization, development or offspring were not supplied.
+
+Pointers: [eml1-qualification.md](eml1-qualification.md), [eml1-qualification.json](eml1-qualification.json).
+
+The resveratrol and bladder study-level exposure documentation gaps were closed from already-read primary sources. Resveratrol Figure 7-specific exposure remains unknown. EML1 moved from assigned/pending to direct qualification. The earlier BAY target-only account is replaced by the full compound-specific response qualification and corrected biochemical-assay attribution. None of these updates changes the original historical follow-up flags or creates another unique reading.
+
+## Remaining questions without an exact-source or published-counterpart qualification
+
+Nine records retain related evidence from a different experiment; five of those remain among the 31 questions without either qualification. Such related evidence never substitutes for the exact-source qualification.
+
+| Batch n / source | Why existing work does not close it | Bounded remaining question |
+|---|---|---|
+| [n9 / 29046878](https://pubmed.ncbi.nlm.nih.gov/29046878/) | No exact SKBR3/CENP-E combination qualification found. The existing lapatinib bladder study tests a different partner, tissue and endpoint. | Identify the CENP-E inhibitor and its lapatinib combination dose in SKBR3, then check normal-cell and in-vivo comparisons. |
+| [n14 / 32637030](https://pubmed.ncbi.nlm.nih.gov/32637030/) | No inspected qualification answers BI-D1870/vincristine exposures, specificity or normal-cell/animal comparisons. | Verify the BI-D1870/vincristine schedule, interaction model, normal-cell response and any actual animal arm. |
+| [n26 / 32555285](https://pubmed.ncbi.nlm.nih.gov/32555285/) | A WEE1 route or another WEE1 inhibitor is not source qualification of this AZD1775/olaparib TNBC experiment. | Extract arm-specific AZD1775/olaparib functional effects, exposure and normal-cell controls from this source. |
+| [n27 / 42045150](https://pubmed.ncbi.nlm.nih.gov/42045150/) | The ARTADI identities remain unspecified in the frozen annotation; no exact-source qualification found. | Identify the active ARTADIs and xenograft exposures, comparator conditions and toxicity measurements. |
+| [n79 / 22438244](https://pubmed.ncbi.nlm.nih.gov/22438244/) | SP600125 is qualified in A549 fungal injury and separate U2OS/BJ-Tert checkpoint experiments, not this TP53-dependent colon-xenograft study. | Verify TP53-stratified xenograft exposure, normal-tissue outcomes and residual killing after resistant-MPS1 rescue in PMID22438244. |
+| [n97 / 23899403](https://pubmed.ncbi.nlm.nih.gov/23899403/) | No exact synchronization-source qualification found. Thymidine use as a reagent does not establish supplementation or an in-vivo sensitizer. | Check thymidine synchronization/release timing, matched controls and any actual animal Taxol-resensitization arm. |
+| [n102 / 37935787](https://pubmed.ncbi.nlm.nih.gov/37935787/) | No qualified prespecified controlled subgroup analysis found; the two abstract pCR trends remain nonsignificant. | Check whether prespecified controlled analyses support MKS-high/ERS-low immunotherapy benefit beyond the P=.07 pCR trend. |
+| [n107 / 28035071](https://pubmed.ncbi.nlm.nih.gov/28035071/) | The unnamed kinase inhibitors have not been resolved by an exact-source qualification. | Identify the inhibitors/doses that reduce sarcoma invasion independently of cytotoxicity and any actual in-vivo confirmation. |
+| [n128 / 36031387](https://pubmed.ncbi.nlm.nih.gov/36031387/) | No exact Trip13/Plin2 qualification found; a genetic-depletion outcome does not resolve the separate paclitaxel exposure-response question. | Qualify paclitaxel dose-response, Plin2 dependence and normal-cell controls separately from Trip13 depletion. |
+| [n133 / 35302600](https://pubmed.ncbi.nlm.nih.gov/35302600/) | Existing BI2536 sources concern patient ciliogenesis or UBAP2L/other mitotic perturbations, not the uterine leiomyosarcoma monotherapy/combination animal arms. | Extract distinct BI-2536 monotherapy and prexasertib/cisplatin regimens, tumor effects, randomization and toxicity controls. |
+| [n183 / 18068629](https://pubmed.ncbi.nlm.nih.gov/18068629/) | No exact TGFBI-source qualification found; recombinant-protein cell sensitization is distinct from human tumor-staining correlation. | Extract recombinant TGFBI exposures and any actual in-vivo administered-protein controls, retaining the observational clinical boundary. |
+| [n184 / 42454028](https://pubmed.ncbi.nlm.nih.gov/42454028/) | No exact-source glycolysis-inhibitor identity/animal-arm qualification found. Other 2DG or lactylation studies cannot identify the unnamed interventions here. | Identify the actual glycolysis compounds and animal exposures, and separate their effects from LDHA knockdown. |
+| [n218 / 28337968](https://pubmed.ncbi.nlm.nih.gov/28337968/) | No exact-source post-MELK-null OTS167 qualification found; the abstract undermines target dependence while retaining drug activity. | Check actual OTS167 efficacy/selectivity and experimentally supported alternative targets after the MELK-null control; do not infer no anticancer activity. |
+| [n227 / 28147323](https://pubmed.ncbi.nlm.nih.gov/28147323/) | No exact-source OGG1 inhibitor identity or normalized radiosensitization qualification found. | Identify the OGG1 inhibitors and assess radiosensitization after baseline-toxicity normalization with normal-cell comparators. |
+| [n228 / 37894450](https://pubmed.ncbi.nlm.nih.gov/37894450/) | No exact C118P/ASCT2 qualification found; binding and cell response do not distinguish ASCT2 mediation from microtubule activity. | Check ASCT2-specific rescue/selectivity and arm-specific glutamine versus tubulin effects; do not infer an animal efficacy arm from a mouse cytokine assay. |
+| [n229 / 33584305](https://pubmed.ncbi.nlm.nih.gov/33584305/) | Existing BI2536 qualifications do not cover the gatastatin combination, exposure matching or formal interaction analysis. | Extract gatastatin/BI2536 doses, normal-cell comparisons and the quantitative combination model. |
+| [n271 / 23403633](https://pubmed.ncbi.nlm.nih.gov/23403633/) | No exact MLN8237 bladder-source qualification found; papilloma-derived RT4 cannot be treated as normal tissue. | Check schedule/dose, sequential-combination interaction statistics, RT4 response and actual normal/tolerability controls; keep the linked commentary unread unless separately reviewed. |
+| [n299 / 37242727](https://pubmed.ncbi.nlm.nih.gov/37242727/) | No exact durvalumab-cell-combination qualification found; cultured cancer-cell responses are not proof of patient immune potentiation. | Check cellular viability/interaction metrics, RB1 perturbation, antibody controls and exposure relevance. |
+| [n307 / 23940287](https://pubmed.ncbi.nlm.nih.gov/23940287/) | No exact MPS1-IN-3 glioblastoma qualification found; different MPS1 inhibitors cannot close the compound-specific survival and toxicity question. | Qualify dose/brain exposure, selectivity, single-agent controls and measured toxicity for the small orthotopic combination-survival study. |
+| [n320 / 33804489](https://pubmed.ncbi.nlm.nih.gov/33804489/) | Existing GSK923295 qualification is a LIC-depletion HeLaM structural counterexample, not the medulloblastoma/normal-neural-progenitor comparison. | Qualify medulloblastoma dose/time, target engagement and matched normal neural-progenitor response; retain antitumor activity and do not extrapolate the HeLaM result. |
+| [n336 / 21179037](https://pubmed.ncbi.nlm.nih.gov/21179037/) | No exact PBOX-15/TRAIL qualification found; primary patient cells are ex vivo, not a treated clinical cohort. | Extract compound/protein doses, primary-cell denominators, normal-cell window and quantitative interaction analysis. |
+| [n344 / 39668392](https://pubmed.ncbi.nlm.nih.gov/39668392/) | Compound-9 remains chemically unresolved in the current package; target or numbering similarity cannot join it to an existing MPS1 compound. | Resolve chemical identity/exposure and target-selectivity evidence, retaining both sensitive and resistant gastric lines and normal controls. |
+| [n358 / 36190432](https://pubmed.ncbi.nlm.nih.gov/36190432/) | No exact siHIF2 formulation/trial qualification found; the highlighted responder does not resolve the full phase1 denominator, durability or safety. | Extract RNA formulation/dose, resistant-mutant coverage, full trial denominator, response durability and safety; keep PT2399 and belzutifan distinct. |
+| [n400 / 36380369](https://pubmed.ncbi.nlm.nih.gov/36380369/) | No exact M2I-1 drug-arm qualification found; genetic SGOL2 animal benefit cannot be assigned to the compound. | Separate M2I-1 exposure/model arms from genetic animal experiments and inspect selectivity/normal-cell fidelity; linked preprint content remains unreviewed here. |
+| [n458 / 21242994](https://pubmed.ncbi.nlm.nih.gov/21242994/) | No exact LBH589/ATLL qualification found; existing generic HDAC evidence is not this primary-cell/mouse result. | Extract dose, mouse tumor/toxicity controls and primary-cell selectivity while preserving RAIDD/caspase2 support and p53/death-receptor nulls. |
+| [n464 / 33553272](https://pubmed.ncbi.nlm.nih.gov/33553272/) | No exact PDA-66/PDA-377 qualification found; one derivative’s cell activity does not establish efficacy of the series. | Check structures, matched exposures, normal-cell controls and direct microtubule evidence separately for each derivative. |
+| [n478 / 19927127](https://pubmed.ncbi.nlm.nih.gov/19927127/) | No actual-NUAK1-inhibitor functional qualification found. The flagged paper is genetic lifespan/ploidy evidence and does not supply the requested administered-compound bridge. | Determine whether an actual NUAK1 inhibitor reproduces genetic fibroblast lifespan/ploidy effects with LATS1 dependence and preserved usable function; this would require separate evidence. |
+| [n508 / 36204232](https://pubmed.ncbi.nlm.nih.gov/36204232/) | No exact masitinib-validation qualification found; computational co-nominations are not equally validated drugs. | Extract masitinib exposure, cell models, target/normal-cell controls, and maintain separation from the other docking-only nominations. |
+| [n531 / 21755010](https://pubmed.ncbi.nlm.nih.gov/21755010/) | No exact 6-OAP myeloma/PK qualification found; a generic bortezomib appraisal cannot supply combination-specific or 6-OAP single-agent animal evidence. | Qualify 6-OAP identity, exposure, mouse tumor units, normal-cell controls, rat PK and in-vitro bortezomib interaction separately. |
+
+### n390 — PMID31477687
+
+The exact LiCl salt was applied at a nominal 20 mM for three days to adult mouse optic-nerve cultures. Morphology and GFAP-EGFP-positive counts changed, but direct division, survival and useful neuronal-support function were not demonstrated. All three exact Bub1b probes have lower processed signals in the four lithium arrays versus four controls. Native calls qualify the result: one probe is absent in all arrays and another has an absent lithium sample. These are lower processed signals, not a validated RNA-abundance decrease or reproduced differential-expression P/FDR, BUBR1 protein or checkpoint result. Existing oocyte/checkpoint observations remain separate.
+
+The source also actually administered BAPN (dose missing), pioglitazone (printed 1 mM) and a nominal 3 µM source-labelled methyl-epicatechin preparation. Their reporter-count/morphology positives are separate from LiCl RNA; no formal lithium equivalence or functional rescue was tested. Automatic flavonoid matching is withheld because current normalization conflates 3′-O with 3-O methyl positions, and Methods/Results preparation names differ.
+
+**Remaining source components:** mouse background, donor/nerve/array pooling, cRNA input and measured tissue exposure are unresolved. Counts do not isolate proliferation from survival or reporter detectability. The source remains one study, and Table 1’s other computational nominations do not become tested agents.
+
+Pointers: [lithium astrocyte qualification](lithium-astrocyte-qualification.md), [structured assessment](lithium-astrocyte-qualification.json), [targeted descriptive expression](lithium-astrocyte-expression.json).
+
+### n418 — PMID37237379
+
+All-trans retinoic acid has a direct culture TEER comparison during mouse ESC-D3-derived barrier-model induction: about 350–400 Ω cm² by day 7 versus 60–100 without RA over 11 days, with three independent differentiations and no panel-specific P value. This is a supportive multicomponent differentiation regimen, not injured-barrier repair. Optimized tracer/antibody transport belongs to the completed model, without an isolated RA transport comparison. Mixed endothelial–epithelial/choroid-plexus-like identity remains explicit.
+
+**Remaining source components:** native initial Methods prints 10 mM while the same-page diagram and later stages specify 10 µM; schematic/prose days and density optimum also conflict. Solvent controls, concentration validation and replicate/statistical details remain bounded. BUB1B belongs to an upregulated pathway in a cross-model comparison, not a measured RA response, BUBR1 restoration or MVA outcome. Tretinoin is a verified molecular synonym only, without product/approval/exposure inheritance.
+
+Pointers: [retinoic barrier qualification](retinoic-barrier-qualification.md), [structured assessment](retinoic-barrier-qualification.json).
+
+### n64 — PMID38539170
+
+Healthy-culture PDLSC-conditioned medium improves ALP, calcium, osteogenic-marker proteins and14day mineralization in LPS-treated human periodontal cells. The native RNA table also records BUB1B LPS+CM/LPS=2.642037, with CM-alone/control=0.705636. This is actual preparation-associated normal-cell function and bulk RNA response, not merely a predicted candidate list.
+
+The whole preparation remains incompletely defined. No isolated constituent is administered or shown causal, no ordinary compound/medicine identity is supported, and no ledger/catalog change is proposed. RNA-derived BUB1B network connections do not measure BubR1 protein or function. Protein-table identity scans found no matching entry, which is not a validated biological null.
+
+**Remaining source components:** active constituent/standardized dose, replicate/sample and per-gene statistics, cell-cycle composition and beyond-culture efficacy remain unresolved. Calcium methods/figure units conflict. No BubR1 supply, checkpoint fidelity, clinical benefit or nominee superiority is established, and the full original composite question remains partially unanswered.
+
+Pointers: [PDLSC secretome qualification](pdls-secretome-qualification.md), [structured qualification](pdls-secretome-qualification.json), [exact targeted expression](pdls-secretome-expression.json).
+
+## Related evidence that must stay in its original context
+
+- n9 / PMID29046878: [bladder-qualification.md](bladder-qualification.md) — Different lapatinib bladder prevention experiment; does not resolve SKBR3/CENP-E combination.
+- n52 / PMID22280307: [gemini-cur-qualification.md](gemini-cur-qualification.md) — Nanoparticle HCT-116 experiment and free-curcumin comparator do not qualify Cdc27-dependent selectivity.
+- n64 / PMID38539170: [catalog-independent-review.md](catalog-independent-review.md) — Different aged-oocyte secretome/BDNF/7,8-DHF evidence, not periodontal conditioned medium.
+- n79 / PMID22438244: [mapk-injury-qualification.md](mapk-injury-qualification.md) — Separate checkpoint specificity supports context, not TP53 xenograft exposure/window.
+- n133 / PMID35302600: [intervention-qualification.md](intervention-qualification.md) — BI2536 UBAP2L experiment differs from leiomyosarcoma animal arms.
+- n164 / PMID31405115: [translation-qualification.md](translation-qualification.md) — DL-alpha-tocopherol co-comparator in aged oocytes; not the Aβ model or an interchangeable stereochemical/formulation claim.
+- n229 / PMID33584305: [intervention-qualification.md](intervention-qualification.md) — Different BI2536 experiment, not gatastatin combination.
+- n320 / PMID33804489: [intervention-identity-followup.md](intervention-identity-followup.md) — LIC-depletion HeLaM experiment, not medulloblastoma neural-cell window.
+- n390 / PMID31477687: [catalog-independent-review.md](catalog-independent-review.md) — LiCl/Axin1 oocyte experiment, not lithium astrocyte response.
+
+## Provenance and preservation
+
+The JSON preserves all 47 original questions verbatim, record/abstract hashes, source pointers/hashes, relevant decision IDs, exact answered components and bounded remaining questions. Historical version/notice limits stay attached: PPR918452 links PMID41120338 by title/first-author matching; PMID35302600 links PPR440054; PMID23403633 links commentary23459035; PMID36380369 links PPR525543. Metadata links do not constitute reading, authenticated version equivalence or independent-study credit.
+
+This reconciliation maps separately attributed primary qualifications to the original questions. It does not turn cross-model pathway membership into a drug response or genetic rescue into drug efficacy. Only n401 changes in this update; all other 46 record objects and all 47 original questions/flags are preserved. Prior source qualifications and reading scopes remain unchanged; this integration adds no scientific reading credit. The earlier n85 published-counterpart update and its preprint limits remain in the historical record.
+
+The previous reconciliation is preserved by its immutable parent revision `572f3e460dff7880e6030db4143512bb79194abc`. The current 271-appraisal checkpoint and direct source pointers are recorded in the companion JSON. Earlier 212/216/268-appraisal provenance remains historical rather than current ledger coverage.
+
+## Newly qualified n122
+
+The exact source qualifies E,E-farnesol partial CENP-F localization rescue, dose-specific geranylgeraniol evidence and zoledronic-acid/clodronate comparisons. Neither BUBR1 nor completed segregation rescue was measured.
+
+Source-confirmed trans,trans/(E,E)-farnesol at 50/100 µM concurrently with 25 µM zoledronic acid for 48 h raised localized-cell fractions from 16.7% to 49.2%/60.0%, reported P<.01; native Figure 6A supports partial rescue, not full normalization.
+
+**Remaining scope:** Quantitative cancer-versus-normal viability and chromosome outcomes remain unavailable; MCF-10A and apoptosis nulls and 150 µM GGOH reversal are data not shown. Farnesol correction of segregation and useful normal-cell function is untested.
+
+Pointers: [primary qualification](zoledronate-cenpf-qualification.md), [structured evidence](zoledronate-cenpf-qualification.json).
+
+## Newly qualified n340
+
+The exact ethanol-extracted n-butanol fraction KT-NB has cancer-culture growth inhibition and mitotic defects. WI-38 is relatively spared but affected. Preparation composition and source reporting conflicts remain unresolved; no BUB1B/BubR1 response was measured.
+
+Author Leu collected and identified the plant. Ethanol extraction followed by water/chloroform/n-butanol partition yielded KT-NB, the only assayed fraction. This is not a household plant, tea, juice or single-molecule exposure.
+
+**Remaining scope:** Plant part/voucher, chemical composition and active-content standardization remain unknown; S1 doses/time normalization and Figure 4/7 denominators are unresolved. No isolated constituent, causal target or useful normal-cell/MVA rescue is established.
+
+Pointers: [primary qualification](kalanchoe-mitosis-qualification.md), [structured evidence](kalanchoe-mitosis-qualification.json).
+
+## n85 — published counterpart qualified; original preprint unverified
+
+The accessible published counterpart qualifies exact drug identities and restricted RPE-1 chromosome-congression positives for centrinone, MLN8054 and TCS7010, with a separate short-exposure alisertib null. The original flagged preprint full text/version remains unverified; later faithful daughter-cell yield is not established.
+
+Native Fig4f values average 7.026 polar chromosomes with DMSO versus 3.553 with MLN8054 and 3.857 with TCS7010, with source Tukey P=1.77e-7 and 4.39e-6. Alisertib 125 nM/30 min is a scoped null (5.5; P=.117), not an all-exposure negative.
+
+**Remaining scope:** Authenticate/read the original preprint version if claiming its text was qualified. For the published experiments, resolve pooled MLN8054 dose assignment and genetic-assay schedule conflicts, and measure whole-starting-population completed chromosome fidelity and useful function.
+
+Pointers: [published-source qualification](cenpe-feedback-qualification.md), [structured evidence](cenpe-feedback-qualification.json), [descriptive source-data summary](cenpe-feedback-data.json).

@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "source": "NIH Office of Dietary Supplements DSLD ingredient groups",
+  "source_api_url": "https://api.ods.od.nih.gov/dsld/v9/ingredient-groups/",
+  "official_documentation_url": "https://dsldapi.od.nih.gov/",
+  "official_guide_url": "https://dsld.od.nih.gov/api-guide",
+  "retrieval_date": "2026-09-23",
+  "api_version": {
+    "title": "DSLD API",
+    "config": "production",
+    "version": "9.5.0",
+    "versionTimeStamp": "May 2026",
+    "esIndexProcessed": "dsldnxt_labels-2025-09-25n and dsldnxt_ing_groups-2025-09-25n"
+  },
+  "partitions": [
+    {
+      "partition": "A",
+      "declared_exact_total": 502,
+      "retrieved_rows": 502,
+      "responses": 1
+    },
+    {
+      "partition": "B",
+      "declared_exact_total": 484,
+      "retrieved_rows": 484,
+      "responses": 1
+    },
+    {
+      "partition": "C",
+      "declared_exact_total": 838,
+      "retrieved_rows": 838,
+      "responses": 1
+    },
+    {
+      "partition": "D",
+      "declared_exact_total": 222,
+      "retrieved_rows": 222,
+      "responses": 1
+    },
+    {
+      "partition": "E",
+      "declared_exact_total": 233,
+      "retrieved_rows": 233,
+      "responses": 1
+    },
+    {
+      "partition": "F",
+      "declared_exact_total": 198,
+      "retrieved_rows": 198,
+      "responses": 1
+    },
+    {
+      "partition": "G",
+      "declared_exact_total": 358,
+      "retrieved_rows": 358,
+      "responses": 1
+    },
+    {
+      "partition": "H",
+      "declared_exact_total": 217,
+      "retrieved_rows": 217,
+      "responses": 1
+    },
+    {
+      "partition": "I",
+      "declared_exact_total": 149,
+      "retrieved_rows": 149,
+      "responses": 1
+    },
+    {
+      "partition": "J",
+      "declared_exact_total": 56,
+      "retrieved_rows": 56,
+      "responses": 1
+    },
+    {
+      "partition": "K",
+      "declared_exact_total": 71,
+      "retrieved_rows": 71,
+      "responses": 1
+    },
+    {
+      "partition": "L",
+      "declared_exact_total": 295,
+      "retrieved_rows": 295,
+      "responses": 1
+    },
+    {
+      "partition": "M",
+      "declared_exact_total": 345,
+      "retrieved_rows": 345,
+      "responses": 1
+    },
+    {
+      "partition": "N",
+      "declared_exact_total": 119,
+      "retrieved_rows": 119,
+      "responses": 1
+    },
+    {
+      "partition": "O",
+      "declared_exact_total": 123,
+      "retrieved_rows": 123,
+      "responses": 1
+    },
+    {
+      "partition": "P",
+      "declared_exact_total": 606,
+      "retrieved_rows": 606,
+      "responses": 1
+    },
+    {
+      "partition": "Q",
+      "declared_exact_total": 17,
+      "retrieved_rows": 17,
+      "responses": 1
+    },
+    {
+      "partition": "R",
+      "declared_exact_total": 174,
+      "retrieved_rows": 174,
+      "responses": 1
+    },
+    {
+      "partition": "S",
+      "declared_exact_total": 581,
+      "retrieved_rows": 581,
+      "responses": 1
+    },
+    {
+      "partition": "T",
+      "declared_exact_total": 284,
+      "retrieved_rows": 284,
+      "responses": 1
+    },
+    {
+      "partition": "U",
+      "declared_exact_total": 26,
+      "retrieved_rows": 26,
+      "responses": 1
+    },
+    {
+      "partition": "V",
+      "declared_exact_total": 254,
+      "retrieved_rows": 254,
+      "responses": 1
+    },
+    {
+      "partition": "W",
+      "declared_exact_total": 105,
+      "retrieved_rows": 105,
+      "responses": 1
+    },
+    {
+      "partition": "X",
+      "declared_exact_total": 18,
+      "retrieved_rows": 18,
+      "responses": 1
+    },
+    {
+      "partition": "Y",
+      "declared_exact_total": 36,
+      "retrieved_rows": 36,
+      "responses": 1
+    },
+    {
+      "partition": "Z",
+      "declared_exact_total": 28,
+      "retrieved_rows": 28,
+      "responses": 1
+    },
+    {
+      "partition": "Other",
+      "declared_exact_total": 128,
+      "retrieved_rows": 128,
+      "responses": 1
+    }
+  ],
+  "counts": {
+    "source_partitions": 27,
+    "source_groups": 6467,
+    "distinct_source_group_ids": 6467,
+    "synonym_cells": 78788,
+    "group_name_cells": 6467,
+    "all_source_alias_cells": 85255,
+    "distinct_nonempty_normalized_aliases": 69707,
+    "normalized_aliases_shared_across_groups": 6228,
+    "corpus_source_records": 7362,
+    "corpus_nonempty_saved_abstracts": 7191,
+    "corpus_without_saved_abstract": 171,
+    "groups_with_any_lexical_match": 1143,
+    "groups_without_lexical_match": 5324,
+    "matched_normalized_aliases": 1025,
+    "matched_source_records": 6578,
+    "group_alias_record_mentions": 41496,
+    "unflagged_group_alias_record_mentions": 1077,
+    "unflagged_matched_source_records": 774,
+    "groups_with_unflagged_lexical_match": 371,
+    "direct_gene_group_alias_record_mentions": 9334,
+    "unflagged_direct_gene_mentions": 177,
+    "name_crossref_rows": 6869,
+    "groups_with_name_crossref_by_layer": {
+      "main_catalog": 1121,
+      "status_unverified": 43,
+      "FDA_food": 545,
+      "curated_appraisal": 114
+    },
+    "crossref_rows_by_layer": {
+      "status_unverified": 88,
+      "main_catalog": 5161,
+      "curated_appraisal": 140,
+      "FDA_food": 1480
+    },
+    "target_inventory": {
+      "main_catalog_rows": 14882,
+      "main_catalog_alias_cells": 156295,
+      "status_unverified_rows": 475,
+      "FDA_food_source_rows": 3971,
+      "appraisals": 282
+    },
+    "automatic_manual_abstract_reads": 0,
+    "automatic_primary_reads": 0,
+    "automatic_new_appraisals": 0
+  },
+  "mention_ambiguity_flag_counts": {
+    "short_alias_3_or_fewer_characters": 4987,
+    "manual_common_or_class_term": 30374,
+    "adjacent_hyphen_may_be_derivative_or_compound_phrase": 7680,
+    "alias_shared_across_DSLD_groups": 29443
+  },
+  "metadata_anomalies": {
+    "distinct_raw_group_names": 6080,
+    "raw_group_names_shared_by_multiple_IDs": 368,
+    "group_IDs_in_raw_duplicate_name_sets": 755,
+    "duplicate_synonym_cells_within_group": 0,
+    "category_cell_counts_preserving_JSON_type_and_case": {
+      "\"botanical\"": 2294,
+      "\"Botanical\"": 324,
+      "\"non-nutrient/non-botanical\"": 1724,
+      "null": 592,
+      "\"amino acid\"": 52,
+      "\"fiber\"": 75,
+      "\"other\"": 843,
+      "\"fat\"": 154,
+      "\"animal part or source\"": 258,
+      "\"complex carbohydrate\"": 48,
+      "\"protein\"": 117,
+      "\"bacteria\"": 124,
+      "\"hormone\"": 21,
+      "\"enzyme\"": 98,
+      "\"fatty acid\"": 74,
+      "\"sugar\"": 31,
+      "\"vitamin\"": 186,
+      "\"mineral\"": 44
+    },
+    "JSON_null_category_cells": 592,
+    "literal_string_null_category_cells": 0,
+    "category_case_variants": {
+      "botanical": [
+        "Botanical",
+        "botanical"
+      ]
+    },
+    "groups_with_empty_synonym_list": 199,
+    "empty_synonym_cells": [
+      "dsld:2605:synonym:0"
+    ],
+    "empty_normalized_alias_cells": 1,
+    "raw_duplicate_cells_including_group_name_repetitions": 124,
+    "within_group_normalization_collision_cells": 7971,
+    "all_nutrient_info_empty": true,
+    "documentation_version": "9.4.0 in saved API HTML; live before/after API version9.5.0",
+    "guide_visible_extraction": "Existing api-guide-visible.txt is empty; it was not treated as reviewed guide prose.",
+    "snapshot_limit": "27 API partitions are separately retrieved, not a transactional database snapshot; version equality does not prove no in-place changes."
+  },
+  "documentation_sha256": {
+    "api-doc.html": "ef585ac96397d12886420a88fd9f0359d4d111707e9525f9c3385ec2431dbae7",
+    "api-guide.html": "0bdcac91501acffef2c801195294cafacaf4400e4a9c149cfb5225eeaabffd39",
+    "retrieval.json": "13ea2338ed02de9b026ac60e600e241976e86afe5ea0dde2a851af3b122e816e"
+  },
+  "input_sha256": {
+    "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/build_dsld_inventory.py": "2235a9d8189a7b81316f818f12a3bd278353e5ab30371beb3c0538f7d25115dd",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/retrieval-manifest.json": "28409b93b597b4fc1633a47646c188fb530b1250b4a479f0324952cdaf911ad3",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/version-before.json": "25c3fd919273bd2b7d9a51c1c22aa1159e6256b8a0274602d7285414a045861c",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/version-after.json": "25c3fd919273bd2b7d9a51c1c22aa1159e6256b8a0274602d7285414a045861c",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-A-00000.json": "04fdeedc9908034ee48f55201c4f459f23f1eaaf6dc0ab334c7a242b48123e94",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-B-00000.json": "1213ce61487682c5debbdda3677af36a99b66d5fbe61757a76863ad3bb4afd27",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-C-00000.json": "cb4696e079937e9f44454ffb12e1ccb0579d0bb296458bef89576a5110fd4db2",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-D-00000.json": "d752052f80fb54e7b661e69b58a81496c6d317b188e4d4bcda9337e28c0b9bca",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-E-00000.json": "3544554cb6ec80a5423b2411dd3dd59d8ba4beae8bc6d7022cb4cceb6f8d038f",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-F-00000.json": "b97fc4e62888502cf753e883d5e04abc579a3356535362e465f60b42347bf407",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-G-00000.json": "ab60158cae426964e51506eb12d0846aa2ab8f92e0b4cbeeb42aaa57dd7d7d50",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-H-00000.json": "50e2b72714f48e71e57f1953ac8e5687f8cdc08c156ace5c15e69b900c849b79",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-I-00000.json": "23f051551b9ebd66fa203140ae4d69db1020eee3dfbc1ca33551d874cc596544",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-J-00000.json": "0086bb3c388e76ebd246f693b9cb41b75ba0a976b675652015e410b38d825168",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-K-00000.json": "fb7d0582dbabddd71f3baf0daed6b21004688ca79540d2d424dde33ac4c22171",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-L-00000.json": "50e9a4dca429359c006b18c109f4876a6a74bfa70d70af858f740aea899a59f5",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-M-00000.json": "aa124952de9bb06bb022468f96937dc848a9fd4a3ad06f71007e4a8f2373a85e",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-N-00000.json": "7f2d6276195d126afcc7b54b980fe787092513d0d9d0eeb1fa562ed2130e70d3",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-O-00000.json": "eace98e91ab7ef5d8aa112a92fbed9122b0b818d9e40da2c1a46df09a477d2c3",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-P-00000.json": "9f0bb75e3faf48154fabb3815e3b123b76946307ae863bb80ae5061e1e0ff338",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-Q-00000.json": "94e27d35eacfb034523538b3d3abee538189bfed7d7c6806f32ea870a0328274",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-R-00000.json": "9eb62906872cb6e3c04457247a31f7614a65e5f5c1e911c6f4ecc9ec5863cfed",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-S-00000.json": "dbf956e9b7c72d9874446bc44cef414aa9d2b48df70945b7cf3592c1a234c61a",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-T-00000.json": "b1bd66fc9c6b8dab72768bbf4b85d107b4866f01cd05aa99ade6eb8c075b9037",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-U-00000.json": "a6641c39872a530a5b94ef1471695ef6b1b5b60a7e3d9af6d1e9fddd773585cd",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-V-00000.json": "06492373fe3831ae874f162f60b53eb9e8a3ed7a3ae17f9865d52b7122dd9ae3",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-W-00000.json": "def4a62efd8a1c512518bdace5fd6b8049fb33dfae37b6ae2002e0d17488c1b0",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-X-00000.json": "b40a0f1bfb58edc6ebcaa3eb497a8d0a87bedab5f32b3bd5e7b31303cf737f11",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-Y-00000.json": "d951d17ae01a290c7a82f38983dbc25b8275ed274428fdf128934385354fb7cf",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-Z-00000.json": "d06f4ced24c2f1b1a511fbf95f5f0c45f1a59eb928659cb15766ef3641c5728c",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/raw/groups-Other-00000.json": "bb1c17ddc38f2c7d01efdb5e3bcc15192f439e7b96cff4a7c9f27af22bad3952",
+    "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/broad_hub_screen.py": "e68a4be2aace30846e9b5ae27a66463336d2671a5701246ad25323ff3d8b4dac",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/api-doc.html": "ef585ac96397d12886420a88fd9f0359d4d111707e9525f9c3385ec2431dbae7",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/api-guide.html": "0bdcac91501acffef2c801195294cafacaf4400e4a9c149cfb5225eeaabffd39",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/supplement-ingredients-20260923/retrieval.json": "13ea2338ed02de9b026ac60e600e241976e86afe5ea0dde2a851af3b122e816e",
+    "/Users/jeweled/mva-hackathon/track2-drug-census-work/literature-gene-unrestricted.json": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+    "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/catalog.tsv": "c023c15413f7bee058caf95472a6444bcd61d8e2e7c72f79c7600b5365b3a299",
+    "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/aliases.tsv": "99dbdb296d902fe5c3c1c191d60dc3825957f6f66dd88f27129e5910ef825df3",
+    "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/drugcentral-status-unverified.tsv": "10e227cf35b49bf07e7d28f86afee12e0ebd88335a4090275b21339396db372f",
+    "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/food-substances/substances.tsv": "e8615fe5fa87a44fe10456b0a64c0dca427b3e1c732e668c8ed510224e5e074b",
+    "/Users/jeweled/mva-hackathon/artifacts/source-revalidation-20260922/repo/workflow/track2-drug-census/decisions.json": "610c5999271bd9a6ee41f6f5e3b9520e9713608c3d31570e2f6793e6176044bc"
+  },
+  "policy": "screen-policy.json",
+  "limitations": [
+    "Ingredient groups are not unique molecules, product labels, currently available products or verified medicines.",
+    "Source synonym grouping is not independently verified chemical identity.",
+    "Co-mentions can be endogenous, reagents, derivatives, harms, genetic contexts or background. No intervention/efficacy role is adjudicated here.",
+    "Unflagged means no listed lexical flag, not specific or beneficial by manual review.",
+    "Absence of a hit is unknown, not absence of biological activity.",
+    "Catalog/FDA/appraisal names are cross-references, not regulatory status, source equivalence or transfer of previous efficacy.",
+    "No current product, dose, supplier, availability or label inventory was retrieved."
+  ],
+  "publication": "All output files in one immutable run; current is switched atomically only after input hash recheck. Consumers should resolve current once and verify hashes; historical runs remain intact.",
+  "output_sha256": {
+    "alias-cells.tsv": "5b1c320acee2615925186f8cd4587a39d4207674107e21d2f9fe2eb1825f5641",
+    "groups.tsv": "e7c5b615809c892e6783f912421b332342ac3c6e553c232f403fec0c01444749",
+    "mentions.tsv": "eabe69f574125d0d97031683d72cf950f50087fb23c3375afeea7c4e89a356fc",
+    "metadata-anomalies.json": "f37e32200fb22a4d498199bb21e94ecaeba95543cc0284a380843e169507ec07",
+    "name-crossrefs.tsv": "9bff6ba18c10a1cec28aca6e3f370e925d4d9bcc4fb416106b807dde710494e0",
+    "normalized-aliases.tsv": "1c73e968134b907167ca212586630dd5e68d8a054eb069d2c27401accbde50c7",
+    "screen-policy.json": "9c464112836030aed935bab95912d3b67ea8aa7f39e37f7611ffbf919555a81b",
+    "source-records.tsv": "453b4035a5cac444046d81275a30d6d309acfe4958456363440bf642a817295d"
+  }
+}

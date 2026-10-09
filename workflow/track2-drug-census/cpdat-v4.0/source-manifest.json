@@ -1,0 +1,57 @@
+{
+  "target_corpus": "BUB1B/BUBR1 Europe PMC corpus frozen 2026-09-21",
+  "target_corpus_sha256": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+  "decision_ledger_sha256": "b3802bba5a4a2aee7165511f8dcbff945d12808ef45515902d535a5616f66b5e",
+  "decision_ledger_count": 289,
+  "screening_script": "workflow/track2-drug-census/build_cpdat_bub1b_screen.py",
+  "screening_script_sha256": "beacd5c63fa1b7467c09e300ce4ed7ded9b41b833347ea781b7669851fcda7a3",
+  "schema_version": 1,
+  "retrieval_date": "2026-09-28",
+  "source": "US EPA Chemical and Products Database (CPDat) v4.0, Figshare version 5",
+  "source_doi": "https://doi.org/10.23645/epacomptox.5352997",
+  "file_url": "https://ndownloader.figshare.com/files/53538266",
+  "license": "CC0",
+  "archive_bytes": 106473580,
+  "archive_sha256": "53cd5b49210a6f3790be0c33485654de7461b4d1fdeea9fdc312668c82e93d15",
+  "puc_kind": "Formulation",
+  "output_table": "consumer-formulations.tsv",
+  "product_identity_basis": "cpdat_product_id",
+  "outputs": [
+    {
+      "path": "README.md",
+      "bytes": 3821,
+      "sha256": "89db40187b8f55bb14bd9ac0477208cff63d704aed86ef2fd4767a102d574307"
+    },
+    {
+      "path": "consumer-formulations.tsv",
+      "bytes": 2846729,
+      "sha256": "bc04edf6f575d389b7b5ffe2205c34fa445bf80f1bb004dade58bf0eb063c233"
+    },
+    {
+      "path": "product-category-summary.tsv",
+      "bytes": 686,
+      "sha256": "05192ca9d00595efcebff929b09cb7b0dad68231a02127ada955ff098ca2cc09"
+    },
+    {
+      "path": "bub1b-exact-name-co-mentions.tsv",
+      "bytes": 368828,
+      "sha256": "5be4a8d550af90853134fc9353a486f7ae9e0d764c1c76e83de2c3ef320922c5"
+    },
+    {
+      "path": "screen-summary.json",
+      "bytes": 2901,
+      "sha256": "27dec0e380c0c7e61a6c13052eba7a80513a197295bbf273de2f3e70decd3bf7"
+    },
+    {
+      "path": "bisphenol-a-consumer-exposure-qualification.md",
+      "bytes": 3114,
+      "sha256": "e3905441f5396b7ea74a4592fa67efaaa5f417a82eb05a3af4b169545e7b5b5f"
+    },
+    {
+      "path": "bisphenol-a-consumer-exposure-qualification.json",
+      "bytes": 3521,
+      "sha256": "a58b1b9cc38d461c85edb29f3efa84abbc6e95580f73e00d4c226cab46c29d27"
+    }
+  ],
+  "scope_limit": "Dated formulation-only consumer-product discovery overlay. Exact-name co-mentions are not efficacy, current availability or exposure evidence."
+}

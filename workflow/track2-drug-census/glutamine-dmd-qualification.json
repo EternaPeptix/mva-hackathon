@@ -1,0 +1,544 @@
+{
+  "schema_version": "glutamine-dmd-portable-qualification-v1",
+  "status": "ACCEPTED_SOURCE_PORTABLE_SYNTHESIS_PROPOSED",
+  "existing_decision_id": "new-glutamine-source-dmd",
+  "source_qualification": {
+    "schema_version": "glutamine-dmd-primary-v1",
+    "status": "SOURCE_QUALIFIED_PENDING_INDEPENDENT_REVIEW",
+    "date": "2026-09-27",
+    "scope": "One controlled crossover report, PMID19421321, plus its linked supporting documents/current registry. Not a whole-glutamine review.",
+    "existing_decision_id": "new-glutamine-source-dmd",
+    "exact_prior_decision": {
+      "decision_id": "new-glutamine-source-dmd",
+      "match_aliases": [
+        "glutamine"
+      ],
+      "route": "Source-labelled glutamine / pediatric DMD strength-null comparator",
+      "disposition": "retain bounded administered-null comparison; no general glutamine inefficacy or BUB1B/MVA benefit established",
+      "evidence_scope": "Complete original PMID15984021 abstract and current linked NCT00016653 protocol read. Full scientific main, native figures/tables, supplements and numerical secondary/safety results not accessed. Same trial already covered for creatine, with zero extra study/outer credit.",
+      "bub1b_variant_efficacy": "Not established for Leu737Ter/Asn1002Lys",
+      "rationale": "The six-month randomized double-blind CINRG trial administered glutamine0.6g/kg/day separately from creatine and placebo. Its abstract reports no significant primary manual/quantitative strength effect of either treatment, alongside qualitative tolerability. It does not establish the individual secondary timed-function or pulmonary results, and “cannot be excluded” subgroup language is not a proven benefit. The linked registry supports oral administration and a study-wide hot-cocoa/water-mixed preparation, but has enrollment48 versus publication50 and no posted results. Retain this real administered comparison without interpreting a nonsignificant result as proof of equivalence or extending it to other preparations/conditions.",
+      "source_report": "workflow/track2-drug-census/creatine-muscle-qualification.md",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/15984021/",
+        "https://clinicaltrials.gov/study/NCT00016653"
+      ],
+      "identity_limit": "Source label glutamine does not specify stereochemistry, manufacturer, purity or product. Exact generic-name relation to CHEMBL930 and NIH DSLD75 is not verification of the catalog’s stereodefined L-glutamine preparation or availability; no L-glutamine/product aliases proposed."
+    },
+    "baseline": {
+      "revision": "c61fc0877a0ffd6d8686cd2602d877281b84e06c",
+      "entry_count": 276,
+      "ledger_bytes": 488147,
+      "ledger_sha256": "01795ea854d8d19d0ae36779b8bc408d093020a5ab85ff9e0f9a8df4087795f4",
+      "repo_relative": "workflow/track2-drug-census/decisions.json",
+      "worktree_status_read_only": ""
+    },
+    "aliases_to_preserve": [
+      "glutamine"
+    ],
+    "new_duplicate_decision": false,
+    "source": {
+      "pmid": "19421321",
+      "pmcid": "PMC2673684",
+      "doi": "10.1371/journal.pone.0005448",
+      "title": "Lack of functional benefit with glutamine versus placebo in Duchenne muscular dystrophy: a randomized crossover trial.",
+      "publication": "PLoS One 2009;4(5):e5448",
+      "publication_date": "2009-05-06",
+      "registry": "NCT00296621",
+      "main_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0005448",
+      "primary_pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0005448&type=printable"
+    },
+    "discovery": {
+      "batch": "outcome-first-eligibility-batch02-20260927",
+      "order": 11,
+      "selection": "Predeclared design/administration/function lexical ordering with retained whole queue; no outcome-direction selection.",
+      "source_id_unit": "MED:19421321",
+      "no_whole_corpus_or_original_gene_queue_reading_credit": true
+    },
+    "design": {
+      "type": "Randomized double-blind placebo-controlled two-sequence crossover",
+      "centers": "Paris, Poitiers and Lille, France",
+      "recruitment": "February 2006–February 2007; completed November 2007",
+      "population": "Ambulant prepubescent DMD boys, able to walk at least 170 m; clinical/dystrophin/molecular diagnosis; no renal/hepatic insufficiency, wheelchair dependence, weight above 60 kg or planned surgery.",
+      "age_range_years": [
+        2,
+        10
+      ],
+      "age_median_Q1_Q3_years": [
+        6.1,
+        4.6,
+        8.2
+      ],
+      "screened": 34,
+      "declined": 3,
+      "weight_exclusion": 1,
+      "randomized": 30,
+      "sequence_glutamine_first_placebo_first": [
+        15,
+        15
+      ],
+      "completed": 30,
+      "primary_analyzed": 29,
+      "primary_analyzed_by_sequence": [
+        14,
+        15
+      ],
+      "primary_missing_reason": "Unable to walk 170 m because of gastroenteritis at four-month assessment of placebo phase; native flow locates child in glutamine-first sequence.",
+      "corticosteroid_users": 5,
+      "other_potentially_anabolic_cointerventions": "None, including creatine, according to main. No training intervention described.",
+      "randomization": "Computer-generated blocks of 6; central DRCD and AGEPS pharmacy independent of outcome evaluation; concealed numbered containers; code not opened until analyses completed.",
+      "blinded_parties": [
+        "participants",
+        "investigators",
+        "physicians",
+        "assessors",
+        "data analysts"
+      ]
+    },
+    "preparation": {
+      "active": "L-glutamine compounded by AGEPS central pharmacy, Paris",
+      "dose_g_kg_day": 0.5,
+      "route": "oral",
+      "schedule": "Once each morning mixed with water or yogurt",
+      "duration_months_each_period": 4,
+      "washout_months": 1,
+      "total_followup_months": 9,
+      "placebo": "Equal-weight maltodextrin",
+      "packaging": "Identical 5 g sachets; matched taste, odor and appearance; banana, caramel and aspartame flavoring. Main dispensed two-month supplies at months 0, 2, 5, 7.",
+      "protocol_quality": "Single pharmaceutical-quality lot planned under pharmacy/GCP standards; no actual batch ID/purity assay supplied.",
+      "dose_weight_basis": "Protocol/December 2005 parent form specify inclusion weight and fixed absolute amount throughout study; no source-supported recalculation imposed.",
+      "nutritional_contrast": "Carbohydrate placebo rather than nitrogen-matched amino acids; full calorie equivalence and excipient quantities not established.",
+      "adherence": "Returned used/unused sachets; similar between periods, no numerical rate given.",
+      "equivalence_limits": "Source specifies L-isomer here; no automatic new alias, retail equivalence or identity to earlier source-labelled CINRG glutamine 0.6 g/kg/day."
+    },
+    "analysis": {
+      "primary": "Change in comfortable walking speed over standardized 170 m course after 4 months of each treatment",
+      "model": "Repeated-measures ANOVA assessing treatment/order/interaction; log or square-root transformations as needed; significance P < .05",
+      "no_exact_overall_primary_P_or_treatment_CI_reported": true,
+      "no_equivalence_or_zero_effect_claim": true,
+      "missingness": "No imputation described; primary flow29 analyzed, descriptive active-period n = 30/control-period n = 29; exact paired secondary n not reported.",
+      "planned_sample": "30 to detect 10% walking-speed increase, stated 80% power, alpha .05. Protocol explores unknown within-person correlation: required n = 37, 33, 30, 26, 22, 19 at correlations 0, .1, .2, .3, .4, .5; recruitment feasibility also informed n = 30. No new power computation.",
+      "multiplicity": "No reported correction for multiple secondary endpoints or unplanned subgroup analyses.",
+      "carryover": "One-month washout based on turnover rationale, no significant sequence effects on relative responses reported; absence of significance does not establish no carryover. FFM has order effect P = .001."
+    },
+    "outcomes": {
+      "format": "Four-month period medians with Q1/Q3. Values describe periods within children, not independent arms or a reconstructed paired contrast.",
+      "function": [
+        {
+          "name": "walking speed",
+          "hierarchy": "primary",
+          "unit": "m/s",
+          "glutamine_n": 30,
+          "placebo_n": 29,
+          "glutamine_pre": [
+            0.9,
+            0.7,
+            1.0
+          ],
+          "glutamine_end": [
+            0.9,
+            0.7,
+            1.0
+          ],
+          "placebo_pre": [
+            0.8,
+            0.7,
+            1.0
+          ],
+          "placebo_end": [
+            0.8,
+            0.6,
+            1.0
+          ],
+          "glutamine_change": [
+            0.0,
+            -0.1,
+            0.1
+          ],
+          "placebo_change": [
+            0.0,
+            -0.1,
+            0.1
+          ],
+          "treatment_result": "No significant improvement reported; no exactP orCI."
+        },
+        {
+          "name": "2-minute walk",
+          "hierarchy": "secondary",
+          "unit": "m",
+          "glutamine_n": 30,
+          "placebo_n": 29,
+          "glutamine_change": [
+            -2.8,
+            -10.0,
+            2.3
+          ],
+          "placebo_change": [
+            2.0,
+            -16.2,
+            13.3
+          ],
+          "treatment_result": "No significant improvement reported."
+        },
+        {
+          "name": "walk-derived work",
+          "hierarchy": "secondary",
+          "unit_as_reported": "kcal",
+          "glutamine_n": 30,
+          "placebo_n": 29,
+          "glutamine_change": [
+            0.7,
+            -5.1,
+            2.0
+          ],
+          "placebo_change": [
+            -1.1,
+            -7.1,
+            6.3
+          ],
+          "treatment_result": "No significant improvement reported."
+        },
+        {
+          "name": "walk-derived power",
+          "hierarchy": "secondary",
+          "unit_table": "watt",
+          "unit_main_methods_registry": "kcal/s",
+          "glutamine_n": 30,
+          "placebo_n": 29,
+          "glutamine_change": [
+            10,
+            -17,
+            20
+          ],
+          "placebo_change": [
+            11,
+            -13,
+            23
+          ],
+          "treatment_result": "No significant improvement reported."
+        }
+      ],
+      "work_power_limit": "Protocol derives work/power from walking mass/distance/time, not direct muscle force or calorimetry. Unit/conversion notation preserved, not repaired or recalculated.",
+      "body_composition": [
+        {
+          "name": "BIA fat-free mass",
+          "unit": "kg",
+          "glutamine_n": 29,
+          "placebo_n": 27,
+          "glutamine_change": [
+            0.4,
+            -0.2,
+            0.7
+          ],
+          "placebo_change": [
+            0.7,
+            0.2,
+            1.2
+          ],
+          "treatment_P": "<.05",
+          "order_P": ".001",
+          "direction": "Smaller increase with glutamine; nominal secondary pattern, not proof of muscle loss or mechanistic harm."
+        },
+        {
+          "name": "BIA fat mass percentage",
+          "unit_change": "percentage points",
+          "glutamine_n": 29,
+          "placebo_n": 27,
+          "glutamine_change": [
+            1.9,
+            -0.8,
+            4.9
+          ],
+          "placebo_change": [
+            1.2,
+            -1.6,
+            2.3
+          ],
+          "treatment_P": "<.05",
+          "direction": "Larger increase with glutamine."
+        },
+        {
+          "name": "DXA fat percentage",
+          "unit": "percent",
+          "glutamine_endpoint": [
+            20.2,
+            14.1,
+            27.4
+          ],
+          "placebo_endpoint": [
+            18.5,
+            14.1,
+            28.8
+          ],
+          "P": ".03",
+          "analysis": "Variance analysis, square-root transformation",
+          "specific_paired_n": "Not supplied."
+        }
+      ],
+      "biomarkers": [
+        {
+          "name": "Urinary-creatinine estimated muscle mass",
+          "unit": "kg",
+          "glutamine_n": 26,
+          "placebo_n": 27,
+          "glutamine_change": [
+            -0.7,
+            -1.1,
+            -0.1
+          ],
+          "placebo_change": [
+            -0.3,
+            -1.5,
+            0.3
+          ],
+          "result": "No treatment difference reported."
+        },
+        {
+          "name": "CPK",
+          "unit": "U/L",
+          "glutamine_n": 30,
+          "placebo_n": 30,
+          "glutamine_change": [
+            -2010,
+            -4984,
+            1340
+          ],
+          "placebo_change": [
+            -795,
+            -3402,
+            3332
+          ],
+          "result": "No treatment difference reported."
+        },
+        {
+          "name": "Urinary 3-methylhistidine/creatinine",
+          "glutamine_n": 24,
+          "placebo_n": 25,
+          "glutamine_change": [
+            -4.8,
+            -16.7,
+            8.8
+          ],
+          "placebo_change": [
+            -0.7,
+            -7.2,
+            8.0
+          ],
+          "result": "No treatment difference reported."
+        },
+        {
+          "name": "24-hour 3-methylhistidine excretion",
+          "P": ".25",
+          "result": "No treatment difference reported."
+        }
+      ],
+      "measurement_limits": "BIA fat-free mass includes water/connective tissue and does not measure muscle renewal. Urinary-creatinine mass assumes 1 g/day represents 20 kg muscle; lack of meat-free diet limits methylhistidine interpretation.",
+      "other_observations": {
+        "whole_cohort_walking_mean_SD_baseline": [
+          0.9,
+          0.2
+        ],
+        "whole_cohort_walking_mean_SD_month9": [
+          0.8,
+          0.3
+        ],
+        "within_cohort_P": ".78",
+        "whole_cohort_2MWT_mean_SD_baseline": [
+          103.9,
+          20.4
+        ],
+        "whole_cohort_2MWT_mean_SD_month9": [
+          98.9,
+          28.1
+        ],
+        "within_cohort_2MWT_P": ".39",
+        "parent_impression_glutamine_placebo_equal": [
+          15,
+          12,
+          3
+        ],
+        "interpretation": "Within-cohort stability and family impressions are not randomized treatment effects; proposed placebo-response explanation is not established without untreated comparison."
+      }
+    },
+    "exploratory_positive": {
+      "subgroup": "Five boys on corticosteroids",
+      "prespecified": false,
+      "explicit_author_label": "Unplanned analysis in a small subgroup",
+      "reported_treatment_test": "P < .05, variance analysis with logarithmic transformation",
+      "walking_median_Q1_Q3_placebo_pre": [
+        1.0,
+        0.7,
+        1.0
+      ],
+      "walking_median_Q1_Q3_placebo_end": [
+        0.6,
+        0.6,
+        0.7
+      ],
+      "walking_median_Q1_Q3_glutamine_pre": [
+        0.9,
+        0.9,
+        1.0
+      ],
+      "walking_median_Q1_Q3_glutamine_end": [
+        1.0,
+        0.8,
+        1.0
+      ],
+      "exact_P_or_CI": "Not supplied",
+      "formal_steroid_by_treatment_interaction_reported": false,
+      "interpretation": "Retain actual nominal treatment positive without erasing overall null. Not inferred merely from different within-arm significance. Does not prove subgroup specificity, synergy or confirmatory combination efficacy."
+    },
+    "harms": {
+      "reported_counts_glutamine_placebo": {
+        "gastroenteritis": [
+          1,
+          2
+        ],
+        "urticaria": [
+          1,
+          0
+        ],
+        "allergic_reaction": [
+          0,
+          1
+        ],
+        "nervousness": [
+          1,
+          0
+        ],
+        "rhinitis": [
+          0,
+          1
+        ],
+        "pharyngitis": [
+          0,
+          1
+        ]
+      },
+      "unique_patient_total": "Not derived from category counts",
+      "withdrawals": 0,
+      "unblinding_for_AE": 0,
+      "main_claim": "No significant side-effect-profile or biochemical differences; authors describe generally well tolerated.",
+      "limits": "Not powered as safety trial; no detailed severity table/numerical renal contrasts; excludes renal/hepatic insufficiency. No longer-term, universal or MVA safety claim."
+    },
+    "prespecification": {
+      "protocol": "Supplied FrenchProtocolS1,version3dated7December 2005",
+      "core_design_supported": true,
+      "protocol_analysis": "Primary completers of both periods; sequence/treatment/order comparisons using Student or Wilcoxon tests; no separate final SAP/amendment history retrieved.",
+      "publication_difference": "Repeated-measures ANOVA and transformations in main. 2-MWT not located in supplied protocol text, but in current registry/main.",
+      "embedded_equations": "DOC extraction leaves Equation.3 object placeholders; no claim to native equation/layout reading or independent recalculation.",
+      "registration_first_submit": "2006-02-23",
+      "registration_first_post": "2006-02-27",
+      "reported_start": "2006-02",
+      "registration_before_first_participant": "Unresolved because exact first-enrollment day is not supplied.",
+      "registry_last_update_submit": "2007-12-20",
+      "registry_completion_actual": "2007-11",
+      "registry_primary_completion_estimated": "2008-02",
+      "registry_results_posted": false,
+      "historical_registry_fields_read": false,
+      "ethics": "Native statement 20 September 2004, meeting 15 September, project 2004/13, removes 7 July reservation. Parent form instead labels 7 July favorable opinion; not harmonized."
+    },
+    "document_discrepancies": [
+      "Main native Table2 power in watts versus main Methods/current registry kcal/s; protocol conversion notation not independently resolved.",
+      "Supplied parent form generic 20–30 g sachet wording versus main 5 g sachets; main weight-based preparation retained.",
+      "Protocol planned single dispensing per period, main dispensed two-month supplies.",
+      "Protocol completeness-based tests versus final ANOVA details; exact amendment history unavailable.",
+      "Parent form ethics date versus native favorable-opinion statement."
+    ],
+    "disclosure": {
+      "sponsor": "Assistance Publique–Hôpitaux de Paris",
+      "support": [
+        "Programme Hospitalier de Recherche Clinique National 2003",
+        "Fonds de la Recherche en Santé Québec PhD Training Award",
+        "Prix de Nutrition de la Fédération Association Nationale pour les Traitements à Domicile, les Innovations et la Recherche / Société Francophone de Nutrition Entérale et Parentérale",
+        "Fédération Hospitalière de France et Les Entreprises du Médicament"
+      ],
+      "preparation": "AGEPS central pharmacy",
+      "COI": "Authors declare none.",
+      "funder_role": "Authors state no role in design, data collection/analysis, publish decision or manuscript."
+    },
+    "source_reading": {
+      "scientific_main": "Complete original XML main plus all 8 native publisher PDF pages; Figure 1 and Tables 1/2 and captions read. References are pointers, not fresh cited-source qualification.",
+      "supplements": "Complete extracted scientific prose of French protocol, all CONSORT/contributor/parent/childform text; native 2-page ethics PDF. Embedded DOC equation objects and native DOC page layout not certified.",
+      "registry": "Complete current ClinicalTrials.gov JSON read; no historical snapshots.",
+      "notices": "No linked notice in current EuropePMC comment/correction metadata or article-specific publisher notice area. Generic Crossmark widget present, live history not queried.",
+      "access_failure": "EuropePMC supplementaryFiles aggregate request timed out; direct official publisher retrieval of all six files succeeded.",
+      "older_CINRG": "Existing decision object reused exactly; no fresh main/secondary-subgroup reading credit from present paper discussion."
+    },
+    "comparative_interpretation": {
+      "disposition": "Potential append/refinement of existing glutamine comparison, not new duplicate. Overall functional null with exploratory corticosteroid-subgroup positive and nominal body-composition differences retained.",
+      "compensation_bar": "Same function/exposure/duration/renewal/fidelity criteria as other candidates; BUBR1 mediation additionally required only for restoration claims.",
+      "MVA_efficacy": false,
+      "generic_ineffective_claim": false,
+      "generic_safe_claim": false,
+      "steroid_synergy_established": false,
+      "nominee_change": false,
+      "new_alias_proposed": false
+    },
+    "repository_edits": false,
+    "catalog_joins_replays_tests": false,
+    "clinical_regimen_recommendation": false
+  },
+  "scientific_summary": "The four-month AGEPS L-glutamine DMD crossover did not establish overall functional benefit, but reported an actual nominal treatment positive in an unplanned five-boy corticosteroid subgroup. Body-composition direction, variable denominators and safety/planning limits remain explicit; no interaction, synergy or MVA benefit follows.",
+  "historical_metadata_notice": "The nested source object is the exact accepted frozen qualification, including its then-pending-review status and c61fc087/276 checkpoint. The separate independent ACCEPT and current860bfcf/276 proposal context are recorded here; older CINRG source depth is not upgraded.",
+  "independent_primary_acceptance": {
+    "status": "ACCEPT",
+    "required_corrections": [],
+    "manifest": {
+      "archive_file": "glutamine-dmd-primary-20260927/independent-review/final-bindings.json",
+      "bytes": 16886,
+      "sha256": "14c6ba9c72a11f1b20897d88f081af03643034039f14a40362d34b0e368b4b16"
+    },
+    "review": {
+      "archive_file": "glutamine-dmd-primary-20260927/independent-review/review.json",
+      "bytes": 5528,
+      "sha256": "fa777a0d96ff6a3101ccf4da35cac92299d6691a2ef5b33edff1ffb46f9f15ff"
+    }
+  },
+  "source_provenance": {
+    "manifest": {
+      "archive_file": "glutamine-dmd-primary-20260927/final-bindings.json",
+      "bytes": 19290,
+      "sha256": "270f0ba8c2ac6e4ed6d201227ef8a7aafc05b89e5e8661c7ad0366fc01a9917c"
+    },
+    "qualification_MD": {
+      "archive_file": "glutamine-dmd-primary-20260927/qualification.md",
+      "bytes": 13843,
+      "sha256": "08b10f257c95cc02c21e9318153a751abe29962ac1f1a2b2eb41c88b6e52c2fe"
+    },
+    "qualification_JSON": {
+      "archive_file": "glutamine-dmd-primary-20260927/qualification.json",
+      "bytes": 19666,
+      "sha256": "69653bd348f22f37a3e819914dbc2bf004154bfa32db161eb9c9d8d48bbe1a9b"
+    },
+    "producer_reading": {
+      "archive_file": "glutamine-dmd-primary-20260927/reading-manifest.json",
+      "bytes": 4143,
+      "sha256": "6f7441214a58fbc52179f070d8595bb559d97d0c7d58faaec27802db9cd72752"
+    },
+    "independent_reading": {
+      "archive_file": "glutamine-dmd-primary-20260927/independent-review/reading-scope.json",
+      "bytes": 5753,
+      "sha256": "cf8f0b5d002a58eff8d02335315c16620108102b15b39dbe80f0caaf9e497fa7"
+    }
+  },
+  "reading_attribution": {
+    "producer": "Complete scientific main and8 native main pages; supplied protocol/supporting text and2 native ethics pages/current registry, with embedded DOC-equation and native DOC-layout limits.",
+    "independent": "Complete scientific main; native main pages4–7 and ethics1–2; complete extracted protocol/supporting prose and saved current registry. No inherited eight-page native main claim.",
+    "portable_synthesis": "Accepted source qualification/review and immutable ledger/targeted docs read; no fresh original-source or native-panel reading."
+  },
+  "current_proposal_context": {
+    "baseline": "860bfcf45778079777419f552a47e30a4ad405fb",
+    "appraisals": 276,
+    "aliases": [
+      "glutamine"
+    ],
+    "new_entry": false,
+    "new_alias": false,
+    "nominee_change": false
+  },
+  "new_original_queue_reading_credit": 0,
+  "new_full_corpus_screening_credit": 0,
+  "new_primary_reading_at_synthesis": false
+}

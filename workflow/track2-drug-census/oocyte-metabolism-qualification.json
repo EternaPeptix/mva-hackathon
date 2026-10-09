@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "source_id": "MED:33068521",
+  "pmid": "33068521",
+  "pmcid": "PMC8034554",
+  "doi": "10.1016/j.molcel.2020.09.022",
+  "title": "Characterization of Metabolic Patterns in Mouse Oocytes during Meiotic Maturation",
+  "authors": "Li et al.",
+  "journal": "Molecular Cell 80(3):525–540.e9 (2020)",
+  "assessed_date": "2026-09-23",
+  "disposition": "METABOLIC_FUNCTION_AND_ADVERSE_PUFA_EVIDENCE_NO_MVA_COMPOUND_RESCUE",
+  "prior_qualification_check": "Common-review contained a complete abstract reading but no linked source-specific primary appraisal; exact-ID/title search found no prior primary qualification.",
+  "read_depth": {
+    "main_source": "Public PMC author-manuscript HTML",
+    "main_prose": "Complete Summary, Introduction, Results, Discussion and experimental/statistical Methods",
+    "key_resources": "Relevant chemical, medium and antibody entries read; not the full resource table/bibliography",
+    "main_figures_visually_read": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "supplement": "Not recovered. PDF/XLSX requests returned browser-check HTML; Europe PMC supplement API returned non-OA error. S5–S8/S10/S12/S13 findings are read in maintext descriptions only.",
+    "native_journal_pdf_read": false,
+    "raw_data_reanalysis": false,
+    "biological_replication": false,
+    "reading_credit_limit": "This maintext qualification is supplement-limited; no complete-supplement claim or automatic outer-corpus/new-drug-appraisal credit."
+  },
+  "model": {
+    "species_strain": "C57BL/6 mice",
+    "oocyte_source": "3-week-old females after gonadotropin stimulation; denuded oocytes",
+    "stages": [
+      "GV",
+      "GVBD",
+      "MII"
+    ],
+    "intervention_setting": "Isolated GV oocytes cultured in M16; selected matured knockdown oocytes underwent IVF and early embryo culture.",
+    "scope_limits": [
+      "Meiosis and maternal oocyte-to-embryo transition, not somatic MVA cells",
+      "Hormone-stimulated oocytes may not represent natural ovulation",
+      "Steady-state abundance and enzyme protein levels, not direct metabolic flux",
+      "No live birth, mating/litter, offspring health or clinical fertility outcome shown"
+    ]
+  },
+  "interventions": [
+    {
+      "agent": "Arachidonic acid (ARA)",
+      "identity": "Named metabolite; Sigma-Aldrich A3611 in Key Resources",
+      "type": "Direct supplementation",
+      "exposure": {
+        "nominal_uM": [
+          100,
+          200,
+          300,
+          400
+        ],
+        "medium": "M16",
+        "timing": "Main Figure2: GVBD at3h, MI/spindle at7h, polar-body extrusion at12h. Figure2P: 300 µM at7h.",
+        "formulation_limit": "PUFA solvent/carrier and free concentration are not specified in read Methods; 0.1% DMSO control is explicitly described for inhibitors, not explicitly assigned to PUFA groups."
+      },
+      "direction": "Adverse at higher tested concentrations",
+      "functional_results": "300–400 µM reduces first polar-body extrusion and increases spindle/chromosome defects; maintext reports little GVBD effect, data not shown.",
+      "nulls": {
+        "Pb1_100_uM_p": 0.195,
+        "Pb1_200_uM_p": 0.143,
+        "defects_100_uM_p": 0.231,
+        "defects_200_uM_p": 0.066
+      },
+      "positive_reversal": "Washout restores much of polar-body extrusion; residual comparison to control p=0.063 does not prove equivalence or later developmental competence.",
+      "mechanism": "At7h ARA-treated oocytes show lower NKAP (~70%) and BTG4 (~80%); maternal RNA deadenylation/decay is disrupted. NKAP cRNA overexpression partially rescues ARA-associated spindle/maturation defects.",
+      "mechanistic_exposure_limit": "Exact ARA concentration for every Figure3 proteomic/rescue experiment is not explicitly given in the read maintext/legend; do not automatically assign the Figure2P 300 µM dose to all of them.",
+      "not_shown": [
+        "ARA-induced BUBR1 restoration",
+        "An ARA fertility/live-birth benefit",
+        "Direct chromosome-count/euploidy rescue"
+      ]
+    },
+    {
+      "agent": "DHA and EPA",
+      "identity": "Docosahexaenoic acid (Sigma D2534); eicosapentaenoic acid (Aladdin E100927)",
+      "type": "Direct supplementation",
+      "maintext_result": "Similar disruption of oocyte maturation reported (S6/S7).",
+      "exact_doses": null,
+      "assessment_depth": "Maintext report only; supplement panels unavailable. No independently qualified dose-response or fidelity estimate."
+    },
+    {
+      "agent": "Sesamin and curcumin",
+      "identity": "Selleck S2392 and S1848",
+      "type": "Chemical inhibitor experiments interpreted as Δ6/Δ5-desaturase inhibition",
+      "maintext_result": "No apparent effect on GVBD or polar-body emission (S5).",
+      "exact_doses": null,
+      "control": "0.1% DMSO",
+      "limits": "Supplement unavailable; no equivalence claim. Authors acknowledge imperfect inhibitor specificity and possible sufficient pre-existing PUFA stores."
+    },
+    {
+      "agent": "INDO and BWA4C",
+      "identity": "Paper labels INDO (Selleck S5010) and BWA4C (Sigma B7559)",
+      "type": "COX- and LOX-inhibitor experiments respectively",
+      "maintext_result": "Dose-dependent reduction in meiotic maturation, larger for INDO (S5).",
+      "exact_doses": null,
+      "control": "0.1% DMSO",
+      "limits": "Supplement panels unavailable. Enzyme specificity and eicosanoid-autocrine mechanism remain interpretive; not evidence that supplementing PUFAs improves maturation."
+    },
+    {
+      "agent": "Serine/glycine/SAM",
+      "type": "Endogenous metabolite measurements and SGOC-network components, not a demonstrated supplementation intervention",
+      "direct_supplementation_rescue_shown": false,
+      "actual_perturbation": "Shmt2 siRNA knockdown, with siRNA-resistant Shmt2 mRNA rescue reported in S13.",
+      "results": "Lower SHMT2 and SAM, higher serine:glycine ratio, modest later maturation deficit, and markedly impaired on-time IVF 2-cell cleavage; lower DNA methylation and maternal-pronuclear H3K4me3.",
+      "IVF_endpoint": {
+        "time": "E1.5",
+        "control_oocytes": 85,
+        "siShmt2_oocytes": 92,
+        "siShmt2_two_cell_percent_approximately": 30,
+        "comparison_p": 0.0006
+      },
+      "maturation_figure_text_issue": "Main text says no significant effect on execution of maturation, but Figure5E reports lower Pb1 extrusion at10h p=0.007,12h p=0.012 and14h p=0.008;8h p=0.600. Preserve the modest significant later deficit.",
+      "epigenetic_null": "Paternal-pronuclear H3K4me3 p=0.735; maternal decrease p=0.006, n=15 zygotes/group.",
+      "causal_limit": "Authors acknowledge methylation loss could reflect lower cell fitness. No serine/glycine/SAM supplementation rescue or methylation-mediated causation test is demonstrated."
+    },
+    {
+      "agent": "G6pdx depletion",
+      "type": "Genetic PPP perturbation, not metabolite/antioxidant treatment",
+      "maintext_result": "Slightly reduced maturation, excess ROS, impaired IVF-to-2-cell transition; siRNA-resistant mRNA rescue supports target specificity.",
+      "assessment_depth": "Maintext report of S12/S13, native supplement uninspected.",
+      "transfer_limit": "Does not establish benefit from niacin, NAD-related supplements, glycine, NAC, or another antioxidant."
+    }
+  ],
+  "bub1b_assignment": {
+    "explicit_endpoint": "BubR1 kinetochore immunofluorescence/retention in metaphase-I oocytes after Nkap siRNA (S8J/K)",
+    "identity": "Anti-BubR1 Abcam ab28193; kinetochores marked with CREST",
+    "direction": "Higher kinetochore BubR1 signal in siNkap oocytes",
+    "interpretation": "Checkpoint activation/retention with kinetochore–microtubule misattachments and maturation arrest. It is not total-protein restoration or beneficial checkpoint correction.",
+    "compound_assignment": "Not directly measured as a beneficial ARA/DHA/EPA/serine/glycine treatment effect. ARA lowers NKAP and its structural phenotypes are partially rescued by NKAP overexpression; that chain does not transfer the genetic BubR1 endpoint to a compound.",
+    "fidelity_boundary": "Spindle structure, chromosome alignment and K–MT attachment phenotypes are functional/mechanistic endpoints; no demonstrated restoration of chromosome counts, euploidy or functional MVA phenotype.",
+    "supplement_limit": "S8 endpoint and significance are author-reported in fully read maintext; native S8 images/quantification and proteomic TableS2/S3 rows not independently checked."
+  },
+  "controls_and_replication": {
+    "chemical_controls": "Control medium for PUFA figures; 0.1% DMSO explicitly for inhibitors.",
+    "genetic_controls": "General negative-control siRNA and siRNA-resistant cRNA rescue; exact supplementary rescue groups not independently viewed.",
+    "ARA_figures": "Figure2 caption states three independent experiments and at least100 oocytes/group; Figure3 phenotype tests likewise. These are oocyte/experiment counts, not100 independent donor mice.",
+    "SHMT2_figures": "Pb1 n=102 control/105 knockdown; IVF n=85/92; metabolite measurements300 oocytes/group; representative immunoblots use200 oocytes/lane.",
+    "statistics": "Reported mean±SD; t tests and other specified tests. General Methods say experiments repeated three times and often representative data shown. No raw-data/statistical reproduction performed.",
+    "source_quality_issue": "Figure5E numerical significance conflicts with the maintext's nonsignificant wording; figure-level result retained."
+  },
+  "relevance_to_current_hypotheses": {
+    "positive": "Supports the importance of correctly timed endogenous metabolism and actual maturation/developmental endpoints beyond abundance markers; genetic rescue and ARA washout provide functional reversibility evidence.",
+    "boundary": "Stage- and tissue-specific balance matters: excess ARA is disruptive here, so a broad PUFA-support hypothesis is not established. Increased kinetochore BUBR1 can mark ongoing attachment defects rather than improved function.",
+    "nominee_comparison": "No niacin restoration, apitegromab compensation, or other current provisional nominee was tested. This source neither validates those hypotheses nor supplies a metabolite treatment competitor for MVA.",
+    "decision": "Do not nominate ARA/DHA/EPA/glycine/serine/SAM from this paper as BUB1B/MVA rescue agents. Retain as mechanistic and adverse-exposure evidence."
+  },
+  "remaining_primary_gaps": [
+    "Native S5–S8/S12/S13 panels and exact DHA/EPA/inhibitor/washout/rescue exposures",
+    "Proteomic TableS2/S3 row-level BUB1B status",
+    "Longer embryonic development, chromosome-number fidelity and fertility outcomes beyond the reported experiments"
+  ],
+  "followup_decision": "Abstract ambiguity is resolved at maintext level: PUFA challenge is adverse; SGOC/PPP functional rescue is genetic. Supplement-specific details remain explicitly unqualified. Stop at this bounded source; no broader citation chase or automatic therapeutic nomination.",
+  "primary_html_sha256": "65afae23bb8500f23d1383efab7d8ad2480c7bcdac0c28563b26bb5d738369e1",
+  "retrieval_manifest": "retrieval-manifest.json",
+  "automatic_outer_corpus_credit": 0,
+  "automatic_new_drug_appraisals": 0,
+  "integration": {
+    "date": "2026-09-23",
+    "source_assessment_sha256": "69e8bcd9e6eb947596cedb360306e84dde3c08314e31a546f6adbc22cedc3406",
+    "external_root": "common-primary-next-20260923/oocyte-metabolism",
+    "scope": "Source reading declarations remain attributed to the delegated primary reader. Root performed the bounded checks below; no independent complete-paper review or biological validation.",
+    "root_checks": [
+      "Figures2/5 independently inspected; dose-specific adverse/null direction and Figure5E statistics retained. No native supplement read by root."
+    ],
+    "extra_outer_abstract_credit": 0,
+    "new_curated_ledger_ids": [
+      "new-arachidonic-acid"
+    ]
+  }
+}

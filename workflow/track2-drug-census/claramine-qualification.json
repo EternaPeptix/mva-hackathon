@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "compound": "Claramine",
+  "primary_source_id": "MED:34029592",
+  "antecedent_source_id": "MED:25623533",
+  "repo_baseline": "46c556f878dd01462cb637e2e21b61f20e284669",
+  "existing_entry": null,
+  "proposed_entry": {
+    "decision_id": "new-claramine",
+    "match_aliases": [
+      "Claramine"
+    ],
+    "route": "Insulin-receptor processing/signaling and metabolic function",
+    "disposition": "Retain an experimental metabolic-function reserve; no current BUBR1-restoration or muscle-compensation nomination.",
+    "automatic_integration": false,
+    "identity_exclusions": [
+      "Trodusquemine/MSI-1436",
+      "Claramine A1",
+      "DPM-1001",
+      "other aminosterols",
+      "unscoped compound number4f"
+    ]
+  },
+  "identity": {
+    "2021_material": "Synthetic spermine-containing aminosterol Claramine, explicitly identified as compound4f in FigureS5A/C. Supplement gives structure, NMR/MS and product formulaC37H72N4O.",
+    "formulation_limit": "Supplement describes conversion to hydrochloride salts, but the exact bioassay salt stoichiometry, lot, purity percentage and solvent vehicle are not clearly specified. No CAS number is assigned by this review.",
+    "cross_paper_limit": "2015 public author text names progesterone as synthesis precursor;2021 supplement names6-ketocholestanol, while both reportC37H72N4O product. Native2015 PDF was not available to resolve this discrepancy; no synthesis correction or independent chemical authentication claimed. Studies are linked by the authors’ Claramine identity, not a verified common lot.",
+    "availability": "Experimental synthesized material. Neither supplier availability nor clinical approval/human use was established in this bounded task."
+  },
+  "targets": {
+    "PTP1B": "2015 study directly measured reduced PTP1B activity in F11 neuronal-cell extracts and intact-cell treatments; closest-related TC-PTP was not inhibited in the tested assay. That supports functional target/selectivity evidence within that comparison, not a broad phosphatase selectivity panel.",
+    "binding_mode": "2015 Discussion explicitly says Claramine inhibition mechanism remains unclear. Do not inherit trodusquemine’s allosteric binding sites or selectivity ratio.",
+    "BACE1": "2021 shows less BACE1-dependent IR cleavage with altered proBACE1 proteostasis/trafficking. It does not establish direct Claramine–BACE1 binding or purified catalytic inhibition.",
+    "causality": "PTP1B-dependent signaling and proBACE1 processing effects are distinct; no experiment establishes that the latter caused the earlier in-vivo glycemic benefit."
+  },
+  "study_2021": {
+    "models": [
+      "HEK293 overexpression systems",
+      "Endogenous IR/BACE1 in HepG2 hepatoma cells",
+      "Male10-week db/db versus db/+ livers",
+      "Male C57Bl/6 mice started at10weeks and fed standard-fat or60%-fat diet for16weeks"
+    ],
+    "drug_exposures": [
+      {
+        "assay": "Screen, IR-surface and proBACE1 trafficking experiments",
+        "dose": "Claramine10µM",
+        "duration": "17h",
+        "source": "Figure7A; FigureS5C/D andS6"
+      },
+      {
+        "assay": "LC3-HiBiT autophagy reporter",
+        "dose": "0,5,10,15µM",
+        "duration": "17h",
+        "source": "Figure7E;10/15µM marked significant,5µM not marked significant"
+      }
+    ],
+    "positive_findings": [
+      "In active-BACE1 HEK293 cells, increased surfaceIR by flow cytometry; less IR C-terminal fragment and modestly reduced solubleIR release.",
+      "In HepG2, reduced endogenousIR fragment and increased surfaceIR (FigureS5E/F; reportedP<.01 for surface assay).",
+      "Shift from core- to complex-glycosylated proBACE1 supports altered early-secretory-to-Golgi transport; proIR itself not comparably changed. This is endpoint glycosylation evidence, not a measured live trafficking rate.",
+      "Reduced LC3-HiBiT accumulation, increased LC3II/LC3I and LC3II/beta-actin, and autophagosome-like morphology support an autophagy effect.",
+      "Increased basal/insulin-stimulated EGR1 reporter andIR autophosphorylation; kinase-deadIR control abolishes reporter response."
+    ],
+    "controls_and_nulls": [
+      "Inactive BACE1D289A: no increased surfaceIR, yet EGR1 signaling still increases; signaling cannot be attributed solely to reduced cleavage.",
+      "Kinase-deadIR: no meaningful EGR1 response; IGF1R phosphorylation not increased under tested conditions.",
+      "Bafilomycin/proteasome inhibitors, LY294002 and resveratrol serve distinct pathway controls; resveratrol does not reproduce the proBACE1 glycosylation shift.",
+      "BACE1-independent solubleIR release increases with Claramine, limiting a simple all-cleavage-suppression reading.",
+      "NRG1 full-length andfragment both decrease; its cleavage inhibition is not established as cleanly asAPP/IR. Main prose is more cautious than FigureS2 caption.",
+      "FigureS5C shows Claramine as the largest reporter response, but otheraminosterol bars also exceed untreated; it does not establish a unique statistically significant response."
+    ],
+    "replication": "Main statistics states all experiments repeated at least3times; not every panel gives a distinct biological-preparation count. Reported two-sidedt/Mann–Whitney/ANOVA-Dunnett tests depend on panel. No reviewer replication or raw data reanalysis.",
+    "unmeasured": [
+      "Claramine-treated animal glycemia in this paper",
+      "Glucose uptake/flux or muscle force/endurance",
+      "Direct correction of receptor endocytosis",
+      "BUB1B RNA/protein or BUBR1-dependent function",
+      "Mitotic fidelity/renewable progenitor output",
+      "MVA drug response"
+    ],
+    "animal_assignment": "Figure6 and mouse Methods are diabetic-versus-control liver context. No Claramine dosing or Claramine GTT/ITT experiment is reported in2021. Its in-vivo efficacy statements cite earlier work.",
+    "mechanism_limits": "Autophagy, trafficking andIR cleavage associations are supported by several controls, but genetic mediation of Claramine’s action and direct binding are not resolved. Cell surfaceIR/insulin-responsive transcription are meaningful mechanistic positives, not proof of complete organismal correction."
+  },
+  "study_2015": {
+    "source": "Qin etal., PMID25623533; DOI10.1016/j.bbrc.2015.01.040",
+    "access_depth": "Public author-rendered full scientific text and Figure1–4 captions; no nativePDF or nativefigure visual read.",
+    "models": "Diabetic CaMK2αCre/LMO4flox male mice,3.5months, onCD1 background/regular chow; LMO4 deletion in glutamatergic neurons is associated with excess hypothalamicPTP1B and insulin resistance. Age-matched LMO4flox littermates provideWT reference.",
+    "exposure": "Single Claramine5mg/kg intraperitoneal in saline; GTT24h andITT48h later in separate cohorts.",
+    "functional_positive": "Reported improved glucose handling and insulin sensitivity; Figure3 caption gives n6–8/group andP<.05. Active comparator trodusquemine5mg/kg. Exact effect sizes/curves not visually verified.",
+    "feeding_weight_context": "Separate2-month maleWTCD1 experiment, n8/group: feeding suppression andweight loss after the same nominal dose, stronger/transient feeding suppression over first24h than trodusquemine; overallweight loss not significantly different between compounds. Energy expenditure and locomotor activity not increased.",
+    "mediation_limit": "No pair-feeding design described. The contribution of intake/weight changes to glycemic benefit is unresolved; do not erase the actual glycemic result or label it necessarily feeding-mediated. The feeding study is a separateWT cohort, not evidence of pediatric harm.",
+    "target_controls": "F11 lysate/intact-cell PTP1B assays andTC-PTP comparison, n3experiments per condition; enhancedIR/Akt/GSK3β phosphorylation. Broad selectivity/binding mechanism not demonstrated.",
+    "limits": [
+      "Randomization/blinding and detailed longitudinal/multiple-testing treatment not described in the read scientific text.",
+      "The study explicitly did not test Claramine in hepatocytes or skeletal muscle.",
+      "Brain penetration is inferred from feeding effects in Discussion, not established by direct exposure measurement in this paper.",
+      "No BUB1B-mutant, muscle-output or checkpoint rescue result."
+    ]
+  },
+  "three_link_competitive_assessment": [
+    {
+      "link": "Measured compound activity",
+      "assessment": "Claramine has cell-level receptor-processing/signaling effects in2021 and actual glycemic functional benefit in the separate2015 diabetic-mouse experiment. It is not merely a database co-mention."
+    },
+    {
+      "link": "Defect in tested models",
+      "assessment": "2021 diabetic livers accumulate proBACE1 with alteredO-GlcNAcylation/proteostasis;2015 neuronalLMO4-loss mice have aPTP1B/insulin-resistance model. These are specific modeled metabolic defects."
+    },
+    {
+      "link": "BUB1B/MVA mechanism transfer",
+      "assessment": "No corresponding receptor cleavage/availability/PTP1B defect was measured in the relevantBUB1B genotype. Prior qualified BUBR1 depletion delayed surfaceIR endocytosis and hypomorphic mice were more insulin-sensitive; more surfaceIR is therefore not automatically correction. Early-secretory receptor cleavage is not receptor internalization."
+    }
+  ],
+  "competitive_decision": "Retain a substantive experimental metabolic-function reserve. The observed mouse benefit should not be rejected for being outsideMVA; the same unprovenMVA transfer limit applies to niacin/apitegromab. However, neither tested metabolic lesion is established in the case, and neither Claramine paper shows muscle output/renewal/fidelity benefit. This does not displace provisional niacin restoration or apitegromab muscle compensation, nor establish their superiority inMVA. Feeding/weight changes remain observed context, without inferred pediatric harm.",
+  "unresolved_questions": [
+    "Does the relevantBUB1B model have insulin resistance or a measured receptor cleavage/trafficking defect, and inwhich tissue?",
+    "Can useful metabolic or muscle function improve without losing absolute output, renewal or fidelity?",
+    "Which fraction of Claramine’s cell signaling effect isPTP1B-mediated versus receptor processing, and what links either to its animal response?",
+    "What are reproducible exposure, exactchemical/salt identity and relevanttissue target engagement?",
+    "Can native2015 figure/PDF access resolve effect sizes, unit rendering, experimental controls and the precursor-name discrepancy?",
+    "Ref54(PMID31509751) is another cited antecedent and was identified but not qualified here; no absence claim acrossall Claramine literature."
+  ],
+  "notice_status": "Fresh PubMed records for both papers list journal articles without indexedcorrection/retraction links or correspondingpublicationtypes.2021 XML identifiesPMC8254121.1 and no related-article notice. Bounded check, not a comprehensiveintegrity clearance.",
+  "read_scope": {
+    "2021_primary": {
+      "source_id": "MED:34029592",
+      "source_version": "PMC8254121.1",
+      "read_depth": "Complete main abstract/prose/Results/Discussion/Experimental procedures/data statement and all eight main figure captions; native main Figures6–8 visually inspected.",
+      "text_tool_chunks": [
+        "ccb573",
+        "7de46e",
+        "3a7d75"
+      ],
+      "text_endmarkers_observed": true,
+      "text_outputs_untruncated": true,
+      "visual_assets": [
+        "gr6.jpg",
+        "gr7.jpg",
+        "gr8.jpg"
+      ],
+      "main_figures_not_visually_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "2021_supplement": {
+      "source_file": "mmc1.docx",
+      "read_depth": "Complete text including all seven supplementary captions and supporting experimental procedures. Native embedded EMF figures were rendered with LibreOffice toPDF; FiguresS2,S5,S6,S7 visually inspected.",
+      "text_tool_chunk": "e96ba3",
+      "text_endmarker_observed": true,
+      "text_output_untruncated": true,
+      "visual_assets": [
+        "supp-render-page-03.png",
+        "supp-render-page-07.png",
+        "supp-render-page-09.png",
+        "supp-render-page-10.png"
+      ],
+      "not_visually_read": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "rendered_pdf_is_derived_not_native": true
+    },
+    "2015_antecedent": {
+      "source_id": "MED:25623533",
+      "source": "Public author-uploaded ResearchGate rendering, attributed to Hsiao-Huei Chen; upload date2020-05-07.",
+      "read_depth": "Full scientific main text, Methods2.1–2.9, Results3.1–3.5, Discussion/conclusion and Figure1–4 captions read through public web rendering. Bibliography not exhaustively reviewed.",
+      "web_refs": [
+        "turn106view0",
+        "turn107view0",
+        "turn110view0"
+      ],
+      "observed_line_ranges": [
+        "0–765",
+        "427–1152"
+      ],
+      "native_pdf_obtained": false,
+      "native_figure_visual_read": false,
+      "native_pdf_sha256": null,
+      "limit": "No native figure1–4 visual or quantitative digitization credit; exact curves/effect sizes unavailable. Directauthor-pageHTTP403, authorfigureHTTP403 and nativePDFwebclickerror; no access barrier bypass.",
+      "saved_representation": "antecedent-author-web-reading.json",
+      "saved_representation_kind": "Tool-rendered source response; its hash is not a native article/PDF hash."
+    },
+    "existing_context_reused": {
+      "files": [
+        "workflow/track2-drug-census/intervention-qualification.md",
+        "reports/appendices/track2-evidence-pipeline.md"
+      ],
+      "claim": "Prior qualified Choi2016/2019 context: BUBR1 depletion delays receptor uptake; hypomorphic mice have increased insulin sensitivity. Original Choi papers not requalified in this task."
+    },
+    "reviewer_performed_biological_replication": false,
+    "raw_data_reanalysis": false,
+    "new_outer_or_unique_abstract_credit": 0,
+    "automatic_ledger_integration": false
+  },
+  "source_manifest": "source-manifest.json",
+  "retrieval_manifest": "retrieval-manifest.json",
+  "source_manifest_sha256": "b01c784a7e615f331a757d83039ba6a4f09e78531c543bb64e472dd77bf5a853",
+  "retrieval_manifest_sha256": "47f20ac9d0c98526edafba3a42c8914f95ed9c6eb481f94198491af025bfbcc9",
+  "credit": {
+    "new_outer_abstract_credit": 0,
+    "new_unique_abstract_credit": 0,
+    "reviewer_performed_biological_replication": false,
+    "repository_edits": 0,
+    "primary_qualification_requires_root_integration": true
+  },
+  "parent_integration": {
+    "date": "2026-09-23",
+    "baseline": "46c556f878dd01462cb637e2e21b61f20e284669",
+    "external_source_root": "insulin-function-followups-20260923/claramine",
+    "source_md_sha256": "b81bf2976d15f22db2b98b7f58ddb32d291484fa10176a7fe22f53cede9141aa",
+    "source_json_sha256": "7839c537c01fa38e19a23dfebfdae076bdd52fe6974078064eb15a43e37fc1ab",
+    "root_checks": [
+      "Selected full source paragraphs about Claramine, receptor cleavage/signaling and Figure 7 caption read in 7aca22; native Figure 7 visually inspected. Fresh 2015 PubMed abstract read. This is not an independent complete reading of either Claramine paper."
+    ],
+    "extra_outer_abstract_credit": 0,
+    "new_ledger_id": "new-claramine"
+  }
+}

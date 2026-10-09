@@ -1,0 +1,382 @@
+{
+  "schema_version": "bounded-primary-qualification-1",
+  "prepared_date": "2026-09-23",
+  "compound": "pectolinarigenin",
+  "proposed_appraisal_id": "new-pectolinarigenin",
+  "repository_baseline": "ae94f0f0e4d9ef6cb0d0c967b0cb5079e28a27fd",
+  "disposition": "experimental_gastric_cancer_comparator_not_MVA_lead",
+  "integration_status": "proposal_external_only",
+  "automatic_unique_abstract_credit": 0,
+  "automatic_outer_corpus_credit": 0,
+  "automatic_appraisal_credit": 0,
+  "reviewer_performed_biological_replication": false,
+  "raw_data_reanalysis_performed": false,
+  "existing_context": {
+    "exact_compound_appraisal_found": false,
+    "pmid30380781_abstract_previously_read": "batch10; repeated primary qualification does not create abstract credit"
+  },
+  "identity": {
+    "name": "Pectolinarigenin",
+    "abbreviation": "PEC",
+    "pubchem_cid": 5320438,
+    "formula": "C17H14O6",
+    "molecular_weight_g_mol": 314.29,
+    "distinct_from": {
+      "pectolinarin": {
+        "cid": 168849,
+        "formula": "C29H34O15",
+        "molecular_weight_g_mol": 622.6,
+        "relationship": "glycoside; PEC is the aglycone"
+      },
+      "plant_extracts": "not the tested intervention",
+      "dietary_exposure": "not established"
+    },
+    "2018_supplier": "AdooQ",
+    "2018_purity_catalogue_lot": "not reported",
+    "2024_supplier_purity_catalogue_lot": "not identified in inspected main methods",
+    "identity_sources": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/5320438",
+      "https://pubchem.ncbi.nlm.nih.gov/compound/168849"
+    ]
+  },
+  "sources": [
+    {
+      "pmid": "30380781",
+      "pmcid": "PMC6265996",
+      "doi": "10.3390/nu10111596",
+      "title": "Comparative Proteomic Profiling of Tumor-Associated Proteins in Human Gastric Cancer Cells Treated with Pectolinarigenin.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6265996/",
+      "xml_file": "primary.xml",
+      "xml_sha256": "34a4b2759379adeebce475a0613a7610c81573e1d23f834976ff38dcbbc8edfa",
+      "pubmed_file": "pubmed-current.xml",
+      "pubmed_sha256": "f4924bacfebee6706b08611255f0d0455305a94ea8b34a9ca6362eb0446edd04",
+      "asset_zip": "assets.zip",
+      "asset_zip_sha256": "127e48300210dfa5b63c035be5ac987b12caef236391db26ddfc3b14ff7348b9",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "indexed_comments_corrections": []
+    },
+    {
+      "pmid": "38361124",
+      "pmcid": "PMC10869406",
+      "doi": "10.1007/s11033-023-09046-4",
+      "title": "Pectolinarigenin regulates the tumor-associated proteins in AGS-xenograft BALB/c nude mice.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10869406/",
+      "xml_file": "followup-2024.xml",
+      "xml_sha256": "1d86cae88cd375b6f18ed6535b1f7ea8ab085e58a4e264d0d53e744ade2dcd6f",
+      "pubmed_file": "pubmed-followup-current.xml",
+      "pubmed_sha256": "7de847253f91aa008d67e1f8770535ebfff0c864a588b693010bc5a4e858c72d",
+      "asset_zip": "followup-2024-assets.zip",
+      "asset_zip_sha256": "4f1cd3e1747b56c067bc3130f72a938f3824dd37987f4fa5649ea7e41834339d",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "indexed_comments_corrections": []
+    }
+  ],
+  "experiments_2018": {
+    "models": [
+      "AGS human gastric cancer cells (Korean Cell Line Bank)",
+      "MKN28 human gastric cancer cells (Korean Cell Line Bank)"
+    ],
+    "cell_identity_limit": {
+      "registry_url": "https://www.cellosaurus.org/CVCL_1416",
+      "status": "MKN28 is a contaminated/misidentified MKN74 derivative, ICLAC-00328; still gastric carcinoma lineage",
+      "stock_STR_and_mycoplasma_testing": "not reported in inspected paper"
+    },
+    "viability": {
+      "assay": "MTT metabolic signal",
+      "time_hours": 24,
+      "figure_doses_uM": [
+        0,
+        25,
+        50,
+        75,
+        100,
+        125,
+        150
+      ],
+      "methods_doses_uM": [
+        0,
+        25,
+        50,
+        75,
+        100,
+        150,
+        200
+      ],
+      "results_doses_uM": [
+        0,
+        25,
+        50,
+        75,
+        100,
+        150
+      ],
+      "comparator": "DMSO control; final percentage not reported",
+      "reported_ic50_uM": {
+        "AGS": 124.79,
+        "MKN28": 96.88
+      },
+      "positive": "reduced MTT at each plotted nonzero concentration, marked P<.05 vs control",
+      "replication": "at least three independent experiments; general statement experiments three times by triplicate",
+      "statistics": "mean±SD; Student t-test in Figure1 caption",
+      "limits": [
+        "MTT does not isolate death from proliferation/metabolic effects",
+        "direct apoptosis/autophagy/cell-cycle experiments in discussion attributed to earlier source outside this qualification",
+        "no normal cell comparator or recovery/function assay"
+      ]
+    },
+    "BUB1B": {
+      "measurement": "silver-stained 2-DE protein spot assigned by MALDI peptide-mass fingerprinting; not RNA or BUBR1-specific immunoblot",
+      "model": "AGS",
+      "exposure_uM": 100,
+      "time_hours": 24,
+      "table": 1,
+      "row": 8,
+      "spot": 1147,
+      "accession": "O60566",
+      "direction": "down",
+      "reported_fold_magnitude": 1.9,
+      "nominal_ANOVA_p": 0.014,
+      "adjusted_p": null,
+      "sequence_coverage_percent": 12.2,
+      "matched_peptides": 12,
+      "MOWSE_score": 2570000,
+      "theoretical_mass_Da": 119546,
+      "theoretical_pI": 5.2,
+      "normalization": "equal300µg protein; software spot-volume comparison. Full normalization algorithm and individual spot values unavailable",
+      "replicate_limit": "triplicate gels and independent-experiment statements do not map technical versus independent culture units clearly",
+      "identification_limit": "Figure2 labels spot1147 near30kDa versus theoretical119.5kDa; unresolved fragment/assignment/labelling explanation",
+      "unmeasured": [
+        "BUB1B RNA",
+        "full-length or total BUBR1 validation",
+        "BUB1B causal mediation",
+        "checkpoint function",
+        "chromosome segregation",
+        "MVA rescue"
+      ]
+    },
+    "other_validation": {
+      "immunoblots": [
+        "LRSAM1",
+        "DDX4",
+        "PI3K-beta",
+        "CIP2A"
+      ],
+      "normalizer": "beta-actin",
+      "caveats": [
+        "AGS LRSAM1 proteomic direction disagrees with immunoblot; authors acknowledge",
+        "Figure7 blots/methods100µM but three densitometry charts50µM"
+      ]
+    },
+    "supplement": "No scientific supplement/raw proteomic spectra/deposition found in article metadata; public supplementaryFiles ZIP is figure images only"
+  },
+  "experiments_2024": {
+    "model": "female BALB/c nude mice,5weeks at receipt; subcutaneous ATCC AGS/Matrigel xenograft",
+    "randomization": "authors report random allocation at approximately100mm³ tumors",
+    "n_per_group": 6,
+    "blinding": "not described",
+    "arms": [
+      {
+        "name": "VC",
+        "intervention": "5%DMSO vehicle"
+      },
+      {
+        "name": "PC",
+        "intervention": "5-fluorouracil",
+        "dose_mg_kg": 10
+      },
+      {
+        "name": "T1",
+        "intervention": "pectolinarigenin",
+        "dose_mg_kg": 25
+      },
+      {
+        "name": "T2",
+        "intervention": "pectolinarigenin",
+        "dose_mg_kg": 50
+      }
+    ],
+    "regimen": {
+      "route": "intraperitoneal",
+      "frequency_per_week": 3,
+      "duration_weeks": 3
+    },
+    "tumor_outcome": {
+      "positive": "reported lower tumor growth burden and endpoint weight; Figure1 marks high-dose PEC and5-FU comparisons vs vehicle",
+      "low_dose_significance": "Figure1C/D do not mark25mg/kg comparison significant",
+      "not_shown": [
+        "tumor regression from baseline",
+        "survival benefit"
+      ],
+      "table1": {
+        "units": {
+          "volume": "mm³",
+          "weight": "mg",
+          "variability": "reported SD"
+        },
+        "VC": {
+          "volume_mean": 659.14,
+          "volume_sd": 249.27,
+          "weight_mean": 276.26,
+          "weight_sd": 150.19
+        },
+        "PC": {
+          "volume_mean": 237.73,
+          "volume_sd": 119.67,
+          "weight_mean": 151.21,
+          "weight_sd": 121.13,
+          "growth_inhibition_percent": 63.93
+        },
+        "T1": {
+          "volume_mean": 462.09,
+          "volume_sd": 214.34,
+          "weight_mean": 216.3,
+          "weight_sd": 107.55,
+          "growth_inhibition_percent": 29.89
+        },
+        "T2": {
+          "volume_mean": 321.78,
+          "volume_sd": 102.81,
+          "weight_mean": 181.3,
+          "weight_sd": 123.04,
+          "growth_inhibition_percent": 51.18
+        }
+      },
+      "statistics": "one-wayANOVA described; Figure1 P<.05 stars, exactP/raw animal values unavailable",
+      "discrepancies": [
+        "Results panel citations differ from actual Figure1 caption/axes",
+        "Figure1D T2 mean visually approximately145mg whereasTable1 says181.30mg; not digitized or resolved"
+      ]
+    },
+    "tolerability": {
+      "author_report": "no significant body weight/hematological/blood-chemistry differences over3weeks",
+      "blood_chemistry": [
+        "AST",
+        "ALT",
+        "urea",
+        "creatinine",
+        "triglycerides",
+        "total cholesterol"
+      ],
+      "comparison_p_values": "not supplied inTables2–3",
+      "limits": [
+        "all groups tumor-bearing",
+        "no healthy/non-tumor drug group",
+        "no normal-cell viability or organ histology",
+        "no developmental or long-term safety assessment",
+        "no inference of clinical or pediatric harm"
+      ]
+    },
+    "proteomics": {
+      "reported_protein_count": 582,
+      "supplement_numbered_rows": 582,
+      "reported_up": 168,
+      "reported_down": 414,
+      "discussion_conflicting_count": 512,
+      "identification_FDR": "1% peptide FDR with BH stated",
+      "differential_filter": "fold≥1.5 and nominalP<.05; adjusted abundanceP not provided",
+      "replication": "n=6 animals does not specify number of separately analyzed tumor proteomes; pooling/biological replicate map unresolved",
+      "normalization": "label-free quantification/grouped abundance; full reconstruction unavailable",
+      "data_availability": "datasets available from corresponding author on reasonable request; no request made",
+      "BUB1B": "not found in inspected main tables/text or automated BUB/O60566/checkpoint search across all10supplement pages; this is not a biological null"
+    },
+    "qPCR": {
+      "model": "AGS cells",
+      "doses_uM": [
+        0,
+        50,
+        100
+      ],
+      "duration": "not specified",
+      "normalizer": "GAPDH",
+      "Figure4G_significant_markers": {
+        "ANXA11": [
+          100
+        ],
+        "CAMK2D": [
+          50,
+          100
+        ],
+        "CTSD": [
+          50,
+          100
+        ]
+      },
+      "Figure4G_unstarred": [
+        "EIF4E",
+        "MAPK1",
+        "RHOA"
+      ],
+      "limit": "all-six significantRNA validation not supported; absence of stars is no reported significance, not equivalence proof"
+    },
+    "supplement_graph_conflict": {
+      "example": "MAPK1",
+      "supplement_row": 580,
+      "accession": "P28482",
+      "supplement_grouped_abundances": {
+        "VC": 146,
+        "PC": 96.1,
+        "T1": 91.4,
+        "T2": 66.4
+      },
+      "Figure4E": "T1/T2 heights appear reversed; direction belowVC persists but dose attribution is unresolved"
+    }
+  },
+  "MVA_relevance": {
+    "measured_BUBR1_deficiency_model": false,
+    "measured_normal_function_rescue": false,
+    "functional_positive_scope": "cancer growth inhibition, including treated animals",
+    "competitive_assessment": "Preserve experimental cancer positive. Does not displace provisional niacin restoration or apitegromab compensation as an MVA lead; both comparators also unproven inMVA. Preliminary BUB1B-spot decrease cannot establish restoration, inhibition of totalBUBR1, or harm.",
+    "no_claims": [
+      "dietary efficacy",
+      "plant-extract equivalence",
+      "MVA efficacy",
+      "MVA harm",
+      "human dosing/treatment recommendation"
+    ]
+  },
+  "notice_status": {
+    "checked_date": "2026-09-23",
+    "fresh_pubmed_linked_notices": [],
+    "bounded_DOI_notice_search": "no matching indexed correction/retraction found; not exhaustive integrity guarantee",
+    "mislinked_identifier_resolved": {
+      "pmid": "30597920",
+      "pmcid": "PMC6357030",
+      "doi": "10.3390/nu11010060",
+      "actual_topic": "Fuzhuan-brick tea UVB/photoaging; unrelated, not a PEC correction"
+    },
+    "queries": [
+      "\"10.1007/s11033-023-09046-4\" correction retraction;primaryPubMed/PMC/Springerdomains",
+      "\"10.3390/nu10111596\" correction retraction;primaryPubMed/PMC/MDPIdomains"
+    ]
+  },
+  "unresolved_questions": [
+    "2018spot1147 molecular-mass mismatch and peptide identity/raw spectra",
+    "independent biological replicate/normalization details for both proteomic datasets",
+    "2018dose labels and LRSAM1 validation mismatch",
+    "2024PEC supplier/purity and in-vitro duration",
+    "2024Figure1/Table1 quantitative mismatch",
+    "2024Figure4/supplement group assignment",
+    "healthy-cell/normal-function/BUB1B-deficiency efficacy not tested in these sources"
+  ],
+  "reading_scope_manifest": "read-scope.json",
+  "retrieval_manifest": "retrieval-manifest.json",
+  "asset_manifest": "asset-manifest.json",
+  "parent_integration": {
+    "date": "2026-09-23",
+    "baseline": "ae94f0f0e4d9ef6cb0d0c967b0cb5079e28a27fd",
+    "external_source_root": "selenium-flavone-followups-20260923/pectolinarigenin",
+    "source_md_sha256": "99b3160bbcf98570209be4b7ed2ecd709b08d74afbb3afeb9aa250273be8cfa3",
+    "source_json_sha256": "1c13fb8b5a85af14e18598ff38db82b4d62938ff81514a3b5c9d745cc56a79b9",
+    "extra_outer_reading_credit": 0,
+    "new_ids": [
+      "new-pectolinarigenin"
+    ],
+    "root_checks": [
+      "Root visually checked 2018 Figure2 spot1147 near30kDa and 2024 Figure1 tumor/weight/body-weight panels. No independent complete re-reading or raw-data reproduction."
+    ]
+  }
+}

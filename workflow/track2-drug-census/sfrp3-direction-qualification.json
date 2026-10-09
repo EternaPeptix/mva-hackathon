@@ -1,0 +1,107 @@
+{
+  "assessed_date": "2026-09-22",
+  "extra_abstract_credit": 0,
+  "independent_review_this_update": false,
+  "biological_replication": false,
+  "primary_source": {
+    "pmid": "41136336",
+    "pmcid": "PMC12677132",
+    "doi": "10.1523/JNEUROSCI.0049-25.2025",
+    "url": "https://doi.org/10.1523/JNEUROSCI.0049-25.2025",
+    "read_depth": "Complete main Introduction, Methods, Results, Discussion and all six figure captions. Images 2, 4 and 5 inspected; other downloaded images not visually reviewed. No raw-data reanalysis.",
+    "retrieved_main": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12677132/?report=xml",
+      "file": "41136336-full.html",
+      "bytes": 290669,
+      "sha256": "78e4ef78def12ffaf9c950064307a885dc6485b4347162cafa2e7d78c91faeec",
+      "content_type": "text/html; charset=utf-8",
+      "retrieved_at": "2026-09-23T06:26:45.398738+00:00",
+      "raw_payload_location": "External to repository"
+    },
+    "failed_supplement_request": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12677132/supplementaryFiles",
+      "file": "41136336-assets.zip",
+      "bytes": 297,
+      "sha256": "0d38c37f8542c98f8833fe181966b905a8a082e292cab5de9f4d9998c665d732",
+      "content_type": "application/xml",
+      "retrieved_at": "2026-09-23T06:26:46.105486+00:00",
+      "raw_payload_location": "External to repository",
+      "status": "XML error response, not a valid supplementary archive"
+    }
+  },
+  "model": {
+    "context": "J20 APP mice with excess neural stem-cell division and later pool depletion, compared with nontransgenic littermates",
+    "sex": "Both sexes",
+    "allocation": "Semirandom by birth order, balanced age, sex and genotype; no formal randomization",
+    "blinding": "Blinded analysis stated",
+    "not_an_MVA_or_muscle_model": true
+  },
+  "protein_arm": {
+    "name": "Recombinant sFRP3",
+    "manufacturer": "R&D Systems",
+    "catalog_species_tag_lot": "Unreported",
+    "exposure": "120 ng/day continuous intracerebroventricular infusion for 14 days beginning at one month",
+    "control": "PBS",
+    "n_per_group": "5–8 mice",
+    "endpoint": "Ki67-positive fraction among Nestin-positive neural stem cells",
+    "figure": "4B",
+    "APP_treated_vs_APP_control_P": 0.009,
+    "positive": "Reduced excessive proliferating fraction",
+    "unmeasured": [
+      "Long-term stem-cell preservation in the infused-protein arm",
+      "Cognition in the infused-protein arm",
+      "BUBR1",
+      "Muscle output",
+      "Chromosome fidelity"
+    ],
+    "current_listing": {
+      "url": "https://www.rndsystems.com/products/recombinant-human-sfrp-3-protein_192-sf",
+      "identity": "Current recombinant human research sFRP3 product",
+      "historical_equivalence": "Not established; do not assign this catalog number to the study"
+    }
+  },
+  "AAV_arm": {
+    "intervention": "AAV2 Prox1-sFRP3 versus Prox1-GFP control",
+    "distinct_from_infused_protein": true,
+    "additional_compound_count": 0,
+    "followup": "Approximately 2.5 months after injection at age one month",
+    "viral_genome_dose_and_final_dilution": "Unreported",
+    "expression": "Approximately 20-fold RNA and fourfold protein",
+    "pool_preservation": "Total Nestin-positive pool retained with lower proliferating fraction; Figure4I/J, n6–9 mice/group",
+    "immature_neuron_null": "DCX neuroblast and immature-neuron counts not rescued; APP contrasts P=.83 and P=.766",
+    "behavior": {
+      "n_per_group": "9–15 mice",
+      "reported_comparison": "Paired training versus test within each group",
+      "APP_treated_P": 0.01,
+      "APP_control_P": 0.399,
+      "limit": "Difference of significance is not a treatment interaction; no validated between-treatment behavioral effect size inferred."
+    },
+    "spines": {
+      "positive": "Partial dendritic/spine recovery pattern",
+      "unit_limit": "Multiple dendrite segments per mouse; tests do not describe mouse-level clustering",
+      "disease_specificity": "Some spine effects also present in nontransgenic animals"
+    },
+    "EEG": "Within-group time comparisons do not establish a treatment-by-time antiseizure benefit."
+  },
+  "levetiracetam_arm": {
+    "exposure": "75 mg/kg intraperitoneally three times daily for 14 days from 1.5 months",
+    "control": "Saline",
+    "positive": "Higher Frzb RNA in treated APP group; Figure2E P=.037",
+    "excluded": "Two treated APP mice excluded because seizure burden did not decrease",
+    "n": "Caption literal 36 per group conflicts with points and ANOVA degrees of freedom; not silently converted to presumed 3–6",
+    "interpretation": "Selected-responder RNA result, not all-treated effect or newly measured cognition/BUBR1 benefit",
+    "earlier_work": "Earlier cited levetiracetam functional work not newly reviewed or counted as replication here"
+  },
+  "other_administered_roles": {
+    "kainic_acid_and_pilocarpine": "Seizure induction, not rescue leads in this paper",
+    "ancillary_agents": "Scopolamine, terbutaline, ethosuximide, diazepam and supportive fluids have protocol/support roles; no separate qualified efficacy arm here"
+  },
+  "BUBR1_context": "Earlier hypomorphic BubR1 models start with deficient division and benefit from genetic sFRP3 reduction; J20 APP starts with excess division and is studied with sFRP3 addition. Read the actual defect before choosing direction. Earlier qualified genetic evidence is preserved; cited Cho2019 has not been newly read here.",
+  "decision": "Add protein as a direction-dependent research reagent and levetiracetam as a seizure-context comparator. Neither establishes MVA efficacy or displaces either provisional nominee.",
+  "followup_of": {
+    "ledger": "outer-revalidation-next128-review.json",
+    "source": "MED",
+    "record_id": "41136336",
+    "status": "Bounded primary qualification now available; clinical transfer and specified source questions remain open"
+  }
+}

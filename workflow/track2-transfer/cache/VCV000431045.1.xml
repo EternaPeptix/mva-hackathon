@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive RecordType="classified" VariationID="431045" VariationName="NM_004237.4(TRIP13):c.1060C&gt;T (p.Arg354Ter)" VariationType="single nucleotide variant" Accession="VCV000431045" Version="1" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2022-04-25" DateCreated="2017-07-31" MostRecentSubmission="2017-07-31">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="424574" VariationID="431045">
+      <GeneList>
+        <Gene Symbol="TRIP13" FullName="thyroid hormone receptor interactor 13" GeneID="9319" HGNC_ID="HGNC:12307" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>5p15.33</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="892884" stop="919348" display_start="892884" display_stop="919348" Strand="+"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="892968" stop="918163" display_start="892968" display_stop="918163" Strand="+"/>
+          </Location>
+          <OMIM>604507</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_004237.4(TRIP13):c.1060C&gt;T (p.Arg354Ter)</Name>
+      <CanonicalSPDI>NC_000005.10:914503:C:T</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>5p15.33</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="5" Accession="NC_000005.10" start="914504" stop="914504" display_start="914504" display_stop="914504" variantLength="1" positionVCF="914504" referenceAlleleVCF="C" alternateAlleleVCF="T"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="5" Accession="NC_000005.9" start="914619" stop="914619" display_start="914619" display_stop="914619" variantLength="1" positionVCF="914619" referenceAlleleVCF="C" alternateAlleleVCF="T"/>
+      </Location>
+      <ProteinChange>R354*</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.10" sequenceAccession="NC_000005" sequenceVersion="10" change="g.914504C&gt;T" Assembly="GRCh38">
+            <Expression>NC_000005.10:g.914504C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000005.9" sequenceAccession="NC_000005" sequenceVersion="9" change="g.914619C&gt;T" Assembly="GRCh37">
+            <Expression>NC_000005.9:g.914619C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_004237.4" sequenceAccession="NM_004237" sequenceVersion="4" change="c.1060C&gt;T" MANESelect="true">
+            <Expression>NM_004237.4:c.1060C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_004228.1" sequenceAccession="NP_004228" sequenceVersion="1" change="p.Arg354Ter" singleLetterProteinChange="R354*">
+            <Expression>NP_004228.1:p.Arg354Ter</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001587" Type="nonsense" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA359043457" DB="ClinGen"/>
+        <XRef Type="Allelic variant" ID="604507.0001" DB="OMIM"/>
+        <XRef Type="rs" ID="376882637" DB="dbSNP"/>
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_004237.4(TRIP13):c.1060C&gt;T (p.Arg354Ter) AND Mosaic variegated aneuploidy syndrome 3" Accession="RCV000496081" Version="1">
+        <ClassifiedConditionList TraitSetID="36937">
+          <ClassifiedCondition DB="MedGen" ID="C4539839">Mosaic variegated aneuploidy syndrome 3</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2017-07-27" SubmissionCount="1">Pathogenic</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2017-07-27" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2017-07-31" MostRecentSubmission="2017-07-31">
+        <ReviewStatus>no assertion criteria provided</ReviewStatus>
+        <Description>Pathogenic</Description>
+        <Explanation DataSource="ClinVar" Type="public">Pathogenic (1)</Explanation>
+        <Citation Type="general">
+          <ID Source="PubMed">28553959</ID>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="36937" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="37951" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Mosaic variegated aneuploidy syndrome 3</ElementValue>
+                <XRef ID="MONDO:0054736" DB="MONDO"/>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">MVA3</ElementValue>
+                <XRef Type="MIM" ID="617598" DB="OMIM"/>
+              </Symbol>
+              <XRef ID="C4539839" DB="MedGen"/>
+              <XRef ID="MONDO:0054736" DB="MONDO"/>
+              <XRef Type="MIM" ID="617598" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1139440" SubmissionDate="2017-07-27" DateLastUpdated="2017-07-31" DateCreated="2017-07-31" ContributesToAggregateClassification="true">
+        <ClinVarSubmissionID localKey="604507.0001_MOSAIC VARIEGATED ANEUPLOIDY SYNDROME 3" title="TRIP13, ARG354TER_MOSAIC VARIEGATED ANEUPLOIDY SYNDROME 3"/>
+        <ClinVarAccession Accession="SCV000584191" DateUpdated="2017-07-31" DateCreated="2017-07-31" Type="SCV" Version="1" SubmitterName="OMIM" OrgID="3" OrganizationCategory="resource"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-07-27">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Pathogenic</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species>human</Species>
+              <AffectedStatus>not provided</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>literature only</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">In 5 unrelated patients of Pakistani or Asian origin with mosaic variegated aneuploidy syndrome-3 (MVA3; 617598) manifest as early-onset Wilms tumor, Yost et al. (2017) identified a homozygous c.1060C-T transition (c.1060C-T, NM_004237) in the TRIP13 gene, resulting in an arg354-to-ter (R354X) substitution. The mutation, which was found by exome sequencing in the first 3 individuals, segregated with the disorder in the families from which parental DNA was available. It was not found in the ExAC database or in 11,677 in-house control exomes. The mutation resulted in nonsense-mediated mRNA decay and absence of detectable TRIP13 protein in patient cells, consistent with a loss of function. The mutant protein was unable to rescue spindle assembly checkpoint defects in a cell line with CRISPR-Cas9-mediated knockdown of TRIP13.</Attribute>
+              <Citation>
+                <ID Source="PubMed">28553959</ID>
+              </Citation>
+              <XRef DB="OMIM" ID="617598" Type="MIM"/>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TRIP13"/>
+          </GeneList>
+          <Name>TRIP13, ARG354TER</Name>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="NonHGVS">ARG354TER</Name>
+          </OtherNameList>
+          <XRefList>
+            <XRef DB="OMIM" ID="604507.0001" Type="Allelic variant"/>
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">MOSAIC VARIEGATED ANEUPLOIDY SYNDROME 3</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1139440" TraitType="Disease" MappingType="Name" MappingValue="MOSAIC VARIEGATED ANEUPLOIDY SYNDROME 3" MappingRef="Preferred">
+        <MedGen CUI="C4539839" Name="Mosaic variegated aneuploidy syndrome 3"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

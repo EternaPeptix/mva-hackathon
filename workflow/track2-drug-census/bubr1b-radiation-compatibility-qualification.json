@@ -1,0 +1,44 @@
+{
+  "assessed_date": "2026-09-29",
+  "source": {
+    "pmid": "40910254",
+    "pmcid": "PMC12426588",
+    "doi": "10.3892/or.2025.8980",
+    "title": "BUB1B promotes homologous recombination-mediated DNA damage repair in breast cancer cells through the PI3K/AKT signaling pathway",
+    "url": "https://www.spandidos-publications.com/10.3892/or.2025.8980/download",
+    "publication_date": "2025-09-05",
+    "reading_scope": "Targeted primary-source reading of relevant model, shRNA, radiation assay, Results and figure-caption sections; no raw data reanalysis or full-paper independent reproduction."
+  },
+  "experiment": {
+    "cell_line": "MDA-MB-231 breast cancer cells",
+    "intervention": "Stable shRNA BUB1B knockdown versus non-targeting control",
+    "radiation": "8 Gy ionizing radiation; reported dose rate 1 Gy/min for gamma-H2AX immunofluorescence; neutral comet assay at 2 hours after 8 Gy",
+    "xenograft": {
+      "intervention": "Unirradiated xenograft from control or shBUB1B MDA-MB-231 cells",
+      "n_per_group": 5,
+      "result": "Tumor growth lower in the BUB1B-knockdown group"
+    }
+  },
+  "findings": {
+    "without_radiation": [
+      "BUB1B knockdown reduced proliferation/colony formation and EdU incorporation"
+    ],
+    "after_radiation": [
+      "BUB1B knockdown reduced G2/M accumulation",
+      "BUB1B knockdown increased gamma-H2AX signal",
+      "BUB1B knockdown increased neutral-comet tail moment",
+      "BUB1B knockdown reduced RAD51 protein"
+    ],
+    "direct_clonogenic_radiation_survival_measured": false,
+    "irradiated_xenograft_measured": false,
+    "BUB1B_increasing_drug_tested": false,
+    "MVA_or_muscle_model": false
+  },
+  "competitive_implication": {
+    "classification": "Tumor-compatibility context, not a drug efficacy candidate",
+    "inference": "A BUBR1-restoring intervention could alter tumor DNA-damage responses if it changes tumor-cell BUBR1; this paper does not establish that restoration promotes radioresistance or worsens cancer outcomes.",
+    "design_consequence": "If radiation is part of the confirmed oncology regimen, test the actual candidate with and without that regimen in a relevant tumor model, separately from nonmalignant muscle function.",
+    "nomination_changed": false,
+    "appraisal_count_changed": false
+  }
+}

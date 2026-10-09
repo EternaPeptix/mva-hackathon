@@ -1,0 +1,583 @@
+{
+  "scope": "All saved source-record abstract slots; same saved specific-alias policy. Identity-level outputs only; no raw abstracts.",
+  "input_sha256": {
+    "literature-gene-unrestricted.json": "e5b8b017bb68af38818f1cc8c1bee47adb16afe0367981104a6b17886d2954d9",
+    "literature_match.py": "17ecf93a27d3a30a0e4179c0506f11327fbd0814464d4ad44d3e3c3e6789a0ad",
+    "broad_hub_screen.py": "e68a4be2aace30846e9b5ae27a66463336d2671a5701246ad25323ff3d8b4dac",
+    "literature-alias-policy.tsv": "bfc5307673bd2a3b6d7d6326306e2e71ef4df9f6461cbfdc07891737b16e01f8",
+    "literature-mentions.tsv": "aa2a6787d04b2e284b7217f4b87b5c9027308afc28f5ba77ded16631158ced6d"
+  },
+  "input_hashes_unchanged_during_audit": true,
+  "script_sha256": "1b0f8a618e232366355ef1d86edada7c5c888f9120632cb11f6f726a1c2b454e",
+  "policy": {
+    "rows": 92792,
+    "specific_aliases": 42592,
+    "ambiguous_aliases_excluded": 50200
+  },
+  "counts": {
+    "source_records": 7362,
+    "nonempty_raw_abstracts": 7191,
+    "missing_raw_abstracts": 171,
+    "legacy_direct_gene_records": 1455,
+    "new_direct_gene_records": 1460,
+    "all_record_matches_equal_under_regex_only_repair_and_full_new": 7362,
+    "normalized_abstracts_changed": 260,
+    "normalized_titles_changed": 56,
+    "abstracts_with_nonformat_spans_removed_by_legacy": 263,
+    "nonformat_spans_removed_by_legacy": 338,
+    "legacy_nonformat_spans_containing_retained_tokens": 334,
+    "records_with_retained_tokens_in_legacy_nonformat_spans": 260,
+    "new_retained_tokens_inside_legacy_removed_nonformat_spans": 15696,
+    "records_with_specific_alias_delta": 11,
+    "legacy_specific_catalog_record_rows": 1779,
+    "new_specific_catalog_record_rows": 1811,
+    "specific_catalog_record_rows_gained": 32,
+    "specific_catalog_record_rows_lost": 0,
+    "specific_catalog_record_alias_rows_gained": 33,
+    "specific_catalog_record_alias_rows_lost": 0
+  },
+  "baseline_reproduction": {
+    "catalog_record_rows_equal_saved": true,
+    "catalog_record_alias_rows_equal_saved": true,
+    "computed_only_rows": [],
+    "saved_only_rows": []
+  },
+  "direct_gene_flag_deltas": [
+    {
+      "source": "MED",
+      "record_id": "41983084",
+      "pmid": "41983084",
+      "pmcid": "PMC13075858",
+      "doi": "10.3389/fgene.2026.1785259",
+      "legacy_match": false,
+      "new_match": true
+    },
+    {
+      "source": "MED",
+      "record_id": "39952875",
+      "pmid": "39952875",
+      "pmcid": null,
+      "doi": "10.1016/j.hbpd.2025.01.003",
+      "legacy_match": false,
+      "new_match": true
+    },
+    {
+      "source": "PPR",
+      "record_id": "PPR170445",
+      "pmid": null,
+      "pmcid": null,
+      "doi": "10.21203/rs.3.rs-31510/v1",
+      "legacy_match": false,
+      "new_match": true
+    },
+    {
+      "source": "MED",
+      "record_id": "33417716",
+      "pmid": "33417716",
+      "pmcid": null,
+      "doi": "10.1093/humrep/deaa347",
+      "legacy_match": false,
+      "new_match": true
+    },
+    {
+      "source": "MED",
+      "record_id": "19139432",
+      "pmid": "19139432",
+      "pmcid": null,
+      "doi": "10.1200/jco.2008.18.5678",
+      "legacy_match": false,
+      "new_match": true
+    }
+  ],
+  "gained_catalog_record_rows": [
+    [
+      "MED",
+      "19002265",
+      "CHEMBL11359"
+    ],
+    [
+      "MED",
+      "25023465",
+      "CHEMBL235363"
+    ],
+    [
+      "MED",
+      "25564371",
+      "CHEMBL1095097"
+    ],
+    [
+      "MED",
+      "26676187",
+      "CHEMBL9514"
+    ],
+    [
+      "MED",
+      "32228488",
+      "CHEMBL1201112"
+    ],
+    [
+      "MED",
+      "32228488",
+      "CHEMBL428690"
+    ],
+    [
+      "MED",
+      "34771604",
+      "CHEMBL417"
+    ],
+    [
+      "MED",
+      "34771604",
+      "CHEMBL92"
+    ],
+    [
+      "MED",
+      "36685838",
+      "CHEMBL553"
+    ],
+    [
+      "MED",
+      "36685838",
+      "CHEMBL554"
+    ],
+    [
+      "MED",
+      "37959410",
+      "CHEMBL3137343"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL105"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL1201752"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL185"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL1972860"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL288441"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL325041"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL3301587"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL34259"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL428647"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL521686"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL53463"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL810"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL88"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL888"
+    ],
+    [
+      "MED",
+      "38143740",
+      "CHEMBL939"
+    ],
+    [
+      "MED",
+      "39512465",
+      "CHEMBL1236682"
+    ],
+    [
+      "MED",
+      "39512465",
+      "CHEMBL1614701"
+    ],
+    [
+      "MED",
+      "39512465",
+      "CHEMBL2103875"
+    ],
+    [
+      "MED",
+      "40847407",
+      "CHEMBL1364"
+    ],
+    [
+      "MED",
+      "40847407",
+      "CHEMBL397976"
+    ],
+    [
+      "MED",
+      "40847407",
+      "DC4466"
+    ]
+  ],
+  "lost_catalog_record_rows": [],
+  "limitations": [
+    "This is a reproducible decoder and lexical-match comparison, not efficacy or drug-intervention qualification.",
+    "The cause of the separate 3,598-record manual annotation errors remains UNKNOWN; this comparison does not prove that those readers used this decoder.",
+    "No historical counts, repository files, catalogs, aliases or saved appraisals were rebuilt or changed."
+  ],
+  "specific_alias_deltas": [
+    {
+      "source": "MED",
+      "record_id": "40847407",
+      "pmid": "40847407",
+      "doi": "10.1186/s12935-025-03937-1",
+      "gained": [
+        {
+          "normalized_alias": "eosin",
+          "catalog_ids": [
+            "DC4466"
+          ]
+        },
+        {
+          "normalized_alias": "l pyroglutamic acid",
+          "catalog_ids": [
+            "CHEMBL397976"
+          ]
+        },
+        {
+          "normalized_alias": "pyridoxine",
+          "catalog_ids": [
+            "CHEMBL1364"
+          ]
+        }
+      ],
+      "lost": [],
+      "same_with_legacy_titles": true,
+      "generic_regex_only_repair_reproduces_result": true
+    },
+    {
+      "source": "MED",
+      "record_id": "39512465",
+      "pmid": "39512465",
+      "doi": "10.1016/j.heliyon.2024.e38729",
+      "gained": [
+        {
+          "normalized_alias": "refametinib",
+          "catalog_ids": [
+            "CHEMBL1236682"
+          ]
+        },
+        {
+          "normalized_alias": "selumetinib",
+          "catalog_ids": [
+            "CHEMBL1614701"
+          ]
+        },
+        {
+          "normalized_alias": "trametinib",
+          "catalog_ids": [
+            "CHEMBL2103875"
+          ]
+        }
+      ],
+      "lost": [],
+      "same_with_legacy_titles": true,
+      "generic_regex_only_repair_reproduces_result": true
+    },
+    {
+      "source": "MED",
+      "record_id": "37959410",
+      "pmid": "37959410",
+      "doi": "10.3390/jcm12216945",
+      "gained": [
+        {
+          "normalized_alias": "pembrolizumab",
+          "catalog_ids": [
+            "CHEMBL3137343"
+          ]
+        }
+      ],
+      "lost": [],
+      "same_with_legacy_titles": true,
+      "generic_regex_only_repair_reproduces_result": true
+    },
+    {
+      "source": "MED",
+      "record_id": "32228488",
+      "pmid": "32228488",
+      "doi": "10.1186/s12885-020-06728-1",
+      "gained": [
+        {
+          "normalized_alias": "alvocidib",
+          "catalog_ids": [
+            "CHEMBL428690"
+          ]
+        },
+        {
+          "normalized_alias": "nelarabine",
+          "catalog_ids": [
+            "CHEMBL1201112"
+          ]
+        }
+      ],
+      "lost": [],
+      "same_with_legacy_titles": true,
+      "generic_regex_only_repair_reproduces_result": true
+    },
+    {
+      "source": "MED",
+      "record_id": "36685838",
+      "pmid": "36685838",
+      "doi": "10.3389/fgene.2022.1068837",
+      "gained": [
+        {
+          "normalized_alias": "erlotinib",
+          "catalog_ids": [
+            "CHEMBL553"
+          ]
+        },
+        {
+          "normalized_alias": "lapatinib",
+          "catalog_ids": [
+            "CHEMBL554"
+          ]
+        }
+      ],
+      "lost": [],
+      "same_with_legacy_titles": true,
+      "generic_regex_only_repair_reproduces_result": true
+    },
+    {
+      "source": "MED",
+      "record_id": "19002265",
+      "pmid": "19002265",
+      "doi": "10.1371/journal.pone.0003695",
+      "gained": [
+        {
+          "normalized_alias": "cisplatin",
+          "catalog_ids": [
+            "CHEMBL11359"
+          ]
+        }
+      ],
+      "lost": [],
+      "same_with_legacy_titles": true,
+      "generic_regex_only_repair_reproduces_result": true
+    },
+    {
+      "source": "MED",
+      "record_id": "38143740",
+      "pmid": "38143740",
+      "doi": "10.3389/fimmu.2023.1291859",
+      "gained": [
+        {
+          "normalized_alias": "bortezomib",
+          "catalog_ids": [
+            "CHEMBL325041"
+          ]
+        },
+        {
+          "normalized_alias": "bosutinib",
+          "catalog_ids": [
+            "CHEMBL288441"
+          ]
+        },
+        {
+          "normalized_alias": "cyclophosphamide",
+          "catalog_ids": [
+            "CHEMBL88"
+          ]
+        },
+        {
+          "normalized_alias": "doxorubicin",
+          "catalog_ids": [
+            "CHEMBL53463"
+          ]
+        },
+        {
+          "normalized_alias": "durvalumab",
+          "catalog_ids": [
+            "CHEMBL3301587"
+          ]
+        },
+        {
+          "normalized_alias": "elesclomol",
+          "catalog_ids": [
+            "CHEMBL1972860"
+          ]
+        },
+        {
+          "normalized_alias": "fluorouracil",
+          "catalog_ids": [
+            "CHEMBL185"
+          ]
+        },
+        {
+          "normalized_alias": "gefitinib",
+          "catalog_ids": [
+            "CHEMBL939"
+          ]
+        },
+        {
+          "normalized_alias": "gemcitabine",
+          "catalog_ids": [
+            "CHEMBL888"
+          ]
+        },
+        {
+          "normalized_alias": "ixabepilone",
+          "catalog_ids": [
+            "CHEMBL1201752"
+          ]
+        },
+        {
+          "normalized_alias": "methotrexate",
+          "catalog_ids": [
+            "CHEMBL34259"
+          ]
+        },
+        {
+          "normalized_alias": "mitomycin",
+          "catalog_ids": [
+            "CHEMBL105"
+          ]
+        },
+        {
+          "normalized_alias": "mitomycin c",
+          "catalog_ids": [
+            "CHEMBL105"
+          ]
+        },
+        {
+          "normalized_alias": "olaparib",
+          "catalog_ids": [
+            "CHEMBL521686"
+          ]
+        },
+        {
+          "normalized_alias": "paclitaxel",
+          "catalog_ids": [
+            "CHEMBL428647"
+          ]
+        },
+        {
+          "normalized_alias": "temozolomide",
+          "catalog_ids": [
+            "CHEMBL810"
+          ]
+        }
+      ],
+      "lost": [],
+      "same_with_legacy_titles": true,
+      "generic_regex_only_repair_reproduces_result": true
+    },
+    {
+      "source": "MED",
+      "record_id": "34771604",
+      "pmid": "34771604",
+      "doi": "10.3390/cancers13215442",
+      "gained": [
+        {
+          "normalized_alias": "docetaxel",
+          "catalog_ids": [
+            "CHEMBL92"
+          ]
+        },
+        {
+          "normalized_alias": "epirubicin",
+          "catalog_ids": [
+            "CHEMBL417"
+          ]
+        }
+      ],
+      "lost": [],
+      "same_with_legacy_titles": true,
+      "generic_regex_only_repair_reproduces_result": true
+    },
+    {
+      "source": "MED",
+      "record_id": "26676187",
+      "pmid": "26676187",
+      "doi": "10.3748/wjg.v21.i46.13030",
+      "gained": [
+        {
+          "normalized_alias": "nocodazole",
+          "catalog_ids": [
+            "CHEMBL9514"
+          ]
+        }
+      ],
+      "lost": [],
+      "same_with_legacy_titles": true,
+      "generic_regex_only_repair_reproduces_result": true
+    },
+    {
+      "source": "MED",
+      "record_id": "25023465",
+      "pmid": "25023465",
+      "doi": "10.1186/1471-2164-15-595",
+      "gained": [
+        {
+          "normalized_alias": "substance p",
+          "catalog_ids": [
+            "CHEMBL235363"
+          ]
+        }
+      ],
+      "lost": [],
+      "same_with_legacy_titles": true,
+      "generic_regex_only_repair_reproduces_result": true
+    },
+    {
+      "source": "MED",
+      "record_id": "25564371",
+      "pmid": "25564371",
+      "doi": "10.1161/jaha.114.001266",
+      "gained": [
+        {
+          "normalized_alias": "eplerenone",
+          "catalog_ids": [
+            "CHEMBL1095097"
+          ]
+        }
+      ],
+      "lost": [],
+      "same_with_legacy_titles": true,
+      "generic_regex_only_repair_reproduces_result": true
+    }
+  ],
+  "detail_file": "decoder-alias-details.json",
+  "detail_file_scope": "Reproduced outside the repository by audit_text_decoder.py; detailed data not required for the compact identity overlay."
+}

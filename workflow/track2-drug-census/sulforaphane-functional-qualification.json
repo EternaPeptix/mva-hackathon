@@ -1,0 +1,767 @@
+{
+  "schema_version": 1,
+  "candidate_id": "new-source-labelled-sulforaphane",
+  "status": "SOURCE_QUALIFIED_PREPARATION_COMPARISON",
+  "checked_date": "2026-09-27",
+  "baseline": {
+    "git_commit": "e5a4e1cc72681c7af7f799fb8142719324c92f9b",
+    "appraisals": 261
+  },
+  "catalog_matching": "WITHHELD_MIXED_STEREOCHEMICAL_PREPARATIONS",
+  "match_aliases": [],
+  "source_aliases": [
+    "D,L-sulforaphane",
+    "sulforaphane",
+    "SFN"
+  ],
+  "scope": "The candidate is a source-labelled evidence comparison spanning distinct preparations, not an assertion of a common product, interchangeable stereoisomers or catalog absence.",
+  "normalization": {
+    "sulforaphane": "sulforaphane",
+    "(-)-sulforaphane": "sulforaphane",
+    "(r)-sulforaphane": "r sulforaphane",
+    "L-sulforaphane": "l sulforaphane",
+    "D,L-sulforaphane": "d l sulforaphane",
+    "SFN": "sfn"
+  },
+  "catalog_observations": [
+    {
+      "id": "CHEMBL48802",
+      "preferred": "SULFORAPHANE",
+      "observed_aliases": [
+        "Sulforaphane",
+        "(-)-sulforaphane",
+        "(r)-sulforaphane"
+      ],
+      "inchikey_as_reported": "SUVMJBTUFCVSAD-UHFFFAOYSA-N"
+    },
+    {
+      "id": "CHEMBL1627201",
+      "preferred": "L-SULFORAPHANE",
+      "inchikey_as_reported": "SUVMJBTUFCVSAD-JTQLQIEISA-N"
+    }
+  ],
+  "policy": "Source-labelled preparation comparison with empty automatic match_aliases; preserve source_aliases separately. Do not assign generic/R/L catalog identities or current retail equivalence to all source preparations.",
+  "absence_limit": "Withheld joins do not mean sulforaphane is absent from catalogs or unavailable.",
+  "identity_policy_sha256": "19059ee1ab90c24323c313f0777b65caf3d5a6c2549483fc3cba96f36261a906",
+  "conclusion": "Retain source-specific actual-treatment functional research: aged-mouse performance, cardiac function and 12-week survival positives, plus an original-abstract-only diabetic grip positive. Preserve oral mdx nulls, histology and ex vivo colon responses separately. Exclude three withdrawn Sun sources from positive support. The preprint high-concentration PLK1/p-BubR1 result is mechanistic context only. No BUBR1 restoration, MVA benefit, common-product efficacy or superiority to provisional nominees is established.",
+  "evidence_order": [
+    "aging",
+    "diabetic",
+    "muscle",
+    "mitotic"
+  ],
+  "source_specific_qualifications": {
+    "muscle": {
+      "retractions": [
+        {
+          "original_pmid": "25593219",
+          "original_doi": "10.1152/japplphysiol.00744.2014",
+          "notice_pmid": "41793769",
+          "notice_doi": "10.1152/japplphysiol.00744.2014_RET",
+          "notice_online_date": "2026-03-07",
+          "notice_url": "https://journals.physiology.org/doi/full/10.1152/japplphysiol.00744.2014_RET",
+          "reason_paraphrase": "Author-requested; mislabeled samples undermined confidence in conclusions",
+          "positive_efficacy_credit": false
+        },
+        {
+          "original_pmid": "26494449",
+          "original_doi": "10.1152/japplphysiol.00721.2015",
+          "notice_pmid": "41269891",
+          "notice_doi": "10.1152/japplphysiol.00721.2015_RET",
+          "notice_online_date": "2025-11-21",
+          "notice_url": "https://journals.physiology.org/doi/full/10.1152/japplphysiol.00721.2015_RET",
+          "reason_paraphrase": "Author-requested; mislabeled samples undermined confidence in conclusions",
+          "positive_efficacy_credit": false
+        },
+        {
+          "original_pmid": "26013831",
+          "original_doi": "10.1074/jbc.M115.655019",
+          "notice_pmid": "37948900",
+          "notice_doi": "10.1016/j.jbc.2023.105434",
+          "notice_online_date": "2023-11-09",
+          "notice_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10663857/",
+          "reason_paraphrase": "Image reuse and suspected undeclared splicing unresolved by supplied original data; withdrawing authors stood by overall conclusions",
+          "positive_efficacy_credit": false
+        }
+      ],
+      "surviving_source": {
+        "pmid": "34960110",
+        "pmcid": "PMC8706299",
+        "doi": "10.3390/nu13124559",
+        "url": "https://doi.org/10.3390/nu13124559",
+        "preparation": "D,L-sulforaphane, Merck Millipore #574215",
+        "oral_regimen": "2 mg/kg in 2% DMSO/corn oil; gavage once daily, five days/week for four weeks, beginning age four weeks",
+        "models": [
+          "male C57BL/10 mice",
+          "male mdx mice"
+        ],
+        "dose_is_research_description_not_recommendation": true,
+        "native_pixels_reviewed": false,
+        "supplement_retrieved": false,
+        "raw_data_retrieved": false,
+        "BUB1B_assayed": false,
+        "skeletal_strength_assayed": false,
+        "reported_effects": [
+          {
+            "endpoint": "Ex vivo colon contraction count",
+            "treatment": "5 micromolar added after saline-control period",
+            "direction": "reduced in all three tested regions of both genotypes",
+            "denominator": "Figure 1 n=6-7/genotype/group",
+            "test": "Wilcoxon matched-pairs signed rank",
+            "limits": [
+              "nonrandom treatment order",
+              "disease-control baseline difference nonsignificant",
+              "not skeletal force or disease-specific restoration"
+            ]
+          },
+          {
+            "endpoint": "Colon contractions after oral course",
+            "direction": "no detected improvement",
+            "denominator": "Figure 2 n=9-12/genotype/group",
+            "limits": [
+              "corn-oil vehicle erased expected genotype contrast",
+              "null is regimen specific"
+            ]
+          },
+          {
+            "endpoint": "Diaphragm fibrosis",
+            "direction": "reduced in mdx treatment group",
+            "test": "two-way ANOVA with Bonferroni; caption P<.01",
+            "denominator": "Methods n=8/group versus Figure 4 n=11-12/group; unresolved",
+            "effect_size_CI": null,
+            "limits": [
+              "histology rather than respiratory or contractile output"
+            ]
+          },
+          {
+            "endpoint": "Relative liver mass",
+            "direction": "increased in both genotypes",
+            "limits": [
+              "relative mass not established toxicity"
+            ]
+          },
+          {
+            "endpoint": "Measured Nrf2 response after oral treatment",
+            "direction": "no measured induction in examined muscle/colon protein and diaphragm target transcripts",
+            "denominator": "protein n=4/group; RNA Methods n=6/genotype/timepoint versus Figure 5 n=8/group",
+            "limits": [
+              "not pathway-wide absence proof",
+              "not enough evidence for oral target engagement"
+            ]
+          }
+        ],
+        "analysis_limits": [
+          "overall animal total not inferred from inconsistent group wording",
+          "prospective hierarchy unreported",
+          "global correction across endpoints unreported",
+          "randomization/masking not stated in reviewed main",
+          "endpoint-specific n; no reconstructed treatment CI"
+        ],
+        "funding": "Duchenne Parent Project Netherlands",
+        "conflicts": "authors declared none",
+        "notice_check": "No identified exact-paper correction/retraction from bounded query and retained metadata; not exhaustive"
+      },
+      "comparative_limit": "No clinical superiority, actual-allele rescue, BUBR1 mediation or whole-compound efficacy exclusion. Current nominees face the same exposure, useful-function, renewal and fidelity criteria.",
+      "additional_main_and_review_observations": {
+        "oral_nulls": "No detected oral contraction, resting-diameter, fecal-pellet-weight or cecal-mass improvement; no lean or tested-limb-muscle-mass benefit; CK/AST remain elevated.",
+        "non_null_additional_observations": "Normalized weight gain and free-fluid percentage fell; diaphragm Tnfα transcript increased. Relative liver mass increased in both genotypes without an established toxicity diagnosis.",
+        "ex_vivo_design": "Saline first, then 5 µM SFN; four 15-minute recordings in each period; resting diameter unchanged. Contraction counts are not force amplitude.",
+        "other_denominators": "Initial n=20/genotype versus subsequent n=12/group plus n=8/group is unresolved. Figure 3 body-mass n=20/group, composition n=8, tissue weights n=10–12 and serum n=6–8 remain endpoint-specific.",
+        "separate_cultured_myotubes": "5–10 µM SFN raised Nrf2 protein/targets and reduced inflammatory transcripts in a separate main-text cell-culture description. The supplement was unreviewed; these are not oral target engagement or skeletal-strength results.",
+        "reading": "Complete original main narrative and five captions through publisher PDF text/Europe PMC XML. No native pixels, supplement ZIP, raw observations or primer table. Independent review read the retained 27 body paragraphs and captions; no fresh retrieval."
+      }
+    },
+    "aging": {
+      "citation": {
+        "title": "Sulforaphane prevents age-associated cardiac and muscular dysfunction through Nrf2 signaling",
+        "first_author": "Chhanda Bose",
+        "year": 2020,
+        "journal": "Aging Cell",
+        "volume": 19,
+        "issue": 11,
+        "article": "e13261",
+        "doi": "10.1111/acel.13261",
+        "pmid": "33067900",
+        "pmcid": "PMC7681049",
+        "online_date": "2020-10-17",
+        "url": "https://doi.org/10.1111/acel.13261",
+        "license": "CC BY 4.0"
+      },
+      "decision": "Retain a controlled actual-sulforaphane performance and cardiac research comparison with explicit dose, assay and cohort reporting limits. This source prevents a whole-compound negative verdict based only on other withdrawn/null studies, but establishes no clinical/MVA benefit or nominee superiority.",
+      "preparation": {
+        "source_label": "D,L-sulforaphane from Toronto Research Chemicals, North York, ON",
+        "vehicle": "TD 96163 Teklad control diet or the same diet supplemented with SFN, ad libitum for 12 weeks",
+        "catalog_lot_purity_or_measured_stability": null,
+        "dose_conflict": {
+          "Methods_2_1": "442.5 mg/kg body weight",
+          "Figure5_caption": "442.5 mg per kg diet; 3 months",
+          "interpretation": "The original paper itself contains different denominators. Figure 5 explicitly describes a diet concentration. Do not repeat 442.5 mg/kg body weight as a resolved administered dose, silently substitute a diet denominator, or convert to mg/kg/day/HED.",
+          "verified_daily_consumed_mg_per_kg_body_weight": null,
+          "verified_tissue_exposure": null
+        },
+        "retail_food_glucoraphanin_or_enantiopure_equivalence": false
+      },
+      "design": {
+        "species_strain": "Male C57BL/6 mice; Discussion labels C57BL/B6J",
+        "starting_age_months": {
+          "young": 2,
+          "old": "21-22"
+        },
+        "duration_weeks": 12,
+        "old_endpoint_age_months": "24-25",
+        "groups": [
+          "young control",
+          "young SFN diet",
+          "old control",
+          "old SFN diet"
+        ],
+        "allocation": "Diet-controlled actual compound experiment; random allocation, concealment and blinded assessment are not reported in the reviewed Methods.",
+        "Methods_group_count": "Four groups n=10/group; n=20/control groups and n=20/treated groups; experiment repeated with same number under similar conditions for certain experiments.",
+        "total_unique_animals": null,
+        "cohort_pooling_map": "Not provided; do not independently credit a second replication or sum repeats into a claimed animal denominator."
+      },
+      "outcomes": [
+        {
+          "endpoint": "Hanging/inverted-screen performance, described as grip strength",
+          "anchor": "Methods 2.4, Results SFN improves exercise capacity, Fig.2a caption",
+          "reported_means_SD_seconds": {
+            "young_control": [
+              54,
+              5
+            ],
+            "young_SFN": [
+              64,
+              13
+            ],
+            "old_control": [
+              39,
+              5
+            ],
+            "old_SFN": [
+              86,
+              12
+            ]
+          },
+          "caption_n": 10,
+          "comparison": "Reported better old-SFN versus old-control performance; Figure 2 caption gives significant treatment thresholds P<.05 and P<.0001 across exercise/grip without separately reliable text-only assignment.",
+          "critical_conflict": "Methods remove mice at 60 seconds, yet treated group means are 64 and 86 seconds. The stated capped protocol cannot generate those means; no correction, uncapped/repeated-trial explanation or raw data is supplied.",
+          "limit": "Retain the reported direction with a material unresolved assay inconsistency. Do not call the reported difference a validated 47-second estimate, calibrated absolute-force gain, or direct muscle contractile measurement."
+        },
+        {
+          "endpoint": "Treadmill exercise capacity",
+          "anchor": "Methods 2.3, Results/Fig.2b and Discussion",
+          "reported_comparison": "Old SFN diet better than old control; Discussion says approximately 1.5-fold exercise capacity.",
+          "caption_n": 10,
+          "exact_numeric_means_and_treatment_CI": null,
+          "method": "Acclimation; increasing speed/incline; exhaustion defined by inability to avoid repetitive shocks for 5 seconds. Time recorded, distance/work/power calculated.",
+          "protocol_conflict": "Methods alternate speed +2 m/min and incline +10% increments after 0% warm-up; Fig.2 caption describes 10% slope with increasing speed.",
+          "limit": "Whole-animal performance signal, not uniquely skeletal-muscle force. Heart effects, body/motivational factors and terminal-survivor selection remain relevant. No native graph digitization or unreported P assignment."
+        },
+        {
+          "endpoint": "Old-mouse 12-week survival",
+          "anchor": "Results/Fig.1a",
+          "initial_n_each_old_arm": 20,
+          "deaths": {
+            "control": 6,
+            "SFN": 0
+          },
+          "reported_logrank_p": 0.0087,
+          "other_reported_test": "Discussion Gehan-Breslow-Wilcoxon P<.0089",
+          "limit": "Small controlled observation during treatment, not a complete lifespan study. Death causes, formal exclusion flow and endpoint selection are unreported; terminal n=10 functional samples are not mapped to n=20 survival animals."
+        },
+        {
+          "endpoint": "Pax7/MyoD satellite-cell marker proportions",
+          "anchor": "Methods 2.5, Results/Fig.2c-d; Supplement S1–S8 cited but inaccessible",
+          "procedure": "EDL myofiber clusters from treated/control mice cultured for 72 h; images 0/48/72 h; marker-positive categories expressed as percentage of total immunostained cells on fibers and pooled across fibers.",
+          "reported_result": "Higher Pax7-positive and MyoD-positive progeny proportions in treated young/old groups; caption P<.001 with t test/two-way ANOVA.",
+          "animal_fiber_cell_denominators": null,
+          "absolute_cell_count": "Methods mention absolute satellite cells per fiber using DAPI after X-Gal, but highlighted results/figure caption report pooled percentages; no reliable absolute regenerative-output treatment estimate available here.",
+          "limit": "Activation/differentiation-associated phenotype, not demonstrated long-term self-renewal, preserved quiescent reserve, engraftment, serial-injury recovery or faithful chromosome segregation. Pooled-fiber unit and animal independence are unclear."
+        },
+        {
+          "endpoint": "Resting cardiac function",
+          "anchor": "Results/Fig.3",
+          "old_control_to_SFN": {
+            "ejection_fraction_percent": [
+              [
+                61,
+                1
+              ],
+              [
+                76,
+                1.4
+              ]
+            ],
+            "fractional_shortening_percent": [
+              [
+                32.1,
+                0.7
+              ],
+              [
+                44.2,
+                1.3
+              ]
+            ],
+            "stroke_volume_uL": [
+              [
+                32.8,
+                9.2
+              ],
+              [
+                51.6,
+                11.3
+              ]
+            ]
+          },
+          "dispersion": "Mean ± SD as reported",
+          "caption_n": 10,
+          "test": "ANOVA followed by Tukey; caption P<.001/P<.0001 thresholds",
+          "cardiac_output": "Reported improved in old mice; no significant treated-young cardiac-output difference.",
+          "limit": "Actual cardiac functional measurements; these can contribute to running performance, with no mediation separation or isolated skeletal-output attribution."
+        },
+        {
+          "endpoint": "Mitochondrial respiration",
+          "anchor": "Results/Fig.5",
+          "n": 10,
+          "heart": "Reported significant improvement in old-mouse heart complex I, I+II and maximal respiration.",
+          "skeletal_muscle": "Similar treatment trends did not reach significance in skeletal muscle.",
+          "limit": "Do not promote abstract-level broad mitochondrial-restoration wording to a significant skeletal-muscle respiration treatment result. Duplicate tissue assays are not extra animals."
+        },
+        {
+          "endpoint": "Nrf2 engagement",
+          "anchor": "Methods 2.11, Results/Fig.6, Tables 1–2 narrative/footnotes",
+          "assay": "Nuclear Nrf2-ARE-binding ELISA and target-gene expression.",
+          "reported": "Main says binding rises in heart and skeletal muscle; Fig.6 caption specifies old heart n=5. qPCR tables use n=5 and source-described multiple-comparison tests.",
+          "genetic_Nrf2_dependency_test_in_this_study": false,
+          "Nrf2_loss_of_function_or_drug_occlusion": false,
+          "limit": "Actual drug-associated pathway engagement. This study does not establish that Nrf2 is necessary or sufficient for its performance effects; genetic evidence in cited literature is not an SFN result."
+        }
+      ],
+      "statistics": {
+        "general": "Mean ± SD; unpaired Student t test for 2 groups; one-way ANOVA with Bonferroni/Tukey for >=3; logrank survival.",
+        "specific": "Captions additionally refer to repeated-measures/two-way ANOVA. Table footnotes mix Tukey/two-way ANOVA and two-tailed t labels; printed four-star threshold P<.05 is internally inconsistent with usual figure notation and not repaired.",
+        "prospective_primary_hierarchy": null,
+        "power_calculation": null,
+        "global_multiplicity_control": null,
+        "complete_exclusions_or_missingness": null,
+        "treatment_CIs_for_function": null
+      },
+      "additional_reporting_limits": [
+        "Methods fasting 10–12 h, Figure 1 text 8 h for fasting glucose and 4 h for IPGTT; no silent harmonization.",
+        "General treatment 12 weeks versus histology narrative after 2 months; supplementary images/timing not inspected.",
+        "Randomization/masking and how repeated experiments were pooled are not stated.",
+        "Native figure pixels and supplements were unavailable through the bounded ordinary routes; no reconstruction from imagined graphs."
+      ],
+      "safety": {
+        "reported": "No adverse effects observed; main reports unchanged body weight/food intake and hematological parameters, lower water intake, and fewer deaths in treated old mice.",
+        "limits": "Hematology Table S1 inaccessible and not independently read. No systematic full adverse-event/organ/pathology program or pediatric/cancer-context safety claim. Dose and exposure ambiguity prevents a clinical regimen or safety-margin inference."
+      },
+      "retraction_boundary": "The introduction cites Sun2015 dystrophic-muscle work. Its withdrawn claims are not borrowed as replication or mechanism support. Bose's own controlled results are appraised separately; no whole-sulforaphane inefficacy claim.",
+      "mechanistic_clinical_boundaries": {
+        "BUB1B_BUBR1_assayed": false,
+        "chromosome_fidelity_assayed": false,
+        "MVA_or_actual_allele_rescue": false,
+        "clinical_superiority": false,
+        "food_dose_inference": false
+      },
+      "funding": {
+        "NIH": [
+          "R01 AG032643",
+          "P20 GM109005"
+        ],
+        "American_Heart_Association": "14GRNT18890084",
+        "other": "Arkansas Biosciences Institute",
+        "COI": "All authors declare no competing interests."
+      },
+      "notices": {
+        "PubMed_CommentsCorrections": [],
+        "Crossref_relation": {},
+        "Crossref_update_to": null,
+        "JATS_article_related": [],
+        "exact_notice_query": "\"10.1111/acel.13261\" correction retraction, official publisher/PubMed domains",
+        "identified_exact_notice": false,
+        "limit": "Current metadata and bounded exact-source query only; not a universal notice-absence guarantee."
+      },
+      "reading": {
+        "complete_main_narrative": true,
+        "all_six_main_captions": true,
+        "complete_table_cell_audit": false,
+        "table_narratives_and_footnotes": true,
+        "native_figure_pixels": false,
+        "usable_local_PDF": false,
+        "supplement": false,
+        "raw_data": false,
+        "all_cited_sources": false
+      }
+    },
+    "mitotic": {
+      "title": "Sulforaphane, PLK1 C67 and BubR1 phosphorylation: version-bounded cellular evidence",
+      "published": {
+        "pmid": "42116263",
+        "doi": "10.1002/anie.5512891",
+        "title": "Proteolysis-Assisted Cyclization Facilitates Site-Centric Target Deconvolution of Isothiocyanates",
+        "journal": "Angewandte Chemie International Edition",
+        "volume": 65,
+        "issue": 27,
+        "article": "e5512891",
+        "online_date": "2026-05-11",
+        "issue_date": "2026-07-01",
+        "access": "Complete publisher/PubMed abstract, citation and public metadata; full-text link redirected to abstract, ordinary PDF and linked supplement returned 403.",
+        "exact_PLK1_BubR1_experiment_verified_in_published_main": false
+      },
+      "preprint": {
+        "doi": "10.21203/rs.3.rs-5055115/v1",
+        "posted_date": "2025-10-08",
+        "version": "v1 as linked and printed",
+        "title": "Proteolysis-assisted cyclization facilitates site-centric target deconvolution of isothiocyanates",
+        "license": "CC BY 4.0",
+        "pages": 46,
+        "source_url": "https://assets-eu.researchsquare.com/files/rs-5055115/v1_covered_2f1f2731-e2ee-4b99-a3d7-3fddbfa28a84.pdf",
+        "relationship": "Same-titled work and matching scientific author group; exact published-versus-preprint experimental identity cannot be established from the published abstract. No cross-version pooling or independent-study credit."
+      },
+      "supplement": {
+        "version": "Preprint-linked SupplementaryInformationR2.pdf; not the inaccessible 2026 publisher supplement",
+        "pages": 27,
+        "source_url": "https://assets-eu.researchsquare.com/files/rs-5055115/v1/6b169770c7951d4c1cab9fdc.pdf",
+        "read_scope": "Title/author identity, biological figure captions 1-5 and relevant Supplementary Fig. 4 native page; synthetic procedures and spectra not fully read."
+      },
+      "model": {
+        "primary_cell_model": "Human HEK293T",
+        "culture": "DMEM/10% FBS for maintenance; general treatment protocol uses overnight serum-free conditioning and serum-free probe exposure.",
+        "patient_MVA_or_BUB1B_variant_model": false,
+        "normal_primary_cell_evidence": false,
+        "normal_model_limit": "Main mechanistic experiments use HEK293T; supplementary ROS caption says HEK293. These are not evidence from normal primary muscle, patient-derived MVA cells or an in vivo exposure model."
+      },
+      "interventions": {
+        "SFN": "Parent sulforaphane in cellular/kinase/MTT functional experiments; supplier reported under other purchased ITCs as J&K Scientific. Specific SFN catalog, stereochemistry and purity not verified in the passages read.",
+        "SFyne": "Synthesized alkyne analogue, used for direct site-adduct MS mapping; not identical to SFN and less potent in the reported MTT assay.",
+        "ITCyne": "Propargyl isothiocyanate reactivity probe used after cell lysis in SFN competition/QTRP; a separate molecule.",
+        "food_or_retail_equivalence_established": false
+      },
+      "evidence": [
+        {
+          "anchor": "Preprint main pp7-9; Fig.4a-b, PDF physical33-34",
+          "claim": "PLK1 C67 is a candidate SFN-responsive site with orthogonal probe evidence.",
+          "details": "Parent SFN 100 µM for 4 h reduced subsequent ITCyne C67 peptide labeling; representative H/L ratio 9.5. SFyne 100 µM for 4 h gave an MS/MS-assigned adduct at PLK1 C67.",
+          "n": "QTRP biological duplicates; CV <40% for quantified sites; target threshold H/L >=1.5.",
+          "limit": "QTRP signal is not a pure occupancy estimate because protein abundance can change; PLK1 indeed declines. Direct adduct mapping is for SFyne, not chemically unmodified parent SFN."
+        },
+        {
+          "anchor": "Preprint Fig.4e; Methods antibodies/compound treatment",
+          "claim": "Actual SFN 100 µM for 4 h reduces the p-BubR1 signal alongside PLK1 protein.",
+          "controls": "WT and shRNA-plk1 contexts, DMSO/SFN lanes; separate total BubR1 and GAPDH bands.",
+          "phosphosite": "Thr680, from anti-BubR1-phospho-T680 antibody ab200061; total BubR1 ab183496.",
+          "n": "Representative immunoblot; experiment-specific biological n/densitometry/P values not supplied.",
+          "limit": "A phosphorylation/substrate readout, not increased BUBR1 abundance or direct measurement of spindle-checkpoint competence, faithful segregation, allele rescue or muscle output. Total BubR1 bands are qualitatively retained, not a quantified equivalence claim."
+        },
+        {
+          "anchor": "Preprint Fig.4d and kinase Methods",
+          "claim": "Purified-enzyme inhibition is weak relative to the cellular protein-loss finding.",
+          "details": "Authors report SFN inhibition only above 200 µM; staurosporine positive control IC50 <1 µM. ADP-Glo, 50 µM ATP and 50 µM DTT, 1 h compound incubation.",
+          "limit": "No numerical SFN kinase IC50, CI or panel-specific n is supplied. Do not label SFN a potent direct PLK1 kinase inhibitor at the 100 µM cell exposure."
+        },
+        {
+          "anchor": "Preprint Fig.4f-i, main pp8-9",
+          "claim": "Controls support a PLK1 protein-loss mechanism involving C67 and proteasome activity.",
+          "details": "PLK1 mRNA is not detectably reduced; Cyclin B1 is qualitatively preserved during the PLK1 protein titration. MG132 5 µM for 24 h before SFN 100 µM for 4 h alleviates PLK1 loss. PLK1 C67S mutation attenuates/resists protein loss across SFN 0-100 µM, 4 h.",
+          "qPCR_n": "Three independent samples, each measured in triplicate, normalized to GAPDH; caption says representative triplicates.",
+          "limit": "Preserved Cyclin B1 is an indirect control, not a comprehensive cell-cycle analysis. MG132/C67S support but do not establish an exclusive mechanism or complete kinetic degradation model. Figure 4 does not show mutant rescue of p-BubR1 itself."
+        },
+        {
+          "anchor": "Preprint Fig.4j and Extended Data Fig.2; MTT Methods",
+          "claim": "PLK1 C67S or knockdown attenuates SFN-associated MTT loss without eliminating it.",
+          "native_IC50_uM": {
+            "reconstituted_PLK1_WT": 16.53,
+            "reconstituted_PLK1_C67S": 53.59,
+            "extended2_parent_SFN": 22.88,
+            "extended2_probe_SFyne": 68.91,
+            "extended2_WT": 14.53,
+            "extended2_PLK1_knockdown": 52.94
+          },
+          "n": "Biological triplicates stated in MTT Methods; representative triplicates, SD and two-sided Student t tests in captions.",
+          "duration": "MTT Methods specify 24 h compound exposure then 4 h MTT incubation. Fig.4j caption does not repeat duration; Fig.3f separately labels its screen 100 µM/4 h, a reporting inconsistency not silently reconciled.",
+          "limit": "Curve labels are source-native, not newly fitted estimates; no CIs or fit model supplied. MTT is a metabolic viability proxy, not a direct death count or chromosome-function assay. Dose-wise test multiplicity is not stated. Partial resistance does not prove PLK1/BubR1 is the sole toxicity mechanism."
+        }
+      ],
+      "reporting_limits": [
+        "QTRP Results say 500 µM ITCyne after lysis, whereas Methods/Fig.3 caption say 1 mM; retain discrepancy.",
+        "General 4 h compound treatment states 0.1% DMSO. MTT describes 100x DMSO stock solutions without a clear matched final vehicle statement.",
+        "Fig.3f caption gives 100 µM/4 h for its MTT screen while general MTT Methods specify 24 h; do not transplant one duration to every assay.",
+        "Supplementary Fig.4 in the linked R2 PDF contains NRF2/ROS; the main's library paragraph refers to Supplementary Fig.4 for reproducibility, while the linked PDF labels reproducibility Fig.5.",
+        "Supplementary Fig.4b-c says HEK293 whereas its blot panel and main use HEK293T; ROS dose/time, gating, test and referenced Methods are not fully specified in the passages available.",
+        "Fig.4i caption says C67S abolished PLK1 loss, while Results say attenuated. Conservative interpretation is attenuation/resistance rather than complete protection.",
+        "Quantitative biological n and densitometric inference for Fig.4 blots, randomization/blinding and raw full blots were not established in this bounded review."
+      ],
+      "supplement_context": {
+        "anchor": "Preprint-linked SI Fig.4, physical p6",
+        "observation": "Native blot displays SFN 0/25/50/100 µM, NRF2/KEAP1/PLK1/GAPDH and described biphasic NRF2 behavior; ROS plots include vehicle/SFN/arsenite/positive-control groups with three dots each.",
+        "limit": "Selected auxiliary context only. Missing dose/time and analysis details for ROS prevent a mechanistic rescue or safety inference; these panels do not establish normal-cell safety."
+      },
+      "interpretation": {
+        "supported": "A high-concentration preprint cell experiment supports SFN-associated PLK1 protein loss with lower BubR1 Thr680 phosphorylation and a C67-linked contribution to MTT loss.",
+        "not_supported": [
+          "BUBR1 abundance increase",
+          "Functional BUBR1 restoration",
+          "BUB1B/MVA harm or benefit",
+          "Faithful chromosome-segregation rescue or failure",
+          "Clinical or food-dose exposure inference",
+          "Normal-tissue toxicity or safety",
+          "Muscle efficacy",
+          "PLK1 as the sole SFN target",
+          "Published 2026 confirmation of this exact figure"
+        ],
+        "MVA_relevance": "Mechanistic caution and assay-design context only. Do not infer clinical harm, food effects or disease rescue from this transformed-cell exposure."
+      },
+      "funding": {
+        "source": "Preprint acknowledgments list Chinese national research/natural-science grants, Beijing National Laboratory support and XPLORER PRIZE.",
+        "COI": "Preprint and public published record declare no competing interests.",
+        "limit": "Funding declarations are retained; absence of undisclosed interests is not established."
+      },
+      "notices": {
+        "pubmed_comments_corrections": [],
+        "published_Crossref_relation": {},
+        "published_Crossref_update_to": null,
+        "preprint_Crossref_relation": {},
+        "preprint_Crossref_update_to": null,
+        "exact_notice_queries": 2,
+        "identified_exact_source_correction_or_retraction": false,
+        "limit": "Current retained metadata and two exact-source queries only; no universal notice absence or exhaustive version history. Research Square landing page was inaccessible; v1 is the retrieved public version, not a proved latest version."
+      },
+      "reading": {
+        "complete_published_abstract": true,
+        "complete_published_main": false,
+        "published_supplement_read": false,
+        "complete_preprint_main": false,
+        "relevant_preprint_main_sections": "Site-centric SFN target mapping and PLK1 Results; selected Discussion framing; relevant compound/culture/antibody/plasmid/knockdown/MTT/kinase/qPCR/Western Methods and funding/COI.",
+        "native_preprint_pages": [
+          33,
+          34,
+          38
+        ],
+        "native_supplement_pages": [
+          6
+        ],
+        "raw_data_or_spreadsheet_analysis": false,
+        "all_source_claim": false
+      }
+    },
+    "diabetic": {
+      "citation": {
+        "PMID": "32445760",
+        "DOI": "10.1016/j.lfs.2020.117823",
+        "PII": "S0024-3205(20)30572-5",
+        "title": "Sulforaphane protects against skeletal muscle dysfunction in spontaneous type 2 diabetic db/db mice.",
+        "authors": "Wang M, Pu D, Zhao Y, Chen J, Zhu S, Lu A, Liao Z, Sun Y, Xiao Q",
+        "journal": "Life Sciences",
+        "volume": "255",
+        "article_number": "117823",
+        "online_publication_date": "2020-05-20",
+        "issue_date": "2020-08-15"
+      },
+      "conclusion": "Retain the authors-reported actual-sulforaphane grip-strength positive in spontaneous type 2 diabetic db/db mice, separately from muscle/lean-mass and pathway findings. Preparation-specific dosing, statistical robustness and transfer remain unresolved at original-abstract depth.",
+      "source_depth": {
+        "original_complete_abstract_read": true,
+        "official_metadata_read": true,
+        "main_read": false,
+        "methods_read": false,
+        "native_figures_or_tables_read": false,
+        "supplements_read": false,
+        "raw_data_analysed": false
+      },
+      "preparation": {
+        "administered_name_as_reported": "Sulforaphane (SFN)",
+        "control_as_reported": "Dimethyl sulfoxide (DMSO)",
+        "formulation_source_supplier_catalog_purity": "UNKNOWN in accessible original abstract",
+        "stereochemistry": "UNKNOWN; no D,L, L, R or (-) identity is specified in the accessible primary material.",
+        "route_dose_frequency_duration": "UNKNOWN in accessible original abstract",
+        "secondary_pointer_not_adopted": {
+          "description": "0.5 mg/kg daily intraperitoneally for one month",
+          "status": "UNVERIFIED_PRIMARY; supplied secondary pointer and exposed secondary search snippet only. No primary-method confirmation.",
+          "qualified_regimen": false
+        },
+        "identity_boundaries": [
+          "Do not inherit explicit D,L identity from separate oral muscle/aging studies.",
+          "Do not equate with L-SULFORAPHANE CHEMBL1627201, unspecified SULFORAPHANE CHEMBL48802, its R/(-) aliases, glucoraphanin, broccoli foods, extracts or commercial supplements on parent-name matching alone."
+        ]
+      },
+      "design": {
+        "model_as_reported": "Spontaneous type 2 diabetic db/db mice and db/m littermate comparison wording",
+        "arms_as_reported": "The abstract states db/m and littermate db/db mice were treated with SFN or DMSO. Exact group allocation and factorial contrast are not supplied.",
+        "control": "DMSO vehicle named; db/m model comparator named",
+        "sex": "Male is indexed in PubMed MeSH; not independently established from primary Methods",
+        "age_strain_background": "UNKNOWN",
+        "n_total_per_arm_and_per_assay": "UNKNOWN",
+        "allocation_randomization_blinding_power": "UNKNOWN",
+        "baseline_disease_status_and_treatment_onset": "UNKNOWN",
+        "missingness_exclusions_attrition": "UNKNOWN"
+      },
+      "outcomes": [
+        {
+          "endpoint": "Grip strength",
+          "class": "Actual functional performance",
+          "method_as_reported": "Grasping forcing machine",
+          "population": "db/db mice after SFN treatment",
+          "finding": "Authors report a statistically significant increase.",
+          "positive_retained": true,
+          "quantitative_effect_units_CI_exact_P": "Not supplied",
+          "test_or_contrast": "Named vehicle control exists in Methods wording, but exact statistical contrast/test/interaction not supplied.",
+          "normalization": "UNKNOWN whether absolute force, body-mass-normalized or another scaling; number of pulls, limb configuration and aggregation unknown",
+          "limits": "Not isolated-muscle evoked force, endurance or a verified lean-mass-independent effect."
+        },
+        {
+          "endpoint": "Lean mass and gastrocnemius mass",
+          "class": "Body composition / tissue mass",
+          "finding": "Authors report increases in db/db mice after SFN.",
+          "statistical_significance": "The abstract explicitly says significant for grip; it does not provide mass-endpoint P values or tests.",
+          "limits": "Not body-weight change, muscle-specific force, or necessarily mass-independent functional rescue. Absolute versus relative normalization unknown."
+        },
+        {
+          "endpoint": "Skeletal muscle fiber organization",
+          "class": "Morphology",
+          "method_as_reported": "Transmission-electron-microscopy wording",
+          "finding": "Authors report restored organization after SFN.",
+          "limits": "No quantified native morphometry, denominator or independent structural analysis available."
+        },
+        {
+          "endpoint": "Nrf2/HO-1 and inflammatory/apoptotic proteins; oxidative/inflammatory transcripts",
+          "class": "Molecular readouts",
+          "methods_as_reported": "Western blot and RT-qPCR",
+          "finding": "Authors report pathway activation, lower inflammatory/apoptotic protein expression and regulated oxidative/inflammatory transcripts.",
+          "limits": "Not a genetic Nrf2 perturbation or proof of Nrf2 necessity. No genetic intervention is described in the abstract; full-paper mechanistic design remains unverified."
+        }
+      ],
+      "nulls_and_harms": {
+        "null_outcomes": "No explicit null outcomes given in the accessible original abstract; do not infer the full paper contains none.",
+        "db_m_treatment_effect": "Not described quantitatively; no normal-control sparing/safety claim.",
+        "harms_or_deaths": "Not reported in the examined abstract; not evidence of absence or safety.",
+        "body_weight": "Not reported; lean mass must not be relabelled total body weight.",
+        "long_term_or_postwithdrawal": "UNKNOWN"
+      },
+      "statistics": {
+        "effect_sizes_CIs_exact_Ps": "UNKNOWN",
+        "test_multiplicity_hierarchy": "UNKNOWN",
+        "biological_replicates_vs_repeated_measurements": "UNKNOWN",
+        "new_reanalysis_or_tests": false
+      },
+      "funding_conflict": "Crossref attributes National Natural Science Foundation of China award 81851380; full funding and sponsor role unverified. Original PubMed record declares no conflicts.",
+      "transfer_limits": [
+        "No BUBR1 abundance, localization, chromosome fidelity or actual-BUB1B-allele rescue established.",
+        "No MVA or human efficacy evidence from this model.",
+        "No human dose conversion or formulation equivalence.",
+        "Do not borrow Nrf2 knockout-dependence or functional outcomes from the separate aging, mdx or mitotic studies.",
+        "Main-access failure does not negate the reported functional positive or produce a negative efficacy result."
+      ],
+      "publication_status": {
+        "status": "No exact-paper notice identified in the retained bounded PubMed, Europe PMC, Crossref and exact-source search checks. This is not a universal notice-absence guarantee.",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/32445760/",
+        "identity_and_status_sha256": "a5a858b0da78a776d51242b6e6ea165bb5c6b74dfd55d409d408541d1429f3ec"
+      }
+    }
+  },
+  "provenance": {
+    "muscle": {
+      "source_manifest": {
+        "packet": "muscle-source",
+        "file": "final-bindings.json",
+        "sha256": "ba1f061ae5113ad2347c89552a103dbf4f2ca675b4d99d6daee6070558486c84"
+      },
+      "qualification_json_sha256": "71bf7d053e234302ff5635c3595458b9c5e89a571badb36acf50b904098fe9fc",
+      "qualification_md_sha256": "2058f890fd444bf68d02f271bb2819807053fc5e1df7445b5af3d2ab2d605383",
+      "reading_scope_sha256": "f2780ceb5ab5d1562af35900464e1f53ebd6c40f51c698c75a44cb6201f5d54e",
+      "review": {
+        "packet": "independent-muscle-review",
+        "status": "ACCEPT_BOUNDED_MUSCLE_SOURCE_QUALIFICATION",
+        "review_json_sha256": "7545febcc462a48a790f4deb6eb0dc5f115d95aadc320b2c89a09bdabb94538a",
+        "review_md_sha256": "0386003fa930834ae8235cc161bfa86e1489eac422600e70fb975e032c0d0d32",
+        "scope": "Source-specific scope retained in the bound review and reading-scope artifacts.",
+        "binding_manifest": {
+          "file": "final-bindings.json",
+          "sha256": "2a2087bb48a1d42f2fe0deb780967d9298ed9b80ff4385d0c7fa15a40613e6b6"
+        },
+        "independent_review_depth": "Accepted independent review of complete retained main narrative and five captions, plus original notices and identity relations. Native pixels, supplement, raw observations and primer table were not independently read."
+      }
+    },
+    "aging": {
+      "source_manifest": {
+        "packet": "aging-source",
+        "file": "final-bindings.json",
+        "sha256": "c831a45b24643b3e4c4eefd06bd69d6be4b6717b9c17da013a4fa1782c966171"
+      },
+      "qualification_json_sha256": "4e5385f2d6ca412a520f8b7927bd33963ed267399d081b212f4cfae7992e23ef",
+      "qualification_md_sha256": "838a302ee855afebf43701dc61cbcc23e98500660005a787d146caeb1e2a45a6",
+      "reading_scope_sha256": "78593714b31e969e1adae8ce232f981b704f22f4b7e290624494e69b7982d2d1",
+      "review": {
+        "packet": "independent-aging-review",
+        "status": "ACCEPT",
+        "review_json_sha256": "0fbeb0cd8875abfb7c4af65b4fbbdd80fe8453deda9b143167137d6fdc4e81a7",
+        "review_md_sha256": "dab9f8611af64e1f7862b407b09d714ffe94d51863538103b90f0075a8ae276f",
+        "scope": "Source-specific scope retained in the bound review and reading-scope artifacts.",
+        "binding_manifest": {
+          "file": "final-bindings.json",
+          "sha256": "7385160cd664e2ae28a70d2978996a8e49d085911e542d85e0c3056b459d4097"
+        },
+        "independent_review_depth": "Accepted independent review of complete retained scientific main narrative, six captions and table narratives/footnotes. Native pixels, supplement, raw data and all numerical transcript-table cells were not independently read."
+      }
+    },
+    "mitotic": {
+      "source_manifest": {
+        "packet": "mitotic-source",
+        "file": "final-bindings.json",
+        "sha256": "80e594847382bd7ac6485a11d38c93c6f1723b63c9d0bb3a6fcb8ce82008be53"
+      },
+      "qualification_json_sha256": "ba2c0b376829dd3614aa1c3711f0c5c7cfcd77eeb6330edb5eb7a130448f5c3a",
+      "qualification_md_sha256": "fb9ab3f90d483305ac9e568c627b0f38f33d8ae1a75b2bfc3384cb2f4248f38c",
+      "reading_scope_sha256": "0e88859fb6fa5500ace610733af4266778d84345c6c89d6e7c6ce4540d30e6c4",
+      "review": {
+        "packet": "root-mitotic-review",
+        "status": "CORE_CLAIMS_PASS",
+        "review_json_sha256": "281508213dfa4888d2a63e3b01260ef10a39fe867c7b9c3072d8fdd08de520c7",
+        "review_md_sha256": "7b20066af4f5a72e4c0aa52b7c74bb6e85c8f3b4170ba96856a048b5832c7e6b",
+        "scope": "Root independent verification of central Fig4 experiment only, not full source re-audit",
+        "binding_manifest": null,
+        "binding_limit": "Root review has no separate final manifest; the exact review MD/JSON hashes and its explicit primary-manifest binding are retained.",
+        "independent_review_depth": "Root CORE_CLAIMS_PASS covers complete qualification plus selected preprint passages and native Figure 4 physical page 33. The remaining preprint, published main, all supplement/Extended Data panels and raw fits were not independently reviewed."
+      }
+    },
+    "diabetic": {
+      "source_manifest": {
+        "packet": "diabetic-source",
+        "file": "final-bindings.json",
+        "sha256": "360c5b8dda5c7f43b03231c4265240079707a0d8d9a8b75bccf1216ed3d64e02"
+      },
+      "qualification_json_sha256": "1653c5b5247301642f20e6110c18eac9e1d512a211dbabe3d352cc112d70c2b8",
+      "qualification_md_sha256": "28fe0c1537bdc3b60e40dfff8609ac13aab3b052d27107c717bfa786f9eb59bf",
+      "reading_scope_sha256": "221e4a2898be41e17109b074ec220ddcac348c6fc92089fc219183f895b929c0",
+      "review": {
+        "packet": "independent-diabetic-review",
+        "status": "ACCEPT_AT_ORIGINAL_ABSTRACT_DEPTH",
+        "review_json_sha256": "ec7310cabc88d960b2a74d775ac1ebc70dfa888e4eba5ada46fc69169747d6e1",
+        "review_md_sha256": "bea52c724afc71476443212c0b1ce24701ff2e561a2fd65bffe42f806ea71a65",
+        "scope": "Source-specific scope retained in the bound review and reading-scope artifacts.",
+        "binding_manifest": {
+          "file": "bindings.json",
+          "sha256": "ba157213f8296f9d80379d1b4ac3355ebc9f10873a7b615b061b788c8400aba0"
+        },
+        "independent_review_depth": "Root accepted the complete qualification and live original PubMed abstract/identity fields at original-abstract depth. Primary main, Methods, native outcomes, supplement and raw data remain unread; access metadata was not independently re-retrieved."
+      }
+    }
+  },
+  "synthesis_scope": {
+    "new_primary_retrieval": false,
+    "new_primary_reading_credit": false,
+    "new_native_pixel_credit": false,
+    "tests_replays_or_statistical_reanalysis": false,
+    "repository_or_previous_packet_changes": false,
+    "source_local_followup_status": "The original muscle packet listed aging and diabetic studies as then-unread follow-ups. Their later separate accepted qualifications supersede those historical pointer statuses only in this synthesis. The glucoraphanin-rich broccoli pointer is outside this proposal.",
+    "review_depth": "Muscle and aging retain their independent accepted text/caption scopes; diabetic retains root acceptance at original-abstract depth; mitotic retains root CORE_CLAIMS_PASS for the central experiment, not an independent full-source review.",
+    "raw_payload_policy": "Portable scientific qualification only. Original mains, notices, figures, XML and access witnesses remain outside Git, bound by external packet manifests."
+  },
+  "cross_source_limits": [
+    "No pooling of preparation-specific doses, effects, denominators or cohorts.",
+    "No inference that distinct papers or within-paper repeats provide independently replicated BUBR1, muscle or MVA rescue.",
+    "Withdrawals remove support; they do not establish sulforaphane inefficacy. Oral nulls and diabetic access failure are not whole-compound negative verdicts.",
+    "No Nrf2 genetic-dependency result is borrowed from cited literature, and the PLK1 C67S construct is not a BUB1B patient allele.",
+    "No human-dose conversion, tissue-exposure bridge, food/precursor/retail equivalence or clinical safety-margin inference.",
+    "Useful function, renewal and chromosome fidelity remain separate criteria; no study here demonstrates the actual BUB1B-allele disease correction or superiority over niacin/apitegromab."
+  ]
+}

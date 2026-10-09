@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "record": {
+    "source": "MED",
+    "pmid": "27815460",
+    "doi": "10.21873/invivo.10993",
+    "title": "BUBR1 Insufficiency in Mice Increases Their Sensitivity to Oxidative Stress",
+    "authors": "Matsuda et al.",
+    "journal": "In Vivo",
+    "year": 2016,
+    "metadata_basis": "Parent draft plus same-title institutional thesis source; no new remote metadata retrieval."
+  },
+  "assessed_date": "2026-09-23",
+  "disposition": "ADVERSE_CHALLENGE_EVIDENCE_NOT_THERAPEUTIC_NOMINATION",
+  "read_provenance": {
+    "root_declaration": {
+      "full_main_article_text_and_captions_read": true,
+      "route": "Public author-copy page extraction",
+      "url": "https://www.researchgate.net/publication/309692705_BUBR1_Insufficiency_in_Mice_Increases_Their_Sensitivity_to_Oxidative_Stress",
+      "attribution": "Parent/root declaration in bromate-qualification.md and retrieval.json, preserved without claiming independent reproduction.",
+      "native_journal_pdf_saved": false,
+      "native_journal_pdf_sha256": null,
+      "journal_figure_images_independently_inspected_by_root": false,
+      "raw_data_independently_inspected_by_root": false,
+      "source_text_saved_in_reviewed_folder": false
+    },
+    "independent_reviewer": {
+      "main_article_fulltext_read": false,
+      "scope": "Read parent draft and saved retrieval record; read complete saved institutional thesis abstract text, visually checked PDF content page 2 and figure page 3; inspected institutional metadata context. Main-paper details absent from the thesis remain attributed to root.",
+      "thesis_is_same_work_not_independent_biological_replication": true,
+      "performed_biological_replication": false
+    }
+  },
+  "model": {
+    "genotypes": [
+      "BubR1 L/L (low expression)",
+      "BubR1 +/+ (wild type)"
+    ],
+    "root_reported_BUBR1_percent_of_normal": 20,
+    "root_reported_baseline": "Lacks overt progeria under baseline conditions",
+    "independent_model_limit": "The 20% value and baseline phenotype are not independently confirmed from the saved thesis abstract. This model must not be equated with a particular patient's variants or all BubR1 hypomorphs."
+  },
+  "challenge": {
+    "agent": "Potassium bromate",
+    "formula": "KBrO3",
+    "role": "Experimental oxidative stressor; no therapeutic intervention",
+    "route": "Ad libitum drinking water",
+    "concentration_g_per_L": 2,
+    "duration_weeks": 16,
+    "controls": "Tap water and wild-type comparison",
+    "dose_provenance": "Institutional thesis abstract Methods, independently read and visually checked. Nominal drinking-water concentration is not an administered mg/kg dose or human exposure equivalent."
+  },
+  "outcomes": [
+    {
+      "endpoint": "Survival",
+      "direction": "Adverse in bromate-treated low-BubR1 mice",
+      "reported_p": 0.0082,
+      "p_independently_corroborated_in_thesis": true,
+      "root_reported_test": "Log-rank",
+      "root_reported_deaths": {
+        "low_BubR1": 5,
+        "wild_type": 1,
+        "tap_water_controls": 0
+      },
+      "death_count_provenance": "Parent's main-text reading; thesis survival graph corroborates direction and flat untreated curves, not independently resolved event/group counts.",
+      "starting_group_denominators": null,
+      "denominator_status": "UNRESOLVED",
+      "new_relative_risk_or_hazard_ratio_computed": false
+    },
+    {
+      "endpoint": "Survivor pathology",
+      "root_reported_splenomegaly_count_low_BubR1": 2,
+      "independent_thesis_support": "Among animals completing treatment, the low-BubR1 group showed gastrointestinal bleeding and splenic lesions occupied by highly proliferative Ki-67-positive non-B/non-T-like cells; listed negative markers include CD3 and CD45R.",
+      "count_provenance": "Number two is from parent main-text reading; thesis summary does not supply that count.",
+      "inference_limit": "Suggestive neoplastic pathology in survivors does not prove cancer caused earlier deaths. Dehydration/hemorrhage explanations and absent explanatory gross lesions in early deaths are root-attributed body details."
+    },
+    {
+      "endpoint": "Hematopoietic progenitor proliferation",
+      "root_reported_result": "Bromate reduces proliferation more strongly in low-BubR1 cells, with lower baseline proliferation already present.",
+      "independent_thesis_confirmation": false,
+      "concentration_conflict": {
+        "methods_printed": "10 mM",
+        "results_figure4_printed": "10 µM",
+        "resolution": "UNRESOLVED",
+        "basis": "Parent's article-text reading; no native journal figure/PDF or raw culture data available locally."
+      }
+    },
+    {
+      "endpoint": "Weight",
+      "root_reported_result": "Both bromate-treated genotypes lost weight; no significant between-genotype difference.",
+      "independent_thesis_confirmation": false
+    },
+    {
+      "endpoint": "Urinary 8-OHdG",
+      "root_reported_result": "Increased with bromate; no significant difference between the two treated genotypes.",
+      "independent_thesis_confirmation": false,
+      "inference_limit": "A nonsignificant difference is not proof of equal exposure or tissue damage."
+    },
+    {
+      "endpoint": "Blood biochemistry in survivors",
+      "independent_thesis_support": "BUN is higher in treated low-BubR1 mice versus untreated and treated wild-type comparators; thesis reports p<0.05.",
+      "root_reported_nulls": [
+        "No stated treatment-related increase in creatinine",
+        "No stated treatment-related increase in AST",
+        "No stated treatment-related increase in ALT"
+      ],
+      "nulls_independently_confirmed_from_thesis": false,
+      "inference_limit": "Survivor measurements do not establish physiology or cause of death in animals that died earlier."
+    }
+  ],
+  "unresolved_items": [
+    "Starting/analysis group denominators across article Results and survival caption",
+    "10 mM versus 10 µM progenitor-culture concentration",
+    "Native journal figure/PDF and raw-data verification absent",
+    "Maintext details not reproduced by independent reviewer"
+  ],
+  "interpretation": {
+    "supported": "Oxidative-challenge vulnerability in a low-BubR1 mouse model; useful adverse context for assay endpoint selection.",
+    "not_established": [
+      "Bromate therapeutic benefit",
+      "Benefit of any antioxidant, including niacin, NAC or ascorbate",
+      "Variant-specific redox mechanism or therapy for a patient's BUB1B genotype",
+      "Cancer as demonstrated cause of the earlier deaths",
+      "Equal genotype exposure/damage from nonsignificant 8-OHdG comparison"
+    ],
+    "nomination": "Decline therapeutic nomination; do not upgrade drug ranking.",
+    "endpoint_implication": "Preserve absolute survival, proliferation and lesion burden when interpreting apparent cell selection."
+  },
+  "independent_draft_check": {
+    "material_contradiction_found_in_read_assets": false,
+    "scope_bound": true,
+    "recommended_small_addition": "The independently read thesis confirms 2 g/L KBrO3 in drinking water for 16 weeks; optional to include this nominal challenge dose in the Markdown.",
+    "extraction_note": "Saved thesis text has an H/H-looking legend artifact; the actual page-3 figure labels the treated low-expression group L/L. Do not create an extra H/H group."
+  },
+  "source_manifest": [
+    {
+      "file": "bromate-qualification.md",
+      "sha256": "0313f90e39a2d62367a03a425023c1f484d4deb009480c5a4ea33a77714f360d",
+      "kind": "Parent-authored assessment and reading declaration"
+    },
+    {
+      "file": "retrieval.json",
+      "sha256": "93b63977f261db7b38b6752bed723ead26b4f854764e413745fa6d9dc0721032",
+      "kind": "Saved retrieval log; publisher PDF 403; public-author-page direct request 403 with parent-declared web-extraction fallback"
+    },
+    {
+      "file": "kyushu.html",
+      "sha256": "97309faddbd62f2f19832439e95a8053f8e34dc6ab9a5aee45039e270e70e7d7",
+      "url": "https://catalog.lib.kyushu-u.ac.jp/opac_detail_md/?lang=0&amode=MD823&bibid=1806853"
+    },
+    {
+      "file": "thesis-abstract.pdf",
+      "sha256": "3e501f9db373bc789b8ee1683638557de29e67a01f578a2751d3ae22c3469a79",
+      "url": "https://catalog.lib.kyushu-u.ac.jp/opac_download_md/1806853/med2949_abstract.pdf",
+      "pages": 3,
+      "read_depth": "Full abstract text; pages 2 and 3 visually inspected by independent reviewer"
+    },
+    {
+      "file": "thesis-abstract.txt",
+      "sha256": "ebcfe3d9d9c037eaa72f7225c257f1e3868444bd4a3de070a54989d107640746",
+      "kind": "Saved extracted text, read through end"
+    },
+    {
+      "file": "thesis-page-3.png",
+      "sha256": "d1004f4118bcc5b5ed729213069dec2d9ad804f9757fe8774e240c7b37db6a56",
+      "kind": "Existing PDF figure-page render, visually read"
+    }
+  ],
+  "integration": {
+    "automatic_outer_corpus_credit": 0,
+    "automatic_new_drug_appraisals": 0,
+    "no_independent_maintext_read_credit": true,
+    "preserve_root_maintext_read_declaration": true,
+    "primary_fatty_acids": "Include compact access-bounded counterevidence note for PMID 18082453; target remains title/metadata-only with no new abstract/body credit. Reading of antecedent PMID 16040755 is separate."
+  }
+}

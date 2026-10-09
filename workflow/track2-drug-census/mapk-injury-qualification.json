@@ -1,0 +1,150 @@
+{
+  "schema": "bounded_primary_appraisal_v1",
+  "date": "2026-09-22",
+  "record": "MED:21412410",
+  "pmcid": "PMC3055868",
+  "doi": "10.1371/journal.pone.0017509",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3055868/",
+  "reading_depth": {
+    "main": "Complete substantive main text, five tables and four figure legends. Bibliography not independently appraised.",
+    "main_figures_visually_read": [
+      3,
+      4
+    ],
+    "supplement": "Text S1 extracted text, not embedded images; Table S7 header and BUB1B row only. No complete gene-table reading or raw expression reanalysis.",
+    "additional_abstract_credit": 0
+  },
+  "model": {
+    "cell": "A549 lung carcinoma",
+    "challenge": "Aspergillus fumigatus AF293 culture filtrate",
+    "comparators": [
+      "PrtT-deficient fungal filtrate",
+      "heat-inactivated filtrate",
+      "untreated cells",
+      "carrier"
+    ],
+    "BUB1B_deficient_model": false,
+    "serum_starvation_hours": "16\u201318",
+    "drug_pretreatment_hours": 2,
+    "wash_before_challenge": true,
+    "post_injury_treatment": false,
+    "vehicle": "Carrier control stated; final solvent fraction unspecified."
+  },
+  "interventions": [
+    {
+      "name": "FR180204",
+      "decision_id": "new-fr180204-injury",
+      "nominal_target": "ERK1/2",
+      "dose_micromolar": 50,
+      "supplier": "Calbiochem; no historical SKU or lot specified",
+      "positive_endpoints": [
+        "adhesion/morphology",
+        "actin preservation",
+        "early XTT signal"
+      ],
+      "representative_12h_PI_positive_annexin_negative_percent": 10.7,
+      "XTT_24h_marked_significant": true,
+      "XTT_36h_marked_significant": false
+    },
+    {
+      "name": "SP600125",
+      "decision_id": "new-sp600125-injury",
+      "nominal_target": "JNK; compound is not target-exclusive",
+      "dose_micromolar": 25,
+      "supplier": "Sigma; no historical SKU or lot specified",
+      "positive_endpoints": [
+        "adhesion/morphology",
+        "actin preservation",
+        "early XTT signal"
+      ],
+      "representative_12h_PI_positive_annexin_negative_percent": 18.3,
+      "XTT_24h_marked_significant": true,
+      "XTT_36h_marked_significant": true
+    },
+    {
+      "name": "SB203580",
+      "decision_id": "new-sb203580-injury",
+      "nominal_target": "p38",
+      "dose_micromolar": 25,
+      "supplier": "Calbiochem; no historical SKU or lot specified",
+      "result": "No peeling/actin protection in shown comparisons.",
+      "XTT_or_flow_arm_shown": false,
+      "matched_p38_substrate_inhibition_shown": false,
+      "limit": "Not a class-wide p38 mechanism null."
+    }
+  ],
+  "results_and_limits": {
+    "Figure3B": "Phospho-ERK/total ERK and phospho-c-Jun/total c-Jun at three hours; qualitative pathway modulation, no densitometry or target-resistant rescue.",
+    "Figure3C": "Graph estimates: inhibitor arms approximately 95\u2013100% XTT at 12 hours versus approximately 20% carrier; approximately 23\u201329% in inhibitor arms at 24\u201336 hours. Not individual raw data or a direct survival count.",
+    "XTT_variance": "Three independent experiments with technical triplicates. Methods describe representative-experiment replicate SD, while legend describes three independent experiments; variance denominator unresolved.",
+    "statistics": "Student t-test/ANOVA; stars P<0.05. No exact P values or stated multiplicity adjustment.",
+    "Figure4B_PI_positive_annexin_negative_percent": {
+      "wild_type_filtrate": 88.7,
+      "PrtT_deficient_filtrate": 5.7,
+      "FR180204": 10.7,
+      "SP600125": 18.3,
+      "untreated": 2.5
+    },
+    "flow_denominator": "Representative plots from three repeats described as similar; no aggregate confidence interval or effect test. Filtrate removed, washed twice, adherent cells harvested. Detached fraction not clearly included; not percentages of all starting cells.",
+    "Figure4_timing": "Actin panel at eight hours; flow Results and panel caption at twelve hours, despite opening legend referring to eight hours.",
+    "unmeasured": [
+      "long-term colony recovery",
+      "faithfully completed daughter cells",
+      "drug-treated animal benefit",
+      "normal-cell therapeutic window",
+      "muscle function",
+      "MVA rescue"
+    ]
+  },
+  "bub1b": {
+    "measurement": "Bulk RNA in fungal-challenge contrast; not inhibitor treatment or BUBR1 protein.",
+    "contrast": "Wild-type versus PrtT-deficient fungal filtrate at eight hours.",
+    "table": "Supplementary Table S7",
+    "sheet": "Supp.Table 1G",
+    "header_cells": "A2:E2",
+    "row_cells": "A79:E79",
+    "probe_id": "7982663",
+    "symbol": "BUB1B",
+    "entrez_id": 701,
+    "displayed_TtestP_value": 0.004,
+    "displayed_fold_change": 3.067484662576687,
+    "direction": "Higher with wild-type filtrate, consistent with main Table 4.",
+    "replication": "Three wild-type and two PrtT samples after one PrtT sample removed as outlier.",
+    "adjustment": "Broader selection uses stated FDR and fold-change filters; displayed row P value is labelled TtestP-value, not a separate adjusted gene P value.",
+    "orthogonal_validation": "RT-PCR validates IL8/MCP1, not BUB1B."
+  },
+  "checkpoint_counterevidence": {
+    "record": "MED:16113653",
+    "pmcid": "PMC1369161",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1369161/",
+    "reading_depth": "Abstract and indexed primary Results/legends; complete Methods and original figures not obtained. Efetch supplies front matter only.",
+    "findings": "SP600125 overrides spindle-poison arrest in U2OS from approximately 2.5 micromolar. Mps1 inhibition and resistant-mutant rescue support mechanism; kinetochore BubR1 recruitment decreases. BJ-Tert resists full override at 10 micromolar.",
+    "interpretation": "Context-dependent contrary evidence for faithful-division rescue, not proven patient-cell harm.",
+    "additional_abstract_credit": 0
+  },
+  "decisions": {
+    "FR180204": "Retain transient injury-response research reserve.",
+    "SP600125": "Retain injury positive and checkpoint counter-probe; decline faithful-division restoration lead.",
+    "SB203580": "Retain bounded negative morphology/actin comparator.",
+    "comparison": "No MVA or muscle benefit established. Apply the same functional/fidelity standard to provisional niacin/apitegromab; no numerical ranking or nominee change."
+  },
+  "publication_metadata": {
+    "doi": "10.1371/journal.pone.0017509",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "dateOfRevision": "2021-10-20"
+  },
+  "source_sha256": {
+    "primary.xml": "55a5080d48746f214051246b7eed307f6e9b69e7369a9a32db2d8bf82856bace",
+    "figure3.png": "6f07a2a6ff3a51bb2d3558a54238a2f1c2c8c1a2c21703f76ba73e1078568ac1",
+    "figure4.png": "308e42c00b787b68afd8f68f70cad392e3f793c5bfc3b66a22a692b7eed77153",
+    "supplement-text.doc": "7dd86b38e22d52ac3e21172f654f19de4cf6f659e761663e96a4155cf5f72b69",
+    "supplement-table7.xls": "c39078174ee11c299153213674c90a98659042a967d2b9ebbc79d31a7e2ac184"
+  },
+  "independent_check": "Second reader verified injury-source Methods/Results, Figures 3\u20134 and Table S7. Final appraisal check passed; secondary checkpoint dose details and supplier listings were outside that independent scope."
+}

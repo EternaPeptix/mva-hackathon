@@ -1,0 +1,585 @@
+{
+  "title": "L-leucine muscle-function comparison: 2020 nursing-home trial and LACE",
+  "date_local": "2026-09-23",
+  "source_review_ledger_check": {
+    "date": "2026-09-23",
+    "repo_head": "72b1a8b3f78863bbf536a45ed6d7c6d107040c33",
+    "ledger_count": 225,
+    "ledger_sha256": "5a69ac5c857e5a2a1ca89f2d38e7e859f88c10c5b88d343b5cb66836663dcd91",
+    "duplicate_decision_ids": [],
+    "exact_aliases": [
+      {
+        "alias": "L-leucine",
+        "ids": [
+          "CHEMBL291962"
+        ],
+        "source_rows": [
+          {
+            "catalog_id": "CHEMBL291962",
+            "source": "ChEMBL",
+            "source_id": "CHEMBL291962",
+            "alias_type": "JAN",
+            "alias": "L-leucine"
+          },
+          {
+            "catalog_id": "CHEMBL291962",
+            "source": "ChEMBL",
+            "source_id": "CHEMBL291962",
+            "alias_type": "USP",
+            "alias": "L-leucine"
+          },
+          {
+            "catalog_id": "CHEMBL291962",
+            "source": "DrugCentral",
+            "source_id": "1557",
+            "alias_type": "name_or_synonym",
+            "alias": "L-Leucine"
+          }
+        ]
+      },
+      {
+        "alias": "leucine",
+        "ids": [
+          "CHEMBL291962"
+        ],
+        "source_rows": [
+          {
+            "catalog_id": "CHEMBL291962",
+            "source": "ChEMBL",
+            "source_id": "CHEMBL291962",
+            "alias_type": "INN",
+            "alias": "Leucine"
+          },
+          {
+            "catalog_id": "CHEMBL291962",
+            "source": "ChEMBL",
+            "source_id": "CHEMBL291962",
+            "alias_type": "MERCK_INDEX",
+            "alias": "Leucine"
+          },
+          {
+            "catalog_id": "CHEMBL291962",
+            "source": "ChEMBL",
+            "source_id": "CHEMBL291962",
+            "alias_type": "OTHER",
+            "alias": "Leucine"
+          },
+          {
+            "catalog_id": "CHEMBL291962",
+            "source": "ChEMBL",
+            "source_id": "CHEMBL291962",
+            "alias_type": "USAN",
+            "alias": "Leucine"
+          },
+          {
+            "catalog_id": "CHEMBL291962",
+            "source": "ChEMBL",
+            "source_id": "CHEMBL291962",
+            "alias_type": "USP",
+            "alias": "Leucine"
+          },
+          {
+            "catalog_id": "CHEMBL291962",
+            "source": "ChEMBL",
+            "source_id": "CHEMBL291962",
+            "alias_type": "preferred",
+            "alias": "LEUCINE"
+          },
+          {
+            "catalog_id": "CHEMBL291962",
+            "source": "DrugCentral",
+            "source_id": "1557",
+            "alias_type": "name_or_synonym",
+            "alias": "leucine"
+          }
+        ]
+      }
+    ],
+    "interpretation": "Source2020 explicitly names L-leucine. LACE read main/protocol/registry names leucine, with no catalog/CAS/stereo string; do not invent purity/product equivalence. Main-catalog/NIH exact lexical join is not current availability, approval or preparation efficacy.",
+    "repo_edited": false,
+    "earlier_working_tree_check": {
+      "head_at_time": "72b1a8b3f78863bbf536a45ed6d7c6d107040c33",
+      "ledger_count": 225,
+      "ledger_sha256": "5a69ac5c857e5a2a1ca89f2d38e7e859f88c10c5b88d343b5cb66836663dcd91",
+      "scope": "Uncommitted225-entry working tree at time of check, not the ledger of commit f2fe957."
+    },
+    "NIH_name_groups": [
+      {
+        "group_id": "2315",
+        "name": "Leucine"
+      },
+      {
+        "group_id": "2188",
+        "name": "L-Leucine"
+      }
+    ]
+  },
+  "studies": [
+    {
+      "pmid": "32230954",
+      "pmcid": "PMC7230494",
+      "doi": "10.3390/nu12040932",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7230494/",
+      "main_file": "2020-main.xml",
+      "main_sha256": "3d6877a0348d35e0b8e5cc2cf5a1897793a277ee4a20c66569e3bbff69234bfa",
+      "registry": "NCT03831399",
+      "read_depth": "Complete scientific main and native Figures1/2; native structured Tables1/2; complete current registry protocol.",
+      "identity": {
+        "source_name": "L-leucine",
+        "supplier": "Bonusan",
+        "physical_form": "powder",
+        "catalog_CAS_purity_batch": null,
+        "dose": "6 g/day in two approximately 3-g administrations",
+        "route": "oral, dissolved in water or juice",
+        "schedule": "Morning shortly after breakfast (9–10 am) and afternoon (4–5 pm) for 13 weeks",
+        "comparator": "Lactose 6 g/day on the same schedule",
+        "baseline_and_endpoint_window": "Baseline approximately five weeks before randomization; re-evaluation within one month after intervention completion."
+      },
+      "design": {
+        "setting": "Three nursing homes in Valencia, Spain",
+        "age": "65–93 years; mean 78.9",
+        "confirmed_sarcopenia_required": "Not an explicit inclusion requirement in Methods; inclusion required ability to walk six metres and age 65 or over.",
+        "randomized": 50,
+        "leucine_allocated": 28,
+        "placebo_allocated": 22,
+        "leucine_analyzed": 23,
+        "placebo_analyzed": 19,
+        "leucine_withdrawals": 5,
+        "placebo_withdrawals": 3,
+        "analysis": "Completers only, not intention-to-treat; explicitly acknowledged",
+        "masking": "Double-blind as reported; supplier product-developer coauthors performed blinded allocation and reportedly did not see participants/results",
+        "sequence_concealment_algorithm": "Not described in sufficient detail to reproduce",
+        "formal_training_intervention": false,
+        "compliance": "91.5% leucine and 93.5% placebo among completers",
+        "statistics": "Mann–Whitney between-arm tests; nominal .05 threshold; no multiplicity correction described; multiple sarcopenia and respiratory endpoints."
+      },
+      "outcomes": [
+        {
+          "endpoint": "Walking-time ratio to own baseline",
+          "unit": "baseline=100 percent",
+          "leucine": 101.43,
+          "placebo": 134.41,
+          "dispersion_as_printed": [
+            6.0,
+            10.47
+          ],
+          "p": 0.011,
+          "contrast": "between treatment arms, baseline-relative change",
+          "interpretation": "Relative preservation vs placebo slowing; not proven large improvement above own baseline",
+          "absolute_followup_p": 0.285
+        },
+        {
+          "endpoint": "Maximum expiratory mouth pressure ratio",
+          "unit": "baseline=100 percent; raw pressure unit not assigned here",
+          "leucine": 99.05,
+          "placebo": 77.67,
+          "dispersion_as_printed": [
+            6.8,
+            5.85
+          ],
+          "p": 0.026,
+          "contrast": "between treatment arms, baseline-relative change",
+          "interpretation": "Preserved expiratory-pressure performance; not direct diaphragm-force/clinical respiratory-event endpoint",
+          "absolute_followup_p": 0.875
+        },
+        {
+          "endpoint": "Handgrip change",
+          "p": 0.437,
+          "direction": "nonsignificant"
+        },
+        {
+          "endpoint": "Skeletal muscle-mass index change",
+          "p": 0.168,
+          "direction": "nonsignificant",
+          "limit": "Baseline index8.3vs10.4kg/m2 differed(P=.02);loss of post-treatment baseline imbalance significance is not proof of a treatment effect."
+        },
+        {
+          "endpoint": "Maximum inspiratory pressure change",
+          "p": 0.105,
+          "direction": "nonsignificant"
+        },
+        {
+          "endpoint": "Peak expiratory flow change",
+          "p": 0.272,
+          "direction": "nonsignificant"
+        },
+        {
+          "endpoint": "Daily function/cognition/nutritional assessment/inflammatory blood markers",
+          "direction": "No significant benefit reported"
+        }
+      ],
+      "safety": {
+        "reported": "Authors describe tolerability; no adverse events recorded among dropouts; weekly gastrointestinal enquiry was specified.",
+        "blood": "Selected post-treatment hematology/chemistry markers showed no significant differences; creatinine0.82 versus0.81mg/dL,P=.91.",
+        "limit": "Not comprehensive proof of no harms, clinical renal equivalence or long-term/pediatric safety."
+      },
+      "source_issues": [
+        "Completion prose gives 42, 86%, and 14 men plus 29 women. Native flowchart 19+23 supports 42, or 84% of 50.",
+        "Baseline handgrip Results3.3 values 43.03/35.97 conflict with Table1 values 16.3/19.2 kg; no silent repair.",
+        "Power paragraph says crossover although the actual study and registry describe a parallel trial.",
+        "Reported large Cohen d values were not independently validated; individual normalized observations are unavailable.",
+        "Abstract/discussion lean-mass benefit is not supported by the actual baseline-relative comparison, P=.168.",
+        "Current registry enrollment59 versus paper50; registry minimum age60 versus paper65.",
+        "Current registry primary outcomes are mass, strength and walking; respiratory strength is secondary, unlike the paper broad primary grouping.",
+        "Registry masking text names microcrystalline cellulose and prebiotics while arm text names lactose; registry noon/8pm timing differs from main9–10am/4–5pm.",
+        "Registry current version was updated6April2020 after27March publication; original prespecification is not established from the current snapshot."
+      ],
+      "statistics_note": "Reported individual endpoint tests are retained; no participant-level recalculation or multiplicity-adjusted efficacy claim."
+    },
+    {
+      "pmid": "35174663",
+      "pmcid": "PMC8977979",
+      "doi": "10.1002/jcsm.12934",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8977979/",
+      "main_file": "2022-main.xml",
+      "main_sha256": "cc28d6434d1175369f50669aa34a82a493e0e8e358c4d8c6dce59cdd4fe6f616",
+      "registry": "ISRCTN90094835",
+      "read_depth": "Complete scientific main/native Figures1/2 and structured Tables1–6;complete extractable supplement text plus native TablesS3/S4;selected protocol sections;complete current WHO-format registry.",
+      "identity": {
+        "source_name": "leucine",
+        "supplier": "Amino GmbH, Freilstedt, Germany as printed",
+        "release_packaging": "Tayside Pharmaceuticals, Dundee; quality testing and qualified-person release; 400-g pots",
+        "stereochemistry_limit": "Read main, protocol and registry use leucine without an explicit L-isomer string or CAS. This does not demonstrate a different isomer, but batch or retail-product equivalence is not verified.",
+        "dose": "2.5 g three times daily, 7.5 g/day",
+        "route": "oral with meals;powder mixed with food/drinks/yoghurt",
+        "duration": "12 months",
+        "comparator": "Lactose powder",
+        "factorial_other_intervention": "Independent randomization to perindopril erbumine 2mg then4mg or capsule placebo; not an inseparable leucine–perindopril preparation."
+      },
+      "design": {
+        "randomized": 145,
+        "planned_recruitment": 440,
+        "stopped_reason": "Slow recruitment; funder stopped the trial",
+        "screened": 320,
+        "four_cells": {
+          "perindopril_leucine": 39,
+          "perindopril_leucine_placebo": 34,
+          "perindopril_placebo_leucine": 33,
+          "double_placebo": 39
+        },
+        "leucine_n": 72,
+        "no_leucine_n": 73,
+        "age": "70 years or over; mean approximately79",
+        "sarcopenia_definition": "Low BIA mass plus low gait/grip at entry; DXA reclassification limits; only44 met confirmed EWGSOP2019 criteria.",
+        "allocation": "Remote concealed web system; site stratification and minimization with a random element",
+        "masking": "Participants/research team/outcome assessors masked;analysis unmasking after completion",
+        "primary": "SPPB difference over repeated six- and twelve-month follow-up",
+        "analysis": "Modified intention-to-treat mixed models with baseline/minimization covariates and available follow-up; not145 complete observations.",
+        "SPPB_observed_n": {
+          "baseline": [
+            72,
+            73
+          ],
+          "6months": [
+            59,
+            62
+          ],
+          "12months": [
+            52,
+            57
+          ]
+        },
+        "factorial_interaction_p": 0.59,
+        "leucine_adherence_median_percent": [
+          76.2,
+          75.6
+        ],
+        "adherence_between_groups_p": 0.99,
+        "adherence_treatment_interaction_p": 0.85,
+        "multiplicity": "Explicitly no adjustment for multiple testing",
+        "formal_training_intervention": false
+      },
+      "primary_outcome": {
+        "endpoint": "SPPB",
+        "adjusted_effect": 0.1,
+        "unit": "points",
+        "ci95": [
+          -1.0,
+          1.1
+        ],
+        "p": 0.9,
+        "unadjusted_ci95": [
+          -0.7,
+          0.8
+        ],
+        "unadjusted_p": 0.83,
+        "MCID_planning": 0.5,
+        "interpretation": "Overall null with imprecision; confidence interval permits meaningful benefit and worsening, not equivalence.",
+        "12month_adjusted": {
+          "effect": -0.5,
+          "ci95": [
+            -3.1,
+            2.0
+          ],
+          "p": 0.66
+        },
+        "12month_worstcase_missing0_adjusted": {
+          "effect": 0.6,
+          "ci95": [
+            -1.9,
+            3.1
+          ],
+          "p": 0.6
+        }
+      },
+      "secondary_outcomes": [
+        {
+          "endpoint": "Grip strength",
+          "effect": -0.3,
+          "unit": "kg",
+          "ci95": [
+            -1.2,
+            0.7
+          ],
+          "p": 0.55
+        },
+        {
+          "endpoint": "Quadriceps strength",
+          "effect": -1.0,
+          "unit": "kg",
+          "ci95": [
+            -4.4,
+            2.4
+          ],
+          "p": 0.55
+        },
+        {
+          "endpoint": "Six-minute walk",
+          "effect": 17,
+          "unit": "m",
+          "ci95": [
+            -25,
+            59
+          ],
+          "p": 0.43
+        },
+        {
+          "endpoint": "Gait speed",
+          "effect": 0.01,
+          "unit": "m/s",
+          "ci95": [
+            -0.18,
+            0.19
+          ],
+          "p": 0.96
+        },
+        {
+          "endpoint": "Chair-stand time",
+          "effect": -3.1,
+          "unit": "s",
+          "ci95": [
+            -9.5,
+            3.3
+          ],
+          "p": 0.34
+        },
+        {
+          "endpoint": "Nottingham extendedADL",
+          "effect": -2.0,
+          "ci95": [
+            -7.4,
+            3.5
+          ],
+          "p": 0.48
+        },
+        {
+          "endpoint": "Muscle mass/index",
+          "effect": -0.3,
+          "ci95": [
+            -1.0,
+            0.4
+          ],
+          "p": 0.47,
+          "unit_limit": "Main abstract labels kg; supplementS3 defines appendicular mass divided by height squared. Units are not silently converted or repaired."
+        },
+        {
+          "endpoint": "EQ5D utility",
+          "effect": -0.06,
+          "ci95": [
+            -0.11,
+            -0.01
+          ],
+          "p": 0.03,
+          "interpretation": "Nominal worse score among multiple unadjusted tests; not a general harm conclusion."
+        },
+        {
+          "endpoint": "EQ5D thermometer",
+          "effect": -3,
+          "ci95": [
+            -12,
+            6
+          ],
+          "p": 0.53
+        }
+      ],
+      "subgroups": [
+        {
+          "label": "Protein intake below median1.01g/kg/day",
+          "effect": 2.6,
+          "ci95": [
+            0.6,
+            4.5
+          ],
+          "interaction_p_reported": 0.7,
+          "prespecification": "Main describes prespecified; current protocol mentions protein interaction, but final SAP was not read."
+        },
+        {
+          "label": "Confirmed EWGSOP2019 sarcopenia",
+          "n": 44,
+          "effect": 1.7,
+          "ci95": [
+            0.7,
+            2.7
+          ],
+          "interaction_p_reported": 0.06,
+          "prespecification": "Post hoc"
+        },
+        {
+          "label": "Age over80",
+          "effect": 1.3,
+          "ci95": [
+            0.4,
+            2.3
+          ],
+          "interaction_p_reported": 0.76,
+          "prespecification": "Main describes prespecified; published protocol statistics describes age above/below median."
+        }
+      ],
+      "subgroup_interpretation": "Positive within-subgroup estimates are retained. Reported nonsignificant interactions do not establish responder selection or overturn the overall null; no participant-level reanalysis of the subgroup or interaction estimates was performed.",
+      "safety": {
+        "pooled_native_S4_adverse_events": [
+          187,
+          196
+        ],
+        "pooled_native_S4_people_with_AE": [
+          67,
+          64
+        ],
+        "denominators": [
+          72,
+          73
+        ],
+        "pooled_descriptive_only": true,
+        "events_not_people": true,
+        "interpretation": "Overall event counts were similar, as authors describe. This is not absence of events, causal renal protection or long-term safety. Independently randomized perindopril exposure is preserved."
+      },
+      "source_issues": [
+        "Abstract72/72 is inconsistent with145 total and Table1; leucine comparison is72/73.",
+        "Published protocol includes3- and9-month SPPB visits; final main uses6/12. Current registry labels12-month SPPB primary, whereas journal emphasizes repeated follow-up. Both reported primary and12-month sensitivity results are null.",
+        "Current registry target352 differs from protocol recruitment440 including dropout allowance; retain both scopes.",
+        "Published protocol perindopril capsule filler is lactose whereas final main names cellulose; leucine powder placebo is lactose in both.",
+        "Table5 faller counts total67 across perindopril categories versus64 across leucine categories; unresolved. Do not reconstruct individual fall risk from these inconsistent counts.",
+        "Final statistical analysis plan and registry history were not read; no perfect-prespecification claim."
+      ]
+    }
+  ],
+  "reading_manifest": {
+    "file": "reading-manifest.json",
+    "sha256": "3a9f4ed7877990708dc1cda835084f0212dd7b58112bb39aa2bbdb8180969d06"
+  },
+  "gene_and_function_boundary": {
+    "bub1b_bubr1_outcome_reported_in_two_full_mains": false,
+    "chromosome_fidelity_tested": false,
+    "MVA_cohort": false,
+    "mTOR_or_protein_synthesis_mediation_demonstrated_in_these_trials": false,
+    "interpretation": "Actual human functional tests merit comparison; mechanistic background or lean mass does not establish BUBR1 restoration or MVA efficacy."
+  },
+  "competitiveness": {
+    "disposition": "Retain mixed human functional comparator: selected2020 walking/expiratory-pressure preservation contrasted with larger LACE primary and functional nulls.",
+    "fairness": "Neither current nominee has demonstrated MVA benefit; leucine is not rejected solely for that shared limitation.",
+    "niacin": "Leucine functional signals are actual intervention results; niacin retains separate NAD engagement and restoration hypothesis. No head-to-head or MVA superiority is established.",
+    "apitegromab": "Does not replace the existing stronger randomized disease-specific motor-function comparison on these mixed older-adult sources; SMA-to-MVA transfer is also unproved.",
+    "promotion": "No automatic nominee replacement or patient recommendation."
+  },
+  "notice_check": {
+    "date_local": "2026-09-23",
+    "method": "Fresh EuropePMC exact-ID core records and exact-DOI correction/retraction searches; no linked notice identified.",
+    "limit": "Bounded check, not exhaustive assurance."
+  },
+  "source_access_limits": [
+    "Both main XMLs and native figures were lawfully available; institutional PDFs returned403, so no main-PDF inspection is claimed.",
+    "ISRCTN webpage returned a JavaScript holding page. Its documented public WHO-format XML API succeeded; no access bypass.",
+    "No separate2020 supplement was linked in the saved XML/assets; its current registry has no documents/results.",
+    "Remaining LACE supplement graphs concern titration or meta-analysis and were not visually qualified. No wider trial tree was followed."
+  ],
+  "outer_reading_credit": 0,
+  "new_study_credit": 0,
+  "reviewer_performed_biological_replication": false,
+  "source_assets": [
+    {
+      "file": "2020-main.xml",
+      "sha256": "3d6877a0348d35e0b8e5cc2cf5a1897793a277ee4a20c66569e3bbff69234bfa",
+      "scope": "Full scientific main read"
+    },
+    {
+      "file": "2022-main.xml",
+      "sha256": "cc28d6434d1175369f50669aa34a82a493e0e8e358c4d8c6dce59cdd4fe6f616",
+      "scope": "Full scientific main read"
+    },
+    {
+      "file": "NCT03831399.json",
+      "sha256": "0677e716e8169b75d9d812c125453e3423e08939370f249d2bb88828fd72b591",
+      "scope": "Current full protocol record read"
+    },
+    {
+      "file": "ISRCTN90094835-who.xml",
+      "sha256": "290bb0c3dbe2121209ace8ca7b5f027c6bdc868298ee48395ad2f79539517306",
+      "scope": "Current WHO-format trial record read"
+    },
+    {
+      "file": "LACE-protocol.xml",
+      "sha256": "e763e72be4846faa9472e79bafaa02aa57f0c0420f5675d3b30ee05cbb4cf6ea",
+      "scope": "Selected protocol sections read"
+    },
+    {
+      "file": "2022-assets/JCSM-13-858-s001.pdf",
+      "sha256": "9c5b52f620b186c8f5cae6c25326d83334a38e6c5a014b56e8f0541df6c0f21e",
+      "scope": "All extractable text plus native pages5/6; remaining images not qualified"
+    }
+  ],
+  "retrieval_manifest": {
+    "file": "retrieval-manifest.json",
+    "sha256": "d9157b1756ee5c241be6e335aa50bbdabba18fba5bffd4633a186a8f870eb9b2"
+  },
+  "search_manifest": {
+    "file": "search-manifest.json",
+    "sha256": "b1aaf6ad4229beab7ea7fffdfa8ecb2c96f9ec2fd49d0e2dc56c7c8d9f2277b1"
+  },
+  "optional_join_check": {
+    "file": "optional-join-check/decision-alias-joins.tsv",
+    "sha256": "66ebfa9013da9639e0b89ef30555c860c66c727bd1530575fbe341efbe0cda62",
+    "scope": "Actual current join_decisions with complete alias index; catalog output restricted to relevant CHEMBL291962 entity. Repository unchanged."
+  },
+  "source_reviewer_status": "External qualified comparison; optional entry pending root admission",
+  "source_reviewer_repo_edited": false,
+  "source_reviewer_qualification_md": "qualification.md",
+  "source_reviewer_qualification_md_sha256": "e325b4ea817b5b63204f4d18bfa526a5a264bbc68f5a068f1be663ff5d798004",
+  "status": "INTEGRATED_WITH_EXACT_INTERVENTION_AND_SOURCE_DEPTH_LIMITS",
+  "qualification_md": "leucine-muscle-qualification.md",
+  "qualification_md_sha256": "b6663ed8f7062d145d0177b6fc669a679f8337165de613b0a13af011f9ea04d7",
+  "integration": {
+    "baseline": "72b1a8b3f78863bbf536a45ed6d7c6d107040c33",
+    "baseline_assessments": 225,
+    "current_assessments": 227,
+    "prior_decision_objects_unchanged": 225,
+    "new_decision_ids": [
+      "new-l-leucine-muscle"
+    ],
+    "source_json": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/leucine-muscle-primary-followup-20260923/qualification.json",
+      "sha256": "79bd4b134f708c3d8e0f04be5b0c380569acc1e847bec7113c58afaf229fb5aa"
+    },
+    "root_reading_manifest": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-muscle-supplement-integration-20260923/root-reading.json",
+      "sha256": "8776a4cc253fb71675251f714135d36452b772d4eb1d83caf4d8aca5e9961234"
+    },
+    "independent_review": {
+      "path": "/Users/jeweled/mva-hackathon/track2-drug-census-work/common-muscle-supplement-integration-20260923/independent-leucine/findings.md",
+      "sha256": "3d0b64046e9c31e2c64d3517ffd30f9d178e0f81c62448a788050b36c8300c9c"
+    },
+    "new_original_queue_credit": 0,
+    "independent_study_count_increment": 0,
+    "MVA_efficacy_or_nominee_superiority_established": false,
+    "research_disposition": "retain mixed functional comparator; nominal small-trial preservation versus larger primary null, no BUB1B/MVA rescue established"
+  }
+}
