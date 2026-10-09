@@ -12,6 +12,8 @@ OVERLAYS = (
     ROOT / 'cpdat-v4.1',
     ROOT / 'cpdat-v4.1' / 'articles',
 )
+REFINEMENTS = ROOT / 'cpdat-v4.1' / 'ledger-refinements-20261008.json'
+REFINEMENTS_SHA256 = '3e55c137b70fd396574e7e0d45092fd7831afe23ee60abf0df76d92805a1650f'
 
 
 def digest(path):
@@ -23,8 +25,8 @@ def tsv(path):
         return list(csv.DictReader(f, delimiter='\t'))
 
 
-def decision_snapshot(ledger_bytes, recorded_count, recorded_sha256):
-    """Authenticate the ledger used by a dated overlay, allowing later appends."""
+def decision_snapshot(ledger_bytes, recorded_count, recorded_sha256, refinements=None):
+    """Authenticate a dated ledger, allowing appends and exact audited refinements."""
     ledger = json.loads(ledger_bytes)
     decisions = ledger['decisions']
     assert 0 <= recorded_count <= len(decisions), 'Recorded decision snapshot is truncated'
@@ -35,11 +37,34 @@ def decision_snapshot(ledger_bytes, recorded_count, recorded_sha256):
         # when it reproduces the exact bytes authenticated by the recorded hash.
         ledger['decisions'] = decisions[:recorded_count]
         snapshot_bytes = (json.dumps(ledger, indent=2, ensure_ascii=False) + '\n').encode('utf-8')
+    if hashlib.sha256(snapshot_bytes).hexdigest() == recorded_sha256:
+        return decisions[:recorded_count]
+    assert refinements is not None, 'Recorded decision snapshot changed'
+    assert refinements['recorded_decision_count'] == recorded_count, 'Refinement snapshot count differs'
+    assert refinements['recorded_ledger_sha256'] == recorded_sha256, 'Refinement snapshot hash differs'
+    ledger['decisions'] = decisions[:recorded_count]
+    for key, values in refinements['metadata_refinements'].items():
+        assert key != 'decisions', 'Decision objects require separately audited refinements'
+        assert key in ledger and ledger[key] in (values['original'], values['accepted_current']), 'Unrecorded ledger metadata refinement'
+        ledger[key] = values['original']
+    seen = set()
+    for item in refinements['decision_refinements']:
+        index = item['index']
+        assert 0 <= index < recorded_count and index not in seen, 'Invalid refinement index'
+        seen.add(index)
+        current = ledger['decisions'][index]
+        original = item['original_object']
+        assert current['decision_id'] == original['decision_id'] == item['decision_id'], 'Refined decision identity changed'
+        if current != original:
+            current_hash = hashlib.sha256(json.dumps(current, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
+            assert current_hash == item['accepted_current_object_sha256'], 'Unrecorded decision refinement'
+        ledger['decisions'][index] = original
+    snapshot_bytes = (json.dumps(ledger, indent=2, ensure_ascii=False) + '\n').encode('utf-8')
     assert hashlib.sha256(snapshot_bytes).hexdigest() == recorded_sha256, 'Recorded decision snapshot changed'
-    return decisions[:recorded_count]
+    return ledger['decisions']
 
 
-def check_overlay(overlay, ledger_bytes):
+def check_overlay(overlay, ledger_bytes, refinements=None):
     manifest = json.loads((overlay / 'source-manifest.json').read_text())
     summary = json.loads((overlay / 'screen-summary.json').read_text())
     for item in manifest['outputs']:
@@ -49,7 +74,7 @@ def check_overlay(overlay, ledger_bytes):
     assert manifest['screening_script_sha256'] == digest(ROOT / 'build_cpdat_bub1b_screen.py')
     assert summary['decision_ledger_sha256'] == manifest['decision_ledger_sha256']
     assert summary['decision_ledger_count'] == manifest['decision_ledger_count']
-    decisions = decision_snapshot(ledger_bytes, summary['decision_ledger_count'], manifest['decision_ledger_sha256'])
+    decisions = decision_snapshot(ledger_bytes, summary['decision_ledger_count'], manifest['decision_ledger_sha256'], refinements)
     decision_ids = {d['decision_id'] for d in decisions}
     assert summary['cpdat_archive_sha256'] == manifest['archive_sha256']
     assert summary['gene_corpus_sha256'] == manifest['target_corpus_sha256']
@@ -112,6 +137,8 @@ def check_overlay(overlay, ledger_bytes):
 
 
 def check():
+    assert digest(REFINEMENTS) == REFINEMENTS_SHA256, 'Dated refinement audit changed'
+    refinements = json.loads(REFINEMENTS.read_text())
     ledger_bytes = (ROOT / 'decisions.json').read_bytes()
     decisions = json.loads(ledger_bytes)['decisions']
     decision_ids = {d['decision_id'] for d in decisions}
@@ -123,7 +150,7 @@ def check():
         'new-ozone-bubr1b-downregulation',
         'new-quercetin-aglycone-bubr1b-screen',
     } <= decision_ids
-    return {'result': 'PASS', 'current_decisions': len(decisions), 'overlays': [check_overlay(o, ledger_bytes) for o in OVERLAYS]}
+    return {'result': 'PASS', 'current_decisions': len(decisions), 'dated_refinement_audit': str(REFINEMENTS.relative_to(ROOT)), 'overlays': [check_overlay(o, ledger_bytes, refinements) for o in OVERLAYS]}
 
 
 if __name__ == '__main__':

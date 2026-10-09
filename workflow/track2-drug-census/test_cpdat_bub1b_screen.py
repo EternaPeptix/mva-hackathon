@@ -68,6 +68,46 @@ class DecisionSnapshotTests(unittest.TestCase):
         with self.assertRaisesRegex(AssertionError, 'snapshot changed'):
             decision_snapshot(ledger_bytes(self.appended_ledger()), self.recorded_count, recorded_hash)
 
+    def audited_refinement(self):
+        ledger = self.appended_ledger()
+        ledger['date'] = '2026-10-04'
+        ledger['decisions'][0]['status'] = 'source-qualified revision'
+        current_hash = hashlib.sha256(json.dumps(ledger['decisions'][0], ensure_ascii=False,
+                                                sort_keys=True, separators=(',', ':')).encode()).hexdigest()
+        audit = {
+            'recorded_decision_count': self.recorded_count,
+            'recorded_ledger_sha256': self.recorded_sha256,
+            'metadata_refinements': {'date': {'original': self.ledger['date'], 'accepted_current': ledger['date']}},
+            'decision_refinements': [{'index': 0, 'decision_id': 'one',
+                                     'original_object': copy.deepcopy(self.ledger['decisions'][0]),
+                                     'accepted_current_object_sha256': current_hash}],
+        }
+        return ledger, audit
+
+    def test_exact_audited_refinement_and_later_append_pass(self):
+        ledger, audit = self.audited_refinement()
+        result = decision_snapshot(ledger_bytes(ledger), self.recorded_count, self.recorded_sha256, audit)
+        self.assertEqual(result, self.ledger['decisions'])
+        self.assertEqual(ledger['decisions'][0]['status'], 'source-qualified revision')
+        self.assertEqual(self.snapshot(self.ledger), self.ledger['decisions'])
+
+    def test_audited_refinement_rejects_unrecorded_edits_and_wrong_original(self):
+        for change in ('metadata', 'admitted_object', 'other_object', 'original_object', 'order'):
+            with self.subTest(change=change):
+                ledger, audit = self.audited_refinement()
+                if change == 'metadata':
+                    ledger['date'] = '2026-10-09'
+                elif change == 'admitted_object':
+                    ledger['decisions'][0]['status'] = 'unreviewed'
+                elif change == 'other_object':
+                    ledger['decisions'][1]['status'] = 'unreviewed'
+                elif change == 'original_object':
+                    audit['decision_refinements'][0]['original_object']['status'] = 'invented baseline'
+                else:
+                    ledger['decisions'][:2] = reversed(ledger['decisions'][:2])
+                with self.assertRaises(AssertionError):
+                    decision_snapshot(ledger_bytes(ledger), self.recorded_count, self.recorded_sha256, audit)
+
 
 if __name__ == '__main__':
     unittest.main()
