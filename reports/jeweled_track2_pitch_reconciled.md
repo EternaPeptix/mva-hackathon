@@ -1,6 +1,6 @@
 # jeweled — Track 2 revised pitch script
 
-**1 October 2026. Niacin restoration and apitegromab muscle compensation.** The revised [eight-slide deck](media/jeweled_track2_slides_20261001_final.pptx) and [V4 MP4](media/jeweled_track2_skylar_v4.mp4) present this proposal. Captions are unchanged from the verified V3 narration. The [Vimeo recording](https://vimeo.com/1228990028) currently remains V3; V4 publication and Track 2 portal submission are pending.
+**1 October 2026. Niacin restoration and apitegromab muscle compensation.** The revised [eight-slide deck](media/jeweled_track2_slides_20261001_final.pptx) and [V4 MP4](media/jeweled_track2_skylar_v4.mp4) present this proposal. Captions are unchanged from the verified V3 narration. **Delivery verified 8 October 2026:** the [Vimeo recording](https://vimeo.com/1228990028) serves V4, with signed-out playback and English captions verified. Track 2 [submission 1 is confirmed](submissions/track2-20261008/README.md). The narration is unchanged.
 
 The eight-slide movie is exactly 180 seconds, including 166.64 seconds of complete narration and 13.36 seconds of transitions. No biological drug experiment is claimed.
 
