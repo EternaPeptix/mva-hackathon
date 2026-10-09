@@ -1,6 +1,6 @@
 # Track 2: testing two ways to preserve muscle
 
-**Packaging updated 8 October 2026. Current coverage counts are reconciled; scientific conclusions and candidate choices are unchanged. Research proposal; V4 is published with signed-out playback and captions verified; Track 2 portal submission is pending.**
+**Packaging updated 8 October 2026. Current coverage counts are reconciled; scientific conclusions and candidate choices are unchanged. Research proposal; V4 is published with signed-out playback and captions verified; Track 2 [submission 1 is confirmed](submissions/track2-20261008/README.md).**
 
 The [adopted drug-census decision](../workflow/track2-drug-census/decision-report.md) is incorporated into this package. We nominate **niacin for BUBR1 restoration and apitegromab for downstream muscle compensation, tested separately**. Everolimus remains a conditional mTORC1 mechanism probe. Neither primary candidate has demonstrated MVA rescue. Their shared goal is greater absolute muscle output with preserved renewal and chromosome accuracy.
 
@@ -32,7 +32,7 @@ are the current local media. V4 measures **180 seconds: 166.64 seconds of speech
 13.36 seconds of transitions**, across eight slides. The deck and sampled encoded video
 frames were visually checked; the narration and captions are unchanged from V3. No
 full independent listening review is claimed. The [existing Vimeo URL](https://vimeo.com/1228990028)
-now serves V4. Signed-out playback at 01:30 and matching English captions were verified on 8 October 2026; portal delivery is pending. Repository
+now serves V4. Signed-out playback at 01:30 and matching English captions were verified on 8 October 2026; [Track 2 submission 1 is confirmed](submissions/track2-20261008/README.md). Repository
 visibility remains private during the event.
 
 [Submission status and retained review history](README.md) are separate from the
